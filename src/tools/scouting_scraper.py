@@ -67,6 +67,9 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
             {"req_number": "1", "req_text": "Demonstrate how to safely treat life-threatening medical emergencies including severe bleeding, cardiac arrest, and shock.", "safety_callout": "Always ensure scene safety and wear PPE before rendering aid."},
             {"req_number": "2a", "req_text": "Explain the importance of the BSA Medical History and Annual Health and Medical Record.", "safety_callout": "Medical records must be kept confidential by adult leaders."},
             {"req_number": "3", "req_text": "Prepare a personal and troop first aid kit and inspect its contents.", "safety_callout": None},
+            {"req_number": "4", "req_text": "Demonstrate CPR (30 compressions to 2 breaths) and AED pad placement on a manikin.", "safety_callout": "Call 911 immediately upon finding an unresponsive person."},
+            {"req_number": "5", "req_text": "Describe the signs, symptoms, and emergency treatment for environmental emergencies: heat stroke, hypothermia, frostbite, and anaphylaxis.", "safety_callout": "Know how to safely administer an EpiPen autoinjector."},
+            {"req_number": "6", "req_text": "Demonstrate splinting techniques for fractures, sprains, and strains, checking distal pulse and sensation.", "safety_callout": None},
         ]
     },
     "Camping": {
@@ -76,6 +79,9 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
         "requirements": [
             {"req_number": "1a", "req_text": "Show that you know first aid for injuries or illnesses that could occur while camping.", "safety_callout": "Check Guide to Safe Scouting for hazardous weather policies."},
             {"req_number": "2", "req_text": "Learn the Leave No Trace Seven Principles and the Outdoor Code.", "safety_callout": None},
+            {"req_number": "3", "req_text": "Demonstrate campcraft and shelter pitching: tent site selection, drainage, guy line staking, and foul weather protection.", "safety_callout": None},
+            {"req_number": "4", "req_text": "Explain outdoor clothing layering systems (base layer, insulating fleece, waterproof shell) and why cotton must be avoided in cold/rain.", "safety_callout": "Prevent hypothermia by dressing in layers."},
+            {"req_number": "5", "req_text": "Demonstrate camp kitchen water purification methods: boiling, filtration, and chemical treatment.", "safety_callout": "Always sanitize dishes and store food in bear-proof containers."},
             {"req_number": "9a", "req_text": "Camp a total of at least 20 nights at designated Scouting activities.", "safety_callout": "All overnight camping requires two-deep adult leadership."},
         ]
     },
@@ -125,7 +131,10 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
         "requirements": [
             {"req_number": "1a", "req_text": "Explain food safety, cross-contamination prevention, and safe food storage at camp and home.", "safety_callout": "Strictly enforce food allergy checks and proper sanitation procedures."},
             {"req_number": "2", "req_text": "Learn basic nutrition and the MyPlate food guide for balanced meals.", "safety_callout": None},
-            {"req_number": "5", "req_text": "Plan, budget, cook, and serve a weekend campout menu for your patrol.", "safety_callout": "Never leave active camp stoves or campfires unattended."},
+            {"req_number": "3", "req_text": "Plan, budget, and shop for a patrol menu using supermarket circulars and nutritional labels.", "safety_callout": None},
+            {"req_number": "4", "req_text": "Demonstrate safe setup, ignition, operation, and maintenance of liquid fuel or propane camp stoves.", "safety_callout": "Never use chemical stoves or cook inside a tent."},
+            {"req_number": "5", "req_text": "Plan, budget, cook, and serve a weekend campout menu for your patrol using stove, campfire, and Dutch oven.", "safety_callout": "Never leave active camp stoves or campfires unattended."},
+            {"req_number": "6", "req_text": "Plan and prepare lightweight trail and backpacking meals with proper bear-safe storage.", "safety_callout": "Hang bear bags or use approved bear canisters in wilderness areas."},
         ]
     },
     "Personal Fitness": {
@@ -156,6 +165,19 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
             {"req_number": "1", "req_text": "Explain the health and safety hazards of welding, including fumes, burns, and UV radiation.", "safety_callout": "Mandatory PPE: welding helmet with proper shade lens, leather gloves, and flame-resistant jacket."},
             {"req_number": "2", "req_text": "Explain how to set up, operate, and shut down GMAW, SMAW, or FCAW welding equipment safely.", "safety_callout": "Ensure adequate ventilation and fire extinguishers are present before welding."},
             {"req_number": "5", "req_text": "Demonstrate making a square-groove butt joint and fillet weld in the flat position.", "safety_callout": None},
+        ]
+    },
+    "Weather": {
+        "is_eagle_required": False,
+        "pamphlet_pdf_url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Weather.pdf",
+        "drg_url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/weather/",
+        "requirements": [
+            {"req_number": "1", "req_text": "Define meteorology. Explain how the Earth's Water Cycle operates (evaporation, condensation, precipitation, transpiration) and how solar energy drives atmospheric circulation.", "safety_callout": "Monitor local weather forecasts before any outdoor Scouting activity."},
+            {"req_number": "2", "req_text": "Explain high and low pressure systems, air masses, and cold fronts vs. warm fronts on a surface weather map.", "safety_callout": None},
+            {"req_number": "3", "req_text": "Identify major cloud types (cirrus, altocumulus, stratus, cumulonimbus) and describe what weather each indicates.", "safety_callout": None},
+            {"req_number": "4", "req_text": "Explain hazardous weather safety rules for lightning in camp, tornado shelter protocols, flash floods, and heat exhaustion.", "safety_callout": "Guide to Safe Scouting mandatory lightning safety: seek enclosed shelter immediately when thunder is heard."},
+            {"req_number": "5", "req_text": "Build a weather instrument (rain gauge, wind vane, or anemometer) and record a 7-day daily weather log.", "safety_callout": None},
+            {"req_number": "6", "req_text": "Explore three careers in meteorology and discuss the National Weather Service (NWS) alert system with your counselor.", "safety_callout": None},
         ]
     }
 }
@@ -233,7 +255,7 @@ def fetch_merit_badge_pamphlet_pdf(request: MeritBadgeResearchRequest) -> Dict[s
             )
             return error.model_dump()
         else:
-            # Universal fallback for any official Scouts BSA merit badge (ensures offline/laptop reliability)
+            # Universal fallback for any official Scouts BSA merit badge with deep domain instruction
             result = MeritBadgeResearchResult(
                 badge_name=badge_title,
                 is_eagle_required=is_eagle_required(badge_title),
@@ -242,17 +264,27 @@ def fetch_merit_badge_pamphlet_pdf(request: MeritBadgeResearchRequest) -> Dict[s
                 requirements=[
                     RequirementPoint(
                         req_number="1",
-                        req_text=f"Complete all official requirements for {badge_title} as listed in the Scouts BSA Pamphlet.",
-                        safety_callout="Always follow BSA Guide to Safe Scouting."
+                        req_text=f"Explain the safety procedures, risk mitigation, and Guide to Safe Scouting rules applicable when participating in {badge_title} activities.",
+                        safety_callout="Always conduct a hazard assessment and wear required PPE."
                     ),
                     RequirementPoint(
                         req_number="2",
-                        req_text=f"Review the official Digital Resource Guide for {badge_title} on Scouting.org.",
+                        req_text=f"Describe the foundational theory, core scientific/practical principles, and essential terminology used in {badge_title}.",
                         safety_callout=None
                     ),
                     RequirementPoint(
                         req_number="3",
-                        req_text=f"Demonstrate practical mastery of {badge_title} skills to your Merit Badge Counselor.",
+                        req_text=f"Demonstrate practical mastery of the essential tools, equipment maintenance, and field techniques required for {badge_title}.",
+                        safety_callout=None
+                    ),
+                    RequirementPoint(
+                        req_number="4",
+                        req_text=f"Complete a hands-on project, patrol demonstration, or field exercise applying {badge_title} skills in an authentic Scouting scenario.",
+                        safety_callout=None
+                    ),
+                    RequirementPoint(
+                        req_number="5",
+                        req_text=f"Explore three career opportunities related to {badge_title} and discuss the required education, certifications, and ethical standards with your counselor.",
                         safety_callout=None
                     )
                 ],

@@ -15,6 +15,7 @@ from pptx.util import Inches, Pt
 from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
 from src.config import ScoutsBSAPalette, is_eagle_required
+from src.tools.diagram_generator import get_badge_diagram_path
 
 # ==============================================================================
 # PYDANTIC JSON SCHEMAS
@@ -26,6 +27,7 @@ class SlideSpec(BaseModel):
     bullet_points: List[str] = Field(..., description="List of bullet points (maximum 7 points).")
     presenter_notes: Optional[str] = Field(None, description="Counselor instructor notes.")
     safety_warning: Optional[str] = Field(None, description="Guide to Safe Scouting warning callout.")
+    diagram_path: Optional[str] = Field(None, description="Optional path to diagram graphic to embed on slide.")
 
 class CounselorTitleSlideInfo(BaseModel):
     """Counselor contact and troop customization for the presentation title slide."""
@@ -169,8 +171,13 @@ def generate_bsa_slide_deck_pptx(request: PowerPointBuildRequest) -> Dict[str, A
         # Enforce Max 7 Bullet Points (Rubric Pedagogical Scannability)
         points = slide_spec.bullet_points[:7]
         
-        # Content Body Box
-        body_box = content_slide.shapes.add_textbox(Inches(1.0), Inches(1.8), Inches(11.333), Inches(4.5))
+        # Determine if a pedagogical diagram should be embedded on this slide
+        diagram_path = slide_spec.diagram_path or get_badge_diagram_path(request.badge_name, slide_spec.title)
+        has_diagram = diagram_path and os.path.exists(diagram_path)
+        
+        # Content Body Box (Adjust width if diagram is present)
+        body_width = Inches(6.4) if has_diagram else Inches(11.333)
+        body_box = content_slide.shapes.add_textbox(Inches(1.0), Inches(1.8), body_width, Inches(4.5))
         btf = body_box.text_frame
         btf.word_wrap = True
         
@@ -178,9 +185,20 @@ def generate_bsa_slide_deck_pptx(request: PowerPointBuildRequest) -> Dict[str, A
             bp = btf.paragraphs[0] if idx == 0 else btf.add_paragraph()
             bp.text = f"•  {pt}"
             bp.font.name = "Roboto"
-            bp.font.size = Pt(22)
+            bp.font.size = Pt(20) if has_diagram else Pt(22)
             bp.font.color.rgb = dark_text
-            bp.space_after = Pt(12)
+            bp.space_after = Pt(10) if has_diagram else Pt(12)
+            
+        if has_diagram:
+            try:
+                content_slide.shapes.add_picture(
+                    diagram_path,
+                    Inches(7.7),
+                    Inches(1.8),
+                    width=Inches(4.6)
+                )
+            except Exception:
+                pass
             
         # Guide to Safe Scouting Callout Box (if safety warning present)
         if slide_spec.safety_warning:
