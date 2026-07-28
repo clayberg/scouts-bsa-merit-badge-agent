@@ -18,6 +18,9 @@ def test_eagle_required_recognition():
     assert is_eagle_required("Citizenship in the Community") is True
     assert is_eagle_required("Robotics") is False
     assert is_eagle_required("Welding") is False
+    assert is_eagle_required(None) is False
+    assert is_eagle_required("") is False
+    assert is_eagle_required(12345) is False
 
 def test_fetch_merit_badge_pamphlet_success():
     req = MeritBadgeResearchRequest(badge_name="First Aid")

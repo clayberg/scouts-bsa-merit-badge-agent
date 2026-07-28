@@ -90,6 +90,8 @@ def is_eagle_required(badge_name: str) -> bool:
     Returns:
         bool: True if badge is Eagle-required, False otherwise.
     """
+    if not badge_name or not isinstance(badge_name, str):
+        return False
     cleaned_name = badge_name.strip().title()
     for req_badge in EAGLE_REQUIRED_BADGES:
         if req_badge.lower() == cleaned_name.lower():

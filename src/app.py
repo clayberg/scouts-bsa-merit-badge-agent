@@ -174,6 +174,10 @@ selected_badge_name = st.selectbox(
     filtered_df["Badge Name"].tolist()
 )
 
+if not selected_badge_name:
+    st.warning("⚠️ No merit badges match your current search/filter criteria. Please adjust your filters above.")
+    st.stop()
+
 is_eagle = is_eagle_required(selected_badge_name)
 if is_eagle:
     st.markdown('<div class="eagle-tag">★ EAGLE-REQUIRED MERIT BADGE ★</div>', unsafe_allow_html=True)
