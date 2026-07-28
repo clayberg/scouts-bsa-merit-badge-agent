@@ -12,4 +12,5 @@ if [ ! -f .env ]; then
 fi
 
 echo "🚀 Starting Scouts BSA Merit Badge Agent Streamlit Interface..."
+export PYTHONPATH=".:${PYTHONPATH:-}"
 streamlit run src/app.py --server.port 8501 --server.address localhost

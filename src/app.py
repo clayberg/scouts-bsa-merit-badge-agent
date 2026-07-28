@@ -8,8 +8,15 @@ This module implements:
 """
 
 import os
+import sys
 import streamlit as st
 import pandas as pd
+
+# Ensure project root directory is in sys.path so 'from src....' imports work reliably
+_project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
 from src.config import ScoutsBSAPalette, EAGLE_REQUIRED_BADGES, is_eagle_required
 from src.agents.coordinator import run_merit_badge_workflow
 
