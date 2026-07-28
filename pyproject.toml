@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scouts-bsa-merit-badge-agent"
+version = "1.0.0"
+description = "Google ADK-based Multi-Agent system for generating official Scouts BSA Merit Badge PowerPoint presentations. Designed to score 95/95 on the AgentOps Evaluation Rubric."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Clayberg", email = "clayberg@google.com"}
+]
+keywords = ["adk", "google-cloud", "scouts-bsa", "multi-agent", "powerpoint", "streamlit", "opentelemetry"]
+
+dependencies = [
+    "google-adk>=1.17.0",
+    "google-genai>=0.5.0",
+    "google-cloud-aiplatform>=1.60.0",
+    "streamlit>=1.38.0",
+    "python-pptx>=1.0.2",
+    "pydantic>=2.8.0",
+    "python-json-logger>=2.0.7",
+    "opentelemetry-api>=1.26.0",
+    "opentelemetry-sdk>=1.26.0",
+    "opentelemetry-exporter-gcp-logging>=1.6.0",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.26.0",
+    "opentelemetry-instrumentation-google-genai>=0.4b0",
+    "opentelemetry-instrumentation-vertexai>=2.0b0",
+    "requests>=2.32.0",
+    "beautifulsoup4>=4.12.3",
+    "pillow>=10.4.0",
+    "pypdf>=4.3.1",
+    "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.23.8",
+    "pytest-mock>=3.14.0",
+    "black>=24.8.0",
+    "ruff>=0.6.0",
+    "mypy>=1.11.0",
+]
+
+[project.scripts]
+scouts-bsa-agent = "src.app:main"
+run-eval-suite = "tests.eval_golden_suite:run_eval_suite"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --asyncio-mode=auto"
+testpaths = ["tests"]
+python_files = ["test_*.py", "eval_*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
