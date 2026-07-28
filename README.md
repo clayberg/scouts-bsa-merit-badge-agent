@@ -94,12 +94,3 @@ terraform apply \
   -var="project_id=your-gcp-project" \
   -var="region=us-central1"
 ```
-
----
-
-## 5. Automated FDE Evaluator (AI Judge) Submission Loop
-
-This project integrates with the [FDE Project Evaluator](https://fde-project-evaluator-510868799189.us-central1.run.app/) for automated AI Judge grading and continuous iteration until a 95/95 score is confirmed.
-1. Push repository to `https://github.com/clayberg/scouts-bsa-merit-badge-agent`.
-2. Enter the Git URL in `https://fde-project-evaluator-510868799189.us-central1.run.app/` and click **Evaluate Project**.
-3. Review category breakdown; any item `< 5 pts` triggers an automated remediation PR.
