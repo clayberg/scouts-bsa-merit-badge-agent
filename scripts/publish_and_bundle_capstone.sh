@@ -26,11 +26,11 @@ set -euo pipefail
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${PROJECT_ROOT}"
 
-PERSONAL_REPO_SSH="git@github.com:clayberg/scouts-bsa-merit-badge-agent.git"
 PERSONAL_REPO_HTTPS="https://github.com/clayberg/scouts-bsa-merit-badge-agent"
+PERSONAL_REPO_GIT="${PERSONAL_REPO_HTTPS}.git"
 
-FDE_ORG_REPO_SSH="git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git"
 FDE_ORG_REPO_HTTPS="https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent"
+FDE_ORG_REPO_GIT="${FDE_ORG_REPO_HTTPS}.git"
 
 DATE_STAMP="$(date -u +%Y%m%d)"
 CAPSTONE_TAG="${CAPSTONE_TAG:-capstone-${DATE_STAMP}}"
@@ -97,16 +97,19 @@ echo ""
 echo "======================================================================"
 echo "3. Configuring GitHub Remotes (Personal 'origin' + FDE Org 'fde')"
 echo "======================================================================"
+# Ensure global gitconfig does not force SSH over HTTPS when using gh auth git-credential
+git config --global --unset url.git@github.com:.insteadof 2>/dev/null || true
+
 if git remote get-url origin >/dev/null 2>&1; then
-  git remote set-url origin "${PERSONAL_REPO_SSH}"
+  git remote set-url origin "${PERSONAL_REPO_GIT}"
 else
-  git remote add origin "${PERSONAL_REPO_SSH}"
+  git remote add origin "${PERSONAL_REPO_GIT}"
 fi
 
 if git remote get-url fde >/dev/null 2>&1; then
-  git remote set-url fde "${FDE_ORG_REPO_SSH}"
+  git remote set-url fde "${FDE_ORG_REPO_GIT}"
 else
-  git remote add fde "${FDE_ORG_REPO_SSH}"
+  git remote add fde "${FDE_ORG_REPO_GIT}"
 fi
 
 git remote -v
@@ -159,23 +162,26 @@ echo "-> [6a] Pushing to Original Personal GitHub Repo (${PERSONAL_REPO_HTTPS}).
 if git push origin main && git push origin "${CAPSTONE_TAG}" --force; then
   echo "   SUCCESS: Pushed main and ${CAPSTONE_TAG} to ${PERSONAL_REPO_HTTPS}"
 else
-  echo "   WARNING: Could not push to ${PERSONAL_REPO_SSH}. Check SSH keys / network access."
+  echo "   WARNING: Could not push to ${PERSONAL_REPO_HTTPS}. Check gh auth status."
 fi
 
 echo ""
 echo "-> [6b] Pushing to Official FDE Capstone GitHub Org Repo (${FDE_ORG_REPO_HTTPS})..."
 if command -v gh >/dev/null 2>&1; then
   if ! gh repo view cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent >/dev/null 2>&1; then
-    echo "   Creating repository cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent via GitHub CLI..."
-    gh repo create cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent --private --description "Scouts BSA Merit Badge Counselor Workbench — FDE Capstone (Eric Clayberg)" || true
+    echo "   Provisioning cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent via cloud-ai-fde/org-repo-management (go/new-fde-repo)..."
+    gh issue create -R cloud-ai-fde/org-repo-management \
+      --title "[PERSONAL REPO REQUEST]: scouts-bsa-merit-badge-agent" \
+      --label "new-repo-request,personal-repo" \
+      --body $'### LDAP\n\nclayberg\n\n### Desired Project Name\n\nscouts-bsa-merit-badge-agent\n\n### Project description\n\nScouts BSA Merit Badge Counselor Workbench — FDE Capstone Project (Google ADK + Vertex AI + Cloud Run)\n\n### Remove FDE team-wide permissions on the repo?\n\n- [ ] Request NO FDE team-wide permissions on repo.\n\n### Why do you need this repository to be unshared?\n\n_No response_' || true
+    sleep 15
   fi
 fi
 
 if git push fde main && git push fde "${CAPSTONE_TAG}" --force; then
   echo "   SUCCESS: Pushed main and ${CAPSTONE_TAG} to ${FDE_ORG_REPO_HTTPS}"
 else
-  echo "   NOTE: Push to ${FDE_ORG_REPO_SSH} requires the repo to exist in 'cloud-ai-fde' and SSH/HTTPS auth."
-  echo "   If not created yet, run: gh repo create cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent --private --source=. --remote=fde --push"
+  echo "   WARNING: Could not push to ${FDE_ORG_REPO_HTTPS}. Check gh auth status."
 fi
 
 echo ""

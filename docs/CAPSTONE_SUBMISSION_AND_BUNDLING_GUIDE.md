@@ -60,11 +60,11 @@ set -euo pipefail
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${PROJECT_ROOT}"
 
-PERSONAL_REPO_SSH="git@github.com:clayberg/scouts-bsa-merit-badge-agent.git"
 PERSONAL_REPO_HTTPS="https://github.com/clayberg/scouts-bsa-merit-badge-agent"
+PERSONAL_REPO_GIT="${PERSONAL_REPO_HTTPS}.git"
 
-FDE_ORG_REPO_SSH="git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git"
 FDE_ORG_REPO_HTTPS="https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent"
+FDE_ORG_REPO_GIT="${FDE_ORG_REPO_HTTPS}.git"
 
 DATE_STAMP="$(date -u +%Y%m%d)"
 CAPSTONE_TAG="${CAPSTONE_TAG:-capstone-${DATE_STAMP}}"
@@ -94,8 +94,9 @@ if ! git diff --cached --quiet; then
 fi
 
 # 3. Configure Both Remotes ('origin' = personal, 'fde' = cloud-ai-fde org)
-git remote set-url origin "${PERSONAL_REPO_SSH}" 2>/dev/null || git remote add origin "${PERSONAL_REPO_SSH}"
-git remote set-url fde "${FDE_ORG_REPO_SSH}" 2>/dev/null || git remote add fde "${FDE_ORG_REPO_SSH}"
+git config --global --unset url.git@github.com:.insteadof 2>/dev/null || true
+git remote set-url origin "${PERSONAL_REPO_GIT}" 2>/dev/null || git remote add origin "${PERSONAL_REPO_GIT}"
+git remote set-url fde "${FDE_ORG_REPO_GIT}" 2>/dev/null || git remote add fde "${FDE_ORG_REPO_GIT}"
 
 # 4. Create Annotated Capstone Tag with Official Repo Metadata
 git tag -f -a "${CAPSTONE_TAG}" -m "FDE Capstone Submission (${CAPSTONE_TAG})
@@ -118,11 +119,15 @@ fi
 git push origin main
 git push origin "${CAPSTONE_TAG}" --force
 
-# 6b. Create (if needed) & Push to Official cloud-ai-fde Organization Repository
+# 6b. Provision (if needed via cloud-ai-fde/org-repo-management) & Push to Official cloud-ai-fde Org Repo
 if command -v gh >/dev/null 2>&1; then
-  gh repo view cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent >/dev/null 2>&1 || \
-    gh repo create cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent --private \
-      --description "Scouts BSA Merit Badge Counselor Workbench — FDE Capstone (Eric Clayberg)" || true
+  if ! gh repo view cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent >/dev/null 2>&1; then
+    gh issue create -R cloud-ai-fde/org-repo-management \
+      --title "[PERSONAL REPO REQUEST]: scouts-bsa-merit-badge-agent" \
+      --label "new-repo-request,personal-repo" \
+      --body $'### LDAP\n\nclayberg\n\n### Desired Project Name\n\nscouts-bsa-merit-badge-agent\n\n### Project description\n\nScouts BSA Merit Badge Counselor Workbench — FDE Capstone Project (Google ADK + Vertex AI + Cloud Run)\n\n### Remove FDE team-wide permissions on the repo?\n\n- [ ] Request NO FDE team-wide permissions on repo.\n\n### Why do you need this repository to be unshared?\n\n_No response_' || true
+    sleep 15
+  fi
 fi
 git push fde main
 git push fde "${CAPSTONE_TAG}" --force
@@ -132,7 +137,11 @@ git push fde "${CAPSTONE_TAG}" --force
 
 ## 3. Step-by-Step Commands: Uploading to Both GitHub Locations & Building the Bundle
 
-If you want to run each step manually or understand exactly how to push to both your original repository (`clayberg/scouts-bsa-merit-badge-agent`) and the official FDE organization repository (`cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`), follow these steps from your terminal:
+Both repositories are already provisioned, configured as remotes (`origin` and `fde`), and synced:
+- **Original Personal GitHub (`origin`)**: [`https://github.com/clayberg/scouts-bsa-merit-badge-agent`](https://github.com/clayberg/scouts-bsa-merit-badge-agent)
+- **Official FDE Organization GitHub (`fde`)**: [`https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`](https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent) (provisioned via [`cloud-ai-fde/org-repo-management#1007`](https://github.com/cloud-ai-fde/org-repo-management/issues/1007))
+
+If you want to run each step manually after making future edits, follow these steps from your terminal:
 
 ### Step 1: Navigate to the Project Directory
 ```bash
@@ -140,37 +149,21 @@ cd /usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge
 ```
 
 ### Step 2: Upload the Latest Version to Your Original Personal GitHub (`clayberg/scouts-bsa-merit-badge-agent`)
-Your `origin` remote is already configured for `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git`. To commit any latest edits and push them to your original repository:
+Your `origin` remote is configured for `https://github.com/clayberg/scouts-bsa-merit-badge-agent.git` (authenticated via `gh auth git-credential`). To commit any latest edits and push them to your original repository:
 ```bash
 git add -A
 git commit -m "chore(capstone): final documentation, companion guide Q&A, and rubric updates" || true
 git push origin main
 ```
 
-### Step 3: Create & Upload the Project to the Official FDE GitHub Org (`cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`)
-Stage 1 of `go/capstone-app` checks that your project repository is hosted under `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`.
+### Step 3: Upload the Latest Version to the Official FDE GitHub Org (`cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`)
+Your `fde` remote is configured for `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git`.
+*(Note: In the `cloud-ai-fde` organization, repositories are provisioned via `go/new-fde-repo` / `cloud-ai-fde/org-repo-management` issues rather than direct `gh repo create`. We already provisioned `cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` via Issue `#1007` with `@clayberg` as Admin.)*
 
-**Option 3A — Using the GitHub CLI (`gh`) (Recommended One-Liner)**:
+To push the latest `main` branch to `cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`:
 ```bash
-# Authenticate to GitHub if not already logged in
-gh auth status || gh auth login
-
-# Create the private repo in cloud-ai-fde (if it doesn't exist yet) and push main
-gh repo create cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent \
-  --private \
-  --description "Scouts BSA Merit Badge Counselor Workbench — FDE Capstone (Eric Clayberg)" \
-  --source=. \
-  --remote=fde \
-  --push
-```
-
-**Option 3B — If You Created `cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` in the Browser UI**:
-1. Open [`https://github.com/organizations/cloud-ai-fde/repositories/new`](https://github.com/organizations/cloud-ai-fde/repositories/new).
-2. Set Repository Name to `clayberg-scouts-bsa-merit-badge-agent` (**Private**, do **not** initialize with a README).
-3. Run:
-```bash
-git remote add fde git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git 2>/dev/null || \
-  git remote set-url fde git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git
+git remote set-url fde https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git 2>/dev/null || \
+  git remote add fde https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git
 
 git push -u fde main
 ```
