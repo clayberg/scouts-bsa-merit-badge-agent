@@ -157,9 +157,9 @@ Here is the breakdown of **when each of the 9 agent components (1 root coordinat
 | **1b. Local ZIP & Deep Research Grounding** | `WebSearchGroundingAgent` (`AgentTool`) | `gemini-2.5-flash` + `GoogleSearchTool` | Pipeline Stage 1 (when Deep Research is checked) | ~`3,800` input / ~`1,100` output | **`~$0.004`** | Uses fast, low-cost `gemini-2.5-flash` exclusively for web search synthesis and location resolution. |
 | **1c. 100% Sub-Requirement Audit** | `ResearchCoverageCriticAgent` | `gemini-2.5-pro` (`LoopAgent`, max 2) | Pipeline Stage 1 | ~`2,500` input / ~`450` output | **`~$0.008`** | Deterministic set-difference check (`verify_subrequirement_coverage()`) does the heavy lifting; LLM only repairs missing leaf IDs if needed. |
 | **2. 12-Archetype Storyboard, Workbook, Lesson Plan & Parent Letter** | `SlideContentPlannerAgent` | `gemini-2.5-pro` | Pipeline Stage 2 | ~`11,400` input (`76%` cached) / ~`6,800` output | **`~$0.082`** | Heavy pedagogical reasoning (mapping all requirements to 12 archetypes + EDGE notes) uses cached pamphlet context (`75%` discount on cached input tokens). |
-| **3. Theme Styling & EDGE Skill Concept Maps** | `SlideBeautifierAgent` | `gemini-2.5-flash` + Concept Map Renderer | Pipeline Stage 3 | `STANDARD`: ~`3,200` tokens (`0` AI images)<br>`BEAUTIFIED`: ~`5,500` tokens + up to `5` concept maps<br>`STUDIO`: ~`8,200` tokens + up to `15` concept maps | `STANDARD`: **`~$0.012`**<br>`BEAUTIFIED`: **`~$0.240`**<br>`STUDIO`: **`~$0.860`** | `STANDARD` generates zero AI concept maps; `BEAUTIFIED` caps concept maps at 5 requirement intro slides; `STUDIO` caps at 15 and never overwrites technical diagrams. |
+| **3. Theme Styling & EDGE Skill Concept Maps** | `SlideBeautifierAgent` | `gemini-2.5-flash` + Concept Map Renderer | Pipeline Stage 3 | `STANDARD`: ~`3,200` tokens (`0` AI images) • `BEAUTIFIED`: ~`5,500` tokens + up to `5` concept maps • `STUDIO`: ~`8,200` tokens + up to `15` concept maps | `STANDARD`: **`~$0.012`** • `BEAUTIFIED`: **`~$0.240`** • `STUDIO`: **`~$0.860`** | `STANDARD` generates zero AI concept maps; `BEAUTIFIED` caps concept maps at 5 requirement intro slides; `STUDIO` caps at 15 and never overwrites technical diagrams. |
 | **4. `.pptx` Compilation** | `PowerPointBuilderAgent` | `gemini-2.5-flash` | Pipeline Stage 5 (after HMAC HITL check) | ~`2,100` input / ~`350` output | **`~$0.002`** | Slide rendering (`python-pptx` shapes, font fitting, speaker notes) runs in compiled Python code. |
-| **5. Two-Stage Geometry & Safety Gate** | `BSABrandAndSafetyReviewAgent` | Stage 1: Deterministic Math (`0` tokens)<br>Stage 2: `gemini-2.5-pro` (`LoopAgent`, max 3) | Pipeline Stage 5 | Stage 1: **`0` tokens** (`<10ms`)<br>Stage 2: ~`4,200` input / ~`600` output | **`~$0.016`** | Stage 1 catches 100% of bounding-box overlaps, font-floor violations, and contrast issues at **`$0.00` token cost** before Stage 2 runs. |
+| **5. Two-Stage Geometry & Safety Gate** | `BSABrandAndSafetyReviewAgent` | Stage 1: Deterministic Math (`0` tokens) • Stage 2: `gemini-2.5-pro` (`LoopAgent`, max 3) | Pipeline Stage 5 | Stage 1: **`0` tokens** (`<10ms`) • Stage 2: ~`4,200` input / ~`600` output | **`~$0.016`** | Stage 1 catches 100% of bounding-box overlaps, font-floor violations, and contrast issues at **`$0.00` token cost** before Stage 2 runs. |
 | **6a. On-Demand Web Image Search** | `WebImageSearchAgent` | `gemini-2.5-flash` | **On-Demand Only** (when user clicks *Search Web Images* in Image Studio) | ~`1,200` input / ~`300` output | **`~$0.001`** | Never runs during initial deck generation; only engages when the counselor searches for additional slide photos. |
 | **6b. On-Demand Custom AI Slide Illustration** | `NanoBananaImageAgent` | `gemini-2.5-flash-image` (`Nano Banana`) / Imagen 3 | **On-Demand Only + User Consent Required** (when user clicks *Generate* in Image Studio) | ~`2,580` image/prompt/verifier tokens per generated graphic | **`$0.080 / image`** | Never runs without first running `estimate_nano_banana_image_cost()` and verifying `user_consented=True`. Runs `verify_generated_image_matches_prompt()` and caches all generated images in SQLite (`badge_image_catalog`) for free reuse. |
 | **6c. On-Demand Local File Upload** | Local Pillow Validator (`upload_custom_slide_image`) | Deterministic Python (`0` tokens) | **On-Demand Only** (Tab 4 of Image Studio) | `0` tokens | **`$0.000`** | Validates `.png`/`.jpg`/`.webp` (`<= 10 MB`), normalizes to RGB PNG (`max 1600px`), and registers as `USER_UPLOAD` in `badge_image_catalog`. |
@@ -195,9 +195,8 @@ This section walks through all **8 core slides** plus the **2 Appendix / Backup 
 - **AABB Checks**: Short for **Axis-Aligned Bounding Box** geometry checks. Every shape on a PowerPoint slide is a rectangle defined by `(left, top, right, bottom)`. Our Stage 1 checker tests every pair of shapes on a slide in `<10ms` to confirm no two rectangles overlap.
 - **138 vs. 140 Badges Note**: Scouting America has **138 official Merit Badges**. Our UI dropdown shows 140 entries because it includes 2 clearly labeled `(Test Stub)` synthetic badges used by our automated CI fault-injection tests.
 
-#### Likely panel question on Slide 1
-- **Q**: *"Why frame the readout around a CTO, CIO, and CFO panel for Scouting America?"*
-- **How to answer**: *"The FDE Capstone rubric asks us to pitch to an executive buyer panel covering architecture (CTO), security/operations (CIO), and unit economics/TCO (CFO). Scouting America's National Council oversees 138 Merit Badges taught by tens of thousands of adult volunteers, so they care about three things: curriculum accuracy and Youth Protection safety, low-maintenance Cloud Run operations, and predictable cost per generated deck."*
+#### Associated Probing Questions on Slide 1
+- See **Section 5 (Possible Panelist Probing Questions)**: **`Q1`** (Executive CTO/CIO/CFO Framing), **`Q2`** (Instructional Prep vs. Scout Testing Boundary), **`Q10`** (SHA-256 Requirement Lock), and **`Q32`/`Q34`** (FinOps Unit Economics & Token Billing).
 
 ---
 
@@ -271,9 +270,8 @@ This section walks through all **8 core slides** plus the **2 Appendix / Backup 
 - **Session Compaction (`EventsCompactionConfig`)**:
   - We configure ADK's `EventsCompactionConfig(compaction_interval=5, overlap_size=2, compaction_strategy="additive")` (`src/memory/session_store.py`). Every 5 turns, older turns are summarized into a compact state digest while keeping the 2 most recent turns verbatim so context isn't lost.
 
-#### Likely panel question on Slide 4
-- **Q**: *"Why use a deterministic `SequentialAgent` + bounded `LoopAgent` instead of letting a single autonomous agent decide what tools to call?"*
-- **How to answer**: *"We evaluated three topologies in ADR-01: a single-prompt call, an open-ended autonomous peer graph, and a fixed `SequentialAgent` with bounded `LoopAgent` critics. Every Merit Badge deck has to go through the same five compliance gates: extract the pamphlet, verify 100% sub-requirement coverage, plan the storyboard, build the `.pptx`, and verify zero shape overlaps. Using `SequentialAgent` makes the workflow order deterministic and predictable in cost, while `LoopAgent(max_iterations=3)` gives us self-healing retries on the review step without risking an infinite loop."*
+#### Associated Probing Questions on Slide 4
+- See **Section 5 (Possible Panelist Probing Questions)**: **`Q7`** (`SequentialAgent` + `LoopAgent` vs. ReAct Swarm), **`Q8`** (Vertex AI `GoogleSearchTool` + `FunctionTool` Isolation via `AgentTool`), **`Q9`** (`gemini-2.5-flash` vs. `gemini-2.5-pro` Empirical Validation), **`Q12`** (Model Portability), **`Q13`** (9 Components vs. 7 Agents), **`Q14`** (Hybrid RAG Scale), and **`Q15`** (Session Compaction).
 
 ---
 
@@ -496,3 +494,464 @@ This section explains every piece of Google Cloud, AI agent, and software engine
 - **What it is**:
   - **Distroless**: A Docker base image maintained by Google that contains *only* Python 3 and our compiled packages: no `bash` shell, no `apt` package manager, and running as an unprivileged user (`uid=65532`). If an attacker ever found a vulnerability, they could not spawn a shell or install malware inside the container.
   - **Cloud Run Gen2**: Google Cloud's serverless container platform with a full Linux execution environment, fast CPU startup boost, and native support for mounting **Cloud Filestore (NFS)** volumes (`/mnt/filestore`) so generated `.pptx` decks, `.md` workbooks, and cached badge images persist across container scaling events.
+
+---
+
+## 5. Possible Panelist Probing Questions (Grouped by Theme & Annotated by Slide & Rubric Subcategory)
+
+This section brings together every probing question that panelists may ask either **during your 10-minute slide readout** or **during the 15-minute live Q&A defense**. It unifies and deduplicates:
+1. All **27 Suggested Panelist Probing Questions** generated by the `fde-artifact-analyzer` (v3.8) across the 6 Part B engineering domains (`1.1` through `6.8`).
+2. All **CTO, CIO, CFO, and SRE questions** from our earlier Companion Guide and Panel Playbook.
+3. **10+ additional Part A (Advisory & Delivery Rigor) and Live-Demo Edge-Case questions** covering Scouting America advancement policy, multi-year partial completions, and notebook/Slides alternatives.
+
+Each question is tagged with its **Associated Slide(s) (`Slide 1` – `Slide 10`)** and **Official Rubric Subcategory**, followed by a natural, conversational **Golden Answer** and exact **Code & Test Citations**.
+
+---
+
+### 5.0 Quick Slide-to-Question Lookup Index (For Mid-Presentation Interruptions)
+
+If a panelist jumps in with a question while you have a specific slide on screen, use this index to jump straight to the matching Golden Answers:
+
+| Presentation Slide | Slide Title & Focus | Associated Probing Questions |
+| :--- | :--- | :--- |
+| **Slide 1** | **Title & Executive Summary** (`138 Badges`, `< 2 Min`, `$0.14–$1.00`, SHA-256 Lock) | `Q1`, `Q2`, `Q10`, `Q32`, `Q34` |
+| **Slide 2** | **Problem Statement & Customer Pain Points** (`6–10 Hr Prep`, Requirement Drift, EDGE Triage) | `Q2`, `Q3`, `Q4`, `Q6`, `Q10`, `Q11` |
+| **Slide 3** | **Functional Capabilities & Counselor StudioKit** (`4 Pillars`, ZIP Grounding, Co-Design Bar, 4-Tab Image Studio, A2A/A2UI) | `Q6`, `Q11`, `Q16`, `Q17`, `Q19`, `Q22`, `Q35`, `Q38` |
+| **Slide 4** | **Google ADK Multi-Agent Architecture & Vertex AI Patterns** (`SequentialAgent`, `LoopAgent`, `AgentTool`, Compaction, Hybrid RAG) | `Q7`, `Q8`, `Q9`, `Q12`, `Q14`, `Q15`, `Q18` |
+| **Slide 5** | **Security, Youth Protection (YPT) & Fault-Tolerant Engineering** (PII Scrubbing, Model Armor, HMAC HITL, Circuit Breaker, Terraform) | `Q20`, `Q21`, `Q22`, `Q23`, `Q24`, `Q25`, `Q28`, `Q29` |
+| **Slide 6** | **FinOps Unit Economics, TCO & Architectural Trade-Offs** (`$0.14 / $0.38 / $1.00`, `$282.50/mo` Council TCO, 68% RAG Savings, `<10ms` AABB) | `Q9`, `Q14`, `Q18`, `Q32`, `Q33`, `Q34`, `Q35`, `Q42` |
+| **Slide 7** | **AI-Driven Development Harness, Multi-Metric Eval Gate & Canary CI/CD** (`Recall@3 = 1.00`, `47` Pytest Tests, `10% -> 100%` Canary, OTel) | `Q27`, `Q30`, `Q36`, `Q37`, `Q39`, `Q40` |
+| **Slide 8** | **Prototype vs. Production Honesty & 90-Day National Rollout** (SQLite -> Cloud SQL `pgvector` RLS, Cloud Tasks, `my.scouting.org` SSO) | `Q5`, `Q14`, `Q20`, `Q26`, `Q30`, `Q31`, `Q38`, `Q41` |
+| **Slide 9** | **Appendix A (Backup 1/2): Co-Design Workbench, Image Studio & Zero-Overflow Layout Engine** (`_compute_fitting_font_size`, 8 Styles) | `Q16`, `Q17`, `Q18`, `Q19`, `Q32`, `Q35` |
+| **Slide 10** | **Appendix B (Backup 2/2): Complete Rubric Evidence Scorecard** (`95/95` AgentOps, `100/100` FDE Readiness, `2.89/3.00` Part B) | `Q36`, `Q37`, `Q40`, `Q41`, `Q42`, `Q43` |
+
+---
+
+### Group 1: Executive Framing, Problem Scope & BSA Domain Boundaries
+*(Associated with **Slide 1**, **Slide 2**, and **Slide 8** | Rubric Domain 2: Scoping & Documentation + Part A: Advisory Rigor)*
+
+#### **Q1. Why frame the readout around a CTO, CIO, and CFO executive panel for Scouting America?**
+- **Associated Slides**: **Slide 1** (Executive Summary), **Slide 6** (FinOps & TCO), **Slide 8** (90-Day National Rollout)
+- **Rubric Mapping**: **Part A.1 (Executive Presence & Narrative)** & **2.3 (Stakeholder Alignment)**
+- **Golden Answer**:
+  "In an enterprise FDE engagement with Scouting America's National Council, three different leaders have to sign off before a tool can roll out to 50,000+ volunteer counselors. The **CTO** cares about whether the AI hallucinates or paraphrases official requirements and whether the multi-agent architecture is maintainable on Vertex AI. The **CIO / CISO** cares about Youth Protection (YPT), COPPA privacy, and making sure youth or volunteer PII never leaks into model training logs. And the **CFO** of a non-profit cares about predictable unit economics—making sure a volunteer can't accidentally trigger a `$50` API loop, and keeping council-wide costs under `$300` a month. Structuring the readout around those three lenses addresses every buyer objection upfront."
+- **Code & Doc Citations**: `SCOPE.md` (Stakeholder Matrix), `docs/FDE_CAPSTONE_COMPANION_GUIDE.md` (§3.1).
+
+#### **Q2. How did you define the boundary between helping a counselor prepare instruction versus automating Scout testing (which BSA rules prohibit)?**
+- **Associated Slides**: **Slide 1** (Executive Summary), **Slide 2** (Problem Statement), **Slide 3** (Counselor StudioKit)
+- **Rubric Mapping**: **2.1 (Problem Definition)** & **1.5 (Domain-Applied AI/ML Expertise)**
+- **Golden Answer**:
+  "Scouting America's *Guide to Advancement* (§7.0.0.3 and §7.0.4.7) is crystal clear: a Merit Badge Counselor must personally test and coach each Scout using the EDGE method, and may never add to, delete from, or automate the sign-off of requirements. We drew a hard product boundary in `SCOPE.md`: our workbench is strictly a **Counselor Preparation & Instructional Workbench**, not a 'Scout auto-grader' or autonomous Blue Card signer. It generates the counselor's slide deck, Socratic `[ASK SCOUTS]` prompts, hands-on patrol station checklists, and printable Scout workbooks so the counselor spends zero hours formatting slides on Saturday night and 100% of their troop meeting coaching and evaluating Scouts face-to-face."
+- **Code & Doc Citations**: `SCOPE.md` (§1–2 In-Scope vs. Out-of-Scope), `src/tools/counselor_studiokit.py`.
+
+#### **Q3. Why can't a volunteer counselor just drop a Merit Badge Pamphlet PDF into NotebookLM or Gemini in Google Slides and ask for a presentation?**
+- **Associated Slides**: **Slide 2** (Problem Statement), **Slide 3** (Functional Capabilities), **Slide 6** (Trade-Offs)
+- **Rubric Mapping**: **2.1 (Problem Definition)** & **Part A.2 (Problem-Solution Fit)**
+- **Golden Answer**:
+  "When counselors try generic one-shot LLM prompts or NotebookLM on an 80-page BSA pamphlet, four things go wrong in practice:
+  1. **Requirement Paraphrasing & Skipped Leaf Nodes**: Generic LLMs summarize *Requirement 4a, 4b(1), and 4b(2)* into three high-level bullet points, accidentally omitting mandatory sub-clauses needed for an Eagle Board of Review. Our `ResearchCoverageCriticAgent` and SHA-256 hash lock guarantee 100% verbatim coverage of every leaf sub-requirement.
+  2. **No Classroom vs. Field Triage**: A generic slide generator treats *'Explain the causes of shock'* and *'Camp a total of 20 nights'* identically. Our workbench triages every requirement into *Classroom Discussion*, *Hands-On EDGE Skill Station*, and *Home/Campout Prerequisite* buckets.
+  3. **Zero Local Grounding**: A static pamphlet doesn't know that a troop in Middleton, MA (`01949`) is served by NOAA NWS Boston/Norton and faces coastal Nor'easters and woodland tick habitats.
+  4. **Slide Text Overflow**: Standard LLM slide generators dump walls of text that bleed off the bottom of slides. Our `_compute_fitting_font_size()` engine and `<10ms` AABB geometry checker guarantee zero overlapping boxes."
+- **Code & Doc Citations**: `src/agents/researcher.py` (`compute_canonical_pamphlet_hash`, `verify_subrequirement_coverage`), `src/tools/pptx_builder.py` (`_compute_fitting_font_size`, `check_pptx_conformance`).
+
+#### **Q4. What was the hardest scope trade-off you had to make to keep this deliverable within a 10-day FDE sprint?**
+- **Associated Slides**: **Slide 2** (Problem Statement), **Slide 8** (Prototype vs. Production Boundary)
+- **Rubric Mapping**: **2.2 (Technical Scope & Constraints)** & **Part A.3 (Architectural Trade-Offs)**
+- **Golden Answer**:
+  "The biggest trade-off was cutting **direct bidirectional sync with Scouting America's Scoutbook Plus (`advancement.scouting.org`) and `my.scouting.org` OIDC SSO** from the 10-day prototype and deferring it to Phase 2 (Days 31–60 on Slide 8). Integrating with Scoutbook's production APIs requires National Council security review and multi-tenant Postgres infrastructure. Instead, we focused the 10-day sprint on making the **curriculum generation engine, SHA-256 requirement lock, 4-tab Image Studio, and `.pptx` geometry verification** 100% production-grade using an embedded SQLite WAL + vector store that runs identically on a counselor's laptop at summer camp or in a single Cloud Run container."
+- **Code & Doc Citations**: `SCOPE.md` (§3 Out-of-Scope), `SPEC.md`, `ARCHITECTURE_DECISIONS.md` (ADR-03).
+
+#### **Q5. In Phase 2 (Council Multi-Tenant Pilot on Slide 8), who owns the Day-2 FinOps budget and content approval sign-off?**
+- **Associated Slides**: **Slide 6** (FinOps & Council TCO), **Slide 8** (90-Day National Rollout)
+- **Rubric Mapping**: **2.3 (Stakeholder Alignment & Success Criteria)** & **Part A.4 (Delivery & Handover)**
+- **Golden Answer**:
+  "In Phase 2, ownership splits cleanly between two council roles defined in our `SCOPE.md` RACI matrix:
+  1. **FinOps Budget Ownership**: The **Council IT Director / Operations Lead** owns the GCP billing account (`~$282.50/month` for a 500-counselor council) and configures the declarative per-deck ceiling (`max_budget_usd` in `config/finops_model_policy.json`, e.g., locking volunteer accounts to `BEAUTIFIED` `$0.38` by default while allowing `STUDIO` `$1.00` for Council Merit Badge University keynote instructors).
+  2. **Content Approval Sign-Off**: Individual **registered Merit Badge Counselors** own final pedagogical sign-off for their troop sessions via the cryptographic HMAC-SHA256 HITL confirmation gate (`request_counselor_confirmation`), while the **Council Advancement Committee Chair** reviews the golden master pamphlet cache whenever Scouting America publishes annual requirement updates each January."
+- **Code & Doc Citations**: `SCOPE.md`, `config/finops_model_policy.json`, `src/tools/hitl_confirm.py`.
+
+#### **Q6. What happens when Scouting America updates a Merit Badge's requirements mid-year, or a Scout started a badge under last year's requirements?**
+- **Associated Slides**: **Slide 2** (Requirement Drift), **Slide 3** (Counselor StudioKit), **Slide 8** (National Rollout)
+- **Rubric Mapping**: **1.5 (Domain-Applied AI/ML Expertise)** & **3.5 (Compliance & Governance)**
+- **Golden Answer**:
+  "Under the *Guide to Advancement* (§7.0.4.3), once a Scout begins substantive work on a Merit Badge, they may complete it under the requirements that were in effect when they started, unless Scouting America mandates an immediate safety cutover. Because our `PamphletResearchAgent` computes a SHA-256 fingerprint (`compute_canonical_pamphlet_hash`) over the exact requirement revision loaded for a session and stamps the source URL and verification date onto the generated Workbook and Slide 2 Overview, a counselor can immediately verify which edition a deck teaches. In our 90-day rollout, the `pamphlet_chunks` table indexes requirements by `(badge_name, revision_year)` so a counselor can select either the current year's revision or the prior year's revision for Scouts finishing partials."
+- **Code & Doc Citations**: `src/agents/researcher.py` (`compute_canonical_pamphlet_hash`), `src/memory/session_store.py`.
+
+---
+
+### Group 2: Multi-Agent ADK Architecture, Tool Isolation & Model Routing
+*(Associated with **Slide 3**, **Slide 4**, and **Slide 9** | Rubric Domain 1: AI/ML Engineering & Domain 2: System Design)*
+
+#### **Q7. Why did you choose a deterministic `SequentialAgent` + bounded `LoopAgent` (`max_iterations=2` and `3`) for the core pipeline instead of an open-ended autonomous ReAct router or peer swarm?**
+- **Associated Slides**: **Slide 4** (Google ADK Architecture), **Slide 10** (Appendix B Rubric Matrix)
+- **Rubric Mapping**: **1.1 (Agentic & Multi-Agent Systems)** & **2.5 (Decision Records — ADR-01)**
+- **Golden Answer**:
+  "We evaluated three topologies in ADR-01: a single monolithic prompt, an autonomous ReAct router where agents freely call each other, and a deterministic `SequentialAgent` pipeline with bounded `LoopAgent` critics plus on-demand Image Studio agents. Every Merit Badge curriculum packet must pass the exact same five compliance gates in strict order: extract the pamphlet, verify 100% sub-requirement coverage, plan the 12-archetype storyboard, apply visual polish within budget, and verify zero bounding-box overlaps on the `.pptx`. An open-ended ReAct loop introduces non-deterministic tool ordering, higher latency, and the risk of skipping a verification gate or burning tokens in a loop. Using `SequentialAgent` guarantees deterministic execution order and predictable `$0.14–$1.00` unit economics, while wrapping `ResearchCoverageCriticAgent` (`max_iterations=2`) and `BSABrandAndSafetyReviewAgent` (`max_iterations=3`) in bounded `LoopAgent`s gives us self-healing retries where we actually want autonomy."
+- **Code & Doc Citations**: `src/agents/coordinator.py` (`build_coordinator_agent`), `ARCHITECTURE_DECISIONS.md` (ADR-01).
+
+#### **Q8. How did you solve Vertex AI's restriction on mixing `GoogleSearchTool` with custom Python `FunctionTool`s?**
+- **Associated Slides**: **Slide 4** (Google ADK Architecture — Stage 2 Box)
+- **Rubric Mapping**: **1.1 (Agentic & Multi-Agent Systems)** & **2.4 (System Design Artifacts)**
+- **Golden Answer**:
+  "In the Vertex AI Gemini API, if you attach Google's built-in `GoogleSearchTool` (search grounding) and custom Python `FunctionTool`s (like `fetch_merit_badge_pamphlet_pdf`) to the same `LlmAgent`, Vertex AI rejects the request with a `400 INVALID_ARGUMENT` tool-mixing error. Following the official Google ADK Search-Subagent Isolation pattern in `src/agents/researcher.py`, we isolate `GoogleSearchTool(bypass_multi_tools_limit=True)` on a dedicated `WebSearchGroundingAgent` (`gemini-2.5-flash`) and wrap that entire sub-agent inside an ADK `AgentTool(agent=web_search_agent)`. That allows the parent `PamphletResearchAgent` to invoke live Google Search grounding just like a standard Python tool alongside its PDF extraction and SHA-256 verification tools with zero schema collisions."
+- **Code & Doc Citations**: `src/agents/researcher.py` (`build_web_search_grounding_agent`, `build_researcher_agent`), `ARCHITECTURE_DECISIONS.md` (ADR-02).
+
+#### **Q9. How did you empirically validate that `gemini-2.5-flash` was sufficient for `WebSearchGroundingAgent`, `SlideBeautifierAgent`, and `PowerPointBuilderAgent` without degrading pedagogical quality?**
+- **Associated Slides**: **Slide 4** (ADK Architecture), **Slide 6** (FinOps Unit Economics)
+- **Rubric Mapping**: **1.3 (Model Selection, Tuning & Optimization)** & **5.3 (AI Cost Management)**
+- **Golden Answer**:
+  "We ran an ablation across our 12-badge Golden Evaluation Suite (`scripts/eval_gate.py`) comparing an all-`gemini-2.5-pro` pipeline against our tiered `Pro + Flash` configuration. What we found was that **curriculum extraction, 12-archetype pedagogical storyboarding, and safety/coverage auditing** genuinely benefit from `gemini-2.5-pro`'s deep reasoning—switching `SlideContentPlannerAgent` to Flash dropped Socratic speaker-note depth and sub-requirement nuance by ~11%. Conversely, **regional search summarization (`WebSearchGroundingAgent`), JSON theme/palette assignment (`SlideBeautifierAgent`), and tool invocation for `.pptx` assembly (`PowerPointBuilderAgent`)** are structured transformation tasks where `gemini-2.5-flash` achieved the exact same **100% schema conformance and 0% AABB overlap rate** as Pro while running **3.2x faster** and costing **88% less per token** (`$0.15/1M` vs. `$1.25/1M` input)."
+- **Code & Doc Citations**: `config/finops_model_policy.json`, `src/config.py`, `scripts/eval_gate.py`.
+
+#### **Q10. How do your domain guardrails prevent an LLM from accidentally summarizing, softening, or altering an Eagle-required merit badge requirement?**
+- **Associated Slides**: **Slide 1** (Executive Summary), **Slide 2** (Problem Statement), **Slide 5** (Security & YPT)
+- **Rubric Mapping**: **1.5 (Domain-Applied AI/ML Expertise)** & **1.4 (LLMOps & Evaluation)**
+- **Golden Answer**:
+  "We enforce three independent guardrails so an LLM can never paraphrase a requirement:
+  1. **Cryptographic Pre/Post SHA-256 Lock (`compute_canonical_pamphlet_hash`)**: As soon as `fetch_merit_badge_pamphlet_pdf` loads the official requirement tree (`1a`, `1b`, `2a`, etc.), it computes a SHA-256 digest over every `(req_number, verbatim_req_text)` pair. Deep research enrichment is only permitted to append to `key_concepts`, `counselor_tips`, and `grounded_sources`—never `req_text`. After enrichment, `enrich_artifact_with_grounding` recomputes the SHA-256 hash; if a single character changed, it immediately restores the canonical requirement strings.
+  2. **Deterministic Leaf-Node Coverage Audit (`verify_subrequirement_coverage`)**: `ResearchCoverageCriticAgent` computes the exact set difference between the canonical requirement IDs and the storyboard's mapped requirement IDs. If any sub-requirement like `First Aid 5a` is missing, the `LoopAgent` forces a repair pass.
+  3. **Verbatim Callout Rendering in `.pptx`**: On every requirement slide, `pptx_builder.py` renders the verbatim `req_text` inside a dedicated callout banner distinct from the instructional bullet points."
+- **Code & Doc Citations**: `src/agents/researcher.py` (`compute_canonical_pamphlet_hash`, `verify_subrequirement_coverage`), `tests/test_tools.py`.
+
+#### **Q11. How does local ZIP/City grounding (`resolve_counselor_location`) work without cluttering every slide with repetitive regional boilerplate?**
+- **Associated Slides**: **Slide 2** (Local Troop Grounding), **Slide 3** (Counselor StudioKit)
+- **Rubric Mapping**: **1.5 (Domain-Applied AI/ML Expertise)**
+- **Golden Answer**:
+  "When a counselor enters `01949` or `Middleton, MA` (or we fall back to their browser's IANA timezone), `resolve_counselor_location()` in `src/agents/researcher.py` resolves a structured regional profile: the local NOAA National Weather Service Forecast Office (`Boston/Norton BOX`), regional weather/terrain hazards (`Coastal Nor'easters, winter hypothermia, Ixodes tick habitats`), nearby outdoor training venues (`Harold Parker State Forest`), and state emergency agencies (`MEMA & DCR`). Early on, we noticed that injecting regional text onto every slide felt repetitive. So we engineered surgical placement: local grounding appears in exactly four high-impact places—**Slide 2 (Badge Overview Card)**, the **Timed Counselor Lesson Plan**, the **Parent Prerequisite Letter**, and the **Grounded Citations** tab—keeping technical requirement slides focused purely on the skill."
+- **Code & Doc Citations**: `src/agents/researcher.py` (`resolve_counselor_location`, `enrich_requirements_with_deep_research`).
+
+#### **Q12. How portable is this architecture if Scouting America wanted to swap Gemini for another model family or route through an enterprise gateway?**
+- **Associated Slides**: **Slide 4** (ADK Architecture), **Slide 10** (Appendix B Rubric Matrix)
+- **Rubric Mapping**: **1.3 (Model Selection)** & **6.5 (Modularity & Abstraction)**
+- **Golden Answer**:
+  "No agent file hardcodes a model string. All model assignments live in `config/finops_model_policy.json` and resolve through our `ModelProvider` abstraction (`get_model_provider()`) and `SecondaryLiteLLMModelProvider` in `src/config.py`. Furthermore, all system instructions are externalized as versioned Markdown templates tracked in `prompts/manifest.json` with SHA-256 checksums. Switching from `gemini-2.5-pro` to `gemini-3.0-pro`—or routing secondary traffic through LiteLLM—is a single JSON policy edit with zero changes to agent orchestration code."
+- **Code & Doc Citations**: `src/config.py` (`ModelProvider`, `SecondaryLiteLLMModelProvider`), `config/finops_model_policy.json`, `prompts/manifest.json`.
+
+#### **Q13. Why do some slides list "9 ADK Components" while others say "7 Specialist Agents"? How do they map to each other?**
+- **Associated Slides**: **Slide 1** (Subtitle), **Slide 4** (ADK Architecture)
+- **Rubric Mapping**: **1.1 (Agentic & Multi-Agent Systems)** & **2.4 (System Design Artifacts)**
+- **Golden Answer**:
+  "Both numbers refer to the exact same architecture viewed at two levels of detail:
+  - There are **7 core specialist agent roles**: (1) `PamphletResearchAgent`, (2) `WebSearchGroundingAgent`, (3) `ResearchCoverageCriticAgent`, (4) `SlideContentPlannerAgent`, (5) `SlideBeautifierAgent`, (6) `PowerPointBuilderAgent`, and (7) `BSABrandAndSafetyReviewAgent`.
+  - When you include the root supervisor (**8. `MeritBadgeCoordinatorAgent`**) and the on-demand **9. `MeritBadgeImageStudio` (`WebImageSearchAgent` + `NanoBananaImageAgent`)**, that totals **9 ADK architectural components**."
+- **Code & Doc Citations**: `src/agents/coordinator.py`, `src/agents/image_studio.py`.
+
+---
+
+### Group 3: Hybrid RAG, Context Compaction & Visual Layout Engineering
+*(Associated with **Slide 3**, **Slide 4**, **Slide 6**, and **Slide 9** | Rubric Domain 1.2, Domain 2.4–2.5 & Domain 6.8)*
+
+#### **Q14. At what corpus scale or query ambiguity would your embedded SQLite hybrid lookup break down and require migrating to Cloud SQL `pgvector` or Vertex AI Search?**
+- **Associated Slides**: **Slide 4** (Research & RAG), **Slide 6** (Trade-Off 1: Hybrid RAG), **Slide 8** (Days 1–30 Rollout)
+- **Rubric Mapping**: **1.2 (Retrieval & Data Engineering for AI)**
+- **Golden Answer**:
+  "Our embedded SQLite `pamphlet_chunks` store uses **Hybrid Retrieval**—combining **BM25 lexical scoring (`55%` weight)** with **768-dimensional Cosine Vector similarity (`45%` weight)** via **Reciprocal Rank Fusion (`RRF, k=60`)**. For Scouting America's finite corpus of **138 Merit Badge Pamphlets** (~`15,000` total requirement-tagged chunks across all badges, or ~`110` chunks per badge), an in-container SQLite query filtered by `badge_name` scans ~110 rows in **under 8 milliseconds** with **`Recall@3 = 1.00`**.
+  However, that embedded design breaks down at **two specific inflection points**:
+  1. **Multi-Container Write Concurrency (>1 Cloud Run instance)**: SQLite WAL lives on a single container's filesystem. As soon as Cloud Run scales horizontally to multiple instances for a 500-counselor council, containers need a shared network vector store.
+  2. **Unfiltered Cross-Corpus Discovery (>100,000 chunks)**: If a counselor asks an open-ended cross-corpus question without selecting a badge (e.g., *'Which Merit Badges teach backcountry water purification and Leave No Trace principles?'* across all BSA literature, *Guide to Safe Scouting*, and *Fieldbook* chapters), scanning embeddings in Python without an HNSW index becomes CPU-bound.
+  That is why Days 1–30 of Slide 8 migrates `PersistentSessionStore` to **Cloud SQL for PostgreSQL with `pgvector` (HNSW index)**—or **Vertex AI Search** for unstructured national policy PDFs—while keeping our exact same RRF hybrid ranking interface."
+- **Code & Doc Citations**: `src/memory/session_store.py` (`search_pamphlet_chunks_hybrid`), `ARCHITECTURE_DECISIONS.md` (ADR-03).
+
+#### **Q15. How do you prevent context window bloat over multi-turn counselor co-design sessions?**
+- **Associated Slides**: **Slide 4** (Stage 1 Coordinator), **Slide 6** (FinOps Token Savings)
+- **Rubric Mapping**: **1.2 (Retrieval & Data Engineering)** & **5.3 (AI Cost Management)**
+- **Golden Answer**:
+  "We combine three context-management layers in `src/memory/session_store.py`:
+  1. **ADK Sliding-Window History Compaction (`EventsCompactionConfig`)**: Configured with `compaction_interval=5, overlap_size=2, compaction_strategy='additive'`. Every 5 turns, older intermediate tool outputs are compacted into a structured state summary while preserving the 2 most recent turns verbatim.
+  2. **Requirement-Scoped Hybrid RAG**: Instead of stuffing a 70,000-token PDF into every agent prompt, `search_pamphlet_chunks_hybrid` retrieves only the top-3 relevant chunks per requirement, cutting input tokens by **68%**.
+  3. **Vertex AI Context Caching (`ContextCacheConfig`, `ttl_seconds=3600`)**: Pins the shared system instructions and canonical requirement tree in Vertex AI's prefix cache for 1 hour, yielding a **76% cache hit ratio** (at a 75% input token discount) during iterative co-design."
+- **Code & Doc Citations**: `src/memory/session_store.py` (`get_adk_compaction_config`, `get_context_cache_config`), `tests/test_memory.py`.
+
+#### **Q16. Walk us through the data flow when a user uploads a custom local image or triggers Nano Banana regeneration in the Image Studio.**
+- **Associated Slides**: **Slide 3** (4-Tab Image Studio), **Slide 4** (Stage 4 Beautifier + Studio), **Slide 9** (Appendix A: Co-Design & Image Studio)
+- **Rubric Mapping**: **2.4 (System Design Artifacts)** & **1.1 (Agentic Systems)**
+- **Golden Answer**:
+  "Let's trace both flows through `src/agents/image_studio.py`, `src/app.py`, and `src/server.py`:
+  - **Path A: Local File Upload (Tab 4, `$0.00 USD`)**:
+    1. The counselor selects a `.png`, `.jpg`, `.jpeg`, or `.webp` file (`<= 10 MB`).
+    2. `upload_custom_slide_image()` validates magic bytes via Pillow (`Image.open`), strips potentially unsafe EXIF metadata, converts the image to normalized RGB PNG (downscaling if larger than `1600px`), computes a SHA-256 content hash (`sha256_hash`), saves it to `assets/badge_image_catalog/<badge_slug>/upload_<req>_<hash>.png`, and registers a `USER_UPLOAD` record in SQLite (`badge_image_catalog`).
+    3. If `apply_immediately=True`, it updates the target slide's `visual_diagram_path`, preserves `original_diagram_path` so the user can always click *Restore Original*, and triggers `generate_bsa_slide_deck_pptx()` to re-render the `.pptx` and run Stage 1 AABB verification.
+  - **Path B: Nano Banana AI Generation (Tab 3, `$0.08 USD`)**:
+    1. First, the UI calls `estimate_nano_banana_image_cost()` to display the upfront cost (**`$0.08 USD`**, ~`2,580` tokens) and blocks execution until the user checks the explicit consent box (`user_consented=True`).
+    2. Once consented, `NanoBananaImageAgent` builds a style-specific prompt (across 8 visual styles like *Line Drawing*, *Cartoon Drawing*, *Photorealistic Image*, or *Technical Diagram*) with strict negative constraints banning rendered prompt words inside the artwork.
+    3. After `gemini-2.5-flash-image` / Imagen 3 generates the PNG, `verify_generated_image_matches_prompt()` inspects the image for prompt alignment and text-artifact rejection (retrying automatically with an increased token budget if needed), caches it in `badge_image_catalog` as `NANO_BANANA`, applies it to the slide, and rebuilds the `.pptx`."
+- **Code & Doc Citations**: `src/agents/image_studio.py` (`upload_custom_slide_image`, `generate_nano_banana_slide_image`, `verify_generated_image_matches_prompt`), `src/server.py` (`POST /api/slide/upload-image`, `POST /api/slide/nano-banana-image`).
+
+#### **Q17. In ADR-004, you chose local `python-pptx` synthesis with optional Google Slides import over direct Google Slides API calls. When would you reverse that decision?**
+- **Associated Slides**: **Slide 3** (Deliverable Pillars), **Slide 4** (Stage 5 Builder), **Slide 9** (Appendix A Layout Engine)
+- **Rubric Mapping**: **2.5 (Decision Records — ADR-04)**
+- **Golden Answer**:
+  "We chose deterministic `python-pptx` compilation for two practical reasons: first, summer camps frequently have zero or intermittent internet connectivity, so counselors need a self-contained `.pptx` file that works offline on a cabin laptop; second, `python-pptx` lets us run our `<10ms` in-memory Axis-Aligned Bounding Box (`check_pptx_conformance`) geometry verifier without burning Google Workspace API quota (`60 write requests/minute/user`).
+  We would reverse that decision—or add a native Google Slides API writer alongside `python-pptx`—in **Phase 2 (Council Multi-Tenant Pilot)** if a Scouting Council standardized on **real-time multi-counselor collaborative editing inside Google Workspace** (where two co-counselors want to edit the same live Google Slides deck simultaneously in the browser and have comments sync back to the workbench via Drive webhooks)."
+- **Code & Doc Citations**: `ARCHITECTURE_DECISIONS.md` (ADR-04), `src/tools/pptx_builder.py`.
+
+#### **Q18. How does the two-stage `.pptx` conformance review work, and how do you keep text from overflowing when an image is added to a dense slide?**
+- **Associated Slides**: **Slide 4** (Stage 5 Builder & Critic), **Slide 6** (Trade-Off 2: `<10ms` AABB), **Slide 9** (Appendix A: `_compute_fitting_font_size`)
+- **Rubric Mapping**: **1.4 (LLMOps & Evaluation)** & **5.3 (AI Cost Management)**
+- **Golden Answer**:
+  "We prevent overflow proactively at build time and verify it deterministically at review time:
+  1. **Proactive Font Auto-Fitting (`_compute_fitting_font_size`)**: When a slide switches from full-width text (`11.73"` wide) to a split visual layout (`6.55"` wide text column + right-side graphic), `_compute_fitting_font_size()` in `src/tools/pptx_builder.py` calculates exact wrapped line counts (`line_spacing = 1.18`, paragraph spacing reserve, `0.86` safety factor) and steps the font size down from `16.5pt` to our `13.0pt` readability floor until the text fits inside the card height. Any excess detail beyond what fits at `13.0pt` is automatically moved into the slide's **EDGE Speaker Notes** (`full_bullet_points`).
+  2. **Stage 1 Deterministic Geometry Gate (`check_pptx_conformance`, `3.4ms`, `$0.00`)**: Immediately after `.pptx` assembly, Stage 1 inspects every shape's coordinates in memory, checking for `0.0 sq in` of Axis-Aligned Bounding Box (AABB) overlap, canvas boundary compliance (`13.333" x 7.5"`), `>= 13.0pt` font floors, and WCAG 2.1 AA contrast (`>= 4.5:1`).
+  3. **Stage 2 Semantic & Vision Critic (`BSABrandAndSafetyReviewAgent`)**: Only after Stage 1 passes at `$0.00` token cost does Stage 2 evaluate pedagogical clarity and Guide to Safe Scouting compliance inside our `LoopAgent(max_iterations=3)`."
+- **Code & Doc Citations**: `src/tools/pptx_builder.py` (`_compute_fitting_font_size`, `check_pptx_conformance`), `src/agents/reviewer.py`.
+
+#### **Q19. How easy would it be to add a 5th tab to the Image Studio—say, pulling approved photos from a troop's shared Google Photos album or Google Drive folder?**
+- **Associated Slides**: **Slide 3** (4-Tab Image Studio), **Slide 9** (Appendix A: Image Studio)
+- **Rubric Mapping**: **6.8 (Extensibility)** & **6.5 (Modularity & Abstraction)**
+- **Golden Answer**:
+  "It would take less than 80 lines of code and zero changes to the slide renderer or SQLite schema. Every Image Studio provider in `src/agents/image_studio.py` funnels into the exact same `register_badge_catalog_image()` contract on the `badge_image_catalog` table (`image_id`, `badge_name`, `req_number`, `source_type`, `file_path`, `sha256_hash`, `cost_usd`). To add a 5th tab (`📸 5. Troop Google Photos`), we would add a `TROOP_PHOTOS` source type, write one OAuth/Drive picker fetch function that downloads the selected photo into `assets/badge_image_catalog/<badge_slug>/` and calls `register_badge_catalog_image()`, and add a 5th tab entry in `_open_image_studio_dialog()`. The inline `◀ / ▶` carousel, `Restore Original`, and `.pptx` compiler would support it automatically."
+- **Code & Doc Citations**: `src/agents/image_studio.py`, `src/memory/session_store.py` (`register_badge_catalog_image`).
+
+---
+
+### Group 4: Security, Privacy, Youth Protection (YPT) & Governance
+*(Associated with **Slide 3**, **Slide 5**, and **Slide 8** | Rubric Domain 3: Security, Privacy & Compliance)*
+
+#### **Q20. How would you enforce per-council tenant isolation if two different BSA councils share the same Cloud Run deployment?**
+- **Associated Slides**: **Slide 5** (Security & Zero-Trust Cloud Run), **Slide 8** (Days 1–30 Multi-Tenant Rollout)
+- **Rubric Mapping**: **3.1 (Authentication & Authorization)**
+- **Golden Answer**:
+  "We enforce tenant isolation at three layers as we move from single-troop prototype to multi-council production (Slide 8):
+  1. **Identity & JWT Claims Layer**: When `AUTH_REQUIRED=true`, Cloud IAP / OIDC validates the counselor's Bearer JWT and extracts their authenticated `council_id` and `troop_id` claims inside our FastAPI authentication dependency (`verify_api_auth` in `src/server.py`)—never trusting a `council_id` passed in a mutable request body.
+  2. **Database Row-Level Security (RLS) Layer**: In Cloud SQL for PostgreSQL (`pgvector`), every session, feedback row, and custom uploaded troop image carries a `council_id` column governed by a mandatory Postgres Row-Level Security policy (`CREATE POLICY council_isolation ON sessions USING (council_id = current_setting('app.current_council_id'))`). Even if a query omitted a `WHERE` clause, the database engine refuses to return rows belonging to another council.
+  3. **Storage Prefix Isolation**: Custom uploaded images (`USER_UPLOAD`) and generated `.pptx` deliverables are scoped under `gs://<bucket>/councils/<council_id>/...` while the canonical 138 BSA pamphlets remain a shared read-only layer."
+- **Code & Doc Citations**: `src/security.py`, `src/server.py` (`verify_api_auth`), `terraform/main.tf`.
+
+#### **Q21. Why is outbound SSRF allowlisting particularly important when an agent has both web scraping and Wikimedia image search tools?**
+- **Associated Slides**: **Slide 4** (Stage 2 & Image Studio), **Slide 5** (Security & Zero-Trust Cloud Run)
+- **Rubric Mapping**: **3.2 (Infrastructure & Network Security)**
+- **Golden Answer**:
+  "Whenever an AI agent can pass URLs to an HTTP fetcher (`httpx` / `requests`)—whether scraping a pamphlet reference or downloading a Wikimedia thumbnail—an attacker could attempt an **Indirect Prompt Injection + Server-Side Request Forgery (SSRF)** attack. For example, someone could craft a malicious input asking the image agent to fetch `http://169.254.169.254/computeMetadata/v1/instance/service-accounts/default/token` (the GCP instance metadata server) or probe internal VPC IP ranges (`10.0.0.0/8`, `127.0.0.1`).
+  We block this in `src/tools/scouting_scraper.py` and `src/agents/image_studio.py` by enforcing a strict HTTPS-only domain allowlist (`filestore.scouting.org`, `scouting.org`, `commons.wikimedia.org`, `upload.wikimedia.org`, `en.wikipedia.org`) and rejecting any private/link-local IP addresses before opening a socket."
+- **Code & Doc Citations**: `src/tools/scouting_scraper.py`, `src/agents/image_studio.py`, `terraform/main.tf`.
+
+#### **Q22. How do you ensure that a counselor uploading a custom image or typing youth names/emails into custom notes doesn't leak PII into Vertex AI logs or across Cloud Run users?**
+- **Associated Slides**: **Slide 3** (Profile Caching), **Slide 5** (Pre-LLM PII Scrubbing & Profile Isolation)
+- **Rubric Mapping**: **3.3 (Data Protection & Privacy)**
+- **Golden Answer**:
+  "We enforce a strict **Zero-PII-to-LLM Firewall** across storage, text, and images:
+  1. **Environment-Isolated Counselor Profile Cache**: On a local laptop, counselor contact info is cached in `.cache/counselor_profile.json` (`0600` owner-only permissions). On Cloud Run (`K_SERVICE` detected by `is_cloud_multi_user_environment()`), server-side disk caching is completely disabled and the profile stays exclusively in the counselor's browser `localStorage` (`scouts_bsa_counselor_profile_v1`).
+  2. **Pre-LLM Text Scrubbing (`before_model_guardrail_callback`)**: Before any prompt or session state reaches Vertex AI, SQLite, or Cloud Trace, `scrub_pii_before_sink()` redacts emails (`[REDACTED_EMAIL]`), phone numbers (`[REDACTED_PHONE]`), SSNs (`[REDACTED_SSN]`), and BSA Member IDs. Real counselor contact details are injected strictly locally by `pptx_builder.py` onto Slide 1 and the Parent Letter.
+  3. **Custom Uploaded Image Isolation & EXIF Stripping**: When a counselor uploads a local photo in Tab 4 of the Image Studio (`upload_custom_slide_image()`), Pillow re-encodes the raw pixel buffer into a clean RGB PNG—stripping all GPS/camera EXIF metadata—and embeds it directly into the local `.pptx` without ever sending user-uploaded photos to an external LLM."
+- **Code & Doc Citations**: `src/observability/logging_setup.py` (`scrub_pii_before_sink`), `src/agents/guardrails.py` (`before_model_guardrail_callback`), `src/memory/session_store.py` (`is_cloud_multi_user_environment`), `tests/test_pii_scrubber.py`.
+
+#### **Q23. How does your input guardrail distinguish between legitimate First Aid / Emergency Preparedness / Rifle Shooting terminology (e.g., 'tourniquet', 'gunshot wound', 'black powder', 'triage') and genuinely unsafe or prompt-injection content?**
+- **Associated Slides**: **Slide 5** (Model Armor & YPT Guardrails)
+- **Rubric Mapping**: **3.4 (AI-Specific Security)** & **1.5 (Domain-Applied AI/ML Expertise)**
+- **Golden Answer**:
+  "That is a classic domain-adaptation challenge in Scouting: official Merit Badges include *First Aid* (treating severe bleeding and tourniquets), *Emergency Preparedness* (disaster triage), and *Rifle / Shotgun / Archery* (range safety commands). A naive keyword blocklist would falsely block legitimate Merit Badge curricula.
+  In `ScoutsBSAModelArmorPlugin` (`src/agents/guardrails.py`) and `config/model_armor_security_policy.json`, our policy rules are **context-aware and intent-scoped**:
+  - We explicitly allow canonical BSA curriculum instruction around medical treatment, range safety rules, and emergency response.
+  - We block **instructional safety bypasses and prompt injections**—such as `ignore previous instructions`, `skip two-deep leadership`, `meet the Scout alone one-on-one`, `alter official requirements`, or instructions to fabricate dangerous devices. Every check emits a structured `SECURITY_COMPLIANCE_AUDIT` log entry recording both the matched rule and whether the context was a canonical BSA requirement."
+- **Code & Doc Citations**: `src/agents/guardrails.py` (`ScoutsBSAModelArmorPlugin`, `sanitize_text_with_model_armor`), `config/model_armor_security_policy.json`.
+
+#### **Q24. Why did you implement an HMAC-SHA256 Human-in-the-Loop (`HITLConfirmationToken`) gate before `.pptx` generation instead of a boolean flag?**
+- **Associated Slides**: **Slide 4** (Stage 1 Coordinator), **Slide 5** (Cryptographic HMAC-SHA256 HITL Gate)
+- **Rubric Mapping**: **3.4 (AI-Specific Security)** & **1.1 (Agentic Systems)**
+- **Golden Answer**:
+  "If you protect a high-cost or state-changing tool like `generate_bsa_slide_deck_pptx()` with a simple tool parameter like `confirmed: bool = True`, a prompt-injected or over-eager LLM can simply hallucinate `confirmed=True` in its JSON tool call.
+  Instead, `request_counselor_confirmation()` (`src/tools/hitl_confirm.py`) generates an **HMAC-SHA256 cryptographic token** over `{badge_name}:{slide_count}:APPROVED` signed with `BSA_HITL_SECRET_KEY` (stored in Google Cloud Secret Manager). Inside ADK's `before_tool_callback` (`verify_hitl_before_tool_callback()`), the runtime recomputes the expected HMAC and verifies it using constant-time `hmac.compare_digest()`. Because the LLM never sees `BSA_HITL_SECRET_KEY`, it is mathematically impossible for the model to forge human approval."
+- **Code & Doc Citations**: `src/tools/hitl_confirm.py` (`request_counselor_confirmation`, `verify_hitl_before_tool_callback`), `tests/test_resilience_and_fault_injection.py`.
+
+#### **Q25. What audit trail is preserved if a council advancement chair needs to verify which version of the BSA requirements was used to generate a deck?**
+- **Associated Slides**: **Slide 1** (SHA-256 Lock), **Slide 5** (Security & Compliance), **Slide 7** (Eval Gate)
+- **Rubric Mapping**: **3.5 (Compliance & Governance)**
+- **Golden Answer**:
+  "Every curriculum build records four auditable provenance artifacts:
+  1. **Cryptographic Requirement Fingerprint**: The exact `canonical_pamphlet_sha256` hash computed over the requirement tree (`1a..N`), recorded in the session state (`sessions.state_json`) and returned in the API response envelope.
+  2. **Slide & Workbook Provenance Footer**: Slide 2 (Overview) and the Printable Scout Workbook header stamp the official `scouting.org` pamphlet source URL, requirement count, SHA-256 integrity status (`VERIFIED`), and generation timestamp.
+  3. **Structured Cloud Logging Audit Trail**: `src/observability/logging_setup.py` emits a `SECURITY_COMPLIANCE_AUDIT` JSON log entry tying the `trace_id`, `session_id`, `badge_name`, `canonical_pamphlet_sha256`, `hitl_token_verified=True`, and `model_armor_verdict=PASS` together.
+  4. **HITL Counselor Sign-Off Table**: `hitl_feedback` in SQLite records the counselor's explicit `requirement_verified` attestation."
+- **Code & Doc Citations**: `src/agents/researcher.py` (`compute_canonical_pamphlet_hash`), `src/observability/logging_setup.py`, `src/memory/session_store.py`.
+
+---
+
+### Group 5: Reliability, Fault Tolerance, Observability & Scalability
+*(Associated with **Slide 5**, **Slide 7**, and **Slide 8** | Rubric Domain 4: Reliability & Resilience & Domain 5.1–5.2: Scalability)*
+
+#### **Q26. How would you evolve this single-region Cloud Run architecture (`us-central1`) to meet a 99.95% multi-region HA requirement?**
+- **Associated Slides**: **Slide 5** (Zero-Trust Cloud Run), **Slide 8** (90-Day National Rollout)
+- **Rubric Mapping**: **4.1 (Availability Design)**
+- **Golden Answer**:
+  "A single-region Cloud Run service (`us-central1`) typically carries a `99.5%` to `99.9%` SLA. To reach a **`99.95%` multi-region High Availability** posture for national Scouting events:
+  1. **Active-Active Multi-Region Compute**: Deploy identical stateless Cloud Run services in **`us-central1` (Iowa)** and **`us-east1` (South Carolina)** fronted by a **Global External Application Load Balancer** with Serverless Network Endpoint Groups (Serverless NEGs), Cloud Armor WAF, and automatic health-checked failover (`/readiness`).
+  2. **Cross-Region AI Endpoint Failover**: Configure `ModelFallbackRouter` (`src/resilience.py`) so if Vertex AI in `us-central1` returns `503` or `429`, the circuit breaker fails over to Vertex AI in `us-east5` / `global` endpoint before dropping down to `gemini-2.5-flash`.
+  3. **HA State & Assets**: Replace single-container SQLite with **Cloud SQL for PostgreSQL Enterprise Plus** (Regional HA synchronous standby + cross-region read replica in `us-east1`) and store generated `.pptx` decks and badge image catalogs in a **dual-region Cloud Storage bucket (`NAM4`: `us-central1` + `us-east1`)**."
+- **Code & Doc Citations**: `terraform/main.tf`, `docs/TDD.md`, `src/resilience.py`.
+
+#### **Q27. Show us how an OpenTelemetry trace correlates a user's button click in the UI through the ADK sub-agents and out to Vertex AI.**
+- **Associated Slides**: **Slide 5** (Resilience & OTel), **Slide 7** (Observability), **Slide 10** (Appendix B Rubric Matrix)
+- **Rubric Mapping**: **4.2 (Observability)**
+- **Golden Answer**:
+  "When the user clicks **Generate** in the UI (or calls `POST /api/v1/workflow/run`), our FastAPI middleware in `src/server.py` extracts or generates a W3C `traceparent` header (`00-<32-hex-trace-id>-<16-hex-span-id>-01`) and opens a root OpenTelemetry span (`http.post /api/v1/workflow/run`) via `src/observability/tracing.py`.
+  As `MeritBadgeCoordinatorAgent` runs the pipeline, our `trace_agent_step()` and `trace_tool_call()` decorators create nested child spans under that same `trace_id` for each stage (`gen_ai.agent.PamphletResearchAgent`, `gen_ai.tool.fetch_merit_badge_pamphlet_pdf`, `gen_ai.agent.SlideContentPlannerAgent`, `gen_ai.tool.generate_bsa_slide_deck_pptx`, `gen_ai.tool.check_pptx_conformance`), recording span attributes for `gen_ai.request.model`, input/output tokens, USD cost, and latency. Simultaneously, every structured JSON log line written by `logging_setup.py` injects `logging.googleapis.com/trace: projects/<project>/traces/<trace_id>`, so in Google Cloud Trace and Cloud Logging you can click any log entry and view the entire multi-agent waterfall."
+- **Code & Doc Citations**: `src/observability/tracing.py`, `src/observability/logging_setup.py`, `src/server.py`.
+
+#### **Q28. What happens in the middle of a 25-slide deck generation if Vertex AI returns a `429 ResourceExhausted` or `503 ServiceUnavailable` error?**
+- **Associated Slides**: **Slide 5** (Circuit Breaker & Model Fallback Cascade), **Slide 7** (CI/CD & Resilience)
+- **Rubric Mapping**: **4.3 (Failure & Recovery Testing)** & **4.4 (Graceful Degradation)**
+- **Golden Answer**:
+  "Every model invocation is wrapped in our `ModelFallbackRouter` and thread-safe 3-state `CircuitBreaker` in `src/resilience.py`:
+  1. **Transient Retry with Exponential Jitter**: On the first `429` or `503`, `retry_with_exponential_backoff` waits `0.5s + random_jitter` and retries up to 3 times.
+  2. **Circuit Breaker Trip & Model Cascade**: If `gemini-2.5-pro` fails 3 consecutive times (`failure_threshold=3`), the breaker trips from `CLOSED` to `OPEN` (for a `15s` cooldown) and immediately routes the request to `gemini-2.5-flash`.
+  3. **Zero-Crash Deterministic Synthesis Fallback**: If the entire Vertex AI region is unreachable or quota-exhausted, `ModelFallbackRouter` falls back to our deterministic local curriculum synthesizer, which builds the complete 12-archetype slide storyboard, EDGE speaker notes, and `.pptx` directly from the cached SQLite requirement tree and Matplotlib diagram engine. The counselor still gets a valid, downloadable `.pptx` deck with **zero HTTP 500 errors**."
+- **Code & Doc Citations**: `src/resilience.py` (`CircuitBreaker`, `ModelFallbackRouter`), `tests/test_resilience_and_fault_injection.py` (`test_model_fallback_router_cascades_on_primary_exhaustion`).
+
+#### **Q29. How do you communicate to the user in the UI when the system has degraded from live Gemini Pro synthesis to a fallback model or deterministic mode, or when FinOps auto-downgrades a tier?**
+- **Associated Slides**: **Slide 3** (Workbench UI), **Slide 5** (Circuit Breaker), **Slide 6** (FinOps Budget Plugin)
+- **Rubric Mapping**: **4.4 (Graceful Degradation)**
+- **Golden Answer**:
+  "Silent degradation is dangerous if an operator or counselor doesn't realize why a deck looks different. We surface degradation status in three places in the UI and API response:
+  1. **Live A2UI v0.9 Telemetry Banner & Status Pill**: The response envelope (`WorkflowExecutionResponse` in `src/schemas.py`) includes `fallback_triggered: bool`, `active_model_used`, `circuit_breaker_state`, and `finops_budget_report.downgrade_action`. In both the Material 3 Web Workbench and Streamlit UI, if a fallback or budget downgrade occurs, an amber status banner explains exactly what happened (e.g., *'Budget cap ($1.00) reached: automatically stepped down from STUDIO to BEAUTIFIED tier'* or *'Offline / Deterministic Fallback Active ($0.00 API Cost)'*).
+  2. **FinOps Cost & Token Budget Table**: The 4-column FinOps table in Tab 3 explicitly labels the `Execution Mode` (`Live Vertex AI` vs. `Offline Deterministic Shadow Estimate`) and shows which model executed each stage.
+  3. **Image Studio Fallback Badge**: Every image card in the Image Studio Catalog displays a source badge (`PAMPHLET`, `WEB_SEARCH`, `NANO_BANANA`, `USER_UPLOAD`, or `LOCAL_FALLBACK`)."
+- **Code & Doc Citations**: `src/schemas.py`, `src/agents/guardrails.py` (`FinOpsBudgetPlugin`), `src/app.py`.
+
+#### **Q30. Why is `containerConcurrency: 80` appropriate for an I/O-bound LLM orchestrator, and where does CPU/memory become the bottleneck (e.g., if 100 counselors simultaneously click 'Generate' at a Jamboree)?**
+- **Associated Slides**: **Slide 7** (Load Testing), **Slide 8** (Days 1–30 Cloud Tasks Queue)
+- **Rubric Mapping**: **5.1 (Scalability & Elasticity)** & **5.2 (Resource Efficiency)**
+- **Golden Answer**:
+  "A typical 25-slide deck generation spends ~`85%` of its wall-clock time waiting on network I/O (asynchronous Vertex AI Gemini streaming and Wikimedia/search calls) and only ~`15%` (`1.2s to 3.5s`) doing CPU-bound work (`PyMuPDF` extraction, `Matplotlib`/`Pillow` 220-DPI PNG rendering, and `python-pptx` zip assembly).
+  For pure I/O-bound control-plane endpoints (`/health`, `/readiness`, `/api/v1/badges`, cached session reads), `containerConcurrency: 80` on a `2 vCPU / 4 GiB` Cloud Run Gen2 instance handles 80 concurrent requests easily (`6.8ms p50`, `14.2ms p95` in `tests/load/load_test.py`).
+  However, if **100 counselors click 'Generate' at the exact same second** on a single container, 100 simultaneous in-process `Matplotlib` + `python-pptx` builds would spike CPU to 100% and consume ~`35–50 MB` of RAM per concurrent build (`~4 GB` total), risking Python GIL contention or OOM kills.
+  We solve that in two ways:
+  1. **Immediate Container-Level Protection**: Lowering Cloud Run concurrency for heavy `/workflow/run` revisions (or gating `pptx_builder` with an `asyncio.Semaphore(4)`) so Cloud Run horizontally autoscales up to `max_instances = 10` containers instead of piling 80 CPU builds onto 1 container.
+  2. **Phase 1 Production Architecture (Slide 8, Days 1–30)**: Decoupling `.pptx` and PNG rendering into a **Google Cloud Tasks** queue backed by a dedicated worker pool (`webhook_url` in `WorkflowRunRequest` is already built for this)."
+- **Code & Doc Citations**: `service-spec.yaml`, `terraform/main.tf`, `tests/load/load_test.py`, `src/server.py`.
+
+#### **Q31. What is the single biggest technical bottleneck in the current prototype when scaling from 1 container to 10+ containers, and why did you still choose SQLite for the prototype?**
+- **Associated Slides**: **Slide 4** (Stage 1 SQLite WAL), **Slide 8** (Prototype vs. Production Honesty)
+- **Rubric Mapping**: **5.1 (Scalability)** & **2.5 (Decision Records — ADR-03)**
+- **Golden Answer**:
+  "The single biggest multi-container bottleneck is **SQLite (`deliverables/adk_sessions.db`)**. Even with `PRAGMA journal_mode=WAL`, SQLite is an embedded file-based database—if Cloud Run scales out to 10 container instances on ephemeral disks, each container has its own isolated SQLite file, and mounting SQLite over NFS (Cloud Filestore) under heavy concurrent writes can cause POSIX file-lock contention.
+  We deliberately chose SQLite for the prototype (ADR-03) because a huge requirement for Merit Badge Counselors is being able to `git clone` the repo and run `./run_local.sh` on a laptop at summer camp with **zero cloud database setup and `$0.00/month` idle infrastructure cost**. Because all database access is encapsulated inside `PersistentSessionStore` (`src/memory/session_store.py`), swapping the SQLite driver for **Cloud SQL for PostgreSQL + `pgvector`** in Days 1–30 of our rollout requires zero changes to any agent or tool."
+- **Code & Doc Citations**: `src/memory/session_store.py` (`PersistentSessionStore`), `ARCHITECTURE_DECISIONS.md` (ADR-03).
+
+---
+
+### Group 6: FinOps Unit Economics, Token Billing & Council TCO
+*(Associated with **Slide 1**, **Slide 3**, **Slide 6**, and **Slide 9** | Rubric Domain 5.3: AI Cost Management & FinOps Guide)*
+
+#### **Q32. Walk us through the unit economics on Slide 6: why does a Standard deck cost `~$0.14`, a Beautified deck `~$0.38`, and a Studio deck cap at `$1.00`, while an on-demand Nano Banana image costs `$0.08`?**
+- **Associated Slides**: **Slide 1** (Executive Summary), **Slide 3** (FinOps Table), **Slide 6** (FinOps Unit Economics), **Slide 9** (Appendix A)
+- **Rubric Mapping**: **5.3 (AI Cost Management — FinOps)**
+- **Golden Answer**:
+  "Our costs in `estimate_workflow_finops_cost()` (`src/agents/guardrails.py`) are driven by exact Vertex AI Gemini 2.5 token rates (`$1.25/1M` input and `$5.00/1M` output for `gemini-2.5-pro`; `$0.15/1M` input and `$0.60/1M` output for `gemini-2.5-flash`, with a `75%` discount on cached input tokens):
+  1. **Standard Tier (`~$0.14 / deck`, `$0.00` cached rerun)**: Runs the 5-stage text & layout pipeline (~`28k–65k` input tokens with `76%` context cache hits, ~`11k–13.5k` output tokens across `PamphletResearchAgent`, `SlideContentPlannerAgent`, `SlideBeautifierAgent`, `PowerPointBuilderAgent`, and `BSABrandAndSafetyReviewAgent`). It uses extracted pamphlet figures and deterministic 220-DPI Matplotlib diagrams (`$0.00` image API cost).
+  2. **Beautified Tier (`~$0.38 / deck`, `$0.02` cached rerun)**: Adds editorial formatting plus up to **5 custom 220-DPI EDGE Skill Concept Maps** (`~$0.048` each) on requirement intro slides.
+  3. **Studio Tier (`$1.00` hard cap)**: Adds dark executive slate styling and up to **15 custom visual concept maps/illustrations**, governed by `FinOpsBudgetPlugin(max_budget_usd=1.00)`. If a 65-slide badge like *Emergency Preparedness* would exceed `$1.00`, the plugin automatically caps custom visual generation at 15 or steps down to `BEAUTIFIED`.
+  4. **On-Demand Nano Banana Slide Image (`$0.08 / image`)**: Combines ~`2,580` tokens across prompt construction, `gemini-2.5-flash-image` / Imagen 3 high-res synthesis (`~$0.04–$0.06`), and multimodal post-generation prompt alignment verification (`verify_generated_image_matches_prompt()`, `~$0.02`). Once generated, the image is cached in `badge_image_catalog` by SHA-256 hash so reusing it across slides or future decks costs **`$0.00`**."
+- **Code & Doc Citations**: `src/agents/guardrails.py` (`estimate_workflow_finops_cost`, `FinOpsBudgetPlugin`), `config/finops_model_policy.json`, `docs/finops-billing-and-deployment-guide.md`.
+
+#### **Q33. How did you arrive at the `$282.50 / month` (`$0.19 / deck`) Total Cost of Ownership (TCO) for a 500-counselor Scouting Council on Slide 6?**
+- **Associated Slides**: **Slide 6** (FinOps & Council TCO)
+- **Rubric Mapping**: **5.3 (AI Cost Management)** & **Part A.3 (Commercial & TCO Framing)**
+- **Golden Answer**:
+  "We modeled a realistic mid-to-large Scouting Council with **500 active Merit Badge Counselors** generating **1,500 curriculum packets per month** (roughly 3 decks per counselor per month across troop meetings and Merit Badge clinics):
+  - Because Scouting America has a fixed catalog of **138 Merit Badges**, once the first counselor in a council builds *First Aid* or *Camping*, the extracted pamphlet chunks, embeddings, and badge image catalog are warm in cache. At a conservative **70% cache hit ratio**:
+    - **450 cold builds (30%)** in default `Beautified` mode (`450 × $0.38`) = **`$171.00`**
+    - **1,050 warm/customized builds (70%)** (`1,050 × $0.03` for localized ZIP grounding & delta edits) = **`$31.50`**
+    - **Total Monthly Vertex AI Spend** = **`$202.50 / month`**
+  - Add **`$68.00 / month`** for a warm Cloud Run Gen2 instance (`min_instances=1`, `2 vCPU / 4 GiB RAM`) and **`$12.00 / month`** for Cloud Storage, Secret Manager, and Cloud Trace, and total Council TCO is **`$282.50 / month`**—or **19 cents per curriculum packet**.
+  - Compare that to buying 500 commercial `$30/month` AI presentation SaaS seats (`$15,000 / month`): our architecture delivers a **98% cost reduction**."
+- **Code & Doc Citations**: `docs/finops-billing-and-deployment-guide.md` (§5 Council-Scale TCO Model), Slide 6 of Executive Readout Deck.
+
+#### **Q34. How are token and image costs paid right now during development versus if a volunteer downloads the app locally or a council deploys it on Cloud Run?**
+- **Associated Slides**: **Slide 1** (Executive Summary), **Slide 6** (FinOps), **Slide 8** (Rollout)
+- **Rubric Mapping**: **5.3 (AI Cost Management)** & **2.7 (Operational Documentation)**
+- **Golden Answer**:
+  "We documented all three billing modes in `docs/finops-billing-and-deployment-guide.md`:
+  1. **During Current Development (Shadow-Ledger Offline Mode — `$0.00` billed)**: When `USE_LIVE_VERTEX_AI=false` or no `GEMINI_API_KEY` is set, the app runs in our **Deterministic Curriculum & Local Vector Engine** at **`$0.00` real API cost**. The FinOps table displays a transparent *Shadow-Ledger Estimate* showing what the exact token count (`~28k–36k` tokens) would cost on Vertex AI (`$0.14 / $0.38`). When live keys are enabled on our internal GCP project (`scouts-bsa-Readiness-2026`), charges bill to our Google internal Argolis/Cloud billing account via ADC.
+  2. **When a Future Volunteer Downloads & Runs Locally**: The volunteer has three options: (a) run completely **free (`$0.00`)** in Offline Deterministic mode using the bundled 138-badge catalog, Wikimedia search, and local file uploads; (b) paste a personal **Google AI Studio API Key** (`GEMINI_API_KEY` in `.env`) using Google's free tier; or (c) attach a personal pay-as-you-go GCP billing account (`$0.14–$0.38` per deck).
+  3. **When Deployed in a Council GCP Project on Cloud Run**: Individual counselors never manage API keys or pay out of pocket. The Cloud Run container runs as `scouts-bsa-agent-sa` using **Application Default Credentials (ADC)** and pulls `BSA_API_KEY` from **Secret Manager**, billing all Vertex AI calls centrally to the hosting Scouting Council's GCP Billing Account (`~$282.50/mo`) under GCP Budget Alerts (`50%`, `80%`, `100%`)."
+- **Code & Doc Citations**: `docs/finops-billing-and-deployment-guide.md`, `src/config.py`, `terraform/main.tf`.
+
+#### **Q35. Does the app ever encounter an error due to a cost or quota being denied, and what happens when it does?**
+- **Associated Slides**: **Slide 5** (Resilience), **Slide 6** (FinOps Budget Plugin), **Slide 9** (Appendix A: Nano Banana Consent Gate)
+- **Rubric Mapping**: **5.3 (AI Cost Management)** & **4.4 (Graceful Degradation)**
+- **Golden Answer**:
+  "Yes—there are four distinct scenarios where a cost or quota can be denied, and we engineered explicit, non-crashing handling for each one:
+  1. **Unchecked `$0.08` Nano Banana Consent Gate (`CONSENT_REQUIRED`)**: If a user clicks *Generate* in Tab 3 of the Image Studio without checking the `$0.08 USD` FinOps consent box (`user_consented=False`), `generate_nano_banana_slide_image()` refuses to call the image model and returns a structured `{status: 'CONSENT_REQUIRED', estimated_cost_usd: 0.08}` response (HTTP `400` in REST), prompting the user in the UI.
+  2. **Workflow Budget Ceiling Exceeded (`max_budget_usd`)**: If a run's projected cost exceeds `max_budget_usd` (default `$1.00`), `FinOpsBudgetPlugin` does **not** crash the build—it automatically downgrades the visual tier from `STUDIO` to `BEAUTIFIED` (or `STANDARD`), caps custom images, and records `downgrade_action` in the FinOps report.
+  3. **Live Image API Quota/Billing Denied (`429` / `403 Billing Not Enabled`)**: If Vertex AI Imagen / Nano Banana denies an image call due to quota or billing limits, `NanoBananaImageAgent` catches the exception, logs a warning, and automatically synthesizes a **220-DPI local Matplotlib/Pillow vector illustration** at `$0.00` cost so the slide is never left blank.
+  4. **Vertex AI LLM Quota Exhausted (`429` / `503`)**: `ModelFallbackRouter` trips the `CircuitBreaker` and cascades from `gemini-2.5-pro` -> `gemini-2.5-flash` -> local deterministic curriculum synthesizer."
+- **Code & Doc Citations**: `src/agents/image_studio.py`, `src/agents/guardrails.py` (`FinOpsBudgetPlugin`), `src/resilience.py`, `tests/test_resilience_and_fault_injection.py`.
+
+---
+
+### Group 7: LLMOps Evaluation Gates, CI/CD, IaC & Designing for Change
+*(Associated with **Slide 7**, **Slide 8**, and **Slide 10** | Rubric Domain 1.4, Domain 2.6–2.7 & Domain 6: Operational Excellence)*
+
+#### **Q36. Walk us through how your golden evaluation suite (`scripts/eval_gate.py`) catches a regression when a prompt change causes a sub-requirement (like First Aid 5a) to be skipped.**
+- **Associated Slides**: **Slide 7** (Multi-Metric Eval Gate), **Slide 10** (Appendix B Rubric Matrix)
+- **Rubric Mapping**: **1.4 (LLMOps & Evaluation)** & **6.1 (CI/CD & Deployment)**
+- **Golden Answer**:
+  "Every pull request and Cloud Build run executes `scripts/eval_gate.py` against our **12-badge Golden Dataset** (*First Aid*, *Cooking*, *Camping*, *Weather*, *Emergency Preparedness*, *Environmental Science*, *Citizenship in the Nation*, *Personal Management*, *Swimming*, *Lifesaving*, *Robotics*, and *Cybersecurity*).
+  If a developer edits `prompts/planner_v2.md` and accidentally causes the planner to skip `First Aid 5a`, two deterministic checks in `eval_gate.py` immediately fail:
+  1. **Sub-Requirement Coverage Recall Check (`verify_subrequirement_coverage`)**: Compares the set of canonical requirement IDs (`{'1', '2a', ..., '5a', '5b', ...}`) against the requirement IDs mapped onto the generated slides. Dropping `5a` lowers coverage recall below our mandatory threshold (`1.00 / 100%` for Golden Badges), logging `MISSING_REQUIREMENTS: ['5a']`.
+  2. **Blocking Exit Code (`sys.exit(1)`)**: `eval_gate.py` exits with non-zero status `1`, which halts Step 2 of `cloudbuild.yaml` and `.github/workflows/ci_eval.yml` before Docker build or canary deployment can even start."
+- **Code & Doc Citations**: `scripts/eval_gate.py`, `src/agents/researcher.py` (`verify_subrequirement_coverage`), `cloudbuild.yaml`.
+
+#### **Q37. How do your unit and integration tests run deterministically in CI without incurring live Vertex AI token costs on every PR?**
+- **Associated Slides**: **Slide 7** (AI Development Harness & 47 Pytest Tests), **Slide 10** (Appendix B Rubric Matrix)
+- **Rubric Mapping**: **6.4 (Testing & Quality Engineering)** & **5.3 (AI Cost Management)**
+- **Golden Answer**:
+  "In CI (`pytest tests/` and `scripts/eval_gate.py`), `USE_LIVE_VERTEX_AI` defaults to `false`. Our test suite (`47` tests across 5 test modules) exercises the **exact same Python tool functions, SQLite WAL + Hybrid BM25/Vector RRF search, SHA-256 requirement hash verification, HMAC-SHA256 HITL token validation, PII scrubber, 3-state `CircuitBreaker` fault injection, `python-pptx` compilation, and Stage 1 AABB geometry overlap math** using our deterministic curriculum synthesizer and controlled fault-injection mocks. That means every PR runs all 47 tests and the 12-badge evaluation gate in **under 25 seconds at `$0.00` Vertex AI cost**, while staging/nightly builds can set `USE_LIVE_VERTEX_AI=true` to run live Gemini smoke tests."
+- **Code & Doc Citations**: `tests/test_tools.py`, `tests/test_memory.py`, `tests/test_pii_scrubber.py`, `tests/test_conformance_and_a2ui.py`, `tests/test_resilience_and_fault_injection.py`.
+
+#### **Q38. How does your FastAPI workflow endpoint handle long-running deck generation requests without timing out HTTP clients?**
+- **Associated Slides**: **Slide 3** (Dual Interfaces & A2A/A2UI), **Slide 4** (Stage 1 SSE Stream), **Slide 8** (Days 1–30 Cloud Tasks)
+- **Rubric Mapping**: **2.6 (API Documentation)** & **6.7 (API Design & Versioning)**
+- **Golden Answer**:
+  "We support three non-blocking consumption patterns in `src/server.py` and `docs/API_INTEGRATION_GUIDE.md`:
+  1. **Server-Sent Events (SSE) Streaming (`GET /api/v1/workflow/stream` & A2UI v0.9)**: Streams incremental `stage_progress` and `A2UIMessageEnvelope` JSON events after each of the 5 pipeline stages so browser clients keep the connection active and render live progress bars.
+  2. **Asynchronous Webhook Callback (`webhook_url` on `POST /api/v1/workflow/run`)**: Clients can pass a `webhook_url` in `WorkflowRunRequest` so the server dispatches the completion payload asynchronously when `.pptx` compilation finishes.
+  3. **A2A 1.0 Task Polling (`POST /a2a/tasks/send` -> `GET /a2a/tasks/{task_id}`)**: External agents submit a task and poll or stream its lifecycle state (`SUBMITTED -> WORKING -> COMPLETED`) without holding a blocking synchronous HTTP request open."
+- **Code & Doc Citations**: `src/server.py`, `src/schemas.py` (`WorkflowRunRequest`), `docs/API_INTEGRATION_GUIDE.md`, `docs/openapi.yaml`.
+
+#### **Q39. If a Cloud Run instance starts returning `429 RESOURCE_EXHAUSTED` during a Saturday Merit Badge University event, what does the on-call runbook instruct the operator to do?**
+- **Associated Slides**: **Slide 5** (Circuit Breaker), **Slide 7** (Canary CI/CD & Ops), **Slide 10** (Appendix B)
+- **Rubric Mapping**: **2.7 (Operational Documentation)** & **4.4 (Graceful Degradation)**
+- **Golden Answer**:
+  "First, the incident is non-disruptive to counselors because `CircuitBreaker` (`src/resilience.py`) automatically trips `OPEN` after 3 consecutive `429`s and routes requests to `gemini-2.5-flash` or our deterministic fallback engine (`0` user-facing HTTP 500s).
+  Second, our operational runbook (`docs/runbook.md` §3) gives the on-call engineer three immediate mitigation commands:
+  1. **Inspect Live Breaker & Quota Telemetry**: Query `/readiness` and filter Cloud Logging for `severity>=WARNING AND jsonPayload.circuit_breaker_state=\"OPEN\"`.
+  2. **Shift Default Model Tier or Freeze On-Demand Image Generation**: Update `config/finops_model_policy.json` (or set `DEFAULT_BEAUTIFICATION_TIER=STANDARD` / `MAX_BUDGET_USD=0.20` via `gcloud run services update-traffic`) to shed `gemini-2.5-pro` and Imagen quota load immediately.
+  3. **Route Across Secondary Vertex AI Regions**: Point `GOOGLE_CLOUD_LOCATION` from `us-central1` to `us-east5` or `global`."
+- **Code & Doc Citations**: `docs/runbook.md`, `src/resilience.py`, `src/server.py` (`/readiness`).
+
+#### **Q40. How do you manage Terraform state locking and environment parity between `dev`, `staging`, and `prod`?**
+- **Associated Slides**: **Slide 5** (Terraform IaC), **Slide 7** (Canary CI/CD), **Slide 10** (Appendix B Rubric Matrix)
+- **Rubric Mapping**: **6.2 (Infrastructure as Code — IaC)**
+- **Golden Answer**:
+  "In `terraform/main.tf` and `terraform/variables.tf`, all environment-specific parameters (`project_id`, `region`, `environment`, `min_instances`, `max_instances`, `vpc_cidr`, `rate_limit_rpm`) are parameterized without hardcoded environment strings. In deployment pipelines, Terraform state is stored in a versioned **Google Cloud Storage (GCS) backend bucket** (`gs://<project>-tfstate/scouts-bsa-agent/<env>`), which provides native **GCS object-generation state locking** (preventing two concurrent `terraform apply` runs from corrupting state). Parity between `dev`, `staging`, and `prod` is maintained by applying the exact same `terraform/` module with environment-specific `.tfvars` files (`min_instances=0` in `dev/staging`, `min_instances=1` in `prod`)."
+- **Code & Doc Citations**: `terraform/main.tf`, `terraform/variables.tf`, `terraform/outputs.tf`.
+
+#### **Q41. If Google deprecates `gemini-2.5-flash` in 30 days, what is the exact step-by-step runbook to validate and cut over to `gemini-3.0-flash`?**
+- **Associated Slides**: **Slide 4** (Model Routing), **Slide 7** (Eval Gate & Canary CI/CD)
+- **Rubric Mapping**: **6.3 (AI Lifecycle Management)**
+- **Golden Answer**:
+  "Because zero agent files hardcode model IDs, our model cutover runbook (`docs/runbook.md` & `config/finops_model_policy.json`) is a 4-step zero-code process:
+  1. **Policy Update in Branch**: Update `fast_worker_model` in `config/finops_model_policy.json` from `gemini-2.5-flash` to `gemini-3.0-flash` and update the per-million token rates.
+  2. **Golden Evaluation Gate (`scripts/eval_gate.py`)**: Run `python3 scripts/eval_gate.py` against all 12 golden badges to verify that `gemini-3.0-flash` maintains `100%` sub-requirement coverage, `100%` SHA-256 lock, `0` Stage 1 AABB shape overlaps, and stays under the `$0.14 / $0.38 / $1.00` FinOps tier ceilings.
+  3. **10% Canary Traffic Rollout (`cloudbuild.yaml`)**: Merge to trigger Cloud Build, which deploys the `gemini-3.0-flash` revision to Cloud Run at a `10%` canary traffic split and monitors OpenTelemetry latency, error rates, and `/readiness`.
+  4. **100% Promotion**: Once canary metrics pass, promote traffic to `100%`."
+- **Code & Doc Citations**: `config/finops_model_policy.json`, `prompts/manifest.json`, `scripts/eval_gate.py`, `cloudbuild.yaml`.
+
+#### **Q42. Show us how a policy config or feature flag change can disable live Nano Banana image generation during a budget freeze without redeploying application code.**
+- **Associated Slides**: **Slide 6** (FinOps Unit Economics), **Slide 9** (Appendix A: Image Studio), **Slide 10** (Appendix B)
+- **Rubric Mapping**: **6.6 (Configuration Management)** & **5.3 (AI Cost Management)**
+- **Golden Answer**:
+  "All FinOps ceilings and model routing flags are loaded dynamically via `src/config.py` and `config/finops_model_policy.json` (plus environment overrides like `MAX_BUDGET_USD` and `USE_LIVE_VERTEX_AI`). During a council budget freeze, an operator can update the Cloud Run environment variable `MAX_BUDGET_USD=0.15` (or set `allow_on_demand_nano_banana=false` in the mounted policy config) via `gcloud run services update`. Immediately, `FinOpsBudgetPlugin` locks pipeline runs to `STANDARD` tier (`$0.14`) and `NanoBananaImageAgent` routes image requests to our `$0.00` local 220-DPI Matplotlib diagram synthesizer and Wikimedia Commons search without rebuilding or redeploying the container image."
+- **Code & Doc Citations**: `src/config.py`, `config/finops_model_policy.json`, `src/agents/guardrails.py`.
+
+#### **Q43. How do you handle schema evolution when adding a new field (like `original_diagram_path` or `studio_image_path`) to saved session JSON blobs created by an older version?**
+- **Associated Slides**: **Slide 3** (Co-Design Bar & Restore Original), **Slide 8** (State Persistence), **Slide 10** (Appendix B Rubric Matrix)
+- **Rubric Mapping**: **6.7 (API Design & Versioning)**
+- **Golden Answer**:
+  "When we added `original_diagram_path`, `original_visual_caption`, `original_visual_source_label`, and `original_archetype` to `SlideSpec` in `src/schemas.py` so counselors could click *Restore Original Slide Graphic* at any time, we had to ensure existing sessions stored in `adk_sessions.db` (`sessions.state_json`) wouldn't fail Pydantic validation when reloaded.
+  We handle schema evolution in two ways:
+  1. **Backward-Compatible Pydantic Defaults**: Every newly added field on `SlideSpec` and `MeritBadgeCurriculumArtifact` defines a safe typed default (`Optional[str] = None` or `Field(default_factory=list)`), while API endpoints remain versioned under `/api/v1/*`.
+  2. **Lazy Hydration on Deserialization**: When `app.py` or `pptx_builder.py` loads a saved slide dictionary from SQLite that predates `original_diagram_path`, it automatically backfills `slide['original_diagram_path'] = slide.get('visual_diagram_path')` and `slide['original_archetype'] = slide.get('archetype')` on first read."
+- **Code & Doc Citations**: `src/schemas.py` (`SlideSpec`), `src/agents/beautifier.py`, `src/app.py`.
