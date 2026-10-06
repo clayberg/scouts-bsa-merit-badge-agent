@@ -1,0 +1,87 @@
+# adk-builder Declarative Service Specification (service-spec.yaml)
+apiVersion: adk.google.com/v2
+kind: MultiAgentServiceSpec
+metadata:
+  name: scouts-bsa-merit-badge-agent
+  version: "3.0.0"
+  category: "Product & Design"
+  protocols:
+    - A2A-1.0
+    - FastMCP-2.0
+    - A2UI-0.9
+spec:
+  rootAgent:
+    name: MeritBadgeCoordinatorAgent
+    type: SequentialAgent
+    model: gemini-2.5-flash
+    promptFile: prompts/coordinator.md
+    compactionConfig:
+      compactionInterval: 5
+      overlapSize: 2
+      strategy: additive
+    stateKeys:
+      - badge_research_artifact
+      - deep_research_enrichment
+      - slide_deck_spec
+      - deck_visual_blueprint
+      - hitl_confirmation_token
+      - conformance_report
+      - finops_cost_estimate
+      - final_workflow_result
+    subAgents:
+      - name: PamphletResearchAgent
+        type: LlmAgent
+        model: gemini-2.5-pro
+        promptFile: prompts/researcher.md
+        outputKey: badge_research_artifact
+        tools:
+          - fetch_merit_badge_pamphlet_pdf
+          - extract_pamphlet_requirement_tree
+          - enrich_requirements_with_deep_research
+          - score_and_select_best_visual_asset
+          - WebSearchGroundingAgentTool
+      - name: DeepResearchEnrichmentAgent
+        type: LlmAgent
+        model: gemini-2.5-flash
+        promptFile: prompts/researcher.md
+        outputKey: deep_research_enrichment
+        tools:
+          - enrich_requirements_with_deep_research
+          - score_and_select_best_visual_asset
+      - name: SlideContentPlannerAgent
+        type: LlmAgent
+        model: gemini-2.5-pro
+        promptFile: prompts/planner.md
+        outputKey: slide_deck_spec
+        tools:
+          - generate_slide_storyboard
+          - generate_counselor_session_agenda
+          - generate_prerequisite_parent_letter
+      - name: SlideBeautifierAgent
+        type: LlmAgent
+        model: gemini-2.5-flash
+        promptFile: prompts/beautifier.md
+        outputKey: deck_visual_blueprint
+        tools:
+          - beautify_slide_storyboard
+          - generate_ai_editorial_illustration
+      - name: PowerPointBuilderAgent
+        type: LlmAgent
+        model: gemini-2.5-flash
+        outputKey: build_artifact
+        beforeToolCallback: verify_hitl_confirmation_token
+        tools:
+          - request_counselor_confirmation
+          - generate_bsa_slide_deck_pptx
+          - generate_slide_visual_asset
+      - name: BSABrandAndSafetyReviewAgent
+        type: LoopAgent
+        maxIterations: 3
+        model: gemini-2.5-pro
+        promptFile: prompts/reviewer.md
+        outputKey: conformance_report
+        tools:
+          - validate_presentation_deck
+          - check_pptx_conformance
+          - lint_speaker_notes_voice
+

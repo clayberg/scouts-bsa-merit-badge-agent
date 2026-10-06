@@ -37,7 +37,21 @@ venv.bak/
 htmlcov/
 *.log
 
-# Generated presentations & database
+# Generated presentations, workbooks & runtime caches
 *.pptx
+deliverables/
+output_decks/
 scouts_bsa_sessions.db
 scratch_assets/
+assets/diagrams/*.png
+assets/diagrams/*.svg
+assets/pamphlet_covers/*.png
+assets/pamphlets/*.pdf
+assets/web_images/*.png
+assets/custom_logos/
+assets/pamphlet_images/clean_visual_*.png
+assets/pamphlet_images/*_p*_img*.png
+assets/pamphlet_images/*_figure.png
+.cache/
+*.bundle
+

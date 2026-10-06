@@ -1,0 +1,14 @@
+# Architecture decision records index (`docs/adr/`)
+
+All eight Architecture Decision Records (ADRs) for the Scouts BSA Merit Badge Counselor Workbench are documented in [`../../ARCHITECTURE_DECISIONS.md`](../../ARCHITECTURE_DECISIONS.md) and summarized below:
+
+| ADR ID | Decision | Options evaluated | Chosen approach and trade-off |
+| :--- | :--- | :--- | :--- |
+| **ADR-01** | **Agent pipeline topology** | 1. Single-prompt monolith<br/>2. Unbounded peer graph<br/>3. ADK `SequentialAgent` + `LoopAgent` + `AgentTool` | **Option 3**: Wraps `GoogleSearchTool` inside `AgentTool` to avoid Vertex AI tool-mixing errors and caps review retries at 3 iterations. |
+| **ADR-02** | **Pamphlet grounding and memory** | 1. Full 80-page PDF prompt stuffing<br/>2. Web-only RAG<br/>3. Hybrid pamphlet vector memory + SHA-256 lock | **Option 3**: Cuts input tokens by 68% while guaranteeing zero requirement drift via `compute_canonical_pamphlet_hash()`. |
+| **ADR-03** | **Slide layout verification** | 1. Vision LLM on every slide<br/>2. No post-build check<br/>3. Stage 1 `<10ms` AABB math + Stage 2 Vision | **Option 3**: Catches shape overlaps and font-floor violations in memory in `<10ms` at `$0.00` token cost before running curriculum review. |
+| **ADR-04** | **Youth Protection and counselor PII** | 1. Raw PII in prompts<br/>2. Omit contact info<br/>3. Pre-LLM scrubbing + local `.pptx` injection | **Option 3**: Scrubs emails and phones in `before_model_guardrail_callback()` so PII never reaches external LLMs or Cloud Trace. |
+| **ADR-05** | **Human-in-the-loop build gate** | 1. Unchecked execution<br/>2. Boolean tool flag<br/>3. HMAC-SHA256 `HITLConfirmationToken` | **Option 3**: Signs `badge_name` and `slide_count` with `BSA_HITL_SECRET_KEY` and verifies the token in `before_tool_callback`. |
+| **ADR-06** | **Slide polish tiers and FinOps cap** | 1. AI image on every slide (`>$2.60`)<br/>2. Plain white slides only<br/>3. 3-tier polish + EDGE Concept Maps + `FinOpsBudgetPlugin($1.00)` | **Option 3**: Offers `$0.14` (`STANDARD`), `$0.38` (`BEAUTIFIED`), and `$1.00` (`STUDIO`) tiers without overwriting existing technical diagrams. |
+| **ADR-07** | **Image Studio catalog, local uploads, and `$0.08` consent gate** | 1. Overwrite graphic in place without warning<br/>2. Static read-only graphics<br/>3. `original_diagram_path` snapshot + `badge_image_catalog` + `USER_UPLOAD` + `$0.08` consent gate | **Option 3**: Preserves original graphics, supports `$0.00` local file uploads and 12-result Wikimedia search, and enforces a `$0.08` consent + prompt verification check for Nano Banana. |
+| **ADR-08** | **Authentication and resilience** | 1. Mandatory JWT on laptop<br/>2. Open Cloud Run ingress<br/>3. `verify_caller_auth` + `CircuitBreaker` fallback | **Option 3**: Enforces `AUTH_REQUIRED=true` and VPC/WAF in Cloud Run while keeping local laptop runs zero-config. |

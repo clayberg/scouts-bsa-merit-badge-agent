@@ -1,0 +1,43 @@
+{
+  "schema_version": "GEAP-L400-v2.4",
+  "protocol": "A2A-1.0",
+  "system_id": "scouts-bsa-merit-badge-agent",
+  "agents": [
+    {
+      "agent_id": "merit-badge-coordinator",
+      "name": "MeritBadgeCoordinatorAgent",
+      "role": "Root Sequential/Supervisor Orchestrator",
+      "model": "gemini-2.5-flash",
+      "a2a_endpoint": "/.well-known/agent.json",
+      "certified": true
+    },
+    {
+      "agent_id": "pamphlet-research-agent",
+      "name": "PamphletResearchAgent",
+      "role": "5-Tier Scouting.org & PDF Pamphlet Deep Researcher",
+      "model": "gemini-2.5-pro",
+      "certified": true
+    },
+    {
+      "agent_id": "slide-content-planner-agent",
+      "name": "SlideContentPlannerAgent",
+      "role": "12-Archetype Pedagogical Storyboard Planner",
+      "model": "gemini-2.5-pro",
+      "certified": true
+    },
+    {
+      "agent_id": "powerpoint-builder-agent",
+      "name": "PowerPointBuilderAgent",
+      "role": "Widescreen 16:9 python-pptx & Tri-Modal Visual Renderer",
+      "model": "gemini-2.5-flash",
+      "certified": true
+    },
+    {
+      "agent_id": "bsa-brand-safety-reviewer",
+      "name": "BSABrandAndSafetyReviewAgent",
+      "role": "2-Stage Geometry/WCAG Conformance & Vision-LLM Critic",
+      "model": "gemini-2.5-pro",
+      "certified": true
+    }
+  ]
+}

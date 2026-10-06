@@ -1,0 +1,44 @@
+# Technical specification: Scouts BSA Merit Badge Counselor Workbench
+
+## 1. Agent pipeline topology (`src/agents/`)
+- **Root supervisor**: `MeritBadgeCoordinatorAgent` (`src/agents/coordinator.py`), configured with `EventsCompactionConfig(compaction_interval=5, overlap_size=2, compaction_strategy="additive")` and `ContextCacheConfig(ttl_seconds=3600, min_tokens=2048)`. Orchestrates 7 specialized sub-agents across the core curriculum pipeline and interactive Image Studio:
+  1. **Research stage (`src/agents/researcher.py`)**:
+     - `PamphletResearchAgent` (`LlmAgent`, `gemini-2.5-pro`): Extracts the requirement tree, pamphlet excerpts, and figures via `fetch_merit_badge_pamphlet_pdf()`.
+     - `WebSearchGroundingAgent` (`LlmAgent` wrapped in `AgentTool`, `gemini-2.5-flash` + `GoogleSearchTool`): Grounds regional context via `enrich_requirements_with_deep_research()` and `resolve_counselor_location()`, while verifying `compute_canonical_pamphlet_hash()` so official requirement text stays untouched.
+     - `ResearchCoverageCriticAgent` (`LlmAgent`, `gemini-2.5-pro`): Runs `verify_subrequirement_coverage()` inside a bounded `LoopAgent` (`max_iterations=2`).
+  2. **Planning and StudioKit stage (`src/agents/planner.py`, `src/tools/counselor_studiokit.py`)**:
+     - `SlideContentPlannerAgent` (`LlmAgent`, `gemini-2.5-pro`): Runs `generate_slide_storyboard()` to map each requirement onto the 12 slide archetypes (`Standard Deck` 18-26 slides; `Deep Dive / Camp School Deck` 50-70+ slides), writes `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` speaker notes, and builds the Counselor Session Agenda (`generate_counselor_session_agenda()`) and Parent Prerequisite Letter (`generate_prerequisite_parent_letter()`).
+  3. **Visual polish stage (`src/agents/beautifier.py`)**:
+     - `SlideBeautifierAgent` (`LlmAgent`, `gemini-2.5-flash`): Runs `beautify_slide_storyboard()` to apply `STANDARD`, `BEAUTIFIED`, or `STUDIO` themes, enforce consecutive-slide palette variety, preserve each slide's original graphic (`original_diagram_path`, `original_archetype`), and generate 220-DPI Scouts BSA EDGE Skill Concept Maps (`generate_ai_editorial_illustration()`) on eligible slides without overwriting existing technical diagrams.
+  4. **Interactive Merit Badge Image Studio (`src/agents/image_studio.py`)**:
+     - `WebImageSearchAgent` (`LlmAgent`, `gemini-2.5-flash`): Searches live Wikimedia Commons for up to 12 public-domain educational photos and diagrams via `search_web_images_for_slide()`, manages local file uploads via `upload_custom_slide_image()` (`USER_UPLOAD`, `$0.00 USD`), clears stale web/AI cache entries via `clear_generated_and_cached_badge_images()`, and indexes images per merit badge in `assets/badge_image_catalog/<badge_slug>/` and SQLite (`badge_image_catalog`).
+     - `NanoBananaImageAgent` (`LlmAgent`, `gemini-2.5-flash-image` / Nano Banana & Vertex AI Imagen 3): Estimates image generation cost (`estimate_nano_banana_image_cost()`, `$0.08 USD` per image, ~2,580 tokens), requires explicit user consent (`user_consented=True`), generates custom 220-DPI text-free slide visuals across 8 illustration styles (`generate_nano_banana_slide_image()`), and runs `verify_generated_image_matches_prompt()` to confirm prompt alignment.
+  5. **Human-in-the-loop confirmation gate (`src/tools/hitl_confirm.py`)**:
+     - `request_counselor_confirmation()` and `verify_hitl_before_tool_callback()` issue and verify an HMAC-SHA256 `HITLConfirmationToken` before building the `.pptx` file.
+  6. **PowerPoint build and review loop (`src/agents/builder.py`, `src/agents/reviewer.py`)**:
+     - `PowerPointBuilderAgent` (`gemini-2.5-flash`): Calls `generate_bsa_slide_deck_pptx()` (`src/tools/pptx_builder.py`) to build the `16:9` widescreen `.pptx` presentation (`<Badge>_<Tier>_<Depth>_Merit_Badge_Deck.pptx`).
+     - `BSABrandAndSafetyReviewAgent` (`gemini-2.5-pro` inside `LoopAgent`, `max_iterations=3`): Calls `check_pptx_conformance()` (`<10ms` AABB geometry, font size floor, WCAG contrast, image SHA-256 uniqueness) and `validate_presentation_deck()`.
+
+## 2. Data contracts & persistent storage (`src/schemas.py`, `src/memory/session_store.py`)
+- **Pydantic v2 models**: `MeritBadgeResearchRequest`, `MeritBadgeResearchResult`, `DeepResearchEnrichmentResult`, `DeckVisualBlueprint`, `SlideBeautificationSpec`, `FinOpsCostEstimate`, `BadgeImageEntry`, `ImageGenerationCostEstimate`, `PowerPointBuildRequest`, `PowerPointBuildResult`, `SlideSpec`, `ConformanceReport`, `VisualCritiqueVerdict`, `HITLConfirmationToken`, `A2UIMessageEnvelope`, and `GuidedToolError`.
+- **SQLite tables (`deliverables/adk_sessions.db`)**: `sessions` (session state & telemetry), `pamphlet_chunks` (hybrid BM25 + vector chunks), `hitl_feedback` (counselor ratings), and `badge_image_catalog` (cached per-badge images with SHA-256 deduplication).
+- **Counselor profile cache & PII isolation**: Local runs cache counselor contact info in `.cache/counselor_profile.json` (`0600` owner-only permissions, git-ignored); multi-tenant Cloud Run deployments persist contact info in client-side browser `localStorage` (`scouts_bsa_counselor_profile_v1`). Contact PII is injected locally into Slide 1 and the Parent Letter and scrubbed (`scrub_pii_before_sink()`) before any LLM prompt or telemetry sink.
+
+## 3. HTTP, SSE, and A2A endpoints (`src/server.py`)
+- `GET /health` and `GET /readiness`: Container liveness and deep dependency readiness checks.
+- `GET /.well-known/agent.json`: A2A 1.0 Agent Card discovery.
+- `POST /a2a/tasks/send`, `GET /a2a/tasks/{task_id}`, `POST /a2a/tasks/{task_id}/cancel`: A2A 1.0 task endpoints returning A2UI v0.9 surface envelopes.
+- `GET /api/badges` and `GET /api/v1/badges`: Lists all 138 official Scouts BSA Merit Badges with category, Eagle status, and pamphlet/DRG URLs.
+- `GET /api/counselor-profile`, `POST /api/counselor-profile`, `DELETE /api/counselor-profile`: Reads, saves, or clears the local counselor profile cache (`.cache/counselor_profile.json`) when running locally (returns a no-op indicator on multi-tenant Cloud Run so browser `localStorage` handles persistence).
+- `POST /api/workflow/run` and `POST /api/v1/workflow/run`: Runs the full workflow (`badge_name`, `depth_mode`, `beautification_tier`, `enable_deep_research`, `audience_level`, `counselor_name`, `troop_affiliation`, `location_or_zip`, `email_address`, `phone_number`, `custom_troop_logo_path`).
+- `GET /api/workflow/stream` and `GET /api/v1/workflow/stream`: Streams Server-Sent Events (`text/event-stream`) as each agent stage completes.
+- `POST /api/slide/regenerate` and `POST /api/v1/slide/regenerate`: Updates a single slide's layout archetype, card theme, color palette, or right-side graphic (`keep_current`, `restore_original`, `ai_hero`, `custom_image`, or `none` with automatic full-width layout reflow) and rebuilds the `.pptx` file in place.
+- `GET /api/badge/images` and `DELETE /api/badge/images`: Lists all cached images in the Merit Badge Image Catalog (`BadgeImageEntry` list) or purges web-searched and AI-generated cache items while preserving `PAMPHLET` and `USER_UPLOAD` entries.
+- `POST /api/slide/search-web-images`: Invokes `WebImageSearchAgent` to find up to 12 live Wikimedia Commons images, download, and cache educational images for a slide.
+- `POST /api/slide/estimate-image-cost`: Returns a FinOps cost estimate (`$0.08 USD` per image, ~2,580 tokens) before invoking `NanoBananaImageAgent`.
+- `POST /api/slide/generate-nano-banana-image`: Invokes `NanoBananaImageAgent` after verifying `user_consented=True`, verifies prompt alignment (`verify_generated_image_matches_prompt()`), attaches the image to the slide (adjusting text-only slides to `SPLIT_VISUAL_EXPLAINER`), and rebuilds the `.pptx` file.
+- `POST /api/slide/upload-image` (`POST /api/v1/slide/upload-image`, `POST /api/badge/images/upload`): Validates and normalizes a user-uploaded `.png`/`.jpg`/`.webp` image (`<= 10 MB`, `$0.00 USD`), registers it in the badge catalog as `USER_UPLOAD`, and optionally applies it to the slide and rebuilds the `.pptx` file.
+- `POST /api/hitl/confirm` and `POST /api/v1/hitl/confirm`: Validates counselor approval and issues an HMAC-SHA256 `confirmation_token`.
+- `POST /api/v1/feedback`: Records counselor ratings and requirement verification sign-off.
+- `GET /api/v1/metrics` and `GET /api/v1/prompts/manifest`: Returns runtime latency percentiles, circuit breaker states, compliance audit logs, and prompt SHA-256 hashes.
+- `GET /api/deliverables/{filename}`: Serves generated `.pptx` decks, `.md` workbooks, and cached badge images with `Cache-Control: no-store`.

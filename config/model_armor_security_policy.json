@@ -1,0 +1,18 @@
+{
+  "policy_id": "model-armor-scouts-bsa-youth-protection-v2",
+  "youth_protection_rules": {
+    "enforce_two_deep_leadership": true,
+    "enforce_no_one_on_one_contact": true,
+    "enforce_buddy_system": true,
+    "enforce_guide_to_safe_scouting": true
+  },
+  "dlp_pii_scrubbing": {
+    "redact_counselor_email_before_telemetry_sink": true,
+    "redact_counselor_phone_before_telemetry_sink": true,
+    "preserve_contact_on_local_pptx_cover_slide": true
+  },
+  "prompt_injection_shield": {
+    "block_unsafe_outdoor_instructions": true,
+    "require_hitl_confirmation_token_for_build": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "policy_id": "finops-scouts-bsa-v3",
+  "routing_strategy": "dual_tier_cost_optimized_with_budget_cap",
+  "models": {
+    "fast_tier": {
+      "model_id": "gemini-2.5-flash",
+      "tasks": [
+        "ui_routing",
+        "web_search_grounding",
+        "deep_research_enrichment",
+        "slide_beautification_blueprint",
+        "multimodal_visual_scoring",
+        "pptx_deterministic_build",
+        "a2ui_envelope_formatting"
+      ],
+      "max_tokens_per_call": 8192,
+      "input_cost_per_1m_usd": 0.30,
+      "output_cost_per_1m_usd": 2.50
+    },
+    "deep_reasoning_tier": {
+      "model_id": "gemini-2.5-pro",
+      "tasks": [
+        "pamphlet_subrequirement_synthesis",
+        "12_archetype_storyboard_planning",
+        "vision_slide_critique"
+      ],
+      "max_tokens_per_call": 16384,
+      "input_cost_per_1m_usd": 1.25,
+      "output_cost_per_1m_usd": 10.00
+    },
+    "visual_generation_tier": {
+      "model_id": "imagen-3.0-generate-002",
+      "tasks": [
+        "conceptual_field_photography",
+        "editorial_slide_hero_illustration"
+      ],
+      "cost_per_image_usd": 0.04,
+      "default_max_images_per_deck": 5,
+      "fallback": "deterministic_svg_matplotlib_220dpi"
+    }
+  },
+  "budget_guardrails": {
+    "default_max_budget_usd": 1.00,
+    "studio_max_budget_usd": 1.00,
+    "downgrade_threshold_ratio": 0.80,
+    "max_loop_iterations": 3,
+    "compaction_interval_events": 5,
+    "compaction_overlap_events": 2
+  }
+}

@@ -1,0 +1,2368 @@
+openapi: 3.1.0
+info:
+  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
+  description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
+    12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
+    Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
+  version: 3.1.0
+paths:
+  /.well-known/agent.json:
+    get:
+      summary: Get A2A Agent Card
+      description: Returns the authoritative A2A 1.0 Agent Card for enterprise discovery.
+      operationId: get_a2a_agent_card__well_known_agent_json_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Get A2A Agent Card  Well Known Agent Json Get
+  /a2a/tasks/send:
+    post:
+      summary: A2A Send Task
+      description: Executes an A2A 1.0 task and returns A2UI v0.9 DataPart payloads.
+      operationId: a2a_send_task_a2a_tasks_send_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/A2ATaskSendRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response A2A Send Task A2A Tasks Send Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /a2a/tasks/{task_id}:
+    get:
+      summary: A2A Get Task
+      operationId: a2a_get_task_a2a_tasks__task_id__get
+      parameters:
+      - name: task_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Task Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response A2A Get Task A2A Tasks  Task Id  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /a2a/tasks/{task_id}/cancel:
+    post:
+      summary: A2A Cancel Task
+      operationId: a2a_cancel_task_a2a_tasks__task_id__cancel_post
+      parameters:
+      - name: task_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Task Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response A2A Cancel Task A2A Tasks  Task Id  Cancel Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/badges:
+    get:
+      summary: List Merit Badges
+      description: Returns catalog of all 138 official Scouts BSA Merit Badges with
+        category, Eagle status, and resource links.
+      operationId: list_merit_badges_api_v1_badges_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response List Merit Badges Api V1 Badges Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/badges:
+    get:
+      summary: List Merit Badges
+      description: Returns catalog of all 138 official Scouts BSA Merit Badges with
+        category, Eagle status, and resource links.
+      operationId: list_merit_badges_api_badges_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response List Merit Badges Api Badges Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/upload-logo:
+    post:
+      summary: Api Upload Troop Logo
+      description: Saves an uploaded Troop Custom Logo (.png, .jpg, .jpeg) to assets/custom_logos
+        and returns its local path and web URL.
+      operationId: api_upload_troop_logo_api_v1_upload_logo_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TroopLogoUploadRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Upload Troop Logo Api V1 Upload Logo Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/upload-logo:
+    post:
+      summary: Api Upload Troop Logo
+      description: Saves an uploaded Troop Custom Logo (.png, .jpg, .jpeg) to assets/custom_logos
+        and returns its local path and web URL.
+      operationId: api_upload_troop_logo_api_upload_logo_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TroopLogoUploadRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Upload Troop Logo Api Upload Logo Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/workflow/run:
+    post:
+      summary: Api Run Workflow
+      description: Executes the full multi-agent workflow and returns decorated A2UI
+        & slide deck payloads.
+      operationId: api_run_workflow_api_v1_workflow_run_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkflowRunRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Run Workflow Api V1 Workflow Run Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/workflow/run:
+    post:
+      summary: Api Run Workflow
+      description: Executes the full multi-agent workflow and returns decorated A2UI
+        & slide deck payloads.
+      operationId: api_run_workflow_api_workflow_run_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkflowRunRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Run Workflow Api Workflow Run Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/workflow/stream:
+    get:
+      summary: Api Stream Workflow
+      description: Streams live Server-Sent Events (SSE) as each agent completes its
+        work.
+      operationId: api_stream_workflow_api_v1_workflow_stream_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: depth_mode
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Deep Dive / Camp School Deck
+          title: Depth Mode
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Scoutmaster Bob
+          title: Counselor Name
+      - name: troop_affiliation
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 123, My Council
+          title: Troop Affiliation
+      - name: location_or_zip
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Location Or Zip
+      - name: email_address
+        in: query
+        required: false
+        schema:
+          type: string
+          default: counselor@troop123.org
+          title: Email Address
+      - name: phone_number
+        in: query
+        required: false
+        schema:
+          type: string
+          default: (000) 555-1234
+          title: Phone Number
+      - name: custom_troop_logo_path
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Troop Logo Path
+      - name: enable_deep_research
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: true
+          title: Enable Deep Research
+      - name: beautification_tier
+        in: query
+        required: false
+        schema:
+          type: string
+          default: BEAUTIFIED
+          title: Beautification Tier
+      - name: schedule_format
+        in: query
+        required: false
+        schema:
+          type: string
+          default: 3 Troop Meetings (45 min each)
+          title: Schedule Format
+      - name: audience_level
+        in: query
+        required: false
+        schema:
+          type: string
+          default: All Scouts (Ages 11–17)
+          title: Audience Level
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/workflow/stream:
+    get:
+      summary: Api Stream Workflow
+      description: Streams live Server-Sent Events (SSE) as each agent completes its
+        work.
+      operationId: api_stream_workflow_api_workflow_stream_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: depth_mode
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Deep Dive / Camp School Deck
+          title: Depth Mode
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Scoutmaster Bob
+          title: Counselor Name
+      - name: troop_affiliation
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 123, My Council
+          title: Troop Affiliation
+      - name: location_or_zip
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Location Or Zip
+      - name: email_address
+        in: query
+        required: false
+        schema:
+          type: string
+          default: counselor@troop123.org
+          title: Email Address
+      - name: phone_number
+        in: query
+        required: false
+        schema:
+          type: string
+          default: (000) 555-1234
+          title: Phone Number
+      - name: custom_troop_logo_path
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Troop Logo Path
+      - name: enable_deep_research
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: true
+          title: Enable Deep Research
+      - name: beautification_tier
+        in: query
+        required: false
+        schema:
+          type: string
+          default: BEAUTIFIED
+          title: Beautification Tier
+      - name: schedule_format
+        in: query
+        required: false
+        schema:
+          type: string
+          default: 3 Troop Meetings (45 min each)
+          title: Schedule Format
+      - name: audience_level
+        in: query
+        required: false
+        schema:
+          type: string
+          default: All Scouts (Ages 11–17)
+          title: Audience Level
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/regenerate:
+    post:
+      summary: Api Regenerate Slide
+      description: Surgically updates a single slide's graphic, magazine theme, palette,
+        and archetype layout, and rebuilds the .pptx.
+      operationId: api_regenerate_slide_api_v1_slide_regenerate_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideRegenerateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Regenerate Slide Api V1 Slide Regenerate Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/regenerate:
+    post:
+      summary: Api Regenerate Slide
+      description: Surgically updates a single slide's graphic, magazine theme, palette,
+        and archetype layout, and rebuilds the .pptx.
+      operationId: api_regenerate_slide_api_slide_regenerate_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideRegenerateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Regenerate Slide Api Slide Regenerate Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/counselor-profile:
+    get:
+      summary: Api Get Counselor Profile
+      description: Loads locally cached Counselor profile (in local mode) or returns
+        browser-localStorage guidance (in Cloud Run).
+      operationId: api_get_counselor_profile_api_v1_counselor_profile_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Counselor Profile Api V1 Counselor Profile
+                  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    post:
+      summary: Api Save Counselor Profile
+      description: Persists Counselor profile locally in `.cache/counselor_profile.json`
+        (`0600` owner-only permissions).
+      operationId: api_save_counselor_profile_api_v1_counselor_profile_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CounselorProfileSaveRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Counselor Profile Api V1 Counselor Profile
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Delete Counselor Profile
+      description: Clears locally cached Counselor profile.
+      operationId: api_delete_counselor_profile_api_v1_counselor_profile_delete
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Delete Counselor Profile Api V1 Counselor Profile
+                  Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/counselor-profile:
+    get:
+      summary: Api Get Counselor Profile
+      description: Loads locally cached Counselor profile (in local mode) or returns
+        browser-localStorage guidance (in Cloud Run).
+      operationId: api_get_counselor_profile_api_counselor_profile_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Counselor Profile Api Counselor Profile Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    post:
+      summary: Api Save Counselor Profile
+      description: Persists Counselor profile locally in `.cache/counselor_profile.json`
+        (`0600` owner-only permissions).
+      operationId: api_save_counselor_profile_api_counselor_profile_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CounselorProfileSaveRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Counselor Profile Api Counselor Profile Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Delete Counselor Profile
+      description: Clears locally cached Counselor profile.
+      operationId: api_delete_counselor_profile_api_counselor_profile_delete
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Delete Counselor Profile Api Counselor Profile
+                  Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/badge/images:
+    get:
+      summary: Api Get Badge Image Catalog
+      description: Returns all cached images and descriptions for a Merit Badge.
+      operationId: api_get_badge_image_catalog_api_v1_badge_images_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Badge Image Catalog Api V1 Badge Images Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Purge Badge Images
+      description: Purges previously generated/cached Web Search and Nano Banana AI
+        images while preserving official BSA pamphlet figures.
+      operationId: api_purge_badge_images_api_v1_badge_images_delete
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Badge Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Purge Badge Images Api V1 Badge Images Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/badge/images:
+    get:
+      summary: Api Get Badge Image Catalog
+      description: Returns all cached images and descriptions for a Merit Badge.
+      operationId: api_get_badge_image_catalog_api_badge_images_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Badge Image Catalog Api Badge Images Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Purge Badge Images
+      description: Purges previously generated/cached Web Search and Nano Banana AI
+        images while preserving official BSA pamphlet figures.
+      operationId: api_purge_badge_images_api_badge_images_delete
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Badge Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Purge Badge Images Api Badge Images Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/search-web-images:
+    post:
+      summary: Api Search Web Images
+      description: Invokes `WebImageSearchAgent` to search and cache Wikimedia / reference
+        images for a slide.
+      operationId: api_search_web_images_api_v1_slide_search_web_images_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WebImageSearchRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Search Web Images Api V1 Slide Search Web Images
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/search-web-images:
+    post:
+      summary: Api Search Web Images
+      description: Invokes `WebImageSearchAgent` to search and cache Wikimedia / reference
+        images for a slide.
+      operationId: api_search_web_images_api_slide_search_web_images_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WebImageSearchRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Search Web Images Api Slide Search Web Images
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/estimate-image-cost:
+    post:
+      summary: Api Estimate Nano Banana Cost
+      description: Computes FinOps USD cost estimate and consent prompt before running
+        `NanoBananaImageAgent`.
+      operationId: api_estimate_nano_banana_cost_api_v1_slide_estimate_image_cost_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaCostRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Estimate Nano Banana Cost Api V1 Slide Estimate
+                  Image Cost Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/estimate-image-cost:
+    post:
+      summary: Api Estimate Nano Banana Cost
+      description: Computes FinOps USD cost estimate and consent prompt before running
+        `NanoBananaImageAgent`.
+      operationId: api_estimate_nano_banana_cost_api_slide_estimate_image_cost_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaCostRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Estimate Nano Banana Cost Api Slide Estimate Image
+                  Cost Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/generate-nano-banana-image:
+    post:
+      summary: Api Generate Nano Banana Image
+      description: Invokes `NanoBananaImageAgent` (enforcing `user_consented=True`)
+        to create & cache a custom slide graphic.
+      operationId: api_generate_nano_banana_image_api_v1_slide_generate_nano_banana_image_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaGenerateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Nano Banana Image Api V1 Slide Generate
+                  Nano Banana Image Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/generate-nano-banana-image:
+    post:
+      summary: Api Generate Nano Banana Image
+      description: Invokes `NanoBananaImageAgent` (enforcing `user_consented=True`)
+        to create & cache a custom slide graphic.
+      operationId: api_generate_nano_banana_image_api_slide_generate_nano_banana_image_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaGenerateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Nano Banana Image Api Slide Generate
+                  Nano Banana Image Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/badge/images/upload:
+    post:
+      summary: Api Upload Slide Image
+      description: Saves, validates, and caches a Counselor-uploaded local image file
+        into the Merit Badge catalog ($0.00 cost).
+      operationId: api_upload_slide_image_api_badge_images_upload_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideImageUploadRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Upload Slide Image Api Badge Images Upload Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/upload-image:
+    post:
+      summary: Api Upload Slide Image
+      description: Saves, validates, and caches a Counselor-uploaded local image file
+        into the Merit Badge catalog ($0.00 cost).
+      operationId: api_upload_slide_image_api_v1_slide_upload_image_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideImageUploadRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Upload Slide Image Api V1 Slide Upload Image Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/upload-image:
+    post:
+      summary: Api Upload Slide Image
+      description: Saves, validates, and caches a Counselor-uploaded local image file
+        into the Merit Badge catalog ($0.00 cost).
+      operationId: api_upload_slide_image_api_slide_upload_image_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideImageUploadRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Upload Slide Image Api Slide Upload Image Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/hitl/confirm:
+    post:
+      summary: Api Confirm Hitl
+      description: Validates Counselor HITL sign-off and returns a cryptographic confirmation_token.
+      operationId: api_confirm_hitl_api_v1_hitl_confirm_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+              title: Payload
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Confirm Hitl Api V1 Hitl Confirm Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/hitl/confirm:
+    post:
+      summary: Api Confirm Hitl
+      description: Validates Counselor HITL sign-off and returns a cryptographic confirmation_token.
+      operationId: api_confirm_hitl_api_hitl_confirm_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+              title: Payload
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Confirm Hitl Api Hitl Confirm Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /health:
+    get:
+      summary: Health Liveness Probe
+      description: Fast container liveness probe for Cloud Run / Kubernetes.
+      operationId: health_liveness_probe_health_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Health Liveness Probe Health Get
+  /readiness:
+    get:
+      summary: Readiness Deep Probe
+      description: Deep dependency readiness check verifying SQLite session store,
+        catalog, and FinOps policy.
+      operationId: readiness_deep_probe_readiness_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Readiness Deep Probe Readiness Get
+  /api/v1/metrics:
+    get:
+      summary: Get Runtime Metrics
+      description: Returns real-time AI telemetry, latency percentiles, circuit breaker
+        states, and audit events.
+      operationId: get_runtime_metrics_api_v1_metrics_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Get Runtime Metrics Api V1 Metrics Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/metrics:
+    get:
+      summary: Get Runtime Metrics
+      description: Returns real-time AI telemetry, latency percentiles, circuit breaker
+        states, and audit events.
+      operationId: get_runtime_metrics_api_metrics_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Get Runtime Metrics Api Metrics Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/feedback:
+    post:
+      summary: Submit Counselor Feedback
+      description: Captures Human-in-the-Loop Counselor evaluation ratings and requirement
+        accuracy sign-off.
+      operationId: submit_counselor_feedback_api_v1_feedback_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CounselorFeedbackRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Submit Counselor Feedback Api V1 Feedback Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    get:
+      summary: List Counselor Feedback
+      description: Returns aggregated Human-in-the-Loop Counselor feedback statistics.
+      operationId: list_counselor_feedback_api_v1_feedback_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response List Counselor Feedback Api V1 Feedback Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/feedback:
+    post:
+      summary: Submit Counselor Feedback
+      description: Captures Human-in-the-Loop Counselor evaluation ratings and requirement
+        accuracy sign-off.
+      operationId: submit_counselor_feedback_api_feedback_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CounselorFeedbackRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Submit Counselor Feedback Api Feedback Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    get:
+      summary: List Counselor Feedback
+      description: Returns aggregated Human-in-the-Loop Counselor feedback statistics.
+      operationId: list_counselor_feedback_api_feedback_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response List Counselor Feedback Api Feedback Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/prompts/manifest:
+    get:
+      summary: Get Prompt Manifest Endpoint
+      description: Returns the active versioned prompt manifest with SHA-256 content
+        hashes.
+      operationId: get_prompt_manifest_endpoint_api_v1_prompts_manifest_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Get Prompt Manifest Endpoint Api V1 Prompts Manifest
+                  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /:
+    get:
+      summary: Serve A2Ui Workbench
+      description: Serves the Google Material 3 Expressive A2UI Counselor Workbench.
+      operationId: serve_a2ui_workbench__get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            text/html:
+              schema:
+                type: string
+components:
+  schemas:
+    A2ATaskSendRequest:
+      properties:
+        id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Id
+        sessionId:
+          type: string
+          title: Sessionid
+          default: a2a_default_session
+        message:
+          additionalProperties: true
+          type: object
+          title: Message
+        metadata:
+          additionalProperties: true
+          type: object
+          title: Metadata
+      type: object
+      title: A2ATaskSendRequest
+    CounselorFeedbackRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Merit Badge evaluated by the Counselor.
+          default: First Aid
+        session_id:
+          type: string
+          title: Session Id
+          description: Session identifier.
+          default: a2ui_workbench_session
+        rating:
+          type: integer
+          maximum: 5.0
+          minimum: 1.0
+          title: Rating
+          description: Counselor quality rating (1 to 5 stars).
+          default: 5
+        thumbs_up:
+          type: boolean
+          title: Thumbs Up
+          description: True for positive endorsement, False for issue flag.
+          default: true
+        requirement_accuracy_verified:
+          type: boolean
+          title: Requirement Accuracy Verified
+          description: Whether the Counselor verified 100% sub-requirement fidelity.
+          default: true
+        comments:
+          type: string
+          title: Comments
+          description: Optional Counselor notes or improvement suggestions.
+          default: ''
+      type: object
+      title: CounselorFeedbackRequest
+    CounselorProfileSaveRequest:
+      properties:
+        counselor_name:
+          type: string
+          title: Counselor Name
+          default: Scoutmaster Bob
+        troop_affiliation:
+          type: string
+          title: Troop Affiliation
+          default: Troop 123, My Council
+        location_or_zip:
+          type: string
+          title: Location Or Zip
+          default: ''
+        email_address:
+          type: string
+          title: Email Address
+          default: counselor@troop123.org
+        phone_number:
+          type: string
+          title: Phone Number
+          default: (000) 555-1234
+        custom_troop_logo_path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Troop Logo Path
+      type: object
+      title: CounselorProfileSaveRequest
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    NanoBananaCostRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+        slide_title:
+          type: string
+          title: Slide Title
+          default: ''
+        custom_prompt:
+          type: string
+          title: Custom Prompt
+          default: ''
+        visual_style:
+          type: string
+          title: Visual Style
+          default: Photorealistic Image
+        num_images:
+          type: integer
+          maximum: 4.0
+          minimum: 1.0
+          title: Num Images
+          default: 1
+      type: object
+      required:
+      - badge_name
+      title: NanoBananaCostRequest
+    NanoBananaGenerateRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+        slide_title:
+          type: string
+          title: Slide Title
+          default: ''
+        req_number:
+          type: string
+          title: Req Number
+          default: '1'
+        custom_prompt:
+          type: string
+          title: Custom Prompt
+          default: ''
+        bullet_points:
+          items:
+            type: string
+          type: array
+          title: Bullet Points
+        visual_style:
+          type: string
+          title: Visual Style
+          default: Photorealistic Image
+        accent_palette_key:
+          type: string
+          title: Accent Palette Key
+          default: NAVY_GOLD
+        beautification_tier:
+          type: string
+          title: Beautification Tier
+          default: STUDIO
+        user_consented:
+          type: boolean
+          title: User Consented
+          default: false
+      type: object
+      required:
+      - badge_name
+      title: NanoBananaGenerateRequest
+    SlideImageUploadRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+        req_number:
+          type: string
+          title: Req Number
+          default: '1'
+        slide_title:
+          type: string
+          title: Slide Title
+          default: ''
+        filename:
+          type: string
+          title: Filename
+          default: uploaded_slide_image.png
+        data_url:
+          type: string
+          title: Data Url
+          description: Base64 Data URL or raw base64 content of the uploaded image.
+          default: ''
+        image_base64:
+          type: string
+          title: Image Base64
+          description: Optional alias for data_url.
+          default: ''
+        title:
+          type: string
+          title: Title
+          default: ''
+        description:
+          type: string
+          title: Description
+          default: ''
+      type: object
+      required:
+      - badge_name
+      title: SlideImageUploadRequest
+    SlideRegenerateRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+        slide_index:
+          type: integer
+          title: Slide Index
+          description: 0-based index in storyboard.slides
+        new_archetype:
+          type: string
+          title: New Archetype
+          description: Target SlideArchetype value
+        new_diagram_type:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: New Diagram Type
+        new_visual_theme:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: New Visual Theme
+        new_accent_palette:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: New Accent Palette
+        visual_source_mode:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Visual Source Mode
+          description: 'Override mode: ''keep_current'', ''restore_original'', ''custom_image'',
+            ''ai_hero'', or ''none''.'
+        custom_image_path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Image Path
+          description: Path to a selected catalog/web/AI image.
+        custom_image_caption:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Image Caption
+          description: Caption for the selected image.
+        custom_image_source_label:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Image Source Label
+          description: Source label for the selected image.
+        slide_data:
+          additionalProperties: true
+          type: object
+          title: Slide Data
+        storyboard_slides:
+          anyOf:
+          - items:
+              additionalProperties: true
+              type: object
+            type: array
+          - type: 'null'
+          title: Storyboard Slides
+          description: Optional full list of storyboard slides to immediately rebuild
+            the .pptx file on disk.
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+          description: Optional counselor personalization info.
+        output_path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Output Path
+          description: Optional existing .pptx output path to update.
+      type: object
+      required:
+      - badge_name
+      - slide_index
+      - new_archetype
+      title: SlideRegenerateRequest
+    TroopLogoUploadRequest:
+      properties:
+        filename:
+          type: string
+          title: Filename
+          description: Uploaded image filename (.png, .jpg, .jpeg).
+        data_url:
+          type: string
+          title: Data Url
+          description: Base64 Data URL or raw base64 content of the image.
+      type: object
+      required:
+      - filename
+      - data_url
+      title: TroopLogoUploadRequest
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+        input:
+          title: Input
+        ctx:
+          type: object
+          title: Context
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError
+    WebImageSearchRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+        slide_title:
+          type: string
+          title: Slide Title
+          default: ''
+        req_number:
+          type: string
+          title: Req Number
+          default: '1'
+        search_query:
+          type: string
+          title: Search Query
+          default: ''
+        bullet_points:
+          items:
+            type: string
+          type: array
+          title: Bullet Points
+        max_results:
+          type: integer
+          maximum: 24.0
+          minimum: 1.0
+          title: Max Results
+          default: 16
+      type: object
+      required:
+      - badge_name
+      title: WebImageSearchRequest
+    WorkflowRunRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Official Merit Badge name.
+          default: First Aid
+        depth_mode:
+          type: string
+          title: Depth Mode
+          description: '''Standard Deck'' or ''Deep Dive / Camp School Deck'''
+          default: Deep Dive / Camp School Deck
+        counselor_name:
+          type: string
+          title: Counselor Name
+          description: Merit Badge Counselor name.
+          default: Scoutmaster Bob
+        troop_affiliation:
+          type: string
+          title: Troop Affiliation
+          description: Troop and Council affiliation.
+          default: Troop 123, My Council
+        location_or_zip:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Location Or Zip
+          description: Optional City, State or 5-digit ZIP code for local NOAA/USGS/field
+            grounding.
+          default: ''
+        email_address:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Email Address
+          description: Counselor contact email.
+          default: counselor@troop123.org
+        phone_number:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Phone Number
+          description: Counselor contact phone.
+          default: (000) 555-1234
+        custom_troop_logo_path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Troop Logo Path
+          description: Optional path to custom Troop Logo PNG/JPG.
+        enable_deep_research:
+          type: boolean
+          title: Enable Deep Research
+          description: Whether to run Tier-2 grounded web & local troop research.
+          default: true
+        beautification_tier:
+          type: string
+          title: Beautification Tier
+          description: '''STANDARD'', ''BEAUTIFIED'', or ''STUDIO''.'
+          default: BEAUTIFIED
+        schedule_format:
+          type: string
+          title: Schedule Format
+          description: Counselor lesson schedule format.
+          default: 3 Troop Meetings (45 min each)
+        audience_level:
+          type: string
+          title: Audience Level
+          description: Target Scout audience level.
+          default: All Scouts (Ages 11–17)
+        session_id:
+          type: string
+          title: Session Id
+          description: Persistent counselor session ID.
+          default: a2ui_workbench_session
+        webhook_url:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Webhook Url
+          description: Optional webhook callback URL notified on completion.
+      type: object
+      title: WorkflowRunRequest

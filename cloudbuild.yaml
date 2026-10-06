@@ -1,0 +1,102 @@
+# Google Cloud Build CI/CD Pipeline with Blocking Quality Gates, Pre-Deploy AI Evaluation,
+# and 10% Cloud Run Canary Rollout + Automatic Rollback on Smoke Check Failure.
+
+steps:
+  # Step 1: Blocking Static Analysis & Linting
+  - name: "python:3.11-slim"
+    id: "lint-and-type-check"
+    entrypoint: "bash"
+    args:
+      - "-e"
+      - "-c"
+      - |
+        pip install --no-cache-dir -e ".[dev]"
+        ruff check src/ tests/ scripts/
+
+  # Step 2: Blocking Unit, Security, Fault-Injection & OpenAPI Contract Test Suite
+  - name: "python:3.11-slim"
+    id: "unit-and-resilience-tests"
+    waitFor: ["lint-and-type-check"]
+    entrypoint: "bash"
+    args:
+      - "-e"
+      - "-c"
+      - |
+        pip install --no-cache-dir -e ".[dev]"
+        pytest tests/ -v --tb=short
+
+  # Step 3: Blocking Multi-Metric AI Evaluation Gate (IR Recall@3/MRR/NDCG + Faithfulness + 0 AABB Overlaps)
+  - name: "python:3.11-slim"
+    id: "pre-deploy-eval-gate"
+    waitFor: ["unit-and-resilience-tests"]
+    entrypoint: "bash"
+    args:
+      - "-e"
+      - "-c"
+      - |
+        pip install --no-cache-dir -e .
+        python3 scripts/eval_gate.py --min-recall 0.98 --min-ir-mrr 0.85 --max-aabb-overlaps 0 --min-faithfulness 0.80
+
+  # Step 4: Build & Push Immutable Container Image Tagged with Commit SHA
+  - name: "gcr.io/cloud-builders/docker"
+    id: "build-container-image"
+    waitFor: ["pre-deploy-eval-gate"]
+    args:
+      - "build"
+      - "-t"
+      - "gcr.io/$PROJECT_ID/scouts-bsa-agent:$COMMIT_SHA"
+      - "-t"
+      - "gcr.io/$PROJECT_ID/scouts-bsa-agent:latest"
+      - "."
+
+  - name: "gcr.io/cloud-builders/docker"
+    id: "push-container-image"
+    waitFor: ["build-container-image"]
+    args:
+      - "push"
+      - "gcr.io/$PROJECT_ID/scouts-bsa-agent:$COMMIT_SHA"
+
+  # Step 5: Stage Canary Revision with --no-traffic and Shift 10% Traffic
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    id: "deploy-canary-10-percent"
+    waitFor: ["push-container-image"]
+    entrypoint: "bash"
+    args:
+      - "-e"
+      - "-c"
+      - |
+        gcloud run deploy ${_SERVICE_NAME} \
+          --image="gcr.io/$PROJECT_ID/scouts-bsa-agent:$COMMIT_SHA" \
+          --region="${_REGION}" \
+          --tag="canary" \
+          --no-traffic
+        gcloud run services update-traffic ${_SERVICE_NAME} \
+          --region="${_REGION}" \
+          --to-tags="canary=10"
+
+  # Step 6: Verify Canary /readiness Deep Probe and Promote to 100% (or Auto-Rollback on Failure)
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    id: "verify-canary-or-rollback"
+    waitFor: ["deploy-canary-10-percent"]
+    entrypoint: "bash"
+    args:
+      - "-e"
+      - "-c"
+      - |
+        CANARY_URL=$$(gcloud run services describe ${_SERVICE_NAME} --region="${_REGION}" --format="value(status.traffic[0].url)")
+        if curl -fsS "$${CANARY_URL}/readiness" | grep -q '"status":"READY"'; then
+          echo "Canary readiness verified. Promoting revision to 100% traffic."
+          gcloud run services update-traffic ${_SERVICE_NAME} --region="${_REGION}" --to-latest
+        else
+          echo "Canary readiness check failed! Rolling back 100% traffic to previous stable revision."
+          PREV_REV=$$(gcloud run revisions list --service=${_SERVICE_NAME} --region="${_REGION}" --sort-by="~creationTimestamp" --limit=2 --format="value(metadata.name)" | tail -n 1)
+          gcloud run services update-traffic ${_SERVICE_NAME} --region="${_REGION}" --to-revisions="$${PREV_REV}=100"
+          exit 1
+        fi
+
+substitutions:
+  _SERVICE_NAME: "scouts-bsa-merit-badge-agent"
+  _REGION: "us-central1"
+
+options:
+  logging: CLOUD_LOGGING_ONLY

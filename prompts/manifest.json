@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "active_release_channel": "production",
+  "constitution_version": "3.1.0",
+  "prompts": {
+    "coordinator.md": {
+      "agent_role": "coordinator",
+      "version": "3.1.0",
+      "updated_at": "2026-10-03",
+      "owner": "clayberg",
+      "description": "Root supervisor prompt governing ADK session compaction, sub-agent delegation, and HITL token verification.",
+      "ab_variants": {
+        "control": "coordinator.md",
+        "challenger": "coordinator.md"
+      }
+    },
+    "researcher.md": {
+      "agent_role": "researcher",
+      "version": "3.1.0",
+      "updated_at": "2026-10-03",
+      "owner": "clayberg",
+      "description": "5-tier pamphlet extractor and grounded web research instructions with SHA-256 canonical requirement lock.",
+      "ab_variants": {
+        "control": "researcher.md",
+        "challenger": "researcher.md"
+      }
+    },
+    "planner.md": {
+      "agent_role": "planner",
+      "version": "3.1.0",
+      "updated_at": "2026-10-03",
+      "owner": "clayberg",
+      "description": "12-archetype slide storyboard planner, [SAY]/[DEMONSTRATE]/[ASK SCOUTS] teaching notes, and StudioKit generator.",
+      "ab_variants": {
+        "control": "planner.md",
+        "challenger": "planner.md"
+      }
+    },
+    "beautifier.md": {
+      "agent_role": "beautifier",
+      "version": "3.1.0",
+      "updated_at": "2026-10-03",
+      "owner": "clayberg",
+      "description": "3-tier visual polish pass (STANDARD, BEAUTIFIED, STUDIO) with FinOps budget enforcement.",
+      "ab_variants": {
+        "control": "beautifier.md",
+        "challenger": "beautifier.md"
+      }
+    },
+    "builder.md": {
+      "agent_role": "builder",
+      "version": "3.1.0",
+      "updated_at": "2026-10-03",
+      "owner": "clayberg",
+      "description": "Widescreen 16:9 python-pptx renderer and 220-DPI diagram synthesis instructions.",
+      "ab_variants": {
+        "control": "builder.md",
+        "challenger": "builder.md"
+      }
+    },
+    "reviewer.md": {
+      "agent_role": "reviewer",
+      "version": "3.1.0",
+      "updated_at": "2026-10-03",
+      "owner": "clayberg",
+      "description": "Stage 1 (<10ms AABB geometry/WCAG) and Stage 2 multimodal vision critic instructions.",
+      "ab_variants": {
+        "control": "reviewer.md",
+        "challenger": "reviewer.md"
+      }
+    }
+  }
+}
