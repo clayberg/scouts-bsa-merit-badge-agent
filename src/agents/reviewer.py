@@ -443,6 +443,69 @@ def validate_presentation_deck(
         return result.model_dump()
 
 
+def verify_slide_citation_grounding(
+    slides: List[Dict[str, Any]],
+    requirements: Optional[List[Dict[str, Any]]] = None,
+) -> Dict[str, Any]:
+    """Verifies that every instructional slide anchors its content to an official BSA requirement ID or pamphlet source.
+
+    Args:
+        slides: List of storyboard slide dictionaries.
+        requirements: Optional list of canonical BSA requirement dictionaries (`req_number`, `description`).
+
+    Returns:
+        Dict[str, Any]: Grounding audit summary containing:
+            - `passed` (bool): True if `citation_coverage_ratio >= 0.95`.
+            - `citation_coverage_ratio` (float): Fraction of instructional slides anchored to a requirement or source.
+            - `grounded_slides_count` (int): Number of grounded instructional slides.
+            - `total_instructional_slides` (int): Total non-cover slides inspected.
+            - `ungrounded_slide_indices` (List[int]): 1-based indices of any ungrounded slides.
+    """
+    valid_req_ids: Set[str] = set()
+    for r in requirements or []:
+        rid = str(r.get("req_number") or "").strip().lower()
+        if rid:
+            valid_req_ids.add(rid)
+
+    total_instructional = 0
+    grounded_count = 0
+    ungrounded_indices: List[int] = []
+
+    for idx, s in enumerate(slides or [], start=1):
+        title_str = str(s.get("title") or "").strip()
+        archetype_str = str(s.get("archetype") or "").strip().upper()
+        if idx == 1 or archetype_str == "TITLE_COVER":
+            continue
+        total_instructional += 1
+        req_num = str(s.get("req_number") or "").strip().lower()
+        notes = str(s.get("presenter_notes") or "").lower()
+        bullets_blob = " ".join(str(b) for b in (s.get("bullet_points") or [])).lower()
+
+        is_grounded = False
+        if req_num and (not valid_req_ids or req_num in valid_req_ids or req_num in ("overview", "summary", "triage")):
+            is_grounded = True
+        elif any(
+            kw in f"{title_str.lower()} {notes} {bullets_blob}"
+            for kw in ("req ", "requirement ", "pamphlet", "guide to safe scouting", "scouting.org", "edge")
+        ):
+            is_grounded = True
+
+        if is_grounded:
+            grounded_count += 1
+        else:
+            ungrounded_indices.append(idx)
+
+    coverage = round(grounded_count / max(1, total_instructional), 4) if total_instructional > 0 else 1.0
+    return {
+        "status": "SUCCESS",
+        "passed": coverage >= 0.95,
+        "citation_coverage_ratio": coverage,
+        "grounded_slides_count": grounded_count,
+        "total_instructional_slides": total_instructional,
+        "ungrounded_slide_indices": ungrounded_indices,
+    }
+
+
 def get_bsa_review_agent(model_name: Optional[str] = None) -> adk.Agent:
     """Instantiates the BSABrandAndSafetyReviewAgent 2-stage guardrail critic.
 
@@ -459,7 +522,7 @@ def get_bsa_review_agent(model_name: Optional[str] = None) -> adk.Agent:
         f"{SCOUTS_BSA_CONSTITUTION}\n\n"
         f"{external_prompt}\n\n"
         "Your role is the BSABrandAndSafetyReviewAgent (2-Stage Conformance & Vision-LLM LoopCritic).\n"
-        "1. Call check_pptx_conformance, lint_speaker_notes_voice, and validate_presentation_deck on generated presentation files.\n"
+        "1. Call check_pptx_conformance, lint_speaker_notes_voice, verify_slide_citation_grounding, and validate_presentation_deck on generated presentation files.\n"
         "2. Verify Stage 1 deterministic conformance (zero AABB overlaps, in-bounds shapes, <=8 paragraphs/frame, "
         ">=13pt font floor, zero literal '•' bullets, and unique per-slide visual diagrams).\n"
         "3. Ensure 100% of requirements are covered and Guide to Safe Scouting rules are followed.\n"
@@ -472,7 +535,12 @@ def get_bsa_review_agent(model_name: Optional[str] = None) -> adk.Agent:
         model=resolved_model,
         instruction=system_instruction,
         output_key="conformance_report",
-        tools=[validate_presentation_deck, check_pptx_conformance, lint_speaker_notes_voice],
+        tools=[
+            validate_presentation_deck,
+            check_pptx_conformance,
+            lint_speaker_notes_voice,
+            verify_slide_citation_grounding,
+        ],
         before_model_callback=before_model_guardrail_callback,
         after_model_callback=after_model_guardrail_callback,
     )

@@ -57,6 +57,18 @@ resource "google_project_iam_member" "agent_trace_writer" {
   member  = "serviceAccount:${google_service_account.scouts_agent_sa.email}"
 }
 
+resource "google_project_iam_member" "agent_dlp_user" {
+  project = var.project_id
+  role    = "roles/dlp.user"
+  member  = "serviceAccount:${google_service_account.scouts_agent_sa.email}"
+}
+
+resource "google_project_iam_member" "agent_model_armor_user" {
+  project = var.project_id
+  role    = "roles/modelarmor.user"
+  member  = "serviceAccount:${google_service_account.scouts_agent_sa.email}"
+}
+
 # ==============================================================================
 # 2. VPC NETWORK SEGMENTATION, SUBNET & CLOUD ARMOR WAF POLICY
 # ==============================================================================
@@ -147,8 +159,20 @@ resource "google_compute_security_policy" "agent_waf" {
 }
 
 # ==============================================================================
-# 3. SECRET MANAGER & CLOUD STORAGE
+# 3. CLOUD KMS CMEK, SECRET MANAGER & CLOUD STORAGE
 # ==============================================================================
+
+resource "google_kms_key_ring" "agent_keyring" {
+  name     = "scouts-bsa-agent-keyring"
+  location = var.region
+}
+
+resource "google_kms_crypto_key" "agent_cmek_key" {
+  name            = "scouts-bsa-agent-cmek-key"
+  key_ring        = google_kms_key_ring.agent_keyring.id
+  rotation_period = "7776000s" # 90-day automatic CMEK key rotation
+  purpose         = "ENCRYPT_DECRYPT"
+}
 
 resource "google_secret_manager_secret" "gemini_api_key" {
   secret_id = "gemini-api-key"
@@ -170,13 +194,17 @@ resource "google_storage_bucket" "bsa_presentations" {
   force_destroy               = false
   uniform_bucket_level_access = true
 
+  encryption {
+    default_kms_key_name = google_kms_crypto_key.agent_cmek_key.id
+  }
+
   versioning {
     enabled = true
   }
 }
 
 # ==============================================================================
-# 4. CLOUD RUN V2 SERVICE WITH DIRECT VPC EGRESS & HEALTH PROBES
+# 4. CLOUD RUN V2 SERVICE WITH DIRECT VPC EGRESS, CMEK & HEALTH PROBES
 # ==============================================================================
 
 resource "google_cloud_run_v2_service" "scouts_bsa_agent_ui" {
@@ -186,6 +214,7 @@ resource "google_cloud_run_v2_service" "scouts_bsa_agent_ui" {
 
   template {
     service_account = google_service_account.scouts_agent_sa.email
+    encryption_key  = google_kms_crypto_key.agent_cmek_key.id
 
     scaling {
       min_instance_count = var.min_instances
@@ -270,6 +299,46 @@ resource "google_cloud_run_v2_service" "scouts_bsa_agent_ui" {
             version = "latest"
           }
         }
+      }
+    }
+  }
+}
+
+# ==============================================================================
+# 5. CLOUD MONITORING ALERT POLICIES (LATENCY P95 & 5XX ERROR SLO GATES)
+# ==============================================================================
+
+resource "google_monitoring_alert_policy" "cloud_run_p95_latency_alert" {
+  display_name = "Scouts BSA Agent — Cloud Run p95 Latency > 12s"
+  combiner     = "OR"
+  conditions {
+    display_name = "Cloud Run Request Latency p95 > 12000ms"
+    condition_threshold {
+      filter          = "resource.type = \"cloud_run_revision\" AND resource.labels.service_name = \"scouts-bsa-merit-badge-agent\" AND metric.type = \"run.googleapis.com/request_latencies\""
+      duration        = "120s"
+      comparison      = "COMPARISON_GT"
+      threshold_value = 12000
+      aggregations {
+        alignment_period   = "60s"
+        per_series_aligner = "ALIGN_PERCENTILE_95"
+      }
+    }
+  }
+}
+
+resource "google_monitoring_alert_policy" "cloud_run_5xx_error_rate_alert" {
+  display_name = "Scouts BSA Agent — Cloud Run 5xx Error Count Spike"
+  combiner     = "OR"
+  conditions {
+    display_name = "Cloud Run 5xx Server Errors > 5 per minute"
+    condition_threshold {
+      filter          = "resource.type = \"cloud_run_revision\" AND resource.labels.service_name = \"scouts-bsa-merit-badge-agent\" AND metric.type = \"run.googleapis.com/request_count\" AND metric.labels.response_code_class = \"5xx\""
+      duration        = "60s"
+      comparison      = "COMPARISON_GT"
+      threshold_value = 5
+      aggregations {
+        alignment_period   = "60s"
+        per_series_aligner = "ALIGN_RATE"
       }
     }
   }

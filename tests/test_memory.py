@@ -114,3 +114,77 @@ async def test_asynchronous_memory_operations_and_vector_retrieval(tmp_path):
     tool_res = retrieve_pamphlet_memory_chunks("Weather", "cold fronts cumulonimbus", top_k=2)
     assert tool_res["status"] == "SUCCESS"
     assert tool_res["match_count"] >= 1
+
+
+def test_hybrid_rrf_bm25_and_citation_grounding_and_trajectory_eval(tmp_path):
+    """Verifies Hybrid RRF (BM25 + Dense Vector), citation grounding, trajectory metrics, and demo preflight."""
+    from scripts.eval_gate import (
+        EXPECTED_AGENT_TRAJECTORY,
+        evaluate_tool_trajectory,
+        promote_session_to_golden_dataset,
+        run_vertex_genai_eval_task,
+    )
+    from scripts.verify_live_demo_readiness import verify_live_demo_readiness
+    from src.agents.reviewer import verify_slide_citation_grounding
+
+    db_file = os.path.join(tmp_path, "rrf_test.db")
+    store = PersistentSessionStore(db_path=db_file)
+    store.index_pamphlet_chunks_sync(
+        badge_name="First Aid",
+        requirements_text=(
+            "[REQ-1a] Demonstrate how to care for someone who is choking using abdominal thrusts.\n\n"
+            "[REQ-2b] Apply direct pressure and a tourniquet for life-threatening arterial bleeding.\n\n"
+            "[REQ-4a] Describe the signs and symptoms of anaphylaxis and how to use an epinephrine auto-injector."
+        ),
+    )
+
+    hits = store.hybrid_search_pamphlet_rrf_sync("First Aid", "Requirement 2b tourniquet arterial", top_k=2)
+    assert len(hits) >= 1
+    assert "[REQ-2b]" in hits[0]["chunk_text"]
+    assert hits[0]["source"] == "sqlite_hybrid_rrf_vector_bm25"
+    assert hits[0]["rrf_score"] > 0.0
+    assert hits[0]["bm25_score"] > 0.0
+
+    # Verify Citation Grounding Check
+    cit = verify_slide_citation_grounding(
+        slides=[
+            {"title": "First Aid Cover", "archetype": "TITLE_COVER"},
+            {"title": "Req 1a: Choking Care", "req_number": "1a", "bullet_points": ["Abdominal thrusts"]},
+            {"title": "Req 2b: Bleeding Control", "req_number": "2b", "bullet_points": ["Direct pressure"]},
+        ],
+        requirements=[
+            {"req_number": "1a", "description": "Care for choking"},
+            {"req_number": "2b", "description": "Control bleeding"},
+        ],
+    )
+    assert cit["passed"] is True
+    assert cit["citation_coverage_ratio"] == 1.0
+
+    # Verify Agent/Tool Trajectory Evaluation
+    traj = evaluate_tool_trajectory(list(EXPECTED_AGENT_TRAJECTORY))
+    assert traj["trajectory_exact_match"] == 1.0
+    assert traj["trajectory_in_order_match"] == 1.0
+    assert traj["trajectory_precision"] == 1.0
+    assert traj["trajectory_recall"] == 1.0
+
+    eval_task_res = run_vertex_genai_eval_task([{"badge_name": "First Aid", "score": 1.0}])
+    assert eval_task_res["evaluated_rows"] == 1
+
+    # Verify Continuous-Learning Golden Dataset Promotion (Subcategory 6.7)
+    ext_file = tmp_path / "golden_extensions.json"
+    promo = promote_session_to_golden_dataset(
+        session_trace={
+            "badge_name": "First Aid",
+            "is_eagle_required": True,
+            "requirement_count": 10,
+            "session_id": "test_promo_session_1",
+        },
+        target_path=ext_file,
+    )
+    assert promo["status"] == "PROMOTED"
+    assert promo["total_golden_extensions"] == 1
+
+    # Verify Live Demo Readiness Pre-Flight Check (Subcategory 5.2)
+    demo_report = verify_live_demo_readiness()
+    assert demo_report["demo_ready"] is True
+

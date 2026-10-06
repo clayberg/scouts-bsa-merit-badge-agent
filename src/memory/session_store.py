@@ -196,6 +196,55 @@ def _cosine_similarity(vec_a: List[float], vec_b: List[float]) -> float:
     return dot / (norm_a * norm_b)
 
 
+def _compute_bm25_scores(
+    query: str,
+    documents: List[str],
+    k1: float = 1.5,
+    b: float = 0.75,
+) -> List[float]:
+    """Computes Okapi BM25 lexical relevance scores with exact BSA requirement-ID boosting."""
+    if not documents:
+        return []
+    q_tokens = re.findall(r"[a-z0-9]{1,}", (query or "").lower())
+    if not q_tokens:
+        return [0.0 for _ in documents]
+
+    doc_tokens_list = [re.findall(r"[a-z0-9]{1,}", (doc or "").lower()) for doc in documents]
+    doc_lengths = [len(toks) for toks in doc_tokens_list]
+    avgdl = max(1.0, sum(doc_lengths) / float(len(documents)))
+    n_docs = len(documents)
+
+    # Document frequency per query token
+    df: Dict[str, int] = {}
+    for tok in set(q_tokens):
+        df[tok] = sum(1 for d_toks in doc_tokens_list if tok in d_toks)
+
+    # Extract explicit requirement alphanumeric markers (e.g. "1a", "2b", "9a", "req-1a")
+    req_markers = re.findall(r"\b(?:req(?:uirement)?[-\s]*)?([0-9]{1,2}[a-z]?)\b", (query or "").lower())
+
+    scores: List[float] = []
+    for doc_str, d_toks, dl in zip(documents, doc_tokens_list, doc_lengths):
+        score = 0.0
+        if d_toks:
+            tf_map: Dict[str, int] = {}
+            for t in d_toks:
+                tf_map[t] = tf_map.get(t, 0) + 1
+            for q_tok in q_tokens:
+                tf = tf_map.get(q_tok, 0)
+                if tf == 0:
+                    continue
+                n_q = df.get(q_tok, 0)
+                idf = math.log(1.0 + (n_docs - n_q + 0.5) / (n_q + 0.5))
+                denom = tf + k1 * (1.0 - b + b * (dl / avgdl))
+                score += idf * ((tf * (k1 + 1.0)) / max(1e-9, denom))
+        doc_lower = (doc_str or "").lower()
+        for marker in req_markers:
+            if f"[req-{marker}]" in doc_lower or f"req {marker}" in doc_lower or f"requirement {marker}" in doc_lower:
+                score += 3.5
+        scores.append(round(score, 6))
+    return scores
+
+
 class PersistentSessionStore:
     """Manages persistent session state and vector memory across SQLite, ADK Vertex AI Session Service, and Vertex AI Search."""
 
@@ -344,13 +393,85 @@ class PersistentSessionStore:
             conn.commit()
         return len(raw_chunks[:64])
 
+    def hybrid_search_pamphlet_rrf_sync(
+        self,
+        badge_name: str,
+        query: str,
+        top_k: int = 3,
+        rrf_k: int = 60,
+    ) -> List[Dict[str, Any]]:
+        """Retrieves the top-k pamphlet chunks using Hybrid Search (Dense Cosine + Lexical Okapi BM25 via Reciprocal Rank Fusion)."""
+        q_vec = _compute_text_embedding(query or badge_name)
+        rows: List[Any] = []
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT chunk_id, badge_name, chunk_text, embedding_json FROM pamphlet_vector_memory WHERE lower(badge_name)=lower(?)",
+                (badge_name,),
+            )
+            rows = cursor.fetchall()
+
+        if not rows:
+            return []
+
+        docs = [str(r[2] or "") for r in rows]
+        bm25_scores = _compute_bm25_scores(query or badge_name, docs)
+
+        items: List[Dict[str, Any]] = []
+        for idx, (chunk_id, b_name, chunk_text, emb_json) in enumerate(rows):
+            emb = json.loads(emb_json) if emb_json else []
+            dense_sim = _cosine_similarity(q_vec, emb)
+            items.append(
+                {
+                    "chunk_id": chunk_id,
+                    "badge_name": b_name,
+                    "chunk_text": chunk_text,
+                    "dense_score": round(dense_sim, 6),
+                    "bm25_score": round(bm25_scores[idx], 6),
+                }
+            )
+
+        # Compute dense ranks (1-based)
+        by_dense = sorted(items, key=lambda x: x["dense_score"], reverse=True)
+        dense_rank_map = {it["chunk_id"]: rank for rank, it in enumerate(by_dense, start=1)}
+
+        # Compute lexical BM25 ranks (1-based)
+        by_bm25 = sorted(items, key=lambda x: (x["bm25_score"], x["dense_score"]), reverse=True)
+        bm25_rank_map = {it["chunk_id"]: rank for rank, it in enumerate(by_bm25, start=1)}
+
+        k_const = max(1, int(rrf_k))
+        fused: List[Dict[str, Any]] = []
+        for it in items:
+            cid = it["chunk_id"]
+            r_dense = dense_rank_map[cid]
+            r_bm25 = bm25_rank_map[cid]
+            rrf_val = (1.0 / (k_const + r_dense)) + (1.0 / (k_const + r_bm25))
+            combined_score = round(max(it["dense_score"], 0.0) * 0.5 + rrf_val * 20.0, 4)
+            fused.append(
+                {
+                    "chunk_id": cid,
+                    "badge_name": it["badge_name"],
+                    "chunk_text": it["chunk_text"],
+                    "score": combined_score,
+                    "rrf_score": round(rrf_val, 6),
+                    "dense_score": round(it["dense_score"], 4),
+                    "bm25_score": round(it["bm25_score"], 4),
+                    "dense_rank": r_dense,
+                    "bm25_rank": r_bm25,
+                    "source": "sqlite_hybrid_rrf_vector_bm25",
+                }
+            )
+
+        fused.sort(key=lambda x: (x["rrf_score"], x["bm25_score"], x["dense_score"]), reverse=True)
+        return fused[: max(1, top_k)]
+
     def search_pamphlet_vectors_sync(
         self,
         badge_name: str,
         query: str,
         top_k: int = 3,
     ) -> List[Dict[str, Any]]:
-        """Retrieves the top-k most relevant pamphlet chunks using vector cosine similarity or Vertex AI Search."""
+        """Retrieves the top-k most relevant pamphlet chunks using Hybrid BM25 + Vector RRF or Vertex AI Search."""
         if os.getenv("USE_VERTEX_AI_SEARCH", "false").lower() == "true" and self.project_id:
             try:
                 from google.cloud import discoveryengine_v1 as discoveryengine  # type: ignore
@@ -381,28 +502,7 @@ class PersistentSessionStore:
             except Exception:
                 pass
 
-        q_vec = _compute_text_embedding(query or badge_name)
-        scored: List[Dict[str, Any]] = []
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                "SELECT chunk_id, badge_name, chunk_text, embedding_json FROM pamphlet_vector_memory WHERE lower(badge_name)=lower(?)",
-                (badge_name,),
-            )
-            for chunk_id, b_name, chunk_text, emb_json in cursor.fetchall():
-                emb = json.loads(emb_json) if emb_json else []
-                sim = _cosine_similarity(q_vec, emb)
-                scored.append(
-                    {
-                        "chunk_id": chunk_id,
-                        "badge_name": b_name,
-                        "chunk_text": chunk_text,
-                        "score": round(sim, 4),
-                        "source": "sqlite_vector_store",
-                    }
-                )
-        scored.sort(key=lambda item: float(item["score"]), reverse=True)
-        return scored[: max(1, top_k)]
+        return self.hybrid_search_pamphlet_rrf_sync(badge_name=badge_name, query=query, top_k=top_k)
 
     def upsert_badge_image_sync(self, entry: Dict[str, Any]) -> bool:
         """Persists or updates a cached Merit Badge image entry in SQLite."""

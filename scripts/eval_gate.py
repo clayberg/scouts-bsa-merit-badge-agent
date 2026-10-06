@@ -22,15 +22,140 @@ import sys
 import tempfile
 import time
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.agents.coordinator import run_merit_badge_workflow  # noqa: E402
-from src.agents.reviewer import check_pptx_conformance  # noqa: E402
+from src.agents.reviewer import check_pptx_conformance, verify_slide_citation_grounding  # noqa: E402
 from src.memory.session_store import PersistentSessionStore  # noqa: E402
+
+
+EXPECTED_AGENT_TRAJECTORY = [
+    "PamphletResearchAgent",
+    "DeepResearchEnrichmentAgent",
+    "SlideContentPlannerAgent",
+    "SlideBeautifierAgent",
+    "FastMCPConfirmationGate",
+    "PowerPointBuilderAgent",
+    "BSABrandAndSafetyReviewAgent",
+]
+
+
+def evaluate_tool_trajectory(
+    actual_sequence: List[str],
+    expected_sequence: Optional[List[str]] = None,
+) -> Dict[str, float]:
+    """Computes Agent/Tool Trajectory Precision, Recall, In-Order Subsequence Match, and Exact Match."""
+    expected = expected_sequence or EXPECTED_AGENT_TRAJECTORY
+    if not expected:
+        return {
+            "trajectory_exact_match": 1.0,
+            "trajectory_in_order_match": 1.0,
+            "trajectory_precision": 1.0,
+            "trajectory_recall": 1.0,
+        }
+
+    exact_match = 1.0 if actual_sequence == expected else 0.0
+
+    # Check in-order subsequence match
+    exp_idx = 0
+    for item in actual_sequence:
+        if exp_idx < len(expected) and item == expected[exp_idx]:
+            exp_idx += 1
+    in_order_ratio = round(exp_idx / float(len(expected)), 4)
+
+    actual_set = set(actual_sequence)
+    expected_set = set(expected)
+    overlap = len(actual_set & expected_set)
+    precision = round(overlap / float(max(1, len(actual_set))), 4) if actual_sequence else 0.0
+    recall = round(overlap / float(len(expected_set)), 4)
+
+    return {
+        "trajectory_exact_match": exact_match,
+        "trajectory_in_order_match": in_order_ratio,
+        "trajectory_precision": precision,
+        "trajectory_recall": recall,
+    }
+
+
+def run_vertex_genai_eval_task(eval_rows: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Executes Vertex AI GenAI Evaluation Service (`EvalTask`) when `USE_VERTEX_EVAL_TASK=true`, with local fallback."""
+    if os.environ.get("USE_VERTEX_EVAL_TASK", "").lower() == "true":
+        try:
+            import pandas as pd  # type: ignore
+            from vertexai.preview.evaluation import EvalTask  # type: ignore
+
+            df = pd.DataFrame(eval_rows)
+            task = EvalTask(
+                dataset=df,
+                metrics=[
+                    "trajectory_exact_match",
+                    "trajectory_in_order_match",
+                    "trajectory_precision",
+                    "trajectory_recall",
+                    "groundedness",
+                ],
+                experiment="scouts-bsa-merit-badge-capstone-eval",
+            )
+            res = task.evaluate()
+            return {
+                "provider": "vertex_ai_genai_eval_service",
+                "summary_metrics": dict(getattr(res, "summary_metrics", {}) or {}),
+            }
+        except Exception as exc:
+            return {
+                "provider": "local_deterministic_fallback",
+                "fallback_reason": str(exc),
+                "evaluated_rows": len(eval_rows),
+            }
+    return {
+        "provider": "local_deterministic_eval_engine",
+        "evaluated_rows": len(eval_rows),
+    }
+
+
+def promote_session_to_golden_dataset(
+    session_trace: Dict[str, Any],
+    target_path: Optional[Path] = None,
+) -> Dict[str, Any]:
+    """Promotes a counselor-verified or remediated session trace into the continuous-learning golden dataset."""
+    out_file = target_path or (PROJECT_ROOT / "tests" / "data" / "golden_extensions.json")
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    existing: List[Dict[str, Any]] = []
+    if out_file.exists():
+        try:
+            existing = json.loads(out_file.read_text(encoding="utf-8"))
+        except Exception:
+            existing = []
+
+    badge_name = str(session_trace.get("badge_name") or "First Aid").strip()
+    entry = {
+        "badge_name": badge_name,
+        "is_eagle_required": bool(session_trace.get("is_eagle_required", True)),
+        "expected_min_requirements": int(session_trace.get("requirement_count", 5)),
+        "expected_trajectory": [
+            str(s.get("agent")) for s in (session_trace.get("agent_trace") or []) if s.get("agent")
+        ]
+        or list(EXPECTED_AGENT_TRAJECTORY),
+        "promoted_from_session_id": str(session_trace.get("session_id") or "counselor_hitl_session"),
+        "promoted_at_epoch": round(time.time(), 3),
+    }
+
+    # Replace existing entry for same session_id or append
+    existing = [
+        e for e in existing if e.get("promoted_from_session_id") != entry["promoted_from_session_id"]
+    ]
+    existing.append(entry)
+    out_file.write_text(json.dumps(existing, indent=2), encoding="utf-8")
+    return {
+        "status": "PROMOTED",
+        "target_file": str(out_file),
+        "total_golden_extensions": len(existing),
+        "entry": entry,
+    }
 
 
 def evaluate_ir_retrieval_metrics() -> Dict[str, Any]:
@@ -97,7 +222,6 @@ def evaluate_ir_retrieval_metrics() -> Dict[str, Any]:
         }
 
 
-
 def _compute_lexical_faithfulness(research_reqs: List[Dict[str, Any]], slides: List[Dict[str, Any]]) -> float:
     """Computes fraction of canonical requirement content tokens preserved across the slide deck."""
     stop_words = {"the", "and", "for", "with", "that", "this", "from", "your", "you", "are", "how", "what"}
@@ -134,6 +258,8 @@ def run_evaluation_gate(
     total_overlaps = 0
     min_req_recall_observed = 1.0
     min_faithfulness_observed = 1.0
+    min_trajectory_match_observed = 1.0
+    min_citation_coverage_observed = 1.0
     all_canonical_hashes_verified = True
 
     with tempfile.TemporaryDirectory() as tmpdir:
@@ -170,6 +296,21 @@ def run_evaluation_gate(
             faithfulness = _compute_lexical_faithfulness(research_reqs, slides)
             min_faithfulness_observed = min(min_faithfulness_observed, faithfulness)
 
+            # Evaluate Agent/Tool Trajectory
+            actual_agents = [str(step.get("agent")) for step in (res.get("agent_trace") or []) if step.get("agent")]
+            traj_metrics = evaluate_tool_trajectory(actual_agents)
+            min_trajectory_match_observed = min(
+                min_trajectory_match_observed,
+                float(traj_metrics["trajectory_in_order_match"]),
+            )
+
+            # Evaluate Citation Grounding Coverage
+            cit_metrics = verify_slide_citation_grounding(slides=slides, requirements=research_reqs)
+            min_citation_coverage_observed = min(
+                min_citation_coverage_observed,
+                float(cit_metrics["citation_coverage_ratio"]),
+            )
+
             conformance = check_pptx_conformance(res["output_path"])
             overlaps = int(conformance.get("aabb_overlap_count", 0))
             total_overlaps += overlaps
@@ -186,16 +327,23 @@ def run_evaluation_gate(
                 "requirement_coverage_recall": req_recall,
                 "canonical_pamphlet_sha256_verified": canonical_ok,
                 "lexical_faithfulness_score": faithfulness,
+                "trajectory_in_order_match": traj_metrics["trajectory_in_order_match"],
+                "trajectory_exact_match": traj_metrics["trajectory_exact_match"],
+                "citation_coverage_ratio": cit_metrics["citation_coverage_ratio"],
                 "aabb_overlap_count": overlaps,
                 "stage2_vision_rubric_score": vision_score,
                 "latency_ms": case_ms,
             })
+
+    vertex_eval_summary = run_vertex_genai_eval_task(badge_results)
 
     gate_passed = (
         min_req_recall_observed >= min_recall
         and ir_metrics["mrr"] >= min_ir_mrr
         and total_overlaps <= max_aabb_overlaps
         and min_faithfulness_observed >= min_faithfulness
+        and min_trajectory_match_observed >= 0.95
+        and min_citation_coverage_observed >= 0.95
         and all_canonical_hashes_verified
     )
 
@@ -208,6 +356,8 @@ def run_evaluation_gate(
             "min_ir_mrr": min_ir_mrr,
             "max_aabb_overlaps": max_aabb_overlaps,
             "min_lexical_faithfulness": min_faithfulness,
+            "min_trajectory_in_order_match": 0.95,
+            "min_citation_grounding_coverage": 0.95,
             "require_canonical_sha256_lock": True,
         },
         "aggregate_metrics": {
@@ -216,8 +366,11 @@ def run_evaluation_gate(
             "ir_ndcg_at_3": ir_metrics["ndcg_at_3"],
             "min_requirement_coverage_recall": min_req_recall_observed,
             "min_lexical_faithfulness": min_faithfulness_observed,
+            "min_trajectory_in_order_match": min_trajectory_match_observed,
+            "min_citation_grounding_coverage": min_citation_coverage_observed,
             "total_aabb_overlaps": total_overlaps,
             "all_canonical_pamphlet_hashes_verified": all_canonical_hashes_verified,
+            "eval_runner_provider": vertex_eval_summary["provider"],
         },
         "badge_benchmarks": badge_results,
     }

@@ -79,6 +79,51 @@ def load_model_armor_policy() -> Dict[str, Any]:
     }
 
 
+def _call_cloud_model_armor_rest_api(
+    raw_text: str,
+    direction: str,
+    template_id: str,
+    location: str = "us-central1",
+) -> Optional[Dict[str, Any]]:
+    """Calls the regional Google Cloud Model Armor REST endpoint (`:sanitizeUserPrompt` / `:sanitizeModelResponse`).
+
+    Uses Application Default Credentials (`google.auth.default()`) to authenticate against
+    `https://modelarmor.{location}.rep.googleapis.com/v1/{template_id}:{method}` when the
+    gRPC SDK (`google.cloud.modelarmor_v1`) is not installed.
+    """
+    import urllib.request
+
+    try:
+        import google.auth  # type: ignore
+        import google.auth.transport.requests  # type: ignore
+
+        creds, _ = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
+        auth_req = google.auth.transport.requests.Request()
+        creds.refresh(auth_req)
+        token = creds.token
+        if not token:
+            return None
+
+        method = "sanitizeUserPrompt" if direction.upper() == "INPUT" else "sanitizeModelResponse"
+        payload_key = "userPromptData" if direction.upper() == "INPUT" else "modelResponseData"
+        url = f"https://modelarmor.{location}.rep.googleapis.com/v1/{template_id.lstrip('/')}:{method}"
+        body = json.dumps({payload_key: {"text": raw_text}}).encode("utf-8")
+        req = urllib.request.Request(
+            url,
+            data=body,
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=3.0) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except Exception as exc:
+        logger.debug("Cloud Model Armor REST API fallback skipped: %s", exc)
+        return None
+
+
 def sanitize_text_with_model_armor(
     text: str,
     direction: str = "INPUT",
@@ -86,8 +131,8 @@ def sanitize_text_with_model_armor(
     """Inspects and sanitizes user prompts or model responses using Model Armor & Youth Protection rules.
 
     When `USE_CLOUD_MODEL_ARMOR=true` and `MODEL_ARMOR_TEMPLATE_ID` are set, invokes the
-    Google Cloud Model Armor API (`google.cloud.modelarmor_v1.ModelArmorClient`). Always
-    applies deterministic prompt-injection, Youth Protection, and PII scrubbing rules.
+    Google Cloud Model Armor API (`google.cloud.modelarmor_v1.ModelArmorClient` or regional REST API).
+    Always applies deterministic prompt-injection, Youth Protection, and PII scrubbing rules.
 
     Args:
         text: Raw user prompt, tool argument payload, or LLM response text to inspect.
@@ -106,9 +151,10 @@ def sanitize_text_with_model_armor(
     raw_text = str(text or "")
     violations: List[str] = []
 
-    # 1. Optional Google Cloud Model Armor API call
+    # 1. Optional Google Cloud Model Armor API call (gRPC SDK with regional REST fallback)
     if os.environ.get("USE_CLOUD_MODEL_ARMOR", "").lower() == "true":
         template_id = os.environ.get("MODEL_ARMOR_TEMPLATE_ID", "")
+        location = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
         if template_id:
             try:
                 from google.cloud import modelarmor_v1  # type: ignore
@@ -129,8 +175,19 @@ def sanitize_text_with_model_armor(
                 filter_match = getattr(resp.sanitization_result, "filter_match_state", None)
                 if str(filter_match).endswith("MATCH_FOUND"):
                     violations.append("CLOUD_MODEL_ARMOR_FILTER_MATCH")
-            except Exception as exc:
-                logger.debug("Cloud Model Armor API unavailable; falling back to local policy: %s", exc)
+            except Exception:
+                rest_resp = _call_cloud_model_armor_rest_api(
+                    raw_text=raw_text,
+                    direction=direction,
+                    template_id=template_id,
+                    location=location,
+                )
+                if isinstance(rest_resp, dict):
+                    match_state = str(
+                        rest_resp.get("sanitizationResult", {}).get("filterMatchState", "")
+                    )
+                    if match_state.endswith("MATCH_FOUND"):
+                        violations.append("CLOUD_MODEL_ARMOR_FILTER_MATCH")
 
     # 2. Local Prompt Injection & Jailbreak detection
     if policy.get("filters", {}).get("prompt_injection_and_jailbreak", {}).get("enabled", True):
