@@ -7,7 +7,7 @@ Copywriting, and official Scouts BSA + Material 3 Expressive visual branding pal
 
 import os
 from pathlib import Path
-from typing import Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional, Set
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = PROJECT_ROOT / "config"

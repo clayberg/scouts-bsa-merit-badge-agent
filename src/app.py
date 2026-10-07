@@ -15,7 +15,6 @@ Matches the Google Material 3 Expressive A2UI (`ui/index.html` + `ui/app.js`) in
 
 import base64
 import html
-import json
 import os
 import re
 import sys
@@ -45,11 +44,9 @@ from src.agents.image_studio import (
     upload_custom_slide_image,
 )
 from src.config import (
-    GENERATED_DIAGRAMS_DIR,
     OFFICIAL_BSA_MERIT_BADGES_CATALOG,
     ScoutsBSAPalette,
     get_merit_badge_metadata,
-    is_eagle_required,
 )
 from src.memory.session_store import (
     clear_local_counselor_profile,
@@ -1704,9 +1701,9 @@ def main() -> None:
         if category_filter != "All Categories":
             filtered_df = filtered_df[filtered_df["Category"] == category_filter]
         if str(eagle_filter).startswith("Eagle-Required"):
-            filtered_df = filtered_df[filtered_df["Eagle Required"] == True]
+            filtered_df = filtered_df[filtered_df["Eagle Required"].eq(True)]
         elif str(eagle_filter).startswith("Electives"):
-            filtered_df = filtered_df[filtered_df["Eagle Required"] == False]
+            filtered_df = filtered_df[filtered_df["Eagle Required"].eq(False)]
         filtered_df = filtered_df.reset_index(drop=True)
 
         st.markdown(
@@ -1756,9 +1753,9 @@ def main() -> None:
         if category_filter != "All Categories":
             filtered_df = filtered_df[filtered_df["Category"] == category_filter]
         if eagle_filter.startswith("Eagle-Required"):
-            filtered_df = filtered_df[filtered_df["Eagle Required"] == True]
+            filtered_df = filtered_df[filtered_df["Eagle Required"].eq(True)]
         elif eagle_filter.startswith("Electives"):
-            filtered_df = filtered_df[filtered_df["Eagle Required"] == False]
+            filtered_df = filtered_df[filtered_df["Eagle Required"].eq(False)]
         filtered_df = filtered_df.reset_index(drop=True)
 
         badge_options = filtered_df["Badge Name"].tolist()

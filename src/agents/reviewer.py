@@ -22,7 +22,6 @@ from pptx.util import Inches
 from pydantic import BaseModel, Field
 
 from src.config import (
-    MODEL_ROUTING_POLICY,
     SCOUTS_BSA_CONSTITUTION,
     load_prompt,
     select_model_for_task,

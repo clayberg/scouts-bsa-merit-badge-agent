@@ -8,7 +8,7 @@ Supports local Console/In-Memory span export, OTLP gRPC export, and Google Cloud
 import os
 from typing import Any, Dict, List, Sequence
 from opentelemetry import trace
-from opentelemetry.sdk.trace import ReadableSpan, SpanProcessor, TracerProvider
+from opentelemetry.sdk.trace import ReadableSpan, TracerProvider
 from opentelemetry.sdk.trace.export import (
     BatchSpanProcessor,
     ConsoleSpanExporter,

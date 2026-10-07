@@ -14,8 +14,6 @@ from google import adk
 from pydantic import BaseModel, Field
 
 from src.config import (
-    MODEL_ROUTING_POLICY,
-    PRESENTATION_DEPTH_CONFIGS,
     SCOUTS_BSA_CONSTITUTION,
     load_prompt,
     select_model_for_task,

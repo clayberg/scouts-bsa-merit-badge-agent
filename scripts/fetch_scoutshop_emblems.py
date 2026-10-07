@@ -236,7 +236,6 @@ def fetch_scouting_org_emblem(badge_name: str) -> Optional[Path]:
             soup = BeautifulSoup(r.text, "html.parser")
             for img in soup.find_all("img", src=True):
                 src = str(img.get("src") or "")
-                alt = str(img.get("alt") or "").lower()
                 if (
                     ("filestore.scouting.org" in src.lower() or "scouting.org/wp-content/uploads" in src.lower())
                     and not src.lower().endswith(".svg")

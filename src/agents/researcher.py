@@ -14,7 +14,6 @@ from typing import Any, Dict, List, Optional
 from google import adk
 from src.config import (
     SCOUTS_BSA_CONSTITUTION,
-    MODEL_ROUTING_POLICY,
     load_prompt,
     select_model_for_task,
 )

@@ -15,8 +15,6 @@ import io
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 from pydantic import BaseModel, Field
-import requests
-from bs4 import BeautifulSoup
 from src.config import is_eagle_required
 
 try:
@@ -178,7 +176,7 @@ class MeritBadgeResearchResult(BaseModel):
     status: str = Field("SUCCESS", description="Execution status.")
 
 
-from src.schemas import GuidedToolError, build_guided_tool_error  # noqa: E402
+from src.schemas import build_guided_tool_error  # noqa: E402
 
 
 

@@ -10,15 +10,13 @@ Verifies (`agb adlc hollow-test` compliant):
 """
 
 import os
-import pytest
 from fastapi.testclient import TestClient
 
 from src.agents.coordinator import run_merit_badge_workflow
 from src.agents.planner import generate_slide_storyboard
-from src.agents.reviewer import check_pptx_conformance, validate_presentation_deck
+from src.agents.reviewer import check_pptx_conformance
 from src.server import app
 from src.tools.diagram_generator import generate_slide_visual_asset
-from src.tools.hitl_confirm import request_counselor_confirmation
 from src.tools.scouting_scraper import (
     MeritBadgeResearchRequest,
     fetch_merit_badge_pamphlet_pdf,
@@ -353,7 +351,7 @@ def test_v6_counselor_defaults_separate_email_phone_and_custom_troop_logo_on_cov
     #    fixes top header padding & dark-mode sidebar contrast, and renders clean unindented HTML
     import ast
     from pathlib import Path
-    from src.app import _render_widescreen_slide_html, _render_triage_column, _clean_html
+    from src.app import _render_widescreen_slide_html, _render_triage_column
 
     app_py_path = Path(__file__).resolve().parents[1] / "src" / "app.py"
     app_src = app_py_path.read_text(encoding="utf-8")

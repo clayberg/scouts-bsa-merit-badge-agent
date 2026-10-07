@@ -9,7 +9,6 @@ Verifies:
 """
 
 import os
-import pytest
 from src.tools.scouting_scraper import fetch_merit_badge_pamphlet_pdf, MeritBadgeResearchRequest
 from src.tools.pptx_builder import (
     generate_bsa_slide_deck_pptx,
@@ -26,7 +25,7 @@ from src.agents.guardrails import (
     sanitize_text_with_model_armor,
     before_model_guardrail_callback,
 )
-from src.schemas import get_tool_json_schemas, build_guided_tool_error
+from src.schemas import get_tool_json_schemas
 from src.config import is_eagle_required, select_model_for_task, get_secret
 
 

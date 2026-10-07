@@ -10,7 +10,6 @@ and distinct per-slide visual diagrams.
 from typing import Any, List, Optional
 from google import adk
 from src.config import (
-    MODEL_ROUTING_POLICY,
     SCOUTS_BSA_CONSTITUTION,
     load_prompt,
     select_model_for_task,
@@ -19,7 +18,6 @@ from src.tools.pptx_builder import generate_bsa_slide_deck_pptx
 from src.tools.diagram_generator import generate_slide_visual_asset
 from src.tools.hitl_confirm import (
     request_counselor_confirmation,
-    verify_hitl_before_tool_callback,
 )
 from src.agents.guardrails import (
     before_model_guardrail_callback,

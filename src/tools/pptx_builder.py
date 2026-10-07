@@ -16,7 +16,6 @@ This module implements:
 """
 
 import hashlib
-import math
 import os
 import re
 from typing import Any, Dict, List, Optional, Set, Tuple

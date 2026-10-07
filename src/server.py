@@ -15,6 +15,7 @@ Exposes:
 
 import asyncio
 import json
+import logging
 import os
 import time
 import uuid
@@ -23,7 +24,7 @@ from typing import Any, Dict, List, Optional
 
 from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, StreamingResponse
+from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -33,11 +34,8 @@ from src.config import (
     EAGLE_REQUIRED_BADGES,
     GENERATED_DECKS_DIR,
     GENERATED_DIAGRAMS_DIR,
-    MATERIAL_3_EXPRESSIVE_TOKENS,
-    MODEL_ROUTING_POLICY,
     OFFICIAL_BSA_MERIT_BADGES_CATALOG,
     PROJECT_ROOT,
-    is_eagle_required,
     load_prompt_manifest,
 )
 from src.agents.coordinator import (
@@ -48,6 +46,8 @@ from src.agents.guardrails import get_compliance_audit_events
 from src.resilience import METRICS_COLLECTOR
 from src.security import verify_caller_auth
 from src.tools.hitl_confirm import request_counselor_confirmation
+
+logger = logging.getLogger("scouts_bsa_agent.server")
 
 UI_DIR = PROJECT_ROOT / "ui"
 UI_DIR.mkdir(parents=True, exist_ok=True)

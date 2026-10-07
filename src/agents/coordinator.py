@@ -18,7 +18,6 @@ from google import adk
 
 from src.config import (
     GENERATED_DECKS_DIR,
-    MODEL_ROUTING_POLICY,
     SCOUTS_BSA_CONSTITUTION,
     load_prompt,
     select_model_for_task,
@@ -26,13 +25,11 @@ from src.config import (
 from src.schemas import build_guided_tool_error
 from src.agents.researcher import (
     enrich_requirements_with_deep_research,
-    get_deep_research_enrichment_agent,
     get_pamphlet_research_agent,
 )
 from src.agents.planner import get_slide_content_planner_agent
 from src.agents.beautifier import (
     beautify_slide_storyboard,
-    generate_ai_editorial_illustration,
     get_slide_beautifier_agent,
 )
 from src.agents.image_studio import (
