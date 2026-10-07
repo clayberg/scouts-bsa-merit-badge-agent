@@ -1565,13 +1565,11 @@ def verify_generated_image_matches_prompt(
     subject_ok = bool(visual_subject and len(visual_subject.strip()) >= 5)
     vision_score = 0.94 if (complexity_ok and style_ok and subject_ok) else 0.35
 
-    api_key = (os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "").strip()
-    if complexity_ok and style_ok and api_key and "your-" not in api_key.lower() and len(api_key) > 20:
+    client = _get_genai_client()
+    if complexity_ok and style_ok and client is not None:
         try:
-            from google import genai  # type: ignore
             from google.genai import types  # type: ignore
 
-            client = genai.Client(api_key=api_key)
             img_bytes = Path(image_path).read_bytes()
             critic_prompt = (
                 f"Does this image reasonably depict the subject '{visual_subject}' in the visual style '{visual_style}' "
@@ -1629,6 +1627,25 @@ def verify_generated_image_matches_prompt(
         },
         "verification_summary": summary,
     }
+
+
+def _get_genai_client() -> Any:
+    """Returns a configured `google.genai.Client` using either Vertex AI ADC (`GOOGLE_GENAI_USE_VERTEXAI=true`) or `GEMINI_API_KEY`."""
+    use_vertex = os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "false").strip().lower() in ("true", "1", "yes")
+    project_id = (os.getenv("GOOGLE_CLOUD_PROJECT") or "").strip()
+    location = (os.getenv("GOOGLE_CLOUD_LOCATION") or "us-central1").strip()
+    api_key = (os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "").strip()
+
+    try:
+        from google import genai  # type: ignore
+
+        if use_vertex and project_id:
+            return genai.Client(vertexai=True, project=project_id, location=location)
+        if api_key and "your-" not in api_key.lower() and len(api_key) > 20:
+            return genai.Client(api_key=api_key)
+    except Exception as exc:
+        logger.debug("Could not initialize genai.Client: %s", exc)
+    return None
 
 
 def _synthesize_wikimedia_styled_image(
@@ -1718,12 +1735,9 @@ def _try_live_ai_image_synthesis(
         f"Depict {visual_subject} clearly with zero text, no words, no letters, and no labels."
     )
 
-    api_key = (os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "").strip()
-    if api_key and "your-" not in api_key.lower() and len(api_key) > 20:
+    client = _get_genai_client()
+    if client is not None:
         try:
-            from google import genai  # type: ignore
-
-            client = genai.Client(api_key=api_key)
             resp = client.models.generate_images(
                 model=select_model_for_task("imagen"),
                 prompt=full_visual_prompt,
@@ -1738,7 +1752,7 @@ def _try_live_ai_image_synthesis(
                     rgb.save(out_path, format="PNG", dpi=(220, 220))
                 return True
         except Exception as exc:
-            logger.info("Gemini/Imagen API key call fell back to subject-grounded style synthesizer (%s)", exc)
+            logger.info("Gemini/Imagen call fell back to subject-grounded style synthesizer (%s)", exc)
 
     return False
 
