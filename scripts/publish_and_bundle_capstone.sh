@@ -188,7 +188,7 @@ if command -v gh >/dev/null 2>&1; then
   fi
 fi
 
-if git push fde main --force && git push fde "${CAPSTONE_TAG}" --force; then
+if git push fde main && git push fde "${CAPSTONE_TAG}" --force; then
   echo "   SUCCESS: Pushed main and ${CAPSTONE_TAG} to ${FDE_ORG_REPO_HTTPS}"
 else
   echo "   WARNING: Could not push to ${FDE_ORG_REPO_HTTPS}. Check gh auth status."
