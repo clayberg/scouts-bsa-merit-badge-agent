@@ -967,11 +967,150 @@ def _fetch_scoutshop_emblem_on_demand(badge_name: str, slug: str) -> Optional[Pa
     return emblem_file if emblem_file.exists() else None
 
 
+def _fetch_scoutshop_pamphlet_cover_on_demand(badge_name: str, slug: str) -> Optional[Path]:
+    """Fetches the official Merit Badge Pamphlet cover image from the BSA Scout Shop Klevu API on demand."""
+    cover_file = PAMPHLET_COVERS_DIR / f"{slug}_cover.png"
+    try:
+        payload = {
+            "context": {"apiKeys": ["klevu-168554966403616429"]},
+            "recordQueries": [
+                {
+                    "id": "productList",
+                    "typeOfRequest": "SEARCH",
+                    "settings": {
+                        "query": {"term": f"{badge_name} merit badge pamphlet"},
+                        "typeOfRecords": ["KLEVU_PRODUCT"],
+                        "limit": 8,
+                        "offset": 0,
+                    },
+                }
+            ],
+        }
+        resp = requests.post(
+            "https://uscs32v2.ksearchnet.com/cs/v2/search",
+            json=payload,
+            headers={"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"},
+            timeout=8,
+        )
+        if resp.status_code == 200:
+            records = (resp.json().get("queryResults") or [{}])[0].get("records") or []
+            # Prefer English pamphlet covers matching the badge name over Spanish '(ES)' editions or emblems
+            badge_lower = badge_name.strip().lower()
+            ranked_records = sorted(
+                records,
+                key=lambda r: (
+                    0 if "pamphlet" in str(r.get("name") or "").lower() else 1,
+                    0 if badge_lower in str(r.get("name") or "").lower() else 1,
+                    1 if "(es)" in str(r.get("name") or "").lower() else 0,
+                ),
+            )
+            for rec in ranked_records:
+                rname = str(rec.get("name") or "").lower()
+                if "pamphlet" not in rname:
+                    continue
+                raw_url = (
+                    str(rec.get("image") or rec.get("imageUrl") or "")
+                    .replace("pub/", "")
+                    .replace("needtochange/", "")
+                )
+                if not raw_url:
+                    continue
+                cands = []
+                m = re.search(
+                    r"(https?://[^/]+/media)/(?:catalog/product/cache/[^/]+|klevu_images/[^/]+)(/.*)$",
+                    raw_url,
+                )
+                if m:
+                    cands.append(f"{m.group(1)}/catalog/product{m.group(2)}")
+                cands.append(raw_url)
+                for img_url in cands:
+                    try:
+                        ir = requests.get(img_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=8)
+                        if ir.status_code == 200 and len(ir.content) > 4000:
+                            with Image.open(io.BytesIO(ir.content)) as im:
+                                if im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info):
+                                    rgba = im.convert("RGBA")
+                                    bg = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
+                                    composed = Image.alpha_composite(bg, rgba).convert("RGB")
+                                else:
+                                    composed = im.convert("RGB")
+                                # If Scout Shop image has square white padding around a portrait cover, trim side margins
+                                bbox = ImageOps.invert(composed).getbbox()
+                                if bbox:
+                                    bw = bbox[2] - bbox[0]
+                                    bh = bbox[3] - bbox[1]
+                                    if bw > 100 and bh > 140 and (bw / float(bh)) < 0.88:
+                                        pad = 8
+                                        composed = composed.crop(
+                                            (
+                                                max(0, bbox[0] - pad),
+                                                max(0, bbox[1] - pad),
+                                                min(composed.width, bbox[2] + pad),
+                                                min(composed.height, bbox[3] + pad),
+                                            )
+                                        )
+                                composed = ImageOps.fit(composed, (807, 1200), method=Image.Resampling.LANCZOS)
+                                composed.save(cover_file, "PNG")
+                                return cover_file
+                    except Exception:
+                        continue
+    except Exception:
+        pass
+    return cover_file if cover_file.exists() else None
+
+
+def _is_legacy_synthetic_cover(cover_file: Path) -> bool:
+    """Returns True if `cover_file` was generated by the old 720x1040 Wikimedia synthetic cover fallback."""
+    if not cover_file.exists():
+        return False
+    try:
+        with Image.open(cover_file) as im:
+            return im.size == (720, 1040)
+    except Exception:
+        return True
+
+
+def clear_corrupted_pamphlet_cover_caches(refill_badges: Optional[List[str]] = None) -> Dict[str, Any]:
+    """Removes any corrupted/synthetic 720x1040 pamphlet covers and `*_cover_art.png` web images,
+    then refills official pamphlet covers from official BSA PDFs or Scout Shop on demand."""
+    removed_covers: List[str] = []
+    removed_web_art: List[str] = []
+
+    for cov_p in sorted(PAMPHLET_COVERS_DIR.glob("*_cover.png")):
+        if _is_legacy_synthetic_cover(cov_p):
+            try:
+                cov_p.unlink()
+                removed_covers.append(cov_p.name)
+            except Exception:
+                pass
+
+    for web_p in sorted(WEB_IMAGES_DIR.glob("*_cover_art.png")):
+        try:
+            web_p.unlink()
+            removed_web_art.append(web_p.name)
+        except Exception:
+            pass
+
+    refilled: List[str] = []
+    for bname in refill_badges or ["First Aid", "Camping", "Weather", "Robotics"]:
+        res = get_badge_cover_and_patch_paths(bname)
+        if res.get("cover_path"):
+            refilled.append(os.path.basename(res["cover_path"]))
+
+    return {
+        "status": "SUCCESS",
+        "removed_synthetic_covers": removed_covers,
+        "removed_cover_web_art": removed_web_art,
+        "refilled_covers": refilled,
+    }
+
+
 def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
     """Returns paths to the official Merit Badge Pamphlet cover image and standalone Scout Shop emblem.
 
-    Uses cached standalone Scout Shop emblems (`assets/badge_emblems/{slug}.png`) rather than
-    extracting/cropping from pamphlet covers.
+    Uses cached standalone Scout Shop emblems (`assets/badge_emblems/{slug}.png`) and authentic
+    Scouting America Merit Badge Pamphlet covers (`assets/pamphlet_covers/{slug}_cover.png`)
+    extracted from the official BSA PDF or fetched from the BSA Scout Shop.
 
     Args:
         badge_name: Official name of the Scouts BSA Merit Badge (e.g., `'Weather'`, `'First Aid'`).
@@ -980,22 +1119,39 @@ def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
         Dict[str, str]: Dictionary with keys `'cover_path'` and `'patch_path'` pointing to local
         PNG files.
     """
+    import os
     from src.config import get_merit_badge_metadata, is_eagle_required
 
     slug = _badge_slug(badge_name)
     cover_file = PAMPHLET_COVERS_DIR / f"{slug}_cover.png"
     emblem_file = BADGE_EMBLEMS_DIR / f"{slug}.png"
+    in_pytest = bool(os.getenv("PYTEST_CURRENT_TEST"))
+
+    # Auto-evict any legacy 720x1040 synthetic cover that embedded random Wikimedia images
+    if cover_file.exists() and _is_legacy_synthetic_cover(cover_file) and not in_pytest:
+        try:
+            cover_file.unlink()
+        except Exception:
+            pass
 
     # 1. Always prefer the standalone Scout Shop Merit Badge Emblem cached in assets/badge_emblems/
     if not (emblem_file.exists() and emblem_file.stat().st_size > 1500):
         _fetch_scoutshop_emblem_on_demand(badge_name, slug)
 
-    # 2. If an official pamphlet PDF exists locally, render page 1 as the pamphlet cover image
+    # 2. If an official pamphlet PDF exists locally (or can be downloaded), render page 1 as the pamphlet cover image
     if not cover_file.exists():
         pdf_candidates = [
             PAMPHLETS_DIR / f"{slug}.pdf",
             PAMPHLETS_DIR / f"{_badge_url_slug(badge_name)}.pdf",
         ]
+        if not any(p.exists() and p.stat().st_size > 20_000 for p in pdf_candidates) and not in_pytest:
+            try:
+                dl_pdf, _ = ensure_official_pamphlet_pdf(badge_name)
+                if dl_pdf and dl_pdf.exists():
+                    pdf_candidates.insert(0, dl_pdf)
+            except Exception:
+                pass
+
         for pdf_p in pdf_candidates:
             if pdf_p.exists() and pdf_p.stat().st_size > 20_000:
                 try:
@@ -1008,8 +1164,22 @@ def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
                         timeout=10,
                     )
                 except Exception:
-                    pass
+                    # Pure-Python pypdf fallback to extract page 1 cover image if pdftoppm is unavailable
+                    if PdfReader is not None and not cover_file.exists():
+                        try:
+                            reader = PdfReader(str(pdf_p))
+                            if reader.pages and reader.pages[0].images:
+                                best_im_data = max((img.data for img in reader.pages[0].images), key=len)
+                                with Image.open(io.BytesIO(best_im_data)) as pim_cov:
+                                    rgb_cov = ImageOps.fit(pim_cov.convert("RGB"), (807, 1200), method=Image.Resampling.LANCZOS)
+                                    rgb_cov.save(cover_file, "PNG")
+                        except Exception:
+                            pass
                 break
+
+    # 2B. Fetch official Merit Badge Pamphlet Cover from BSA Scout Shop API on demand
+    if not cover_file.exists() and not in_pytest:
+        _fetch_scoutshop_pamphlet_cover_on_demand(badge_name, slug)
 
     if cover_file.exists() and emblem_file.exists():
         return {
@@ -1017,7 +1187,7 @@ def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
             "patch_path": str(emblem_file),
         }
 
-    # 3. Otherwise synthesize fallback cover or emblem if offline
+    # 3. Offline / unit-test fallback cover or emblem (NEVER uses random Wikimedia photos!)
     eagle = is_eagle_required(badge_name)
     meta = get_merit_badge_metadata(badge_name) or {}
     category = str(meta.get("category") or "Scouts BSA Merit Badge Series")
@@ -1036,17 +1206,14 @@ def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
         pw = 360
         patch_im = Image.new("RGB", (pw, pw), (255, 255, 255))
         pdraw = ImageDraw.Draw(patch_im)
-        # Outer embroidered rim (Silver for Eagle-Required, Forest Green/Gold for Elective)
         rim_outer = (192, 198, 206) if eagle else (56, 118, 29)
         rim_inner = (206, 17, 38) if eagle else (244, 196, 48)
         bg_cloth = (232, 240, 254)
         pdraw.ellipse([12, 12, pw - 12, pw - 12], fill=rim_outer, outline=(60, 65, 72), width=4)
         pdraw.ellipse([30, 30, pw - 30, pw - 30], fill=rim_inner, outline=(255, 255, 255), width=3)
         pdraw.ellipse([44, 44, pw - 44, pw - 44], fill=bg_cloth, outline=(0, 63, 135), width=3)
-        # Subtle embroidery texture lines
         for x_line in range(52, pw - 52, 8):
             pdraw.line([(x_line, 56), (x_line, pw - 56)], fill=(216, 228, 248), width=1)
-        # Center star / emblem & badge initials
         fnt_big = _load_fnt(34, bold=True)
         fnt_sm = _load_fnt(18, bold=True)
         words = [w for w in badge_name.upper().split() if w not in {"IN", "THE", "AND", "OF"}]
@@ -1057,42 +1224,30 @@ def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
         patch_im.save(emblem_file, "PNG")
 
     if not cover_file.exists():
-        cw, ch = 720, 1040
+        cw, ch = 807, 1200
         cov = Image.new("RGB", (cw, ch), (255, 255, 255))
         cdraw = ImageDraw.Draw(cov)
-        # Top & Bottom Scouting America Navy/Silver bars
-        bar_rgb = (0, 63, 135)
-        cdraw.rectangle([0, 0, cw, 64], fill=bar_rgb)
-        cdraw.rectangle([0, 68, cw, 74], fill=(244, 196, 48))
-        cdraw.rectangle([0, ch - 92, cw, ch], fill=bar_rgb)
-        cdraw.text((cw // 2, 112), "M E R I T   B A D G E   S E R I E S", font=_load_fnt(24, bold=True), fill=(33, 33, 33), anchor="mm")
+        bar_rgb = (192, 198, 206) if eagle else (0, 63, 135)
+        cdraw.rectangle([0, 0, cw, 78], fill=bar_rgb)
+        cdraw.rectangle([0, 82, cw, 88], fill=(244, 196, 48))
+        cdraw.rectangle([0, ch - 110, cw, ch], fill=bar_rgb)
+        cdraw.text((cw // 2, 135), "M E R I T   B A D G E   S E R I E S", font=_load_fnt(28, bold=True), fill=(33, 33, 33), anchor="mm")
 
-        # Paste patch in top-center
         with Image.open(emblem_file) as pim:
-            p_resized = pim.resize((220, 220), Image.Resampling.LANCZOS)
-            cov.paste(p_resized, ((cw - 220) // 2, 145))
+            p_resized = pim.resize((320, 320), Image.Resampling.LANCZOS)
+            cov.paste(p_resized, ((cw - 320) // 2, 195))
 
-        # Title across middle
         title_upper = badge_name.upper()
-        title_fnt = _load_fnt(46 if len(title_upper) <= 14 else 32, bold=True)
-        cdraw.text((cw // 2, 415), title_upper, font=title_fnt, fill=(15, 23, 42), anchor="mm")
-        cdraw.text((cw // 2, 462), category.upper(), font=_load_fnt(18, bold=True), fill=(75, 83, 32), anchor="mm")
+        title_fnt = _load_fnt(52 if len(title_upper) <= 14 else 36, bold=True)
+        cdraw.text((cw // 2, 590), title_upper, font=title_fnt, fill=(15, 23, 42), anchor="mm")
+        cdraw.text((cw // 2, 650), category.upper(), font=_load_fnt(22, bold=True), fill=(75, 83, 32), anchor="mm")
 
-        # Bottom visual illustration panel (try Wikimedia photo for this badge if available, else clean emblem card)
-        web_photo = fetch_web_supplement_image(badge_name, badge_name, f"{slug}_cover_art")
-        if web_photo and web_photo.exists():
-            try:
-                with Image.open(web_photo) as wim:
-                    w_rgb = ImageOps.fit(wim.convert("RGB"), (cw - 80, 410), method=Image.Resampling.LANCZOS)
-                    cov.paste(w_rgb, (40, 495))
-                    cdraw.rectangle([38, 493, cw - 38, 907], outline=(0, 63, 135), width=3)
-            except Exception:
-                pass
-        else:
-            cdraw.rounded_rectangle([48, 500, cw - 48, 900], radius=20, fill=(232, 240, 254), outline=(0, 63, 135), width=3)
-            cdraw.text((cw // 2, 680), f"Official {badge_name}\nMerit Badge Guide", font=_load_fnt(30, bold=True), fill=(0, 63, 135), anchor="mm")
+        cdraw.rounded_rectangle([64, 710, cw - 64, 1020], radius=24, fill=(248, 250, 252), outline=(0, 63, 135), width=3)
+        cdraw.text((cw // 2, 835), f"Official {badge_name}", font=_load_fnt(32, bold=True), fill=(0, 63, 135), anchor="mm")
+        cdraw.text((cw // 2, 895), "Scouts BSA Merit Badge Pamphlet", font=_load_fnt(24, bold=False), fill=(71, 85, 105), anchor="mm")
 
-        cdraw.text((cw // 2, ch - 46), "Scouting America", font=_load_fnt(28, bold=True), fill=(255, 255, 255), anchor="mm")
+        footer_txt_rgb = (0, 63, 135) if eagle else (255, 255, 255)
+        cdraw.text((cw // 2, ch - 55), "Scouting America", font=_load_fnt(32, bold=True), fill=footer_txt_rgb, anchor="mm")
         cov.save(cover_file, "PNG")
 
     return {

@@ -3,8 +3,12 @@
 
 FROM python:3.11-slim
 
-# Create non-root user for container security
-RUN groupadd --gid 10001 scoutsagent && \
+# Install poppler-utils (pdftoppm) for rendering official BSA Merit Badge Pamphlet PDF covers & figures,
+# and create non-root user for container security
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends poppler-utils && \
+    rm -rf /var/lib/apt/lists/* && \
+    groupadd --gid 10001 scoutsagent && \
     useradd --uid 10001 --gid scoutsagent --shell /bin/bash --create-home scoutsagent
 
 WORKDIR /app
