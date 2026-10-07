@@ -409,9 +409,19 @@ def _decorate_result_urls(result: Dict[str, Any]) -> Dict[str, Any]:
 
     cover_assets = get_badge_cover_and_patch_paths(badge_name)
     if cover_assets.get("cover_path"):
-        result["cover_url"] = _to_web_asset_url(cover_assets["cover_path"])
+        base_cov_url = _to_web_asset_url(cover_assets["cover_path"])
+        try:
+            cov_sz = os.path.getsize(cover_assets["cover_path"])
+            result["cover_url"] = f"{base_cov_url}?v={cov_sz}" if base_cov_url else None
+        except Exception:
+            result["cover_url"] = base_cov_url
     if cover_assets.get("patch_path"):
-        result["patch_url"] = _to_web_asset_url(cover_assets["patch_path"])
+        base_patch_url = _to_web_asset_url(cover_assets["patch_path"])
+        try:
+            patch_sz = os.path.getsize(cover_assets["patch_path"])
+            result["patch_url"] = f"{base_patch_url}?v={patch_sz}" if base_patch_url else None
+        except Exception:
+            result["patch_url"] = base_patch_url
 
     if result.get("output_path"):
         result["pptx_download_url"] = _to_web_asset_url(result["output_path"])
@@ -850,10 +860,34 @@ async def api_purge_badge_images(
     badge_name: Optional[str] = Query(None),
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Purges previously generated/cached Web Search and Nano Banana AI images while preserving official BSA pamphlet figures."""
+    """Purges previously generated/cached Web Search and Nano Banana AI images while also cleaning any synthetic pamphlet covers."""
     from src.agents.image_studio import purge_cached_web_and_ai_images
+    from src.tools.pamphlet_extractor import clear_corrupted_pamphlet_cover_caches
 
-    return await asyncio.to_thread(purge_cached_web_and_ai_images, badge_name=badge_name)
+    purge_res = await asyncio.to_thread(purge_cached_web_and_ai_images, badge_name=badge_name)
+    cover_res = await asyncio.to_thread(
+        clear_corrupted_pamphlet_cover_caches,
+        refill_badges=[badge_name] if badge_name else None,
+    )
+    purge_res["pamphlet_cover_cache_cleanup"] = cover_res
+    return purge_res
+
+
+@app.post("/api/cache/clear")
+@app.post("/api/v1/cache/clear")
+@app.get("/api/cache/clear")
+@app.get("/api/v1/cache/clear")
+async def api_clear_and_refill_caches(
+    badge_name: Optional[str] = Query(None),
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Clears any synthetic 720x1040 pamphlet covers and web cover art, and refills official BSA pamphlet covers on demand."""
+    from src.tools.pamphlet_extractor import clear_corrupted_pamphlet_cover_caches
+
+    return await asyncio.to_thread(
+        clear_corrupted_pamphlet_cover_caches,
+        refill_badges=[badge_name] if badge_name else ["First Aid", "Camping", "Weather", "Robotics"],
+    )
 
 
 @app.post("/api/slide/search-web-images")
