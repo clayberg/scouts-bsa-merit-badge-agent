@@ -4,6 +4,7 @@
 **Project**: Scouts BSA Merit Badge Counselor Workbench (`scouts-bsa-merit-badge-agent`)  
 **Official FDE GitHub Target**: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`  
 **Original Personal GitHub Target**: `https://github.com/clayberg/scouts-bsa-merit-badge-agent`  
+**Live Google Cloud Run Workbench**: [`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`](https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app)  
 **Executive Readout Deck (11 Core Slides, 0 Appendix — `<= 15` Cap)**: [FDE Capstone Executive Readout (Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)
 
 ---
@@ -42,7 +43,7 @@ We have created and installed a single automated script at `scripts/publish_and_
 
 ### 2.1 What the Script Does
 1. Verifies `.gitignore` excludes `.cache/` and `*.bundle` so the bundle never packs itself recursively.
-2. Optionally runs all 48 `pytest` unit/fault-injection/contract-drift tests and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
+2. Optionally runs all 50 `pytest` unit/fault-injection/contract-drift tests and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
 3. Stages and commits any latest changes on branch `main`.
 4. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)

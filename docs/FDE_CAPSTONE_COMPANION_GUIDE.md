@@ -348,9 +348,9 @@ This section walks through all **11 core slides (`1 / 11` through `11 / 11`, zer
 
 #### What is on the slide
 - **Card 1: Multi-Metric Eval Gate (`1.00 Recall@3`)**: `scripts/eval_gate.py` & `Vertex EvalTask` verify `IR Recall@3 = 1.00`, `MRR = 1.00`, `NDCG@3 = 1.00` on Hybrid RRF, `ADK Tool Trajectory = 1.00` & `Citation Grounding = 1.00`, `Sub-Req Coverage = 100%`, `SHA-256 Lock = 100%`, and `Stage 1 AABB Overlaps = 0`.
-- **Card 2: Canary CI/CD & Rollback (`10% -> 100%`)**: `cloudbuild.yaml` & GitHub Actions run `ruff` + `48` `pytest` tests (including OpenAPI 3.1 contract drift) + blocking `eval_gate.py`, deploy `--tag=canary` at `10%` traffic, check `/readiness`, and auto-roll back on error.
+- **Card 2: Canary CI/CD & Rollback (`10% -> 100%`)**: `cloudbuild.yaml` & GitHub Actions run `ruff` + `50` `pytest` tests (including OpenAPI 3.1 contract drift) + blocking `eval_gate.py`, deploy `--tag=canary` at `10%` traffic, check `/readiness`, and auto-roll back on error.
 - **Card 3: Load & HITL Feedback (`14.2ms p95`)**: Concurrent load test (`8 workers`): `p50 = 6.8ms`, `p95 = 14.2ms`; `POST /api/v1/feedback` logs counselor star ratings and requirement sign-offs to JSONL for golden dataset expansion.
-- **Bottom Banner**: `AI Development Harness: AGENTS.md rules + verify_live_demo_readiness.py (<5s pre-flight) + 48 pytest & eval_gate.py checks.`
+- **Bottom Banner**: `AI Development Harness: AGENTS.md rules + verify_live_demo_readiness.py (<5s pre-flight) + 50 pytest & eval_gate.py checks.`
 
 #### Technical details & jargon on Slide 8
 - **TheFive Evaluation Dimensions in `scripts/eval_gate.py`**:
@@ -358,7 +358,7 @@ This section walks through all **11 core slides (`1 / 11` through `11 / 11`, zer
   2. **ADK Tool Trajectory In-Order Match (`1.00`)**: Verifies the exact sequence of specialist agent and tool invocations (`fetch_merit_badge_pamphlet_pdf -> verify_subrequirement_coverage -> generate_slide_storyboard -> beautify_slide_storyboard -> request_counselor_confirmation -> generate_bsa_slide_deck_pptx -> check_pptx_conformance`).
   3. **Slide Citation Grounding Coverage (`1.00`)**: `verify_slide_citation_grounding()` verifies every slide maps back to a canonical BSA requirement ID and authoritative pamphlet source.
   4. **Vertex AI GenAI Evaluation Service Bridge (`EvalTask`)**: Integrates `vertexai.preview.evaluation.EvalTask` (`PointwiseMetric` for Youth Protection & BSARequirementFidelity).
-  5. **OpenAPI 3.1 Contract-Drift Test (`test_openapi_contract_matches_live_fastapi_routes`)**: Part of the **48 automated `pytest` tests** ensuring `docs/openapi.yaml` stays 100% synchronized with `src/server.py`.
+  5. **OpenAPI 3.1 Contract-Drift Test (`test_openapi_contract_matches_live_fastapi_routes`)**: Part of the **50 automated `pytest` tests** ensuring `docs/openapi.yaml` stays 100% synchronized with `src/server.py`.
 
 #### Associated Probing Questions on Slide 8
 - See **Section 5 (Possible Panelist Probing Questions)**: **`Q27`** (OpenTelemetry Trace Correlation), **`Q30`** (Load Test & Concurrency), **`Q36`** (Eval Gate Regression Catch), **`Q37`** (`$0.00` Deterministic CI Execution), **`Q39`** (`429` On-Call Runbook), and **`Q41`** (`gemini-3.0-flash` Cutover Runbook).
