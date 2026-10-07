@@ -1810,19 +1810,27 @@ def _try_live_ai_image_synthesis(
         f"{visual_style} illustration style, clean visual composition, no text, no words, no letters",
     )
 
-    # Replace youth/minor terms ('Scouts BSA', 'Boy Scout', 'Scout') in the diffusion prompt with
-    # 'adult wilderness instructor' so Vertex AI's child/person safety filter never blocks hands/responders.
+    # Replace youth-specific terms ('Boy Scout') with 'adult Scouts BSA Leader' so Vertex AI's
+    # person_generation safety filter allows rendering human figures while preserving Scouting identity.
     safe_subject = re.sub(
-        r"\b(Boy\s+Scouts?|Scouts?\s+BSA|Scouts?)\b",
-        "adult outdoor wilderness instructor",
+        r"\b(Boy\s+Scouts?|Scouts?)\b(?!\s+BSA)",
+        "adult Scouts BSA Leader",
         visual_subject,
         flags=re.IGNORECASE,
     )
+    uniform_directive = (
+        "Uniform & Attire Requirement: Every person, responder, instructor, or participant depicted in the "
+        "scene MUST wear an authentic Adult Scouts BSA Field Uniform — specifically a classic tan button-up "
+        "short-sleeve Scout uniform shirt with shoulder epaulet loops and buttoned chest pockets, a rolled "
+        "Scout neckerchief with a woggle slide worn at the collar, and olive-green Scout field pants or shorts "
+        "with a web belt. "
+    )
     full_visual_prompt = (
-        f"Create a high-detail educational wilderness handbook illustration. "
+        f"Create a high-detail educational Scouts BSA wilderness handbook illustration. "
         f"Subject: {safe_subject}. "
+        f"{uniform_directive}"
         f"Art direction and style: {style_mod}. "
-        f"Clearly depict the complete subject ({safe_subject}) with accurate anatomical and equipment detail, "
+        f"Clearly depict the complete subject ({safe_subject}) with accurate anatomical, uniform, and equipment detail, "
         f"and zero text, no words, no letters, and no labels printed on the image."
     )
 
@@ -1980,7 +1988,7 @@ def generate_nano_banana_slide_image(
     )
 
     cat_dir = _badge_catalog_dir(badge_name)
-    seed_str = f"{badge_name}:{req_number}:{slide_title}:{visual_subject}:{eff_style}"
+    seed_str = f"{badge_name}:{req_number}:{slide_title}:{visual_subject}:{eff_style}:bsa_uniform_v2"
     img_hash = hashlib.sha256(seed_str.encode("utf-8")).hexdigest()[:12]
     seed_int = int(img_hash[:6], 16) % 99999
     out_path = cat_dir / f"nanobanana_{img_hash}.png"
