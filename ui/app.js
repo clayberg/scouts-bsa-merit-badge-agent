@@ -850,6 +850,17 @@ function renderStudioKitAndParentLetter(result) {
   if (finopsPreview) {
     finopsPreview.innerHTML = renderFinopsTableHtml(finops);
   }
+
+  const schemaChip = document.getElementById("feedback-schema-version-chip");
+  if (schemaChip) {
+    const schemaVer = result.schema_version || "1.2.0";
+    schemaChip.textContent = `Schema v${schemaVer} • HITL Flywheel`;
+  }
+  const fbBanner = document.getElementById("feedback-status-banner");
+  if (fbBanner) {
+    fbBanner.classList.add("hidden");
+    fbBanner.innerHTML = "";
+  }
 }
 
 function renderFilmstrip(slides) {
@@ -2380,7 +2391,19 @@ function bindImageStudioModal() {
           setTimeout(() => closeModal(), 750);
         } else {
           if (statusBox) {
-            statusBox.textContent = data.message || "Consent required before generating AI images.";
+            if (data.error_code === "NANO_BANANA_PROMPT_BLOCKED" || data.status === "ERROR") {
+              const codeLbl = escapeHtml(data.error_code || "NANO_BANANA_PROMPT_BLOCKED");
+              const msgLbl = escapeHtml(data.message || "Custom image prompt blocked by Youth Protection / Model Armor guardrail.");
+              const remLbl = escapeHtml(data.remediation || "Use safe, educational Scouting descriptions.");
+              statusBox.innerHTML = `
+                <div style="background:#FEF2F2; border:1.5px solid #DC2626; border-radius:8px; padding:8px 12px; margin-top:4px; color:#991B1B;">
+                  <div style="font-weight:800; font-size:0.84rem;">🛑 [${codeLbl}] ${msgLbl}</div>
+                  <div style="font-size:0.78rem; margin-top:3px; color:#7F1D1D;"><strong>Remediation:</strong> ${remLbl} (Zero image tokens billed: $0.00 USD)</div>
+                </div>
+              `;
+            } else {
+              statusBox.textContent = data.message || "Consent required before generating AI images.";
+            }
           }
         }
       }
@@ -2500,6 +2523,66 @@ function bindImageStudioModal() {
     } finally {
       uploadApplyBtn.disabled = !pendingUploadDataUrl;
       uploadApplyBtn.textContent = origLabel;
+    }
+  });
+
+  // Panel 4: Counselor Rating & Continuous Learning Flywheel Sign-Off handler
+  const submitFeedbackBtn = document.getElementById("btn-submit-counselor-feedback");
+  submitFeedbackBtn?.addEventListener("click", async () => {
+    if (!state.currentResult) return;
+    const ratingVal = Number(document.getElementById("feedback-rating-select")?.value || 5);
+    const reqVerified = Boolean(document.getElementById("feedback-req-verified-checkbox")?.checked);
+    const commentsVal = document.getElementById("feedback-comments-input")?.value || "";
+    const counselorName = document.getElementById("input-counselor-name")?.value || state.currentResult.counselor_info?.counselor_name || "Scoutmaster Bob";
+    const reqCount = (state.currentResult.research_artifact?.requirements || []).length || 5;
+    const sessionId = state.currentResult.session_id || `session-${(state.currentResult.badge_name || "badge").toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+    const fbBanner = document.getElementById("feedback-status-banner");
+    const origLabel = submitFeedbackBtn.textContent;
+    submitFeedbackBtn.disabled = true;
+    submitFeedbackBtn.textContent = "⏳ Recording Rating & Updating Flywheel...";
+    try {
+      const resp = await fetch("/api/v1/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name,
+          counselor_name: counselorName,
+          session_id: sessionId,
+          requirement_count: reqCount,
+          rating: ratingVal,
+          requirement_accuracy_verified: reqVerified,
+          comments: commentsVal,
+        }),
+      });
+      if (resp.ok) {
+        const data = await resp.json();
+        const apiVer = resp.headers.get("X-API-Version") || data.schema_version || "1.2.0";
+        if (fbBanner) {
+          fbBanner.classList.remove("hidden");
+          if (data.promoted_to_golden_dataset) {
+            fbBanner.style.background = "#F0FDF4";
+            fbBanner.style.border = "1.5px solid #22C55E";
+            fbBanner.style.color = "#14532D";
+            fbBanner.innerHTML = `✅ <strong>Promoted to Golden Evaluation Dataset!</strong> Recorded ${ratingVal}/5 rating by <strong>${escapeHtml(counselorName)}</strong> in SQLite (<code>hitl_feedback</code>) &amp; updated <code>${escapeHtml(data.golden_dataset_path || "tests/data/golden_extensions.json")}</code> (${Number(data.golden_extensions_count || 1)} verified extensions • API Schema <code>v${escapeHtml(apiVer)}</code>).`;
+          } else {
+            fbBanner.style.background = "#FFFBEB";
+            fbBanner.style.border = "1.5px solid #F59E0B";
+            fbBanner.style.color = "#78350F";
+            fbBanner.innerHTML = `📝 <strong>Feedback Recorded in SQLite (<code>hitl_feedback</code>):</strong> ${ratingVal}/5 rating logged for <strong>${escapeHtml(state.currentResult.badge_name)}</strong>. (Golden Dataset promotion requires &ge; 4/5 Stars + Verified Requirement Accuracy).`;
+          }
+        }
+      }
+    } catch (err) {
+      if (fbBanner) {
+        fbBanner.classList.remove("hidden");
+        fbBanner.style.background = "#FEF2F2";
+        fbBanner.style.border = "1.5px solid #EF4444";
+        fbBanner.style.color = "#991B1B";
+        fbBanner.textContent = `Could not submit counselor rating: ${err.message}`;
+      }
+    } finally {
+      submitFeedbackBtn.disabled = false;
+      submitFeedbackBtn.textContent = origLabel;
     }
   });
 }

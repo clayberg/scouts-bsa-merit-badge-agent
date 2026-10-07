@@ -908,5 +908,66 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
     client.get("/api/badge/images?badge_name=First%20Aid")
 
 
+def test_api_v1_feedback_flywheel_and_versioning_headers():
+    """Verifies POST /api/v1/feedback Golden Dataset auto-promotion, SQLite persistence, and X-API-Version headers."""
+    client = TestClient(app)
+
+    # 1. Verify X-API-Version: 1.2.0 header on /api/v1/* and Deprecation/Sunset headers on legacy /api/*
+    health_v1 = client.get("/api/v1/health")
+    assert health_v1.status_code == 200
+    assert health_v1.headers.get("X-API-Version") == "1.2.0"
+
+    health_legacy = client.get("/api/health")
+    assert health_legacy.status_code == 200
+    assert health_legacy.headers.get("X-API-Version") == "1.2.0"
+    assert health_legacy.headers.get("Deprecation") == "true"
+    assert "Sunset" in health_legacy.headers
+
+    # 2. Verify high-confidence rating (rating >= 4 + requirement_accuracy_verified=True) promotes to golden dataset
+    fb_resp = client.post(
+        "/api/v1/feedback",
+        json={
+            "badge_name": "First Aid",
+            "counselor_name": "Eric Clayberg",
+            "session_id": "test_flywheel_session_01",
+            "requirement_count": 14,
+            "rating": 5,
+            "requirement_accuracy_verified": True,
+            "comments": "Verified all 14 First Aid requirements and EDGE speaker notes.",
+        },
+    )
+    assert fb_resp.status_code == 200
+    fb_data = fb_resp.json()
+    assert fb_data["status"] == "RECORDED"
+    assert fb_data["schema_version"] == "1.2.0"
+    assert fb_data["promoted_to_golden_dataset"] is True
+    assert fb_data["sqlite_persisted"] is True
+    assert fb_data["golden_extensions_count"] >= 1
+
+    # 3. Verify lower rating (rating=3) records to SQLite but does NOT promote to golden dataset
+    fb_low = client.post(
+        "/api/v1/feedback",
+        json={
+            "badge_name": "Weather",
+            "counselor_name": "Eric Clayberg",
+            "session_id": "test_flywheel_session_02",
+            "requirement_count": 9,
+            "rating": 3,
+            "requirement_accuracy_verified": True,
+            "comments": "Acceptable draft, needs one more local weather chart.",
+        },
+    ).json()
+    assert fb_low["status"] == "RECORDED"
+    assert fb_low["promoted_to_golden_dataset"] is False
+    assert fb_low["sqlite_persisted"] is True
+
+    # 4. Verify UI HTML includes the new Counselor Rating & Continuous Learning Flywheel Sign-Off Card
+    ui_html = client.get("/").text
+    assert "studiokit-feedback-card" in ui_html
+    assert "btn-submit-counselor-feedback" in ui_html
+    assert "Counselor Sign-Off &amp; Continuous Learning Flywheel" in ui_html
+
+
+
 
 

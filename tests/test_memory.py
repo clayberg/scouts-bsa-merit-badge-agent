@@ -188,3 +188,62 @@ def test_hybrid_rrf_bm25_and_citation_grounding_and_trajectory_eval(tmp_path):
     demo_report = verify_live_demo_readiness()
     assert demo_report["demo_ready"] is True
 
+
+def test_schema_version_upcasting_and_sqlite_hitl_feedback(tmp_path):
+    """Verifies non-breaking schema migration (v1.0 -> v1.1 -> v1.2.0) and SQLite hitl_feedback persistence."""
+    from src.schemas import CURRENT_SCHEMA_VERSION, migrate_payload_schema
+
+    # 1. Legacy v1.0 payload lacking schema_version, beautification_tier, audience_level, and citation_coverage_ratio
+    legacy_v1_0 = {
+        "badge_name": "First Aid",
+        "counselor_info": {"counselor_name": "Eric Clayberg", "troop_affiliation": "Troop 19, Middleton MA"},
+        "storyboard": {
+            "slides": [
+                {"req_number": "1a", "title": "Choking Care", "bullet_points": ["5 back blows", "5 abdominal thrusts"]}
+            ]
+        },
+        "conformance_report": {"passed": True, "aabb_overlap_count": 0},
+    }
+    migrated = migrate_payload_schema(legacy_v1_0)
+    assert migrated["schema_version"] == CURRENT_SCHEMA_VERSION == "1.2.0"
+    assert migrated["beautification_tier"] == "BEAUTIFIED"
+    assert migrated["audience_level"] == "All Scouts (Ages 11–17)"
+    assert migrated["storyboard"]["slides"][0]["visual_source_label"] == "Official BSA Pamphlet Diagram"
+    assert migrated["storyboard"]["slides"][0]["available_images"] == []
+    assert migrated["conformance_report"]["citation_coverage_ratio"] == 1.0
+
+    # 2. Verify PersistentSessionStore automatically upcasts legacy sessions on load and persists hitl_feedback
+    db_file = os.path.join(tmp_path, "schema_evolution_test.db")
+    store = PersistentSessionStore(db_path=db_file)
+    store.save_session_sync(
+        session_id="legacy_v1_session",
+        badge_name="Weather",
+        counselor_info={"counselor_name": "Eric Clayberg"},
+        history=[{"type": "legacy_event"}],
+    )
+    loaded = store.get_session_sync("legacy_v1_session")
+    assert loaded is not None
+    assert loaded["schema_version"] == "1.2.0"
+
+    fb_res = store.record_hitl_feedback_sync(
+        session_id="legacy_v1_session",
+        badge_name="Weather",
+        counselor_name="Eric Clayberg",
+        rating=5,
+        requirement_accuracy_verified=True,
+        comments="Verified 100% 2026 BSA Weather requirement fidelity.",
+        promoted_to_golden=True,
+        schema_version="1.2.0",
+    )
+    assert fb_res["recorded"] is True
+    assert fb_res["promoted_to_golden"] is True
+
+    rows = store.list_hitl_feedback_sync(badge_name="Weather")
+    assert len(rows) == 1
+    assert rows[0]["badge_name"] == "Weather"
+    assert rows[0]["rating"] == 5
+    assert rows[0]["requirement_accuracy_verified"] is True
+    assert rows[0]["promoted_to_golden"] is True
+    assert rows[0]["schema_version"] == "1.2.0"
+
+

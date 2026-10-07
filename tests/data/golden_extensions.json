@@ -1,0 +1,34 @@
+[
+  {
+    "badge_name": "First Aid",
+    "is_eagle_required": true,
+    "expected_min_requirements": 14,
+    "expected_trajectory": [
+      "PamphletResearchAgent",
+      "DeepResearchEnrichmentAgent",
+      "SlideContentPlannerAgent",
+      "SlideBeautifierAgent",
+      "FastMCPConfirmationGate",
+      "PowerPointBuilderAgent",
+      "BSABrandAndSafetyReviewAgent"
+    ],
+    "promoted_from_session_id": "test_flywheel_session_01",
+    "promoted_at_epoch": 1791378336.048
+  },
+  {
+    "badge_name": "Weather",
+    "is_eagle_required": false,
+    "expected_min_requirements": 5,
+    "expected_trajectory": [
+      "PamphletResearchAgent",
+      "DeepResearchEnrichmentAgent",
+      "SlideContentPlannerAgent",
+      "SlideBeautifierAgent",
+      "FastMCPConfirmationGate",
+      "PowerPointBuilderAgent",
+      "BSABrandAndSafetyReviewAgent"
+    ],
+    "promoted_from_session_id": "test_feedback_session",
+    "promoted_at_epoch": 1791378336.854
+  }
+]

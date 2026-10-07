@@ -488,3 +488,88 @@ def get_tool_json_schemas() -> Dict[str, Dict[str, Any]]:
     return {m.__name__: m.model_json_schema() for m in models}
 
 
+# ==============================================================================
+# 7. SCHEMA EVOLUTION & ZERO-DOWNTIME PAYLOAD UPCASTER (v1.0 -> v1.1 -> v1.2)
+# ==============================================================================
+
+CURRENT_SCHEMA_VERSION: str = "1.2.0"
+
+
+def _upcast_slide_dict_v1_2(slide: Dict[str, Any]) -> Dict[str, Any]:
+    """Upcasts an individual slide dictionary from v1.0/v1.1 to v1.2.0."""
+    if not isinstance(slide, dict):
+        return slide
+    if not slide.get("original_archetype"):
+        slide["original_archetype"] = slide.get("archetype") or "SPLIT_VISUAL_EXPLAINER"
+    if "original_diagram_path" not in slide or slide.get("original_diagram_path") is None:
+        diag = slide.get("diagram_path") or slide.get("visual_diagram_path")
+        ai_hero = slide.get("ai_hero_image_path")
+        if diag and ai_hero and str(diag) == str(ai_hero):
+            slide["original_diagram_path"] = None
+            slide["original_diagram_url"] = None
+        else:
+            slide["original_diagram_path"] = diag
+            slide["original_diagram_url"] = slide.get("diagram_url")
+    if "original_visual_caption" not in slide or slide.get("original_visual_caption") is None:
+        slide["original_visual_caption"] = str(slide.get("visual_caption") or slide.get("title") or "")
+    if "visual_source_label" not in slide or not slide.get("visual_source_label"):
+        slide["visual_source_label"] = "Official BSA Pamphlet Diagram"
+    if "original_visual_source_label" not in slide or not slide.get("original_visual_source_label"):
+        slide["original_visual_source_label"] = (
+            str(slide.get("visual_source_label"))
+            if slide.get("visual_source_label")
+            else (
+                "Official BSA Pamphlet / Instructional Figure"
+                if slide.get("original_diagram_path")
+                else "None (Originally Text-Only Slide)"
+            )
+        )
+    if "available_images" not in slide or not isinstance(slide.get("available_images"), list):
+        slide["available_images"] = []
+    return slide
+
+
+def migrate_payload_schema(payload: Dict[str, Any]) -> Dict[str, Any]:
+    """Transparently upcasts saved session or slide payloads across schema versions (`v1.0 -> v1.1 -> v1.2.0`).
+
+    Migration Steps:
+    - `v1.0 -> v1.1`: Backfills `audience_level`, `beautification_tier`, and `counselor_info.location_or_zip`.
+    - `v1.1 -> v1.2.0`: Backfills `original_diagram_path`, `original_diagram_url`, `original_visual_caption`,
+      `original_visual_source_label`, `original_archetype`, and `available_images` on all slide specifications
+      so `Restore Original Slide Graphic` and the 4-Tab Image Studio work with zero breaking changes on legacy sessions.
+    """
+    if not isinstance(payload, dict):
+        return payload
+
+    prev_version = str(payload.get("schema_version") or "1.0.0")
+
+    # Step 1: v1.0 -> v1.1 top-level curriculum fields
+    is_Standalone_slide = ("archetype" in payload or "bullet_points" in payload) and "storyboard" not in payload
+    if not is_Standalone_slide:
+        if not payload.get("audience_level"):
+            payload["audience_level"] = "All Scouts (Ages 11–17)"
+        if not payload.get("beautification_tier"):
+            payload["beautification_tier"] = "BEAUTIFIED"
+        c_info = payload.get("counselor_info")
+        if isinstance(c_info, dict) and not c_info.get("location_or_zip"):
+            c_info["location_or_zip"] = str(c_info.get("zip_code") or c_info.get("location") or "")
+        conf = payload.get("conformance_report")
+        if isinstance(conf, dict) and "citation_coverage_ratio" not in conf:
+            conf["citation_coverage_ratio"] = 1.0
+
+    # Step 2: v1.1 -> v1.2.0 per-slide original graphic preservation fields
+    storyboard = payload.get("storyboard")
+    if isinstance(storyboard, dict) and isinstance(storyboard.get("slides"), list):
+        storyboard["slides"] = [_upcast_slide_dict_v1_2(s) for s in storyboard["slides"]]
+    if isinstance(payload.get("slides"), list):
+        payload["slides"] = [_upcast_slide_dict_v1_2(s) for s in payload["slides"]]
+    if is_Standalone_slide:
+        _upcast_slide_dict_v1_2(payload)
+
+    if prev_version != CURRENT_SCHEMA_VERSION:
+        payload["migrated_from_schema_version"] = prev_version
+    payload["schema_version"] = CURRENT_SCHEMA_VERSION
+    return payload
+
+
+

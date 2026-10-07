@@ -70,6 +70,21 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.middleware("http")
+async def add_api_version_and_deprecation_headers(request: Any, call_next: Any) -> Any:
+    """Attaches `X-API-Version: 1.2.0` and RFC 8594 `Deprecation`/`Sunset` headers on legacy unversioned paths."""
+    from src.schemas import CURRENT_SCHEMA_VERSION
+
+    response = await call_next(request)
+    response.headers["X-API-Version"] = CURRENT_SCHEMA_VERSION
+    path = str(getattr(request, "url", "") and request.url.path or "")
+    if path.startswith("/api/") and not path.startswith("/api/v1/"):
+        response.headers["Deprecation"] = "true"
+        response.headers["Sunset"] = "2027-01-01"
+    return response
+
+
 # Mount static directories
 app.mount("/assets", StaticFiles(directory=str(ASSETS_DIR)), name="assets")
 app.mount("/deliverables", StaticFiles(directory=str(GENERATED_DECKS_DIR)), name="deliverables")
@@ -109,12 +124,14 @@ class WorkflowRunRequest(BaseModel):
 
 class CounselorFeedbackRequest(BaseModel):
     badge_name: str = Field("First Aid", description="Merit Badge evaluated by the Counselor.")
+    counselor_name: str = Field("Scoutmaster Bob", description="Merit Badge Counselor name.")
     session_id: str = Field("a2ui_workbench_session", description="Session identifier.")
     rating: int = Field(5, ge=1, le=5, description="Counselor quality rating (1 to 5 stars).")
     thumbs_up: bool = Field(True, description="True for positive endorsement, False for issue flag.")
     requirement_accuracy_verified: bool = Field(
         True, description="Whether the Counselor verified 100% sub-requirement fidelity."
     )
+    requirement_count: int = Field(5, ge=1, description="Number of official requirements verified in this session.")
     comments: str = Field("", description="Optional Counselor notes or improvement suggestions.")
 
 
@@ -953,6 +970,8 @@ async def api_confirm_hitl(
 # ==============================================================================
 
 @app.get("/health")
+@app.get("/api/health")
+@app.get("/api/v1/health")
 async def health_liveness_probe() -> Dict[str, Any]:
     """Fast container liveness probe for Cloud Run / Kubernetes."""
     return {
@@ -1027,11 +1046,57 @@ async def submit_counselor_feedback(
     req: CounselorFeedbackRequest,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Captures Human-in-the-Loop Counselor evaluation ratings and requirement accuracy sign-off."""
-    record = METRICS_COLLECTOR.record_counselor_feedback(req.model_dump())
+    """Captures Human-in-the-Loop Counselor ratings, persists to SQLite, and auto-promotes verified >=4/5 sessions to the Golden Suite."""
+    from scripts.eval_gate import promote_session_to_golden_dataset
+    from src.memory.session_store import _default_store
+    from src.schemas import CURRENT_SCHEMA_VERSION
+
+    payload = req.model_dump()
+    record = METRICS_COLLECTOR.record_counselor_feedback(payload)
+
+    promoted_to_golden = bool(req.rating >= 4 and req.requirement_accuracy_verified)
+    promotion_result: Optional[Dict[str, Any]] = None
+    golden_dataset_size = 0
+
+    if promoted_to_golden:
+        try:
+            promotion_result = promote_session_to_golden_dataset(
+                {
+                    "badge_name": req.badge_name,
+                    "is_eagle_required": req.badge_name in EAGLE_REQUIRED_BADGES,
+                    "requirement_count": max(1, int(req.requirement_count or 5)),
+                    "session_id": req.session_id,
+                    "counselor_name": req.counselor_name,
+                }
+            )
+            golden_dataset_size = int(promotion_result.get("total_golden_extensions", 0))
+        except Exception as exc:
+            logger.warning("Golden dataset promotion warning: %s", exc)
+            promoted_to_golden = False
+
+    sqlite_rec = _default_store.record_hitl_feedback_sync(
+        badge_name=req.badge_name,
+        session_id=req.session_id,
+        counselor_name=req.counselor_name,
+        rating=req.rating,
+        thumbs_up=req.thumbs_up,
+        requirement_accuracy_verified=req.requirement_accuracy_verified,
+        promoted_to_golden=promoted_to_golden,
+        comments=req.comments,
+        schema_version=CURRENT_SCHEMA_VERSION,
+    )
+
     return {
         "status": "RECORDED",
+        "schema_version": CURRENT_SCHEMA_VERSION,
+        "promoted_to_golden_dataset": promoted_to_golden,
+        "sqlite_persisted": True,
+        "golden_dataset_size": golden_dataset_size,
+        "golden_extensions_count": golden_dataset_size,
+        "golden_dataset_path": "tests/data/golden_extensions.json",
+        "golden_promotion": promotion_result,
         "feedback": record,
+        "sqlite_record": sqlite_rec,
         "summary": METRICS_COLLECTOR.get_feedback_summary(),
     }
 
@@ -1041,8 +1106,14 @@ async def submit_counselor_feedback(
 async def list_counselor_feedback(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Returns aggregated Human-in-the-Loop Counselor feedback statistics."""
-    return METRICS_COLLECTOR.get_feedback_summary()
+    """Returns aggregated Human-in-the-Loop Counselor feedback statistics and SQLite records."""
+    from src.memory.session_store import _default_store
+    from src.schemas import CURRENT_SCHEMA_VERSION
+
+    summary = dict(METRICS_COLLECTOR.get_feedback_summary() or {})
+    summary["schema_version"] = CURRENT_SCHEMA_VERSION
+    summary["sqlite_feedback_records"] = _default_store.list_hitl_feedback_sync(limit=25)
+    return summary
 
 
 @app.get("/api/v1/prompts/manifest")

@@ -1,6 +1,7 @@
 openapi: 3.1.0
 info:
-  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
+  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
+    \ Server"
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -489,7 +490,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       responses:
         '200':
@@ -593,7 +594,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       responses:
         '200':
@@ -1603,6 +1604,34 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/health:
+    get:
+      summary: Health Liveness Probe
+      description: Fast container liveness probe for Cloud Run / Kubernetes.
+      operationId: health_liveness_probe_api_v1_health_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Health Liveness Probe Api V1 Health Get
+  /api/health:
+    get:
+      summary: Health Liveness Probe
+      description: Fast container liveness probe for Cloud Run / Kubernetes.
+      operationId: health_liveness_probe_api_health_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Health Liveness Probe Api Health Get
   /health:
     get:
       summary: Health Liveness Probe
@@ -1711,8 +1740,8 @@ paths:
   /api/v1/feedback:
     post:
       summary: Submit Counselor Feedback
-      description: Captures Human-in-the-Loop Counselor evaluation ratings and requirement
-        accuracy sign-off.
+      description: Captures Human-in-the-Loop Counselor ratings, persists to SQLite,
+        and auto-promotes verified >=4/5 sessions to the Golden Suite.
       operationId: submit_counselor_feedback_api_v1_feedback_post
       parameters:
       - name: authorization
@@ -1754,7 +1783,8 @@ paths:
                 $ref: '#/components/schemas/HTTPValidationError'
     get:
       summary: List Counselor Feedback
-      description: Returns aggregated Human-in-the-Loop Counselor feedback statistics.
+      description: Returns aggregated Human-in-the-Loop Counselor feedback statistics
+        and SQLite records.
       operationId: list_counselor_feedback_api_v1_feedback_get
       parameters:
       - name: authorization
@@ -1791,8 +1821,8 @@ paths:
   /api/feedback:
     post:
       summary: Submit Counselor Feedback
-      description: Captures Human-in-the-Loop Counselor evaluation ratings and requirement
-        accuracy sign-off.
+      description: Captures Human-in-the-Loop Counselor ratings, persists to SQLite,
+        and auto-promotes verified >=4/5 sessions to the Golden Suite.
       operationId: submit_counselor_feedback_api_feedback_post
       parameters:
       - name: authorization
@@ -1834,7 +1864,8 @@ paths:
                 $ref: '#/components/schemas/HTTPValidationError'
     get:
       summary: List Counselor Feedback
-      description: Returns aggregated Human-in-the-Loop Counselor feedback statistics.
+      description: Returns aggregated Human-in-the-Loop Counselor feedback statistics
+        and SQLite records.
       operationId: list_counselor_feedback_api_feedback_get
       parameters:
       - name: authorization
@@ -1949,6 +1980,11 @@ components:
           title: Badge Name
           description: Merit Badge evaluated by the Counselor.
           default: First Aid
+        counselor_name:
+          type: string
+          title: Counselor Name
+          description: Merit Badge Counselor name.
+          default: Scoutmaster Bob
         session_id:
           type: string
           title: Session Id
@@ -1971,6 +2007,12 @@ components:
           title: Requirement Accuracy Verified
           description: Whether the Counselor verified 100% sub-requirement fidelity.
           default: true
+        requirement_count:
+          type: integer
+          minimum: 1.0
+          title: Requirement Count
+          description: Number of official requirements verified in this session.
+          default: 5
         comments:
           type: string
           title: Comments
@@ -2352,7 +2394,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
         session_id:
           type: string
           title: Session Id

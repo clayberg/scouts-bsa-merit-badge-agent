@@ -306,6 +306,21 @@ class PersistentSessionStore:
                 )
                 """
             )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS hitl_feedback (
+                    feedback_id TEXT PRIMARY KEY,
+                    session_id TEXT,
+                    badge_name TEXT,
+                    rating INTEGER,
+                    thumbs_up INTEGER,
+                    requirement_accuracy_verified INTEGER,
+                    promoted_to_golden INTEGER DEFAULT 0,
+                    comments TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
+            )
             conn.commit()
 
     def save_session_sync(
@@ -347,7 +362,9 @@ class PersistentSessionStore:
         return True
 
     def get_session_sync(self, session_id: str) -> Optional[Dict[str, Any]]:
-        """Synchronously retrieves stored session state from SQLite / Vertex AI cache."""
+        """Synchronously retrieves stored session state from SQLite / Vertex AI cache and upcasts schema to v1.2.0."""
+        from src.schemas import migrate_payload_schema
+
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             cursor.execute(
@@ -356,13 +373,127 @@ class PersistentSessionStore:
             )
             row = cursor.fetchone()
             if row:
-                return {
+                raw_history = json.loads(row[2]) if row[2] else []
+                upcast_history = [
+                    migrate_payload_schema(ev) if isinstance(ev, dict) and ("storyboard" in ev or "slides" in ev or "archetype" in ev) else ev
+                    for ev in raw_history
+                ]
+                session_payload: Dict[str, Any] = {
                     "session_id": session_id,
                     "badge_name": row[0],
                     "counselor_info": json.loads(row[1]) if row[1] else {},
-                    "history": json.loads(row[2]) if row[2] else [],
+                    "history": upcast_history,
                 }
+                return migrate_payload_schema(session_payload)
         return None
+
+    def record_hitl_feedback_sync(
+        self,
+        badge_name: str,
+        session_id: str = "",
+        counselor_name: str = "",
+        rating: int = 5,
+        thumbs_up: bool = True,
+        requirement_accuracy_verified: bool = True,
+        promoted_to_golden: bool = False,
+        comments: str = "",
+        schema_version: str = "1.2.0",
+    ) -> Dict[str, Any]:
+        """Persists Counselor rating and requirement sign-off into the SQLite `hitl_feedback` table."""
+        clean_comments = scrub_pii_before_sink(comments or "")[:500]
+        feedback_id = hashlib.sha256(
+            f"{badge_name}:{session_id}:{counselor_name}:{rating}:{clean_comments}".encode("utf-8")
+        ).hexdigest()[:16]
+        with sqlite3.connect(self.db_path) as conn:
+            conn.execute(
+                """
+                INSERT INTO hitl_feedback (
+                    feedback_id, session_id, badge_name, rating, thumbs_up,
+                    requirement_accuracy_verified, promoted_to_golden, comments
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(feedback_id) DO UPDATE SET
+                    rating=excluded.rating,
+                    thumbs_up=excluded.thumbs_up,
+                    requirement_accuracy_verified=excluded.requirement_accuracy_verified,
+                    promoted_to_golden=excluded.promoted_to_golden,
+                    comments=excluded.comments,
+                    created_at=CURRENT_TIMESTAMP
+                """,
+                (
+                    feedback_id,
+                    session_id or "interactive",
+                    badge_name,
+                    max(1, min(5, int(rating))),
+                    1 if thumbs_up else 0,
+                    1 if requirement_accuracy_verified else 0,
+                    1 if promoted_to_golden else 0,
+                    clean_comments,
+                ),
+            )
+            conn.commit()
+        return {
+            "recorded": True,
+            "feedback_id": feedback_id,
+            "session_id": session_id or "interactive",
+            "badge_name": badge_name,
+            "counselor_name": counselor_name or "Merit Badge Counselor",
+            "rating": max(1, min(5, int(rating))),
+            "thumbs_up": bool(thumbs_up),
+            "requirement_accuracy_verified": bool(requirement_accuracy_verified),
+            "promoted_to_golden": bool(promoted_to_golden),
+            "comments": clean_comments,
+            "schema_version": schema_version,
+        }
+
+    def list_hitl_feedback_sync(
+        self,
+        badge_name: Optional[str] = None,
+        limit: int = 50,
+    ) -> List[Dict[str, Any]]:
+        """Lists recent Counselor feedback records from the SQLite `hitl_feedback` table."""
+        out: List[Dict[str, Any]] = []
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            if badge_name:
+                cursor.execute(
+                    """
+                    SELECT feedback_id, session_id, badge_name, rating, thumbs_up,
+                           requirement_accuracy_verified, promoted_to_golden, comments, created_at
+                    FROM hitl_feedback
+                    WHERE badge_name = ?
+                    ORDER BY created_at DESC
+                    LIMIT ?
+                    """,
+                    (badge_name, max(1, int(limit))),
+                )
+            else:
+                cursor.execute(
+                    """
+                    SELECT feedback_id, session_id, badge_name, rating, thumbs_up,
+                           requirement_accuracy_verified, promoted_to_golden, comments, created_at
+                    FROM hitl_feedback
+                    ORDER BY created_at DESC
+                    LIMIT ?
+                    """,
+                    (max(1, int(limit)),),
+                )
+            for row in cursor.fetchall():
+                out.append(
+                    {
+                        "feedback_id": row[0],
+                        "session_id": row[1],
+                        "badge_name": row[2],
+                        "rating": int(row[3] or 5),
+                        "thumbs_up": bool(row[4]),
+                        "requirement_accuracy_verified": bool(row[5]),
+                        "promoted_to_golden": bool(row[6]),
+                        "comments": str(row[7] or ""),
+                        "created_at": str(row[8] or ""),
+                        "schema_version": "1.2.0",
+                    }
+                )
+        return out
 
     def index_pamphlet_chunks_sync(self, badge_name: str, requirements_text: str) -> int:
         """Splits ingested pamphlet text into semantic chunks, computes embeddings, and stores them in SQLite."""
@@ -829,4 +960,10 @@ async def compact_session_history_async(
         config,
     )
     return compacted
+
+
+def get_persistent_session_store() -> PersistentSessionStore:
+    """Returns the singleton `PersistentSessionStore` instance."""
+    return _default_store
+
 

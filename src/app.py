@@ -50,9 +50,11 @@ from src.config import (
 )
 from src.memory.session_store import (
     clear_local_counselor_profile,
+    get_persistent_session_store,
     load_local_counselor_profile,
     save_local_counselor_profile,
 )
+from src.schemas import CURRENT_SCHEMA_VERSION
 from src.tools.counselor_studiokit import generate_prerequisite_parent_letter
 from src.tools.pamphlet_extractor import get_badge_cover_and_patch_paths
 from src.tools.pptx_builder import (
@@ -2797,6 +2799,81 @@ def main() -> None:
         with dr_col2:
             st.markdown("#### 💰 FinOps Cost & Token Budget ($1.00 Max Cap)")
             st.markdown(_render_finops_table_html(finops_data), unsafe_allow_html=True)
+
+        st.markdown("---")
+        st.markdown(
+            f"#### 🌟 Counselor Sign-Off & Continuous Learning Flywheel (Schema `v{result.get('schema_version', CURRENT_SCHEMA_VERSION)}`)"
+        )
+        st.caption(
+            "Rate this generated Merit Badge package (`POST /api/v1/feedback`). High-confidence counselor ratings (**≥ 4/5 Stars** + **Requirement Accuracy Verified**) automatically promote this session into `tests/data/golden_extensions.json` for CI/CD regression gating."
+        )
+        fb_col1, fb_col2, fb_col3, fb_col4 = st.columns([1.1, 1.3, 1.6, 1.1], gap="small")
+        with fb_col1:
+            fb_rating = st.selectbox(
+                "1. Counselor Quality Rating",
+                options=[5, 4, 3, 2, 1],
+                index=0,
+                format_func=lambda r: {
+                    5: "⭐⭐⭐⭐⭐ 5/5 — Exemplary (Golden)",
+                    4: "⭐⭐⭐⭐ 4/5 — Production Ready",
+                    3: "⭐⭐⭐ 3/5 — Acceptable",
+                    2: "⭐⭐ 2/5 — Below Standard",
+                    1: "⭐ 1/5 — Reject",
+                }[r],
+                key=f"fb_rating_{res_badge}",
+            )
+        with fb_col2:
+            st.markdown('<div style="height:26px;"></div>', unsafe_allow_html=True)
+            fb_verified = st.checkbox(
+                "✅ Requirement Accuracy Verified (2026 BSA Pamphlet)",
+                value=True,
+                key=f"fb_verified_{res_badge}",
+            )
+        with fb_col3:
+            fb_comments = st.text_input(
+                "2. Counselor Sign-Off Notes (Optional)",
+                value="Verified all requirement numbers, EDGE teaching notes, and YPT safety callouts for troop instruction.",
+                key=f"fb_comments_{res_badge}",
+            )
+        with fb_col4:
+            st.markdown('<div style="height:26px;"></div>', unsafe_allow_html=True)
+            if st.button(
+                "🌟 Submit Rating & Promote",
+                type="primary",
+                use_container_width=True,
+                key=f"btn_submit_fb_{res_badge}",
+            ):
+                from scripts.eval_gate import promote_session_to_golden_dataset
+
+                should_promote = fb_rating >= 4 and fb_verified
+                promo_res: Dict[str, Any] = {}
+                if should_promote:
+                    promo_res = promote_session_to_golden_dataset(
+                        badge_name=res_badge,
+                        counselor_rating=fb_rating,
+                        requirement_count=len(reqs) or 5,
+                        verified_by=counselor_name,
+                    )
+                promoted_flag = bool(promo_res.get("promoted", False))
+                store = get_persistent_session_store()
+                store.record_hitl_feedback_sync(
+                    session_id=str(result.get("session_id") or f"session-{res_badge.lower().replace(' ', '-')}"),
+                    badge_name=res_badge,
+                    counselor_name=counselor_name,
+                    rating=fb_rating,
+                    requirement_accuracy_verified=fb_verified,
+                    comments=fb_comments,
+                    promoted_to_golden=promoted_flag,
+                    schema_version=str(result.get("schema_version") or CURRENT_SCHEMA_VERSION),
+                )
+                if promoted_flag:
+                    st.success(
+                        f"✅ **Promoted to Golden Evaluation Dataset!** Recorded {fb_rating}/5 rating by **{counselor_name}** in SQLite (`hitl_feedback`) & updated `{promo_res.get('golden_extensions_path', 'tests/data/golden_extensions.json')}` ({promo_res.get('total_extensions', 1)} verified extensions • Schema `v{CURRENT_SCHEMA_VERSION}`)."
+                    )
+                else:
+                    st.info(
+                        f"📝 **Feedback Recorded in SQLite (`hitl_feedback`):** {fb_rating}/5 rating logged for **{res_badge}**."
+                    )
 
     # --------------------------------------------------------------------------
     # BOTTOM ATTRIBUTION & FEEDBACK BANNER
