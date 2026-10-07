@@ -401,9 +401,31 @@ To keep slide builds fast and usable at campouts with limited internet access:
 
 ---
 
-## 7. Optional Cloud Deployment (Terraform, Cloud Build, and ADK CLI)
+## 7. Optional Cloud Deployment (Cloud Run Quick-Start, Terraform, Cloud Build, and ADK CLI)
 
-### Option A: Provision infrastructure with Terraform (`terraform/`)
+### Quick-Start: One-Command Cloud Run Deploy (`scripts/deploy_cloud_run.sh` / Argolis)
+
+If you want to deploy the live **Material 3 Web Workbench + A2A 1.0 Server** directly to Google Cloud Run (including in an **Argolis** `gcp.altostrat.com` environment using Vertex AI with zero API keys):
+
+1. **Create or select a GCP Project with Billing enabled**:
+   - **Argolis users (`@gcp.altostrat.com`)**: Provision your Argolis environment at `go/argolis` (if not already initialized), then open [Google Cloud Console](https://console.cloud.google.com) signed in as your `@gcp.altostrat.com` account and create a project (e.g., `clayberg-scouts-bsa-agent`) inside your personal Argolis folder.
+2. **Run the turn-key deployment script**:
+   ```bash
+   # Deploy with Vertex AI enabled and public unauthenticated access (--public overrides
+   # the Argolis iam.allowedPolicyMemberDomains org policy on the project):
+   ./scripts/deploy_cloud_run.sh --project "clayberg-scouts-bsa-agent" --region "us-central1" --public
+
+   # Or if using an isolated gcloud configuration (e.g. --configuration argolis on Cloudtop):
+   ./scripts/deploy_cloud_run.sh --project "clayberg-scouts-bsa-agent" --region "us-central1" --public --configuration argolis
+   ```
+   Under the hood, `scripts/deploy_cloud_run.sh` performs all 5 setup and verification steps from the repository root:
+   - Enables `run.googleapis.com`, `cloudbuild.googleapis.com`, `artifactregistry.googleapis.com`, `aiplatform.googleapis.com`, `secretmanager.googleapis.com`, `orgpolicy.googleapis.com`, `iam.googleapis.com`, `storage.googleapis.com`, and `logging.googleapis.com`.
+   - When `--public` is passed, sets the project-level `iam.allowedPolicyMemberDomains` org policy (`allowAll: true`) so `--allow-unauthenticated` works in Argolis.
+   - Grants `roles/aiplatform.user` (for Vertex AI ADC) plus the Cloud Build source-deploy roles (`roles/storage.objectAdmin`, `roles/artifactregistry.writer`, `roles/logging.logWriter`, `roles/cloudbuild.builds.builder`) to `${PROJECT_NUMBER}-compute@developer.gserviceaccount.com` (required on new GCP and Argolis projects where `iam.automaticIamGrantsForDefaultServiceAccounts` disables default Editor grants).
+   - Builds the root `Dockerfile` and deploys the container via `gcloud run deploy scouts-bsa-merit-badge-agent --source . --port=8085`.
+   - Runs live smoke checks against `${SERVICE_URL}/health` and `${SERVICE_URL}/readiness`.
+
+### Option A: Provision enterprise infrastructure with Terraform (`terraform/`)
 
 The `terraform/` directory creates:
 - A dedicated least-privilege Service Account (`scouts-bsa-agent-sa`) with scoped IAM roles (`roles/aiplatform.user`, `roles/secretmanager.secretAccessor`, `roles/storage.objectUser`, `roles/logging.logWriter`, `roles/cloudtrace.agent`).
@@ -443,7 +465,7 @@ adk deploy cloud_run \
 ## 8. Testing and evaluation gate
 
 ```bash
-# 1. Run all 48 unit, security, fault-injection, Image Studio, OpenAPI drift, and conformance tests
+# 1. Run all 50 unit, security, fault-injection, Image Studio, OpenAPI drift, and conformance tests
 .venv/bin/pytest tests/ -v
 
 # 2. Run the pre-deployment evaluation gate across the 12 golden badges
