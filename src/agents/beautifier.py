@@ -132,12 +132,11 @@ def generate_ai_editorial_illustration(
 
     # Optional live Vertex AI / Gemini Imagen 3 invocation when explicitly enabled
     if os.environ.get("USE_VERTEX_IMAGEN", "false").lower() == "true":
-        api_key = get_secret("GEMINI_API_KEY", default="")
-        if api_key:
-            try:
-                from google import genai  # type: ignore
+        try:
+            from src.agents.image_studio import _get_genai_client
 
-                client = genai.Client(api_key=api_key)
+            client = _get_genai_client()
+            if client is not None:
                 imagen_model = select_model_for_task("imagen", "visual")
                 resp = client.models.generate_images(
                     model=imagen_model,
@@ -161,8 +160,8 @@ def generate_ai_editorial_illustration(
                             "accent_palette_key": accent_palette_key,
                             "status": "SUCCESS",
                         }
-            except Exception:
-                pass
+        except Exception:
+            pass
 
     # Deterministic 220-DPI Visual Concept Map & EDGE Skill Hub Infographic
     import re
