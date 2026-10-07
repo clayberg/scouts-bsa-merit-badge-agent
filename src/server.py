@@ -175,6 +175,7 @@ class NanoBananaCostRequest(BaseModel):
     badge_name: str
     slide_title: str = ""
     custom_prompt: str = ""
+    prompt: str = ""
     visual_style: str = "Photorealistic Image"
     num_images: int = Field(1, ge=1, le=4)
 
@@ -183,7 +184,9 @@ class NanoBananaGenerateRequest(BaseModel):
     badge_name: str
     slide_title: str = ""
     req_number: str = "1"
+    requirement_id: str = ""
     custom_prompt: str = ""
+    prompt: str = ""
     bullet_points: List[str] = Field(default_factory=list)
     visual_style: str = "Photorealistic Image"
     accent_palette_key: str = "NAVY_GOLD"
@@ -889,7 +892,7 @@ async def api_estimate_nano_banana_cost(
     return estimate_nano_banana_image_cost(
         badge_name=req.badge_name,
         slide_title=req.slide_title,
-        custom_prompt=req.custom_prompt,
+        custom_prompt=req.custom_prompt or req.prompt,
         visual_style=req.visual_style,
         num_images=req.num_images,
     )
@@ -904,12 +907,13 @@ async def api_generate_nano_banana_image(
     """Invokes `NanoBananaImageAgent` (enforcing `user_consented=True`) to create & cache a custom slide graphic."""
     from src.agents.image_studio import generate_nano_banana_slide_image
 
+    eff_req_num = req.req_number if (req.req_number and req.req_number != "1") else (req.requirement_id or req.req_number or "1")
     res = await asyncio.to_thread(
         generate_nano_banana_slide_image,
         badge_name=req.badge_name,
         slide_title=req.slide_title,
-        req_number=req.req_number,
-        custom_prompt=req.custom_prompt,
+        req_number=eff_req_num,
+        custom_prompt=req.custom_prompt or req.prompt,
         bullet_points=req.bullet_points,
         visual_style=req.visual_style,
         accent_palette_key=req.accent_palette_key,
