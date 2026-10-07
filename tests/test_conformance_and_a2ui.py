@@ -893,79 +893,98 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
     uploaded_file = Path(upload_resp["image_path"])
     assert uploaded_file.exists()
 
-    # 7. Purge test-generated web/AI images so badge catalogs remain clean after test runs
-    purge_resp = client.delete("/api/badge/images").json()
-    assert purge_resp["status"] == "SUCCESS"
-    cat_after_purge = client.get("/api/badge/images?badge_name=First%20Aid").json()
-    assert all(
-        img.get("source_type") not in ("WEB_IMAGE_SEARCH", "NANO_BANANA_AI")
-        for img in cat_after_purge["images"]
-    )
-    # Verify USER_UPLOAD is preserved across Clear Web/AI Cache, then clean up our test upload
-    assert any(img.get("source_type") == "USER_UPLOAD" for img in cat_after_purge["images"])
-    if uploaded_file.exists():
-        uploaded_file.unlink()
-    client.get("/api/badge/images?badge_name=First%20Aid")
+    # 7. Purge test-generated web/AI images for a test badge and preserve tracked First Aid catalog files
+    first_aid_dir = Path(__file__).resolve().parent.parent / "assets" / "badge_image_catalog" / "first_aid"
+    saved_first_aid = {p.name: p.read_bytes() for p in first_aid_dir.glob("*") if p.is_file()}
+    try:
+        purge_resp = client.delete("/api/badge/images?badge_name=First%20Aid").json()
+        assert purge_resp["status"] == "SUCCESS"
+        cat_after_purge = client.get("/api/badge/images?badge_name=First%20Aid").json()
+        assert all(
+            img.get("source_type") not in ("WEB_IMAGE_SEARCH", "NANO_BANANA_AI")
+            for img in cat_after_purge["images"]
+        )
+        # Verify USER_UPLOAD is preserved across Clear Web/AI Cache, then clean up our test upload
+        assert any(img.get("source_type") == "USER_UPLOAD" for img in cat_after_purge["images"])
+    finally:
+        if uploaded_file.exists():
+            uploaded_file.unlink()
+        for fname, fbytes in saved_first_aid.items():
+            (first_aid_dir / fname).write_bytes(fbytes)
 
 
 def test_api_v1_feedback_flywheel_and_versioning_headers():
-    """Verifies POST /api/v1/feedback Golden Dataset auto-promotion, SQLite persistence, and X-API-Version headers."""
+    """Verifies POST /api/v1/feedback Golden Dataset auto-promotion, SQLite persistence, X-API-Version headers, and /api/v1/cache/clear."""
+    from pathlib import Path
+
     client = TestClient(app)
+    golden_ext_path = Path(__file__).resolve().parent / "data" / "golden_extensions.json"
+    orig_golden_bytes = golden_ext_path.read_bytes() if golden_ext_path.exists() else None
 
-    # 1. Verify X-API-Version: 1.2.0 header on /api/v1/* and Deprecation/Sunset headers on legacy /api/*
-    health_v1 = client.get("/api/v1/health")
-    assert health_v1.status_code == 200
-    assert health_v1.headers.get("X-API-Version") == "1.2.0"
+    try:
+        # 1. Verify X-API-Version: 1.2.0 header on /api/v1/* and Deprecation/Sunset headers on legacy /api/*
+        health_v1 = client.get("/api/v1/health")
+        assert health_v1.status_code == 200
+        assert health_v1.headers.get("X-API-Version") == "1.2.0"
 
-    health_legacy = client.get("/api/health")
-    assert health_legacy.status_code == 200
-    assert health_legacy.headers.get("X-API-Version") == "1.2.0"
-    assert health_legacy.headers.get("Deprecation") == "true"
-    assert "Sunset" in health_legacy.headers
+        health_legacy = client.get("/api/health")
+        assert health_legacy.status_code == 200
+        assert health_legacy.headers.get("X-API-Version") == "1.2.0"
+        assert health_legacy.headers.get("Deprecation") == "true"
+        assert "Sunset" in health_legacy.headers
 
-    # 2. Verify high-confidence rating (rating >= 4 + requirement_accuracy_verified=True) promotes to golden dataset
-    fb_resp = client.post(
-        "/api/v1/feedback",
-        json={
-            "badge_name": "First Aid",
-            "counselor_name": "Eric Clayberg",
-            "session_id": "test_flywheel_session_01",
-            "requirement_count": 14,
-            "rating": 5,
-            "requirement_accuracy_verified": True,
-            "comments": "Verified all 14 First Aid requirements and EDGE speaker notes.",
-        },
-    )
-    assert fb_resp.status_code == 200
-    fb_data = fb_resp.json()
-    assert fb_data["status"] == "RECORDED"
-    assert fb_data["schema_version"] == "1.2.0"
-    assert fb_data["promoted_to_golden_dataset"] is True
-    assert fb_data["sqlite_persisted"] is True
-    assert fb_data["golden_extensions_count"] >= 1
+        # 2. Verify high-confidence rating (rating >= 4 + requirement_accuracy_verified=True) promotes to golden dataset
+        fb_resp = client.post(
+            "/api/v1/feedback",
+            json={
+                "badge_name": "First Aid",
+                "counselor_name": "Eric Clayberg",
+                "session_id": "test_flywheel_session_01",
+                "requirement_count": 14,
+                "rating": 5,
+                "requirement_accuracy_verified": True,
+                "comments": "Verified all 14 First Aid requirements and EDGE speaker notes.",
+            },
+        )
+        assert fb_resp.status_code == 200
+        fb_data = fb_resp.json()
+        assert fb_data["status"] == "RECORDED"
+        assert fb_data["schema_version"] == "1.2.0"
+        assert fb_data["promoted_to_golden_dataset"] is True
+        assert fb_data["sqlite_persisted"] is True
+        assert fb_data["golden_extensions_count"] >= 1
 
-    # 3. Verify lower rating (rating=3) records to SQLite but does NOT promote to golden dataset
-    fb_low = client.post(
-        "/api/v1/feedback",
-        json={
-            "badge_name": "Weather",
-            "counselor_name": "Eric Clayberg",
-            "session_id": "test_flywheel_session_02",
-            "requirement_count": 9,
-            "rating": 3,
-            "requirement_accuracy_verified": True,
-            "comments": "Acceptable draft, needs one more local weather chart.",
-        },
-    ).json()
-    assert fb_low["status"] == "RECORDED"
-    assert fb_low["promoted_to_golden_dataset"] is False
-    assert fb_low["sqlite_persisted"] is True
+        # 3. Verify lower rating (rating=3) records to SQLite but does NOT promote to golden dataset
+        fb_low = client.post(
+            "/api/v1/feedback",
+            json={
+                "badge_name": "Weather",
+                "counselor_name": "Eric Clayberg",
+                "session_id": "test_flywheel_session_02",
+                "requirement_count": 9,
+                "rating": 3,
+                "requirement_accuracy_verified": True,
+                "comments": "Acceptable draft, needs one more local weather chart.",
+            },
+        ).json()
+        assert fb_low["status"] == "RECORDED"
+        assert fb_low["promoted_to_golden_dataset"] is False
+        assert fb_low["sqlite_persisted"] is True
 
-    # 4. Verify UI HTML includes the new Counselor Rating & Continuous Learning Flywheel Sign-Off Card
-    ui_html = client.get("/").text
-    assert "studiokit-feedback-card" in ui_html
-    assert "btn-submit-counselor-feedback" in ui_html
-    assert "Counselor Sign-Off &amp; Continuous Learning Flywheel" in ui_html
+        # 4. Verify UI HTML includes the new Counselor Rating & Continuous Learning Flywheel Sign-Off Card
+        ui_html = client.get("/").text
+        assert "studiokit-feedback-card" in ui_html
+        assert "btn-submit-counselor-feedback" in ui_html
+        assert "Counselor Sign-Off &amp; Continuous Learning Flywheel" in ui_html
+
+        # 5. Verify /api/v1/cache/clear endpoint
+        cache_clear_resp = client.get("/api/v1/cache/clear?badge_name=First%20Aid")
+        assert cache_clear_resp.status_code == 200
+        assert cache_clear_resp.json()["status"] == "SUCCESS"
+        assert "first_aid_cover.png" in cache_clear_resp.json()["refilled_covers"]
+    finally:
+        if orig_golden_bytes is not None:
+            golden_ext_path.write_bytes(orig_golden_bytes)
 
 
 
