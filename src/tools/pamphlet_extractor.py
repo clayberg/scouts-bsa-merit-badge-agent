@@ -1095,7 +1095,7 @@ def clear_corrupted_pamphlet_cover_caches(refill_badges: Optional[List[str]] = N
     for bname in refill_badges or ["First Aid", "Camping", "Weather", "Robotics"]:
         res = get_badge_cover_and_patch_paths(bname)
         if res.get("cover_path"):
-            refilled.append(os.path.basename(res["cover_path"]))
+            refilled.append(Path(res["cover_path"]).name)
 
     return {
         "status": "SUCCESS",
