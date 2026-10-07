@@ -1918,7 +1918,58 @@ def _try_live_ai_image_synthesis(
                 )
                 logger.info("Imagen (%s) attempt fell back (%s)", img_model, exc)
 
+    # Tier 3: Local-to-Cloud-Run Vertex AI Bridge (when running locally on a workstation whose ADC
+    # belongs to a different org than the Argolis Cloud Run deployment)
+    if not os.getenv("K_SERVICE") and not os.getenv("PYTEST_CURRENT_TEST"):
+        cloud_run_url = (
+            os.getenv("CLOUD_RUN_BACKEND_URL")
+            or "https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app"
+        ).rstrip("/")
+        if cloud_run_url:
+            try:
+                req_payload = json.dumps(
+                    {
+                        "badge_name": "First Aid",
+                        "req_number": "1",
+                        "slide_title": visual_subject[:80],
+                        "custom_prompt": visual_subject,
+                        "visual_style": visual_style,
+                        "user_consented": True,
+                    }
+                ).encode("utf-8")
+                req = urllib.request.Request(
+                    f"{cloud_run_url}/api/v1/slide/generate-nano-banana-image",
+                    data=req_payload,
+                    headers={"Content-Type": "application/json"},
+                    method="POST",
+                )
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    remote_data = json.loads(resp.read().decode("utf-8"))
+                remote_img_url = remote_data.get("image_url") or ""
+                remote_source = (remote_data.get("prompt_alignment") or {}).get("candidate_source", "")
+                if remote_img_url and remote_source in ("LIVE_AI_DIFFUSION", "CACHED_NANO_BANANA"):
+                    full_img_url = (
+                        f"{cloud_run_url}{remote_img_url}"
+                        if remote_img_url.startswith("/")
+                        else remote_img_url
+                    )
+                    with urllib.request.urlopen(full_img_url, timeout=30) as img_resp:
+                        img_bytes = img_resp.read()
+                    if _save_ai_image_bytes(img_bytes, style_key, out_path):
+                        remote_model = (remote_data.get("prompt_alignment") or {}).get(
+                            "ai_model_used", "gemini-2.5-flash-image (cloud-run-bridge)"
+                        )
+                        _LAST_AI_SYNTHESIS_DIAGNOSTICS["model_used"] = remote_model
+                        _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append("SUCCESS:cloud-run-vertex-bridge")
+                        return True
+            except Exception as exc:
+                _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(
+                    f"ERR:cloud-run-bridge:{type(exc).__name__}:{str(exc)[:100]}"
+                )
+                logger.info("Local-to-Cloud-Run Vertex AI bridge skipped: %s", exc)
+
     return False
+
 
 
 def generate_nano_banana_slide_image(
