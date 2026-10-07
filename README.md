@@ -288,13 +288,13 @@ scouts-bsa-merit-badge-agent/
 ├── deliverables/               # Generated .pptx slide decks, .md workbooks, and evaluation reports
 ├── docs/
 │   ├── API_INTEGRATION_GUIDE.md          # REST (/api/v1/*), SSE, and A2A 1.0 integration guide
-│   ├── CAPSTONE_PANEL_PLAYBOOK.md        # 10-slide presentation guide, talk tracks, and Q&A defense matrix
+│   ├── CAPSTONE_PANEL_PLAYBOOK.md        # 11-slide presentation guide, talk tracks, and Q&A defense matrix
 │   ├── FDE_CAPSTONE_COMPANION_GUIDE.md   # Slide-by-slide explainer, jargon decoder, and architecture primer
 │   ├── TDD.md                            # Technical Design Document (architecture, data contracts, & ADRs)
 │   ├── finops-billing-and-deployment-guide.md # FinOps token billing, local vs. Cloud Run costs, and error handling
 │   ├── openapi.yaml                      # Exported OpenAPI 3.1 contract for FastAPI and A2A routes
 │   ├── runbook.md                        # Operational runbook, triage playbooks, and rollback commands
-│   └── adr/README.md                     # Summary index of the 7 Architecture Decision Records
+│   └── adr/README.md                     # Summary index of the 8 Architecture Decision Records
 ├── prompts/
 │   ├── manifest.json           # Versioned prompt manifest with SHA-256 hashes
 │   ├── coordinator.md          # System instructions for MeritBadgeCoordinatorAgent
@@ -306,6 +306,7 @@ scouts-bsa-merit-badge-agent/
 ├── scripts/
 │   ├── eval_gate.py               # Multi-metric pre-deployment evaluation gate (12 golden badges)
 │   ├── export_openapi.py          # Exports live FastAPI OpenAPI 3.1 schema to docs/openapi.yaml
+│   ├── verify_live_demo_readiness.py # Pre-flight live demo verification across 7 subsystems
 │   └── fetch_scoutshop_emblems.py # Fetches and caches standalone Merit Badge patch emblems
 ├── src/
 │   ├── agents/
@@ -319,7 +320,7 @@ scouts-bsa-merit-badge-agent/
 │   │   ├── reviewer.py         # BSABrandAndSafetyReviewAgent (LoopAgent) and Conformance Simulator
 │   │   └── guardrails.py       # ScoutsBSAModelArmorPlugin, FinOpsBudgetPlugin, and PII callbacks
 │   ├── memory/
-│   │   └── session_store.py    # PersistentSessionStore (SQLite WAL + hybrid BM25/vector + counselor cache)
+│   │   └── session_store.py    # PersistentSessionStore (SQLite WAL + pgvector adapter + hybrid BM25/vector RRF)
 │   ├── observability/
 │   │   ├── logging_setup.py    # Structured JSON logging, intent/outcome logs, and DLP PII scrubber
 │   │   └── tracing.py          # OpenTelemetry TracerProvider, ring buffer, and Cloud Trace exporter
@@ -341,19 +342,20 @@ scouts-bsa-merit-badge-agent/
 │   ├── styles.css              # Material 3 Expressive CSS, Markdown typography, and FinOps table styles
 │   └── app.js                  # Interactive slide stage, filmstrip, co-design bar, and Image Studio
 ├── terraform/
-│   ├── main.tf                 # Least-privilege SA, VPC, Cloud Armor WAF, Cloud Run v2, Secret Manager
+│   ├── main.tf                 # Least-privilege SA, VPC, VPC-SC, KMS CMEK, Multi-Region Cloud Run v2, SLO Alerts
 │   ├── outputs.tf              # Terraform output values
 │   └── variables.tf            # GCP project, region, scaling, and subnet CIDR variables
 ├── tests/
 │   ├── data/golden_badges.json                  # 12-badge golden evaluation dataset
 │   ├── load/load_test.py                        # Concurrent API and deck generation latency benchmark
+│   ├── benchmark_chunking_ablation.py           # Chunking strategy & Hybrid RRF vs. Dense Vector ablation
 │   ├── eval_golden_suite.py                     # Golden evaluation harness and IR metric calculator
-│   ├── test_conformance_and_a2ui.py             # AABB geometry, A2UI v0.9, Image Studio, and PPTX parity tests
+│   ├── test_conformance_and_a2ui.py             # AABB geometry, A2UI v0.9, Image Studio, and OpenAPI drift tests
 │   ├── test_memory.py                           # SQLite session store, compaction, and hybrid retrieval tests
 │   ├── test_pii_scrubber.py                     # Pre-LLM PII redaction and Model Armor guardrail tests
 │   ├── test_resilience_and_fault_injection.py   # Circuit breaker, 429 retry, auth, and OpenAPI schema tests
 │   └── test_tools.py                            # Tool validation and GuidedToolError recovery tests
-├── ARCHITECTURE_DECISIONS.md   # 7 Architecture Decision Records with options and trade-offs
+├── ARCHITECTURE_DECISIONS.md   # 8 Architecture Decision Records + quantitative benchmarks & post-mortems
 ├── SCOPE.md                    # Project scope and target user personas
 ├── SPEC.md                     # Technical specification of agent topology and endpoints
 ├── Dockerfile                  # Multi-stage non-root container image with /health HEALTHCHECK
@@ -370,8 +372,8 @@ scouts-bsa-merit-badge-agent/
 
 ### Engineering documentation
 - **[`docs/TDD.md`](docs/TDD.md)**: Full Technical Design Document covering the 7-agent pipeline, Pydantic v2 data contracts, security boundary, and observability architecture.
-- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Seven Architecture Decision Records covering the options evaluated and trade-offs accepted.
-- **[`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](docs/FDE_CAPSTONE_COMPANION_GUIDE.md)** and **[`docs/CAPSTONE_PANEL_PLAYBOOK.md`](docs/CAPSTONE_PANEL_PLAYBOOK.md)**: Slide-by-slide executive readout companion guide (8 Core Slides + 2 Appendix/Backup Slides), jargon decoder, presenter talk tracks, and panel Q&A defense matrix.
+- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Eight Architecture Decision Records covering the options evaluated, quantitative benchmark matrices, and engineering post-mortems.
+- **[`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](docs/FDE_CAPSTONE_COMPANION_GUIDE.md)** and **[`docs/CAPSTONE_PANEL_PLAYBOOK.md`](docs/CAPSTONE_PANEL_PLAYBOOK.md)**: Slide-by-slide executive readout companion guide (**11 Core Slides, 0 Appendix**), jargon decoder, presenter talk tracks, and panel Q&A defense matrix.
 - **[`docs/finops-billing-and-deployment-guide.md`](docs/finops-billing-and-deployment-guide.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, and budget/quota error handling.
 - **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification and request examples for `/api/v1/*`, `/a2a/*`, `/health`, and `/readiness`.
 - **[`docs/runbook.md`](docs/runbook.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), SQLite online backup, and Cloud Run revision rollback.
@@ -441,7 +443,7 @@ adk deploy cloud_run \
 ## 8. Testing and evaluation gate
 
 ```bash
-# 1. Run all 47 unit, security, fault-injection, Image Studio, conformance, and golden evaluation tests
+# 1. Run all 48 unit, security, fault-injection, Image Studio, OpenAPI drift, and conformance tests
 .venv/bin/pytest tests/ -v
 
 # 2. Run the pre-deployment evaluation gate across the 12 golden badges
