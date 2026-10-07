@@ -176,19 +176,25 @@ def test_health_readiness_metrics_feedback_and_openapi_contract() -> None:
     assert r_data["checks"]["session_store"] == "READY"
     assert r_data["checks"]["merit_badge_catalog"] == "READY"
 
-    fb_post = client.post(
-        "/api/v1/feedback",
-        json={
-            "badge_name": "Weather",
-            "session_id": "test_feedback_session",
-            "rating": 5,
-            "thumbs_up": True,
-            "requirement_accuracy_verified": True,
-            "comments": "Clear warm vs cold front diagrams for our Troop 19 meeting.",
-        },
-    )
-    assert fb_post.status_code == 200
-    assert fb_post.json()["status"] == "RECORDED"
+    golden_ext_path = Path(__file__).resolve().parent / "data" / "golden_extensions.json"
+    orig_golden_bytes = golden_ext_path.read_bytes() if golden_ext_path.exists() else None
+    try:
+        fb_post = client.post(
+            "/api/v1/feedback",
+            json={
+                "badge_name": "Weather",
+                "session_id": "test_feedback_session",
+                "rating": 5,
+                "thumbs_up": True,
+                "requirement_accuracy_verified": True,
+                "comments": "Clear warm vs cold front diagrams for our Troop 19 meeting.",
+            },
+        )
+        assert fb_post.status_code == 200
+        assert fb_post.json()["status"] == "RECORDED"
+    finally:
+        if orig_golden_bytes is not None:
+            golden_ext_path.write_bytes(orig_golden_bytes)
 
     m_resp = client.get("/api/v1/metrics")
     assert m_resp.status_code == 200

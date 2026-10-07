@@ -787,116 +787,119 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
     assert "heimlich" in expanded_subj.lower() or "choking" in expanded_subj.lower()
     assert "core concepts" not in expanded_subj.lower()
 
-    cost_resp = client.post(
-        "/api/slide/estimate-image-cost",
-        json={"badge_name": "First Aid", "num_images": 1, "visual_style": "Line Drawing"},
-    ).json()
-    assert cost_resp["requires_user_consent"] is True
-    assert cost_resp["estimated_cost_usd"] == 0.08
-
-    blocked_gen = client.post(
-        "/api/slide/generate-nano-banana-image",
-        json={
-            "badge_name": "First Aid",
-            "req_number": str(orig_slide["req_number"]),
-            "slide_title": orig_slide["title"],
-            "custom_prompt": "boy scout in a canoe on a calm mountain lake",
-            "bullet_points": orig_slide["bullet_points"],
-            "visual_style": "Line Drawing",
-            "beautification_tier": "BEAUTIFIED",
-            "user_consented": False,
-        },
-    ).json()
-    assert blocked_gen["status"] == "CONSENT_REQUIRED"
-
-    consented_gen = client.post(
-        "/api/slide/generate-nano-banana-image",
-        json={
-            "badge_name": "First Aid",
-            "req_number": str(orig_slide["req_number"]),
-            "slide_title": orig_slide["title"],
-            "custom_prompt": "boy scout in a canoe on a calm mountain lake",
-            "bullet_points": orig_slide["bullet_points"],
-            "visual_style": "Line Drawing",
-            "beautification_tier": "BEAUTIFIED",
-            "user_consented": True,
-        },
-    ).json()
-    assert consented_gen["status"] == "SUCCESS"
-    assert consented_gen["image_entry"]["source_type"] == "NANO_BANANA_AI"
-    assert Path(consented_gen["image_entry"]["image_path"]).exists()
-    assert consented_gen["prompt_alignment"]["matches_prompt"] is True
-    assert consented_gen["prompt_alignment"]["alignment_score"] >= 0.70
-
-    direct_check = verify_generated_image_matches_prompt(
-        image_path=consented_gen["image_entry"]["image_path"],
-        visual_subject="boy scout in a canoe on a calm mountain lake",
-        visual_style="Line Drawing",
-        badge_name="First Aid",
-    )
-    assert direct_check["alignment_score"] > 0.0
-
-    # Verify Clear Web/AI Cache button and Tab 4 File Upload are present in both Web UI and Streamlit UI
-    ui_html = client.get("/").text
-    app_py_text = (Path(__file__).resolve().parents[1] / "src" / "app.py").read_text(encoding="utf-8")
-    assert "btn-studio-clear-cache" in ui_html
-    assert "Clear Web/AI Cache" in ui_html
-    assert "Clear Web/AI Cache" in app_py_text
-    assert "import re" in app_py_text
-    assert "studio-tab-upload" in ui_html
-    assert "📁 4. File Upload" in ui_html
-    assert "📁 4. File Upload" in app_py_text
-    assert "upload_custom_slide_image" in app_py_text
-
-    # 5. Verify WebImageSearchAgent endpoint returns real Wikipedia/Wikimedia images (no Curated Archive fallback)
-    web_resp = client.post(
-        "/api/slide/search-web-images",
-        json={
-            "badge_name": "First Aid",
-            "req_number": str(orig_slide["req_number"]),
-            "slide_title": orig_slide["title"],
-            "bullet_points": orig_slide["bullet_points"],
-            "search_query": "boy scout in a canoe",
-            "max_results": 12,
-        },
-    ).json()
-    assert len(web_resp["results"]) >= 1
-    assert all("Curated Archive" not in r.get("title", "") for r in web_resp["results"])
-    cat_resp = client.get("/api/badge/images?badge_name=First%20Aid").json()
-    assert len(cat_resp["images"]) >= 2
-
-    # 6. Verify 4th Option: Local File Upload (POST /api/slide/upload-image, $0.00 USD, USER_UPLOAD)
-    import base64
-    import io
-    from PIL import Image
-
-    buf = io.BytesIO()
-    Image.new("RGB", (320, 200), (27, 54, 93)).save(buf, format="PNG")
-    sample_b64 = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
-
-    upload_resp = client.post(
-        "/api/slide/upload-image",
-        json={
-            "badge_name": "First Aid",
-            "image_base64": sample_b64,
-            "filename": "troop19_splint_practice.png",
-            "title": "Troop 19 Splint Practice Photo",
-            "description": "Local Troop 19 photo showing forearm splint practice.",
-            "req_number": str(orig_slide["req_number"]),
-            "slide_title": orig_slide["title"],
-        },
-    ).json()
-    assert upload_resp["status"] == "SUCCESS"
-    assert upload_resp["cost_usd"] == 0.0
-    assert upload_resp["image_entry"]["source_type"] == "USER_UPLOAD"
-    assert upload_resp["image_entry"]["title"] == "Troop 19 Splint Practice Photo"
-    uploaded_file = Path(upload_resp["image_path"])
-    assert uploaded_file.exists()
-
-    # 7. Purge test-generated web/AI images for a test badge and preserve tracked First Aid catalog files
     first_aid_dir = Path(__file__).resolve().parent.parent / "assets" / "badge_image_catalog" / "first_aid"
+    web_cache_dir = Path(__file__).resolve().parent.parent / "assets" / "badge_image_catalog" / "_web_search_cache"
     saved_first_aid = {p.name: p.read_bytes() for p in first_aid_dir.glob("*") if p.is_file()}
+    saved_web_cache = {p.name for p in web_cache_dir.glob("*") if p.is_file()} if web_cache_dir.exists() else set()
+
     try:
+        cost_resp = client.post(
+            "/api/slide/estimate-image-cost",
+            json={"badge_name": "First Aid", "num_images": 1, "visual_style": "Line Drawing"},
+        ).json()
+        assert cost_resp["requires_user_consent"] is True
+        assert cost_resp["estimated_cost_usd"] == 0.08
+
+        blocked_gen = client.post(
+            "/api/slide/generate-nano-banana-image",
+            json={
+                "badge_name": "First Aid",
+                "req_number": str(orig_slide["req_number"]),
+                "slide_title": orig_slide["title"],
+                "custom_prompt": "boy scout in a canoe on a calm mountain lake",
+                "bullet_points": orig_slide["bullet_points"],
+                "visual_style": "Line Drawing",
+                "beautification_tier": "BEAUTIFIED",
+                "user_consented": False,
+            },
+        ).json()
+        assert blocked_gen["status"] == "CONSENT_REQUIRED"
+
+        consented_gen = client.post(
+            "/api/slide/generate-nano-banana-image",
+            json={
+                "badge_name": "First Aid",
+                "req_number": str(orig_slide["req_number"]),
+                "slide_title": orig_slide["title"],
+                "custom_prompt": "boy scout in a canoe on a calm mountain lake",
+                "bullet_points": orig_slide["bullet_points"],
+                "visual_style": "Line Drawing",
+                "beautification_tier": "BEAUTIFIED",
+                "user_consented": True,
+            },
+        ).json()
+        assert consented_gen["status"] == "SUCCESS"
+        assert consented_gen["image_entry"]["source_type"] == "NANO_BANANA_AI"
+        assert Path(consented_gen["image_entry"]["image_path"]).exists()
+        assert consented_gen["prompt_alignment"]["matches_prompt"] is True
+        assert consented_gen["prompt_alignment"]["alignment_score"] >= 0.70
+
+        direct_check = verify_generated_image_matches_prompt(
+            image_path=consented_gen["image_entry"]["image_path"],
+            visual_subject="boy scout in a canoe on a calm mountain lake",
+            visual_style="Line Drawing",
+            badge_name="First Aid",
+        )
+        assert direct_check["alignment_score"] > 0.0
+
+        # Verify Clear Web/AI Cache button and Tab 4 File Upload are present in both Web UI and Streamlit UI
+        ui_html = client.get("/").text
+        app_py_text = (Path(__file__).resolve().parents[1] / "src" / "app.py").read_text(encoding="utf-8")
+        assert "btn-studio-clear-cache" in ui_html
+        assert "Clear Web/AI Cache" in ui_html
+        assert "Clear Web/AI Cache" in app_py_text
+        assert "import re" in app_py_text
+        assert "studio-tab-upload" in ui_html
+        assert "📁 4. File Upload" in ui_html
+        assert "📁 4. File Upload" in app_py_text
+        assert "upload_custom_slide_image" in app_py_text
+
+        # 5. Verify WebImageSearchAgent endpoint returns real Wikipedia/Wikimedia images (no Curated Archive fallback)
+        web_resp = client.post(
+            "/api/slide/search-web-images",
+            json={
+                "badge_name": "First Aid",
+                "req_number": str(orig_slide["req_number"]),
+                "slide_title": orig_slide["title"],
+                "bullet_points": orig_slide["bullet_points"],
+                "search_query": "boy scout in a canoe",
+                "max_results": 12,
+            },
+        ).json()
+        assert len(web_resp["results"]) >= 1
+        assert all("Curated Archive" not in r.get("title", "") for r in web_resp["results"])
+        cat_resp = client.get("/api/badge/images?badge_name=First%20Aid").json()
+        assert len(cat_resp["images"]) >= 2
+
+        # 6. Verify 4th Option: Local File Upload (POST /api/slide/upload-image, $0.00 USD, USER_UPLOAD)
+        import base64
+        import io
+        from PIL import Image
+
+        buf = io.BytesIO()
+        Image.new("RGB", (320, 200), (27, 54, 93)).save(buf, format="PNG")
+        sample_b64 = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
+
+        upload_resp = client.post(
+            "/api/slide/upload-image",
+            json={
+                "badge_name": "First Aid",
+                "image_base64": sample_b64,
+                "filename": "troop19_splint_practice.png",
+                "title": "Troop 19 Splint Practice Photo",
+                "description": "Local Troop 19 photo showing forearm splint practice.",
+                "req_number": str(orig_slide["req_number"]),
+                "slide_title": orig_slide["title"],
+            },
+        ).json()
+        assert upload_resp["status"] == "SUCCESS"
+        assert upload_resp["cost_usd"] == 0.0
+        assert upload_resp["image_entry"]["source_type"] == "USER_UPLOAD"
+        assert upload_resp["image_entry"]["title"] == "Troop 19 Splint Practice Photo"
+        uploaded_file = Path(upload_resp["image_path"])
+        assert uploaded_file.exists()
+
+        # 7. Purge test-generated web/AI images for a test badge and preserve tracked First Aid catalog files
         purge_resp = client.delete("/api/badge/images?badge_name=First%20Aid").json()
         assert purge_resp["status"] == "SUCCESS"
         cat_after_purge = client.get("/api/badge/images?badge_name=First%20Aid").json()
@@ -907,10 +910,15 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         # Verify USER_UPLOAD is preserved across Clear Web/AI Cache, then clean up our test upload
         assert any(img.get("source_type") == "USER_UPLOAD" for img in cat_after_purge["images"])
     finally:
-        if uploaded_file.exists():
-            uploaded_file.unlink()
+        for p in first_aid_dir.glob("*"):
+            if p.is_file() and p.name not in saved_first_aid:
+                p.unlink(missing_ok=True)
         for fname, fbytes in saved_first_aid.items():
             (first_aid_dir / fname).write_bytes(fbytes)
+        if web_cache_dir.exists():
+            for p in web_cache_dir.glob("*"):
+                if p.is_file() and p.name not in saved_web_cache:
+                    p.unlink(missing_ok=True)
 
 
 def test_api_v1_feedback_flywheel_and_versioning_headers():

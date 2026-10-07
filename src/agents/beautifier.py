@@ -34,7 +34,6 @@ from src.config import (
     ASSETS_DIR,
     SCOUTS_BSA_CONSTITUTION,
     ScoutsBSAPalette,
-    get_secret,
     load_prompt,
     select_model_for_task,
 )

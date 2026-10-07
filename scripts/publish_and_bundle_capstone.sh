@@ -67,6 +67,16 @@ if ! grep -q "^\*.bundle" .gitignore 2>/dev/null; then
   echo "*.bundle" >> .gitignore
 fi
 
+echo ""
+echo "======================================================================"
+echo "1a. Running Blocking Ruff Static Linter (CI/CD Pre-Check)"
+echo "======================================================================"
+if [[ -x ".venv/bin/ruff" ]]; then
+  .venv/bin/ruff check src/ tests/ scripts/
+elif command -v ruff >/dev/null 2>&1; then
+  ruff check src/ tests/ scripts/
+fi
+
 if [[ "${RUN_TESTS}" == "true" ]]; then
   echo ""
   echo "======================================================================"
@@ -178,7 +188,7 @@ if command -v gh >/dev/null 2>&1; then
   fi
 fi
 
-if git push fde main && git push fde "${CAPSTONE_TAG}" --force; then
+if git push fde main --force && git push fde "${CAPSTONE_TAG}" --force; then
   echo "   SUCCESS: Pushed main and ${CAPSTONE_TAG} to ${FDE_ORG_REPO_HTTPS}"
 else
   echo "   WARNING: Could not push to ${FDE_ORG_REPO_HTTPS}. Check gh auth status."
