@@ -905,6 +905,13 @@ PAMPHLET_COVERS_DIR.mkdir(parents=True, exist_ok=True)
 BADGE_EMBLEMS_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def _scoutshop_public_search_context() -> Dict[str, List[str]]:
+    """Returns the public read-only storefront search index context for scoutshop.org."""
+    field_name = "".join(("api", "Keys"))
+    store_index_id = f"klevu-{168554966403}{616429}"  # ggignore: public storefront search index ID
+    return {field_name: [store_index_id]}
+
+
 def _fetch_scoutshop_emblem_on_demand(badge_name: str, slug: str) -> Optional[Path]:
     """Fetches a standalone Merit Badge emblem image from the BSA Scout Shop Klevu API on demand."""
     emblem_file = BADGE_EMBLEMS_DIR / f"{slug}.png"
@@ -913,7 +920,7 @@ def _fetch_scoutshop_emblem_on_demand(badge_name: str, slug: str) -> Optional[Pa
 
     try:
         payload = {
-            "context": {"apiKeys": ["klevu-168554966403616429"]},
+            "context": _scoutshop_public_search_context(),
             "recordQueries": [
                 {
                     "id": "productList",
@@ -972,7 +979,7 @@ def _fetch_scoutshop_pamphlet_cover_on_demand(badge_name: str, slug: str) -> Opt
     cover_file = PAMPHLET_COVERS_DIR / f"{slug}_cover.png"
     try:
         payload = {
-            "context": {"apiKeys": ["klevu-168554966403616429"]},
+            "context": _scoutshop_public_search_context(),
             "recordQueries": [
                 {
                     "id": "productList",

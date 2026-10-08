@@ -1989,7 +1989,7 @@ function cleanSlideTopicBoilerplate(rawTitle) {
   return s.replace(/\s+/g, " ").replace(/^[,:;\-–—\s]+|[,:;\-–—\s]+$/g, "");
 }
 
-function resolveClientSideContentAwareConfig(badgeName, slide, customPrompt = "", styleVal = "Auto (Option E Content-Aware Mix)", humansMode = "auto") {
+function resolveClientSideContentAwareConfig(badgeName, slide, customPrompt = "", styleVal = "Auto (Content-Aware Mix)", humansMode = "auto") {
   const cleanTitle = cleanSlideTopicBoilerplate(slide?.title || "");
   const bullets = Array.isArray(slide?.bullet_points) ? slide.bullet_points : [];
   const bulletText = bullets.slice(0, 4).map((b) => cleanSlideTopicBoilerplate(String(b))).join(" ");
@@ -2056,7 +2056,7 @@ function resolveClientSideContentAwareConfig(badgeName, slide, customPrompt = ""
     categoryLabel = "BSA Handbook Procedural Plate";
   }
 
-  const isAutoStyle = !styleVal || styleVal.toLowerCase().startsWith("auto") || styleVal.toLowerCase().includes("option e");
+  const isAutoStyle = !styleVal || styleVal.toLowerCase().startsWith("auto") || styleVal.toLowerCase().includes("content-aware");
   const effectiveStyle = isAutoStyle ? recommendedStyle : styleVal;
 
   if (!isAutoStyle && ["technical diagram", "3d isometric illustration"].includes(effectiveStyle.toLowerCase()) && hasGearOrEnv) {
@@ -2111,7 +2111,7 @@ function buildDefaultVisualPromptForSlide(badgeName, slide) {
       return cleaned.includes(":") ? cleaned.split(":")[0].trim() : cleaned.slice(0, 48).trim();
     })
     .filter(Boolean);
-  const cfg = resolveClientSideContentAwareConfig(badgeName, slide, "", "Auto (Option E Content-Aware Mix)", "auto");
+  const cfg = resolveClientSideContentAwareConfig(badgeName, slide, "", "Auto (Content-Aware Mix)", "auto");
   if (!cfg.includeHumans) {
     return `Detailed equipment flat-lay or scientific visual display of ${cleanTitle || badgeName}${bpSummaries.length ? ` (${bpSummaries.join(", ")})` : ""}, showing only physical gear, instruments, or natural phenomena with no humans`;
   }
@@ -2215,8 +2215,11 @@ function bindImageStudioModal() {
       .map((entry, idx) => {
         const isCurrent = Boolean(activeClean && stripUrlQuery(entry.image_url) === activeClean);
         const st = String(entry.source_type || entry.source_kind || "").toUpperCase();
+        const urlStr = String(entry.image_url || entry.image_path || "");
         const kindBadge =
-          st.includes("NANO_BANANA")
+          st === "NANO_BANANA_HERO" || urlStr.includes("_nano_hero.png")
+            ? "🍌 Nano Banana Hero"
+            : st.includes("NANO_BANANA")
             ? "🍌 Nano Banana AI"
             : st.includes("UPLOAD")
             ? "📁 Uploaded Local"
@@ -2262,6 +2265,18 @@ function bindImageStudioModal() {
     const origText = clearCacheBtn.textContent;
     clearCacheBtn.disabled = true;
     clearCacheBtn.textContent = "⏳ Clearing Cache...";
+    const isHeroOrOfficialItem = (it) => {
+      const st = String(it?.source_type || "").toUpperCase();
+      const p = String(it?.image_url || it?.image_path || "");
+      const id = String(it?.image_id || "");
+      if (st === "NANO_BANANA_HERO" || p.includes("_nano_hero.png") || p.includes("ai_illustrations")) {
+        return true;
+      }
+      if (st === "WEB_IMAGE_SEARCH" || st === "NANO_BANANA_AI" || id.startsWith("nanobanana_") || id.startsWith("wikimedia_")) {
+        return false;
+      }
+      return true;
+    };
     try {
       const delResp = await fetch(`/api/badge/images?badge_name=${encodeURIComponent(badgeName)}`, {
         method: "DELETE",
@@ -2271,7 +2286,7 @@ function bindImageStudioModal() {
         const delData = await delResp.json();
         removedCount = delData.removed_files || 0;
       }
-      // Refresh catalog from server so Official BSA, EDGE, and Uploaded files remain
+      // Refresh catalog from server so Hero, Official BSA, EDGE, and Uploaded files remain
       const catResp = await fetch(`/api/badge/images?badge_name=${encodeURIComponent(badgeName)}`);
       if (catResp.ok) {
         const catData = await catResp.json();
@@ -2281,18 +2296,12 @@ function bindImageStudioModal() {
         const existing = Array.isArray(state.currentResult.badge_image_catalog)
           ? state.currentResult.badge_image_catalog
           : [];
-        state.currentResult.badge_image_catalog = existing.filter((it) => {
-          const st = String(it?.source_type || "").toUpperCase();
-          return st !== "WEB_IMAGE_SEARCH" && st !== "NANO_BANANA_AI";
-        });
+        state.currentResult.badge_image_catalog = existing.filter(isHeroOrOfficialItem);
       }
       const slides = state.currentResult.storyboard?.slides || [];
       slides.forEach((s) => {
         if (Array.isArray(s.available_images)) {
-          s.available_images = s.available_images.filter((it) => {
-            const st = String(it?.source_type || "").toUpperCase();
-            return st !== "WEB_IMAGE_SEARCH" && st !== "NANO_BANANA_AI";
-          });
+          s.available_images = s.available_images.filter(isHeroOrOfficialItem);
         }
       });
       const activeSlide = slides[state.activeSlideIdx] || {};
@@ -2302,7 +2311,7 @@ function bindImageStudioModal() {
       if (webResultsGrid) webResultsGrid.innerHTML = "";
       if (statusBanner) {
         statusBanner.style.display = "block";
-        statusBanner.textContent = `✅ Cleared ${removedCount} cached Web Search & Nano Banana AI image(s) for ${badgeName}. Official pamphlet figures & uploaded files preserved.`;
+        statusBanner.textContent = `✅ Cleared ${removedCount} user-added Web Search & Nano Banana AI image(s) for ${badgeName}. Pre-generated/auto hero graphics, official pamphlet figures & uploaded files preserved.`;
       }
     } catch (err) {
       if (statusBanner) {
@@ -2366,7 +2375,7 @@ function bindImageStudioModal() {
     if (!state.currentResult || state.activeSlideIdx < 0) return;
     const slides = state.currentResult.storyboard?.slides || [];
     const slide = slides[state.activeSlideIdx] || {};
-    const styleVal = styleSelectEl?.value || "Auto (Option E Content-Aware Mix)";
+    const styleVal = styleSelectEl?.value || "Auto (Content-Aware Mix)";
     const humansMode = humansSelectEl?.value || "auto";
     const promptVal = document.getElementById("studio-ai-prompt-input")?.value || "";
     const cfg = resolveClientSideContentAwareConfig(
@@ -2384,7 +2393,7 @@ function bindImageStudioModal() {
       const directiveText = cfg.includeHumans
         ? "Adult Scouts BSA Field Uniforms"
         : "Zero Humans (Pure Equipment / Environment)";
-      const modeTag = cfg.humansSource === "Explicit Override" ? "Manual Override" : "Option E Auto-Detected";
+      const modeTag = cfg.humansSource === "Explicit Override" ? "Manual Override" : "Auto-Detected";
       resolvedBadgeEl.innerHTML = `🧠 <strong>${escapeHtml(modeTag)}:</strong> ${directiveIcon} <strong>${escapeHtml(directiveText)}</strong> • Effective Style: <strong>${escapeHtml(cfg.effectiveStyle)}</strong>`;
     }
   };
@@ -2503,7 +2512,7 @@ function bindImageStudioModal() {
     if (!consentCheck?.checked) return;
     const slides = state.currentResult.storyboard?.slides || [];
     const slide = slides[state.activeSlideIdx] || {};
-    const styleVal = document.getElementById("studio-ai-style-select")?.value || "Auto (Option E Content-Aware Mix)";
+    const styleVal = document.getElementById("studio-ai-style-select")?.value || "Auto (Content-Aware Mix)";
     const humansMode = document.getElementById("studio-ai-humans-select")?.value || "auto";
     const customPrompt = document.getElementById("studio-ai-prompt-input")?.value || "";
     const resolvedCfg = resolveClientSideContentAwareConfig(

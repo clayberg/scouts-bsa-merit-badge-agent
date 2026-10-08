@@ -67,7 +67,7 @@ from src.observability.logging_setup import logger
 # ==============================================================================
 
 NANO_BANANA_VISUAL_STYLES: List[str] = [
-    "Auto (Option E Content-Aware Mix)",
+    "Auto (Content-Aware Mix)",
     "Photorealistic Image",
     "4-Quadrant Concept Map",
     "Line Drawing",
@@ -153,7 +153,7 @@ class BadgeImageEntry(BaseModel):
     description: str = Field(..., description="Brief 1-2 sentence text description of what the image depicts.")
     source_type: str = Field(
         "OFFICIAL_PAMPHLET_FIGURE",
-        description="Origin category: OFFICIAL_PAMPHLET_FIGURE, WEB_IMAGE_SEARCH, NANO_BANANA_AI, EDGE_CONCEPT_MAP, or OFFICIAL_BADGE_ASSET.",
+        description="Origin category: OFFICIAL_PAMPHLET_FIGURE, NANO_BANANA_HERO, WEB_IMAGE_SEARCH, NANO_BANANA_AI, EDGE_CONCEPT_MAP, or OFFICIAL_BADGE_ASSET.",
     )
     source_label: str = Field(
         "Official Pamphlet / Technical Figure",
@@ -252,14 +252,19 @@ def _canonical_stem_key(raw_path: str) -> str:
 
 
 def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str, Any]:
-    """Removes all previously generated and cached images from Web Search or Nano Banana.
+    """Removes user-searched Web images and user-generated Nano Banana AI images while preserving hero graphics.
 
-    Cleans:
-    1. Generated/downloaded image files (`nanobanana_*.png`, `wikimedia_*.png`, `webref_*.png`, `wiki_*.png`)
-       and the `_web_search_cache` staging directory.
-    2. `catalog.json` entries with `source_type in ('WEB_IMAGE_SEARCH', 'NANO_BANANA_AI')` or legacy
-       `curated_*` / `webref_*` / `nanobanana_*` IDs, plus any duplicate `_s\\d+_u.png` entries.
-    3. SQLite `badge_image_catalog` rows from `WEB_IMAGE_SEARCH` or `NANO_BANANA_AI`.
+    Preserves:
+    - Pre-generated and automatically generated hero illustrations (`*_nano_hero.png` in `assets/ai_illustrations/`
+      or `source_type == 'NANO_BANANA_HERO'`).
+    - Official BSA pamphlet figures (`OFFICIAL_PAMPHLET_FIGURE`), emblem assets (`OFFICIAL_BADGE_ASSET`),
+      EDGE concept maps (`EDGE_CONCEPT_MAP`), and user-uploaded files (`USER_UPLOAD`).
+
+    Cleans ONLY:
+    1. User-searched Web images (`wikimedia_*.png`, `webref_*.png`, `wiki_*.png`, `_web_search_cache`)
+       and user-created Nano Banana AI images (`nanobanana_*.png` inside `assets/badge_image_catalog/<badge>/`).
+    2. Corresponding `catalog.json` and SQLite `badge_image_catalog` entries for user-searched web images
+       and user-created AI images.
     """
     removed_files = 0
     cleaned_catalogs = 0
@@ -270,7 +275,7 @@ def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str
     elif BADGE_IMAGE_CATALOG_DIR.exists():
         target_dirs = [d for d in BADGE_IMAGE_CATALOG_DIR.iterdir() if d.is_dir()]
 
-    # Always clean staging cache
+    # Always clean web search staging cache
     staging = BADGE_IMAGE_CATALOG_DIR / "_web_search_cache"
     if staging.exists() and not badge_name:
         for f in staging.glob("*"):
@@ -305,10 +310,18 @@ def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str
                         st_type = str(item.get("source_type") or "")
                         im_id = str(item.get("image_id") or "")
                         im_path = str(item.get("image_path") or "")
-                        if st_type in ("WEB_IMAGE_SEARCH", "NANO_BANANA_AI"):
-                            continue
-                        if im_id.startswith(("nanobanana_", "web_", "webref_", "curated_", "wiki_")):
-                            continue
+                        is_hero_asset = (
+                            st_type == "NANO_BANANA_HERO"
+                            or im_path.endswith("_nano_hero.png")
+                            or "ai_illustrations" in im_path.replace("\\", "/")
+                        )
+                        if not is_hero_asset:
+                            if st_type in ("WEB_IMAGE_SEARCH", "NANO_BANANA_AI"):
+                                continue
+                            if im_id.startswith(("nanobanana_", "web_", "webref_", "curated_", "wiki_")):
+                                continue
+                        else:
+                            item["source_type"] = "NANO_BANANA_HERO"
                         if not im_path or not os.path.exists(im_path):
                             continue
                         canon_p = _canonical_figure_path(im_path)
@@ -324,7 +337,7 @@ def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str
             except Exception as exc:
                 logger.warning("Failed cleaning catalog %s: %s", c_json, exc)
 
-    # Clean SQLite `badge_image_catalog` table
+    # Clean SQLite `badge_image_catalog` table (preserve NANO_BANANA_HERO and ai_illustrations hero files)
     try:
         import sqlite3
 
@@ -332,6 +345,9 @@ def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str
             if badge_name and str(badge_name).strip():
                 conn.execute(
                     "DELETE FROM badge_image_catalog WHERE lower(badge_name) = lower(?) AND "
+                    "source_type != 'NANO_BANANA_HERO' AND "
+                    "image_path NOT LIKE '%_nano_hero.png' AND "
+                    "image_path NOT LIKE '%ai_illustrations%' AND "
                     "(source_type IN ('WEB_IMAGE_SEARCH', 'NANO_BANANA_AI') "
                     "OR image_id LIKE 'nanobanana_%' OR image_id LIKE 'web_%' "
                     "OR image_id LIKE 'webref_%' OR image_id LIKE 'curated_%')",
@@ -340,9 +356,12 @@ def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str
             else:
                 conn.execute(
                     "DELETE FROM badge_image_catalog WHERE "
-                    "source_type IN ('WEB_IMAGE_SEARCH', 'NANO_BANANA_AI') "
+                    "source_type != 'NANO_BANANA_HERO' AND "
+                    "image_path NOT LIKE '%_nano_hero.png' AND "
+                    "image_path NOT LIKE '%ai_illustrations%' AND "
+                    "(source_type IN ('WEB_IMAGE_SEARCH', 'NANO_BANANA_AI') "
                     "OR image_id LIKE 'nanobanana_%' OR image_id LIKE 'web_%' "
-                    "OR image_id LIKE 'webref_%' OR image_id LIKE 'curated_%'"
+                    "OR image_id LIKE 'webref_%' OR image_id LIKE 'curated_%')"
                 )
             conn.commit()
     except Exception as exc:
@@ -550,7 +569,7 @@ def seed_badge_image_catalog_from_storyboard(
         if ai_hero and os.path.exists(str(ai_hero)):
             abs_hero = os.path.abspath(str(ai_hero))
             sk_hero = _canonical_stem_key(abs_hero)
-            if sk_hero not in by_stem:
+            if sk_hero not in by_stem or abs_hero.endswith("_nano_hero.png"):
                 if abs_hero.endswith("_nano_hero.png"):
                     cfg_hero = resolve_content_aware_visual_config(
                         badge_name=badge_name,
@@ -565,13 +584,13 @@ def seed_badge_image_catalog_from_storyboard(
                         "badge_name": badge_name,
                         "req_number": req_num,
                         "slide_title": s_title,
-                        "title": f"{eff_st}: {s_title}"[:68],
+                        "title": s_title[:68],
                         "description": (
                             f"Context-grounded Nano Banana ({eff_st} • {hum_lbl}) hero graphic for "
                             f"Requirement {req_num} ({s_title})."
                         ),
-                        "source_type": "NANO_BANANA_AI",
-                        "source_label": f"🍌 Nano Banana Hero ({eff_st})",
+                        "source_type": "NANO_BANANA_HERO",
+                        "source_label": "🍌 Nano Banana Hero",
                         "image_path": abs_hero,
                         "image_url": _to_web_asset_url(abs_hero),
                         "custom_prompt": cfg_hero["enriched_subject"],
@@ -655,7 +674,7 @@ def seed_badge_image_catalog_from_storyboard(
                 item_req == req_num
                 or item_base_req == base_req
                 or item.get("slide_title") == slide.get("title")
-                or item.get("source_type") in ("NANO_BANANA_AI", "WEB_IMAGE_SEARCH")
+                or item.get("source_type") in ("NANO_BANANA_HERO", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH")
             ):
                 slide_avail.append(item)
                 seen_ids.add(item["image_id"])
@@ -1385,7 +1404,7 @@ def estimate_nano_banana_image_cost(
     Budgets `$0.08 USD` per image (`~2,580` tokens) to cover high-detail multi-candidate synthesis
     plus post-generation prompt & style alignment verification (`verify_generated_image_matches_prompt`).
     """
-    raw_style = style_preset or visual_style or "Auto (Option E Content-Aware Mix)"
+    raw_style = style_preset or visual_style or "Auto (Content-Aware Mix)"
     resolved_cfg = resolve_content_aware_visual_config(
         badge_name=badge_name or "Merit Badge",
         slide_title=slide_title or "",
@@ -1847,10 +1866,10 @@ def resolve_content_aware_visual_config(
     req_number: str = "1",
     bullet_points: Optional[List[str]] = None,
     custom_prompt: str = "",
-    visual_style: str = "Auto (Option E Content-Aware Mix)",
+    visual_style: str = "Auto (Content-Aware Mix)",
     include_humans: Optional[Any] = "auto",
 ) -> Dict[str, Any]:
-    """Option E Content-Aware Hybrid Mix router for Nano Banana illustrations and hero graphics.
+    """Content-Aware Hybrid Mix router for Nano Banana illustrations and hero graphics.
 
     Determines:
     1. `paradigm_category`:
@@ -2458,9 +2477,10 @@ def generate_nano_banana_slide_image(
 
     alignment_report["attempts_used"] = max(1, attempts_used)
     score_pct = int(float(alignment_report.get("alignment_score", 0.92)) * 100)
-    short_subj = visual_subject[:52] + ("..." if len(visual_subject) > 52 else "")
+    clean_t = clean_slide_topic_boilerplate(slide_title or "")
+    short_subj = visual_subject[:56] + ("..." if len(visual_subject) > 56 else "")
     humans_badge = "Uniformed Scouts" if resolved_humans else "Equipment/Environment Only"
-    title_out = f"{eff_style}: {short_subj}"[:72]
+    title_out = (clean_t or short_subj)[:68]
     desc_out = (
         f"Custom {eff_style} ({humans_badge}) illustrating '{visual_subject[:115]}' "
         f"for {badge_name} Req {req_number} (Prompt Alignment Verified: {score_pct}%)."
@@ -2476,7 +2496,7 @@ def generate_nano_banana_slide_image(
             "title": title_out,
             "description": desc_out,
             "source_type": "NANO_BANANA_AI",
-            "source_label": f"🍌 Nano Banana AI ({eff_style} • {humans_badge})",
+            "source_label": "🍌 Nano Banana AI",
             "image_path": str(out_path),
             "image_url": _to_web_asset_url(str(out_path)),
             "custom_prompt": visual_subject,

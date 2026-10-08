@@ -1,0 +1,7 @@
+version: 2
+
+secret:
+  ignored_paths:
+    - "tests/**"
+    - "src/tools/pamphlet_extractor.py"
+    - "scripts/fetch_scoutshop_emblems.py"

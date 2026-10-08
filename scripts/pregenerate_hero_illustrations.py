@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Batch pre-generator for Scope Tier 2 (23 Prepopulated Merit Badges) Nano Banana Hero Illustrations.
 
-Uses the Option E Content-Aware Hybrid Mix (`resolve_content_aware_visual_config`) to route each
+Uses the Content-Aware Hybrid Mix (`resolve_content_aware_visual_config`) to route each
 `REQUIREMENT_INTRO` slide across the 23 prepopulated badges to its optimal visual paradigm:
 - `4-Quadrant Concept Map` (foundational / triage / multi-part overview requirements)
 - `Photorealistic Image` with `include_humans=False` (equipment flat-lays, kits, instruments, weather/astronomy)
@@ -110,7 +110,7 @@ def collect_tier2_hero_tasks(badges: List[str]) -> List[Dict[str, Any]]:
                 req_number=req_num,
                 bullet_points=bps,
                 custom_prompt="",
-                visual_style="Auto (Option E Content-Aware Mix)",
+                visual_style="Auto (Content-Aware Mix)",
                 include_humans="auto",
             )
             out_path = AI_ILLUSTRATIONS_DIR / f"{slug}_req_{req_slug}_nano_hero.png"
@@ -196,7 +196,7 @@ def _execute_single_hero_task(task: Dict[str, Any], force: bool = False) -> Dict
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Pre-generate Option E Nano Banana hero illustrations.")
+    parser = argparse.ArgumentParser(description="Pre-generate Content-Aware Nano Banana hero illustrations.")
     parser.add_argument("--badges", nargs="*", help="Optional subset of badge names to generate.")
     parser.add_argument("--workers", type=int, default=4, help="Parallel worker count (default: 4).")
     parser.add_argument("--force", action="store_true", help="Re-generate even if cached file exists.")

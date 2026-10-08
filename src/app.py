@@ -938,14 +938,14 @@ def _open_image_studio_dialog(
                 key=f"dlg_purge_cache_{active_idx}",
                 type="secondary",
                 use_container_width=True,
-                help="Remove all previously generated Nano Banana AI or Web Search images while keeping official BSA pamphlet figures and uploaded files.",
+                help="Remove user-added Nano Banana AI or Web Search images while keeping pre-generated/auto hero graphics, official BSA pamphlet figures, and uploaded files.",
             ):
                 purge_res = purge_cached_web_and_ai_images(res_badge)
                 st.session_state.pop(f"_last_web_search_{active_idx}", None)
                 refreshed = get_badge_image_catalog(res_badge, storyboard=result.get("storyboard"))
                 result["badge_image_catalog"] = _extract_catalog_items(refreshed, default_req=req_num)
                 st.session_state[f"_purge_notice_{active_idx}"] = (
-                    f"Cleared {purge_res.get('removed_files', 0)} cached Web/AI image(s) for {res_badge}."
+                    f"Cleared {purge_res.get('removed_files', 0)} user-added Web/AI image(s) for {res_badge}. Hero graphics & official figures preserved."
                 )
                 st.rerun()
 
@@ -1084,7 +1084,7 @@ def _open_image_studio_dialog(
                 style_options,
                 index=0,
                 key=f"dlg_nb_style_{active_idx}",
-                help="Choose Auto (Option E Content-Aware Mix) or a specific visual style.",
+                help="Choose Auto (Content-Aware Mix) or a specific visual style.",
             )
         with col_st2:
             humans_mode_label = st.selectbox(

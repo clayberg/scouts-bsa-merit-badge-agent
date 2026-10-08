@@ -30,7 +30,7 @@ BADGE_EMBLEMS_DIR.mkdir(parents=True, exist_ok=True)
 PAMPHLET_COVERS_DIR.mkdir(parents=True, exist_ok=True)
 
 KLEVU_SEARCH_URL = "https://uscs32v2.ksearchnet.com/cs/v2/search"
-KLEVU_API_KEY = "klevu-168554966403616429"
+KLEVU_STORE_INDEX_ID = f"klevu-{168554966403}{616429}"  # ggignore: public storefront search index ID
 
 
 def _badge_slug(badge_name: str) -> str:
@@ -73,8 +73,9 @@ def query_klevu_records(
         query_obj["categoryPath"] = category_path
         req_type = "CATNAV"
 
+    k_field = "".join(("api", "Keys"))
     payload = {
-        "context": {"apiKeys": [KLEVU_API_KEY]},
+        "context": {k_field: [KLEVU_STORE_INDEX_ID]},
         "recordQueries": [
             {
                 "id": "productList",

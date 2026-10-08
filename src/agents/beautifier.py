@@ -123,7 +123,7 @@ def generate_ai_editorial_illustration(
                 req_tag = fallback_r
                 break
 
-    # Resolve Option E Content-Aware Hybrid Mix configuration (style + include_humans + full slide context)
+    # Resolve Content-Aware Hybrid Mix configuration (style + include_humans + full slide context)
     from src.agents.image_studio import (
         _try_live_ai_image_synthesis,
         resolve_content_aware_visual_config,
@@ -135,7 +135,7 @@ def generate_ai_editorial_illustration(
         req_number=req_tag or "1",
         bullet_points=bp_list,
         custom_prompt="" if bp_list else visual_prompt.strip(),
-        visual_style=str(kwargs.get("visual_style") or "Auto (Option E Content-Aware Mix)"),
+        visual_style=str(kwargs.get("visual_style") or "Auto (Content-Aware Mix)"),
         include_humans=kwargs.get("include_humans", "auto"),
     )
 
@@ -642,11 +642,9 @@ def beautify_slide_storyboard(
                 slide["diagram_path"] = ai_path
                 slide["ai_hero_image_path"] = ai_path
                 if ill_res.get("hero_source") == "NANO_BANANA_AI":
-                    eff_style_lbl = str(ill_res.get("effective_style") or "Nano Banana AI")
-                    humans_lbl = "Uniformed Scouts" if ill_res.get("include_humans", True) else "Pure Gear / Environment"
-                    slide["visual_source_label"] = f"🍌 Nano Banana Hero • {eff_style_lbl} ({humans_lbl})"
+                    slide["visual_source_label"] = "🍌 Nano Banana Hero"
                     if not slide.get("visual_caption") or "EDGE Skill Concept Map" in str(slide.get("visual_caption")):
-                        slide["visual_caption"] = f"{eff_style_lbl} — {title}"
+                        slide["visual_caption"] = title
                 else:
                     slide["visual_source_label"] = (
                         "🎨 Studio EDGE Concept Map (220-DPI)"

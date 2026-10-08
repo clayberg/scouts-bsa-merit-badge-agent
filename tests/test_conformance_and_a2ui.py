@@ -830,6 +830,7 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         ).json()
         assert consented_gen["status"] == "SUCCESS"
         assert consented_gen["image_entry"]["source_type"] == "NANO_BANANA_AI"
+        assert not consented_gen["image_entry"]["title"].startswith("Line Drawing:")
         assert Path(consented_gen["image_entry"]["image_path"]).exists()
         assert consented_gen["prompt_alignment"]["matches_prompt"] is True
         assert consented_gen["prompt_alignment"]["alignment_score"] >= 0.70
@@ -843,7 +844,12 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         assert direct_check["alignment_score"] > 0.0
 
         # Verify Clear Web/AI Cache button, include_humans controls, and Tab 4 File Upload in both Web UI and Streamlit UI
-        from src.agents.image_studio import resolve_content_aware_visual_config
+        from src.agents.image_studio import NANO_BANANA_VISUAL_STYLES, resolve_content_aware_visual_config
+        from src.tools.pamphlet_extractor import _scoutshop_public_search_context
+
+        assert "Auto (Content-Aware Mix)" in NANO_BANANA_VISUAL_STYLES
+        assert all("Option E" not in s for s in NANO_BANANA_VISUAL_STYLES)
+        assert _scoutshop_public_search_context() == {"apiKeys": [f"klevu-{168554966403}{616429}"]}
 
         cfg_req1 = resolve_content_aware_visual_config(
             badge_name="First Aid",
@@ -877,6 +883,10 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         assert "btn-studio-clear-cache" in ui_html
         assert "Clear Web/AI Cache" in ui_html
         assert "Clear Web/AI Cache" in app_py_text
+        assert "Auto (Content-Aware Mix)" in ui_html
+        assert "Option E" not in ui_html
+        assert "Include Uniformed Scouts" in ui_html
+        assert "(`include_humans`)" not in ui_html
         assert "studio-ai-humans-select" in ui_html
         assert "studio-ai-include-humans-checkbox" in ui_html
         assert "Human Presence & Uniform Directive" in app_py_text
@@ -931,7 +941,7 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         uploaded_file = Path(upload_resp["image_path"])
         assert uploaded_file.exists()
 
-        # 7. Purge test-generated web/AI images for a test badge and preserve tracked First Aid catalog files
+        # 7. Purge test-generated web/AI images for a test badge and preserve pre-generated NANO_BANANA_HERO & tracked First Aid catalog files
         purge_resp = client.delete("/api/badge/images?badge_name=First%20Aid").json()
         assert purge_resp["status"] == "SUCCESS"
         cat_after_purge = client.get("/api/badge/images?badge_name=First%20Aid").json()
@@ -939,6 +949,7 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
             img.get("source_type") not in ("WEB_IMAGE_SEARCH", "NANO_BANANA_AI")
             for img in cat_after_purge["images"]
         )
+        assert any(img.get("source_type") == "NANO_BANANA_HERO" for img in cat_after_purge["images"])
         # Verify USER_UPLOAD is preserved across Clear Web/AI Cache, then clean up our test upload
         assert any(img.get("source_type") == "USER_UPLOAD" for img in cat_after_purge["images"])
     finally:

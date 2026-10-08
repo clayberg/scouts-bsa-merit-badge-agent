@@ -721,12 +721,12 @@ async def api_regenerate_slide(
         is_nano_hero = hero_res.get("hero_source") == "NANO_BANANA_AI" or str(png_path or "").endswith("_nano_hero.png")
         eff_st = str(hero_res.get("effective_style") or ("Nano Banana Hero" if is_nano_hero else "EDGE Skill Concept Map"))
         vis_label = (
-            f"Nano Banana Hero — {eff_st} (SlideBeautifierAgent)"
+            "🍌 Nano Banana Hero"
             if is_nano_hero
             else "EDGE Skill Concept Map (SlideBeautifierAgent)"
         )
         vis_caption = (
-            f"Nano Banana Hero ({eff_st}) — {title}"
+            title
             if is_nano_hero
             else f"EDGE Skill Concept Map — {title}"
         )
@@ -739,14 +739,14 @@ async def api_regenerate_slide(
                     "badge_name": req.badge_name,
                     "req_number": req_num,
                     "slide_title": title,
-                    "title": f"{eff_st}: {title}"[:68],
+                    "title": title[:68] if is_nano_hero else f"EDGE Skill Concept Map: {title}"[:68],
                     "description": (
                         f"Context-grounded Nano Banana ({eff_st}) hero graphic for Requirement {req_num} ({title})."
                         if is_nano_hero
                         else f"220-DPI BSA EDGE Method concept map for Requirement {req_num} ({title})."
                     ),
-                    "source_type": "NANO_BANANA_AI" if is_nano_hero else "EDGE_CONCEPT_MAP",
-                    "source_label": f"🍌 Nano Banana Hero ({eff_st})" if is_nano_hero else "✨ EDGE Skill Concept Map",
+                    "source_type": "NANO_BANANA_HERO" if is_nano_hero else "EDGE_CONCEPT_MAP",
+                    "source_label": "🍌 Nano Banana Hero" if is_nano_hero else "✨ EDGE Skill Concept Map",
                     "image_path": str(png_path),
                     "image_url": png_url or "",
                 },
