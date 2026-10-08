@@ -844,8 +844,17 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         assert direct_check["alignment_score"] > 0.0
 
         # Verify Clear Web/AI Cache button, include_humans controls, and Tab 4 File Upload in both Web UI and Streamlit UI
-        from src.agents.image_studio import NANO_BANANA_VISUAL_STYLES, resolve_content_aware_visual_config
+        from src.agents.image_studio import (
+            NANO_BANANA_VISUAL_STYLES,
+            _canonical_figure_path,
+            resolve_content_aware_visual_config,
+        )
         from src.tools.pamphlet_extractor import _scoutshop_public_search_context
+
+        rebased_hero = _canonical_figure_path(
+            "/some/foreign/workstation/path/assets/badge_image_catalog/first_aid/first_aid_req_1_nano_hero.png"
+        )
+        assert Path(rebased_hero).exists()
 
         assert "Auto (Content-Aware Mix)" in NANO_BANANA_VISUAL_STYLES
         assert all("Option E" not in s for s in NANO_BANANA_VISUAL_STYLES)

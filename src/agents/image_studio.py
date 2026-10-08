@@ -233,8 +233,21 @@ def _to_web_asset_url(fs_path: Optional[str]) -> str:
 
 
 def _canonical_figure_path(raw_path: str) -> str:
-    """Resolves per-slide `_s3_u.png` uniqueness copies back to their canonical base figure path."""
-    abs_p = os.path.abspath(str(raw_path))
+    """Resolves cross-environment `/assets/...` paths and per-slide `_s3_u.png` copies to local canonical paths."""
+    if not raw_path:
+        return ""
+    raw_str = str(raw_path).replace("\\", "/")
+    idx = raw_str.find("/assets/")
+    if idx >= 0:
+        rel_from_assets = raw_str[idx + len("/assets/") :].lstrip("/")
+        rebased = ASSETS_DIR / rel_from_assets
+        if rebased.exists():
+            abs_p = os.path.abspath(str(rebased))
+        else:
+            abs_p = os.path.abspath(str(raw_path))
+    else:
+        abs_p = os.path.abspath(str(raw_path))
+
     stripped = re.sub(r"_s\d+_u\.png$", ".png", abs_p)
     if stripped != abs_p:
         if os.path.exists(stripped):
@@ -242,6 +255,11 @@ def _canonical_figure_path(raw_path: str) -> str:
         pamphlet_candidate = ASSETS_DIR / "pamphlet_images" / os.path.basename(stripped)
         if pamphlet_candidate.exists():
             return os.path.abspath(str(pamphlet_candidate))
+    if not os.path.exists(abs_p):
+        for subdir in ("ai_illustrations", "pamphlet_images", "badge_emblems", "pamphlet_covers", "diagrams"):
+            cand = ASSETS_DIR / subdir / os.path.basename(abs_p)
+            if cand.exists():
+                return os.path.abspath(str(cand))
     return abs_p
 
 
@@ -309,11 +327,12 @@ def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str
                             continue
                         st_type = str(item.get("source_type") or "")
                         im_id = str(item.get("image_id") or "")
-                        im_path = str(item.get("image_path") or "")
+                        raw_im_path = str(item.get("image_path") or item.get("image_url") or "")
+                        canon_p = _canonical_figure_path(raw_im_path)
                         is_hero_asset = (
                             st_type == "NANO_BANANA_HERO"
-                            or im_path.endswith("_nano_hero.png")
-                            or "ai_illustrations" in im_path.replace("\\", "/")
+                            or canon_p.endswith("_nano_hero.png")
+                            or "ai_illustrations" in canon_p.replace("\\", "/")
                         )
                         if not is_hero_asset:
                             if st_type in ("WEB_IMAGE_SEARCH", "NANO_BANANA_AI"):
@@ -322,9 +341,8 @@ def purge_cached_web_and_ai_images(badge_name: Optional[str] = None) -> Dict[str
                                 continue
                         else:
                             item["source_type"] = "NANO_BANANA_HERO"
-                        if not im_path or not os.path.exists(im_path):
+                        if not canon_p or not os.path.exists(canon_p):
                             continue
-                        canon_p = _canonical_figure_path(im_path)
                         stem_k = _canonical_stem_key(canon_p)
                         if stem_k in seen_stems:
                             continue
@@ -391,14 +409,14 @@ def _load_catalog_json(badge_name: str) -> List[Dict[str, Any]]:
                 for item in data:
                     if not isinstance(item, dict):
                         continue
-                    im_p = str(item.get("image_path") or "")
+                    im_p = str(item.get("image_path") or item.get("image_url") or "")
                     im_id = str(item.get("image_id") or "")
                     # Never load legacy bogus 'curated_' or 'webref_' items
                     if im_id.startswith(("curated_", "webref_")):
                         continue
-                    if not im_p or not os.path.exists(im_p):
-                        continue
                     canon_p = _canonical_figure_path(im_p)
+                    if not canon_p or not os.path.exists(canon_p):
+                        continue
                     stem_k = _canonical_stem_key(canon_p)
                     if stem_k in seen_stems:
                         continue
