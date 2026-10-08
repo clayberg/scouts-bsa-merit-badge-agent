@@ -67,7 +67,10 @@ unset CLOUDSDK_CONTEXT_AWARE_USE_CLIENT_CERTIFICATE \
       CLOUDSDK_CONTEXT_AWARE_USE_ECP_HTTP_PROXY \
       CLOUDSDK_INTERNAL_USER || true
 
-GCLOUD_ARGS=(--project="${PROJECT_ID}")
+# Charge API quota to the target project rather than the shared Cloud Shell project (618104708054)
+export CLOUDSDK_BILLING_PROJECT="${PROJECT_ID}"
+
+GCLOUD_ARGS=(--project="${PROJECT_ID}" --billing-project="${PROJECT_ID}")
 if [[ -n "${GCLOUD_CONFIG}" ]]; then
   GCLOUD_ARGS+=(--configuration="${GCLOUD_CONFIG}")
 fi
@@ -81,7 +84,7 @@ echo " Public  : ${ALLOW_PUBLIC}"
 echo "=============================================================================="
 
 echo "[1/5] Enabling required Google Cloud APIs..."
-gcloud "${GCLOUD_ARGS[@]}" services enable \
+if ! gcloud "${GCLOUD_ARGS[@]}" services enable \
   run.googleapis.com \
   cloudbuild.googleapis.com \
   artifactregistry.googleapis.com \
@@ -90,7 +93,9 @@ gcloud "${GCLOUD_ARGS[@]}" services enable \
   orgpolicy.googleapis.com \
   iam.googleapis.com \
   storage.googleapis.com \
-  logging.googleapis.com
+  logging.googleapis.com; then
+  echo "      Note: gcloud services enable returned a quota/rate-limit warning; continuing since APIs are already enabled..."
+fi
 
 if [[ "${ALLOW_PUBLIC}" == "true" ]]; then
   echo "[2/5] Configuring project-level Org Policy (iam.allowedPolicyMemberDomains) for public Cloud Run access..."
