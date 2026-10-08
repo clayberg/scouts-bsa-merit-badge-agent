@@ -30,10 +30,10 @@ Controlled by `AUTH_REQUIRED` (`false` by default on `localhost`; `true` in Clou
 | `GET /api/v1/workflow/stream` | Streams real-time Server-Sent Events (`text/event-stream`) as each agent stage finishes. | No (Browser EventSource) |
 | `POST /api/v1/slide/regenerate` | Updates a single slide's layout archetype, card theme, color palette, or right-side graphic (`keep_current`, `restore_original`, `ai_hero`, `custom_image`, or `none`) and rebuilds the `.pptx` file. | Yes |
 | `GET /api/badge/images` | Lists all cached images in the Merit Badge Image Catalog (`badge_image_catalog` SQLite table + `assets/badge_image_catalog/<badge_slug>/`) for a given badge. | Yes |
-| `DELETE /api/badge/images` | Purges web-searched (`WEB_SEARCH`) and AI-generated (`NANO_BANANA`) cached images for a badge while preserving official `PAMPHLET` figures and `USER_UPLOAD` files. | Yes |
+| `DELETE /api/badge/images` | Purges user-searched web (`WEB_IMAGE_SEARCH`) and user-generated AI (`NANO_BANANA_AI`) cached images for a badge while preserving official `PAMPHLET` figures, pre-generated/auto-generated hero illustrations (`NANO_BANANA_HERO`), and `USER_UPLOAD` files. | Yes |
 | `POST /api/slide/search-web-images` | Invokes `WebImageSearchAgent` (`gemini-2.5-flash`) to search Wikimedia Commons for up to 12 matching visuals, download them, and cache them for the badge. | Yes |
 | `POST /api/slide/estimate-image-cost` | Returns a FinOps cost estimate (`$0.08 USD` per image, ~`2,580` tokens) before running `NanoBananaImageAgent`. | Yes |
-| `POST /api/slide/generate-nano-banana-image` | Invokes `NanoBananaImageAgent` (`gemini-2.5-flash-image` / Nano Banana & Imagen 3) after verifying `user_consented=True`, verifies prompt alignment (`verify_generated_image_matches_prompt()`), attaches the new graphic to the slide, adjusts text-only slides to `SPLIT_VISUAL_EXPLAINER`, and rebuilds the `.pptx`. | Yes |
+| `POST /api/slide/generate-nano-banana-image` | Invokes `NanoBananaImageAgent` (`gemini-2.5-flash-image` / Nano Banana & Imagen 3) across 11 visual styles (including `Auto (Content-Aware Mix)` and `include_humans` control) after verifying `user_consented=True`, verifies prompt alignment (`verify_generated_image_matches_prompt()`), attaches the new graphic to the slide, adjusts text-only slides to `SPLIT_VISUAL_EXPLAINER`, and rebuilds the `.pptx`. | Yes |
 | `POST /api/slide/upload-image` | Uploads a local `.png`/`.jpg`/`.webp` image (`<= 10 MB`, `$0.00 USD`), normalizes it to RGB PNG (`max 1600px`), registers it as `USER_UPLOAD` in the badge catalog, and optionally applies it to the slide and rebuilds the `.pptx`. | Yes |
 | `POST /api/v1/hitl/confirm` | Validates counselor sign-off and returns an HMAC-SHA256 `confirmation_token`. | Yes |
 | `POST /api/v1/feedback` | Records counselor rating (`1-5`), thumbs-up/down, and requirement accuracy sign-off in `deliverables/counselor_hitl_feedback.jsonl`. | Yes |
@@ -71,11 +71,11 @@ curl -X POST http://localhost:8085/api/slide/estimate-image-cost \
   -H "Content-Type: application/json" \
   -d '{
     "badge_name": "Weather",
-    "style_preset": "Technical Diagram",
+    "visual_style": "Auto (Content-Aware Mix)",
     "num_images": 1
   }'
 
-# Step 2: Generate with explicit user consent (user_consented: true)
+# Step 2: Generate with explicit user consent (user_consented: true) and optional include_humans control
 curl -X POST http://localhost:8085/api/slide/generate-nano-banana-image \
   -H "Content-Type: application/json" \
   -d '{
@@ -83,8 +83,9 @@ curl -X POST http://localhost:8085/api/slide/generate-nano-banana-image \
     "slide_index": 2,
     "req_number": "Req 2",
     "slide_title": "Cold Front vs Warm Front Dynamics",
-    "custom_prompt": "Cross-section diagram showing a steep cold front wedge lifting warm moist air into cumulonimbus clouds",
-    "style_preset": "Technical Diagram",
+    "prompt": "Cross-section diagram showing a steep cold front wedge lifting warm moist air into cumulonimbus clouds",
+    "visual_style": "Auto (Content-Aware Mix)",
+    "include_humans": false,
     "beautification_tier": "BEAUTIFIED",
     "user_consented": true,
     "apply_to_slide": true

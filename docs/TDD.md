@@ -23,9 +23,9 @@ Across Scouting America, volunteer Merit Badge Counselors teach **138 official M
 - **CUJ-1 (Full Curriculum Packet Generation)**: Counselor selects any of the 138 official Merit Badges, picks a depth mode (*Standard Deck* or *Deep Dive / Camp School Deck*), chooses a visual polish tier (`STANDARD` at `~$0.14`, `BEAUTIFIED` warm cream `#FAF8F5` at `~$0.38`, or `STUDIO` dark slate `#0F172A` capped at `$1.00`), enters their troop/council contact details and location (`City, State` or `ZIP Code`, such as `01949` / `Middleton, MA`), and generates a verified `.pptx` slide deck, `.md` workbook, timed lesson plan, and YPT parent prerequisite letter.
 - **CUJ-2 (Requirement Execution Triage)**: Before the first meeting, the Counselor reviews the **3-Column Requirement Triage Matrix** (`IN_CLASS_DISCUSSION`, `HANDS_ON_SKILL_STATION`, `PREREQUISITE_CAMPOUT_HOME`) and sends the generated Parent Prerequisite Letter so Scouts bring required home logs or campout records.
 - **CUJ-3 (Surgical Single-Slide Co-Design & 4-Tab Merit Badge Image Studio)**: While reviewing the deck in the workbench preview, the Counselor uses the **Per-Slide Interactive Co-Design Bar** (`POST /api/v1/slide/regenerate`) to switch a specific slide's layout archetype (`2x2 Step Grid`, `2-Column Comparison`, etc.), card border style, color palette, or right-side graphic (`Keep Current`, `Restore Original Slide Graphic`, `Scouts BSA EDGE Skill Concept Map`, or `None (Full-Width Text Layout)` which expands text to `12.133"`). Counselors can also step through cached badge images using the inline `◀ Prev` and `Next ▶` buttons or open the **4-Tab Popup Merit Badge Image Studio**:
-  1. **📚 1. Badge Image Catalog**: Browse all cached badge graphics or click **🗑️ Clear Web/AI Cache** (`DELETE /api/badge/images`) to purge web-searched and AI-generated items while preserving official `PAMPHLET` figures and `USER_UPLOAD` files.
+  1. **📚 1. Badge Image Catalog**: Browse all cached badge graphics or click **🗑️ Clear Web/AI Cache** (`DELETE /api/badge/images`) to purge user-searched web images (`WEB_IMAGE_SEARCH`) and user-generated AI images (`NANO_BANANA_AI`) while preserving official `PAMPHLET` figures, pre-generated/auto-generated hero illustrations (`NANO_BANANA_HERO`), and `USER_UPLOAD` files.
   2. **🌐 2. Web Image Search Agent**: Query live Wikimedia Commons (`WebImageSearchAgent`) for up to 12 public-domain photos and illustrations.
-  3. **🍌 3. Nano Banana Image Studio**: Generate custom, text-free illustrations across 8 visual styles (`Photorealistic Image`, `Line Drawing`, `Cartoon Drawing`, `Technical Diagram`, `Editorial Field Illustration`, `Annotated Technical Cutaway`, `4-Panel Field Storyboard`, and `Comparison & Decision Visual`) via **`NanoBananaImageAgent`** (`gemini-2.5-flash-image` / Imagen 3) after viewing an upfront **`$0.08 USD`** cost estimate, granting explicit user consent (`user_consented=True`), and passing post-generation prompt alignment verification (`verify_generated_image_matches_prompt()`).
+  3. **🍌 3. Nano Banana Image Studio**: Generate custom, text-free illustrations across **11 visual styles** (`Auto (Content-Aware Mix)`, `Photorealistic Image`, `4-Quadrant Concept Map`, `Watercolor Field Sketch`, `Line Drawing`, `Cartoon Drawing`, `Technical Diagram`, `Editorial Field Illustration`, `Annotated Technical Cutaway`, `4-Panel Field Storyboard`, and `Comparison & Decision Visual`) with an **`Include Uniformed Scouts`** toggle via **`NanoBananaImageAgent`** (`gemini-2.5-flash-image` / Imagen 3) after viewing an upfront **`$0.08 USD`** cost estimate, granting explicit user consent (`user_consented=True`), and passing post-generation prompt alignment verification (`verify_generated_image_matches_prompt()`).
   4. **📁 4. File Upload (`$0.00 USD`)**: Upload a local `.png`, `.jpg`, `.jpeg`, or `.webp` photo (`<= 10 MB`) via `POST /api/slide/upload-image`, normalize it to RGB PNG (`max 1600px`), register it as `USER_UPLOAD`, and apply it directly to the slide.
 
 ## 2. Technical Scope, System Boundaries & Prototype vs. Production Matrix
@@ -44,11 +44,11 @@ Across Scouting America, volunteer Merit Badge Counselors teach **138 official M
 | **Session, Vector & Image Catalog Memory** | Local SQLite WAL (`sessions`, `pamphlet_chunks` Hybrid BM25 + Cosine RRF index, `badge_image_catalog`, `hitl_feedback`) in `src/memory/session_store.py` + local `.cache/counselor_profile.json` (`0600`) / browser `localStorage`. | **Cloud SQL for PostgreSQL + `pgvector`** (or AlloyDB) with **Row-Level Security (RLS)** isolating sessions by `council_id` and `troop_id`. |
 | **Authentication & Identity** | `verify_caller_auth` in `src/security.py` enforcing `X-API-Key` and OIDC Bearer JWTs when `AUTH_REQUIRED=true` (set in `terraform/main.tf`), with frictionless local mode (`AUTH_REQUIRED=false`) for laptop use. | **Google Cloud Identity-Aware Proxy (IAP)** federated with **Scouting.org (`my.scouting.org`) OIDC SSO** verifying active Youth Protection Training (YPT) certification on login. |
 | **Deck Build Execution** | In-process worker thread (`asyncio.to_thread`) inside the FastAPI/Cloud Run container (`1.2s` for Standard decks; `~3.5s` for 60-slide Deep Dive decks). | **Cloud Tasks + Dedicated Cloud Run Worker Pool** for asynchronous generation of 60-slide Studio decks with webhook/SSE completion push. |
-| **Asset & Deck Storage** | Local `assets/` (`assets/badge_image_catalog/`) and `deliverables/` directories mounted as static routes, plus Terraform `google_storage_bucket` definition. | **Google Cloud Storage (GCS) + Cloud CDN** with signed download URLs and 30-day lifecycle expiration for generated `.pptx` files. |
+| **Asset & Deck Storage** | Local `assets/` (`assets/badge_image_catalog/`, `assets/ai_illustrations/`) and `deliverables/` directories mounted as static routes, plus Terraform `google_storage_bucket` definition. | **Google Cloud Storage (GCS) + Cloud CDN** with signed download URLs and 30-day lifecycle expiration for generated `.pptx` files. |
 
 ## 3. Quantifiable Definition of Done (DoD) & Service Level Objectives (SLOs)
 
-Every release must pass the blocking verification suite (`.venv/bin/pytest tests/` with 47/47 tests and `python3 scripts/eval_gate.py`) against these concrete thresholds:
+Every release must pass the blocking verification suite (`.venv/bin/pytest tests/` with 50/50 tests and `python3 scripts/eval_gate.py`) against these concrete thresholds:
 
 | Metric / SLO | Target Threshold | Observed Benchmark | Verification Mechanism |
 | :--- | :--- | :--- | :--- |
@@ -69,10 +69,10 @@ flowchart LR
     RES <--> SEARCH["3. WebSearch Sub-Agent\n(gemini-2.5-flash)\nIsolated via AgentTool"]
     RES --> RCRIT["4. Research Coverage Critic\n(gemini-2.5-pro)\n100% Sub-Req Recall"]
     RCRIT --> PLAN["5. Slide Content Planner\n(gemini-2.5-pro)\n12 Archetypes + StudioKit"]
-    PLAN --> BEAUT["6. Slide Beautifier Agent\n(gemini-2.5-flash)\n3 Tiers + EDGE Maps ($1 Cap)"]
+    PLAN --> BEAUT["6. Slide Beautifier Agent\n(gemini-2.5-flash)\n3 Tiers + Hero PNGs / EDGE Maps"]
     BEAUT --> LOOP["7. Builder & Review Loop\n(LoopAgent, Max 3x)\npython-pptx + <10ms AABB + Vision"]
     UI <--> IMG_WEB["8. WebImageSearchAgent\n(gemini-2.5-flash)\nWikimedia + Local Upload"]
-    UI <--> IMG_AI["9. NanoBananaImageAgent\n(gemini-2.5-flash-image)\n$0.08 Consent Gate + Verifier"]
+    UI <--> IMG_AI["9. NanoBananaImageAgent\n(gemini-2.5-flash-image)\n11 Styles + $0.08 Gate + Verifier"]
 ```
 
 ### 4.1 Location / ZIP Code Grounding (`resolve_counselor_location()`)
@@ -83,10 +83,10 @@ When a counselor enables **Local Troop Grounding** and supplies a `location_or_z
 
 To keep slides clean and free of repetitive footer text, this regional profile is injected into four specific places: **Slide 2 (Badge Overview)**, the **Counselor Session Lesson Plan**, the **Parent Prerequisite Letter**, and the **Grounded Citations** list.
 
-### 4.2 Three Visual Polish Tiers & Scouts BSA EDGE Skill Concept Maps
+### 4.2 Three Visual Polish Tiers, Pre-Populated Nano Banana Hero Illustrations & EDGE Concept Map Fallback
 1. **`STANDARD` (`~$0.14`)**: Clean white background (`#FFFFFF`), navy header band, extracted pamphlet illustrations, and 220-DPI Matplotlib technical diagrams.
-2. **`BEAUTIFIED` (`~$0.38`, Default)**: Warm editorial cream canvas (`#FAF8F5`), 4 rotating accent palettes (`NAVY_GOLD`, `OLIVE_FOREST`, `EAGLE_CRIMSON`, `SLATE_ACTION`), elevated white vector content cards, and up to 5 **220-DPI Scouts BSA EDGE Skill Concept Maps** (`1. EXPLAIN`, `2. DEMONSTRATE`, `3. GUIDE`, `4. ENABLE` radiating from a central medallion of the official embroidered Merit Badge patch) generated only for requirement intro slides that lack a technical diagram.
-3. **`STUDIO` (`$1.00` Hard Cap)**: Dark executive slate canvas (`#0F172A`) with dark navy cards (`#1E293B`), gold (`#FBBF24`) and cyan (`#38BDF8`) typography, and up to 15 dark-slate EDGE Skill Concept Maps.
+2. **`BEAUTIFIED` (`~$0.38`, Default)**: Warm editorial cream canvas (`#FAF8F5`), 4 rotating accent palettes (`NAVY_GOLD`, `OLIVE_FOREST`, `EAGLE_CRIMSON`, `SLATE_ACTION`), elevated white vector content cards, and up to 5 **Nano Banana AI Hero Illustrations** (`NANO_BANANA_HERO`, `*_nano_hero.png`) on requirement intro slides that lack a technical diagram. The repository bundles **76 pre-generated, compressed (`<= 1,024px`, 8-bit quantized PNG, `~9.9 MB` total) Nano Banana hero illustrations** across the **23 pre-populated Eagle-required and core Merit Badges** (`assets/ai_illustrations/` and `assets/badge_image_catalog/<slug>/`) using the **Content-Aware Hybrid Mix** (`resolve_content_aware_visual_config()`), which pairs action-oriented requirements with uniformed Scouts (`Class A` tan shirt, neckerchief, olive trousers) and gear/anatomy/science topics with zero-human diagrams or knolling layouts. For the remaining 115 long-tail badges, hero visuals are generated on demand and cached to disk, with automatic fallback to a procedural **220-DPI Scouts BSA EDGE Skill Concept Map** (`1. EXPLAIN`, `2. DEMONSTRATE`, `3. GUIDE`, `4. ENABLE`) when offline or if Vertex AI quota is unavailable.
+3. **`STUDIO` (`$1.00` Hard Cap)**: Dark executive slate canvas (`#0F172A`) with dark navy cards (`#1E293B`), gold (`#FBBF24`) and cyan (`#38BDF8`) typography, and up to 15 Nano Banana hero illustrations (with dark-slate EDGE Skill Concept Map fallback).
 
 Both the live browser preview (`ui/app.js`) and `src/tools/pptx_builder.py` share the exact same layout coordinate rules, bold anchor headings, and full card text so downloaded `.pptx` files match the browser preview 1:1.
 
@@ -95,11 +95,11 @@ Both the live browser preview (`ui/app.js`) and `src/tools/pptx_builder.py` shar
 ### 5.1 Per-Deck Unit Economics
 Pricing is defined in `config/finops_model_policy.json` and enforced by `FinOpsBudgetPlugin` (`src/agents/guardrails.py`):
 
-| Polish Tier | Input Tokens | Output Tokens | EDGE Skill Concept Maps | Cold Build Cost | Cached Rerun Cost |
+| Polish Tier | Input Tokens | Output Tokens | Hero Visuals & EDGE Fallback | Cold Build Cost | Cached Rerun Cost |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **STANDARD (Fast Deck)** | `~32k - 65k` | `~7k - 13.5k` | `0` (uses pamphlet figures + 220-DPI Matplotlib diagrams) | **`$0.06 - $0.14`** | **`$0.00`** |
-| **BEAUTIFIED (NotebookLM Style, Default)** | `~57k - 90k` | `~15k - 21.5k` | Up to `5` requirement intro EDGE Concept Maps | **`$0.30 - $0.38`** | **`$0.02`** |
-| **STUDIO (Dark Executive Slate)** | `~77k - 110k` | `~21k - 27.5k` | Up to `15` dark-slate EDGE Concept Maps | **`$0.72 - $1.00` (Capped)** | **`$0.02`** |
+| **BEAUTIFIED (NotebookLM Style, Default)** | `~57k - 90k` | `~15k - 21.5k` | Up to `5` requirement intro Hero Illustrations (76 pre-cached at `$0.00` + EDGE fallback) | **`$0.30 - $0.38`** | **`$0.02`** |
+| **STUDIO (Dark Executive Slate)** | `~77k - 110k` | `~21k - 27.5k` | Up to `15` Hero Illustrations (pre-cached + dark-slate EDGE fallback) | **`$0.72 - $1.00` (Capped)** | **`$0.02`** |
 
 ### 5.2 Council-Scale Monthly TCO Projection (`500` Active Counselors, `1,500` Decks/Month)
 Assuming `70%` of builds hit warm pamphlet and vector caches after the first generation of each badge:
