@@ -174,9 +174,12 @@ class WebImageSearchRequest(BaseModel):
 class NanoBananaCostRequest(BaseModel):
     badge_name: str
     slide_title: str = ""
+    req_number: str = "1"
+    bullet_points: List[str] = Field(default_factory=list)
     custom_prompt: str = ""
     prompt: str = ""
     visual_style: str = "Photorealistic Image"
+    include_humans: Optional[Any] = "auto"
     num_images: int = Field(1, ge=1, le=4)
 
 
@@ -189,6 +192,7 @@ class NanoBananaGenerateRequest(BaseModel):
     prompt: str = ""
     bullet_points: List[str] = Field(default_factory=list)
     visual_style: str = "Photorealistic Image"
+    include_humans: Optional[Any] = "auto"
     accent_palette_key: str = "NAVY_GOLD"
     beautification_tier: str = "STUDIO"
     user_consented: bool = False
@@ -714,8 +718,18 @@ async def api_regenerate_slide(
         png_path = hero_res.get("image_path")
         png_url = _to_web_asset_url(png_path)
         svg_url = None
-        vis_label = "EDGE Skill Concept Map (SlideBeautifierAgent)"
-        vis_caption = f"EDGE Skill Concept Map — {title}"
+        is_nano_hero = hero_res.get("hero_source") == "NANO_BANANA_AI" or str(png_path or "").endswith("_nano_hero.png")
+        eff_st = str(hero_res.get("effective_style") or ("Nano Banana Hero" if is_nano_hero else "EDGE Skill Concept Map"))
+        vis_label = (
+            f"Nano Banana Hero — {eff_st} (SlideBeautifierAgent)"
+            if is_nano_hero
+            else "EDGE Skill Concept Map (SlideBeautifierAgent)"
+        )
+        vis_caption = (
+            f"Nano Banana Hero ({eff_st}) — {title}"
+            if is_nano_hero
+            else f"EDGE Skill Concept Map — {title}"
+        )
         if effective_archetype == "CONCEPT_TEXT_SLIDE":
             effective_archetype = "SPLIT_VISUAL_EXPLAINER"
         if png_path and os.path.exists(str(png_path)):
@@ -725,10 +739,14 @@ async def api_regenerate_slide(
                     "badge_name": req.badge_name,
                     "req_number": req_num,
                     "slide_title": title,
-                    "title": f"EDGE Skill Concept Map: {title}"[:68],
-                    "description": f"220-DPI BSA EDGE Method concept map for Requirement {req_num} ({title}).",
-                    "source_type": "EDGE_CONCEPT_MAP",
-                    "source_label": "✨ EDGE Skill Concept Map",
+                    "title": f"{eff_st}: {title}"[:68],
+                    "description": (
+                        f"Context-grounded Nano Banana ({eff_st}) hero graphic for Requirement {req_num} ({title})."
+                        if is_nano_hero
+                        else f"220-DPI BSA EDGE Method concept map for Requirement {req_num} ({title})."
+                    ),
+                    "source_type": "NANO_BANANA_AI" if is_nano_hero else "EDGE_CONCEPT_MAP",
+                    "source_label": f"🍌 Nano Banana Hero ({eff_st})" if is_nano_hero else "✨ EDGE Skill Concept Map",
                     "image_path": str(png_path),
                     "image_url": png_url or "",
                 },
@@ -926,8 +944,10 @@ async def api_estimate_nano_banana_cost(
     return estimate_nano_banana_image_cost(
         badge_name=req.badge_name,
         slide_title=req.slide_title,
+        req_number=req.req_number,
         custom_prompt=req.custom_prompt or req.prompt,
         visual_style=req.visual_style,
+        include_humans=req.include_humans,
         num_images=req.num_images,
     )
 
@@ -950,6 +970,7 @@ async def api_generate_nano_banana_image(
         custom_prompt=req.custom_prompt or req.prompt,
         bullet_points=req.bullet_points,
         visual_style=req.visual_style,
+        include_humans=req.include_humans,
         accent_palette_key=req.accent_palette_key,
         beautification_tier=req.beautification_tier,
         user_consented=req.user_consented,

@@ -33,13 +33,13 @@ from src.agents.coordinator import run_merit_badge_workflow
 from src.agents.guardrails import estimate_workflow_finops_cost
 from src.agents.image_studio import (
     NANO_BANANA_VISUAL_STYLES,
-    _extract_visual_subject_from_prompt,
     clean_slide_topic_boilerplate,
     estimate_nano_banana_image_cost,
     generate_nano_banana_slide_image,
     get_badge_image_catalog,
     purge_cached_web_and_ai_images,
     register_image_in_badge_catalog,
+    resolve_content_aware_visual_config,
     search_web_images_for_slide,
     upload_custom_slide_image,
 )
@@ -1077,25 +1077,65 @@ def _open_image_studio_dialog(
             "Requires explicit FinOps cost consent (`$0.08 USD`)."
         )
         style_options = list(NANO_BANANA_VISUAL_STYLES)
-        selected_style = st.selectbox(
-            "1. Visual Illustration Style",
-            style_options,
-            index=0,
-            key=f"dlg_nb_style_{active_idx}",
-            help="Choose how the generated image should look (Photorealistic Image, Line Drawing, Cartoon Drawing, Technical Diagram, Watercolor, etc.).",
+        col_st1, col_st2 = st.columns(2)
+        with col_st1:
+            selected_style = st.selectbox(
+                "1. Visual Illustration Style",
+                style_options,
+                index=0,
+                key=f"dlg_nb_style_{active_idx}",
+                help="Choose Auto (Option E Content-Aware Mix) or a specific visual style.",
+            )
+        with col_st2:
+            humans_mode_label = st.selectbox(
+                "2. Human Presence & Uniform Directive",
+                [
+                    "✨ Auto-Detect (Content-Aware Mix)",
+                    "👕 Include Humans (Adult Scouts BSA Uniforms)",
+                    "🧰 No Humans (Pure Equipment / Environment)",
+                ],
+                index=0,
+                key=f"dlg_nb_humans_{active_idx}",
+                help="Controls whether Nano Banana applies the Adult Scouts BSA Field Uniform directive or the Zero-Humans / Pure Equipment & Environment directive.",
+            )
+        humans_mode_val: Any = (
+            "auto"
+            if "Auto-Detect" in humans_mode_label
+            else (True if "Include Humans" in humans_mode_label else False)
         )
-        default_prompt = _extract_visual_subject_from_prompt(
+        preview_cfg = resolve_content_aware_visual_config(
             badge_name=res_badge,
             slide_title=slide_title,
-            custom_prompt="",
+            req_number=req_num,
             bullet_points=curr_s.get("bullet_points") or [],
+            custom_prompt="",
+            visual_style=selected_style,
+            include_humans=humans_mode_val,
         )
+        default_prompt = preview_cfg["enriched_subject"]
         custom_prompt = st.text_area(
-            "2. Visual Subject / Scene to Illustrate (No words will be printed inside the image)",
+            "3. Visual Subject / Scene to Illustrate (No words will be printed inside the image)",
             value=default_prompt,
             placeholder="e.g., A Boy Scout paddling a red canoe across a calm mountain lake surrounded by pine trees",
             height=85,
             key=f"dlg_nb_prompt_{active_idx}",
+        )
+        live_cfg = resolve_content_aware_visual_config(
+            badge_name=res_badge,
+            slide_title=slide_title,
+            req_number=req_num,
+            bullet_points=curr_s.get("bullet_points") or [],
+            custom_prompt=custom_prompt,
+            visual_style=selected_style,
+            include_humans=humans_mode_val,
+        )
+        dir_lbl = (
+            "👕 Adult Scouts BSA Field Uniforms"
+            if live_cfg["include_humans"]
+            else "🧰 Zero Humans (Pure Equipment / Environment)"
+        )
+        st.caption(
+            f"🧠 **Content-Aware Resolution:** {dir_lbl} • **Effective Style:** `{live_cfg['effective_style']}`"
         )
 
         cost_est = estimate_nano_banana_image_cost(
@@ -1103,7 +1143,7 @@ def _open_image_studio_dialog(
             req_number=req_num,
             slide_title=slide_title,
             custom_prompt=custom_prompt,
-            style_preset=selected_style,
+            style_preset=live_cfg["effective_style"],
         )
         consent_txt = cost_est.get("consent_message") or cost_est.get("consent_prompt_text") or ""
         st.markdown(
@@ -1120,18 +1160,18 @@ def _open_image_studio_dialog(
             unsafe_allow_html=True,
         )
         user_consented = st.checkbox(
-            f"✅ I consent to the estimated ${cost_est['estimated_cost_usd']:.2f} USD cost to generate & verify this '{selected_style}' illustration and cache it for {res_badge}.",
+            f"✅ I consent to the estimated ${cost_est['estimated_cost_usd']:.2f} USD cost to generate & verify this '{live_cfg['effective_style']}' illustration and cache it for {res_badge}.",
             value=False,
             key=f"dlg_nb_consent_{active_idx}",
         )
         if st.button(
-            f"🍌 Generate, Verify & Apply '{selected_style}' to Slide {slide_num} (${cost_est['estimated_cost_usd']:.2f})",
+            f"🍌 Generate, Verify & Apply '{live_cfg['effective_style']}' to Slide {slide_num} (${cost_est['estimated_cost_usd']:.2f})",
             key=f"dlg_nb_gen_{active_idx}",
             type="primary",
             disabled=not user_consented,
             use_container_width=True,
         ):
-            with st.spinner(f"NanoBananaImageAgent generating & verifying '{selected_style}' illustration for Slide {slide_num}..."):
+            with st.spinner(f"NanoBananaImageAgent generating & verifying '{live_cfg['effective_style']}' illustration for Slide {slide_num}..."):
                 nb_res = generate_nano_banana_slide_image(
                     badge_name=res_badge,
                     req_number=req_num,
@@ -1139,6 +1179,7 @@ def _open_image_studio_dialog(
                     bullet_points=curr_s.get("bullet_points") or [],
                     custom_prompt=custom_prompt,
                     style_preset=selected_style,
+                    include_humans=humans_mode_val,
                     accent_palette_key=str(curr_s.get("accent_palette_key") or "NAVY_GOLD"),
                     user_consented=user_consented,
                 )

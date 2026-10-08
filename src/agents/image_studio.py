@@ -36,6 +36,7 @@ import math
 import os
 import re
 import shutil
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -66,13 +67,15 @@ from src.observability.logging_setup import logger
 # ==============================================================================
 
 NANO_BANANA_VISUAL_STYLES: List[str] = [
+    "Auto (Option E Content-Aware Mix)",
     "Photorealistic Image",
+    "4-Quadrant Concept Map",
     "Line Drawing",
-    "Cartoon Drawing",
-    "Technical Diagram",
     "Watercolor Field Sketch",
-    "Editorial Vector Illustration",
+    "Technical Diagram",
     "3D Isometric Illustration",
+    "Editorial Vector Illustration",
+    "Cartoon Drawing",
     "Vintage Merit Badge Poster",
 ]
 
@@ -81,10 +84,16 @@ STYLE_PROMPT_MODIFIERS: Dict[str, str] = {
         "high-resolution photorealistic outdoor DSLR photograph, natural daylight, sharp focus, "
         "lifelike detail and realistic textures, pure visual photograph, no text, no words, no letters"
     ),
+    "4-quadrant concept map": (
+        "clean 2x2 four-quadrant educational visual concept map arranged symmetrically around a central circular "
+        "Scouts BSA merit badge medallion, four distinct illustrated panels with thin golden-navy dividing frames "
+        "depicting the four core concepts of the requirement in rich handbook detail, pure visual illustration "
+        "with zero text, no words, no letters, and no labels"
+    ),
     "line drawing": (
         "detailed classic wilderness field-manual pen-and-ink line drawing illustration on crisp white paper, "
-        "precise anatomical and equipment contour lines with fine pen cross-hatching and stippled shading, "
-        "professional instructional handbook line art, monochrome black ink on white background, "
+        "precise anatomical and equipment contour lines with fine pen cross-hatching and subtle khaki, olive, and "
+        "medical-blue spot-color washes, professional instructional handbook line art, "
         "zero text, no words, no letters, no labels"
     ),
     "cartoon drawing": (
@@ -97,15 +106,16 @@ STYLE_PROMPT_MODIFIERS: Dict[str, str] = {
         "pure visual diagram without text labels, no words, no letters"
     ),
     "watercolor field sketch": (
-        "hand-painted naturalist watercolor and fine ink illustration on warm cream paper, "
-        "soft expressive watercolor washes and delicate contour lines, no text, no words, no letters"
+        "hand-painted naturalist watercolor and fine ink illustration on warm cream paper in the style of classic "
+        "Scouts BSA Handbook plates, soft expressive watercolor washes and delicate contour lines, "
+        "no text, no words, no letters"
     ),
     "editorial vector illustration": (
         "modern flat vector illustration, National Park poster aesthetic, crisp geometric color planes, "
         "rich outdoor palette, clean vector art, no text, no words, no letters"
     ),
     "3d isometric illustration": (
-        "clean 3D isometric miniature diorama render, soft studio global illumination, "
+        "clean 3D isometric miniature diorama and cutaway render, soft studio global illumination, "
         "detailed 3D model composition, no text, no words, no letters"
     ),
     "vintage merit badge poster": (
@@ -541,22 +551,48 @@ def seed_badge_image_catalog_from_storyboard(
             abs_hero = os.path.abspath(str(ai_hero))
             sk_hero = _canonical_stem_key(abs_hero)
             if sk_hero not in by_stem:
-                entry = {
-                    "image_id": hashlib.sha256(f"{badge_name}:{abs_hero}".encode("utf-8")).hexdigest()[:14],
-                    "badge_name": badge_name,
-                    "req_number": req_num,
-                    "slide_title": s_title,
-                    "title": f"EDGE Skill Concept Map: {s_title}"[:68],
-                    "description": (
-                        f"220-DPI BSA EDGE Method concept map for Requirement {req_num} ({s_title}) "
-                        f"featuring the {badge_name} emblem and 4 key teaching pillars."
-                    ),
-                    "source_type": "EDGE_CONCEPT_MAP",
-                    "source_label": "✨ EDGE Skill Concept Map",
-                    "image_path": abs_hero,
-                    "image_url": _to_web_asset_url(abs_hero),
-                    "custom_prompt": "",
-                }
+                if abs_hero.endswith("_nano_hero.png"):
+                    cfg_hero = resolve_content_aware_visual_config(
+                        badge_name=badge_name,
+                        slide_title=s_title,
+                        req_number=req_num,
+                        bullet_points=slide.get("bullet_points") or [],
+                    )
+                    eff_st = cfg_hero["effective_style"]
+                    hum_lbl = "Uniformed Scouts" if cfg_hero["include_humans"] else "Pure Equipment / Environment"
+                    entry = {
+                        "image_id": hashlib.sha256(f"{badge_name}:{abs_hero}".encode("utf-8")).hexdigest()[:14],
+                        "badge_name": badge_name,
+                        "req_number": req_num,
+                        "slide_title": s_title,
+                        "title": f"{eff_st}: {s_title}"[:68],
+                        "description": (
+                            f"Context-grounded Nano Banana ({eff_st} • {hum_lbl}) hero graphic for "
+                            f"Requirement {req_num} ({s_title})."
+                        ),
+                        "source_type": "NANO_BANANA_AI",
+                        "source_label": f"🍌 Nano Banana Hero ({eff_st})",
+                        "image_path": abs_hero,
+                        "image_url": _to_web_asset_url(abs_hero),
+                        "custom_prompt": cfg_hero["enriched_subject"],
+                    }
+                else:
+                    entry = {
+                        "image_id": hashlib.sha256(f"{badge_name}:{abs_hero}".encode("utf-8")).hexdigest()[:14],
+                        "badge_name": badge_name,
+                        "req_number": req_num,
+                        "slide_title": s_title,
+                        "title": f"EDGE Skill Concept Map: {s_title}"[:68],
+                        "description": (
+                            f"220-DPI BSA EDGE Method concept map for Requirement {req_num} ({s_title}) "
+                            f"featuring the {badge_name} emblem and 4 key teaching pillars."
+                        ),
+                        "source_type": "EDGE_CONCEPT_MAP",
+                        "source_label": "✨ EDGE Skill Concept Map",
+                        "image_path": abs_hero,
+                        "image_url": _to_web_asset_url(abs_hero),
+                        "custom_prompt": "",
+                    }
                 by_stem[sk_hero] = entry
 
     try:
@@ -1349,12 +1385,23 @@ def estimate_nano_banana_image_cost(
     Budgets `$0.08 USD` per image (`~2,580` tokens) to cover high-detail multi-candidate synthesis
     plus post-generation prompt & style alignment verification (`verify_generated_image_matches_prompt`).
     """
-    eff_style = style_preset or visual_style or "Photorealistic Image"
+    raw_style = style_preset or visual_style or "Auto (Option E Content-Aware Mix)"
+    resolved_cfg = resolve_content_aware_visual_config(
+        badge_name=badge_name or "Merit Badge",
+        slide_title=slide_title or "",
+        req_number=req_number or "1",
+        bullet_points=kwargs.get("bullet_points"),
+        custom_prompt=custom_prompt or "",
+        visual_style=raw_style,
+        include_humans=kwargs.get("include_humans", "auto"),
+    )
+    eff_style = resolved_cfg["effective_style"]
     n_imgs = max(1, min(4, int(num_images or 1)))
     prompt_len = len(f"{badge_name} {req_number} {slide_title} {custom_prompt} {eff_style}")
     est_tokens = max(280, prompt_len // 2 + 240)
     cost_per_img = 0.08
     total_cost = round(cost_per_img * n_imgs, 2)
+    hum_label = "Adult Scouts BSA Field Uniform" if resolved_cfg["include_humans"] else "Zero Humans / Pure Equipment & Environment"
 
     est = ImageGenerationCostEstimate(
         badge_name=badge_name or "Merit Badge",
@@ -1369,7 +1416,8 @@ def estimate_nano_banana_image_cost(
         deck_budget_cap_usd=1.00,
         requires_user_consent=True,
         consent_prompt_text=(
-            f"Generating and verifying {n_imgs} custom '{eff_style}' graphic(s) for '{clean_slide_topic_boilerplate(slide_title) or badge_name}' "
+            f"Generating and verifying {n_imgs} custom '{eff_style}' ({hum_label}) graphic(s) for "
+            f"'{clean_slide_topic_boilerplate(slide_title) or badge_name}' "
             f"using Nano Banana (gemini-2.5-flash-image + post-generation prompt alignment verification) is estimated to cost "
             f"${total_cost:.2f} USD (${cost_per_img:.2f}/image + ~{est_tokens} tokens against the $1.00 deck cap). "
             "Please confirm your consent before generating."
@@ -1377,6 +1425,12 @@ def estimate_nano_banana_image_cost(
     )
     out = est.model_dump()
     out["consent_message"] = out["consent_prompt_text"]
+    out["effective_style"] = eff_style
+    out["style_source"] = resolved_cfg["style_source"]
+    out["include_humans"] = resolved_cfg["include_humans"]
+    out["humans_source"] = resolved_cfg["humans_source"]
+    out["paradigm_category"] = resolved_cfg["paradigm_category"]
+    out["routing_reason"] = resolved_cfg["routing_reason"]
     return out
 
 
@@ -1766,10 +1820,236 @@ def _synthesize_wikimedia_styled_image(
 _LAST_AI_SYNTHESIS_DIAGNOSTICS: Dict[str, Any] = {}
 
 
-def _save_ai_image_bytes(img_bytes: bytes, style_key: str, out_path: Path) -> bool:
-    """Saves native AI-generated image bytes at 1024x768 without applying destructive PIL edge filters."""
+def compress_hero_illustration(
+    raw_png_bytes: bytes,
+    target_size: Tuple[int, int] = (800, 600),
+) -> bytes:
+    """Downscales a 1024x768 Nano Banana PNG to 800x600 and quantizes to 256-color optimized PNG (~80-210 KB)."""
+    if not raw_png_bytes:
+        return b""
+    with Image.open(io.BytesIO(raw_png_bytes)) as im:
+        rgb = im.convert("RGB")
+        w, h = rgb.size
+        tw, th = target_size
+        if abs((w / float(max(1, h))) - (tw / float(max(1, th)))) <= 0.18:
+            fitted = rgb.resize((tw, th), Image.Resampling.LANCZOS)
+        else:
+            fitted = ImageOps.fit(rgb, (tw, th), method=Image.Resampling.LANCZOS)
+        quantized = fitted.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
+        buf = io.BytesIO()
+        quantized.save(buf, format="PNG", optimize=True, dpi=(220, 220))
+        return buf.getvalue()
+
+
+def resolve_content_aware_visual_config(
+    badge_name: str,
+    slide_title: str = "",
+    req_number: str = "1",
+    bullet_points: Optional[List[str]] = None,
+    custom_prompt: str = "",
+    visual_style: str = "Auto (Option E Content-Aware Mix)",
+    include_humans: Optional[Any] = "auto",
+) -> Dict[str, Any]:
+    """Option E Content-Aware Hybrid Mix router for Nano Banana illustrations and hero graphics.
+
+    Determines:
+    1. `paradigm_category`:
+       - `'GEAR_OR_ENVIRONMENT_NO_HUMANS'` (`default_include_humans=False`)
+       - `'CONCEPT_QUADRANT_MAP'` (`default_include_humans=True`, `recommended_style='4-Quadrant Concept Map'`)
+       - `'PROCEDURAL_FIELD_PLATE'` (`default_include_humans=True`, `recommended_style='Watercolor Field Sketch'` or `'Line Drawing'`)
+       - `'UNIFORMED_FIELD_ACTION'` (`default_include_humans=True`, `recommended_style='Photorealistic Image'`)
+    2. `effective_style`: Uses `recommended_style` when `visual_style` is `'Auto...'`, or preserves explicit style selection.
+    3. `include_humans`: Uses `default_include_humans` when `include_humans` is `'auto'`/`None`, or honors explicit `True`/`False`.
+    4. `enriched_subject`: Context-grounded visual scene description incorporating slide title and bullet points.
+    """
+    clean_title = clean_slide_topic_boilerplate(slide_title or "")
+    bps_clean: List[str] = []
+    for raw_b in (bullet_points or [])[:4]:
+        cb = clean_slide_topic_boilerplate(str(raw_b).strip())
+        if ":" in cb:
+            head, tail = cb.split(":", 1)
+            cb = f"{head.strip()} ({tail.strip()[:55]})" if len(head.strip()) < 28 else head.strip()
+        if cb:
+            bps_clean.append(cb[:75])
+
+    title_prompt_lower = f"{clean_title} {custom_prompt or ''}".lower()
+    combined_lower = f"{badge_name} {title_prompt_lower} {' '.join(bps_clean)}".lower()
+    req_clean = str(req_number or "1").strip().lower()
+
+    explicit_no_humans_phrases = (
+        "no humans", "no people", "without humans", "without people", "zero humans",
+        "flat-lay", "flat lay", "knolling", "equipment only", "gear only", "pure equipment",
+    )
+    explicit_human_phrases = (
+        "scout leader", "uniformed", "responder", "counselor", "instructor",
+        "demonstrating", "practicing", "applying", "rescuing", "performing",
+    )
+    gear_or_env_keywords = (
+        "first-aid kit", "first aid kit", "survival kit", "emergency kit", "mess kit",
+        "ten essentials", "10 essentials", "gear list", "packing list", "clothing",
+        "footwear", "camp stove", "tent anatomy", "water filter", "cloud",
+        "warm front", "cold front", "occluded front", "barometer", "anemometer",
+        "hygrometer", "rain gauge", "weather map", "isobar", "water cycle",
+        "acid rain", "greenhouse", "telescope", "constellation", "star chart",
+        "solar system", "moon phase", "eclipse", "light pollution", "spectrum",
+        "sensor", "actuator", "servo", "drivetrain", "circuit", "schematic",
+        "cad ", "flowchart", "subsystem", "food web", "ecosystem", "watershed",
+        "soil profile", "compost", "carbon footprint", "budget", "ledger",
+        "compound interest", "saving vs", "anatomical diagram", "cross-section",
+        "personal vs", "kit supplies", "kit contents",
+    )
+    concept_map_keywords = (
+        "triage", "hurry cases", "prerequisite", "safe swim defense", "safety afloat",
+        "leave no trace", "outdoor code", "tread lightly", "rights and duties",
+        "four-step", "4-tier", "branches of", "three branches", "principles of",
+    )
+    procedural_keywords = (
+        "tourniquet", "windlass", "bleeding", "hemorrhage", "bandage", "sling",
+        "splint", "fracture", "sprain", "cpr", "aed", "resuscitation", "choking",
+        "back blows", "heimlich", "five-and-five", "blister", "burn", "scald",
+        "bite", "sting", "tick", "venom", "poison", "hypothermia", "frostbite",
+        "heatstroke", "heat exhaustion", "dehydration", "knot", "lashing", "hitch",
+        "splice", "compass", "azimuth", "topographic", "contour", "stroke",
+        "rescue", "reach throw", "bowstring", "anchor point", "fletching",
+    )
+
+    has_explicit_no_humans = any(p in title_prompt_lower for p in explicit_no_humans_phrases)
+    has_gear_or_env = any(k in title_prompt_lower for k in gear_or_env_keywords) or (
+        badge_name.strip().lower() in ("weather", "astronomy", "robotics", "environmental science", "sustainability")
+        and any(k in combined_lower for k in gear_or_env_keywords)
+        and not any(h in clean_title.lower() for h in ("career", "counselor", "visit", "speech", "interview"))
+    )
+
+    det_hash = int(
+        hashlib.md5(f"{badge_name.strip().lower()}:{req_clean}:{clean_title.lower()}".encode("utf-8")).hexdigest()[:6],
+        16,
+    )
+
+    if has_explicit_no_humans or has_gear_or_env:
+        paradigm_category = "GEAR_OR_ENVIRONMENT_NO_HUMANS"
+        default_include_humans = False
+        if any(k in combined_lower for k in ("robotics", "sensor", "actuator", "servo", "drivetrain", "circuit", "cad", "subsystem", "versus", " vs ")):
+            recommended_style = "3D Isometric Illustration" if (det_hash % 2 == 0) else "Photorealistic Image"
+        elif any(k in combined_lower for k in ("cloud", "front", "water cycle", "constellation", "eclipse", "solar system", "ecosystem", "watershed", "food web")):
+            recommended_style = "Watercolor Field Sketch" if (det_hash % 2 == 0) else "Photorealistic Image"
+        else:
+            recommended_style = "Photorealistic Image"
+        routing_reason = "Equipment, kit inventory, scientific instrument, or natural phenomenon (Zero Humans / Pure Subject)"
+    elif req_clean in ("1", "1a", "overview") or any(k in title_prompt_lower for k in concept_map_keywords):
+        paradigm_category = "CONCEPT_QUADRANT_MAP"
+        default_include_humans = True
+        recommended_style = "4-Quadrant Concept Map"
+        routing_reason = "Multi-part foundational framework or triage overview (4-Quadrant Concept Map with Uniformed Scouts)"
+    elif any(k in title_prompt_lower for k in procedural_keywords):
+        paradigm_category = "PROCEDURAL_FIELD_PLATE"
+        default_include_humans = True
+        recommended_style = "Watercolor Field Sketch" if (det_hash % 2 == 0) else "Line Drawing"
+        routing_reason = f"Step-by-step hands-on procedure or field technique ({recommended_style} with Uniformed Scouts)"
+    else:
+        paradigm_category = "UNIFORMED_FIELD_ACTION"
+        default_include_humans = True
+        recommended_style = "Photorealistic Image"
+        routing_reason = "Outdoor field demonstration or leadership scenario (Photorealistic Action with Uniformed Scouts)"
+
+    # Resolve effective visual style
+    raw_style = (visual_style or "").strip()
+    if not raw_style or raw_style.lower().startswith("auto") or "option e" in raw_style.lower():
+        effective_style = recommended_style
+        style_source = "CONTENT_AWARE_AUTO"
+    else:
+        effective_style = raw_style
+        style_source = "EXPLICIT_SELECTION"
+        # If user explicitly picked Technical Diagram on a gear/system slide and include_humans is auto, default to False
+        if effective_style.lower() in ("technical diagram", "3d isometric illustration") and has_gear_or_env:
+            default_include_humans = False
+
+    # Resolve include_humans boolean
+    if isinstance(include_humans, bool):
+        resolved_humans = include_humans
+        humans_source = "EXPLICIT_OVERRIDE"
+    elif isinstance(include_humans, str) and include_humans.strip().lower() in ("true", "1", "yes", "include_humans", "uniformed", "humans"):
+        resolved_humans = True
+        humans_source = "EXPLICIT_OVERRIDE"
+    elif isinstance(include_humans, str) and include_humans.strip().lower() in ("false", "0", "no", "no_humans", "none", "equipment_only"):
+        resolved_humans = False
+        humans_source = "EXPLICIT_OVERRIDE"
+    else:
+        # Check if user typed explicit human action in custom_prompt when slide title was gear
+        if custom_prompt and any(p in custom_prompt.lower() for p in explicit_no_humans_phrases):
+            resolved_humans = False
+        elif custom_prompt and not has_gear_or_env and any(p in custom_prompt.lower() for p in explicit_human_phrases):
+            resolved_humans = True
+        else:
+            resolved_humans = default_include_humans
+        humans_source = "CONTENT_AWARE_AUTO"
+
+    base_subject = _extract_visual_subject_from_prompt(
+        badge_name=badge_name,
+        slide_title=slide_title,
+        custom_prompt=custom_prompt,
+        bullet_points=bullet_points,
+    )
+    bullet_context = "; ".join(bps_clean[:4])
+
+    if not resolved_humans:
+        # Strip human action prefixes so the prompt describes pure equipment, kits, or natural phenomena
+        pure_obj = re.sub(
+            r"^(adult\s+Scouts\s+BSA\s+Leaders?|Scouts\s+practicing|First\s+aid\s+responders?|Wilderness\s+first\s+aid\s+responders?|Emergency\s+first\s+aid\s+responder|[A-Za-z\s]+hands-on\s+(outdoor\s+)?demonstration\s+of)\s+",
+            "",
+            base_subject,
+            flags=re.IGNORECASE,
+        ).strip()
+        if not pure_obj or len(pure_obj) < 10:
+            pure_obj = clean_title or badge_name
+        if any(k in combined_lower for k in ("kit", "essentials", "gear", "packing", "stove", "utensil", "tool", "bandage", "gauze", "splint")):
+            enriched_subject = (
+                f"Overhead knolling equipment flat-lay on a rustic wooden camp table for {badge_name} ({clean_title or pure_obj}), "
+                f"neatly displaying physical supplies and gear ({bullet_context or pure_obj}) with zero human figures, no hands, and no people"
+            )
+        else:
+            enriched_subject = (
+                f"Detailed educational visual composition for {badge_name}: {pure_obj}"
+                + (f" — illustrating {bullet_context}" if bullet_context and bullet_context.lower() not in pure_obj.lower() else "")
+                + ", depicting only the physical equipment, instruments, or natural environment with zero human figures"
+            )
+    elif effective_style.lower() == "4-quadrant concept map":
+        enriched_subject = (
+            f"Four-quadrant educational visual concept map for {badge_name} Merit Badge ({clean_title or base_subject}) "
+            f"arranged around a central circular Scouts BSA merit badge emblem medallion, with the four illustrated quadrants "
+            f"visually depicting: {bullet_context or base_subject}"
+        )
+    else:
+        if bullet_context and len(base_subject) < 150 and bullet_context[:30].lower() not in base_subject.lower():
+            enriched_subject = f"{base_subject} (illustrating slide concepts: {bullet_context[:160]})"
+        else:
+            enriched_subject = base_subject
+
+    return {
+        "effective_style": effective_style,
+        "style_source": style_source,
+        "include_humans": resolved_humans,
+        "humans_source": humans_source,
+        "paradigm_category": paradigm_category,
+        "routing_reason": routing_reason,
+        "enriched_subject": enriched_subject[:380],
+        "base_subject": base_subject,
+    }
+
+
+def _save_ai_image_bytes(
+    img_bytes: bytes,
+    style_key: str,
+    out_path: Path,
+    compress_800x600: bool = False,
+) -> bool:
+    """Saves native AI-generated image bytes without applying destructive PIL edge filters."""
     if not img_bytes or len(img_bytes) < 2000:
         return False
+    if compress_800x600:
+        compressed = compress_hero_illustration(img_bytes, target_size=(800, 600))
+        if compressed and len(compressed) >= 3000:
+            out_path.write_bytes(compressed)
+            return out_path.exists() and os.path.getsize(str(out_path)) >= 3000
     with Image.open(io.BytesIO(img_bytes)) as im:
         rgb = im.convert("RGB")
         w, h = rgb.size
@@ -1788,6 +2068,8 @@ def _try_live_ai_image_synthesis(
     visual_style: str,
     seed_int: int,
     out_path: Path,
+    include_humans: bool = True,
+    compress_800x600: bool = False,
 ) -> bool:
     """Generates a zero-text concept illustration using Nano Banana (`gemini-2.5-flash-image`) and Vertex Imagen 3/4.
 
@@ -1795,10 +2077,10 @@ def _try_live_ai_image_synthesis(
     1. `gemini-2.5-flash-image` (Nano Banana) via `generate_content(..., response_modalities=["IMAGE", "TEXT"])`
        across `global` and `us-central1` endpoints.
     2. `imagen-3.0-generate-002` / `imagen-3.0-fast-generate-001` / `imagen-4.0-generate-001` via `generate_images`
-       with `person_generation="ALLOW_ADULT"`.
+       with `person_generation="ALLOW_ADULT"` (when `include_humans=True`) or `"DONT_ALLOW"` (when `include_humans=False`).
     """
     global _LAST_AI_SYNTHESIS_DIAGNOSTICS
-    _LAST_AI_SYNTHESIS_DIAGNOSTICS = {"model_used": None, "attempts": []}
+    _LAST_AI_SYNTHESIS_DIAGNOSTICS = {"model_used": None, "attempts": [], "include_humans": include_humans}
 
     if os.getenv("DISABLE_LIVE_IMAGE_GEN", "false").lower() == "true":
         _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append("DISABLE_LIVE_IMAGE_GEN=true")
@@ -1810,27 +2092,43 @@ def _try_live_ai_image_synthesis(
         f"{visual_style} illustration style, clean visual composition, no text, no words, no letters",
     )
 
-    # Replace youth-specific terms ('Boy Scout') with 'adult Scouts BSA Leader' so Vertex AI's
-    # person_generation safety filter allows rendering human figures while preserving Scouting identity.
-    safe_subject = re.sub(
-        r"\b(Boy\s+Scouts?|Scouts?)\b(?!\s+BSA)",
-        "adult Scouts BSA Leader",
-        visual_subject,
-        flags=re.IGNORECASE,
-    )
-    uniform_directive = (
-        "Uniform & Attire Requirement: Every person, responder, instructor, or participant depicted in the "
-        "scene MUST wear an authentic Adult Scouts BSA Field Uniform — specifically a classic tan button-up "
-        "short-sleeve Scout uniform shirt with shoulder epaulet loops and buttoned chest pockets, a rolled "
-        "Scout neckerchief with a woggle slide worn at the collar, and olive-green Scout field pants or shorts "
-        "with a web belt. "
-    )
+    if include_humans:
+        # Replace youth-specific terms ('Boy Scout') with 'adult Scouts BSA Leader' so Vertex AI's
+        # person_generation safety filter allows rendering human figures while preserving Scouting identity.
+        safe_subject = re.sub(
+            r"\b(Boy\s+Scouts?|Scouts?)\b(?!\s+BSA)",
+            "adult Scouts BSA Leader",
+            visual_subject,
+            flags=re.IGNORECASE,
+        )
+        subject_directive = (
+            "Uniform & Attire Requirement: Every person, responder, instructor, or participant depicted in the "
+            "scene MUST wear an authentic Adult Scouts BSA Field Uniform — specifically a classic tan button-up "
+            "short-sleeve Scout uniform shirt with shoulder epaulet loops and buttoned chest pockets, a rolled "
+            "Scout neckerchief with a woggle slide worn at the collar, and olive-green Scout field pants or shorts "
+            "with a web belt. "
+        )
+        closing_detail = "with accurate anatomical, uniform, and equipment detail"
+    else:
+        safe_subject = re.sub(
+            r"\b(adult\s+Scouts\s+BSA\s+Leaders?|Boy\s+Scouts?|Scouts\s+BSA\s+Leaders?)\b",
+            "",
+            visual_subject,
+            flags=re.IGNORECASE,
+        ).strip(" ,;-") or visual_subject
+        subject_directive = (
+            "Zero-Humans / Pure Equipment & Environment Requirement: Do NOT include any people, human figures, "
+            "faces, hands, arms, torsos, or body parts anywhere in the frame. Depict ONLY the physical equipment, "
+            "kits, scientific instruments, diagrams, or natural environment arranged cleanly in the scene. "
+        )
+        closing_detail = "with accurate physical equipment, instrument, and environmental detail and zero human figures"
+
     full_visual_prompt = (
         f"Create a high-detail educational Scouts BSA wilderness handbook illustration. "
         f"Subject: {safe_subject}. "
-        f"{uniform_directive}"
+        f"{subject_directive}"
         f"Art direction and style: {style_mod}. "
-        f"Clearly depict the complete subject ({safe_subject}) with accurate anatomical, uniform, and equipment detail, "
+        f"Clearly depict the complete subject ({safe_subject}) {closing_detail}, "
         f"and zero text, no words, no letters, and no labels printed on the image."
     )
 
@@ -1869,7 +2167,7 @@ def _try_live_ai_image_synthesis(
                             import base64
 
                             raw_data = base64.b64decode(raw_data)
-                        if _save_ai_image_bytes(raw_data, style_key, out_path):
+                        if _save_ai_image_bytes(raw_data, style_key, out_path, compress_800x600=compress_800x600):
                             _LAST_AI_SYNTHESIS_DIAGNOSTICS["model_used"] = f"{nano_model} ({loc})"
                             _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(f"SUCCESS:{nano_model}@{loc}")
                             return True
@@ -1893,6 +2191,7 @@ def _try_live_ai_image_synthesis(
             if m_id and m_id not in imagen_candidates:
                 imagen_candidates.append(m_id)
 
+        person_gen_mode = "ALLOW_ADULT" if include_humans else "DONT_ALLOW"
         for img_model in imagen_candidates:
             try:
                 resp = client.models.generate_images(
@@ -1901,13 +2200,13 @@ def _try_live_ai_image_synthesis(
                     config={
                         "number_of_images": 1,
                         "output_mime_type": "image/png",
-                        "person_generation": "ALLOW_ADULT",
+                        "person_generation": person_gen_mode,
                         "aspect_ratio": "4:3",
                     },
                 )
                 if resp and getattr(resp, "generated_images", None):
                     img_bytes = resp.generated_images[0].image.image_bytes
-                    if _save_ai_image_bytes(img_bytes, style_key, out_path):
+                    if _save_ai_image_bytes(img_bytes, style_key, out_path, compress_800x600=compress_800x600):
                         _LAST_AI_SYNTHESIS_DIAGNOSTICS["model_used"] = f"{img_model} ({default_loc})"
                         _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(f"SUCCESS:{img_model}@{default_loc}")
                         return True
@@ -1927,13 +2226,21 @@ def _try_live_ai_image_synthesis(
         ).rstrip("/")
         if cloud_run_url:
             try:
+                # Ensure zero-humans or 4-quadrant instructions appear at the start of custom_prompt (within 240 chars)
+                if not include_humans:
+                    bridged_prompt = f"Pure equipment or environment only with ZERO humans, no people, no hands, no arms: {safe_subject[:150]}"
+                elif "4-quadrant" in style_key:
+                    bridged_prompt = f"2x2 four-quadrant visual concept map arranged around a central Scouts BSA merit badge medallion: {safe_subject[:140]}"
+                else:
+                    bridged_prompt = safe_subject[:235]
                 req_payload = json.dumps(
                     {
                         "badge_name": "First Aid",
                         "req_number": "1",
-                        "slide_title": visual_subject[:80],
-                        "custom_prompt": visual_subject,
+                        "slide_title": "Custom Nano Banana Scene",
+                        "custom_prompt": bridged_prompt,
                         "visual_style": visual_style,
+                        "include_humans": include_humans,
                         "user_consented": True,
                     }
                 ).encode("utf-8")
@@ -1953,9 +2260,16 @@ def _try_live_ai_image_synthesis(
                         if remote_img_url.startswith("/")
                         else remote_img_url
                     )
-                    with urllib.request.urlopen(full_img_url, timeout=30) as img_resp:
-                        img_bytes = img_resp.read()
-                    if _save_ai_image_bytes(img_bytes, style_key, out_path):
+                    img_bytes = b""
+                    for _dl_try in range(6):
+                        try:
+                            with urllib.request.urlopen(full_img_url, timeout=30) as img_resp:
+                                img_bytes = img_resp.read()
+                            if img_bytes and len(img_bytes) > 2000:
+                                break
+                        except Exception:
+                            time.sleep(0.35)
+                    if _save_ai_image_bytes(img_bytes, style_key, out_path, compress_800x600=compress_800x600):
                         remote_model = (remote_data.get("prompt_alignment") or {}).get(
                             "ai_model_used", "gemini-2.5-flash-image (cloud-run-bridge)"
                         )
@@ -1971,7 +2285,6 @@ def _try_live_ai_image_synthesis(
     return False
 
 
-
 def generate_nano_banana_slide_image(
     badge_name: str,
     slide_title: str = "",
@@ -1983,27 +2296,38 @@ def generate_nano_banana_slide_image(
     beautification_tier: str = "STUDIO",
     user_consented: bool = False,
     style_preset: Optional[str] = None,
+    include_humans: Optional[Any] = "auto",
     **kwargs: Any,
 ) -> Dict[str, Any]:
     """Generates and verifies a concept-illustrative AI graphic via `NanoBananaImageAgent` after user cost consent.
 
     Pipeline:
-    1. Expands shorthand slide titles/prompts into concrete visual scene descriptions (`_extract_visual_subject_from_prompt`).
+    1. Resolves content-aware visual style and `include_humans` (`True` -> Adult Scouts BSA Field Uniform directive;
+       `False` -> Zero-Humans / Pure Equipment & Environment directive) via `resolve_content_aware_visual_config`.
     2. Enforces explicit FinOps cost consent (`$0.08 USD` per image).
-    3. Synthesizes the illustration in the requested `visual_style` (`Photorealistic Image`, `Line Drawing`,
-       `Cartoon Drawing`, `Technical Diagram`, `Watercolor Field Sketch`, `Editorial Vector Illustration`,
-       `3D Isometric Illustration`, or `Vintage Merit Badge Poster`).
+    3. Synthesizes the illustration in the resolved `effective_style`.
     4. Runs post-generation prompt & style alignment verification (`verify_generated_image_matches_prompt`).
-       If live diffusion times out or fails verification, automatically synthesizes a verified subject-grounded
-       styled illustration via `_synthesize_wikimedia_styled_image`.
     """
-    eff_style = (style_preset or visual_style or "Photorealistic Image").strip()
+    requested_style = (style_preset or visual_style or "Photorealistic Image").strip()
     if not badge_name or not str(badge_name).strip():
         return build_guided_tool_error(
             error_code="EMPTY_NANO_BANANA_BADGE",
             message="badge_name cannot be empty when generating a custom slide illustration.",
             remediation="Provide a valid Scouts BSA Merit Badge name.",
         )
+
+    resolved_cfg = resolve_content_aware_visual_config(
+        badge_name=badge_name,
+        slide_title=slide_title,
+        req_number=req_number,
+        bullet_points=bullet_points,
+        custom_prompt=custom_prompt,
+        visual_style=requested_style,
+        include_humans=include_humans,
+    )
+    eff_style = resolved_cfg["effective_style"]
+    resolved_humans: bool = bool(resolved_cfg["include_humans"])
+    visual_subject = resolved_cfg["enriched_subject"]
 
     cost_est = estimate_nano_banana_image_cost(
         badge_name=badge_name,
@@ -2020,6 +2344,7 @@ def generate_nano_banana_slide_image(
             "agent": "NanoBananaImageAgent",
             "requires_user_consent": True,
             "cost_estimate": cost_est,
+            "content_aware_config": resolved_cfg,
             "message": cost_est["consent_prompt_text"],
         }
 
@@ -2031,15 +2356,9 @@ def generate_nano_banana_slide_image(
             remediation="Use safe, educational Scouting descriptions.",
         )
 
-    visual_subject = _extract_visual_subject_from_prompt(
-        badge_name=badge_name,
-        slide_title=slide_title,
-        custom_prompt=custom_prompt,
-        bullet_points=bullet_points,
-    )
-
     cat_dir = _badge_catalog_dir(badge_name)
-    seed_str = f"{badge_name}:{req_number}:{slide_title}:{visual_subject}:{eff_style}:bsa_uniform_v2"
+    humans_tag = "bsa_uniform" if resolved_humans else "no_humans_gear"
+    seed_str = f"{badge_name}:{req_number}:{slide_title}:{visual_subject}:{eff_style}:{humans_tag}:v3"
     img_hash = hashlib.sha256(seed_str.encode("utf-8")).hexdigest()[:12]
     seed_int = int(img_hash[:6], 16) % 99999
     out_path = cat_dir / f"nanobanana_{img_hash}.png"
@@ -2077,6 +2396,7 @@ def generate_nano_banana_slide_image(
             visual_style=eff_style,
             seed_int=seed_int,
             out_path=out_path,
+            include_humans=resolved_humans,
         )
         if synthesized and out_path.exists():
             alignment_report = verify_generated_image_matches_prompt(
@@ -2132,13 +2452,17 @@ def generate_nano_banana_slide_image(
 
     if _LAST_AI_SYNTHESIS_DIAGNOSTICS.get("attempts"):
         alignment_report["ai_synthesis_attempts"] = _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"]
+    alignment_report["include_humans"] = resolved_humans
+    alignment_report["paradigm_category"] = resolved_cfg["paradigm_category"]
+    alignment_report["routing_reason"] = resolved_cfg["routing_reason"]
 
     alignment_report["attempts_used"] = max(1, attempts_used)
     score_pct = int(float(alignment_report.get("alignment_score", 0.92)) * 100)
     short_subj = visual_subject[:52] + ("..." if len(visual_subject) > 52 else "")
+    humans_badge = "Uniformed Scouts" if resolved_humans else "Equipment/Environment Only"
     title_out = f"{eff_style}: {short_subj}"[:72]
     desc_out = (
-        f"Custom {eff_style} illustrating '{visual_subject[:115]}' "
+        f"Custom {eff_style} ({humans_badge}) illustrating '{visual_subject[:115]}' "
         f"for {badge_name} Req {req_number} (Prompt Alignment Verified: {score_pct}%)."
     )
 
@@ -2152,7 +2476,7 @@ def generate_nano_banana_slide_image(
             "title": title_out,
             "description": desc_out,
             "source_type": "NANO_BANANA_AI",
-            "source_label": f"🍌 Nano Banana AI ({eff_style})",
+            "source_label": f"🍌 Nano Banana AI ({eff_style} • {humans_badge})",
             "image_path": str(out_path),
             "image_url": _to_web_asset_url(str(out_path)),
             "custom_prompt": visual_subject,
@@ -2165,6 +2489,9 @@ def generate_nano_banana_slide_image(
         "model": select_model_for_task("nano_banana_image"),
         "user_consented": True,
         "cost_estimate": cost_est,
+        "content_aware_config": resolved_cfg,
+        "include_humans": resolved_humans,
+        "effective_style": eff_style,
         "prompt_alignment": alignment_report,
         "visual_subject_used": visual_subject,
         "image_entry": entry,

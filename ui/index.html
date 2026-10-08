@@ -122,8 +122,8 @@
           <label class="m3-field-label" for="beautification-select">Slide Visual Polish Mode (Beautification Tier)</label>
           <select class="m3-select" id="beautification-select">
             <option value="STANDARD">Standard Fast Deck — Crisp White (~$0.14)</option>
-            <option value="BEAUTIFIED" selected>AI Beautified — Warm NotebookLM Editorial Cream (~$0.38)</option>
-            <option value="STUDIO">AI Studio — Dark Slate + EDGE Skill Concept Maps ($1.00 Budget)</option>
+            <option value="BEAUTIFIED" selected>AI Beautified — Warm NotebookLM Cream + Nano Banana Hero Graphics (~$0.38)</option>
+            <option value="STUDIO">AI Studio — Dark Slate + Nano Banana Hero Graphics ($1.00 Budget)</option>
           </select>
         </div>
 
@@ -344,7 +344,7 @@
               <strong>(1) Slide Layout</strong> rearranges the teaching cards;
               <strong>(2) Card Style</strong> changes card badges &amp; borders;
               <strong>(3) Brand Palette</strong> updates slide colors;
-              <strong>(4) Right-Side Graphic</strong> keeps the current graphic, restores the original slide picture/illustration, applies an EDGE Skill Concept Map, or sets <strong>None</strong> (removing the graphic and expanding text to full width). Use the <strong>Image Switcher &amp; Image Studio</strong> below to switch images, search web archives, or generate a custom Nano Banana AI graphic.
+              <strong>(4) Right-Side Graphic</strong> keeps the current graphic, restores the original slide picture/illustration, applies the Requirement's Nano Banana Hero Illustration (with EDGE Skill Concept Map fallback), or sets <strong>None</strong> (removing the graphic and expanding text to full width). Use the <strong>Image Switcher &amp; Image Studio</strong> below to switch images, search web archives, or generate a custom Nano Banana AI graphic.
             </div>
             <div style="display:grid; grid-template-columns: 1.35fr 1.25fr 1.05fr 1.25fr auto; gap:10px; align-items:end;">
               <div>
@@ -387,7 +387,7 @@
                 <select class="m3-select" id="codesign-source-select" style="padding:6px 8px; font-size:0.78rem;">
                   <option value="keep_current">Keep Current Slide Graphic</option>
                   <option value="restore_original">Restore Original Slide Graphic</option>
-                  <option value="ai_hero">EDGE Skill Concept Map (Badge Emblem)</option>
+                  <option value="ai_hero">🍌 Nano Banana Hero Graphic (or EDGE Concept Map)</option>
                   <option value="none">None (Remove Graphic &amp; Expand Text to Full Width)</option>
                 </select>
               </div>
@@ -694,22 +694,41 @@
         <div style="font-size:0.82rem; color:#334155; margin-bottom:10px;">
           <strong><code>NanoBananaImageAgent</code></strong> (`gemini-2.5-flash-image` / Vertex AI Imagen 3 + Prompt Alignment Verifier) creates a unique, context-specific illustration tailored to this slide and verifies that the generated image matches your prompt and style.
         </div>
-        <div style="display:grid; grid-template-columns: 1fr; gap:10px; margin-bottom:10px;">
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-bottom:10px;">
           <div>
             <label class="m3-field-label" for="studio-ai-style-select">1. Visual Illustration Style</label>
             <select class="m3-select" id="studio-ai-style-select">
+              <option value="Auto (Option E Content-Aware Mix)">✨ Auto (Option E Content-Aware Mix)</option>
               <option value="Photorealistic Image">Photorealistic Image</option>
+              <option value="4-Quadrant Concept Map">4-Quadrant Concept Map</option>
               <option value="Line Drawing">Line Drawing</option>
-              <option value="Cartoon Drawing">Cartoon Drawing</option>
-              <option value="Technical Diagram">Technical Diagram</option>
               <option value="Watercolor Field Sketch">Watercolor Field Sketch</option>
-              <option value="Editorial Vector Illustration">Editorial Vector Illustration</option>
+              <option value="Technical Diagram">Technical Diagram</option>
               <option value="3D Isometric Illustration">3D Isometric Illustration</option>
+              <option value="Editorial Vector Illustration">Editorial Vector Illustration</option>
+              <option value="Cartoon Drawing">Cartoon Drawing</option>
               <option value="Vintage Merit Badge Poster">Vintage Merit Badge Poster</option>
             </select>
           </div>
           <div>
-            <label class="m3-field-label" for="studio-ai-prompt-input">2. Visual Scene Description (pure visual concept — no text printed on image)</label>
+            <label class="m3-field-label" for="studio-ai-humans-select">2. Human Presence &amp; Uniform Directive</label>
+            <select class="m3-select" id="studio-ai-humans-select">
+              <option value="auto" selected>✨ Auto-Detect (Content-Aware Mix)</option>
+              <option value="true">👕 Include Humans (Adult Scouts BSA Uniforms)</option>
+              <option value="false">🧰 No Humans (Pure Equipment / Environment)</option>
+            </select>
+          </div>
+          <div style="grid-column: 1 / -1; display:flex; align-items:center; justify-content:space-between; gap:10px; background:#F0F9FF; border:1px solid #BAE6FD; border-radius:8px; padding:7px 12px; font-size:0.79rem; color:#0C4A6E; flex-wrap:wrap;">
+            <div id="studio-ai-humans-resolved-badge" style="font-weight:600;">
+              🧠 <strong>Content-Aware Active:</strong> Analyzing slide context for optimal style &amp; uniform directive...
+            </div>
+            <label style="display:flex; align-items:center; gap:6px; font-weight:700; color:#0369A1; cursor:pointer; white-space:nowrap;">
+              <input type="checkbox" id="studio-ai-include-humans-checkbox" checked style="width:15px; height:15px; accent-color:#003F87;" />
+              Include Uniformed Scouts (`include_humans`)
+            </label>
+          </div>
+          <div style="grid-column: 1 / -1;">
+            <label class="m3-field-label" for="studio-ai-prompt-input">3. Visual Scene Description (pure visual concept — no text printed on image)</label>
             <textarea class="m3-input" id="studio-ai-prompt-input" rows="3" style="font-family:var(--font-sans); resize:vertical;"></textarea>
           </div>
         </div>

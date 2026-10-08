@@ -107,11 +107,95 @@ def generate_ai_editorial_illustration(
 
     tier_tag = str(beautification_tier or "BEAUTIFIED").strip().upper()
     req_tag = str(req_number or "").strip()
+    if not req_tag and slide_title:
+        import re as _re
+
+        m_req = _re.search(r"(?:Requirement|Req)\s+([0-9a-zA-Z]+)", str(slide_title), flags=_re.IGNORECASE)
+        if m_req:
+            req_tag = m_req.group(1)
     bp_list = [str(b).strip() for b in (kwargs.get("bullet_points") or []) if str(b).strip()]
+    slug = "".join(ch if ch.isalnum() else "_" for ch in badge_name.strip().lower()).strip("_")
+    req_slug = "".join(ch if ch.isalnum() else "_" for ch in req_tag.lower()).strip("_")
+    if not req_slug:
+        for fallback_r in ("1", "1a"):
+            if (AI_ILLUSTRATIONS_DIR / f"{slug}_req_{fallback_r}_nano_hero.png").exists():
+                req_slug = fallback_r
+                req_tag = fallback_r
+                break
+
+    # Resolve Option E Content-Aware Hybrid Mix configuration (style + include_humans + full slide context)
+    from src.agents.image_studio import (
+        _try_live_ai_image_synthesis,
+        resolve_content_aware_visual_config,
+    )
+
+    resolved_cfg = resolve_content_aware_visual_config(
+        badge_name=badge_name.strip(),
+        slide_title=slide_title.strip(),
+        req_number=req_tag or "1",
+        bullet_points=bp_list,
+        custom_prompt="" if bp_list else visual_prompt.strip(),
+        visual_style=str(kwargs.get("visual_style") or "Auto (Option E Content-Aware Mix)"),
+        include_humans=kwargs.get("include_humans", "auto"),
+    )
+
+    # Tier 1: Deterministic Pre-Bundled or Previously Cached Nano Banana Hero Asset (800x600 compressed PNG)
+    nano_hero_path: Optional[Path] = (
+        AI_ILLUSTRATIONS_DIR / f"{slug}_req_{req_slug}_nano_hero.png" if req_slug else None
+    )
+    if nano_hero_path is not None and nano_hero_path.exists() and nano_hero_path.stat().st_size > 4_000:
+        return {
+            "badge_name": badge_name.strip(),
+            "slide_title": slide_title,
+            "image_path": str(nano_hero_path),
+            "cached_hit": True,
+            "hero_source": "NANO_BANANA_AI",
+            "effective_style": resolved_cfg["effective_style"],
+            "include_humans": resolved_cfg["include_humans"],
+            "paradigm_category": resolved_cfg["paradigm_category"],
+            "model_used": select_model_for_task("nano_banana_image") or "gemini-2.5-flash-image",
+            "accent_palette_key": accent_palette_key,
+            "status": "SUCCESS",
+        }
+
+    # Tier 2: On-the-Fly Live Nano Banana Synthesis (for uncached long-tail badges when Nano Banana is available)
+    allow_live_hero = (
+        os.environ.get("DISABLE_LIVE_IMAGE_GEN", "false").lower() != "true"
+        and not os.environ.get("PYTEST_CURRENT_TEST")
+        and nano_hero_path is not None
+    )
+    if allow_live_hero and nano_hero_path is not None:
+        try:
+            seed_int = int(hashlib.md5(f"{slug}:{req_slug}:{slide_title}".encode("utf-8")).hexdigest()[:6], 16) % 99999
+            live_ok = _try_live_ai_image_synthesis(
+                visual_subject=resolved_cfg["enriched_subject"],
+                visual_style=resolved_cfg["effective_style"],
+                seed_int=seed_int,
+                out_path=nano_hero_path,
+                include_humans=bool(resolved_cfg["include_humans"]),
+                compress_800x600=True,
+            )
+            if live_ok and nano_hero_path.exists() and nano_hero_path.stat().st_size > 4_000:
+                return {
+                    "badge_name": badge_name.strip(),
+                    "slide_title": slide_title,
+                    "image_path": str(nano_hero_path),
+                    "cached_hit": False,
+                    "hero_source": "NANO_BANANA_AI",
+                    "effective_style": resolved_cfg["effective_style"],
+                    "include_humans": resolved_cfg["include_humans"],
+                    "paradigm_category": resolved_cfg["paradigm_category"],
+                    "model_used": select_model_for_task("nano_banana_image") or "gemini-2.5-flash-image",
+                    "accent_palette_key": accent_palette_key,
+                    "status": "SUCCESS",
+                }
+        except Exception:
+            pass
+
+    # Tier 3: Graceful Fallback to Deterministic Matplotlib EDGE Skill Concept Map when Nano Banana is unavailable
     digest = hashlib.sha256(
         f"v36|{badge_name.strip()}|{req_tag}|{slide_title.strip()}|{visual_prompt.strip()}|{'|'.join(bp_list[:4])}|{accent_palette_key}|{tier_tag}".encode("utf-8")
     ).hexdigest()[:14]
-    slug = "".join(ch if ch.isalnum() else "_" for ch in badge_name.strip().lower()).strip("_")
     out_path = AI_ILLUSTRATIONS_DIR / f"{slug}_hero_{digest}.png"
 
     if out_path.exists() and out_path.stat().st_size > 4_000:
@@ -120,6 +204,9 @@ def generate_ai_editorial_illustration(
             "slide_title": slide_title,
             "image_path": str(out_path),
             "cached_hit": True,
+            "hero_source": "EDGE_CONCEPT_MAP",
+            "effective_style": "EDGE Skill Concept Map",
+            "include_humans": resolved_cfg["include_humans"],
             "model_used": select_model_for_task("imagen", "visual"),
             "accent_palette_key": accent_palette_key,
             "status": "SUCCESS",
@@ -129,40 +216,7 @@ def generate_ai_editorial_illustration(
         accent_palette_key, _PALETTE_HEX_MAP["NAVY_GOLD"]
     )
 
-    # Optional live Vertex AI / Gemini Imagen 3 invocation when explicitly enabled
-    if os.environ.get("USE_VERTEX_IMAGEN", "false").lower() == "true":
-        try:
-            from src.agents.image_studio import _get_genai_client
-
-            client = _get_genai_client()
-            if client is not None:
-                imagen_model = select_model_for_task("imagen", "visual")
-                resp = client.models.generate_images(
-                    model=imagen_model,
-                    prompt=(
-                        f"Clean editorial vector outdoor infographic illustration for Scouts BSA "
-                        f"{badge_name} Merit Badge: {visual_prompt}. Brand palette {primary_hex}, "
-                        f"{secondary_hex}, crisp modern educational diagram, no text clutter."
-                    ),
-                )
-                generated_images = getattr(resp, "generated_images", None) or []
-                if generated_images:
-                    img_bytes = getattr(generated_images[0].image, "image_bytes", None)
-                    if img_bytes:
-                        out_path.write_bytes(img_bytes)
-                        return {
-                            "badge_name": badge_name.strip(),
-                            "slide_title": slide_title,
-                            "image_path": str(out_path),
-                            "cached_hit": False,
-                            "model_used": imagen_model,
-                            "accent_palette_key": accent_palette_key,
-                            "status": "SUCCESS",
-                        }
-        except Exception:
-            pass
-
-    # Deterministic 220-DPI Visual Concept Map & EDGE Skill Hub Infographic
+    # Deterministic 220-DPI Visual Concept Map & EDGE Skill Hub Infographic Fallback
     import re
     import matplotlib.image as mpimg
 
@@ -560,7 +614,17 @@ def beautify_slide_storyboard(
                 and not has_existing_non_hero_diagram
             )
         )
-        if tier_upper in ("BEAUTIFIED", "STUDIO") and ai_images_count < effective_max_images and eligible_for_hero:
+        badge_slug_check = "".join(ch if ch.isalnum() else "_" for ch in badge_name.strip().lower()).strip("_")
+        req_slug_check = "".join(ch if ch.isalnum() else "_" for ch in req_num.lower()).strip("_")
+        has_prebundled_nano_hero = bool(
+            req_slug_check
+            and (AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{req_slug_check}_nano_hero.png").exists()
+        )
+        if (
+            tier_upper in ("BEAUTIFIED", "STUDIO")
+            and eligible_for_hero
+            and (ai_images_count < effective_max_images or (arch == "REQUIREMENT_INTRO" and has_prebundled_nano_hero))
+        ):
             raw_bps = list(slide.get("full_bullet_points") or slide.get("bullet_points") or [])
             bps_summary = ". ".join([str(b) for b in raw_bps[:3]])
             ai_prompt = f"{title}. {bps_summary}" if bps_summary else f"{badge_name} Requirement {req_num}: {title}."
@@ -577,13 +641,20 @@ def beautify_slide_storyboard(
                 ai_path = str(ill_res["image_path"])
                 slide["diagram_path"] = ai_path
                 slide["ai_hero_image_path"] = ai_path
-                slide["visual_source_label"] = (
-                    "🎨 Studio EDGE Concept Map (220-DPI)"
-                    if tier_upper == "STUDIO"
-                    else "✨ EDGE Skill Concept Map (220-DPI)"
-                )
-                if not slide.get("visual_caption"):
-                    slide["visual_caption"] = f"EDGE Skill Concept Map — {title}"
+                if ill_res.get("hero_source") == "NANO_BANANA_AI":
+                    eff_style_lbl = str(ill_res.get("effective_style") or "Nano Banana AI")
+                    humans_lbl = "Uniformed Scouts" if ill_res.get("include_humans", True) else "Pure Gear / Environment"
+                    slide["visual_source_label"] = f"🍌 Nano Banana Hero • {eff_style_lbl} ({humans_lbl})"
+                    if not slide.get("visual_caption") or "EDGE Skill Concept Map" in str(slide.get("visual_caption")):
+                        slide["visual_caption"] = f"{eff_style_lbl} — {title}"
+                else:
+                    slide["visual_source_label"] = (
+                        "🎨 Studio EDGE Concept Map (220-DPI)"
+                        if tier_upper == "STUDIO"
+                        else "✨ EDGE Skill Concept Map (220-DPI)"
+                    )
+                    if not slide.get("visual_caption"):
+                        slide["visual_caption"] = f"EDGE Skill Concept Map — {title}"
                 ai_images_count += 1
                 # When a Requirement Intro slide has a split right-side graphic + top requirement banner,
                 # cap the left-column bullets to 4 so text never overflows or crowds the card boxes.

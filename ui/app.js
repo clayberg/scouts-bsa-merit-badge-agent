@@ -1989,6 +1989,99 @@ function cleanSlideTopicBoilerplate(rawTitle) {
   return s.replace(/\s+/g, " ").replace(/^[,:;\-–—\s]+|[,:;\-–—\s]+$/g, "");
 }
 
+function resolveClientSideContentAwareConfig(badgeName, slide, customPrompt = "", styleVal = "Auto (Option E Content-Aware Mix)", humansMode = "auto") {
+  const cleanTitle = cleanSlideTopicBoilerplate(slide?.title || "");
+  const bullets = Array.isArray(slide?.bullet_points) ? slide.bullet_points : [];
+  const bulletText = bullets.slice(0, 4).map((b) => cleanSlideTopicBoilerplate(String(b))).join(" ");
+  const titlePromptLower = `${cleanTitle} ${customPrompt || ""}`.toLowerCase();
+  const combinedLower = `${badgeName || ""} ${titlePromptLower} ${bulletText}`.toLowerCase();
+  const reqClean = String(slide?.req_number || "1").trim().toLowerCase();
+
+  const noHumansPhrases = [
+    "no humans", "no people", "without humans", "without people", "zero humans",
+    "flat-lay", "flat lay", "knolling", "equipment only", "gear only", "pure equipment"
+  ];
+  const gearOrEnvKeywords = [
+    "first-aid kit", "first aid kit", "survival kit", "emergency kit", "mess kit",
+    "ten essentials", "10 essentials", "gear list", "packing list", "clothing",
+    "footwear", "camp stove", "tent anatomy", "water filter", "cloud",
+    "warm front", "cold front", "occluded front", "barometer", "anemometer",
+    "hygrometer", "rain gauge", "weather map", "isobar", "water cycle",
+    "acid rain", "greenhouse", "telescope", "constellation", "star chart",
+    "solar system", "moon phase", "eclipse", "light pollution", "spectrum",
+    "sensor", "actuator", "servo", "drivetrain", "circuit", "schematic",
+    "cad ", "flowchart", "subsystem", "food web", "ecosystem", "watershed",
+    "soil profile", "compost", "carbon footprint", "budget", "ledger",
+    "compound interest", "saving vs", "personal vs", "kit supplies", "kit contents"
+  ];
+  const conceptMapKeywords = [
+    "triage", "hurry cases", "prerequisite", "safe swim defense", "safety afloat",
+    "leave no trace", "outdoor code", "tread lightly", "rights and duties",
+    "four-step", "4-tier", "branches of", "three branches", "principles of"
+  ];
+  const proceduralKeywords = [
+    "tourniquet", "windlass", "bleeding", "hemorrhage", "bandage", "sling",
+    "splint", "fracture", "sprain", "cpr", "aed", "resuscitation", "choking",
+    "back blows", "heimlich", "five-and-five", "blister", "burn", "scald",
+    "bite", "sting", "tick", "venom", "poison", "hypothermia", "frostbite",
+    "heatstroke", "heat exhaustion", "dehydration", "knot", "lashing", "hitch",
+    "splice", "compass", "azimuth", "topographic", "contour", "stroke",
+    "rescue", "reach throw", "bowstring", "anchor point", "fletching"
+  ];
+
+  const hasExplicitNoHumans = noHumansPhrases.some((p) => titlePromptLower.includes(p));
+  const hasGearOrEnv = gearOrEnvKeywords.some((k) => titlePromptLower.includes(k));
+
+  let defaultIncludeHumans = true;
+  let recommendedStyle = "Photorealistic Image";
+  let categoryLabel = "Uniformed Field Action";
+
+  if (hasExplicitNoHumans || hasGearOrEnv) {
+    defaultIncludeHumans = false;
+    if (["robotics", "sensor", "actuator", "drivetrain", "circuit", "cad", "versus", " vs "].some((k) => combinedLower.includes(k))) {
+      recommendedStyle = "3D Isometric Illustration";
+    } else if (["cloud", "front", "water cycle", "constellation", "eclipse", "ecosystem", "watershed"].some((k) => combinedLower.includes(k))) {
+      recommendedStyle = "Watercolor Field Sketch";
+    } else {
+      recommendedStyle = "Photorealistic Image";
+    }
+    categoryLabel = "Pure Equipment / Kit Flat-Lay / Environment";
+  } else if (["1", "1a", "overview"].includes(reqClean) || conceptMapKeywords.some((k) => titlePromptLower.includes(k))) {
+    defaultIncludeHumans = true;
+    recommendedStyle = "4-Quadrant Concept Map";
+    categoryLabel = "4-Quadrant Concept Map Overview";
+  } else if (proceduralKeywords.some((k) => titlePromptLower.includes(k))) {
+    defaultIncludeHumans = true;
+    recommendedStyle = (cleanTitle.length % 2 === 0) ? "Watercolor Field Sketch" : "Line Drawing";
+    categoryLabel = "BSA Handbook Procedural Plate";
+  }
+
+  const isAutoStyle = !styleVal || styleVal.toLowerCase().startsWith("auto") || styleVal.toLowerCase().includes("option e");
+  const effectiveStyle = isAutoStyle ? recommendedStyle : styleVal;
+
+  if (!isAutoStyle && ["technical diagram", "3d isometric illustration"].includes(effectiveStyle.toLowerCase()) && hasGearOrEnv) {
+    defaultIncludeHumans = false;
+  }
+
+  let resolvedHumans = defaultIncludeHumans;
+  let humansSource = "Auto (Content-Aware)";
+  if (humansMode === true || humansMode === "true") {
+    resolvedHumans = true;
+    humansSource = "Explicit Override";
+  } else if (humansMode === false || humansMode === "false") {
+    resolvedHumans = false;
+    humansSource = "Explicit Override";
+  }
+
+  return {
+    effectiveStyle,
+    isAutoStyle,
+    includeHumans: resolvedHumans,
+    humansSource,
+    categoryLabel,
+  };
+}
+
 function buildDefaultVisualPromptForSlide(badgeName, slide) {
   const cleanTitle = cleanSlideTopicBoilerplate(slide?.title || "");
   const lower = `${cleanTitle} ${badgeName || ""}`.toLowerCase();
@@ -1996,7 +2089,7 @@ function buildDefaultVisualPromptForSlide(badgeName, slide) {
     return "Emergency first aid responder performing five back blows and Heimlich maneuver abdominal thrusts on a choking person";
   }
   if (lower.includes("first-aid kit") || lower.includes("first aid kit") || lower.includes("personal first-aid")) {
-    return "Open personal hiking first aid kit box displaying sterile gauze pads, adhesive bandages, medical tape, trauma scissors, and gloves";
+    return "Overhead knolling flat-lay of open personal hiking first aid kit and troop trauma kit displaying sterile gauze pads, adhesive bandages, SAM splint, medical tape, trauma scissors, and nitrile gloves on a camp table with no people";
   }
   if (lower.includes("windlass") || lower.includes("tourniquet") || lower.includes("bleeding")) {
     return "First aid responder applying direct pressure and tightening a windlass tourniquet strap on an injured arm to stop severe bleeding";
@@ -2011,13 +2104,19 @@ function buildDefaultVisualPromptForSlide(badgeName, slide) {
     return "Wilderness first aid responders evaluating airway, breathing, and circulation on an injured hiker during field triage";
   }
   const bullets = Array.isArray(slide?.bullet_points) ? slide.bullet_points : [];
-  let firstBullet = "";
-  if (bullets.length > 0) {
-    const b0 = cleanSlideTopicBoilerplate(String(bullets[0]));
-    firstBullet = b0.includes(":") ? b0.split(":").slice(1).join(":").trim() : b0;
+  const bpSummaries = bullets
+    .slice(0, 3)
+    .map((b) => {
+      const cleaned = cleanSlideTopicBoilerplate(String(b));
+      return cleaned.includes(":") ? cleaned.split(":")[0].trim() : cleaned.slice(0, 48).trim();
+    })
+    .filter(Boolean);
+  const cfg = resolveClientSideContentAwareConfig(badgeName, slide, "", "Auto (Option E Content-Aware Mix)", "auto");
+  if (!cfg.includeHumans) {
+    return `Detailed equipment flat-lay or scientific visual display of ${cleanTitle || badgeName}${bpSummaries.length ? ` (${bpSummaries.join(", ")})` : ""}, showing only physical gear, instruments, or natural phenomena with no humans`;
   }
-  if (cleanTitle && firstBullet) {
-    return `${badgeName} hands-on demonstration of ${cleanTitle}, showing ${firstBullet.slice(0, 95)}`;
+  if (cleanTitle && bpSummaries.length > 0) {
+    return `${badgeName} hands-on demonstration of ${cleanTitle}, illustrating ${bpSummaries.join(", ")}`;
   }
   return `${badgeName} hands-on outdoor demonstration of ${cleanTitle || badgeName}`;
 }
@@ -2033,6 +2132,10 @@ function bindImageStudioModal() {
   const webSearchBtn = document.getElementById("btn-studio-web-search");
   const nanoGenBtn = document.getElementById("btn-studio-ai-generate");
   const consentCheck = document.getElementById("studio-ai-consent-checkbox");
+  const styleSelectEl = document.getElementById("studio-ai-style-select");
+  const humansSelectEl = document.getElementById("studio-ai-humans-select");
+  const humansCheckboxEl = document.getElementById("studio-ai-include-humans-checkbox");
+  const resolvedBadgeEl = document.getElementById("studio-ai-humans-resolved-badge");
 
   const closeModal = () => {
     modal?.classList.remove("open");
@@ -2236,6 +2339,10 @@ function bindImageStudioModal() {
     if (aiPromptInput) {
       aiPromptInput.value = buildDefaultVisualPromptForSlide(state.currentResult.badge_name, slide);
     }
+    if (humansSelectEl) {
+      humansSelectEl.value = "auto";
+    }
+    updateNanoBananaContentAwareBanner();
     // Open popup modal immediately so the user gets instant visual feedback
     renderModalCatalogGrid();
     openModal();
@@ -2253,6 +2360,52 @@ function bindImageStudioModal() {
         }
       }
     } catch (_) {}
+  });
+
+  const updateNanoBananaContentAwareBanner = () => {
+    if (!state.currentResult || state.activeSlideIdx < 0) return;
+    const slides = state.currentResult.storyboard?.slides || [];
+    const slide = slides[state.activeSlideIdx] || {};
+    const styleVal = styleSelectEl?.value || "Auto (Option E Content-Aware Mix)";
+    const humansMode = humansSelectEl?.value || "auto";
+    const promptVal = document.getElementById("studio-ai-prompt-input")?.value || "";
+    const cfg = resolveClientSideContentAwareConfig(
+      state.currentResult.badge_name,
+      slide,
+      promptVal,
+      styleVal,
+      humansMode
+    );
+    if (humansCheckboxEl) {
+      humansCheckboxEl.checked = Boolean(cfg.includeHumans);
+    }
+    if (resolvedBadgeEl) {
+      const directiveIcon = cfg.includeHumans ? "👕" : "🧰";
+      const directiveText = cfg.includeHumans
+        ? "Adult Scouts BSA Field Uniforms"
+        : "Zero Humans (Pure Equipment / Environment)";
+      const modeTag = cfg.humansSource === "Explicit Override" ? "Manual Override" : "Option E Auto-Detected";
+      resolvedBadgeEl.innerHTML = `🧠 <strong>${escapeHtml(modeTag)}:</strong> ${directiveIcon} <strong>${escapeHtml(directiveText)}</strong> • Effective Style: <strong>${escapeHtml(cfg.effectiveStyle)}</strong>`;
+    }
+  };
+
+  styleSelectEl?.addEventListener("change", () => {
+    updateNanoBananaContentAwareBanner();
+  });
+
+  humansSelectEl?.addEventListener("change", () => {
+    updateNanoBananaContentAwareBanner();
+  });
+
+  humansCheckboxEl?.addEventListener("change", () => {
+    if (humansSelectEl) {
+      humansSelectEl.value = humansCheckboxEl.checked ? "true" : "false";
+    }
+    updateNanoBananaContentAwareBanner();
+  });
+
+  document.getElementById("studio-ai-prompt-input")?.addEventListener("input", () => {
+    updateNanoBananaContentAwareBanner();
   });
 
   closeBtn?.addEventListener("click", () => {
@@ -2350,14 +2503,24 @@ function bindImageStudioModal() {
     if (!consentCheck?.checked) return;
     const slides = state.currentResult.storyboard?.slides || [];
     const slide = slides[state.activeSlideIdx] || {};
-    const styleVal = document.getElementById("studio-ai-style-select")?.value || "Photorealistic Image";
+    const styleVal = document.getElementById("studio-ai-style-select")?.value || "Auto (Option E Content-Aware Mix)";
+    const humansMode = document.getElementById("studio-ai-humans-select")?.value || "auto";
     const customPrompt = document.getElementById("studio-ai-prompt-input")?.value || "";
+    const resolvedCfg = resolveClientSideContentAwareConfig(
+      state.currentResult.badge_name,
+      slide,
+      customPrompt,
+      styleVal,
+      humansMode
+    );
+    const includeHumansPayload = humansMode === "auto" ? "auto" : Boolean(resolvedCfg.includeHumans);
     const statusBox = document.getElementById("studio-ai-consent-msg");
     const origLabel = nanoGenBtn.textContent;
     nanoGenBtn.disabled = true;
     nanoGenBtn.textContent = "⏳ Generating & Verifying Nano Banana Graphic...";
     if (statusBox) {
-      statusBox.textContent = "🍌 NanoBananaImageAgent is synthesizing & verifying a slide-specific illustration...";
+      const dirDesc = resolvedCfg.includeHumans ? "Adult Scouts BSA Uniforms" : "Pure Equipment / Environment (Zero Humans)";
+      statusBox.textContent = `🍌 NanoBananaImageAgent is synthesizing & verifying a ${resolvedCfg.effectiveStyle} (${dirDesc})...`;
     }
     try {
       const resp = await fetch("/api/slide/generate-nano-banana-image", {
@@ -2370,6 +2533,7 @@ function bindImageStudioModal() {
           bullet_points: slide.bullet_points || [],
           custom_prompt: customPrompt,
           visual_style: styleVal,
+          include_humans: includeHumansPayload,
           accent_palette_key: slide.accent_palette_key || "NAVY_GOLD",
           beautification_tier: state.currentResult.beautification_tier || "BEAUTIFIED",
           user_consented: true,

@@ -842,12 +842,44 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         )
         assert direct_check["alignment_score"] > 0.0
 
-        # Verify Clear Web/AI Cache button and Tab 4 File Upload are present in both Web UI and Streamlit UI
+        # Verify Clear Web/AI Cache button, include_humans controls, and Tab 4 File Upload in both Web UI and Streamlit UI
+        from src.agents.image_studio import resolve_content_aware_visual_config
+
+        cfg_req1 = resolve_content_aware_visual_config(
+            badge_name="First Aid",
+            slide_title="Requirement 1: Triage & Primary Survey ABCs",
+            req_number="1",
+            bullet_points=["Scene safety", "4-Tier Triage", "Airway Breathing Circulation", "Recovery position"],
+        )
+        assert cfg_req1["include_humans"] is True
+        assert cfg_req1["effective_style"] == "4-Quadrant Concept Map"
+
+        cfg_req2b = resolve_content_aware_visual_config(
+            badge_name="First Aid",
+            slide_title="Requirement 2b: Personal vs. Troop First-Aid Kit",
+            req_number="2b",
+            bullet_points=["Adhesive bandages", "SAM splint", "Sterile gauze", "Nitrile gloves"],
+        )
+        assert cfg_req2b["include_humans"] is False
+        assert cfg_req2b["paradigm_category"] == "GEAR_OR_ENVIRONMENT_NO_HUMANS"
+
+        cfg_override = resolve_content_aware_visual_config(
+            badge_name="First Aid",
+            slide_title="Requirement 1: Triage & Primary Survey ABCs",
+            req_number="1",
+            include_humans=False,
+        )
+        assert cfg_override["include_humans"] is False
+        assert cfg_override["humans_source"] == "EXPLICIT_OVERRIDE"
+
         ui_html = client.get("/").text
         app_py_text = (Path(__file__).resolve().parents[1] / "src" / "app.py").read_text(encoding="utf-8")
         assert "btn-studio-clear-cache" in ui_html
         assert "Clear Web/AI Cache" in ui_html
         assert "Clear Web/AI Cache" in app_py_text
+        assert "studio-ai-humans-select" in ui_html
+        assert "studio-ai-include-humans-checkbox" in ui_html
+        assert "Human Presence & Uniform Directive" in app_py_text
         assert "import re" in app_py_text
         assert "studio-tab-upload" in ui_html
         assert "📁 4. File Upload" in ui_html
