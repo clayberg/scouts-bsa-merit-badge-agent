@@ -168,6 +168,28 @@ function updateConstructionBadgeEmblem(badgeName) {
 }
 
 const CONSTRUCTION_CONCEPT_ORDER = ["iso_heavy", "camp_pioneer", "clay_workshop"];
+const CONSTRUCTION_PRELOADED_IMAGES = new Map();
+
+function preloadConstructionAnimationFrames() {
+  for (const conceptKey of CONSTRUCTION_CONCEPT_ORDER) {
+    const concept = CONSTRUCTION_ANIM_CONCEPTS[conceptKey];
+    if (!concept || !Array.isArray(concept.frames)) continue;
+    for (const frame of concept.frames) {
+      if (!frame.src || CONSTRUCTION_PRELOADED_IMAGES.has(frame.src)) continue;
+      const preImg = new Image();
+      preImg.decoding = "async";
+      preImg.loading = "eager";
+      preImg.src = frame.src;
+      if (typeof preImg.decode === "function") {
+        preImg.decode().catch(() => {});
+      }
+      CONSTRUCTION_PRELOADED_IMAGES.set(frame.src, preImg);
+    }
+  }
+}
+
+// Kick off proactive frame preloading immediately upon script evaluation
+preloadConstructionAnimationFrames();
 
 function syncConstructionConceptButtons(activeConcept) {
   document.querySelectorAll(".m3-construction-concept-btn").forEach((b) => {
@@ -214,18 +236,37 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
   const counterEl = document.getElementById("construction-frame-counter");
   const dotsEl = document.getElementById("construction-frame-dots");
 
+  const applyFrameAndEmblem = () => {
+    if (imgEl && imgEl.getAttribute("src") !== frame.src) {
+      imgEl.src = frame.src;
+    }
+    if (slotEl && frame.emblemSlot) {
+      slotEl.style.left = frame.emblemSlot.left;
+      slotEl.style.top = frame.emblemSlot.top;
+      slotEl.style.width = frame.emblemSlot.width;
+    }
+    imgEl?.classList.remove("fade-step");
+  };
+
+  let preloaded = CONSTRUCTION_PRELOADED_IMAGES.get(frame.src);
+  if (!preloaded) {
+    preloaded = new Image();
+    preloaded.src = frame.src;
+    CONSTRUCTION_PRELOADED_IMAGES.set(frame.src, preloaded);
+  }
+
   if (imgEl && imgEl.getAttribute("src") !== frame.src) {
     imgEl.classList.add("fade-step");
-    setTimeout(() => {
-      imgEl.src = frame.src;
-      imgEl.classList.remove("fade-step");
-    }, 110);
+    if (preloaded.complete && preloaded.naturalWidth > 0) {
+      setTimeout(applyFrameAndEmblem, 95);
+    } else {
+      preloaded.addEventListener("load", applyFrameAndEmblem, { once: true });
+      preloaded.addEventListener("error", applyFrameAndEmblem, { once: true });
+    }
+  } else {
+    applyFrameAndEmblem();
   }
-  if (slotEl && frame.emblemSlot) {
-    slotEl.style.left = frame.emblemSlot.left;
-    slotEl.style.top = frame.emblemSlot.top;
-    slotEl.style.width = frame.emblemSlot.width;
-  }
+
   if (titleEl) titleEl.textContent = frame.title;
   if (descEl) descEl.textContent = frame.desc;
   if (counterEl) {
