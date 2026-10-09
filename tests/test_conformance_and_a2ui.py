@@ -1116,7 +1116,7 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
         slide2_shape_names = [s.name for s in prs.slides[1].shapes]
         assert any(name.startswith("CardAccent_Top_") for name in slide2_shape_names)
 
-        # Verify Slide 3 clean visual caption (no "🍌 Hero Illustration:" prefix), right visual frame, and 2-line 01-04 cards
+        # Verify Slide 3 clean visual caption (no "🍌 Hero Illustration:" prefix), right visual frame, and 2-line 01-04 cards + pill badges
         slide3_texts = "\n".join(
             s.text_frame.text for s in prs.slides[2].shapes if s.has_text_frame and s.text_frame.text.strip()
         )
@@ -1127,5 +1127,31 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
         slide3_shape_names = [s.name for s in prs.slides[2].shapes]
         assert any(name.startswith("CardAccent_RightVisualFrame") for name in slide3_shape_names)
         assert any(name.startswith("CardAccent_Left_") for name in slide3_shape_names)
+        assert any(name.startswith("CardAccent_StepPill_") for name in slide3_shape_names)
+
+    # 5. Verify _concise_card_body condenses long pamphlet paragraphs without ellipsis
+    from src.tools.pptx_builder import _concise_card_body
+    long_sentence = (
+        "Have current knowledge of all first-aid requirements for Tenderfoot, Second Class, "
+        "and First Class ranks, which removes hesitation during a real medical emergency in the field."
+    )
+    concise = _concise_card_body(long_sentence, max_words=18, max_chars=125)
+    assert "..." not in concise
+    assert "…" not in concise
+    assert len(concise.split()) <= 18
+    assert len(concise) <= 130
+
+    # 6. Verify Scout Slide Construction Animation Stage & 14 Compressed Storyboard Frames
+    assert 'id="slide-construction-stage"' in html
+    assert 'id="construction-badge-emblem-overlay"' in html
+    assert "showConstructionAnimationStage" in app_js
+    assert "hideConstructionAnimationStage" in app_js
+    anim_dir = Path("assets/construction_anim")
+    assert anim_dir.is_dir()
+    anim_files = list(anim_dir.glob("*.jpg"))
+    assert len(anim_files) == 14
+    for af in anim_files:
+        assert 15_000 < af.stat().st_size < 150_000, f"Unexpected size for {af.name}: {af.stat().st_size}"
+
 
 

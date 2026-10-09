@@ -145,6 +145,62 @@ def _split_anchor_and_body(point_text: str, default_anchor: str = "Key Point") -
     return default_anchor, cleaned
 
 
+_DANGLING_TAIL_WORDS = {
+    "and", "or", "with", "to", "for", "in", "on", "of", "by", "the", "a", "an",
+    "that", "which", "while", "when", "if", "from", "into", "at", "as", "such",
+    "including", "through", "during", "before", "after", "under", "over", "between",
+}
+
+
+def _concise_card_body(body_text: str, max_words: int = 24, max_chars: int = 150) -> str:
+    """Condenses a long pamphlet sentence into a crisp clause without ellipsis ('...') so cards stay airy."""
+    cleaned = _clean_text(body_text)
+    if not cleaned:
+        return ""
+    words = cleaned.split()
+    if len(words) <= max_words and len(cleaned) <= max_chars:
+        return cleaned
+
+    # Try splitting at a sentence or secondary clause boundary if the primary clause is substantive
+    for sep in (
+        ". ",
+        "; ",
+        " — ",
+        " – ",
+        ", which ",
+        ", while ",
+        ", ensuring ",
+        ", allowing ",
+        ", including ",
+        ", such as ",
+        ", especially ",
+        " so that ",
+        " in order to ",
+        ", and ",
+        ", or ",
+        ", then ",
+    ):
+        if sep in cleaned:
+            head = cleaned.split(sep, 1)[0].strip().rstrip(",;:-")
+            head_words = head.split()
+            if 6 <= len(head_words) <= max_words and len(head) <= max_chars:
+                return head if head.endswith((".", "!", "?")) else f"{head}."
+
+    # Otherwise cap at max_words and trim any trailing conjunction/preposition/article cleanly
+    capped = list(words[:max_words])
+    while len(capped) > 6 and " ".join(capped) and len(" ".join(capped)) > max_chars:
+        capped.pop()
+    while len(capped) > 6 and capped[-1].lower().strip(",;:-.()") in _DANGLING_TAIL_WORDS:
+        capped.pop()
+    result = " ".join(capped).rstrip(",;:-(")
+    if result.count("(") > result.count(")"):
+        result = result.rsplit("(", 1)[0].strip().rstrip(",;:-")
+    if result and not result.endswith((".", "!", "?")):
+        result += "."
+    return result
+
+
+
 def _compute_fitting_font_size(
     paragraphs_text: List[str],
     box_w_in: float,
@@ -306,6 +362,61 @@ def _add_styled_box(
     tf.margin_top = Inches(0.10)
     tf.margin_bottom = Inches(0.08)
     return shape
+
+
+def _indent_paragraph_for_pill(paragraph: Any, indent_in: float = 0.52) -> None:
+    """Indents a card header paragraph's left margin so the anchor text sits cleanly to the right of a step pill badge."""
+    try:
+        pPr = paragraph._p.get_or_add_pPr()
+        pPr.set("marL", str(int(round(float(indent_in) * 914400))))
+        pPr.set("indent", "0")
+    except Exception:
+        pass
+
+
+def _add_step_pill_badge(
+    slide: Any,
+    left_in: float,
+    top_in: float,
+    pill_text: str,
+    bg_rgb: Tuple[int, int, int],
+    text_rgb: Tuple[int, int, int] = (255, 255, 255),
+    width_in: float = 0.45,
+    height_in: float = 0.26,
+) -> Any:
+    """Adds a dedicated dark/colored rounded pill shape (`CardAccent_StepPill_...`) for `01`–`04` and `STEP 1`–`STEP 4`."""
+    pill = slide.shapes.add_shape(
+        MSO_SHAPE.ROUNDED_RECTANGLE,
+        Inches(left_in),
+        Inches(top_in),
+        Inches(width_in),
+        Inches(height_in),
+    )
+    pill.name = f"CardAccent_StepPill_{len(slide.shapes)}"
+    _set_rounded_rect_radius(pill, width_in, height_in, radius_in=0.055)
+    pill.fill.solid()
+    pill.fill.fore_color.rgb = RGBColor(*bg_rgb)
+    pill.line.color.rgb = RGBColor(*bg_rgb)
+    pill.line.width = Pt(0.75)
+    tf = pill.text_frame
+    tf.word_wrap = True
+    tf.vertical_anchor = MSO_ANCHOR.MIDDLE
+    tf.margin_left = Inches(0.06)
+    tf.margin_right = Inches(0.03)
+    tf.margin_top = Inches(0.01)
+    tf.margin_bottom = Inches(0.01)
+    _set_paragraph_runs(
+        tf.paragraphs[0],
+        pill_text,
+        "",
+        font_size_pt=15.0,
+        anchor_rgb=text_rgb,
+        body_rgb=text_rgb,
+        space_after_pt=0.0,
+    )
+    if tf.paragraphs[0].runs:
+        tf.paragraphs[0].runs[0].text = f"{_clean_text(pill_text)}  "
+    return pill
 
 
 def _set_paragraph_runs(
@@ -605,11 +716,13 @@ def _render_stacked_point_cards(
         if card_heights:
             card_heights[-1] = round(avail_cards_h - sum(card_heights[:-1]), 3)
 
+        tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
         cur_top = top_in
         for idx_pt, (pt, c_h) in enumerate(zip(clean_pts, card_heights)):
             c_top = round(cur_top, 3)
             cur_top += c_h + gap_y
-            raw_anchor, body = _split_anchor_and_body(pt, "")
+            raw_anchor, raw_body = _split_anchor_and_body(pt, "")
+            body = _concise_card_body(raw_body)
             anchor, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
                 slide_spec, idx_pt, raw_anchor, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
             )
@@ -634,24 +747,53 @@ def _render_stacked_point_cards(
             tf.margin_left = Inches(0.14 if width_in < 7.0 else 0.18)
             tf.margin_right = Inches(0.14 if width_in < 7.0 else 0.18)
 
+            use_step_pill = (
+                tier != "STANDARD"
+                and anchor.startswith(f"0{idx_pt + 1}")
+                and bool(raw_anchor and body and c_h >= 0.72)
+            )
+
             if raw_anchor and body and c_h >= 0.72:
                 f_pt = _compute_fitting_font_size(
                     [anchor, body],
                     box_w_in=width_in - 0.10,
                     box_h_in=c_h,
                     min_pt=15.0,
-                    max_pt=18.0 if width_in > 8.0 else 16.0,
-                    space_after_pt=2.0,
+                    max_pt=18.0 if width_in > 8.0 else 16.5,
+                    space_after_pt=2.5,
                 )
+                header_text = raw_anchor if use_step_pill else anchor
                 _set_paragraph_runs(
                     tf.paragraphs[0],
-                    anchor,
+                    header_text,
                     "",
                     font_size_pt=f_pt,
                     anchor_rgb=c_anchor_rgb,
                     body_rgb=c_body_rgb,
-                    space_after_pt=2.0,
+                    space_after_pt=2.5,
                 )
+                if use_step_pill:
+                    _indent_paragraph_for_pill(tf.paragraphs[0], indent_in=0.52)
+                    pill_left = round(
+                        left_in + (0.0 if use_top_bar else 0.075) + (0.14 if width_in < 7.0 else 0.18),
+                        3,
+                    )
+                    pill_top = round(
+                        c_top + (0.065 if use_top_bar else 0.0) + (0.055 if c_h < 0.94 else 0.075),
+                        3,
+                    )
+                    pill_bg = primary_rgb if tier == "STUDIO" else (15, 23, 42)
+                    pill_fg = (15, 23, 42) if tier == "STUDIO" else (255, 255, 255)
+                    _add_step_pill_badge(
+                        slide,
+                        left_in=pill_left,
+                        top_in=pill_top,
+                        pill_text=f"0{idx_pt + 1}",
+                        bg_rgb=pill_bg,
+                        text_rgb=pill_fg,
+                        width_in=0.45,
+                        height_in=0.25,
+                    )
                 p_body = tf.add_paragraph()
                 _set_paragraph_runs(
                     p_body,
@@ -1360,7 +1502,9 @@ def _render_step_by_step_4card_zone(
             (0.60, row2_top, 6.15 if len(step_items) == 3 else 3.00),
             (3.75, row2_top, 3.00),
         ]
-    for idx_s, ((badge, anchor, body), (lx, ty, cw)) in enumerate(zip(step_items[:4], grid_coords)):
+    tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    for idx_s, ((badge, anchor, raw_body), (lx, ty, cw)) in enumerate(zip(step_items[:4], grid_coords)):
+        body = _concise_card_body(raw_body)
         _, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
             slide_spec, idx_s, anchor, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
         )
@@ -1386,17 +1530,34 @@ def _render_step_by_step_4card_zone(
             box_w_in=cw,
             box_h_in=card_h,
             min_pt=15.0,
-            max_pt=18.5 if full_width else 16.0,
+            max_pt=18.5 if full_width else 16.5,
             space_after_pt=4.5,
         )
+        use_pill = tier != "STANDARD" and card_h >= 1.10
         _set_paragraph_runs(
             tf.paragraphs[0],
-            head_line,
+            anchor if use_pill else head_line,
             "",
             font_size_pt=min(19.5, step_font_pt + 0.5),
             anchor_rgb=c_anchor_rgb,
             space_after_pt=4.5,
         )
+        if use_pill:
+            _indent_paragraph_for_pill(tf.paragraphs[0], indent_in=0.92)
+            pill_left = round(lx + (0.0 if use_top_bar else 0.075) + 0.16, 3)
+            pill_top = round(ty + (0.065 if use_top_bar else 0.0) + 0.09, 3)
+            pill_bg = primary_rgb if tier == "STUDIO" else (15, 23, 42)
+            pill_fg = (15, 23, 42) if tier == "STUDIO" else (255, 255, 255)
+            _add_step_pill_badge(
+                slide,
+                left_in=pill_left,
+                top_in=pill_top,
+                pill_text=badge,
+                bg_rgb=pill_bg,
+                text_rgb=pill_fg,
+                width_in=0.84,
+                height_in=0.26,
+            )
         p_body = tf.add_paragraph()
         _set_paragraph_runs(
             p_body,

@@ -235,6 +235,42 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
                                 )
                             )
 
+                # 7. Check vertical wrapped text capacity inside card shapes (prevent text spilling outside card borders)
+                if not str(s_name).startswith("CardAccent_") and height_in >= 0.55 and width_in >= 1.50:
+                    usable_w_in = max(1.10, width_in - 0.30)
+                    est_total_h_in = 0.08
+                    for p in paragraphs:
+                        p_txt = (p.text or "").strip()
+                        if not p_txt:
+                            continue
+                        p_pt = 15.0
+                        if p.font and p.font.size is not None:
+                            p_pt = float(p.font.size.pt)
+                        else:
+                            run_pts = [
+                                float(r.font.size.pt)
+                                for r in p.runs
+                                if (r.text or "").strip() and r.font and r.font.size is not None
+                            ]
+                            if run_pts:
+                                p_pt = min(run_pts)
+                        chars_per_line = max(16.0, usable_w_in / max(0.04, (p_pt * 0.50) / 72.0))
+                        n_lines = max(1, int((len(p_txt) + chars_per_line - 1) // chars_per_line))
+                        est_total_h_in += n_lines * ((p_pt * 1.22) / 72.0)
+                    if est_total_h_in > height_in * 1.45:
+                        issues.append(
+                            ConformanceIssue(
+                                slide_index=slide_idx,
+                                issue_type="TEXT_BOX_OVERFLOW",
+                                severity="WARNING",
+                                description=(
+                                    f"Slide {slide_idx} {s_name} estimated text height ({est_total_h_in:.2f}in) "
+                                    f"exceeds box height ({height_in:.2f}in)."
+                                ),
+                                remediation_hint="Use _concise_card_body or reduce font size so text stays inside card.",
+                            )
+                        )
+
         # 2. Check pairwise AABB shape intersection on the current slide
         num_boxes = len(boxes)
         for i in range(num_boxes):

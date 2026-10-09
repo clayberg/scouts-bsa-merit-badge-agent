@@ -280,7 +280,86 @@
 
         <!-- Right Widescreen 16:9 Live Preview -->
         <div class="m3-slide-canvas-wrapper">
-          <div class="m3-slide-toolbar">
+          <!-- CUTE ZERO-STATE & SLIDE-GENERATION SCOUT CONSTRUCTION ANIMATION STAGE -->
+          <div class="m3-construction-stage" id="slide-construction-stage">
+            <div class="m3-construction-topbar">
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                <span class="m3-chip m3-chip-gold" id="construction-status-pill">🏗️ SCOUT SLIDE CREW AT WORK</span>
+                <span style="font-family:'Roboto Slab',serif; font-size:0.92rem; font-weight:800; color:#003F87;" id="construction-stage-heading">
+                  Building First Aid Merit Badge Deck...
+                </span>
+              </div>
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                <button type="button" class="m3-construction-concept-btn active" data-concept="iso_heavy" id="btn-concept-iso-heavy">
+                  🏗️ 1. 3D Heavy Equipment (6f)
+                </button>
+                <button type="button" class="m3-construction-concept-btn" data-concept="camp_pioneer" id="btn-concept-camp-pioneer">
+                  🪵 2. 2D Camp Pioneering (4f)
+                </button>
+                <button type="button" class="m3-construction-concept-btn" data-concept="clay_workshop" id="btn-concept-clay-workshop">
+                  ⚙️ 3. 3D Slide-O-Matic (4f)
+                </button>
+                <button type="button" class="m3-btn m3-btn-filled hidden" id="btn-close-construction-anim" style="padding:5px 11px; font-size:0.76rem;">
+                  ✨ View Finished Slides
+                </button>
+              </div>
+            </div>
+
+            <!-- 16:9 ANIMATED STORYBOARD CANVAS WITH DYNAMIC TRANSPARENT MERIT BADGE EMBLEM OVERLAY -->
+            <div class="m3-construction-viewport" id="construction-viewport">
+              <img
+                id="construction-frame-img"
+                class="m3-construction-frame-img"
+                src="/assets/construction_anim/iso_heavy_1_blueprint.jpg"
+                alt="Scouts constructing Merit Badge slide deck"
+              />
+
+              <!-- Dynamic Transparent Merit Badge PNG Emblem Overlay positioned inside the frame's mounting ring -->
+              <div class="m3-construction-emblem-slot" id="construction-emblem-slot" title="Live Transparent Merit Badge Emblem Overlay">
+                <img
+                  id="construction-badge-emblem-overlay"
+                  src="/assets/badge_emblems/first_aid.png"
+                  alt="Merit Badge Emblem Overlay"
+                />
+              </div>
+
+              <!-- Bottom-Left Work-Order Badge Signboard Overlay -->
+              <div class="m3-construction-workorder-pill">
+                <img
+                  id="construction-workorder-emblem"
+                  src="/assets/badge_emblems/first_aid.png"
+                  alt="Badge Emblem"
+                />
+                <div>
+                  <div class="m3-construction-workorder-kicker" id="construction-workorder-kicker">ACTIVE WORK ORDER • NANO BANANA ANIMATION</div>
+                  <div class="m3-construction-workorder-title" id="construction-workorder-title">First Aid Merit Badge</div>
+                </div>
+              </div>
+
+              <!-- Bottom-Right Step Counter & Play/Pause Controls -->
+              <div class="m3-construction-controls-pill">
+                <button type="button" class="m3-construction-ctrl-btn" id="btn-construction-prev" title="Previous Construction Frame">◀</button>
+                <button type="button" class="m3-construction-ctrl-btn" id="btn-construction-playpause" title="Pause / Resume Animation">⏸</button>
+                <button type="button" class="m3-construction-ctrl-btn" id="btn-construction-next" title="Next Construction Frame">▶</button>
+                <span class="m3-construction-frame-counter" id="construction-frame-counter">Frame 1 / 6</span>
+              </div>
+            </div>
+
+            <!-- CAPTION & INTERACTIVE FRAME STEPPER DOTS -->
+            <div class="m3-construction-footer">
+              <div class="m3-construction-caption-box">
+                <div class="m3-construction-step-title" id="construction-step-title">
+                  Step 1: Unrolling the 16:9 Slide Blueprint &amp; Clearing the Foundation
+                </div>
+                <div class="m3-construction-step-desc" id="construction-step-desc">
+                  Miniature Scouts inspect the 12-archetype slide blueprint on sawhorses while the yellow mini-bulldozer levels the warm cream 16:9 slide platform.
+                </div>
+              </div>
+              <div class="m3-construction-dots" id="construction-frame-dots"></div>
+            </div>
+          </div>
+
+          <div class="m3-slide-toolbar hidden" id="slide-stage-toolbar">
             <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
               <span class="m3-chip m3-chip-primary" id="active-slide-index-chip">Slide 1</span>
               <span class="m3-chip m3-chip-secondary" id="active-slide-req-chip">Cover Slide</span>
@@ -289,6 +368,9 @@
               <span class="m3-chip m3-chip-gold hidden" id="active-slide-grounded-chip">🌐 Grounded Research</span>
             </div>
             <div style="display:flex; align-items:center; gap:8px;">
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-toggle-construction-anim" title="Preview the 3 Scout Slide Construction Animations" style="padding:6px 11px; font-size:0.78rem;">
+                🏗️ Scout Construction Anim
+              </button>
               <button type="button" class="m3-btn m3-btn-outlined" id="btn-prev-slide" style="padding:6px 12px; font-size:0.80rem;">
                 <span class="material-symbols-outlined" style="font-size:16px;">chevron_left</span>
                 Prev Slide
@@ -301,7 +383,7 @@
           </div>
 
           <!-- 16:9 WIDESCREEN SLIDE STAGE -->
-          <div class="m3-widescreen-slide" id="widescreen-slide-stage">
+          <div class="m3-widescreen-slide hidden" id="widescreen-slide-stage">
             <div class="m3-slide-header-band" id="stage-header-band">
               <div class="m3-slide-header-title" id="stage-slide-title">Loading Slide...</div>
               <div id="stage-magazine-badge" class="hidden" style="margin-top:4px;"></div>
@@ -419,7 +501,7 @@
           </div>
 
           <!-- COUNSELOR TEACHING NOTES -->
-          <div class="m3-speaker-notes-card">
+          <div class="m3-speaker-notes-card hidden" id="slide-speaker-notes-card">
             <div class="m3-card-header" style="margin-bottom:8px;">
               <h3 class="m3-card-title" id="stage-presenter-notes-heading">
                 <span class="material-symbols-outlined">record_voice_over</span>

@@ -1145,3 +1145,262 @@ html, body {
   border: 1px solid #E2E8F0;
 }
 
+/* ============================================================================
+   SCOUT SLIDE CONSTRUCTION ANIMATION STAGE (ZERO-STATE & LIVE GENERATION)
+   ============================================================================ */
+
+.m3-construction-stage {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FAF6F0 100%);
+  border-radius: var(--md-sys-shape-corner-lg);
+  border: 2px solid #CBD5E1;
+  box-shadow: var(--shadow-elevation-3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.m3-construction-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px 18px;
+  background: #FFFFFF;
+  border-bottom: 1.5px solid #E2E8F0;
+}
+
+.m3-construction-concept-btn {
+  padding: 5px 11px;
+  border-radius: 999px;
+  border: 1.5px solid #CBD5E1;
+  background: #F8FAFC;
+  color: #334155;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 160ms ease;
+}
+
+.m3-construction-concept-btn:hover {
+  border-color: #003F87;
+  color: #003F87;
+  background: #EFF6FF;
+}
+
+.m3-construction-concept-btn.active {
+  background: #003F87;
+  color: #FFFFFF;
+  border-color: #003F87;
+  box-shadow: 0 2px 6px rgba(0, 63, 135, 0.22);
+}
+
+.m3-construction-viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #FAF6F0;
+  overflow: hidden;
+  user-select: none;
+}
+
+.m3-construction-frame-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 280ms ease, transform 420ms ease;
+}
+
+.m3-construction-frame-img.fade-step {
+  opacity: 0.42;
+  transform: scale(1.012);
+}
+
+@keyframes scoutEmblemFloat {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateY(0px) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-3.5px) scale(1.03);
+  }
+}
+
+.m3-construction-emblem-slot {
+  position: absolute;
+  left: 68.5%;
+  top: 21.0%;
+  width: 8.5%;
+  aspect-ratio: 1 / 1;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: left 420ms cubic-bezier(0.22, 1, 0.36, 1),
+              top 420ms cubic-bezier(0.22, 1, 0.36, 1),
+              width 420ms cubic-bezier(0.22, 1, 0.36, 1);
+  animation: scoutEmblemFloat 2.8s ease-in-out infinite;
+  filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.28));
+}
+
+.m3-construction-emblem-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.m3-construction-workorder-pill {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(15, 23, 42, 0.86);
+  backdrop-filter: blur(8px);
+  color: #FFFFFF;
+  padding: 7px 14px 7px 9px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(244, 196, 48, 0.65);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.28);
+}
+
+.m3-construction-workorder-pill img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+}
+
+.m3-construction-workorder-kicker {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #F4C430;
+  text-transform: uppercase;
+}
+
+.m3-construction-workorder-title {
+  font-family: var(--font-serif);
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.m3-construction-controls-pill {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.84);
+  backdrop-filter: blur(8px);
+  color: #FFFFFF;
+  padding: 5px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.m3-construction-ctrl-btn {
+  background: rgba(255, 255, 255, 0.14);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 0.70rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 150ms ease;
+}
+
+.m3-construction-ctrl-btn:hover {
+  background: #F4C430;
+  color: #0F172A;
+}
+
+.m3-construction-frame-counter {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #E2E8F0;
+  margin-left: 4px;
+}
+
+.m3-construction-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 12px 18px;
+  background: #FFFFFF;
+  border-top: 1.5px solid #E2E8F0;
+}
+
+.m3-construction-caption-box {
+  flex: 1;
+  min-width: 240px;
+}
+
+.m3-construction-step-title {
+  font-family: var(--font-serif);
+  font-size: 0.90rem;
+  font-weight: 800;
+  color: #003F87;
+  margin-bottom: 2px;
+}
+
+.m3-construction-step-desc {
+  font-size: 0.80rem;
+  color: #475569;
+  line-height: 1.4;
+}
+
+.m3-construction-dots {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.m3-construction-dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1.5px solid #CBD5E1;
+  background: #F8FAFC;
+  color: #475569;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 150ms ease;
+}
+
+.m3-construction-dot:hover {
+  border-color: #003F87;
+  color: #003F87;
+}
+
+.m3-construction-dot.active {
+  background: #003F87;
+  color: #FFFFFF;
+  border-color: #003F87;
+  transform: scale(1.08);
+}
+
+

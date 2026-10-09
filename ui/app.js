@@ -23,10 +23,305 @@ const state = {
   // activeSlideIdx: -1 represents Slide 1 (Cover Slide), 0..N-1 represent storyboard.slides[0..N-1]
   activeSlideIdx: -1,
   combinedSlideImages: [],
+  constructionConcept: "iso_heavy",
+  constructionFrameIdx: 0,
+  constructionPlaying: true,
+  constructionTimerId: null,
+  constructionManualPreview: false,
 };
+
+const CONSTRUCTION_ANIM_CONCEPTS = {
+  iso_heavy: {
+    label: "3D Isometric Heavy Equipment Crew",
+    frames: [
+      {
+        src: "/assets/construction_anim/iso_heavy_1_blueprint.jpg",
+        title: "Step 1: Unrolling the 16:9 Slide Blueprint & Clearing the Foundation",
+        desc: "Miniature Scouts inspect the 12-archetype slide blueprint on sawhorses while the yellow mini-bulldozer levels the warm cream 16:9 slide platform.",
+        emblemSlot: { left: "68.5%", top: "21.0%", width: "7.6%" },
+      },
+      {
+        src: "/assets/construction_anim/iso_heavy_2_header_crane.jpg",
+        title: "Step 2: Mobile Tower Crane Hoisting the Navy & Gold Header Beam",
+        desc: "A Scout crane operator hoists the glossy Scouts BSA navy-and-gold title header bar onto the upright 16:9 presentation frame.",
+        emblemSlot: { left: "58.6%", top: "15.2%", width: "5.4%" },
+      },
+      {
+        src: "/assets/construction_anim/iso_heavy_3_forklift_cards.jpg",
+        title: "Step 3: Mini-Forklift & Scissor-Lift Stacking Rounded Teaching Cards",
+        desc: "Scouts drive a yellow mini-forklift and scissor-lift to mount rounded-corner teaching cards with integrated left accent borders.",
+        emblemSlot: { left: "64.2%", top: "13.0%", width: "5.6%" },
+      },
+      {
+        src: "/assets/construction_anim/iso_heavy_4_helicopter_emblem.jpg",
+        title: "Step 4: Twin-Rotor Cargo Helicopter Lowering the Merit Badge Emblem",
+        desc: "A yellow Scout cargo helicopter hovers over the upper-right slot, lowering the transparent Merit Badge emblem ring guided by signal batons.",
+        emblemSlot: { left: "75.4%", top: "50.8%", width: "7.2%" },
+      },
+      {
+        src: "/assets/construction_anim/iso_heavy_5_scaffold_paint.jpg",
+        title: "Step 5: Scaffolding Crew Airbrushing the Right-Side Hero Illustration",
+        desc: "Scout artists on timber scaffolding use oversized paintbrushes and airbrushes to paint the outdoor hero graphic into the right visual card.",
+        emblemSlot: { left: "64.2%", top: "13.0%", width: "5.6%" },
+      },
+      {
+        src: "/assets/construction_anim/iso_heavy_6_inspect_reveal.jpg",
+        title: "Step 6: Senior Patrol Leader Conformance Inspection & Spotlight Reveal",
+        desc: "A Scout Inspector with a brass magnifying glass and green checkmark clipboard verifies zero text overlaps as camp spotlights reveal the finished slide!",
+        emblemSlot: { left: "71.5%", top: "14.8%", width: "7.2%" },
+      },
+    ],
+  },
+  camp_pioneer: {
+    label: "2D Camp Pioneering & Timber Rig",
+    frames: [
+      {
+        src: "/assets/construction_anim/camp_pioneer_1_lashings.jpg",
+        title: "Step 1: Tying Square & Diagonal Hemp Lashings on the 16:9 Timber Frame",
+        desc: "At a pine forest campsite, the patrol ties authentic square and diagonal hemp rope lashings on pine spars to erect the 16:9 slide frame.",
+        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+      },
+      {
+        src: "/assets/construction_anim/camp_pioneer_2_pulley_hoist.jpg",
+        title: "Step 2: Block-and-Tackle Pulley Hoisting the Canvas Screen & Cards",
+        desc: "Scouts haul hemp ropes through an A-frame pulley rig to hoist the crisp canvas projection screen and carved wooden teaching cards.",
+        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+      },
+      {
+        src: "/assets/construction_anim/camp_pioneer_3_field_sketch.jpg",
+        title: "Step 3: Ladder Scaffold Field Sketching & Laurel Medallion Mounting",
+        desc: "A Scout artist on a lashed ladder paints the outdoor landscape on the canvas screen while another Scout secures the upper-right badge medallion.",
+        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+      },
+      {
+        src: "/assets/construction_anim/camp_pioneer_4_campfire_premiere.jpg",
+        title: "Step 4: Campfire Twilight Premiere with Brass Camp-Lantern Projector",
+        desc: "As twilight falls, a brass camp-lantern projector illuminates the completed timber-framed slide deck while the patrol salutes around the campfire.",
+        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+      },
+    ],
+  },
+  clay_workshop: {
+    label: "3D Claymation 'Slide-O-Matic' Lodge Workshop",
+    frames: [
+      {
+        src: "/assets/construction_anim/clay_workshop_1_pamphlet_feed.jpg",
+        title: "Step 1: Feeding Official Pamphlets into the Brass Slide-O-Matic Hopper",
+        desc: "Inside a cozy log-cabin workshop, claymation Scouts feed official Merit Badge pamphlets and compasses into the brass-and-oak Slide-O-Matic machine.",
+        emblemSlot: { left: "85.5%", top: "18.4%", width: "11.2%" },
+      },
+      {
+        src: "/assets/construction_anim/clay_workshop_2_card_stamper.jpg",
+        title: "Step 2: Articulated Wooden Arms Stamping Rounded Teaching Cards",
+        desc: "Mechanical wooden arms stamp colorful felt-and-wood teaching cards onto a brass conveyor belt and arrange them into the slide grid.",
+        emblemSlot: { left: "85.5%", top: "18.4%", width: "11.2%" },
+      },
+      {
+        src: "/assets/construction_anim/clay_workshop_3_nano_banana_dome.jpg",
+        title: "Step 3: Glowing Nano Banana Energy Dome Projecting the Hero Scene",
+        desc: "A glass dome powered by a glowing golden Nano Banana core projects a 3D outdoor diorama onto the right half of the slide board.",
+        emblemSlot: { left: "85.5%", top: "18.4%", width: "11.2%" },
+      },
+      {
+        src: "/assets/construction_anim/clay_workshop_4_ribbon_cut.jpg",
+        title: "Step 4: Giant Brass Scissors Ceremonial Red-Ribbon Cutting",
+        desc: "Claymation Scouts in campaign hats cut a ceremonial red ribbon across the finished 16:9 slide deck with giant brass scissors amidst confetti!",
+        emblemSlot: { left: "85.5%", top: "18.4%", width: "11.2%" },
+      },
+    ],
+  },
+};
+
+function badgeNameToEmblemSlug(badgeName) {
+  return String(badgeName || "First Aid")
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+}
+
+function updateConstructionBadgeEmblem(badgeName) {
+  const cleanName = badgeName || state.currentBadge || "First Aid";
+  const slug = badgeNameToEmblemSlug(cleanName);
+  const emblemUrl = `/assets/badge_emblems/${slug}.png`;
+  const overlayImg = document.getElementById("construction-badge-emblem-overlay");
+  const workorderImg = document.getElementById("construction-workorder-emblem");
+  const workorderTitle = document.getElementById("construction-workorder-title");
+  const stageHeading = document.getElementById("construction-stage-heading");
+  if (overlayImg) {
+    overlayImg.src = emblemUrl;
+    overlayImg.alt = `${cleanName} Merit Badge Emblem`;
+  }
+  if (workorderImg) {
+    workorderImg.src = emblemUrl;
+    workorderImg.alt = `${cleanName} Merit Badge Emblem`;
+  }
+  if (workorderTitle) {
+    workorderTitle.textContent = `${cleanName} Merit Badge`;
+  }
+  if (stageHeading) {
+    stageHeading.textContent = state.constructionManualPreview
+      ? `Scout Slide Construction Showcase — ${cleanName} Merit Badge`
+      : `Building ${cleanName} Merit Badge Slide Deck...`;
+  }
+}
+
+function renderConstructionFrame(frameIdx) {
+  const conceptObj = CONSTRUCTION_ANIM_CONCEPTS[state.constructionConcept] || CONSTRUCTION_ANIM_CONCEPTS.iso_heavy;
+  const frames = conceptObj.frames;
+  const safeIdx = ((frameIdx % frames.length) + frames.length) % frames.length;
+  state.constructionFrameIdx = safeIdx;
+  const frame = frames[safeIdx];
+
+  const imgEl = document.getElementById("construction-frame-img");
+  const slotEl = document.getElementById("construction-emblem-slot");
+  const titleEl = document.getElementById("construction-step-title");
+  const descEl = document.getElementById("construction-step-desc");
+  const counterEl = document.getElementById("construction-frame-counter");
+  const dotsEl = document.getElementById("construction-frame-dots");
+
+  if (imgEl && imgEl.getAttribute("src") !== frame.src) {
+    imgEl.classList.add("fade-step");
+    setTimeout(() => {
+      imgEl.src = frame.src;
+      imgEl.classList.remove("fade-step");
+    }, 110);
+  }
+  if (slotEl && frame.emblemSlot) {
+    slotEl.style.left = frame.emblemSlot.left;
+    slotEl.style.top = frame.emblemSlot.top;
+    slotEl.style.width = frame.emblemSlot.width;
+  }
+  if (titleEl) titleEl.textContent = frame.title;
+  if (descEl) descEl.textContent = frame.desc;
+  if (counterEl) counterEl.textContent = `Frame ${safeIdx + 1} / ${frames.length}`;
+
+  if (dotsEl) {
+    dotsEl.innerHTML = "";
+    frames.forEach((_f, idx) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = `m3-construction-dot${idx === safeIdx ? " active" : ""}`;
+      btn.textContent = String(idx + 1);
+      btn.title = `Jump to Frame ${idx + 1}`;
+      btn.addEventListener("click", () => {
+        renderConstructionFrame(idx);
+      });
+      dotsEl.appendChild(btn);
+    });
+  }
+}
+
+function startConstructionAnimationTimer() {
+  if (state.constructionTimerId) {
+    clearInterval(state.constructionTimerId);
+    state.constructionTimerId = null;
+  }
+  if (!state.constructionPlaying) return;
+  state.constructionTimerId = setInterval(() => {
+    const stageEl = document.getElementById("slide-construction-stage");
+    if (!stageEl || stageEl.classList.contains("hidden")) return;
+    renderConstructionFrame(state.constructionFrameIdx + 1);
+  }, 2100);
+}
+
+function showConstructionAnimationStage(badgeName, isManualPreview = false) {
+  state.constructionManualPreview = Boolean(isManualPreview);
+  updateConstructionBadgeEmblem(badgeName || state.currentBadge);
+  const animStage = document.getElementById("slide-construction-stage");
+  const closeBtn = document.getElementById("btn-close-construction-anim");
+  const statusPill = document.getElementById("construction-status-pill");
+  const toolbarEl = document.getElementById("slide-stage-toolbar");
+  const slideStageEl = document.getElementById("widescreen-slide-stage");
+  const codesignEl = document.getElementById("slide-codesign-bar");
+  const notesCardEl = document.getElementById("slide-speaker-notes-card");
+
+  animStage?.classList.remove("hidden");
+  if (closeBtn) {
+    closeBtn.classList.toggle("hidden", !isManualPreview && !state.currentResult);
+  }
+  if (statusPill) {
+    statusPill.textContent = isManualPreview ? "🎬 INTERACTIVE ANIMATION SHOWCASE" : "🏗️ SCOUT SLIDE CREW AT WORK";
+  }
+  toolbarEl?.classList.add("hidden");
+  slideStageEl?.classList.add("hidden");
+  codesignEl?.classList.add("hidden");
+  notesCardEl?.classList.add("hidden");
+
+  renderConstructionFrame(state.constructionFrameIdx);
+  startConstructionAnimationTimer();
+}
+
+function hideConstructionAnimationStage() {
+  state.constructionManualPreview = false;
+  const animStage = document.getElementById("slide-construction-stage");
+  const toolbarEl = document.getElementById("slide-stage-toolbar");
+  const slideStageEl = document.getElementById("widescreen-slide-stage");
+  const notesCardEl = document.getElementById("slide-speaker-notes-card");
+
+  animStage?.classList.add("hidden");
+  toolbarEl?.classList.remove("hidden");
+  slideStageEl?.classList.remove("hidden");
+  notesCardEl?.classList.remove("hidden");
+  if (state.constructionTimerId) {
+    clearInterval(state.constructionTimerId);
+    state.constructionTimerId = null;
+  }
+}
+
+function bindConstructionAnimationControls() {
+  document.querySelectorAll(".m3-construction-concept-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const concept = btn.getAttribute("data-concept") || "iso_heavy";
+      state.constructionConcept = concept;
+      state.constructionFrameIdx = 0;
+      document.querySelectorAll(".m3-construction-concept-btn").forEach((b) => {
+        b.classList.toggle("active", b.getAttribute("data-concept") === concept);
+      });
+      renderConstructionFrame(0);
+      startConstructionAnimationTimer();
+    });
+  });
+
+  document.getElementById("btn-construction-prev")?.addEventListener("click", () => {
+    renderConstructionFrame(state.constructionFrameIdx - 1);
+  });
+
+  document.getElementById("btn-construction-next")?.addEventListener("click", () => {
+    renderConstructionFrame(state.constructionFrameIdx + 1);
+  });
+
+  const playPauseBtn = document.getElementById("btn-construction-playpause");
+  playPauseBtn?.addEventListener("click", () => {
+    state.constructionPlaying = !state.constructionPlaying;
+    playPauseBtn.textContent = state.constructionPlaying ? "⏸" : "▶";
+    if (state.constructionPlaying) {
+      startConstructionAnimationTimer();
+    } else if (state.constructionTimerId) {
+      clearInterval(state.constructionTimerId);
+      state.constructionTimerId = null;
+    }
+  });
+
+  document.getElementById("btn-toggle-construction-anim")?.addEventListener("click", () => {
+    showConstructionAnimationStage(state.currentBadge, true);
+  });
+
+  document.getElementById("btn-close-construction-anim")?.addEventListener("click", () => {
+    if (state.currentResult) {
+      hideConstructionAnimationStage();
+      renderActiveSlide(state.activeSlideIdx);
+    }
+  });
+
+  renderConstructionFrame(0);
+  startConstructionAnimationTimer();
+}
 
 document.addEventListener("DOMContentLoaded", async () => {
   bindNavigationTabs();
+  bindConstructionAnimationControls();
   await loadCachedCounselorProfile();
   bindFilterAndSlideControls();
   bindImageStudioModal();
@@ -563,6 +858,7 @@ async function executeStreamingWorkflow(badgeName) {
   if (filmstripEl) {
     filmstripEl.classList.add("hidden");
   }
+  showConstructionAnimationStage(badgeName, false);
 
   if (genBtn) {
     genBtn.disabled = true;
@@ -622,6 +918,10 @@ async function executeStreamingWorkflow(badgeName) {
         }
         resolve(null);
       } else if (payload.agent && traceList) {
+        const kickerEl = document.getElementById("construction-workorder-kicker");
+        if (kickerEl) {
+          kickerEl.textContent = `${friendlyStepLabel(payload.agent).toUpperCase()} (${pct}%)`;
+        }
         const item = document.createElement("div");
         item.className = "m3-trace-item";
         item.innerHTML = `
@@ -758,7 +1058,9 @@ function hydrateWorkbench(result) {
     `;
   }
 
-  // 3. Render Storyboard Filmstrip & Active Slide (starting at Cover Slide = -1)
+  // 3. Reveal Slide Stage and Render Storyboard Filmstrip & Active Slide (starting at Cover Slide = -1)
+  updateConstructionBadgeEmblem(result.badge_name);
+  hideConstructionAnimationStage();
   renderFilmstrip(slides);
   renderActiveSlide(-1);
 
@@ -886,6 +1188,7 @@ function renderFilmstrip(slides) {
     <div class="m3-thumb-title">${escapeHtml(state.currentResult?.badge_name || "")} Merit Badge</div>
   `;
   coverThumb.addEventListener("click", () => {
+    hideConstructionAnimationStage();
     state.activeSlideIdx = -1;
     renderFilmstrip(slides);
     renderActiveSlide(-1);
@@ -899,10 +1202,8 @@ function renderFilmstrip(slides) {
     const hasImg = Boolean(s.diagram_url);
     const hasHero = Boolean(s.ai_hero_image_path);
     const kindLabel =
-      s.req_number === "Sources"
-        ? "Sources"
-        : s.req_number === "Overview"
-        ? "Overview"
+      s.req_number === "Overview" || s.req_number === "Sources"
+        ? s.req_number
         : hasReqDef
         ? "Req Intro"
         : hasImg
@@ -917,6 +1218,7 @@ function renderFilmstrip(slides) {
       <div class="m3-thumb-title">${escapeHtml(s.title || "")}</div>
     `;
     thumb.addEventListener("click", () => {
+      hideConstructionAnimationStage();
       state.activeSlideIdx = idx;
       renderFilmstrip(slides);
       renderActiveSlide(idx);
@@ -1022,6 +1324,68 @@ function resolveSlidePaletteTokens(slide, deckTier) {
     headerBg: chosen.headerBg,
     footerColor: "#64748B",
   };
+}
+
+const DANGLING_TAIL_WORDS_JS = new Set([
+  "and", "or", "with", "to", "for", "in", "on", "of", "by", "the", "a", "an",
+  "that", "which", "while", "when", "if", "from", "into", "at", "as", "such",
+  "including", "through", "during", "before", "after", "under", "over", "between",
+]);
+
+function conciseCardBody(bodyText, maxWords = 24, maxChars = 150) {
+  const cleaned = String(bodyText || "").trim();
+  if (!cleaned) return "";
+  const words = cleaned.split(/\s+/);
+  if (words.length <= maxWords && cleaned.length <= maxChars) {
+    return cleaned;
+  }
+  const seps = [
+    ". ",
+    "; ",
+    " — ",
+    " – ",
+    ", which ",
+    ", while ",
+    ", ensuring ",
+    ", allowing ",
+    ", including ",
+    ", such as ",
+    ", especially ",
+    " so that ",
+    " in order to ",
+    ", and ",
+    ", or ",
+    ", then ",
+  ];
+  for (const sep of seps) {
+    if (cleaned.includes(sep)) {
+      const head = cleaned.split(sep)[0].trim().replace(/[,;:\-]+$/, "");
+      const headWords = head.split(/\s+/);
+      if (headWords.length >= 6 && headWords.length <= maxWords && head.length <= maxChars) {
+        return /[.!?]$/.test(head) ? head : `${head}.`;
+      }
+    }
+  }
+  const capped = words.slice(0, maxWords);
+  while (capped.length > 6 && capped.join(" ").length > maxChars) {
+    capped.pop();
+  }
+  while (
+    capped.length > 6 &&
+    DANGLING_TAIL_WORDS_JS.has(capped[capped.length - 1].toLowerCase().replace(/^[,;:\-.()]+|[,;:\-.()]+$/g, ""))
+  ) {
+    capped.pop();
+  }
+  let res = capped.join(" ").replace(/[,;:\-(]+$/, "");
+  const openParens = (res.match(/\(/g) || []).length;
+  const closeParens = (res.match(/\)/g) || []).length;
+  if (openParens > closeParens && res.lastIndexOf("(") > 0) {
+    res = res.slice(0, res.lastIndexOf("(")).trim().replace(/[,;:\-]+$/, "");
+  }
+  if (res && !/[.!?]$/.test(res)) {
+    res += ".";
+  }
+  return res;
 }
 
 function renderActiveSlide(idx) {
@@ -1441,14 +1805,15 @@ function renderActiveSlide(idx) {
       let inner = "";
       if (colonParts.length >= 3 && colonParts[1].trim().split(/\s+/).length <= 7) {
         const anchor = colonParts[1].trim();
-        const body = colonParts.slice(2).join(":").trim();
+        const body = conciseCardBody(colonParts.slice(2).join(":").trim());
         inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(anchor)}</div>
                  <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
       } else if (colonParts.length >= 2 && colonParts[0].trim().length <= 52) {
+        const body = conciseCardBody(colonParts.slice(1).join(":").trim());
         inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(colonParts[0].trim())}</div>
-                 <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(colonParts.slice(1).join(":").trim())}</div>`;
+                 <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
       } else {
-        inner = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${badgeTag}${escapeHtml(bp)}</div>`;
+        inner = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${badgeTag}${escapeHtml(conciseCardBody(bp))}</div>`;
       }
       const itemEl = document.createElement("div");
       itemEl.className = "m3-slide-card-item";
@@ -1518,15 +1883,18 @@ function renderActiveSlide(idx) {
       card.className = "m3-slide-card-item";
       card.style.cssText = cSpec.style;
       const colonIdx = bp.indexOf(":");
+      const isSourcesSlide = archetype === "SOURCES_AND_REFERENCES";
       if (colonIdx > 0 && colonIdx < 52) {
         const anchor = bp.slice(0, colonIdx);
-        const rest = bp.slice(colonIdx + 1).trim();
+        const rawRest = bp.slice(colonIdx + 1).trim();
+        const rest = isSourcesSlide ? rawRest : conciseCardBody(rawRest);
         card.innerHTML = `
           <div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${cSpec.prefix}${escapeHtml(anchor)}</div>
           <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(rest)}</div>
         `;
       } else {
-        card.innerHTML = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${cSpec.prefix}${escapeHtml(bp)}</div>`;
+        const bodyTxt = isSourcesSlide ? bp : conciseCardBody(bp);
+        card.innerHTML = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${cSpec.prefix}${escapeHtml(bodyTxt)}</div>`;
       }
       leftZone.appendChild(card);
     });
