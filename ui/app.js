@@ -167,10 +167,43 @@ function updateConstructionBadgeEmblem(badgeName) {
   }
 }
 
-function renderConstructionFrame(frameIdx) {
-  const conceptObj = CONSTRUCTION_ANIM_CONCEPTS[state.constructionConcept] || CONSTRUCTION_ANIM_CONCEPTS.iso_heavy;
-  const frames = conceptObj.frames;
-  const safeIdx = ((frameIdx % frames.length) + frames.length) % frames.length;
+const CONSTRUCTION_CONCEPT_ORDER = ["iso_heavy", "camp_pioneer", "clay_workshop"];
+
+function syncConstructionConceptButtons(activeConcept) {
+  document.querySelectorAll(".m3-construction-concept-btn").forEach((b) => {
+    b.classList.toggle("active", b.getAttribute("data-concept") === activeConcept);
+  });
+}
+
+function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
+  let currentConceptKey = state.constructionConcept || "iso_heavy";
+  let conceptObj = CONSTRUCTION_ANIM_CONCEPTS[currentConceptKey] || CONSTRUCTION_ANIM_CONCEPTS.iso_heavy;
+  let frames = conceptObj.frames;
+  let safeIdx = frameIdx;
+
+  if (autoCycleConcept && (frameIdx >= frames.length || frameIdx < 0)) {
+    const curConceptIdx = Math.max(0, CONSTRUCTION_CONCEPT_ORDER.indexOf(currentConceptKey));
+    if (frameIdx >= frames.length) {
+      const nextConceptIdx = (curConceptIdx + 1) % CONSTRUCTION_CONCEPT_ORDER.length;
+      currentConceptKey = CONSTRUCTION_CONCEPT_ORDER[nextConceptIdx];
+      state.constructionConcept = currentConceptKey;
+      conceptObj = CONSTRUCTION_ANIM_CONCEPTS[currentConceptKey];
+      frames = conceptObj.frames;
+      safeIdx = 0;
+      syncConstructionConceptButtons(currentConceptKey);
+    } else if (frameIdx < 0) {
+      const prevConceptIdx = (curConceptIdx - 1 + CONSTRUCTION_CONCEPT_ORDER.length) % CONSTRUCTION_CONCEPT_ORDER.length;
+      currentConceptKey = CONSTRUCTION_CONCEPT_ORDER[prevConceptIdx];
+      state.constructionConcept = currentConceptKey;
+      conceptObj = CONSTRUCTION_ANIM_CONCEPTS[currentConceptKey];
+      frames = conceptObj.frames;
+      safeIdx = frames.length - 1;
+      syncConstructionConceptButtons(currentConceptKey);
+    }
+  } else {
+    safeIdx = ((frameIdx % frames.length) + frames.length) % frames.length;
+  }
+
   state.constructionFrameIdx = safeIdx;
   const frame = frames[safeIdx];
 
@@ -195,7 +228,10 @@ function renderConstructionFrame(frameIdx) {
   }
   if (titleEl) titleEl.textContent = frame.title;
   if (descEl) descEl.textContent = frame.desc;
-  if (counterEl) counterEl.textContent = `Frame ${safeIdx + 1} / ${frames.length}`;
+  if (counterEl) {
+    const conceptNum = CONSTRUCTION_CONCEPT_ORDER.indexOf(currentConceptKey) + 1;
+    counterEl.textContent = `Concept ${conceptNum}/${CONSTRUCTION_CONCEPT_ORDER.length} • Frame ${safeIdx + 1}/${frames.length} (Auto-Cycle)`;
+  }
 
   if (dotsEl) {
     dotsEl.innerHTML = "";
@@ -206,7 +242,7 @@ function renderConstructionFrame(frameIdx) {
       btn.textContent = String(idx + 1);
       btn.title = `Jump to Frame ${idx + 1}`;
       btn.addEventListener("click", () => {
-        renderConstructionFrame(idx);
+        renderConstructionFrame(idx, false);
       });
       dotsEl.appendChild(btn);
     });

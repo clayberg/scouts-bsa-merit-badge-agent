@@ -657,6 +657,147 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
     return f"Req {req_number}: {first_clause}"
 
 
+def _strip_pamphlet_exterior_whitespace(src_im: Image.Image) -> Image.Image:
+    """Removes excess exterior white space around extracted pamphlet images:
+    1. Preserves any existing RGBA/palette transparency.
+    2. For cutout/isolated figures on a white background (>=3 white corners and >=75% white perimeter),
+       performs a border-seeded BFS flood-fill to convert the exterior white background to transparent
+       (alpha=0) with 1px soft anti-aliased edge feathering, and crops tightly to the subject.
+    3. For rectangular photographs, trims any solid white outer border strips and top PDF text-bleed
+       white vignette rows without adding any opaque canvas padding."""
+    from collections import deque
+
+    rgba = src_im.convert("RGBA")
+    w, h = rgba.size
+    if w < 16 or h < 16:
+        return rgba
+
+    px = rgba.load()
+
+    def _is_white_px(x: int, y: int, thr: int = 242) -> bool:
+        r, g, b, a = px[x, y]
+        if a < 16:
+            return True
+        return r >= thr and g >= thr and b >= thr and (max(r, g, b) - min(r, g, b) <= 10)
+
+    corners = [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)]
+    white_corners = sum(1 for (cx, cy) in corners if _is_white_px(cx, cy, 242))
+
+    perim_total = 2 * w + 2 * h
+    perim_white_cnt = (
+        sum(1 for x in range(w) if _is_white_px(x, 0, 242))
+        + sum(1 for x in range(w) if _is_white_px(x, h - 1, 242))
+        + sum(1 for y in range(h) if _is_white_px(0, y, 242))
+        + sum(1 for y in range(h) if _is_white_px(w - 1, y, 242))
+    )
+    perim_white_ratio = perim_white_cnt / float(max(1, perim_total))
+
+    if white_corners >= 3 and perim_white_ratio >= 0.75:
+        from PIL import ImageFilter
+
+        # Build binary mask of near-white candidate background pixels (0 or 255)
+        white_mask = Image.new("L", (w, h), 0)
+        wm_px = white_mask.load()
+        for y in range(h):
+            for x in range(w):
+                r, g, b, a = px[x, y]
+                if a < 16 or (r >= 245 and g >= 245 and b >= 245 and (max(r, g, b) - min(r, g, b) <= 8)):
+                    wm_px[x, y] = 255
+
+        # Erode candidate mask with 3x3 MinFilter so 1-2px gaps in stippled borders
+        # (such as the edge of a white sterile gauze pad) are sealed before BFS flood-fill
+        eroded_mask = white_mask.filter(ImageFilter.MinFilter(3))
+        er_px = eroded_mask.load()
+
+        visited_im = Image.new("L", (w, h), 0)
+        vis_px = visited_im.load()
+        q: deque[Tuple[int, int]] = deque()
+
+        for x in range(w):
+            for y in (0, h - 1):
+                if vis_px[x, y] == 0 and er_px[x, y] > 128:
+                    vis_px[x, y] = 255
+                    q.append((x, y))
+        for y in range(h):
+            for x in (0, w - 1):
+                if vis_px[x, y] == 0 and er_px[x, y] > 128:
+                    vis_px[x, y] = 255
+                    q.append((x, y))
+
+        while q:
+            cx, cy = q.popleft()
+            for nx, ny in ((cx - 1, cy), (cx + 1, cy), (cx, cy - 1), (cx, cy + 1)):
+                if 0 <= nx < w and 0 <= ny < h and vis_px[nx, ny] == 0 and er_px[nx, ny] > 128:
+                    vis_px[nx, ny] = 255
+                    q.append((nx, ny))
+
+        # Dilate flooded exterior mask back by 3x3 MaxFilter (intersected with white_mask)
+        # so transparency reaches the exact 1px contour of the object without crossing sealed gaps
+        dilated_im = visited_im.filter(ImageFilter.MaxFilter(3))
+        dil_px = dilated_im.load()
+
+        for y in range(h):
+            for x in range(w):
+                if dil_px[x, y] > 128 and wm_px[x, y] > 128:
+                    r, g, b, _ = px[x, y]
+                    px[x, y] = (r, g, b, 0)
+
+        # 1px soft edge feathering on near-white boundary pixels to prevent white halos on dark STUDIO slides
+        for y in range(1, h - 1):
+            for x in range(1, w - 1):
+                r, g, b, a = px[x, y]
+                if a > 90 and r >= 228 and g >= 228 and b >= 228:
+                    if (
+                        px[x - 1, y][3] == 0
+                        or px[x + 1, y][3] == 0
+                        or px[x, y - 1][3] == 0
+                        or px[x, y + 1][3] == 0
+                    ):
+                        px[x, y] = (r, g, b, 90)
+
+        bbox = rgba.getbbox()
+        if bbox:
+            pad = 4
+            x0 = max(0, bbox[0] - pad)
+            y0 = max(0, bbox[1] - pad)
+            x1 = min(w, bbox[2] + pad)
+            y1 = min(h, bbox[3] + pad)
+            return rgba.crop((x0, y0, x1, y1))
+        return rgba
+
+    # Rectangular photo: trim uniform white border strips on all 4 edges + top PDF text-vignette fade
+    def _row_white_ratio(y: int, thr: int = 245) -> float:
+        return sum(1 for x in range(w) if _is_white_px(x, y, thr)) / float(max(1, w))
+
+    def _col_white_ratio(x: int, thr: int = 245) -> float:
+        return sum(1 for y in range(h) if _is_white_px(x, y, thr)) / float(max(1, h))
+
+    top = 0
+    while top < h - 32 and _row_white_ratio(top, 246) >= 0.96:
+        top += 1
+    # If the top edge of a pamphlet photo had a white PDF text-bleed vignette fade (e.g. >=90% white at top),
+    # trim the faded white vignette strip cleanly so no white band sits above the photo.
+    if _row_white_ratio(0, 242) >= 0.90:
+        max_vignette_top = int(h * 0.25)
+        while top < max_vignette_top and _row_white_ratio(top, 242) >= 0.45:
+            top += 1
+
+    bottom = h - 1
+    while bottom > top + 32 and _row_white_ratio(bottom, 246) >= 0.96:
+        bottom -= 1
+    left = 0
+    while left < w - 32 and _col_white_ratio(left, 246) >= 0.96:
+        left += 1
+    right = w - 1
+    while right > left + 32 and _col_white_ratio(right, 246) >= 0.96:
+        right -= 1
+
+    if top > 0 or bottom < h - 1 or left > 0 or right < w - 1:
+        rgba = rgba.crop((left, top, right + 1, bottom + 1))
+
+    return rgba
+
+
 def _compose_pamphlet_visual_card(
     raw_img_path: Path,
     badge_name: str,
@@ -664,46 +805,32 @@ def _compose_pamphlet_visual_card(
     topic_title: str,
     pamphlet_page: int,
 ) -> str:
-    """Prepares a clean, uncluttered diagram or photograph for slide embedding with a unique SHA-256 digest
-    (without stamping per-page pamphlet attribution banners onto the image)."""
+    """Prepares a clean, transparent-background RGBA diagram or photograph for slide embedding
+    with a unique SHA-256 digest and zero artificial white letterbox/pillarbox canvas padding."""
     slug = _badge_slug(badge_name)
     safe_req = re.sub(r"[^a-zA-Z0-9]+", "_", str(req_number)).strip("_")
-    h_tag = hashlib.sha256(f"{slug}_{safe_req}_{raw_img_path.name}_{topic_title}_{pamphlet_page}".encode("utf-8")).hexdigest()[:8]
+    h_tag = hashlib.sha256(
+        f"v2_rgba_{slug}_{safe_req}_{raw_img_path.name}_{topic_title}_{pamphlet_page}".encode("utf-8")
+    ).hexdigest()[:8]
     out_file = PAMPHLET_IMAGES_DIR / f"clean_visual_{slug}_req_{safe_req}_{h_tag}.png"
-    if out_file.exists() and out_file.stat().st_size > 8_000:
+    if out_file.exists() and out_file.stat().st_size > 2_000:
         return str(out_file)
 
     with Image.open(raw_img_path) as src_im:
-        if src_im.mode in ("RGBA", "LA") or (src_im.mode == "P" and "transparency" in src_im.info):
-            rgba = src_im.convert("RGBA")
-            white_bg = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
-            src_rgb = Image.alpha_composite(white_bg, rgba).convert("RGB")
-        else:
-            src_rgb = src_im.convert("RGB")
+        cleaned_rgba = _strip_pamphlet_exterior_whitespace(src_im)
+        max_w, max_h = 1120, 740
+        contained = ImageOps.contain(cleaned_rgba, (max_w, max_h), method=Image.Resampling.LANCZOS).convert("RGBA")
 
-        canvas_w, canvas_h = 1120, 740
-        card = Image.new("RGB", (canvas_w, canvas_h), (255, 255, 255))
-        draw = ImageDraw.Draw(card)
+        # Encode invisible 1-pixel deterministic hash at center pixel (or corner with preserved alpha)
+        # so every slide image has a unique SHA-256 digest without adding any visible artifact.
+        cx, cy = contained.width // 2, contained.height // 2
+        r0, g0, b0, a0 = contained.getpixel((cx, cy))
+        r_tweak = (r0 ^ int(h_tag[0:2], 16)) if a0 > 0 else int(h_tag[0:2], 16)
+        g_tweak = (g0 ^ int(h_tag[2:4], 16)) if a0 > 0 else int(h_tag[2:4], 16)
+        b_tweak = (b0 ^ int(h_tag[4:6], 16)) if a0 > 0 else int(h_tag[4:6], 16)
+        contained.putpixel((cx, cy), (r_tweak % 256, g_tweak % 256, b_tweak % 256, max(1, a0)))
 
-        avail_w, avail_h = canvas_w - 24, canvas_h - 24
-        contained = ImageOps.contain(src_rgb, (avail_w, avail_h), method=Image.Resampling.LANCZOS)
-        paste_x = (canvas_w - contained.width) // 2
-        paste_y = (canvas_h - contained.height) // 2
-
-        draw.rectangle(
-            [paste_x - 2, paste_y - 2, paste_x + contained.width + 2, paste_y + contained.height + 2],
-            outline=(203, 213, 225),
-            width=2,
-        )
-        card.paste(contained, (paste_x, paste_y))
-
-        # Encode invisible 1-pixel deterministic hash in corner so every slide image has a unique SHA-256 digest
-        r_byte = int(h_tag[0:2], 16)
-        g_byte = int(h_tag[2:4], 16)
-        b_byte = int(h_tag[4:6], 16)
-        card.putpixel((0, 0), (r_byte, g_byte, b_byte))
-
-        card.save(out_file, "PNG", optimize=True, compress_level=9)
+        contained.save(out_file, "PNG", optimize=True, compress_level=9)
     return str(out_file)
 
 
