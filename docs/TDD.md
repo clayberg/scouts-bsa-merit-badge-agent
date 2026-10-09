@@ -98,7 +98,7 @@ Pricing is defined in `config/finops_model_policy.json` and enforced by `FinOpsB
 | Polish Tier | Input Tokens | Output Tokens | Hero Visuals & EDGE Fallback | Cold Build Cost | Cached Rerun Cost |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **STANDARD (Fast Deck)** | `~32k - 65k` | `~7k - 13.5k` | `0` (uses pamphlet figures + 220-DPI Matplotlib diagrams) | **`$0.06 - $0.14`** | **`$0.00`** |
-| **BEAUTIFIED (NotebookLM Style, Default)** | `~57k - 90k` | `~15k - 21.5k` | Up to `5` requirement intro Hero Illustrations (76 pre-cached at `$0.00` + EDGE fallback) | **`$0.30 - $0.38`** | **`$0.02`** |
+| **BEAUTIFIED (Warm Cream + Hero Graphics, Default)** | `~57k - 90k` | `~15k - 21.5k` | Up to `5` requirement intro Hero Illustrations (76 pre-cached at `$0.00` + EDGE fallback) | **`$0.30 - $0.38`** | **`$0.02`** |
 | **STUDIO (Dark Executive Slate)** | `~77k - 110k` | `~21k - 27.5k` | Up to `15` Hero Illustrations (pre-cached + dark-slate EDGE fallback) | **`$0.72 - $1.00` (Capped)** | **`$0.02`** |
 
 ### 5.2 Council-Scale Monthly TCO Projection (`500` Active Counselors, `1,500` Decks/Month)

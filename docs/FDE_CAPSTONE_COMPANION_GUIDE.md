@@ -322,7 +322,7 @@ This section walks through all **11 core slides (`1 / 11` through `11 / 11`, zer
 - **Headline**: *Predictable `$0.14` to `$1.00` Unit Economics (`~$282/mo` TCO for a 500-Counselor Council). Enforced declaratively by `config/finops_model_policy.json`, `FinOpsBudgetPlugin` (`$1.00` cap), and `$0.08` Nano Banana consent gate.*
 - **Three Tier Cards**:
   - **Tier 1: Standard Fast (`$0.14 / deck`, `$0.00` on cached rerun)**: `~65k` input / `13.5k` output tokens; uses pamphlet figures + 220-DPI Matplotlib diagrams on a clean white wireframe theme.
-  - **Tier 2: AI Beautified (`$0.38 / deck`, `$0.02` on cached rerun)**: Default NotebookLM warm cream canvas (`#FAF8F5`), 4 rotating accent palettes, and up to 5 Nano Banana Hero Illustrations (`76` pre-cached Eagle/core hero PNGs at `$0.00` runtime cost + on-demand generation + 220-DPI EDGE Skill Concept Map fallback) on requirement intro slides.
+  - **Tier 2: AI Beautified (`$0.38 / deck`, `$0.02` on cached rerun)**: Default warm cream canvas (`#FAF8F5`), 4 rotating accent palettes, and up to 5 Nano Banana Hero Illustrations (`76` pre-cached Eagle/core hero PNGs at `$0.00` runtime cost + on-demand generation + 220-DPI EDGE Skill Concept Map fallback) on requirement intro slides.
   - **Tier 3: AI Studio (`$1.00` Max Cap)**: Hard ceiling via `FinOpsBudgetPlugin`; dark executive slate (`#0F172A`) theme with gold/cyan accents and up to 15 Nano Banana Hero Illustrations / dark-slate EDGE Skill Concept Maps, plus on-demand `NanoBananaImageAgent` custom graphics (`$0.08/image` with 11 styles, `Auto (Content-Aware Mix)`, `Include Uniformed Scouts`, explicit user consent, and post-generation prompt alignment verification).
 - **Two Trade-Off Callouts**:
   - **Trade-Off 1: Hybrid Vector RAG vs. Full-PDF Stuffing**: Indexing pamphlet chunks in `PersistentSessionStore` cuts input tokens by **68%** vs. stuffing 80-page PDFs into every agent turn.
@@ -575,11 +575,11 @@ If a panelist jumps in with a question while you have a specific slide on screen
   "Scouting America's *Guide to Advancement* (§7.0.0.3 and §7.0.4.7) is crystal clear: a Merit Badge Counselor must personally test and coach each Scout using the EDGE method, and may never add to, delete from, or automate the sign-off of requirements. We drew a hard product boundary in `SCOPE.md`: our workbench is strictly a **Counselor Preparation & Instructional Workbench**, not a 'Scout auto-grader' or autonomous Blue Card signer. It generates the counselor's slide deck, Socratic `[ASK SCOUTS]` prompts, hands-on patrol station checklists, and printable Scout workbooks so the counselor spends zero hours formatting slides on Saturday night and 100% of their troop meeting coaching and evaluating Scouts face-to-face."
 - **Code & Doc Citations**: `SCOPE.md` (§1–2 In-Scope vs. Out-of-Scope), `src/tools/counselor_studiokit.py`.
 
-#### **Q3. Why can't a volunteer counselor just drop a Merit Badge Pamphlet PDF into NotebookLM or Gemini in Google Slides and ask for a presentation?**
+#### **Q3. Why can't a volunteer counselor just drop a Merit Badge Pamphlet PDF into a generic AI chat tool or Gemini in Google Slides and ask for a presentation?**
 - **Associated Slides**: **Slide 2** (Problem Statement), **Slide 3** (Functional Capabilities), **Slide 7** (Trade-Offs)
 - **Rubric Mapping**: **2.1 (Problem Definition)** & **Part A.2 (Problem-Solution Fit)**
 - **Golden Answer**:
-  "When counselors try generic one-shot LLM prompts or NotebookLM on an 80-page BSA pamphlet, four things go wrong in practice:
+  "When counselors try generic one-shot LLM prompts on an 80-page BSA pamphlet, four things go wrong in practice:
   1. **Requirement Paraphrasing & Skipped Leaf Nodes**: Generic LLMs summarize *Requirement 4a, 4b(1), and 4b(2)* into three high-level bullet points, accidentally omitting mandatory sub-clauses needed for an Eagle Board of Review. Our `ResearchCoverageCriticAgent` and SHA-256 hash lock guarantee 100% verbatim coverage of every leaf sub-requirement.
   2. **No Classroom vs. Field Triage**: A generic slide generator treats *'Explain the causes of shock'* and *'Camp a total of 20 nights'* identically. Our workbench triages every requirement into *Classroom Discussion*, *Hands-On EDGE Skill Station*, and *Home/Campout Prerequisite* buckets.
   3. **Zero Local Grounding**: A static pamphlet doesn't know that a troop in Middleton, MA (`01949`) is served by NOAA NWS Boston/Norton and faces coastal Nor'easters and woodland tick habitats.

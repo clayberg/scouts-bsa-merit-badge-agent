@@ -122,8 +122,8 @@
           <label class="m3-field-label" for="beautification-select">Slide Visual Polish Mode (Beautification Tier)</label>
           <select class="m3-select" id="beautification-select">
             <option value="STANDARD">Standard Fast Deck — Crisp White (~$0.14)</option>
-            <option value="BEAUTIFIED" selected>AI Beautified — Warm NotebookLM Cream + Nano Banana Hero Graphics (~$0.38)</option>
-            <option value="STUDIO">AI Studio — Dark Slate + Nano Banana Hero Graphics ($1.00 Budget)</option>
+            <option value="BEAUTIFIED" selected>AI Beautified — Warm Cream + Hero Graphics (~$0.38)</option>
+            <option value="STUDIO">AI Studio — Dark Slate + Hero Graphics ($1.00 Budget)</option>
           </select>
         </div>
 
@@ -194,23 +194,6 @@
           Generate Slide Deck &amp; Workbook
         </button>
       </section>
-
-      <!-- CLEAN RESEARCH & SLIDE GENERATION PROGRESS -->
-      <section class="m3-card" aria-labelledby="trace-heading">
-        <div class="m3-card-header">
-          <h2 class="m3-card-title" id="trace-heading">
-            <span class="material-symbols-outlined">pending_actions</span>
-            Research &amp; Generation Progress
-          </h2>
-          <span class="m3-chip m3-chip-secondary" id="trace-progress-label">Ready</span>
-        </div>
-
-        <div class="m3-progress-bar-wrap">
-          <div class="m3-progress-bar-fill" id="trace-progress-fill" style="width:100%;"></div>
-        </div>
-
-        <div class="m3-trace-list" id="agent-trace-list"></div>
-      </section>
     </aside>
 
     <!-- RIGHT MAIN STAGE -->
@@ -221,9 +204,9 @@
         <div style="display:flex; align-items:center; gap:18px;">
           <img
             id="hero-badge-patch-img"
-            src="/assets/pamphlet_covers/first_aid_patch.png"
+            src="/assets/badge_emblems/first_aid.png"
             alt="Merit Badge Patch"
-            style="width:78px; height:78px; border-radius:50%; object-fit:contain; background:rgba(255,255,255,0.14); padding:4px; box-shadow:0 4px 12px rgba(0,0,0,0.22);"
+            style="width:78px; height:78px; object-fit:contain; filter:drop-shadow(0 4px 12px rgba(0,0,0,0.28));"
           />
           <div class="m3-hero-left">
             <div class="m3-hero-kicker" id="hero-eagle-kicker">
@@ -273,8 +256,27 @@
 
       <!-- PANEL 1: SLIDE DECK PREVIEW -->
       <section id="panel-storyboard" class="m3-storyboard-layout">
-        <!-- Left Filmstrip -->
-        <div class="m3-slide-filmstrip" id="slide-filmstrip-list"></div>
+        <!-- Left Column: Slide Filmstrip (hidden while generating) + Research & Generation Progress -->
+        <div class="m3-storyboard-left-col" id="storyboard-left-col">
+          <div class="m3-slide-filmstrip hidden" id="slide-filmstrip-list"></div>
+
+          <!-- CLEAN RESEARCH & SLIDE GENERATION PROGRESS -->
+          <section class="m3-card" id="trace-progress-card" aria-labelledby="trace-heading">
+            <div class="m3-card-header">
+              <h2 class="m3-card-title" id="trace-heading">
+                <span class="material-symbols-outlined">pending_actions</span>
+                Research &amp; Generation Progress
+              </h2>
+              <span class="m3-chip m3-chip-secondary" id="trace-progress-label">Ready</span>
+            </div>
+
+            <div class="m3-progress-bar-wrap">
+              <div class="m3-progress-bar-fill" id="trace-progress-fill" style="width:100%;"></div>
+            </div>
+
+            <div class="m3-trace-list" id="agent-trace-list"></div>
+          </section>
+        </div>
 
         <!-- Right Widescreen 16:9 Live Preview -->
         <div class="m3-slide-canvas-wrapper">

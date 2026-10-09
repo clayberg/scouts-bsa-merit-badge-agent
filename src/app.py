@@ -1874,8 +1874,8 @@ def main() -> None:
             "Slide Visual Polish Mode (Beautification Tier)",
             [
                 "Standard Fast Deck — Crisp White (~$0.14)",
-                "AI Beautified — Warm NotebookLM Editorial Cream (~$0.38)",
-                "AI Studio — Dark Slate + EDGE Skill Concept Maps ($1.00 Budget)",
+                "AI Beautified — Warm Cream + Hero Graphics (~$0.38)",
+                "AI Studio — Dark Slate + Hero Graphics ($1.00 Budget)",
             ],
             index=1,
         )

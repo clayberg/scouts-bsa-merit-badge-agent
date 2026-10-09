@@ -55,7 +55,7 @@ This file records the eight main engineering decisions behind the Scouts BSA Mer
 ---
 
 ## ADR-06: Three visual polish tiers + pre-populated Nano Banana hero illustrations (`NANO_BANANA_HERO`) governed by `FinOpsBudgetPlugin` (`$1.00` cap)
-- **Problem**: Some counselors want a plain white slide deck for a quick troop meeting (`$0.14`), while others teaching a weekend Merit Badge clinic want warm NotebookLM-style cards (`$0.38`) or a dark executive slate theme (`$1.00`) with bespoke requirement hero illustrations instead of generic procedural boxes.
+- **Problem**: Some counselors want a plain white slide deck for a quick troop meeting (`$0.14`), while others teaching a weekend Merit Badge clinic want warm cream editorial cards (`$0.38`) or a dark executive slate theme (`$1.00`) with bespoke requirement hero illustrations instead of generic procedural boxes.
 - **Options considered**:
   1. *Generate a live AI image for every slide in every deck*: A 65-slide Deep Dive deck would exceed `$2.60` and overwrite helpful technical diagrams.
   2. *Plain white slides or procedural-only EDGE boxes*: Cheap, but visually repetitive across requirement intro slides.

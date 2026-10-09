@@ -557,6 +557,12 @@ async function executeStreamingWorkflow(badgeName) {
   const progressLabel = document.getElementById("trace-progress-label");
   const traceList = document.getElementById("agent-trace-list");
   const genBtn = document.getElementById("btn-generate-deck");
+  const filmstripEl = document.getElementById("slide-filmstrip-list");
+
+  // Hide the slide list while new slides are being generated so Research & Generation Progress occupies the top of the column
+  if (filmstripEl) {
+    filmstripEl.classList.add("hidden");
+  }
 
   if (genBtn) {
     genBtn.disabled = true;
@@ -743,7 +749,7 @@ function hydrateWorkbench(result) {
       </div>
       <div class="m3-trace-item">
         <div class="m3-trace-top"><span>2. Teaching Slides &amp; Beautification</span><span class="m3-trace-meta">${result.slide_count} Slides (${escapeHtml(activeTier)})</span></div>
-        <div class="m3-trace-desc">Applied ${escapeHtml(activeTier)} theme styling, ${escapeHtml(activeAudience)} coaching, and EDGE Skill Concept Maps.</div>
+        <div class="m3-trace-desc">Applied ${escapeHtml(activeTier)} theme styling, ${escapeHtml(activeAudience)} coaching, and Hero Graphics &amp; EDGE Skill Maps.</div>
       </div>
       <div class="m3-trace-item">
         <div class="m3-trace-top"><span>3. PowerPoint, Workbook &amp; StudioKit</span><span class="m3-trace-meta">$${(finops.estimated_cost_usd || 0.14).toFixed(2)}</span></div>
@@ -866,6 +872,7 @@ function renderStudioKitAndParentLetter(result) {
 function renderFilmstrip(slides) {
   const list = document.getElementById("slide-filmstrip-list");
   if (!list) return;
+  list.classList.remove("hidden");
   list.innerHTML = "";
 
   // Slide 1: Cover Slide item
@@ -1503,8 +1510,8 @@ function renderActiveSlide(idx) {
       visSourceBadge.style.color = tokens.badgeFg;
       visSourceBadge.style.border = `1px solid ${tokens.accentHex}`;
       const srcLbl = String(slide.visual_source_label || "");
-      const isAiHero = Boolean(slide.ai_hero_image_path) || srcLbl.includes("EDGE Skill");
-      const isNano = srcLbl.includes("Nano Banana");
+      const isNano = srcLbl.includes("Nano Banana") || String(slide.diagram_url || "").includes("_nano_hero");
+      const isAiHero = !isNano && (Boolean(slide.ai_hero_image_path) || srcLbl.includes("EDGE Skill"));
       const isWeb = srcLbl.includes("Web Image") || srcLbl.includes("Wikimedia");
       const isUpload = srcLbl.includes("Uploaded");
       visSourceBadge.textContent = isNano

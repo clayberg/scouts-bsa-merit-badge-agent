@@ -533,7 +533,7 @@ html, body {
 
 .m3-storyboard-layout {
   display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
+  grid-template-columns: 300px minmax(0, 1fr);
   gap: 18px;
   align-items: start;
 }
@@ -544,11 +544,18 @@ html, body {
   }
 }
 
+.m3-storyboard-left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
 .m3-slide-filmstrip {
   display: flex;
   flex-direction: column;
   gap: 9px;
-  max-height: 760px;
+  max-height: 540px;
   overflow-y: auto;
   padding-right: 4px;
 }

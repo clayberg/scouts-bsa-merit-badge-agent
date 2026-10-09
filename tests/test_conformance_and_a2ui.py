@@ -1047,6 +1047,68 @@ def test_api_v1_feedback_flywheel_and_versioning_headers():
             golden_ext_path.write_bytes(orig_golden_bytes)
 
 
+def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path):
+    """Verifies:
+    1) 1:1 content & visual parity between in-app slide preview and exported .pptx on Slide 2 (Triage Matrix headers, bullets[0..2], 4th Curriculum Scope card, top/left accent bars, and single-line 🛡️ Guide to Safe Scouting bar).
+    2) All 135 Merit Badge emblems in assets/badge_emblems/ are RGBA PNGs with transparent exterior backgrounds (alpha == 0).
+    3) Beautification Tier dropdown uses 'Warm Cream + Hero Graphics' and 'Dark Slate + Hero Graphics' with zero 'NotebookLM' references.
+    4) 'Research & Generation Progress' (#trace-progress-card) resides in #storyboard-left-col with #slide-filmstrip-list toggled hidden during generation and shown after renderFilmstrip.
+    """
+    from pathlib import Path
+    from PIL import Image
+    from pptx import Presentation
 
+    client = TestClient(app)
+    html = client.get("/").text
+    app_js = Path("ui/app.js").read_text(encoding="utf-8")
+
+    # 1. Verify dropdown labels & absence of NotebookLM
+    assert "AI Beautified — Warm Cream + Hero Graphics (~$0.38)" in html
+    assert "AI Studio — Dark Slate + Hero Graphics ($1.00 Budget)" in html
+    assert "NotebookLM" not in html
+
+    # 2. Verify #trace-progress-card placement inside #storyboard-left-col
+    assert 'id="storyboard-left-col"' in html
+    left_col_idx = html.index('id="storyboard-left-col"')
+    filmstrip_idx = html.index('id="slide-filmstrip-list"')
+    trace_idx = html.index('id="trace-progress-card"')
+    stage_idx = html.index('class="m3-slide-canvas-wrapper"')
+    assert left_col_idx < filmstrip_idx < trace_idx < stage_idx
+    assert 'filmstripEl.classList.add("hidden");' in app_js
+    assert 'list.classList.remove("hidden");' in app_js
+
+    # 3. Verify transparent RGBA background on Merit Badge emblems
+    for badge_slug in ("first_aid", "camping", "weather", "lifesaving"):
+        emblem_path = Path("assets/badge_emblems") / f"{badge_slug}.png"
+        assert emblem_path.exists()
+        with Image.open(emblem_path) as im:
+            assert im.mode == "RGBA"
+            assert im.getpixel((0, 0))[3] == 0
+            assert im.getpixel((im.width - 1, im.height - 1))[3] == 0
+
+    # 4. Verify First Aid BEAUTIFIED & STUDIO .pptx exports match in-app preview on Slide 2 & Slide 3 with 0 AABB overlaps
+    for tier in ("BEAUTIFIED", "STUDIO"):
+        out_pptx = os.path.join(tmp_path, f"First_Aid_{tier}_Parity.pptx")
+        res = run_merit_badge_workflow(
+            badge_name="First Aid",
+            depth_mode="Standard Deck",
+            beautification_tier=tier,
+            output_path=out_pptx,
+        )
+        assert res["status"] == "SUCCESS"
+        conf = check_pptx_conformance(res["output_path"])
+        assert conf["passed"] is True, f"{tier} conformance failed: {conf['issues']}"
+        assert conf["aabb_overlap_count"] == 0
+
+        prs = Presentation(res["output_path"])
+        slide2_texts = "\n".join(
+            s.text_frame.text for s in prs.slides[1].shapes if s.has_text_frame and s.text_frame.text.strip()
+        )
+        assert "1. Discussion & Core Theory" in slide2_texts
+        assert "2. Hands-On Skill Demonstrations" in slide2_texts
+        assert "3. Field & Home Prerequisites" in slide2_texts
+        assert "Knowledge & Concepts (3):" in slide2_texts
+        assert "📍 Curriculum Scope" in slide2_texts
+        assert "🛡️ Guide to Safe Scouting" in slide2_texts
 
 

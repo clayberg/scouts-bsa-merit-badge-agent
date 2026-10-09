@@ -466,7 +466,7 @@ def beautify_slide_storyboard(
     Enforces:
     1. Canonical BSA Pamphlet requirement wording (`verbatim_requirement_text`) is never modified.
     2. Consecutive-slide visual variety: no two adjacent slides share the same `(visual_theme, accent_palette_key)`.
-    3. Distinct visual tiers (`STANDARD` wireframe, `BEAUTIFIED` NotebookLM warm cream, `STUDIO` dark executive slate).
+    3. Distinct visual tiers (`STANDARD` wireframe, `BEAUTIFIED` warm cream, `STUDIO` dark executive slate).
     4. Never overwrites existing official pamphlet figures or technical diagrams unless a slide has no diagram
        (such as `REQUIREMENT_INTRO` slides in `BEAUTIFIED` and `STUDIO` modes).
 

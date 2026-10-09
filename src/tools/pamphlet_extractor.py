@@ -912,6 +912,74 @@ def _scoutshop_public_search_context() -> Dict[str, List[str]]:
     return {field_name: [store_index_id]}
 
 
+def _make_emblem_transparent_rgba(im: Image.Image) -> Image.Image:
+    """Removes the outer white/light-gray rectangular background around a circular Merit Badge emblem."""
+    from collections import deque
+    import numpy as np
+
+    rgba = im.convert("RGBA")
+    arr = np.array(rgba)
+    h, w, _ = arr.shape
+    rgb = arr[:, :, :3].astype(np.int16)
+    max_c = rgb.max(axis=2)
+    min_c = rgb.min(axis=2)
+    already_trans = arr[:, :, 3] < 32
+    is_bg_cand = already_trans | ((min_c >= 215) & ((max_c - min_c) <= 25))
+    visited = np.zeros((h, w), dtype=bool)
+    q: deque = deque()
+    for x in range(w):
+        if is_bg_cand[0, x]:
+            visited[0, x] = True
+            q.append((0, x))
+        if is_bg_cand[h - 1, x]:
+            visited[h - 1, x] = True
+            q.append((h - 1, x))
+    for y in range(h):
+        if is_bg_cand[y, 0] and not visited[y, 0]:
+            visited[y, 0] = True
+            q.append((y, 0))
+        if is_bg_cand[y, w - 1] and not visited[y, w - 1]:
+            visited[y, w - 1] = True
+            q.append((y, w - 1))
+    while q:
+        cy, cx = q.popleft()
+        for ny, nx in ((cy - 1, cx), (cy + 1, cx), (cy, cx - 1), (cy, cx + 1)):
+            if 0 <= ny < h and 0 <= nx < w and not visited[ny, nx] and is_bg_cand[ny, nx]:
+                visited[ny, nx] = True
+                q.append((ny, nx))
+
+    arr[visited, 3] = 0
+    padded = np.pad(visited, 1, mode="constant", constant_values=True)
+    adj_to_bg = (~visited) & (
+        padded[:-2, 1:-1]
+        | padded[2:, 1:-1]
+        | padded[1:-1, :-2]
+        | padded[1:-1, 2:]
+        | padded[:-2, :-2]
+        | padded[:-2, 2:]
+        | padded[2:, :-2]
+        | padded[2:, 2:]
+    )
+    halo_mask = adj_to_bg & (min_c >= 210) & ((max_c - min_c) <= 28)
+    if np.any(halo_mask):
+        lum = rgb.mean(axis=2)
+        new_alpha = np.clip((242.0 - lum) * 7.0, 0, 220).astype(np.uint8)
+        arr[halo_mask, 3] = np.minimum(arr[halo_mask, 3], new_alpha[halo_mask])
+
+    ys, xs = np.where(arr[:, :, 3] > 10)
+    if len(xs) > 0 and len(ys) > 0:
+        x0, x1 = int(xs.min()), int(xs.max()) + 1
+        y0, y1 = int(ys.min()), int(ys.max()) + 1
+        crop = Image.fromarray(arr[y0:y1, x0:x1])
+        side = max(crop.width, crop.height, 396) + 8
+        square = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+        square.paste(crop, ((side - crop.width) // 2, (side - crop.height) // 2), crop)
+        if side != 400:
+            square = square.resize((400, 400), Image.Resampling.LANCZOS)
+        return square
+    return Image.fromarray(arr)
+
+
 def _fetch_scoutshop_emblem_on_demand(badge_name: str, slug: str) -> Optional[Path]:
     """Fetches a standalone Merit Badge emblem image from the BSA Scout Shop Klevu API on demand."""
     emblem_file = BADGE_EMBLEMS_DIR / f"{slug}.png"
@@ -959,13 +1027,8 @@ def _fetch_scoutshop_emblem_on_demand(badge_name: str, slug: str) -> Optional[Pa
                         ir = requests.get(img_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=8)
                         if ir.status_code == 200 and len(ir.content) > 1500:
                             with Image.open(io.BytesIO(ir.content)) as im:
-                                if im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info):
-                                    rgba = im.convert("RGBA")
-                                    bg = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
-                                    composed = Image.alpha_composite(bg, rgba).convert("RGB")
-                                else:
-                                    composed = im.convert("RGB")
-                                composed.save(emblem_file, "PNG")
+                                composed = _make_emblem_transparent_rgba(im)
+                                composed.save(emblem_file, "PNG", optimize=True)
                                 return emblem_file
                     except Exception:
                         continue
@@ -1211,23 +1274,23 @@ def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
 
     if not emblem_file.exists():
         pw = 360
-        patch_im = Image.new("RGB", (pw, pw), (255, 255, 255))
+        patch_im = Image.new("RGBA", (pw, pw), (0, 0, 0, 0))
         pdraw = ImageDraw.Draw(patch_im)
-        rim_outer = (192, 198, 206) if eagle else (56, 118, 29)
-        rim_inner = (206, 17, 38) if eagle else (244, 196, 48)
-        bg_cloth = (232, 240, 254)
-        pdraw.ellipse([12, 12, pw - 12, pw - 12], fill=rim_outer, outline=(60, 65, 72), width=4)
-        pdraw.ellipse([30, 30, pw - 30, pw - 30], fill=rim_inner, outline=(255, 255, 255), width=3)
-        pdraw.ellipse([44, 44, pw - 44, pw - 44], fill=bg_cloth, outline=(0, 63, 135), width=3)
+        rim_outer = (192, 198, 206, 255) if eagle else (56, 118, 29, 255)
+        rim_inner = (206, 17, 38, 255) if eagle else (244, 196, 48, 255)
+        bg_cloth = (232, 240, 254, 255)
+        pdraw.ellipse([12, 12, pw - 12, pw - 12], fill=rim_outer, outline=(60, 65, 72, 255), width=4)
+        pdraw.ellipse([30, 30, pw - 30, pw - 30], fill=rim_inner, outline=(255, 255, 255, 255), width=3)
+        pdraw.ellipse([44, 44, pw - 44, pw - 44], fill=bg_cloth, outline=(0, 63, 135, 255), width=3)
         for x_line in range(52, pw - 52, 8):
-            pdraw.line([(x_line, 56), (x_line, pw - 56)], fill=(216, 228, 248), width=1)
+            pdraw.line([(x_line, 56), (x_line, pw - 56)], fill=(216, 228, 248, 255), width=1)
         fnt_big = _load_fnt(34, bold=True)
         fnt_sm = _load_fnt(18, bold=True)
         words = [w for w in badge_name.upper().split() if w not in {"IN", "THE", "AND", "OF"}]
         line1 = words[0][:11] if words else badge_name[:10].upper()
         line2 = words[1][:11] if len(words) > 1 else "BADGE"
-        pdraw.text((pw // 2, pw // 2 - 22), line1, font=fnt_big, fill=(0, 63, 135), anchor="mm")
-        pdraw.text((pw // 2, pw // 2 + 20), line2, font=fnt_sm, fill=(75, 83, 32), anchor="mm")
+        pdraw.text((pw // 2, pw // 2 - 22), line1, font=fnt_big, fill=(0, 63, 135, 255), anchor="mm")
+        pdraw.text((pw // 2, pw // 2 + 20), line2, font=fnt_sm, fill=(75, 83, 32, 255), anchor="mm")
         patch_im.save(emblem_file, "PNG")
 
     if not cover_file.exists():
@@ -1241,8 +1304,8 @@ def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, str]:
         cdraw.text((cw // 2, 135), "M E R I T   B A D G E   S E R I E S", font=_load_fnt(28, bold=True), fill=(33, 33, 33), anchor="mm")
 
         with Image.open(emblem_file) as pim:
-            p_resized = pim.resize((320, 320), Image.Resampling.LANCZOS)
-            cov.paste(p_resized, ((cw - 320) // 2, 195))
+            p_resized = pim.convert("RGBA").resize((320, 320), Image.Resampling.LANCZOS)
+            cov.paste(p_resized, ((cw - 320) // 2, 195), p_resized)
 
         title_upper = badge_name.upper()
         title_fnt = _load_fnt(52 if len(title_upper) <= 14 else 36, bold=True)
