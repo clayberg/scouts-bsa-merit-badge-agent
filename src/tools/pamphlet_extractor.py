@@ -797,17 +797,17 @@ def decompose_requirement_into_topic_slides(
         "layout": "SPLIT_VISUAL_EXPLAINER" if (pamphlet_img and not extra_image_card and len(procedures) >= 2) else "CONCEPT_TEXT_SLIDE",
         "bullets": excerpts[:5] if excerpts else [req_text],
         "image_path": pamphlet_img if (pamphlet_img and not extra_image_card and len(procedures) >= 2) else None,
-        "caption": f"{badge_name} — {base_title}",
+        "caption": f"{badge_name}: {base_title}",
     })
 
     # Slide 2: Full-Page Diagram / Visual Illustration Slide (when a pamphlet or Wikimedia visual is available)
     if pamphlet_img and Path(str(pamphlet_img)).exists():
         generated.append({
-            "title": f"{base_title} — Illustrated",
+            "title": f"{base_title}: Illustrated",
             "layout": "FULL_BLEED_IMAGE_EXPLAINER",
             "bullets": [excerpts[0] if excerpts else req_text],
             "image_path": pamphlet_img,
-            "caption": f"{base_title} — Visual Reference",
+            "caption": f"{base_title}: Visual Reference",
         })
 
     # Slide 3: Step-by-Step Field Procedure or In-Depth Pamphlet Principles
@@ -817,7 +817,7 @@ def decompose_requirement_into_topic_slides(
             "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
             "bullets": procedures[:4],
             "image_path": extra_image_card,
-            "caption": f"{base_title} — Field Procedure",
+            "caption": f"{base_title}: Field Procedure",
         })
     elif extra_pamphlet_bullets:
         generated.append({
@@ -825,7 +825,7 @@ def decompose_requirement_into_topic_slides(
             "layout": "SPLIT_VISUAL_EXPLAINER" if extra_image_card else "CONCEPT_TEXT_SLIDE",
             "bullets": extra_pamphlet_bullets[:5],
             "image_path": extra_image_card,
-            "caption": f"{base_title} — Key Principles",
+            "caption": f"{base_title}: Key Principles",
         })
 
     # Slide 4: Differential Comparison (Best Practices vs. Common Field Mistakes)
@@ -833,16 +833,16 @@ def decompose_requirement_into_topic_slides(
         "left_header": f"{base_title}: Recommended Standard",
         "left_badge": "PROPER TECHNIQUE",
         "left_points": (excerpts[:3] if len(excerpts) >= 2 else [
-            f"Follow the official Scouting America {badge_name} pamphlet method step by step.",
-            "Verify safety equipment, buddy checks, and counselor instructions before starting.",
-            "Document your observations and demonstrate the skill with steady control.",
+            f"Official Pamphlet Standard: Follow the Scouting America {badge_name} method step by step.",
+            "Pre-Activity Safety Check: Verify protective equipment, buddy checks, and counselor instructions before starting.",
+            "Controlled Demonstration: Document your observations and demonstrate the skill with steady control.",
         ]),
         "right_header": "Common Mistakes to Avoid",
         "right_badge": "AVOID IN FIELD",
         "right_points": [
-            "Rushing into practical execution without reviewing hazard controls and protective gear.",
-            "Skipping equipment inspection or failing to communicate clearly with your buddy.",
-            "Leaving tools, workspace, or outdoor field stations uncleaned after practice.",
+            "Rushing Into Execution: Starting practical work without reviewing hazard controls and protective gear.",
+            "Skipping Gear Inspection: Neglecting equipment checks or failing to communicate clearly with your buddy.",
+            "Unattended Field Station: Leaving tools, workspace, or outdoor field stations uncleaned after practice.",
         ],
     }
     generated.append({

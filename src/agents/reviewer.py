@@ -138,7 +138,8 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
                     )
                 )
 
-            boxes.append((s_name, left_in, top_in, right_in, bottom_in))
+            if not str(s_name).startswith("CardAccent_"):
+                boxes.append((s_name, left_in, top_in, right_in, bottom_in))
 
             # 6. Check embedded image SHA-256 hashes
             try:

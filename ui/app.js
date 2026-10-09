@@ -1360,19 +1360,60 @@ function renderActiveSlide(idx) {
     `;
     leftZone.appendChild(grid);
   } else if (archetype === "REQUIREMENTS_TRIAGE_MATRIX") {
+    function parseTriageColumnItems(rawStr, fallbackStr) {
+      let s = String(rawStr || fallbackStr || "").trim();
+      s = s.replace(/^(Knowledge & Concepts|Hands-On Field Skills|Field & Home Prerequisites)\s*\(\d+\)\s*:\s*/i, "");
+      s = s.replace(/\.$/, "");
+      const parts = s.includes(";")
+        ? s.split(/\s*;\s*/)
+        : s.split(/\)\s*,\s*(?=Req\s)/i);
+      return parts
+        .map((p) => {
+          let item = p.trim();
+          if (item.includes("(") && !item.endsWith(")") && !s.includes(";")) item += ")";
+          const mParen = item.match(/^(Req\s+[0-9a-zA-Z]+)\s*\((.+)\)$/i);
+          if (mParen) return { req: mParen[1], desc: mParen[2].trim() };
+          const mDash = item.match(/^(Req\s+[0-9a-zA-Z]+)\s*[-:]\s*(.+)$/i);
+          if (mDash) return { req: mDash[1], desc: mDash[2].trim() };
+          return { req: "", desc: item };
+        })
+        .filter((it) => it.req || it.desc)
+        .slice(0, 4);
+    }
     const colSpecs = [
-      { header: "1. Discussion & Core Theory", color: tokens.primaryHex, item: bullets[0] || "Review core principles." },
-      { header: "2. Hands-On Skill Demonstrations", color: tokens.isStudio ? "#4ADE80" : "#4B5320", item: bullets[1] || "Practice hands-on demonstrations." },
-      { header: "3. Field & Home Prerequisites", color: tokens.isStudio ? "#F4C430" : "#CE1126", item: bullets[2] || "Complete field logs and observations." },
+      {
+        header: "Discussion & Core Theory",
+        color: tokens.isStudio ? tokens.primaryHex : "#003F87",
+        bg: tokens.isStudio ? tokens.cardBg : "#EDF4FF",
+        items: parseTriageColumnItems(bullets[0], "Review core principles."),
+      },
+      {
+        header: "Hands-On Skill Demonstrations",
+        color: tokens.isStudio ? "#4ADE80" : "#4A5D23",
+        bg: tokens.isStudio ? tokens.cardBg : "#F2F5EC",
+        items: parseTriageColumnItems(bullets[1], "Practice hands-on demonstrations."),
+      },
+      {
+        header: "Field & Home Prerequisites",
+        color: tokens.isStudio ? "#F4C430" : "#CE1126",
+        bg: tokens.isStudio ? tokens.cardBg : "#FFF5F5",
+        items: parseTriageColumnItems(bullets[2], "Complete field logs and observations."),
+      },
     ];
     const grid3 = document.createElement("div");
     grid3.style.cssText = "display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; width:100%;";
     grid3.innerHTML = colSpecs
       .map(
         (col) => `
-        <div class="m3-slide-card-item" style="border-top:5px solid ${col.color}; background:${tokens.cardBg}; color:${tokens.textFg};">
+        <div class="m3-slide-card-item" style="border:1.5px solid ${col.color}; border-top:5px solid ${col.color}; background:${col.bg}; color:${tokens.textFg};">
           <div class="m3-slide-card-anchor" style="color:${col.color}; margin-bottom:6px;">${escapeHtml(col.header)}</div>
-          <div class="m3-slide-card-text" style="color:${tokens.subTextFg};">&bull; ${escapeHtml(col.item)}</div>
+          ${col.items
+            .map((it) =>
+              it.req
+                ? `<div class="m3-slide-card-text" style="color:${tokens.subTextFg}; margin-top:3px;">&bull; <strong style="color:${tokens.textFg};">${escapeHtml(it.req)}</strong> - ${escapeHtml(it.desc)}</div>`
+                : `<div class="m3-slide-card-text" style="color:${tokens.subTextFg}; margin-top:3px;">&bull; ${escapeHtml(it.desc)}</div>`
+            )
+            .join("")}
         </div>`
       )
       .join("");
@@ -1392,15 +1433,20 @@ function renderActiveSlide(idx) {
     grid2x2.className = "m3-slide-2col-grid";
     bullets.slice(0, 6).forEach((bp, bpIdx) => {
       const cSpec = getCardThemeSpec(bpIdx);
-      const colonIdx = bp.indexOf(":");
+      const colonParts = String(bp).split(":");
       const badgeTag =
         archetype === "STEP_BY_STEP_PROCEDURE_4CARD"
           ? `<span style="display:inline-block; background:${cSpec.anchorColor}; color:${tokens.isStudio ? "#0F172A" : "#FFFFFF"}; font-family:'JetBrains Mono',monospace; font-size:0.72rem; font-weight:700; padding:1px 7px; border-radius:6px; margin-right:6px;">STEP ${bpIdx + 1}</span>`
           : `<span style="color:${cSpec.anchorColor}; font-weight:800; margin-right:6px;">[✓]</span>`;
       let inner = "";
-      if (colonIdx > 0 && colonIdx < 52) {
-        inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(bp.slice(0, colonIdx))}</div>
-                 <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(bp.slice(colonIdx + 1).trim())}</div>`;
+      if (colonParts.length >= 3 && colonParts[1].trim().split(/\s+/).length <= 7) {
+        const anchor = colonParts[1].trim();
+        const body = colonParts.slice(2).join(":").trim();
+        inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(anchor)}</div>
+                 <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
+      } else if (colonParts.length >= 2 && colonParts[0].trim().length <= 52) {
+        inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(colonParts[0].trim())}</div>
+                 <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(colonParts.slice(1).join(":").trim())}</div>`;
       } else {
         inner = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${badgeTag}${escapeHtml(bp)}</div>`;
       }

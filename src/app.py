@@ -531,11 +531,49 @@ def _render_widescreen_slide_html(
         </div>
         """
     elif archetype == "REQUIREMENTS_TRIAGE_MATRIX":
-        c2_color = "#4ADE80" if tokens["is_studio"] else "#4B5320"
+        def _parse_triage_col_html(raw_s: str, fallback_s: str) -> str:
+            s_val = str(raw_s or fallback_s or "").strip()
+            s_val = re.sub(
+                r"^(Knowledge & Concepts|Hands-On Field Skills|Field & Home Prerequisites)\s*\(\d+\)\s*:\s*",
+                "",
+                s_val,
+                flags=re.IGNORECASE,
+            ).rstrip(".")
+            parts = (
+                [p.strip() for p in s_val.split(";")]
+                if ";" in s_val
+                else [p.strip() for p in re.split(r"\)\s*,\s*(?=Req\s)", s_val, flags=re.IGNORECASE)]
+            )
+            lines_out = []
+            for p_raw in parts[:4]:
+                item = p_raw
+                if "(" in item and not item.endswith(")") and ";" not in s_val:
+                    item += ")"
+                m_paren = re.match(r"^(Req\s+[0-9a-zA-Z]+)\s*\((.+)\)$", item, flags=re.IGNORECASE)
+                m_dash = re.match(r"^(Req\s+[0-9a-zA-Z]+)\s*[-:]\s*(.+)$", item, flags=re.IGNORECASE)
+                if m_paren:
+                    lines_out.append(
+                        f'<div class="m3-slide-card-text" style="color:{tokens["sub_text_fg"]}; margin-top:3px;">&bull; <strong style="color:{tokens["text_fg"]};">{_escape(m_paren.group(1))}</strong> - {_escape(m_paren.group(2).strip())}</div>'
+                    )
+                elif m_dash:
+                    lines_out.append(
+                        f'<div class="m3-slide-card-text" style="color:{tokens["sub_text_fg"]}; margin-top:3px;">&bull; <strong style="color:{tokens["text_fg"]};">{_escape(m_dash.group(1))}</strong> - {_escape(m_dash.group(2).strip())}</div>'
+                    )
+                elif item:
+                    lines_out.append(
+                        f'<div class="m3-slide-card-text" style="color:{tokens["sub_text_fg"]}; margin-top:3px;">&bull; {_escape(item)}</div>'
+                    )
+            return "".join(lines_out)
+
+        c1_color = tokens["primary_hex"] if tokens["is_studio"] else "#003F87"
+        c2_color = "#4ADE80" if tokens["is_studio"] else "#4A5D23"
         c3_color = "#F4C430" if tokens["is_studio"] else "#CE1126"
-        b0 = bullets[0] if len(bullets) > 0 else "Review core principles."
-        b1 = bullets[1] if len(bullets) > 1 else "Practice hands-on demonstrations."
-        b2 = bullets[2] if len(bullets) > 2 else "Complete field logs and observations."
+        c1_bg = tokens["card_bg"] if tokens["is_studio"] else "#EDF4FF"
+        c2_bg = tokens["card_bg"] if tokens["is_studio"] else "#F2F5EC"
+        c3_bg = tokens["card_bg"] if tokens["is_studio"] else "#FFF5F5"
+        b0_html = _parse_triage_col_html(bullets[0] if len(bullets) > 0 else "", "Review core principles.")
+        b1_html = _parse_triage_col_html(bullets[1] if len(bullets) > 1 else "", "Practice hands-on demonstrations.")
+        b2_html = _parse_triage_col_html(bullets[2] if len(bullets) > 2 else "", "Complete field logs and observations.")
         local_card_html = (
             f'<div class="m3-slide-card-item" style="{card_style} margin-top:8px;">'
             f'<div class="m3-slide-card-text" style="color:{base_body_color};">📍 {_escape(bullets[3])}</div></div>'
@@ -544,17 +582,17 @@ def _render_widescreen_slide_html(
         )
         left_cards_html = f"""
         <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; width:100%;">
-          <div class="m3-slide-card-item" style="border-top:5px solid {tokens['primary_hex']}; background:{tokens['card_bg']}; color:{tokens['text_fg']};">
-            <div class="m3-slide-card-anchor" style="color:{tokens['primary_hex']}; margin-bottom:6px;">1. Discussion &amp; Core Theory</div>
-            <div class="m3-slide-card-text" style="color:{tokens['sub_text_fg']};">&bull; {_escape(b0)}</div>
+          <div class="m3-slide-card-item" style="border:1.5px solid {c1_color}; border-top:5px solid {c1_color}; background:{c1_bg}; color:{tokens['text_fg']};">
+            <div class="m3-slide-card-anchor" style="color:{c1_color}; margin-bottom:6px;">Discussion &amp; Core Theory</div>
+            {b0_html}
           </div>
-          <div class="m3-slide-card-item" style="border-top:5px solid {c2_color}; background:{tokens['card_bg']}; color:{tokens['text_fg']};">
-            <div class="m3-slide-card-anchor" style="color:{c2_color}; margin-bottom:6px;">2. Hands-On Skill Demonstrations</div>
-            <div class="m3-slide-card-text" style="color:{tokens['sub_text_fg']};">&bull; {_escape(b1)}</div>
+          <div class="m3-slide-card-item" style="border:1.5px solid {c2_color}; border-top:5px solid {c2_color}; background:{c2_bg}; color:{tokens['text_fg']};">
+            <div class="m3-slide-card-anchor" style="color:{c2_color}; margin-bottom:6px;">Hands-On Skill Demonstrations</div>
+            {b1_html}
           </div>
-          <div class="m3-slide-card-item" style="border-top:5px solid {c3_color}; background:{tokens['card_bg']}; color:{tokens['text_fg']};">
-            <div class="m3-slide-card-anchor" style="color:{c3_color}; margin-bottom:6px;">3. Field &amp; Home Prerequisites</div>
-            <div class="m3-slide-card-text" style="color:{tokens['sub_text_fg']};">&bull; {_escape(b2)}</div>
+          <div class="m3-slide-card-item" style="border:1.5px solid {c3_color}; border-top:5px solid {c3_color}; background:{c3_bg}; color:{tokens['text_fg']};">
+            <div class="m3-slide-card-anchor" style="color:{c3_color}; margin-bottom:6px;">Field &amp; Home Prerequisites</div>
+            {b2_html}
           </div>
         </div>
         {local_card_html}
@@ -564,15 +602,23 @@ def _render_widescreen_slide_html(
         for idx_bp, bp in enumerate(bullets[:6]):
             c_style, c_anc, c_body, _ = _get_card_theme_spec(idx_bp)
             bp_str = str(bp)
-            colon_idx = bp_str.find(":")
+            colon_parts = bp_str.split(":")
             badge_tag = (
                 f'<span style="display:inline-block; background:{c_anc}; color:#FFFFFF; font-family:\'JetBrains Mono\',monospace; font-size:0.72rem; font-weight:700; padding:1px 7px; border-radius:6px; margin-right:6px;">STEP {idx_bp + 1}</span>'
                 if archetype == "STEP_BY_STEP_PROCEDURE_4CARD"
                 else f'<span style="color:{c_anc}; font-weight:800; margin-right:6px;">[✓]</span>'
             )
-            if 0 < colon_idx < 52:
-                anchor = bp_str[:colon_idx]
-                rest = bp_str[colon_idx + 1 :].strip()
+            if len(colon_parts) >= 3 and len(colon_parts[1].strip().split()) <= 7:
+                anchor = colon_parts[1].strip()
+                rest = ":".join(colon_parts[2:]).strip()
+                grid_items.append(
+                    f'<div class="m3-slide-card-item" style="{c_style}">'
+                    f'<div class="m3-slide-card-anchor" style="color:{c_anc};">{badge_tag}{_escape(anchor)}</div>'
+                    f'<div class="m3-slide-card-text" style="color:{c_body};">{_escape(rest)}</div></div>'
+                )
+            elif len(colon_parts) >= 2 and len(colon_parts[0].strip()) <= 52:
+                anchor = colon_parts[0].strip()
+                rest = ":".join(colon_parts[1:]).strip()
                 grid_items.append(
                     f'<div class="m3-slide-card-item" style="{c_style}">'
                     f'<div class="m3-slide-card-anchor" style="color:{c_anc};">{badge_tag}{_escape(anchor)}</div>'

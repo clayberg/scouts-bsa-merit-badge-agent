@@ -113,32 +113,36 @@ _LEADING_BULLET_RE = re.compile(r"^[\s•\-\*·▪▸►]+")
 
 
 def _clean_text(raw_text: Optional[str]) -> str:
-    """Strips literal bullet glyphs and removes ellipsis truncation from slide copy."""
+    """Strips literal bullet glyphs, normalizes punctuation spacing, and removes ellipsis truncation from slide copy."""
     if not raw_text:
         return ""
     cleaned = _LEADING_BULLET_RE.sub("", str(raw_text).strip())
     cleaned = cleaned.replace("...", ".").replace("…", ".")
+    cleaned = cleaned.replace(" , ", ", ")
     cleaned = re.sub(r"\.\.+", ".", cleaned)
     return cleaned.strip()
 
 
 def _split_anchor_and_body(point_text: str, default_anchor: str = "Key Point") -> Tuple[str, str]:
-    """Splits a point string into a 2-5 word Bold Anchor and a concise body explanation."""
+    """Splits a point string into a Bold Anchor and a concise body explanation without inventing mid-sentence colons."""
     cleaned = _clean_text(point_text)
     if not cleaned:
         return default_anchor, "Review this concept with your Merit Badge Counselor."
     if ":" in cleaned:
+        parts = [p.strip() for p in cleaned.split(":")]
+        if len(parts) >= 3 and 1 <= len(parts[1].split()) <= 7 and ":".join(parts[2:]).strip():
+            return parts[1], ":".join(parts[2:]).strip()
         first_colon = cleaned.find(":")
         anchor_candidate = cleaned[:first_colon].strip()
         body_candidate = cleaned[first_colon + 1 :].strip()
-        if 1 <= len(anchor_candidate.split()) <= 7 and body_candidate:
+        if 1 <= len(anchor_candidate.split()) <= 10 and body_candidate:
             return anchor_candidate, body_candidate
     words = cleaned.split()
     if len(words) <= 4:
         return cleaned, ""
-    anchor = " ".join(words[:3]).rstrip(",.;:")
-    body = " ".join(words[3:])
-    return anchor, body
+    if not default_anchor:
+        return "", cleaned
+    return default_anchor, cleaned
 
 
 def _compute_fitting_font_size(
@@ -189,6 +193,38 @@ def _compute_fitting_font_size(
     return round(safe_min, 1)
 
 
+def _set_rounded_rect_radius(shape: Any, width_in: float, height_in: float, radius_in: float = 0.09) -> None:
+    """Normalizes MSO_SHAPE.ROUNDED_RECTANGLE corner radius to a constant physical radius in inches
+    and disables theme drop shadows so Google Slides renders crisp, uniform corners on both short and tall cards.
+    """
+    try:
+        min_dim = max(0.05, min(float(width_in), float(height_in)))
+        shape.adjustments[0] = min(0.32, max(0.02, float(radius_in) / min_dim))
+    except Exception:
+        pass
+    try:
+        shape.shadow.inherit = False
+    except Exception:
+        pass
+
+
+def _enable_openxml_bullet(paragraph: Any, char: str = "•") -> None:
+    """Enables a native OpenXML hanging bullet (`<a:buChar>`) on a paragraph without inserting a literal '•' into `p.text`."""
+    try:
+        from pptx.oxml import parse_xml
+        from pptx.oxml.ns import nsdecls
+
+        pPr = paragraph._p.get_or_add_pPr()
+        pPr.set("marL", "205740")
+        pPr.set("indent", "-205740")
+        for child in list(pPr):
+            if child.tag.endswith(("buNone", "buChar", "buAutoNum")):
+                pPr.remove(child)
+        pPr.append(parse_xml(f'<a:buChar {nsdecls("a")} char="{char}"/>'))
+    except Exception:
+        pass
+
+
 def _add_styled_box(
     slide: Any,
     left_in: float,
@@ -200,45 +236,55 @@ def _add_styled_box(
     border_pt: float = 1.25,
     top_accent_rgb: Optional[Tuple[int, int, int]] = None,
     left_accent_rgb: Optional[Tuple[int, int, int]] = None,
+    radius_in: float = 0.09,
 ) -> Any:
-    """Adds a rounded rectangular card shape with optional non-overlapping top or left color highlight bar."""
+    """Adds a rounded rectangular card shape with an integrated Layered Crescent top or left accent border."""
     body_left = left_in
     body_top = top_in
     body_w = width_in
     body_h = height_in
+    fg_radius = radius_in
 
     if top_accent_rgb is not None and height_in > 0.35:
-        bar_h = 0.075
+        bar_h = 0.065
+        cap_h = min(height_in, 0.28)
         cap = slide.shapes.add_shape(
             MSO_SHAPE.ROUNDED_RECTANGLE,
             Inches(left_in),
             Inches(top_in),
             Inches(width_in),
-            Inches(bar_h),
+            Inches(cap_h),
         )
+        cap.name = f"CardAccent_Top_{len(slide.shapes)}"
+        _set_rounded_rect_radius(cap, width_in, cap_h, radius_in=radius_in)
         cap.fill.solid()
         cap.fill.fore_color.rgb = RGBColor(*top_accent_rgb)
         cap.line.color.rgb = RGBColor(*top_accent_rgb)
-        cap.line.width = Pt(0.75)
+        cap.line.width = Pt(1.0)
         cap.text_frame.word_wrap = True
         body_top = round(top_in + bar_h, 3)
         body_h = round(height_in - bar_h, 3)
+        fg_radius = max(0.035, radius_in - 0.045)
     elif left_accent_rgb is not None and width_in > 0.50:
-        bar_w = 0.08
+        bar_w = 0.075
+        cap_w = min(width_in, 0.28)
         bar = slide.shapes.add_shape(
             MSO_SHAPE.ROUNDED_RECTANGLE,
             Inches(left_in),
             Inches(top_in),
-            Inches(bar_w),
+            Inches(cap_w),
             Inches(height_in),
         )
+        bar.name = f"CardAccent_Left_{len(slide.shapes)}"
+        _set_rounded_rect_radius(bar, cap_w, height_in, radius_in=radius_in)
         bar.fill.solid()
         bar.fill.fore_color.rgb = RGBColor(*left_accent_rgb)
         bar.line.color.rgb = RGBColor(*left_accent_rgb)
-        bar.line.width = Pt(0.75)
+        bar.line.width = Pt(1.0)
         bar.text_frame.word_wrap = True
         body_left = round(left_in + bar_w, 3)
         body_w = round(width_in - bar_w, 3)
+        fg_radius = max(0.035, radius_in - 0.045)
 
     shape = slide.shapes.add_shape(
         MSO_SHAPE.ROUNDED_RECTANGLE,
@@ -247,6 +293,7 @@ def _add_styled_box(
         Inches(body_w),
         Inches(body_h),
     )
+    _set_rounded_rect_radius(shape, body_w, body_h, radius_in=fg_radius)
     shape.fill.solid()
     shape.fill.fore_color.rgb = RGBColor(*bg_rgb)
     shape.line.color.rgb = RGBColor(*border_rgb)
@@ -254,10 +301,10 @@ def _add_styled_box(
     tf = shape.text_frame
     tf.word_wrap = True
     tf.vertical_anchor = MSO_ANCHOR.TOP
-    tf.margin_left = Inches(0.18)
-    tf.margin_right = Inches(0.18)
-    tf.margin_top = Inches(0.12)
-    tf.margin_bottom = Inches(0.10)
+    tf.margin_left = Inches(0.16)
+    tf.margin_right = Inches(0.16)
+    tf.margin_top = Inches(0.10)
+    tf.margin_bottom = Inches(0.08)
     return shape
 
 
@@ -272,6 +319,7 @@ def _set_paragraph_runs(
     space_after_pt: float = 6.0,
     bold_body: bool = False,
     align: Any = PP_ALIGN.LEFT,
+    separator: str = ": ",
 ) -> None:
     """Populates a paragraph with a bold anchor run and regular body run, enforcing left alignment and >= 13pt floor."""
     safe_size = max(13.0, float(font_size_pt))
@@ -287,7 +335,7 @@ def _set_paragraph_runs(
 
     if clean_anchor:
         r_anchor = paragraph.add_run()
-        r_anchor.text = f"{clean_anchor}: " if clean_body else clean_anchor
+        r_anchor.text = f"{clean_anchor}{separator}" if clean_body else clean_anchor
         r_anchor.font.name = font_name
         r_anchor.font.size = Pt(safe_size)
         r_anchor.font.bold = True
@@ -370,42 +418,56 @@ def _ensure_unique_image_path(
 # ARCHETYPE RENDERERS (FULL-WIDTH WHEN NO IMAGE, SPLIT WHEN IMAGE PRESENT)
 # ==============================================================================
 
-def _resolve_palette_colors(
+def _resolve_palette_tokens(
     slide_spec: SlideSpec,
-) -> Tuple[Tuple[int, int, int], Tuple[int, int, int]]:
-    """Returns (border_rgb, bg_rgb) based on slide_spec.beautification_tier and accent_palette_key."""
+) -> Tuple[Tuple[int, int, int], Tuple[int, int, int], Tuple[int, int, int]]:
+    """Returns `(primary_rgb, accent_rgb, card_bg_rgb)` matching `resolveSlidePaletteTokens` in `ui/app.js` 1:1."""
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
     if tier == "STANDARD":
-        return ScoutsBSAPalette.NAVY_BLUE_RGB, ScoutsBSAPalette.CRISP_SLATE_RGB
+        return (
+            ScoutsBSAPalette.NAVY_BLUE_RGB,
+            ScoutsBSAPalette.BORDER_GRAY_RGB,
+            ScoutsBSAPalette.CRISP_SLATE_RGB,
+        )
     pal = str(getattr(slide_spec, "accent_palette_key", "NAVY_GOLD") or "NAVY_GOLD").upper()
     if tier == "STUDIO":
         if pal == "OLIVE_FOREST":
-            return (74, 222, 128), (23, 37, 42)
+            return (74, 222, 128), (34, 197, 94), (23, 37, 42)
         if pal == "EAGLE_CRIMSON":
-            return (248, 113, 113), (42, 24, 32)
+            return (248, 113, 113), (239, 68, 68), (42, 24, 32)
         if pal == "SLATE_ACTION":
-            return (56, 189, 248), (23, 37, 84)
-        return (244, 196, 48), (30, 41, 59)
+            return (56, 189, 248), (14, 165, 233), (23, 37, 84)
+        return (244, 196, 48), (56, 189, 248), (30, 41, 59)
+
+    # BEAUTIFIED (Warm Cream Editorial)
     if pal == "OLIVE_FOREST":
-        return ScoutsBSAPalette.WARM_OLIVE_RGB, ScoutsBSAPalette.SOFT_OLIVE_CARD_RGB
+        return (46, 70, 0), (75, 83, 32), (241, 248, 233)  # #2E4600, #4B5320, #F1F8E9
     if pal == "EAGLE_CRIMSON":
-        return ScoutsBSAPalette.EAGLE_RED_RGB, ScoutsBSAPalette.SOFT_RED_CARD_RGB
+        return (139, 0, 0), (206, 17, 38), (255, 245, 245)  # #8B0000, #CE1126, #FFF5F5
     if pal == "SLATE_ACTION":
-        return ScoutsBSAPalette.ACTION_BLUE_RGB, ScoutsBSAPalette.SOFT_GOLD_CARD_RGB
-    return ScoutsBSAPalette.NAVY_BLUE_RGB, ScoutsBSAPalette.SOFT_BLUE_CARD_RGB
+        return (15, 23, 42), (0, 90, 224), (240, 249, 255)  # #0F172A, #005AE0, #F0F9FF
+    return (0, 63, 135), (212, 175, 55), (239, 246, 255)  # #003F87, #D4AF37, #EFF6FF
+
+
+def _resolve_palette_colors(
+    slide_spec: SlideSpec,
+) -> Tuple[Tuple[int, int, int], Tuple[int, int, int]]:
+    """Returns `(primary_rgb, card_bg_rgb)` for backward compatibility with callers."""
+    primary_rgb, _, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    return primary_rgb, card_bg_rgb
 
 
 def _resolve_text_colors(
     slide_spec: SlideSpec,
     default_anchor_rgb: Optional[Tuple[int, int, int]] = None,
 ) -> Tuple[Tuple[int, int, int], Tuple[int, int, int], Tuple[int, int, int]]:
-    """Returns (anchor_rgb, body_rgb, title_rgb) for the slide's beautification_tier."""
+    """Returns `(anchor_rgb, body_rgb, title_rgb)` matching `ui/app.js` for the slide's beautification_tier."""
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
-    border_rgb, _ = _resolve_palette_colors(slide_spec)
-    anchor_base = default_anchor_rgb or border_rgb
+    primary_rgb, _, _ = _resolve_palette_tokens(slide_spec)
+    anchor_base = default_anchor_rgb or primary_rgb
     if tier == "STUDIO":
-        return border_rgb, (241, 245, 249), (248, 250, 252)
-    return anchor_base, ScoutsBSAPalette.DARK_TEXT_RGB, anchor_base
+        return anchor_base, (226, 232, 240), (248, 250, 252)
+    return anchor_base, (51, 65, 85), primary_rgb
 
 
 def _apply_slide_tier_background(
@@ -451,43 +513,48 @@ def _resolve_card_theme_treatment(
     default_anchor_rgb: Tuple[int, int, int],
     default_body_rgb: Tuple[int, int, int],
 ) -> Tuple[str, Tuple[int, int, int], Tuple[int, int, int], Tuple[int, int, int], Tuple[int, int, int], float]:
-    """Applies distinct prefix, background, border, and text color treatments for each Magazine Card Theme."""
+    """Applies distinct prefix, background, border, and text color treatments matching `getCardThemeSpec` in `ui/app.js`."""
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
     theme = str(getattr(slide_spec, "visual_theme", "") or "").upper()
-    bg_rgb = default_bg_rgb
-    border_rgb = default_border_rgb if tier != "STANDARD" else ScoutsBSAPalette.BORDER_GRAY_RGB
-    anchor_rgb = default_anchor_rgb
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    bg_rgb = card_bg_rgb if tier != "STANDARD" else default_bg_rgb
+    border_rgb = accent_rgb if tier != "STANDARD" else ScoutsBSAPalette.BORDER_GRAY_RGB
+    anchor_rgb = primary_rgb if tier != "STANDARD" else default_anchor_rgb
     body_rgb = default_body_rgb
-    border_pt = 1.5 if tier == "STUDIO" else (1.35 if tier == "BEAUTIFIED" else 1.2)
+    border_pt = 1.4 if tier == "STUDIO" else (1.25 if tier == "BEAUTIFIED" else 1.0)
+
+    if tier == "STANDARD":
+        return anchor, bg_rgb, border_rgb, anchor_rgb, body_rgb, border_pt
 
     if "DARK_SLATE" in theme:
         bg_rgb = (30, 41, 59)
         border_rgb = (244, 196, 48)
         anchor_rgb = (244, 196, 48)
-        body_rgb = (241, 245, 249)
-        border_pt = 1.6
-        anchor = f"★ {anchor}"
+        body_rgb = (226, 232, 240)
+        border_pt = 1.5
+        anchor = f"★ {anchor}" if anchor else "★"
     elif "SAFETY_ALERT" in theme:
-        bg_rgb = (42, 24, 32) if tier == "STUDIO" else ScoutsBSAPalette.SOFT_RED_CARD_RGB
-        border_rgb = (248, 113, 113) if tier == "STUDIO" else ScoutsBSAPalette.EAGLE_RED_RGB
+        bg_rgb = (49, 16, 24) if tier == "STUDIO" else (255, 241, 242)
+        border_rgb = (251, 113, 133) if tier == "STUDIO" else ScoutsBSAPalette.EAGLE_RED_RGB
         anchor_rgb = border_rgb
-        border_pt = 1.6
-        anchor = f"[!] {anchor}"
+        border_pt = 1.5
+        anchor = f"⚠️ {anchor}" if anchor else "⚠️ SAFETY"
     elif "TIMELINE_CHEVRON" in theme:
-        border_pt = 1.5
-        anchor = f"STEP {idx_pt + 1} ➔ {anchor}"
-    elif "EDITORIAL_CALLOUT" in theme:
-        bg_rgb = (30, 41, 59) if tier == "STUDIO" else ScoutsBSAPalette.SOFT_GOLD_CARD_RGB
-        border_pt = 1.5
-        anchor = f"❝ {anchor}"
-    elif "NUMBERED" in theme:
-        border_pt = 1.5
-        anchor = f"[0{idx_pt + 1}] {anchor}"
-    elif "BENTO" in theme or "THREE_PILLAR" in theme:
-        border_pt = 1.6
-        anchor = f"◆ {anchor}"
-    elif tier in ("BEAUTIFIED", "STUDIO"):
-        anchor = f"◆ {anchor}"
+        border_pt = 1.35
+        anchor = f"STEP {idx_pt + 1} ➔  {anchor}" if anchor else f"STEP {idx_pt + 1} ➔"
+    elif "EDITORIAL_CALLOUT" in theme or "ANNOTATED_INFOGRAPHIC" in theme:
+        bg_rgb = (30, 41, 59) if tier == "STUDIO" else (255, 251, 235)
+        border_rgb = (245, 158, 11)
+        anchor_rgb = (251, 191, 36) if tier == "STUDIO" else (180, 83, 9)
+        border_pt = 1.35
+        anchor = f"❝ {anchor}" if anchor else "❝"
+    elif "BENTO" in theme or "THREE_PILLAR" in theme or "ASYMMETRIC" in theme:
+        border_pt = 1.35
+        anchor = f"◆ {anchor}" if anchor else "◆"
+    else:
+        # Default NUMBERED_STEP_CARDS / NUMBERED_STEP_RIBBON (matches `01  Anchor` in ui/app.js)
+        border_pt = 1.35
+        anchor = f"0{idx_pt + 1}  {anchor}" if anchor else f"0{idx_pt + 1}"
 
     return anchor, bg_rgb, border_rgb, anchor_rgb, body_rgb, border_pt
 
@@ -502,13 +569,13 @@ def _render_stacked_point_cards(
     bottom_in: float,
     default_anchor_prefix: str = "Key Concept",
 ) -> None:
-    """Renders each bullet point as an individual horizontal card (matching UI preview `.m3-slide-card-item`)
-    with a thick left or top accent highlight bar and proportional height allocation.
+    """Renders each bullet point as an individual horizontal card matching UI preview `.m3-slide-card-item`
+    (with Bold Anchor on Line 1 and Regular Body on Line 2 when sufficient vertical height exists).
     """
-    border_rgb, bg_rgb = _resolve_palette_colors(slide_spec)
-    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, border_rgb)
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
     theme = str(getattr(slide_spec, "visual_theme", "") or "").upper()
-    use_top_bar = "BENTO" in theme or "THREE_PILLAR" in theme
+    use_top_bar = "BENTO" in theme or "THREE_PILLAR" in theme or "ASYMMETRIC" in theme
 
     total_h = max(2.00, bottom_in - top_in)
     # When rendering in a half-width split column below a requirement banner, cap at 4 cards so text never crowds
@@ -529,13 +596,12 @@ def _render_stacked_point_cards(
         for p in clean_pts:
             plen = len(_clean_text(p)) + 6
             est_lines = max(1, int((plen + chars_per_line - 1) // chars_per_line))
-            weights.append(0.32 + float(est_lines))
+            weights.append(0.45 + float(est_lines))
         total_w = sum(weights)
-        min_card_h = min(0.60, avg_h * 0.78)
+        min_card_h = min(0.62, avg_h * 0.80)
         raw_heights = [max(min_card_h, avail_cards_h * (w / total_w)) for w in weights]
         scale_h = avail_cards_h / max(0.01, sum(raw_heights))
         card_heights = [round(h * scale_h, 3) for h in raw_heights]
-        # Adjust last card height so sum matches avail_cards_h
         if card_heights:
             card_heights[-1] = round(avail_cards_h - sum(card_heights[:-1]), 3)
 
@@ -543,9 +609,12 @@ def _render_stacked_point_cards(
         for idx_pt, (pt, c_h) in enumerate(zip(clean_pts, card_heights)):
             c_top = round(cur_top, 3)
             cur_top += c_h + gap_y
-            raw_anchor, body = _split_anchor_and_body(pt, f"{default_anchor_prefix} {idx_pt + 1}")
+            raw_anchor, body = _split_anchor_and_body(pt, "")
             anchor, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
-                slide_spec, idx_pt, raw_anchor, bg_rgb, border_rgb, anchor_rgb, body_rgb
+                slide_spec, idx_pt, raw_anchor, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
+            )
+            bar_color = (56, 189, 248) if "DARK_SLATE" in theme else (
+                c_border if "SAFETY_ALERT" in theme else primary_rgb
             )
             card = _add_styled_box(
                 slide,
@@ -556,37 +625,68 @@ def _render_stacked_point_cards(
                 bg_rgb=c_bg,
                 border_rgb=c_border,
                 border_pt=c_border_pt,
-                top_accent_rgb=c_border if use_top_bar else None,
-                left_accent_rgb=None if use_top_bar else c_border,
+                top_accent_rgb=bar_color if use_top_bar else None,
+                left_accent_rgb=None if use_top_bar else bar_color,
             )
             tf = card.text_frame
             tf.margin_top = Inches(0.06 if c_h < 0.94 else 0.08)
             tf.margin_bottom = Inches(0.05 if c_h < 0.94 else 0.06)
             tf.margin_left = Inches(0.14 if width_in < 7.0 else 0.18)
             tf.margin_right = Inches(0.14 if width_in < 7.0 else 0.18)
-            full_line = f"{anchor}: {body}" if body else anchor
-            f_pt = _compute_fitting_font_size(
-                [full_line],
-                box_w_in=width_in - 0.10,
-                box_h_in=c_h,
-                min_pt=15.0,
-                max_pt=18.5 if width_in > 8.0 else 16.5,
-                space_after_pt=1.5,
-            )
-            _set_paragraph_runs(
-                tf.paragraphs[0],
-                anchor,
-                body,
-                font_size_pt=f_pt,
-                anchor_rgb=c_anchor_rgb,
-                body_rgb=c_body_rgb,
-                space_after_pt=1.5,
-            )
+
+            if raw_anchor and body and c_h >= 0.72:
+                f_pt = _compute_fitting_font_size(
+                    [anchor, body],
+                    box_w_in=width_in - 0.10,
+                    box_h_in=c_h,
+                    min_pt=15.0,
+                    max_pt=18.0 if width_in > 8.0 else 16.0,
+                    space_after_pt=2.0,
+                )
+                _set_paragraph_runs(
+                    tf.paragraphs[0],
+                    anchor,
+                    "",
+                    font_size_pt=f_pt,
+                    anchor_rgb=c_anchor_rgb,
+                    body_rgb=c_body_rgb,
+                    space_after_pt=2.0,
+                )
+                p_body = tf.add_paragraph()
+                _set_paragraph_runs(
+                    p_body,
+                    "",
+                    body,
+                    font_size_pt=f_pt,
+                    anchor_rgb=c_anchor_rgb,
+                    body_rgb=c_body_rgb,
+                    space_after_pt=0.0,
+                )
+            else:
+                single_text = body if not raw_anchor else (f"{anchor}: {body}" if body else anchor)
+                f_pt = _compute_fitting_font_size(
+                    [single_text],
+                    box_w_in=width_in - 0.10,
+                    box_h_in=c_h,
+                    min_pt=15.0,
+                    max_pt=18.5 if width_in > 8.0 else 16.5,
+                    space_after_pt=1.5,
+                )
+                _set_paragraph_runs(
+                    tf.paragraphs[0],
+                    anchor,
+                    body,
+                    font_size_pt=f_pt,
+                    anchor_rgb=c_anchor_rgb,
+                    body_rgb=c_body_rgb,
+                    space_after_pt=1.5,
+                    separator="  " if not raw_anchor else ": ",
+                )
         return
 
     # Fallback unified card when compact vertical space
     _, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
-        slide_spec, 0, "", bg_rgb, border_rgb, anchor_rgb, body_rgb
+        slide_spec, 0, "", card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
     )
     card = _add_styled_box(
         slide,
@@ -597,7 +697,7 @@ def _render_stacked_point_cards(
         bg_rgb=c_bg,
         border_rgb=c_border,
         border_pt=c_border_pt,
-        left_accent_rgb=c_border,
+        left_accent_rgb=primary_rgb,
     )
     tf = card.text_frame
     body_font_pt = _compute_fitting_font_size(
@@ -612,7 +712,7 @@ def _render_stacked_point_cards(
         p = tf.paragraphs[0] if idx_pt == 0 else tf.add_paragraph()
         raw_anchor, body = _split_anchor_and_body(pt, f"{default_anchor_prefix} {idx_pt + 1}")
         anchor, _, _, _, _, _ = _resolve_card_theme_treatment(
-            slide_spec, idx_pt, raw_anchor, bg_rgb, border_rgb, anchor_rgb, body_rgb
+            slide_spec, idx_pt, raw_anchor, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
         )
         _set_paragraph_runs(
             p,
@@ -625,6 +725,102 @@ def _render_stacked_point_cards(
         )
 
 
+def _render_right_visual_card(
+    slide: Any,
+    slide_spec: SlideSpec,
+    resolved_diagram: str,
+    top_in: float,
+    bottom_in: float,
+) -> None:
+    """Renders the unified right-hand visual card container (`[x: 7.00..12.733, y: top_in..bottom_in]`)
+    with the embedded image and a clean single-line caption inside the card (matching `rightZone` in `ui/app.js`).
+    """
+    tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
+
+    frame_bg = (30, 41, 59) if tier == "STUDIO" else (card_bg_rgb if tier == "BEAUTIFIED" else (248, 250, 252))
+    frame_border = accent_rgb if tier in ("BEAUTIFIED", "STUDIO") else ScoutsBSAPalette.BORDER_GRAY_RGB
+    frame_h = max(2.40, round(bottom_in - top_in, 3))
+
+    # Outer visual container card (named CardAccent_RightVisualFrame so child picture + caption sit inside it cleanly)
+    frame_box = slide.shapes.add_shape(
+        MSO_SHAPE.ROUNDED_RECTANGLE,
+        Inches(7.00),
+        Inches(top_in),
+        Inches(5.733),
+        Inches(frame_h),
+    )
+    frame_box.name = f"CardAccent_RightVisualFrame_{len(slide.shapes)}"
+    _set_rounded_rect_radius(frame_box, 5.733, frame_h, radius_in=0.10)
+    frame_box.fill.solid()
+    frame_box.fill.fore_color.rgb = RGBColor(*frame_bg)
+    frame_box.line.color.rgb = RGBColor(*frame_border)
+    frame_box.line.width = Pt(1.5 if tier in ("BEAUTIFIED", "STUDIO") else 1.0)
+    frame_box.text_frame.word_wrap = True
+
+    cap_h = 0.48
+    img_pad_x = 0.16
+    img_pad_top = 0.12
+    avail_img_w = 5.733 - (2 * img_pad_x)
+    avail_img_h = max(1.80, frame_h - cap_h - img_pad_top - 0.08)
+    try:
+        pic = slide.shapes.add_picture(
+            resolved_diagram,
+            Inches(7.00 + img_pad_x),
+            Inches(top_in + img_pad_top),
+            width=Inches(avail_img_w),
+        )
+        max_h = Inches(avail_img_h)
+        if pic.height > max_h:
+            scale = float(max_h) / float(pic.height)
+            pic.height = max_h
+            pic.width = int(pic.width * scale)
+        pic.left = int(Inches(7.00) + (Inches(5.733) - pic.width) // 2)
+        pic.top = int(Inches(top_in + img_pad_top) + (Inches(avail_img_h) - pic.height) // 2)
+    except Exception:
+        pass
+
+    raw_cap = _clean_text(slide_spec.visual_caption) or _clean_text(slide_spec.title)
+    for prefix_rm in (
+        "🍌 Hero Illustration: ",
+        "✨ EDGE Skill Map: ",
+        "EDGE Skill Concept Map — ",
+        "EDGE Skill Concept Map - ",
+        "EDGE Skill Concept Map, ",
+        "EDGE Skill Map: ",
+        "Figure: ",
+    ):
+        if raw_cap.startswith(prefix_rm):
+            raw_cap = raw_cap[len(prefix_rm) :].strip()
+    if len(raw_cap) > 68:
+        raw_cap = raw_cap[:68].rsplit(" ", 1)[0].strip(" .,:;-—") or raw_cap[:68]
+
+    cap_box = slide.shapes.add_textbox(
+        Inches(7.14),
+        Inches(round(bottom_in - cap_h - 0.04, 3)),
+        Inches(5.45),
+        Inches(cap_h),
+    )
+    captf = cap_box.text_frame
+    captf.word_wrap = True
+    captf.vertical_anchor = MSO_ANCHOR.MIDDLE
+    captf.margin_top = Inches(0.02)
+    captf.margin_bottom = Inches(0.02)
+    captf.margin_left = Inches(0.06)
+    captf.margin_right = Inches(0.06)
+    cap_anchor, cap_body = _split_anchor_and_body(raw_cap, "")
+    _set_paragraph_runs(
+        captf.paragraphs[0],
+        cap_anchor,
+        cap_body,
+        font_size_pt=15.0,
+        anchor_rgb=anchor_rgb,
+        body_rgb=body_rgb,
+        space_after_pt=0.0,
+    )
+
+
 def _render_requirement_intro_slide(
     slide: Any,
     slide_spec: SlideSpec,
@@ -634,13 +830,13 @@ def _render_requirement_intro_slide(
     """Renders the first slide of a requirement sequence matching the UI preview:
     1. Full-width Official Requirement strip across the top (`width=12.133"`).
     2. Left-zone stacked teaching cards (`width=6.20"` when visual is present, `12.133"` when no visual).
-    3. Right-zone visual + caption when `resolved_diagram` is present in `BEAUTIFIED` / `STUDIO` modes.
+    3. Right-zone unified visual card + clean caption when `resolved_diagram` is present in `BEAUTIFIED` / `STUDIO` modes.
     """
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
     has_hero = bool(tier in ("BEAUTIFIED", "STUDIO") and resolved_diagram and os.path.exists(resolved_diagram))
-    accent_rgb, tint_bg_rgb = _resolve_palette_colors(slide_spec)
-    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, accent_rgb)
-    req_bg_rgb = (30, 41, 59) if tier == "STUDIO" else (tint_bg_rgb if tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
+    req_bg_rgb = (30, 41, 59) if tier == "STUDIO" else (card_bg_rgb if tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
 
     verbatim_text = _clean_text(
         slide_spec.verbatim_requirement_text
@@ -704,65 +900,13 @@ def _render_requirement_intro_slide(
         default_anchor_prefix="Key Concept",
     )
 
-    # Right Visual Zone when BEAUTIFIED / STUDIO has a Hero Illustration or EDGE Skill Concept Map
     if has_hero and resolved_diagram:
-        avail_img_h = max(2.10, (content_bottom - teach_top) - 0.56)
-        try:
-            pic = slide.shapes.add_picture(
-                resolved_diagram,
-                Inches(7.05),
-                Inches(teach_top),
-                width=Inches(5.65),
-            )
-            max_h = Inches(avail_img_h)
-            if pic.height > max_h:
-                scale = float(max_h) / float(pic.height)
-                pic.height = max_h
-                pic.width = int(pic.width * scale)
-                pic.left = int(Inches(7.05) + (Inches(5.65) - pic.width) // 2)
-        except Exception:
-            pass
-
-        cap_bg = (30, 41, 59) if tier == "STUDIO" else tint_bg_rgb
-        caption_box = _add_styled_box(
-            slide,
-            left_in=7.05,
-            top_in=content_bottom - 0.48,
-            width_in=5.65,
-            height_in=0.48,
-            bg_rgb=cap_bg,
-            border_rgb=accent_rgb,
-            border_pt=1.25,
-            left_accent_rgb=accent_rgb,
-        )
-        captf = caption_box.text_frame
-        captf.margin_top = Inches(0.05)
-        captf.margin_bottom = Inches(0.04)
-        src_lbl = str(getattr(slide_spec, "visual_source_label", "") or "")
-        is_nano_hero = "Nano Banana" in src_lbl or "_nano_hero" in str(resolved_diagram or "")
-        cap_prefix = "🍌 Hero Illustration" if is_nano_hero else "✨ EDGE Skill Map"
-        raw_cap = _clean_text(slide_spec.visual_caption) or _clean_text(slide_spec.title)
-        for prefix_rm in ("EDGE Skill Concept Map — ", "EDGE Skill Concept Map - ", "EDGE Skill Concept Map, ", "EDGE Skill Map: ", "Figure: "):
-            if raw_cap.startswith(prefix_rm):
-                raw_cap = raw_cap[len(prefix_rm):].strip()
-        if len(raw_cap) > 64:
-            raw_cap = raw_cap[:64].rsplit(" ", 1)[0].strip(" .,:;-—") or raw_cap[:64]
-        cap_font_pt = _compute_fitting_font_size(
-            [f"{cap_prefix}: {raw_cap}"],
-            box_w_in=5.55,
-            box_h_in=0.48,
-            min_pt=15.0,
-            max_pt=16.0,
-            space_after_pt=0.0,
-        )
-        _set_paragraph_runs(
-            captf.paragraphs[0],
-            cap_prefix,
-            raw_cap,
-            font_size_pt=cap_font_pt,
-            anchor_rgb=anchor_rgb,
-            body_rgb=body_rgb,
-            space_after_pt=0.0,
+        _render_right_visual_card(
+            slide=slide,
+            slide_spec=slide_spec,
+            resolved_diagram=resolved_diagram,
+            top_in=teach_top,
+            bottom_in=content_bottom,
         )
 
 
@@ -873,6 +1017,38 @@ def _render_concept_or_sources_full_width(
         )
 
 
+def _parse_triage_column_items(raw_bullet: str, fallback_text: str) -> List[Tuple[str, str]]:
+    """Parses a Triage Matrix column string into individual `(req_label, description)` items,
+    stripping any legacy `'Knowledge & Concepts (N):'` prefixes.
+    """
+    s = _clean_text(raw_bullet) or _clean_text(fallback_text)
+    s = re.sub(
+        r"^(Knowledge & Concepts|Hands-On Field Skills|Field & Home Prerequisites)\s*\(\d+\)\s*:\s*",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    ).rstrip(".")
+    if ";" in s:
+        raw_parts = [p.strip() for p in s.split(";") if p.strip()]
+    else:
+        raw_parts = [p.strip() for p in re.split(r"\)\s*,\s*(?=Req\s)", s, flags=re.IGNORECASE) if p.strip()]
+
+    parsed: List[Tuple[str, str]] = []
+    for p in raw_parts:
+        item = p
+        if "(" in item and not item.endswith(")") and ";" not in s:
+            item += ")"
+        m_paren = re.match(r"^(Req\s+[0-9a-zA-Z]+)\s*\((.+)\)$", item, flags=re.IGNORECASE)
+        m_dash = re.match(r"^(Req\s+[0-9a-zA-Z]+)\s*[-:]\s*(.+)$", item, flags=re.IGNORECASE)
+        if m_paren:
+            parsed.append((m_paren.group(1).strip(), m_paren.group(2).strip()))
+        elif m_dash:
+            parsed.append((m_dash.group(1).strip(), m_dash.group(2).strip()))
+        elif item:
+            parsed.append(("", item.strip()))
+    return parsed or [("", _clean_text(fallback_text))]
+
+
 def _render_triage_matrix_zone(
     slide: Any,
     slide_spec: SlideSpec,
@@ -880,42 +1056,60 @@ def _render_triage_matrix_zone(
     content_top: float = 2.08,
     content_bottom: float = 6.25,
 ) -> None:
-    """Renders 3 non-overlapping vertical topic columns + optional Curriculum Scope bottom bar matching ui/app.js."""
+    """Renders 3 non-overlapping vertical topic columns with clean headers and native OpenXML bulleted
+    requirement items + optional Curriculum Scope bottom bar matching `ui/app.js` and `snipit_06ekalt1nmvvo.png`.
+    """
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    _, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
+
     if tier == "STUDIO":
-        c1 = ("1. Discussion & Core Theory", (56, 189, 248), (30, 41, 59))
-        c2 = ("2. Hands-On Skill Demonstrations", (74, 222, 128), (23, 37, 42))
-        c3 = ("3. Field & Home Prerequisites", (244, 196, 48), (42, 24, 32))
-        body_rgb = (241, 245, 249)
-        scope_bg = (30, 41, 59)
-        scope_border = (56, 189, 248)
+        c1_color = primary_rgb
+        c2_color = (74, 222, 128)
+        c3_color = (244, 196, 48)
+        c1_bg = card_bg_rgb
+        c2_bg = card_bg_rgb
+        c3_bg = card_bg_rgb
+        req_bold_rgb = (248, 250, 252)
+        scope_bg = card_bg_rgb
+        scope_border = accent_rgb
+        scope_left = primary_rgb
     else:
-        c1 = ("1. Discussion & Core Theory", ScoutsBSAPalette.NAVY_BLUE_RGB, ScoutsBSAPalette.SOFT_BLUE_CARD_RGB)
-        c2 = ("2. Hands-On Skill Demonstrations", ScoutsBSAPalette.WARM_OLIVE_RGB, ScoutsBSAPalette.SOFT_OLIVE_CARD_RGB)
-        c3 = ("3. Field & Home Prerequisites", ScoutsBSAPalette.EAGLE_RED_RGB, ScoutsBSAPalette.SOFT_RED_CARD_RGB)
-        body_rgb = ScoutsBSAPalette.DARK_TEXT_RGB
-        scope_bg = ScoutsBSAPalette.CRISP_SLATE_RGB
+        c1_color = ScoutsBSAPalette.NAVY_BLUE_RGB
+        c2_color = (74, 93, 35)
+        c3_color = ScoutsBSAPalette.EAGLE_RED_RGB
+        c1_bg = (237, 244, 255)
+        c2_bg = (242, 245, 236)
+        c3_bg = (255, 245, 245)
+        req_bold_rgb = (15, 23, 42)
+        scope_bg = (241, 245, 249)
         scope_border = ScoutsBSAPalette.NAVY_BLUE_RGB
+        scope_left = ScoutsBSAPalette.NAVY_BLUE_RGB
 
     if full_width:
         col_specs = [
-            (c1[0], c1[1], c1[2], 0.60, 3.90),
-            (c2[0], c2[1], c2[2], 4.71, 3.90),
-            (c3[0], c3[1], c3[2], 8.83, 3.90),
+            ("Discussion & Core Theory", c1_color, c1_bg, 0.60, 3.90),
+            ("Hands-On Skill Demonstrations", c2_color, c2_bg, 4.71, 3.90),
+            ("Field & Home Prerequisites", c3_color, c3_bg, 8.83, 3.90),
         ]
     else:
         col_specs = [
-            (c1[0], c1[1], c1[2], 0.60, 1.96),
-            (c2[0], c2[1], c2[2], 2.72, 1.96),
-            (c3[0], c3[1], c3[2], 4.84, 1.96),
+            ("Discussion & Core Theory", c1_color, c1_bg, 0.60, 1.96),
+            ("Hands-On Skill Demonstrations", c2_color, c2_bg, 2.72, 1.96),
+            ("Field & Home Prerequisites", c3_color, c3_bg, 4.84, 1.96),
         ]
 
-    buckets: List[List[str]] = [[], [], []]
+    defaults = [
+        "Core principles, definitions, and safety concepts.",
+        "Practical hands-on techniques practiced with your patrol.",
+        "Outdoor observation, field logs, or project application.",
+    ]
+    parsed_cols: List[List[Tuple[str, str]]] = [[], [], []]
     extra_bullets: List[str] = []
+
     if len(slide_spec.bullet_points) >= 3:
-        buckets[0] = [slide_spec.bullet_points[0]]
-        buckets[1] = [slide_spec.bullet_points[1]]
-        buckets[2] = [slide_spec.bullet_points[2]]
+        for i in range(3):
+            parsed_cols[i] = _parse_triage_column_items(slide_spec.bullet_points[i], defaults[i])
         extra_bullets = (
             [slide_spec.bullet_points[3]]
             if len(slide_spec.bullet_points) >= 4 and str(slide_spec.bullet_points[3]).strip()
@@ -924,22 +1118,19 @@ def _render_triage_matrix_zone(
     elif slide_spec.cards:
         for card in slide_spec.cards:
             label = str(card.get("badge_label", "")).upper()
-            text = f"{card.get('anchor_title', '')}: {card.get('body_text', '')}"
+            r_tag = _clean_text(card.get("anchor_title") or "")
+            r_desc = _clean_text(card.get("body_text") or "")
             if "HANDS" in label or "STATION" in label or "DEMONSTRATE" in label:
-                buckets[1].append(text)
+                parsed_cols[1].append((r_tag, r_desc))
             elif "CAMP" in label or "HOME" in label or "PREREQ" in label:
-                buckets[2].append(text)
+                parsed_cols[2].append((r_tag, r_desc))
             else:
-                buckets[0].append(text)
+                parsed_cols[0].append((r_tag, r_desc))
     else:
-        for i, pt in enumerate(slide_spec.bullet_points[:3]):
-            buckets[i % 3].append(pt)
+        for i in range(3):
+            raw_b = slide_spec.bullet_points[i] if i < len(slide_spec.bullet_points) else ""
+            parsed_cols[i] = _parse_triage_column_items(raw_b, defaults[i])
 
-    defaults = [
-        "Core principles, definitions, and safety concepts.",
-        "Practical hands-on techniques practiced with your patrol.",
-        "Outdoor observation, field logs, or project application.",
-    ]
     total_avail_h = max(3.20, content_bottom - content_top)
     if extra_bullets:
         scope_h = 0.68 if len(extra_bullets) == 1 else 0.94
@@ -959,38 +1150,35 @@ def _render_triage_matrix_zone(
             height_in=box_h,
             bg_rgb=bg_rgb,
             border_rgb=header_rgb,
-            border_pt=1.75 if tier in ("BEAUTIFIED", "STUDIO") else 1.5,
+            border_pt=1.5 if tier in ("BEAUTIFIED", "STUDIO") else 1.25,
             top_accent_rgb=header_rgb,
         )
         tf = card.text_frame
-        items = buckets[col_idx][:4] or [defaults[col_idx]]
-        col_font_pt = _compute_fitting_font_size(
-            [col_title] + items,
-            box_w_in=col_w,
-            box_h_in=box_h,
-            min_pt=15.0,
-            max_pt=17.5,
-            space_after_pt=6.0,
-        )
+        tf.margin_top = Inches(0.08)
+        tf.margin_bottom = Inches(0.06)
+        col_items = (parsed_cols[col_idx] or [("", defaults[col_idx])])[:4]
+        col_font_pt = 15.0 if len(col_items) >= 4 else 16.0
+        bullet_space_after = 2.0 if len(col_items) >= 4 else 4.0
         _set_paragraph_runs(
             tf.paragraphs[0],
             col_title,
             "",
-            font_size_pt=min(19.0, col_font_pt + 1.0),
+            font_size_pt=min(18.0, col_font_pt + 1.5),
             anchor_rgb=header_rgb,
-            space_after_pt=7.0,
+            space_after_pt=4.0,
         )
-        for item in items:
+        for r_lbl, r_dsc in col_items:
             p = tf.add_paragraph()
-            anchor, body = _split_anchor_and_body(item, "Requirement")
+            _enable_openxml_bullet(p, "•")
             _set_paragraph_runs(
                 p,
-                anchor,
-                body,
+                r_lbl,
+                r_dsc,
                 font_size_pt=col_font_pt,
-                anchor_rgb=header_rgb,
+                anchor_rgb=req_bold_rgb,
                 body_rgb=body_rgb,
-                space_after_pt=6.0,
+                space_after_pt=bullet_space_after,
+                separator=" - ",
             )
 
     if extra_bullets:
@@ -1004,8 +1192,8 @@ def _render_triage_matrix_zone(
             height_in=scope_h,
             bg_rgb=scope_bg,
             border_rgb=scope_border,
-            border_pt=1.5,
-            left_accent_rgb=scope_border,
+            border_pt=1.4,
+            left_accent_rgb=scope_left,
         )
         stf = scope_card.text_frame
         stf.margin_top = Inches(0.05)
@@ -1027,7 +1215,7 @@ def _render_triage_matrix_zone(
                 f"{icon_prefix}{eb_anchor}",
                 eb_body,
                 font_size_pt=scope_font_pt,
-                anchor_rgb=scope_border,
+                anchor_rgb=primary_rgb,
                 body_rgb=body_rgb,
                 space_after_pt=2.0,
             )
@@ -1040,38 +1228,37 @@ def _render_differential_comparison_zone(
     content_top: float = 1.15,
     content_bottom: float = 6.95,
 ) -> None:
-    """Renders 2 non-overlapping comparison cards (full-width or left-zone)."""
+    """Renders 2 non-overlapping comparison cards matching `ui/app.js`."""
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    _, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
+
     cd = slide_spec.comparison_data or {}
-    left_header = cd.get("left_header") or "Primary Condition / Method A"
-    left_badge = cd.get("left_badge") or "CONCEPT A"
+    left_header = _clean_text(cd.get("left_header") or "Primary Condition / Method A")
     left_pts = cd.get("left_points") or slide_spec.bullet_points[:3] or ["Verify primary indicators and characteristics."]
 
-    right_header = cd.get("right_header") or "Contrast Condition / Method B"
-    right_badge = cd.get("right_badge") or "CONCEPT B"
+    right_header = _clean_text(cd.get("right_header") or "Contrast Condition / Method B")
     right_pts = cd.get("right_points") or slide_spec.bullet_points[3:6] or ["Compare key differences and field response."]
 
     if tier == "STUDIO":
-        l_accent, l_bg = (56, 189, 248), (30, 41, 59)
-        r_accent, r_bg = (248, 113, 113), (42, 24, 32)
-        body_rgb = (241, 245, 249)
+        l_accent, l_border, l_bg = primary_rgb, accent_rgb, card_bg_rgb
+        r_accent, r_border, r_bg = (251, 113, 133), (251, 113, 133), (49, 16, 24)
     else:
-        l_accent, l_bg = ScoutsBSAPalette.NAVY_BLUE_RGB, ScoutsBSAPalette.SOFT_BLUE_CARD_RGB
-        r_accent, r_bg = ScoutsBSAPalette.EAGLE_RED_RGB, ScoutsBSAPalette.SOFT_RED_CARD_RGB
-        body_rgb = ScoutsBSAPalette.DARK_TEXT_RGB
+        l_accent, l_border, l_bg = primary_rgb, accent_rgb, card_bg_rgb
+        r_accent, r_border, r_bg = ScoutsBSAPalette.EAGLE_RED_RGB, ScoutsBSAPalette.EAGLE_RED_RGB, (255, 245, 245)
 
     if full_width:
         specs = [
-            (0.60, 5.95, f"{left_header} [{left_badge}]", left_pts[:5], l_accent, l_bg),
-            (6.78, 5.95, f"{right_header} [{right_badge}]", right_pts[:5], r_accent, r_bg),
+            (0.60, 5.95, left_header, left_pts[:5], l_accent, l_border, l_bg),
+            (6.78, 5.95, right_header, right_pts[:5], r_accent, r_border, r_bg),
         ]
     else:
         specs = [
-            (0.60, 3.00, f"{left_header} [{left_badge}]", left_pts[:5], l_accent, l_bg),
-            (3.75, 3.00, f"{right_header} [{right_badge}]", right_pts[:5], r_accent, r_bg),
+            (0.60, 3.00, left_header, left_pts[:5], l_accent, l_border, l_bg),
+            (3.75, 3.00, right_header, right_pts[:5], r_accent, r_border, r_bg),
         ]
     box_h = max(3.50, content_bottom - content_top)
-    for left_x, box_w, header_text, pts, accent_rgb, bg_rgb in specs:
+    for left_x, box_w, header_text, pts, top_rgb, border_rgb, bg_rgb in specs:
         box = _add_styled_box(
             slide,
             left_in=left_x,
@@ -1079,38 +1266,39 @@ def _render_differential_comparison_zone(
             width_in=box_w,
             height_in=box_h,
             bg_rgb=bg_rgb,
-            border_rgb=accent_rgb,
-            border_pt=1.75,
-            top_accent_rgb=accent_rgb,
+            border_rgb=border_rgb,
+            border_pt=1.5,
+            top_accent_rgb=top_rgb,
         )
         tf = box.text_frame
         col_font_pt = _compute_fitting_font_size(
             [header_text] + list(pts),
             box_w_in=box_w,
             box_h_in=box_h,
-            min_pt=15.0 if full_width else 14.0,
-            max_pt=20.0 if full_width else 17.5,
-            space_after_pt=8.0,
+            min_pt=15.0,
+            max_pt=19.5 if full_width else 17.0,
+            space_after_pt=7.0,
         )
         _set_paragraph_runs(
             tf.paragraphs[0],
             header_text,
             "",
-            font_size_pt=min(21.0, col_font_pt + 1.0),
-            anchor_rgb=accent_rgb,
+            font_size_pt=min(20.5, col_font_pt + 1.0),
+            anchor_rgb=top_rgb,
             space_after_pt=8.0,
         )
         for pt in pts:
             p = tf.add_paragraph()
-            anchor, body = _split_anchor_and_body(pt, "Attribute")
+            _enable_openxml_bullet(p, "•")
+            anchor, body = _split_anchor_and_body(pt, "")
             _set_paragraph_runs(
                 p,
                 anchor,
                 body,
                 font_size_pt=col_font_pt,
-                anchor_rgb=accent_rgb,
+                anchor_rgb=top_rgb,
                 body_rgb=body_rgb,
-                space_after_pt=8.0,
+                space_after_pt=7.0,
             )
 
 
@@ -1121,8 +1309,12 @@ def _render_step_by_step_4card_zone(
     content_top: float = 1.15,
     content_bottom: float = 6.95,
 ) -> None:
-    """Renders a 2x2 grid of procedural step cards (or stacked cards when fewer than 4 points exist)."""
-    tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    """Renders a 2x2 grid of procedural step cards matching `ui/app.js`."""
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
+    theme = str(getattr(slide_spec, "visual_theme", "") or "").upper()
+    use_top_bar = "BENTO" in theme or "THREE_PILLAR" in theme or "ASYMMETRIC" in theme
+
     step_items: List[Tuple[str, str, str]] = []
     if slide_spec.bullet_points:
         for idx_p, pt in enumerate(slide_spec.bullet_points[:4], start=1):
@@ -1154,66 +1346,56 @@ def _render_step_by_step_4card_zone(
     card_h = (total_h - gap_y) / 2.0 if is_two_rows else total_h
     row2_top = content_top + card_h + gap_y
 
-    if tier == "STUDIO":
-        c_styles = [
-            ((56, 189, 248), (30, 41, 59)),
-            ((244, 196, 48), (30, 41, 59)),
-            ((74, 222, 128), (23, 37, 42)),
-            ((248, 113, 113), (42, 24, 32)),
-        ]
-        body_rgb = (241, 245, 249)
-    else:
-        c_styles = [
-            (ScoutsBSAPalette.NAVY_BLUE_RGB, ScoutsBSAPalette.SOFT_BLUE_CARD_RGB),
-            (ScoutsBSAPalette.ACTION_BLUE_RGB, ScoutsBSAPalette.SOFT_BLUE_CARD_RGB),
-            (ScoutsBSAPalette.WARM_OLIVE_RGB, ScoutsBSAPalette.SOFT_OLIVE_CARD_RGB),
-            (ScoutsBSAPalette.EAGLE_RED_RGB, ScoutsBSAPalette.SOFT_GOLD_CARD_RGB),
-        ]
-        body_rgb = ScoutsBSAPalette.DARK_TEXT_RGB
-
     if full_width:
         grid_coords = [
-            (0.60, content_top, 5.95, c_styles[0][0], c_styles[0][1]),
-            (6.78, content_top, 5.95, c_styles[1][0], c_styles[1][1]),
-            (0.60, row2_top, 12.133 if len(step_items) == 3 else 5.95, c_styles[2][0], c_styles[2][1]),
-            (6.78, row2_top, 5.95, c_styles[3][0], c_styles[3][1]),
+            (0.60, content_top, 5.95),
+            (6.78, content_top, 5.95),
+            (0.60, row2_top, 12.133 if len(step_items) == 3 else 5.95),
+            (6.78, row2_top, 5.95),
         ]
     else:
         grid_coords = [
-            (0.60, content_top, 3.00, c_styles[0][0], c_styles[0][1]),
-            (3.75, content_top, 3.00, c_styles[1][0], c_styles[1][1]),
-            (0.60, row2_top, 6.15 if len(step_items) == 3 else 3.00, c_styles[2][0], c_styles[2][1]),
-            (3.75, row2_top, 3.00, c_styles[3][0], c_styles[3][1]),
+            (0.60, content_top, 3.00),
+            (3.75, content_top, 3.00),
+            (0.60, row2_top, 6.15 if len(step_items) == 3 else 3.00),
+            (3.75, row2_top, 3.00),
         ]
-    for (badge, anchor, body), (lx, ty, cw, border_rgb, bg_rgb) in zip(step_items[:4], grid_coords):
+    for idx_s, ((badge, anchor, body), (lx, ty, cw)) in enumerate(zip(step_items[:4], grid_coords)):
+        _, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
+            slide_spec, idx_s, anchor, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
+        )
+        bar_color = (56, 189, 248) if "DARK_SLATE" in theme else (
+            c_border if "SAFETY_ALERT" in theme else primary_rgb
+        )
         card = _add_styled_box(
             slide,
             left_in=lx,
             top_in=ty,
             width_in=cw,
             height_in=card_h,
-            bg_rgb=bg_rgb,
-            border_rgb=border_rgb,
-            border_pt=1.5,
-            left_accent_rgb=border_rgb,
+            bg_rgb=c_bg,
+            border_rgb=c_border,
+            border_pt=c_border_pt,
+            top_accent_rgb=bar_color if use_top_bar else None,
+            left_accent_rgb=None if use_top_bar else bar_color,
         )
         tf = card.text_frame
-        head_line = f"{badge} — {anchor}"
+        head_line = f"{badge}  {anchor}"
         step_font_pt = _compute_fitting_font_size(
             [head_line, body],
             box_w_in=cw,
             box_h_in=card_h,
-            min_pt=13.5 if full_width else 13.0,
-            max_pt=19.0 if full_width else 16.0,
-            space_after_pt=5.0,
+            min_pt=15.0,
+            max_pt=18.5 if full_width else 16.0,
+            space_after_pt=4.5,
         )
         _set_paragraph_runs(
             tf.paragraphs[0],
             head_line,
             "",
-            font_size_pt=min(20.0, step_font_pt + 1.0),
-            anchor_rgb=border_rgb,
-            space_after_pt=5.0,
+            font_size_pt=min(19.5, step_font_pt + 0.5),
+            anchor_rgb=c_anchor_rgb,
+            space_after_pt=4.5,
         )
         p_body = tf.add_paragraph()
         _set_paragraph_runs(
@@ -1221,8 +1403,8 @@ def _render_step_by_step_4card_zone(
             "",
             body,
             font_size_pt=step_font_pt,
-            anchor_rgb=border_rgb,
-            body_rgb=body_rgb,
+            anchor_rgb=c_anchor_rgb,
+            body_rgb=c_body_rgb,
             space_after_pt=3.0,
         )
 
@@ -1236,8 +1418,8 @@ def _render_worked_example_zone(
 ) -> None:
     """Renders a concrete Worked Example artifact card + Counselor Pro-Tip card."""
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
-    border_rgb, bg_rgb = _resolve_palette_colors(slide_spec)
-    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, border_rgb)
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
 
     we = slide_spec.worked_example or {}
     we_title = _clean_text(we.get("title") or f"Worked Example: Requirement {slide_spec.req_number}")
@@ -1256,10 +1438,10 @@ def _render_worked_example_zone(
         top_in=content_top,
         width_in=box_w,
         height_in=top_h,
-        bg_rgb=bg_rgb,
-        border_rgb=border_rgb,
-        border_pt=1.75,
-        left_accent_rgb=border_rgb,
+        bg_rgb=card_bg_rgb,
+        border_rgb=accent_rgb,
+        border_pt=1.5,
+        left_accent_rgb=primary_rgb,
     )
     tf = top_box.text_frame
     entry_lines = (
@@ -1268,18 +1450,18 @@ def _render_worked_example_zone(
         else list(slide_spec.bullet_points[:5])
     )
     we_font_pt = _compute_fitting_font_size(
-        [f"[{we_type}] {we_title}"] + entry_lines,
+        [f"📋 {we_title}"] + entry_lines,
         box_w_in=box_w,
         box_h_in=top_h,
-        min_pt=14.0 if full_width else 13.0,
-        max_pt=20.0 if full_width else 17.0,
+        min_pt=15.0,
+        max_pt=19.5 if full_width else 17.0,
         space_after_pt=6.0,
     )
     _set_paragraph_runs(
         tf.paragraphs[0],
-        f"[{we_type}] {we_title}",
+        f"📋 [{we_type}] {we_title}",
         "",
-        font_size_pt=min(21.0, we_font_pt + 1.0),
+        font_size_pt=min(20.5, we_font_pt + 1.0),
         anchor_rgb=anchor_rgb,
         space_after_pt=6.5,
     )
@@ -1315,7 +1497,7 @@ def _render_worked_example_zone(
         [f"Counselor Pro-Tip: {tip}"],
         box_w_in=box_w,
         box_h_in=tip_h,
-        min_pt=13.5,
+        min_pt=15.0,
         max_pt=18.0 if full_width else 16.0,
         space_after_pt=2.0,
     )
@@ -1337,8 +1519,12 @@ def _render_gear_checklist_zone(
     content_top: float = 1.15,
     content_bottom: float = 6.95,
 ) -> None:
-    """Renders a 2-column gear & inspection checklist grid matching the UI preview."""
-    tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    """Renders a 2x2 grid of individual equipment & inspection checklist cards matching `ui/app.js`."""
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
+    theme = str(getattr(slide_spec, "visual_theme", "") or "").upper()
+    use_top_bar = "BENTO" in theme or "THREE_PILLAR" in theme or "ASYMMETRIC" in theme
+
     items = list(slide_spec.bullet_points or slide_spec.gear_checklist or ["Inspect required equipment before field activity."])
     if len(items) < 2:
         _render_stacked_point_cards(
@@ -1353,70 +1539,76 @@ def _render_gear_checklist_zone(
         )
         return
 
-    mid = (len(items) + 1) // 2
-    left_items = items[:mid]
-    right_items = items[mid:]
-
-    if tier == "STUDIO":
-        c1_accent, c1_bg = (56, 189, 248), (30, 41, 59)
-        c2_accent, c2_bg = (74, 222, 128), (23, 37, 42)
-        body_rgb = (241, 245, 249)
-    else:
-        c1_accent, c1_bg = ScoutsBSAPalette.NAVY_BLUE_RGB, ScoutsBSAPalette.SOFT_BLUE_CARD_RGB
-        c2_accent, c2_bg = ScoutsBSAPalette.WARM_OLIVE_RGB, ScoutsBSAPalette.SOFT_OLIVE_CARD_RGB
-        body_rgb = ScoutsBSAPalette.DARK_TEXT_RGB
+    chk_items = items[:4]
+    total_h = max(3.40, content_bottom - content_top)
+    gap_y = 0.16
+    is_two_rows = len(chk_items) >= 3
+    card_h = (total_h - gap_y) / 2.0 if is_two_rows else total_h
+    row2_top = content_top + card_h + gap_y
 
     if full_width:
-        cols = [
-            (0.60, 5.95, "PRIMARY FIELD EQUIPMENT [✓]", left_items, c1_accent, c1_bg),
-            (6.78, 5.95, "INSPECTION & VERIFICATION [✓]", right_items, c2_accent, c2_bg),
+        grid_coords = [
+            (0.60, content_top, 5.95),
+            (6.78, content_top, 5.95),
+            (0.60, row2_top, 12.133 if len(chk_items) == 3 else 5.95),
+            (6.78, row2_top, 5.95),
         ]
     else:
-        cols = [
-            (0.60, 3.00, "PRIMARY FIELD EQUIPMENT [✓]", left_items, c1_accent, c1_bg),
-            (3.75, 3.00, "INSPECTION & VERIFICATION [✓]", right_items, c2_accent, c2_bg),
+        grid_coords = [
+            (0.60, content_top, 3.00),
+            (3.75, content_top, 3.00),
+            (0.60, row2_top, 6.15 if len(chk_items) == 3 else 3.00),
+            (3.75, row2_top, 3.00),
         ]
-    box_h = max(3.50, content_bottom - content_top)
-    for lx, cw, header_title, col_items, accent_rgb, bg_rgb in cols:
-        box = _add_styled_box(
+
+    for idx_c, (raw_item, (lx, ty, cw)) in enumerate(zip(chk_items, grid_coords)):
+        a, b = _split_anchor_and_body(raw_item, f"Checklist {idx_c + 1}")
+        _, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
+            slide_spec, idx_c, a, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
+        )
+        bar_color = (56, 189, 248) if "DARK_SLATE" in theme else (
+            c_border if "SAFETY_ALERT" in theme else primary_rgb
+        )
+        card = _add_styled_box(
             slide,
             left_in=lx,
-            top_in=content_top,
+            top_in=ty,
             width_in=cw,
-            height_in=box_h,
-            bg_rgb=bg_rgb,
-            border_rgb=accent_rgb,
-            border_pt=1.5,
-            top_accent_rgb=accent_rgb,
+            height_in=card_h,
+            bg_rgb=c_bg,
+            border_rgb=c_border,
+            border_pt=c_border_pt,
+            top_accent_rgb=bar_color if use_top_bar else None,
+            left_accent_rgb=None if use_top_bar else bar_color,
         )
-        tf = box.text_frame
+        tf = card.text_frame
+        head_line = f"[✓] {a}"
         chk_font_pt = _compute_fitting_font_size(
-            [header_title] + list(col_items[:5]),
+            [head_line, b] if b else [head_line],
             box_w_in=cw,
-            box_h_in=box_h,
-            min_pt=15.0 if full_width else 14.0,
-            max_pt=20.0 if full_width else 17.0,
-            space_after_pt=7.5,
+            box_h_in=card_h,
+            min_pt=15.0,
+            max_pt=18.5 if full_width else 16.0,
+            space_after_pt=4.5,
         )
         _set_paragraph_runs(
             tf.paragraphs[0],
-            header_title,
+            head_line,
             "",
-            font_size_pt=min(21.0, chk_font_pt + 1.0),
-            anchor_rgb=accent_rgb,
-            space_after_pt=8.0,
+            font_size_pt=min(19.5, chk_font_pt + 0.5),
+            anchor_rgb=c_anchor_rgb,
+            space_after_pt=4.5,
         )
-        for item in col_items[:5]:
-            p = tf.add_paragraph()
-            a, b = _split_anchor_and_body(item, "Checklist")
+        if b:
+            p_b = tf.add_paragraph()
             _set_paragraph_runs(
-                p,
-                f"[✓] {a}",
+                p_b,
+                "",
                 b,
                 font_size_pt=chk_font_pt,
-                anchor_rgb=accent_rgb,
-                body_rgb=body_rgb,
-                space_after_pt=7.5,
+                anchor_rgb=c_anchor_rgb,
+                body_rgb=c_body_rgb,
+                space_after_pt=3.0,
             )
 
 
@@ -1427,18 +1619,19 @@ def _render_socratic_quiz_zone(
     content_top: float = 1.15,
     content_bottom: float = 6.95,
 ) -> None:
-    """Renders 3 stacked non-overlapping Socratic Quiz boxes (Scenario, Options, Verified Answer)."""
+    """Renders 3 stacked non-overlapping Socratic Quiz boxes (Scenario, Options, Verified Answer) matching `ui/app.js`."""
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
-    _, body_rgb, _ = _resolve_text_colors(slide_spec)
+    primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
+    _, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
     qi = slide_spec.quiz_item or {}
     scenario = _clean_text(
         qi.get("scenario_prompt")
         or (slide_spec.bullet_points[0] if slide_spec.bullet_points else f"How should your patrol apply Requirement {slide_spec.req_number} in the field?")
     )
     options = qi.get("options") or slide_spec.bullet_points[1:4] or [
-        "Option A: Follow standard step-by-step field procedure.",
-        "Option B: Improvise without checking safety guidelines.",
-        "Option C: Skip buddy check and proceed alone.",
+        "Follow standard step-by-step field procedure.",
+        "Improvise without checking safety guidelines.",
+        "Skip buddy check and proceed alone.",
     ]
     answer = _clean_text(qi.get("correct_answer") or "Option A — Follow standard step-by-step field procedure.")
     explanation = _clean_text(qi.get("explanation") or "Grounded in the BSA Guide to Safe Scouting and merit badge instruction.")
@@ -1449,59 +1642,63 @@ def _render_socratic_quiz_zone(
     h2 = round((total_h - 2 * gap) * 0.40, 2)
     h3 = round(total_h - 2 * gap - h1 - h2, 2)
 
-    s_bg = (30, 41, 59) if tier == "STUDIO" else ScoutsBSAPalette.SOFT_BLUE_CARD_RGB
-    s_border = (56, 189, 248) if tier == "STUDIO" else ScoutsBSAPalette.NAVY_BLUE_RGB
+    s_bg = (30, 41, 59) if tier == "STUDIO" else card_bg_rgb
+    s_border = primary_rgb
     s_box = _add_styled_box(
         slide, left_in=0.60, top_in=content_top, width_in=box_w, height_in=h1,
         bg_rgb=s_bg, border_rgb=s_border, border_pt=1.5, left_accent_rgb=s_border,
     )
     s_font = _compute_fitting_font_size(
-        [f"Patrol Scenario Challenge: {scenario}"], box_w_in=box_w, box_h_in=h1, min_pt=14.5, max_pt=18.5, space_after_pt=3.0
+        [f"❓ Patrol Scenario Challenge: {scenario}"], box_w_in=box_w, box_h_in=h1, min_pt=15.0, max_pt=18.5, space_after_pt=3.0
     )
     _set_paragraph_runs(
-        s_box.text_frame.paragraphs[0], "Patrol Scenario Challenge", scenario,
+        s_box.text_frame.paragraphs[0], "❓ Patrol Scenario Challenge", scenario,
         font_size_pt=s_font, anchor_rgb=s_border, body_rgb=body_rgb,
     )
 
-    o_bg = (30, 41, 59) if tier == "STUDIO" else ScoutsBSAPalette.CRISP_SLATE_RGB
-    o_border = (244, 196, 48) if tier == "STUDIO" else ScoutsBSAPalette.ACTION_BLUE_RGB
+    o_bg = (30, 41, 59) if tier == "STUDIO" else card_bg_rgb
+    o_border = accent_rgb
     o_box = _add_styled_box(
         slide, left_in=0.60, top_in=content_top + h1 + gap, width_in=box_w, height_in=h2,
-        bg_rgb=o_bg, border_rgb=o_border, border_pt=1.25, left_accent_rgb=o_border,
+        bg_rgb=o_bg, border_rgb=o_border, border_pt=1.35, left_accent_rgb=primary_rgb,
     )
     otf = o_box.text_frame
     o_font = _compute_fitting_font_size(
         ["Discussion Options (Ask Scouts First)"] + list(options[:3]),
-        box_w_in=box_w, box_h_in=h2, min_pt=14.0, max_pt=17.5, space_after_pt=4.0
+        box_w_in=box_w, box_h_in=h2, min_pt=15.0, max_pt=17.5, space_after_pt=4.0
     )
     _set_paragraph_runs(
         otf.paragraphs[0], "Discussion Options (Ask Scouts First)", "",
-        font_size_pt=min(18.5, o_font + 0.5), anchor_rgb=o_border, space_after_pt=4.0,
+        font_size_pt=min(18.5, o_font + 0.5), anchor_rgb=primary_rgb, space_after_pt=4.0,
     )
     for idx_o, opt in enumerate(options[:3], start=1):
         p = otf.add_paragraph()
-        a, b = _split_anchor_and_body(opt, f"Option {idx_o}")
-        _set_paragraph_runs(p, a, b, font_size_pt=o_font, anchor_rgb=o_border, body_rgb=body_rgb, space_after_pt=4.0)
+        opt_letter = chr(64 + idx_o)
+        clean_opt = _clean_text(opt)
+        clean_opt = re.sub(rf"^Option\s+{opt_letter}\s*[:\-—]\s*", "", clean_opt, flags=re.IGNORECASE)
+        _set_paragraph_runs(
+            p, f"Option {opt_letter}", clean_opt, font_size_pt=o_font, anchor_rgb=primary_rgb, body_rgb=body_rgb, space_after_pt=4.0
+        )
 
-    a_bg = (23, 37, 42) if tier == "STUDIO" else ScoutsBSAPalette.SOFT_OLIVE_CARD_RGB
-    a_border = (74, 222, 128) if tier == "STUDIO" else ScoutsBSAPalette.WARM_OLIVE_RGB
+    a_bg = (6, 78, 59) if tier == "STUDIO" else (220, 252, 231)
+    a_border = (74, 222, 128) if tier == "STUDIO" else (21, 128, 61)
     a_box = _add_styled_box(
         slide, left_in=0.60, top_in=content_top + h1 + gap + h2 + gap, width_in=box_w, height_in=h3,
         bg_rgb=a_bg, border_rgb=a_border, border_pt=1.5, left_accent_rgb=a_border,
     )
     atf = a_box.text_frame
     a_font = _compute_fitting_font_size(
-        [f"Verified Answer: {answer}", f"Why It Matters: {explanation}"],
-        box_w_in=box_w, box_h_in=h3, min_pt=14.0, max_pt=17.5, space_after_pt=4.0
+        [f"✓ Verified Answer: {answer}", f"Why It Matters: {explanation}"],
+        box_w_in=box_w, box_h_in=h3, min_pt=15.0, max_pt=17.5, space_after_pt=4.0
     )
     _set_paragraph_runs(
-        atf.paragraphs[0], "Verified Answer", answer,
+        atf.paragraphs[0], "✓ Verified Answer", answer,
         font_size_pt=a_font, anchor_rgb=a_border, body_rgb=body_rgb, space_after_pt=4.0,
     )
     p_exp = atf.add_paragraph()
     _set_paragraph_runs(
         p_exp, "Why It Matters", explanation,
-        font_size_pt=a_font, anchor_rgb=s_border, body_rgb=body_rgb, space_after_pt=2.0,
+        font_size_pt=a_font, anchor_rgb=a_border, body_rgb=body_rgb, space_after_pt=2.0,
     )
 
 
@@ -1801,9 +1998,9 @@ def generate_bsa_slide_deck_pptx(
         slide_num = idx + 1
         arch = (slide_spec.archetype or "SPLIT_VISUAL_EXPLAINER").upper()
         s_tier = str(getattr(slide_spec, "beautification_tier", deck_tier) or deck_tier).upper()
-        s_border_rgb, s_bg_rgb = _resolve_palette_colors(slide_spec)
-        s_anchor_rgb, s_body_rgb, s_title_rgb = _resolve_text_colors(slide_spec, s_border_rgb)
-        _apply_slide_tier_background(content_slide, s_tier, s_border_rgb)
+        s_primary_rgb, s_accent_rgb, s_card_bg_rgb = _resolve_palette_tokens(slide_spec)
+        s_anchor_rgb, s_body_rgb, s_title_rgb = _resolve_text_colors(slide_spec, s_primary_rgb)
+        _apply_slide_tier_background(content_slide, s_tier, s_accent_rgb)
 
         req_tag = (
             "Sources & Credits"
@@ -1893,10 +2090,10 @@ def generate_bsa_slide_deck_pptx(
                     if len(full_strip_line) <= 115
                     else (0.88 if len(full_strip_line) <= 215 else (1.04 if len(full_strip_line) <= 320 else 1.24))
                 )
-                strip_bg = (30, 41, 59) if s_tier == "STUDIO" else (s_bg_rgb if s_tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
+                strip_bg = (30, 41, 59) if s_tier == "STUDIO" else (s_card_bg_rgb if s_tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
                 req_strip = _add_styled_box(
                     content_slide, left_in=0.60, top_in=1.10, width_in=12.133, height_in=strip_h,
-                    bg_rgb=strip_bg, border_rgb=s_border_rgb, border_pt=1.5, left_accent_rgb=s_border_rgb,
+                    bg_rgb=strip_bg, border_rgb=s_accent_rgb, border_pt=1.5, left_accent_rgb=s_accent_rgb,
                 )
                 rstf = req_strip.text_frame
                 rstf.margin_top = Inches(0.06)
@@ -1960,44 +2157,12 @@ def generate_bsa_slide_deck_pptx(
             # ZONE 4: Right Visual Zone (ONLY when has_visual and not full-width)
             # -----------------------------------------------------------------
             if has_visual and not use_full_width and resolved_diagram:
-                avail_img_h = max(2.80, (content_bottom - content_top) - 0.58)
-                try:
-                    pic = content_slide.shapes.add_picture(
-                        resolved_diagram,
-                        Inches(7.05),
-                        Inches(content_top),
-                        width=Inches(5.65),
-                    )
-                    max_h = Inches(avail_img_h)
-                    if pic.height > max_h:
-                        scale = float(max_h) / float(pic.height)
-                        pic.height = max_h
-                        pic.width = int(pic.width * scale)
-                        pic.left = int(Inches(7.05) + (Inches(5.65) - pic.width) // 2)
-                except Exception:
-                    pass
-
-                cap_bg = (30, 41, 59) if s_tier == "STUDIO" else (s_bg_rgb if s_tier in ("BEAUTIFIED",) else ScoutsBSAPalette.CRISP_SLATE_RGB)
-                cap_border = s_border_rgb if s_tier in ("BEAUTIFIED", "STUDIO") else ScoutsBSAPalette.BORDER_GRAY_RGB
-                caption_box = _add_styled_box(
-                    content_slide, left_in=7.05, top_in=content_bottom - 0.50, width_in=5.65, height_in=0.50,
-                    bg_rgb=cap_bg, border_rgb=cap_border, border_pt=1.25, left_accent_rgb=cap_border,
-                )
-                captf = caption_box.text_frame
-                captf.margin_top = Inches(0.05)
-                captf.margin_bottom = Inches(0.04)
-                caption_str = _clean_text(slide_spec.visual_caption) or _clean_text(slide_spec.title)
-                for prefix_rm in ("EDGE Skill Concept Map — ", "EDGE Skill Concept Map - ", "Figure: "):
-                    if caption_str.startswith(prefix_rm):
-                        caption_str = caption_str[len(prefix_rm):].strip()
-                if len(caption_str) > 62:
-                    caption_str = caption_str[:62].rsplit(" ", 1)[0].strip(" .,:;-—") or caption_str[:62]
-                cap_font_pt = _compute_fitting_font_size(
-                    [f"Figure: {caption_str}"], box_w_in=5.65, box_h_in=0.50, min_pt=15.0, max_pt=16.0, space_after_pt=0.0
-                )
-                _set_paragraph_runs(
-                    captf.paragraphs[0], "Figure", caption_str,
-                    font_size_pt=cap_font_pt, anchor_rgb=s_anchor_rgb, body_rgb=s_body_rgb, space_after_pt=0.0,
+                _render_right_visual_card(
+                    slide=content_slide,
+                    slide_spec=slide_spec,
+                    resolved_diagram=resolved_diagram,
+                    top_in=content_top,
+                    bottom_in=content_bottom,
                 )
 
         # ---------------------------------------------------------------------

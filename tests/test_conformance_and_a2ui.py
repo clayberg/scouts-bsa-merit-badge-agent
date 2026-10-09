@@ -1104,11 +1104,28 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
         slide2_texts = "\n".join(
             s.text_frame.text for s in prs.slides[1].shapes if s.has_text_frame and s.text_frame.text.strip()
         )
-        assert "1. Discussion & Core Theory" in slide2_texts
-        assert "2. Hands-On Skill Demonstrations" in slide2_texts
-        assert "3. Field & Home Prerequisites" in slide2_texts
-        assert "Knowledge & Concepts (3):" in slide2_texts
+        assert "Discussion & Core Theory" in slide2_texts
+        assert "Hands-On Skill Demonstrations" in slide2_texts
+        assert "Field & Home Prerequisites" in slide2_texts
+        assert "Knowledge & Concepts" not in slide2_texts
+        assert "Req 2a - Obtain emergency medical assistance" in slide2_texts
         assert "📍 Curriculum Scope" in slide2_texts
         assert "🛡️ Guide to Safe Scouting" in slide2_texts
+
+        # Verify layered crescent top accent shapes on Slide 2
+        slide2_shape_names = [s.name for s in prs.slides[1].shapes]
+        assert any(name.startswith("CardAccent_Top_") for name in slide2_shape_names)
+
+        # Verify Slide 3 clean visual caption (no "🍌 Hero Illustration:" prefix), right visual frame, and 2-line 01-04 cards
+        slide3_texts = "\n".join(
+            s.text_frame.text for s in prs.slides[2].shapes if s.has_text_frame and s.text_frame.text.strip()
+        )
+        assert "Hero Illustration:" not in slide3_texts
+        assert "Requirement 1:" in slide3_texts
+        assert "01  " in slide3_texts
+        assert "[01]" not in slide3_texts
+        slide3_shape_names = [s.name for s in prs.slides[2].shapes]
+        assert any(name.startswith("CardAccent_RightVisualFrame") for name in slide3_shape_names)
+        assert any(name.startswith("CardAccent_Left_") for name in slide3_shape_names)
 
 

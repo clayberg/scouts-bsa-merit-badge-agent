@@ -39,7 +39,9 @@ def _sanitize_no_ellipsis_or_emdash(text: str) -> str:
     if not text:
         return ""
     cleaned = str(text).replace("...", ".").replace("…", ".")
+    cleaned = cleaned.replace(" — ", ", ").replace(" -- ", ", ")
     cleaned = cleaned.replace("—", ", ").replace("--", ", ")
+    cleaned = cleaned.replace(" , ", ", ")
     while ".." in cleaned:
         cleaned = cleaned.replace("..", ".")
     return cleaned.strip()
@@ -623,7 +625,7 @@ def generate_slide_storyboard(
             r_text if len(r_text) <= 70 else " ".join(r_text.split()[:10]) + "."
         )
         if mode == ExecutionMode.HANDS_ON_SKILL_STATION.value:
-            station_reqs.append(f"Req {r_num} ({clean_topic})")
+            station_reqs.append(f"Req {r_num} - {clean_topic}")
             triage_cards.append({
                 "badge_label": "HANDS_ON_SKILL_STATION",
                 "anchor_title": f"Req {r_num}",
@@ -631,7 +633,7 @@ def generate_slide_storyboard(
                 "accent_color_hex": "#4B5320",
             })
         elif mode == ExecutionMode.PREREQUISITE_CAMPOUT_HOME.value:
-            prereq_reqs.append(f"Req {r_num} ({clean_topic})")
+            prereq_reqs.append(f"Req {r_num} - {clean_topic}")
             triage_cards.append({
                 "badge_label": "PREREQUISITE_CAMPOUT_HOME",
                 "anchor_title": f"Req {r_num}",
@@ -639,7 +641,7 @@ def generate_slide_storyboard(
                 "accent_color_hex": "#CE1126",
             })
         else:
-            in_class_reqs.append(f"Req {r_num} ({clean_topic})")
+            in_class_reqs.append(f"Req {r_num} - {clean_topic}")
             triage_cards.append({
                 "badge_label": "IN_CLASS_DISCUSSION",
                 "anchor_title": f"Req {r_num}",
@@ -656,9 +658,9 @@ def generate_slide_storyboard(
     )
 
     triage_bullets = [
-        f"Knowledge & Concepts ({len(in_class_reqs)}): {', '.join(in_class_reqs[:4]) or 'Core Principles'}.",
-        f"Hands-On Field Skills ({len(station_reqs)}): {', '.join(station_reqs[:4]) or 'Practical Demonstrations'}.",
-        f"Field & Home Prerequisites ({len(prereq_reqs)}): {', '.join(prereq_reqs[:4]) or 'Outing Verification'}.",
+        "; ".join(in_class_reqs[:4]) if in_class_reqs else "Core principles, definitions, and safety concepts",
+        "; ".join(station_reqs[:4]) if station_reqs else "Practical hands-on demonstrations with your patrol",
+        "; ".join(prereq_reqs[:4]) if prereq_reqs else "Outdoor observation, field logs, or home preparation",
         f"Curriculum Scope: {len(requirements)} official requirements broken down into step-by-step instructional slides.",
     ]
     overview_title = f"{clean_badge} Merit Badge: Requirements Overview"
@@ -690,7 +692,7 @@ def generate_slide_storyboard(
             verbatim_requirement_text=(
                 f"Complete all {len(requirements)} official requirements and review each topic with your Merit Badge Counselor."
             ),
-            cards=triage_cards[:9],
+            cards=triage_cards[:15],
             visual_caption=f"{clean_badge} Merit Badge Overview",
             diagram_type="triage_matrix",
         )
