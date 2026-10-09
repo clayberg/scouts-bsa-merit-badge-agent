@@ -1229,9 +1229,9 @@ html, body {
 
 .m3-construction-emblem-slot {
   position: absolute;
-  left: 68.5%;
-  top: 21.0%;
-  width: 8.5%;
+  left: 55.5%;
+  top: 76.5%;
+  width: 8.4%;
   aspect-ratio: 1 / 1;
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -1240,11 +1240,14 @@ html, body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: left 420ms cubic-bezier(0.22, 1, 0.36, 1),
-              top 420ms cubic-bezier(0.22, 1, 0.36, 1),
-              width 420ms cubic-bezier(0.22, 1, 0.36, 1);
-  animation: scoutEmblemFloat 2.8s ease-in-out infinite;
-  filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.28));
+  transition: left 380ms cubic-bezier(0.22, 1, 0.36, 1),
+              top 380ms cubic-bezier(0.22, 1, 0.36, 1),
+              width 380ms cubic-bezier(0.22, 1, 0.36, 1);
+  filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.24));
+}
+
+.m3-construction-emblem-slot.is-floating {
+  animation: scoutEmblemFloat 2.4s ease-in-out infinite;
 }
 
 .m3-construction-emblem-slot img {
@@ -1252,6 +1255,10 @@ html, body {
   height: 100%;
   object-fit: contain;
   border-radius: 50%;
+  transform: scaleY(0.57) rotate(-28deg);
+  transform-origin: center center;
+  transition: transform 380ms cubic-bezier(0.22, 1, 0.36, 1),
+              filter 380ms ease;
 }
 
 .m3-construction-workorder-pill {

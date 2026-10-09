@@ -37,38 +37,75 @@ const CONSTRUCTION_ANIM_CONCEPTS = {
       {
         src: "/assets/construction_anim/iso_heavy_1_blueprint.jpg",
         title: "Step 1: Unrolling the 16:9 Slide Blueprint & Clearing the Foundation",
-        desc: "Miniature Scouts inspect the 12-archetype slide blueprint on sawhorses while the yellow mini-bulldozer levels the warm cream 16:9 slide platform.",
-        emblemSlot: { left: "68.5%", top: "21.0%", width: "7.6%" },
+        desc: "Miniature Scouts inspect the 12-archetype slide blueprint on sawhorses while the yellow mini-bulldozer levels the platform and the Merit Badge emblem rests on the ground.",
+        emblemSlot: {
+          left: "55.5%",
+          top: "76.5%",
+          width: "8.4%",
+          imgTransform: "scaleY(0.57) rotate(-28deg)",
+          imgFilter: "drop-shadow(0 2px 0 rgba(148, 120, 80, 0.85)) drop-shadow(0 4px 6px rgba(15, 23, 42, 0.28))",
+        },
       },
       {
         src: "/assets/construction_anim/iso_heavy_2_header_crane.jpg",
         title: "Step 2: Mobile Tower Crane Hoisting the Navy & Gold Header Beam",
-        desc: "A Scout crane operator hoists the glossy Scouts BSA navy-and-gold title header bar onto the upright 16:9 presentation frame.",
-        emblemSlot: { left: "58.6%", top: "15.2%", width: "5.4%" },
+        desc: "A Scout crane operator hoists the glossy Scouts BSA navy-and-gold title header bar onto the upright 16:9 frame while the badge emblem waits in the staging area.",
+        emblemSlot: {
+          left: "84.5%",
+          top: "62.0%",
+          width: "8.4%",
+          imgTransform: "scaleY(0.57) rotate(-28deg)",
+          imgFilter: "drop-shadow(0 2px 0 rgba(148, 120, 80, 0.85)) drop-shadow(0 4px 6px rgba(15, 23, 42, 0.28))",
+        },
       },
       {
         src: "/assets/construction_anim/iso_heavy_3_forklift_cards.jpg",
         title: "Step 3: Mini-Forklift & Scissor-Lift Stacking Rounded Teaching Cards",
-        desc: "Scouts drive a yellow mini-forklift and scissor-lift to mount rounded-corner teaching cards with integrated left accent borders.",
-        emblemSlot: { left: "64.2%", top: "13.0%", width: "5.6%" },
+        desc: "Scouts drive a yellow mini-forklift and scissor-lift to mount rounded-corner teaching cards while the badge emblem waits on the ground for airlift.",
+        emblemSlot: {
+          left: "78.5%",
+          top: "73.5%",
+          width: "8.4%",
+          imgTransform: "scaleY(0.57) rotate(-28deg)",
+          imgFilter: "drop-shadow(0 2px 0 rgba(148, 120, 80, 0.85)) drop-shadow(0 4px 6px rgba(15, 23, 42, 0.28))",
+        },
       },
       {
         src: "/assets/construction_anim/iso_heavy_4_helicopter_emblem.jpg",
-        title: "Step 4: Twin-Rotor Cargo Helicopter Lowering the Merit Badge Emblem",
-        desc: "A yellow Scout cargo helicopter hovers over the upper-right slot, lowering the transparent Merit Badge emblem ring guided by signal batons.",
-        emblemSlot: { left: "75.4%", top: "50.8%", width: "7.2%" },
+        title: "Step 4: Twin-Rotor Cargo Helicopter Hoisting the Merit Badge Emblem",
+        desc: "A yellow Scout cargo helicopter hoists the transparent Merit Badge emblem in a horizontal golden ring toward the upper-right header slot, guided by signal batons.",
+        emblemSlot: {
+          left: "75.2%",
+          top: "51.1%",
+          width: "6.9%",
+          imgTransform: "scaleY(0.44) rotate(-16deg)",
+          imgFilter: "drop-shadow(0 1.5px 0 rgba(180, 140, 45, 0.85)) drop-shadow(0 3px 5px rgba(15, 23, 42, 0.26))",
+          floating: true,
+        },
       },
       {
         src: "/assets/construction_anim/iso_heavy_5_scaffold_paint.jpg",
-        title: "Step 5: Scaffolding Crew Airbrushing the Right-Side Hero Illustration",
-        desc: "Scout artists on timber scaffolding use oversized paintbrushes and airbrushes to paint the outdoor hero graphic into the right visual card.",
-        emblemSlot: { left: "64.2%", top: "13.0%", width: "5.6%" },
+        title: "Step 5: Emblem Mounted in Place & Scaffolding Crew Airbrushing Hero Art",
+        desc: "With the Merit Badge emblem now mounted in the isometric header ring, Scout artists on timber scaffolding airbrush the outdoor hero graphic into the right visual card.",
+        emblemSlot: {
+          left: "64.5%",
+          top: "13.95%",
+          width: "5.1%",
+          imgTransform: "skewY(-12deg) scaleX(0.83)",
+          imgFilter: "drop-shadow(-1.5px 1.5px 2px rgba(15, 23, 42, 0.32))",
+        },
       },
       {
         src: "/assets/construction_anim/iso_heavy_6_inspect_reveal.jpg",
         title: "Step 6: Senior Patrol Leader Conformance Inspection & Spotlight Reveal",
         desc: "A Scout Inspector with a brass magnifying glass and green checkmark clipboard verifies zero text overlaps as camp spotlights reveal the finished slide!",
-        emblemSlot: { left: "71.5%", top: "14.8%", width: "7.2%" },
+        emblemSlot: {
+          left: "71.65%",
+          top: "15.4%",
+          width: "6.7%",
+          imgTransform: "none",
+          imgFilter: "drop-shadow(0 3px 8px rgba(15, 23, 42, 0.28))",
+        },
       },
     ],
   },
@@ -231,6 +268,7 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
 
   const imgEl = document.getElementById("construction-frame-img");
   const slotEl = document.getElementById("construction-emblem-slot");
+  const overlayImgEl = document.getElementById("construction-badge-emblem-overlay");
   const titleEl = document.getElementById("construction-step-title");
   const descEl = document.getElementById("construction-step-desc");
   const counterEl = document.getElementById("construction-frame-counter");
@@ -244,6 +282,11 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
       slotEl.style.left = frame.emblemSlot.left;
       slotEl.style.top = frame.emblemSlot.top;
       slotEl.style.width = frame.emblemSlot.width;
+      slotEl.classList.toggle("is-floating", Boolean(frame.emblemSlot.floating));
+      if (overlayImgEl) {
+        overlayImgEl.style.transform = frame.emblemSlot.imgTransform || "none";
+        overlayImgEl.style.filter = frame.emblemSlot.imgFilter || "";
+      }
     }
     imgEl?.classList.remove("fade-step");
   };
@@ -270,8 +313,8 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
   if (titleEl) titleEl.textContent = frame.title;
   if (descEl) descEl.textContent = frame.desc;
   if (counterEl) {
-    const conceptNum = CONSTRUCTION_CONCEPT_ORDER.indexOf(currentConceptKey) + 1;
-    counterEl.textContent = `Concept ${conceptNum}/${CONSTRUCTION_CONCEPT_ORDER.length} • Frame ${safeIdx + 1}/${frames.length} (Auto-Cycle)`;
+    const animNum = CONSTRUCTION_CONCEPT_ORDER.indexOf(currentConceptKey) + 1;
+    counterEl.textContent = `Animation ${animNum}/${CONSTRUCTION_CONCEPT_ORDER.length} • Frame ${safeIdx + 1}/${frames.length} (Auto-Cycle)`;
   }
 
   if (dotsEl) {
