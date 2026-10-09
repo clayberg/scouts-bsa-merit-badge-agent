@@ -282,7 +282,6 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
       slotEl.style.left = frame.emblemSlot.left;
       slotEl.style.top = frame.emblemSlot.top;
       slotEl.style.width = frame.emblemSlot.width;
-      slotEl.classList.toggle("is-floating", Boolean(frame.emblemSlot.floating));
       if (overlayImgEl) {
         overlayImgEl.style.transform = frame.emblemSlot.imgTransform || "none";
         overlayImgEl.style.filter = frame.emblemSlot.imgFilter || "";
@@ -299,9 +298,8 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
   }
 
   if (imgEl && imgEl.getAttribute("src") !== frame.src) {
-    imgEl.classList.add("fade-step");
     if (preloaded.complete && preloaded.naturalWidth > 0) {
-      setTimeout(applyFrameAndEmblem, 95);
+      applyFrameAndEmblem();
     } else {
       preloaded.addEventListener("load", applyFrameAndEmblem, { once: true });
       preloaded.addEventListener("error", applyFrameAndEmblem, { once: true });
