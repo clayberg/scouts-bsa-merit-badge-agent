@@ -38,6 +38,7 @@
 - `POST /api/slide/estimate-image-cost`: Returns a FinOps cost estimate (`$0.08 USD` per image, ~2,580 tokens) before invoking `NanoBananaImageAgent`.
 - `POST /api/slide/generate-nano-banana-image`: Invokes `NanoBananaImageAgent` (`visual_style` / `style_preset` across 11 styles including `Auto (Content-Aware Mix)` and `include_humans: Optional[bool]`) after verifying `user_consented=True`, verifies prompt alignment (`verify_generated_image_matches_prompt()`), attaches the image to the slide (adjusting text-only slides to `SPLIT_VISUAL_EXPLAINER`), and rebuilds the `.pptx` file.
 - `POST /api/slide/upload-image` (`POST /api/v1/slide/upload-image`, `POST /api/badge/images/upload`): Validates and normalizes a user-uploaded `.png`/`.jpg`/`.webp` image (`<= 10 MB`, `$0.00 USD`), registers it in the badge catalog as `USER_UPLOAD`, and optionally applies it to the slide and rebuilds the `.pptx` file.
+- `POST /api/slide/quick-edit-text` (`POST /api/v1/slide/quick-edit-text`): Updates a single slide's title, subtitle, bullet/card lines, and speaker notes at `$0.00 USD` cost and rebuilds the `.pptx` file in place.
 - `POST /api/hitl/confirm` and `POST /api/v1/hitl/confirm`: Validates counselor approval and issues an HMAC-SHA256 `confirmation_token`.
 - `POST /api/v1/feedback`: Records counselor ratings and requirement verification sign-off.
 - `GET /api/v1/metrics` and `GET /api/v1/prompts/manifest`: Returns runtime latency percentiles, circuit breaker states, compliance audit logs, and prompt SHA-256 hashes.

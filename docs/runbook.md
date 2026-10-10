@@ -6,16 +6,13 @@ This runbook covers local setup, Google Cloud deployment via Terraform and Cloud
 
 ## 1. Local operations
 
-### 1.1 Starting the web interfaces
+### 1.1 Starting the Material 3 Counselor Workbench
 ```bash
-# Start both the Material 3 Web Workbench (:8085) and Streamlit Workbench (:8501)
+# Start the FastAPI / Material 3 Counselor Workbench (:8085)
 ./run_local.sh
 
-# Or start only the FastAPI / Material 3 Web Workbench (:8085)
-./run_local.sh a2ui
-
-# Or start only the Streamlit Workbench (:8501)
-./run_local.sh streamlit
+# Or start directly via uvicorn:
+uvicorn src.server:app --host 0.0.0.0 --port 8085
 ```
 
 ### 1.2 Checking health, readiness, and runtime metrics locally

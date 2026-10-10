@@ -1259,3 +1259,15 @@ async def serve_a2ui_workbench() -> HTMLResponse:
         return HTMLResponse("<h1>UI loading...</h1>", status_code=200)
     return HTMLResponse(index_file.read_text(encoding="utf-8"))
 
+
+def main() -> None:
+    """Launch the FastAPI Material 3 Counselor Workbench server."""
+    import uvicorn
+
+    port = int(os.getenv("PORT", "8085"))
+    uvicorn.run("src.server:app", host="0.0.0.0", port=port)
+
+
+if __name__ == "__main__":
+    main()
+

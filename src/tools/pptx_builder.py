@@ -1871,7 +1871,7 @@ def _render_split_explainer_zone(
     content_bottom: float = 6.95,
 ) -> None:
     """Renders structured bold-anchored instructional points as individual stacked horizontal cards
-    matching the UI preview (`ui/app.js` and `src/app.py`).
+    matching the UI preview (`ui/app.js`).
     """
     box_w = 12.133 if full_width else 6.20
     points = slide_spec.bullet_points[:6]

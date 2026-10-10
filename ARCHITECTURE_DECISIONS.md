@@ -1,6 +1,6 @@
 # Architecture decision records (ADRs)
 
-This file records the eight main engineering decisions behind the Scouts BSA Merit Badge Counselor Workbench, the options we evaluated, and the trade-offs we accepted.
+This file records the nine main engineering decisions behind the Scouts BSA Merit Badge Counselor Workbench, the options we evaluated, and the trade-offs we accepted.
 
 ---
 
@@ -59,7 +59,7 @@ This file records the eight main engineering decisions behind the Scouts BSA Mer
 - **Options considered**:
   1. *Generate a live AI image for every slide in every deck*: A 65-slide Deep Dive deck would exceed `$2.60` and overwrite helpful technical diagrams.
   2. *Plain white slides or procedural-only EDGE boxes*: Cheap, but visually repetitive across requirement intro slides.
-  3. *Three selectable tiers (`STANDARD`, `BEAUTIFIED`, `STUDIO`) + Tier 2 pre-populated Nano Banana hero illustrations (`76` compressed PNGs across `23` core badges, `~9.9 MB`) + on-demand long-tail caching + EDGE Skill Concept Map fallback + `FinOpsBudgetPlugin(max_budget_usd=1.00)` (Chosen)*: `STANDARD` uses a clean white wireframe with zero generated hero graphics; `BEAUTIFIED` uses a warm cream canvas (`#FAF8F5`) with rotating accent palettes and up to 5 Nano Banana hero illustrations (`assets/ai_illustrations/<slug>_req_<id>_nano_hero.png`) on requirement intro slides; `STUDIO` uses a dark slate canvas (`#0F172A`) with up to 15 hero illustrations / dark-slate EDGE Skill Concept Maps while never overwriting existing pamphlet figures or technical diagrams. Pre-populating the 23 core Eagle-required and popular badges keeps cold git clone size under `10 MB` (`$0.00` runtime cost for >85% of troop traffic), while the remaining 115 long-tail badges generate on demand and cache to disk, falling back deterministically to the 220-DPI procedural EDGE Skill Concept Map when offline.
+  3. *Three selectable tiers (`STANDARD`, `BEAUTIFIED`, `STUDIO`) + Tier 2 pre-populated Nano Banana hero illustrations (`76` compressed PNGs across `23` core badges, `~9.9 MB`) + on-demand long-tail caching + EDGE Skill Concept Map fallback + `FinOpsBudgetPlugin(max_budget_usd=1.00)` (Chosen)*: `STANDARD` uses a clean white wireframe with zero generated hero graphics; `BEAUTIFIED` uses a warm cream canvas (`#FAF8F5`) with rotating accent palettes and up to 5 Nano Banana hero illustrations (`assets/ai_illustrations/<slug>_req_<id>_nano_hero.png`) on requirement intro slides; `STUDIO` uses a dark slate canvas (`#0F172A`) with up to 15 hero illustrations / dark-slate EDGE Skill Concept Maps while never overwriting existing pamphlet figures or technical diagrams. In addition, `_strip_white_image_background()` (`src/tools/pptx_builder.py`) removes opaque white border padding from pamphlet figures on `BEAUTIFIED` and `STUDIO` slides so the cream or dark slate canvas shows cleanly through.
 - **Trade-off accepted**: Adds ~`9.9 MB` of quantized PNG assets to `assets/ai_illustrations/` while keeping every run under the `$1.00` budget cap and automatically downgrading `STUDIO` to `BEAUTIFIED` if a custom budget cap is set lower.
 
 ---
@@ -81,6 +81,16 @@ This file records the eight main engineering decisions behind the Scouts BSA Mer
   2. *Leave Cloud Run unauthenticated*: Exposes cloud endpoints to quota abuse.
   3. *Environment-aware `verify_caller_auth` (`src/security.py`) + `CircuitBreaker` / `ModelFallbackRouter` (`src/resilience.py`) (Chosen)*: Enforces `X-API-Key` or `Bearer` JWT checks and internal load-balancer ingress in Cloud Run (`AUTH_REQUIRED=true`), while defaulting to `AUTH_REQUIRED=false` on `localhost`. If Vertex AI returns `429` or `503`, `ModelFallbackRouter` falls back from `gemini-2.5-pro` to `gemini-2.5-flash` to the local deterministic curriculum engine.
 - **Trade-off accepted**: Requires setting `AUTH_REQUIRED=true` in production (`terraform/main.tf` sets this by default).
+
+---
+
+## ADR-09: Single unified FastAPI Material 3 Counselor Workbench (`src/server.py` + `ui/`) vs. maintaining dual Streamlit + FastAPI UIs
+- **Problem**: Early iterations maintained both a FastAPI + Material 3 HTML5/JS Single-Page Application (`src/server.py`, `ui/index.html`, `ui/app.js`, `ui/styles.css`) and a secondary Streamlit prototype (`src/app.py`). Maintaining two separate frontends duplicated state logic and lacked the responsive layout control needed for fullscreen classroom projection, zero-state 3D/2D construction animations, and the 3-tab under-stage drawer.
+- **Options considered**:
+  1. *Keep both Streamlit (`:8501`) and FastAPI Material 3 (`:8085`) UIs*: Increases maintenance burden and confuses counselors with two ports.
+  2. *Streamlit only*: Cannot render pixel-exact 16:9 HTML5 slide stage previews, custom 3D isometric CSS emblem transforms during zero-state construction animations, or a collapsible 2-column workspace with an under-stage tabbed drawer.
+  3. *Consolidate exclusively on the FastAPI Material 3 Counselor Workbench (`src/server.py` + `ui/`) and remove Streamlit (Chosen)*: Removed `src/app.py` and the `streamlit` dependency completely. Consolidated all 52 automated pytest tests onto the FastAPI workbench and expanded the UI with a collapsible `360px` setup sidebar (`◀ Hide Setup` / `▶ Show Setup`), a `Present Fullscreen (F)` classroom projection stage, 3 preloaded zero-state Scout slide construction animations (14 frames across *3D Heavy Equipment*, *2D Camp Pioneering*, and *3D Claymation Workshop*), a 3-tab under-stage drawer (*Counselor Teaching Notes*, *Customize Slide & Image Studio*, and *Quick Edit Slide Text* via `POST /api/v1/slide/quick-edit` at `$0.00`), and the Counselor Field Toolkit (`src/tools/counselor_studiokit.py`: Patrol Blue Card `#34124` & Scoutbook CSV tracker, 4-format Session Pacing selector, Quartermaster Gear Checklist with patrol size multiplier, printable Scout worksheets, and YPT Parent Letter email/Gmail actions).
+- **Trade-off accepted**: Retires the secondary Streamlit script in exchange for a faster, lighter dependency footprint and a single, deeply featured Counselor Workbench.
 
 ---
 

@@ -1,37 +1,38 @@
 # FDE Capstone Panel Playbook: Speaker Script, Live Demo & CTO/CIO/CFO Q&A
 
-**Project**: Scouts BSA Merit Badge Counselor Workbench (`scouts-bsa-merit-badge-agent` v3.1.0)
+**Project**: Scouts BSA Merit Badge Counselor Workbench (`scouts-bsa-merit-badge-agent` v3.2.0)
 **Author / Presenter**: Eric Clayberg (FDE & Merit Badge Counselor, Troop 19, Middleton, MA)
 **Target Panel Personas**: Chief Technology Officer (CTO), Chief Information Officer / CISO (CIO), Chief Financial Officer (CFO), and Principal AI Engineering Evaluators
-**Companion Deck**: [FDE Capstone Executive Readout (Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)
+**Companion Deck**: [FDE Capstone Executive Readout (12 Core Slides — Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)
+**Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md) • [Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw)
 **Companion Study Guide**: [FDE Capstone Companion Guide (Google Doc)](https://docs.google.com/document/d/1a_3TPfgm7U2O5S_f4QR_Aey3ptGnICFdAgvzfF-uXYw/edit)
-**FinOps & Deployment Cost Guide**: [FinOps, Token Billing & Deployment Cost Guide (Google Doc)](https://docs.google.com/document/d/1k8oXmGze3dxOotTvahVEOhQT5qET425wRbmH3mU6miQ/edit)
+**FinOps & Deployment Cost Guide**: [FinOps, Token Billing & Deployment Cost Guide (Google Doc)](https://docs.google.com/document/d/1k8oXmGze3dxOotTvahVEOhQT425wRbmH3mU6miQ/edit)
 
 ## 1. Panel Presentation Structure & Timing (30-Minute Slot)
 
 | Segment | Duration | Focus & Objective |
 | :--- | :--- | :--- |
-| **Part 1: Executive Readout (11 Core Slides, 0 Appendix — `1 / 11` to `11 / 11`)** | 10 Mins | Walk the panel through the volunteer counselor problem, the 4 deliverable pillars & 4-Tab Image Studio, the 7-agent Google ADK architecture, the Co-Design Workbench & `_compute_fitting_font_size()` layout engine, Youth Protection & security guardrails, FinOps unit economics (`$0.14` to `$1.00`), CI/CD evaluation gates, quantitative ADR benchmarks & post-mortems, the 90-day rollout plan, and the complete `3.00/3.00` Part B / `95/95` AgentOps / `100/100` FDE scorecard. |
-| **Part 2: Live Interactive Demo** | 5 Mins | Show the Material 3 Web Workbench (`:8085`), demonstrate ZIP/City local grounding (`01949` / `Middleton, MA`), compare the 3 visual tiers (`Standard`, `Beautified`, `Studio`), inspect an EDGE Skill Concept Map, test the Per-Slide Co-Design Bar and 4-Tab Image Studio, and verify 1:1 `.pptx` parity. |
-| **Part 3: CTO / CIO / CFO Panel Q&A** | 15 Mins | Field technical, security, operational, and financial questions using concrete files, tests, metrics, and Slides 5, 9, and 11. |
+| **Part 1: Executive Readout (12 Core Slides, 0 Appendix — `1 / 12` to `12 / 12`)** | 10 Mins | Walk the panel through the volunteer counselor problem, the 4 deliverable pillars & 4-Tab Image Studio, the 7-agent Google ADK architecture, the Co-Design Workbench & `_compute_fitting_font_size()` layout engine, the Counselor UX & Classroom Field Toolkit (3 construction animations, Blue Card `#34124` & Scoutbook CSV sign-off tracker, 4-mode session pacing, Quartermaster gear list, and parent email actions), Youth Protection & security guardrails, FinOps unit economics (`$0.14` to `$1.00`), CI/CD evaluation gates (`52 pytest` tests), quantitative ADR benchmarks & post-mortems, the 90-day rollout plan, and the complete `3.00/3.00` Part B / `95/95` AgentOps / `100/100` FDE scorecard. |
+| **Part 2: Live Interactive Demo** | 5 Mins | Show the unified Material 3 Counselor Workbench (`:8085`), demonstrate the 3 zero-state Scout slide construction animations, ZIP/City local grounding (`01949` / `Middleton, MA`), the 3 visual tiers (`Standard`, `Beautified`, `Studio`) with de-boxed transparent pamphlet figures, the 3-Tab Under-Stage Drawer & 4-Tab Image Studio, the Patrol Blue Card Sign-Off Tracker & Quartermaster Gear Checklist, and 1:1 `.pptx` parity. |
+| **Part 3: CTO / CIO / CFO Panel Q&A** | 15 Mins | Field technical, security, operational, and financial questions using concrete files, tests, metrics, and Slides 5, 6, 10, and 12. |
 
-## 2. Slide-by-Slide Speaker Script (10 Minutes — 11 Core Slides, 0 Appendix)
+## 2. Slide-by-Slide Speaker Script (10 Minutes — 12 Core Slides, 0 Appendix)
 
-### Slide 1 (`01 / 11`): Title & Executive Summary (0:45)
+### Slide 1 (`01 / 12`): Title & Executive Summary (0:45)
 
 **Spoken Script**:
 "Good morning. Today I am presenting the **Scouts BSA Merit Badge Counselor Workbench**, a multi-agent curriculum system built with the **Google Agent Development Kit (ADK)** on **Vertex AI** and **Cloud Run**.
 
 Across Scouting America, tens of thousands of volunteer counselors teach **138 official Merit Badges**, from Eagle-required badges like *First Aid*, *Weather*, and *Emergency Preparedness* to STEM electives like *Robotics* and *Nuclear Science*. Turning an 80-page BSA Merit Badge Pamphlet into a widescreen slide deck, a printable Scout workbook, and a timed lesson plan takes a volunteer **6 to 10 hours** per badge.
 
-Our workbench cuts that prep time to **under 2 minutes** while guaranteeing **100% verbatim fidelity** to official BSA requirements via a cryptographic **SHA-256 requirement lock**, all within a predictable **`$0.14` to `$1.00`** FinOps budget—verified at **`3.00 / 3.00` Part B**, **`95 / 95` AgentOps**, and **`100 / 100` FDE Readiness**."
+Our workbench cuts that prep time to **under 2 minutes** while guaranteeing **100% verbatim fidelity** to official BSA requirements via a cryptographic **SHA-256 requirement lock**, all within a predictable **`$0.14` to `$1.00`** FinOps budget—verified across **52 automated pytest tests** at **`3.00 / 3.00` Part B**, **`95 / 95` AgentOps**, and **`100 / 100` FDE Readiness**."
 
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
 > - **Google ADK (Agent Development Kit)**: Google's Python framework (`google-adk`) for orchestrating multi-agent apps on Gemini (`SequentialAgent`, `LoopAgent`, `LlmAgent`, `FunctionTool`, `AgentTool`).
 > - **SHA-256 Requirement Lock**: Before any web research runs, `compute_canonical_pamphlet_hash()` (`src/agents/researcher.py`) hashes every official requirement number and text (`1a`, `1b`, etc.) using SHA-256. After enrichment finishes, it hashes them again to prove not a single character of the official BSA requirement text was altered.
 > - **AABB Check (`<10ms`)**: Short for **Axis-Aligned Bounding Box** check (`check_pptx_conformance()` in `src/agents/reviewer.py`). It tests the `(left, top, right, bottom)` rectangle coordinates of every shape on a PowerPoint slide in `3.4ms` at `$0.00` token cost to confirm zero overlapping boxes.
 
-### Slide 2 (`02 / 11`): Problem Statement & Customer Pain Points (0:50)
+### Slide 2 (`02 / 12`): Problem Statement & Customer Pain Points (0:45)
 
 **Spoken Script**:
 "Let's look at why volunteer counselors struggle today, and why generic one-shot LLM prompts fail at this job.
@@ -49,24 +50,24 @@ Our workbench solves all three: it locks canonical requirement text with a SHA-2
 > - **BSA EDGE Method**: Scouting's official 4-step teaching method: **E**xplain, **D**emonstrate, **G**uide, **E**nable.
 > - **Execution-Mode Triage**: In `src/tools/scouting_scraper.py`, every requirement is parsed by its action verbs (`Explain/Discuss` -> `IN_CLASS_DISCUSSION`, `Demonstrate/Show/Prepare` -> `HANDS_ON_SKILL_STATION`, `Camp/Visit/Keep a log` -> `PREREQUISITE_CAMPOUT_HOME`).
 
-### Slide 3 (`03 / 11`): Product Capabilities & Counselor StudioKit (1:00)
+### Slide 3 (`03 / 12`): Product Capabilities & Counselor StudioKit (0:50)
 
 **Spoken Script**:
-"When a counselor runs the workbench, it delivers four synchronized artifacts in one pass:
+"When a counselor runs the unified **Material 3 Counselor Workbench** on port `8085` (or via our A2A 1.0 endpoint), it delivers four synchronized capability pillars in one pass:
 
-First, a **16:9 widescreen PowerPoint deck (`.pptx`)** built across **12 specialized layout archetypes** (such as two-column comparisons, 2x2 step grids, gear checklists, and Socratic check-on-learning quizzes) with three distinct visual polish tiers (`Standard`, `Beautified`, and `Studio`) and **100% layout and text parity** between the live web preview and the downloaded PowerPoint file.
+First, a **16:9 widescreen PowerPoint deck (`.pptx`)** built across **12 specialized layout archetypes** with three distinct visual polish tiers (`Standard`, `Beautified`, and `Studio`), automatic white-background stripping (`_strip_white_image_background`) so pamphlet figures blend cleanly onto cream and dark slate slides, and **100% layout and text parity** between the live web preview and the downloaded PowerPoint file.
 
-Second, a **printable Scout Workbook and Triage Matrix (`.md`)** that maps every sub-requirement (`1a` through `11`) to pamphlet excerpts and adapts instructional tone to the counselor's chosen **Audience Level** (`Tenderfoot ages 11 to 12`, `Mixed Troop ages 11 to 17`, or `Older Scouts / Eagle Prep ages 14 to 17`).
+Second, an interactive **Requirements Triage Matrix, Patrol Blue Card (`#34124`) & Scoutbook CSV Sign-Off Tracker, and Printable Scout & Counselor Workbooks (`.md`)** that map every sub-requirement (`1a` through `11`) to pamphlet excerpts and adapt instructional tone to the counselor's chosen **Audience Level**.
 
-Third, a **ZIP or City grounded Lesson Plan and Youth Protection Parent Letter**. When I enter `01949` or `Middleton, MA`, the agent resolves my local NOAA National Weather Service Forecast Office (`Boston/Norton`), New England coastal Nor'easter and winter hypothermia hazards, and nearby training sites like *Harold Parker State Forest*.
+Third, a **ZIP or City grounded Lesson Plan (with 4-mode Session Pacing), Quartermaster Gear Checklist, and Youth Protection Parent Letter**. When I enter `01949` or `Middleton, MA`, the agent resolves my local NOAA National Weather Service Forecast Office (`Boston/Norton`), New England coastal Nor'easter and winter hypothermia hazards, and nearby training sites like *Harold Parker State Forest*.
 
-Fourth, an interactive **Per-Slide Co-Design Bar and 4-Tab Popup Merit Badge Image Studio** (`1. Badge Catalog` with selective cache clear, `2. Wikimedia Search`, `3. Nano Banana AI ($0.08)` across 11 styles including `Auto (Content-Aware Mix)` and an `Include Uniformed Scouts` toggle, and `4. Local File Upload ($0.00)`)."
+Fourth, a **3-Tab Under-Stage Drawer and 4-Tab Popup Merit Badge Image Studio** for live per-slide customization."
 
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
-> - **How Location Grounding Works (`resolve_counselor_location()` in `src/agents/researcher.py`)**: It parses the **Location (City, State or ZIP Code)** input field (`01949`, `Middleton, MA`), or falls back to the browser's timezone (`America/New_York`), and looks up the regional NOAA NWS Forecast Office, local terrain/weather hazards, and nearby state parks. Instead of repeating boilerplate on every slide, it places that local context in four targeted places: **Slide 2 (Badge Overview)**, the **Counselor Lesson Plan**, the **Parent Prerequisite Letter**, and the **Grounded Citations** tab.
+> - **How Location Grounding Works (`resolve_counselor_location()` in `src/agents/researcher.py`)**: It parses the **Location (City, State or ZIP Code)** input field (`01949`, `Middleton, MA`), or falls back to the browser's timezone (`America/New_York`), and looks up the regional NOAA NWS Forecast Office, local terrain/weather hazards, and nearby state parks.
 > - **Why the UI dropdown has 140 items while BSA has 138 official badges**: Scouts BSA has **138 official Merit Badges**. Our selector includes 2 clearly labeled `(Test Stub)` entries used by automated fault-injection tests.
 
-### Slide 4 (`04 / 11`): Google ADK Multi-Agent Architecture & Vertex AI Patterns (1:05)
+### Slide 4 (`04 / 12`): Google ADK Multi-Agent Architecture & Vertex AI Patterns (0:55)
 
 **Spoken Script**:
 "Under the hood, the system is orchestrated by **`MeritBadgeCoordinatorAgent`** across **7 specialized sub-agents** (9 architectural components total, including the on-demand Image Studio agents):
@@ -80,20 +81,30 @@ Fourth, an interactive **Per-Slide Co-Design Bar and 4-Tab Popup Merit Badge Ima
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
 > - **Why Vertex AI Rejects Mixed Tools (and how `AgentTool` solves it)**: If you attach `GoogleSearchTool` and custom Python `FunctionTool`s to the same `LlmAgent`, Vertex AI throws a `400 INVALID_ARGUMENT` tool-mixing error. Putting `GoogleSearchTool` inside `WebSearchGroundingAgent` and wrapping that sub-agent in `AgentTool` (`src/agents/researcher.py`) is the canonical Google ADK pattern.
 
-### Slide 5 (`05 / 11`): Co-Design Workbench, 4-Tab Image Studio & Zero-Overflow Layout Engine (0:55)
+### Slide 5 (`05 / 12`): Co-Design Workbench, 4-Tab Image Studio & Zero-Overflow Layout Engine (0:50)
 
 **Spoken Script**:
-"Slide 5 zooms into the interactive **Per-Slide Co-Design Workbench, 4-Tab Merit Badge Image Studio, and Zero-Overflow Layout Engine**:
+"Slide 5 zooms into the interactive **3-Tab Under-Stage Drawer, 4-Tab Merit Badge Image Studio, De-Boxed Pamphlet Figures, and Zero-Overflow Layout Engine**:
 
-- First, **Per-Slide Co-Design & Full-Width Reflow**: counselors can modify any single slide's layout archetype, card theme, or right-side graphic in place. Setting Right-Side Graphic to **`None`** automatically expands text cards from `6.55"` to full `12.133"` widescreen width (`CONCEPT_TEXT_SLIDE`), while **`Restore Original Slide Graphic`** restores the initial `original_diagram_path` in one click.
+- First, **3-Tab Under-Stage Drawer & Full-Width Reflow**: directly below the slide stage, counselors switch between `Sub-Tab 1: Counselor Teaching Notes ([SAY]/[DEMO]/[ASK])`, `Sub-Tab 2: Customize Slide & Image Studio`, and `Sub-Tab 3: Quick Edit Slide Text ($0.00)`. Setting Right-Side Graphic to **`None`** automatically expands text cards from `6.55"` to full `12.133"` widescreen width (`CONCEPT_TEXT_SLIDE`), while **`Restore Original Slide Graphic`** restores `original_diagram_path` in one click.
 - Second, the **4-Tab Popup Image Studio (`src/agents/image_studio.py`)**:
-  - **Tab 1 (`Badge Image Catalog`)** caches all graphics per badge with a one-click **`🗑️ Clear Web/AI Cache`** button (`DELETE /api/badge/images`) that purges user-searched web and user-generated AI images while preserving official pamphlet figures, pre-generated/auto-generated hero illustrations (`NANO_BANANA_HERO`), and user uploads.
+  - **Tab 1 (`Badge Image Catalog`)** caches all graphics per badge with a one-click **`🗑️ Clear Web/AI Cache`** button (`DELETE /api/badge/images`).
   - **Tab 2 (`WebImageSearchAgent`)** queries live Wikimedia Commons for up to 12 public-domain photos.
-  - **Tab 3 (`NanoBananaImageAgent`)** generates custom 220-DPI illustrations across **11 styles** — defaulting to **`Auto (Content-Aware Mix)`**, plus `Photorealistic Image`, `4-Quadrant Concept Map`, `Watercolor Field Sketch`, `Line Drawing`, `Cartoon Drawing`, `Technical Diagram`, and more — with an explicit **`Include Uniformed Scouts`** checkbox. When humans are included, figures wear authentic **Scouts BSA Field Uniforms** (`Class A` tan button-up shirt with shoulder loops, neckerchief with woggle slide, olive field trousers); when unchecked (or auto-routed for gear knolling, anatomy/kits, weather fronts, and constellations), zero human figures are rendered. Every call is gated by an upfront **`$0.08 USD` cost estimator**, explicit user consent (`user_consented=True`), and `verify_generated_image_matches_prompt()`.
-  - **Tab 4 (`Local File Upload — $0.00`)** validates `.png/.jpg/.webp` files (`<= 10 MB`), strips EXIF metadata, normalizes RGB (`max 1600px`), and registers them as `USER_UPLOAD`.
-- Third, **Proactive Font Auto-Fitting (`_compute_fitting_font_size`)**: calculates wrapped line counts and steps body fonts from `16.5pt` down to `13.0pt` (moving excess detail to Speaker Notes) so text never overflows card borders."
+  - **Tab 3 (`NanoBananaImageAgent`)** generates custom 220-DPI illustrations across **11 styles** — defaulting to **`Auto (Content-Aware Mix)`** with an explicit **`Include Uniformed Scouts`** checkbox — gated by an upfront **`$0.08 USD` cost estimator**, explicit user consent (`user_consented=True`), and `verify_generated_image_matches_prompt()`.
+  - **Tab 4 (`Local File Upload — $0.00`)** validates `.png/.jpg/.webp` files (`<= 10 MB`), strips EXIF metadata, and normalizes RGB (`max 1600px`).
+- Third, **De-Boxed Transparent Figures & Font Auto-Fitting**: `_strip_white_image_background()` flood-fills edge-connected white padding (`RGB >= 242`) into transparency on `Beautified` and `Studio` slides, while `_compute_fitting_font_size()` steps body fonts from `16.5pt` down to `13.0pt` (moving excess detail to Speaker Notes) so text never overflows card borders."
 
-### Slide 6 (`06 / 11`): Security, Youth Protection (YPT) & Fault-Tolerant Engineering (0:55)
+### Slide 6 (`06 / 12`): Counselor UX, 3 Construction Animations & Classroom Field Toolkit (0:50)
+
+**Spoken Script**:
+"Slide 6 highlights the **Counselor User Experience and Classroom Field Toolkit** we engineered specifically for troop meetings, summer camps, and Council Merit Badge Midways:
+
+- **First, 3 Preloaded Scout Slide Construction Animations**: Before a deck is built (and while the 5-stage ADK pipeline runs), the 16:9 stage cycles automatically through **14 preloaded storyboard frames across 3 animations**: *Animation 1/3: 3D Heavy Equipment* (with perspective-matched 3D isometric CSS transforms on the selected Merit Badge emblem across frames 1–5 and straight-on placement on frame 6), *Animation 2/3: 2D Camp Pioneering* (timber spars and block-and-tackle pulleys), and *Animation 3/3: 3D Claymation Workshop* (a brass-and-oak *Slide-O-Matic*).
+- **Second, Collapsible Setup, Fullscreen Classroom Stage & Instant Text Editing**: Counselors can click **`◀ Hide Setup`** (`#btn-toggle-setup`) to collapse the `360px` sidebar, press **`F`** (`Present Fullscreen`) for a dark edge-to-edge classroom projection stage, or edit any slide's title, bullets, and speaker notes in place via `POST /api/v1/slide/quick-edit` at **`$0.00` token cost**.
+- **Third, Patrol Blue Card (`#34124`) & 4-Mode Session Pacing**: In Tab 2, counselors add their Patrol Roster, click cells to cycle requirement sign-offs (`⬜ Not Started` → `🟨 Partial` → `✅ Complete`), and export a **Scoutbook Plus Readiness CSV**. In Tab 4, a **Session Pacing Selector** dynamically restructures the agenda across *3 Troop Meetings*, *Summer Camp (4x 50-Min Blocks)*, *Saturday Merit Badge Midway (3.5-Hr Block)*, or *Weekend Campout*.
+- **Fourth, Quartermaster Gear Checklist & One-Click Parent Email**: Tab 4 aggregates every hands-on requirement's physical supplies into a printable **Quartermaster Packing Checklist** with a **Patrol Size Multiplier (`1–30 Scouts`)**, alongside one-click **`Copy`**, **`Email App (`mailto:`)`**, and **`Open Gmail`** buttons on the YPT Parent Prerequisite Letter."
+
+### Slide 7 (`07 / 12`): Security, Youth Protection (YPT) & Fault-Tolerant Engineering (0:50)
 
 **Spoken Script**:
 "Because this tool is built for Scouting, **Youth Protection (YPT)**, privacy, and resilience are built directly into the agent lifecycle:
@@ -106,7 +117,7 @@ Third, a **3-State Circuit Breaker and Model Fallback Cascade** (`gemini-2.5-pro
 
 Fourth, **Zero-Trust Cloud Run in Terraform**: dedicated least-privilege IAM, custom VPC, **VPC Service Controls (`VPC-SC`) perimeter**, **Cloud KMS CMEK** (90-day rotation), and Cloud Armor WAF (`120 RPM`)."
 
-### Slide 7 (`07 / 11`): FinOps Unit Economics, TCO & Architectural Trade-Offs (0:55)
+### Slide 8 (`08 / 12`): FinOps Unit Economics, TCO & Architectural Trade-Offs (0:50)
 
 **Spoken Script**:
 "For a non-profit organization like Scouting America, unit economics have to be predictable down to the penny:
@@ -117,43 +128,43 @@ Fourth, **Zero-Trust Cloud Run in Terraform**: dedicated least-privilege IAM, cu
 
 Two architectural trade-offs drive these savings: **Hybrid Vector + BM25 RAG** cuts input tokens by **68%**, and **Stage 1 AABB geometry checks (`3.4ms`, `$0.00`)** + a **bounded render concurrency semaphore & 24h TTL cleanup** eliminate wasted Vision LLM tokens and cap container RAM. Across a 500-counselor Scouting Council generating 1,500 decks a month at a 70% cache hit rate, total monthly TCO is **`$282.50` a month** (`$0.19` per packet—a **98% savings** vs. `$15,000/mo` SaaS seats)."
 
-### Slide 8 (`08 / 11`): AI-Driven Development Harness, Multi-Metric Eval Gate & Canary CI/CD (0:50)
+### Slide 9 (`09 / 12`): AI-Driven Development Harness, Multi-Metric Eval Gate & Canary CI/CD (0:45)
 
 **Spoken Script**:
 "To ensure engineering rigor, we built an automated evaluation and CI/CD pipeline with zero `--exit-zero` bypasses:
 
 First, our blocking evaluation gate (`scripts/eval_gate.py`) grades **12 golden Eagle-required and STEM badges** across deterministic and Vertex GenAI Eval metrics: **Recall@3 = 1.00**, **MRR = 1.00**, **NDCG@3 = 1.00**, **ADK Tool Trajectory In-Order Match = 1.00**, **Citation Grounding Coverage = 1.00**, **100% SHA-256 requirement lock**, **zero Stage 1 AABB overlaps**, and **`vertexai.preview.evaluation.EvalTask`** integration.
 
-Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **50 pytest unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py`, deploys to Cloud Run at a **10% canary split**, probes `/readiness`, and promotes to **100% traffic** (or auto-rolls back). And before any live demo, `scripts/verify_live_demo_readiness.py` verifies all 7 runtime subsystems in under 2 seconds."
+Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **52 pytest unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py`, deploys to Cloud Run at a **10% canary split**, probes `/readiness`, and promotes to **100% traffic** (or auto-rolls back). And before any live demo, `scripts/verify_live_demo_readiness.py` verifies all runtime subsystems in under 2 seconds."
 
-### Slide 9 (`09 / 11`): Quantitative ADR Benchmarks, Ablations & Engineering Post-Mortems (0:55)
+### Slide 10 (`10 / 12`): Quantitative ADR Benchmarks, Ablations & Engineering Post-Mortems (0:50)
 
 **Spoken Script**:
-"Slide 9 summarizes our quantitative Architecture Decision Record (`ADR-01` to `ADR-08`) benchmarks and our three biggest engineering post-mortems:
+"Slide 10 summarizes our quantitative Architecture Decision Record (`ADR-01` to `ADR-09`) benchmarks and our three biggest engineering post-mortems:
 
 - **Hybrid RAG Ablation (`ADR-02`, `tests/benchmark_chunking_ablation.py`)**: Pure dense cosine vector search scored only `0.8125 Recall@3` on short alphanumeric BSA requirement IDs (`1a`, `2b`, `9a`). Combining **Okapi BM25 (with exact requirement-ID boosting) + 768-dim Dense Vector via Reciprocal Rank Fusion (`RRF, k=60`)** achieved **`1.0000 Recall@3` and `1.0000 MRR`** in **`1.8ms p50`** while cutting input tokens by **68%**.
-- **Orchestration & Geometry Benchmarks (`ADR-01` & `ADR-04`)**: ADK `SequentialAgent + LoopAgent` added only **`18ms p50`** framework overhead (`100%` reliability on 60-slide decks), while Stage 1 AABB geometry verification ran in **`3.4ms` at `$0.00`** vs. `8–12s` (`$0.08`) for Vision-only grading.
+- **Orchestration & Geometry Benchmarks (`ADR-01` & `ADR-03`)**: ADK `SequentialAgent + LoopAgent` added only **`18ms p50`** framework overhead (`100%` reliability on 60-slide decks), while Stage 1 AABB geometry verification ran in **`3.4ms` at `$0.00`** vs. `8–12s` (`$0.08`) for Vision-only grading.
 - **Three Engineering Failure Post-Mortems (`FM-1` to `FM-3`)**: We resolved Nano Banana prompt-text bleeding via `build_clean_illustration_prompt()` + `verify_generated_image_matches_prompt()`, fixed dense vector dilution via RRF, and eliminated split-card text clipping via `_compute_fitting_font_size()`, while closing the loop with `promote_session_to_golden_dataset()`, `detect_pamphlet_schema_drift()` (`GET /api/v1/schema/drift`), and `v1.0 -> v1.2` schema upcasters (`migrate_payload_schema()`)."
 
-### Slide 10 (`10 / 11`): Prototype vs. Production Honesty & 90-Day National Rollout (0:50)
+### Slide 11 (`11 / 12`): Prototype vs. Production Honesty & 90-Day National Rollout (0:45)
 
 **Spoken Script**:
-"Slide 10 lays out a candid boundary between what runs in our single-container prototype today and our **90-day rollout** to 50,000+ counselors nationwide:
+"Slide 11 lays out a candid boundary between what runs in our single-container prototype today and our **90-day rollout** to 50,000+ counselors nationwide:
 
 - **Today**, SQLite WAL runs alongside our codified **`CloudSQLPgVectorBackend` (`vector(768)` HNSW + `tsvector` GIN)** adapter, bounded render concurrency semaphore + 24h TTL cleanup, and **multi-region Terraform (`us-central1` + `us-east1` Global ALB + 4 Cloud Monitoring SLO alerts)**.
 - **In Days 1 to 30**, we activate **Cloud SQL for PostgreSQL + `pgvector`** across all instances, enforce multi-tenant **Row-Level Security (RLS)** by `council_id`, and offload 60-slide builds to **Cloud Tasks** workers.
 - **In Days 31 to 60**, we federate **Cloud IAP** with **`my.scouting.org` OIDC Single Sign-On**, automatically verifying active Youth Protection Training (YPT) certification on login, and serve decks via **GCS Signed URLs and Cloud CDN**.
 - **In Days 61 to 90**, we stream anonymized triage and counselor feedback events into **BigQuery** and publish **Looker Studio** curriculum quality dashboards."
 
-### Slide 11 (`11 / 11`): Complete Rubric Evidence Scorecard (`3.00/3.00 Part B • 95/95 AgentOps • 100/100 FDE`) (0:30)
+### Slide 12 (`12 / 12`): Complete Rubric Evidence Scorecard (`3.00/3.00 Part B • 95/95 AgentOps • 100/100 FDE`) (0:30)
 
 **Spoken Script**:
-"Finally, Slide 11 maps every single requirement of the **27-subcategory Official Part B Rubric (`3.00 / 3.00`)**, the **19-criterion AgentOps Code Review Matrix (`95 / 95`)**, and the **100-point FDE Readiness Rubric (`100 / 100`)** directly to the source files and test suites in our repository.
+"Finally, Slide 12 maps every single requirement of the **27-subcategory Official Part B Rubric (`3.00 / 3.00`)**, the **19-criterion AgentOps Code Review Matrix (`95 / 95`)**, and the **100-point FDE Readiness Rubric (`100 / 100`)** directly to the source files and 52 automated tests in our repository.
 
 With that, let's switch to the live workbench for our 5-minute demonstration."
 
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
-> - **All 11 slides are core slides (`1 / 11` through `11 / 11`, 0 Appendix)** — well within the 15-slide Capstone maximum, so panelists and the `fde-artifact-analyzer` evaluate every slide as a primary slide.
+> - **All 12 slides are core slides (`1 / 12` through `12 / 12`, 0 Appendix)** — well within the 15-slide Capstone maximum, so panelists and the `fde-artifact-analyzer` evaluate every slide as a primary slide.
 
 ## 3. Unified 5-Minute Live Interactive Demo Script (`00:00–05:00`)
 
@@ -162,49 +173,50 @@ With that, let's switch to the live workbench for our 5-minute demonstration."
    ```bash
    .venv/bin/python scripts/verify_live_demo_readiness.py
    ```
-2. Ensure either the live **Google Cloud Run Workbench** (`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`) or `./run_local.sh` (`http://clayberg.c.googlers.com:8085` for the Material 3 Web Workbench and `http://clayberg.c.googlers.com:8501` for the Streamlit Workbench) is open.
+2. Ensure either the live **Google Cloud Run Workbench** (`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`) or `./run_local.sh` (`http://clayberg.c.googlers.com:8085` for the Material 3 Counselor Workbench) is open.
 3. Have the browser open to `https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app` (or `http://clayberg.c.googlers.com:8085`).
 
 ---
 
-### Act 1 (`00:00 – 01:10`): Cached Counselor Identity, Local ZIP Grounding (`01949`), Audience Level & Live 5-Stage ADK Generation
+### Act 1 (`00:00 – 01:10`): 3 Zero-State Construction Animations, Cached Counselor Identity, Local ZIP Grounding (`01949`) & Live 5-Stage ADK Generation
 
 - **`[DEMONSTRATE]`**:
-  1. Point to the left sidebar (**Counselor & Troop Identity**) and highlight the **"Profile cached locally (`0600`)"** / **"Saved in browser (`localStorage`)"** indicator and the **Reset** button.
-  2. Select **`First Aid`** (Eagle-Required Merit Badge) in the **Merit Badge Selector** (`#badge-select`).
-  3. Confirm **Counselor Name**: `Eric Clayberg`, **Troop**: `Troop 19, Spirit of Adventure Council`, and **Location (City, State or ZIP Code)**: `01949` (`Middleton, MA`).
-  4. Point out the **Target Scout Audience Level** dropdown (`Tenderfoot / Younger Scouts (11–13)`, `All Scouts (Ages 11–17)`, `Older / Eagle-Track Scouts (14–17)`), the **Slide Beautification Tier** (`AI Beautified — ~$0.38`), and the **Local Regional Grounding** checkbox (`ON`).
-  5. Click **`✨ Generate Slide Deck & Workbook`** (`#btn-generate-deck`) and point to the live 5-stage Server-Sent Events (SSE) / A2UI v0.9 progress banner as it completes.
+  1. Point to the **16:9 Zero-State Construction Stage** cycling through the **3 Scout Slide Construction Animations** (`Animation 1/3: 3D Heavy Equipment`, `Animation 2/3: 2D Camp Pioneering`, `Animation 3/3: 3D Claymation Workshop`) with the live Merit Badge emblem overlay (`◀` / `⏸` / `▶` controls).
+  2. Point to the left setup sidebar (**Counselor & Troop Identity**), the **`◀ Hide Setup`** toggle (`#btn-toggle-setup`), and the **"Profile cached locally (`0600`)"** / **"Saved in browser (`localStorage`)"** indicator.
+  3. Select **`First Aid`** (Eagle-Required Merit Badge) in the **Merit Badge Selector** (`#badge-select`).
+  4. Confirm **Counselor Name**: `Eric Clayberg`, **Troop**: `Troop 19, Spirit of Adventure Council`, and **Location (City, State or ZIP Code)**: `01949` (`Middleton, MA`).
+  5. Point out the **Target Scout Audience Level** dropdown (`All Scouts (Ages 11–17)`), the **Slide Beautification Tier** (`AI Beautified — ~$0.38`), and the **Local Regional Grounding** checkbox (`ON`).
+  6. Click **`✨ Generate Slide Deck & Workbook`** (`#btn-generate-deck`) and point to the live 5-stage Server-Sent Events (SSE) / A2UI v0.9 progress banner as it completes.
 - **`[SAY]`**:
-  *"Here is the live Material 3 Counselor Workbench. Notice in the left sidebar that my counselor profile — my name, Troop 19, my Middleton, Massachusetts ZIP code `01949`, email, and phone number — is automatically loaded from my local `0600`-permission cache (or browser `localStorage` on Cloud Run) so I only enter it once. Before any prompt ever leaves for Vertex AI, our `before_model_guardrail_callback` scrubs my email and phone number to `[REDACTED_EMAIL]` and `[REDACTED_PHONE]`, and only injects my contact card locally onto Slide 1 and the parent letter when building the PowerPoint file. Let's select **First Aid**, keep **AI Beautified (`~$0.38`)** and **Local Regional Grounding (`01949`)** enabled, and click **Generate Slide Deck & Workbook**. You can see the 5-stage Google Agent Development Kit (ADK) pipeline streaming live Agent-to-UI (A2UI v0.9) events as it locks the official requirement text with a SHA-256 hash and retrieves exact sub-requirements (`1a` through `11`) via Hybrid Okapi BM25 + Dense Vector Reciprocal Rank Fusion (RRF)."*
+  *"Here is the live Material 3 Counselor Workbench. Before we build a deck, notice our 16:9 stage cycling through our **3 Scout Slide Construction Animations** — 3D Heavy Equipment, 2D Camp Pioneering, and 3D Claymation Workshop — dynamically placing the selected Merit Badge emblem onto the scene with perspective-matched 3D isometric transforms. In the left sidebar, my counselor profile — my name, Troop 19, my Middleton, Massachusetts ZIP code `01949`, email, and phone number — is automatically loaded from my local `0600`-permission cache (or browser `localStorage` on Cloud Run) so I only enter it once. Before any prompt ever leaves for Vertex AI, our `before_model_guardrail_callback` scrubs my email and phone number to `[REDACTED_EMAIL]` and `[REDACTED_PHONE]`, and only injects my contact card locally onto Slide 1 and the parent letter when building the PowerPoint file. Let's select **First Aid**, keep **AI Beautified (`~$0.38`)** and **Local Regional Grounding (`01949`)** enabled, and click **Generate Slide Deck & Workbook**. You can see the 5-stage Google Agent Development Kit (ADK) pipeline streaming live Agent-to-UI (A2UI v0.9) events as it locks the official requirement text with a SHA-256 hash and retrieves exact sub-requirements (`1a` through `11`) via Hybrid Okapi BM25 + Dense Vector Reciprocal Rank Fusion (RRF)."*
 
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
 > - If a panelist asks what happens if a counselor leaves the Location box blank: the browser passes `Intl.DateTimeFormat().resolvedOptions().timeZone` (e.g., `America/New_York`), or `resolve_counselor_location()` parses a city/state from the Troop field (`Troop 19, Middleton MA`).
 
 ---
 
-### Act 2 (`01:10 – 02:15`): Comparing the 3 Visual Polish Tiers, Pre-Populated Nano Banana Hero Illustrations & Zero-Overflow Font Auto-Fitting
+### Act 2 (`01:10 – 02:15`): Comparing the 3 Visual Polish Tiers, De-Boxed Pamphlet Figures, Fullscreen Stage (`F`) & Zero-Overflow Font Auto-Fitting
 
 - **`[DEMONSTRATE]`**:
-  1. Click **Slide 1 (Cover)** in the filmstrip (`#slide-filmstrip-list`) to show the official embroidered First Aid patch, the official Scouting America Merit Badge Pamphlet cover, and localized counselor card (`Eric Clayberg • Troop 19 • Middleton, MA (01949)`).
-  2. Click **Slide 2 (Overview)** and point to the **Resolved Local Context** banner (`NOAA NWS Boston/Norton (BOX)`, New England coastal Nor'easters & winter hypothermia hazards, and *Harold Parker State Forest*).
-  3. Click **Slide 3 (`Req 1` Intro)** (and **Slide 10** or **Slide 17**) to show the **pre-populated Nano Banana Hero Illustration** (`NANO_BANANA_HERO`, `*_nano_hero.png`, with 220-DPI Scouts BSA EDGE Skill Concept Map fallback) and the **`[SAY]` / `[DEMONSTRATE]`** EDGE Presenter Notes below the stage.
-  4. Click a dense technical diagram slide (e.g., **Slide 4 or Slide 5**) to show that official BSA pamphlet diagrams are never overwritten by decorative AI art, and that the body text is cleanly auto-fitted inside its card (`13.0pt` minimum floor) with zero text bleed.
-  5. Briefly toggle the **Slide Beautification Tier** preview between **`Standard` (`~$0.14`, crisp white wireframe)**, **`Beautified` (`~$0.38`, warm cream `#FAF8F5`)**, and **`Studio` (`$1.00 Cap`, dark executive slate `#0F172A`)**.
+  1. Point to the compact top summary banner showing the horizontal metric pills (`TOTAL SLIDES`, `REQUIREMENTS`, `VISUAL POLISH`), **`◀ Hide Setup`**, and **`⛶ Present Fullscreen (F)`** (`#btn-present-fullscreen`).
+  2. Click **Slide 1 (Cover)** in the filmstrip (`#slide-filmstrip-list`) to show the official embroidered First Aid patch, the official Scouting America Merit Badge Pamphlet cover, and localized counselor card (`Eric Clayberg • Troop 19 • Middleton, MA (01949)`).
+  3. Click **Slide 2 (Overview)** and point to the **Resolved Local Context** banner (`NOAA NWS Boston/Norton (BOX)`, New England coastal Nor'easters & winter hypothermia hazards, and *Harold Parker State Forest*).
+  4. Click **Slide 3 (`Req 1` Intro)** to show the **pre-populated Nano Banana Hero Illustration** (`NANO_BANANA_HERO`, `*_nano_hero.png`, with 220-DPI Scouts BSA EDGE Skill Concept Map fallback) and **`Sub-Tab 1: 🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])`** in the Under-Stage Drawer.
+  5. Click **Slide 4 or Slide 5** (pamphlet figure slide) to show that official BSA pamphlet diagrams have their opaque white boxes stripped (`_strip_white_image_background`) so the warm cream (`#FAF8F5`) or dark slate (`#0F172A`) canvas shows through cleanly, and that body text is auto-fitted (`13.0pt` minimum floor) with zero text bleed.
+  6. Briefly toggle the **Slide Beautification Tier** preview between **`Standard` (`~$0.14`, crisp white wireframe)**, **`Beautified` (`~$0.38`, warm cream `#FAF8F5`)**, and **`Studio` (`$1.00 Cap`, dark executive slate `#0F172A`)**.
 - **`[SAY]`**:
-  *"Let's look at the generated slides. Slide 1 has the official Scouting America emblem, the official Merit Badge Series pamphlet cover, and my locally injected counselor card. On Slide 2, `resolve_counselor_location()` mapped ZIP code `01949` to the National Oceanic and Atmospheric Administration (NOAA) National Weather Service office in Boston/Norton, local winter hypothermia and tick-habitat risks, and nearby **Harold Parker State Forest**. On Slide 3, notice two design guardrails: first, our Beautifier attaches a **pre-populated Nano Banana Hero Illustration** (76 compressed hero PNGs bundled across our 23 core badges using a Content-Aware Hybrid Mix of uniformed Scouts for field skills and zero-human knolling/diagrams for kits and science, with automatic fallback to our 220-DPI **EDGE Skill Concept Map**) on section intro slides, while preserving every technical diagram on step-by-step slides. Second, our binary-search font auto-fitter (`_compute_fitting_font_size()`) dynamically scales dense cards between `16.5pt` and a `13.0pt` floor with an 86% wrapping margin so text never bleeds outside a card across `Standard`, `Beautified`, or `Studio` themes."*
+  *"Let's look at the generated slides. Slide 1 has the official Scouting America emblem, the official Merit Badge Series pamphlet cover, and my locally injected counselor card. On Slide 2, `resolve_counselor_location()` mapped ZIP code `01949` to the National Oceanic and Atmospheric Administration (NOAA) National Weather Service office in Boston/Norton, local winter hypothermia and tick-habitat risks, and nearby **Harold Parker State Forest**. On Slide 3 and Slide 4, notice three design guardrails: first, our Beautifier attaches a **pre-populated Nano Banana Hero Illustration** on section intro slides while preserving every technical diagram on step-by-step slides. Second, `_strip_white_image_background()` strips the opaque white border padding from extracted pamphlet figures so the warm cream or dark slate slide background shows cleanly through. Third, our binary-search font auto-fitter (`_compute_fitting_font_size()`) dynamically scales dense cards between `16.5pt` and a `13.0pt` floor with an 86% wrapping margin so text never bleeds outside a card across `Standard`, `Beautified`, or `Studio` themes."*
 
 ---
 
-### Act 3 (`02:15 – 03:55`): Per-Slide Co-Design, 4-Tab Image Studio & Live Guardrail / Youth Protection (YPT) Failure Injection in Nano Banana
+### Act 3 (`02:15 – 03:55`): 3-Tab Under-Stage Drawer, Quick Text Edit (`$0.00`), 4-Tab Image Studio & Live Guardrail / YPT Failure Injection
 
 - **`[DEMONSTRATE]`**:
-  1. On **Slide 3**, scroll to the **Per-Slide Interactive Co-Design Bar** (`#slide-codesign-bar`) below the slide stage.
-  2. In the **Quick-Switch Slide Image** dropdown (`#codesign-quick-image-select`), select **`🚫 None (Remove Graphic & Expand Text to Full Width)`**. Show the slide immediately reflowing its cards from `6.55"` split width to `11.73"` full widescreen width (`CONCEPT_TEXT_SLIDE`).
-  3. Use the **`◀` / `▶`** Quick-Switch arrows (or select **`Restore Original Slide Graphic`** in `#codesign-visual-source-select` and click **`Apply to Slide`**) to restore the right-side graphic in one click.
-  4. Click **`🎨 Open Image Studio (4 Tabs)`** (`#btn-open-image-studio`) to launch the **4-Tab Merit Badge Image Studio Modal**:
-     - **Tab 1 (`📚 1. Badge Image Catalog`)**: Point out the cached official pamphlet figures, pre-populated Nano Banana hero illustrations (`NANO_BANANA_HERO`), and the **`🗑️ Clear Web/AI Cache`** button (`#btn-studio-clear-cache`) which clears only user-searched web and user-generated AI images while preserving pamphlet figures, hero illustrations, and user uploads.
-     - **Tab 2 (`🌐 2. Web Image Search`)**: Click **Tab 2**, enter `"First Aid bandage"` (or `"boy scout in a canoe"`), and click **`🔍 Search Wikimedia & Wikipedia`** (`#btn-studio-web-search`) to show `WebImageSearchAgent` returning real public-domain Wikimedia Commons photos in parallel.
+  1. In the **Under-Stage Drawer** below the slide stage, click **`Sub-Tab 3: ✏️ Quick Edit Slide Text`** (`#tab-btn-understage-quickedit`) to show instant `$0.00` editing of the slide title, bullet points, and speaker notes (`POST /api/v1/slide/quick-edit`).
+  2. Click **`Sub-Tab 2: 🎨 Customize Slide & Image Studio`** (`#tab-btn-understage-codesign`). In the **Quick-Switch Slide Image** horizontal row (`#codesign-quick-image-select` + side-by-side `◀` `▶` arrows), select **`🚫 None (Remove Graphic & Expand Text to Full Width)`**. Show the slide immediately reflowing its cards from `6.55"` split width to `11.73"` full widescreen width (`CONCEPT_TEXT_SLIDE`), then click `◀` / `▶` to restore the graphic.
+  3. Click **`🖼️ Manage & Add Slide Images`** (`#btn-open-image-studio`) in the upper-right header of the Co-Design Bar to launch the **4-Tab Merit Badge Image Studio Modal**:
+     - **Tab 1 (`🗂️ 1. Badge Image Catalog & Carousel`)**: Point out the cached official pamphlet figures, pre-populated Nano Banana hero illustrations (`NANO_BANANA_HERO`), and the **`🗑️ Clear Web/AI Cache`** button (`#btn-studio-clear-cache`).
+     - **Tab 2 (`🌐 2. Web Image Search Agent`)**: Click **Tab 2**, enter `"First Aid bandage"`, and click **`🔍 Search Web Images`** (`#btn-studio-web-search`) to show `WebImageSearchAgent` returning real public-domain Wikimedia Commons photos in parallel.
      - **Tab 3 (`🍌 3. Nano Banana AI Image Generator`) — Upfront `$0.08` Consent Gate + Live Guardrail / YPT Failure Injection**:
        - Click **Tab 3 (`🍌 3. Nano Banana AI`)**. Point out the **11 visual styles** (defaulting to **`Auto (Content-Aware Mix)`**), the **`Include Uniformed Scouts`** checkbox (`#studio-ai-include-humans-checkbox`), and show that **`🍌 Generate & Apply AI Graphic ($0.08)`** (`#btn-studio-ai-generate`) is disabled until the counselor checks **`I consent to the estimated $0.08 USD FinOps cost`** (`#studio-ai-consent-checkbox`). Check the consent box.
        - **Live Guardrail & Youth Protection (YPT) Failure Injection**: Paste this adversarial prompt-injection + Youth Protection violation + Scout PII payload into the **Visual Subject / Scene Prompt** input (`#studio-ai-prompt-input`):
@@ -212,22 +224,26 @@ With that, let's switch to the live workbench for our 5-minute demonstration."
        - Click **`🍌 Generate & Apply AI Graphic ($0.08)`**. Point to the status banner (`#studio-ai-consent-msg`) showing that `sanitize_text_with_model_armor()` immediately intercepts and blocks the request with **`Custom image prompt blocked by Youth Protection / Model Armor guardrail`** (`NANO_BANANA_PROMPT_BLOCKED`), scrubbing the phone/email pre-LLM to `[REDACTED_PHONE]` and `[REDACTED_EMAIL]` at `$0.00` image spend!
        - **Verified `Line Drawing` Generation in Scouts BSA Field Uniforms**: Now replace the prompt in `#studio-ai-prompt-input` with a clean educational prompt:
          `"First aid responder applying a sterile pressure bandage and triangular arm sling outdoors"`
-         Select **`Line Drawing`** (or keep **`Auto (Content-Aware Mix)`** with **`Include Uniformed Scouts`** checked) in **Visual Illustration Style** (`#studio-ai-style-select`), and click **`🍌 Generate & Apply AI Graphic ($0.08)`**. Show `NanoBananaImageAgent` (`gemini-2.5-flash-image` on Vertex AI) synthesizing a zero-text black-and-white ink illustration with the figures wearing authentic **Scouts BSA Field Uniforms** (tan button-up shirt with shoulder loops, neckerchief with woggle slide, olive field trousers), verifying it with `verify_generated_image_matches_prompt()`, and applying it to the slide and `.pptx` deck!
-     - **Tab 4 (`📁 4. Upload File`)**: Briefly point out the `$0.00 USD` local file upload tab (`#studio-tab-upload`) for custom troop photos.
+         Select **`Line Drawing`** in **Visual Illustration Style** (`#studio-ai-style-select`), and click **`🍌 Generate & Apply AI Graphic ($0.08)`**. Show `NanoBananaImageAgent` (`gemini-2.5-flash-image` on Vertex AI) synthesizing a zero-text black-and-white ink illustration with the figures wearing authentic **Scouts BSA Field Uniforms**, verifying it with `verify_generated_image_matches_prompt()`, and applying it to the slide and `.pptx` deck!
+     - **Tab 4 (`📁 4. File Upload`)**: Briefly point out the `$0.00 USD` local file upload tab (`#studio-tab-upload`) for custom troop photos.
 - **`[SAY]`**:
-  *"If a counselor wants to customize any single slide, they don't have to regenerate the deck. In the Co-Design Bar, choosing `None` immediately reflows the slide to a full-width `11.73-inch` text layout, and clicking `Restore Original` or the `◀` `▶` arrows brings the graphic right back. Now let's open the **4-Tab Merit Badge Image Studio**. Tab 1 is our persistent per-badge catalog with selective Web/AI cache clearing (preserving official pamphlet figures, pre-generated hero graphics, and user uploads), and Tab 2 runs `WebImageSearchAgent` to pull real Wikimedia Commons photos in parallel. Now watch **Tab 3 — Nano Banana AI**: notice the 11 visual styles defaulting to **`Auto (Content-Aware Mix)`**, the **`Include Uniformed Scouts`** checkbox, and the button locked behind an explicit **`$0.08` FinOps consent checkbox**. Let's test our **Youth Protection Training (YPT) and Model Armor guardrails live**: I'll paste an adversarial prompt asking Nano Banana to ignore instructions, bypass Two-Deep Leadership, and include a youth Scout's phone number and email. When I click Generate, `sanitize_text_with_model_armor()` and our pre-LLM PII scrubber immediately block the call (`NANO_BANANA_PROMPT_BLOCKED`), redact the phone and email, and log a compliance event before a single image token is spent. Now let's enter a legitimate First Aid prompt, choose **`Line Drawing`** with **`Include Uniformed Scouts`** checked, and click Generate — `NanoBananaImageAgent` calls `gemini-2.5-flash-image` on Vertex AI to render a clean pen-and-ink illustration with the figures dressed in authentic **Scouts BSA Field Uniforms**, zero prompt words bled onto the canvas, concise non-truncated captions, verifies alignment via `verify_generated_image_matches_prompt()`, and rebuilds the PowerPoint deck in place."*
+  *"Directly below the slide stage is our **3-Tab Under-Stage Drawer**: counselors can read `[SAY]` / `[DEMO]` / `[ASK]` notes in Sub-Tab 1, edit slide text in place at `$0.00` token cost in Sub-Tab 3, or customize layout and graphics in Sub-Tab 2. Choosing `None` in the Quick-Switch bar immediately reflows the slide to a full-width `11.73-inch` text layout, and clicking the side-by-side `◀` `▶` arrows brings the graphic right back. Clicking **Manage & Add Slide Images** in the upper-right header opens our **4-Tab Merit Badge Image Studio**. Tab 1 is our persistent per-badge catalog with selective Web/AI cache clearing, and Tab 2 runs `WebImageSearchAgent` to pull real Wikimedia Commons photos in parallel. In **Tab 3 — Nano Banana AI**, let's test our **Youth Protection Training (YPT) and Model Armor guardrails live**: I'll paste an adversarial prompt asking Nano Banana to ignore instructions, bypass Two-Deep Leadership, and include a youth Scout's phone number and email. When I click Generate, `sanitize_text_with_model_armor()` and our pre-LLM PII scrubber immediately block the call (`NANO_BANANA_PROMPT_BLOCKED`) and redact the phone and email before a single image token is spent. Now let's enter a legitimate First Aid prompt, choose **`Line Drawing`** with **`Include Uniformed Scouts`** checked, and click Generate — `NanoBananaImageAgent` renders a clean pen-and-ink illustration with authentic **Scouts BSA Field Uniforms**, verifies alignment via `verify_generated_image_matches_prompt()`, and rebuilds the PowerPoint deck in place."*
 
 ---
 
-### Act 4 (`03:55 – 05:00`): Scrollable Markdown StudioKit, FinOps Budget Table, Continuous Learning Flywheel Sign-Off & Native `.pptx` Export
+### Act 4 (`03:55 – 05:00`): Patrol Blue Card Sign-Off Matrix, Session Pacing, Quartermaster Gear Checklist, Parent Email Actions, Continuous Learning Sign-Off & Native `.pptx` Export
 
 - **`[DEMONSTRATE]`**:
-  1. Click **Tab 2 (`Official Requirements & Resource Guides`)** and **Tab 3 (`Printable Workbook`)** to show the 3-column Requirement Triage Matrix and scrollable, word-wrapped Markdown workbook (`#workbook-markdown-preview`).
-  2. Click **Tab 4 (`Counselor StudioKit & FinOps`)** (`#panel-studiokit`) to show the scrollable, word-wrapped Lesson Plan (`#studiokit-agenda-preview`), YPT Parent Prerequisite Letter (`#studiokit-letter-preview`), Grounded Citations (`#studiokit-citations-list`), and the **FinOps Cost & Token Budget Table** (`#studiokit-finops-preview`).
-  3. At the bottom of Tab 4, point to the **Counselor Sign-Off & Continuous Learning Flywheel (Golden Dataset Promotion)** card (`#studiokit-feedback-card`). Keep **`⭐⭐⭐⭐⭐ 5 / 5 — Exemplary (Golden Standard)`** and **`✅ Requirement Accuracy Verified`** checked, and click **`🌟 Submit Rating & Promote to Golden Dataset`** (`#btn-submit-counselor-feedback`). Point to the green confirmation banner (`#feedback-status-banner`) showing the session recorded in SQLite (`hitl_feedback`) and promoted to `tests/data/golden_extensions.json` (`Schema v1.2.0`).
-  4. Click **`📥 Download PowerPoint (.pptx)`** (`#btn-download-pptx`) in the top action bar to show the native 16:9 widescreen PowerPoint file with 100% visual and text parity, `[SAY]` / `[DEMONSTRATE]` speaker notes, and `0` Stage 1 AABB bounding-box overlaps (`3.4ms`).
+  1. Click **Tab 2 (`Requirements & Blue Card Sign-Off`)** (`#tab-triage`) to show the 3-column Requirement Triage Matrix and the **Interactive Patrol Blue Card (`#34124`) & Scoutbook CSV Sign-Off Tracker** (click a cell to cycle `⬜` → `🟨` → `✅` and point to **`📥 Export Scoutbook CSV`**).
+  2. Click **Tab 3 (`Scout & Counselor Workbook`)** (`#tab-workbook`) to show the **Printable Scout Handout Worksheet** (`🖨️ Print Scout Worksheet`) and scrollable Markdown workbooks.
+  3. Click **Tab 4 (`Lesson Plan, Gear List, Parent Letter & FinOps`)** (`#tab-studiokit`) to show:
+     - The **4-Mode Session Pacing Selector** (`3 Troop Meetings`, `Summer Camp`, `Saturday Midway`, `Weekend Campout`).
+     - The **Master Quartermaster Gear & Skill Station Packing Checklist** with Patrol Size Multiplier (`1–30 Scouts`) and working **`📋 Copy`** / **`🖨️ Print`** buttons.
+     - The **Youth Protection Parent Prerequisite Letter** with explained **`📋 Copy`**, **`✉️ Email App`** (`mailto:`), and **`📧 Open Gmail`** buttons.
+     - The **FinOps Cost & Token Budget Table** (`#studiokit-finops-preview`) and **Counselor Sign-Off & Continuous Learning Flywheel** card (`#studiokit-feedback-card`). Click **`🌟 Submit Rating & Promote to Golden Dataset`** (`#btn-submit-counselor-feedback`).
+  4. Click **`📥 Download PowerPoint (.pptx)`** (`#btn-download-pptx`) in the top action bar to show the native 16:9 widescreen PowerPoint file.
 - **`[SAY]`**:
-  *"Finally, switching to **Tab 2, Tab 3, and Tab 4 (`Counselor StudioKit & FinOps`)**, the counselor has the complete **Requirement Triage Matrix**, the **Printable Scout Workbook**, the **Timed Lesson Plan**, and the **Youth Protection Parent Prerequisite Letter** — all rendered in scrollable, word-wrapped Markdown views alongside our **FinOps Cost & Token Budget Table** (`$0.38` vs. `$1.00` cap, `76%` context cache hit rate, and `3.4-millisecond` Stage 1 AABB geometry verification). Right below the FinOps table is our **Counselor Sign-Off & Continuous Learning Flywheel** card (`POST /api/v1/feedback` with `X-API-Version: 1.2.0`): when I submit a `5/5` rating with verified requirement accuracy, it persists to SQLite (`hitl_feedback`) and automatically promotes this session into `tests/data/golden_extensions.json` for CI/CD regression gating. And clicking **Download PowerPoint (`.pptx`)** gives the counselor a native, editable 16:9 slide deck ready for Tuesday night's troop meeting."*
+  *"Finally, switching across Tabs 2, 3, and 4 shows our complete **Counselor Classroom & Field Toolkit**: in **Tab 2 (`Requirements & Blue Card Sign-Off`)**, counselors track requirement completion across their patrol on an interactive **Application for Merit Badge (`#34124`) matrix** and export a **Scoutbook Plus CSV**. **Tab 3 (`Scout & Counselor Workbook`)** provides a one-click printable fill-in-the-blank Scout worksheet. And **Tab 4 (`Lesson Plan, Gear List, Parent Letter & FinOps`)** gives the counselor a **4-format Session Pacing Selector**, a **Master Quartermaster Gear & Skill Station Packing Checklist** that scales quantities by patrol size, and a **Youth Protection Parent Letter** with one-click **Copy**, **Email App (`mailto:`)**, and **Open Gmail** actions — right alongside our **FinOps Cost Table** (`$0.38` vs. `$1.00` cap) and our **Continuous Learning Flywheel** card that promotes verified `5/5` sessions to `tests/data/golden_extensions.json`. Clicking **Download PowerPoint (`.pptx`)** delivers a native, editable 16:9 slide deck ready for Tuesday night's troop meeting."*
 
 ## 4. Comprehensive CTO / CIO / CFO / SRE Panel Q&A Bank
 
@@ -329,7 +345,7 @@ With that, let's switch to the live workbench for our 5-minute demonstration."
     > - Memorize that punchline for CFO questions: **`$282.50/month` (`$0.19/deck`) for a 500-counselor council vs. `$15,000/month` for 500 commercial SaaS licenses (98% savings).**
 
 17. **Q: What is the single biggest technical bottleneck in the current prototype if 500 counselors click 'Generate' at the exact same second, and how do you fix it?**
-    - **Answer to speak**: "Two bottlenecks would appear under high multi-container concurrency: first, our local SQLite WAL session store is an embedded single-node file database, so multiple Cloud Run containers cannot share it without lock contention; second, rendering `matplotlib` PNGs and `python-pptx` decks inside the FastAPI web container ties up CPU for 1 to 3 seconds per build. In Days 1 to 30 of our rollout plan (Slide 8), we replace SQLite with **Cloud SQL for PostgreSQL + `pgvector`** (with Row-Level Security by `council_id`) and move `.pptx` rendering onto a **Cloud Tasks** queue backed by a dedicated Cloud Run worker pool."
+    - **Answer to speak**: "Two bottlenecks would appear under high multi-container concurrency: first, our local SQLite WAL session store is an embedded single-node file database, so multiple Cloud Run containers cannot share it without lock contention; second, rendering `matplotlib` PNGs and `python-pptx` decks inside the FastAPI web container ties up CPU for 1 to 3 seconds per build. In Days 1 to 30 of our rollout plan (Slide 11), we replace SQLite with **Cloud SQL for PostgreSQL + `pgvector`** (with Row-Level Security by `council_id`) and move `.pptx` rendering onto a **Cloud Tasks** queue backed by a dedicated Cloud Run worker pool."
     > **[NOTE TO ERIC - DO NOT READ ALOUD]**
     > - Notice that `POST /api/v1/workflow/run` in `src/server.py` already supports an async `webhook_url` callback field so the API contract is ready for Cloud Tasks workers without breaking clients.
 

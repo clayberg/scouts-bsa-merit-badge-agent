@@ -1,5 +1,5 @@
 output "service_url" {
-  description = "URL of the deployed Scouts BSA Agent Streamlit UI on Cloud Run"
+  description = "URL of the deployed Scouts BSA Merit Badge Counselor Workbench on Cloud Run"
   value       = google_cloud_run_v2_service.scouts_bsa_agent_ui.uri
 }
 

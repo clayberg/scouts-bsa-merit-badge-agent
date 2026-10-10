@@ -99,7 +99,7 @@ resource "google_compute_firewall" "allow_internal_and_hc" {
 
   allow {
     protocol = "tcp"
-    ports    = ["8085", "8501"]
+    ports    = ["8080", "8085"]
   }
 
   # Google Cloud Load Balancer & Health Check ranges + private subnet

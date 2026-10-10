@@ -5,7 +5,8 @@
 **Official FDE GitHub Target**: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`  
 **Original Personal GitHub Target**: `https://github.com/clayberg/scouts-bsa-merit-badge-agent`  
 **Live Google Cloud Run Workbench**: [`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`](https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app)  
-**Executive Readout Deck (11 Core Slides, 0 Appendix — `<= 15` Cap)**: [FDE Capstone Executive Readout (Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)
+**Executive Readout Deck (12 Core Slides, 0 Appendix — `<= 15` Cap)**: [FDE Capstone Executive Readout (Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)  
+**Detailed User Documentation**: [`docs/USER_GUIDE.md`](USER_GUIDE.md) ([Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw))
 
 ---
 
@@ -23,8 +24,8 @@ The FDE Capstone Evaluation Tool provides two web environments hosted on Google 
 When you submit your presentation and `.bundle` file in the web app, the platform executes two automated stages:
 
 1. **Stage 1 — Synchronous Pre-Flight Gate (`analyzer-initial-checks`)**:
-   - **Slide Count & Appendix Classifier**: Inspects your Google Slides deck (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`) using Gemini. It enforces the **`<= 15 Core Slides`** limit. Our deck has **11 Core Slides (`Slide 1` through `Slide 11`) and 0 Appendix slides** (`11 <= 15`), so it passes Stage 1 cleanly and every slide is evaluated as a primary slide.
-   - **Git Bundle & Authorship Validator**: Runs `git bundle verify` on `scouts-bsa-merit-badge-agent.bundle`, checks commit authorship (`clayberg@google.com`), verifies the presence of an annotated tag matching `capstone-YYYYMMDD` (e.g., `capstone-20261006`), and checks the **Scoped Git Link Gate** to verify the repository belongs to `https://github.com/cloud-ai-fde/...` (or `delta-fde`).
+   - **Slide Count & Appendix Classifier**: Inspects your Google Slides deck (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`) using Gemini. It enforces the **`<= 15 Core Slides`** limit. Our deck has **12 Core Slides (`Slide 1` through `Slide 12`) and 0 Appendix slides** (`12 <= 15`), so it passes Stage 1 cleanly and every slide is evaluated as a primary slide.
+   - **Git Bundle & Authorship Validator**: Runs `git bundle verify` on `scouts-bsa-merit-badge-agent.bundle`, checks commit authorship (`clayberg@google.com`), verifies the presence of an annotated tag matching `capstone-YYYYMMDD` (e.g., `capstone-20261010`), and checks the **Scoped Git Link Gate** to verify the repository belongs to `https://github.com/cloud-ai-fde/...` (or `delta-fde`).
 2. **Stage 2 — Asynchronous Background Artifact Analyzer (`analyzer-preseed` v3.8)**:
    - Once Stage 1 passes and you enter the emails of your **3 Panelists** and **1 Manager**, the backend triggers a Cloud Run Job (`analyzer-preseed`) powered by **Gemini 3.7 / 3.8** and the **Antigravity SDK**.
    - Over roughly **3 to 5 minutes**, it unpacks the `.bundle`, reads all source code, tests, Terraform configs, ADRs, and slides, and pre-seeds `0.0–3.0` scores (`0.5` increments), 3–5 purple evidence bullets, and suggested probing questions across all **27 Part B subcategories**.
@@ -43,12 +44,12 @@ We have created and installed a single automated script at `scripts/publish_and_
 
 ### 2.1 What the Script Does
 1. Verifies `.gitignore` excludes `.cache/` and `*.bundle` so the bundle never packs itself recursively.
-2. Optionally runs all 50 `pytest` unit/fault-injection/contract-drift tests and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
+2. Optionally runs all 52 `pytest` unit/fault-injection/contract-drift tests and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
 3. Stages and commits any latest changes on branch `main`.
 4. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)
    - `fde` -> `git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git` (`https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`)
-5. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, e.g., `capstone-20261006`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
+5. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, e.g., `capstone-20261010`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
 6. Generates `scouts-bsa-merit-badge-agent.bundle` via `git bundle create` and validates it with `git bundle verify` and `git bundle list-heads`.
 7. Pushes `main` and the `capstone-YYYYMMDD` tag to **both** `https://github.com/clayberg/scouts-bsa-merit-badge-agent` and `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`.
 
@@ -198,7 +199,7 @@ Expected output from `git bundle verify`:
 ```text
 The bundle contains these 3 refs:
 <commit_sha> refs/heads/main
-<tag_sha> refs/tags/capstone-20261006
+<tag_sha> refs/tags/capstone-20261010
 <commit_sha> HEAD
 The bundle records a complete history.
 scouts-bsa-merit-badge-agent.bundle is okay
@@ -216,11 +217,11 @@ Once `scouts-bsa-merit-badge-agent.bundle` is built and verified:
 2. **Step 1 in UI — Select Presentation Deck**:
    - Click **Select from Google Drive** (or paste URL) and choose:
      **[FDE Capstone Executive Readout — Scouts BSA Merit Badge Counselor Workbench](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)** (`ID: 1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`).
-   - Verify the Stage 1 slide check turns green (**11 Core Slides, 0 Appendix <= 15 Core Slides**).
+   - Verify the Stage 1 slide check turns green (**12 Core Slides, 0 Appendix <= 15 Core Slides**).
 3. **Step 2 in UI — Upload Git Bundle & Repository Details**:
    - Upload file: `/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/scouts-bsa-merit-badge-agent.bundle` (~`25 MB`).
    - GitHub Repository URL: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`
-   - Git Tag: `capstone-20261006` (or the `capstone-YYYYMMDD` tag output by `scripts/publish_and_bundle_capstone.sh`).
+   - Git Tag: `capstone-20261010` (or the `capstone-YYYYMMDD` tag output by `scripts/publish_and_bundle_capstone.sh`).
    - Wait ~5–10 seconds for `analyzer-initial-checks` to confirm bundle integrity and authorship.
 4. **Step 3 in UI — Assign Panelists & Manager**:
    - Enter the `@google.com` email addresses of your **3 Panelists** and **1 Manager** (remember: you cannot list your own `clayberg@google.com` address as a panelist/manager on your own submission).

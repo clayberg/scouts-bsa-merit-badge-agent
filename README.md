@@ -5,9 +5,11 @@
 [![Deliverables](https://img.shields.io/badge/Outputs-.PPTX%20Slide%20Deck%20%2B%20.MD%20Workbook-CE1126?style=for-the-badge)](https://www.scouting.org/merit-badges/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-005AE0?style=for-the-badge&logo=python)](https://www.python.org/)
 
-Volunteer Scouts BSA Merit Badge Counselors often spend 8 to 15 hours building slide decks, Scout workbooks, lesson plans, and parent letters for a single badge. This project uses the **Google Agent Development Kit (ADK) for Python** to generate widescreen (`16:9`) PowerPoint (`.pptx`) presentations, printable Scout workbooks (`.md`), session agendas, and Youth Protection (YPT) parent letters for all 138 official Scouts BSA Merit Badges.
+Volunteer Scouts BSA Merit Badge Counselors often spend 8 to 15 hours building slide decks, Scout workbooks, lesson plans, gear lists, and parent letters for a single badge. This project uses the **Google Agent Development Kit (ADK) for Python** to generate widescreen (`16:9`) PowerPoint (`.pptx`) presentations, printable Scout workbooks (`.md`), multi-format session agendas, Quartermaster gear checklists, Youth Protection (YPT) parent welcome letters, and Blue Card (`#34124`) / Scoutbook Plus sign-off matrices for all 138 official Scouts BSA Merit Badges.
 
-Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **Scouting.org Digital Resource Guide**. The pipeline keeps official requirement wording intact, breaks multi-part requirements into readable teaching slides, embeds official badge patch emblems and pamphlet figures, attaches pre-populated or on-demand **Nano Banana hero illustrations** (with deterministic fallback to 220-DPI EDGE Skill Concept Maps), generates 220-DPI technical diagrams, checks every slide for shape overlaps before saving, and writes structured counselor speaker notes.
+Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **Scouting.org Digital Resource Guide**. The pipeline keeps official requirement wording intact, breaks multi-part requirements into readable teaching slides, embeds official badge patch emblems and de-boxed transparent pamphlet figures, attaches pre-populated or on-demand **Nano Banana hero illustrations** (with deterministic fallback to 220-DPI EDGE Skill Concept Maps), generates 220-DPI technical diagrams, checks every slide for shape overlaps before saving, and writes structured counselor speaker notes.
+
+> **Detailed User Documentation**: For a complete visual walkthrough of every screen, button, and classroom workflow from a Merit Badge Counselor's perspective (with screenshots, Mermaid diagrams, and reference tables), read the **[Detailed User Documentation (`docs/USER_GUIDE.md`)](docs/USER_GUIDE.md)** (also available as a **[Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw)**).
 
 ---
 
@@ -31,9 +33,10 @@ Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **
   - Covers all 18 Eagle-Required and 120 Elective Merit Badges across all 7 Scouting categories: *Outdoor & Campcraft*, *Health & Public Safety*, *Citizenship & Personal Development*, *Nature & Environment*, *STEM & Science*, *Aquatics & Sports*, and *Trades, Business & Careers* / *Arts, Crafts & Hobbies*.
   - Filter by keyword, category, or Eagle-Required vs. Elective status, or use the quick-select buttons for common troop badges (*First Aid*, *Weather*, *Camping*, *Citizenship in the Nation*, *Cooking*, *Emergency Preparedness*, *Environmental Science*, *Robotics*).
 
-- **Official BSA Pamphlet grounding and location-aware local context**:
+- **Official BSA Pamphlet grounding, de-boxed transparent figures, and location-aware local context**:
   - Downloads, caches, and parses requirements, definitions, procedures, worked examples, and figures from official BSA Merit Badge Pamphlet PDFs. A SHA-256 hash (`compute_canonical_pamphlet_hash()`) verifies that official requirement wording is never modified during web enrichment.
-  - Resolves your **Location (City, State or ZIP Code)** (`location_or_zip`), or infers it from your Troop and Council affiliation or browser timezone via `resolve_counselor_location()`. It applies your local NOAA National Weather Service forecast office, regional terrain hazards, state parks, and state agencies to the Badge Overview slide (Slide 2), the Counselor Session Lesson Plan, the Parent Prerequisite Letter, and the Grounded Citations tab without repeating boilerplate across every slide.
+  - **De-Boxed Transparent Pamphlet Figures**: Scanned illustrations extracted from official BSA Merit Badge Pamphlets pass through an edge-connected flood-fill background remover (`debox_pamphlet_image_file()`) that strips surrounding white page margins while preserving interior white details, allowing figures to sit cleanly on warm cream (`BEAUTIFIED`) and dark slate (`STUDIO`) slide backgrounds.
+  - Resolves your **Location (City, State or ZIP Code)** (`location_or_zip`), or infers it from your Troop and Council affiliation or browser timezone via `resolve_counselor_location()`. It applies your local NOAA National Weather Service forecast office, regional terrain hazards, state parks, and state agencies to the Badge Overview slide (Slide 2), the Counselor Session Lesson Plan, the Parent Prerequisite Letter, and the Grounded Citations section without repeating boilerplate across every slide.
   - Provides direct links in the UI top bar to open the **Official BSA Pamphlet (PDF)** and **Scouting.org Digital Resource Guide** for the active badge.
 
 - **Two deck depth modes and three visual polish tiers**:
@@ -42,37 +45,43 @@ Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **
     - **Standard Troop Meeting Deck (16 to 28 slides)**: Concise 1 to 3 slide sequences per requirement for a single troop meeting or patrol breakout.
   - **Slide visual polish modes (`SlideBeautifierAgent` + `FinOpsBudgetPlugin`, \$1.00 max budget cap)**:
     - **Standard Fast Deck (`STANDARD`, ~\$0.14 / deck)**: Clean white background (`#FFFFFF`) with navy headers, structured requirement cards, and extracted pamphlet figures + 220-DPI technical diagrams (`0` generated hero graphics).
-    - **AI Beautified — Warm Cream + Hero Graphics (`BEAUTIFIED`, ~\$0.38 / deck, Default)**: Warm editorial cream canvas (`#FAF8F5`), rotating accent palettes (`NAVY_GOLD`, `OLIVE_FOREST`, `EAGLE_CRIMSON`, `SLATE_ACTION`), and up to 5 **Nano Banana Hero Illustrations (`NANO_BANANA_HERO`)** on Requirement Intro slides. The repository includes **76 pre-generated, compressed hero PNGs (`~9.9 MB` total)** across the **23 pre-populated Eagle-required and core Merit Badges** (`assets/ai_illustrations/<slug>_req_<id>_nano_hero.png`), generates and caches hero illustrations on demand for the remaining 115 long-tail badges, and falls back deterministically to the 220-DPI **Scouts BSA EDGE Skill Concept Map** when running offline or without Vertex AI quota.
-    - **AI Studio — Dark Slate + Hero Graphics (`STUDIO`, \$1.00 budget)**: Dark executive slate canvas (`#0F172A`), dark slate cards (`#1E293B`), gold and cyan headers, and up to 15 Nano Banana Hero Illustrations / dark-slate EDGE Skill Concept Maps across intro and text-only slides, capped at \$1.00 by `FinOpsBudgetPlugin`.
+    - **AI Beautified: Warm Cream + Hero Graphics (`BEAUTIFIED`, ~\$0.38 / deck, Default)**: Warm editorial cream canvas (`#FAF8F5`), integrated `1.5pt` DrawingML card accent borders (`NAVY_GOLD`, `OLIVE_FOREST`, `EAGLE_CRIMSON`, `SLATE_ACTION`), and up to 5 **Nano Banana Hero Illustrations (`NANO_BANANA_HERO`)** on Requirement Intro slides. The repository includes **76 pre-generated, compressed hero PNGs (`~9.9 MB` total)** across the **23 pre-populated Eagle-required and core Merit Badges** (`assets/ai_illustrations/<slug>_req_<id>_nano_hero.png`), generates and caches hero illustrations on demand for the remaining 115 long-tail badges, and falls back deterministically to the 220-DPI **Scouts BSA EDGE Skill Concept Map** when running offline or without Vertex AI quota.
+    - **AI Studio: Dark Slate + Hero Graphics (`STUDIO`, \$1.00 budget)**: Dark executive slate canvas (`#0F172A`), dark slate cards (`#1E293B`), gold and cyan headers, and up to 15 Nano Banana Hero Illustrations / dark-slate EDGE Skill Concept Maps across intro and text-only slides, capped at \$1.00 by `FinOpsBudgetPlugin`.
   - **Never overwrites technical diagrams**: Existing BSA Pamphlet figures and custom technical diagrams (such as weather fronts, CPR steps, or the 200-foot bear-bag triangle) are always preserved across all three polish tiers.
 
-- **Merit Badge Image Catalog, `WebImageSearchAgent`, `NanoBananaImageAgent`, and Local File Upload**:
-  - **Per-Slide Right-Side Graphic Controls**: Set any slide's graphic to **Keep Current Slide Graphic**, **Restore Original Slide Graphic** (restoring the slide's initial pamphlet/topic figure), **Nano Banana Hero / EDGE Skill Concept Map**, or **None (Remove Graphic & Expand Text to Full Width)** (which removes the image and expands the text cards across the full 16:9 canvas).
-  - **Quick Switch Slide Image & 4-Tab Popup Image Studio**: Cached images for each Merit Badge are stored in `assets/badge_image_catalog/<badge_slug>/` and indexed in SQLite with a preview image and concise title (without prepending the illustration style name). When multiple images are available for a slide, you can switch between them immediately from the inline dropdown or step through them with the **◀ Prev** and **Next ▶** buttons. Clicking **🖼️ Manage & Add Slide Images (Popup)** opens a 4-tab modal:
-    1. **📚 1. Badge Image Catalog**: Browse all available images for the active Merit Badge, apply any image in one click, or click **🗑️ Clear Web/AI Cache** (`DELETE /api/badge/images` / `GET /api/v1/cache/clear`) to purge only user-searched web images (`WEB_IMAGE_SEARCH`) and user-created AI images (`NANO_BANANA_AI`) while preserving official BSA pamphlet figures (`PAMPHLET`), pre-generated and automatically generated hero images (`NANO_BANANA_HERO`), and local file uploads (`USER_UPLOAD`).
-    2. **🌐 2. Web Image Search Agent (`gemini-2.5-flash`)**: Queries the live Wikimedia Commons API for up to 12 public-domain photographs and diagrams matching your topic, caches selected results per badge, and applies them to the current slide.
-    3. **🍌 3. Nano Banana Image Studio (`gemini-2.5-flash-image` & Vertex AI Imagen 3)**: Synthesizes custom, text-free illustrations across **11 visual styles**, defaulting to **`Auto (Content-Aware Mix)`** (which inspects the slide title and bullet text via `resolve_content_aware_visual_config()` to choose the best visual format and whether to include humans), plus *Photorealistic Image*, *4-Quadrant Concept Map*, *Watercolor Field Sketch*, *Line Drawing*, *Cartoon Drawing*, *Technical Diagram*, *Editorial Field Illustration*, *Annotated Technical Cutaway*, *4-Panel Field Storyboard*, and *Comparison & Decision Visual*. An explicit **Include Uniformed Scouts** control lets you include human figures in authentic **Scouts BSA Field Uniforms** (tan button-up shirt with shoulder loops, neckerchief with woggle slide, olive field trousers) or render zero human figures for pure equipment knolling, anatomy/kits, weather fronts, or astronomy visuals. Before generating any AI image, the workbench estimates the cost (`$0.08 USD` / image) and requires your explicit consent (`user_consented=True`), then runs `verify_generated_image_matches_prompt()` to confirm prompt alignment and ensure zero rendered prompt text.
-    4. **📁 4. File Upload (`POST /api/slide/upload-image`, `$0.00 USD`)**: Upload a local `.png`, `.jpg`, `.jpeg`, or `.webp` photo or diagram from your computer (`<= 10 MB`), validate and normalize it with Pillow (`RGB`, max `1600px`), register it in the badge catalog as `USER_UPLOAD`, and apply it directly to the active slide.
+- **3 Automatic Scout Slide Construction Animations (Zero-State & Live Generation Stage)**:
+  - While a deck is generating (or on initial load before a badge is selected), the slide area hides and plays an interactive **Scout Slide Construction Showcase** that cycles automatically across three themed storyboards (all 14 frames preload at startup for zero-lag playback):
+    1. **Animation 1/3: 3D Heavy Equipment** (6 frames): Miniature Scouts in hardhats operate bulldozers, tower cranes, forklifts, and a twin-rotor helicopter to build a giant 16:9 slide. The active Merit Badge emblem rests on the ground with a 3D isometric tilt on frames 1–3, is hoisted on frame 4, and locks into the upper-right mounting ring on frames 5–6.
+    2. **Animation 2/3: 2D Camp Pioneering** (4 frames): Scouts at a pine campsite use timber spars, rope lashings, and block-and-tackle pulleys to hoist a canvas slide with the badge emblem centered inside the carved timber medallion ring.
+    3. **Animation 3/3: 3D Claymation Workshop** (4 frames): Stop-motion clay Scouts feed Merit Badge pamphlets into a brass-and-oak *"Slide-O-Matic"* machine powered by a glowing golden Nano Banana energy dome.
+
+- **3-Tab Under-Stage Drawer, `WebImageSearchAgent`, `NanoBananaImageAgent`, Local File Upload & Quick Text Edit**:
+  - Directly under the 16:9 slide stage, three horizontal sub-tabs keep all per-slide tools above the fold:
+    1. **🎙️ Counselor Teaching Notes (`[SAY]` / `[DEMO]` / `[ASK]`)**: Displays structured instructor talking points, physical demonstration steps, and Socratic check questions tailored to your selected Scout audience age level.
+    2. **🎨 Customize Slide & Image Studio**:
+       - **Quick-Switch Slide Image**: Inline dropdown with label on top and side-by-side **`◀` `▶`** arrow buttons to step through all cached images for the badge at `$0.00` cost.
+       - **Per-Slide Layout, Theme, Palette & Right-Side Graphic Controls**: Change Layout Archetype, Card Theme, Brand Palette, or Right-Side Graphic (`Keep Current Slide Graphic`, `Restore Original Slide Graphic`, `Nano Banana Hero / EDGE Skill Concept Map`, or `None (Remove Graphic & Expand Text to Full Width)`).
+       - **`🖼️ Manage & Add Slide Images` (Upper-Right Button -> 4-Tab Popup Image Studio)**:
+         - **🗂️ 1. Badge Image Catalog & Carousel**: Browse all available images for the active Merit Badge, apply any image in one click, or click **🗑️ Clear Web/AI Cache** (`DELETE /api/badge/images` / `GET /api/v1/cache/clear`) to purge only user-searched web images (`WEB_IMAGE_SEARCH`) and user-created AI images (`NANO_BANANA_AI`) while preserving official BSA pamphlet figures (`PAMPHLET`), pre-generated/auto hero images (`NANO_BANANA_HERO`), and local file uploads (`USER_UPLOAD`).
+         - **🌐 2. Web Image Search Agent (`gemini-2.5-flash`)**: Queries the live Wikimedia Commons API for up to 12 public-domain photographs and diagrams matching your topic, caches selected results per badge, and applies them to the current slide.
+         - **🍌 3. Nano Banana AI Image Generator (`gemini-2.5-flash-image` & Vertex AI Imagen 3)**: Synthesizes custom, text-free illustrations across **11 visual styles**, defaulting to **`Auto (Content-Aware Mix)`** (`resolve_content_aware_visual_config()`), plus *Photorealistic Image*, *4-Quadrant Concept Map*, *Watercolor Field Sketch*, *Line Drawing*, *Cartoon Drawing*, *Technical Diagram*, *Editorial Field Illustration*, *Annotated Technical Cutaway*, *4-Panel Field Storyboard*, and *Comparison & Decision Visual*. Includes an **Include Uniformed Scouts** toggle and an explicit `$0.08 USD` FinOps consent gate (`user_consented=True`) + prompt alignment check (`verify_generated_image_matches_prompt()`).
+         - **📁 4. File Upload (`POST /api/slide/upload-image`, `$0.00 USD`)**: Upload a local `.png`, `.jpg`, `.jpeg`, or `.webp` photo or diagram from your computer (`<= 10 MB`), normalize it with Pillow (`RGB`, max `1600px`), register it as `USER_UPLOAD`, and apply it directly to the active slide.
+    3. **✏️ Quick Edit Slide Text (`POST /api/slide/quick-edit-text`, `$0.00 USD`)**: Edit any slide's title, subtitle, bullet/card lines (`Heading | Body`), and speaker notes directly in the browser and rebuild the `.pptx` in under one second without an LLM call.
+
+- **Counselor Classroom & Field Toolkit (Blue Card Matrix, Session Pacing, Quartermaster Checklist & Parent Email)**:
+  - **Patrol Blue Card (`#34124`) & Scoutbook Plus Sign-Off Matrix**: Build your patrol roster, click requirement cells to cycle `⬜ Not Started` → `⏳ In Progress / Partial` → `✅ Completed`, bulk-sign requirements after group skill stations, and export a timestamped `.csv` spreadsheet for Scoutbook Plus or paper Blue Cards (`#34124`).
+  - **Multi-Format Session Pacing Selector**: Regroup requirements dynamically into **3 Troop Meetings (60 min each)**, **4-Day Summer Camp Block (45 min/day)**, **Saturday Merit Badge Clinic (Half-Day)**, or **Weekend Campout Block**.
+  - **Master Quartermaster Gear & Skill Station Packing Checklist**: Aggregates all physical props and safety supplies across requirements, scales quantities by **Patrol Size (`1–30 Scouts`)**, and provides one-click **`📋 Copy`** and **`🖨️ Print`** buttons.
+  - **YPT-Compliant Prerequisite & Parent Welcome Letter**: Auto-drafts a parent and Scoutmaster welcome letter with two-deep leadership (YPT) reminders and one-click **`📋 Copy`**, **`✉️ Email App`** (`mailto:`), and **`📧 Open Gmail`** compose buttons.
+  - **Print-Ready Scout Handout / Worksheet (`🖨️ Print Handout / Worksheet`)**: Formats clean black-and-white printable Scout worksheets with write-in note boxes and signature lines.
 
 - **Persistent Counselor Profile Caching & PII Protection (Local vs. Cloud)**:
   - **Local / Laptop runs**: Your Counselor Name, Troop/Council, Location/ZIP, Email, Phone, and Custom Troop Logo path are cached locally in `.cache/counselor_profile.json` (`0600` owner-only file permissions, git-ignored) so you only need to enter them once.
   - **Web / Cloud Run deployments**: In multi-tenant cloud mode (`K_SERVICE`), server-side disk caching of counselor PII is disabled; instead, your profile is cached in your own browser's `localStorage` (`scouts_bsa_counselor_profile_v1`).
   - **Strict PII boundary**: Counselor contact PII (email, phone, name) is injected directly into the local Slide 1 Cover and Parent Letter templates and is scrubbed via `ScoutsBSAModelArmorPlugin` and `scrub_pii_before_sink()` before any LLM prompt, SQLite telemetry record, OpenTelemetry span, or Cloud Logging sink.
 
-- **Audience level selector and per-slide co-design bar**:
-  - Tailor speaker notes and coaching prompts to **All Scouts (Ages 11-17)**, **First-Year / Tenderfoot Focus (Ages 11-12)**, or **Older Scouts / Eagle Prep (Ages 14-17)**.
-  - Use the **Per-Slide Interactive Co-Design Bar** under any slide to change its Layout Archetype, Card Theme, Brand Palette, or Right-Side Graphic in place.
-
 - **1:1 parity between live web preview and downloaded `.pptx`**:
-  - Both the web preview (`ui/app.js` and `src/app.py`) and the PowerPoint builder (`src/tools/pptx_builder.py`) render the exact same text, card grid structure, and visual theme (`STANDARD`, `BEAUTIFIED`, or `STUDIO`). Output filenames include the polish tier (`<Badge>_<Tier>_<Depth>_Merit_Badge_Deck.pptx`) so switching tiers never serves a stale cached file.
-
-- **Styled Markdown Workbooks, Lesson Plans, Parent Letters, and FinOps Cost Table**:
-  - Every slide includes presenter notes formatted with `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` cues.
-  - The **Scout & Counselor Workbook**, **Counselor Session Lesson Plan & Agenda**, and **YPT-Compliant Parent Prerequisite & Welcome Letter** render in the UI as clean, word-wrapped styled Markdown cards while downloading as raw `.md` files, and the **FinOps Cost & Token Budget** renders as a structured metrics table.
-
-- **Two web interfaces (Local & Cloud Run)**:
-  - **Material 3 Web Workbench**: `http://localhost:8085` locally (or live on Google Cloud Run at [`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`](https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app)), served by FastAPI (`src/server.py` + `ui/`).
-  - **Streamlit Counselor Workbench** (`http://localhost:8501`), a Python-native Streamlit interface (`src/app.py`) with the same two-column layout, 16:9 slide preview, filmstrip navigation, Image Studio dialog, requirement triage matrix, and StudioKit tabs.
+  - Both the Material 3 web preview (`ui/app.js`) and the PowerPoint builder (`src/tools/pptx_builder.py`) render the exact same text, card grid structure, integrated `1.5pt` card borders, de-boxed pamphlet figures, and visual theme (`STANDARD`, `BEAUTIFIED`, or `STUDIO`). Output filenames include the polish tier (`<Badge>_<Tier>_<Depth>_Merit_Badge_Deck.pptx`) so switching tiers never serves a stale cached file.
 
 ---
 
@@ -101,35 +110,17 @@ cp .env.example .env
 # Optionally edit .env to add GEMINI_API_KEY="your-api-key"
 ```
 
-### Launching the web interfaces
+### Launching the Material 3 Counselor Workbench (`:8085`)
 
-The [`run_local.sh`](run_local.sh) script starts both interfaces together or either interface on its own:
-
-#### Option 1: Launch both interfaces (recommended)
+The [`run_local.sh`](run_local.sh) script starts the FastAPI + Material 3 Counselor Workbench on port `8085` (and serves the live Cloud Run instance at [`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`](https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app)):
 
 ```bash
 ./run_local.sh
-```
-
-This starts:
-- **Material 3 Web Workbench**: `http://localhost:8085`
-- **Streamlit Counselor Workbench**: `http://localhost:8501`
-
-#### Option 2: Run the Material 3 Web Workbench only (`:8085`)
-
-```bash
-./run_local.sh a2ui
 # Or directly with uvicorn:
 uvicorn src.server:app --host 0.0.0.0 --port 8085
 ```
 
-#### Option 3: Run the Streamlit Counselor Workbench only (`:8501`)
-
-```bash
-./run_local.sh streamlit
-# Or directly with streamlit:
-streamlit run src/app.py --server.address 0.0.0.0 --server.port 8501
-```
+Then open **`http://localhost:8085`** in your browser.
 
 ### Google ADK CLI and Python usage
 
@@ -159,7 +150,7 @@ result = run_merit_badge_workflow(
     depth_mode="Deep Dive / Camp School Deck",  # or "Standard Deck"
     beautification_tier="BEAUTIFIED",           # "STANDARD", "BEAUTIFIED", or "STUDIO"
     enable_deep_research=True,
-    audience_level="All Scouts (Ages 11–17)",
+    audience_level="All Scouts (Ages 11-17)",
     counselor_info={
         "counselor_name": "Eric Clayberg",
         "troop_affiliation": "Troop 19, Middleton MA",
@@ -179,9 +170,11 @@ print(f"FinOps Cost Estimate: ${result['finops_cost_estimate']['estimated_cost_u
 
 ## 3. How to Use the Counselor Workbench
 
-Both the Material 3 Web Workbench (`:8085`) and the Streamlit Workbench (`:8501`) use a two-column layout: a **Left Control Rail** for selecting badges and configuring the deck, and a **Right Main Stage** for previewing slides, reviewing requirements, and downloading files.
+> **Full Visual User Guide**: See **[`docs/USER_GUIDE.md`](docs/USER_GUIDE.md)** (or the **[Detailed User Guide Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw)**) for annotated screenshots, diagrams, and step-by-step instructions for every feature.
 
-### Left sidebar controls
+The Material 3 Counselor Workbench (`:8085`) uses a responsive two-column layout: a collapsible **Left Setup & Outline Sidebar (`350px`)** (toggled via **`◀ Hide Setup`** / **`▶ Show Setup`** in the upper-left corner of the top blue banner) and a **Right Main Stage** with 4 top-level workflow tabs.
+
+### Left sidebar controls (3 collapsible accordions)
 
 1. **Find & Select Merit Badge**:
    - **Search Merit Badge Name**: Filter the 138-badge catalog by keyword (`Weather`, `First Aid`, `Kayaking`, `Robotics`).
@@ -190,35 +183,38 @@ Both the Material 3 Web Workbench (`:8085`) and the Streamlit Workbench (`:8501`
 
 2. **Deck Style & Counselor Info**:
    - **Slide Deck Length & Depth**: Choose **Deep Dive Teaching Deck (50 to 70+ slides)** or **Standard Troop Meeting Deck (1 to 3 slides / req)**.
-   - **Slide Visual Polish Mode**: Choose **Standard Fast Deck — Crisp White (~\$0.14)**, **AI Beautified — Warm Cream + Hero Graphics (~\$0.38)**, or **AI Studio — Dark Slate + Hero Graphics (\$1.00 Budget)**.
+   - **Slide Visual Polish Mode**: Choose **Standard Fast Deck: Crisp White (~\$0.14)**, **AI Beautified: Warm Cream + Hero Graphics (~\$0.38)**, or **AI Studio: Dark Slate + Hero Graphics (\$1.00 Budget)**.
    - **Target Scout Audience Level**: Choose **All Scouts (Ages 11-17)**, **First-Year / Tenderfoot Focus (Ages 11-12)**, or **Older Scouts / Eagle Prep (Ages 14-17)**.
    - **Enable Deep Web & Local Troop Grounding**: Attaches regional `.gov`/`.edu`/`.org` references (NOAA NWS, USGS, NPS, American Red Cross, state agencies) grounded to your location.
    - **Counselor Contact & Location Fields (Locally & Browser Cached)**:
-     - **Counselor Name** (default: `Scoutmaster Bob`)
-     - **Troop & Council Affiliation** (default: `Troop 123, My Council`)
-     - **Location (City, State or ZIP Code)** (for example, `01949` or `Middleton, MA`; if left blank, inferred from your Troop/Council text or browser timezone)
-     - **Contact Email (Optional)** and **Contact Phone (Optional)**
-     - *Caching*: Locally, your entries are saved automatically to `.cache/counselor_profile.json` (`0600` owner-only permissions) so you only enter them once. In Cloud Run, they are saved in your browser's `localStorage` (`scouts_bsa_counselor_profile_v1`). A **Reset Saved Info** button lets you clear cached details at any time.
+     - **Counselor Name**, **Troop & Council Affiliation**, **Location (City, State or ZIP Code)**, **Contact Email**, and **Contact Phone**.
+     - *Caching*: Saved automatically to `.cache/counselor_profile.json` locally (`0600` permissions) or browser `localStorage` on Cloud Run. Click **Reset Saved Info** to clear cached details at any time.
    - **Optional Troop Custom Logo (`.png` / `.jpg`)**: Uploads a troop crest or council patch and places it in the lower-left counselor block on Slide 1.
-   - **Generate Slide Deck & Workbook**: Rebuilds the `.pptx` presentation, `.md` workbook, lesson plan, and parent letter with your current inputs.
+   - **Generate Slide Deck & Workbook**: Rebuilds the `.pptx` presentation, `.md` workbook, lesson plan, gear list, and parent letter with your current inputs.
+
+3. **Slide Deck Outline & Research Progress**:
+   - Filter slides by requirement ID (`2b`, `9a`) or keyword (`CPR`, `stove`), click any slide in the filmstrip to jump to it, and inspect the 5-stage pipeline telemetry.
 
 ### Right main stage tabs
 
-- **Top bar**: Links to the **Official BSA Pamphlet (PDF)** and **Scouting.org Resource Guide**, plus download buttons for the **Workbook (`.MD`)** and **Slide Deck (`.PPTX`)**.
-- **Tab 1: Slide Deck Preview**:
-  - **Slide filmstrip & dynamic Research & Generation Progress**: While a new deck is generating (including on cold start), the slide list hides and **Research & Generation Progress** occupies the top of the left filmstrip column so the space is never empty. Once the deck is generated, the slide filmstrip appears at the top of the column and pushes **Research & Generation Progress** directly below it.
-  - **16:9 widescreen slide stage**: Renders the selected slide matching the `.pptx` output across `Standard`, `Beautified`, and `Studio` modes.
-  - **Per-Slide Interactive Co-Design Bar**: Change a single slide's **Layout Archetype**, **Card Theme**, **Brand Palette**, or **Right-Side Graphic** (`Keep Current Slide Graphic`, `Restore Original Slide Graphic`, `Nano Banana Hero / EDGE Skill Concept Map`, or `None (Remove Graphic & Expand Text to Full Width)`).
-  - **Quick Switch Slide Image & 4-Tab Popup Image Studio Modal**: Switch between cached images for the badge immediately from the inline dropdown or step through them with **◀ Prev** and **Next ▶**. Click **🖼️ Manage & Add Slide Images (Popup)** to browse all badge images (with a **🗑️ Clear Web/AI Cache** button that preserves official pamphlet figures, pre-generated/auto hero images, and user uploads), search up to 12 live Wikimedia Commons photos via `WebImageSearchAgent`, generate custom graphics via `NanoBananaImageAgent` across 11 visual styles including `Auto (Content-Aware Mix)` and the `Include Uniformed Scouts` toggle (with `$0.08 USD` cost estimate, explicit user consent, and automatic prompt alignment verification), or upload a local image file (`📁 4. File Upload`, `$0.00 USD`).
-  - **Counselor Teaching Notes**: Displays `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` notes below the slide.
-- **Tab 2: Official Requirements & Resource Guides**:
+- **Top Hero Banner**: Displays the **`◀ Hide Setup`** / **`▶ Show Setup`** toggle button, links to the **Official BSA Pamphlet (PDF)** and **Scouting.org Resource Guide**, download buttons for the **Workbook (`.MD`)** and **Slide Deck (`.PPTX`)**, and horizontal metric pills (**`TOTAL SLIDES`**, **`REQUIREMENTS`**, **`VISUAL POLISH`**).
+- **Tab 1: `Slide Deck Preview`**:
+  - **Zero-State & Generation Construction Showcase**: Automatically cycles across the 3 Scout Slide Construction Animations (*3D Heavy Equipment*, *2D Camp Pioneering*, *3D Claymation Workshop*) with the active Merit Badge emblem overlaid while slides are being constructed.
+  - **16:9 Widescreen Slide Stage & Fullscreen Mode (`Present Fullscreen` / `F`)**: Renders the selected slide matching the `.pptx` output across `Standard`, `Beautified`, and `Studio` modes, with one-click or `F`-key fullscreen projection.
+  - **3-Tab Under-Stage Drawer**:
+    - **Sub-Tab 1 (`🎙️ Counselor Teaching Notes`)**: Displays `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` notes directly below the slide.
+    - **Sub-Tab 2 (`🎨 Customize Slide & Image Studio`)**: Provides the horizontal **Quick-Switch Slide Image** dropdown with side-by-side **`◀` `▶`** arrows, Layout Archetype / Card Theme / Brand Palette / Right-Side Graphic selectors, and the upper-right **`🖼️ Manage & Add Slide Images`** button that opens the **4-Tab Popup Image Studio Modal** (*1. Badge Image Catalog & Carousel*, *2. Web Image Search Agent*, *3. Nano Banana AI Image Generator* with 11 styles + `Auto (Content-Aware Mix)` + `$0.08` consent gate, and *4. File Upload*).
+    - **Sub-Tab 3 (`✏️ Quick Edit Slide Text`)**: Edit slide title, subtitle, bullet/card lines, and speaker notes in place at `$0.00` cost.
+- **Tab 2: `Requirements & Blue Card Sign-Off`**:
   - **3-Column Requirement Triage Matrix**: Sorts every requirement into **Discussion & Core Knowledge**, **Hands-On Skill Demonstrations**, and **Campout, Field & Home Projects**.
-- **Tab 3: Scout & Counselor Workbook**:
-  - Preview the printable workbook rendered as styled, word-wrapped Markdown cards (containing verbatim requirements, note sections, skill sign-off tables, and prerequisite checklists) and download the raw `.md` file.
-- **Tab 4: Lesson Plan, Parent Letter & FinOps**:
-  - **Counselor Session Agenda & Lesson Plan**: Scrollable, styled Markdown pacing guide (`3 Troop Meetings` or `Half-Day Merit Badge Clinic`) tailored to your resolved local area, with a raw `.md` download button.
-  - **Prerequisite & Parent Welcome Letter**: Scrollable, styled Markdown YPT-compliant parent and Scoutmaster letter populated with your Counselor Name, Troop, Location, Email, and Phone, with a raw `.md` download button.
-  - **Grounded Citations & FinOps Cost Table**: Lists regional `.gov`/`.edu`/`.org` citations, the SHA-256 requirement hash status, and a 4-column **FinOps Cost & Token Budget** table (`Agent Stage`, `Model Assigned`, `Token Estimate`, `Cost (USD)`).
+  - **Patrol Blue Card (`#34124`) & Scoutbook Plus Sign-Off Matrix**: Add Scouts to your patrol roster, click cells to cycle `⬜ Not Started` → `⏳ In Progress` → `✅ Completed`, bulk-mark requirements after skill stations, and export a Scoutbook Plus / Blue Card `.csv` file.
+- **Tab 3: `Scout & Counselor Workbook`**:
+  - Preview the printable workbook rendered as styled Markdown cards, click **`🖨️ Print Handout / Worksheet`** to open a clean black-and-white print view with Scout signature blocks, or download the raw `.md` file.
+- **Tab 4: `Lesson Plan, Gear List, Parent Letter & FinOps`**:
+  - **Multi-Format Session Pacing Selector & Lesson Plan**: Switch between *3 Troop Meetings*, *4-Day Summer Camp Block*, *Saturday Merit Badge Clinic*, and *Weekend Campout Block*.
+  - **Master Quartermaster Gear & Skill Station Packing Checklist**: Scaled by **Patrol Size (`1–30 Scouts`)** with interactive checkboxes and working **`📋 Copy`** and **`🖨️ Print`** buttons.
+  - **Prerequisite & Parent Welcome Letter**: YPT-compliant parent and Scoutmaster welcome letter with working **`📋 Copy`**, **`✉️ Email App`** (`mailto:`), and **`📧 Open Gmail`** compose buttons.
+  - **Grounded Citations & FinOps Cost Table**: Lists regional `.gov`/`.edu`/`.org` citations, the SHA-256 requirement hash status, and a 4-column **FinOps Cost & Token Budget** table.
 
 ---
 
@@ -226,15 +222,15 @@ Both the Material 3 Web Workbench (`:8085`) and the Streamlit Workbench (`:8501`
 
 ```mermaid
 flowchart LR
-    UIs["Counselor Workbenches<br/>(Web :8085 & Streamlit :8501)"] --> Coord["MeritBadgeCoordinatorAgent<br/>(ADK Supervisor & Guardrails)"]
+    UIs["Material 3 Counselor Workbench<br/>(FastAPI + Web UI :8085 & A2A 1.0)"] --> Coord["MeritBadgeCoordinatorAgent<br/>(ADK Supervisor & Guardrails)"]
     Coord --> Res["1. PamphletResearchAgent<br/>& DeepResearchEnrichmentAgent"]
     Res --> Plan["2. SlideContentPlannerAgent<br/>(12-Archetype Storyboard & StudioKit)"]
     Plan --> Beau["3. SlideBeautifierAgent<br/>(3-Tier Polish & Hero / EDGE Visuals)"]
     Beau --> ImgStudio["4. WebImageSearchAgent, NanoBananaImageAgent<br/>($0.08 Consent Gate) & File Upload"]
-    ImgStudio --> Build["5. PowerPointBuilderAgent<br/>(220 DPI Diagrams & 16:9 .PPTX)"]
+    ImgStudio --> Build["5. PowerPointBuilderAgent<br/>(De-Boxed Figures, 220 DPI Diagrams & 16:9 .PPTX)"]
     Build --> Rev["6. BSABrandAndSafetyReviewAgent<br/>(AABB Geometry & Safety Critic)"]
     Rev -.->|"Self-Healing Retry"| Build
-    Rev --> Out["Deliverables<br/>(.PPTX Deck, .MD Workbook, Lesson Plan & Parent Letter)"]
+    Rev --> Out["Deliverables<br/>(.PPTX Deck, .MD Workbook, Pacing Plan, Gear List, Parent Letter & Blue Card CSV)"]
 ```
 
 ### Agent roles and main helper functions (9 Components / 7 Specialist Agents)
@@ -242,13 +238,13 @@ flowchart LR
 | Layer / Agent | Assigned model | Key functions | Responsibility |
 | :--- | :--- | :--- | :--- |
 | **`MeritBadgeCoordinatorAgent`** (`src/agents/coordinator.py`) | `gemini-2.5-flash` | `run_merit_badge_workflow()`, `stream_merit_badge_workflow_events()`, `build_a2ui_v09_messages()`, `get_merit_badge_adk_app()` | Orchestrates the 7 specialist sub-agents, OpenTelemetry spans, SSE streaming, session compaction, FinOps budget checks, and A2UI v0.9 JSON payloads |
-| **`PamphletResearchAgent` + `DeepResearchEnrichmentAgent` + `ResearchCoverageCriticAgent`** (`src/agents/researcher.py`) | `gemini-2.5-pro` (`researcher`) / `gemini-2.5-flash` (`deep_research`) | `fetch_merit_badge_pamphlet_pdf()`, `enrich_requirements_with_deep_research()`, `resolve_counselor_location()`, `compute_canonical_pamphlet_hash()`, `score_and_select_best_visual_asset()`, `generate_counselor_workbook_markdown()` | Extracts official Scouting.org requirements and BSA Pamphlet PDFs with SHA-256 hash verification, resolves `location_or_zip` to regional `.gov`/`.edu`/`.org` agencies, selects visuals, and writes the `.md` workbook |
+| **`PamphletResearchAgent` + `DeepResearchEnrichmentAgent` + `ResearchCoverageCriticAgent`** (`src/agents/researcher.py`) | `gemini-2.5-pro` (`researcher`) / `gemini-2.5-flash` (`deep_research`) | `fetch_merit_badge_pamphlet_pdf()`, `enrich_requirements_with_deep_research()`, `resolve_counselor_location()`, `compute_canonical_pamphlet_hash()`, `score_and_select_best_visual_asset()`, `generate_counselor_workbook_markdown()` | Extracts official Scouting.org requirements and BSA Pamphlet PDFs with SHA-256 hash verification, de-boxes pamphlet figures, resolves `location_or_zip` to regional `.gov`/`.edu`/`.org` agencies, selects visuals, and writes the `.md` workbook |
 | **`SlideContentPlannerAgent`** (`src/agents/planner.py`, `src/tools/counselor_studiokit.py`) | `gemini-2.5-pro` | `generate_slide_storyboard()`, `_build_slide_teaching_notes()`, `generate_counselor_session_agenda()`, `generate_prerequisite_parent_letter()` | Plans the 12-archetype slide storyboard (`Standard` 18-26 slides; `Deep Dive` 50-70+ slides), writes `[SAY]`/`[DEMONSTRATE]`/`[ASK SCOUTS]` notes, and generates the Session Agenda and YPT Parent Letter |
 | **`FastMCPConfirmationGate`** (`src/tools/hitl_confirm.py`) | `HMAC-SHA256` | `request_counselor_confirmation()`, `generate_hitl_confirmation_token()`, `verify_hitl_confirmation_token()`, `verify_hitl_before_tool_callback()` | Signs and verifies Human-in-the-Loop confirmation tokens bound to `badge_name` and `slide_count` before `.pptx` compilation |
 | **`SlideBeautifierAgent`** (`src/agents/beautifier.py`) | `gemini-2.5-flash` | `beautify_slide_storyboard()`, `generate_ai_editorial_illustration()`, `get_slide_beautifier_agent()` | Applies the 3 visual polish tiers (`STANDARD` white wireframe, `BEAUTIFIED` warm cream `#FAF8F5`, `STUDIO` dark slate `#0F172A`), preserves original pamphlet figures, and attaches pre-populated or on-demand Nano Banana Hero Illustrations (`NANO_BANANA_HERO`) with fallback to 220-DPI Scouts BSA EDGE Skill Concept Maps |
 | **`WebImageSearchAgent`** (`src/agents/image_studio.py`) | `gemini-2.5-flash` | `get_web_image_search_agent()`, `search_web_images_for_slide()`, `get_badge_image_catalog()`, `purge_cached_web_and_ai_images()`, `upload_custom_slide_image()` | Searches live Wikimedia Commons for up to 12 slide-specific images, manages local file uploads (`USER_UPLOAD`), clears user web/AI cache entries while preserving pamphlet and hero graphics, and indexes assets per badge in `assets/badge_image_catalog/<badge_slug>/` and SQLite |
 | **`NanoBananaImageAgent`** (`src/agents/image_studio.py`) | `gemini-2.5-flash-image` / `imagen-3.0-generate-002` | `get_nano_banana_image_agent()`, `resolve_content_aware_visual_config()`, `estimate_nano_banana_image_cost()`, `generate_nano_banana_slide_image()`, `verify_generated_image_matches_prompt()` | Estimates FinOps cost (`$0.08 USD`/image), requires explicit user consent (`user_consented=True`), synthesizes text-free graphics across 11 visual styles (including `Auto (Content-Aware Mix)` and `include_humans` uniform/zero-human routing), and verifies prompt alignment |
-| **`PowerPointBuilderAgent`** (`src/agents/builder.py`, `src/tools/pptx_builder.py`) | `gemini-2.5-flash` | `generate_bsa_slide_deck_pptx()`, `get_badge_cover_and_patch_paths()`, `_compute_fitting_font_size()`, `_set_paragraph_runs()`, `generate_slide_visual_asset()` | Generates 220-DPI diagrams and builds the `16:9` widescreen (`13.333"` x `7.500"`) `.pptx` file matching the live web preview |
+| **`PowerPointBuilderAgent`** (`src/agents/builder.py`, `src/tools/pptx_builder.py`) | `gemini-2.5-flash` | `generate_bsa_slide_deck_pptx()`, `get_badge_cover_and_patch_paths()`, `_compute_fitting_font_size()`, `_set_paragraph_runs()`, `generate_slide_visual_asset()` | Generates 220-DPI diagrams and builds the `16:9` widescreen (`13.333"` x `7.500"`) `.pptx` file with integrated `1.5pt` DrawingML card borders and de-boxed transparent pamphlet figures matching the live web preview |
 | **`BSABrandAndSafetyReviewAgent`** (`src/agents/reviewer.py`) | `gemini-2.5-pro` | `validate_presentation_deck()`, `check_pptx_conformance()`, `run_stage2_vision_critique()`, `lint_speaker_notes_voice()` | Runs the Stage 1 (`<10ms`) in-memory AABB overlap, font floor (`>= 13.0pt`), WCAG contrast (`>= 4.5:1`), and image uniqueness check, followed by Stage 2 curriculum and safety review |
 | **`ScoutsBSAModelArmorPlugin` + `FinOpsBudgetPlugin`** (`src/agents/guardrails.py`) | Policy + Cloud Model Armor | `sanitize_text_with_model_armor()`, `estimate_workflow_finops_cost()`, `before_model_guardrail_callback()`, `after_model_guardrail_callback()` | Enforces `config/model_armor_security_policy.json` (prompt injection and Youth Protection checks), pre-LLM PII scrubbing, and `config/finops_model_policy.json` budget caps |
 
@@ -256,12 +252,12 @@ flowchart LR
 
 | Element | Specification |
 | :--- | :--- |
-| **Canvas and polish tiers** | Widescreen `16:9` (`13.333"` x `7.500"`), rendered in `STANDARD` (`#FFFFFF` white wireframe), `BEAUTIFIED` (`#FAF8F5` warm cream with pastel accent cards), or `STUDIO` (`#0F172A` dark slate with `#1E293B` cards and gold/cyan accents) |
+| **Canvas and polish tiers** | Widescreen `16:9` (`13.333"` x `7.500"`), rendered in `STANDARD` (`#FFFFFF` white wireframe), `BEAUTIFIED` (`#FAF8F5` warm cream with pastel accent cards and `1.5pt` integrated borders), or `STUDIO` (`#0F172A` dark slate with `#1E293B` cards and gold/cyan accents) |
 | **Cover slide (Slide 1)** | Standalone Merit Badge patch emblem (upper left), Badge Title + Eagle/Elective status (center), Official Pamphlet cover art (right), Counselor Name / Troop / Location / Email / Phone + optional custom troop logo (lower left) |
 | **Slide titles** | Single-line `24pt` bold header |
 | **Requirement intro vs. teaching slides** | Verbatim requirement text appears once in a top banner on the first slide of a requirement sequence; follow-on teaching and diagram slides omit the banner to leave more room for cards and diagrams |
 | **Body text and font fitting** | Left-aligned cards (`PP_ALIGN.LEFT`), explicit word wrapping (`word_wrap = True`), and dynamic font sizing (`13.5pt` to `20.0pt`) calculated by `_compute_fitting_font_size()` |
-| **Right-side graphic & full-width expansion** | Setting a slide's graphic to `None` removes the right-hand image and expands the text cards across the full `12.133"` width (`CONCEPT_TEXT_SLIDE`). Adding or restoring an image switches the slide back to a balanced split layout (`SPLIT_VISUAL_EXPLAINER`) |
+| **De-boxed pamphlet figures & right-side graphic** | Extracted pamphlet figures have white bounding boxes flood-fill removed for transparency. Setting a slide's graphic to `None` removes the right-hand image and expands the text cards across the full `12.133"` width (`CONCEPT_TEXT_SLIDE`). Adding or restoring an image switches the slide back to a balanced split layout (`SPLIT_VISUAL_EXPLAINER`) |
 | **Attribution** | Single **Sources & References** slide at the end of the deck |
 
 ---
@@ -274,11 +270,12 @@ scouts-bsa-merit-badge-agent/
 │   └── ci_eval.yml             # Lint, pytest, fault-injection, and eval_gate.py CI workflow
 ├── assets/
 │   ├── ai_illustrations/       # 76 pre-generated Nano Banana hero PNGs (23 core badges) & EDGE Concept Maps
+│   ├── animations/             # 14 preloaded frames for the 3 Scout Slide Construction Animations
 │   ├── badge_emblems/          # Cached standalone Merit Badge patch emblems from BSA Scout Shop (PNG)
 │   ├── badge_image_catalog/    # Per-badge cached image catalogs (JSON + Hero, Web, Nano Banana & Upload PNGs)
 │   ├── diagrams/               # Generated 220-DPI matplotlib and SVG technical diagrams
 │   ├── pamphlet_covers/        # Extracted official BSA Merit Badge Pamphlet covers (PNG)
-│   ├── pamphlet_images/        # Extracted figures from official BSA Pamphlet PDFs
+│   ├── pamphlet_images/        # De-boxed transparent figures from official BSA Pamphlet PDFs
 │   ├── pamphlets/              # Cached official BSA Merit Badge Pamphlet PDFs
 │   └── web_images/             # Cached Wikimedia Commons instructional illustrations
 ├── config/
@@ -287,8 +284,10 @@ scouts-bsa-merit-badge-agent/
 │   └── model_armor_security_policy.json # Youth Protection and Model Armor security policy
 ├── deliverables/               # Generated .pptx slide decks, .md workbooks, and evaluation reports
 ├── docs/
+│   ├── USER_GUIDE.md                     # Detailed visual User Guide with screenshots, diagrams & tables
+│   ├── images/                           # High-resolution annotated UI and slide showcase PNGs
 │   ├── API_INTEGRATION_GUIDE.md          # REST (/api/v1/*), SSE, and A2A 1.0 integration guide
-│   ├── CAPSTONE_PANEL_PLAYBOOK.md        # 11-slide presentation guide, talk tracks, and Q&A defense matrix
+│   ├── CAPSTONE_PANEL_PLAYBOOK.md        # 12-slide presentation guide, talk tracks, and Q&A defense matrix
 │   ├── FDE_CAPSTONE_COMPANION_GUIDE.md   # Slide-by-slide explainer, jargon decoder, and architecture primer
 │   ├── TDD.md                            # Technical Design Document (architecture, data contracts, & ADRs)
 │   ├── finops-billing-and-deployment-guide.md # FinOps token billing, local vs. Cloud Run costs, and error handling
@@ -327,21 +326,20 @@ scouts-bsa-merit-badge-agent/
 │   │   └── tracing.py          # OpenTelemetry TracerProvider, ring buffer, and Cloud Trace exporter
 │   ├── tools/
 │   │   ├── scouting_scraper.py    # 138-badge catalog, pamphlet scraper, and workbook generator
-│   │   ├── pamphlet_extractor.py  # Scout Shop emblem lookup, PDF extractor, and visual selector
-│   │   ├── counselor_studiokit.py # Counselor Session Agenda and YPT Parent Letter generator
+│   │   ├── pamphlet_extractor.py  # Scout Shop emblem lookup, PDF de-boxing extractor, and visual selector
+│   │   ├── counselor_studiokit.py # Counselor Session Agenda, Gear List, and YPT Parent Letter generator
 │   │   ├── diagram_generator.py   # Custom 220-DPI technical diagram and SVG builder
 │   │   ├── pptx_builder.py        # python-pptx widescreen 16:9 slide deck builder
 │   │   └── hitl_confirm.py        # FastMCP HMAC-SHA256 confirmation token and before_tool_callback
-│   ├── app.py                  # Streamlit Counselor Workbench UI (:8501)
-│   ├── server.py               # FastAPI + A2A 1.0 + SSE server for Material 3 Web Workbench (:8085)
+│   ├── server.py               # FastAPI + A2A 1.0 + SSE server for Material 3 Counselor Workbench (:8085)
 │   ├── security.py             # OIDC Bearer JWT / X-API-Key verification and rate limiter
 │   ├── resilience.py           # 3-state CircuitBreaker, exponential jitter retry, and ModelFallbackRouter
 │   ├── config.py               # 138-badge catalog, ModelProvider, and Secret Manager helper
 │   └── schemas.py              # Pydantic v2 data contracts, GuidedToolError, and JSON schema registry
 ├── ui/
-│   ├── index.html              # Material 3 Web Workbench HTML and 4-tab Image Studio modal
-│   ├── styles.css              # Material 3 Expressive CSS, Markdown typography, and FinOps table styles
-│   └── app.js                  # Interactive slide stage, filmstrip, co-design bar, and Image Studio
+│   ├── index.html              # Material 3 Counselor Workbench HTML, 3-Tab Under-Stage Drawer & 4-Tab Image Studio
+│   ├── styles.css              # Material 3 Expressive CSS, Fullscreen Stage, Blue Card Matrix & Print styles
+│   └── app.js                  # Interactive slide stage, 3 construction animations, co-design bar & Field Toolkit
 ├── terraform/
 │   ├── main.tf                 # Least-privilege SA, VPC, VPC-SC, KMS CMEK, Multi-Region Cloud Run v2, SLO Alerts
 │   ├── outputs.tf              # Terraform output values
@@ -351,7 +349,7 @@ scouts-bsa-merit-badge-agent/
 │   ├── load/load_test.py                        # Concurrent API and deck generation latency benchmark
 │   ├── benchmark_chunking_ablation.py           # Chunking strategy & Hybrid RRF vs. Dense Vector ablation
 │   ├── eval_golden_suite.py                     # Golden evaluation harness and IR metric calculator
-│   ├── test_conformance_and_a2ui.py             # AABB geometry, A2UI v0.9, Image Studio, and OpenAPI drift tests
+│   ├── test_conformance_and_a2ui.py             # AABB geometry, A2UI v0.9, Image Studio, Field Toolkit & OpenAPI drift tests
 │   ├── test_memory.py                           # SQLite session store, compaction, and hybrid retrieval tests
 │   ├── test_pii_scrubber.py                     # Pre-LLM PII redaction and Model Armor guardrail tests
 │   ├── test_resilience_and_fault_injection.py   # Circuit breaker, 429 retry, auth, and OpenAPI schema tests
@@ -364,17 +362,18 @@ scouts-bsa-merit-badge-agent/
 ├── service-spec.yaml           # Declarative ADK v2 multi-agent service specification
 ├── .env.example                # Sample environment variable configuration
 ├── pyproject.toml              # Python package dependencies and tool settings
-└── run_local.sh                # Local launcher for both web interfaces
+└── run_local.sh                # Local launcher for the FastAPI Material 3 Counselor Workbench (:8085)
 ```
 
 ---
 
 ## 6. Configuration and local asset caching
 
-### Engineering documentation
+### User and engineering documentation
+- **[`docs/USER_GUIDE.md`](docs/USER_GUIDE.md)** (**[Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw)**): Detailed user documentation written from a Merit Badge Counselor's perspective, featuring annotated UI screenshots, Mermaid workflow diagrams, and reference tables for every workbench option.
 - **[`docs/TDD.md`](docs/TDD.md)**: Full Technical Design Document covering the 7-agent pipeline, Pydantic v2 data contracts, security boundary, and observability architecture.
 - **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Eight Architecture Decision Records covering the options evaluated, quantitative benchmark matrices, and engineering post-mortems.
-- **[`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](docs/FDE_CAPSTONE_COMPANION_GUIDE.md)** and **[`docs/CAPSTONE_PANEL_PLAYBOOK.md`](docs/CAPSTONE_PANEL_PLAYBOOK.md)**: Slide-by-slide executive readout companion guide (**11 Core Slides, 0 Appendix**), jargon decoder, presenter talk tracks, and panel Q&A defense matrix.
+- **[`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](docs/FDE_CAPSTONE_COMPANION_GUIDE.md)** and **[`docs/CAPSTONE_PANEL_PLAYBOOK.md`](docs/CAPSTONE_PANEL_PLAYBOOK.md)**: Slide-by-slide executive readout companion guide (**12 Core Slides, 0 Appendix**), jargon decoder, presenter talk tracks, and panel Q&A defense matrix.
 - **[`docs/finops-billing-and-deployment-guide.md`](docs/finops-billing-and-deployment-guide.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, and budget/quota error handling.
 - **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification and request examples for `/api/v1/*`, `/a2a/*`, `/health`, and `/readiness`.
 - **[`docs/runbook.md`](docs/runbook.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), SQLite online backup, and Cloud Run revision rollback.
@@ -388,16 +387,15 @@ scouts-bsa-merit-badge-agent/
 | `AUTH_REQUIRED` | `false` (local) / `true` (Cloud Run) | Enforces `X-API-Key` or `Authorization: Bearer <JWT>` on API routes when `true` |
 | `GOOGLE_CLOUD_PROJECT` | `clayberg-scouts-bsa-prod` | GCP project ID for Secret Manager, Cloud DLP, Cloud Trace, and Vertex AI |
 | `GOOGLE_CLOUD_LOCATION` | `us-central1` | GCP region |
-| `PORT` | `8085` | HTTP port for the FastAPI Material 3 Web Workbench |
-| `STREAMLIT_PORT` | `8501` | HTTP port for the Streamlit Counselor Workbench |
+| `PORT` | `8085` | HTTP port for the FastAPI Material 3 Counselor Workbench |
 | `LOG_LEVEL` | `INFO` | Logging level (`DEBUG`, `INFO`, `WARNING`) |
 
 ### Local asset caching and counselor profile storage
 
 To keep slide builds fast and usable at campouts with limited internet access:
-1. **Standalone badge emblems (`assets/badge_emblems/`)**: High-resolution Merit Badge patch emblems from the BSA Scout Shop are cached on disk for Slide 1, EDGE Skill Concept Maps, and UI headers.
+1. **Standalone badge emblems (`assets/badge_emblems/`)**: High-resolution transparent Merit Badge patch emblems from the BSA Scout Shop are cached on disk for Slide 1, the 3 Scout Slide Construction Animations, EDGE Skill Concept Maps, and UI headers.
 2. **Pre-populated Nano Banana hero illustrations (`assets/ai_illustrations/`)**: 76 pre-generated, compressed (`<= 1,024px`, 8-bit quantized PNG, `~9.9 MB` total) Nano Banana hero illustrations (`<slug>_req_<id>_nano_hero.png`) are bundled for all 23 pre-populated Eagle-required and core Merit Badges, while hero illustrations for the remaining 115 long-tail badges are generated and cached on demand.
-3. **Official pamphlet PDFs and covers (`assets/pamphlets/`, `assets/pamphlet_covers/`, `assets/pamphlet_images/`)**: Downloaded pamphlet PDFs are cached locally alongside their rendered cover images and extracted figures.
+3. **Official pamphlet PDFs, covers, and de-boxed figures (`assets/pamphlets/`, `assets/pamphlet_covers/`, `assets/pamphlet_images/`)**: Downloaded pamphlet PDFs are cached locally alongside their rendered cover images and flood-fill de-boxed transparent figures.
 4. **Per-badge image catalogs (`assets/badge_image_catalog/<badge_slug>/` + SQLite `badge_image_catalog`)**: Every official pamphlet figure (`PAMPHLET`), pre-generated/auto hero illustration (`NANO_BANANA_HERO`), `WebImageSearchAgent` Wikimedia photo (`WEB_IMAGE_SEARCH`), `NanoBananaImageAgent` custom illustration (`NANO_BANANA_AI`), local file upload (`USER_UPLOAD`), and EDGE Skill Concept Map is indexed per Merit Badge with a concise title and description so you can switch or reuse images across slides. Clicking **Clear Web/AI Cache** removes only user-searched web images and user-created AI images while preserving official pamphlet figures, pre-generated/auto hero illustrations, and local uploads.
 5. **Counselor contact profile (`.cache/counselor_profile.json` locally; `localStorage` in Cloud Run)**: Local runs cache your counselor contact details in `.cache/counselor_profile.json` with `0600` owner-only file permissions. Multi-tenant Cloud Run deployments store your profile in browser `localStorage` (`scouts_bsa_counselor_profile_v1`) so PII is never shared on the server filesystem, and `scrub_pii_before_sink()` redacts contact PII before any LLM prompt, SQLite log, or OpenTelemetry span.
 
@@ -407,7 +405,7 @@ To keep slide builds fast and usable at campouts with limited internet access:
 
 ### Quick-Start: One-Command Cloud Run Deploy (`scripts/deploy_cloud_run.sh` / Argolis)
 
-If you want to deploy the live **Material 3 Web Workbench + A2A 1.0 Server** directly to Google Cloud Run (including in an **Argolis** `gcp.altostrat.com` environment using Vertex AI with zero API keys):
+If you want to deploy the live **Material 3 Counselor Workbench + A2A 1.0 Server** directly to Google Cloud Run (including in an **Argolis** `gcp.altostrat.com` environment using Vertex AI with zero API keys):
 
 1. **Create or select a GCP Project with Billing enabled**:
    - **Argolis users (`@gcp.altostrat.com`)**: Provision your Argolis environment at `go/argolis` (if not already initialized), then open [Google Cloud Console](https://console.cloud.google.com) signed in as your `@gcp.altostrat.com` account and create a project (e.g., `clayberg-scouts-bsa-agent`) inside your personal Argolis folder.
@@ -467,7 +465,7 @@ adk deploy cloud_run \
 ## 8. Testing and evaluation gate
 
 ```bash
-# 1. Run all 50 unit, security, fault-injection, Image Studio, OpenAPI drift, and conformance tests
+# 1. Run all 52 unit, security, fault-injection, Image Studio, Field Toolkit, OpenAPI drift, and conformance tests
 .venv/bin/pytest tests/ -v
 
 # 2. Run the pre-deployment evaluation gate across the 12 golden badges
@@ -487,14 +485,13 @@ adk deploy cloud_run \
 - **How is my Counselor contact information cached and how is PII protected?**
   - When you run the tool locally on your laptop, your Counselor Name, Troop, Location/ZIP, Email, and Phone are saved to `.cache/counselor_profile.json` (`0600` owner-only permissions, git-ignored) so they auto-populate next time. When running in multi-tenant Cloud Run, server disk caching is disabled and your browser stores the fields in `localStorage`. In both modes, your contact PII is used only on the local Cover Slide and Parent Letter and is scrubbed by `ScoutsBSAModelArmorPlugin` and `scrub_pii_before_sink()` before any LLM call, SQLite telemetry write, or OpenTelemetry span.
 - **How do I remove a graphic from a slide, restore the original graphic, or add a custom image?**
-  - In the **Per-Slide Interactive Co-Design Bar**, set **4. Right-Side Graphic** to **None (Remove Graphic & Expand Text to Full Width)** to remove the image and expand the text cards across the full slide, or choose **Restore Original Slide Graphic** to bring back the initial pamphlet/topic figure. To browse all cached images for the badge, search Wikimedia Commons, generate a custom graphic with `NanoBananaImageAgent` (after consenting to the `$0.08 USD` cost estimate), or upload a local image file (`$0.00 USD`), click **🖼️ Manage & Add Slide Images (Popup)**.
+  - In the **3-Tab Under-Stage Drawer** under **🎨 Customize Slide & Image Studio**, set **Right-Side Graphic** to **None (Remove Graphic & Expand Text to Full Width)** to remove the image and expand the text cards across the full slide, or choose **Restore Original Slide Graphic** to bring back the initial pamphlet/topic figure. To browse all cached images for the badge, search Wikimedia Commons, generate a custom graphic with `NanoBananaImageAgent` (after consenting to the `$0.08 USD` cost estimate), or upload a local image file (`$0.00 USD`), click **🖼️ Manage & Add Slide Images** in the upper-right corner of the Co-Design bar.
 - **How does Local Troop Grounding know what is local to my troop?**
   - Enter your City/State or 5-digit ZIP code in the **Location (City, State or ZIP Code)** box (for example, `01949` or `Middleton, MA`). If you leave that field blank, `resolve_counselor_location()` checks your **Troop & Council Affiliation** text for a ZIP code, state abbreviation, city, or council name, and in the web UI falls back to your browser timezone.
 - **How do I add our troop's custom logo to the Cover Slide?**
   - In the left sidebar under **2. Deck Style & Counselor Info**, upload a `.png` or `.jpg` file under **Optional Troop Custom Logo**, then click **Generate Slide Deck & Workbook**. The logo is placed in the lower-left counselor contact block on Slide 1 in both the web preview and the downloaded `.pptx` file.
-- **How do I change the ports if `8085` or `8501` is already in use?**
-  - Set `PORT` and `STREAMLIT_PORT` when running `./run_local.sh`:
+- **How do I change the port if `8085` is already in use?**
+  - Set `PORT` when running `./run_local.sh`:
     ```bash
-    PORT=8090 STREAMLIT_PORT=8502 ./run_local.sh
+    PORT=8090 ./run_local.sh
     ```
-

@@ -130,7 +130,8 @@ If the backend receives a request to generate a Nano Banana image where `user_co
 ```
 
 * Additionally, the strict FastAPI endpoint (`/api/v1/images/nano-banana/generate` in `src/server.py`) returns an **`HTTP 402 Payment Required`** status code if `user_consented` is false.
-* In both the Material 3 Web UI and the Streamlit UI, the `"🍌 Generate & Apply Nano Banana Image"` button is disabled or blocked with a warning banner until the counselor checks `"✅ I approve the estimated $0.08 USD FinOps cost"`.
+* In the Material 3 Counselor Workbench (`:8085`), the `"🍌 Generate & Apply Nano Banana Image"` button is disabled or blocked with a warning banner until the counselor checks `"✅ I approve the estimated $0.08 USD FinOps cost"`.
+* For zero-cost text edits (fixing a typo, customizing a title, or editing speaker notes), Counselors can use **Sub-Tab 3 (`✏️ Quick Edit Slide Text`, `$0.00 USD`)** in the Under-Stage Drawer, which updates the slide and rebuilds the `.pptx` in under 1 second without invoking any LLM.
 
 ### Layer B: Pre-Flight Deck Budget Cap (`$1.00 USD` Auto-Downgrade)
 

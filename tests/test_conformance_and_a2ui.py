@@ -347,65 +347,37 @@ def test_v6_counselor_defaults_separate_email_phone_and_custom_troop_logo_on_cov
     assert "counselor@troop123.org" in cover_text
     assert "(000) 555-1234" in cover_text
 
-    # 4. Verify Streamlit UI (src/app.py) compiles cleanly, removes Browse Filtered Merit Badges expander,
-    #    fixes top header padding & dark-mode sidebar contrast, and renders clean unindented HTML
+    # 4. Verify FastAPI Material 3 Counselor Workbench (src/server.py, ui/index.html, ui/app.js, ui/styles.css)
+    #    compiles cleanly and legacy Streamlit UI (src/app.py) is completely removed
     import ast
     from pathlib import Path
-    from src.app import _render_widescreen_slide_html, _render_triage_column
 
-    app_py_path = Path(__file__).resolve().parents[1] / "src" / "app.py"
-    app_src = app_py_path.read_text(encoding="utf-8")
-    ast.parse(app_src)
+    repo_root = Path(__file__).resolve().parents[1]
+    assert not (repo_root / "src" / "app.py").exists(), "Legacy Streamlit src/app.py should be completely removed"
+
+    server_src = (repo_root / "src" / "server.py").read_text(encoding="utf-8")
+    ast.parse(server_src)
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    combined_ui = ui_html + "\n" + ui_js + "\n" + ui_css
+
     for expected_token in [
         "Scoutmaster Bob",
         "Troop 123, My Council",
         "counselor@troop123.org",
         "(000) 555-1234",
         "Optional Troop Custom Logo",
-        "main_badge_dropdown",
-        "_clean_html",
-        "padding-top: 3.6rem !important;",
         "m3-top-bar",
         "m3-hero-banner",
         "m3-widescreen-slide",
         "m3-speaker-notes-card",
         "m3-triage-col",
-        "Slide Filmstrip",
     ]:
-        assert expected_token in app_src, f"Expected '{expected_token}' in src/app.py"
-
-    assert "browse_filtered_badges_table" not in app_src, (
-        "Browse Filtered Merit Badges expander table should be removed from src/app.py"
-    )
-
-    # Verify _render_widescreen_slide_html and _render_triage_column produce zero 4-space indented lines
-    for idx_to_check in [-1, 0, 1]:
-        rendered_html = _render_widescreen_slide_html(
-            result=result,
-            slide_idx=idx_to_check,
-            counselor_name="Scoutmaster Bob",
-            troop_affiliation="Troop 123, My Council",
-            email_address="counselor@troop123.org",
-            phone_number="(000) 555-1234",
-            logo_path=up_json["logo_path"],
-            patch_path=None,
-            cover_path=None,
-        )
-        for line in rendered_html.splitlines():
-            assert not line.startswith("    "), f"Found 4-space indented HTML line that would trigger raw HTML code block: {line!r}"
-            assert line.strip() != "", "Found blank line inside HTML block that would split CommonMark HTML parsing"
-
-    triage_html = _render_triage_column(
-        "💬 Discussion & Core Knowledge",
-        "m3-chip-primary",
-        (result.get("research_artifact") or {}).get("requirements", []),
-    )
-    for line in triage_html.splitlines():
-        assert not line.startswith("    "), f"Found 4-space indented HTML line in triage column: {line!r}"
-        assert line.strip() != ""
+        assert expected_token in combined_ui, f"Expected '{expected_token}' in Material 3 Counselor Workbench UI"
 
     # 5. Verify README.md updates
-    readme_path = Path(__file__).resolve().parents[1] / "README.md"
+    readme_path = repo_root / "README.md"
     readme_text = readme_path.read_text(encoding="utf-8")
     for eliminated in [
         "AgentOps Evaluation Rubric Score",
@@ -418,8 +390,7 @@ def test_v6_counselor_defaults_separate_email_phone_and_custom_troop_logo_on_cov
         "Quick Start: Local / Laptop Execution",
         "How to Use the Counselor Workbench",
         "Optional Cloud Deployment",
-        "./run_local.sh a2ui",
-        "./run_local.sh streamlit",
+        "./run_local.sh",
     ]:
         assert required_section in readme_text, f"Expected '{required_section}' in README.md"
 
@@ -428,11 +399,10 @@ def test_v7_detailed_teaching_notes_footer_banner_and_final_slide_attribution(tm
     """Verifies:
     1. Detailed, slide-specific Counselor Teaching Notes where [SAY] is more detailed than the slide text,
        generic boilerplate is eliminated, and [DEMONSTRATE] / [ASK SCOUTS] are selectively included/excluded.
-    2. Bottom attribution & feedback banner in both UIs (ui/index.html and src/app.py) with Eric Clayberg
+    2. Bottom attribution & feedback banner in the Counselor Workbench UI (ui/index.html) with Eric Clayberg
        (Troop 19, Middleton MA), Google Gemini model info, LinkedIn link, and pre-filled mailto button.
     3. Final slide attribution on the Sources & References slide of every generated deck.
     """
-    from pathlib import Path
     from pptx import Presentation
 
     # 1. Generate Weather Deep Dive deck and verify Counselor Teaching Notes & Final Slide Attribution
@@ -514,12 +484,11 @@ def test_v7_detailed_teaching_notes_footer_banner_and_final_slide_attribution(tm
     assert conformance["passed"] is True
     assert conformance["aabb_overlap_count"] == 0
 
-    # 3. Verify Bottom Attribution & Feedback Banner in both UIs (ui/index.html and src/app.py)
+    # 3. Verify Bottom Attribution & Feedback Banner in Counselor Workbench UI (ui/index.html)
     client = TestClient(app)
     ui_html = client.get("/").text
-    app_py_text = (Path(__file__).resolve().parents[1] / "src" / "app.py").read_text(encoding="utf-8")
 
-    for ui_source_name, ui_content in [("ui/index.html", ui_html), ("src/app.py", app_py_text)]:
+    for ui_source_name, ui_content in [("ui/index.html", ui_html)]:
         assert "Eric Clayberg - Troop 19, Middleton MA" in ui_content, f"Missing creator attribution in {ui_source_name}"
         assert "Google Gemini" in ui_content, f"Missing Google Gemini credit in {ui_source_name}"
         assert "gemini-2.5-pro & gemini-2.5-flash via Google ADK" not in ui_content, f"Should drop model detail string in {ui_source_name}"
@@ -655,18 +624,17 @@ def test_v31_beautification_deep_research_codesign_and_counselor_tracking() -> N
     # Verify audience level adaptation in presenter notes
     assert any("EAGLE PREP" in s.get("presenter_notes", "").upper() for s in studio_slides[1:-1])
 
-    # 6. Verify Location/ZIP input, Audience Level selector, and Per-Slide Co-Design Bar in both UIs
+    # 6. Verify Location/ZIP input, Audience Level selector, and Per-Slide Co-Design Bar in Material 3 Counselor Workbench
     ui_html = client.get("/").text
     app_js_text = (Path(__file__).resolve().parents[1] / "ui" / "app.js").read_text(encoding="utf-8")
-    app_py_text = (Path(__file__).resolve().parents[1] / "src" / "app.py").read_text(encoding="utf-8")
 
     assert "input-counselor-location" in ui_html
     assert "audience-select" in ui_html
     assert "slide-codesign-bar" in ui_html
     assert "btn-apply-codesign" in app_js_text
-    assert "Location (City, State or ZIP Code)" in app_py_text
-    assert "Target Scout Audience Level" in app_py_text
-    assert "Per-Slide Interactive Co-Design Bar" in app_py_text
+    assert "Location (City, State or ZIP Code)" in ui_html
+    assert "Target Scout Audience Level" in ui_html
+    assert "Per-Slide Interactive Co-Design Bar" in ui_html
 
 
 def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoration() -> None:
@@ -843,7 +811,7 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         )
         assert direct_check["alignment_score"] > 0.0
 
-        # Verify Clear Web/AI Cache button, include_humans controls, and Tab 4 File Upload in both Web UI and Streamlit UI
+        # Verify Clear Web/AI Cache button, include_humans controls, and Tab 4 File Upload in Counselor Workbench UI
         from src.agents.image_studio import (
             NANO_BANANA_VISUAL_STYLES,
             _canonical_figure_path,
@@ -888,22 +856,18 @@ def test_image_studio_agents_consent_gate_counselor_cache_and_graphic_restoratio
         assert cfg_override["humans_source"] == "EXPLICIT_OVERRIDE"
 
         ui_html = client.get("/").text
-        app_py_text = (Path(__file__).resolve().parents[1] / "src" / "app.py").read_text(encoding="utf-8")
+        server_py_text = (Path(__file__).resolve().parents[1] / "src" / "server.py").read_text(encoding="utf-8")
         assert "btn-studio-clear-cache" in ui_html
         assert "Clear Web/AI Cache" in ui_html
-        assert "Clear Web/AI Cache" in app_py_text
         assert "Auto (Content-Aware Mix)" in ui_html
         assert "Option E" not in ui_html
         assert "Include Uniformed Scouts" in ui_html
         assert "(`include_humans`)" not in ui_html
         assert "studio-ai-humans-select" in ui_html
         assert "studio-ai-include-humans-checkbox" in ui_html
-        assert "Human Presence & Uniform Directive" in app_py_text
-        assert "import re" in app_py_text
         assert "studio-tab-upload" in ui_html
         assert "📁 4. File Upload" in ui_html
-        assert "📁 4. File Upload" in app_py_text
-        assert "upload_custom_slide_image" in app_py_text
+        assert "upload_custom_slide_image" in server_py_text
 
         # 5. Verify WebImageSearchAgent endpoint returns real Wikipedia/Wikimedia images (no Curated Archive fallback)
         web_resp = client.post(

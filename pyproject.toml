@@ -12,13 +12,12 @@ license = {text = "Apache-2.0"}
 authors = [
     {name = "Clayberg", email = "clayberg@google.com"}
 ]
-keywords = ["adk", "google-cloud", "scouts-bsa", "multi-agent", "powerpoint", "streamlit", "opentelemetry"]
+keywords = ["adk", "google-cloud", "scouts-bsa", "multi-agent", "powerpoint", "fastapi", "opentelemetry"]
 
 dependencies = [
     "google-adk>=1.17.0",
     "google-genai>=0.5.0",
     "google-cloud-aiplatform>=1.60.0",
-    "streamlit>=1.38.0",
     "python-pptx>=1.0.2",
     "pydantic>=2.8.0",
     "python-json-logger>=2.0.7",
@@ -49,7 +48,7 @@ dev = [
 ]
 
 [project.scripts]
-scouts-bsa-agent = "src.app:main"
+scouts-bsa-agent = "src.server:main"
 run-eval-suite = "tests.eval_golden_suite:run_eval_suite"
 
 [tool.pytest.ini_options]
