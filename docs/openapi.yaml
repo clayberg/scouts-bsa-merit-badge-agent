@@ -1,6 +1,7 @@
 openapi: 3.1.0
 info:
-  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
+  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
+    \ Server"
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -489,7 +490,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       responses:
         '200':
@@ -593,7 +594,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       responses:
         '200':
@@ -689,6 +690,96 @@ paths:
                 type: object
                 additionalProperties: true
                 title: Response Api Regenerate Slide Api Slide Regenerate Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/studiokit/agenda:
+    post:
+      summary: Api Generate Studiokit Agenda
+      description: Generates a counselor session pacing agenda for the selected schedule
+        format.
+      operationId: api_generate_studiokit_agenda_api_v1_studiokit_agenda_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitAgendaRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Studiokit Agenda Api V1 Studiokit Agenda
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/studiokit/agenda:
+    post:
+      summary: Api Generate Studiokit Agenda
+      description: Generates a counselor session pacing agenda for the selected schedule
+        format.
+      operationId: api_generate_studiokit_agenda_api_studiokit_agenda_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitAgendaRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Studiokit Agenda Api Studiokit Agenda
+                  Post
         '422':
           description: Validation Error
           content:
@@ -2248,6 +2339,15 @@ components:
           type: string
           title: Slide Title
           default: ''
+        req_number:
+          type: string
+          title: Req Number
+          default: '1'
+        bullet_points:
+          items:
+            type: string
+          type: array
+          title: Bullet Points
         custom_prompt:
           type: string
           title: Custom Prompt
@@ -2260,6 +2360,12 @@ components:
           type: string
           title: Visual Style
           default: Photorealistic Image
+        include_humans:
+          anyOf:
+          - {}
+          - type: 'null'
+          title: Include Humans
+          default: auto
         num_images:
           type: integer
           maximum: 4.0
@@ -2304,6 +2410,12 @@ components:
           type: string
           title: Visual Style
           default: Photorealistic Image
+        include_humans:
+          anyOf:
+          - {}
+          - type: 'null'
+          title: Include Humans
+          default: auto
         accent_palette_key:
           type: string
           title: Accent Palette Key
@@ -2445,6 +2557,48 @@ components:
       - slide_index
       - new_archetype
       title: SlideRegenerateRequest
+    StudioKitAgendaRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        schedule_format:
+          type: string
+          title: Schedule Format
+          default: 3 Troop Meetings (45 min each)
+        schedule_type:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Schedule Type
+        research_result:
+          additionalProperties: true
+          type: object
+          title: Research Result
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+        counselor_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Counselor Name
+        troop_affiliation:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Troop Affiliation
+        location_or_zip:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Location Or Zip
+      type: object
+      title: StudioKitAgendaRequest
     TroopLogoUploadRequest:
       properties:
         filename:
@@ -2587,7 +2741,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
         session_id:
           type: string
           title: Session Id

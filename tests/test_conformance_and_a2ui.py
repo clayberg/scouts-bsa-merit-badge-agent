@@ -1154,4 +1154,112 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
         assert 15_000 < af.stat().st_size < 150_000, f"Unexpected size for {af.name}: {af.stat().st_size}"
 
 
+def test_phase1_phase2_phase3_counselor_ux_and_features():
+    """Verifies Phase 1 (Layout & IA), Phase 2 (Ease-of-Use Polish), and Phase 3 (All 6 BSA Counselor Features F1–F6)."""
+    from pathlib import Path
 
+    client = TestClient(app)
+    html = client.get("/").text
+    css = Path("ui/styles.css").read_text(encoding="utf-8")
+    app_js = Path("ui/app.js").read_text(encoding="utf-8")
+
+    # 1. Phase 1 Layout & IA checks (16:9 stage, collapsible sidebars, 3-Tab Under-Stage Drawer, Top Counselor Profile Chip)
+    assert 'id="btn-toggle-sidebar"' in html
+    assert 'id="btn-toggle-filmstrip"' in html
+    assert 'id="top-counselor-profile-chip"' in html
+    assert 'id="counselor-profile-accordion"' in html
+    assert 'id="understage-drawer"' in html
+    assert 'id="slide-quick-edit-card"' in html
+    assert "aspect-ratio: 16 / 9;" in css
+    assert ".m3-workbench-grid.sidebar-collapsed" in css
+    assert ".m3-storyboard-layout.filmstrip-collapsed" in css
+
+    # 2. Phase 2 Ease-of-Use checks (Dirty Settings Banner, Requirement Quick-Jump Bar, Filmstrip Search, Fullscreen Mode)
+    assert 'id="deck-dirty-banner"' in html
+    assert 'id="req-quick-jump-bar"' in html
+    assert 'id="filmstrip-search-input"' in html
+    assert 'id="btn-present-fullscreen"' in html
+    assert 'id="fullscreen-hud-bar"' in html
+    assert "markDeckConfigDirty" in app_js
+    assert "renderRequirementJumpBar" in app_js
+    assert "data-jump-slide-idx" in app_js
+
+    # 3. Phase 3 Feature F1 (Interactive Quiz Reveal) & F2 (Click-to-Jump Requirement Cards)
+    assert "btn-reveal-quiz-answer" in app_js
+    assert "m3-req-jump-action-btn" in app_js
+
+    # 4. Phase 3 Feature F3 (Multi-Format Session Pacing Selector & POST /api/studiokit/agenda across all 4 schedules)
+    assert 'id="studiokit-schedule-select"' in html
+    for sched in (
+        "3 Troop Meetings (60-Min)",
+        "Summer Camp Week (4x50-Min Mon-Thu + Fri Sign-Off)",
+        "Saturday Merit Badge Clinic (3-Hr Block)",
+        "Weekend Campout Practicum",
+    ):
+        resp = client.post(
+            "/api/studiokit/agenda",
+            json={
+                "badge_name": "First Aid",
+                "schedule_type": sched,
+                "counselor_name": "Eric Clayberg",
+                "troop_affiliation": "Troop 19, Middleton MA",
+                "location_or_zip": "01949",
+            },
+        )
+        assert resp.status_code == 200
+        data = resp.json()
+        assert data["status"] == "SUCCESS"
+        assert data["agenda"]["schedule_type"] == sched
+        assert len(data["agenda"]["sessions"]) >= 3
+        assert sched in data["agenda"]["markdown_content"]
+
+    # 5. Phase 3 Feature F4 (One-Click Copy, Email/Gmail Draft, and Print-Ready Handouts)
+    for btn_id in (
+        "btn-copy-workbook",
+        "btn-print-workbook",
+        "btn-copy-agenda",
+        "btn-print-agenda",
+        "btn-download-agenda-md",
+        "btn-copy-letter",
+        "btn-mailto-letter",
+        "btn-gmail-letter",
+        "btn-print-letter",
+        "btn-download-letter-md",
+    ):
+        assert f'id="{btn_id}"' in html
+    assert "@media print" in css
+
+    # 6. Phase 3 Feature F5 (Master Quartermaster Gear Checklist with Patrol Multiplier)
+    assert 'id="studiokit-gear-checklist-card"' in html
+    assert 'id="gear-patrol-size-select"' in html
+    assert "renderQuartermasterGearChecklist" in app_js
+
+    # 7. Phase 3 Feature F6 (Patrol Blue Card #34124 & Scoutbook Plus Sign-Off Matrix + CSV Export)
+    assert 'id="bluecard-tracker-card"' in html
+    assert 'id="btn-bluecard-export-csv"' in html
+    assert "renderBlueCardTracker" in app_js
+    assert "exportBlueCardCsv" in app_js
+
+    # 8. Verify Quick Slide Text Editor persistence in POST /api/slide/regenerate
+    wf = client.post(
+        "/api/workflow/run",
+        json={"badge_name": "First Aid", "depth_mode": "Standard Deck", "beautification_tier": "STANDARD"},
+    ).json()
+    slide3 = dict(wf["storyboard"]["slides"][2])
+    slide3["title"] = "Custom Counselor Edited Title — Req 1"
+    slide3["bullet_points"] = ["Custom Bullet Alpha", "Custom Bullet Beta"]
+    regen = client.post(
+        "/api/slide/regenerate",
+        json={
+            "badge_name": "First Aid",
+            "slide_index": 2,
+            "new_archetype": slide3["archetype"],
+            "new_visual_theme": "MODERN_CARDS",
+            "new_accent_palette": "NAVY_GOLD",
+            "visual_source_mode": "keep",
+            "slide_data": slide3,
+        },
+    ).json()
+    assert regen["status"] == "SUCCESS"
+    assert regen["updated_slide"]["title"] == "Custom Counselor Edited Title — Req 1"
+    assert regen["updated_slide"]["bullet_points"] == ["Custom Bullet Alpha", "Custom Bullet Beta"]

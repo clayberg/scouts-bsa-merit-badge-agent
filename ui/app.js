@@ -11,6 +11,7 @@
  */
 
 const COUNSELOR_STORAGE_KEY = "scouts_bsa_counselor_profile_v1";
+const BLUECARD_STORAGE_PREFIX = "scouts_bsa_bluecard_roster_v1_";
 
 const state = {
   badges: [],
@@ -28,6 +29,11 @@ const state = {
   constructionPlaying: true,
   constructionTimerId: null,
   constructionManualPreview: false,
+  filmstripQuery: "",
+  deckConfigDirty: false,
+  activeUnderstageTab: "notes",
+  revealedQuizSlides: new Set(),
+  checkedGearItems: new Set(),
 };
 
 const CONSTRUCTION_ANIM_CONCEPTS = {
@@ -351,9 +357,12 @@ function showConstructionAnimationStage(badgeName, isManualPreview = false) {
   const closeBtn = document.getElementById("btn-close-construction-anim");
   const statusPill = document.getElementById("construction-status-pill");
   const toolbarEl = document.getElementById("slide-stage-toolbar");
+  const reqJumpEl = document.getElementById("req-quick-jump-bar");
   const slideStageEl = document.getElementById("widescreen-slide-stage");
+  const understageDrawerEl = document.getElementById("understage-drawer");
   const codesignEl = document.getElementById("slide-codesign-bar");
   const notesCardEl = document.getElementById("slide-speaker-notes-card");
+  const filmstripToolbarEl = document.getElementById("filmstrip-toolbar");
 
   animStage?.classList.remove("hidden");
   if (closeBtn) {
@@ -363,9 +372,12 @@ function showConstructionAnimationStage(badgeName, isManualPreview = false) {
     statusPill.textContent = isManualPreview ? "🎬 INTERACTIVE ANIMATION SHOWCASE" : "🏗️ SCOUT SLIDE CREW AT WORK";
   }
   toolbarEl?.classList.add("hidden");
+  reqJumpEl?.classList.add("hidden");
   slideStageEl?.classList.add("hidden");
+  understageDrawerEl?.classList.add("hidden");
   codesignEl?.classList.add("hidden");
   notesCardEl?.classList.add("hidden");
+  filmstripToolbarEl?.classList.add("hidden");
 
   renderConstructionFrame(state.constructionFrameIdx);
   startConstructionAnimationTimer();
@@ -375,17 +387,89 @@ function hideConstructionAnimationStage() {
   state.constructionManualPreview = false;
   const animStage = document.getElementById("slide-construction-stage");
   const toolbarEl = document.getElementById("slide-stage-toolbar");
+  const reqJumpEl = document.getElementById("req-quick-jump-bar");
   const slideStageEl = document.getElementById("widescreen-slide-stage");
+  const understageDrawerEl = document.getElementById("understage-drawer");
   const notesCardEl = document.getElementById("slide-speaker-notes-card");
+  const filmstripToolbarEl = document.getElementById("filmstrip-toolbar");
 
   animStage?.classList.add("hidden");
   toolbarEl?.classList.remove("hidden");
+  reqJumpEl?.classList.remove("hidden");
   slideStageEl?.classList.remove("hidden");
+  understageDrawerEl?.classList.remove("hidden");
   notesCardEl?.classList.remove("hidden");
+  filmstripToolbarEl?.classList.remove("hidden");
+  syncUnderstageDrawerVisibility(state.activeSlideIdx);
   if (state.constructionTimerId) {
     clearInterval(state.constructionTimerId);
     state.constructionTimerId = null;
   }
+}
+
+function syncUnderstageDrawerVisibility(slideIdx = state.activeSlideIdx) {
+  const activeTab = state.activeUnderstageTab || "notes";
+  const notesCard = document.getElementById("slide-speaker-notes-card");
+  const codesignCard = document.getElementById("slide-codesign-bar");
+  const quickeditCard = document.getElementById("slide-quick-edit-card");
+
+  document.querySelectorAll("[data-understage-tab]").forEach((btn) => {
+    const t = btn.getAttribute("data-understage-tab");
+    btn.classList.toggle("active", t === activeTab);
+  });
+
+  notesCard?.classList.toggle("hidden", activeTab !== "notes");
+  // On Cover Slide (-1), if Customize or Quick Edit is selected, still allow viewing or hide if cover
+  if (slideIdx === -1 && activeTab !== "notes") {
+    codesignCard?.classList.toggle("hidden", activeTab !== "codesign");
+    quickeditCard?.classList.toggle("hidden", activeTab !== "quickedit");
+  } else {
+    codesignCard?.classList.toggle("hidden", activeTab !== "codesign");
+    quickeditCard?.classList.toggle("hidden", activeTab !== "quickedit");
+  }
+}
+
+function syncCounselorProfileSummary() {
+  const cName = (document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob").trim();
+  const tName = (document.getElementById("input-troop-name")?.value || "Troop 123, My Council").trim();
+  const summaryText = `${cName} • ${tName}`;
+  const sidebarSumEl = document.getElementById("sidebar-profile-summary-text");
+  const topChipEl = document.getElementById("top-counselor-chip-text");
+  if (sidebarSumEl) sidebarSumEl.textContent = summaryText;
+  if (topChipEl) topChipEl.textContent = summaryText;
+}
+
+function markDeckConfigDirty() {
+  state.deckConfigDirty = true;
+  const dirtyBanner = document.getElementById("deck-dirty-banner");
+  const genBtn = document.getElementById("btn-generate-deck");
+  dirtyBanner?.classList.remove("hidden");
+  if (genBtn && !genBtn.disabled) {
+    genBtn.classList.add("m3-btn-dirty-pulse");
+    genBtn.innerHTML = '<span class="material-symbols-outlined">autorenew</span> Update Slide Deck &amp; Workbook';
+  }
+  // Live-update FinOps preview in sidebar based on selected tier/depth before running
+  const tierVal = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
+  const depthVal = document.getElementById("depth-select")?.value || "Deep Dive / Camp School Deck";
+  const isDeep = depthVal.toLowerCase().includes("deep");
+  const estUsd = tierVal === "STUDIO" ? (isDeep ? 0.42 : 0.28) : tierVal === "BEAUTIFIED" ? (isDeep ? 0.14 : 0.09) : 0.05;
+  const estTokK = isDeep ? 25 : 15;
+  const finopsUsdEl = document.getElementById("finops-cost-usd");
+  const finopsMetaEl = document.getElementById("finops-cost-meta");
+  if (finopsUsdEl) {
+    finopsUsdEl.innerHTML = `<strong>FinOps Est. Cost:</strong> $${estUsd.toFixed(2)} / $1.00 Cap`;
+  }
+  if (finopsMetaEl) {
+    finopsMetaEl.textContent = `${tierVal} • ~${estTokK}K tokens (Preview)`;
+  }
+}
+
+function clearDeckConfigDirty() {
+  state.deckConfigDirty = false;
+  const dirtyBanner = document.getElementById("deck-dirty-banner");
+  const genBtn = document.getElementById("btn-generate-deck");
+  dirtyBanner?.classList.add("hidden");
+  genBtn?.classList.remove("m3-btn-dirty-pulse");
 }
 
 function bindConstructionAnimationControls() {
@@ -441,6 +525,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   bindNavigationTabs();
   bindConstructionAnimationControls();
   await loadCachedCounselorProfile();
+  syncCounselorProfileSummary();
   bindFilterAndSlideControls();
   bindImageStudioModal();
   await loadBadgesCatalog();
@@ -478,9 +563,11 @@ async function loadCachedCounselorProfile() {
   if (prof.custom_troop_logo_path) {
     state.customLogoPath = prof.custom_troop_logo_path;
   }
+  syncCounselorProfileSummary();
 }
 
 async function saveCachedCounselorProfile() {
+  syncCounselorProfileSummary();
   const payload = {
     counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
     troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
@@ -529,27 +616,42 @@ async function resetCachedCounselorProfile() {
   state.customLogoUrl = null;
   const logoStatus = document.getElementById("troop-logo-status");
   if (logoStatus) logoStatus.style.display = "none";
+  syncCounselorProfileSummary();
   if (state.currentResult) {
     renderActiveSlide(state.activeSlideIdx);
     renderStudioKitAndParentLetter(state.currentResult);
   }
 }
 
-function bindNavigationTabs() {
+function switchMainTab(targetPanelId) {
   const tabBtns = document.querySelectorAll(".m3-tab-btn[data-panel]");
   const panels = ["panel-storyboard", "panel-triage", "panel-workbook", "panel-studiokit"];
+  tabBtns.forEach((b) => {
+    b.classList.toggle("active", b.getAttribute("data-panel") === targetPanelId);
+  });
+  panels.forEach((pId) => {
+    const el = document.getElementById(pId);
+    if (el) {
+      el.classList.toggle("hidden", pId !== targetPanelId);
+    }
+  });
+}
 
+function bindNavigationTabs() {
+  const tabBtns = document.querySelectorAll(".m3-tab-btn[data-panel]");
   tabBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
-      tabBtns.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
       const target = btn.getAttribute("data-panel");
-      panels.forEach((pId) => {
-        const el = document.getElementById(pId);
-        if (el) {
-          el.classList.toggle("hidden", pId !== target);
-        }
-      });
+      if (target) switchMainTab(target);
+    });
+  });
+
+  // Under-Stage 3-Tab Drawer (Teaching Notes | Customize Slide | Quick Edit)
+  document.querySelectorAll("[data-understage-tab]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const tabKey = btn.getAttribute("data-understage-tab") || "notes";
+      state.activeUnderstageTab = tabKey;
+      syncUnderstageDrawerVisibility(state.activeSlideIdx);
     });
   });
 }
@@ -562,6 +664,61 @@ function bindFilterAndSlideControls() {
   searchInput?.addEventListener("input", () => applyBadgeFilters(false));
   catSelect?.addEventListener("change", () => applyBadgeFilters(false));
   eagleSelect?.addEventListener("change", () => applyBadgeFilters(false));
+
+  // Collapsible Left Setup Sidebar toggle
+  const sidebarToggleBtn = document.getElementById("btn-toggle-sidebar");
+  const workbenchGrid = document.getElementById("main-workbench-grid");
+  sidebarToggleBtn?.addEventListener("click", () => {
+    if (!workbenchGrid) return;
+    const isCollapsed = workbenchGrid.classList.toggle("sidebar-collapsed");
+    sidebarToggleBtn.title = isCollapsed ? "Show Setup Sidebar" : "Hide Setup Sidebar to Maximize Slide Stage";
+  });
+
+  // Collapsible Storyboard Filmstrip Outline toggle
+  const filmstripToggleBtn = document.getElementById("btn-toggle-filmstrip");
+  const storyboardLayout = document.getElementById("panel-storyboard");
+  filmstripToggleBtn?.addEventListener("click", () => {
+    if (!storyboardLayout) return;
+    const isCollapsed = storyboardLayout.classList.toggle("filmstrip-collapsed");
+    filmstripToggleBtn.textContent = isCollapsed ? "▶ Show Outline" : "◀ Hide Outline";
+  });
+
+  // Top-bar Counselor Profile Chip opens the sidebar Counselor Profile Accordion
+  const topProfileChip = document.getElementById("top-counselor-profile-chip");
+  const profileAccordion = document.getElementById("counselor-profile-accordion");
+  const profileChevron = document.getElementById("profile-accordion-chevron");
+  topProfileChip?.addEventListener("click", () => {
+    workbenchGrid?.classList.remove("sidebar-collapsed");
+    if (profileAccordion) {
+      profileAccordion.open = true;
+      profileAccordion.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  });
+  profileAccordion?.addEventListener("toggle", () => {
+    if (profileChevron) {
+      profileChevron.textContent = profileAccordion.open ? "Close ▴" : "Edit ▾";
+    }
+  });
+
+  // Collapsible Progress Trace Details toggle
+  const traceHeaderToggle = document.getElementById("trace-card-header-toggle");
+  const traceToggleBtn = document.getElementById("btn-toggle-trace-details");
+  const traceListEl = document.getElementById("agent-trace-list");
+  traceHeaderToggle?.addEventListener("click", () => {
+    if (!traceListEl) return;
+    const isHidden = traceListEl.classList.toggle("hidden");
+    if (traceToggleBtn) {
+      traceToggleBtn.textContent = isHidden ? "Details ▾" : "Hide ▴";
+    }
+  });
+
+  // Filmstrip keyword search filter
+  const filmstripSearchInput = document.getElementById("filmstrip-search-input");
+  filmstripSearchInput?.addEventListener("input", () => {
+    state.filmstripQuery = (filmstripSearchInput.value || "").trim().toLowerCase();
+    const slides = state.currentResult?.storyboard?.slides || [];
+    renderFilmstrip(slides);
+  });
 
   // Live-update Active Slide, Parent Letter, Local Troop Grounding & Cache whenever counselor contact inputs change
   ["input-counselor-name", "input-troop-name", "input-counselor-location", "input-counselor-email", "input-counselor-phone"].forEach((id) => {
@@ -580,10 +737,7 @@ function bindFilterAndSlideControls() {
 
   document.getElementById("input-counselor-location")?.addEventListener("change", async () => {
     await saveCachedCounselorProfile();
-    const badge = document.getElementById("badge-select")?.value || state.currentBadge;
-    if (badge) {
-      await executeStreamingWorkflow(badge);
-    }
+    markDeckConfigDirty();
   });
 
   // Upload Optional Troop Custom Logo and live-render on Slide 1
@@ -636,37 +790,140 @@ function bindFilterAndSlideControls() {
   document.getElementById("btn-generate-deck")?.addEventListener("click", async () => {
     const badge = document.getElementById("badge-select")?.value || state.currentBadge;
     if (badge) {
+      clearDeckConfigDirty();
       await executeStreamingWorkflow(badge);
     }
   });
 
-  document.getElementById("depth-select")?.addEventListener("change", async () => {
-    const badge = document.getElementById("badge-select")?.value || state.currentBadge;
-    if (badge) {
-      await executeStreamingWorkflow(badge);
+  // Prevent accidental full-deck regeneration on dropdown changes; mark dirty & update FinOps preview
+  ["depth-select", "beautification-select", "audience-select", "deep-research-checkbox"].forEach((id) => {
+    document.getElementById(id)?.addEventListener("change", () => {
+      markDeckConfigDirty();
+    });
+  });
+
+  // Quick-Edit Slide Text & Notes Save Handler (rebuilds .pptx on disk)
+  document.getElementById("btn-save-quickedit")?.addEventListener("click", async () => {
+    if (!state.currentResult || state.activeSlideIdx < 0) return;
+    const slides = state.currentResult.storyboard?.slides || [];
+    const slide = slides[state.activeSlideIdx];
+    if (!slide) return;
+
+    const newTitle = (document.getElementById("quickedit-slide-title")?.value || "").trim();
+    const newCaption = (document.getElementById("quickedit-slide-caption")?.value || "").trim();
+    const rawBullets = (document.getElementById("quickedit-slide-bullets")?.value || "")
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    const newNotes = (document.getElementById("quickedit-slide-notes")?.value || "").trim();
+
+    if (newTitle) slide.title = newTitle;
+    if (newCaption) slide.visual_caption = newCaption;
+    if (rawBullets.length > 0) {
+      slide.bullet_points = rawBullets;
+      slide.full_bullet_points = rawBullets.slice();
+    }
+    slide.presenter_notes = newNotes;
+
+    const saveBtn = document.getElementById("btn-save-quickedit");
+    const statusEl = document.getElementById("quickedit-save-status");
+    try {
+      if (saveBtn) {
+        saveBtn.disabled = true;
+        saveBtn.textContent = "⏳ Saving & Rebuilding .pptx...";
+      }
+      const resp = await fetch("/api/slide/regenerate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name,
+          slide_index: state.activeSlideIdx,
+          new_archetype: slide.archetype || "SPLIT_VISUAL_EXPLAINER",
+          new_visual_theme: slide.visual_theme || "NUMBERED_STEP_CARDS",
+          new_accent_palette: slide.accent_palette_key || "NAVY_GOLD",
+          visual_source_mode: "keep_current",
+          slide_data: slide,
+          storyboard_slides: slides,
+          counselor_info: state.currentResult.counselor_info || {},
+          output_path: state.currentResult.output_path || "",
+        }),
+      }).then((r) => r.json());
+
+      if (resp.pptx_download_url) {
+        state.currentResult.pptx_download_url = resp.pptx_download_url;
+        const pptxBtn = document.getElementById("btn-download-pptx");
+        if (pptxBtn) pptxBtn.href = `${resp.pptx_download_url}?v=${Date.now()}`;
+      }
+      renderFilmstrip(slides);
+      renderActiveSlide(state.activeSlideIdx);
+      if (statusEl) {
+        statusEl.textContent = "✅ Saved & Updated .pptx on Disk!";
+        setTimeout(() => {
+          statusEl.textContent = "";
+        }, 3500);
+      }
+    } finally {
+      if (saveBtn) {
+        saveBtn.disabled = false;
+        saveBtn.textContent = "💾 Save Text & Update .pptx";
+      }
     }
   });
 
-  document.getElementById("beautification-select")?.addEventListener("change", async () => {
-    const badge = document.getElementById("badge-select")?.value || state.currentBadge;
-    if (badge) {
-      await executeStreamingWorkflow(badge);
+  // Keyboard Arrow Navigation (Left / Right) & Fullscreen Projector Controls
+  document.addEventListener("keydown", (ev) => {
+    const tag = (ev.target?.tagName || "").toUpperCase();
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || ev.target?.isContentEditable) {
+      return;
+    }
+    const modal = document.getElementById("image-studio-modal");
+    if (modal && modal.classList.contains("open")) return;
+    const storyboardPanel = document.getElementById("panel-storyboard");
+    if (storyboardPanel && storyboardPanel.classList.contains("hidden")) return;
+
+    if (ev.key === "ArrowLeft") {
+      ev.preventDefault();
+      document.getElementById("btn-prev-slide")?.click();
+    } else if (ev.key === "ArrowRight") {
+      ev.preventDefault();
+      document.getElementById("btn-next-slide")?.click();
     }
   });
 
-  document.getElementById("audience-select")?.addEventListener("change", async () => {
-    const badge = document.getElementById("badge-select")?.value || state.currentBadge;
-    if (badge) {
-      await executeStreamingWorkflow(badge);
+  const stageWrapper = document.getElementById("slide-stage-wrapper");
+  const fsHud = document.getElementById("fullscreen-hud-bar");
+  document.getElementById("btn-present-fullscreen")?.addEventListener("click", async () => {
+    if (!stageWrapper) return;
+    try {
+      if (!document.fullscreenElement && stageWrapper.requestFullscreen) {
+        await stageWrapper.requestFullscreen();
+      } else if (document.exitFullscreen && document.fullscreenElement) {
+        await document.exitFullscreen();
+      }
+    } catch (_e) {
+      fsHud?.classList.toggle("hidden");
+    }
+  });
+  document.addEventListener("fullscreenchange", () => {
+    const isFs = Boolean(document.fullscreenElement);
+    fsHud?.classList.toggle("hidden", !isFs);
+  });
+  document.getElementById("btn-fs-prev")?.addEventListener("click", () => {
+    document.getElementById("btn-prev-slide")?.click();
+  });
+  document.getElementById("btn-fs-next")?.addEventListener("click", () => {
+    document.getElementById("btn-next-slide")?.click();
+  });
+  document.getElementById("btn-fs-exit")?.addEventListener("click", async () => {
+    if (document.fullscreenElement && document.exitFullscreen) {
+      await document.exitFullscreen();
+    } else {
+      fsHud?.classList.add("hidden");
     }
   });
 
-  document.getElementById("deep-research-checkbox")?.addEventListener("change", async () => {
-    const badge = document.getElementById("badge-select")?.value || state.currentBadge;
-    if (badge) {
-      await executeStreamingWorkflow(badge);
-    }
-  });
+  // F3, F4, F5, F6 Action Buttons (Copy, Email, Gmail, Print, Schedule Selector, Gear Multiplier, Blue Card)
+  bindCounselorToolkitActions();
 
   document.getElementById("btn-apply-codesign")?.addEventListener("click", async () => {
     if (!state.currentResult || state.activeSlideIdx < 0) return;
@@ -952,6 +1209,9 @@ function inferBrowserLocationHint() {
 
 async function executeStreamingWorkflow(badgeName) {
   state.currentBadge = badgeName;
+  clearDeckConfigDirty();
+  state.revealedQuizSlides = new Set();
+  state.checkedGearItems = new Set();
   const depthMode = document.getElementById("depth-select")?.value || "Deep Dive / Camp School Deck";
   const beautificationTier = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
   const audienceLevel = document.getElementById("audience-select")?.value || "All Scouts (Ages 11–17)";
@@ -969,6 +1229,7 @@ async function executeStreamingWorkflow(badgeName) {
   const progressFill = document.getElementById("trace-progress-fill");
   const progressLabel = document.getElementById("trace-progress-label");
   const traceList = document.getElementById("agent-trace-list");
+  const traceToggleBtn = document.getElementById("btn-toggle-trace-details");
   const genBtn = document.getElementById("btn-generate-deck");
   const filmstripEl = document.getElementById("slide-filmstrip-list");
 
@@ -976,6 +1237,8 @@ async function executeStreamingWorkflow(badgeName) {
   if (filmstripEl) {
     filmstripEl.classList.add("hidden");
   }
+  traceList?.classList.remove("hidden");
+  if (traceToggleBtn) traceToggleBtn.textContent = "Hide ▴";
   showConstructionAnimationStage(badgeName, false);
 
   if (genBtn) {
@@ -1089,6 +1352,7 @@ function hydrateWorkbench(result) {
   if (!result || result.status === "ERROR") return;
   state.currentResult = result;
   state.activeSlideIdx = -1;
+  clearDeckConfigDirty();
 
   const slides = result.storyboard?.slides || [];
   const reqs = result.research_artifact?.requirements || [];
@@ -1134,6 +1398,8 @@ function hydrateWorkbench(result) {
 
   document.getElementById("kpi-slide-count").textContent = String(result.slide_count || slides.length + 1);
   document.getElementById("kpi-subreq-count").textContent = String(reqs.length);
+  const kpiPolishEl = document.getElementById("kpi-polish-tier");
+  if (kpiPolishEl) kpiPolishEl.textContent = String(activeTier);
 
   // Download & Resource buttons (append cache-buster so browser always downloads freshly generated .pptx)
   const pptxBtn = document.getElementById("btn-download-pptx");
@@ -1154,8 +1420,9 @@ function hydrateWorkbench(result) {
   if (topPamphlet) topPamphlet.href = pamphletUrl;
   if (topDrg) topDrg.href = drgUrl;
 
-  // 2. Render Clean Generation Summary
+  // 2. Render Clean Generation Summary & Auto-Collapse Trace Details so Slide Outline has full vertical room
   const traceList = document.getElementById("agent-trace-list");
+  const traceToggleBtn = document.getElementById("btn-toggle-trace-details");
   if (traceList) {
     const drCount = (result.deep_research_enrichment?.grounded_citations || []).length;
     const liveTroop = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
@@ -1174,16 +1441,19 @@ function hydrateWorkbench(result) {
         <div class="m3-trace-desc">Ready to preview and download (.pptx slide deck, .md workbook, lesson plan &amp; parent letter).</div>
       </div>
     `;
+    traceList.classList.add("hidden");
+    if (traceToggleBtn) traceToggleBtn.textContent = "Details ▾";
   }
 
-  // 3. Reveal Slide Stage and Render Storyboard Filmstrip & Active Slide (starting at Cover Slide = -1)
+  // 3. Reveal Slide Stage and Render Storyboard Filmstrip, Requirement Quick-Jump Bar & Active Slide
   updateConstructionBadgeEmblem(result.badge_name);
   hideConstructionAnimationStage();
   renderFilmstrip(slides);
   renderActiveSlide(-1);
 
-  // 4. Render Official Requirements & Resource Links
+  // 4. Render Official Requirements, Click-to-Jump Cards & Blue Card Tracker
   renderTriageMatrix(result.research_artifact || {}, pamphletUrl, drgUrl);
+  renderBlueCardTracker(result);
 
   // 5. Render Printable Workbook as styled wrapped Markdown
   const wbPreview = document.getElementById("workbook-markdown-preview");
@@ -1193,8 +1463,9 @@ function hydrateWorkbench(result) {
     );
   }
 
-  // 6. Render Counselor StudioKit (Lesson Plan, Parent Letter, Citations & FinOps)
+  // 6. Render Counselor StudioKit (Lesson Plan, Parent Letter, Gear Checklist, Citations & FinOps)
   renderStudioKitAndParentLetter(result);
+  renderQuartermasterGearChecklist(result);
 }
 
 function getLiveParentLetterMarkdown(result) {
@@ -1289,33 +1560,76 @@ function renderStudioKitAndParentLetter(result) {
   }
 }
 
+function renderRequirementJumpBar(slides) {
+  const bar = document.getElementById("req-quick-jump-bar");
+  if (!bar) return;
+  bar.innerHTML = `<span class="m3-req-jump-label">Jump to:</span>`;
+
+  const activeReq =
+    state.activeSlideIdx === -1
+      ? "__COVER__"
+      : String(slides[state.activeSlideIdx]?.req_number || "");
+
+  const addJumpPill = (label, targetSlideIdx, isActive) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `m3-req-jump-pill${isActive ? " active" : ""}`;
+    btn.textContent = label;
+    btn.addEventListener("click", () => {
+      hideConstructionAnimationStage();
+      state.activeSlideIdx = targetSlideIdx;
+      renderFilmstrip(slides);
+      renderActiveSlide(targetSlideIdx);
+    });
+    bar.appendChild(btn);
+  };
+
+  addJumpPill("Cover", -1, activeReq === "__COVER__");
+
+  const seenReqs = new Map();
+  slides.forEach((s, idx) => {
+    const reqKey = String(s.req_number || "").trim();
+    if (!reqKey || seenReqs.has(reqKey)) return;
+    seenReqs.set(reqKey, idx);
+  });
+
+  seenReqs.forEach((slideIdx, reqKey) => {
+    const pillLabel =
+      reqKey === "Overview" || reqKey === "Sources" ? reqKey : `Req ${reqKey}`;
+    addJumpPill(pillLabel, slideIdx, activeReq === reqKey);
+  });
+}
+
 function renderFilmstrip(slides) {
   const list = document.getElementById("slide-filmstrip-list");
   if (!list) return;
   list.classList.remove("hidden");
   list.innerHTML = "";
+  renderRequirementJumpBar(slides);
+
+  const q = (state.filmstripQuery || "").trim().toLowerCase();
 
   // Slide 1: Cover Slide item
-  const coverThumb = document.createElement("div");
-  coverThumb.className = `m3-slide-thumb ${state.activeSlideIdx === -1 ? "active" : ""}`;
-  coverThumb.innerHTML = `
-    <div class="m3-thumb-top">
-      <span>Slide 1 &bull; Cover</span>
-      <span class="m3-thumb-archetype">Title &amp; Badge</span>
-    </div>
-    <div class="m3-thumb-title">${escapeHtml(state.currentResult?.badge_name || "")} Merit Badge</div>
-  `;
-  coverThumb.addEventListener("click", () => {
-    hideConstructionAnimationStage();
-    state.activeSlideIdx = -1;
-    renderFilmstrip(slides);
-    renderActiveSlide(-1);
-  });
-  list.appendChild(coverThumb);
+  if (!q || "slide 1 cover title badge".includes(q) || (state.currentResult?.badge_name || "").toLowerCase().includes(q)) {
+    const coverThumb = document.createElement("div");
+    coverThumb.className = `m3-slide-thumb ${state.activeSlideIdx === -1 ? "active" : ""}`;
+    coverThumb.innerHTML = `
+      <div class="m3-thumb-top">
+        <span>Slide 1 &bull; Cover</span>
+        <span class="m3-thumb-archetype">Title &amp; Badge</span>
+      </div>
+      <div class="m3-thumb-title">${escapeHtml(state.currentResult?.badge_name || "")} Merit Badge</div>
+    `;
+    coverThumb.addEventListener("click", () => {
+      hideConstructionAnimationStage();
+      state.activeSlideIdx = -1;
+      renderFilmstrip(slides);
+      renderActiveSlide(-1);
+    });
+    list.appendChild(coverThumb);
+  }
 
   slides.forEach((s, idx) => {
-    const thumb = document.createElement("div");
-    thumb.className = `m3-slide-thumb ${idx === state.activeSlideIdx ? "active" : ""}`;
     const hasReqDef = Boolean(s.verbatim_requirement_text && s.verbatim_requirement_text.trim());
     const hasImg = Boolean(s.diagram_url);
     const hasHero = Boolean(s.ai_hero_image_path);
@@ -1327,6 +1641,12 @@ function renderFilmstrip(slides) {
         : hasImg
         ? "Diagram"
         : "Teaching";
+    if (q) {
+      const haystack = `slide ${idx + 2} req ${s.req_number || ""} ${kindLabel} ${s.archetype || ""} ${s.title || ""}`.toLowerCase();
+      if (!haystack.includes(q)) return;
+    }
+    const thumb = document.createElement("div");
+    thumb.className = `m3-slide-thumb ${idx === state.activeSlideIdx ? "active" : ""}`;
     const badgeFlags = `${hasHero ? " ✨" : ""}`;
     thumb.innerHTML = `
       <div class="m3-thumb-top">
@@ -1549,15 +1869,17 @@ function renderActiveSlide(idx) {
   const phone = document.getElementById("input-counselor-phone")?.value || "";
 
   // Case A: Slide 1 (Cover Slide with Badge Emblem, Centered Title, Pamphlet Cover, and Counselor Info — No Boxes!)
+  const fsCounterEl = document.getElementById("fullscreen-hud-counter");
   if (idx === -1) {
     const coverTokens = resolveSlidePaletteTokens(null, deckTier);
     document.getElementById("active-slide-index-chip").textContent = `Slide 1 of ${totalSlides}`;
     document.getElementById("active-slide-req-chip").textContent = "Cover Slide";
+    if (fsCounterEl) fsCounterEl.textContent = `Slide 1 of ${totalSlides} • Cover Slide`;
     if (themeChip) themeChip.textContent = `🎨 ${deckTier}`;
     groundedChip?.classList.add("hidden");
-    codesignBar?.classList.add("hidden");
     magBadge?.classList.add("hidden");
     visSourceBadge?.classList.add("hidden");
+    syncUnderstageDrawerVisibility(-1);
     if (stageEl) {
       stageEl.style.background = coverTokens.stageBg;
       stageEl.style.border = coverTokens.stageBorder;
@@ -1665,11 +1987,21 @@ function renderActiveSlide(idx) {
 
   document.getElementById("active-slide-index-chip").textContent = `Slide ${idx + 2} of ${totalSlides}`;
   document.getElementById("active-slide-req-chip").textContent = reqLabel;
+  if (fsCounterEl) fsCounterEl.textContent = `Slide ${idx + 2} of ${totalSlides} • ${reqLabel}`;
   if (themeChip) themeChip.textContent = `🎨 ${tokens.tier} • ${visTheme}`;
   groundedChip?.classList.add("hidden");
 
-  // Sync Per-Slide Interactive Co-Design Bar controls
-  codesignBar?.classList.remove("hidden");
+  // Sync Per-Slide Under-Stage Drawer & Quick-Edit fields
+  syncUnderstageDrawerVisibility(idx);
+  const qeTitle = document.getElementById("quickedit-slide-title");
+  const qeCaption = document.getElementById("quickedit-slide-caption");
+  const qeBullets = document.getElementById("quickedit-slide-bullets");
+  const qeNotes = document.getElementById("quickedit-slide-notes");
+  if (qeTitle) qeTitle.value = slide.title || "";
+  if (qeCaption) qeCaption.value = slide.visual_caption || "";
+  if (qeBullets) qeBullets.value = (slide.bullet_points || []).join("\n");
+  if (qeNotes) qeNotes.value = slide.presenter_notes || "";
+
   const archSel = document.getElementById("codesign-archetype-select");
   const thmSel = document.getElementById("codesign-theme-select");
   const palSel = document.getElementById("codesign-palette-select");
@@ -1983,17 +2315,54 @@ function renderActiveSlide(idx) {
       correct_answer: "Option A — Follow official BSA pamphlet procedure",
       explanation: "Grounded in the official Scouts BSA Merit Badge Pamphlet and Guide to Safe Scouting.",
     };
+    const isQuizRevealed = state.revealedQuizSlides.has(idx);
+    const correctLetterMatch = String(qz.correct_answer || "Option A").match(/Option\s+([A-D])/i);
+    const correctOptIdx = correctLetterMatch ? correctLetterMatch[1].toUpperCase().charCodeAt(0) - 65 : 0;
+
     leftZone.innerHTML = `
       <div class="m3-slide-card-item" style="background:${tokens.cardBg}; border:2px solid ${tokens.primaryHex}; color:${tokens.textFg};">
-        <div class="m3-slide-card-anchor" style="color:${tokens.primaryHex};">❓ Patrol Scenario Challenge</div>
+        <div class="m3-slide-card-anchor" style="color:${tokens.primaryHex}; justify-content:space-between;">
+          <span>❓ Patrol Scenario Challenge</span>
+          <span style="font-size:0.70rem; font-weight:700; opacity:0.85;">Click an option to test your patrol!</span>
+        </div>
         <div class="m3-slide-card-text" style="color:${tokens.subTextFg};">${escapeHtml(qz.scenario_prompt || "")}</div>
       </div>
-      ${(qz.options || []).map((opt, i) => `<div class="m3-slide-card-item" style="${baseCardSpec.style}"><strong style="color:${baseCardSpec.anchorColor};">Option ${String.fromCharCode(65 + i)}:</strong> <span style="color:${baseCardSpec.bodyColor};">${escapeHtml(opt)}</span></div>`).join("")}
-      <div class="m3-slide-card-item" style="background:${tokens.isStudio ? "#064E3B" : "#DCFCE7"}; border:1.5px solid #15803D; color:${tokens.textFg};">
+      ${(qz.options || [])
+        .map((opt, i) => {
+          const revealedClass = isQuizRevealed && i === correctOptIdx ? " quiz-selected-correct" : "";
+          return `<div class="m3-slide-card-item m3-quiz-option-card${revealedClass}" data-quiz-opt-idx="${i}" style="${baseCardSpec.style}"><strong style="color:${baseCardSpec.anchorColor};">Option ${String.fromCharCode(65 + i)}:</strong> <span style="color:${baseCardSpec.bodyColor};">${escapeHtml(opt)}</span></div>`;
+        })
+        .join("")}
+      <button type="button" class="m3-quiz-reveal-btn ${isQuizRevealed ? "hidden" : ""}" id="btn-reveal-quiz-answer">
+        👁️ Reveal Verified Answer &amp; Explanation
+      </button>
+      <div class="m3-slide-card-item ${isQuizRevealed ? "" : "hidden"}" id="quiz-verified-answer-card" style="background:${tokens.isStudio ? "#064E3B" : "#DCFCE7"}; border:1.5px solid #15803D; color:${tokens.textFg};">
         <div class="m3-slide-card-anchor" style="color:${tokens.isStudio ? "#4ADE80" : "#15803D"};">✓ Verified Answer: ${escapeHtml(qz.correct_answer || "")}</div>
         <div class="m3-slide-card-text" style="color:${tokens.subTextFg};">${escapeHtml(qz.explanation || "")}</div>
       </div>
     `;
+
+    const revealQuiz = (clickedIdx = -1) => {
+      state.revealedQuizSlides.add(idx);
+      document.getElementById("btn-reveal-quiz-answer")?.classList.add("hidden");
+      document.getElementById("quiz-verified-answer-card")?.classList.remove("hidden");
+      leftZone.querySelectorAll(".m3-quiz-option-card").forEach((cardEl) => {
+        const optIdx = parseInt(cardEl.getAttribute("data-quiz-opt-idx") || "-1", 10);
+        if (optIdx === correctOptIdx) {
+          cardEl.classList.add("quiz-selected-correct");
+        } else if (optIdx === clickedIdx) {
+          cardEl.classList.add("quiz-selected-wrong");
+        }
+      });
+    };
+
+    document.getElementById("btn-reveal-quiz-answer")?.addEventListener("click", () => revealQuiz(-1));
+    leftZone.querySelectorAll(".m3-quiz-option-card").forEach((cardEl) => {
+      cardEl.addEventListener("click", () => {
+        const optIdx = parseInt(cardEl.getAttribute("data-quiz-opt-idx") || "-1", 10);
+        revealQuiz(optIdx);
+      });
+    });
   } else {
     bullets.forEach((bp, bpIdx) => {
       const cSpec = getCardThemeSpec(bpIdx);
@@ -2122,6 +2491,7 @@ function formatSpeakerNotesHtml(rawNotes) {
 
 function renderTriageMatrix(research, pamphletUrl, drgUrl) {
   const reqs = research.requirements || [];
+  const slides = state.currentResult?.storyboard?.slides || [];
   const pdfLink = document.getElementById("link-pamphlet-pdf");
   const drgLink = document.getElementById("link-drg-hub");
   if (pdfLink) pdfLink.href = pamphletUrl || "#";
@@ -2137,26 +2507,59 @@ function renderTriageMatrix(research, pamphletUrl, drgUrl) {
 
   const renderReqCards = (items) =>
     items
-      .map(
-        (r) => `
+      .map((r) => {
+        const reqStr = String(r.req_number || "").trim();
+        const matchingSlideIndices = [];
+        slides.forEach((s, idx) => {
+          if (String(s.req_number || "").trim() === reqStr) {
+            matchingSlideIndices.push(idx);
+          }
+        });
+        const firstSlideIdx = matchingSlideIndices.length > 0 ? matchingSlideIndices[0] : 0;
+        const slideCount = matchingSlideIndices.length;
+        const edgePhase = r.edge_phase || (r.execution_mode === "HANDS_ON_SKILL_STATION" ? "Guide / Enable" : "Explain");
+        const signoffText = r.counselor_signoff_criteria || "";
+        return `
       <div class="m3-req-node-card">
-        <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; flex-wrap:wrap;">
           <span class="m3-chip m3-chip-primary" style="font-size:0.72rem; padding:2px 8px;">Requirement ${escapeHtml(r.req_number)}</span>
+          <span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:2px 7px;">EDGE: ${escapeHtml(edgePhase)}</span>
         </div>
         <div style="font-size:0.84rem; font-weight:600; color:var(--md-sys-color-on-surface); margin-top:4px;">${escapeHtml(r.req_text)}</div>
+        ${
+          signoffText
+            ? `<div style="font-size:0.74rem; color:#475569; margin-top:3px;"><strong>Sign-Off:</strong> ${escapeHtml(signoffText)}</div>`
+            : ""
+        }
         ${
           r.safety_callout
             ? `<div style="font-size:0.75rem; color:#CE1126; font-weight:600; margin-top:4px;">&#9888; ${escapeHtml(r.safety_callout)}</div>`
             : ""
         }
+        <button type="button" class="m3-req-jump-action-btn" data-jump-slide-idx="${firstSlideIdx}">
+          <span>▶ Jump to Teaching Slides</span>
+          <span style="font-family:var(--font-mono); font-size:0.70rem;">Slide ${firstSlideIdx + 2}${slideCount > 1 ? ` (${slideCount} slides)` : ""}</span>
+        </button>
       </div>
-    `
-      )
+    `;
+      })
       .join("");
 
   document.getElementById("triage-col-in-class").innerHTML = renderReqCards(inClass);
   document.getElementById("triage-col-hands-on").innerHTML = renderReqCards(handsOn);
   document.getElementById("triage-col-prereq").innerHTML = renderReqCards(prereq);
+
+  document.querySelectorAll(".m3-req-jump-action-btn[data-jump-slide-idx]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const targetIdx = parseInt(btn.getAttribute("data-jump-slide-idx") || "0", 10);
+      switchMainTab("panel-storyboard");
+      hideConstructionAnimationStage();
+      state.activeSlideIdx = isNaN(targetIdx) ? 0 : targetIdx;
+      renderFilmstrip(slides);
+      renderActiveSlide(state.activeSlideIdx);
+      document.getElementById("slide-stage-toolbar")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
 }
 
 function escapeHtml(str) {
@@ -3299,4 +3702,624 @@ function bindImageStudioModal() {
   });
 }
 
+// ===========================================================================
+// PHASE 3 (F3–F6): COUNSELOR TOOLKIT — PACING, COPY/EMAIL/PRINT, GEAR, BLUE CARD
+// ===========================================================================
 
+async function copyTextWithFeedback(btnEl, text, copiedLabel = "✅ Copied!") {
+  const str = String(text || "");
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(str);
+    } else {
+      const ta = document.createElement("textarea");
+      ta.value = str;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+    }
+    if (btnEl) {
+      const orig = btnEl.getAttribute("data-orig-label") || btnEl.textContent;
+      btnEl.setAttribute("data-orig-label", orig);
+      btnEl.textContent = copiedLabel;
+      setTimeout(() => {
+        btnEl.textContent = orig;
+      }, 2200);
+    }
+  } catch (_err) {
+    // ignore clipboard error
+  }
+}
+
+function printHtmlDocument(docTitle, subtitle, bodyHtml) {
+  const printWin = window.open("", "_blank", "width=920,height=740");
+  if (!printWin) {
+    window.print();
+    return;
+  }
+  printWin.document.write(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>${escapeHtml(docTitle)}</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #0F172A;
+      margin: 28px 36px;
+      line-height: 1.55;
+      font-size: 13.5px;
+    }
+    .doc-banner {
+      border-bottom: 3px solid #003F87;
+      padding-bottom: 10px;
+      margin-bottom: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .doc-banner h1 {
+      margin: 0;
+      font-size: 20px;
+      color: #003F87;
+    }
+    .doc-banner .sub {
+      font-size: 12px;
+      color: #475569;
+      margin-top: 3px;
+    }
+    h1, h2, h3 { color: #003F87; margin-top: 14px; margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 12.5px; }
+    th, td { border: 1px solid #CBD5E1; padding: 6px 9px; text-align: left; }
+    th { background: #EFF6FF; color: #003F87; font-weight: 700; }
+    blockquote { background: #F8FAFC; border-left: 4px solid #003F87; padding: 8px 12px; margin: 10px 0; }
+    @media print {
+      body { margin: 12mm; }
+    }
+  </style>
+</head>
+<body>
+  <div class="doc-banner">
+    <div>
+      <h1>${escapeHtml(docTitle)}</h1>
+      <div class="sub">${escapeHtml(subtitle)}</div>
+    </div>
+    <div style="font-size:11px; color:#64748B;">Scouts BSA Merit Badge Counselor Workbench</div>
+  </div>
+  <div>${bodyHtml}</div>
+</body>
+</html>`);
+  printWin.document.close();
+  printWin.focus();
+  setTimeout(() => {
+    printWin.print();
+  }, 250);
+}
+
+function getPlainEmailBodyFromMarkdown(md) {
+  return String(md || "")
+    .replace(/^#+\s+/gm, "")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .trim();
+}
+
+function bindCounselorToolkitActions() {
+  // F3: Session Pacing Schedule Format Selector
+  const scheduleSel = document.getElementById("studiokit-schedule-select");
+  scheduleSel?.addEventListener("change", async () => {
+    if (!state.currentResult) return;
+    const scheduleFormat = scheduleSel.value || "3 Troop Meetings (60-Min)";
+    const agendaPreview = document.getElementById("studiokit-agenda-preview");
+    if (agendaPreview) {
+      agendaPreview.innerHTML = `<div style="padding:16px; color:#003F87; font-weight:600;">⏳ Rebuilding Session Pacing Plan for <strong>${escapeHtml(scheduleFormat)}</strong>...</div>`;
+    }
+    try {
+      const resp = await fetch("/api/studiokit/agenda", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name,
+          schedule_format: scheduleFormat,
+          requirements: state.currentResult.research_artifact?.requirements || [],
+          storyboard_slides: state.currentResult.storyboard?.slides || [],
+          counselor_info: {
+            counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
+            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
+            location_or_zip: document.getElementById("input-counselor-location")?.value || "",
+            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop123.org",
+            phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
+          },
+        }),
+      }).then((r) => r.json());
+      if (resp && resp.agenda_markdown) {
+        state.currentResult.session_agenda = resp;
+        if (agendaPreview) {
+          agendaPreview.innerHTML = renderMarkdownToStyledHtml(resp.agenda_markdown);
+        }
+      }
+    } catch (_err) {
+      if (agendaPreview && state.currentResult.session_agenda?.agenda_markdown) {
+        agendaPreview.innerHTML = renderMarkdownToStyledHtml(state.currentResult.session_agenda.agenda_markdown);
+      }
+    }
+  });
+
+  // F4: Scout Workbook Copy & Print
+  document.getElementById("btn-copy-workbook")?.addEventListener("click", (e) => {
+    const md = state.currentResult?.workbook_markdown || "";
+    copyTextWithFeedback(e.currentTarget, md, "✅ Copied Workbook!");
+  });
+  document.getElementById("btn-print-workbook")?.addEventListener("click", () => {
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
+    const html = document.getElementById("workbook-markdown-preview")?.innerHTML || "";
+    printHtmlDocument(`${badge} Merit Badge — Scout Workbook`, `Prepared for ${troop}`, html);
+  });
+
+  // F4: Session Agenda Copy & Print
+  document.getElementById("btn-copy-agenda")?.addEventListener("click", (e) => {
+    const md = state.currentResult?.session_agenda?.agenda_markdown || "";
+    copyTextWithFeedback(e.currentTarget, md, "✅ Copied Agenda!");
+  });
+  document.getElementById("btn-print-agenda")?.addEventListener("click", () => {
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const fmt = document.getElementById("studiokit-schedule-select")?.value || "Session Plan";
+    const html = document.getElementById("studiokit-agenda-preview")?.innerHTML || "";
+    printHtmlDocument(`${badge} Merit Badge — Counselor Teaching Plan`, fmt, html);
+  });
+
+  // F4: Parent Prerequisite Letter Copy, mailto:, Gmail Compose, and Print
+  document.getElementById("btn-copy-letter")?.addEventListener("click", (e) => {
+    const md = getLiveParentLetterMarkdown(state.currentResult);
+    copyTextWithFeedback(e.currentTarget, md, "✅ Copied Letter!");
+  });
+  document.getElementById("btn-email-letter-mailto")?.addEventListener("click", () => {
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
+    const counselorEmail = document.getElementById("input-counselor-email")?.value || "";
+    const subject = encodeURIComponent(`[${troop}] ${badge} Merit Badge — Parent Prerequisite & Safety Letter`);
+    const body = encodeURIComponent(getPlainEmailBodyFromMarkdown(getLiveParentLetterMarkdown(state.currentResult)).slice(0, 1850));
+    window.open(`mailto:?cc=${encodeURIComponent(counselorEmail)}&subject=${subject}&body=${body}`, "_blank");
+  });
+  document.getElementById("btn-email-letter-gmail")?.addEventListener("click", () => {
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
+    const counselorEmail = document.getElementById("input-counselor-email")?.value || "";
+    const subject = encodeURIComponent(`[${troop}] ${badge} Merit Badge — Parent Prerequisite & Safety Letter`);
+    const body = encodeURIComponent(getPlainEmailBodyFromMarkdown(getLiveParentLetterMarkdown(state.currentResult)).slice(0, 1850));
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&cc=${encodeURIComponent(counselorEmail)}&su=${subject}&body=${body}`;
+    window.open(gmailUrl, "_blank", "noopener,noreferrer");
+  });
+  document.getElementById("btn-print-letter")?.addEventListener("click", () => {
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
+    const html = document.getElementById("studiokit-letter-preview")?.innerHTML || "";
+    printHtmlDocument(`${badge} Merit Badge — Parent Prerequisite & Youth Protection Letter`, troop, html);
+  });
+
+  // F5: Quartermaster Gear Patrol Size Multiplier, Copy & Print
+  document.getElementById("gear-patrol-size-select")?.addEventListener("change", () => {
+    if (state.currentResult) {
+      renderQuartermasterGearChecklist(state.currentResult);
+    }
+  });
+  document.getElementById("btn-copy-gear-checklist")?.addEventListener("click", (e) => {
+    const text = buildQuartermasterGearMarkdown(state.currentResult);
+    copyTextWithFeedback(e.currentTarget, text, "✅ Copied Gear List!");
+  });
+  document.getElementById("btn-print-gear-checklist")?.addEventListener("click", () => {
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const patrolSize = document.getElementById("gear-patrol-size-select")?.value || "8";
+    const md = buildQuartermasterGearMarkdown(state.currentResult);
+    printHtmlDocument(
+      `${badge} Merit Badge — Master Quartermaster Gear & Station Packing Checklist`,
+      `Scaled for Patrol of ${patrolSize} Scouts`,
+      renderMarkdownToStyledHtml(md)
+    );
+  });
+
+  // F6: Blue Card Roster Add / Reset / CSV Export / Print
+  document.getElementById("btn-bluecard-add-scout")?.addEventListener("click", () => {
+    const inputEl = document.getElementById("bluecard-scout-name-input");
+    const rawName = (inputEl?.value || "").trim();
+    if (!rawName || !state.currentResult) return;
+    const roster = loadBadgeBlueCardRoster(state.currentResult.badge_name);
+    if (!roster.scouts.some((s) => s.name.toLowerCase() === rawName.toLowerCase())) {
+      roster.scouts.push({ name: rawName, completedReqs: [] });
+      saveBadgeBlueCardRoster(state.currentResult.badge_name, roster);
+    }
+    if (inputEl) inputEl.value = "";
+    renderBlueCardTracker(state.currentResult);
+  });
+  document.getElementById("bluecard-scout-name-input")?.addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter") {
+      ev.preventDefault();
+      document.getElementById("btn-bluecard-add-scout")?.click();
+    }
+  });
+  document.getElementById("btn-bluecard-reset-roster")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    const key = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(state.currentResult.badge_name);
+    try {
+      window.localStorage.removeItem(key);
+    } catch (_e) {}
+    renderBlueCardTracker(state.currentResult);
+  });
+  document.getElementById("btn-bluecard-export-csv")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    exportBlueCardCsv(state.currentResult);
+  });
+  document.getElementById("btn-bluecard-print")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    printBlueCardSignOffSheet(state.currentResult);
+  });
+}
+
+// ---------------------------------------------------------------------------
+// F5: Master Quartermaster Gear & Skill Station Packing Checklist
+// ---------------------------------------------------------------------------
+function deriveGearGroupsForBadge(result) {
+  const reqs = result?.research_artifact?.requirements || [];
+  const badgeName = result?.badge_name || "Merit Badge";
+  const groups = [];
+
+  reqs.forEach((r) => {
+    const rawGear = Array.isArray(r.gear_checklist) ? r.gear_checklist.filter(Boolean) : [];
+    const mode = r.execution_mode || "IN_CLASS_DISCUSSION";
+    let items = rawGear.slice();
+
+    if (items.length === 0 && (mode === "HANDS_ON_SKILL_STATION" || mode === "PREREQUISITE_CAMPOUT_HOME")) {
+      const txtLower = String(r.req_text || "").toLowerCase();
+      if (txtLower.includes("kit") || txtLower.includes("first aid")) {
+        items = [
+          "Personal First-Aid Kit (adhesive bandages, sterile gauze pads, nitrile gloves, moleskin)",
+          "Troop Trauma Station Kit (SAM splint, roller bandages, triangular cravat bandages)",
+        ];
+      } else if (txtLower.includes("cpr") || txtLower.includes("aed") || txtLower.includes("rescue")) {
+        items = [
+          "CPR Training Manikin & sanitizing wipes (1 per 2–4 Scouts)",
+          "AED Trainer Unit with practice pads",
+        ];
+      } else if (txtLower.includes("splint") || txtLower.includes("bandage") || txtLower.includes("bleeding")) {
+        items = [
+          "Triangular cravat bandages & roller gauze (2 per Scout)",
+          "Padded board splints / SAM splints & training windlass tourniquet",
+        ];
+      } else if (mode === "HANDS_ON_SKILL_STATION") {
+        items = [
+          `${badgeName} Hands-On Demonstration Station Equipment (Req ${r.req_number})`,
+          `Printed Scout Skill Checklists & Buddy Practice Cards (Req ${r.req_number})`,
+        ];
+      } else {
+        items = [
+          `Scout Field Observation Log / Home Prerequisite Worksheet (Req ${r.req_number})`,
+        ];
+      }
+    }
+
+    if (items.length > 0) {
+      groups.push({
+        req_number: r.req_number,
+        execution_mode: mode,
+        edge_phase: r.edge_phase || "Demonstrate",
+        items,
+      });
+    }
+  });
+
+  if (groups.length === 0) {
+    groups.push({
+      req_number: "All",
+      execution_mode: "IN_CLASS_DISCUSSION",
+      edge_phase: "Explain & Demonstrate",
+      items: [
+        `Official Scouts BSA ${badgeName} Merit Badge Pamphlet`,
+        `Printable ${badgeName} Scout Workbook & Blue Cards (#34124)`,
+        "Station Name Tents, Pencils & Guide to Safe Scouting Reference Sheet",
+      ],
+    });
+  }
+  return groups;
+}
+
+function scaleGearItemForPatrol(itemText, patrolSize) {
+  const n = Number(patrolSize) || 8;
+  const lower = String(itemText || "").toLowerCase();
+  const isPerScout =
+    lower.includes("personal") ||
+    lower.includes("per scout") ||
+    lower.includes("gauze") ||
+    lower.includes("bandage") ||
+    lower.includes("gloves") ||
+    lower.includes("workbook") ||
+    lower.includes("worksheet") ||
+    lower.includes("log");
+  if (isPerScout) {
+    return `${itemText} — [Qty: ×${n} (${n === 1 ? "1 Scout" : `Patrol of ${n}`})]`;
+  }
+  const stationCount = Math.max(1, Math.ceil(n / 4));
+  return `${itemText} — [Qty: ${stationCount} Station Set${stationCount > 1 ? "s" : ""}]`;
+}
+
+function buildQuartermasterGearMarkdown(result) {
+  if (!result) return "# Master Quartermaster Gear Checklist";
+  const patrolSize = Number(document.getElementById("gear-patrol-size-select")?.value || 8);
+  const groups = deriveGearGroupsForBadge(result);
+  const lines = [
+    `# ${result.badge_name} Merit Badge — Master Quartermaster Gear & Station Packing Checklist`,
+    `**Scaled for:** Patrol / Class of ${patrolSize} Scout${patrolSize === 1 ? "" : "s"}`,
+    "",
+  ];
+  groups.forEach((g) => {
+    lines.push(`### Requirement ${g.req_number} (${g.execution_mode.replace(/_/g, " ")})`);
+    g.items.forEach((it) => {
+      lines.push(`- [ ] ${scaleGearItemForPatrol(it, patrolSize)}`);
+    });
+    lines.push("");
+  });
+  return lines.join("\n");
+}
+
+function renderQuartermasterGearChecklist(result) {
+  const container = document.getElementById("studiokit-gear-checklist-body");
+  if (!container || !result) return;
+  const patrolSize = Number(document.getElementById("gear-patrol-size-select")?.value || 8);
+  const groups = deriveGearGroupsForBadge(result);
+
+  container.innerHTML = groups
+    .map((g, gIdx) => {
+      const modeLabel =
+        g.execution_mode === "HANDS_ON_SKILL_STATION"
+          ? "🛠️ Hands-On Station"
+          : g.execution_mode === "PREREQUISITE_CAMPOUT_HOME"
+          ? "🏕️ Field / Home Prereq"
+          : "💬 Classroom Discussion";
+      const rowsHtml = g.items
+        .map((itemText, iIdx) => {
+          const itemKey = `${g.req_number}_${gIdx}_${iIdx}`;
+          const isChecked = state.checkedGearItems.has(itemKey);
+          const scaledText = scaleGearItemForPatrol(itemText, patrolSize);
+          return `
+            <label class="m3-gear-item-row ${isChecked ? "checked" : ""}" data-gear-key="${escapeHtml(itemKey)}">
+              <input type="checkbox" ${isChecked ? "checked" : ""} />
+              <span>${escapeHtml(scaledText)}</span>
+            </label>
+          `;
+        })
+        .join("");
+
+      return `
+        <div class="m3-gear-group-card">
+          <div class="m3-gear-group-header">
+            <span style="font-weight:800; font-size:0.84rem; color:#003F87;">Requirement ${escapeHtml(g.req_number)}</span>
+            <span class="m3-chip m3-chip-secondary" style="font-size:0.68rem; padding:2px 8px;">${modeLabel}</span>
+          </div>
+          ${rowsHtml}
+        </div>
+      `;
+    })
+    .join("");
+
+  container.querySelectorAll(".m3-gear-item-row").forEach((row) => {
+    const cb = row.querySelector('input[type="checkbox"]');
+    const key = row.getAttribute("data-gear-key") || "";
+    cb?.addEventListener("change", () => {
+      if (cb.checked) {
+        state.checkedGearItems.add(key);
+        row.classList.add("checked");
+      } else {
+        state.checkedGearItems.delete(key);
+        row.classList.remove("checked");
+      }
+    });
+  });
+}
+
+// ---------------------------------------------------------------------------
+// F6: Patrol Blue Card (#34124) & Scoutbook Plus Requirement Sign-Off Tracker
+// ---------------------------------------------------------------------------
+function loadBadgeBlueCardRoster(badgeName) {
+  const key = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
+  try {
+    const raw = window.localStorage.getItem(key);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (parsed && Array.isArray(parsed.scouts)) {
+        return parsed;
+      }
+    }
+  } catch (_e) {}
+  return {
+    scouts: [
+      { name: "Alex Carter (Patrol Leader)", completedReqs: [] },
+      { name: "Sam Rivera", completedReqs: [] },
+      { name: "Jordan Patel", completedReqs: [] },
+    ],
+  };
+}
+
+function saveBadgeBlueCardRoster(badgeName, rosterObj) {
+  const key = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
+  try {
+    window.localStorage.setItem(key, JSON.stringify(rosterObj));
+  } catch (_e) {}
+}
+
+function renderBlueCardTracker(result) {
+  const container = document.getElementById("bluecard-matrix-container");
+  if (!container || !result) return;
+  const badgeName = result.badge_name || "First Aid";
+  const reqs = result.research_artifact?.requirements || [];
+  const roster = loadBadgeBlueCardRoster(badgeName);
+
+  if (reqs.length === 0) {
+    container.innerHTML = `<div style="padding:14px; color:#64748B;">No requirements loaded for Blue Card tracking.</div>`;
+    return;
+  }
+
+  const headerCols = reqs
+    .map(
+      (r) =>
+        `<th title="${escapeHtml(r.req_text || "")}">Req ${escapeHtml(r.req_number)}</th>`
+    )
+    .join("");
+
+  const bodyRows = roster.scouts
+    .map((scout, sIdx) => {
+      const completedSet = new Set(scout.completedReqs || []);
+      const doneCount = reqs.filter((r) => completedSet.has(String(r.req_number))).length;
+      const isComplete = doneCount === reqs.length && reqs.length > 0;
+      const statusPill = isComplete
+        ? `<span class="m3-chip m3-chip-success" style="font-size:0.70rem; padding:2px 8px;">✓ COMPLETE (${doneCount}/${reqs.length})</span>`
+        : `<span class="m3-chip m3-chip-gold" style="font-size:0.70rem; padding:2px 8px;">Partial (${doneCount}/${reqs.length})</span>`;
+
+      const reqCells = reqs
+        .map((r) => {
+          const rNum = String(r.req_number);
+          const checked = completedSet.has(rNum) ? "checked" : "";
+          return `<td><input type="checkbox" data-bc-scout="${sIdx}" data-bc-req="${escapeHtml(rNum)}" ${checked} style="accent-color:#003F87; width:15px; height:15px; cursor:pointer;" /></td>`;
+        })
+        .join("");
+
+      return `
+        <tr>
+          <td>
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:6px;">
+              <span>${escapeHtml(scout.name)}</span>
+              <button type="button" data-bc-remove-scout="${sIdx}" title="Remove Scout" style="border:none; background:transparent; color:#94A3B8; cursor:pointer; font-size:0.78rem;">✕</button>
+            </div>
+          </td>
+          <td>${statusPill}</td>
+          <td>
+            <button type="button" class="m3-btn m3-btn-outlined" data-bc-toggle-all="${sIdx}" style="padding:2px 8px; font-size:0.68rem;">
+              ${isComplete ? "Clear" : "All ✓"}
+            </button>
+          </td>
+          ${reqCells}
+        </tr>
+      `;
+    })
+    .join("");
+
+  container.innerHTML = `
+    <table class="m3-bluecard-table">
+      <thead>
+        <tr>
+          <th>Scout Name</th>
+          <th>Blue Card Status</th>
+          <th>Quick</th>
+          ${headerCols}
+        </tr>
+      </thead>
+      <tbody>
+        ${bodyRows}
+      </tbody>
+    </table>
+  `;
+
+  container.querySelectorAll("input[data-bc-scout][data-bc-req]").forEach((cb) => {
+    cb.addEventListener("change", () => {
+      const sIdx = parseInt(cb.getAttribute("data-bc-scout") || "0", 10);
+      const rNum = cb.getAttribute("data-bc-req") || "";
+      const targetScout = roster.scouts[sIdx];
+      if (!targetScout) return;
+      const set = new Set(targetScout.completedReqs || []);
+      if (cb.checked) {
+        set.add(rNum);
+      } else {
+        set.delete(rNum);
+      }
+      targetScout.completedReqs = Array.from(set);
+      saveBadgeBlueCardRoster(badgeName, roster);
+      renderBlueCardTracker(result);
+    });
+  });
+
+  container.querySelectorAll("button[data-bc-toggle-all]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const sIdx = parseInt(btn.getAttribute("data-bc-toggle-all") || "0", 10);
+      const targetScout = roster.scouts[sIdx];
+      if (!targetScout) return;
+      const allNums = reqs.map((r) => String(r.req_number));
+      const allDone = allNums.every((n) => (targetScout.completedReqs || []).includes(n));
+      targetScout.completedReqs = allDone ? [] : allNums;
+      saveBadgeBlueCardRoster(badgeName, roster);
+      renderBlueCardTracker(result);
+    });
+  });
+
+  container.querySelectorAll("button[data-bc-remove-scout]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const sIdx = parseInt(btn.getAttribute("data-bc-remove-scout") || "0", 10);
+      roster.scouts.splice(sIdx, 1);
+      saveBadgeBlueCardRoster(badgeName, roster);
+      renderBlueCardTracker(result);
+    });
+  });
+}
+
+function exportBlueCardCsv(result) {
+  const badgeName = result.badge_name || "First Aid";
+  const reqs = result.research_artifact?.requirements || [];
+  const roster = loadBadgeBlueCardRoster(badgeName);
+  const counselorName = document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob";
+  const troopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
+  const todayIso = new Date().toISOString().slice(0, 10);
+
+  const csvRows = [
+    ["Scout Name", "Unit", "Merit Badge", "Requirement", "Completed", "Date", "Counselor", "Overall Status"].join(","),
+  ];
+
+  roster.scouts.forEach((scout) => {
+    const set = new Set(scout.completedReqs || []);
+    const doneCount = reqs.filter((r) => set.has(String(r.req_number))).length;
+    const statusStr = doneCount === reqs.length && reqs.length > 0 ? "COMPLETE" : `PARTIAL (${doneCount}/${reqs.length})`;
+    reqs.forEach((r) => {
+      const rNum = String(r.req_number);
+      const isDone = set.has(rNum);
+      const cells = [
+        `"${String(scout.name).replace(/"/g, '""')}"`,
+        `"${String(troopName).replace(/"/g, '""')}"`,
+        `"${String(badgeName).replace(/"/g, '""')}"`,
+        `"Req ${rNum}"`,
+        isDone ? "YES" : "NO",
+        isDone ? todayIso : "",
+        `"${String(counselorName).replace(/"/g, '""')}"`,
+        `"${statusStr}"`,
+      ];
+      csvRows.push(cells.join(","));
+    });
+  });
+
+  const blob = new Blob([csvRows.join("\n")], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${badgeName.replace(/\s+/g, "_")}_Scoutbook_BlueCard_Export.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function printBlueCardSignOffSheet(result) {
+  const badgeName = result.badge_name || "First Aid";
+  const counselorName = document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob";
+  const troopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
+  const matrixHtml = document.getElementById("bluecard-matrix-container")?.innerHTML || "";
+  const sigBlock = `
+    <div style="margin-top:24px; padding-top:14px; border-top:2px solid #CBD5E1; display:flex; justify-content:space-between; font-size:12.5px;">
+      <div><strong>Merit Badge Counselor:</strong> ${escapeHtml(counselorName)} (${escapeHtml(troopName)})</div>
+      <div><strong>Counselor Signature:</strong> ___________________________ &nbsp;&nbsp; <strong>Date:</strong> ____________</div>
+    </div>
+  `;
+  printHtmlDocument(
+    `Application for Merit Badge (#34124) — ${badgeName} Patrol Sign-Off Record`,
+    `Counselor: ${counselorName} • ${troopName}`,
+    matrixHtml + sigBlock
+  );
+}

@@ -62,44 +62,188 @@ def generate_counselor_session_agenda(
     hands_on_ids = ", ".join(str(r.get("req_number")) for r in hands_on[:8]) or "3, 4"
     prereq_ids = ", ".join(str(r.get("req_number")) for r in prereqs[:8]) or "Field / Home Logs"
 
-    sessions = [
-        {
-            "session_number": 1,
-            "title": f"Session 1: Safety First, Core Concepts & Official BSA {clean_badge} Pamphlet Overview",
-            "duration_minutes": 45,
-            "focus_requirements": in_class_ids,
-            "edge_method_focus": "Explain & Demonstrate",
-            "activities": [
-                f"00–10 min: Welcome, Two-Deep Leadership check, Blue Card intake, and {clean_badge} Hazards & Safety review ({loc['terrain_and_hazards']}).",
-                f"10–30 min: Interactive slide walkthrough of Core Discussion Requirements ({in_class_ids}) grounded in the Official BSA {clean_badge} Pamphlet.",
-                "30–45 min: Socratic Patrol Check-on-Learning & assignment of Prerequisite/Home projects.",
-            ],
-        },
-        {
-            "session_number": 2,
-            "title": f"Session 2: Hands-On EDGE Skill Stations & Practical {clean_badge} Demonstrations",
-            "duration_minutes": 45,
-            "focus_requirements": hands_on_ids,
-            "edge_method_focus": "Demonstrate & Guide",
-            "activities": [
-                f"00–10 min: Counselor physical demonstration of key {clean_badge} procedures and equipment inspection.",
-                f"10–35 min: Patrol Buddy-Pair Hands-On Skill Stations covering Requirements ({hands_on_ids}).",
-                "35–45 min: Individual Scout skill verification and immediate coaching feedback.",
-            ],
-        },
-        {
-            "session_number": 3,
-            "title": f"Session 3: Field/Prerequisite Review, Local {loc['state_code']} Applications & Blue Card Sign-Off",
-            "duration_minutes": 45,
-            "focus_requirements": prereq_ids,
-            "edge_method_focus": "Guide & Enable",
-            "activities": [
-                f"00–15 min: Review completed Campout, Field, and Home Prerequisite logs ({prereq_ids}).",
-                f"15–30 min: Connect {clean_badge} to local field sites ({loc['field_site_examples']}) and {loc['nws_office']} / {loc['state_agency']}.",
-                "30–45 min: Individual Blue Card / Scoutbook verification and counselor sign-off.",
-            ],
-        },
-    ]
+    fmt_lower = str(schedule_format or "").lower()
+    if "summer camp" in fmt_lower or "4x" in fmt_lower or "50-min" in fmt_lower:
+        sessions = [
+            {
+                "session_number": 1,
+                "title": f"Monday Block: Safety Briefing, Core Theory & Official BSA {clean_badge} Pamphlet Overview",
+                "duration_minutes": 50,
+                "focus_requirements": in_class_ids,
+                "edge_method_focus": "Explain",
+                "slide_range": "Cover, Overview & Core Discussion Slides",
+                "activities": [
+                    f"00–12 min: Camp area check-in, Buddy System pairing, Blue Card (#34124) intake, and {clean_badge} Safety review ({loc['terrain_and_hazards']}).",
+                    f"12–38 min: Interactive slide walkthrough of Core Knowledge Requirements ({in_class_ids}) grounded in the Official BSA {clean_badge} Pamphlet.",
+                    "38–50 min: Socratic Patrol Quiz checkpoint & assignment of campout/evening observation logs.",
+                ],
+            },
+            {
+                "session_number": 2,
+                "title": f"Tuesday Block: Counselor Demonstration & Guided {clean_badge} Skill Stations (Part 1)",
+                "duration_minutes": 50,
+                "focus_requirements": hands_on_ids,
+                "edge_method_focus": "Demonstrate & Guide",
+                "slide_range": "Hands-On Procedure & Worked Example Slides (Part 1)",
+                "activities": [
+                    f"00–15 min: Counselor physical step-by-step demonstration of primary {clean_badge} field procedures and quartermaster gear check.",
+                    f"15–40 min: Patrol Buddy-Pair guided practice stations for Requirements ({hands_on_ids}).",
+                    "40–50 min: Station debrief, safety check, and initial skill sign-offs.",
+                ],
+            },
+            {
+                "session_number": 3,
+                "title": f"Wednesday Block: Hands-On Field Practicum & Local {loc['state_code']} Environment Application",
+                "duration_minutes": 50,
+                "focus_requirements": f"{hands_on_ids}, {prereq_ids}",
+                "edge_method_focus": "Guide & Enable",
+                "slide_range": "Hands-On Skill Stations (Part 2) & Field Scenario Slides",
+                "activities": [
+                    f"00–15 min: Connect {clean_badge} to local camp terrain ({loc['field_site_examples']}) and {loc['nws_office']} / {loc['state_agency']}.",
+                    f"15–40 min: Full patrol scenario simulation & independent skill demonstrations ({hands_on_ids}).",
+                    "40–50 min: Mid-week Blue Card progress audit (identifying any Partial items for Friday make-up).",
+                ],
+            },
+            {
+                "session_number": 4,
+                "title": "Thursday Block: Field Log Verification, Socratic Review & Final Blue Card Sign-Off",
+                "duration_minutes": 50,
+                "focus_requirements": prereq_ids,
+                "edge_method_focus": "Enable",
+                "slide_range": "Prerequisite, Quiz & Sources Slides",
+                "activities": [
+                    f"00–20 min: Individual review of completed camp/field logs and projects ({prereq_ids}).",
+                    "20–35 min: Final Patrol Challenge Quiz using interactive slide checkpoints.",
+                    "35–50 min: Complete Blue Card (#34124) & Scoutbook Plus sign-offs (Friday open block reserved for make-up).",
+                ],
+            },
+        ]
+    elif "saturday" in fmt_lower or "clinic" in fmt_lower or "midway" in fmt_lower or "3-hour" in fmt_lower or "3 hours" in fmt_lower:
+        sessions = [
+            {
+                "session_number": 1,
+                "title": f"Hour 1 (00:00–01:00): Clinic Check-In, Prerequisite Audit & Core {clean_badge} Theory",
+                "duration_minutes": 60,
+                "focus_requirements": f"{prereq_ids} (Audit) + {in_class_ids}",
+                "edge_method_focus": "Explain & Demonstrate",
+                "slide_range": "Slides 1–20 (Cover, Triage & Core Theory)",
+                "activities": [
+                    f"00–15 min: Two-Deep Leadership check, Blue Card intake, Prerequisite homework verification ({prereq_ids}), and {loc['terrain_and_hazards']} safety briefing.",
+                    f"15–50 min: High-energy interactive slide walkthrough of Discussion Requirements ({in_class_ids}) grounded in the Official BSA {clean_badge} Pamphlet.",
+                    "50–60 min: Patrol Quiz checkpoint & 5-minute stretch/hydration break.",
+                ],
+            },
+            {
+                "session_number": 2,
+                "title": "Hour 2 (01:00–02:00): Round-Robin Hands-On EDGE Skill Stations",
+                "duration_minutes": 60,
+                "focus_requirements": hands_on_ids,
+                "edge_method_focus": "Demonstrate & Guide",
+                "slide_range": "Slides 21–48 (Step-by-Step Procedures & Skill Stations)",
+                "activities": [
+                    f"00–12 min: Counselor live demonstration of {clean_badge} equipment and procedural steps.",
+                    f"12–50 min: Rotating 15-minute Buddy-Pair Skill Stations covering Requirements ({hands_on_ids}).",
+                    "50–60 min: Station gear inspection and peer buddy check.",
+                ],
+            },
+            {
+                "session_number": 3,
+                "title": f"Hour 3 (02:00–03:00): Individual Mastery Verification, Local {loc['state_code']} Context & Blue Cards",
+                "duration_minutes": 60,
+                "focus_requirements": f"All Requirements ({in_class_ids}, {hands_on_ids}, {prereq_ids})",
+                "edge_method_focus": "Guide & Enable",
+                "slide_range": "Slides 49–End (Worked Examples, Checkpoints & Sources)",
+                "activities": [
+                    f"00–20 min: Local field application discussion ({loc['field_site_examples']} • {loc['nws_office']} / {loc['state_agency']}).",
+                    "20–45 min: Individual Scout 1-on-1 (within view of adults per YPT) skill verification.",
+                    "45–60 min: Blue Card (#34124) / Scoutbook Plus completion or Partial documentation.",
+                ],
+            },
+        ]
+    elif "campout" in fmt_lower or "weekend" in fmt_lower:
+        sessions = [
+            {
+                "session_number": 1,
+                "title": f"Friday Evening Cracker-Barrel (30 min): Camp Safety, Gear Check & {clean_badge} Briefing",
+                "duration_minutes": 30,
+                "focus_requirements": in_class_ids,
+                "edge_method_focus": "Explain",
+                "slide_range": "Cover, Overview & Safety / Core Concept Slides",
+                "activities": [
+                    f"00–10 min: Campsite hazard check ({loc['terrain_and_hazards']}) and forecast review via {loc['nws_office']}.",
+                    f"10–25 min: Lantern/tablet discussion of Core Requirements ({in_class_ids}) and Quartermaster gear readiness.",
+                    "25–30 min: Buddy assignments for Saturday morning field stations.",
+                ],
+            },
+            {
+                "session_number": 2,
+                "title": f"Saturday Morning Field Practicum (90 min): Hands-On {clean_badge} Stations & Field Logs",
+                "duration_minutes": 90,
+                "focus_requirements": f"{hands_on_ids}, {prereq_ids}",
+                "edge_method_focus": "Demonstrate, Guide & Enable",
+                "slide_range": "All Hands-On Skill Station & Field Project Slides",
+                "activities": [
+                    f"00–20 min: Counselor field demonstration at {loc['field_site_examples']}.",
+                    f"20–70 min: Hands-on patrol rotations for Requirements ({hands_on_ids}) and field project execution ({prereq_ids}).",
+                    "70–90 min: Field workbook logging and equipment clean-up.",
+                ],
+            },
+            {
+                "session_number": 3,
+                "title": "Sunday Morning Roses, Thorns & Buds (45 min): Debrief & Blue Card Sign-Off",
+                "duration_minutes": 45,
+                "focus_requirements": prereq_ids,
+                "edge_method_focus": "Enable",
+                "slide_range": "Checkpoint Quiz & Sources Slides",
+                "activities": [
+                    "00–15 min: Patrol reflection on field scenarios and Socratic quiz review.",
+                    f"15–35 min: Final verification of Scout Workbook logs ({prereq_ids}) and skill mastery.",
+                    "35–45 min: Counselor Blue Card (#34124) & Scoutbook Plus sign-off.",
+                ],
+            },
+        ]
+    else:
+        sessions = [
+            {
+                "session_number": 1,
+                "title": f"Session 1: Safety First, Core Concepts & Official BSA {clean_badge} Pamphlet Overview",
+                "duration_minutes": 45,
+                "focus_requirements": in_class_ids,
+                "edge_method_focus": "Explain & Demonstrate",
+                "slide_range": "Cover, Overview & Core Discussion Slides",
+                "activities": [
+                    f"00–10 min: Welcome, Two-Deep Leadership check, Blue Card intake, and {clean_badge} Hazards & Safety review ({loc['terrain_and_hazards']}).",
+                    f"10–30 min: Interactive slide walkthrough of Core Discussion Requirements ({in_class_ids}) grounded in the Official BSA {clean_badge} Pamphlet.",
+                    "30–45 min: Socratic Patrol Check-on-Learning & assignment of Prerequisite/Home projects.",
+                ],
+            },
+            {
+                "session_number": 2,
+                "title": f"Session 2: Hands-On EDGE Skill Stations & Practical {clean_badge} Demonstrations",
+                "duration_minutes": 45,
+                "focus_requirements": hands_on_ids,
+                "edge_method_focus": "Demonstrate & Guide",
+                "slide_range": "Hands-On Skill Station & Worked Example Slides",
+                "activities": [
+                    f"00–10 min: Counselor physical demonstration of key {clean_badge} procedures and equipment inspection.",
+                    f"10–35 min: Patrol Buddy-Pair Hands-On Skill Stations covering Requirements ({hands_on_ids}).",
+                    "35–45 min: Individual Scout skill verification and immediate coaching feedback.",
+                ],
+            },
+            {
+                "session_number": 3,
+                "title": f"Session 3: Field/Prerequisite Review, Local {loc['state_code']} Applications & Blue Card Sign-Off",
+                "duration_minutes": 45,
+                "focus_requirements": prereq_ids,
+                "edge_method_focus": "Guide & Enable",
+                "slide_range": "Prerequisite, Quiz & Sources Slides",
+                "activities": [
+                    f"00–15 min: Review completed Campout, Field, and Home Prerequisite logs ({prereq_ids}).",
+                    f"15–30 min: Connect {clean_badge} to local field sites ({loc['field_site_examples']}) and {loc['nws_office']} / {loc['state_agency']}.",
+                    "30–45 min: Individual Blue Card / Scoutbook verification and counselor sign-off.",
+                ],
+            },
+        ]
 
     md_lines = [
         f"# {clean_badge} Merit Badge — Counselor Session Pacing Plan",
@@ -109,7 +253,8 @@ def generate_counselor_session_agenda(
         "",
     ]
     for s in sessions:
-        md_lines.append(f"## {s['title']} ({s['duration_minutes']} min • EDGE: {s['edge_method_focus']})")
+        slide_rng = f" • {s['slide_range']}" if s.get("slide_range") else ""
+        md_lines.append(f"## {s['title']} ({s['duration_minutes']} min • EDGE: {s['edge_method_focus']}{slide_rng})")
         for act in s["activities"]:
             md_lines.append(f"- {act}")
         md_lines.append("")

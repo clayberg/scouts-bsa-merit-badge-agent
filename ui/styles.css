@@ -246,6 +246,15 @@ html, body {
   margin: 0 auto;
   padding: 20px 26px 48px;
   align-items: start;
+  transition: grid-template-columns 220ms var(--md-sys-motion-spring);
+}
+
+.m3-workbench-grid.sidebar-collapsed {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.m3-workbench-grid.sidebar-collapsed .m3-sidebar {
+  display: none;
 }
 
 @media (max-width: 1120px) {
@@ -454,7 +463,7 @@ html, body {
 
 .m3-hero-kpis {
   display: grid;
-  grid-template-columns: repeat(4, minmax(115px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(110px, auto));
   gap: 10px;
 }
 
@@ -536,6 +545,15 @@ html, body {
   grid-template-columns: 300px minmax(0, 1fr);
   gap: 18px;
   align-items: start;
+  transition: grid-template-columns 220ms var(--md-sys-motion-spring);
+}
+
+.m3-storyboard-layout.filmstrip-collapsed {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.m3-storyboard-layout.filmstrip-collapsed .m3-storyboard-left-col {
+  display: none;
 }
 
 @media (max-width: 960px) {
@@ -635,7 +653,8 @@ html, body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 520px;
+  aspect-ratio: 16 / 9;
+  min-height: 410px;
   height: auto;
   box-sizing: border-box;
 }
@@ -919,9 +938,9 @@ html, body {
    ============================================================================ */
 
 .m3-footer-banner {
-  max-width: 1480px;
+  max-width: 1720px;
   margin: 8px auto 28px;
-  padding: 0 24px;
+  padding: 0 26px;
 }
 
 .m3-footer-banner-inner {
@@ -1403,4 +1422,448 @@ html, body {
   transform: scale(1.08);
 }
 
+/* ============================================================================
+   PHASE 1–3: RESPONSIVE DRAWERS, QUICK-JUMP BAR, QUIZ REVEAL, GEAR & BLUE CARD
+   ============================================================================ */
 
+/* Icon Button (Sidebar Toggle) */
+.m3-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  border: 1.5px solid var(--md-sys-color-outline);
+  background: #FFFFFF;
+  color: var(--md-sys-color-primary);
+  cursor: pointer;
+  transition: all 150ms ease;
+  flex-shrink: 0;
+}
+
+.m3-icon-btn:hover {
+  background: var(--md-sys-color-primary-container);
+  border-color: var(--md-sys-color-primary);
+}
+
+/* Collapsible Counselor Profile Accordion */
+.m3-profile-accordion {
+  margin-bottom: 13px;
+  border: 1.5px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-sys-shape-corner-md);
+  background: var(--md-sys-color-surface-container-low);
+  overflow: hidden;
+}
+
+.m3-profile-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  user-select: none;
+  transition: background 150ms ease;
+}
+
+.m3-profile-summary::-webkit-details-marker {
+  display: none;
+}
+
+.m3-profile-summary:hover {
+  background: var(--md-sys-color-surface-container);
+}
+
+.m3-profile-chevron {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--md-sys-color-action-blue);
+  background: #FFFFFF;
+  border: 1px solid var(--md-sys-color-outline);
+  padding: 2px 8px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.m3-profile-accordion[open] .m3-profile-summary {
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  background: #EFF6FF;
+}
+
+.m3-profile-accordion-body {
+  padding: 12px 13px 4px;
+  background: #FFFFFF;
+}
+
+/* Unapplied Settings Dirty Indicator */
+.m3-dirty-settings-banner {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #FEF3C7;
+  border: 1.5px solid #F59E0B;
+  color: #92400E;
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+@keyframes dirtyBtnPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(245, 158, 11, 0);
+  }
+}
+
+.m3-btn-dirty-pulse {
+  background: linear-gradient(135deg, #B45309 0%, #D97706 100%) !important;
+  color: #FFFFFF !important;
+  animation: dirtyBtnPulse 2s infinite;
+}
+
+/* Filmstrip Search Filter */
+.m3-filmstrip-toolbar {
+  margin-bottom: 10px;
+}
+
+.m3-filmstrip-search {
+  padding: 7px 11px !important;
+  font-size: 0.78rem !important;
+  border-radius: 999px !important;
+}
+
+/* Sticky Requirement Quick-Jump Pill Bar */
+.m3-req-jump-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 8px 12px;
+  background: #FFFFFF;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-sys-shape-corner-md);
+  scrollbar-width: thin;
+}
+
+.m3-req-jump-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-sys-color-on-surface-variant);
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.m3-req-jump-pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #CBD5E1;
+  background: #F8FAFC;
+  color: #1E293B;
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.m3-req-jump-pill:hover {
+  border-color: var(--md-sys-color-primary);
+  color: var(--md-sys-color-primary);
+  background: #EFF6FF;
+}
+
+.m3-req-jump-pill.active {
+  background: var(--md-sys-color-primary);
+  color: #FFFFFF;
+  border-color: var(--md-sys-color-primary);
+}
+
+/* Under-Stage 3-Tab Drawer (Teaching Notes | Customize Slide | Quick Edit) */
+.m3-understage-drawer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.m3-understage-tabs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  background: var(--md-sys-color-surface-container-low);
+  padding: 5px;
+  border-radius: var(--md-sys-shape-corner-pill);
+  border: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.m3-understage-tab-btn {
+  padding: 7px 15px;
+  border-radius: var(--md-sys-shape-corner-pill);
+  border: none;
+  background: transparent;
+  color: var(--md-sys-color-on-surface-variant);
+  font-family: var(--font-sans);
+  font-size: 0.80rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.m3-understage-tab-btn:hover {
+  color: var(--md-sys-color-primary);
+  background: rgba(0, 63, 135, 0.06);
+}
+
+.m3-understage-tab-btn.active {
+  background: var(--md-sys-color-primary);
+  color: #FFFFFF;
+  box-shadow: var(--shadow-elevation-1);
+}
+
+.m3-understage-panel {
+  min-width: 0;
+}
+
+/* Responsive Co-Design Controls Grid (No Label Truncation) */
+.m3-codesign-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+
+/* Fullscreen Presentation HUD */
+.m3-fullscreen-hud {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 20px;
+  background: rgba(15, 23, 42, 0.90);
+  color: #FFFFFF;
+  border-radius: 999px;
+  margin-top: 8px;
+}
+
+.m3-slide-canvas-wrapper:fullscreen {
+  background: #0F172A;
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.m3-slide-canvas-wrapper:fullscreen .m3-slide-toolbar,
+.m3-slide-canvas-wrapper:fullscreen .m3-req-jump-bar,
+.m3-slide-canvas-wrapper:fullscreen .m3-understage-drawer {
+  display: none !important;
+}
+
+.m3-slide-canvas-wrapper:fullscreen .m3-widescreen-slide {
+  width: min(94vw, 1520px);
+  max-height: 82vh;
+  aspect-ratio: 16 / 9;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+}
+
+.m3-slide-canvas-wrapper:fullscreen .m3-fullscreen-hud {
+  display: flex !important;
+  width: min(94vw, 960px);
+}
+
+/* F1: Interactive Socratic Checkpoint Quiz Reveal */
+.m3-quiz-option-card {
+  cursor: pointer;
+  transition: transform 140ms ease, border-color 140ms ease, background-color 140ms ease;
+}
+
+.m3-quiz-option-card:hover {
+  transform: translateX(3px);
+  border-color: var(--md-sys-color-action-blue) !important;
+}
+
+.m3-quiz-option-card.quiz-selected-correct {
+  background: #DCFCE7 !important;
+  border: 2px solid #16A34A !important;
+}
+
+.m3-quiz-option-card.quiz-selected-wrong {
+  background: #FEF2F2 !important;
+  border: 2px solid #DC2626 !important;
+}
+
+.m3-quiz-reveal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 11px 16px;
+  border-radius: 12px;
+  border: 2px dashed #16A34A;
+  background: #F0FDF4;
+  color: #15803D;
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.m3-quiz-reveal-btn:hover {
+  background: #DCFCE7;
+  border-style: solid;
+}
+
+/* F2: Interactive Requirement Cards in Tab 2 */
+.m3-req-jump-action-btn {
+  margin-top: 6px;
+  padding: 6px 11px;
+  border-radius: 8px;
+  border: 1px solid #CBD5E1;
+  background: #FFFFFF;
+  color: var(--md-sys-color-primary);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 140ms ease;
+}
+
+.m3-req-jump-action-btn:hover {
+  background: var(--md-sys-color-primary);
+  color: #FFFFFF;
+  border-color: var(--md-sys-color-primary);
+}
+
+/* F5: Master Quartermaster Gear & Skill Station Checklist */
+.m3-gear-checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 14px;
+}
+
+.m3-gear-group-card {
+  background: #F8FAFC;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.m3-gear-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  border-bottom: 1px solid #E2E8F0;
+  padding-bottom: 6px;
+}
+
+.m3-gear-item-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: #1E293B;
+  cursor: pointer;
+  line-height: 1.35;
+}
+
+.m3-gear-item-row input[type="checkbox"] {
+  margin-top: 2px;
+  accent-color: #003F87;
+}
+
+.m3-gear-item-row.checked span {
+  text-decoration: line-through;
+  color: #64748B;
+}
+
+/* F6: Patrol Blue Card (#34124) & Scoutbook Sign-Off Tracker */
+.m3-bluecard-matrix-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 12px;
+  background: #FFFFFF;
+}
+
+.m3-bluecard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.80rem;
+}
+
+.m3-bluecard-table th,
+.m3-bluecard-table td {
+  border: 1px solid #E2E8F0;
+  padding: 7px 9px;
+  text-align: center;
+}
+
+.m3-bluecard-table th {
+  background: #EFF6FF;
+  color: #003F87;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.m3-bluecard-table td:first-child,
+.m3-bluecard-table th:first-child {
+  text-align: left;
+  position: sticky;
+  left: 0;
+  background: #F8FAFC;
+  font-weight: 700;
+  min-width: 165px;
+  z-index: 2;
+}
+
+/* F4: Clean @media print Stylesheet for Scout Workbook, Agenda, Parent Letter & Blue Card */
+@media print {
+  .m3-top-bar,
+  .m3-sidebar,
+  .m3-tabs-bar,
+  .m3-storyboard-left-col,
+  .m3-slide-toolbar,
+  .m3-req-jump-bar,
+  .m3-understage-tabs,
+  .m3-footer-banner,
+  #studiokit-feedback-card,
+  button,
+  select {
+    display: none !important;
+  }
+
+  .m3-workbench-grid {
+    display: block !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .m3-card,
+  .m3-markdown-body {
+    box-shadow: none !important;
+    border: 1px solid #94A3B8 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    page-break-inside: avoid;
+  }
+}

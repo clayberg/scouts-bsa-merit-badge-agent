@@ -777,6 +777,14 @@ async def api_regenerate_slide(
             slides_copy = [dict(s) for s in req.storyboard_slides]
             if 0 <= req.slide_index < len(slides_copy):
                 target_s = slides_copy[req.slide_index]
+                if req.slide_data.get("title"):
+                    target_s["title"] = str(req.slide_data["title"])
+                if isinstance(req.slide_data.get("bullet_points"), list) and req.slide_data["bullet_points"]:
+                    target_s["bullet_points"] = [str(b) for b in req.slide_data["bullet_points"]]
+                if "presenter_notes" in req.slide_data and req.slide_data["presenter_notes"] is not None:
+                    target_s["presenter_notes"] = str(req.slide_data["presenter_notes"])
+                if "safety_warning" in req.slide_data:
+                    target_s["safety_warning"] = req.slide_data["safety_warning"]
                 target_s["archetype"] = effective_archetype
                 target_s["visual_theme"] = vis_theme
                 target_s["accent_palette_key"] = palette_key
@@ -784,7 +792,7 @@ async def api_regenerate_slide(
                 target_s["visual_caption"] = vis_caption
                 target_s["diagram_path"] = png_path
                 target_s["ai_hero_image_path"] = png_path if vis_mode == "ai_hero" else None
-                if png_path is None and target_s.get("full_bullet_points"):
+                if png_path is None and target_s.get("full_bullet_points") and not req.slide_data.get("bullet_points"):
                     target_s["bullet_points"] = list(target_s["full_bullet_points"])
             c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
             out_file = req.output_path or str(
@@ -804,6 +812,15 @@ async def api_regenerate_slide(
         except Exception as exc:
             logger.warning("Failed to rebuild PPTX during slide regenerate: %s", exc)
 
+    updated_slide_out = dict(req.slide_data or {})
+    updated_slide_out["archetype"] = effective_archetype
+    updated_slide_out["visual_theme"] = vis_theme
+    updated_slide_out["accent_palette_key"] = palette_key
+    updated_slide_out["visual_source_label"] = vis_label
+    updated_slide_out["visual_caption"] = vis_caption
+    updated_slide_out["diagram_path"] = png_path
+    updated_slide_out["diagram_url"] = png_url
+
     return {
         "status": "SUCCESS",
         "slide_index": req.slide_index,
@@ -818,7 +835,56 @@ async def api_regenerate_slide(
         "diagram_url": png_url,
         "svg_url": svg_url,
         "pptx_download_url": rebuilt_pptx_url,
+        "updated_slide": updated_slide_out,
     }
+
+
+class StudioKitAgendaRequest(BaseModel):
+    badge_name: str = "First Aid"
+    schedule_format: str = "3 Troop Meetings (45 min each)"
+    schedule_type: Optional[str] = None
+    research_result: Dict[str, Any] = Field(default_factory=dict)
+    counselor_info: Optional[Dict[str, Any]] = None
+    counselor_name: Optional[str] = None
+    troop_affiliation: Optional[str] = None
+    location_or_zip: Optional[str] = None
+
+
+@app.post("/api/studiokit/agenda")
+@app.post("/api/v1/studiokit/agenda")
+async def api_generate_studiokit_agenda(
+    req: StudioKitAgendaRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Generates a counselor session pacing agenda for the selected schedule format."""
+    from src.tools.counselor_studiokit import generate_counselor_session_agenda
+
+    sched_fmt = req.schedule_type or req.schedule_format
+    c_info = dict(req.counselor_info or {})
+    if req.counselor_name and "counselor_name" not in c_info:
+        c_info["counselor_name"] = req.counselor_name
+    if req.troop_affiliation and "troop_affiliation" not in c_info:
+        c_info["troop_affiliation"] = req.troop_affiliation
+    if req.location_or_zip and "location_or_zip" not in c_info:
+        c_info["location_or_zip"] = req.location_or_zip
+
+    res = generate_counselor_session_agenda(
+        badge_name=req.badge_name,
+        research_result=req.research_result,
+        schedule_format=sched_fmt,
+        counselor_info=c_info or None,
+    )
+    md_text = res.get("agenda_markdown") or res.get("markdown_content") or ""
+    res["markdown_content"] = md_text
+    res["schedule_type"] = sched_fmt
+    res["agenda"] = {
+        "schedule_format": res.get("schedule_format", sched_fmt),
+        "schedule_type": sched_fmt,
+        "sessions": res.get("sessions", []),
+        "agenda_markdown": md_text,
+        "markdown_content": md_text,
+    }
+    return res
 
 
 @app.get("/api/counselor-profile")
