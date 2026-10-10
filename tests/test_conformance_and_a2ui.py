@@ -1263,3 +1263,21 @@ def test_phase1_phase2_phase3_counselor_ux_and_features():
     assert regen["status"] == "SUCCESS"
     assert regen["updated_slide"]["title"] == "Custom Counselor Edited Title — Req 1"
     assert regen["updated_slide"]["bullet_points"] == ["Custom Bullet Alpha", "Custom Bullet Beta"]
+
+    # 9. Verify the 7 UI/UX polish & interaction fixes (horizontal KPI banner, Show/Hide Setup toggle, Fullscreen stage wrapper, Co-Design bar layout, Email/Gmail buttons, Gear Copy/Print buttons, and 2D Camp Pioneering emblem centering)
+    assert ".m3-hero-kpis {\n  display: flex;\n  flex-direction: row;" in css
+    assert 'id="slide-stage-wrapper"' in html
+    assert "is-presenting-fullscreen" in css
+    assert "setPresentationFullscreenMode" in app_js
+    assert "Show Setup" in app_js and "Hide Setup" in app_js
+    assert "Surgical Single-Slide Regeneration" not in html
+    assert 'class="m3-codesign-image-controls"' in html
+    assert "✉️ Draft in Email App" in html
+    assert "📨 Compose in Gmail" in html
+    assert 'getElementById("btn-mailto-letter")' in app_js
+    assert 'getElementById("btn-gmail-letter")' in app_js
+    assert 'getElementById("btn-copy-gear-list")' in app_js
+    assert 'getElementById("btn-print-gear-list")' in app_js
+    assert 'getElementById("studiokit-gear-checklist-grid")' in app_js
+    assert 'left: "87.12%", top: "22.58%", width: "12.2%"' in app_js
+

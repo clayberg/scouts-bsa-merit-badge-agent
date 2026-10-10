@@ -30,16 +30,6 @@
   <!-- TOP APP BAR -->
   <header class="m3-top-bar" id="top-app-bar">
     <div class="m3-brand-cluster">
-      <button
-        type="button"
-        class="m3-btn m3-btn-tonal"
-        id="btn-toggle-sidebar"
-        title="Collapse or expand the left Setup &amp; Badge Selection sidebar to maximize 16:9 slide stage width"
-        style="padding:7px 12px; font-size:0.78rem;"
-      >
-        <span class="material-symbols-outlined" style="font-size:18px;" id="icon-toggle-sidebar">left_panel_close</span>
-        <span id="label-toggle-sidebar">Hide Setup</span>
-      </button>
       <div class="m3-brand-emblem" aria-hidden="true">
         <span class="material-symbols-outlined">military_tech</span>
       </div>
@@ -292,9 +282,19 @@
         </div>
       </div>
 
-      <!-- CLEAN NAVIGATION TABS BAR -->
+      <!-- CLEAN NAVIGATION TABS BAR (WITH HIDE/SHOW SETUP BUTTON AT LEFT EDGE) -->
       <nav class="m3-tabs-bar" aria-label="Workbench Views">
         <div class="m3-tabs-group">
+          <button
+            type="button"
+            class="m3-btn m3-btn-tonal"
+            id="btn-toggle-sidebar"
+            title="Collapse or expand the left Setup &amp; Badge Selection sidebar to maximize 16:9 slide stage width"
+            style="padding:8px 14px; font-size:0.80rem; gap:6px; margin-right:6px;"
+          >
+            <span class="material-symbols-outlined" style="font-size:18px;" id="icon-toggle-sidebar">left_panel_close</span>
+            <span id="label-toggle-sidebar">Hide Setup</span>
+          </button>
           <button type="button" class="m3-tab-btn active" id="tab-storyboard" data-panel="panel-storyboard">
             <span class="material-symbols-outlined" style="font-size:18px;">slideshow</span>
             Slide Deck Preview
@@ -355,7 +355,7 @@
         </div>
 
         <!-- Right Widescreen 16:9 Live Preview -->
-        <div class="m3-slide-canvas-wrapper">
+        <div class="m3-slide-canvas-wrapper" id="slide-stage-wrapper">
           <!-- CUTE ZERO-STATE & SLIDE-GENERATION SCOUT CONSTRUCTION ANIMATION STAGE -->
           <div class="m3-construction-stage" id="slide-construction-stage">
             <div class="m3-construction-topbar">
@@ -505,14 +505,14 @@
               <span id="stage-footer-left">Scouts BSA Merit Badge Series</span>
               <span id="stage-footer-right">Slide 1</span>
             </div>
+          </div>
 
-            <!-- Floating Fullscreen Projector HUD (visible only in Fullscreen mode) -->
-            <div class="m3-fullscreen-hud" id="fullscreen-hud-bar">
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-prev" style="padding:5px 12px; font-size:0.78rem;">◀ Prev</button>
-              <span id="fullscreen-hud-status" style="font-family:var(--font-mono); font-size:0.78rem; font-weight:700; color:#FFFFFF;">Slide 1</span>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-next" style="padding:5px 12px; font-size:0.78rem;">Next ▶</button>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-fs-exit" style="padding:5px 12px; font-size:0.78rem; background:rgba(255,255,255,0.16); color:#FFFFFF; border-color:rgba(255,255,255,0.35);">✕ Exit Fullscreen</button>
-            </div>
+          <!-- Floating Fullscreen Projector HUD (visible only in Fullscreen mode) -->
+          <div class="m3-fullscreen-hud hidden" id="fullscreen-hud-bar">
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-prev" style="padding:5px 12px; font-size:0.78rem;">◀ Prev</button>
+            <span id="fullscreen-hud-status" style="font-family:var(--font-mono); font-size:0.78rem; font-weight:700; color:#FFFFFF;">Slide 1</span>
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-next" style="padding:5px 12px; font-size:0.78rem;">Next ▶</button>
+            <button type="button" class="m3-btn m3-btn-outlined" id="btn-fs-exit" style="padding:5px 12px; font-size:0.78rem; background:rgba(255,255,255,0.16); color:#FFFFFF; border-color:rgba(255,255,255,0.35);">✕ Exit Fullscreen</button>
           </div>
 
           <!-- UNDER-STAGE TABBED DRAWER: 1. TEACHING NOTES (DEFAULT) | 2. CO-DESIGN & IMAGE STUDIO | 3. QUICK EDIT SLIDE TEXT -->
@@ -546,18 +546,20 @@
 
             <!-- DRAWER TAB 2: PER-SLIDE INTERACTIVE CO-DESIGN BAR & IMAGE STUDIO -->
             <div class="m3-card hidden" id="slide-codesign-bar" style="padding:14px 18px; background:#F8FAFC; border:1.5px solid #CBD5E1;">
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; flex-wrap:wrap; gap:8px;">
-                <span style="font-family:'Roboto Slab',serif; font-size:0.90rem; font-weight:700; color:#003F87;">
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; flex-wrap:wrap; gap:10px;">
+                <span style="font-family:'Roboto Slab',serif; font-size:0.92rem; font-weight:700; color:#003F87;">
                   🎨 Per-Slide Interactive Co-Design Bar &amp; Image Studio — Customize Slide &amp; Rebuild PowerPoint
                 </span>
-                <span class="m3-chip m3-chip-gold">Surgical Single-Slide Regeneration</span>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-open-image-studio" style="padding:7px 14px; font-size:0.80rem; font-weight:700;">
+                  🖼️ Manage &amp; Add Slide Images (Catalog / Web / AI)
+                </button>
               </div>
               <div style="font-size:0.77rem; color:#475569; margin-bottom:10px; line-height:1.45; background:#EFF6FF; border-left:3px solid #003F87; padding:6px 10px; border-radius:6px;">
                 <strong>How to customize this slide:</strong>
                 <strong>(1) Slide Layout</strong> rearranges the teaching cards;
                 <strong>(2) Card Style</strong> changes card badges &amp; borders;
                 <strong>(3) Brand Palette</strong> updates slide colors;
-                <strong>(4) Right-Side Graphic</strong> keeps the current graphic, restores the original slide picture/illustration, applies the Requirement's Nano Banana Hero Illustration (with EDGE Skill Concept Map fallback), or sets <strong>None</strong> (removing the graphic and expanding text to full width). Use the <strong>Image Switcher &amp; Image Studio</strong> below to switch images, search web archives, or generate a custom Nano Banana AI graphic.
+                <strong>(4) Right-Side Graphic</strong> keeps the current graphic, restores the original slide picture/illustration, applies the Requirement's Nano Banana Hero Illustration (with EDGE Skill Concept Map fallback), or sets <strong>None</strong> (removing the graphic and expanding text to full width). Use the <strong>Image Switcher &amp; Image Studio</strong> to switch images, search web archives, or generate a custom Nano Banana AI graphic.
               </div>
               <div class="m3-codesign-controls-grid">
                 <div>
@@ -609,23 +611,22 @@
                 </button>
               </div>
 
-              <!-- MULTI-IMAGE SWITCHER (◀ / DROPDOWN / ▶) & IMAGE CATALOG / AI STUDIO LAUNCHER -->
+              <!-- MULTI-IMAGE SWITCHER (LABEL ABOVE, DROPDOWN + SIDE-BY-SIDE ◀ ▶ ARROWS) -->
               <div id="codesign-image-studio-row" class="m3-codesign-image-row">
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-prev-slide-image" title="Previous Cached Merit Badge Image" style="padding:7px 12px; font-size:0.82rem; font-weight:800;">
-                  ◀
-                </button>
-                <div style="min-width:0; flex:1;">
-                  <label class="m3-field-label" for="codesign-quick-image-select" id="codesign-quick-image-label" style="font-size:0.73rem;">
-                    🖼️ Quick-Switch Slide Image (Cached Merit Badge Visuals — Applies Immediately)
-                  </label>
-                  <select class="m3-select" id="codesign-quick-image-select" style="padding:6px 8px; font-size:0.78rem;"></select>
+                <label class="m3-field-label" for="codesign-quick-image-select" id="codesign-quick-image-label" style="font-size:0.74rem; margin-bottom:4px;">
+                  🖼️ Quick-Switch Slide Image (Cached Merit Badge Visuals — Applies Immediately)
+                </label>
+                <div class="m3-codesign-image-controls">
+                  <select class="m3-select" id="codesign-quick-image-select" style="flex:1; min-width:0; padding:6px 10px; font-size:0.80rem;"></select>
+                  <div style="display:inline-flex; align-items:center; gap:6px; flex-shrink:0;">
+                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-prev-slide-image" title="Previous Cached Merit Badge Image" style="padding:7px 14px; font-size:0.82rem; font-weight:800;">
+                      ◀
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-next-slide-image" title="Next Cached Merit Badge Image" style="padding:7px 14px; font-size:0.82rem; font-weight:800;">
+                      ▶
+                    </button>
+                  </div>
                 </div>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-next-slide-image" title="Next Cached Merit Badge Image" style="padding:7px 12px; font-size:0.82rem; font-weight:800;">
-                  ▶
-                </button>
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-open-image-studio" style="padding:8px 14px; font-size:0.79rem;">
-                  🖼️ Manage &amp; Add Slide Images (Catalog / Web / AI)
-                </button>
               </div>
             </div>
 
@@ -832,19 +833,24 @@
           <!-- PREREQUISITE & PARENT WELCOME LETTER WITH 1-CLICK COPY, MAILTO, GMAIL & PRINT (F4) -->
           <div class="m3-card" style="min-width:0; overflow:hidden;">
             <div class="m3-card-header" style="flex-wrap:wrap; gap:8px;">
-              <h3 class="m3-card-title">
-                <span class="material-symbols-outlined">mail</span>
-                Prerequisite &amp; Parent Welcome Letter (YPT-Compliant)
-              </h3>
+              <div>
+                <h3 class="m3-card-title">
+                  <span class="material-symbols-outlined">mail</span>
+                  Prerequisite &amp; Parent Welcome Letter (YPT-Compliant)
+                </h3>
+                <div style="font-size:0.75rem; color:#475569; margin-top:2px;">
+                  Click <strong>Draft in Email App</strong> or <strong>Compose in Gmail</strong> to launch a pre-filled email draft ready to send to Troop families (and auto-copy the letter text).
+                </div>
+              </div>
               <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
                 <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-letter" style="padding:4px 10px; font-size:0.75rem;">
                   📋 Copy
                 </button>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-mailto-letter" title="Open pre-filled Parent Prerequisite Letter in your default Email client" style="padding:4px 10px; font-size:0.75rem;">
-                  ✉️ Email App
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-mailto-letter" title="Opens your default Email app with Subject &amp; Parent Prerequisite Letter pre-filled (also copies to clipboard)" style="padding:4px 10px; font-size:0.75rem;">
+                  ✉️ Draft in Email App
                 </button>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-gmail-letter" title="Open pre-filled Parent Prerequisite Letter in Gmail Web Compose" style="padding:4px 10px; font-size:0.75rem;">
-                  📨 Open Gmail
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-gmail-letter" title="Opens a new Gmail Compose tab with Subject &amp; Parent Prerequisite Letter pre-filled" style="padding:4px 10px; font-size:0.75rem;">
+                  📨 Compose in Gmail
                 </button>
                 <button type="button" class="m3-btn m3-btn-outlined" id="btn-print-letter" style="padding:4px 10px; font-size:0.75rem;">
                   🖨️ Print

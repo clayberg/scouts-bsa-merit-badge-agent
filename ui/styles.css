@@ -423,11 +423,11 @@ html, body {
   background: var(--md-sys-color-primary);
   color: #FFFFFF;
   border-radius: var(--md-sys-shape-corner-xl);
-  padding: 24px 28px;
+  padding: 14px 22px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 18px;
   flex-wrap: wrap;
   box-shadow: var(--shadow-elevation-2);
 }
@@ -435,14 +435,14 @@ html, body {
 .m3-hero-left {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
 .m3-hero-kicker {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.76rem;
+  gap: 6px;
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -451,42 +451,51 @@ html, body {
 
 .m3-hero-title {
   font-family: var(--font-serif);
-  font-size: 1.65rem;
+  font-size: 1.48rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.18;
 }
 
 .m3-hero-meta {
-  font-size: 0.86rem;
+  font-size: 0.83rem;
   color: #DBEAFE;
 }
 
 .m3-hero-kpis {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(110px, auto));
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
   gap: 10px;
+  flex-wrap: nowrap;
 }
 
 .m3-kpi-pill {
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: var(--md-sys-shape-corner-md);
-  padding: 10px 14px;
+  padding: 8px 16px;
   text-align: center;
+  min-width: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .m3-kpi-value {
   font-family: var(--font-serif);
-  font-size: 1.28rem;
+  font-size: 1.22rem;
   font-weight: 700;
   color: #FFFFFF;
+  line-height: 1.2;
 }
 
 .m3-kpi-label {
-  font-size: 0.70rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: #DBEAFE;
+  margin-top: 2px;
+  white-space: nowrap;
 }
 
 /* Segmented M3 Expressive Navigation Tabs */
@@ -1634,50 +1643,88 @@ html, body {
 /* Responsive Co-Design Controls Grid (No Label Truncation) */
 .m3-codesign-controls-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+  gap: 10px;
   align-items: end;
 }
 
-/* Fullscreen Presentation HUD */
+.m3-codesign-image-row {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #CBD5E1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.m3-codesign-image-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+/* Fullscreen Presentation HUD & Theater Overlay */
 .m3-fullscreen-hud {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 14px;
   padding: 10px 20px;
-  background: rgba(15, 23, 42, 0.90);
+  background: rgba(15, 23, 42, 0.92);
   color: #FFFFFF;
   border-radius: 999px;
-  margin-top: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  margin-top: 12px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
 }
 
+.m3-fullscreen-hud.hidden {
+  display: none !important;
+}
+
+.m3-slide-canvas-wrapper.is-presenting-fullscreen,
 .m3-slide-canvas-wrapper:fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
   background: #0F172A;
-  padding: 24px 40px;
+  padding: 20px 36px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow-y: auto;
+  box-sizing: border-box;
 }
 
+.m3-slide-canvas-wrapper.is-presenting-fullscreen .m3-slide-toolbar,
+.m3-slide-canvas-wrapper.is-presenting-fullscreen .m3-req-jump-bar,
+.m3-slide-canvas-wrapper.is-presenting-fullscreen .m3-understage-drawer,
+.m3-slide-canvas-wrapper.is-presenting-fullscreen #slide-construction-stage,
 .m3-slide-canvas-wrapper:fullscreen .m3-slide-toolbar,
 .m3-slide-canvas-wrapper:fullscreen .m3-req-jump-bar,
-.m3-slide-canvas-wrapper:fullscreen .m3-understage-drawer {
+.m3-slide-canvas-wrapper:fullscreen .m3-understage-drawer,
+.m3-slide-canvas-wrapper:fullscreen #slide-construction-stage {
   display: none !important;
 }
 
+.m3-slide-canvas-wrapper.is-presenting-fullscreen .m3-widescreen-slide,
 .m3-slide-canvas-wrapper:fullscreen .m3-widescreen-slide {
+  display: flex !important;
   width: min(94vw, 1520px);
   max-height: 82vh;
   aspect-ratio: 16 / 9;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
 }
 
+.m3-slide-canvas-wrapper.is-presenting-fullscreen .m3-fullscreen-hud,
 .m3-slide-canvas-wrapper:fullscreen .m3-fullscreen-hud {
   display: flex !important;
-  width: min(94vw, 960px);
+  width: min(94vw, 880px);
 }
 
 /* F1: Interactive Socratic Checkpoint Quiz Reveal */

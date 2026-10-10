@@ -122,25 +122,25 @@ const CONSTRUCTION_ANIM_CONCEPTS = {
         src: "/assets/construction_anim/camp_pioneer_1_lashings.jpg",
         title: "Step 1: Tying Square & Diagonal Hemp Lashings on the 16:9 Timber Frame",
         desc: "At a pine forest campsite, the patrol ties authentic square and diagonal hemp rope lashings on pine spars to erect the 16:9 slide frame.",
-        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+        emblemSlot: { left: "87.12%", top: "22.58%", width: "12.2%" },
       },
       {
         src: "/assets/construction_anim/camp_pioneer_2_pulley_hoist.jpg",
         title: "Step 2: Block-and-Tackle Pulley Hoisting the Canvas Screen & Cards",
         desc: "Scouts haul hemp ropes through an A-frame pulley rig to hoist the crisp canvas projection screen and carved wooden teaching cards.",
-        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+        emblemSlot: { left: "87.12%", top: "22.58%", width: "12.2%" },
       },
       {
         src: "/assets/construction_anim/camp_pioneer_3_field_sketch.jpg",
         title: "Step 3: Ladder Scaffold Field Sketching & Laurel Medallion Mounting",
         desc: "A Scout artist on a lashed ladder paints the outdoor landscape on the canvas screen while another Scout secures the upper-right badge medallion.",
-        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+        emblemSlot: { left: "87.12%", top: "22.58%", width: "12.2%" },
       },
       {
         src: "/assets/construction_anim/camp_pioneer_4_campfire_premiere.jpg",
         title: "Step 4: Campfire Twilight Premiere with Brass Camp-Lantern Projector",
         desc: "As twilight falls, a brass camp-lantern projector illuminates the completed timber-framed slide deck while the patrol salutes around the campfire.",
-        emblemSlot: { left: "86.8%", top: "22.2%", width: "11.6%" },
+        emblemSlot: { left: "87.12%", top: "22.50%", width: "12.1%" },
       },
     ],
   },
@@ -665,13 +665,28 @@ function bindFilterAndSlideControls() {
   catSelect?.addEventListener("change", () => applyBadgeFilters(false));
   eagleSelect?.addEventListener("change", () => applyBadgeFilters(false));
 
-  // Collapsible Left Setup Sidebar toggle
+  // Collapsible Left Setup Sidebar toggle (updates label between "Hide Setup" and "Show Setup")
   const sidebarToggleBtn = document.getElementById("btn-toggle-sidebar");
+  const sidebarToggleLabel = document.getElementById("label-toggle-sidebar");
+  const sidebarToggleIcon = document.getElementById("icon-toggle-sidebar");
   const workbenchGrid = document.getElementById("main-workbench-grid");
+  const syncSidebarToggleUi = (isCollapsed) => {
+    if (sidebarToggleLabel) {
+      sidebarToggleLabel.textContent = isCollapsed ? "Show Setup" : "Hide Setup";
+    }
+    if (sidebarToggleIcon) {
+      sidebarToggleIcon.textContent = isCollapsed ? "left_panel_open" : "left_panel_close";
+    }
+    if (sidebarToggleBtn) {
+      sidebarToggleBtn.title = isCollapsed
+        ? "Show Setup Sidebar"
+        : "Hide Setup Sidebar to Maximize Slide Stage";
+    }
+  };
   sidebarToggleBtn?.addEventListener("click", () => {
     if (!workbenchGrid) return;
     const isCollapsed = workbenchGrid.classList.toggle("sidebar-collapsed");
-    sidebarToggleBtn.title = isCollapsed ? "Show Setup Sidebar" : "Hide Setup Sidebar to Maximize Slide Stage";
+    syncSidebarToggleUi(isCollapsed);
   });
 
   // Collapsible Storyboard Filmstrip Outline toggle
@@ -689,6 +704,7 @@ function bindFilterAndSlideControls() {
   const profileChevron = document.getElementById("profile-accordion-chevron");
   topProfileChip?.addEventListener("click", () => {
     workbenchGrid?.classList.remove("sidebar-collapsed");
+    syncSidebarToggleUi(false);
     if (profileAccordion) {
       profileAccordion.open = true;
       profileAccordion.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -826,7 +842,7 @@ function bindFilterAndSlideControls() {
     slide.presenter_notes = newNotes;
 
     const saveBtn = document.getElementById("btn-save-quickedit");
-    const statusEl = document.getElementById("quickedit-save-status");
+    const statusEl = document.getElementById("quickedit-status-msg") || document.getElementById("quickedit-save-status");
     try {
       if (saveBtn) {
         saveBtn.disabled = true;
@@ -865,12 +881,65 @@ function bindFilterAndSlideControls() {
     } finally {
       if (saveBtn) {
         saveBtn.disabled = false;
-        saveBtn.textContent = "💾 Save Text & Update .pptx";
+        saveBtn.textContent = "💾 Save Slide Edits & Rebuild .PPTX";
       }
     }
   });
 
-  // Keyboard Arrow Navigation (Left / Right) & Fullscreen Projector Controls
+  const stageWrapper = document.getElementById("slide-stage-wrapper");
+  const fsHud = document.getElementById("fullscreen-hud-bar");
+
+  const setPresentationFullscreenMode = async (enable) => {
+    if (!stageWrapper) return;
+    hideConstructionAnimationStage();
+    stageWrapper.classList.toggle("is-presenting-fullscreen", enable);
+    fsHud?.classList.toggle("hidden", !enable);
+    const fsBtn = document.getElementById("btn-present-fullscreen");
+    if (fsBtn) {
+      fsBtn.textContent = enable ? "✕ Exit Fullscreen" : "🖥️ Present Fullscreen";
+    }
+    if (enable) {
+      try {
+        if (!document.fullscreenElement && stageWrapper.requestFullscreen) {
+          await stageWrapper.requestFullscreen();
+        }
+      } catch (_e) {
+        // CSS .is-presenting-fullscreen overlay remains active even if browser blocks native fullscreen
+      }
+    } else {
+      try {
+        if (document.fullscreenElement && document.exitFullscreen) {
+          await document.exitFullscreen();
+        }
+      } catch (_e) {}
+    }
+  };
+
+  document.getElementById("btn-present-fullscreen")?.addEventListener("click", async () => {
+    const isNowActive = !stageWrapper?.classList.contains("is-presenting-fullscreen") && !document.fullscreenElement;
+    await setPresentationFullscreenMode(isNowActive);
+  });
+
+  document.addEventListener("fullscreenchange", () => {
+    if (!document.fullscreenElement && stageWrapper?.classList.contains("is-presenting-fullscreen")) {
+      stageWrapper.classList.remove("is-presenting-fullscreen");
+      fsHud?.classList.add("hidden");
+      const fsBtn = document.getElementById("btn-present-fullscreen");
+      if (fsBtn) fsBtn.textContent = "🖥️ Present Fullscreen";
+    }
+  });
+
+  document.getElementById("btn-fs-prev")?.addEventListener("click", () => {
+    document.getElementById("btn-prev-slide")?.click();
+  });
+  document.getElementById("btn-fs-next")?.addEventListener("click", () => {
+    document.getElementById("btn-next-slide")?.click();
+  });
+  document.getElementById("btn-fs-exit")?.addEventListener("click", async () => {
+    await setPresentationFullscreenMode(false);
+  });
+
+  // Keyboard Arrow Navigation (Left / Right / F for Fullscreen / Escape to exit)
   document.addEventListener("keydown", (ev) => {
     const tag = (ev.target?.tagName || "").toUpperCase();
     if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || ev.target?.isContentEditable) {
@@ -887,38 +956,12 @@ function bindFilterAndSlideControls() {
     } else if (ev.key === "ArrowRight") {
       ev.preventDefault();
       document.getElementById("btn-next-slide")?.click();
-    }
-  });
-
-  const stageWrapper = document.getElementById("slide-stage-wrapper");
-  const fsHud = document.getElementById("fullscreen-hud-bar");
-  document.getElementById("btn-present-fullscreen")?.addEventListener("click", async () => {
-    if (!stageWrapper) return;
-    try {
-      if (!document.fullscreenElement && stageWrapper.requestFullscreen) {
-        await stageWrapper.requestFullscreen();
-      } else if (document.exitFullscreen && document.fullscreenElement) {
-        await document.exitFullscreen();
-      }
-    } catch (_e) {
-      fsHud?.classList.toggle("hidden");
-    }
-  });
-  document.addEventListener("fullscreenchange", () => {
-    const isFs = Boolean(document.fullscreenElement);
-    fsHud?.classList.toggle("hidden", !isFs);
-  });
-  document.getElementById("btn-fs-prev")?.addEventListener("click", () => {
-    document.getElementById("btn-prev-slide")?.click();
-  });
-  document.getElementById("btn-fs-next")?.addEventListener("click", () => {
-    document.getElementById("btn-next-slide")?.click();
-  });
-  document.getElementById("btn-fs-exit")?.addEventListener("click", async () => {
-    if (document.fullscreenElement && document.exitFullscreen) {
-      await document.exitFullscreen();
-    } else {
-      fsHud?.classList.add("hidden");
+    } else if (ev.key === "Escape" && stageWrapper?.classList.contains("is-presenting-fullscreen")) {
+      ev.preventDefault();
+      setPresentationFullscreenMode(false);
+    } else if ((ev.key === "f" || ev.key === "F") && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
+      ev.preventDefault();
+      document.getElementById("btn-present-fullscreen")?.click();
     }
   });
 
@@ -1869,7 +1912,9 @@ function renderActiveSlide(idx) {
   const phone = document.getElementById("input-counselor-phone")?.value || "";
 
   // Case A: Slide 1 (Cover Slide with Badge Emblem, Centered Title, Pamphlet Cover, and Counselor Info — No Boxes!)
-  const fsCounterEl = document.getElementById("fullscreen-hud-counter");
+  const fsCounterEl =
+    document.getElementById("fullscreen-hud-status") ||
+    document.getElementById("fullscreen-hud-counter");
   if (idx === -1) {
     const coverTokens = resolveSlidePaletteTokens(null, deckTier);
     document.getElementById("active-slide-index-chip").textContent = `Slide 1 of ${totalSlides}`;
@@ -3848,6 +3893,18 @@ function bindCounselorToolkitActions() {
     }
   });
 
+  const triggerMarkdownDownload = (filename, content) => {
+    const blob = new Blob([String(content || "")], { type: "text/markdown;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
   // F4: Scout Workbook Copy & Print
   document.getElementById("btn-copy-workbook")?.addEventListener("click", (e) => {
     const md = state.currentResult?.workbook_markdown || "";
@@ -3860,7 +3917,7 @@ function bindCounselorToolkitActions() {
     printHtmlDocument(`${badge} Merit Badge — Scout Workbook`, `Prepared for ${troop}`, html);
   });
 
-  // F4: Session Agenda Copy & Print
+  // F4: Session Agenda Copy, Print & .MD Download
   document.getElementById("btn-copy-agenda")?.addEventListener("click", (e) => {
     const md = state.currentResult?.session_agenda?.agenda_markdown || "";
     copyTextWithFeedback(e.currentTarget, md, "✅ Copied Agenda!");
@@ -3871,34 +3928,64 @@ function bindCounselorToolkitActions() {
     const html = document.getElementById("studiokit-agenda-preview")?.innerHTML || "";
     printHtmlDocument(`${badge} Merit Badge — Counselor Teaching Plan`, fmt, html);
   });
+  document.getElementById("btn-download-agenda-md")?.addEventListener("click", () => {
+    const badge = (state.currentResult?.badge_name || "Merit_Badge").replace(/\s+/g, "_");
+    const md = state.currentResult?.session_agenda?.agenda_markdown || "";
+    triggerMarkdownDownload(`${badge}_Session_Agenda.md`, md);
+  });
 
-  // F4: Parent Prerequisite Letter Copy, mailto:, Gmail Compose, and Print
+  // F4: Parent Prerequisite Letter Copy, mailto:, Gmail Compose, Print & .MD Download
   document.getElementById("btn-copy-letter")?.addEventListener("click", (e) => {
     const md = getLiveParentLetterMarkdown(state.currentResult);
     copyTextWithFeedback(e.currentTarget, md, "✅ Copied Letter!");
   });
-  document.getElementById("btn-email-letter-mailto")?.addEventListener("click", () => {
+
+  const handleMailtoLetter = (e) => {
+    const btn = e.currentTarget;
     const badge = state.currentResult?.badge_name || "Merit Badge";
     const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
     const counselorEmail = document.getElementById("input-counselor-email")?.value || "";
+    const rawMd = getLiveParentLetterMarkdown(state.currentResult);
+    const plainBody = getPlainEmailBodyFromMarkdown(rawMd);
+    copyTextWithFeedback(btn, plainBody, "✅ Opening Email App (Copied!)");
     const subject = encodeURIComponent(`[${troop}] ${badge} Merit Badge — Parent Prerequisite & Safety Letter`);
-    const body = encodeURIComponent(getPlainEmailBodyFromMarkdown(getLiveParentLetterMarkdown(state.currentResult)).slice(0, 1850));
-    window.open(`mailto:?cc=${encodeURIComponent(counselorEmail)}&subject=${subject}&body=${body}`, "_blank");
-  });
-  document.getElementById("btn-email-letter-gmail")?.addEventListener("click", () => {
+    const body = encodeURIComponent(plainBody.slice(0, 1800));
+    const mailtoHref = `mailto:?cc=${encodeURIComponent(counselorEmail)}&subject=${subject}&body=${body}`;
+    const link = document.createElement("a");
+    link.href = mailtoHref;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  document.getElementById("btn-mailto-letter")?.addEventListener("click", handleMailtoLetter);
+  document.getElementById("btn-email-letter-mailto")?.addEventListener("click", handleMailtoLetter);
+
+  const handleGmailLetter = (e) => {
+    const btn = e.currentTarget;
     const badge = state.currentResult?.badge_name || "Merit Badge";
     const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
     const counselorEmail = document.getElementById("input-counselor-email")?.value || "";
+    const rawMd = getLiveParentLetterMarkdown(state.currentResult);
+    const plainBody = getPlainEmailBodyFromMarkdown(rawMd);
+    copyTextWithFeedback(btn, plainBody, "✅ Opening Gmail Tab...");
     const subject = encodeURIComponent(`[${troop}] ${badge} Merit Badge — Parent Prerequisite & Safety Letter`);
-    const body = encodeURIComponent(getPlainEmailBodyFromMarkdown(getLiveParentLetterMarkdown(state.currentResult)).slice(0, 1850));
+    const body = encodeURIComponent(plainBody.slice(0, 1800));
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&cc=${encodeURIComponent(counselorEmail)}&su=${subject}&body=${body}`;
     window.open(gmailUrl, "_blank", "noopener,noreferrer");
-  });
+  };
+  document.getElementById("btn-gmail-letter")?.addEventListener("click", handleGmailLetter);
+  document.getElementById("btn-email-letter-gmail")?.addEventListener("click", handleGmailLetter);
+
   document.getElementById("btn-print-letter")?.addEventListener("click", () => {
     const badge = state.currentResult?.badge_name || "Merit Badge";
     const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
     const html = document.getElementById("studiokit-letter-preview")?.innerHTML || "";
     printHtmlDocument(`${badge} Merit Badge — Parent Prerequisite & Youth Protection Letter`, troop, html);
+  });
+  document.getElementById("btn-download-letter-md")?.addEventListener("click", () => {
+    const badge = (state.currentResult?.badge_name || "Merit_Badge").replace(/\s+/g, "_");
+    const md = getLiveParentLetterMarkdown(state.currentResult);
+    triggerMarkdownDownload(`${badge}_Parent_Prerequisite_Letter.md`, md);
   });
 
   // F5: Quartermaster Gear Patrol Size Multiplier, Copy & Print
@@ -3907,11 +3994,14 @@ function bindCounselorToolkitActions() {
       renderQuartermasterGearChecklist(state.currentResult);
     }
   });
-  document.getElementById("btn-copy-gear-checklist")?.addEventListener("click", (e) => {
+  const handleCopyGearList = (e) => {
     const text = buildQuartermasterGearMarkdown(state.currentResult);
-    copyTextWithFeedback(e.currentTarget, text, "✅ Copied Gear List!");
-  });
-  document.getElementById("btn-print-gear-checklist")?.addEventListener("click", () => {
+    copyTextWithFeedback(e.currentTarget, text, "✅ Copied Packing List!");
+  };
+  document.getElementById("btn-copy-gear-list")?.addEventListener("click", handleCopyGearList);
+  document.getElementById("btn-copy-gear-checklist")?.addEventListener("click", handleCopyGearList);
+
+  const handlePrintGearList = () => {
     const badge = state.currentResult?.badge_name || "Merit Badge";
     const patrolSize = document.getElementById("gear-patrol-size-select")?.value || "8";
     const md = buildQuartermasterGearMarkdown(state.currentResult);
@@ -3920,7 +4010,9 @@ function bindCounselorToolkitActions() {
       `Scaled for Patrol of ${patrolSize} Scouts`,
       renderMarkdownToStyledHtml(md)
     );
-  });
+  };
+  document.getElementById("btn-print-gear-list")?.addEventListener("click", handlePrintGearList);
+  document.getElementById("btn-print-gear-checklist")?.addEventListener("click", handlePrintGearList);
 
   // F6: Blue Card Roster Add / Reset / CSV Export / Print
   document.getElementById("btn-bluecard-add-scout")?.addEventListener("click", () => {
@@ -4065,7 +4157,9 @@ function buildQuartermasterGearMarkdown(result) {
 }
 
 function renderQuartermasterGearChecklist(result) {
-  const container = document.getElementById("studiokit-gear-checklist-body");
+  const container =
+    document.getElementById("studiokit-gear-checklist-grid") ||
+    document.getElementById("studiokit-gear-checklist-body");
   if (!container || !result) return;
   const patrolSize = Number(document.getElementById("gear-patrol-size-select")?.value || 8);
   const groups = deriveGearGroupsForBadge(result);
