@@ -5,8 +5,8 @@
 **Official FDE GitHub Target**: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`  
 **Original Personal GitHub Target**: `https://github.com/clayberg/scouts-bsa-merit-badge-agent`  
 **Live Google Cloud Run Workbench**: [`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`](https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app)  
-**Executive Readout Deck (12 Core Slides, 0 Appendix — `<= 15` Cap)**: [FDE Capstone Executive Readout (Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)  
-**Detailed User Documentation**: [`docs/USER_GUIDE.md`](USER_GUIDE.md) ([Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw))
+**Executive Readout Playbook (12 Core Slides, 0 Appendix — `<= 15` Cap)**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md)  
+**Detailed User Documentation**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)
 
 ---
 
@@ -216,7 +216,7 @@ Once `scouts-bsa-merit-badge-agent.bundle` is built and verified:
    - **Production (for official defense)**: [`https://goto.google.com/capstone-app`](https://goto.google.com/capstone-app) (`https://fde-eval-tool-prod-6l4a5l634q-uc.a.run.app`)
 2. **Step 1 in UI — Select Presentation Deck**:
    - Click **Select from Google Drive** (or paste URL) and choose:
-     **[FDE Capstone Executive Readout — Scouts BSA Merit Badge Counselor Workbench](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)** (`ID: 1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`).
+     **FDE Capstone Executive Readout — Scouts BSA Merit Badge Counselor Workbench** (12 Core Slides, 0 Appendix).
    - Verify the Stage 1 slide check turns green (**12 Core Slides, 0 Appendix <= 15 Core Slides**).
 3. **Step 2 in UI — Upload Git Bundle & Repository Details**:
    - Upload file: `/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/scouts-bsa-merit-badge-agent.bundle` (~`25 MB`).

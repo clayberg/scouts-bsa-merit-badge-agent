@@ -1,8 +1,8 @@
 # FDE Capstone Companion Guide: Slide-by-Slide Explainer, End-to-End Architecture Primer & Jargon Decoder
 
 **Prepared for**: Eric Clayberg  
-**Companion Slide Deck**: [FDE Capstone Executive Readout (12 Core Slides — Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)  
-**Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md) • [Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw)  
+**Companion Playbook**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md) (12 Core Slides, 0 Appendix)  
+**Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)  
 **Purpose**: This guide is written specifically for you so you can walk into the Capstone review panel knowing every moving part of the **Scouts BSA Merit Badge Counselor Workbench**, from how raw BSA pamphlets and requirements are gathered and indexed, to how SQLite and external APIs interact, to when each of the 7 specialist AI agents engages and consumes tokens, to how every slide in the 12-slide Executive Readout maps to the capstone grading rubric.
 
 ---
@@ -181,7 +181,7 @@ Here is the breakdown of **when each of the 9 agent components (1 root coordinat
 
 ### 3. Slide-by-Slide Explainer of the "FDE Capstone Executive Readout" Deck (12 Core Slides, 0 Appendix)
 
-This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zero appendix slides — well within the 15-slide Capstone cap)** of your **[FDE Capstone Executive Readout](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)** presentation in the exact order they appear in the deck, including every card on each slide, the underlying code and architecture, and how to answer likely capstone panel questions.
+This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zero appendix slides — well within the 15-slide Capstone cap)** of your **FDE Capstone Executive Readout** presentation ([`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md)) in the exact order they appear in the deck, including every card on each slide, the underlying code and architecture, and how to answer likely capstone panel questions.
 
 ---
 

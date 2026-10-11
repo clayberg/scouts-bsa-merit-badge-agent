@@ -3,8 +3,8 @@
 - **Presenter**: Eric Clayberg (Google Cloud Forward Deployed Engineer & Merit Badge Counselor, Troop 19, Middleton, MA)
 - **Target Audience**: Scouting America National Council Executive Panel (CTO, CIO, CFO, Chief Youth Protection Officer & Principal SRE)
 - **Total Duration**: ~15 Minutes (`~10 Minutes` for the 12-Slide Executive Readout Deck + `~5 Minutes` for the Live Interactive Demo), followed by Panel Q&A
-- **Google Slides Deck**: [FDE Capstone Executive Readout (12 Core Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)
-- **Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md) • [Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw)
+- **Companion Playbook**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md) (12 Core Slides)
+- **Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)
 - **Format Convention**: Uses the same **`[STAGE DIRECTION]`**, **`[SAY]`**, and **`[DEMONSTRATE]`** structure used in the speaker notes of our generated Merit Badge slide decks, with natural inline expansions for every acronym on first mention.
 
 ---

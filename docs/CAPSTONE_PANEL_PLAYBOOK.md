@@ -3,10 +3,9 @@
 **Project**: Scouts BSA Merit Badge Counselor Workbench (`scouts-bsa-merit-badge-agent` v3.2.0)
 **Author / Presenter**: Eric Clayberg (FDE & Merit Badge Counselor, Troop 19, Middleton, MA)
 **Target Panel Personas**: Chief Technology Officer (CTO), Chief Information Officer / CISO (CIO), Chief Financial Officer (CFO), and Principal AI Engineering Evaluators
-**Companion Deck**: [FDE Capstone Executive Readout (12 Core Slides — Google Slides)](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit)
-**Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md) • [Google Doc](https://docs.google.com/document/d/1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo/edit?resourcekey=0-Gkm7bDSlsIVm8YrGsAoOGw)
-**Companion Study Guide**: [FDE Capstone Companion Guide (Google Doc)](https://docs.google.com/document/d/1a_3TPfgm7U2O5S_f4QR_Aey3ptGnICFdAgvzfF-uXYw/edit)
-**FinOps & Deployment Cost Guide**: [FinOps, Token Billing & Deployment Cost Guide (Google Doc)](https://docs.google.com/document/d/1k8oXmGze3dxOotTvahVEOhQT425wRbmH3mU6miQ/edit)
+**Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)
+**Companion Study Guide**: [`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](FDE_CAPSTONE_COMPANION_GUIDE.md)
+**FinOps & Deployment Cost Guide**: [`docs/finops-billing-and-deployment-guide.md`](finops-billing-and-deployment-guide.md)
 
 ## 1. Panel Presentation Structure & Timing (30-Minute Slot)
 
