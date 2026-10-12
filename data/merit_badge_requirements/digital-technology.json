@@ -25,7 +25,14 @@
           "url": "https://filestore.scouting.org/filestore/YPSAT/YT%20Mod1%20Final%20Master%20Small.mp4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -85,7 +92,14 @@
           "url": "https://youtu.be/v942xxcJWlA?si=61vZc5bgAiTD_7Oa"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -193,7 +207,14 @@
           "url": "https://youtu.be/aHJElrgj6UA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -276,7 +297,14 @@
           "url": "https://www.youtube.com/watch?v=NMYbkzjI5EY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -343,7 +371,14 @@
           "url": "https://www.youtube.com/watch?v=3j64UNXALHo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -474,7 +509,14 @@
           "url": "https://www.youtube.com/watch?v=BBcq9abR9Es"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -534,7 +576,14 @@
           "url": "https://www.reuters.com/legal/intellectual-property/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -634,7 +683,14 @@
           "url": "https://www.recyclerfinder.com/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -694,7 +750,14 @@
           "url": "https://insideofhappiness.com/20-computer-hobbies-that-will-entertain-you-for-long/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/digital-technology/"
+      "source_url": "https://www.scouting.org/merit-badges/digital-technology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

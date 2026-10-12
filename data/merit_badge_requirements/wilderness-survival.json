@@ -358,7 +358,14 @@
           "url": "https://www.boatsmartexam.com/knowledge-base/article/using-a-trip-plan/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -373,7 +380,14 @@
           "url": "https://youtu.be/eckfD4gfgj0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -392,7 +406,14 @@
           "url": "https://youtu.be/UC6HUrneIWI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -419,7 +440,14 @@
           "url": "https://assets.kalkomey.com/hunter/pdfs/maine-survival-kit.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -631,7 +659,14 @@
           "url": "https://youtu.be/wTQqrECMkPE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -646,7 +681,14 @@
           "url": "https://youtu.be/bPMKS0qzzSQ?si=-tvEhxuOE9N1D_Iz"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -713,7 +755,14 @@
           "url": "https://www.youtube.com/shorts/kYN46GuZmpE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -732,7 +781,14 @@
           "url": "https://scoutlife.org/outdoors/scout-essentials/183133/how-to-safely-melt-snow-to-use-as-drinking-water-on-a-camping-trip/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -742,7 +798,14 @@
       "req_text": "Food. Explain why it usually is not wise to eat wild plants or wildlife in a wilderness survival situation.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -794,7 +857,14 @@
           "url": "https://scoutingmagazine.org/2016/08/shed-pounds-pack-using-ultralight-backpacking-strategies/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -33,7 +33,14 @@
           "url": "https://youtu.be/CCTeSjpDsIs?si=NZkosauuFJR21A14"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/music/"
+      "source_url": "https://www.scouting.org/merit-badges/music/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -52,7 +59,14 @@
           "url": "https://youtu.be/Sr-l2m8twX0?si=6Fj8mHWGIRqhrhwi"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/music/"
+      "source_url": "https://www.scouting.org/merit-badges/music/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -91,7 +105,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/music/"
+      "source_url": "https://www.scouting.org/merit-badges/music/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -123,7 +144,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/music/"
+      "source_url": "https://www.scouting.org/merit-badges/music/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -138,7 +166,14 @@
           "url": "https://youtu.be/UqZJPuyK9VY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/music/"
+      "source_url": "https://www.scouting.org/merit-badges/music/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -182,7 +217,14 @@
           "url": "https://youtu.be/2XdqwW4zDtE?si=DBqxq3JLiPrE1mG9"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/music/"
+      "source_url": "https://www.scouting.org/merit-badges/music/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

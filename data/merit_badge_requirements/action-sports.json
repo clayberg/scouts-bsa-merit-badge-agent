@@ -1,0 +1,166 @@
+{
+  "badge_name": "Action Sports",
+  "slug": "action-sports",
+  "is_eagle_required": false,
+  "scouting_org_url": "https://www.scouting.org/merit-badges/action-sports/",
+  "pamphlet_pdf_url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Action%20Sports.pdf",
+  "shop_pamphlet_url": "https://www.scoutshop.org/",
+  "overview": "Action Sports covers skateboarding and snowboarding safety, equipment maintenance, park/slope etiquette, fundamental and intermediate maneuvers, and outdoor stewardship.",
+  "requirements_source": "scouting.org",
+  "requirements_count": 5,
+  "sub_requirements_total": 9,
+  "requirements": [
+    {
+      "req_id": "1",
+      "req_number": "1",
+      "topic_heading": "Hazards, Safety Gear & First Aid in Action Sports",
+      "lead_text": "Do the following:",
+      "req_text": "Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat exhaustion, heatstroke, blisters, sprains, strains, fractures, head/concussion injuries, and spinal injuries. (c) Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to inspect and fit them properly.",
+      "sub_requirements": [
+        {
+          "sub_id": "1a",
+          "label": "(a)",
+          "text": "Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "resources": [],
+          "children": []
+        },
+        {
+          "sub_id": "1b",
+          "label": "(b)",
+          "text": "Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat exhaustion, heatstroke, blisters, sprains, strains, fractures, head/concussion injuries, and spinal injuries.",
+          "resources": [],
+          "children": []
+        },
+        {
+          "sub_id": "1c",
+          "label": "(c)",
+          "text": "Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to inspect and fit them properly.",
+          "resources": [],
+          "children": []
+        }
+      ],
+      "resources": [],
+      "source_url": "https://www.scouting.org/merit-badges/action-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
+    },
+    {
+      "req_id": "2",
+      "req_number": "2",
+      "topic_heading": "Responsibility Code, Park Etiquette & Physical Conditioning",
+      "lead_text": "Do the following:",
+      "req_text": "Do the following: (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety. (b) Demonstrate a warm-up, stretching, and conditioning routine for action sports.",
+      "sub_requirements": [
+        {
+          "sub_id": "2a",
+          "label": "(a)",
+          "text": "Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety.",
+          "resources": [],
+          "children": []
+        },
+        {
+          "sub_id": "2b",
+          "label": "(b)",
+          "text": "Demonstrate a warm-up, stretching, and conditioning routine for action sports.",
+          "resources": [],
+          "children": []
+        }
+      ],
+      "resources": [],
+      "source_url": "https://www.scouting.org/merit-badges/action-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
+    },
+    {
+      "req_id": "3",
+      "req_number": "3",
+      "topic_heading": "Equipment Anatomy, Maintenance & Tuning",
+      "lead_text": "Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance.",
+      "req_text": "Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance.",
+      "sub_requirements": [],
+      "resources": [],
+      "source_url": "https://www.scouting.org/merit-badges/action-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
+    },
+    {
+      "req_id": "4",
+      "req_number": "4",
+      "topic_heading": "Fundamental Riding Skills & Controlled Maneuvers",
+      "lead_text": "Choose ONE option (Skateboarding OR Snowboarding) and demonstrate fundamental riding skills:",
+      "req_text": "Choose ONE option (Skateboarding OR Snowboarding) and demonstrate fundamental riding skills: (a) Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape). (b) Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control.",
+      "sub_requirements": [
+        {
+          "sub_id": "4a",
+          "label": "(a)",
+          "text": "Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape).",
+          "resources": [],
+          "children": []
+        },
+        {
+          "sub_id": "4b",
+          "label": "(b)",
+          "text": "Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control.",
+          "resources": [],
+          "children": []
+        }
+      ],
+      "resources": [],
+      "source_url": "https://www.scouting.org/merit-badges/action-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
+    },
+    {
+      "req_id": "5",
+      "req_number": "5",
+      "topic_heading": "Advanced Maneuvers, Stewardship & Action Sports Careers",
+      "lead_text": "Do the following:",
+      "req_text": "Do the following: (a) Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park. (b) Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports.",
+      "sub_requirements": [
+        {
+          "sub_id": "5a",
+          "label": "(a)",
+          "text": "Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park.",
+          "resources": [],
+          "children": []
+        },
+        {
+          "sub_id": "5b",
+          "label": "(b)",
+          "text": "Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports.",
+          "resources": [],
+          "children": []
+        }
+      ],
+      "resources": [],
+      "source_url": "https://www.scouting.org/merit-badges/action-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
+    }
+  ]
+}

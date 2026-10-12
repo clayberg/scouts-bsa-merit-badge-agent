@@ -262,6 +262,9 @@ def resolve_counselor_location(
 ) -> Dict[str, str]:
     """Resolves a counselor's City/State, 5-digit ZIP code, or Troop/Council string into concrete regional context.
 
+    Supports all 50 U.S. States + DC via `_STATE_CIVIC_AND_FIELD_REGISTRY` and dynamically resolves
+    current U.S. Senators and local Congressional Delegation via `refresh_us_senators_on_demand` (24h TTL + Gemini on-demand).
+
     Args:
         troop_affiliation: Counselor's troop and council string (e.g., `'Troop 19, Middleton MA'`).
         location_or_zip: Explicit City, State or 5-digit US ZIP code (e.g., `'01949'` or `'Middleton, MA'`).
@@ -269,9 +272,14 @@ def resolve_counselor_location(
     Returns:
         Dict[str, str]: Resolved regional context with `display_location`, `region_label`, `state_code`,
         `nws_office`, `nws_url`, `terrain_and_hazards`, `field_site_examples`, `state_agency`,
-        `state_capitol`, `national_landmarks`, `federal_facilities`, `congressional_delegation`, and `resolution_source`.
+        `state_capitol`, `national_landmarks`, `federal_facilities`, `congressional_delegation`,
+        `senator_1`, `senator_2`, `house_rep`, `governor`, and `resolution_source`.
     """
     import re
+    from src.tools.local_grounding_engine import (
+        _STATE_CIVIC_AND_FIELD_REGISTRY,
+        refresh_us_senators_on_demand,
+    )
 
     combined = f"{location_or_zip or ''} | {troop_affiliation or ''}".strip()
     raw_loc = (location_or_zip or "").strip()
@@ -280,64 +288,88 @@ def resolve_counselor_location(
     zip_match = re.search(r"\b(\d{5})(?:-\d{4})?\b", combined)
     zip_code = zip_match.group(1) if zip_match else ""
 
-    # 2. Check for explicit two-letter state abbreviation or known state/council keywords
+    # 2. Check for explicit two-letter state abbreviation across all 50 states + DC
     state_code = ""
-    for st in _STATE_PROFILES:
-        if re.search(rf"(?:,\s*|\b){st}\b", combined):
+    for st in _STATE_CIVIC_AND_FIELD_REGISTRY:
+        if re.search(rf"(?:,\s*|\s+){st}\b", combined):
             state_code = st
             break
     if not state_code:
         lower_c = combined.lower()
-        if "middleton" in lower_c or "massachusetts" in lower_c or "spirit of adventure" in lower_c or "boston" in lower_c:
+        for st, reg_entry in _STATE_CIVIC_AND_FIELD_REGISTRY.items():
+            if reg_entry["state_name"].lower() in lower_c or reg_entry["capital_city"].lower() in lower_c:
+                state_code = st
+                break
+    if not state_code:
+        lower_c = combined.lower()
+        if "middleton" in lower_c or "spirit of adventure" in lower_c or "andover" in lower_c:
             state_code = "MA"
-        elif "new hampshire" in lower_c or "daniel webster" in lower_c:
+        elif "daniel webster" in lower_c:
             state_code = "NH"
-        elif "new york" in lower_c or "manhattan" in lower_c or "albany" in lower_c:
+        elif "manhattan" in lower_c or "brooklyn" in lower_c:
             state_code = "NY"
-        elif "california" in lower_c or "san francisco" in lower_c or "los angeles" in lower_c or "san diego" in lower_c:
+        elif "san francisco" in lower_c or "los angeles" in lower_c or "san diego" in lower_c or "silicon valley" in lower_c:
             state_code = "CA"
-        elif "texas" in lower_c or "austin" in lower_c or "houston" in lower_c or "dallas" in lower_c:
+        elif "houston" in lower_c or "dallas" in lower_c or "san antonio" in lower_c:
             state_code = "TX"
-        elif "florida" in lower_c or "miami" in lower_c or "tampa" in lower_c or "orlando" in lower_c:
+        elif "miami" in lower_c or "tampa" in lower_c or "orlando" in lower_c:
             state_code = "FL"
-        elif "colorado" in lower_c or "denver" in lower_c or "boulder" in lower_c:
+        elif "boulder" in lower_c or "colorado springs" in lower_c:
             state_code = "CO"
-        elif "washington" in lower_c or "seattle" in lower_c or "cascade" in lower_c:
+        elif "seattle" in lower_c or "tacoma" in lower_c:
             state_code = "WA"
-        elif "illinois" in lower_c or "chicago" in lower_c:
+        elif "chicago" in lower_c:
             state_code = "IL"
-        elif "virginia" in lower_c or "shenandoah" in lower_c or "national capital" in lower_c:
+        elif "shenandoah" in lower_c or "national capital" in lower_c or "arlington" in lower_c:
             state_code = "VA"
         elif zip_code:
             state_code = _ZIP_FIRST_DIGIT_REGIONS.get(zip_code[0], "MA")
 
-    profile = _STATE_PROFILES.get(state_code, _STATE_PROFILES["MA"])
+    resolved_st = state_code or "MA"
+    reg = _STATE_CIVIC_AND_FIELD_REGISTRY.get(resolved_st, _STATE_CIVIC_AND_FIELD_REGISTRY["MA"])
+    profile = _STATE_PROFILES.get(resolved_st)
+
     if raw_loc:
-        display_loc = f"{raw_loc} ({profile['region']})" if zip_code and len(raw_loc) == 5 else raw_loc
+        display_loc = f"{raw_loc} ({reg['state_name']})" if zip_code and len(raw_loc) == 5 else raw_loc
         source = "counselor_location_input"
     elif state_code:
-        display_loc = f"{troop_affiliation.strip()} ({profile['state_name']})"
+        display_loc = f"{troop_affiliation.strip()} ({reg['state_name']})"
         source = "inferred_from_troop_affiliation"
     else:
-        display_loc = f"{troop_affiliation.strip() or 'Local Council Field Area'} ({profile['state_name']} / {profile['region']})"
+        display_loc = f"{troop_affiliation.strip() or 'Local Council Field Area'} ({reg['state_name']})"
         source = "default_national_profile"
+
+    sen_info = refresh_us_senators_on_demand(resolved_st, display_loc, force=False)
+    sen1 = str(sen_info.get("senator_1") or reg["senator_1"])
+    sen2 = str(sen_info.get("senator_2") or reg["senator_2"])
+    h_rep = str(sen_info.get("house_rep") or f"U.S. House Representative for {display_loc} (verify ZIP at house.gov)")
+    gov = str(sen_info.get("governor") or reg["governor"])
+    cong_del = f"U.S. Senators {sen1} & {sen2}; Local House: {h_rep}; Governor: {gov}"
 
     return {
         "display_location": display_loc,
         "region_label": display_loc,
         "zip_code": zip_code,
-        "state_code": state_code or "MA",
-        "state_name": profile["state_name"],
-        "region": profile["region"],
-        "nws_office": profile["nws_office"],
-        "nws_url": profile["nws_url"],
-        "terrain_and_hazards": profile["terrain_and_hazards"],
-        "field_site_examples": profile["field_site_examples"],
-        "state_agency": profile["state_agency"],
-        "state_capitol": profile["state_capitol"],
-        "national_landmarks": profile["national_landmarks"],
-        "federal_facilities": profile["federal_facilities"],
-        "congressional_delegation": profile["congressional_delegation"],
+        "state_code": resolved_st,
+        "state_abbr": resolved_st,
+        "state_name": reg["state_name"],
+        "region": (profile or {}).get("region") or f"{reg['state_name']} Regional Field Area",
+        "nws_office": (profile or {}).get("nws_office") or reg["wfo"],
+        "nws_url": (profile or {}).get("nws_url") or reg["wfo_url"],
+        "terrain_and_hazards": (profile or {}).get("terrain_and_hazards") or reg["hazards"],
+        "field_site_examples": (profile or {}).get("field_site_examples") or reg["camps_trails"],
+        "state_agency": (profile or {}).get("state_agency") or f"{reg['state_name']} Emergency Management & Conservation Agencies ({reg['trauma_ems']})",
+        "state_capitol": (profile or {}).get("state_capitol") or reg["capitol_building"],
+        "national_landmarks": str(sen_info.get("local_landmarks") or (profile or {}).get("national_landmarks") or reg["landmarks"]),
+        "federal_facilities": str(sen_info.get("local_federal_facility") or (profile or {}).get("federal_facilities") or reg["federal_facilities"]),
+        "congressional_delegation": cong_del,
+        "senator_1": sen1,
+        "senator_1_url": str(sen_info.get("senator_1_url") or reg["senator_1_url"]),
+        "senator_2": sen2,
+        "senator_2_url": str(sen_info.get("senator_2_url") or reg["senator_2_url"]),
+        "house_rep": h_rep,
+        "governor": gov,
+        "senator_cache_status": str(sen_info.get("cache_status") or "VERIFIED_REGISTRY_24H"),
         "resolution_source": source,
     }
 
@@ -600,6 +632,8 @@ def enrich_requirements_with_deep_research(
             f"State & Civic Partner Agencies: {loc['state_agency']}",
         ]
 
+    from src.tools.local_grounding_engine import resolve_requirement_local_grounding
+
     misconceptions: Dict[str, str] = {}
     case_studies: Dict[str, str] = {}
     citations: List[GroundedWebCitation] = []
@@ -622,11 +656,24 @@ def enrich_requirements_with_deep_research(
             loc=loc,
             idx=idx,
         )
+        local_g = resolve_requirement_local_grounding(
+            badge_name=clean_badge,
+            req_dict=req,
+            location_profile=loc,
+        )
+        cit.grounding_category = str(local_g.get("grounding_category") or "museums_stem_and_careers")
+        cit.requires_local_lookup = bool(local_g.get("requires_local_lookup", False))
+        cit.local_grounding_callout = str(local_g.get("local_grounding_callout") or cit.supplemental_fact)
+        cit.slide_injection_label = str(local_g.get("slide_injection_label") or "Local Troop Grounding")
+        cit.cache_status = str(local_g.get("cache_status") or "VERIFIED_REGISTRY_24H")
+        if cit.requires_local_lookup and cit.grounding_category in ("elected_officials", "civic_landmarks_and_monuments"):
+            cit.supplemental_fact = cit.local_grounding_callout
+
         misconceptions[r_num] = (
             f"Req {r_num} ({r_title}): Ensure Scouts explain the underlying reasoning for {first_excerpt[:95].rstrip('.')} rather than memorizing labels."
         )
-        case_studies[r_num] = cit.supplemental_fact
-        if enable_live_web_search and idx < 15:
+        case_studies[r_num] = cit.local_grounding_callout if cit.requires_local_lookup else cit.supplemental_fact
+        if enable_live_web_search and idx < 25:
             citations.append(cit)
 
     after_hash = compute_canonical_pamphlet_hash(canonical_requirements)

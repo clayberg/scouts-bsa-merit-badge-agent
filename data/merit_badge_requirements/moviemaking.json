@@ -25,7 +25,14 @@
           "url": "https://youtu.be/BFwMRVwrKcA?si=uW4whxq0-SZjyFHJ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/moviemaking/"
+      "source_url": "https://www.scouting.org/merit-badges/moviemaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -261,7 +268,14 @@
           "url": "https://youtu.be/cLLuuV_57JY?si=vcdpLOuyRcHeC1jf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/moviemaking/"
+      "source_url": "https://www.scouting.org/merit-badges/moviemaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -313,7 +327,14 @@
           "url": "https://youtu.be/15h9iG-Rdwk?si=TUp4-HL00H50ZX79"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/moviemaking/"
+      "source_url": "https://www.scouting.org/merit-badges/moviemaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -357,7 +378,14 @@
           "url": "https://youtu.be/d30kfqueNKI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/moviemaking/"
+      "source_url": "https://www.scouting.org/merit-badges/moviemaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

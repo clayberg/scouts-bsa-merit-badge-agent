@@ -101,7 +101,14 @@
           "url": "https://youtu.be/LOhNkY0yb4s?si=fCdFQINKX1P4wNYJ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/reading/"
+      "source_url": "https://www.scouting.org/merit-badges/reading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -144,7 +151,14 @@
           "url": "https://www.youtube.com/shorts/_FWW0V4rwj4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/reading/"
+      "source_url": "https://www.scouting.org/merit-badges/reading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -224,7 +238,14 @@
           "url": "https://youtu.be/XoHzONEs5Uw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/reading/"
+      "source_url": "https://www.scouting.org/merit-badges/reading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -239,7 +260,14 @@
           "url": "https://youtu.be/3nLX0CjMO-Q?si=4SNTBq8jqKAhZioe"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/reading/"
+      "source_url": "https://www.scouting.org/merit-badges/reading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -258,7 +286,14 @@
           "url": "https://vimeo.com/1153345240"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/reading/"
+      "source_url": "https://www.scouting.org/merit-badges/reading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -350,7 +385,14 @@
           "url": "https://youtu.be/W9G0X6gAhwY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/reading/"
+      "source_url": "https://www.scouting.org/merit-badges/reading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -360,7 +402,14 @@
       "req_text": "Identify three career opportunities that would use skills and knowledge in reading. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/reading/"
+      "source_url": "https://www.scouting.org/merit-badges/reading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

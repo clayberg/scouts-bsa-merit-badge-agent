@@ -25,7 +25,14 @@
           "url": "https://www.youtube.com/watch?v=uh8tDZj9I_A"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pets/"
+      "source_url": "https://www.scouting.org/merit-badges/pets/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -40,7 +47,14 @@
           "url": "https://www.youtube.com/watch?v=Pi_slxuGJUg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pets/"
+      "source_url": "https://www.scouting.org/merit-badges/pets/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -50,7 +64,14 @@
       "req_text": "Show that you have read a book or pamphlet, approved by your counselor, about your kind of pet. Discuss with your counselor what you have learned from what you read.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/pets/"
+      "source_url": "https://www.scouting.org/merit-badges/pets/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -102,7 +123,14 @@
           "url": "https://youtu.be/zrDskEObBs8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pets/"
+      "source_url": "https://www.scouting.org/merit-badges/pets/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -137,7 +165,14 @@
           "url": "https://youtu.be/k5LGDo2OwY8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pets/"
+      "source_url": "https://www.scouting.org/merit-badges/pets/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -25,7 +25,14 @@
           "url": "https://youtu.be/wj2tyVAYlMg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/theater/"
+      "source_url": "https://www.scouting.org/merit-badges/theater/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -40,7 +47,14 @@
           "url": "https://youtu.be/ZRTuslMz2Rw?si=cy09j4rU7f5-l9_O"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/theater/"
+      "source_url": "https://www.scouting.org/merit-badges/theater/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -126,7 +140,14 @@
           "url": "https://youtu.be/4dGuuOgzK5U?si=9KtI0d1RU7ruD-Yg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/theater/"
+      "source_url": "https://www.scouting.org/merit-badges/theater/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -184,7 +205,14 @@
           "url": "https://youtu.be/fLTXMZj2saE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/theater/"
+      "source_url": "https://www.scouting.org/merit-badges/theater/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -199,7 +227,14 @@
           "url": "https://youtu.be/ju6Q_0jXFE0?si=vimJx4FEihmqE6T_"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/theater/"
+      "source_url": "https://www.scouting.org/merit-badges/theater/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

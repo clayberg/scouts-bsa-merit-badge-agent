@@ -102,7 +102,14 @@
           "url": "https://www.weather.gov/safety/heat-illness"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -125,7 +132,14 @@
           "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Camping/Leave_No_Trace_Outdoor_Code_Handout_Spaced.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -193,7 +207,14 @@
           "url": "https://www.cleverhiker.com/backpacking/how-to-use-your-phone-as-a-gps-device-for-backpacking/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -218,7 +239,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -317,7 +345,14 @@
           "url": "https://scoutlife.org/outdoors/outdoorarticles/6976/scout-outdoor-essentials-checklist/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -457,7 +492,14 @@
           "url": "https://youtu.be/3F-7idvPsEU?si=2rq1K7XVeulSLynk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -492,7 +534,14 @@
           "url": "https://youtu.be/HB7ZOjnnFS8?si=OiOXPGCBLGNYt_b0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -590,7 +639,14 @@
           "url": "https://youtu.be/7YAiuAuo49Y?si=y87nPJnLJsVPZtJ9"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -729,7 +785,14 @@
           "url": "https://www.scouting.org/wp-content/uploads/2019/01/Conservation-Project-Planning-Checklist.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -739,7 +802,14 @@
       "req_text": "Discuss how the things you did to earn this badge have taught you about personal health and safety, survival, public health, conservation, and good citizenship. In your discussion, tell how Scout spirit and the Scout Oath and Scout Law apply to camping and outdoor ethics.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/camping/"
+      "source_url": "https://www.scouting.org/merit-badges/camping/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -70,7 +70,14 @@
           "url": "https://youtu.be/H6xlECl9ZBg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -146,7 +153,14 @@
           "url": "https://youtu.be/zMposrWrPC0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -230,7 +244,14 @@
           "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Multisport/multisport_race_options.jpg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -785,7 +806,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -858,7 +886,14 @@
           "url": "https://youtu.be/kVnyY17VS9Y"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -873,7 +908,14 @@
           "url": "https://www.youtube.com/watch?v=HvIq5NExAFU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -912,7 +954,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -998,7 +1047,14 @@
           "url": "https://www.youtube.com/watch?v=ogogU_qZok8%20"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/multisport/"
+      "source_url": "https://www.scouting.org/merit-badges/multisport/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

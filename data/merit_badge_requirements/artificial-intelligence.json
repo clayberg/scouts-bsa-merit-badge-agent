@@ -20,7 +20,14 @@
       "req_text": "Key Concepts. Define the following terms and share the meaning of each with your counselor: artificial intelligence (AI), artificial intelligence agents, automation, basic programming, bots, data, databases, digital workers, general AI, machine learning (ML), narrow AI, superintelligent AI, tasks, triggers, workflows, and variables.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -66,7 +73,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -112,7 +126,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -151,7 +172,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -176,7 +204,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -215,7 +250,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -240,7 +282,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -265,7 +314,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/"
+      "source_url": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

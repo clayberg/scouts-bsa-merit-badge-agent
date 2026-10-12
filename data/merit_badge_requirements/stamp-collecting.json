@@ -74,7 +74,14 @@
           "url": "https://youtu.be/U8ioOqupzmo?si=UlX_1ztm7NDn3yyL"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -93,7 +100,14 @@
           "url": "https://youtu.be/1i4Y9pT0px8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -317,7 +331,14 @@
           "url": "https://youtube.com/shorts/vdXeCjAFtng?si=4lDNQZtcCqOoyfgr"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -385,7 +406,14 @@
           "url": "https://youtu.be/fjnm2Val5UQ?si=C_AUKlkD-vV9Nir3"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -513,7 +541,14 @@
           "url": "https://youtu.be/Ury0mawE7m4?si=ctCOkAPh6V_GB22X"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -561,7 +596,14 @@
           "url": "https://youtu.be/i6sIwSc3jYs?si=UdDB47GrWSNvSdqa"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -709,7 +751,14 @@
           "url": "https://www.linns.com/insights/have-lasting-fun--how-to-create-an-exhibit-and-enter-it-into-a-s.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -760,7 +809,14 @@
           "url": "https://youtu.be/5N18BN6HZ4I?si=9QwToD12oZ0KVS5S"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/"
+      "source_url": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

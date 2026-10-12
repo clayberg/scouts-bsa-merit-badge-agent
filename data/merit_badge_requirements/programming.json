@@ -70,7 +70,14 @@
           "url": "https://www.uab.edu/news/health-medicine/new-uab-eye-care-clinic-helps-improve-vision-in-the-workplace"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/programming/"
+      "source_url": "https://www.scouting.org/merit-badges/programming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -101,7 +108,14 @@
           "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Programming/Req2-History.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/programming/"
+      "source_url": "https://www.scouting.org/merit-badges/programming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -140,7 +154,14 @@
           "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Programming/Req3-General.docx"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/programming/"
+      "source_url": "https://www.scouting.org/merit-badges/programming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -212,7 +233,14 @@
           "url": "https://www.geeksforgeeks.org/software-engineering/difference-between-free-software-and-open-source-software/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/programming/"
+      "source_url": "https://www.scouting.org/merit-badges/programming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -276,7 +304,14 @@
           "url": "https://www.codedex.io/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/programming/"
+      "source_url": "https://www.scouting.org/merit-badges/programming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -339,7 +374,14 @@
           "url": "https://youtu.be/dhvQ7L5UScs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/programming/"
+      "source_url": "https://www.scouting.org/merit-badges/programming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

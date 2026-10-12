@@ -1251,6 +1251,36 @@ async def get_prompt_manifest_endpoint(
     return load_prompt_manifest()
 
 
+@app.get("/api/local-grounding/senators")
+@app.post("/api/local-grounding/senators")
+@app.get("/api/v1/local-grounding/senators")
+@app.post("/api/v1/local-grounding/senators")
+async def api_refresh_us_senators(
+    state: Optional[str] = Query(None, description="Optional 2-letter state code for on-demand Gemini lookup."),
+    city_state: Optional[str] = Query(None, description="Optional City, State or ZIP for congressional district lookup."),
+    location: Optional[str] = Query(None, description="Alias for city_state (City, State or ZIP)."),
+    force: bool = Query(False, description="Force refresh even if within 24-hour TTL."),
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Refreshes the 100 U.S. Senators daily cache (24h TTL) or resolves a specific state's Senators on demand via Gemini."""
+    from src.tools.local_grounding_engine import (
+        refresh_all_100_us_senators_daily,
+        refresh_us_senators_on_demand,
+    )
+
+    eff_loc = city_state or location or ""
+    if state:
+        entry = await asyncio.to_thread(
+            refresh_us_senators_on_demand,
+            state_abbr=state,
+            city_state=eff_loc,
+            force=force,
+        )
+        return {"status": "SUCCESS", "mode": "ON_DEMAND_STATE", "delegation": entry}
+    summary = await asyncio.to_thread(refresh_all_100_us_senators_daily, force=force)
+    return {"status": "SUCCESS", "mode": "DAILY_100_SENATORS_SWEEP", **summary}
+
+
 @app.get("/", response_class=HTMLResponse)
 async def serve_a2ui_workbench() -> HTMLResponse:
     """Serves the Google Material 3 Expressive A2UI Counselor Workbench."""

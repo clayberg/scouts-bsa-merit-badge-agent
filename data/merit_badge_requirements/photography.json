@@ -70,7 +70,14 @@
           "url": "https://filestore.scouting.org/filestore/YPSAT/YT%20Mod1%20Final%20Master%20Small.mp4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -250,7 +257,14 @@
           "url": "https://youtu.be/meeqJ58eSzk?si=lxhdmU83SSLCDxvw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -273,7 +287,14 @@
           "url": "https://youtu.be/Ey6S3rKH_o4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -322,7 +343,14 @@
           "url": "https://youtube.com/shorts/o5yjHn56VtE?si=XC3OvPIABX276ZtY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -375,7 +403,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -412,7 +447,14 @@
           "url": "https://youtu.be/KR7L2oSRlwY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -463,7 +505,14 @@
           "url": "https://youtu.be/G-qyX_Ri17M?si=mFi7rrxZa1KDlNrT"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -482,7 +531,14 @@
           "url": "https://www.indeed.com/career-advice/finding-a-job/list-of-careers-in-photography"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/photography/"
+      "source_url": "https://www.scouting.org/merit-badges/photography/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

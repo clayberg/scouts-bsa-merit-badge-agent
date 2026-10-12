@@ -54,7 +54,14 @@
           "url": "https://www.youtube.com/watch?v=7u2QqMSjroQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -81,7 +88,14 @@
           "url": "https://youtu.be/1XpCnCVfuYk?si=XrohO26RBxWr9Epg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -132,7 +146,14 @@
           "url": "https://www.youtube.com/watch?v=6_SRZiU9EuI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -240,7 +261,14 @@
           "url": "https://www.youtube.com/watch?v=biS7e79xZcs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -299,7 +327,14 @@
           "url": "https://www.worldwildlife.org/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -437,7 +472,14 @@
           "url": "https://matadornetwork.com/notebook/the-7-fundamentals-of-documenting-your-travels/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -479,7 +521,14 @@
           "url": "https://www.scouting.org/wp-content/uploads/2021/06/680-11421_SAFE.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -529,7 +578,14 @@
           "url": "https://youtu.be/jXO1uY0MvmQ?si=_UhIOYBkw69c87ug"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -605,7 +661,14 @@
           "url": "https://youtu.be/y4yfyUwkUxw?si=zGblxCqx7N5R4_W9"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -87,7 +87,14 @@
           "url": "https://www.youtube.com/watch?v=RqIpI3QhEFs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -102,7 +109,14 @@
           "url": "https://youtu.be/ydzIvqvSKdk?si=uJiETon8SHdKagVg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -170,7 +184,14 @@
           "url": "https://www.youtube.com/watch?v=_JRKX18rTbA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -185,7 +206,14 @@
           "url": "https://youtu.be/rS4dprT0rg0?si=wZQbDaOU29oFYKDa"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -195,7 +223,14 @@
       "req_text": "Explain the correct way to obedience train a dog and what equipment you would need. Show with your dog any three of these commands: \"come,\" \"sit,\" \"down,\" \"heel,\" \"stay,\" \"fetch,\" \"get it,\" and \"drop it.\" Resources: 10 Most Basic Commands Every Dog Owner Should Know (video) How To Teach Your Dog the Basics (video)",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -319,7 +354,14 @@
           "url": "https://youtu.be/SaQRnYbco5M?si=8BgNtVlMOUSq_8Dd"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -491,7 +533,14 @@
           "url": "https://www.avma.org/resources-tools/pet-owners/petcare/disease-risks-dogs-social-settings"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -510,7 +559,14 @@
           "url": "https://www.youtube.com/watch?v=_CIC1OXl2u0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -525,7 +581,14 @@
           "url": "https://www.youtube.com/watch?v=Hr7n_5GCiUk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -609,7 +672,14 @@
           "url": "https://www.guidingeyes.org/puppy-raising/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dog-care/"
+      "source_url": "https://www.scouting.org/merit-badges/dog-care/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

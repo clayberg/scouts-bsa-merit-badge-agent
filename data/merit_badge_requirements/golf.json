@@ -25,7 +25,14 @@
           "url": "https://youtu.be/26c7909-iKg?si=ZUt8TQ5_jKrBFdJh"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/golf/"
+      "source_url": "https://www.scouting.org/merit-badges/golf/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -835,7 +842,14 @@
           "url": "https://youtu.be/rLiz9krymJk?si=wgL3oVMWKdQ5JxDe"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/golf/"
+      "source_url": "https://www.scouting.org/merit-badges/golf/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -486,7 +486,14 @@
           "url": "https://www.backpacker.com/survival/natural-hazards/lightning/lightning-safety-facts-for-hikers/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -594,7 +601,14 @@
           "url": "https://www.homedepot.com/c/ab/shelter-in-place-drill-checklist/9ba683603be9fa5395fab901b57e20ec"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "3",
@@ -638,7 +652,14 @@
           "url": "https://www.youtube.com/watch?v=x2GkeNvgzG8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "4",
@@ -722,7 +743,14 @@
           "url": "https://youtu.be/plTSz7in_Xk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "5",
@@ -798,7 +826,14 @@
           "url": "https://youtu.be/xwbgU9envik"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "6",
@@ -813,7 +848,14 @@
           "url": "https://youtu.be/EYfgxODBlwY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "7",
@@ -863,7 +905,14 @@
           "url": "https://youtu.be/phcKeMWaN3o?si=UJEgaKfVdkod4Yd2"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "8",
@@ -1003,7 +1052,14 @@
           "url": "https://youtu.be/NeaZKfqji1w"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "9",
@@ -1013,7 +1069,14 @@
       "req_text": "First Aid Merit Badge. Earn the First Aid merit badge.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "10",
@@ -1073,7 +1136,14 @@
           "url": "https://youtu.be/UidlepnW93k"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/"
+      "source_url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     }
   ]
 }

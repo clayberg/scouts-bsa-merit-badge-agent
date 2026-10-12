@@ -29,7 +29,14 @@
           "url": "https://www.investopedia.com/articles/personal-finance/101414/why-entrepreneurs-are-important-economy.asp"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/"
+      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -52,7 +59,14 @@
           "url": "https://online.hbs.edu/blog/post/entrepreneurial-skills"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/"
+      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -62,7 +76,14 @@
       "req_text": "Identify and interview an individual who has started a business. Learn about this person's educational background, early work experiences, where the idea for the business came from, and what was involved in starting the business. Find out how the entrepreneur raised the capital (money) to start the business, examples of successes and challenges faced, and how the business is currently doing (if applicable). Discuss with your counselor what you have learned.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/"
+      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -77,7 +98,14 @@
           "url": "https://youtu.be/qJp0j4g3k3o"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/"
+      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -447,7 +475,14 @@
           "url": "https://youtu.be/pPYcPlTFbwU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/"
+      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -470,7 +505,14 @@
           "url": "https://youtu.be/QNB9hnRfgdk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/"
+      "source_url": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

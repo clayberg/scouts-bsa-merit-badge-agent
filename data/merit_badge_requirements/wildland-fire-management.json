@@ -29,7 +29,14 @@
           "url": "https://www.nifc.gov/fire-information/fire-prevention-education-mitigation/wildfire-education"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -118,7 +125,14 @@
           "url": "https://youtu.be/8mQllQnJrhg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -214,7 +228,14 @@
           "url": "https://youtu.be/e_cOMAioE54"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -315,7 +336,14 @@
           "url": "https://youtu.be/isf6COwOXPw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -383,7 +411,14 @@
           "url": "https://youtu.be/b1KvTswZYNA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -467,7 +502,14 @@
           "url": "https://youtu.be/46kiCPcfUyg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -590,7 +632,14 @@
           "url": "https://training.fema.gov/emiweb/is/icsresource/assets/ics%20organizational%20structure%20and%20elements.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -658,7 +707,14 @@
           "url": "https://www.nifc.gov/resources/equipment/dozers"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -722,7 +778,14 @@
           "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/bnatres/forest/pdf/fire/fire-home-assessment-form.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -749,7 +812,14 @@
           "url": "https://youtu.be/7UVaFKnN-gI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "11",
@@ -772,7 +842,14 @@
           "url": "https://youtu.be/ewR1Ryqvr2Y"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/"
+      "source_url": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -29,7 +29,14 @@
           "url": "https://www.youtube.com/watch?v=ns9_2SfhCtM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/"
+      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -52,7 +59,14 @@
           "url": "https://www.youtube.com/watch?v=TVTn7mYKegY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/"
+      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -71,7 +85,14 @@
           "url": "https://www.youtube.com/watch?v=qtHong4fWT4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/"
+      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -142,7 +163,14 @@
           "url": "https://youtu.be/vsMBA-1g-5U"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/"
+      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -185,7 +213,14 @@
           "url": "https://www.colorvisionprinting.com/blog/finishing-in-printing-what-are-the-most-requested-options"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/"
+      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -293,7 +328,14 @@
           "url": "https://guildofbookworkers.org/book-arts-organization"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/"
+      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -316,7 +358,14 @@
           "url": "https://www.khake.com/page27.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/"
+      "source_url": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

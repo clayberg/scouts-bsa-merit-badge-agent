@@ -59,7 +59,14 @@
           "url": "https://youtu.be/09dBTs5ObSU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dentistry/"
+      "source_url": "https://www.scouting.org/merit-badges/dentistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -167,7 +174,14 @@
           "url": "https://youtu.be/CAgoECkR354"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dentistry/"
+      "source_url": "https://www.scouting.org/merit-badges/dentistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -177,7 +191,14 @@
       "req_text": "Arrange for a visit with a dentist. Before you go, ask whether your visit can include a dental examination and a plaque-control demonstration. Afterward, ask questions about things you want to know. Then tell your counselor what the dentist does during a checkup examination.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/dentistry/"
+      "source_url": "https://www.scouting.org/merit-badges/dentistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -245,7 +266,14 @@
           "url": "https://www.bristol.ac.uk/media-library/sites/dental/patient-leaflets/diet-diary.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dentistry/"
+      "source_url": "https://www.scouting.org/merit-badges/dentistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -305,7 +333,14 @@
           "url": "https://www.youtube.com/shorts/K2IJY2N5_sY?feature=share"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dentistry/"
+      "source_url": "https://www.scouting.org/merit-badges/dentistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -395,7 +430,14 @@
           "url": "https://youtu.be/BwKlQuofmA4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dentistry/"
+      "source_url": "https://www.scouting.org/merit-badges/dentistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -430,7 +472,14 @@
           "url": "https://youtu.be/rB7VRAaxxPQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/dentistry/"
+      "source_url": "https://www.scouting.org/merit-badges/dentistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     }
   ]
 }

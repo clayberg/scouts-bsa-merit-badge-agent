@@ -45,7 +45,14 @@
           "url": "https://youtu.be/3T2v89EsH_4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/animal-science/"
+      "source_url": "https://www.scouting.org/merit-badges/animal-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -76,7 +83,14 @@
           "url": "https://youtu.be/IaBcFGTvo1g"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/animal-science/"
+      "source_url": "https://www.scouting.org/merit-badges/animal-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -99,7 +113,14 @@
           "url": "https://youtu.be/5OsmJ_ERO3g"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/animal-science/"
+      "source_url": "https://www.scouting.org/merit-badges/animal-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -134,7 +155,14 @@
           "url": "https://youtu.be/aQMLQo-u7Sc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/animal-science/"
+      "source_url": "https://www.scouting.org/merit-badges/animal-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -210,7 +238,14 @@
           "url": "https://youtu.be/KEDqZc1uYNQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/animal-science/"
+      "source_url": "https://www.scouting.org/merit-badges/animal-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -1007,7 +1042,14 @@
           "url": "https://mannapro.com/blogs/news/chicken-terminology-101"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/animal-science/"
+      "source_url": "https://www.scouting.org/merit-badges/animal-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -1050,7 +1092,14 @@
           "url": "https://interviewguy.com/jobs-for-animal-science-majors/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/animal-science/"
+      "source_url": "https://www.scouting.org/merit-badges/animal-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

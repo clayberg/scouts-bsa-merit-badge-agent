@@ -158,7 +158,14 @@
           "url": "https://youtu.be/SY3Z1WgqaYQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/american-business/"
+      "source_url": "https://www.scouting.org/merit-badges/american-business/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "2",
@@ -234,7 +241,14 @@
           "url": "https://youtu.be/O4AziG_UKl4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/american-business/"
+      "source_url": "https://www.scouting.org/merit-badges/american-business/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "3",
@@ -310,7 +324,14 @@
           "url": "https://youtu.be/PmIUu4a-N-I"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/american-business/"
+      "source_url": "https://www.scouting.org/merit-badges/american-business/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "4",
@@ -345,7 +366,14 @@
           "url": "https://youtu.be/f6QRobJIpWw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/american-business/"
+      "source_url": "https://www.scouting.org/merit-badges/american-business/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "5",
@@ -355,7 +383,14 @@
       "req_text": "Choose a business and research how it applies to each of the primary areas of business (accounting, finance, economics, marketing, and management). Share what you have learned with your counselor.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/american-business/"
+      "source_url": "https://www.scouting.org/merit-badges/american-business/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "6",
@@ -398,7 +433,14 @@
           "url": "https://youtu.be/jMIa9SJiFb8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/american-business/"
+      "source_url": "https://www.scouting.org/merit-badges/american-business/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     }
   ]
 }

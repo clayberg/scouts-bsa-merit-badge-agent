@@ -109,7 +109,14 @@
           "url": "https://youtu.be/HvH8fmT9r6U"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -128,7 +135,14 @@
           "url": "https://youtu.be/vYbeo4iS1Pc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -219,7 +233,14 @@
           "url": "https://www.scouting.org/health-and-safety/safety-moments/rocket-safety/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -347,7 +368,14 @@
           "url": "https://youtu.be/rrD1oe5_zvw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -413,7 +441,14 @@
           "url": "https://www.youtube.com/watch?v=0-oQRSViZQE&pp=ygUUcGVyc2VydmVyYW5jZSByb3ZlciA%3D"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -489,7 +524,14 @@
           "url": "https://www.nasa.gov/spot-the-station/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -569,7 +611,14 @@
           "url": "https://youtu.be/ZbOg_cC1_Eo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -596,7 +645,14 @@
           "url": "https://astrobiology.nasa.gov/resources/graphic-histories/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/space-exploration/"
+      "source_url": "https://www.scouting.org/merit-badges/space-exploration/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

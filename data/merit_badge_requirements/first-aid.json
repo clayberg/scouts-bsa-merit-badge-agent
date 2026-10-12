@@ -214,7 +214,14 @@
           "url": "https://youtu.be/zeC2hFcziZI?si=YRyMCxm9qKxLbiZv"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -281,7 +288,14 @@
           "url": "https://scoutlife.org/video-audio/4937/first-aid-kit-buying-guide/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -753,7 +767,14 @@
           "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -837,7 +858,14 @@
           "url": "https://www.youtube.com/shorts/mZTgQikH1sQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -969,7 +997,14 @@
           "url": "https://youtu.be/8D9dwH16GLw?si=HDHXNT8t1mw5QijT"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -1109,7 +1144,14 @@
           "url": "https://youtu.be/oFLAKfjEjcg?si=GCT03PYYxBdE4jNd"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -1241,7 +1283,14 @@
           "url": "https://cpr.heart.org/en/-/media/CPR-Files/Training-Programs/AED-Implementation/2023-updates/KJ1683-AED-Guide.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -1445,7 +1494,14 @@
           "url": "https://youtu.be/TacM-3A5Ozk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -1537,7 +1593,14 @@
           "url": "https://youtu.be/D_ZKcO8Ww_c"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -1629,7 +1692,14 @@
           "url": "https://youtu.be/EYfgxODBlwY?si=dNtz-3lO0Lronu8G"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "11",
@@ -1769,7 +1839,14 @@
           "url": "https://youtu.be/aDAqWLpHXXU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "12",
@@ -1875,7 +1952,14 @@
           "url": "https://youtu.be/wbroM1Di-bI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "13",
@@ -2023,7 +2107,14 @@
           "url": "https://youtu.be/-NJm4TJ2it0?si=Q1rK65yZDzBZ9V47"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "14",
@@ -2038,7 +2129,14 @@
           "url": "https://blog.scoutingmagazine.org/2017/05/05/living-on-the-edge-this-is-the-correct-way-to-teach-someone-a-skill/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "15",
@@ -2130,7 +2228,14 @@
           "url": "https://youtu.be/gEkzn15Jpzc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/first-aid/"
+      "source_url": "https://www.scouting.org/merit-badges/first-aid/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     }
   ]
 }

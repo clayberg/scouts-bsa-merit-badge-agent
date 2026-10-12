@@ -503,13 +503,17 @@ def beautify_slide_storyboard(
     citations_list: List[Dict[str, Any]] = (deep_research_enrichment or {}).get("grounded_citations") or []
     local_connections: List[str] = list((deep_research_enrichment or {}).get("local_field_connections") or [])
     troop_affil = str((deep_research_enrichment or {}).get("troop_affiliation") or "")
+    resolved_loc: Dict[str, Any] = dict((deep_research_enrichment or {}).get("resolved_location") or {})
 
     citation_by_req: Dict[str, str] = {}
+    cit_dict_by_req: Dict[str, Dict[str, Any]] = {}
     default_domain = "Authoritative .gov/.org"
     for cit in citations_list:
         dom = str(cit.get("authority_domain") or "")
         src_t = str(cit.get("source_title") or "").split("—")[0].strip()
         r_k = str(cit.get("req_number") or "").strip()
+        if r_k:
+            cit_dict_by_req[r_k] = cit
         if dom:
             default_domain = f"{src_t} ({dom})" if src_t else dom
             if r_k:
@@ -520,6 +524,7 @@ def beautify_slide_storyboard(
     prev_theme = ""
     prev_palette = ""
     seen_hero_reqs: set = set()
+    injected_local_reqs: set = set()
     used_diagram_md5s: Dict[str, int] = {}
 
     def _file_md5(path_str: Optional[str]) -> str:
@@ -595,7 +600,7 @@ def beautify_slide_storyboard(
                 else "SCOUTS BSA GUIDE"
             )
 
-        # Grounded citation label for UI metadata (without adding repetitive bottom bars or speaker note boilerplate)
+        # Grounded citation label & dynamic Local Grounding slide enrichment
         grounded_label: Optional[str] = None
         if deep_research_enrichment and arch != "SOURCES_AND_REFERENCES":
             grounded_label = (
@@ -603,7 +608,17 @@ def beautify_slide_storyboard(
                 or citation_by_req.get(base_req_num)
                 or (f"{default_domain} • {troop_affil}" if troop_affil else default_domain)
             )
-            # On the Badge Overview slide (Slide 2), surface the resolved local field context once in bullet_points and overview banner
+            req_cit = cit_dict_by_req.get(req_num) or cit_dict_by_req.get(base_req_num) or {}
+            disp_loc = str(resolved_loc.get("display_location") or troop_affil or "Local Area").strip()
+            st_name = str(resolved_loc.get("state_name") or "State").strip()
+            st_capitol = str(resolved_loc.get("state_capitol") or "").strip()
+            nat_landmarks = str(resolved_loc.get("national_landmarks") or "").strip()
+            fed_facs = str(resolved_loc.get("federal_facilities") or "").strip()
+            sen1 = str(resolved_loc.get("senator_1") or "").strip()
+            sen2 = str(resolved_loc.get("senator_2") or "").strip()
+            h_rep = str(resolved_loc.get("house_rep") or "").strip()
+
+            # 1. Badge Overview slide (Slide 2): surface resolved local field context
             if (req_num.upper() in ("OVERVIEW", "ALL") or arch == "REQUIREMENTS_TRIAGE_MATRIX") and local_connections:
                 bps = list(slide.get("bullet_points") or [])
                 loc_summary = " • ".join(local_connections[:2])
@@ -613,6 +628,81 @@ def beautify_slide_storyboard(
                 orig_v = str(slide.get("verbatim_requirement_text") or "").strip()
                 if loc_summary and loc_summary not in orig_v:
                     slide["verbatim_requirement_text"] = f"{orig_v} ({loc_summary})".strip()
+
+            # 2. Citizenship in the Nation Requirement 7 (Slides 31-35: Landmarks, State Capitol, Federal Facility, National Monuments)
+            if badge_name.lower() == "citizenship in the nation" and base_req_num == "7" and st_capitol:
+                import re as _re
+                bps = list(slide.get("bullet_points") or [])
+                lm_items = [x.strip() for x in _re.split(r",\s*(?![^()]*\))", nat_landmarks) if x.strip()]
+                first_landmark = _re.sub(r"\s*\([^)]*\)", "", lm_items[0]).strip() if lm_items else "Local National Register Site"
+                second_landmark = _re.sub(r"\s*\([^)]*\)", "", lm_items[1]).strip() if len(lm_items) > 1 else "Minute Man NHP"
+                fed_items = [x.strip() for x in _re.split(r",\s*(?![^()]*\))", fed_facs) if x.strip()]
+                first_fed = fed_items[0] if fed_items else "Local U.S. Courthouse / Federal Building"
+                second_fed = _re.sub(r"\s*\([^)]*\)", "", fed_items[1]).strip() if len(fed_items) > 1 else "U.S. District Court"
+                short_capitol = st_capitol.split("—")[0].strip().rstrip("(").strip()
+                if "(" in short_capitol and not short_capitol.endswith(")"):
+                    short_capitol += ")"
+                if "sub-requirement deep dive" in title.lower() or arch == "STEP_BY_STEP_PROCEDURE_4CARD":
+                    slide["bullet_points"] = [
+                        f"Requirement 7a ({disp_loc}): Visit a National Historic Landmark or Register site such as {first_landmark} or {second_landmark}.",
+                        f"Requirement 7b ({st_name} Capitol): Tour {short_capitol} or the U.S. Capitol and explain its history and legislative function.",
+                        f"Requirement 7c (Federal Facility): Tour {first_fed} or {second_fed} and explain how it serves the community and nation.",
+                        f"Requirement 7d (National Monument): Choose a U.S. national monument (e.g., {first_landmark}) and explain its significance.",
+                    ]
+                elif arch == "SPLIT_VISUAL_EXPLAINER" and not slide.get("verbatim_requirement_text"):
+                    slide["bullet_points"] = [
+                        f"Local Landmarks ({disp_loc}): Nearby National Register & NPS sites include {first_landmark} and {second_landmark}.",
+                        f"State Capitol Tour ({st_name}): {short_capitol}.",
+                        f"Federal Facilities ({st_name}): {first_fed} and {second_fed}.",
+                        f"Counselor Verification Tip: Bring field notes or a visitor brochure from {first_landmark} or {first_fed}.",
+                    ]
+
+            # 3. Citizenship in the Nation Requirement 8 (Slides 36-39: Current U.S. Senators & House Representative)
+            elif badge_name.lower() == "citizenship in the nation" and base_req_num == "8" and sen1 and sen2:
+                bps = list(slide.get("bullet_points") or [])
+                sen_last = sen1.replace("Sen. ", "").split("(")[0].strip().split()[-1] if sen1 else "Senator"
+                sen_full = sen1.replace("Sen. ", "").split("(")[0].strip() if sen1 else "[Full Name]"
+                if isinstance(slide.get("worked_example"), dict):
+                    we = dict(slide["worked_example"])
+                    we["title"] = f"Constituent Letter ({disp_loc} → {sen1} / {h_rep.split('(')[0].strip()})"
+                    we["fields"] = {
+                        f"Addressee ({st_name} Delegation)": f"The Honorable {sen_full} ({sen1} or {sen2}), U.S. Senate, DC 20510 — or {h_rep}, U.S. House.",
+                        "Salutation & Opening": f"Dear Senator {sen_last}: My name is [Scout Name], a Scout with {troop_affil or disp_loc}.",
+                        f"Local Impact ({disp_loc})": f"Our troop hikes and completes conservation projects in {st_name}; we support National Park & trail stewardship.",
+                        "Constituent Ask & Close": "Please share your legislative position on public lands funding. Respectfully, [Scout Name & Return Address].",
+                    }
+                    slide["worked_example"] = we
+                elif "bill becomes a law" in title.lower():
+                    slide["bullet_points"] = [
+                        f"U.S. Senators ({st_name}): {sen1} and {sen2} represent all residents of {st_name} in the U.S. Senate (6-year terms).",
+                        f"U.S. Representative ({disp_loc}): {h_rep} represents your local Congressional District in the U.S. House (2-year term).",
+                        "Why Constituent Letters Matter: Congressional offices log every constituent letter by ZIP code and topic before floor votes.",
+                        "Youth Protection & Mailing: Review your letter with a parent/guardian before submitting via senate.gov or house.gov.",
+                    ]
+                elif arch in ("REQUIREMENT_INTRO", "SPLIT_VISUAL_EXPLAINER") and len(bps) >= 1:
+                    delegation_bullet = f"{st_name} Delegation: U.S. Senators {sen1} & {sen2}; U.S. House: {h_rep}."
+                    if not any(sen1 in str(b) for b in bps):
+                        if len(bps) >= 4:
+                            bps[0] = delegation_bullet
+                        else:
+                            bps.insert(0, delegation_bullet)
+                        slide["bullet_points"] = bps
+
+            # 4. General Local Grounding injection for any requirement across all 144 badges with requires_local_lookup=True
+            elif req_cit.get("requires_local_lookup") and req_cit.get("local_grounding_callout"):
+                callout_txt = str(req_cit.get("local_grounding_callout") or "").strip()
+                inj_label = str(req_cit.get("slide_injection_label") or f"Local Grounding ({disp_loc})").strip()
+                slide["local_grounding_callout"] = callout_txt
+                if req_num not in injected_local_reqs and arch in ("SPLIT_VISUAL_EXPLAINER", "CONCEPT_TEXT_SLIDE") and not slide.get("verbatim_requirement_text"):
+                    bps = list(slide.get("bullet_points") or [])
+                    short_callout = callout_txt if len(callout_txt) <= 165 else callout_txt[:162].rsplit(" ", 1)[0] + "..."
+                    if not any(disp_loc in str(b) for b in bps):
+                        if len(bps) < 4:
+                            bps.append(short_callout)
+                        else:
+                            bps[-1] = short_callout
+                        slide["bullet_points"] = bps
+                        injected_local_reqs.add(req_num)
 
         # Generate Visual Concept Infographics for BEAUTIFIED (Requirement Intro / Lead slides) or STUDIO
         ai_prompt: Optional[str] = None
@@ -706,11 +796,25 @@ def beautify_slide_storyboard(
                     if hero_fname in _NANO_HERO_CAPTIONS:
                         slide["visual_caption"] = _NANO_HERO_CAPTIONS[hero_fname]
                     else:
-                        raw_vc = str(slide.get("visual_caption") or "")
-                        if not raw_vc or "EDGE Skill Concept Map" in raw_vc or raw_vc.lower().startswith("requirement "):
-                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(title, badge_name)
+                        nano_cat_file = AI_ILLUSTRATIONS_DIR.parent.parent / "data" / "nano_banana_image_catalog.json"
+                        cat_cap = ""
+                        if nano_cat_file.exists():
+                            try:
+                                nc_map = json.loads(nano_cat_file.read_text(encoding="utf-8"))
+                                if isinstance(nc_map, dict) and hero_fname in nc_map:
+                                    cat_cap = strip_pamphlet_and_req_caption_prefixes(
+                                        str(nc_map[hero_fname].get("caption") or ""), badge_name
+                                    )
+                            except Exception:
+                                pass
+                        if cat_cap:
+                            slide["visual_caption"] = cat_cap
                         else:
-                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(raw_vc, badge_name)
+                            raw_vc = str(slide.get("visual_caption") or "")
+                            if not raw_vc or "EDGE Skill Concept Map" in raw_vc or raw_vc.lower().startswith("requirement "):
+                                slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(title, badge_name)
+                            else:
+                                slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(raw_vc, badge_name)
                 else:
                     from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
 

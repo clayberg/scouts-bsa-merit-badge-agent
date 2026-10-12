@@ -134,7 +134,14 @@
           "url": "https://youtu.be/52GLMQp52qg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -161,7 +168,14 @@
           "url": "https://youtu.be/j7w6LEpbLeo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -253,7 +267,14 @@
           "url": "https://www.netknots.com/fishing_knots/improved-clinch-knot"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -276,7 +297,14 @@
           "url": "https://youtu.be/OuWR6Zx1MaQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -291,7 +319,14 @@
           "url": "https://youtu.be/ey2DSp3_s6E"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -306,7 +341,14 @@
           "url": "https://youtu.be/TdV0DMk6ohs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -382,7 +424,14 @@
           "url": "https://youtu.be/SMGO50R_lrA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -397,7 +446,14 @@
           "url": "https://fishpiers.com/fishing-license-requirements-by-state-all-50-states/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -416,7 +472,14 @@
           "url": "https://youtu.be/HGJc_mb9InY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -435,7 +498,14 @@
           "url": "https://youtu.be/mZ4M-AP6-iQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "11",
@@ -470,7 +540,14 @@
           "url": "https://youtu.be/Tgv7tCx2NsA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     }
   ]
 }

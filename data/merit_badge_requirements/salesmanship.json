@@ -54,7 +54,14 @@
           "url": "https://youtu.be/XEVR9zIbMiw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/salesmanship/"
+      "source_url": "https://www.scouting.org/merit-badges/salesmanship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -121,7 +128,14 @@
           "url": "https://youtu.be/DMfH_03nR0o"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/salesmanship/"
+      "source_url": "https://www.scouting.org/merit-badges/salesmanship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -136,7 +150,14 @@
           "url": "https://youtu.be/pFG_Q7e14AA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/salesmanship/"
+      "source_url": "https://www.scouting.org/merit-badges/salesmanship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -151,7 +172,14 @@
           "url": "https://youtu.be/8eo01Wlkd4o"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/salesmanship/"
+      "source_url": "https://www.scouting.org/merit-badges/salesmanship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -183,7 +211,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/salesmanship/"
+      "source_url": "https://www.scouting.org/merit-badges/salesmanship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -280,7 +315,14 @@
           "url": "https://youtu.be/OjCnfTSrq1s"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/salesmanship/"
+      "source_url": "https://www.scouting.org/merit-badges/salesmanship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -328,7 +370,14 @@
           "url": "https://youtu.be/frRl9nrntpM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/salesmanship/"
+      "source_url": "https://www.scouting.org/merit-badges/salesmanship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

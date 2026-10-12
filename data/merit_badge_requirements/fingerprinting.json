@@ -29,7 +29,14 @@
           "url": "https://youtu.be/wg-lgiPV4rw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/"
+      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -97,7 +104,14 @@
           "url": "https://www.youtube.com/watch?v=IlThIvXn2Hk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/"
+      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "3",
@@ -165,7 +179,14 @@
           "url": "https://youtu.be/t3ppAEvI2kI?si=vSffPDpu6oJrYJZa"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/"
+      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -209,7 +230,14 @@
           "url": "https://www.youtube.com/watch?v=tqFzVfPRd5s"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/"
+      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "5",
@@ -224,7 +252,14 @@
           "url": "https://www.youtube.com/watch?v=FM8NE4VVYGk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/"
+      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -239,7 +274,14 @@
           "url": "https://youtu.be/aJaNnqnje-4?si=gpxvbC4fTZDtEFhg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/"
+      "source_url": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

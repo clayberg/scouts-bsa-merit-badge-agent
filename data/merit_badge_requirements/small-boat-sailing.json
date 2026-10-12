@@ -102,7 +102,14 @@
           "url": "https://www.scouting.org/health-and-safety/safety-moments/safety-afloat/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -117,7 +124,14 @@
           "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Swimming.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -132,7 +146,14 @@
           "url": "https://youtu.be/hJHkil8HOHo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -255,7 +276,14 @@
           "url": "https://youtu.be/vzmPjHBZ--g"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -270,7 +298,14 @@
           "url": "https://youtu.be/tIlZv-l9qcQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -429,7 +464,14 @@
           "url": "https://www.cruisingworld.com/how/what-do-when-you-run-aground/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -505,7 +547,14 @@
           "url": "https://www.sailboat-cruising.com/marine-cordage.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -515,7 +564,14 @@
       "req_text": "Describe how you would care for and maintain a sailboat and its gear throughout the year.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -525,7 +581,14 @@
       "req_text": "With your counselor, review sailing terminology and the points of sail. Discuss various types of sailboats in use today and explain their differences.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/"
+      "source_url": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     }
   ]
 }

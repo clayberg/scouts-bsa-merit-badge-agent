@@ -214,7 +214,14 @@
           "url": "https://www.cdc.gov/lead-prevention/about/index.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -281,7 +288,14 @@
           "url": "https://youtu.be/1yf7uEnEU6o"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -304,7 +318,14 @@
           "url": "https://youtu.be/4tNLdcjBlQc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -319,7 +340,14 @@
           "url": "https://youtu.be/0xSUITkRvbA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -414,7 +442,14 @@
           "url": "https://youtu.be/-2KkV2yFiN0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -498,7 +533,14 @@
           "url": "https://youtu.be/b6Dte96WdqM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -597,7 +639,14 @@
           "url": "https://youtu.be/Ml-bLyLE-_A"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "8",
@@ -620,7 +669,14 @@
           "url": "https://youtu.be/l-wciIH4FcQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-health/"
+      "source_url": "https://www.scouting.org/merit-badges/public-health/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     }
   ]
 }

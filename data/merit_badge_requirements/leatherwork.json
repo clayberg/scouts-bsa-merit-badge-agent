@@ -74,7 +74,14 @@
           "url": "https://www.mayoclinic.org/first-aid/first-aid-puncture-wounds/basics/art-20056665"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/leatherwork/"
+      "source_url": "https://www.scouting.org/merit-badges/leatherwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -166,7 +173,14 @@
           "url": "https://youtu.be/i9chSW724QI?si=m5PgNOUbjl-obxra"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/leatherwork/"
+      "source_url": "https://www.scouting.org/merit-badges/leatherwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -370,7 +384,14 @@
           "url": "https://youtu.be/kb8yyG3TO70?si=3neDiHe3jxmRj7UJ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/leatherwork/"
+      "source_url": "https://www.scouting.org/merit-badges/leatherwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -389,7 +410,14 @@
           "url": "https://youtu.be/qjqXAV9lyns?si=1VmEcBuPoFOW1wFh"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/leatherwork/"
+      "source_url": "https://www.scouting.org/merit-badges/leatherwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -489,7 +517,14 @@
           "url": "https://youtu.be/ljq0x4as32U?si=Tu4LneiFjmNgLEn1"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/leatherwork/"
+      "source_url": "https://www.scouting.org/merit-badges/leatherwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

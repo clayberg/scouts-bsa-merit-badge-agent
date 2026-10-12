@@ -25,7 +25,14 @@
           "url": "https://youtu.be/7-fLaXF6kOs?si=VNaU9JCXzi2FZEq7"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/textile/"
+      "source_url": "https://www.scouting.org/merit-badges/textile/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -107,7 +114,14 @@
           "url": "https://youtu.be/5nUjGNDImIk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/textile/"
+      "source_url": "https://www.scouting.org/merit-badges/textile/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -246,7 +260,14 @@
           "url": "https://youtu.be/BbeZvRi3eUI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/textile/"
+      "source_url": "https://www.scouting.org/merit-badges/textile/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -261,7 +282,14 @@
           "url": "https://youtu.be/QNEB-fjMauc?si=zEm50ZTr7PgymZCE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/textile/"
+      "source_url": "https://www.scouting.org/merit-badges/textile/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -276,7 +304,14 @@
           "url": "https://youtu.be/lcq9tPI-W-c?si=7pT187LPR6ZCW2c0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/textile/"
+      "source_url": "https://www.scouting.org/merit-badges/textile/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -303,7 +338,14 @@
           "url": "https://youtu.be/Z-WValUr6z8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/textile/"
+      "source_url": "https://www.scouting.org/merit-badges/textile/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

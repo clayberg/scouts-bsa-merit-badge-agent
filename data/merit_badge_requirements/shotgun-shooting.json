@@ -151,7 +151,14 @@
           "url": "https://nra.yourlearningportal.com/Course/HuntersEdActivityInfoPage"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/shotgun-shooting/"
+      "source_url": "https://www.scouting.org/merit-badges/shotgun-shooting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -405,7 +412,14 @@
           "url": "https://youtu.be/oAkZP_dXams"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/shotgun-shooting/"
+      "source_url": "https://www.scouting.org/merit-badges/shotgun-shooting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -415,7 +429,14 @@
       "req_text": "Identify how you could apply the skills and knowledge of safe and responsible use of firearms you learned in this merit badge to pursue a career or personal hobby. Research the additional training and experience you would need, expenses you may incur, and the affiliation with organizations that could help you maximize the positive impact and enjoyment you gain from it. Discuss what you learned with your counselor, and share what short-term and long-term goals you might have if you pursued this.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/shotgun-shooting/"
+      "source_url": "https://www.scouting.org/merit-badges/shotgun-shooting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

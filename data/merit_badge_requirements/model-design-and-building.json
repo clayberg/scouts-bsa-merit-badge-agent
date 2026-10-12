@@ -118,7 +118,14 @@
           "url": "https://youtu.be/KZ27mz6Yc-4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/"
+      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -202,7 +209,14 @@
           "url": "https://youtu.be/2vFdwz4U1VQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/"
+      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -275,7 +289,14 @@
           "url": "https://youtu.be/Zx37zrGLMUI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/"
+      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -423,7 +444,14 @@
           "url": "https://luukminkman.com/en/blog/how-to-sketch-a-car-with-accurate-proportions/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/"
+      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -488,7 +516,14 @@
           "url": "https://youtu.be/MRn47LCGtco"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/"
+      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -511,7 +546,14 @@
           "url": "https://interviewguy.com/jobs-for-model-makers/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/"
+      "source_url": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

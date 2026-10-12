@@ -41,7 +41,14 @@
           "url": "https://youtu.be/DXo5hmiFQmQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -85,7 +92,14 @@
           "url": "https://youtu.be/5p39acElZAU?si=98GYeFh3eCA-jNs8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -100,7 +114,14 @@
           "url": "https://youtu.be/ttvoWB2TNok?si=mMX_gPRmrIGw96ZY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -115,7 +136,14 @@
           "url": "https://youtu.be/UDuYrsxHmrA?si=IV8K7mULkWQKU43P"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -125,7 +153,14 @@
       "req_text": "Get a copy of the deed to a piece of property approved by your counselor, from the local courthouse or title agency. Discuss with your counselor the different parts of the deed and their importance.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -140,7 +175,14 @@
           "url": "https://youtu.be/NF2k8e6kvUY?si=QEKCX3GJuHW_wtkX"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -159,7 +201,14 @@
           "url": "https://youtu.be/KItEcCJfHAs?si=ta74Ncw563CCpist"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -174,7 +223,14 @@
           "url": "https://youtu.be/4V14pXYyIuo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/surveying/"
+      "source_url": "https://www.scouting.org/merit-badges/surveying/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

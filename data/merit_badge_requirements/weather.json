@@ -29,7 +29,14 @@
           "url": "https://youtu.be/6Aigcv7UnTU?si=CUj8ne3OVaoeZB_W"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -56,7 +63,14 @@
           "url": "https://youtu.be/SsTPG8Occv4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "3",
@@ -79,7 +93,14 @@
           "url": "https://www.weather.gov/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "4",
@@ -98,7 +119,14 @@
           "url": "https://youtu.be/8mHEry8tSPM?si=_Rx2aPuB2UpvW9o1"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "5",
@@ -121,7 +149,14 @@
           "url": "https://youtu.be/6M-ycZLSF1w"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "6",
@@ -136,7 +171,14 @@
           "url": "https://youtu.be/JIkEMBiT6hQ?si=3bZrjTTiTTFmspzQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "7",
@@ -155,7 +197,14 @@
           "url": "https://youtu.be/zBnKgwnn7i4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "8",
@@ -174,7 +223,14 @@
           "url": "https://youtu.be/oD4gvDliieY?si=hdY-Hb4veM6tWsRF"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "9",
@@ -193,7 +249,14 @@
           "url": "https://youtu.be/eDVbKrRV-mU?si=l6l6quf6fr2IQ3gl"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "10",
@@ -261,7 +324,14 @@
           "url": "https://youtu.be/DuZqz7wGXGY?si=cS4abYCrQrbtR3Qp"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "11",
@@ -271,7 +341,14 @@
       "req_text": "Give a talk of at least five minutes to a group (such as your unit or a Cub Scout pack) explaining the outdoor safety rules in the event of lightning, flash floods, and tornadoes. Before your talk, share your outline with your counselor for approval.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "12",
@@ -298,7 +375,14 @@
           "url": "https://youtu.be/jzmwzbhIhJQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/weather/"
+      "source_url": "https://www.scouting.org/merit-badges/weather/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     }
   ]
 }

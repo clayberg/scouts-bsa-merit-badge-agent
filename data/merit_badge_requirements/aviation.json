@@ -238,7 +238,14 @@
           "url": "https://youtu.be/NLE9sDSRj-Y"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/aviation/"
+      "source_url": "https://www.scouting.org/merit-badges/aviation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -314,7 +321,14 @@
           "url": "https://www.scouting.org/the-recreational-uas-safety-test/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/aviation/"
+      "source_url": "https://www.scouting.org/merit-badges/aviation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -388,7 +402,14 @@
           "url": "https://youtu.be/4Z-yGYn4w-A"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/aviation/"
+      "source_url": "https://www.scouting.org/merit-badges/aviation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -487,7 +508,14 @@
           "url": "https://whichmuseum.com/place/united-states-2682?q=aviation"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/aviation/"
+      "source_url": "https://www.scouting.org/merit-badges/aviation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -690,7 +718,14 @@
           "url": "https://www.bls.gov/ooh/Transportation-and-Material-Moving/Airline-and-commercial-pilots.htm"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/aviation/"
+      "source_url": "https://www.scouting.org/merit-badges/aviation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

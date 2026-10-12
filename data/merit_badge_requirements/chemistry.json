@@ -94,7 +94,14 @@
           "url": "https://youtube.com/shorts/9kK3sW1uu9U?si=Nc9ghap1S8ti5wgi"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -145,7 +152,14 @@
           "url": "https://www.youtube.com/shorts/Jx5BgbIkXEs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -221,7 +235,14 @@
           "url": "https://www.compoundchem.com/2017/05/18/red-cabbage/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -321,7 +342,14 @@
           "url": "https://www.youtube.com/watch?v=NQpTQFGKRN8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -344,7 +372,14 @@
           "url": "https://youtu.be/wt32GgQGTcI?si=kWEnOpNvegPFNKRg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -359,7 +394,14 @@
           "url": "https://www.acs.org/careers/chemical-sciences/areas.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -386,7 +428,14 @@
           "url": "https://youtu.be/MATaoXb924o?si=wi2SAv4bm-He7g2D"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -444,7 +493,14 @@
           "url": "https://youtu.be/L7GAx9b8HAQ?si=N6v5La0u1Mp5iSER"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/chemistry/"
+      "source_url": "https://www.scouting.org/merit-badges/chemistry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

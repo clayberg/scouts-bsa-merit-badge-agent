@@ -25,7 +25,14 @@
           "url": "https://youtu.be/6kH2KWwFW4w?si=cUxiSFBWOp3k5yA0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -92,7 +99,14 @@
           "url": "https://ceramic.school/pottery-wheels/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -107,7 +121,14 @@
           "url": "https://thedelphiguide.com/ancient-greek-pottery-shapes/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -126,7 +147,14 @@
           "url": "https://lakesidepottery.com/HTML%20Text/Tips/A%20pottery%20glossary.htm"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -258,7 +286,14 @@
           "url": "https://select.schoolspecialty.com/wcsstore/SSICatalogAssetStore/ideas-resources/V2182479.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -273,7 +308,14 @@
           "url": "https://ceramics.org/about/what-are-ceramics/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -349,7 +391,14 @@
           "url": "https://youtu.be/lEtUExELKWM?si=t-eV0aXrNOoIlyB5"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -368,7 +417,14 @@
           "url": "https://interviewguy.com/jobs-for-potters/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/pottery/"
+      "source_url": "https://www.scouting.org/merit-badges/pottery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

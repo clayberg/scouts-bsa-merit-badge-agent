@@ -54,7 +54,14 @@
           "url": "https://www.youtube.com/watch?v=TjPFZaMe2yw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scholarship/"
+      "source_url": "https://www.scouting.org/merit-badges/scholarship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -146,7 +153,14 @@
           "url": "https://youtu.be/1iVcFKAFu2E"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scholarship/"
+      "source_url": "https://www.scouting.org/merit-badges/scholarship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -156,7 +170,14 @@
       "req_text": "Get a note from the principal of your school (or another school official named by the principal) that states that during the past year your behavior, leadership, and service have been satisfactory. Note: If you are home-schooled or your school environment does not include a principal, you may obtain a note from a counterpart such as your parent or guardian.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/scholarship/"
+      "source_url": "https://www.scouting.org/merit-badges/scholarship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -208,7 +229,14 @@
           "url": "https://www.youtube.com/watch?v=zdAfzLry85I"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scholarship/"
+      "source_url": "https://www.scouting.org/merit-badges/scholarship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -252,7 +280,14 @@
           "url": "https://www.youtube.com/watch?v=o22BiMAMKPA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scholarship/"
+      "source_url": "https://www.scouting.org/merit-badges/scholarship/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -37,7 +37,14 @@
           "url": "https://youtu.be/mXs71vqrvqI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mammal-study/"
+      "source_url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -64,7 +71,14 @@
           "url": "https://www.departments.bucknell.edu/biology/resources/msw3/browse.asp"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mammal-study/"
+      "source_url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -114,7 +128,14 @@
           "url": "https://www.greenbelly.co/pages/animal-tracks-identification-guide"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mammal-study/"
+      "source_url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -288,7 +309,14 @@
           "url": "https://www.sciencefacts.net/tundra-food-chain.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mammal-study/"
+      "source_url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -311,7 +339,14 @@
           "url": "https://www.youtube.com/watch?v=Vl0W8navRIg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mammal-study/"
+      "source_url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -330,7 +365,14 @@
           "url": "https://youtu.be/jXO1uY0MvmQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mammal-study/"
+      "source_url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -382,7 +424,14 @@
           "url": "https://youtu.be/kgtt21yKZOw?si=f5yRyDVQYFQXD4YB"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mammal-study/"
+      "source_url": "https://www.scouting.org/merit-badges/mammal-study/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     }
   ]
 }

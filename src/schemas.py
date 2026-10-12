@@ -334,6 +334,11 @@ class GroundedWebCitation(BaseModel):
         False,
         description="Always False for web supplements; the BSA Pamphlet remains the primary source of truth.",
     )
+    grounding_category: str = Field("", description="Local grounding taxonomy category (e.g., 'elected_officials', 'civic_landmarks_and_monuments').")
+    requires_local_lookup: bool = Field(False, description="True if this requirement is tagged for hyper-local slide & UI augmentation.")
+    local_grounding_callout: str = Field("", description="Concise slide-ready local grounding callout tailored to the counselor's location.")
+    slide_injection_label: str = Field("", description="Short heading label for slide/UI local grounding callout.")
+    cache_status: str = Field("", description="Cache or live Gemini verification status (e.g., 'LIVE_GEMINI_GROUNDED', 'CACHE_HIT_24H').")
 
 
 class DeepResearchEnrichmentResult(BaseModel):

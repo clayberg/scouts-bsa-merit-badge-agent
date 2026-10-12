@@ -25,7 +25,14 @@
           "url": "https://youtu.be/OsPSSayWEOU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/metalwork/"
+      "source_url": "https://www.scouting.org/merit-badges/metalwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -137,7 +144,14 @@
           "url": "https://youtu.be/DPa4LmO7L1s"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/metalwork/"
+      "source_url": "https://www.scouting.org/merit-badges/metalwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -188,7 +202,14 @@
           "url": "https://youtu.be/loewH904oOk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/metalwork/"
+      "source_url": "https://www.scouting.org/merit-badges/metalwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -272,7 +293,14 @@
           "url": "https://youtube.com/shorts/nr8BpATBXKk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/metalwork/"
+      "source_url": "https://www.scouting.org/merit-badges/metalwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -660,7 +688,14 @@
           "url": "https://youtu.be/dw3rSK7L1Aw?si=DGyYJl6q65MdrVNY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/metalwork/"
+      "source_url": "https://www.scouting.org/merit-badges/metalwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

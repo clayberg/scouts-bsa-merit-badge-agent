@@ -70,7 +70,14 @@
           "url": "https://youtu.be/jo2zi_JB9_4?si=nVI-3TY16Ma1BL1p"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/snow-sports/"
+      "source_url": "https://www.scouting.org/merit-badges/snow-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -105,7 +112,14 @@
           "url": "https://youtu.be/Zl0ZyNoox8M?si=xgYuHNUn5izc4HA7"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/snow-sports/"
+      "source_url": "https://www.scouting.org/merit-badges/snow-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -120,7 +134,14 @@
           "url": "https://youtu.be/N_f6xMFVVHc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/snow-sports/"
+      "source_url": "https://www.scouting.org/merit-badges/snow-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -135,7 +156,14 @@
           "url": "https://youtu.be/a8sf5k3fH9I"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/snow-sports/"
+      "source_url": "https://www.scouting.org/merit-badges/snow-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -150,7 +178,14 @@
           "url": "https://youtu.be/mjJNpR3nepM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/snow-sports/"
+      "source_url": "https://www.scouting.org/merit-badges/snow-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -210,7 +245,14 @@
           "url": "https://youtu.be/_f-vEc5LTFM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/snow-sports/"
+      "source_url": "https://www.scouting.org/merit-badges/snow-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -1067,7 +1109,14 @@
           "url": "https://youtu.be/P1LL2FXK6o0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/snow-sports/"
+      "source_url": "https://www.scouting.org/merit-badges/snow-sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     }
   ]
 }

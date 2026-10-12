@@ -41,7 +41,14 @@
           "url": "https://simplyglobalmedia.com/media-law-and-ethics-glossary/fair-comment-and-criticism/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/journalism/"
+      "source_url": "https://www.scouting.org/merit-badges/journalism/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -96,7 +103,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/journalism/"
+      "source_url": "https://www.scouting.org/merit-badges/journalism/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -153,7 +167,14 @@
           "url": "https://youtu.be/05wi-BfLDRU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/journalism/"
+      "source_url": "https://www.scouting.org/merit-badges/journalism/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -204,7 +225,14 @@
           "url": "https://youtu.be/fLeii6OSIAk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/journalism/"
+      "source_url": "https://www.scouting.org/merit-badges/journalism/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -231,7 +259,14 @@
           "url": "https://www.extern.com/post/what-can-you-do-with-a-journalism-degree-guide"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/journalism/"
+      "source_url": "https://www.scouting.org/merit-badges/journalism/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

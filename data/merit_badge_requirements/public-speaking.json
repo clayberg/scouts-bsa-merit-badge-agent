@@ -29,7 +29,14 @@
           "url": "https://youtu.be/e_swBD_-yR4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-speaking/"
+      "source_url": "https://www.scouting.org/merit-badges/public-speaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -56,7 +63,14 @@
           "url": "https://youtube.com/shorts/IEAmkl7VmHU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-speaking/"
+      "source_url": "https://www.scouting.org/merit-badges/public-speaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -87,7 +101,14 @@
           "url": "https://youtu.be/Rw2TZv56qO4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-speaking/"
+      "source_url": "https://www.scouting.org/merit-badges/public-speaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -106,7 +127,14 @@
           "url": "https://youtube.com/shorts/zNpPaeRXVIs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-speaking/"
+      "source_url": "https://www.scouting.org/merit-badges/public-speaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -125,7 +153,14 @@
           "url": "https://youtu.be/gDfhNGMO_0gl"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/public-speaking/"
+      "source_url": "https://www.scouting.org/merit-badges/public-speaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

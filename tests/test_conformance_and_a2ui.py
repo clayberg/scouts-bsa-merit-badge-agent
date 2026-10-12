@@ -1027,9 +1027,12 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
     html = client.get("/").text
     app_js = Path("ui/app.js").read_text(encoding="utf-8")
 
-    # 1. Verify dropdown labels & absence of NotebookLM
-    assert "AI Beautified — Warm Cream + Hero Graphics (~$0.38)" in html
-    assert "AI Studio — Dark Slate + Hero Graphics ($1.00 Budget)" in html
+    # 1. Verify dropdown labels, official BSA logo, 144 badges subhead & absence of NotebookLM / per-deck cost
+    assert "AI Beautified — Warm Cream + Full Pre-Cached Visuals" in html
+    assert "AI Studio — Dark Slate + Full Pre-Cached Visuals" in html
+    assert "Standard Lightweight — Crisp White (Pamphlet Figures Only)" in html
+    assert "/assets/bsa_logo.png" in html
+    assert "All 144 Official Merit Badges &bull; Teaching Slide Decks &amp; Printable Scout Workbooks" in html
     assert "NotebookLM" not in html
 
     # 2. Verify #trace-progress-card placement inside #storyboard-left-col

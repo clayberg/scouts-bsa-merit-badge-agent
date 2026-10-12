@@ -25,7 +25,14 @@
           "url": "https://www.quicktransportsolutions.com/quickfreight/loadboard/carrier-searchby-citystate.php"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -101,7 +108,14 @@
           "url": "https://youtu.be/fdg9nhmZuJw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -116,7 +130,14 @@
           "url": "https://youtu.be/3G9x6U3VkwQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -248,7 +269,14 @@
           "url": "https://youtube.com/shorts/SpmOiaa64LQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -283,7 +311,14 @@
           "url": "https://www.bestyetexpresstrucking.com/jobs-in-the-trucking-industry/?utm_source=chatgpt.com"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -298,7 +333,14 @@
           "url": "https://www.osha.gov/trucking-industry/other-federal-agencies"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -313,7 +355,14 @@
           "url": "https://youtu.be/wMil4tzaOcU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -404,7 +453,14 @@
           "url": "https://www.flockfreight.com/blog/understanding-freight-shipping-insurance-a-comprehensive-guide?utm_source=chatgpt.com"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -431,7 +487,14 @@
           "url": "https://youtu.be/UlstPHRwhA8?si=DJa8Oa9evpW0wc7B"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -462,7 +525,14 @@
           "url": "https://youtu.be/zVZ3RASiXoA?si=FhUizvScSxHerKZy"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/"
+      "source_url": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

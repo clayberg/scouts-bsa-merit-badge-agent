@@ -143,7 +143,14 @@
           "url": "https://youtu.be/mRQ0HHA3KAo?si=2bj_q6MXIj1KvTqX"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -162,7 +169,14 @@
           "url": "https://youtu.be/E49ZEmiLEPo?si=nEQKsinBVH62ArCc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -185,7 +199,14 @@
           "url": "https://youtu.be/n6XApOOpfA8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -220,7 +241,14 @@
           "url": "https://www.animatedknots.com/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -247,7 +275,14 @@
           "url": "https://youtu.be/nmOdusje6tY?"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -307,7 +342,14 @@
           "url": "https://youtu.be/SMGO50R_lrA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -322,7 +364,14 @@
           "url": "https://fishpiers.com/fishing-license-requirements-by-state-all-50-states/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -337,7 +386,14 @@
           "url": "https://youtu.be/54ImytCqbzI?si=hueVbET92MOl-dIg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -360,7 +416,14 @@
           "url": "https://youtu.be/mZ4M-AP6-iQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -387,7 +450,14 @@
           "url": "https://youtu.be/Tgv7tCx2NsA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fishing/"
+      "source_url": "https://www.scouting.org/merit-badges/fishing/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     }
   ]
 }

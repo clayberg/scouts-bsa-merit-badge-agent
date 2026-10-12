@@ -20,7 +20,14 @@
       "req_text": "Go to a completed landscape project that a landscape architect has designed. Before you visit the site, obtain a plan of the design from the landscape architect if one is available.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -96,7 +103,14 @@
           "url": "https://youtu.be/aBVcBep4Gv8?si=qvfbVWL4ZB2Qb4DJ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -111,7 +125,14 @@
           "url": "https://youtu.be/YcMsvqqmorM?si=NO405TME8veCY23U"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -153,7 +174,14 @@
           "url": "https://youtu.be/6fLp1fWKzjQ?si=9c4WHFrHoS30ltSk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -168,7 +196,14 @@
           "url": "https://youtu.be/vVRUsQ8WrW8?si=miQ1-ySUPKVHHO8s"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/landscape-architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     }
   ]
 }

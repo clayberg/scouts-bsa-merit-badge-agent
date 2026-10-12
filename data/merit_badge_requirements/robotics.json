@@ -54,7 +54,14 @@
           "url": "https://www.youtube.com/watch?v=0jp5FgLmKtk&list=PLHGEvyG5wuthXQZzTc-mLwFrP5F6_1Lce&index=1"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/robotics/"
+      "source_url": "https://www.scouting.org/merit-badges/robotics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -122,7 +129,14 @@
           "url": "https://youtu.be/aVuNcVW-gzE?si=xoginEhjVnWEPiMd"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/robotics/"
+      "source_url": "https://www.scouting.org/merit-badges/robotics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -137,7 +151,14 @@
           "url": "https://youtu.be/exEBkd1Gn0I"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/robotics/"
+      "source_url": "https://www.scouting.org/merit-badges/robotics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -237,7 +258,14 @@
           "url": "https://youtu.be/c8asK8iCaRk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/robotics/"
+      "source_url": "https://www.scouting.org/merit-badges/robotics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -262,7 +290,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/robotics/"
+      "source_url": "https://www.scouting.org/merit-badges/robotics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -296,7 +331,14 @@
           "url": "https://youtu.be/Mi6E37oU8yc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/robotics/"
+      "source_url": "https://www.scouting.org/merit-badges/robotics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -372,7 +414,14 @@
           "url": "https://youtu.be/wAMXnxXa3UU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/robotics/"
+      "source_url": "https://www.scouting.org/merit-badges/robotics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

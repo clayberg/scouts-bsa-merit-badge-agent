@@ -25,7 +25,14 @@
           "url": "https://youtu.be/1eux6YDkSlU?si=ZJzJVOHHGSDRUm7g"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -40,7 +47,14 @@
           "url": "https://youtu.be/gVRCRMkzmEA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -55,7 +69,14 @@
           "url": "https://youtu.be/0EVZMYM31c8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -70,7 +91,14 @@
           "url": "https://youtu.be/gj45pzJifM0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -146,7 +174,14 @@
           "url": "https://youtu.be/OaLiqcrvFl4?si=0s31JHvLhbnxRv9X"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -197,7 +232,14 @@
           "url": "https://youtu.be/kK9fl2R0xPQ?si=ohRZAyFbJpKPGcgR"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -273,7 +315,14 @@
           "url": "https://www.youtube.com/shorts/D8N0Y6tj9Yw?feature=share"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -296,7 +345,14 @@
           "url": "https://wildlife.org/wildlife-careers/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/"
+      "source_url": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     }
   ]
 }

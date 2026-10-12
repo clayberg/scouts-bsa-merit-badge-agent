@@ -2697,13 +2697,14 @@ def generate_bsa_slide_deck_pptx(
         footer_rgb = (148, 163, 184) if s_tier == "STUDIO" else ScoutsBSAPalette.MUTED_TEXT_RGB
         _set_paragraph_runs(
             fp,
-            f"Scouts BSA {badge_title} Merit Badge • {s_tier} Mode",
+            f"Scouts BSA {badge_title} Merit Badge",
             f"Slide {slide_num} of {total_deck_slides} • {req_tag}",
             font_size_pt=13.0,
             anchor_rgb=footer_rgb,
             body_rgb=footer_rgb,
             space_after_pt=0.0,
             align=PP_ALIGN.LEFT,
+            separator=" • ",
         )
 
         # ---------------------------------------------------------------------

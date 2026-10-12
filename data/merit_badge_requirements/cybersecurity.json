@@ -84,7 +84,14 @@
           "url": "https://www.kidsplus.com/parent-resources/doctors-notes/computer-ergonomics/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -136,7 +143,14 @@
           "url": "https://onlinelaw.csuohio.edu/understanding-cybersecurity-ethics-and-navigating-moral-complexities/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -196,7 +210,14 @@
           "url": "https://www.coursera.org/articles/cia-triad"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -407,7 +428,14 @@
           "url": "https://youtu.be/70gFQXARYzA?si=wvC4SEU3IfYWuVgC"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -814,7 +842,14 @@
           "url": "https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -1026,7 +1061,14 @@
           "url": "https://www.youtube.com/watch?v=4PZb0tkxuUk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -1049,7 +1091,14 @@
           "url": "https://www.ibm.com/think/topics/internet-of-things"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -1148,7 +1197,14 @@
           "url": "https://picoctf.org/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -1199,7 +1255,14 @@
           "url": "https://youtu.be/f_69UzSfBsA?si=yaS27J2ojq32wcj1"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/"
+      "source_url": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

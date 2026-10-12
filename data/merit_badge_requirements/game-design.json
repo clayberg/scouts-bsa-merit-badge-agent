@@ -62,7 +62,14 @@
           "url": "https://creospace.co.nz/what-is-play-value/?srsltid=AfmBOoofaC0pj5-A0gv3I2TXwTg2wmyet3gIuRf4FLAPf4WIiHh9gvrt"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -81,7 +88,14 @@
           "url": "https://youtu.be/UAuEx0LcWX8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -108,7 +122,14 @@
           "url": "https://www.lexology.com/library/detail.aspx?g=996bfdec-3735-42d8-8cc9-d7734fb55f37#:~:text=In%20the%20gaming%20industry%20context,copyrights%2C%20trademarks%2C%20and%20patents."
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -183,7 +204,14 @@
           "url": "https://youtu.be/nCABHpUfx3w"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -258,7 +286,14 @@
           "url": "https://www.youtube.com/shorts/WYM5_o449VU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -317,7 +352,14 @@
           "url": "https://www.youtube.com/shorts/gsv5Y-vM6hI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -359,7 +401,14 @@
           "url": "https://www.youtube.com/shorts/L5r3Qr5JIOk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -403,7 +452,14 @@
           "url": "https://sgda.io/about.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/game-design/"
+      "source_url": "https://www.scouting.org/merit-badges/game-design/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

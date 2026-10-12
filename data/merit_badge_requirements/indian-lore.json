@@ -25,7 +25,14 @@
           "url": "https://youtu.be/q7v3zl5tgKA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/indian-lore/"
+      "source_url": "https://www.scouting.org/merit-badges/indian-lore/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -35,7 +42,14 @@
       "req_text": "Research an American Indian tribe, group, or nation. Tell your counselor about traditional dwellings, way of life, tribal government, religious beliefs, family and clan relationships, language, clothing styles, arts and crafts, food cultivation, foraging and preparation, means of getting around, games, customs in warfare, and where and how they live today.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/indian-lore/"
+      "source_url": "https://www.scouting.org/merit-badges/indian-lore/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -86,7 +100,14 @@
           "url": "https://youtu.be/nBYtf58Vpt0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/indian-lore/"
+      "source_url": "https://www.scouting.org/merit-badges/indian-lore/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -145,7 +166,14 @@
           "url": "https://youtu.be/7ipsFFUyr00"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/indian-lore/"
+      "source_url": "https://www.scouting.org/merit-badges/indian-lore/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -205,7 +233,14 @@
           "url": "https://destinationnativeamerica.com/upcoming_events"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/indian-lore/"
+      "source_url": "https://www.scouting.org/merit-badges/indian-lore/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

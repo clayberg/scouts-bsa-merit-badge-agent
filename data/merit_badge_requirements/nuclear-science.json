@@ -150,7 +150,14 @@
           "url": "https://www.ans.org/nuclear/dosechart/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -218,7 +225,14 @@
           "url": "https://isotopes.ans.org/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -285,7 +299,14 @@
           "url": "https://youtu.be/nrXhK3Gh5EE?si=kH7N_aBRmhyZOkpJ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -373,7 +394,14 @@
           "url": "https://youtu.be/mCSXJNVdK0Y?si=A3UPqOjowKtkSmxk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -465,7 +493,14 @@
           "url": "https://youtu.be/-pwY3-7lJJg?si=qctALb5U-IM9vG-K"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -537,7 +572,14 @@
           "url": "https://www.eia.gov/consumption/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -564,7 +606,14 @@
           "url": "https://youtu.be/WYxo_iuzGYk?si=62AsgY7kDBUzLiZd"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -595,7 +644,14 @@
           "url": "https://www.energy.gov/ne/articles/7-nuclear-careers-dont-require-engineering-degree"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/"
+      "source_url": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

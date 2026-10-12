@@ -37,7 +37,14 @@
           "url": "https://youtu.be/R2h8CrX84Eo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -56,7 +63,14 @@
           "url": "https://youtu.be/nXh2lEk2XNs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -220,7 +234,14 @@
           "url": "https://www.youthrights.org/about/our-movement/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -288,7 +309,14 @@
           "url": "https://youtu.be/ki23hxGovao"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -319,7 +347,14 @@
           "url": "https://www.politifact.com/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -397,7 +432,14 @@
           "url": "https://www.americanrhetoric.com/top100speechesall.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -536,7 +578,14 @@
           "url": "https://www.house.gov/representatives/find-your-representative"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -546,7 +595,14 @@
       "req_text": "Name your representatives in the United States Congress. Write to your representative in Congress explaining your views on a national issue. Show your correspondence, along with any response you receive, to your counselor.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/"
+      "source_url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "elected_officials",
+        "search_query_template": "Current two U.S. Senators for {state}, U.S. House Representative for {city}, {state}, and Governor of {state} with official senate.gov and house.gov contact links",
+        "slide_injection_label": "Your Current U.S. Senators & Congressional Delegation",
+        "ttl_days": 1
+      }
     }
   ]
 }

@@ -63,7 +63,14 @@
           "url": "https://www.youtube.com/shorts/BVCmz9KnwWk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/home-repairs/"
+      "source_url": "https://www.scouting.org/merit-badges/home-repairs/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -187,7 +194,14 @@
           "url": "https://youtu.be/Dc67opK57sk?si=xnMQ0ueGHn6NUdtN"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/home-repairs/"
+      "source_url": "https://www.scouting.org/merit-badges/home-repairs/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -341,7 +355,14 @@
           "url": "https://www.youtube.com/watch?v=y1ZIZhl-Cik"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/home-repairs/"
+      "source_url": "https://www.scouting.org/merit-badges/home-repairs/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -424,7 +445,14 @@
           "url": "https://youtu.be/OC-b-00d-R0?si=uLx_WNclhiSbWhrx"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/home-repairs/"
+      "source_url": "https://www.scouting.org/merit-badges/home-repairs/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -540,7 +568,14 @@
           "url": "https://youtu.be/K6qXBbpL8VE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/home-repairs/"
+      "source_url": "https://www.scouting.org/merit-badges/home-repairs/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -695,7 +730,14 @@
           "url": "https://www.youtube.com/watch?v=M2vtfNxHVv0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/home-repairs/"
+      "source_url": "https://www.scouting.org/merit-badges/home-repairs/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -739,7 +781,14 @@
           "url": "https://www.youtube.com/shorts/Nj_S3xl2GYg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/home-repairs/"
+      "source_url": "https://www.scouting.org/merit-badges/home-repairs/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

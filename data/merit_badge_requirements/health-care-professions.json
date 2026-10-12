@@ -158,7 +158,14 @@
           "url": "https://youtube.com/shorts/ktKV6ho8ApA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -330,7 +337,14 @@
           "url": "https://youtu.be/Zf8bGNZWz9s"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -486,7 +500,14 @@
           "url": "https://youtu.be/VdGSkYL3u5A"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -642,7 +663,14 @@
           "url": "https://www.nsh.org/about/about-histotechnology/how-histotechnology"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -700,7 +728,14 @@
           "url": "https://youtu.be/Mqo0IsStelk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -715,7 +750,14 @@
           "url": "https://youtu.be/QbU61uO3Vdw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -734,7 +776,14 @@
           "url": "https://youtu.be/HQK637UTyMU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -757,7 +806,14 @@
           "url": "https://youtu.be/QSE4FcT4z_g"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -767,7 +823,14 @@
       "req_text": "With your parent or guardian's and counselor's approval, serve as a volunteer at a health-related event or facility in your community (e.g., blood drive, health fair, blood pressure screening event). Report to your counselor what you did and learned from the experience.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/"
+      "source_url": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     }
   ]
 }

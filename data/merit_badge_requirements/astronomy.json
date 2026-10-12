@@ -102,7 +102,14 @@
           "url": "https://youtu.be/avxnK7MGYIA?si=hnW7se_YfpY2lxGv"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -129,7 +136,14 @@
           "url": "https://youtu.be/K9TFgghIJSs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -281,7 +295,14 @@
           "url": "https://www.celestron.com/blogs/knowledgebase/caring-for-your-celestron-telescope-how-to-maintain-store-and-ship-your-telescope?srsltid=AfmBOopGO5xdG8YN2b93_gRGY1SlvJtNBCyKEo9Y6fDXu9u54MLNLwZ4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -409,7 +430,14 @@
           "url": "https://imagine.gsfc.nasa.gov/science/objects/milkyway1.html"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -529,7 +557,14 @@
           "url": "https://www.timeanddate.com/astronomy/night/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -685,7 +720,14 @@
           "url": "https://kcts9.pbslearningmedia.org/resource/buac18-sci-ess-eclipsesexplain/eclipses-explained/?student=true"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -777,7 +819,14 @@
           "url": "https://youtu.be/L-Wtlev6suc?si=vg4sHLrJXp6_Hfag"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -908,7 +957,14 @@
           "url": "https://skynet.unc.edu/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -976,7 +1032,14 @@
           "url": "https://ras.ac.uk/education-and-careers/for-everyone/92-getting-started-in-astronomy"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/astronomy/"
+      "source_url": "https://www.scouting.org/merit-badges/astronomy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

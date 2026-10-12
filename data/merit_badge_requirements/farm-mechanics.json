@@ -150,7 +150,14 @@
           "url": "https://www.hseblog.com/where-find-sds/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/"
+      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -218,7 +225,14 @@
           "url": "https://youtu.be/zJuhem5LuAg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/"
+      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -334,7 +348,14 @@
           "url": "https://www.tiktok.com/@paul.a.j.sellers/video/6854554012323171590"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/"
+      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -402,7 +423,14 @@
           "url": "https://www.tiktok.com/@michiganmarinefarmer/video/7596082158477921566"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/"
+      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -412,7 +440,14 @@
       "req_text": "Visit an implement dealer. Interview the dealer technician or service manager for hints on good preventive maintenance. Ask why it is important, the costs, and what causes wear or damage. Report what you learn.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/"
+      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -472,7 +507,14 @@
           "url": "https://youtu.be/wPR2Lbmn7wM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/"
+      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -503,7 +545,14 @@
           "url": "https://youtu.be/7B9V96I5Rxs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/"
+      "source_url": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

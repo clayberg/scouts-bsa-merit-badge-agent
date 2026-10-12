@@ -87,7 +87,14 @@
           "url": "https://youtu.be/KahsIEbFROI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/sports/"
+      "source_url": "https://www.scouting.org/merit-badges/sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -147,7 +154,14 @@
           "url": "https://youtu.be/CSHO9VdVRfg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/sports/"
+      "source_url": "https://www.scouting.org/merit-badges/sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -223,7 +237,14 @@
           "url": "https://youtu.be/KoDu2FpU57c"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/sports/"
+      "source_url": "https://www.scouting.org/merit-badges/sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -233,7 +254,14 @@
       "req_text": "Select TWO of the following sports and discuss with your counselor how you will complete the requirements in 5(a) through 5(h) for each sport: badminton, baseball, basketball, bowling, cross-country, diving, field hockey, flag football, flag team, golf, gymnastics, ice hockey, lacrosse, soccer, softball, spirit/cheerleading, swimming, table tennis, tackle football, tennis, track and field, volleyball, water polo, and/or wrestling. Your counselor may approve in advance other recognized sports, but not any sport that is prohibited by Scouting America. The sports you choose must include regular practice sessions and at least four structured, officiated, scored games, meets, or contests against other competitive individuals or organized teams during the period of participation.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/sports/"
+      "source_url": "https://www.scouting.org/merit-badges/sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -426,7 +454,14 @@
           "url": "https://pioneerathletics.com/painting-fields/field-diagrams"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/sports/"
+      "source_url": "https://www.scouting.org/merit-badges/sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -478,7 +513,14 @@
           "url": "https://youtu.be/3DM3_ocFy0U"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/sports/"
+      "source_url": "https://www.scouting.org/merit-badges/sports/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -70,7 +70,14 @@
           "url": "https://youtu.be/L77rERL64zc"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/basketry/"
+      "source_url": "https://www.scouting.org/merit-badges/basketry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -138,7 +145,14 @@
           "url": "https://youtube.com/shorts/yqe6R4uWzQo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/basketry/"
+      "source_url": "https://www.scouting.org/merit-badges/basketry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -230,7 +244,14 @@
           "url": "https://youtu.be/e_boV4f5tp4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/basketry/"
+      "source_url": "https://www.scouting.org/merit-badges/basketry/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -37,7 +37,14 @@
           "url": "https://youtu.be/P6aBc4OAD0g"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -52,7 +59,14 @@
           "url": "https://youtu.be/26Zc5AVkFis?si=BBTUkJ_RFGL6VdEI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -96,7 +110,14 @@
           "url": "https://youtu.be/0cF0ovA3FtY?si=o6nQlPuwNkbBJhwu"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -163,7 +184,14 @@
           "url": "https://youtu.be/SStmBzQC7eI?si=Le11Br8wWTxuIj0J"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -178,7 +206,14 @@
           "url": "https://youtu.be/YAS9Cc8fhO8?si=hYookKh8Yld4_auy"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -238,7 +273,14 @@
           "url": "https://betterorienteering.org/intermediate-techniques"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -263,7 +305,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -298,7 +347,14 @@
           "url": "https://youtu.be/IfSaBKaau4k"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -308,7 +364,14 @@
       "req_text": "Act as an official during an orienteering event. This may be during the running of the course you set up for requirement 8.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "10",
@@ -318,7 +381,14 @@
       "req_text": "Teach orienteering techniques to your patrol, troop, or crew.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/orienteering/"
+      "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     }
   ]
 }

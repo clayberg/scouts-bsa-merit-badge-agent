@@ -29,7 +29,14 @@
           "url": "https://youtu.be/qNiOXc6pSBQ"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/geology/"
+      "source_url": "https://www.scouting.org/merit-badges/geology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -44,7 +51,14 @@
           "url": "https://youtu.be/wQhFQFeYdJU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/geology/"
+      "source_url": "https://www.scouting.org/merit-badges/geology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -59,7 +73,14 @@
           "url": "https://www.stategeologists.org/surveys"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/geology/"
+      "source_url": "https://www.scouting.org/merit-badges/geology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -637,7 +658,14 @@
           "url": "https://youtu.be/ZiULxLLP32s?si=cf6ZuLcT8kpFd-DW"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/geology/"
+      "source_url": "https://www.scouting.org/merit-badges/geology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -672,7 +700,14 @@
           "url": "https://vimeo.com/1115216743/63b20c0b33?share=copy"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/geology/"
+      "source_url": "https://www.scouting.org/merit-badges/geology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -748,7 +783,14 @@
           "url": "https://youtu.be/75QB3OFbEi0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/geology/"
+      "source_url": "https://www.scouting.org/merit-badges/geology/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

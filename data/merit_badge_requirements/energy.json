@@ -53,7 +53,14 @@
           "url": "https://youtu.be/CW0_S5YpYVo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -177,7 +184,14 @@
           "url": "https://youtu.be/-1xsyt4T6eU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -221,7 +235,14 @@
           "url": "https://youtu.be/gWil5xVfwqw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -309,7 +330,14 @@
           "url": "https://youtu.be/uCDOm4AcPQk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -348,7 +376,14 @@
           "url": "https://www.un.org/en/actnow/ten-actions#:~:text=Use%20less%20energy%20by%20reducing,instead%20of%20using%20a%20dryer."
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -472,7 +507,14 @@
           "url": "https://www.eia.gov/international/overview/world"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -656,7 +698,14 @@
           "url": "https://youtu.be/9tJjDQ-X2mo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -675,7 +724,14 @@
           "url": "https://www.energy.gov/ne/articles/7-nuclear-careers-dont-require-engineering-degree"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/energy/"
+      "source_url": "https://www.scouting.org/merit-badges/energy/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -54,7 +54,14 @@
           "url": "https://weldingheadquarters.com/how-to-treat-welding-burns/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/welding/"
+      "source_url": "https://www.scouting.org/merit-badges/welding/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -122,7 +129,14 @@
           "url": "https://youtu.be/HrjpCHfbYJE?si=NeeiVkfW-8XJlOKe"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/welding/"
+      "source_url": "https://www.scouting.org/merit-badges/welding/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -137,7 +151,14 @@
           "url": "https://www.millerwelds.com/resources/article-library/understanding-common-welding-terms-a-guide-for-beginners"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/welding/"
+      "source_url": "https://www.scouting.org/merit-badges/welding/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -152,7 +173,14 @@
           "url": "https://engineerfix.com/types-of-cutting-methods-mechanical-thermal-more/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/welding/"
+      "source_url": "https://www.scouting.org/merit-badges/welding/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -187,7 +215,14 @@
           "url": "https://youtu.be/y-OKi8oSNQ4?si=sTy6oV_X2gC7tqr3"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/welding/"
+      "source_url": "https://www.scouting.org/merit-badges/welding/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -291,7 +326,14 @@
           "url": "https://youtu.be/0AxiCSe-dCQ?si=uoHqPtfJj9LIGrue"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/welding/"
+      "source_url": "https://www.scouting.org/merit-badges/welding/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -335,7 +377,14 @@
           "url": "https://youtu.be/tZaEMO4bPHg?si=deNNIvCoSNCICh4S"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/welding/"
+      "source_url": "https://www.scouting.org/merit-badges/welding/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -150,7 +150,14 @@
           "url": "https://youtu.be/C4g2v08D2gY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/"
+      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -250,7 +257,14 @@
           "url": "https://youtu.be/cwohn5eJsnU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/"
+      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -269,7 +283,14 @@
           "url": "https://www.avma.org/education/center-for-veterinary-accreditation/accredited-veterinary-colleges"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/"
+      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -292,7 +313,14 @@
           "url": "https://youtu.be/qu-lmIlWJfE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/"
+      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -307,7 +335,14 @@
           "url": "https://youtu.be/7tVGEzh-JHs"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/"
+      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -332,7 +367,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/"
+      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -387,7 +429,14 @@
           "url": "https://youtu.be/dAISdyqNHlo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/"
+      "source_url": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "emergency_ems_and_hospitals",
+        "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
+        "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -25,7 +25,14 @@
           "url": "https://youtu.be/aaE0ePh7zSo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/electronics/"
+      "source_url": "https://www.scouting.org/merit-badges/electronics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -85,7 +92,14 @@
           "url": "https://www.tiktok.com/@jyhhsuelectronics/video/7457467056598977838"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/electronics/"
+      "source_url": "https://www.scouting.org/merit-badges/electronics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -153,7 +167,14 @@
           "url": "https://youtu.be/BJ3N8gURA1c?si=5Oew7Ys1qIhVBUlP"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/electronics/"
+      "source_url": "https://www.scouting.org/merit-badges/electronics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -274,7 +295,14 @@
           "url": "https://youtu.be/MxRGXIe1qPo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/electronics/"
+      "source_url": "https://www.scouting.org/merit-badges/electronics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -358,7 +386,14 @@
           "url": "https://youtu.be/RW9NO6H62oY"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/electronics/"
+      "source_url": "https://www.scouting.org/merit-badges/electronics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -373,7 +408,14 @@
           "url": "https://youtu.be/paEw8Y8WlNA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/electronics/"
+      "source_url": "https://www.scouting.org/merit-badges/electronics/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

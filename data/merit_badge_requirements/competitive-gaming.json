@@ -142,7 +142,14 @@
           "url": "https://whatisesports.xyz/major-milestones-esports-history-timeline/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/"
+      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -254,7 +261,14 @@
           "url": "https://www.stopbullying.gov/kids/what-you-can-do"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/"
+      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -386,7 +400,14 @@
           "url": "https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Depression/Depression-Worksheets/Depression-Worksheet---03---Weekly-Activity-Schedule.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/"
+      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -469,7 +490,14 @@
           "url": "https://internetsafety101.org/wp-content/uploads/2025/07/Gaming-controls-quick-guide-03-24-2025.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/"
+      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -528,7 +556,14 @@
           "url": "https://www.microcenter.com/site/content/custom-pc-builder.aspx?k=1772572403500"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/"
+      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -560,7 +595,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/"
+      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -652,7 +694,14 @@
           "url": "https://careers.nintendo.com/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/"
+      "source_url": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     }
   ]
 }

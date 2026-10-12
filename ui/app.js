@@ -448,19 +448,20 @@ function markDeckConfigDirty() {
     genBtn.classList.add("m3-btn-dirty-pulse");
     genBtn.innerHTML = '<span class="material-symbols-outlined">autorenew</span> Update Slide Deck &amp; Workbook';
   }
-  // Live-update FinOps preview in sidebar based on selected tier/depth before running
+  // Live-update Visual Polish & Asset Mode preview in sidebar before running
   const tierVal = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
   const depthVal = document.getElementById("depth-select")?.value || "Deep Dive / Camp School Deck";
   const isDeep = depthVal.toLowerCase().includes("deep");
-  const estUsd = tierVal === "STUDIO" ? (isDeep ? 0.42 : 0.28) : tierVal === "BEAUTIFIED" ? (isDeep ? 0.14 : 0.09) : 0.05;
-  const estTokK = isDeep ? 25 : 15;
   const finopsUsdEl = document.getElementById("finops-cost-usd");
   const finopsMetaEl = document.getElementById("finops-cost-meta");
   if (finopsUsdEl) {
-    finopsUsdEl.innerHTML = `<strong>FinOps Est. Cost:</strong> $${estUsd.toFixed(2)} / $1.00 Cap`;
+    finopsUsdEl.innerHTML =
+      tierVal === "STANDARD"
+        ? `<strong>Visual Assets:</strong> Pamphlet Figures Only (Lightweight)`
+        : `<strong>Visual Assets:</strong> 100% Pre-Cached (8-Bit PNG)`;
   }
   if (finopsMetaEl) {
-    finopsMetaEl.textContent = `${tierVal} • ~${estTokK}K tokens (Preview)`;
+    finopsMetaEl.textContent = `${tierVal} • ${isDeep ? "Deep Dive" : "Standard"}`;
   }
 }
 
@@ -1428,15 +1429,18 @@ function hydrateWorkbench(result) {
     locHintEl.innerHTML = `Resolved Local Context: <strong>${escapeHtml(resolvedLoc.region_label)}</strong> &bull; ${escapeHtml(resolvedLoc.nws_office || "NOAA NWS")}`;
   }
 
-  // Update FinOps Cost Pill in Sidebar
+  // Update Visual Polish & Pre-Cached Assets Pill in Sidebar
   const finopsUsdEl = document.getElementById("finops-cost-usd");
   const finopsMetaEl = document.getElementById("finops-cost-meta");
-  if (finopsUsdEl && typeof finops.estimated_cost_usd === "number") {
-    finopsUsdEl.innerHTML = `<strong>FinOps Est. Cost:</strong> $${finops.estimated_cost_usd.toFixed(2)} / $1.00 Cap`;
+  const tierNow = finops.beautification_tier || result.beautification_tier || "BEAUTIFIED";
+  if (finopsUsdEl) {
+    finopsUsdEl.innerHTML =
+      tierNow === "STANDARD"
+        ? `<strong>Visual Assets:</strong> Pamphlet Figures Only (Lightweight)`
+        : `<strong>Visual Assets:</strong> 100% Pre-Cached (8-Bit PNG)`;
   }
   if (finopsMetaEl) {
-    const totalTokK = Math.round(((finops.estimated_input_tokens || 0) + (finops.estimated_output_tokens || 0)) / 1000);
-    finopsMetaEl.textContent = `${finops.beautification_tier || result.beautification_tier || "BEAUTIFIED"} • ~${totalTokK}K tokens`;
+    finopsMetaEl.textContent = `${tierNow} • Instant Load`;
   }
 
   // 1. Update Hero Banner, Patch Image & Resource Links
@@ -1579,24 +1583,38 @@ function renderStudioKitAndParentLetter(result) {
     if (citations.length === 0) {
       citList.innerHTML = `<div class="m3-req-node-card">Local Regional Grounding was disabled for this run. Enable the checkbox in the left sidebar to resolve local NOAA Weather Forecast Office &amp; regional field study sites for <strong>${escapeHtml(troopName)}</strong>.</div>`;
     } else {
+      const senLine =
+        resolvedLoc.senator_1 && resolvedLoc.senator_2
+          ? `<br/><strong>Current U.S. Senators (${escapeHtml(resolvedLoc.state_code || "MA")}):</strong> ${escapeHtml(resolvedLoc.senator_1)} &amp; ${escapeHtml(resolvedLoc.senator_2)} <span class="m3-chip m3-chip-secondary" style="font-size:0.65rem; padding:1px 6px; margin-left:4px;">🔄 24h Daily + On-Demand Gemini Verified</span>`
+          : "";
+      const civicLine = resolvedLoc.state_capitol
+        ? `<br/><strong>State Capitol &amp; Landmarks:</strong> ${escapeHtml(resolvedLoc.state_capitol)} &bull; ${escapeHtml(resolvedLoc.national_landmarks || "")}`
+        : "";
       const locHeader = resolvedLoc.region_label
         ? `<div class="m3-req-node-card" style="background:#EFF6FF; border-left:5px solid #003F87;">
              <div style="font-weight:800; color:#003F87;">📍 Resolved Local Region: ${escapeHtml(resolvedLoc.region_label)} (${escapeHtml(resolvedLoc.nws_office || "NOAA NWS")})</div>
-             <div style="font-size:0.80rem; color:#1E293B; margin-top:4px;"><strong>Regional Hazards:</strong> ${escapeHtml(resolvedLoc.terrain_and_hazards || "")}<br/><strong>Field Study Sites:</strong> ${escapeHtml(resolvedLoc.field_site_examples || "")}</div>
+             <div style="font-size:0.80rem; color:#1E293B; margin-top:4px;"><strong>Regional Hazards:</strong> ${escapeHtml(resolvedLoc.terrain_and_hazards || "")}<br/><strong>Field Study Sites:</strong> ${escapeHtml(resolvedLoc.field_site_examples || "")}${civicLine}${senLine}</div>
            </div>`
         : "";
       citList.innerHTML =
         locHeader +
         citations
           .map((c) => {
-            const liveFact = String(c.supplemental_fact || "")
+            const liveFact = String(c.local_grounding_callout || c.supplemental_fact || "")
               .split(storedTroop).join(troopName)
               .split("Troop 123, My Council").join(troopName);
+            const catPill = c.grounding_category
+              ? `<span class="m3-chip m3-chip-secondary" style="font-size:0.65rem; padding:2px 6px; margin-left:4px;">${escapeHtml(String(c.grounding_category).replace(/_/g, " "))}</span>`
+              : "";
+            const localBadge = c.requires_local_lookup
+              ? `<span class="m3-chip m3-chip-gold" style="font-size:0.65rem; padding:2px 6px; margin-left:4px;">📍 Local Slide Callout</span>`
+              : "";
             return `
               <div class="m3-req-node-card">
-                <div style="font-weight:700; color:var(--md-sys-color-primary);">
+                <div style="font-weight:700; color:var(--md-sys-color-primary); display:flex; align-items:center; flex-wrap:wrap; gap:4px;">
                   <a href="${escapeHtml(c.source_url)}" target="_blank" rel="noopener noreferrer" style="color:var(--md-sys-color-primary); text-decoration:none;">${escapeHtml(c.source_title)}</a>
-                  <span class="m3-chip m3-chip-primary" style="font-size:0.68rem; padding:2px 6px; margin-left:6px;">${escapeHtml(c.authority_domain || "")} &bull; Req ${escapeHtml(c.req_number || "")}</span>
+                  <span class="m3-chip m3-chip-primary" style="font-size:0.68rem; padding:2px 6px;">${escapeHtml(c.authority_domain || "")} &bull; Req ${escapeHtml(c.req_number || "")}</span>
+                  ${catPill}${localBadge}
                 </div>
                 <div style="font-size:0.80rem; color:var(--md-sys-color-on-surface-variant); margin-top:4px;">${escapeHtml(liveFact)}</div>
               </div>
@@ -1955,7 +1973,7 @@ function renderActiveSlide(idx) {
     const reqNumChip = document.getElementById("stage-req-number");
     if (reqNumChip) reqNumChip.style.display = "none";
     if (footerLeft) {
-      footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge • ${deckTier} Mode`;
+      footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge`;
       footerLeft.style.color = coverTokens.footerColor;
     }
     if (footerRight) {
@@ -2128,7 +2146,7 @@ function renderActiveSlide(idx) {
   const reqNumChip = document.getElementById("stage-req-number");
   if (reqNumChip) reqNumChip.style.display = "none";
   if (footerLeft) {
-    footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge • ${tokens.tier} Mode`;
+    footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge`;
     footerLeft.style.color = tokens.footerColor;
   }
   if (footerRight) {

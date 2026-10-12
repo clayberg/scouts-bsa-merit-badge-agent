@@ -86,7 +86,14 @@
           "url": "https://youtu.be/_yWF-w3CwmU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/composite-materials/"
+      "source_url": "https://www.scouting.org/merit-badges/composite-materials/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -138,7 +145,14 @@
           "url": "https://youtu.be/XbX4xY1sqQo"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/composite-materials/"
+      "source_url": "https://www.scouting.org/merit-badges/composite-materials/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -193,7 +207,14 @@
           "url": "https://youtu.be/yQo4ucV3jfA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/composite-materials/"
+      "source_url": "https://www.scouting.org/merit-badges/composite-materials/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -218,7 +239,14 @@
         }
       ],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/composite-materials/"
+      "source_url": "https://www.scouting.org/merit-badges/composite-materials/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -263,7 +291,14 @@
           "url": "https://youtu.be/scvXKij1hQ0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/composite-materials/"
+      "source_url": "https://www.scouting.org/merit-badges/composite-materials/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -331,7 +366,14 @@
           "url": "https://youtu.be/s2aS1G6yp-4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/composite-materials/"
+      "source_url": "https://www.scouting.org/merit-badges/composite-materials/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

@@ -57,7 +57,14 @@
           "url": "https://youtu.be/GQkUbdE3VS8?si=EpcwqUnpU9BDS6Cz"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/woodwork/"
+      "source_url": "https://www.scouting.org/merit-badges/woodwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -109,7 +116,14 @@
           "url": "https://www.homedepot.com/c/ab/types-of-lumber/9ba683603be9fa5395fab90567851db"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/woodwork/"
+      "source_url": "https://www.scouting.org/merit-badges/woodwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -153,7 +167,14 @@
           "url": "https://youtu.be/2mJZH29bAHI?si=EdoNp283FRVbkTp_"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/woodwork/"
+      "source_url": "https://www.scouting.org/merit-badges/woodwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -172,7 +193,14 @@
           "url": "https://youtube.com/shorts/F202Whnx27M"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/woodwork/"
+      "source_url": "https://www.scouting.org/merit-badges/woodwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -182,7 +210,14 @@
       "req_text": "Create your own woodworking project. Begin by making working drawings, list the materials you will need to complete your project, and then build your project. Keep track of the time you spend and the cost of the materials.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/woodwork/"
+      "source_url": "https://www.scouting.org/merit-badges/woodwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -282,7 +317,14 @@
           "url": "https://youtu.be/IwLwNGAxSfg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/woodwork/"
+      "source_url": "https://www.scouting.org/merit-badges/woodwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "local_government_and_courts",
+        "search_query_template": "Local municipal government structure, city/town council meetings, county courthouse, and community service organizations in {city}, {state}",
+        "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
+        "ttl_days": 30
+      }
     },
     {
       "req_id": "7",
@@ -301,7 +343,14 @@
           "url": "https://youtu.be/NBHhOMEs9Sk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/woodwork/"
+      "source_url": "https://www.scouting.org/merit-badges/woodwork/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

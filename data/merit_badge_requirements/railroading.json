@@ -118,7 +118,14 @@
           "url": "https://youtu.be/aW3P9mTv0Jk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/railroading/"
+      "source_url": "https://www.scouting.org/merit-badges/railroading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -186,7 +193,14 @@
           "url": "https://youtu.be/fSgMi57YbDM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/railroading/"
+      "source_url": "https://www.scouting.org/merit-badges/railroading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -358,7 +372,14 @@
           "url": "https://youtu.be/Mqo0IsStelk"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/railroading/"
+      "source_url": "https://www.scouting.org/merit-badges/railroading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -482,7 +503,14 @@
           "url": "https://youtu.be/GAfugEgV9cI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/railroading/"
+      "source_url": "https://www.scouting.org/merit-badges/railroading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -602,7 +630,14 @@
           "url": "https://youtu.be/AaGx08xfmu4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/railroading/"
+      "source_url": "https://www.scouting.org/merit-badges/railroading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -702,7 +737,14 @@
           "url": "https://youtu.be/lz0Q646DUL0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/railroading/"
+      "source_url": "https://www.scouting.org/merit-badges/railroading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -982,7 +1024,14 @@
           "url": "https://youtu.be/jaU7xtVQBPM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/railroading/"
+      "source_url": "https://www.scouting.org/merit-badges/railroading/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

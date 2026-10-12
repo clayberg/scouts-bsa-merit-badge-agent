@@ -94,7 +94,14 @@
           "url": "https://youtu.be/kNMJaXuFuWQ?si=568DA1j2_laLorG_"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/"
+      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -113,7 +120,14 @@
           "url": "https://ucp.org/from-concept-to-crag-students-design-adaptive-sports-equipment-to-help-classmate-climb/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/"
+      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -285,7 +299,14 @@
           "url": "https://youtu.be/Ezv85LMFx2E?si=t22bJRSC4c_v4by9"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/"
+      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -395,7 +416,14 @@
           "url": "https://youtu.be/qT9LE79Daps?si=cxIIetl8GFwwFC4h"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/"
+      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -455,7 +483,14 @@
           "url": "http://es.easterseals.com/site/PageServer/?pagename=ntl_myths_facts"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/"
+      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -478,7 +513,14 @@
           "url": "https://www.silkandsonder.com/blogs/news/keeping-commitments?srsltid=AfmBOoqwXvDqEVi16dK1YUu1UnTilZpMSXAJ35STbVrLDyOcRzM7G5ib"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/"
+      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -497,7 +539,14 @@
           "url": "https://www.publicservicedegrees.org/careers/people-with-disabilities/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/"
+      "source_url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

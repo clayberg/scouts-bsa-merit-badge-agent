@@ -103,9 +103,10 @@ html, body {
 .m3-brand-emblem {
   width: 44px;
   height: 44px;
-  border-radius: 14px;
-  background: var(--md-sys-color-primary);
-  color: var(--md-sys-color-gold-bright);
+  border-radius: 12px;
+  background: #FFFFFF;
+  border: 1.5px solid var(--md-sys-color-outline);
+  padding: 3px;
   display: flex;
   align-items: center;
   justify-content: center;

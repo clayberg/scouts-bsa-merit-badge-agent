@@ -30,7 +30,14 @@
           "url": "https://youtu.be/Z13dtuMMFps?si=GemQ1_rjJY3duaRw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/bugling/"
+      "source_url": "https://www.scouting.org/merit-badges/bugling/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -65,7 +72,14 @@
           "url": "https://youtu.be/o0Gl4tfh3KA?si=wMNk9m2HLUeNTt06"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/bugling/"
+      "source_url": "https://www.scouting.org/merit-badges/bugling/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -136,7 +150,14 @@
           "url": "https://youtu.be/vml52_HARwU?si=ST5bjdx7Gfk2T_8c"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/bugling/"
+      "source_url": "https://www.scouting.org/merit-badges/bugling/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -151,7 +172,14 @@
           "url": "https://youtu.be/M1TeQKsEJNI?si=crt_NPME98EGVZYK"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/bugling/"
+      "source_url": "https://www.scouting.org/merit-badges/bugling/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -166,7 +194,14 @@
           "url": "https://youtu.be/KT3UB7BUCNg?si=ry4HAquO1a6uxHiA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/bugling/"
+      "source_url": "https://www.scouting.org/merit-badges/bugling/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -176,7 +211,14 @@
       "req_text": "Serve as bugler in your troop for three months.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/bugling/"
+      "source_url": "https://www.scouting.org/merit-badges/bugling/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

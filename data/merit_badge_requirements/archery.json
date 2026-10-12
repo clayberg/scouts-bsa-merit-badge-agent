@@ -106,7 +106,14 @@
           "url": "https://www.gearheadarchery.com/regulations/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/archery/"
+      "source_url": "https://www.scouting.org/merit-badges/archery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -258,7 +265,14 @@
           "url": "https://youtu.be/PKyA6i1TATM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/archery/"
+      "source_url": "https://www.scouting.org/merit-badges/archery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -326,7 +340,14 @@
           "url": "https://youtu.be/bH7RTX0fgUM"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/archery/"
+      "source_url": "https://www.scouting.org/merit-badges/archery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -402,7 +423,14 @@
           "url": "https://youtu.be/O47cSaBzNw0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/archery/"
+      "source_url": "https://www.scouting.org/merit-badges/archery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -702,7 +730,14 @@
           "url": "https://youtu.be/Hh0UgcUrpSI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/archery/"
+      "source_url": "https://www.scouting.org/merit-badges/archery/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

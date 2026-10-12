@@ -29,7 +29,14 @@
           "url": "https://youtu.be/HWdws9vQ0J4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -104,7 +111,14 @@
           "url": "https://www.youtube.com/watch?v=DyKh80Yt9k0"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -119,7 +133,14 @@
           "url": "https://youtu.be/b0QcTu-5D1I"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -138,7 +159,14 @@
           "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Painting/Painting_Color%20Wheet%20from%202025%20MBP.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -157,7 +185,14 @@
           "url": "https://youtu.be/ygmP3UBnLLU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -172,7 +207,14 @@
           "url": "https://www.homedepot.com/c/ab/ladder-safety-tips/9ba683603be9fa5395fab9017d77401c"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -191,7 +233,14 @@
           "url": "https://www.youtube.com/watch?v=8lG6dAZE52k"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -251,7 +300,14 @@
           "url": "https://youtu.be/UpImD3qedKw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/painting/"
+      "source_url": "https://www.scouting.org/merit-badges/painting/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

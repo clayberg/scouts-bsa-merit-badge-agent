@@ -1832,6 +1832,22 @@ def decompose_requirement_into_topic_slides(
     generated: List[Dict[str, Any]] = []
     used_on_visual_slide_norms: set = set()
 
+    # Option 2 Multi-Slide Visual Expansion: check for pre-cached `{slug}_req_{req_slug}_topic_visual.png`
+    req_slug_vis = re.sub(r"[^a-zA-Z0-9]+", "_", str(req_num).strip().lower()).strip("_")
+    topic_vis_fname = f"{slug}_req_{req_slug_vis}_topic_visual.png"
+    topic_vis_path = ASSETS_DIR / "ai_illustrations" / topic_vis_fname
+    nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
+    topic_vis_caption = base_title
+    if nano_cat_path.exists():
+        try:
+            nano_cat = json.loads(nano_cat_path.read_text(encoding="utf-8"))
+            if isinstance(nano_cat, dict) and topic_vis_fname in nano_cat:
+                topic_vis_caption = strip_pamphlet_and_req_caption_prefixes(
+                    str(nano_cat[topic_vis_fname].get("caption") or base_title), badge_name
+                )
+        except Exception:
+            pass
+
     # A. Sub-Requirement Deep-Dive Slides (Explain Phase)
     if sub_reqs:
         generated.extend(
@@ -1847,11 +1863,17 @@ def decompose_requirement_into_topic_slides(
                 extended_pages=extended_pages,
             )
         )
-        # Add 1 illustrated Pamphlet / Web Visual Reference slide if a requirement-matched pamphlet image is available
+        # Add 1 illustrated Pamphlet / Option 2 Topic Visual Reference slide
         if len(fresh_pamphlet_bullets) >= 2:
             popped_vis = _pop_next_avail_pamphlet()
             if popped_vis:
                 vis_img, vis_cap = popped_vis
+            elif topic_vis_path.exists() and str(topic_vis_path) not in used_image_paths:
+                used_image_paths.add(str(topic_vis_path))
+                vis_img, vis_cap = str(topic_vis_path), topic_vis_caption
+            else:
+                vis_img, vis_cap = None, ""
+            if vis_img:
                 vis_bullets = _dedupe_slide_bullets(fresh_pamphlet_bullets[:4])
                 for vb in vis_bullets:
                     used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
@@ -1872,6 +1894,9 @@ def decompose_requirement_into_topic_slides(
         popped_single = _pop_next_avail_pamphlet()
         if popped_single:
             slide_img, slide_cap = popped_single
+        elif topic_vis_path.exists() and str(topic_vis_path) not in used_image_paths:
+            used_image_paths.add(str(topic_vis_path))
+            slide_img, slide_cap = str(topic_vis_path), topic_vis_caption
         else:
             slide_img, slide_cap = None, base_title
         generated.append({

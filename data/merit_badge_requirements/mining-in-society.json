@@ -93,7 +93,14 @@
           "url": "https://www.weforum.org/stories/2024/02/how-mining-could-help-scale-up-food-production/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -103,7 +110,14 @@
       "req_text": "Obtain a map of your state or region showing major cities, highways, rivers, and railroads. Mark the locations of five mining enterprises. Find out what resource is processed at each location, and identify the mine as a surface or underground operation. Discuss with your counselor how the resources mined at these locations are used.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -195,7 +209,14 @@
           "url": "https://youtu.be/0Q74aSzXYoA"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -210,7 +231,14 @@
           "url": "https://youtu.be/x-xCUrfTAvE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -297,7 +325,14 @@
           "url": "https://youtu.be/7foK-wVNSMw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -373,7 +408,14 @@
           "url": "https://www.einpresswire.com/article/641336423/from-coal-to-conservation-the-remarkable-transformation-of-summit-bechtel-reserve-site-of-bsa-s-2023-national-jamboree"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "ecology_forestry_and_watershed",
+        "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
+        "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -477,7 +519,14 @@
           "url": "https://www.macrotrends.net/1333/historical-gold-prices-100-year-chart"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -500,7 +549,14 @@
           "url": "https://youtu.be/GvWin0v00VU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/"
+      "source_url": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }

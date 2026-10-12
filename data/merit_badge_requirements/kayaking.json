@@ -102,7 +102,14 @@
           "url": "https://www.scouting.org/health-and-safety/safety-moments/safety-afloat/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "noaa_weather_and_climate",
+        "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
+        "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
+        "ttl_days": 7
+      }
     },
     {
       "req_id": "2",
@@ -117,7 +124,14 @@
           "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Swimming.pdf"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -177,7 +191,14 @@
           "url": "https://youtu.be/xcl4I8V2Pfg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -237,7 +258,14 @@
           "url": "https://youtu.be/DThGAXJ8hM8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -305,7 +333,14 @@
           "url": "https://floridasplendors.com/kayak-paddle-maintenance-essential-tips/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -417,7 +452,14 @@
           "url": "https://youtu.be/ykvS7iHeC_g"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -521,7 +563,14 @@
           "url": "https://youtu.be/0bWe37-jaD8"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -627,7 +676,14 @@
           "url": "https://youtu.be/O-feCLPf-qw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/kayaking/"
+      "source_url": "https://www.scouting.org/merit-badges/kayaking/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "outdoor_trails_camps_and_waterways",
+        "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
+        "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
+        "ttl_days": 90
+      }
     }
   ]
 }

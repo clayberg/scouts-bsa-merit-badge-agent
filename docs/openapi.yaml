@@ -1,7 +1,6 @@
 openapi: 3.1.0
 info:
-  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
-    \ Server"
+  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -490,7 +489,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       responses:
         '200':
@@ -594,7 +593,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       responses:
         '200':
@@ -2210,6 +2209,316 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/local-grounding/senators:
+    post:
+      summary: Api Refresh Us Senators
+      description: Refreshes the 100 U.S. Senators daily cache (24h TTL) or resolves
+        a specific state's Senators on demand via Gemini.
+      operationId: api_refresh_us_senators_api_v1_local_grounding_senators_post
+      parameters:
+      - name: state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional 2-letter state code for on-demand Gemini lookup.
+          title: State
+        description: Optional 2-letter state code for on-demand Gemini lookup.
+      - name: city_state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional City, State or ZIP for congressional district lookup.
+          title: City State
+        description: Optional City, State or ZIP for congressional district lookup.
+      - name: location
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Alias for city_state (City, State or ZIP).
+          title: Location
+        description: Alias for city_state (City, State or ZIP).
+      - name: force
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: Force refresh even if within 24-hour TTL.
+          default: false
+          title: Force
+        description: Force refresh even if within 24-hour TTL.
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Refresh Us Senators Api V1 Local Grounding Senators
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    get:
+      summary: Api Refresh Us Senators
+      description: Refreshes the 100 U.S. Senators daily cache (24h TTL) or resolves
+        a specific state's Senators on demand via Gemini.
+      operationId: api_refresh_us_senators_api_v1_local_grounding_senators_get
+      parameters:
+      - name: state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional 2-letter state code for on-demand Gemini lookup.
+          title: State
+        description: Optional 2-letter state code for on-demand Gemini lookup.
+      - name: city_state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional City, State or ZIP for congressional district lookup.
+          title: City State
+        description: Optional City, State or ZIP for congressional district lookup.
+      - name: location
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Alias for city_state (City, State or ZIP).
+          title: Location
+        description: Alias for city_state (City, State or ZIP).
+      - name: force
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: Force refresh even if within 24-hour TTL.
+          default: false
+          title: Force
+        description: Force refresh even if within 24-hour TTL.
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Refresh Us Senators Api V1 Local Grounding Senators
+                  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/local-grounding/senators:
+    post:
+      summary: Api Refresh Us Senators
+      description: Refreshes the 100 U.S. Senators daily cache (24h TTL) or resolves
+        a specific state's Senators on demand via Gemini.
+      operationId: api_refresh_us_senators_api_local_grounding_senators_post
+      parameters:
+      - name: state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional 2-letter state code for on-demand Gemini lookup.
+          title: State
+        description: Optional 2-letter state code for on-demand Gemini lookup.
+      - name: city_state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional City, State or ZIP for congressional district lookup.
+          title: City State
+        description: Optional City, State or ZIP for congressional district lookup.
+      - name: location
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Alias for city_state (City, State or ZIP).
+          title: Location
+        description: Alias for city_state (City, State or ZIP).
+      - name: force
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: Force refresh even if within 24-hour TTL.
+          default: false
+          title: Force
+        description: Force refresh even if within 24-hour TTL.
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Refresh Us Senators Api Local Grounding Senators
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    get:
+      summary: Api Refresh Us Senators
+      description: Refreshes the 100 U.S. Senators daily cache (24h TTL) or resolves
+        a specific state's Senators on demand via Gemini.
+      operationId: api_refresh_us_senators_api_local_grounding_senators_get
+      parameters:
+      - name: state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional 2-letter state code for on-demand Gemini lookup.
+          title: State
+        description: Optional 2-letter state code for on-demand Gemini lookup.
+      - name: city_state
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional City, State or ZIP for congressional district lookup.
+          title: City State
+        description: Optional City, State or ZIP for congressional district lookup.
+      - name: location
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Alias for city_state (City, State or ZIP).
+          title: Location
+        description: Alias for city_state (City, State or ZIP).
+      - name: force
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: Force refresh even if within 24-hour TTL.
+          default: false
+          title: Force
+        description: Force refresh even if within 24-hour TTL.
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Refresh Us Senators Api Local Grounding Senators
+                  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /:
     get:
       summary: Serve A2Ui Workbench
@@ -2741,7 +3050,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
         session_id:
           type: string
           title: Session Id

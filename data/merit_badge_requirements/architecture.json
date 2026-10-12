@@ -70,7 +70,14 @@
           "url": "https://youtu.be/Pl-C5_RqJZg"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -202,7 +209,14 @@
           "url": "https://youtu.be/A53msoHM82w"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -244,7 +258,14 @@
           "url": "https://youtu.be/KjHGOvllSSE"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -263,7 +284,14 @@
           "url": "https://youtu.be/V6GAKom_ZvI"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -298,7 +326,14 @@
           "url": "https://www.lifeofanarchitect.com/do-you-want-to-be-an-architect/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/architecture/"
+      "source_url": "https://www.scouting.org/merit-badges/architecture/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "civic_landmarks_and_monuments",
+        "search_query_template": "National Register historic landmarks, {state} State Capitol building, nearby Federal facilities, and National Park Service monuments near {city}, {state}",
+        "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
+        "ttl_days": 90
+      }
     }
   ]
 }

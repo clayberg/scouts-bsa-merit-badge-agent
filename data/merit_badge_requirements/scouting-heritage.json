@@ -25,7 +25,14 @@
           "url": "https://youtu.be/tn9S4qB-fdw"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "2",
@@ -259,7 +266,14 @@
           "url": "https://youtu.be/JaGjYXkcyLU"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "3",
@@ -290,7 +304,14 @@
           "url": "https://www.scouting.org/programs/venturing/about-venturing/history"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "4",
@@ -366,7 +387,14 @@
           "url": "https://www.google.com/maps/d/u/0/viewer?mid=1shEPLaVDO3GPNW8-4HCVVdfUWFK1KKU&femb=1&ll=40.002876433582884%2C-96.50590200000002&z=4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "5",
@@ -376,7 +404,14 @@
       "req_text": "Research the history of your unit, council, summer camp, or Order of the Arrow lodge. With the permission of a parent or guardian, your research methods may include an internet or library search, interviews with Scout leaders, or visits to locations where you learn about your topic. Prepare an oral or written report, a presentation, or a video of your research and review it with your counselor.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "6",
@@ -395,7 +430,14 @@
           "url": "https://www.youtube.com/watch?v=2u8drmz3T-s&t=7s"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "7",
@@ -418,7 +460,14 @@
           "url": "https://troopleader.scouting.org/activities/troop-games/pre-opening-gathering-period-activities/"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": false,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "8",
@@ -428,7 +477,14 @@
       "req_text": "Interview at least three people (different from those you interviewed for requirement 5) over the age of 40 who were Scouts. Find out about their Scouting experiences. Ask about the impact that Scouting has had on their lives. Share what you learned with your counselor.",
       "sub_requirements": [],
       "resources": [],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     },
     {
       "req_id": "9",
@@ -472,7 +528,14 @@
           "url": "https://youtu.be/uJUwdk9xDKM?si=NkoLxlpy4bB1S-Y4"
         }
       ],
-      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/"
+      "source_url": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "local_grounding_spec": {
+        "requires_local_lookup": true,
+        "grounding_category": "museums_stem_and_careers",
+        "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
+        "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
+        "ttl_days": 90
+      }
     }
   ]
 }
