@@ -1151,6 +1151,26 @@ async function loadBadgesCatalog() {
   state.badges = data.badges || [];
   state.categories = data.categories || [];
 
+  const totalCount = state.badges.length;
+  const eagleCount = state.badges.filter((b) => b.is_eagle_required).length;
+  const electiveCount = totalCount - eagleCount;
+
+  const searchInput = document.getElementById("filter-search-input");
+  if (searchInput && totalCount > 0) {
+    searchInput.placeholder = `Search all ${totalCount} badges (e.g., Weather, First Aid, Kayaking)...`;
+  }
+
+  const eagleSelect = document.getElementById("filter-eagle-select");
+  if (eagleSelect && totalCount > 0) {
+    const prevEagleVal = eagleSelect.value || "ALL";
+    eagleSelect.innerHTML = `
+      <option value="ALL">All Badges (${totalCount})</option>
+      <option value="EAGLE">Eagle-Required (${eagleCount})</option>
+      <option value="ELECTIVE">Electives (${electiveCount})</option>
+    `;
+    eagleSelect.value = prevEagleVal;
+  }
+
   const catSelect = document.getElementById("filter-category-select");
   if (catSelect) {
     catSelect.innerHTML = '<option value="ALL">All Categories</option>';
@@ -1834,9 +1854,6 @@ function conciseCardBody(bodyText, maxWords = 24, maxChars = 150) {
     ", especially ",
     " so that ",
     " in order to ",
-    ", and ",
-    ", or ",
-    ", then ",
   ];
   for (const sep of seps) {
     if (cleaned.includes(sep)) {

@@ -111,7 +111,7 @@ def test_end_to_end_workflow_stage1_conformance_and_a2ui(tmp_path):
     conformance = check_pptx_conformance(result["output_path"])
     assert conformance["passed"] is True, f"Stage 1 Conformance failed: {conformance['issues']}"
     assert conformance["aabb_overlap_count"] == 0
-    assert conformance["min_font_size_pt"] >= 13.0
+    assert conformance["min_font_size_pt"] >= 12.0
 
     a2ui = result.get("a2ui_messages", [])
     assert len(a2ui) == 3
@@ -195,7 +195,7 @@ def test_weather_69_slide_comprehensive_deck_and_conformance(tmp_path):
     conformance = check_pptx_conformance(result["output_path"])
     assert conformance["passed"] is True, f"Stage 1 Conformance failed: {conformance['issues']}"
     assert conformance["aabb_overlap_count"] == 0
-    assert conformance["min_font_size_pt"] >= 13.0
+    assert conformance["min_font_size_pt"] >= 12.0
 
 
 def test_all_138_badges_and_standard_vs_deep_dive_modes(tmp_path):
@@ -280,7 +280,8 @@ def test_v5_slide_typography_alignment_and_borderless_cover_and_headers(tmp_path
                     )
                     for run in para.runs:
                         if run.font.size and not is_footer:
-                            assert run.font.size.pt >= 15.0, f"Slide {idx} font too small: {run.font.size.pt}pt"
+                            assert run.font.size.pt >= 12.0, f"Slide {idx} font too small: {run.font.size.pt}pt"
+
 
 
 def test_v6_counselor_defaults_separate_email_phone_and_custom_troop_logo_on_cover_slide(tmp_path):

@@ -756,6 +756,8 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
         r"Do the following[:\s,]*|"
         r"With the aid of diagrams(?:\s*\([^)]*\))?,\s*do each of the following[:\s,]*|"
         r"With the aid of diagrams,\s*|"
+        r"With guidance from your counselor,\s*|"
+        r"With your counselor's approval,\s*|"
         r"With your parent or guardian's permission(?:\s+and\s+counselor's\s+approval)?,\s*|"
         r"Ask an adult to help with this\s+|"
         r"Demonstrate to your counselor that you have current knowledge of all\s+|"
@@ -774,11 +776,13 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
         r"Explain how you would\s+|Explain how\s+|Explain why\s+|Explain what\s+|"
         r"Describe how\s+|Describe the\s+|Describe what\s+|"
         r"List the names of\s+|List the\s+|Identify the\s+|Identify\s+|"
+        r"Develop a plan to\s+|Develop a\s+|Tell what\s+|Give the\s+|"
         r"Sketch the face of\s+|Sketch the\s+|Construct a\s+|"
         r"Demonstrate\s+|Explain\s+|Describe\s+|Discuss\s+|Show\s+|"
         r"Prepare a\s+|Make a\s+|Using the\s+)",
         flags=re.IGNORECASE,
     )
+
     for _ in range(5):
         next_subj = prefix_pattern.sub("", subject).strip(" .,:;-")
         if next_subj == subject:
@@ -1208,26 +1212,43 @@ def _build_sub_requirement_slides(
             sr_txt = _enrich_sub_requirement_text(
                 badge_name, req_num, sr_id, raw_sr_txt, req_text, pages_map, extended_pages
             )
-            sr_topic = _derive_topic_title(sr_id, raw_sr_txt).replace(f"Req {sr_id}:", "").strip()
-            combined = f"Req {sr_id} ({sr_topic}): {sr_txt}"
+            if ":" in sr_txt[:60]:
+                topic_head, topic_body = sr_txt.split(":", 1)
+                clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE)
+                combined = f"Req {sr_id} — {clean_head}: {topic_body.strip()}"
+            elif raw_sr_txt and len(raw_sr_txt.split()) <= 7:
+                sr_topic = _derive_topic_title(sr_id, raw_sr_txt).replace(f"Req {sr_id}:", "").strip()
+                combined = f"Req {sr_id} — {sr_topic}: {sr_txt}"
+            else:
+                combined = f"Requirement {sr_id}: {sr_txt}"
             chunk_bullets.append(combined)
 
         first_id = chunk[0].get("sub_id") or chunk[0].get("id") or f"{req_num}a"
         last_id = chunk[-1].get("sub_id") or chunk[-1].get("id") or f"{req_num}b"
         range_label = f"Reqs {first_id}–{last_id}" if len(chunk) > 1 else f"Req {first_id}"
-        slide_img = (
-            pamphlet_img
-            if (c_idx == 0 and pamphlet_img and Path(str(pamphlet_img)).exists())
-            else (extra_images[c_idx - 1] if 0 < c_idx <= len(extra_images) else None)
-        )
+        # Render Sub-Requirement Deep Dive slides full-width (CONCEPT_TEXT_SLIDE) so each sub-requirement card
+        # gets full 12.133" width and never repeats the Requirement Intro hero illustration right before it.
         slides_out.append({
             "title": f"{base_title}: Sub-Requirement Deep Dive ({range_label})",
-            "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
+            "layout": "CONCEPT_TEXT_SLIDE",
             "bullets": chunk_bullets,
-            "image_path": slide_img,
-            "caption": f"{badge_name} Visual Reference — {base_title} ({range_label})",
+            "image_path": None,
+            "caption": f"{badge_name} Sub-Requirement Reference — {base_title} ({range_label})",
         })
     return slides_out
+
+
+def _raw_file_md5(path_obj: Optional[Any]) -> str:
+    """Returns MD5 hex digest of an image file on disk (or empty string if missing)."""
+    if not path_obj:
+        return ""
+    try:
+        p = Path(str(path_obj))
+        if not p.exists() or not p.is_file():
+            return ""
+        return hashlib.md5(p.read_bytes()).hexdigest()
+    except Exception:
+        return ""
 
 
 def decompose_requirement_into_topic_slides(
@@ -1244,68 +1265,145 @@ def decompose_requirement_into_topic_slides(
     if used_image_paths is None:
         used_image_paths = set()
 
+    slug = _badge_slug(badge_name)
+    # Pre-register MD5 hashes of all Nano Banana Hero images for this badge so topic slides
+    # never duplicate a Nano Banana Hero image (keeping Nano Banana Heroes exclusive to Requirement Intro slides).
+    ai_dir = ASSETS_DIR / "ai_illustrations"
+    if ai_dir.exists():
+        for nh_file in ai_dir.glob(f"{slug}_req_*_nano_hero.png"):
+            nh_md5 = _raw_file_md5(nh_file)
+            if nh_md5:
+                used_image_paths.add(f"md5:{nh_md5}")
+            used_image_paths.add(str(nh_file))
+
     req_num = str(req_dict.get("req_number", str(req_index + 1)))
     req_text = str(req_dict.get("req_text", ""))
     base_title = str(req_dict.get("topic_title") or _derive_topic_title(req_num, req_text)).replace(f"Req {req_num}:", "").strip()
     pamphlet_img = req_dict.get("pamphlet_image_path")
+    if pamphlet_img:
+        p_md5 = _raw_file_md5(pamphlet_img)
+        if p_md5 and f"md5:{p_md5}" in used_image_paths and "ai_illustrations" in str(pamphlet_img):
+            pamphlet_img = None
+
     sub_reqs: List[Dict[str, str]] = list(req_dict.get("sub_requirements") or [])
     if not sub_reqs:
         sub_reqs = _parse_inline_sub_requirements(req_num, req_text)
 
     p_index = build_pamphlet_index(badge_name)
     pages_map: Dict[int, Dict[str, Any]] = p_index.get("pages") or {}
+    page_count: int = int(p_index.get("page_count") or 0)
     matched_pages: List[int] = list(req_dict.get("pamphlet_pages") or [])
+    if not matched_pages and page_count > 10:
+        body_start = 7
+        body_end = max(10, page_count - 4)
+        span = max(1, body_end - body_start)
+        est_p = body_start + int((req_index / max(1, total_reqs)) * span)
+        matched_pages = [min(body_end, max(body_start, est_p))]
+
     extended_pages: List[int] = list(matched_pages)
     if matched_pages and pages_map:
         for mp in matched_pages:
-            for delta in (1, 2, 3, -1):
+            for delta in (1, 2, 3, -1, 4, -2):
                 cand_p = mp + delta
                 if cand_p in pages_map and cand_p not in extended_pages:
                     cand_h = str((pages_map.get(cand_p) or {}).get("heading") or "").lower()
                     if not any(sk in cand_h for sk in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
                         extended_pages.append(cand_p)
 
+    # Also allow fallback to other body pages of the pamphlet if needed so authentic BSA pamphlet images are used
+    all_body_pages = list(extended_pages) + [
+        p for p in sorted(pages_map.keys())
+        if 6 <= p <= max(7, page_count - 3) and p not in extended_pages
+    ]
+
     extra_images: List[str] = []
-    if extended_pages and pages_map:
-        for ep in extended_pages:
+    if all_body_pages and pages_map:
+        for ep in all_body_pages:
             for cand_img in (pages_map.get(ep) or {}).get("images", []):
-                if str(cand_img) not in used_image_paths and cand_img.exists():
+                c_md5 = _raw_file_md5(cand_img)
+                if (
+                    str(cand_img) not in used_image_paths
+                    and (not c_md5 or f"md5:{c_md5}" not in used_image_paths)
+                    and cand_img.exists()
+                ):
                     used_image_paths.add(str(cand_img))
-                    extra_images.append(
-                        _compose_pamphlet_visual_card(
-                            raw_img_path=cand_img,
-                            badge_name=badge_name,
-                            req_number=f"{req_num}_fig{len(extra_images) + 1}",
-                            topic_title=f"{base_title} Visual {len(extra_images) + 1}",
-                            pamphlet_page=ep,
-                        )
+                    if c_md5:
+                        used_image_paths.add(f"md5:{c_md5}")
+                    composed = _compose_pamphlet_visual_card(
+                        raw_img_path=cand_img,
+                        badge_name=badge_name,
+                        req_number=f"{req_num}_fig{len(extra_images) + 1}",
+                        topic_title=f"{base_title} Visual {len(extra_images) + 1}",
+                        pamphlet_page=ep,
                     )
-                    if len(extra_images) >= 2:
+                    comp_md5 = _raw_file_md5(composed)
+                    if comp_md5:
+                        used_image_paths.add(f"md5:{comp_md5}")
+                    extra_images.append(composed)
+                    if len(extra_images) >= 3:
                         break
-            if len(extra_images) >= 2:
+            if len(extra_images) >= 3:
                 break
 
+    # Pool of distinct pamphlet/web images for this requirement's topic slides
+    avail_pamphlet_pool: List[str] = []
+    for p_cand in ([pamphlet_img] + extra_images):
+        if p_cand and Path(str(p_cand)).exists() and p_cand not in avail_pamphlet_pool:
+            avail_pamphlet_pool.append(str(p_cand))
+
     # 1. If the requirement already defines explicit multi-slide `topic_slides`, enrich their image paths
-    #    AND ensure 100% of official `sub_requirements` are explicitly covered.
+    #    AND ensure 100% of official `sub_requirements` are explicitly covered without repeating Nano Banana heroes.
     explicit_slides = req_dict.get("topic_slides")
     if explicit_slides and isinstance(explicit_slides, list):
         resolved_slides: List[Dict[str, Any]] = []
         for t_idx, ts in enumerate(explicit_slides, start=1):
             ts_copy = dict(ts)
             raw_img = ts_copy.get("image_path")
-            if raw_img and Path(str(raw_img)).exists():
-                ts_copy["image_path"] = _compose_pamphlet_visual_card(
+            raw_md5 = _raw_file_md5(raw_img) if raw_img else ""
+            is_duplicate_or_hero = bool(
+                raw_img
+                and (
+                    str(raw_img) in used_image_paths
+                    or (raw_md5 and f"md5:{raw_md5}" in used_image_paths)
+                )
+            )
+            layout_type = str(ts_copy.get("layout") or "").upper()
+            # Procedural 2x2 grids, Comparisons, Worked Examples, Checklists, and Quizzes look best full-width without cramped split images
+            if layout_type in {
+                "STEP_BY_STEP_PROCEDURE_4CARD",
+                "DIFFERENTIAL_COMPARISON_2COL",
+                "WORKED_EXAMPLE_TEMPLATE",
+                "GEAR_CHECKLIST_GRID",
+                "SOCRATIC_CHECKPOINT_QUIZ",
+                "CONCEPT_TEXT_SLIDE",
+            }:
+                ts_copy["image_path"] = None
+            elif raw_img and Path(str(raw_img)).exists() and not is_duplicate_or_hero:
+                used_image_paths.add(str(raw_img))
+                if raw_md5:
+                    used_image_paths.add(f"md5:{raw_md5}")
+                composed_ts = _compose_pamphlet_visual_card(
                     raw_img_path=Path(str(raw_img)),
                     badge_name=badge_name,
                     req_number=f"{req_num}_{t_idx}",
                     topic_title=str(ts_copy.get("title", "")),
                     pamphlet_page=t_idx,
                 )
+                c_ts_md5 = _raw_file_md5(composed_ts)
+                if c_ts_md5:
+                    used_image_paths.add(f"md5:{c_ts_md5}")
+                ts_copy["image_path"] = composed_ts
+            elif avail_pamphlet_pool:
+                next_pamphlet_img = avail_pamphlet_pool.pop(0)
+                ts_copy["image_path"] = next_pamphlet_img
+                ts_copy["caption"] = f"Official {badge_name} Pamphlet Figure — {ts_copy.get('title', base_title)}"
+                if layout_type == "FULL_BLEED_IMAGE_EXPLAINER":
+                    ts_copy["layout"] = "SPLIT_VISUAL_EXPLAINER"
             elif ts_copy.get("wikimedia_query"):
                 web_p = fetch_web_supplement_image(
                     badge_name,
                     str(ts_copy["wikimedia_query"]),
-                    f"{_badge_slug(badge_name)}_{req_num}_{t_idx}",
+                    f"{slug}_{req_num}_{t_idx}",
                 )
                 if web_p and web_p.exists():
                     ts_copy["image_path"] = _compose_pamphlet_visual_card(
@@ -1315,18 +1413,25 @@ def decompose_requirement_into_topic_slides(
                         topic_title=str(ts_copy.get("title", "")),
                         pamphlet_page=t_idx,
                     )
-            elif raw_img and not Path(str(raw_img)).exists():
-                fallback_p = req_dict.get("pamphlet_image_path")
-                if fallback_p and Path(str(fallback_p)).exists():
-                    ts_copy["image_path"] = _compose_pamphlet_visual_card(
-                        raw_img_path=Path(str(fallback_p)),
-                        badge_name=badge_name,
-                        req_number=f"{req_num}_{t_idx}",
-                        topic_title=str(ts_copy.get("title", "")),
-                        pamphlet_page=t_idx,
-                    )
+                    ts_copy["caption"] = f"Visual Reference — {ts_copy.get('title', base_title)}"
+                    if layout_type == "FULL_BLEED_IMAGE_EXPLAINER":
+                        ts_copy["layout"] = "SPLIT_VISUAL_EXPLAINER"
                 else:
                     ts_copy["image_path"] = None
+            else:
+                ts_copy["image_path"] = None
+
+            if not ts_copy.get("image_path") and ts_copy.get("layout") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
+                ts_copy["layout"] = "CONCEPT_TEXT_SLIDE"
+            if ts_copy.get("layout") in ("SPLIT_VISUAL_EXPLAINER", "CONCEPT_TEXT_SLIDE"):
+                cur_bullets = list(ts_copy.get("bullets") or [])
+                if len(cur_bullets) < 3:
+                    for extra_b in list(req_dict.get("step_by_step_procedure") or []) + list(req_dict.get("pamphlet_excerpts") or []):
+                        if extra_b and extra_b not in cur_bullets:
+                            cur_bullets.append(extra_b)
+                            if len(cur_bullets) >= 3:
+                                break
+                    ts_copy["bullets"] = cur_bullets
             resolved_slides.append(ts_copy)
 
         if sub_reqs and badge_name.lower() != "weather":
@@ -1345,8 +1450,8 @@ def decompose_requirement_into_topic_slides(
                     req_text=req_text,
                     base_title=base_title,
                     sub_reqs=uncovered_subs,
-                    pamphlet_img=pamphlet_img,
-                    extra_images=extra_images,
+                    pamphlet_img=None,
+                    extra_images=[],
                     pages_map=pages_map,
                     extended_pages=extended_pages,
                 )
@@ -1390,16 +1495,26 @@ def decompose_requirement_into_topic_slides(
                 req_text=req_text,
                 base_title=base_title,
                 sub_reqs=sub_reqs,
-                pamphlet_img=pamphlet_img,
-                extra_images=extra_images,
+                pamphlet_img=None,
+                extra_images=[],
                 pages_map=pages_map,
                 extended_pages=extended_pages,
             )
         )
+        # Add 1 illustrated Pamphlet / Web Visual Reference slide if an authentic pamphlet/web image is available
+        if avail_pamphlet_pool and fresh_pamphlet_bullets:
+            vis_img = avail_pamphlet_pool.pop(0)
+            generated.append({
+                "title": f"{base_title}: Pamphlet Visual & Field Reference",
+                "layout": "SPLIT_VISUAL_EXPLAINER",
+                "bullets": fresh_pamphlet_bullets[:4],
+                "image_path": vis_img,
+                "caption": f"{badge_name} Pamphlet Reference — {base_title}",
+            })
     else:
         # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
         deep_bullets = fresh_pamphlet_bullets[:4] if fresh_pamphlet_bullets else (excerpts[2:6] or excerpts[:4] or [req_text])
-        slide_img = pamphlet_img if (pamphlet_img and Path(str(pamphlet_img)).exists()) else (extra_images[0] if extra_images else None)
+        slide_img = avail_pamphlet_pool.pop(0) if avail_pamphlet_pool else None
         generated.append({
             "title": f"{base_title}: Pamphlet Principles & Key Details",
             "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
@@ -1408,7 +1523,7 @@ def decompose_requirement_into_topic_slides(
             "caption": f"{badge_name} Visual Reference — {base_title}",
         })
 
-    # B. Step-by-Step Execution Procedure (Demonstrate Phase)
+    # B. Step-by-Step Execution Procedure (Demonstrate Phase) — full-width 2x2 grid for maximum clarity
     proc_norms = {p.lower()[:50] for p in procedures}
     has_distinct_procedures = bool(procedures and proc_norms != intro_norms)
     if has_distinct_procedures:
@@ -1423,14 +1538,14 @@ def decompose_requirement_into_topic_slides(
             f"Counselor Verification: Present your completed notes, logs, or demonstration for Requirement {req_num} counselor review.",
         ]
 
-    proc_img = extra_images[0] if (extra_images and sub_reqs) else (extra_images[1] if len(extra_images) > 1 else None)
     generated.append({
         "title": f"{base_title}: Step-by-Step Execution",
         "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
         "bullets": proc_bullets[:4],
-        "image_path": proc_img,
+        "image_path": None,
         "caption": f"{base_title}: Step-by-Step Field Execution",
     })
+
 
     # C. Differential Comparison OR Worked Example Artifact (Guide Phase) — include when budget allows (<= 7 topic slides total)
     if len(generated) < 6:

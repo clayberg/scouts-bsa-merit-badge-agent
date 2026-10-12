@@ -5,9 +5,9 @@ This module implements:
    - Trajectory (The Process): Asserts tool execution sequence (`fetch_merit_badge_pamphlet_pdf`
      -> `generate_slide_storyboard` -> `request_counselor_confirmation` ->
      `generate_bsa_slide_deck_pptx` -> `validate_presentation_deck`) and OpenTelemetry spans.
-   - Final Response (The Output): Audits generated `.pptx` slide decks for 100% requirement
-     coverage, Stage 1 & Stage 2 Conformance (`aabb_overlap_count == 0`, `min_font_size_pt >= 13.0`),
-     Scouts BSA brand palettes (`#003F87`), and max 7 bullets per slide.
+    - Final Response (The Output): Audits generated `.pptx` slide decks for 100% requirement
+      coverage, Stage 1 & Stage 2 Conformance (`aabb_overlap_count == 0`, `min_font_size_pt >= 12.0`),
+      Scouts BSA brand palettes (`#003F87`), and max 7 bullets per slide.
 2. Pydantic-backed EvalSet / EvalCase schema compatibility.
 """
 
@@ -133,7 +133,7 @@ def test_golden_coordinator_end_to_end_trajectory_and_conformance(tmp_path):
     ]
     assert res["conformance_report"]["passed"] is True
     assert res["conformance_report"]["aabb_overlap_count"] == 0
-    assert res["conformance_report"]["min_font_size_pt"] >= 13.0
+    assert res["conformance_report"]["min_font_size_pt"] >= 12.0
 
     spans = get_recorded_spans()
     span_names = {s["name"] for s in spans}

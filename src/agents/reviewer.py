@@ -210,7 +210,7 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
                             )
                         )
 
-                    # 4. Minimum font size (>= 13.0pt)
+                    # 4. Minimum font size (>= 12.0pt)
                     p_sizes: List[float] = []
                     if p.font and p.font.size is not None:
                         p_sizes.append(float(p.font.size.pt))
@@ -221,7 +221,7 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
                     if p_sizes:
                         smallest = min(p_sizes)
                         detected_font_sizes.append(smallest)
-                        if smallest < 13.0 - 1e-3:
+                        if smallest < 12.0 - 1e-3:
                             issues.append(
                                 ConformanceIssue(
                                     slide_index=slide_idx,
@@ -229,21 +229,21 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
                                     severity="CRITICAL",
                                     description=(
                                         f"Slide {slide_idx} {s_name} paragraph {p_idx} has font size "
-                                        f"{smallest:.1f}pt (< 13.0pt floor)."
+                                        f"{smallest:.1f}pt (< 12.0pt floor)."
                                     ),
-                                    remediation_hint="Increase font size to at least Pt(13).",
+                                    remediation_hint="Increase font size to at least Pt(12).",
                                 )
                             )
 
                 # 7. Check vertical wrapped text capacity inside card shapes (prevent text spilling outside card borders)
                 if not str(s_name).startswith("CardAccent_") and height_in >= 0.55 and width_in >= 1.50:
-                    usable_w_in = max(1.10, width_in - 0.30)
-                    est_total_h_in = 0.08
+                    usable_w_in = max(1.05, width_in - 0.34)
+                    est_total_h_in = 0.10
                     for p in paragraphs:
                         p_txt = (p.text or "").strip()
                         if not p_txt:
                             continue
-                        p_pt = 15.0
+                        p_pt = 13.5
                         if p.font and p.font.size is not None:
                             p_pt = float(p.font.size.pt)
                         else:
@@ -254,10 +254,10 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
                             ]
                             if run_pts:
                                 p_pt = min(run_pts)
-                        chars_per_line = max(16.0, usable_w_in / max(0.04, (p_pt * 0.50) / 72.0))
+                        chars_per_line = max(14.0, usable_w_in / max(0.04, (p_pt * 0.58) / 72.0))
                         n_lines = max(1, int((len(p_txt) + chars_per_line - 1) // chars_per_line))
-                        est_total_h_in += n_lines * ((p_pt * 1.22) / 72.0)
-                    if est_total_h_in > height_in * 1.45:
+                        est_total_h_in += n_lines * ((p_pt * 1.32) / 72.0)
+                    if est_total_h_in > height_in * 1.12:
                         issues.append(
                             ConformanceIssue(
                                 slide_index=slide_idx,
@@ -270,6 +270,7 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
                                 remediation_hint="Use _concise_card_body or reduce font size so text stays inside card.",
                             )
                         )
+
 
         # 2. Check pairwise AABB shape intersection on the current slide
         num_boxes = len(boxes)

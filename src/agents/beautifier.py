@@ -519,6 +519,20 @@ def beautify_slide_storyboard(
     ai_images_count = 0
     prev_theme = ""
     prev_palette = ""
+    seen_hero_reqs: set = set()
+    used_diagram_md5s: Dict[str, int] = {}
+
+    def _file_md5(path_str: Optional[str]) -> str:
+        if not path_str:
+            return ""
+        try:
+            p = Path(path_str)
+            if p.exists() and p.is_file():
+                import hashlib
+                return hashlib.md5(p.read_bytes()).hexdigest()
+        except Exception:
+            pass
+        return ""
 
     for idx, slide in enumerate(slides):
         arch = str(slide.get("archetype") or "SPLIT_VISUAL_EXPLAINER").upper()
@@ -600,7 +614,7 @@ def beautify_slide_storyboard(
                 if loc_summary and loc_summary not in orig_v:
                     slide["verbatim_requirement_text"] = f"{orig_v} ({loc_summary})".strip()
 
-        # Generate Visual Concept Infographics for BEAUTIFIED (Requirement Intro / Lead slides) or STUDIO (Intro + text slides without diagrams)
+        # Generate Visual Concept Infographics for BEAUTIFIED (Requirement Intro / Lead slides) or STUDIO
         ai_prompt: Optional[str] = None
         ai_path: Optional[str] = None
         has_existing_non_hero_diagram = bool(
@@ -613,12 +627,12 @@ def beautify_slide_storyboard(
                 and req_num.upper() not in ("ALL", "OVERVIEW", "SOURCES")
                 and arch in ("CONCEPT_TEXT_SLIDE", "SPLIT_VISUAL_EXPLAINER")
             )
-        )
+        ) and (req_num not in seen_hero_reqs)
         eligible_for_hero = (
             (is_req_lead_slide and not has_existing_non_hero_diagram)
             if tier_upper == "BEAUTIFIED"
             else (
-                (is_req_lead_slide or arch in ("CONCEPT_TEXT_SLIDE", "HANDS_ON_PRACTICE_STATION"))
+                is_req_lead_slide
                 and not has_existing_non_hero_diagram
             )
         )
@@ -647,6 +661,7 @@ def beautify_slide_storyboard(
             )
             if ill_res.get("status") == "SUCCESS" and ill_res.get("image_path"):
                 ai_path = str(ill_res["image_path"])
+                seen_hero_reqs.add(req_num)
                 slide["diagram_path"] = ai_path
                 slide["ai_hero_image_path"] = ai_path
                 if arch == "CONCEPT_TEXT_SLIDE":
@@ -664,11 +679,38 @@ def beautify_slide_storyboard(
                     if not slide.get("visual_caption"):
                         slide["visual_caption"] = f"EDGE Skill Concept Map — {title}"
                 ai_images_count += 1
-                # When a Requirement Intro / Lead slide has a split right-side graphic + top requirement banner,
-                # cap the left-column bullets to 4 so text never overflows or crowds the card boxes.
                 if is_req_lead_slide and len(raw_bps) > 4:
                     slide["full_bullet_points"] = raw_bps
                     slide["bullet_points"] = raw_bps[:4]
+
+        # Enforce strict image deduplication across the deck so no image (by file MD5) repeats excessively
+        cur_diag = slide.get("diagram_path")
+        if cur_diag:
+            cur_md5 = _file_md5(str(cur_diag))
+            if cur_md5:
+                if used_diagram_md5s.get(cur_md5, 0) >= 1 and not is_req_lead_slide:
+                    # Replace duplicate image on non-intro slide with an unused extracted BSA Pamphlet image if available
+                    pamphlet_dir = AI_ILLUSTRATIONS_DIR.parent / "pamphlet_images"
+                    replacement_found = False
+                    if pamphlet_dir.exists():
+                        for cand in sorted(pamphlet_dir.glob(f"{badge_slug_check}_p*_img*.png")):
+                            cand_md5 = _file_md5(str(cand))
+                            if cand_md5 and used_diagram_md5s.get(cand_md5, 0) == 0:
+                                slide["diagram_path"] = str(cand)
+                                slide["ai_hero_image_path"] = None
+                                slide["visual_source_label"] = "Official BSA Pamphlet Figure"
+                                used_diagram_md5s[cand_md5] = 1
+                                replacement_found = True
+                                break
+                    if not replacement_found and used_diagram_md5s.get(cur_md5, 0) >= 2:
+                        slide["diagram_path"] = None
+                        slide["ai_hero_image_path"] = None
+                        if slide.get("archetype") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
+                            slide["archetype"] = "CONCEPT_TEXT_SLIDE"
+                    elif not replacement_found:
+                        used_diagram_md5s[cur_md5] = used_diagram_md5s.get(cur_md5, 0) + 1
+                else:
+                    used_diagram_md5s[cur_md5] = used_diagram_md5s.get(cur_md5, 0) + 1
 
         if not slide.get("visual_source_label"):
             slide["visual_source_label"] = "Official BSA Pamphlet / Technical Diagram"

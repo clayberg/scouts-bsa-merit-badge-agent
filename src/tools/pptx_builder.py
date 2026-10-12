@@ -153,9 +153,62 @@ _DANGLING_TAIL_WORDS = {
 }
 
 
+_MEANING_PRESERVING_REWRITES: List[Tuple[str, str]] = [
+    (
+        r"(?i)\bexplain to your counselor the most likely hazards you may encounter while participating in\s+",
+        "Identify likely hazards during ",
+    ),
+    (
+        r"(?i)\band what you should do to anticipate,\s*help prevent,\s*mitigate,\s*and respond to these hazards\b",
+        "and how to prevent, mitigate, and respond to them",
+    ),
+    (
+        r"(?i)\bshow that you know first aid for and how to prevent injuries or illnesses that could occur while participating in\s+",
+        "Demonstrate first aid and prevention for injuries or illnesses in ",
+    ),
+    (
+        r"(?i)\bshow that you know first aid for injuries or illnesses that could occur while participating in\s+",
+        "Demonstrate first aid for injuries or illnesses in ",
+    ),
+    (
+        r"(?i)\bmeat,\s*fish,\s*chicken,\s*eggs,\s*dairy products,\s*and fresh vegetables\b",
+        "meat, poultry, fish, eggs, dairy, and fresh produce",
+    ),
+    (
+        r"(?i)^(with guidance from your counselor,?\s*|with your counselor'?s approval,?\s*|in your own words,?\s*)",
+        "",
+    ),
+    (
+        r"(?i)^(explain to your counselor\s+|discuss with your counselor\s+|tell your counselor\s+|demonstrate to your counselor\s+|show your counselor\s+)",
+        "Explain ",
+    ),
+    (
+        r"(?i)\bwith your counselor or a family member\b",
+        "with your counselor",
+    ),
+    (
+        r"(?i)\bthat you might encounter while participating in\b",
+        "encountered during",
+    ),
+]
+
+
+def _compress_preserving_meaning(text: str) -> str:
+    """Rewrites verbose requirement/pamphlet boilerplate into concise, 100%-meaning-equivalent language."""
+    s = _clean_text(text)
+    if not s:
+        return ""
+    for pat, repl in _MEANING_PRESERVING_REWRITES:
+        s = re.sub(pat, repl, s)
+    s = re.sub(r"\s+", " ", s).strip()
+    if s and s[0].islower():
+        s = s[0].upper() + s[1:]
+    return s
+
+
 def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140) -> str:
-    """Condenses a long pamphlet sentence into a crisp clause without ellipsis ('...') so cards stay airy."""
-    cleaned = _clean_text(body_text)
+    """Condenses a long pamphlet sentence into a crisp, meaning-complete clause without ellipsis ('...') so cards stay airy."""
+    cleaned = _compress_preserving_meaning(body_text)
     if not cleaned:
         return ""
     words = cleaned.split()
@@ -189,7 +242,7 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
         .replace("i.e.", "ie_")
     )
 
-    # Try splitting at a sentence or secondary clause boundary if the primary clause is substantive
+    # Try splitting ONLY at genuine sentence or subordinate clause boundaries (never at ', and ' in Oxford comma lists)
     for sep in (
         ". ",
         "; ",
@@ -199,14 +252,8 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
         ", while ",
         ", ensuring ",
         ", allowing ",
-        ", including ",
-        ", such as ",
-        ", especially ",
         " so that ",
         " in order to ",
-        ", and ",
-        ", or ",
-        ", then ",
     ):
         if sep in protected:
             raw_head = protected.split(sep, 1)[0].strip().rstrip(",;:-")
@@ -236,12 +283,19 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
                 .replace("ie_", "i.e.")
             )
             head_words = head.split()
-            if 6 <= len(head_words) <= max_words and len(head) <= max_chars:
+            if 7 <= len(head_words) <= max_words + 2 and len(head) <= max_chars + 15:
                 return head if head.endswith((".", "!", "?")) else f"{head}."
 
-    # Otherwise cap at max_words and trim any trailing conjunction/preposition/article cleanly
-    capped = list(words[:max_words])
-    while len(capped) > 6 and " ".join(capped) and len(" ".join(capped)) > max_chars:
+    # If the text is a single grammatical sentence/clause within comfortable card capacity
+    # (no subordinate clause separator matched above), keep 100% of the sentence intact
+    # rather than chopping off the final 1-3 words mid-phrase; _compute_fitting_font_size
+    # (with min_pt=12.5) will step down the font size cleanly if needed.
+    if len(words) <= max_words + 12 and len(cleaned) <= max_chars + 80:
+        return cleaned if cleaned.endswith((".", "!", "?")) else f"{cleaned}."
+
+    # Otherwise cap at max_words + 6 and trim any trailing conjunction/preposition/article cleanly
+    capped = list(words[: max_words + 6])
+    while len(capped) > 6 and " ".join(capped) and len(" ".join(capped)) > max_chars + 55:
         capped.pop()
     while len(capped) > 6 and capped[-1].lower().strip(",;:-.()") in _DANGLING_TAIL_WORDS:
         capped.pop()
@@ -253,28 +307,85 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
     return result
 
 
+def _concise_anchor_title(raw_anchor: str, max_chars: int = 44) -> str:
+    """Ensures card header anchor titles fit on a single line without wrapping in Google Slides."""
+    s = _clean_text(raw_anchor).strip(" .,:;-—")
+    if not s or len(s) <= max_chars:
+        return s
+    # If there is a parenthetical label like 'Req 1a (Long Topic Name)', shorten inside parens or drop parens if needed
+    m_req = re.match(r"^(Req\s+[0-9a-zA-Z]+)\s*\((.+)\)$", s, flags=re.IGNORECASE)
+    if m_req:
+        req_lbl = m_req.group(1).strip()
+        inner = m_req.group(2).strip()
+        avail_inner = max_chars - len(req_lbl) - 3
+        if avail_inner >= 8:
+            words = inner.split()
+            kept: List[str] = []
+            for w in words:
+                cand = " ".join(kept + [w])
+                if len(cand) <= avail_inner:
+                    kept.append(w)
+                else:
+                    break
+            while len(kept) > 1 and kept[-1].lower().strip(",;:-.()") in _DANGLING_TAIL_WORDS:
+                kept.pop()
+            short_inner = " ".join(kept).rstrip(",;:-")
+            if short_inner:
+                return f"{req_lbl} ({short_inner})"
+        return req_lbl
+
+    words = s.split()
+    kept_words: List[str] = []
+    for w in words:
+        cand = " ".join(kept_words + [w])
+        if len(cand) <= max_chars:
+            kept_words.append(w)
+        else:
+            break
+    while len(kept_words) > 1 and kept_words[-1].lower().strip(",;:-.()") in _DANGLING_TAIL_WORDS:
+        kept_words.pop()
+    res = " ".join(kept_words).rstrip(",;:-(")
+    if res.count("(") > res.count(")"):
+        res = res.rsplit("(", 1)[0].strip().rstrip(",;:-")
+    return res or s[:max_chars].strip()
+
+
+def _format_top_requirement_strip_text(req_number: str, raw_verbatim: str, max_chars: int = 210) -> str:
+    """Condenses multi-part verbatim requirement text for the top slide strip so it never exceeds 2-3 lines in Google Slides, while preserving full sub-requirements on sub-requirement slides and in speaker notes."""
+    s = _compress_preserving_meaning(raw_verbatim)
+    if not s:
+        return f"Complete Requirement {req_number} as specified in the official Scouts BSA pamphlet."
+    if len(s) <= max_chars:
+        return s
+    sub_markers = re.findall(r"\(([a-z0-9]{1,2})\)", raw_verbatim)
+    cleaned_lead = re.sub(r"^\([a-z0-9]{1,2}\)\s*", "", s).strip()
+    if len(sub_markers) >= 2:
+        summary_lead = _concise_card_body(cleaned_lead, max_words=22, max_chars=max_chars - 50)
+        return f"{summary_lead} (Sub-reqs {sub_markers[0]}–{sub_markers[-1]} detailed on following slides.)"
+    return _concise_card_body(cleaned_lead, max_words=28, max_chars=max_chars)
+
 
 def _compute_fitting_font_size(
     paragraphs_text: List[str],
     box_w_in: float,
     box_h_in: float,
-    min_pt: float = 15.0,
+    min_pt: float = 12.0,
     max_pt: float = 21.0,
     space_after_pt: float = 6.0,
 ) -> float:
     """Computes the largest comfortable font size (in pt) that wraps cleanly inside [box_w_in x box_h_in] without overflowing in Google Slides."""
-    safe_min = max(15.0, float(min_pt))
+    safe_min = max(11.5, float(min_pt))
     if not paragraphs_text:
         return max(safe_min, float(max_pt))
-    usable_w_in = max(1.15, box_w_in - 0.48)
-    usable_h_in = max(0.28, box_h_in - 0.26)
+    usable_w_in = max(1.05, box_w_in - 0.54)
+    usable_h_in = max(0.24, box_h_in - 0.28)
 
     candidate = float(max(safe_min, float(max_pt)))
     while candidate >= safe_min:
         # Conservative character width and line height accounting for Google Slides font metrics & bold runs
-        char_w_in = (candidate * 0.62) / 72.0
-        chars_per_line = max(12, int(usable_w_in / max(0.04, char_w_in)))
-        line_h_in = (candidate * 1.38) / 72.0
+        char_w_in = (candidate * 0.66) / 72.0
+        chars_per_line = max(10, int(usable_w_in / max(0.04, char_w_in)))
+        line_h_in = (candidate * 1.44) / 72.0
         para_gap_in = space_after_pt / 72.0
 
         total_h_in = 0.0
@@ -300,6 +411,8 @@ def _compute_fitting_font_size(
         candidate -= 0.5
 
     return round(safe_min, 1)
+
+
 
 
 def _set_rounded_rect_radius(shape: Any, width_in: float, height_in: float, radius_in: float = 0.09) -> None:
@@ -485,9 +598,10 @@ def _set_paragraph_runs(
     align: Any = PP_ALIGN.LEFT,
     separator: str = ": ",
 ) -> None:
-    """Populates a paragraph with a bold anchor run and regular body run, enforcing left alignment and >= 15.0pt floor."""
-    safe_size = max(15.0, float(font_size_pt))
+    """Populates a paragraph with a bold anchor run and regular body run, enforcing left alignment and >= 11.5pt floor."""
+    safe_size = max(11.5, float(font_size_pt))
     paragraph.text = ""
+
     paragraph.alignment = align
     paragraph.font.name = font_name
     paragraph.font.size = Pt(safe_size)
@@ -742,8 +856,13 @@ def _render_stacked_point_cards(
     use_top_bar = "BENTO" in theme or "THREE_PILLAR" in theme or "ASYMMETRIC" in theme
 
     total_h = max(2.00, bottom_in - top_in)
-    # When rendering in a half-width split column with very compact vertical height, cap at 3 cards; otherwise allow 4
-    max_pts = 3 if (width_in < 7.0 and total_h < 3.60) else 4
+    # Cap card count based on available vertical height so each card has >= 1.10" breathing room in Google Slides
+    if total_h < 3.20:
+        max_pts = 2
+    elif (width_in < 7.0 and total_h < 4.55) or total_h < 4.05:
+        max_pts = 3
+    else:
+        max_pts = 4
     clean_pts = [p for p in (points or [])[:max_pts] if _clean_text(p)]
     if not clean_pts:
         clean_pts = [f"{default_anchor_prefix}: Review and discuss these principles with your Merit Badge Counselor."]
@@ -755,20 +874,26 @@ def _render_stacked_point_cards(
 
     # Render individual stacked cards with proportional height based on wrapped line count
     if n_pts <= 5 and avg_h >= 0.64:
-        chars_per_line = 44.0 if width_in < 7.0 else 90.0
+        chars_per_line = 42.0 if width_in < 7.0 else 86.0
         parsed_pts: List[Tuple[str, str]] = []
         weights: List[float] = []
-        max_w_limit = 18 if width_in < 7.0 else 22
-        max_c_limit = 115 if width_in < 7.0 else 145
+        max_anchor_chars = 42 if width_in < 7.0 else 72
+        if width_in < 7.0:
+            max_w_limit = 16 if avg_h < 1.20 else 20
+            max_c_limit = 105 if avg_h < 1.20 else 130
+        else:
+            max_w_limit = 24 if avg_h < 1.15 else 30
+            max_c_limit = 160 if avg_h < 1.15 else 200
         for idx_p, p in enumerate(clean_pts):
-            r_anc, r_bod = _split_anchor_and_body(p, f"{default_anchor_prefix} {idx_p + 1}")
+            raw_a, r_bod = _split_anchor_and_body(p, f"{default_anchor_prefix} {idx_p + 1}")
+            r_anc = _concise_anchor_title(raw_a, max_chars=max_anchor_chars)
             c_bod = _concise_card_body(r_bod, max_words=max_w_limit, max_chars=max_c_limit) if r_bod else ""
             parsed_pts.append((r_anc, c_bod))
             anc_lines = max(1, int((len(r_anc) + 8 + chars_per_line - 1) // chars_per_line))
             bod_lines = max(1, int((len(c_bod) + chars_per_line - 1) // chars_per_line)) if c_bod else 0
-            weights.append(0.45 + float(anc_lines + bod_lines))
+            weights.append(0.50 + float(anc_lines + bod_lines))
         total_w = sum(weights)
-        min_card_h = min(0.64, avg_h * 0.82)
+        min_card_h = min(0.68, avg_h * 0.85)
         raw_heights = [max(min_card_h, avail_cards_h * (w / total_w)) for w in weights]
         scale_h = avail_cards_h / max(0.01, sum(raw_heights))
         card_heights = [round(h * scale_h, 3) for h in raw_heights]
@@ -799,23 +924,23 @@ def _render_stacked_point_cards(
                 left_accent_rgb=None if use_top_bar else bar_color,
             )
             tf = card.text_frame
-            tf.margin_top = Inches(0.05 if c_h < 0.94 else 0.07)
-            tf.margin_bottom = Inches(0.05 if c_h < 0.94 else 0.06)
+            tf.margin_top = Inches(0.05 if c_h < 0.98 else 0.07)
+            tf.margin_bottom = Inches(0.05 if c_h < 0.98 else 0.06)
             tf.margin_left = Inches(0.14 if width_in < 7.0 else 0.18)
             tf.margin_right = Inches(0.14 if width_in < 7.0 else 0.18)
 
             use_step_pill = (
                 tier != "STANDARD"
                 and anchor.startswith(f"0{idx_pt + 1}")
-                and bool(raw_anchor and body and c_h >= 0.70)
+                and bool(raw_anchor and body and c_h >= 0.72)
             )
 
-            if raw_anchor and body and c_h >= 0.70:
-                header_for_fit = f"      {raw_anchor}" if use_step_pill else anchor
+            if raw_anchor and body and c_h >= 0.72:
+                header_for_fit = f"        {raw_anchor}" if use_step_pill else anchor
                 f_pt = _compute_fitting_font_size(
                     [header_for_fit, body],
-                    box_w_in=width_in - 0.18,
-                    box_h_in=c_h,
+                    box_w_in=width_in - 0.22,
+                    box_h_in=c_h - (0.065 if use_top_bar else 0.0),
                     min_pt=12.5,
                     max_pt=17.5 if width_in > 8.0 else 16.0,
                     space_after_pt=2.0,
@@ -837,7 +962,7 @@ def _render_stacked_point_cards(
                         3,
                     )
                     pill_top = round(
-                        c_top + (0.065 if use_top_bar else 0.0) + (0.05 if c_h < 0.94 else 0.07),
+                        c_top + (0.065 if use_top_bar else 0.0) + (0.05 if c_h < 0.98 else 0.07),
                         3,
                     )
                     pill_bg = primary_rgb if tier == "STUDIO" else (15, 23, 42)
@@ -866,7 +991,7 @@ def _render_stacked_point_cards(
                 single_text = body if not raw_anchor else (f"{anchor}: {body}" if body else anchor)
                 f_pt = _compute_fitting_font_size(
                     [single_text],
-                    box_w_in=width_in - 0.16,
+                    box_w_in=width_in - 0.20,
                     box_h_in=c_h,
                     min_pt=12.5,
                     max_pt=17.5 if width_in > 8.0 else 16.0,
@@ -993,10 +1118,7 @@ def _render_right_visual_card(
     ):
         if raw_cap.startswith(prefix_rm):
             raw_cap = raw_cap[len(prefix_rm) :].strip()
-    if len(raw_cap) > 112:
-        raw_cap = raw_cap[:112].rsplit(" ", 1)[0].strip(" .,:;-—>") or raw_cap[:112]
-        while raw_cap.endswith(("->", "-", "—", "&", "and", "or", "with", "to", "for", "in", "on", "of")):
-            raw_cap = raw_cap.rsplit(" ", 1)[0].strip(" .,:;-—>")
+    raw_cap = _concise_card_body(raw_cap, max_words=16, max_chars=105)
 
     cap_box = slide.shapes.add_textbox(
         Inches(7.14),
@@ -1016,8 +1138,8 @@ def _render_right_visual_card(
         [raw_cap],
         box_w_in=5.45,
         box_h_in=cap_h,
-        min_pt=12.0,
-        max_pt=14.5,
+        min_pt=12.5,
+        max_pt=15.5,
         space_after_pt=0.0,
     )
     _set_paragraph_runs(
@@ -1048,15 +1170,16 @@ def _render_requirement_intro_slide(
     anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
     req_bg_rgb = (30, 41, 59) if tier == "STUDIO" else (card_bg_rgb if tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
 
-    verbatim_text = _clean_text(
+    raw_verbatim = _clean_text(
         slide_spec.verbatim_requirement_text
         or (slide_spec.bullet_points[0] if slide_spec.bullet_points else f"Complete Requirement {slide_spec.req_number}.")
     )
+    verbatim_text = _format_top_requirement_strip_text(str(slide_spec.req_number), raw_verbatim, max_chars=205)
     full_req_line = f"Official Requirement {slide_spec.req_number}: {verbatim_text}"
     req_h = (
-        0.72
-        if len(full_req_line) <= 115
-        else (0.88 if len(full_req_line) <= 215 else (1.04 if len(full_req_line) <= 320 else 1.24))
+        0.74
+        if len(full_req_line) <= 95
+        else (0.92 if len(full_req_line) <= 180 else 1.08)
     )
 
     # Top Strip: Full-width Official Requirement text (matches UI preview `.m3-slide-req-strip` with thick left accent)
@@ -1072,14 +1195,14 @@ def _render_requirement_intro_slide(
         left_accent_rgb=accent_rgb,
     )
     rtf = req_box.text_frame
-    rtf.margin_top = Inches(0.06)
+    rtf.margin_top = Inches(0.05)
     rtf.margin_bottom = Inches(0.05)
     req_font_pt = _compute_fitting_font_size(
         [full_req_line],
         box_w_in=11.95,
         box_h_in=req_h,
         min_pt=12.5,
-        max_pt=17.5,
+        max_pt=17.0,
         space_after_pt=1.5,
     )
     _set_paragraph_runs(
@@ -1094,7 +1217,7 @@ def _render_requirement_intro_slide(
 
     teach_top = round(1.10 + req_h + 0.10, 2)
     left_w = 6.20 if has_hero else 12.133
-    max_intro_pts = 4 if has_hero else 6
+    max_intro_pts = 3 if (has_hero and (content_bottom - teach_top) < 4.55) else 4
     teaching_points = slide_spec.bullet_points[:max_intro_pts]
     if not teaching_points:
         teaching_points = [f"Key Principle: Review and discuss Requirement {slide_spec.req_number} with your counselor."]
@@ -1118,6 +1241,7 @@ def _render_requirement_intro_slide(
             top_in=teach_top,
             bottom_in=content_bottom,
         )
+
 
 
 def _render_full_bleed_image_slide(
@@ -1203,7 +1327,7 @@ def _render_concept_or_sources_full_width(
     tf = card.text_frame
     all_lines = ["Sources of Information & Visual Credits"] + list(points[:6])
     src_font_pt = _compute_fitting_font_size(
-        all_lines, box_w_in=12.133, box_h_in=box_h, min_pt=15.0, max_pt=20.0, space_after_pt=8.0
+        all_lines, box_w_in=12.133, box_h_in=box_h, min_pt=12.5, max_pt=20.0, space_after_pt=8.0
     )
     _set_paragraph_runs(
         tf.paragraphs[0],
@@ -1368,18 +1492,23 @@ def _render_triage_matrix_zone(
         tf.margin_bottom = Inches(0.05)
         col_items_raw = (parsed_cols[col_idx] or [("", defaults[col_idx])])[:4]
         col_items = [
-            (r_lbl, _concise_card_body(r_dsc, max_words=9, max_chars=58).rstrip(".") if r_lbl else _concise_card_body(r_dsc, max_words=11, max_chars=70))
+            (
+                r_lbl,
+                _concise_card_body(r_dsc, max_words=6, max_chars=38).rstrip(".")
+                if r_lbl
+                else _concise_card_body(r_dsc, max_words=8, max_chars=48),
+            )
             for r_lbl, r_dsc in col_items_raw
         ]
-        bullet_space_after = 2.0 if len(col_items) >= 4 else 3.5
+        bullet_space_after = 1.5 if len(col_items) >= 4 else 3.0
         col_lines_for_fit = [col_title] + [
             f"• {r_lbl} - {r_dsc}" if r_lbl else f"• {r_dsc}" for r_lbl, r_dsc in col_items
         ]
         col_font_pt = _compute_fitting_font_size(
             col_lines_for_fit,
-            box_w_in=col_w - 0.14,
-            box_h_in=box_h,
-            min_pt=13.0,
+            box_w_in=col_w - 0.20,
+            box_h_in=box_h - 0.08,
+            min_pt=12.5,
             max_pt=15.5,
             space_after_pt=bullet_space_after,
         )
@@ -1387,9 +1516,9 @@ def _render_triage_matrix_zone(
             tf.paragraphs[0],
             col_title,
             "",
-            font_size_pt=min(17.5, col_font_pt + 1.0),
+            font_size_pt=min(16.5, col_font_pt + 0.5),
             anchor_rgb=header_rgb,
-            space_after_pt=3.5,
+            space_after_pt=2.5,
         )
         for r_lbl, r_dsc in col_items:
             p = tf.add_paragraph()
@@ -1426,13 +1555,14 @@ def _render_triage_matrix_zone(
             extra_bullets,
             box_w_in=scope_w - 0.16,
             box_h_in=scope_h,
-            min_pt=13.0,
+            min_pt=12.5,
             max_pt=16.0,
-            space_after_pt=2.5,
+            space_after_pt=2.0,
         )
         for idx_eb, eb in enumerate(extra_bullets):
             p_eb = stf.paragraphs[0] if idx_eb == 0 else stf.add_paragraph()
             eb_anchor, eb_body = _split_anchor_and_body(eb, "Curriculum Scope")
+            eb_body = _concise_card_body(eb_body, max_words=24, max_chars=155) if eb_body else ""
             icon_prefix = "📍 " if idx_eb == 0 else "🌐 "
             _set_paragraph_runs(
                 p_eb,
@@ -1458,10 +1588,10 @@ def _render_differential_comparison_zone(
     _, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
 
     cd = slide_spec.comparison_data or {}
-    left_header = _clean_text(cd.get("left_header") or "Primary Condition / Method A")
+    left_header = _concise_anchor_title(cd.get("left_header") or "Primary Condition / Method A", max_chars=48 if full_width else 28)
     left_pts = cd.get("left_points") or slide_spec.bullet_points[:3] or ["Verify primary indicators and characteristics."]
 
-    right_header = _clean_text(cd.get("right_header") or "Contrast Condition / Method B")
+    right_header = _concise_anchor_title(cd.get("right_header") or "Contrast Condition / Method B", max_chars=48 if full_width else 28)
     right_pts = cd.get("right_points") or slide_spec.bullet_points[3:6] or ["Compare key differences and field response."]
 
     if tier == "STUDIO":
@@ -1473,13 +1603,13 @@ def _render_differential_comparison_zone(
 
     if full_width:
         specs = [
-            (0.60, 5.95, left_header, left_pts[:5], l_accent, l_border, l_bg),
-            (6.78, 5.95, right_header, right_pts[:5], r_accent, r_border, r_bg),
+            (0.60, 5.95, left_header, left_pts[:4], l_accent, l_border, l_bg),
+            (6.78, 5.95, right_header, right_pts[:4], r_accent, r_border, r_bg),
         ]
     else:
         specs = [
-            (0.60, 3.00, left_header, left_pts[:4], l_accent, l_border, l_bg),
-            (3.75, 3.00, right_header, right_pts[:4], r_accent, r_border, r_bg),
+            (0.60, 3.00, left_header, left_pts[:3], l_accent, l_border, l_bg),
+            (3.75, 3.00, right_header, right_pts[:3], r_accent, r_border, r_bg),
         ]
     box_h = max(3.50, content_bottom - content_top)
     for left_x, box_w, header_text, pts, top_rgb, border_rgb, bg_rgb in specs:
@@ -1497,28 +1627,35 @@ def _render_differential_comparison_zone(
         tf = box.text_frame
         tf.margin_top = Inches(0.07)
         tf.margin_bottom = Inches(0.06)
+        formatted_pts: List[Tuple[str, str]] = []
+        for pt in pts:
+            raw_a, raw_b = _split_anchor_and_body(pt, "")
+            a = _concise_anchor_title(raw_a, max_chars=34 if full_width else 22) if raw_a else ""
+            b = _concise_card_body(
+                raw_b or pt,
+                max_words=18 if full_width else 12,
+                max_chars=120 if full_width else 78,
+            )
+            formatted_pts.append((a, b))
         col_font_pt = _compute_fitting_font_size(
-            [header_text] + [f"• {p}" for p in pts],
-            box_w_in=box_w - 0.14,
-            box_h_in=box_h,
+            [header_text] + [f"• {a}: {b}" if a else f"• {b}" for a, b in formatted_pts],
+            box_w_in=box_w - 0.18,
+            box_h_in=box_h - 0.08,
             min_pt=12.5,
-            max_pt=18.0 if full_width else 15.5,
-            space_after_pt=5.0,
+            max_pt=17.0 if full_width else 15.5,
+            space_after_pt=3.5,
         )
         _set_paragraph_runs(
             tf.paragraphs[0],
             header_text,
             "",
-            font_size_pt=min(19.5, col_font_pt + 1.0),
+            font_size_pt=min(18.0, col_font_pt + 0.5),
             anchor_rgb=top_rgb,
-            space_after_pt=6.0,
+            space_after_pt=4.5,
         )
-        for pt in pts:
+        for anchor, body in formatted_pts:
             p = tf.add_paragraph()
             _enable_openxml_bullet(p, "•")
-            anchor, body = _split_anchor_and_body(pt, "")
-            if not full_width and body:
-                body = _concise_card_body(body, max_words=18, max_chars=115)
             _set_paragraph_runs(
                 p,
                 anchor,
@@ -1526,7 +1663,7 @@ def _render_differential_comparison_zone(
                 font_size_pt=col_font_pt,
                 anchor_rgb=top_rgb,
                 body_rgb=body_rgb,
-                space_after_pt=5.0,
+                space_after_pt=3.5,
             )
 
 
@@ -1589,11 +1726,12 @@ def _render_step_by_step_4card_zone(
             (3.75, row2_top, 3.00),
         ]
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
-    for idx_s, ((badge, anchor, raw_body), (lx, ty, cw)) in enumerate(zip(step_items[:4], grid_coords)):
+    for idx_s, ((badge, raw_anchor, raw_body), (lx, ty, cw)) in enumerate(zip(step_items[:4], grid_coords)):
+        anchor = _concise_anchor_title(raw_anchor, max_chars=36 if cw > 4.0 else 22)
         body = _concise_card_body(
             raw_body,
-            max_words=22 if cw > 4.0 else 18,
-            max_chars=140 if cw > 4.0 else 115,
+            max_words=20 if cw > 4.0 else 13,
+            max_chars=130 if cw > 4.0 else 84,
         )
         _, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
             slide_spec, idx_s, anchor, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
@@ -1614,31 +1752,31 @@ def _render_step_by_step_4card_zone(
             left_accent_rgb=None if use_top_bar else bar_color,
         )
         tf = card.text_frame
-        tf.margin_top = Inches(0.07)
-        tf.margin_bottom = Inches(0.06)
-        use_pill = tier != "STANDARD" and card_h >= 1.10
+        tf.margin_top = Inches(0.06)
+        tf.margin_bottom = Inches(0.05)
+        use_pill = tier != "STANDARD" and card_h >= 1.15 and cw >= 4.5
         head_line = f"{badge}  {anchor}"
         head_for_fit = f"          {anchor}" if use_pill else head_line
         step_font_pt = _compute_fitting_font_size(
             [head_for_fit, body],
-            box_w_in=cw - 0.16,
-            box_h_in=card_h,
+            box_w_in=cw - 0.18,
+            box_h_in=card_h - (0.065 if use_top_bar else 0.0),
             min_pt=12.5,
-            max_pt=17.5 if full_width else 15.5,
-            space_after_pt=3.5,
+            max_pt=16.5 if full_width else 15.5,
+            space_after_pt=2.5,
         )
         _set_paragraph_runs(
             tf.paragraphs[0],
             anchor if use_pill else head_line,
             "",
-            font_size_pt=min(18.5, step_font_pt + 0.5),
+            font_size_pt=min(17.5, step_font_pt + 0.5),
             anchor_rgb=c_anchor_rgb,
-            space_after_pt=3.5,
+            space_after_pt=2.5,
         )
         if use_pill:
             _indent_paragraph_for_pill(tf.paragraphs[0], indent_in=0.92)
             pill_left = round(lx + (0.0 if use_top_bar else 0.075) + 0.16, 3)
-            pill_top = round(ty + (0.065 if use_top_bar else 0.0) + 0.08, 3)
+            pill_top = round(ty + (0.065 if use_top_bar else 0.0) + 0.07, 3)
             pill_bg = primary_rgb if tier == "STUDIO" else (15, 23, 42)
             pill_fg = (15, 23, 42) if tier == "STUDIO" else (255, 255, 255)
             _add_step_pill_badge(
@@ -1659,7 +1797,7 @@ def _render_step_by_step_4card_zone(
             font_size_pt=step_font_pt,
             anchor_rgb=c_anchor_rgb,
             body_rgb=c_body_rgb,
-            space_after_pt=2.0,
+            space_after_pt=1.5,
         )
 
 
@@ -1676,10 +1814,11 @@ def _render_worked_example_zone(
     anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
 
     we = slide_spec.worked_example or {}
-    we_title = _clean_text(we.get("title") or f"Worked Example: Requirement {slide_spec.req_number}")
-    we_type = _clean_text(we.get("artifact_type") or "SAMPLE LOG & TEMPLATE")
+    we_title = _concise_anchor_title(we.get("title") or f"Worked Example: Requirement {slide_spec.req_number}", max_chars=56 if full_width else 34)
+    we_type = _clean_text(we.get("artifact_type") or "SAMPLE LOG")
     fields_dict: Dict[str, str] = we.get("fields") or {}
-    tip = _clean_text(we.get("counselor_tip") or "Bring your completed written log or project notes to your counselor review.")
+    raw_tip = _clean_text(we.get("counselor_tip") or "Bring your completed written log or project notes to your counselor review.")
+    tip = _concise_card_body(raw_tip, max_words=26 if full_width else 16, max_chars=170 if full_width else 105)
     box_w = 12.133 if full_width else 6.20
     total_h = max(3.60, content_bottom - content_top)
     tip_h = 1.05
@@ -1698,40 +1837,43 @@ def _render_worked_example_zone(
         left_accent_rgb=primary_rgb,
     )
     tf = top_box.text_frame
-    entry_lines = (
-        [f"{k}: {v}" for k, v in list(fields_dict.items())[:5]]
-        if fields_dict
-        else list(slide_spec.bullet_points[:5])
-    )
+    tf.margin_top = Inches(0.06)
+    tf.margin_bottom = Inches(0.05)
+    formatted_entries: List[Tuple[str, str]] = []
+    if fields_dict:
+        for k, v in list(fields_dict.items())[:4]:
+            ca = _concise_anchor_title(str(k), max_chars=34 if full_width else 22)
+            cb = _concise_card_body(str(v), max_words=22 if full_width else 14, max_chars=145 if full_width else 90)
+            formatted_entries.append((ca, cb))
+    else:
+        for pt in slide_spec.bullet_points[:4]:
+            raw_a, raw_b = _split_anchor_and_body(pt, "Example Entry")
+            ca = _concise_anchor_title(raw_a, max_chars=34 if full_width else 22)
+            cb = _concise_card_body(raw_b, max_words=22 if full_width else 14, max_chars=145 if full_width else 90)
+            formatted_entries.append((ca, cb))
+
+    entry_lines = [f"{k}: {v}" for k, v in formatted_entries]
     we_font_pt = _compute_fitting_font_size(
         [f"📋 [{we_type}] {we_title}"] + entry_lines,
-        box_w_in=box_w - 0.16,
-        box_h_in=top_h,
+        box_w_in=box_w - 0.18,
+        box_h_in=top_h - 0.06,
         min_pt=12.5,
-        max_pt=18.5 if full_width else 16.0,
-        space_after_pt=5.0,
+        max_pt=17.0 if full_width else 15.5,
+        space_after_pt=3.0,
     )
     _set_paragraph_runs(
         tf.paragraphs[0],
         f"📋 [{we_type}] {we_title}",
         "",
-        font_size_pt=min(19.5, we_font_pt + 1.0),
+        font_size_pt=min(18.0, we_font_pt + 0.5),
         anchor_rgb=anchor_rgb,
-        space_after_pt=5.5,
+        space_after_pt=3.5,
     )
-    if fields_dict:
-        for k, v in list(fields_dict.items())[:5]:
-            p = tf.add_paragraph()
-            _set_paragraph_runs(
-                p, str(k), str(v), font_size_pt=we_font_pt, anchor_rgb=anchor_rgb, body_rgb=body_rgb, space_after_pt=5.0
-            )
-    else:
-        for pt in slide_spec.bullet_points[:5]:
-            p = tf.add_paragraph()
-            a, b = _split_anchor_and_body(pt, "Example Entry")
-            _set_paragraph_runs(
-                p, a, b, font_size_pt=we_font_pt, anchor_rgb=anchor_rgb, body_rgb=body_rgb, space_after_pt=5.0
-            )
+    for k, v in formatted_entries:
+        p = tf.add_paragraph()
+        _set_paragraph_runs(
+            p, k, v, font_size_pt=we_font_pt, anchor_rgb=anchor_rgb, body_rgb=body_rgb, space_after_pt=3.0
+        )
 
     tip_bg = (23, 37, 42) if tier == "STUDIO" else ScoutsBSAPalette.SOFT_GOLD_CARD_RGB
     tip_border = (244, 196, 48) if tier == "STUDIO" else ScoutsBSAPalette.WARM_OLIVE_RGB
@@ -1747,12 +1889,14 @@ def _render_worked_example_zone(
         left_accent_rgb=tip_border,
     )
     ttf = tip_box.text_frame
+    ttf.margin_top = Inches(0.05)
+    ttf.margin_bottom = Inches(0.05)
     tip_font_pt = _compute_fitting_font_size(
         [f"Counselor Pro-Tip: {tip}"],
-        box_w_in=box_w - 0.16,
+        box_w_in=box_w - 0.18,
         box_h_in=tip_h,
         min_pt=12.5,
-        max_pt=17.0 if full_width else 15.5,
+        max_pt=16.5 if full_width else 15.5,
         space_after_pt=2.0,
     )
     _set_paragraph_runs(
@@ -1816,11 +1960,12 @@ def _render_gear_checklist_zone(
         ]
 
     for idx_c, (raw_item, (lx, ty, cw)) in enumerate(zip(chk_items, grid_coords)):
-        a, raw_b = _split_anchor_and_body(raw_item, f"Checklist {idx_c + 1}")
+        raw_a, raw_b = _split_anchor_and_body(raw_item, f"Checklist {idx_c + 1}")
+        a = _concise_anchor_title(raw_a, max_chars=36 if cw > 4.0 else 22)
         b = _concise_card_body(
             raw_b,
-            max_words=22 if cw > 4.0 else 18,
-            max_chars=140 if cw > 4.0 else 115,
+            max_words=20 if cw > 4.0 else 13,
+            max_chars=130 if cw > 4.0 else 84,
         ) if raw_b else ""
         _, c_bg, c_border, c_anchor_rgb, c_body_rgb, c_border_pt = _resolve_card_theme_treatment(
             slide_spec, idx_c, a, card_bg_rgb, accent_rgb, anchor_rgb, body_rgb
@@ -1841,24 +1986,24 @@ def _render_gear_checklist_zone(
             left_accent_rgb=None if use_top_bar else bar_color,
         )
         tf = card.text_frame
-        tf.margin_top = Inches(0.07)
-        tf.margin_bottom = Inches(0.06)
+        tf.margin_top = Inches(0.06)
+        tf.margin_bottom = Inches(0.05)
         head_line = f"[✓] {a}"
         chk_font_pt = _compute_fitting_font_size(
             [head_line, b] if b else [head_line],
-            box_w_in=cw - 0.16,
-            box_h_in=card_h,
+            box_w_in=cw - 0.18,
+            box_h_in=card_h - (0.065 if use_top_bar else 0.0),
             min_pt=12.5,
-            max_pt=17.5 if full_width else 15.5,
-            space_after_pt=3.5,
+            max_pt=16.5 if full_width else 15.5,
+            space_after_pt=2.5,
         )
         _set_paragraph_runs(
             tf.paragraphs[0],
             head_line,
             "",
-            font_size_pt=min(18.5, chk_font_pt + 0.5),
+            font_size_pt=min(17.5, chk_font_pt + 0.5),
             anchor_rgb=c_anchor_rgb,
-            space_after_pt=3.5,
+            space_after_pt=2.5,
         )
         if b:
             p_b = tf.add_paragraph()
@@ -1869,7 +2014,7 @@ def _render_gear_checklist_zone(
                 font_size_pt=chk_font_pt,
                 anchor_rgb=c_anchor_rgb,
                 body_rgb=c_body_rgb,
-                space_after_pt=2.0,
+                space_after_pt=1.5,
             )
 
 
@@ -1885,17 +2030,20 @@ def _render_socratic_quiz_zone(
     primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
     _, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
     qi = slide_spec.quiz_item or {}
-    scenario = _clean_text(
+    raw_scenario = _clean_text(
         qi.get("scenario_prompt")
         or (slide_spec.bullet_points[0] if slide_spec.bullet_points else f"How should your patrol apply Requirement {slide_spec.req_number} in the field?")
     )
+    scenario = _concise_card_body(raw_scenario, max_words=26 if full_width else 16, max_chars=170 if full_width else 105)
     options = qi.get("options") or slide_spec.bullet_points[1:4] or [
         "Follow standard step-by-step field procedure.",
         "Improvise without checking safety guidelines.",
         "Skip buddy check and proceed alone.",
     ]
-    answer = _clean_text(qi.get("correct_answer") or "Option A — Follow standard step-by-step field procedure.")
-    explanation = _clean_text(qi.get("explanation") or "Grounded in the BSA Guide to Safe Scouting and merit badge instruction.")
+    raw_answer = _clean_text(qi.get("correct_answer") or "Option A — Follow standard step-by-step field procedure.")
+    answer = _concise_card_body(raw_answer, max_words=22 if full_width else 14, max_chars=145 if full_width else 90)
+    raw_exp = _clean_text(qi.get("explanation") or "Grounded in the BSA Guide to Safe Scouting and merit badge instruction.")
+    explanation = _concise_card_body(raw_exp, max_words=24 if full_width else 15, max_chars=160 if full_width else 98)
     box_w = 12.133 if full_width else 6.20
     total_h = max(3.60, content_bottom - content_top)
     gap = 0.14
@@ -1909,12 +2057,14 @@ def _render_socratic_quiz_zone(
         slide, left_in=0.60, top_in=content_top, width_in=box_w, height_in=h1,
         bg_rgb=s_bg, border_rgb=s_border, border_pt=1.5, left_accent_rgb=s_border,
     )
+    s_box.text_frame.margin_top = Inches(0.05)
+    s_box.text_frame.margin_bottom = Inches(0.05)
     s_font = _compute_fitting_font_size(
-        [f"❓ Patrol Scenario Challenge: {scenario}"], box_w_in=box_w - 0.16, box_h_in=h1, min_pt=12.5, max_pt=17.5, space_after_pt=2.5
+        [f"❓ Patrol Scenario Challenge: {scenario}"], box_w_in=box_w - 0.18, box_h_in=h1, min_pt=12.5, max_pt=16.5, space_after_pt=2.0
     )
     _set_paragraph_runs(
         s_box.text_frame.paragraphs[0], "❓ Patrol Scenario Challenge", scenario,
-        font_size_pt=s_font, anchor_rgb=s_border, body_rgb=body_rgb,
+        font_size_pt=s_font, anchor_rgb=s_border, body_rgb=body_rgb, space_after_pt=2.0,
     )
 
     o_bg = (30, 41, 59) if tier == "STUDIO" else card_bg_rgb
@@ -1924,21 +2074,28 @@ def _render_socratic_quiz_zone(
         bg_rgb=o_bg, border_rgb=o_border, border_pt=1.35, left_accent_rgb=primary_rgb,
     )
     otf = o_box.text_frame
-    o_font = _compute_fitting_font_size(
-        ["Discussion Options (Ask Scouts First)"] + [f"Option X: {opt}" for opt in options[:3]],
-        box_w_in=box_w - 0.16, box_h_in=h2, min_pt=12.5, max_pt=16.5, space_after_pt=3.0
-    )
-    _set_paragraph_runs(
-        otf.paragraphs[0], "Discussion Options (Ask Scouts First)", "",
-        font_size_pt=min(17.5, o_font + 0.5), anchor_rgb=primary_rgb, space_after_pt=3.0,
-    )
+    otf.margin_top = Inches(0.05)
+    otf.margin_bottom = Inches(0.05)
+    formatted_opts: List[str] = []
     for idx_o, opt in enumerate(options[:3], start=1):
-        p = otf.add_paragraph()
         opt_letter = chr(64 + idx_o)
         clean_opt = _clean_text(opt)
         clean_opt = re.sub(rf"^Option\s+{opt_letter}\s*[:\-—]\s*", "", clean_opt, flags=re.IGNORECASE)
+        clean_opt = _concise_card_body(clean_opt, max_words=20 if full_width else 12, max_chars=130 if full_width else 80)
+        formatted_opts.append(clean_opt)
+    o_font = _compute_fitting_font_size(
+        ["Discussion Options (Ask Scouts First)"] + [f"Option X: {opt}" for opt in formatted_opts],
+        box_w_in=box_w - 0.18, box_h_in=h2, min_pt=12.5, max_pt=16.0, space_after_pt=2.0
+    )
+    _set_paragraph_runs(
+        otf.paragraphs[0], "Discussion Options (Ask Scouts First)", "",
+        font_size_pt=min(16.5, o_font + 0.5), anchor_rgb=primary_rgb, space_after_pt=2.0,
+    )
+    for idx_o, clean_opt in enumerate(formatted_opts, start=1):
+        p = otf.add_paragraph()
+        opt_letter = chr(64 + idx_o)
         _set_paragraph_runs(
-            p, f"Option {opt_letter}", clean_opt, font_size_pt=o_font, anchor_rgb=primary_rgb, body_rgb=body_rgb, space_after_pt=3.0
+            p, f"Option {opt_letter}", clean_opt, font_size_pt=o_font, anchor_rgb=primary_rgb, body_rgb=body_rgb, space_after_pt=2.0
         )
 
     a_bg = (6, 78, 59) if tier == "STUDIO" else (220, 252, 231)
@@ -1948,19 +2105,23 @@ def _render_socratic_quiz_zone(
         bg_rgb=a_bg, border_rgb=a_border, border_pt=1.5, left_accent_rgb=a_border,
     )
     atf = a_box.text_frame
+    atf.margin_top = Inches(0.05)
+    atf.margin_bottom = Inches(0.05)
     a_font = _compute_fitting_font_size(
         [f"✓ Verified Answer: {answer}", f"Why It Matters: {explanation}"],
-        box_w_in=box_w - 0.16, box_h_in=h3, min_pt=12.5, max_pt=16.5, space_after_pt=3.0
+        box_w_in=box_w - 0.18, box_h_in=h3, min_pt=12.5, max_pt=16.0, space_after_pt=2.0
     )
+
     _set_paragraph_runs(
         atf.paragraphs[0], "✓ Verified Answer", answer,
-        font_size_pt=a_font, anchor_rgb=a_border, body_rgb=body_rgb, space_after_pt=3.0,
+        font_size_pt=a_font, anchor_rgb=a_border, body_rgb=body_rgb, space_after_pt=2.0,
     )
     p_exp = atf.add_paragraph()
     _set_paragraph_runs(
         p_exp, "Why It Matters", explanation,
-        font_size_pt=a_font, anchor_rgb=a_border, body_rgb=body_rgb, space_after_pt=2.0,
+        font_size_pt=a_font, anchor_rgb=a_border, body_rgb=body_rgb, space_after_pt=1.5,
     )
+
 
 
 def _render_split_explainer_zone(
@@ -2339,7 +2500,12 @@ def generate_bsa_slide_deck_pptx(
                 and arch not in {"SOURCES_AND_REFERENCES"}
             )
             if has_req_strip:
-                verbatim_text = _clean_text(slide_spec.verbatim_requirement_text)
+                raw_verbatim = _clean_text(slide_spec.verbatim_requirement_text)
+                verbatim_text = (
+                    raw_verbatim
+                    if str(slide_spec.req_number).lower() == "overview"
+                    else _format_top_requirement_strip_text(str(slide_spec.req_number), raw_verbatim, max_chars=205)
+                )
                 strip_anchor = (
                     "Curriculum & Local Context"
                     if str(slide_spec.req_number).lower() == "overview"
@@ -2347,9 +2513,9 @@ def generate_bsa_slide_deck_pptx(
                 )
                 full_strip_line = f"{strip_anchor}: {verbatim_text}"
                 strip_h = (
-                    0.72
-                    if len(full_strip_line) <= 115
-                    else (0.88 if len(full_strip_line) <= 215 else (1.04 if len(full_strip_line) <= 320 else 1.24))
+                    0.74
+                    if len(full_strip_line) <= 95
+                    else (0.92 if len(full_strip_line) <= 180 else 1.08)
                 )
                 strip_bg = (30, 41, 59) if s_tier == "STUDIO" else (s_card_bg_rgb if s_tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
                 req_strip = _add_styled_box(
@@ -2357,11 +2523,12 @@ def generate_bsa_slide_deck_pptx(
                     bg_rgb=strip_bg, border_rgb=s_accent_rgb, border_pt=1.5, left_accent_rgb=s_accent_rgb,
                 )
                 rstf = req_strip.text_frame
-                rstf.margin_top = Inches(0.06)
+                rstf.margin_top = Inches(0.05)
                 rstf.margin_bottom = Inches(0.05)
                 strip_font_pt = _compute_fitting_font_size(
-                    [full_strip_line], box_w_in=11.95, box_h_in=strip_h, min_pt=12.5, max_pt=17.5, space_after_pt=0.0
+                    [full_strip_line], box_w_in=11.95, box_h_in=strip_h, min_pt=12.5, max_pt=17.0, space_after_pt=0.0
                 )
+
                 _set_paragraph_runs(
                     rstf.paragraphs[0],
                     strip_anchor,
