@@ -26,6 +26,7 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
 
 # Copy runtime application assets, prompts, configs, UI, and evaluation gate scripts
 COPY scripts/ ./scripts/
+COPY data/ ./data/
 COPY tests/data/ ./tests/data/
 COPY config/ ./config/
 COPY prompts/ ./prompts/

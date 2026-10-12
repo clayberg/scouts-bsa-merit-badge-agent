@@ -331,7 +331,7 @@ def generate_prerequisite_parent_letter(
             f"Welcome to the **{clean_badge} Merit Badge** clinic! To help every Scout succeed and get the most out of our hands-on sessions, please review the following preparation checklist before our first meeting:",
             "",
             "### 1. Official Source of Truth & Local Field Reference",
-            f"- **Official BSA *{clean_badge}* Merit Badge Pamphlet:** {pamphlet_url}",
+            f"- **Official BSA {clean_badge} Merit Badge Pamphlet:** {pamphlet_url}",
             f"- **Local Field & Weather Context ({loc['display_location']}):** {loc['nws_office']} ({loc['nws_url']}) • {loc['field_site_examples']}",
             "- **Signed Blue Card / Scoutbook Connection:** Please obtain unit leader approval before our first session.",
             "",

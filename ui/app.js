@@ -2639,8 +2639,8 @@ function formatInlineMarkdown(text) {
   let s = escapeHtml(text);
   // Links [label](url)
   s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:var(--md-sys-color-primary); font-weight:600;">$1</a>');
-  // Bold **text**
-  s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  // Bold **text** (non-greedy across any inner characters)
+  s = s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   // Italic *text*
   s = s.replace(/(^|\s)\*([^*]+)\*/g, "$1<em>$2</em>");
   // Inline code `code`

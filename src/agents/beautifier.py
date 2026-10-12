@@ -668,52 +668,125 @@ def beautify_slide_storyboard(
                     slide["archetype"] = "SPLIT_VISUAL_EXPLAINER"
                 if ill_res.get("hero_source") == "NANO_BANANA_AI":
                     slide["visual_source_label"] = "🍌 Nano Banana Hero"
-                    if not slide.get("visual_caption") or "EDGE Skill Concept Map" in str(slide.get("visual_caption")):
-                        slide["visual_caption"] = title
+                    hero_fname = Path(ai_path).name
+                    _NANO_HERO_CAPTIONS = {
+                        "first_aid_req_1_nano_hero.png": "Two uniformed Scouts wearing exam gloves performing a trail scene size-up and responsiveness check with a first-aid kit.",
+                        "first_aid_req_2_nano_hero.png": "Scouts reviewing an emergency medical checklist and inspecting a stocked troop first-aid kit at camp.",
+                        "first_aid_req_3_nano_hero.png": "Scout instructor wearing sterile gloves demonstrating how to clean and bandage a minor forearm wound in the field.",
+                        "first_aid_req_4_nano_hero.png": "(Left) Direct gauze pressure on a bleeding wound; (Center) Windlass tourniquet application; (Right) Shock thermal blanket care.",
+                        "first_aid_req_5_nano_hero.png": "Scouts practicing recognizing the universal choking sign and positioning for back blows and abdominal thrusts.",
+                        "first_aid_req_6_nano_hero.png": "Scouts assessing an unresponsive hiker's airway and breathing before rolling them into the side-lying recovery position.",
+                        "first_aid_req_7_nano_hero.png": "Scouts performing chest compressions on a CPR training manikin alongside an Automated External Defibrillator (AED).",
+                        "first_aid_req_8_nano_hero.png": "Immobilizing a lower-arm injury with a padded wooden board splint and roller bandage while checking distal circulation.",
+                        "first_aid_req_9_nano_hero.png": "Applying manual in-line cervical spine stabilization and checking spinal alignment on a trauma training manikin.",
+                        "first_aid_req_10_nano_hero.png": "Four Scouts coordinating a balanced lift and carry using an improvised two-spar and blanket stretcher.",
+                        "first_aid_req_11_nano_hero.png": "(Left) Cooling an overheated Scout in shade with water; (Right) Insulating a shivering hypothermic Scout in a thermal blanket.",
+                        "first_aid_req_12_nano_hero.png": "Adult Scout leader and buddy practicing calm, empathetic active listening and peer support with a distressed Scout at camp.",
+                        "first_aid_req_13_nano_hero.png": "Scouts checking blood glucose with a glucometer and caring for a hiker experiencing a diabetic medical emergency.",
+                        "first_aid_req_14_nano_hero.png": "Older Scout instructor using the EDGE method to guide younger Scouts in applying a forearm splint and arm sling.",
+                        "first_aid_req_15_nano_hero.png": "(Left) EMS paramedic beside an ambulance; (Center) Wilderness mountain rescue medic; (Right) ER physician and nurse mentoring a Scout.",
+                        "citizenship_in_the_nation_req_1_nano_hero.png": "Scales of justice, gavel, naturalization oath ceremony, and the U.S. Capitol symbolizing constitutional rights and equal protection.",
+                        "citizenship_in_the_nation_req_2_nano_hero.png": "Six panels illustrating the Preamble's six purposes: national union, justice, domestic peace, common defense, public welfare, and liberty.",
+                        "citizenship_in_the_nation_req_3_nano_hero.png": "Constitutional separation of powers connecting the U.S. Capitol (Legislative), White House (Executive), and Supreme Court (Judicial).",
+                        "citizenship_in_the_nation_req_4_nano_hero.png": "Founding charters of freedom: quill pen and inkwell, sealed parchment scrolls, the Liberty Bell, and Independence Hall.",
+                        "citizenship_in_the_nation_req_5_nano_hero.png": "Uniformed Scout at a desk comparing daily national newspaper coverage with a live U.S. Capitol broadcast and study notes.",
+                        "citizenship_in_the_nation_req_6_nano_hero.png": "(Left) George Washington addressing delegates in an 18th-century hall; (Right) Abraham Lincoln speaking before citizens at Gettysburg.",
+                        "citizenship_in_the_nation_req_7_nano_hero.png": "Three tiers of American government: a local brick town hall, a golden-domed state capitol, and the white U.S. Capitol dome.",
+                        "citizenship_in_the_nation_req_8_nano_hero.png": "Uniformed Scout writing a formal constituent letter at a desk beside a U.S. map and postal mailbox before the Capitol.",
+                        "cooking_req_1_nano_hero.png": "Four-panel camp kitchen safety: cooling a burn under water, claw-grip chopping, ice-packed cooler, and smothering a pan grease fire.",
+                        "cooking_req_2_nano_hero.png": "Balanced USDA MyPlate camp meal showing fruits, vegetables, whole grains, lean protein, and dairy beside a water bottle.",
+                        "cooking_req_3_nano_hero.png": "Five camp cooking methods: boiling pasta, Dutch oven baking, stove simmering, aluminum foil steaming, and skillet pan-frying.",
+                        "cooking_req_4_nano_hero.png": "Color-coded cutting boards for raw meat, poultry, produce, and bread alongside a camp handwashing station to prevent cross-contamination.",
+                        "cooking_req_5_nano_hero.png": "BSA three-pot dishwashing line: scraping plate scraps, hot soapy wash pot, clear warm rinse pot, and sanitizing pot with mesh dunk bag.",
+                        "cooking_req_6_nano_hero.png": "Ultralight canister backpacking stove boiling water in the foreground with a bear bag suspended between two pine trees in the background.",
+                        "cooking_req_7_nano_hero.png": "Professional chef and clinical nutritionist mentoring a uniformed Scout in a culinary kitchen with fresh ingredients.",
+                    }
+                    from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
+
+                    if hero_fname in _NANO_HERO_CAPTIONS:
+                        slide["visual_caption"] = _NANO_HERO_CAPTIONS[hero_fname]
+                    else:
+                        raw_vc = str(slide.get("visual_caption") or "")
+                        if not raw_vc or "EDGE Skill Concept Map" in raw_vc or raw_vc.lower().startswith("requirement "):
+                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(title, badge_name)
+                        else:
+                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(raw_vc, badge_name)
                 else:
+                    from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
+
                     slide["visual_source_label"] = (
                         "🎨 Studio EDGE Concept Map (220-DPI)"
                         if tier_upper == "STUDIO"
                         else "✨ EDGE Skill Concept Map (220-DPI)"
                     )
                     if not slide.get("visual_caption"):
-                        slide["visual_caption"] = f"EDGE Skill Concept Map — {title}"
+                        slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(title, badge_name)
                 ai_images_count += 1
                 if is_req_lead_slide and len(raw_bps) > 4:
                     slide["full_bullet_points"] = raw_bps
                     slide["bullet_points"] = raw_bps[:4]
 
-        # Enforce strict image deduplication across the deck so no image (by file MD5) repeats excessively
+        # Enforce strict image deduplication across the deck so no image (by file MD5) repeats excessively,
+        # and ensure any replacement pamphlet image is requirement-matched and carries its verified caption!
+        from src.tools.pamphlet_extractor import (
+            _compose_pamphlet_visual_card,
+            _load_pamphlet_image_catalog,
+            strip_pamphlet_and_req_caption_prefixes,
+        )
+
+        if slide.get("visual_caption"):
+            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
+                str(slide.get("visual_caption") or ""), badge_name
+            )
+
         cur_diag = slide.get("diagram_path")
         if cur_diag:
             cur_md5 = _file_md5(str(cur_diag))
             if cur_md5:
                 if used_diagram_md5s.get(cur_md5, 0) >= 1 and not is_req_lead_slide:
-                    # Replace duplicate image on non-intro slide with an unused extracted BSA Pamphlet image if available
+                    # Only replace a duplicate image on a non-intro slide if a verified pamphlet image for THIS requirement exists
                     pamphlet_dir = AI_ILLUSTRATIONS_DIR.parent / "pamphlet_images"
+                    catalog = _load_pamphlet_image_catalog()
                     replacement_found = False
-                    if pamphlet_dir.exists():
-                        for cand in sorted(pamphlet_dir.glob(f"{badge_slug_check}_p*_img*.png")):
-                            cand_md5 = _file_md5(str(cand))
-                            if cand_md5 and used_diagram_md5s.get(cand_md5, 0) == 0:
-                                slide["diagram_path"] = str(cand)
-                                slide["ai_hero_image_path"] = None
-                                slide["visual_source_label"] = "Official BSA Pamphlet Figure"
-                                used_diagram_md5s[cand_md5] = 1
-                                replacement_found = True
-                                break
-                    if not replacement_found and used_diagram_md5s.get(cur_md5, 0) >= 2:
+                    if pamphlet_dir.exists() and catalog:
+                        for fname, entry in catalog.items():
+                            if not fname.startswith(f"{badge_slug_check}_p"):
+                                continue
+                            if str(entry.get("req_number") or "").strip() == str(base_req_num).strip() and not entry.get("discard"):
+                                cand = pamphlet_dir / fname
+                                if not cand.exists():
+                                    continue
+                                cand_md5 = _file_md5(str(cand))
+                                if cand_md5 and used_diagram_md5s.get(cand_md5, 0) == 0:
+                                    composed_rep = _compose_pamphlet_visual_card(
+                                        raw_img_path=cand,
+                                        badge_name=badge_name,
+                                        req_number=f"{req_num}_rep_{idx}",
+                                        topic_title=str(entry.get("topic") or title),
+                                        pamphlet_page=idx,
+                                    )
+                                    comp_rep_md5 = _file_md5(str(composed_rep))
+                                    slide["diagram_path"] = str(composed_rep)
+                                    slide["ai_hero_image_path"] = None
+                                    slide["visual_source_label"] = "BSA Handbook Visual"
+                                    slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
+                                        str(entry.get("caption") or title), badge_name
+                                    )
+                                    used_diagram_md5s[cand_md5] = 1
+                                    if comp_rep_md5:
+                                        used_diagram_md5s[comp_rep_md5] = 1
+                                    replacement_found = True
+                                    break
+                    if not replacement_found:
                         slide["diagram_path"] = None
                         slide["ai_hero_image_path"] = None
                         if slide.get("archetype") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
                             slide["archetype"] = "CONCEPT_TEXT_SLIDE"
-                    elif not replacement_found:
-                        used_diagram_md5s[cur_md5] = used_diagram_md5s.get(cur_md5, 0) + 1
                 else:
                     used_diagram_md5s[cur_md5] = used_diagram_md5s.get(cur_md5, 0) + 1
 
         if not slide.get("visual_source_label"):
-            slide["visual_source_label"] = "Official BSA Pamphlet / Technical Diagram"
+            slide["visual_source_label"] = "BSA Handbook / Technical Diagram"
 
         # Write beautification and audience metadata onto the slide dict (never set real_world_connection_box boilerplate)
         slide["beautification_tier"] = tier_upper

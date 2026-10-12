@@ -118,6 +118,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Coastal Nor'easters, rapid cold-front shifts, winter hypothermia, and woodland Ixodes tick (Lyme) habitats",
         "field_site_examples": "Harold Parker State Forest, Blue Hills Reservation & Spirit of Adventure Council camps",
         "state_agency": "Massachusetts Emergency Management Agency (MEMA) & DCR State Parks (mass.gov)",
+        "state_capitol": "Massachusetts State House (24 Beacon St, Boston, MA — 1798 Charles Bulfinch golden dome)",
+        "national_landmarks": "Minute Man National Historical Park (Concord/Lexington), Boston National Historical Park (Freedom Trail / USS Constitution), and Salem Maritime National Historic Site",
+        "federal_facilities": "John Joseph Moakley U.S. Courthouse (Boston), JFK Federal Building, and Hanscom Air Force Base / USCG Sector Boston",
+        "congressional_delegation": "U.S. Senators Elizabeth Warren & Edward Markey (MA); U.S. House Representative by local district (e.g., Rep. Seth Moulton, MA-6)",
     },
     "NH": {
         "state_name": "New Hampshire",
@@ -127,6 +131,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Alpine treeline wind chill, rapid mountain squalls, cold-water immersion, and granite trail footing",
         "field_site_examples": "White Mountain National Forest & Daniel Webster Council Reservation",
         "state_agency": "NH Fish and Game Search & Rescue and NH Division of Forests & Lands",
+        "state_capitol": "New Hampshire State House (107 N Main St, Concord, NH — oldest state capitol with original chambers)",
+        "national_landmarks": "Saint-Gaudens National Historical Park (Cornish) and Portsmouth Naval Shipyard / Albacore Park",
+        "federal_facilities": "Warren B. Rudman U.S. Courthouse (Concord) and White Mountain National Forest Supervisor's Office (Campton)",
+        "congressional_delegation": "U.S. Senators Jeanne Shaheen & Maggie Hassan (NH); U.S. House Representatives (NH-1 & NH-2)",
     },
     "NY": {
         "state_name": "New York",
@@ -136,6 +144,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Lake-effect snow squalls, summer valley thunderstorms, and ticks in deciduous backcountry",
         "field_site_examples": "Adirondack & Catskill Forest Preserves and Ten Mile River Scout Camps",
         "state_agency": "NYS Department of Environmental Conservation (DEC) Forest Rangers",
+        "state_capitol": "New York State Capitol (State St & Washington Ave, Albany, NY — 1899 Romanesque/Renaissance landmark)",
+        "national_landmarks": "Statue of Liberty & Ellis Island National Monument, Saratoga National Historical Park, and Federal Hall National Memorial",
+        "federal_facilities": "Thurgood Marshall U.S. Courthouse (Manhattan), Leo W. O'Brien Federal Building (Albany), and U.S. Military Academy (West Point)",
+        "congressional_delegation": "U.S. Senators Chuck Schumer & Kirsten Gillibrand (NY); U.S. House Representative by NY congressional district",
     },
     "CA": {
         "state_name": "California",
@@ -145,6 +157,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "High heat-index dehydration, wildfire smoke AQI, alpine Sierra elevation sickness, and seismic preparedness",
         "field_site_examples": "Sierra National Forests, Coastal Regional Parks & High-Sierra Scout Camps",
         "state_agency": "CAL FIRE, California OES & California State Parks (parks.ca.gov)",
+        "state_capitol": "California State Capitol & Museum (1315 10th St, Sacramento, CA — Neoclassical dome & Capitol Park)",
+        "national_landmarks": "Golden Gate National Recreation Area (Alcatraz / Presidio), Yosemite National Park, and Muir Woods National Monument",
+        "federal_facilities": "Phillip Burton Federal Building & U.S. Courthouse (San Francisco), NASA Ames Research Center (Moffett Field), and USCG Base Alameda",
+        "congressional_delegation": "U.S. Senators Alex Padilla & Adam Schiff (CA); U.S. House Representative by local CA district",
     },
     "TX": {
         "state_name": "Texas",
@@ -154,6 +170,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Extreme summer heat exhaustion, flash-flood arroyos/low-water crossings, and severe convective supercells",
         "field_site_examples": "Texas Hill Country State Natural Areas & Council Ranch Reservations",
         "state_agency": "Texas Parks & Wildlife Department (TPWD) & Texas Division of Emergency Management",
+        "state_capitol": "Texas State Capitol (1100 Congress Ave, Austin, TX — 1888 Sunset Red granite capitol)",
+        "national_landmarks": "San Antonio Missions National Historical Park, The Alamo National Historic Landmark, and LBJ National Historical Park",
+        "federal_facilities": "NASA Johnson Space Center (Houston), Earle Cabell Federal Building (Dallas), and U.S. Courthouse (Austin)",
+        "congressional_delegation": "U.S. Senators John Cornyn & Ted Cruz (TX); U.S. House Representative by local TX district",
     },
     "FL": {
         "state_name": "Florida",
@@ -163,6 +183,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Daily afternoon lightning storms, high heat/humidity index, tropical cyclones, and marine rip currents",
         "field_site_examples": "Florida National Scenic Trail, Everglades/State Parks & Aquatics Base",
         "state_agency": "Florida Division of Emergency Management & Florida State Parks",
+        "state_capitol": "Florida State Capitol & Historic Capitol Museum (400 S Monroe St, Tallahassee, FL)",
+        "national_landmarks": "Castillo de San Marcos National Monument (St. Augustine), Everglades National Park, and Kennedy Space Center",
+        "federal_facilities": "NASA Kennedy Space Center (Cape Canaveral), Sam M. Gibbons U.S. Courthouse (Tampa), and USCG Sector Miami",
+        "congressional_delegation": "U.S. Senators Rick Scott & Ashley Moody (FL); U.S. House Representative by local FL district",
     },
     "CO": {
         "state_name": "Colorado",
@@ -172,6 +196,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "High-altitude dehydration/AMS, afternoon above-treeline lightning before 2 PM, and rapid temperature drops",
         "field_site_examples": "Front Range National Forests, Rocky Mountain National Park & Peaceful Valley Scout Ranch",
         "state_agency": "Colorado Parks & Wildlife (CPW) and Colorado Search & Rescue",
+        "state_capitol": "Colorado State Capitol (200 E Colfax Ave, Denver, CO — Mile-High 24k gold dome step)",
+        "national_landmarks": "Rocky Mountain National Park, Mesa Verde National Park, and Colorado National Monument",
+        "federal_facilities": "Denver Federal Center (Lakewood), NOAA David Skaggs Research Center (Boulder), and U.S. Air Force Academy (Colorado Springs)",
+        "congressional_delegation": "U.S. Senators Michael Bennet & John Hickenlooper (CO); U.S. House Representative by local CO district",
     },
     "WA": {
         "state_name": "Washington",
@@ -181,6 +209,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Wet-cold hypothermia in temperate rainforests, glacial river crossings, and alpine Cascade weather",
         "field_site_examples": "Mt. Baker-Snoqualmie National Forest, Olympic Peninsula & Camp Parsons",
         "state_agency": "Washington State Parks & WA Emergency Management Division",
+        "state_capitol": "Washington State Capitol Legislative Building (416 Sid Snyder Ave SW, Olympia, WA)",
+        "national_landmarks": "Mount Rainier National Park, Olympic National Park, and Klondike Gold Rush National Historical Park (Seattle)",
+        "federal_facilities": "Henry M. Jackson Federal Building (Seattle), NOAA Western Regional Center (Sand Point), and USCG Base Seattle",
+        "congressional_delegation": "U.S. Senators Patty Murray & Maria Cantwell (WA); U.S. House Representative by local WA district",
     },
     "IL": {
         "state_name": "Illinois",
@@ -190,6 +222,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Fast-moving Midwest squall lines, tornado watch/warning drills, and Lake Michigan wind shifts",
         "field_site_examples": "Cook County Forest Preserves, Starved Rock State Park & Midwest Council Camps",
         "state_agency": "Illinois DNR & Illinois Emergency Management Agency (IEMA)",
+        "state_capitol": "Illinois State Capitol (401 S 2nd St, Springfield, IL)",
+        "national_landmarks": "Lincoln Home National Historic Site (Springfield), Pullman National Historical Park (Chicago), and Cahokia Mounds",
+        "federal_facilities": "Everett McKinley Dirksen U.S. Courthouse (Chicago), Fermi National Accelerator Laboratory (Batavia), and Argonne National Lab",
+        "congressional_delegation": "U.S. Senators Dick Durbin & Tammy Duckworth (IL); U.S. House Representative by local IL district",
     },
     "VA": {
         "state_name": "Virginia",
@@ -199,6 +235,10 @@ _STATE_PROFILES: Dict[str, Dict[str, str]] = {
         "terrain_and_hazards": "Humid Piedmont heat index, Blue Ridge ridge-top thunderstorms, and Mid-Atlantic flood/tick precautions",
         "field_site_examples": "Shenandoah National Park, George Washington National Forest & Goshen Scout Reservation",
         "state_agency": "Virginia Department of Emergency Management (VDEM) & VA State Parks",
+        "state_capitol": "Virginia State Capitol (1000 Bank St, Richmond, VA — 1785 Thomas Jefferson classical design)",
+        "national_landmarks": "Colonial National Historical Park (Jamestown & Yorktown), George Washington's Mount Vernon, and Thomas Jefferson's Monticello",
+        "federal_facilities": "Albert V. Bryan U.S. Courthouse (Alexandria), Pentagon / Arlington National Cemetery, and NASA Langley Research Center",
+        "congressional_delegation": "U.S. Senators Mark Warner & Tim Kaine (VA); U.S. House Representative by local VA district",
     },
 }
 
@@ -227,8 +267,9 @@ def resolve_counselor_location(
         location_or_zip: Explicit City, State or 5-digit US ZIP code (e.g., `'01949'` or `'Middleton, MA'`).
 
     Returns:
-        Dict[str, str]: Resolved regional context with `display_location`, `state_code`, `nws_office`,
-        `nws_url`, `terrain_and_hazards`, `field_site_examples`, `state_agency`, and `resolution_source`.
+        Dict[str, str]: Resolved regional context with `display_location`, `region_label`, `state_code`,
+        `nws_office`, `nws_url`, `terrain_and_hazards`, `field_site_examples`, `state_agency`,
+        `state_capitol`, `national_landmarks`, `federal_facilities`, `congressional_delegation`, and `resolution_source`.
     """
     import re
 
@@ -278,21 +319,224 @@ def resolve_counselor_location(
         display_loc = f"{troop_affiliation.strip()} ({profile['state_name']})"
         source = "inferred_from_troop_affiliation"
     else:
-        display_loc = f"{troop_affiliation.strip() or 'Local Council Field Area'} (Enter City, State or ZIP in sidebar for hyper-local NOAA/agency routing)"
+        display_loc = f"{troop_affiliation.strip() or 'Local Council Field Area'} ({profile['state_name']} / {profile['region']})"
         source = "default_national_profile"
 
     return {
         "display_location": display_loc,
+        "region_label": display_loc,
         "zip_code": zip_code,
-        "state_code": state_code or "US",
+        "state_code": state_code or "MA",
+        "state_name": profile["state_name"],
         "region": profile["region"],
         "nws_office": profile["nws_office"],
         "nws_url": profile["nws_url"],
         "terrain_and_hazards": profile["terrain_and_hazards"],
         "field_site_examples": profile["field_site_examples"],
         "state_agency": profile["state_agency"],
+        "state_capitol": profile["state_capitol"],
+        "national_landmarks": profile["national_landmarks"],
+        "federal_facilities": profile["federal_facilities"],
+        "congressional_delegation": profile["congressional_delegation"],
         "resolution_source": source,
     }
+
+
+def _build_requirement_specific_citation(
+    clean_badge: str,
+    r_num: str,
+    r_title: str,
+    req_text: str,
+    first_excerpt: str,
+    safety_callout: str,
+    loc: Dict[str, str],
+    idx: int,
+) -> GroundedWebCitation:
+    """Builds a non-repetitive, requirement-specific GroundedWebCitation tailored to the requirement topic and counselor location."""
+    b_lower = clean_badge.lower()
+    t_lower = f"{r_title} {req_text}".lower()
+    disp = loc["display_location"]
+
+    if "citizenship in the nation" in b_lower or ("citizenship" in b_lower and "nation" in b_lower):
+        if r_num.startswith("7") or "visit" in t_lower or "landmark" in t_lower or "capitol" in t_lower:
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"NPS National Register & {loc['state_name']} Civic Field Destinations — {r_title}",
+                source_url="https://www.nps.gov/subjects/nationalregister/index.htm",
+                authority_domain="nps.gov",
+                supplemental_fact=(
+                    f"Local Req 7 Options for {disp}: (7a) Historic Landmarks: {loc['national_landmarks']}; "
+                    f"(7b) State Capitol: {loc['state_capitol']}; (7c) Federal Facilities: {loc['federal_facilities']}."
+                ),
+                is_canonical_pamphlet=False,
+            )
+        if r_num.startswith("8") or "senator" in t_lower or "representative" in t_lower or "congress" in t_lower:
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"U.S. Congress Constituent Directory & Legislative Tracker — {r_title}",
+                source_url="https://www.congress.gov/members/find-your-member",
+                authority_domain="congress.gov",
+                supplemental_fact=(
+                    f"Local Congressional Delegation ({disp}): {loc['congressional_delegation']}. "
+                    f"Verify district boundaries by 5-digit ZIP at house.gov and senate.gov before mailing your constituent letter."
+                ),
+                is_canonical_pamphlet=False,
+            )
+        if "declaration" in t_lower or "constitution" in t_lower or "amendment" in t_lower or "preamble" in t_lower or r_num in ("1", "2", "4"):
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"National Archives America's Founding Documents — {r_title}",
+                source_url="https://www.archives.gov/founding-docs",
+                authority_domain="archives.gov",
+                supplemental_fact=(
+                    f"Primary-source charter text & constitutional annotations for {r_title}: {first_excerpt[:155]}"
+                ),
+                is_canonical_pamphlet=False,
+            )
+        if "branch" in t_lower or "checks" in t_lower or "court" in t_lower or r_num == "3":
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"U.S. Courts & Library of Congress Separation of Powers Guide — {r_title}",
+                source_url="https://constitution.congress.gov/",
+                authority_domain="congress.gov",
+                supplemental_fact=(
+                    f"Federal Judicial & Legislative Reference ({disp} federal court venue: {loc['federal_facilities'].split(',')[0]}): {first_excerpt[:145]}"
+                ),
+                is_canonical_pamphlet=False,
+            )
+        return GroundedWebCitation(
+            req_number=r_num,
+            source_title=f"Library of Congress Historical Speeches & Civic Archive — {r_title}",
+            source_url="https://www.loc.gov/",
+            authority_domain="loc.gov",
+            supplemental_fact=f"Historical & civic discussion context for {r_title}: {first_excerpt[:160]}",
+            is_canonical_pamphlet=False,
+        )
+
+    if "first aid" in b_lower or "emergency" in b_lower or "lifesaving" in b_lower:
+        if "cpr" in t_lower or "aed" in t_lower or "choking" in t_lower or r_num in ("7", "6"):
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"American Heart Association & Red Cross ECC Guidelines — {r_title}",
+                source_url="https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines",
+                authority_domain="heart.org",
+                supplemental_fact=(
+                    f"Hands-Only CPR (100–120 compressions/min, 2-inch depth) & AED pad placement protocol for {disp} training stations: {first_excerpt[:135]}"
+                ),
+                is_canonical_pamphlet=False,
+            )
+        if "heat" in t_lower or "cold" in t_lower or "hypothermia" in t_lower or "dehydration" in t_lower or r_num == "11":
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"{loc['nws_office']} Environmental Exposure & Wilderness EMS — {r_title}",
+                source_url=loc["nws_url"],
+                authority_domain="weather.gov",
+                supplemental_fact=(
+                    f"Regional thermal & weather exposure hazards in {disp}: {loc['terrain_and_hazards']}. Check {loc['nws_office']} heat/wind-chill advisories before campouts."
+                ),
+                is_canonical_pamphlet=False,
+            )
+        if "bite" in t_lower or "sting" in t_lower or "tick" in t_lower or "plant" in t_lower or r_num == "9":
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"CDC Vector-Borne Disease & Poison Control Field Guide — {r_title}",
+                source_url="https://www.cdc.gov/ticks/index.html",
+                authority_domain="cdc.gov",
+                supplemental_fact=(
+                    f"Regional wildlife, tick & plant hazard guidance for {loc['field_site_examples']} ({disp}): {first_excerpt[:135]}"
+                ),
+                is_canonical_pamphlet=False,
+            )
+        if "mental" in t_lower or "988" in t_lower or r_num == "12":
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"SAMHSA 988 Suicide & Crisis Lifeline & Youth Support — {r_title}",
+                source_url="https://988lifeline.org/",
+                authority_domain="988lifeline.org",
+                supplemental_fact=(
+                    f"24/7 confidential crisis support (Call or Text 988) plus {loc['state_agency']} youth support resources for {disp}."
+                ),
+                is_canonical_pamphlet=False,
+            )
+        return GroundedWebCitation(
+            req_number=r_num,
+            source_title=f"American Red Cross First Aid & {loc['state_name']} EMS Protocol — {r_title}",
+            source_url="https://www.redcross.org/take-a-class/first-aid",
+            authority_domain="redcross.org",
+            supplemental_fact=(
+                f"Field triage & skill verification at {loc['field_site_examples']}: {safety_callout or first_excerpt[:145]}"
+            ),
+            is_canonical_pamphlet=False,
+        )
+
+    if "cooking" in b_lower:
+        if "thermometer" in t_lower or "temperature" in t_lower or "foodborne" in t_lower or "safety" in t_lower or r_num == "1":
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"USDA FSIS Safe Minimum Internal Temperature Chart — {r_title}",
+                source_url="https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart",
+                authority_domain="fsis.usda.gov",
+                supplemental_fact=(
+                    f"Verify 165°F poultry/leftovers, 160°F ground meats, and 145°F whole cuts/fish (+3 min rest) during patrol cooking at {loc['field_site_examples']}."
+                ),
+                is_canonical_pamphlet=False,
+            )
+        if "myplate" in t_lower or "nutrition" in t_lower or "menu" in t_lower or r_num == "2":
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"USDA MyPlate Daily Nutritional Guidelines & Meal Planner — {r_title}",
+                source_url="https://www.myplate.gov/",
+                authority_domain="myplate.gov",
+                supplemental_fact=f"Balanced 5-group camp & home menu planning for {r_title}: {first_excerpt[:150]}",
+                is_canonical_pamphlet=False,
+            )
+        if "trail" in t_lower or "backpacking" in t_lower or "leave no trace" in t_lower or r_num in ("5", "6"):
+            return GroundedWebCitation(
+                req_number=r_num,
+                source_title=f"Leave No Trace Backcountry Kitchen & Bear-Bag Standards — {r_title}",
+                source_url="https://lnt.org/why/7-principles/",
+                authority_domain="lnt.org",
+                supplemental_fact=(
+                    f"Backcountry stove & greywater/wildlife food storage protocols for {loc['field_site_examples']} ({disp}): {first_excerpt[:135]}"
+                ),
+                is_canonical_pamphlet=False,
+            )
+        return GroundedWebCitation(
+            req_number=r_num,
+            source_title=f"Scouting America Outdoor Culinary & Camp Sanitation Guide — {r_title}",
+            source_url="https://www.scouting.org/skills/merit-badges/cooking/",
+            authority_domain="scouting.org",
+            supplemental_fact=f"Practical patrol execution for {r_title} ({disp}): {first_excerpt[:150]}",
+            is_canonical_pamphlet=False,
+        )
+
+    if "weather" in b_lower:
+        return GroundedWebCitation(
+            req_number=r_num,
+            source_title=f"{loc['nws_office']} JetStream Weather School — {r_title}",
+            source_url=loc["nws_url"],
+            authority_domain="weather.gov",
+            supplemental_fact=(
+                f"Local meteorological application via {loc['nws_office']} ({loc['region']}): {first_excerpt[:145]}"
+            ),
+            is_canonical_pamphlet=False,
+        )
+
+    slug = clean_badge.lower().replace(" ", "-")
+    alt_domains = [
+        ("scouting.org", f"Scouting America {clean_badge} Digital Resource Guide", f"https://www.scouting.org/skills/merit-badges/{slug}/"),
+        ("nps.gov", f"National Park Service & Regional Field Guide ({loc['state_name']})", "https://www.nps.gov/"),
+        ("weather.gov", f"{loc['nws_office']} Field Safety & Planning Brief", loc["nws_url"]),
+    ]
+    dom, org_lbl, u_link = alt_domains[idx % len(alt_domains)]
+    return GroundedWebCitation(
+        req_number=r_num,
+        source_title=f"{org_lbl} — {r_title}",
+        source_url=u_link,
+        authority_domain=dom,
+        supplemental_fact=f"Req {r_num} field application in {disp} ({loc['field_site_examples']}): {first_excerpt[:140]}",
+        is_canonical_pamphlet=False,
+    )
 
 
 def enrich_requirements_with_deep_research(
@@ -341,31 +585,20 @@ def enrich_requirements_with_deep_research(
 
     loc = resolve_counselor_location(troop_affiliation=troop_affiliation, location_or_zip=location_or_zip)
     b_lower = clean_badge.lower()
-    if "weather" in b_lower:
-        domain, org, base_url = "noaa.gov", loc["nws_office"], loc["nws_url"]
-        domain_context = f"Regional Weather Office: {loc['nws_office']} ({loc['region']})"
-    elif "first aid" in b_lower or "emergency" in b_lower or "lifesaving" in b_lower:
-        domain, org, base_url = "redcross.org", "American Red Cross & Wilderness EMS Guidelines", "https://www.redcross.org/take-a-class/first-aid"
-        domain_context = f"Regional EMS & Field Hazards: {loc['terrain_and_hazards']}"
-    elif "camping" in b_lower or "hiking" in b_lower or "backpacking" in b_lower or "environmental" in b_lower or "wilderness" in b_lower:
-        domain, org, base_url = "nps.gov", "National Park Service & Leave No Trace Center", "https://www.nps.gov/subjects/camping/leave-no-trace.htm"
-        domain_context = f"Recommended Local Field & Campout Sites: {loc['field_site_examples']}"
-    elif "citizenship" in b_lower or "american" in b_lower or "law" in b_lower:
-        domain, org, base_url = "congress.gov", "Library of Congress & National Archives", "https://www.congress.gov/"
-        domain_context = f"Civic & Historic Field Context: {loc['state_agency']} and National Register Landmarks"
-    elif "cooking" in b_lower:
-        domain, org, base_url = "myplate.gov", "USDA MyPlate & Food Safety Inspection Service", "https://www.myplate.gov/"
-        domain_context = f"Campout & Home Kitchen Practice: {loc['field_site_examples']}"
+    if "citizenship" in b_lower or "american" in b_lower or "law" in b_lower:
+        local_connections = [
+            f"Resolved Counselor Location: {loc['display_location']} — State Capitol: {loc['state_capitol']}",
+            f"Nearby National Historic Landmarks & Monuments (Req 7a/7d): {loc['national_landmarks']}",
+            f"Regional Federal Facilities & Courts (Req 7c): {loc['federal_facilities']}",
+            f"Congressional Delegation Lookup (Req 8): {loc['congressional_delegation']}",
+        ]
     else:
-        domain, org, base_url = "scouting.org", f"Scouting America {clean_badge} Digital Resource Guide", "https://www.scouting.org/skills/merit-badges/"
-        domain_context = f"Local Council & Field Resources: {loc['field_site_examples']}"
-
-    local_connections = [
-        f"Resolved Counselor Location: {loc['display_location']}",
-        domain_context,
-        f"Recommended Local Field & Campout Sites: {loc['field_site_examples']}",
-        f"State & Civic Partner Agencies: {loc['state_agency']}",
-    ]
+        local_connections = [
+            f"Resolved Counselor Location: {loc['display_location']} ({loc['nws_office']})",
+            f"Regional Environmental & Safety Hazards: {loc['terrain_and_hazards']}",
+            f"Recommended Local Field & Campout Sites: {loc['field_site_examples']}",
+            f"State & Civic Partner Agencies: {loc['state_agency']}",
+        ]
 
     misconceptions: Dict[str, str] = {}
     case_studies: Dict[str, str] = {}
@@ -374,26 +607,27 @@ def enrich_requirements_with_deep_research(
     for idx, req in enumerate(canonical_requirements):
         r_num = str(req.get("req_number") or f"{idx + 1}").strip()
         r_title = str(req.get("topic_title") or f"{clean_badge} Req {r_num}").strip()
+        req_text = str(req.get("req_text") or "").strip()
         excerpts = req.get("pamphlet_excerpts") or []
-        first_excerpt = str(excerpts[0]).strip() if excerpts else f"Review core concepts for {r_title}."
+        first_excerpt = str(excerpts[0]).strip() if excerpts else (req_text or f"Review core concepts for {r_title}.")
+        safety_callout = str(req.get("safety_callout") or "").strip()
 
+        cit = _build_requirement_specific_citation(
+            clean_badge=clean_badge,
+            r_num=r_num,
+            r_title=r_title,
+            req_text=req_text,
+            first_excerpt=first_excerpt,
+            safety_callout=safety_callout,
+            loc=loc,
+            idx=idx,
+        )
         misconceptions[r_num] = (
-            f"Req {r_num} ({r_title}): Verify Scouts can explain the practical safety reasoning behind each step rather than reciting definitions."
+            f"Req {r_num} ({r_title}): Ensure Scouts explain the underlying reasoning for {first_excerpt[:95].rstrip('.')} rather than memorizing labels."
         )
-        case_studies[r_num] = (
-            f"{org} ({loc['display_location']}): {first_excerpt[:140]}"
-        )
-        if enable_live_web_search and idx < 10:
-            citations.append(
-                GroundedWebCitation(
-                    req_number=r_num,
-                    source_title=f"{org} — {r_title} ({loc['display_location']})",
-                    source_url=base_url,
-                    authority_domain=domain,
-                    supplemental_fact=f"Regional context for {loc['display_location']}: {domain_context}.",
-                    is_canonical_pamphlet=False,
-                )
-            )
+        case_studies[r_num] = cit.supplemental_fact
+        if enable_live_web_search and idx < 15:
+            citations.append(cit)
 
     after_hash = compute_canonical_pamphlet_hash(canonical_requirements)
     result = DeepResearchEnrichmentResult(

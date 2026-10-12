@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import hashlib
 import io
+import json
 import re
 import subprocess
 from pathlib import Path
@@ -130,9 +131,209 @@ def _clean_pdf_text(raw_text: str, badge_name: str = "") -> str:
     return text.strip()
 
 
+_PAMPHLET_CATALOG_PATH = ASSETS_DIR.parent / "data" / "pamphlet_image_catalog.json"
+_PAMPHLET_VISION_CATALOG_CACHE: Optional[Dict[str, Dict[str, Any]]] = None
+
+_DISCARDED_PAMPHLET_FILENAMES = {
+    "first_aid_p002_img1.png",
+    "first_aid_p061_img1.png",
+    "first_aid_p062_img1.png",
+    "first_aid_p063_img1.png",
+    "first_aid_p064_img3.png",
+    "first_aid_p080_img1.png",
+    "first_aid_p081_img2.png",
+    "first_aid_p081_img3.png",
+    "first_aid_p106_img1.png",
+    "first_aid_p106_img3.png",
+    "first_aid_p108_img1.png",
+    "citizenship_in_the_nation_p002_img1.png",
+    "citizenship_in_the_nation_p052_img1.png",
+    "cooking_p002_img1.png",
+    "cooking_p021_img1.png",
+    "cooking_p027_img1.png",
+    "cooking_p098_img2.png",
+    "cooking_p100_img1.png",
+}
+
+
+def _load_pamphlet_image_catalog() -> Dict[str, Dict[str, Any]]:
+    """Loads the vision-verified pamphlet image catalog mapping filenames to requirement numbers and captions."""
+    global _PAMPHLET_VISION_CATALOG_CACHE
+    if _PAMPHLET_VISION_CATALOG_CACHE is not None:
+        return _PAMPHLET_VISION_CATALOG_CACHE
+    if _PAMPHLET_CATALOG_PATH.exists():
+        try:
+            _PAMPHLET_VISION_CATALOG_CACHE = json.loads(_PAMPHLET_CATALOG_PATH.read_text(encoding="utf-8"))
+            return _PAMPHLET_VISION_CATALOG_CACHE
+        except Exception:
+            pass
+    _PAMPHLET_VISION_CATALOG_CACHE = {}
+    return _PAMPHLET_VISION_CATALOG_CACHE
+
+
+def _is_discardable_pamphlet_image(img_path: Path, page_num: int = 0, page_count: int = 100) -> bool:
+    """Inspects an extracted pamphlet image and returns True if it is a full-page text scan, frontmatter/backmatter
+    ad, QR code, or block of printed text that should be discarded rather than placed on a teaching slide."""
+    name = img_path.name
+    if name.endswith("_figure.png") or name in _DISCARDED_PAMPHLET_FILENAMES:
+        return True
+    # Page 2 in BSA pamphlets is "How to Use This Pamphlet" text; last 2 pages are back-cover ads / photo credits
+    if page_num == 2 or (page_count > 12 and page_num >= page_count - 2):
+        return True
+    m_p = re.search(r"_p(\d+)_img", name)
+    if m_p:
+        p_parsed = int(m_p.group(1))
+        if p_parsed == 2:
+            return True
+    if not img_path.exists():
+        return True
+    try:
+        with Image.open(img_path) as im:
+            w, h = im.size
+            if w < 160 or h < 130 or (w / max(1, h)) > 3.2 or (h / max(1, w)) > 2.8:
+                return True
+            gray = im.convert("L").resize((160, 160))
+            px = gray.load()
+            white_cnt = 0
+            text_like_rows = 0
+            for y in range(12, 148, 3):
+                transitions = 0
+                prev_dark = px[12, y] < 150
+                for x in range(12, 148):
+                    v = px[x, y]
+                    if v >= 235:
+                        white_cnt += 1
+                    is_dark = v < 150
+                    if is_dark != prev_dark:
+                        transitions += 1
+                        prev_dark = is_dark
+                if transitions >= 18:
+                    text_like_rows += 1
+            total_sampled = (136 // 3 + 1) * 136
+            white_ratio = white_cnt / float(max(1, total_sampled))
+            # High white ratio combined with many high-frequency dark/light scanlines indicates a text page or QR code
+            if white_ratio >= 0.66 and text_like_rows >= 16:
+                return True
+    except Exception:
+        return True
+    return False
+
+
+def strip_pamphlet_and_req_caption_prefixes(caption: str, badge_name: str = "") -> str:
+    """Removes 'Official <Badge> Pamphlet Figure', '<Badge> Pamphlet Reference', and 'Requirement #' prefixes from captions."""
+    s = re.sub(r"\s+", " ", str(caption or "")).strip()
+    if not s:
+        return ""
+    s = re.sub(
+        r"^(?:🍌\s*Hero\s*Illustration\s*:\s*|✨\s*EDGE\s*Skill\s*Map\s*:\s*|EDGE\s*Skill\s*Concept\s*Map\s*[—\-:,]\s*)",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    ).strip()
+    s = re.sub(
+        r"^(?:Official\s+(?:BSA\s+|Scouting\s+America\s+)?[^—\-:]{2,45}?\s*Pamphlet\s+(?:Figure|Reference|Visual|Diagram)\s*[—\-:]\s*)",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    ).strip()
+    if badge_name:
+        esc_b = re.escape(badge_name)
+        s = re.sub(
+            rf"^(?:Official\s+)?{esc_b}\s+(?:Pamphlet\s+)?(?:Figure|Reference|Visual\s+Reference|Sub-Requirement\s+Reference)\s*[—\-:]\s*",
+            "",
+            s,
+            flags=re.IGNORECASE,
+        ).strip()
+    s = re.sub(r"^Visual\s+Reference\s*[—\-:]\s*", "", s, flags=re.IGNORECASE).strip()
+    s = re.sub(r"^(?:Requirement|Req\.?)\s+[0-9a-zA-Z().\-]+\s*[:—\-]\s*", "", s, flags=re.IGNORECASE).strip()
+    return s
+
+
+def analyze_and_match_pamphlet_image(
+    badge_name: str,
+    img_path: Path,
+    page_num: int,
+    pages_map: Dict[int, Dict[str, Any]],
+    req_number: str = "",
+    req_text: str = "",
+    topic_title: str = "",
+    page_count: int = 100,
+) -> Optional[Dict[str, str]]:
+    """Analyzes an extracted pamphlet image to verify it is a valid visual (not a text block),
+    pairs it with a matching merit badge requirement, and returns an accurate context-specific caption
+    with zero 'Official ... Pamphlet Figure' or 'Requirement #' prefixes. Returns None if discarded or unmatched."""
+    if _is_discardable_pamphlet_image(img_path, page_num=page_num, page_count=page_count):
+        return None
+
+    catalog = _load_pamphlet_image_catalog()
+    cat_entry = catalog.get(img_path.name)
+    if cat_entry:
+        if cat_entry.get("discard"):
+            return None
+        cat_req = str(cat_entry.get("req_number") or "").strip()
+        clean_req = re.sub(r"[a-zA-Z]+$", "", str(req_number or "")).strip()
+        # If caller asked for a specific requirement, only accept catalog images paired with that requirement
+        if clean_req and cat_req and cat_req != clean_req:
+            return None
+        return {
+            "req_number": cat_req or clean_req,
+            "caption": strip_pamphlet_and_req_caption_prefixes(str(cat_entry.get("caption") or ""), badge_name),
+            "topic": str(cat_entry.get("topic") or topic_title),
+        }
+
+    slug = _badge_slug(badge_name)
+    if any(k.startswith(f"{slug}_p") for k in catalog):
+        return None
+
+    # For badges without a pre-cached vision catalog entry, analyze the page context around the image
+    # and verify semantic overlap with the target requirement before accepting the image.
+    p_info = pages_map.get(page_num) or {}
+    page_heading = str(p_info.get("heading") or "").strip()
+    page_text = str(p_info.get("text") or "").strip()
+    if any(skip_w in page_heading.lower() for skip_w in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
+        return None
+
+    stop_w = {
+        "explain", "describe", "discuss", "demonstrate", "show", "counselor", "scout", "scouts",
+        "merit", "badge", "following", "requirement", "including", "using", "their", "about",
+        "would", "should", "could", "which", "where", "while", "under", "least", "three",
+    }
+    req_words = {
+        w for w in re.findall(r"[a-z]{4,}", f"{topic_title} {req_text}".lower())
+        if w not in stop_w
+    }
+    page_words = set(re.findall(r"[a-z]{4,}", f"{page_heading} {page_text}".lower()))
+    overlap = req_words.intersection(page_words)
+    if req_words and len(overlap) == 0:
+        return None
+
+    # Extract a descriptive context-specific caption from the page's teaching points
+    page_pts = _extract_clean_teaching_points_from_pages(pages_map, [page_num], badge_name, max_points=3)
+    if page_pts:
+        raw_cap = page_pts[0]
+        if ": " in raw_cap:
+            _, body_part = raw_cap.split(": ", 1)
+            raw_cap = f"{page_heading}: {body_part}" if page_heading and len(page_heading) <= 36 else body_part
+    elif page_heading:
+        raw_cap = f"{page_heading} field illustration from the {badge_name} handbook."
+    else:
+        raw_cap = strip_pamphlet_and_req_caption_prefixes(topic_title, badge_name)
+
+    clean_cap = strip_pamphlet_and_req_caption_prefixes(raw_cap, badge_name)
+    if len(clean_cap) > 130:
+        clean_cap = clean_cap[:127].rsplit(" ", 1)[0].rstrip(",;:") + "."
+    return {
+        "req_number": str(req_number or ""),
+        "caption": clean_cap,
+        "topic": page_heading or strip_pamphlet_and_req_caption_prefixes(topic_title, badge_name),
+    }
+
+
 def _extract_pamphlet_images_for_pdf(pdf_path: Path, slug: str, reader: Any) -> Dict[int, List[Path]]:
-    """Extracts high-quality embedded photographs & illustrations per 1-indexed page from the BSA PDF."""
+    """Extracts high-quality embedded photographs & illustrations per 1-indexed page from the BSA PDF,
+    automatically discarding text-block pages, frontmatter/backmatter ads, and non-instructional graphics."""
     page_images: Dict[int, List[Path]] = {}
+    total_pages = len(reader.pages) if reader is not None else 100
 
     existing = sorted(PAMPHLET_IMAGES_DIR.glob(f"{slug}_p*_img*.png"))
     if len(existing) >= 6:
@@ -140,11 +341,14 @@ def _extract_pamphlet_images_for_pdf(pdf_path: Path, slug: str, reader: Any) -> 
             m = re.search(r"_p(\d+)_img(\d+)\.png$", img_path.name)
             if m:
                 p_num = int(m.group(1))
-                page_images.setdefault(p_num, []).append(img_path)
+                if not _is_discardable_pamphlet_image(img_path, page_num=p_num, page_count=total_pages):
+                    page_images.setdefault(p_num, []).append(img_path)
         return page_images
 
     for page_idx, page in enumerate(reader.pages):
         page_num = page_idx + 1
+        if page_num <= 2 or page_num >= total_pages - 2:
+            continue
         try:
             n_imgs = len(page.images)
         except Exception:
@@ -164,7 +368,10 @@ def _extract_pamphlet_images_for_pdf(pdf_path: Path, slug: str, reader: Any) -> 
                         fname = PAMPHLET_IMAGES_DIR / f"{slug}_p{page_num:03d}_img{img_idx+1}.png"
                         if not fname.exists():
                             pil_img.save(fname, "PNG", optimize=True, compress_level=9)
-                        page_images.setdefault(page_num, []).append(fname)
+                        if not _is_discardable_pamphlet_image(fname, page_num=page_num, page_count=total_pages):
+                            page_images.setdefault(page_num, []).append(fname)
+                        else:
+                            fname.unlink(missing_ok=True)
             except Exception:
                 continue
 
@@ -172,41 +379,7 @@ def _extract_pamphlet_images_for_pdf(pdf_path: Path, slug: str, reader: Any) -> 
 
 
 def render_pamphlet_page_figure(pdf_path: Path, slug: str, page_num: int) -> Optional[Path]:
-    """Renders a composite diagram/figure page from the BSA Pamphlet PDF using `pdftoppm`."""
-    out_png = PAMPHLET_IMAGES_DIR / f"{slug}_p{page_num:03d}_figure.png"
-    if out_png.exists() and out_png.stat().st_size > 10_000:
-        return out_png
-    prefix = PAMPHLET_IMAGES_DIR / f"_tmp_{slug}_{page_num}"
-    try:
-        subprocess.run(
-            [
-                "pdftoppm",
-                "-png",
-                "-r",
-                "150",
-                "-f",
-                str(page_num),
-                "-l",
-                str(page_num),
-                "-singlefile",
-                str(pdf_path),
-                str(prefix),
-            ],
-            check=True,
-            timeout=8,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        )
-        rendered = Path(f"{prefix}.png")
-        if rendered.exists():
-            with Image.open(rendered) as im:
-                w, h = im.size
-                cropped = im.crop((int(w * 0.04), int(h * 0.06), int(w * 0.96), int(h * 0.94)))
-                cropped.save(out_png, "PNG", optimize=True, compress_level=9)
-            rendered.unlink(missing_ok=True)
-            return out_png
-    except Exception:
-        pass
+    """Disabled: never render full PDF pages via pdftoppm as slide figures because they produce blocks of text."""
     return None
 
 
@@ -612,46 +785,69 @@ def summarize_pamphlet_for_requirement(
     extracted_bullets = _extract_clean_teaching_points_from_pages(pages, best_pages, badge_name, max_points=10)
     matched_heading = (pages.get(best_pages[0]) or {}).get("heading", "") if best_pages else ""
 
-    # Pick the best unused pamphlet image from matched or nearby pages (within +/- 2 pages so images stay relevant)
+    clean_req_short = _derive_topic_title(req_number, req_text, matched_heading)
+    clean_req_num = re.sub(r"[a-zA-Z]+$", "", str(req_number or "")).strip()
+
+    # 1. First check the vision-verified pamphlet image catalog for an unused image paired with this requirement
     chosen_raw_img: Optional[Path] = None
     chosen_img_page: Optional[int] = None
+    chosen_img_caption: str = ""
 
-    search_pages: List[int] = []
-    for bp in best_pages:
-        for offset in (0, 1, -1, 2, -2):
-            cand_p = bp + offset
-            if 5 <= cand_p <= page_count - 3 and cand_p not in search_pages:
-                cand_head = str((pages.get(cand_p) or {}).get("heading") or "").lower()
-                if not any(skip_h in cand_head for skip_h in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
-                    search_pages.append(cand_p)
-
-    for cand_p in search_pages:
-        for img_path in (pages.get(cand_p) or {}).get("images", []):
-            if str(img_path) not in used_image_paths and img_path.exists():
-                chosen_raw_img = img_path
-                chosen_img_page = cand_p
-                used_image_paths.add(str(img_path))
+    catalog = _load_pamphlet_image_catalog()
+    for fname, entry in catalog.items():
+        if not fname.startswith(f"{slug}_p"):
+            continue
+        if str(entry.get("req_number") or "").strip() == clean_req_num and not entry.get("discard"):
+            cand_path = PAMPHLET_IMAGES_DIR / fname
+            if cand_path.exists() and str(cand_path) not in used_image_paths:
+                chosen_raw_img = cand_path
+                m_p = re.search(r"_p(\d+)_img", fname)
+                chosen_img_page = int(m_p.group(1)) if m_p else (best_pages[0] if best_pages else 1)
+                chosen_img_caption = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or ""), badge_name)
+                used_image_paths.add(str(cand_path))
                 break
-        if chosen_raw_img:
-            break
 
-    # Or render the pamphlet page figure directly via pdftoppm if pdf_path exists
-    if not chosen_raw_img and pdf_path and best_pages:
-        target_p = best_pages[0]
-        fig_path = render_pamphlet_page_figure(pdf_path, slug, target_p)
-        if fig_path and str(fig_path) not in used_image_paths:
-            chosen_raw_img = fig_path
-            chosen_img_page = target_p
-            used_image_paths.add(str(fig_path))
-
-    # Optional web supplement if no pamphlet PDF is available locally
+    # 2. Otherwise search matched or nearby pages (within +/- 2 pages) and verify with analyze_and_match_pamphlet_image
     if not chosen_raw_img:
+        search_pages: List[int] = []
+        for bp in best_pages:
+            for offset in (0, 1, -1, 2, -2):
+                cand_p = bp + offset
+                if 5 <= cand_p <= page_count - 3 and cand_p not in search_pages:
+                    cand_head = str((pages.get(cand_p) or {}).get("heading") or "").lower()
+                    if not any(skip_h in cand_head for skip_h in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
+                        search_pages.append(cand_p)
+
+        for cand_p in search_pages:
+            for img_path in (pages.get(cand_p) or {}).get("images", []):
+                if str(img_path) not in used_image_paths and img_path.exists():
+                    match_info = analyze_and_match_pamphlet_image(
+                        badge_name=badge_name,
+                        img_path=img_path,
+                        page_num=cand_p,
+                        pages_map=pages,
+                        req_number=req_number,
+                        req_text=req_text,
+                        topic_title=clean_req_short,
+                        page_count=page_count,
+                    )
+                    if match_info:
+                        chosen_raw_img = img_path
+                        chosen_img_page = cand_p
+                        chosen_img_caption = match_info["caption"]
+                        used_image_paths.add(str(img_path))
+                        break
+            if chosen_raw_img:
+                break
+
+    # Optional web supplement if no pamphlet image matched (for non-cataloged on-demand badges)
+    if not chosen_raw_img and not any(k.startswith(f"{slug}_p") for k in catalog):
         web_img = fetch_web_supplement_image(badge_name, req_text[:60], f"{slug}_req_{req_number}")
         if web_img and web_img.exists():
             chosen_raw_img = web_img
             chosen_img_page = 1
+            chosen_img_caption = strip_pamphlet_and_req_caption_prefixes(clean_req_short, badge_name)
 
-    clean_req_short = _derive_topic_title(req_number, req_text, matched_heading)
     if best_pages:
         page_str = ", ".join(f"p. {p}" for p in sorted(best_pages[:2]))
         citation = f"Official Scouting America {badge_name} Merit Badge Pamphlet ({page_str})"
@@ -674,6 +870,7 @@ def summarize_pamphlet_for_requirement(
         "pamphlet_pages": best_pages,
         "pamphlet_summary_points": extracted_bullets,
         "pamphlet_image_path": framed_card_path,
+        "pamphlet_image_caption": chosen_img_caption or strip_pamphlet_and_req_caption_prefixes(clean_req_short, badge_name),
         "raw_pamphlet_image_path": str(chosen_raw_img) if chosen_raw_img else None,
     }
 
@@ -999,9 +1196,13 @@ def _compose_pamphlet_visual_card(
         return str(out_file)
 
     with Image.open(raw_img_path) as src_im:
-        cleaned_rgba = _strip_pamphlet_exterior_whitespace(src_im)
         max_w, max_h = 1120, 740
-        contained = ImageOps.contain(cleaned_rgba, (max_w, max_h), method=Image.Resampling.LANCZOS).convert("RGBA")
+        pre_scaled = ImageOps.contain(src_im, (max_w, max_h), method=Image.Resampling.LANCZOS).convert("RGBA")
+        if "ai_illustrations" in str(raw_img_path):
+            contained = pre_scaled
+        else:
+            cleaned_rgba = _strip_pamphlet_exterior_whitespace(pre_scaled)
+            contained = ImageOps.contain(cleaned_rgba, (max_w, max_h), method=Image.Resampling.LANCZOS).convert("RGBA")
 
         # Encode invisible 1-pixel deterministic hash at center pixel (or corner with preserved alpha)
         # so every slide image has a unique SHA-256 digest without adding any visible artifact.
@@ -1012,7 +1213,7 @@ def _compose_pamphlet_visual_card(
         b_tweak = (b0 ^ int(h_tag[4:6], 16)) if a0 > 0 else int(h_tag[4:6], 16)
         contained.putpixel((cx, cy), (r_tweak % 256, g_tweak % 256, b_tweak % 256, max(1, a0)))
 
-        contained.save(out_file, "PNG", optimize=True, compress_level=9)
+        contained.save(out_file, "PNG", compress_level=4)
     return str(out_file)
 
 
@@ -1118,6 +1319,27 @@ _SHORT_SUBREQ_INSTRUCTIONAL_GLOSSARY: Dict[str, str] = {
     "10-mile hike #3": "10-Mile Conditioning Hike #3 — Prepare a written hike plan, complete the third 10-mile continuous hike practicing foot care and hydration management, and submit your hike report.",
     "10-mile hike #4": "10-Mile Conditioning Hike #4 — Prepare a written hike plan, complete the fourth 10-mile continuous hike evaluating gear load and navigation checkpoints, and review with your counselor.",
     "20-mile hike": "20-Mile Capstone Day Hike — After completing the four 10-mile hikes, plan and complete one continuous 20-mile hike in a single day and present your comprehensive trek report.",
+    # Citizenship in the Nation short sub-requirements
+    "the functions of each branch of government": "Constitutional Functions of the Three Branches — Legislative (Article I: Congress drafts bills, levies taxes, declares war), Executive (Article II: President enforces laws, commands Armed Forces), and Judicial (Article III: Supreme Court interprets laws).",
+    "why it is important to divide powers among different branches": "Importance of Dividing Power (Separation of Powers) — Concentrating legislative, executive, and judicial authority in one hand invites tyranny; dividing power across three independent branches safeguards individual liberty.",
+    "how each branch \"checks\" and \"balances\" the others": "Constitutional Checks & Balances — Presidential veto vs. two-thirds congressional override, Senate confirmation of treaties and federal judges, congressional impeachment power, and Supreme Court judicial review (Marbury v. Madison).",
+    "how citizens can be involved in each branch of government": "Citizen Participation Across All Three Branches — Vote and testify in committee hearings (Legislative), comment on federal agency rules and vote for President (Executive), and serve on federal juries or file amicus briefs (Judicial).",
+    "what difficulties the nation faced that the author wished to discuss": "Historical Crisis & National Context — Identify the constitutional, economic, or military crisis facing the United States when the speech was delivered (e.g., partisan division and foreign entanglements in 1796, or Civil War preservation of the Union in 1863).",
+    "what the author said": "Core Arguments & Rhetorical Message — Summarize the speaker's central thesis, constitutional principles invoked, and call to civic action in your own words.",
+    "how the speech applies to american citizens today": "Enduring Relevance to Citizens Today — Explain how the speech's warnings and ideals guide modern American voters, civic unity, equal rights, and constitutional self-government today.",
+    "the declaration of independence": "The Declaration of Independence (July 4, 1776) — Drafted by Thomas Jefferson, proclaiming that all people are endowed with unalienable rights to life, liberty, and the pursuit of happiness, and that government derives its just powers from the consent of the governed.",
+    # First Aid short sub-requirements (Reqs 12, 13, 15)
+    "situations where professional help might be needed": "Recognizing When Professional Mental Health Help Is Needed — Identify warning signs such as persistent hopelessness, severe withdrawal, panic attacks, or talk of self-harm that require immediate connection with a trusted adult, counselor, or the 988 Suicide & Crisis Lifeline.",
+    "head, neck, and back injuries": "Spinal Stabilization (Head, Neck & Back Injuries) — Suspect spinal trauma after falls, diving, or vehicle impacts; maintain manual inline head-and-neck stabilization, never move or twist the victim unless life-threatening danger requires an emergency drag, and summon EMS.",
+    "stroke": "Stroke Recognition (FAST Protocol) — Check Face drooping, Arm drift/weakness, Speech slurring, and Time to call 911 immediately; note the exact time symptoms started and keep the airway clear.",
+    "seizures": "First Aid for Seizures — Clear nearby hard or sharp objects, cushion the person's head with a folded jacket, never restrain movements or put anything in their mouth, time the seizure, and roll into the recovery position once convulsions stop.",
+    "diabetes-related emergencies": "Diabetic Emergencies (Hypoglycemia vs. Hyperglycemia) — Recognize sudden cold sweats, shakiness, and confusion (low blood sugar); if the person is conscious and able to swallow safely, give 15–20g of fast-acting oral glucose or fruit juice, or call 911 if unresponsive.",
+    "abdominal Pain": "Acute Abdominal Pain Assessment — Keep the patient resting comfortably on their back with knees slightly bent, never give food, water, laxatives, or pain medication (which can mask appendicitis or internal bleeding), and seek medical evaluation.",
+    "abdominal pain": "Acute Abdominal Pain Assessment — Keep the patient resting comfortably on their back with knees slightly bent, never give food, water, laxatives, or pain medication (which can mask appendicitis or internal bleeding), and seek medical evaluation.",
+    "the training and education needed for each career": "Education & Clinical Certification Path — Research the accredited degree, EMT/Paramedic/RN/MD clinical training hours, national board exams (NREMT/NCLEX), and Wilderness First Responder certifications required.",
+    "the expenses you might incur while pursuing these credentials": "Training Costs, Tuition & Equipment Expenses — Estimate tuition, clinical lab fees, certification exam fees, textbooks, uniforms, and continuing education unit (CEU) renewal expenses.",
+    "the typical career path and opportunities for advancement": "Career Progression & Specialization — Trace advancement from entry-level EMT-Basic or ER technician to Flight Paramedic, Critical Care Nurse, Physician Assistant, Emergency Physician, or EMS Medical Director.",
+    "why this profession might interest you": "Personal Calling & Alignment with the Scout Oath — Reflect on how emergency medical service embodies 'help other people at all times' and matches your interests in science, teamwork, and composure under pressure.",
 }
 
 
@@ -1143,12 +1365,13 @@ def _enrich_sub_requirement_text(
     # Search pamphlet pages for a matching explanatory sentence
     kw_tokens = [
         w for w in re.findall(r"[a-z]{4,}", norm_key)
-        if w not in {"explain", "discuss", "describe", "show", "demonstrate", "tell", "identify", "what", "when", "where", "your", "with", "from", "that", "have"}
+        if w not in {"explain", "discuss", "describe", "show", "demonstrate", "tell", "identify", "what", "when", "where", "your", "with", "from", "that", "have", "each", "other", "others", "important", "nation", "faced", "author", "wished"}
     ]
     if kw_tokens and pages_map:
         search_pages = list(extended_pages) + [p for p in sorted(pages_map.keys()) if p not in extended_pages]
         best_sent = ""
         best_score = 0
+        min_required_hits = 2 if len(kw_tokens) >= 2 else 1
         for p_num in search_pages[:25]:
             p_text = str((pages_map.get(p_num) or {}).get("text") or "")
             for raw_sent in re.split(r"(?<=[.!?])\s+", p_text):
@@ -1162,7 +1385,7 @@ def _enrich_sub_requirement_text(
                 if hits > best_score:
                     best_score = hits
                     best_sent = s_clean
-        if best_sent and best_score >= 1:
+        if best_sent and best_score >= min_required_hits:
             return f"{clean_sr.rstrip('.')} — {best_sent}"
 
     # Contextual expansion based on parent requirement action prompt
@@ -1187,7 +1410,9 @@ def _build_sub_requirement_slides(
     if not sub_reqs:
         return []
     n_subs = len(sub_reqs)
-    if n_subs <= 6:
+    if n_subs <= 4:
+        sub_chunks = [sub_reqs]
+    elif n_subs <= 6:
         chunk_size = 3
         sub_chunks = [sub_reqs[i : i + chunk_size] for i in range(0, n_subs, chunk_size)]
     elif n_subs <= 16:
@@ -1266,11 +1491,13 @@ def decompose_requirement_into_topic_slides(
         used_image_paths = set()
 
     slug = _badge_slug(badge_name)
-    # Pre-register MD5 hashes of all Nano Banana Hero images for this badge so topic slides
+    # Pre-register MD5 hashes of all integer Nano Banana Hero images for this badge so topic slides
     # never duplicate a Nano Banana Hero image (keeping Nano Banana Heroes exclusive to Requirement Intro slides).
     ai_dir = ASSETS_DIR / "ai_illustrations"
     if ai_dir.exists():
         for nh_file in ai_dir.glob(f"{slug}_req_*_nano_hero.png"):
+            if not re.match(rf"^{re.escape(slug)}_req_\d+_nano_hero\.png$", nh_file.name):
+                continue
             nh_md5 = _raw_file_md5(nh_file)
             if nh_md5:
                 used_image_paths.add(f"md5:{nh_md5}")
@@ -1310,46 +1537,137 @@ def decompose_requirement_into_topic_slides(
                     if not any(sk in cand_h for sk in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
                         extended_pages.append(cand_p)
 
-    # Also allow fallback to other body pages of the pamphlet if needed so authentic BSA pamphlet images are used
-    all_body_pages = list(extended_pages) + [
-        p for p in sorted(pages_map.keys())
-        if 6 <= p <= max(7, page_count - 3) and p not in extended_pages
-    ]
+    # Build a pool of requirement-matched pamphlet images & accurate captions (never fall back to random unrelated pages!)
+    # Note: Do NOT mutate `used_image_paths` until an item is actually popped onto a slide so explicit `topic_slides`
+    # referencing a catalog image for this requirement are never blocked!
+    clean_req_num = re.sub(r"[a-zA-Z]+$", "", str(req_num or "")).strip()
+    catalog = _load_pamphlet_image_catalog()
+    has_badge_catalog = any(k.startswith(f"{slug}_p") for k in catalog)
+    matched_pamphlet_items: List[Tuple[str, str, str, str]] = []
+    seen_cand_keys: set = set()
+    if pamphlet_img and Path(str(pamphlet_img)).exists():
+        p_raw_md5 = _raw_file_md5(pamphlet_img)
+        if str(pamphlet_img) not in used_image_paths and (not p_raw_md5 or f"md5:{p_raw_md5}" not in used_image_paths):
+            init_cap = strip_pamphlet_and_req_caption_prefixes(
+                str(req_dict.get("pamphlet_image_caption") or base_title),
+                badge_name,
+            )
+            matched_pamphlet_items.append((str(pamphlet_img), init_cap, str(pamphlet_img), p_raw_md5))
+            seen_cand_keys.add(str(pamphlet_img))
+            if p_raw_md5:
+                seen_cand_keys.add(f"md5:{p_raw_md5}")
 
-    extra_images: List[str] = []
-    if all_body_pages and pages_map:
-        for ep in all_body_pages:
+    # 1a. Check vision-verified catalog for additional images explicitly paired with this requirement
+    for fname, entry in catalog.items():
+        if not fname.startswith(f"{slug}_p"):
+            continue
+        if str(entry.get("req_number") or "").strip() == clean_req_num and not entry.get("discard"):
+            cand_img = PAMPHLET_IMAGES_DIR / fname
+            if not cand_img.exists():
+                continue
+            c_md5 = _raw_file_md5(cand_img)
+            if (
+                str(cand_img) not in used_image_paths
+                and (not c_md5 or f"md5:{c_md5}" not in used_image_paths)
+                and str(cand_img) not in seen_cand_keys
+                and (not c_md5 or f"md5:{c_md5}" not in seen_cand_keys)
+            ):
+                seen_cand_keys.add(str(cand_img))
+                if c_md5:
+                    seen_cand_keys.add(f"md5:{c_md5}")
+                m_p = re.search(r"_p(\d+)_img", fname)
+                ep_num = int(m_p.group(1)) if m_p else 1
+                composed = _compose_pamphlet_visual_card(
+                    raw_img_path=cand_img,
+                    badge_name=badge_name,
+                    req_number=f"{req_num}_fig{len(matched_pamphlet_items) + 1}",
+                    topic_title=str(entry.get("topic") or base_title),
+                    pamphlet_page=ep_num,
+                )
+                cap_txt = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or base_title), badge_name)
+                matched_pamphlet_items.append((composed, cap_txt, str(cand_img), c_md5))
+                if len(matched_pamphlet_items) >= 4:
+                    break
+
+    # 1b. Check nearby extended_pages ONLY if analyze_and_match_pamphlet_image confirms a semantic match to this requirement
+    if len(matched_pamphlet_items) < 3 and extended_pages and pages_map:
+        for ep in extended_pages:
             for cand_img in (pages_map.get(ep) or {}).get("images", []):
                 c_md5 = _raw_file_md5(cand_img)
                 if (
                     str(cand_img) not in used_image_paths
                     and (not c_md5 or f"md5:{c_md5}" not in used_image_paths)
+                    and str(cand_img) not in seen_cand_keys
+                    and (not c_md5 or f"md5:{c_md5}" not in seen_cand_keys)
                     and cand_img.exists()
                 ):
-                    used_image_paths.add(str(cand_img))
+                    match_info = analyze_and_match_pamphlet_image(
+                        badge_name=badge_name,
+                        img_path=cand_img,
+                        page_num=ep,
+                        pages_map=pages_map,
+                        req_number=req_num,
+                        req_text=req_text,
+                        topic_title=base_title,
+                        page_count=page_count,
+                    )
+                    if not match_info:
+                        continue
+                    seen_cand_keys.add(str(cand_img))
                     if c_md5:
-                        used_image_paths.add(f"md5:{c_md5}")
+                        seen_cand_keys.add(f"md5:{c_md5}")
                     composed = _compose_pamphlet_visual_card(
                         raw_img_path=cand_img,
                         badge_name=badge_name,
-                        req_number=f"{req_num}_fig{len(extra_images) + 1}",
-                        topic_title=f"{base_title} Visual {len(extra_images) + 1}",
+                        req_number=f"{req_num}_fig{len(matched_pamphlet_items) + 1}",
+                        topic_title=match_info.get("topic") or base_title,
                         pamphlet_page=ep,
                     )
-                    comp_md5 = _raw_file_md5(composed)
-                    if comp_md5:
-                        used_image_paths.add(f"md5:{comp_md5}")
-                    extra_images.append(composed)
-                    if len(extra_images) >= 3:
+                    matched_pamphlet_items.append((composed, match_info["caption"], str(cand_img), c_md5))
+                    if len(matched_pamphlet_items) >= 4:
                         break
-            if len(extra_images) >= 3:
+            if len(matched_pamphlet_items) >= 4:
                 break
 
-    # Pool of distinct pamphlet/web images for this requirement's topic slides
-    avail_pamphlet_pool: List[str] = []
-    for p_cand in ([pamphlet_img] + extra_images):
-        if p_cand and Path(str(p_cand)).exists() and p_cand not in avail_pamphlet_pool:
-            avail_pamphlet_pool.append(str(p_cand))
+    avail_pamphlet_pool: List[Tuple[str, str, str, str]] = []
+    seen_pool_paths: set = set()
+    for p_cand, p_cap, raw_p_str, raw_p_md5 in matched_pamphlet_items:
+        if p_cand and Path(str(p_cand)).exists() and p_cand not in seen_pool_paths:
+            seen_pool_paths.add(p_cand)
+            avail_pamphlet_pool.append((str(p_cand), p_cap, raw_p_str, raw_p_md5))
+
+    def _pop_next_avail_pamphlet() -> Optional[Tuple[str, str]]:
+        while avail_pamphlet_pool:
+            p_cand, p_cap, raw_p_str, raw_p_md5 = avail_pamphlet_pool.pop(0)
+            comp_md5 = _raw_file_md5(p_cand)
+            if (
+                p_cand in used_image_paths
+                or raw_p_str in used_image_paths
+                or (raw_p_md5 and f"md5:{raw_p_md5}" in used_image_paths)
+                or (comp_md5 and f"md5:{comp_md5}" in used_image_paths)
+            ):
+                continue
+            used_image_paths.add(p_cand)
+            used_image_paths.add(raw_p_str)
+            if raw_p_md5:
+                used_image_paths.add(f"md5:{raw_p_md5}")
+            if comp_md5:
+                used_image_paths.add(f"md5:{comp_md5}")
+            return p_cand, p_cap
+        return None
+
+    def _dedupe_slide_bullets(b_list: List[str]) -> List[str]:
+        out_b: List[str] = []
+        seen_b: set = set()
+        for item in b_list:
+            s_it = str(item or "").strip()
+            if not s_it:
+                continue
+            norm_k = re.sub(r"[^a-z0-9]+", " ", s_it.lower()).strip()[:65]
+            if norm_k and norm_k not in seen_b:
+                seen_b.add(norm_k)
+                out_b.append(s_it)
+        return out_b
 
     # 1. If the requirement already defines explicit multi-slide `topic_slides`, enrich their image paths
     #    AND ensure 100% of official `sub_requirements` are explicitly covered without repeating Nano Banana heroes.
@@ -1358,7 +1676,15 @@ def decompose_requirement_into_topic_slides(
         resolved_slides: List[Dict[str, Any]] = []
         for t_idx, ts in enumerate(explicit_slides, start=1):
             ts_copy = dict(ts)
+            if ts_copy.get("caption"):
+                ts_copy["caption"] = strip_pamphlet_and_req_caption_prefixes(str(ts_copy["caption"]), badge_name)
             raw_img = ts_copy.get("image_path")
+            if raw_img and "pamphlet_images" in str(raw_img) and has_badge_catalog:
+                cat_check = catalog.get(Path(str(raw_img)).name)
+                if not cat_check or cat_check.get("discard") or (
+                    clean_req_num and str(cat_check.get("req_number") or "").strip() != clean_req_num
+                ):
+                    raw_img = None
             raw_md5 = _raw_file_md5(raw_img) if raw_img else ""
             is_duplicate_or_hero = bool(
                 raw_img
@@ -1382,6 +1708,10 @@ def decompose_requirement_into_topic_slides(
                 used_image_paths.add(str(raw_img))
                 if raw_md5:
                     used_image_paths.add(f"md5:{raw_md5}")
+                # Always use the vision-verified catalog caption when raw_img is in the pamphlet catalog
+                cat_hit = catalog.get(Path(str(raw_img)).name)
+                if cat_hit and cat_hit.get("caption"):
+                    ts_copy["caption"] = strip_pamphlet_and_req_caption_prefixes(str(cat_hit["caption"]), badge_name)
                 composed_ts = _compose_pamphlet_visual_card(
                     raw_img_path=Path(str(raw_img)),
                     badge_name=badge_name,
@@ -1393,42 +1723,50 @@ def decompose_requirement_into_topic_slides(
                 if c_ts_md5:
                     used_image_paths.add(f"md5:{c_ts_md5}")
                 ts_copy["image_path"] = composed_ts
-            elif avail_pamphlet_pool:
-                next_pamphlet_img = avail_pamphlet_pool.pop(0)
-                ts_copy["image_path"] = next_pamphlet_img
-                ts_copy["caption"] = f"Official {badge_name} Pamphlet Figure — {ts_copy.get('title', base_title)}"
-                if layout_type == "FULL_BLEED_IMAGE_EXPLAINER":
-                    ts_copy["layout"] = "SPLIT_VISUAL_EXPLAINER"
-            elif ts_copy.get("wikimedia_query"):
-                web_p = fetch_web_supplement_image(
-                    badge_name,
-                    str(ts_copy["wikimedia_query"]),
-                    f"{slug}_{req_num}_{t_idx}",
-                )
-                if web_p and web_p.exists():
-                    ts_copy["image_path"] = _compose_pamphlet_visual_card(
-                        raw_img_path=web_p,
-                        badge_name=badge_name,
-                        req_number=f"{req_num}_{t_idx}",
-                        topic_title=str(ts_copy.get("title", "")),
-                        pamphlet_page=t_idx,
+            else:
+                popped_item = _pop_next_avail_pamphlet()
+                if popped_item:
+                    next_pamphlet_img, next_pamphlet_cap = popped_item
+                    ts_copy["image_path"] = next_pamphlet_img
+                    ts_copy["caption"] = next_pamphlet_cap or strip_pamphlet_and_req_caption_prefixes(
+                        str(ts_copy.get("title", base_title)), badge_name
                     )
-                    ts_copy["caption"] = f"Visual Reference — {ts_copy.get('title', base_title)}"
                     if layout_type == "FULL_BLEED_IMAGE_EXPLAINER":
                         ts_copy["layout"] = "SPLIT_VISUAL_EXPLAINER"
+                elif ts_copy.get("wikimedia_query"):
+                    web_p = fetch_web_supplement_image(
+                        badge_name,
+                        str(ts_copy["wikimedia_query"]),
+                        f"{slug}_{req_num}_{t_idx}",
+                    )
+                    if web_p and web_p.exists():
+                        ts_copy["image_path"] = _compose_pamphlet_visual_card(
+                            raw_img_path=web_p,
+                            badge_name=badge_name,
+                            req_number=f"{req_num}_{t_idx}",
+                            topic_title=str(ts_copy.get("title", "")),
+                            pamphlet_page=t_idx,
+                        )
+                        ts_copy["caption"] = strip_pamphlet_and_req_caption_prefixes(
+                            str(ts_copy.get("caption") or ts_copy.get("title", base_title)), badge_name
+                        )
+                        if layout_type == "FULL_BLEED_IMAGE_EXPLAINER":
+                            ts_copy["layout"] = "SPLIT_VISUAL_EXPLAINER"
+                    else:
+                        ts_copy["image_path"] = None
                 else:
                     ts_copy["image_path"] = None
-            else:
-                ts_copy["image_path"] = None
 
             if not ts_copy.get("image_path") and ts_copy.get("layout") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
                 ts_copy["layout"] = "CONCEPT_TEXT_SLIDE"
+            if ts_copy.get("bullets"):
+                ts_copy["bullets"] = _dedupe_slide_bullets(list(ts_copy.get("bullets") or []))
             if ts_copy.get("layout") in ("SPLIT_VISUAL_EXPLAINER", "CONCEPT_TEXT_SLIDE"):
                 cur_bullets = list(ts_copy.get("bullets") or [])
                 if len(cur_bullets) < 3:
                     for extra_b in list(req_dict.get("step_by_step_procedure") or []) + list(req_dict.get("pamphlet_excerpts") or []):
-                        if extra_b and extra_b not in cur_bullets:
-                            cur_bullets.append(extra_b)
+                        if extra_b:
+                            cur_bullets = _dedupe_slide_bullets(cur_bullets + [extra_b])
                             if len(cur_bullets) >= 3:
                                 break
                     ts_copy["bullets"] = cur_bullets
@@ -1464,9 +1802,9 @@ def decompose_requirement_into_topic_slides(
         return resolved_slides
 
     # 2. Adaptive multi-slide EDGE decomposition for requirements without explicit `topic_slides`
-    excerpts = list(req_dict.get("pamphlet_excerpts") or [])
-    procedures = list(req_dict.get("step_by_step_procedure") or [])
-    checklist = list(req_dict.get("gear_checklist") or [])
+    excerpts = _dedupe_slide_bullets(list(req_dict.get("pamphlet_excerpts") or []))
+    procedures = _dedupe_slide_bullets(list(req_dict.get("step_by_step_procedure") or []))
+    checklist = _dedupe_slide_bullets(list(req_dict.get("gear_checklist") or []))
     comp_data = req_dict.get("comparison_data")
     worked_ex = req_dict.get("worked_example")
     quiz_item = req_dict.get("quiz_item")
@@ -1477,14 +1815,22 @@ def decompose_requirement_into_topic_slides(
         else []
     )
 
-    # Reserve `excerpts[:4]` for the REQUIREMENT_INTRO slide in Deep Dive mode so topic slides never repeat them
-    intro_norms = {b.lower()[:50] for b in excerpts[:4]}
-    fresh_pamphlet_bullets = [
-        b for b in (excerpts[4:] + all_pamphlet_bullets)
-        if b.lower()[:50] not in intro_norms
-    ]
+    # Reserve `excerpts[:4]` for the REQUIREMENT_INTRO slide in Deep Dive mode so topic slides never repeat them,
+    # and strictly deduplicate `fresh_pamphlet_bullets` so the first two boxes of text are never identical!
+    intro_norms = {re.sub(r"[^a-z0-9]+", " ", b.lower()).strip()[:55] for b in excerpts[:4]}
+    fresh_pamphlet_bullets: List[str] = []
+    seen_fresh_norms: set = set(intro_norms)
+    for b in (excerpts[4:] + all_pamphlet_bullets):
+        b_clean = str(b or "").strip()
+        if not b_clean:
+            continue
+        b_norm = re.sub(r"[^a-z0-9]+", " ", b_clean.lower()).strip()[:55]
+        if b_norm and b_norm not in seen_fresh_norms:
+            seen_fresh_norms.add(b_norm)
+            fresh_pamphlet_bullets.append(b_clean)
 
     generated: List[Dict[str, Any]] = []
+    used_on_visual_slide_norms: set = set()
 
     # A. Sub-Requirement Deep-Dive Slides (Explain Phase)
     if sub_reqs:
@@ -1501,38 +1847,59 @@ def decompose_requirement_into_topic_slides(
                 extended_pages=extended_pages,
             )
         )
-        # Add 1 illustrated Pamphlet / Web Visual Reference slide if an authentic pamphlet/web image is available
-        if avail_pamphlet_pool and fresh_pamphlet_bullets:
-            vis_img = avail_pamphlet_pool.pop(0)
-            generated.append({
-                "title": f"{base_title}: Pamphlet Visual & Field Reference",
-                "layout": "SPLIT_VISUAL_EXPLAINER",
-                "bullets": fresh_pamphlet_bullets[:4],
-                "image_path": vis_img,
-                "caption": f"{badge_name} Pamphlet Reference — {base_title}",
-            })
+        # Add 1 illustrated Pamphlet / Web Visual Reference slide if a requirement-matched pamphlet image is available
+        if len(fresh_pamphlet_bullets) >= 2:
+            popped_vis = _pop_next_avail_pamphlet()
+            if popped_vis:
+                vis_img, vis_cap = popped_vis
+                vis_bullets = _dedupe_slide_bullets(fresh_pamphlet_bullets[:4])
+                for vb in vis_bullets:
+                    used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
+                generated.append({
+                    "title": f"{base_title}: Field Visual & Key Principles",
+                    "layout": "SPLIT_VISUAL_EXPLAINER",
+                    "bullets": vis_bullets,
+                    "image_path": vis_img,
+                    "caption": vis_cap or base_title,
+                })
     else:
         # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
-        deep_bullets = fresh_pamphlet_bullets[:4] if fresh_pamphlet_bullets else (excerpts[2:6] or excerpts[:4] or [req_text])
-        slide_img = avail_pamphlet_pool.pop(0) if avail_pamphlet_pool else None
+        deep_bullets = _dedupe_slide_bullets(
+            fresh_pamphlet_bullets[:4] if fresh_pamphlet_bullets else (excerpts[2:6] or excerpts[:4] or [req_text])
+        )
+        for db in deep_bullets:
+            used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", db.lower()).strip()[:55])
+        popped_single = _pop_next_avail_pamphlet()
+        if popped_single:
+            slide_img, slide_cap = popped_single
+        else:
+            slide_img, slide_cap = None, base_title
         generated.append({
-            "title": f"{base_title}: Pamphlet Principles & Key Details",
+            "title": f"{base_title}: Core Principles & Field Reference",
             "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
             "bullets": deep_bullets,
             "image_path": slide_img,
-            "caption": f"{badge_name} Visual Reference — {base_title}",
+            "caption": slide_cap or base_title,
         })
 
     # B. Step-by-Step Execution Procedure (Demonstrate Phase) — full-width 2x2 grid for maximum clarity
-    proc_norms = {p.lower()[:50] for p in procedures}
-    has_distinct_procedures = bool(procedures and proc_norms != intro_norms)
-    if has_distinct_procedures:
-        proc_bullets = procedures[:4]
-    elif len(fresh_pamphlet_bullets) >= 4:
-        proc_bullets = fresh_pamphlet_bullets[:4]
+    # Never reuse the exact same bullets shown on the immediately preceding slide!
+    remaining_fresh_for_proc = [
+        fb for fb in fresh_pamphlet_bullets
+        if re.sub(r"[^a-z0-9]+", " ", fb.lower()).strip()[:55] not in used_on_visual_slide_norms
+    ]
+    proc_candidates = [
+        p for p in procedures
+        if re.sub(r"[^a-z0-9]+", " ", p.lower()).strip()[:55] not in intro_norms
+        and re.sub(r"[^a-z0-9]+", " ", p.lower()).strip()[:55] not in used_on_visual_slide_norms
+    ]
+    if len(proc_candidates) >= 3:
+        proc_bullets = _dedupe_slide_bullets(proc_candidates)[:4]
+    elif len(remaining_fresh_for_proc) >= 3:
+        proc_bullets = _dedupe_slide_bullets(remaining_fresh_for_proc)[:4]
     else:
         proc_bullets = [
-            f"Preparation & Study: Review the official {badge_name} pamphlet section on {base_title} and record key definitions in your workbook.",
+            f"Preparation & Study: Review the {badge_name} handbook section on {base_title} and record key definitions in your workbook.",
             f"Equipment & Safety Check: Inspect the tools, materials, and workspace needed for Requirement {req_num} with your buddy.",
             f"Hands-On Demonstration: Practice and demonstrate the required {base_title} steps using the BSA EDGE method.",
             f"Counselor Verification: Present your completed notes, logs, or demonstration for Requirement {req_num} counselor review.",

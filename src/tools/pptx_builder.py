@@ -242,7 +242,9 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
         .replace("i.e.", "ie_")
     )
 
-    # Try splitting ONLY at genuine sentence or subordinate clause boundaries (never at ', and ' in Oxford comma lists)
+    # Try splitting ONLY at genuine sentence or subordinate clause boundaries (never at ', and ' in Oxford comma lists,
+    # and never split on '; ' when describing multi-panel (Left) and (Right) visuals)
+    has_multi_panel = ("(left)" in protected.lower() and "(right)" in protected.lower())
     for sep in (
         ". ",
         "; ",
@@ -255,6 +257,8 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
         " so that ",
         " in order to ",
     ):
+        if sep == "; " and has_multi_panel:
+            continue
         if sep in protected:
             raw_head = protected.split(sep, 1)[0].strip().rstrip(",;:-")
             head = (
@@ -1118,7 +1122,25 @@ def _render_right_visual_card(
     ):
         if raw_cap.startswith(prefix_rm):
             raw_cap = raw_cap[len(prefix_rm) :].strip()
-    raw_cap = _concise_card_body(raw_cap, max_words=16, max_chars=105)
+    raw_cap = re.sub(
+        r"^(?:Official\s+(?:BSA\s+|Scouting\s+America\s+)?[^—\-:]{2,45}?\s*Pamphlet\s+(?:Figure|Reference|Visual|Diagram)\s*[—\-:]\s*)",
+        "",
+        raw_cap,
+        flags=re.IGNORECASE,
+    ).strip()
+    raw_cap = re.sub(
+        r"^[^—\-:]{2,40}?\s+(?:Pamphlet|Visual|Sub-Requirement)\s+Reference\s*[—\-:]\s*",
+        "",
+        raw_cap,
+        flags=re.IGNORECASE,
+    ).strip()
+    raw_cap = re.sub(
+        r"^(?:Requirement|Req\.?)\s+[0-9a-zA-Z().\-]+\s*[:—\-]\s*",
+        "",
+        raw_cap,
+        flags=re.IGNORECASE,
+    ).strip()
+    raw_cap = _concise_card_body(raw_cap, max_words=24, max_chars=145)
 
     cap_box = slide.shapes.add_textbox(
         Inches(7.14),
@@ -2459,6 +2481,20 @@ def generate_bsa_slide_deck_pptx(
             space_after_pt=0.0,
             align=PP_ALIGN.CENTER,
         )
+
+        # Deduplicate slide_spec.bullet_points so no slide ever renders identical card boxes
+        if slide_spec.bullet_points:
+            deduped_bps: List[str] = []
+            seen_bp_norms: set = set()
+            for bp_item in slide_spec.bullet_points:
+                bp_str = str(bp_item or "").strip()
+                if not bp_str:
+                    continue
+                bp_norm = re.sub(r"[^a-z0-9]+", " ", bp_str.lower()).strip()[:65]
+                if bp_norm and bp_norm not in seen_bp_norms:
+                    seen_bp_norms.add(bp_norm)
+                    deduped_bps.append(bp_str)
+            slide_spec.bullet_points = deduped_bps
 
         # Resolve unique diagram_path only if this slide has an existing visual asset
         orig_diagram_path = slide_spec.diagram_path
