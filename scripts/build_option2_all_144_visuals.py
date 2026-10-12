@@ -22,7 +22,7 @@ from pathlib import Path
 import re
 from typing import Any, Dict, List, Tuple
 
-from PIL import Image, ImageDraw, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageOps
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = REPO_ROOT / "assets" / "ai_illustrations"

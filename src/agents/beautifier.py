@@ -691,7 +691,6 @@ def beautify_slide_storyboard(
             # 4. General Local Grounding injection for any requirement across all 144 badges with requires_local_lookup=True
             elif req_cit.get("requires_local_lookup") and req_cit.get("local_grounding_callout"):
                 callout_txt = str(req_cit.get("local_grounding_callout") or "").strip()
-                inj_label = str(req_cit.get("slide_injection_label") or f"Local Grounding ({disp_loc})").strip()
                 slide["local_grounding_callout"] = callout_txt
                 if req_num not in injected_local_reqs and arch in ("SPLIT_VISUAL_EXPLAINER", "CONCEPT_TEXT_SLIDE") and not slide.get("verbatim_requirement_text"):
                     bps = list(slide.get("bullet_points") or [])
@@ -800,7 +799,8 @@ def beautify_slide_storyboard(
                         cat_cap = ""
                         if nano_cat_file.exists():
                             try:
-                                nc_map = json.loads(nano_cat_file.read_text(encoding="utf-8"))
+                                import json as _json
+                                nc_map = _json.loads(nano_cat_file.read_text(encoding="utf-8"))
                                 if isinstance(nc_map, dict) and hero_fname in nc_map:
                                     cat_cap = strip_pamphlet_and_req_caption_prefixes(
                                         str(nc_map[hero_fname].get("caption") or ""), badge_name

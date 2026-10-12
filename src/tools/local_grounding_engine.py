@@ -26,7 +26,7 @@ from pathlib import Path
 import re
 import sqlite3
 import time
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 from src.config import select_model_for_task
 from src.observability.logging_setup import logger
@@ -1721,7 +1721,7 @@ def resolve_requirement_local_grounding(
             f"{base['museums']} and regional research facilities ({base['federal_facilities']})."
         )
         source_title = f"Regional Museums, Laboratories & Career Mentors — {disp_loc}"
-        source_url = f"https://www.scouting.org/skills/merit-badges/"
+        source_url = "https://www.scouting.org/skills/merit-badges/"
         domain = "scouting.org"
 
     payload = {

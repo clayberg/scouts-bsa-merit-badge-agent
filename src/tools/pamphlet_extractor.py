@@ -733,7 +733,6 @@ def summarize_pamphlet_for_requirement(
     p_index = build_pamphlet_index(badge_name)
     pages: Dict[int, Dict[str, Any]] = p_index.get("pages") or {}
     page_count: int = p_index.get("page_count", 0)
-    pdf_path: Optional[Path] = p_index.get("pdf_path")
     slug = _badge_slug(badge_name)
 
     stop_words = {
@@ -1325,17 +1324,14 @@ _SHORT_SUBREQ_INSTRUCTIONAL_GLOSSARY: Dict[str, str] = {
     "how each branch \"checks\" and \"balances\" the others": "Constitutional Checks & Balances — Presidential veto vs. two-thirds congressional override, Senate confirmation of treaties and federal judges, congressional impeachment power, and Supreme Court judicial review (Marbury v. Madison).",
     "how citizens can be involved in each branch of government": "Citizen Participation Across All Three Branches — Vote and testify in committee hearings (Legislative), comment on federal agency rules and vote for President (Executive), and serve on federal juries or file amicus briefs (Judicial).",
     "what difficulties the nation faced that the author wished to discuss": "Historical Crisis & National Context — Identify the constitutional, economic, or military crisis facing the United States when the speech was delivered (e.g., partisan division and foreign entanglements in 1796, or Civil War preservation of the Union in 1863).",
-    "what the author said": "Core Arguments & Rhetorical Message — Summarize the speaker's central thesis, constitutional principles invoked, and call to civic action in your own words.",
     "how the speech applies to american citizens today": "Enduring Relevance to Citizens Today — Explain how the speech's warnings and ideals guide modern American voters, civic unity, equal rights, and constitutional self-government today.",
     "the declaration of independence": "The Declaration of Independence (July 4, 1776) — Drafted by Thomas Jefferson, proclaiming that all people are endowed with unalienable rights to life, liberty, and the pursuit of happiness, and that government derives its just powers from the consent of the governed.",
     # First Aid short sub-requirements (Reqs 12, 13, 15)
     "situations where professional help might be needed": "Recognizing When Professional Mental Health Help Is Needed — Identify warning signs such as persistent hopelessness, severe withdrawal, panic attacks, or talk of self-harm that require immediate connection with a trusted adult, counselor, or the 988 Suicide & Crisis Lifeline.",
     "head, neck, and back injuries": "Spinal Stabilization (Head, Neck & Back Injuries) — Suspect spinal trauma after falls, diving, or vehicle impacts; maintain manual inline head-and-neck stabilization, never move or twist the victim unless life-threatening danger requires an emergency drag, and summon EMS.",
-    "stroke": "Stroke Recognition (FAST Protocol) — Check Face drooping, Arm drift/weakness, Speech slurring, and Time to call 911 immediately; note the exact time symptoms started and keep the airway clear.",
     "seizures": "First Aid for Seizures — Clear nearby hard or sharp objects, cushion the person's head with a folded jacket, never restrain movements or put anything in their mouth, time the seizure, and roll into the recovery position once convulsions stop.",
     "diabetes-related emergencies": "Diabetic Emergencies (Hypoglycemia vs. Hyperglycemia) — Recognize sudden cold sweats, shakiness, and confusion (low blood sugar); if the person is conscious and able to swallow safely, give 15–20g of fast-acting oral glucose or fruit juice, or call 911 if unresponsive.",
     "abdominal Pain": "Acute Abdominal Pain Assessment — Keep the patient resting comfortably on their back with knees slightly bent, never give food, water, laxatives, or pain medication (which can mask appendicitis or internal bleeding), and seek medical evaluation.",
-    "abdominal pain": "Acute Abdominal Pain Assessment — Keep the patient resting comfortably on their back with knees slightly bent, never give food, water, laxatives, or pain medication (which can mask appendicitis or internal bleeding), and seek medical evaluation.",
     "the training and education needed for each career": "Education & Clinical Certification Path — Research the accredited degree, EMT/Paramedic/RN/MD clinical training hours, national board exams (NREMT/NCLEX), and Wilderness First Responder certifications required.",
     "the expenses you might incur while pursuing these credentials": "Training Costs, Tuition & Equipment Expenses — Estimate tuition, clinical lab fees, certification exam fees, textbooks, uniforms, and continuing education unit (CEU) renewal expenses.",
     "the typical career path and opportunities for advancement": "Career Progression & Specialization — Trace advancement from entry-level EMT-Basic or ER technician to Flight Paramedic, Critical Care Nurse, Physician Assistant, Emergency Physician, or EMS Medical Director.",
