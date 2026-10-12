@@ -458,7 +458,7 @@ def beautify_slide_storyboard(
     storyboard: Dict[str, Any],
     deep_research_enrichment: Optional[Dict[str, Any]] = None,
     beautification_tier: str = "BEAUTIFIED",
-    max_ai_images: int = 5,
+    max_ai_images: int = 20,
     audience_level: str = "All Scouts (Ages 11–17)",
 ) -> Dict[str, Any]:
     """Transforms a `StoryboardPlan` into a magazine-grade `DeckVisualBlueprint` and enriches slide metadata.
@@ -497,7 +497,7 @@ def beautify_slide_storyboard(
     effective_max_images = (
         0
         if tier_upper == "STANDARD"
-        else (max(1, int(max_ai_images)) if tier_upper == "BEAUTIFIED" else max(12, int(max_ai_images)))
+        else max(1, int(max_ai_images))
     )
     slides: List[Dict[str, Any]] = list(storyboard.get("slides") or [])
     citations_list: List[Dict[str, Any]] = (deep_research_enrichment or {}).get("grounded_citations") or []
@@ -600,17 +600,25 @@ def beautify_slide_storyboard(
                 if loc_summary and loc_summary not in orig_v:
                     slide["verbatim_requirement_text"] = f"{orig_v} ({loc_summary})".strip()
 
-        # Generate Visual Concept Infographics for BEAUTIFIED (Requirement Intro slides) or STUDIO (Intro + text slides without diagrams)
+        # Generate Visual Concept Infographics for BEAUTIFIED (Requirement Intro / Lead slides) or STUDIO (Intro + text slides without diagrams)
         ai_prompt: Optional[str] = None
         ai_path: Optional[str] = None
         has_existing_non_hero_diagram = bool(
             slide.get("diagram_path") and slide.get("diagram_path") != slide.get("ai_hero_image_path")
         )
+        is_req_lead_slide = (
+            arch == "REQUIREMENT_INTRO"
+            or (
+                bool(slide.get("verbatim_requirement_text"))
+                and req_num.upper() not in ("ALL", "OVERVIEW", "SOURCES")
+                and arch in ("CONCEPT_TEXT_SLIDE", "SPLIT_VISUAL_EXPLAINER")
+            )
+        )
         eligible_for_hero = (
-            (arch == "REQUIREMENT_INTRO" and not has_existing_non_hero_diagram)
+            (is_req_lead_slide and not has_existing_non_hero_diagram)
             if tier_upper == "BEAUTIFIED"
             else (
-                arch in ("REQUIREMENT_INTRO", "CONCEPT_TEXT_SLIDE", "HANDS_ON_PRACTICE_STATION")
+                (is_req_lead_slide or arch in ("CONCEPT_TEXT_SLIDE", "HANDS_ON_PRACTICE_STATION"))
                 and not has_existing_non_hero_diagram
             )
         )
@@ -623,7 +631,7 @@ def beautify_slide_storyboard(
         if (
             tier_upper in ("BEAUTIFIED", "STUDIO")
             and eligible_for_hero
-            and (ai_images_count < effective_max_images or (arch == "REQUIREMENT_INTRO" and has_prebundled_nano_hero))
+            and (ai_images_count < effective_max_images or (is_req_lead_slide and has_prebundled_nano_hero))
         ):
             raw_bps = list(slide.get("full_bullet_points") or slide.get("bullet_points") or [])
             bps_summary = ". ".join([str(b) for b in raw_bps[:3]])
@@ -641,6 +649,8 @@ def beautify_slide_storyboard(
                 ai_path = str(ill_res["image_path"])
                 slide["diagram_path"] = ai_path
                 slide["ai_hero_image_path"] = ai_path
+                if arch == "CONCEPT_TEXT_SLIDE":
+                    slide["archetype"] = "SPLIT_VISUAL_EXPLAINER"
                 if ill_res.get("hero_source") == "NANO_BANANA_AI":
                     slide["visual_source_label"] = "🍌 Nano Banana Hero"
                     if not slide.get("visual_caption") or "EDGE Skill Concept Map" in str(slide.get("visual_caption")):
@@ -654,9 +664,9 @@ def beautify_slide_storyboard(
                     if not slide.get("visual_caption"):
                         slide["visual_caption"] = f"EDGE Skill Concept Map — {title}"
                 ai_images_count += 1
-                # When a Requirement Intro slide has a split right-side graphic + top requirement banner,
+                # When a Requirement Intro / Lead slide has a split right-side graphic + top requirement banner,
                 # cap the left-column bullets to 4 so text never overflows or crowds the card boxes.
-                if arch == "REQUIREMENT_INTRO" and len(raw_bps) > 4:
+                if is_req_lead_slide and len(raw_bps) > 4:
                     slide["full_bullet_points"] = raw_bps
                     slide["bullet_points"] = raw_bps[:4]
 

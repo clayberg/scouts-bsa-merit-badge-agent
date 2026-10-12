@@ -1,0 +1,800 @@
+{
+  "badge_name": "Wilderness Survival",
+  "slug": "wilderness-survival",
+  "url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+  "is_eagle_required": false,
+  "pamphlet_pdf_url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wilderness%20Survival.pdf",
+  "intro_notes": [
+    "NOTE: The official merit badge pamphlets are now free and downloadable HERE or can be purchased at the Scout Shop."
+  ],
+  "under_maintenance_on_scouting_org": false,
+  "requirements_source": "scouting.org",
+  "requirements_count": 10,
+  "sub_requirements_total": 13,
+  "requirements": [
+    {
+      "req_id": "1",
+      "req_number": "1",
+      "topic_heading": "Hazards and First Aid",
+      "lead_text": "Hazards and First Aid. Do the following:",
+      "req_text": "Hazards and First Aid. Do the following: (a) Show or explain first aid for, and prevention of, injuries and conditions that could occur in backcountry settings, including: (1) Dehydration (2) Heatstroke (3) Hypothermia (4) Shock (5) Blisters (6) Eye injuries (7) Ankle and knee sprains (8) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (9) Bee stings (10) Bites of spiders (11) Sting of a scorpion (12) Bite of a wild mammal (13) Bite of a venomous snake (b) Explain how the Scout Basic Essentials address hazards of survival situations and are basic to a survival kit. (c) Explain how a trip plan could help prevent a wilderness survival situation.",
+      "sub_requirements": [
+        {
+          "sub_id": "1a",
+          "label": "(a)",
+          "text": "Show or explain first aid for, and prevention of, injuries and conditions that could occur in backcountry settings, including: (1) Dehydration (2) Heatstroke (3) Hypothermia (4) Shock (5) Blisters (6) Eye injuries (7) Ankle and knee sprains (8) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (9) Bee stings (10) Bites of spiders (11) Sting of a scorpion (12) Bite of a wild mammal (13) Bite of a venomous snake",
+          "resources": [],
+          "children": [
+            {
+              "sub_id": "1a(1)",
+              "label": "(1)",
+              "text": "Dehydration",
+              "resources": [
+                {
+                  "title": "Dehydration: Hiking in the Desert (video)",
+                  "url": "https://youtu.be/X-N7fALUncM?si=IduV7YMg2FgPfvHv"
+                },
+                {
+                  "title": "Symptoms, and Treatment of Dehydration (website)",
+                  "url": "https://www.cedars-sinai.org/health-library/diseases-and-conditions/d/dehydration.html"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(2)",
+              "label": "(2)",
+              "text": "Heatstroke",
+              "resources": [
+                {
+                  "title": "Diagnosis and Treatment of Heat Stroke (video)",
+                  "url": "https://youtu.be/PpHM4DfPZQU"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(3)",
+              "label": "(3)",
+              "text": "Hypothermia",
+              "resources": [
+                {
+                  "title": "Recognize the \"Umbles\" and Avoid Hypothermia (video)",
+                  "url": "https://youtu.be/aDAqWLpHXXU"
+                },
+                {
+                  "title": "Hypothermia (video)",
+                  "url": "https://youtu.be/my6JB41apTw"
+                },
+                {
+                  "title": "C.O.L.D. Guidelines for Staying Warm (website)",
+                  "url": "https://www.scouting.org/health-and-safety/safety-moments/winter-activity/"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(4)",
+              "label": "(4)",
+              "text": "Shock",
+              "resources": [
+                {
+                  "title": "Shock (video)",
+                  "url": "https://youtu.be/BLfFYFr7sWY"
+                },
+                {
+                  "title": "Shock and Bleeding (video)",
+                  "url": "https://youtu.be/V4R9GSah93g?si=1QtB6-fDOoselWfZ"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(5)",
+              "label": "(5)",
+              "text": "Blisters",
+              "resources": [
+                {
+                  "title": "How to Prevent and Treat Blisters (website)",
+                  "url": "https://www.aad.org/public/everyday-care/injured-skin/burns/prevent-treat-blisters"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(6)",
+              "label": "(6)",
+              "text": "Eye injuries",
+              "resources": [
+                {
+                  "title": "5 Ways To Safely Remove Something Stuck In Your Eye (video)",
+                  "url": "https://youtu.be/uJFZPFsHcCE?si=Of3K05cQ2-6Fesii"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(7)",
+              "label": "(7)",
+              "text": "Ankle and knee sprains",
+              "resources": [
+                {
+                  "title": "First Aid for Ankle Sprains (video)",
+                  "url": "https://youtu.be/yrvqNh2q6Tc"
+                },
+                {
+                  "title": "Knee Sprains (website)",
+                  "url": "https://my.clevelandclinic.org/health/diseases/knee-sprain"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(8)",
+              "label": "(8)",
+              "text": "Bug bites of chiggers, ticks, mosquitoes, and biting gnats",
+              "resources": [
+                {
+                  "title": "Chiggers 101 (video)",
+                  "url": "https://youtu.be/d6hneOG2RLA"
+                },
+                {
+                  "title": "Preventng and Treating Tick Bites (website)",
+                  "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/remove-a-tick"
+                },
+                {
+                  "title": "Preventing and Treating Mosquito Bites (website)",
+                  "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/prevent-treat-bug-bites"
+                },
+                {
+                  "title": "Biting Gnats (video)",
+                  "url": "https://youtu.be/QazaIwbtZHs?si=Vh6h3kct40JOQtKj"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(9)",
+              "label": "(9)",
+              "text": "Bee stings",
+              "resources": [
+                {
+                  "title": "How to Treat a Bee Sting (video)",
+                  "url": "https://www.youtube.com/watch?v=01Po5RTNfhs"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(10)",
+              "label": "(10)",
+              "text": "Bites of spiders",
+              "resources": [
+                {
+                  "title": "Black Widow and Brown Recluse Spider Bites (video)",
+                  "url": "https://youtu.be/fiV2bYzWH-o"
+                },
+                {
+                  "title": "Black Widow vs. Brown Recluse Spider Bites (video)",
+                  "url": "https://www.youtube.com/watch?v=cfh7XOc_hgc"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(11)",
+              "label": "(11)",
+              "text": "Sting of a scorpion",
+              "resources": [
+                {
+                  "title": "Scorpion Stings—Symptoms and Causes (website)",
+                  "url": "https://www.mayoclinic.org/diseases-conditions/scorpion-stings/symptoms-causes/syc-20353859"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(12)",
+              "label": "(12)",
+              "text": "Bite of a wild mammal",
+              "resources": [
+                {
+                  "title": "Treatment of Animal and Human Bites (video)",
+                  "url": "https://youtu.be/RSJzuk226RI?si=NU3LP-a1tzgH43gf"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "1a(13)",
+              "label": "(13)",
+              "text": "Bite of a venomous snake",
+              "resources": [
+                {
+                  "title": "Venomous Snake Bites (website)",
+                  "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/venomous-snake-bites"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "sub_id": "1b",
+          "label": "(b)",
+          "text": "Explain how the Scout Basic Essentials address hazards of survival situations and are basic to a survival kit.",
+          "resources": [
+            {
+              "title": "The 10 Scout Basic Outdoor Essentials (website)",
+              "url": "https://scoutlife.org/outdoors/outdoorarticles/6976/scout-outdoor-essentials-checklist/"
+            },
+            {
+              "title": "Checklist for a Wilderness Survival Kit (PDF)",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Wilderness%20Survival/Checklist%20for%20a%20Wilderness%20Survival%20Kit.pdf"
+            }
+          ],
+          "children": []
+        },
+        {
+          "sub_id": "1c",
+          "label": "(c)",
+          "text": "Explain how a trip plan could help prevent a wilderness survival situation.",
+          "resources": [
+            {
+              "title": "How to Plan an Adventure | Plan a Camping Trip (video)",
+              "url": "https://youtu.be/79WYqkiExZU?si=sXXRKQGVE-ZNkU1p"
+            },
+            {
+              "title": "Importance of a Float Plan (website)",
+              "url": "https://www.boatsmartexam.com/knowledge-base/article/using-a-trip-plan/"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "resources": [
+        {
+          "title": "Dehydration: Hiking in the Desert (video)",
+          "url": "https://youtu.be/X-N7fALUncM?si=IduV7YMg2FgPfvHv"
+        },
+        {
+          "title": "Symptoms, and Treatment of Dehydration (website)",
+          "url": "https://www.cedars-sinai.org/health-library/diseases-and-conditions/d/dehydration.html"
+        },
+        {
+          "title": "Diagnosis and Treatment of Heat Stroke (video)",
+          "url": "https://youtu.be/PpHM4DfPZQU"
+        },
+        {
+          "title": "Recognize the \"Umbles\" and Avoid Hypothermia (video)",
+          "url": "https://youtu.be/aDAqWLpHXXU"
+        },
+        {
+          "title": "Hypothermia (video)",
+          "url": "https://youtu.be/my6JB41apTw"
+        },
+        {
+          "title": "C.O.L.D. Guidelines for Staying Warm (website)",
+          "url": "https://www.scouting.org/health-and-safety/safety-moments/winter-activity/"
+        },
+        {
+          "title": "Shock (video)",
+          "url": "https://youtu.be/BLfFYFr7sWY"
+        },
+        {
+          "title": "Shock and Bleeding (video)",
+          "url": "https://youtu.be/V4R9GSah93g?si=1QtB6-fDOoselWfZ"
+        },
+        {
+          "title": "How to Prevent and Treat Blisters (website)",
+          "url": "https://www.aad.org/public/everyday-care/injured-skin/burns/prevent-treat-blisters"
+        },
+        {
+          "title": "5 Ways To Safely Remove Something Stuck In Your Eye (video)",
+          "url": "https://youtu.be/uJFZPFsHcCE?si=Of3K05cQ2-6Fesii"
+        },
+        {
+          "title": "First Aid for Ankle Sprains (video)",
+          "url": "https://youtu.be/yrvqNh2q6Tc"
+        },
+        {
+          "title": "Knee Sprains (website)",
+          "url": "https://my.clevelandclinic.org/health/diseases/knee-sprain"
+        },
+        {
+          "title": "Chiggers 101 (video)",
+          "url": "https://youtu.be/d6hneOG2RLA"
+        },
+        {
+          "title": "Preventng and Treating Tick Bites (website)",
+          "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/remove-a-tick"
+        },
+        {
+          "title": "Preventing and Treating Mosquito Bites (website)",
+          "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/prevent-treat-bug-bites"
+        },
+        {
+          "title": "Biting Gnats (video)",
+          "url": "https://youtu.be/QazaIwbtZHs?si=Vh6h3kct40JOQtKj"
+        },
+        {
+          "title": "How to Treat a Bee Sting (video)",
+          "url": "https://www.youtube.com/watch?v=01Po5RTNfhs"
+        },
+        {
+          "title": "Black Widow and Brown Recluse Spider Bites (video)",
+          "url": "https://youtu.be/fiV2bYzWH-o"
+        },
+        {
+          "title": "Black Widow vs. Brown Recluse Spider Bites (video)",
+          "url": "https://www.youtube.com/watch?v=cfh7XOc_hgc"
+        },
+        {
+          "title": "Scorpion Stings—Symptoms and Causes (website)",
+          "url": "https://www.mayoclinic.org/diseases-conditions/scorpion-stings/symptoms-causes/syc-20353859"
+        },
+        {
+          "title": "Treatment of Animal and Human Bites (video)",
+          "url": "https://youtu.be/RSJzuk226RI?si=NU3LP-a1tzgH43gf"
+        },
+        {
+          "title": "Venomous Snake Bites (website)",
+          "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/venomous-snake-bites"
+        },
+        {
+          "title": "The 10 Scout Basic Outdoor Essentials (website)",
+          "url": "https://scoutlife.org/outdoors/outdoorarticles/6976/scout-outdoor-essentials-checklist/"
+        },
+        {
+          "title": "Checklist for a Wilderness Survival Kit (PDF)",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Wilderness%20Survival/Checklist%20for%20a%20Wilderness%20Survival%20Kit.pdf"
+        },
+        {
+          "title": "How to Plan an Adventure | Plan a Camping Trip (video)",
+          "url": "https://youtu.be/79WYqkiExZU?si=sXXRKQGVE-ZNkU1p"
+        },
+        {
+          "title": "Importance of a Float Plan (website)",
+          "url": "https://www.boatsmartexam.com/knowledge-base/article/using-a-trip-plan/"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "2",
+      "req_number": "2",
+      "topic_heading": "Priorities for Survival",
+      "lead_text": "Priorities for Survival. Explain the importance of each of the seven priorities of survival in a wilderness location.",
+      "req_text": "Priorities for Survival. Explain the importance of each of the seven priorities of survival in a wilderness location.",
+      "sub_requirements": [],
+      "resources": [
+        {
+          "title": "Seven Priorities of Survival (video)",
+          "url": "https://youtu.be/eckfD4gfgj0"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "3",
+      "req_number": "3",
+      "topic_heading": "Avoiding Panic",
+      "lead_text": "Avoiding Panic. Describe ways to avoid panic and to maintain a high level of morale when lost, and explain why this is important.",
+      "req_text": "Avoiding Panic. Describe ways to avoid panic and to maintain a high level of morale when lost, and explain why this is important.",
+      "sub_requirements": [],
+      "resources": [
+        {
+          "title": "Lost? Stop Panic & Think Clearly. (video)",
+          "url": "https://youtu.be/_mt0BtDDImU"
+        },
+        {
+          "title": "Box Breathing | The Breathing Exercise Used By Navy SEALs (video)",
+          "url": "https://youtu.be/UC6HUrneIWI"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "4",
+      "req_number": "4",
+      "topic_heading": "First Aid Kits",
+      "lead_text": "First Aid Kits. Put together a personal first aid kit and a personal survival kit. Show how items in the kits are used.",
+      "req_text": "First Aid Kits. Put together a personal first aid kit and a personal survival kit. Show how items in the kits are used.",
+      "sub_requirements": [],
+      "resources": [
+        {
+          "title": "Personal Family Troop First Aid Kit Checklist (PDF)",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Wilderness%20Survival/Personal%20Family%20Troop%20First%20Aid%20Kit%20Checklist.pdf"
+        },
+        {
+          "title": "First Aid Kit Checklists (website)",
+          "url": "https://scoutlife.org/video-audio/4937/first-aid-kit-buying-guide/"
+        },
+        {
+          "title": "Scout Basic Essentials for Wilderness Survival (website)",
+          "url": "https://troopleader.scouting.org/program-features/wilderness-survival/information/"
+        },
+        {
+          "title": "Survival Kit List (PDF)",
+          "url": "https://assets.kalkomey.com/hunter/pdfs/maine-survival-kit.pdf"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "5",
+      "req_number": "5",
+      "topic_heading": "Shelter",
+      "lead_text": "Shelter. Do the following:",
+      "req_text": "Shelter. Do the following: (a) Describe the steps you would take to survive in the following exposure conditions: (1) Cold and snowy (2) Wet (3) Hot and dry (4) Windy (5) At or on the water (b) Show that you know the proper clothing to wear while in the outdoors during extremely hot and cold weather and during wet conditions. (c) Explain how to protect yourself from bears and raccoons. (d) Describe how to build or find survival shelters in a forest or in snow. (e) Improvise a natural shelter. For the purpose of this demonstration, use techniques that have little negative impact on the environment. Spend a night in your shelter.",
+      "sub_requirements": [
+        {
+          "sub_id": "5a",
+          "label": "(a)",
+          "text": "Describe the steps you would take to survive in the following exposure conditions: (1) Cold and snowy (2) Wet (3) Hot and dry (4) Windy (5) At or on the water",
+          "resources": [],
+          "children": [
+            {
+              "sub_id": "5a(1)",
+              "label": "(1)",
+              "text": "Cold and snowy",
+              "resources": [
+                {
+                  "title": "Cold Weather Survival Skills (video)",
+                  "url": "https://youtu.be/EsoobhiExJY"
+                },
+                {
+                  "title": "Winter Survival Skills (website)",
+                  "url": "https://www.wildwoodsurvival.com/survival/winter/index.html"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "5a(2)",
+              "label": "(2)",
+              "text": "Wet",
+              "resources": [
+                {
+                  "title": "Building Fire in the Rain (video)",
+                  "url": "https://youtu.be/MmHkiHeoI3U?si=Q306ujTfQ3V2QHP4"
+                },
+                {
+                  "title": "Staying Warm and Dry in Wind and Rain (video)",
+                  "url": "https://youtu.be/t9NLAIxlWgE?si=prPrtr-kxSBLOsOH"
+                },
+                {
+                  "title": "Camping in the Rain (video)",
+                  "url": "https://www.youtube.com/watch?v=jzTHvpgHqCo"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "5a(3)",
+              "label": "(3)",
+              "text": "Hot and dry",
+              "resources": [
+                {
+                  "title": "10 Desert Survival Tips (video)",
+                  "url": "https://www.youtube.com/watch?v=lIHczx_QlH8"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "5a(4)",
+              "label": "(4)",
+              "text": "Windy",
+              "resources": [
+                {
+                  "title": "Danger of Wind Chill (video)",
+                  "url": "https://youtu.be/f4VC0fNMaQc?si=HyjdNU_CeDcZfjSS"
+                },
+                {
+                  "title": "Wind Chill Safety: 5 Tips to Prevent Frostbite (video)",
+                  "url": "https://youtu.be/Syqj_hZLMlA?si=m-n-6rHoP4fauLIR"
+                }
+              ],
+              "children": []
+            },
+            {
+              "sub_id": "5a(5)",
+              "label": "(5)",
+              "text": "At or on the water",
+              "resources": [
+                {
+                  "title": "What to do if Your Boat Capsizes (website)",
+                  "url": "https://www.boat-ed.com/indiana/studyGuide/Ending-Up-in-the-Water-Unexpectedly/10101602_35417/"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "sub_id": "5b",
+          "label": "(b)",
+          "text": "Show that you know the proper clothing to wear while in the outdoors during extremely hot and cold weather and during wet conditions.",
+          "resources": [
+            {
+              "title": "Packing Lists for Hot and Cold Weather Camping (website)",
+              "url": "https://scoutlife.org/outdoors/outdoorarticles/6976/scout-outdoor-essentials-checklist/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "sub_id": "5c",
+          "label": "(c)",
+          "text": "Explain how to protect yourself from bears and raccoons.",
+          "resources": [
+            {
+              "title": "Preventing and Managing Bear Encounters (video)",
+              "url": "https://youtu.be/SHZ-prhA7E0"
+            },
+            {
+              "title": "Keeping Raccoons Away from your Campsite (video)",
+              "url": "https://youtu.be/SO1Ax9sBU6I"
+            }
+          ],
+          "children": []
+        },
+        {
+          "sub_id": "5d",
+          "label": "(d)",
+          "text": "Describe how to build or find survival shelters in a forest or in snow.",
+          "resources": [
+            {
+              "title": "Tree Well Shelter (video)",
+              "url": "https://youtu.be/mQL4luClk_I"
+            },
+            {
+              "title": "A Quick Shelter under a Tree (video)",
+              "url": "https://www.youtube.com/shorts/x6M8HHRWRTk"
+            }
+          ],
+          "children": []
+        },
+        {
+          "sub_id": "5e",
+          "label": "(e)",
+          "text": "Improvise a natural shelter. For the purpose of this demonstration, use techniques that have little negative impact on the environment. Spend a night in your shelter.",
+          "resources": [
+            {
+              "title": "How to Build a Survival Shelter (video)",
+              "url": "https://youtu.be/wTQqrECMkPE"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "resources": [
+        {
+          "title": "Cold Weather Survival Skills (video)",
+          "url": "https://youtu.be/EsoobhiExJY"
+        },
+        {
+          "title": "Winter Survival Skills (website)",
+          "url": "https://www.wildwoodsurvival.com/survival/winter/index.html"
+        },
+        {
+          "title": "Building Fire in the Rain (video)",
+          "url": "https://youtu.be/MmHkiHeoI3U?si=Q306ujTfQ3V2QHP4"
+        },
+        {
+          "title": "Staying Warm and Dry in Wind and Rain (video)",
+          "url": "https://youtu.be/t9NLAIxlWgE?si=prPrtr-kxSBLOsOH"
+        },
+        {
+          "title": "Camping in the Rain (video)",
+          "url": "https://www.youtube.com/watch?v=jzTHvpgHqCo"
+        },
+        {
+          "title": "10 Desert Survival Tips (video)",
+          "url": "https://www.youtube.com/watch?v=lIHczx_QlH8"
+        },
+        {
+          "title": "Danger of Wind Chill (video)",
+          "url": "https://youtu.be/f4VC0fNMaQc?si=HyjdNU_CeDcZfjSS"
+        },
+        {
+          "title": "Wind Chill Safety: 5 Tips to Prevent Frostbite (video)",
+          "url": "https://youtu.be/Syqj_hZLMlA?si=m-n-6rHoP4fauLIR"
+        },
+        {
+          "title": "What to do if Your Boat Capsizes (website)",
+          "url": "https://www.boat-ed.com/indiana/studyGuide/Ending-Up-in-the-Water-Unexpectedly/10101602_35417/"
+        },
+        {
+          "title": "Packing Lists for Hot and Cold Weather Camping (website)",
+          "url": "https://scoutlife.org/outdoors/outdoorarticles/6976/scout-outdoor-essentials-checklist/"
+        },
+        {
+          "title": "Preventing and Managing Bear Encounters (video)",
+          "url": "https://youtu.be/SHZ-prhA7E0"
+        },
+        {
+          "title": "Keeping Raccoons Away from your Campsite (video)",
+          "url": "https://youtu.be/SO1Ax9sBU6I"
+        },
+        {
+          "title": "Tree Well Shelter (video)",
+          "url": "https://youtu.be/mQL4luClk_I"
+        },
+        {
+          "title": "A Quick Shelter under a Tree (video)",
+          "url": "https://www.youtube.com/shorts/x6M8HHRWRTk"
+        },
+        {
+          "title": "How to Build a Survival Shelter (video)",
+          "url": "https://youtu.be/wTQqrECMkPE"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "6",
+      "req_number": "6",
+      "topic_heading": "Fire Building",
+      "lead_text": "Fire Building. Using three different methods (other than matches), build and light three fires.",
+      "req_text": "Fire Building. Using three different methods (other than matches), build and light three fires.",
+      "sub_requirements": [],
+      "resources": [
+        {
+          "title": "4 Emergency Fire Starters (video)",
+          "url": "https://youtu.be/bPMKS0qzzSQ?si=-tvEhxuOE9N1D_Iz"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "7",
+      "req_number": "7",
+      "topic_heading": "Signaling",
+      "lead_text": "Signaling. Do the following:",
+      "req_text": "Signaling. Do the following: (a) Explain and show how lost or stranded Scouts could send signals to attract the attention of ground, airborne, or water search teams. (b) Demonstrate how to use a signal mirror. (c) Describe from memory five ground-to-air signals and tell what they mean.",
+      "sub_requirements": [
+        {
+          "sub_id": "7a",
+          "label": "(a)",
+          "text": "Explain and show how lost or stranded Scouts could send signals to attract the attention of ground, airborne, or water search teams.",
+          "resources": [
+            {
+              "title": "How To Signal for Ground Rescue (video)",
+              "url": "https://youtu.be/X8j5NC7Bqq4"
+            },
+            {
+              "title": "Master the Art of Wilderness Rescue Signals (video)",
+              "url": "https://youtu.be/KTl1mdJ59sc"
+            },
+            {
+              "title": "Distress Signals for Water Emergencies (video)",
+              "url": "https://youtu.be/0Y4pG_mN7Ek"
+            }
+          ],
+          "children": []
+        },
+        {
+          "sub_id": "7b",
+          "label": "(b)",
+          "text": "Demonstrate how to use a signal mirror.",
+          "resources": [
+            {
+              "title": "How to Use a Signal Mirror (video)",
+              "url": "https://www.youtube.com/shorts/kYN46GuZmpE"
+            }
+          ],
+          "children": []
+        },
+        {
+          "sub_id": "7c",
+          "label": "(c)",
+          "text": "Describe from memory five ground-to-air signals and tell what they mean.",
+          "resources": [],
+          "children": []
+        }
+      ],
+      "resources": [
+        {
+          "title": "How To Signal for Ground Rescue (video)",
+          "url": "https://youtu.be/X8j5NC7Bqq4"
+        },
+        {
+          "title": "Master the Art of Wilderness Rescue Signals (video)",
+          "url": "https://youtu.be/KTl1mdJ59sc"
+        },
+        {
+          "title": "Distress Signals for Water Emergencies (video)",
+          "url": "https://youtu.be/0Y4pG_mN7Ek"
+        },
+        {
+          "title": "How to Use a Signal Mirror (video)",
+          "url": "https://www.youtube.com/shorts/kYN46GuZmpE"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "8",
+      "req_number": "8",
+      "topic_heading": "Water",
+      "lead_text": "Water. Demonstrate three ways to treat water found in the outdoors to prepare it for drinking.",
+      "req_text": "Water. Demonstrate three ways to treat water found in the outdoors to prepare it for drinking.",
+      "sub_requirements": [],
+      "resources": [
+        {
+          "title": "Purifying Water (video)",
+          "url": "https://youtu.be/tD-Ya2SQk3k"
+        },
+        {
+          "title": "Melting Snow for Water (website)",
+          "url": "https://scoutlife.org/outdoors/scout-essentials/183133/how-to-safely-melt-snow-to-use-as-drinking-water-on-a-camping-trip/"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "9",
+      "req_number": "9",
+      "topic_heading": "Food",
+      "lead_text": "Food. Explain why it usually is not wise to eat wild plants or wildlife in a wilderness survival situation.",
+      "req_text": "Food. Explain why it usually is not wise to eat wild plants or wildlife in a wilderness survival situation.",
+      "sub_requirements": [],
+      "resources": [],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    },
+    {
+      "req_id": "10",
+      "req_number": "10",
+      "topic_heading": "Careers",
+      "lead_text": "Careers. Do ONE of the following:",
+      "req_text": "Careers. Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from the Wilderness Survival merit badge to pursue a hobby or to serve as volunteer. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue this.",
+      "sub_requirements": [
+        {
+          "sub_id": "10a",
+          "label": "(a)",
+          "text": "Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
+          "resources": [
+            {
+              "title": "Wilderness Jobs (website)",
+              "url": "https://wildlandtrekking.com/blog/wilderness-jobs-and-how-to-get-them/"
+            },
+            {
+              "title": "Unusual Careers in the Wilderness (video)",
+              "url": "https://www.youtube.com/shorts/dgSaYZ8xhRw"
+            }
+          ],
+          "children": []
+        },
+        {
+          "sub_id": "10b",
+          "label": "(b)",
+          "text": "Explore how you could use knowledge and skills from the Wilderness Survival merit badge to pursue a hobby or to serve as volunteer. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue this.",
+          "resources": [
+            {
+              "title": "Ultralight Backpacking (website)",
+              "url": "https://scoutingmagazine.org/2016/08/shed-pounds-pack-using-ultralight-backpacking-strategies/"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "resources": [
+        {
+          "title": "Wilderness Jobs (website)",
+          "url": "https://wildlandtrekking.com/blog/wilderness-jobs-and-how-to-get-them/"
+        },
+        {
+          "title": "Unusual Careers in the Wilderness (video)",
+          "url": "https://www.youtube.com/shorts/dgSaYZ8xhRw"
+        },
+        {
+          "title": "Ultralight Backpacking (website)",
+          "url": "https://scoutingmagazine.org/2016/08/shed-pounds-pack-using-ultralight-backpacking-strategies/"
+        }
+      ],
+      "source_url": "https://www.scouting.org/merit-badges/wilderness-survival/"
+    }
+  ]
+}

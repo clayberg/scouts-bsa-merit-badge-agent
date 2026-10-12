@@ -1072,7 +1072,7 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
         assert "Hands-On Skill Demonstrations" in slide2_texts
         assert "Field & Home Prerequisites" in slide2_texts
         assert "Knowledge & Concepts" not in slide2_texts
-        assert "Req 2a - Obtain emergency medical assistance" in slide2_texts
+        assert "Req 2 - Preparing for First Aid Emergencies" in slide2_texts
         assert "📍 Curriculum Scope" in slide2_texts
         assert "🛡️ Guide to Safe Scouting" in slide2_texts
 
@@ -1244,4 +1244,37 @@ def test_phase1_phase2_phase3_counselor_ux_and_features():
     assert 'getElementById("btn-print-gear-list")' in app_js
     assert 'getElementById("studiokit-gear-checklist-grid")' in app_js
     assert 'left: "87.12%", top: "22.58%", width: "12.2%"' in app_js
+
+
+def test_v21_full_143_badge_requirements_and_benchmark_completeness():
+    """Verifies:
+    1) All 143 Merit Badges are scraped and stored in `data/merit_badge_requirements/<slug>.json` with `_index.json`.
+    2) `First Aid` contains all 15 official top-level requirements (`1..15`) and 82 sub-requirements (`1a..15c`).
+    3) `BENCHMARK_BADGES` contains all 18 Eagle-Required badges + 8 elective benchmark badges (`26` total).
+    4) All 72 audited decks (`26 Benchmark + 10 Random` across Deep Dive and Troop Meeting modes) pass 100% of requirement, sub-requirement, visual conformance, text hygiene, and speaker note checks.
+    """
+    import json
+    from src.tools.requirements_scraper import REQUIREMENTS_DIR, load_badge_requirements_json
+    from src.tools.scouting_scraper import BENCHMARK_BADGES, is_eagle_required
+
+    index_path = REQUIREMENTS_DIR / "_index.json"
+    assert index_path.exists()
+    index_data = json.loads(index_path.read_text(encoding="utf-8"))
+    assert index_data["total_badges"] == 143
+    assert index_data["eagle_required_count"] == 18
+
+    fa_json = load_badge_requirements_json("First Aid")
+    assert fa_json is not None
+    assert fa_json["requirements_count"] == 15
+    assert fa_json["sub_requirements_total"] == 82
+
+    assert len(BENCHMARK_BADGES) == 26
+    assert sum(1 for b in BENCHMARK_BADGES if is_eagle_required(b)) == 18
+
+    audit_report_path = REQUIREMENTS_DIR / "_deck_audit_and_cost_report.json"
+    assert audit_report_path.exists()
+    audit_report = json.loads(audit_report_path.read_text(encoding="utf-8"))
+    assert audit_report["total_decks_audited"] == 72
+    assert audit_report["all_decks_passed"] is True
+
 

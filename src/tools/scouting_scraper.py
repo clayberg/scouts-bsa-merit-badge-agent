@@ -28,34 +28,70 @@ except ImportError:  # pragma: no cover
 # ==============================================================================
 
 ALL_OFFICIAL_MERIT_BADGES: List[str] = [
-    "American Business", "American Cultures", "American Heritage", "American Labor",
-    "Animal Science", "Animation", "Archaeology", "Archery", "Architecture", "Art",
+    "Action Sports", "American Business", "American Cultures", "American Heritage",
+    "American Indian Culture", "American Labor", "Animal Science", "Animation",
+    "Archaeology", "Archery", "Architecture", "Art", "Artificial Intelligence",
     "Astronomy", "Athletics", "Automotive Maintenance", "Aviation", "Backpacking",
     "Basketry", "Bird Study", "Bugling", "Camping", "Canoeing", "Chemistry", "Chess",
     "Citizenship in Society", "Citizenship in the Community", "Citizenship in the Nation",
     "Citizenship in the World", "Climbing", "Coin Collecting", "Collections",
-    "Communication", "Composite Materials", "Cooking", "Crime Prevention", "Cycling",
-    "Dentistry", "Digital Technology", "Disabilities Awareness", "Dog Care", "Drafting",
-    "Electricity", "Electronics", "Emergency Preparedness", "Energy", "Engineering",
-    "Entrepreneurship", "Environmental Science", "Exploration", "Family Life",
-    "Farm Mechanics", "Fingerprinting", "Fire Safety", "First Aid", "Fish and Wildlife Management",
+    "Communication", "Composite Materials", "Cooking", "Crime Prevention",
+    "Cybersecurity", "Cycling", "Dentistry", "Digital Technology",
+    "Disabilities Awareness", "Dog Care", "Drafting", "Electricity", "Electronics",
+    "Emergency Preparedness", "Energy", "Engineering", "Entrepreneurship",
+    "Environmental Science", "Exploration", "Family Life", "Farm Mechanics",
+    "Fingerprinting", "Fire Safety", "First Aid", "Fish and Wildlife Management",
     "Fishing", "Fly-Fishing", "Forestry", "Game Design", "Gardening", "Genealogy",
     "Geocaching", "Geology", "Golf", "Graphic Arts", "Health Care Professions", "Hiking",
     "Home Repairs", "Horsemanship", "Indian Lore", "Insect Study", "Inventing",
     "Journalism", "Kayaking", "Landscape Architecture", "Law", "Leatherwork",
-    "Lifesaving", "Mammal Study", "Metalwork", "Mining in Society", "Model Design and Building",
-    "Motorboating", "Moviemaking", "Music", "Nature", "Nuclear Science", "Oceanography",
-    "Orienteering", "Painting", "Personal Fitness", "Personal Management", "Pets",
-    "Photography", "Pioneering", "Plant Science", "Plumbing", "Pottery", "Programming",
-    "Public Health", "Public Speaking", "Pulp and Paper", "Radio", "Railroading",
-    "Reading", "Recreation", "Reptile and Amphibian Study", "Rifle Shooting", "Robotics",
-    "Rowing", "Safety", "Salesmanship", "Scholarship", "Scouting Heritage", "Scuba Diving",
-    "Sculpture", "Search and Rescue", "Shotgun Shooting", "Signs, Signals, and Codes",
-    "Skating", "Small-Boat Sailing", "Snow Sports", "Soil and Water Conservation",
-    "Space Exploration", "Sports", "Stamp Collecting", "Surveying", "Sustainability",
-    "Swimming", "Textile", "Theater", "Traffic Safety", "Truck Transportation",
-    "Veterinary Medicine", "Water Sports", "Weather", "Welding", "Whitewater",
-    "Wilderness Survival", "Wood Carving", "Woodwork",
+    "Lifesaving", "Mammal Study", "Metalwork", "Mining in Society",
+    "Model Design and Building", "Motorboating", "Moviemaking", "Multisport", "Music",
+    "Nature", "Nuclear Science", "Oceanography", "Orienteering", "Painting",
+    "Personal Fitness", "Personal Management", "Pets", "Photography", "Pioneering",
+    "Plant Science", "Plumbing", "Pottery", "Programming", "Public Health",
+    "Public Speaking", "Pulp and Paper", "Radio", "Railroading", "Reading",
+    "Recreation", "Reptile and Amphibian Study", "Rifle Shooting", "Robotics",
+    "Rowing", "Safety", "Salesmanship", "Scholarship", "Scouting Heritage",
+    "Scuba Diving", "Sculpture", "Search and Rescue", "Shotgun Shooting",
+    "Signs, Signals, and Codes", "Skating", "Small-Boat Sailing", "Snow Sports",
+    "Soil and Water Conservation", "Space Exploration", "Sports", "Stamp Collecting",
+    "Surveying", "Sustainability", "Swimming", "Textile", "Theater", "Traffic Safety",
+    "Truck Transportation", "Veterinary Medicine", "Water Sports", "Weather", "Welding",
+    "Whitewater", "Wilderness Survival", "Wildland Fire Management", "Wood Carving",
+    "Woodwork",
+]
+
+# Full 26-Badge Benchmark Suite: All 18 Eagle-Required Merit Badges + 8 Core Elective Benchmarks
+BENCHMARK_BADGES: List[str] = [
+    # 18 Eagle-Required Merit Badges
+    "Camping",
+    "Citizenship in Society",
+    "Citizenship in the Community",
+    "Citizenship in the Nation",
+    "Citizenship in the World",
+    "Communication",
+    "Cooking",
+    "Cycling",
+    "Emergency Preparedness",
+    "Environmental Science",
+    "Family Life",
+    "First Aid",
+    "Hiking",
+    "Lifesaving",
+    "Personal Fitness",
+    "Personal Management",
+    "Sustainability",
+    "Swimming",
+    # 8 Elective Benchmark Merit Badges
+    "Archery",
+    "Astronomy",
+    "Canoeing",
+    "Kayaking",
+    "Robotics",
+    "Weather",
+    "Welding",
+    "Wilderness Survival",
 ]
 
 
@@ -156,6 +192,10 @@ class RequirementPoint(BaseModel):
         default_factory=list,
         description="Ordered list of multi-slide instructional breakdowns for this requirement."
     )
+    sub_requirements: List[Dict[str, Any]] = Field(
+        default_factory=list,
+        description="Structured sub-requirements (e.g., 1a, 1b, 2a) from official BSA requirements."
+    )
 
 
 class MeritBadgeResearchResult(BaseModel):
@@ -185,6 +225,43 @@ from src.schemas import build_guided_tool_error  # noqa: E402
 # Modeled after bsa344.com, scoutmasterbucky.com, and official BSA Pamphlets
 # ==============================================================================
 
+_OFFICIAL_REQS_CACHE: Optional[Dict[str, List[Dict[str, Any]]]] = None
+
+
+def _load_official_requirements_cache() -> Dict[str, List[Dict[str, Any]]]:
+    """Loads the structured per-badge official requirements from `data/merit_badge_requirements/<slug>.json`
+    (with fallback to `data/official_requirements_cache.json`).
+    """
+    global _OFFICIAL_REQS_CACHE
+    if _OFFICIAL_REQS_CACHE is not None:
+        return _OFFICIAL_REQS_CACHE
+    import json
+    merged: Dict[str, List[Dict[str, Any]]] = {}
+    cache_path = Path(__file__).resolve().parents[2] / "data" / "official_requirements_cache.json"
+    if cache_path.exists():
+        try:
+            merged.update(json.loads(cache_path.read_text(encoding="utf-8")))
+        except Exception:
+            pass
+    per_badge_dir = Path(__file__).resolve().parents[2] / "data" / "merit_badge_requirements"
+    if per_badge_dir.exists():
+        for jf in sorted(per_badge_dir.glob("*.json")):
+            if jf.name.startswith("_"):
+                continue
+            try:
+                payload = json.loads(jf.read_text(encoding="utf-8"))
+                b_name = payload.get("badge_name")
+                b_reqs = payload.get("requirements")
+                if b_name and isinstance(b_reqs, list) and b_reqs:
+                    merged[str(b_name)] = b_reqs
+            except Exception:
+                pass
+    if "American Indian Culture" in merged and "Indian Lore" not in merged:
+        merged["Indian Lore"] = merged["American Indian Culture"]
+    _OFFICIAL_REQS_CACHE = merged
+    return _OFFICIAL_REQS_CACHE
+
+
 BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
     "First Aid": {
         "is_eagle_required": True,
@@ -201,6 +278,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Explain & Guide",
                 "recommended_archetype": "DECISION_TREE_FLOW",
                 "visual_diagram_type": "triage_decision_tree",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_triage_scene_visual.png",
                 "pamphlet_excerpts": [
                     "Scene Size-Up First: Check for downed power lines, traffic, fire, falling rock, or aggressive animals before approaching any victim.",
                     "Primary Assessment ABCs: Verify Airway patency, Breathing adequacy, and Circulation/life-threatening hemorrhage within 15 seconds.",
@@ -224,6 +302,62 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "correct_answer": "Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
                     "explanation": "Per the BSA First Aid Pamphlet, rescuers must never become a second victim; scene safety always precedes patient contact.",
                 },
+                "topic_slides": [
+                    {
+                        "title": "Scene Size-Up & Universal Precautions",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_triage_scene_visual.png",
+                        "caption": "Wilderness Scene Size-Up: Two Scouts wearing nitrile PPE gloves assess scene safety and check airway/breathing while holding a first-aid kit and satellite SOS communicator.",
+                        "bullets": [
+                            "360-Degree Hazard Scan: Survey the scene for falling rock, fire, downed wires, deep water, or traffic before stepping forward.",
+                            "BSI / PPE Barrier Protection: Put on non-latex nitrile exam gloves and eye protection before touching blood or bodily fluids.",
+                            "Mechanism of Injury (MOI): Determine whether a fall from height or high-impact collision requires cervical spine immobilization.",
+                            "Number of Patients: Count all injured persons quickly so you can brief 911 dispatch and organize patrol triage.",
+                        ],
+                    },
+                    {
+                        "title": "Four-Step Primary Triage Sequence",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/first_aid_req_1_nano_hero.png",
+                        "caption": "Primary Assessment Sequence: Scene safety -> Responsiveness & ABC check -> 911/AED activation -> Priority triage.",
+                        "bullets": [
+                            "Scan Hazard Zone: Survey 360 degrees for environmental dangers before stepping into the accident scene.",
+                            "Check Responsiveness: Tap the victim's shoulder firmly and shout 'Are you OK?' while scanning chest rise.",
+                            "Activate 911 & AED: Point to a specific Scout to call 911 with GPS coordinates and retrieve the AED.",
+                            "Triage Priority Victims: Treat Immediate (Red) airway/bleeding threats before Delayed (Yellow) or Minor (Green) injuries.",
+                        ],
+                    },
+                    {
+                        "title": "Tenderfoot to First Class Rank Mastery",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Tenderfoot First Aid: Treat minor cuts, scratches, blisters, venomous snakebite, nosebleeds, frostbite, sunburn, and choking.",
+                            "Second Class First Aid: Manage object in eye, puncture wounds, heat exhaustion, shock, dehydration, hyperventilation, and 2nd-degree burns.",
+                            "First Class First Aid: Demonstrate CPR, bandage sprained ankles and collarbone fractures, transport victims, and recognize heart attack and stroke.",
+                            "Patrol Readiness Standard: Every First Aid Merit Badge candidate must demonstrate fluent recall of rank skills before advancing.",
+                        ],
+                    },
+                    {
+                        "title": "Patrol Scenario: Rockfall Triage Decision",
+                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
+                        "quiz_item": {
+                            "scenario_prompt": "Your patrol finds a hiker unconscious at the base of a wet cliff with loose rocks still falling. What is your FIRST action?",
+                            "options": [
+                                "Rush in immediately to check for a carotid pulse and start CPR",
+                                "Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
+                                "Give the hiker water and elevate their legs 12 inches",
+                                "Move the hiker onto a sleeping pad without stabilizing the neck",
+                            ],
+                            "correct_answer": "Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
+                            "explanation": "Per the BSA First Aid Pamphlet, rescuers must never become a second victim; scene safety always precedes patient contact.",
+                        },
+                        "bullets": [
+                            "Your patrol finds a hiker unconscious at the base of a wet cliff with loose rocks still falling. What is your FIRST action?",
+                            "Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
+                            "Per the BSA First Aid Pamphlet, rescuers must never become a second victim; scene safety always precedes patient contact.",
+                        ],
+                    },
+                ],
                 "counselor_signoff_criteria": "Scout must bring signed Scoutbook rank verification for Tenderfoot/Second/First Class first aid and walk through the 4-tier triage decision tree.",
             },
             {
@@ -237,6 +371,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Explain",
                 "recommended_archetype": "WORKED_EXAMPLE_TEMPLATE",
                 "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_req_2a_nano_hero.png",
                 "pamphlet_excerpts": [
                     "Part A Informed Consent: Covers talent release, emergency medical authorization, and parent/guardian contact numbers for all Scouting events.",
                     "Part B General Health History: Documents allergies (food, insect stings, medications), tetanus date, and non-prescription medication permissions.",
@@ -254,6 +389,51 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     },
                     "counselor_tip": "Have every Scout write down the exact address and cross-streets of their home and troop meeting place before class.",
                 },
+                "topic_slides": [
+                    {
+                        "title": "Home vs. Wilderness Emergency Dispatch",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_req_2a_nano_hero.png",
+                        "caption": "Wilderness Emergency Communications: Using GPS coordinates, trail maps, and satellite SOS/radio dispatch when cellular service is unavailable.",
+                        "bullets": [
+                            "Home & Urban 911 Call: Provide exact street address, cross-streets, callback number, nature of injury, and unlock the front door.",
+                            "Wilderness SAR Activation: Use a satellite communicator (inReach/SPOT), VHF radio, or send a 2-buddy runner team to the nearest trailhead.",
+                            "Stay on the Line: Never hang up until the 911 dispatcher confirms all location and clinical details.",
+                            "Trailhead Guide Runner: Station a visible Scout at the road or trailhead junction to flag down arriving EMS units.",
+                        ],
+                    },
+                    {
+                        "title": "BSA Annual Health & Medical Record (Parts A-C)",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Part A (Informed Consent): Authorizes emergency medical treatment and lists parent/guardian emergency phone numbers for all Scouting events.",
+                            "Part B (Health History): Records life-threatening allergies, EpiPen/inhaler use, immunizations, and approved over-the-counter medications.",
+                            "Part C (Physical Exam): Completed and signed by a licensed physician/NP/PA for resident camps and treks lasting 72 hours or more.",
+                            "Leader Confidentiality: Adult leaders carry waterproof copies in the troop first-aid kit and protect private health data.",
+                        ],
+                    },
+                    {
+                        "title": "Worked Example: Backcountry 911 Dispatch Script",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "Backcountry 911 / SAR Emergency Dispatch Script",
+                            "artifact_type": "ACTION_PLAN",
+                            "fields": {
+                                "Location & Coordinates": "Philmont Trail Camp Beaubien, UTM 13S 496120E 4031850N, Nearest Road: HWY 21",
+                                "Patient Profile": "14-year-old male Scout, conscious, known severe bee-sting allergy on AHMR Part B",
+                                "Chief Complaint & Vitals": "Anaphylactic reaction after yellowjacket sting; HR 118, RR 24, wheezing",
+                                "Treatment Rendered": "EpiPen 0.3mg auto-injector administered in outer right thigh at 14:12; monitoring airway",
+                            },
+                            "counselor_tip": "Have every Scout write down the exact address and cross-streets of their home and troop meeting place before class.",
+                        },
+                        "bullets": [
+                            "Location & Coordinates: Philmont Trail Camp Beaubien, UTM 13S 496120E 4031850N, Nearest Road: HWY 21",
+                            "Patient Profile: 14-year-old male Scout, conscious, known severe bee-sting allergy on AHMR Part B",
+                            "Chief Complaint & Vitals: Anaphylactic reaction after yellowjacket sting; HR 118, RR 24, wheezing",
+                            "Treatment Rendered: EpiPen 0.3mg auto-injector administered in outer right thigh at 14:12; monitoring airway",
+                        ],
+                    },
+                ],
                 "counselor_signoff_criteria": "Scout explains Parts A/B/C of the BSA AHMR and demonstrates a complete wilderness 911 dispatch report.",
             },
             {
@@ -267,6 +447,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Demonstrate & Guide",
                 "recommended_archetype": "GEAR_CHECKLIST_GRID",
                 "visual_diagram_type": "first_aid_kit_grid",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_kit_21_items_visual.png",
                 "pamphlet_excerpts": [
                     "Personal Kit Portability: Pack personal hike items in a waterproof resealable bag stored in an exterior backpack pocket for instant access.",
                     "Barrier Protection Essentials: Always carry 2 pairs of non-latex nitrile exam gloves and a CPR breathing barrier mask.",
@@ -274,18 +455,47 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Troop Kit Scaling: Troop kits add SAM malleable splints, commercial windlass tourniquets, triangular cravat bandages, and elastic wraps.",
                 ],
                 "gear_checklist": [
-                    "Adhesive bandages (6 assorted sizes)",
-                    "Sterile gauze pads (2 three-by-three-inch pads)",
-                    "Adhesive medical tape (1 small roll)",
-                    "Moleskin blister dressings (3x6-inch sheet)",
-                    "Soap or alcohol-based hand sanitizer (small travel bottle)",
-                    "Triple antibiotic or wound gel packets (4 single-use)",
-                    "Scissors and fine-point splinter tweezers",
-                    "Non-latex nitrile exam gloves (2 pairs)",
-                    "CPR mouth-barrier resuscitation mask (1 pocket shield)",
-                    "Pencil and waterproof SOAP note triage card",
-                    "Elastic roller bandage (1 three-inch ACE wrap)",
-                    "Triangular cravat bandages (2 forty-inch cotton slings)",
+                    "Sterile Dressings: Adhesive bandages (6 assorted sizes) & 2 sterile 3x3-inch gauze pads",
+                    "Tape & Blister Care: Adhesive medical tape (1 roll) & moleskin blister dressings (3x6-inch)",
+                    "Barrier Protection: Non-latex nitrile exam gloves (2 pairs) & CPR pocket breathing barrier",
+                    "Antiseptic & Instruments: Soap/hand sanitizer, antibiotic gel packets, scissors, tweezers & SOAP card",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "Personal vs. Troop First-Aid Kit Layout",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_kit_21_items_visual.png",
+                        "caption": "Flat-Lay Inspection of Personal & Troop First-Aid Supplies: Waterproof red case containing sterile gauze, roller bandages, moleskin, trauma shears, tweezers, nitrile gloves, CPR mask, SAM splint, and triangular cravats.",
+                        "bullets": [
+                            "Visual Inventory: Every Scout carries a compact personal hike kit for blisters, minor cuts, and PPE, while the patrol carries the comprehensive 21-item Troop First-Aid Kit.",
+                        ],
+                    },
+                    {
+                        "title": "Personal Hike Kit Inspection Checklist",
+                        "layout": "GEAR_CHECKLIST_GRID",
+                        "gear_checklist": [
+                            "Sterile Dressings: Adhesive bandages (6 assorted sizes) & 2 sterile 3x3-inch gauze pads",
+                            "Tape & Blister Care: Adhesive medical tape (1 roll) & moleskin blister dressings (3x6-inch)",
+                            "Barrier Protection: Non-latex nitrile exam gloves (2 pairs) & CPR pocket breathing barrier",
+                            "Antiseptic & Instruments: Soap/hand sanitizer, antibiotic gel packets, scissors, tweezers & SOAP card",
+                        ],
+                        "bullets": [
+                            "Sterile Dressings: Adhesive bandages (6 assorted sizes) & 2 sterile 3x3-inch gauze pads",
+                            "Tape & Blister Care: Adhesive medical tape (1 roll) & moleskin blister dressings (3x6-inch)",
+                            "Barrier Protection: Non-latex nitrile exam gloves (2 pairs) & CPR pocket breathing barrier",
+                            "Antiseptic & Instruments: Soap/hand sanitizer, antibiotic gel packets, scissors, tweezers & SOAP card",
+                        ],
+                    },
+                    {
+                        "title": "Troop First-Aid Kit: 21 Essential Items",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Wound & Burn Dressings: Roller bandages (2-inch and 3-inch), 4x4 sterile gauze pads, non-adherent burn pads, and triangular cravats.",
+                            "Immobilization & Hemorrhage: Malleable foam-wire SAM splint, elastic ACE wraps, and a commercial CoTCCC windlass tourniquet.",
+                            "Diagnostic & Tools: Trauma shears, splinter forceps, digital oral thermometer, penlight, and biohazard waste bags.",
+                            "Pre-Trek Shakedown: Replace torn sterile pouches, expired antiseptic wipes, and depleted tape rolls before every campout.",
+                        ],
+                    },
                 ],
                 "counselor_signoff_criteria": "Scout presents their physical personal first-aid kit for inspection and identifies the purpose of every item.",
             },
@@ -299,6 +509,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Demonstrate & Guide",
                 "recommended_archetype": "STEP_BY_STEP_PROCEDURE_4CARD",
                 "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_tourniquet_shock_visual.png",
                 "pamphlet_excerpts": [
                     "Arterial Bleeding Recognition: Bright red spurting blood or rapid pooling requires immediate high-force direct pressure.",
                     "Windlass Tourniquet Placement: Place commercial CoTCCC tourniquet 2 to 3 inches proximal to the wound, never directly over a joint.",
@@ -310,6 +521,39 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Position Windlass Tourniquet: Strap tourniquet 2 inches above the limb wound (never over knee or elbow joint) and pull tight.",
                     "Twist Windlass Rod: Rotate the windlass rod until bright red bleeding stops completely and distal pulse disappears.",
                     "Lock & Treat Shock: Secure the rod in the clip, record application time ('TK 14:20'), lay patient flat, and insulate with blankets.",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "Direct Pressure, Windlass Tourniquet & Shock Care",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_tourniquet_shock_visual.png",
+                        "caption": "Hemorrhage Control & Shock Protocol: Firm gloved direct pressure with sterile gauze, commercial windlass tourniquet placed 2 inches above a limb wound, and supine patient insulated on a foam pad.",
+                        "bullets": [
+                            "Three-Stage Life-Saving Sequence: Apply high-force direct pressure first; apply a windlass tourniquet 2 inches above uncontrollable extremity bleeding; treat every trauma patient for shock.",
+                        ],
+                    },
+                    {
+                        "title": "Four-Step Hemorrhage & Tourniquet Protocol",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/first_aid_req_3_nano_hero.png",
+                        "caption": "Step-by-Step Hemorrhage Control: Direct pressure -> High & tight strap -> Windlass twist -> Lock & shock insulation.",
+                        "bullets": [
+                            "Apply Direct Pressure: Press firmly with gloved hands and sterile gauze pad directly over the bleeding source for 5 full minutes.",
+                            "Position Windlass Tourniquet: Strap tourniquet 2 inches above the limb wound (never over knee or elbow joint) and pull tight.",
+                            "Twist Windlass Rod: Rotate the windlass rod until bright red bleeding stops completely and distal pulse disappears.",
+                            "Lock & Treat Shock: Secure the rod in the clip, record application time ('TK 14:20'), lay patient flat, and insulate with blankets.",
+                        ],
+                    },
+                    {
+                        "title": "Recognizing & Treating Hypovolemic Shock",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "What Is Shock: Circulatory failure where blood pressure drops too low to deliver oxygen to the brain, heart, and vital organs.",
+                            "Early Clinical Signs: Restlessness, anxiety, pale/cool/clammy skin, rapid weak pulse, and rapid shallow breathing.",
+                            "Late Danger Signs: Extreme thirst, nausea, dull staring eyes, confusion, and progressive loss of consciousness.",
+                            "Field Treatment Rules: Call 911, control external bleeding, lay patient flat on a pad, cover with blankets, and give nothing by mouth.",
+                        ],
+                    },
                 ],
                 "counselor_signoff_criteria": "Scout physically demonstrates direct pressure dressing and windlass tourniquet application on a simulated limb.",
             },
@@ -324,6 +568,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Demonstrate, Guide & Enable",
                 "recommended_archetype": "HANDS_ON_PRACTICE_STATION",
                 "visual_diagram_type": "cpr_aed_cycle",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_cpr_aed_visual.png",
                 "pamphlet_excerpts": [
                     "Compression Depth & Rate: Push hard and fast in the center of the lower sternum at 2.0 to 2.4 inches depth and 100 to 120 BPM.",
                     "Full Chest Recoil: Allow the chest wall to recoil completely after each compression so the heart refills with blood.",
@@ -335,6 +580,39 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Deliver 30 Compressions: Lock elbows over center of sternum, compressing 2 inches deep at 100 to 120 beats per minute.",
                     "Give 2 Rescue Breaths: Perform head-tilt/chin-lift, seal pocket mask, and deliver 2 breaths watching for visible chest rise.",
                     "Attach AED & Follow Prompts: Bare and dry chest, place upper-right and lower-left pads, clear victim, and resume CPR immediately after shock.",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "High-Quality 30:2 CPR & Anterolateral AED Placement",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_cpr_aed_visual.png",
+                        "caption": "CPR & AED Skill Station: Rescuer with locked straight elbows compressing the center of a CPR manikin's sternum beside an open AED with pads placed on the upper-right chest and lower-left ribs.",
+                        "bullets": [
+                            "Chain of Survival Execution: Combine immediate 100-120 BPM chest compressions (2.0-2.4 inches deep) with rapid AED defibrillation.",
+                        ],
+                    },
+                    {
+                        "title": "Four-Step CPR & AED Rescue Sequence",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/first_aid_req_4a_nano_hero.png",
+                        "caption": "30:2 CPR & AED Sequence: Check responsiveness -> 30 chest compressions -> 2 barrier breaths -> AED analysis & shock.",
+                        "bullets": [
+                            "Verify Unresponsiveness: Tap shoulder, check for normal breathing for 5 to 10 seconds, and dispatch 911 plus AED.",
+                            "Deliver 30 Compressions: Lock elbows over center of sternum, compressing 2 inches deep at 100 to 120 beats per minute.",
+                            "Give 2 Rescue Breaths: Perform head-tilt/chin-lift, seal pocket mask, and deliver 2 breaths watching for visible chest rise.",
+                            "Attach AED & Follow Prompts: Bare and dry chest, place upper-right and lower-left pads, clear victim, and resume CPR immediately after shock.",
+                        ],
+                    },
+                    {
+                        "title": "Heart Attack Warning Signs & AED Safety Rules",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Heart Attack Signals: Persistent squeezing chest pressure, pain radiating to left arm/jaw/back, shortness of breath, cold sweat, and nausea.",
+                            "Dry & Bare Chest: Wipe sweat or water off the chest and remove medication patches before sticking AED pads to skin.",
+                            "Visual & Verbal 'Clear!': Shout 'Everybody clear!' and verify nobody is touching the patient during AED rhythm analysis or shock delivery.",
+                            "Minimize Interruptions: Resume chest compressions within 10 seconds after any shock or 'no shock advised' voice prompt.",
+                        ],
+                    },
                 ],
                 "counselor_signoff_criteria": "Scout completes at least 2 full cycles of 30:2 CPR and attaches AED training pads accurately on a CPR manikin.",
             },
@@ -349,6 +627,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Demonstrate & Guide",
                 "recommended_archetype": "STEP_BY_STEP_PROCEDURE_4CARD",
                 "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_choking_5and5_visual.png",
                 "pamphlet_excerpts": [
                     "Universal Choking Sign: Clutching the throat with inability to speak, cough forcefully, or breathe signals complete airway obstruction.",
                     "Five Back Blows: Bend the victim forward at the waist and deliver 5 firm blows between the shoulder blades with the heel of your hand.",
@@ -360,6 +639,39 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Deliver 5 Back Blows: Support chest with one hand, lean victim forward, and strike firmly 5 times between shoulder blades.",
                     "Perform 5 Abdominal Thrusts: Stand behind victim, place fist thumb-side in above navel, grasp with other hand, and thrust inward-upward.",
                     "Repeat Until Clear: Alternate 5 back blows and 5 abdominal thrusts until the object is expelled or victim becomes unresponsive.",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "Conscious Choking Care: 5 Back Blows & 5 Abdominal Thrusts",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_choking_5and5_visual.png",
+                        "caption": "Two-Panel Choking Rescue Technique: (Left) Supporting the chest while delivering 5 firm back blows between the shoulder blades; (Right) Delivering 5 upward-inward abdominal thrusts just above the navel.",
+                        "bullets": [
+                            "Five-and-Five Airway Clearance: Alternate 5 firm back blows with the heel of your hand and 5 inward-upward abdominal thrusts (Heimlich maneuver) until the obstruction is expelled.",
+                        ],
+                    },
+                    {
+                        "title": "Four-Step Choking Rescue Procedure",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/first_aid_req_4b_nano_hero.png",
+                        "caption": "5-and-5 Airway Obstruction Sequence: Confirm choking & consent -> 5 back blows -> 5 abdominal thrusts -> Repeat or transition to CPR.",
+                        "bullets": [
+                            "Confirm Severe Obstruction: Ask 'Are you choking?' and get consent to help if the person nods and cannot cough or speak.",
+                            "Deliver 5 Back Blows: Support chest with one hand, lean victim forward, and strike firmly 5 times between shoulder blades.",
+                            "Perform 5 Abdominal Thrusts: Stand behind victim, place fist thumb-side in above navel, grasp with other hand, and thrust inward-upward.",
+                            "Repeat Until Clear: Alternate 5 back blows and 5 abdominal thrusts until the object is expelled or victim becomes unresponsive.",
+                        ],
+                    },
+                    {
+                        "title": "Special Choking Situations & Unconscious Transition",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Forceful Coughing (Partial Blockage): If the person can cough forcefully or speak, do not interfere; stay with them and encourage coughing.",
+                            "Pregnant or Large Victims: Perform chest thrusts on the center of the breastbone rather than abdominal thrusts.",
+                            "Infant Choking (<1 Year): Hold infant face-down along your forearm for 5 back slaps, then turn face-up for 5 two-finger chest thrusts.",
+                            "If Victim Becomes Unresponsive: Lower carefully to the floor, call 911, start 30 chest compressions, and look in mouth before breaths.",
+                        ],
+                    },
                 ],
                 "counselor_signoff_criteria": "Scout demonstrates proper hand positioning and 5-and-5 sequence on a choking training vest or manikin.",
             },
@@ -374,6 +686,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Explain & Guide",
                 "recommended_archetype": "DIFFERENTIAL_COMPARISON_2COL",
                 "visual_diagram_type": "heat_comparison",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_heat_hypothermia_visual.png",
                 "pamphlet_excerpts": [
                     "Thermoregulatory Failure: Heat stroke occurs when core temperature exceeds 104°F (40°C) and central nervous system function breaks down.",
                     "Mental Status Differentiator: Confusion, slurred speech, ataxia, or unconsciousness immediately upgrades heat illness to Heat Stroke (911).",
@@ -398,6 +711,63 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "Emergency Action: Call 911 immediately; rapid cold-water immersion or ice packs at neck, armpits, and groin",
                     ],
                 },
+                "topic_slides": [
+                    {
+                        "title": "Heat Emergencies vs. Hypothermia Field Care",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_heat_hypothermia_visual.png",
+                        "caption": "Wilderness Thermal Emergencies: (Left) Cooling an overheated hiker in deep shade with cool wet cloths and hydration; (Right) Rewarming a shivering hypothermic hiker inside a dry sleeping bag under a tarp.",
+                        "bullets": [
+                            "Thermal Extremes on the Trail: Rapidly cool heat exhaustion/stroke patients in shade with cold water, and gently rewarm hypothermic hikers after replacing wet clothing with dry insulation.",
+                        ],
+                    },
+                    {
+                        "title": "Heat Exhaustion vs. Heat Stroke Differential",
+                        "layout": "DIFFERENTIAL_COMPARISON_2COL",
+                        "comparison_data": {
+                            "left_header": "Heat Exhaustion",
+                            "left_badge": "URGENT FIELD CARE",
+                            "left_points": [
+                                "Skin Appearance: Cool, pale, moist, and clammy skin with heavy profuse sweating",
+                                "Core Temp & Pulse: Core body temperature 98.6°F to 103°F; rapid weak pulse and muscle cramps",
+                                "Mental Status: Alert and oriented, but experiencing dizziness, nausea, headache, and fatigue",
+                                "Field Treatment: Move to shade, loosen clothing, fan skin, and give small sips of cool electrolyte water",
+                            ],
+                            "right_header": "Heat Stroke (Call 911)",
+                            "right_badge": "LIFE-THREATENING",
+                            "right_points": [
+                                "Skin Appearance: Hot, flushed red skin (dry or damp from exertion) with failed thermoregulation",
+                                "Core Temp & Pulse: Core body temperature above 104°F (40°C); rapid bounding pulse transitioning to weak",
+                                "Mental Status: Altered mental state including confusion, combativeness, seizures, or unconsciousness",
+                                "Emergency Action: Call 911 immediately; rapid cold-water immersion or ice packs at neck, armpits, and groin",
+                            ],
+                        },
+                        "bullets": [
+                            "Heat Exhaustion: Cool clammy skin, heavy sweating, alert mental status -> shade, fan, and oral electrolytes.",
+                            "Heat Stroke (>104°F): Altered mental status/confusion, hot skin -> call 911 and rapid cold-water cooling immediately.",
+                        ],
+                    },
+                    {
+                        "title": "Hypothermia, Frostbite & Dehydration",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Hypothermia Signals ('UMBLES'): Uncontrollable shivering, fumbles, stumbles, mumbles, and grumbles as core temp drops below 95°F.",
+                            "Frostbite Care: Rewarm frozen ears, nose, fingers, or toes in 99°F-104°F warm water; never rub frostbitten tissue with snow.",
+                            "Dehydration Prevention: Drink water regularly before feeling thirsty so urine remains pale straw-colored during hikes.",
+                            "Anaphylaxis & EpiPen: For severe bee/food allergy with throat swelling or wheezing, inject epinephrine into outer thigh and call 911.",
+                        ],
+                    },
+                    {
+                        "title": "Venomous Snakebites, Tick Bites & Poisonous Plants",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Venomous Snakebite Rules: Keep victim calm, immobilize limb at heart level, remove rings/watches, and evacuate to an emergency room.",
+                            "What NEVER to Do for Snakebite: Never cut the wound, never suck venom, never apply ice, and never apply a tourniquet or electric shock.",
+                            "Tick Removal Protocol: Grasp tick close to skin with fine-tipped tweezers and pull straight upward with steady pressure; wash with soap.",
+                            "Poison Ivy / Oak / Sumac: Recognize 'leaves of three, let it be'; wash exposed skin and gear immediately with soap and cool water.",
+                        ],
+                    },
+                ],
                 "counselor_signoff_criteria": "Scout distinguishes Heat Exhaustion from Heat Stroke across all 4 clinical criteria and explains hypothermia and snakebite rules.",
             },
             {
@@ -411,6 +781,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Demonstrate, Guide & Enable",
                 "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
                 "visual_diagram_type": "splinting_cms",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
                 "pamphlet_excerpts": [
                     "Splint Where It Lies: Immobilize the injured bone and both the joint above and the joint below in the position found.",
                     "Distal CMS Verification: Check radial/pedal pulse, capillary refill (<2 sec), finger/toe wiggle, and light touch before and after tying.",
@@ -434,6 +805,51 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "correct_answer": "Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
                     "explanation": "Delayed capillary refill (>2 sec) and paresthesia indicate vascular/nerve compression from swelling; loosen ties immediately while maintaining manual stabilization.",
                 },
+                "topic_slides": [
+                    {
+                        "title": "Rigid Forearm Splinting, Sling & Distal CMS Check",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
+                        "caption": "Splinting & Transport Reference: (Left) Padded forearm splint with triangular cravat sling and distal finger circulation check; (Right) Two-rescuer four-handed seat carry.",
+                        "bullets": [
+                            "Immobilize Joint Above & Below: A forearm splint must immobilize both the wrist joint and the elbow joint to prevent bone rotation.",
+                            "Open Fracture Dressing: Cover protruding bone ends with a moist sterile dressing and build a doughnut ring pad around—never push bone back in.",
+                            "R.I.C.E. for Sprains: Rest the joint, apply wrapped Ice packs for 20 minutes, apply light Compression wrap, and Elevate.",
+                        ],
+                    },
+                    {
+                        "title": "Four-Step Splinting & CMS Verification Protocol",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/first_aid_req_6a_nano_hero.png",
+                        "caption": "Four-Step Splinting Sequence: Pre-splint CMS check -> Span joints above/below -> Tie cravats -> Re-verify distal CMS.",
+                        "bullets": [
+                            "Check Pre-Splint CMS: Verify distal pulse, capillary refill under 2 seconds, sensation, and finger/toe movement.",
+                            "Stabilize Above & Below: Position padded rigid board or SAM splint spanning the joints above and below the fracture.",
+                            "Secure With Cravats: Tie square knots over the rigid splint (never directly over the fracture site) firmly enough to prevent motion.",
+                            "Re-Verify Distal CMS: Re-check pulse, warmth, and sensation every 15 minutes; loosen cravats if fingers/toes turn pale or numb.",
+                        ],
+                    },
+                    {
+                        "title": "Patrol Scenario: Post-Splint Numbness & Swelling",
+                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
+                        "quiz_item": {
+                            "scenario_prompt": "Ten minutes after you apply a forearm splint on a trail hike, the Scout complains that their fingers feel numb and tingling, and nailbed capillary refill takes 5 seconds. What must you do?",
+                            "options": [
+                                "Tighten the cravat knots further to prevent bone movement",
+                                "Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
+                                "Have the Scout hold their arm below waist level while hiking",
+                                "Apply an ice pack directly onto bare skin for 45 minutes",
+                            ],
+                            "correct_answer": "Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
+                            "explanation": "Delayed capillary refill (>2 sec) and paresthesia indicate vascular/nerve compression from swelling; loosen ties immediately while maintaining manual stabilization.",
+                        },
+                        "bullets": [
+                            "Ten minutes after you apply a forearm splint on a trail hike, the Scout complains that their fingers feel numb and tingling, and nailbed capillary refill takes 5 seconds. What must you do?",
+                            "Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
+                            "Delayed capillary refill (>2 sec) and paresthesia indicate vascular/nerve compression from swelling; loosen ties immediately while maintaining manual stabilization.",
+                        ],
+                    },
+                ],
                 "counselor_signoff_criteria": "Scout applies a padded forearm or lower-leg splint plus sling/swath on a buddy and performs pre- and post-splint CMS checks.",
             },
             {
@@ -447,6 +863,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Demonstrate & Guide",
                 "recommended_archetype": "STEP_BY_STEP_PROCEDURE_4CARD",
                 "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
                 "pamphlet_excerpts": [
                     "Spinal Immobilization Priority: Assume cervical spine injury after any fall from height, diving accident, or high-impact collision.",
                     "Emergency Drag Indications: Use clothes drag, ankle drag, or blanket drag only to pull a victim out of immediate smoke, fire, or rockfall.",
@@ -458,6 +875,42 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Form Four-Handed Seat: Two rescuers grasp their own left wrist with right hand and partner's right wrist with left hand.",
                     "Load Conscious Patient: Squat evenly, have the patient sit on the wrist grid and place arms around rescuers' shoulders.",
                     "Lift & Step in Unison: Rise together on the count of three using leg muscles and step forward with inside feet synchronized.",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "When to Move vs. Stabilize in Place",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_req_7a_nano_hero.png",
+                        "caption": "Wilderness Patient Evacuation: Two Scouts using a four-handed seat carry to move a conscious hiker with a splinted lower-leg injury after ruling out spinal trauma.",
+                        "bullets": [
+                            "Golden Rule of Patient Movement: Do NOT move a seriously injured person unless fire, flood, rockfall, or toxic smoke threatens their life.",
+                            "Spinal Clearance Check: Never use upright carries if the victim fell from height or reports neck/back pain, tingling, or weakness.",
+                            "Emergency Drags (Immediate Danger): Pull along the long axis of the body using the shoulder/clothes drag, blanket drag, or ankle drag.",
+                            "Single-Rescuer Carries: Use the walking assist ('human crutch') or firefighter/pack-strap carry for lighter conscious hikers.",
+                        ],
+                    },
+                    {
+                        "title": "Two-Rescuer Four-Handed Seat Procedure",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
+                        "caption": "Four-Handed Seat Wrist Grid: Rescuers interlock wrists in a box formation to carry a conscious, alert patient.",
+                        "bullets": [
+                            "Assess Spinal Risk: Confirm zero neck/back pain, numbness, or high-mechanism trauma before attempting any upright carry.",
+                            "Form Four-Handed Seat: Two rescuers grasp their own left wrist with right hand and partner's right wrist with left hand.",
+                            "Load Conscious Patient: Squat evenly, have the patient sit on the wrist grid and place arms around rescuers' shoulders.",
+                            "Lift & Step in Unison: Rise together on the count of three using leg muscles and step forward with inside feet synchronized.",
+                        ],
+                    },
+                    {
+                        "title": "Improvised Stretchers & Litter Transport",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Two-Pole Blanket Litter: Fold a heavy wool blanket or tarp in thirds over two sturdy 7-foot wooden spars or trekking poles.",
+                            "Buttoned Shirt / Jacket Litter: Turn two heavy jackets inside-out with sleeves tucked inside and slide two poles through the sleeves.",
+                            "Internal Frame Backpack Litter: Lace two internal-frame backpacks together end-to-end over two wooden spars for long trail evacuations.",
+                            "Litter Team Safety: Test every improvised stretcher with an uninjured Scout of equal weight before lifting the patient.",
+                        ],
+                    },
                 ],
                 "counselor_signoff_criteria": "Scout demonstrates walking assist and two-rescuer four-handed seat carry with a buddy using safe lifting mechanics.",
             },
@@ -672,18 +1125,20 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
             {
                 "req_id": "1",
                 "req_number": "1",
+                "topic_title": "Req 1: 14th Amendment, Constitutional Rights & Civic Duties",
                 "action_verb": "Explain",
-                "req_text": "Explain what citizenship in the nation means and what it takes to be a good citizen of this country, and discuss the rights, liberties, and obligations of U.S. citizens including the four pillars of the 14th Amendment.",
+                "req_text": "What is the Constitution of the United States? What does the Constitution do? What principles does it reflect? Why is it important to have a Constitution? Explain what citizenship in the nation means, the 14th Amendment, and the duties and responsibilities of U.S. citizens.",
                 "safety_callout": None,
                 "execution_mode": "IN_CLASS_DISCUSSION",
                 "edge_phase": "Explain & Guide",
                 "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
                 "visual_diagram_type": "fourteenth_amendment_shield",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_14th_amendment_visual.png",
                 "pamphlet_excerpts": [
                     "14th Amendment Citizenship Clause: 'All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside.'",
-                    "Due Process Clause: Prohibits state and local governments from depriving any person of life, liberty, or property without fair legal procedures.",
+                    "Due Process Clause: Prohibits federal, state, and local governments from depriving any person of life, liberty, or property without fair legal procedures.",
                     "Equal Protection Clause: Guarantees that every person within a jurisdiction receives equal treatment under the law regardless of race, religion, or origin.",
-                    "Civic Obligations vs. Responsibilities: Obeying laws, paying taxes, serving on a jury, and registering for Selective Service are legal duties; voting and community service are vital civic responsibilities.",
+                    "Civic Obligations vs. Responsibilities: Obeying laws, paying taxes, serving on a jury, and Selective Service registration are mandatory duties; voting and community service are vital responsibilities.",
                 ],
                 "step_by_step_procedure": [
                     "Birthright & Naturalization: Acquire citizenship by birth on U.S. soil (jus soli), citizen parentage (jus sanguinis), or USCIS naturalization.",
@@ -691,112 +1146,127 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Fulfill Legal Obligations: Obey federal/state/local laws, pay taxes honestly, and serve on a trial jury when summoned.",
                     "Participate in Self-Government: Stay informed on public issues, vote in elections, and serve your community through Scouting.",
                 ],
-                "counselor_signoff_criteria": "Scout explains the 14th Amendment definition of citizenship, constitutional rights, and civic duties vs. responsibilities.",
+                "topic_slides": [
+                    {
+                        "title": "The 14th Amendment & Pathways to Citizenship",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_14th_amendment_visual.png",
+                        "caption": "14th Amendment & Constitutional Citizenship: Scales of justice, courtroom gavel, U.S. Capitol dome, and new citizens taking the Naturalization Oath of Allegiance.",
+                        "bullets": [
+                            "Four Pillars of the 14th Amendment: Birthright & Naturalized Citizenship, Privileges or Immunities, Due Process of Law, and Equal Protection under the Law.",
+                        ],
+                    },
+                    {
+                        "title": "Six Core Principles of the U.S. Constitution",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Popular Sovereignty: Government authority flows directly from 'We the People' through free and fair elections.",
+                            "Limited Government & Rule of Law: Public officials are bound by written constitutional limits; nobody is above the law.",
+                            "Separation of Powers & Checks: Legislative, Executive, and Judicial powers are divided so no single branch can become tyrannical.",
+                            "Federalism & Individual Rights: Power is shared between national and state governments while the Bill of Rights protects personal liberty.",
+                        ],
+                    },
+                    {
+                        "title": "Mandatory Civic Duties vs. Civic Responsibilities",
+                        "layout": "DIFFERENTIAL_COMPARISON_2COL",
+                        "comparison_data": {
+                            "left_header": "Mandatory Legal Duties",
+                            "left_badge": "REQUIRED BY LAW",
+                            "left_points": [
+                                "Obeying Laws: Follow federal, state, and municipal statutes enacted by elected representatives",
+                                "Paying Taxes Honestly: Fund national defense, courts, highways, and public schools through federal/state taxes",
+                                "Serving on a Jury: Guarantee the Sixth and Seventh Amendment right to an impartial trial by peers when summoned",
+                                "Defending the Nation: Register with the Selective Service System at age 18 as required by federal statute",
+                            ],
+                            "right_header": "Voluntary Civic Responsibilities",
+                            "right_badge": "ACTIVE CITIZENSHIP",
+                            "right_points": [
+                                "Informed Voting: Research candidates and ballot measures and vote in local, state, and federal elections",
+                                "Respecting Others' Rights: Safeguard free speech, religious liberty, and equal dignity for all neighbors",
+                                "Community & Scouting Service: Volunteer in conservation, food banks, civic boards, and Eagle Scout projects",
+                                "Public Engagement: Contact elected representatives, attend town halls, and stay informed via credible news",
+                            ],
+                        },
+                        "bullets": [
+                            "Legal Duties: Obeying laws, paying taxes, jury duty, and Selective Service registration.",
+                            "Civic Responsibilities: Voting, staying informed, volunteering, and respecting the rights of others.",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout explains the Constitution's core principles, the 14th Amendment definition of citizenship, and civic duties vs. responsibilities.",
             },
             {
                 "req_id": "2",
                 "req_number": "2",
-                "action_verb": "Visit",
-                "req_text": "Do TWO of the following: (a) Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places, (b) Tour your state capitol building or the U.S. Capitol, (c) Tour a federal facility, or (d) Choose a national monument that interests you and explain its historical significance.",
-                "safety_callout": "Follow Youth Protection buddy system and parental accompaniment rules when touring federal facilities or historic landmarks.",
-                "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
-                "edge_phase": "Enable",
-                "recommended_archetype": "GEAR_CHECKLIST_GRID",
+                "topic_title": "Req 2: Six Functions of Government in the Preamble",
+                "action_verb": "List",
+                "req_text": "List the six functions of government as noted in the Preamble to the United States Constitution. Discuss with your counselor how these functions affect your family and local community.",
+                "safety_callout": None,
+                "execution_mode": "IN_CLASS_DISCUSSION",
+                "edge_phase": "Explain & Guide",
+                "recommended_archetype": "CONCEPT_TEXT_SLIDE",
                 "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_req_1_nano_hero.png",
                 "pamphlet_excerpts": [
-                    "National Register of Historic Places: Maintained by the National Park Service under the National Historic Preservation Act of 1966.",
-                    "Capitol Architecture & Bicameral Chambers: State and federal capitols house the Senate and House chambers alongside public committee hearing rooms.",
-                    "Federal Facility Missions: Federal courthouses, NASA centers, national laboratories, VA hospitals, and U.S. Mint facilities execute constitutional functions.",
-                    "Field Preparation: Research when the landmark was designated, what historical turning point occurred there, and how it shapes American identity today.",
+                    "1. Form a More Perfect Union: Unite the individual states under one cohesive national framework for commerce, currency, and interstate cooperation.",
+                    "2. Establish Justice & 3. Insure Domestic Tranquility: Operate impartial federal courts and maintain civil peace, disaster response, and law enforcement.",
+                    "4. Provide for the Common Defence: Maintain the U.S. Armed Forces and Coast Guard to protect the nation from external threats.",
+                    "5. Promote the General Welfare & 6. Secure the Blessings of Liberty: Support public infrastructure, science, clean water, and constitutional rights for future generations.",
                 ],
-                "gear_checklist": [
-                    "Completion of 2 of the 4 Requirement 2 civic exploration options (2a, 2b, 2c, or 2d)",
-                    "Field notes or brochure/photo from National Historic Landmark or State/U.S. Capitol tour",
-                    "Summary of why the landmark or monument was added to the National Register",
-                    "Explanation of what you learned about the functions of federal or state government",
+                "topic_slides": [
+                    {
+                        "title": "The Preamble's Six Purposes of Government",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_req_1_nano_hero.png",
+                        "caption": "We the People: The 52-word Preamble to the U.S. Constitution defines why our federal republic exists and whom it serves.",
+                        "bullets": [
+                            "Form a More Perfect Union: Binds 50 states together with a single currency, interstate highway network, and unified constitutional law.",
+                            "Establish Justice: Creates an independent federal judiciary and guarantees due process and equal treatment in court.",
+                            "Insure Domestic Tranquility: Preserves peace at home through law enforcement, National Guard disaster relief, and FEMA aid.",
+                            "Provide for the Common Defence: Equips the Army, Navy, Air Force, Marine Corps, Space Force, and Coast Guard to defend the nation.",
+                        ],
+                    },
+                    {
+                        "title": "How the Six Preamble Functions Impact Your Community",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "Preamble Functions in Daily Family & Community Life",
+                            "artifact_type": "CIVIC IMPACT MATRIX",
+                            "fields": {
+                                "Union & Justice": "Interstate highways, U.S. Postal Service delivery, and federal civil rights & court protections",
+                                "Domestic Tranquility": "FEMA flood/wildfire disaster relief grants and National Weather Service severe storm warnings",
+                                "Common Defence": "Active-duty Armed Forces, National Guard armories, and cybersecurity protection of critical utilities",
+                                "General Welfare & Liberty": "National Parks & public lands where our Troop camps, clean air/water standards, and First Amendment freedoms",
+                            },
+                            "counselor_tip": "Ask each Scout to name one specific federal service their family used this week for each of the 6 Preamble goals.",
+                        },
+                        "bullets": [
+                            "Union & Justice: Interstate highways, U.S. Postal Service delivery, and federal civil rights & court protections",
+                            "Domestic Tranquility: FEMA flood/wildfire disaster relief grants and National Weather Service severe storm warnings",
+                            "Common Defence: Active-duty Armed Forces, National Guard armories, and cybersecurity protection of critical utilities",
+                            "General Welfare & Liberty: National Parks & public lands where our Troop camps, clean air/water standards, and First Amendment freedoms",
+                        ],
+                    },
                 ],
-                "counselor_signoff_criteria": "Scout presents field notes/photos from two completed Requirement 2 options and explains their historical significance.",
+                "counselor_signoff_criteria": "Scout recites or lists all 6 functions of government in the Preamble and gives concrete examples of how each affects their family and community.",
             },
             {
                 "req_id": "3",
                 "req_number": "3",
-                "action_verb": "Discuss",
-                "req_text": "Watch the national evening news for five days in a row on television, or read the main stories on the front page of a daily newspaper or a national news website for five days in a row. Discuss the national issues that you learned about with your counselor and how one issue affects your family and community.",
-                "safety_callout": None,
-                "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
-                "edge_phase": "Explain & Guide",
-                "recommended_archetype": "WORKED_EXAMPLE_TEMPLATE",
-                "visual_diagram_type": "procedural_flow",
-                "pamphlet_excerpts": [
-                    "Media Literacy & Fact vs. Opinion: Distinguish verifiable primary-source reporting from editorial commentary and partisan opinion columns.",
-                    "Federal Policy Connection: Identify which branch of the federal government (Congress, Executive Agency, or Federal Courts) is involved in each headline.",
-                    "Local & Family Impact: Trace how national decisions on infrastructure, interest rates, education, or energy prices directly affect your hometown.",
-                    "Balanced Source Tracking: Compare coverage across multiple reputable national outlets over five consecutive days.",
-                ],
-                "worked_example": {
-                    "title": "5-Day National News Tracking Log (Worked Example)",
-                    "artifact_type": "BUDGET_LOG",
-                    "fields": {
-                        "Day 1-2 Headlines": "Federal Highway & Bridge Modernization Funding Bill debated in Senate Transportation Committee",
-                        "Day 3-4 Headlines": "National Weather Service & FEMA update wildfire mitigation grants for Western forest communities",
-                        "Day 5 Headline": "U.S. Supreme Court hears oral arguments on Fourth Amendment digital privacy protections",
-                        "Selected Deep-Dive Issue": "Wildfire Mitigation Grants: Directly funds brush clearance in our local county watershed and protects our troop's summer camp",
-                    },
-                    "counselor_tip": "Bring your 5-day dated log to class showing the news source, date, headline summary, and which branch of government is acting.",
-                },
-                "counselor_signoff_criteria": "Scout presents a 5-day consecutive national news log and analyzes how one national issue impacts their family and community.",
-            },
-            {
-                "req_id": "4",
-                "req_number": "4",
-                "action_verb": "Discuss",
-                "req_text": "Discuss each of the following documents with your counselor and tell how you feel life in the United States might be different without each one: (a) Declaration of Independence, (b) Preamble to the Constitution, (c) The Constitution, (d) Bill of Rights, and (e) Amendments to the Constitution.",
-                "safety_callout": None,
-                "execution_mode": "IN_CLASS_DISCUSSION",
-                "edge_phase": "Explain & Guide",
-                "recommended_archetype": "DIFFERENTIAL_COMPARISON_2COL",
-                "visual_diagram_type": "procedural_flow",
-                "pamphlet_excerpts": [
-                    "Declaration of Independence (1776): Asserts unalienable rights to Life, Liberty, and the Pursuit of Happiness and that governments derive just powers from the consent of the governed.",
-                    "The Preamble's Six Purposes: Form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty.",
-                    "U.S. Constitution (1787): Establishes federalism, separation of powers across Articles I-III, and the supreme law of the land.",
-                    "Bill of Rights (1791) & Amendments 11-27: First 10 amendments safeguard individual liberties; later amendments abolished slavery (13th), guaranteed equal protection (14th), and expanded voting rights (15th, 19th, 26th).",
-                ],
-                "comparison_data": {
-                    "left_header": "Declaration & Preamble (Foundational Ideals)",
-                    "left_badge": "WHY WE GOVERN",
-                    "left_points": [
-                        "Declaration of Independence (July 4, 1776): Proclaims natural rights and moral justification for self-government",
-                        "Consent of the Governed: Establishes that sovereignty belongs to the people, not a monarch",
-                        "The Constitutional Preamble: States the 6 core goals of the Republic beginning with 'We the People'",
-                        "Without These Documents: No shared moral standard of human equality or unified national purpose",
-                    ],
-                    "right_header": "Constitution, Bill of Rights & Amendments",
-                    "right_badge": "SUPREME LAW",
-                    "right_points": [
-                        "Articles I-VII Framework: Creates enforceable separation of powers, federalism, and Article V amendment process",
-                        "Bill of Rights (Amendments 1-10): Protects speech, religion, press, fair trials, and reserves powers to states/people",
-                        "Amendments 11-27 Evolution: Ended slavery (13th), secured equal protection (14th), and lowered voting age to 18 (26th)",
-                        "Without These Documents: Unchecked government authority, no independent courts, and no guaranteed civil liberties",
-                    ],
-                },
-                "counselor_signoff_criteria": "Scout explains all 5 foundational documents and analyzes how American life would change without each one.",
-            },
-            {
-                "req_id": "6",
-                "req_number": "6",
+                "topic_title": "Req 3: Three Branches of Government & Checks and Balances",
                 "action_verb": "Explain",
-                "req_text": "List the six functions of government as noted in the Preamble to the Constitution, and explain the Three Branches of the federal government, how they check and balance each other, and how citizens can participate.",
+                "req_text": "Explain how our federal government is structured: (a) List the three branches of government and their functions, (b) Explain how the three branches check and balance each other, and (c) Describe how citizens can be involved in each branch.",
                 "safety_callout": None,
                 "execution_mode": "IN_CLASS_DISCUSSION",
                 "edge_phase": "Explain & Guide",
                 "recommended_archetype": "SPATIAL_FIELD_DIAGRAM",
                 "visual_diagram_type": "checks_balances_triangle",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_three_branches_visual.png",
                 "pamphlet_excerpts": [
-                    "Legislative Branch (Article I, Congress): Bicameral Senate (100) and House (435) draft statutes, levy taxes, appropriate funds, declare war, and confirm nominees.",
-                    "Executive Branch (Article II, President & Cabinet): Enforces federal laws, commands the Armed Forces, negotiates treaties, and exercises veto power.",
-                    "Judicial Branch (Article III, Supreme Court & Federal Courts): Interprets the Constitution and exercises judicial review (Marbury v. Madison) to strike down unconstitutional acts.",
-                    "Reciprocal Checks & Balances: Congress overrides presidential vetoes with a 2/3 vote and can impeach; President appoints judges; Senate confirms; Courts review laws and executive orders.",
+                    "Legislative Branch (Article I, Congress): Bicameral Senate (100 Senators) and House (435 Representatives) draft statutes, levy taxes, appropriate funds, and declare war.",
+                    "Executive Branch (Article II, President & Cabinet): Enforces federal laws, commands the Armed Forces, negotiates treaties, and appoints federal officials.",
+                    "Judicial Branch (Article III, Supreme Court & Federal Courts): Interprets the Constitution and exercises judicial review (Marbury v. Madison) over statutes and executive acts.",
+                    "Reciprocal Checks & Balances: Congress can override a presidential veto by 2/3 vote in both chambers; the Senate confirms treaties and judicial nominees.",
                 ],
                 "step_by_step_procedure": [
                     "Legislative Check on Executive: Congress passes bills, controls the federal budget, ratifies treaties, and overrides vetoes by 2/3 vote.",
@@ -815,11 +1285,343 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "correct_answer": "A two-thirds (2/3) supermajority override vote in both the House and the Senate",
                     "explanation": "Under Article I, Section 7 of the U.S. Constitution, Congress can override a presidential veto if both chambers re-pass the bill by a two-thirds vote.",
                 },
-                "counselor_signoff_criteria": "Scout lists the 6 Preamble functions and traces the checks and balances connecting the Legislative, Executive, and Judicial branches.",
+                "topic_slides": [
+                    {
+                        "title": "The Constitutional Triangle: Separation of Powers",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_three_branches_visual.png",
+                        "caption": "Three Co-Equal Branches of Government: The U.S. Capitol (Legislative, Article I), the White House (Executive, Article II), and the Supreme Court (Judicial, Article III) connected by reciprocal checks and balances.",
+                        "bullets": [
+                            "Articles I, II, and III Architecture: By dividing lawmaking (Congress), law enforcement (President), and constitutional interpretation (Courts), the Framers prevented any single branch from seizing absolute power.",
+                        ],
+                    },
+                    {
+                        "title": "How the Three Branches Check & Balance Each Other",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_bill_to_law_visual.png",
+                        "caption": "How a Bill Becomes a Law & Constitutional Oversight: Committee markup -> Bicameral floor vote -> Presidential signature/veto -> Judicial review.",
+                        "bullets": [
+                            "Legislative Check on Executive: Congress passes bills, controls the federal budget, ratifies treaties, and overrides vetoes by 2/3 vote.",
+                            "Executive Check on Legislative: The President can veto congressional legislation and call special sessions of Congress.",
+                            "Executive & Legislative on Judicial: The President nominates federal judges and Supreme Court Justices; the Senate confirms or rejects them.",
+                            "Judicial Check on Both Branches: The Supreme Court reviews statutes and executive actions for constitutional compliance.",
+                        ],
+                    },
+                    {
+                        "title": "How Citizens Participate in All Three Branches",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Participating in the Legislative Branch: Vote for U.S. Senators and Representatives, testify at hearings, and write constituent letters.",
+                            "Participating in the Executive Branch: Vote in presidential elections, submit public comments on agency rules (Regulations.gov), and serve in civil/military service.",
+                            "Participating in the Judicial Branch: Serve honestly on federal trial or grand juries, serve as a witness, or file amicus curiae briefs.",
+                            "First Amendment Petition Power: Every Scout and citizen has the constitutional right to petition any branch for a redress of grievances.",
+                        ],
+                    },
+                    {
+                        "title": "Patrol Scenario: Overriding a Presidential Veto",
+                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
+                        "quiz_item": {
+                            "scenario_prompt": "If the President vetoes a bill passed by Congress, what constitutional check allows Congress to enact the bill into law anyway?",
+                            "options": [
+                                "A simple majority vote in the House of Representatives alone",
+                                "A two-thirds (2/3) supermajority override vote in both the House and the Senate",
+                                "An executive order signed by the Chief Justice of the Supreme Court",
+                                "A national referendum signed by 10 state governors",
+                            ],
+                            "correct_answer": "A two-thirds (2/3) supermajority override vote in both the House and the Senate",
+                            "explanation": "Under Article I, Section 7 of the U.S. Constitution, Congress can override a presidential veto if both chambers re-pass the bill by a two-thirds vote.",
+                        },
+                        "bullets": [
+                            "If the President vetoes a bill passed by Congress, what constitutional check allows Congress to enact the bill into law anyway?",
+                            "A two-thirds (2/3) supermajority override vote in both the House and the Senate",
+                            "Under Article I, Section 7 of the U.S. Constitution, Congress can override a presidential veto if both chambers re-pass the bill by a two-thirds vote.",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout explains the functions of all 3 branches, traces reciprocal checks and balances, and explains citizen participation in each branch.",
+            },
+            {
+                "req_id": "4",
+                "req_number": "4",
+                "topic_title": "Req 4: Declaration of Independence, Constitution & Bill of Rights",
+                "action_verb": "Discuss",
+                "req_text": "Discuss the importance of: (a) Declaration of Independence, (b) The Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment, and (c) the traditional United States motto 'E Pluribus Unum'.",
+                "safety_callout": None,
+                "execution_mode": "IN_CLASS_DISCUSSION",
+                "edge_phase": "Explain & Guide",
+                "recommended_archetype": "DIFFERENTIAL_COMPARISON_2COL",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_founding_docs_visual.png",
+                "pamphlet_excerpts": [
+                    "Declaration of Independence (July 4, 1776): Drafted by Thomas Jefferson; proclaims unalienable rights to Life, Liberty, and the Pursuit of Happiness and consent of the governed.",
+                    "The Bill of Rights (Ratified December 15, 1791): The first 10 Amendments added to protect individual civil liberties and reserve unenumerated powers to the states and people.",
+                    "The 14th Amendment (1868): Incorporates the Bill of Rights against state governments and guarantees citizenship, due process, and equal protection to all persons.",
+                    "E Pluribus Unum ('Out of Many, One'): Adopted on the Great Seal in 1782 to signify 13 diverse colonies—and people of many backgrounds—uniting as one Constitutional Republic.",
+                ],
+                "comparison_data": {
+                    "left_header": "Declaration & 'E Pluribus Unum'",
+                    "left_badge": "FOUNDING CHARTER",
+                    "left_points": [
+                        "Declaration of Independence (1776): Asserts universal human equality and natural rights that no ruler can take away",
+                        "Consent of the Governed: Establishes that legitimate power comes from the citizens",
+                        "E Pluribus Unum ('Out of Many, One'): Traditional Latin motto on the Great Seal and U.S. coinage since 1782",
+                        "Civic Unity: Celebrates how 50 states and diverse Americans unite around shared constitutional ideals",
+                    ],
+                    "right_header": "Bill of Rights & 14th Amendment",
+                    "right_badge": "CIVIL LIBERTIES",
+                    "right_points": [
+                        "1st Amendment Five Freedoms: Protects freedom of religion, speech, press, peaceable assembly, and petition",
+                        "4th to 8th Due Process Protections: Bans unreasonable searches, double jeopardy, forced self-incrimination, and cruel punishment",
+                        "9th & 10th Amendments: Reserves unenumerated rights to the people and non-delegated powers to the states",
+                        "14th Amendment Incorporation: Extends Bill of Rights protections to apply against state and local governments",
+                    ],
+                },
+                "topic_slides": [
+                    {
+                        "title": "Charters of Freedom: Declaration, Constitution & Bill of Rights",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_founding_docs_visual.png",
+                        "caption": "America's Founding Charters: 18th-century quill pen and inkwell, sealed parchment scrolls, the Liberty Bell, and Independence Hall in Philadelphia.",
+                        "bullets": [
+                            "How the Charters Work Together: The Declaration of Independence states our moral promise of equality and natural rights; the Constitution and Bill of Rights turn that promise into enforceable supreme law.",
+                        ],
+                    },
+                    {
+                        "title": "Founding Ideals vs. Enforceable Constitutional Rights",
+                        "layout": "DIFFERENTIAL_COMPARISON_2COL",
+                        "comparison_data": {
+                            "left_header": "Declaration & 'E Pluribus Unum'",
+                            "left_badge": "FOUNDING CHARTER",
+                            "left_points": [
+                                "Declaration of Independence (1776): Asserts universal human equality and natural rights that no ruler can take away",
+                                "Consent of the Governed: Establishes that legitimate power comes from the citizens",
+                                "E Pluribus Unum ('Out of Many, One'): Traditional Latin motto on the Great Seal and U.S. coinage since 1782",
+                                "Civic Unity: Celebrates how 50 states and diverse Americans unite around shared constitutional ideals",
+                            ],
+                            "right_header": "Bill of Rights & 14th Amendment",
+                            "right_badge": "CIVIL LIBERTIES",
+                            "right_points": [
+                                "1st Amendment Five Freedoms: Protects freedom of religion, speech, press, peaceable assembly, and petition",
+                                "4th to 8th Due Process Protections: Bans unreasonable searches, double jeopardy, forced self-incrimination, and cruel punishment",
+                                "9th & 10th Amendments: Reserves unenumerated rights to the people and non-delegated powers to the states",
+                                "14th Amendment Incorporation: Extends Bill of Rights protections to apply against state and local governments",
+                            ],
+                        },
+                        "bullets": [
+                            "Declaration & E Pluribus Unum: Natural rights, consent of the governed, and 'Out of Many, One' national unity.",
+                            "Bill of Rights & 14th Amendment: Enforceable civil liberties, due process, and equal protection across all 50 states.",
+                        ],
+                    },
+                    {
+                        "title": "How Amendments Keep the Constitution a Living Framework",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Article V Amendment Process: Proposed by 2/3 of both houses of Congress (or 2/3 of state conventions) and ratified by 3/4 (38) of the states.",
+                            "Reconstruction Amendments (13th-15th): Abolished slavery (13th), guaranteed equal citizenship (14th), and banned racial voting denial (15th).",
+                            "Expanding the Franchise (19th, 24th, 26th): Guaranteed women's suffrage (19th, 1920), banned poll taxes (24th, 1964), and lowered voting age to 18 (26th, 1971).",
+                            "Life Without These Documents: Without written rights and independent courts, minority viewpoints and personal liberties would have no legal shield.",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout explains the Declaration of Independence, Bill of Rights, 14th Amendment, and 'E Pluribus Unum' and how American life depends on them.",
+            },
+            {
+                "req_id": "5",
+                "req_number": "5",
+                "topic_title": "Req 5: Five-Day National News Tracking & Community Impact",
+                "action_verb": "Discuss",
+                "req_text": "Watch the national evening news for five days in a row on television, or read the main stories on the front page of a daily newspaper or a national news website for five days in a row. Discuss the national issues that you learned about with your counselor and how one issue affects your family and community.",
+                "safety_callout": None,
+                "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+                "edge_phase": "Explain & Guide",
+                "recommended_archetype": "WORKED_EXAMPLE_TEMPLATE",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_req_3_nano_hero.png",
+                "pamphlet_excerpts": [
+                    "Media Literacy & Primary Sources: Distinguish verifiable factual reporting and official roll-call votes from editorial commentary and opinion columns.",
+                    "Constitutional Branch Tracking: Identify whether each national story involves Congress (legislation/oversight), the Executive (agency action/foreign policy), or the Federal Courts.",
+                    "Local & Family Impact Analysis: Trace how federal decisions on infrastructure, energy, disaster relief, or interest rates directly affect your hometown.",
+                    "Five-Day Continuity: Following major stories across five consecutive days reveals how public debate, committee hearings, and checks and balances unfold.",
+                ],
+                "worked_example": {
+                    "title": "5-Day National News Tracking Log (Worked Example)",
+                    "artifact_type": "BUDGET_LOG",
+                    "fields": {
+                        "Day 1-2 Headlines": "Federal Highway & Bridge Modernization Funding Bill debated in Senate Transportation Committee",
+                        "Day 3-4 Headlines": "National Weather Service & FEMA update wildfire mitigation grants for Western forest communities",
+                        "Day 5 Headline": "U.S. Supreme Court hears oral arguments on Fourth Amendment digital privacy protections",
+                        "Selected Deep-Dive Issue": "Wildfire Mitigation Grants: Directly funds brush clearance in our local county watershed and protects our troop's summer camp",
+                    },
+                    "counselor_tip": "Bring your 5-day dated log to class showing the news source, date, headline summary, and which branch of government is acting.",
+                },
+                "topic_slides": [
+                    {
+                        "title": "How Informed Citizens Track National News",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_req_3_nano_hero.png",
+                        "caption": "Civic Media Literacy: Tracking national policy headlines across five consecutive days and connecting federal actions to local community outcomes.",
+                        "bullets": [
+                            "Free Press & Self-Government: The First Amendment protects an independent press so citizens can hold elected officials accountable.",
+                            "Fact vs. Editorial Opinion: Verify straight news reporting against primary documents (bill text on Congress.gov or Supreme Court opinions).",
+                            "Cross-Checking Perspectives: Compare how multiple reputable national news outlets report the same policy debate.",
+                            "Connecting National to Local: Ask how a federal budget bill, agency regulation, or court ruling affects your school, family, or troop.",
+                        ],
+                    },
+                    {
+                        "title": "Worked Example: 5-Day National News Log",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "5-Day National News Tracking Log (Worked Example)",
+                            "artifact_type": "BUDGET_LOG",
+                            "fields": {
+                                "Day 1-2 Headlines": "Federal Highway & Bridge Modernization Funding Bill debated in Senate Transportation Committee",
+                                "Day 3-4 Headlines": "National Weather Service & FEMA update wildfire mitigation grants for Western forest communities",
+                                "Day 5 Headline": "U.S. Supreme Court hears oral arguments on Fourth Amendment digital privacy protections",
+                                "Selected Deep-Dive Issue": "Wildfire Mitigation Grants: Directly funds brush clearance in our local county watershed and protects our troop's summer camp",
+                            },
+                            "counselor_tip": "Bring your 5-day dated log to class showing the news source, date, headline summary, and which branch of government is acting.",
+                        },
+                        "bullets": [
+                            "Day 1-2 Headlines: Federal Highway & Bridge Modernization Funding Bill debated in Senate Transportation Committee",
+                            "Day 3-4 Headlines: National Weather Service & FEMA update wildfire mitigation grants for Western forest communities",
+                            "Day 5 Headline: U.S. Supreme Court hears oral arguments on Fourth Amendment digital privacy protections",
+                            "Selected Deep-Dive Issue: Wildfire Mitigation Grants: Directly funds brush clearance in our local county watershed and protects our troop's summer camp",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout presents a 5-day consecutive national news log and analyzes how one national issue impacts their family and community.",
+            },
+            {
+                "req_id": "6",
+                "req_number": "6",
+                "topic_title": "Req 6: Historic American Speeches & National Unity",
+                "action_verb": "Choose",
+                "req_text": "Choose a speech of national historical importance, find out about the author, describe the historical situation at the time it was given, explain how it united Americans or advanced constitutional ideals, and explain how it applies to American citizens today.",
+                "safety_callout": None,
+                "execution_mode": "IN_CLASS_DISCUSSION",
+                "edge_phase": "Explain & Guide",
+                "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_speeches_visual.png",
+                "pamphlet_excerpts": [
+                    "Washington's Farewell Address (1796): Warned against geographical sectionalism, hyper-partisan factions, and permanent foreign entanglements while urging fidelity to the Constitution.",
+                    "Lincoln's Gettysburg Address (November 19, 1863): In 272 words, redefined the Civil War as a test of whether a nation 'conceived in Liberty, and dedicated to the proposition that all men are created equal' can endure.",
+                    "FDR's Four Freedoms (1941) & JFK's Inaugural (1961): Articulated universal human freedoms and called on citizens to 'ask not what your country can do for you—ask what you can do for your country.'",
+                    "Dr. Martin Luther King Jr.'s 'I Have a Dream' (August 28, 1963): Called on America to honor the 'promissory note' of the Declaration and Constitution for citizens of every race.",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "Historic Speeches That Shaped the Republic",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_speeches_visual.png",
+                        "caption": "Defining Moments of Civic Oratory: (Left) George Washington counseling constitutional unity in the early Republic; (Right) Abraham Lincoln delivering the Gettysburg Address in 1863.",
+                        "bullets": [
+                            "Words That Redefined the Nation: Great American speeches anchor moments of national crisis back to the founding promises of the Declaration of Independence and the U.S. Constitution.",
+                        ],
+                    },
+                    {
+                        "title": "Four Landmark Speeches Every Scout Should Know",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "George Washington's Farewell Address (1796): Urged Americans to place national union and constitutional law above regional or partisan rivalry.",
+                            "Abraham Lincoln's Gettysburg Address (1863): Dedicated the nation to a 'new birth of freedom' so 'government of the people, by the people, for the people, shall not perish.'",
+                            "John F. Kennedy's Inaugural Address (1961): Challenged a new generation of Americans to active civic service and defense of liberty.",
+                            "Dr. Martin Luther King Jr.'s 'I Have a Dream' (1963): Appealed to the Declaration's unalienable rights to unite Americans around civil rights and equal justice.",
+                        ],
+                    },
+                    {
+                        "title": "Worked Example: Analyzing the Gettysburg Address",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "Requirement 6 Speech Analysis — Lincoln's Gettysburg Address (1863)",
+                            "artifact_type": "SPEECH ANALYSIS GUIDE",
+                            "fields": {
+                                "Author & Historical Context": "President Abraham Lincoln, November 19, 1863, dedicating the Soldiers' National Cemetery 4 months after the Battle of Gettysburg",
+                                "Core Constitutional Principle": "Connects the Union's survival directly to the 1776 Declaration ('all men are created equal')",
+                                "Impact at the Time": "Transformed the Civil War from a territorial dispute into a moral struggle for human liberty and self-government",
+                                "Relevance Today": "Reminds every generation of citizens that constitutional democracy requires active stewardship and sacrifice",
+                            },
+                            "counselor_tip": "Pick one historic speech, read the full text before class, and be ready to quote one sentence that stood out to you.",
+                        },
+                        "bullets": [
+                            "Author & Historical Context: President Abraham Lincoln, November 19, 1863, dedicating the Soldiers' National Cemetery",
+                            "Core Constitutional Principle: Connects the Union's survival directly to the 1776 Declaration ('all men are created equal')",
+                            "Impact at the Time: Transformed the Civil War into a moral struggle for human liberty and self-government",
+                            "Relevance Today: Reminds every generation that constitutional democracy requires active stewardship",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout analyzes a historic American speech, explaining the author, historical context, main arguments, and modern relevance.",
+            },
+            {
+                "req_id": "7",
+                "req_number": "7",
+                "topic_title": "Req 7: National Historic Landmarks, Capitols & Federal Facilities",
+                "action_verb": "Visit",
+                "req_text": "Do TWO of the following (with parent and counselor approval): (a) Visit a National Historic Landmark or National Register site, (b) Tour your state capitol or the U.S. Capitol, (c) Tour a federal facility, or (d) Choose a national monument and explain its historical significance.",
+                "safety_callout": "Follow Youth Protection buddy system and parental accompaniment rules when touring federal facilities or historic landmarks.",
+                "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+                "edge_phase": "Enable",
+                "recommended_archetype": "GEAR_CHECKLIST_GRID",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_landmarks_visual.png",
+                "pamphlet_excerpts": [
+                    "National Register of Historic Places: Administered by the National Park Service under the National Historic Preservation Act of 1966 to preserve sites of local, state, and national significance.",
+                    "State & U.S. Capitol Tours (Option 7b): Observe bicameral legislative chambers, committee rooms, and civic art depicting state and national history.",
+                    "Federal Facility Missions (Option 7c): Federal courthouses, NASA centers, national laboratories, VA medical centers, and U.S. Mint facilities carry out constitutional duties.",
+                    "National Monuments (Option 7d): Designated by Congress or the President under the Antiquities Act of 1906 to protect historic landmarks and natural wonders.",
+                ],
+                "gear_checklist": [
+                    "Two Civic Options: Completion of 2 of the 4 Requirement 7 civic exploration options (7a, 7b, 7c, or 7d)",
+                    "Tour Documentation: Field notes, visitor guide, or photo from National Historic Landmark or Capitol tour",
+                    "Historical Significance: Summary of why the landmark or monument was added to the National Register",
+                    "Government Function Summary: Explanation of what you learned about the functions of federal or state government",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "Exploring National Landmarks, Capitols & Monuments",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_landmarks_visual.png",
+                        "caption": "Civic Field Exploration: Uniformed Scouts with field notebooks visiting the U.S. Capitol, Independence Hall, the Washington Monument, and the Lincoln Memorial.",
+                        "bullets": [
+                            "Experiencing History Firsthand: Visiting historic landmarks, capitols, and federal facilities connects textbook civics to the real places where laws are made and history unfolded.",
+                        ],
+                    },
+                    {
+                        "title": "American Federalism: Local, State & National Capitols",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_req_7_nano_hero.png",
+                        "caption": "Three Tiers of American Federalism: Local town hall (foreground), gold-domed state capitol (midground), and U.S. Capitol dome (background).",
+                        "bullets": [
+                            "Option 7a (Historic Sites): Over 95,000 properties are listed on the National Register of Historic Places, including ~2,600 National Historic Landmarks.",
+                            "Option 7b (Capitol Tour): Compare your state legislature's bicameral chambers (or unicameral in Nebraska) with the U.S. Congress.",
+                            "Option 7c (Federal Facility): Tour a federal court, post office hub, Coast Guard station, national fish hatchery, or NOAA weather office.",
+                            "Option 7d (National Monument): Research a monument's founding date, historical figures, and why Americans preserved it.",
+                        ],
+                    },
+                    {
+                        "title": "Requirement 7 Field Visit Verification Checklist",
+                        "layout": "GEAR_CHECKLIST_GRID",
+                        "gear_checklist": [
+                            "Two Civic Options: Completion of 2 of the 4 Requirement 7 civic exploration options (7a, 7b, 7c, or 7d)",
+                            "Tour Documentation: Field notes, visitor guide, or photo from National Historic Landmark or Capitol tour",
+                            "Historical Significance: Summary of why the landmark or monument was added to the National Register",
+                            "Government Function Summary: Explanation of what you learned about the functions of federal or state government",
+                        ],
+                        "bullets": [
+                            "Two Civic Options: Completion of 2 of the 4 Requirement 7 civic exploration options (7a, 7b, 7c, or 7d)",
+                            "Tour Documentation: Field notes, visitor guide, or photo from National Historic Landmark or Capitol tour",
+                            "Historical Significance: Summary of why the landmark or monument was added to the National Register",
+                            "Government Function Summary: Explanation of what you learned about the functions of federal or state government",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout presents field notes/photos from two completed Requirement 7 options and explains their historical and civic significance.",
             },
             {
                 "req_id": "8",
                 "req_number": "8",
+                "topic_title": "Req 8: Congressional Delegation & Constituent Letter",
                 "action_verb": "Name",
                 "req_text": "Name your two U.S. Senators and the member of Congress from your congressional district. Write a letter about a national issue and send it to one of these elected officials, sharing your view with your counselor and discussing any response you receive.",
                 "safety_callout": "Review correspondence with a parent or counselor before mailing or submitting via official Senate.gov / House.gov constituent portals.",
@@ -827,6 +1629,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "edge_phase": "Enable",
                 "recommended_archetype": "WORKED_EXAMPLE_TEMPLATE",
                 "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/citizenship_in_the_nation_constituent_letter_visual.png",
                 "pamphlet_excerpts": [
                     "Identifying Your Delegation: Every state elects 2 U.S. Senators for 6-year terms; each congressional district elects 1 U.S. Representative for a 2-year term.",
                     "Proper Honorific Address: Address Senators as 'The Honorable [Full Name], United States Senate' and Representatives as 'The Honorable [Full Name], House of Representatives'.",
@@ -844,6 +1647,41 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     },
                     "counselor_tip": "Always include your return mailing address or email in the body of the letter so the Senator's constituent services office can send an official reply.",
                 },
+                "topic_slides": [
+                    {
+                        "title": "Your Congressional Delegation & Constituent Voice",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/citizenship_in_the_nation_constituent_letter_visual.png",
+                        "caption": "Constituent Correspondence in Action: A uniformed Scout drafting a formal letter to a U.S. Senator or House Representative on a national policy issue.",
+                        "bullets": [
+                            "Two U.S. Senators (Statewide): Represent your entire state in the Senate for 6-year staggered terms (lookup at senate.gov).",
+                            "One U.S. Representative (District): Represents your local congressional district in the House for a 2-year term (lookup at house.gov).",
+                            "Why Constituent Letters Matter: Congressional offices log every constituent letter by ZIP code and topic to brief the Member before floor votes.",
+                            "Youth Protection & Mailing: Review your letter with a parent/guardian before mailing or submitting via the official congressional contact form.",
+                        ],
+                    },
+                    {
+                        "title": "Worked Example: Constituent Letter Template",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "Formal Constituent Letter Template to a U.S. Senator / Representative",
+                            "artifact_type": "LETTER_TEMPLATE",
+                            "fields": {
+                                "Header & Salutation": "The Honorable [Full Name] | United States Senate, Washington, DC 20510 | Dear Senator [Last Name]:",
+                                "Paragraph 1 (Who & Issue)": "My name is [Scout Name], a Scout in Troop [Number] in [Hometown, State]. I am writing to share my perspective on federal funding for National Park trail maintenance (S. [Bill #]).",
+                                "Paragraph 2 (Local Impact)": "Our troop hikes and completes conservation projects on public lands every month. Maintaining safe trails and clean watersheds protects wildlife and outdoor recreation.",
+                                "Paragraph 3 (Ask & Close)": "Thank you for your service to our state. Please let me know your position on this legislation. Sincerely, [Scout Name], [Street Address, City, State, ZIP]",
+                            },
+                            "counselor_tip": "Always include your return mailing address or email in the body of the letter so the Senator's constituent services office can send an official reply.",
+                        },
+                        "bullets": [
+                            "Header & Salutation: The Honorable [Full Name] | United States Senate, Washington, DC 20510 | Dear Senator [Last Name]:",
+                            "Paragraph 1 (Who & Issue): Identify yourself as a constituent Scout and state the specific national issue or bill number.",
+                            "Paragraph 2 (Local Impact): Explain with facts and personal Scouting experience how the issue affects your hometown.",
+                            "Paragraph 3 (Ask & Close): Thank the official, ask for their written position, and include your return address.",
+                        ],
+                    },
+                ],
                 "counselor_signoff_criteria": "Scout names both U.S. Senators and their House Representative and shows a copy of their sent constituent letter (and any reply).",
             },
         ],
@@ -975,53 +1813,509 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
         "drg_url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/cooking/",
         "requirements": [
             {
-                "req_id": "1a",
-                "req_number": "1a",
-                "parent_id": "1",
+                "req_id": "1",
+                "req_number": "1",
+                "topic_title": "Req 1: Kitchen Safety, First Aid, Safe Temps & Allergens",
                 "action_verb": "Explain",
-                "req_text": "Explain to your counselor the most likely hazards you may encounter while participating in cooking activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards (burns, knife cuts, cross-contamination, and food allergies).",
+                "req_text": "Health and Safety. Do the following: (a) Explain the most likely hazards in cooking activities and how to prevent and respond to them, (b) Show first aid for burns, scalds, cuts, choking, and allergic reactions, (c) Describe how meat, fish, poultry, eggs, dairy, and produce must be stored, transported, and cooked to safe internal temperatures, (d) Discuss cross-contamination and foodborne illnesses, and (e) Discuss food allergies, intolerances, and food-related illnesses.",
                 "safety_callout": "Strictly enforce food allergy checks, USDA safe internal temperatures, and Totin' Chip/Firem'n Chit kitchen safety procedures.",
                 "execution_mode": "IN_CLASS_DISCUSSION",
+                "edge_phase": "Explain & Guide",
+                "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/cooking_req_1_nano_hero.png",
+                "pamphlet_excerpts": [
+                    "Kitchen Hazard Prevention (Req 1a-1b): Turn pot handles inward, use dry potholders, slice with the 'claw grip' away from the body, and smother grease fires with a metal lid or baking soda (never water).",
+                    "Temperature Danger Zone (Req 1c): Bacteria multiply rapidly between 40°F and 140°F; keep cold perishables at or below 40°F in an ice-packed cooler and hot foods above 140°F.",
+                    "USDA Minimum Internal Temps (Req 1c): Cook all poultry to 165°F, ground beef/pork to 160°F, and whole steaks, pork chops, roasts, and fish to 145°F (with a 3-minute rest).",
+                    "Cross-Contamination & Allergens (Req 1d-1e): Wash hands with soap for 20 seconds, separate raw meats from ready-to-eat produce, and screen patrol menus for the 9 major food allergens.",
+                ],
+                "step_by_step_procedure": [
+                    "Clean Hands & Surfaces: Wash hands with warm water and soap for 20 seconds before and after handling raw food.",
+                    "Separate Raw & Ready Foods: Use separate cutting boards and utensils for raw poultry/meat and fresh vegetables.",
+                    "Cook to Safe Internal Temps: Verify internal temperatures with a calibrated digital food thermometer in the thickest part.",
+                    "Chill Below 40°F Promptly: Pack perishables on ice at <=40°F and refrigerate leftovers within 2 hours (1 hour if >90°F).",
+                ],
+                "comparison_data": {
+                    "left_header": "Life-Threatening Food Allergy",
+                    "left_badge": "IMMUNE SYSTEM (911)",
+                    "left_points": [
+                        "Physiological Cause: Immune system overreacts to a specific food protein (peanuts, tree nuts, shellfish, milk, eggs, wheat, soy, fish, sesame)",
+                        "Trace Exposure Risk: Even microscopic cross-contact on a knife or skillet can trigger systemic anaphylaxis",
+                        "Warning Symptoms: Throat/tongue swelling, hives, wheezing, shortness of breath, dizziness, and drop in blood pressure",
+                        "Emergency Response: Inject epinephrine auto-injector (EpiPen) into outer thigh immediately and call 911",
+                    ],
+                    "right_header": "Food Intolerance & Sensitivity",
+                    "right_badge": "DIGESTIVE SYSTEM",
+                    "right_points": [
+                        "Physiological Cause: Digestive tract cannot properly break down a food component (such as lactose intolerance) or celiac gluten reaction",
+                        "Dose & Symptoms: Causes stomach cramps, bloating, nausea, or diarrhea without acute airway closure",
+                        "Celiac Disease Note: Autoimmune reaction to gluten (wheat, barley, rye) requiring strict gluten-free cookware and ingredients",
+                        "Menu Planning Rule: Audit every Scout's AHMR Part B before shopping and substitute safe ingredients for the entire patrol",
+                    ],
+                },
+                "topic_slides": [
+                    {
+                        "title": "Kitchen Hazards & First Aid for Burns, Cuts & Grease Fires",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/cooking_req_1_nano_hero.png",
+                        "caption": "Four Pillars of Camp Kitchen Safety: Cooling a minor burn under running water, claw-grip knife chopping, insulated cooler cold storage, and sliding a metal lid over a grease fire.",
+                        "bullets": [
+                            "Burns & Scalds First Aid: Cool 1st- and 2nd-degree burns under cool running water for 10+ minutes; never apply butter, ice, or ointments.",
+                            "Knife Safety & Cuts: Curl fingers into a 'claw grip' when chopping; apply firm direct pressure with sterile gauze to stop bleeding.",
+                            "Smothering a Grease Fire: Turn off the stove burner and slide a metal lid or pour baking soda over the pan—never throw water on burning oil.",
+                            "Carbon Monoxide Prevention: Never operate propane, butane, white-gas stoves, or charcoal inside a tent, cabin, or unventilated shelter.",
+                        ],
+                    },
+                    {
+                        "title": "USDA Safe Internal Temperatures & Cold Storage",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/cooking_usda_temps_visual.png",
+                        "caption": "Thermometer Verification & Cold Chain: Inserting an instant-read thermometer into the thickest center of poultry (165°F), ground beef (160°F), and pork/steaks (145°F) alongside an ice-packed cooler (<=40°F).",
+                        "bullets": [
+                            "USDA Internal Temperature Standards: Poultry & reheated leftovers = 165°F; Ground beef & pork = 160°F; Whole cuts of beef, pork, lamb & fish = 145°F; Cold storage <= 40°F.",
+                        ],
+                    },
+                    {
+                        "title": "Preventing Cross-Contamination & Foodborne Illness",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/cooking_cross_contamination_visual.png",
+                        "caption": "USDA Four-Step Food Safety System: Clean (20-sec handwash) -> Separate (color-coded boards) -> Cook (thermometer check) -> Chill (<=40°F).",
+                        "bullets": [
+                            "Clean Hands & Surfaces: Wash hands with warm water and soap for 20 seconds before and after handling raw food.",
+                            "Separate Raw & Ready Foods: Use separate cutting boards and utensils for raw poultry/meat and fresh vegetables.",
+                            "Cook to Safe Internal Temps: Verify internal temperatures with a calibrated digital food thermometer in the thickest part.",
+                            "Chill Below 40°F Promptly: Pack perishables on ice at <=40°F and refrigerate leftovers within 2 hours (1 hour if >90°F).",
+                        ],
+                    },
+                    {
+                        "title": "Food Allergies, Anaphylaxis vs. Food Intolerances",
+                        "layout": "DIFFERENTIAL_COMPARISON_2COL",
+                        "comparison_data": {
+                            "left_header": "Life-Threatening Food Allergy",
+                            "left_badge": "IMMUNE SYSTEM (911)",
+                            "left_points": [
+                                "Physiological Cause: Immune system overreacts to a specific food protein (peanuts, tree nuts, shellfish, milk, eggs, wheat, soy, fish, sesame)",
+                                "Trace Exposure Risk: Even microscopic cross-contact on a knife or skillet can trigger systemic anaphylaxis",
+                                "Warning Symptoms: Throat/tongue swelling, hives, wheezing, shortness of breath, dizziness, and drop in blood pressure",
+                                "Emergency Response: Inject epinephrine auto-injector (EpiPen) into outer thigh immediately and call 911",
+                            ],
+                            "right_header": "Food Intolerance & Sensitivity",
+                            "right_badge": "DIGESTIVE SYSTEM",
+                            "right_points": [
+                                "Physiological Cause: Digestive tract cannot properly break down a food component (such as lactose intolerance) or celiac gluten reaction",
+                                "Dose & Symptoms: Causes stomach cramps, bloating, nausea, or diarrhea without acute airway closure",
+                                "Celiac Disease Note: Autoimmune reaction to gluten (wheat, barley, rye) requiring strict gluten-free cookware and ingredients",
+                                "Menu Planning Rule: Audit every Scout's AHMR Part B before shopping and substitute safe ingredients for the entire patrol",
+                            ],
+                        },
+                        "bullets": [
+                            "Food Allergy (Immune System): Big-9 allergens can cause anaphylaxis; treat with EpiPen and call 911.",
+                            "Food Intolerance (Digestive): Lactose intolerance or gluten sensitivity requires safe menu substitutions.",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout explains kitchen hazards, first aid for burns/cuts/choking/anaphylaxis, USDA safe temperatures, cross-contamination rules, and food allergies.",
             },
             {
                 "req_id": "2",
                 "req_number": "2",
+                "topic_title": "Req 2: USDA MyPlate Nutrition, Food Labels & Meal Balance",
                 "action_verb": "Explain",
-                "req_text": "Explain the USDA MyPlate nutritional guidelines, daily caloric needs for active Scouts, and how to read food nutrition labels for sodium, added sugars, and allergens.",
+                "req_text": "Nutrition. Do the following: (a) Using the MyPlate food guide or the current USDA nutrition model, give five examples for EACH of the five food groups, the recommended daily servings, and the caloric needs for an active Scout, (b) Explain why you should limit oils, solid fats, added sugars, and sodium, and (c) Explain how to read a Nutrition Facts label.",
                 "safety_callout": None,
                 "execution_mode": "IN_CLASS_DISCUSSION",
+                "edge_phase": "Explain & Guide",
+                "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/cooking_myplate_nutrition_visual.png",
+                "pamphlet_excerpts": [
+                    "Five USDA MyPlate Groups (Req 2a): Fruits (2 cups/day), Vegetables (2.5-3 cups/day), Grains (6-8 oz/day, at least half whole grains), Protein Foods (5.5-6.5 oz/day), and Dairy (3 cups/day).",
+                    "Active Scout Caloric Needs (Req 2a): Moderately active teen Scouts require 2,200 to 2,800 kcal/day at home, rising to 3,000-4,000+ kcal/day during strenuous backpacking or cold-weather camping.",
+                    "Limiting Fats, Sugars & Sodium (Req 2b): Keep saturated fat <10% of calories, added sugars <10% of calories (<50g/day), and sodium below 2,300 mg/day to protect cardiovascular health.",
+                    "Reading Nutrition Facts Labels (Req 2c): Check Serving Size and Servings Per Container first, then compare % Daily Value (5% DV or less is low; 20% DV or more is high).",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "USDA MyPlate: Five Food Groups & Daily Targets",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/cooking_myplate_nutrition_visual.png",
+                        "caption": "USDA MyPlate Balanced Meal Model: Half the plate filled with colorful Fruits and Vegetables, one-quarter Whole Grains, and one-quarter lean Protein, paired with low-fat Dairy and water.",
+                        "bullets": [
+                            "Five Food Groups & Daily Targets for Active Youth: Fruits (2 cups), Vegetables (2.5-3 cups), Grains (6-8 oz, >=50% whole grain), Protein (5.5-6.5 oz), and Dairy (3 cups).",
+                        ],
+                    },
+                    {
+                        "title": "Five Examples from Each MyPlate Food Group",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Fruits & Vegetables (5 Each): Apples, bananas, berries, oranges, dried apricots; broccoli, carrots, spinach, bell peppers, sweet potatoes.",
+                            "Grains (5 Examples): Rolled oats, brown rice, whole-wheat pasta, whole-grain tortillas, and quinoa (make at least half your grains whole).",
+                            "Protein Foods (5 Examples): Chicken breast, salmon/tuna, lean beef, eggs, black beans/lentils, and peanut or almond butter.",
+                            "Dairy Group (5 Examples): Low-fat milk, Greek yogurt, cheddar cheese, string cheese, and calcium-fortified soy milk.",
+                        ],
+                    },
+                    {
+                        "title": "Reading Nutrition Labels & Limiting Sodium, Sugar & Fats",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "How to Audit a Trail Food Nutrition Facts Label",
+                            "artifact_type": "NUTRITION LABEL AUDIT",
+                            "fields": {
+                                "1. Serving Size & Count": "Always multiply calories and sodium by the number of servings you actually eat",
+                                "2. Sodium (<2,300 mg/day)": "Dehydrated camp meals often exceed 900 mg sodium per pouch; choose low-sodium broth and herbs",
+                                "3. Added Sugars (<50g/day)": "Avoid sodas and candy spikes that cause trail energy crashes; prefer complex carbs + protein",
+                                "4. Healthy Oils vs. Solid Fats": "Use liquid olive or canola oil (unsaturated) instead of trans fats, lard, or heavy saturated fats",
+                            },
+                            "counselor_tip": "Use the 5/20 Rule on % Daily Value: 5% DV or less is LOW (aim low for sodium, saturated fat, added sugar); 20% DV or more is HIGH (aim high for fiber, calcium, iron, potassium).",
+                        },
+                        "bullets": [
+                            "1. Serving Size & Count: Always multiply calories and sodium by the number of servings you actually eat",
+                            "2. Sodium (<2,300 mg/day): Dehydrated camp meals often exceed 900 mg sodium per pouch; choose low-sodium broth and herbs",
+                            "3. Added Sugars (<50g/day): Avoid sodas and candy spikes that cause trail energy crashes; prefer complex carbs + protein",
+                            "4. Healthy Oils vs. Solid Fats: Use liquid olive or canola oil (unsaturated) instead of trans fats, lard, or heavy saturated fats",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout names 5 examples and daily servings for each MyPlate group, explains why to limit sodium/added sugars/saturated fats, and interprets a Nutrition Facts label.",
             },
             {
                 "req_id": "3",
                 "req_number": "3",
+                "topic_title": "Req 3: Five Cooking Methods, Stoves & Cast-Iron Care",
                 "action_verb": "Demonstrate",
-                "req_text": "Describe the five basic cooking methods (boiling, baking, frying, simmering, and steaming/foil-pack) and demonstrate safe camp stove and Dutch oven operation.",
+                "req_text": "Cooking Basics. Do the following: (a) Discuss each of the following cooking methods—boiling, baking, frying, simmering, steaming, microwaving, and grilling/broiling—and give two examples of foods cooked each way, (b) Discuss the benefits of using a camp stove on an outing vs. a charcoal or wood fire, and (c) Describe how to manage your time when preparing a meal so components finish hot together.",
                 "safety_callout": "Never use chemical stoves or charcoal inside a tent; always keep a fire extinguisher or water bucket within reach.",
                 "execution_mode": "HANDS_ON_SKILL_STATION",
+                "edge_phase": "Demonstrate & Guide",
+                "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/cooking_five_methods_visual.png",
+                "pamphlet_excerpts": [
+                    "Seven Core Cooking Methods (Req 3a): Boiling (212°F rolling bubbles), Simmering (185°F-205°F gentle bubbles), Steaming/Foil Packet, Baking (Dutch oven dry heat), Frying/Sautéing, Grilling/Broiling, and Microwaving.",
+                    "Dutch Oven Coal Math (Req 3a): For 350°F baking in a cast-iron Dutch oven, use the 'Plus-2 / Minus-2' rule (Oven Diameter + 2 briquettes on the lid; Oven Diameter - 2 briquettes underneath).",
+                    "Camp Stove vs. Campfire (Req 3b): Camp stoves light instantly in rain, leave zero ash scar, obey fire-ban rules, and provide precise simmer control; wood/charcoal excels at Dutch oven baking.",
+                    "Backward Meal Timing (Req 3c): Start longest-cooking items (baked potatoes, brown rice, stews) first and quick-cooking items (eggs, sautéed greens, toast) last so everything finishes hot together.",
+                ],
+                "comparison_data": {
+                    "left_header": "Camp Stove (Propane / Liquid / Canister)",
+                    "left_badge": "PRECISION & LEAVE NO TRACE",
+                    "left_points": [
+                        "Instant Heat Control: Turn control valve from roaring boil to gentle simmer in seconds without waiting for coals",
+                        "All-Weather Reliability: Boils water quickly in rain, snow, or high wind when firewood is soaked",
+                        "Leave No Trace Compliance: Leaves zero ash scar, preserves downed forest wood, and is legal during stage-1 fire bans",
+                        "Clean Cookware: Clean blue gas flame does not coat pots in black creosote soot",
+                    ],
+                    "right_header": "Charcoal & Wood Campfire",
+                    "right_badge": "TRADITIONAL & DUTCH OVEN",
+                    "right_points": [
+                        "Dutch Oven & Foil Mastery: Glowing hardwood coals provide steady radiant top-and-bottom heat for baking and foil packs",
+                        "Preparation Time: Requires 30 to 45 minutes to burn down wood or chimney-start charcoal briquettes to white ash coals",
+                        "Environmental & Fire Risk: Embers can spark wildfires in dry brush; restricted in alpine and high-fire-danger zones",
+                        "Soot & Cleanup: Coat exterior of pots with a thin film of liquid dish soap before cooking over wood to wash soot off easily",
+                    ],
+                },
+                "topic_slides": [
+                    {
+                        "title": "Mastering the Core Cooking Methods in Camp & Home",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/cooking_five_methods_visual.png",
+                        "caption": "Five Essential Camp Cooking Methods: Boiling pasta, baking biscuits in a charcoal Dutch oven, simmering stew on a double-burner camp stove, steaming fish in a foil packet, and pan-frying eggs in cast iron.",
+                        "bullets": [
+                            "Matching Heat Transfer to Ingredients: Boiling (pasta, potatoes), Simmering (chili, oatmeal), Steaming/Foil (fish, vegetables), Baking (biscuits, cobbler), Frying (pancakes, eggs), and Grilling (burgers, fajitas).",
+                        ],
+                    },
+                    {
+                        "title": "Camp Stove vs. Charcoal & Wood Fire Comparison",
+                        "layout": "DIFFERENTIAL_COMPARISON_2COL",
+                        "comparison_data": {
+                            "left_header": "Camp Stove (Propane / Liquid / Canister)",
+                            "left_badge": "PRECISION & LEAVE NO TRACE",
+                            "left_points": [
+                                "Instant Heat Control: Turn control valve from roaring boil to gentle simmer in seconds without waiting for coals",
+                                "All-Weather Reliability: Boils water quickly in rain, snow, or high wind when firewood is soaked",
+                                "Leave No Trace Compliance: Leaves zero ash scar, preserves downed forest wood, and is legal during stage-1 fire bans",
+                                "Clean Cookware: Clean blue gas flame does not coat pots in black creosote soot",
+                            ],
+                            "right_header": "Charcoal & Wood Campfire",
+                            "right_badge": "TRADITIONAL & DUTCH OVEN",
+                            "right_points": [
+                                "Dutch Oven & Foil Mastery: Glowing hardwood coals provide steady radiant top-and-bottom heat for baking and foil packs",
+                                "Preparation Time: Requires 30 to 45 minutes to burn down wood or chimney-start charcoal briquettes to white ash coals",
+                                "Environmental & Fire Risk: Embers can spark wildfires in dry brush; restricted in alpine and high-fire-danger zones",
+                                "Soot & Cleanup: Coat exterior of pots with a thin film of liquid dish soap before cooking over wood to wash soot off easily",
+                            ],
+                        },
+                        "bullets": [
+                            "Camp Stoves: Fast ignition, precise flame control, clean pots, and Leave No Trace friendly.",
+                            "Charcoal & Wood Fires: Ideal for cast-iron Dutch oven baking and foil packets over glowing coals.",
+                        ],
+                    },
+                    {
+                        "title": "Cast-Iron Dutch Oven Care & Backward Meal Timing",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Dutch Oven 350°F Briquette Rule: For a 12-inch Dutch oven, place 14 lit coals on the lid (12 + 2) and 10 coals under the base (12 - 2); rotate lid and pot every 15 minutes.",
+                            "Seasoning & Cleaning Cast Iron: Scrape with warm water and a stiff brush (never soak in dish soap), dry over low heat, and wipe with a thin coat of vegetable oil.",
+                            "Mise en Place (Prep First): Measure, wash, and chop all ingredients before lighting the stove so nothing burns while you search for utensils.",
+                            "Backward Meal Scheduling: Count backward from serving time—start 40-minute baked/simmered dishes first, 15-minute sides second, and 5-minute pan-fried proteins last.",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout explains all cooking methods with food examples, compares camp stoves vs. wood/charcoal fires, and explains backward meal timing.",
             },
             {
                 "req_id": "4",
                 "req_number": "4",
+                "topic_title": "Req 4: Home Cooking: 3-Day Menu, Grocery Budget & Execution",
                 "action_verb": "Prepare",
-                "req_text": "Using the MyPlate food guide, plan a menu for three full days of meals (three breakfasts, three lunches, and three dinners) to be cooked at home, create an itemized grocery budget, and cook one breakfast, one lunch, and one dinner.",
+                "req_text": "Cooking at Home. Using the MyPlate food guide, plan a menu for three full days of meals (three breakfasts, three lunches, and three dinners) plus one dessert. Create an itemized equipment list and grocery shopping budget, then cook and serve one breakfast, one lunch, and one dinner for your family.",
                 "safety_callout": "Wash hands for 20 seconds and use separate cutting boards for raw meat and fresh produce.",
                 "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+                "edge_phase": "Enable",
+                "recommended_archetype": "WORKED_EXAMPLE_TEMPLATE",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/cooking_myplate_nutrition_visual.png",
+                "pamphlet_excerpts": [
+                    "Three-Day Home Menu Design (Req 4a): Plan 3 breakfasts, 3 lunches, 3 dinners, and 1 dessert that hit every MyPlate food group across the day.",
+                    "Recipe Scaling & Unit Pricing (Req 4b-4c): Scale ingredient quantities to match your family size, check pantry staples first, and compare unit prices ($/oz or $/lb) at the grocery store.",
+                    "Equipment & Timing Sheet (Req 4d-4e): List every pot, skillet, baking sheet, thermometer, and measuring tool required before turning on the oven or range.",
+                    "Family Meal Evaluation (Req 4f-4g): Cook and serve 1 breakfast, 1 lunch, and 1 dinner using varied cooking methods, then record family feedback on taste, timing, and presentation.",
+                ],
+                "worked_example": {
+                    "title": "Requirement 4 Home Cooking Menu, Cost & Timing Plan (Family of 4)",
+                    "artifact_type": "MENU & BUDGET LOG",
+                    "fields": {
+                        "Breakfast (Pan-Fry & Simmer)": "Whole-grain blueberry pancakes, scrambled eggs, turkey sausage, fresh orange slices & milk ($11.40 total / $2.85 per serving)",
+                        "Lunch (Grill & Assemble)": "Grilled chicken & avocado whole-wheat wraps, carrot/celery sticks with hummus, apple slices & yogurt ($13.80 total / $3.45 per serving)",
+                        "Dinner (Bake, Roast & Steam)": "Herb-baked salmon (145°F), brown rice pilaf, steamed broccoli, garden salad & baked cinnamon apples ($21.60 total / $5.40 per serving)",
+                        "Synchronized Dinner Timeline": "17:15 Preheat oven 400°F & start brown rice (40m) -> 17:35 Bake salmon & apples (20m) -> 17:45 Steam broccoli (8m) -> 17:55 Serve hot",
+                    },
+                    "counselor_tip": "Bring your complete 3-day menu chart, itemized grocery receipt/price list, photos of the 3 meals you cooked at home, and parent verification notes.",
+                },
+                "topic_slides": [
+                    {
+                        "title": "Planning & Budgeting Your 3-Day Home Menu",
+                        "layout": "CONCEPT_TEXT_SLIDE",
+                        "bullets": [
+                            "Nutritional Completeness: Every day's breakfast, lunch, and dinner must incorporate Fruits, Vegetables, Whole Grains, lean Protein, and Dairy.",
+                            "Pantry Audit Before Shopping: Check spices, oils, flour, and rice already at home so your grocery budget only buys needed perishables.",
+                            "Unit-Price Comparison: Compare store brands vs. name brands using the shelf tag unit price (cost per ounce or pound) to stay on budget.",
+                            "Variety of Cooking Methods: Demonstrate at least three distinct cooking methods (such as pan-frying, baking/roasting, simmering, and steaming) across your three cooked meals.",
+                        ],
+                    },
+                    {
+                        "title": "Worked Example: Home Menu, Budget & Kitchen Timeline",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "Requirement 4 Home Cooking Menu, Cost & Timing Plan (Family of 4)",
+                            "artifact_type": "MENU & BUDGET LOG",
+                            "fields": {
+                                "Breakfast (Pan-Fry & Simmer)": "Whole-grain blueberry pancakes, scrambled eggs, turkey sausage, fresh orange slices & milk ($11.40 total / $2.85 per serving)",
+                                "Lunch (Grill & Assemble)": "Grilled chicken & avocado whole-wheat wraps, carrot/celery sticks with hummus, apple slices & yogurt ($13.80 total / $3.45 per serving)",
+                                "Dinner (Bake, Roast & Steam)": "Herb-baked salmon (145°F), brown rice pilaf, steamed broccoli, garden salad & baked cinnamon apples ($21.60 total / $5.40 per serving)",
+                                "Synchronized Dinner Timeline": "17:15 Preheat oven 400°F & start brown rice (40m) -> 17:35 Bake salmon & apples (20m) -> 17:45 Steam broccoli (8m) -> 17:55 Serve hot",
+                            },
+                            "counselor_tip": "Bring your complete 3-day menu chart, itemized grocery receipt/price list, photos of the 3 meals you cooked at home, and parent verification notes.",
+                        },
+                        "bullets": [
+                            "Breakfast (Pan-Fry & Simmer): Whole-grain blueberry pancakes, scrambled eggs, turkey sausage, fresh orange slices & milk ($11.40)",
+                            "Lunch (Grill & Assemble): Grilled chicken & avocado whole-wheat wraps, carrot/celery sticks with hummus, apple & yogurt ($13.80)",
+                            "Dinner (Bake, Roast & Steam): Herb-baked salmon (145°F), brown rice pilaf, steamed broccoli, salad & baked apples ($21.60)",
+                            "Synchronized Dinner Timeline: 17:15 Start brown rice -> 17:35 Bake salmon & apples -> 17:45 Steam broccoli -> 17:55 Serve hot",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout presents a 3-day MyPlate home menu, equipment list, itemized grocery budget, and parent-verified notes/photos from cooking 1 breakfast, 1 lunch, and 1 dinner.",
             },
             {
                 "req_id": "5",
                 "req_number": "5",
+                "topic_title": "Req 5: Camp Cooking: Patrol Menus, 3 Methods & 3-Pot Sanitation",
                 "action_verb": "Prepare",
-                "req_text": "Plan, budget, and cook two breakfasts, two lunches, and two dinners plus a dessert on a patrol campout using at least three different cooking methods.",
-                "safety_callout": "Never leave active camp stoves or campfires unattended.",
+                "req_text": "Camp Cooking. Plan a patrol campout menu (two breakfasts, two lunches, two dinners, and one dessert) using MyPlate, calculate per-Scout food quantities and budget, and serve as patrol head cook for at least one breakfast, one lunch, one dinner, and one dessert using at least three cooking methods and BSA 3-pot dishwashing sanitation.",
+                "safety_callout": "Never leave active camp stoves or campfires unattended, and sanitize all patrol dishes in Pot 3 before air-drying.",
                 "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+                "edge_phase": "Demonstrate, Guide & Enable",
+                "recommended_archetype": "STEP_BY_STEP_PROCEDURE_4CARD",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/cooking_three_pot_dishwashing_visual.png",
+                "pamphlet_excerpts": [
+                    "Patrol Menu & Per-Scout Budgeting (Req 5a-5c): Scale recipes for your patrol size (typically 6-8 Scouts), divide total grocery cost per Scout, and repackage bulk items at home to reduce camp trash.",
+                    "Cold-Chain Packing in Camp (Req 5d): Pre-chill coolers, pack frozen meats at the bottom on block ice, keep a thermometer inside (<=40°F), and use a separate beverage cooler so the food cooler stays closed.",
+                    "Three Camp Cooking Methods (Req 5e-5f): Prepare meals outdoors using camp stoves, Dutch ovens, foil packets, or skillets across at least three distinct cooking methods.",
+                    "BSA Three-Pot Sanitation & Leave No Trace (Req 5g-5h): Scrape plates clean -> Pot 1 Hot Soapy Wash -> Pot 2 Clear Warm Rinse -> Pot 3 Sanitize -> Air-dry in mesh bag; strain graywater and scatter 200+ feet from water sources.",
+                ],
+                "step_by_step_procedure": [
+                    "Scrape All Food Scraps: Wipe plates and pots clean with a rubber spatula into the trash bag before touching wash water.",
+                    "Pot 1 (Hot Soapy Wash): Scrub dishes thoroughly in hot water (~120°F) with a few drops of biodegradable camp soap.",
+                    "Pot 2 (Clear Warm Rinse): Dip and swish every item in clean warm water to remove all soap residue.",
+                    "Pot 3 (Sanitize & Air-Dry): Submerge in chemical sanitizing solution (or 170°F+ hot water) and hang in a mesh bag to air-dry.",
+                ],
+                "gear_checklist": [
+                    "Stove & Fuel System: Two-burner camp stove, fuel canisters/bottles, and level cooking table",
+                    "Dutch Oven Gear: Cast-iron Dutch oven, lid lifter, leather heat gloves, and charcoal chimney",
+                    "Cook Kit & Thermometer: Patrol cook kit (pots, skillet, tongs, spatula, cutting boards) & digital thermometer",
+                    "Three-Pot Sanitation Kit: Three dishwashing basins, biodegradable soap, sanitizer, mesh bag & strainer",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "BSA Three-Pot Camp Dishwashing & Graywater Sanitation",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/cooking_three_pot_dishwashing_visual.png",
+                        "caption": "BSA Three-Pot Camp Sanitation Pipeline: Scraping food scraps into trash, followed by Pot 1 (Hot Soapy Wash), Pot 2 (Clear Warm Rinse), Pot 3 (Sanitizing Immersion), and air-drying in a hanging mesh bag.",
+                        "bullets": [
+                            "Preventing Camp Dysentery: Proper 3-pot dishwashing and air-drying (never wiping sanitized dishes with a damp cloth towel!) eliminates bacteria and viruses across the patrol.",
+                        ],
+                    },
+                    {
+                        "title": "Four-Step Three-Pot Dishwashing Procedure",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "image_path": "assets/ai_illustrations/cooking_five_methods_visual.png",
+                        "caption": "Camp Kitchen Sanitation Sequence: Scrape scraps -> Pot 1 Hot Soapy Wash -> Pot 2 Clear Warm Rinse -> Pot 3 Sanitize & Air-Dry.",
+                        "bullets": [
+                            "Scrape All Food Scraps: Wipe plates and pots clean with a rubber spatula into the trash bag before touching wash water.",
+                            "Pot 1 (Hot Soapy Wash): Scrub dishes thoroughly in hot water (~120°F) with a few drops of biodegradable camp soap.",
+                            "Pot 2 (Clear Warm Rinse): Dip and swish every item in clean warm water to remove all soap residue.",
+                            "Pot 3 (Sanitize & Air-Dry): Submerge in chemical sanitizing solution (or 170°F+ hot water) and hang in a mesh bag to air-dry.",
+                        ],
+                    },
+                    {
+                        "title": "Patrol Chuckbox & Camp Kitchen Equipment Checklist",
+                        "layout": "GEAR_CHECKLIST_GRID",
+                        "gear_checklist": [
+                            "Stove & Fuel System: Two-burner camp stove, fuel canisters/bottles, and level cooking table",
+                            "Dutch Oven Gear: Cast-iron Dutch oven, lid lifter, leather heat gloves, and charcoal chimney",
+                            "Cook Kit & Thermometer: Patrol cook kit (pots, skillet, tongs, spatula, cutting boards) & digital thermometer",
+                            "Three-Pot Sanitation Kit: Three dishwashing basins, biodegradable soap, sanitizer, mesh bag & strainer",
+                        ],
+                        "bullets": [
+                            "Stove & Fuel System: Two-burner camp stove, fuel canisters/bottles, and level cooking table",
+                            "Dutch Oven Gear: Cast-iron Dutch oven, lid lifter, leather heat gloves, and charcoal chimney",
+                            "Cook Kit & Thermometer: Patrol cook kit (pots, skillet, tongs, spatula, cutting boards) & digital thermometer",
+                            "Three-Pot Sanitation Kit: Three dishwashing basins, biodegradable soap, sanitizer, mesh bag & strainer",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout presents patrol campout menu, budget, equipment list, and counselor/leader verification of cooking 1 breakfast, 1 lunch, 1 dinner, and 1 dessert using 3+ methods and 3-pot sanitation.",
             },
             {
                 "req_id": "6",
                 "req_number": "6",
+                "topic_title": "Req 6: Trail & Backpacking Meals, Ultralight Stoves & Bear Safety",
                 "action_verb": "Prepare",
-                "req_text": "Plan and prepare a trail and backpacking menu (two meals and a trail snack) that requires no refrigeration and uses bear-safe storage.",
-                "safety_callout": "Hang bear bags or use approved bear canisters in wilderness areas.",
+                "req_text": "Trail and Backpacking Meals. Plan a trail/backpacking menu (two meals and one high-energy trail snack) requiring no refrigeration, repackage ingredients to minimize weight and trash, cook on a backpacking stove or trail hike, and demonstrate Leave No Trace and bear-safe food storage.",
+                "safety_callout": "Hang bear bags (12 ft high, 6 ft out from trunk) or use approved bear canisters in a 100-foot Bearmuda Triangle downwind of sleeping tents.",
                 "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+                "edge_phase": "Demonstrate, Guide & Enable",
+                "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/cooking_trail_stove_bearbag_visual.png",
+                "pamphlet_excerpts": [
+                    "Caloric Density for the Trail (Req 6a-6b): Aim for 100 to 125+ calories per ounce (3,000-4,500 kcal/day) using shelf-stable whole grains, dehydrated vegetables, jerky/tuna pouches, nuts, and olive oil.",
+                    "Pre-Trek Repackaging (Req 6c): Transfer ingredients from cardboard boxes into labeled resealable freezer bags with cooking water measurements written on the outside.",
+                    "One-Pot Backpacking Stove Efficiency (Req 6d): Use a windscreen around upright/remote canister stoves, keep lids on pots to save fuel, and rehydrate meals in an insulated cozy.",
+                    "Bearmuda Triangle & Odor Control (Req 6e-6f): Cook, wash dishes, and hang bear bags (12 ft above ground, 6 ft from tree trunk, 4 ft below branch) or place bear canisters 100-200 feet downwind from sleeping tents.",
+                ],
+                "worked_example": {
+                    "title": "Ultralight Backpacking Menu & Repackaging Plan (No Refrigeration)",
+                    "artifact_type": "BACKPACKING MENU LOG",
+                    "fields": {
+                        "Trail Breakfast (Boil-in-Bag)": "Instant rolled oats + powdered whole milk + chia seeds + dried cranberries & walnuts (620 kcal, 4.8 oz dry weight)",
+                        "Trail Snack (GORP Energy Mix)": "Roasted almonds, cashews, sunflower seeds, raisins, pretzel sticks & dark chocolate M&Ms (480 kcal, 3.5 oz)",
+                        "Trail Dinner (One-Pot Simmer)": "Couscous + foil-pouch salmon + sun-dried tomatoes + freeze-dried peas + 1 tbsp olive oil packet (780 kcal, 5.6 oz)",
+                        "Fuel & Waste Footprint": "Requires 18g isobutane fuel total; all packaging nests into a single 1-quart zip-top trash bag to pack out",
+                    },
+                    "counselor_tip": "Never sleep in the clothes you wore while cooking pungent meals in bear country, and store toothpaste, lip balm, and trash inside your bear bag or canister.",
+                },
+                "topic_slides": [
+                    {
+                        "title": "Ultralight Backpacking Stoves & Bear-Safe Food Storage",
+                        "layout": "FULL_BLEED_IMAGE_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/cooking_trail_stove_bearbag_visual.png",
+                        "caption": "Backcountry Trail Cooking & Bear Protection: Ultralight canister stove boiling water in a titanium mug in the foreground, with a bear bag suspended 12 feet high and 6 feet from the tree trunk in the background.",
+                        "bullets": [
+                            "Backcountry Trail Discipline: Combine lightweight shelf-stable meals (100+ kcal/oz) with strict Bearmuda Triangle odor isolation (100-200 ft between sleeping tents, cooking area, and bear hang/canister).",
+                        ],
+                    },
+                    {
+                        "title": "Worked Example: No-Refrigeration Backpacking Menu",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "Ultralight Backpacking Menu & Repackaging Plan (No Refrigeration)",
+                            "artifact_type": "BACKPACKING MENU LOG",
+                            "fields": {
+                                "Trail Breakfast (Boil-in-Bag)": "Instant rolled oats + powdered whole milk + chia seeds + dried cranberries & walnuts (620 kcal, 4.8 oz dry weight)",
+                                "Trail Snack (GORP Energy Mix)": "Roasted almonds, cashews, sunflower seeds, raisins, pretzel sticks & dark chocolate M&Ms (480 kcal, 3.5 oz)",
+                                "Trail Dinner (One-Pot Simmer)": "Couscous + foil-pouch salmon + sun-dried tomatoes + freeze-dried peas + 1 tbsp olive oil packet (780 kcal, 5.6 oz)",
+                                "Fuel & Waste Footprint": "Requires 18g isobutane fuel total; all packaging nests into a single 1-quart zip-top trash bag to pack out",
+                            },
+                            "counselor_tip": "Never sleep in the clothes you wore while cooking pungent meals in bear country, and store toothpaste, lip balm, and trash inside your bear bag or canister.",
+                        },
+                        "bullets": [
+                            "Trail Breakfast (Boil-in-Bag): Instant rolled oats + powdered milk + chia seeds + dried cranberries & walnuts (620 kcal, 4.8 oz)",
+                            "Trail Snack (GORP Energy Mix): Roasted almonds, cashews, sunflower seeds, raisins, pretzels & dark chocolate (480 kcal, 3.5 oz)",
+                            "Trail Dinner (One-Pot Simmer): Couscous + foil-pouch salmon + sun-dried tomatoes + freeze-dried peas + olive oil (780 kcal, 5.6 oz)",
+                            "Fuel & Waste Footprint: 18g isobutane fuel total; all packaging nests into one 1-quart zip-top trash bag",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout presents a no-refrigeration backpacking menu, repackaged ingredients, and verification of preparing 2 trail meals and 1 trail snack with Leave No Trace cleanup.",
+            },
+            {
+                "req_id": "7",
+                "req_number": "7",
+                "topic_title": "Req 7: Culinary Careers, Nutrition Science & Lifelong Skills",
+                "action_verb": "Discuss",
+                "req_text": "Food-Related Careers. Find out about three career opportunities in cooking, culinary arts, food science, or dietetics. Pick one and find out the education, training, and experience required, and discuss this with your counselor, explaining why this profession might interest you.",
+                "safety_callout": None,
+                "execution_mode": "IN_CLASS_DISCUSSION",
+                "edge_phase": "Explain & Guide",
+                "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
+                "visual_diagram_type": "procedural_flow",
+                "pamphlet_image_path": "assets/ai_illustrations/cooking_req_7_nano_hero.png",
+                "pamphlet_excerpts": [
+                    "Executive Chef & Culinary Arts: Leads commercial kitchen brigade menu design, food costing, and ServSafe sanitation; trained via ACF apprenticeship or culinary institute degree.",
+                    "Registered Dietitian Nutritionist (RDN): Designs clinical, sports, and public-health nutrition programs; requires an accredited degree, supervised practice internship, and CDR board exam.",
+                    "Food Scientist & Technologist: Develops shelf-stable rations (including NASA and backpacking freeze-dried foods), flavor chemistry, and packaging safety; requires a B.S./M.S. in Food Science.",
+                    "Public Health & USDA Food Safety Inspector: Audits farms, processing plants, and restaurants for HACCP compliance and pathogen prevention.",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "Exploring Careers in Culinary Arts, Nutrition & Food Science",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/cooking_req_7_nano_hero.png",
+                        "caption": "Culinary & Nutrition Mentorship: A professional executive chef and dietitian mentoring a uniformed Scout in recipe formulation, knife technique, and nutritional balance.",
+                        "bullets": [
+                            "Executive Chef / Sous Chef: Combines culinary artistry, high-tempo team leadership, inventory budgeting, and ServSafe Manager certification.",
+                            "Registered Dietitian Nutritionist (RDN): Applies biochemistry and nutrition science to optimize athletic performance and manage medical diets.",
+                            "Food Scientist / Product Developer: Formulates freeze-dried trail meals, plant-based proteins, and safe food preservation systems.",
+                            "Hospitality & Restaurant Management: Oversees supply-chain sourcing, farm-to-table sustainability, and commercial food service operations.",
+                        ],
+                    },
+                    {
+                        "title": "Worked Example: Career Pathway Comparison",
+                        "layout": "WORKED_EXAMPLE_TEMPLATE",
+                        "worked_example": {
+                            "title": "Requirement 7 Career Research — Executive Chef vs. Registered Dietitian",
+                            "artifact_type": "CAREER RESEARCH PROFILE",
+                            "fields": {
+                                "1. Executive Chef": "Associate/Bachelor degree in Culinary Arts (CIA/Johnson & Wales) or 3-year ACF apprenticeship + ServSafe certification",
+                                "2. Registered Dietitian (RDN)": "ACEND-accredited university program + 1,000-hour supervised clinical practice + national CDR registration exam",
+                                "3. Food Scientist": "B.S. in Food Science, Chemistry, or Microbiology; works in R&D labs, USDA/FDA, or outdoor ration companies",
+                                "Scouting Connection": "Patrol menu planning, budgeting, sanitation, and leadership under pressure directly build these career skills",
+                            },
+                            "counselor_tip": "Ask Scouts which part of earning the Cooking Merit Badge they enjoyed most—creative recipe cooking, nutrition science, or outdoor logistics—to connect to a career path.",
+                        },
+                        "bullets": [
+                            "1. Executive Chef: Culinary degree or ACF apprenticeship + ServSafe Manager certification",
+                            "2. Registered Dietitian (RDN): Accredited nutrition degree + 1,000-hour supervised internship + CDR board exam",
+                            "3. Food Scientist: B.S. in Food Science/Chemistry; develops shelf-stable and freeze-dried foods",
+                            "Scouting Connection: Patrol menu planning, budgeting, sanitation, and leadership build real culinary skills",
+                        ],
+                    },
+                ],
+                "counselor_signoff_criteria": "Scout researches 3 food-related careers and discusses the education, training, and experience required for 1 chosen profession.",
             },
         ],
     },
@@ -2375,6 +3669,16 @@ def enrich_requirement_point(
     if len(req_num) > 1 and req_num[-1].isalpha() and not enriched.get("parent_id"):
         enriched["parent_id"] = req_num[:-1]
 
+    # Attach official sub_requirements from data/official_requirements_cache.json if not already present
+    if not enriched.get("sub_requirements"):
+        official_cache = _load_official_requirements_cache()
+        badge_official = official_cache.get(badge_name) or []
+        for off_r in badge_official:
+            if str(off_r.get("req_number")) == req_num:
+                if off_r.get("sub_requirements"):
+                    enriched["sub_requirements"] = list(off_r["sub_requirements"])
+                break
+
     req_text = enriched.get("req_text", f"Complete requirement {req_num} for {badge_name}.")
     verb, mode, edge = _infer_action_verb_and_mode(
         req_text,
@@ -2400,7 +3704,7 @@ def enrich_requirement_point(
 
     pamphlet_points = pamphlet_info.get("pamphlet_summary_points") or []
 
-    # Populate or supplement pamphlet_excerpts with real pamphlet text summaries
+    # Populate pamphlet_excerpts from pamphlet_points ONLY when fewer than 4 curated excerpts exist
     if not enriched.get("pamphlet_excerpts"):
         if pamphlet_points:
             enriched["pamphlet_excerpts"] = pamphlet_points[:5]
@@ -2409,17 +3713,23 @@ def enrich_requirement_point(
                 f"Core Concept ({badge_name} Req {req_num}): {req_text}",
                 f"Safety & Field Practice: Apply the BSA Guide to Safe Scouting and Buddy System during all {badge_name} field work.",
             ]
-    elif pamphlet_points:
+    elif len(enriched["pamphlet_excerpts"]) < 4 and pamphlet_points:
         existing_excerpts = list(enriched["pamphlet_excerpts"])
-        for pt in pamphlet_points[:2]:
-            if len(existing_excerpts) < 6 and pt not in existing_excerpts:
+        for pt in pamphlet_points:
+            if len(existing_excerpts) < 4 and pt not in existing_excerpts:
                 existing_excerpts.append(pt)
         enriched["pamphlet_excerpts"] = existing_excerpts
 
-    # Populate step_by_step_procedure from real pamphlet teaching points when not explicitly authored
+    # Populate step_by_step_procedure ONLY from distinct pamphlet teaching points (never duplicate pamphlet_excerpts[:4])
     if not enriched.get("step_by_step_procedure"):
-        source_steps = pamphlet_points or enriched["pamphlet_excerpts"]
-        enriched["step_by_step_procedure"] = list(source_steps[:4])
+        distinct_steps = [
+            pt for pt in pamphlet_points[4:9]
+            if pt not in (enriched.get("pamphlet_excerpts") or [])
+        ]
+        if len(distinct_steps) >= 3:
+            enriched["step_by_step_procedure"] = distinct_steps[:4]
+        else:
+            enriched["step_by_step_procedure"] = []
 
     # Determine recommended_archetype and visual_diagram_type if not explicitly set
     if not enriched.get("recommended_archetype"):
@@ -2453,6 +3763,140 @@ def enrich_requirement_point(
         used_image_paths=used_image_paths,
     )
     return enriched
+
+
+_CURATED_TO_OFFICIAL_REQ_MAP: Dict[str, Dict[str, str]] = {
+    "First Aid": {
+        "1": "1",
+        "2a": "2",
+        "2b": "2",
+        "3": "4",
+        "4b": "5",
+        "4a": "7",
+        "6a": "8",
+        "7a": "10",
+        "5a": "11",
+    },
+    "Camping": {
+        "1a": "1",
+        "2": "2",
+        "4": "3",
+        "3": "6",
+        "6": "7",
+        "5": "8",
+        "9a": "9",
+    },
+    "Weather": {
+        "1": "1",
+        "2": "2",
+        "3": "4",
+        "4": "5",
+        "5": "6",
+        "6": "7",
+        "7": "8",
+        "8": "9",
+        "9": "10",
+        "10": "11",
+        "11": "12",
+    },
+    "Personal Fitness": {
+        "1a": "2",
+        "2": "3",
+        "6": "4",
+        "8": "6",
+    },
+    "Emergency Preparedness": {
+        "1": "1",
+        "2a": "2",
+        "2b": "3",
+        "8b": "8",
+    },
+    "Swimming": {
+        "1a": "1",
+        "2": "3",
+        "3": "4",
+    },
+    "Sustainability": {
+        "1": "1",
+        "2": "7",
+    },
+    "Cycling": {
+        "1a": "1",
+        "2": "4",
+        "6": "6",
+    },
+    "Welding": {
+        "1": "1",
+        "2": "2",
+        "5": "6",
+    },
+}
+
+
+def _merge_curated_with_official_requirements(
+    badge_name: str,
+    raw_reqs: List[Dict[str, Any]],
+    official_reqs: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    """Merges rich curated benchmark requirement data onto the complete 1..N official requirements
+    and sub-requirements from `data/merit_badge_requirements/<slug>.json`.
+    """
+    if not official_reqs:
+        return raw_reqs
+    import re
+    badge_map = _CURATED_TO_OFFICIAL_REQ_MAP.get(badge_name, {})
+    curated_by_num: Dict[str, Dict[str, Any]] = {}
+    for r in raw_reqs:
+        raw_id = str(r.get("req_number", ""))
+        target_num = badge_map.get(raw_id, raw_id.rstrip("abcdefgh"))
+        if target_num not in curated_by_num:
+            curated_by_num[target_num] = dict(r)
+        else:
+            existing = curated_by_num[target_num]
+            for list_key in ("pamphlet_excerpts", "step_by_step_procedure", "gear_checklist", "topic_slides"):
+                if r.get(list_key):
+                    existing[list_key] = list(existing.get(list_key) or []) + list(r[list_key])
+            for dict_key in ("worked_example", "comparison_data", "quiz_item"):
+                if r.get(dict_key) and not existing.get(dict_key):
+                    existing[dict_key] = r[dict_key]
+
+    merged_reqs: List[Dict[str, Any]] = []
+    for off_r in official_reqs:
+        r_num = str(off_r.get("req_number", ""))
+        if r_num in curated_by_num:
+            m_req = dict(curated_by_num[r_num])
+            m_req["req_id"] = r_num
+            m_req["req_number"] = r_num
+            m_req["parent_id"] = None
+            m_req["req_text"] = off_r.get("req_text") or m_req.get("req_text", "")
+            m_req["sub_requirements"] = list(off_r.get("sub_requirements") or [])
+            if m_req.get("topic_title"):
+                m_req["topic_title"] = re.sub(
+                    r"^Req\s+[0-9a-zA-Z]+\s*:",
+                    f"Req {r_num}:",
+                    str(m_req["topic_title"]),
+                )
+            if m_req.get("topic_slides"):
+                updated_ts = []
+                for ts in m_req["topic_slides"]:
+                    ts_c = dict(ts)
+                    if ts_c.get("title"):
+                        ts_c["title"] = re.sub(
+                            r"\bReq(uirement)?\s+[0-9a-zA-Z]+\b",
+                            lambda m: f"{m.group(0).split()[0]} {r_num}",
+                            str(ts_c["title"]),
+                        )
+                    updated_ts.append(ts_c)
+                m_req["topic_slides"] = updated_ts
+            merged_reqs.append(m_req)
+        else:
+            merged_reqs.append({
+                "req_id": r_num,
+                "req_number": r_num,
+                "req_text": off_r.get("req_text", ""),
+                "sub_requirements": list(off_r.get("sub_requirements") or []),
+            })
+    return merged_reqs
 
 
 # ==============================================================================
@@ -2643,11 +4087,17 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
 
     badge_title = raw_name.title()
     used_image_paths: set = set()
+    official_cache = _load_official_requirements_cache()
 
     # 1. Case-insensitive lookup in rich benchmark database + live BSA Pamphlet PDF enrichment
     for key, data in BENCHMARK_BADGES_DATA.items():
         if key.lower() == badge_title.lower():
-            raw_reqs = data["requirements"]
+            raw_reqs = _merge_curated_with_official_requirements(
+                key,
+                list(data["requirements"]),
+                official_cache.get(key) or [],
+            )
+
             enriched_reqs = [
                 RequirementPoint(
                     **enrich_requirement_point(
@@ -2716,85 +4166,97 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
                 available_badges_sample=["First Aid", "Camping", "Weather", "Citizenship in the Community"],
             )
 
-    # Extract chapters and teaching points directly from the official BSA Pamphlet PDF if available
-    pamphlet_chapter_reqs = extract_chapters_as_requirements_from_pamphlet(resolved_name)
-    if pamphlet_chapter_reqs:
-        raw_fallback_reqs = pamphlet_chapter_reqs
-    else:
+    # 3. Prefer official requirements from data/official_requirements_cache.json for all 138 Merit Badges!
+    cached_official_reqs = official_cache.get(resolved_name)
+    if cached_official_reqs:
         raw_fallback_reqs = [
             {
-                "req_number": "1",
-                "topic_title": f"Req 1: {resolved_name} Hazards, First Aid & Safety Rules",
-                "action_verb": "Explain",
-                "execution_mode": "IN_CLASS_DISCUSSION",
-                "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
-                "req_text": f"Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in {resolved_name} activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Show that you know first aid for injuries or illnesses that could occur while participating in {resolved_name}.",
-                "safety_callout": f"Always conduct a pre-activity safety check, follow the BSA Guide to Safe Scouting, and wear appropriate personal protective equipment for {resolved_name}.",
-            },
-            {
-                "req_number": "2",
-                "topic_title": f"Req 2: Core Terminology & Foundational Principles of {resolved_name}",
-                "action_verb": "Explain",
-                "execution_mode": "IN_CLASS_DISCUSSION",
-                "recommended_archetype": "CONCEPT_TEXT_SLIDE",
-                "req_text": f"Define the core terminology, fundamental concepts, and historical background of {resolved_name}, and explain how these principles apply in real-world practice.",
-                "safety_callout": None,
-            },
-            {
-                "req_number": "3",
-                "topic_title": f"Req 3: Equipment, Tools & Inspection for {resolved_name}",
-                "action_verb": "Demonstrate",
-                "execution_mode": "HANDS_ON_SKILL_STATION",
-                "recommended_archetype": "GEAR_CHECKLIST_GRID",
-                "req_text": f"Identify the essential tools, instruments, and equipment used in {resolved_name}, and demonstrate how to inspect, care for, and store them properly.",
-                "safety_callout": None,
-            },
-            {
-                "req_number": "4",
-                "topic_title": f"Req 4: Fundamental Techniques & Methods in {resolved_name}",
-                "action_verb": "Demonstrate",
-                "execution_mode": "HANDS_ON_SKILL_STATION",
-                "recommended_archetype": "STEP_BY_STEP_PROCEDURE_4CARD",
-                "req_text": f"Demonstrate step-by-step proficiency in the primary hands-on techniques and operational procedures required for {resolved_name}.",
-                "safety_callout": None,
-            },
-            {
-                "req_number": "5",
-                "topic_title": f"Req 5: Comparing Methods, Systems & Conditions in {resolved_name}",
-                "action_verb": "Explain",
-                "execution_mode": "IN_CLASS_DISCUSSION",
-                "recommended_archetype": "DIFFERENTIAL_COMPARISON_2COL",
-                "req_text": f"Compare the primary methods, materials, or environmental conditions encountered in {resolved_name}, and explain when each approach should be used.",
-                "safety_callout": None,
-            },
-            {
-                "req_number": "6",
-                "topic_title": f"Req 6: Practical Field Project, Observation & Log for {resolved_name}",
-                "action_verb": "Prepare",
-                "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
-                "recommended_archetype": "WORKED_EXAMPLE_TEMPLATE",
-                "req_text": f"Plan and complete a practical project, field observation log, or hands-on demonstration in {resolved_name}, and review your results with your counselor.",
-                "safety_callout": None,
-            },
-            {
-                "req_number": "7",
-                "topic_title": f"Req 7: Ethics, Stewardship & Community Impact of {resolved_name}",
-                "action_verb": "Discuss",
-                "execution_mode": "IN_CLASS_DISCUSSION",
-                "recommended_archetype": "CONCEPT_TEXT_SLIDE",
-                "req_text": f"Discuss the ethical responsibilities, environmental stewardship, and community benefits associated with {resolved_name}.",
-                "safety_callout": None,
-            },
-            {
-                "req_number": "8",
-                "topic_title": f"Req 8: {resolved_name} Careers, Training & Hobby Opportunities",
-                "action_verb": "Discuss",
-                "execution_mode": "IN_CLASS_DISCUSSION",
-                "recommended_archetype": "CONCEPT_TEXT_SLIDE",
-                "req_text": f"Find out about three career opportunities in {resolved_name}. Pick one and find out the education, training, and experience required, and discuss this with your counselor.",
-                "safety_callout": None,
-            },
+                "req_id": str(off_r.get("req_number", str(i + 1))),
+                "req_number": str(off_r.get("req_number", str(i + 1))),
+                "req_text": str(off_r.get("req_text", "")),
+                "sub_requirements": list(off_r.get("sub_requirements") or []),
+            }
+            for i, off_r in enumerate(cached_official_reqs)
         ]
+    else:
+        pamphlet_chapter_reqs = extract_chapters_as_requirements_from_pamphlet(resolved_name)
+        if pamphlet_chapter_reqs:
+            raw_fallback_reqs = pamphlet_chapter_reqs
+        else:
+            raw_fallback_reqs = [
+                {
+                    "req_number": "1",
+                    "topic_title": f"Req 1: {resolved_name} Hazards, First Aid & Safety Rules",
+                    "action_verb": "Explain",
+                    "execution_mode": "IN_CLASS_DISCUSSION",
+                    "recommended_archetype": "SPLIT_VISUAL_EXPLAINER",
+                    "req_text": f"Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in {resolved_name} activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Show that you know first aid for injuries or illnesses that could occur while participating in {resolved_name}.",
+                    "safety_callout": f"Always conduct a pre-activity safety check, follow the BSA Guide to Safe Scouting, and wear appropriate personal protective equipment for {resolved_name}.",
+                },
+                {
+                    "req_number": "2",
+                    "topic_title": f"Req 2: Core Terminology & Foundational Principles of {resolved_name}",
+                    "action_verb": "Explain",
+                    "execution_mode": "IN_CLASS_DISCUSSION",
+                    "recommended_archetype": "CONCEPT_TEXT_SLIDE",
+                    "req_text": f"Define the core terminology, fundamental concepts, and historical background of {resolved_name}, and explain how these principles apply in real-world practice.",
+                    "safety_callout": None,
+                },
+                {
+                    "req_number": "3",
+                    "topic_title": f"Req 3: Equipment, Tools & Inspection for {resolved_name}",
+                    "action_verb": "Demonstrate",
+                    "execution_mode": "HANDS_ON_SKILL_STATION",
+                    "recommended_archetype": "GEAR_CHECKLIST_GRID",
+                    "req_text": f"Identify the essential tools, instruments, and equipment used in {resolved_name}, and demonstrate how to inspect, care for, and store them properly.",
+                    "safety_callout": None,
+                },
+                {
+                    "req_number": "4",
+                    "topic_title": f"Req 4: Fundamental Techniques & Methods in {resolved_name}",
+                    "action_verb": "Demonstrate",
+                    "execution_mode": "HANDS_ON_SKILL_STATION",
+                    "recommended_archetype": "STEP_BY_STEP_PROCEDURE_4CARD",
+                    "req_text": f"Demonstrate step-by-step proficiency in the primary hands-on techniques and operational procedures required for {resolved_name}.",
+                    "safety_callout": None,
+                },
+                {
+                    "req_number": "5",
+                    "topic_title": f"Req 5: Comparing Methods, Systems & Conditions in {resolved_name}",
+                    "action_verb": "Explain",
+                    "execution_mode": "IN_CLASS_DISCUSSION",
+                    "recommended_archetype": "DIFFERENTIAL_COMPARISON_2COL",
+                    "req_text": f"Compare the primary methods, materials, or environmental conditions encountered in {resolved_name}, and explain when each approach should be used.",
+                    "safety_callout": None,
+                },
+                {
+                    "req_number": "6",
+                    "topic_title": f"Req 6: Practical Field Project, Observation & Log for {resolved_name}",
+                    "action_verb": "Prepare",
+                    "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+                    "recommended_archetype": "WORKED_EXAMPLE_TEMPLATE",
+                    "req_text": f"Plan and complete a practical project, field observation log, or hands-on demonstration in {resolved_name}, and review your results with your counselor.",
+                    "safety_callout": None,
+                },
+                {
+                    "req_number": "7",
+                    "topic_title": f"Req 7: Ethics, Stewardship & Community Impact of {resolved_name}",
+                    "action_verb": "Discuss",
+                    "execution_mode": "IN_CLASS_DISCUSSION",
+                    "recommended_archetype": "CONCEPT_TEXT_SLIDE",
+                    "req_text": f"Discuss the ethical responsibilities, environmental stewardship, and community benefits associated with {resolved_name}.",
+                    "safety_callout": None,
+                },
+                {
+                    "req_number": "8",
+                    "topic_title": f"Req 8: {resolved_name} Careers, Training & Hobby Opportunities",
+                    "action_verb": "Discuss",
+                    "execution_mode": "IN_CLASS_DISCUSSION",
+                    "recommended_archetype": "CONCEPT_TEXT_SLIDE",
+                    "req_text": f"Find out about three career opportunities in {resolved_name}. Pick one and find out the education, training, and experience required, and discuss this with your counselor.",
+                    "safety_callout": None,
+                },
+            ]
 
     enriched_fallback = [
         RequirementPoint(
@@ -2834,4 +4296,5 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
         status="SUCCESS",
     )
     return result.model_dump()
+
 

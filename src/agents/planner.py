@@ -134,15 +134,18 @@ def _infer_archetype(req: Dict[str, Any], idx: int, exec_mode: str) -> str:
 
 
 def _split_anchor_and_detail(raw_point: str, fallback_anchor: str = "Key Concept") -> tuple[str, str]:
-    """Splits a 'Bold Anchor: Body text' string into (anchor, body)."""
+    """Splits a 'Bold Anchor: Body text' string into (anchor, body) without splitting ratios like 30:2."""
+    import re
+    from src.tools.pamphlet_extractor import _derive_sentence_concept_anchor
+
     cleaned = _sanitize_no_ellipsis_or_emdash(str(raw_point or "").strip())
-    if ":" in cleaned:
-        anchor, body = cleaned.split(":", 1)
+    if re.search(r":\s+", cleaned):
+        anchor, body = re.split(r":\s+", cleaned, maxsplit=1)
         if 1 <= len(anchor.strip()) <= 60 and body.strip():
             return anchor.strip(), body.strip()
-    words = cleaned.split()
-    if len(words) > 4:
-        return " ".join(words[:3]), " ".join(words[3:])
+    if len(cleaned.split()) > 4:
+        derived = _derive_sentence_concept_anchor(cleaned, 0, set())
+        return derived or fallback_anchor, cleaned
     return fallback_anchor, cleaned
 
 
@@ -549,12 +552,7 @@ def _build_cards_for_req(req: Dict[str, Any], bullets: List[str]) -> List[Dict[s
     colors = ["#003F87", "#005AE0", "#4B5320", "#CE1126"]
     for idx_s, raw_step in enumerate(steps[:4], start=1):
         clean_s = _sanitize_no_ellipsis_or_emdash(str(raw_step))
-        if ":" in clean_s:
-            anchor, body = clean_s.split(":", 1)
-        else:
-            words = clean_s.split()
-            anchor = " ".join(words[:3]) if words else f"Step {idx_s}"
-            body = " ".join(words[3:]) if len(words) > 3 else clean_s
+        anchor, body = _split_anchor_and_detail(clean_s, fallback_anchor=f"Step {idx_s}")
         cards.append({
             "badge_label": f"STEP {idx_s}",
             "anchor_title": anchor.strip()[:36] or f"Step {idx_s}",
@@ -726,7 +724,8 @@ def generate_slide_storyboard(
         clean_section_title = raw_topic_title.replace(f"Req {req_num}:", "").strip()
 
         raw_topic_slides = list(req.get("topic_slides") or [])
-        if not raw_topic_slides or (is_deep_dive and len(raw_topic_slides) < 5):
+        min_topic_slides = 2
+        if not raw_topic_slides or (is_deep_dive and len(raw_topic_slides) < min_topic_slides):
             extra_slides = decompose_requirement_into_topic_slides(
                 badge_name=clean_badge,
                 req_dict=req,
@@ -776,9 +775,50 @@ def generate_slide_storyboard(
             selected_topic_slides = raw_topic_slides
             first_topic_shows_req = False
         else:
-            # Standard Troop Meeting mode: 1-3 focused slides per requirement.
-            # Slide 1 of the sequence lists the requirement AND teaches the first topic.
-            selected_topic_slides = raw_topic_slides[:2] if len(requirements) >= 8 else raw_topic_slides[:3]
+            # Standard Troop Meeting mode: 1-4 focused slides per requirement covering 100% of sub-requirements.
+            n_reqs = max(1, len(requirements))
+            sub_slides = [
+                s for s in raw_topic_slides
+                if "sub-requirement deep dive" in str(s.get("title", "")).lower()
+            ]
+            other_slides = [
+                s for s in raw_topic_slides
+                if "sub-requirement deep dive" not in str(s.get("title", "")).lower()
+            ]
+            if len(sub_slides) > 3:
+                all_sub_bullets: List[str] = []
+                for ss in sub_slides:
+                    all_sub_bullets.extend(str(b) for b in (ss.get("bullets") or []))
+                # Pack >12 sub-requirements into 12 cards (3 slides x 4 cards) so 100% of sub-reqs fit in 3 slides + 1 execution slide = 4 slides
+                packed_cards: List[str] = []
+                idx_b = 0
+                rem_items = len(all_sub_bullets)
+                rem_slots = 12
+                while idx_b < len(all_sub_bullets):
+                    if rem_items > rem_slots and idx_b + 1 < len(all_sub_bullets):
+                        b1 = all_sub_bullets[idx_b]
+                        b2 = all_sub_bullets[idx_b + 1]
+                        packed_cards.append(f"{b1} | {b2}")
+                        idx_b += 2
+                        rem_items -= 2
+                    else:
+                        packed_cards.append(all_sub_bullets[idx_b])
+                        idx_b += 1
+                        rem_items -= 1
+                    rem_slots -= 1
+                compacted_sub_slides: List[Dict[str, Any]] = []
+                for c_i in range(0, len(packed_cards), 4):
+                    base_ss = dict(sub_slides[min(c_i // 4, len(sub_slides) - 1)])
+                    base_ss["bullets"] = packed_cards[c_i : c_i + 4]
+                    compacted_sub_slides.append(base_ss)
+                selected_topic_slides = compacted_sub_slides[:3] + other_slides[:1]
+            elif sub_slides:
+                extra_budget = 2 if (len(sub_slides) == 1 and n_reqs <= 6) else 1
+                selected_topic_slides = sub_slides + other_slides[:extra_budget]
+            else:
+                per_req_cap = 3 if n_reqs <= 6 else 2
+                selected_topic_slides = raw_topic_slides[:per_req_cap]
+            selected_topic_slides = selected_topic_slides[:4]
             first_topic_shows_req = True
 
         # Topic Instruction & Full-Page Diagram Slides for Requirement N

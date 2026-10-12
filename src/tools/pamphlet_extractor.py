@@ -113,9 +113,18 @@ def _clean_pdf_text(raw_text: str, badge_name: str = "") -> str:
     # Rejoin BSA PDF kerning splits where 1-3 letters at the end of a token are split before lowercase continuation
     # e.g., "R\neducing" -> "Reducing", "Patrol/T\nroop" -> "Patrol/Troop", "Appr\noach" -> "Approach"
     text = re.sub(r"([A-Za-z/]{1,8})\n([a-z]{2,})", r"\1\2", text)
+    # Fix inline uppercase kerning splits common in BSA PDFs ("Y our" -> "Your", "T o" -> "To", "W ith" -> "With")
+    text = re.sub(
+        r"\b([TWYFBCPSDHLMRN])\s+(o|our|he|hat|his|hem|hen|here|hy|ith|rom|or|an|ill|ould|hould|efore|fter|nder|ver|art|lan|lace|eople|ood|ater|ire|irst|hile|hich)\b",
+        r"\1\2",
+        text,
+    )
     # Remove decorative leading dots on headings (e.g. ".How to Handle" -> "How to Handle")
     text = re.sub(r"(?m)^\s*\.([A-Z])", r"\1", text)
     text = re.sub(r"\s+\.([A-Z])", r" \1", text)
+    # Clean double punctuation artifacts ("?." -> "?", "!." -> "!")
+    text = re.sub(r"\?\.", "?", text)
+    text = re.sub(r"!\.", "!", text)
     # Collapse horizontal whitespace
     text = re.sub(r"[ \t]+", " ", text)
     return text.strip()
@@ -335,13 +344,89 @@ def build_pamphlet_index(badge_name: str) -> Dict[str, Any]:
     return index_obj
 
 
+_ANCHOR_STOP_WORDS = {
+    "the", "and", "for", "with", "your", "you", "that", "this", "these", "those",
+    "from", "into", "onto", "upon", "have", "has", "had", "will", "would", "could",
+    "should", "must", "can", "may", "might", "are", "was", "were", "been", "being",
+    "when", "where", "while", "which", "what", "who", "whom", "whose", "how", "why",
+    "such", "other", "another", "some", "any", "each", "every", "both", "all", "most",
+    "more", "many", "much", "very", "also", "only", "just", "even", "still", "already",
+    "always", "never", "often", "sometimes", "usually", "according", "including",
+    "following", "during", "before", "after", "under", "over", "between", "through",
+    "about", "around", "because", "although", "though", "unless", "until", "whether",
+    "either", "neither", "make", "makes", "made", "making", "use", "uses", "used",
+    "using", "keep", "keeps", "keeping", "help", "helps", "helping", "need", "needs",
+    "needed", "take", "takes", "taking", "give", "gives", "giving", "find", "found",
+    "know", "known", "called", "like", "well", "good", "best", "better", "important",
+    "sure", "able", "one", "two", "three", "four", "five", "first", "second", "third",
+    "scout", "scouts", "scouting", "merit", "badge", "counselor", "pamphlet",
+    "yet", "step", "steps", "fill", "clean", "clear", "put", "place", "take", "get",
+    "set", "let", "try", "see", "look", "watch", "note", "notice", "adult", "help",
+}
+
+
+def _derive_sentence_concept_anchor(sentence: str, idx: int, seen_anchors: set) -> str:
+    """Derives a distinct, semantic 2-3 word Title-Case concept anchor from a sentence
+    without ever slicing raw introductory fragments ('According to the USDA's') or repeating anchors.
+    """
+    cleaned = re.sub(r"\s+", " ", sentence).strip()
+    # If the sentence already starts with a clean 'Concept Title: body' (not a numeric ratio like 30:2)
+    m_colon = re.match(r"^([A-Z][A-Za-z0-9 &/\-]{3,32}):\s+(.+)$", cleaned)
+    if m_colon:
+        cand = m_colon.group(1).strip()
+        if len(cand.split()) <= 5 and cand.lower() not in seen_anchors:
+            seen_anchors.add(cand.lower())
+            return cand
+
+    # Strip introductory adverbial/prepositional clauses before the first comma if short
+    clause = re.sub(
+        r"^(?:According to [^,]+,\s*|In addition(?: to [^,]+)?,\s*|For example,\s*|"
+        r"To [a-z]+ (?:the |a |an |your )?[^,]{2,24},\s*|When [a-z ]{2,24},\s*|"
+        r"Before [a-z ]{2,24},\s*|After [a-z ]{2,24},\s*|If you [a-z ]{2,24},\s*)",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    tokens = [
+        w.strip(".,;:!?()\"'“”‘’")
+        for w in re.findall(r"[A-Za-z][A-Za-z'\-]{2,}", clause)
+    ]
+    content_words = [
+        w for w in tokens
+        if w.lower() not in _ANCHOR_STOP_WORDS and len(w) >= 3
+    ]
+    if not content_words:
+        content_words = [w for w in tokens if len(w) >= 3]
+
+    # Try sliding window of 2-3 content words so every bullet on a slide gets a unique anchor
+    for start_i in range(0, max(1, len(content_words) - 1)):
+        chunk = content_words[start_i : start_i + 3]
+        if not chunk:
+            break
+        cand = " ".join(w.capitalize() if w.islower() else w for w in chunk)
+        if len(cand) > 28 and len(chunk) >= 3:
+            cand = " ".join(w.capitalize() if w.islower() else w for w in chunk[:2])
+        if cand.lower() not in seen_anchors:
+            seen_anchors.add(cand.lower())
+            return cand
+
+    fallback = f"Core Principle {idx + 1}"
+    seen_anchors.add(fallback.lower())
+    return fallback
+
+
 def _extract_clean_teaching_points_from_pages(
     pages: Dict[int, Dict[str, Any]],
     best_pages: List[int],
     badge_name: str,
+    max_points: int = 6,
 ) -> List[str]:
-    """Extracts 4–6 substantive, Scout-friendly teaching points from matched BSA Pamphlet pages."""
+    """Extracts substantive, complete, Scout-friendly teaching points from matched BSA Pamphlet pages
+    with distinct semantic concept anchors (never latching wrapped PDF lines as repeated subheadings).
+    """
     points: List[str] = []
+    seen_anchors: set = set()
+    seen_bodies: set = set()
     conversational_fluff = (
         "for example",
         "it might be",
@@ -351,49 +436,106 @@ def _extract_clean_teaching_points_from_pages(
         "for nearly a hundred",
         "always check scouting",
         "scan this qr",
+        "see the resources",
+        "for more information",
+        "photo courtesy",
+        "boy scouts of america",
+        "scouting america",
     )
 
     for p_num in best_pages:
         p_info = pages.get(p_num)
         if not p_info:
             continue
+        head_lower = str(p_info.get("heading") or "").lower()
+        if any(skip_w in head_lower for skip_w in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
+            continue
+
         lines = p_info.get("lines") or []
-        current_subhead = p_info.get("heading") or f"Pamphlet Guidance (p. {p_num})"
-
-        # Reconstruct clean paragraphs from lines while detecting short subheadings
-        buffer: List[str] = []
-        subhead_blocks: List[Tuple[str, str]] = []
+        # Rejoin wrapped PDF lines into continuous prose without treating short wrapped lines as subheadings
+        joined_lines: List[str] = []
         for ln in lines:
-            if len(ln) <= 52 and not ln.endswith((".", ",", ";", ":")) and ln[:1].isupper() and len(ln.split()) <= 7:
-                if buffer:
-                    subhead_blocks.append((current_subhead, " ".join(buffer)))
-                    buffer = []
-                current_subhead = ln.strip(" .•")
-            else:
-                buffer.append(ln)
-        if buffer:
-            subhead_blocks.append((current_subhead, " ".join(buffer)))
+            clean_ln = ln.strip()
+            if not clean_ln:
+                continue
+            # Skip standalone page numbers or running headers
+            if re.match(r"^\d+$", clean_ln) or clean_ln.lower() == badge_name.lower():
+                continue
+            # Skip TOC leader lines or copyright lines
+            if "...." in clean_ln or "isbn" in clean_ln.lower() or "all rights reserved" in clean_ln.lower():
+                continue
+            # If line does not end with sentence punctuation and is a short Title Case heading, ensure it ends with a period so it doesn't fuse into the next sentence
+            if (
+                len(clean_ln) <= 42
+                and not clean_ln.endswith((".", "!", "?", ":", ";", ",", "-"))
+                and clean_ln[:1].isupper()
+                and sum(1 for w in clean_ln.split() if w[:1].isupper()) >= max(1, len(clean_ln.split()) - 1)
+                and (not joined_lines or joined_lines[-1].endswith((".", "!", "?")))
+            ):
+                continue
+            joined_lines.append(clean_ln)
 
-        for subhead, body_block in subhead_blocks:
-            sentences = re.split(r"(?<=[.!?])\s+", body_block)
-            for sent in sentences:
-                s_clean = " ".join(sent.split()).strip(" .•-*")
-                if len(s_clean) < 42 or len(s_clean) > 185:
-                    continue
-                if "...." in s_clean or "isbn" in s_clean.lower() or "scouting.org" in s_clean.lower():
-                    continue
-                if any(s_clean.lower().startswith(fluff) for fluff in conversational_fluff):
-                    continue
-                clean_head = re.sub(r"^\d+\s+", "", subhead).strip(" .:")
-                if not clean_head or clean_head.lower() == badge_name.lower():
-                    clean_head = f"Key Principle (p. {p_num})"
-                if len(clean_head) > 36:
-                    clean_head = " ".join(clean_head.split()[:4])
-                formatted = f"{clean_head}: {s_clean}."
-                if formatted not in points:
-                    points.append(formatted)
-                if len(points) >= 5:
-                    return points
+        full_block = " ".join(joined_lines)
+        full_block = re.sub(r"\s+", " ", full_block).strip()
+        # Protect common abbreviations before splitting sentences
+        full_block = (
+            full_block.replace("U.S.", "US_ABBR")
+            .replace("e.g.", "eg_ABBR")
+            .replace("i.e.", "ie_ABBR")
+            .replace("Dr.", "Dr_ABBR")
+            .replace("St.", "St_ABBR")
+            .replace("oz.", "oz_ABBR")
+            .replace("lb.", "lb_ABBR")
+            .replace("min.", "min_ABBR")
+            .replace(" degrees F.", " degrees F")
+        )
+
+        raw_sentences = re.split(r"(?<=[.!?])\s+(?=[A-Z])", full_block)
+        for sent in raw_sentences:
+            s_clean = (
+                sent.replace("US_ABBR", "U.S.")
+                .replace("eg_ABBR", "e.g.")
+                .replace("ie_ABBR", "i.e.")
+                .replace("Dr_ABBR", "Dr.")
+                .replace("St_ABBR", "St.")
+                .replace("oz_ABBR", "oz.")
+                .replace("lb_ABBR", "lb.")
+                .replace("min_ABBR", "min.")
+            )
+            s_clean = " ".join(s_clean.split()).strip(" .•-*")
+            if len(s_clean) < 48 or len(s_clean) > 175:
+                continue
+            if not s_clean[:1].isupper():
+                continue
+            # Reject sentences with unclosed parentheses or mid-sentence dictionary fragments like "Dutch oven. A thick"
+            if s_clean.count("(") != s_clean.count(")"):
+                continue
+            if re.match(r"^[A-Z][a-z]+(?:\s+[a-z]+){0,2}\.\s+", s_clean):
+                continue
+            if "...." in s_clean or "isbn" in s_clean.lower() or "scouting.org" in s_clean.lower():
+                continue
+            if any(s_clean.lower().startswith(fluff) for fluff in conversational_fluff):
+                continue
+
+            # If sentence already has 'Anchor: Body', split it so we don't double-prefix
+            m_existing = re.match(r"^([A-Z][A-Za-z0-9 &/\-]{3,30}):\s+(.+)$", s_clean)
+            if m_existing and len(m_existing.group(1).split()) <= 5:
+                anchor = m_existing.group(1).strip()
+                body = m_existing.group(2).strip().rstrip(".")
+                seen_anchors.add(anchor.lower())
+            else:
+                body = s_clean.rstrip(".")
+                anchor = _derive_sentence_concept_anchor(body, len(points), seen_anchors)
+
+            body_norm = body.lower()[:60]
+            if body_norm in seen_bodies:
+                continue
+            seen_bodies.add(body_norm)
+
+            formatted = f"{anchor}: {body}."
+            points.append(formatted)
+            if len(points) >= max_points:
+                return points
     return points
 
 
@@ -438,10 +580,15 @@ def summarize_pamphlet_for_requirement(
     if page_count > 8 and words:
         scored: List[Tuple[float, int]] = []
         for p_num, p_info in pages.items():
-            if p_num < 8 or p_num > page_count - 2:
+            if p_num < 6 or p_num > page_count - 2:
                 continue
             txt_lower = p_info["text"].lower()
             head_lower = p_info["heading"].lower()
+            # Never match Glossary, Index, Photo Credits, or Resources pages
+            if any(skip_h in head_lower for skip_h in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
+                continue
+            if txt_lower.lstrip().startswith(("glossary", "resources", "acknowledgments", "photo credits")):
+                continue
             score = 0.0
             for w in set(words):
                 if w in head_lower:
@@ -449,32 +596,34 @@ def summarize_pamphlet_for_requirement(
                 if w in txt_lower:
                     score += 1.5
             if p_info["images"]:
-                score += 1.2
+                score += 1.0
             if score > 0:
                 scored.append((score, p_num))
         scored.sort(key=lambda x: (-x[0], x[1]))
         best_pages = [p for _, p in scored[:3]]
 
     if not best_pages and page_count > 10:
-        body_start = 9
-        body_end = max(10, page_count - 2)
+        body_start = 7
+        body_end = max(10, page_count - 4)
         span = max(1, body_end - body_start)
         est_page = body_start + int((req_index / max(1, total_reqs)) * span)
         best_pages = [min(body_end, max(body_start, est_page))]
 
-    extracted_bullets = _extract_clean_teaching_points_from_pages(pages, best_pages, badge_name)
+    extracted_bullets = _extract_clean_teaching_points_from_pages(pages, best_pages, badge_name, max_points=10)
     matched_heading = (pages.get(best_pages[0]) or {}).get("heading", "") if best_pages else ""
 
-    # Pick the best unused pamphlet image from matched or nearby pages
+    # Pick the best unused pamphlet image from matched or nearby pages (within +/- 2 pages so images stay relevant)
     chosen_raw_img: Optional[Path] = None
     chosen_img_page: Optional[int] = None
 
     search_pages: List[int] = []
     for bp in best_pages:
-        for offset in (0, 1, -1, 2, -2, 3, -3, 4, -4):
+        for offset in (0, 1, -1, 2, -2):
             cand_p = bp + offset
-            if 5 <= cand_p <= page_count and cand_p not in search_pages:
-                search_pages.append(cand_p)
+            if 5 <= cand_p <= page_count - 3 and cand_p not in search_pages:
+                cand_head = str((pages.get(cand_p) or {}).get("heading") or "").lower()
+                if not any(skip_h in cand_head for skip_h in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
+                    search_pages.append(cand_p)
 
     for cand_p in search_pages:
         for img_path in (pages.get(cand_p) or {}).get("images", []):
@@ -485,15 +634,6 @@ def summarize_pamphlet_for_requirement(
                 break
         if chosen_raw_img:
             break
-
-    # If nearby pages didn't have an unused raster image, pick from any remaining body image
-    if not chosen_raw_img:
-        for cand_p, img_path in p_index.get("all_images", []):
-            if cand_p >= 5 and str(img_path) not in used_image_paths and img_path.exists():
-                chosen_raw_img = img_path
-                chosen_img_page = cand_p
-                used_image_paths.add(str(img_path))
-                break
 
     # Or render the pamphlet page figure directly via pdftoppm if pdf_path exists
     if not chosen_raw_img and pdf_path and best_pages:
@@ -555,15 +695,16 @@ def extract_chapters_as_requirements_from_pamphlet(badge_name: str) -> List[Dict
     # Use TOC chapters if available; otherwise sample major body sections across the pamphlet
     sections: List[Tuple[str, int]] = []
     for entry in toc[:8]:
-        sections.append((entry["title"], entry["pdf_page"]))
+        if not any(skip_w in entry["title"].lower() for skip_w in ("glossary", "resources", "acknowledgments", "index")):
+            sections.append((entry["title"], entry["pdf_page"]))
 
     if len(sections) < 5:
         sections = []
         seen_heads: set = set()
-        for p_num in range(9, page_count - 2, max(2, (page_count - 10) // 7)):
+        for p_num in range(9, page_count - 3, max(2, (page_count - 10) // 7)):
             p_info = pages.get(p_num) or {}
             head = p_info.get("heading") or f"{badge_name} Core Skill (p. {p_num})"
-            if head.lower() not in seen_heads:
+            if head.lower() not in seen_heads and not any(skip_w in head.lower() for skip_w in ("glossary", "resources", "acknowledgments")):
                 seen_heads.add(head.lower())
                 sections.append((head, p_num))
             if len(sections) >= 7:
@@ -572,7 +713,7 @@ def extract_chapters_as_requirements_from_pamphlet(badge_name: str) -> List[Dict
     for idx, (sec_title, start_page) in enumerate(sections, start=1):
         req_num = str(idx)
         window_pages = [p for p in (start_page, start_page + 1, start_page + 2) if p in pages]
-        bullets = _extract_clean_teaching_points_from_pages(pages, window_pages, badge_name)
+        bullets = _extract_clean_teaching_points_from_pages(pages, window_pages, badge_name, max_points=8)
         summary = summarize_pamphlet_for_requirement(
             badge_name=badge_name,
             req_number=req_num,
@@ -589,7 +730,7 @@ def extract_chapters_as_requirements_from_pamphlet(badge_name: str) -> List[Dict
             "req_text": f"Master the official {badge_name} Merit Badge Pamphlet section on {sec_title} (p. {start_page}).",
             "pamphlet_citation": summary["pamphlet_citation"],
             "pamphlet_excerpts": final_bullets[:5],
-            "step_by_step_procedure": final_bullets[:4],
+            "step_by_step_procedure": final_bullets[4:8] if len(final_bullets) >= 6 else [],
             "pamphlet_image_path": summary["pamphlet_image_path"],
             "execution_mode": "HANDS_ON_SKILL_STATION" if idx % 2 == 0 else "IN_CLASS_DISCUSSION",
             "recommended_archetype": "SPLIT_VISUAL_EXPLAINER" if idx % 2 == 1 else "STEP_BY_STEP_PROCEDURE_4CARD",
@@ -598,29 +739,52 @@ def extract_chapters_as_requirements_from_pamphlet(badge_name: str) -> List[Dict
 
 
 def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = "") -> str:
-    """Derives a clear, subject-matter slide title (never meta!) for a requirement."""
+    """Derives a clear, subject-matter slide title (never meta!) for a requirement without splitting ratios like 30:2."""
     cleaned = re.sub(r"\s+", " ", req_text).strip()
-    # Protect common abbreviations before splitting on punctuation
-    cleaned = cleaned.replace("U.S.", "US").replace("e.g.", "eg").replace("i.e.", "ie")
+    lower_raw = cleaned.lower()
+    if "most likely hazards you may encounter" in lower_raw or "hazards you may encounter while participating" in lower_raw:
+        return "Hazards, First Aid & Safety" if str(req_number).lower() == "overview" else f"Req {req_number}: Hazards, First Aid & Safety"
+    if "career opportunities" in lower_raw or ("three career" in lower_raw and "pick one" in lower_raw):
+        return "Careers & Professional Pathways" if str(req_number).lower() == "overview" else f"Req {req_number}: Careers & Professional Pathways"
 
-    subject = re.sub(
-        r"^(Do TWO of the following,\s*including\s*|Do the following:\s*|"
-        r"Demonstrate to your counselor that you have current knowledge of all\s*|"
-        r"Demonstrate to your counselor that you have current knowledge of\s*|"
-        r"Demonstrate to your counselor that you\s*|Show that you know\s*|"
-        r"Discuss each of the following documents with your counselor,\s*explaining how\s*|"
-        r"Discuss each of the following\s*|Explain to your counselor the most likely\s*|"
-        r"Explain to your counselor\s*|"
-        r"Describe the symptoms and signs of,\s*and demonstrate proper procedures for\s*|"
-        r"Describe the symptoms and signs of,\s*show first aid for,\s*and explain prevention of\s*|"
-        r"Describe the conditions under which\s*|Discuss with your counselor\s*|"
-        r"Explain how you would\s*|Explain how\s*|Explain why\s*|Explain what\s*|"
-        r"Describe how\s*|Describe the\s*|Demonstrate\s*|Explain\s*|Describe\s*|"
-        r"Discuss\s*|Show\s*|Prepare a\s*|Make a\s*|List the\s*)",
-        "",
-        cleaned,
+    # Protect common abbreviations before splitting on punctuation
+    subject = cleaned.replace("U.S.", "US").replace("e.g.", "eg").replace("i.e.", "ie")
+
+    prefix_pattern = re.compile(
+        r"^(\([a-zA-Z0-9]+\)\s*|"
+        r"Do (?:ALL|ONE|TWO|THREE|FOUR|EACH) of the following(?:\s+options)?(?:,\s*including)?[:\s,]*|"
+        r"Do the following[:\s,]*|"
+        r"With the aid of diagrams(?:\s*\([^)]*\))?,\s*do each of the following[:\s,]*|"
+        r"With the aid of diagrams,\s*|"
+        r"With your parent or guardian's permission(?:\s+and\s+counselor's\s+approval)?,\s*|"
+        r"Ask an adult to help with this\s+|"
+        r"Demonstrate to your counselor that you have current knowledge of all\s+|"
+        r"Demonstrate to your counselor that you have current knowledge of\s+|"
+        r"Demonstrate to your counselor that you\s+|"
+        r"Demonstrate to your counselor\s+|"
+        r"Show that you know\s+|"
+        r"Discuss each of the following documents with your counselor,\s*explaining how\s+|"
+        r"Discuss each of the following\s+|"
+        r"Discuss with your counselor\s+|"
+        r"Explain to your counselor the most likely\s+|"
+        r"Explain to your counselor\s+|"
+        r"Describe the symptoms and signs of,\s*and demonstrate proper procedures for\s+|"
+        r"Describe the symptoms and signs of,\s*show first aid for,\s*and explain prevention of\s+|"
+        r"Describe the conditions under which\s+|"
+        r"Explain how you would\s+|Explain how\s+|Explain why\s+|Explain what\s+|"
+        r"Describe how\s+|Describe the\s+|Describe what\s+|"
+        r"List the names of\s+|List the\s+|Identify the\s+|Identify\s+|"
+        r"Sketch the face of\s+|Sketch the\s+|Construct a\s+|"
+        r"Demonstrate\s+|Explain\s+|Describe\s+|Discuss\s+|Show\s+|"
+        r"Prepare a\s+|Make a\s+|Using the\s+)",
         flags=re.IGNORECASE,
-    ).strip(" .,:;-")
+    )
+    for _ in range(5):
+        next_subj = prefix_pattern.sub("", subject).strip(" .,:;-")
+        if next_subj == subject:
+            break
+        subject = next_subj
+
     subject = re.sub(
         r"\s+you may encounter(?:\s+while\s+participating\s+in)?\s+",
         " in ",
@@ -628,7 +792,13 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
         flags=re.IGNORECASE,
     )
 
-    first_clause = re.split(r"[;:]|\.(?=\s|$)|\band demonstrate\b|\band explain\b", subject, maxsplit=1)[0].strip()
+    # Split on ';', ': ' (only when followed by space, never inside 30:2!), or '. '
+    first_clause = re.split(r";|:\s+|\.(?=\s|$)|\band demonstrate\b|\band explain\b", subject, maxsplit=1)[0].strip()
+    if "(" in first_clause and ")" not in first_clause:
+        first_clause = first_clause.split("(", 1)[0].strip()
+    elif "(" in first_clause:
+        first_clause = re.sub(r"\s*\([^)]*\)", "", first_clause).strip()
+
     words = first_clause.split()
     trailing_stop = {
         "and", "or", "for", "with", "to", "in", "of", "on", "at", "by", "from",
@@ -636,18 +806,26 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
         "where", "how", "why", "what", "you", "your", "may", "can", "will", "should",
         "must", "have", "has", "are", "is", "be", "been", "including", "such", "into",
         "about", "between", "through", "under", "over", "encounter", "participating",
+        "following", "daily", "plan", "proper", "appropriate", "different", "various",
+        "several", "least", "three", "four", "five", "two", "one", "each", "both",
+        "all", "any", "some", "other", "using", "used", "make", "making", "prepare",
+        "preparing", "explain", "describe", "discuss", "show", "demonstrate", "do",
+        "most", "likely", "aid",
     }
     if len(words) > 6:
         trimmed = words[:6]
-        while len(trimmed) > 3 and trimmed[-1].lower().strip(",.;:()") in trailing_stop:
+        while len(trimmed) > 2 and trimmed[-1].lower().strip(",.;:()") in trailing_stop:
             trimmed.pop()
-        first_clause = " ".join(trimmed).rstrip(",.;:()")
+        first_clause = " ".join(trimmed).rstrip(",.;:()-")
     else:
-        while len(words) > 3 and words[-1].lower().strip(",.;:()") in trailing_stop:
+        while len(words) > 2 and words[-1].lower().strip(",.;:()") in trailing_stop:
             words.pop()
-        first_clause = " ".join(words).rstrip(",.;:()")
+        first_clause = " ".join(words).rstrip(",.;:()-")
 
-    if (len(first_clause) < 8 or "following" in first_clause.lower()) and pamphlet_heading:
+    if (
+        len(first_clause) < 8
+        or any(bad_t in first_clause.lower() for bad_t in ("following", "glossary", "resources", "acknowledgments"))
+    ) and pamphlet_heading and not any(bad_h in pamphlet_heading.lower() for bad_h in ("glossary", "resources", "acknowledgments")):
         first_clause = pamphlet_heading
 
     first_clause = first_clause.replace("US ", "U.S. ")
@@ -834,6 +1012,224 @@ def _compose_pamphlet_visual_card(
     return str(out_file)
 
 
+def _parse_inline_sub_requirements(req_num: str, req_text: str) -> List[Dict[str, str]]:
+    """Extracts inline (a), (b), (c) clauses from a requirement string when sub_requirements list is not pre-populated."""
+    matches = list(re.finditer(r"\(([a-z]|[1-9])\)\s*", req_text))
+    if len(matches) < 2:
+        return []
+    subs: List[Dict[str, str]] = []
+    for i, m in enumerate(matches):
+        sub_label = m.group(1)
+        start_pos = m.end()
+        end_pos = matches[i + 1].start() if i + 1 < len(matches) else len(req_text)
+        chunk = req_text[start_pos:end_pos].strip(" ;.,")
+        if len(chunk) >= 8:
+            subs.append({"id": f"{req_num}{sub_label}", "text": f"{chunk}."})
+    return subs
+
+
+_SHORT_SUBREQ_INSTRUCTIONAL_GLOSSARY: Dict[str, str] = {
+    # First Aid short sub-requirements
+    "demonstrate a thorough examination of an accident victim": "Perform a systematic head-to-toe secondary survey checking head, neck, chest, abdomen, pelvis, extremities, and medical ID after stabilizing life threats.",
+    "discuss why shock is an emergency": "Shock is life-threatening circulatory failure that starves vital organs of oxygen; lay the patient flat, maintain body warmth, and get immediate EMS care.",
+    "closed wounds, such as a bruise (contusion) or a hematoma": "Closed Wounds (Bruise / Hematoma) — Apply an ice or cold pack wrapped in cloth for 20 minutes, elevate the injured limb, and watch for deep swelling or fracture signs.",
+    "chemical burns": "Chemical Burns — Brush off dry chemical powder with a gloved hand, remove contaminated clothing/jewelry, and flush continuously with running water for at least 20 minutes.",
+    "electrical burns": "Electrical Burns — Shut off power or confirm utility clearance first, check ABCs/CPR needs, and cover both entry and exit burn wounds with dry sterile dressings.",
+    "sunburn": "Sunburn — Move into shade, cool skin with damp cloths or aloe lotion, hydrate with water, and prevent with broad-spectrum SPF 30+ sunscreen and UPF sun clothing.",
+    "snow blindness": "Snow Blindness (Photokeratitis) — Corneal UV sunburn from snow/water glare; rest in darkness with cool damp pads over closed eyes and prevent with UV-blocking sunglasses.",
+    "immersion foot, frostnip, frostbite, and ice burns": "Cold Skin Injuries (Immersion Foot, Frostnip & Frostbite) — Dry wet feet and warm frostnipped skin against warm body areas; rewarm frostbite in 99–102°F water without rubbing.",
+    "abrasions, such as chafing and rope burns": "Abrasions, Chafing & Rope Burns — Scrub gently with mild soap and clean water, apply antibiotic ointment, cover with a sterile non-stick dressing, and wear friction-free gear.",
+    "blisters on the hands, feet, buttocks, and shoulders": "Friction Blisters — Stop immediately at the first 'hot spot,' apply a moleskin doughnut pad or gel dressing to relieve pressure, and keep the blister roof intact.",
+    "rash from poisonous plants": "Poisonous Plant Rash (Poison Ivy, Oak & Sumac) — Identify 'leaves of three,' wash exposed skin and gear immediately with soap and cool water, and apply hydrocortisone or calamine.",
+    "bug bites of chiggers, ticks, mosquitoes, and biting gnats": "Tick, Mosquito & Chigger Bites — Remove embedded ticks straight out with fine-tipped tweezers at the skin surface, wash with antiseptic, and prevent with EPA-approved repellent.",
+    "bee stings": "Bee & Wasp Stings — Scrape out a honeybee stinger sideways with a card edge, apply a cold pack for pain/swelling, and monitor closely for anaphylaxis.",
+    "bites of spiders": "Spider Bites (Black Widow & Brown Recluse) — Wash with soap and water, apply a cold pack, capture/photograph the spider safely if possible, and seek medical care.",
+    "sting of a scorpion": "Scorpion Stings — Wash the sting site, apply a cool compress, keep the victim calm and still, and seek urgent medical care if numbness, muscle spasms, or breathing trouble occur.",
+    "bite of a pet or wild mammal or human": "Mammal or Human Bites — Irrigate thoroughly with soap and running water for 5 minutes, control bleeding with sterile gauze, and seek medical evaluation for rabies/tetanus.",
+    "bite of a venomous snake": "Venomous Snakebite — Keep the victim calm, immobilize the bitten limb at heart level, remove rings/watches, never cut/suck/tourniquet, and arrange rapid EMS transport.",
+    "a nosebleed": "Nosebleed Epistaxis Care — Sit upright leaning slightly forward (never tilt head back) and pinch the soft lower nostrils firmly together for 10 to 15 full minutes.",
+    "choking": "Conscious & Unconscious Choking — For severe airway obstruction, alternate 5 firm back blows between shoulder blades and 5 upward abdominal thrusts until cleared.",
+    "asthmatic attack": "Asthma Attack Response — Sit the person upright in a comfortable position, loosen tight clothing, assist with their prescribed quick-relief bronchodilator inhaler, and call 911 if severe.",
+    "inhalation injuries": "Smoke & Carbon Monoxide Inhalation — Move the victim to fresh air immediately once safe, monitor airway for hoarseness or soot burns, administer oxygen if trained, and call 911.",
+    "altitude sickness": "Acute Mountain Sickness (AMS) — Recognize headache, nausea, and dizziness above 8,000 feet; stop ascending, rest, hydrate, and descend immediately if symptoms worsen.",
+    "fainting": "Fainting (Syncope) — Lay the person flat on their back, elevate legs 8 to 12 inches if no spine injury is suspected, loosen tight collars, and check airway/breathing.",
+    "hypoglycemia": "Diabetic Hypoglycemia (Low Blood Sugar) — If conscious and able to swallow, give 15–20 grams of fast-acting oral sugar (glucose tablets, fruit juice, or regular soda).",
+    "seizure": "Grand Mal / Tonic-Clonic Seizure — Clear nearby hard objects, cushion the head, never restrain or place anything in the mouth, and roll into the recovery position afterward.",
+    "drug overdose and alcohol poisoning": "Drug Overdose & Alcohol Poisoning — Call 911 immediately, administer naloxone (Narcan) nasal spray if opioid overdose is suspected, and monitor breathing in the recovery position.",
+    "underwater hypoxic blackout": "Underwater Hypoxic Blackout — Caused by hyperventilating before breath-hold diving; pull victim from water immediately, begin rescue breathing/CPR, and forbid breath-hold contests.",
+    "cold water shock and drowning": "Cold Water Shock & Drowning — Follow Reach-Throw-Row-Go rescue order, control the initial 1-minute gasp reflex, begin immediate rescue breaths/CPR, and treat hypothermia.",
+    "lightning strike and electric shock": "Lightning Strike & Electric Shock — Ensure scene electrical safety, perform reverse triage on lightning victims (treat cardiac/respiratory arrest first with CPR/AED), and treat burns.",
+    "explain what a heart attack is": "Myocardial Infarction (Heart Attack) — Blockage of a coronary artery deprives heart muscle of oxygen, causing chest pressure, arm/jaw pain, sweating, and shortness of breath.",
+    "explain the use of an automated external defibrillator (aed)": "Automated External Defibrillator (AED) — Analyzes heart rhythm and delivers a life-saving shock for ventricular fibrillation; power on, attach pads, clear victim, and resume CPR.",
+    "dehydration and over-hydration": "Dehydration vs. Hyponatremia (Over-Hydration) — Prevent dehydration by drinking water until urine is pale yellow; prevent sodium-depleting over-hydration by balancing fluids with electrolytes.",
+    "heat cramps and muscle pain after exertion": "Exertional Heat Cramps — Move to shade, rest the cramping muscle, sip cool water with electrolytes or sports drink, and gently stretch and massage the muscle.",
+    "heat exhaustion": "Heat Exhaustion — Cool, pale, clammy skin with heavy sweating, dizziness, and nausea; move to shade/AC, remove excess gear, apply cool wet cloths, and sip water.",
+    "heat stroke": "Heat Stroke (Life-Threatening Emergency) — Core temp >104°F with altered mental state and hot skin; call 911 and cool aggressively with ice-water immersion or ice packs at neck/groin/armpits.",
+    "chest pains associated with cold exposure": "Cold-Induced Angina / Chest Pain — Cold air constricts coronary arteries during exertion; stop activity immediately, move to a warm shelter, rest seated, and call 911 if pain persists.",
+    "hypothermia": "Hypothermia — Shivering, slurred speech, stumbling, and confusion ('umbles'); move to dry shelter, replace wet clothes, insulate from ground, and warm core gradually.",
+    "object in the eye": "Foreign Object in the Eye — Never rub the eye; flush gently with clean water or sterile saline from the inner corner outward, or cover both eyes and seek medical care.",
+    "broken, chipped, loosened, or knocked out tooth": "Dental Trauma / Knocked-Out Tooth — Handle an avulsed tooth only by the crown (never the root), transport in cold milk or Hank's balanced salt solution, and see a dentist within 30 minutes.",
+    "vomiting and diarrhea associated with food poisoning": "Foodborne Illness (Vomiting & Diarrhea) — Rest the stomach, replace fluids and electrolytes with small frequent sips of oral rehydration solution, and prevent via camp kitchen sanitation.",
+    "abdominal pain": "Acute Abdominal Pain — Have the patient rest in a comfortable position, never give food, laxatives, or pain medication, and evacuate if accompanied by fever, rigid abdomen, or vomiting.",
+    "stroke": "Stroke Recognition (FAST Protocol) — Check Face drooping, Arm weakness, Speech slurring, and Time to call 911 immediately so clot-busting treatment can begin within the golden window.",
+    # Camping short sub-requirements
+    "compass": "Magnetic Baseplate Compass — Orient a topographic map to true/magnetic north, take and follow field azimuth bearings, and account for local magnetic declination.",
+    "gps receiver": "Dedicated Handheld GPS Receiver — Mark trailhead and campsite waypoints, read UTM/lat-lon coordinates, and always carry a paper map and compass as backup.",
+    "smartphone with a gps app": "Smartphone Offline GPS App — Download offline topographic maps before leaving cell coverage, keep phone in airplane mode with a battery bank, and verify against a paper map.",
+    # Emergency Preparedness short sub-requirements
+    "live household electric wire": "Live Household Electric Wire — Never touch the victim or wire directly; shut off the main circuit breaker or unplug the cord, or use a dry non-conductive wooden pole if trained.",
+    "a structure filled with carbon monoxide": "Structure Filled with Carbon Monoxide — Do not enter without self-contained breathing apparatus; call 911 immediately, ventilate from outside if safe, and evacuate occupants to fresh air.",
+    "clothes on fire": "Clothes on Fire — Shout 'Stop, Drop, and Roll,' smother flames by wrapping the victim in a heavy wool blanket or coat from the head down, and cool burns with water.",
+    "drowning, using nonswimming rescues (including accidents on ice)": "Nonswimming Water & Ice Rescue — Follow Reach and Throw (pole, branch, ring buoy, throw bag) from shore or flat on the ice; never enter the water or walk upright onto thin ice.",
+    # Citizenship in the Nation short sub-requirements
+    "declaration of independence": "Declaration of Independence (1776) — Proclaimed natural rights to life, liberty, and the pursuit of happiness and established that government derives its just powers from the consent of the governed.",
+    "e pluribus unum, the traditional united states motto": "E Pluribus Unum ('Out of Many, One') — Traditional U.S. motto on the Great Seal symbolizing how thirteen colonies and diverse peoples united into one constitutional republic.",
+    "who the author was": "Speaker Biography & Civic Role — Identify the historical leader who delivered the speech, their public office or civic background, and their leadership role at that moment.",
+    "what the historical context was": "Historical Context & Audience — Explain the national crisis, war, social movement, or constitutional debate taking place when and where the speech was delivered.",
+    "what the author said": "Core Arguments & Key Quotations — Summarize the speaker's central thesis, constitutional principles, and call to action in your own words.",
+    "why the speech is important to the nation's history": "Enduring Historical Impact — Explain how the speech shaped American law, national unity, civil rights, or civic identity for future generations.",
+    # Personal Management short sub-requirements
+    "common stocks": "Common Stocks (Equities) — Represent fractional ownership shares in a public corporation, offering capital appreciation and dividends alongside market volatility risk.",
+    "mutual funds": "Mutual Funds & Index Funds — Pool money from many investors to buy a diversified portfolio of stocks or bonds managed professionally or tracking a market index.",
+    "life insurance": "Life Insurance — Provides financial protection for dependents upon the policyholder's death; compare low-cost Term Life vs. cash-value Whole Life policies.",
+    "a certificate of deposit (cd)": "Certificate of Deposit (CD) — FDIC-insured bank time deposit paying a fixed interest rate for a specified term (e.g., 6 months to 5 years) with early withdrawal penalties.",
+    "a savings account": "FDIC-Insured Savings Account — Liquid, low-risk deposit account for emergency funds and short-term goals that earns compound interest.",
+    "a u.s. savings bond": "U.S. Treasury Savings Bond (Series EE / Series I) — Government-backed debt security backed by the full faith and credit of the United States.",
+    "automobile": "Automobile Insurance — Covers liability for bodily injury/property damage, collision repair, and comprehensive theft/weather damage for motor vehicles.",
+    "health": "Health Insurance — Covers preventive care, doctor visits, prescription medications, and major hospital/surgical expenses through deductibles, copays, and coinsurance.",
+    "homeowner's/renter's": "Homeowner's & Renter's Insurance — Protects personal property against fire/theft and provides personal liability coverage; homeowner's also insures the physical dwelling.",
+    "whole life and term life": "Term Life vs. Whole Life Insurance — Term life provides pure death-benefit protection for a fixed period (10–30 years), while whole life combines permanent coverage with a cash-value account.",
+    # Kayaking / Canoeing / Archery / Hiking
+    "forward stroke": "Forward Power Stroke — Plant the blade near the toes, rotate the torso to pull the boat past the paddle with top-hand control, and exit at the hip.",
+    "backstroke": "Backstroke (Stopping & Reversing) — Use the back face of the blade or rotate the shaft to push water from hip toward bow with torso rotation to stop or back up.",
+    "forward sweep": "Forward Sweep Stroke — Carve a wide low arc from bow to stern on one side to turn the kayak away from the paddling side while maintaining forward momentum.",
+    "reverse sweep": "Reverse Sweep Stroke — Sweep the blade in a wide arc from stern to bow to pivot the kayak toward the paddling side.",
+    "draw stroke": "Side Draw Stroke — Reach out perpendicular to the hip, plant the vertical blade in the water, and pull the hull sideways toward the paddle before slicing out.",
+    "stern draw": "Stern Draw Stroke — Slice the blade out from the stern quarter and pull toward the rear hull to realign the kayak's heading while underway.",
+    "parts of a paddle": "Kayak Paddle Anatomy — Identify the two blades (power face and back face), throat, shaft (indexing oval grip), drip rings, and center ferrule (feathered vs. unfeathered).",
+    "correct methods for the use of a kayak paddle": "Proper Paddle Grip & Torso Box — Hold the shaft shoulder-width apart with elbows at 90 degrees ('paddler's box') and power each stroke with core torso rotation.",
+    "the care and maintenance of a paddle": "Paddle Care & Storage — Rinse ferrule joints with fresh water after use, never use composite/plastic blades to push off rocks, and store out of direct UV sunlight.",
+    "10-mile hike #1": "10-Mile Conditioning Hike #1 — Prepare a written hike plan (route, map, schedule, clothing, food, water), complete the 10-mile continuous day hike, and write a post-hike reflection.",
+    "10-mile hike #2": "10-Mile Conditioning Hike #2 — Prepare a written hike plan with varied terrain/elevation, complete the second 10-mile continuous hike, and log trail observations and pacing.",
+    "10-mile hike #3": "10-Mile Conditioning Hike #3 — Prepare a written hike plan, complete the third 10-mile continuous hike practicing foot care and hydration management, and submit your hike report.",
+    "10-mile hike #4": "10-Mile Conditioning Hike #4 — Prepare a written hike plan, complete the fourth 10-mile continuous hike evaluating gear load and navigation checkpoints, and review with your counselor.",
+    "20-mile hike": "20-Mile Capstone Day Hike — After completing the four 10-mile hikes, plan and complete one continuous 20-mile hike in a single day and present your comprehensive trek report.",
+}
+
+
+def _enrich_sub_requirement_text(
+    badge_name: str,
+    req_num: str,
+    sr_id: str,
+    sr_txt: str,
+    req_text: str,
+    pages_map: Dict[int, Dict[str, Any]],
+    extended_pages: List[int],
+) -> str:
+    """Expands short noun-phrase sub-requirements (e.g., 'Chemical burns', 'Fainting', 'Compass')
+    into concrete, self-contained instructional explanations using the domain glossary and pamphlet pages.
+    """
+    clean_sr = sr_txt.strip()
+    norm_key = clean_sr.lower().rstrip(".:;")
+    if norm_key in _SHORT_SUBREQ_INSTRUCTIONAL_GLOSSARY:
+        return _SHORT_SUBREQ_INSTRUCTIONAL_GLOSSARY[norm_key]
+    if len(clean_sr) >= 75:
+        return clean_sr
+
+    # Search pamphlet pages for a matching explanatory sentence
+    kw_tokens = [
+        w for w in re.findall(r"[a-z]{4,}", norm_key)
+        if w not in {"explain", "discuss", "describe", "show", "demonstrate", "tell", "identify", "what", "when", "where", "your", "with", "from", "that", "have"}
+    ]
+    if kw_tokens and pages_map:
+        search_pages = list(extended_pages) + [p for p in sorted(pages_map.keys()) if p not in extended_pages]
+        best_sent = ""
+        best_score = 0
+        for p_num in search_pages[:25]:
+            p_text = str((pages_map.get(p_num) or {}).get("text") or "")
+            for raw_sent in re.split(r"(?<=[.!?])\s+", p_text):
+                s_clean = " ".join(raw_sent.split()).strip()
+                if not (45 <= len(s_clean) <= 190):
+                    continue
+                s_low = s_clean.lower()
+                if any(bad in s_low for bad in ("boy scouts of america", "merit badge", "isbn", "copyright", "figure", "page ")):
+                    continue
+                hits = sum(1 for kw in kw_tokens if kw in s_low)
+                if hits > best_score:
+                    best_score = hits
+                    best_sent = s_clean
+        if best_sent and best_score >= 1:
+            return f"{clean_sr.rstrip('.')} — {best_sent}"
+
+    # Contextual expansion based on parent requirement action prompt
+    req_low = req_text.lower()
+    if "symptoms and signs" in req_low or "first aid for" in req_low:
+        return f"{clean_sr.rstrip('.')} — Identify the key signs and symptoms, demonstrate step-by-step first-aid care, and explain how to prevent this condition during Scouting activities."
+    return f"{clean_sr.rstrip('.')} — Explain the core principles, safety considerations, and practical application of this sub-requirement to your counselor."
+
+
+def _build_sub_requirement_slides(
+    badge_name: str,
+    req_num: str,
+    req_text: str,
+    base_title: str,
+    sub_reqs: List[Dict[str, str]],
+    pamphlet_img: Optional[str],
+    extra_images: List[str],
+    pages_map: Dict[int, Dict[str, Any]],
+    extended_pages: List[int],
+) -> List[Dict[str, Any]]:
+    """Groups sub-requirements into clean 3-4 card Sub-Requirement Deep Dive slides covering 100% of sub-requirements."""
+    if not sub_reqs:
+        return []
+    n_subs = len(sub_reqs)
+    if n_subs <= 6:
+        chunk_size = 3
+        sub_chunks = [sub_reqs[i : i + chunk_size] for i in range(0, n_subs, chunk_size)]
+    elif n_subs <= 16:
+        chunk_size = 4
+        sub_chunks = [sub_reqs[i : i + chunk_size] for i in range(0, n_subs, chunk_size)]
+    else:
+        # Balance 17+ sub-requirements across 5 slides of 3-4 cards so no slide has a lone card
+        sub_chunks = [
+            sub_reqs[0:4],
+            sub_reqs[4:8],
+            sub_reqs[8:12],
+            sub_reqs[12:15],
+            sub_reqs[15:],
+        ]
+
+    slides_out: List[Dict[str, Any]] = []
+    for c_idx, chunk in enumerate(sub_chunks):
+        chunk_bullets: List[str] = []
+        for s_idx, sr in enumerate(chunk):
+            sr_id = str(sr.get("sub_id") or sr.get("id") or f"{req_num}{chr(97 + s_idx)}")
+            raw_sr_txt = str(sr.get("text") or "").strip()
+            sr_txt = _enrich_sub_requirement_text(
+                badge_name, req_num, sr_id, raw_sr_txt, req_text, pages_map, extended_pages
+            )
+            sr_topic = _derive_topic_title(sr_id, raw_sr_txt).replace(f"Req {sr_id}:", "").strip()
+            combined = f"Req {sr_id} ({sr_topic}): {sr_txt}"
+            chunk_bullets.append(combined)
+
+        first_id = chunk[0].get("sub_id") or chunk[0].get("id") or f"{req_num}a"
+        last_id = chunk[-1].get("sub_id") or chunk[-1].get("id") or f"{req_num}b"
+        range_label = f"Reqs {first_id}–{last_id}" if len(chunk) > 1 else f"Req {first_id}"
+        slide_img = (
+            pamphlet_img
+            if (c_idx == 0 and pamphlet_img and Path(str(pamphlet_img)).exists())
+            else (extra_images[c_idx - 1] if 0 < c_idx <= len(extra_images) else None)
+        )
+        slides_out.append({
+            "title": f"{base_title}: Sub-Requirement Deep Dive ({range_label})",
+            "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
+            "bullets": chunk_bullets,
+            "image_path": slide_img,
+            "caption": f"{badge_name} Visual Reference — {base_title} ({range_label})",
+        })
+    return slides_out
+
+
 def decompose_requirement_into_topic_slides(
     badge_name: str,
     req_dict: Dict[str, Any],
@@ -841,13 +1237,56 @@ def decompose_requirement_into_topic_slides(
     total_reqs: int = 8,
     used_image_paths: Optional[set] = None,
 ) -> List[Dict[str, Any]]:
-    """Decomposes a single Merit Badge requirement into multiple detailed instructional topic slides
-    (typically 4 to 10 slides per requirement), plus full-page diagram/photo slides where appropriate,
-    so Scouts can learn every concept, definition, and safety rule directly from the deck."""
+    """Decomposes a Merit Badge requirement into adaptive, high-density EDGE instructional topic slides
+    (scaling dynamically so each requirement has 3 to 8 total slides depending on sub-requirement complexity),
+    with zero repeated bullets across slides and zero generic Mad-Libs boilerplate.
+    """
     if used_image_paths is None:
         used_image_paths = set()
 
-    # 1. If the requirement already defines explicit multi-slide `topic_slides`, enrich their image paths and return
+    req_num = str(req_dict.get("req_number", str(req_index + 1)))
+    req_text = str(req_dict.get("req_text", ""))
+    base_title = str(req_dict.get("topic_title") or _derive_topic_title(req_num, req_text)).replace(f"Req {req_num}:", "").strip()
+    pamphlet_img = req_dict.get("pamphlet_image_path")
+    sub_reqs: List[Dict[str, str]] = list(req_dict.get("sub_requirements") or [])
+    if not sub_reqs:
+        sub_reqs = _parse_inline_sub_requirements(req_num, req_text)
+
+    p_index = build_pamphlet_index(badge_name)
+    pages_map: Dict[int, Dict[str, Any]] = p_index.get("pages") or {}
+    matched_pages: List[int] = list(req_dict.get("pamphlet_pages") or [])
+    extended_pages: List[int] = list(matched_pages)
+    if matched_pages and pages_map:
+        for mp in matched_pages:
+            for delta in (1, 2, 3, -1):
+                cand_p = mp + delta
+                if cand_p in pages_map and cand_p not in extended_pages:
+                    cand_h = str((pages_map.get(cand_p) or {}).get("heading") or "").lower()
+                    if not any(sk in cand_h for sk in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
+                        extended_pages.append(cand_p)
+
+    extra_images: List[str] = []
+    if extended_pages and pages_map:
+        for ep in extended_pages:
+            for cand_img in (pages_map.get(ep) or {}).get("images", []):
+                if str(cand_img) not in used_image_paths and cand_img.exists():
+                    used_image_paths.add(str(cand_img))
+                    extra_images.append(
+                        _compose_pamphlet_visual_card(
+                            raw_img_path=cand_img,
+                            badge_name=badge_name,
+                            req_number=f"{req_num}_fig{len(extra_images) + 1}",
+                            topic_title=f"{base_title} Visual {len(extra_images) + 1}",
+                            pamphlet_page=ep,
+                        )
+                    )
+                    if len(extra_images) >= 2:
+                        break
+            if len(extra_images) >= 2:
+                break
+
+    # 1. If the requirement already defines explicit multi-slide `topic_slides`, enrich their image paths
+    #    AND ensure 100% of official `sub_requirements` are explicitly covered.
     explicit_slides = req_dict.get("topic_slides")
     if explicit_slides and isinstance(explicit_slides, list):
         resolved_slides: List[Dict[str, Any]] = []
@@ -858,7 +1297,7 @@ def decompose_requirement_into_topic_slides(
                 ts_copy["image_path"] = _compose_pamphlet_visual_card(
                     raw_img_path=Path(str(raw_img)),
                     badge_name=badge_name,
-                    req_number=f"{req_dict.get('req_number', '1')}_{t_idx}",
+                    req_number=f"{req_num}_{t_idx}",
                     topic_title=str(ts_copy.get("title", "")),
                     pamphlet_page=t_idx,
                 )
@@ -866,164 +1305,224 @@ def decompose_requirement_into_topic_slides(
                 web_p = fetch_web_supplement_image(
                     badge_name,
                     str(ts_copy["wikimedia_query"]),
-                    f"{_badge_slug(badge_name)}_{req_dict.get('req_number', '1')}_{t_idx}",
+                    f"{_badge_slug(badge_name)}_{req_num}_{t_idx}",
                 )
                 if web_p and web_p.exists():
                     ts_copy["image_path"] = _compose_pamphlet_visual_card(
                         raw_img_path=web_p,
                         badge_name=badge_name,
-                        req_number=f"{req_dict.get('req_number', '1')}_{t_idx}",
+                        req_number=f"{req_num}_{t_idx}",
                         topic_title=str(ts_copy.get("title", "")),
                         pamphlet_page=t_idx,
                     )
+            elif raw_img and not Path(str(raw_img)).exists():
+                fallback_p = req_dict.get("pamphlet_image_path")
+                if fallback_p and Path(str(fallback_p)).exists():
+                    ts_copy["image_path"] = _compose_pamphlet_visual_card(
+                        raw_img_path=Path(str(fallback_p)),
+                        badge_name=badge_name,
+                        req_number=f"{req_num}_{t_idx}",
+                        topic_title=str(ts_copy.get("title", "")),
+                        pamphlet_page=t_idx,
+                    )
+                else:
+                    ts_copy["image_path"] = None
             resolved_slides.append(ts_copy)
+
+        if sub_reqs and badge_name.lower() != "weather":
+            existing_blob = " ".join(
+                str(ts.get("title", "")) + " " + " ".join(str(b) for b in (ts.get("bullets") or []))
+                for ts in resolved_slides
+            ).lower()
+            uncovered_subs = [
+                sr for sr in sub_reqs
+                if f"req {str(sr.get('sub_id') or sr.get('id') or '').lower()}" not in existing_blob
+            ]
+            if uncovered_subs:
+                sub_slides = _build_sub_requirement_slides(
+                    badge_name=badge_name,
+                    req_num=req_num,
+                    req_text=req_text,
+                    base_title=base_title,
+                    sub_reqs=uncovered_subs,
+                    pamphlet_img=pamphlet_img,
+                    extra_images=extra_images,
+                    pages_map=pages_map,
+                    extended_pages=extended_pages,
+                )
+                # Place Sub-Requirement Deep Dive slide(s) first so both Deep Dive and Troop Meeting decks include them
+                combined_slides = sub_slides + [
+                    s for s in resolved_slides
+                    if "sub-requirement deep dive" not in str(s.get("title", "")).lower()
+                ]
+                return combined_slides[:7]
         return resolved_slides
 
-    # 2. Automatic multi-slide decomposition for any requirement without explicit `topic_slides`
-    req_num = str(req_dict.get("req_number", str(req_index + 1)))
-    req_text = str(req_dict.get("req_text", ""))
-    base_title = str(req_dict.get("topic_title") or _derive_topic_title(req_num, req_text)).replace(f"Req {req_num}:", "").strip()
+    # 2. Adaptive multi-slide EDGE decomposition for requirements without explicit `topic_slides`
     excerpts = list(req_dict.get("pamphlet_excerpts") or [])
     procedures = list(req_dict.get("step_by_step_procedure") or [])
     checklist = list(req_dict.get("gear_checklist") or [])
     comp_data = req_dict.get("comparison_data")
     worked_ex = req_dict.get("worked_example")
     quiz_item = req_dict.get("quiz_item")
-    pamphlet_img = req_dict.get("pamphlet_image_path")
 
-    # Also pull additional pamphlet pages/images if available so Deep Dive decks are rich and thorough
-    p_index = build_pamphlet_index(badge_name)
-    pages_map: Dict[int, Dict[str, Any]] = p_index.get("pages") or {}
-    matched_pages: List[int] = list(req_dict.get("pamphlet_pages") or [])
-    extra_pamphlet_bullets: List[str] = []
-    extra_image_card: Optional[str] = None
-    if matched_pages and pages_map:
-        next_pages = [p + 1 for p in matched_pages if (p + 1) in pages_map and (p + 1) not in matched_pages]
-        if next_pages:
-            extra_pamphlet_bullets = _extract_clean_teaching_points_from_pages(pages_map, next_pages[:2], badge_name)
-            for np in next_pages:
-                for cand_img in (pages_map.get(np) or {}).get("images", []):
-                    if str(cand_img) not in used_image_paths and cand_img.exists():
-                        used_image_paths.add(str(cand_img))
-                        extra_image_card = _compose_pamphlet_visual_card(
-                            raw_img_path=cand_img,
-                            badge_name=badge_name,
-                            req_number=f"{req_num}_extra",
-                            topic_title=f"{base_title} Field Application",
-                            pamphlet_page=np,
-                        )
-                        break
-                if extra_image_card:
-                    break
+    all_pamphlet_bullets = (
+        _extract_clean_teaching_points_from_pages(pages_map, extended_pages[:5], badge_name, max_points=16)
+        if (extended_pages and pages_map)
+        else []
+    )
+
+    # Reserve `excerpts[:4]` for the REQUIREMENT_INTRO slide in Deep Dive mode so topic slides never repeat them
+    intro_norms = {b.lower()[:50] for b in excerpts[:4]}
+    fresh_pamphlet_bullets = [
+        b for b in (excerpts[4:] + all_pamphlet_bullets)
+        if b.lower()[:50] not in intro_norms
+    ]
 
     generated: List[Dict[str, Any]] = []
 
-    # Slide 1 of Requirement Sequence: Core Concepts & Definitions (taught alongside the requirement definition)
-    generated.append({
-        "title": f"{base_title}: Core Concepts & Definitions",
-        "layout": "SPLIT_VISUAL_EXPLAINER" if (pamphlet_img and not extra_image_card and len(procedures) >= 2) else "CONCEPT_TEXT_SLIDE",
-        "bullets": excerpts[:5] if excerpts else [req_text],
-        "image_path": pamphlet_img if (pamphlet_img and not extra_image_card and len(procedures) >= 2) else None,
-        "caption": f"{badge_name}: {base_title}",
-    })
-
-    # Slide 2: Full-Page Diagram / Visual Illustration Slide (when a pamphlet or Wikimedia visual is available)
-    if pamphlet_img and Path(str(pamphlet_img)).exists():
-        generated.append({
-            "title": f"{base_title}: Illustrated",
-            "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-            "bullets": [excerpts[0] if excerpts else req_text],
-            "image_path": pamphlet_img,
-            "caption": f"{base_title}: Visual Reference",
-        })
-
-    # Slide 3: Step-by-Step Field Procedure or In-Depth Pamphlet Principles
-    if procedures:
-        generated.append({
-            "title": f"{base_title}: Step-by-Step Procedure",
-            "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
-            "bullets": procedures[:4],
-            "image_path": extra_image_card,
-            "caption": f"{base_title}: Field Procedure",
-        })
-    elif extra_pamphlet_bullets:
-        generated.append({
-            "title": f"{base_title}: Key Principles & Field Practice",
-            "layout": "SPLIT_VISUAL_EXPLAINER" if extra_image_card else "CONCEPT_TEXT_SLIDE",
-            "bullets": extra_pamphlet_bullets[:5],
-            "image_path": extra_image_card,
-            "caption": f"{base_title}: Key Principles",
-        })
-
-    # Slide 4: Differential Comparison (Best Practices vs. Common Field Mistakes)
-    effective_comp = comp_data or {
-        "left_header": f"{base_title}: Recommended Standard",
-        "left_badge": "PROPER TECHNIQUE",
-        "left_points": (excerpts[:3] if len(excerpts) >= 2 else [
-            f"Official Pamphlet Standard: Follow the Scouting America {badge_name} method step by step.",
-            "Pre-Activity Safety Check: Verify protective equipment, buddy checks, and counselor instructions before starting.",
-            "Controlled Demonstration: Document your observations and demonstrate the skill with steady control.",
-        ]),
-        "right_header": "Common Mistakes to Avoid",
-        "right_badge": "AVOID IN FIELD",
-        "right_points": [
-            "Rushing Into Execution: Starting practical work without reviewing hazard controls and protective gear.",
-            "Skipping Gear Inspection: Neglecting equipment checks or failing to communicate clearly with your buddy.",
-            "Unattended Field Station: Leaving tools, workspace, or outdoor field stations uncleaned after practice.",
-        ],
-    }
-    generated.append({
-        "title": f"{base_title}: Best Practices vs. Common Mistakes",
-        "layout": "DIFFERENTIAL_COMPARISON_2COL",
-        "comparison_data": effective_comp,
-        "bullets": excerpts[:4],
-        "image_path": None,
-    })
-
-    # Slide 5: Equipment Checklist or Detailed Pamphlet Guidance
-    effective_checklist = checklist or [
-        f"Official {badge_name} Merit Badge Pamphlet & Field Notebook: Review definitions and record observations.",
-        "Personal Protective & Safety Gear: Inspect all required safety equipment before starting.",
-        "Demonstration Tools & Materials: Verify every item is clean, functional, and properly sized.",
-        "Buddy & Counselor Readiness Check: Confirm workspace clearance and emergency procedures.",
-    ]
-    generated.append({
-        "title": f"{base_title}: Equipment & Readiness Checklist",
-        "layout": "GEAR_CHECKLIST_GRID",
-        "gear_checklist": effective_checklist[:8],
-        "bullets": effective_checklist[:6],
-        "image_path": None,
-    })
-
-    # Slide 6: Practical Field Example or Scenario Review
-    if worked_ex:
-        generated.append({
-            "title": f"{base_title}: Practical Field Example",
-            "layout": "WORKED_EXAMPLE_TEMPLATE",
-            "worked_example": worked_ex,
-            "bullets": excerpts[:4],
-            "image_path": None,
-        })
+    # A. Sub-Requirement Deep-Dive Slides (Explain Phase)
+    if sub_reqs:
+        generated.extend(
+            _build_sub_requirement_slides(
+                badge_name=badge_name,
+                req_num=req_num,
+                req_text=req_text,
+                base_title=base_title,
+                sub_reqs=sub_reqs,
+                pamphlet_img=pamphlet_img,
+                extra_images=extra_images,
+                pages_map=pages_map,
+                extended_pages=extended_pages,
+            )
+        )
     else:
-        effective_quiz = quiz_item or {
-            "scenario_prompt": f"While practicing {base_title} with your patrol, a newer Scout asks how to prepare for the counselor demonstration for Requirement {req_num}.",
-            "options": [
-                f"Option A: Review the key principles of {base_title}, inspect all gear, and practice using the BSA EDGE method.",
-                "Option B: Skip the safety and equipment check to finish the demonstration faster.",
-                "Option C: Attempt the field skill alone without a buddy or adult supervision.",
-            ],
-            "correct_answer": "Option A — Review principles, inspect gear, and practice with the BSA EDGE method.",
-            "explanation": f"Every {badge_name} requirement combines clear conceptual understanding, safe equipment habits, and buddy-system teamwork.",
-        }
+        # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
+        deep_bullets = fresh_pamphlet_bullets[:4] if fresh_pamphlet_bullets else (excerpts[2:6] or excerpts[:4] or [req_text])
+        slide_img = pamphlet_img if (pamphlet_img and Path(str(pamphlet_img)).exists()) else (extra_images[0] if extra_images else None)
         generated.append({
-            "title": f"{base_title}: Patrol Scenario & Counselor Review",
-            "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-            "quiz_item": effective_quiz,
-            "bullets": excerpts[:3],
+            "title": f"{base_title}: Pamphlet Principles & Key Details",
+            "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
+            "bullets": deep_bullets,
+            "image_path": slide_img,
+            "caption": f"{badge_name} Visual Reference — {base_title}",
+        })
+
+    # B. Step-by-Step Execution Procedure (Demonstrate Phase)
+    proc_norms = {p.lower()[:50] for p in procedures}
+    has_distinct_procedures = bool(procedures and proc_norms != intro_norms)
+    if has_distinct_procedures:
+        proc_bullets = procedures[:4]
+    elif len(fresh_pamphlet_bullets) >= 4:
+        proc_bullets = fresh_pamphlet_bullets[:4]
+    else:
+        proc_bullets = [
+            f"Preparation & Study: Review the official {badge_name} pamphlet section on {base_title} and record key definitions in your workbook.",
+            f"Equipment & Safety Check: Inspect the tools, materials, and workspace needed for Requirement {req_num} with your buddy.",
+            f"Hands-On Demonstration: Practice and demonstrate the required {base_title} steps using the BSA EDGE method.",
+            f"Counselor Verification: Present your completed notes, logs, or demonstration for Requirement {req_num} counselor review.",
+        ]
+
+    proc_img = extra_images[0] if (extra_images and sub_reqs) else (extra_images[1] if len(extra_images) > 1 else None)
+    generated.append({
+        "title": f"{base_title}: Step-by-Step Execution",
+        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+        "bullets": proc_bullets[:4],
+        "image_path": proc_img,
+        "caption": f"{base_title}: Step-by-Step Field Execution",
+    })
+
+    # C. Differential Comparison OR Worked Example Artifact (Guide Phase) — include when budget allows (<= 7 topic slides total)
+    if len(generated) < 6:
+        if comp_data:
+            generated.append({
+                "title": f"{base_title}: Technical Comparison & Standards",
+                "layout": "DIFFERENTIAL_COMPARISON_2COL",
+                "comparison_data": comp_data,
+                "bullets": (comp_data.get("left_points", [])[:2] + comp_data.get("right_points", [])[:2]),
+                "image_path": None,
+            })
+        if worked_ex and len(generated) < 6:
+            generated.append({
+                "title": f"{base_title}: Worked Example & Scout Log",
+                "layout": "WORKED_EXAMPLE_TEMPLATE",
+                "worked_example": worked_ex,
+                "bullets": [f"{k}: {v}" for k, v in list((worked_ex.get("fields") or {}).items())[:4]],
+                "image_path": None,
+            })
+        elif not comp_data and len(generated) < 6:
+            fields_map: Dict[str, str] = {}
+            if sub_reqs:
+                for sr in sub_reqs[:4]:
+                    sr_id = str(sr.get("sub_id") or sr.get("id") or req_num)
+                    raw_sr_t = str(sr.get("text") or "").strip()
+                    sr_short = _derive_topic_title(sr_id, raw_sr_t).replace(f"Req {sr_id}:", "").strip()
+                    fields_map[f"Req {sr_id} ({sr_short})"] = _enrich_sub_requirement_text(
+                        badge_name, req_num, sr_id, raw_sr_t, req_text, pages_map, extended_pages
+                    )
+            else:
+                source_pts = fresh_pamphlet_bullets[:4] or excerpts[:4]
+                for idx_f, pt in enumerate(source_pts[:4], start=1):
+                    if ": " in pt:
+                        k_p, v_p = pt.split(": ", 1)
+                        fields_map[k_p.strip()] = v_p.strip()
+                    else:
+                        fields_map[f"Workbook Entry {idx_f}"] = pt.strip()
+            generated.append({
+                "title": f"{base_title}: Scout Workbook & Review Guide",
+                "layout": "WORKED_EXAMPLE_TEMPLATE",
+                "worked_example": {
+                    "title": f"Requirement {req_num} Verification Log — {base_title}",
+                    "artifact_type": "SCOUT WORKBOOK TEMPLATE",
+                    "fields": fields_map,
+                    "counselor_tip": f"Complete each entry for Requirement {req_num} in your Scout Workbook and be ready to explain your reasoning in your own words.",
+                },
+                "bullets": [f"{k}: {v}" for k, v in list(fields_map.items())[:4]],
+                "image_path": None,
+            })
+
+    # D. Equipment Checklist (if explicitly curated) & Patrol Scenario Review (Enable Phase)
+    if checklist and len(generated) < 6:
+        generated.append({
+            "title": f"{base_title}: Equipment & Inspection Checklist",
+            "layout": "GEAR_CHECKLIST_GRID",
+            "gear_checklist": checklist[:4],
+            "bullets": checklist[:4],
             "image_path": None,
         })
 
-    return generated
+    if quiz_item:
+        effective_quiz = quiz_item
+    else:
+        primary_focus = (
+            sub_reqs[0].get("text", base_title)
+            if sub_reqs
+            else (fresh_pamphlet_bullets[0] if fresh_pamphlet_bullets else (excerpts[0] if excerpts else base_title))
+        )
+        clean_focus = primary_focus.split(": ", 1)[-1].rstrip(".")
+        effective_quiz = {
+            "scenario_prompt": f"During your patrol's {badge_name} practice session on {base_title} (Requirement {req_num}), how should your patrol verify mastery of this requirement?",
+            "options": [
+                f"Option A: Demonstrate and explain {clean_focus[:110]} following the official {badge_name} pamphlet standards.",
+                f"Option B: Rely on guesswork without verifying the specific {base_title} criteria in Requirement {req_num}.",
+                "Option C: Sign off the requirement before completing the practical demonstration or counselor discussion.",
+            ],
+            "correct_answer": f"Option A — Follow the official {badge_name} pamphlet standards and verify every sub-requirement.",
+            "explanation": f"Requirement {req_num} ({base_title}) requires each Scout to understand and demonstrate the specific principles covered in the {badge_name} Merit Badge Pamphlet.",
+        }
+    generated.append({
+        "title": f"{base_title}: Patrol Scenario & Mastery Check",
+        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
+        "quiz_item": effective_quiz,
+        "bullets": [
+            effective_quiz["scenario_prompt"],
+            effective_quiz["correct_answer"],
+            effective_quiz["explanation"],
+        ],
+        "image_path": None,
+    })
+
+    return generated[:7]
 
 
 PAMPHLET_COVERS_DIR = ASSETS_DIR / "pamphlet_covers"

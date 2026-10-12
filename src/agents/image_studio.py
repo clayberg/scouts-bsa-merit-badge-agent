@@ -1859,9 +1859,9 @@ _LAST_AI_SYNTHESIS_DIAGNOSTICS: Dict[str, Any] = {}
 
 def compress_hero_illustration(
     raw_png_bytes: bytes,
-    target_size: Tuple[int, int] = (800, 600),
+    target_size: Tuple[int, int] = (680, 510),
 ) -> bytes:
-    """Downscales a 1024x768 Nano Banana PNG to 800x600 and quantizes to 256-color optimized PNG (~80-210 KB)."""
+    """Downscales a Nano Banana PNG to 680x510 and quantizes to 128-color optimized PNG (~90-165 KB)."""
     if not raw_png_bytes:
         return b""
     with Image.open(io.BytesIO(raw_png_bytes)) as im:
@@ -1872,9 +1872,9 @@ def compress_hero_illustration(
             fitted = rgb.resize((tw, th), Image.Resampling.LANCZOS)
         else:
             fitted = ImageOps.fit(rgb, (tw, th), method=Image.Resampling.LANCZOS)
-        quantized = fitted.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
+        quantized = fitted.quantize(colors=128, method=Image.Quantize.MEDIANCUT)
         buf = io.BytesIO()
-        quantized.save(buf, format="PNG", optimize=True, dpi=(220, 220))
+        quantized.save(buf, format="PNG", optimize=True, compress_level=9, dpi=(220, 220))
         return buf.getvalue()
 
 

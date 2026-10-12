@@ -340,9 +340,29 @@ def enrich_requirements_with_deep_research(
     before_hash = compute_canonical_pamphlet_hash(canonical_requirements)
 
     loc = resolve_counselor_location(troop_affiliation=troop_affiliation, location_or_zip=location_or_zip)
+    b_lower = clean_badge.lower()
+    if "weather" in b_lower:
+        domain, org, base_url = "noaa.gov", loc["nws_office"], loc["nws_url"]
+        domain_context = f"Regional Weather Office: {loc['nws_office']} ({loc['region']})"
+    elif "first aid" in b_lower or "emergency" in b_lower or "lifesaving" in b_lower:
+        domain, org, base_url = "redcross.org", "American Red Cross & Wilderness EMS Guidelines", "https://www.redcross.org/take-a-class/first-aid"
+        domain_context = f"Regional EMS & Field Hazards: {loc['terrain_and_hazards']}"
+    elif "camping" in b_lower or "hiking" in b_lower or "backpacking" in b_lower or "environmental" in b_lower or "wilderness" in b_lower:
+        domain, org, base_url = "nps.gov", "National Park Service & Leave No Trace Center", "https://www.nps.gov/subjects/camping/leave-no-trace.htm"
+        domain_context = f"Recommended Local Field & Campout Sites: {loc['field_site_examples']}"
+    elif "citizenship" in b_lower or "american" in b_lower or "law" in b_lower:
+        domain, org, base_url = "congress.gov", "Library of Congress & National Archives", "https://www.congress.gov/"
+        domain_context = f"Civic & Historic Field Context: {loc['state_agency']} and National Register Landmarks"
+    elif "cooking" in b_lower:
+        domain, org, base_url = "myplate.gov", "USDA MyPlate & Food Safety Inspection Service", "https://www.myplate.gov/"
+        domain_context = f"Campout & Home Kitchen Practice: {loc['field_site_examples']}"
+    else:
+        domain, org, base_url = "scouting.org", f"Scouting America {clean_badge} Digital Resource Guide", "https://www.scouting.org/skills/merit-badges/"
+        domain_context = f"Local Council & Field Resources: {loc['field_site_examples']}"
+
     local_connections = [
         f"Resolved Counselor Location: {loc['display_location']}",
-        f"Regional Weather & Hazard Office: {loc['nws_office']} — {loc['terrain_and_hazards']}",
+        domain_context,
         f"Recommended Local Field & Campout Sites: {loc['field_site_examples']}",
         f"State & Civic Partner Agencies: {loc['state_agency']}",
     ]
@@ -350,18 +370,6 @@ def enrich_requirements_with_deep_research(
     misconceptions: Dict[str, str] = {}
     case_studies: Dict[str, str] = {}
     citations: List[GroundedWebCitation] = []
-
-    b_lower = clean_badge.lower()
-    if "weather" in b_lower:
-        domain, org, base_url = "noaa.gov", loc["nws_office"], loc["nws_url"]
-    elif "first aid" in b_lower or "emergency" in b_lower or "lifesaving" in b_lower:
-        domain, org, base_url = "redcross.org", "American Red Cross & Wilderness EMS Guidelines", "https://www.redcross.org/take-a-class/first-aid"
-    elif "camping" in b_lower or "hiking" in b_lower or "backpacking" in b_lower or "environmental" in b_lower:
-        domain, org, base_url = "nps.gov", "National Park Service & Leave No Trace Center", "https://www.nps.gov/subjects/camping/leave-no-trace.htm"
-    elif "citizenship" in b_lower or "american" in b_lower or "law" in b_lower:
-        domain, org, base_url = "congress.gov", "Library of Congress & State Civic Archives", "https://www.congress.gov/"
-    else:
-        domain, org, base_url = "scouting.org", f"Scouting America {clean_badge} Digital Resource Guide", "https://www.scouting.org/skills/merit-badges/"
 
     for idx, req in enumerate(canonical_requirements):
         r_num = str(req.get("req_number") or f"{idx + 1}").strip()
@@ -382,7 +390,7 @@ def enrich_requirements_with_deep_research(
                     source_title=f"{org} — {r_title} ({loc['display_location']})",
                     source_url=base_url,
                     authority_domain=domain,
-                    supplemental_fact=f"Regional context for {loc['display_location']}: {loc['terrain_and_hazards']}.",
+                    supplemental_fact=f"Regional context for {loc['display_location']}: {domain_context}.",
                     is_canonical_pamphlet=False,
                 )
             )

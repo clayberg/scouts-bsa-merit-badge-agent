@@ -36,35 +36,12 @@ from src.agents.image_studio import (  # noqa: E402
 from src.agents.planner import generate_slide_storyboard  # noqa: E402
 from src.config import get_merit_badge_metadata  # noqa: E402
 from src.tools.scouting_scraper import (  # noqa: E402
+    BENCHMARK_BADGES,
     MeritBadgeResearchRequest,
     fetch_merit_badge_pamphlet_pdf,
 )
 
-SCOPE_TIER_2_BADGES: List[str] = [
-    "First Aid",
-    "Camping",
-    "Weather",
-    "Robotics",
-    "Archery",
-    "Astronomy",
-    "Canoeing",
-    "Citizenship in the Community",
-    "Citizenship in the Nation",
-    "Citizenship in the World",
-    "Communication",
-    "Cooking",
-    "Cycling",
-    "Emergency Preparedness",
-    "Environmental Science",
-    "Family Life",
-    "Hiking",
-    "Lifesaving",
-    "Personal Fitness",
-    "Personal Management",
-    "Sustainability",
-    "Swimming",
-    "Wilderness Survival",
-]
+SCOPE_TIER_2_BADGES: List[str] = list(BENCHMARK_BADGES)
 
 
 def _slugify(text: str) -> str:

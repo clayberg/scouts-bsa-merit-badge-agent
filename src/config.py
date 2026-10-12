@@ -252,10 +252,12 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
     ("Sustainability", "Nature & Environment", True),
     ("Swimming", "Aquatics & Sports", True),
 
-    # 120 Elective Merit Badges (Alphabetical)
+    # Elective Merit Badges (Alphabetical, including 2025/2026 Scouting America additions)
+    ("Action Sports", "Aquatics & Sports", False),
     ("American Business", "Trades, Business & Careers", False),
     ("American Cultures", "Citizenship & Personal Development", False),
     ("American Heritage", "Citizenship & Personal Development", False),
+    ("American Indian Culture", "Citizenship & Personal Development", False),
     ("American Labor", "Trades, Business & Careers", False),
     ("Animal Science", "Nature & Environment", False),
     ("Animation", "Arts, Crafts & Hobbies", False),
@@ -263,6 +265,7 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
     ("Archery", "Aquatics & Sports", True if False else False),
     ("Architecture", "STEM & Science", False),
     ("Art", "Arts, Crafts & Hobbies", False),
+    ("Artificial Intelligence", "STEM & Science", False),
     ("Astronomy", "STEM & Science", False),
     ("Athletics", "Aquatics & Sports", False),
     ("Automotive Maintenance", "Trades, Business & Careers", False),
@@ -279,6 +282,7 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
     ("Collections", "Arts, Crafts & Hobbies", False),
     ("Composite Materials", "STEM & Science", False),
     ("Crime Prevention", "Health & Public Safety", False),
+    ("Cybersecurity", "STEM & Science", False),
     ("Dentistry", "Health & Public Safety", False),
     ("Digital Technology", "STEM & Science", False),
     ("Disabilities Awareness", "Citizenship & Personal Development", False),
@@ -321,6 +325,7 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
     ("Model Design and Building", "Arts, Crafts & Hobbies", False),
     ("Motorboating", "Aquatics & Sports", False),
     ("Moviemaking", "Arts, Crafts & Hobbies", False),
+    ("Multisport", "Aquatics & Sports", False),
     ("Music", "Arts, Crafts & Hobbies", False),
     ("Nature", "Nature & Environment", False),
     ("Nuclear Science", "STEM & Science", False),
@@ -371,6 +376,7 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
     ("Welding", "Trades, Business & Careers", False),
     ("Whitewater", "Aquatics & Sports", False),
     ("Wilderness Survival", "Outdoor & Campcraft", False),
+    ("Wildland Fire Management", "Nature & Environment", False),
     ("Wood Carving", "Arts, Crafts & Hobbies", False),
     ("Woodwork", "Arts, Crafts & Hobbies", False),
 ]

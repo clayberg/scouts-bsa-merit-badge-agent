@@ -708,7 +708,7 @@ def run_merit_badge_workflow(
             storyboard=storyboard,
             deep_research_enrichment=deep_enrichment,
             beautification_tier=beautification_tier,
-            max_ai_images=5 if str(beautification_tier).upper() == "BEAUTIFIED" else (15 if str(beautification_tier).upper() == "STUDIO" else 0),
+            max_ai_images=20 if str(beautification_tier).upper() in ("BEAUTIFIED", "STUDIO") else 0,
             audience_level=audience_level,
         )
         deck_blueprint = beautify_res.get("blueprint")
