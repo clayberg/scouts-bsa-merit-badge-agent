@@ -1,137 +1,112 @@
-# Technical Design Document (TDD): Scouts BSA Merit Badge Counselor Workbench (`v2.6`)
+# Technical Design Document (TDD): Scouts BSA Merit Badge Counselor Workbench (`v3.1.0`)
 
-- **Author**: Eric Clayberg (Merit Badge Counselor, Scouts BSA Troop 19, Middleton, MA)
-- **Repository**: `https://github.com/clayberg/scouts-bsa-merit-badge-agent`
-- **Architecture**: Google Agent Development Kit (`google-adk`) 8-Agent Hierarchy, FastMCP (`src/mcp_server.py`), A2A 1.0 + A2UI v0.9 (`src/server.py`), SQLite WAL + Vertex AI Memory Bank (`src/memory/session_store.py`), OpenTelemetry + Cloud DLP / Model Armor (`src/pii_scrubber.py`, `src/agents/guardrails.py`).
+**Project**: `scouts-bsa-merit-badge-agent`
+**Author**: Eric Clayberg (FDE & Merit Badge Counselor, Troop 19, Middleton, MA)
+**Target Environment**: Google Cloud Run v2, Vertex AI (`gemini-2.5-pro`, `gemini-2.5-flash`, `gemini-2.5-flash-image`, `imagen-3.0`), Google Agent Development Kit (ADK)
+**Companion Deliverables**: [`docs/USER_GUIDE.md`](USER_GUIDE.md) • [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md) • [`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](FDE_CAPSTONE_COMPANION_GUIDE.md) • [`docs/finops-billing-and-deployment-guide.md`](finops-billing-and-deployment-guide.md)
 
----
+## 1. Problem Statement, User Personas & Critical User Journeys
 
-## 1. Executive Summary & Problem Statement
+### 1.1 The Volunteer Counselor Problem
+Across Scouting America, volunteer Merit Badge Counselors teach **144 official Merit Badges** (from Eagle-required badges like *First Aid*, *Weather*, and *Emergency Preparedness* to STEM electives like *Robotics* and *Nuclear Science*). Preparing a complete teaching packet from an 80-page BSA Merit Badge Pamphlet takes a volunteer **6 to 10 hours** per badge. Existing ad-hoc slide decks shared online frequently teach outdated requirement revisions (causing problems at Eagle Scout Boards of Review), omit sub-requirements (`1a`, `1b`, `2a`), or fail to separate classroom discussion items from hands-on patrol skill stations and campout prerequisites.
 
-Volunteer Scouts BSA Merit Badge Counselors spend 8 to 15 hours per badge gathering official Scouting America requirements, extracting diagrams from 80-page PDF pamphlets, structuring multi-meeting lesson plans using the **BSA EDGE method** (*Explain, Demonstrate, Guide, Enable*), and formatting slide decks and Scout workbooks. Generic single-prompt LLM chat tools frequently fail this workflow in four ways:
-1. **Curriculum Drift & Omitted Sub-Requirements**: Paraphrasing or skipping nested requirements (`1a..15c`).
-2. **Broken Slide Geometry**: Generating overlapping text boxes, overflowing cards when imported into Google Slides, or tiny unreadable fonts.
-3. **Noisy or Unaligned Pamphlet Visuals**: Pulling raw PDF XObjects with baked-in black caption boxes, low-resolution dithered scans, or redundant titles that collide with slide headers.
-4. **Youth Protection (YPT) Exposure**: Sending unredacted youth roster names, emails, or phone numbers to external model endpoints or telemetry logs.
+### 1.2 Target User Personas
 
-The **Scouts BSA Merit Badge Counselor Workbench** solves these problems with an 8-agent **Google ADK** pipeline covering all **144 official Scouts BSA Merit Badges** (`18` Eagle-Required and `126` Electives), backed by a **100% pre-cached visual asset library** (`2,292` compressed 8-bit Nano Banana hero and topic PNGs + `4,316` de-boxed pamphlet figures at `$0.00` runtime image cost), a **`<10ms` deterministic AABB geometry conformance simulator**, and **dual-layer Youth Protection PII scrubbing**.
+| Persona | Role & Context | Core Need |
+| :--- | :--- | :--- |
+| **Volunteer Merit Badge Counselor** *(Primary User)* | Working parent or subject-matter professional teaching a badge across three 45-minute troop meetings or a Saturday Merit Badge University clinic. | A ready-to-teach `16:9` PowerPoint deck, speaker notes, printable Scout workbook, Quartermaster gear checklist, Blue Card sign-off matrix, and Youth Protection (YPT) parent prerequisite letter in under 2 minutes with zero missing sub-requirements. |
+| **Council Advancement Chair / Camp Director** *(Enterprise Buyer)* | Oversees summer camp instruction and district Merit Badge clinics across 100+ troops. | Verifiable adherence to current official requirements, *Guide to Safe Scouting* policies, and Youth Protection (YPT) rules at a predictable cost (`$0.14` to `$1.00` per generated packet). |
+| **Youth Scout (Ages 11 to 17)** *(Downstream Beneficiary)* | Tenderfoot through Life Scout working toward advancement (`Tenderfoot 11-12`, `Mixed Troop 11-17`, or `Older Scouts / Eagle Prep 14-17`). | High-contrast visual diagrams, step-by-step procedures, and a clear checklist showing which requirements are completed in class versus at home or on a troop campout. |
 
-![Scouts BSA Merit Badge Counselor Workbench Overview](images/workbench-overview-layout.png)
+### 1.3 Critical User Journeys (CUJs)
 
----
+- **CUJ-1 (Full Curriculum Packet Generation & 3 Construction Animations)**: Counselor selects any of the 144 official Merit Badges, picks a depth mode (*Standard Deck* or *Deep Dive / Camp School Deck*), chooses a visual polish tier (`STANDARD` at `~$0.14`, `BEAUTIFIED` warm cream `#FAF8F5` at `~$0.38`, or `STUDIO` dark slate `#0F172A` capped at `$1.00`), enters their troop/council contact details and location (`City, State` or `ZIP Code`, such as `01949` / `Middleton, MA`), and generates a verified `.pptx` slide deck, `.md` workbook, timed lesson plan, Quartermaster gear list, and YPT parent prerequisite letter while watching the 3 automatic **Scout Slide Construction Animations** (*1. 3D Heavy Equipment (6f)*, *2. 2D Camp Pioneering (4f)*, and *3. 3D Slide-O-Matic (4f)*) with the active Merit Badge emblem overlaid.
+- **CUJ-2 (Requirement Execution Triage, Session Pacing, Gear Prep & Blue Card Sign-Off)**: Before the first meeting, the Counselor reviews the **3-Column Requirements Triage** (`IN_CLASS_DISCUSSION`, `HANDS_ON_SKILL_STATION`, `PREREQUISITE_CAMPOUT_HOME`), selects a schedule in the **Session Schedule Format** selector (*3 Troop Meetings (45 min each)*, *Summer Camp Week (4× 50-min Mon–Thu + Fri Make-Up)*, *Saturday Merit Badge Midway / Clinic (3-Hour Block)*, or *Weekend Campout Practicum*), scales the **Master Quartermaster Gear & Skill Station Packing Checklist** by **Class / Patrol Size** (*1 Scout*, *4 Scouts*, *8 Scouts*, or *16 Scouts*), sends the YPT Parent Welcome Letter via **`✉️ Draft in Email App`** or **`📨 Compose in Gmail`**, and tracks per-Scout completion in the **Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker** (with CSV export and printable sign-off sheet).
+- **CUJ-3 (3-Tab Under-Stage Drawer, Quick Text Edit & 4-Tab Merit Badge Image Studio)**: While reviewing the deck in the workbench preview (or presenting in **Fullscreen Classroom Mode** via `🖥️ Present Fullscreen` / `F`), the Counselor uses the **3-Tab Under-Stage Drawer** directly below the 16:9 stage:
+  - **Sub-Tab 1 (`🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])`)**: Inspects `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` coaching scripts.
+  - **Sub-Tab 2 (`🎨 Customize Slide & Image Studio`)**: Switches a specific slide's layout archetype, card style, brand palette, or right-side graphic (`Keep Current Slide Graphic`, `Restore Original Slide Graphic`, `🍌 Nano Banana Hero Graphic (or EDGE Concept Map)`, or `None (Remove Graphic & Expand Text to Full Width)` which expands text to `12.133"`), steps through cached badge images using the **`🖼️ Quick-Switch Slide Image`** dropdown and side-by-side `◀` `▶` buttons, or clicks **`🖼️ Manage & Add Slide Images (Catalog / Web / AI)`** in the upper-right corner to open the **4-Tab Popup Merit Badge Image Studio**:
+    1. **🗂️ 1. Badge Image Catalog & Carousel**: Browse all cached badge graphics (including de-boxed transparent official `PAMPHLET` figures) or click **🗑️ Clear Web/AI Cache** (`DELETE /api/badge/images`) to purge user-searched web images (`WEB_IMAGE_SEARCH`) and user-generated AI images (`NANO_BANANA_AI`) while preserving official `PAMPHLET` figures, pre-generated/auto-generated hero illustrations (`NANO_BANANA_HERO`), and `USER_UPLOAD` files.
+    2. **🌐 2. Web Image Search Agent**: Query live Wikimedia Commons (`WebImageSearchAgent`) for up to 12 public-domain photos and illustrations.
+    3. **🍌 3. Nano Banana AI Image Generator**: Generate custom, text-free illustrations across **11 visual styles** (`Auto (Content-Aware Mix)`, `Photorealistic Image`, `4-Quadrant Concept Map`, `Watercolor Field Sketch`, `Line Drawing`, `Cartoon Drawing`, `Technical Diagram`, `Editorial Field Illustration`, `Annotated Technical Cutaway`, `4-Panel Field Storyboard`, and `Comparison & Decision Visual`) with an **`Include Uniformed Scouts`** toggle via **`NanoBananaImageAgent`** (`gemini-2.5-flash-image` / Imagen 3) after viewing an upfront **`$0.08 USD`** cost estimate, granting explicit user consent (`user_consented=True`), and passing post-generation prompt alignment verification (`verify_generated_image_matches_prompt()`).
+    4. **📁 4. File Upload (`$0.00 USD`)**: Upload a local `.png`, `.jpg`, `.jpeg`, `.webp`, or `.gif` photo (`<= 10 MB`) via `POST /api/slide/upload-image`, normalize it to RGB PNG (`max 1600px`), register it as `USER_UPLOAD`, and apply it directly to the slide.
+  - **Sub-Tab 3 (`✏️ Quick Edit Slide Text`, `$0.00 USD`)**: Edits slide title, visual caption, teaching card lines, and speaker notes directly in the browser (`POST /api/slide/quick-edit-text`) and rebuilds the `.pptx` in under 1 second.
 
-## 2. Multi-Agent System Architecture (`google-adk`)
+## 2. Technical Scope, System Boundaries & Prototype vs. Production Matrix
+
+### 2.1 System Boundaries & Hard Architectural Invariants
+
+1. **Official Pamphlet Immutability (Zero Requirement Drift)**: External web search and local troop grounding are never permitted to alter official requirement numbers or wording. `compute_canonical_pamphlet_hash()` (`src/agents/researcher.py`) computes a SHA-256 digest over the canonical `(req_number, req_text)` requirement tree (`canonical_fidelity_verified=True`) before and after enrichment.
+2. **Vertex AI Tool-Mixing Isolation**: Vertex AI / Google ADK rejects requests that mix native `GoogleSearchTool` grounding and custom Python `FunctionTool` declarations on the same `LlmAgent`. We isolate web search inside `WebSearchGroundingAgent` (`gemini-2.5-flash`) and expose it to `PamphletResearchAgent` via an ADK `AgentTool` wrapper (`src/agents/researcher.py`).
+3. **BSA Youth Protection (YPT), Pre-LLM PII Redaction & Isolated Counselor Profile Caching**: Counselor email addresses and phone numbers are never transmitted to external LLM endpoints, written to SQLite telemetry, or exported to Cloud Logging / Cloud Trace. On a local laptop, counselor details are cached in `.cache/counselor_profile.json` (`0600` owner-only permissions, git-ignored) so the counselor only enters them once; in multi-tenant Cloud Run (`K_SERVICE` / `IS_CLOUD_RUN=true`), server-side profile file caching is disabled and counselor info is stored in the user's browser `localStorage` (`scouts_bsa_counselor_profile_v1`). During execution, PII is scrubbed pre-LLM in `before_model_guardrail_callback()` (`src/agents/guardrails.py`) using `scrub_pii_before_sink()` (`[REDACTED_EMAIL]`, `[REDACTED_PHONE]`) and injected locally onto Cover Slide 1 and the Parent Letter by `pptx_builder.py` after LLM processing finishes.
+4. **FinOps Consent Gate & Prompt Verification for On-Demand AI Image Generation**: `NanoBananaImageAgent` (`src/agents/image_studio.py`) calculates an upfront cost estimate (`$0.08 USD` per image, ~`2,580` tokens across generation and verification) via `estimate_nano_banana_image_cost()` and blocks image synthesis (`status="CONSENT_REQUIRED"`) unless `user_consented=True` is explicitly provided. After generation, `verify_generated_image_matches_prompt()` checks that the visual matches the requested subject and contains zero rendered prompt instructions. All discovered, uploaded, and generated images are cached per merit badge in `assets/badge_image_catalog/<badge_slug>/` and SQLite (`badge_image_catalog`) for free reuse across slides and sessions.
+
+### 2.2 Prototype vs. Production Matrix (What Runs Today vs. 90-Day National Scale)
+
+| Subsystem | Current Capstone Implementation (`v3.1.0`) | 90-Day Production Target for National Council Rollout (`50,000+` Counselors) |
+| :--- | :--- | :--- |
+| **Session, Vector & Image Catalog Memory** | Local SQLite WAL (`sessions`, `pamphlet_chunks` Hybrid BM25 + Cosine RRF index, `badge_image_catalog`, `hitl_feedback`) in `src/memory/session_store.py` + local `.cache/counselor_profile.json` (`0600`) / browser `localStorage`. | **Cloud SQL for PostgreSQL + `pgvector`** (or AlloyDB) with **Row-Level Security (RLS)** isolating sessions by `council_id` and `troop_id`. |
+| **Authentication & Identity** | `verify_caller_auth` in `src/security.py` enforcing `X-API-Key` and OIDC Bearer JWTs when `AUTH_REQUIRED=true` (set in `terraform/main.tf`), with frictionless local mode (`AUTH_REQUIRED=false`) for laptop use. | **Google Cloud Identity-Aware Proxy (IAP)** federated with **Scouting.org (`my.scouting.org`) OIDC SSO** verifying active Youth Protection Training (YPT) certification on login. |
+| **Deck Build Execution** | In-process worker thread (`asyncio.to_thread`) inside the FastAPI/Cloud Run container (`1.2s` for Standard decks; `~3.5s` for 60-slide Deep Dive decks). | **Cloud Tasks + Dedicated Cloud Run Worker Pool** for asynchronous generation of 60-slide Studio decks with webhook/SSE completion push. |
+| **Asset & Deck Storage** | Local `assets/` (`assets/badge_image_catalog/`, `assets/ai_illustrations/`, `assets/animations/`) and `deliverables/` directories mounted as static routes, plus Terraform `google_storage_bucket` definition. | **Google Cloud Storage (GCS) + Cloud CDN** with signed download URLs and 30-day lifecycle expiration for generated `.pptx` files. |
+
+## 3. Quantifiable Definition of Done (DoD) & Service Level Objectives (SLOs)
+
+Every release must pass the blocking verification suite (`.venv/bin/pytest tests/` with 53/53 tests and `python3 scripts/eval_gate.py`) against these concrete thresholds:
+
+| Metric / SLO | Target Threshold | Observed Benchmark | Verification Mechanism |
+| :--- | :--- | :--- | :--- |
+| **Sub-Requirement Coverage Recall** | `1.00` (`100%` of sub-requirements `1a..11`) | `1.00` (`100%`) | `scripts/eval_gate.py` (`--min-recall 0.98`) |
+| **Hybrid RAG Retrieval (`Recall@3` / `MRR` / `NDCG@3`)** | `Recall@3 >= 0.90`, `MRR >= 0.85` | `Recall@3 = 1.00`, `MRR = 1.00`, `NDCG@3 = 1.00` | `evaluate_ir_retrieval_metrics()` in `scripts/eval_gate.py` |
+| **Canonical Pamphlet SHA-256 Lock** | `100%` match (`0` requirement drift) | `100%` verified | `compute_canonical_pamphlet_hash()` |
+| **Stage 1 Slide Geometry (`AABB Overlaps`)** | `0` overlapping shapes; font floor `>= 13.0pt`; WCAG `>= 4.5:1` | `0` overlaps across all 12 golden decks | `check_pptx_conformance()` (`<10ms` per deck) |
+| **Stage 1 Conformance Simulator Latency** | `< 10 ms` per presentation | `3.4 ms` p95 | `tests/test_conformance_and_a2ui.py` |
+| **API Control-Plane Latency (`p95`)** | `< 150 ms` at 8 concurrent workers | `14.2 ms` p95 (`6.8 ms` p50) | `tests/load/load_test.py` |
+| **FinOps Per-Deck Ceiling (`STUDIO` Tier)** | `<= $1.00` hard cap per workflow + `$0.08/image` consent gate | `$0.14` (`STANDARD`), `$0.38` (`BEAUTIFIED`), `$1.00` (`STUDIO`) | `FinOpsBudgetPlugin` & `estimate_nano_banana_image_cost()` |
+
+## 4. End-to-End 9-Component / 7-Specialist-Agent Architecture & Key Engineering Decisions
 
 ```mermaid
-flowchart TD
-    UI["Material 3 Counselor Workbench (ui/index.html, ui/app.js)\n+ A2A 1.0 (/.well-known/agent.json) + FastMCP (src/mcp_server.py)"]
-    GUARD["Youth Protection Guardrail & PII Scrubber\n(src/pii_scrubber.py + src/agents/guardrails.py)"]
-    COORD["MeritBadgeCoordinator (gemini-2.5-pro)\nFinOps Budget Gate ($1.00 Cap) & Self-Healing Loop"]
-
-    RES["1. ResearcherAgent (gemini-2.5-flash)\n144 Badge JSONs + 134 Pamphlet PDFs + SHA-256 Lock"]
-    PLAN["2. CurriculumPlannerAgent (gemini-2.5-pro)\n3-Mode Triage + 12-Archetype Storyboard + EDGE Notes"]
-    BEAUT["3. BeautifierAgent (gemini-2.5-flash)\n3 Polish Tiers + 4 Palettes + 2,292 Pre-Cached PNGs"]
-    SLIDE["4. SlideGeneratorAgent (gemini-2.5-flash)\n13.333x7.5 Widescreen PPTX Builder (1:1 HTML5 Parity)"]
-    REV["5. QualityReviewerAgent (gemini-2.5-pro)\nStage 1 <10ms AABB Simulator + Citation Verifier"]
-    WEBIMG["6. WebImageSearchAgent (gemini-2.5-flash)\nWikimedia Commons Search ($0.00)"]
-    NANO["7. NanoBananaImageAgent (gemini-2.5-flash + Imagen)\nOn-Demand Custom AI Visuals ($0.08 Consent Gate)"]
-
-    UI --> GUARD --> COORD
-    COORD --> RES --> PLAN --> BEAUT --> SLIDE --> REV
-    REV -- "If AABB overlap > 0 or citation < 100% (Max 2 Retries)" --> SLIDE
-    COORD -. "Co-Design Tab 2" .-> WEBIMG
-    COORD -. "Co-Design Tab 3 (Requires user_consented=true)" .-> NANO
+flowchart LR
+    UI["Material 3 Counselor Workbench (:8085)\nCached Profile + 3-Tab Drawer + Field Toolkit"] --> COORD["1. Coordinator Agent\n(gemini-2.5-flash)\nSQLite RAG + HITL HMAC"]
+    COORD --> RES["2. Pamphlet Research Agent\n(gemini-2.5-pro)\nPyMuPDF + De-Box + SHA-256 Lock"]
+    RES <--> SEARCH["3. WebSearch Sub-Agent\n(gemini-2.5-flash)\nIsolated via AgentTool"]
+    RES --> RCRIT["4. Research Coverage Critic\n(gemini-2.5-pro)\n100% Sub-Req Recall"]
+    RCRIT --> PLAN["5. Slide Content Planner\n(gemini-2.5-pro)\n12 Archetypes + StudioKit"]
+    PLAN --> BEAUT["6. Slide Beautifier Agent\n(gemini-2.5-flash)\n3 Tiers + Hero PNGs / EDGE Maps"]
+    BEAUT --> LOOP["7. Builder & Review Loop\n(LoopAgent, Max 3x)\npython-pptx + <10ms AABB + Vision"]
+    UI <--> IMG_WEB["8. WebImageSearchAgent\n(gemini-2.5-flash)\nWikimedia + Local Upload"]
+    UI <--> IMG_AI["9. NanoBananaImageAgent\n(gemini-2.5-flash-image)\n11 Styles + $0.08 Gate + Verifier"]
 ```
 
-### Strategic Model Routing Table
+### 4.1 Location / ZIP Code Grounding (`resolve_counselor_location()`)
+When a counselor enables **Local Troop Grounding** and supplies a `location_or_zip` value (such as `01949` or `Middleton, MA`, or a browser timezone fallback like `America/New_York`), `resolve_counselor_location()` (`src/agents/researcher.py`) maps the input to a structured regional profile:
+- **Regional NOAA NWS Forecast Office** (for example, `NOAA NWS Boston/Norton (BOX)` for `01949`).
+- **Regional Weather & Terrain Hazards** (for example, `Coastal Nor'easters, rapid cold-front shifts, winter hypothermia, and woodland Ixodes tick habitats`).
+- **Local Outdoor Training Venues & Agencies** (for example, `Harold Parker State Forest, Blue Hills Reservation` and `MEMA & DCR State Parks`).
 
-| Agent Name | Module | Assigned Model | Routing Rationale |
-| :--- | :--- | :--- | :--- |
-| **`MeritBadgeCoordinator`** | `src/agents/coordinator.py` | `gemini-2.5-pro` | Root orchestration, FinOps budget enforcement, and self-healing retry coordination. |
-| **`ResearcherAgent`** | `src/agents/researcher.py` | `gemini-2.5-flash` | High-throughput ingestion of `144` requirement JSONs, `pypdf` extraction, and local ZIP grounding. |
-| **`CurriculumPlannerAgent`** | `src/agents/planner.py` | `gemini-2.5-pro` | Complex pedagogical triage, multi-slide topic decomposition, and BSA EDGE speaker script synthesis. |
-| **`BeautifierAgent`** | `src/agents/beautifier.py` | `gemini-2.5-flash` | Deterministic theme token application (`STANDARD`, `BEAUTIFIED`, `STUDIO`) and palette rotation. |
-| **`SlideGeneratorAgent`** | `src/agents/curriculum.py` | `gemini-2.5-flash` | Structured `.pptx` XML shape synthesis via `src/tools/pptx_builder.py`. |
-| **`WebImageSearchAgent`** | `src/agents/image_studio.py` | `gemini-2.5-flash` | Fast Wikimedia Commons query expansion and educational figure filtering (`$0.00`). |
-| **`NanoBananaImageAgent`** | `src/agents/image_studio.py` | `gemini-2.5-flash` + Imagen | Custom illustration synthesis gated by `$0.08` USD FinOps user consent + prompt alignment check. |
-| **`QualityReviewerAgent`** | `src/agents/reviewer.py` | `gemini-2.5-pro` | Stage 1 `<10ms` deterministic AABB geometry verification + Stage 2 multimodal vision audit. |
+To keep slides clean and free of repetitive footer text, this regional profile is injected into four specific places: **Slide 2 (Badge Overview)**, the **Counselor Session Lesson Plan**, the **Parent Prerequisite Letter**, and the **Grounded Citations** list.
 
----
+### 4.2 Three Visual Polish Tiers, Pre-Populated Nano Banana Hero Illustrations & EDGE Concept Map Fallback
+1. **`STANDARD` (`~$0.14`)**: Clean white background (`#FFFFFF`), navy header band, extracted pamphlet illustrations, and 220-DPI Matplotlib technical diagrams.
+2. **`BEAUTIFIED` (`~$0.38`, Default)**: Warm editorial cream canvas (`#FAF8F5`), 4 rotating accent palettes (`NAVY_GOLD`, `OLIVE_FOREST`, `EAGLE_CRIMSON`, `SLATE_ACTION`), elevated white vector content cards, and up to 5 **Nano Banana AI Hero Illustrations** (`NANO_BANANA_HERO`, `*_nano_hero.png`) on requirement intro slides that lack a technical diagram. The repository bundles **2,292 pre-generated, compressed (`<= 1,024px`, 8-bit quantized PNG, `~124 MB` total) Nano Banana hero, topic, and high-resolution scientific illustrations** across **all 144 Merit Badges** (`assets/ai_illustrations/` and `assets/badge_image_catalog/<slug>/`, alongside **4,316 de-boxed transparent RGBA pamphlet figures** in `assets/pamphlet_images/`) using the **Content-Aware Hybrid Mix** (`resolve_content_aware_visual_config()`), which pairs action-oriented requirements with uniformed Scouts (`Class A` tan shirt, neckerchief, olive trousers) and gear/anatomy/science topics with zero-human diagrams or knolling layouts. Custom visuals can also be generated on demand and cached to disk, with automatic fallback to a procedural **220-DPI Scouts BSA EDGE Skill Concept Map** (`1. EXPLAIN`, `2. DEMONSTRATE`, `3. GUIDE`, `4. ENABLE`) when offline or if Vertex AI quota is unavailable.
+3. **`STUDIO` (`$1.00` Hard Cap)**: Dark executive slate canvas (`#0F172A`) with dark navy cards (`#1E293B`), gold (`#FBBF24`) and cyan (`#38BDF8`) typography, and up to 15 Nano Banana hero illustrations (with dark-slate EDGE Skill Concept Map fallback).
 
-## 3. Data Corpus, SHA-256 Fidelity Lock & Hybrid RRF Retrieval
+Both the live browser preview (`ui/app.js`) and `src/tools/pptx_builder.py` share the exact same layout coordinate rules, bold anchor headings, and full card text so downloaded `.pptx` files match the browser preview 1:1.
 
-### 3.1 All 144 Official Merit Badges & Pre-Cached Visual Catalog
-- **Structured Requirement Catalog (`data/merit_badge_requirements/*.json`)**:
-  - Covers all **144 official Scouts BSA Merit Badges** (`18` Eagle-Required and `126` Electives, including 2025/2026 additions such as *Artificial Intelligence*, *Cybersecurity*, *Wildland Fire Management*, *Multisport*, *Action Sports*, and *Health Care Professions*).
-  - Each badge JSON stores its verbatim top-level requirements (`1..15`), nested sub-requirements (`1a..15c`), execution-mode triage tags, and multi-slide `topic_slides`.
-  - **Canonical SHA-256 Lock (`compute_canonical_pamphlet_hash`)**: Computes a deterministic SHA-256 digest over sorted `(req_number, description)` pairs so `QualityReviewerAgent` can detect any unauthorized requirement text mutation in `<1ms`.
-- **100% Pre-Cached Visual Pipeline (`$0.00` Runtime Image Cost)**:
-  - **`2,292` Pre-Generated Nano Banana Illustrations (`assets/ai_illustrations/`)**: Compressed (`<= 1,024px`, 8-bit PNG via `pngquant`/`PIL`) hero and topic illustrations covering every requirement across all `144` badges.
-  - **`4,316` De-Boxed Official BSA Pamphlet Figures (`assets/pamphlet_images/`)**: Extracted from `134` local pamphlet PDFs (`pdfs/`) with automatic bottom/top dark caption-bar removal (`_strip_pamphlet_caption_box`).
-  - **High-Resolution Scientific Diagram Upgrades & Clean Captions**: Key meteorological and scientific diagrams (Hydrologic Cycle, WSR-88D Doppler Radar, Cold and Warm Front cross-sections, 3D Warm Front side-by-side profile, Daytime Sea Breeze vs. Nighttime Land Breeze, Cloud Classification by Altitude Level, and top-cropped Earth's 23.5° Axial Tilt and Seasons) are rendered at high resolution with zero gibberish text, and all visual captions are concise and scene-specific with zero style-name prefixes.
+## 5. Total Cost of Ownership (TCO) & FinOps Model
 
-### 3.2 Hybrid Dense + Okapi BM25 Retrieval via Reciprocal Rank Fusion (`RRF`)
-Located in `src/memory/session_store.py` (`PersistentSessionStore.hybrid_search_pamphlet_rrf_sync`):
-1. **Dense Vector Search**: Computes cosine similarity over 768-dimensional `text-embedding-004` embeddings stored in SQLite (`pamphlet_chunks`).
-2. **Lexical Okapi BM25 (`k1 = 1.5, b = 0.75`)**: Scores exact requirement alphanumeric tokens (`Req 4b`, `34124`, `165°F`, `NWS`).
-3. **Reciprocal Rank Fusion (`k = 60`)**:
-   $$\text{RRF\_Score}(d) = \frac{1}{60 + \text{rank}_{\text{dense}}(d)} + \frac{1}{60 + \text{rank}_{\text{bm25}}(d)}$$
+### 5.1 Per-Deck Unit Economics
+Pricing is defined in `config/finops_model_policy.json` and enforced by `FinOpsBudgetPlugin` (`src/agents/guardrails.py`):
 
----
+| Polish Tier | Input Tokens | Output Tokens | Hero Visuals & EDGE Fallback | Cold Build Cost | Cached Rerun Cost |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **STANDARD (Fast Deck)** | `~32k - 65k` | `~7k - 13.5k` | `0` (uses pamphlet figures + 220-DPI Matplotlib diagrams) | **`$0.06 - $0.14`** | **`$0.00`** |
+| **BEAUTIFIED (Warm Cream + Hero Graphics, Default)** | `~57k - 90k` | `~15k - 21.5k` | Up to `5` requirement intro Hero Illustrations (2,292 pre-cached across all 144 badges at `$0.00` + EDGE fallback) | **`$0.30 - $0.38`** | **`$0.02`** |
+| **STUDIO (Dark Executive Slate)** | `~77k - 110k` | `~21k - 27.5k` | Up to `15` Hero Illustrations (pre-cached + dark-slate EDGE fallback) | **`$0.72 - $1.00` (Capped)** | **`$0.02`** |
 
-## 4. 1:1 HTML5-to-PPTX Rendering Engine & Two-Stage Conformance Gate
-
-### 4.1 12-Archetype Widescreen (`13.333" x 7.5"`) Slide Synthesis
-`src/tools/pptx_builder.py` and `ui/app.js` share identical layout geometry across 12 slide archetypes (`TITLE_COVER`, `REQUIREMENTS_TRIAGE_MATRIX`, `REQUIREMENT_INTRO`, `CONCEPT_TEXT_SLIDE`, `SPLIT_VISUAL_EXPLAINER`, `FULL_BLEED_IMAGE_EXPLAINER`, `PROCESS_STEP_CARDS`, `DIFFERENTIAL_COMPARISON_2COL`, `SAFETY_WARNING_CALLOUT`, `EQUIPMENT_CHECKLIST_GRID`, `PATROL_SCENARIO_CHALLENGE`, and `SOURCES_AND_REFERENCES`):
-- **Google Slides Import Fidelity**: Uses layered DrawingML rounded-rectangle crescent accents (`CardAccent_Top_*`, `CardAccent_Left_*`, `CardAccent_StepPill_*`) and `_concise_card_body(max_words=18, max_chars=125)` so cards never overflow or bleed outside their borders when imported into Google Slides.
-- **Three Visual Polish Tiers**:
-
-![Slide Polish Tiers Comparison](images/slide-polish-tiers-comparison.png)
-
-### 4.2 Stage 1 (`<10ms`) Deterministic AABB Geometry Simulator (`src/agents/reviewer.py`)
-Every generated `.pptx` file is validated by `check_pptx_conformance(pptx_path)` before delivery:
-1. **Axis-Aligned Bounding Box (AABB) Pairwise Intersection Check**: Verifies `aabb_overlap_count == 0` across all content shapes on every slide.
-2. **Canvas Boundary Verification**: Confirms `0 <= left`, `top >= 0`, `left + width <= 13.333"`, and `top + height <= 7.5"`.
-3. **Typography Floor Enforcement**: Verifies body text runs maintain `>= 12.0pt` font size (`min_font_size_pt >= 12.0`).
-4. **100% Citation Grounding (`verify_slide_citation_grounding`)**: Confirms every requirement slide maps to an authoritative Scouting America requirement ID (`citation_coverage_ratio == 1.0`).
-
----
-
-## 5. Per-Slide Co-Design, 4-Tab Image Studio & Counselor Field Toolkit
-
-![Per-Slide Co-Design and 4-Tab Image Studio](images/codesign-and-image-studio.png)
-
-- **Surgical Single-Slide Regeneration (`POST /api/slide/regenerate`)**: Updates any slide's inline text, layout archetype, card theme, or accent palette and re-renders the `.pptx` in `<250ms` without re-running the full pipeline.
-- **4-Tab Merit Badge Image Studio (`src/agents/image_studio.py`)**:
-  - **Tab 1 (`Cached Library`, `$0.00`)**: Instant access to all `2,292` pre-cached Nano Banana PNGs and `4,316` de-boxed pamphlet figures.
-  - **Tab 2 (`Web Image Search`, `$0.00`)**: Live Wikimedia Commons educational diagram search (`WebImageSearchAgent`).
-  - **Tab 3 (`Nano Banana AI Generator`, `$0.08` USD Consent Gate)**: Content-aware visual style resolver (`resolve_content_aware_visual_config`) that automatically selects `include_humans=True` for active Scout demonstrations and `include_humans=False` for gear flat-lays or atmospheric diagrams, enforces an explicit `$0.08` USD user consent gate, and validates prompt alignment (`verify_generated_image_matches_prompt`).
-  - **Tab 4 (`File Upload`, `$0.00`)**: Local troop photo or diagram upload (`POST /api/slide/upload-image`).
-
-![Counselor Field Toolkit](images/counselor-field-toolkit.png)
-
----
-
-## 6. Security, Youth Protection (YPT), Resilience & Observability
-
-1. **Dual-Layer Youth Protection PII Scrubber (`src/pii_scrubber.py`)**:
-   - Deterministic regex + Google Cloud DLP API integration that redacts youth names (`Scout <First> <Last>`), emails, phone numbers, SSNs, and street addresses across all prompts, outputs, SQLite records, and OpenTelemetry spans.
-2. **Model Armor Prompt-Injection Guardrail (`src/agents/guardrails.py`)**:
-   - Inspects all user inputs and custom image prompts (`sanitize_text_with_model_armor`) to block jailbreak attempts, system-prompt exfiltration, and YPT bypass payloads (`allowed = False`).
-3. **Stateful Circuit Breaker & Exponential Backoff (`src/resilience.py`)**:
-   - Protects Vertex AI calls with `retry_with_exponential_backoff` and a 3-state `CircuitBreaker` (`CLOSED`, `OPEN`, `HALF_OPEN`) that falls back cleanly to `gemini-2.5-flash` or deterministic local JSON synthesis.
-4. **OpenTelemetry Distributed Tracing & Intent-vs-Outcome Logging (`src/telemetry.py`, `src/logger.py`)**:
-   - Emits W3C TraceContext spans (`trace_id`, `span_id`, `agent_name`, `tokens_used`, `cost_usd`, `intent`, `outcome`) with PII-scrubbed attributes.
-
----
-
-## 7. Automated Verification & CI/CD Quality Gates
-
-- **`53` Non-Hollow Automated `pytest` Tests** across 5 test modules:
-  - `tests/test_conformance_and_a2ui.py` (`10` end-to-end workflow, UI/PPTX parity, Image Studio, v1 feedback flywheel, and 144-badge catalog tests)
-  - `tests/test_memory.py` (`9` SQLite WAL, history compaction, and Hybrid BM25 + Vector RRF tests)
-  - `tests/test_pii_scrubber.py` (`10` Youth Protection PII redaction and Model Armor guardrail tests)
-  - `tests/test_resilience_and_fault_injection.py` (`14` circuit breaker, backoff, fallback, and FinOps gate tests)
-  - `tests/test_tools.py` (`10` schema, scraper, and conformance simulator tests)
-- **`72` Pre-Built & Audited Benchmark Decks (`deliverables/benchmark_and_random_samples/`)**: `36` badges (`26` Benchmark + `10` Random Electives) across both *Deep Dive* and *Troop Meeting* modes (`100%` pass rate, `0` AABB overlaps).
-- **12-Badge Golden Evaluation Gate (`scripts/eval_gate.py`)** and **6-Act Live Demo Readiness Check (`scripts/verify_live_demo_readiness.py`)**.
+### 5.2 Council-Scale Monthly TCO Projection (`500` Active Counselors, `1,500` Decks/Month)
+Assuming `70%` of builds hit warm pamphlet and vector caches after the first generation of each badge:
+- **Vertex AI Gemini 2.5 Pro + Flash Usage**: `450 cold builds * $0.38` (`$171.00`) + `1,050 warm/customized builds * $0.03` (`$31.50`) = **`$202.50 / month`**.
+- **Cloud Run v2 Compute (`min_instances = 1`, `2 vCPU / 4 GiB`)**: **`~$68.00 / month`**.
+- **Cloud Storage, Secret Manager & Cloud Logging/Trace**: **`~$12.00 / month`**.
+- **Total Estimated Council TCO**: **`~$282.50 / month`** (`~$0.19` per delivered curriculum packet, saving `~3,000+` volunteer counselor hours per month and costing **98% less** than 500 individual `$30/mo` SaaS seats).

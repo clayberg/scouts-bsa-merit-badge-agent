@@ -1,102 +1,143 @@
-# Operational Runbook (`docs/runbook.md`)
+# Operational runbook: Scouts BSA Merit Badge Counselor Workbench
 
-This runbook covers local and Cloud Run operations, health and readiness verification, cache management, circuit-breaker recovery, and troubleshooting for the **Scouts BSA Merit Badge Counselor Workbench** (`v2.6`).
+This runbook covers local setup, Google Cloud deployment via Terraform and Cloud Build, health and readiness checks, incident triage, SQLite backups, and Cloud Run revision rollbacks.
 
 ---
 
-## 1. Service Startup & Health Verification
+## 1. Local operations
 
-### Start the Local Workbench Server
+### 1.1 Starting the Material 3 Counselor Workbench
 ```bash
+# Start the FastAPI / Material 3 Counselor Workbench (:8085)
 ./run_local.sh
-# Or directly with the virtual environment:
-.venv/bin/uvicorn src.server:app --host 0.0.0.0 --port 8080
+
+# Or start directly via uvicorn:
+uvicorn src.server:app --host 0.0.0.0 --port 8085
 ```
 
-### Verify Liveness & Deep Subsystem Readiness
+### 1.2 Checking health, readiness, and runtime metrics locally
 ```bash
-# 1. Fast liveness probe (<5ms)
-curl -s http://localhost:8080/api/v1/health | jq .
+# 1. Container liveness probe (expects HTTP 200 {"status": "UP"})
+curl -fsS http://127.0.0.1:8085/health | jq .
 
-# 2. Deep readiness probe (verifies SQLite WAL, Circuit Breaker CLOSED, and >= 144 badges loaded)
-curl -s http://localhost:8080/api/v1/readiness | jq .
+# 2. Deep dependency readiness probe (checks SQLite store, 144-badge catalog, policy JSON files, circuit breakers)
+curl -fsS http://127.0.0.1:8085/readiness | jq .
 
-# 3. 6-Act Pre-Flight Live Demo Readiness Check (<5 seconds)
-.venv/bin/python scripts/verify_live_demo_readiness.py
-```
-
-Expected readiness payload:
-```json
-{
-  "status": "ready",
-  "checks": {
-    "sqlite_wal_store": true,
-    "vertex_circuit_breaker_closed": true,
-    "badge_catalog_loaded": true,
-    "badge_catalog_count": 146
-  }
-}
-```
-*(Note: `badge_catalog_count: 146` reflects all `144` official Scouts BSA Merit Badges plus `2` synthetic test stubs used by the automated conformance test suite).*
-
----
-
-## 2. Visual Asset & Requirement Catalog Maintenance
-
-### Directory Layout & Pre-Cached Inventory
-- `data/merit_badge_requirements/*.json`: **144 official Merit Badge requirement & multi-slide topic catalogs** (plus `_index.json` and `_deck_audit_and_cost_report.json`).
-- `assets/ai_illustrations/`: **2,292 pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and topic illustrations** across all `144` badges.
-- `assets/pamphlet_images/`: **4,316 extracted and de-boxed official BSA Pamphlet figures**.
-- `assets/badge_emblems/`: **135 transparent RGBA Merit Badge patch emblems**.
-- `assets/pamphlet_covers/`: **134 official BSA Merit Badge pamphlet cover images**.
-
-### Clearing Ephemeral Web / Custom AI Image Caches
-If a counselor wants to clear temporary web-search or custom on-demand AI images for a specific badge without touching the `2,292` pre-cached hero/topic PNGs or `USER_UPLOAD` photos:
-```bash
-curl -X DELETE "http://localhost:8080/api/badge/images?badge_name=First%20Aid"
-# Or via the v1 cache maintenance endpoint:
-curl -s "http://localhost:8080/api/v1/cache/clear?badge_name=First%20Aid" | jq .
-```
-
-### Refreshing Real UI Screenshots for Documentation
-If you update the UI layout (`ui/index.html`, `ui/styles.css`, `ui/app.js`) and need to regenerate the 5 documentation screenshots in `docs/images/`:
-```bash
-.venv/bin/python scripts/capture_real_user_guide_screenshots.py
+# 3. Runtime telemetry, latency percentiles, and compliance audit events
+curl -fsS http://127.0.0.1:8085/api/v1/metrics | jq .
 ```
 
 ---
 
-## 3. Incident Response & Troubleshooting
+## 2. Google Cloud provisioning and CI/CD deployment
 
-### Scenario A: Vertex AI Rate-Limit (`HTTP 429`) or Transient Outage (`HTTP 503`)
-- **Automatic Mitigation**: `src/resilience.py` wraps all LLM calls in `retry_with_exponential_backoff` (`base_delay=1.0s`, jitter) and a 3-state `CircuitBreaker` (`CLOSED` -> `OPEN` after 3 consecutive failures -> `HALF_OPEN` after `30s` cooldown). When `OPEN`, `call_with_model_fallback` routes requests to `gemini-2.5-flash` or deterministic pre-cached JSON synthesis so deck generation never crashes.
-- **Verification**: Check `curl -s http://localhost:8080/api/v1/readiness` to inspect `vertex_circuit_breaker_closed`.
+### 2.1 Step 1: Provision infrastructure with Terraform (`terraform/`)
+`terraform/main.tf` creates the service account (`scouts-bsa-agent-sa`), custom VPC (`scouts-bsa-agent-vpc`), private subnet with Private Google Access and flow logs, Cloud Armor WAF policy (`scouts-bsa-agent-cloud-armor-waf`), Secret Manager secrets (`gemini-api-key`, `bsa-hitl-secret-key`), versioned Cloud Storage bucket, and Cloud Run v2 service.
 
-### Scenario B: Stage 1 PPTX Geometry Conformance Failure (`aabb_overlap_count > 0`)
-- **Automatic Mitigation**: `QualityReviewerAgent.check_pptx_conformance` (`src/agents/reviewer.py`) inspects every `.pptx` in `<10ms` and triggers up to `MAX_CONFORMANCE_RETRIES = 2` self-healing passes via `_concise_card_body` character-budget compaction (`<= 18` words, `<= 125` chars per card body).
-- **Manual Diagnostic**:
-  ```bash
-  .venv/bin/python -c '
-  from src.agents.reviewer import check_pptx_conformance
-  print(check_pptx_conformance("deliverables/Weather_BEAUTIFIED_DeepDive_Merit_Badge_Deck.pptx"))
-  '
-  ```
+```bash
+cd terraform
+terraform init
+terraform plan -var="project_id=${GOOGLE_CLOUD_PROJECT}" -var="region=us-central1"
+terraform apply -var="project_id=${GOOGLE_CLOUD_PROJECT}" -var="region=us-central1"
+```
 
-### Scenario C: Youth Protection (YPT) PII or Prompt Injection Alert
-- **Symptom**: `sanitize_text_with_model_armor` returns `allowed: False` with `PROMPT_INJECTION_OR_JAILBREAK_ATTEMPT`, or `src/pii_scrubber.py` replaces youth contact fields with `[REDACTED_EMAIL]`, `[REDACTED_PHONE]`, or `[REDACTED_YOUTH_NAME]`.
-- **Action**: This is expected defense-in-depth behavior. Inspect structured JSON logs (`event_type: "guardrail_interception"`) to confirm zero raw PII was emitted.
+### 2.2 Step 2: Populate Secret Manager secrets
+Store API keys and HMAC signing secrets in Secret Manager rather than git:
+
+```bash
+printf "%s" "${GEMINI_API_KEY}" | gcloud secrets versions add gemini-api-key \
+  --project="${GOOGLE_CLOUD_PROJECT}" --data-file=-
+
+openssl rand -hex 32 | gcloud secrets versions add bsa-hitl-secret-key \
+  --project="${GOOGLE_CLOUD_PROJECT}" --data-file=-
+```
+
+### 2.3 Step 3: Run the Cloud Build canary pipeline (`cloudbuild.yaml`)
+`cloudbuild.yaml` runs `ruff check`, `pytest tests/`, and `scripts/eval_gate.py`. If any check fails, the build stops before touching Cloud Run. When all checks pass, it deploys a `canary` revision at `10%` traffic, checks `/readiness`, and promotes the revision to `100%` (or rolls back automatically if the canary probe fails):
+
+```bash
+gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}"
+```
 
 ---
 
-## 4. Pre-Release & Regression Verification Commands
+## 3. Incident triage playbooks
+
+### Playbook A: Vertex AI `429 RESOURCE_EXHAUSTED` or `503 UNAVAILABLE`
+- **Symptoms**: `/api/v1/metrics` shows `circuit_breakers.vertex_ai_gemini.failure_count > 0` or `state == "OPEN"`.
+- **Automatic handling**:
+  1. `retry_with_exponential_jitter()` (`src/resilience.py`) retries transient errors with exponential backoff and random jitter.
+  2. After 3 consecutive failures, `VERTEX_LLM_CIRCUIT_BREAKER` opens for 15 seconds, and `ModelFallbackRouter` steps down from `gemini-2.5-pro` to `gemini-2.5-flash` to `deterministic-local-curriculum-engine`. Requests continue returning valid `.pptx` decks instead of HTTP 500 errors.
+- **Operator steps**:
+  - Check current circuit breaker status:
+    ```bash
+    curl -s http://127.0.0.1:8085/readiness | jq '.checks.circuit_breakers'
+    ```
+  - If `gemini-2.5-pro` quota is exhausted in `us-central1`, route planner and reviewer calls to Flash via environment variable:
+    ```bash
+    gcloud run services update scouts-bsa-merit-badge-agent \
+      --region=us-central1 \
+      --update-env-vars="BSA_PLANNER_MODEL=gemini-2.5-flash"
+    ```
+
+### Playbook B: Stage 1 AABB shape overlap or text overflow alert
+- **Symptoms**: `check_pptx_conformance()` reports `aabb_overlap_count > 0` or `scripts/eval_gate.py` exits with code `1`.
+- **Automatic handling**: `BSABrandAndSafetyReviewAgent` runs in a bounded `LoopAgent` (`max_iterations=3`) that passes overlap coordinates back to `PowerPointBuilderAgent` (`_compute_fitting_font_size()`) to reduce font sizes toward the `13.0pt` floor.
+- **Operator steps**:
+  - Run the evaluation gate locally to see which badge and slide triggered the geometry issue:
+    ```bash
+    .venv/bin/python3 scripts/eval_gate.py
+    cat deliverables/eval_gate_report.json | jq '.badge_benchmarks[] | select(.aabb_overlap_count > 0)'
+    ```
+
+### Playbook C: Model Armor prompt injection or Youth Protection block (`400 Bad Request`)
+- **Symptoms**: Caller receives `MODEL_ARMOR_PROMPT_BLOCKED` and `/api/v1/metrics` records `guardrail_status == "BLOCKED"`.
+- **Operator steps**:
+  - Inspect recent compliance events:
+    ```bash
+    curl -s http://127.0.0.1:8085/api/v1/metrics | jq '.recent_compliance_audit_events'
+    ```
+  - Check whether a regex rule in `src/agents/guardrails.py` (`_PROMPT_INJECTION_PATTERNS` or `_UNSAFE_SCOUTING_PATTERNS`) or `config/model_armor_security_policy.json` matched valid curriculum text.
+
+---
+
+## 4. Rollback, secret rotation, and SQLite backup
+
+### 4.1 One-command Cloud Run revision rollback
+To shift 100% of traffic back to the previous revision:
 
 ```bash
-# 1. Lint & static analysis
-.venv/bin/ruff check src/ tests/ scripts/
+PREV_REVISION=$(gcloud run revisions list \
+  --service=scouts-bsa-merit-badge-agent \
+  --region=us-central1 \
+  --sort-by="~creationTimestamp" \
+  --limit=2 \
+  --format="value(metadata.name)" | tail -n 1)
 
-# 2. Full 53-test pytest suite (conformance, A2UI, memory, PII scrubber, resilience, tools)
-.venv/bin/pytest -q
+gcloud run services update-traffic scouts-bsa-merit-badge-agent \
+  --region=us-central1 \
+  --to-revisions="${PREV_REVISION}=100"
+```
 
-# 3. 12-Badge Golden Evaluation Gate
-.venv/bin/python scripts/eval_gate.py
+### 4.2 Rotating `GEMINI_API_KEY` or `BSA_HITL_SECRET_KEY`
+1. Add a new secret version in Secret Manager:
+   ```bash
+   openssl rand -hex 32 | gcloud secrets versions add bsa-hitl-secret-key --data-file=-
+   ```
+2. Trigger a Cloud Run revision update so instances load `versions/latest`:
+   ```bash
+   gcloud run services update scouts-bsa-merit-badge-agent \
+     --region=us-central1 \
+     --update-labels="secret-rotated-at=$(date +%s)"
+   ```
+
+### 4.3 Backing up and restoring the SQLite session store
+Use SQLite's online `.backup` command to snapshot `.bsa_session_memory.sqlite` without locking active readers:
+
+```bash
+# Create online backup
+sqlite3 .bsa_session_memory.sqlite ".backup 'deliverables/bsa_session_memory_backup.sqlite'"
+
+# Restore from backup
+cp deliverables/bsa_session_memory_backup.sqlite .bsa_session_memory.sqlite
 ```

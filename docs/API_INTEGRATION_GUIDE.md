@@ -1,85 +1,120 @@
-# API & Interoperability Integration Guide (`v1.2.0`)
+# API and integration guide (`OpenAPI 3.1`, `A2A 1.0`, and `SSE`)
 
-This guide documents the HTTP REST endpoints, **Agent-to-Agent (A2A 1.0)** discovery protocol, **Agent-to-UI (A2UI v0.9)** surface envelopes, and **Model Context Protocol (FastMCP)** tools exposed by `src/server.py` and `src/mcp_server.py`.
+The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), Merit Badge Image Studio endpoints (`/api/badge/images`, `/api/slide/*`), counselor profile persistence (`/api/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
 
----
-
-## 1. API Versioning & Deprecation Policy
-
-- **Versioned Endpoints (`/api/v1/*`)**: All primary endpoints are served under `/api/v1/*` and return the response header `X-API-Version: 1.2.0`.
-- **Legacy Alias Routes (`/api/*`)**: Retained for backward compatibility and emit standard RFC 8594 headers (`Deprecation: true`, `Sunset: Wed, 31 Dec 2026 23:59:59 GMT`, `X-API-Version: 1.2.0`).
+- **OpenAPI 3.1 schema**: [`docs/openapi.yaml`](openapi.yaml) (exported by `scripts/export_openapi.py` and checked in `tests/test_resilience_and_fault_injection.py`).
+- **Swagger UI**: `http://localhost:8085/docs`
+- **A2A 1.0 Agent Card**: `http://localhost:8085/.well-known/agent.json`
 
 ---
 
-## 2. Core REST Endpoints (`src/server.py`)
+## 1. Authentication headers
 
-### Health & Readiness Probes
-- **`GET /health` & `GET /api/v1/health`**:
-  - Liveness probe returning `{"status": "ok", "version": "1.2.0"}`.
-- **`GET /readiness` & `GET /api/v1/readiness`**:
-  - Deep subsystem readiness check verifying SQLite WAL accessibility, Vertex AI circuit breaker state (`CLOSED`), and the full `144`-badge catalog (`catalog_len >= 144`).
-
-### Merit Badge Catalog & Visual Assets
-- **`GET /api/v1/badges` (alias: `GET /api/badges`)**:
-  - Returns all **144 official Scouts BSA Merit Badges** (`18` Eagle-Required and `126` Electives, plus `2` synthetic test stubs when validation mode is queried), organized across 8 category filters, along with official pamphlet PDF URLs, Scoutbook links, and local pre-cached visual counts.
-- **`GET /api/badge/images?badge_name=<Badge>`**:
-  - Lists all cached visual assets for the specified badge across `NANO_BANANA_HERO` (`2,292` pre-cached 8-bit PNGs across all `144` badges), `PAMPHLET_FIGURE` (`4,316` de-boxed official figures), `WEB_IMAGE_SEARCH`, `NANO_BANANA_AI`, and `USER_UPLOAD`.
-- **`DELETE /api/badge/images?badge_name=<Badge>` & `GET /api/v1/cache/clear?badge_name=<Badge>`**:
-  - Purges ephemeral web-search and custom AI-generated images for the badge while preserving pre-cached `NANO_BANANA_HERO`, `PAMPHLET_FIGURE`, and `USER_UPLOAD` assets.
-
-### Multi-Agent Curriculum & Slide Deck Workflow
-- **`POST /api/v1/workflow/run` (alias: `POST /api/workflow/run`)**:
-  - Executes `run_merit_badge_workflow` across the 8-agent ADK pipeline (`MeritBadgeCoordinator` -> `ResearcherAgent` -> `CurriculumPlannerAgent` -> `BeautifierAgent` -> `SlideGeneratorAgent` -> `QualityReviewerAgent`).
-  - **Request Payload**:
-    ```json
-    {
-      "badge_name": "Weather",
-      "depth_mode": "Deep Dive / Camp School Deck",
-      "beautification_tier": "BEAUTIFIED",
-      "enable_deep_research": true,
-      "audience_level": "All Scouts (Ages 11-17)",
-      "counselor_name": "Eric Clayberg",
-      "troop_affiliation": "Troop 19, Middleton MA",
-      "location_or_zip": "01949",
-      "email_address": "clayberg@gmail.com",
-      "phone_number": "(978) 555-0119"
-    }
-    ```
-  - **Response**: Returns `storyboard` (`slides`, `requirements`), `output_path` (`.pptx`), `conformance_report` (`aabb_overlap_count: 0`), `session_agenda`, `prerequisite_parent_letter`, `workbook_markdown`, `counselor_guide_markdown`, `finops_telemetry`, `hitl_confirmation_token`, and `a2ui_messages`.
-
-### Surgical Single-Slide Co-Design & 4-Tab Image Studio
-- **`POST /api/slide/regenerate`**:
-  - Updates a single slide's layout archetype, card style (`MODERN_CARDS`, `NUMBERED_STEP_CARDS`, `WARNING_CALLOUT`, `CHECKLIST_CARDS`), color palette (`NAVY_GOLD`, `FOREST_SAGE`, `CRIMSON_EMBER`, `SLATE_CYAN`), inline edited title/bullets, or graphic visibility (`keep`, `none`, `restore_original`) and rebuilds the `.pptx` in place.
-- **`POST /api/slide/search-web-images`**:
-  - Invokes `WebImageSearchAgent` to search Wikimedia Commons for educational diagrams or photographs (`$0.00` USD).
-- **`POST /api/slide/estimate-image-cost`**:
-  - Pre-flight FinOps estimator for `NanoBananaImageAgent` returning `{"estimated_cost_usd": 0.08, "requires_user_consent": true}`.
-- **`POST /api/slide/generate-nano-banana-image`**:
-  - Invokes `NanoBananaImageAgent`. Returns `{"status": "CONSENT_REQUIRED"}` if `user_consented` is `false`. When `user_consented` is `true`, generates the custom illustration, runs multimodal prompt-alignment verification (`verify_generated_image_matches_prompt`), and saves the PNG to the badge catalog.
-- **`POST /api/slide/upload-image`**:
-  - Saves a counselor-uploaded PNG/JPG/WebP image (`USER_UPLOAD`, `$0.00` USD) to the badge catalog.
-
-### StudioKit Session Pacing & Continuous Learning Flywheel
-- **`POST /api/studiokit/agenda`**:
-  - Dynamically re-paces a badge's requirements across 4 schedules: `3 Troop Meetings (60-Min)`, `Summer Camp Week (4x50-Min Mon-Thu + Fri Sign-Off)`, `Saturday Merit Badge Clinic (3-Hr Block)`, or `Weekend Campout Practicum`.
-- **`POST /api/v1/feedback`**:
-  - Records counselor star ratings (`1-5`) and requirement accuracy sign-off in SQLite (`counselor_feedback`). Runs rated `>= 4` stars with `requirement_accuracy_verified: true` are automatically promoted into `tests/data/golden_extensions.json`.
+Controlled by `AUTH_REQUIRED` (`false` by default on `localhost`; `true` in Cloud Run):
+- **API key header**: `X-API-Key: <your-bsa-api-key>`
+- **OIDC / Bearer token header**: `Authorization: Bearer <OIDC_JWT>`
 
 ---
 
-## 3. Agent-to-Agent (`A2A 1.0`) & Agent-to-UI (`A2UI v0.9`) Protocols
+## 2. Endpoint summary
 
-- **Agent Card Discovery (`GET /.well-known/agent.json`)**:
-  - Advertises `protocolVersion: "1.0"`, `capabilities.a2uiProtocolVersion: "v0.9"`, input/output schemas, and supported skills across all `144` official Merit Badges.
-- **Task Execution (`POST /a2a/tasks/send`)**:
-  - Accepts standard A2A task envelopes (`sessionId`, `message.parts`, `metadata`) and returns completed artifacts (`pptx_deck`, `counselor_guide`, `scout_workbook`) plus `a2ui_messages` (`beginRendering`, `surfaceUpdate`, `dataModelUpdate`).
+| Method and path | Purpose | Auth required in prod |
+| :--- | :--- | :--- |
+| `GET /health` | Container liveness check (`{"status": "UP"}`). | No (Cloud Run probe) |
+| `GET /readiness` | Deep readiness check for SQLite store, 144-badge catalog, policy JSON files, and circuit breakers. | No (Cloud Run probe) |
+| `GET /api/v1/badges` | Lists all 144 official Scouts BSA Merit Badges with category, Eagle status, and pamphlet/DRG URLs. | Yes |
+| `GET /api/counselor-profile` | Loads locally cached counselor info (`.cache/counselor_profile.json` on local runs; returns `storage_mode: "browser_local_storage"` on Cloud Run). | Yes |
+| `POST /api/counselor-profile` | Saves counselor info to `.cache/counselor_profile.json` (`0600` permissions) on local runs. | Yes |
+| `DELETE /api/counselor-profile` | Clears locally cached counselor info (`.cache/counselor_profile.json`). | Yes |
+| `POST /api/v1/workflow/run` | Runs the full pipeline and returns the `.pptx` download path, `.md` workbook, storyboard, lesson plan, parent letter, resolved location context, per-badge image catalog, and FinOps cost breakdown. | Yes |
+| `GET /api/v1/workflow/stream` | Streams real-time Server-Sent Events (`text/event-stream`) as each agent stage finishes. | No (Browser EventSource) |
+| `POST /api/v1/slide/regenerate` | Updates a single slide's layout archetype, card theme, color palette, or right-side graphic (`keep_current`, `restore_original`, `ai_hero`, `custom_image`, or `none`) and rebuilds the `.pptx` file. | Yes |
+| `GET /api/badge/images` | Lists all cached images in the Merit Badge Image Catalog (`badge_image_catalog` SQLite table + `assets/badge_image_catalog/<badge_slug>/`) for a given badge. | Yes |
+| `DELETE /api/badge/images` | Purges user-searched web (`WEB_IMAGE_SEARCH`) and user-generated AI (`NANO_BANANA_AI`) cached images for a badge while preserving official `PAMPHLET` figures, pre-generated/auto-generated hero illustrations (`NANO_BANANA_HERO`), and `USER_UPLOAD` files. | Yes |
+| `POST /api/slide/search-web-images` | Invokes `WebImageSearchAgent` (`gemini-2.5-flash`) to search Wikimedia Commons for up to 12 matching visuals, download them, and cache them for the badge. | Yes |
+| `POST /api/slide/estimate-image-cost` | Returns a FinOps cost estimate (`$0.08 USD` per image, ~`2,580` tokens) before running `NanoBananaImageAgent`. | Yes |
+| `POST /api/slide/generate-nano-banana-image` | Invokes `NanoBananaImageAgent` (`gemini-2.5-flash-image` / Nano Banana & Imagen 3) across 11 visual styles (including `Auto (Content-Aware Mix)` and `include_humans` control) after verifying `user_consented=True`, verifies prompt alignment (`verify_generated_image_matches_prompt()`), attaches the new graphic to the slide, adjusts text-only slides to `SPLIT_VISUAL_EXPLAINER`, and rebuilds the `.pptx`. | Yes |
+| `POST /api/slide/upload-image` | Uploads a local `.png`/`.jpg`/`.webp` image (`<= 10 MB`, `$0.00 USD`), normalizes it to RGB PNG (`max 1600px`), registers it as `USER_UPLOAD` in the badge catalog, and optionally applies it to the slide and rebuilds the `.pptx`. | Yes |
+| `POST /api/v1/hitl/confirm` | Validates counselor sign-off and returns an HMAC-SHA256 `confirmation_token`. | Yes |
+| `POST /api/v1/feedback` | Records counselor rating (`1-5`), thumbs-up/down, and requirement accuracy sign-off in `deliverables/counselor_hitl_feedback.jsonl`. | Yes |
+| `GET /api/v1/metrics` | Returns latency percentiles (`p50`/`p95`/`p99`), token spend, cache hit rate, circuit breaker states, and compliance audit events. | Yes |
+| `GET /api/v1/prompts/manifest` | Returns the prompt manifest (`prompts/manifest.json`) with SHA-256 content hashes. | Yes |
+| `POST /a2a/tasks/send` | Executes an A2A 1.0 task and returns `application/json+a2ui` v0.9 surface payloads. | Yes |
 
 ---
 
-## 4. Model Context Protocol (`FastMCP`) Server (`src/mcp_server.py`)
+## 3. Sample requests
 
-Run `python -m src.mcp_server` to expose the workbench tools over stdio or SSE to any MCP-compatible client:
-- `research_merit_badge(badge_name, location_or_zip)`
-- `generate_merit_badge_deck(badge_name, depth_mode, beautification_tier, confirmation_token)`
-- `audit_pptx_conformance(pptx_path)`
-- `issue_hitl_confirmation_token(action_name, badge_name, estimated_cost_usd)`
+### 3.1 Generate a Merit Badge deck and workbook (`POST /api/v1/workflow/run`)
+```bash
+curl -X POST http://localhost:8085/api/v1/workflow/run \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: ${BSA_API_KEY}" \
+  -d '{
+    "badge_name": "Weather",
+    "depth_mode": "Standard Deck",
+    "beautification_tier": "BEAUTIFIED",
+    "enable_deep_research": true,
+    "audience_level": "All Scouts (Ages 11-17)",
+    "counselor_name": "Eric Clayberg",
+    "troop_affiliation": "Troop 19, Middleton MA",
+    "location_or_zip": "01949",
+    "email_address": "clayberg@gmail.com",
+    "phone_number": "(978) 555-0119"
+  }'
+```
+
+### 3.2 Estimate cost and generate a custom slide graphic (`NanoBananaImageAgent`)
+```bash
+# Step 1: Estimate cost before generating ($0.08 USD)
+curl -X POST http://localhost:8085/api/slide/estimate-image-cost \
+  -H "Content-Type: application/json" \
+  -d '{
+    "badge_name": "Weather",
+    "visual_style": "Auto (Content-Aware Mix)",
+    "num_images": 1
+  }'
+
+# Step 2: Generate with explicit user consent (user_consented: true) and optional include_humans control
+curl -X POST http://localhost:8085/api/slide/generate-nano-banana-image \
+  -H "Content-Type: application/json" \
+  -d '{
+    "badge_name": "Weather",
+    "slide_index": 2,
+    "req_number": "Req 2",
+    "slide_title": "Cold Front vs Warm Front Dynamics",
+    "prompt": "Cross-section diagram showing a steep cold front wedge lifting warm moist air into cumulonimbus clouds",
+    "visual_style": "Auto (Content-Aware Mix)",
+    "include_humans": false,
+    "beautification_tier": "BEAUTIFIED",
+    "user_consented": true,
+    "apply_to_slide": true
+  }'
+```
+
+### 3.3 Upload a local custom image to a slide (`POST /api/slide/upload-image`)
+```bash
+curl -X POST http://localhost:8085/api/slide/upload-image \
+  -H "X-API-Key: ${BSA_API_KEY}" \
+  -F "badge_name=Weather" \
+  -F "slide_index=2" \
+  -F "req_number=Req 2" \
+  -F "title=Troop 19 Anemometer Build" \
+  -F "description=Scouts calibrating homemade cup anemometers at camp" \
+  -F "apply_to_slide=true" \
+  -F "file=@./my_troop_photo.jpg"
+```
+
+### 3.4 Submit counselor feedback (`POST /api/v1/feedback`)
+```bash
+curl -X POST http://localhost:8085/api/v1/feedback \
+  -H "Content-Type: application/json" \
+  -d '{
+    "badge_name": "Weather",
+    "session_id": "troop_19_session",
+    "rating": 5,
+    "thumbs_up": true,
+    "requirement_accuracy_verified": true,
+    "comments": "Warm vs cold front diagram worked well for Tenderfoot Scouts."
+  }'
+```
