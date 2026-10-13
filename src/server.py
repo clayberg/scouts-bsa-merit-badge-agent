@@ -468,7 +468,7 @@ def _decorate_result_urls(result: Dict[str, Any]) -> Dict[str, Any]:
 async def list_merit_badges(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Returns catalog of all 138 official Scouts BSA Merit Badges with category, Eagle status, and resource links."""
+    """Returns catalog of all 144 official Scouts BSA Merit Badges with category, Eagle status, and resource links."""
     from src.config import OFFICIAL_BSA_MERIT_BADGES_CATALOG
     from src.tools.scouting_scraper import BENCHMARK_BADGES_DATA
 
@@ -1128,10 +1128,10 @@ async def readiness_deep_probe() -> Dict[str, Any]:
         overall_ready = False
 
 
-    # 2. 138-badge catalog check
+    # 2. 144-badge catalog check
     catalog_len = len(OFFICIAL_BSA_MERIT_BADGES_CATALOG)
-    checks["merit_badge_catalog"] = "READY" if catalog_len >= 138 else f"INCOMPLETE ({catalog_len})"
-    if catalog_len < 138:
+    checks["merit_badge_catalog"] = "READY" if catalog_len >= 144 else f"INCOMPLETE ({catalog_len})"
+    if catalog_len < 144:
         overall_ready = False
 
     # 3. FinOps & Model Armor policy config files check

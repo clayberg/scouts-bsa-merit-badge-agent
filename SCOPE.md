@@ -1,27 +1,19 @@
-# Scope: Scouts BSA Merit Badge Counselor Workbench
+# Project Scope & Boundaries (`SCOPE.md`)
 
-## 1. Problem statement
-Volunteer Scouts BSA Merit Badge Counselors typically spend 8 to 15 hours building slide decks, Scout workbooks, lesson plans, and parent prerequisite letters for each of the 138 official Merit Badges. Standard single-prompt LLM slide generators do a poor job on Merit Badges: they summarize requirements down to four generic bullets, cut off multi-part sub-requirements (`1a`, `1b`, `2b1`, `3a-3q`), mix up requirement years, and repeat the same stock diagram across slides.
+## 1. In-Scope Capabilities
+- **All 144 Official Scouts BSA Merit Badges**:
+  - Complete requirement and sub-requirement JSON trees (`data/merit_badge_requirements/*.json`) for all `144` official Merit Badges (`18` Eagle-Required and `126` Electives, including 2025/2026 Scouting America additions such as *Artificial Intelligence*, *Cybersecurity*, *Wildland Fire Management*, *Multisport*, *Action Sports*, and *Health Care Professions*).
+  - Deep benchmark coverage for `26` Merit Badges (`18` Eagle-Required + `8` high-demand Electives) and `72` pre-built `.pptx` decks (`deliverables/benchmark_and_random_samples/`).
+- **Pre-Cached Multimodal Visual Asset Pipeline (`$0.00` Runtime Image Cost)**:
+  - `2,297` pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and multi-slide topic illustrations (`assets/ai_illustrations/`) covering every requirement across all `144` Merit Badges.
+  - `4,317` extracted and de-boxed official BSA Pamphlet figures (`assets/pamphlet_images/`), `135` transparent RGBA Merit Badge emblems (`assets/badge_emblems/`), and `134` official pamphlet covers (`assets/pamphlet_covers/`).
+  - High-resolution embedded-text diagrams for key scientific and meteorological concepts (Hydrologic Cycle, WSR-88D Doppler Radar, Cold/Warm Front cross-sections, 3D Warm Front side-by-side profile, Sea/Land Breezes, Cloud Classification by Altitude Level, and cropped Earth's 23.5° Axial Tilt & Seasons) with scene-specific visual captions.
+- **Material 3 Expressive Counselor Workbench (`src/server.py`, `ui/`)**:
+  - 3-column responsive layout with collapsible Setup and Filmstrip panels, 16:9 widescreen HTML5 preview stage with 1:1 `.pptx` visual parity, Fullscreen Presentation Mode (`F`), Per-Slide Co-Design Bar, 4-Tab Merit Badge Image Studio, and 5-Tab Under-Stage Counselor Toolkit Drawer.
+- **Enterprise AgentOps & Security Controls**:
+  - Google ADK 7-sub-agent coordinator hierarchy (`MeritBadgeCoordinator`), FastMCP cryptographic HITL confirmation tokens, A2A 1.0 Agent Card discovery (`/.well-known/agent.json`), A2UI v0.9 JSON envelopes, Youth Protection (YPT) PII scrubbing, Model Armor prompt-injection defense, OpenTelemetry distributed tracing, and SQLite + Vertex AI Memory Bank hybrid BM25/Vector RRF retrieval.
 
-This project builds a multi-agent curriculum workbench on the Google Agent Development Kit (ADK) for Python (`scouts-bsa-merit-badge-agent`). It generates widescreen (`16:9`) PowerPoint decks (`.pptx`), printable Scout workbooks (`.md`), session agendas, and Youth Protection (YPT) parent letters grounded in the official BSA Merit Badge Pamphlet:
-
-1. **5-tier pamphlet and regional research (`src/agents/researcher.py`)**: Extracts the full requirement and sub-requirement tree verbatim from `scouting.org` and official BSA Pamphlet PDFs (`PyMuPDF`), locks the requirement wording with a SHA-256 hash (`compute_canonical_pamphlet_hash()`), classifies each requirement by how it is taught (`IN_CLASS_DISCUSSION`, `HANDS_ON_SKILL_STATION`, `PREREQUISITE_CAMPOUT_HOME`), and resolves the counselor's City, State, or 5-digit ZIP code (`resolve_counselor_location()`) to regional NOAA National Weather Service offices, local terrain hazards, and state agencies.
-2. **12-archetype slide planner and visual pipeline (`src/agents/planner.py`, `src/agents/beautifier.py`, `src/tools/pptx_builder.py`)**: Maps each requirement onto 12 structured `python-pptx` layouts with `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` teaching notes. Preserves extracted BSA Pamphlet figures and 220-DPI technical diagrams (`src/tools/diagram_generator.py`), and attaches pre-populated or on-demand Nano Banana Hero Illustrations (`NANO_BANANA_HERO`, with 76 compressed PNGs cached across the 23 core Merit Badges and deterministic fallback to 220-DPI Scouts BSA EDGE Skill Concept Maps) on requirement intro slides in `BEAUTIFIED` and `STUDIO` modes.
-3. **Two-stage layout and safety check (`src/agents/reviewer.py`)**: Stage 1 checks `python-pptx` shape coordinates in memory in under 10ms (`check_pptx_conformance()`) to catch Axis-Aligned Bounding Box (AABB) overlaps, text below `13.0pt`, WCAG contrast ratios below `4.5:1`, or duplicate images. Stage 2 verifies 100% requirement coverage and BSA Guide to Safe Scouting rules inside a bounded `LoopAgent` (`max_iterations=3`).
-4. **Material 3 Counselor Workbench (`ui/` + `src/server.py`)**: Provides a responsive two-column FastAPI and Material 3 web application (`:8085`) with Server-Sent Events (SSE), A2UI v0.9 JSON payloads, 3 automatic Scout Slide Construction Animations during deck generation, Fullscreen Classroom Presentation Mode (`Present Fullscreen` / `F`), a 3-Tab Under-Stage Drawer (*Speaker Notes*, *Customize Slide & 4-Tab Image Studio*, and *Quick Edit Slide Text*), and a Counselor Classroom & Field Toolkit (*Patrol Blue Card `#34124` & Scoutbook Plus Sign-Off Matrix*, *Multi-Format Session Pacing Selector*, *Master Quartermaster Gear Checklist*, *One-Click Email/Gmail Parent Letter*, and *Print-Ready Scout Handouts*). The web slide preview and the downloaded `.pptx` file render identical text, card layouts, integrated `1.5pt` DrawingML card borders, de-boxed transparent pamphlet figures, and visual themes across all three polish tiers (`STANDARD`, `BEAUTIFIED`, and `STUDIO`).
-
-## 2. Target users
-- **Primary**: Scouts BSA Merit Badge Counselors, Summer Camp Area Directors, and Merit Badge University (MBU) instructors.
-- **Secondary**: Youth Patrol Leaders and Eagle Scout candidates preparing teaching sessions using the BSA EDGE Method (`Explain, Demonstrate, Guide, Enable`).
-
-## 3. Functional scope
-
-| Area | Included capabilities |
-| :--- | :--- |
-| **1. Pamphlet and regional research** | Official `scouting.org` requirement tree, PDF pamphlet text and de-boxed transparent figure extraction, SHA-256 requirement hash lock, and ZIP/City regional agency lookup (`resolve_counselor_location`). |
-| **2. Requirement triage & Blue Cards** | Classifies every requirement into `IN_CLASS_DISCUSSION`, `HANDS_ON_SKILL_STATION`, or `PREREQUISITE_CAMPOUT_HOME`, paired with an interactive Patrol Blue Card (`#34124`) & Scoutbook Plus sign-off matrix and CSV export. |
-| **3. Slide planning and Field Toolkit** | 12 `python-pptx` slide archetypes, worked examples, 2-column comparisons, Socratic quizzes, multi-format session pacing selector, Quartermaster gear checklist with patrol multiplier, YPT parent letters with Email/Gmail actions, and printable Scout handouts. |
-| **4. Visuals and polish tiers** | Three distinct tiers (`STANDARD` white, `BEAUTIFIED` warm cream `#FAF8F5`, `STUDIO` dark slate `#0F172A`), de-boxed transparent pamphlet figures, 220-DPI technical diagrams, 76 pre-populated Nano Banana hero illustrations (with EDGE Concept Map fallback), and an 11-style Image Studio (`Auto (Content-Aware Mix)` + `Include Uniformed Scouts`). |
-| **5. Layout and safety checks** | Stage 1 `<10ms` AABB geometry, font-floor, and WCAG contrast check + Stage 2 curriculum and Guide to Safe Scouting review. |
-| **6. Security and FinOps** | Pre-LLM PII scrubbing (`scrub_pii_before_sink`), Model Armor prompt checks, HMAC-SHA256 HITL build token, and `$1.00` FinOps budget cap. |
-| **7. User interface** | Unified FastAPI Material 3 Counselor Workbench (`:8085`) with `Hide Setup`/`Show Setup` toggle, 3 construction animations, Fullscreen presentation mode, and 3-Tab Under-Stage Drawer. |
+## 2. Out-of-Scope Boundaries
+- **Official Scoutbook Plus Direct Database Writes**: The workbench generates Scoutbook-compatible CSV sign-off exports (`#btn-bluecard-export-csv`) and printable Blue Card (`#34124`) matrices, but does not write directly into Scouting America's closed production Scoutbook database.
+- **Storage of Youth Personal Identifiable Information (PII)**: By design and Scouting America Youth Protection guidelines, the system never persists youth names, phone numbers, email addresses, or home addresses to cloud logs or long-term storage.
+- **Autonomous Modification of Official Requirement Text**: Agents are strictly prohibited from altering, abbreviating, or paraphrasing official Scouting America requirement text on `REQUIREMENT_INTRO` slides.

@@ -228,7 +228,7 @@ def is_eagle_required(badge_name: str) -> bool:
 
 
 # ==============================================================================
-# COMPLETE CATALOG OF ALL 138 OFFICIAL SCOUTS BSA MERIT BADGES
+# COMPLETE CATALOG OF ALL 144 OFFICIAL SCOUTS BSA MERIT BADGES
 # ==============================================================================
 
 _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
@@ -414,7 +414,7 @@ ALL_OFFICIAL_BADGE_NAMES: Set[str] = {
 
 
 def get_merit_badge_metadata(badge_name: str) -> Optional[Dict[str, object]]:
-    """Looks up official catalog metadata for any of the 138 Scouts BSA Merit Badges."""
+    """Looks up official catalog metadata for any of the 144 Scouts BSA Merit Badges."""
     if not badge_name or not isinstance(badge_name, str):
         return None
     target = badge_name.strip().lower()

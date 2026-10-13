@@ -2,7 +2,7 @@
  * Scouts BSA Merit Badge Counselor Workbench Client (`ui/app.js`)
  *
  * Provides:
- * - Full 138-Badge Catalog search, category filter, and Eagle-Required / Elective filter
+ * - Full 144-Badge Catalog search, category filter, and Eagle-Required / Elective filter
  * - Clean research & slide deck generation progress via SSE (`/api/workflow/stream`)
  * - Interactive Slide Deck Preview (including Cover Slide 1 with badge patch & pamphlet cover,
  *   plus all requirement & topic teaching slides)

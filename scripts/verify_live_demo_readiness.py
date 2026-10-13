@@ -3,12 +3,12 @@
 
 Executes a fast (< 5 second) end-to-end verification of all 6 live demonstration acts
 for the FDE Capstone Panel Defense (Rubric Subcategory 5.2):
-1. Act 1 — Canonical Pamphlet Corpus & SHA-256 Fidelity Lock (`compute_canonical_pamphlet_hash`).
-2. Act 1b — Hybrid RAG Retrieval (`hybrid_search_pamphlet_rrf_sync` combining Dense Cosine + Okapi BM25 via RRF).
-3. Act 2 — 4-Tab Merit Badge Image Studio & `$0.08` FinOps Consent Gate (`estimate_nano_banana_image_cost`).
-4. Act 3 — Live Youth Protection (YPT) PII Redaction & Model Armor Guardrail Interception (`sanitize_text_with_model_armor`).
-5. Act 4 — Stage 1 `<10ms` Deterministic Geometry Conformance (`check_pptx_conformance`) & Citation Grounding.
-6. Act 4b — Stateful Circuit Breaker & Model Fallback Router (`VERTEX_LLM_CIRCUIT_BREAKER`).
+1. Act 1: Canonical Pamphlet Corpus & SHA-256 Fidelity Lock (`compute_canonical_pamphlet_hash`).
+2. Act 1b: Hybrid RAG Retrieval (`hybrid_search_pamphlet_rrf_sync` combining Dense Cosine + Okapi BM25 via RRF).
+3. Act 2: 4-Tab Merit Badge Image Studio & `$0.08` FinOps Consent Gate (`estimate_nano_banana_image_cost`).
+4. Act 3: Live Youth Protection (YPT) PII Redaction & Model Armor Guardrail Interception (`sanitize_text_with_model_armor`).
+5. Act 4: Stage 1 `<10ms` Deterministic Geometry Conformance (`check_pptx_conformance`) & Citation Grounding.
+6. Act 4b: Stateful Circuit Breaker & Model Fallback Router (`VERTEX_LLM_CIRCUIT_BREAKER`).
 """
 
 import json

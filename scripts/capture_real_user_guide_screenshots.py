@@ -308,17 +308,17 @@ async def capture_all() -> None:
                 (
                     "iso_heavy",
                     3,
-                    "1. 3D Heavy Equipment (6 Frames) — Helicopter Emblem Hoist",
+                    "1. 3D Heavy Equipment (6 Frames): Helicopter Emblem Hoist",
                 ),
                 (
                     "camp_pioneer",
                     2,
-                    "2. 2D Camp Pioneering (4 Frames) — Field Sketch & Medallion",
+                    "2. 2D Camp Pioneering (4 Frames): Field Sketch & Medallion",
                 ),
                 (
                     "clay_workshop",
                     2,
-                    "3. 3D Slide-O-Matic (4 Frames) — Lodge Contraption",
+                    "3. 3D Slide-O-Matic (4 Frames): Lodge Contraption",
                 ),
             ]
             for concept_key, frame_idx, title_lbl in anim_specs:
@@ -364,15 +364,15 @@ async def capture_all() -> None:
             polish_modes = [
                 (
                     "STANDARD",
-                    "Standard Fast Deck — Crisp White (~$0.14)",
+                    "Standard Fast Deck: Crisp White (~$0.14)",
                 ),
                 (
                     "BEAUTIFIED",
-                    "AI Beautified — Warm Cream + Hero Graphics (~$0.38)",
+                    "AI Beautified: Warm Cream + Hero Graphics (~$0.38)",
                 ),
                 (
                     "STUDIO",
-                    "AI Studio — Dark Slate + Hero Graphics ($1.00 Budget)",
+                    "AI Studio: Dark Slate + Hero Graphics ($1.00 Budget)",
                 ),
             ]
             for mode_val, mode_label in polish_modes:

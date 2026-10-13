@@ -24,7 +24,7 @@ except ImportError:  # pragma: no cover
 
 
 # ==============================================================================
-# OFFICIAL MERIT BADGE CATALOG (ALL 138+ OFFICIAL SCOUTS BSA MERIT BADGES)
+# OFFICIAL MERIT BADGE CATALOG (ALL 144 OFFICIAL SCOUTS BSA MERIT BADGES)
 # ==============================================================================
 
 ALL_OFFICIAL_MERIT_BADGES: List[str] = [
@@ -4620,7 +4620,7 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
             return build_guided_tool_error(
                 error_type="INVALID_RESEARCH_REQUEST_SCHEMA",
                 message=f"MeritBadgeResearchRequest validation failed: {exc}",
-                recovery_suggestion="Provide a valid 'badge_name' string matching one of the 138 Scouts BSA Merit Badges.",
+                recovery_suggestion="Provide a valid 'badge_name' string matching one of the 144 Scouts BSA Merit Badges.",
                 available_badges_sample=["First Aid", "Camping", "Citizenship in the Community", "Citizenship in the Nation"],
             )
 
@@ -4684,7 +4684,7 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
             )
             return result.model_dump()
 
-    # 2. Check if badge is in the 138-badge OFFICIAL_BSA_MERIT_BADGES_CATALOG
+    # 2. Check if badge is in the 144-badge OFFICIAL_BSA_MERIT_BADGES_CATALOG
     from src.config import get_merit_badge_metadata
 
     catalog_meta = get_merit_badge_metadata(raw_name)
@@ -4710,11 +4710,11 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
             return build_guided_tool_error(
                 error_type="BADGE_PAMPHLET_NOT_FOUND",
                 message=f"Could not locate official PDF pamphlet for badge '{request.badge_name}'.",
-                recovery_suggestion="Check spelling or select from the 138 official Scouts BSA Merit Badges.",
+                recovery_suggestion="Check spelling or select from the 144 official Scouts BSA Merit Badges.",
                 available_badges_sample=["First Aid", "Camping", "Weather", "Citizenship in the Community"],
             )
 
-    # 3. Prefer official requirements from data/official_requirements_cache.json for all 138 Merit Badges!
+    # 3. Prefer official requirements from data/official_requirements_cache.json for all 144 Merit Badges!
     cached_official_reqs = official_cache.get(resolved_name)
     if cached_official_reqs:
         raw_fallback_reqs = [
