@@ -236,6 +236,12 @@ def strip_pamphlet_and_req_caption_prefixes(caption: str, badge_name: str = "") 
         s,
         flags=re.IGNORECASE,
     ).strip()
+    s = re.sub(
+        r"^[^—\-:]{2,55}?\s*\(\s*Req\.?\s*[0-9a-zA-Z().\-]+\s*\)\s*[—\-:]\s*(?:Field\s*&\s*handbook\s+overview\s+illustration|Four-part\s+instructional\s+visual\s+plate)\s*[—\-:]\s*",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    ).strip()
     if badge_name:
         esc_b = re.escape(badge_name)
         s = re.sub(

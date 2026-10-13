@@ -3041,6 +3041,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Meteorology & Core Atmospheric Variables",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p019_img1.png",
+                        "caption": "Analog dial thermometer (°C) and relative humidity hygrometer (%) used to measure core atmospheric variables.",
                         "bullets": [
                             "What Is Meteorology: The scientific study of Earth's atmosphere, its physical processes, and short-term weather patterns.",
                             "Greek Etymology: Derived from 'meteoron' (things high up in the air) and 'logos' (knowledge, study, or discussion).",
@@ -3123,6 +3124,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Thunderstorms, Lightning & Winter Blizzards",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p036_img1.png",
+                        "caption": "Cloud-to-ground lightning discharge beneath a severe cumulonimbus thunderstorm base ('When Thunder Roars, Go Indoors').",
                         "bullets": [
                             "Thunderstorms & Lightning: Every thunderstorm produces lightning; severe storms bring 58+ mph downdraft winds and hail >= 1 inch in diameter.",
                             "Lightning Outdoor Rules: Enter a substantial building or hard-topped metal vehicle immediately; avoid open fields, ridgelines, lakes, and isolated tall trees.",
@@ -3134,6 +3136,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Flash Floods, Tornadoes & Hurricanes",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/ai_illustrations/weather_req_2_topic_visual.png",
+                        "caption": "(Left) Climbing above a canyon flash flood; (Center) Tornado funnel and storm cellar; (Right) Coastal hurricane winds and storm surge.",
                         "bullets": [
                             "Flash Floods & Floods: Flash floods rise within minutes in canyons, dry washes, and streams; never camp in dry streambeds, climb to high ground immediately, and obey 'Turn Around, Don't Drown' (6 in. knocks you down; 12–24 in. floats a car).",
                             "Tornadoes: Violently rotating columns of air (up to 200–300 mph) descending from a thunderstorm; flying debris is the primary killer.",
@@ -3201,7 +3204,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "req_number": "3",
                 "topic_title": "Req 3: Two Sources of Weather Forecasts for Outdoor Activities",
                 "action_verb": "Identify",
-                "req_text": "Identify at least two sources of weather forecasts that can be used to prepare for hikes, overnight camping, and other outdoor activities. Discuss with your counselor theazio/types of information each source provides and how you can use them.",
+                "req_text": "Identify at least two sources of weather forecasts that can be used to prepare for hikes, overnight camping, and other outdoor activities. Discuss with your counselor the types of information each source provides and how you can use them.",
                 "safety_callout": "Always verify at least two independent weather forecast sources before departing on any backcountry hike or campout.",
                 "execution_mode": "IN_CLASS_DISCUSSION",
                 "pamphlet_excerpts": [
@@ -3214,6 +3217,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Field Forecast Sources: Weather.gov & NOAA Weather Radio",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p037_img1.png",
+                        "caption": "Backcountry Scouts monitoring a portable NOAA Weather Radio All Hazards receiver and trail communication radio.",
                         "bullets": [
                             "Source 1 — National Weather Service (weather.gov): Official 7-day point forecasts tailored to exact elevation and latitude/longitude, including hourly temperature, wind chill, rain probability, and lightning risk.",
                             "Source 2 — NOAA Weather Radio All Hazards (NWR): Battery/hand-crank VHF receiver (162.400–162.550 MHz) broadcasting continuous local NWS office cycles and automatic emergency tone alerts.",
@@ -3225,6 +3229,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "NWS Doppler Radar & Hourly Forecast Graphs",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p065_img1.png",
+                        "caption": "National Weather Service WSR-88D Doppler radar reflectivity mosaic tracking severe thunderstorm precipitation bands.",
                         "bullets": [
                             "WSR-88D Doppler Radar Reflectivity: Measures precipitation intensity (dBZ from light green rain to red/purple heavy thunderstorm cores and hail) and storm speed/direction.",
                             " radial Velocity Scans: Detects rotation inside supercell thunderstorms (tornado signatures) and damaging straight-line wind gusts.",
@@ -3388,6 +3393,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Why It Rains: Evaporation, Cooling & Coalescence",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/ai_illustrations/weather_req_5_topic_visual.png",
+                        "caption": "Precipitation Formation: Solar lake evaporation rising into a cumulus cloud, droplet collision-coalescence on nuclei, and valley rainfall.",
                         "bullets": [
                             "Step 1 — Evaporation & Uplift: Solar energy evaporates liquid water into water vapor gas, which is carried aloft by rising air currents or fronts.",
                             "Step 2 — Adiabatic Cooling & Saturation: As moist air rises into lower pressure, it expands and cools until it reaches 100% relative humidity (dew point).",
@@ -3471,6 +3477,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "High-Altitude Clouds (Above 20,000 Feet AGL)",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p025_img1.png",
+                        "caption": "High-altitude cirrocumulus undulatus ('mackerel sky') ice-crystal clouds above 20,000 feet heralding an approaching front.",
                         "bullets": [
                             "Prefix 'Cirro-' & Ice Composition: High clouds form above 20,000 feet where air is subfreezing, so they are composed almost entirely of ice crystals.",
                             "Cirrus (Ci): Thin, wispy 'mares' tails' blown by high-altitude jet stream winds; indicate fair weather now but often signal an approaching warm front within 24–36 hours.",
@@ -3482,6 +3489,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Middle, Low & Vertically Developing Clouds",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p023_img1.png",
+                        "caption": "Mid-level altocumulus cloud deck between 6,500 and 20,000 feet AGL above a pine forest.",
                         "bullets": [
                             "Middle Clouds ('Alto-', 6,500–20,000 ft): Altocumulus (gray/white rounded layers) and Altostratus (uniform gray sheet where the Sun looks like a dim frosted glass disc before rain/snow).",
                             "Low Clouds (Below 6,500 ft): Stratus (flat gray blanket producing mist/drizzle), Stratocumulus (low lumpy rolls), and Nimbostratus ('nimbo' = rain; dark gray layer producing steady, prolonged rain or snow).",
@@ -3547,6 +3555,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Atmospheric Moisture: Evaporation to Precipitation",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/ai_illustrations/weather_req_7_topic_visual.png",
+                        "caption": "Hydrologic Moisture Cycle: Solar ocean evaporation and forest transpiration rising up a mountain slope to condense into rain clouds.",
                         "bullets": [
                             "Evaporation (Liquid -> Gas): Solar energy heats oceans, lakes, and rivers, turning liquid water into invisible water vapor (oceans supply ~90% of atmospheric moisture).",
                             "Transpiration & Sublimation: Trees and plants release water vapor through leaf pores (~10% of moisture), while high-altitude snow and ice sublime directly from solid to vapor.",
@@ -3610,6 +3619,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Acid Rain Chemistry & Industrial Air Pollution",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/ai_illustrations/weather_req_8_topic_visual.png",
+                        "caption": "(Left) Factory and vehicle exhaust plumes; (Center) Cloud droplet chemical reaction inset; (Right) Acidic rain on mountain pines and lake.",
                         "bullets": [
                             "What Is Acid Rain: Precipitation contaminated with sulfur dioxide (SO2) and nitrogen oxides (NOx) emitted by coal-fired power plants, smelters, and motor vehicles.",
                             "Atmospheric Chemical Reaction: SO2 and NOx react with water vapor and oxygen in clouds to form dilute sulfuric acid and nitric acid, dropping rain pH below 5.0.",
@@ -3699,6 +3709,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Solar Beam Angle Across Equator, Temperate & Polar Zones",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/ai_illustrations/weather_req_9_topic_visual.png",
+                        "caption": "Solar Incidence Angles: Concentrated perpendicular rays at the Equator, angled mid-latitude rays, and grazing oblique rays at the Poles.",
                         "bullets": [
                             "Near the Equator (Tropics, 23.5°N to 23.5°S): Sunlight strikes nearly perpendicular (90°) year-round with ~12 hours of daylight daily, concentrating solar energy into a hot tropical climate.",
                             "Near the Poles (Arctic & Antarctic, >66.5° Latitude): Sunlight strikes at a low, oblique grazing angle spread over a wide surface area (plus months of winter darkness), creating a cold polar climate.",
@@ -3774,6 +3785,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Option 10a: Building a Wind Vane, Rain Gauge or Hygrometer",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p048_img1.png",
+                        "caption": "Scout wearing safety glasses cutting an aluminum arrow vane and tail fin to construct a directional wind vane.",
                         "bullets": [
                             "Wind Vane (Wind Direction): Pivoting arrow with a larger tail fin mounted on a free-spinning pin; always points into the direction the wind is blowing FROM (aligned with a compass to N, E, S, W).",
                             "Rain Gauge (Precipitation): Straight-sided cylinder and collector funnel with a calibrated ruler measuring rainfall in tenths/hundredths of an inch in an open area away from trees/roofs.",
@@ -3785,6 +3797,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Option 10a/10b: Calibrating an Anemometer & NWS Expert Visit",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p050_img3.png",
+                        "caption": "Scout testing a homemade four-cup rotational anemometer built from paper cups and wooden dowels to measure wind speed.",
                         "bullets": [
                             "Four-Cup Anemometer (Option 10a): Four lightweight cups mounted on crossed wooden dowels that spin on a center spindle; mark one cup with a bold color to count revolutions per minute (RPM) and convert to mph.",
                             "Visiting a Weather Expert (Option 10b): Interview an NWS Weather Forecast Office (WFO) meteorologist, TV/radio weathercaster, private meteorologist, agricultural extension agent, or university professor.",
@@ -3840,6 +3853,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Structuring Your 5-Minute Outdoor Weather Safety Talk",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/ai_illustrations/weather_req_11_topic_visual.png",
+                        "caption": "Outdoor Safety Briefing: Uniformed Scout at a campsite easel pointing to a weather hazard flip-chart while addressing his patrol.",
                         "bullets": [
                             "Mandatory Pre-Approval Step: Share your written speech outline with your Merit Badge Counselor for review and approval BEFORE giving your talk.",
                             "Target Audience & Setting: Present to your Scout troop, patrol, Den/Cub Scout pack, or classroom for at least 5 full minutes.",
@@ -3913,6 +3927,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Career Pathways in Meteorology & Atmospheric Science",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
                         "image_path": "assets/pamphlet_images/weather_p073_img2.png",
+                        "caption": "National Weather Service operational meteorologist analyzing satellite, Doppler radar, and numerical models at an AWIPS workstation.",
                         "bullets": [
                             "National Weather Service (NWS) Operational Forecaster: Staffs 122 regional Weather Forecast Offices (WFOs) 24/7, issuing public forecasts, aviation/marine briefings, and severe weather warnings.",
                             "Broadcast TV & Digital Meteorologist: Translates complex computer models into clear on-air graphics and conducts live continuous coverage during tornado or hurricane emergencies.",

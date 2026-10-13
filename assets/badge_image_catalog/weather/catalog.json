@@ -120,14 +120,14 @@
     "image_id": "a620c8f0360621",
     "badge_name": "Weather",
     "req_number": "10",
-    "slide_title": "Requirement 10: Weather Instruments & 7-Day Log OR NWS Meteorologist Visit",
-    "title": "Requirement 10: Weather Instruments & 7-Day Log OR NWS Meteorologist",
-    "description": "Context-grounded Nano Banana (Photorealistic Image \u2022 Uniformed Scouts) hero graphic for Requirement 10 (Requirement 10: Weather Instruments & 7-Day Log OR NWS Meteorologist Visit).",
+    "slide_title": "Weather Instruments & 7-Day Log OR NWS Meteorologist Visit: Sub-Requirement Deep Dive (Reqs 10a\u201310b)",
+    "title": "Weather Instruments & 7-Day Log OR NWS Meteorologist Visit: Sub-Requ",
+    "description": "Context-grounded Nano Banana (Photorealistic Image \u2022 Uniformed Scouts) hero graphic for Requirement 10 (Weather Instruments & 7-Day Log OR NWS Meteorologist Visit: Sub-Requirement Deep Dive (Reqs 10a\u201310b)).",
     "source_type": "NANO_BANANA_HERO",
     "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_10_nano_hero.png",
     "image_url": "/assets/ai_illustrations/weather_req_10_nano_hero.png",
-    "custom_prompt": "Weather hands-on demonstration of Weather Instruments & 7-Day Log OR NWS Meteorologist Visit, showing Construct a functional wind vane, anemometer, rain gauge, or hygrometer and record daily weather obs"
+    "custom_prompt": "Weather hands-on demonstration of Weather Instruments & 7-Day Log OR NWS Meteorologist Visit: Sub-Dive (Reqs 10a\u201310b), showing wind vane, anemometer, rain gauge, or hygrometer. Keep a daily weather log for one week using inform"
   },
   {
     "image_id": "8b127c4cd0751e",
@@ -707,12 +707,13 @@
     "req_number": "2",
     "slide_title": "Flash Floods, Tornadoes & Hurricanes",
     "title": "Flash Floods, Tornadoes & Hurricanes",
-    "description": "Official figure for Requirement 2 (Flash Floods, Tornadoes & Hurricanes). Flash Floods & Floods: Flash floods rise within minutes in canyons, dry washes, and streams; never camp in dry streambeds, climb to high ground.",
+    "description": "(Left) Climbing above a canyon flash flood; (Center) Tornado funnel and storm cellar; (Right) Coastal hurricane winds and storm surge.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_2_topic_visual.png",
     "image_url": "/assets/ai_illustrations/weather_req_2_topic_visual.png",
-    "custom_prompt": ""
+    "custom_prompt": "",
+    "caption": "(Left) Climbing above a canyon flash flood; (Center) Tornado funnel and storm cellar; (Right) Coastal hurricane winds and storm surge."
   },
   {
     "image_id": "653871238139b0",
@@ -720,12 +721,13 @@
     "req_number": "5",
     "slide_title": "Why It Rains: Evaporation, Cooling & Coalescence",
     "title": "Why It Rains: Evaporation, Cooling & Coalescence",
-    "description": "Official figure for Requirement 5 (Why It Rains: Evaporation, Cooling & Coalescence). Step 1, Evaporation & Uplift: Solar energy evaporates liquid water into water vapor gas, which is carried aloft by rising air currents or fronts..",
+    "description": "Precipitation Formation: Solar lake evaporation rising into a cumulus cloud, droplet collision-coalescence on nuclei, and valley rainfall.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_5_topic_visual.png",
     "image_url": "/assets/ai_illustrations/weather_req_5_topic_visual.png",
-    "custom_prompt": ""
+    "custom_prompt": "",
+    "caption": "Precipitation Formation: Solar lake evaporation rising into a cumulus cloud, droplet collision-coalescence on nuclei, and valley rainfall."
   },
   {
     "image_id": "595d8dd1791fc6",
@@ -733,12 +735,13 @@
     "req_number": "7",
     "slide_title": "Atmospheric Moisture: Evaporation to Precipitation",
     "title": "Atmospheric Moisture: Evaporation to Precipitation",
-    "description": "Official figure for Requirement 7 (Atmospheric Moisture: Evaporation to Precipitation). Evaporation (Liquid -> Gas): Solar energy heats oceans, lakes, and rivers, turning liquid water into invisible water vapor (oceans supply ~90% of.",
+    "description": "Hydrologic Moisture Cycle: Solar ocean evaporation and forest transpiration rising up a mountain slope to condense into rain clouds.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_7_topic_visual.png",
     "image_url": "/assets/ai_illustrations/weather_req_7_topic_visual.png",
-    "custom_prompt": ""
+    "custom_prompt": "",
+    "caption": "Hydrologic Moisture Cycle: Solar ocean evaporation and forest transpiration rising up a mountain slope to condense into rain clouds."
   },
   {
     "image_id": "160a6f05abc6d4",
@@ -746,12 +749,13 @@
     "req_number": "8",
     "slide_title": "Acid Rain Chemistry & Industrial Air Pollution",
     "title": "Acid Rain Chemistry & Industrial Air Pollution",
-    "description": "Official figure for Requirement 8 (Acid Rain Chemistry & Industrial Air Pollution). What Is Acid Rain: Precipitation contaminated with sulfur dioxide (SO2) and nitrogen oxides (NOx) emitted by coal-fired power plants, smelters,.",
+    "description": "(Left) Factory and vehicle exhaust plumes; (Center) Cloud droplet chemical reaction inset; (Right) Acidic rain on mountain pines and lake.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_8_topic_visual.png",
     "image_url": "/assets/ai_illustrations/weather_req_8_topic_visual.png",
-    "custom_prompt": ""
+    "custom_prompt": "",
+    "caption": "(Left) Factory and vehicle exhaust plumes; (Center) Cloud droplet chemical reaction inset; (Right) Acidic rain on mountain pines and lake."
   },
   {
     "image_id": "c5ecf9e4c8823b",
@@ -759,12 +763,13 @@
     "req_number": "9",
     "slide_title": "Solar Beam Angle Across Equator, Temperate & Polar Zones",
     "title": "Solar Beam Angle Across Equator, Temperate & Polar Zones",
-    "description": "Official figure for Requirement 9 (Solar Beam Angle Across Equator, Temperate & Polar Zones). Near the Equator (Tropics, 23.5\u00b0N to 23.5\u00b0S): Sunlight strikes nearly perpendicular (90\u00b0) year-round with ~12 hours of daylight daily,.",
+    "description": "Solar Incidence Angles: Concentrated perpendicular rays at the Equator, angled mid-latitude rays, and grazing oblique rays at the Poles.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_9_topic_visual.png",
     "image_url": "/assets/ai_illustrations/weather_req_9_topic_visual.png",
-    "custom_prompt": ""
+    "custom_prompt": "",
+    "caption": "Solar Incidence Angles: Concentrated perpendicular rays at the Equator, angled mid-latitude rays, and grazing oblique rays at the Poles."
   },
   {
     "image_id": "4616c3f7c8727c",
@@ -772,11 +777,12 @@
     "req_number": "11",
     "slide_title": "Structuring Your 5-Minute Outdoor Weather Safety Talk",
     "title": "Structuring Your 5-Minute Outdoor Weather Safety Talk",
-    "description": "Official figure for Requirement 11 (Structuring Your 5-Minute Outdoor Weather Safety Talk). Mandatory Pre-Approval Step: Share your written speech outline with your Merit Badge Counselor for review and approval BEFORE giving your talk..",
+    "description": "Outdoor Safety Briefing: Uniformed Scout at a campsite easel pointing to a weather hazard flip-chart while addressing his patrol.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_11_topic_visual.png",
     "image_url": "/assets/ai_illustrations/weather_req_11_topic_visual.png",
-    "custom_prompt": ""
+    "custom_prompt": "",
+    "caption": "Outdoor Safety Briefing: Uniformed Scout at a campsite easel pointing to a weather hazard flip-chart while addressing his patrol."
   }
 ]

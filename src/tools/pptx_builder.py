@@ -1129,6 +1129,12 @@ def _render_right_visual_card(
         flags=re.IGNORECASE,
     ).strip()
     raw_cap = re.sub(
+        r"^[^—\-:]{2,55}?\s*\(\s*Req\.?\s*[0-9a-zA-Z().\-]+\s*\)\s*[—\-:]\s*(?:Field\s*&\s*handbook\s+overview\s+illustration|Four-part\s+instructional\s+visual\s+plate)\s*[—\-:]\s*",
+        "",
+        raw_cap,
+        flags=re.IGNORECASE,
+    ).strip()
+    raw_cap = re.sub(
         r"^[^—\-:]{2,40}?\s+(?:Pamphlet|Visual|Sub-Requirement)\s+Reference\s*[—\-:]\s*",
         "",
         raw_cap,
