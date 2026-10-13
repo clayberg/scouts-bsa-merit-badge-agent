@@ -542,18 +542,6 @@ def _build_requirement_specific_citation(
             is_canonical_pamphlet=False,
         )
 
-    if "weather" in b_lower:
-        return GroundedWebCitation(
-            req_number=r_num,
-            source_title=f"{loc['nws_office']} JetStream Weather School — {r_title}",
-            source_url=loc["nws_url"],
-            authority_domain="weather.gov",
-            supplemental_fact=(
-                f"Local meteorological application via {loc['nws_office']} ({loc['region']}): {first_excerpt[:145]}"
-            ),
-            is_canonical_pamphlet=False,
-        )
-
     slug = clean_badge.lower().replace(" ", "-")
     alt_domains = [
         ("scouting.org", f"Scouting America {clean_badge} Digital Resource Guide", f"https://www.scouting.org/skills/merit-badges/{slug}/"),

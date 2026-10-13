@@ -1768,7 +1768,7 @@ def decompose_requirement_into_topic_slides(
                     ts_copy["bullets"] = cur_bullets
             resolved_slides.append(ts_copy)
 
-        if sub_reqs and badge_name.lower() != "weather":
+        if sub_reqs:
             existing_blob = " ".join(
                 str(ts.get("title", "")) + " " + " ".join(str(b) for b in (ts.get("bullets") or []))
                 for ts in resolved_slides
@@ -1795,7 +1795,7 @@ def decompose_requirement_into_topic_slides(
                     if "sub-requirement deep dive" not in str(s.get("title", "")).lower()
                 ]
                 return combined_slides[:7]
-        return resolved_slides
+        return resolved_slides[:7]
 
     # 2. Adaptive multi-slide EDGE decomposition for requirements without explicit `topic_slides`
     excerpts = _dedupe_slide_bullets(list(req_dict.get("pamphlet_excerpts") or []))

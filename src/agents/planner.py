@@ -915,14 +915,8 @@ def generate_slide_storyboard(
         f"Official Merit Badge Hub & Digital Resource Guide: Scouting America {clean_badge} Requirements & Multimedia Resources (https://www.scouting.org/merit-badges/{slug_hyphen}/).",
         "Safety & Youth Protection Standards: Scouting America Guide to Safe Scouting (https://www.scouting.org/health-and-safety/gss/).",
         "Scientific Diagrams & Photographs: Wikimedia Commons Educational Media Repository (https://commons.wikimedia.org) and Public-Domain Federal Agency Archives.",
+        "Slide Deck Attribution: This slide deck was created by the Scouts BSA Merit Badge Counselor Workbench tool (https://github.com/clayberg/scouts-bsa-merit-badge-agent), created by Eric Clayberg (Troop 19, Middleton MA).",
     ]
-    if clean_badge.lower() == "weather":
-        source_bullets.append(
-            "Meteorological & Instructional References: National Weather Service (NWS) JetStream (https://www.weather.gov), NOAA, USGS, EPA, AMS Glossary, WFO Medford (Jay R. Stockton), and Danvers Merit Badge College / Troop 19 Middleton."
-        )
-    source_bullets.append(
-        "Slide Deck Attribution: This slide deck was created by the Scouts BSA Merit Badge Counselor Workbench tool (https://github.com/clayberg/scouts-bsa-merit-badge-agent), created by Eric Clayberg (Troop 19, Middleton MA)."
-    )
 
     sources_title = f"{clean_badge} Merit Badge: Sources & References"
     slides.append(

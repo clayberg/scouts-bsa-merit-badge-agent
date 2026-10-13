@@ -1951,11 +1951,7 @@ def resolve_content_aware_visual_config(
     )
 
     has_explicit_no_humans = any(p in title_prompt_lower for p in explicit_no_humans_phrases)
-    has_gear_or_env = any(k in title_prompt_lower for k in gear_or_env_keywords) or (
-        badge_name.strip().lower() in ("weather", "astronomy", "robotics", "environmental science", "sustainability")
-        and any(k in combined_lower for k in gear_or_env_keywords)
-        and not any(h in clean_title.lower() for h in ("career", "counselor", "visit", "speech", "interview"))
-    )
+    has_gear_or_env = any(k in title_prompt_lower for k in gear_or_env_keywords)
 
     det_hash = int(
         hashlib.md5(f"{badge_name.strip().lower()}:{req_clean}:{clean_title.lower()}".encode("utf-8")).hexdigest()[:6],
