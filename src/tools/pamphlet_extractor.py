@@ -1708,13 +1708,16 @@ def decompose_requirement_into_topic_slides(
                 cat_hit = catalog.get(Path(str(raw_img)).name)
                 if cat_hit and cat_hit.get("caption"):
                     ts_copy["caption"] = strip_pamphlet_and_req_caption_prefixes(str(cat_hit["caption"]), badge_name)
-                composed_ts = _compose_pamphlet_visual_card(
-                    raw_img_path=Path(str(raw_img)),
-                    badge_name=badge_name,
-                    req_number=f"{req_num}_{t_idx}",
-                    topic_title=str(ts_copy.get("title", "")),
-                    pamphlet_page=t_idx,
-                )
+                if "ai_illustrations" in str(raw_img):
+                    composed_ts = str(raw_img)
+                else:
+                    composed_ts = _compose_pamphlet_visual_card(
+                        raw_img_path=Path(str(raw_img)),
+                        badge_name=badge_name,
+                        req_number=f"{req_num}_{t_idx}",
+                        topic_title=str(ts_copy.get("title", "")),
+                        pamphlet_page=t_idx,
+                    )
                 c_ts_md5 = _raw_file_md5(composed_ts)
                 if c_ts_md5:
                     used_image_paths.add(f"md5:{c_ts_md5}")

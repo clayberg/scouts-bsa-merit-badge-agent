@@ -692,7 +692,14 @@ def beautify_slide_storyboard(
             elif req_cit.get("requires_local_lookup") and req_cit.get("local_grounding_callout"):
                 callout_txt = str(req_cit.get("local_grounding_callout") or "").strip()
                 slide["local_grounding_callout"] = callout_txt
-                if req_num not in injected_local_reqs and arch in ("SPLIT_VISUAL_EXPLAINER", "CONCEPT_TEXT_SLIDE") and not slide.get("verbatim_requirement_text"):
+                is_weather_non_forecast_req = badge_name.lower() == "weather" and base_req_num not in ("3", "10")
+                if (
+                    not is_weather_non_forecast_req
+                    and req_num not in injected_local_reqs
+                    and callout_txt not in injected_local_reqs
+                    and arch in ("SPLIT_VISUAL_EXPLAINER", "CONCEPT_TEXT_SLIDE")
+                    and not slide.get("verbatim_requirement_text")
+                ):
                     bps = list(slide.get("bullet_points") or [])
                     short_callout = callout_txt if len(callout_txt) <= 165 else callout_txt[:162].rsplit(" ", 1)[0] + "..."
                     if not any(disp_loc in str(b) for b in bps):
@@ -702,6 +709,7 @@ def beautify_slide_storyboard(
                             bps[-1] = short_callout
                         slide["bullet_points"] = bps
                         injected_local_reqs.add(req_num)
+                        injected_local_reqs.add(callout_txt)
 
         # Generate Visual Concept Infographics for BEAUTIFIED (Requirement Intro / Lead slides) or STUDIO
         ai_prompt: Optional[str] = None

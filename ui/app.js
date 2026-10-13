@@ -2491,7 +2491,11 @@ function renderActiveSlide(idx) {
       visSourceBadge.style.color = tokens.badgeFg;
       visSourceBadge.style.border = `1px solid ${tokens.accentHex}`;
       const srcLbl = String(slide.visual_source_label || "");
-      const isNano = srcLbl.includes("Nano Banana") || String(slide.diagram_url || "").includes("_nano_hero");
+      const diagRef = String(slide.diagram_url || slide.diagram_path || "");
+      const isNano =
+        srcLbl.includes("Nano Banana") ||
+        diagRef.includes("_nano_hero") ||
+        diagRef.includes("ai_illustrations");
       const isAiHero = !isNano && (Boolean(slide.ai_hero_image_path) || srcLbl.includes("EDGE Skill"));
       const isWeb = srcLbl.includes("Web Image") || srcLbl.includes("Wikimedia");
       const isUpload = srcLbl.includes("Uploaded");
