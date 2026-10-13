@@ -3228,8 +3228,8 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "NWS Doppler Radar & Hourly Forecast Graphs",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_p065_img1.png",
-                        "caption": "National Weather Service WSR-88D Doppler radar reflectivity mosaic tracking severe thunderstorm precipitation bands.",
+                        "image_path": "assets/ai_illustrations/weather_doppler_radar_nano.png",
+                        "caption": "National Weather Service WSR-88D Doppler radar reflectivity display with dBZ precipitation intensity scale.",
                         "bullets": [
                             "WSR-88D Doppler Radar Reflectivity: Measures precipitation intensity (dBZ from light green rain to red/purple heavy thunderstorm cores and hail) and storm speed/direction.",
                             " radial Velocity Scans: Detects rotation inside supercell thunderstorms (tornado signatures) and damaging straight-line wind gusts.",
@@ -3312,7 +3312,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "Cold Front: Planar Map and Vertical Cross-Section",
                         "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_ec2020_s26_img1.png",
+                        "image_path": "assets/ai_illustrations/weather_cold_front_cross_section_nano.png",
                         "bullets": [
                             "Dense cold air wedges sharply beneath warm moist air along a steep frontal slope, forcing rapid uplift, towering cumulonimbus clouds, and heavy showers or thunderstorms right along the front.",
                         ],
@@ -3330,7 +3330,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "Warm Front: Planar Map and Vertical Cross-Section",
                         "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_ec2020_s28_img1.png",
+                        "image_path": "assets/ai_illustrations/weather_warm_front_cross_section_nano.png",
                         "bullets": [
                             "Advancing warm air glides up and over retreating cold air along a gentle frontal slope, creating a wide progression of cirrus, cirrostratus, altostratus, and nimbostratus clouds with steady rain ahead of the front.",
                         ],
@@ -3339,11 +3339,11 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "Warm Front: 3D Profile & Temperature Inversion",
                         "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_ec2020_s29_img1.png",
+                        "image_path": "assets/ai_illustrations/weather_warm_front_3d_sidebyside.png",
                         "bullets": [
                             "Overrunning warm air rises gradually over a 600 km wedge of cold air, producing high cirrus (Ci) first, then cirrostratus (Cs), altostratus (As), nimbostratus (Ns) steady rain/snow, and fog.",
                         ],
-                        "caption": "Warm Front 3D Cross-Section: Gentle frontal slope (1:200), broad precipitation shield ahead of boundary",
+                        "caption": "Warm Front 3D Cross-Section: (a) Gentle frontal slope (1:200) and broad precipitation shield; (b) Temperature inversion aloft",
                     },
                     {
                         "title": "Check for Understanding: Pressure Systems & Fronts",
@@ -3383,7 +3383,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "What Causes Wind: Pressure Gradients & Sea/Land Breezes",
                         "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_ec2020_s34_img1.png",
+                        "image_path": "assets/ai_illustrations/weather_sea_land_breeze_nano.png",
                         "bullets": [
                             "Uneven solar heating creates pressure differences (air flows from High to Low pressure). Top: Daytime Sea Breeze (warm air rises over sun-heated land; cool ocean air moves ashore). Bottom: Nighttime Land Breeze (warm air rises over water; cool land air flows offshore).",
                         ],
@@ -3467,7 +3467,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "Cloud Classification by Atmospheric Altitude Level",
                         "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_ec2020_s44_img1.png",
+                        "image_path": "assets/ai_illustrations/weather_cloud_classification_nano.png",
                         "bullets": [
                             "Visual guide to High Clouds (>20,000 ft AGL: Cirrus, Cirrocumulus, Cirrostratus), Middle Clouds (6,500–20,000 ft AGL: Altocumulus, Altostratus), Low Clouds (<6,500 ft AGL: Stratus, Stratocumulus, Nimbostratus), and Vertical Clouds (Cumulus, Cumulonimbus).",
                         ],
@@ -3699,7 +3699,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "Earth's 23.5° Axial Tilt, Orbit, Solstices & Equinoxes",
                         "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_ec2020_s54_img1.png",
+                        "image_path": "assets/ai_illustrations/weather_earth_orbit_seasons_nano.png",
                         "bullets": [
                             "Earth's annual orbit around the Sun showing the 23.5° axial tilt at the Summer Solstice (June), Autumnal Equinox (September), Winter Solstice (December), and Spring Equinox (March).",
                         ],
