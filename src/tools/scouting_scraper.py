@@ -3545,11 +3545,11 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "The Earth's Hydrologic (Water) Cycle Illustrated",
                         "layout": "FULL_BLEED_IMAGE_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/weather_ec2020_s47_img1.png",
+                        "image_path": "assets/ai_illustrations/weather_hydrologic_cycle_nano.png",
                         "bullets": [
                             "The Hydrologic Cycle: (1) Evaporation, (2) Transpiration, (3) Sublimation, (4) Condensation, (5) Transportation, (6) Precipitation, (7) Surface/Snowmelt Runoff, (8) Infiltration, (9) Groundwater Flow, (10) Plant Uptake.",
                         ],
-                        "caption": "NOAA Hydrologic Cycle Diagram Showing All 10 Major Water Cycle Processes",
+                        "caption": "Hydrologic Cycle diagram illustrating evaporation, transpiration, sublimation, condensation, precipitation, runoff, and groundwater flow.",
                     },
                     {
                         "title": "Atmospheric Moisture: Evaporation to Precipitation",
