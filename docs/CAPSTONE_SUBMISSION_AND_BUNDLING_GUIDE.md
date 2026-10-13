@@ -25,7 +25,7 @@ When you submit your presentation and `.bundle` file in the web app, the platfor
 
 1. **Stage 1 — Synchronous Pre-Flight Gate (`analyzer-initial-checks`)**:
    - **Slide Count & Appendix Classifier**: Inspects your Google Slides deck (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`) using Gemini. It enforces the **`<= 15 Core Slides`** limit. Our deck has **12 Core Slides (`Slide 1` through `Slide 12`) and 0 Appendix slides** (`12 <= 15`), so it passes Stage 1 cleanly and every slide is evaluated as a primary slide.
-   - **Git Bundle & Authorship Validator**: Runs `git bundle verify` on `scouts-bsa-merit-badge-agent.bundle`, checks commit authorship (`clayberg@google.com`), verifies the presence of an annotated tag matching `capstone-YYYYMMDD` (e.g., `capstone-20261010`), and checks the **Scoped Git Link Gate** to verify the repository belongs to `https://github.com/cloud-ai-fde/...` (or `delta-fde`).
+   - **Git Bundle & Authorship Validator**: Runs `git bundle verify` on `scouts-bsa-merit-badge-agent.bundle`, checks commit authorship (`clayberg@google.com`), verifies the presence of an annotated tag matching `capstone-YYYYMMDD` (e.g., `capstone-20261013`), and checks the **Scoped Git Link Gate** to verify the repository belongs to `https://github.com/cloud-ai-fde/...` (or `delta-fde`).
 2. **Stage 2 — Asynchronous Background Artifact Analyzer (`analyzer-preseed` v3.8)**:
    - Once Stage 1 passes and you enter the emails of your **3 Panelists** and **1 Manager**, the backend triggers a Cloud Run Job (`analyzer-preseed`) powered by **Gemini 3.7 / 3.8** and the **Antigravity SDK**.
    - Over roughly **3 to 5 minutes**, it unpacks the `.bundle`, reads all source code, tests, Terraform configs, ADRs, and slides, and pre-seeds `0.0–3.0` scores (`0.5` increments), 3–5 purple evidence bullets, and suggested probing questions across all **27 Part B subcategories**.
@@ -49,7 +49,7 @@ We have created and installed a single automated script at `scripts/publish_and_
 4. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)
    - `fde` -> `git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git` (`https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`)
-5. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, e.g., `capstone-20261010`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
+5. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, e.g., `capstone-20261013`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
 6. Generates `scouts-bsa-merit-badge-agent.bundle` via `git bundle create` and validates it with `git bundle verify` and `git bundle list-heads`.
 7. Pushes `main` and the `capstone-YYYYMMDD` tag to **both** `https://github.com/clayberg/scouts-bsa-merit-badge-agent` and `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`.
 
@@ -199,7 +199,7 @@ Expected output from `git bundle verify`:
 ```text
 The bundle contains these 3 refs:
 <commit_sha> refs/heads/main
-<tag_sha> refs/tags/capstone-20261010
+<tag_sha> refs/tags/capstone-20261013
 <commit_sha> HEAD
 The bundle records a complete history.
 scouts-bsa-merit-badge-agent.bundle is okay
@@ -221,7 +221,7 @@ Once `scouts-bsa-merit-badge-agent.bundle` is built and verified:
 3. **Step 2 in UI — Upload Git Bundle & Repository Details**:
    - Upload file: `/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/scouts-bsa-merit-badge-agent.bundle` (~`25 MB`).
    - GitHub Repository URL: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`
-   - Git Tag: `capstone-20261010` (or the `capstone-YYYYMMDD` tag output by `scripts/publish_and_bundle_capstone.sh`).
+   - Git Tag: `capstone-20261013` (or the `capstone-YYYYMMDD` tag output by `scripts/publish_and_bundle_capstone.sh`).
    - Wait ~5–10 seconds for `analyzer-initial-checks` to confirm bundle integrity and authorship.
 4. **Step 3 in UI — Assign Panelists & Manager**:
    - Enter the `@google.com` email addresses of your **3 Panelists** and **1 Manager** (remember: you cannot list your own `clayberg@google.com` address as a panelist/manager on your own submission).
