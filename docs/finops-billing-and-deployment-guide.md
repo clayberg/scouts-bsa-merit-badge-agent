@@ -11,18 +11,18 @@ The workbench uses **Strategic Model Routing** (`src/config.py`, `src/agents/coo
 ### Published Google Cloud Vertex AI Pricing Baseline
 - **`gemini-2.5-flash`**: `$0.15` / 1M input tokens, `$0.60` / 1M output tokens (`$0.0375` / 1M cached context tokens).
 - **`gemini-2.5-pro`**: `$1.25` / 1M input tokens, `$10.00` / 1M output tokens (`$0.3125` / 1M cached context tokens).
-- **Pre-Cached Visual Assets (`Option 2` Full Visual Pipeline)**: **`$0.00` USD at runtime** across all `144` official Merit Badges (`2,297` pre-generated, compressed 8-bit Nano Banana hero and topic PNGs in `assets/ai_illustrations/` + `4,317` de-boxed official pamphlet figures in `assets/pamphlet_images/`).
+- **Pre-Cached Visual Assets (`Option 2` Full Visual Pipeline)**: **`$0.00` USD at runtime** across all `144` official Merit Badges (`2,292` pre-generated, compressed 8-bit Nano Banana hero and topic PNGs in `assets/ai_illustrations/` + `4,316` de-boxed official pamphlet figures in `assets/pamphlet_images/`).
 - **On-Demand Custom Nano Banana AI Image Generation (`Tab 3` in Image Studio)**: **`$0.08` USD per custom image**, gated by an explicit user consent dialog (`CONSENT_REQUIRED`).
 
 ### Per-Deck Cost Breakdown by Visual Polish Tier
 
-| Polish Tier | Canvas Theme | LLM Token Cost (`Flash` + `Pro`) | Pre-Cached Visual Cost (`2,297` PNGs) | Total Runtime Cost per Deck |
+| Polish Tier | Canvas Theme | LLM Token Cost (`Flash` + `Pro`) | Pre-Cached Visual Cost (`2,292` PNGs) | Total Runtime Cost per Deck |
 | :--- | :--- | :--- | :--- | :--- |
 | **`STANDARD` (Crisp White)** | `#FFFFFF` | `~$0.042` USD | `$0.00` USD (Pamphlet Figures) | **`~$0.042` USD** |
 | **`BEAUTIFIED` (Warm Cream)** | `#FAF8F5` | `~$0.084` USD | `$0.00` USD (Pre-Cached Hero & Topic PNGs) | **`~$0.084` USD** |
 | **`STUDIO` (Dark Slate)** | `#0F172A` | `~$0.140` USD | `$0.00` USD (Pre-Cached Hero & Topic PNGs) | **`~$0.140` USD** |
 
-> **Why Pre-Caching Matters**: Generating 15 to 25 custom AI illustrations live at runtime would cost `$1.20` to `$2.00` per deck and add 90+ seconds of latency. Pre-generating and compressing all **2,297 Nano Banana hero and multi-slide topic illustrations** across all **144 Merit Badges** (`401 MB` total, `<= 1,024px` 8-bit PNG) brings runtime image generation cost down to **`$0.00` USD** while keeping full visual coverage on every requirement.
+> **Why Pre-Caching Matters**: Generating 15 to 25 custom AI illustrations live at runtime would cost `$1.20` to `$2.00` per deck and add 90+ seconds of latency. Pre-generating and compressing all **2,292 Nano Banana hero and multi-slide topic illustrations** across all **144 Merit Badges** (`401 MB` total, `<= 1,024px` 8-bit PNG) brings runtime image generation cost down to **`$0.00` USD** while keeping full visual coverage on every requirement.
 
 ---
 

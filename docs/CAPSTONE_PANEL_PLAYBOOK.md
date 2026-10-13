@@ -27,18 +27,18 @@ Open these browser tabs in order:
 
 | Slide | Title | Core Engineering Takeaway |
 | :--- | :--- | :--- |
-| **`01 / 12`** | **Scouts BSA Merit Badge Counselor Workbench** | Production 8-agent Google ADK workbench covering all **144 official Merit Badges** (`18` Eagle-Required + `126` Electives), **2,297 pre-cached Nano Banana PNGs**, **4,317 de-boxed pamphlet figures**, and **53 automated `pytest` tests**. |
+| **`01 / 12`** | **Scouts BSA Merit Badge Counselor Workbench** | Production 8-agent Google ADK workbench covering all **144 official Merit Badges** (`18` Eagle-Required + `126` Electives), **2,292 pre-cached Nano Banana PNGs**, **4,316 de-boxed pamphlet figures**, and **53 automated `pytest` tests**. |
 | **`02 / 12`** | **Problem & Customer Empathy: The 12-Hour Prep Tax** | Volunteer counselors spend 8-15 hours turning 80-page PDFs into slides, workbooks, parent letters, and Blue Card trackers while navigating strict Youth Protection (YPT) and curriculum rules. |
 | **`03 / 12`** | **System Architecture: 8-Agent Google ADK Hierarchy** | `MeritBadgeCoordinator` (`gemini-2.5-pro`) orchestrating 7 specialist sub-agents with strategic Flash/Pro routing (`~71%` token savings), FastMCP HITL tokens, A2A 1.0, and A2UI v0.9. |
 | **`04 / 12`** | **5-Tier Authoritative Research & Hybrid RRF RAG** | Verbatim requirement trees (`1a..15c`) across all `144` badges locked by SHA-256 (`compute_canonical_pamphlet_hash`) + Hybrid Dense Cosine (`text-embedding-004`) and Okapi BM25 (`k1=1.5, b=0.75`) fused via RRF (`k=60`). |
 | **`05 / 12`** | **Two-Stage PPTX Conformance & 1:1 Google Slides Parity** | Stage 1 `<10ms` deterministic AABB geometry simulator (`0` overlaps across `72` benchmark decks), `_concise_card_body` character budgets, de-boxed pamphlet figures, high-res embedded-text diagrams, and scene-specific captions. |
 | **`06 / 12`** | **Defense-in-Depth Security, YPT PII & Model Armor** | Dual-layer regex + Cloud DLP scrubbing (`[REDACTED_YOUTH_NAME]`, `[REDACTED_PHONE]`, `[REDACTED_EMAIL]`) and Model Armor prompt-injection interception (`allowed=False`) verified by `53` `pytest` tests. |
 | **`07 / 12`** | **Production Resilience, Circuit Breakers & Self-Healing** | 3-state `CircuitBreaker` (`CLOSED`/`OPEN`/`HALF_OPEN`), exponential backoff with jitter, automatic Pro-to-Flash model fallback, and up to `MAX_CONFORMANCE_RETRIES = 2` layout self-healing loops. |
-| **`08 / 12`** | **FinOps Governance & Pre-Cached Visual Pipeline** | **`$0.00` runtime image cost** on all `144` badges via `2,297` pre-cached 8-bit PNGs (`~$0.04-$0.14` LLM tokens per deck), `$1.00` hard session budget cap, and explicit **`$0.08` USD user consent gate** (`CONSENT_REQUIRED`) for live custom AI images. |
+| **`08 / 12`** | **FinOps Governance & Pre-Cached Visual Pipeline** | **`$0.00` runtime image cost** on all `144` badges via `2,292` pre-cached 8-bit PNGs (`~$0.04-$0.14` LLM tokens per deck), `$1.00` hard session budget cap, and explicit **`$0.08` USD user consent gate** (`CONSENT_REQUIRED`) for live custom AI images. |
 | **`09 / 12`** | **Evaluation Engineering & Continuous Learning Flywheel** | `53` non-hollow `pytest` tests, 12-badge Golden Evaluation Gate (`scripts/eval_gate.py`), `72` audited benchmark decks, and `/api/v1/feedback` auto-promoting 4-5 star counselor sign-offs into `golden_extensions.json`. |
 | **`10 / 12`** | **Counselor UX: Co-Design Studio & Field Toolkit** | 16:9 widescreen preview stage, 3 Scout construction animations, Per-Slide Co-Design Bar, 4-Tab Image Studio, Multi-Format Session Pacing Agenda, Parent Letter email/Gmail actions, Quartermaster Gear multiplier, and Blue Card CSV export. |
 | **`11 / 12`** | **Live End-to-End Workbench Walkthrough** | Transition slide into the 6-act live browser and CLI demonstration. |
-| **`12 / 12`** | **Summary & Engineering Scorecard** | Full-stack readiness summary across all 5 AgentOps pillars (`144` badges, `2,297` pre-cached visuals, `0` AABB overlaps, `0` PII leaks, `53` passing `pytest` tests) and open panel Q&A. |
+| **`12 / 12`** | **Summary & Engineering Scorecard** | Full-stack readiness summary across all 5 AgentOps pillars (`144` badges, `2,292` pre-cached visuals, `0` AABB overlaps, `0` PII leaks, `53` passing `pytest` tests) and open panel Q&A. |
 
 ---
 
@@ -52,7 +52,7 @@ Open these browser tabs in order:
 ### Act 2: Per-Slide Co-Design & 4-Tab Image Studio with `$0.08` FinOps Gate (`2 Min`)
 1. Below the slide stage, click **Edit Slide Text** in the **Per-Slide Interactive Co-Design Bar**, tweak a bullet point or switch the **Color Palette** (`Forest & Sage` or `Crimson & Ember`), and show the immediate preview update.
 2. Click **Open 4-Tab Image Studio**:
-   - **Tab 1 (`Cached Library`, `$0.00`)**: Show the pre-cached Nano Banana hero and topic illustrations (`2,297` across all `144` badges) and de-boxed official pamphlet figures (`4,317` figures).
+   - **Tab 1 (`Cached Library`, `$0.00`)**: Show the pre-cached Nano Banana hero and topic illustrations (`2,292` across all `144` badges) and de-boxed official pamphlet figures (`4,316` figures).
    - **Tab 2 (`Web Image Search`, `$0.00`)**: Run a quick Wikimedia Commons search.
    - **Tab 3 (`Nano Banana AI Generator`, `$0.08` Consent Gate)**: Show the content-aware style selector (*Auto Content-Aware Mix*, *Include Uniformed Scouts*) and click **Generate Custom AI Image** to trigger the explicit **`$0.08` USD FinOps User Consent Dialog** (`CONSENT_REQUIRED`).
    - **Tab 4 (`File Upload`, `$0.00`)**: Show local troop photo upload.

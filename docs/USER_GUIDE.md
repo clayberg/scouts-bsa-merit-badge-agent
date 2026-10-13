@@ -32,7 +32,7 @@ When you open the Counselor Workbench (`http://localhost:8080`), the interface i
 - **Troop Meeting Deck (`16-28` Slides)**: Condenses each top-level requirement into 1 to 2 high-impact overview slides for a fast single-evening patrol introduction.
 
 ### Visual Polish Tiers (`100%` Pre-Cached Visuals Across All 144 Badges)
-All **144 official Merit Badges** ship with **2,297 pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and topic illustrations** (`assets/ai_illustrations/`) and **4,317 extracted, de-boxed official BSA Pamphlet figures** (`assets/pamphlet_images/`). Choosing a polish tier incurs **`$0.00` in runtime image generation fees**:
+All **144 official Merit Badges** ship with **2,292 pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and topic illustrations** (`assets/ai_illustrations/`) and **4,316 extracted, de-boxed official BSA Pamphlet figures** (`assets/pamphlet_images/`). Choosing a polish tier incurs **`$0.00` in runtime image generation fees**:
 
 ![Slide Polish Tiers Comparison](images/slide-polish-tiers-comparison.png)
 
@@ -85,7 +85,7 @@ Click **Edit Slide Text** to modify the current slide's **Title** or **Bullet Po
 
 ### 4-Tab Merit Badge Image Studio
 Click **Open 4-Tab Image Studio** to customize the visual on the active slide:
-1. **Tab 1: Cached Library (`$0.00` Instant)**: Browse all pre-cached Nano Banana hero/topic illustrations (`2,297` across all `144` badges) and extracted official pamphlet figures (`4,317` de-boxed PNGs) for the current badge and click **Apply to Slide**.
+1. **Tab 1: Cached Library (`$0.00` Instant)**: Browse all pre-cached Nano Banana hero/topic illustrations (`2,292` across all `144` badges) and extracted official pamphlet figures (`4,316` de-boxed PNGs) for the current badge and click **Apply to Slide**.
 2. **Tab 2: Web Image Search (`$0.00` Wikimedia Commons)**: Search public educational diagrams and photographs via `WebImageSearchAgent` and apply any result with one click.
 3. **Tab 3: Nano Banana AI Generator (`$0.08` USD FinOps Consent Gate)**:
    - Choose a visual style (*Auto Content-Aware Mix*, *4-Quadrant Concept Map*, *Photorealistic Image*, *Line Drawing*, *Cartoon Drawing*, or *Technical Diagram*) and whether to **Include Uniformed Scouts**.

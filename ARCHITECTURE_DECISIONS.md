@@ -54,15 +54,15 @@ We implemented a **Two-Stage Conformance Gate** (`src/agents/reviewer.py`):
 
 ---
 
-## ADR-004: Pre-Cached Multimodal Visual Asset Pipeline (`2,297` Nano Banana PNGs + `4,317` De-Boxed Figures)
+## ADR-004: Pre-Cached Multimodal Visual Asset Pipeline (`2,292` Nano Banana PNGs + `4,316` De-Boxed Figures)
 
 ### Context
 Generating 20 to 50 custom AI illustrations live during a Merit Badge class prep session would take several minutes and cost `$1.60+` per deck. Conversely, raw XObject images extracted from PDF pamphlets frequently contain baked-in black/blue caption boxes, dithered low-resolution scans, or redundant titles that clash with slide headers.
 
 ### Decision
 1. **100% Pre-Cached Visual Catalog (`Option 2` Full Visual Pipeline)**:
-   - Pre-generated and compressed (`<= 1,024px`, 8-bit PNG) **`2,297` Nano Banana hero and multi-slide topic illustrations** (`assets/ai_illustrations/`) covering every requirement across all `144` official Merit Badges (`$0.00` runtime image cost).
-   - Extracted and de-boxed **`4,317` official BSA Pamphlet figures** (`assets/pamphlet_images/`), automatically stripping dark caption bars (`_strip_pamphlet_caption_box` in `src/tools/pptx_builder.py`).
+   - Pre-generated and compressed (`<= 1,024px`, 8-bit PNG) **`2,292` Nano Banana hero and multi-slide topic illustrations** (`assets/ai_illustrations/`) covering every requirement across all `144` official Merit Badges (`$0.00` runtime image cost).
+   - Extracted and de-boxed **`4,316` official BSA Pamphlet figures** (`assets/pamphlet_images/`), automatically stripping dark caption bars (`_strip_pamphlet_caption_box` in `src/tools/pptx_builder.py`).
    - Upgraded key scientific and meteorological diagrams with **high-resolution embedded-text diagrams** (Hydrologic Cycle, WSR-88D Doppler Radar, Cold/Warm Front cross-sections, 3D Warm Front side-by-side profile, Sea/Land Breezes, Cloud Classification by Altitude Level, and top-cropped Earth's 23.5° Axial Tilt & Seasons) and replaced generic `"Official BSA Pamphlet"` prefixes with concise, scene-specific captions.
 2. **FinOps-Gated On-Demand Studio**: When a counselor wants a custom AI illustration in the **4-Tab Merit Badge Image Studio**, `NanoBananaImageAgent` returns `CONSENT_REQUIRED` until the user explicitly approves the `$0.08` USD FinOps estimate.
 

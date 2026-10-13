@@ -23,7 +23,7 @@ This guide documents the HTTP REST endpoints, **Agent-to-Agent (A2A 1.0)** disco
 - **`GET /api/v1/badges` (alias: `GET /api/badges`)**:
   - Returns all **144 official Scouts BSA Merit Badges** (`18` Eagle-Required and `126` Electives, plus `2` synthetic test stubs when validation mode is queried), organized across 8 category filters, along with official pamphlet PDF URLs, Scoutbook links, and local pre-cached visual counts.
 - **`GET /api/badge/images?badge_name=<Badge>`**:
-  - Lists all cached visual assets for the specified badge across `NANO_BANANA_HERO` (`2,297` pre-cached 8-bit PNGs across all `144` badges), `PAMPHLET_FIGURE` (`4,317` de-boxed official figures), `WEB_IMAGE_SEARCH`, `NANO_BANANA_AI`, and `USER_UPLOAD`.
+  - Lists all cached visual assets for the specified badge across `NANO_BANANA_HERO` (`2,292` pre-cached 8-bit PNGs across all `144` badges), `PAMPHLET_FIGURE` (`4,316` de-boxed official figures), `WEB_IMAGE_SEARCH`, `NANO_BANANA_AI`, and `USER_UPLOAD`.
 - **`DELETE /api/badge/images?badge_name=<Badge>` & `GET /api/v1/cache/clear?badge_name=<Badge>`**:
   - Purges ephemeral web-search and custom AI-generated images for the badge while preserving pre-cached `NANO_BANANA_HERO`, `PAMPHLET_FIGURE`, and `USER_UPLOAD` assets.
 

@@ -347,6 +347,8 @@ def test_v6_counselor_defaults_separate_email_phone_and_custom_troop_logo_on_cov
     assert "Troop 123, My Council" in cover_text
     assert "counselor@troop123.org" in cover_text
     assert "(000) 555-1234" in cover_text
+    if os.path.exists(up_json["logo_path"]):
+        os.unlink(up_json["logo_path"])
 
     # 4. Verify FastAPI Material 3 Counselor Workbench (src/server.py, ui/index.html, ui/app.js, ui/styles.css)
     #    compiles cleanly and legacy Streamlit UI (src/app.py) is completely removed

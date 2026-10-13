@@ -12,7 +12,7 @@ Select any of the **144 official Scouts BSA Merit Badges** (`18` Eagle-Required 
 
 - **All 144 Official Merit Badges Supported**:
   - Covers all **18 Eagle-Required Merit Badges** (*First Aid*, *Camping*, *Cooking*, *Citizenship in the Community*, *Citizenship in the Nation*, *Citizenship in the World*, *Citizenship in Society*, *Communication*, *Personal Fitness*, *Emergency Preparedness*, *Lifesaving*, *Environmental Science*, *Sustainability*, *Personal Management*, *Swimming*, *Hiking*, *Cycling*, *Family Life*) and **126 Elective Merit Badges** (including 2025/2026 Scouting America additions such as *Artificial Intelligence*, *Cybersecurity*, *Wildland Fire Management*, *Multisport*, *Action Sports*, and *Health Care Professions*).
-  - **100% Pre-Cached Visual Pipeline (`$0.00` Runtime Image Cost)**: Ships with **144 structured requirement JSON catalogs** (`data/merit_badge_requirements/*.json`), **134 local official BSA Merit Badge Pamphlet PDFs** (`pdfs/`), **135 transparent RGBA Merit Badge patch emblems** (`assets/badge_emblems/`), **134 pamphlet cover images** (`assets/pamphlet_covers/`), **4,317 extracted and de-boxed pamphlet figures** (`assets/pamphlet_images/`), and **2,297 pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and multi-slide topic illustrations** (`assets/ai_illustrations/`).
+  - **100% Pre-Cached Visual Pipeline (`$0.00` Runtime Image Cost)**: Ships with **144 structured requirement JSON catalogs** (`data/merit_badge_requirements/*.json`), **134 local official BSA Merit Badge Pamphlet PDFs** (`pdfs/`), **135 transparent RGBA Merit Badge patch emblems** (`assets/badge_emblems/`), **134 pamphlet cover images** (`assets/pamphlet_covers/`), **4,316 extracted and de-boxed pamphlet figures** (`assets/pamphlet_images/`), and **2,292 pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and multi-slide topic illustrations** (`assets/ai_illustrations/`).
   - **26 Deep Benchmark Badges & 72 Pre-Built Sample Decks**: Includes pre-verified `.pptx` decks across both *Deep Dive / Camp School* (`45-85+` slides) and *Troop Meeting* (`16-28` slides) modes in `deliverables/benchmark_and_random_samples/`.
 
 - **Material 3 Expressive Counselor Workbench (`1:1` Preview-to-PPTX Parity)**:
@@ -48,7 +48,7 @@ Select any of the **144 official Scouts BSA Merit Badges** (`18` Eagle-Required 
 ### Prerequisites
 - **Python 3.11+**
 - **Git**
-- *(Optional)* A **Google Gemini API Key** (`GEMINI_API_KEY`) or **Google Cloud Vertex AI project** (`GOOGLE_CLOUD_PROJECT`) if you want live LLM customization or live `$0.08` Nano Banana custom image generation. All `144` official badges and `2,297` pre-cached illustrations work out of the box in offline/deterministic mode.
+- *(Optional)* A **Google Gemini API Key** (`GEMINI_API_KEY`) or **Google Cloud Vertex AI project** (`GOOGLE_CLOUD_PROJECT`) if you want live LLM customization or live `$0.08` Nano Banana custom image generation. All `144` official badges and `2,292` pre-cached illustrations work out of the box in offline/deterministic mode.
 
 ### 1. Clone & Launch with `./run_local.sh`
 ```bash

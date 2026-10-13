@@ -28,8 +28,8 @@ This report documents the automated code and architecture verification of the **
 ### 2.2 Context, Memory & Multimodal Knowledge Base (`src/memory/session_store.py`, `data/merit_badge_requirements/`)
 1. **100% Catalog & Visual Coverage (`144` Official Merit Badges)**:
    - `144` official Merit Badge requirement JSONs (`18` Eagle-Required + `126` Electives) with verbatim sub-requirements (`1a..15c`) and multi-slide `topic_slides`.
-   - `2,297` pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and topic illustrations (`assets/ai_illustrations/`).
-   - `4,317` extracted and de-boxed official BSA Pamphlet figures (`assets/pamphlet_images/`).
+   - `2,292` pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and topic illustrations (`assets/ai_illustrations/`).
+   - `4,316` extracted and de-boxed official BSA Pamphlet figures (`assets/pamphlet_images/`).
    - High-resolution embedded-text scientific diagrams (Hydrologic Cycle, WSR-88D Doppler Radar, Cold/Warm Front cross-sections, 3D Warm Front profile, Sea/Land Breezes, Cloud Classification by Altitude Level, and cropped Earth's 23.5° Axial Tilt & Seasons) with scene-specific visual captions.
 2. **Hybrid BM25 + Vector RRF Retrieval**: Verified in `tests/test_memory.py` (`test_hybrid_bm25_and_vector_rrf_search`) and Act 1b of `scripts/verify_live_demo_readiness.py`.
 3. **History Compaction & Context Caching**: `compact_conversation_history` and `create_vertex_context_cache_spec` verified in `tests/test_memory.py`.

@@ -45,13 +45,13 @@ Expected readiness payload:
 
 ### Directory Layout & Pre-Cached Inventory
 - `data/merit_badge_requirements/*.json`: **144 official Merit Badge requirement & multi-slide topic catalogs** (plus `_index.json` and `_deck_audit_and_cost_report.json`).
-- `assets/ai_illustrations/`: **2,297 pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and topic illustrations** across all `144` badges.
-- `assets/pamphlet_images/`: **4,317 extracted and de-boxed official BSA Pamphlet figures**.
+- `assets/ai_illustrations/`: **2,292 pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and topic illustrations** across all `144` badges.
+- `assets/pamphlet_images/`: **4,316 extracted and de-boxed official BSA Pamphlet figures**.
 - `assets/badge_emblems/`: **135 transparent RGBA Merit Badge patch emblems**.
 - `assets/pamphlet_covers/`: **134 official BSA Merit Badge pamphlet cover images**.
 
 ### Clearing Ephemeral Web / Custom AI Image Caches
-If a counselor wants to clear temporary web-search or custom on-demand AI images for a specific badge without touching the `2,297` pre-cached hero/topic PNGs or `USER_UPLOAD` photos:
+If a counselor wants to clear temporary web-search or custom on-demand AI images for a specific badge without touching the `2,292` pre-cached hero/topic PNGs or `USER_UPLOAD` photos:
 ```bash
 curl -X DELETE "http://localhost:8080/api/badge/images?badge_name=First%20Aid"
 # Or via the v1 cache maintenance endpoint:

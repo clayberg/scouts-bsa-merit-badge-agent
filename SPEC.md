@@ -5,7 +5,7 @@ Build an autonomous, production-hardened multi-agent system using the **Google A
 
 ## 2. Functional Requirements
 1. **5-Tier Authoritative Research (`ResearcherAgent`)**:
-   - Ingest official Scouting America requirement trees (`1a`, `1b`, `2a`..`15c`) across all `144` official Merit Badges (`data/merit_badge_requirements/*.json`), extract official pamphlet text and `4,317` de-boxed pamphlet figures via `pypdf`, and compute a deterministic **Canonical Pamphlet SHA-256 Hash Lock** (`compute_canonical_pamphlet_hash`) to prevent silent curriculum drift.
+   - Ingest official Scouting America requirement trees (`1a`, `1b`, `2a`..`15c`) across all `144` official Merit Badges (`data/merit_badge_requirements/*.json`), extract official pamphlet text and `4,316` de-boxed pamphlet figures via `pypdf`, and compute a deterministic **Canonical Pamphlet SHA-256 Hash Lock** (`compute_canonical_pamphlet_hash`) to prevent silent curriculum drift.
    - Ground field examples, local civic ordinances, emergency contacts, and National Weather Service (NWS) offices to the counselor's **Location (City, State or ZIP Code)** (`location_or_zip`).
 2. **Pedagogical Triage & Session Pacing (`CurriculumPlannerAgent`)**:
    - Classify every requirement into three execution modes (`IN_CLASS_DISCUSSION`, `HANDS_ON_SKILL_STATION`, `PREREQUISITE_CAMPOUT_HOME`).
@@ -17,7 +17,7 @@ Build an autonomous, production-hardened multi-agent system using the **Google A
      - **Interactive Patrol Blue Card (`#34124`) & Scoutbook Plus Sign-Off Matrix** with CSV export.
 3. **12-Archetype Storyboard & Visual Pipeline (`BeautifierAgent`, `WebImageSearchAgent`, `NanoBananaImageAgent`)**:
    - Support two depth modes (`Deep Dive / Camp School Deck` with 45-85+ slides and `Troop Meeting Deck` with 16-28 slides) and three visual polish tiers (`STANDARD` Crisp White, `BEAUTIFIED` Warm Cream `#FAF8F5`, and `STUDIO` Dark Slate `#0F172A`).
-   - Deliver **100% pre-cached visual coverage across all 144 Merit Badges**: `2,297` pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and multi-slide topic illustrations (`assets/ai_illustrations/`), `4,317` extracted and de-boxed official pamphlet figures (`assets/pamphlet_images/`), `135` transparent RGBA Merit Badge emblems (`assets/badge_emblems/`), and `134` official pamphlet covers (`assets/pamphlet_covers/`).
+   - Deliver **100% pre-cached visual coverage across all 144 Merit Badges**: `2,292` pre-generated, compressed (`<= 1,024px`, 8-bit PNG) Nano Banana hero and multi-slide topic illustrations (`assets/ai_illustrations/`), `4,316` extracted and de-boxed official pamphlet figures (`assets/pamphlet_images/`), `135` transparent RGBA Merit Badge emblems (`assets/badge_emblems/`), and `134` official pamphlet covers (`assets/pamphlet_covers/`).
    - Provide high-resolution embedded-text diagrams for key scientific and meteorological concepts (Hydrologic Cycle, WSR-88D Doppler Radar, Cold/Warm Front cross-sections, 3D Warm Front profile, Sea/Land Breezes, Cloud Classification by Altitude Level, and cropped Earth's 23.5° Axial Tilt & Seasons) paired with concise, scene-specific visual captions.
    - Provide a **4-Tab Merit Badge Image Studio** (`Quick-Switch Cached Library`, `Web Image Search`, `Nano Banana Live AI Image Generator` gated by an explicit `$0.08` USD FinOps user consent check, and `Local File Upload`).
 4. **Two-Stage Conformance & Hallucination Gate (`QualityReviewerAgent`)**:
@@ -26,5 +26,5 @@ Build an autonomous, production-hardened multi-agent system using the **Google A
 
 ## 3. Non-Functional & Youth Protection Requirements
 - **Youth Protection (YPT) & Zero-PII Guarantee**: Dual-layer regex and Cloud DLP scrubbing (`src/pii_scrubber.py`) plus Model Armor prompt-injection interception (`src/agents/guardrails.py`) before any prompt, SQLite write, or OpenTelemetry span emission.
-- **FinOps Budget Enforcement**: Pre-flight cost estimation (`estimate_workflow_finops_cost`), hard `$1.00` USD per-session ceiling, and `$0.00` runtime image cost when using the `2,297` pre-cached illustrations.
+- **FinOps Budget Enforcement**: Pre-flight cost estimation (`estimate_workflow_finops_cost`), hard `$1.00` USD per-session ceiling, and `$0.00` runtime image cost when using the `2,292` pre-cached illustrations.
 - **Automated Verification**: `53` non-hollow `pytest` behavioral and conformance tests across 5 test modules plus a 12-badge Golden Evaluation Gate (`scripts/eval_gate.py`).

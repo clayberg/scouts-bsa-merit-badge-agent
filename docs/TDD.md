@@ -14,7 +14,7 @@ Volunteer Scouts BSA Merit Badge Counselors spend 8 to 15 hours per badge gather
 3. **Noisy or Unaligned Pamphlet Visuals**: Pulling raw PDF XObjects with baked-in black caption boxes, low-resolution dithered scans, or redundant titles that collide with slide headers.
 4. **Youth Protection (YPT) Exposure**: Sending unredacted youth roster names, emails, or phone numbers to external model endpoints or telemetry logs.
 
-The **Scouts BSA Merit Badge Counselor Workbench** solves these problems with an 8-agent **Google ADK** pipeline covering all **144 official Scouts BSA Merit Badges** (`18` Eagle-Required and `126` Electives), backed by a **100% pre-cached visual asset library** (`2,297` compressed 8-bit Nano Banana hero and topic PNGs + `4,317` de-boxed pamphlet figures at `$0.00` runtime image cost), a **`<10ms` deterministic AABB geometry conformance simulator**, and **dual-layer Youth Protection PII scrubbing**.
+The **Scouts BSA Merit Badge Counselor Workbench** solves these problems with an 8-agent **Google ADK** pipeline covering all **144 official Scouts BSA Merit Badges** (`18` Eagle-Required and `126` Electives), backed by a **100% pre-cached visual asset library** (`2,292` compressed 8-bit Nano Banana hero and topic PNGs + `4,316` de-boxed pamphlet figures at `$0.00` runtime image cost), a **`<10ms` deterministic AABB geometry conformance simulator**, and **dual-layer Youth Protection PII scrubbing**.
 
 ![Scouts BSA Merit Badge Counselor Workbench Overview](images/workbench-overview-layout.png)
 
@@ -30,7 +30,7 @@ flowchart TD
 
     RES["1. ResearcherAgent (gemini-2.5-flash)\n144 Badge JSONs + 134 Pamphlet PDFs + SHA-256 Lock"]
     PLAN["2. CurriculumPlannerAgent (gemini-2.5-pro)\n3-Mode Triage + 12-Archetype Storyboard + EDGE Notes"]
-    BEAUT["3. BeautifierAgent (gemini-2.5-flash)\n3 Polish Tiers + 4 Palettes + 2,297 Pre-Cached PNGs"]
+    BEAUT["3. BeautifierAgent (gemini-2.5-flash)\n3 Polish Tiers + 4 Palettes + 2,292 Pre-Cached PNGs"]
     SLIDE["4. SlideGeneratorAgent (gemini-2.5-flash)\n13.333x7.5 Widescreen PPTX Builder (1:1 HTML5 Parity)"]
     REV["5. QualityReviewerAgent (gemini-2.5-pro)\nStage 1 <10ms AABB Simulator + Citation Verifier"]
     WEBIMG["6. WebImageSearchAgent (gemini-2.5-flash)\nWikimedia Commons Search ($0.00)"]
@@ -66,8 +66,8 @@ flowchart TD
   - Each badge JSON stores its verbatim top-level requirements (`1..15`), nested sub-requirements (`1a..15c`), execution-mode triage tags, and multi-slide `topic_slides`.
   - **Canonical SHA-256 Lock (`compute_canonical_pamphlet_hash`)**: Computes a deterministic SHA-256 digest over sorted `(req_number, description)` pairs so `QualityReviewerAgent` can detect any unauthorized requirement text mutation in `<1ms`.
 - **100% Pre-Cached Visual Pipeline (`$0.00` Runtime Image Cost)**:
-  - **`2,297` Pre-Generated Nano Banana Illustrations (`assets/ai_illustrations/`)**: Compressed (`<= 1,024px`, 8-bit PNG via `pngquant`/`PIL`) hero and topic illustrations covering every requirement across all `144` badges.
-  - **`4,317` De-Boxed Official BSA Pamphlet Figures (`assets/pamphlet_images/`)**: Extracted from `134` local pamphlet PDFs (`pdfs/`) with automatic bottom/top dark caption-bar removal (`_strip_pamphlet_caption_box`).
+  - **`2,292` Pre-Generated Nano Banana Illustrations (`assets/ai_illustrations/`)**: Compressed (`<= 1,024px`, 8-bit PNG via `pngquant`/`PIL`) hero and topic illustrations covering every requirement across all `144` badges.
+  - **`4,316` De-Boxed Official BSA Pamphlet Figures (`assets/pamphlet_images/`)**: Extracted from `134` local pamphlet PDFs (`pdfs/`) with automatic bottom/top dark caption-bar removal (`_strip_pamphlet_caption_box`).
   - **High-Resolution Scientific Diagram Upgrades & Clean Captions**: Key meteorological and scientific diagrams (Hydrologic Cycle, WSR-88D Doppler Radar, Cold and Warm Front cross-sections, 3D Warm Front side-by-side profile, Daytime Sea Breeze vs. Nighttime Land Breeze, Cloud Classification by Altitude Level, and top-cropped Earth's 23.5° Axial Tilt and Seasons) are rendered at high resolution with zero gibberish text, and all visual captions are concise and scene-specific with zero style-name prefixes.
 
 ### 3.2 Hybrid Dense + Okapi BM25 Retrieval via Reciprocal Rank Fusion (`RRF`)
@@ -103,7 +103,7 @@ Every generated `.pptx` file is validated by `check_pptx_conformance(pptx_path)`
 
 - **Surgical Single-Slide Regeneration (`POST /api/slide/regenerate`)**: Updates any slide's inline text, layout archetype, card theme, or accent palette and re-renders the `.pptx` in `<250ms` without re-running the full pipeline.
 - **4-Tab Merit Badge Image Studio (`src/agents/image_studio.py`)**:
-  - **Tab 1 (`Cached Library`, `$0.00`)**: Instant access to all `2,297` pre-cached Nano Banana PNGs and `4,317` de-boxed pamphlet figures.
+  - **Tab 1 (`Cached Library`, `$0.00`)**: Instant access to all `2,292` pre-cached Nano Banana PNGs and `4,316` de-boxed pamphlet figures.
   - **Tab 2 (`Web Image Search`, `$0.00`)**: Live Wikimedia Commons educational diagram search (`WebImageSearchAgent`).
   - **Tab 3 (`Nano Banana AI Generator`, `$0.08` USD Consent Gate)**: Content-aware visual style resolver (`resolve_content_aware_visual_config`) that automatically selects `include_humans=True` for active Scout demonstrations and `include_humans=False` for gear flat-lays or atmospheric diagrams, enforces an explicit `$0.08` USD user consent gate, and validates prompt alignment (`verify_generated_image_matches_prompt`).
   - **Tab 4 (`File Upload`, `$0.00`)**: Local troop photo or diagram upload (`POST /api/slide/upload-image`).
