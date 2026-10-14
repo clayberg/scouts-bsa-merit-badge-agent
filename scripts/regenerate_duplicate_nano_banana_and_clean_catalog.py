@@ -23,7 +23,6 @@ import io
 import json
 from pathlib import Path
 import re
-import threading
 import time
 from typing import Any, Dict, List, Optional, Tuple
 import urllib.request

@@ -131,8 +131,8 @@
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/citizenship_in_the_community_p012_img1.png",
     "image_url": "/assets/pamphlet_images/citizenship_in_the_community_p012_img1.png",
     "custom_prompt": "",
-    "is_alternate": true,
-    "alternate_rank": 2
+    "is_alternate": false,
+    "alternate_rank": 0
   },
   {
     "image_id": "703babf4ddfafd",
@@ -146,8 +146,8 @@
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/citizenship_in_the_community_p022_img1.png",
     "image_url": "/assets/pamphlet_images/citizenship_in_the_community_p022_img1.png",
     "custom_prompt": "",
-    "is_alternate": true,
-    "alternate_rank": 2
+    "is_alternate": false,
+    "alternate_rank": 0
   },
   {
     "image_id": "70690bd83d031c",
@@ -161,8 +161,8 @@
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/citizenship_in_the_community_p023_img1.png",
     "image_url": "/assets/pamphlet_images/citizenship_in_the_community_p023_img1.png",
     "custom_prompt": "",
-    "is_alternate": true,
-    "alternate_rank": 2
+    "is_alternate": false,
+    "alternate_rank": 0
   },
   {
     "image_id": "029d305fbc82e8",
@@ -183,46 +183,40 @@
     "image_id": "31da0779eaeacf",
     "badge_name": "Citizenship in the Community",
     "req_number": "2",
-    "slide_title": "Citizenship in the Community Req 2 Visual",
-    "title": "Citizenship in the Community Req 2 Visual",
-    "description": "Scout and counselor reviewing using an electronic mapping tool or paper map and chart the organization of your local.",
+    "slide_title": "Using an electronic mapping tool: Sub-Requirement Deep Dive (Reqs 2a\u20132b)",
+    "title": "Using an electronic mapping tool: Sub-Requirement Deep Dive (Reqs 2a",
+    "description": "Context-grounded Nano Banana (Photorealistic Image \u2022 Uniformed Scouts) hero graphic for Requirement 2 (Using an electronic mapping tool: Sub-Requirement Deep Dive (Reqs 2a\u20132b)).",
     "source_type": "NANO_BANANA_HERO",
     "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/citizenship_in_the_community_req_2_nano_hero.png",
     "image_url": "/assets/ai_illustrations/citizenship_in_the_community_req_2_nano_hero.png",
-    "custom_prompt": "",
-    "is_alternate": false,
-    "alternate_rank": 0
+    "custom_prompt": "Citizenship in the Community hands-on demonstration of Using an electronic mapping tool: Sub-Dive (Reqs 2a\u20132b), showing Using an electronic mapping tool or paper map, locate and pinpoint the following services and landma"
   },
   {
     "image_id": "0bdb0e264cdf31",
     "badge_name": "Citizenship in the Community",
     "req_number": "3",
-    "slide_title": "Citizenship in the Community Req 3 Visual",
-    "title": "Citizenship in the Community Req 3 Visual",
-    "description": "Attend an in-person meeting of your city, town, or county council or school board, local court session.",
+    "slide_title": "Attend an in-person meeting: Sub-Requirement Deep Dive (Reqs 3a\u20133b)",
+    "title": "Attend an in-person meeting: Sub-Requirement Deep Dive (Reqs 3a\u20133b)",
+    "description": "Context-grounded Nano Banana (Photorealistic Image \u2022 Uniformed Scouts) hero graphic for Requirement 3 (Attend an in-person meeting: Sub-Requirement Deep Dive (Reqs 3a\u20133b)).",
     "source_type": "NANO_BANANA_HERO",
     "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/citizenship_in_the_community_req_3_nano_hero.png",
     "image_url": "/assets/ai_illustrations/citizenship_in_the_community_req_3_nano_hero.png",
-    "custom_prompt": "",
-    "is_alternate": false,
-    "alternate_rank": 0
+    "custom_prompt": "Citizenship in the Community hands-on demonstration of Attend an in-person meeting: Sub-Dive (Reqs 3a\u20133b), showing Attend an in-person meeting of your city, town, or county council or school board, local court sessi"
   },
   {
     "image_id": "ba389c48bcfa4f",
     "badge_name": "Citizenship in the Community",
     "req_number": "4",
-    "slide_title": "Citizenship in the Community Req 4 Visual",
-    "title": "Citizenship in the Community Req 4 Visual",
-    "description": "Selecting an issue that is important to the citizens of your community.",
+    "slide_title": "Choose an issue that is important: Sub-Requirement Deep Dive (Reqs 4a\u20134c)",
+    "title": "Choose an issue that is important: Sub-Requirement Deep Dive (Reqs 4",
+    "description": "Context-grounded Nano Banana (Photorealistic Image \u2022 Uniformed Scouts) hero graphic for Requirement 4 (Choose an issue that is important: Sub-Requirement Deep Dive (Reqs 4a\u20134c)).",
     "source_type": "NANO_BANANA_HERO",
     "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/citizenship_in_the_community_req_4_nano_hero.png",
     "image_url": "/assets/ai_illustrations/citizenship_in_the_community_req_4_nano_hero.png",
-    "custom_prompt": "",
-    "is_alternate": false,
-    "alternate_rank": 0
+    "custom_prompt": "Citizenship in the Community hands-on demonstration of Choose an issue that is important: Sub-Dive (Reqs 4a\u20134c), showing Find out which branch of local government is responsible for this issue, Once you know which branch,"
   },
   {
     "image_id": "bb3860211062da",
@@ -258,16 +252,14 @@
     "image_id": "2de64b9fac4356",
     "badge_name": "Citizenship in the Community",
     "req_number": "7",
-    "slide_title": "Citizenship in the Community Req 7 Visual",
-    "title": "Citizenship in the Community Req 7 Visual",
-    "description": "Identifying three charitable organizations outside of Scouting that interest you and bring people.",
+    "slide_title": "Three charitable organizations outside of Scouting: Sub-Requirement Deep Dive (Reqs 7a\u20137c)",
+    "title": "Three charitable organizations outside of Scouting: Sub-Requirement ",
+    "description": "Context-grounded Nano Banana (Photorealistic Image \u2022 Uniformed Scouts) hero graphic for Requirement 7 (Three charitable organizations outside of Scouting: Sub-Requirement Deep Dive (Reqs 7a\u20137c)).",
     "source_type": "NANO_BANANA_HERO",
     "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/citizenship_in_the_community_req_7_nano_hero.png",
     "image_url": "/assets/ai_illustrations/citizenship_in_the_community_req_7_nano_hero.png",
-    "custom_prompt": "",
-    "is_alternate": false,
-    "alternate_rank": 0
+    "custom_prompt": "Citizenship in the Community hands-on demonstration of Three charitable organizations outside of Scouting: Sub-Dive (Reqs 7a\u20137c), showing Identify three charitable organizations outside of Scouting that interest you and bring people in yo"
   },
   {
     "image_id": "738990d2c9d469",

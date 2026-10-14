@@ -599,7 +599,6 @@ def generate_slide_storyboard(
     from src.tools.pamphlet_extractor import (
         _derive_topic_title,
         decompose_requirement_into_topic_slides,
-        summarize_pamphlet_for_requirement,
     )
 
     clean_badge = _sanitize_no_ellipsis_or_emdash(badge_name.strip().title())
