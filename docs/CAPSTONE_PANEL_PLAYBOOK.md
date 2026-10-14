@@ -11,7 +11,7 @@
 
 | Segment | Duration | Focus & Objective |
 | :--- | :--- | :--- |
-| **Part 1: Executive Readout (12 Core Slides, 0 Appendix — `1 / 12` to `12 / 12`)** | 10 Mins | Walk the panel through the volunteer counselor problem, the 4 deliverable pillars & 4-Tab Image Studio, the 7-agent Google ADK architecture, the Co-Design Workbench & `_compute_fitting_font_size()` layout engine, the Counselor UX & Classroom Field Toolkit (3 construction animations, Blue Card `#34124` & Scoutbook CSV sign-off tracker, 4-mode session pacing, Quartermaster gear list, and parent email actions), Youth Protection & security guardrails, FinOps unit economics (`$0.14` to `$1.00`), CI/CD evaluation gates (`53 pytest` tests), quantitative ADR benchmarks & post-mortems, the 90-day rollout plan, and the complete `3.00/3.00` Part B / `95/95` AgentOps / `100/100` FDE scorecard. |
+| **Part 1: Executive Readout (12 Core Slides, 0 Appendix — `1 / 12` to `12 / 12`)** | 10 Mins | Walk the panel through the volunteer counselor problem, the 4 deliverable pillars & 4-Tab Image Studio, the 7-agent Google ADK architecture, the Co-Design Workbench & `_compute_fitting_font_size()` layout engine, the Counselor UX & Classroom Field Toolkit (3 construction animations, Blue Card `#34124` & Scoutbook CSV sign-off tracker, 4-mode session pacing, Quartermaster gear list, and parent email actions), Youth Protection & security guardrails, FinOps unit economics (`$0.14` to `$1.00`), CI/CD evaluation gates (`55 pytest` tests), quantitative ADR benchmarks & post-mortems, the 90-day rollout plan, and the complete `3.00/3.00` Part B / `95/95` AgentOps / `100/100` FDE scorecard. |
 | **Part 2: Live Interactive Demo** | 5 Mins | Show the unified Material 3 Counselor Workbench (`:8085`), demonstrate the 3 zero-state Scout slide construction animations, ZIP/City local grounding (`01949` / `Middleton, MA`), the 3 visual tiers (`Standard`, `Beautified`, `Studio`) with de-boxed transparent pamphlet figures, the 3-Tab Under-Stage Drawer & 4-Tab Image Studio, the Patrol Blue Card Sign-Off Tracker & Quartermaster Gear Checklist, and 1:1 `.pptx` parity. |
 | **Part 3: CTO / CIO / CFO Panel Q&A** | 15 Mins | Field technical, security, operational, and financial questions using concrete files, tests, metrics, and Slides 5, 6, 10, and 12. |
 
@@ -24,7 +24,7 @@
 
 Across Scouting America, tens of thousands of volunteer counselors teach **144 official Merit Badges**, from Eagle-required badges like *First Aid*, *Weather*, and *Emergency Preparedness* to STEM electives like *Robotics* and *Nuclear Science*. Turning an 80-page BSA Merit Badge Pamphlet into a widescreen slide deck, a printable Scout workbook, and a timed lesson plan takes a volunteer **6 to 10 hours** per badge.
 
-Our workbench cuts that prep time to **under 2 minutes** while guaranteeing **100% verbatim fidelity** to official BSA requirements via a cryptographic **SHA-256 requirement lock**, all within a predictable **`$0.14` to `$1.00`** FinOps budget—verified across **53 automated pytest tests** at **`3.00 / 3.00` Part B**, **`95 / 95` AgentOps**, and **`100 / 100` FDE Readiness**."
+Our workbench cuts that prep time to **under 2 minutes** while guaranteeing **100% verbatim fidelity** to official BSA requirements via a cryptographic **SHA-256 requirement lock**, all within a predictable **`$0.14` to `$1.00`** FinOps budget—verified across **55 automated pytest tests** at **`3.00 / 3.00` Part B**, **`95 / 95` AgentOps**, and **`100 / 100` FDE Readiness**."
 
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
 > - **Google ADK (Agent Development Kit)**: Google's Python framework (`google-adk`) for orchestrating multi-agent apps on Gemini (`SequentialAgent`, `LoopAgent`, `LlmAgent`, `FunctionTool`, `AgentTool`).
@@ -74,7 +74,7 @@ Fourth, a **3-Tab Under-Stage Drawer and 4-Tab Popup Merit Badge Image Studio** 
 1. **Stage 1 (`MeritBadgeCoordinatorAgent`)** manages session state in SQLite WAL (with a codified `CloudSQLPgVectorBackend` adapter) using **Hybrid Vector + Okapi BM25 RRF RAG**, compacts conversation history every 5 turns via ADK's `EventsCompactionConfig`, streams real-time **A2UI v0.9** events over Server-Sent Events, and enforces our Human-in-the-Loop gate.
 2. **Stage 2 (`PamphletResearchAgent` + `ResearchCoverageCriticAgent`)** extracts the cached BSA Pamphlet PDF via `PyMuPDF`, locks the SHA-256 requirement hash, and invokes web search grounding. Notably, Vertex AI forbids mixing `GoogleSearchTool` with custom Python `FunctionTool`s on the same agent. We solve that cleanly using ADK's **Search-Subagent Isolation Pattern**, wrapping `WebSearchGroundingAgent` inside an `AgentTool`.
 3. **Stage 3 (`SlideContentPlannerAgent`)** runs on `gemini-2.5-pro` to map requirements onto our 12 slide archetypes and generate the Counselor StudioKit.
-4. **Stage 4 (`SlideBeautifierAgent`)** runs on `gemini-2.5-flash` to apply our 3 visual tiers, rotating color palettes, and **2,292 pre-populated Nano Banana illustrations** across all 144 Merit Badges (alongside 4,316 de-boxed pamphlet figures and 220-DPI EDGE Skill Concept Map fallback) under a strict FinOps budget cap.
+4. **Stage 4 (`SlideBeautifierAgent`)** runs on `gemini-2.5-flash` to apply our 3 visual tiers, rotating color palettes, and **1,306 pre-populated Nano Banana illustrations** across all 144 Merit Badges (alongside 7,769 extracted BSA Pamphlet figures and 220-DPI EDGE Skill Concept Map fallback) under a strict FinOps budget cap.
 5. **Stage 5 (`PowerPointBuilderAgent` + `BSABrandAndSafetyReviewAgent`)** runs inside a bounded `LoopAgent(max_iterations=3)`. Stage 1 verifies zero AABB shape overlaps, `12.0pt` minimum fonts, `100%` citation grounding (`verify_slide_citation_grounding`), and WCAG AA contrast in **3.4 milliseconds**, before Stage 2 runs our `gemini-2.5-pro` safety and brand rubric."
 
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
@@ -122,7 +122,7 @@ Fourth, **Zero-Trust Cloud Run in Terraform**: dedicated least-privilege IAM, cu
 "For a non-profit organization like Scouting America, unit economics have to be predictable down to the penny:
 
 - **Tier 1 (`Standard Lightweight — Crisp White (Pamphlet Figures Only)`)** costs **`$0.14` per deck** (`$0.00` cached rerun).
-- **Tier 2 (`AI Beautified — Warm Cream + Full Pre-Cached Visuals`, default)** costs **`$0.38` per deck** (`$0.02` cached), adding a warm cream canvas (`#FAF8F5`) and up to 5 Nano Banana hero illustrations (pre-populated at `$0.00` runtime cost across all 144 badges via 2,292 bundled PNG illustrations, with 220-DPI EDGE Skill Concept Map fallback).
+- **Tier 2 (`AI Beautified — Warm Cream + Full Pre-Cached Visuals`, default)** costs **`$0.38` per deck** (`$0.02` cached), adding a warm cream canvas (`#FAF8F5`) and up to 5 Nano Banana hero illustrations (pre-populated at `$0.00` runtime cost across all 144 badges via 1,306 bundled PNG illustrations, with 220-DPI EDGE Skill Concept Map fallback).
 - **Tier 3 (`AI Studio — Dark Slate + Full Pre-Cached Visuals`)** enforces a **hard `$1.00` maximum cap** via `FinOpsBudgetPlugin`, while on-demand `NanoBananaImageAgent` graphics require an explicit **`$0.08 USD` consent gate** and cache per badge for free reuse.
 
 Two architectural trade-offs drive these savings: **Hybrid Vector + BM25 RAG** cuts input tokens by **68%**, and **Stage 1 AABB geometry checks (`3.4ms`, `$0.00`)** + a **bounded render concurrency semaphore & 24h TTL cleanup** eliminate wasted Vision LLM tokens and cap container RAM. Across a 500-counselor Scouting Council generating 1,500 decks a month at a 70% cache hit rate, total monthly TCO is **`$282.50` a month** (`$0.19` per packet—a **98% savings** vs. `$15,000/mo` SaaS seats)."
@@ -134,7 +134,7 @@ Two architectural trade-offs drive these savings: **Hybrid Vector + BM25 RAG** c
 
 First, our blocking evaluation gate (`scripts/eval_gate.py`) grades **12 golden Eagle-required and STEM badges** across deterministic and Vertex GenAI Eval metrics: **Recall@3 = 1.00**, **MRR = 1.00**, **NDCG@3 = 1.00**, **ADK Tool Trajectory In-Order Match = 1.00**, **Citation Grounding Coverage = 1.00**, **100% SHA-256 requirement lock**, **zero Stage 1 AABB overlaps**, and **`vertexai.preview.evaluation.EvalTask`** integration.
 
-Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **53 pytest unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py`, deploys to Cloud Run at a **10% canary split**, probes `/readiness`, and promotes to **100% traffic** (or auto-rolls back). And before any live demo, `scripts/verify_live_demo_readiness.py` verifies all runtime subsystems in under 2 seconds."
+Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **55 pytest unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py`, deploys to Cloud Run at a **10% canary split**, probes `/readiness`, and promotes to **100% traffic** (or auto-rolls back). And before any live demo, `scripts/verify_live_demo_readiness.py` verifies all runtime subsystems in under 2 seconds."
 
 ### Slide 10 (`10 / 12`): Quantitative ADR Benchmarks, Ablations & Engineering Post-Mortems (0:50)
 
@@ -158,7 +158,7 @@ Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **53 pytes
 ### Slide 12 (`12 / 12`): Complete Rubric Evidence Scorecard (`3.00/3.00 Part B • 95/95 AgentOps • 100/100 FDE`) (0:30)
 
 **Spoken Script**:
-"Finally, Slide 12 maps every single requirement of the **27-subcategory Official Part B Rubric (`3.00 / 3.00`)**, the **19-criterion AgentOps Code Review Matrix (`95 / 95`)**, and the **100-point FDE Readiness Rubric (`100 / 100`)** directly to the source files and 53 automated tests in our repository.
+"Finally, Slide 12 maps every single requirement of the **27-subcategory Official Part B Rubric (`3.00 / 3.00`)**, the **19-criterion AgentOps Code Review Matrix (`95 / 95`)**, and the **100-point FDE Readiness Rubric (`100 / 100`)** directly to the source files and 55 automated tests in our repository.
 
 With that, let's switch to the live workbench for our 5-minute demonstration."
 
