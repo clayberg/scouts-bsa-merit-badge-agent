@@ -143,7 +143,7 @@ def generate_ai_editorial_illustration(
     nano_hero_path: Optional[Path] = (
         AI_ILLUSTRATIONS_DIR / f"{slug}_req_{req_slug}_nano_hero.png" if req_slug else None
     )
-    if nano_hero_path is not None and nano_hero_path.exists() and nano_hero_path.stat().st_size > 4_000:
+    if nano_hero_path is not None and nano_hero_path.exists() and nano_hero_path.stat().st_size >= 35_000:
         return {
             "badge_name": badge_name.strip(),
             "slide_title": slide_title,
@@ -815,6 +815,9 @@ def beautify_slide_storyboard(
                         "weather_req_8_topic_visual.png": "(Left) Factory and vehicle exhaust plumes; (Center) Cloud droplet chemical reaction inset; (Right) Acidic rain on mountain pines and lake.",
                         "weather_req_9_topic_visual.png": "Solar Incidence Angles: Concentrated perpendicular rays at the Equator, angled mid-latitude rays, and grazing oblique rays at the Poles.",
                         "weather_req_11_topic_visual.png": "Outdoor Safety Briefing: Uniformed Scout at a campsite easel pointing to a weather hazard flip-chart while addressing his patrol.",
+                        "first_aid_req_12_topic_visual.png": "Four-panel Mental Health First Aid: noticing a distressed peer, Two-Deep supportive listening, calm breathing reassurance, and connecting with an adult leader.",
+                        "first_aid_req_14_topic_visual.png": "Four-panel BSA EDGE First Aid instruction: explaining anatomy on a chart, demonstrating forearm splinting, guiding cravat practice, and enabling independent care.",
+                        "first_aid_req_15_topic_visual.png": "(Left) Scout interviewing an EMS paramedic by an ambulance; (Center) Wilderness mountain rescue litter team; (Right) ER nurse and physician mentoring a Scout.",
                     }
                     from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
 
@@ -871,6 +874,18 @@ def beautify_slide_storyboard(
 
         cur_diag = slide.get("diagram_path")
         if cur_diag:
+            cur_diag_fname = Path(str(cur_diag)).name
+            if cur_diag_fname in (
+                "first_aid_req_12_topic_visual.png",
+                "first_aid_req_14_topic_visual.png",
+                "first_aid_req_15_topic_visual.png",
+            ):
+                _topic_override_caps = {
+                    "first_aid_req_12_topic_visual.png": "Four-panel Mental Health First Aid: noticing a distressed peer, Two-Deep supportive listening, calm breathing reassurance, and connecting with an adult leader.",
+                    "first_aid_req_14_topic_visual.png": "Four-panel BSA EDGE First Aid instruction: explaining anatomy on a chart, demonstrating forearm splinting, guiding cravat practice, and enabling independent care.",
+                    "first_aid_req_15_topic_visual.png": "(Left) Scout interviewing an EMS paramedic by an ambulance; (Center) Wilderness mountain rescue litter team; (Right) ER nurse and physician mentoring a Scout.",
+                }
+                slide["visual_caption"] = _topic_override_caps[cur_diag_fname]
             cur_md5 = _file_md5(str(cur_diag))
             if cur_md5:
                 if used_diagram_md5s.get(cur_md5, 0) >= 1 and not is_req_lead_slide:

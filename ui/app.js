@@ -688,6 +688,7 @@ function bindFilterAndSlideControls() {
     if (!workbenchGrid) return;
     const isCollapsed = workbenchGrid.classList.toggle("sidebar-collapsed");
     syncSidebarToggleUi(isCollapsed);
+    requestAnimationFrame(() => fitActiveSlideToStage());
   });
 
   // Collapsible Storyboard Filmstrip Outline toggle
@@ -697,6 +698,7 @@ function bindFilterAndSlideControls() {
     if (!storyboardLayout) return;
     const isCollapsed = storyboardLayout.classList.toggle("filmstrip-collapsed");
     filmstripToggleBtn.textContent = isCollapsed ? "▶ Show Outline" : "◀ Hide Outline";
+    requestAnimationFrame(() => fitActiveSlideToStage());
   });
 
   // Top-bar Counselor Profile Chip opens the sidebar Counselor Profile Accordion
@@ -2050,6 +2052,7 @@ function renderActiveSlide(idx) {
       const coverNotes = `[SAY] Welcome Scouts to our ${res.badge_name} Merit Badge session, and introduce yourself (${counselorName}, ${troopName}) along with how Scouts and parents can reach you (${email || "via unit leadership"}) using Two-Deep Leadership / Youth Protection guidelines. ${eagleNote} Explain how we will work through each official requirement using this presentation, hands-on demonstrations, and your printable ${res.badge_name} Merit Badge Workbook.`;
       notesEl.innerHTML = formatSpeakerNotesHtml(coverNotes);
     }
+    fitActiveSlideToStage();
     return;
   }
 
@@ -2434,6 +2437,7 @@ function renderActiveSlide(idx) {
           cardEl.classList.add("quiz-selected-wrong");
         }
       });
+      fitActiveSlideToStage();
     };
 
     document.getElementById("btn-reveal-quiz-answer")?.addEventListener("click", () => revealQuiz(-1));
@@ -2555,7 +2559,66 @@ function renderActiveSlide(idx) {
   if (notesEl) {
     notesEl.innerHTML = formatSpeakerNotesHtml(slide.presenter_notes || "");
   }
+
+  if (imgEl && !imgEl.dataset.fitBound) {
+    imgEl.dataset.fitBound = "1";
+    imgEl.addEventListener("load", () => fitActiveSlideToStage());
+  }
+  fitActiveSlideToStage();
 }
+
+function isSlideStageOverflowing(stageEl) {
+  if (stageEl.scrollHeight > stageEl.clientHeight + 2) return true;
+  const splitEl = stageEl.querySelector(".m3-slide-body-split");
+  const leftEl = document.getElementById("slide-left-zone");
+  const rightEl = document.getElementById("slide-right-visual");
+  if (splitEl && splitEl.scrollHeight > splitEl.clientHeight + 2) return true;
+  if (leftEl && leftEl.scrollHeight > leftEl.clientHeight + 2) return true;
+  if (rightEl && !rightEl.classList.contains("hidden") && rightEl.scrollHeight > rightEl.clientHeight + 2) return true;
+
+  const safetyBar = document.getElementById("slide-safety-bar");
+  const footerStrip = stageEl.querySelector(".m3-slide-footer-strip");
+  const bottomBoundaryEl = (safetyBar && !safetyBar.classList.contains("hidden")) ? safetyBar : footerStrip;
+  if (bottomBoundaryEl && splitEl) {
+    const boundaryTop = bottomBoundaryEl.getBoundingClientRect().top;
+    const splitBottom = splitEl.getBoundingClientRect().bottom;
+    if (splitBottom > boundaryTop + 1) return true;
+    if (leftEl && leftEl.lastElementChild) {
+      const lastBottom = leftEl.lastElementChild.getBoundingClientRect().bottom;
+      if (lastBottom > boundaryTop - 2) return true;
+    }
+  }
+  return false;
+}
+
+function fitActiveSlideToStage() {
+  const stageEl = document.getElementById("widescreen-slide-stage");
+  if (!stageEl || stageEl.offsetParent === null) return;
+
+  // Reset density classes and height overrides so we measure against the true 16:9 stage
+  stageEl.classList.remove("slide-density-compact", "slide-density-ultra-compact");
+  stageEl.style.aspectRatio = "16 / 9";
+  stageEl.style.height = "auto";
+  stageEl.style.minHeight = "410px";
+
+  if (isSlideStageOverflowing(stageEl)) {
+    stageEl.classList.add("slide-density-compact");
+  }
+  if (isSlideStageOverflowing(stageEl)) {
+    stageEl.classList.add("slide-density-ultra-compact");
+  }
+  if (isSlideStageOverflowing(stageEl)) {
+    // Guarantee zero vertical cropping on extra-dense slides or narrow laptop viewports
+    const targetMinH = Math.max(410, Math.round(stageEl.clientWidth * (9 / 16)));
+    stageEl.style.minHeight = `${targetMinH}px`;
+    stageEl.style.aspectRatio = "auto";
+    stageEl.style.height = "auto";
+  }
+}
+
+window.addEventListener("resize", () => {
+  fitActiveSlideToStage();
+});
 
 function formatSpeakerNotesHtml(rawNotes) {
   const lines = String(rawNotes || "")

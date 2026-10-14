@@ -82,7 +82,7 @@ gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}
 
 ### Playbook B: Stage 1 AABB shape overlap or text overflow alert
 - **Symptoms**: `check_pptx_conformance()` reports `aabb_overlap_count > 0` or `scripts/eval_gate.py` exits with code `1`.
-- **Automatic handling**: `BSABrandAndSafetyReviewAgent` runs in a bounded `LoopAgent` (`max_iterations=3`) that passes overlap coordinates back to `PowerPointBuilderAgent` (`_compute_fitting_font_size()`) to reduce font sizes toward the `13.0pt` floor.
+- **Automatic handling**: `BSABrandAndSafetyReviewAgent` runs in a bounded `LoopAgent` (`max_iterations=3`) that passes overlap coordinates back to `PowerPointBuilderAgent` (`_compute_fitting_font_size()`) to reduce font sizes toward the `12.0pt` floor.
 - **Operator steps**:
   - Run the evaluation gate locally to see which badge and slide triggered the geometry issue:
     ```bash
@@ -132,12 +132,12 @@ gcloud run services update-traffic scouts-bsa-merit-badge-agent \
    ```
 
 ### 4.3 Backing up and restoring the SQLite session store
-Use SQLite's online `.backup` command to snapshot `.bsa_session_memory.sqlite` without locking active readers:
+Use SQLite's online `.backup` command to snapshot `scouts_bsa_sessions.db` without locking active readers:
 
 ```bash
 # Create online backup
-sqlite3 .bsa_session_memory.sqlite ".backup 'deliverables/bsa_session_memory_backup.sqlite'"
+sqlite3 scouts_bsa_sessions.db ".backup 'deliverables/scouts_bsa_sessions_backup.db'"
 
 # Restore from backup
-cp deliverables/bsa_session_memory_backup.sqlite .bsa_session_memory.sqlite
+cp deliverables/scouts_bsa_sessions_backup.db scouts_bsa_sessions.db
 ```

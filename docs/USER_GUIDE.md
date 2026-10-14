@@ -72,7 +72,7 @@ In the upper-left card (**1. Find & Select Merit Badge**), you have four ways to
 | :--- | :--- | :--- |
 | **Search Merit Badge Name** | Type any word (such as `First Aid`, `Weather`, `Canoeing`, `Robotics`, or `Citizenship`). | Narrows the dropdown list immediately as you type. |
 | **Category** | Filter by Scouting subject area: *All Categories*, *Outdoor & Campcraft*, *Health & Public Safety*, *Citizenship & Personal Development*, *Nature & Environment*, *STEM & Science*, *Aquatics & Sports*, *Trades, Business & Careers*, or *Arts, Crafts & Hobbies*. | Helpful when planning a themed campout weekend (such as an Aquatics weekend or a STEM Merit Badge Midway). |
-| **Eagle Status** | Choose **All Badges (144)**, **Eagle-Required Only (18)**, or **Elective Badges Only (126)**. | In the dropdown list, Eagle-Required badges are marked with a star (**★**). |
+| **Eagle Status** | Choose **All Badges (144)**, **Eagle-Required (18)**, or **Electives (126)**. | In the dropdown list, Eagle-Required badges are marked with a star (**★**). |
 | **Quick-Select Popular Badges** | One-click buttons for **★ First Aid**, **Weather**, **★ Camping**, **★ Cit. in Nation**, **★ Cooking**, **★ Emergency Prep**, **★ Env. Science**, and **Robotics**. | Clicking a quick-select pill selects that badge and immediately starts building its slide deck and workbook. |
 
 ---
@@ -87,8 +87,8 @@ In the lower-left card (**2. Deck Style & Counselor Info**), you control how det
 
 | Setting | Options Available | When to Use Each Option |
 | :--- | :--- | :--- |
-| **Slide Deck Length & Depth** | • **Deep Dive Teaching Deck (Detailed — 50 to 70+ Slides)**<br/>• **Standard Troop Meeting Deck (Focused — 1 to 3 Slides / Req)** | Choose **Deep Dive** for multi-week troop classes, summer camp blocks, or Merit Badge Universities where you want dedicated slides for every sub-requirement (`1a`, `1b`, `2a`), worked examples, and review quizzes. Choose **Standard** for a compact overview deck. |
-| **Slide Visual Polish Mode (Beautification Tier)** | • **Standard Fast Deck — Crisp White (~$0.14)**<br/>• **AI Beautified — Warm Cream + Hero Graphics (~$0.38)** *(Default)*<br/>• **AI Studio — Dark Slate + Hero Graphics ($1.00 Budget)** | **Standard** uses a clean white background (`#FFFFFF`) that prints well on office laser printers and works brightly in sunny outdoor pavilions. **AI Beautified** uses a warm cream background (`#FAF8F5`) with colored card accents and illustrated requirement intro graphics. **AI Studio** uses a high-contrast dark slate background (`#0F172A`) ideal for evening troop meetings and darkened auditoriums. |
+| **Slide Deck Length & Depth** | • **Deep Dive Teaching Deck (3–8 Slides / Req • 30 to 100+ Slides)**<br/>• **Standard Troop Meeting Deck (1–4 Slides / Req • 18 to 48 Slides)** | Choose **Deep Dive** for multi-week troop classes, summer camp blocks, or Merit Badge Universities where you want dedicated slides for every sub-requirement (`1a`, `1b`, `2a`), worked examples, and review quizzes. Choose **Standard** for a compact overview deck. |
+| **Slide Visual Polish Mode (Beautification Tier)** | • **Standard Lightweight — Crisp White (Pamphlet Figures Only)** *(~$0.14 cold / $0.00 cached)*<br/>• **AI Beautified — Warm Cream + Full Pre-Cached Visuals** *(Default, ~$0.38 cold / $0.02 cached)*<br/>• **AI Studio — Dark Slate + Full Pre-Cached Visuals** *($1.00 Max Budget Cap)* | **Standard Lightweight** uses a clean white background (`#FFFFFF`) that prints well on office laser printers and works brightly in sunny outdoor pavilions. **AI Beautified** uses a warm cream background (`#FAF8F5`) with colored card accents and pre-cached requirement intro and topic visuals. **AI Studio** uses a high-contrast dark slate background (`#0F172A`) ideal for evening troop meetings and darkened auditoriums. |
 | **Target Scout Audience Level** | • **All Scouts (Ages 11–17)**<br/>• **First-Year / Tenderfoot Focus (Ages 11–12)**<br/>• **Older Scouts / Eagle Prep (Ages 14–17)** | Adjusts the counselor speaker notes (`[SAY]`, `[DEMONSTRATE]`, `[ASK SCOUTS]`) so your explanations and check questions fit either younger crossovers or older Scouts preparing for Eagle Boards of Review. |
 | **Enable Local Regional Grounding (NOAA / Terrain / Field Sites)** | Checked by default | Tailors your **Badge Overview slide (Slide 2)**, **Session Lesson Plan**, and **Parent Welcome Letter** to your local area—referencing your nearest National Weather Service office, local terrain and seasonal weather hazards, and nearby parks or field study sites. |
 
@@ -108,7 +108,7 @@ Click **👤 Counselor & Troop Profile (Saved) • Edit ▾** at the bottom of t
 
 ![Three Scout Slide Construction Animations](images/construction-animations-triptych.png)
 
-Whenever a new Merit Badge deck is being assembled—or anytime you click **🏗️ Scout Construction Anim** in the toolbar above the slide stage—the Workbench displays an interactive **Scout Slide Construction Showcase** featuring your selected Merit Badge emblem:
+Whenever a new Merit Badge deck is being assembled—or anytime you click **Merit Badge Construction Animation** in the **Research & Generation Progress** card in the left outline column—the Workbench displays an interactive **Scout Slide Construction Showcase** featuring your selected Merit Badge emblem:
 
 1. **🏗️ 1. 3D Heavy Equipment (6f)**: Miniature Scouts in campaign hats and construction hardhats use a yellow mini-bulldozer, tower crane, forklift, scissor-lift, and twin-rotor cargo helicopter to erect a giant 16:9 slide and hoist your Merit Badge patch into the upper-right mounting ring.
 2. **🪵 2. 2D Camp Pioneering (4f)**: A patrol at a pine forest campsite ties square and diagonal lashings on timber spars and uses an A-frame block-and-tackle pulley rig to hoist a canvas projection screen framed with your Merit Badge emblem.
@@ -125,7 +125,7 @@ When **Slide Deck Preview** (Tab 1) is active, you have three fast ways to move 
 ### 1. Slide Outline & Keyword Filter (Left Column of Tab 1)
 - Type a requirement number (such as `2b` or `4a`) or a topic word (such as `CPR`, `tourniquet`, or `splint`) into **🔎 Filter slides by keyword or req...** to narrow the slide list.
 - Click any card in the **Slide Filmstrip Outline** to display that slide on the 16:9 stage.
-- Click **Details ▾** on the **Research & Generation Progress** card at the bottom of the outline column if you want to see the step-by-step progress log.
+- Click **▾** on the **Research & Generation Progress** card at the bottom of the outline column if you want to expand or collapse the step-by-step progress log, or click **Merit Badge Construction Animation** to replay the construction showcase.
 
 ### 2. Requirement Quick-Jump Bar (`JUMP TO:`)
 - Directly above the 16:9 slide canvas, the **JUMP TO:** bar lists clickable pills for **Cover**, **Overview**, every requirement (**Req 1**, **Req 2a**, **Req 2b**, ...), and **Sources**.

@@ -672,18 +672,20 @@ html, body {
 .m3-slide-header-band {
   background: transparent;
   color: var(--md-sys-color-primary);
-  padding: 16px 24px 8px 24px;
+  padding: 10px 20px 5px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   text-align: center;
   flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
 .m3-slide-header-title {
   font-family: var(--font-sans);
-  font-size: 1.50rem;
+  font-size: clamp(1.12rem, 1.55vw, 1.38rem);
+  line-height: 1.2;
   font-weight: 800;
   color: var(--md-sys-color-primary);
   text-align: center;
@@ -694,29 +696,31 @@ html, body {
 
 .m3-slide-req-strip {
   background: #FFFFFF;
-  margin: 0 24px;
-  padding: 10px 16px;
+  margin: 0 20px;
+  padding: 6px 14px;
   border: 2px solid var(--md-sys-color-primary);
-  border-radius: 12px;
-  font-size: 0.92rem;
-  line-height: 1.42;
+  border-radius: 10px;
+  font-size: 0.84rem;
+  line-height: 1.34;
   color: var(--md-sys-color-on-surface);
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
-  gap: 12px;
+  gap: 10px;
   overflow-wrap: break-word;
   word-break: break-word;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .m3-slide-body-split {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
-  gap: 18px;
-  padding: 14px 24px 18px 24px;
-  flex: 1;
+  gap: 14px;
+  padding: 8px 20px 10px 20px;
+  flex: 1 0 auto;
+  min-height: min-content;
   align-items: stretch;
   box-sizing: border-box;
 }
@@ -730,16 +734,17 @@ html, body {
 .m3-slide-left-zone {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 7px;
   text-align: left;
   min-width: 0;
+  min-height: min-content;
 }
 
 .m3-slide-card-item {
   background: var(--md-sys-color-surface-container-low);
   border: 1.5px solid var(--md-sys-color-outline);
-  border-radius: 12px;
-  padding: 11px 14px;
+  border-radius: 10px;
+  padding: 8px 12px;
   text-align: left;
   overflow-wrap: break-word;
   word-break: break-word;
@@ -750,8 +755,8 @@ html, body {
 .m3-slide-card-anchor {
   font-weight: 700;
   color: var(--md-sys-color-primary);
-  font-size: 0.96rem;
-  margin-bottom: 3px;
+  font-size: 0.89rem;
+  margin-bottom: 2px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -763,9 +768,9 @@ html, body {
 }
 
 .m3-slide-card-text {
-  font-size: 0.91rem;
+  font-size: 0.84rem;
   color: var(--md-sys-color-on-surface);
-  line-height: 1.44;
+  line-height: 1.36;
   text-align: left;
   overflow-wrap: break-word;
   word-break: break-word;
@@ -774,7 +779,7 @@ html, body {
 .m3-slide-2col-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 9px;
   width: 100%;
   min-width: 0;
 }
@@ -782,50 +787,146 @@ html, body {
 .m3-slide-right-visual {
   background: var(--md-sys-color-surface-container-low);
   border: 1px solid var(--md-sys-color-outline);
-  border-radius: 14px;
-  padding: 12px;
+  border-radius: 12px;
+  padding: 8px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .m3-slide-right-visual img {
   width: 100%;
-  max-height: 340px;
+  max-height: 220px;
   object-fit: contain;
   border-radius: 8px;
   background: transparent;
 }
 
 .m3-slide-visual-caption {
-  font-size: 0.76rem;
+  font-size: 0.72rem;
+  line-height: 1.28;
   font-weight: 600;
   color: var(--md-sys-color-on-surface-variant);
   text-align: center;
 }
 
 .m3-slide-safety-bar {
-  margin: 0 24px 14px;
-  padding: 10px 16px;
-  border-radius: 10px;
+  margin: 0 20px 8px;
+  padding: 6px 14px;
+  border-radius: 8px;
   background: var(--md-sys-color-tertiary-container);
   color: var(--md-sys-color-on-tertiary-container);
-  font-size: 0.80rem;
+  font-size: 0.76rem;
+  line-height: 1.28;
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  flex-shrink: 0;
 }
 
 .m3-slide-footer-strip {
   background: var(--md-sys-color-surface-container);
-  padding: 8px 24px;
-  font-size: 0.72rem;
+  padding: 6px 20px;
+  font-size: 0.70rem;
   color: var(--md-sys-color-on-surface-variant);
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+/* Auto-Fit Compact Density Tiers for Tall 16:9 Slides */
+.m3-widescreen-slide.slide-density-compact .m3-slide-header-band {
+  padding: 6px 18px 3px 18px;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-header-title {
+  font-size: clamp(1.02rem, 1.35vw, 1.22rem);
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-req-strip {
+  padding: 4px 12px;
+  font-size: 0.78rem;
+  line-height: 1.26;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-body-split {
+  padding: 6px 18px 6px 18px;
+  gap: 10px;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-left-zone {
+  gap: 5px;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-card-item {
+  padding: 6px 10px;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-card-anchor {
+  font-size: 0.82rem;
+  margin-bottom: 1px;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-card-text {
+  font-size: 0.78rem;
+  line-height: 1.28;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-right-visual {
+  padding: 6px 8px;
+  gap: 4px;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-right-visual img {
+  max-height: 180px !important;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-safety-bar {
+  margin: 0 18px 5px;
+  padding: 4px 12px;
+  font-size: 0.72rem;
+}
+.m3-widescreen-slide.slide-density-compact .m3-slide-footer-strip {
+  padding: 4px 18px;
+  font-size: 0.66rem;
+}
+
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-header-band {
+  padding: 4px 16px 2px 16px;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-header-title {
+  font-size: clamp(0.95rem, 1.2vw, 1.10rem);
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-req-strip {
+  padding: 3px 10px;
+  font-size: 0.73rem;
+  line-height: 1.22;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-body-split {
+  padding: 4px 16px 4px 16px;
+  gap: 8px;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-left-zone {
+  gap: 4px;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-card-item {
+  padding: 4px 9px;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-card-anchor {
+  font-size: 0.76rem;
+  margin-bottom: 1px;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-card-text {
+  font-size: 0.73rem;
+  line-height: 1.22;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-right-visual img {
+  max-height: 155px !important;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-safety-bar {
+  margin: 0 16px 4px;
+  padding: 3px 10px;
+  font-size: 0.68rem;
+}
+.m3-widescreen-slide.slide-density-ultra-compact .m3-slide-footer-strip {
+  padding: 3px 16px;
+  font-size: 0.64rem;
 }
 
 /* Keynote Demo Voice Speaker Notes Box */

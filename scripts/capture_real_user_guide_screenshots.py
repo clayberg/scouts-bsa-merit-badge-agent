@@ -364,15 +364,15 @@ async def capture_all() -> None:
             polish_modes = [
                 (
                     "STANDARD",
-                    "Standard Fast Deck: Crisp White (~$0.14)",
+                    "Standard Lightweight — Crisp White (Pamphlet Figures Only)",
                 ),
                 (
                     "BEAUTIFIED",
-                    "AI Beautified: Warm Cream + Hero Graphics (~$0.38)",
+                    "AI Beautified — Warm Cream + Full Pre-Cached Visuals",
                 ),
                 (
                     "STUDIO",
-                    "AI Studio: Dark Slate + Hero Graphics ($1.00 Budget)",
+                    "AI Studio — Dark Slate + Full Pre-Cached Visuals",
                 ),
             ]
             for mode_val, mode_label in polish_modes:

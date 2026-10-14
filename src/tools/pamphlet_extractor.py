@@ -1814,18 +1814,52 @@ def decompose_requirement_into_topic_slides(
     worked_ex = req_dict.get("worked_example")
     quiz_item = req_dict.get("quiz_item")
 
-    all_pamphlet_bullets = (
+    raw_pamphlet_bullets = (
         _extract_clean_teaching_points_from_pages(pages_map, extended_pages[:5], badge_name, max_points=16)
         if (extended_pages and pages_map)
         else []
     )
+    # Filter raw pamphlet sentences by strict subject-matter keyword overlap (>= 2 matching 5+ letter domain words)
+    # so older PDF pamphlets never leak unrelated chapters onto newer requirements.
+    badge_words = {w.lower() for w in re.findall(r"[A-Za-z]{3,}", badge_name)}
+    generic_req_stop = {
+        "explain", "describe", "discuss", "demonstrate", "show", "tell", "following",
+        "your", "counselor", "with", "what", "when", "where", "which", "that", "this",
+        "from", "have", "make", "list", "least", "three", "four", "five", "about",
+        "how", "why", "would", "should", "could", "must", "including", "such", "other",
+        "person", "people", "scout", "scouts", "merit", "badge", "pamphlet", "requirement",
+        "first", "emergency", "emergencies", "injury", "injuries", "illness", "illnesses",
+        "care", "help", "situations", "might", "needed", "conditions", "potential", "selected",
+        "another", "skill", "using", "method", "opportunities", "pick", "find", "their", "there",
+        "these", "those", "while", "after", "before", "under", "above", "below", "between",
+        "place", "water", "check", "apply", "treat", "treatment", "prevent", "prevention",
+        "signs", "symptoms", "proper", "level", "levels", "group", "patrol", "troop", "outing",
+    } | badge_words
+    req_domain_blob = " ".join([req_text, base_title]).lower()
+    req_domain_kws = {
+        w for w in re.findall(r"[a-z]{5,}", req_domain_blob)
+        if w not in generic_req_stop
+    }
+    min_kw_hits = 2 if len(req_domain_kws) >= 2 else 1
+    if req_domain_kws:
+        all_pamphlet_bullets = [
+            b for b in raw_pamphlet_bullets
+            if sum(1 for kw in req_domain_kws if kw in b.lower()) >= min_kw_hits
+        ]
+    else:
+        all_pamphlet_bullets = []
 
     # Reserve `excerpts[:4]` for the REQUIREMENT_INTRO slide in Deep Dive mode so topic slides never repeat them,
     # and strictly deduplicate `fresh_pamphlet_bullets` so the first two boxes of text are never identical!
     intro_norms = {re.sub(r"[^a-z0-9]+", " ", b.lower()).strip()[:55] for b in excerpts[:4]}
     fresh_pamphlet_bullets: List[str] = []
     seen_fresh_norms: set = set(intro_norms)
-    for b in (excerpts[4:] + all_pamphlet_bullets):
+    worked_fields_bullets = (
+        [f"{k}: {v}" for k, v in list((worked_ex.get("fields") or {}).items())[:4]]
+        if isinstance(worked_ex, dict)
+        else []
+    )
+    for b in (excerpts[4:] + worked_fields_bullets + checklist + all_pamphlet_bullets + procedures):
         b_clean = str(b or "").strip()
         if not b_clean:
             continue
@@ -1873,7 +1907,11 @@ def decompose_requirement_into_topic_slides(
             popped_vis = _pop_next_avail_pamphlet()
             if popped_vis:
                 vis_img, vis_cap = popped_vis
-            elif topic_vis_path.exists() and str(topic_vis_path) not in used_image_paths:
+            elif (
+                topic_vis_path.exists()
+                and topic_vis_path.stat().st_size >= 35_000
+                and str(topic_vis_path) not in used_image_paths
+            ):
                 used_image_paths.add(str(topic_vis_path))
                 vis_img, vis_cap = str(topic_vis_path), topic_vis_caption
             else:
@@ -1899,7 +1937,11 @@ def decompose_requirement_into_topic_slides(
         popped_single = _pop_next_avail_pamphlet()
         if popped_single:
             slide_img, slide_cap = popped_single
-        elif topic_vis_path.exists() and str(topic_vis_path) not in used_image_paths:
+        elif (
+            topic_vis_path.exists()
+            and topic_vis_path.stat().st_size >= 35_000
+            and str(topic_vis_path) not in used_image_paths
+        ):
             used_image_paths.add(str(topic_vis_path))
             slide_img, slide_cap = str(topic_vis_path), topic_vis_caption
         else:

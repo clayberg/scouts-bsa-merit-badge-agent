@@ -1,6 +1,6 @@
 # Architecture decision records index (`docs/adr/`)
 
-All eight Architecture Decision Records (ADRs) for the Scouts BSA Merit Badge Counselor Workbench are documented in [`../../ARCHITECTURE_DECISIONS.md`](../../ARCHITECTURE_DECISIONS.md) and summarized below:
+All nine Architecture Decision Records (ADRs) for the Scouts BSA Merit Badge Counselor Workbench are documented in [`../../ARCHITECTURE_DECISIONS.md`](../../ARCHITECTURE_DECISIONS.md) and summarized below:
 
 | ADR ID | Decision | Options evaluated | Chosen approach and trade-off |
 | :--- | :--- | :--- | :--- |
@@ -12,3 +12,4 @@ All eight Architecture Decision Records (ADRs) for the Scouts BSA Merit Badge Co
 | **ADR-06** | **Slide polish tiers, pre-populated hero graphics, and FinOps cap** | 1. AI image on every slide (`>$2.60`)<br/>2. Plain white slides / procedural-only boxes<br/>3. 3-tier polish + 2,292 pre-populated Nano Banana PNGs (all 144 badges) + 4,316 de-boxed pamphlet figures + EDGE fallback + `FinOpsBudgetPlugin($1.00)` | **Option 3**: Offers `$0.14` (`STANDARD`), `$0.38` (`BEAUTIFIED`), and `$1.00` (`STUDIO`) tiers with pre-populated hero & topic graphics (`~124 MB`) and never overwrites existing technical diagrams. |
 | **ADR-07** | **Image Studio catalog, `Auto (Content-Aware Mix)`, `include_humans`, and `$0.08` consent gate** | 1. Overwrite graphic in place & clear all on reset<br/>2. Static read-only graphics<br/>3. `original_diagram_path` snapshot + `badge_image_catalog` + 11 styles (`Auto (Content-Aware Mix)`) + `include_humans` + `$0.08` consent gate | **Option 3**: Preserves original and hero graphics on cache clear, supports `$0.00` local uploads and 12-result Wikimedia search, and enforces a `$0.08` consent + prompt verification check for Nano Banana. |
 | **ADR-08** | **Authentication and resilience** | 1. Mandatory JWT on laptop<br/>2. Open Cloud Run ingress<br/>3. `verify_caller_auth` + `CircuitBreaker` fallback | **Option 3**: Enforces `AUTH_REQUIRED=true` and VPC/WAF in Cloud Run while keeping local laptop runs zero-config. |
+| **ADR-09** | **Unified FastAPI Material 3 Counselor Workbench** | 1. Dual Streamlit (`:8501`) + FastAPI (`:8085`) UIs<br/>2. Streamlit only<br/>3. Unified FastAPI Material 3 Counselor Workbench (`src/server.py` + `ui/`) | **Option 3**: Retires the secondary Streamlit script and consolidates all 53 pytest tests, 3 construction animations, Fullscreen stage (`F`), 3-Tab Under-Stage Drawer, and Field Toolkit onto a single responsive workbench. |
