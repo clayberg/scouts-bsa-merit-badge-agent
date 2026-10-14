@@ -46,6 +46,26 @@ from src.schemas import (
 AI_ILLUSTRATIONS_DIR: Path = ASSETS_DIR / "ai_illustrations"
 AI_ILLUSTRATIONS_DIR.mkdir(parents=True, exist_ok=True)
 
+_NANO_BANANA_CATALOG_CACHE: Optional[Dict[str, Any]] = None
+
+
+def _get_nano_banana_catalog() -> Dict[str, Any]:
+    global _NANO_BANANA_CATALOG_CACHE
+    if _NANO_BANANA_CATALOG_CACHE is not None:
+        return _NANO_BANANA_CATALOG_CACHE
+    nano_cat_file = AI_ILLUSTRATIONS_DIR.parent.parent / "data" / "nano_banana_image_catalog.json"
+    if nano_cat_file.exists():
+        try:
+            import json as _json
+            loaded = _json.loads(nano_cat_file.read_text(encoding="utf-8"))
+            if isinstance(loaded, dict):
+                _NANO_BANANA_CATALOG_CACHE = loaded
+                return _NANO_BANANA_CATALOG_CACHE
+        except Exception:
+            pass
+    _NANO_BANANA_CATALOG_CACHE = {}
+    return _NANO_BANANA_CATALOG_CACHE
+
 _VISUAL_THEMES = [
     "MAGAZINE_ASYMMETRIC_SPLIT",
     "THREE_PILLAR_ACCENT_CARDS",
@@ -526,6 +546,7 @@ def beautify_slide_storyboard(
     seen_hero_reqs: set = set()
     injected_local_reqs: set = set()
     used_diagram_md5s: Dict[str, int] = {}
+    seen_visual_captions: set = set()
 
     def _file_md5(path_str: Optional[str]) -> str:
         if not path_str:
@@ -766,84 +787,22 @@ def beautify_slide_storyboard(
                 if ill_res.get("hero_source") == "NANO_BANANA_AI":
                     slide["visual_source_label"] = "🍌 Nano Banana Hero"
                     hero_fname = Path(ai_path).name
-                    _NANO_HERO_CAPTIONS = {
-                        "first_aid_req_1_nano_hero.png": "Two uniformed Scouts wearing exam gloves performing a trail scene size-up and responsiveness check with a first-aid kit.",
-                        "first_aid_req_2_nano_hero.png": "Scouts reviewing an emergency medical checklist and inspecting a stocked troop first-aid kit at camp.",
-                        "first_aid_req_3_nano_hero.png": "Scout instructor wearing sterile gloves demonstrating how to clean and bandage a minor forearm wound in the field.",
-                        "first_aid_req_4_nano_hero.png": "(Left) Direct gauze pressure on a bleeding wound; (Center) Windlass tourniquet application; (Right) Shock thermal blanket care.",
-                        "first_aid_req_5_nano_hero.png": "Scouts practicing recognizing the universal choking sign and positioning for back blows and abdominal thrusts.",
-                        "first_aid_req_6_nano_hero.png": "Scouts assessing an unresponsive hiker's airway and breathing before rolling them into the side-lying recovery position.",
-                        "first_aid_req_7_nano_hero.png": "Scouts performing chest compressions on a CPR training manikin alongside an Automated External Defibrillator (AED).",
-                        "first_aid_req_8_nano_hero.png": "Immobilizing a lower-arm injury with a padded wooden board splint and roller bandage while checking distal circulation.",
-                        "first_aid_req_9_nano_hero.png": "Applying manual in-line cervical spine stabilization and checking spinal alignment on a trauma training manikin.",
-                        "first_aid_req_10_nano_hero.png": "Four Scouts coordinating a balanced lift and carry using an improvised two-spar and blanket stretcher.",
-                        "first_aid_req_11_nano_hero.png": "(Left) Cooling an overheated Scout in shade with water; (Right) Insulating a shivering hypothermic Scout in a thermal blanket.",
-                        "first_aid_req_12_nano_hero.png": "Adult Scout leader and buddy practicing calm, empathetic active listening and peer support with a distressed Scout at camp.",
-                        "first_aid_req_13_nano_hero.png": "Scouts checking blood glucose with a glucometer and caring for a hiker experiencing a diabetic medical emergency.",
-                        "first_aid_req_14_nano_hero.png": "Older Scout instructor using the EDGE method to guide younger Scouts in applying a forearm splint and arm sling.",
-                        "first_aid_req_15_nano_hero.png": "(Left) EMS paramedic beside an ambulance; (Center) Wilderness mountain rescue medic; (Right) ER physician and nurse mentoring a Scout.",
-                        "citizenship_in_the_nation_req_1_nano_hero.png": "Scales of justice, gavel, naturalization oath ceremony, and the U.S. Capitol symbolizing constitutional rights and equal protection.",
-                        "citizenship_in_the_nation_req_2_nano_hero.png": "Six panels illustrating the Preamble's six purposes: national union, justice, domestic peace, common defense, public welfare, and liberty.",
-                        "citizenship_in_the_nation_req_3_nano_hero.png": "Constitutional separation of powers connecting the U.S. Capitol (Legislative), White House (Executive), and Supreme Court (Judicial).",
-                        "citizenship_in_the_nation_req_4_nano_hero.png": "Founding charters of freedom: quill pen and inkwell, sealed parchment scrolls, the Liberty Bell, and Independence Hall.",
-                        "citizenship_in_the_nation_req_5_nano_hero.png": "Uniformed Scout at a desk comparing daily national newspaper coverage with a live U.S. Capitol broadcast and study notes.",
-                        "citizenship_in_the_nation_req_6_nano_hero.png": "(Left) George Washington addressing delegates in an 18th-century hall; (Right) Abraham Lincoln speaking before citizens at Gettysburg.",
-                        "citizenship_in_the_nation_req_7_nano_hero.png": "Three tiers of American government: a local brick town hall, a golden-domed state capitol, and the white U.S. Capitol dome.",
-                        "citizenship_in_the_nation_req_8_nano_hero.png": "Uniformed Scout writing a formal constituent letter at a desk beside a U.S. map and postal mailbox before the Capitol.",
-                        "cooking_req_1_nano_hero.png": "Four-panel camp kitchen safety: cooling a burn under water, claw-grip chopping, ice-packed cooler, and smothering a pan grease fire.",
-                        "cooking_req_2_nano_hero.png": "Balanced USDA MyPlate camp meal showing fruits, vegetables, whole grains, lean protein, and dairy beside a water bottle.",
-                        "cooking_req_3_nano_hero.png": "Five camp cooking methods: boiling pasta, Dutch oven baking, stove simmering, aluminum foil steaming, and skillet pan-frying.",
-                        "cooking_req_4_nano_hero.png": "Color-coded cutting boards for raw meat, poultry, produce, and bread alongside a camp handwashing station to prevent cross-contamination.",
-                        "cooking_req_5_nano_hero.png": "BSA three-pot dishwashing line: scraping plate scraps, hot soapy wash pot, clear warm rinse pot, and sanitizing pot with mesh dunk bag.",
-                        "cooking_req_6_nano_hero.png": "Ultralight canister backpacking stove boiling water in the foreground with a bear bag suspended between two pine trees in the background.",
-                        "cooking_req_7_nano_hero.png": "Professional chef and clinical nutritionist mentoring a uniformed Scout in a culinary kitchen with fresh ingredients.",
-                        "weather_req_1_nano_hero.png": "Four-panel weather impacts: crop farming in sun and rain, coastal sailing, aviation above a windsock, and outdoor crane construction.",
-                        "weather_req_2_nano_hero.png": "Four-panel severe weather safety: winter tent shelter, lightning crouch, climbing above a flash flood, and tornado cellar with radio.",
-                        "weather_req_3_nano_hero.png": "Backcountry campsite with a field manual, thermometer, compass, topo map, and NOAA Weather Radio as a distant thunderstorm approaches.",
-                        "weather_req_4_nano_hero.png": "(Left) Sinking high-pressure air over a clear-sky Scout camp; (Right) Advancing cold front lifting warm air into a cumulonimbus storm.",
-                        "weather_req_5_nano_hero.png": "Four-panel weather physics: coastal sea breeze, solar evaporation and rain clouds, mountain lightning bolt, and hailstone updrafts.",
-                        "weather_req_6_nano_hero.png": "Atmospheric cloud tiers over a mountain valley: wispy high cirrus, mid-level altocumulus, low cumulus, and rain-bearing cumulonimbus.",
-                        "weather_req_7_nano_hero.png": "Uniformed Scouts at a forest camp table demonstrating a tabletop terrarium water-cycle model alongside a hydrologic cycle diagram.",
-                        "weather_req_8_nano_hero.png": "Industrial smokestack emissions darkening the sky above an acid-stressed conifer forest, corroded metal sign, and weathered stone statue.",
-                        "weather_req_9_nano_hero.png": "Counselor and uniformed Scouts using a tilted tripod-mounted globe and light source to demonstrate solar heating across latitudes.",
-                        "weather_req_10_nano_hero.png": "Scouts and counselor at a camp workbench assembling a homemade cup anemometer, wooden wind vane, and rain gauge with a weather log.",
-                        "weather_req_11_nano_hero.png": "Uniformed Scout standing beside a tripod weather station and radar display, delivering an outdoor weather safety briefing to the troop.",
-                        "weather_req_12_nano_hero.png": "Meteorologist demonstrating an instrument shelter, anemometer, mobile Doppler radar, and synoptic weather map to uniformed Scouts.",
-                        "weather_req_2_topic_visual.png": "(Left) Climbing above a canyon flash flood; (Center) Tornado funnel and storm cellar; (Right) Coastal hurricane winds and storm surge.",
-                        "weather_req_5_topic_visual.png": "Precipitation Formation: Solar lake evaporation rising into a cumulus cloud, droplet collision-coalescence on nuclei, and valley rainfall.",
-                        "weather_req_7_topic_visual.png": "Hydrologic Moisture Cycle: Solar ocean evaporation and forest transpiration rising up a mountain slope to condense into rain clouds.",
-                        "weather_req_8_topic_visual.png": "(Left) Factory and vehicle exhaust plumes; (Center) Cloud droplet chemical reaction inset; (Right) Acidic rain on mountain pines and lake.",
-                        "weather_req_9_topic_visual.png": "Solar Incidence Angles: Concentrated perpendicular rays at the Equator, angled mid-latitude rays, and grazing oblique rays at the Poles.",
-                        "weather_req_11_topic_visual.png": "Outdoor Safety Briefing: Uniformed Scout at a campsite easel pointing to a weather hazard flip-chart while addressing his patrol.",
-                        "first_aid_req_12_topic_visual.png": "Four-panel Mental Health First Aid: noticing a distressed peer, Two-Deep supportive listening, calm breathing reassurance, and connecting with an adult leader.",
-                        "first_aid_req_14_topic_visual.png": "Four-panel BSA EDGE First Aid instruction: explaining anatomy on a chart, demonstrating forearm splinting, guiding cravat practice, and enabling independent care.",
-                        "first_aid_req_15_topic_visual.png": "(Left) Scout interviewing an EMS paramedic by an ambulance; (Center) Wilderness mountain rescue litter team; (Right) ER nurse and physician mentoring a Scout.",
-                    }
                     from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
 
-                    if hero_fname in _NANO_HERO_CAPTIONS:
-                        slide["visual_caption"] = _NANO_HERO_CAPTIONS[hero_fname]
+                    nc_map = _get_nano_banana_catalog()
+                    cat_cap = ""
+                    if hero_fname in nc_map:
+                        cat_cap = strip_pamphlet_and_req_caption_prefixes(
+                            str(nc_map[hero_fname].get("caption") or ""), badge_name
+                        )
+                    if cat_cap:
+                        slide["visual_caption"] = cat_cap
                     else:
-                        nano_cat_file = AI_ILLUSTRATIONS_DIR.parent.parent / "data" / "nano_banana_image_catalog.json"
-                        cat_cap = ""
-                        if nano_cat_file.exists():
-                            try:
-                                import json as _json
-                                nc_map = _json.loads(nano_cat_file.read_text(encoding="utf-8"))
-                                if isinstance(nc_map, dict) and hero_fname in nc_map:
-                                    cat_cap = strip_pamphlet_and_req_caption_prefixes(
-                                        str(nc_map[hero_fname].get("caption") or ""), badge_name
-                                    )
-                            except Exception:
-                                pass
-                        if cat_cap:
-                            slide["visual_caption"] = cat_cap
+                        raw_vc = str(slide.get("visual_caption") or "")
+                        if not raw_vc or "EDGE Skill Concept Map" in raw_vc or raw_vc.lower().startswith("requirement "):
+                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(title, badge_name)
                         else:
-                            raw_vc = str(slide.get("visual_caption") or "")
-                            if not raw_vc or "EDGE Skill Concept Map" in raw_vc or raw_vc.lower().startswith("requirement "):
-                                slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(title, badge_name)
-                            else:
-                                slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(raw_vc, badge_name)
+                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(raw_vc, badge_name)
                 else:
                     from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
 
@@ -881,15 +840,23 @@ def beautify_slide_storyboard(
                 "first_aid_req_15_topic_visual.png",
             ):
                 _topic_override_caps = {
-                    "first_aid_req_12_topic_visual.png": "Four-panel Mental Health First Aid: noticing a distressed peer, Two-Deep supportive listening, calm breathing reassurance, and connecting with an adult leader.",
-                    "first_aid_req_14_topic_visual.png": "Four-panel BSA EDGE First Aid instruction: explaining anatomy on a chart, demonstrating forearm splinting, guiding cravat practice, and enabling independent care.",
+                    "first_aid_req_12_topic_visual.png": "Four-panel Mental Health First Aid showing noticing a distressed peer, Two-Deep supportive listening, calm breathing reassurance, and connecting with an adult leader.",
+                    "first_aid_req_14_topic_visual.png": "Four-panel BSA EDGE First Aid instruction showing explaining anatomy on a chart, demonstrating forearm splinting, guiding cravat practice, and enabling independent care.",
                     "first_aid_req_15_topic_visual.png": "(Left) Scout interviewing an EMS paramedic by an ambulance; (Center) Wilderness mountain rescue litter team; (Right) ER nurse and physician mentoring a Scout.",
                 }
                 slide["visual_caption"] = _topic_override_caps[cur_diag_fname]
+            elif "ai_illustrations" in str(cur_diag):
+                nc_map = _get_nano_banana_catalog()
+                if cur_diag_fname in nc_map:
+                    cat_c = strip_pamphlet_and_req_caption_prefixes(
+                        str(nc_map[cur_diag_fname].get("caption") or ""), badge_name
+                    )
+                    if cat_c:
+                        slide["visual_caption"] = cat_c
             cur_md5 = _file_md5(str(cur_diag))
             if cur_md5:
                 if used_diagram_md5s.get(cur_md5, 0) >= 1 and not is_req_lead_slide:
-                    # Only replace a duplicate image on a non-intro slide if a verified pamphlet image for THIS requirement exists
+                    # Only replace a duplicate image on a non-intro slide if a verified pamphlet image or topic_visual for THIS requirement exists
                     pamphlet_dir = AI_ILLUSTRATIONS_DIR.parent / "pamphlet_images"
                     catalog = _load_pamphlet_image_catalog()
                     replacement_found = False
@@ -897,20 +864,21 @@ def beautify_slide_storyboard(
                         for fname, entry in catalog.items():
                             if not fname.startswith(f"{badge_slug_check}_p"):
                                 continue
-                            if str(entry.get("req_number") or "").strip() == str(base_req_num).strip() and not entry.get("discard"):
+                            allowed_r = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
+                            if (str(entry.get("req_number") or "").strip() == str(base_req_num).strip() or str(base_req_num).strip() in allowed_r) and not entry.get("discard"):
                                 cand = pamphlet_dir / fname
                                 if not cand.exists():
                                     continue
                                 cand_md5 = _file_md5(str(cand))
-                                if cand_md5 and used_diagram_md5s.get(cand_md5, 0) == 0:
-                                    composed_rep = _compose_pamphlet_visual_card(
-                                        raw_img_path=cand,
-                                        badge_name=badge_name,
-                                        req_number=f"{req_num}_rep_{idx}",
-                                        topic_title=str(entry.get("topic") or title),
-                                        pamphlet_page=idx,
-                                    )
-                                    comp_rep_md5 = _file_md5(str(composed_rep))
+                                composed_rep = _compose_pamphlet_visual_card(
+                                    raw_img_path=cand,
+                                    badge_name=badge_name,
+                                    req_number=f"{req_num}_rep_{idx}",
+                                    topic_title=str(entry.get("topic") or title),
+                                    pamphlet_page=idx,
+                                )
+                                comp_rep_md5 = _file_md5(str(composed_rep))
+                                if cand_md5 and used_diagram_md5s.get(cand_md5, 0) == 0 and (not comp_rep_md5 or used_diagram_md5s.get(comp_rep_md5, 0) == 0):
                                     slide["diagram_path"] = str(composed_rep)
                                     slide["ai_hero_image_path"] = None
                                     slide["visual_source_label"] = "BSA Handbook Visual"
@@ -923,12 +891,75 @@ def beautify_slide_storyboard(
                                     replacement_found = True
                                     break
                     if not replacement_found:
+                        cand_tv = AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{base_req_num}_topic_visual.png"
+                        if cand_tv.exists() and cand_tv.stat().st_size >= 35_000:
+                            tv_md5 = _file_md5(str(cand_tv))
+                            if tv_md5 and used_diagram_md5s.get(tv_md5, 0) == 0:
+                                slide["diagram_path"] = str(cand_tv)
+                                slide["ai_hero_image_path"] = str(cand_tv)
+                                slide["visual_source_label"] = "🍌 Nano Banana Visual"
+                                used_diagram_md5s[tv_md5] = 1
+                                replacement_found = True
+                                nc_map = _get_nano_banana_catalog()
+                                if cand_tv.name in nc_map:
+                                    slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
+                                        str(nc_map[cand_tv.name].get("caption") or title), badge_name
+                                    )
+                    if not replacement_found:
                         slide["diagram_path"] = None
                         slide["ai_hero_image_path"] = None
                         if slide.get("archetype") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
                             slide["archetype"] = "CONCEPT_TEXT_SLIDE"
                 else:
                     used_diagram_md5s[cur_md5] = used_diagram_md5s.get(cur_md5, 0) + 1
+
+        # Ensure every visual slide's caption is colon-free, complete, unique across the deck, and never duplicates a slide bullet
+        if slide.get("diagram_path"):
+            import re as _re
+            from src.tools.pamphlet_extractor import _ensure_complete_caption_sentence
+
+            raw_vc_final = str(slide.get("visual_caption") or "").strip()
+            if ":" in raw_vc_final:
+                if ": " in raw_vc_final:
+                    h_p, b_p = raw_vc_final.split(": ", 1)
+                    raw_vc_final = b_p.strip() if len(b_p.strip()) >= 24 else f"{h_p.strip()} — {b_p.strip()}"
+                raw_vc_final = raw_vc_final.replace(":", " — ")
+            raw_vc_final = _ensure_complete_caption_sentence(raw_vc_final, max_chars=125)
+            norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
+
+            overlaps_bullet = False
+            adj_slides = [slide] + ([slides[idx - 1]] if idx >= 1 else [])
+            for adj_s in adj_slides:
+                for b_item in adj_s.get("bullet_points") or []:
+                    norm_b = _re.sub(r"[^a-z0-9]+", " ", str(b_item).lower()).strip()
+                    if norm_b and (norm_vc == norm_b or (len(norm_vc) > 35 and norm_vc[:45] in norm_b)):
+                        overlaps_bullet = True
+                        break
+                if overlaps_bullet:
+                    break
+
+            if not norm_vc or norm_vc in seen_visual_captions or overlaps_bullet:
+                clean_t = strip_pamphlet_and_req_caption_prefixes(title, badge_name).replace(":", " — ").strip(" .,-—")
+                clean_t = _re.sub(r"\s*—\s*(?:Core Principles & Field Reference|Field Visual & Key Principles)$", "", clean_t, flags=_re.IGNORECASE).strip()
+                if is_req_lead_slide:
+                    alt_cap = f"Scout and counselor field illustration for {clean_t} demonstrating Requirement {req_num} skills."
+                elif "topic_visual" in str(slide.get("diagram_path") or ""):
+                    alt_cap = f"Four-panel instructional breakdown of {clean_t} for Requirement {req_num} field practice."
+                else:
+                    alt_cap = f"Official {badge_name} field visual illustrating {clean_t} for Requirement {req_num}."
+                alt_cap = _ensure_complete_caption_sentence(alt_cap.replace(":", ""), max_chars=125)
+                norm_alt = _re.sub(r"[^a-z0-9]+", " ", alt_cap.lower()).strip()
+                if norm_alt in seen_visual_captions:
+                    alt_cap = _ensure_complete_caption_sentence(
+                        f"Field reference for {clean_t} on Slide {idx + 2} supporting Requirement {req_num} review.",
+                        max_chars=125,
+                    )
+                    norm_alt = _re.sub(r"[^a-z0-9]+", " ", alt_cap.lower()).strip()
+                raw_vc_final = alt_cap
+                norm_vc = norm_alt
+
+            seen_visual_captions.add(norm_vc)
+            slide["visual_caption"] = raw_vc_final
 
         if not slide.get("visual_source_label"):
             slide["visual_source_label"] = "BSA Handbook / Technical Diagram"

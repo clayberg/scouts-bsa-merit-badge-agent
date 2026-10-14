@@ -2531,7 +2531,7 @@ function renderActiveSlide(idx) {
       imgEl.style.maxHeight = "310px";
     }
     if (capEl) {
-      capEl.textContent = (slide.bullet_points && slide.bullet_points[0]) || slide.visual_caption || slide.title || "";
+      capEl.textContent = slide.visual_caption || (slide.bullet_points && slide.bullet_points[0]) || slide.title || "";
     }
   } else {
     if (leftZone) leftZone.style.display = "flex";

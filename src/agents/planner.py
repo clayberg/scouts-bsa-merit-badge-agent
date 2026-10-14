@@ -647,14 +647,6 @@ def generate_slide_storyboard(
                 "accent_color_hex": "#003F87",
             })
 
-    overview_pamphlet = summarize_pamphlet_for_requirement(
-        badge_name=clean_badge,
-        req_number="Overview",
-        req_text=f"{clean_badge} Merit Badge overview and core skills",
-        req_index=0,
-        total_reqs=max(1, len(requirements)),
-    )
-
     triage_bullets = [
         "; ".join(in_class_reqs[:4]) if in_class_reqs else "Core principles, definitions, and safety concepts",
         "; ".join(station_reqs[:4]) if station_reqs else "Practical hands-on demonstrations with your patrol",
@@ -681,7 +673,7 @@ def generate_slide_storyboard(
                 },
             ),
             safety_warning="Always follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System.",
-            diagram_path=overview_pamphlet.get("pamphlet_image_path"),
+            diagram_path=None,
             archetype=SlideArchetype.REQUIREMENTS_TRIAGE_MATRIX.value,
             req_number="Overview",
             execution_mode=ExecutionMode.IN_CLASS_DISCUSSION.value,

@@ -4246,11 +4246,13 @@ def enrich_requirement_point(
         req_text=req_text,
         req_index=idx,
         total_reqs=max(1, total_reqs),
-        used_image_paths=set(used_image_paths) if used_image_paths else set(),
+        used_image_paths=used_image_paths,
     )
     enriched.setdefault("topic_title", pamphlet_info.get("topic_title"))
     enriched.setdefault("pamphlet_citation", pamphlet_info.get("pamphlet_citation"))
     enriched.setdefault("pamphlet_pages", pamphlet_info.get("pamphlet_pages") or [])
+    if pamphlet_info.get("raw_pamphlet_image_path"):
+        enriched["raw_pamphlet_image_path"] = pamphlet_info["raw_pamphlet_image_path"]
     if pamphlet_info.get("pamphlet_image_path"):
         existing_img = str(enriched.get("pamphlet_image_path") or "")
         if not existing_img or "ai_illustrations" in existing_img:

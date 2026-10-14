@@ -1146,7 +1146,19 @@ def _render_right_visual_card(
         raw_cap,
         flags=re.IGNORECASE,
     ).strip()
-    raw_cap = _concise_card_body(raw_cap, max_words=24, max_chars=145)
+    m_opt_a_cap = re.match(
+        r"^(?:Four-panel\s+.+?\s+instructional\s+field\s+visual\s+illustrating\s+|.+?\s+handbook\s+illustration\s+depicting\s+)(.+)$",
+        raw_cap,
+        flags=re.IGNORECASE,
+    )
+    if m_opt_a_cap:
+        raw_cap = m_opt_a_cap.group(1).strip()
+        if ": " in raw_cap:
+            h_part, b_part = raw_cap.split(": ", 1)
+            if len(h_part) <= 50 and len(b_part) >= 24:
+                raw_cap = b_part.strip()
+        if raw_cap and raw_cap[0].islower():
+            raw_cap = raw_cap[0].upper() + raw_cap[1:]
 
     cap_box = slide.shapes.add_textbox(
         Inches(7.14),
@@ -1161,19 +1173,18 @@ def _render_right_visual_card(
     captf.margin_bottom = Inches(0.02)
     captf.margin_left = Inches(0.06)
     captf.margin_right = Inches(0.06)
-    cap_anchor, cap_body = _split_anchor_and_body(raw_cap, "")
     cap_font_pt = _compute_fitting_font_size(
         [raw_cap],
         box_w_in=5.45,
         box_h_in=cap_h,
-        min_pt=12.5,
-        max_pt=15.5,
+        min_pt=12.0,
+        max_pt=15.0,
         space_after_pt=0.0,
     )
     _set_paragraph_runs(
         captf.paragraphs[0],
-        cap_anchor,
-        cap_body,
+        "",
+        raw_cap,
         font_size_pt=cap_font_pt,
         anchor_rgb=anchor_rgb,
         body_rgb=body_rgb,

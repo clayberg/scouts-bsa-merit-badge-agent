@@ -219,8 +219,70 @@ def _is_discardable_pamphlet_image(img_path: Path, page_num: int = 0, page_count
     return False
 
 
+def _badge_stem_roots(badge_name: str) -> List[str]:
+    """Returns lowercase morphological roots for the badge name so generic badge words don't bias page matching."""
+    roots: List[str] = []
+    for w in re.findall(r"[a-z]{4,}", str(badge_name or "").lower()):
+        if w in {"personal", "american", "citizenship", "national", "science", "environmental", "first", "emergency"}:
+            roots.append(w)
+            continue
+        stem = w
+        for suf in ("tions", "tion", "ings", "ing", "ments", "ment", "ness", "ers", "ors", "ies", "es", "ed", "er", "or", "ic", "al", "s"):
+            if stem.endswith(suf) and len(stem) - len(suf) >= 4:
+                stem = stem[: -len(suf)]
+                break
+        roots.append(stem[:6] if len(stem) >= 6 else stem)
+    return roots
+
+
+def _ensure_complete_caption_sentence(text: str, max_chars: int = 125) -> str:
+    """Ensures a caption is a complete, natural sentence without mid-clause truncation or dangling stopwords."""
+    s = re.sub(r"\s+", " ", str(text or "")).strip()
+    if not s:
+        return ""
+    # Strip leading "Heading: " prefix if the remainder is a full sentence
+    if ": " in s:
+        head, tail = s.split(": ", 1)
+        if len(head) <= 45 and len(tail) >= 28 and tail[0].isupper():
+            s = tail.strip()
+    if len(s) > max_chars:
+        # Prefer splitting at a natural clause boundary before max_chars
+        window = s[:max_chars]
+        for sep in (". ", "; ", " — ", " – ", ", which ", ", where ", ", while ", ", although ", ", because ", ", and ", ", or "):
+            pos = window.rfind(sep)
+            if pos >= 42:
+                s = window[:pos].strip()
+                break
+        else:
+            s = window.rsplit(" ", 1)[0].strip()
+    s = s.rstrip(" ,;:-—")
+    # Remove any trailing dangling prepositions, articles, conjunctions, or auxiliaries
+    dangling = {
+        "a", "an", "the", "of", "in", "to", "for", "with", "on", "at", "from", "by", "about",
+        "as", "into", "like", "through", "after", "over", "between", "out", "against", "during",
+        "without", "before", "under", "around", "among", "and", "or", "but", "nor", "so", "yet",
+        "because", "although", "since", "unless", "while", "where", "when", "that", "which", "who",
+        "whom", "whose", "whether", "there", "their", "these", "those", "this", "other", "such",
+        "can", "could", "may", "might", "must", "shall", "should", "will", "would", "is", "are",
+        "was", "were", "be", "been", "being", "have", "has", "had", "do", "does", "did", "very",
+        "more", "most", "some", "any", "each", "every", "either", "neither", "both", "all",
+        "many", "much", "few", "several", "own", "same", "than", "too", "also", "just", "only",
+        "put", "get", "make", "take", "keep", "stay", "top", "help", "need", "use", "using",
+        "simple", "physical", "great", "two", "three", "four", "five",
+    }
+    words = s.split()
+    while len(words) > 4 and re.sub(r"[^a-z]", "", words[-1].lower()) in dangling:
+        words.pop()
+    s = " ".join(words).rstrip(" ,;:-—")
+    if s and s[0].islower():
+        s = s[0].upper() + s[1:]
+    if s and not s.endswith((".", "!", "?")):
+        s += "."
+    return s
+
+
 def strip_pamphlet_and_req_caption_prefixes(caption: str, badge_name: str = "") -> str:
-    """Removes 'Official <Badge> Pamphlet Figure', '<Badge> Pamphlet Reference', and 'Requirement #' prefixes from captions."""
+    """Removes 'Official <Badge> Pamphlet Figure', '<Badge> handbook illustration depicting', and 'Requirement #' prefixes."""
     s = re.sub(r"\s+", " ", str(caption or "")).strip()
     if not s:
         return ""
@@ -230,6 +292,18 @@ def strip_pamphlet_and_req_caption_prefixes(caption: str, badge_name: str = "") 
         s,
         flags=re.IGNORECASE,
     ).strip()
+    # Strip Option A boilerplate prefixes: "<Badge> handbook illustration depicting ..." and "Four-panel <Badge> instructional field visual illustrating ..."
+    m_opt_a = re.match(
+        r"^(?:Four-panel\s+.+?\s+instructional\s+field\s+visual\s+illustrating\s+|.+?\s+handbook\s+illustration\s+depicting\s+)(.+)$",
+        s,
+        flags=re.IGNORECASE,
+    )
+    if m_opt_a:
+        s = m_opt_a.group(1).strip()
+        if ": " in s:
+            head_part, body_part = s.split(": ", 1)
+            if len(head_part) <= 50 and len(body_part) >= 24:
+                s = body_part.strip()
     s = re.sub(
         r"^(?:Official\s+(?:BSA\s+|Scouting\s+America\s+)?[^—\-:]{2,45}?\s*Pamphlet\s+(?:Figure|Reference|Visual|Diagram)\s*[—\-:]\s*)",
         "",
@@ -252,6 +326,8 @@ def strip_pamphlet_and_req_caption_prefixes(caption: str, badge_name: str = "") 
         ).strip()
     s = re.sub(r"^Visual\s+Reference\s*[—\-:]\s*", "", s, flags=re.IGNORECASE).strip()
     s = re.sub(r"^(?:Requirement|Req\.?)\s+[0-9a-zA-Z().\-]+\s*[:—\-]\s*", "", s, flags=re.IGNORECASE).strip()
+    if s and s[0].islower():
+        s = s[0].upper() + s[1:]
     return s
 
 
@@ -278,11 +354,12 @@ def analyze_and_match_pamphlet_image(
             return None
         cat_req = str(cat_entry.get("req_number") or "").strip()
         clean_req = re.sub(r"[a-zA-Z]+$", "", str(req_number or "")).strip()
-        # If caller asked for a specific requirement, only accept catalog images paired with that requirement
-        if clean_req and cat_req and cat_req != clean_req:
+        # Accept catalog entry if it matches clean_req, or if allowed_reqs contains clean_req, or if cat_req is wildcard/empty
+        allowed_reqs = [str(r).strip() for r in (cat_entry.get("req_numbers") or []) if str(r).strip()]
+        if clean_req and cat_req and cat_req != clean_req and clean_req not in allowed_reqs:
             return None
         return {
-            "req_number": cat_req or clean_req,
+            "req_number": clean_req or cat_req,
             "caption": strip_pamphlet_and_req_caption_prefixes(str(cat_entry.get("caption") or ""), badge_name),
             "topic": str(cat_entry.get("topic") or topic_title),
         }
@@ -299,39 +376,64 @@ def analyze_and_match_pamphlet_image(
     if any(skip_w in page_heading.lower() for skip_w in ("glossary", "index", "acknowledgments", "photo credits", "resources")):
         return None
 
+    badge_roots = _badge_stem_roots(badge_name)
     stop_w = {
         "explain", "describe", "discuss", "demonstrate", "show", "counselor", "scout", "scouts",
-        "merit", "badge", "following", "requirement", "including", "using", "their", "about",
+        "merit", "badge", "following", "requirement", "requirements", "including", "using", "their", "about",
         "would", "should", "could", "which", "where", "while", "under", "least", "three",
+        "short", "written", "report", "outline", "knowledge", "plans", "continue", "commonly",
+        "before", "after", "completing", "complete", "through", "between", "during",
     }
     req_words = {
         w for w in re.findall(r"[a-z]{4,}", f"{topic_title} {req_text}".lower())
-        if w not in stop_w
+        if w not in stop_w and not any(w.startswith(rt) for rt in badge_roots)
     }
     page_words = set(re.findall(r"[a-z]{4,}", f"{page_heading} {page_text}".lower()))
     overlap = req_words.intersection(page_words)
     if req_words and len(overlap) == 0:
         return None
 
-    # Extract a descriptive context-specific caption from the page's teaching points
-    page_pts = _extract_clean_teaching_points_from_pages(pages_map, [page_num], badge_name, max_points=3)
-    if page_pts:
-        raw_cap = page_pts[0]
-        if ": " in raw_cap:
-            _, body_part = raw_cap.split(": ", 1)
-            raw_cap = f"{page_heading}: {body_part}" if page_heading and len(page_heading) <= 36 else body_part
-    elif page_heading:
-        raw_cap = f"{page_heading} field illustration from the {badge_name} handbook."
-    else:
-        raw_cap = strip_pamphlet_and_req_caption_prefixes(topic_title, badge_name)
+    # Extract a descriptive context-specific caption that NEVER duplicates the first 4 slide bullets (page_pts[0..3])
+    page_pts = _extract_clean_teaching_points_from_pages(pages_map, [page_num], badge_name, max_points=7)
+    clean_topic = strip_pamphlet_and_req_caption_prefixes(topic_title, badge_name).rstrip(".")
+    clean_head = re.sub(r"[^A-Za-z0-9 ,'\-/()&]+", " ", page_heading).strip(" .,-:")
+    clean_head = re.sub(r"^\d+\s+", "", clean_head).strip(" .,-:")
+    if clean_head.lower() in {badge_name.lower(), clean_topic.lower(), "contents", "introduction"}:
+        clean_head = ""
 
-    clean_cap = strip_pamphlet_and_req_caption_prefixes(raw_cap, badge_name)
-    if len(clean_cap) > 130:
-        clean_cap = clean_cap[:127].rsplit(" ", 1)[0].rstrip(",;:") + "."
+    raw_cap = ""
+    if len(page_pts) >= 5:
+        img_ord = 0
+        m_ord = re.search(r"_img(\d+)\.png$", img_path.name)
+        if m_ord:
+            img_ord = max(0, int(m_ord.group(1)) - 1)
+        cand_pt = page_pts[min(len(page_pts) - 1, 4 + img_ord)]
+        if ": " in cand_pt:
+            _, cand_pt = cand_pt.split(": ", 1)
+        # Reject OCR fragments with mid-sentence lowercase period splits like "Beginning. race,"
+        if not re.search(r"\.\s+[a-z]", cand_pt):
+            raw_cap = cand_pt
+
+    if not raw_cap:
+        kw_sample = sorted(overlap, key=lambda w: (-len(w), w))[:3]
+        kw_phrase = ", ".join(kw_sample[:2]) + (f", and {kw_sample[2]}" if len(kw_sample) >= 3 else "")
+        if clean_head and kw_phrase:
+            raw_cap = f"Field reference for {clean_head.lower()} illustrating {kw_phrase} in {clean_topic.lower()}."
+        elif clean_head:
+            raw_cap = f"Field visual for {clean_head} supporting {clean_topic.lower()} technique and inspection."
+        elif kw_phrase:
+            raw_cap = f"Visual reference for {clean_topic.lower()} highlighting {kw_phrase} during field practice."
+        else:
+            raw_cap = f"Visual reference for {clean_topic} demonstrating proper field technique and inspection."
+
+    clean_cap = _ensure_complete_caption_sentence(
+        strip_pamphlet_and_req_caption_prefixes(raw_cap, badge_name),
+        max_chars=120,
+    )
     return {
         "req_number": str(req_number or ""),
         "caption": clean_cap,
-        "topic": page_heading or strip_pamphlet_and_req_caption_prefixes(topic_title, badge_name),
+        "topic": page_heading or clean_topic,
     }
 
 
@@ -459,6 +561,42 @@ def build_pamphlet_index(badge_name: str) -> Dict[str, Any]:
             "all_images": [],
         }
 
+    disk_cache_file = PAMPHLETS_DIR / f"{slug}_index_v1.json"
+    if disk_cache_file.exists() and disk_cache_file.stat().st_size > 500:
+        try:
+            raw_cached = json.loads(disk_cache_file.read_text(encoding="utf-8"))
+            pages_restored: Dict[int, Dict[str, Any]] = {}
+            all_imgs_restored: List[Tuple[int, Path]] = []
+            for p_k, p_val in (raw_cached.get("pages") or {}).items():
+                p_num_i = int(p_k)
+                im_paths = [
+                    Path(ip) for ip in (p_val.get("images") or [])
+                    if Path(ip).exists() and not _is_discardable_pamphlet_image(Path(ip), page_num=p_num_i, page_count=int(raw_cached.get("page_count") or 100))
+                ]
+                for im_p in im_paths:
+                    all_imgs_restored.append((p_num_i, im_p))
+                pages_restored[p_num_i] = {
+                    "pdf_page": p_num_i,
+                    "heading": p_val.get("heading", ""),
+                    "text": p_val.get("text", ""),
+                    "lines": p_val.get("lines", []),
+                    "images": im_paths,
+                }
+            index_obj = {
+                "badge_name": badge_name,
+                "slug": slug,
+                "pdf_path": pdf_path,
+                "pdf_url": pdf_url,
+                "page_count": int(raw_cached.get("page_count") or len(pages_restored)),
+                "toc_entries": raw_cached.get("toc_entries") or [],
+                "pages": pages_restored,
+                "all_images": all_imgs_restored,
+            }
+            _PAMPHLET_INDEX_CACHE[slug] = index_obj
+            return index_obj
+        except Exception:
+            pass
+
     reader = PdfReader(str(pdf_path))
     page_images_map = _extract_pamphlet_images_for_pdf(pdf_path, slug, reader)
 
@@ -466,13 +604,32 @@ def build_pamphlet_index(badge_name: str) -> Dict[str, Any]:
     toc_entries: List[Dict[str, Any]] = []
     all_images: List[Tuple[int, Path]] = []
 
+    pdftotext_pages: Optional[List[str]] = None
+    try:
+        proc = subprocess.run(
+            ["pdftotext", str(pdf_path), "-"],
+            capture_output=True,
+            text=True,
+            timeout=20,
+            check=False,
+        )
+        if proc.returncode == 0 and proc.stdout:
+            split_p = proc.stdout.split("\x0c")
+            if len(split_p) >= len(reader.pages):
+                pdftotext_pages = split_p
+    except Exception:
+        pdftotext_pages = None
+
     for idx, page in enumerate(reader.pages):
         p_num = idx + 1
         raw_txt = ""
-        try:
-            raw_txt = page.extract_text() or ""
-        except Exception:
-            raw_txt = ""
+        if pdftotext_pages is not None and idx < len(pdftotext_pages):
+            raw_txt = pdftotext_pages[idx] or ""
+        else:
+            try:
+                raw_txt = page.extract_text() or ""
+            except Exception:
+                raw_txt = ""
         clean_txt = _clean_pdf_text(raw_txt, badge_name=badge_name)
         lines = [ln.strip() for ln in clean_txt.splitlines() if ln.strip()]
 
@@ -508,6 +665,32 @@ def build_pamphlet_index(badge_name: str) -> Dict[str, Any]:
             "lines": lines,
             "images": imgs_on_page,
         }
+
+    try:
+        serializable_pages = {
+            str(k): {
+                "pdf_page": v["pdf_page"],
+                "heading": v["heading"],
+                "text": v["text"],
+                "lines": v["lines"],
+                "images": [str(ip) for ip in v["images"]],
+            }
+            for k, v in pages_data.items()
+        }
+        disk_cache_file.write_text(
+            json.dumps(
+                {
+                    "badge_name": badge_name,
+                    "slug": slug,
+                    "page_count": len(reader.pages),
+                    "toc_entries": toc_entries,
+                    "pages": serializable_pages,
+                }
+            ),
+            encoding="utf-8",
+        )
+    except Exception:
+        pass
 
     index_obj = {
         "badge_name": badge_name,
@@ -741,17 +924,19 @@ def summarize_pamphlet_for_requirement(
     page_count: int = p_index.get("page_count", 0)
     slug = _badge_slug(badge_name)
 
+    badge_roots = _badge_stem_roots(badge_name)
     stop_words = {
         "explain", "describe", "discuss", "demonstrate", "show", "tell", "following",
         "your", "counselor", "with", "what", "when", "where", "which", "that", "this",
         "from", "have", "make", "list", "least", "three", "four", "five", "about",
         "how", "why", "would", "should", "could", "must", "including", "such", "other",
         "person", "scout", "scouts", "merit", "badge", "pamphlet", "requirement",
+        "short", "written", "report", "outline", "knowledge", "plans", "continue", "commonly",
     }
     words = [
         w.lower()
         for w in re.findall(r"[A-Za-z]{4,}", req_text)
-        if w.lower() not in stop_words
+        if w.lower() not in stop_words and not any(w.lower().startswith(rt) for rt in badge_roots)
     ]
 
     best_pages: List[int] = []
@@ -774,7 +959,7 @@ def summarize_pamphlet_for_requirement(
                 if w in txt_lower:
                     score += 1.5
             if p_info["images"]:
-                score += 1.0
+                score += 0.5
             if score > 0:
                 scored.append((score, p_num))
         scored.sort(key=lambda x: (-x[0], x[1]))
@@ -802,14 +987,19 @@ def summarize_pamphlet_for_requirement(
     for fname, entry in catalog.items():
         if not fname.startswith(f"{slug}_p"):
             continue
-        if str(entry.get("req_number") or "").strip() == clean_req_num and not entry.get("discard"):
+        allowed_reqs = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
+        if (str(entry.get("req_number") or "").strip() == clean_req_num or clean_req_num in allowed_reqs) and not entry.get("discard"):
             cand_path = PAMPHLET_IMAGES_DIR / fname
-            if cand_path.exists() and str(cand_path) not in used_image_paths:
+            cand_md5 = _raw_file_md5(cand_path) if cand_path.exists() else ""
+            if (
+                cand_path.exists()
+                and str(cand_path) not in used_image_paths
+                and (not cand_md5 or f"md5:{cand_md5}" not in used_image_paths)
+            ):
                 chosen_raw_img = cand_path
                 m_p = re.search(r"_p(\d+)_img", fname)
                 chosen_img_page = int(m_p.group(1)) if m_p else (best_pages[0] if best_pages else 1)
                 chosen_img_caption = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or ""), badge_name)
-                used_image_paths.add(str(cand_path))
                 break
 
     # 2. Otherwise search matched or nearby pages (within +/- 2 pages) and verify with analyze_and_match_pamphlet_image
@@ -825,7 +1015,12 @@ def summarize_pamphlet_for_requirement(
 
         for cand_p in search_pages:
             for img_path in (pages.get(cand_p) or {}).get("images", []):
-                if str(img_path) not in used_image_paths and img_path.exists():
+                cand_md5 = _raw_file_md5(img_path) if img_path.exists() else ""
+                if (
+                    str(img_path) not in used_image_paths
+                    and (not cand_md5 or f"md5:{cand_md5}" not in used_image_paths)
+                    and img_path.exists()
+                ):
                     match_info = analyze_and_match_pamphlet_image(
                         badge_name=badge_name,
                         img_path=img_path,
@@ -840,7 +1035,6 @@ def summarize_pamphlet_for_requirement(
                         chosen_raw_img = img_path
                         chosen_img_page = cand_p
                         chosen_img_caption = match_info["caption"]
-                        used_image_paths.add(str(img_path))
                         break
             if chosen_raw_img:
                 break
@@ -1190,15 +1384,21 @@ def _compose_pamphlet_visual_card(
     pamphlet_page: int,
 ) -> str:
     """Prepares a clean, transparent-background RGBA diagram or photograph for slide embedding
-    with a unique SHA-256 digest and zero artificial white letterbox/pillarbox canvas padding."""
+    with a deterministic source-image digest (so duplicate raw images share the exact same MD5)
+    and zero artificial white letterbox/pillarbox canvas padding."""
     slug = _badge_slug(badge_name)
     safe_req = re.sub(r"[^a-zA-Z0-9]+", "_", str(req_number)).strip("_")
     h_tag = hashlib.sha256(
-        f"v2_rgba_{slug}_{safe_req}_{raw_img_path.name}_{topic_title}_{pamphlet_page}".encode("utf-8")
+        f"v3_rgba_{slug}_{raw_img_path.name}".encode("utf-8")
     ).hexdigest()[:8]
     out_file = PAMPHLET_IMAGES_DIR / f"clean_visual_{slug}_req_{safe_req}_{h_tag}.png"
     if out_file.exists() and out_file.stat().st_size > 2_000:
         return str(out_file)
+    for sib in PAMPHLET_IMAGES_DIR.glob(f"clean_visual_{slug}_req_*_{h_tag}.png"):
+        if sib.exists() and sib.stat().st_size > 2_000:
+            import shutil
+            shutil.copyfile(str(sib), str(out_file))
+            return str(out_file)
 
     with Image.open(raw_img_path) as src_im:
         max_w, max_h = 1120, 740
@@ -1209,8 +1409,8 @@ def _compose_pamphlet_visual_card(
             cleaned_rgba = _strip_pamphlet_exterior_whitespace(pre_scaled)
             contained = ImageOps.contain(cleaned_rgba, (max_w, max_h), method=Image.Resampling.LANCZOS).convert("RGBA")
 
-        # Encode invisible 1-pixel deterministic hash at center pixel (or corner with preserved alpha)
-        # so every slide image has a unique SHA-256 digest without adding any visible artifact.
+        # Encode deterministic source-image hash at center pixel (independent of req_number)
+        # so two cards derived from the same raw pamphlet image have the exact same MD5 digest.
         cx, cy = contained.width // 2, contained.height // 2
         r0, g0, b0, a0 = contained.getpixel((cx, cy))
         r_tweak = (r0 ^ int(h_tag[0:2], 16)) if a0 > 0 else int(h_tag[0:2], 16)
@@ -1548,22 +1748,33 @@ def decompose_requirement_into_topic_slides(
     matched_pamphlet_items: List[Tuple[str, str, str, str]] = []
     seen_cand_keys: set = set()
     if pamphlet_img and Path(str(pamphlet_img)).exists():
-        p_raw_md5 = _raw_file_md5(pamphlet_img)
-        if str(pamphlet_img) not in used_image_paths and (not p_raw_md5 or f"md5:{p_raw_md5}" not in used_image_paths):
+        raw_src_str = str(req_dict.get("raw_pamphlet_image_path") or pamphlet_img)
+        p_raw_md5 = _raw_file_md5(raw_src_str) or _raw_file_md5(pamphlet_img)
+        p_comp_md5 = _raw_file_md5(pamphlet_img)
+        if (
+            str(pamphlet_img) not in used_image_paths
+            and raw_src_str not in used_image_paths
+            and (not p_raw_md5 or f"md5:{p_raw_md5}" not in used_image_paths)
+            and (not p_comp_md5 or f"md5:{p_comp_md5}" not in used_image_paths)
+        ):
             init_cap = strip_pamphlet_and_req_caption_prefixes(
                 str(req_dict.get("pamphlet_image_caption") or base_title),
                 badge_name,
             )
-            matched_pamphlet_items.append((str(pamphlet_img), init_cap, str(pamphlet_img), p_raw_md5))
+            matched_pamphlet_items.append((str(pamphlet_img), init_cap, raw_src_str, p_raw_md5))
             seen_cand_keys.add(str(pamphlet_img))
+            seen_cand_keys.add(raw_src_str)
             if p_raw_md5:
                 seen_cand_keys.add(f"md5:{p_raw_md5}")
+            if p_comp_md5:
+                seen_cand_keys.add(f"md5:{p_comp_md5}")
 
     # 1a. Check vision-verified catalog for additional images explicitly paired with this requirement
     for fname, entry in catalog.items():
         if not fname.startswith(f"{slug}_p"):
             continue
-        if str(entry.get("req_number") or "").strip() == clean_req_num and not entry.get("discard"):
+        allowed_reqs = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
+        if (str(entry.get("req_number") or "").strip() == clean_req_num or clean_req_num in allowed_reqs) and not entry.get("discard"):
             cand_img = PAMPHLET_IMAGES_DIR / fname
             if not cand_img.exists():
                 continue
