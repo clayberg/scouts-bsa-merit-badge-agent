@@ -454,6 +454,9 @@ def _decorate_result_urls(result: Dict[str, Any]) -> Dict[str, Any]:
         for av_img in slide.get("available_images") or []:
             if isinstance(av_img, dict) and av_img.get("image_path"):
                 av_img["image_url"] = _to_web_asset_url(av_img["image_path"]) or av_img.get("image_url", "")
+        for sc_img in slide.get("slide_image_choices") or []:
+            if isinstance(sc_img, dict) and sc_img.get("image_path"):
+                sc_img["image_url"] = _to_web_asset_url(sc_img["image_path"]) or sc_img.get("image_url", "")
 
     raw_cat = result.get("badge_image_catalog")
     cat_list = raw_cat.get("images", []) if isinstance(raw_cat, dict) else (raw_cat or [])

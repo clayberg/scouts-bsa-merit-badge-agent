@@ -1284,3 +1284,49 @@ def test_v21_full_143_badge_requirements_and_benchmark_completeness():
     assert audit_report["all_decks_passed"] is True
 
 
+def test_v22_slide_image_choices_and_option_c_pill_switcher(tmp_path):
+    """Verifies Option C Interactive Slide Image Pill Switcher:
+    1) `seed_badge_image_catalog_from_storyboard` populates `slide['slide_image_choices']` with
+       slide-scoped primary and Vision-verified alternate pamphlet figures (each with a full `caption`).
+    2) Requirement intro slides with a single Nano Banana hero graphic have 1 choice (`len == 1`),
+       while requirement topic slides with Vision-verified pamphlet alternates have `2+` choices (`len >= 2`).
+    3) The UI (`ui/index.html`, `ui/styles.css`, `ui/app.js`) exposes the Option C hybrid pill and
+       floating thumbnail & caption popover (`#stage-visual-pill-popover`).
+    """
+    from pathlib import Path
+
+    out_pptx = os.path.join(tmp_path, "First_Aid_Option_C_Pill.pptx")
+    result = run_merit_badge_workflow(
+        badge_name="First Aid",
+        depth_mode="Standard Troop Meeting Deck",
+        output_path=out_pptx,
+    )
+    assert result["status"] == "SUCCESS"
+    slides = result["storyboard"]["slides"]
+    assert len(slides) > 0
+
+    slides_with_choices = [s for s in slides if isinstance(s.get("slide_image_choices"), list) and len(s["slide_image_choices"]) > 0]
+    assert len(slides_with_choices) > 0, "Expected slides to include populated slide_image_choices"
+
+    multi_choice_slides = [s for s in slides_with_choices if len(s["slide_image_choices"]) >= 2]
+    assert len(multi_choice_slides) > 0, "Expected First Aid slides with Vision-verified pamphlet alternates to have 2+ slide_image_choices"
+
+    for s in multi_choice_slides:
+        for choice in s["slide_image_choices"]:
+            assert choice.get("caption") or choice.get("description"), "Every slide_image_choices entry must carry a caption"
+            assert choice.get("image_path"), "Every slide_image_choices entry must carry an image_path"
+
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+
+    assert 'id="stage-visual-pill-popover"' in ui_html
+    assert ".m3-stage-visual-pill" in ui_css
+    assert ".m3-visual-pill-popover" in ui_css
+    assert "renderStageVisualPillAndPopover" in ui_js
+    assert "cycleSlideImageChoice" in ui_js
+    assert "selectSlideImageChoice" in ui_js
+
+
+

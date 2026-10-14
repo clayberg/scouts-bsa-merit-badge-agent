@@ -164,6 +164,7 @@ class BadgeImageEntry(BaseModel):
     custom_prompt: str = Field("", description="Custom prompt or search query used to find/create the image.")
     is_alternate: bool = Field(False, description="True if this is a tagged requirement alternate rather than the primary active slide visual.")
     alternate_rank: int = Field(0, description="0 for primary active slide visual, 1 or 2 for requirement alternates.")
+    caption: str = Field("", description="Clean Vision-verified caption for the slide preview and exported PPTX.")
 
 
 class ImageGenerationCostEstimate(BaseModel):
@@ -515,6 +516,9 @@ def register_image_in_badge_catalog(badge_name: str, entry: Dict[str, Any]) -> D
         image_path=canon_p,
         image_url=img_url,
         custom_prompt=str(entry.get("custom_prompt") or ""),
+        is_alternate=bool(entry.get("is_alternate", False)),
+        alternate_rank=int(entry.get("alternate_rank") or 0),
+        caption=str(entry.get("caption") or entry.get("description") or entry.get("title") or ""),
     ).model_dump()
 
     existing = _load_catalog_json(badge_name)
@@ -616,12 +620,16 @@ def seed_badge_image_catalog_from_storyboard(
                     "image_path": canonical_p,
                     "image_url": _to_web_asset_url(canonical_p),
                     "custom_prompt": "",
+                    "is_alternate": False,
+                    "alternate_rank": 0,
+                    "caption": cap,
                 }
                 by_stem[sk] = entry
 
         if ai_hero and os.path.exists(str(ai_hero)):
             abs_hero = os.path.abspath(str(ai_hero))
             sk_hero = _canonical_stem_key(abs_hero)
+            slide_cap = str(slide.get("visual_caption") or s_title)
             if sk_hero not in by_stem or abs_hero.endswith("_nano_hero.png"):
                 if abs_hero.endswith("_nano_hero.png"):
                     cfg_hero = resolve_content_aware_visual_config(
@@ -638,7 +646,7 @@ def seed_badge_image_catalog_from_storyboard(
                         "req_number": req_num,
                         "slide_title": s_title,
                         "title": s_title[:68],
-                        "description": (
+                        "description": slide_cap or (
                             f"Context-grounded Nano Banana ({eff_st} • {hum_lbl}) hero graphic for "
                             f"Requirement {req_num} ({s_title})."
                         ),
@@ -647,6 +655,9 @@ def seed_badge_image_catalog_from_storyboard(
                         "image_path": abs_hero,
                         "image_url": _to_web_asset_url(abs_hero),
                         "custom_prompt": cfg_hero["enriched_subject"],
+                        "is_alternate": False,
+                        "alternate_rank": 0,
+                        "caption": slide_cap,
                     }
                 else:
                     entry = {
@@ -655,7 +666,7 @@ def seed_badge_image_catalog_from_storyboard(
                         "req_number": req_num,
                         "slide_title": s_title,
                         "title": f"EDGE Skill Concept Map: {s_title}"[:68],
-                        "description": (
+                        "description": slide_cap or (
                             f"220-DPI BSA EDGE Method concept map for Requirement {req_num} ({s_title}) "
                             f"featuring the {badge_name} emblem and 4 key teaching pillars."
                         ),
@@ -664,6 +675,9 @@ def seed_badge_image_catalog_from_storyboard(
                         "image_path": abs_hero,
                         "image_url": _to_web_asset_url(abs_hero),
                         "custom_prompt": "",
+                        "is_alternate": False,
+                        "alternate_rank": 0,
+                        "caption": slide_cap,
                     }
                 by_stem[sk_hero] = entry
 
@@ -690,6 +704,7 @@ def seed_badge_image_catalog_from_storyboard(
             if sk_pf in by_stem:
                 by_stem[sk_pf]["title"] = v_title
                 by_stem[sk_pf]["description"] = v_cap
+                by_stem[sk_pf]["caption"] = v_cap
                 by_stem[sk_pf]["is_alternate"] = False
                 by_stem[sk_pf]["alternate_rank"] = 0
             else:
@@ -712,6 +727,7 @@ def seed_badge_image_catalog_from_storyboard(
                     "custom_prompt": "",
                     "is_alternate": is_alt,
                     "alternate_rank": alt_rank,
+                    "caption": v_cap,
                 }
     except Exception:
         pass
@@ -752,6 +768,16 @@ def seed_badge_image_catalog_from_storyboard(
         base_req = req_num.rstrip("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ") or req_num
         slide_avail: List[Dict[str, Any]] = []
         seen_ids: set = set()
+        slide_choices: List[Dict[str, Any]] = []
+        seen_choice_ids: set = set()
+
+        def _add_choice(entry_obj: Optional[Dict[str, Any]]) -> None:
+            if not entry_obj:
+                return
+            cid = entry_obj.get("image_id")
+            if cid and cid not in seen_choice_ids:
+                seen_choice_ids.add(cid)
+                slide_choices.append(entry_obj)
 
         orig_p = slide.get("original_diagram_path")
         if orig_p and os.path.exists(str(orig_p)):
@@ -759,6 +785,7 @@ def seed_badge_image_catalog_from_storyboard(
             if match_o and match_o["image_id"] not in seen_ids:
                 slide_avail.append(match_o)
                 seen_ids.add(match_o["image_id"])
+            _add_choice(match_o)
 
         curr_p = slide.get("diagram_path")
         if curr_p and os.path.exists(str(curr_p)):
@@ -766,21 +793,47 @@ def seed_badge_image_catalog_from_storyboard(
             if match_c and match_c["image_id"] not in seen_ids:
                 slide_avail.append(match_c)
                 seen_ids.add(match_c["image_id"])
+            _add_choice(match_c)
+
+        is_intro_slide = str(slide.get("archetype") or "") == "REQUIREMENT_INTRO"
+        if not is_intro_slide:
+            pamphlet_matches = []
+            for item in catalog_list:
+                if item.get("source_type") != "OFFICIAL_PAMPHLET_FIGURE":
+                    continue
+                item_req = str(item.get("req_number") or "")
+                item_base_req = item_req.rstrip("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ") or item_req
+                if item_req == req_num or item_base_req == base_req:
+                    pamphlet_matches.append(item)
+            pamphlet_matches.sort(
+                key=lambda x: (
+                    0 if str(x.get("req_number") or "") == req_num else 1,
+                    int(x.get("alternate_rank") or 0),
+                    str(x.get("image_path") or ""),
+                )
+            )
+            for pm in pamphlet_matches:
+                _add_choice(pm)
 
         for item in catalog_list:
-            if item["image_id"] in seen_ids:
-                continue
+            st = str(item.get("source_type") or "")
             item_req = str(item.get("req_number") or "")
             item_base_req = item_req.rstrip("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ") or item_req
+            if st in ("USER_UPLOAD", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH"):
+                if item.get("slide_title") == slide.get("title") or (not is_intro_slide and item_req == req_num):
+                    _add_choice(item)
+            if item["image_id"] in seen_ids:
+                continue
             if (
                 item_req == req_num
                 or item_base_req == base_req
                 or item.get("slide_title") == slide.get("title")
-                or item.get("source_type") in ("NANO_BANANA_HERO", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH")
+                or st in ("NANO_BANANA_HERO", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH")
             ):
                 slide_avail.append(item)
                 seen_ids.add(item["image_id"])
 
+        slide["slide_image_choices"] = slide_choices
         slide["available_images"] = slide_avail[:16]
 
     return catalog_list

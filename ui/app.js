@@ -1961,6 +1961,7 @@ function renderActiveSlide(idx) {
     groundedChip?.classList.add("hidden");
     magBadge?.classList.add("hidden");
     visSourceBadge?.classList.add("hidden");
+    document.getElementById("stage-visual-pill-popover")?.classList.add("hidden");
     syncUnderstageDrawerVisibility(-1);
     if (stageEl) {
       stageEl.style.background = coverTokens.stageBg;
@@ -2488,34 +2489,7 @@ function renderActiveSlide(idx) {
     }
   }
 
-  if (visSourceBadge) {
-    if (tokens.isBeautified && hasVisual && !hideVisualForIntro) {
-      visSourceBadge.classList.remove("hidden");
-      visSourceBadge.style.background = tokens.badgeBg;
-      visSourceBadge.style.color = tokens.badgeFg;
-      visSourceBadge.style.border = `1px solid ${tokens.accentHex}`;
-      const srcLbl = String(slide.visual_source_label || "");
-      const diagRef = String(slide.diagram_url || slide.diagram_path || "");
-      const isNano =
-        srcLbl.includes("Nano Banana") ||
-        diagRef.includes("_nano_hero") ||
-        diagRef.includes("ai_illustrations");
-      const isAiHero = !isNano && (Boolean(slide.ai_hero_image_path) || srcLbl.includes("EDGE Skill"));
-      const isWeb = srcLbl.includes("Web Image") || srcLbl.includes("Wikimedia");
-      const isUpload = srcLbl.includes("Uploaded");
-      visSourceBadge.textContent = isNano
-        ? "🍌 NANO BANANA AI ILLUSTRATION"
-        : isUpload
-        ? "📁 UPLOADED LOCAL IMAGE"
-        : isWeb
-        ? "🌐 WEB IMAGE CATALOG"
-        : isAiHero
-        ? "✨ EDGE SKILL CONCEPT MAP"
-        : "📐 OFFICIAL PAMPHLET VISUAL";
-    } else {
-      visSourceBadge.classList.add("hidden");
-    }
-  }
+  renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualForIntro);
 
   if (!hasVisual || hideVisualForIntro) {
     if (rightZone) rightZone.style.display = "none";
@@ -2927,6 +2901,340 @@ function stripUrlQuery(u) {
   return String(u || "").split("?")[0];
 }
 
+function normalizeReqBase(rStr) {
+  const m = String(rStr || "").trim().match(/^(\d+)/);
+  return m ? m[1] : String(rStr || "").trim().toLowerCase();
+}
+
+function registerChoiceOnSlide(slide, rawEntry) {
+  if (!slide || !rawEntry) return;
+  const entry = normalizeCatalogEntry(rawEntry, slide.req_number || "");
+  if (!entry) return;
+  if (!Array.isArray(slide.slide_image_choices)) {
+    slide.slide_image_choices = [];
+  }
+  const key = stripUrlQuery(entry.image_url) || entry.image_path || entry.image_id;
+  if (!key) return;
+  const exists = slide.slide_image_choices.some(
+    (c) => (stripUrlQuery(c?.image_url) || c?.image_path || c?.image_id) === key
+  );
+  if (!exists) {
+    slide.slide_image_choices.push(entry);
+  }
+}
+
+function getSlideSpecificImageChoices(slide) {
+  if (!slide || !state.currentResult) return [];
+  const rawCatalog = state.currentResult.badge_image_catalog;
+  const badgeCatalog = Array.isArray(rawCatalog)
+    ? rawCatalog
+    : Array.isArray(rawCatalog?.images)
+    ? rawCatalog.images
+    : [];
+
+  const byKey = new Map();
+  badgeCatalog.forEach((raw) => {
+    const entry = normalizeCatalogEntry(raw, slide.req_number || "");
+    if (!entry) return;
+    const uKey = stripUrlQuery(entry.image_url);
+    const pKey = String(entry.image_path || "");
+    if (uKey) byKey.set(uKey, entry);
+    if (pKey) byKey.set(pKey, entry);
+  });
+
+  const choices = [];
+  const seen = new Set();
+  const addChoice = (rawCandidate) => {
+    const entry = normalizeCatalogEntry(rawCandidate, slide.req_number || "");
+    if (!entry) return;
+    const uKey = stripUrlQuery(entry.image_url);
+    const pKey = String(entry.image_path || "");
+    const canonical = (uKey && byKey.get(uKey)) || (pKey && byKey.get(pKey)) || entry;
+    const dedupKey = stripUrlQuery(canonical.image_url) || canonical.image_path || canonical.image_id;
+    if (!dedupKey || seen.has(dedupKey)) return;
+    seen.add(dedupKey);
+    choices.push(canonical);
+  };
+
+  // 1. Start with server-seeded slide_image_choices if present
+  if (Array.isArray(slide.slide_image_choices) && slide.slide_image_choices.length > 0) {
+    slide.slide_image_choices.forEach(addChoice);
+  }
+
+  // 2. Ensure the slide's active diagram is included
+  if (slide.diagram_url || slide.diagram_path) {
+    addChoice({
+      image_id: (slide.diagram_path || slide.diagram_url || "").split("/").pop(),
+      image_path: slide.diagram_path || "",
+      image_url: slide.diagram_url || "",
+      title: slide.title || "Slide Visual",
+      caption: slide.visual_caption || slide.title || "",
+      description: slide.visual_caption || slide.title || "",
+      source_label: slide.visual_source_label || "Slide Visual",
+      source_type:
+        String(slide.diagram_url || slide.diagram_path || "").includes("ai_illustrations")
+          ? "NANO_BANANA_HERO"
+          : "OFFICIAL_PAMPHLET_FIGURE",
+      req_number: slide.req_number || "",
+    });
+  }
+
+  // 3. Fallback / live merge from badgeCatalog for matching requirement pamphlet alternates & slide-specific uploads/AI/web
+  const slideReq = String(slide.req_number || "").trim();
+  const slideBase = normalizeReqBase(slideReq);
+  const slideTitleClean = String(slide.title || "").trim().toLowerCase();
+  const isReqIntro =
+    String(slide.archetype || "").toUpperCase() === "REQUIREMENT_INTRO" ||
+    Boolean(slide.verbatim_requirement_text && String(slide.verbatim_requirement_text).trim());
+
+  badgeCatalog.forEach((raw) => {
+    const entry = normalizeCatalogEntry(raw, slideReq);
+    if (!entry) return;
+    const st = String(entry.source_type || "").toUpperCase();
+    const eReq = String(entry.req_number || "").trim();
+    const eBase = normalizeReqBase(eReq);
+    const eSlideTitle = String(entry.slide_title || "").trim().toLowerCase();
+
+    if (st === "OFFICIAL_PAMPHLET_FIGURE" && !isReqIntro) {
+      if ((eReq && eReq === slideReq) || (eBase && eBase === slideBase)) {
+        addChoice(entry);
+      }
+    } else if (["USER_UPLOAD", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH"].includes(st)) {
+      if (slideTitleClean && eSlideTitle && eSlideTitle === slideTitleClean) {
+        addChoice(entry);
+      }
+    }
+  });
+
+  slide.slide_image_choices = choices;
+  return choices;
+}
+
+let pillPopoverOutsideBound = false;
+function ensurePillPopoverOutsideListener() {
+  if (pillPopoverOutsideBound) return;
+  pillPopoverOutsideBound = true;
+  document.addEventListener("click", (ev) => {
+    const pop = document.getElementById("stage-visual-pill-popover");
+    const pill = document.getElementById("stage-visual-source-badge");
+    if (!pop || pop.classList.contains("hidden")) return;
+    if (pop.contains(ev.target) || (pill && pill.contains(ev.target))) return;
+    pop.classList.add("hidden");
+    const mainBtn = document.getElementById("stage-pill-main");
+    if (mainBtn) mainBtn.setAttribute("aria-expanded", "false");
+  });
+}
+
+async function selectSlideImageChoice(targetEntry) {
+  if (!state.currentResult || state.activeSlideIdx < 0 || !targetEntry) return;
+  const slides = state.currentResult.storyboard?.slides || [];
+  const slide = slides[state.activeSlideIdx];
+  if (!slide) return;
+
+  const pop = document.getElementById("stage-visual-pill-popover");
+  if (pop) pop.classList.add("hidden");
+
+  // Optimistic instant stage update before background PPTX regeneration completes
+  const resolvedCaption =
+    targetEntry.caption || targetEntry.description || targetEntry.title || slide.visual_caption || slide.title || "";
+  if (targetEntry.image_url) {
+    slide.diagram_url = targetEntry.image_url;
+  }
+  if (targetEntry.image_path) {
+    slide.diagram_path = targetEntry.image_path;
+  }
+  slide.visual_caption = resolvedCaption;
+  if (targetEntry.source_label) {
+    slide.visual_source_label = targetEntry.source_label;
+  }
+  registerChoiceOnSlide(slide, targetEntry);
+  renderActiveSlide(state.activeSlideIdx);
+
+  await applyCatalogImageToActiveSlide(targetEntry, "custom_image");
+}
+
+async function cycleSlideImageChoice(delta) {
+  if (!state.currentResult || state.activeSlideIdx < 0) return;
+  const slides = state.currentResult.storyboard?.slides || [];
+  const slide = slides[state.activeSlideIdx];
+  if (!slide) return;
+  const choices = getSlideSpecificImageChoices(slide);
+  if (choices.length < 2) return;
+
+  const currUrlClean = stripUrlQuery(slide.diagram_url);
+  const currPath = String(slide.diagram_path || "");
+  let activeIdx = choices.findIndex(
+    (c) =>
+      (currUrlClean && stripUrlQuery(c.image_url) === currUrlClean) ||
+      (currPath && c.image_path && String(c.image_path) === currPath)
+  );
+  if (activeIdx < 0) activeIdx = 0;
+  const nextIdx = (activeIdx + delta + choices.length) % choices.length;
+  const nextEntry = choices[nextIdx];
+  if (nextEntry) {
+    await selectSlideImageChoice(nextEntry);
+  }
+}
+
+function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualForIntro) {
+  ensurePillPopoverOutsideListener();
+  const visSourceBadge = document.getElementById("stage-visual-source-badge");
+  const visPopover = document.getElementById("stage-visual-pill-popover");
+  if (!visSourceBadge) return;
+
+  if (visPopover) {
+    visPopover.classList.add("hidden");
+    visPopover.innerHTML = "";
+  }
+
+  if (!hasVisual || hideVisualForIntro) {
+    visSourceBadge.classList.add("hidden");
+    return;
+  }
+
+  visSourceBadge.classList.remove("hidden");
+  visSourceBadge.style.background = tokens.badgeBg || "#EFF6FF";
+  visSourceBadge.style.color = tokens.badgeFg || "#003F87";
+  visSourceBadge.style.border = `1px solid ${tokens.accentHex || "#003F87"}`;
+
+  const choices = getSlideSpecificImageChoices(slide);
+  const currUrlClean = stripUrlQuery(slide.diagram_url);
+  const currPath = String(slide.diagram_path || "");
+  let activeChoiceIdx = choices.findIndex(
+    (c) =>
+      (currUrlClean && stripUrlQuery(c.image_url) === currUrlClean) ||
+      (currPath && c.image_path && String(c.image_path) === currPath)
+  );
+  if (activeChoiceIdx < 0) activeChoiceIdx = 0;
+  const activeEntry = choices[activeChoiceIdx] || null;
+
+  const srcLbl = String(activeEntry?.source_label || slide.visual_source_label || "");
+  const srcType = String(activeEntry?.source_type || "").toUpperCase();
+  const diagRef = String(activeEntry?.image_url || slide.diagram_url || slide.diagram_path || "");
+  const isNano =
+    srcType.includes("NANO_BANANA") ||
+    srcLbl.includes("Nano Banana") ||
+    diagRef.includes("_nano_hero") ||
+    diagRef.includes("ai_illustrations");
+  const isAiHero = !isNano && (srcType === "EDGE_CONCEPT_MAP" || Boolean(slide.ai_hero_image_path) || srcLbl.includes("EDGE Skill"));
+  const isWeb = srcType === "WEB_IMAGE_SEARCH" || srcLbl.includes("Web Image") || srcLbl.includes("Wikimedia");
+  const isUpload = srcType === "USER_UPLOAD" || srcLbl.includes("Uploaded");
+
+  const basePillLabel = isNano
+    ? "🍌 NANO BANANA AI ILLUSTRATION"
+    : isUpload
+    ? "📁 UPLOADED LOCAL IMAGE"
+    : isWeb
+    ? "🌐 WEB IMAGE CATALOG"
+    : isAiHero
+    ? "✨ EDGE SKILL CONCEPT MAP"
+    : "📐 OFFICIAL PAMPHLET VISUAL";
+
+  // Static Pill when only 1 designated image exists for this slide
+  if (choices.length <= 1) {
+    visSourceBadge.className = "m3-stage-visual-pill is-static";
+    visSourceBadge.textContent = basePillLabel;
+    return;
+  }
+
+  // Option C Hybrid Interactive Pill when 2+ image choices exist for this slide
+  visSourceBadge.className = "m3-stage-visual-pill is-interactive";
+  visSourceBadge.innerHTML = `
+    <button type="button" class="m3-stage-pill-arrow" id="stage-pill-prev" title="Previous image choice for this slide (${choices.length} available)" aria-label="Previous slide image choice">◀</button>
+    <button type="button" class="m3-stage-pill-label-btn" id="stage-pill-main" title="Click to compare ${choices.length} image choices &amp; captions for this slide" aria-expanded="false">
+      <span>${escapeHtml(basePillLabel)}</span>
+      <span class="m3-stage-pill-count">(${activeChoiceIdx + 1}/${choices.length}) ▾</span>
+    </button>
+    <button type="button" class="m3-stage-pill-arrow" id="stage-pill-next" title="Next image choice for this slide (${choices.length} available)" aria-label="Next slide image choice">▶</button>
+  `;
+
+  const prevArrow = document.getElementById("stage-pill-prev");
+  const nextArrow = document.getElementById("stage-pill-next");
+  const mainBtn = document.getElementById("stage-pill-main");
+
+  prevArrow?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    cycleSlideImageChoice(-1);
+  });
+  nextArrow?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    cycleSlideImageChoice(1);
+  });
+
+  if (visPopover) {
+    const itemsHtml = choices
+      .map((c, i) => {
+        const cType = String(c.source_type || "").toUpperCase();
+        const roleLabel =
+          cType === "OFFICIAL_PAMPHLET_FIGURE"
+            ? c.is_alternate
+              ? `📐 Pamphlet Alternate #${c.alternate_rank || i}`
+              : "📐 Primary Pamphlet Figure"
+            : cType.includes("NANO_BANANA")
+            ? "🍌 Nano Banana AI Illustration"
+            : cType === "USER_UPLOAD"
+            ? "📁 Uploaded Custom Image"
+            : cType === "WEB_IMAGE_SEARCH"
+            ? "🌐 Web Image Catalog"
+            : "🖼️ Slide Visual";
+        const capPreview = c.caption || c.description || c.title || "Official Merit Badge visual";
+        const isCurrent = i === activeChoiceIdx;
+        return `
+          <button type="button" class="m3-pill-popover-item ${isCurrent ? "active" : ""}" data-pill-choice-idx="${i}" role="option" aria-selected="${isCurrent ? "true" : "false"}">
+            <img class="m3-pill-popover-thumb" src="${escapeHtml(c.image_url || "")}" alt="${escapeHtml(c.title || roleLabel)}" loading="lazy" />
+            <div class="m3-pill-popover-meta">
+              <div class="m3-pill-popover-role">
+                <span>[${i + 1}/${choices.length}] ${escapeHtml(roleLabel)}</span>
+                ${
+                  isCurrent
+                    ? '<span style="color:#15803D; font-weight:900;">✓ Active</span>'
+                    : '<span style="color:#64748B; font-weight:600;">Select</span>'
+                }
+              </div>
+              <div class="m3-pill-popover-caption">${escapeHtml(capPreview)}</div>
+            </div>
+          </button>
+        `;
+      })
+      .join("");
+
+    visPopover.innerHTML = `
+      <div class="m3-pill-popover-header">
+        <span>Slide Image Choices (${choices.length})</span>
+        <span>Req ${escapeHtml(String(slide.req_number || ""))}</span>
+      </div>
+      ${itemsHtml}
+      <button type="button" class="m3-pill-popover-footer-btn" id="stage-pill-open-studio-btn">
+        + Upload / Add Custom Image for This Slide…
+      </button>
+    `;
+
+    visPopover.querySelectorAll("[data-pill-choice-idx]").forEach((btn) => {
+      btn.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const cIdx = parseInt(btn.getAttribute("data-pill-choice-idx"), 10);
+        const chosen = choices[cIdx];
+        if (chosen) {
+          selectSlideImageChoice(chosen);
+        }
+      });
+    });
+
+    document.getElementById("stage-pill-open-studio-btn")?.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      visPopover.classList.add("hidden");
+      mainBtn?.setAttribute("aria-expanded", "false");
+      document.getElementById("btn-open-image-studio")?.click();
+    });
+
+    mainBtn?.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const isHidden = visPopover.classList.toggle("hidden");
+      mainBtn.setAttribute("aria-expanded", isHidden ? "false" : "true");
+    });
+  }
+}
+
 function populateQuickImageSwitcher(slide) {
   const quickSel = document.getElementById("codesign-quick-image-select");
   const prevBtn = document.getElementById("btn-prev-slide-image");
@@ -3008,6 +3316,10 @@ async function applyCatalogImageToActiveSlide(entry, visualSourceOverride = "cus
   const slide = slides[state.activeSlideIdx];
   if (!slide) return;
 
+  if (visualSourceOverride === "custom_image" && entry) {
+    registerChoiceOnSlide(slide, entry);
+  }
+
   const archSel = document.getElementById("codesign-archetype-select");
   const thmSel = document.getElementById("codesign-theme-select");
   const palSel = document.getElementById("codesign-palette-select");
@@ -3023,6 +3335,8 @@ async function applyCatalogImageToActiveSlide(entry, visualSourceOverride = "cus
     targetArch = "SPLIT_VISUAL_EXPLAINER";
   }
 
+  const fullCaption = entry ? `${entry.caption || entry.description || entry.title || ""}` : "";
+
   try {
     const resp = await fetch("/api/slide/regenerate", {
       method: "POST",
@@ -3035,7 +3349,7 @@ async function applyCatalogImageToActiveSlide(entry, visualSourceOverride = "cus
         new_accent_palette: palSel?.value || slide.accent_palette_key || "NAVY_GOLD",
         visual_source_mode: visualSourceOverride,
         custom_image_path: entry?.image_path || "",
-        custom_image_caption: entry ? `${entry.title || ""}` : "",
+        custom_image_caption: fullCaption,
         custom_image_source_label: entry?.source_label || entry?.attribution || "Badge Image Catalog",
         slide_data: slide,
         storyboard_slides: slides,
@@ -3049,7 +3363,7 @@ async function applyCatalogImageToActiveSlide(entry, visualSourceOverride = "cus
       slide.visual_theme = data.new_visual_theme || slide.visual_theme;
       slide.accent_palette_key = data.new_accent_palette || slide.accent_palette_key;
       slide.visual_source_label = data.visual_source_label || slide.visual_source_label;
-      slide.visual_caption = data.visual_caption || slide.visual_caption;
+      slide.visual_caption = data.visual_caption || fullCaption || slide.visual_caption;
       slide.diagram_url = data.diagram_url || (entry?.image_url || "");
       slide.diagram_path = data.diagram_path || (entry?.image_path || "");
       slide.ai_hero_image_path = data.visual_source_mode === "ai_hero" ? data.diagram_path : null;
@@ -3392,10 +3706,16 @@ function bindImageStudioModal() {
         if (Array.isArray(s.available_images)) {
           s.available_images = s.available_images.filter(isHeroOrOfficialItem);
         }
+        if (Array.isArray(s.slide_image_choices)) {
+          s.slide_image_choices = s.slide_image_choices.filter(isHeroOrOfficialItem);
+        }
       });
       const activeSlide = slides[state.activeSlideIdx] || {};
       populateQuickImageSwitcher(activeSlide);
       renderModalCatalogGrid();
+      if (state.activeSlideIdx >= 0) {
+        renderActiveSlide(state.activeSlideIdx);
+      }
       const webResultsGrid = document.getElementById("studio-web-results-grid");
       if (webResultsGrid) webResultsGrid.innerHTML = "";
       if (statusBanner) {
