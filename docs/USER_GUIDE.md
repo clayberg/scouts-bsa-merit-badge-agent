@@ -273,7 +273,7 @@ When you click **Download Slide Deck (.PPTX)** in the top bar, the Workbench sav
 ## 11. Frequently Asked Questions for Counselors
 
 ### Can I use the Workbench at summer camp where Wi-Fi is spotty or unavailable?
-Yes. All 144 Merit Badge requirement outlines, badge emblems, pamphlet figures, pre-generated requirement hero illustrations, and technical diagrams are stored locally when running on your laptop. Any Merit Badge decks, pamphlets, or extra images you generate before camp stay saved on your machine for instant offline use.
+Yes. All 144 Merit Badge requirement outlines and all **3,917 built-in curated visual assets** (**2,323 100%-Vision-verified BSA Pamphlet figures** [`1,009` primary active + `1,314` requirement alternates], **1,306 pre-generated Nano Banana requirement hero & topic illustrations**, **144 badge emblems**, and **144 pamphlet covers**) are stored locally when running on your laptop (`1.5–3.5s` offline build speed). Any Merit Badge decks, pamphlets, or extra images you generate before camp stay saved on your machine for instant offline use.
 
 ### How do I remove an image from a slide if I just want larger text cards?
 Select the slide in **Slide Deck Preview**, click the second tab below the slide (**🎨 Customize Slide & Image Studio**), change **4. Right-Side Graphic** to **None (Remove Graphic & Expand Text to Full Width)**, and click **✨ Apply to Slide**. The picture is removed and the text cards expand across the full width of the slide.

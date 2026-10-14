@@ -684,25 +684,41 @@ async def api_regenerate_slide(
             effective_archetype = str(req.slide_data.get("original_archetype") or "CONCEPT_TEXT_SLIDE")
         asset_payload = {"status": "SUCCESS", "visual_source_mode": "restore_original"}
     elif vis_mode == "custom_image" and req.custom_image_path and os.path.exists(str(req.custom_image_path)):
+        from src.tools.pamphlet_extractor import _load_pamphlet_image_catalog
+
         png_path = str(req.custom_image_path)
         png_url = _to_web_asset_url(png_path)
         svg_url = None
-        vis_label = str(req.custom_image_source_label or "Selected Merit Badge Catalog Image")
-        vis_caption = str(req.custom_image_caption or title)
+        bname_f = os.path.basename(png_path)
+        p_cat_entry = _load_pamphlet_image_catalog().get(bname_f) or {}
+        verified_cap = str(p_cat_entry.get("caption") or req.custom_image_caption or title)
+        verified_title = str(p_cat_entry.get("topic") or p_cat_entry.get("title") or verified_cap)[:68]
+        vis_label = str(
+            req.custom_image_source_label
+            or ("📐 Official Pamphlet / Topic Figure" if "pamphlet_images" in png_path else "Selected Merit Badge Catalog Image")
+        )
+        vis_caption = verified_cap
         if effective_archetype in ("CONCEPT_TEXT_SLIDE", "SOURCES_AND_REFERENCES"):
             effective_archetype = "SPLIT_VISUAL_EXPLAINER"
+        src_type_Infer = (
+            "OFFICIAL_PAMPHLET_FIGURE"
+            if "pamphlet_images" in png_path
+            else ("NANO_BANANA_HERO" if "ai_illustrations" in png_path else ("WEB_IMAGE_SEARCH" if "_web_search_cache" in png_path else "CUSTOM_IMAGE"))
+        )
         register_image_in_badge_catalog(
             req.badge_name,
             {
                 "badge_name": req.badge_name,
                 "req_number": req_num,
                 "slide_title": title,
-                "title": vis_caption[:68],
-                "description": f"Selected image for Requirement {req_num} ({title}).",
-                "source_type": "WEB_IMAGE_SEARCH" if "_web_search_cache" in png_path else "CUSTOM_IMAGE",
+                "title": verified_title,
+                "description": verified_cap,
+                "source_type": src_type_Infer,
                 "source_label": vis_label,
                 "image_path": png_path,
                 "image_url": png_url or "",
+                "is_alternate": bool(p_cat_entry.get("is_alternate", False)),
+                "alternate_rank": int(p_cat_entry.get("alternate_rank") or 0),
             },
         )
         asset_payload = {"status": "SUCCESS", "visual_source_mode": "custom_image", "image_path": png_path}

@@ -162,6 +162,8 @@ class BadgeImageEntry(BaseModel):
     image_path: str = Field(..., description="Absolute filesystem path to the cached PNG/JPG file.")
     image_url: str = Field("", description="Relative web URL for rendering in the browser UI.")
     custom_prompt: str = Field("", description="Custom prompt or search query used to find/create the image.")
+    is_alternate: bool = Field(False, description="True if this is a tagged requirement alternate rather than the primary active slide visual.")
+    alternate_rank: int = Field(0, description="0 for primary active slide visual, 1 or 2 for requirement alternates.")
 
 
 class ImageGenerationCostEstimate(BaseModel):
@@ -232,11 +234,44 @@ def _to_web_asset_url(fs_path: Optional[str]) -> str:
     return f"/assets/diagrams/{os.path.basename(p_str)}"
 
 
+_LEGACY_CLEAN_TO_RAW_CACHE: Optional[Dict[str, str]] = None
+
+
+def _resolve_legacy_clean_visual_filename(bname: str) -> Optional[str]:
+    """Maps a legacy `clean_visual_<slug>_req_<N>_<hash>.png` filename to its canonical `<slug>_p<page>_img<N>.png`."""
+    global _LEGACY_CLEAN_TO_RAW_CACHE
+    if _LEGACY_CLEAN_TO_RAW_CACHE is None:
+        manifest_p = ASSETS_DIR.parent / "data" / "pamphlet_curation_manifest.json"
+        if manifest_p.exists():
+            try:
+                _LEGACY_CLEAN_TO_RAW_CACHE = (
+                    json.loads(manifest_p.read_text(encoding="utf-8")).get("legacy_clean_to_raw") or {}
+                )
+            except Exception:
+                _LEGACY_CLEAN_TO_RAW_CACHE = {}
+        else:
+            _LEGACY_CLEAN_TO_RAW_CACHE = {}
+    if bname in _LEGACY_CLEAN_TO_RAW_CACHE:
+        return _LEGACY_CLEAN_TO_RAW_CACHE[bname]
+    base_no_fig = re.sub(r"_fig\d+_", "_", bname)
+    if base_no_fig in _LEGACY_CLEAN_TO_RAW_CACHE:
+        return _LEGACY_CLEAN_TO_RAW_CACHE[base_no_fig]
+    return None
+
+
 def _canonical_figure_path(raw_path: str) -> str:
-    """Resolves cross-environment `/assets/...` paths and per-slide `_s3_u.png` copies to local canonical paths."""
+    """Resolves cross-environment `/assets/...` paths, legacy `clean_visual_*.png` paths, and `_s3_u.png` copies to local canonical paths."""
     if not raw_path:
         return ""
     raw_str = str(raw_path).replace("\\", "/")
+    bname_only = os.path.basename(raw_str)
+    if bname_only.startswith("clean_visual_"):
+        mapped_raw = _resolve_legacy_clean_visual_filename(bname_only)
+        if mapped_raw:
+            cand_raw = ASSETS_DIR / "pamphlet_images" / mapped_raw
+            if cand_raw.exists():
+                return os.path.abspath(str(cand_raw))
+
     idx = raw_str.find("/assets/")
     if idx >= 0:
         rel_from_assets = raw_str[idx + len("/assets/") :].lstrip("/")
@@ -631,6 +666,55 @@ def seed_badge_image_catalog_from_storyboard(
                         "custom_prompt": "",
                     }
                 by_stem[sk_hero] = entry
+
+    try:
+        from src.tools.pamphlet_extractor import _load_pamphlet_image_catalog
+
+        pamphlet_cat = _load_pamphlet_image_catalog()
+        slug = _badge_slug(badge_name)
+        for p_fname, p_meta in pamphlet_cat.items():
+            if not (p_fname.startswith(f"{slug}_p") or p_fname.startswith(f"{slug}_ec")):
+                continue
+            if p_meta.get("discard"):
+                continue
+            cand_f = ASSETS_DIR / "pamphlet_images" / p_fname
+            if not cand_f.exists():
+                continue
+            abs_pf = os.path.abspath(str(cand_f))
+            sk_pf = _canonical_stem_key(abs_pf)
+            is_alt = bool(p_meta.get("is_alternate", sk_pf not in by_stem))
+            alt_rank = int(p_meta.get("alternate_rank") or (1 if is_alt else 0))
+            req_n = str(p_meta.get("req_number") or "1")
+            v_title = str(p_meta.get("topic") or p_meta.get("title") or f"{badge_name} Req {req_n} Figure")[:68]
+            v_cap = str(p_meta.get("caption") or f"Official BSA pamphlet figure for {badge_name} Requirement {req_n}.")
+            if sk_pf in by_stem:
+                by_stem[sk_pf]["title"] = v_title
+                by_stem[sk_pf]["description"] = v_cap
+                by_stem[sk_pf]["is_alternate"] = False
+                by_stem[sk_pf]["alternate_rank"] = 0
+            else:
+                lbl = (
+                    f"🔄 Official Pamphlet Alternate #{alt_rank} (Req {req_n})"
+                    if is_alt
+                    else "📐 Official Pamphlet / Topic Figure"
+                )
+                by_stem[sk_pf] = {
+                    "image_id": hashlib.sha256(f"{badge_name}:{abs_pf}".encode("utf-8")).hexdigest()[:14],
+                    "badge_name": badge_name,
+                    "req_number": req_n,
+                    "slide_title": v_title,
+                    "title": v_title,
+                    "description": v_cap,
+                    "source_type": "OFFICIAL_PAMPHLET_FIGURE",
+                    "source_label": lbl,
+                    "image_path": abs_pf,
+                    "image_url": _to_web_asset_url(abs_pf),
+                    "custom_prompt": "",
+                    "is_alternate": is_alt,
+                    "alternate_rank": alt_rank,
+                }
+    except Exception:
+        pass
 
     try:
         assets = get_badge_cover_and_patch_paths(badge_name)

@@ -984,23 +984,29 @@ def summarize_pamphlet_for_requirement(
     chosen_img_caption: str = ""
 
     catalog = _load_pamphlet_image_catalog()
+    matching_cat_entries: List[Tuple[int, str, Dict[str, Any]]] = []
     for fname, entry in catalog.items():
-        if not fname.startswith(f"{slug}_p"):
+        if not (fname.startswith(f"{slug}_p") or fname.startswith(f"{slug}_ec")):
             continue
         allowed_reqs = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
         if (str(entry.get("req_number") or "").strip() == clean_req_num or clean_req_num in allowed_reqs) and not entry.get("discard"):
-            cand_path = PAMPHLET_IMAGES_DIR / fname
-            cand_md5 = _raw_file_md5(cand_path) if cand_path.exists() else ""
-            if (
-                cand_path.exists()
-                and str(cand_path) not in used_image_paths
-                and (not cand_md5 or f"md5:{cand_md5}" not in used_image_paths)
-            ):
-                chosen_raw_img = cand_path
-                m_p = re.search(r"_p(\d+)_img", fname)
-                chosen_img_page = int(m_p.group(1)) if m_p else (best_pages[0] if best_pages else 1)
-                chosen_img_caption = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or ""), badge_name)
-                break
+            alt_rank = int(entry.get("alternate_rank") or (1 if entry.get("is_alternate") else 0))
+            matching_cat_entries.append((alt_rank, fname, entry))
+    matching_cat_entries.sort(key=lambda x: (x[0], x[1]))
+
+    for _, fname, entry in matching_cat_entries:
+        cand_path = PAMPHLET_IMAGES_DIR / fname
+        cand_md5 = _raw_file_md5(cand_path) if cand_path.exists() else ""
+        if (
+            cand_path.exists()
+            and str(cand_path) not in used_image_paths
+            and (not cand_md5 or f"md5:{cand_md5}" not in used_image_paths)
+        ):
+            chosen_raw_img = cand_path
+            m_p = re.search(r"_p(\d+)_img", fname)
+            chosen_img_page = int(m_p.group(1)) if m_p else (best_pages[0] if best_pages else 1)
+            chosen_img_caption = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or ""), badge_name)
+            break
 
     # 2. Otherwise search matched or nearby pages (within +/- 2 pages) and verify with analyze_and_match_pamphlet_image
     if not chosen_raw_img:
@@ -1383,43 +1389,11 @@ def _compose_pamphlet_visual_card(
     topic_title: str,
     pamphlet_page: int,
 ) -> str:
-    """Prepares a clean, transparent-background RGBA diagram or photograph for slide embedding
-    with a deterministic source-image digest (so duplicate raw images share the exact same MD5)
-    and zero artificial white letterbox/pillarbox canvas padding."""
-    slug = _badge_slug(badge_name)
-    safe_req = re.sub(r"[^a-zA-Z0-9]+", "_", str(req_number)).strip("_")
-    h_tag = hashlib.sha256(
-        f"v3_rgba_{slug}_{raw_img_path.name}".encode("utf-8")
-    ).hexdigest()[:8]
-    out_file = PAMPHLET_IMAGES_DIR / f"clean_visual_{slug}_req_{safe_req}_{h_tag}.png"
-    if out_file.exists() and out_file.stat().st_size > 2_000:
-        return str(out_file)
-    for sib in PAMPHLET_IMAGES_DIR.glob(f"clean_visual_{slug}_req_*_{h_tag}.png"):
-        if sib.exists() and sib.stat().st_size > 2_000:
-            import shutil
-            shutil.copyfile(str(sib), str(out_file))
-            return str(out_file)
-
-    with Image.open(raw_img_path) as src_im:
-        max_w, max_h = 1120, 740
-        pre_scaled = ImageOps.contain(src_im, (max_w, max_h), method=Image.Resampling.LANCZOS).convert("RGBA")
-        if "ai_illustrations" in str(raw_img_path):
-            contained = pre_scaled
-        else:
-            cleaned_rgba = _strip_pamphlet_exterior_whitespace(pre_scaled)
-            contained = ImageOps.contain(cleaned_rgba, (max_w, max_h), method=Image.Resampling.LANCZOS).convert("RGBA")
-
-        # Encode deterministic source-image hash at center pixel (independent of req_number)
-        # so two cards derived from the same raw pamphlet image have the exact same MD5 digest.
-        cx, cy = contained.width // 2, contained.height // 2
-        r0, g0, b0, a0 = contained.getpixel((cx, cy))
-        r_tweak = (r0 ^ int(h_tag[0:2], 16)) if a0 > 0 else int(h_tag[0:2], 16)
-        g_tweak = (g0 ^ int(h_tag[2:4], 16)) if a0 > 0 else int(h_tag[2:4], 16)
-        b_tweak = (b0 ^ int(h_tag[4:6], 16)) if a0 > 0 else int(h_tag[4:6], 16)
-        contained.putpixel((cx, cy), (r_tweak % 256, g_tweak % 256, b_tweak % 256, max(1, a0)))
-
-        contained.save(out_file, "PNG", compress_level=4)
-    return str(out_file)
+    """Returns the canonical de-boxed, compressed pamphlet or AI visual path directly without
+    creating duplicate `clean_visual_*.png` copies on disk."""
+    if raw_img_path and raw_img_path.exists():
+        return str(raw_img_path)
+    return str(raw_img_path)
 
 
 def _parse_inline_sub_requirements(req_num: str, req_text: str) -> List[Dict[str, str]]:
