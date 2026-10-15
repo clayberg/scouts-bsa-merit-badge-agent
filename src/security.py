@@ -190,13 +190,29 @@ def _get_admin_secret_token() -> str:
     return get_secret("ADMIN_SUPERUSER_TOKEN", default="scouts-bsa-admin-superuser") or "scouts-bsa-admin-superuser"
 
 
+def _get_allowed_admin_emails() -> set[str]:
+    """Returns the set of lowercase administrator emails allowed via Cloud IAP or token unlock."""
+    allowed_raw = os.environ.get("ADMIN_ALLOWED_EMAILS", "admin@clayberg.altostrat.com")
+    emails = {e.strip().lower() for e in allowed_raw.split(",") if e.strip()}
+    emails.add("admin@clayberg.altostrat.com")
+    return emails
+
+
 def verify_admin_token_value(candidate: str) -> bool:
-    """Verifies a candidate admin token/passphrase in constant time."""
+    """Verifies a candidate admin token/passphrase or allowed admin email in constant time."""
     if not candidate or not str(candidate).strip():
         return False
+    provided_str = str(candidate).strip()
     expected = _get_admin_secret_token().encode("utf-8")
-    provided = str(candidate).strip().encode("utf-8")
-    return hmac.compare_digest(provided, expected)
+    provided = provided_str.encode("utf-8")
+    if hmac.compare_digest(provided, expected):
+        return True
+    # When no custom ADMIN_SUPERUSER_TOKEN override is forced, also accept configured admin emails
+    if not os.environ.get("ADMIN_SUPERUSER_TOKEN", "").strip():
+        for allowed_email in _get_allowed_admin_emails():
+            if hmac.compare_digest(provided_str.lower().encode("utf-8"), allowed_email.encode("utf-8")):
+                return True
+    return False
 
 
 def create_admin_session_cookie(role: str = "superuser", ttl_seconds: int = 86400) -> str:
@@ -281,10 +297,7 @@ def check_admin_session_status(request: Request) -> Dict[str, Any]:
     if iap_email:
         if ":" in iap_email:
             iap_email = iap_email.split(":", 1)[1].strip()
-        allowed_raw = os.environ.get("ADMIN_ALLOWED_EMAILS", "")
-        allowed_emails = {
-            e.strip().lower() for e in allowed_raw.split(",") if e.strip()
-        }
+        allowed_emails = _get_allowed_admin_emails()
         if iap_email.lower() in allowed_emails:
             return {
                 "is_admin": True,
