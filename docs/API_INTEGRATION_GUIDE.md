@@ -1,8 +1,8 @@
 # API and integration guide (`OpenAPI 3.1`, `A2A 1.0`, and `SSE`)
 
-The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), Merit Badge Image Studio endpoints (`/api/badge/images`, `/api/slide/*`), counselor profile persistence (`/api/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
+The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), Merit Badge Image Studio endpoints (`/api/badge/images`, `/api/slide/*`), Super-User Admin Console & Zero-PII Telemetry endpoints (`/api/admin/*` and `/api/v1/admin/*`, documented in [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)), counselor profile persistence (`/api/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
 
-- **OpenAPI 3.1 schema**: [`docs/openapi.yaml`](openapi.yaml) (exported by `scripts/export_openapi.py` and checked in `tests/test_resilience_and_fault_injection.py`).
+- **OpenAPI 3.1 schema (`67` paths)**: [`docs/openapi.yaml`](openapi.yaml) (exported by `scripts/export_openapi.py` and checked in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`).
 - **Swagger UI**: `http://localhost:8085/docs`
 - **A2A 1.0 Agent Card**: `http://localhost:8085/.well-known/agent.json`
 
@@ -41,6 +41,14 @@ Controlled by `AUTH_REQUIRED` (`false` by default on `localhost`; `true` in Clou
 | `POST /api/v1/feedback` | Records counselor rating (`1-5`), thumbs-up/down, and requirement accuracy sign-off in `deliverables/counselor_hitl_feedback.jsonl`. | Yes |
 | `GET /api/v1/metrics` | Returns latency percentiles (`p50`/`p95`/`p99`), token spend, cache hit rate, circuit breaker states, and compliance audit events. | Yes |
 | `GET /api/v1/prompts/manifest` | Returns the prompt manifest (`prompts/manifest.json`) with SHA-256 content hashes. | Yes |
+| `GET /api/admin/status`, `POST /api/admin/auth`, `POST /api/admin/logout` | Checks Super-User Admin session status, exchanges `ADMIN_SUPERUSER_TOKEN` / `BSA_ADMIN_KEY` for an `HttpOnly` session cookie (`bsa_admin_session`), or signs out (`verify_admin_superuser()` in `src/security.py`; see [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)). | Super-User |
+| `GET /api/admin/catalog/{badge_name}` | Lists all catalog images, captions, requirement mappings, primary/alternate status, and discard flags for any of the 144 Merit Badges. | Super-User |
+| `PUT /api/admin/catalog/image` | Atomically updates a catalog image's title, Vision-verified caption, requirement ID, or discard flag across disk JSON manifests and SQLite. | Super-User |
+| `POST /api/admin/catalog/promote-primary` | Promotes an alternate pamphlet figure (`Pamphlet Alternate #1/#2`) to the Primary default graphic for its requirement across future deck builds. | Super-User |
+| `POST /api/admin/catalog/recaption-vision` | Runs a single-image `gemini-2.5-flash` Vision pass to generate and persist an updated instructional caption. | Super-User |
+| `POST /api/admin/catalog/replace-image` | Uploads a replacement PNG/JPG/WEBP graphic, quantizes it to an 8-bit PNG (`<= 800x600`), and updates the badge catalog in place. | Super-User |
+| `GET /api/admin/telemetry/summary` | Returns aggregated zero-PII deck usage, cache hit rate, FinOps spend, stage latency percentiles, and the Easy Slide Image Switcher Swap Leaderboard (`ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py`). | Super-User |
+| `GET /api/admin/diagnostics` & `POST /api/admin/cache/reload` | Audits 144-badge asset coverage, prompt SHA-256 hashes, SQLite WAL sizes, and circuit breakers, or reloads in-memory caches with zero downtime. | Super-User |
 | `POST /a2a/tasks/send` | Executes an A2A 1.0 task and returns `application/json+a2ui` v0.9 surface payloads. | Yes |
 
 ---

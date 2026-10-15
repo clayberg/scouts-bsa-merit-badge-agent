@@ -3005,8 +3005,11 @@ function getSlideSpecificImageChoices(slide) {
     const eBase = normalizeReqBase(eReq);
     const eSlideTitle = String(entry.slide_title || "").trim().toLowerCase();
 
-    if (st === "OFFICIAL_PAMPHLET_FIGURE" && !isReqIntro) {
-      if ((eReq && eReq === slideReq) || (eBase && eBase === slideBase)) {
+    if (st === "OFFICIAL_PAMPHLET_FIGURE" && !isReqIntro && Boolean(entry.is_alternate || raw.is_alternate)) {
+      const pamphletCount = choices.filter(
+        (c) => String(c.source_type || "").toUpperCase() === "OFFICIAL_PAMPHLET_FIGURE"
+      ).length;
+      if (pamphletCount < 3 && ((eReq && eReq === slideReq) || (eBase && eBase === slideBase))) {
         addChoice(entry);
       }
     } else if (["USER_UPLOAD", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH"].includes(st)) {

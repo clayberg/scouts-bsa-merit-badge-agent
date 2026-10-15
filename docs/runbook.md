@@ -25,6 +25,14 @@ curl -fsS http://127.0.0.1:8085/readiness | jq .
 
 # 3. Runtime telemetry, latency percentiles, and compliance audit events
 curl -fsS http://127.0.0.1:8085/api/v1/metrics | jq .
+
+# 4. Super-User Admin Console diagnostics, 144-badge asset health matrix, and zero-PII telemetry summary
+#    (See docs/ADMIN_GUIDE.md for full UI and API documentation)
+curl -fsS http://127.0.0.1:8085/api/admin/diagnostics | jq .
+curl -fsS http://127.0.0.1:8085/api/admin/telemetry/summary | jq .
+
+# 5. Zero-downtime reload of in-memory pamphlet and badge image catalog caches after admin edits
+curl -fsS -X POST http://127.0.0.1:8085/api/admin/cache/reload | jq .
 ```
 
 ---

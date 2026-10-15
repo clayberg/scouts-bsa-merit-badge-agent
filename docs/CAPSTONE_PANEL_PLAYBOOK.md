@@ -4,6 +4,7 @@
 **Author / Presenter**: Eric Clayberg (FDE & Merit Badge Counselor, Troop 19, Middleton, MA)
 **Target Panel Personas**: Chief Technology Officer (CTO), Chief Information Officer / CISO (CIO), Chief Financial Officer (CFO), and Principal AI Engineering Evaluators
 **Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)
+**Super-User Admin Guide**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)
 **Companion Study Guide**: [`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](FDE_CAPSTONE_COMPANION_GUIDE.md)
 **FinOps & Deployment Cost Guide**: [`docs/finops-billing-and-deployment-guide.md`](finops-billing-and-deployment-guide.md)
 
@@ -11,7 +12,7 @@
 
 | Segment | Duration | Focus & Objective |
 | :--- | :--- | :--- |
-| **Part 1: Executive Readout (12 Core Slides, 0 Appendix: `1 / 12` to `12 / 12`)** | 10 Mins | Walk the panel through the volunteer counselor problem, the 4 deliverable pillars & 4-Tab Image Studio, the 7-agent Google ADK architecture, the Co-Design Workbench & `_compute_fitting_font_size()` layout engine, the Counselor UX & Classroom Field Toolkit (Easy Slide Image Switcher, 3 construction animations, Blue Card `#34124` & Scoutbook CSV sign-off tracker, 4-mode session pacing, Quartermaster gear list, and parent email actions), Youth Protection & security guardrails, FinOps unit economics (`$0.14` to `$1.00`), CI/CD evaluation gates (`56 pytest` tests), quantitative ADR benchmarks & post-mortems, the 90-day rollout plan, and the complete `3.00/3.00` Part B / `95/95` AgentOps / `100/100` FDE scorecard. |
+| **Part 1: Executive Readout (12 Core Slides, 0 Appendix: `1 / 12` to `12 / 12`)** | 10 Mins | Walk the panel through the volunteer counselor problem, the 4 deliverable pillars & 4-Tab Image Studio, the 7-agent Google ADK architecture, the Co-Design Workbench & `_compute_fitting_font_size()` layout engine, the Counselor UX & Classroom Field Toolkit (Easy Slide Image Switcher, Dual-Window Presenter View, Live Timer, Quiz Reveal, 3 construction animations, Blue Card `#34124` with Bulk Roster Paste & Scoutbook CSV sign-off tracker, 4-Sub-Tab StudioKit with 4-mode session pacing & Patrol Skill Station Rotator, Quartermaster gear list, parent email actions, and Super-User Admin Console), Youth Protection & security guardrails, FinOps unit economics (`$0.14` to `$1.00`), CI/CD evaluation gates (`57 pytest` tests), quantitative ADR benchmarks & post-mortems, the 90-day rollout plan, and the complete `3.00/3.00` Part B / `95/95` AgentOps / `100/100` FDE scorecard. |
 | **Part 2: Live Interactive Demo** | 5 Mins | Show the unified Material 3 Counselor Workbench (`:8085`), demonstrate the 3 zero-state Scout slide construction animations, ZIP/City local grounding (`01949` / `Middleton, MA`), the 3 visual tiers (`Standard`, `Beautified`, `Studio`) with de-boxed transparent pamphlet figures, the 3-Tab Under-Stage Drawer & 4-Tab Image Studio, the Patrol Blue Card Sign-Off Tracker & Quartermaster Gear Checklist, and 1:1 `.pptx` parity. |
 | **Part 3: CTO / CIO / CFO Panel Q&A** | 15 Mins | Field technical, security, operational, and financial questions using concrete files, tests, metrics, and Slides 5, 6, 10, and 12. |
 
@@ -24,7 +25,7 @@
 
 Across Scouting America, tens of thousands of volunteer counselors teach **144 official Merit Badges**, from Eagle-required badges like *First Aid*, *Weather*, and *Emergency Preparedness* to STEM electives like *Robotics* and *Nuclear Science*. Turning an 80-page BSA Merit Badge Pamphlet into a widescreen slide deck, a printable Scout workbook, and a timed lesson plan takes a volunteer **6 to 10 hours** per badge.
 
-Our workbench cuts that prep time to **under 2 minutes** while guaranteeing **100% verbatim fidelity** to official BSA requirements via a cryptographic **SHA-256 requirement lock**, all within a predictable **`$0.14` to `$1.00`** FinOps budget, verified across **56 automated pytest tests** at **`3.00 / 3.00` Part B**, **`95 / 95` AgentOps**, and **`100 / 100` FDE Readiness**."
+Our workbench cuts that prep time to **under 2 minutes** while guaranteeing **100% verbatim fidelity** to official BSA requirements via a cryptographic **SHA-256 requirement lock**, all within a predictable **`$0.14` to `$1.00`** FinOps budget, verified across **57 automated pytest tests** at **`3.00 / 3.00` Part B**, **`95 / 95` AgentOps**, and **`100 / 100` FDE Readiness**."
 
 > **[NOTE TO ERIC - DO NOT READ ALOUD]**
 > - **Google ADK (Agent Development Kit)**: Google's Python framework (`google-adk`) for orchestrating multi-agent apps on Gemini (`SequentialAgent`, `LoopAgent`, `LlmAgent`, `FunctionTool`, `AgentTool`).
@@ -96,12 +97,12 @@ Fourth, an on-stage **Easy Slide Image Switcher**, a **3-Tab Under-Stage Drawer*
 ### Slide 6 (`06 / 12`): Counselor UX, 3 Construction Animations & Classroom Field Toolkit (0:50)
 
 **Spoken Script**:
-"Slide 6 highlights the **Counselor User Experience and Classroom Field Toolkit** we engineered specifically for troop meetings, summer camps, and Council Merit Badge Midways:
+"Slide 6 highlights the **Counselor User Experience, Classroom Field Toolkit, and Super-User Admin Console** we engineered specifically for troop meetings, summer camps, and Council Merit Badge Midways:
 
-- **First, 3 Preloaded Scout Slide Construction Animations**: Before a deck is built (and while the 5-stage ADK pipeline runs), the 16:9 stage cycles automatically through **14 preloaded storyboard frames across 3 animations**: *Animation 1/3: 3D Heavy Equipment* (with perspective-matched 3D isometric CSS transforms on the selected Merit Badge emblem across frames 1–5 and straight-on placement on frame 6), *Animation 2/3: 2D Camp Pioneering* (timber spars and block-and-tackle pulleys), and *Animation 3/3: 3D Slide-O-Matic (`⚙️ 3. 3D Slide-O-Matic (4f)` — 3D Claymation Workshop)* (a brass-and-oak *Slide-O-Matic*).
-- **Second, Collapsible Setup, Fullscreen Classroom Stage & Instant Text Editing**: Counselors can click **`◀ Hide Setup`** (`#btn-toggle-sidebar`) to collapse the `360px` sidebar, press **`F`** (`Present Fullscreen`) for a dark edge-to-edge classroom projection stage, or edit any slide's title, bullets, and speaker notes in place via `POST /api/v1/slide/regenerate` at **`$0.00` token cost**.
-- **Third, Patrol Blue Card (`#34124`) & 4-Mode Session Pacing**: In Tab 2, counselors add their Patrol Roster, check off completed requirements per Scout (or click `All ✓`), and export a **Scoutbook Plus Readiness CSV**. In Tab 4, a **Session Schedule Format** selector dynamically restructures the agenda across *3 Troop Meetings (45 min each)*, *Summer Camp Week (4× 50-min Mon–Thu + Fri Make-Up)*, *Saturday Merit Badge Midway / Clinic (3-Hour Block)*, or *Weekend Campout Practicum*.
-- **Fourth, Quartermaster Gear Checklist & One-Click Parent Email**: Tab 4 aggregates every hands-on requirement's physical supplies into a printable **Quartermaster Packing Checklist** with a **Class / Patrol Size** multiplier (`1, 4, 8, or 16 Scouts`), alongside one-click **`📋 Copy`**, **`✉️ Draft in Email App` (`mailto:`)**, and **`📨 Compose in Gmail`** buttons on the YPT Parent Prerequisite Letter."
+- **First, 3 Preloaded Scout Slide Construction Animations**: Before a deck is built (and while the 5-stage ADK pipeline runs), the 16:9 stage cycles automatically through **14 preloaded storyboard frames across 3 animations**: *Animation 1/3: 3D Heavy Equipment* (with perspective-matched 3D isometric CSS transforms on the selected Merit Badge emblem across frames 1 to 5 and straight-on placement on frame 6), *Animation 2/3: 2D Camp Pioneering* (timber spars and block-and-tackle pulleys), and *Animation 3/3: 3D Slide-O-Matic (`⚙️ 3. 3D Slide-O-Matic (4f)`, 3D Claymation Workshop)* (a brass-and-oak *Slide-O-Matic*).
+- **Second, Dual-Window Presenter View (`P`), Live Timer, Quiz Reveal (`Q`) & 10-Archetype Picker**: Counselors can use the consolidated **`📥 Export & Print ▾`** menu (including **Printable 3x5 Counselor Pocket Cue Cards**), click **`◀ Hide Setup`** to collapse the `360px` sidebar, press **`F`** (`Present Fullscreen`) or **`P`** (`🪟 Presenter View` synced via `BroadcastChannel`), run a **Live Classroom & Skill Station Countdown Timer (`⏱️ Timer`)**, toggle **Interactive Quiz Answer Reveal Mode (`Q`)**, pick layouts from a **10-Card Visual Archetype Mini-Wireframe Picker**, or edit slide text in place via `POST /api/v1/slide/regenerate` at **`$0.00` token cost**.
+- **Third, Patrol Blue Card (`#34124`), Bulk Roster Paste & 4-Sub-Tab StudioKit**: In Tab 2, counselors add their Patrol Roster (or click **`📋 Bulk Paste Roster`** and stamp a **`📅 Completion Date`**), check off completed requirements per Scout, and export a **Scoutbook Plus Readiness CSV**. In Tab 4, a **4-Sub-Tab StudioKit** provides a **4-Mode Session Schedule Selector**, a **Patrol Skill Station Rotator Matrix (`2-4 Patrols`)**, and a **Pre-Class Prerequisite Readiness Checklist**.
+- **Fourth, Quartermaster Gear Checklist, Parent Email & Super-User Admin Console (`🛡️ Admin`)**: Tab 4 scales physical supplies via a **Quartermaster Packing Checklist** (`1, 4, 8, or 16 Scouts`) and provides one-click **`📋 Copy`**, **`✉️ Draft in Email App` (`mailto:`)**, and **`📨 Compose in Gmail`** buttons on the YPT Parent Letter, while the **Super-User Admin Console** (`docs/ADMIN_GUIDE.md`) provides a **Cached Image & Caption Studio**, **Zero-PII Usage & Image-Swap Telemetry (`ZeroPiiTelemetryStore`)**, and **144-Badge System Diagnostics**."
 
 ### Slide 7 (`07 / 12`): Security, Youth Protection (YPT) & Fault-Tolerant Engineering (0:50)
 
@@ -134,7 +135,7 @@ Two architectural trade-offs drive these savings: **Hybrid Vector + BM25 RAG** c
 
 First, our blocking evaluation gate (`scripts/eval_gate.py`) grades **12 golden Eagle-required and STEM badges** across deterministic and Vertex GenAI Eval metrics: **Recall@3 = 1.00**, **MRR = 1.00**, **NDCG@3 = 1.00**, **ADK Tool Trajectory In-Order Match = 1.00**, **Citation Grounding Coverage = 1.00**, **100% SHA-256 requirement lock**, **zero Stage 1 AABB overlaps**, and **`vertexai.preview.evaluation.EvalTask`** integration.
 
-Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **56 pytest unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py`, deploys to Cloud Run at a **10% canary split**, probes `/readiness`, and promotes to **100% traffic** (or auto-rolls back). And before any live demo, `scripts/verify_live_demo_readiness.py` verifies all runtime subsystems in under 2 seconds."
+Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **57 pytest unit, fault-injection, continuous-learning, Super-User Admin Console, and OpenAPI 3.1 contract drift tests** (`67` paths), and `eval_gate.py`, deploys to Cloud Run at a **10% canary split**, probes `/readiness`, and promotes to **100% traffic** (or auto-rolls back). And before any live demo, `scripts/verify_live_demo_readiness.py` verifies all runtime subsystems in under 2 seconds."
 
 ### Slide 10 (`10 / 12`): Quantitative ADR Benchmarks, Ablations & Engineering Post-Mortems (0:50)
 
@@ -158,7 +159,7 @@ Second, our Cloud Build pipeline (`cloudbuild.yaml`) runs `ruff`, all **56 pytes
 ### Slide 12 (`12 / 12`): Complete Rubric Evidence Scorecard (`3.00/3.00 Part B • 95/95 AgentOps • 100/100 FDE`) (0:30)
 
 **Spoken Script**:
-"Finally, Slide 12 maps every single requirement of the **27-subcategory Official Part B Rubric (`3.00 / 3.00`)**, the **19-criterion AgentOps Code Review Matrix (`95 / 95`)**, and the **100-point FDE Readiness Rubric (`100 / 100`)** directly to the source files and 56 automated tests in our repository.
+"Finally, Slide 12 maps every single requirement of the **27-subcategory Official Part B Rubric (`3.00 / 3.00`)**, the **19-criterion AgentOps Code Review Matrix (`95 / 95`)**, and the **100-point FDE Readiness Rubric (`100 / 100`)** directly to the source files and 57 automated tests in our repository.
 
 With that, let's switch to the live workbench for our 5-minute demonstration."
 

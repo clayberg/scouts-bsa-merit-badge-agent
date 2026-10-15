@@ -6,7 +6,8 @@
 **Original Personal GitHub Target**: `https://github.com/clayberg/scouts-bsa-merit-badge-agent`  
 **Live Google Cloud Run Workbench**: [`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`](https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app)  
 **Executive Readout Playbook (12 Core Slides, 0 Appendix — `<= 15` Cap)**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md)  
-**Detailed User Documentation**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)
+**Detailed User Documentation**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)  
+**Super-User Admin Documentation**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)
 
 ---
 
@@ -44,7 +45,7 @@ We have created and installed a single automated script at `scripts/publish_and_
 
 ### 2.1 What the Script Does
 1. Verifies `.gitignore` excludes `.cache/` and `*.bundle` so the bundle never packs itself recursively.
-2. Optionally runs all 56 `pytest` unit, fault-injection, Easy Slide Image Switcher, and contract-drift tests and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
+2. Optionally runs all 57 `pytest` unit, fault-injection, Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, and contract-drift tests (`67` OpenAPI 3.1 paths) and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
 3. Stages and commits any latest changes on branch `main`.
 4. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)

@@ -9,7 +9,9 @@ Volunteer Scouts BSA Merit Badge Counselors often spend 8 to 15 hours building s
 
 Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **Scouting.org Digital Resource Guide**. The pipeline keeps official requirement wording intact, breaks multi-part requirements into readable teaching slides, embeds official badge patch emblems and de-boxed transparent pamphlet figures, attaches pre-populated or on-demand **Nano Banana hero illustrations** (with deterministic fallback to 220-DPI EDGE Skill Concept Maps), generates 220-DPI technical diagrams, checks every slide for shape overlaps before saving, and writes structured counselor speaker notes.
 
-> **Detailed User Documentation**: For a complete visual walkthrough of every screen, button, and classroom workflow from a Merit Badge Counselor's perspective (with screenshots, Mermaid diagrams, and reference tables), read the **[Detailed User Documentation (`docs/USER_GUIDE.md`)](docs/USER_GUIDE.md)**.
+> **Detailed User & Admin Documentation**:
+> - **Merit Badge Counselor Guide**: For a visual walkthrough of every screen, button, and classroom workflow from a Merit Badge Counselor's perspective (with screenshots, Mermaid diagrams, and reference tables), read the **[Detailed User Documentation (`docs/USER_GUIDE.md`)](docs/USER_GUIDE.md)**.
+> - **Super-User Admin Guide**: For catalog curation across all 3,917 built-in visual assets, zero-PII telemetry monitoring, and system diagnostics, read the **[Super-User Admin Guide (`docs/ADMIN_GUIDE.md`)](docs/ADMIN_GUIDE.md)**.
 
 ---
 
@@ -60,7 +62,7 @@ Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **
   - Directly under the 16:9 slide stage, three horizontal sub-tabs keep all per-slide tools above the fold:
     1. **🎙️ Counselor Teaching Notes (`[SAY]` / `[DEMO]` / `[ASK]`)**: Displays structured instructor talking points, physical demonstration steps, and Socratic check questions tailored to your selected Scout audience age level.
     2. **🎨 Customize Slide & Image Studio**:
-       - **Quick-Switch Slide Image**: Inline dropdown with label on top and side-by-side **`◀` `▶`** arrow buttons to step through all cached images for the badge or select `None` (`$0.00` cost).
+       - **10 Clickable SVG Mini-Wireframe Layout Cards**: Visual archetype picker for switching a slide between split visual, full-width concept cards, 2-column comparison, 2x2 step grid, process flow, Socratic quiz, and field safety layouts.
        - **Per-Slide Layout, Theme, Palette & Right-Side Graphic Controls**: Change Layout Archetype, Card Theme, Brand Palette, or Right-Side Graphic (`Keep Current Slide Graphic`, `Restore Original Slide Graphic`, `Nano Banana Hero / EDGE Skill Concept Map`, or `None (Remove Graphic & Expand Text to Full Width)`).
        - **`🖼️ Manage & Add Slide Images (Catalog / Web / AI)` (Upper-Right Button -> 4-Tab Popup Image Studio)**:
          - **🗂️ 1. Badge Image Catalog & Carousel**: Browse all available images for the active Merit Badge, apply any image in one click, or click **🗑️ Clear Web/AI Cache** (`DELETE /api/badge/images` / `GET /api/v1/cache/clear`) to purge only user-searched web images (`WEB_IMAGE_SEARCH`) and user-created AI images (`NANO_BANANA_AI`) while preserving official BSA pamphlet figures (`PAMPHLET`), pre-generated/auto hero images (`NANO_BANANA_HERO`), and local file uploads (`USER_UPLOAD`).
@@ -69,12 +71,11 @@ Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **
          - **📁 4. File Upload (`POST /api/slide/upload-image`, `$0.00 USD`)**: Upload a local `.png`, `.jpg`, `.jpeg`, or `.webp` photo or diagram from your computer (`<= 10 MB`), normalize it with Pillow (`RGB`, max `1600px`), register it as `USER_UPLOAD`, and apply it directly to the active slide.
     3. **✏️ Quick Edit Slide Text (`POST /api/slide/regenerate` / `POST /api/v1/slide/regenerate` with `title_override`, `bullet_points_override`, `visual_caption_override`, `speaker_notes_override`, `$0.00 USD`)**: Edit any slide's title, visual caption, teaching card lines (`Heading: Body text`), and speaker notes directly in the browser and rebuild the `.pptx` in under one second without an LLM call.
 
-- **Counselor Classroom & Field Toolkit (Blue Card Matrix, Session Pacing, Quartermaster Checklist & Parent Email)**:
-  - **Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker**: Build your patrol roster (`➕ Add Scout`), check off individual requirements per Scout or click **`All ✓`** in the `Quick` column, automatically track `Partial (X/Y)` vs. `Complete (Y/Y)` status, and click **`📥 Export Scoutbook CSV`** or **`🖨️ Print Sign-Off Sheet`**.
-  - **Multi-Format Session Pacing Selector**: Regroup requirements dynamically into **3 Troop Meetings (45 min each)**, **Summer Camp Week (4× 50-min Mon–Thu + Fri Make-Up)**, **Saturday Merit Badge Midway / Clinic (3-Hour Block)**, or **Weekend Campout Practicum (Fri Eve + Sat Field + Sun Sign-Off)**.
-  - **Master Quartermaster Gear & Skill Station Packing Checklist**: Aggregates all physical props and safety supplies across requirements, scales quantities by **Class / Patrol Size** (*1 Scout*, *4 Scouts*, *8 Scouts*, or *16 Scouts*), and provides one-click **`📋 Copy Packing List`** and **`🖨️ Print Checklist`** buttons.
-  - **YPT-Compliant Prerequisite & Parent Welcome Letter**: Auto-drafts a parent and Scoutmaster welcome letter with two-deep leadership (YPT) reminders and one-click **`📋 Copy`**, **`✉️ Draft in Email App`** (`mailto:`), **`📨 Compose in Gmail`**, **`🖨️ Print`**, and **`📥 .MD`** buttons.
-  - **Printable Scout & Counselor Workbook (`🖨️ Print / Save PDF`)**: Formats a clean black-and-white printable Scout workbook with write-in note boxes and requirement sign-off tables.
+- **Counselor Classroom & Field Toolkit (Presenter View, Live Timer, Quiz Reveal, Blue Card Matrix, 4-Sub-Tab StudioKit & 3x5 Pocket Cue Cards)**:
+  - **Consolidated `📥 Export & Print ▾` Menu, Dual-Window Presenter View (`🪟 Presenter View`) & Live Classroom Timer (`⏱️ Timer`)**: The Top App Bar provides a unified `📥 Export & Print ▾` menu (`Download Slide Deck (.PPTX)`, `Download Workbook (.MD)`, `Print / Save Workbook PDF`, `Print 3x5 Pocket Cue Cards`, `Print Prerequisite Readiness Checklist`, and `Export Blue Card CSV`), a **`🪟 Presenter View`** button (`P`) that opens a synchronized audience projector window while keeping `[SAY]` / `[DEMO]` / `[ASK]` notes and next-slide preview on the counselor's laptop, a **Live Classroom & Skill Station Timer (`⏱️ Timer`)** with `45m Troop`, `50m Camp`, `10m Station`, and `+5m` presets, **Interactive Quiz Reveal Mode (`❓ Hide Quiz Answers (Scout Mode)` / `Q`)**, and **Visual Source Mini-Badges & Multi-Image Count Pills (`🖼️ 3`)** in the Left Slide Filmstrip.
+  - **Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker**: Build your patrol roster (`➕ Add Scout` or **`📋 Bulk Paste Roster`** from Scoutbook/TroopWebHost/spreadsheets), set a **`📅 Completion Date`** with one-click **`Stamp Checked`**, check off individual requirements per Scout or click **`All ✓`** in the `Quick` column, automatically track `Partial (X/Y)` vs. `Complete (Y/Y)` status, and click **`📥 Export Scoutbook CSV`** or **`🖨️ Print Sign-Off Sheet`**.
+  - **Workbook Section Filter Bar & 4-Sub-Tab StudioKit**: Filter Tab 3 (`Scout & Counselor Workbook`) by `All Sections`, `Checklist Table`, `Requirement Notes`, or `Instructor Guide`. In Tab 4 (`Lesson Plan, Gear List, Parent Letter & FinOps`), switch cleanly across 4 sub-tabs: **`🗓️ 1. Agenda & Station Rotations`** (including the **4-Format Session Pacing Selector**, **Patrol Skill Station Rotator Matrix** for 2 to 4 patrols, and **Printable 3x5 Counselor Pocket Cue Cards**), **`🎒 2. Quartermaster Gear & Pre-Class Check`** (including the **Master Quartermaster Gear Checklist** with patrol size multiplier and the **Pre-Class Prerequisite Readiness Checklist**), **`✉️ 3. Parent Welcome Letter (YPT)`** (with one-click `📋 Copy`, `✉️ Draft in Email App`, `📨 Compose in Gmail`, `🖨️ Print`, and `📥 .MD` actions), and **`📊 4. Citations, FinOps & Rating`**.
+  - **Zero-PII Super-User Admin Console (`docs/ADMIN_GUIDE.md`)**: Accessed via `Ctrl+Shift+A`, the footer `🔒 Admin` link, or `/?admin=1` (protected by dual-mode `verify_admin_superuser()` auth in `src/security.py`). Provides **Tab 1: Cached Image & Caption Studio** (inline caption editing, 1-click primary promotion `★ Make Default`, Gemini Vision re-captioning, and image replacement across all 144 badges), **Tab 2: Zero-PII Usage, Latency & Image-Swap Telemetry** (`ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py` with recursive `scrub_pii_dict()` enforcement and the **Easy Slide Image Switcher Swap Leaderboard**), and **Tab 3: System Diagnostics & 144-Badge Asset Health**.
 
 - **Persistent Counselor Profile Caching & PII Protection (Local vs. Cloud)**:
   - **Local / Laptop runs**: Your Counselor Name, Troop/Council, Location/ZIP, Email, Phone, and Custom Troop Logo path are cached locally in `.cache/counselor_profile.json` (`0600` owner-only file permissions, git-ignored) so you only need to enter them once.
@@ -194,25 +195,25 @@ The Material 3 Counselor Workbench (`:8085`) uses a responsive two-column layout
 
 ### Right main stage tabs
 
-- **Top App Bar & Blue Summary Banner**: The Top App Bar displays the active **Counselor Profile chip**, links to the **Official BSA Pamphlet** and **Resource Guide**, and download buttons for **Download Workbook (`.MD`)** and **Download Slide Deck (`.PPTX`)**. Below it, the Blue Merit Badge Summary Banner shows the official Merit Badge patch, Eagle/Elective status, and three side-by-side summary boxes (**`TOTAL SLIDES`**, **`REQUIREMENTS`**, **`VISUAL POLISH`**).
+- **Top App Bar & Blue Summary Banner**: The Top App Bar displays the active **Counselor Profile chip**, links to the **Official BSA Pamphlet** and **Resource Guide**, the **`🪟 Presenter View`** button (`P`), the **`?` Keyboard Shortcuts** modal button, and the consolidated **`📥 Export & Print ▾`** menu (`Download Slide Deck (.PPTX)`, `Download Workbook (.MD)`, `Print / Save Workbook PDF`, `Print 3x5 Pocket Cue Cards`, `Print Prerequisite Readiness Checklist`, and `Export Blue Card CSV`). Below it, the Blue Merit Badge Summary Banner shows the official Merit Badge patch, Eagle/Elective status, and three side-by-side summary boxes (**`TOTAL SLIDES`**, **`REQUIREMENTS`**, **`VISUAL POLISH`**).
 - **Tab 1: `Slide Deck Preview`**:
-  - **Left Slide Filmstrip & Progress Column** (toggled via **`« Hide Outline`** / **`» Show Outline`**): Filter slides by requirement ID (`2b`, `4a`) or keyword (`CPR`, `splint`), click any slide card in the filmstrip to jump to it, and inspect the **Research & Generation Progress** card (`▾` toggle and **`Merit Badge Construction Animation`** button).
+  - **Left Slide Filmstrip & Progress Column** (toggled via **`« Hide Outline`** / **`» Show Outline`**): Filter slides by requirement ID (`2b`, `4a`) or keyword (`CPR`, `splint`), inspect color-coded **Visual Source Mini-Badges** (`[🍌 Hero]`, `[📘 Pamphlet]`, `[📊 Diagram]`, `[📁 Custom]`) and **Multi-Image Count Pills (`🖼️ 3`)** on each filmstrip card, click any slide card to jump to it, and inspect the **Research & Generation Progress** card (`▾` toggle and **`Merit Badge Construction Animation`** button).
   - **Scout Slide Construction Showcase**: Automatically cycles across the 3 Scout Slide Construction Animations (*🏗️ 1. 3D Heavy Equipment (6f)*, *🪵 2. 2D Camp Pioneering (4f)*, *⚙️ 3. 3D Slide-O-Matic (4f)*) with the active Merit Badge emblem overlaid while slides are being constructed (or anytime you click **`Merit Badge Construction Animation`** in the progress card).
-  - **Requirement Quick-Jump Bar (`JUMP TO:`), 16:9 Widescreen Slide Stage & Easy Slide Image Switcher**: Click any requirement pill (`Cover`, `Overview`, `Req 1`, `Req 2a`, ..., `Sources`) to jump straight to that requirement's slides, use the on-stage **Easy Slide Image Switcher** pill (`◀` / `(1/3) ▾` / `▶` above the right-hand graphic) to cycle between the primary pamphlet figure and up to 2 Vision-verified pamphlet alternates with paired captions at `$0.00` cost, click **`🖥️ Present Fullscreen`** (or press `F`) for projector mode, and click **`👁️ Reveal Counselor Answer Key`** on Socratic Checkpoint Quiz slides.
+  - **Requirement Quick-Jump Bar (`JUMP TO:`), 16:9 Widescreen Slide Stage, Live Classroom Timer & Easy Slide Image Switcher**: Click any requirement pill (`Cover`, `Overview`, `Req 1`, `Req 2a`, ..., `Sources`) to jump straight to that requirement's slides, use the on-stage **Easy Slide Image Switcher** pill (`◀` / `(1/3) ▾` / `▶` above the right-hand graphic, or `[` / `]` keys) to cycle between the primary pamphlet figure and up to 2 Vision-verified pamphlet alternates with paired captions at `$0.00` cost, launch **Dual-Window Presenter View (`🪟 Presenter View` / `P`)** or **`🖥️ Present Fullscreen` (`F`)**, run the **Live Classroom & Skill Station Timer (`⏱️ Timer`: `45m Troop`, `50m Camp`, `10m Station`, `+5m`)**, and toggle **Interactive Quiz Reveal Mode (`❓ Hide Quiz Answers (Scout Mode)` / `Q`)** on Socratic Checkpoint Quiz slides.
   - **3-Tab Under-Stage Drawer**:
     - **Sub-Tab 1 (`🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])`)**: Displays `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` notes directly below the slide.
-    - **Sub-Tab 2 (`🎨 Customize Slide & Image Studio`)**: Complements the on-stage **Easy Slide Image Switcher** with the **`🖼️ Quick-Switch Slide Image`** dropdown and side-by-side **`◀` `▶`** arrows (including `🚫 None` for full-width text reflow across the entire badge catalog), Layout Archetype / Card Style / Brand Palette / Right-Side Graphic selectors, and the upper-right **`🖼️ Manage & Add Slide Images (Catalog / Web / AI)`** button that opens the **4-Tab Popup Image Studio Modal** (*1. Badge Image Catalog & Carousel*, *2. Web Image Search Agent*, *3. Nano Banana AI Image Generator* with `$0.08` consent gate, and *4. File Upload*).
+    - **Sub-Tab 2 (`🎨 Customize Slide & Image Studio`)**: Features **10 clickable SVG Mini-Wireframe Layout Cards** (visual archetype picker), Card Style / Brand Palette / Right-Side Graphic selectors (including `🚫 None` for full-width text reflow), and the upper-right **`🖼️ Manage & Add Slide Images (Catalog / Web / AI)`** button that opens the **4-Tab Popup Image Studio Modal** (*1. Badge Image Catalog & Carousel*, *2. Web Image Search Agent*, *3. Nano Banana AI Image Generator* with `$0.08` consent gate, and *4. File Upload*).
     - **Sub-Tab 3 (`✏️ Quick Edit Slide Text`)**: Edit slide title, visual caption, teaching card lines, and speaker notes in place at `$0.00` cost.
 - **Tab 2: `Requirements & Blue Card Sign-Off`**:
   - **3-Column Requirements Triage**: Sorts every requirement into **Discussion & Core Knowledge**, **Hands-On Skill Demonstrations**, and **Campout, Field & Home Projects**, with **`▶ Jump to Teaching Slides`** buttons on every card.
-  - **Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker**: Add Scouts (`➕ Add Scout`), check off requirements per Scout or click **`All ✓`** in the `Quick` column, track `Partial (X/Y)` vs. `Complete (Y/Y)` status, and click **`📥 Export Scoutbook CSV`** or **`🖨️ Print Sign-Off Sheet`**.
+  - **Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker**: Add Scouts (`➕ Add Scout` or **`📋 Bulk Paste Roster`**), set a **`📅 Completion Date`** (`Stamp Checked`), check off requirements per Scout or click **`All ✓`** in the `Quick` column, track `Partial (X/Y)` vs. `Complete (Y/Y)` status, and click **`📥 Export Scoutbook CSV`** or **`🖨️ Print Sign-Off Sheet`**.
 - **Tab 3: `Scout & Counselor Workbook`**:
-  - Preview the printable workbook rendered as styled Markdown, click **`📋 Copy Text`**, click **`🖨️ Print / Save PDF`** for a formatted print view, or click **`Download Workbook (.MD)`**.
-- **Tab 4: `Lesson Plan, Gear List, Parent Letter & FinOps`**:
-  - **Counselor Session Agenda & Lesson Plan**: Switch **`🗓️ Session Schedule Format`** between *3 Troop Meetings (45 min each)*, *Summer Camp Week (4× 50-min Mon–Thu + Fri Make-Up)*, *Saturday Merit Badge Midway / Clinic (3-Hour Block)*, and *Weekend Campout Practicum (Fri Eve + Sat Field + Sun Sign-Off)*.
-  - **Prerequisite & Parent Welcome Letter (YPT-Compliant)**: Includes working **`📋 Copy`**, **`✉️ Draft in Email App`** (`mailto:`), **`📨 Compose in Gmail`**, **`🖨️ Print`**, and **`📥 .MD`** buttons.
-  - **Master Quartermaster Gear & Skill Station Packing Checklist**: Scaled by **`🏕️ Class / Patrol Size`** (*1 Scout*, *4 Scouts*, *8 Scouts*, or *16 Scouts*) with interactive checkboxes and working **`📋 Copy Packing List`** and **`🖨️ Print Checklist`** buttons.
-  - **Grounded Deep Research Citations & FinOps Cost Table**: Lists regional `.gov`/`.edu`/`.org` citations, the canonical requirement hash status, the **FinOps Cost & Token Budget (`$1.00 Max Cap`)** table, and the **Counselor Sign-Off & Continuous Learning Flywheel** rating card.
+  - Filter sections with the sticky **Workbook Section Filter Bar** (`All Sections`, `Checklist Table`, `Requirement Notes`, `Instructor Guide`), preview the printable workbook rendered as styled Markdown, click **`📋 Copy Text`**, click **`🖨️ Print / Save PDF`**, or click **`Download Workbook (.MD)`**.
+- **Tab 4: `Lesson Plan, Gear List, Parent Letter & FinOps` (4 Sub-Tabs)**:
+  - **Sub-Tab 1 (`🗓️ 1. Agenda & Station Rotations`)**: Switch **`🗓️ Session Schedule Format`** across *3 Troop Meetings (45 min each)*, *Summer Camp Week (4x 50-min Mon-Thu + Fri Make-Up)*, *Saturday Merit Badge Midway / Clinic (3-Hour Block)*, and *Weekend Campout Practicum*, generate a **Patrol Skill Station Rotator Matrix** (`2`, `3`, or `4` patrols), and print **3x5 Counselor Pocket Cue Cards (`🖨️ Print 3x5 Pocket Cue Cards`)**.
+  - **Sub-Tab 2 (`🎒 2. Quartermaster Gear & Pre-Class Check`)**: Includes the **Master Quartermaster Gear & Skill Station Packing Checklist** scaled by **`🏕️ Class / Patrol Size`** (*1*, *4*, *8*, or *16 Scouts*) and the **Pre-Class Prerequisite Readiness Checklist** (`PREREQUISITE_CAMPOUT_HOME` Day 1 check-in table).
+  - **Sub-Tab 3 (`✉️ 3. Parent Welcome Letter (YPT)`)**: Includes working **`📋 Copy`**, **`✉️ Draft in Email App`** (`mailto:`), **`📨 Compose in Gmail`**, **`🖨️ Print`**, and **`📥 .MD`** buttons.
+  - **Sub-Tab 4 (`📊 4. Citations, FinOps & Rating`)**: Lists regional `.gov`/`.edu`/`.org` citations, the canonical requirement hash status, the **FinOps Cost & Token Budget (`$1.00 Max Cap`)** table, and the **Counselor Sign-Off & Continuous Learning Flywheel** rating card.
 
 ---
 
@@ -282,6 +283,7 @@ scouts-bsa-merit-badge-agent/
 ├── deliverables/               # Generated .pptx slide decks, .md workbooks, and evaluation reports
 ├── docs/
 │   ├── USER_GUIDE.md                     # Detailed visual User Guide with screenshots, diagrams & tables
+│   ├── ADMIN_GUIDE.md                    # Super-User Admin Console & Zero-PII Telemetry Guide
 │   ├── images/                           # High-resolution annotated UI and slide showcase PNGs
 │   ├── API_INTEGRATION_GUIDE.md          # REST (/api/v1/*), SSE, and A2A 1.0 integration guide
 │   ├── CAPSTONE_PANEL_PLAYBOOK.md        # 12-slide presentation guide, talk tracks, and Q&A defense matrix
@@ -322,6 +324,7 @@ scouts-bsa-merit-badge-agent/
 │   │   └── session_store.py    # PersistentSessionStore (SQLite WAL + pgvector adapter + hybrid BM25/vector RRF)
 │   ├── observability/
 │   │   ├── logging_setup.py    # Structured JSON logging, intent/outcome logs, and DLP PII scrubber
+│   │   ├── telemetry_store.py  # ZeroPiiTelemetryStore (SQLite usage, stage latency, and image-swap telemetry)
 │   │   └── tracing.py          # OpenTelemetry TracerProvider, ring buffer, and Cloud Trace exporter
 │   ├── tools/
 │   │   ├── scouting_scraper.py    # 144-badge catalog, pamphlet scraper, and workbook generator
@@ -371,12 +374,13 @@ scouts-bsa-merit-badge-agent/
 
 ### User and engineering documentation
 - **[`docs/USER_GUIDE.md`](docs/USER_GUIDE.md)**: Detailed user documentation written from a Merit Badge Counselor's perspective, featuring real UI screenshots, Mermaid workflow diagrams, and reference tables for every workbench option.
+- **[`docs/ADMIN_GUIDE.md`](docs/ADMIN_GUIDE.md)**: Super-User Admin Console documentation covering the 144-Badge Catalog & Caption Studio, Zero-PII Usage, Latency & Image-Swap Telemetry (`ZeroPiiTelemetryStore`), System Diagnostics, and `/api/admin/*` endpoints.
 - **[`docs/TDD.md`](docs/TDD.md)**: Full Technical Design Document covering the 7-agent pipeline, Pydantic v2 data contracts, security boundary, and observability architecture.
-- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Eight Architecture Decision Records covering the options evaluated, quantitative benchmark matrices, and engineering post-mortems.
+- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Nine Architecture Decision Records covering the options evaluated, quantitative benchmark matrices, and engineering post-mortems.
 - **[`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](docs/FDE_CAPSTONE_COMPANION_GUIDE.md)** and **[`docs/CAPSTONE_PANEL_PLAYBOOK.md`](docs/CAPSTONE_PANEL_PLAYBOOK.md)**: Slide-by-slide executive readout companion guide (**12 Core Slides, 0 Appendix**), jargon decoder, presenter talk tracks, and panel Q&A defense matrix.
 - **[`docs/finops-billing-and-deployment-guide.md`](docs/finops-billing-and-deployment-guide.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, and budget/quota error handling.
-- **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification and request examples for `/api/v1/*`, `/a2a/*`, `/health`, and `/readiness`.
-- **[`docs/runbook.md`](docs/runbook.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), SQLite online backup, and Cloud Run revision rollback.
+- **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification (`67` paths) and request examples for `/api/v1/*`, `/api/admin/*`, `/a2a/*`, `/health`, and `/readiness`.
+- **[`docs/runbook.md`](docs/runbook.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), Super-User Admin Console diagnostics, SQLite online backup, and Cloud Run revision rollback.
 
 ### Environment variables (`.env`)
 
@@ -385,6 +389,8 @@ scouts-bsa-merit-badge-agent/
 | `GEMINI_API_KEY` | *(Optional)* | Google Gemini API key (or loaded from Google Cloud Secret Manager via `get_secret()`) |
 | `BSA_HITL_SECRET_KEY` | *(Auto-generated / Secret Manager)* | HMAC-SHA256 signing key for Human-in-the-Loop confirmation tokens |
 | `AUTH_REQUIRED` | `false` (local) / `true` (Cloud Run) | Enforces `X-API-Key` or `Authorization: Bearer <JWT>` on API routes when `true` |
+| `ADMIN_SUPERUSER_TOKEN` | *(Optional / `BSA_ADMIN_KEY`)* | Passkey / Bearer token for unlocking the Super-User Admin Console (`POST /api/admin/auth`) |
+| `ADMIN_ALLOWED_EMAILS` | *(Optional)* | Comma-separated email allowlist for Cloud IAP identity auto-unlock on `/api/admin/*` |
 | `GOOGLE_CLOUD_PROJECT` | `clayberg-scouts-bsa-prod` | GCP project ID for Secret Manager, Cloud DLP, Cloud Trace, and Vertex AI |
 | `GOOGLE_CLOUD_LOCATION` | `us-central1` | GCP region |
 | `PORT` | `8085` | HTTP port for the FastAPI Material 3 Counselor Workbench |
@@ -465,7 +471,7 @@ adk deploy cloud_run \
 ## 8. Testing and evaluation gate
 
 ```bash
-# 1. Run all 56 unit, security, fault-injection, Image Studio, Easy Slide Image Switcher, Field Toolkit, OpenAPI drift, and conformance tests
+# 1. Run all 57 unit, security, fault-injection, Image Studio, Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, OpenAPI drift, and conformance tests
 .venv/bin/pytest tests/ -v
 
 # 2. Run the pre-deployment evaluation gate across the 12 golden badges

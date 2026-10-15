@@ -817,12 +817,15 @@ def seed_badge_image_catalog_from_storyboard(
                     pamphlet_matches.append(item)
             pamphlet_matches.sort(
                 key=lambda x: (
+                    0 if bool(x.get("is_alternate")) else 1,
                     0 if str(x.get("req_number") or "") == req_num else 1,
-                    int(x.get("alternate_rank") or 0),
+                    int(x.get("alternate_rank") or 99),
                     str(x.get("image_path") or ""),
                 )
             )
             for pm in pamphlet_matches:
+                if len(slide_choices) >= 3:
+                    break
                 _add_choice(pm)
 
         for item in catalog_list:
@@ -830,7 +833,7 @@ def seed_badge_image_catalog_from_storyboard(
             item_req = str(item.get("req_number") or "")
             item_base_req = item_req.rstrip("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ") or item_req
             if st in ("USER_UPLOAD", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH"):
-                if item.get("slide_title") == slide.get("title") or (not is_intro_slide and item_req == req_num):
+                if item.get("slide_title") and item.get("slide_title") == slide.get("title"):
                     _add_choice(item)
             if item["image_id"] in seen_ids:
                 continue

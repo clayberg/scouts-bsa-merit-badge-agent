@@ -5,6 +5,7 @@
 - **Total Duration**: ~15 Minutes (`~10 Minutes` for the 12-Slide Executive Readout Deck + `~5 Minutes` for the Live Interactive Demo), followed by Panel Q&A
 - **Companion Playbook**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md) (12 Core Slides)
 - **Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)
+- **Super-User Admin Guide**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)
 - **Format Convention**: Uses the same **`[STAGE DIRECTION]`**, **`[SAY]`**, and **`[DEMONSTRATE]`** structure used in the speaker notes of our generated Merit Badge slide decks, with natural inline expansions for every acronym on first mention.
 
 ---
@@ -36,7 +37,7 @@
   >
   > For my capstone project, I built the **Scouts BSA Merit Badge Counselor Workbench** — a multi-agent curriculum engine built on the **Google Agent Development Kit (ADK)** and **Vertex AI**, deployed live on **Google Cloud Run**.
   >
-  > I built this to solve a very practical problem that volunteer counselors deal with every single week: taking an 80-page official Scouting America Merit Badge pamphlet and turning it into a classroom-ready 16:9 PowerPoint slide deck, a printable Scout workbook, and a timed lesson plan in under two minutes, with 100% requirement fidelity across all **144 official Merit Badges**, verified across **56 automated pytest tests**, and predictable unit economics between **$0.14 and $1.00 per deck**."
+  > I built this to solve a very practical problem that volunteer counselors deal with every single week: taking an 80-page official Scouting America Merit Badge pamphlet and turning it into a classroom-ready 16:9 PowerPoint slide deck, a printable Scout workbook, and a timed lesson plan in under two minutes, with 100% requirement fidelity across all **144 official Merit Badges**, verified across **57 automated pytest tests**, and predictable unit economics between **$0.14 and $1.00 per deck**."
 - **`[STAGE DIRECTION — ADVANCE TO SLIDE 2 (02 / 12)]`**
 
 ---
@@ -125,16 +126,16 @@
 - **`[DEMONSTRATE]`**:
   - Point across the 4 counselor UX and classroom toolkit cards on **Slide 6**:
     - `1. 3 Scout Slide Construction Animations (14 Frames)`
-    - `2. Collapsible Setup, Fullscreen Stage (F) & Quick Text Edit`
-    - `3. Patrol Blue Card (#34124) & 4-Mode Session Pacing`
-    - `4. Quartermaster Gear Checklist & One-Click Parent Email`
+    - `2. Presenter View (P), Live Timer, Quiz Reveal (Q) & 10-Archetype Picker`
+    - `3. Patrol Blue Card (#34124), Bulk Roster Paste & 4-Sub-Tab StudioKit`
+    - `4. Quartermaster Gear, Pre-Class Check & Zero-PII Admin Console (🛡️ Admin)`
 - **`[SAY]`**:
-  > "Slide 6 highlights the **Counselor User Experience and Classroom Field Toolkit** we built specifically for troop meetings, summer camps, and Council Merit Badge Midways:
+  > "Slide 6 highlights the **Counselor User Experience, Classroom Field Toolkit, and Super-User Admin Console** we built specifically for troop meetings, summer camps, and Council Merit Badge Midways:
   >
-  > - **Card 1 (`3 Scout Slide Construction Animations`)**: Before a deck is built — and while the 5-stage ADK pipeline runs — the 16:9 stage cycles automatically through **14 preloaded storyboard frames across 3 animations**: *Animation 1/3: 3D Heavy Equipment* (where miniature Scouts operate cranes, forklifts, and a twin-rotor cargo helicopter while the selected Merit Badge emblem renders with perspective-matched 3D isometric tilt on frames 1–5 and straight-on placement on frame 6), *Animation 2/3: 2D Camp Pioneering* (timber spars and block-and-tackle pulleys), and *Animation 3/3: 3D Slide-O-Matic (`⚙️ 3. 3D Slide-O-Matic (4f)` — 3D Claymation Workshop)* (a brass-and-oak *Slide-O-Matic*).
-  > - **Card 2 (`Collapsible Setup, Fullscreen Stage & Quick Text Edit`)**: Counselors can click **`◀ Hide Setup`** in the top header to collapse the `360px` sidebar, press **`F`** (`Present Fullscreen`) for a distraction-free dark classroom projection stage, or edit any slide's title, bullets, and speaker notes in place via `POST /api/v1/slide/regenerate` at **`$0.00` token cost**.
-  > - **Card 3 (`Patrol Blue Card #34124 & 4-Mode Session Pacing`)**: In Tab 2, counselors add their Patrol Roster, check off completed requirements per Scout (or click `All ✓`), and export a **Scoutbook Plus Readiness CSV**. In Tab 4, a **Session Schedule Format** selector dynamically restructures the agenda across *3 Troop Meetings (45 min each)*, *Summer Camp Week (4× 50-min Mon–Thu + Fri Make-Up)*, *Saturday Merit Badge Midway / Clinic (3-Hour Block)*, or *Weekend Campout Practicum*.
-  > - **Card 4 (`Quartermaster Gear Checklist & One-Click Parent Email`)**: Tab 4 aggregates every hands-on requirement's physical supplies into a printable **Quartermaster Packing Checklist** with a **Class / Patrol Size** multiplier (`1, 4, 8, or 16 Scouts`), alongside one-click **`📋 Copy`**, **`✉️ Draft in Email App` (`mailto:`)**, and **`📨 Compose in Gmail`** buttons on the YPT Parent Prerequisite Letter."
+  > - **Card 1 (`3 Scout Slide Construction Animations`)**: Before a deck is built, and while the 5-stage ADK pipeline runs, the 16:9 stage cycles automatically through **14 preloaded storyboard frames across 3 animations**: *Animation 1/3: 3D Heavy Equipment* (where miniature Scouts operate cranes, forklifts, and a twin-rotor cargo helicopter while the selected Merit Badge emblem renders with perspective-matched 3D isometric tilt on frames 1 to 5 and straight-on placement on frame 6), *Animation 2/3: 2D Camp Pioneering* (timber spars and block-and-tackle pulleys), and *Animation 3/3: 3D Slide-O-Matic (`⚙️ 3. 3D Slide-O-Matic (4f)`, 3D Claymation Workshop)* (a brass-and-oak *Slide-O-Matic*).
+  > - **Card 2 (`Presenter View, Live Timer, Quiz Reveal & 10-Archetype Picker`)**: Counselors can use the consolidated **`📥 Export & Print ▾`** menu (including **Printable 3x5 Counselor Pocket Cue Cards**), click **`◀ Hide Setup`** to collapse the `360px` sidebar, press **`F`** (`Present Fullscreen`) or **`P`** (`🪟 Presenter View` synced via `BroadcastChannel`), run a **Live Classroom & Skill Station Countdown Timer (`⏱️ Timer`)**, toggle **Interactive Quiz Answer Reveal Mode (`Q`)**, pick layouts from a **10-Card Visual Archetype Mini-Wireframe Picker**, or edit any slide's title, bullets, and speaker notes in place via `POST /api/v1/slide/regenerate` at **`$0.00` token cost**.
+  > - **Card 3 (`Patrol Blue Card #34124, Bulk Roster Paste & 4-Sub-Tab StudioKit`)**: In Tab 2, counselors add their Patrol Roster (or click **`📋 Bulk Paste Roster`** and stamp a **`📅 Completion Date`**), check off completed requirements per Scout (or click `All ✓`), and export a **Scoutbook Plus Readiness CSV**. In Tab 4, a **4-Sub-Tab StudioKit** provides a **4-Mode Session Schedule Selector**, a **Patrol Skill Station Rotator Matrix (`2-4 Patrols`)**, and a **Pre-Class Prerequisite Readiness Checklist**.
+  > - **Card 4 (`Quartermaster Gear, Pre-Class Check & Zero-PII Admin Console`)**: Tab 4 scales physical supplies via a printable **Quartermaster Packing Checklist** (`1, 4, 8, or 16 Scouts`) and provides one-click **`📋 Copy`**, **`✉️ Draft in Email App` (`mailto:`)**, and **`📨 Compose in Gmail`** buttons on the YPT Parent Prerequisite Letter, while the **Super-User Admin Console (`🛡️ Admin`)** provides a **Cached Image & Caption Studio**, **Zero-PII Usage & Image-Swap Telemetry (`ZeroPiiTelemetryStore`)**, and **144-Badge System Diagnostics**."
 - **`[STAGE DIRECTION — ADVANCE TO SLIDE 7 (07 / 12)]`**
 
 ---
@@ -189,8 +190,8 @@
   > "How do we guarantee that prompt edits or model upgrades never break requirement fidelity? Slide 9 shows our **AI Development Harness** and our blocking **Continuous Integration and Continuous Deployment (CI/CD)** pipeline in `cloudbuild.yaml` and GitHub Actions — with zero `--exit-zero` bypasses:
   >
   > - **Card 1 (`Multi-Metric Eval Gate`)**: `scripts/eval_gate.py` and the **Vertex AI GenAI Evaluation Service (`EvalTask`)** grade our 12-badge Golden Evaluation Suite on every commit. We enforce deterministic **Information Retrieval (IR)** metrics — achieving **1.00 Recall@3**, **1.00 Mean Reciprocal Rank (MRR)**, and **1.00 Normalized Discounted Cumulative Gain (NDCG@3)** on Hybrid RRF — alongside **1.00 ADK Tool Trajectory match**, **1.00 Citation Grounding coverage**, **100% sub-requirement coverage**, **100% SHA-256 lock verification**, and **0 AABB bounding-box overlaps**.
-  > - **Card 2 (`Canary CI/CD & Rollback`)**: After Ruff linting, all **56 `pytest` unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py` pass, Cloud Build deploys the new container with `--tag=canary` at a **10% live traffic split**, probes `/readiness`, and automatically rolls back 100% of traffic to the previous stable revision if any check fails.
-  > - **Card 3 (`Load & HITL Feedback`)**: Under an 8-worker concurrent load test, warm median latency (**p50**) is **6.8 milliseconds** and 95th-percentile latency (**p95**) is **14.2 milliseconds**, while `POST /api/v1/feedback` records counselor star ratings and requirement verification sign-offs."
+  > - **Card 2 (`Canary CI/CD & Rollback`)**: After Ruff linting, all **57 `pytest` unit, fault-injection, continuous-learning, Super-User Admin Console, and OpenAPI 3.1 contract drift tests** (`67` paths), and `eval_gate.py` pass, Cloud Build deploys the new container with `--tag=canary` at a **10% live traffic split**, probes `/readiness`, and automatically rolls back 100% of traffic to the previous stable revision if any check fails.
+  > - **Card 3 (`Load, HITL Feedback & Zero-PII Admin Telemetry`)**: Under an 8-worker concurrent load test, warm median latency (**p50**) is **6.8 milliseconds** and 95th-percentile latency (**p95**) is **14.2 milliseconds**, while `POST /api/v1/feedback` records counselor star ratings and `ZeroPiiTelemetryStore` (`scouts_bsa_telemetry.db`) tracks aggregate usage, latency, FinOps spend, and Easy Slide Image Switcher swap leaderboards with `scrub_pii_dict()`."
 - **`[STAGE DIRECTION — ADVANCE TO SLIDE 10 (10 / 12)]`**
 
 ---
@@ -245,7 +246,7 @@
   - Gesture across the 5 domain columns on **Slide 12** (`1. Tool & Interface`, `2. Context & Memory`, `3. Orchestration`, `4. Observability`, `5. Infra & CI/CD`).
   - Then switch your screen share from Google Slides to the live **Material 3 Counselor Workbench (`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app` or `http://clayberg.c.googlers.com:8085`)**.
 - **`[SAY]`**:
-  > "Finally, **Slide 12** is our complete **Rubric Evidence Scorecard**, mapping every single requirement across all three evaluation frameworks directly to source files and our **56 automated tests**: a **3.00 out of 3.00** across all 27 subcategories of the Official Capstone Part B Rubric, **95 out of 95** on the 19-criterion AgentOps Code Review Matrix, and **100 out of 100** on the FDE Production Readiness Scorecard across Tool & Interface Design, Context & Memory, Orchestration & Logic, Observability & Tracing, and Infrastructure & CI/CD.
+  > "Finally, **Slide 12** is our complete **Rubric Evidence Scorecard**, mapping every single requirement across all three evaluation frameworks directly to source files and our **57 automated tests**: a **3.00 out of 3.00** across all 27 subcategories of the Official Capstone Part B Rubric, **95 out of 95** on the 19-criterion AgentOps Code Review Matrix, and **100 out of 100** on the FDE Production Readiness Scorecard across Tool & Interface Design, Context & Memory, Orchestration & Logic, Observability & Tracing, and Infrastructure & CI/CD.
   >
   > With that foundation in place, let's switch over to our live Material 3 Counselor Workbench for a 5-minute interactive demo!"
 - **`[STAGE DIRECTION — SWITCH SCREEN SHARE TO BROWSER TAB 2: LIVE MATERIAL 3 COUNSELOR WORKBENCH AT https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app]`**

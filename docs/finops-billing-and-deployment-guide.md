@@ -82,12 +82,13 @@ Instead of storing an API key in a plain-text `.env` file, the Cloud Run service
 * **Dedicated IAM Service Account (`scouts-bsa-agent-sa`)**: Terraform provisions a least-privilege service account and grants it `roles/aiplatform.user` (allowing Vertex AI calls via Application Default Credentials) and `roles/secretmanager.secretAccessor`.
 * **Google Cloud Secret Manager (`USE_GCP_SECRET_MANAGER=true`)**: When the container starts on Cloud Run, `AppConfig.get_effective_gemini_api_key()` in `src/config.py` fetches the API key directly from `projects/<PROJECT_ID>/secrets/scouts-bsa-gemini-api-key/versions/latest` in memory.
 
-### Protecting the Shared Council/Troop Wallet
+### Protecting the Shared Council/Troop Wallet & Monitoring Zero-PII FinOps Telemetry
 
-Because any counselor visiting the Cloud Run URL is spending from the host project's shared billing account, the deployment includes two financial guardrails:
+Because any counselor visiting the Cloud Run URL is spending from the host project's shared billing account, the deployment includes two financial guardrails and an administrative telemetry dashboard:
 
 * **Cloud Armor Rate Limiting (`terraform/main.tf`)**: A Google Cloud Armor security policy (`scouts-bsa-model-armor-edge-policy`) throttles any single IP address exceeding **120 requests per minute** with an automatic `HTTP 429` response and a 5-minute ban (`300s`).
 * **Per-Deck FinOps Budget Cap (`$1.00 USD`)**: Even if a user requests the largest badge in the catalog in `STUDIO` mode, the backend caps per-deck spend at `$1.00 USD`.
+* **Super-User Admin Console Zero-PII FinOps & Swap Telemetry ([`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md))**: Council administrators can open **Tab 2 (`Zero-PII Usage, Latency & Image-Swap Telemetry`)** of the Super-User Admin Console (`GET /api/admin/telemetry/summary`, backed by `ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py` with recursive `scrub_pii_dict()` enforcement) to monitor total decks generated, cache hit rate (`%`), average FinOps spend per deck (`$ USD`), `p50`/`p95` stage latencies, and the **Easy Slide Image Switcher Swap Leaderboard** without storing any counselor or Scout PII.
 
 ## 4. Does the App Ever Encounter a Cost-Denial Error, and What Does It Do?
 
