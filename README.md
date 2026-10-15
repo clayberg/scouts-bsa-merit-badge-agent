@@ -60,7 +60,7 @@ Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **
 - **Easy Slide Image Switcher, 3-Tab Under-Stage Drawer, `WebImageSearchAgent`, `NanoBananaImageAgent`, Local File Upload & Quick Text Edit**:
   - **Easy Slide Image Switcher (On-Stage Visual Pill & Popover)**: Directly on the 16:9 slide stage above the right-hand graphic (`#stage-visual-source-badge`), slides with multiple available visuals (such as a primary pamphlet figure plus up to 2 Gemini Vision-verified pamphlet alternates for that requirement in `slide_image_choices`) display **`◀`** and **`▶`** arrows and a **`(1/3) ▾`** button. Counselors can click **`◀`** or **`▶`** to flip between image choices in one click, or click **`(1/3) ▾`** to open a floating popover (`#stage-visual-pill-popover`) comparing each option's `56x42px` thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`, `Uploaded Custom Image`), and Vision-verified caption. Selecting an option updates the slide graphic, swaps in its paired caption, and rebuilds the `.pptx` deck in the background at `$0.00` token cost. Slides with a single visual (such as a Requirement Intro hero illustration) show a clean static source pill.
   - Directly under the 16:9 slide stage, three horizontal sub-tabs keep all per-slide tools above the fold:
-    1. **🎙️ Counselor Teaching Notes (`[SAY]` / `[DEMO]` / `[ASK]`)**: Displays structured instructor talking points, physical demonstration steps, and Socratic check questions tailored to your selected Scout audience age level.
+    1. **🎙️ Counselor Teaching Notes (`[SAY]` / `[DEMO]` / `[ASK]`, Option C Hybrid Script Engine)**: Compiles a conversational first-person speaking script (`[SAY]`) on the fly (`<5ms` per deck) with highlighted inline stage directions (`🎬 [Point to Card 1: ...]`, `🎬 [Gesture to the right-hand figure: ...]`, `🎬 [Pause for hands]`), selective physical/visual `[DEMONSTRATE]` cues, and patrol `[ASK SCOUTS]` check questions paired with a highlighted **`✓ Expected Answer:`** key. Includes **`✨ AI Polish Script`** (`POST /api/v1/slide/polish-notes`, cached in SQLite `polished_speaker_notes`) and **`📋 Copy Script`** buttons, and automatically re-syncs the speaking script whenever you switch a slide's image or edit its cards.
     2. **🎨 Customize Slide & Image Studio**:
        - **10 Clickable SVG Mini-Wireframe Layout Cards**: Visual archetype picker for switching a slide between split visual, full-width concept cards, 2-column comparison, 2x2 step grid, process flow, Socratic quiz, and field safety layouts.
        - **Per-Slide Layout, Theme, Palette & Right-Side Graphic Controls**: Change Layout Archetype, Card Theme, Brand Palette, or Right-Side Graphic (`Keep Current Slide Graphic`, `Restore Original Slide Graphic`, `Nano Banana Hero / EDGE Skill Concept Map`, or `None (Remove Graphic & Expand Text to Full Width)`).
@@ -471,7 +471,7 @@ adk deploy cloud_run \
 ## 8. Testing and evaluation gate
 
 ```bash
-# 1. Run all 57 unit, security, fault-injection, Image Studio, Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, OpenAPI drift, and conformance tests
+# 1. Run all 59 unit, security, fault-injection, Image Studio, Easy Slide Image Switcher, Conversational Teaching Notes, Counselor UX, Super-User Admin Console, OpenAPI drift, and conformance tests
 .venv/bin/pytest tests/ -v
 
 # 2. Run the pre-deployment evaluation gate across the 12 golden badges

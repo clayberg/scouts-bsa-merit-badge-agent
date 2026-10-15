@@ -37,7 +37,7 @@
   >
   > For my capstone project, I built the **Scouts BSA Merit Badge Counselor Workbench**: a multi-agent curriculum engine built on the **Google Agent Development Kit (ADK)** and **Vertex AI**, deployed live on **Google Cloud Run**.
   >
-  > I built this to solve a very practical problem that volunteer counselors deal with every single week: taking an 80-page official Scouting America Merit Badge pamphlet and turning it into a classroom-ready 16:9 PowerPoint slide deck, a printable Scout workbook, and a timed lesson plan in under two minutes, with 100% requirement fidelity across all **144 official Merit Badges**, verified across **58 automated pytest tests**, and predictable unit economics between **$0.14 and $1.00 per deck**."
+  > I built this to solve a very practical problem that volunteer counselors deal with every single week: taking an 80-page official Scouting America Merit Badge pamphlet and turning it into a classroom-ready 16:9 PowerPoint slide deck, a printable Scout workbook, and a timed lesson plan in under two minutes, with 100% requirement fidelity across all **144 official Merit Badges**, verified across **59 automated pytest tests**, and predictable unit economics between **$0.14 and $1.00 per deck**."
 - **`[STAGE DIRECTION: ADVANCE TO SLIDE 2 (02 / 12)]`**
 
 ---
@@ -246,7 +246,7 @@
   - Gesture across the 5 domain columns on **Slide 12** (`1. Tool & Interface`, `2. Context & Memory`, `3. Orchestration`, `4. Observability`, `5. Infra & CI/CD`).
   - Then switch your screen share from Google Slides to the live **Material 3 Counselor Workbench (`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app` or `http://clayberg.c.googlers.com:8085`)**.
 - **`[SAY]`**:
-  > "Finally, **Slide 12** is our complete **Rubric Evidence Scorecard**, mapping every single requirement across all three evaluation frameworks directly to source files and our **58 automated tests**: a **3.00 out of 3.00** across all 27 subcategories of the Official Capstone Part B Rubric, **95 out of 95** on the 19-criterion AgentOps Code Review Matrix, and **100 out of 100** on the FDE Production Readiness Scorecard across Tool & Interface Design, Context & Memory, Orchestration & Logic, Observability & Tracing, and Infrastructure & CI/CD.
+  > "Finally, **Slide 12** is our complete **Rubric Evidence Scorecard**, mapping every single requirement across all three evaluation frameworks directly to source files and our **59 automated tests**: a **3.00 out of 3.00** across all 27 subcategories of the Official Capstone Part B Rubric, **95 out of 95** on the 19-criterion AgentOps Code Review Matrix, and **100 out of 100** on the FDE Production Readiness Scorecard across Tool & Interface Design, Context & Memory, Orchestration & Logic, Observability & Tracing, and Infrastructure & CI/CD.
   >
   > With that foundation in place, let's switch over to our live Material 3 Counselor Workbench for a 5-minute interactive demo!"
 - **`[STAGE DIRECTION: SWITCH SCREEN SHARE TO BROWSER TAB 2: LIVE MATERIAL 3 COUNSELOR WORKBENCH AT https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app]`**

@@ -1518,6 +1518,113 @@ def test_v24_plan5_complete_plan3_audit_and_remediation():
     assert "customizeActiveSlideDeck" in ui_js
 
 
+def test_v25_conversational_teaching_notes_and_polish_endpoint(tmp_path) -> None:
+    """Verify Plan 6 Option C Hybrid Conversational Counselor Teaching Notes & /api/v1/slide/polish-notes."""
+    from pathlib import Path
+    from src.server import app
+
+    client = TestClient(app)
+
+    # 1. Generate First Aid Deep Dive deck and verify Layer 1 Conversational First-Person Script Compiler
+    out_pptx = os.path.join(tmp_path, "First_Aid_v25_Conversational_Notes.pptx")
+    wf_res = run_merit_badge_workflow(
+        badge_name="First Aid",
+        depth_mode="Deep Dive / Camp School Deck",
+        output_path=out_pptx,
+    )
+    assert wf_res["status"] == "SUCCESS"
+    slides = wf_res["storyboard"]["slides"]
+    assert len(slides) >= 45
+
+    banned_meta_phrases = (
+        "Teach the core concepts on",
+        "Walk Scouts through the",
+        "Introduce First Aid Requirement",
+        "including common mistakes new Scouts make",
+        "thekit",
+        "personunder",
+        "andallowed",
+        "Theindividual",
+    )
+
+    stage_cue_slides = 0
+    expected_answer_slides = 0
+
+    for idx, s in enumerate(slides):
+        notes = str(s.get("presenter_notes") or "")
+        assert "[SAY]" in notes, f"Slide {idx + 2} missing [SAY]"
+        assert "—" not in notes and "–" not in notes and "..." not in notes, (
+            f"Slide {idx + 2} presenter_notes contains em-dash, en-dash, or ellipsis"
+        )
+        for banned in banned_meta_phrases:
+            assert banned not in notes, f"Slide {idx + 2} still contains banned phrase or kerning glitch: {banned}"
+
+        if any(cue in notes for cue in ("[Point to", "[Gesture to", "[Trace across", "[Hold up", "[Pause")):
+            stage_cue_slides += 1
+        if "[ASK SCOUTS]" in notes:
+            assert "[Expected Answer:" in notes, f"Slide {idx + 2} [ASK SCOUTS] missing [Expected Answer: ...]"
+            expected_answer_slides += 1
+
+    assert stage_cue_slides >= len(slides) - 2
+    assert expected_answer_slides >= 20
+
+    # 2. Verify POST /api/slide/regenerate dynamically synchronizes presenter_notes when visual caption changes
+    target_slide = dict(slides[2])
+    regen_res = client.post(
+        "/api/slide/regenerate",
+        json={
+            "badge_name": "First Aid",
+            "slide_index": 2,
+            "new_archetype": "SPLIT_VISUAL_EXPLAINER",
+            "visual_source_mode": "none",
+            "slide_data": target_slide,
+        },
+    ).json()
+    assert regen_res["status"] == "SUCCESS"
+    assert "[SAY]" in regen_res.get("updated_presenter_notes", "")
+    assert "[Gesture to the right-hand figure:" not in regen_res.get("updated_presenter_notes", "")
+
+    # 3. Verify Option C Layer 2: POST /api/v1/slide/polish-notes + SQLite cache hit on second call
+    polish_1 = client.post(
+        "/api/v1/slide/polish-notes",
+        json={
+            "badge_name": "First Aid",
+            "slide_index": 2,
+            "slide_data": slides[2],
+            "audience_level": "All Scouts (Ages 11-17)",
+            "force_refresh": True,
+        },
+    ).json()
+    assert polish_1["status"] == "SUCCESS"
+    assert polish_1["cache_hit"] is False
+    assert "[Studio Coaching Cue:" in polish_1["presenter_notes"]
+
+    polish_2 = client.post(
+        "/api/v1/slide/polish-notes",
+        json={
+            "badge_name": "First Aid",
+            "slide_index": 2,
+            "slide_data": slides[2],
+            "audience_level": "All Scouts (Ages 11-17)",
+            "force_refresh": False,
+        },
+    ).json()
+    assert polish_2["status"] == "SUCCESS"
+    assert polish_2["cache_hit"] is True
+    assert polish_2["presenter_notes"] == polish_1["presenter_notes"]
+
+    # 4. Verify UI elements and stage-cue / expected-answer formatters
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    assert 'id="btn-ai-polish-notes"' in ui_html
+    assert 'id="btn-copy-slide-notes"' in ui_html
+    assert 'id="notes-polish-status-pill"' in ui_html
+    assert "m3-stage-cue-pill" in ui_js
+    assert "m3-expected-answer-box" in ui_js
+
+
+
 
 
 

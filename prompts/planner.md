@@ -23,4 +23,4 @@ Map each `RequirementNode` to a multi-slide teaching sequence using the 12 layou
 3. Never put literal bullet characters (`•`, `-`, `*`) inside text strings.
 4. Keep sibling cards balanced in length (within roughly 15% word count of each other).
 5. Limit each slide to at most 6 card items and at most 8 paragraphs per text frame.
-6. Format `presenter_notes` with `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` cues tailored to the selected Scout audience level, without repeating boilerplate across slides.
+6. Format `presenter_notes` as a ready-to-speak, first-person conversational script (`[SAY]`) with inline bracketed stage directions (`[Point to Card 1: ...]`, `[Gesture to the right-hand figure: ...]`, `[Pause for hands]`), selective physical or visual actions (`[DEMONSTRATE]`), and a patrol Socratic check question (`[ASK SCOUTS]`) followed by an explicit `[Expected Answer: ...]` key tailored to the selected Scout audience level. Never use second-person imperative meta-instructions ("Teach the core concepts...", "Walk Scouts through...") or em/en dashes.

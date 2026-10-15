@@ -674,12 +674,20 @@
 
             <!-- DRAWER TAB 1 (DEFAULT): COUNSELOR TEACHING NOTES -->
             <div class="m3-speaker-notes-card" id="slide-speaker-notes-card">
-              <div class="m3-card-header" style="margin-bottom:8px;">
-                <h3 class="m3-card-title" id="stage-presenter-notes-heading">
+              <div class="m3-card-header" style="margin-bottom:8px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+                <h3 class="m3-card-title" id="stage-presenter-notes-heading" style="margin:0;">
                   <span class="material-symbols-outlined">record_voice_over</span>
                   Counselor Teaching Notes
                 </h3>
-                <span class="m3-chip m3-chip-secondary" style="font-size:0.70rem;">EDGE Method Script &bull; Keyboard: ← / → Slides &bull; [ / ] Images</span>
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                  <span class="m3-chip m3-chip-secondary" id="notes-polish-status-pill" style="font-size:0.69rem;">Conversational First-Person Script &bull; Stage Cues</span>
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ai-polish-notes" title="Enhance this slide's speaking script with Studio EDGE coaching cues and cache in SQLite" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                    ✨ AI Polish Script
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-slide-notes" title="Copy this slide's Counselor Teaching Notes to clipboard" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                    📋 Copy Script
+                  </button>
+                </div>
               </div>
               <div id="stage-presenter-notes" style="font-size:0.88rem; color:var(--md-sys-color-on-surface);"></div>
             </div>

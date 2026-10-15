@@ -99,6 +99,40 @@ def ensure_official_pamphlet_pdf(badge_name: str) -> Tuple[Optional[Path], str]:
     return (local_pdf if local_pdf.exists() else None), candidate_urls[0]
 
 
+def _repair_pdf_word_concatenations(text: str) -> str:
+    """Repairs common line-wrap word concatenations from legacy PDF extraction passes."""
+    if not text:
+        return ""
+    s = text
+    # Fix "Theindividual", "thekit", "themedication", "thevictim", "theperson", "thefirst"
+    s = re.sub(
+        r"\b(The|the)(individual|kit|medication|victim|person|patient|first|wound|scene|water|ground|body|blood|skin|bone|joint|splint|bandage|burn|fire|camp|trail|patrol|troop|scout|counselor|pamphlet)\b",
+        r"\1 \2",
+        s,
+    )
+    # Fix "andallowed", "andthe", "andcheck", "andapply", "andkeep"
+    s = re.sub(
+        r"\b(And|and)(allowed|the|check|apply|keep|place|hold|call|use|wear|treat|make|take|give|Wash|wash|dry|clean|cover)\b",
+        r"\1 \2",
+        s,
+    )
+    # Fix "personunder", "prescribedemergency", "trainedand", "carryinga"
+    explicit_joins = {
+        "prescribedemergency": "prescribed emergency",
+        "personunder": "person under",
+        "trainedand": "trained and",
+        "allowedto": "allowed to",
+        "locatingthe": "locating the",
+        "handingit": "handing it",
+        "bestthat": "best that",
+        "administersthe": "administers the",
+    }
+    for bad_tok, good_tok in explicit_joins.items():
+        if bad_tok in s.lower():
+            s = re.sub(re.escape(bad_tok), good_tok, s, flags=re.IGNORECASE)
+    return s
+
+
 def _clean_pdf_text(raw_text: str, badge_name: str = "") -> str:
     """Cleans hyphenated line-breaks, kerning splits, and running headers from BSA Pamphlet PDF text."""
     if not raw_text:
@@ -112,15 +146,15 @@ def _clean_pdf_text(raw_text: str, badge_name: str = "") -> str:
 
     # Rejoin hyphenated line breaks ("camp-\ning" -> "camping")
     text = re.sub(r"(\w)-\s*\n\s*(\w)", r"\1\2", text)
-    # Rejoin BSA PDF kerning splits where 1-3 letters at the end of a token are split before lowercase continuation
-    # e.g., "R\neducing" -> "Reducing", "Patrol/T\nroop" -> "Patrol/Troop", "Appr\noach" -> "Approach"
-    text = re.sub(r"([A-Za-z/]{1,8})\n([a-z]{2,})", r"\1\2", text)
+    # Rejoin single-uppercase-letter BSA PDF kerning splits across newlines ("R\neducing" -> "Reducing", "Patrol/T\nroop" -> "Patrol/Troop")
+    text = re.sub(r"\b([A-Z]|Patrol/T)\n([a-z]{2,})", r"\1\2", text)
     # Fix inline uppercase kerning splits common in BSA PDFs ("Y our" -> "Your", "T o" -> "To", "W ith" -> "With")
     text = re.sub(
         r"\b([TWYFBCPSDHLMRN])\s+(o|our|he|hat|his|hem|hen|here|hy|ith|rom|or|an|ill|ould|hould|efore|fter|nder|ver|art|lan|lace|eople|ood|ater|ire|irst|hile|hich)\b",
         r"\1\2",
         text,
     )
+    text = _repair_pdf_word_concatenations(text)
     # Remove decorative leading dots on headings (e.g. ".How to Handle" -> "How to Handle")
     text = re.sub(r"(?m)^\s*\.([A-Z])", r"\1", text)
     text = re.sub(r"\s+\.([A-Z])", r" \1", text)
@@ -578,9 +612,9 @@ def build_pamphlet_index(badge_name: str) -> Dict[str, Any]:
                     all_imgs_restored.append((p_num_i, im_p))
                 pages_restored[p_num_i] = {
                     "pdf_page": p_num_i,
-                    "heading": p_val.get("heading", ""),
-                    "text": p_val.get("text", ""),
-                    "lines": p_val.get("lines", []),
+                    "heading": _repair_pdf_word_concatenations(str(p_val.get("heading", ""))),
+                    "text": _repair_pdf_word_concatenations(str(p_val.get("text", ""))),
+                    "lines": [_repair_pdf_word_concatenations(str(ln)) for ln in (p_val.get("lines") or [])],
                     "images": im_paths,
                 }
             index_obj = {

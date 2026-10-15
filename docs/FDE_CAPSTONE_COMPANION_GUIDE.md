@@ -320,7 +320,7 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 
 #### Technical details & jargon on Slide 6
 - **Why Proactive Animation Preloading (`preloadConstructionAnimationFrames()`) Matters**: By preloading all 14 frame JPEGs into browser memory on startup (`DOMContentLoaded`) and disabling CSS layout transitions (`transition: none`) on `#zero-state-emblem-overlay`, the zero-state animation never stutters on first cycle and the Merit Badge emblem snaps cleanly to each frame's coordinates (including 3D isometric ground tilt on Heavy Equipment frames 1 to 3, cable hoist on frame 4, tilted wall mount on frame 5, and straight-on reveal on frame 6).
-- **Unified FastAPI Material 3 Counselor Workbench (`ADR-09`)**: Removing the legacy secondary Streamlit prototype (`src/app.py`) and consolidating all **57 automated `pytest` tests** onto the FastAPI Material 3 workbench eliminated duplicate UI maintenance and enabled full keyboard/classroom control (`←`, `→`, `F`, `P`, `Q`, `Esc`, `Ctrl+Shift+A`).
+- **Unified FastAPI Material 3 Counselor Workbench (`ADR-09`)**: Removing the legacy secondary Streamlit prototype (`src/app.py`) and consolidating all **59 automated `pytest` tests** onto the FastAPI Material 3 workbench eliminated duplicate UI maintenance and enabled full keyboard/classroom control (`←`, `→`, `F`, `P`, `Q`, `Esc`, `Ctrl+Shift+A`).
 
 ---
 
@@ -380,7 +380,7 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 - **Card 1: Multi-Metric Eval Gate (`1.00 Recall@3`)**: `scripts/eval_gate.py` & `Vertex EvalTask` verify `IR Recall@3 = 1.00`, `MRR = 1.00`, `NDCG@3 = 1.00` on Hybrid RRF, `ADK Tool Trajectory = 1.00` & `Citation Grounding = 1.00`, `Sub-Req Coverage = 100%`, `SHA-256 Lock = 100%`, and `Stage 1 AABB Overlaps = 0`.
 - **Card 2: Canary CI/CD & Rollback (`10% -> 100%`)**: `cloudbuild.yaml` & GitHub Actions run `ruff` + `57` `pytest` tests (including Easy Slide Image Switcher, Counselor Field Toolkit, Super-User Admin Console & `ZeroPiiTelemetryStore`, and OpenAPI 3.1 contract drift across `67` paths) + blocking `eval_gate.py`, deploy `--tag=canary` at `10%` traffic, check `/readiness`, and auto-roll back on error.
 - **Card 3: Load, HITL Feedback & Zero-PII Admin Telemetry (`14.2ms p95`)**: Concurrent load test (`8 workers`): `p50 = 6.8ms`, `p95 = 14.2ms`; `POST /api/v1/feedback` logs counselor star ratings and requirement sign-offs to JSONL for golden dataset expansion; `ZeroPiiTelemetryStore` (`scouts_bsa_telemetry.db`) tracks aggregate usage, latency, FinOps spend, and Easy Slide Image Switcher swap leaderboards with `scrub_pii_dict()`.
-- **Bottom Banner**: `AI Development Harness: AGENTS.md rules + verify_live_demo_readiness.py (<5s pre-flight) + 57 pytest & eval_gate.py checks.`
+- **Bottom Banner**: `AI Development Harness: AGENTS.md rules + verify_live_demo_readiness.py (<5s pre-flight) + 59 pytest & eval_gate.py checks.`
 
 #### Technical details & jargon on Slide 9
 - **The Five Evaluation Dimensions in `scripts/eval_gate.py`**:
@@ -388,7 +388,7 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
   2. **ADK Tool Trajectory In-Order Match (`1.00`)**: Verifies the exact sequence of specialist agent and tool invocations (`fetch_merit_badge_pamphlet_pdf -> verify_subrequirement_coverage -> generate_slide_storyboard -> beautify_slide_storyboard -> request_counselor_confirmation -> generate_bsa_slide_deck_pptx -> check_pptx_conformance`).
   3. **Slide Citation Grounding Coverage (`1.00`)**: `verify_slide_citation_grounding()` verifies every slide maps back to a canonical BSA requirement ID and authoritative pamphlet source.
   4. **Vertex AI GenAI Evaluation Service Bridge (`EvalTask`)**: Integrates `vertexai.preview.evaluation.EvalTask` (`PointwiseMetric` for Youth Protection & BSARequirementFidelity).
-  5. **OpenAPI 3.1 Contract-Drift Test (`test_openapi_contract_matches_live_fastapi_routes`)**: Part of the **57 automated `pytest` tests** ensuring `docs/openapi.yaml` (`67` paths) stays 100% synchronized with `src/server.py`.
+  5. **OpenAPI 3.1 Contract-Drift Test (`test_openapi_contract_matches_live_fastapi_routes`)**: Part of the **59 automated `pytest` tests** ensuring `docs/openapi.yaml` (`67` paths) stays 100% synchronized with `src/server.py`.
 
 #### Associated Probing Questions on Slide 9
 - See **Section 5 (Possible Panelist Probing Questions)**: **`Q27`** (OpenTelemetry Trace Correlation), **`Q30`** (Load Test & Concurrency), **`Q36`** (Eval Gate Regression Catch), **`Q37`** (`$0.00` Deterministic CI Execution), **`Q39`** (`429` On-Call Runbook), and **`Q41`** (`gemini-3.0-flash` Cutover Runbook).
@@ -1122,7 +1122,7 @@ Before starting the live panel presentation, run the `< 5 second` automated pre-
    - *How We Fixed It*: Implemented `hybrid_search_pamphlet_rrf_sync()` (`src/memory/session_store.py`), fusing Okapi BM25 lexical ranks (with exact requirement-ID boosting) and dense cosine ranks via Reciprocal Rank Fusion (`k=60`), bringing `Recall@3` and `MRR` to `1.0000`.
 3. **Post-Mortem #3 - Consolidating onto a Single FastAPI Material 3 Counselor Workbench (`ADR-09`)**:
    - *What Broke*: Maintaining a secondary Streamlit UI (`src/app.py` on `:8501`) alongside the primary FastAPI Material 3 Counselor Workbench (`src/server.py` + `ui/` on `:8085`) created dual-maintenance drift and could not support rich client-side classroom workflows (fullscreen stage, dual-window Presenter View, 14-frame construction animations, interactive Patrol Blue Card sign-off matrix, and Super-User Admin Console).
-   - *How We Fixed It*: Removed the legacy Streamlit surface (`src/app.py`), consolidated all **58 automated pytest tests** onto the unified FastAPI Material 3 Counselor Workbench, and added the on-stage **Easy Slide Image Switcher**, 3-Tab Under-Stage Drawer, Collapsible Setup Drawer, Fullscreen Stage (`F`), Dual-Window Presenter View (`P`), Live Classroom Timer, Interactive Quiz Reveal (`Q`), 4-Sub-Tab StudioKit, and Super-User Admin Console (`🛡️ Admin`).
+   - *How We Fixed It*: Removed the legacy Streamlit surface (`src/app.py`), consolidated all **59 automated pytest tests** onto the unified FastAPI Material 3 Counselor Workbench, and added the on-stage **Easy Slide Image Switcher**, 3-Tab Under-Stage Drawer, Collapsible Setup Drawer, Fullscreen Stage (`F`), Dual-Window Presenter View (`P`), Live Classroom Timer, Interactive Quiz Reveal (`Q`), 4-Sub-Tab StudioKit, and Super-User Admin Console (`🛡️ Admin`).
 4. **Post-Mortem #4: Continuous Learning Flywheel (`promote_session_to_golden_dataset`)**:
    - *How It Works*: Counselor feedback (`deliverables/counselor_hitl_feedback.jsonl`) and surgical slide edits are promoted into `tests/data/golden_extensions.json` via `promote_session_to_golden_dataset()` (`scripts/eval_gate.py`). Every CI build runs `scripts/eval_gate.py` to enforce `Recall >= 0.98`, `MRR >= 0.85`, `Trajectory In-Order Match >= 0.95`, `Citation Grounding >= 0.95`, and `0` Stage 1 AABB overlaps.
 

@@ -2411,14 +2411,15 @@ def generate_bsa_slide_deck_pptx(
             pass
 
     eagle_note = (
-        f"As an Eagle-Required Merit Badge, {badge_title} builds essential lifelong citizenship, safety, and outdoor leadership skills."
+        f"As an Eagle-Required Merit Badge, {badge_title} builds lifelong citizenship, safety, and outdoor leadership skills you will use on every troop outing."
         if eagle_flag
-        else f"The {badge_title} Merit Badge gives Scouts an opportunity to explore a specialized field through hands-on practice and real-world observation."
+        else f"The {badge_title} Merit Badge gives our patrol a great chance to explore a hands-on field through practical exercises and real-world observation."
     )
     cover_notes_slide = cover_slide.notes_slide
     cover_notes_slide.notes_text_frame.text = (
-        f"[SAY] Welcome Scouts to our {badge_title} Merit Badge session, and introduce yourself ({counselor_name}, {troop_affil}) along with how Scouts and parents can reach you ({email_addr or 'via unit leadership'}) using Two-Deep Leadership / Youth Protection guidelines. "
-        f"{eagle_note} Explain how we will work through each official requirement using this presentation, hands-on demonstrations, and your printable {badge_title} Merit Badge Workbook."
+        f"[SAY] Welcome to our {badge_title} Merit Badge session, Scouts! [Point to the Counselor Contact card on screen] "
+        f"My name is {counselor_name} with {troop_affil}, and when you reach out by email ({email_addr or 'via unit leadership'}) or phone with questions or workbook logs, remember our BSA Youth Protection and Two-Deep Leadership rule: always copy a parent, guardian, or another registered adult leader. "
+        f"{eagle_note} [Hold up a Blue Card and sample {badge_title} Workbook] Today we will work through the official requirements together using these slides, hands-on skill stations, and your printable {badge_title} Merit Badge Workbook."
     )
 
     # -------------------------------------------------------------------------

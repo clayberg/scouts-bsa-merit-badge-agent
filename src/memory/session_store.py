@@ -321,6 +321,19 @@ class PersistentSessionStore:
                 )
                 """
             )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS polished_speaker_notes (
+                    notes_hash TEXT PRIMARY KEY,
+                    badge_name TEXT,
+                    req_number TEXT,
+                    slide_title TEXT,
+                    audience_level TEXT,
+                    polished_notes TEXT,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
+            )
             conn.commit()
 
     def save_session_sync(
@@ -978,5 +991,70 @@ async def compact_session_history_async(
 def get_persistent_session_store() -> PersistentSessionStore:
     """Returns the singleton `PersistentSessionStore` instance."""
     return _default_store
+
+
+def get_polished_speaker_notes(
+    notes_hash: str,
+    store: Optional[PersistentSessionStore] = None,
+) -> Optional[str]:
+    """Looks up a cached AI-polished speaker script by its content-addressed SHA-256 hash."""
+    if not notes_hash:
+        return None
+    s = store or _default_store
+    try:
+        with sqlite3.connect(s.db_path) as conn:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT polished_notes FROM polished_speaker_notes WHERE notes_hash = ?",
+                (str(notes_hash),),
+            )
+            row = cur.fetchone()
+            if row and row[0]:
+                return str(row[0])
+    except Exception:
+        pass
+    return None
+
+
+def save_polished_speaker_notes(
+    notes_hash: str,
+    badge_name: str,
+    req_number: str,
+    slide_title: str,
+    audience_level: str,
+    polished_notes: str,
+    store: Optional[PersistentSessionStore] = None,
+) -> bool:
+    """Persists an AI-polished speaker script into the SQLite `polished_speaker_notes` table."""
+    if not notes_hash or not polished_notes:
+        return False
+    s = store or _default_store
+    clean_notes = str(polished_notes).strip()
+    try:
+        with sqlite3.connect(s.db_path) as conn:
+            conn.execute(
+                """
+                INSERT INTO polished_speaker_notes (
+                    notes_hash, badge_name, req_number, slide_title, audience_level, polished_notes
+                )
+                VALUES (?, ?, ?, ?, ?, ?)
+                ON CONFLICT(notes_hash) DO UPDATE SET
+                    polished_notes=excluded.polished_notes,
+                    updated_at=CURRENT_TIMESTAMP
+                """,
+                (
+                    str(notes_hash),
+                    str(badge_name or ""),
+                    str(req_number or ""),
+                    str(slide_title or ""),
+                    str(audience_level or ""),
+                    clean_notes,
+                ),
+            )
+            conn.commit()
+        return True
+    except Exception:
+        return False
+
 
 

@@ -35,12 +35,15 @@ class StoryboardPlan(BaseModel):
 
 
 def _sanitize_no_ellipsis_or_emdash(text: str) -> str:
-    """Removes ellipses ('...') and em-dashes ('—', '--') for clean slide and speaker copy."""
+    """Removes ellipses ('...'), em-dashes ('—', '--'), en-dashes ('–'), and PDF kerning glitches."""
     if not text:
         return ""
-    cleaned = str(text).replace("...", ".").replace("…", ".")
-    cleaned = cleaned.replace(" — ", ", ").replace(" -- ", ", ")
-    cleaned = cleaned.replace("—", ", ").replace("--", ", ")
+    from src.tools.pamphlet_extractor import _repair_pdf_word_concatenations
+
+    cleaned = _repair_pdf_word_concatenations(str(text))
+    cleaned = cleaned.replace("...", ".").replace("…", ".")
+    cleaned = cleaned.replace(" — ", ", ").replace(" – ", ", ").replace(" -- ", ", ")
+    cleaned = cleaned.replace("—", ", ").replace("–", "-").replace("--", ", ")
     cleaned = cleaned.replace(" , ", ", ")
     while ".." in cleaned:
         cleaned = cleaned.replace("..", ".")
@@ -166,22 +169,25 @@ def _build_slide_teaching_notes(
     has_visual: bool = False,
     safety_callout: Optional[str] = None,
     overview_summary: Optional[Dict[str, List[str]]] = None,
+    audience_level: str = "All Scouts (Ages 11-17)",
+    local_grounding_callout: str = "",
 ) -> str:
-    """Builds rich, slide-specific Counselor Teaching Notes without generic boilerplate.
+    """Compiles a natural, first-person conversational Counselor Teaching Script (<5ms per deck).
 
     Key properties:
-    - [SAY] is always included and is more detailed than the text shown on the slide,
-      unpacking the underlying mechanisms, real-world Scouting applications, and supplementary
-      details for every point, comparison column, worked example, or diagram on the slide.
-    - [DEMONSTRATE] is included ONLY when the slide invites a physical demonstration, gear
+    - [SAY] is always a ready-to-speak first-person monologue with inline bracketed stage
+      directions ([Point to Card 1: ...], [Gesture to the right-hand figure: ...], [Pause for hands])
+      that teaches the actual slide facts rather than giving 2nd-person meta-instructions.
+    - [DEMONSTRATE] is included selectively when the slide invites a physical demonstration, gear
       inspection, sample template walkthrough, or visual diagram trace.
-    - [ASK SCOUTS] is included ONLY when the slide invites a Socratic question, diagnostic
-      comparison, or comprehension check.
+    - [ASK SCOUTS] is included selectively when the slide invites a Socratic check and always
+      concludes with an explicit [Expected Answer: ...] key for the counselor.
     """
     clean_badge = _sanitize_no_ellipsis_or_emdash(badge_name)
     clean_req = _sanitize_no_ellipsis_or_emdash(req_num)
     clean_title = _sanitize_no_ellipsis_or_emdash(slide_title or f"{clean_badge} Requirement {clean_req}")
     clean_req_text = _sanitize_no_ellipsis_or_emdash(req_text)
+    clean_caption = _sanitize_no_ellipsis_or_emdash(visual_caption)
     arch = (archetype or "CONCEPT_TEXT_SLIDE").upper()
     pts = [_sanitize_no_ellipsis_or_emdash(str(p)) for p in (bullet_points or []) if str(p).strip()]
     req_data = req_dict or {}
@@ -199,96 +205,134 @@ def _build_slide_teaching_notes(
         if clean_ex and clean_ex not in pts:
             extra_insights.append(clean_ex)
 
+    aud_lower = (audience_level or "").lower()
+    audience_cue = ""
+    if "first-year" in aud_lower or "tenderfoot" in aud_lower or "11" in aud_lower and "13" in aud_lower:
+        audience_cue = (
+            " [First-Year / Tenderfoot Note: Keep definitions concrete and hands-on, "
+            "and pair each younger Scout with an experienced buddy during practice.]"
+        )
+    elif "older" in aud_lower or "eagle" in aud_lower or "14" in aud_lower:
+        audience_cue = (
+            " [Eagle Prep Note: Challenge your Senior Patrol, Star, and Life Scouts to explain the underlying "
+            "mechanisms and model the BSA EDGE method for younger patrol members.]"
+        )
+
+    local_cue = (
+        f" {_sanitize_no_ellipsis_or_emdash(local_grounding_callout)}"
+        if local_grounding_callout
+        else ""
+    )
+
     lines: List[str] = []
 
     # -------------------------------------------------------------------------
-    # CASE 1: REQUIREMENTS OVERVIEW MATRIX (SLIDE 2) — [SAY] ONLY
+    # CASE 1: REQUIREMENTS OVERVIEW MATRIX (SLIDE 2) - [SAY] ONLY
     # -------------------------------------------------------------------------
     if arch == SlideArchetype.REQUIREMENTS_TRIAGE_MATRIX.value or clean_req.lower() == "overview":
         ov = overview_summary or {}
-        in_class_list = ", ".join((ov.get("in_class") or [])[:5]) or "foundational concepts and definitions"
-        station_list = ", ".join((ov.get("station") or [])[:5]) or "hands-on field skills"
-        prereq_list = ", ".join((ov.get("prereq") or [])[:5]) or "outdoor observations and home projects"
+        in_class_list = ", ".join((ov.get("in_class") or [])[:5]) or "core concepts and safety rules"
+        station_list = ", ".join((ov.get("station") or [])[:5]) or "hands-on field skill stations"
+        prereq_list = ", ".join((ov.get("prereq") or [])[:5]) or "outdoor logs and home preparation"
         total_r = ov.get("total_count", [str(len(pts))])[0]
-        lines.append(
-            f"[SAY] Walk Scouts through the complete roadmap for earning the {clean_badge} Merit Badge across all {total_r} official requirements. "
-            f"Explain that our sessions are organized into three practical tracks: first, knowledge and group discussion topics ({in_class_list}) where we build core understanding; "
-            f"second, hands-on skill stations ({station_list}) where every Scout will practice and demonstrate techniques individually; "
-            f"and third, field, campout, or home prerequisites ({prereq_list}) that require real-world logging and documentation outside the classroom. "
-            f"Emphasize that Scouts should use their companion {clean_badge} Workbook to record notes, measurements, and reflections for each requirement prior to final blue-card or Scoutbook sign-off."
+        say_line = (
+            f"[SAY] Welcome to the {clean_badge} Merit Badge, Scouts! [Gesture to the Requirements Overview grid on screen] "
+            f"Over our sessions together, we are going to work through all {total_r} official requirements from your {clean_badge} Merit Badge Pamphlet, "
+            f"and we have grouped them into three practical tracks so everyone knows what we will finish right here and what happens in the field. "
+            f"[Point to the Blue In-Class cards] First, our discussion topics ({in_class_list}) cover the core knowledge and safety principles we will unpack as a patrol. "
+            f"[Point to the Olive Skill Station cards] Second, our hands-on skill stations ({station_list}) are where you and your buddy will physically practice and demonstrate techniques using the BSA EDGE method. "
+            f"[Point to the Red Prerequisite cards] Third, our campout, field, and home requirements ({prereq_list}) are the real-world logs and projects you will bring to our counselor conference. "
+            f"[Hold up a sample {clean_badge} Scout Workbook] Keep your {clean_badge} Workbook open as we go so your notes, measurements, and sketches are ready for Blue Card or Scoutbook sign-off.{local_cue}{audience_cue}"
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
-    # CASE 2: SOURCES & REFERENCES (FINAL SLIDE) — [SAY] ONLY
+    # CASE 2: SOURCES & REFERENCES (FINAL SLIDE) - [SAY] ONLY
     # -------------------------------------------------------------------------
     if arch == "SOURCES_AND_REFERENCES" or clean_req.lower() == "sources":
-        lines.append(
-            f"[SAY] Conclude the {clean_badge} Merit Badge presentation by reviewing the authoritative reference materials listed on this slide. "
-            f"Direct Scouts to the official Scouting America {clean_badge} Merit Badge Pamphlet and Digital Resource Guide URLs so they can review definitions, diagrams, and field checklists before their individual counselor conference. "
-            f"Remind Scouts to bring their completed {clean_badge} Workbook logs, any required project artifacts or field sketches, and their signed blue card or Scoutbook record to their final verification review. "
-            "Note that this instructional slide deck and companion workbook were generated using the Scouts BSA Merit Badge Counselor Workbench created by Eric Clayberg (Troop 19, Middleton MA)."
+        say_line = (
+            f"[SAY] That wraps up our slide walkthrough for the {clean_badge} Merit Badge! [Point to the Official Pamphlet and Resource links on screen] "
+            f"Before we sit down for your individual counselor sign-off conference, make sure you double-check your {clean_badge} Merit Badge Pamphlet and the official Scouting America Digital Resource Guide for any definitions or diagrams you want to review. "
+            f"[Hold up a Blue Card or open Scoutbook] Bring your completed {clean_badge} Workbook logs, your field sketches or project artifacts, and your Blue Card or Scoutbook record when you come up for verification. "
+            "As a quick note on the bottom card, this slide deck and companion workbook were built with the Scouts BSA Merit Badge Counselor Workbench created by Eric Clayberg of Troop 19 in Middleton, Massachusetts."
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
         return "\n".join(lines)
 
-    # Build natural, varied counselor talking points that expand on the slide cards without repetitive filler
-    point_elaborations: List[str] = []
+    # Build conversational first-person card walkthroughs with inline [Point to Card N] stage cues
+    card_monologue_parts: List[str] = []
     for idx_p, (anc, bdy) in enumerate(parsed_points):
         bdy_clean = bdy[:-1] if bdy.endswith(".") else bdy
+        card_num = idx_p + 1
         if idx_p == 0:
-            point_elaborations.append(
-                f"Begin with {anc}: {bdy_clean}, and walk through how this applies to {clean_title} during {clean_badge} activities"
+            card_monologue_parts.append(
+                f"[Point to Card {card_num}: {anc}] Let's start with {anc}: {bdy_clean}."
             )
         elif idx_p == 1:
-            point_elaborations.append(
-                f"Next, cover {anc} ({bdy_clean}), noting what Scouts should watch for outdoors or during troop practice"
+            card_monologue_parts.append(
+                f"[Point to Card {card_num}: {anc}] Building on that, look at {anc}: {bdy_clean}."
             )
         elif idx_p == 2:
-            point_elaborations.append(
-                f"Point out {anc} ({bdy_clean}), including common mistakes new Scouts make and how to correct them early"
+            card_monologue_parts.append(
+                f"[Point to Card {card_num}: {anc}] Pay special attention to {anc}: {bdy_clean}."
+            )
+        elif idx_p == 3:
+            card_monologue_parts.append(
+                f"[Point to Card {card_num}: {anc}] And fourth, notice {anc}: {bdy_clean}."
             )
         else:
-            point_elaborations.append(
-                f"Tie in {anc} ({bdy_clean}) so each Scout knows what to show or explain during counselor sign-off"
+            card_monologue_parts.append(
+                f"Also keep in mind {anc}: {bdy_clean}."
             )
 
-    elaboration_paragraph = ". ".join(point_elaborations) + "." if point_elaborations else ""
+    conversational_cards = " ".join(card_monologue_parts)
     supplementary_note = (
-        f" Share these additional pamphlet details with the patrol: {' '.join(extra_insights[:2])}"
+        f" From your {clean_badge} Merit Badge Pamphlet for Requirement {clean_req}, remember this key field detail as well: {' '.join(extra_insights[:2])}"
         if extra_insights
         else (
-            f" Tie these points directly to Requirement {clean_req} ({clean_req_text}) so Scouts can explain both the rule and how they use it in practice."
+            f" Keep in mind how each of these details connects directly to {clean_badge} Requirement {clean_req} ({clean_req_text}) when we review your workbook."
             if clean_req_text
-            else ""
+            else f" Keep these details from the {clean_badge} Merit Badge Pamphlet in mind for Requirement {clean_req}."
         )
     )
     safety_note = (
-        f" Review the Guide to Safe Scouting rule for this step: {_sanitize_no_ellipsis_or_emdash(safety_callout)}"
+        f" [Safety Check] Under the BSA Guide to Safe Scouting, always remember: {_sanitize_no_ellipsis_or_emdash(safety_callout)}"
         if safety_callout
         else ""
     )
 
+    first_anchor = anchors[0] if anchors else clean_title
+    first_body = parsed_points[0][1] if parsed_points else clean_req_text or clean_title
+    second_anchor = anchors[1] if len(anchors) > 1 else first_anchor
+    second_body = parsed_points[1][1] if len(parsed_points) > 1 else first_body
+
     # -------------------------------------------------------------------------
-    # CASE 3: REQUIREMENT INTRO SLIDE — [SAY] + [ASK SCOUTS] (NO [DEMONSTRATE])
+    # CASE 3: REQUIREMENT INTRO SLIDE - [SAY] + [ASK SCOUTS] (NO [DEMONSTRATE])
     # -------------------------------------------------------------------------
     if arch == "REQUIREMENT_INTRO":
-        lines.append(
-            f"[SAY] Introduce {clean_badge} Requirement {clean_req} ({clean_title}) by reading the official requirement expectation aloud: \"{clean_req_text}\" "
-            f"Explain what Scouts will need to know and accomplish across this requirement sequence: {elaboration_paragraph}"
-            f"{supplementary_note}{safety_note}"
+        say_line = (
+            f"[SAY] Let's move into {clean_badge} Requirement {clean_req}: {clean_title}. "
+            f"[Point to the Requirement Banner at the top of the slide] Here is the official standard you will complete for sign-off: \"{clean_req_text}\" "
+            f"Before we break down each sub-topic, let's walk through the four core pillars on screen. "
+            f"{conversational_cards}"
+            f"{supplementary_note}{safety_note}{audience_cue} [Pause for hands]"
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
         focus_topics = (
-            f"{anchors[0]} and {anchors[1]}"
+            f"{first_anchor} and {second_anchor}"
             if len(anchors) >= 2
-            else (anchors[0] if anchors else clean_title)
+            else first_anchor
         )
-        lines.append(
-            f"[ASK SCOUTS] Looking at the scope of Requirement {clean_req} ({clean_title}), where have you encountered {focus_topics} on a previous troop campout, hike, or at home, and what questions do you have before we dive into the details?"
+        ask_line = (
+            f"[ASK SCOUTS] Looking at our roadmap for Requirement {clean_req} ({clean_title}), where have you had to use {focus_topics} on a troop campout, hike, or at home, and why did it matter? "
+            f"[Expected Answer: Scouts should connect {first_anchor} ({first_body}) and {second_anchor} ({second_body}) to practical patrol preparation, safety, and completing Requirement {clean_req}.]"
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(ask_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
-    # CASE 4: DIFFERENTIAL COMPARISON (2-COLUMN) — [SAY] + [ASK SCOUTS] (+ [DEMONSTRATE] only if visual)
+    # CASE 4: DIFFERENTIAL COMPARISON (2-COLUMN) - [SAY] + [ASK SCOUTS] (+ [DEMONSTRATE] only if visual)
     # -------------------------------------------------------------------------
     if arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
         cd = comparison_data or {}
@@ -296,26 +340,30 @@ def _build_slide_teaching_notes(
         right_h = _sanitize_no_ellipsis_or_emdash(str(cd.get("right_header") or (anchors[1] if len(anchors) > 1 else "Category B")))
         left_pts = [_sanitize_no_ellipsis_or_emdash(str(x)) for x in (cd.get("left_points") or pts[:3])]
         right_pts = [_sanitize_no_ellipsis_or_emdash(str(x)) for x in (cd.get("right_points") or pts[3:6])]
-        left_summary = "; ".join(left_pts[:3]) or elaboration_paragraph
+        left_summary = "; ".join(left_pts[:3]) or conversational_cards
         right_summary = "; ".join(right_pts[:3]) or supplementary_note
 
-        lines.append(
-            f"[SAY] Walk Scouts through the side-by-side comparison on \"{clean_title}\" by contrasting {left_h} against {right_h}. "
-            f"On the left ({left_h}), explain the defining characteristics and mechanisms in detail: {left_summary}. "
-            f"On the right ({right_h}), contrast how the conditions, indicators, or required responses differ: {right_summary}. "
-            f"Emphasize why distinguishing accurately between {left_h} and {right_h} under real field conditions is critical for making the right decision.{supplementary_note}{safety_note}"
+        say_line = (
+            f"[SAY] On this slide for Requirement {clean_req} ({clean_title}), we are comparing {left_h} side by side with {right_h} so you can tell them apart immediately in the field. "
+            f"[Point to the left column: {left_h}] On the left side under {left_h}, notice the defining signs and mechanisms: {left_summary}. "
+            f"[Point to the right column: {right_h}] Now contrast that with the right column under {right_h}: {right_summary}. "
+            f"When you are outdoors with your patrol, mixing up {left_h} and {right_h} can lead to the wrong action plan, so focus on those key differences.{supplementary_note}{safety_note}{audience_cue}"
         )
-        if has_visual and visual_caption:
-            lines.append(
-                f"[DEMONSTRATE] Point to the accompanying diagram ({visual_caption}) and trace the visual differences between {left_h} and {right_h} so Scouts can spot those exact cues in the field."
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
+        if has_visual and clean_caption:
+            demo_line = (
+                f"[DEMONSTRATE] [Point to the visual diagram: {clean_caption}] Trace the visual boundary and key indicators separating {left_h} from {right_h} on the \"{clean_caption}\" figure so Scouts can spot those exact cues in the field."
             )
-        lines.append(
-            f"[ASK SCOUTS] If your patrol encountered this situation outdoors without instruments or reference notes, which specific indicator on this slide would help you tell {left_h} apart from {right_h} first, and how would your action plan change?"
+            lines.append(_sanitize_no_ellipsis_or_emdash(demo_line))
+        ask_line = (
+            f"[ASK SCOUTS] If your patrol ran into this situation outdoors without reference notes, which specific indicator on screen would tell you whether you are dealing with {left_h} or {right_h} first? "
+            f"[Expected Answer: For {left_h}, look for {left_pts[0] if left_pts else left_h}; for {right_h}, look for {right_pts[0] if right_pts else right_h}, and adjust your patrol response accordingly.]"
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(ask_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
-    # CASE 5: WORKED EXAMPLE TEMPLATE — [SAY] + [DEMONSTRATE] (NO [ASK SCOUTS])
+    # CASE 5: WORKED EXAMPLE TEMPLATE - [SAY] + [DEMONSTRATE] (NO [ASK SCOUTS])
     # -------------------------------------------------------------------------
     if arch == SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value or worked_example:
         we = worked_example or {}
@@ -325,21 +373,23 @@ def _build_slide_teaching_notes(
         we_tip = _sanitize_no_ellipsis_or_emdash(
             str(we.get("counselor_tip") or "Ensure every entry includes specific dates, measurements, and verifiable observations.")
         )
-        field_walkthrough = "; ".join(f"{k} ({v})" for k, v in list(we_fields.items())[:5]) if we_fields else elaboration_paragraph
+        field_walkthrough = "; ".join(f"{k}: {v}" for k, v in list(we_fields.items())[:5]) if we_fields else conversational_cards
         field_names = ", ".join(list(we_fields.keys())[:4]) if we_fields else (", ".join(anchors[:3]) or "each required log field")
 
-        lines.append(
-            f"[SAY] Guide Scouts through this worked example ({we_type}: {we_title}) for Requirement {clean_req}. "
-            f"Break down each completed entry in detail so Scouts understand the level of specificity required for counselor sign-off: {field_walkthrough}. "
-            f"Highlight the Counselor Pro-Tip: {we_tip} Explain that vague or one-word entries are not sufficient; Scouts should record concrete measurements, timestamps, and observations just like this model.{supplementary_note}{safety_note}"
+        say_line = (
+            f"[SAY] Many Scouts ask what a complete, sign-off-ready log looks like for Requirement {clean_req}, so let's examine this worked example ({we_type}: {we_title}). "
+            f"[Point to the sample log entries on screen] Look at how specific each entry is: {field_walkthrough}. "
+            f"[Point to the Counselor Pro-Tip banner] Notice the key rule here: {we_tip} One-word or vague notes will not pass muster for Blue Card sign-off; I want to see real numbers, dates, and field observations in your {clean_badge} Workbook just like this sample.{supplementary_note}{safety_note}{audience_cue}"
         )
-        lines.append(
-            f"[DEMONSTRATE] Walk through the sample {we_title} fields ({field_names}) line by line and show Scouts how to record their own real observations in their printable {clean_badge} Merit Badge Workbook."
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
+        demo_line = (
+            f"[DEMONSTRATE] [Hold up the printable {clean_badge} Merit Badge Workbook] Walk through the sample {we_title} fields ({field_names}) line by line and show Scouts exactly where to record their own measurements and observations."
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(demo_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
-    # CASE 6: SOCRATIC CHECKPOINT QUIZ — [SAY] + [ASK SCOUTS] (NO [DEMONSTRATE])
+    # CASE 6: SOCRATIC CHECKPOINT QUIZ - [SAY] + [ASK SCOUTS] (NO [DEMONSTRATE])
     # -------------------------------------------------------------------------
     if arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
         qi = quiz_item or {}
@@ -349,118 +399,137 @@ def _build_slide_teaching_notes(
         options = [_sanitize_no_ellipsis_or_emdash(str(o)) for o in (qi.get("options") or pts[1:4])]
         answer = _sanitize_no_ellipsis_or_emdash(str(qi.get("correct_answer") or "Option A"))
         explanation = _sanitize_no_ellipsis_or_emdash(
-            str(qi.get("explanation") or elaboration_paragraph)
+            str(qi.get("explanation") or conversational_cards)
         )
         opts_text = " | ".join(options[:3])
 
-        lines.append(
-            f"[SAY] Present this patrol scenario checkpoint for {clean_title} and pause to let Scouts debate the options before revealing the verified answer. "
-            f"Once patrols have shared their reasoning, confirm the verified answer ({answer}) and explain the underlying principle in detail: {explanation} "
-            f"Also discuss why the alternative choices fall short or introduce avoidable risk in the field.{supplementary_note}{safety_note}"
+        say_line = (
+            f"[SAY] Let's pause for a quick patrol scenario check on {clean_title} (Requirement {clean_req}). "
+            f"[Point to the Scenario Prompt card on screen] Picture your patrol in this exact situation: \"{scenario}\" "
+            f"[Pause 15 seconds for buddies to debate Option A, B, and C] Alright, let's hear which option your buddy pair picked and why. "
+            f"The verified answer is {answer}: {explanation} Notice how the other choices leave out a critical safety or verification step from your {clean_badge} Merit Badge Pamphlet.{supplementary_note}{safety_note}{audience_cue}"
         )
-        lines.append(
-            f"[ASK SCOUTS] Consider this scenario: \"{scenario}\" Review the options ({opts_text}) with your buddy, pick the best course of action, and be ready to explain why your choice is safest and most effective."
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
+        ask_line = (
+            f"[ASK SCOUTS] Which option ({opts_text}) gives your patrol the safest, most effective response to \"{scenario},\" and what goes wrong if you pick one of the other choices? "
+            f"[Expected Answer: {answer}. {explanation}]"
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(ask_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
-    # CASE 7: FULL-BLEED IMAGE / DIAGRAM EXPLAINER — [SAY] + [DEMONSTRATE] (NO [ASK SCOUTS])
+    # CASE 7: FULL-BLEED IMAGE / DIAGRAM EXPLAINER - [SAY] + [DEMONSTRATE] (NO [ASK SCOUTS])
     # -------------------------------------------------------------------------
     if arch == "FULL_BLEED_IMAGE_EXPLAINER":
-        fig_name = visual_caption or clean_title
+        fig_name = clean_caption or clean_title
         trace_anchors = ", ".join(anchors[:3]) if anchors else clean_title
-        lines.append(
-            f"[SAY] Use this full-page visual figure ({fig_name}) to give Scouts a clear, step-by-step tour of the structure and processes behind {clean_title}. "
-            f"{elaboration_paragraph} "
-            f"Explain how the visual elements in the diagram fit together in real time so Scouts can picture the mechanism rather than just memorizing terms.{supplementary_note}{safety_note}"
+        say_line = (
+            f"[SAY] Take a close look at this full-screen visual for Requirement {clean_req} ({clean_title}): {fig_name}. "
+            f"[Trace across the full-bleed figure on screen] Rather than just memorizing terms from a list, let's see how each part works visually in the real world. "
+            f"{conversational_cards}"
+            f"{supplementary_note}{safety_note}{audience_cue}"
         )
-        lines.append(
-            f"[DEMONSTRATE] Point directly to each labeled stage or feature on the \"{fig_name}\" figure ({trace_anchors}), tracing the flow across the diagram so Scouts can visually follow how each component interacts."
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
+        demo_line = (
+            f"[DEMONSTRATE] [Step to the screen and trace the figure: {fig_name}] Point directly to each stage or visual feature ({trace_anchors}) on \"{fig_name},\" showing Scouts how the physical mechanism flows from start to finish."
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(demo_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
-    # CASE 8: STEP-BY-STEP PROCEDURE (4-CARD) — [SAY] + [DEMONSTRATE] + [ASK SCOUTS]
+    # CASE 8: STEP-BY-STEP PROCEDURE (4-CARD) - [SAY] + [DEMONSTRATE] + [ASK SCOUTS]
     # -------------------------------------------------------------------------
     if arch == SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value:
         step_sequence = " -> ".join(f"Step {i + 1}: {a}" for i, a in enumerate(anchors[:4])) or clean_title
         first_step = anchors[0] if anchors else "Step 1"
         second_step = anchors[1] if len(anchors) > 1 else "Step 2"
-        lines.append(
-            f"[SAY] Walk Scouts through the step-by-step procedure for \"{clean_title}\" under Requirement {clean_req}. "
-            f"{elaboration_paragraph} "
-            f"Emphasize why following this exact sequence ({step_sequence}) prevents errors and ensures safe, repeatable results in the field.{supplementary_note}{safety_note}"
+        say_line = (
+            f"[SAY] Now let's walk step by step through the field procedure for {clean_title} under Requirement {clean_req}. "
+            f"{conversational_cards} "
+            f"[Hold up hands to show sequence 1 to 4] Following this exact order ({step_sequence}) is what keeps you and your buddy safe and gives you repeatable results when we move to our hands-on skill station.{supplementary_note}{safety_note}{audience_cue}"
         )
-        lines.append(
-            f"[DEMONSTRATE] Physically model the \"{clean_title}\" sequence step by step ({step_sequence}) at a deliberate pace using the BSA EDGE method (Explain, Demonstrate, Guide, Enable), pausing at {first_step} and {second_step} so Scouts can observe proper hand placement, setup, or technique."
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
+        demo_line = (
+            f"[DEMONSTRATE] [Model the physical technique using the BSA EDGE method] Demonstrate the \"{clean_title}\" sequence step by step ({step_sequence}) at a deliberate pace, pausing at {first_step} and {second_step} so every Scout can see proper hand placement, setup, and safety checks."
         )
-        lines.append(
-            f"[ASK SCOUTS] Why is it important to complete {first_step} before moving on to {second_step} in \"{clean_title},\" and what problem could arise in the field if a Scout rushed or skipped that step?"
+        lines.append(_sanitize_no_ellipsis_or_emdash(demo_line))
+        ask_line = (
+            f"[ASK SCOUTS] Why must we finish {first_step} before moving on to {second_step} during \"{clean_title},\" and what goes wrong in the field if a Scout rushes past Step 1? "
+            f"[Expected Answer: Completing {first_step} ({first_body}) sets the safe foundation required before {second_step} ({second_body}); skipping it risks equipment failure, inaccurate results, or injury.]"
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(ask_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
-    # CASE 9: GEAR CHECKLIST GRID — [SAY] + [DEMONSTRATE] + [ASK SCOUTS]
+    # CASE 9: GEAR CHECKLIST GRID - [SAY] + [DEMONSTRATE] + [ASK SCOUTS]
     # -------------------------------------------------------------------------
     if arch == SlideArchetype.GEAR_CHECKLIST_GRID.value or gear_checklist:
         gear_items = [_sanitize_no_ellipsis_or_emdash(str(g)) for g in (gear_checklist or pts)]
         gear_anchors = [_split_anchor_and_detail(g, f"Item {i + 1}")[0] for i, g in enumerate(gear_items[:4])]
         gear_list_str = ", ".join(gear_anchors) or clean_title
-        lines.append(
-            f"[SAY] Review the required equipment and pre-trip inspection checklist for \"{clean_title}\" (Requirement {clean_req}). "
-            f"{elaboration_paragraph} "
-            f"Explain not only what each item ({gear_list_str}) is used for, but also how to inspect it for wear, missing parts, or weather readiness before leaving for the field.{supplementary_note}{safety_note}"
+        say_line = (
+            f"[SAY] Before we head outdoors for Requirement {clean_req} ({clean_title}), let's do a pack shakedown of the essential gear on screen. "
+            f"{conversational_cards} "
+            f"[Hold up or point to each gear item: {gear_list_str}] Don't just check that these items ({gear_list_str}) are in your pack; inspect every piece for wear, missing parts, expiration dates, or weather readiness before leaving home.{supplementary_note}{safety_note}{audience_cue}"
         )
-        lines.append(
-            f"[DEMONSTRATE] Lay out or hold up examples of the key gear items for \"{clean_title}\" ({gear_list_str}) and demonstrate a hands-on readiness check so Scouts see how to verify condition and fit."
+        lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
+        demo_line = (
+            f"[DEMONSTRATE] [Lay out sample gear on the table: {gear_list_str}] Hold up each item for \"{clean_title}\" and model a 30-second readiness check so Scouts see how to verify fit, waterproofing, and working condition."
         )
-        lines.append(
-            f"[ASK SCOUTS] Looking at the \"{clean_title}\" checklist ({gear_list_str}), which item is most often overlooked during a pack shakedown, and what would happen if your patrol needed it in the field and didn't have it?"
+        lines.append(_sanitize_no_ellipsis_or_emdash(demo_line))
+        ask_line = (
+            f"[ASK SCOUTS] Looking at our \"{clean_title}\" checklist ({gear_list_str}), which item is easiest to forget during a quick pack shakedown, and how would your patrol adapt if it were missing or damaged on the trail? "
+            f"[Expected Answer: Scouts should cite {first_anchor} ({first_body}) or {second_anchor} ({second_body}), explain why inspecting it before departure prevents a field emergency, and describe a safe backup plan.]"
         )
+        lines.append(_sanitize_no_ellipsis_or_emdash(ask_line))
         return "\n".join(lines)
 
     # -------------------------------------------------------------------------
     # CASE 10: CONCEPT TEXT SLIDE OR SPLIT VISUAL EXPLAINER
-    #   - [SAY]: Always detailed and expanded beyond the slide bullets
-    #   - [DEMONSTRATE]: Included ONLY when the slide has a visual figure (`has_visual`)
-    #     or explicitly covers a hands-on physical skill/construction/instrument
-    #   - [ASK SCOUTS]: Specific comprehension/application question tied to the slide's anchors
+    #   - [SAY]: Conversational first-person script with [Point to Card N] + [Gesture to figure]
+    #   - [DEMONSTRATE]: Included ONLY when `has_visual` or hands-on skill
+    #   - [ASK SCOUTS]: Specific comprehension question + [Expected Answer: ...]
     # -------------------------------------------------------------------------
     visual_tie_in = (
-        f" Direct Scouts' attention to the visual figure ({visual_caption}) and explain how it illustrates {', '.join(anchors[:2]) or clean_title} in action."
-        if has_visual and visual_caption
+        f" [Gesture to the right-hand figure: {clean_caption}] Take a look at the visual on the right ({clean_caption}), which shows how {', '.join(anchors[:2]) or clean_title} looks in real life."
+        if has_visual and clean_caption
         else ""
     )
-    lines.append(
-        f"[SAY] Teach the core concepts on \"{clean_title}\" (Requirement {clean_req}) in depth rather than just reading the cards aloud. "
-        f"{elaboration_paragraph}"
-        f"{visual_tie_in}{supplementary_note}{safety_note}"
+    say_line = (
+        f"[SAY] Let's unpack how {clean_title} works for {clean_badge} Requirement {clean_req}. "
+        f"{conversational_cards}"
+        f"{visual_tie_in}{supplementary_note}{safety_note}{audience_cue} [Pause for questions]"
     )
+    lines.append(_sanitize_no_ellipsis_or_emdash(say_line))
 
     invites_demo = has_visual or execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value or any(
         kw in clean_title.lower()
         for kw in ("demonstrat", "build", "construct", "instrument", "measure", "knot", "splint", "bandage", "cpr", "triage", "rescue", "drill", "station")
     )
     if invites_demo:
-        if has_visual and visual_caption:
+        if has_visual and clean_caption:
             trace_targets = ", ".join(anchors[:3]) if anchors else clean_title
-            lines.append(
-                f"[DEMONSTRATE] Use the \"{visual_caption}\" visual on the right side of the slide to point out {trace_targets}, showing Scouts how each part operates in a real scenario."
+            demo_line = (
+                f"[DEMONSTRATE] [Point to the right-hand visual: {clean_caption}] Trace {trace_targets} directly on the \"{clean_caption}\" illustration so Scouts can connect each card on the left to what they will see in the field."
             )
+            lines.append(_sanitize_no_ellipsis_or_emdash(demo_line))
         else:
             skill_targets = ", ".join(anchors[:3]) if anchors else clean_title
-            lines.append(
-                f"[DEMONSTRATE] Model the practical technique for \"{clean_title}\" ({skill_targets}) so Scouts can see the proper form and standard before practicing with their buddy."
+            demo_line = (
+                f"[DEMONSTRATE] [Model the hands-on skill using the BSA EDGE method] Demonstrate the practical technique for \"{clean_title}\" ({skill_targets}) step by step before pairing Scouts up to practice."
             )
+            lines.append(_sanitize_no_ellipsis_or_emdash(demo_line))
 
     q_focus = (
-        f"{anchors[0]} and {anchors[1]}"
+        f"{first_anchor} and {second_anchor}"
         if len(anchors) >= 2
-        else (anchors[0] if anchors else clean_title)
+        else first_anchor
     )
-    lines.append(
-        f"[ASK SCOUTS] Based on what we just covered on \"{clean_title},\" how would you explain the relationship between {q_focus} in your own words, and how does it apply when working on {clean_badge} Requirement {clean_req}?"
+    ask_line = (
+        f"[ASK SCOUTS] In your own words, how do {q_focus} work together on \"{clean_title},\" and how will you apply them when completing {clean_badge} Requirement {clean_req}? "
+        f"[Expected Answer: {first_anchor} ({first_body}) pairs with {second_anchor} ({second_body}) to fulfill the BSA pamphlet standard for Requirement {clean_req}.]"
     )
+    lines.append(_sanitize_no_ellipsis_or_emdash(ask_line))
     return "\n".join(lines)
 
 
@@ -481,6 +550,8 @@ def _build_keynote_presenter_notes(
     visual_caption: str = "",
     has_visual: bool = False,
     overview_summary: Optional[Dict[str, List[str]]] = None,
+    audience_level: str = "All Scouts (Ages 11-17)",
+    local_grounding_callout: str = "",
 ) -> str:
     """Wrapper around `_build_slide_teaching_notes` for slide-specific Counselor Teaching Notes."""
     return _build_slide_teaching_notes(
@@ -500,6 +571,8 @@ def _build_keynote_presenter_notes(
         has_visual=has_visual,
         safety_callout=safety_callout,
         overview_summary=overview_summary,
+        audience_level=audience_level,
+        local_grounding_callout=local_grounding_callout,
     )
 
 
@@ -537,13 +610,12 @@ def _build_bullet_points_for_req(req: Dict[str, Any], req_num: str, req_text: st
 
 
 def _build_cards_for_req(req: Dict[str, Any], bullets: List[str]) -> List[Dict[str, Any]]:
-    """Builds 4 structured card dictionaries from the pamphlet's step-by-step procedures and excerpts."""
-    steps = list(req.get("step_by_step_procedure") or [])
-    for ex in req.get("pamphlet_excerpts") or []:
-        if ex not in steps:
-            steps.append(ex)
-    if not steps:
-        steps = list(bullets[:4])
+    """Builds 4 structured card dictionaries aligned with the primary slide bullets and pamphlet steps."""
+    steps = [str(b) for b in (bullets or [])[:4] if str(b).strip()]
+    for raw_item in list(req.get("step_by_step_procedure") or []) + list(req.get("pamphlet_excerpts") or []):
+        clean_item = _sanitize_no_ellipsis_or_emdash(str(raw_item))
+        if clean_item and clean_item not in steps and len(steps) < 4:
+            steps.append(clean_item)
 
     cards: List[Dict[str, Any]] = []
     colors = ["#003F87", "#005AE0", "#4B5320", "#CE1126"]

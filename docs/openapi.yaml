@@ -1,7 +1,6 @@
 openapi: 3.1.0
 info:
-  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
-    \ Server"
+  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -490,7 +489,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       responses:
         '200':
@@ -594,7 +593,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       responses:
         '200':
@@ -690,6 +689,96 @@ paths:
                 type: object
                 additionalProperties: true
                 title: Response Api Regenerate Slide Api Slide Regenerate Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/polish-notes:
+    post:
+      summary: Api Polish Slide Speaker Notes
+      description: 'Option C Layer 2: Polishes a single slide''s Counselor Teaching
+        Notes via Gemini 2.5 Flash with SQLite caching.'
+      operationId: api_polish_slide_speaker_notes_api_v1_slide_polish_notes_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlidePolishNotesRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Polish Slide Speaker Notes Api V1 Slide Polish
+                  Notes Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/polish-notes:
+    post:
+      summary: Api Polish Slide Speaker Notes
+      description: 'Option C Layer 2: Polishes a single slide''s Counselor Teaching
+        Notes via Gemini 2.5 Flash with SQLite caching.'
+      operationId: api_polish_slide_speaker_notes_api_slide_polish_notes_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlidePolishNotesRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Polish Slide Speaker Notes Api Slide Polish Notes
+                  Post
         '422':
           description: Validation Error
           content:
@@ -3814,6 +3903,58 @@ components:
       required:
       - badge_name
       title: SlideImageUploadRequest
+    SlidePolishNotesRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Official Merit Badge name.
+          default: First Aid
+        slide_index:
+          type: integer
+          title: Slide Index
+          description: Zero-based index into storyboard.slides.
+          default: 0
+        slide_data:
+          additionalProperties: true
+          type: object
+          title: Slide Data
+          description: Current slide dictionary.
+        audience_level:
+          type: string
+          title: Audience Level
+          description: Target Scout audience level.
+          default: All Scouts (Ages 11-17)
+        force_refresh:
+          type: boolean
+          title: Force Refresh
+          description: Bypass SQLite cache and regenerate.
+          default: false
+        storyboard_slides:
+          anyOf:
+          - items:
+              additionalProperties: true
+              type: object
+            type: array
+          - type: 'null'
+          title: Storyboard Slides
+          description: Full slide array from client state so the downloadable .pptx
+            file can be updated in place.
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+          description: Optional Counselor Title Slide metadata.
+        output_path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Output Path
+          description: Optional existing PPTX output path to overwrite.
+      type: object
+      title: SlidePolishNotesRequest
     SlideRegenerateRequest:
       properties:
         badge_name:
@@ -4084,7 +4225,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
         session_id:
           type: string
           title: Session Id

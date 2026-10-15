@@ -1057,6 +1057,10 @@ function bindFilterAndSlideControls() {
         }
       }
 
+      if (resp.updated_presenter_notes) {
+        slide.presenter_notes = resp.updated_presenter_notes;
+      }
+
       if (resp.pptx_download_url) {
         state.currentResult.pptx_download_url = resp.pptx_download_url;
         const pptxBtn = document.getElementById("btn-download-pptx");
@@ -1069,6 +1073,67 @@ function bindFilterAndSlideControls() {
         applyBtn.disabled = false;
         applyBtn.textContent = "✨ Apply to Slide";
       }
+    }
+  });
+
+  // Plan 6 Option C Layer 2: 1-Click AI Polish Script & Copy Script buttons
+  document.getElementById("btn-copy-slide-notes")?.addEventListener("click", (ev) => {
+    const btn = ev.currentTarget;
+    const slides = state.currentResult?.storyboard?.slides || [];
+    const activeNotes =
+      state.activeSlideIdx === -1
+        ? document.getElementById("stage-presenter-notes")?.innerText || ""
+        : slides[state.activeSlideIdx]?.presenter_notes || "";
+    copyTextWithFeedback(btn, activeNotes, "✅ Script Copied!");
+  });
+
+  document.getElementById("btn-ai-polish-notes")?.addEventListener("click", async (ev) => {
+    const btn = ev.currentTarget;
+    if (!state.currentResult) return;
+    const slides = state.currentResult.storyboard?.slides || [];
+    if (state.activeSlideIdx < 0 || !slides[state.activeSlideIdx]) return;
+    const slide = slides[state.activeSlideIdx];
+    const statusPill = document.getElementById("notes-polish-status-pill");
+    const origText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "⏳ Polishing Script...";
+    try {
+      const resp = await fetch("/api/v1/slide/polish-notes", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name || "First Aid",
+          slide_index: state.activeSlideIdx,
+          slide_data: slide,
+          audience_level: document.getElementById("audience-select")?.value || slide.audience_level || "All Scouts (Ages 11-17)",
+          storyboard_slides: slides,
+          counselor_info: state.currentResult.counselor_info || {},
+          output_path: state.currentResult.output_path || "",
+        }),
+      });
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.presenter_notes) {
+          slide.presenter_notes = data.presenter_notes;
+          slide._isPolishedNotes = true;
+        }
+        if (data.pptx_download_url) {
+          state.currentResult.pptx_download_url = data.pptx_download_url;
+          const pptxBtn = document.getElementById("btn-download-pptx");
+          if (pptxBtn) pptxBtn.href = `${data.pptx_download_url}?v=${Date.now()}`;
+        }
+        if (statusPill) {
+          statusPill.textContent = data.cache_hit
+            ? "✨ Studio Polished Script (SQLite Cache Hit)"
+            : "✨ Studio Polished Script (Saved to SQLite)";
+        }
+        renderActiveSlide(state.activeSlideIdx);
+      }
+    } catch (err) {
+      console.warn("Could not polish slide notes:", err);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = origText;
     }
   });
 
@@ -2101,13 +2166,15 @@ function renderActiveSlide(idx) {
 
     if (notesEl) {
       const eagleNote = res.is_eagle_required
-        ? `As an Eagle-Required Merit Badge, ${res.badge_name} builds essential lifelong citizenship, safety, and outdoor leadership skills.`
-        : `The ${res.badge_name} Merit Badge gives Scouts an opportunity to explore a specialized field through hands-on practice and real-world observation.`;
-      const coverNotes = `[SAY] Welcome Scouts to our ${res.badge_name} Merit Badge session, and introduce yourself (${counselorName}, ${troopName}) along with how Scouts and parents can reach you (${email || "via unit leadership"}) using Two-Deep Leadership / Youth Protection guidelines. ${eagleNote} Explain how we will work through each official requirement using this presentation, hands-on demonstrations, and your printable ${res.badge_name} Merit Badge Workbook.`;
+        ? `As an Eagle-Required Merit Badge, ${res.badge_name} builds lifelong citizenship, safety, and outdoor leadership skills you will use on every troop outing.`
+        : `The ${res.badge_name} Merit Badge gives our patrol a great chance to explore a hands-on field through practical exercises and real-world observation.`;
+      const coverNotes = `[SAY] Welcome to our ${res.badge_name} Merit Badge session, Scouts! [Point to the Counselor Contact card on screen] My name is ${counselorName} with ${troopName}, and when you reach out by email (${email || "via unit leadership"}) or phone with questions or workbook logs, remember our BSA Youth Protection and Two-Deep Leadership rule: always copy a parent, guardian, or another registered adult leader. ${eagleNote} [Hold up a Blue Card and sample ${res.badge_name} Workbook] Today we will work through the official requirements together using these slides, hands-on skill stations, and your printable ${res.badge_name} Merit Badge Workbook.`;
       const coverNotesHtml = formatSpeakerNotesHtml(coverNotes);
       notesEl.innerHTML = coverNotesHtml;
       const fsTeleContent = document.getElementById("fullscreen-teleprompter-content");
       if (fsTeleContent) fsTeleContent.innerHTML = coverNotesHtml;
+      const statusPill = document.getElementById("notes-polish-status-pill");
+      if (statusPill) statusPill.textContent = "Conversational First-Person Script • Stage Cues";
     }
     document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
     fitActiveSlideToStage();
@@ -2600,6 +2667,12 @@ function renderActiveSlide(idx) {
   if (notesEl) {
     notesEl.innerHTML = formattedNotes;
   }
+  const statusPill = document.getElementById("notes-polish-status-pill");
+  if (statusPill) {
+    statusPill.textContent = slide._isPolishedNotes
+      ? "✨ Studio Polished Script (SQLite Cached)"
+      : "Conversational First-Person Script • Stage Cues";
+  }
   const fsTeleContent = document.getElementById("fullscreen-teleprompter-content");
   if (fsTeleContent) {
     fsTeleContent.innerHTML = formattedNotes || "<em>No speaker notes for this slide.</em>";
@@ -2675,10 +2748,21 @@ function formatSpeakerNotesHtml(rawNotes) {
     .filter(Boolean);
   return lines
     .map((line) => {
-      const decorated = escapeHtml(line)
+      let decorated = escapeHtml(line)
         .replace(/\[SAY\]/g, '<span class="m3-cue-tag">[SAY]</span>')
         .replace(/\[DEMONSTRATE\]/g, '<span class="m3-cue-tag" style="background:#E2EDC8;color:#151E00;">[DEMONSTRATE]</span>')
         .replace(/\[ASK SCOUTS\]/g, '<span class="m3-cue-tag" style="background:#FEF3C7;color:#B45309;">[ASK SCOUTS]</span>');
+
+      decorated = decorated.replace(
+        /\[Expected Answer:\s*([^\]]+)\]/gi,
+        '<div class="m3-expected-answer-box"><strong>✓ Expected Answer:</strong> $1</div>'
+      );
+
+      decorated = decorated.replace(
+        /\[((?!SAY\]|DEMONSTRATE\]|ASK SCOUTS\])[^\]]{3,160})\]/g,
+        '<span class="m3-stage-cue-pill">🎬 [$1]</span>'
+      );
+
       return `<div style="margin-bottom:8px;">${decorated}</div>`;
     })
     .join("");
@@ -3494,6 +3578,9 @@ async function applyCatalogImageToActiveSlide(entry, visualSourceOverride = "cus
       slide.diagram_url = data.diagram_url || (entry?.image_url || "");
       slide.diagram_path = data.diagram_path || (entry?.image_path || "");
       slide.ai_hero_image_path = data.visual_source_mode === "ai_hero" ? data.diagram_path : null;
+      if (data.updated_presenter_notes) {
+        slide.presenter_notes = data.updated_presenter_notes;
+      }
       if (data.pptx_download_url) {
         const dlBtn = document.getElementById("btn-download-pptx");
         if (dlBtn) dlBtn.href = data.pptx_download_url;
@@ -5381,10 +5468,10 @@ function buildPresenterSyncPayload() {
   const isCover = idx === -1;
   const currSlide = isCover
     ? {
-        title: `${res.badge_name || "First Aid"} Merit Badge — Cover Slide`,
+        title: `${res.badge_name || "First Aid"} Merit Badge - Cover Slide`,
         req_number: "Cover",
         presenter_notes:
-          "[SAY] Welcome Scouts! Verify everyone has their Merit Badge Workbook and pen ready.\n[DEMONSTRATE] Hold up the Merit Badge emblem and review today's session schedule.\n[ASK SCOUTS] Who has already started working on the home or campout prerequisites?",
+          "[SAY] Welcome to our Merit Badge session, Scouts! [Point to the Counselor Contact card on screen] Let's make sure everyone has their printable Merit Badge Workbook and pen ready, and remember our Two-Deep Leadership rule whenever you email or call with questions.\n[DEMONSTRATE] [Hold up the Merit Badge emblem and sample Workbook] Walk through today's session schedule and show where Scouts will log their field observations.\n[ASK SCOUTS] Who has already started working on the home or campout prerequisites? [Expected Answer: Collect prerequisite logs or note which Scouts need campout scheduling.]",
       }
     : slides[idx] || {};
   const nextSlide = idx + 1 < slides.length ? slides[idx + 1] : null;

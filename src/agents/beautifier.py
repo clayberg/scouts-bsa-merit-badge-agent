@@ -970,28 +970,40 @@ def beautify_slide_storyboard(
         slide["audience_level"] = audience_level
 
         # Strip any legacy [DEEP RESEARCH & LOCAL GROUNDING] boilerplate from presenter_notes
-        notes_str = str(slide.get("presenter_notes") or "")
-        if "[DEEP RESEARCH & LOCAL GROUNDING" in notes_str:
-            notes_lines = [
-                ln for ln in notes_str.splitlines()
-                if "[DEEP RESEARCH & LOCAL GROUNDING" not in ln
-            ]
-            notes_str = "\n".join(notes_lines).strip()
+        # and re-compile conversational presenter_notes so they reflect the finalized visual_caption,
+        # diagram_path, archetype, and audience_level.
+        from src.agents.planner import _build_slide_teaching_notes, _sanitize_no_ellipsis_or_emdash
 
-        aud_lower = str(audience_level or "").lower()
-        if "first-year" in aud_lower or "tenderfoot" in aud_lower:
-            if "FIRST-YEAR / TENDERFOOT FOCUS" not in notes_str:
-                notes_str += (
-                    "\n[DEMONSTRATE] [FIRST-YEAR / TENDERFOOT FOCUS (Ages 11–12)] Break this skill into short, "
-                    "concrete steps, pair each younger Scout with an experienced buddy, and check comprehension before moving on."
-                )
-        elif "older" in aud_lower or "eagle" in aud_lower:
-            if "OLDER SCOUTS / EAGLE PREP" not in notes_str:
-                notes_str += (
-                    "\n[ASK SCOUTS] [OLDER SCOUTS / EAGLE PREP (Ages 14–17)] How would you teach this requirement to a "
-                    "new Scout patrol using the EDGE method or apply it as a Youth Leader on an upcoming troop expedition?"
-                )
-        slide["presenter_notes"] = notes_str
+        if req_num.lower() not in ("overview", "sources") and str(slide.get("archetype") or "").upper() not in (
+            "REQUIREMENTS_TRIAGE_MATRIX",
+            "SOURCES_AND_REFERENCES",
+        ):
+            slide["presenter_notes"] = _build_slide_teaching_notes(
+                badge_name=badge_name,
+                req_num=req_num,
+                execution_mode=str(slide.get("execution_mode") or "IN_CLASS_DISCUSSION"),
+                slide_title=title,
+                archetype=str(slide.get("archetype") or arch),
+                req_text=str(slide.get("verbatim_requirement_text") or ""),
+                bullet_points=list(slide.get("bullet_points") or []),
+                comparison_data=slide.get("comparison_data"),
+                worked_example=slide.get("worked_example"),
+                quiz_item=slide.get("quiz_item"),
+                gear_checklist=slide.get("gear_checklist"),
+                visual_caption=str(slide.get("visual_caption") or ""),
+                has_visual=bool(slide.get("diagram_path")),
+                safety_callout=slide.get("safety_warning"),
+                audience_level=str(audience_level or "All Scouts (Ages 11-17)"),
+            )
+        else:
+            notes_str = _sanitize_no_ellipsis_or_emdash(str(slide.get("presenter_notes") or ""))
+            if "[DEEP RESEARCH & LOCAL GROUNDING" in notes_str:
+                notes_lines = [
+                    ln for ln in notes_str.splitlines()
+                    if "[DEEP RESEARCH & LOCAL GROUNDING" not in ln
+                ]
+                notes_str = "\n".join(notes_lines).strip()
+            slide["presenter_notes"] = notes_str
 
         if not slide.get("subtitle"):
             slide["subtitle"] = f"Req {req_num} • {theme.replace('_', ' ').title()}"

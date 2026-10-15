@@ -2777,4 +2777,33 @@ body.m3-sunlight-mode .m3-slide-card {
   gap: 8px;
 }
 
+/* ============================================================================
+   PLAN 6: CONVERSATIONAL COUNSELOR TEACHING NOTES STAGE CUES & EXPECTED ANSWER
+   ============================================================================ */
+.m3-stage-cue-pill {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #78350F;
+  background: #FEF3C7;
+  border: 1px solid #F59E0B;
+  border-radius: 999px;
+  padding: 1px 8px;
+  margin: 1px 3px;
+  vertical-align: baseline;
+}
+
+.m3-expected-answer-box {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #ECFDF5;
+  border-left: 3.5px solid #059669;
+  border-radius: 6px;
+  font-size: 0.81rem;
+  color: #065F46;
+  font-weight: 600;
+}
+
+
 

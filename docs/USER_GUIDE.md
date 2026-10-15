@@ -145,7 +145,7 @@ When **Slide Deck Preview** (Tab 1) is active, you have fast controls for naviga
 - Look at the source pill above the image on the right side of the 16:9 slide stage:
   - When a slide has a single visual (such as a Requirement Intro slide with one Nano Banana hero illustration), the pill shows a static label (`🍌 NANO BANANA AI ILLUSTRATION`).
   - When a slide has multiple visual choices (such as the primary pamphlet figure plus up to 2 Gemini Vision-verified BSA pamphlet alternates for that requirement, or custom images you uploaded for that slide), the pill shows **`◀`** and **`▶`** arrows and a **`(1/3) ▾`** counter.
-  - Click **`◀`** or **`▶`** (or press **`[`** and **`]`** on your keyboard) to switch between the slide's image options in one click, or click **`(1/3) ▾`** to open a popover showing each option's thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`), and Vision-verified caption. Picking any option updates the slide image and its caption right away and rebuilds your `.pptx` file in the background at `$0.00` cost. You can also click **`+ Upload / Add Custom Image for This Slide...`** at the bottom of the popover to open the 4-Tab Image Studio.
+  - Click **`◀`** or **`▶`** (or press **`[`** and **`]`** on your keyboard) to switch between the slide's image options in one click, or click **`(1/3) ▾`** to open a popover showing each option's thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`), and Vision-verified caption. Picking any option updates the slide image, its caption, and your `[SAY]` / `[DEMONSTRATE]` teaching script right away and rebuilds your `.pptx` file in the background at `$0.00` cost. You can also click **`+ Upload / Add Custom Image for This Slide...`** at the bottom of the popover to open the 4-Tab Image Studio.
 
 ### 4. Dual-Window Presenter View, Fullscreen Teleprompter (`N`), Classroom Timer & Patrol Scoreboard
 - **🪟 Dual-Window Presenter View (`🪟 Presenter View` or press `P`)**: Opens a synchronized audience projection window (`scouts_bsa_presenter_sync_v1`) that you can drag onto a classroom projector or TV. The audience sees only the clean 16:9 slide canvas, while your laptop screen keeps your **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** teaching script, next-slide preview, and session timer in front of you.
@@ -186,10 +186,11 @@ flowchart TD
 ![Under-Stage Co-Design Bar, Popup Image Studio & Quick Text Editor](images/codesign-and-image-studio.png)
 
 ### Drawer Tab 1: `🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])`
-Displays your structured **EDGE Method** script for the current slide:
-- **`[SAY]`**: Clear talking points to explain the concept in Scout-friendly language.
-- **`[DEMONSTRATE]`**: Physical props to hold up or hands-on actions to show the patrol.
-- **`[ASK SCOUTS]`**: Open-ended check questions to confirm Scouts understand the requirement before moving on.
+Displays your ready-to-speak **EDGE Method** script for the current slide, compiled on the fly (`<5ms` per deck) directly from the slide's teaching cards, official requirement text, and active visual caption:
+- **`[SAY]`**: A conversational first-person speaking script that teaches the actual material on the slide and includes highlighted inline stage directions (`🎬 [Point to Card 1: ...]`, `🎬 [Gesture to the right-hand figure: ...]`, `🎬 [Pause for hands]`).
+- **`[DEMONSTRATE]`**: Included selectively when the slide calls for a hands-on skill demonstration, gear inspection, worked-example walkthrough, or diagram trace.
+- **`[ASK SCOUTS]`**: A specific patrol or field check question followed by a highlighted **`✓ Expected Answer:`** key so you have the exact BSA pamphlet answer in front of you.
+- **`✨ AI Polish Script` & `📋 Copy Script` Buttons**: Click **`✨ AI Polish Script`** in the upper-right header of the notes card to add Studio EDGE coaching cues (`POST /api/v1/slide/polish-notes`, cached in SQLite `polished_speaker_notes` and synced into your downloadable `.pptx` file), or click **`📋 Copy Script`** to copy the active slide's script to your clipboard. Whenever you switch a slide's image or edit its cards, the teaching script updates automatically to match.
 
 ### Drawer Tab 2: `🎨 Customize Slide & Image Studio`
 Lets you change the layout, colors, or illustration on the active slide and automatically rebuilds your downloadable `.pptx` file:

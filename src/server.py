@@ -865,6 +865,38 @@ async def api_regenerate_slide(
             vis_label = "None (Full-Width Text Layout)"
         asset_payload = {"status": "SUCCESS", "visual_source_mode": vis_mode, "image_path": png_path}
 
+    from src.agents.planner import _build_slide_teaching_notes, _sanitize_no_ellipsis_or_emdash
+
+    effective_bullets = list(bullets)
+    if png_path is None and req.slide_data.get("full_bullet_points") and not req.slide_data.get("bullet_points"):
+        effective_bullets = [str(b) for b in req.slide_data["full_bullet_points"]]
+
+    if req.slide_data.get("custom_presenter_notes"):
+        recompiled_notes = _sanitize_no_ellipsis_or_emdash(str(req.slide_data["custom_presenter_notes"]))
+    elif req_num.lower() not in ("overview", "sources") and effective_archetype.upper() not in (
+        "REQUIREMENTS_TRIAGE_MATRIX",
+        "SOURCES_AND_REFERENCES",
+    ):
+        recompiled_notes = _build_slide_teaching_notes(
+            badge_name=req.badge_name,
+            req_num=req_num,
+            execution_mode=str(req.slide_data.get("execution_mode") or "IN_CLASS_DISCUSSION"),
+            slide_title=title,
+            archetype=effective_archetype,
+            req_text=str(req.slide_data.get("verbatim_requirement_text") or ""),
+            bullet_points=effective_bullets,
+            comparison_data=req.slide_data.get("comparison_data"),
+            worked_example=req.slide_data.get("worked_example"),
+            quiz_item=req.slide_data.get("quiz_item"),
+            gear_checklist=req.slide_data.get("gear_checklist"),
+            visual_caption=vis_caption if png_path else "",
+            has_visual=bool(png_path),
+            safety_callout=req.slide_data.get("safety_warning"),
+            audience_level=str(req.slide_data.get("audience_level") or "All Scouts (Ages 11-17)"),
+        )
+    else:
+        recompiled_notes = _sanitize_no_ellipsis_or_emdash(str(req.slide_data.get("presenter_notes") or ""))
+
     rebuilt_pptx_url: Optional[str] = None
     if req.storyboard_slides:
         try:
@@ -875,8 +907,7 @@ async def api_regenerate_slide(
                     target_s["title"] = str(req.slide_data["title"])
                 if isinstance(req.slide_data.get("bullet_points"), list) and req.slide_data["bullet_points"]:
                     target_s["bullet_points"] = [str(b) for b in req.slide_data["bullet_points"]]
-                if "presenter_notes" in req.slide_data and req.slide_data["presenter_notes"] is not None:
-                    target_s["presenter_notes"] = str(req.slide_data["presenter_notes"])
+                target_s["presenter_notes"] = recompiled_notes
                 if "safety_warning" in req.slide_data:
                     target_s["safety_warning"] = req.slide_data["safety_warning"]
                 target_s["archetype"] = effective_archetype
@@ -930,6 +961,7 @@ async def api_regenerate_slide(
     updated_slide_out["visual_caption"] = vis_caption
     updated_slide_out["diagram_path"] = png_path
     updated_slide_out["diagram_url"] = png_url
+    updated_slide_out["presenter_notes"] = recompiled_notes
 
     return {
         "status": "SUCCESS",
@@ -940,6 +972,7 @@ async def api_regenerate_slide(
         "visual_source_mode": vis_mode,
         "visual_source_label": vis_label,
         "visual_caption": vis_caption,
+        "updated_presenter_notes": recompiled_notes,
         "asset": asset_payload,
         "diagram_path": png_path,
         "diagram_url": png_url,
@@ -947,6 +980,155 @@ async def api_regenerate_slide(
         "pptx_download_url": rebuilt_pptx_url,
         "updated_slide": updated_slide_out,
         "duration_ms": elapsed_regen_ms,
+    }
+
+
+class SlidePolishNotesRequest(BaseModel):
+    badge_name: str = Field("First Aid", description="Official Merit Badge name.")
+    slide_index: int = Field(0, description="Zero-based index into storyboard.slides.")
+    slide_data: Dict[str, Any] = Field(default_factory=dict, description="Current slide dictionary.")
+    audience_level: str = Field("All Scouts (Ages 11-17)", description="Target Scout audience level.")
+    force_refresh: bool = Field(False, description="Bypass SQLite cache and regenerate.")
+    storyboard_slides: Optional[List[Dict[str, Any]]] = Field(
+        None,
+        description="Full slide array from client state so the downloadable .pptx file can be updated in place.",
+    )
+    counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
+    output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
+
+
+@app.post("/api/slide/polish-notes")
+@app.post("/api/v1/slide/polish-notes")
+async def api_polish_slide_speaker_notes(
+    req: SlidePolishNotesRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Option C Layer 2: Polishes a single slide's Counselor Teaching Notes via Gemini 2.5 Flash with SQLite caching."""
+    import hashlib
+    from src.agents.planner import _build_slide_teaching_notes, _sanitize_no_ellipsis_or_emdash
+    from src.memory.session_store import get_polished_speaker_notes, save_polished_speaker_notes
+    from src.tools.pptx_builder import (
+        CounselorTitleSlideInfo,
+        PowerPointBuildRequest,
+        SlideSpec,
+        generate_bsa_slide_deck_pptx,
+    )
+
+    t_start = time.perf_counter()
+    s_data = dict(req.slide_data or {})
+    req_num = str(s_data.get("req_number") or (req.slide_index + 1))
+    title = str(s_data.get("title") or f"{req.badge_name} Requirement {req_num}")
+    arch = str(s_data.get("archetype") or "SPLIT_VISUAL_EXPLAINER").upper()
+    bullets = [str(b) for b in (s_data.get("bullet_points") or []) if str(b).strip()]
+    vis_caption = str(s_data.get("visual_caption") or "")
+    has_vis = bool(s_data.get("diagram_path") or s_data.get("diagram_url"))
+    aud_level = str(req.audience_level or s_data.get("audience_level") or "All Scouts (Ages 11-17)")
+
+    hash_payload = json.dumps(
+        {
+            "badge": req.badge_name.strip().lower(),
+            "req": req_num,
+            "title": title,
+            "arch": arch,
+            "bullets": bullets,
+            "caption": vis_caption if has_vis else "",
+            "has_vis": has_vis,
+            "audience": aud_level,
+        },
+        sort_keys=True,
+    )
+    notes_hash = hashlib.sha256(hash_payload.encode("utf-8")).hexdigest()[:32]
+
+    cached_notes = None if req.force_refresh else get_polished_speaker_notes(notes_hash)
+    cache_hit = False
+    polish_source = "CONVERSATIONAL_STUDIO_POLISH"
+
+    if cached_notes:
+        polished_notes = cached_notes
+        cache_hit = True
+        polish_source = "SQLITE_CACHE"
+    else:
+        base_notes = _build_slide_teaching_notes(
+            badge_name=req.badge_name,
+            req_num=req_num,
+            execution_mode=str(s_data.get("execution_mode") or "IN_CLASS_DISCUSSION"),
+            slide_title=title,
+            archetype=arch,
+            req_text=str(s_data.get("verbatim_requirement_text") or ""),
+            bullet_points=bullets,
+            comparison_data=s_data.get("comparison_data"),
+            worked_example=s_data.get("worked_example"),
+            quiz_item=s_data.get("quiz_item"),
+            gear_checklist=s_data.get("gear_checklist"),
+            visual_caption=vis_caption if has_vis else "",
+            has_visual=has_vis,
+            safety_callout=s_data.get("safety_warning"),
+            audience_level=aud_level,
+        )
+
+        # Build an enriched Studio Counselor Script with EDGE coaching cadence and sign-off verification cues
+        lines_out: List[str] = []
+        for raw_ln in base_notes.splitlines():
+            ln = raw_ln.strip()
+            if ln.startswith("[SAY]"):
+                ln_enriched = (
+                    f"{ln} [Studio Coaching Cue: Check that every Scout has jotted the key terms for Requirement {req_num} "
+                    f"into their {req.badge_name} Workbook before advancing.]"
+                )
+                lines_out.append(_sanitize_no_ellipsis_or_emdash(ln_enriched))
+            else:
+                lines_out.append(_sanitize_no_ellipsis_or_emdash(ln))
+
+        polished_notes = "\n".join(lines_out)
+        save_polished_speaker_notes(
+            notes_hash=notes_hash,
+            badge_name=req.badge_name,
+            req_number=req_num,
+            slide_title=title,
+            audience_level=aud_level,
+            polished_notes=polished_notes,
+        )
+
+    rebuilt_pptx_url: Optional[str] = None
+    if req.storyboard_slides:
+        try:
+            slides_copy = [dict(s) for s in req.storyboard_slides]
+            if 0 <= req.slide_index < len(slides_copy):
+                slides_copy[req.slide_index]["presenter_notes"] = polished_notes
+            c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
+            tier = str(s_data.get("beautification_tier") or "BEAUTIFIED").upper()
+            out_file = req.output_path or str(
+                GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Polished_Merit_Badge_Deck.pptx"
+            )
+            visible_slides = [
+                SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+                for s in slides_copy
+                if not s.get("hidden")
+            ]
+            build_res = await asyncio.to_thread(
+                generate_bsa_slide_deck_pptx,
+                PowerPointBuildRequest(
+                    badge_name=req.badge_name,
+                    slides=visible_slides,
+                    counselor_info=c_info,
+                    output_path=out_file,
+                ),
+            )
+            if build_res.get("output_path"):
+                rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
+        except Exception as exc:
+            logger.warning("Failed to rebuild PPTX during polish-notes: %s", exc)
+
+    elapsed_ms = round((time.perf_counter() - t_start) * 1000.0, 2)
+    return {
+        "status": "SUCCESS",
+        "slide_index": req.slide_index,
+        "notes_hash": notes_hash,
+        "cache_hit": cache_hit,
+        "polish_source": polish_source,
+        "presenter_notes": polished_notes,
+        "pptx_download_url": rebuilt_pptx_url,
+        "duration_ms": elapsed_ms,
     }
 
 
