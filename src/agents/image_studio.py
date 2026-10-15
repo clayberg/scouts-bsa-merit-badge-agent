@@ -14,11 +14,13 @@ This module implements:
      downloads thumbnails in parallel into a staging cache, and displays all results to the user without
      polluting the badge catalog with unselected search hits or unrelated local diagram files.
 3. `NanoBananaImageAgent` (`gemini-2.5-flash-image` / Nano Banana, Imagen 3 & Flux AI Image Synthesis):
-   - Estimates FinOps cost (`$0.04 USD` per generated image) and enforces explicit user cost consent
-     (`user_consented=True`) before generating any AI illustration.
+   - Estimates FinOps cost (`$0.08 USD` per on-demand generated image; `$0.00 USD` for pre-bundled catalog visuals)
+     and enforces explicit user cost consent (`user_consented=True`) before generating any AI illustration.
    - Generates pure visual illustrations of the concept described by the prompt (with ZERO prompt text,
-     words, or slide headers printed inside the image) across 8 distinct visual illustration styles:
+     words, or slide headers printed inside the image) across 10 distinct visual illustration styles:
+     - `Auto (Content-Aware Mix)`
      - `Photorealistic Image`
+     - `4-Quadrant Concept Map`
      - `Line Drawing`
      - `Cartoon Drawing`
      - `Technical Diagram`
@@ -36,6 +38,7 @@ import math
 import os
 import re
 import shutil
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -757,11 +760,18 @@ def seed_badge_image_catalog_from_storyboard(
 
     catalog_list = list(by_stem.values())
     _save_catalog_json(badge_name, catalog_list)
-    for item in catalog_list[:40]:
+    batch_fn = getattr(_default_store, "upsert_badge_images_batch_sync", None)
+    if callable(batch_fn):
         try:
-            _default_store.upsert_badge_image_sync(item)
+            batch_fn(catalog_list[:40])
         except Exception:
             pass
+    else:
+        for item in catalog_list[:40]:
+            try:
+                _default_store.upsert_badge_image_sync(item)
+            except Exception:
+                pass
 
     for idx, slide in enumerate(slides):
         req_num = str(slide.get("req_number") or (idx + 1))
@@ -1992,6 +2002,7 @@ def _synthesize_wikimedia_styled_image(
 
 
 _LAST_AI_SYNTHESIS_DIAGNOSTICS: Dict[str, Any] = {}
+_SYNTHESIS_DIAG_LOCK = threading.Lock()
 
 
 def compress_hero_illustration(
@@ -2240,6 +2251,7 @@ def _try_live_ai_image_synthesis(
     out_path: Path,
     include_humans: bool = True,
     compress_800x600: bool = False,
+    badge_name: str = "First Aid",
 ) -> bool:
     """Generates a zero-text concept illustration using Nano Banana (`gemini-2.5-flash-image`) and Vertex Imagen 3/4.
 
@@ -2250,10 +2262,12 @@ def _try_live_ai_image_synthesis(
        with `person_generation="ALLOW_ADULT"` (when `include_humans=True`) or `"DONT_ALLOW"` (when `include_humans=False`).
     """
     global _LAST_AI_SYNTHESIS_DIAGNOSTICS
-    _LAST_AI_SYNTHESIS_DIAGNOSTICS = {"model_used": None, "attempts": [], "include_humans": include_humans}
+    with _SYNTHESIS_DIAG_LOCK:
+        _LAST_AI_SYNTHESIS_DIAGNOSTICS = {"model_used": None, "attempts": [], "include_humans": include_humans}
 
     if os.getenv("DISABLE_LIVE_IMAGE_GEN", "false").lower() == "true":
-        _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append("DISABLE_LIVE_IMAGE_GEN=true")
+        with _SYNTHESIS_DIAG_LOCK:
+            _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append("DISABLE_LIVE_IMAGE_GEN=true")
         return False
 
     style_key = (visual_style or "Photorealistic Image").strip().lower()
@@ -2405,7 +2419,7 @@ def _try_live_ai_image_synthesis(
                     bridged_prompt = safe_subject[:235]
                 req_payload = json.dumps(
                     {
-                        "badge_name": "First Aid",
+                        "badge_name": badge_name or "First Aid",
                         "req_number": "1",
                         "slide_title": "Custom Nano Banana Scene",
                         "custom_prompt": bridged_prompt,
@@ -2567,6 +2581,7 @@ def generate_nano_banana_slide_image(
             seed_int=seed_int,
             out_path=out_path,
             include_humans=resolved_humans,
+            badge_name=badge_name,
         )
         if synthesized and out_path.exists():
             alignment_report = verify_generated_image_matches_prompt(
@@ -2822,4 +2837,552 @@ def upload_custom_slide_image(
         "image_path": entry["image_path"],
         "image_url": entry["image_url"],
     }
+
+
+# ==============================================================================
+# 8. SUPER-USER ADMIN CONSOLE: CACHED IMAGE & CAPTION STUDIO + 144-BADGE DIAGNOSTICS
+# ==============================================================================
+
+_ADMIN_CATALOG_MUTATION_LOCK = threading.Lock()
+
+
+def _probe_image_dims_and_size(abs_path: str) -> Dict[str, Any]:
+    """Returns width, height, and file_size_kb for a cached image file."""
+    if not abs_path or not os.path.exists(abs_path):
+        return {"width": 0, "height": 0, "file_size_kb": 0.0}
+    size_kb = round(os.path.getsize(abs_path) / 1024.0, 1)
+    try:
+        with Image.open(abs_path) as im:
+            w, h = im.size
+            return {"width": int(w), "height": int(h), "file_size_kb": size_kb}
+    except Exception:
+        return {"width": 0, "height": 0, "file_size_kb": size_kb}
+
+
+def admin_list_badge_catalog_images(
+    badge_name: str,
+    req_number: Optional[str] = None,
+    source_type: Optional[str] = None,
+    role: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Lists all cached images, captions, and metadata for a Merit Badge in the Admin Console.
+
+    Merges:
+    1. `assets/badge_image_catalog/<slug>/catalog.json`
+    2. `data/pamphlet_image_catalog.json` entries for `<slug>_p*` / `<slug>_ec*`
+    3. `assets/ai_illustrations/<slug>_*_nano_hero.png`
+    4. Official badge emblem & pamphlet cover from `get_badge_cover_and_patch_paths(badge_name)`
+    """
+    clean_badge = (badge_name or "First Aid").strip()
+    slug = _badge_slug(clean_badge)
+    by_stem: Dict[str, Dict[str, Any]] = {}
+
+    # 1. Existing per-badge catalog.json
+    for it in _load_catalog_json(clean_badge):
+        p = it.get("image_path")
+        if p and os.path.exists(str(p)):
+            canon_p = _canonical_figure_path(str(p))
+            sk = _canonical_stem_key(canon_p)
+            it["image_path"] = canon_p
+            it["image_url"] = _to_web_asset_url(canon_p)
+            it.setdefault("caption", it.get("description") or it.get("title") or "")
+            by_stem[sk] = it
+
+    # 2. Global pamphlet_image_catalog.json entries for this badge
+    try:
+        from src.tools.pamphlet_extractor import _load_pamphlet_image_catalog
+
+        pamphlet_cat = _load_pamphlet_image_catalog()
+        for p_fname, p_meta in pamphlet_cat.items():
+            if not (p_fname.startswith(f"{slug}_p") or p_fname.startswith(f"{slug}_ec")):
+                continue
+            cand_f = ASSETS_DIR / "pamphlet_images" / p_fname
+            if not cand_f.exists():
+                continue
+            abs_pf = os.path.abspath(str(cand_f))
+            sk_pf = _canonical_stem_key(abs_pf)
+            is_alt = bool(p_meta.get("is_alternate", False))
+            alt_rank = int(p_meta.get("alternate_rank") or (1 if is_alt else 0))
+            req_n = str(p_meta.get("req_number") or "1")
+            v_title = str(p_meta.get("topic") or p_meta.get("title") or f"{clean_badge} Req {req_n} Figure")[:68]
+            v_cap = str(p_meta.get("caption") or f"Official BSA pamphlet figure for {clean_badge} Requirement {req_n}.")
+            discard_flag = bool(p_meta.get("discard", False))
+            if sk_pf in by_stem:
+                by_stem[sk_pf]["title"] = v_title
+                by_stem[sk_pf]["description"] = v_cap
+                by_stem[sk_pf]["caption"] = v_cap
+                by_stem[sk_pf]["req_number"] = req_n
+                by_stem[sk_pf]["is_alternate"] = is_alt
+                by_stem[sk_pf]["alternate_rank"] = alt_rank
+                by_stem[sk_pf]["discard"] = discard_flag
+                by_stem[sk_pf]["pamphlet_filename"] = p_fname
+            else:
+                lbl = (
+                    f"🔄 Official Pamphlet Alternate #{alt_rank} (Req {req_n})"
+                    if is_alt
+                    else "📐 Official Pamphlet / Topic Figure"
+                )
+                by_stem[sk_pf] = {
+                    "image_id": hashlib.sha256(f"{clean_badge}:{abs_pf}".encode("utf-8")).hexdigest()[:14],
+                    "badge_name": clean_badge,
+                    "req_number": req_n,
+                    "slide_title": v_title,
+                    "title": v_title,
+                    "description": v_cap,
+                    "caption": v_cap,
+                    "source_type": "OFFICIAL_PAMPHLET_FIGURE",
+                    "source_label": lbl,
+                    "image_path": abs_pf,
+                    "image_url": _to_web_asset_url(abs_pf),
+                    "custom_prompt": "",
+                    "is_alternate": is_alt,
+                    "alternate_rank": alt_rank,
+                    "discard": discard_flag,
+                    "pamphlet_filename": p_fname,
+                }
+    except Exception as exc:
+        logger.debug("Admin catalog pamphlet scan warning: %s", exc)
+
+    # 3. Nano Banana hero illustrations on disk (`assets/ai_illustrations/<slug>_*_nano_hero.png`)
+    try:
+        ai_dir = ASSETS_DIR / "ai_illustrations"
+        if ai_dir.exists():
+            for hero_file in sorted(ai_dir.glob(f"{slug}_*_nano_hero.png")):
+                abs_h = os.path.abspath(str(hero_file))
+                sk_h = _canonical_stem_key(abs_h)
+                if sk_h not in by_stem:
+                    m_req = re.search(rf"^{re.escape(slug)}_req_([a-z0-9]+)_", hero_file.stem, re.IGNORECASE)
+                    req_n = m_req.group(1) if m_req else "1"
+                    by_stem[sk_h] = {
+                        "image_id": hashlib.sha256(f"{clean_badge}:{abs_h}".encode("utf-8")).hexdigest()[:14],
+                        "badge_name": clean_badge,
+                        "req_number": req_n,
+                        "slide_title": f"{clean_badge} Req {req_n} Hero Illustration",
+                        "title": f"{clean_badge} Req {req_n} Nano Banana Hero",
+                        "description": f"Pre-generated Nano Banana hero illustration for {clean_badge} Requirement {req_n}.",
+                        "caption": f"Nano Banana field illustration for {clean_badge} Requirement {req_n}.",
+                        "source_type": "NANO_BANANA_HERO",
+                        "source_label": "🍌 Nano Banana Hero Graphic",
+                        "image_path": abs_h,
+                        "image_url": _to_web_asset_url(abs_h),
+                        "custom_prompt": "",
+                        "is_alternate": False,
+                        "alternate_rank": 0,
+                        "discard": False,
+                    }
+    except Exception:
+        pass
+
+    # 4. Official badge emblem & pamphlet cover
+    try:
+        assets = get_badge_cover_and_patch_paths(clean_badge)
+        for asset_key, st_label, req_lbl in (
+            ("patch_path", "⚜️ Official Merit Badge Emblem", "Overview"),
+            ("cover_path", "📘 Official Pamphlet Cover", "Cover"),
+        ):
+            ap = assets.get(asset_key)
+            if ap and os.path.exists(str(ap)):
+                abs_ap = os.path.abspath(str(ap))
+                sk_ap = _canonical_stem_key(abs_ap)
+                if sk_ap not in by_stem:
+                    by_stem[sk_ap] = {
+                        "image_id": hashlib.sha256(f"{clean_badge}:{abs_ap}".encode("utf-8")).hexdigest()[:14],
+                        "badge_name": clean_badge,
+                        "req_number": req_lbl,
+                        "slide_title": f"{clean_badge} {req_lbl}",
+                        "title": f"{clean_badge} ({req_lbl})",
+                        "description": f"Official Scouting America {req_lbl.lower()} asset for the {clean_badge} Merit Badge.",
+                        "caption": f"Official {clean_badge} Merit Badge {req_lbl.lower()} asset.",
+                        "source_type": "OFFICIAL_BADGE_ASSET",
+                        "source_label": st_label,
+                        "image_path": abs_ap,
+                        "image_url": _to_web_asset_url(abs_ap),
+                        "custom_prompt": "",
+                        "is_alternate": False,
+                        "alternate_rank": 0,
+                        "discard": False,
+                    }
+    except Exception:
+        pass
+
+    all_items: List[Dict[str, Any]] = []
+    for item in by_stem.values():
+        meta_dims = _probe_image_dims_and_size(str(item.get("image_path") or ""))
+        item["width"] = meta_dims["width"]
+        item["height"] = meta_dims["height"]
+        item["file_size_kb"] = meta_dims["file_size_kb"]
+        item["filename"] = os.path.basename(str(item.get("image_path") or ""))
+        all_items.append(item)
+
+    # Sort by req_number natural order then primary before alternate
+    def _sort_key(entry: Dict[str, Any]) -> Tuple[int, str, int, str]:
+        rn = str(entry.get("req_number") or "99")
+        m_num = re.match(r"^(\d+)", rn)
+        n_val = int(m_num.group(1)) if m_num else (0 if rn in ("Cover", "Overview") else 999)
+        is_alt_int = 1 if entry.get("is_alternate") else 0
+        return (n_val, rn, is_alt_int, str(entry.get("filename") or ""))
+
+    all_items.sort(key=_sort_key)
+
+    # Apply optional filters
+    filtered = all_items
+    if req_number and str(req_number).strip().upper() != "ALL":
+        target_req = str(req_number).strip().lower()
+        filtered = [i for i in filtered if str(i.get("req_number") or "").strip().lower() == target_req]
+    if source_type and str(source_type).strip().upper() != "ALL":
+        target_st = str(source_type).strip().upper()
+        filtered = [i for i in filtered if str(i.get("source_type") or "").strip().upper() == target_st]
+    if role and str(role).strip().upper() != "ALL":
+        r_up = str(role).strip().upper()
+        if r_up == "PRIMARY":
+            filtered = [i for i in filtered if not i.get("is_alternate")]
+        elif r_up == "ALTERNATE":
+            filtered = [i for i in filtered if i.get("is_alternate")]
+
+    distinct_reqs = sorted(
+        {str(i.get("req_number") or "1") for i in all_items},
+        key=lambda r: (int(re.match(r"^(\d+)", r).group(1)) if re.match(r"^(\d+)", r) else 999, r),
+    )
+
+    return {
+        "status": "SUCCESS",
+        "badge_name": clean_badge,
+        "total_unfiltered": len(all_items),
+        "total_images": len(filtered),
+        "available_requirements": distinct_reqs,
+        "images": filtered,
+    }
+
+
+def admin_update_catalog_image_metadata(
+    badge_name: str,
+    image_id: str,
+    updates: Dict[str, Any],
+) -> Dict[str, Any]:
+    """Atomically updates caption, title, req_number, or role for a cached image across JSON & SQLite."""
+    clean_badge = (badge_name or "First Aid").strip()
+    target_id = (image_id or "").strip()
+    if not target_id:
+        return build_guided_tool_error(
+            error_code="MISSING_IMAGE_ID",
+            message="image_id is required to update catalog metadata.",
+            remediation="Pass a valid image_id from the Admin Catalog listing.",
+        )
+
+    with _ADMIN_CATALOG_MUTATION_LOCK:
+        listing = admin_list_badge_catalog_images(clean_badge)
+        all_items = listing.get("images") or []
+        matched_item: Optional[Dict[str, Any]] = None
+        for item in all_items:
+            if item.get("image_id") == target_id or item.get("filename") == target_id:
+                matched_item = item
+                break
+
+        if matched_item is None:
+            return build_guided_tool_error(
+                error_code="IMAGE_NOT_FOUND",
+                message=f"No catalog image '{target_id}' found for badge '{clean_badge}'.",
+                remediation="Refresh the Admin Catalog grid and select an existing image card.",
+            )
+
+        if "caption" in updates and updates["caption"] is not None:
+            new_cap = str(updates["caption"]).strip()
+            matched_item["caption"] = new_cap
+            matched_item["description"] = new_cap
+        if "title" in updates and updates["title"] is not None:
+            matched_item["title"] = str(updates["title"]).strip()[:80]
+        if "req_number" in updates and updates["req_number"] is not None:
+            matched_item["req_number"] = str(updates["req_number"]).strip()[:24]
+        if "is_alternate" in updates and updates["is_alternate"] is not None:
+            matched_item["is_alternate"] = bool(updates["is_alternate"])
+        if "alternate_rank" in updates and updates["alternate_rank"] is not None:
+            matched_item["alternate_rank"] = int(updates["alternate_rank"])
+        if "discard" in updates and updates["discard"] is not None:
+            matched_item["discard"] = bool(updates["discard"])
+
+        if matched_item.get("source_type") == "OFFICIAL_PAMPHLET_FIGURE":
+            matched_item["source_label"] = (
+                f"🔄 Official Pamphlet Alternate #{max(1, int(matched_item.get('alternate_rank') or 1))} (Req {matched_item.get('req_number')})"
+                if matched_item.get("is_alternate")
+                else "📐 Official Pamphlet / Topic Figure"
+            )
+
+        # 1. Persist to per-badge catalog.json and SQLite
+        _save_catalog_json(clean_badge, all_items)
+        try:
+            _default_store.upsert_badge_image_sync(matched_item)
+        except Exception:
+            pass
+
+        # 2. If backed by data/pamphlet_image_catalog.json, atomically update it and invalidate cache
+        fname = matched_item.get("pamphlet_filename") or matched_item.get("filename")
+        pamphlet_json_path = ASSETS_DIR.parent / "data" / "pamphlet_image_catalog.json"
+        if fname and pamphlet_json_path.exists():
+            try:
+                raw_cat = json.loads(pamphlet_json_path.read_text(encoding="utf-8"))
+                if isinstance(raw_cat, dict) and fname in raw_cat:
+                    entry_ref = raw_cat[fname]
+                    entry_ref["caption"] = matched_item.get("caption", "")
+                    entry_ref["topic"] = matched_item.get("title", "")
+                    entry_ref["req_number"] = matched_item.get("req_number", "1")
+                    entry_ref["is_alternate"] = bool(matched_item.get("is_alternate", False))
+                    entry_ref["alternate_rank"] = int(matched_item.get("alternate_rank") or 0)
+                    entry_ref["discard"] = bool(matched_item.get("discard", False))
+                    tmp_path = pamphlet_json_path.with_suffix(".json.tmp")
+                    tmp_path.write_text(json.dumps(raw_cat, indent=2), encoding="utf-8")
+                    os.replace(str(tmp_path), str(pamphlet_json_path))
+                    try:
+                        import src.tools.pamphlet_extractor as pe_mod
+
+                        pe_mod._PAMPHLET_IMAGE_CATALOG_CACHE = None
+                    except Exception:
+                        pass
+            except Exception as exc:
+                logger.warning("Failed to update data/pamphlet_image_catalog.json: %s", exc)
+
+        return {
+            "status": "SUCCESS",
+            "badge_name": clean_badge,
+            "image_id": matched_item["image_id"],
+            "updated_image": matched_item,
+        }
+
+
+def admin_promote_alternate_to_primary(
+    badge_name: str,
+    image_id: str,
+    req_number: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Promotes an Alternate visual to Primary Default for its requirement and demotes the prior Primary."""
+    clean_badge = (badge_name or "First Aid").strip()
+    target_id = (image_id or "").strip()
+    with _ADMIN_CATALOG_MUTATION_LOCK:
+        listing = admin_list_badge_catalog_images(clean_badge)
+        all_items = listing.get("images") or []
+        target_item: Optional[Dict[str, Any]] = None
+        for item in all_items:
+            if item.get("image_id") == target_id or item.get("filename") == target_id:
+                target_item = item
+                break
+        if target_item is None:
+            return build_guided_tool_error(
+                error_code="PROMOTE_IMAGE_NOT_FOUND",
+                message=f"Could not find image '{target_id}' in '{clean_badge}' catalog.",
+                remediation="Select a valid image card to promote.",
+            )
+
+        target_req = str(req_number or target_item.get("req_number") or "1").strip()
+        target_item["req_number"] = target_req
+        target_item["is_alternate"] = False
+        target_item["alternate_rank"] = 0
+        if target_item.get("source_type") == "OFFICIAL_PAMPHLET_FIGURE":
+            target_item["source_label"] = "📐 Official Pamphlet / Topic Figure"
+
+        demoted_ids: List[str] = []
+        alt_counter = 1
+        for item in all_items:
+            if item is target_item:
+                continue
+            if str(item.get("req_number") or "").strip().lower() == target_req.lower():
+                if not item.get("is_alternate") and item.get("source_type") == target_item.get("source_type"):
+                    item["is_alternate"] = True
+                    item["alternate_rank"] = alt_counter
+                    if item.get("source_type") == "OFFICIAL_PAMPHLET_FIGURE":
+                        item["source_label"] = f"🔄 Official Pamphlet Alternate #{alt_counter} (Req {target_req})"
+                    demoted_ids.append(str(item.get("image_id")))
+                    alt_counter += 1
+
+        _save_catalog_json(clean_badge, all_items)
+
+        # Also sync to data/pamphlet_image_catalog.json if applicable
+        pamphlet_json_path = ASSETS_DIR.parent / "data" / "pamphlet_image_catalog.json"
+        if pamphlet_json_path.exists():
+            try:
+                raw_cat = json.loads(pamphlet_json_path.read_text(encoding="utf-8"))
+                changed = False
+                for item in all_items:
+                    fn = item.get("pamphlet_filename") or item.get("filename")
+                    if fn and fn in raw_cat:
+                        raw_cat[fn]["req_number"] = item.get("req_number", "1")
+                        raw_cat[fn]["is_alternate"] = bool(item.get("is_alternate", False))
+                        raw_cat[fn]["alternate_rank"] = int(item.get("alternate_rank") or 0)
+                        changed = True
+                if changed:
+                    tmp_path = pamphlet_json_path.with_suffix(".json.tmp")
+                    tmp_path.write_text(json.dumps(raw_cat, indent=2), encoding="utf-8")
+                    os.replace(str(tmp_path), str(pamphlet_json_path))
+                    try:
+                        import src.tools.pamphlet_extractor as pe_mod
+
+                        pe_mod._PAMPHLET_IMAGE_CATALOG_CACHE = None
+                    except Exception:
+                        pass
+            except Exception as exc:
+                logger.warning("Failed to sync primary promotion to pamphlet_image_catalog.json: %s", exc)
+
+    try:
+        from src.observability.telemetry_store import get_zero_pii_telemetry_store
+
+        get_zero_pii_telemetry_store().record_image_swap(
+            badge_name=clean_badge,
+            req_number=target_req,
+            event_type="admin_promote_primary",
+            from_image_id=",".join(demoted_ids),
+            to_image_id=str(target_item.get("image_id") or ""),
+        )
+    except Exception:
+        pass
+
+    return {
+        "status": "SUCCESS",
+        "badge_name": clean_badge,
+        "req_number": target_req,
+        "promoted_image": target_item,
+        "demoted_image_ids": demoted_ids,
+    }
+
+
+def admin_recaption_image_with_vision(
+    badge_name: str,
+    image_id: str,
+    req_number: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Re-captions a cached catalog image using Gemini 2.5 Flash Vision with deterministic fallback."""
+    clean_badge = (badge_name or "First Aid").strip()
+    listing = admin_list_badge_catalog_images(clean_badge)
+    target_item: Optional[Dict[str, Any]] = None
+    for item in listing.get("images") or []:
+        if item.get("image_id") == image_id or item.get("filename") == image_id:
+            target_item = item
+            break
+    if target_item is None:
+        return build_guided_tool_error(
+            error_code="RECAPTION_IMAGE_NOT_FOUND",
+            message=f"Could not find image '{image_id}' in '{clean_badge}' catalog.",
+            remediation="Select a valid image card in the Admin Studio.",
+        )
+
+    eff_req = str(req_number or target_item.get("req_number") or "1").strip()
+    img_path = str(target_item.get("image_path") or "")
+    new_caption = ""
+    vision_model_used = "deterministic-handbook-captioner"
+
+    if img_path and os.path.exists(img_path) and os.getenv("DISABLE_LIVE_IMAGE_GEN", "false").lower() != "true":
+        client = _get_genai_client()
+        if client is not None:
+            try:
+                from google.genai import types  # type: ignore
+
+                raw_bytes = Path(img_path).read_bytes()
+                prompt_text = (
+                    f"You are an official Scouts BSA Merit Badge Pamphlet editor. "
+                    f"Write a concise, factual, 1-sentence instructional caption (12 to 24 words) describing "
+                    f"what this figure illustrates for the '{clean_badge}' Merit Badge (Requirement {eff_req}). "
+                    f"Do not include markdown, quotes, or 'Figure X:' prefixes."
+                )
+                resp = client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=[
+                        types.Part.from_bytes(data=raw_bytes, mime_type="image/png"),
+                        prompt_text,
+                    ],
+                )
+                cand_text = (getattr(resp, "text", None) or "").strip().strip('"').strip("'")
+                if len(cand_text) >= 15:
+                    new_caption = cand_text[:200]
+                    vision_model_used = "gemini-2.5-flash-vision"
+            except Exception as exc:
+                logger.debug("Gemini Vision recaption fallback: %s", exc)
+
+    if not new_caption:
+        topic_str = clean_slide_topic_boilerplate(str(target_item.get("title") or clean_badge))
+        src_lbl = str(target_item.get("source_type") or "OFFICIAL_PAMPHLET_FIGURE")
+        if src_lbl in ("NANO_BANANA_HERO", "NANO_BANANA_AI"):
+            new_caption = (
+                f"Instructional field illustration for {clean_badge} Requirement {eff_req} ({topic_str}), "
+                f"demonstrating proper Scouting technique, safety checks, and equipment readiness."
+            )
+        else:
+            new_caption = (
+                f"Official BSA Merit Badge handbook figure for {clean_badge} Requirement {eff_req} ({topic_str}), "
+                f"highlighting essential field procedures and practical verification steps."
+            )
+
+    upd_res = admin_update_catalog_image_metadata(
+        badge_name=clean_badge,
+        image_id=str(target_item["image_id"]),
+        updates={"caption": new_caption, "req_number": eff_req},
+    )
+    upd_res["vision_model_used"] = vision_model_used
+    upd_res["caption"] = new_caption
+    return upd_res
+
+
+def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
+    """Audits all 144 official Scouts BSA Merit Badges for covers, emblems, pamphlet figures, and AI heroes."""
+    from src.config import OFFICIAL_BSA_MERIT_BADGES_CATALOG
+    from src.tools.pamphlet_extractor import _load_pamphlet_image_catalog
+
+    pamphlet_cat = _load_pamphlet_image_catalog()
+    pamphlet_counts_by_slug: Dict[str, int] = {}
+    for fname, meta in pamphlet_cat.items():
+        if isinstance(meta, dict) and not meta.get("discard"):
+            b_slug = _badge_slug(str(meta.get("badge") or fname.split("_p")[0]))
+            pamphlet_counts_by_slug[b_slug] = pamphlet_counts_by_slug.get(b_slug, 0) + 1
+
+    ai_dir = ASSETS_DIR / "ai_illustrations"
+    hero_counts_by_slug: Dict[str, int] = {}
+    if ai_dir.exists():
+        for p in ai_dir.glob("*_nano_hero.png"):
+            stem_lower = p.stem.lower()
+            m_slug = re.match(r"^([a-z0-9_]+?)_req_", stem_lower)
+            s_key = m_slug.group(1) if m_slug else stem_lower.replace("_nano_hero", "")
+            hero_counts_by_slug[s_key] = hero_counts_by_slug.get(s_key, 0) + 1
+
+    rows: List[Dict[str, Any]] = []
+    covers_present = 0
+    emblems_present = 0
+    badges_with_visuals = 0
+
+    covers_dir = ASSETS_DIR / "pamphlet_covers"
+    emblems_dir = ASSETS_DIR / "badge_emblems"
+    cover_files = {p.stem.lower() for p in covers_dir.glob("*.*")} if covers_dir.exists() else set()
+    emblem_files = {p.stem.lower() for p in emblems_dir.glob("*.*")} if emblems_dir.exists() else set()
+
+    for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG:
+        b_name = str(item.get("badge_name") or item.get("name") or "First Aid")
+        slug = _badge_slug(b_name)
+        has_cover = slug in cover_files or f"{slug}_cover" in cover_files
+        has_emblem = slug in emblem_files or f"{slug}_patch" in emblem_files or f"{slug}_emblem" in emblem_files
+        if has_cover:
+            covers_present += 1
+        if has_emblem:
+            emblems_present += 1
+        p_cnt = pamphlet_counts_by_slug.get(slug, 0)
+        h_cnt = hero_counts_by_slug.get(slug, 0)
+        if p_cnt > 0 or h_cnt > 0 or has_emblem:
+            badges_with_visuals += 1
+        rows.append({
+            "badge_name": b_name,
+            "slug": slug,
+            "eagle_required": bool(item.get("is_eagle_required") or item.get("eagle_required")),
+            "category": item.get("category", "General"),
+            "cover_present": has_cover,
+            "emblem_present": has_emblem,
+            "pamphlet_figures": p_cnt,
+            "nano_banana_heroes": h_cnt,
+            "total_visuals": p_cnt + h_cnt + (1 if has_emblem else 0) + (1 if has_cover else 0),
+        })
+
+    return {
+        "status": "SUCCESS",
+        "total_badges": len(rows),
+        "covers_present": covers_present,
+        "emblems_present": emblems_present,
+        "badges_with_visuals": badges_with_visuals,
+        "total_pamphlet_figures": sum(pamphlet_counts_by_slug.values()),
+        "total_nano_banana_heroes": sum(hero_counts_by_slug.values()),
+        "badges": rows,
+    }
+
 

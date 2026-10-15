@@ -15,7 +15,8 @@ import io
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 from pydantic import BaseModel, Field
-from src.config import is_eagle_required
+from src.config import OFFICIAL_BSA_MERIT_BADGES_CATALOG, is_eagle_required
+from src.schemas import CounselorTitleSlideInfo
 
 try:
     from pypdf import PdfReader
@@ -28,38 +29,7 @@ except ImportError:  # pragma: no cover
 # ==============================================================================
 
 ALL_OFFICIAL_MERIT_BADGES: List[str] = [
-    "Action Sports", "American Business", "American Cultures", "American Heritage",
-    "American Indian Culture", "American Labor", "Animal Science", "Animation",
-    "Archaeology", "Archery", "Architecture", "Art", "Artificial Intelligence",
-    "Astronomy", "Athletics", "Automotive Maintenance", "Aviation", "Backpacking",
-    "Basketry", "Bird Study", "Bugling", "Camping", "Canoeing", "Chemistry", "Chess",
-    "Citizenship in Society", "Citizenship in the Community", "Citizenship in the Nation",
-    "Citizenship in the World", "Climbing", "Coin Collecting", "Collections",
-    "Communication", "Composite Materials", "Cooking", "Crime Prevention",
-    "Cybersecurity", "Cycling", "Dentistry", "Digital Technology",
-    "Disabilities Awareness", "Dog Care", "Drafting", "Electricity", "Electronics",
-    "Emergency Preparedness", "Energy", "Engineering", "Entrepreneurship",
-    "Environmental Science", "Exploration", "Family Life", "Farm Mechanics",
-    "Fingerprinting", "Fire Safety", "First Aid", "Fish and Wildlife Management",
-    "Fishing", "Fly-Fishing", "Forestry", "Game Design", "Gardening", "Genealogy",
-    "Geocaching", "Geology", "Golf", "Graphic Arts", "Health Care Professions", "Hiking",
-    "Home Repairs", "Horsemanship", "Indian Lore", "Insect Study", "Inventing",
-    "Journalism", "Kayaking", "Landscape Architecture", "Law", "Leatherwork",
-    "Lifesaving", "Mammal Study", "Metalwork", "Mining in Society",
-    "Model Design and Building", "Motorboating", "Moviemaking", "Multisport", "Music",
-    "Nature", "Nuclear Science", "Oceanography", "Orienteering", "Painting",
-    "Personal Fitness", "Personal Management", "Pets", "Photography", "Pioneering",
-    "Plant Science", "Plumbing", "Pottery", "Programming", "Public Health",
-    "Public Speaking", "Pulp and Paper", "Radio", "Railroading", "Reading",
-    "Recreation", "Reptile and Amphibian Study", "Rifle Shooting", "Robotics",
-    "Rowing", "Safety", "Salesmanship", "Scholarship", "Scouting Heritage",
-    "Scuba Diving", "Sculpture", "Search and Rescue", "Shotgun Shooting",
-    "Signs, Signals, and Codes", "Skating", "Small-Boat Sailing", "Snow Sports",
-    "Soil and Water Conservation", "Space Exploration", "Sports", "Stamp Collecting",
-    "Surveying", "Sustainability", "Swimming", "Textile", "Theater", "Traffic Safety",
-    "Truck Transportation", "Veterinary Medicine", "Water Sports", "Weather", "Welding",
-    "Whitewater", "Wilderness Survival", "Wildland Fire Management", "Wood Carving",
-    "Woodwork",
+    str(item["badge_name"]) for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG
 ]
 
 # Full 26-Badge Benchmark Suite: All 18 Eagle-Required Merit Badges + 8 Core Elective Benchmarks
@@ -96,16 +66,8 @@ BENCHMARK_BADGES: List[str] = [
 
 
 # ==============================================================================
-# PYDANTIC JSON SCHEMAS (RUBRIC CATEGORY 1 & BACKWARD-COMPATIBLE CONTRACTS)
+# PYDANTIC JSON SCHEMAS & TOOL CONTRACTS
 # ==============================================================================
-
-class CounselorTitleSlideInfo(BaseModel):
-    """Counselor contact and troop customization for the presentation title slide."""
-    counselor_name: str = Field(..., description="Full name of the Merit Badge Counselor.")
-    troop_affiliation: str = Field(..., description="Troop number and council (e.g., 'Troop 101, Golden Gate Council').")
-    email_address: Optional[str] = Field(None, description="Optional contact email address for scouts.")
-    phone_number: Optional[str] = Field(None, description="Optional contact phone number for scouts.")
-    custom_troop_logo_path: Optional[str] = Field(None, description="Local filesystem path to custom Troop Crest / Logo.")
 
 
 class MeritBadgeResearchRequest(BaseModel):

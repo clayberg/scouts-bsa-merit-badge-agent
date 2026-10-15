@@ -231,42 +231,39 @@ def _build_slide_teaching_notes(
         )
         return "\n".join(lines)
 
-    # Build a rich per-point elaboration helper so [SAY] is always deeper than the slide bullets
+    # Build natural, varied counselor talking points that expand on the slide cards without repetitive filler
     point_elaborations: List[str] = []
     for idx_p, (anc, bdy) in enumerate(parsed_points):
-        if bdy.endswith("."):
-            bdy_clean = bdy[:-1]
-        else:
-            bdy_clean = bdy
+        bdy_clean = bdy[:-1] if bdy.endswith(".") else bdy
         if idx_p == 0:
             point_elaborations.append(
-                f"Start with {anc}: {bdy_clean}, and explain how this principle establishes the foundation for {clean_title}"
+                f"Begin with {anc}: {bdy_clean}, and walk through how this applies to {clean_title} during {clean_badge} activities"
             )
         elif idx_p == 1:
             point_elaborations.append(
-                f"Next, unpack {anc} ({bdy_clean}), highlighting the real-world cause-and-effect relationship and why Scouts must recognize it in the field"
+                f"Next, cover {anc} ({bdy_clean}), noting what Scouts should watch for outdoors or during troop practice"
             )
         elif idx_p == 2:
             point_elaborations.append(
-                f"Then cover {anc} ({bdy_clean}), pointing out practical field indicators and common beginner misconceptions to avoid"
+                f"Point out {anc} ({bdy_clean}), including common mistakes new Scouts make and how to correct them early"
             )
         else:
             point_elaborations.append(
-                f"Also emphasize {anc} ({bdy_clean}) so Scouts can connect the concept directly to hands-on field application"
+                f"Tie in {anc} ({bdy_clean}) so each Scout knows what to show or explain during counselor sign-off"
             )
 
     elaboration_paragraph = ". ".join(point_elaborations) + "." if point_elaborations else ""
     supplementary_note = (
-        f" Go beyond the slide text by sharing these additional instructional details: {' '.join(extra_insights[:2])}"
+        f" Share these additional pamphlet details with the patrol: {' '.join(extra_insights[:2])}"
         if extra_insights
         else (
-            f" Connect these points back to the official Requirement {clean_req} standard ({clean_req_text}) so Scouts can explain not just the definitions, but why each detail matters in practice."
+            f" Tie these points directly to Requirement {clean_req} ({clean_req_text}) so Scouts can explain both the rule and how they use it in practice."
             if clean_req_text
             else ""
         )
     )
     safety_note = (
-        f" Reinforce the critical safety rule for this topic: {_sanitize_no_ellipsis_or_emdash(safety_callout)}"
+        f" Review the Guide to Safe Scouting rule for this step: {_sanitize_no_ellipsis_or_emdash(safety_callout)}"
         if safety_callout
         else ""
     )

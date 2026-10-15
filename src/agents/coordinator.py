@@ -467,6 +467,7 @@ def run_merit_badge_workflow(
     beautification_tier: str = "BEAUTIFIED",
     schedule_format: str = "3 Troop Meetings (45 min each)",
     audience_level: str = "All Scouts (Ages 11–17)",
+    precomputed_research: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Executes the complete multi-agent presentation generation workflow.
 
@@ -562,15 +563,18 @@ def run_merit_badge_workflow(
         except ImportError:
             generate_counselor_workbook_markdown = None
 
-        research_req = MeritBadgeResearchRequest(
-            badge_name=badge_name,
-            include_eagle_required_focus=True,
-        )
-        research_res = execute_tool_with_observability(
-            tool_name="fetch_merit_badge_pamphlet_pdf",
-            func=fetch_merit_badge_pamphlet_pdf,
-            request=research_req,
-        )
+        if isinstance(precomputed_research, dict) and precomputed_research.get("status") == "SUCCESS":
+            research_res = precomputed_research
+        else:
+            research_req = MeritBadgeResearchRequest(
+                badge_name=badge_name,
+                include_eagle_required_focus=True,
+            )
+            research_res = execute_tool_with_observability(
+                tool_name="fetch_merit_badge_pamphlet_pdf",
+                func=fetch_merit_badge_pamphlet_pdf,
+                request=research_req,
+            )
 
         if research_res.get("status") != "SUCCESS":
             return research_res  # Returns GuidedToolError to UI
@@ -937,8 +941,9 @@ async def stream_merit_badge_workflow_events(
     await asyncio.sleep(0.05)
 
     from src.tools.scouting_scraper import fetch_merit_badge_pamphlet_pdf, MeritBadgeResearchRequest
-    research_res = fetch_merit_badge_pamphlet_pdf(
-        MeritBadgeResearchRequest(badge_name=badge_name, include_eagle_required_focus=True)
+    research_res = await asyncio.to_thread(
+        fetch_merit_badge_pamphlet_pdf,
+        MeritBadgeResearchRequest(badge_name=badge_name, include_eagle_required_focus=True),
     )
     if research_res.get("status") != "SUCCESS":
         yield {"event": "workflow_error", "error": research_res, "progress_pct": 100}
@@ -975,6 +980,7 @@ async def stream_merit_badge_workflow_events(
         beautification_tier=beautification_tier,
         schedule_format=schedule_format,
         audience_level=audience_level,
+        precomputed_research=research_res,
     )
 
     yield {

@@ -36,7 +36,7 @@
   >
   > For my capstone project, I built the **Scouts BSA Merit Badge Counselor Workbench** — a multi-agent curriculum engine built on the **Google Agent Development Kit (ADK)** and **Vertex AI**, deployed live on **Google Cloud Run**.
   >
-  > I built this to solve a very practical problem that volunteer counselors deal with every single week: taking an 80-page official Scouting America Merit Badge pamphlet and turning it into a classroom-ready 16:9 PowerPoint slide deck, a printable Scout workbook, and a timed lesson plan in under two minutes — with 100% requirement fidelity across all **144 official Merit Badges**, verified across **55 automated pytest tests**, and predictable unit economics between **$0.14 and $1.00 per deck**."
+  > I built this to solve a very practical problem that volunteer counselors deal with every single week: taking an 80-page official Scouting America Merit Badge pamphlet and turning it into a classroom-ready 16:9 PowerPoint slide deck, a printable Scout workbook, and a timed lesson plan in under two minutes, with 100% requirement fidelity across all **144 official Merit Badges**, verified across **56 automated pytest tests**, and predictable unit economics between **$0.14 and $1.00 per deck**."
 - **`[STAGE DIRECTION — ADVANCE TO SLIDE 2 (02 / 12)]`**
 
 ---
@@ -65,15 +65,15 @@
     1. `1. Widescreen 16:9 Slide Deck (.pptx)`
     2. `2. Requirement Triage, Blue Card & Workbook`
     3. `3. Counselor StudioKit, Gear List & Parent Letter`
-    4. `4. 3-Tab Under-Stage Drawer & 4-Tab Image Studio`
+    4. `4. Easy Slide Image Switcher, 3-Tab Under-Stage Drawer & 4-Tab Image Studio`
 - **`[SAY]`**:
   > "Here is what a counselor gets from a single grounded run on our unified **Material 3 Counselor Workbench** (live on Cloud Run and port `8085`), alongside our **A2A (Agent-to-Agent protocol v1.0)** discovery card and **A2UI (Agent-to-User Interface v0.9)** streaming events so external agents and UIs can call our pipeline natively.
   >
   > A counselor selects any of the 144 badges, picks their target Scout age group and visual tier, and enters their troop and local ZIP code. In one pass, the workbench produces four deliverables:
-  > - **First**, a widescreen **16:9 PowerPoint deck (`.pptx`)** across **12 specialized layout archetypes** — like two-column comparisons, 2x2 step grids, and Socratic check-on-learning quizzes — with automatic white-background stripping (`_strip_white_image_background`) so pamphlet figures blend cleanly onto cream and dark slate slides, and 100% visual and text parity between the browser preview and the downloaded PowerPoint file.
+  > - **First**, a widescreen **16:9 PowerPoint deck (`.pptx`)** across **12 specialized layout archetypes**, such as two-column comparisons, 2x2 step grids, and Socratic check-on-learning quizzes, with automatic white-background stripping (`_strip_white_image_background`) so pamphlet figures blend cleanly onto cream and dark slate slides, and 100% visual and text parity between the browser preview and the downloaded PowerPoint file.
   > - **Second**, an automated **Requirement Triage Matrix, Interactive Patrol Blue Card (`#34124`) & Scoutbook CSV Sign-Off Tracker, and Printable Scout Workbook (`.md`)** that parses action verbs to sort every sub-requirement into *Classroom Discussion*, *Hands-On Skill Station*, or *Home/Campout Prerequisite*.
   > - **Third**, a **Counselor StudioKit** containing a 4-format Session Pacing lesson plan, a **Master Quartermaster Gear & Skill Station Packing Checklist** with a patrol size multiplier, and a **Youth Protection Training (YPT)**-compliant parent prerequisite letter grounded to the counselor's local area with one-click email and Gmail actions.
-  > - **And fourth**, an interactive **3-Tab Under-Stage Drawer and 4-Tab Merit Badge Image Studio** that lets the counselor customize any slide's text, layout, or graphic in place and immediately rebuilds the `.pptx` file."
+  > - **And fourth**, an interactive on-stage **Easy Slide Image Switcher**, a **3-Tab Under-Stage Drawer**, and a **4-Tab Merit Badge Image Studio** that let the counselor customize any slide's text, layout, or graphic in place and immediately rebuild the `.pptx` file."
 - **`[STAGE DIRECTION — ADVANCE TO SLIDE 4 (04 / 12)]`**
 
 ---
@@ -104,16 +104,16 @@
 - **`[STAGE DIRECTION — ACTIVE SLIDE: Slide 5 (05 / 12) | Timing: 03:20 – 04:15]`**
 - **`[DEMONSTRATE]`**:
   - Point to the 4 cards on **Slide 5** in order:
-    - `1. 3-Tab Under-Stage Drawer & Quick Image Switcher`
+    - `1. Easy Slide Image Switcher & 3-Tab Under-Stage Drawer`
     - `2. Catalog, Wikimedia Search & Local Upload ($0.00)`
-    - `3. NanoBananaImageAgent (11 Styles + $0.08 Gate)`
+    - `3. NanoBananaImageAgent (10 UI Style Options + $0.08 Gate)`
     - `4. De-Boxed Figures & Font Auto-Fitting (_compute_fitting_font_size)`
 - **`[SAY]`**:
-  > "Generating a deck is only step one — in the real world, counselors always want to tweak a slide or swap an illustration for their troop. Slide 5 shows how our **3-Tab Under-Stage Drawer, 4-Tab Image Studio, De-Boxed Pamphlet Figures, and Zero-Overflow Layout Engine** work together:
+  > "Generating a deck is only step one. In the real world, counselors always want to tweak a slide or swap an illustration for their troop. Slide 5 shows how our **Easy Slide Image Switcher, 3-Tab Under-Stage Drawer, 4-Tab Image Studio, De-Boxed Pamphlet Figures, and Zero-Overflow Layout Engine** work together:
   >
-  > - **Card 1** is our **3-Tab Under-Stage Drawer & Co-Design Bar**: a counselor can switch between `[SAY]/[DEMO]/[ASK]` presenter notes, surgical layout/graphic customization, or instant `$0.00` slide text editing. Choosing `None` in the Quick-Switch bar expands text cards to full `12.133-inch` widescreen width, and clicking the side-by-side `◀` `▶` arrows or `Restore Original` brings back the initial pamphlet figure.
+  > - **Card 1** is our **Easy Slide Image Switcher, 3-Tab Under-Stage Drawer & Co-Design Bar**: directly on the slide stage (`#stage-visual-source-badge`), counselors can click `◀` / `▶` or open the `(1/3) ▾` thumbnail and caption popover (`#stage-visual-pill-popover`) to cycle `slide_image_choices` (primary figure plus up to 2 Gemini Vision-verified pamphlet alternates with paired captions at `$0.00` token cost). Below the stage, a counselor can switch between `[SAY]/[DEMO]/[ASK]` presenter notes, surgical layout/graphic customization, or instant `$0.00` slide text editing. Choosing `None` in the Quick-Switch bar expands text cards to full `12.133-inch` widescreen width, and clicking the side-by-side `◀` `▶` arrows or `Restore Original` brings back the initial pamphlet figure.
   > - **Card 2** covers **Tabs 1, 2, and 4 of our Popup Image Studio** (`🖼️ Manage & Add Slide Images (Catalog / Web / AI)`): Tab 1 is a persistent per-badge catalog with selective Web/AI cache clearing (`🗑️ Clear Web/AI Cache`). Tab 2 runs `WebImageSearchAgent` across 8 parallel threads to fetch 12 to 24 real public-domain photos from Wikimedia Commons. And Tab 4 lets counselors upload their own local `.png` or `.jpg` troop photos at **$0.00 token cost**.
-  > - **Card 3** is **Tab 3 — `NanoBananaImageAgent`** (`gemini-2.5-flash-image` and Vertex AI Imagen 3). It synthesizes pure visual scene illustrations across **10 UI visual style options** — defaulting to **`✨ Auto (Content-Aware Mix)`**, alongside an explicit **`Include Uniformed Scouts`** checkbox. When humans are included, figures wear authentic **Scouts BSA Field Uniforms** (`Class A` tan button-up shirt with shoulder loops, neckerchief with woggle slide, olive field trousers); when unchecked (or auto-routed for gear knolling, first-aid kits, weather fronts, and constellations), zero human figures are rendered. Every call is gated behind a mandatory upfront **$0.08 FinOps user consent checkbox** and verified by `verify_generated_image_matches_prompt()`.
+  > - **Card 3** is **Tab 3 (`NanoBananaImageAgent` on `gemini-2.5-flash-image` and Vertex AI Imagen 3)**. It synthesizes pure visual scene illustrations across **10 UI visual style options** (`8` artistic styles plus **`✨ Auto (Content-Aware Mix)`** and **`4-Quadrant Concept Map`**), alongside an explicit **`Include Uniformed Scouts`** checkbox. When humans are included, figures wear authentic **Scouts BSA Field Uniforms** (`Class A` tan button-up shirt with shoulder loops, neckerchief with woggle slide, olive field trousers); when unchecked (or auto-routed for gear knolling, first-aid kits, weather fronts, and constellations), zero human figures are rendered. Every call is gated behind a mandatory upfront **$0.08 FinOps user consent checkbox** and verified by `verify_generated_image_matches_prompt()`.
   > - **Card 4** explains two visual polish breakthroughs: first, `_strip_white_image_background()` flood-fills edge-connected white border padding into transparency so pamphlet figures sit naturally on warm cream and dark slate slides; and second, our binary-search font auto-fitter (`_compute_fitting_font_size()`) steps body fonts from `16.5pt` down to a `12.0pt` readability floor with 100% sentence preservation (paired with full **EDGE Speaker Notes**) so text never clips mid-sentence or bleeds outside a card."
 - **`[STAGE DIRECTION — ADVANCE TO SLIDE 6 (06 / 12)]`**
 
@@ -189,7 +189,7 @@
   > "How do we guarantee that prompt edits or model upgrades never break requirement fidelity? Slide 9 shows our **AI Development Harness** and our blocking **Continuous Integration and Continuous Deployment (CI/CD)** pipeline in `cloudbuild.yaml` and GitHub Actions — with zero `--exit-zero` bypasses:
   >
   > - **Card 1 (`Multi-Metric Eval Gate`)**: `scripts/eval_gate.py` and the **Vertex AI GenAI Evaluation Service (`EvalTask`)** grade our 12-badge Golden Evaluation Suite on every commit. We enforce deterministic **Information Retrieval (IR)** metrics — achieving **1.00 Recall@3**, **1.00 Mean Reciprocal Rank (MRR)**, and **1.00 Normalized Discounted Cumulative Gain (NDCG@3)** on Hybrid RRF — alongside **1.00 ADK Tool Trajectory match**, **1.00 Citation Grounding coverage**, **100% sub-requirement coverage**, **100% SHA-256 lock verification**, and **0 AABB bounding-box overlaps**.
-  > - **Card 2 (`Canary CI/CD & Rollback`)**: After Ruff linting, all **55 `pytest` unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py` pass, Cloud Build deploys the new container with `--tag=canary` at a **10% live traffic split**, probes `/readiness`, and automatically rolls back 100% of traffic to the previous stable revision if any check fails.
+  > - **Card 2 (`Canary CI/CD & Rollback`)**: After Ruff linting, all **56 `pytest` unit, fault-injection, continuous-learning, and OpenAPI 3.1 contract drift tests**, and `eval_gate.py` pass, Cloud Build deploys the new container with `--tag=canary` at a **10% live traffic split**, probes `/readiness`, and automatically rolls back 100% of traffic to the previous stable revision if any check fails.
   > - **Card 3 (`Load & HITL Feedback`)**: Under an 8-worker concurrent load test, warm median latency (**p50**) is **6.8 milliseconds** and 95th-percentile latency (**p95**) is **14.2 milliseconds**, while `POST /api/v1/feedback` records counselor star ratings and requirement verification sign-offs."
 - **`[STAGE DIRECTION — ADVANCE TO SLIDE 10 (10 / 12)]`**
 
@@ -245,7 +245,7 @@
   - Gesture across the 5 domain columns on **Slide 12** (`1. Tool & Interface`, `2. Context & Memory`, `3. Orchestration`, `4. Observability`, `5. Infra & CI/CD`).
   - Then switch your screen share from Google Slides to the live **Material 3 Counselor Workbench (`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app` or `http://clayberg.c.googlers.com:8085`)**.
 - **`[SAY]`**:
-  > "Finally, **Slide 12** is our complete **Rubric Evidence Scorecard**, mapping every single requirement across all three evaluation frameworks directly to source files and our **55 automated tests**: a **3.00 out of 3.00** across all 27 subcategories of the Official Capstone Part B Rubric, **95 out of 95** on the 19-criterion AgentOps Code Review Matrix, and **100 out of 100** on the FDE Production Readiness Scorecard — spanning Tool & Interface Design, Context & Memory, Orchestration & Logic, Observability & Tracing, and Infrastructure & CI/CD.
+  > "Finally, **Slide 12** is our complete **Rubric Evidence Scorecard**, mapping every single requirement across all three evaluation frameworks directly to source files and our **56 automated tests**: a **3.00 out of 3.00** across all 27 subcategories of the Official Capstone Part B Rubric, **95 out of 95** on the 19-criterion AgentOps Code Review Matrix, and **100 out of 100** on the FDE Production Readiness Scorecard across Tool & Interface Design, Context & Memory, Orchestration & Logic, Observability & Tracing, and Infrastructure & CI/CD.
   >
   > With that foundation in place, let's switch over to our live Material 3 Counselor Workbench for a 5-minute interactive demo!"
 - **`[STAGE DIRECTION — SWITCH SCREEN SHARE TO BROWSER TAB 2: LIVE MATERIAL 3 COUNSELOR WORKBENCH AT https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app]`**
@@ -297,11 +297,11 @@
 
 ---
 
-### Act 3 (`12:15 – 13:55`): 3-Tab Under-Stage Drawer, Quick Text Edit (`$0.00`), 4-Tab Image Studio & Live Guardrail / YPT Failure Injection
+### Act 3 (`12:15 - 13:55`): Easy Slide Image Switcher, 3-Tab Under-Stage Drawer, Quick Text Edit (`$0.00`), 4-Tab Image Studio & Live Guardrail / YPT Failure Injection
 
-- **`[STAGE DIRECTION — LIVE WORKBENCH: 3-Tab Under-Stage Drawer & 4-Tab Merit Badge Image Studio Modal | Timing: 12:15 – 13:55]`**
+- **`[STAGE DIRECTION: LIVE WORKBENCH: Easy Slide Image Switcher, 3-Tab Under-Stage Drawer & 4-Tab Merit Badge Image Studio Modal | Timing: 12:15 - 13:55]`**
 - **`[DEMONSTRATE]`**:
-  1. In the **Under-Stage Drawer** directly below the slide preview, click **`Sub-Tab 3: ✏️ Quick Edit Slide Text`** (`#tab-btn-understage-quickedit`) to show instant `$0.00` editing of the slide title, bullet points, and speaker notes (`POST /api/v1/slide/regenerate`).
+  1. On the **Slide Stage**, point to the **Easy Slide Image Switcher** pill (`#stage-visual-source-badge`, `◀` / `(1/3) ▾` / `▶`) and open the thumbnail/caption popover (`#stage-visual-pill-popover`) to cycle between the primary graphic and up to 2 Gemini Vision-verified pamphlet alternates (`slide_image_choices`) at `$0.00` token cost. Then in the **Under-Stage Drawer** directly below the slide preview, click **`Sub-Tab 3: ✏️ Quick Edit Slide Text`** (`#tab-btn-understage-quickedit`) to show instant `$0.00` editing of the slide title, bullet points, and speaker notes (`POST /api/v1/slide/regenerate`).
   2. Click **`Sub-Tab 2: 🎨 Customize Slide & Image Studio`** (`#tab-btn-understage-codesign`). Open the **Quick-Switch Slide Image** dropdown (`#codesign-quick-image-select`) and select **`🚫 None (Remove Graphic & Expand Text to Full Width)`**. Show the slide immediately reflowing its cards from `6.55"` split width to `11.73"` full widescreen width (`CONCEPT_TEXT_SLIDE`).
   3. Click the side-by-side **`◀` / `▶`** Quick-Switch arrows (or select **`Restore Original Slide Graphic`**) to restore the right-side graphic in one click.
   4. Click **`🖼️ Manage & Add Slide Images (Catalog / Web / AI)`** (`#btn-open-image-studio`) in the upper-right header of the Co-Design Bar to open the **4-Tab Merit Badge Image Studio Modal**:
@@ -321,7 +321,7 @@
        - Select **`Line Drawing`** in **Visual Illustration Style** (`#studio-ai-style-select`), keep **`Include Uniformed Scouts`** checked, and click **`🍌 Generate, Verify & Apply Custom AI Graphic ($0.08 USD)`**. Show `NanoBananaImageAgent` (`gemini-2.5-flash-image` on Vertex AI) synthesizing a zero-text black-and-white ink illustration with the figures wearing authentic **Scouts BSA Field Uniforms**, verifying prompt alignment via `verify_generated_image_matches_prompt()`, caching it in the badge catalog, and automatically rebuilding the `.pptx` slide!
      - **Tab 4 (`📁 4. File Upload`)**: Briefly point out the `$0.00 USD` local file upload tab (`#studio-tab-upload`) for custom troop photos.
 - **`[SAY]`**:
-  > "Directly below the slide stage is our **3-Tab Under-Stage Drawer**: counselors can read `[SAY]` / `[DEMO]` / `[ASK]` notes in Sub-Tab 1, edit slide text in place at `$0.00` token cost in Sub-Tab 3, or customize layout and graphics in Sub-Tab 2. In the Quick-Switch bar, choosing **`None`** immediately reflows the slide to a full-width `11.73-inch` text layout, and one click on the side-by-side `◀` `▶` arrows brings the graphic right back.
+  > "Directly on the slide stage is our **Easy Slide Image Switcher**, which lets counselors click `◀` / `▶` or open the `(1/3) ▾` thumbnail and caption popover to cycle `slide_image_choices` (primary figure plus up to 2 Gemini Vision-verified pamphlet alternates) at `$0.00` token cost. Directly below the slide stage is our **3-Tab Under-Stage Drawer**: counselors can read `[SAY]` / `[DEMO]` / `[ASK]` notes in Sub-Tab 1, edit slide text in place at `$0.00` token cost in Sub-Tab 3, or customize layout and graphics in Sub-Tab 2. In the Quick-Switch bar, choosing **`None`** immediately reflows the slide to a full-width `11.73-inch` text layout, and one click on the side-by-side `◀` `▶` arrows brings the graphic right back.
   >
   > Clicking **`Manage & Add Slide Images (Catalog / Web / AI)`** in the upper-right header opens our **4-Tab Merit Badge Image Studio**:
   > - **Tab 1** is our persistent per-badge catalog with a one-click **`Clear Web/AI Cache`** button that removes only user-searched web photos and user-generated AI images while preserving our pre-populated hero graphics, official pamphlet figures, and user uploads.
@@ -445,7 +445,7 @@ Use these conversational golden answers during Q&A. Each question is tagged with
 - **`[SAY]`**:
   > "We enforce three independent FinOps guardrails:
   > 1. **Declarative Model Routing (`config/finops_model_policy.json`)**: High-volume extraction, web search, and styling run on `gemini-2.5-flash` (`$0.075/1M` input tokens), reserving `gemini-2.5-pro` strictly for curriculum planning and Stage 2 safety review.
-  > 2. **Runtime `FinOpsBudgetPlugin` (`$1.00` Hard Ceiling)**: Tracks cumulative token and image spend across the pipeline and automatically caps custom infographics (`5` in `Beautified`, `15–20` in `Studio`) or downgrades to `gemini-2.5-flash` if projected spend approaches `$1.00`.
+  > 2. **Runtime `FinOpsBudgetPlugin` (`$1.00` Hard Ceiling)**: Pre-bundled catalog visuals (`NANO_BANANA_HERO` and `NANO_BANANA_REQ`, up to 20 per deck) load at `$0.00` runtime cost, while `FinOpsBudgetPlugin` tracks cumulative token and image spend across the pipeline and caps live uncached synthesis (`5` in `Beautified`, `15` in `Studio`) or downgrades to `gemini-2.5-flash` if projected spend approaches `$1.00`.
   > 3. **Mandatory `$0.08` User Consent Gate + Cryptographic HMAC-SHA256 HITL Token**: On-demand `NanoBananaImageAgent` calls return `CONSENT_REQUIRED` unless `user_consented=True` is checked, and `STUDIO` builds require a valid HMAC-SHA256 approval token."
 
 ---

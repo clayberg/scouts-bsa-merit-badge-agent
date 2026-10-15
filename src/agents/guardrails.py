@@ -11,12 +11,14 @@ This module implements:
    all ADK agents and the `App` container.
 """
 
+from collections import deque
 import json
 import os
 import re
-from typing import Any, Dict, List, Optional
+import threading
+from typing import Any, Deque, Dict, List, Optional
 
-from src.config import CONFIG_DIR
+from src.config import CONFIG_DIR, _read_cached_json
 from src.observability.logging_setup import logger, scrub_pii_before_sink
 from src.schemas import build_guided_tool_error
 from src.tools.hitl_confirm import verify_hitl_before_tool_callback
@@ -52,21 +54,16 @@ _UNSAFE_SCOUTING_PATTERNS = [
 def load_model_armor_policy() -> Dict[str, Any]:
     """Loads the declarative Model Armor & Youth Protection security policy JSON.
 
-    Args:
-        None.
-
     Returns:
         Dict[str, Any]: Parsed security policy configuration dictionary from
         `config/model_armor_security_policy.json`.
     """
-    if MODEL_ARMOR_POLICY_PATH.exists():
-        try:
-            data = json.loads(MODEL_ARMOR_POLICY_PATH.read_text(encoding="utf-8"))
-            data.setdefault("policy_name", data.get("policy_id", "scouts-bsa-youth-protection-armor-v1"))
-            data.setdefault("policy_id", data.get("policy_name", "model-armor-scouts-bsa-youth-protection-v2"))
-            return data
-        except Exception as exc:
-            logger.warning("Failed to parse model_armor_security_policy.json: %s", exc)
+    raw = _read_cached_json(MODEL_ARMOR_POLICY_PATH)
+    if raw:
+        data = dict(raw)
+        data.setdefault("policy_name", data.get("policy_id", "scouts-bsa-youth-protection-armor-v1"))
+        data.setdefault("policy_id", data.get("policy_name", "model-armor-scouts-bsa-youth-protection-v2"))
+        return data
     return {
         "policy_id": "model-armor-scouts-bsa-youth-protection-v2",
         "policy_name": "scouts-bsa-youth-protection-armor-v1",
@@ -232,7 +229,8 @@ def sanitize_text_with_model_armor(
     }
 
 
-_COMPLIANCE_AUDIT_EVENTS: List[Dict[str, Any]] = []
+_COMPLIANCE_AUDIT_LOCK = threading.Lock()
+_COMPLIANCE_AUDIT_EVENTS: Deque[Dict[str, Any]] = deque(maxlen=500)
 
 
 def emit_compliance_audit_log(
@@ -255,16 +253,17 @@ def emit_compliance_audit_log(
         "timestamp_epoch": round(_time.time(), 3),
         "details": details or {},
     }
-    _COMPLIANCE_AUDIT_EVENTS.append(record)
-    if len(_COMPLIANCE_AUDIT_EVENTS) > 500:
-        del _COMPLIANCE_AUDIT_EVENTS[:-500]
+    with _COMPLIANCE_AUDIT_LOCK:
+        _COMPLIANCE_AUDIT_EVENTS.append(record)
     logger.info("Compliance audit event", extra=record)
     return record
 
 
 def get_compliance_audit_events(limit: int = 50) -> List[Dict[str, Any]]:
     """Returns the most recent compliance audit records."""
-    return list(_COMPLIANCE_AUDIT_EVENTS[-max(1, limit) :])
+    with _COMPLIANCE_AUDIT_LOCK:
+        events = list(_COMPLIANCE_AUDIT_EVENTS)
+    return events[-max(1, limit) :]
 
 
 def before_model_guardrail_callback(

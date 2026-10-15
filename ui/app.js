@@ -529,6 +529,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   syncCounselorProfileSummary();
   bindFilterAndSlideControls();
   bindImageStudioModal();
+  bindEnhancedWorkbenchAndAdminFeatures();
   await loadBadgesCatalog();
   await executeStreamingWorkflow("First Aid");
 });
@@ -626,7 +627,7 @@ async function resetCachedCounselorProfile() {
 
 function switchMainTab(targetPanelId) {
   const tabBtns = document.querySelectorAll(".m3-tab-btn[data-panel]");
-  const panels = ["panel-storyboard", "panel-triage", "panel-workbook", "panel-studiokit"];
+  const panels = ["panel-storyboard", "panel-triage", "panel-workbook", "panel-studiokit", "panel-admin"];
   tabBtns.forEach((b) => {
     b.classList.toggle("active", b.getAttribute("data-panel") === targetPanelId);
   });
@@ -636,6 +637,9 @@ function switchMainTab(targetPanelId) {
       el.classList.toggle("hidden", pId !== targetPanelId);
     }
   });
+  if (targetPanelId === "panel-admin") {
+    loadAdminConsoleData();
+  }
 }
 
 function bindNavigationTabs() {
@@ -1535,6 +1539,9 @@ function hydrateWorkbench(result) {
   // 6. Render Counselor StudioKit (Lesson Plan, Parent Letter, Gear Checklist, Citations & FinOps)
   renderStudioKitAndParentLetter(result);
   renderQuartermasterGearChecklist(result);
+  renderBuddyStationRotator(result);
+  renderPrereqReadinessChecklist(result);
+  syncPresenterViewWindow();
 }
 
 function getLiveParentLetterMarkdown(result) {
@@ -2538,19 +2545,22 @@ function renderActiveSlide(idx) {
     imgEl.dataset.fitBound = "1";
     imgEl.addEventListener("load", () => fitActiveSlideToStage());
   }
+  applyQuizRevealMaskIfEnabled(slide);
+  syncArchetypeVisualPicker(slide.archetype);
+  syncPresenterViewWindow();
   fitActiveSlideToStage();
 }
 
 function isSlideStageOverflowing(stageEl) {
   if (stageEl.scrollHeight > stageEl.clientHeight + 2) return true;
   const splitEl = stageEl.querySelector(".m3-slide-body-split");
-  const leftEl = document.getElementById("slide-left-zone");
-  const rightEl = document.getElementById("slide-right-visual");
+  const leftEl = document.getElementById("stage-left-cards") || document.getElementById("slide-left-zone");
+  const rightEl = document.getElementById("stage-right-visual") || document.getElementById("slide-right-visual");
   if (splitEl && splitEl.scrollHeight > splitEl.clientHeight + 2) return true;
   if (leftEl && leftEl.scrollHeight > leftEl.clientHeight + 2) return true;
   if (rightEl && !rightEl.classList.contains("hidden") && rightEl.scrollHeight > rightEl.clientHeight + 2) return true;
 
-  const safetyBar = document.getElementById("slide-safety-bar");
+  const safetyBar = document.getElementById("stage-safety-bar") || document.getElementById("slide-safety-bar");
   const footerStrip = stageEl.querySelector(".m3-slide-footer-strip");
   const bottomBoundaryEl = (safetyBar && !safetyBar.classList.contains("hidden")) ? safetyBar : footerStrip;
   if (bottomBoundaryEl && splitEl) {
@@ -3034,6 +3044,7 @@ async function selectSlideImageChoice(targetEntry) {
   const pop = document.getElementById("stage-visual-pill-popover");
   if (pop) pop.classList.add("hidden");
 
+  const prevDiagramId = String(slide.diagram_path || slide.diagram_url || "").split("/").pop() || "";
   // Optimistic instant stage update before background PPTX regeneration completes
   const resolvedCaption =
     targetEntry.caption || targetEntry.description || targetEntry.title || slide.visual_caption || slide.title || "";
@@ -3049,6 +3060,19 @@ async function selectSlideImageChoice(targetEntry) {
   }
   registerChoiceOnSlide(slide, targetEntry);
   renderActiveSlide(state.activeSlideIdx);
+
+  // Anonymous Zero-PII image swap telemetry event
+  fetch("/api/v1/admin/telemetry/image-swap", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      badge_name: state.currentResult.badge_name || "First Aid",
+      req_number: String(slide.req_number || "1"),
+      event_type: "counselor_visual_swap",
+      from_image_id: prevDiagramId,
+      to_image_id: String(targetEntry.image_id || targetEntry.image_url || ""),
+    }),
+  }).catch(() => {});
 
   await applyCatalogImageToActiveSlide(targetEntry, "custom_image");
 }
@@ -3207,6 +3231,13 @@ function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualFor
       <button type="button" class="m3-pill-popover-footer-btn" id="stage-pill-open-studio-btn">
         + Upload / Add Custom Image for This Slide…
       </button>
+      ${
+        state.isAdminSession
+          ? `<button type="button" class="m3-pill-popover-footer-btn" id="stage-pill-open-admin-btn" style="margin-top:4px; background:#EFF6FF; color:#003F87; border-color:#93C5FD;">
+               🛡️ Admin: Edit Caption / Promote Default in Studio…
+             </button>`
+          : ""
+      }
     `;
 
     visPopover.querySelectorAll("[data-pill-choice-idx]").forEach((btn) => {
@@ -3225,6 +3256,13 @@ function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualFor
       visPopover.classList.add("hidden");
       mainBtn?.setAttribute("aria-expanded", "false");
       document.getElementById("btn-open-image-studio")?.click();
+    });
+
+    document.getElementById("stage-pill-open-admin-btn")?.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      visPopover.classList.add("hidden");
+      mainBtn?.setAttribute("aria-expanded", "false");
+      openAdminStudioForSlideVisual(activeEntry || choices[0]);
     });
 
     mainBtn?.addEventListener("click", (ev) => {
@@ -4784,7 +4822,8 @@ function exportBlueCardCsv(result) {
   const roster = loadBadgeBlueCardRoster(badgeName);
   const counselorName = document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob";
   const troopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
-  const todayIso = new Date().toISOString().slice(0, 10);
+  const customDate = document.getElementById("bluecard-signoff-date")?.value;
+  const todayIso = customDate || new Date().toISOString().slice(0, 10);
 
   const csvRows = [
     ["Scout Name", "Unit", "Merit Badge", "Requirement", "Completed", "Date", "Counselor", "Overall Status"].join(","),
@@ -4839,3 +4878,1181 @@ function printBlueCardSignOffSheet(result) {
     matrixHtml + sigBlock
   );
 }
+
+// ===========================================================================
+// PHASE 4: UI-1..UI-7, COUNSELOR FEATURES C1..C5 & ZERO-PII ADMIN CONSOLE
+// ===========================================================================
+
+let presenterPopupWin = null;
+let presenterBroadcastChannel = null;
+try {
+  if (typeof BroadcastChannel !== "undefined") {
+    presenterBroadcastChannel = new BroadcastChannel("bsa_workbench_presenter_sync");
+  }
+} catch (_e) {
+  presenterBroadcastChannel = null;
+}
+
+state.sessionTimerSeconds = 2700;
+state.sessionTimerRunning = false;
+state.sessionTimerInterval = null;
+state.quizRevealMode = false;
+state.isAdminSession = false;
+state.adminCatalogItems = [];
+state.selectedAdminImage = null;
+state.adminAssetMatrixRows = [];
+
+function formatTimerMmSs(totalSec) {
+  const clamped = Math.max(0, Math.floor(Number(totalSec) || 0));
+  const mins = Math.floor(clamped / 60);
+  const secs = clamped % 60;
+  return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+}
+
+function updateSessionTimerDisplay() {
+  const pill = document.getElementById("session-timer-pill");
+  const cluster = document.getElementById("session-timer-cluster");
+  const startBtn = document.getElementById("btn-timer-start-pause");
+  if (pill) {
+    pill.textContent = formatTimerMmSs(state.sessionTimerSeconds);
+  }
+  if (startBtn) {
+    startBtn.textContent = state.sessionTimerRunning ? "⏸" : "▶";
+  }
+  if (cluster) {
+    cluster.classList.toggle("timer-warn", state.sessionTimerSeconds > 0 && state.sessionTimerSeconds <= 300);
+    cluster.classList.toggle("timer-expired", state.sessionTimerSeconds <= 0);
+  }
+  syncPresenterViewWindow();
+}
+
+function toggleSessionTimer() {
+  state.sessionTimerRunning = !state.sessionTimerRunning;
+  if (state.sessionTimerInterval) {
+    clearInterval(state.sessionTimerInterval);
+    state.sessionTimerInterval = null;
+  }
+  if (state.sessionTimerRunning) {
+    state.sessionTimerInterval = setInterval(() => {
+      if (state.sessionTimerSeconds > 0) {
+        state.sessionTimerSeconds -= 1;
+        updateSessionTimerDisplay();
+      } else {
+        state.sessionTimerRunning = false;
+        clearInterval(state.sessionTimerInterval);
+        state.sessionTimerInterval = null;
+        updateSessionTimerDisplay();
+      }
+    }, 1000);
+  }
+  updateSessionTimerDisplay();
+}
+
+function resetSessionTimer() {
+  state.sessionTimerRunning = false;
+  if (state.sessionTimerInterval) {
+    clearInterval(state.sessionTimerInterval);
+    state.sessionTimerInterval = null;
+  }
+  const presetEl = document.getElementById("session-timer-preset-select");
+  state.sessionTimerSeconds = parseInt(presetEl?.value || "2700", 10) || 2700;
+  updateSessionTimerDisplay();
+}
+
+// Feature C2: Classroom Quiz & Scenario Answer Reveal Mask
+function applyQuizRevealMaskIfEnabled(slide) {
+  const leftZone = document.getElementById("stage-left-cards");
+  if (!leftZone || !slide) return;
+  const cards = leftZone.querySelectorAll(".m3-bullet-card");
+  if (!state.quizRevealMode) {
+    cards.forEach((c) => c.classList.remove("m3-quiz-masked", "revealed"));
+    return;
+  }
+  const arch = String(slide.archetype || "").toUpperCase();
+  const isQuizSlide = arch === "SOCRATIC_CHECKPOINT_QUIZ" || arch === "WORKED_EXAMPLE_TEMPLATE";
+  cards.forEach((card, idx) => {
+    const textContent = (card.textContent || "").toLowerCase();
+    const shouldMask =
+      (isQuizSlide && idx > 0) ||
+      textContent.includes("answer:") ||
+      textContent.includes("solution:") ||
+      textContent.includes("debrief:") ||
+      textContent.includes("correct response") ||
+      idx >= Math.ceil(cards.length / 2);
+    if (shouldMask) {
+      card.classList.add("m3-quiz-masked");
+      card.title = "Click to reveal answer to Scouts";
+      if (!card.querySelector(".m3-quiz-reveal-hint")) {
+        const hint = document.createElement("span");
+        hint.className = "m3-quiz-reveal-hint";
+        hint.textContent = "👆 Click to Reveal";
+        card.prepend(hint);
+      }
+      card.onclick = () => {
+        card.classList.toggle("revealed");
+      };
+    }
+  });
+}
+
+// UI-3: Visual Archetype Thumbnail Picker Sync
+function syncArchetypeVisualPicker(activeArch) {
+  const archVal = activeArch || document.getElementById("codesign-archetype-select")?.value || "SPLIT_VISUAL_EXPLAINER";
+  document.querySelectorAll("#codesign-archetype-visual-grid .m3-arch-thumb-btn").forEach((btn) => {
+    btn.classList.toggle("active", btn.getAttribute("data-arch") === archVal);
+  });
+}
+
+// UI-2: Dual-Window Presenter View Pop-Out
+function buildPresenterSyncPayload() {
+  const res = state.currentResult || {};
+  const slides = res.storyboard?.slides || [];
+  const idx = state.activeSlideIdx;
+  const isCover = idx === -1;
+  const currSlide = isCover
+    ? {
+        title: `${res.badge_name || "First Aid"} Merit Badge — Cover Slide`,
+        req_number: "Cover",
+        presenter_notes:
+          "[SAY] Welcome Scouts! Verify everyone has their Merit Badge Workbook and pen ready.\n[DEMONSTRATE] Hold up the Merit Badge emblem and review today's session schedule.\n[ASK SCOUTS] Who has already started working on the home or campout prerequisites?",
+      }
+    : slides[idx] || {};
+  const nextSlide = idx + 1 < slides.length ? slides[idx + 1] : null;
+  return {
+    badgeName: res.badge_name || "First Aid",
+    slideNumberLabel: isCover ? `Cover Slide (1 of ${slides.length + 1})` : `Slide ${idx + 2} of ${slides.length + 1}`,
+    reqLabel: isCover ? "Cover" : `Requirement ${currSlide.req_number || ""}`,
+    slideTitle: currSlide.title || "",
+    notesHtml: formatSpeakerNotesHtml(currSlide.presenter_notes || ""),
+    nextSlideTitle: nextSlide ? `Next: ${nextSlide.title} (Req ${nextSlide.req_number || ""})` : "End of Slide Deck",
+    timerFormatted: formatTimerMmSs(state.sessionTimerSeconds),
+  };
+}
+
+function syncPresenterViewWindow() {
+  const payload = buildPresenterSyncPayload();
+  try {
+    presenterBroadcastChannel?.postMessage({ type: "SLIDE_SYNC", payload });
+  } catch (_e) {
+    // ignore
+  }
+  if (presenterPopupWin && !presenterPopupWin.closed) {
+    try {
+      const doc = presenterPopupWin.document;
+      const titleEl = doc.getElementById("pv-slide-title");
+      const metaEl = doc.getElementById("pv-slide-meta");
+      const notesEl = doc.getElementById("pv-notes-body");
+      const nextEl = doc.getElementById("pv-next-slide");
+      const timerEl = doc.getElementById("pv-timer");
+      if (titleEl) titleEl.textContent = payload.slideTitle;
+      if (metaEl) metaEl.textContent = `${payload.badgeName} • ${payload.slideNumberLabel} • ${payload.reqLabel}`;
+      if (notesEl) notesEl.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
+      if (nextEl) nextEl.textContent = payload.nextSlideTitle;
+      if (timerEl) timerEl.textContent = `⏱️ ${payload.timerFormatted}`;
+    } catch (_e) {
+      // ignore cross-window race
+    }
+  }
+}
+
+function openPresenterViewWindow() {
+  presenterPopupWin = window.open("", "BSAPresenterView", "width=660,height=760,resizable=yes,scrollbars=yes");
+  if (!presenterPopupWin) return;
+  const payload = buildPresenterSyncPayload();
+  presenterPopupWin.document.open();
+  presenterPopupWin.document.write(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Counselor Presenter View — ${escapeHtml(payload.badgeName)}</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0F172A;
+      color: #F8FAFC;
+      line-height: 1.55;
+    }
+    .pv-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+    .pv-timer {
+      font-family: monospace;
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #4ADE80;
+      background: #1E293B;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid #334155;
+    }
+    .pv-controls button {
+      background: #003F87;
+      color: #FFFFFF;
+      border: 1px solid #60A5FA;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-left: 6px;
+    }
+    .pv-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #FDE047;
+      margin: 4px 0 12px 0;
+    }
+    .pv-notes {
+      background: #1E293B;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 1.05rem;
+      min-height: 320px;
+    }
+    .m3-cue-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-weight: 800;
+      font-size: 0.82rem;
+      background: #DBEAFE;
+      color: #1E3A8A;
+      margin-right: 6px;
+    }
+    .pv-next {
+      margin-top: 14px;
+      padding: 10px 14px;
+      background: #1E293B;
+      border-left: 4px solid #60A5FA;
+      border-radius: 6px;
+      font-size: 0.90rem;
+      color: #CBD5E1;
+    }
+  </style>
+</head>
+<body>
+  <div class="pv-top">
+    <div>
+      <div id="pv-slide-meta" style="font-size:0.82rem; color:#94A3B8; font-weight:700;">${escapeHtml(payload.badgeName)} • ${escapeHtml(payload.slideNumberLabel)}</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span class="pv-timer" id="pv-timer">⏱️ ${escapeHtml(payload.timerFormatted)}</span>
+      <div class="pv-controls">
+        <button type="button" id="pv-btn-prev">◀ Prev</button>
+        <button type="button" id="pv-btn-next">Next ▶</button>
+      </div>
+    </div>
+  </div>
+  <div class="pv-title" id="pv-slide-title">${escapeHtml(payload.slideTitle)}</div>
+  <div class="pv-notes" id="pv-notes-body">${payload.notesHtml}</div>
+  <div class="pv-next" id="pv-next-slide">${escapeHtml(payload.nextSlideTitle)}</div>
+</body>
+</html>`);
+  presenterPopupWin.document.close();
+  presenterPopupWin.document.getElementById("pv-btn-prev")?.addEventListener("click", () => {
+    document.getElementById("btn-prev-slide")?.click();
+  });
+  presenterPopupWin.document.getElementById("pv-btn-next")?.addEventListener("click", () => {
+    document.getElementById("btn-next-slide")?.click();
+  });
+}
+
+// Feature C4: Printable 3x5 / 4x6 Counselor Pocket Cue Cards
+function printCounselorPocketCueCards() {
+  if (!state.currentResult) return;
+  const badgeName = state.currentResult.badge_name || "First Aid";
+  const slides = state.currentResult.storyboard?.slides || [];
+  const cardsHtml = slides
+    .map((s, idx) => {
+      const notesHtml = formatSpeakerNotesHtml(s.presenter_notes || "");
+      const bullets = (s.bullet_points || []).slice(0, 3).map((b) => `<li>${escapeHtml(String(b))}</li>`).join("");
+      return `
+        <div style="border:2px solid #003F87; border-radius:10px; padding:12px 14px; margin-bottom:14px; page-break-inside:avoid; background:#FFFFFF;">
+          <div style="display:flex; justify-content:space-between; border-bottom:1.5px solid #CBD5E1; padding-bottom:5px; margin-bottom:6px; font-size:11.5px; font-weight:800; color:#003F87;">
+            <span>CARD #${idx + 1} • ${escapeHtml(badgeName.toUpperCase())} • REQ ${escapeHtml(String(s.req_number || ""))}</span>
+            <span>EDGE CUE CARD (3&times;5)</span>
+          </div>
+          <div style="font-size:14px; font-weight:800; color:#0F172A; margin-bottom:6px;">${escapeHtml(s.title || "")}</div>
+          <ul style="margin:0 0 8px 16px; padding:0; font-size:11.5px; color:#334155;">${bullets}</ul>
+          <div style="font-size:11.5px; background:#F8FAFC; border-left:3px solid #003F87; padding:6px 8px; border-radius:4px;">
+            ${notesHtml}
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+  printHtmlDocument(
+    `${badgeName} Merit Badge — Counselor 3x5 Field Pocket Cue Cards`,
+    `${slides.length} Instructional EDGE Cards ([SAY] / [DEMONSTRATE] / [ASK SCOUTS])`,
+    `<div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">${cardsHtml}</div>`
+  );
+}
+
+// Feature C5: Interactive Patrol / Buddy Station Rotator Matrix
+function renderBuddyStationRotator(result) {
+  const wrap = document.getElementById("buddy-rotator-matrix-wrap");
+  if (!wrap || !result) return;
+  const reqs = result.research_artifact?.requirements || [];
+  const handsOn = reqs.filter((r) => r.execution_mode === "HANDS_ON_SKILL_STATION");
+  const stations = (handsOn.length > 0 ? handsOn : reqs.slice(0, 4)).slice(0, 6);
+  const minsPerStation = parseInt(document.getElementById("rotator-minutes-select")?.value || "12", 10) || 12;
+
+  if (stations.length === 0) {
+    wrap.innerHTML = `<div style="padding:10px; color:#64748B;">No hands-on stations found for this badge.</div>`;
+    return;
+  }
+
+  const groups = stations.map((_, idx) => `Patrol / Buddy Team ${String.fromCharCode(65 + idx)}`);
+  const headerCols = stations
+    .map((st, sIdx) => `<th>Station ${sIdx + 1}: Req ${escapeHtml(String(st.req_number))}</th>`)
+    .join("");
+
+  const rowsHtml = stations
+    .map((_, roundIdx) => {
+      const startMin = roundIdx * minsPerStation;
+      const endMin = (roundIdx + 1) * minsPerStation;
+      const cells = stations
+        .map((__, stIdx) => {
+          const teamIdx = (stIdx + roundIdx) % groups.length;
+          return `<td><strong>${escapeHtml(groups[teamIdx])}</strong></td>`;
+        })
+        .join("");
+      return `
+        <tr>
+          <td><strong>Rotation ${roundIdx + 1}</strong> (${startMin}–${endMin}m)</td>
+          ${cells}
+        </tr>
+      `;
+    })
+    .join("");
+
+  wrap.innerHTML = `
+    <table class="m3-finops-table" style="width:100%;">
+      <thead>
+        <tr>
+          <th>Rotation Window</th>
+          ${headerCols}
+        </tr>
+      </thead>
+      <tbody>${rowsHtml}</tbody>
+    </table>
+  `;
+}
+
+// Feature C3: Pre-Class Scout Prerequisite Readiness Checklist
+function renderPrereqReadinessChecklist(result) {
+  const listEl = document.getElementById("prereq-readiness-list");
+  if (!listEl || !result) return;
+  const reqs = result.research_artifact?.requirements || [];
+  const prereqs = reqs.filter((r) => r.execution_mode === "PREREQUISITE_CAMPOUT_HOME");
+  const targetList = prereqs.length > 0 ? prereqs : reqs.slice(0, 3);
+
+  listEl.innerHTML = targetList
+    .map((r) => {
+      return `
+        <label style="display:flex; align-items:flex-start; gap:8px; padding:10px 12px; border:1px solid #CBD5E1; border-radius:10px; background:#F8FAFC; cursor:pointer;">
+          <input type="checkbox" style="margin-top:3px; width:16px; height:16px; accent-color:#003F87;" />
+          <div style="font-size:0.79rem; line-height:1.4;">
+            <strong style="color:#003F87;">Req ${escapeHtml(String(r.req_number))} Pre-Check:</strong>
+            <span style="color:#1E293B;">${escapeHtml(String(r.req_text || "").slice(0, 140))}</span>
+          </div>
+        </label>
+      `;
+    })
+    .join("");
+}
+
+// ===========================================================================
+// SUPER-USER ADMIN CONSOLE FUNCTIONS
+// ===========================================================================
+
+async function checkAdminSessionAndInit() {
+  try {
+    const resp = await fetch("/api/v1/admin/session");
+    if (!resp.ok) return;
+    const data = await resp.json();
+    state.isAdminSession = Boolean(data.is_admin);
+    const adminTabBtn = document.getElementById("tab-btn-admin");
+    const footerBtn = document.getElementById("btn-footer-admin-unlock");
+    const modeChip = document.getElementById("admin-auth-mode-chip");
+    if (adminTabBtn) {
+      adminTabBtn.classList.toggle("hidden", !state.isAdminSession);
+    }
+    if (footerBtn) {
+      footerBtn.textContent = state.isAdminSession ? "🛡️ Admin Console" : "🔒 Admin";
+    }
+    if (modeChip) {
+      modeChip.textContent = `🔒 Zero-PII • Auth: ${data.auth_mode || "verified"}`;
+    }
+  } catch (_e) {
+    // ignore offline
+  }
+}
+
+function populateAdminBadgeSelector() {
+  const sel = document.getElementById("admin-catalog-badge-select");
+  if (!sel || sel.options.length > 0) return;
+  const badges = state.allBadges?.length > 0 ? state.allBadges : [{ badge_name: "First Aid" }];
+  sel.innerHTML = badges
+    .map((b) => {
+      const bName = b.badge_name || b.name || "First Aid";
+      return `<option value="${escapeHtml(bName)}">${escapeHtml(bName)}</option>`;
+    })
+    .join("");
+  if (state.currentBadge) {
+    sel.value = state.currentBadge;
+  }
+}
+
+async function loadAdminConsoleData() {
+  populateAdminBadgeSelector();
+  await Promise.all([
+    loadAdminCatalogImages(),
+    loadAdminZeroPiiTelemetry(),
+    loadAdminAssetDiagnostics(),
+  ]);
+}
+
+async function loadAdminCatalogImages(preselectImageId = null) {
+  populateAdminBadgeSelector();
+  const badgeSel = document.getElementById("admin-catalog-badge-select");
+  const reqSel = document.getElementById("admin-catalog-req-select");
+  const srcSel = document.getElementById("admin-catalog-source-select");
+  const roleSel = document.getElementById("admin-catalog-role-select");
+  const searchInput = document.getElementById("admin-catalog-search-input");
+  const badgeName = badgeSel?.value || state.currentBadge || "First Aid";
+  const reqVal = reqSel?.value || "ALL";
+  const srcVal = srcSel?.value || "ALL";
+  const roleVal = roleSel?.value || "ALL";
+
+  try {
+    const qs = new URLSearchParams({
+      badge_name: badgeName,
+      req_number: reqVal,
+      source_type: srcVal,
+      role: roleVal,
+    });
+    const resp = await fetch(`/api/v1/admin/catalog/images?${qs.toString()}`);
+    if (!resp.ok) return;
+    const data = await resp.json();
+    const prevReq = reqSel?.value || "ALL";
+    if (reqSel && Array.isArray(data.available_requirements)) {
+      reqSel.innerHTML =
+        `<option value="ALL">All Requirements</option>` +
+        data.available_requirements
+          .map((r) => `<option value="${escapeHtml(r)}" ${r === prevReq ? "selected" : ""}>Req ${escapeHtml(r)}</option>`)
+          .join("");
+    }
+    let items = Array.isArray(data.images) ? data.images : [];
+    const q = (searchInput?.value || "").trim().toLowerCase();
+    if (q) {
+      items = items.filter((it) =>
+        `${it.title || ""} ${it.caption || ""} ${it.filename || ""} ${it.req_number || ""}`.toLowerCase().includes(q)
+      );
+    }
+    state.adminCatalogItems = items;
+    const countLbl = document.getElementById("admin-catalog-count-label");
+    if (countLbl) {
+      countLbl.textContent = `Showing ${items.length} of ${data.total_unfiltered || items.length} cached visuals for ${badgeName}`;
+    }
+    renderAdminCatalogGrid(preselectImageId);
+  } catch (err) {
+    console.warn("Admin catalog load warning:", err);
+  }
+}
+
+function renderAdminCatalogGrid(preselectImageId = null) {
+  const grid = document.getElementById("admin-catalog-grid");
+  if (!grid) return;
+  const items = state.adminCatalogItems || [];
+  if (items.length === 0) {
+    grid.innerHTML = `<div style="padding:18px; color:#64748B;">No cached images match the current filter for this Merit Badge.</div>`;
+    return;
+  }
+
+  const targetId = preselectImageId || state.selectedAdminImage?.image_id || items[0]?.image_id;
+  grid.innerHTML = items
+    .map((it, idx) => {
+      const isSelected = it.image_id === targetId;
+      const rolePill = it.is_alternate
+        ? `<span class="m3-role-badge-alt">🔄 ALT #${it.alternate_rank || 1}</span>`
+        : `<span class="m3-role-badge-primary">⭐ PRIMARY</span>`;
+      const dimLabel = it.width && it.height ? `${it.width}×${it.height}px • ${it.file_size_kb || 0}KB` : `${it.file_size_kb || 0}KB`;
+      return `
+        <div class="m3-admin-img-card ${isSelected ? "selected" : ""}" data-admin-card-idx="${idx}">
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:4px;">
+            <span class="m3-chip m3-chip-primary" style="font-size:0.65rem; padding:1px 6px;">Req ${escapeHtml(String(it.req_number || "1"))}</span>
+            ${rolePill}
+          </div>
+          <img src="${escapeHtml(it.image_url || "")}" alt="${escapeHtml(it.title || "")}" style="width:100%; height:128px; object-fit:contain; background:#F8FAFC; border-radius:8px; border:1px solid #E2E8F0;" loading="lazy" />
+          <div style="font-size:0.79rem; font-weight:700; color:#0F172A; line-height:1.25;">${escapeHtml(it.title || it.filename || "Visual")}</div>
+          <div style="font-size:0.72rem; color:#475569; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
+            ${escapeHtml(it.caption || it.description || "")}
+          </div>
+          <div style="font-family:var(--font-mono); font-size:0.66rem; color:#64748B; margin-top:auto;">
+            ${escapeHtml(dimLabel)}
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+
+  const found = items.find((i) => i.image_id === targetId) || items[0];
+  if (found) {
+    selectAdminCatalogImage(found, false);
+  }
+
+  grid.querySelectorAll("[data-admin-card-idx]").forEach((cardEl) => {
+    cardEl.addEventListener("click", () => {
+      const idx = parseInt(cardEl.getAttribute("data-admin-card-idx") || "0", 10);
+      const chosen = items[idx];
+      if (chosen) {
+        grid.querySelectorAll(".m3-admin-img-card").forEach((c) => c.classList.remove("selected"));
+        cardEl.classList.add("selected");
+        selectAdminCatalogImage(chosen, false);
+      }
+    });
+  });
+}
+
+function selectAdminCatalogImage(item, clearStatus = true) {
+  if (!item) return;
+  state.selectedAdminImage = item;
+  const imgEl = document.getElementById("admin-inspector-img");
+  const metaEl = document.getElementById("admin-inspector-file-meta");
+  const roleChip = document.getElementById("admin-inspector-role-chip");
+  const idInput = document.getElementById("admin-edit-image-id");
+  const titleInput = document.getElementById("admin-edit-title");
+  const capInput = document.getElementById("admin-edit-caption");
+  const reqInput = document.getElementById("admin-edit-req");
+  const roleSel = document.getElementById("admin-edit-role-select");
+  const discardCb = document.getElementById("admin-edit-discard");
+  const statusEl = document.getElementById("admin-inspector-status");
+
+  if (imgEl) imgEl.src = item.image_url || "";
+  if (metaEl) {
+    metaEl.textContent = `${item.filename || item.image_id} • ${item.width || 0}×${item.height || 0}px (${item.file_size_kb || 0} KB) • ${item.source_type || ""}`;
+  }
+  if (roleChip) {
+    roleChip.textContent = item.is_alternate ? `🔄 Alternate #${item.alternate_rank || 1}` : "⭐ Primary Default";
+  }
+  if (idInput) idInput.value = item.image_id || "";
+  if (titleInput) titleInput.value = item.title || "";
+  if (capInput) capInput.value = item.caption || item.description || "";
+  if (reqInput) reqInput.value = item.req_number || "1";
+  if (roleSel) roleSel.value = item.is_alternate ? "alternate" : "primary";
+  if (discardCb) discardCb.checked = Boolean(item.discard);
+  if (clearStatus && statusEl) {
+    statusEl.classList.add("hidden");
+  }
+}
+
+function showAdminInspectorFeedback(msg, isError = false) {
+  const statusEl = document.getElementById("admin-inspector-status");
+  if (!statusEl) return;
+  statusEl.classList.remove("hidden");
+  statusEl.style.background = isError ? "#FEF2F2" : "#F0FDF4";
+  statusEl.style.border = isError ? "1px solid #FCA5A5" : "1px solid #86EFAC";
+  statusEl.style.color = isError ? "#991B1B" : "#166534";
+  statusEl.textContent = msg;
+}
+
+async function openAdminStudioForSlideVisual(entry) {
+  populateAdminBadgeSelector();
+  const badgeSel = document.getElementById("admin-catalog-badge-select");
+  if (badgeSel && state.currentResult?.badge_name) {
+    badgeSel.value = state.currentResult.badge_name;
+  }
+  switchMainTab("panel-admin");
+  await loadAdminCatalogImages(entry?.image_id || null);
+}
+
+async function loadAdminZeroPiiTelemetry() {
+  try {
+    const resp = await fetch("/api/v1/admin/telemetry/summary");
+    if (!resp.ok) return;
+    const data = await resp.json();
+    const tel = data.zero_pii_telemetry || {};
+    const rt = data.runtime_metrics || {};
+
+    const totalRuns = Math.max(Number(tel.total_runs || 0), Number(rt.workflow_runs_total || 0));
+    const ratioPct = Math.round(Number(tel.cache_hit_ratio || rt.cache_hit_ratio || 0) * 100);
+    const warmLat = tel.latency_warm_ms || rt.latency_warm_ms || {};
+    const coldLat = tel.latency_cold_ms || rt.latency_cold_ms || {};
+    const fb = tel.anonymous_feedback || {};
+
+    const setTxt = (id, txt) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = txt;
+    };
+    setTxt("admin-kpi-total-runs", String(totalRuns));
+    setTxt("admin-kpi-cache-ratio", `Cache Hit Ratio: ${ratioPct}%`);
+    setTxt("admin-kpi-warm-p50", `${warmLat.p50 || 0} ms`);
+    setTxt("admin-kpi-warm-p95", `p95: ${warmLat.p95 || 0} ms`);
+    setTxt("admin-kpi-cold-p50", `${coldLat.p50 || 0} ms`);
+    setTxt("admin-kpi-cold-p95", `p95: ${coldLat.p95 || 0} ms`);
+    setTxt("admin-kpi-avg-rating", `${fb.average_rating || 5.0} ★`);
+    setTxt("admin-kpi-golden-count", `${fb.golden_promotions || 0} Golden Promotions`);
+    setTxt("admin-kpi-total-spend", `$${Number(tel.total_estimated_cost_usd || rt.cumulative_spend_usd || 0).toFixed(4)}`);
+
+    // Top Badges table
+    const popWrap = document.getElementById("admin-badge-popularity-table-wrap");
+    if (popWrap) {
+      const rows = tel.badge_popularity || [];
+      if (rows.length === 0) {
+        popWrap.innerHTML = `<div style="padding:12px; color:#64748B; font-size:0.80rem;">No workflow runs recorded yet in this SQLite instance.</div>`;
+      } else {
+        popWrap.innerHTML = `
+          <table class="m3-finops-table" style="width:100%;">
+            <thead>
+              <tr><th>Merit Badge</th><th>Runs</th><th>Warm</th><th>Cold</th><th>Avg Latency</th><th>Avg QA</th></tr>
+            </thead>
+            <tbody>
+              ${rows
+                .map(
+                  (r) => `
+                <tr>
+                  <td><strong>${escapeHtml(r.badge_name)}</strong></td>
+                  <td>${r.run_count}</td>
+                  <td>${r.warm_runs}</td>
+                  <td>${r.cold_runs}</td>
+                  <td>${r.avg_duration_ms} ms</td>
+                  <td>${r.avg_qa_score}%</td>
+                </tr>`
+                )
+                .join("")}
+            </tbody>
+          </table>
+        `;
+      }
+    }
+
+    // Image Swap Hotspots table
+    const swapsWrap = document.getElementById("admin-image-swaps-table-wrap");
+    if (swapsWrap) {
+      const swaps = tel.image_swap_hotspots || [];
+      if (swaps.length === 0) {
+        swapsWrap.innerHTML = `<div style="padding:12px; color:#64748B; font-size:0.80rem;">No slide visual swap events recorded yet.</div>`;
+      } else {
+        swapsWrap.innerHTML = `
+          <table class="m3-finops-table" style="width:100%;">
+            <thead>
+              <tr><th>Merit Badge</th><th>Req</th><th>Event Type</th><th>Count</th></tr>
+            </thead>
+            <tbody>
+              ${swaps
+                .map(
+                  (s) => `
+                <tr>
+                  <td><strong>${escapeHtml(s.badge_name)}</strong></td>
+                  <td>Req ${escapeHtml(s.req_number)}</td>
+                  <td><code>${escapeHtml(s.event_type)}</code></td>
+                  <td>${s.event_count}</td>
+                </tr>`
+                )
+                .join("")}
+            </tbody>
+          </table>
+        `;
+      }
+    }
+
+    // Stage latency bars
+    const stageBarsEl = document.getElementById("admin-stage-latency-bars");
+    if (stageBarsEl) {
+      const stages = tel.stage_latencies_ms || {};
+      const entries = Object.entries(stages);
+      if (entries.length === 0) {
+        stageBarsEl.innerHTML = `<div style="padding:10px; color:#64748B; font-size:0.80rem;">Run or stream a deck generation to populate per-stage latency histograms.</div>`;
+      } else {
+        const maxP95 = Math.max(100, ...entries.map(([, v]) => Number(v.p95_ms || v.p95 || 1)));
+        stageBarsEl.innerHTML = entries
+          .map(([sid, st]) => {
+            const p50 = Number(st.p50_ms ?? st.p50 ?? 0);
+            const p95 = Number(st.p95_ms ?? st.p95 ?? 0);
+            const pct = Math.min(100, Math.max(6, Math.round((p95 / maxP95) * 100)));
+            return `
+              <div style="display:grid; grid-template-columns:150px 1fr 165px; gap:10px; align-items:center; font-size:0.79rem;">
+                <strong style="color:#0F172A;">${escapeHtml(sid)}</strong>
+                <div style="background:#E2E8F0; height:10px; border-radius:999px; overflow:hidden;">
+                  <div style="width:${pct}%; height:100%; background:#003F87; border-radius:999px;"></div>
+                </div>
+                <span style="font-family:var(--font-mono); font-size:0.74rem; color:#334155;">p50: ${p50}ms • p95: ${p95}ms</span>
+              </div>
+            `;
+          })
+          .join("");
+      }
+    }
+
+    // Circuit Breakers grid in Diagnostics Sub-tab
+    const cbGrid = document.getElementById("admin-circuit-breakers-grid");
+    if (cbGrid && rt.circuit_breakers) {
+      cbGrid.innerHTML = Object.values(rt.circuit_breakers)
+        .map((cb) => {
+          const isClosed = cb.state === "CLOSED";
+          const pillBg = isClosed ? "#DCFCE7" : "#FEF2F2";
+          const pillFg = isClosed ? "#166534" : "#991B1B";
+          return `
+            <div style="border:1.5px solid #CBD5E1; border-radius:10px; padding:12px; background:#F8FAFC;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="font-size:0.82rem; color:#0F172A;">${escapeHtml(cb.name)}</strong>
+                <span style="background:${pillBg}; color:${pillFg}; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:999px;">${escapeHtml(cb.state)}</span>
+              </div>
+              <div style="font-size:0.74rem; color:#475569; margin-top:6px;">
+                Failures: <strong>${cb.failure_count}/${cb.failure_threshold}</strong> &bull;
+                Successes: <strong>${cb.total_successes}</strong> &bull;
+                Short-Circuits: <strong>${cb.total_short_circuits}</strong>
+              </div>
+            </div>
+          `;
+        })
+        .join("");
+    }
+  } catch (err) {
+    console.warn("Admin telemetry load warning:", err);
+  }
+}
+
+async function loadAdminAssetDiagnostics() {
+  try {
+    const resp = await fetch("/api/v1/admin/diagnostics/assets");
+    if (!resp.ok) return;
+    const data = await resp.json();
+    state.adminAssetMatrixRows = data.badges || [];
+    const subEl = document.getElementById("admin-asset-summary-subtitle");
+    if (subEl) {
+      subEl.innerHTML = `Verified <strong>${data.total_badges || 144} Merit Badges</strong>: <strong>${data.covers_present || 0}/144</strong> Covers &bull; <strong>${data.emblems_present || 0}/144</strong> Emblems &bull; <strong>${data.total_pamphlet_figures || 0}</strong> Pamphlet Figures &bull; <strong>${data.total_nano_banana_heroes || 0}</strong> Nano Banana Heroes`;
+    }
+    renderAdminAssetMatrixTable();
+  } catch (err) {
+    console.warn("Admin asset diagnostics warning:", err);
+  }
+}
+
+function renderAdminAssetMatrixTable() {
+  const tbody = document.getElementById("admin-asset-health-table-body");
+  if (!tbody) return;
+  const q = (document.getElementById("admin-asset-matrix-search")?.value || "").trim().toLowerCase();
+  const rows = (state.adminAssetMatrixRows || []).filter(
+    (r) => !q || `${r.badge_name} ${r.category}`.toLowerCase().includes(q)
+  );
+  tbody.innerHTML = rows
+    .map(
+      (r) => `
+      <tr>
+        <td><strong>${escapeHtml(r.badge_name)}</strong> ${r.eagle_required ? "⭐" : ""}</td>
+        <td>${escapeHtml(r.category || "")}</td>
+        <td>${r.cover_present ? "✅" : "⚠️"}</td>
+        <td>${r.emblem_present ? "✅" : "⚠️"}</td>
+        <td><strong>${r.pamphlet_figures}</strong></td>
+        <td><strong>${r.nano_banana_heroes}</strong></td>
+        <td>
+          <button type="button" class="m3-btn m3-btn-tonal" data-admin-inspect-badge="${escapeHtml(r.badge_name)}" style="padding:3px 9px; font-size:0.72rem;">
+            🖼️ Inspect Visuals
+          </button>
+        </td>
+      </tr>
+    `
+    )
+    .join("");
+
+  tbody.querySelectorAll("[data-admin-inspect-badge]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const bName = btn.getAttribute("data-admin-inspect-badge") || "First Aid";
+      const badgeSel = document.getElementById("admin-catalog-badge-select");
+      if (badgeSel) badgeSel.value = bName;
+      document.getElementById("btn-admin-subtab-catalog")?.click();
+      loadAdminCatalogImages();
+    });
+  });
+}
+
+function bindEnhancedWorkbenchAndAdminFeatures() {
+  // Set default date stamp in Blue Card tracker
+  const dateInput = document.getElementById("bluecard-signoff-date");
+  if (dateInput && !dateInput.value) {
+    dateInput.value = new Date().toISOString().slice(0, 10);
+  }
+
+  // UI-1: Top Bar Export & Print Dropdown Menu
+  const exportToggleBtn = document.getElementById("btn-export-menu-toggle");
+  const exportMenu = document.getElementById("top-export-dropdown-menu");
+  exportToggleBtn?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    exportMenu?.classList.toggle("hidden");
+  });
+  document.addEventListener("click", () => {
+    exportMenu?.classList.add("hidden");
+  });
+  document.getElementById("btn-top-print-workbook")?.addEventListener("click", () => {
+    document.getElementById("btn-print-workbook")?.click();
+  });
+  document.getElementById("btn-top-print-cue-cards")?.addEventListener("click", () => {
+    printCounselorPocketCueCards();
+  });
+  document.getElementById("btn-top-export-bluecard-csv")?.addEventListener("click", () => {
+    if (state.currentResult) exportBlueCardCsv(state.currentResult);
+  });
+
+  // Feature C1: Live Classroom Session Countdown Timer
+  document.getElementById("session-timer-preset-select")?.addEventListener("change", () => {
+    resetSessionTimer();
+  });
+  document.getElementById("btn-timer-start-pause")?.addEventListener("click", () => {
+    toggleSessionTimer();
+  });
+  document.getElementById("btn-timer-reset")?.addEventListener("click", () => {
+    resetSessionTimer();
+  });
+
+  // Feature C2: Classroom Quiz & Scenario Reveal Mode
+  const quizBtn = document.getElementById("btn-toggle-quiz-reveal");
+  quizBtn?.addEventListener("click", () => {
+    state.quizRevealMode = !state.quizRevealMode;
+    quizBtn.textContent = state.quizRevealMode ? "🎯 Quiz Reveal: ON" : "🎯 Quiz Reveal: Off";
+    quizBtn.classList.toggle("m3-btn-filled", state.quizRevealMode);
+    quizBtn.classList.toggle("m3-btn-outlined", !state.quizRevealMode);
+    if (state.currentResult && state.activeSlideIdx >= 0) {
+      renderActiveSlide(state.activeSlideIdx);
+    }
+  });
+
+  // UI-2: Dual-Window Presenter View Pop-Out
+  document.getElementById("btn-popout-speaker-notes")?.addEventListener("click", () => {
+    openPresenterViewWindow();
+  });
+
+  // UI-3: Visual Archetype Thumbnail Picker
+  document.querySelectorAll("#codesign-archetype-visual-grid .m3-arch-thumb-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const arch = btn.getAttribute("data-arch") || "SPLIT_VISUAL_EXPLAINER";
+      const archSel = document.getElementById("codesign-archetype-select");
+      if (archSel) archSel.value = arch;
+      syncArchetypeVisualPicker(arch);
+    });
+  });
+  document.getElementById("codesign-archetype-select")?.addEventListener("change", (ev) => {
+    syncArchetypeVisualPicker(ev.target.value);
+  });
+
+  // UI-4 & C4: Workbook search filter & Pocket Cue Cards
+  document.getElementById("btn-print-cue-cards")?.addEventListener("click", () => {
+    printCounselorPocketCueCards();
+  });
+  document.getElementById("workbook-search-input")?.addEventListener("input", (ev) => {
+    const q = (ev.target.value || "").trim().toLowerCase();
+    const previewEl = document.getElementById("workbook-markdown-preview");
+    if (!previewEl || !state.currentResult) return;
+    const rawMd = state.currentResult.workbook_markdown || "";
+    if (!q) {
+      previewEl.innerHTML = renderMarkdownToStyledHtml(rawMd);
+      return;
+    }
+    const blocks = rawMd.split(/\n(?=##\s)/);
+    const filtered = blocks.filter((b, i) => i === 0 || b.toLowerCase().includes(q));
+    previewEl.innerHTML = renderMarkdownToStyledHtml(filtered.join("\n\n") || `No workbook sections matching "${q}".`);
+  });
+
+  // UI-5: StudioKit Sub-Tab Pill Switcher
+  document.querySelectorAll("#studiokit-subtabs-bar .m3-studiokit-pill").forEach((pill) => {
+    pill.addEventListener("click", () => {
+      const filter = pill.getAttribute("data-studiokit-filter") || "ALL";
+      document.querySelectorAll("#studiokit-subtabs-bar .m3-studiokit-pill").forEach((p) =>
+        p.classList.toggle("active", p === pill)
+      );
+      const secAgenda = document.getElementById("studiokit-sec-agenda");
+      const secGear = document.getElementById("studiokit-gear-checklist-card");
+      const secRotator = document.getElementById("buddy-rotator-card");
+      const secPrereq = document.getElementById("prereq-readiness-card");
+      const secFinops = document.getElementById("studiokit-sec-finops");
+      const secFeedback = document.getElementById("studiokit-feedback-card");
+
+      if (secAgenda) secAgenda.style.display = filter === "ALL" || filter === "AGENDA" ? "grid" : "none";
+      if (secGear) secGear.classList.toggle("hidden", filter !== "ALL" && filter !== "GEAR");
+      if (secRotator) secRotator.classList.toggle("hidden", filter !== "ALL" && filter !== "GEAR");
+      if (secPrereq) secPrereq.classList.toggle("hidden", filter !== "ALL" && filter !== "PREREQ");
+      if (secFinops) secFinops.style.display = filter === "ALL" || filter === "FINOPS" ? "grid" : "none";
+      if (secFeedback) secFeedback.classList.toggle("hidden", filter !== "ALL" && filter !== "FINOPS");
+    });
+  });
+
+  // Feature C5: Patrol / Buddy Station Rotator controls
+  document.getElementById("rotator-minutes-select")?.addEventListener("change", () => {
+    if (state.currentResult) renderBuddyStationRotator(state.currentResult);
+  });
+  document.getElementById("btn-print-rotator")?.addEventListener("click", () => {
+    const badge = state.currentResult?.badge_name || "First Aid";
+    const html = document.getElementById("buddy-rotator-matrix-wrap")?.innerHTML || "";
+    printHtmlDocument(`${badge} Merit Badge — Patrol & Buddy Skill Station Rotation Matrix`, "Hands-On EDGE Station Schedule", html);
+  });
+
+  // Feature C3: Copy Pre-Class Prerequisite Reminder
+  document.getElementById("btn-email-prereq-reminder")?.addEventListener("click", (ev) => {
+    const badge = state.currentResult?.badge_name || "First Aid";
+    const reqs = (state.currentResult?.research_artifact?.requirements || []).filter(
+      (r) => r.execution_mode === "PREREQUISITE_CAMPOUT_HOME"
+    );
+    const lines = reqs.map((r) => `- Requirement ${r.req_number}: ${r.req_text}`).join("\n");
+    const snippet = `Scouts & Parents — Before our ${badge} Merit Badge session, please bring your completed prerequisite notes/logs for:\n${lines || "- Review your Merit Badge Workbook prerequisites."}`;
+    copyTextWithFeedback(ev.currentTarget, snippet, "✅ Copied Reminder!");
+  });
+
+  // UI-6: Blue Card Bulk Paste Roster & Mark In-Class Complete
+  document.getElementById("btn-bluecard-bulk-paste")?.addEventListener("click", () => {
+    document.getElementById("bluecard-bulk-paste-box")?.classList.toggle("hidden");
+  });
+  document.getElementById("btn-bluecard-bulk-apply")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    const raw = document.getElementById("bluecard-bulk-textarea")?.value || "";
+    const names = raw
+      .split(/[\n,;]+/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+    if (names.length === 0) return;
+    const roster = loadBadgeBlueCardRoster(state.currentResult.badge_name);
+    names.forEach((n) => {
+      if (!roster.scouts.some((s) => s.name.toLowerCase() === n.toLowerCase())) {
+        roster.scouts.push({ name: n, completedReqs: [] });
+      }
+    });
+    saveBadgeBlueCardRoster(state.currentResult.badge_name, roster);
+    renderBlueCardTracker(state.currentResult);
+    document.getElementById("bluecard-bulk-paste-box")?.classList.add("hidden");
+  });
+  document.getElementById("btn-bluecard-mark-inclass")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    const reqs = state.currentResult.research_artifact?.requirements || [];
+    const inClassNums = reqs
+      .filter((r) => (r.execution_mode || "IN_CLASS_DISCUSSION") === "IN_CLASS_DISCUSSION")
+      .map((r) => String(r.req_number));
+    const roster = loadBadgeBlueCardRoster(state.currentResult.badge_name);
+    roster.scouts.forEach((scout) => {
+      const set = new Set(scout.completedReqs || []);
+      inClassNums.forEach((n) => set.add(n));
+      scout.completedReqs = Array.from(set);
+    });
+    saveBadgeBlueCardRoster(state.currentResult.badge_name, roster);
+    renderBlueCardTracker(state.currentResult);
+  });
+
+  // UI-7: Keyboard Shortcuts Modal (`?`)
+  const shortcutsModal = document.getElementById("keyboard-shortcuts-modal");
+  document.getElementById("btn-keyboard-shortcuts")?.addEventListener("click", () => {
+    shortcutsModal?.classList.remove("hidden");
+    shortcutsModal?.classList.add("open");
+  });
+  document.getElementById("btn-close-shortcuts-modal")?.addEventListener("click", () => {
+    shortcutsModal?.classList.remove("open");
+    shortcutsModal?.classList.add("hidden");
+  });
+  document.addEventListener("keydown", (ev) => {
+    const tag = (ev.target?.tagName || "").toUpperCase();
+    if (["INPUT", "TEXTAREA", "SELECT"].includes(tag)) return;
+    if (ev.key === "?") {
+      ev.preventDefault();
+      const isHidden = shortcutsModal?.classList.toggle("hidden");
+      shortcutsModal?.classList.toggle("open", !isHidden);
+    } else if (ev.key.toLowerCase() === "p" && !ev.ctrlKey && !ev.metaKey) {
+      ev.preventDefault();
+      openPresenterViewWindow();
+    } else if (ev.key.toLowerCase() === "q" && !ev.ctrlKey && !ev.metaKey) {
+      ev.preventDefault();
+      document.getElementById("btn-toggle-quiz-reveal")?.click();
+    } else if (ev.key.toLowerCase() === "t" && !ev.ctrlKey && !ev.metaKey) {
+      ev.preventDefault();
+      toggleSessionTimer();
+    } else if (ev.ctrlKey && ev.shiftKey && ev.key.toLowerCase() === "a") {
+      ev.preventDefault();
+      document.getElementById("btn-footer-admin-unlock")?.click();
+    }
+  });
+
+  // Super-User Admin Console Bindings
+  checkAdminSessionAndInit();
+
+  const unlockModal = document.getElementById("admin-unlock-modal");
+  document.getElementById("btn-footer-admin-unlock")?.addEventListener("click", () => {
+    if (state.isAdminSession) {
+      document.getElementById("tab-btn-admin")?.classList.remove("hidden");
+      switchMainTab("panel-admin");
+    } else {
+      unlockModal?.classList.remove("hidden");
+      unlockModal?.classList.add("open");
+    }
+  });
+  document.getElementById("btn-close-admin-unlock-modal")?.addEventListener("click", () => {
+    unlockModal?.classList.remove("open");
+    unlockModal?.classList.add("hidden");
+  });
+  document.getElementById("btn-submit-admin-unlock")?.addEventListener("click", async () => {
+    const tokenVal = document.getElementById("admin-unlock-passphrase-input")?.value || "";
+    const errEl = document.getElementById("admin-unlock-error-msg");
+    try {
+      const resp = await fetch("/api/v1/admin/unlock", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ token: tokenVal }),
+      });
+      if (resp.ok) {
+        state.isAdminSession = true;
+        unlockModal?.classList.remove("open");
+        unlockModal?.classList.add("hidden");
+        document.getElementById("tab-btn-admin")?.classList.remove("hidden");
+        switchMainTab("panel-admin");
+      } else {
+        if (errEl) {
+          errEl.classList.remove("hidden");
+          errEl.textContent = "Invalid Super-User Admin token.";
+        }
+      }
+    } catch (e) {
+      if (errEl) {
+        errEl.classList.remove("hidden");
+        errEl.textContent = `Unlock error: ${e.message}`;
+      }
+    }
+  });
+
+  document.getElementById("btn-admin-lock-session")?.addEventListener("click", async () => {
+    await fetch("/api/v1/admin/lock", { method: "POST" }).catch(() => {});
+    state.isAdminSession = false;
+    document.getElementById("tab-btn-admin")?.classList.add("hidden");
+    const footerBtn = document.getElementById("btn-footer-admin-unlock");
+    if (footerBtn) footerBtn.textContent = "🔒 Admin";
+    switchMainTab("panel-storyboard");
+  });
+
+  document.getElementById("btn-admin-refresh-all")?.addEventListener("click", () => {
+    loadAdminConsoleData();
+  });
+
+  // Admin 3 Sub-Tabs
+  document.querySelectorAll("[data-admin-subtab]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const targetId = btn.getAttribute("data-admin-subtab");
+      document.querySelectorAll("[data-admin-subtab]").forEach((b) => b.classList.toggle("active", b === btn));
+      ["admin-subtab-catalog", "admin-subtab-telemetry", "admin-subtab-diagnostics"].forEach((id) => {
+        document.getElementById(id)?.classList.toggle("hidden", id !== targetId);
+      });
+    });
+  });
+
+  // Admin Catalog filters
+  ["admin-catalog-badge-select", "admin-catalog-req-select", "admin-catalog-source-select", "admin-catalog-role-select"].forEach(
+    (id) => {
+      document.getElementById(id)?.addEventListener("change", () => loadAdminCatalogImages());
+    }
+  );
+  document.getElementById("admin-catalog-search-input")?.addEventListener("input", () => loadAdminCatalogImages());
+  document.getElementById("btn-admin-sync-active-badge")?.addEventListener("click", () => {
+    const badgeSel = document.getElementById("admin-catalog-badge-select");
+    if (badgeSel && state.currentBadge) {
+      badgeSel.value = state.currentBadge;
+      loadAdminCatalogImages();
+    }
+  });
+  document.getElementById("btn-admin-open-nano-studio")?.addEventListener("click", () => {
+    document.getElementById("btn-open-image-studio")?.click();
+  });
+
+  // Admin Inspector Actions: Save, Promote Primary, Gemini Vision Recaption
+  document.getElementById("btn-admin-save-metadata")?.addEventListener("click", async () => {
+    const item = state.selectedAdminImage;
+    if (!item) return;
+    const badgeName = document.getElementById("admin-catalog-badge-select")?.value || item.badge_name || "First Aid";
+    const payload = {
+      badge_name: badgeName,
+      image_id: item.image_id,
+      title: document.getElementById("admin-edit-title")?.value || item.title,
+      caption: document.getElementById("admin-edit-caption")?.value || "",
+      req_number: document.getElementById("admin-edit-req")?.value || "1",
+      is_alternate: document.getElementById("admin-edit-role-select")?.value === "alternate",
+      discard: Boolean(document.getElementById("admin-edit-discard")?.checked),
+    };
+    const resp = await fetch("/api/v1/admin/catalog/image", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (resp.ok) {
+      showAdminInspectorFeedback("✅ Saved caption & metadata to catalog JSON and SQLite!");
+      await loadAdminCatalogImages(item.image_id);
+    } else {
+      showAdminInspectorFeedback("⚠️ Failed to save metadata.", true);
+    }
+  });
+
+  document.getElementById("btn-admin-promote-primary")?.addEventListener("click", async () => {
+    const item = state.selectedAdminImage;
+    if (!item) return;
+    const badgeName = document.getElementById("admin-catalog-badge-select")?.value || item.badge_name || "First Aid";
+    const reqNum = document.getElementById("admin-edit-req")?.value || item.req_number || "1";
+    const resp = await fetch("/api/v1/admin/catalog/promote-primary", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        badge_name: badgeName,
+        image_id: item.image_id,
+        req_number: reqNum,
+      }),
+    });
+    if (resp.ok) {
+      showAdminInspectorFeedback(`⭐ Promoted to Primary Default for ${badgeName} Req ${reqNum}!`);
+      await loadAdminCatalogImages(item.image_id);
+    } else {
+      showAdminInspectorFeedback("⚠️ Could not promote image.", true);
+    }
+  });
+
+  document.getElementById("btn-admin-recaption-vision")?.addEventListener("click", async (ev) => {
+    const item = state.selectedAdminImage;
+    if (!item) return;
+    const btn = ev.currentTarget;
+    const orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "⏳ Captioning with Gemini Vision...";
+    const badgeName = document.getElementById("admin-catalog-badge-select")?.value || item.badge_name || "First Aid";
+    const reqNum = document.getElementById("admin-edit-req")?.value || item.req_number || "1";
+    try {
+      const resp = await fetch("/api/v1/admin/catalog/recaption-vision", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badgeName,
+          image_id: item.image_id,
+          req_number: reqNum,
+        }),
+      });
+      if (resp.ok) {
+        const data = await resp.json();
+        const capInput = document.getElementById("admin-edit-caption");
+        if (capInput && data.caption) capInput.value = data.caption;
+        showAdminInspectorFeedback(`✨ Auto-captioned via ${data.vision_model_used || "Gemini Vision"}!`);
+        await loadAdminCatalogImages(item.image_id);
+      } else {
+        showAdminInspectorFeedback("⚠️ Vision recaption failed.", true);
+      }
+    } finally {
+      btn.disabled = false;
+      btn.textContent = orig;
+    }
+  });
+
+  document.getElementById("admin-asset-matrix-search")?.addEventListener("input", () => {
+    renderAdminAssetMatrixTable();
+  });
+
+  document.getElementById("btn-admin-reset-breakers")?.addEventListener("click", async () => {
+    await fetch("/api/v1/admin/circuit-breakers/reset", { method: "POST" });
+    await loadAdminZeroPiiTelemetry();
+  });
+}
+

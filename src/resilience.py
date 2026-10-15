@@ -6,6 +6,7 @@ HTTP 503 service unavailability.
 """
 
 import json
+import math
 import random
 import threading
 import time
@@ -14,6 +15,10 @@ from typing import Any, Callable, Dict, List, Optional, TypeVar
 
 from src.config import PROJECT_ROOT, get_model_provider
 from src.observability.logging_setup import logger
+from src.observability.telemetry_store import (
+    get_zero_pii_telemetry_store,
+    scrub_pii_dict,
+)
 
 T = TypeVar("T")
 
@@ -243,6 +248,9 @@ class RuntimeMetricsCollector:
     def __init__(self) -> None:
         self._lock = threading.Lock()
         self._latencies_ms: List[float] = []
+        self._latencies_warm_ms: List[float] = []
+        self._latencies_cold_ms: List[float] = []
+        self._stage_latencies_ms: Dict[str, List[float]] = {}
         self._workflow_runs: int = 0
         self._cache_hits: int = 0
         self._total_tokens: int = 0
@@ -256,26 +264,77 @@ class RuntimeMetricsCollector:
         tokens_used: int = 0,
         cost_usd: float = 0.0,
         cache_hit: bool = False,
+        badge_name: str = "First Aid",
+        audience_level: str = "All Ages",
+        visual_style: str = "Norman Rockwell",
+        qa_score: float = 0.0,
+        success: bool = True,
     ) -> None:
+        clean_lat = max(0.1, float(latency_ms))
         with self._lock:
             self._workflow_runs += 1
             if cache_hit:
                 self._cache_hits += 1
+                self._latencies_warm_ms.append(clean_lat)
+                if len(self._latencies_warm_ms) > 500:
+                    del self._latencies_warm_ms[:-500]
+            else:
+                self._latencies_cold_ms.append(clean_lat)
+                if len(self._latencies_cold_ms) > 500:
+                    del self._latencies_cold_ms[:-500]
             self._total_tokens += max(0, int(tokens_used))
             self._total_spend_usd = round(self._total_spend_usd + max(0.0, float(cost_usd)), 4)
-            self._latencies_ms.append(max(0.1, float(latency_ms)))
+            self._latencies_ms.append(clean_lat)
             if len(self._latencies_ms) > 500:
                 del self._latencies_ms[:-500]
+        try:
+            get_zero_pii_telemetry_store().record_workflow_run(
+                badge_name=badge_name,
+                duration_ms=clean_lat,
+                cache_hit=cache_hit,
+                success=success,
+                audience_level=audience_level,
+                visual_style=visual_style,
+                qa_score=qa_score,
+                estimated_cost_usd=cost_usd,
+            )
+        except Exception:
+            pass
+
+    def record_stage_latency(
+        self,
+        stage_id: str,
+        latency_ms: float,
+        badge_name: str = "",
+        cache_hit: bool = False,
+    ) -> None:
+        clean_lat = max(0.0, float(latency_ms))
+        sid = str(stage_id or "unknown").strip()
+        with self._lock:
+            bucket = self._stage_latencies_ms.setdefault(sid, [])
+            bucket.append(clean_lat)
+            if len(bucket) > 500:
+                del bucket[:-500]
+        try:
+            get_zero_pii_telemetry_store().record_stage_latency(
+                stage_id=sid,
+                duration_ms=clean_lat,
+                badge_name=badge_name,
+                cache_hit=cache_hit,
+            )
+        except Exception:
+            pass
 
     def record_counselor_feedback(self, feedback: Dict[str, Any]) -> Dict[str, Any]:
+        scrubbed = scrub_pii_dict(feedback)
         record = {
-            "feedback_id": feedback.get("feedback_id") or f"fb-{int(time.time() * 1000)}",
-            "badge_name": str(feedback.get("badge_name", "First Aid")),
-            "session_id": str(feedback.get("session_id", "a2ui_workbench_session")),
-            "rating": max(1, min(5, int(feedback.get("rating", 5)))),
-            "thumbs_up": bool(feedback.get("thumbs_up", True)),
-            "requirement_accuracy_verified": bool(feedback.get("requirement_accuracy_verified", True)),
-            "comments": str(feedback.get("comments", "")).strip(),
+            "feedback_id": scrubbed.get("feedback_id") or f"fb-{int(time.time() * 1000)}",
+            "badge_name": str(scrubbed.get("badge_name", "First Aid")),
+            "session_id": str(scrubbed.get("session_id", "a2ui_workbench_session")),
+            "rating": max(1, min(5, int(scrubbed.get("rating", 5)))),
+            "thumbs_up": bool(scrubbed.get("thumbs_up", True)),
+            "requirement_accuracy_verified": bool(scrubbed.get("requirement_accuracy_verified", True)),
+            "comments": str(scrubbed.get("comments", "")).strip(),
             "timestamp_epoch": round(time.time(), 3),
         }
         with self._lock:
@@ -286,6 +345,18 @@ class RuntimeMetricsCollector:
                     fh.write(json.dumps(record) + "\n")
             except Exception:
                 pass
+        try:
+            get_zero_pii_telemetry_store().record_anonymous_feedback(
+                badge_name=record["badge_name"],
+                rating=record["rating"],
+                promoted_to_golden=(
+                    record["rating"] >= 4
+                    and record["thumbs_up"]
+                    and record["requirement_accuracy_verified"]
+                ),
+            )
+        except Exception:
+            pass
         return record
 
     def get_feedback_summary(self) -> Dict[str, Any]:
@@ -310,26 +381,48 @@ class RuntimeMetricsCollector:
     def snapshot(self) -> Dict[str, Any]:
         with self._lock:
             lats = sorted(self._latencies_ms)
+            warm_lats = sorted(self._latencies_warm_ms)
+            cold_lats = sorted(self._latencies_cold_ms)
+            stage_copy = {k: sorted(v) for k, v in self._stage_latencies_ms.items()}
             runs = self._workflow_runs
             hits = self._cache_hits
             tokens = self._total_tokens
             spend = self._total_spend_usd
 
-        def _pct(p: float) -> float:
-            if not lats:
+        def _pct(vals: List[float], p: float) -> float:
+            if not vals:
                 return 0.0
-            idx = min(len(lats) - 1, max(0, int(round((p / 100.0) * (len(lats) - 1)))))
-            return round(lats[idx], 2)
+            idx = min(len(vals) - 1, max(0, math.ceil((p / 100.0) * len(vals)) - 1))
+            return round(vals[idx], 2)
+
+        stage_summary: Dict[str, Dict[str, float]] = {}
+        for sid, svals in stage_copy.items():
+            stage_summary[sid] = {
+                "p50": _pct(svals, 50),
+                "p95": _pct(svals, 95),
+                "p99": _pct(svals, 99),
+            }
 
         return {
             "workflow_runs_total": runs,
             "cache_hits_total": hits,
             "cache_hit_ratio": round(hits / runs, 3) if runs > 0 else 0.0,
             "latency_ms": {
-                "p50": _pct(50),
-                "p95": _pct(95),
-                "p99": _pct(99),
+                "p50": _pct(lats, 50),
+                "p95": _pct(lats, 95),
+                "p99": _pct(lats, 99),
             },
+            "latency_warm_ms": {
+                "p50": _pct(warm_lats, 50),
+                "p95": _pct(warm_lats, 95),
+                "p99": _pct(warm_lats, 99),
+            },
+            "latency_cold_ms": {
+                "p50": _pct(cold_lats, 50),
+                "p95": _pct(cold_lats, 95),
+                "p99": _pct(cold_lats, 99),
+            },
+            "stage_latencies_ms": stage_summary,
             "tokens_consumed_total": tokens,
             "cumulative_spend_usd": spend,
             "circuit_breakers": {
@@ -339,6 +432,18 @@ class RuntimeMetricsCollector:
             },
             "hitl_counselor_feedback": self.get_feedback_summary(),
         }
+
+
+def reset_all_circuit_breakers() -> Dict[str, Any]:
+    """Resets all three downstream circuit breakers back to CLOSED."""
+    VERTEX_LLM_CIRCUIT_BREAKER.reset()
+    PAMPHLET_SCRAPER_CIRCUIT_BREAKER.reset()
+    WEB_GROUNDING_CIRCUIT_BREAKER.reset()
+    return {
+        "vertex_ai_gemini": VERTEX_LLM_CIRCUIT_BREAKER.snapshot(),
+        "scouting_org_pamphlet_scraper": PAMPHLET_SCRAPER_CIRCUIT_BREAKER.snapshot(),
+        "google_search_web_grounding": WEB_GROUNDING_CIRCUIT_BREAKER.snapshot(),
+    }
 
 
 METRICS_COLLECTOR = RuntimeMetricsCollector()

@@ -1329,4 +1329,94 @@ def test_v22_slide_image_choices_and_option_c_pill_switcher(tmp_path):
     assert "selectSlideImageChoice" in ui_js
 
 
+def test_v23_plan2_and_plan3_ui_counselor_and_superuser_admin():
+    """Verifies Plan 2 & Plan 3 enhancements:
+    1) Zero-PII Super-User Admin Console endpoints (`/api/v1/admin/session`, `/api/v1/admin/catalog/images`,
+       `/api/v1/admin/telemetry/image-swap`, `/api/v1/admin/telemetry/summary`, `/api/v1/admin/diagnostics/assets`,
+       `/api/v1/admin/circuit-breakers/reset`).
+    2) Strict Zero-PII scrubbing (`scrub_pii_dict` strips `counselor_name`, `email_address`, `phone_number`,
+       `troop_affiliation`, `location_or_zip`, `ip`, `user_agent`).
+    3) Unified 51-jurisdiction regional grounding in `resolve_counselor_location()` across all 50 states + D.C.
+    4) Counselor UI enhancements (Dual-Window Presenter View, Live Pacing Timer, Interactive Quiz Reveal,
+       Patrol Rotator, Pocket Cue Cards, Keyboard Shortcuts modal, and Super-User Admin Console panel).
+    """
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from src.server import app
+    from src.observability.telemetry_store import scrub_pii_dict
+    from src.agents.researcher import resolve_counselor_location
+
+    # 1. Verify Zero-PII scrubber strips all forbidden keys
+    dirty_payload = {
+        "badge_name": "First Aid",
+        "req_number": "1a",
+        "counselor_name": "John Doe",
+        "email_address": "john@example.com",
+        "phone_number": "555-123-4567",
+        "troop_affiliation": "Troop 999",
+        "location_or_zip": "01949",
+        "ip": "192.168.1.1",
+        "user_agent": "Mozilla/5.0",
+    }
+    clean_payload = scrub_pii_dict(dirty_payload)
+    assert clean_payload.get("badge_name") == "First Aid"
+    for pii_key in ("counselor_name", "email_address", "phone_number", "troop_affiliation", "location_or_zip", "ip", "user_agent"):
+        assert pii_key not in clean_payload
+
+    # 2. Verify 51-jurisdiction local grounding resolution (including non-MA states like AK, HI, WY)
+    for st_query, expected_code in [("Anchorage, AK", "AK"), ("Honolulu, HI", "HI"), ("Cheyenne, WY", "WY")]:
+        loc = resolve_counselor_location(st_query)
+        assert loc["state_code"] == expected_code
+        assert "NOAA NWS" in loc["nws_office"]
+
+    # 3. Verify Super-User Admin Console endpoints & A2A card redaction
+    client = TestClient(app)
+    agent_card = client.get("/.well-known/agent.json").json()
+    assert agent_card["version"] == "3.1.0"
+    assert "clayberg" not in agent_card["url"]
+
+    sess_res = client.get("/api/v1/admin/session").json()
+    assert sess_res["status"] == "SUCCESS"
+    assert sess_res["is_admin"] is True
+
+    cat_res = client.get("/api/v1/admin/catalog/images?badge_name=First+Aid&req_number=2").json()
+    assert cat_res["status"] == "SUCCESS"
+    assert len(cat_res["images"]) >= 1
+
+    swap_res = client.post(
+        "/api/v1/admin/telemetry/image-swap",
+        json={
+            "badge_name": "First Aid",
+            "req_number": "2",
+            "event_type": "counselor_visual_swap",
+            "from_image_id": "first_aid_p12_img1.png",
+            "to_image_id": "first_aid_p14_img2.png",
+        },
+    ).json()
+    assert swap_res["status"] == "RECORDED"
+    assert swap_res["zero_pii"] is True
+
+    summary_res = client.get("/api/v1/admin/telemetry/summary").json()
+    assert summary_res["status"] == "SUCCESS"
+    assert "zero_pii_telemetry" in summary_res
+
+    diag_res = client.get("/api/v1/admin/diagnostics/assets").json()
+    assert diag_res["status"] == "SUCCESS"
+    assert diag_res["total_badges"] == 144
+
+    cb_res = client.post("/api/v1/admin/circuit-breakers/reset").json()
+    assert cb_res["status"] == "RESET"
+
+    # 4. Verify UI hooks for Plan 3 Counselor & Admin features
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    assert 'id="panel-admin"' in ui_html
+    assert 'id="admin-unlock-modal"' in ui_html
+    assert 'id="keyboard-shortcuts-modal"' in ui_html
+    assert "syncPresenterViewWindow" in ui_js
+    assert "stage-left-cards" in ui_js
+
+
+
 

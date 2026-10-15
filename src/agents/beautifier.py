@@ -1,17 +1,18 @@
-"""ADK SlideBeautifierAgent for Magazine-Grade Slide Layout & Targeted AI Editorial Hero Art.
+"""ADK SlideBeautifierAgent for Slide Layout Themes & Editorial Hero Art.
 
 This module implements:
 1. `generate_ai_editorial_illustration`: Generates or retrieves disk-cached editorial vector/hero
    illustrations in the official Scouts BSA palette (`#003F87`, `#4B5320`, `#F4C430`, `#CE1126`),
-   supporting Vertex AI / Gemini `imagen-3.0-generate-002` with deterministic 220-DPI Matplotlib
-   vector illustration fallback.
+   supporting Gemini 2.5 Flash Image (`gemini-2.5-flash-image`) / Vertex AI Imagen with deterministic
+   220-DPI Matplotlib EDGE Skill Concept Map fallback.
 2. `beautify_slide_storyboard`: Transforms a `StoryboardPlan` into a `DeckVisualBlueprint` with:
-   - 6 Magazine/Infographic Visual Themes (`MAGAZINE_ASYMMETRIC_SPLIT`, `THREE_PILLAR_ACCENT_CARDS`,
+   - 6 visual card themes (`MAGAZINE_ASYMMETRIC_SPLIT`, `THREE_PILLAR_ACCENT_CARDS`,
      `NUMBERED_STEP_RIBBON`, `HERO_ILLUSTRATION_OVERLAY`, `SAFETY_ALERT_SPOTLIGHT`,
      `ANNOTATED_INFOGRAPHIC_STAGE`)
-   - Strict consecutive-slide variety enforcement
-   - Distinct `'Real-World Field Connection'` callout cards from Tier-2 Deep Research
-   - Targeted AI hero art generation capped by FinOps tier (`STANDARD=0`, `BEAUTIFIED=5`, `STUDIO=15`)
+   - Consecutive-slide theme and palette variety enforcement
+   - Pre-bundled Nano Banana Hero & Topic Illustrations across requirements (`max_ai_images=20` for
+     pre-cached/fallback visual enrichment; live uncached synthesis capped by `FinOpsBudgetPlugin` at
+     `STANDARD=0`, `BEAUTIFIED=5`, `STUDIO=15`)
 3. `get_slide_beautifier_agent`: ADK `Agent` factory wired with Model Armor guardrails and FinOps routing.
 """
 
@@ -34,6 +35,8 @@ from src.config import (
     ASSETS_DIR,
     SCOUTS_BSA_CONSTITUTION,
     ScoutsBSAPalette,
+    _read_cached_json,
+    badge_file_slug,
     load_prompt,
     select_model_for_task,
 )
@@ -46,25 +49,12 @@ from src.schemas import (
 AI_ILLUSTRATIONS_DIR: Path = ASSETS_DIR / "ai_illustrations"
 AI_ILLUSTRATIONS_DIR.mkdir(parents=True, exist_ok=True)
 
-_NANO_BANANA_CATALOG_CACHE: Optional[Dict[str, Any]] = None
+_FILE_MD5_CACHE: Dict[tuple[str, int, int], str] = {}
 
 
 def _get_nano_banana_catalog() -> Dict[str, Any]:
-    global _NANO_BANANA_CATALOG_CACHE
-    if _NANO_BANANA_CATALOG_CACHE is not None:
-        return _NANO_BANANA_CATALOG_CACHE
     nano_cat_file = AI_ILLUSTRATIONS_DIR.parent.parent / "data" / "nano_banana_image_catalog.json"
-    if nano_cat_file.exists():
-        try:
-            import json as _json
-            loaded = _json.loads(nano_cat_file.read_text(encoding="utf-8"))
-            if isinstance(loaded, dict):
-                _NANO_BANANA_CATALOG_CACHE = loaded
-                return _NANO_BANANA_CATALOG_CACHE
-        except Exception:
-            pass
-    _NANO_BANANA_CATALOG_CACHE = {}
-    return _NANO_BANANA_CATALOG_CACHE
+    return _read_cached_json(nano_cat_file)
 
 _VISUAL_THEMES = [
     "MAGAZINE_ASYMMETRIC_SPLIT",
@@ -134,8 +124,8 @@ def generate_ai_editorial_illustration(
         if m_req:
             req_tag = m_req.group(1)
     bp_list = [str(b).strip() for b in (kwargs.get("bullet_points") or []) if str(b).strip()]
-    slug = "".join(ch if ch.isalnum() else "_" for ch in badge_name.strip().lower()).strip("_")
-    req_slug = "".join(ch if ch.isalnum() else "_" for ch in req_tag.lower()).strip("_")
+    slug = badge_file_slug(badge_name)
+    req_slug = badge_file_slug(req_tag)
     if not req_slug:
         for fallback_r in ("1", "1a"):
             if (AI_ILLUSTRATIONS_DIR / f"{slug}_req_{fallback_r}_nano_hero.png").exists():
@@ -554,8 +544,14 @@ def beautify_slide_storyboard(
         try:
             p = Path(path_str)
             if p.exists() and p.is_file():
-                import hashlib
-                return hashlib.md5(p.read_bytes()).hexdigest()
+                st = p.stat()
+                key = (str(p.resolve()), st.st_mtime_ns, st.st_size)
+                cached = _FILE_MD5_CACHE.get(key)
+                if cached is not None:
+                    return cached
+                digest = hashlib.md5(p.read_bytes()).hexdigest()
+                _FILE_MD5_CACHE[key] = digest
+                return digest
         except Exception:
             pass
         return ""
@@ -754,8 +750,8 @@ def beautify_slide_storyboard(
                 and not has_existing_non_hero_diagram
             )
         )
-        badge_slug_check = "".join(ch if ch.isalnum() else "_" for ch in badge_name.strip().lower()).strip("_")
-        req_slug_check = "".join(ch if ch.isalnum() else "_" for ch in req_num.lower()).strip("_")
+        badge_slug_check = badge_file_slug(badge_name)
+        req_slug_check = badge_file_slug(req_num)
         has_prebundled_nano_hero = bool(
             req_slug_check
             and (AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{req_slug_check}_nano_hero.png").exists()

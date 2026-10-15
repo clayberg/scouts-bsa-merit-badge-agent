@@ -17,12 +17,13 @@ import asyncio
 import json
 import logging
 import os
+import threading
 import time
 import uuid
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
@@ -43,8 +44,16 @@ from src.agents.coordinator import (
     stream_merit_badge_workflow_events,
 )
 from src.agents.guardrails import get_compliance_audit_events
-from src.resilience import METRICS_COLLECTOR
-from src.security import verify_caller_auth
+from src.observability.telemetry_store import get_zero_pii_telemetry_store
+from src.resilience import METRICS_COLLECTOR, reset_all_circuit_breakers
+from src.security import (
+    ADMIN_SESSION_COOKIE_NAME,
+    check_admin_session_status,
+    create_admin_session_cookie,
+    verify_admin_auth,
+    verify_admin_token_value,
+    verify_caller_auth,
+)
 from src.tools.hitl_confirm import request_counselor_confirmation
 
 logger = logging.getLogger("scouts_bsa_agent.server")
@@ -94,6 +103,7 @@ app.mount("/ui", StaticFiles(directory=str(UI_DIR)), name="ui")
 
 # In-memory A2A task registry
 _A2A_TASKS: Dict[str, Dict[str, Any]] = {}
+_A2A_TASKS_LOCK = threading.Lock()
 
 
 # ==============================================================================
@@ -243,8 +253,8 @@ async def get_a2a_agent_card() -> Dict[str, Any]:
             "research and synthesizes 12-Archetype Widescreen PowerPoint (.pptx) decks, high-DPI "
             "SVG/PNG diagrams, and Counselor Workbooks with 2-Stage Visual Conformance verification."
         ),
-        "url": "http://clayberg.c.googlers.com:8085",
-        "version": "2.0.0",
+        "url": os.getenv("PUBLIC_BASE_URL", "http://localhost:8085"),
+        "version": "3.1.0",
         "protocolVersion": "1.0",
         "capabilities": {
             "streaming": True,
@@ -293,14 +303,29 @@ async def a2a_send_task(
     badge_name = req.metadata.get("badge_name", "First Aid")
     depth_mode = req.metadata.get("depth_mode", "Deep Dive / Camp School Deck")
 
-    # Also allow extracting badge_name from message parts
+    # Also allow extracting badge_name from message parts across all 144 official Merit Badges
     parts = req.message.get("parts", [])
+    sorted_catalog_names = sorted(
+        (
+            str(item.get("badge_name") or item.get("name"))
+            for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG
+            if item.get("badge_name") or item.get("name")
+        ),
+        key=len,
+        reverse=True,
+    )
     for part in parts:
-        text = part.get("text", "")
-        for candidate in ["First Aid", "Camping", "Citizenship in the Nation", "Cooking", "Personal Fitness", "Emergency Preparedness", "Environmental Science", "Communication", "Swimming", "Lifesaving", "Robotics", "Weather"]:
-            if candidate.lower() in text.lower():
+        text = str(part.get("text", "")).lower()
+        if not text:
+            continue
+        matched = False
+        for candidate in sorted_catalog_names:
+            if candidate.lower() in text:
                 badge_name = candidate
+                matched = True
                 break
+        if matched:
+            break
 
     result = await asyncio.to_thread(
         run_merit_badge_workflow,
@@ -337,7 +362,8 @@ async def a2a_send_task(
         ],
         "result": result,
     }
-    _A2A_TASKS[task_id] = task_record
+    with _A2A_TASKS_LOCK:
+        _A2A_TASKS[task_id] = task_record
     return task_record
 
 
@@ -346,9 +372,10 @@ async def a2a_get_task(
     task_id: str,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    if task_id not in _A2A_TASKS:
-        raise HTTPException(status_code=404, detail=f"Task {task_id} not found")
-    return _A2A_TASKS[task_id]
+    with _A2A_TASKS_LOCK:
+        if task_id not in _A2A_TASKS:
+            raise HTTPException(status_code=404, detail=f"Task {task_id} not found")
+        return _A2A_TASKS[task_id]
 
 
 @app.post("/a2a/tasks/{task_id}/cancel")
@@ -356,10 +383,11 @@ async def a2a_cancel_task(
     task_id: str,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    if task_id not in _A2A_TASKS:
-        raise HTTPException(status_code=404, detail=f"Task {task_id} not found")
-    _A2A_TASKS[task_id]["status"]["state"] = "canceled"
-    return _A2A_TASKS[task_id]
+    with _A2A_TASKS_LOCK:
+        if task_id not in _A2A_TASKS:
+            raise HTTPException(status_code=404, detail=f"Task {task_id} not found")
+        _A2A_TASKS[task_id]["status"]["state"] = "canceled"
+        return _A2A_TASKS[task_id]
 
 
 
@@ -569,12 +597,29 @@ async def api_run_workflow(
     )
     elapsed_ms = (time.perf_counter() - t0) * 1000.0
     finops = result.get("finops_cost_estimate") or {}
+    qa_rep = result.get("qa_report") or {}
+    is_cache_hit = bool(result.get("cache_hit", False))
     METRICS_COLLECTOR.record_workflow_run(
         latency_ms=elapsed_ms,
         tokens_used=int(finops.get("estimated_input_tokens", 0)) + int(finops.get("estimated_output_tokens", 0)),
         cost_usd=float(finops.get("estimated_cost_usd", 0.0)),
-        cache_hit=bool(result.get("cache_hit", False)),
+        cache_hit=is_cache_hit,
+        badge_name=req.badge_name,
+        audience_level=req.audience_level,
+        visual_style=str(req.beautification_tier or "BEAUTIFIED"),
+        qa_score=float(qa_rep.get("overall_score", 95.0)),
+        success=result.get("status") in ("SUCCESS", "REVIEW_WARNING"),
     )
+    for st_id, st_ms in (result.get("stage_latencies_ms") or {}).items():
+        try:
+            METRICS_COLLECTOR.record_stage_latency(
+                stage_id=str(st_id),
+                latency_ms=float(st_ms),
+                badge_name=req.badge_name,
+                cache_hit=is_cache_hit,
+            )
+        except Exception:
+            pass
     if result.get("status") not in ("SUCCESS", "REVIEW_WARNING"):
         return JSONResponse(status_code=400, content=result)
     result["counselor_info"] = counselor_info
@@ -616,6 +661,8 @@ async def api_stream_workflow(
     }
 
     async def event_generator():
+        t0 = time.perf_counter()
+        last_stage_ts = t0
         async for ev in stream_merit_badge_workflow_events(
             badge_name=badge_name,
             depth_mode=depth_mode,
@@ -625,11 +672,38 @@ async def api_stream_workflow(
             schedule_format=schedule_format,
             audience_level=audience_level,
         ):
-            if ev.get("event") == "workflow_complete" and ev.get("result"):
-                ev["result"]["counselor_info"] = counselor_info
+            now_ts = time.perf_counter()
+            if ev.get("event") == "stage_complete" and ev.get("stage"):
+                st_dur = (now_ts - last_stage_ts) * 1000.0
+                last_stage_ts = now_ts
+                METRICS_COLLECTOR.record_stage_latency(
+                    stage_id=f"stage_{ev.get('stage')}",
+                    latency_ms=st_dur,
+                    badge_name=badge_name,
+                    cache_hit=False,
+                )
+            elif ev.get("event") == "workflow_complete" and ev.get("result"):
+                res_obj = ev["result"]
+                elapsed_ms = (now_ts - t0) * 1000.0
+                finops = res_obj.get("finops_cost_estimate") or {}
+                qa_rep = res_obj.get("qa_report") or {}
+                is_cache_hit = bool(res_obj.get("cache_hit", False))
+                METRICS_COLLECTOR.record_workflow_run(
+                    latency_ms=elapsed_ms,
+                    tokens_used=int(finops.get("estimated_input_tokens", 0))
+                    + int(finops.get("estimated_output_tokens", 0)),
+                    cost_usd=float(finops.get("estimated_cost_usd", 0.0)),
+                    cache_hit=is_cache_hit,
+                    badge_name=badge_name,
+                    audience_level=audience_level,
+                    visual_style=str(beautification_tier or "BEAUTIFIED"),
+                    qa_score=float(qa_rep.get("overall_score", 95.0)),
+                    success=res_obj.get("status") in ("SUCCESS", "REVIEW_WARNING"),
+                )
+                res_obj["counselor_info"] = counselor_info
                 if custom_troop_logo_path:
-                    ev["result"]["custom_troop_logo_url"] = _to_web_asset_url(custom_troop_logo_path)
-                ev["result"] = _decorate_result_urls(ev["result"])
+                    res_obj["custom_troop_logo_url"] = _to_web_asset_url(custom_troop_logo_path)
+                ev["result"] = _decorate_result_urls(res_obj)
             yield f"data: {json.dumps(ev)}\n\n"
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
@@ -1131,16 +1205,15 @@ async def health_liveness_probe() -> Dict[str, Any]:
 @app.get("/readiness")
 async def readiness_deep_probe() -> Dict[str, Any]:
     """Deep dependency readiness check verifying SQLite session store, catalog, and FinOps policy."""
-    from src.memory.session_store import PersistentSessionStore
+    from src.memory.session_store import _default_store
 
     checks: Dict[str, Any] = {}
     overall_ready = True
 
     # 1. SQLite session store check
     try:
-        store = PersistentSessionStore()
-        store.save_session_sync("readiness_probe", "First Aid", {}, [{"probe_ts": time.time()}])
-        loaded = store.get_session_sync("readiness_probe")
+        _default_store.save_session_sync("readiness_probe", "First Aid", {}, [{"probe_ts": time.time()}])
+        loaded = _default_store.get_session_sync("readiness_probe")
         checks["session_store"] = "READY" if loaded else "DEGRADED"
     except Exception as exc:
         checks["session_store"] = f"FAILED: {exc}"
@@ -1212,7 +1285,7 @@ async def submit_counselor_feedback(
                     "is_eagle_required": req.badge_name in EAGLE_REQUIRED_BADGES,
                     "requirement_count": max(1, int(req.requirement_count or 5)),
                     "session_id": req.session_id,
-                    "counselor_name": req.counselor_name,
+                    "counselor_name": "anonymous_counselor",
                 }
             )
             golden_dataset_size = int(promotion_result.get("total_golden_extensions", 0))
@@ -1223,7 +1296,7 @@ async def submit_counselor_feedback(
     sqlite_rec = _default_store.record_hitl_feedback_sync(
         badge_name=req.badge_name,
         session_id=req.session_id,
-        counselor_name=req.counselor_name,
+        counselor_name="anonymous_counselor",
         rating=req.rating,
         thumbs_up=req.thumbs_up,
         requirement_accuracy_verified=req.requirement_accuracy_verified,
@@ -1298,6 +1371,244 @@ async def api_refresh_us_senators(
         return {"status": "SUCCESS", "mode": "ON_DEMAND_STATE", "delegation": entry}
     summary = await asyncio.to_thread(refresh_all_100_us_senators_daily, force=force)
     return {"status": "SUCCESS", "mode": "DAILY_100_SENATORS_SWEEP", **summary}
+
+
+# ==============================================================================
+# 4. SUPER-USER ADMIN CONSOLE ENDPOINTS (`/api/v1/admin/*`)
+# ==============================================================================
+
+
+class AdminUnlockRequest(BaseModel):
+    token: str = Field("", description="Super-User Admin token or passphrase (`ADMIN_SUPERUSER_TOKEN`).")
+
+
+class AdminCatalogImageUpdateRequest(BaseModel):
+    badge_name: str = Field(..., description="Official Scouts BSA Merit Badge name.")
+    image_id: str = Field(..., description="Target catalog image_id or filename.")
+    caption: Optional[str] = Field(None, description="Updated instructional caption.")
+    title: Optional[str] = Field(None, description="Updated short display title.")
+    req_number: Optional[str] = Field(None, description="Updated requirement tag (e.g. '1', '3a', 'Overview').")
+    is_alternate: Optional[bool] = Field(None, description="True if alternate, False if primary default.")
+    alternate_rank: Optional[int] = Field(None, description="0 for primary, 1+ for alternate rank.")
+    discard: Optional[bool] = Field(None, description="True to hide/discard low-quality figure.")
+
+
+class AdminPromotePrimaryRequest(BaseModel):
+    badge_name: str = Field(..., description="Official Scouts BSA Merit Badge name.")
+    image_id: str = Field(..., description="Target catalog image_id to promote to Primary Default.")
+    req_number: Optional[str] = Field(None, description="Optional requirement number override.")
+
+
+class AdminRecaptionVisionRequest(BaseModel):
+    badge_name: str = Field(..., description="Official Scouts BSA Merit Badge name.")
+    image_id: str = Field(..., description="Target catalog image_id to re-caption with Gemini Vision.")
+    req_number: Optional[str] = Field(None, description="Optional requirement number context.")
+
+
+class AnonymousImageSwapTelemetryRequest(BaseModel):
+    badge_name: str = Field("First Aid", description="Merit Badge name (anonymous).")
+    req_number: str = Field("1", description="Requirement number.")
+    event_type: str = Field("counselor_visual_swap", description="Event type (`counselor_visual_swap`, `nano_regen`, etc.).")
+    from_image_id: str = Field("", description="Previous image ID.")
+    to_image_id: str = Field("", description="Selected image ID.")
+
+
+@app.get("/api/admin/session")
+@app.get("/api/v1/admin/session")
+async def api_admin_session_status(request: Request) -> Dict[str, Any]:
+    """Returns whether the current browser session is authorized for the Super-User Admin Console."""
+    status = check_admin_session_status(request)
+    return {
+        "status": "SUCCESS",
+        **status,
+    }
+
+
+@app.post("/api/admin/unlock")
+@app.post("/api/v1/admin/unlock")
+async def api_admin_unlock(req: AdminUnlockRequest, response: Response) -> Dict[str, Any]:
+    """Verifies the Super-User Admin passphrase/token and sets a signed HttpOnly session cookie."""
+    if not verify_admin_token_value(req.token):
+        raise HTTPException(
+            status_code=403,
+            detail="Invalid Super-User Admin token. Check ADMIN_SUPERUSER_TOKEN.",
+        )
+    signed_cookie = create_admin_session_cookie(role="superuser", ttl_seconds=86400)
+    response.set_cookie(
+        key=ADMIN_SESSION_COOKIE_NAME,
+        value=signed_cookie,
+        httponly=True,
+        samesite="lax",
+        max_age=86400,
+    )
+    return {
+        "status": "UNLOCKED",
+        "is_admin": True,
+        "auth_mode": "signed_cookie",
+        "role": "superuser",
+    }
+
+
+@app.post("/api/admin/lock")
+@app.post("/api/v1/admin/lock")
+async def api_admin_lock(response: Response) -> Dict[str, Any]:
+    """Locks the Super-User Admin Console for the current browser session."""
+    response.set_cookie(
+        key=ADMIN_SESSION_COOKIE_NAME,
+        value="locked",
+        httponly=True,
+        samesite="lax",
+        max_age=86400,
+    )
+    return {
+        "status": "LOCKED",
+        "is_admin": False,
+        "auth_mode": "explicitly_locked",
+        "role": "counselor",
+    }
+
+
+@app.get("/api/admin/catalog/images")
+@app.get("/api/v1/admin/catalog/images")
+async def api_admin_list_catalog_images(
+    badge_name: str = Query("First Aid"),
+    req_number: Optional[str] = Query(None),
+    source_type: Optional[str] = Query(None),
+    role: Optional[str] = Query(None),
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Lists all cached images, captions, and roles for a Merit Badge in the Admin Console."""
+    from src.agents.image_studio import admin_list_badge_catalog_images
+
+    return await asyncio.to_thread(
+        admin_list_badge_catalog_images,
+        badge_name=badge_name,
+        req_number=req_number,
+        source_type=source_type,
+        role=role,
+    )
+
+
+@app.patch("/api/admin/catalog/image")
+@app.patch("/api/v1/admin/catalog/image")
+async def api_admin_update_catalog_image(
+    req: AdminCatalogImageUpdateRequest,
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Updates caption, title, requirement tag, or role for a cached catalog image."""
+    from src.agents.image_studio import admin_update_catalog_image_metadata
+
+    updates = {
+        k: v
+        for k, v in req.model_dump().items()
+        if k not in ("badge_name", "image_id") and v is not None
+    }
+    res = await asyncio.to_thread(
+        admin_update_catalog_image_metadata,
+        badge_name=req.badge_name,
+        image_id=req.image_id,
+        updates=updates,
+    )
+    if res.get("status") != "SUCCESS":
+        return JSONResponse(status_code=400, content=res)
+    return res
+
+
+@app.post("/api/admin/catalog/promote-primary")
+@app.post("/api/v1/admin/catalog/promote-primary")
+async def api_admin_promote_catalog_primary(
+    req: AdminPromotePrimaryRequest,
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Promotes an Alternate visual to Primary Default for its requirement and demotes the prior Primary."""
+    from src.agents.image_studio import admin_promote_alternate_to_primary
+
+    res = await asyncio.to_thread(
+        admin_promote_alternate_to_primary,
+        badge_name=req.badge_name,
+        image_id=req.image_id,
+        req_number=req.req_number,
+    )
+    if res.get("status") != "SUCCESS":
+        return JSONResponse(status_code=400, content=res)
+    return res
+
+
+@app.post("/api/admin/catalog/recaption-vision")
+@app.post("/api/v1/admin/catalog/recaption-vision")
+async def api_admin_recaption_catalog_vision(
+    req: AdminRecaptionVisionRequest,
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Re-captions a cached catalog image using Gemini 2.5 Flash Vision."""
+    from src.agents.image_studio import admin_recaption_image_with_vision
+
+    res = await asyncio.to_thread(
+        admin_recaption_image_with_vision,
+        badge_name=req.badge_name,
+        image_id=req.image_id,
+        req_number=req.req_number,
+    )
+    if res.get("status") != "SUCCESS":
+        return JSONResponse(status_code=400, content=res)
+    return res
+
+
+@app.post("/api/admin/telemetry/image-swap")
+@app.post("/api/v1/admin/telemetry/image-swap")
+async def api_record_anonymous_image_swap(
+    req: AnonymousImageSwapTelemetryRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Records an anonymous slide visual swap event with zero Counselor PII."""
+    get_zero_pii_telemetry_store().record_image_swap(
+        badge_name=req.badge_name,
+        req_number=req.req_number,
+        event_type=req.event_type,
+        from_image_id=req.from_image_id,
+        to_image_id=req.to_image_id,
+    )
+    return {"status": "RECORDED", "zero_pii": True}
+
+
+@app.get("/api/admin/telemetry/summary")
+@app.get("/api/v1/admin/telemetry/summary")
+async def api_admin_telemetry_summary(
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Returns Zero-PII operational telemetry, bimodal latencies, badge popularity, and circuit breakers."""
+    sqlite_summary = await asyncio.to_thread(get_zero_pii_telemetry_store().get_telemetry_summary)
+    runtime_snap = METRICS_COLLECTOR.snapshot()
+    return {
+        "status": "SUCCESS",
+        "zero_pii_telemetry": sqlite_summary,
+        "runtime_metrics": runtime_snap,
+        "compliance_audit_events": get_compliance_audit_events(limit=25),
+    }
+
+
+@app.get("/api/admin/diagnostics/assets")
+@app.get("/api/v1/admin/diagnostics/assets")
+async def api_admin_diagnostics_assets(
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Returns the 144-Badge Asset Health Matrix (covers, emblems, pamphlet figures, Nano Banana heroes)."""
+    from src.agents.image_studio import admin_get_144_badge_asset_diagnostics
+
+    return await asyncio.to_thread(admin_get_144_badge_asset_diagnostics)
+
+
+@app.post("/api/admin/circuit-breakers/reset")
+@app.post("/api/v1/admin/circuit-breakers/reset")
+async def api_admin_reset_circuit_breakers(
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Resets all downstream circuit breakers back to CLOSED."""
+    states = reset_all_circuit_breakers()
+    return {
+        "status": "RESET",
+        "circuit_breakers": states,
+    }
 
 
 @app.get("/", response_class=HTMLResponse)

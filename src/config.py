@@ -17,6 +17,9 @@ GENERATED_DIAGRAMS_DIR = ASSETS_DIR / "diagrams"
 BADGE_IMAGE_CATALOG_DIR = ASSETS_DIR / "badge_image_catalog"
 GENERATED_DECKS_DIR = PROJECT_ROOT / "deliverables"
 LOCAL_CACHE_DIR = PROJECT_ROOT / ".cache"
+LOCAL_SQLITE_DB_PATH = os.environ.get(
+    "LOCAL_SQLITE_DB_PATH", str(PROJECT_ROOT / "scouts_bsa_sessions.db")
+)
 
 # Ensure directories exist
 GENERATED_DIAGRAMS_DIR.mkdir(parents=True, exist_ok=True)
@@ -29,56 +32,99 @@ LOCAL_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 # ==============================================================================
 
 SCOUTS_BSA_CONSTITUTION = """
-You are the official Scouts BSA Merit Badge Counselor Assistant AI.
-Your constitution and mandatory operating rules are:
-1. YOUTH PROTECTION & SAFETY FIRST: Every presentation must adhere strictly to the
-   BSA Guide to Safe Scouting and Scouter Code of Conduct (Two-Deep Leadership,
-   No One-on-One Contact, Buddy System). Never recommend or generate activities that
-   violate BSA safety rules (e.g., unauthorized tools, uncertified water activities).
-2. 100% SUB-REQUIREMENT COVERAGE & EXECUTION TRIAGE: Every single requirement and
-   sub-requirement (1a, 1b, 2a, 2b1, etc.) of the target merit badge must be
-   explicitly covered and classified into its execution mode:
+You are the Scouts BSA Merit Badge Counselor Assistant AI.
+Follow these operating rules on every request:
+1. YOUTH PROTECTION & SAFETY FIRST: Adhere to the BSA Guide to Safe Scouting and
+   Scouter Code of Conduct (Two-Deep Leadership, No One-on-One Contact, Buddy System).
+   Never recommend or generate activities that violate BSA safety rules.
+2. 100% SUB-REQUIREMENT COVERAGE & EXECUTION TRIAGE: Cover every requirement and
+   sub-requirement (1a, 1b, 2a, 2b1, etc.) of the target merit badge and classify each
+   into its execution mode:
    - IN_CLASS_DISCUSSION (Explain / Discuss / Describe)
    - HANDS_ON_SKILL_STATION (Demonstrate / Show / Practice using BSA EDGE Method)
    - PREREQUISITE_CAMPOUT_HOME (Campout / Home Log / Civic Visit / Bring Proof)
-3. 12-ARCHETYPE VISUAL DIVERSITY & 7 GOLDEN RULES OF COPYWRITING:
-   - Never emit a deck of identical bullet slides. Select from the 12 semantic
-     slide archetypes (Split Visual Explainer, 4-Card Step-by-Step Procedure,
-     2-Column Differential Comparison, Decision Tree Flow, Spatial Field Diagram,
-     Worked Example Template, Gear Checklist Grid, Hands-On Practice Station,
-     Socratic Checkpoint Quiz, Requirements Triage Matrix, Section Divider, Cover Hero).
+3. 12-ARCHETYPE VISUAL DIVERSITY & COPYWRITING RULES:
+   - Select from the 12 slide archetypes (Split Visual Explainer, 4-Card Step-by-Step
+     Procedure, 2-Column Differential Comparison, Decision Tree Flow, Spatial Field Diagram,
+     Worked Example Template, Gear Checklist Grid, Hands-On Practice Station, Socratic
+     Checkpoint Quiz, Requirements Triage Matrix, Requirement Intro / Section Divider, Cover Hero).
    - Never truncate requirement text with ellipses ('...').
    - Never embed literal bullet characters ('•', '-', '*') inside text strings.
-   - Start every card/point with a 2-4 word bold anchor phrase.
-   - Enforce <= 7 points per slide, <= 8 paragraphs per text frame, and zero AABB shape overlaps.
+   - Start every card or point with a 2-4 word bold anchor phrase.
+   - Keep <= 7 points per slide, <= 8 paragraphs per text frame, and zero AABB shape overlaps.
 4. BRAND & WCAG CONTRAST COMPLIANCE: Use official Scouts BSA colors (Navy Blue #003F87,
    Action Blue #005AE0, Warm Olive #4B5320, Eagle Red #CE1126, Eagle Gold #F4C430) with
-   >= 4.5:1 WCAG contrast ratio and >= 13pt minimum font floor.
-5. SOURCE TRACEABILITY & SPEAKER CADENCE: Reference official BSA Downloadable Pamphlets,
+   >= 4.5:1 WCAG contrast ratio and >= 12.0pt minimum font floor.
+5. SOURCE TRACEABILITY & SPEAKER CADENCE: Reference official BSA Merit Badge Pamphlets,
    scouting.org requirement hubs, and Digital Resource Guides (DRGs). Format speaker notes
-   with [SAY], [DEMONSTRATE], and [ASK SCOUTS] tags using conversational breath units
-   (<= 16 words per clause, zero em-dashes).
+   with [SAY], [DEMONSTRATE], and [ASK SCOUTS] cues in natural counselor prose (zero em-dashes).
 """
+
+_JSON_FILE_CACHE: Dict[str, tuple[int, Dict[str, Any]]] = {}
+_PROMPT_TEXT_CACHE: Dict[str, tuple[int, str, str]] = {}
+
+
+def _read_cached_json(path: Path) -> Dict[str, Any]:
+    """Reads and caches a JSON dictionary keyed by `(path, st_mtime_ns)`."""
+    import json
+
+    if not path.exists():
+        return {}
+    try:
+        stat = path.stat()
+        key = str(path)
+        cached = _JSON_FILE_CACHE.get(key)
+        if cached and cached[0] == stat.st_mtime_ns:
+            return cached[1]
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            _JSON_FILE_CACHE[key] = (stat.st_mtime_ns, data)
+            return data
+    except Exception:
+        pass
+    return {}
+
+
+def _read_cached_prompt_file(path: Path) -> tuple[str, str]:
+    """Returns `(text_content, sha256_prefix16)` cached by `(path, st_mtime_ns)`."""
+    import hashlib
+
+    if not path.exists():
+        return "", ""
+    try:
+        stat = path.stat()
+        key = str(path)
+        cached = _PROMPT_TEXT_CACHE.get(key)
+        if cached and cached[0] == stat.st_mtime_ns:
+            return cached[1], cached[2]
+        raw_bytes = path.read_bytes()
+        text = raw_bytes.decode("utf-8")
+        digest = hashlib.sha256(raw_bytes).hexdigest()[:16]
+        _PROMPT_TEXT_CACHE[key] = (stat.st_mtime_ns, text, digest)
+        return text, digest
+    except Exception:
+        return "", ""
 
 
 def load_prompt_manifest() -> Dict[str, object]:
-    """Loads the versioned prompt manifest (`prompts/manifest.json`) with SHA-256 integrity hashes."""
-    import hashlib
-    import json
+    """Loads the versioned prompt manifest (`prompts/manifest.json`) with cached SHA-256 integrity hashes."""
+    import copy
 
     manifest_path = PROMPTS_DIR / "manifest.json"
-    manifest: Dict[str, object] = {"schema_version": "1.0.0", "prompts": {}}
-    if manifest_path.exists():
-        try:
-            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-        except Exception:
-            pass
+    raw_manifest = _read_cached_json(manifest_path)
+    manifest: Dict[str, object] = (
+        copy.deepcopy(raw_manifest)
+        if raw_manifest
+        else {"schema_version": "1.0.0", "prompts": {}}
+    )
     prompts_meta = manifest.get("prompts", {})
     if isinstance(prompts_meta, dict):
         for fname, entry in prompts_meta.items():
             fpath = PROMPTS_DIR / fname
             if isinstance(entry, dict) and fpath.exists():
-                entry["sha256"] = hashlib.sha256(fpath.read_bytes()).hexdigest()[:16]
+                _, sha16 = _read_cached_prompt_file(fpath)
+                if sha16:
+                    entry["sha256"] = sha16
     return manifest
 
 
@@ -88,8 +134,8 @@ def load_prompt(
     variant: str = "control",
 ) -> str:
     """Loads an externalized Markdown prompt from `prompts/`, supporting A/B variant selection."""
-    manifest = load_prompt_manifest()
-    prompts_meta = manifest.get("prompts", {})
+    raw_manifest = _read_cached_json(PROMPTS_DIR / "manifest.json")
+    prompts_meta = raw_manifest.get("prompts", {}) if isinstance(raw_manifest, dict) else {}
     resolved_filename = prompt_filename
     if isinstance(prompts_meta, dict) and prompt_filename in prompts_meta:
         entry = prompts_meta[prompt_filename]
@@ -100,7 +146,9 @@ def load_prompt(
 
     prompt_path = PROMPTS_DIR / resolved_filename
     if prompt_path.exists():
-        return prompt_path.read_text(encoding="utf-8")
+        text, _ = _read_cached_prompt_file(prompt_path)
+        if text:
+            return text
     return fallback or SCOUTS_BSA_CONSTITUTION
 
 
@@ -262,7 +310,7 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
     ("Animal Science", "Nature & Environment", False),
     ("Animation", "Arts, Crafts & Hobbies", False),
     ("Archaeology", "STEM & Science", False),
-    ("Archery", "Aquatics & Sports", True if False else False),
+    ("Archery", "Aquatics & Sports", False),
     ("Architecture", "STEM & Science", False),
     ("Art", "Arts, Crafts & Hobbies", False),
     ("Artificial Intelligence", "STEM & Science", False),
@@ -382,15 +430,48 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
 ]
 
 
-def _badge_slug(name: str) -> str:
-    return (
-        name.lower()
+def badge_url_slug(name: str) -> str:
+    """Returns a hyphenated URL slug for a Merit Badge (e.g., `'first-aid'`)."""
+    import re
+
+    cleaned = (
+        str(name or "")
+        .strip()
+        .lower()
         .replace(",", "")
         .replace("&", "and")
-        .replace(" ", "-")
-        .replace("--", "-")
-        .strip("-")
     )
+    return re.sub(r"[^a-z0-9]+", "-", cleaned).strip("-")
+
+
+def badge_file_slug(name: str) -> str:
+    """Returns an underscored filesystem slug for a Merit Badge (e.g., `'first_aid'`)."""
+    import re
+
+    return re.sub(r"[^a-z0-9]+", "_", str(name or "").strip().lower()).strip("_")
+
+
+def _badge_slug(name: str) -> str:
+    """Backward-compatible alias for `badge_url_slug`."""
+    return badge_url_slug(name)
+
+
+def to_web_asset_url(fs_path: Optional[str]) -> Optional[str]:
+    """Converts a local filesystem image path under `assets/` into a web-servable `/assets/...` URL."""
+    if not fs_path:
+        return None
+    p = Path(fs_path)
+    if not p.exists():
+        return None
+    try:
+        rel = p.resolve().relative_to(ASSETS_DIR.resolve())
+        return f"/assets/{rel.as_posix()}"
+    except Exception:
+        pass
+    s = str(fs_path).replace("\\", "/")
+    if "/assets/" in s:
+        return "/assets/" + s.split("/assets/", 1)[1]
+    return f"/assets/diagrams/{p.name}"
 
 
 OFFICIAL_BSA_MERIT_BADGES_CATALOG: List[Dict[str, object]] = [
@@ -398,9 +479,9 @@ OFFICIAL_BSA_MERIT_BADGES_CATALOG: List[Dict[str, object]] = [
         "badge_name": name,
         "category": category,
         "is_eagle_required": is_eagle,
-        "slug": _badge_slug(name),
-        "pamphlet_pdf_url": f"https://www.scouting.org/merit-badges/{_badge_slug(name)}/",
-        "drg_url": f"https://www.scouting.org/merit-badges/{_badge_slug(name)}/",
+        "slug": badge_url_slug(name),
+        "pamphlet_pdf_url": f"https://www.scouting.org/merit-badges/{badge_url_slug(name)}/",
+        "drg_url": f"https://www.scouting.org/merit-badges/{badge_url_slug(name)}/",
     }
     for name, category, is_eagle in sorted(
         _RAW_MERIT_BADGE_CATALOG, key=lambda x: x[0].lower()
@@ -426,22 +507,29 @@ def get_merit_badge_metadata(badge_name: str) -> Optional[Dict[str, object]]:
 
 def get_badge_cover_and_patch_paths(badge_name: str) -> Dict[str, Optional[str]]:
     """Resolves local cached paths for a Merit Badge's official patch emblem and pamphlet cover."""
-    slug_underscore = "".join(ch if ch.isalnum() else "_" for ch in (badge_name or "").strip().lower()).strip("_")
-    slug_hyphen = _badge_slug(badge_name or "")
-    patch_candidates = [
-        ASSETS_DIR / "badge_emblems" / f"{slug_underscore}.png",
-        ASSETS_DIR / "badge_emblems" / f"{slug_underscore}_patch.png",
-        ASSETS_DIR / "badge_emblems" / f"{slug_hyphen}.png",
-        ASSETS_DIR / "diagrams" / f"{slug_underscore}_patch.png",
-    ]
-    cover_candidates = [
-        ASSETS_DIR / "pamphlet_covers" / f"{slug_underscore}_cover.png",
-        ASSETS_DIR / "pamphlet_covers" / f"{slug_hyphen}_cover.png",
-        ASSETS_DIR / "diagrams" / f"{slug_underscore}_cover.png",
-    ]
-    patch_path = next((str(p) for p in patch_candidates if p.exists()), None)
-    cover_path = next((str(p) for p in cover_candidates if p.exists()), None)
-    return {"patch_path": patch_path, "cover_path": cover_path}
+    try:
+        from src.tools.pamphlet_extractor import (
+            get_badge_cover_and_patch_paths as _extractor_cover_and_patch,
+        )
+
+        return _extractor_cover_and_patch(badge_name)
+    except Exception:
+        slug_underscore = badge_file_slug(badge_name or "")
+        slug_hyphen = badge_url_slug(badge_name or "")
+        patch_candidates = [
+            ASSETS_DIR / "badge_emblems" / f"{slug_underscore}.png",
+            ASSETS_DIR / "badge_emblems" / f"{slug_underscore}_patch.png",
+            ASSETS_DIR / "badge_emblems" / f"{slug_hyphen}.png",
+            ASSETS_DIR / "diagrams" / f"{slug_underscore}_patch.png",
+        ]
+        cover_candidates = [
+            ASSETS_DIR / "pamphlet_covers" / f"{slug_underscore}_cover.png",
+            ASSETS_DIR / "pamphlet_covers" / f"{slug_hyphen}_cover.png",
+            ASSETS_DIR / "diagrams" / f"{slug_underscore}_cover.png",
+        ]
+        patch_path = next((str(p) for p in patch_candidates if p.exists()), None)
+        cover_path = next((str(p) for p in cover_candidates if p.exists()), None)
+        return {"patch_path": patch_path, "cover_path": cover_path}
 
 
 # ==============================================================================
@@ -494,16 +582,11 @@ def select_model_for_task(agent_role: str, task_complexity: str = "auto") -> str
     Returns:
         str: Resolved model identifier (e.g., 'gemini-2.5-flash' or 'gemini-2.5-pro').
     """
-    import json
-
     policy_file = PROJECT_ROOT / "config" / "finops_model_policy.json"
-    finops_models: Dict[str, Any] = {}
-    if policy_file.exists():
-        try:
-            finops_data = json.loads(policy_file.read_text(encoding="utf-8"))
-            finops_models = finops_data.get("models", {})
-        except Exception:
-            finops_models = {}
+    finops_data = _read_cached_json(policy_file)
+    finops_models: Dict[str, Any] = (
+        finops_data.get("models", {}) if isinstance(finops_data.get("models"), dict) else {}
+    )
 
     if task_complexity in ("fast", "low"):
         return str(

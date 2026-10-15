@@ -32,7 +32,7 @@ try:
 except ImportError:  # pragma: no cover
     PdfReader = None  # type: ignore
 
-from src.config import ASSETS_DIR
+from src.config import ASSETS_DIR, _read_cached_json, badge_file_slug, badge_url_slug
 
 PAMPHLETS_DIR = ASSETS_DIR / "pamphlets"
 PAMPHLET_IMAGES_DIR = ASSETS_DIR / "pamphlet_images"
@@ -43,14 +43,15 @@ PAMPHLET_IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 WEB_IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
 _PAMPHLET_INDEX_CACHE: Dict[str, Dict[str, Any]] = {}
+_RAW_FILE_MD5_CACHE: Dict[Tuple[str, int, int], str] = {}
 
 
 def _badge_slug(badge_name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "_", badge_name.strip().lower()).strip("_")
+    return badge_file_slug(badge_name)
 
 
 def _badge_url_slug(badge_name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", badge_name.strip().lower()).strip("-")
+    return badge_url_slug(badge_name)
 
 
 def ensure_official_pamphlet_pdf(badge_name: str) -> Tuple[Optional[Path], str]:
@@ -1640,14 +1641,21 @@ def _build_sub_requirement_slides(
 
 
 def _raw_file_md5(path_obj: Optional[Any]) -> str:
-    """Returns MD5 hex digest of an image file on disk (or empty string if missing)."""
+    """Returns MD5 hex digest of an image file on disk (cached by path, mtime_ns, and size)."""
     if not path_obj:
         return ""
     try:
         p = Path(str(path_obj))
         if not p.exists() or not p.is_file():
             return ""
-        return hashlib.md5(p.read_bytes()).hexdigest()
+        st = p.stat()
+        key = (str(p.resolve()), st.st_mtime_ns, st.st_size)
+        cached = _RAW_FILE_MD5_CACHE.get(key)
+        if cached is not None:
+            return cached
+        digest = hashlib.md5(p.read_bytes()).hexdigest()
+        _RAW_FILE_MD5_CACHE[key] = digest
+        return digest
     except Exception:
         return ""
 
@@ -2062,15 +2070,11 @@ def decompose_requirement_into_topic_slides(
     topic_vis_path = ASSETS_DIR / "ai_illustrations" / topic_vis_fname
     nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
     topic_vis_caption = base_title
-    if nano_cat_path.exists():
-        try:
-            nano_cat = json.loads(nano_cat_path.read_text(encoding="utf-8"))
-            if isinstance(nano_cat, dict) and topic_vis_fname in nano_cat:
-                topic_vis_caption = strip_pamphlet_and_req_caption_prefixes(
-                    str(nano_cat[topic_vis_fname].get("caption") or base_title), badge_name
-                )
-        except Exception:
-            pass
+    nano_cat = _read_cached_json(nano_cat_path)
+    if isinstance(nano_cat, dict) and topic_vis_fname in nano_cat:
+        topic_vis_caption = strip_pamphlet_and_req_caption_prefixes(
+            str(nano_cat[topic_vis_fname].get("caption") or base_title), badge_name
+        )
 
     # A. Sub-Requirement Deep-Dive Slides (Explain Phase)
     if sub_reqs:

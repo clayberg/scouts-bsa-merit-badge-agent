@@ -28,6 +28,7 @@ from pptx.util import Inches, Pt
 from pydantic import BaseModel, Field
 
 from src.config import GENERATED_DIAGRAMS_DIR, ScoutsBSAPalette, is_eagle_required
+from src.schemas import CounselorTitleSlideInfo
 
 
 # ==============================================================================
@@ -75,16 +76,6 @@ class SlideSpec(BaseModel):
     original_archetype: str = Field("SPLIT_VISUAL_EXPLAINER", description="Original slide archetype before any override.")
     available_images: List[Dict[str, Any]] = Field(default_factory=list, description="Cached/available images for this slide or requirement.")
     full_bullet_points: Optional[List[str]] = Field(None, description="Complete list of bullet points preserved when split layout caps visible cards.")
-
-
-class CounselorTitleSlideInfo(BaseModel):
-    """Counselor contact and troop customization for the presentation title slide."""
-    counselor_name: str = Field(..., description="Full name of the Merit Badge Counselor.")
-    troop_affiliation: str = Field(..., description="Troop number and council (e.g., 'Troop 101').")
-    location_or_zip: Optional[str] = Field(None, description="Optional City, State or 5-digit ZIP code for local grounding.")
-    email_address: Optional[str] = Field(None, description="Optional contact email address.")
-    phone_number: Optional[str] = Field(None, description="Optional contact phone number.")
-    custom_troop_logo_path: Optional[str] = Field(None, description="Path to custom Troop Logo PNG/JPG.")
 
 
 class PowerPointBuildRequest(BaseModel):
@@ -636,8 +627,20 @@ def _set_paragraph_runs(
 # DISTINCT PER-SLIDE VISUAL ASSET DEDUPLICATOR
 # ==============================================================================
 
+_FILE_SHA256_CACHE: Dict[Tuple[str, int, int], str] = {}
+
+
 def _file_sha256(path: str) -> str:
-    """Computes SHA-256 digest of an image file on disk."""
+    """Computes SHA-256 digest of an image file on disk (cached by path, mtime_ns, and size)."""
+    try:
+        abs_p = os.path.abspath(path)
+        st = os.stat(abs_p)
+        key = (abs_p, st.st_mtime_ns, st.st_size)
+        cached = _FILE_SHA256_CACHE.get(key)
+        if cached is not None:
+            return cached
+    except OSError:
+        key = None
     h = hashlib.sha256()
     with open(path, "rb") as f:
         while True:
@@ -645,7 +648,10 @@ def _file_sha256(path: str) -> str:
             if not chunk:
                 break
             h.update(chunk)
-    return h.hexdigest()
+    digest = h.hexdigest()
+    if key is not None:
+        _FILE_SHA256_CACHE[key] = digest
+    return digest
 
 
 def _ensure_unique_image_path(
@@ -1110,6 +1116,8 @@ def _render_right_visual_card(
     except Exception:
         pass
 
+    from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
+
     raw_cap = _clean_text(slide_spec.visual_caption) or _clean_text(slide_spec.title)
     for prefix_rm in (
         "🍌 Hero Illustration: ",
@@ -1122,43 +1130,7 @@ def _render_right_visual_card(
     ):
         if raw_cap.startswith(prefix_rm):
             raw_cap = raw_cap[len(prefix_rm) :].strip()
-    raw_cap = re.sub(
-        r"^(?:Official\s+(?:BSA\s+|Scouting\s+America\s+)?[^—\-:]{2,45}?\s*Pamphlet\s+(?:Figure|Reference|Visual|Diagram)\s*[—\-:]\s*)",
-        "",
-        raw_cap,
-        flags=re.IGNORECASE,
-    ).strip()
-    raw_cap = re.sub(
-        r"^[^—\-:]{2,55}?\s*\(\s*Req\.?\s*[0-9a-zA-Z().\-]+\s*\)\s*[—\-:]\s*(?:Field\s*&\s*handbook\s+overview\s+illustration|Four-part\s+instructional\s+visual\s+plate)\s*[—\-:]\s*",
-        "",
-        raw_cap,
-        flags=re.IGNORECASE,
-    ).strip()
-    raw_cap = re.sub(
-        r"^[^—\-:]{2,40}?\s+(?:Pamphlet|Visual|Sub-Requirement)\s+Reference\s*[—\-:]\s*",
-        "",
-        raw_cap,
-        flags=re.IGNORECASE,
-    ).strip()
-    raw_cap = re.sub(
-        r"^(?:Requirement|Req\.?)\s+[0-9a-zA-Z().\-]+\s*[:—\-]\s*",
-        "",
-        raw_cap,
-        flags=re.IGNORECASE,
-    ).strip()
-    m_opt_a_cap = re.match(
-        r"^(?:Four-panel\s+.+?\s+instructional\s+field\s+visual\s+illustrating\s+|.+?\s+handbook\s+illustration\s+depicting\s+)(.+)$",
-        raw_cap,
-        flags=re.IGNORECASE,
-    )
-    if m_opt_a_cap:
-        raw_cap = m_opt_a_cap.group(1).strip()
-        if ": " in raw_cap:
-            h_part, b_part = raw_cap.split(": ", 1)
-            if len(h_part) <= 50 and len(b_part) >= 24:
-                raw_cap = b_part.strip()
-        if raw_cap and raw_cap[0].islower():
-            raw_cap = raw_cap[0].upper() + raw_cap[1:]
+    raw_cap = strip_pamphlet_and_req_caption_prefixes(raw_cap)
 
     cap_box = slide.shapes.add_textbox(
         Inches(7.14),

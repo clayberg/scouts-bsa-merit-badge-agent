@@ -131,7 +131,11 @@ When **Slide Deck Preview** (Tab 1) is active, you have three fast ways to move 
 - Directly above the 16:9 slide canvas, the **JUMP TO:** bar lists clickable pills for **Cover**, **Overview**, every requirement (**Req 1**, **Req 2a**, **Req 2b**, ...), and **Sources**.
 - Clicking any requirement pill jumps straight to the introductory slide for that requirement.
 
-### 3. Presenting Fullscreen & Keyboard Shortcuts
+### 3. Presenting Fullscreen, Easy Slide Image Switcher & Keyboard Shortcuts
+- **Easy Slide Image Switcher (On-Stage Visual Pill & Popover)**: Look at the source pill above the image on the right side of the 16:9 slide stage:
+  - When a slide has a single visual (such as a Requirement Intro slide with one Nano Banana hero illustration), the pill shows a static label (`🍌 NANO BANANA AI ILLUSTRATION`).
+  - When a slide has multiple visual choices (such as the primary pamphlet figure plus up to 2 Gemini Vision-verified BSA pamphlet alternates for that requirement, or custom images you uploaded for that slide), the pill shows **`◀`** and **`▶`** arrows and a **`(1/3) ▾`** counter.
+  - Click **`◀`** or **`▶`** to switch between the slide's image options in one click, or click **`(1/3) ▾`** to open a popover showing each option's thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`), and Vision-verified caption. Picking any option updates the slide image and its caption right away and rebuilds your `.pptx` file in the background at `$0.00` cost. You can also click **`+ Upload / Add Custom Image for This Slide...`** at the bottom of the popover to open the 4-Tab Image Studio.
 - Click **🖥️ Present Fullscreen** in the toolbar above the slide stage (or press the **`F`** key on your keyboard) to expand the 16:9 slide canvas across your entire screen or classroom projector.
 - While in fullscreen mode, a floating control bar at the bottom lets you click **◀ Prev**, **Next ▶**, or **✕ Exit Fullscreen** (or press **`Esc`**).
 - **Keyboard Navigation**: Use your **`←` Left Arrow** and **`→` Right Arrow** keys anytime to step backward and forward through the deck.
@@ -173,7 +177,7 @@ Lets you change the layout, colors, or illustration on the active slide and auto
 | **3. Brand Palette** | • *Scouts Navy & Eagle Gold*<br/>• *Outdoor Olive & Forest Green*<br/>• *Eagle Crimson & Navy*<br/>• *Executive Slate & Action Blue* | Updates the color scheme of the header bar and card borders on the active slide. |
 | **4. Right-Side Graphic** | • *Keep Current Slide Graphic*<br/>• *Restore Original Slide Graphic*<br/>• *🍌 Nano Banana Hero Graphic (or EDGE Concept Map)*<br/>• *None (Remove Graphic & Expand Text to Full Width)* | Controls the right-hand picture. Choosing **None** removes the picture and expands your teaching cards across the full width of the slide; choosing **Restore Original Slide Graphic** brings back the default diagram or pamphlet figure. |
 | **✨ Apply to Slide** | Primary action button | Applies your selected Layout, Card Style, Brand Palette, and Right-Side Graphic to the slide and updates the `.pptx` download. |
-| **🖼️ Quick-Switch Slide Image** | Dropdown list + side-by-side **`◀`** and **`▶`** buttons | Lets you step through all images already saved for this Merit Badge and swaps the slide graphic immediately. |
+| **🖼️ Quick-Switch Slide Image** | Dropdown list + side-by-side **`◀`** and **`▶`** buttons | Complements the on-stage **Easy Slide Image Switcher** by letting you remove the graphic (`🚫 None` for full-width text) or step through every image saved across the entire Merit Badge catalog at `$0.00` cost. |
 
 ### Using the 4-Tab Popup Image Studio (`🖼️ Manage & Add Slide Images`)
 Click **🖼️ Manage & Add Slide Images (Catalog / Web / AI)** in the upper-right corner of the **Customize Slide & Image Studio** bar to open the popup Image Studio window:

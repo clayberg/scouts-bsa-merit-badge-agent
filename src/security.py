@@ -12,6 +12,7 @@ Supports two operating modes controlled by `AUTH_REQUIRED` (or `AUTH_MODE`):
 """
 
 import base64
+import hashlib
 import hmac
 import json
 import os
@@ -177,3 +178,157 @@ GLOBAL_RATE_LIMITER = TokenBucketRateLimiter(
     requests_per_minute=int(os.environ.get("BSA_RATE_LIMIT_RPM", "120")),
     burst_capacity=int(os.environ.get("BSA_RATE_LIMIT_BURST", "40")),
 )
+
+ADMIN_SESSION_COOKIE_NAME = "bsa_admin_session"
+
+
+def _get_admin_secret_token() -> str:
+    """Returns the configured ADMIN_SUPERUSER_TOKEN for Super-User Admin Console verification."""
+    env_val = os.environ.get("ADMIN_SUPERUSER_TOKEN", "").strip()
+    if env_val:
+        return env_val
+    return get_secret("ADMIN_SUPERUSER_TOKEN", default="scouts-bsa-admin-superuser") or "scouts-bsa-admin-superuser"
+
+
+def verify_admin_token_value(candidate: str) -> bool:
+    """Verifies a candidate admin token/passphrase in constant time."""
+    if not candidate or not str(candidate).strip():
+        return False
+    expected = _get_admin_secret_token().encode("utf-8")
+    provided = str(candidate).strip().encode("utf-8")
+    return hmac.compare_digest(provided, expected)
+
+
+def create_admin_session_cookie(role: str = "superuser", ttl_seconds: int = 86400) -> str:
+    """Creates an HMAC-SHA256 signed session cookie token for the Admin Console."""
+    payload = {
+        "role": role,
+        "iat": int(time.time()),
+        "exp": int(time.time()) + max(60, int(ttl_seconds)),
+    }
+    payload_bytes = json.dumps(payload, separators=(",", ":"), sort_keys=True).encode("utf-8")
+    payload_b64 = base64.urlsafe_b64encode(payload_bytes).decode("ascii").rstrip("=")
+    secret = _get_admin_secret_token().encode("utf-8")
+    sig = hmac.new(secret, payload_b64.encode("ascii"), hashlib.sha256).digest()
+    sig_b64 = base64.urlsafe_b64encode(sig).decode("ascii").rstrip("=")
+    return f"{payload_b64}.{sig_b64}"
+
+
+def verify_admin_session_cookie(cookie_val: Optional[str]) -> Optional[Dict[str, Any]]:
+    """Verifies an HMAC-SHA256 signed Admin Console cookie."""
+    if not cookie_val or "." not in cookie_val:
+        return None
+    payload_b64, _, sig_b64 = cookie_val.strip().partition(".")
+    if not payload_b64 or not sig_b64:
+        return None
+    secret = _get_admin_secret_token().encode("utf-8")
+    expected_sig = hmac.new(secret, payload_b64.encode("ascii"), hashlib.sha256).digest()
+    expected_sig_b64 = base64.urlsafe_b64encode(expected_sig).decode("ascii").rstrip("=")
+    if not hmac.compare_digest(sig_b64.encode("ascii"), expected_sig_b64.encode("ascii")):
+        return None
+    try:
+        padded = payload_b64 + "=" * (-len(payload_b64) % 4)
+        payload = json.loads(base64.urlsafe_b64decode(padded.encode("ascii")).decode("utf-8"))
+        if not isinstance(payload, dict):
+            return None
+        if float(payload.get("exp", 0)) < time.time():
+            return None
+        return payload
+    except Exception:
+        return None
+
+
+def check_admin_session_status(request: Request) -> Dict[str, Any]:
+    """Determines whether the current request is authorized for the Super-User Admin Console."""
+    # 1. Explicit X-Admin-Token header
+    header_token = request.headers.get("X-Admin-Token", "").strip()
+    if header_token and verify_admin_token_value(header_token):
+        return {
+            "is_admin": True,
+            "auth_mode": "admin_token_header",
+            "role": "superuser",
+        }
+
+    # 2. Explicit Authorization: Bearer <ADMIN_SUPERUSER_TOKEN>
+    auth_header = request.headers.get("Authorization", "").strip()
+    if auth_header.lower().startswith("bearer "):
+        bearer_val = auth_header[7:].strip()
+        if bearer_val and verify_admin_token_value(bearer_val):
+            return {
+                "is_admin": True,
+                "auth_mode": "admin_bearer_token",
+                "role": "superuser",
+            }
+
+    # 3. Signed HttpOnly session cookie (or explicit "locked" marker)
+    cookie_val = request.cookies.get(ADMIN_SESSION_COOKIE_NAME)
+    if cookie_val == "locked":
+        return {
+            "is_admin": False,
+            "auth_mode": "explicitly_locked",
+            "role": "counselor",
+        }
+    cookie_claims = verify_admin_session_cookie(cookie_val)
+    if cookie_claims is not None:
+        return {
+            "is_admin": True,
+            "auth_mode": "signed_cookie",
+            "role": str(cookie_claims.get("role", "superuser")),
+        }
+
+    # 4. Google Cloud IAP header matching ADMIN_ALLOWED_EMAILS env var
+    iap_email = request.headers.get("X-Goog-Authenticated-User-Email", "").strip()
+    if iap_email:
+        if ":" in iap_email:
+            iap_email = iap_email.split(":", 1)[1].strip()
+        allowed_raw = os.environ.get("ADMIN_ALLOWED_EMAILS", "")
+        allowed_emails = {
+            e.strip().lower() for e in allowed_raw.split(",") if e.strip()
+        }
+        if iap_email.lower() in allowed_emails:
+            return {
+                "is_admin": True,
+                "auth_mode": "cloud_iap_allowlist",
+                "role": "superuser",
+            }
+
+    # 5. Local workstation auto-unlock when not running on Cloud Run (`K_SERVICE` unset)
+    is_cloud_run = bool(os.environ.get("K_SERVICE", "").strip())
+    local_auto_unlock = os.environ.get("ADMIN_LOCAL_AUTO_UNLOCK", "true").strip().lower() in (
+        "true",
+        "1",
+        "yes",
+    )
+    if not is_cloud_run and local_auto_unlock:
+        return {
+            "is_admin": True,
+            "auth_mode": "local_workstation_auto",
+            "role": "superuser",
+        }
+
+    return {
+        "is_admin": False,
+        "auth_mode": "locked",
+        "role": "counselor",
+    }
+
+
+async def verify_admin_auth(request: Request) -> Dict[str, Any]:
+    """FastAPI dependency enforcing Super-User Admin authorization on `/api/v1/admin/*` endpoints."""
+    status = check_admin_session_status(request)
+    if not status.get("is_admin"):
+        emit_compliance_audit_log(
+            caller_id="unauthorized_admin_caller",
+            action=f"{request.method} {request.url.path}",
+            guardrail_status="ADMIN_AUTH_FORBIDDEN",
+        )
+        raise HTTPException(
+            status_code=403,
+            detail="Super-User Admin authorization required. Unlock the Admin Console first.",
+        )
+    emit_compliance_audit_log(
+        caller_id=f"admin_{status.get('auth_mode', 'superuser')}",
+        action=f"{request.method} {request.url.path}",
+        guardrail_status="ADMIN_AUTH_SUCCESS",
+    )
+    return status

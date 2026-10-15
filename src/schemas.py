@@ -23,9 +23,10 @@ class ExecutionMode(str, Enum):
 
 
 class SlideArchetype(str, Enum):
-    """The 12 distinct visual slide archetypes inspired by SlideGen & hand-made BSA decks."""
+    """Slide archetypes used by the storyboard planner and python-pptx renderer."""
     COVER_HERO = "COVER_HERO"
     REQUIREMENTS_TRIAGE_MATRIX = "REQUIREMENTS_TRIAGE_MATRIX"
+    REQUIREMENT_INTRO = "REQUIREMENT_INTRO"
     SUBREQ_SECTION_DIVIDER = "SUBREQ_SECTION_DIVIDER"
     SPLIT_VISUAL_EXPLAINER = "SPLIT_VISUAL_EXPLAINER"
     STEP_BY_STEP_PROCEDURE_4CARD = "STEP_BY_STEP_PROCEDURE_4CARD"
@@ -36,6 +37,19 @@ class SlideArchetype(str, Enum):
     GEAR_CHECKLIST_GRID = "GEAR_CHECKLIST_GRID"
     HANDS_ON_PRACTICE_STATION = "HANDS_ON_PRACTICE_STATION"
     SOCRATIC_CHECKPOINT_QUIZ = "SOCRATIC_CHECKPOINT_QUIZ"
+    FULL_BLEED_IMAGE_EXPLAINER = "FULL_BLEED_IMAGE_EXPLAINER"
+    CONCEPT_TEXT_SLIDE = "CONCEPT_TEXT_SLIDE"
+    SOURCES_AND_REFERENCES = "SOURCES_AND_REFERENCES"
+
+
+class CounselorTitleSlideInfo(BaseModel):
+    """Counselor contact and troop customization for the presentation title slide."""
+    counselor_name: str = Field(..., description="Full name of the Merit Badge Counselor.")
+    troop_affiliation: str = Field(..., description="Troop number and council (e.g., 'Troop 101, Golden Gate Council').")
+    location_or_zip: Optional[str] = Field(None, description="Optional City, State or 5-digit ZIP code for local grounding.")
+    email_address: Optional[str] = Field(None, description="Optional contact email address for Scouts.")
+    phone_number: Optional[str] = Field(None, description="Optional contact phone number for Scouts.")
+    custom_troop_logo_path: Optional[str] = Field(None, description="Local filesystem path to custom Troop Crest / Logo.")
 
 
 class VisualSourceType(str, Enum):
@@ -235,7 +249,7 @@ class A2UIMessageEnvelope(BaseModel):
 
 
 # ==============================================================================
-# 5. UNIVERSAL GUIDED TOOL ERROR & EXPLICIT JSON SCHEMA REGISTRY (CATEGORY 1)
+# 5. GUIDED TOOL ERROR & EXPLICIT JSON SCHEMA REGISTRY
 # ==============================================================================
 
 class GuidedToolError(BaseModel):

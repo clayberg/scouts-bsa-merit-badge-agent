@@ -1,6 +1,6 @@
 """Persistent Session Storage, Vector Store / Vertex AI Search Retrieval, History Compaction, and Async Memory Operations.
 
-This module implements all required criteria for Context & Memory (Category 2):
+This module provides context and memory management across four areas:
 1. History Compaction: ADK `EventsCompactionConfig`, `ContextCacheConfig`, `VertexAiMemoryBankService`,
    sliding-window turn compaction, and token-budget truncation (`compact_conversation_events`).
 2. Persistent Session State & Vector/Search Retrieval: SQLite `counselor_sessions` + `pamphlet_vector_memory`
@@ -637,11 +637,35 @@ class PersistentSessionStore:
 
     def upsert_badge_image_sync(self, entry: Dict[str, Any]) -> bool:
         """Persists or updates a cached Merit Badge image entry in SQLite."""
-        image_id = str(entry.get("image_id") or "")
-        if not image_id:
-            return False
+        return self.upsert_badge_images_batch_sync([entry]) > 0
+
+    def upsert_badge_images_batch_sync(self, entries: List[Dict[str, Any]]) -> int:
+        """Persists or updates a batch of Merit Badge image entries in a single SQLite transaction."""
+        rows: List[tuple] = []
+        for entry in entries or []:
+            if not isinstance(entry, dict):
+                continue
+            image_id = str(entry.get("image_id") or "")
+            if not image_id:
+                continue
+            rows.append(
+                (
+                    image_id,
+                    str(entry.get("badge_name") or ""),
+                    str(entry.get("req_number") or ""),
+                    str(entry.get("slide_title") or ""),
+                    str(entry.get("title") or ""),
+                    str(entry.get("description") or ""),
+                    str(entry.get("source_type") or "OFFICIAL_PAMPHLET_FIGURE"),
+                    str(entry.get("image_path") or ""),
+                    str(entry.get("image_url") or ""),
+                    json.dumps(entry.get("metadata") or {}),
+                )
+            )
+        if not rows:
+            return 0
         with sqlite3.connect(self.db_path) as conn:
-            conn.execute(
+            conn.executemany(
                 """
                 INSERT INTO badge_image_catalog (
                     image_id, badge_name, req_number, slide_title, title,
@@ -660,21 +684,10 @@ class PersistentSessionStore:
                     metadata_json=excluded.metadata_json,
                     updated_at=CURRENT_TIMESTAMP
                 """,
-                (
-                    image_id,
-                    str(entry.get("badge_name") or ""),
-                    str(entry.get("req_number") or ""),
-                    str(entry.get("slide_title") or ""),
-                    str(entry.get("title") or ""),
-                    str(entry.get("description") or ""),
-                    str(entry.get("source_type") or "OFFICIAL_PAMPHLET_FIGURE"),
-                    str(entry.get("image_path") or ""),
-                    str(entry.get("image_url") or ""),
-                    json.dumps(entry.get("metadata") or {}),
-                ),
+                rows,
             )
             conn.commit()
-        return True
+        return len(rows)
 
     def list_badge_images_sync(self, badge_name: str) -> List[Dict[str, Any]]:
         """Retrieves all cached image catalog entries for a given Merit Badge from SQLite."""

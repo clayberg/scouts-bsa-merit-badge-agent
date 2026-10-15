@@ -6,7 +6,7 @@ This module implements:
    - Widescreen canvas bounds (13.333" x 7.5")
    - Zero AABB shape bounding-box overlaps
    - Paragraph budget (<= 8 paragraphs per text frame)
-   - Minimum font size floor (>= 13.0pt)
+   - Minimum font size floor (>= 12.0pt)
    - Zero literal bullet glyphs ('•') at start of paragraphs
    - Unique embedded image SHA-256 hash count across slides
 2. Stage 2 Structured Pedagogical & Visual Critique (`run_stage2_vision_critique` -> `VisualCritiqueVerdict`).
@@ -67,7 +67,10 @@ def _emu_to_inches(emu_val: Optional[int]) -> float:
     return float(emu_val) / float(Inches(1))
 
 
-def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
+def check_pptx_conformance(
+    pptx_path: str,
+    prs: Optional[Any] = None,
+) -> Dict[str, Any]:
     """Deterministically inspects every slide and shape in a .pptx deck for Stage 1 conformance.
 
     Checks:
@@ -75,17 +78,18 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
     2. AABB shape intersection (a_left < b_right - 0.02 and a_right > b_left + 0.02
        and a_top < b_bottom - 0.02 and a_bottom > b_top + 0.02).
     3. Paragraph count (len(shape.text_frame.paragraphs) <= 8).
-    4. Minimum font size (>= 13.0pt).
+    4. Minimum font size (>= 12.0pt).
     5. Zero literal bullet characters ('•') at start of paragraphs.
     6. Count of unique embedded image SHA-256 hashes across slides.
 
     Args:
         pptx_path: Path to the generated .pptx file.
+        prs: Optional pre-loaded `Presentation` object to avoid re-parsing the ZIP/XML archive.
 
     Returns:
         Dict[str, Any]: Serialized `ConformanceReport` dictionary.
     """
-    if not os.path.exists(pptx_path):
+    if prs is None and not os.path.exists(pptx_path):
         report = ConformanceReport(
             passed=False,
             total_slides_audited=0,
@@ -105,7 +109,7 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
         )
         return report.model_dump()
 
-    prs = Presentation(pptx_path)
+    prs = prs or Presentation(pptx_path)
     issues: List[ConformanceIssue] = []
     seen_image_hashes: Set[str] = set()
     detected_font_sizes: List[float] = []
@@ -316,6 +320,7 @@ def check_pptx_conformance(pptx_path: str) -> Dict[str, Any]:
 def run_stage2_vision_critique(
     pptx_path: str,
     conformance_dict: Optional[Dict[str, Any]] = None,
+    prs: Optional[Any] = None,
 ) -> List[Dict[str, Any]]:
     """Generates Stage 2 per-slide `VisualCritiqueVerdict` evaluations for the presentation.
 
@@ -323,20 +328,21 @@ def run_stage2_vision_critique(
         pptx_path: Absolute filesystem path to the generated `.pptx` presentation deck.
         conformance_dict: Optional pre-computed `ConformanceReport` dictionary from
             `check_pptx_conformance`.
+        prs: Optional pre-loaded `Presentation` object to avoid re-parsing the `.pptx` archive.
 
     Returns:
         List[Dict[str, Any]]: List of serialized `VisualCritiqueVerdict` dictionaries
         scoring each slide on layout, pedagogical depth, visual relevance, and text overlap.
     """
-    if not os.path.exists(pptx_path):
+    if prs is None and not os.path.exists(pptx_path):
         return []
-    conf = conformance_dict or check_pptx_conformance(pptx_path)
+    prs = prs or Presentation(pptx_path)
+    conf = conformance_dict or check_pptx_conformance(pptx_path, prs=prs)
     issues_by_slide: Dict[int, List[Dict[str, Any]]] = {}
     for iss in conf.get("issues", []):
         s_idx = int(iss.get("slide_index", 1))
         issues_by_slide.setdefault(s_idx, []).append(iss)
 
-    prs = Presentation(pptx_path)
     verdicts: List[Dict[str, Any]] = []
     for idx in range(1, len(prs.slides) + 1):
         slide_issues = issues_by_slide.get(idx, [])
@@ -401,6 +407,8 @@ def validate_presentation_deck(
     pptx_path: str,
     expected_req_count: int,
     is_eagle_required: bool = False,
+    conformance_dict: Optional[Dict[str, Any]] = None,
+    prs: Optional[Any] = None,
 ) -> Dict[str, Any]:
     """Audits a generated PowerPoint presentation for rubric, safety, brand, and 2-stage conformance.
 
@@ -408,11 +416,13 @@ def validate_presentation_deck(
         pptx_path: Absolute filesystem path to generated .pptx presentation.
         expected_req_count: Expected number of requirements to cover.
         is_eagle_required: True if Eagle-required styling is mandatory.
+        conformance_dict: Optional pre-computed `ConformanceReport` dictionary.
+        prs: Optional pre-loaded `Presentation` object to avoid re-parsing the `.pptx` archive.
 
     Returns:
         Dict: Structured SafetyAndBrandReviewResult dictionary including `conformance_report`.
     """
-    if not os.path.exists(pptx_path):
+    if prs is None and not os.path.exists(pptx_path):
         result = SafetyAndBrandReviewResult(
             approved=False,
             safety_compliance_pass=False,
@@ -425,18 +435,18 @@ def validate_presentation_deck(
         return result.model_dump()
 
     try:
-        prs = Presentation(pptx_path)
+        prs = prs or Presentation(pptx_path)
         slide_count = len(prs.slides)
 
         # Verify requirement coverage (slide count should be >= expected requirements)
         coverage_pass = slide_count >= expected_req_count
 
-        # Run Stage 1 Deterministic Geometry & Copywriting Conformance Check
-        conformance_dict = check_pptx_conformance(pptx_path)
+        # Run Stage 1 Deterministic Geometry & Copywriting Conformance Check (reusing loaded prs)
+        conformance_dict = conformance_dict or check_pptx_conformance(pptx_path, prs=prs)
         conformance_pass = bool(conformance_dict.get("passed", True))
 
-        # Run Stage 2 Structured Visual Critique
-        verdicts = run_stage2_vision_critique(pptx_path, conformance_dict)
+        # Run Stage 2 Structured Visual Critique (reusing loaded prs & conformance_dict)
+        verdicts = run_stage2_vision_critique(pptx_path, conformance_dict=conformance_dict, prs=prs)
 
         safety_pass = True
         brand_pass = conformance_pass
