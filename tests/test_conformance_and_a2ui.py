@@ -1418,5 +1418,106 @@ def test_v23_plan2_and_plan3_ui_counselor_and_superuser_admin():
     assert "stage-left-cards" in ui_js
 
 
+def test_v24_plan5_complete_plan3_audit_and_remediation():
+    """Verifies Plan 5 completion of all Plan 3 UI/UX, Counselor, and Super-User Admin Console features."""
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from src.server import app
+
+    client = TestClient(app)
+
+    # 1. Verify Telemetry 24h / 7d / All-Time windows, p50/p95/p99 histograms, and FinOps Spend vs. Saved
+    summary_res = client.get("/api/v1/admin/telemetry/summary").json()
+    assert summary_res["status"] == "SUCCESS"
+    tel = summary_res["zero_pii_telemetry"]
+    assert "runs_24h" in tel
+    assert "runs_7d" in tel
+    assert "runs_all_time" in tel
+    assert "total_estimated_saved_usd" in tel
+    assert "tier_breakdown" in tel
+    assert "depth_breakdown" in tel
+    assert "p99" in tel["latency_warm_ms"]
+    assert isinstance(tel["latency_warm_ms"].get("histogram"), list)
+    assert len(tel["latency_warm_ms"]["histogram"]) == 5
+
+    # 2. Verify Asset Diagnostics includes 5th column (pdf_and_index_present), prompt_manifest, and compliance_audit_events
+    diag_res = client.get("/api/v1/admin/diagnostics/assets").json()
+    assert diag_res["status"] == "SUCCESS"
+    assert diag_res["total_badges"] == 144
+    assert diag_res["covers_present"] == 144
+    assert diag_res["emblems_present"] == 144
+    assert diag_res["pdfs_indexed_present"] == 144
+    assert isinstance(diag_res.get("prompt_manifest"), list)
+    assert len(diag_res["prompt_manifest"]) == 6
+    assert all(p.get("verified") is True for p in diag_res["prompt_manifest"])
+
+    # 3. Verify 1-Click Maintenance endpoints
+    purge_res = client.post("/api/v1/admin/maintenance/purge-temp-cache").json()
+    assert purge_res["status"] == "SUCCESS"
+    repair_res = client.post("/api/v1/admin/maintenance/repair-covers").json()
+    assert repair_res["status"] == "SUCCESS"
+    assert repair_res["covers_verified"] == 144
+    snap_res = client.get("/api/v1/admin/maintenance/snapshot").json()
+    assert snap_res["status"] == "SUCCESS"
+    assert snap_res["zero_pii_guaranteed"] is True
+
+    # 4. Verify Slide Deck Customizer endpoint (insert, toggle_hide, move_up, move_down, hide_prereqs)
+    sample_slides = [
+        {"title": "Slide A", "req_number": "1", "archetype": "CONCEPT_TEXT_SLIDE", "bullet_points": ["Point 1"]},
+        {"title": "Slide B", "req_number": "2b", "archetype": "SPLIT_VISUAL_EXPLAINER", "bullet_points": ["Point 2"]},
+    ]
+    cust_res = client.post(
+        "/api/slide/deck-customize",
+        json={
+            "badge_name": "First Aid",
+            "action": "insert",
+            "slide_index": 0,
+            "custom_slide": {
+                "title": "Local Camp Emergency Assembly",
+                "req_number": "Local",
+                "archetype": "CONCEPT_TEXT_SLIDE",
+                "bullet_points": ["Muster at Waterfront Flagpole"],
+            },
+            "storyboard_slides": sample_slides,
+        },
+    ).json()
+    assert cust_res["status"] == "SUCCESS"
+    assert len(cust_res["storyboard_slides"]) == 3
+    assert cust_res["storyboard_slides"][1]["is_custom_slide"] is True
+
+    # 5. Verify UI HTML & JS contain all Plan 3 / Plan 5 controls
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    for required_id in (
+        'id="btn-fs-toggle-notes"',
+        'id="fullscreen-teleprompter-drawer"',
+        'id="stage-patrol-scoreboard"',
+        'id="btn-filter-quiz-slides"',
+        'id="btn-insert-custom-slide"',
+        'id="insert-custom-slide-modal"',
+        'id="btn-toggle-hide-slide"',
+        'id="btn-toggle-hide-prereq-slides"',
+        'id="btn-bluecard-import-csv"',
+        'id="btn-bluecard-print-3panel"',
+        'id="btn-top-print-field-qr-handout"',
+        'id="patch-gallery-modal"',
+        'id="btn-toggle-sunlight-mode"',
+        'id="btn-admin-replace-upload"',
+        'id="btn-admin-regenerate-inplace"',
+        'id="admin-prompt-manifest-table-body"',
+        'id="admin-guardrail-audit-table-body"',
+        'id="btn-admin-maint-purge-cache"',
+        'id="btn-admin-maint-repair-covers"',
+        'id="btn-admin-maint-refresh-senators"',
+        'id="btn-admin-maint-download-snapshot"',
+    ):
+        assert required_id in ui_html, f"Missing {required_id} in ui/index.html"
+    assert "printThreePanelBlueCards" in ui_js
+    assert "printPocketFieldQrHandout" in ui_js
+    assert "customizeActiveSlideDeck" in ui_js
+
+
+
 
 

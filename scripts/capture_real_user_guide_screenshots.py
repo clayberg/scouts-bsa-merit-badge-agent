@@ -17,8 +17,12 @@ import websockets
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_DIR = REPO_ROOT / "docs" / "images"
-ARTIFACT_DIR = pathlib.Path(
-    "/usr/local/google/home/clayberg/.gemini/jetski/brain/aab0a16f-2d4f-4ac3-b70d-babfa87cfacf"
+ARTIFACT_DIR = (
+    pathlib.Path.home()
+    / ".gemini"
+    / "jetski"
+    / "brain"
+    / "aab0a16f-2d4f-4ac3-b70d-babfa87cfacf"
 )
 
 
@@ -471,6 +475,7 @@ async def capture_all() -> None:
                 "#panel-admin", pad=8
             )
 
+            await cdp.set_viewport(1680, 1620, scale=1.5)
             await cdp.eval_js("""
             (async () => {
                 document.getElementById('btn-admin-subtab-diagnostics')?.click();

@@ -5,7 +5,7 @@
 **Official FDE GitHub Target**: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`  
 **Original Personal GitHub Target**: `https://github.com/clayberg/scouts-bsa-merit-badge-agent`  
 **Live Google Cloud Run Workbench**: [`https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app`](https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app)  
-**Executive Readout Playbook (12 Core Slides, 0 Appendix — `<= 15` Cap)**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md)  
+**Executive Readout Playbook (12 Core Slides, 0 Appendix: `<= 15` Cap)**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md)  
 **Detailed User Documentation**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)  
 **Super-User Admin Documentation**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)
 
@@ -24,12 +24,12 @@ The FDE Capstone Evaluation Tool provides two web environments hosted on Google 
 
 When you submit your presentation and `.bundle` file in the web app, the platform executes two automated stages:
 
-1. **Stage 1 — Synchronous Pre-Flight Gate (`analyzer-initial-checks`)**:
+1. **Stage 1: Synchronous Pre-Flight Gate (`analyzer-initial-checks`)**:
    - **Slide Count & Appendix Classifier**: Inspects your Google Slides deck (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`) using Gemini. It enforces the **`<= 15 Core Slides`** limit. Our deck has **12 Core Slides (`Slide 1` through `Slide 12`) and 0 Appendix slides** (`12 <= 15`), so it passes Stage 1 cleanly and every slide is evaluated as a primary slide.
    - **Git Bundle & Authorship Validator**: Runs `git bundle verify` on `scouts-bsa-merit-badge-agent.bundle`, checks commit authorship (`clayberg@google.com`), verifies the presence of an annotated tag matching `capstone-YYYYMMDD` (e.g., `capstone-20261013`), and checks the **Scoped Git Link Gate** to verify the repository belongs to `https://github.com/cloud-ai-fde/...` (or `delta-fde`).
-2. **Stage 2 — Asynchronous Background Artifact Analyzer (`analyzer-preseed` v3.8)**:
+2. **Stage 2: Asynchronous Background Artifact Analyzer (`analyzer-preseed` v3.8)**:
    - Once Stage 1 passes and you enter the emails of your **3 Panelists** and **1 Manager**, the backend triggers a Cloud Run Job (`analyzer-preseed`) powered by **Gemini 3.7 / 3.8** and the **Antigravity SDK**.
-   - Over roughly **3 to 5 minutes**, it unpacks the `.bundle`, reads all source code, tests, Terraform configs, ADRs, and slides, and pre-seeds `0.0–3.0` scores (`0.5` increments), 3–5 purple evidence bullets, and suggested probing questions across all **27 Part B subcategories**.
+   - Over roughly **3 to 5 minutes**, it unpacks the `.bundle`, reads all source code, tests, Terraform configs, ADRs, and slides, and pre-seeds `0.0-3.0` scores (`0.5` increments), 3-5 purple evidence bullets, and suggested probing questions across all **27 Part B subcategories**.
 
 ### 1.2 How to View the Stage 2 AI Scorecard in Staging (RBAC Workaround)
 
@@ -128,7 +128,7 @@ if command -v gh >/dev/null 2>&1; then
     gh issue create -R cloud-ai-fde/org-repo-management \
       --title "[PERSONAL REPO REQUEST]: scouts-bsa-merit-badge-agent" \
       --label "new-repo-request,personal-repo" \
-      --body $'### LDAP\n\nclayberg\n\n### Desired Project Name\n\nscouts-bsa-merit-badge-agent\n\n### Project description\n\nScouts BSA Merit Badge Counselor Workbench — FDE Capstone Project (Google ADK + Vertex AI + Cloud Run)\n\n### Remove FDE team-wide permissions on the repo?\n\n- [ ] Request NO FDE team-wide permissions on repo.\n\n### Why do you need this repository to be unshared?\n\n_No response_' || true
+      --body $'### LDAP\n\nclayberg\n\n### Desired Project Name\n\nscouts-bsa-merit-badge-agent\n\n### Project description\n\nScouts BSA Merit Badge Counselor Workbench: FDE Capstone Project (Google ADK + Vertex AI + Cloud Run)\n\n### Remove FDE team-wide permissions on the repo?\n\n- [ ] Request NO FDE team-wide permissions on repo.\n\n### Why do you need this repository to be unshared?\n\n_No response_' || true
     sleep 15
   fi
 fi
@@ -215,15 +215,15 @@ Once `scouts-bsa-merit-badge-agent.bundle` is built and verified:
 1. **Open the Target Portal**:
    - **Staging (for dry runs)**: [`https://goto.google.com/capstone-app-staging`](https://goto.google.com/capstone-app-staging) (`https://fde-eval-tool-stage-491561659673.us-central1.run.app`)
    - **Production (for official defense)**: [`https://goto.google.com/capstone-app`](https://goto.google.com/capstone-app) (`https://fde-eval-tool-prod-6l4a5l634q-uc.a.run.app`)
-2. **Step 1 in UI — Select Presentation Deck**:
+2. **Step 1 in UI: Select Presentation Deck**:
    - Click **Select from Google Drive** (or paste URL) and choose:
-     **FDE Capstone Executive Readout — Scouts BSA Merit Badge Counselor Workbench** (12 Core Slides, 0 Appendix).
+     **FDE Capstone Executive Readout: Scouts BSA Merit Badge Counselor Workbench** (12 Core Slides, 0 Appendix).
    - Verify the Stage 1 slide check turns green (**12 Core Slides, 0 Appendix <= 15 Core Slides**).
-3. **Step 2 in UI — Upload Git Bundle & Repository Details**:
+3. **Step 2 in UI: Upload Git Bundle & Repository Details**:
    - Upload file: `/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/scouts-bsa-merit-badge-agent.bundle` (~`25 MB`).
    - GitHub Repository URL: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`
    - Git Tag: `capstone-20261013` (or the `capstone-YYYYMMDD` tag output by `scripts/publish_and_bundle_capstone.sh`).
-   - Wait ~5–10 seconds for `analyzer-initial-checks` to confirm bundle integrity and authorship.
-4. **Step 3 in UI — Assign Panelists & Manager**:
+   - Wait ~5-10 seconds for `analyzer-initial-checks` to confirm bundle integrity and authorship.
+4. **Step 3 in UI: Assign Panelists & Manager**:
    - Enter the `@google.com` email addresses of your **3 Panelists** and **1 Manager** (remember: you cannot list your own `clayberg@google.com` address as a panelist/manager on your own submission).
-   - Click **Submit**. This dispatches the `analyzer-preseed` Cloud Run Job, which completes in ~3–5 minutes and populates the Panelist and Manager views with the pre-seeded Part B scorecard.
+   - Click **Submit**. This dispatches the `analyzer-preseed` Cloud Run Job, which completes in ~3-5 minutes and populates the Panelist and Manager views with the pre-seeded Part B scorecard.

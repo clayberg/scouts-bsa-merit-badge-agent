@@ -60,20 +60,27 @@
       >
         ⌨️ Shortcuts
       </button>
-      <a class="m3-btn m3-btn-outlined" id="link-top-pamphlet" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener">
-        <span class="material-symbols-outlined" style="font-size:18px;">menu_book</span>
-        Official BSA Pamphlet
-      </a>
-      <a class="m3-btn m3-btn-tonal" id="link-top-drg" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener">
-        <span class="material-symbols-outlined" style="font-size:18px;">open_in_new</span>
-        Resource Guide
-      </a>
+      <button
+        type="button"
+        class="m3-btn m3-btn-outlined"
+        id="btn-toggle-sunlight-mode"
+        title="Toggle High-Contrast Outdoor Camp Sunlight Mode"
+        style="padding:7px 11px; font-size:0.78rem;"
+      >
+        ☀️ Sunlight Mode
+      </button>
       <div class="m3-export-dropdown-wrap" id="top-export-dropdown-wrap">
-        <button type="button" class="m3-btn m3-btn-tonal" id="btn-export-menu-toggle" title="Quick Export &amp; Print Menu (Workbook, Pocket Cue Cards, Blue Card CSV)" style="padding:8px 13px; font-size:0.80rem;">
+        <button type="button" class="m3-btn m3-btn-tonal" id="btn-export-menu-toggle" title="Quick Export &amp; Print Menu (Workbook, Field &amp; QR Handout, 3-Panel Blue Cards, Pocket Cue Cards)" style="padding:8px 13px; font-size:0.80rem;">
           <span class="material-symbols-outlined" style="font-size:18px;">print</span>
           Export &amp; Print ▾
         </button>
         <div class="m3-export-dropdown-menu hidden" id="top-export-dropdown-menu" role="menu">
+          <button type="button" class="m3-export-menu-item" id="btn-top-print-field-qr-handout" role="menuitem">
+            🧭 Print 1-Page Field Checklist &amp; QR Handout
+          </button>
+          <button type="button" class="m3-export-menu-item" id="btn-top-print-3panel-bluecards" role="menuitem">
+            🪪 Print 3-Panel Blue Cards (#34124)
+          </button>
           <a class="m3-export-menu-item" id="btn-download-workbook-top" href="#" download role="menuitem">
             📥 Download Scout Workbook (.MD)
           </a>
@@ -101,12 +108,17 @@
     <!-- LEFT RAIL: FILTER, SELECT & GENERATE CONTROLS -->
     <aside class="m3-sidebar" id="left-setup-sidebar">
       <section class="m3-card" aria-labelledby="config-heading">
-        <div class="m3-card-header">
+        <div class="m3-card-header" style="flex-wrap:wrap; gap:6px;">
           <h2 class="m3-card-title" id="config-heading">
             <span class="material-symbols-outlined">filter_alt</span>
             1. Find &amp; Select Merit Badge
           </h2>
-          <span class="m3-chip m3-chip-primary" id="badge-filter-count-chip">144 Badges</span>
+          <div style="display:flex; align-items:center; gap:6px;">
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-open-patch-gallery" title="Browse all 144 Merit Badge patches visually with Eagle-Required filter" style="padding:4px 9px; font-size:0.72rem; font-weight:700;">
+              🎖️ Patch Gallery (144)
+            </button>
+            <span class="m3-chip m3-chip-primary" id="badge-filter-count-chip">144 Badges</span>
+          </div>
         </div>
 
         <div class="m3-field-group">
@@ -288,6 +300,16 @@
             <div class="m3-hero-meta" id="hero-badge-subtitle">
               Official BSA Merit Badge Pamphlet &amp; Requirement Teaching Deck
             </div>
+            <div style="display:flex; align-items:center; gap:8px; margin-top:8px; flex-wrap:wrap;">
+              <a class="m3-btn m3-btn-outlined" id="link-top-pamphlet" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener" style="padding:4px 10px; font-size:0.75rem; background:rgba(255,255,255,0.14); color:#FFFFFF; border-color:rgba(255,255,255,0.35);">
+                <span class="material-symbols-outlined" style="font-size:15px;">menu_book</span>
+                Official BSA Pamphlet
+              </a>
+              <a class="m3-btn m3-btn-tonal" id="link-top-drg" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener" style="padding:4px 10px; font-size:0.75rem; background:rgba(253,185,19,0.22); color:#FDB913; border:1px solid rgba(253,185,19,0.45);">
+                <span class="material-symbols-outlined" style="font-size:15px;">open_in_new</span>
+                Resource Guide
+              </a>
+            </div>
           </div>
         </div>
 
@@ -322,19 +344,19 @@
           </button>
           <button type="button" class="m3-tab-btn active" id="tab-storyboard" data-panel="panel-storyboard">
             <span class="material-symbols-outlined" style="font-size:18px;">slideshow</span>
-            Slide Deck Preview
+            1. Slides &amp; Notes
           </button>
           <button type="button" class="m3-tab-btn" id="tab-triage" data-panel="panel-triage">
             <span class="material-symbols-outlined" style="font-size:18px;">library_books</span>
-            Requirements &amp; Blue Card Sign-Off
+            2. Requirements &amp; Blue Cards
           </button>
           <button type="button" class="m3-tab-btn" id="tab-workbook" data-panel="panel-workbook">
             <span class="material-symbols-outlined" style="font-size:18px;">menu_book</span>
-            Scout &amp; Counselor Workbook
+            3. Scout Workbook
           </button>
           <button type="button" class="m3-tab-btn" id="tab-studiokit" data-panel="panel-studiokit">
             <span class="material-symbols-outlined" style="font-size:18px;">event_note</span>
-            Lesson Plan, Gear List, Parent Letter &amp; FinOps
+            4. Class Prep &amp; Letters
           </button>
           <button type="button" class="m3-tab-btn hidden" id="tab-btn-admin" data-panel="panel-admin" title="Super-User Admin Console (Cached Image &amp; Caption Studio, Zero-PII Telemetry, 144-Badge Asset Health)">
             <span class="material-symbols-outlined" style="font-size:18px;">admin_panel_settings</span>
@@ -354,8 +376,16 @@
               class="m3-input"
               id="filmstrip-search-input"
               placeholder="🔎 Filter slides by keyword or req (e.g. 2b, CPR)..."
-              style="padding:7px 10px; font-size:0.78rem;"
+              style="padding:7px 10px; font-size:0.78rem; margin-bottom:6px;"
             />
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; flex-wrap:wrap;">
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-filter-quiz-slides" title="Filter filmstrip to show only Patrol Quiz &amp; Checkpoint slides" style="padding:3px 8px; font-size:0.71rem;">
+                ⚡ Quiz Slides Only
+              </button>
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-hide-prereq-slides" title="1-click hide/unhide home-prerequisite slides (30-day logs, family chores) during summer camp" style="padding:3px 8px; font-size:0.71rem;">
+                🏠 Hide Home-Prereqs
+              </button>
+            </div>
           </div>
 
           <div class="m3-slide-filmstrip hidden" id="slide-filmstrip-list"></div>
@@ -389,8 +419,8 @@
           </section>
         </div>
 
-        <!-- Right Widescreen 16:9 Live Preview -->
-        <div class="m3-slide-canvas-wrapper" id="slide-stage-wrapper">
+        <!-- Right Widescreen 16:9 Live Preview (Slide Deck Preview) -->
+        <div class="m3-slide-canvas-wrapper" id="slide-stage-wrapper" aria-label="Slide Deck Preview">
           <!-- CUTE ZERO-STATE & SLIDE-GENERATION SCOUT CONSTRUCTION ANIMATION STAGE -->
           <div class="m3-construction-stage" id="slide-construction-stage">
             <div class="m3-construction-topbar">
@@ -472,7 +502,7 @@
 
           <!-- SLIDE STAGE TOOLBAR -->
           <div class="m3-slide-toolbar hidden" id="slide-stage-toolbar">
-            <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;">
+            <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
               <button
                 type="button"
                 class="m3-btn m3-btn-outlined"
@@ -485,6 +515,17 @@
               <span class="m3-chip m3-chip-primary" id="active-slide-index-chip">Slide 1</span>
               <span class="m3-chip m3-chip-secondary" id="active-slide-req-chip">Cover Slide</span>
               <span class="m3-chip m3-chip-gold hidden" id="active-slide-grounded-chip">🌐 Grounded Research</span>
+              <!-- FEATURE 3: SLIDE DECK CUSTOMIZER (INSERT CUSTOM SLIDE, HIDE/SKIP, REORDER ↑/↓) -->
+              <div style="display:inline-flex; align-items:center; gap:4px; background:#F8FAFC; border:1px solid #CBD5E1; border-radius:999px; padding:2px 6px;">
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-insert-custom-slide" title="Insert a custom local camp or troop slide after this slide (updates .PPTX)" style="padding:3px 9px; font-size:0.72rem; font-weight:700;">
+                  ➕ Insert Slide
+                </button>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-hide-slide" title="Hide or skip this slide during Fullscreen presentation and exclude from .PPTX export" style="padding:3px 9px; font-size:0.72rem;">
+                  👁️ Hide Slide
+                </button>
+                <button type="button" class="m3-timer-mini-btn" id="btn-move-slide-up" title="Move Active Slide Earlier (↑)">↑</button>
+                <button type="button" class="m3-timer-mini-btn" id="btn-move-slide-down" title="Move Active Slide Later (↓)">↓</button>
+              </div>
               <!-- FEATURE C1: LIVE CLASSROOM SESSION & SKILL STATION COUNTDOWN TIMER -->
               <div class="m3-session-timer-cluster" id="session-timer-cluster" title="Live Troop Meeting &amp; Skill Station Countdown Timer">
                 <select id="session-timer-preset-select" class="m3-timer-preset-select" aria-label="Session Timer Preset">
@@ -499,9 +540,12 @@
               </div>
             </div>
             <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-              <!-- FEATURE C2: CLASSROOM QUIZ & SCENARIO REVEAL MODE -->
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-quiz-reveal" title="Mask quiz answers &amp; scenario solutions until clicked in class (Shortcut: Q)" style="padding:5px 10px; font-size:0.75rem;">
+              <!-- FEATURE C2: CLASSROOM QUIZ & SCENARIO REVEAL MODE + PATROL SCOREBOARD -->
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-quiz-reveal" title="Mask quiz answers &amp; scenario solutions until clicked or Spacebar pressed (Shortcut: Q)" style="padding:5px 10px; font-size:0.75rem;">
                 🎯 Quiz Reveal: Off
+              </button>
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-patrol-scoreboard" title="Show or hide the interactive 4-Patrol Game Show Scoreboard (auto-appears on Patrol Quiz slides)" style="padding:5px 10px; font-size:0.75rem;">
+                🏆 Patrol Scoreboard
               </button>
               <!-- UI-2: DUAL-WINDOW PRESENTER VIEW POP-OUT -->
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-popout-speaker-notes" title="Open synchronized Counselor Speaker Notes &amp; Timer on a second screen (Shortcut: P)" style="padding:5px 10px; font-size:0.75rem;">
@@ -532,6 +576,37 @@
               <span class="m3-chip m3-chip-gold hidden" id="stage-req-number">Cover</span>
             </div>
 
+            <!-- FEATURE 2: INTERACTIVE PATROL SCOREBOARD OVERLAY ON SOCRATIC_CHECKPOINT_QUIZ SLIDES -->
+            <div class="m3-patrol-scoreboard-bar hidden" id="stage-patrol-scoreboard" aria-label="Interactive Patrol Quiz Scoreboard">
+              <div style="display:flex; align-items:center; gap:6px; font-weight:800; font-size:0.78rem; color:#003F87;">
+                <span>🏆 PATROL QUIZ SCOREBOARD</span>
+                <span style="font-size:0.70rem; font-weight:600; color:#475569;">(Press <kbd class="m3-kbd">Space</kbd> or click card to reveal answer)</span>
+              </div>
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;" id="patrol-scoreboard-counters">
+                <div class="m3-patrol-score-pill" data-patrol="Eagle">
+                  <span>🦅 Eagle: <strong id="score-val-Eagle">0</strong></span>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Eagle" data-delta="-1">−</button>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Eagle" data-delta="1">+</button>
+                </div>
+                <div class="m3-patrol-score-pill" data-patrol="Fox">
+                  <span>🦊 Fox: <strong id="score-val-Fox">0</strong></span>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Fox" data-delta="-1">−</button>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Fox" data-delta="1">+</button>
+                </div>
+                <div class="m3-patrol-score-pill" data-patrol="Wolf">
+                  <span>🐺 Wolf: <strong id="score-val-Wolf">0</strong></span>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Wolf" data-delta="-1">−</button>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Wolf" data-delta="1">+</button>
+                </div>
+                <div class="m3-patrol-score-pill" data-patrol="Raven">
+                  <span>🐦‍⬛ Raven: <strong id="score-val-Raven">0</strong></span>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Raven" data-delta="-1">−</button>
+                  <button type="button" class="m3-patrol-score-btn" data-patrol="Raven" data-delta="1">+</button>
+                </div>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-patrol-scores-reset" style="padding:2px 8px; font-size:0.70rem;">↺ Reset</button>
+              </div>
+            </div>
+
             <!-- Shown ONLY on the first slide of a requirement sequence -->
             <div class="m3-slide-req-strip" id="stage-req-strip-box">
               <div id="stage-req-verbatim">Official Requirement Definition</div>
@@ -552,6 +627,17 @@
               <span id="stage-safety-text">Guide to Safe Scouting</span>
             </div>
 
+            <!-- FEATURE 1: SINGLE-SCREEN FULLSCREEN TELEPROMPTER DRAWER (TOGGLED VIA 🎙️ Notes (N)) -->
+            <div class="m3-fullscreen-teleprompter hidden" id="fullscreen-teleprompter-drawer" aria-label="Fullscreen Counselor Teleprompter Notes">
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
+                <span style="font-size:0.74rem; font-weight:800; color:#FDB913; text-transform:uppercase; letter-spacing:0.04em;">
+                  🎙️ Counselor EDGE Teleprompter ([SAY] / [DEMONSTRATE] / [ASK SCOUTS]) — Press N to Hide
+                </span>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-fs-teleprompter" style="padding:2px 8px; font-size:0.70rem; color:#FFFFFF; border-color:rgba(255,255,255,0.35);">✕ Hide Notes</button>
+              </div>
+              <div id="fullscreen-teleprompter-content" style="font-size:0.84rem; line-height:1.45; color:#F8FAFC;"></div>
+            </div>
+
             <div class="m3-slide-footer-strip">
               <span id="stage-footer-left">Scouts BSA Merit Badge Series</span>
               <span id="stage-footer-right">Slide 1</span>
@@ -563,6 +649,9 @@
             <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-prev" style="padding:5px 12px; font-size:0.78rem;">◀ Prev</button>
             <span id="fullscreen-hud-status" style="font-family:var(--font-mono); font-size:0.78rem; font-weight:700; color:#FFFFFF;">Slide 1</span>
             <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-next" style="padding:5px 12px; font-size:0.78rem;">Next ▶</button>
+            <span id="fullscreen-hud-timer" title="Live Session Pacing Timer (Click or press T to Start/Pause)" style="font-family:var(--font-mono); font-size:0.78rem; font-weight:800; color:#FDB913; background:rgba(255,255,255,0.12); padding:4px 9px; border-radius:999px; cursor:pointer;">⏱️ 45:00</span>
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-toggle-notes" title="Toggle Single-Screen Counselor Teleprompter Notes (Shortcut: N)" style="padding:5px 11px; font-size:0.76rem;">🎙️ Notes (N)</button>
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-popout-notes" title="Open Dual-Screen Presenter View Window (Shortcut: P)" style="padding:5px 11px; font-size:0.76rem;">🪟 Presenter View (P)</button>
             <button type="button" class="m3-btn m3-btn-outlined" id="btn-fs-exit" style="padding:5px 12px; font-size:0.78rem; background:rgba(255,255,255,0.16); color:#FFFFFF; border-color:rgba(255,255,255,0.35);">✕ Exit Fullscreen</button>
           </div>
 
@@ -590,27 +679,30 @@
                   <span class="material-symbols-outlined">record_voice_over</span>
                   Counselor Teaching Notes
                 </h3>
-                <span class="m3-chip m3-chip-secondary" style="font-size:0.70rem;">EDGE Method Script &bull; Keyboard: ← / → to Navigate</span>
+                <span class="m3-chip m3-chip-secondary" style="font-size:0.70rem;">EDGE Method Script &bull; Keyboard: ← / → Slides &bull; [ / ] Images</span>
               </div>
               <div id="stage-presenter-notes" style="font-size:0.88rem; color:var(--md-sys-color-on-surface);"></div>
             </div>
 
-            <!-- DRAWER TAB 2: PER-SLIDE INTERACTIVE CO-DESIGN BAR & IMAGE STUDIO -->
-            <div class="m3-card hidden" id="slide-codesign-bar" style="padding:14px 18px; background:#F8FAFC; border:1.5px solid #CBD5E1;">
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; flex-wrap:wrap; gap:10px;">
-                <span style="font-family:'Roboto Slab',serif; font-size:0.92rem; font-weight:700; color:#003F87;">
-                  🎨 Per-Slide Interactive Co-Design Bar &amp; Image Studio — Customize Slide &amp; Rebuild PowerPoint
-                </span>
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-open-image-studio" style="padding:7px 14px; font-size:0.80rem; font-weight:700;">
-                  🖼️ Manage &amp; Add Slide Images (Catalog / Web / AI)
-                </button>
-              </div>
-              <div style="font-size:0.77rem; color:#475569; margin-bottom:10px; line-height:1.45; background:#EFF6FF; border-left:3px solid #003F87; padding:6px 10px; border-radius:6px;">
-                <strong>How to customize this slide:</strong>
-                <strong>(1) Slide Layout</strong> rearranges the teaching cards;
-                <strong>(2) Card Style</strong> changes card badges &amp; borders;
-                <strong>(3) Brand Palette</strong> updates slide colors;
-                <strong>(4) Right-Side Graphic</strong> keeps the current graphic, restores the original slide picture/illustration, applies the Requirement's Nano Banana Hero Illustration (with EDGE Skill Concept Map fallback), or sets <strong>None</strong> (removing the graphic and expanding text to full width). Use the <strong>Image Switcher &amp; Image Studio</strong> to switch images, search web archives, or generate a custom Nano Banana AI graphic.
+            <!-- DRAWER TAB 2: PER-SLIDE INTERACTIVE CO-DESIGN BAR & IMAGE STUDIO (UI-2 SIMPLIFIED, AUTO-APPLY) -->
+            <div class="m3-card hidden" id="slide-codesign-bar" aria-label="Per-Slide Interactive Co-Design Bar" style="padding:14px 18px; background:#F8FAFC; border:1.5px solid #CBD5E1;">
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; flex-wrap:wrap; gap:10px;">
+                <div>
+                  <span style="font-family:'Roboto Slab',serif; font-size:0.92rem; font-weight:700; color:#003F87;">
+                    🎨 Slide Layout, Card Style &amp; Palette (Auto-Applies on Selection)
+                  </span>
+                  <span style="font-size:0.75rem; color:#475569; margin-left:8px;">
+                    Tip: Use the on-stage <strong>Easy Slide Image Switcher</strong> (or <kbd class="m3-kbd">[</kbd> / <kbd class="m3-kbd">]</kbd>) to cycle cached visuals.
+                  </span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-restore-original-slide" title="Restore this slide's original layout, palette, and default figure" style="padding:6px 12px; font-size:0.78rem; font-weight:700;">
+                    ↺ Restore Original
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-outlined" id="btn-open-image-studio" style="padding:6px 14px; font-size:0.79rem; font-weight:700;">
+                    🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)
+                  </button>
+                </div>
               </div>
               <!-- UI-3: VISUAL ARCHETYPE WIREFRAME THUMBNAIL PICKER -->
               <div class="m3-archetype-visual-picker" id="codesign-archetype-visual-grid" role="radiogroup" aria-label="Visual Slide Layout Picker">
@@ -680,7 +772,7 @@
                   </select>
                 </div>
                 <div>
-                  <label class="m3-field-label" for="codesign-source-select" style="font-size:0.73rem;">4. Right-Side Graphic</label>
+                  <label class="m3-field-label" for="codesign-source-select" style="font-size:0.73rem;">4. Visual Mode</label>
                   <select class="m3-select" id="codesign-source-select" style="padding:6px 8px; font-size:0.78rem;">
                     <option value="keep_current">Keep Current Slide Graphic</option>
                     <option value="restore_original">Restore Original Slide Graphic</option>
@@ -689,26 +781,16 @@
                   </select>
                 </div>
                 <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-codesign" style="padding:8px 14px; font-size:0.80rem;">
-                  ✨ Apply to Slide
+                  ✨ Apply &amp; Rebuild .PPTX
                 </button>
               </div>
 
-              <!-- MULTI-IMAGE SWITCHER (LABEL ABOVE, DROPDOWN + SIDE-BY-SIDE ◀ ▶ ARROWS) -->
-              <div id="codesign-image-studio-row" class="m3-codesign-image-row">
-                <label class="m3-field-label" for="codesign-quick-image-select" id="codesign-quick-image-label" style="font-size:0.74rem; margin-bottom:4px;">
-                  🖼️ Quick-Switch Slide Image (Cached Merit Badge Visuals — Applies Immediately)
-                </label>
-                <div class="m3-codesign-image-controls">
-                  <select class="m3-select" id="codesign-quick-image-select" style="flex:1; min-width:0; padding:6px 10px; font-size:0.80rem;"></select>
-                  <div style="display:inline-flex; align-items:center; gap:6px; flex-shrink:0;">
-                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-prev-slide-image" title="Previous Cached Merit Badge Image" style="padding:7px 14px; font-size:0.82rem; font-weight:800;">
-                      ◀
-                    </button>
-                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-next-slide-image" title="Next Cached Merit Badge Image" style="padding:7px 14px; font-size:0.82rem; font-weight:800;">
-                      ▶
-                    </button>
-                  </div>
-                </div>
+              <!-- Hidden compatibility hooks for legacy image select references -->
+              <div id="codesign-image-studio-row" class="m3-codesign-image-controls" style="display:none;">
+                <span id="codesign-quick-image-label"></span>
+                <select id="codesign-quick-image-select"></select>
+                <button type="button" id="btn-prev-slide-image">◀</button>
+                <button type="button" id="btn-next-slide-image">▶</button>
               </div>
             </div>
 
@@ -817,7 +899,7 @@
                 Patrol Blue Card (#34124) &amp; Scoutbook Plus Requirement Sign-Off Tracker
               </h3>
               <div style="font-size:0.80rem; color:var(--md-sys-color-on-surface-variant); margin-top:2px;">
-                Track individual Scout mastery across every official requirement (`Complete` vs. `Partial` Blue Card status). Automatically saved in your browser per Merit Badge.
+                Track individual Scout mastery across every official requirement (`Complete` vs. `Partial` Blue Card status). Click any column header checkbox to sign off the entire patrol on a requirement at once.
               </div>
             </div>
             <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
@@ -833,10 +915,14 @@
                 class="m3-input"
                 id="bluecard-scout-name-input"
                 placeholder="Add Scout name (e.g., Alex Carter - Eagle Patrol)..."
-                style="width:220px; padding:6px 10px; font-size:0.80rem;"
+                style="width:205px; padding:6px 10px; font-size:0.80rem;"
               />
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-add-scout" style="padding:6px 12px; font-size:0.78rem;">
                 ➕ Add Scout
+              </button>
+              <input type="file" id="bluecard-csv-file-input" accept=".csv,.txt,text/csv,text/plain" class="hidden" />
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-import-csv" title="Upload a Scoutbook or TroopWebHost .CSV roster file" style="padding:6px 11px; font-size:0.78rem;">
+                📤 Import .CSV Roster
               </button>
               <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-bulk-paste" title="Paste a full Troop or Patrol roster (one Scout per line)" style="padding:6px 11px; font-size:0.78rem;">
                 📋 Paste Roster
@@ -847,6 +933,9 @@
               <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-export-csv" style="padding:6px 12px; font-size:0.78rem;">
                 📥 Export Scoutbook CSV
               </button>
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-print-3panel" title="Print authentic 3-column perforated BSA Application for Merit Badge (#34124) Blue Cards for all Scouts in roster" style="padding:6px 12px; font-size:0.78rem; font-weight:700;">
+                🪪 Print 3-Panel Blue Cards (#34124)
+              </button>
               <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-print" style="padding:6px 12px; font-size:0.78rem;">
                 🖨️ Print Sign-Off Sheet
               </button>
@@ -855,10 +944,10 @@
 
           <div id="bluecard-bulk-paste-box" class="hidden" style="background:#EFF6FF; border:1px solid #BFDBFE; border-radius:10px; padding:10px 14px; margin-bottom:12px;">
             <label class="m3-field-label" for="bluecard-bulk-textarea" style="font-size:0.75rem; color:#003F87;">
-              Paste Scout Names (one per line or comma-separated — e.g. from Scoutbook or TroopWebHost):
+              Paste Scout Names or CSV Rows (one per line or comma-separated — e.g. from Scoutbook or TroopWebHost):
             </label>
             <div style="display:flex; gap:8px; align-items:flex-start; margin-top:4px;">
-              <textarea id="bluecard-bulk-textarea" class="m3-input" rows="2" placeholder="Alex Carter (Eagle Patrol)&#10;Sam Rivera (Wolf Patrol)&#10;Jordan Lee (Fox Patrol)" style="flex:1; font-size:0.80rem;"></textarea>
+              <textarea id="bluecard-bulk-textarea" class="m3-input" rows="2" placeholder="Alex Carter, BSA# 134589210, Eagle Patrol&#10;Sam Rivera, BSA# 134589211, Wolf Patrol&#10;Jordan Lee, BSA# 134589212, Fox Patrol" style="flex:1; font-size:0.80rem;"></textarea>
               <button type="button" class="m3-btn m3-btn-filled" id="btn-bluecard-bulk-apply" style="padding:7px 14px; font-size:0.78rem;">
                 ➕ Add All Scouts
               </button>
@@ -890,6 +979,9 @@
                 placeholder="🔎 Filter workbook sections..."
                 style="width:195px; padding:6px 10px; font-size:0.78rem;"
               />
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-print-field-qr" title="Print 1-Page Pocket Field Checklist &amp; QR Handout" style="padding:7px 12px; font-size:0.79rem;">
+                🧭 Print 1-Page Field &amp; QR Handout
+              </button>
               <!-- FEATURE C4: PRINTABLE 3x5 COUNSELOR POCKET CUE CARDS -->
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-print-cue-cards" title="Print 3x5 / 4x6 Counselor Field Pocket Cue Cards ([SAY], [DEMONSTRATE], [ASK SCOUTS])" style="padding:7px 12px; font-size:0.79rem;">
                 🃏 Print 3&times;5 Cue Cards
@@ -910,15 +1002,20 @@
         </div>
       </section>
 
-      <!-- PANEL 4: COUNSELOR STUDIOKIT (LESSON PLAN, GEAR CHECKLIST, PARENT LETTER, GROUNDED CITATIONS & FINOPS) -->
+      <!-- PANEL 4: COUNSELOR STUDIOKIT (LESSON PLAN, GEAR CHECKLIST, PARENT LETTER, GROUNDED CITATIONS & RATING) -->
       <section id="panel-studiokit" class="hidden">
         <!-- UI-5: STREAMLINED STUDIOKIT SUB-TAB PILL SWITCHER -->
-        <div class="m3-studiokit-subtabs" id="studiokit-subtabs-bar" role="tablist" aria-label="Lesson Plan &amp; Counselor Toolkit Sections">
-          <button type="button" class="m3-studiokit-pill active" data-studiokit-filter="ALL">📋 All Sections</button>
-          <button type="button" class="m3-studiokit-pill" data-studiokit-filter="AGENDA">🗓️ 1. Agenda &amp; Parent Letter</button>
-          <button type="button" class="m3-studiokit-pill" data-studiokit-filter="GEAR">🎒 2. Gear &amp; Buddy Rotator</button>
-          <button type="button" class="m3-studiokit-pill" data-studiokit-filter="PREREQ">✅ 3. Pre-Class Readiness</button>
-          <button type="button" class="m3-studiokit-pill" data-studiokit-filter="FINOPS">📊 4. Citations, FinOps &amp; Rating</button>
+        <div class="m3-studiokit-subtabs" id="studiokit-subtabs-bar" role="tablist" aria-label="Lesson Plan &amp; Counselor Toolkit Sections" style="justify-content:space-between; align-items:center;">
+          <div style="display:flex; gap:6px; flex-wrap:wrap;">
+            <button type="button" class="m3-studiokit-pill active" data-studiokit-filter="ALL">📋 All Sections</button>
+            <button type="button" class="m3-studiokit-pill" data-studiokit-filter="AGENDA">🗓️ 1. Agenda &amp; Parent Letter</button>
+            <button type="button" class="m3-studiokit-pill" data-studiokit-filter="GEAR">🎒 2. Gear &amp; Buddy Rotator</button>
+            <button type="button" class="m3-studiokit-pill" data-studiokit-filter="PREREQ">✅ 3. Pre-Class Readiness</button>
+            <button type="button" class="m3-studiokit-pill" data-studiokit-filter="FINOPS">📚 4. Grounded Citations &amp; Counselor Rating</button>
+          </div>
+          <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-print-field-qr" title="Print a 1-Page Front-and-Back Pocket Field Checklist with QR Codes to the Official BSA Pamphlet &amp; Resource Guide" style="padding:6px 13px; font-size:0.79rem; font-weight:700;">
+            🧭 Print 1-Page Pocket Field Checklist &amp; QR Handout
+          </button>
         </div>
 
         <div id="studiokit-sec-agenda" style="display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:16px; margin-bottom:16px;">
@@ -1071,77 +1168,67 @@
           <div id="prereq-readiness-list" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:10px;"></div>
         </div>
 
-        <div id="studiokit-sec-finops" style="display:grid; grid-template-columns:minmax(0, 1.85fr) minmax(0, 1.15fr); gap:16px;">
+        <div id="studiokit-sec-finops" style="display:grid; grid-template-columns:minmax(0, 1fr); gap:16px;">
           <div class="m3-card" style="min-width:0;">
             <div class="m3-card-header">
               <h3 class="m3-card-title">
                 <span class="material-symbols-outlined">public</span>
-                Grounded Deep Research Citations &amp; Local Troop Grounding
+                Grounded Research Citations &amp; Local Troop References
               </h3>
               <span class="m3-chip m3-chip-secondary" id="studiokit-canonical-chip">Canonical Fidelity Verified</span>
             </div>
             <div id="studiokit-citations-list" style="display:flex; flex-direction:column; gap:8px; font-size:0.84rem; color:var(--md-sys-color-on-surface);"></div>
           </div>
-
-          <div class="m3-card" style="min-width:0;">
-            <div class="m3-card-header">
-              <h3 class="m3-card-title">
-                <span class="material-symbols-outlined">analytics</span>
-                FinOps Cost &amp; Token Budget ($1.00 Max Cap)
-              </h3>
-            </div>
-            <div id="studiokit-finops-preview" class="m3-finops-table-wrap"></div>
-          </div>
         </div>
 
-        <!-- COUNSELOR RATING & CONTINUOUS LEARNING FLYWHEEL SIGN-OFF CARD -->
-        <div class="m3-card" id="studiokit-feedback-card" style="margin-top:16px; border:1.5px solid #003F87; background:linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);">
+        <!-- UI-7: FRIENDLY COUNSELOR QUALITY RATING CARD (RAW FINOPS & DEV PATHS MOVED TO ADMIN CONSOLE) -->
+        <div class="m3-card" id="studiokit-feedback-card" aria-label="Counselor Sign-Off &amp; Continuous Learning Flywheel" style="margin-top:16px; border:1.5px solid #003F87; background:linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);">
           <div class="m3-card-header" style="margin-bottom:8px;">
             <div>
               <h3 class="m3-card-title" style="color:#003F87;">
                 <span class="material-symbols-outlined">workspace_premium</span>
-                Counselor Sign-Off &amp; Continuous Learning Flywheel (Golden Dataset Promotion)
+                Rate This Merit Badge Teaching Package
               </h3>
               <div style="font-size:0.80rem; color:#475569; margin-top:2px;">
-                Rate this generated Merit Badge package (<code>POST /api/v1/feedback</code>). High-confidence counselor ratings (<strong>&ge; 4/5 Stars</strong> + <strong>Requirement Accuracy Verified</strong>) automatically promote this session into <code>tests/data/golden_extensions.json</code> for CI/CD regression gating.
+                Share anonymous counselor feedback on slide clarity, requirement coverage, and teaching notes to help continuously improve future decks.
               </div>
             </div>
-            <span class="m3-chip m3-chip-gold" id="feedback-schema-version-chip">Schema v1.2.0 &bull; HITL Flywheel</span>
+            <span class="m3-chip m3-chip-gold" id="feedback-schema-version-chip">100% Anonymous Counselor Feedback</span>
           </div>
 
           <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:12px; align-items:end;">
             <div>
-              <label class="m3-field-label" for="feedback-rating-select" style="font-size:0.75rem;">1. Counselor Quality Rating</label>
+              <label class="m3-field-label" for="feedback-rating-select" style="font-size:0.75rem;">1. Overall Package Rating</label>
               <select class="m3-select" id="feedback-rating-select" style="padding:7px 10px; font-size:0.82rem;">
-                <option value="5" selected>⭐⭐⭐⭐⭐ 5 / 5 — Exemplary (Golden Standard)</option>
-                <option value="4">⭐⭐⭐⭐ 4 / 5 — Production Ready (Promote)</option>
-                <option value="3">⭐⭐⭐ 3 / 5 — Acceptable (Needs Minor Edits)</option>
-                <option value="2">⭐⭐ 2 / 5 — Below Standard (Do Not Promote)</option>
-                <option value="1">⭐ 1 / 5 — Reject (Hallucination / Drift)</option>
+                <option value="5" selected>⭐⭐⭐⭐⭐ 5 / 5 — Ready for Troop &amp; Camp Instruction</option>
+                <option value="4">⭐⭐⭐⭐ 4 / 5 — Very Good</option>
+                <option value="3">⭐⭐⭐ 3 / 5 — Helpful with Minor Edits</option>
+                <option value="2">⭐⭐ 2 / 5 — Needs Improvement</option>
+                <option value="1">⭐ 1 / 5 — Missing Key Material</option>
               </select>
             </div>
 
             <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-radius:10px; padding:8px 12px; display:flex; align-items:center; gap:8px;">
               <input type="checkbox" id="feedback-req-verified-checkbox" checked style="width:17px; height:17px; accent-color:#003F87; cursor:pointer;" />
               <label for="feedback-req-verified-checkbox" style="font-size:0.79rem; font-weight:700; color:#003F87; cursor:pointer; line-height:1.3;">
-                ✅ Requirement Accuracy Verified (100% 2026 BSA Pamphlet Fidelity)
+                ✅ Official 2026 BSA Requirement Wording Verified
               </label>
             </div>
 
             <div>
-              <label class="m3-field-label" for="feedback-comments-input" style="font-size:0.75rem;">2. Counselor Sign-Off Notes (Optional)</label>
+              <label class="m3-field-label" for="feedback-comments-input" style="font-size:0.75rem;">2. Teaching Notes or Suggestions (Optional)</label>
               <input
                 type="text"
                 class="m3-input"
                 id="feedback-comments-input"
-                value="Verified all requirement numbers, EDGE teaching notes, and YPT safety callouts for troop instruction."
-                placeholder="Add counselor sign-off notes or pedagogy feedback..."
+                value="Verified requirement numbers, EDGE teaching notes, and YPT safety callouts for troop instruction."
+                placeholder="Add optional counselor notes..."
                 style="padding:7px 10px; font-size:0.81rem;"
               />
             </div>
 
             <button type="button" class="m3-btn m3-btn-filled" id="btn-submit-counselor-feedback" style="padding:9px 16px; font-size:0.82rem; white-space:nowrap;">
-              🌟 Submit Rating &amp; Promote to Golden Dataset
+              🌟 Submit Counselor Rating
             </button>
           </div>
 
@@ -1307,6 +1394,13 @@
                 <button type="button" class="m3-btn m3-btn-outlined" id="btn-admin-recaption-vision" style="width:100%; justify-content:center;">
                   ✨ Auto-Caption with Gemini 2.5 Flash Vision
                 </button>
+                <input type="file" id="admin-replace-file-input" accept=".png,.jpg,.jpeg,.webp,image/png,image/jpeg,image/webp" class="hidden" />
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-admin-replace-upload" style="width:100%; justify-content:center;" title="Upload a PNG/JPG to overwrite this built-in catalog asset in-place (with automatic .bak backup and 8-bit PNG quantization)">
+                  📤 Replace / Upload Built-In Asset (PNG/JPG)
+                </button>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-admin-regenerate-inplace" style="width:100%; justify-content:center;" title="Regenerate this catalog asset in-place with Nano Banana AI (creates automatic .bak backup)">
+                  🍌 Regenerate In-Place with Nano Banana
+                </button>
               </div>
             </div>
           </div>
@@ -1324,32 +1418,41 @@
             </div>
           </div>
 
-          <!-- Telemetry KPI Row -->
-          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(175px, 1fr)); gap:12px; margin-bottom:16px;" id="admin-telemetry-kpi-grid">
+          <!-- Telemetry KPI Row (24h / 7d / All-Time, p50 / p95 / p99 + Histograms, Spend vs Saved) -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:16px;" id="admin-telemetry-kpi-grid">
             <div class="m3-card" style="padding:14px;">
-              <div style="font-size:0.74rem; font-weight:700; color:#475569; text-transform:uppercase;">Total Deck Runs</div>
-              <div style="font-size:1.55rem; font-weight:800; color:#003F87; margin-top:4px;" id="admin-kpi-total-runs">0</div>
-              <div style="font-size:0.74rem; color:#15803D; margin-top:2px;" id="admin-kpi-cache-ratio">Cache Hit Ratio: 0%</div>
+              <div style="font-size:0.73rem; font-weight:800; color:#475569; text-transform:uppercase;">Total Decks Generated (24h / 7d / All-Time)</div>
+              <div style="font-size:1.38rem; font-weight:800; color:#003F87; margin-top:4px;" id="admin-kpi-total-runs">0 / 0 / 0</div>
+              <div style="font-size:0.74rem; color:#15803D; font-weight:700; margin-top:3px;" id="admin-kpi-cache-ratio">Cache Hit Ratio: 0%</div>
+              <div style="font-size:0.71rem; color:#334155; margin-top:4px; line-height:1.35;" id="admin-kpi-tier-depth-breakdown">
+                Tier: BEAUTIFIED 0 &bull; STUDIO 0 &bull; STANDARD 0<br/>Depth: Deep Dive 0 &bull; Standard 0
+              </div>
             </div>
             <div class="m3-card" style="padding:14px;">
-              <div style="font-size:0.74rem; font-weight:700; color:#475569; text-transform:uppercase;">Warm Cache Latency</div>
-              <div style="font-size:1.55rem; font-weight:800; color:#15803D; margin-top:4px;" id="admin-kpi-warm-p50">0 ms</div>
-              <div style="font-size:0.74rem; color:#475569; margin-top:2px;" id="admin-kpi-warm-p95">p95: 0 ms</div>
+              <div style="font-size:0.73rem; font-weight:800; color:#475569; text-transform:uppercase;">Warm Cache Build Latency</div>
+              <div style="font-size:1.35rem; font-weight:800; color:#15803D; margin-top:4px;" id="admin-kpi-warm-p50">p50: 0 ms</div>
+              <div style="font-size:0.74rem; color:#334155; font-weight:600; margin-top:2px;" id="admin-kpi-warm-p95">p95: 0 ms &bull; p99: 0 ms</div>
+              <div id="admin-warm-histogram" class="m3-mini-histogram-wrap" style="margin-top:6px;"></div>
             </div>
             <div class="m3-card" style="padding:14px;">
-              <div style="font-size:0.74rem; font-weight:700; color:#475569; text-transform:uppercase;">Cold Synthesis Latency</div>
-              <div style="font-size:1.55rem; font-weight:800; color:#B45309; margin-top:4px;" id="admin-kpi-cold-p50">0 ms</div>
-              <div style="font-size:0.74rem; color:#475569; margin-top:2px;" id="admin-kpi-cold-p95">p95: 0 ms</div>
+              <div style="font-size:0.73rem; font-weight:800; color:#475569; text-transform:uppercase;">Cold Live-LLM Build Latency</div>
+              <div style="font-size:1.35rem; font-weight:800; color:#B45309; margin-top:4px;" id="admin-kpi-cold-p50">p50: 0 ms</div>
+              <div style="font-size:0.74rem; color:#334155; font-weight:600; margin-top:2px;" id="admin-kpi-cold-p95">p95: 0 ms &bull; p99: 0 ms</div>
+              <div id="admin-cold-histogram" class="m3-mini-histogram-wrap" style="margin-top:6px;"></div>
             </div>
             <div class="m3-card" style="padding:14px;">
-              <div style="font-size:0.74rem; font-weight:700; color:#475569; text-transform:uppercase;">Anonymous Star Rating</div>
-              <div style="font-size:1.55rem; font-weight:800; color:#003F87; margin-top:4px;" id="admin-kpi-avg-rating">5.0 ★</div>
-              <div style="font-size:0.74rem; color:#475569; margin-top:2px;" id="admin-kpi-golden-count">0 Golden Promotions</div>
+              <div style="font-size:0.73rem; font-weight:800; color:#475569; text-transform:uppercase;">Single-Slide Regenerate Latency</div>
+              <div style="font-size:1.35rem; font-weight:800; color:#0369A1; margin-top:4px;" id="admin-kpi-regen-p50">p50: 0 ms</div>
+              <div style="font-size:0.74rem; color:#334155; font-weight:600; margin-top:2px;" id="admin-kpi-regen-p95">p95: 0 ms &bull; p99: 0 ms</div>
+              <div id="admin-regen-histogram" class="m3-mini-histogram-wrap" style="margin-top:6px;"></div>
             </div>
             <div class="m3-card" style="padding:14px;">
-              <div style="font-size:0.74rem; font-weight:700; color:#475569; text-transform:uppercase;">Cumulative FinOps Spend</div>
-              <div style="font-size:1.55rem; font-weight:800; color:#0F172A; margin-top:4px;" id="admin-kpi-total-spend">$0.0000</div>
-              <div style="font-size:0.74rem; color:#15803D; margin-top:2px;">$1.00 Hard Cap Enforced</div>
+              <div style="font-size:0.73rem; font-weight:800; color:#475569; text-transform:uppercase;">FinOps Spend vs. Catalog Savings</div>
+              <div style="font-size:1.30rem; font-weight:800; color:#0F172A; margin-top:4px;" id="admin-kpi-total-spend">$0.0000 Spent</div>
+              <div style="font-size:0.80rem; font-weight:800; color:#15803D; margin-top:3px;" id="admin-kpi-total-saved">💰 $0.00 Saved via Pre-Cached Catalog</div>
+              <div style="font-size:0.72rem; color:#475569; margin-top:3px;">
+                Rating: <strong id="admin-kpi-avg-rating">5.0 ★</strong> (<span id="admin-kpi-golden-count">0 Golden</span>)
+              </div>
             </div>
           </div>
 
@@ -1368,26 +1471,68 @@
               <div class="m3-card-header">
                 <h4 class="m3-card-title" style="font-size:0.94rem;">
                   <span class="material-symbols-outlined">swap_horiz</span>
-                  Anonymous Visual Swap &amp; Regeneration Hotspots
+                  Anonymous Visual Swap Hotspots &amp; 1-Click Default Promotion
                 </h4>
               </div>
               <div id="admin-image-swaps-table-wrap" style="overflow-x:auto;"></div>
             </div>
           </div>
 
-          <div class="m3-card">
-            <div class="m3-card-header">
-              <h4 class="m3-card-title" style="font-size:0.94rem;">
-                <span class="material-symbols-outlined">speed</span>
-                5-Agent Pipeline Stage Latency Breakdown (p50 / p95 ms)
-              </h4>
+          <div style="display:grid; grid-template-columns:minmax(0, 1.25fr) minmax(0, 1fr); gap:16px;">
+            <div class="m3-card">
+              <div class="m3-card-header">
+                <h4 class="m3-card-title" style="font-size:0.94rem;">
+                  <span class="material-symbols-outlined">speed</span>
+                  6-Stage ADK Pipeline Latency Breakdown (p50 / p95 / p99 ms + Histogram)
+                </h4>
+              </div>
+              <div id="admin-stage-latency-bars" style="display:flex; flex-direction:column; gap:10px;"></div>
             </div>
-            <div id="admin-stage-latency-bars" style="display:flex; flex-direction:column; gap:8px;"></div>
+
+            <div class="m3-card">
+              <div class="m3-card-header">
+                <h4 class="m3-card-title" style="font-size:0.94rem;">
+                  <span class="material-symbols-outlined">analytics</span>
+                  Active Deck FinOps Cost &amp; Token Budget Ledger ($1.00 Hard Cap)
+                </h4>
+              </div>
+              <div id="studiokit-finops-preview" class="m3-finops-table-wrap"></div>
+            </div>
           </div>
         </div>
 
         <!-- ADMIN SUB-TAB 3: SYSTEM DIAGNOSTICS & 144-BADGE ASSET HEALTH -->
         <div id="admin-subtab-diagnostics" class="hidden">
+          <!-- ADMIN #9: 1-CLICK MAINTENANCE ACTIONS CARD -->
+          <div class="m3-card" style="margin-bottom:16px; background:#F8FAFC; border:1.5px solid #CBD5E1;">
+            <div class="m3-card-header" style="flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+              <div>
+                <h4 class="m3-card-title" style="font-size:0.95rem; color:#003F87;">
+                  <span class="material-symbols-outlined">build_circle</span>
+                  🧰 1-Click Super-User Maintenance Actions
+                </h4>
+                <div style="font-size:0.78rem; color:#475569;">
+                  Execute safe, non-destructive maintenance sweeps on temporary caches, 144-badge cover/emblem assets, U.S. Senator delegations, and Zero-PII telemetry snapshots.
+                </div>
+              </div>
+              <span id="admin-maintenance-status-pill" class="m3-chip m3-chip-secondary">Ready</span>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px;">
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-admin-maint-purge-cache" style="justify-content:center; padding:8px 12px; font-size:0.78rem;">
+                🗑️ Purge Temporary Web/AI Caches
+              </button>
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-admin-maint-repair-covers" style="justify-content:center; padding:8px 12px; font-size:0.78rem;">
+                🔧 Verify &amp; Repair 144 Covers &amp; Emblems
+              </button>
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-admin-maint-refresh-senators" style="justify-content:center; padding:8px 12px; font-size:0.78rem;">
+                🏛️ Refresh 100 U.S. Senators Cache
+              </button>
+              <button type="button" class="m3-btn m3-btn-filled" id="btn-admin-maint-download-snapshot" style="justify-content:center; padding:8px 12px; font-size:0.78rem;">
+                📥 Download Zero-PII Telemetry Snapshot (.JSON)
+              </button>
+            </div>
+          </div>
+
           <div class="m3-card" style="margin-bottom:16px;">
             <div class="m3-card-header" style="flex-wrap:wrap; gap:10px;">
               <div>
@@ -1406,21 +1551,21 @@
             <div id="admin-circuit-breakers-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px;"></div>
           </div>
 
-          <div class="m3-card">
+          <div class="m3-card" style="margin-bottom:16px;">
             <div class="m3-card-header" style="flex-wrap:wrap; gap:10px;">
               <div>
                 <h4 class="m3-card-title" style="font-size:0.95rem;">
                   <span class="material-symbols-outlined">inventory_2</span>
-                  144-Badge Visual Asset Health Matrix
+                  144-Badge Visual Asset Health Matrix (Locked Sticky Column Headers)
                 </h4>
                 <div style="font-size:0.78rem; color:#475569;" id="admin-asset-summary-subtitle">
-                  Auditing all 144 official Merit Badges for pamphlet covers, high-DPI emblems, extracted pamphlet figures, and Nano Banana heroes.
+                  Auditing all 144 official Merit Badges for pamphlet covers, high-DPI emblems, extracted pamphlet figures, Nano Banana heroes, and PDF/requirement indexes.
                 </div>
               </div>
               <input type="search" class="m3-input" id="admin-asset-matrix-search" placeholder="🔎 Filter 144 badges..." style="width:220px; padding:6px 10px; font-size:0.79rem;" />
             </div>
-            <div style="max-height:480px; overflow-y:auto; border:1px solid #E2E8F0; border-radius:10px;">
-              <table class="m3-finops-table" style="width:100%;">
+            <div class="m3-sticky-matrix-scroll" style="max-height:480px; overflow-y:auto; border:1px solid #E2E8F0; border-radius:10px;">
+              <table class="m3-finops-table m3-sticky-matrix-table" style="width:100%;">
                 <thead>
                   <tr>
                     <th>Merit Badge</th>
@@ -1429,11 +1574,72 @@
                     <th>Emblem</th>
                     <th>Pamphlet Figs</th>
                     <th>Nano Heroes</th>
+                    <th>PDF &amp; Index</th>
                     <th>Action</th>
                   </tr>
                 </thead>
                 <tbody id="admin-asset-health-table-body"></tbody>
               </table>
+            </div>
+          </div>
+
+          <!-- ADMIN #5: PROMPT SHA-256 MANIFEST & ZERO-PII GUARDRAIL AUDIT LOG -->
+          <div style="display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:16px;">
+            <div class="m3-card">
+              <div class="m3-card-header">
+                <div>
+                  <h4 class="m3-card-title" style="font-size:0.94rem;">
+                    <span class="material-symbols-outlined">verified</span>
+                    🔒 Prompt SHA-256 Manifest (<code>prompts/manifest.json</code>)
+                  </h4>
+                  <div style="font-size:0.76rem; color:#475569;">
+                    Cryptographic integrity verification for all versioned ADK system prompts.
+                  </div>
+                </div>
+                <span class="m3-chip m3-chip-secondary" id="admin-prompt-manifest-chip">SHA-256 Verified</span>
+              </div>
+              <div style="overflow-x:auto;">
+                <table class="m3-finops-table" style="width:100%;">
+                  <thead>
+                    <tr>
+                      <th>Prompt ID</th>
+                      <th>Version</th>
+                      <th>File</th>
+                      <th>SHA-256 Prefix</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-prompt-manifest-table-body"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="m3-card">
+              <div class="m3-card-header">
+                <div>
+                  <h4 class="m3-card-title" style="font-size:0.94rem;">
+                    <span class="material-symbols-outlined">policy</span>
+                    🛡️ Zero-PII Guardrail &amp; Security Audit Log
+                  </h4>
+                  <div style="font-size:0.76rem; color:#475569;">
+                    Recent anonymous guardrail inspections (prompt-injection checks, YPT Two-Deep Leadership, and PII scrubbing).
+                  </div>
+                </div>
+                <span class="m3-chip m3-chip-primary">Zero PII Logged</span>
+              </div>
+              <div style="max-height:260px; overflow-y:auto;">
+                <table class="m3-finops-table" style="width:100%;">
+                  <thead>
+                    <tr>
+                      <th>Timestamp (UTC)</th>
+                      <th>Stage / Check</th>
+                      <th>Outcome</th>
+                      <th>Details</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-guardrail-audit-table-body"></tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
@@ -1648,7 +1854,7 @@
 
   <!-- MODAL: KEYBOARD SHORTCUTS CHEAT-SHEET (`?`) -->
   <div class="m3-modal-backdrop hidden" id="keyboard-shortcuts-modal" role="dialog" aria-modal="true" aria-labelledby="shortcuts-modal-title">
-    <div class="m3-modal-dialog" style="max-width:560px; width:92%; padding:22px;">
+    <div class="m3-modal-dialog" style="max-width:580px; width:92%; padding:22px;">
       <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; border-bottom:1px solid #E2E8F0; padding-bottom:8px;">
         <h3 id="shortcuts-modal-title" style="font-family:'Roboto Slab',serif; font-size:1.08rem; font-weight:800; color:#003F87; margin:0;">
           ⌨️ Counselor Workbench Keyboard Shortcuts
@@ -1656,8 +1862,11 @@
         <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-shortcuts-modal" style="padding:4px 10px; font-size:0.78rem;">✕ Close</button>
       </div>
       <div style="display:grid; grid-template-columns:auto 1fr; gap:8px 16px; font-size:0.83rem; align-items:center;">
-        <kbd class="m3-kbd">←</kbd><span>Previous Slide in Storyboard</span>
-        <kbd class="m3-kbd">→</kbd><span>Next Slide in Storyboard</span>
+        <kbd class="m3-kbd">← / →</kbd><span>Previous / Next Slide in Storyboard</span>
+        <kbd class="m3-kbd">[ / ]</kbd><span>Previous / Next Slide Image Choice (Easy Slide Image Switcher)</span>
+        <kbd class="m3-kbd">Alt + ← / →</kbd><span>Cycle Slide Image Choice (Alternate Shortcut)</span>
+        <kbd class="m3-kbd">Space</kbd><span>Reveal Quiz Answer Card on Active Slide</span>
+        <kbd class="m3-kbd">N</kbd><span>Toggle Counselor Speaker Notes / Fullscreen Teleprompter</span>
         <kbd class="m3-kbd">F</kbd><span>Toggle Fullscreen Projector Mode</span>
         <kbd class="m3-kbd">P</kbd><span>Open Dual-Screen Presenter Speaker Notes Window</span>
         <kbd class="m3-kbd">Q</kbd><span>Toggle Classroom Quiz &amp; Scenario Answer Reveal Mode</span>
@@ -1665,6 +1874,78 @@
         <kbd class="m3-kbd">?</kbd><span>Open / Close Keyboard Shortcuts Cheat-Sheet</span>
         <kbd class="m3-kbd">Ctrl + Shift + A</kbd><span>Open Super-User Admin Console</span>
       </div>
+    </div>
+  </div>
+
+  <!-- MODAL: 144 MERIT BADGE VISUAL PATCH GALLERY (UI-6) -->
+  <div class="m3-modal-backdrop hidden" id="patch-gallery-modal" role="dialog" aria-modal="true" aria-labelledby="patch-gallery-modal-title">
+    <div class="m3-modal-dialog" style="max-width:980px; width:95%; max-height:88vh; overflow-y:auto; padding:22px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; border-bottom:2px solid #E2E8F0; padding-bottom:10px; flex-wrap:wrap;">
+        <div>
+          <h3 id="patch-gallery-modal-title" style="font-family:'Roboto Slab',serif; font-size:1.15rem; font-weight:800; color:#003F87; margin:0;">
+            🎖️ Visual Merit Badge Patch Gallery (All 144 Official Badges)
+          </h3>
+          <div style="font-size:0.80rem; color:#475569; margin-top:2px;">
+            Gold-bordered emblems denote Eagle-Required Merit Badges (18). Click any patch to select that Merit Badge.
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+          <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 144 patches..." style="width:200px; padding:6px 10px; font-size:0.80rem;" />
+          <select class="m3-select" id="patch-gallery-filter-select" style="width:auto; padding:6px 10px; font-size:0.80rem;">
+            <option value="ALL">All 144 Badges</option>
+            <option value="EAGLE">★ Eagle-Required (18)</option>
+            <option value="ELECTIVE">Elective Badges (126)</option>
+          </select>
+          <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-patch-gallery" style="padding:6px 12px;">✕ Close</button>
+        </div>
+      </div>
+      <div id="patch-gallery-grid" class="m3-patch-gallery-grid"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: INSERT CUSTOM LOCAL SLIDE (COUNSELOR FEATURE 3) -->
+  <div class="m3-modal-backdrop hidden" id="insert-custom-slide-modal" role="dialog" aria-modal="true" aria-labelledby="insert-custom-slide-title">
+    <div class="m3-modal-dialog" style="max-width:560px; width:92%; padding:22px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; border-bottom:1px solid #E2E8F0; padding-bottom:8px;">
+        <h3 id="insert-custom-slide-title" style="font-family:'Roboto Slab',serif; font-size:1.06rem; font-weight:800; color:#003F87; margin:0;">
+          ➕ Insert Custom Local Camp / Troop Slide
+        </h3>
+        <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-insert-slide-modal" style="padding:4px 10px; font-size:0.78rem;">✕</button>
+      </div>
+      <p style="font-size:0.80rem; color:#475569; margin-bottom:10px;">
+        Insert a custom teaching slide right after the active slide (e.g., Camp Wanocksett Trading Post hours, waterfront buddy tags, or troop gear drop-off). Automatically updates the live deck and exported <code>.pptx</code>.
+      </p>
+      <div class="m3-field-group">
+        <label class="m3-field-label" for="custom-slide-title-input">1. Slide Title</label>
+        <input type="text" class="m3-input" id="custom-slide-title-input" value="Local Camp &amp; Troop Field Rules" />
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+        <div class="m3-field-group">
+          <label class="m3-field-label" for="custom-slide-req-input">2. Requirement / Tag</label>
+          <input type="text" class="m3-input" id="custom-slide-req-input" value="Local" />
+        </div>
+        <div class="m3-field-group">
+          <label class="m3-field-label" for="custom-slide-archetype-select">3. Slide Layout</label>
+          <select class="m3-select" id="custom-slide-archetype-select">
+            <option value="CONCEPT_TEXT_SLIDE" selected>Full-Width Text Cards</option>
+            <option value="GEAR_CHECKLIST_GRID">2-Column Inspection Checklist</option>
+            <option value="SOCRATIC_CHECKPOINT_QUIZ">Patrol Scenario &amp; Quiz</option>
+          </select>
+        </div>
+      </div>
+      <div class="m3-field-group">
+        <label class="m3-field-label" for="custom-slide-bullets-input">4. Teaching Cards (One per line — "Heading: Detail")</label>
+        <textarea class="m3-input" id="custom-slide-bullets-input" rows="3">Camp Check-In &amp; Buddy Tags: Report to the skill pavilion 10 minutes before class with your buddy pair and water bottle.
+Local Gear &amp; Safety Rules: Keep all field equipment inside the designated patrol work area.
+Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Friday open sign-off.</textarea>
+      </div>
+      <div class="m3-field-group">
+        <label class="m3-field-label" for="custom-slide-notes-input">5. Counselor Speaker Notes ([SAY] / [DEMONSTRATE] / [ASK SCOUTS])</label>
+        <textarea class="m3-input" id="custom-slide-notes-input" rows="2">[SAY] Let's review our local camp logistics and troop safety expectations before starting the hands-on stations.</textarea>
+      </div>
+      <button type="button" class="m3-btn m3-btn-filled" id="btn-confirm-insert-custom-slide" style="width:100%; justify-content:center;">
+        ➕ Insert Slide &amp; Rebuild .PPTX
+      </button>
     </div>
   </div>
 

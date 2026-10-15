@@ -4,13 +4,14 @@ Welcome to the **Scouts BSA Merit Badge Counselor Workbench**. Whether you are p
 
 Instead of spending an entire weekend formatting slides and typing up handouts from scratch, you can generate:
 - A widescreen (`16:9`) **PowerPoint Slide Deck (`.pptx`)** with official requirement wording, clear teaching cards, diagrams, official pamphlet figures, and counselor speaker notes.
-- A **Dual-Window Presenter View (`🪟 Presenter View`)** and **Live Classroom & Skill Station Timer (`⏱️ Timer`)** so you can project slides to your patrol while reading your `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` script on your laptop.
+- A **Dual-Window Presenter View (`🪟 Presenter View`)**, **Fullscreen Teleprompter Notes Drawer (`🎙️ Notes (N)`)**, **Interactive Patrol Scoreboard (`🏆 Patrol Scoreboard`)**, and **Live Classroom & Skill Station Timer (`⏱️ Timer`)** so you can project slides to your patrol while reading your `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` script.
+- A **Slide Deck Customizer** directly in the left outline so you can insert custom local camp slides (`➕ Insert Slide`), hide home-prerequisite slides (`👁️ Hide Prereqs`), or reorder and skip individual slides (`▲` / `▼` / `👁`) before exporting your `.pptx`.
 - A printable **Scout & Counselor Workbook (`.md` / PDF)** with section filters, fill-in-the-blank study boxes, and requirement sign-off checklists.
-- **Printable 3x5 Counselor Pocket Cue Cards** (4 cards per page) for outdoor field instruction away from a screen.
+- **Printable 3x5 Counselor Pocket Cue Cards** (4 cards per page) and a **1-Page Printable Pocket Field Checklist & QR Handout** for outdoor field instruction away from a screen.
 - A **Counselor Session Agenda & Patrol Skill Station Rotator Matrix** tailored to your meeting schedule and patrol count.
 - A **Master Quartermaster Gear Checklist** and **Pre-Class Prerequisite Readiness Checklist** scaled to the size of your patrol or class.
 - A **Youth Protection (YPT) Prerequisite & Parent Welcome Letter** ready to open in your email app or Gmail.
-- An interactive **Patrol Blue Card (`#34124`) & Scoutbook Plus Sign-Off Tracker** with bulk roster paste and completion date stamping.
+- An interactive **Patrol Blue Card (`#34124`) & Scoutbook Plus Sign-Off Tracker** with Scoutbook `.csv` import (`📤 Import CSV`), bulk roster paste, 1-click column header sign-off, completion date stamping, and **Printable 3-Panel Blue Cards (`#34124`)**.
 
 > [!NOTE]
 > **System Administrators & Curriculum Maintainers**: Looking for the Zero-PII Super-User Admin Console (144-badge image and caption curation studio, aggregated usage/latency/image-swap telemetry, and system diagnostics)? Read the dedicated **[Super-User Admin Guide (`docs/ADMIN_GUIDE.md`)](ADMIN_GUIDE.md)**.
@@ -59,7 +60,7 @@ The Workbench is organized into four main areas so you can set up your class on 
 
 | Screen Area | Where to Find It | What You Use It For |
 | :--- | :--- | :--- |
-| **Top Application Bar** | Across the very top of the window | Displays your saved **Counselor Profile chip** (click it to jump straight to your profile settings), direct links to the **Official BSA Pamphlet** and **Resource Guide**, the **🪟 Presenter View** button, the **📥 Export & Print ▾** dropdown menu (with 6 download and print actions), and the **`?` Keyboard Shortcuts** button. |
+| **Top Application Bar** | Across the very top of the window | Displays your saved **Counselor Profile chip** (click it to jump straight to your profile settings), direct links to the **Official BSA Pamphlet** and **Resource Guide**, the **🪟 Presenter View** button, the **📥 Export & Print ▾** dropdown menu (with 7 download and print actions including the 1-Page Field & QR Handout), the **☀️ Sunlight** high-contrast outdoor mode toggle, and the **`?` Keyboard Shortcuts** button. |
 | **Left Setup Sidebar** | Left column (`1. Find & Select Merit Badge` and `2. Deck Style & Counselor Info`) | Lets you choose any of the 144 Merit Badges, set deck length and visual style, enter your local troop information, and click **Generate Slide Deck & Workbook**. You can collapse this sidebar anytime by clicking **Hide Setup** on the left side of the main tab bar. |
 | **Blue Merit Badge Summary Banner** | Top of the right main stage | Shows the official Merit Badge patch emblem, whether the badge is **Eagle-Required** or **Elective**, the badge category, and three side-by-side summary boxes on the right: **TOTAL SLIDES**, **REQUIREMENTS**, and **VISUAL POLISH**. |
 | **4 Main Workbench Tabs** | Directly below the blue summary banner | Switches the main workspace between:<br/>1. **Slide Deck Preview**<br/>2. **Requirements & Blue Card Sign-Off**<br/>3. **Scout & Counselor Workbook**<br/>4. **Lesson Plan, Gear List, Parent Letter & FinOps** |
@@ -79,6 +80,7 @@ In the upper-left card (**1. Find & Select Merit Badge**), you have four ways to
 | **Category** | Filter by Scouting subject area: *All Categories*, *Outdoor & Campcraft*, *Health & Public Safety*, *Citizenship & Personal Development*, *Nature & Environment*, *STEM & Science*, *Aquatics & Sports*, *Trades, Business & Careers*, or *Arts, Crafts & Hobbies*. | Helpful when planning a themed campout weekend (such as an Aquatics weekend or a STEM Merit Badge Midway). |
 | **Eagle Status** | Choose **All Badges (144)**, **Eagle-Required (18)**, or **Electives (126)**. | In the dropdown list, Eagle-Required badges are marked with a star (**★**). |
 | **Quick-Select Popular Badges** | One-click buttons for **★ First Aid**, **Weather**, **★ Camping**, **★ Cit. in Nation**, **★ Cooking**, **★ Emergency Prep**, **★ Env. Science**, and **Robotics**. | Clicking a quick-select pill selects that badge and immediately starts building its slide deck and workbook. |
+| **⚜️ Browse Visual Patch Gallery (144)** | Opens an interactive 144-badge visual patch grid modal with category and Eagle-Required filters. | Click any Merit Badge patch card in the gallery to load that badge and view its official emblem and category. |
 
 ---
 
@@ -127,10 +129,13 @@ You can switch between the three animations using the top buttons, step backward
 
 When **Slide Deck Preview** (Tab 1) is active, you have fast controls for navigating slides, switching visuals, timing your class, and projecting to a patrol:
 
-### 1. Slide Outline, Visual Source Badges & Keyword Filter (Left Column of Tab 1)
+### 1. Slide Outline, Mini Thumbnails, Deck Customizer & Keyword Filter (Left Column of Tab 1)
 - Type a requirement number (such as `2b` or `4a`) or a topic word (such as `CPR`, `tourniquet`, or `splint`) into **🔎 Filter slides by keyword or req...** to narrow the slide list.
-- Each card in the **Slide Filmstrip Outline** displays a color-coded visual source badge (`[🍌 Hero]`, `[📘 Pamphlet]`, `[📊 Diagram]`, `[📁 Custom]`, or `[📝 Text]`) alongside a **`🖼️ 3`** multi-choice count badge whenever the slide has multiple curated image options.
-- Click any card in the outline to display that slide on the 16:9 stage.
+- Each card in the **Slide Filmstrip Outline** displays a **`32x32` miniature visual thumbnail** alongside a color-coded visual source badge (`[🍌 Hero]`, `[📘 Pamphlet]`, `[📊 Diagram]`, `[📁 Custom]`, or `[📝 Text]`) and a **`🖼️ 3`** multi-choice count badge whenever the slide has multiple curated image options.
+- **Slide Deck Customizer (`➕ Insert Slide`, `👁️ Hide Prereqs`, `▲` / `▼` / `👁`)**:
+  - Click **`➕ Insert Slide`** at the top of the outline to insert a custom local camp slide (such as local waterfront buddy-board rules, trading post schedule, or troop campsite map) right after the active slide.
+  - Click **`👁️ Hide Prereqs`** to automatically toggle off home-prerequisite slides (such as 30-day chore logs or family budgets) during a short summer camp block.
+  - Use the per-slide **`▲`**, **`▼`**, and **`👁`** micro-buttons on any filmstrip card to reorder slides or hide/skip a slide. Hidden slides are dimmed in the outline, skipped during fullscreen presentation, and automatically excluded from your rebuilt `.pptx` file.
 
 ### 2. Requirement Quick-Jump Bar (`JUMP TO:`)
 - Directly above the 16:9 slide canvas, the **JUMP TO:** bar lists clickable pills for **Cover**, **Overview**, every requirement (**Req 1**, **Req 2a**, **Req 2b**, ...), and **Sources**.
@@ -142,11 +147,11 @@ When **Slide Deck Preview** (Tab 1) is active, you have fast controls for naviga
   - When a slide has multiple visual choices (such as the primary pamphlet figure plus up to 2 Gemini Vision-verified BSA pamphlet alternates for that requirement, or custom images you uploaded for that slide), the pill shows **`◀`** and **`▶`** arrows and a **`(1/3) ▾`** counter.
   - Click **`◀`** or **`▶`** (or press **`[`** and **`]`** on your keyboard) to switch between the slide's image options in one click, or click **`(1/3) ▾`** to open a popover showing each option's thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`), and Vision-verified caption. Picking any option updates the slide image and its caption right away and rebuilds your `.pptx` file in the background at `$0.00` cost. You can also click **`+ Upload / Add Custom Image for This Slide...`** at the bottom of the popover to open the 4-Tab Image Studio.
 
-### 4. Dual-Window Presenter View, Fullscreen Mode, Classroom Timer & Quiz Mode
+### 4. Dual-Window Presenter View, Fullscreen Teleprompter (`N`), Classroom Timer & Patrol Scoreboard
 - **🪟 Dual-Window Presenter View (`🪟 Presenter View` or press `P`)**: Opens a synchronized audience projection window (`scouts_bsa_presenter_sync_v1`) that you can drag onto a classroom projector or TV. The audience sees only the clean 16:9 slide canvas, while your laptop screen keeps your **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** teaching script, next-slide preview, and session timer in front of you.
-- **🖥️ Present Fullscreen (`🖥️ Present Fullscreen` or press `F`)**: Expands the 16:9 slide canvas across your entire screen with a floating bottom control bar (**◀ Prev**, **Next ▶**, **✕ Exit Fullscreen**).
+- **🖥️ Present Fullscreen (`🖥️ Present Fullscreen` or press `F`) & Teleprompter Notes (`🎙️ Notes (N)`)**: Expands the 16:9 slide canvas across your entire screen with a floating bottom control bar (**◀ Prev**, **Next ▶**, **🎙️ Notes (N)**, **✕ Exit Fullscreen**). Clicking **`🎙️ Notes (N)`** (or pressing **`N`**) slides up a semi-transparent bottom teleprompter drawer displaying your **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** script right inside Fullscreen mode.
 - **⏱️ Live Classroom Session & Skill Station Timer (`⏱️ Timer`)**: Click the timer pill in the stage toolbar to start a countdown for **`45m Troop`**, **`50m Camp`**, **`10m Station`**, or **`+5m`**. The timer pill turns amber at 5 minutes remaining and crimson at 1 minute remaining so your patrol stays on schedule without an alarm interrupting your talk.
-- **❓ Interactive Quiz Reveal Mode (`❓ Hide Quiz Answers (Scout Mode)` or press `Q`)**: When checked, Socratic Checkpoint & Scenario slides hide the counselor answer key and coaching tips behind a **`👁️ Reveal Answer & Coaching Tip`** button so your patrol can debate the scenario before seeing the solution.
+- **❓ Interactive Quiz Reveal Mode (`Q`) & 🏆 Patrol Scoreboard**: When **Hide Quiz Answers (Scout Mode)** is checked, Socratic Checkpoint & Scenario slides hide the counselor answer key behind a **`👁️ Reveal Answer & Coaching Tip`** button and display an interactive **🏆 Patrol Scoreboard** (`🦅 Eagle`, `🦊 Fox`, `🐺 Wolf`, `🐻 Bear` with `+1` / `-1` / `↺ Reset` buttons) so patrols can compete during checkpoint reviews.
 - **`?` Keyboard Shortcuts Cheat-Sheet Modal**: Click **`?`** in the top bar (or press `?` on your keyboard) to view all stage and image shortcuts:
 
 | Key | Action |
@@ -154,6 +159,7 @@ When **Slide Deck Preview** (Tab 1) is active, you have fast controls for naviga
 | **`←` / `→`** | Previous / Next slide |
 | **`[` / `]`** | Cycle previous / next image choice in the Easy Slide Image Switcher |
 | **`F`** | Toggle Fullscreen classroom projector mode |
+| **`N`** | Toggle Fullscreen Teleprompter Notes Drawer (`[SAY]` / `[DEMO]` / `[ASK]`) |
 | **`P`** | Open Dual-Window Presenter View |
 | **`Q`** | Toggle Quiz Answer Hide/Reveal mode (`Scout Mode`) |
 | **`?`** | Open Keyboard Shortcuts Cheat-Sheet modal |
@@ -243,16 +249,19 @@ Every requirement card lists the **exact official BSA requirement text**, the re
 
 ### Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker
 Below the requirement columns sits an interactive roster table saved automatically in your browser for each Merit Badge:
-1. **Add Scouts Individually or via Bulk Paste**:
+1. **Add Scouts Individually, via Bulk Paste, or via Scoutbook `.CSV` Import**:
    - Type a Scout's name (for example, `Alex Carter - Eagle Patrol`) into the box and click **➕ Add Scout** (or press `Enter`).
-   - Or click **📋 Bulk Paste Roster** to paste an entire patrol or class list from Scoutbook, TroopWebHost, or a spreadsheet (one Scout per line, such as `Name, Patrol / Unit`) and add everyone at once.
-2. **Check Off Completed Requirements & Stamp Dates**:
+   - Click **📋 Bulk Paste Roster** to paste an entire patrol or class list from a spreadsheet (one Scout per line, such as `Name, Patrol / Unit`).
+   - Or click **📤 Import CSV** to upload a standard `.csv` roster exported from **Scoutbook Plus** or **TroopWebHost** (`Scout Name`, `BSA Member ID`, `Unit`, `Patrol`, and existing requirement checkmarks).
+2. **Check Off Completed Requirements, Bulk Sign Off Columns & Stamp Dates**:
    - As each Scout demonstrates mastery of a requirement (`1`, `2a`, `2b`, `3`, ...), check the box in their row.
+   - Click any **Requirement Column Header (`1 ✓`, `2a ✓`, ...)** to toggle that requirement for the entire patrol in one click after a group demonstration.
    - Pick a date in the **📅 Completion Date** field and click **Stamp Checked** to record the completion date across all checked cells (included automatically in your Scoutbook CSV export and printed Sign-Off Sheet).
 3. **Automatic `Partial` vs. `Complete` Blue Card Status**: The **Blue Card Status** column automatically shows `Partial (X/Y)` in amber while a Scout is still working, and switches to `Complete (Y/Y)` in green once all requirements are checked. You can also click **All ✓** in the **Quick** column to check or uncheck an entire row at once.
-4. **Export or Print Your Records**:
+4. **Export Scoutbook CSV, Print Patrol Sheet, or Print 3-Panel Blue Cards (`#34124`)**:
    - Click **📥 Export Scoutbook CSV** to download a `.csv` spreadsheet listing every Scout, unit, requirement status, completion date, and counselor name for easy entry into **Scoutbook Plus** or troop advancement records.
    - Click **🖨️ Print Sign-Off Sheet** to open a clean, printable **Application for Merit Badge (`#34124`) Patrol Sign-Off Record** complete with a Counselor signature and date line.
+   - Click **🪪 Print 3-Panel Blue Cards (#34124)** to generate printable 3-column tri-fold Blue Cards (*Applicant's Record*, *Application for Merit Badge*, and *Counselor's Record*) pre-populated with each Scout's name, unit, completed requirement initials/dates, and your counselor signature block.
 
 ---
 

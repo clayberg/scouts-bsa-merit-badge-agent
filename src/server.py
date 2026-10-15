@@ -716,6 +716,7 @@ async def api_regenerate_slide(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
     """Surgically updates a single slide's graphic, magazine theme, palette, and archetype layout, and rebuilds the .pptx."""
+    t_regen_start = time.perf_counter()
     from src.agents.beautifier import generate_ai_editorial_illustration
     from src.agents.image_studio import register_image_in_badge_catalog
     from src.tools.pptx_builder import (
@@ -891,11 +892,16 @@ async def api_regenerate_slide(
             out_file = req.output_path or str(
                 GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Regen_Merit_Badge_Deck.pptx"
             )
+            visible_slides = [
+                SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+                for s in slides_copy
+                if not s.get("hidden")
+            ]
             build_res = await asyncio.to_thread(
                 generate_bsa_slide_deck_pptx,
                 PowerPointBuildRequest(
                     badge_name=req.badge_name,
-                    slides=[SlideSpec(**s) for s in slides_copy],
+                    slides=visible_slides,
                     counselor_info=c_info,
                     output_path=out_file,
                 ),
@@ -904,6 +910,17 @@ async def api_regenerate_slide(
                 rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
         except Exception as exc:
             logger.warning("Failed to rebuild PPTX during slide regenerate: %s", exc)
+
+    elapsed_regen_ms = round((time.perf_counter() - t_regen_start) * 1000.0, 2)
+    try:
+        get_zero_pii_telemetry_store().record_stage_latency(
+            stage_id="slide_regenerate",
+            badge_name=req.badge_name,
+            duration_ms=elapsed_regen_ms,
+            cache_hit=(vis_mode != "ai_hero"),
+        )
+    except Exception:
+        pass
 
     updated_slide_out = dict(req.slide_data or {})
     updated_slide_out["archetype"] = effective_archetype
@@ -929,6 +946,129 @@ async def api_regenerate_slide(
         "svg_url": svg_url,
         "pptx_download_url": rebuilt_pptx_url,
         "updated_slide": updated_slide_out,
+        "duration_ms": elapsed_regen_ms,
+    }
+
+
+class SlideDeckCustomizeRequest(BaseModel):
+    badge_name: str = Field("First Aid", description="Official Merit Badge name.")
+    action: str = Field(
+        "sync_slides",
+        description="Customization action (`insert_custom_slide`, `toggle_hide_slide`, `hide_home_prereq_slides`, `reorder_slide`, `sync_slides`).",
+    )
+    slide_index: int = Field(0, description="Target slide index in storyboard_slides.")
+    direction: Optional[str] = Field(None, description="Reorder direction (`up` or `down`).")
+    hide_prereqs: Optional[bool] = Field(None, description="Whether to hide home-prereq slides.")
+    custom_slide: Optional[Dict[str, Any]] = Field(None, description="Custom slide payload when action is `insert_custom_slide`.")
+    storyboard_slides: List[Dict[str, Any]] = Field(default_factory=list, description="Full slide array from client state.")
+    counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
+    output_path: Optional[str] = Field(None, description="Optional PPTX output path.")
+
+
+@app.post("/api/slide/deck-customize")
+@app.post("/api/v1/slide/deck-customize")
+async def api_customize_slide_deck(
+    req: SlideDeckCustomizeRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Inserts a custom local slide, hides/skips slides, or reorders slides, and rebuilds the .pptx excluding hidden slides."""
+    from src.tools.pptx_builder import (
+        CounselorTitleSlideInfo,
+        PowerPointBuildRequest,
+        SlideSpec,
+        generate_bsa_slide_deck_pptx,
+    )
+
+    slides_list = [dict(s) for s in (req.storyboard_slides or [])]
+    act = (req.action or "sync_slides").strip().lower()
+    active_idx = max(0, min(req.slide_index, max(0, len(slides_list) - 1)))
+
+    if act in ("insert_custom_slide", "insert") and isinstance(req.custom_slide, dict):
+        cs = dict(req.custom_slide)
+        new_slide = {
+            "req_number": str(cs.get("req_number") or "Local"),
+            "title": str(cs.get("title") or "Local Camp & Troop Instructions"),
+            "bullet_points": [
+                str(b).strip()
+                for b in (cs.get("bullet_points") or ["Local troop or camp expectation."])
+                if str(b).strip()
+            ][:4],
+            "presenter_notes": str(
+                cs.get("presenter_notes")
+                or "[SAY] Review these local camp rules and troop expectations with your patrol."
+            ),
+            "safety_warning": cs.get("safety_warning"),
+            "archetype": str(cs.get("archetype") or "CONCEPT_TEXT_SLIDE"),
+            "visual_theme": str(cs.get("visual_theme") or "NUMBERED_STEP_CARDS"),
+            "accent_palette_key": str(cs.get("accent_palette_key") or "FOREST_GREEN"),
+            "beautification_tier": str(cs.get("beautification_tier") or "BEAUTIFIED"),
+            "visual_source_label": str(cs.get("visual_source_label") or "Custom Counselor Slide"),
+            "visual_caption": str(cs.get("visual_caption") or cs.get("title") or "Custom Slide"),
+            "diagram_path": cs.get("diagram_path"),
+            "diagram_url": cs.get("diagram_url"),
+            "is_custom_slide": True,
+            "hidden": False,
+        }
+        insert_pos = min(len(slides_list), active_idx + 1)
+        slides_list.insert(insert_pos, new_slide)
+        active_idx = insert_pos
+    elif act in ("toggle_hide_slide", "toggle_hide") and 0 <= active_idx < len(slides_list):
+        slides_list[active_idx]["hidden"] = not bool(slides_list[active_idx].get("hidden"))
+    elif act in ("hide_home_prereq_slides", "hide_prereqs"):
+        prereq_keywords = (
+            "home", "30 day", "90 day", "chore", "log", "budget", "family", "parent",
+            "prerequisite", "prereq", "before camp", "track for", "menu for",
+        )
+        target_hide = True if req.hide_prereqs is None else bool(req.hide_prereqs)
+        for s in slides_list:
+            blob = f"{s.get('title', '')} {' '.join(s.get('bullet_points') or [])}".lower()
+            if any(k in blob for k in prereq_keywords) or bool(s.get("is_home_prereq")):
+                s["hidden"] = target_hide
+                s["is_home_prereq"] = True
+    elif act in ("reorder_slide", "move_up", "move_down") and 0 <= active_idx < len(slides_list):
+        direction = "up" if act == "move_up" else ("down" if act == "move_down" else (req.direction or "down").strip().lower())
+        swap_idx = active_idx - 1 if direction == "up" else active_idx + 1
+        if 0 <= swap_idx < len(slides_list):
+            slides_list[active_idx], slides_list[swap_idx] = slides_list[swap_idx], slides_list[active_idx]
+            active_idx = swap_idx
+
+    visible_specs = [
+        SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+        for s in slides_list
+        if not s.get("hidden")
+    ]
+    rebuilt_pptx_url: Optional[str] = None
+    if visible_specs:
+        try:
+            c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
+            out_file = req.output_path or str(
+                GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_Customized_Merit_Badge_Deck.pptx"
+            )
+            build_res = await asyncio.to_thread(
+                generate_bsa_slide_deck_pptx,
+                PowerPointBuildRequest(
+                    badge_name=req.badge_name,
+                    slides=visible_specs,
+                    counselor_info=c_info,
+                    output_path=out_file,
+                ),
+            )
+            if build_res.get("output_path"):
+                rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
+        except Exception as exc:
+            logger.warning("Failed to rebuild PPTX in deck-customize: %s", exc)
+
+    hidden_cnt = sum(1 for s in slides_list if s.get("hidden"))
+    return {
+        "status": "SUCCESS",
+        "action": act,
+        "active_slide_index": active_idx,
+        "total_slide_count": len(slides_list),
+        "visible_slide_count": len(visible_specs),
+        "hidden_slide_count": hidden_cnt,
+        "pptx_download_url": rebuilt_pptx_url,
+        "slides": slides_list,
+        "storyboard_slides": slides_list,
     }
 
 
@@ -1554,6 +1694,53 @@ async def api_admin_recaption_catalog_vision(
     return res
 
 
+class AdminReplaceCatalogImageRequest(BaseModel):
+    badge_name: str = Field(..., description="Official Scouts BSA Merit Badge name.")
+    image_id: str = Field(..., description="Target catalog image_id or filename to replace in-place.")
+    image_data_uri: Optional[str] = Field(None, description="Base64 PNG/JPG data URI from local file upload.")
+    regenerate_nano: bool = Field(False, description="True to regenerate in-place with Nano Banana AI.")
+    custom_prompt: str = Field("", description="Optional custom prompt for Nano Banana regeneration.")
+
+
+@app.post("/api/admin/catalog/replace-image")
+@app.post("/api/v1/admin/catalog/replace-image")
+async def api_admin_replace_catalog_image(
+    req: AdminReplaceCatalogImageRequest,
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Replaces a built-in catalog image in-place (with .bak.<ts> backup and 8-bit PNG quantization) or regenerates with Nano Banana."""
+    import base64
+    from src.agents.image_studio import admin_replace_catalog_image_asset
+
+    raw_bytes: Optional[bytes] = None
+    if req.image_data_uri:
+        uri_str = str(req.image_data_uri).strip()
+        if "," in uri_str:
+            uri_str = uri_str.split(",", 1)[1]
+        try:
+            raw_bytes = base64.b64decode(uri_str)
+        except Exception as exc:
+            return JSONResponse(
+                status_code=400,
+                content={
+                    "status": "ERROR",
+                    "error_code": "INVALID_BASE64_IMAGE",
+                    "message": f"Could not decode base64 image data: {exc}",
+                },
+            )
+    res = await asyncio.to_thread(
+        admin_replace_catalog_image_asset,
+        badge_name=req.badge_name,
+        image_id=req.image_id,
+        image_bytes=raw_bytes,
+        regenerate_nano=req.regenerate_nano,
+        custom_prompt=req.custom_prompt,
+    )
+    if res.get("status") != "SUCCESS":
+        return JSONResponse(status_code=400, content=res)
+    return res
+
+
 @app.post("/api/admin/telemetry/image-swap")
 @app.post("/api/v1/admin/telemetry/image-swap")
 async def api_record_anonymous_image_swap(
@@ -1587,15 +1774,146 @@ async def api_admin_telemetry_summary(
     }
 
 
+def _build_admin_prompt_manifest_rows() -> List[Dict[str, Any]]:
+    """Reads prompts/manifest.json and computes live SHA-256 hashes for each agent prompt template."""
+    import hashlib
+    prompts_dir = PROJECT_ROOT / "prompts"
+    manifest_path = prompts_dir / "manifest.json"
+    if not manifest_path.exists():
+        return []
+    try:
+        raw = json.loads(manifest_path.read_text(encoding="utf-8"))
+        prompts_map = raw.get("prompts") or {}
+        rows: List[Dict[str, Any]] = []
+        for fname, meta in prompts_map.items():
+            fpath = prompts_dir / fname
+            exists = fpath.exists()
+            sha = hashlib.sha256(fpath.read_bytes()).hexdigest() if exists else ""
+            rows.append(
+                {
+                    "agent_id": str(meta.get("agent_role") or fname.replace(".md", "")),
+                    "filename": fname,
+                    "version": str(meta.get("version") or "3.1.0"),
+                    "sha256": sha,
+                    "verified": bool(exists and len(sha) == 64),
+                }
+            )
+        return rows
+    except Exception:
+        return []
+
+
 @app.get("/api/admin/diagnostics/assets")
 @app.get("/api/v1/admin/diagnostics/assets")
 async def api_admin_diagnostics_assets(
     _admin: Dict[str, Any] = Depends(verify_admin_auth),
 ) -> Dict[str, Any]:
-    """Returns the 144-Badge Asset Health Matrix (covers, emblems, pamphlet figures, Nano Banana heroes)."""
+    """Returns the 144-Badge Asset Health Matrix, Prompt SHA-256 Manifest, and Zero-PII Guardrail Audit Log."""
     from src.agents.image_studio import admin_get_144_badge_asset_diagnostics
 
-    return await asyncio.to_thread(admin_get_144_badge_asset_diagnostics)
+    diag = await asyncio.to_thread(admin_get_144_badge_asset_diagnostics)
+    diag["prompt_manifest"] = _build_admin_prompt_manifest_rows()
+    diag["compliance_audit_events"] = get_compliance_audit_events(limit=50)
+    return diag
+
+
+@app.post("/api/admin/maintenance/purge-temp-cache")
+@app.post("/api/v1/admin/maintenance/purge-temp-cache")
+async def api_admin_purge_temp_cache(
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Purges temporary web-search and scratch caches while preserving built-in 144-badge assets."""
+    purged_files = 0
+    web_cache_dir = ASSETS_DIR / "badge_image_catalog" / "_web_search_cache"
+    if web_cache_dir.exists():
+        for p in web_cache_dir.glob("*.*"):
+            try:
+                p.unlink()
+                purged_files += 1
+            except Exception:
+                pass
+    return {
+        "status": "SUCCESS",
+        "purged_files": purged_files,
+        "message": f"Purged {purged_files} temporary web-search cache files. All built-in 144-badge assets preserved.",
+    }
+
+
+@app.post("/api/admin/maintenance/repair-covers")
+@app.post("/api/v1/admin/maintenance/repair-covers")
+async def api_admin_repair_covers_and_emblems(
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Verifies and repairs all 144 Merit Badge pamphlet covers and badge emblems on disk."""
+    from src.agents.image_studio import (
+        _badge_slug,
+        admin_get_144_badge_asset_diagnostics,
+    )
+    from src.config import (
+        OFFICIAL_BSA_MERIT_BADGES_CATALOG,
+        get_badge_cover_and_patch_paths,
+    )
+
+    repaired_covers = 0
+    repaired_emblems = 0
+    covers_dir = ASSETS_DIR / "pamphlet_covers"
+    emblems_dir = ASSETS_DIR / "badge_emblems"
+    covers_dir.mkdir(parents=True, exist_ok=True)
+    emblems_dir.mkdir(parents=True, exist_ok=True)
+
+    for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG:
+        b_name = str(item.get("badge_name") or item.get("name") or "First Aid")
+        slug = _badge_slug(b_name)
+        cov_p = covers_dir / f"{slug}_cover.png"
+        emb_p = emblems_dir / f"{slug}.png"
+        had_cov = cov_p.exists() or (covers_dir / f"{slug}.png").exists()
+        had_emb = emb_p.exists() or (emblems_dir / f"{slug}_patch.png").exists()
+        if not had_cov or not had_emb:
+            await asyncio.to_thread(get_badge_cover_and_patch_paths, b_name)
+            if not had_cov:
+                repaired_covers += 1
+            if not had_emb:
+                repaired_emblems += 1
+
+    diag = await asyncio.to_thread(admin_get_144_badge_asset_diagnostics)
+    return {
+        "status": "SUCCESS",
+        "repaired_covers": repaired_covers,
+        "repaired_emblems": repaired_emblems,
+        "covers_present": diag.get("covers_present", 144),
+        "emblems_present": diag.get("emblems_present", 144),
+        "covers_verified": diag.get("covers_present", 144),
+        "emblems_verified": diag.get("emblems_present", 144),
+    }
+
+
+@app.get("/api/admin/maintenance/snapshot")
+@app.get("/api/v1/admin/maintenance/snapshot")
+async def api_admin_download_snapshot(
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Returns a downloadable Zero-PII JSON snapshot of catalog diagnostics, prompt manifest, and telemetry."""
+    from datetime import datetime, timezone
+    from src.agents.image_studio import admin_get_144_badge_asset_diagnostics
+
+    sqlite_summary = await asyncio.to_thread(get_zero_pii_telemetry_store().get_telemetry_summary)
+    diag = await asyncio.to_thread(admin_get_144_badge_asset_diagnostics)
+    return {
+        "status": "SUCCESS",
+        "exported_at_utc": datetime.now(timezone.utc).isoformat(),
+        "zero_pii_guaranteed": True,
+        "telemetry_summary": sqlite_summary,
+        "asset_diagnostics_summary": {
+            "total_badges": diag.get("total_badges", 144),
+            "covers_present": diag.get("covers_present", 144),
+            "emblems_present": diag.get("emblems_present", 144),
+            "pdfs_indexed_present": diag.get("pdfs_indexed_present", 144),
+            "total_pamphlet_figures": diag.get("total_pamphlet_figures", 0),
+            "total_nano_banana_heroes": diag.get("total_nano_banana_heroes", 0),
+        },
+        "prompt_manifest": _build_admin_prompt_manifest_rows(),
+        "compliance_audit_events": get_compliance_audit_events(limit=50),
+    }
 
 
 @app.post("/api/admin/circuit-breakers/reset")

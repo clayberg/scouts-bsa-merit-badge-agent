@@ -2539,3 +2539,242 @@ html, body {
   background: rgba(255, 255, 255, 0.26);
 }
 
+/* ============================================================================
+   PLAN 5: STICKY MATRIX HEADERS, FILMSTRIP THUMBNAILS, PATROL SCOREBOARD,
+   FULLSCREEN TELEPROMPTER, PATCH GALLERY, SUNLIGHT MODE & LATENCY HISTOGRAMS
+   ============================================================================ */
+
+/* Admin #4: Locked Sticky Column Headers on 144-Badge Asset Health Matrix */
+.m3-sticky-matrix-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  background: #003F87 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.18);
+}
+
+/* UI-3: Filmstrip Miniature Thumbnails, Archetype Badges & Image Choice Pills */
+.m3-slide-thumb.hidden-slide {
+  opacity: 0.48;
+  border-style: dashed;
+  background: #F1F5F9;
+}
+
+.m3-thumb-row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.m3-thumb-mini-img {
+  width: 48px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #CBD5E1;
+  background: #F8FAFC;
+  flex-shrink: 0;
+}
+
+.m3-thumb-badges-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-top: 3px;
+}
+
+.m3-thumb-arch-pill {
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #EFF6FF;
+  color: #1E40AF;
+  border: 1px solid #BFDBFE;
+}
+
+.m3-thumb-imgcount-pill {
+  font-size: 0.62rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FCD34D;
+}
+
+/* Feature 2: Interactive Patrol Quiz Scoreboard Bar */
+.m3-patrol-scoreboard-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 7px 14px;
+  margin: 0 18px 8px 18px;
+  background: linear-gradient(90deg, #FFFBEB 0%, #FEF3C7 100%);
+  border: 1.5px solid #F59E0B;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.14);
+}
+
+.m3-patrol-score-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #FFFFFF;
+  border: 1px solid #FCD34D;
+  border-radius: 999px;
+  padding: 3px 9px;
+  font-size: 0.76rem;
+  color: #0F172A;
+}
+
+.m3-patrol-score-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #CBD5E1;
+  background: #F8FAFC;
+  color: #003F87;
+  font-weight: 800;
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m3-patrol-score-btn:hover {
+  background: #003F87;
+  color: #FFFFFF;
+  border-color: #003F87;
+}
+
+/* Feature 1: Single-Screen Fullscreen Teleprompter Drawer */
+.m3-fullscreen-teleprompter {
+  margin: 6px 18px 8px 18px;
+  padding: 10px 14px;
+  background: rgba(15, 23, 42, 0.94);
+  border: 1.5px solid #FDB913;
+  border-radius: 10px;
+  color: #F8FAFC;
+  max-height: 150px;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* UI-6: 144 Merit Badge Visual Patch Gallery Grid */
+.m3-patch-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  gap: 10px;
+  padding: 4px;
+}
+
+.m3-patch-gallery-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  padding: 10px 8px;
+  border-radius: 12px;
+  border: 1.5px solid #E2E8F0;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.m3-patch-gallery-card:hover {
+  border-color: #003F87;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 63, 135, 0.12);
+}
+
+.m3-patch-gallery-card.eagle-patch {
+  border: 2px solid #D97706;
+  background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 100%);
+}
+
+.m3-patch-gallery-card img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+/* UI-6: High-Contrast Outdoor Camp Sunlight Mode */
+body.m3-sunlight-mode {
+  --md-sys-color-background: #FFFFFF;
+  --md-sys-color-surface: #FFFFFF;
+  --md-sys-color-on-surface: #000000;
+  --md-sys-color-on-surface-variant: #111827;
+  --md-sys-color-outline: #0F172A;
+  --md-sys-color-outline-variant: #334155;
+  background: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+body.m3-sunlight-mode .m3-card,
+body.m3-sunlight-mode .m3-widescreen-slide,
+body.m3-sunlight-mode .m3-slide-card {
+  border-width: 2px !important;
+  border-color: #0F172A !important;
+  box-shadow: none !important;
+  background: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+/* Admin #7: Visual CSS Latency Histogram Bars */
+.m3-mini-histogram-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-top: 4px;
+  border-top: 1px dashed #CBD5E1;
+}
+
+.m3-hist-bar-row {
+  display: grid;
+  grid-template-columns: 62px 1fr 42px;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.67rem;
+  font-family: var(--font-mono);
+  color: #334155;
+}
+
+.m3-hist-bar-track {
+  height: 7px;
+  background: #E2E8F0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.m3-hist-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #003F87 0%, #0284C7 100%);
+}
+
+/* Admin #2: Sticky On-Stage Admin Shortcut Bar in Image Switcher Popover */
+.m3-popover-admin-sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #FFFBEB;
+  border-bottom: 1.5px solid #F59E0B;
+  padding: 6px 8px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+

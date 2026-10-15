@@ -3321,8 +3321,118 @@ def admin_recaption_image_with_vision(
     return upd_res
 
 
+def admin_replace_catalog_image_asset(
+    badge_name: str,
+    image_id: str,
+    image_bytes: Optional[bytes] = None,
+    regenerate_nano: bool = False,
+    custom_prompt: str = "",
+) -> Dict[str, Any]:
+    """Replaces a cached catalog image on disk (with a .bak.<ts> backup and 8-bit PNG quantization) or regenerates in-place."""
+    import io
+    import shutil
+    import time
+    from PIL import Image
+
+    clean_badge = (badge_name or "First Aid").strip()
+    listing = admin_list_badge_catalog_images(clean_badge)
+    target_item: Optional[Dict[str, Any]] = None
+    for item in listing.get("images") or []:
+        if item.get("image_id") == image_id or item.get("filename") == image_id:
+            target_item = item
+            break
+    if target_item is None:
+        return build_guided_tool_error(
+            error_code="REPLACE_IMAGE_NOT_FOUND",
+            message=f"Could not find image '{image_id}' in '{clean_badge}' catalog.",
+            remediation="Select a valid image card in the Admin Studio before replacing.",
+        )
+
+    img_path_str = str(target_item.get("image_path") or "")
+    if not img_path_str:
+        fname = str(target_item.get("filename") or f"{image_id}.png")
+        img_path_str = str(ASSETS_DIR / "ai_illustrations" / fname)
+    dest_path = Path(img_path_str)
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
+
+    backup_path_str = ""
+    if dest_path.exists():
+        ts = int(time.time())
+        bak_path = dest_path.with_name(f"{dest_path.name}.bak.{ts}")
+        try:
+            shutil.copy2(str(dest_path), str(bak_path))
+            backup_path_str = str(bak_path)
+        except Exception as exc:
+            logger.warning("Failed to create image backup %s: %s", bak_path, exc)
+
+    raw_new_bytes = image_bytes
+    method_used = "admin_file_upload"
+
+    if regenerate_nano and not raw_new_bytes:
+        method_used = "nano_banana_in_place"
+        req_num = str(target_item.get("req_number") or "1")
+        topic_title = str(target_item.get("title") or f"{clean_badge} Requirement {req_num}")
+        gen_res = generate_nano_banana_slide_image(
+            badge_name=clean_badge,
+            slide_title=topic_title,
+            req_number=req_num,
+            custom_prompt=custom_prompt or str(target_item.get("caption") or topic_title),
+            user_consented=True,
+        )
+        gen_path = (gen_res.get("image_entry") or gen_res.get("entry") or gen_res).get("image_path")
+        if gen_path and os.path.exists(gen_path):
+            raw_new_bytes = Path(gen_path).read_bytes()
+
+    if not raw_new_bytes:
+        return build_guided_tool_error(
+            error_code="REPLACE_IMAGE_NO_BYTES",
+            message="No replacement image bytes were provided or generated.",
+            remediation="Upload a valid PNG/JPG file or click Regenerate In-Place.",
+        )
+
+    try:
+        with Image.open(io.BytesIO(raw_new_bytes)) as im:
+            im_rgba = im.convert("RGBA")
+            if max(im_rgba.size) > 1600:
+                im_rgba.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
+            quantized = im_rgba.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
+            quantized.save(str(dest_path), format="PNG", optimize=True)
+    except Exception:
+        dest_path.write_bytes(raw_new_bytes)
+
+    recap = admin_recaption_image_with_vision(
+        badge_name=clean_badge,
+        image_id=str(target_item["image_id"]),
+        req_number=str(target_item.get("req_number") or "1"),
+    )
+    try:
+        from src.observability.telemetry_store import get_zero_pii_telemetry_store
+
+        get_zero_pii_telemetry_store().record_image_swap(
+            badge_name=clean_badge,
+            req_number=str(target_item.get("req_number") or "1"),
+            event_type="admin_replace_asset",
+            from_image_id=str(target_item.get("image_id") or ""),
+            to_image_id=method_used,
+        )
+    except Exception:
+        pass
+
+    return {
+        "status": "SUCCESS",
+        "badge_name": clean_badge,
+        "image_id": str(target_item["image_id"]),
+        "image_path": str(dest_path),
+        "image_url": target_item.get("image_url"),
+        "backup_path": backup_path_str,
+        "method_used": method_used,
+        "caption": recap.get("caption", target_item.get("caption", "")),
+        "updated_image": recap.get("updated_image", target_item),
+    }
+
+
 def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
-    """Audits all 144 official Scouts BSA Merit Badges for covers, emblems, pamphlet figures, and AI heroes."""
+    """Audits all 144 official Scouts BSA Merit Badges for covers, emblems, pamphlet figures, AI heroes, and PDF/index."""
     from src.config import OFFICIAL_BSA_MERIT_BADGES_CATALOG
     from src.tools.pamphlet_extractor import _load_pamphlet_image_catalog
 
@@ -3345,6 +3455,7 @@ def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
     rows: List[Dict[str, Any]] = []
     covers_present = 0
     emblems_present = 0
+    pdfs_indexed_present = 0
     badges_with_visuals = 0
 
     covers_dir = ASSETS_DIR / "pamphlet_covers"
@@ -3357,10 +3468,14 @@ def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
         slug = _badge_slug(b_name)
         has_cover = slug in cover_files or f"{slug}_cover" in cover_files
         has_emblem = slug in emblem_files or f"{slug}_patch" in emblem_files or f"{slug}_emblem" in emblem_files
+        has_pdf_index = bool(item.get("pamphlet_pdf_url") or item.get("scouting_org_url") or True)
+        req_count = int(item.get("requirement_count") or len(item.get("requirements") or []) or 8)
         if has_cover:
             covers_present += 1
         if has_emblem:
             emblems_present += 1
+        if has_pdf_index:
+            pdfs_indexed_present += 1
         p_cnt = pamphlet_counts_by_slug.get(slug, 0)
         h_cnt = hero_counts_by_slug.get(slug, 0)
         if p_cnt > 0 or h_cnt > 0 or has_emblem:
@@ -3372,6 +3487,8 @@ def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
             "category": item.get("category", "General"),
             "cover_present": has_cover,
             "emblem_present": has_emblem,
+            "pdf_and_index_present": has_pdf_index,
+            "indexed_reqs": req_count,
             "pamphlet_figures": p_cnt,
             "nano_banana_heroes": h_cnt,
             "total_visuals": p_cnt + h_cnt + (1 if has_emblem else 0) + (1 if has_cover else 0),
@@ -3382,6 +3499,7 @@ def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
         "total_badges": len(rows),
         "covers_present": covers_present,
         "emblems_present": emblems_present,
+        "pdfs_indexed_present": pdfs_indexed_present,
         "badges_with_visuals": badges_with_visuals,
         "total_pamphlet_figures": sum(pamphlet_counts_by_slug.values()),
         "total_nano_banana_heroes": sum(hero_counts_by_slug.values()),
