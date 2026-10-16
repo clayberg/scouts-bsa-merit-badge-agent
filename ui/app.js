@@ -3050,6 +3050,11 @@ function formatSpeakerNotesHtml(rawNotes) {
         .replace(/\[DEMONSTRATE\]/g, '<span class="m3-cue-tag" style="background:#E2EDC8;color:#151E00;">[DEMONSTRATE]</span>')
         .replace(/\[ASK SCOUTS\]/g, '<span class="m3-cue-tag" style="background:#FEF3C7;color:#B45309;">[ASK SCOUTS]</span>');
 
+      // Render Markdown bold (**term** as well as slightly mismatched *term** or **term*) as clean <strong> tags without asterisks
+      decorated = decorated
+        .replace(/\*{1,2}([^*\n]{2,110}?)\*{2}/g, "<strong>$1</strong>")
+        .replace(/\*{2}([^*\n]{2,110}?)\*{1,2}/g, "<strong>$1</strong>");
+
       decorated = decorated.replace(
         /\[Expected Answer:\s*([^\]]+)\]/gi,
         '<div class="m3-expected-answer-box"><strong>✓ Expected Answer:</strong> $1</div>'

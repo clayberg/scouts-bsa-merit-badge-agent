@@ -2703,7 +2703,12 @@ def generate_bsa_slide_deck_pptx(
         if slide_spec.presenter_notes:
             notes_slide = content_slide.notes_slide
             text_frame = notes_slide.notes_text_frame
-            text_frame.text = slide_spec.presenter_notes
+            clean_pptx_notes = re.sub(
+                r"\*{1,2}([^*\n]{2,110}?)\*{2}|\*{2}([^*\n]{2,110}?)\*{1,2}",
+                lambda m: m.group(1) or m.group(2) or "",
+                slide_spec.presenter_notes,
+            )
+            text_frame.text = clean_pptx_notes
 
     # -------------------------------------------------------------------------
     # 3. SAVE FILE & CLEAN UP TEMPORARY SLIDE-UNIQUE IMAGE COPIES

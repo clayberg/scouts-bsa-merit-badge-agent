@@ -1836,9 +1836,10 @@ def test_v27_ai_polish_slide_and_deck_provenance_and_zero_boilerplate() -> None:
     from fastapi.testclient import TestClient
     from src.server import _parse_multiline_polished_sections, app
 
-    # 1. Verify multi-line section parser preserves multi-paragraph [SAY], [DEMONSTRATE], and [ASK SCOUTS]
+    # 1. Verify multi-line section parser preserves multi-paragraph [SAY], [DEMONSTRATE], and [ASK SCOUTS],
+    # strips corny camp greetings ("Alright, listen up, future lifesavers"), and normalizes asymmetric *bold**
     sample_llm = (
-        "[SAY] Welcome to the trail station, Scouts!\n"
+        "[SAY] Alright, listen up, future lifesavers! When evaluating *Check Airway & Breathing**, start by tilting the head gently.\n"
         "[Point to Card 1: Direct Pressure] Hold sterile gauze firmly over the wound for at least five minutes.\n"
         "[Studio Coaching Cue: Check every buddy pair's glove fit.]\n\n"
         "[DEMONSTRATE] [Step in front of the table]\n"
@@ -1848,6 +1849,9 @@ def test_v27_ai_polish_slide_and_deck_provenance_and_zero_boilerplate() -> None:
     )
     parsed = _parse_multiline_polished_sections(sample_llm)
     assert "[SAY]" in parsed and "[DEMONSTRATE]" in parsed and "[ASK SCOUTS]" in parsed
+    assert "Alright, listen up" not in parsed
+    assert "future lifesavers" not in parsed
+    assert "[SAY] When evaluating **Check Airway & Breathing**" in parsed
     assert "Hold sterile gauze firmly over the wound" in parsed
     assert "[Studio Coaching Cue: Check every buddy pair's glove fit.]" in parsed
     assert "Model applying a roller bandage" in parsed

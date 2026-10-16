@@ -1020,6 +1020,29 @@ class GoogleSlidesExportRequest(BaseModel):
     user_access_token: Optional[str] = Field(None, description="Optional OAuth 2.0 Bearer token with drive.file scope.")
 
 
+def _normalize_bold_and_strip_corny_openers(text: str, is_say_block: bool = False) -> str:
+    """Normalizes mismatched markdown bold asterisks (*phrase** or **phrase*) to **phrase** and strips corny LLM camp greetings."""
+    cleaned = str(text or "").strip()
+    if not cleaned:
+        return ""
+    # Normalize asymmetric 1-and-2 or 2-and-1 asterisk bold spans (e.g. *Check Airway & Breathing** -> **Check Airway & Breathing**)
+    cleaned = re.sub(r"(?<!\*)\*([^*\n]{2,90}?)\*\*(?!\*)", r"**\1**", cleaned)
+    cleaned = re.sub(r"(?<!\*)\*\*([^*\n]{2,90}?)\*(?!\*)", r"**\1**", cleaned)
+
+    if is_say_block:
+        # Strip repetitive/corny camp-trope openings if the LLM includes them at the start of [SAY]
+        corny_prefix_patterns = [
+            r"^(?:alright|all\s+right|okay|ok|hey(?:\s+there)?|now)\s*,?\s*(?:listen\s+up|gather\s+['’]?round|gather\s+around|huddle\s+up)?\s*,?\s*(?:scouts|everyone|class|team|patrols?|future\s+[a-z\s]+?)?\s*,?\s*(?:listen\s+up|gather\s+['’]?round|imagine\s+this|picture\s+this|let['’]s\s+dive\s+in)?\s*[!.:,-]+\s*",
+            r"^(?:listen\s+up|gather\s+['’]?round|huddle\s+up)\s*,?\s*(?:scouts|everyone|class|future\s+[a-z\s]+?)?\s*[!.:,-]+\s*",
+            r"^(?:imagine\s+this|picture\s+this)\s*[,:!.-]+\s*",
+        ]
+        for pat in corny_prefix_patterns:
+            next_cleaned = re.sub(pat, "", cleaned, flags=re.I).strip()
+            if next_cleaned and len(next_cleaned) >= 25:
+                cleaned = next_cleaned[0].upper() + next_cleaned[1:]
+    return cleaned
+
+
 def _parse_multiline_polished_sections(llm_text: str) -> str:
     """Extracts full multi-line [SAY], [DEMONSTRATE], and [ASK SCOUTS] sections without dropping continuation lines."""
     from src.agents.planner import _sanitize_no_ellipsis_or_emdash
@@ -1041,20 +1064,20 @@ def _parse_multiline_polished_sections(llm_text: str) -> str:
 
     out_lines: List[str] = []
     if say_m and say_m.group(1).strip():
-        say_clean = re.sub(r"\s+", " ", say_m.group(1).strip())
+        say_clean = _normalize_bold_and_strip_corny_openers(re.sub(r"\s+", " ", say_m.group(1).strip()), is_say_block=True)
         out_lines.append(_sanitize_no_ellipsis_or_emdash(f"[SAY] {say_clean}"))
     if demo_m and demo_m.group(1).strip():
-        demo_clean = re.sub(r"\s+", " ", demo_m.group(1).strip())
+        demo_clean = _normalize_bold_and_strip_corny_openers(re.sub(r"\s+", " ", demo_m.group(1).strip()), is_say_block=False)
         out_lines.append(_sanitize_no_ellipsis_or_emdash(f"[DEMONSTRATE] {demo_clean}"))
     if ask_m and ask_m.group(1).strip():
-        ask_clean = re.sub(r"\s+", " ", ask_m.group(1).strip())
+        ask_clean = _normalize_bold_and_strip_corny_openers(re.sub(r"\s+", " ", ask_m.group(1).strip()), is_say_block=False)
         out_lines.append(_sanitize_no_ellipsis_or_emdash(f"[ASK SCOUTS] {ask_clean}"))
 
     if out_lines:
         return "\n".join(out_lines)
     # Fallback if the LLM returned a cohesive paragraph without explicit bracket headers
     if len(norm) >= 80:
-        clean_para = re.sub(r"\s+", " ", norm).strip()
+        clean_para = _normalize_bold_and_strip_corny_openers(re.sub(r"\s+", " ", norm).strip(), is_say_block=True)
         return _sanitize_no_ellipsis_or_emdash(f"[SAY] {clean_para}")
     return ""
 
@@ -1519,7 +1542,7 @@ async def _polish_single_slide_notes_core(
 
     hash_payload = json.dumps(
         {
-            "v": "gemini_flash_v3",
+            "v": "gemini_flash_v4",
             "badge": badge_name.strip().lower(),
             "req": req_num,
             "slide_idx": slide_index,
@@ -1536,7 +1559,14 @@ async def _polish_single_slide_notes_core(
     notes_hash = hashlib.sha256(hash_payload.encode("utf-8")).hexdigest()[:32]
 
     raw_cached = None if force_refresh else get_polished_speaker_notes(notes_hash)
-    if raw_cached and "Let's step out of the classroom for a moment" not in raw_cached:
+    if (
+        raw_cached
+        and "Let's step out of the classroom for a moment" not in raw_cached
+        and "Alright," not in raw_cached
+        and "listen up" not in raw_cached.lower()
+        and "gather 'round" not in raw_cached.lower()
+        and "future lifesavers" not in raw_cached.lower()
+    ):
         cached_source = "GEMINI_FLASH"
         clean_cached = raw_cached
         if raw_cached.startswith("__SOURCE:"):
@@ -1575,24 +1605,42 @@ async def _polish_single_slide_notes_core(
         audience_level=aud_level,
     )
 
+    opening_styles = [
+        "Direct Concept Lead: Begin immediately with the core technical or practical concept of this slide and why it works.",
+        "Cause-and-Effect Lead: Open by explaining what happens physically, clinically, or environmentally during this topic, then walk through the slide cards.",
+        "Diagnostic Question Lead: Open with a direct, substantive question a teacher would ask students about this topic, then unpack the answer across the cards.",
+        "Contrast & Common Misconception Lead: Start by contrasting the correct technique on this slide with a common mistake beginners often make.",
+        "Direct First-Card Lead: Start directly with the first card's key principle or decision rule and connect it logically to the remaining cards.",
+        "Practical Standard Lead: Open by stating the concrete standard or field criterion students need to demonstrate for this requirement.",
+    ]
+    chosen_opening_style = (
+        "Welcome & Course Overview Lead: Welcome students warmly and professionally to the course and explain how the session is organized."
+        if is_cover
+        else opening_styles[(abs(int(slide_index)) + max(0, int(variation_seed))) % len(opening_styles)]
+    )
+
     prompt = (
-        f"You are a veteran Scouts BSA Merit Badge Counselor coaching {badge_name} ({aud_level}).\n"
-        f"Rewrite and elevate the speaker notes for Slide #{slide_index + 2 if slide_index >= 0 else 1} '{title}' "
-        f"(Requirement {req_num}, Archetype: {arch}, Variation #{variation_seed}) into a warm, "
-        f"vivid, conversational first-person speaking script.\n"
+        f"You are an experienced, knowledgeable instructor teaching a {badge_name} Merit Badge class ({aud_level}).\n"
+        f"Rewrite the speaker notes for Slide #{slide_index + 2 if slide_index >= 0 else 1} '{title}' "
+        f"(Requirement {req_num}, Archetype: {arch}, Variation #{variation_seed}) into a clear, "
+        f"conversational, and professional teacher-to-student speaking script.\n"
         f"Official Requirement Text: {s_data.get('verbatim_requirement_text') or 'N/A'}\n"
         f"Slide Cards: {json.dumps(bullets)}\n"
         f"Visual Caption: {vis_caption if has_vis else 'None'}\n"
         f"Baseline Notes: {base_notes}\n\n"
-        f"STRICT FORMAT RULES:\n"
+        f"STRICT TONE & FORMAT RULES:\n"
         f"1. Output exactly 3 sections starting with [SAY], [DEMONSTRATE], and [ASK SCOUTS].\n"
-        f"2. In [SAY], open with a specific, memorable field scenario or hands-on hook tailored directly to '{title}' "
-        f"(NEVER use generic stock openings like 'Let's step out of the classroom for a moment' or 'Picture your patrol out in the field'), "
-        f"teach every card's concrete facts in natural first-person counselor prose, and include 2-3 bracketed stage directions like "
-        f"[Point to Card 1: ...] or [Studio Coaching Cue: ...].\n"
-        f"3. In [DEMONSTRATE], give a concrete physical, gear, or tabletop EDGE demonstration action.\n"
-        f"4. In [ASK SCOUTS], ask a sharp Socratic scenario question and end with [Expected Answer: ...].\n"
-        f"5. Do NOT use em-dashes, en-dashes, or ellipses."
+        f"2. TONE: Write like a great classroom or field teacher talking naturally and respectfully to students in the middle of an ongoing lesson. "
+        f"Keep the language clear, grounded, conversational, and professional.\n"
+        f"3. OPENING STYLE FOR THIS SLIDE: Use this specific opening structure so slides across the deck never sound repetitive: {chosen_opening_style}\n"
+        f"4. BANNED CLICHES: NEVER start with greetings, roll-calls, or corny camp catchphrases such as 'Alright', 'Listen up', "
+        f"'Gather round', 'Future lifesavers', 'Hey Scouts', 'Imagine this', 'Picture this', or 'Let's step out of the classroom'. "
+        f"Jump straight into the substance of '{title}'.\n"
+        f"5. In [SAY], teach every card's concrete facts in natural first-person instructor prose and include 2-3 bracketed stage directions like "
+        f"[Point to Card 1: ...] or [Instructor Cue: ...]. When emphasizing key terms, wrap them in balanced double asterisks (**Term**).\n"
+        f"6. In [DEMONSTRATE], give a concrete physical, equipment, or tabletop EDGE demonstration action.\n"
+        f"7. In [ASK SCOUTS], ask a clear Socratic comprehension question and end with [Expected Answer: ...].\n"
+        f"8. Do NOT use em-dashes, en-dashes, or ellipses."
     )
 
     bridge_payload = {
