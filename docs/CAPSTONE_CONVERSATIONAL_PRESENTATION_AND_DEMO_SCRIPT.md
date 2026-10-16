@@ -32,13 +32,13 @@
 - **`[DEMONSTRATE / POINT TO ON SLIDE]`**:
   - Start on **Slide 1 (`01 / 12`)**.
   - Point to the three stacked left-hand capability cards (`144 Official Badges • 100% Fidelity`, `< 2 Min Build • 6 Synchronized Deliverables`, and `Predictable FinOps • $0.14 to $1.00 Cap`).
-  - Gesture to the right-hand visual showcase (`144 Official Emblems • 3,917 Visuals • 3 Polish Tiers`) and the footer bar (`Verified: 27/27 Rubric Criteria • 60/60 Pytest • 85 OpenAPI Endpoints`).
+  - Gesture to the right-hand visual showcase (`144 Official Emblems • 3,917 Visuals • 3 Slide Themes`) and the footer bar (`Verified: 27/27 Rubric Criteria • 60/60 Pytest • 85 OpenAPI Endpoints`).
 - **`[SAY]`**:
   > "Good morning, everyone. I am Eric Clayberg. Outside of my work at Google as a Forward Deployed Engineer, or **FDE**, I serve as a volunteer Scouts BSA Merit Badge Counselor for Troop 19 in Middleton, Massachusetts.
   >
   > Today I am walking you through the **Scouts BSA Merit Badge Counselor Workbench**, an end-to-end multi-agent curriculum, co-design, and field operations platform built on the **Google Agent Development Kit (ADK)**, **Vertex AI Gemini 2.5 Pro and Flash**, and **Cloud Run**.
   >
-  > In under two minutes, it turns any of the **144 official 80-page Merit Badge pamphlets** into six synchronized classroom and field deliverables: a widescreen 16:9 slide deck for PowerPoint or Google Slides, a printable Scout Workbook, a 3-panel **Blue Card (`#34124`)** and Scoutbook CSV sign-off tracker, a 4-mode timed session agenda, a Quartermaster gear packing checklist, and a **Youth Protection Training (YPT)** parent welcome letter: all backed by **3,917 pre-bundled visual assets**, verified across **60 automated pytest tests** and **85 OpenAPI 3.1 endpoints**, and capped at a predictable **$0.14 to $1.00 FinOps budget** (`~$0.18` actual cold LLM spend on our default `Beautified` tier)."
+  > In under two minutes, it turns any of the **144 official 80-page Merit Badge pamphlets** into six synchronized classroom and field deliverables: a widescreen 16:9 slide deck for PowerPoint or Google Slides, a printable Scout Workbook, a 3-panel **Blue Card (`#34124`)** and Scoutbook CSV sign-off tracker, a 4-mode timed session agenda, a Quartermaster gear packing checklist, and a **Youth Protection Training (YPT)** parent welcome letter: all backed by **3,917 pre-bundled visual assets**, verified across **60 automated pytest tests** and **85 OpenAPI 3.1 endpoints**, and capped at a predictable **$0.14 to $1.00 FinOps budget** (`~$0.18` actual cold LLM spend on our default `Warm Cream` slide theme)."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 1]`**:
   - **Q: Are all 144 Merit Badges really supported out of the box, or only a small demo subset?**
     - **Golden Answer**: "All **144 official Scouting America Merit Badges** (`18` Eagle-Required plus `126` Electives and Test Lab badges) are 100% populated and verified in `data/merit_badge_requirements/` with authentic `400x400` Scout Shop embroidered emblems (`assets/badge_emblems/`), official pamphlet covers, and **3,917 pre-bundled visual assets** (`2,323` Vision-verified pamphlet figures and `1,306` Nano Banana illustrations), verified by `tests/test_image_and_caption_quality.py`."
@@ -75,7 +75,7 @@
 - **`[SAY]`**:
   > "Slide 3 walks through the end-to-end **Critical User Journeys (CUJs)** from initial badge discovery to Blue Card sign-off.
   >
-  > In **CUJ-1**, a counselor opens the zero-login Material 3 Workbench on port `8085`, filters the 144-badge catalog or opens the interactive **Visual Patch Gallery** to filter authentic `400x400` Scout Shop emblems by Eagle status and 14 subject categories, selects a badge like *First Aid* or *Weather*, chooses a depth mode (`Standard Overview` vs. `Deep Dive Camp School`) and visual polish tier, and enters their local ZIP code.
+  > In **CUJ-1**, a counselor opens the zero-login Material 3 Workbench on port `8085`, filters the 144-badge catalog or opens the interactive **Visual Patch Gallery** to filter authentic `400x400` Scout Shop emblems by Eagle status and 14 subject categories, selects a badge like *First Aid* or *Weather*, chooses a depth mode (`Standard Overview` vs. `Deep Dive Camp School`) and slide theme (`Crisp White`, `Warm Cream`, or `Dark Slate`), and enters their local ZIP code.
   >
   > In **CUJ-2**, while the ADK pipeline runs, the 16:9 stage plays **three pre-loaded 14-frame Scout slide construction animations** shown in the top-right triptych: *3D Heavy Equipment*, *2D Camp Pioneering*, and the *3D Slide-O-Matic Claymation Workshop*, dynamically mounting the active badge emblem with perspective-matched 3D transforms and zero lag. Once built, clicking any top requirement chip (`1a`, `2b`, `3a`) jumps the stage to that slide and automatically scrolls the horizontal filmstrip outline into view.
   >
@@ -129,18 +129,18 @@
 
 ---
 
-### Slide 6 (`06 / 12`): *Pedagogical Slide Engine: 12 BSA EDGE Archetypes, 3 Polish Tiers & `<10ms` AABB Gate* (12 Archetypes, 2 Depth Modes, `Standard`/`Beautified`/`Studio` Tiers, De-Boxed Figures, `12.0pt` Font Floor & `3.4ms` Stage-1 AABB Gate)
+### Slide 6 (`06 / 12`): *Pedagogical Slide Engine: 12 BSA EDGE Archetypes, 3 Slide Themes & `<10ms` AABB Gate* (12 Archetypes, 2 Depth Modes, `Crisp White`/`Warm Cream`/`Dark Slate` Slide Themes, De-Boxed Figures, `12.0pt` Font Floor & `3.4ms` Stage-1 AABB Gate)
 
 - **`[STAGE DIRECTION / VISUAL CUE: ACTIVE SLIDE: Slide 6 (06 / 12) | Timing: 04:15-05:05]`**
 - **`[DEMONSTRATE / POINT TO ON SLIDE]`**:
-  - Point to Card 1 (`1. 12 BSA EDGE Slide Archetypes & 2 Depth Modes`), Card 2 (`2. 3 Visual Polish Tiers & De-Boxed Pamphlet Figures`), and Card 3 (`3. 2-Stage Conformance Gate (<10ms AABB + Vision)`).
-  - Point to the right-hand showcase: the 3 Visual Polish Tiers on top (`Standard`, `Beautified`, `Studio`) and the 10-Archetype SVG Wireframe Picker on the bottom.
+  - Point to Card 1 (`1. 12 BSA EDGE Slide Archetypes & 2 Depth Modes`), Card 2 (`2. 3 Slide Themes & De-Boxed Pamphlet Figures`), and Card 3 (`3. 2-Stage Conformance Gate (<10ms AABB + Vision)`).
+  - Point to the right-hand showcase: the 3 Slide Themes on top (`Crisp White`, `Warm Cream`, `Dark Slate`) and the 10-Archetype SVG Wireframe Picker on the bottom.
 - **`[SAY]`**:
   > "Once the curriculum is grounded, how do we turn dense pamphlet chapters into slides that actually keep 12-year-old Scouts engaged? Slide 6 shows our **Pedagogical Slide Engine** and **2-Stage Conformance Gate**.
   >
   > First, `SlideContentPlannerAgent` decomposes multi-part requirements across **12 BSA EDGE layout archetypes** (**E**xplain, **D**emonstrate, **G**uide, **E**nable): including `SPLIT_VISUAL_EXPLAINER`, `FOUR_BOX_GRID`, `TWO_COLUMN_COMPARISON`, `SOCRATIC_QUIZ_CHALLENGE`, `SCENARIO_CHALLENGE`, and `DATA_TABLE_WORKED_EXAMPLE`: across two selectable depth modes: **Standard Overview** (`18 to 48 slides`) and **Deep Dive Camp School** (`50 to 85+ slides`).
   >
-  > Second, shown at the top right, counselors choose from **three visual polish tiers**: `Standard` on crisp white, `Beautified` on warm editorial cream (`#FAF8F5`, `16.8:1` **WCAG AAA** contrast), and `Studio` on dark executive slate (`#0F172A`), with 1:1 layout parity between the browser stage and `python-pptx`. Notice how `_strip_white_image_background()` flood-fills edge-connected white border boxes from all `2,323` scanned pamphlet diagrams so figures blend cleanly onto warm cream cards.
+  > Second, shown at the top right, counselors choose from **three slide themes (`Slide Theme & Visuals`)**: `Crisp White - Pamphlet Figures Only`, `Warm Cream - Pamphlet + AI Visuals` (`#FAF8F5`, `16.8:1` **WCAG AAA** contrast), and `Dark Slate - Pamphlet + AI Visuals` (`#0F172A`), with 1:1 layout parity between the browser stage and `python-pptx`. Notice how `_strip_white_image_background()` flood-fills edge-connected white border boxes from all `2,323` scanned pamphlet diagrams so figures blend cleanly onto warm cream and dark slate cards.
   >
   > Third, to eliminate text bleeding and box collisions, `_compute_fitting_font_size()` steps body fonts down cleanly (`0.86` wrap safety margin) to a strict **`12.0pt` minimum floor** with 100% sentence preservation, and our **Stage-1 Axis-Aligned Bounding Box (`AABB`)** geometry gate checks every `python-pptx` shape rectangle in **`3.4 milliseconds` at `$0.00` token cost** before Stage-2 Gemini Vision runs."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 6]`**:
@@ -203,7 +203,7 @@
   >
   > Look at the workflow cost diagram on the right: `config/finops_model_policy.json` routes high-reasoning curriculum synthesis (`SlideContentPlannerAgent`) to `gemini-2.5-pro`, routes high-volume extraction, critic loops, and vision verification to `gemini-2.5-flash` at **88% lower token cost**, and gates on-demand `gemini-2.5-flash-image` calls behind an explicit `$0.08` user consent check.
   >
-  > Notice how we transparently distinguish our **uncached shadow-ledger ceiling** from **actual runtime spend**: because all `3,917` visual assets (`2,323` pamphlet figures and `1,306` Nano Banana illustrations) are pre-bundled in the repository, attaching visuals during deck generation costs **`$0.00` at runtime**. As a result, a cold live Vertex AI `Beautified` deck costs **`~$0.18` in actual LLM tokens** (versus the `$0.38` uncached shadow ceiling if 5 hero graphics were generated from scratch), `Standard` costs **`$0.06 to $0.14`**, `Studio` is hard-capped at **`<= $1.00`** by `FinOpsBudgetPlugin` (which auto-caps uncached graphics at 15), and warm cached reruns cost **`$0.00 to $0.02`**.
+  > Notice how we transparently distinguish our **uncached shadow-ledger ceiling** from **actual runtime spend**: because all `3,917` visual assets (`2,323` pamphlet figures and `1,306` Nano Banana illustrations) are pre-bundled in the repository, attaching visuals during deck generation costs **`$0.00` at runtime**. As a result, a cold live Vertex AI `Warm Cream` deck costs **`~$0.18` in actual LLM tokens** (versus the `$0.38` uncached shadow ceiling if 5 hero graphics were generated from scratch), `Crisp White` costs **`$0.06 to $0.14`**, `Dark Slate` is hard-capped at **`<= $1.00`** by `FinOpsBudgetPlugin` (which auto-caps uncached graphics at 15), and warm cached reruns cost **`$0.00 to $0.02`**.
   >
   > Combining 68% Hybrid RAG token savings and our `$0.00` Stage-1 AABB geometry check (`~$0.09/deck` saved), a **500-counselor Scouting Council** generating 1,500 decks per month at a 70% cache hit rate pays **`~$192.50/month` in actual cloud TCO** (`~$0.13/deck`, or `$282.50/month` uncached shadow ceiling): a **98% savings** compared to `$12,500 to $15,000/month` for commercial SaaS seats."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 9]`**:
@@ -299,7 +299,7 @@
      - **Counselor Name**: `Eric Clayberg`
      - **Troop / Council**: `Troop 19, Spirit of Adventure Council`
      - **Location (City, State or ZIP Code)**: `01949` (`Middleton, MA`)
-  4. Point to **Curriculum Depth** (`Standard Overview` vs. `Deep Dive`), **Target Scout Audience Level** (`All Scouts (Ages 11-17)`), **Slide Visual Polish Mode** (`AI Beautified: Warm Cream + Full Pre-Cached Visuals`), and confirm **Local Regional Grounding** is checked (`ON`).
+  4. Point to **Curriculum Depth** (`Standard Overview` vs. `Deep Dive`), **Target Scout Audience Level** (`All Scouts (Ages 11-17)`), **Slide Theme & Visuals** (`Warm Cream - Pamphlet + AI Visuals`), and confirm **Local Regional Grounding** is checked (`ON`).
   5. Click **`✨ Generate Slide Deck & Workbook`** (`#btn-generate-deck`) and point to the live 5-stage Server-Sent Events (SSE) / A2UI v0.9 progress banner as it completes.
 - **`[SAY]`**:
   > "Here is the live Material 3 Counselor Workbench. Before we build a deck, notice our 16:9 stage cycling through our **3 pre-loaded Scout Slide Construction Animations**: *3D Heavy Equipment*, *2D Camp Pioneering*, and the *3D Slide-O-Matic Claymation Workshop*, dynamically mounting the selected Merit Badge emblem onto the scene with zero flicker.
@@ -308,24 +308,24 @@
   >
   > In the left sidebar, my counselor profile (Eric Clayberg, Troop 19, Middleton, Massachusetts ZIP code `01949`, email, and phone number) is loaded from my local `0600` cache. Remember our Youth Protection guardrail: `before_model_guardrail_callback()` scrubs my email and phone number to `[REDACTED_EMAIL]` and `[REDACTED_PHONE]` before any prompt leaves for Vertex AI, and only injects my contact card locally onto Slide 1 and the parent letter during PowerPoint compilation.
   >
-  > Let's keep **Beautified (`~$0.18` actual cold LLM spend)** and **Local Grounding (`01949`)** enabled and click **Generate Slide Deck & Workbook**. Watch the 5-stage Google ADK pipeline stream **A2UI v0.9** events as it locks the SHA-256 requirement hash and retrieves sub-requirements (`1a` through `15b`) via Hybrid Okapi BM25 + Vector Reciprocal Rank Fusion."
+  > Let's keep **Warm Cream - Pamphlet + AI Visuals (`~$0.18` actual cold LLM spend)** and **Local Grounding (`01949`)** enabled and click **Generate Slide Deck & Workbook**. Watch the 5-stage Google ADK pipeline stream **A2UI v0.9** events as it locks the SHA-256 requirement hash and retrieves sub-requirements (`1a` through `15b`) via Hybrid Okapi BM25 + Vector Reciprocal Rank Fusion."
 
 ---
 
-### Act 2 (`11:15-12:30`): Auto-Scrolling Filmstrip Outline (`Jump to:`), 3 Polish Tiers, De-Boxed Figures, In-Stage Split-Screen Presenter (`P`) & Spacebar Patrol Quiz (`Space`)
+### Act 2 (`11:15-12:30`): Auto-Scrolling Filmstrip Outline (`Jump to:`), 3 Slide Themes, De-Boxed Figures, In-Stage Split-Screen Presenter (`P`) & Spacebar Patrol Quiz (`Space`)
 
 - **`[STAGE DIRECTION / VISUAL CUE: LIVE WORKBENCH: Widescreen 16:9 Slide Stage, Requirement Jump Bar, Presenter Console & Quiz Mode | Timing: 11:15-12:30]`**
 - **`[DEMONSTRATE]`**:
   1. Point to **Slide 1 (`Cover`)** showing the authentic First Aid patch, the official BSA Pamphlet cover, and the locally injected counselor card (`Eric Clayberg • Troop 19 • Middleton, MA (01949)`).
   2. Click **Slide 2 (`Overview`)** and point to the **Resolved Local Context** banner (`NOAA NWS Boston/Norton (BOX)`, New England winter hypothermia and woodland tick hazards, and *Harold Parker State Forest*).
   3. In the top **`Jump to:` Requirement Chip Bar**, click a later requirement chip (such as **`Req 5a`** or **`Quiz`**). Point out how the **horizontal Slide Filmstrip (`#slide-filmstrip-list`) automatically smooth-scrolls and centers** the active slide thumbnail (`scrollIntoView({ inline: 'center' })`) so the filmstrip never falls out of sync with the main stage.
-  4. Point out how scanned pamphlet figures have their white rectangular boxes stripped (`_strip_white_image_background()`) on the warm cream (`#FAF8F5`) canvas, and toggle briefly between **`Standard`**, **`Beautified`**, and **`Studio`** (`#0F172A` dark slate).
+  4. Point out how scanned pamphlet figures have their white rectangular boxes stripped (`_strip_white_image_background()`) on the warm cream (`#FAF8F5`) canvas, and toggle briefly between **`Crisp White`**, **`Warm Cream`**, and **`Dark Slate`** (`#0F172A` dark slate).
   5. Press **`P`** (or click **`🪟 Presenter View (P)`**): show the **In-Stage Split-Screen Presenter Console** opening right inside the browser tab with the current slide, next-slide preview, live classroom timer, and `[SAY]/[DEMO]/[ASK]` cues (alongside the optional dual-monitor popup synced via `BroadcastChannel`). Press **`P`** again to return to the stage.
   6. On a **Check-on-Learning Quiz Slide**, press the **`Spacebar`** (or `Q`) to reveal the verified answer explanation and increment the **Interactive Patrol Quiz Scoreboard**!
 - **`[SAY]`**:
   > "Look at **Slide 1**, featuring the authentic First Aid patch, official pamphlet cover, and my locally injected counselor card, and **Slide 2**, where `resolve_counselor_location()` mapped ZIP `01949` to **NOAA NWS Boston/Norton (`BOX`)** and nearby **Harold Parker State Forest**.
   >
-  > Watch what happens when I click any requirement chip in the top **`Jump to:`** bar: the main 16:9 stage jumps to that requirement and the horizontal **Slide Filmstrip automatically smooth-scrolls to center the active thumbnail** (`scrollIntoView`). Notice how `_strip_white_image_background()` removes harsh white boxes from official pamphlet figures so they blend onto our warm cream **`Beautified`** and dark slate **`Studio`** themes, while `_compute_fitting_font_size()` enforces a strict `12.0pt` font floor with zero text bleed.
+  > Watch what happens when I click any requirement chip in the top **`Jump to:`** bar: the main 16:9 stage jumps to that requirement and the horizontal **Slide Filmstrip automatically smooth-scrolls to center the active thumbnail** (`scrollIntoView`). Notice how `_strip_white_image_background()` removes harsh white boxes from official pamphlet figures so they blend onto our **`Warm Cream`** and **`Dark Slate`** themes, while `_compute_fitting_font_size()` enforces a strict `12.0pt` font floor with zero text bleed.
   >
   > When it's time to teach in a troop meeting room on a single laptop screen, pressing **`P`** opens our **In-Stage Split-Screen Presenter Console** (also synced with a dual-monitor popup via `BroadcastChannel`), giving me the live slide, next-slide preview, skill timer, and large-print teaching cues. And on any Socratic Quiz slide, pressing the **`Spacebar`** reveals the answer rationale and updates our live **Patrol Quiz Scoreboard**!"
 

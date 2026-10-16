@@ -78,13 +78,13 @@ Here is the chronological flow when a counselor uses the workbench:
     - Layer 2 (On-Demand AI Narrative Polish): Counselors can click the split-button in Tab 1 of the Under-Stage Drawer to invoke **`✨ AI Polish Slide`** (`POST /api/slide/polish-notes`, `1-2s`, `~$0.0004`) or **`✨ Polish Entire Deck`** (`POST /api/slide/polish-notes-batch`, `3-5s` across all 20-40 slides in parallel via `asyncio.Semaphore(6)` / `gemini-2.5-flash`, `~$0.015-$0.025`), caching every polished script by SHA-256 hash in the SQLite `polished_speaker_notes` table.
   - Generates the **Printable Scout & Counselor Workbook (`.md`)**, the **4-Mode Counselor Session Agenda & Lesson Plan (`.md`)**, the **Quartermaster Gear Packing Checklist**, the **1-Page Pocket Field Checklist with 3 Scannable ISO/IEC 18004 QR Codes**, and the **Youth Protection Parent Welcome Letter (`.md`)**.
 
-#### Phase 3: Visual Polish Tiers, De-Boxed Figures & Pre-Bundled Visuals (`Stage 3`)
+#### Phase 3: Slide Themes (`Slide Theme & Visuals`), De-Boxed Figures & Pre-Bundled Visuals (`Stage 3`)
 - **Agent engaged**: **`SlideBeautifierAgent`** (`gemini-2.5-flash`).
 - **What happens**:
-  - Calls `beautify_slide_storyboard()` and applies the chosen **Visual Polish Tier**:
-    - **`STANDARD` (`$0.06-$0.14` cold LLM, `$0.00` warm)**: High-contrast white canvas (`#FFFFFF`) with official BSA Navy (`#003F87`) and Gold (`#FDB813`) headers and pamphlet figures.
-    - **`BEAUTIFIED` (`~$0.18` actual cold LLM spend / `$0.38` uncached shadow ceiling, `$0.02` warm)**: Warm cream editorial canvas (`#FAF8F5`) with 4 rotating accent palettes (`BSA_HERITAGE_NAVY`, `CAMPFIRE_AMBER`, `HIGH_SIERRA_FOREST`, `ARCTIC_SLATE`), rounded cards, and pre-bundled Nano Banana Hero & Topic Illustrations loaded from the **3,917 built-in visual assets** at **`$0.00` runtime image cost and `<5ms` disk load latency**.
-    - **`STUDIO` (`<= $1.00` hard cap)**: Dark executive slate canvas (`#0F172A`) with luminous cyan/gold accents and up to 15 hero illustrations or dark-slate 220-DPI EDGE Skill Concept Maps, while **never overwriting** existing technical pamphlet diagrams (`has_custom_diagram` check).
+  - Calls `beautify_slide_storyboard()` and applies the chosen **Slide Theme & Visuals** mode:
+    - **`Crisp White - Pamphlet Figures Only` (`STANDARD`, `$0.06-$0.14` cold LLM, `$0.00` warm)**: High-contrast white canvas (`#FFFFFF`) with official BSA Navy (`#003F87`) and Gold (`#FDB813`) headers and pamphlet figures.
+    - **`Warm Cream - Pamphlet + AI Visuals` (`BEAUTIFIED`, `~$0.18` actual cold LLM spend / `$0.38` uncached shadow ceiling, `$0.02` warm, Default)**: Warm cream editorial canvas (`#FAF8F5`) with 4 rotating accent palettes (`BSA_HERITAGE_NAVY`, `CAMPFIRE_AMBER`, `HIGH_SIERRA_FOREST`, `ARCTIC_SLATE`), rounded cards, and pre-bundled Nano Banana Hero & Topic Illustrations loaded from the **3,917 built-in visual assets** at **`$0.00` runtime image cost and `<5ms` disk load latency**.
+    - **`Dark Slate - Pamphlet + AI Visuals` (`STUDIO`, `<= $1.00` hard cap)**: Dark executive slate canvas (`#0F172A`) with luminous cyan/gold accents and up to 15 hero illustrations or dark-slate 220-DPI EDGE Skill Concept Maps, while **never overwriting** existing technical pamphlet diagrams (`has_custom_diagram` check).
   - Snapshots each slide's initial graphic into immutable `original_diagram_path`, `original_diagram_url`, `original_visual_caption`, `original_visual_source_label`, and `original_archetype` fields so counselors can always restore the original slide state in one click.
   - Enforces `FinOpsBudgetPlugin` (`max_budget_usd = $1.00`). If a custom lower budget cap is set, `FinOpsBudgetPlugin` automatically steps down from `STUDIO` to `BEAUTIFIED` before exceeding the ceiling.
 
@@ -335,18 +335,18 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 
 ---
 
-### Slide 6 (`06 / 12`): Pedagogical Slide Engine, 3 Visual Polish Tiers & `<10ms` AABB Gate (`Pedagogical Slide Engine: 12 BSA EDGE Archetypes, 3 Polish Tiers & <10ms AABB Gate`)
+### Slide 6 (`06 / 12`): Pedagogical Slide Engine, 3 Slide Themes & `<10ms` AABB Gate (`Pedagogical Slide Engine: 12 BSA EDGE Archetypes, 3 Slide Themes & <10ms AABB Gate`)
 
 #### What is on the slide
-- **Eyebrow**: `PEDAGOGICAL SLIDE ENGINE, 3 VISUAL POLISH TIERS & DETERMINISTIC QA • FDE CAPSTONE READOUT • 6 / 12`
-- **Title**: *Pedagogical Slide Engine: 12 BSA EDGE Archetypes, 3 Polish Tiers & `<10ms` AABB Gate*
+- **Eyebrow**: `PEDAGOGICAL SLIDE ENGINE, 3 SLIDE THEMES & DETERMINISTIC QA • FDE CAPSTONE READOUT • 6 / 12`
+- **Title**: *Pedagogical Slide Engine: 12 BSA EDGE Archetypes, 3 Slide Themes & `<10ms` AABB Gate*
 - **Subtitle**: *Decomposes complex requirements into zero-bleed 16:9 instructional slides with 1:1 Web-to-PPTX parity and a strict 12.0pt font floor.*
 - **Left Column (3 Stacked Cards)**:
   1. **`1. 12 BSA EDGE Slide Archetypes & 2 Depth Modes`**: Decomposes multi-part requirements across 12 pedagogical layouts (*Split Visual*, *2x2 Steps*, *2-Col Compare*, *Worked Log*, *Patrol Quiz*, etc.); *Standard Overview* (`18-48` slides) vs. *Deep Dive Camp School* (`50-85+` slides).
-  2. **`2. 3 Visual Polish Tiers & De-Boxed Pamphlet Figures`**: Tier 1 `Standard` (Crisp White `#FFFFFF`), Tier 2 `Beautified` (Warm Cream `#FAF8F5`), and Tier 3 `Studio` (Dark Slate `#0F172A`) across 4 palettes; `_strip_white_image_background()` de-boxes `2,323` pamphlet figures cleanly.
+  2. **`2. 3 Slide Themes & De-Boxed Pamphlet Figures`**: Theme 1 `Crisp White` (`#FFFFFF`, Pamphlet Figures Only), Theme 2 `Warm Cream` (`#FAF8F5`, Pamphlet + AI Visuals), and Theme 3 `Dark Slate` (`#0F172A`, Pamphlet + AI Visuals) across 4 palettes; `_strip_white_image_background()` de-boxes `2,323` pamphlet figures cleanly.
   3. **`3. 2-Stage Conformance Gate (<10ms AABB + Vision)`**: `_compute_fitting_font_size()` enforces a `12.0pt` floor (`0.86` wrap margin); Stage 1 checks `python-pptx` bounding boxes in `3.4ms` (`$0.00` token cost), catching `100%` of overlaps before Stage 2 Vision QA.
-- **Right Visual Frame**: Composite showcase (`Top: 3 Visual Polish Tiers • Bottom: 10-Archetype Picker`).
-- **Footer & CTA Pill**: `Verified by tests/test_conformance_and_a2ui.py: 0 Stage-1 AABB overlaps (3.4ms avg) across Standard, Beautified & Studio tiers.` | CTA: **`Companion Guide ↗`**
+- **Right Visual Frame**: Composite showcase (`Top: 3 Slide Themes • Bottom: 10-Archetype Picker`).
+- **Footer & CTA Pill**: `Verified by tests/test_conformance_and_a2ui.py: 0 Stage-1 AABB overlaps (3.4ms avg) across Crisp White, Warm Cream & Dark Slate themes.` | CTA: **`Companion Guide ↗`**
 
 #### Technical details & jargon on Slide 6
 - **De-Boxed Transparent Figures (`_strip_white_image_background()`)**: Scanned pamphlet diagrams often have opaque white rectangular backgrounds that clash with warm cream (`#FAF8F5`) or dark slate (`#0F172A`) slide cards. Our corner flood-fill algorithm converts edge-connected white border pixels (`RGB >= 242`) to transparent alpha while preserving interior white diagram labels.

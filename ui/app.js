@@ -439,6 +439,13 @@ function syncCounselorProfileSummary() {
   if (topChipEl) topChipEl.textContent = summaryText;
 }
 
+function formatSlideThemeLabel(tierCode) {
+  const upper = String(tierCode || "BEAUTIFIED").toUpperCase();
+  if (upper === "STANDARD" || upper === "CRISP_WHITE" || upper === "CRISP WHITE") return "Crisp White";
+  if (upper === "STUDIO" || upper === "DARK_SLATE" || upper === "DARK SLATE") return "Dark Slate";
+  return "Warm Cream";
+}
+
 function markDeckConfigDirty() {
   state.deckConfigDirty = true;
   const dirtyBanner = document.getElementById("deck-dirty-banner");
@@ -461,7 +468,7 @@ function markDeckConfigDirty() {
         : `<strong>Visual Assets:</strong> 100% Pre-Cached (8-Bit PNG)`;
   }
   if (finopsMetaEl) {
-    finopsMetaEl.textContent = `${tierVal} • ${isDeep ? "Deep Dive" : "Standard"}`;
+    finopsMetaEl.textContent = `${formatSlideThemeLabel(tierVal)} • ${isDeep ? "Deep Dive" : "Standard"}`;
   }
 }
 
@@ -1467,7 +1474,7 @@ async function executeStreamingWorkflow(badgeName) {
     traceList.innerHTML = `
       <div class="m3-trace-item">
         <div class="m3-trace-top"><span>Starting Generation</span><span class="m3-trace-meta">In Progress</span></div>
-        <div class="m3-trace-desc">Researching official ${escapeHtml(badgeName)} Merit Badge requirements and applying ${escapeHtml(beautificationTier)} mode...</div>
+        <div class="m3-trace-desc">Researching official ${escapeHtml(badgeName)} Merit Badge requirements and applying ${escapeHtml(formatSlideThemeLabel(beautificationTier))} theme...</div>
       </div>
     `;
   }
@@ -1591,7 +1598,7 @@ function hydrateWorkbench(result) {
         : `<strong>Visual Assets:</strong> 100% Pre-Cached (8-Bit PNG)`;
   }
   if (finopsMetaEl) {
-    finopsMetaEl.textContent = `${tierNow} • Instant Load`;
+    finopsMetaEl.textContent = `${formatSlideThemeLabel(tierNow)} • Instant Load`;
   }
 
   // 1. Update Hero Banner, Patch Image & Resource Links
@@ -1602,11 +1609,12 @@ function hydrateWorkbench(result) {
     : `<span class="material-symbols-outlined" style="font-size:16px;">verified</span><span>SCOUTS BSA ELECTIVE MERIT BADGE${escapeHtml(categoryLabel)}</span>`;
 
   const activeTier = result.beautification_tier || document.getElementById("beautification-select")?.value || "BEAUTIFIED";
+  const activeThemeLabel = formatSlideThemeLabel(activeTier);
   const activeAudience = result.audience_level || document.getElementById("audience-select")?.value || "All Scouts (Ages 11–17)";
   const depthDesc = (result.depth_mode || "").toLowerCase().includes("deep")
     ? "Detailed Deep-Dive Teaching Deck"
     : "Standard Troop Meeting Deck (1–3 Slides per Requirement)";
-  document.getElementById("hero-badge-subtitle").textContent = `${depthDesc} • ${activeTier} Polish • ${activeAudience}`;
+  document.getElementById("hero-badge-subtitle").textContent = `${depthDesc} • ${activeThemeLabel} Theme • ${activeAudience}`;
 
   const patchImg = document.getElementById("hero-badge-patch-img");
   if (patchImg && result.patch_url) {
@@ -1617,7 +1625,7 @@ function hydrateWorkbench(result) {
   document.getElementById("kpi-slide-count").textContent = String(result.slide_count || slides.length + 1);
   document.getElementById("kpi-subreq-count").textContent = String(reqs.length);
   const kpiPolishEl = document.getElementById("kpi-polish-tier");
-  if (kpiPolishEl) kpiPolishEl.textContent = String(activeTier);
+  if (kpiPolishEl) kpiPolishEl.textContent = activeThemeLabel;
 
   // Download & Resource buttons (respect sticky .PPTX vs Google Slides export preference)
   syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
@@ -1648,8 +1656,8 @@ function hydrateWorkbench(result) {
         <div class="m3-trace-desc">Extracted ${reqs.length} official requirements + ${drCount} grounded citations for ${escapeHtml(result.badge_name)} (${escapeHtml(liveTroop)}${escapeHtml(locLabel)}).</div>
       </div>
       <div class="m3-trace-item">
-        <div class="m3-trace-top"><span>2. Teaching Slides &amp; Beautification</span><span class="m3-trace-meta">${result.slide_count} Slides (${escapeHtml(activeTier)})</span></div>
-        <div class="m3-trace-desc">Applied ${escapeHtml(activeTier)} theme styling, ${escapeHtml(activeAudience)} coaching, and Hero Graphics &amp; EDGE Skill Maps.</div>
+        <div class="m3-trace-top"><span>2. Teaching Slides &amp; Visual Theme</span><span class="m3-trace-meta">${result.slide_count} Slides (${escapeHtml(activeThemeLabel)})</span></div>
+        <div class="m3-trace-desc">Applied ${escapeHtml(activeThemeLabel)} theme styling, ${escapeHtml(activeAudience)} coaching, and Hero Graphics &amp; EDGE Skill Maps.</div>
       </div>
       <div class="m3-trace-item">
         <div class="m3-trace-top"><span>3. PowerPoint, Workbook &amp; StudioKit</span><span class="m3-trace-meta">$${(finops.estimated_cost_usd || 0.14).toFixed(2)}</span></div>
@@ -2170,7 +2178,7 @@ function renderActiveSlide(idx) {
     document.getElementById("active-slide-index-chip").textContent = `Slide 1 of ${totalSlides}`;
     document.getElementById("active-slide-req-chip").textContent = "Cover Slide";
     if (fsCounterEl) fsCounterEl.textContent = `Slide 1 of ${totalSlides} • Cover Slide`;
-    if (themeChip) themeChip.textContent = `🎨 ${deckTier}`;
+    if (themeChip) themeChip.textContent = `🎨 ${formatSlideThemeLabel(deckTier)}`;
     groundedChip?.classList.add("hidden");
     magBadge?.classList.add("hidden");
     visSourceBadge?.classList.add("hidden");
@@ -2306,7 +2314,7 @@ function renderActiveSlide(idx) {
   document.getElementById("active-slide-index-chip").textContent = `Slide ${idx + 2} of ${totalSlides}`;
   document.getElementById("active-slide-req-chip").textContent = reqLabel;
   if (fsCounterEl) fsCounterEl.textContent = `Slide ${idx + 2} of ${totalSlides} • ${reqLabel}`;
-  if (themeChip) themeChip.textContent = `🎨 ${tokens.tier} • ${visTheme}`;
+  if (themeChip) themeChip.textContent = `🎨 ${formatSlideThemeLabel(tokens.tier)} • ${visTheme}`;
   groundedChip?.classList.add("hidden");
 
   // Sync Per-Slide Under-Stage Drawer & Quick-Edit fields
@@ -2375,7 +2383,7 @@ function renderActiveSlide(idx) {
     if (tokens.isBeautified) {
       magBadge.classList.remove("hidden");
       const badgeLabel = slide.callout_badge_text || visTheme;
-      magBadge.innerHTML = `<span style="display:inline-block; background:${tokens.badgeBg}; color:${tokens.badgeFg}; border:1px solid ${tokens.accentHex}; font-size:0.72rem; font-weight:700; padding:2px 10px; border-radius:999px;">🎨 ${escapeHtml(tokens.tier)} &bull; ${escapeHtml(badgeLabel)}</span>`;
+      magBadge.innerHTML = `<span style="display:inline-block; background:${tokens.badgeBg}; color:${tokens.badgeFg}; border:1px solid ${tokens.accentHex}; font-size:0.72rem; font-weight:700; padding:2px 10px; border-radius:999px;">🎨 ${escapeHtml(formatSlideThemeLabel(tokens.tier).toUpperCase())} &bull; ${escapeHtml(badgeLabel)}</span>`;
     } else {
       magBadge.classList.add("hidden");
     }
@@ -3079,7 +3087,7 @@ function renderFinopsTableHtml(finops) {
   const outTok = Number(finops.estimated_output_tokens ?? finops.output_tokens ?? 6200);
   const totalTok = inTok + outTok;
   const plannedImgs = Number(finops.planned_ai_hero_images ?? 0);
-  const tierLbl = escapeHtml(String(finops.beautification_tier || "BEAUTIFIED"));
+  const tierLbl = escapeHtml(formatSlideThemeLabel(finops.beautification_tier || "BEAUTIFIED"));
   const depthLbl = escapeHtml(String(finops.depth_mode || "Deep Dive / Camp School Deck"));
   const drEnabled = finops.enable_deep_research !== undefined ? Boolean(finops.enable_deep_research) : true;
 
@@ -3101,7 +3109,7 @@ function renderFinopsTableHtml(finops) {
       "Cached Rerun Cost",
       `<span style="font-family:'JetBrains Mono',monospace; font-weight:700; color:#15803D;">$${rerunCost.toFixed(2)} USD</span> (75% ADK prefix discount)`,
     ],
-    ["Visual Polish Tier", `<code>${tierLbl}</code> (${plannedImgs} hero graphics)`],
+    ["Slide Theme & Visuals", `<code>${tierLbl}</code> (${plannedImgs} hero graphics)`],
     ["Deck Depth Mode", depthLbl],
     ["Input Context Tokens", `<span style="font-family:'JetBrains Mono',monospace; font-weight:600;">${inTok.toLocaleString()}</span> tokens`],
     ["Output Generation Tokens", `<span style="font-family:'JetBrains Mono',monospace; font-weight:600;">${outTok.toLocaleString()}</span> tokens`],
@@ -6413,7 +6421,7 @@ async function loadAdminZeroPiiTelemetry() {
     setTxt("admin-kpi-total-runs", `${runs24h} / ${runs7d} / ${runsAll}`);
     setTxt("admin-kpi-runs-window", `24h: ${runs24h} • 7d: ${runs7d} • All-Time: ${runsAll}`);
     setTxt("admin-kpi-cache-ratio", `Cache Hit Ratio: ${ratioPct}%`);
-    const tierDepthText = `Tier: BEAUTIFIED ${tiers.BEAUTIFIED || 0} • STUDIO ${tiers.STUDIO || 0} • STANDARD ${tiers.STANDARD || 0} | Depth: Deep Dive ${depths["Deep Dive"] || 0} • Standard ${depths.Standard || 0}`;
+    const tierDepthText = `Theme: Warm Cream ${tiers.BEAUTIFIED || 0} • Dark Slate ${tiers.STUDIO || 0} • Crisp White ${tiers.STANDARD || 0} | Depth: Deep Dive ${depths["Deep Dive"] || 0} • Standard ${depths.Standard || 0}`;
     setTxt("admin-kpi-tier-split", tierDepthText);
     setTxt("admin-kpi-tier-depth-breakdown", tierDepthText);
     setTxt("admin-kpi-warm-p50", `p50: ${warmLat.p50 || 0} ms`);

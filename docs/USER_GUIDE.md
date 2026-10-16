@@ -38,14 +38,14 @@ Instead of spending an entire weekend formatting slides and typing up handouts f
 
 ```mermaid
 flowchart LR
-    Step1["1. Select a Merit Badge<br/>(All 144 Official Badges)"] --> Step2["2. Pick Depth, Visual Polish<br/>& Enter Counselor Info"]
+    Step1["1. Select a Merit Badge<br/>(All 144 Official Badges)"] --> Step2["2. Pick Depth, Slide Theme<br/>& Enter Counselor Info"]
     Step2 --> Step3["3. Click 'Generate Slide Deck<br/>& Workbook'"]
     Step3 --> Step4["4. Review Slides, Switch<br/>Images or Edit Text"]
     Step4 --> Step5["5. Present Dual-Window or<br/>Use 'Export & Print ▾' Menu"]
 ```
 
 1. **Pick a Merit Badge**: In the left sidebar under **1. Find & Select Merit Badge**, search for any badge by name, filter by category or Eagle-Required status, or click one of the **Quick-Select Popular Badges** buttons (such as **★ First Aid**, **Weather**, or **★ Camping**).
-2. **Choose Your Deck Settings**: Under **2. Deck Style & Counselor Info**, choose whether you want a **Deep Dive Teaching Deck (50 to 70+ Slides)** or a shorter **Standard Troop Meeting Deck (1 to 3 Slides / Req)**, pick a **Slide Visual Polish Mode**, and select your **Target Scout Audience Level**.
+2. **Choose Your Deck Settings**: Under **2. Deck Style & Counselor Info**, choose whether you want a **Deep Dive Teaching Deck (50 to 70+ Slides)** or a shorter **Standard Troop Meeting Deck (1 to 3 Slides / Req)**, pick a **Slide Theme & Visuals** mode (**Crisp White — Pamphlet Figures Only**, **Warm Cream — Pamphlet + AI Visuals**, or **Dark Slate — Pamphlet + AI Visuals**), and select your **Target Scout Audience Level**.
 3. **Add Your Counselor & Troop Details (One Time)**: Click **👤 Counselor & Troop Profile (Saved) • Edit ▾** to enter your name, troop and council, city/state or ZIP code, optional email/phone, and optional troop logo. Your browser remembers these details automatically for future badges.
 4. **Generate Your Package**: Click **Generate Slide Deck & Workbook**. While your slides are being built, you can watch the animated **Scout Slide Construction Showcase**.
 5. **Present, Export, or Print**: Step through your slides on the **16:9 Slide Stage**, click **🪟 Presenter View** or **🖥️ Present Fullscreen** to teach from your browser, or open the **📥 Export & Print ▾** menu in the top bar to download your `.pptx` slide deck, `.md` workbook, `3x5` pocket cue cards, prerequisite checklist, or Blue Card CSV.
@@ -62,7 +62,7 @@ The Workbench is organized into four main areas so you can set up your class on 
 | :--- | :--- | :--- |
 | **Top Application Bar** | Across the very top of the window | Displays your saved **Counselor Profile chip** (click it to jump straight to your profile settings), direct links to the **Official BSA Pamphlet** and **Resource Guide**, the **🪟 Presenter View** button, the **📥 Export & Print ▾** dropdown menu (with 7 download and print actions including the 1-Page Field & QR Handout), the **☀️ Sunlight** high-contrast outdoor mode toggle, and the **`?` Keyboard Shortcuts** button. |
 | **Left Setup Sidebar** | Left column (`1. Find & Select Merit Badge` and `2. Deck Style & Counselor Info`) | Lets you choose any of the 144 Merit Badges, set deck length and visual style, enter your local troop information, and click **Generate Slide Deck & Workbook**. You can collapse this sidebar anytime by clicking **Hide Setup** on the left side of the main tab bar. |
-| **Blue Merit Badge Summary Banner** | Top of the right main stage | Shows the official Merit Badge patch emblem, whether the badge is **Eagle-Required** or **Elective**, the badge category, and three side-by-side summary boxes on the right: **TOTAL SLIDES**, **REQUIREMENTS**, and **VISUAL POLISH**. |
+| **Blue Merit Badge Summary Banner** | Top of the right main stage | Shows the official Merit Badge patch emblem, whether the badge is **Eagle-Required** or **Elective**, the badge category, and three side-by-side summary boxes on the right: **TOTAL SLIDES**, **REQUIREMENTS**, and **SLIDE THEME** (`Crisp White`, `Warm Cream`, or `Dark Slate`). |
 | **4 Main Workbench Tabs** | Directly below the blue summary banner | Switches the main workspace between:<br/>1. **Slide Deck Preview**<br/>2. **Requirements & Blue Card Sign-Off**<br/>3. **Scout & Counselor Workbook**<br/>4. **Lesson Plan, Gear List, Parent Letter & FinOps** |
 
 > [!TIP]
@@ -88,14 +88,14 @@ In the upper-left card (**1. Find & Select Merit Badge**), you have four ways to
 
 In the lower-left card (**2. Deck Style & Counselor Info**), you control how detailed the presentation should be, how it should look, and what local troop information should appear on the cover slide and handouts.
 
-### Choosing Deck Depth, Visual Polish & Audience Age
+### Choosing Deck Depth, Slide Theme & Audience Age
 
-![Comparison of the Three Slide Visual Polish Modes](images/slide-polish-tiers-comparison.png)
+![Comparison of the Three Slide Themes & Visuals](images/slide-polish-tiers-comparison.png)
 
 | Setting | Options Available | When to Use Each Option |
 | :--- | :--- | :--- |
 | **Slide Deck Length & Depth** | • **Deep Dive Teaching Deck (3 to 8 Slides / Req • 30 to 100+ Slides)**<br/>• **Standard Troop Meeting Deck (1 to 4 Slides / Req • 18 to 48 Slides)** | Choose **Deep Dive** for multi-week troop classes, summer camp blocks, or Merit Badge Universities where you want dedicated slides for every sub-requirement (`1a`, `1b`, `2a`), worked examples, and review quizzes. Choose **Standard** for a compact overview deck. |
-| **Slide Visual Polish Mode (Beautification Tier)** | • **Standard Lightweight: Crisp White (Pamphlet Figures Only)** *(`~$0.14` cold / `$0.00` cached)*<br/>• **AI Beautified: Warm Cream + Full Pre-Cached Visuals** *(Default, `~$0.38` cold / `$0.02` cached)*<br/>• **AI Studio: Dark Slate + Full Pre-Cached Visuals** *(`$1.00` Max Budget Cap)* | **Standard Lightweight** uses a clean white background (`#FFFFFF`) that prints well on office laser printers and works brightly in sunny outdoor pavilions. **AI Beautified** uses a warm cream background (`#FAF8F5`) with colored card accents and pre-cached requirement intro and topic visuals. **AI Studio** uses a high-contrast dark slate background (`#0F172A`) ideal for evening troop meetings and darkened auditoriums. |
+| **Slide Theme & Visuals** | • **Crisp White — Pamphlet Figures Only** *(`~$0.14` cold / `$0.00` cached)*<br/>• **Warm Cream — Pamphlet + AI Visuals** *(Default, `~$0.18` actual cold LLM / `$0.02` cached)*<br/>• **Dark Slate — Pamphlet + AI Visuals** *(`$1.00` Max Budget Cap)* | **Crisp White** uses a clean white background (`#FFFFFF`) with official pamphlet figures and diagrams that prints well on office laser printers and works brightly in sunny outdoor pavilions. **Warm Cream** uses a warm editorial cream background (`#FAF8F5`) with colored card accents and pre-bundled pamphlet + AI requirement intro and topic visuals. **Dark Slate** uses a high-contrast dark slate background (`#0F172A`) with pamphlet + AI visuals ideal for evening troop meetings and darkened auditoriums. |
 | **Target Scout Audience Level** | • **All Scouts (Ages 11 to 17)**<br/>• **First-Year / Tenderfoot Focus (Ages 11 to 12)**<br/>• **Older Scouts / Eagle Prep (Ages 14 to 17)** | Adjusts the counselor speaker notes (`[SAY]`, `[DEMONSTRATE]`, `[ASK SCOUTS]`) so your explanations and check questions fit either younger crossovers or older Scouts preparing for Eagle Boards of Review. |
 | **Enable Local Regional Grounding (NOAA / Terrain / Field Sites)** | Checked by default | Tailors your **Badge Overview slide (Slide 2)**, **Session Lesson Plan**, and **Parent Welcome Letter** to your local area, referencing your nearest National Weather Service office, local terrain and seasonal weather hazards, and nearby parks or field study sites. |
 
@@ -241,8 +241,8 @@ Click the second main tab at the top of the screen (**Requirements & Blue Card S
 
 ![Requirements Triage, Bulk Blue Card Roster & 4-Sub-Tab Classroom Toolkit](images/counselor-field-toolkit.png)
 
-### 3-Column Requirements Triage
-At the top of the tab, every official requirement for the badge is sorted into one of three practical teaching columns:
+### 3-Column Requirements Triage & Header Action Buttons
+At the top of the **Official BSA Merit Badge Pamphlet & Digital Resource Guides** card, three single-line action buttons let you jump directly to **`↓ Blue Card Tracker`**, open the **`Official BSA Pamphlet (PDF)`**, or open the **`Scouting.org Resource Guide`**. Directly below, every official requirement for the badge is sorted into one of three practical teaching columns:
 - **Discussion & Core Knowledge**: Requirements you can cover through interactive patrol discussion, visual explainers, and Socratic Q&A.
 - **Hands-On Skill Demonstrations**: Physical skills where each Scout must *demonstrate*, *build*, *treat*, or *perform* a task at a practice station.
 - **Campout, Field & Home Projects**: Prerequisites, multi-week logs, field visits, or campout tasks that Scouts must complete outside of a regular troop classroom meeting.

@@ -1030,9 +1030,9 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
     app_js = Path("ui/app.js").read_text(encoding="utf-8")
 
     # 1. Verify dropdown labels, official BSA logo, 144 badges subhead & absence of NotebookLM / per-deck cost
-    assert "AI Beautified — Warm Cream + Full Pre-Cached Visuals" in html
-    assert "AI Studio — Dark Slate + Full Pre-Cached Visuals" in html
-    assert "Standard Lightweight — Crisp White (Pamphlet Figures Only)" in html
+    assert "Warm Cream — Pamphlet + AI Visuals" in html
+    assert "Dark Slate — Pamphlet + AI Visuals" in html
+    assert "Crisp White — Pamphlet Figures Only" in html
     assert "/assets/bsa_logo.png" in html
     assert "All 144 Official Merit Badges &bull; Teaching Slide Decks &amp; Printable Scout Workbooks" in html
     assert "NotebookLM" not in html

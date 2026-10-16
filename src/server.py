@@ -1508,7 +1508,10 @@ async def api_export_slide_deck_to_google_slides(
     if not pptx_file or not pptx_file.exists():
         raise HTTPException(status_code=404, detail="No generated PPTX deck found to convert to Google Slides.")
 
-    deck_title = f"{req.badge_name} Merit Badge — Counselor Teaching Deck ({req.beautification_tier.title()})"
+    theme_display = {"STANDARD": "Crisp White", "BEAUTIFIED": "Warm Cream", "STUDIO": "Dark Slate"}.get(
+        str(req.beautification_tier or "BEAUTIFIED").upper(), "Warm Cream"
+    )
+    deck_title = f"{req.badge_name} Merit Badge — Counselor Teaching Deck ({theme_display})"
     access_token = (req.user_access_token or os.environ.get("GOOGLE_DRIVE_ACCESS_TOKEN") or "").strip()
     auth_mode = "USER_OAUTH_TOKEN" if req.user_access_token else "ENV_TOKEN"
 

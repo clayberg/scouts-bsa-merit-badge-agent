@@ -117,7 +117,7 @@ When you are reviewing a slide deck on the **16:9 Slide Stage** while an Admin S
 
 ### 1. Telemetry KPI Row (5 Summary Cards)
 
-- **Total Deck Runs (`24h / 7d / All-Time`) & Cache Hit Ratio**: Displays deck builds over the last 24 hours, last 7 days, and all-time alongside the warm cache hit percentage and breakdown by polish tier (`STANDARD`, `BEAUTIFIED`, `STUDIO`) and depth (`Standard`, `Deep Dive`).
+- **Total Deck Runs (`24h / 7d / All-Time`) & Cache Hit Ratio**: Displays deck builds over the last 24 hours, last 7 days, and all-time alongside the warm cache hit percentage and breakdown by slide theme (`Warm Cream`, `Dark Slate`, `Crisp White`) and depth (`Standard`, `Deep Dive`).
 - **Warm Cache Latency (`p50` / `p95` / `p99` ms + 5-Bucket Histogram)**: Median, 95th-percentile, and 99th-percentile build latency for cached Merit Badge runs with a visual 5-bucket latency distribution histogram.
 - **Cold Synthesis & Single-Slide Regen Latency (`p50` / `p95` / `p99` ms + Histogram)**: Latency percentiles and 5-bucket histogram for cold synthesis runs plus single-slide regeneration latency.
 - **Anonymous Star Rating & Golden Promotions**: Average counselor star rating (`1` to `5` stars) and count of sessions promoted to `tests/data/golden_extensions.json`.

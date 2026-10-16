@@ -719,13 +719,16 @@ def run_merit_badge_workflow(
         if isinstance(beautify_res.get("storyboard"), dict):
             storyboard = beautify_res["storyboard"]
 
+        theme_label = {"STANDARD": "Crisp White", "BEAUTIFIED": "Warm Cream", "STUDIO": "Dark Slate"}.get(
+            str(beautification_tier or "BEAUTIFIED").upper(), "Warm Cream"
+        )
         agent_trace.append({
             "agent": "SlideBeautifierAgent",
             "model": select_model_for_task("beautifier"),
             "status": "COMPLETED",
             "duration_ms": round((time.perf_counter() - step_t_bf) * 1000, 1),
             "summary": (
-                f"Applied '{str(beautification_tier).upper()}' magazine visual blueprint with consecutive-slide "
+                f"Applied '{theme_label}' slide theme and visual blueprint with consecutive-slide "
                 f"variety and {(deck_blueprint or {}).get('ai_hero_images_generated', 0)} editorial hero illustrations."
             ),
         })
@@ -960,12 +963,15 @@ async def stream_merit_badge_workflow_events(
     }
     await asyncio.sleep(0.05)
 
+    theme_label = {"STANDARD": "Crisp White", "BEAUTIFIED": "Warm Cream", "STUDIO": "Dark Slate"}.get(
+        str(beautification_tier or "BEAUTIFIED").upper(), "Warm Cream"
+    )
     yield {
         "event": "stage_start",
         "stage": "planning",
         "agent": "SlideContentPlannerAgent",
         "model": select_model_for_task("planner"),
-        "message": f"Planning 12-Archetype Storyboard & applying '{beautification_tier}' Magazine Visual Blueprint...",
+        "message": f"Planning 12-Archetype Storyboard & applying '{theme_label}' Slide Theme & Visuals...",
         "progress_pct": 52,
     }
     await asyncio.sleep(0.05)

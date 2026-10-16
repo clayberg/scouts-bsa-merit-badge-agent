@@ -4,7 +4,7 @@
 **Repository:** `https://github.com/clayberg/scouts-bsa-merit-badge-agent`
 **Code References:** `src/config.py`, `src/agents/guardrails.py`, `src/agents/coordinator.py`, `src/agents/image_studio.py`, `src/server.py`, `terraform/main.tf`
 
-> **Purpose of This Guide:** The Scouts BSA Merit Badge Counselor Workbench includes several features that display token counts and dollar budgets in the UI, including **Beautified** and **Studio** slide decks and **Nano Banana AI** custom illustrations. This document explains how those costs are handled today during development, how a volunteer counselor pays (or avoids paying) when running the app locally, how billing changes when a Council or Troop hosts the app on Google Cloud Run, and how the app recovers gracefully whenever a cost is denied or an API quota limit is reached.
+> **Purpose of This Guide:** The Scouts BSA Merit Badge Counselor Workbench includes several features that display token counts and dollar budgets in the UI, including **Warm Cream — Pamphlet + AI Visuals** (`BEAUTIFIED`) and **Dark Slate — Pamphlet + AI Visuals** (`STUDIO`) slide decks and **Nano Banana AI** custom illustrations. This document explains how those costs are handled today during development, how a volunteer counselor pays (or avoids paying) when running the app locally, how billing changes when a Council or Troop hosts the app on Google Cloud Run, and how the app recovers gracefully whenever a cost is denied or an API quota limit is reached.
 
 ## Executive Summary: Who Pays for What Across Environments?
 
@@ -47,7 +47,7 @@ If the user simply installs the Python dependencies and starts the app without t
 
 1. `get_effective_gemini_api_key()` in `src/config.py` returns `None`.
 2. The app runs in **Deterministic Hybrid Mode** at **$0.00 cost**.
-3. The user gets full access to all 144 Scouts BSA Merit Badges, all 3 visual slide themes (`Standard`, `Beautified`, and `Studio`), all 3,917 built-in curated visual assets across all 144 badges (`1,306` pre-populated Nano Banana illustrations + `2,323` 100%-Vision-verified BSA Pamphlet figures [`1,009` primary + `1,314` requirement alternates] + `144` emblems + `144` covers, with automatic EDGE Skill Concept Map fallbacks), local ZIP/city grounding for National Weather Service offices and BSA High Adventure bases, live Wikipedia/Wikimedia image search, stylized Nano Banana illustrations, and local file uploads.
+3. The user gets full access to all 144 Scouts BSA Merit Badges, all 3 slide themes (`Crisp White — Pamphlet Figures Only`, `Warm Cream — Pamphlet + AI Visuals`, and `Dark Slate — Pamphlet + AI Visuals`), all 3,917 built-in curated visual assets across all 144 badges (`1,306` pre-populated Nano Banana illustrations + `2,323` 100%-Vision-verified BSA Pamphlet figures [`1,009` primary + `1,314` requirement alternates] + `144` emblems + `144` covers, with automatic EDGE Skill Concept Map fallbacks), local ZIP/city grounding for National Weather Service offices and BSA High Adventure bases, live Wikipedia/Wikimedia image search, stylized Nano Banana illustrations, and local file uploads.
 
 ### Option B: Bring-Your-Own-Key (BYOK) Mode
 
