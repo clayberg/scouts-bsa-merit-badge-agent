@@ -45,7 +45,7 @@ We have created and installed a single automated script at `scripts/publish_and_
 
 ### 2.1 What the Script Does
 1. Verifies `.gitignore` excludes `.cache/` and `*.bundle` so the bundle never packs itself recursively.
-2. Optionally runs all 57 `pytest` unit, fault-injection, Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, and contract-drift tests (`79` OpenAPI 3.1 paths) and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
+2. Optionally runs all 60 `pytest` unit, fault-injection, Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, and contract-drift tests (`85` OpenAPI 3.1 paths) and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
 3. Stages and commits any latest changes on branch `main`.
 4. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)
