@@ -1,41 +1,45 @@
 """ISO/IEC 18004 QR Code Matrix & SVG Generator (`src/tools/qr_generator.py`).
 
 Generates standard-compliant, phone-camera-scannable ISO/IEC 18004 QR Code matrices
-and SVG graphics (Byte mode, Error Correction Level L, Versions 1-10) with zero
+and SVG graphics (Byte mode, Error Correction Level M with 15% Reed-Solomon recovery,
+Versions 1-10) with an embedded center Scouts BSA Fleur-de-Lis emblem and zero
 external runtime dependencies or network calls.
 """
 
 from __future__ import annotations
 
+import base64
+import functools
 import html
+from pathlib import Path
 from typing import List, Tuple
 
-# Version 1..10 specs for Error Correction Level L:
+# Version 1..10 specs for Error Correction Level M (~15% Reed-Solomon codeword recovery):
 # (total_codewords, ec_codewords_per_block, num_blocks_group1, data_codewords_group1,
 #  num_blocks_group2, data_codewords_group2, alignment_centers)
-_QR_VERSION_SPECS_L: dict[int, Tuple[int, int, int, int, int, int, Tuple[int, ...]]] = {
-    1: (26, 7, 1, 19, 0, 0, ()),
-    2: (44, 10, 1, 34, 0, 0, (6, 18)),
-    3: (70, 15, 1, 55, 0, 0, (6, 22)),
-    4: (100, 20, 1, 80, 0, 0, (6, 26)),
-    5: (134, 26, 1, 108, 0, 0, (6, 30)),
-    6: (172, 18, 2, 68, 0, 0, (6, 34)),
-    7: (196, 20, 2, 78, 0, 0, (6, 22, 38)),
-    8: (242, 24, 2, 97, 0, 0, (6, 24, 42)),
-    9: (292, 30, 2, 116, 0, 0, (6, 26, 46)),
-    10: (346, 18, 2, 68, 2, 69, (6, 28, 50)),
+_QR_VERSION_SPECS_M: dict[int, Tuple[int, int, int, int, int, int, Tuple[int, ...]]] = {
+    1: (26, 10, 1, 16, 0, 0, ()),
+    2: (44, 16, 1, 28, 0, 0, (6, 18)),
+    3: (70, 26, 1, 44, 0, 0, (6, 22)),
+    4: (100, 18, 2, 32, 0, 0, (6, 26)),
+    5: (134, 24, 2, 43, 0, 0, (6, 30)),
+    6: (172, 16, 4, 27, 0, 0, (6, 34)),
+    7: (196, 18, 4, 31, 0, 0, (6, 22, 38)),
+    8: (242, 22, 2, 38, 2, 39, (6, 24, 42)),
+    9: (292, 22, 3, 36, 2, 37, (6, 26, 46)),
+    10: (346, 26, 4, 43, 1, 44, (6, 28, 50)),
 }
 
-# Precomputed 15-bit Format Information strings for Error Correction Level L (01) and Mask 0..7
-_FORMAT_BITS_L: Tuple[int, ...] = (
-    0x77C4,  # Mask 0
-    0x72F3,  # Mask 1
-    0x7DAA,  # Mask 2
-    0x789D,  # Mask 3
-    0x662F,  # Mask 4
-    0x6318,  # Mask 5
-    0x6C41,  # Mask 6
-    0x6976,  # Mask 7
+# Precomputed 15-bit Format Information strings for Error Correction Level M (00) and Mask 0..7
+_FORMAT_BITS_M: Tuple[int, ...] = (
+    0x5412,  # Mask 0
+    0x5125,  # Mask 1
+    0x5E7C,  # Mask 2
+    0x5B4B,  # Mask 3
+    0x45F9,  # Mask 4
+    0x40CE,  # Mask 5
+    0x4F97,  # Mask 6
+    0x4AA0,  # Mask 7
 )
 
 # Precomputed 18-bit Version Information for Versions 7..10
@@ -45,6 +49,16 @@ _VERSION_BITS: dict[int, int] = {
     9: 0x09A99,
     10: 0x0A4D3,
 }
+
+
+@functools.lru_cache(maxsize=1)
+def _get_bsa_logo_data_uri() -> str:
+    """Loads `assets/bsa_logo.png` as a base64 data URI for self-contained SVG QR codes."""
+    logo_path = Path(__file__).resolve().parents[2] / "assets" / "bsa_logo.png"
+    if logo_path.exists():
+        b64 = base64.b64encode(logo_path.read_bytes()).decode("ascii")
+        return f"data:image/png;base64,{b64}"
+    return "/assets/bsa_logo.png"
 
 
 def _gf_tables() -> Tuple[List[int], List[int]]:
@@ -96,11 +110,11 @@ def _rs_encode(data: List[int], ec_len: int) -> List[int]:
 
 
 def encode_qr_matrix(text: str) -> List[List[bool]]:
-    """Encodes `text` into a 2D boolean matrix representing an ISO/IEC 18004 QR Code."""
+    """Encodes `text` into a 2D boolean matrix representing an ISO/IEC 18004 Level-M QR Code."""
     payload_bytes = list((text or "https://www.scouting.org").encode("utf-8"))
     version = 10
     for v in range(1, 11):
-        spec = _QR_VERSION_SPECS_L[v]
+        spec = _QR_VERSION_SPECS_M[v]
         data_cap = spec[2] * spec[3] + spec[4] * spec[5]
         len_bits = 8 if v <= 9 else 16
         max_bytes = ((data_cap * 8) - 4 - len_bits) // 8
@@ -108,10 +122,10 @@ def encode_qr_matrix(text: str) -> List[List[bool]]:
             version = v
             break
     else:
-        # Truncate if longer than Version 10 capacity (271 bytes)
-        payload_bytes = payload_bytes[:270]
+        # Truncate if longer than Version 10 Level-M capacity (213 bytes)
+        payload_bytes = payload_bytes[:212]
 
-    total_cw, ec_len, g1_blocks, g1_data, g2_blocks, g2_data, align_centers = _QR_VERSION_SPECS_L[version]
+    total_cw, ec_len, g1_blocks, g1_data, g2_blocks, g2_data, align_centers = _QR_VERSION_SPECS_M[version]
     data_capacity = g1_blocks * g1_data + g2_blocks * g2_data
     len_bits = 8 if version <= 9 else 16
 
@@ -259,8 +273,8 @@ def encode_qr_matrix(text: str) -> List[List[bool]]:
         upward = not upward
         col -= 2
 
-    # Write Format Information for Mask 0
-    fbits = _FORMAT_BITS_L[0]
+    # Write Format Information for Level M, Mask 0
+    fbits = _FORMAT_BITS_M[0]
     for i in range(6):
         set_func(8, i, ((fbits >> i) & 1) == 1)
     set_func(8, 7, ((fbits >> 6) & 1) == 1)
@@ -277,8 +291,14 @@ def encode_qr_matrix(text: str) -> List[List[bool]]:
     return modules
 
 
-def render_qr_svg(url: str, size_px: int = 96, fg_color: str = "#003F87", bg_color: str = "#FFFFFF") -> str:
-    """Renders an ISO/IEC 18004 QR Code for `url` as a self-contained SVG string."""
+def render_qr_svg(
+    url: str,
+    size_px: int = 96,
+    fg_color: str = "#003F87",
+    bg_color: str = "#FFFFFF",
+    embed_logo: bool = True,
+) -> str:
+    """Renders an ISO/IEC 18004 Level-M QR Code for `url` as a self-contained SVG string with a centered Scouts BSA emblem."""
     matrix = encode_qr_matrix(url)
     n = len(matrix)
     quiet = 2
@@ -289,11 +309,26 @@ def render_qr_svg(url: str, size_px: int = 96, fg_color: str = "#003F87", bg_col
             if matrix[r][c]:
                 path_parts.append(f"M{c + quiet},{r + quiet}h1v1h-1z")
     safe_label = html.escape(url, quote=True)
+    logo_overlay = ""
+    if embed_logo:
+        logo_uri = _get_bsa_logo_data_uri()
+        box_size = round(n * 0.21, 2)
+        box_xy = round((total_modules - box_size) / 2.0, 2)
+        img_pad = round(box_size * 0.08, 2)
+        img_xy = round(box_xy + img_pad, 2)
+        img_size = round(box_size - img_pad * 2.0, 2)
+        logo_overlay = (
+            f'<rect x="{box_xy}" y="{box_xy}" width="{box_size}" height="{box_size}" rx="1.1" '
+            f'fill="{bg_color}" stroke="{fg_color}" stroke-width="0.35"/>'
+            f'<image href="{logo_uri}" x="{img_xy}" y="{img_xy}" width="{img_size}" height="{img_size}" '
+            f'preserveAspectRatio="xMidYMid meet"/>'
+        )
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{size_px}" height="{size_px}" '
         f'viewBox="0 0 {total_modules} {total_modules}" shape-rendering="crispEdges" '
         f'role="img" aria-label="QR Code for {safe_label}">'
         f'<rect width="{total_modules}" height="{total_modules}" fill="{bg_color}"/>'
         f'<path d="{"".join(path_parts)}" fill="{fg_color}"/>'
+        f"{logo_overlay}"
         f"</svg>"
     )

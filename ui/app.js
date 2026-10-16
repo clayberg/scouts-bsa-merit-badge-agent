@@ -187,7 +187,7 @@ function badgeNameToEmblemSlug(badgeName) {
 function updateConstructionBadgeEmblem(badgeName) {
   const cleanName = badgeName || state.currentBadge || "First Aid";
   const slug = badgeNameToEmblemSlug(cleanName);
-  const emblemUrl = `/assets/badge_emblems/${slug}.png`;
+  const emblemUrl = `/assets/badge_emblems/${slug}.png?v=20261016c`;
   const overlayImg = document.getElementById("construction-badge-emblem-overlay");
   const workorderImg = document.getElementById("construction-workorder-emblem");
   const workorderTitle = document.getElementById("construction-workorder-title");
@@ -1610,7 +1610,7 @@ function hydrateWorkbench(result) {
 
   const patchImg = document.getElementById("hero-badge-patch-img");
   if (patchImg && result.patch_url) {
-    patchImg.src = result.patch_url;
+    patchImg.src = `${result.patch_url}${result.patch_url.includes("?") ? "&" : "?"}v=20261016c`;
     patchImg.alt = `${result.badge_name} Merit Badge Patch`;
   }
 
@@ -2214,7 +2214,7 @@ function renderActiveSlide(idx) {
         <div style="display:flex; align-items:center; gap:24px; padding:12px 8px;">
           ${
             res.patch_url
-              ? `<img src="${escapeHtml(res.patch_url)}" alt="Badge Emblem" style="width:116px; height:116px; object-fit:contain; flex-shrink:0;" />`
+              ? `<img src="${escapeHtml(`${res.patch_url}${res.patch_url.includes("?") ? "&" : "?"}v=20261016c`)}" alt="Badge Emblem" style="width:116px; height:116px; object-fit:contain; flex-shrink:0;" />`
               : ""
           }
           <div style="flex:1; text-align:center;">
@@ -2744,7 +2744,7 @@ function renderActiveSlide(idx) {
   } else {
     if (leftZone) leftZone.style.display = "flex";
     if (rightZone) rightZone.style.display = "flex";
-    if (splitContainer) splitContainer.style.gridTemplateColumns = "1.15fr 0.85fr";
+    if (splitContainer) splitContainer.style.gridTemplateColumns = "minmax(0, 1.15fr) minmax(0, 0.85fr)";
     if (imgEl) {
       imgEl.src = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=3`;
       imgEl.alt = slide.visual_caption || slide.title || "Merit Badge Diagram";
@@ -5309,39 +5309,56 @@ function printThreePanelBlueCards(result) {
   );
 }
 
-// ISO/IEC 18004 Standard QR Code Encoder (Byte Mode, Error Correction Level L, GF(256) Reed-Solomon)
-const QR_VERSION_SPECS_L_JS = {
-  1: [21, 19, 7, []],
-  2: [25, 34, 10, [6, 18]],
-  3: [29, 55, 15, [6, 22]],
-  4: [33, 80, 20, [6, 26]],
-  5: [37, 108, 26, [6, 30]],
-  6: [41, 136, 18, [6, 34]],
-  7: [45, 156, 20, [6, 22, 38]],
+// ISO/IEC 18004 Standard QR Code Encoder (Byte Mode, Error Correction Level M ~15% recovery, GF(256) Reed-Solomon)
+// Version specs: [size, ecCwPerBlock, g1Blocks, g1DataCw, g2Blocks, g2DataCw, alignCenters]
+const QR_VERSION_SPECS_M_JS = {
+  1: [21, 10, 1, 16, 0, 0, []],
+  2: [25, 16, 1, 28, 0, 0, [6, 18]],
+  3: [29, 26, 1, 44, 0, 0, [6, 22]],
+  4: [33, 18, 2, 32, 0, 0, [6, 26]],
+  5: [37, 24, 2, 43, 0, 0, [6, 30]],
+  6: [41, 16, 4, 27, 0, 0, [6, 34]],
+  7: [45, 18, 4, 31, 0, 0, [6, 22, 38]],
+  8: [49, 22, 2, 38, 2, 39, [6, 24, 42]],
+  9: [53, 22, 3, 36, 2, 37, [6, 26, 46]],
+  10: [57, 26, 4, 43, 1, 44, [6, 28, 50]],
 };
-const QR_FORMAT_BITS_L_JS = [
-  0x77c4, 0x72f3, 0x7daa, 0x789d, 0x662f, 0x6318, 0x6c41, 0x6976,
+const QR_FORMAT_BITS_M_JS = [
+  0x5412, 0x5125, 0x5e7c, 0x5b4b, 0x45f9, 0x40ce, 0x4f97, 0x4aa0,
 ];
+const QR_VERSION_BITS_JS = {
+  7: 0x07c94,
+  8: 0x085bc,
+  9: 0x09a99,
+  10: 0x0a4d3,
+};
 
 function encodeIsoQrMatrixJs(text) {
   const utf8Bytes = Array.from(new TextEncoder().encode(String(text || "https://www.scouting.org/")));
-  let chosenVer = 7;
-  for (let v = 1; v <= 7; v++) {
-    const cap = QR_VERSION_SPECS_L_JS[v][1];
-    if (utf8Bytes.length + 2 <= cap) {
+  let chosenVer = 10;
+  for (let v = 1; v <= 10; v++) {
+    const spec = QR_VERSION_SPECS_M_JS[v];
+    const dataCap = spec[2] * spec[3] + spec[4] * spec[5];
+    const lenBits = v <= 9 ? 8 : 16;
+    const maxBytes = Math.floor((dataCap * 8 - 4 - lenBits) / 8);
+    if (utf8Bytes.length <= maxBytes) {
       chosenVer = v;
       break;
     }
   }
-  const [size, totalDataCw, ecCwPerBlock, alignCenters] = QR_VERSION_SPECS_L_JS[chosenVer];
-  const payload = utf8Bytes.slice(0, totalDataCw - 2);
+  const [size, ecCwPerBlock, g1Blocks, g1Data, g2Blocks, g2Data, alignCenters] =
+    QR_VERSION_SPECS_M_JS[chosenVer];
+  const totalDataCw = g1Blocks * g1Data + g2Blocks * g2Data;
+  const lenBits = chosenVer <= 9 ? 8 : 16;
+  const maxBytes = Math.floor((totalDataCw * 8 - 4 - lenBits) / 8);
+  const payload = utf8Bytes.slice(0, maxBytes);
 
   const bits = [];
   const pushBits = (val, len) => {
     for (let i = len - 1; i >= 0; i--) bits.push((val >> i) & 1);
   };
   pushBits(0b0100, 4);
-  pushBits(payload.length, 8);
+  pushBits(payload.length, lenBits);
   payload.forEach((b) => pushBits(b, 8));
   const maxBits = totalDataCw * 8;
   const term = Math.min(4, maxBits - bits.length);
@@ -5400,24 +5417,32 @@ function encodeIsoQrMatrixJs(text) {
     return msg.slice(block.length);
   };
 
-  let finalCodewords = [];
-  if (chosenVer <= 5) {
-    finalCodewords = dataCodewords.concat(computeRsEc(dataCodewords));
-  } else {
-    const numBlocks = 2;
-    const blockLen = Math.floor(totalDataCw / numBlocks);
-    const dBlocks = [];
-    const eBlocks = [];
-    for (let b = 0; b < numBlocks; b++) {
-      const blk = dataCodewords.slice(b * blockLen, (b + 1) * blockLen);
-      dBlocks.push(blk);
-      eBlocks.push(computeRsEc(blk));
+  const dBlocks = [];
+  const eBlocks = [];
+  let offset = 0;
+  for (let b = 0; b < g1Blocks; b++) {
+    const blk = dataCodewords.slice(offset, offset + g1Data);
+    offset += g1Data;
+    dBlocks.push(blk);
+    eBlocks.push(computeRsEc(blk));
+  }
+  for (let b = 0; b < g2Blocks; b++) {
+    const blk = dataCodewords.slice(offset, offset + g2Data);
+    offset += g2Data;
+    dBlocks.push(blk);
+    eBlocks.push(computeRsEc(blk));
+  }
+
+  const finalCodewords = [];
+  const maxDataLen = Math.max(g1Data, g2Data);
+  for (let col = 0; col < maxDataLen; col++) {
+    for (let b = 0; b < dBlocks.length; b++) {
+      if (col < dBlocks[b].length) finalCodewords.push(dBlocks[b][col]);
     }
-    for (let i = 0; i < blockLen; i++) {
-      for (let b = 0; b < numBlocks; b++) finalCodewords.push(dBlocks[b][i]);
-    }
-    for (let i = 0; i < ecCwPerBlock; i++) {
-      for (let b = 0; b < numBlocks; b++) finalCodewords.push(eBlocks[b][i]);
+  }
+  for (let col = 0; col < ecCwPerBlock; col++) {
+    for (let b = 0; b < eBlocks.length; b++) {
+      finalCodewords.push(eBlocks[b][col]);
     }
   }
 
@@ -5486,6 +5511,19 @@ function encodeIsoQrMatrixJs(text) {
     isFunc[size - 1 - i][8] = true;
   }
 
+  if (QR_VERSION_BITS_JS[chosenVer]) {
+    const vbits = QR_VERSION_BITS_JS[chosenVer];
+    for (let i = 0; i < 18; i++) {
+      const bit = ((vbits >> i) & 1) === 1;
+      const a = size - 11 + (i % 3);
+      const b = Math.floor(i / 3);
+      matrix[a][b] = bit;
+      isFunc[a][b] = true;
+      matrix[b][a] = bit;
+      isFunc[b][a] = true;
+    }
+  }
+
   let bitIdx = 0;
   let upward = true;
   let col = size - 1;
@@ -5509,7 +5547,7 @@ function encodeIsoQrMatrixJs(text) {
     col -= 2;
   }
 
-  const fmt = QR_FORMAT_BITS_L_JS[0];
+  const fmt = QR_FORMAT_BITS_M_JS[0];
   const fbits = Array.from({ length: 15 }, (_, i) => Boolean((fmt >> i) & 1));
   const coordsTl = [
     [8, 0], [8, 1], [8, 2], [8, 3], [8, 4], [8, 5], [8, 7], [8, 8],
@@ -5542,12 +5580,20 @@ function renderInlineQrCodeSvg(urlText, labelText) {
       }
     }
   }
+  const boxSize = Number((n * 0.21).toFixed(2));
+  const boxXy = Number(((totalModules - boxSize) / 2).toFixed(2));
+  const imgPad = Number((boxSize * 0.08).toFixed(2));
+  const imgXy = Number((boxXy + imgPad).toFixed(2));
+  const imgSize = Number((boxSize - imgPad * 2).toFixed(2));
+  const logoHref = `${window.location.origin}/assets/bsa_logo.png`;
   const qrEndpoint = `/api/v1/qr.svg?url=${encodeURIComponent(fullUrl)}`;
   return `
     <a href="${escapeHtml(fullUrl)}" target="_blank" rel="noopener noreferrer" data-qr-endpoint="${escapeHtml(qrEndpoint)}" title="Scan QR with phone camera or click to open: ${escapeHtml(fullUrl)}" style="text-decoration:none; display:inline-flex; flex-direction:column; align-items:center; border:1.5px solid #CBD5E1; border-radius:8px; padding:6px 8px; background:#FFFFFF;">
       <svg width="96" height="96" viewBox="0 0 ${totalModules} ${totalModules}" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeHtml(labelText)} — ${escapeHtml(fullUrl)}">
         <rect width="${totalModules}" height="${totalModules}" fill="#FFFFFF" />
         ${rects.join("")}
+        <rect x="${boxXy}" y="${boxXy}" width="${boxSize}" height="${boxSize}" rx="1.1" fill="#FFFFFF" stroke="#003F87" stroke-width="0.35" />
+        <image href="${escapeHtml(logoHref)}" x="${imgXy}" y="${imgXy}" width="${imgSize}" height="${imgSize}" preserveAspectRatio="xMidYMid meet" />
       </svg>
       <div style="font-size:9.5px; font-weight:800; color:#003F87; margin-top:4px; text-align:center; max-width:112px;">${escapeHtml(labelText)} ↗</div>
     </a>
@@ -5806,6 +5852,7 @@ function togglePresenterConsoleMode(forceState) {
     fsBtn.textContent = nextActive ? "🪟 Exit Split View (P)" : "🪟 Presenter View (P)";
   }
   syncPresenterViewWindow();
+  fitActiveSlideToStage();
   setTimeout(() => fitActiveSlideToStage(), 40);
 }
 
@@ -6508,12 +6555,12 @@ async function loadAdminZeroPiiTelemetry() {
             const p99 = Number(st.p99_ms ?? st.p99 ?? p95);
             const pct = Math.min(100, Math.max(6, Math.round((p95 / maxP99) * 100)));
             return `
-              <div style="display:grid; grid-template-columns:160px 1fr 225px; gap:10px; align-items:center; font-size:0.79rem;">
-                <strong style="color:#0F172A;">${escapeHtml(sid)}</strong>
-                <div style="background:#E2E8F0; height:10px; border-radius:999px; overflow:hidden;">
+              <div style="display:grid; grid-template-columns:minmax(225px, 245px) minmax(90px, 1fr) auto; gap:12px; align-items:center; font-size:0.79rem;">
+                <strong style="color:#0F172A; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${escapeHtml(sid)}">${escapeHtml(sid)}</strong>
+                <div style="background:#E2E8F0; height:10px; border-radius:999px; overflow:hidden; min-width:80px;">
                   <div style="width:${pct}%; height:100%; background:#003F87; border-radius:999px;"></div>
                 </div>
-                <span style="font-family:var(--font-mono); font-size:0.72rem; color:#334155;">p50: ${p50}ms • p95: ${p95}ms • p99: ${p99}ms</span>
+                <span style="font-family:var(--font-mono); font-size:0.72rem; color:#334155; white-space:nowrap; text-align:right;">p50: ${p50}ms • p95: ${p95}ms • p99: ${p99}ms</span>
               </div>
             `;
           })
@@ -6737,7 +6784,7 @@ function renderPatchGalleryModal() {
     if (q && !`${name} ${cat}`.toLowerCase().includes(q)) return false;
     if ((filterMode === "eagle" || filterMode === "eagle_required") && !b.is_eagle_required) return false;
     if (filterMode === "elective" && b.is_eagle_required) return false;
-    if (selectedCat !== "all" && cat !== selectedCat) return false;
+    if (selectedCat.toLowerCase() !== "all" && cat !== selectedCat) return false;
     return true;
   });
 
@@ -6751,9 +6798,10 @@ function renderPatchGalleryModal() {
       const name = b.badge_name;
       const slug = badgeNameToEmblemSlug(name);
       const isSelected = name === state.currentBadge;
+      const eagleClass = b.is_eagle_required ? "eagle-patch" : "";
       return `
-        <div class="m3-patch-gallery-card ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}">
-          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="${escapeHtml(name)} Emblem" loading="lazy" />
+        <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}">
+          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" loading="lazy" />
           <div style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.2;">
             ${b.is_eagle_required ? "⭐ " : ""}${escapeHtml(name)}
           </div>
@@ -6963,6 +7011,21 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       importBlueCardCsvFile(file, state.currentResult);
     }
     csvFileInput.value = "";
+  });
+
+  // Plan 9 Fix 4: Jump to Patrol Blue Card (#34124) Tracker button at top of Requirements & Blue Cards page
+  document.getElementById("btn-jump-to-bluecard-tracker")?.addEventListener("click", () => {
+    const trackerCard = document.getElementById("bluecard-tracker-card");
+    if (trackerCard) {
+      trackerCard.scrollIntoView({ behavior: "smooth", block: "start" });
+      trackerCard.style.transition = "box-shadow 0.25s ease, outline 0.25s ease";
+      trackerCard.style.outline = "3px solid #D97706";
+      trackerCard.style.boxShadow = "0 0 0 6px rgba(217, 119, 6, 0.22)";
+      setTimeout(() => {
+        trackerCard.style.outline = "";
+        trackerCard.style.boxShadow = "";
+      }, 1600);
+    }
   });
 
   // UI-6: Sunlight / High-Contrast Camp Mode toggle

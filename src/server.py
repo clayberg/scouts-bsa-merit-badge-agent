@@ -92,8 +92,10 @@ async def add_api_version_and_deprecation_headers(request: Any, call_next: Any) 
     if path.startswith("/api/") and not path.startswith("/api/v1/"):
         response.headers["Deprecation"] = "true"
         response.headers["Sunset"] = "2027-01-01"
-    elif path.startswith("/assets/construction_anim/") or path.startswith("/assets/badge_emblems/"):
+    elif path.startswith("/assets/construction_anim/"):
         response.headers["Cache-Control"] = "public, max-age=86400"
+    elif path.startswith("/assets/badge_emblems/") or path.startswith("/assets/pamphlet_covers/"):
+        response.headers["Cache-Control"] = "public, max-age=0, must-revalidate"
     return response
 
 

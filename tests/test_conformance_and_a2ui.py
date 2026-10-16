@@ -1745,6 +1745,92 @@ def test_v26_plan7_emblems_qr_polish_batch_presenter_and_gslides_export(tmp_path
     assert "encodeIsoQrMatrixJs" in ui_js
 
 
+def test_v25_plan9_ui_emblem_qr_presenter_and_table_fixes() -> None:
+    """Verifies all 7 Plan 9 UI/UX, emblem normalization, QR logo, Presenter View, and table header fixes."""
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from PIL import Image
+    from src.config import OFFICIAL_BSA_MERIT_BADGES_CATALOG, _badge_slug
+    from src.server import app
+    from src.tools.qr_generator import _FORMAT_BITS_M, _QR_VERSION_SPECS_M, render_qr_svg
+
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+
+    # 1. Fix 1: Visual Merit Badge Patch Gallery Zero State ("ALL" case-insensitive match)
+    assert 'selectedCat.toLowerCase() !== "all"' in ui_js
+    assert '<option value="ALL">All Categories</option>' in ui_html
+
+    # 2. Fix 2: All 144 Merit Badge Emblems present, 400x400 RGBA, normalized >= 0.94 fill ratio, and cache-busted
+    emblems_dir = repo_root / "assets" / "badge_emblems"
+    target_check_slugs = [
+        "theater",
+        "citizenship_in_the_community",
+        "wilderness_survival",
+        "composite_materials",
+        "digital_technology",
+        "automotive_maintenance",
+        "whitewater",
+        "leatherwork",
+    ]
+    for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG:
+        slug = _badge_slug(item["badge_name"]).replace("-", "_")
+        emblem_path = emblems_dir / f"{slug}.png"
+        assert emblem_path.exists(), f"Missing emblem for {slug}"
+        with Image.open(emblem_path) as im:
+            assert im.size == (400, 400), f"{slug} size is {im.size}"
+            if slug in target_check_slugs:
+                rgba = im.convert("RGBA")
+                alpha_bbox = rgba.getchannel("A").getbbox()
+                assert alpha_bbox is not None
+                bw = alpha_bbox[2] - alpha_bbox[0]
+                bh = alpha_bbox[3] - alpha_bbox[1]
+                fill_ratio = max(bw, bh) / 400.0
+                assert fill_ratio >= 0.94, f"{slug} fill_ratio={fill_ratio:.3f} < 0.94"
+
+    client = TestClient(app)
+    emblem_resp = client.get("/assets/badge_emblems/theater.png")
+    assert emblem_resp.status_code == 200
+    assert "max-age=0" in emblem_resp.headers.get("cache-control", "")
+    assert "must-revalidate" in emblem_resp.headers.get("cache-control", "")
+    assert "?v=20261016c" in ui_js
+
+    # 3. Fix 3: Presenter View opens to the right of #widescreen-slide-stage via #slide-and-presenter-row
+    assert 'id="slide-and-presenter-row"' in ui_html
+    assert "#slide-stage-wrapper.is-presenter-console-active .m3-slide-and-presenter-row" in ui_css
+    assert "minmax(0, 1.15fr) minmax(0, 0.85fr)" in ui_css
+    assert "minmax(0, 1.15fr) minmax(0, 0.85fr)" in ui_js
+
+    # 4. Fix 4: Jump to Patrol Blue Card (#34124) Tracker button at top of Requirements & Blue Cards page
+    assert 'id="btn-jump-to-bluecard-tracker"' in ui_html
+    assert 'document.getElementById("btn-jump-to-bluecard-tracker")' in ui_js
+    assert 'document.getElementById("bluecard-tracker-card")' in ui_js
+
+    # 5. Fix 5: Scouts BSA Logo embedded in center of Level-M QR codes (backend SVG & frontend inline SVG)
+    assert len(_QR_VERSION_SPECS_M) == 10
+    assert _FORMAT_BITS_M[0] == 0x5412
+    qr_svg = render_qr_svg("https://www.scouting.org/merit-badges/first-aid/")
+    assert "<image href=\"data:image/png;base64," in qr_svg
+    qr_api_resp = client.get("/api/v1/qr.svg?url=https://www.scouting.org/merit-badges/first-aid/")
+    assert qr_api_resp.status_code == 200
+    assert "<image href=\"data:image/png;base64," in qr_api_resp.text
+    assert "QR_VERSION_SPECS_M_JS" in ui_js
+    assert "QR_FORMAT_BITS_M_JS" in ui_js
+    assert "/assets/bsa_logo.png" in ui_js
+
+    # 6. Fix 6: 6-Stage ADK Pipeline Latency Breakdown column widths prevent text bleeding into histogram
+    assert "grid-template-columns:minmax(225px, 245px) minmax(90px, 1fr) auto" in ui_js
+    assert "text-overflow:ellipsis" in ui_js
+
+    # 7. Fix 7: Sticky and FinOps table headers have white text on Scouts BSA blue background
+    assert ".m3-finops-table thead th," in ui_css
+    assert ".m3-sticky-matrix-table thead th," in ui_css
+    assert "background: linear-gradient(135deg, #002B5E 0%, #003F87 100%) !important;" in ui_css
+
+
+
 
 
 

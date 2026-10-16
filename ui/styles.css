@@ -716,13 +716,15 @@ html, body {
 
 .m3-slide-body-split {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   gap: 14px;
   padding: 8px 20px 10px 20px;
   flex: 1 0 auto;
   min-height: min-content;
   align-items: stretch;
   box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
 }
 
 @media (max-width: 900px) {
@@ -795,7 +797,10 @@ html, body {
   align-items: center;
   justify-content: center;
   gap: 6px;
+  min-width: 0;
+  max-width: 100%;
   min-height: 0;
+  box-sizing: border-box;
   overflow: visible;
 }
 
@@ -2817,8 +2822,16 @@ body.m3-sunlight-mode .m3-slide-card {
   position: sticky;
   top: 0;
   z-index: 4;
-  background: #F1F5F9;
-  box-shadow: 0 1px 0 #CBD5E1;
+  background: linear-gradient(135deg, #002B5E 0%, #003F87 100%) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 1px 0 #002B5E;
+}
+
+.m3-finops-table thead th *,
+.m3-sticky-matrix-table thead th *,
+.m3-bluecard-table thead th *,
+.m3-markdown-body table thead th * {
+  color: #FFFFFF !important;
 }
 
 /* Sticky Split-Button for Deck Export (.PPTX vs Google Slides) */
@@ -2855,15 +2868,33 @@ body.m3-sunlight-mode .m3-slide-card {
 }
 
 /* In-Stage Split-Screen Presenter Console (Preview & Fullscreen) */
-#slide-stage-wrapper.is-presenter-console-active {
+.m3-slide-and-presenter-row {
+  display: block;
+  width: 100%;
+  min-width: 0;
+}
+
+#slide-stage-wrapper.is-presenter-console-active .m3-slide-and-presenter-row {
   display: grid;
-  grid-template-columns: minmax(0, 1.38fr) minmax(300px, 0.62fr);
-  gap: 12px;
-  align-items: stretch;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 16px;
+  align-items: start;
+  width: 100%;
+}
+
+#slide-stage-wrapper.is-presenter-console-active #widescreen-slide-stage {
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 #slide-stage-wrapper.is-presenter-console-active #stage-presenter-console-dock {
   display: flex !important;
+  min-width: 0;
+  width: 360px;
+  box-sizing: border-box;
 }
 
 .m3-presenter-console-dock {
@@ -2882,6 +2913,11 @@ body.m3-sunlight-mode .m3-slide-card {
 
 #slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active {
   padding: 18px 22px 70px 22px;
+}
+
+#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active .m3-slide-and-presenter-row {
+  max-width: 96vw;
+  align-items: stretch;
 }
 
 #slide-stage-wrapper.is-presenting-fullscreen .m3-presenter-console-dock {
