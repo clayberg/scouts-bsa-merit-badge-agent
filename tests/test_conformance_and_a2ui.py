@@ -1939,6 +1939,7 @@ def test_v27_ai_polish_slide_and_deck_provenance_and_zero_boilerplate() -> None:
     server_py = (repo_root / "src" / "server.py").read_text(encoding="utf-8")
     assert "m3-btn-ai-polish-slide" in ui_html and ".m3-btn-ai-polish-slide" in ui_css
     assert "m3-btn-ai-polish-deck" in ui_html and ".m3-btn-ai-polish-deck" in ui_css
+    assert "m3-grounding-toggle-card" in ui_html and ".m3-grounding-toggle-card" in ui_css
     assert 'id="btn-restore-default-notes"' in ui_html
     assert "syncNotesPolishProvenancePill" in ui_js
     assert "updateBatchCounterUi" in ui_js

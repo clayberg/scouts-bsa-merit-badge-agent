@@ -215,12 +215,17 @@
           </select>
         </div>
 
-        <div class="m3-field-group" style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
-          <input id="deep-research-checkbox" type="checkbox" checked style="width:16px; height:16px; accent-color:var(--md-sys-color-primary);" />
-          <label class="m3-field-label" for="deep-research-checkbox" style="margin:0; cursor:pointer;">
-            Enable Local Regional Grounding (NOAA / Terrain / Field Sites)
-          </label>
-        </div>
+        <label class="m3-grounding-toggle-card" id="local-grounding-toggle-card" for="deep-research-checkbox">
+          <input id="deep-research-checkbox" type="checkbox" checked class="m3-grounding-checkbox" />
+          <div class="m3-grounding-toggle-body">
+            <span class="m3-grounding-toggle-title">
+              📍 Enable Local Regional Grounding
+            </span>
+            <span class="m3-grounding-toggle-subtitle">
+              NOAA weather, terrain &amp; council field sites
+            </span>
+          </div>
+        </label>
 
         <!-- Pre-Cached Graphics & Local Grounding Status Pill placed ABOVE the collapsible Counselor Profile -->
         <div id="finops-cost-pill" style="background:#EFF6FF; border:1px solid #BFDBFE; border-radius:10px; padding:8px 12px; margin:4px 0 8px 0; font-size:0.78rem; color:#1E3A8A; display:flex; align-items:center; justify-content:space-between;">
