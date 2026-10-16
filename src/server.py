@@ -1025,12 +1025,19 @@ def _parse_multiline_polished_sections(llm_text: str) -> str:
     from src.agents.planner import _sanitize_no_ellipsis_or_emdash
 
     raw = str(llm_text or "").strip()
-    if not raw or "[SAY]" not in raw or "[ASK SCOUTS]" not in raw:
+    if not raw:
         return ""
 
-    say_m = re.search(r"\[SAY\]\s*(.*?)(?=\[DEMONSTRATE\]|\[ASK SCOUTS\]|\Z)", raw, flags=re.S | re.I)
-    demo_m = re.search(r"\[DEMONSTRATE\]\s*(.*?)(?=\[ASK SCOUTS\]|\Z)", raw, flags=re.S | re.I)
-    ask_m = re.search(r"\[ASK SCOUTS\]\s*(.*?)\Z", raw, flags=re.S | re.I)
+    # Normalize common markdown bold/heading wrappers around section tags
+    norm = re.sub(r"\*{1,3}\s*\[?(SAY|DEMONSTRATE|ASK(?:\s+SCOUTS)?)\]?\s*\*{1,3}\s*:?", r"[\1] ", raw, flags=re.I)
+    norm = re.sub(r"(?:^|\n)\s*#{1,4}\s*\[?(SAY|DEMONSTRATE|ASK(?:\s+SCOUTS)?)\]?\s*:?", r"\n[\1] ", norm, flags=re.I)
+    norm = re.sub(r"(?:^|\n)\s*(SAY|DEMONSTRATE|ASK\s+SCOUTS)\s*:\s*", r"\n[\1] ", norm, flags=re.I)
+    norm = re.sub(r"\[ASK\]\s*:?", "[ASK SCOUTS] ", norm, flags=re.I)
+    norm = re.sub(r"\[(SAY|DEMONSTRATE|ASK\s+SCOUTS)\]\s*:", r"[\1] ", norm, flags=re.I)
+
+    say_m = re.search(r"\[SAY\]\s*(.*?)(?=\[DEMONSTRATE\]|\[ASK\s+SCOUTS\]|\Z)", norm, flags=re.S | re.I)
+    demo_m = re.search(r"\[DEMONSTRATE\]\s*(.*?)(?=\[ASK\s+SCOUTS\]|\Z)", norm, flags=re.S | re.I)
+    ask_m = re.search(r"\[ASK\s+SCOUTS\]\s*(.*?)\Z", norm, flags=re.S | re.I)
 
     out_lines: List[str] = []
     if say_m and say_m.group(1).strip():
@@ -1043,7 +1050,33 @@ def _parse_multiline_polished_sections(llm_text: str) -> str:
         ask_clean = re.sub(r"\s+", " ", ask_m.group(1).strip())
         out_lines.append(_sanitize_no_ellipsis_or_emdash(f"[ASK SCOUTS] {ask_clean}"))
 
-    return "\n".join(out_lines) if len(out_lines) >= 2 else ""
+    if out_lines:
+        return "\n".join(out_lines)
+    # Fallback if the LLM returned a cohesive paragraph without explicit bracket headers
+    if len(norm) >= 80:
+        clean_para = re.sub(r"\s+", " ", norm).strip()
+        return _sanitize_no_ellipsis_or_emdash(f"[SAY] {clean_para}")
+    return ""
+
+
+def _extract_non_thought_text(resp: Any) -> str:
+    """Extracts visible text from a google-genai response, ignoring internal thought parts."""
+    try:
+        txt = getattr(resp, "text", None)
+        if txt and str(txt).strip():
+            return str(txt).strip()
+    except Exception:
+        pass
+    parts_out: List[str] = []
+    for cand in getattr(resp, "candidates", None) or []:
+        content = getattr(cand, "content", None)
+        for part in getattr(content, "parts", None) or []:
+            if getattr(part, "thought", False):
+                continue
+            pt = getattr(part, "text", None)
+            if pt:
+                parts_out.append(str(pt))
+    return "\n".join(parts_out).strip()
 
 
 _LOCAL_VERTEX_ADC_FAILED_TS: float = 0.0
@@ -1073,41 +1106,62 @@ def _invoke_gemini_flash_polish_sync(
     fallback_reasons: List[str] = []
 
     # Path 1: Vertex AI Application Default Credentials (Cloud Run Service Account or local Argolis ADC)
-    use_vertex = os.environ.get("GOOGLE_GENAI_USE_VERTEXAI", "false").strip().lower() in ("true", "1", "yes")
-    project_id = (os.environ.get("GOOGLE_CLOUD_PROJECT") or "").strip().strip('"').strip("'")
+    use_vertex = os.environ.get("GOOGLE_GENAI_USE_VERTEXAI", "true").strip().lower() not in ("false", "0", "no")
+    project_id = (os.environ.get("GOOGLE_CLOUD_PROJECT") or "clayberg-scouts-bsa-prod").strip().strip('"').strip("'")
     is_cloud_run = bool(os.environ.get("K_SERVICE"))
     in_pytest = bool(os.environ.get("PYTEST_CURRENT_TEST"))
     now_ts = time.time()
 
     if (use_vertex or is_cloud_run) and project_id and not in_pytest:
         if is_cloud_run or (now_ts - _LOCAL_VERTEX_ADC_FAILED_TS > 120.0):
-            try:
-                from google import genai
-                from google.genai import types as genai_types
+            default_loc = (os.environ.get("GOOGLE_CLOUD_LOCATION") or "us-central1").strip()
+            locations_to_try = ["global", default_loc] if default_loc != "global" else ["global", "us-central1"]
+            for loc in locations_to_try:
+                try:
+                    from google import genai
+                    from google.genai import types as genai_types
 
-                location = (os.environ.get("GOOGLE_CLOUD_LOCATION") or "us-central1").strip()
-                client = genai.Client(
-                    vertexai=True,
-                    project=project_id,
-                    location=location,
-                    http_options={"timeout": 18000, "retry_options": {"attempts": 1}},
-                )
-                resp = client.models.generate_content(
-                    model="gemini-2.5-flash",
-                    contents=prompt,
-                    config=genai_types.GenerateContentConfig(temperature=0.55, max_output_tokens=750),
-                )
-                parsed = _parse_multiline_polished_sections(str(resp.text or ""))
-                if parsed:
-                    _LOCAL_VERTEX_ADC_FAILED_TS = 0.0
-                    return parsed, "GEMINI_FLASH", ""
-            except Exception as exc:
-                err_str = str(exc)
-                if not is_cloud_run and ("403" in err_str or "401" in err_str or "PERMISSION_DENIED" in err_str or "Reauthentication" in err_str):
-                    _LOCAL_VERTEX_ADC_FAILED_TS = now_ts
-                    fallback_reasons.append(f"Local ADC not logged into Argolis project '{project_id}'")
-                else:
-                    fallback_reasons.append(f"Vertex AI ADC error: {err_str[:90]}")
+                    client = genai.Client(
+                        vertexai=True,
+                        project=project_id,
+                        location=loc,
+                        http_options={"timeout": 22000, "retry_options": {"attempts": 1}},
+                    )
+                    try:
+                        gen_cfg = genai_types.GenerateContentConfig(
+                            temperature=0.6,
+                            max_output_tokens=4096,
+                            thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
+                        )
+                    except Exception:
+                        gen_cfg = genai_types.GenerateContentConfig(
+                            temperature=0.6,
+                            max_output_tokens=4096,
+                        )
+                    resp = client.models.generate_content(
+                        model="gemini-2.5-flash",
+                        contents=prompt,
+                        config=gen_cfg,
+                    )
+                    raw_llm_text = _extract_non_thought_text(resp)
+                    parsed = _parse_multiline_polished_sections(raw_llm_text)
+                    if parsed:
+                        _LOCAL_VERTEX_ADC_FAILED_TS = 0.0
+                        return parsed, "GEMINI_FLASH", ""
+                    fallback_reasons.append(f"Gemini Flash@{loc} returned empty/unparsed text (len={len(raw_llm_text)})")
+                except Exception as exc:
+                    err_str = str(exc)
+                    if not is_cloud_run and (
+                        "403" in err_str
+                        or "401" in err_str
+                        or "PERMISSION_DENIED" in err_str
+                        or "Reauthentication" in err_str
+                        or "RefreshError" in err_str
+                    ):
+                        _LOCAL_VERTEX_ADC_FAILED_TS = now_ts
+                        fallback_reasons.append(f"Local ADC not logged into Argolis project '{project_id}'")
+                        break
+                    fallback_reasons.append(f"Vertex AI ADC@{loc} error: {err_str[:90]}")
         else:
             fallback_reasons.append(f"Local ADC not logged into Argolis project '{project_id}'")
 
@@ -1117,7 +1171,11 @@ def _invoke_gemini_flash_polish_sync(
             url = f"https://aiplatform.googleapis.com/v1/publishers/google/models/gemini-2.5-flash:generateContent?key={raw_key}"
             payload = {
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0.55, "maxOutputTokens": 750},
+                "generationConfig": {
+                    "temperature": 0.6,
+                    "maxOutputTokens": 4096,
+                    "thinkingConfig": {"thinkingBudget": 0},
+                },
             }
             req_http = urllib.request.Request(
                 url,
@@ -1125,13 +1183,13 @@ def _invoke_gemini_flash_polish_sync(
                 headers={"Content-Type": "application/json"},
                 method="POST",
             )
-            with urllib.request.urlopen(req_http, timeout=18) as resp:
+            with urllib.request.urlopen(req_http, timeout=20) as resp:
                 resp_json = json.loads(resp.read().decode("utf-8"))
                 parts = (
                     ((resp_json.get("candidates") or [{}])[0].get("content") or {}).get("parts")
                     or []
                 )
-                llm_text = "".join(str(p.get("text") or "") for p in parts).strip()
+                llm_text = "".join(str(p.get("text") or "") for p in parts if not p.get("thought")).strip()
                 parsed = _parse_multiline_polished_sections(llm_text)
                 if parsed:
                     return parsed, "GEMINI_FLASH", ""
@@ -1154,20 +1212,24 @@ def _invoke_gemini_flash_polish_sync(
             from google import genai
             from google.genai import types as genai_types
 
-            client = genai.Client(api_key=raw_key, http_options={"timeout": 18000, "retry_options": {"attempts": 1}})
+            client = genai.Client(api_key=raw_key, http_options={"timeout": 20000, "retry_options": {"attempts": 1}})
             resp = client.models.generate_content(
                 model="gemini-2.5-flash",
                 contents=prompt,
-                config=genai_types.GenerateContentConfig(temperature=0.55, max_output_tokens=750),
+                config=genai_types.GenerateContentConfig(
+                    temperature=0.6,
+                    max_output_tokens=4096,
+                    thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
+                ),
             )
-            parsed = _parse_multiline_polished_sections(str(resp.text or ""))
+            parsed = _parse_multiline_polished_sections(_extract_non_thought_text(resp))
             if parsed:
                 return parsed, "GEMINI_FLASH", ""
         except Exception as exc:
             fallback_reasons.append(f"Gemini API key error: {str(exc)[:90]}")
 
     # Path 4: Local-to-Cloud-Run Vertex AI Bridge (same bridge pattern used by Nano Banana in image_studio.py)
-    if not is_cloud_run and not in_pytest and bridge_payload and (now_ts - _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS > 180.0):
+    if not is_cloud_run and not in_pytest and bridge_payload and (now_ts - _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS > 20.0):
         cloud_run_url = (
             os.environ.get("CLOUD_RUN_BACKEND_URL")
             or "https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app"
@@ -1180,11 +1242,10 @@ def _invoke_gemini_flash_polish_sync(
                     headers={"Content-Type": "application/json"},
                     method="POST",
                 )
-                with urllib.request.urlopen(req_http, timeout=20) as resp:
+                with urllib.request.urlopen(req_http, timeout=22) as resp:
                     remote_data = json.loads(resp.read().decode("utf-8"))
                 if remote_data.get("polish_source") == "GEMINI_FLASH" and remote_data.get("presenter_notes"):
                     return str(remote_data["presenter_notes"]), "GEMINI_FLASH", ""
-                # Remote Cloud Run revision has not been redeployed with ADC polish yet
                 _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS = now_ts
             except Exception:
                 _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS = now_ts
@@ -1705,6 +1766,11 @@ async def api_polish_deck_speaker_notes_batch(
 
     async def _polish_idx(idx: int, s_obj: Dict[str, Any]) -> None:
         nonlocal cache_hits, gemini_count, last_fallback_reason
+        if not req.force_refresh and s_obj.get("_isPolishedNotes") and s_obj.get("presenter_notes"):
+            cache_hits += 1
+            if s_obj.get("_polishSource") == "GEMINI_FLASH":
+                gemini_count += 1
+            return
         async with sem:
             if not s_obj.get("_originalProceduralNotes") and s_obj.get("presenter_notes"):
                 s_obj["_originalProceduralNotes"] = s_obj["presenter_notes"]

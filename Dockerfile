@@ -15,6 +15,9 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     MPLCONFIGDIR=/tmp/matplotlib \
+    GOOGLE_GENAI_USE_VERTEXAI=true \
+    GOOGLE_CLOUD_PROJECT=clayberg-scouts-bsa-prod \
+    GOOGLE_CLOUD_LOCATION=us-central1 \
     PORT=8085
 
 # Install package dependencies first for layer caching

@@ -10,6 +10,36 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+def _load_project_dotenv() -> None:
+    """Loads `.env` from `PROJECT_ROOT` into `os.environ` without overwriting existing env vars, and sets Vertex AI ADC defaults."""
+    env_file = PROJECT_ROOT / ".env"
+    if env_file.exists():
+        try:
+            from dotenv import load_dotenv  # type: ignore
+
+            load_dotenv(env_file, override=False)
+        except Exception:
+            try:
+                for raw_ln in env_file.read_text(encoding="utf-8").splitlines():
+                    ln = raw_ln.strip()
+                    if not ln or ln.startswith("#") or "=" not in ln:
+                        continue
+                    k, v = ln.split("=", 1)
+                    k = k.strip()
+                    v = v.strip().strip('"').strip("'")
+                    if k and k not in os.environ:
+                        os.environ[k] = v
+            except Exception:
+                pass
+    os.environ.setdefault("GOOGLE_GENAI_USE_VERTEXAI", "true")
+    os.environ.setdefault("GOOGLE_CLOUD_PROJECT", "clayberg-scouts-bsa-prod")
+    os.environ.setdefault("GOOGLE_CLOUD_LOCATION", "us-central1")
+
+
+_load_project_dotenv()
+
 CONFIG_DIR = PROJECT_ROOT / "config"
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 ASSETS_DIR = PROJECT_ROOT / "assets"

@@ -13,6 +13,17 @@ if [ ! -f .env ] && [ -f .env.example ]; then
   cp .env.example .env
 fi
 
+if [ -f .env ]; then
+  set -a
+  # shellcheck disable=SC1091
+  source .env
+  set +a
+fi
+
+export GOOGLE_GENAI_USE_VERTEXAI="${GOOGLE_GENAI_USE_VERTEXAI:-true}"
+export GOOGLE_CLOUD_PROJECT="${GOOGLE_CLOUD_PROJECT:-clayberg-scouts-bsa-prod}"
+export GOOGLE_CLOUD_LOCATION="${GOOGLE_CLOUD_LOCATION:-us-central1}"
+
 export MPLCONFIGDIR="${MPLCONFIGDIR:-/tmp/matplotlib}"
 PORT="${PORT:-8085}"
 HOST_FQDN="$(hostname -f 2>/dev/null || echo localhost)"

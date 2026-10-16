@@ -1931,15 +1931,19 @@ def test_v27_ai_polish_slide_and_deck_provenance_and_zero_boilerplate() -> None:
     assert "duration_ms" in batch_res and "elapsed_ms" in batch_res
     assert batch_res["polish_model_label"] in ("Gemini Flash", "Studio Narrative Polish")
 
-    # 4. Verify UI buttons, restore toggle, and 'Gemini Flash' naming
+    # 4. Verify UI buttons, restore toggle, live batch counter, thinking_budget=0, and 'Gemini Flash' naming
     repo_root = Path(__file__).resolve().parents[1]
     ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
     ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
     ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    server_py = (repo_root / "src" / "server.py").read_text(encoding="utf-8")
     assert "m3-btn-ai-polish-slide" in ui_html and ".m3-btn-ai-polish-slide" in ui_css
     assert "m3-btn-ai-polish-deck" in ui_html and ".m3-btn-ai-polish-deck" in ui_css
     assert 'id="btn-restore-default-notes"' in ui_html
     assert "syncNotesPolishProvenancePill" in ui_js
+    assert "updateBatchCounterUi" in ui_js
+    assert "Batch-polishing all ${totalSlides} slides across deck ${counterTag}" in ui_js
+    assert "thinking_budget=0" in server_py
     assert "Gemini Flash" in ui_js
 
 

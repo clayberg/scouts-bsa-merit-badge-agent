@@ -1241,67 +1241,163 @@ function bindFilterAndSlideControls() {
     if (!state.currentResult) return;
     const slides = state.currentResult.storyboard?.slides || [];
     if (!slides.length) return;
+    const totalSlides = slides.length;
+    const badgeName = state.currentResult.badge_name || "First Aid";
+    const audienceLevel = document.getElementById("audience-select")?.value || "All Scouts (Ages 11-17)";
     const statusPill = document.getElementById("notes-polish-status-pill");
     const origText = btn.textContent;
+    const t0 = performance.now();
+    let completedCount = 0;
+    let geminiCount = 0;
+    let cacheHits = 0;
+    let lastFallbackReason = "";
+
+    const updateBatchCounterUi = (doneCount) => {
+      const counterTag = `[${doneCount}/${totalSlides}]`;
+      btn.textContent = `⏳ Polishing ${totalSlides} Slides ${counterTag}...`;
+      if (statusPill) {
+        statusPill.className = "m3-notes-provenance-pill";
+        statusPill.textContent = `⏳ Batch-polishing all ${totalSlides} slides across deck ${counterTag}...`;
+      }
+    };
+
     btn.disabled = true;
-    btn.textContent = `⏳ Polishing ${slides.length} Slides...`;
-    if (statusPill) {
-      statusPill.textContent = `⏳ Batch-polishing all ${slides.length} slides across deck...`;
-    }
+    updateBatchCounterUi(0);
+
     try {
-      const resp = await fetch("/api/v1/slide/polish-notes-batch", {
+      // Build ordered work queue: prioritize currently viewed slide first so user sees immediate update, then cover + rest of deck
+      const activeIdx = state.activeSlideIdx;
+      const orderedIndices = [];
+      if (activeIdx >= 0 && activeIdx < totalSlides) {
+        orderedIndices.push(activeIdx);
+      }
+      for (let i = 0; i < totalSlides; i++) {
+        if (i !== activeIdx) orderedIndices.push(i);
+      }
+
+      // Also polish cover slide alongside the first wave
+      const coverPromise = fetch("/api/v1/slide/polish-notes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          badge_name: state.currentResult.badge_name || "First Aid",
-          storyboard_slides: slides,
-          audience_level: document.getElementById("audience-select")?.value || "All Scouts (Ages 11-17)",
-          counselor_info: state.currentResult.counselor_info || {},
-          output_path: state.currentResult.output_path || "",
+          badge_name: badgeName,
+          slide_index: -1,
+          slide_data: {
+            title: `${badgeName} Merit Badge - Cover Slide`,
+            req_number: "Cover",
+            archetype: "TITLE_COVER_HERO",
+          },
+          audience_level: audienceLevel,
+          storyboard_slides: [],
           force_refresh: true,
+          variation_seed: 1,
         }),
-      });
-      if (resp.ok) {
-        const data = await resp.json();
-        const batchSrc = data.polish_source || (data.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
-        const updatedSlides = data.slides || data.storyboard_slides;
-        if (Array.isArray(updatedSlides)) {
-          updatedSlides.forEach((s, idx) => {
-            const prev = slides[idx];
-            if (prev && prev._originalProceduralNotes && !s._originalProceduralNotes) {
-              s._originalProceduralNotes = prev._originalProceduralNotes;
-            } else if (prev && !s._originalProceduralNotes && prev.presenter_notes) {
-              s._originalProceduralNotes = prev.presenter_notes;
+      })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((cData) => {
+          if (cData && cData.presenter_notes) {
+            const cSrc = cData.polish_source || (cData.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
+            state.currentResult._polishedCoverNotes = cData.presenter_notes;
+            state.currentResult._coverPolishSource = cSrc;
+            state.currentResult._coverPolishFallbackReason = cData.fallback_reason || "";
+            if (state.activeSlideIdx === -1) {
+              renderActiveSlide(-1);
+              updateBatchCounterUi(completedCount);
             }
-            s._isPolishedNotes = true;
-            s._polishSource = s._polishSource || batchSrc;
-            s._polishFallbackReason = s._polishFallbackReason || data.fallback_reason || "";
-          });
-          state.currentResult.storyboard.slides = updatedSlides;
-        }
-        if (data.cover_presenter_notes) {
-          state.currentResult._polishedCoverNotes = data.cover_presenter_notes;
-          state.currentResult._coverPolishSource = batchSrc;
-          state.currentResult._coverPolishFallbackReason = data.fallback_reason || "";
-        }
-        if (data.pptx_download_url) {
-          state.currentResult.pptx_download_url = data.pptx_download_url;
-          const pptxBtn = document.getElementById("btn-download-pptx");
-          if (pptxBtn && state.preferredExportMode !== "gslides") {
-            pptxBtn.href = `${data.pptx_download_url}?v=${Date.now()}`;
+          }
+        })
+        .catch(() => {});
+
+      let cursor = 0;
+      const CONCURRENCY = 6;
+      const runWorker = async () => {
+        while (cursor < orderedIndices.length) {
+          const idx = orderedIndices[cursor++];
+          const sObj = slides[idx];
+          if (!sObj) continue;
+          if (!sObj._originalProceduralNotes && sObj.presenter_notes) {
+            sObj._originalProceduralNotes = sObj.presenter_notes;
+          }
+          try {
+            const sResp = await fetch("/api/v1/slide/polish-notes", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                badge_name: badgeName,
+                slide_index: idx,
+                slide_data: sObj,
+                audience_level: audienceLevel,
+                storyboard_slides: [],
+                force_refresh: true,
+                variation_seed: (idx % 5) + 1,
+              }),
+            });
+            if (sResp.ok) {
+              const sData = await sResp.json();
+              const src = sData.polish_source || (sData.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
+              if (sData.presenter_notes) {
+                sObj.presenter_notes = sData.presenter_notes;
+                sObj._isPolishedNotes = true;
+                sObj._polishSource = src;
+                sObj._polishCacheHit = Boolean(sData.cache_hit);
+                sObj._polishFallbackReason = sData.fallback_reason || "";
+              }
+              if (src === "GEMINI_FLASH") {
+                geminiCount++;
+              } else if (sData.fallback_reason && !lastFallbackReason) {
+                lastFallbackReason = sData.fallback_reason;
+              }
+              if (sData.cache_hit) cacheHits++;
+            }
+          } catch (slideErr) {
+            console.warn(`Could not polish slide ${idx}:`, slideErr);
+          } finally {
+            completedCount++;
+            if (idx === state.activeSlideIdx) {
+              renderActiveSlide(state.activeSlideIdx);
+            }
+            updateBatchCounterUi(completedCount);
           }
         }
-        renderActiveSlide(state.activeSlideIdx);
-        const totalPolished = data.polished_count || updatedSlides?.length || slides.length;
-        const elapsedMs = Math.round(data.duration_ms ?? data.elapsed_ms ?? 0);
-        syncNotesPolishProvenancePill({
-          isPolished: true,
-          polishSource: batchSrc,
-          cacheHit: (data.cache_hits || 0) > 0,
-          fallbackReason: data.fallback_reason || "",
-          batchSuffix: ` • All ${totalPolished} Slides (${elapsedMs}ms)`,
-        });
+      };
+
+      const workers = Array.from({ length: Math.min(CONCURRENCY, orderedIndices.length) }, () => runWorker());
+      await Promise.all([coverPromise, ...workers]);
+
+      // Rebuild the .pptx once using the warm SQLite cache from the completed batch
+      const batchResp = await fetch("/api/v1/slide/polish-notes-batch", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badgeName,
+          storyboard_slides: slides,
+          audience_level: audienceLevel,
+          counselor_info: state.currentResult.counselor_info || {},
+          output_path: state.currentResult.output_path || "",
+          force_refresh: false,
+        }),
+      });
+      if (batchResp.ok) {
+        const batchData = await batchResp.json();
+        if (batchData.pptx_download_url) {
+          state.currentResult.pptx_download_url = batchData.pptx_download_url;
+          const pptxBtn = document.getElementById("btn-download-pptx");
+          if (pptxBtn && state.preferredExportMode !== "gslides") {
+            pptxBtn.href = `${batchData.pptx_download_url}?v=${Date.now()}`;
+          }
+        }
       }
+
+      const finalSource = geminiCount > 0 ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH";
+      const elapsedMs = Math.round(performance.now() - t0);
+      renderActiveSlide(state.activeSlideIdx);
+      syncNotesPolishProvenancePill({
+        isPolished: true,
+        polishSource: finalSource,
+        cacheHit: cacheHits > 0,
+        fallbackReason: finalSource === "GEMINI_FLASH" ? "" : lastFallbackReason,
+        batchSuffix: ` • All ${totalSlides} Slides (${elapsedMs}ms)`,
+      });
     } catch (err) {
       console.warn("Could not batch-polish deck speaker notes:", err);
     } finally {
