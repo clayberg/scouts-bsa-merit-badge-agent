@@ -1020,6 +1020,180 @@ class GoogleSlidesExportRequest(BaseModel):
     user_access_token: Optional[str] = Field(None, description="Optional OAuth 2.0 Bearer token with drive.file scope.")
 
 
+def _parse_multiline_polished_sections(llm_text: str) -> str:
+    """Extracts full multi-line [SAY], [DEMONSTRATE], and [ASK SCOUTS] sections without dropping continuation lines."""
+    from src.agents.planner import _sanitize_no_ellipsis_or_emdash
+
+    raw = str(llm_text or "").strip()
+    if not raw or "[SAY]" not in raw or "[ASK SCOUTS]" not in raw:
+        return ""
+
+    say_m = re.search(r"\[SAY\]\s*(.*?)(?=\[DEMONSTRATE\]|\[ASK SCOUTS\]|\Z)", raw, flags=re.S | re.I)
+    demo_m = re.search(r"\[DEMONSTRATE\]\s*(.*?)(?=\[ASK SCOUTS\]|\Z)", raw, flags=re.S | re.I)
+    ask_m = re.search(r"\[ASK SCOUTS\]\s*(.*?)\Z", raw, flags=re.S | re.I)
+
+    out_lines: List[str] = []
+    if say_m and say_m.group(1).strip():
+        say_clean = re.sub(r"\s+", " ", say_m.group(1).strip())
+        out_lines.append(_sanitize_no_ellipsis_or_emdash(f"[SAY] {say_clean}"))
+    if demo_m and demo_m.group(1).strip():
+        demo_clean = re.sub(r"\s+", " ", demo_m.group(1).strip())
+        out_lines.append(_sanitize_no_ellipsis_or_emdash(f"[DEMONSTRATE] {demo_clean}"))
+    if ask_m and ask_m.group(1).strip():
+        ask_clean = re.sub(r"\s+", " ", ask_m.group(1).strip())
+        out_lines.append(_sanitize_no_ellipsis_or_emdash(f"[ASK SCOUTS] {ask_clean}"))
+
+    return "\n".join(out_lines) if len(out_lines) >= 2 else ""
+
+
+_LOCAL_VERTEX_ADC_FAILED_TS: float = 0.0
+_CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS: float = 0.0
+
+
+def _invoke_gemini_flash_polish_sync(
+    prompt: str,
+    bridge_payload: Optional[Dict[str, Any]] = None,
+) -> Tuple[str, str, str]:
+    """Calls Gemini Flash via Vertex AI ADC (Recommended for Argolis / Cloud Run), API key, or Local-to-Cloud-Run Bridge.
+
+    Returns:
+        Tuple[str, str, str]: (polished_sections_text, polish_source, fallback_reason)
+    """
+    global _LOCAL_VERTEX_ADC_FAILED_TS, _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS
+    import urllib.error
+    import urllib.request
+
+    raw_key = (os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or "").strip().strip('"').strip("'")
+    has_valid_key = bool(
+        raw_key
+        and len(raw_key) > 16
+        and "your-" not in raw_key.lower()
+        and "placeholder" not in raw_key.lower()
+    )
+    fallback_reasons: List[str] = []
+
+    # Path 1: Vertex AI Application Default Credentials (Cloud Run Service Account or local Argolis ADC)
+    use_vertex = os.environ.get("GOOGLE_GENAI_USE_VERTEXAI", "false").strip().lower() in ("true", "1", "yes")
+    project_id = (os.environ.get("GOOGLE_CLOUD_PROJECT") or "").strip().strip('"').strip("'")
+    is_cloud_run = bool(os.environ.get("K_SERVICE"))
+    in_pytest = bool(os.environ.get("PYTEST_CURRENT_TEST"))
+    now_ts = time.time()
+
+    if (use_vertex or is_cloud_run) and project_id and not in_pytest:
+        if is_cloud_run or (now_ts - _LOCAL_VERTEX_ADC_FAILED_TS > 120.0):
+            try:
+                from google import genai
+                from google.genai import types as genai_types
+
+                location = (os.environ.get("GOOGLE_CLOUD_LOCATION") or "us-central1").strip()
+                client = genai.Client(
+                    vertexai=True,
+                    project=project_id,
+                    location=location,
+                    http_options={"timeout": 18000, "retry_options": {"attempts": 1}},
+                )
+                resp = client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=prompt,
+                    config=genai_types.GenerateContentConfig(temperature=0.55, max_output_tokens=750),
+                )
+                parsed = _parse_multiline_polished_sections(str(resp.text or ""))
+                if parsed:
+                    _LOCAL_VERTEX_ADC_FAILED_TS = 0.0
+                    return parsed, "GEMINI_FLASH", ""
+            except Exception as exc:
+                err_str = str(exc)
+                if not is_cloud_run and ("403" in err_str or "401" in err_str or "PERMISSION_DENIED" in err_str or "Reauthentication" in err_str):
+                    _LOCAL_VERTEX_ADC_FAILED_TS = now_ts
+                    fallback_reasons.append(f"Local ADC not logged into Argolis project '{project_id}'")
+                else:
+                    fallback_reasons.append(f"Vertex AI ADC error: {err_str[:90]}")
+        else:
+            fallback_reasons.append(f"Local ADC not logged into Argolis project '{project_id}'")
+
+    # Path 2: Vertex AI Express Mode Key (AQ.*) via direct REST (avoids google-genai _gaos._hooks bug)
+    if has_valid_key and raw_key.startswith("AQ."):
+        try:
+            url = f"https://aiplatform.googleapis.com/v1/publishers/google/models/gemini-2.5-flash:generateContent?key={raw_key}"
+            payload = {
+                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.55, "maxOutputTokens": 750},
+            }
+            req_http = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={"Content-Type": "application/json"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req_http, timeout=18) as resp:
+                resp_json = json.loads(resp.read().decode("utf-8"))
+                parts = (
+                    ((resp_json.get("candidates") or [{}])[0].get("content") or {}).get("parts")
+                    or []
+                )
+                llm_text = "".join(str(p.get("text") or "") for p in parts).strip()
+                parsed = _parse_multiline_polished_sections(llm_text)
+                if parsed:
+                    return parsed, "GEMINI_FLASH", ""
+        except urllib.error.HTTPError as http_err:
+            err_body = ""
+            try:
+                err_body = http_err.read().decode("utf-8", errors="ignore")
+            except Exception:
+                pass
+            if "bound service account is deleted or disabled" in err_body:
+                fallback_reasons.append("AQ.* key bound service account is disabled (HTTP 401)")
+            else:
+                fallback_reasons.append(f"Vertex Express key HTTP {http_err.code}")
+        except Exception as exc:
+            fallback_reasons.append(f"Vertex Express error: {type(exc).__name__}")
+
+    # Path 3: Standard Gemini Developer API Key (AIza*)
+    elif has_valid_key:
+        try:
+            from google import genai
+            from google.genai import types as genai_types
+
+            client = genai.Client(api_key=raw_key, http_options={"timeout": 18000, "retry_options": {"attempts": 1}})
+            resp = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+                config=genai_types.GenerateContentConfig(temperature=0.55, max_output_tokens=750),
+            )
+            parsed = _parse_multiline_polished_sections(str(resp.text or ""))
+            if parsed:
+                return parsed, "GEMINI_FLASH", ""
+        except Exception as exc:
+            fallback_reasons.append(f"Gemini API key error: {str(exc)[:90]}")
+
+    # Path 4: Local-to-Cloud-Run Vertex AI Bridge (same bridge pattern used by Nano Banana in image_studio.py)
+    if not is_cloud_run and not in_pytest and bridge_payload and (now_ts - _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS > 180.0):
+        cloud_run_url = (
+            os.environ.get("CLOUD_RUN_BACKEND_URL")
+            or "https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app"
+        ).rstrip("/")
+        if cloud_run_url:
+            try:
+                req_http = urllib.request.Request(
+                    f"{cloud_run_url}/api/v1/slide/polish-notes",
+                    data=json.dumps(bridge_payload).encode("utf-8"),
+                    headers={"Content-Type": "application/json"},
+                    method="POST",
+                )
+                with urllib.request.urlopen(req_http, timeout=20) as resp:
+                    remote_data = json.loads(resp.read().decode("utf-8"))
+                if remote_data.get("polish_source") == "GEMINI_FLASH" and remote_data.get("presenter_notes"):
+                    return str(remote_data["presenter_notes"]), "GEMINI_FLASH", ""
+                # Remote Cloud Run revision has not been redeployed with ADC polish yet
+                _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS = now_ts
+            except Exception:
+                _CLOUD_RUN_POLISH_BRIDGE_UNSUPPORTED_TS = now_ts
+
+    if not fallback_reasons:
+        fallback_reasons.append("No active Gemini Flash API key or Vertex AI ADC configured")
+    return "", "PROCEDURAL_STUDIO_POLISH", "; ".join(fallback_reasons)
+
+
 def _synthesize_studio_narrative_script(
     badge_name: str,
     req_num: str,
@@ -1033,18 +1207,27 @@ def _synthesize_studio_narrative_script(
     audience_level: str,
     variation_seed: int = 0,
     base_notes: str = "",
+    slide_index: int = 0,
+    comparison_data: Optional[Dict[str, Any]] = None,
+    worked_example: Optional[Dict[str, Any]] = None,
+    quiz_item: Optional[Dict[str, Any]] = None,
+    gear_checklist: Optional[List[str]] = None,
 ) -> str:
-    """Synthesizes a rich, multi-beat Studio Counselor Storytelling Script with camp hooks, card transitions, and EDGE cues."""
+    """Synthesizes a rich, slide-unique Studio Counselor Storytelling Script with archetype-tailored hooks, transitions, and EDGE cues."""
     from src.agents.planner import _sanitize_no_ellipsis_or_emdash, _split_anchor_and_detail
 
     clean_title = re.sub(r"^(?:Req(?:uirement)?\s*)?[0-9a-zA-Z.]+\s*[:\-]\s*", "", slide_title).strip() or slide_title
-    is_cover = str(req_num).strip().lower() in ("cover", "-1", "0") or archetype == "COVER"
+    is_cover = str(req_num).strip().lower() in ("cover", "-1", "0") or archetype in ("COVER", "TITLE_COVER_HERO")
 
     if is_cover:
+        cover_hooks = [
+            f"[SAY] Welcome to our {badge_name} Merit Badge clinic, Scouts! [Hold up the official {badge_name} Merit Badge patch and pamphlet] Today we are going beyond textbook definitions so your patrol can master every skill on the trail, at camp, and at home.",
+            f"[SAY] Glad to have every patrol here for the {badge_name} Merit Badge! [Hold up your signed Blue Card sample and {badge_name} pamphlet] Over this session we are turning the official {badge_name} requirements into hands-on field habits you can trust on any troop outing.",
+            f"[SAY] Welcome, Scouts! Let's kick off our {badge_name} Merit Badge workshop. [Point to the official {badge_name} emblem on screen] Whether this is your first merit badge clinic or your final step toward Eagle, today is all about practical demonstrations and buddy teamwork.",
+        ]
         say_cover = (
-            f"[SAY] Welcome to our {badge_name} Merit Badge clinic, Scouts! [Hold up the official {badge_name} Merit Badge patch and pamphlet] "
-            f"Today we are going beyond textbook definitions so your patrol can master every skill on the trail, at camp, and at home. "
-            f"[Point to the Counselor Contact Card on screen] Take 15 seconds right now to write my contact details at the top of your printable {badge_name} Workbook, "
+            cover_hooks[max(0, variation_seed) % len(cover_hooks)]
+            + f" [Point to the Counselor Contact Card on screen] Take 15 seconds right now to write my contact details at the top of your printable {badge_name} Workbook, "
             f"and remember our Scouting America Youth Protection rule: always copy a parent, guardian, or second registered adult leader on every email, text, or call. "
             f"[Studio Coaching Cue: Confirm every Scout has a pen, workbook, and buddy partner before advancing to Slide 2.]"
         )
@@ -1065,27 +1248,114 @@ def _synthesize_studio_narrative_script(
             ]
         )
 
-    hooks = [
-        f"Picture your patrol out in the field when {clean_title} suddenly becomes the skill everybody is counting on for {badge_name} Requirement {req_num}.",
-        f"Let's step out of the classroom for a moment and think about how {clean_title} actually plays out on a real troop campout for {badge_name} Requirement {req_num}.",
-        f"When I sign off {badge_name} Requirement {req_num}, I am looking for whether you can apply {clean_title} calmly under real outdoor conditions.",
-    ]
-    hook_line = hooks[variation_seed % len(hooks)]
+    # Deterministic per-slide seed so every slide in a deck selects a distinct hook, transition sequence, and Socratic question
+    title_hash = sum((idx_ch + 1) * ord(ch) for idx_ch, ch in enumerate(clean_title))
+    slide_seed = abs(int(slide_index)) * 17 + title_hash + max(0, int(variation_seed)) * 11
 
     parsed_cards: List[Tuple[str, str]] = []
     for idx_b, raw_b in enumerate(bullets[:4]):
         h, b = _split_anchor_and_detail(raw_b, f"Key Step {idx_b + 1}")
         parsed_cards.append((h, b))
 
-    card_beats: List[str] = []
-    transitions = [
-        "First, anchor your attention on",
-        "Once you have that locked in, connect it directly to",
-        "Here is where veteran Scouts separate themselves:",
-        "Finally, close the loop with",
+    first_h = parsed_cards[0][0] if parsed_cards else clean_title
+    first_b = parsed_cards[0][1] if parsed_cards else f"the core procedure for Requirement {req_num}"
+    second_h = parsed_cards[1][0] if len(parsed_cards) > 1 else "the follow-up check"
+    second_b = parsed_cards[1][1] if len(parsed_cards) > 1 else "verifying buddy readiness"
+
+    arch_upper = str(archetype or "SPLIT_VISUAL_EXPLAINER").upper()
+    if arch_upper == "DIFFERENTIAL_COMPARISON_2COL":
+        hooks = [
+            f"Out on a troop outing, telling the difference between two closely related conditions is the heart of {clean_title} for {badge_name} Requirement {req_num}.",
+            f"When you are making a real-time field call for {badge_name} Requirement {req_num}, you cannot afford to mix up the two sides of {clean_title}.",
+            f"Let's compare the two columns on screen for {clean_title} so every buddy pair can spot the exact field clues during {badge_name} Requirement {req_num}.",
+            f"A sharp Scout working on {badge_name} Requirement {req_num} knows how to contrast both sides of {clean_title} in seconds.",
+        ]
+    elif arch_upper in ("STEP_BY_STEP_PROCEDURE_4CARD", "HANDS_ON_PRACTICE_STATION"):
+        hooks = [
+            f"Hands-on sequence matters for {badge_name} Requirement {req_num}: let's walk through {clean_title} in the exact order your patrol will perform it.",
+            f"When we step up to the skill station for {badge_name} Requirement {req_num}, muscle memory on {clean_title} is what keeps your buddy team safe and fast.",
+            f"Here is the four-step field drill for {clean_title} that I watch for when signing off {badge_name} Requirement {req_num}.",
+            f"Let's break {clean_title} into clear, repeatable action steps so every Scout can model {badge_name} Requirement {req_num} using the EDGE method.",
+        ]
+    elif arch_upper == "WORKED_EXAMPLE_TEMPLATE":
+        hooks = [
+            f"Many Scouts ask what a complete, sign-off-ready log looks like for {badge_name} Requirement {req_num}, so let's examine this worked example of {clean_title}.",
+            f"Before you fill out your own {badge_name} Workbook for Requirement {req_num}, look at how this concrete model of {clean_title} connects every detail.",
+            f"Here is a real-world benchmark for {clean_title} that shows the exact level of specificity expected on {badge_name} Requirement {req_num}.",
+        ]
+    elif arch_upper == "GEAR_CHECKLIST_GRID":
+        hooks = [
+            f"Before a patrol ever leaves the trailhead for {badge_name} Requirement {req_num}, a Quartermaster check on {clean_title} prevents avoidable emergencies.",
+            f"Good gear preparation makes {clean_title} second nature for {badge_name} Requirement {req_num}: let's inspect what belongs in your kit and why.",
+            f"Open up your pack checklist for {badge_name} Requirement {req_num} as we verify each item required for {clean_title}.",
+        ]
+    elif arch_upper == "SOCRATIC_CHECKPOINT_QUIZ":
+        hooks = [
+            f"Time for a live Patrol Quiz challenge on {clean_title} to test your field judgment for {badge_name} Requirement {req_num}!",
+            f"Hold up your hands, patrols: let's see which buddy team can solve this real-world {clean_title} scenario for {badge_name} Requirement {req_num}.",
+            f"Before we move past {badge_name} Requirement {req_num}, let's put your patrol on the clock with this field decision check on {clean_title}.",
+        ]
+    elif arch_upper == "REQUIREMENTS_TRIAGE_MATRIX":
+        hooks = [
+            f"To help your patrol finish the entire {badge_name} Merit Badge efficiently, this roadmap divides our requirements into classroom discussions, skill stations, and prerequisites.",
+            f"Let's map out our game plan for {badge_name} so every Scout knows which requirements we will complete right here today and which ones need field logs.",
+        ]
+    else:
+        hooks = [
+            f"Picture your patrol out in the field when {clean_title} suddenly becomes the skill everybody is counting on for {badge_name} Requirement {req_num}.",
+            f"When I sign off {badge_name} Requirement {req_num}, I look for whether you can explain and apply {clean_title} under real outdoor conditions.",
+            f"Every time our troop heads out on a weekend campout, {clean_title} shows up right where {badge_name} Requirement {req_num} meets real life.",
+            f"If a younger Scout in your patrol asked you why {clean_title} matters for {badge_name} Requirement {req_num}, here is the clearest way to teach it.",
+            f"Let's connect the official {badge_name} pamphlet guidance on {clean_title} directly to how your patrol operates on Requirement {req_num}.",
+            f"Zero in on {clean_title} with me, Scouts, because mastering {first_h} is one of the smartest takeaways in {badge_name} Requirement {req_num}.",
+            f"Out on the trail, strong judgment on {clean_title} separates prepared patrols from lucky ones when working through {badge_name} Requirement {req_num}.",
+            f"Take a look at the key points on screen for {clean_title} as we tackle {badge_name} Requirement {req_num} together.",
+        ]
+    hook_line = hooks[slide_seed % len(hooks)]
+
+    transition_sets = [
+        [
+            "Start with",
+            "Build on that with",
+            "Pay special attention to",
+            "Round out your check with",
+        ],
+        [
+            "Begin by checking",
+            "Next, link that directly to",
+            "On the third card, notice",
+            "Then confirm",
+        ],
+        [
+            "Your first priority is",
+            "Right alongside that comes",
+            "Equally important is",
+            "Finally, lock in",
+        ],
+        [
+            "Kick off the sequence with",
+            "From there, move straight into",
+            "Watch how that sets up",
+            "Finish strong by verifying",
+        ],
+        [
+            "Focus first on",
+            "Pair that habit with",
+            "In real field conditions, lean on",
+            "And always wrap up with",
+        ],
+        [
+            "Anchor your approach on",
+            "Follow through with",
+            "Keep a sharp eye on",
+            "Complete the standard with",
+        ],
     ]
+    chosen_transitions = transition_sets[(slide_seed // 3) % len(transition_sets)]
+
+    card_beats: List[str] = []
     for idx_c, (h, b) in enumerate(parsed_cards):
-        lead = transitions[idx_c % len(transitions)]
+        lead = chosen_transitions[idx_c % len(chosen_transitions)]
         body_clean = b.rstrip(".")
         card_beats.append(f"[Point to Card {idx_c + 1}: {h}] {lead} {h}, where {body_clean}.")
 
@@ -1094,20 +1364,30 @@ def _synthesize_studio_narrative_script(
         short_req = req_text.strip()
         if len(short_req) > 190:
             short_req = short_req[:187].rsplit(" ", 1)[0] + "."
-        req_callout = f'[Tap the Official Requirement Banner] Notice the exact BSA sign-off standard: "{short_req}" '
+        req_callout = f'[Tap the Official Requirement Banner] Our BSA standard for Requirement {req_num} states: "{short_req}" '
 
     vis_beat = ""
     if has_visual and visual_caption:
         vis_clean = visual_caption.rstrip(".")
-        vis_beat = f"[Gesture to the visual figure on the right: {vis_clean[:68]}] Look closely at how the illustration shows {vis_clean.lower()}. "
+        vis_cues = [
+            f"[Gesture to the visual figure on the right: {vis_clean[:68]}] Look closely at how the illustration highlights {vis_clean.lower()}.",
+            f"[Point to the diagram on the right side of the slide] Notice the visual detail showing {vis_clean.lower()}.",
+            f"[Direct the patrol's eyes to the figure] The visual on screen makes this concrete by showing {vis_clean.lower()}.",
+        ]
+        vis_beat = vis_cues[(slide_seed // 5) % len(vis_cues)] + " "
 
     aud_lower = audience_level.lower()
-    if "tenderfoot" in aud_lower or "first-year" in aud_lower or "11" in aud_lower and "17" not in aud_lower:
+    if "tenderfoot" in aud_lower or "first-year" in aud_lower or ("11" in aud_lower and "17" not in aud_lower):
         aud_beat = "[First-Year & Tenderfoot Coaching] Take this one card at a time with your buddy and say each term out loud before writing it down."
     elif "older" in aud_lower or "eagle" in aud_lower or "14" in aud_lower:
         aud_beat = "[Older Scout & Eagle Leadership Challenge] Be ready to coach a younger patrol mate through this sequence using the EDGE method."
     else:
-        aud_beat = f"[Studio Coaching Cue: Pause 15 seconds so every Scout can record the core {clean_title} checkpoints into their {badge_name} Workbook under Requirement {req_num}.]"
+        coaching_cues = [
+            f"[Studio Coaching Cue: Pause 15 seconds so every Scout can jot down the key {clean_title} checkpoints in their {badge_name} Workbook under Requirement {req_num}.]",
+            f"[Studio Coaching Cue: Have buddy pairs compare their {badge_name} Workbook notes on {first_h} and {second_h} before advancing.]",
+            f"[Studio Coaching Cue: Invite one volunteer patrol to summarize {first_h} in their own words for Requirement {req_num} sign-off.]",
+        ]
+        aud_beat = coaching_cues[(slide_seed // 7) % len(coaching_cues)]
 
     safety_beat = ""
     if safety_warning:
@@ -1120,27 +1400,26 @@ def _synthesize_studio_narrative_script(
         + f"{safety_beat} {aud_beat}"
     )
 
-    first_h = parsed_cards[0][0] if parsed_cards else clean_title
-    first_b = parsed_cards[0][1] if parsed_cards else f"the core procedure for Requirement {req_num}"
-    second_h = parsed_cards[1][0] if len(parsed_cards) > 1 else "the follow-up check"
-    second_b = parsed_cards[1][1] if len(parsed_cards) > 1 else "verifying buddy readiness"
-
-    demo_block = (
-        f"[DEMONSTRATE] [Step in front of the table and model {first_h} at half-speed] "
-        f"Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), "
-        f"pausing at each transition so Scouts can see what a complete Requirement {req_num} sign-off demonstration looks like."
-    )
+    demo_templates = [
+        f"[DEMONSTRATE] [Step in front of the table and model {first_h} at half-speed] Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), pausing so the patrol sees what a complete Requirement {req_num} demonstration looks like.",
+        f"[DEMONSTRATE] [Invite two volunteers to the front table] Use the BSA EDGE method (Explain, Demonstrate, Guide, Enable) to show {first_h} ({first_b.rstrip('.')}), then have the buddy pair demonstrate {second_h} ({second_b.rstrip('.')}) back to the troop.",
+        f"[DEMONSTRATE] [Hold up the field gear or workbook example for Requirement {req_num}] Point out the critical difference between doing {first_h} correctly ({first_b.rstrip('.')}) versus rushing past {second_h} ({second_b.rstrip('.')}).",
+        f"[DEMONSTRATE] [Walk side-by-side with the patrol] Coach Scouts through a live tabletop check of {first_h} ({first_b.rstrip('.')}) followed by {second_h} ({second_b.rstrip('.')}) so every Scout is ready for individual sign-off.",
+    ]
+    demo_block = demo_templates[(slide_seed // 2) % len(demo_templates)]
     if has_visual and visual_caption:
         demo_block += f" [Trace the key callout on the slide figure: {visual_caption.rstrip('.')}]"
 
-    ask_block = (
-        f"[ASK SCOUTS] Imagine your patrol is midway through a weekend campout and someone skips {first_h} while handling {clean_title}: "
-        f"what specific problem will show up first, and how does {second_h} prevent it? [Pause for hands] "
-        f"[Expected Answer: Scouts should explain that {first_h} ({first_b.rstrip('.')}) prevents early field errors, while {second_h} ({second_b.rstrip('.')}) satisfies {badge_name} Requirement {req_num}.]"
-    )
+    ask_templates = [
+        f"[ASK SCOUTS] If your patrol is out on a weekend campout and someone overlooks {first_h} during {clean_title}, what is the first warning sign you will notice, and how does {second_h} fix it? [Pause for hands] [Expected Answer: Scouts should explain that {first_h} ({first_b.rstrip('.')}) prevents early field errors, while {second_h} ({second_b.rstrip('.')}) fulfills {badge_name} Requirement {req_num}.]",
+        f"[ASK SCOUTS] Why do you think the official {badge_name} pamphlet pairs {first_h} with {second_h} under Requirement {req_num} instead of treating them as separate steps? [Call on two patrols] [Expected Answer: {first_h} establishes {first_b.rstrip('.')}, and {second_h} ensures {second_b.rstrip('.')}.]",
+        f"[ASK SCOUTS] Suppose a Tenderfoot Scout in your patrol asks you how to verify {first_h} in the field: what concrete check from this slide would you show them first? [Pause for buddy discussion] [Expected Answer: Point directly to {first_h} ({first_b.rstrip('.')}) and follow up with {second_h} ({second_b.rstrip('.')}).]",
+        f"[ASK SCOUTS] Looking at our cards for {clean_title}, which step requires the most teamwork between patrol buddies on Requirement {req_num}, and why? [Pause for hands] [Expected Answer: Scouts should cite {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}) as key buddy checkpoints.]",
+    ]
+    ask_block = ask_templates[(slide_seed // 4) % len(ask_templates)]
 
     # Preserve any archetype-specific Expected Answer from base_notes if this is a SOCRATIC_CHECKPOINT_QUIZ
-    if archetype == "SOCRATIC_CHECKPOINT_QUIZ" and base_notes:
+    if arch_upper == "SOCRATIC_CHECKPOINT_QUIZ" and base_notes:
         for ln in base_notes.splitlines():
             if ln.strip().startswith("[ASK SCOUTS]"):
                 ask_block = ln.strip()
@@ -1163,9 +1442,9 @@ async def _polish_single_slide_notes_core(
     force_refresh: bool = False,
     variation_seed: int = 0,
 ) -> Dict[str, Any]:
-    """Polishes a single slide's presenter notes using Gemini 2.5 Flash or the Studio Narrative Synthesizer with SQLite caching."""
+    """Polishes a single slide's presenter notes using Gemini Flash or the Studio Narrative Synthesizer with SQLite caching."""
     import hashlib
-    from src.agents.planner import _build_slide_teaching_notes, _sanitize_no_ellipsis_or_emdash
+    from src.agents.planner import _build_slide_teaching_notes
     from src.memory.session_store import get_polished_speaker_notes, save_polished_speaker_notes
 
     is_cover = slide_index == -1 or str(s_data.get("req_number") or "").lower() == "cover"
@@ -1179,9 +1458,10 @@ async def _polish_single_slide_notes_core(
 
     hash_payload = json.dumps(
         {
-            "v": "studio_v2",
+            "v": "gemini_flash_v3",
             "badge": badge_name.strip().lower(),
             "req": req_num,
+            "slide_idx": slide_index,
             "title": title,
             "arch": arch,
             "bullets": bullets,
@@ -1194,13 +1474,26 @@ async def _polish_single_slide_notes_core(
     )
     notes_hash = hashlib.sha256(hash_payload.encode("utf-8")).hexdigest()[:32]
 
-    cached_notes = None if force_refresh else get_polished_speaker_notes(notes_hash)
-    if cached_notes:
+    raw_cached = None if force_refresh else get_polished_speaker_notes(notes_hash)
+    if raw_cached and "Let's step out of the classroom for a moment" not in raw_cached:
+        cached_source = "GEMINI_FLASH"
+        clean_cached = raw_cached
+        if raw_cached.startswith("__SOURCE:"):
+            first_nl = raw_cached.find("\n")
+            if first_nl > 0:
+                header_tag = raw_cached[:first_nl].strip()
+                clean_cached = raw_cached[first_nl + 1 :]
+                if "PROCEDURAL" in header_tag:
+                    cached_source = "PROCEDURAL_STUDIO_POLISH"
+        is_cached_gemini = cached_source == "GEMINI_FLASH"
         return {
             "notes_hash": notes_hash,
             "cache_hit": True,
-            "polish_source": "SQLITE_CACHE",
-            "presenter_notes": cached_notes,
+            "polish_source": cached_source,
+            "polish_engine": "gemini-flash" if is_cached_gemini else "studio-narrative",
+            "polish_model_label": "Gemini Flash" if is_cached_gemini else "Studio Narrative Polish",
+            "fallback_reason": "" if is_cached_gemini else "Cached Studio Narrative Polish (offline mode)",
+            "presenter_notes": clean_cached,
         }
 
     base_notes = "" if is_cover else _build_slide_teaching_notes(
@@ -1221,50 +1514,39 @@ async def _polish_single_slide_notes_core(
         audience_level=aud_level,
     )
 
-    polished_notes = ""
-    polish_source = "CONVERSATIONAL_STUDIO_POLISH"
-    api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
-    if api_key:
-        try:
-            from google import genai
-            from google.genai import types as genai_types
+    prompt = (
+        f"You are a veteran Scouts BSA Merit Badge Counselor coaching {badge_name} ({aud_level}).\n"
+        f"Rewrite and elevate the speaker notes for Slide #{slide_index + 2 if slide_index >= 0 else 1} '{title}' "
+        f"(Requirement {req_num}, Archetype: {arch}, Variation #{variation_seed}) into a warm, "
+        f"vivid, conversational first-person speaking script.\n"
+        f"Official Requirement Text: {s_data.get('verbatim_requirement_text') or 'N/A'}\n"
+        f"Slide Cards: {json.dumps(bullets)}\n"
+        f"Visual Caption: {vis_caption if has_vis else 'None'}\n"
+        f"Baseline Notes: {base_notes}\n\n"
+        f"STRICT FORMAT RULES:\n"
+        f"1. Output exactly 3 sections starting with [SAY], [DEMONSTRATE], and [ASK SCOUTS].\n"
+        f"2. In [SAY], open with a specific, memorable field scenario or hands-on hook tailored directly to '{title}' "
+        f"(NEVER use generic stock openings like 'Let's step out of the classroom for a moment' or 'Picture your patrol out in the field'), "
+        f"teach every card's concrete facts in natural first-person counselor prose, and include 2-3 bracketed stage directions like "
+        f"[Point to Card 1: ...] or [Studio Coaching Cue: ...].\n"
+        f"3. In [DEMONSTRATE], give a concrete physical, gear, or tabletop EDGE demonstration action.\n"
+        f"4. In [ASK SCOUTS], ask a sharp Socratic scenario question and end with [Expected Answer: ...].\n"
+        f"5. Do NOT use em-dashes, en-dashes, or ellipses."
+    )
 
-            def _call_gemini_polish() -> str:
-                client = genai.Client(api_key=api_key)
-                prompt = (
-                    f"You are a veteran Scouts BSA Merit Badge Counselor coaching {badge_name} ({aud_level}).\n"
-                    f"Rewrite and elevate the speaker notes for Slide '{title}' (Requirement {req_num}, Archetype: {arch}) into a warm, "
-                    f"vivid, conversational first-person speaking script.\n"
-                    f"Slide Cards: {json.dumps(bullets)}\n"
-                    f"Visual Caption: {vis_caption if has_vis else 'None'}\n"
-                    f"Baseline Notes: {base_notes}\n\n"
-                    f"STRICT FORMAT RULES:\n"
-                    f"1. Output exactly 3 lines starting with [SAY], [DEMONSTRATE], and [ASK SCOUTS].\n"
-                    f"2. In [SAY], open with a memorable campout or field scenario hook, teach every card's specific facts in first-person prose, "
-                    f"include 2-3 bracketed stage directions like [Point to Card 1: ...] or [Studio Coaching Cue: ...], and never use second-person meta-commands.\n"
-                    f"3. In [DEMONSTRATE], give a concrete physical or tabletop demonstration action.\n"
-                    f"4. In [ASK SCOUTS], ask a sharp scenario question and end with [Expected Answer: ...].\n"
-                    f"5. Do NOT use em-dashes, en-dashes, or ellipses."
-                )
-                resp = client.models.generate_content(
-                    model="gemini-2.5-flash",
-                    contents=prompt,
-                    config=genai_types.GenerateContentConfig(temperature=0.45, max_output_tokens=650),
-                )
-                return str(resp.text or "").strip()
-
-            llm_text = await asyncio.to_thread(_call_gemini_polish)
-            if "[SAY]" in llm_text and "[ASK SCOUTS]" in llm_text:
-                cleaned_lines = [
-                    _sanitize_no_ellipsis_or_emdash(ln.strip())
-                    for ln in llm_text.splitlines()
-                    if ln.strip().startswith(("[SAY]", "[DEMONSTRATE]", "[ASK SCOUTS]"))
-                ]
-                if len(cleaned_lines) >= 2:
-                    polished_notes = "\n".join(cleaned_lines)
-                    polish_source = "GEMINI_2_5_FLASH"
-        except Exception as exc:
-            logger.debug("Gemini polish fallback to Studio Narrative Synthesizer: %s", exc)
+    bridge_payload = {
+        "badge_name": badge_name,
+        "slide_index": slide_index,
+        "slide_data": s_data,
+        "audience_level": aud_level,
+        "force_refresh": force_refresh,
+        "variation_seed": variation_seed,
+    }
+    polished_notes, polish_source, fallback_reason = await asyncio.to_thread(
+        _invoke_gemini_flash_polish_sync,
+        prompt,
+        bridge_payload,
+    )
 
     if not polished_notes:
         polished_notes = _synthesize_studio_narrative_script(
@@ -1280,7 +1562,13 @@ async def _polish_single_slide_notes_core(
             audience_level=aud_level,
             variation_seed=variation_seed,
             base_notes=base_notes,
+            slide_index=slide_index,
+            comparison_data=s_data.get("comparison_data"),
+            worked_example=s_data.get("worked_example"),
+            quiz_item=s_data.get("quiz_item"),
+            gear_checklist=s_data.get("gear_checklist"),
         )
+        polish_source = "PROCEDURAL_STUDIO_POLISH"
 
     save_polished_speaker_notes(
         notes_hash=notes_hash,
@@ -1288,12 +1576,17 @@ async def _polish_single_slide_notes_core(
         req_number=req_num,
         slide_title=title,
         audience_level=aud_level,
-        polished_notes=polished_notes,
+        polished_notes=f"__SOURCE:{polish_source}__\n{polished_notes}",
     )
+
+    is_gemini = polish_source == "GEMINI_FLASH"
     return {
         "notes_hash": notes_hash,
         "cache_hit": False,
         "polish_source": polish_source,
+        "polish_engine": "gemini-flash" if is_gemini else "studio-narrative",
+        "polish_model_label": "Gemini Flash" if is_gemini else "Studio Narrative Polish",
+        "fallback_reason": fallback_reason,
         "presenter_notes": polished_notes,
     }
 
@@ -1304,7 +1597,7 @@ async def api_polish_slide_speaker_notes(
     req: SlidePolishNotesRequest,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Option C Layer 2: Polishes a single slide's Counselor Teaching Notes via Gemini 2.5 Flash or Studio Narrative Synthesizer with SQLite caching."""
+    """Option C Layer 2: Polishes a single slide's Counselor Teaching Notes via Gemini Flash or Studio Narrative Synthesizer with SQLite caching."""
     from src.tools.pptx_builder import (
         CounselorTitleSlideInfo,
         PowerPointBuildRequest,
@@ -1361,9 +1654,13 @@ async def api_polish_slide_speaker_notes(
         "notes_hash": res["notes_hash"],
         "cache_hit": res["cache_hit"],
         "polish_source": res["polish_source"],
+        "polish_engine": res["polish_engine"],
+        "polish_model_label": res["polish_model_label"],
+        "fallback_reason": res["fallback_reason"],
         "presenter_notes": polished_notes,
         "pptx_download_url": rebuilt_pptx_url,
         "duration_ms": elapsed_ms,
+        "elapsed_ms": elapsed_ms,
     }
 
 
@@ -1383,26 +1680,59 @@ async def api_polish_deck_speaker_notes_batch(
 
     t_start = time.perf_counter()
     slides_copy = [dict(s) for s in (req.storyboard_slides or [])]
-    sem = asyncio.Semaphore(6)
+    sem = asyncio.Semaphore(12)
     cache_hits = 0
+    gemini_count = 0
+    last_fallback_reason = ""
+    cover_presenter_notes = ""
+
+    async def _polish_cover() -> None:
+        nonlocal cover_presenter_notes
+        async with sem:
+            c_res = await _polish_single_slide_notes_core(
+                badge_name=req.badge_name,
+                slide_index=-1,
+                s_data={
+                    "title": f"{req.badge_name} Merit Badge - Cover Slide",
+                    "req_number": "Cover",
+                    "archetype": "TITLE_COVER_HERO",
+                },
+                audience_level=req.audience_level,
+                force_refresh=req.force_refresh,
+                variation_seed=1,
+            )
+            cover_presenter_notes = c_res["presenter_notes"]
 
     async def _polish_idx(idx: int, s_obj: Dict[str, Any]) -> None:
-        nonlocal cache_hits
+        nonlocal cache_hits, gemini_count, last_fallback_reason
         async with sem:
+            if not s_obj.get("_originalProceduralNotes") and s_obj.get("presenter_notes"):
+                s_obj["_originalProceduralNotes"] = s_obj["presenter_notes"]
             r = await _polish_single_slide_notes_core(
                 badge_name=req.badge_name,
                 slide_index=idx,
                 s_data=s_obj,
                 audience_level=req.audience_level,
                 force_refresh=req.force_refresh,
-                variation_seed=idx % 3,
+                variation_seed=(idx % 5) + 1,
             )
             s_obj["presenter_notes"] = r["presenter_notes"]
             s_obj["_isPolishedNotes"] = True
+            s_obj["_polishSource"] = r["polish_source"]
+            s_obj["_polishEngine"] = r["polish_engine"]
+            s_obj["_polishModelLabel"] = r["polish_model_label"]
+            s_obj["_polishFallbackReason"] = r["fallback_reason"]
             if r["cache_hit"]:
                 cache_hits += 1
+            if r["polish_source"] == "GEMINI_FLASH":
+                gemini_count += 1
+            elif r["fallback_reason"] and not last_fallback_reason:
+                last_fallback_reason = r["fallback_reason"]
 
-    await asyncio.gather(*[_polish_idx(i, s) for i, s in enumerate(slides_copy)])
+    await asyncio.gather(
+        _polish_cover(),
+        *[_polish_idx(i, s) for i, s in enumerate(slides_copy)],
+    )
 
     rebuilt_pptx_url: Optional[str] = None
     if slides_copy:
@@ -1432,14 +1762,23 @@ async def api_polish_deck_speaker_notes_batch(
             logger.warning("Failed to rebuild PPTX during polish-notes-batch: %s", exc)
 
     elapsed_ms = round((time.perf_counter() - t_start) * 1000.0, 2)
+    batch_source = "GEMINI_FLASH" if gemini_count > 0 else "PROCEDURAL_STUDIO_POLISH"
     return {
         "status": "SUCCESS",
         "badge_name": req.badge_name,
         "polished_count": len(slides_copy),
+        "gemini_count": gemini_count,
         "cache_hits": cache_hits,
+        "polish_source": batch_source,
+        "polish_engine": "gemini-flash" if gemini_count > 0 else "studio-narrative",
+        "polish_model_label": "Gemini Flash" if gemini_count > 0 else "Studio Narrative Polish",
+        "fallback_reason": last_fallback_reason,
+        "cover_presenter_notes": cover_presenter_notes,
         "slides": slides_copy,
+        "storyboard_slides": slides_copy,
         "pptx_download_url": rebuilt_pptx_url,
         "duration_ms": elapsed_ms,
+        "elapsed_ms": elapsed_ms,
     }
 
 

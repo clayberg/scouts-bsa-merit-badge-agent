@@ -2969,6 +2969,88 @@ body.m3-sunlight-mode .m3-slide-card {
   font-weight: 600;
 }
 
+/* ============================================================================
+   PROMINENT AI POLISH SLIDE / DECK BUTTONS & PROVENANCE PILL
+   ============================================================================ */
+
+.m3-btn-ai-polish-slide {
+  background: linear-gradient(135deg, #003F87 0%, #1D4ED8 55%, #4F46E5 100%) !important;
+  color: #FFFFFF !important;
+  border: 1.5px solid #93C5FD !important;
+  padding: 6px 14px !important;
+  font-size: 0.79rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.01em;
+  border-radius: 999px !important;
+  box-shadow: 0 3px 10px rgba(29, 78, 216, 0.28) !important;
+  transition: transform 140ms ease, box-shadow 140ms ease, filter 140ms ease !important;
+}
+
+.m3-btn-ai-polish-slide:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 14px rgba(37, 99, 235, 0.38) !important;
+  filter: brightness(1.07);
+}
+
+.m3-btn-ai-polish-deck {
+  background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 60%, #0F766E 100%) !important;
+  color: #FDE68A !important;
+  border: 1.5px solid #F4C430 !important;
+  padding: 6px 14px !important;
+  font-size: 0.79rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.01em;
+  border-radius: 999px !important;
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.26) !important;
+  transition: transform 140ms ease, box-shadow 140ms ease, filter 140ms ease !important;
+}
+
+.m3-btn-ai-polish-deck:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 14px rgba(244, 196, 48, 0.35) !important;
+  filter: brightness(1.08);
+}
+
+.m3-btn-restore-default-notes {
+  padding: 5px 11px !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  border-radius: 999px !important;
+  border: 1.5px solid #64748B !important;
+  color: #334155 !important;
+  background: #F8FAFC !important;
+}
+
+.m3-btn-restore-default-notes:hover {
+  background: #E2E8F0 !important;
+  color: #0F172A !important;
+}
+
+.m3-notes-provenance-pill {
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  padding: 4px 11px !important;
+  border-radius: 999px !important;
+  border: 1.5px solid #CBD5E1 !important;
+  background: #F1F5F9 !important;
+  color: #334155 !important;
+}
+
+.m3-notes-provenance-pill.is-gemini-flash {
+  background: linear-gradient(135deg, #ECFDF5 0%, #E0E7FF 100%) !important;
+  color: #065F46 !important;
+  border-color: #10B981 !important;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.18);
+}
+
+.m3-notes-provenance-pill.is-studio-narrative {
+  background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%) !important;
+  color: #92400E !important;
+  border-color: #F59E0B !important;
+  box-shadow: 0 2px 6px rgba(245, 158, 11, 0.16);
+}
+
+
 
 
 

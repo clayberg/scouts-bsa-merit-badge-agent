@@ -1094,6 +1094,65 @@ function bindFilterAndSlideControls() {
     copyTextWithFeedback(btn, activeNotes, "✅ Script Copied!");
   });
 
+  function syncNotesPolishProvenancePill({
+    isPolished = false,
+    polishSource = "",
+    cacheHit = false,
+    fallbackReason = "",
+    batchSuffix = "",
+  } = {}) {
+    const statusPill = document.getElementById("notes-polish-status-pill");
+    const restoreBtn = document.getElementById("btn-restore-default-notes");
+    if (restoreBtn) {
+      restoreBtn.classList.toggle("hidden", !isPolished);
+    }
+    if (!statusPill) return;
+    statusPill.classList.remove("is-gemini-flash", "is-studio-narrative");
+    if (!isPolished) {
+      statusPill.textContent = "⚡ Procedural Script • Stage Cues";
+      statusPill.title = "Default Layer 1 procedural first-person script with stage cues ($0.00)";
+      return;
+    }
+    const isGemini =
+      polishSource === "GEMINI_FLASH" ||
+      polishSource === "GEMINI_2_5_FLASH" ||
+      polishSource === "gemini-flash";
+    if (isGemini) {
+      statusPill.classList.add("is-gemini-flash");
+      const cacheTag = cacheHit ? " (Cached)" : "";
+      statusPill.textContent = `🤖 AI Polished • Gemini Flash${cacheTag}${batchSuffix}`;
+      statusPill.title = "Polished by live Gemini Flash LLM and saved to SQLite cache";
+    } else {
+      statusPill.classList.add("is-studio-narrative");
+      statusPill.textContent = `✨ Studio Narrative Polish • Offline Fallback${batchSuffix}`;
+      statusPill.title = fallbackReason
+        ? `Used Studio Narrative Fallback (${fallbackReason})`
+        : "Polished with archetype-aware Studio Narrative Synthesizer (offline mode)";
+    }
+  }
+  window.syncNotesPolishProvenancePill = syncNotesPolishProvenancePill;
+
+  document.getElementById("btn-restore-default-notes")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    const slides = state.currentResult.storyboard?.slides || [];
+    const isCover = state.activeSlideIdx === -1;
+    if (isCover) {
+      delete state.currentResult._polishedCoverNotes;
+      delete state.currentResult._coverPolishSource;
+      delete state.currentResult._coverPolishFallbackReason;
+    } else {
+      const slide = slides[state.activeSlideIdx];
+      if (!slide) return;
+      if (slide._originalProceduralNotes) {
+        slide.presenter_notes = slide._originalProceduralNotes;
+      }
+      slide._isPolishedNotes = false;
+      delete slide._polishSource;
+      delete slide._polishFallbackReason;
+    }
+    renderActiveSlide(state.activeSlideIdx);
+  });
+
   document.getElementById("btn-ai-polish-notes")?.addEventListener("click", async (ev) => {
     const btn = ev.currentTarget;
     if (!state.currentResult) return;
@@ -1111,6 +1170,9 @@ function bindFilterAndSlideControls() {
     const alreadyPolished = isCover
       ? Boolean(state.currentResult._polishedCoverNotes)
       : Boolean(slide._isPolishedNotes);
+    if (!isCover && !slide._originalProceduralNotes && slide.presenter_notes) {
+      slide._originalProceduralNotes = slide.presenter_notes;
+    }
     const nextSeed = ((isCover ? state.currentResult._coverPolishSeed : slide._polishVariationSeed) || 0) + 1;
     if (isCover) {
       state.currentResult._coverPolishSeed = nextSeed;
@@ -1121,6 +1183,9 @@ function bindFilterAndSlideControls() {
     const origText = btn.textContent;
     btn.disabled = true;
     btn.textContent = "⏳ Polishing Slide...";
+    if (statusPill) {
+      statusPill.textContent = "⏳ Calling Gemini Flash to polish slide script...";
+    }
     try {
       const resp = await fetch("/api/v1/slide/polish-notes", {
         method: "POST",
@@ -1139,12 +1204,19 @@ function bindFilterAndSlideControls() {
       });
       if (resp.ok) {
         const data = await resp.json();
+        const src = data.polish_source || (data.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
         if (data.presenter_notes) {
           if (isCover) {
             state.currentResult._polishedCoverNotes = data.presenter_notes;
+            state.currentResult._coverPolishSource = src;
+            state.currentResult._coverPolishCacheHit = Boolean(data.cache_hit);
+            state.currentResult._coverPolishFallbackReason = data.fallback_reason || "";
           } else {
             slide.presenter_notes = data.presenter_notes;
             slide._isPolishedNotes = true;
+            slide._polishSource = src;
+            slide._polishCacheHit = Boolean(data.cache_hit);
+            slide._polishFallbackReason = data.fallback_reason || "";
           }
         }
         if (data.pptx_download_url) {
@@ -1155,12 +1227,6 @@ function bindFilterAndSlideControls() {
           }
         }
         renderActiveSlide(state.activeSlideIdx);
-        if (statusPill) {
-          const engLabel = data.polish_engine === "gemini-2.5-flash" ? "Gemini 2.5 Flash" : "Studio Narrative";
-          statusPill.textContent = data.cache_hit
-            ? `✨ Polished (${engLabel} • SQLite Cache Hit)`
-            : `✨ Polished (${engLabel} • Saved to SQLite)`;
-        }
       }
     } catch (err) {
       console.warn("Could not polish slide notes:", err);
@@ -1197,11 +1263,26 @@ function bindFilterAndSlideControls() {
       });
       if (resp.ok) {
         const data = await resp.json();
-        if (Array.isArray(data.storyboard_slides)) {
-          data.storyboard_slides.forEach((s) => {
+        const batchSrc = data.polish_source || (data.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
+        const updatedSlides = data.slides || data.storyboard_slides;
+        if (Array.isArray(updatedSlides)) {
+          updatedSlides.forEach((s, idx) => {
+            const prev = slides[idx];
+            if (prev && prev._originalProceduralNotes && !s._originalProceduralNotes) {
+              s._originalProceduralNotes = prev._originalProceduralNotes;
+            } else if (prev && !s._originalProceduralNotes && prev.presenter_notes) {
+              s._originalProceduralNotes = prev.presenter_notes;
+            }
             s._isPolishedNotes = true;
+            s._polishSource = s._polishSource || batchSrc;
+            s._polishFallbackReason = s._polishFallbackReason || data.fallback_reason || "";
           });
-          state.currentResult.storyboard.slides = data.storyboard_slides;
+          state.currentResult.storyboard.slides = updatedSlides;
+        }
+        if (data.cover_presenter_notes) {
+          state.currentResult._polishedCoverNotes = data.cover_presenter_notes;
+          state.currentResult._coverPolishSource = batchSrc;
+          state.currentResult._coverPolishFallbackReason = data.fallback_reason || "";
         }
         if (data.pptx_download_url) {
           state.currentResult.pptx_download_url = data.pptx_download_url;
@@ -1211,9 +1292,15 @@ function bindFilterAndSlideControls() {
           }
         }
         renderActiveSlide(state.activeSlideIdx);
-        if (statusPill) {
-          statusPill.textContent = `✨ Entire Deck Polished (${data.polished_count || slides.length} slides • ${data.elapsed_ms || 0}ms)`;
-        }
+        const totalPolished = data.polished_count || updatedSlides?.length || slides.length;
+        const elapsedMs = Math.round(data.duration_ms ?? data.elapsed_ms ?? 0);
+        syncNotesPolishProvenancePill({
+          isPolished: true,
+          polishSource: batchSrc,
+          cacheHit: (data.cache_hits || 0) > 0,
+          fallbackReason: data.fallback_reason || "",
+          batchSuffix: ` • All ${totalPolished} Slides (${elapsedMs}ms)`,
+        });
       }
     } catch (err) {
       console.warn("Could not batch-polish deck speaker notes:", err);
@@ -2130,6 +2217,7 @@ function conciseCardBody(bodyText, maxWords = 24, maxChars = 150) {
 function renderActiveSlide(idx) {
   const res = state.currentResult;
   if (!res) return;
+  state.activeSlideIdx = idx;
   const slides = res.storyboard?.slides || [];
   const totalSlides = slides.length + 1;
   const deckTier = String(res.beautification_tier || document.getElementById("beautification-select")?.value || "BEAUTIFIED").toUpperCase();
@@ -2277,11 +2365,13 @@ function renderActiveSlide(idx) {
       notesEl.innerHTML = coverNotesHtml;
       const fsTeleContent = document.getElementById("fullscreen-teleprompter-content");
       if (fsTeleContent) fsTeleContent.innerHTML = coverNotesHtml;
-      const statusPill = document.getElementById("notes-polish-status-pill");
-      if (statusPill) {
-        statusPill.textContent = res._polishedCoverNotes
-          ? "✨ Studio Polished Script (SQLite Cached)"
-          : "Conversational First-Person Script • Stage Cues";
+      if (typeof window.syncNotesPolishProvenancePill === "function") {
+        window.syncNotesPolishProvenancePill({
+          isPolished: Boolean(res._polishedCoverNotes),
+          polishSource: res._coverPolishSource || "",
+          cacheHit: Boolean(res._coverPolishCacheHit),
+          fallbackReason: res._coverPolishFallbackReason || "",
+        });
       }
     }
     document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
@@ -2776,11 +2866,13 @@ function renderActiveSlide(idx) {
   if (notesEl) {
     notesEl.innerHTML = formattedNotes;
   }
-  const statusPill = document.getElementById("notes-polish-status-pill");
-  if (statusPill) {
-    statusPill.textContent = slide._isPolishedNotes
-      ? "✨ Studio Polished Script (SQLite Cached)"
-      : "Conversational First-Person Script • Stage Cues";
+  if (typeof window.syncNotesPolishProvenancePill === "function") {
+    window.syncNotesPolishProvenancePill({
+      isPolished: Boolean(slide._isPolishedNotes),
+      polishSource: slide._polishSource || "",
+      cacheHit: Boolean(slide._polishCacheHit),
+      fallbackReason: slide._polishFallbackReason || "",
+    });
   }
   const fsTeleContent = document.getElementById("fullscreen-teleprompter-content");
   if (fsTeleContent) {

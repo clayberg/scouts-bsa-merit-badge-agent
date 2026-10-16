@@ -1830,6 +1830,120 @@ def test_v25_plan9_ui_emblem_qr_presenter_and_table_fixes() -> None:
     assert "background: linear-gradient(135deg, #002B5E 0%, #003F87 100%) !important;" in ui_css
 
 
+def test_v27_ai_polish_slide_and_deck_provenance_and_zero_boilerplate() -> None:
+    """Verifies multi-line section parsing, distinct per-slide hooks (zero boilerplate), batch contract keys, and UI prominence."""
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from src.server import _parse_multiline_polished_sections, app
+
+    # 1. Verify multi-line section parser preserves multi-paragraph [SAY], [DEMONSTRATE], and [ASK SCOUTS]
+    sample_llm = (
+        "[SAY] Welcome to the trail station, Scouts!\n"
+        "[Point to Card 1: Direct Pressure] Hold sterile gauze firmly over the wound for at least five minutes.\n"
+        "[Studio Coaching Cue: Check every buddy pair's glove fit.]\n\n"
+        "[DEMONSTRATE] [Step in front of the table]\n"
+        "Model applying a roller bandage over the sterile pad without cutting off distal circulation.\n\n"
+        "[ASK SCOUTS] What should you do if blood soaks through the first gauze pad?\n"
+        "[Expected Answer: Add a second sterile pad directly on top without removing the first pad.]"
+    )
+    parsed = _parse_multiline_polished_sections(sample_llm)
+    assert "[SAY]" in parsed and "[DEMONSTRATE]" in parsed and "[ASK SCOUTS]" in parsed
+    assert "Hold sterile gauze firmly over the wound" in parsed
+    assert "[Studio Coaching Cue: Check every buddy pair's glove fit.]" in parsed
+    assert "Model applying a roller bandage" in parsed
+    assert "[Expected Answer: Add a second sterile pad directly on top without removing the first pad.]" in parsed
+
+    # 2. Verify polishing 5 different slides produces 5 distinct opening hooks and zero old boilerplate
+    client = TestClient(app)
+    slides = [
+        {
+            "title": "Requirement 1 — Scene Safety & Triage",
+            "req_number": "1",
+            "archetype": "SPLIT_VISUAL_EXPLAINER",
+            "bullet_points": ["Scene Check: Scan for hazards before approaching.", "Gloves On: Wear nitrile gloves."],
+        },
+        {
+            "title": "Requirement 2 — Personal vs Patrol First-Aid Kits",
+            "req_number": "2",
+            "archetype": "DIFFERENTIAL_COMPARISON_2COL",
+            "bullet_points": ["Personal Kit: Moleskin and bandages.", "Patrol Kit: SAM splint and trauma shears."],
+        },
+        {
+            "title": "Requirement 3 — Severe Bleeding & Tourniquet Sequence",
+            "req_number": "3",
+            "archetype": "STEP_BY_STEP_PROCEDURE_4CARD",
+            "bullet_points": ["Direct Pressure: Press firmly with sterile gauze.", "Windlass Tourniquet: Place 2 inches above wound."],
+        },
+        {
+            "title": "Requirement 4 — Worked Example Injury Log",
+            "req_number": "4",
+            "archetype": "WORKED_EXAMPLE_TEMPLATE",
+            "bullet_points": ["Mechanism: Slip on wet granite trail.", "Treatment: Splinted ankle and buddy carry."],
+        },
+        {
+            "title": "Requirement 5 — Patrol Quiz on Heat Exhaustion vs Heatstroke",
+            "req_number": "5",
+            "archetype": "SOCRATIC_CHECKPOINT_QUIZ",
+            "bullet_points": ["Heat Exhaustion: Cool clammy skin.", "Heatstroke: Hot altered mental state — call 911."],
+        },
+    ]
+
+    opening_sentences = set()
+    for idx, s_obj in enumerate(slides):
+        r = client.post(
+            "/api/v1/slide/polish-notes",
+            json={
+                "badge_name": "First Aid",
+                "slide_index": idx,
+                "slide_data": s_obj,
+                "audience_level": "All Scouts (Ages 11-17)",
+                "force_refresh": True,
+                "variation_seed": 1,
+            },
+        ).json()
+        assert r["status"] == "SUCCESS"
+        assert r["polish_source"] in ("GEMINI_FLASH", "PROCEDURAL_STUDIO_POLISH")
+        assert r["polish_model_label"] in ("Gemini Flash", "Studio Narrative Polish")
+        notes = r["presenter_notes"]
+        assert "Let's step out of the classroom for a moment" not in notes
+        assert "First, anchor your attention on" not in notes
+        assert "Here is where veteran Scouts separate themselves" not in notes
+        first_sentence = notes.splitlines()[0].split(".")[0].strip()
+        opening_sentences.add(first_sentence)
+
+    assert len(opening_sentences) == len(slides), f"Expected 5 distinct slide openings, got {opening_sentences}"
+
+    # 3. Verify batch polish returns both 'slides' and 'storyboard_slides', 'duration_ms' and 'elapsed_ms', and 'cover_presenter_notes'
+    batch_res = client.post(
+        "/api/v1/slide/polish-notes-batch",
+        json={
+            "badge_name": "First Aid",
+            "storyboard_slides": slides,
+            "audience_level": "All Scouts (Ages 11-17)",
+            "force_refresh": True,
+        },
+    ).json()
+    assert batch_res["status"] == "SUCCESS"
+    assert batch_res["polished_count"] == 5
+    assert len(batch_res["slides"]) == 5
+    assert len(batch_res["storyboard_slides"]) == 5
+    assert "[SAY]" in batch_res.get("cover_presenter_notes", "")
+    assert "duration_ms" in batch_res and "elapsed_ms" in batch_res
+    assert batch_res["polish_model_label"] in ("Gemini Flash", "Studio Narrative Polish")
+
+    # 4. Verify UI buttons, restore toggle, and 'Gemini Flash' naming
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    assert "m3-btn-ai-polish-slide" in ui_html and ".m3-btn-ai-polish-slide" in ui_css
+    assert "m3-btn-ai-polish-deck" in ui_html and ".m3-btn-ai-polish-deck" in ui_css
+    assert 'id="btn-restore-default-notes"' in ui_html
+    assert "syncNotesPolishProvenancePill" in ui_js
+    assert "Gemini Flash" in ui_js
+
+
+
 
 
 

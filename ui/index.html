@@ -729,15 +729,18 @@
                   <span class="material-symbols-outlined">record_voice_over</span>
                   Counselor Teaching Notes
                 </h3>
-                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-                  <span class="m3-chip m3-chip-secondary" id="notes-polish-status-pill" style="font-size:0.69rem;">Conversational First-Person Script &bull; Stage Cues</span>
-                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ai-polish-notes" title="Rewrite and elevate this slide's speaking script with field storytelling, stage cues, and EDGE coaching (cached in SQLite)" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                <div class="m3-notes-action-cluster" style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                  <span class="m3-chip m3-chip-secondary m3-notes-provenance-pill" id="notes-polish-status-pill" title="Shows whether this script was compiled procedurally ($0.00) or polished by Gemini Flash">⚡ Procedural Script &bull; Stage Cues</span>
+                  <button type="button" class="m3-btn m3-btn-ai-polish-slide" id="btn-ai-polish-notes" title="Rewrite and elevate this slide's speaking script using Gemini Flash (with Studio Narrative fallback &amp; SQLite caching)">
                     ✨ AI Polish Slide
                   </button>
-                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ai-polish-deck" title="Batch-polish speaking scripts across all slides in this deck in parallel and update the exported .PPTX / Google Slides deck" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                  <button type="button" class="m3-btn m3-btn-ai-polish-deck" id="btn-ai-polish-deck" title="Batch-polish speaking scripts across all slides in this deck using Gemini Flash and rebuild the exported .PPTX / Google Slides deck">
                     ✨ Polish Entire Deck
                   </button>
-                  <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-slide-notes" title="Copy this slide's Counselor Teaching Notes to clipboard" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                  <button type="button" class="m3-btn m3-btn-outlined m3-btn-restore-default-notes hidden" id="btn-restore-default-notes" title="Restore the default procedural speaking script on this slide to compare Before vs. After">
+                    ↺ Restore Default
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-slide-notes" title="Copy this slide's Counselor Teaching Notes to clipboard" style="padding:5px 11px; font-size:0.75rem; font-weight:700;">
                     📋 Copy Script
                   </button>
                 </div>
@@ -1463,7 +1466,7 @@
                   ⭐ Promote to Primary Default for This Requirement
                 </button>
                 <button type="button" class="m3-btn m3-btn-outlined" id="btn-admin-recaption-vision" style="width:100%; justify-content:center;">
-                  ✨ Auto-Caption with Gemini 2.5 Flash Vision
+                  ✨ Auto-Caption with Gemini Flash Vision
                 </button>
                 <input type="file" id="admin-replace-file-input" accept=".png,.jpg,.jpeg,.webp,image/png,image/jpeg,image/webp" class="hidden" />
                 <button type="button" class="m3-btn m3-btn-outlined" id="btn-admin-replace-upload" style="width:100%; justify-content:center;" title="Upload a PNG/JPG to overwrite this built-in catalog asset in-place (with automatic .bak backup and 8-bit PNG quantization)">
