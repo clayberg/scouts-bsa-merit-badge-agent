@@ -1597,7 +1597,9 @@ def test_v25_conversational_teaching_notes_and_polish_endpoint(tmp_path) -> None
     ).json()
     assert polish_1["status"] == "SUCCESS"
     assert polish_1["cache_hit"] is False
-    assert "[Studio Coaching Cue:" in polish_1["presenter_notes"]
+    assert "[SAY]" in polish_1["presenter_notes"]
+    assert "[Expected Answer:" in polish_1["presenter_notes"]
+    assert polish_1["presenter_notes"] != slides[2].get("presenter_notes")
 
     polish_2 = client.post(
         "/api/v1/slide/polish-notes",
@@ -1622,6 +1624,126 @@ def test_v25_conversational_teaching_notes_and_polish_endpoint(tmp_path) -> None
     assert 'id="notes-polish-status-pill"' in ui_html
     assert "m3-stage-cue-pill" in ui_js
     assert "m3-expected-answer-box" in ui_js
+
+
+def test_v26_plan7_emblems_qr_polish_batch_presenter_and_gslides_export(tmp_path) -> None:
+    """Verify Plan 7: 144/144 authentic Scout Shop emblems, ISO QR SVG endpoint, batch polish, Presenter Console, and Google Slides export."""
+    import json
+    from pathlib import Path
+    from PIL import Image
+    from fastapi.testclient import TestClient
+    from src.server import app
+
+    repo_root = Path(__file__).resolve().parents[1]
+    manifest_path = repo_root / "assets" / "badge_emblems" / "scoutshop_emblems_manifest.json"
+    assert manifest_path.exists()
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert len(manifest) == 144
+    assert sum(1 for v in manifest.values() if isinstance(v, dict) and v.get("source") == "scoutshop.org") == 144
+
+    # 1. Verify all 6 previously synthetic emblems are now authentic 400x400 Scout Shop PNGs
+    for slug in (
+        "automotive_maintenance",
+        "citizenship_in_the_community",
+        "composite_materials",
+        "digital_technology",
+        "theater",
+        "wilderness_survival",
+    ):
+        emblem_file = repo_root / "assets" / "badge_emblems" / f"{slug}.png"
+        assert emblem_file.exists(), f"Missing emblem {slug}.png"
+        assert emblem_file.stat().st_size > 100_000, f"Emblem {slug}.png looks like a tiny synthetic placeholder"
+        with Image.open(emblem_file) as img:
+            assert 380 <= img.size[0] <= 400 and 380 <= img.size[1] <= 400, f"Expected ~400x400 Scout Shop emblem for {slug}, got {img.size}"
+
+    client = TestClient(app)
+
+    # 2. Verify ISO/IEC 18004 Scannable QR Code SVG endpoint
+    qr_resp = client.get(
+        "/api/v1/qr.svg",
+        params={"url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/First%20Aid.pdf"},
+    )
+    assert qr_resp.status_code == 200
+    assert "image/svg+xml" in qr_resp.headers.get("content-type", "")
+    assert "<svg" in qr_resp.text and 'shape-rendering="crispEdges"' in qr_resp.text
+
+    # 3. Verify Batch Deck Polish endpoint (POST /api/v1/slide/polish-notes-batch)
+    sample_slides = [
+        {
+            "title": "Requirement 1 — Scene Triage & Safety",
+            "req_number": "1",
+            "archetype": "SPLIT_VISUAL_EXPLAINER",
+            "bullet_points": [
+                "Scene Assessment: Check for downed wires, traffic, fire, or unstable terrain before approaching.",
+                "Universal Precautions: Put on nitrile exam gloves and eye protection before touching blood.",
+            ],
+            "visual_caption": "Wilderness scene safety check with nitrile gloves",
+            "presenter_notes": "[SAY] Let's cover Requirement 1.\n[DEMONSTRATE] Show gloves.\n[ASK SCOUTS] Why check the scene? [Expected Answer: To avoid becoming a second victim.]",
+        },
+        {
+            "title": "Requirement 2 — Personal First-Aid Kit",
+            "req_number": "2a",
+            "archetype": "SOCRATIC_CHECKPOINT_QUIZ",
+            "bullet_points": [
+                "Gauze & Bandages: Carry sterile 3x3 gauze pads, adhesive bandages, and roller gauze.",
+                "Blister Prevention: Pack moleskin and medical tape for trail hotspots.",
+            ],
+            "presenter_notes": "[SAY] Let's quiz the patrol on Requirement 2a.\n[DEMONSTRATE] Open kit.\n[ASK SCOUTS] What stops blisters? [Expected Answer: Moleskin applied at the first sign of a hot spot.]",
+        },
+    ]
+    batch_resp = client.post(
+        "/api/v1/slide/polish-notes-batch",
+        json={
+            "badge_name": "First Aid",
+            "storyboard_slides": sample_slides,
+            "audience_level": "All Scouts (Ages 11-17)",
+            "force_refresh": True,
+        },
+    )
+    assert batch_resp.status_code == 200
+    batch_data = batch_resp.json()
+    assert batch_data["status"] == "SUCCESS"
+    assert batch_data["polished_count"] == 2
+    for polished_slide in batch_data["slides"]:
+        p_notes = polished_slide["presenter_notes"]
+        assert "[SAY]" in p_notes and "[DEMONSTRATE]" in p_notes and "[ASK SCOUTS]" in p_notes
+        assert "[Expected Answer:" in p_notes
+        assert "—" not in p_notes and "–" not in p_notes
+
+    # 4. Verify Direct Google Slides Export endpoint (POST /api/v1/slide/export-gslides)
+    gslides_resp = client.post(
+        "/api/v1/slide/export-gslides",
+        json={
+            "badge_name": "First Aid",
+            "storyboard_slides": batch_data["slides"],
+            "output_path": str(tmp_path / "First_Aid_GSlides_Test.pptx"),
+        },
+    )
+    assert gslides_resp.status_code == 200
+    gslides_data = gslides_resp.json()
+    assert gslides_data["status"] in ("SUCCESS", "AUTH_GUIDED_IMPORT")
+    assert "pptx_download_url" in gslides_data
+
+    # 5. Verify Plan 7 UI & CSS Wiring
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+
+    assert 'id="btn-ai-polish-deck"' in ui_html
+    assert 'id="deck-export-split-group"' in ui_html
+    assert 'id="btn-deck-export-caret"' in ui_html
+    assert 'id="deck-export-mode-menu"' in ui_html
+    assert 'id="stage-presenter-console-dock"' in ui_html
+    assert 'id="patch-gallery-filter-select"' in ui_html
+    assert 'id="patch-gallery-category-select"' in ui_html
+    assert "Locked Sticky Column Headers" not in ui_html
+    assert ".m3-sticky-matrix-table thead th" in ui_css
+    assert "is-presenter-console-active" in ui_css
+    assert "togglePresenterConsoleMode" in ui_js
+    assert "exportActiveDeckToGoogleSlides" in ui_js
+    assert "scrollActiveFilmstripThumbIntoView" in ui_js
+    assert "encodeIsoQrMatrixJs" in ui_js
+
 
 
 

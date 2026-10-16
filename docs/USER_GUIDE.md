@@ -80,7 +80,7 @@ In the upper-left card (**1. Find & Select Merit Badge**), you have four ways to
 | **Category** | Filter by Scouting subject area: *All Categories*, *Outdoor & Campcraft*, *Health & Public Safety*, *Citizenship & Personal Development*, *Nature & Environment*, *STEM & Science*, *Aquatics & Sports*, *Trades, Business & Careers*, or *Arts, Crafts & Hobbies*. | Helpful when planning a themed campout weekend (such as an Aquatics weekend or a STEM Merit Badge Midway). |
 | **Eagle Status** | Choose **All Badges (144)**, **Eagle-Required (18)**, or **Electives (126)**. | In the dropdown list, Eagle-Required badges are marked with a star (**★**). |
 | **Quick-Select Popular Badges** | One-click buttons for **★ First Aid**, **Weather**, **★ Camping**, **★ Cit. in Nation**, **★ Cooking**, **★ Emergency Prep**, **★ Env. Science**, and **Robotics**. | Clicking a quick-select pill selects that badge and immediately starts building its slide deck and workbook. |
-| **⚜️ Browse Visual Patch Gallery (144)** | Opens an interactive 144-badge visual patch grid modal with category and Eagle-Required filters. | Click any Merit Badge patch card in the gallery to load that badge and view its official emblem and category. |
+| **⚜️ Browse Visual Patch Gallery (144)** | Opens an interactive 144-badge visual patch grid modal displaying all 144 authentic `400x400` Scout Shop emblems (`assets/badge_emblems/`), with search, **All / Eagle-Required / Electives** filter, **Category** filter (matching the 7 Scouting categories in the left sidebar), and a live badge count indicator (`144 / 144 badges`). | Click any Merit Badge patch card in the gallery to load that badge and view its official emblem and category. |
 
 ---
 
@@ -139,7 +139,7 @@ When **Slide Deck Preview** (Tab 1) is active, you have fast controls for naviga
 
 ### 2. Requirement Quick-Jump Bar (`JUMP TO:`)
 - Directly above the 16:9 slide canvas, the **JUMP TO:** bar lists clickable pills for **Cover**, **Overview**, every requirement (**Req 1**, **Req 2a**, **Req 2b**, ...), and **Sources**.
-- Clicking any requirement pill jumps straight to the introductory slide for that requirement.
+- Clicking any requirement pill (or clicking **`▶ Jump to Teaching Slides`** on a requirement card in Tab 2) jumps straight to the introductory slide for that requirement and automatically scrolls the left **Slide Filmstrip Outline** so the active slide card is centered in view.
 
 ### 3. Easy Slide Image Switcher (On-Stage Visual Pill & Popover)
 - Look at the source pill above the image on the right side of the 16:9 slide stage:
@@ -147,20 +147,21 @@ When **Slide Deck Preview** (Tab 1) is active, you have fast controls for naviga
   - When a slide has multiple visual choices (such as the primary pamphlet figure plus up to 2 Gemini Vision-verified BSA pamphlet alternates for that requirement, or custom images you uploaded for that slide), the pill shows **`◀`** and **`▶`** arrows and a **`(1/3) ▾`** counter.
   - Click **`◀`** or **`▶`** (or press **`[`** and **`]`** on your keyboard) to switch between the slide's image options in one click, or click **`(1/3) ▾`** to open a popover showing each option's thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`), and Vision-verified caption. Picking any option updates the slide image, its caption, and your `[SAY]` / `[DEMONSTRATE]` teaching script right away and rebuilds your `.pptx` file in the background at `$0.00` cost. You can also click **`+ Upload / Add Custom Image for This Slide...`** at the bottom of the popover to open the 4-Tab Image Studio.
 
-### 4. Dual-Window Presenter View, Fullscreen Teleprompter (`N`), Classroom Timer & Patrol Scoreboard
-- **🪟 Dual-Window Presenter View (`🪟 Presenter View` or press `P`)**: Opens a synchronized audience projection window (`scouts_bsa_presenter_sync_v1`) that you can drag onto a classroom projector or TV. The audience sees only the clean 16:9 slide canvas, while your laptop screen keeps your **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** teaching script, next-slide preview, and session timer in front of you.
-- **🖥️ Present Fullscreen (`🖥️ Present Fullscreen` or press `F`) & Teleprompter Notes (`🎙️ Notes (N)`)**: Expands the 16:9 slide canvas across your entire screen with a floating bottom control bar (**◀ Prev**, **Next ▶**, **🎙️ Notes (N)**, **✕ Exit Fullscreen**). Clicking **`🎙️ Notes (N)`** (or pressing **`N`**) slides up a semi-transparent bottom teleprompter drawer displaying your **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** script right inside Fullscreen mode.
+### 4. Split-Screen Presenter Console (`P`), 2nd-Monitor Window, Fullscreen Teleprompter (`N`), Classroom Timer & Patrol Scoreboard (`Space`)
+- **🪟 Split-Screen Presenter Console (`🪟 Presenter View` or press `P`) & 2nd-Monitor Popup (`↗ Pop Out 2nd Monitor`)**: Clicking **`🪟 Presenter View`** (or pressing **`P`**) in either normal preview mode or Fullscreen mode (`F`) toggles an **In-Stage Split-Screen Presenter Console** directly beside the 16:9 slide canvas. The left side (`62%`) shows the current 16:9 slide, while the right side (`38%`) displays a high-contrast dark Presenter Console with a live **Session Elapsed Clock**, **Next Slide Preview Card**, and large-type **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** script cards with highlighted `🎬 [Stage Cues]` and `✓ Expected Answer:` boxes. Teaching multi-monitor? Click **`↗ Pop Out 2nd Monitor`** inside the Presenter Console header to open a synchronized standalone speaker-notes window (`scouts_bsa_presenter_sync_v1`).
+- **🖥️ Present Fullscreen (`🖥️ Present Fullscreen` or press `F`) & Teleprompter Notes (`🎙️ Notes (N)`)**: Expands the 16:9 slide canvas across your entire screen with a floating bottom control bar (**◀ Prev**, **Next ▶**, **🎙️ Notes (N)**, **✕ Exit Fullscreen**). Clicking **`🎙️ Notes (N)`** (or pressing **`N`**) slides up a semi-transparent bottom teleprompter drawer displaying your **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** script right inside Fullscreen mode, or press **`P`** in Fullscreen for the side-by-side split-screen Presenter Console.
 - **⏱️ Live Classroom Session & Skill Station Timer (`⏱️ Timer`)**: Click the timer pill in the stage toolbar to start a countdown for **`45m Troop`**, **`50m Camp`**, **`10m Station`**, or **`+5m`**. The timer pill turns amber at 5 minutes remaining and crimson at 1 minute remaining so your patrol stays on schedule without an alarm interrupting your talk.
-- **❓ Interactive Quiz Reveal Mode (`Q`) & 🏆 Patrol Scoreboard**: When **Hide Quiz Answers (Scout Mode)** is checked, Socratic Checkpoint & Scenario slides hide the counselor answer key behind a **`👁️ Reveal Answer & Coaching Tip`** button and display an interactive **🏆 Patrol Scoreboard** (`🦅 Eagle`, `🦊 Fox`, `🐺 Wolf`, `🐻 Bear` with `+1` / `-1` / `↺ Reset` buttons) so patrols can compete during checkpoint reviews.
+- **❓ Interactive Quiz Reveal Mode (`Q`), `Space` Bar Reveal & 🏆 Patrol Scoreboard**: On Socratic Checkpoint & Scenario slides (or whenever **Hide Quiz Answers (Scout Mode)** is checked), pressing the **`Space`** bar (or clicking a masked quiz card or the **`👁️ Reveal Answer & Coaching Tip (Space)`** button) reveals the counselor answer key and coaching tip on the spot, paired with an interactive **🏆 Patrol Scoreboard** (`🦅 Eagle`, `🦊 Fox`, `🐺 Wolf`, `🐻 Bear` with `+1` / `-1` / `↺ Reset` buttons) so patrols can compete during checkpoint reviews.
 - **`?` Keyboard Shortcuts Cheat-Sheet Modal**: Click **`?`** in the top bar (or press `?` on your keyboard) to view all stage and image shortcuts:
 
 | Key | Action |
 | :--- | :--- |
 | **`←` / `→`** | Previous / Next slide |
+| **`Space`** | Reveal / hide quiz answer on Socratic Checkpoint slides (or when Scout Quiz Mode is active) |
 | **`[` / `]`** | Cycle previous / next image choice in the Easy Slide Image Switcher |
 | **`F`** | Toggle Fullscreen classroom projector mode |
 | **`N`** | Toggle Fullscreen Teleprompter Notes Drawer (`[SAY]` / `[DEMO]` / `[ASK]`) |
-| **`P`** | Open Dual-Window Presenter View |
+| **`P`** | Toggle Split-Screen Presenter Console (in Preview or Fullscreen) + `↗ Pop Out 2nd Monitor` |
 | **`Q`** | Toggle Quiz Answer Hide/Reveal mode (`Scout Mode`) |
 | **`?`** | Open Keyboard Shortcuts Cheat-Sheet modal |
 | **`Esc`** | Close active popover, modal, or Fullscreen view |
@@ -190,7 +191,7 @@ Displays your ready-to-speak **EDGE Method** script for the current slide, compi
 - **`[SAY]`**: A conversational first-person speaking script that teaches the actual material on the slide and includes highlighted inline stage directions (`🎬 [Point to Card 1: ...]`, `🎬 [Gesture to the right-hand figure: ...]`, `🎬 [Pause for hands]`).
 - **`[DEMONSTRATE]`**: Included selectively when the slide calls for a hands-on skill demonstration, gear inspection, worked-example walkthrough, or diagram trace.
 - **`[ASK SCOUTS]`**: A specific patrol or field check question followed by a highlighted **`✓ Expected Answer:`** key so you have the exact BSA pamphlet answer in front of you.
-- **`✨ AI Polish Script` & `📋 Copy Script` Buttons**: Click **`✨ AI Polish Script`** in the upper-right header of the notes card to add Studio EDGE coaching cues (`POST /api/v1/slide/polish-notes`, cached in SQLite `polished_speaker_notes` and synced into your downloadable `.pptx` file), or click **`📋 Copy Script`** to copy the active slide's script to your clipboard. Whenever you switch a slide's image or edit its cards, the teaching script updates automatically to match.
+- **`✨ AI Polish Slide`, `✨ Polish Entire Deck` & `📋 Copy Script` Buttons**: Click **`✨ AI Polish Slide`** (`POST /api/v1/slide/polish-notes`) in the upper-right header of the notes card to upgrade the active slide's notes with a Studio narrative opening hook, card-to-card transitions, and EDGE coaching cues, or click **`✨ Polish Entire Deck`** (`POST /api/v1/slide/polish-notes-batch`) to batch-polish every slide across the presentation in parallel (cached in SQLite `polished_speaker_notes` and synced into your downloadable `.pptx` file). Click **`📋 Copy Script`** anytime to copy the active slide's script to your clipboard. Whenever you switch a slide's image or edit its cards, the teaching script updates automatically to match.
 
 ### Drawer Tab 2: `🎨 Customize Slide & Image Studio`
 Lets you change the layout, colors, or illustration on the active slide and automatically rebuilds your downloadable `.pptx` file:
@@ -288,9 +289,13 @@ Click **Lesson Plan, Gear List, Parent Letter & FinOps** to access your classroo
 
 ---
 
-## 10. Importing Your `.PPTX` Deck into PowerPoint or Google Slides
+## 10. Exporting Your Slide Deck to PowerPoint (`.PPTX`) or Direct Google Slides
 
-When you open **`📥 Export & Print ▾`** in the top bar and click **`📊 Download Slide Deck (.PPTX)`**, the Workbench saves a standard widescreen (`16:9`) PowerPoint presentation named `<Badge>_<PolishMode>_<Depth>_Merit_Badge_Deck.pptx`. Every title, teaching card, caption, and speaker note is a native editable text box.
+In the Top Application Bar (and inside **`📥 Export & Print ▾`**), the Workbench provides a **Sticky Export Split-Button** (`scouts_bsa_preferred_deck_export_mode_v1` in `localStorage`) that remembers your preferred slide deck format across sessions:
+- **Mode 1: `📥 Download Slide Deck (.PPTX)` (Default)**: Downloads a widescreen (`16:9`) PowerPoint presentation named `<Badge>_<PolishMode>_<Depth>_Merit_Badge_Deck.pptx` where every title, teaching card, caption, and speaker note is a native editable text box.
+- **Mode 2: `🟨 Open in Google Slides` (Direct Google Drive Conversion via `POST /api/v1/slide/export-gslides`)**: Converts your generated deck directly into a native Google Slides presentation (`mimeType: application/vnd.google-apps.presentation`) using your Google Drive credentials (supporting local Google Application Default Credentials, `gcloud auth`, or a user OAuth 2.0 `drive.file` token) and opens `https://docs.google.com/presentation/d/<id>/edit` in a new browser tab.
+- Click the **`▾`** caret on the right edge of the split-button anytime to switch your default export action between **`.PPTX`** and **Google Slides**.
+- Also in **`📥 Export & Print ▾`**, clicking **`📱 Print 1-Page Field & QR Handout`** opens a printable 1-page pocket reference featuring **standard-compliant, phone-camera-scannable ISO/IEC 18004 QR codes** (`/api/v1/qr.svg`) that resolve directly to the official BSA Merit Badge Pamphlet PDF (`filestore.scouting.org`) and the Scouting.org Digital Resource Guide.
 
 ### Opening in Microsoft PowerPoint or Apple Keynote
 1. Double-click the downloaded `.pptx` file on your laptop.

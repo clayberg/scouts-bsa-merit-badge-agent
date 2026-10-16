@@ -95,10 +95,28 @@
           </button>
         </div>
       </div>
-      <a class="m3-btn m3-btn-filled" id="btn-download-pptx" href="#" download>
-        <span class="material-symbols-outlined" style="font-size:18px;">download</span>
-        Download Slide Deck (.PPTX)
-      </a>
+      <div class="m3-split-export-group" id="deck-export-split-group">
+        <a class="m3-btn m3-btn-filled m3-split-main-btn" id="btn-download-pptx" href="#" download>
+          <span class="material-symbols-outlined" id="deck-export-main-icon" style="font-size:18px;">download</span>
+          <span id="deck-export-main-label">Download Slide Deck (.PPTX)</span>
+        </a>
+        <button type="button" class="m3-btn m3-btn-filled m3-split-caret-btn" id="btn-deck-export-caret" title="Choose preferred slide deck export format (.PPTX or Google Slides)" aria-haspopup="menu" aria-expanded="false">
+          ▾
+        </button>
+        <div class="m3-export-dropdown-menu hidden" id="deck-export-mode-menu" role="menu" aria-label="Slide Deck Export Mode">
+          <div style="font-size:0.68rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.04em; padding:6px 12px 4px 12px;">
+            Sticky Default Deck Export Mode
+          </div>
+          <button type="button" class="m3-export-menu-item active" data-export-mode="pptx" id="menu-export-mode-pptx" role="menuitem">
+            <span>📥 Download Slide Deck (.PPTX)</span>
+            <span class="m3-export-mode-check" id="check-export-mode-pptx">✓</span>
+          </button>
+          <button type="button" class="m3-export-menu-item" data-export-mode="gslides" id="menu-export-mode-gslides" role="menuitem">
+            <span>🟨 Open in Google Slides (Direct Cloud Deck)</span>
+            <span class="m3-export-mode-check hidden" id="check-export-mode-gslides">✓</span>
+          </button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -644,6 +662,35 @@
             </div>
           </div>
 
+          <!-- IN-STAGE SPLIT-SCREEN PRESENTER CONSOLE DOCK (WORKS IN BOTH PREVIEW & FULLSCREEN MODES) -->
+          <aside class="m3-presenter-console-dock hidden" id="stage-presenter-console-dock" aria-label="In-Stage Split-Screen Presenter Console">
+            <div class="m3-pc-dock-header">
+              <div>
+                <div style="font-size:0.70rem; font-weight:800; color:#FDB913; text-transform:uppercase; letter-spacing:0.05em;">
+                  🪟 Split-Screen Presenter View (Shortcut: P)
+                </div>
+                <div id="pc-dock-slide-meta" style="font-size:0.78rem; color:#CBD5E1; font-weight:700; margin-top:2px;">
+                  Slide 1 &bull; Cover
+                </div>
+              </div>
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                <span class="m3-pc-dock-timer" id="pc-dock-timer" title="Click to Start/Pause Session Timer">⏱️ 45:00</span>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-dec" title="Decrease Teleprompter Font Size">A−</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-inc" title="Increase Teleprompter Font Size">A+</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-popout-window" title="Pop Out Speaker Notes to a 2nd Physical Monitor">↗ 2nd Monitor</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-close-console" title="Exit Presenter View (Shortcut: P)">✕</button>
+              </div>
+            </div>
+            <div class="m3-pc-dock-notes" id="pc-dock-notes-body"></div>
+            <div class="m3-pc-dock-footer">
+              <div class="m3-pc-dock-next" id="pc-dock-next-slide">Next: Overview Slide</div>
+              <div style="display:flex; align-items:center; gap:6px;">
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-prev-slide">◀ Prev</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-next-slide">Next ▶</button>
+              </div>
+            </div>
+          </aside>
+
           <!-- Floating Fullscreen Projector HUD (visible only in Fullscreen mode) -->
           <div class="m3-fullscreen-hud hidden" id="fullscreen-hud-bar">
             <button type="button" class="m3-btn m3-btn-tonal" id="btn-fs-prev" style="padding:5px 12px; font-size:0.78rem;">◀ Prev</button>
@@ -681,8 +728,11 @@
                 </h3>
                 <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
                   <span class="m3-chip m3-chip-secondary" id="notes-polish-status-pill" style="font-size:0.69rem;">Conversational First-Person Script &bull; Stage Cues</span>
-                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ai-polish-notes" title="Enhance this slide's speaking script with Studio EDGE coaching cues and cache in SQLite" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
-                    ✨ AI Polish Script
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ai-polish-notes" title="Rewrite and elevate this slide's speaking script with field storytelling, stage cues, and EDGE coaching (cached in SQLite)" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                    ✨ AI Polish Slide
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ai-polish-deck" title="Batch-polish speaking scripts across all slides in this deck in parallel and update the exported .PPTX / Google Slides deck" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                    ✨ Polish Entire Deck
                   </button>
                   <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-slide-notes" title="Copy this slide's Counselor Teaching Notes to clipboard" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
                     📋 Copy Script
@@ -1472,7 +1522,7 @@
                   Top Merit Badges by Generation Volume
                 </h4>
               </div>
-              <div id="admin-badge-popularity-table-wrap" style="overflow-x:auto;"></div>
+              <div id="admin-badge-popularity-table-wrap" class="m3-sticky-matrix-scroll" style="max-height:300px; overflow-y:auto; overflow-x:auto; border:1px solid #E2E8F0; border-radius:10px;"></div>
             </div>
 
             <div class="m3-card">
@@ -1482,7 +1532,7 @@
                   Anonymous Visual Swap Hotspots &amp; 1-Click Default Promotion
                 </h4>
               </div>
-              <div id="admin-image-swaps-table-wrap" style="overflow-x:auto;"></div>
+              <div id="admin-image-swaps-table-wrap" class="m3-sticky-matrix-scroll" style="max-height:300px; overflow-y:auto; overflow-x:auto; border:1px solid #E2E8F0; border-radius:10px;"></div>
             </div>
           </div>
 
@@ -1564,7 +1614,7 @@
               <div>
                 <h4 class="m3-card-title" style="font-size:0.95rem;">
                   <span class="material-symbols-outlined">inventory_2</span>
-                  144-Badge Visual Asset Health Matrix (Locked Sticky Column Headers)
+                  144-Badge Visual Asset Health Matrix
                 </h4>
                 <div style="font-size:0.78rem; color:#475569;" id="admin-asset-summary-subtitle">
                   Auditing all 144 official Merit Badges for pamphlet covers, high-DPI emblems, extracted pamphlet figures, Nano Banana heroes, and PDF/requirement indexes.
@@ -1606,8 +1656,8 @@
                 </div>
                 <span class="m3-chip m3-chip-secondary" id="admin-prompt-manifest-chip">SHA-256 Verified</span>
               </div>
-              <div style="overflow-x:auto;">
-                <table class="m3-finops-table" style="width:100%;">
+              <div class="m3-sticky-matrix-scroll" style="max-height:260px; overflow-y:auto; border:1px solid #E2E8F0; border-radius:10px;">
+                <table class="m3-finops-table m3-sticky-matrix-table" style="width:100%;">
                   <thead>
                     <tr>
                       <th>Prompt ID</th>
@@ -1635,8 +1685,8 @@
                 </div>
                 <span class="m3-chip m3-chip-primary">Zero PII Logged</span>
               </div>
-              <div style="max-height:260px; overflow-y:auto;">
-                <table class="m3-finops-table" style="width:100%;">
+              <div class="m3-sticky-matrix-scroll" style="max-height:260px; overflow-y:auto; border:1px solid #E2E8F0; border-radius:10px;">
+                <table class="m3-finops-table m3-sticky-matrix-table" style="width:100%;">
                   <thead>
                     <tr>
                       <th>Timestamp (UTC)</th>
@@ -1898,8 +1948,12 @@
           </div>
         </div>
         <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-          <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 144 patches..." style="width:200px; padding:6px 10px; font-size:0.80rem;" />
-          <select class="m3-select" id="patch-gallery-filter-select" style="width:auto; padding:6px 10px; font-size:0.80rem;">
+          <span class="m3-chip m3-chip-secondary" id="patch-gallery-count-chip" style="font-size:0.74rem;">144 of 144 Badges</span>
+          <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 144 patches..." style="width:190px; padding:6px 10px; font-size:0.80rem;" />
+          <select class="m3-select" id="patch-gallery-category-select" aria-label="Filter Patch Gallery by Category" style="width:auto; padding:6px 10px; font-size:0.80rem;">
+            <option value="ALL">All Categories</option>
+          </select>
+          <select class="m3-select" id="patch-gallery-filter-select" aria-label="Filter Patch Gallery by Eagle Status" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All 144 Badges</option>
             <option value="EAGLE">★ Eagle-Required (18)</option>
             <option value="ELECTIVE">Elective Badges (126)</option>

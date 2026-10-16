@@ -152,6 +152,18 @@ def match_record_for_badge(badge_name: str, records: Dict[str, Dict[str, Any]]) 
         aliases.append("disability awareness")
     elif norm_badge == "small boat sailing":
         aliases.append("small boat")
+    elif norm_badge == "automotive maintenance":
+        aliases.append("auto maintenance")
+    elif norm_badge == "citizenship in the community":
+        aliases.append("citizen community")
+    elif norm_badge == "composite materials":
+        aliases.append("composite")
+    elif norm_badge == "digital technology":
+        aliases.append("digital tech")
+    elif norm_badge == "theater":
+        aliases.append("theatre")
+    elif norm_badge == "wilderness survival":
+        aliases.append("wildernes survival")
 
     best_rec = None
     best_score = -1

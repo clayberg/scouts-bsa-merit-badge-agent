@@ -699,7 +699,7 @@ paths:
     post:
       summary: Api Polish Slide Speaker Notes
       description: 'Option C Layer 2: Polishes a single slide''s Counselor Teaching
-        Notes via Gemini 2.5 Flash with SQLite caching.'
+        Notes via Gemini 2.5 Flash or Studio Narrative Synthesizer with SQLite caching.'
       operationId: api_polish_slide_speaker_notes_api_v1_slide_polish_notes_post
       parameters:
       - name: authorization
@@ -744,7 +744,7 @@ paths:
     post:
       summary: Api Polish Slide Speaker Notes
       description: 'Option C Layer 2: Polishes a single slide''s Counselor Teaching
-        Notes via Gemini 2.5 Flash with SQLite caching.'
+        Notes via Gemini 2.5 Flash or Studio Narrative Synthesizer with SQLite caching.'
       operationId: api_polish_slide_speaker_notes_api_slide_polish_notes_post
       parameters:
       - name: authorization
@@ -779,6 +779,264 @@ paths:
                 additionalProperties: true
                 title: Response Api Polish Slide Speaker Notes Api Slide Polish Notes
                   Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/polish-notes-batch:
+    post:
+      summary: Api Polish Deck Speaker Notes Batch
+      description: Polishes all slides across the entire Merit Badge deck in parallel
+        with SQLite caching and a single PPTX rebuild.
+      operationId: api_polish_deck_speaker_notes_batch_api_v1_slide_polish_notes_batch_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlidePolishDeckBatchRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Polish Deck Speaker Notes Batch Api V1 Slide Polish
+                  Notes Batch Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/polish-notes-batch:
+    post:
+      summary: Api Polish Deck Speaker Notes Batch
+      description: Polishes all slides across the entire Merit Badge deck in parallel
+        with SQLite caching and a single PPTX rebuild.
+      operationId: api_polish_deck_speaker_notes_batch_api_slide_polish_notes_batch_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlidePolishDeckBatchRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Polish Deck Speaker Notes Batch Api Slide Polish
+                  Notes Batch Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/qr.svg:
+    get:
+      summary: Api Generate Qr Svg
+      description: Returns a standard-compliant, phone-camera-scannable ISO/IEC 18004
+        QR Code SVG for `url`.
+      operationId: api_generate_qr_svg_api_v1_qr_svg_get
+      parameters:
+      - name: url
+        in: query
+        required: false
+        schema:
+          type: string
+          description: Target URL to encode as an ISO/IEC 18004 QR Code SVG.
+          default: https://www.scouting.org/skills/merit-badges/
+          title: Url
+        description: Target URL to encode as an ISO/IEC 18004 QR Code SVG.
+      - name: size
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 512
+          minimum: 48
+          description: Rendered SVG width/height in pixels.
+          default: 96
+          title: Size
+        description: Rendered SVG width/height in pixels.
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/qr.svg:
+    get:
+      summary: Api Generate Qr Svg
+      description: Returns a standard-compliant, phone-camera-scannable ISO/IEC 18004
+        QR Code SVG for `url`.
+      operationId: api_generate_qr_svg_api_qr_svg_get
+      parameters:
+      - name: url
+        in: query
+        required: false
+        schema:
+          type: string
+          description: Target URL to encode as an ISO/IEC 18004 QR Code SVG.
+          default: https://www.scouting.org/skills/merit-badges/
+          title: Url
+        description: Target URL to encode as an ISO/IEC 18004 QR Code SVG.
+      - name: size
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 512
+          minimum: 48
+          description: Rendered SVG width/height in pixels.
+          default: 96
+          title: Size
+        description: Rendered SVG width/height in pixels.
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/export-gslides:
+    post:
+      summary: Api Export Slide Deck To Google Slides
+      description: Exports the active Merit Badge slide deck directly to a native
+        Google Slides presentation via Google Drive API conversion.
+      operationId: api_export_slide_deck_to_google_slides_api_v1_slide_export_gslides_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GoogleSlidesExportRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Export Slide Deck To Google Slides Api V1 Slide
+                  Export Gslides Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/export-gslides:
+    post:
+      summary: Api Export Slide Deck To Google Slides
+      description: Exports the active Merit Badge slide deck directly to a native
+        Google Slides presentation via Google Drive API conversion.
+      operationId: api_export_slide_deck_to_google_slides_api_slide_export_gslides_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GoogleSlidesExportRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Export Slide Deck To Google Slides Api Slide Export
+                  Gslides Post
         '422':
           description: Validation Error
           content:
@@ -3694,6 +3952,54 @@ components:
           title: Custom Troop Logo Path
       type: object
       title: CounselorProfileSaveRequest
+    GoogleSlidesExportRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Official Merit Badge name.
+          default: First Aid
+        pptx_download_url:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Pptx Download Url
+          description: Web URL or local path to the generated .pptx deck.
+        output_path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Output Path
+          description: Optional filesystem path to the .pptx file.
+        beautification_tier:
+          type: string
+          title: Beautification Tier
+          description: Deck visual tier.
+          default: BEAUTIFIED
+        storyboard_slides:
+          anyOf:
+          - items:
+              additionalProperties: true
+              type: object
+            type: array
+          - type: 'null'
+          title: Storyboard Slides
+          description: Optional slide array if PPTX needs regeneration.
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+          description: Optional Counselor Title Slide metadata.
+        user_access_token:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: User Access Token
+          description: Optional OAuth 2.0 Bearer token with drive.file scope.
+      type: object
+      title: GoogleSlidesExportRequest
     HTTPValidationError:
       properties:
         detail:
@@ -3903,6 +4209,45 @@ components:
       required:
       - badge_name
       title: SlideImageUploadRequest
+    SlidePolishDeckBatchRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Official Merit Badge name.
+          default: First Aid
+        storyboard_slides:
+          items:
+            additionalProperties: true
+            type: object
+          type: array
+          title: Storyboard Slides
+          description: Full slide array from client state.
+        audience_level:
+          type: string
+          title: Audience Level
+          description: Target Scout audience level.
+          default: All Scouts (Ages 11-17)
+        force_refresh:
+          type: boolean
+          title: Force Refresh
+          description: Bypass SQLite cache and regenerate all slides.
+          default: false
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+          description: Optional Counselor Title Slide metadata.
+        output_path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Output Path
+          description: Optional existing PPTX output path to overwrite.
+      type: object
+      title: SlidePolishDeckBatchRequest
     SlidePolishNotesRequest:
       properties:
         badge_name:
@@ -3913,7 +4258,7 @@ components:
         slide_index:
           type: integer
           title: Slide Index
-          description: Zero-based index into storyboard.slides.
+          description: Zero-based index into storyboard.slides (-1 for Cover Slide).
           default: 0
         slide_data:
           additionalProperties: true
@@ -3930,6 +4275,11 @@ components:
           title: Force Refresh
           description: Bypass SQLite cache and regenerate.
           default: false
+        variation_seed:
+          type: integer
+          title: Variation Seed
+          description: Optional variation counter when re-polishing a slide.
+          default: 0
         storyboard_slides:
           anyOf:
           - items:

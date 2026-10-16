@@ -147,13 +147,13 @@ Horizontal bar chart and 5-bucket mini-histograms reporting `p50`, `p95`, and `p
   - **`🔄 Reset All Circuit Breakers to CLOSED`** (`POST /api/v1/admin/circuit-breakers/reset`): Resets all circuit breakers to `CLOSED` and reloads in-memory caches.
   - **`📥 Download Zero-PII Snapshot JSON`** (`GET /api/v1/admin/maintenance/snapshot`): Downloads a portable JSON snapshot of asset health, prompt SHA-256 hashes, and aggregated Zero-PII telemetry.
 
-### 2. 144-Badge Visual Asset Health Matrix (Sticky 5-Column Header)
+### 2. 144-Badge Visual Asset Health Matrix
 
-Below the circuit breaker cards sits a searchable table (`max-height: 460px` with a sticky locked `<thead>`) auditing all **144 official Scouts BSA Merit Badges**:
+Below the circuit breaker cards sits a searchable table (`max-height: 460px` with a sticky `<thead>`) auditing all **144 official Scouts BSA Merit Badges**:
 - Type any badge name or category into **🔎 Filter 144 badges...** to filter the matrix in real time.
 - For each badge, the matrix reports 5 health columns:
   - **Cover (`assets/pamphlet_covers/`)**: `✅` Present (`144/144`)
-  - **Emblem (`assets/badge_emblems/`)**: `✅` Present (`144/144`)
+  - **Emblem (`assets/badge_emblems/`)**: `✅` Present (`144/144` authentic `400x400` Scout Shop emblems verified in `assets/badge_emblems/scoutshop_emblems_manifest.json`)
   - **PDF + Index (`data/pamphlet_Requirement_Index.json`)**: `✅` Indexed (`144/144`) with requirement count
   - **Pamphlet Figs (`assets/pamphlet_images/`)**: Count of active Vision-verified primary and alternate figures (`2,323` total)
   - **Nano Heroes (`assets/ai_illustrations/`)**: Count of pre-bundled requirement hero illustrations (`1,306` total Nano Banana PNGs)
@@ -161,9 +161,9 @@ Below the circuit breaker cards sits a searchable table (`max-height: 460px` wit
 
 ### 3. Prompt SHA-256 Manifest & Guardrail Audit Log
 
-Below the 144-Badge Health Matrix sit two side-by-side verification tables:
+Below the 144-Badge Health Matrix sit two side-by-side scrolling verification tables with sticky column headers:
 - **Prompt SHA-256 Manifest (`prompts/manifest.json`)**: Lists all 6 versioned system prompts (`coordinator_v2`, `planner_v2`, `curriculum_v2`, `beautifier_v2`, `reviewer_v2`, `researcher_v2`), their version numbers, live SHA-256 hashes on disk, and `✅ Verified` integrity status.
-- **Recent Model Armor & Guardrail Audit Log (`Zero-PII`)**: Displays recent `compliance_audit` events (`ADMIN_AUTH_SUCCESS`, `MODEL_ARMOR_PASS`, `YPT_CHECK_PASS`) with UTC timestamps and action names.
+- **Zero-PII Guardrail & Security Audit Log (`Zero-PII`)**: Displays recent `compliance_audit` events (`ADMIN_AUTH_SUCCESS`, `MODEL_ARMOR_PASS`, `YPT_CHECK_PASS`) with sticky `Timestamp (UTC)`, `Event / Guardrail`, `Status`, and `Redacted Detail` column headers.
 
 ---
 

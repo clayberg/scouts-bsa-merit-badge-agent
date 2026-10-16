@@ -2805,5 +2805,134 @@ body.m3-sunlight-mode .m3-slide-card {
   font-weight: 600;
 }
 
+/* ============================================================================
+   PLAN 7: STICKY TABLE HEADERS, SPLIT-SCREEN PRESENTER CONSOLE & EXPORT SPLIT-BTN
+   ============================================================================ */
+
+/* Global Sticky Column Headers across all scrollable product tables */
+.m3-finops-table thead th,
+.m3-sticky-matrix-table thead th,
+.m3-bluecard-table thead th,
+.m3-markdown-body table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  background: #F1F5F9;
+  box-shadow: 0 1px 0 #CBD5E1;
+}
+
+/* Sticky Split-Button for Deck Export (.PPTX vs Google Slides) */
+.m3-split-export-group {
+  position: relative;
+  display: inline-flex;
+  align-items: stretch;
+}
+
+.m3-split-export-group .m3-split-main-btn {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.m3-split-export-group .m3-split-caret-btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.32) !important;
+  padding: 0 10px !important;
+  min-width: 28px;
+  cursor: pointer;
+}
+
+.m3-export-mode-check {
+  display: inline-block;
+  width: 14px;
+  font-weight: 800;
+  color: #003F87;
+}
+
+/* In-Stage Split-Screen Presenter Console (Preview & Fullscreen) */
+#slide-stage-wrapper.is-presenter-console-active {
+  display: grid;
+  grid-template-columns: minmax(0, 1.38fr) minmax(300px, 0.62fr);
+  gap: 12px;
+  align-items: stretch;
+}
+
+#slide-stage-wrapper.is-presenter-console-active #stage-presenter-console-dock {
+  display: flex !important;
+}
+
+.m3-presenter-console-dock {
+  background: #0F172A;
+  color: #F8FAFC;
+  border: 1.5px solid #334155;
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 560px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.35);
+}
+
+#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active {
+  padding: 18px 22px 70px 22px;
+}
+
+#slide-stage-wrapper.is-presenting-fullscreen .m3-presenter-console-dock {
+  max-height: calc(100vh - 110px);
+}
+
+.m3-pc-dock-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #334155;
+}
+
+.m3-pc-dock-notes {
+  flex: 1;
+  overflow-y: auto;
+  background: #1E293B;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 0.90rem;
+  line-height: 1.55;
+  color: #F8FAFC;
+}
+
+.m3-pc-dock-notes .m3-stage-cue-pill,
+#fullscreen-teleprompter-content .m3-stage-cue-pill {
+  background: #451A03;
+  color: #FDE68A;
+  border-color: #F59E0B;
+}
+
+.m3-pc-dock-notes .m3-expected-answer-box,
+#fullscreen-teleprompter-content .m3-expected-answer-box {
+  background: #064E3B;
+  color: #A7F3D0;
+  border-left-color: #10B981;
+}
+
+.m3-pc-dock-next {
+  background: #1E293B;
+  border-left: 3.5px solid #38BDF8;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 0.80rem;
+  color: #CBD5E1;
+  font-weight: 600;
+}
+
+
 
 

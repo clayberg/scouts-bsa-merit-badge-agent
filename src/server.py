@@ -17,11 +17,12 @@ import asyncio
 import json
 import logging
 import os
+import re
 import threading
 import time
 import uuid
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
@@ -985,10 +986,11 @@ async def api_regenerate_slide(
 
 class SlidePolishNotesRequest(BaseModel):
     badge_name: str = Field("First Aid", description="Official Merit Badge name.")
-    slide_index: int = Field(0, description="Zero-based index into storyboard.slides.")
+    slide_index: int = Field(0, description="Zero-based index into storyboard.slides (-1 for Cover Slide).")
     slide_data: Dict[str, Any] = Field(default_factory=dict, description="Current slide dictionary.")
     audience_level: str = Field("All Scouts (Ages 11-17)", description="Target Scout audience level.")
     force_refresh: bool = Field(False, description="Bypass SQLite cache and regenerate.")
+    variation_seed: int = Field(0, description="Optional variation counter when re-polishing a slide.")
     storyboard_slides: Optional[List[Dict[str, Any]]] = Field(
         None,
         description="Full slide array from client state so the downloadable .pptx file can be updated in place.",
@@ -997,16 +999,310 @@ class SlidePolishNotesRequest(BaseModel):
     output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
 
 
+class SlidePolishDeckBatchRequest(BaseModel):
+    badge_name: str = Field("First Aid", description="Official Merit Badge name.")
+    storyboard_slides: List[Dict[str, Any]] = Field(default_factory=list, description="Full slide array from client state.")
+    audience_level: str = Field("All Scouts (Ages 11-17)", description="Target Scout audience level.")
+    force_refresh: bool = Field(False, description="Bypass SQLite cache and regenerate all slides.")
+    counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
+    output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
+
+
+class GoogleSlidesExportRequest(BaseModel):
+    badge_name: str = Field("First Aid", description="Official Merit Badge name.")
+    pptx_download_url: Optional[str] = Field(None, description="Web URL or local path to the generated .pptx deck.")
+    output_path: Optional[str] = Field(None, description="Optional filesystem path to the .pptx file.")
+    beautification_tier: str = Field("BEAUTIFIED", description="Deck visual tier.")
+    storyboard_slides: Optional[List[Dict[str, Any]]] = Field(None, description="Optional slide array if PPTX needs regeneration.")
+    counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
+    user_access_token: Optional[str] = Field(None, description="Optional OAuth 2.0 Bearer token with drive.file scope.")
+
+
+def _synthesize_studio_narrative_script(
+    badge_name: str,
+    req_num: str,
+    slide_title: str,
+    archetype: str,
+    req_text: str,
+    bullets: List[str],
+    visual_caption: str,
+    has_visual: bool,
+    safety_warning: str,
+    audience_level: str,
+    variation_seed: int = 0,
+    base_notes: str = "",
+) -> str:
+    """Synthesizes a rich, multi-beat Studio Counselor Storytelling Script with camp hooks, card transitions, and EDGE cues."""
+    from src.agents.planner import _sanitize_no_ellipsis_or_emdash, _split_anchor_and_detail
+
+    clean_title = re.sub(r"^(?:Req(?:uirement)?\s*)?[0-9a-zA-Z.]+\s*[:\-]\s*", "", slide_title).strip() or slide_title
+    is_cover = str(req_num).strip().lower() in ("cover", "-1", "0") or archetype == "COVER"
+
+    if is_cover:
+        say_cover = (
+            f"[SAY] Welcome to our {badge_name} Merit Badge clinic, Scouts! [Hold up the official {badge_name} Merit Badge patch and pamphlet] "
+            f"Today we are going beyond textbook definitions so your patrol can master every skill on the trail, at camp, and at home. "
+            f"[Point to the Counselor Contact Card on screen] Take 15 seconds right now to write my contact details at the top of your printable {badge_name} Workbook, "
+            f"and remember our Scouting America Youth Protection rule: always copy a parent, guardian, or second registered adult leader on every email, text, or call. "
+            f"[Studio Coaching Cue: Confirm every Scout has a pen, workbook, and buddy partner before advancing to Slide 2.]"
+        )
+        demo_cover = (
+            f"[DEMONSTRATE] [Hold up a sample signed Blue Card alongside the {badge_name} Workbook] "
+            f"Show the patrol how today's in-class demonstrations pair with campout or home prerequisites for full requirement sign-off."
+        )
+        ask_cover = (
+            f"[ASK SCOUTS] Looking at the {badge_name} patch on screen, what is one hands-on skill or field challenge you are most excited to tackle today, "
+            f"and who has already started their prerequisite log? "
+            f"[Expected Answer: Verify which Scouts brought prerequisite notes and pair up first-year Scouts with experienced patrol buddies.]"
+        )
+        return "\n".join(
+            [
+                _sanitize_no_ellipsis_or_emdash(say_cover),
+                _sanitize_no_ellipsis_or_emdash(demo_cover),
+                _sanitize_no_ellipsis_or_emdash(ask_cover),
+            ]
+        )
+
+    hooks = [
+        f"Picture your patrol out in the field when {clean_title} suddenly becomes the skill everybody is counting on for {badge_name} Requirement {req_num}.",
+        f"Let's step out of the classroom for a moment and think about how {clean_title} actually plays out on a real troop campout for {badge_name} Requirement {req_num}.",
+        f"When I sign off {badge_name} Requirement {req_num}, I am looking for whether you can apply {clean_title} calmly under real outdoor conditions.",
+    ]
+    hook_line = hooks[variation_seed % len(hooks)]
+
+    parsed_cards: List[Tuple[str, str]] = []
+    for idx_b, raw_b in enumerate(bullets[:4]):
+        h, b = _split_anchor_and_detail(raw_b, f"Key Step {idx_b + 1}")
+        parsed_cards.append((h, b))
+
+    card_beats: List[str] = []
+    transitions = [
+        "First, anchor your attention on",
+        "Once you have that locked in, connect it directly to",
+        "Here is where veteran Scouts separate themselves:",
+        "Finally, close the loop with",
+    ]
+    for idx_c, (h, b) in enumerate(parsed_cards):
+        lead = transitions[idx_c % len(transitions)]
+        body_clean = b.rstrip(".")
+        card_beats.append(f"[Point to Card {idx_c + 1}: {h}] {lead} {h}, where {body_clean}.")
+
+    req_callout = ""
+    if req_text and len(req_text.strip()) > 10:
+        short_req = req_text.strip()
+        if len(short_req) > 190:
+            short_req = short_req[:187].rsplit(" ", 1)[0] + "."
+        req_callout = f'[Tap the Official Requirement Banner] Notice the exact BSA sign-off standard: "{short_req}" '
+
+    vis_beat = ""
+    if has_visual and visual_caption:
+        vis_clean = visual_caption.rstrip(".")
+        vis_beat = f"[Gesture to the visual figure on the right: {vis_clean[:68]}] Look closely at how the illustration shows {vis_clean.lower()}. "
+
+    aud_lower = audience_level.lower()
+    if "tenderfoot" in aud_lower or "first-year" in aud_lower or "11" in aud_lower and "17" not in aud_lower:
+        aud_beat = "[First-Year & Tenderfoot Coaching] Take this one card at a time with your buddy and say each term out loud before writing it down."
+    elif "older" in aud_lower or "eagle" in aud_lower or "14" in aud_lower:
+        aud_beat = "[Older Scout & Eagle Leadership Challenge] Be ready to coach a younger patrol mate through this sequence using the EDGE method."
+    else:
+        aud_beat = f"[Studio Coaching Cue: Pause 15 seconds so every Scout can record the core {clean_title} checkpoints into their {badge_name} Workbook under Requirement {req_num}.]"
+
+    safety_beat = ""
+    if safety_warning:
+        safety_beat = f" [Safety & Guide to Safe Scouting Check] Before any hands-on practice, enforce: {safety_warning.rstrip('.')}."
+
+    say_block = (
+        f"[SAY] {hook_line} {req_callout}"
+        + " ".join(card_beats)
+        + (" " + vis_beat.strip() if vis_beat else "")
+        + f"{safety_beat} {aud_beat}"
+    )
+
+    first_h = parsed_cards[0][0] if parsed_cards else clean_title
+    first_b = parsed_cards[0][1] if parsed_cards else f"the core procedure for Requirement {req_num}"
+    second_h = parsed_cards[1][0] if len(parsed_cards) > 1 else "the follow-up check"
+    second_b = parsed_cards[1][1] if len(parsed_cards) > 1 else "verifying buddy readiness"
+
+    demo_block = (
+        f"[DEMONSTRATE] [Step in front of the table and model {first_h} at half-speed] "
+        f"Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), "
+        f"pausing at each transition so Scouts can see what a complete Requirement {req_num} sign-off demonstration looks like."
+    )
+    if has_visual and visual_caption:
+        demo_block += f" [Trace the key callout on the slide figure: {visual_caption.rstrip('.')}]"
+
+    ask_block = (
+        f"[ASK SCOUTS] Imagine your patrol is midway through a weekend campout and someone skips {first_h} while handling {clean_title}: "
+        f"what specific problem will show up first, and how does {second_h} prevent it? [Pause for hands] "
+        f"[Expected Answer: Scouts should explain that {first_h} ({first_b.rstrip('.')}) prevents early field errors, while {second_h} ({second_b.rstrip('.')}) satisfies {badge_name} Requirement {req_num}.]"
+    )
+
+    # Preserve any archetype-specific Expected Answer from base_notes if this is a SOCRATIC_CHECKPOINT_QUIZ
+    if archetype == "SOCRATIC_CHECKPOINT_QUIZ" and base_notes:
+        for ln in base_notes.splitlines():
+            if ln.strip().startswith("[ASK SCOUTS]"):
+                ask_block = ln.strip()
+                break
+
+    return "\n".join(
+        [
+            _sanitize_no_ellipsis_or_emdash(say_block),
+            _sanitize_no_ellipsis_or_emdash(demo_block),
+            _sanitize_no_ellipsis_or_emdash(ask_block),
+        ]
+    )
+
+
+async def _polish_single_slide_notes_core(
+    badge_name: str,
+    slide_index: int,
+    s_data: Dict[str, Any],
+    audience_level: str,
+    force_refresh: bool = False,
+    variation_seed: int = 0,
+) -> Dict[str, Any]:
+    """Polishes a single slide's presenter notes using Gemini 2.5 Flash or the Studio Narrative Synthesizer with SQLite caching."""
+    import hashlib
+    from src.agents.planner import _build_slide_teaching_notes, _sanitize_no_ellipsis_or_emdash
+    from src.memory.session_store import get_polished_speaker_notes, save_polished_speaker_notes
+
+    is_cover = slide_index == -1 or str(s_data.get("req_number") or "").lower() == "cover"
+    req_num = "Cover" if is_cover else str(s_data.get("req_number") or (slide_index + 1))
+    title = str(s_data.get("title") or (f"{badge_name} Merit Badge Cover Slide" if is_cover else f"{badge_name} Requirement {req_num}"))
+    arch = "COVER" if is_cover else str(s_data.get("archetype") or "SPLIT_VISUAL_EXPLAINER").upper()
+    bullets = [str(b) for b in (s_data.get("bullet_points") or []) if str(b).strip()]
+    vis_caption = str(s_data.get("visual_caption") or "")
+    has_vis = bool(s_data.get("diagram_path") or s_data.get("diagram_url"))
+    aud_level = str(audience_level or s_data.get("audience_level") or "All Scouts (Ages 11-17)")
+
+    hash_payload = json.dumps(
+        {
+            "v": "studio_v2",
+            "badge": badge_name.strip().lower(),
+            "req": req_num,
+            "title": title,
+            "arch": arch,
+            "bullets": bullets,
+            "caption": vis_caption if has_vis else "",
+            "has_vis": has_vis,
+            "audience": aud_level,
+            "seed": variation_seed if force_refresh else 0,
+        },
+        sort_keys=True,
+    )
+    notes_hash = hashlib.sha256(hash_payload.encode("utf-8")).hexdigest()[:32]
+
+    cached_notes = None if force_refresh else get_polished_speaker_notes(notes_hash)
+    if cached_notes:
+        return {
+            "notes_hash": notes_hash,
+            "cache_hit": True,
+            "polish_source": "SQLITE_CACHE",
+            "presenter_notes": cached_notes,
+        }
+
+    base_notes = "" if is_cover else _build_slide_teaching_notes(
+        badge_name=badge_name,
+        req_num=req_num,
+        execution_mode=str(s_data.get("execution_mode") or "IN_CLASS_DISCUSSION"),
+        slide_title=title,
+        archetype=arch,
+        req_text=str(s_data.get("verbatim_requirement_text") or ""),
+        bullet_points=bullets,
+        comparison_data=s_data.get("comparison_data"),
+        worked_example=s_data.get("worked_example"),
+        quiz_item=s_data.get("quiz_item"),
+        gear_checklist=s_data.get("gear_checklist"),
+        visual_caption=vis_caption if has_vis else "",
+        has_visual=has_vis,
+        safety_callout=s_data.get("safety_warning"),
+        audience_level=aud_level,
+    )
+
+    polished_notes = ""
+    polish_source = "CONVERSATIONAL_STUDIO_POLISH"
+    api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
+    if api_key:
+        try:
+            from google import genai
+            from google.genai import types as genai_types
+
+            def _call_gemini_polish() -> str:
+                client = genai.Client(api_key=api_key)
+                prompt = (
+                    f"You are a veteran Scouts BSA Merit Badge Counselor coaching {badge_name} ({aud_level}).\n"
+                    f"Rewrite and elevate the speaker notes for Slide '{title}' (Requirement {req_num}, Archetype: {arch}) into a warm, "
+                    f"vivid, conversational first-person speaking script.\n"
+                    f"Slide Cards: {json.dumps(bullets)}\n"
+                    f"Visual Caption: {vis_caption if has_vis else 'None'}\n"
+                    f"Baseline Notes: {base_notes}\n\n"
+                    f"STRICT FORMAT RULES:\n"
+                    f"1. Output exactly 3 lines starting with [SAY], [DEMONSTRATE], and [ASK SCOUTS].\n"
+                    f"2. In [SAY], open with a memorable campout or field scenario hook, teach every card's specific facts in first-person prose, "
+                    f"include 2-3 bracketed stage directions like [Point to Card 1: ...] or [Studio Coaching Cue: ...], and never use second-person meta-commands.\n"
+                    f"3. In [DEMONSTRATE], give a concrete physical or tabletop demonstration action.\n"
+                    f"4. In [ASK SCOUTS], ask a sharp scenario question and end with [Expected Answer: ...].\n"
+                    f"5. Do NOT use em-dashes, en-dashes, or ellipses."
+                )
+                resp = client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=prompt,
+                    config=genai_types.GenerateContentConfig(temperature=0.45, max_output_tokens=650),
+                )
+                return str(resp.text or "").strip()
+
+            llm_text = await asyncio.to_thread(_call_gemini_polish)
+            if "[SAY]" in llm_text and "[ASK SCOUTS]" in llm_text:
+                cleaned_lines = [
+                    _sanitize_no_ellipsis_or_emdash(ln.strip())
+                    for ln in llm_text.splitlines()
+                    if ln.strip().startswith(("[SAY]", "[DEMONSTRATE]", "[ASK SCOUTS]"))
+                ]
+                if len(cleaned_lines) >= 2:
+                    polished_notes = "\n".join(cleaned_lines)
+                    polish_source = "GEMINI_2_5_FLASH"
+        except Exception as exc:
+            logger.debug("Gemini polish fallback to Studio Narrative Synthesizer: %s", exc)
+
+    if not polished_notes:
+        polished_notes = _synthesize_studio_narrative_script(
+            badge_name=badge_name,
+            req_num=req_num,
+            slide_title=title,
+            archetype=arch,
+            req_text=str(s_data.get("verbatim_requirement_text") or ""),
+            bullets=bullets,
+            visual_caption=vis_caption if has_vis else "",
+            has_visual=has_vis,
+            safety_warning=str(s_data.get("safety_warning") or ""),
+            audience_level=aud_level,
+            variation_seed=variation_seed,
+            base_notes=base_notes,
+        )
+
+    save_polished_speaker_notes(
+        notes_hash=notes_hash,
+        badge_name=badge_name,
+        req_number=req_num,
+        slide_title=title,
+        audience_level=aud_level,
+        polished_notes=polished_notes,
+    )
+    return {
+        "notes_hash": notes_hash,
+        "cache_hit": False,
+        "polish_source": polish_source,
+        "presenter_notes": polished_notes,
+    }
+
+
 @app.post("/api/slide/polish-notes")
 @app.post("/api/v1/slide/polish-notes")
 async def api_polish_slide_speaker_notes(
     req: SlidePolishNotesRequest,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Option C Layer 2: Polishes a single slide's Counselor Teaching Notes via Gemini 2.5 Flash with SQLite caching."""
-    import hashlib
-    from src.agents.planner import _build_slide_teaching_notes, _sanitize_no_ellipsis_or_emdash
-    from src.memory.session_store import get_polished_speaker_notes, save_polished_speaker_notes
+    """Option C Layer 2: Polishes a single slide's Counselor Teaching Notes via Gemini 2.5 Flash or Studio Narrative Synthesizer with SQLite caching."""
     from src.tools.pptx_builder import (
         CounselorTitleSlideInfo,
         PowerPointBuildRequest,
@@ -1016,78 +1312,15 @@ async def api_polish_slide_speaker_notes(
 
     t_start = time.perf_counter()
     s_data = dict(req.slide_data or {})
-    req_num = str(s_data.get("req_number") or (req.slide_index + 1))
-    title = str(s_data.get("title") or f"{req.badge_name} Requirement {req_num}")
-    arch = str(s_data.get("archetype") or "SPLIT_VISUAL_EXPLAINER").upper()
-    bullets = [str(b) for b in (s_data.get("bullet_points") or []) if str(b).strip()]
-    vis_caption = str(s_data.get("visual_caption") or "")
-    has_vis = bool(s_data.get("diagram_path") or s_data.get("diagram_url"))
-    aud_level = str(req.audience_level or s_data.get("audience_level") or "All Scouts (Ages 11-17)")
-
-    hash_payload = json.dumps(
-        {
-            "badge": req.badge_name.strip().lower(),
-            "req": req_num,
-            "title": title,
-            "arch": arch,
-            "bullets": bullets,
-            "caption": vis_caption if has_vis else "",
-            "has_vis": has_vis,
-            "audience": aud_level,
-        },
-        sort_keys=True,
+    res = await _polish_single_slide_notes_core(
+        badge_name=req.badge_name,
+        slide_index=req.slide_index,
+        s_data=s_data,
+        audience_level=req.audience_level,
+        force_refresh=req.force_refresh,
+        variation_seed=req.variation_seed,
     )
-    notes_hash = hashlib.sha256(hash_payload.encode("utf-8")).hexdigest()[:32]
-
-    cached_notes = None if req.force_refresh else get_polished_speaker_notes(notes_hash)
-    cache_hit = False
-    polish_source = "CONVERSATIONAL_STUDIO_POLISH"
-
-    if cached_notes:
-        polished_notes = cached_notes
-        cache_hit = True
-        polish_source = "SQLITE_CACHE"
-    else:
-        base_notes = _build_slide_teaching_notes(
-            badge_name=req.badge_name,
-            req_num=req_num,
-            execution_mode=str(s_data.get("execution_mode") or "IN_CLASS_DISCUSSION"),
-            slide_title=title,
-            archetype=arch,
-            req_text=str(s_data.get("verbatim_requirement_text") or ""),
-            bullet_points=bullets,
-            comparison_data=s_data.get("comparison_data"),
-            worked_example=s_data.get("worked_example"),
-            quiz_item=s_data.get("quiz_item"),
-            gear_checklist=s_data.get("gear_checklist"),
-            visual_caption=vis_caption if has_vis else "",
-            has_visual=has_vis,
-            safety_callout=s_data.get("safety_warning"),
-            audience_level=aud_level,
-        )
-
-        # Build an enriched Studio Counselor Script with EDGE coaching cadence and sign-off verification cues
-        lines_out: List[str] = []
-        for raw_ln in base_notes.splitlines():
-            ln = raw_ln.strip()
-            if ln.startswith("[SAY]"):
-                ln_enriched = (
-                    f"{ln} [Studio Coaching Cue: Check that every Scout has jotted the key terms for Requirement {req_num} "
-                    f"into their {req.badge_name} Workbook before advancing.]"
-                )
-                lines_out.append(_sanitize_no_ellipsis_or_emdash(ln_enriched))
-            else:
-                lines_out.append(_sanitize_no_ellipsis_or_emdash(ln))
-
-        polished_notes = "\n".join(lines_out)
-        save_polished_speaker_notes(
-            notes_hash=notes_hash,
-            badge_name=req.badge_name,
-            req_number=req_num,
-            slide_title=title,
-            audience_level=aud_level,
-            polished_notes=polished_notes,
-        )
+    polished_notes = res["presenter_notes"]
 
     rebuilt_pptx_url: Optional[str] = None
     if req.storyboard_slides:
@@ -1123,12 +1356,250 @@ async def api_polish_slide_speaker_notes(
     return {
         "status": "SUCCESS",
         "slide_index": req.slide_index,
-        "notes_hash": notes_hash,
-        "cache_hit": cache_hit,
-        "polish_source": polish_source,
+        "notes_hash": res["notes_hash"],
+        "cache_hit": res["cache_hit"],
+        "polish_source": res["polish_source"],
         "presenter_notes": polished_notes,
         "pptx_download_url": rebuilt_pptx_url,
         "duration_ms": elapsed_ms,
+    }
+
+
+@app.post("/api/slide/polish-notes-batch")
+@app.post("/api/v1/slide/polish-notes-batch")
+async def api_polish_deck_speaker_notes_batch(
+    req: SlidePolishDeckBatchRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Polishes all slides across the entire Merit Badge deck in parallel with SQLite caching and a single PPTX rebuild."""
+    from src.tools.pptx_builder import (
+        CounselorTitleSlideInfo,
+        PowerPointBuildRequest,
+        SlideSpec,
+        generate_bsa_slide_deck_pptx,
+    )
+
+    t_start = time.perf_counter()
+    slides_copy = [dict(s) for s in (req.storyboard_slides or [])]
+    sem = asyncio.Semaphore(6)
+    cache_hits = 0
+
+    async def _polish_idx(idx: int, s_obj: Dict[str, Any]) -> None:
+        nonlocal cache_hits
+        async with sem:
+            r = await _polish_single_slide_notes_core(
+                badge_name=req.badge_name,
+                slide_index=idx,
+                s_data=s_obj,
+                audience_level=req.audience_level,
+                force_refresh=req.force_refresh,
+                variation_seed=idx % 3,
+            )
+            s_obj["presenter_notes"] = r["presenter_notes"]
+            s_obj["_isPolishedNotes"] = True
+            if r["cache_hit"]:
+                cache_hits += 1
+
+    await asyncio.gather(*[_polish_idx(i, s) for i, s in enumerate(slides_copy)])
+
+    rebuilt_pptx_url: Optional[str] = None
+    if slides_copy:
+        try:
+            c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
+            tier = str(slides_copy[0].get("beautification_tier") or "BEAUTIFIED").upper()
+            out_file = req.output_path or str(
+                GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Deck_Polished_Merit_Badge_Deck.pptx"
+            )
+            visible_slides = [
+                SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+                for s in slides_copy
+                if not s.get("hidden")
+            ]
+            build_res = await asyncio.to_thread(
+                generate_bsa_slide_deck_pptx,
+                PowerPointBuildRequest(
+                    badge_name=req.badge_name,
+                    slides=visible_slides,
+                    counselor_info=c_info,
+                    output_path=out_file,
+                ),
+            )
+            if build_res.get("output_path"):
+                rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
+        except Exception as exc:
+            logger.warning("Failed to rebuild PPTX during polish-notes-batch: %s", exc)
+
+    elapsed_ms = round((time.perf_counter() - t_start) * 1000.0, 2)
+    return {
+        "status": "SUCCESS",
+        "badge_name": req.badge_name,
+        "polished_count": len(slides_copy),
+        "cache_hits": cache_hits,
+        "slides": slides_copy,
+        "pptx_download_url": rebuilt_pptx_url,
+        "duration_ms": elapsed_ms,
+    }
+
+
+@app.get("/api/qr.svg")
+@app.get("/api/v1/qr.svg")
+async def api_generate_qr_svg(
+    url: str = Query("https://www.scouting.org/skills/merit-badges/", description="Target URL to encode as an ISO/IEC 18004 QR Code SVG."),
+    size: int = Query(96, ge=48, le=512, description="Rendered SVG width/height in pixels."),
+) -> Response:
+    """Returns a standard-compliant, phone-camera-scannable ISO/IEC 18004 QR Code SVG for `url`."""
+    from src.tools.qr_generator import render_qr_svg
+
+    svg_str = render_qr_svg(url=url, size_px=size)
+    return Response(content=svg_str, media_type="image/svg+xml")
+
+
+@app.post("/api/slide/export-gslides")
+@app.post("/api/v1/slide/export-gslides")
+async def api_export_slide_deck_to_google_slides(
+    req: GoogleSlidesExportRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Exports the active Merit Badge slide deck directly to a native Google Slides presentation via Google Drive API conversion."""
+    import subprocess
+    import requests as ext_requests
+    from src.tools.pptx_builder import (
+        CounselorTitleSlideInfo,
+        PowerPointBuildRequest,
+        SlideSpec,
+        generate_bsa_slide_deck_pptx,
+    )
+
+    t_start = time.perf_counter()
+    pptx_file: Optional[Path] = None
+
+    if req.output_path and Path(req.output_path).exists():
+        pptx_file = Path(req.output_path)
+    elif req.pptx_download_url:
+        clean_rel = req.pptx_download_url.split("?")[0].lstrip("/")
+        cand = PROJECT_ROOT / clean_rel
+        if cand.exists():
+            pptx_file = cand
+
+    if (not pptx_file or not pptx_file.exists()) and req.storyboard_slides:
+        c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
+        out_file = str(
+            GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{req.beautification_tier}_GoogleSlides_Export.pptx"
+        )
+        visible_slides = [
+            SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+            for s in req.storyboard_slides
+            if not s.get("hidden")
+        ]
+        build_res = await asyncio.to_thread(
+            generate_bsa_slide_deck_pptx,
+            PowerPointBuildRequest(
+                badge_name=req.badge_name,
+                slides=visible_slides,
+                counselor_info=c_info,
+                output_path=out_file,
+            ),
+        )
+        if build_res.get("output_path") and Path(build_res["output_path"]).exists():
+            pptx_file = Path(build_res["output_path"])
+
+    if not pptx_file or not pptx_file.exists():
+        raise HTTPException(status_code=404, detail="No generated PPTX deck found to convert to Google Slides.")
+
+    deck_title = f"{req.badge_name} Merit Badge — Counselor Teaching Deck ({req.beautification_tier.title()})"
+    access_token = (req.user_access_token or os.environ.get("GOOGLE_DRIVE_ACCESS_TOKEN") or "").strip()
+    auth_mode = "USER_OAUTH_TOKEN" if req.user_access_token else "ENV_TOKEN"
+
+    if not access_token:
+        try:
+            import google.auth
+            import google.auth.transport.requests
+
+            creds, _ = google.auth.default(
+                scopes=["https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
+            )
+            creds.refresh(google.auth.transport.requests.Request())
+            if creds.token:
+                access_token = str(creds.token).strip()
+                auth_mode = "GOOGLE_ADC"
+        except Exception:
+            pass
+
+    if not access_token:
+        try:
+            proc = subprocess.run(
+                ["gcloud", "auth", "print-access-token"],
+                capture_output=True,
+                text=True,
+                timeout=4,
+                check=False,
+            )
+            if proc.returncode == 0 and proc.stdout.strip():
+                access_token = proc.stdout.strip()
+                auth_mode = "GCLOUD_CLI"
+        except Exception:
+            pass
+
+    if access_token:
+        try:
+            def _upload_to_drive() -> Dict[str, Any]:
+                metadata = {
+                    "name": deck_title,
+                    "mimeType": "application/vnd.google-apps.presentation",
+                }
+                boundary = "===============bsa_merit_badge_gslides_boundary=="
+                pptx_bytes = pptx_file.read_bytes()
+                body = (
+                    f"--{boundary}\r\n"
+                    f"Content-Type: application/json; charset=UTF-8\r\n\r\n"
+                    f"{json.dumps(metadata)}\r\n"
+                    f"--{boundary}\r\n"
+                    f"Content-Type: application/vnd.openxmlformats-officedocument.presentationml.presentation\r\n\r\n"
+                ).encode("utf-8") + pptx_bytes + f"\r\n--{boundary}--\r\n".encode("utf-8")
+
+                resp = ext_requests.post(
+                    "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,webViewLink",
+                    headers={
+                        "Authorization": f"Bearer {access_token}",
+                        "Content-Type": f"multipart/related; boundary={boundary}",
+                    },
+                    data=body,
+                    timeout=30,
+                )
+                if resp.status_code in (200, 201):
+                    return resp.json()
+                return {"error_status": resp.status_code, "error_body": resp.text[:300]}
+
+            drive_res = await asyncio.to_thread(_upload_to_drive)
+            if drive_res.get("id"):
+                pres_id = str(drive_res["id"])
+                pres_url = str(drive_res.get("webViewLink") or f"https://docs.google.com/presentation/d/{pres_id}/edit")
+                return {
+                    "status": "SUCCESS",
+                    "auth_mode": auth_mode,
+                    "badge_name": req.badge_name,
+                    "presentation_id": pres_id,
+                    "presentation_url": pres_url,
+                    "deck_title": deck_title,
+                    "pptx_download_url": _to_web_asset_url(str(pptx_file)),
+                    "duration_ms": round((time.perf_counter() - t_start) * 1000.0, 2),
+                }
+        except Exception as exc:
+            logger.warning("Direct Drive API Google Slides conversion warning: %s", exc)
+
+    return {
+        "status": "AUTH_GUIDED_IMPORT",
+        "auth_mode": "OAUTH_CLIENT_OR_GUIDED_IMPORT",
+        "oauth_client_id": os.environ.get("GOOGLE_OAUTH_CLIENT_ID", ""),
+        "badge_name": req.badge_name,
+        "deck_title": deck_title,
+        "pptx_download_url": _to_web_asset_url(str(pptx_file)),
+        "slides_import_url": "https://docs.google.com/presentation/u/0/",
+        "message": (
+            "Provide a Google OAuth 2.0 Bearer token (scope: https://www.googleapis.com/auth/drive.file) "
+            "or configure GOOGLE_OAUTH_CLIENT_ID to create the deck directly in your Google Drive."
+        ),
+        "duration_ms": round((time.perf_counter() - t_start) * 1000.0, 2),
     }
 
 
