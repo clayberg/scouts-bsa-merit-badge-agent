@@ -3964,6 +3964,68 @@ body.m3-sunlight-mode .m3-slide-card {
   border: 1px solid #CBD5E1;
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
   margin: 12px 0;
+  cursor: zoom-in;
+  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
+}
+
+.m3-docs-article-body img:hover {
+  border-color: #3B82F6;
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.18);
+}
+
+.m3-doc-inline-link {
+  color: #003F87;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 120ms ease;
+}
+
+.m3-doc-inline-link:hover {
+  color: #1D4ED8;
+}
+
+.m3-doc-zoomable-figure,
+.m3-doc-mermaid-wrap {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin: 10px 0;
+  cursor: zoom-in;
+}
+
+.m3-doc-mermaid-wrap {
+  display: block;
+}
+
+.m3-doc-zoom-pill {
+  position: absolute;
+  right: 12px;
+  bottom: 20px;
+  background: rgba(15, 23, 42, 0.84);
+  color: #F8FAFC;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  opacity: 0.86;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+  transition: opacity 140ms ease, transform 140ms ease, background 140ms ease;
+}
+
+.m3-doc-zoomable-figure:hover .m3-doc-zoom-pill,
+.m3-doc-mermaid-wrap:hover .m3-doc-zoom-pill {
+  opacity: 1;
+  background: #2563EB;
+  border-color: #93C5FD;
+  transform: translateY(-2px);
+}
+
+#stage-diagram-img {
+  cursor: zoom-in;
 }
 
 .m3-docs-article-body blockquote {
@@ -3975,6 +4037,52 @@ body.m3-sunlight-mode .m3-slide-card {
   color: #1E3A8A;
 }
 
+.m3-doc-alert {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.m3-doc-alert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1D4ED8;
+}
+
+.m3-doc-alert.is-tip {
+  border-left-color: #16A34A;
+  background: #F0FDF4;
+  color: #14532D;
+}
+.m3-doc-alert.is-tip .m3-doc-alert-badge {
+  color: #15803D;
+}
+
+.m3-doc-alert.is-important {
+  border-left-color: #7C3AED;
+  background: #F5F3FF;
+  color: #4C1D95;
+}
+.m3-doc-alert.is-important .m3-doc-alert-badge {
+  color: #6D28D9;
+}
+
+.m3-doc-alert.is-warning,
+.m3-doc-alert.is-caution {
+  border-left-color: #D97706;
+  background: #FFFBEB;
+  color: #78350F;
+}
+.m3-doc-alert.is-warning .m3-doc-alert-badge,
+.m3-doc-alert.is-caution .m3-doc-alert-badge {
+  color: #B45309;
+}
+
 .m3-docs-article-body .mermaid {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
@@ -3984,6 +4092,166 @@ body.m3-sunlight-mode .m3-slide-card {
   overflow-x: auto;
   display: flex;
   justify-content: center;
+  cursor: zoom-in;
+}
+
+/* ============================================================================
+   CLICK-TO-ZOOM LIGHTBOX MODAL (#image-zoom-lightbox-modal)
+   ============================================================================ */
+
+.m3-lightbox-backdrop {
+  z-index: 3200 !important;
+  background: rgba(2, 6, 23, 0.88) !important;
+  backdrop-filter: blur(6px);
+  padding: 14px !important;
+}
+
+.m3-lightbox-dialog {
+  width: 96vw;
+  max-width: 1680px;
+  height: 92vh;
+  background: #0B1120;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.m3-lightbox-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 18px;
+  background: #0F172A;
+  border-bottom: 1px solid #1E293B;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.m3-lightbox-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.m3-lightbox-badge {
+  background: rgba(37, 99, 235, 0.25);
+  color: #93C5FD;
+  border: 1px solid #3B82F6;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.m3-lightbox-title {
+  color: #F8FAFC;
+  font-size: 0.92rem;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.m3-lightbox-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.m3-lightbox-btn {
+  background: #1E293B;
+  color: #E2E8F0;
+  border: 1px solid #475569;
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 130ms ease, border-color 130ms ease;
+}
+
+.m3-lightbox-btn:hover {
+  background: #334155;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+.m3-lightbox-scale-pill {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #FDE047;
+  background: rgba(250, 204, 21, 0.14);
+  border: 1px solid rgba(250, 204, 21, 0.4);
+  border-radius: 8px;
+  padding: 4px 10px;
+  min-width: 58px;
+  text-align: center;
+}
+
+.m3-lightbox-close-btn {
+  background: rgba(220, 38, 38, 0.22);
+  color: #FCA5A5;
+  border: 1px solid rgba(248, 113, 113, 0.5);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.m3-lightbox-close-btn:hover {
+  background: #DC2626;
+  color: #FFFFFF;
+}
+
+.m3-lightbox-stage {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(circle at center, #1E293B 0%, #090D16 100%);
+}
+
+.m3-lightbox-content-inner {
+  transform-origin: center center;
+  transition: transform 140ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m3-lightbox-zoomed-img {
+  max-width: 90vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #475569;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
+  background: #FFFFFF;
+}
+
+.m3-lightbox-mermaid-card {
+  background: #FFFFFF;
+  color: #0F172A;
+  padding: 28px 36px;
+  border-radius: 14px;
+  border: 2px solid #60A5FA;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
+  max-width: 90vw;
+  overflow: auto;
 }
 
 /* ============================================================================
@@ -3992,7 +4260,7 @@ body.m3-sunlight-mode .m3-slide-card {
    ============================================================================ */
 
 body.m3-dark-mode {
-  --md-sys-color-primary: #2563EB;
+  --md-sys-color-primary: #60A5FA;
   --md-sys-color-on-primary: #FFFFFF;
   --md-sys-color-primary-container: #1E3A8A;
   --md-sys-color-on-primary-container: #DBEAFE;
@@ -4101,21 +4369,377 @@ body.m3-dark-mode .m3-slide-thumb {
   color: #E2E8F0;
 }
 
+body.m3-dark-mode .m3-slide-thumb .m3-thumb-title {
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode .m3-slide-thumb .m3-thumb-top {
+  color: #94A3B8 !important;
+}
+
 body.m3-dark-mode .m3-slide-thumb.active {
   background: #1E3A8A;
   border-color: #60A5FA;
   color: #FFFFFF;
 }
 
+/* 2. Left Setup Sidebar (#left-setup-sidebar): Local Grounding box, FinOps pill & Counselor Profile Accordion */
+body.m3-dark-mode #local-grounding-toggle-card,
+body.m3-dark-mode .m3-grounding-toggle-card,
+body.m3-dark-mode #left-setup-sidebar label[for="input-local-grounding"],
+body.m3-dark-mode #left-setup-sidebar label:has(#input-local-grounding) {
+  background: rgba(30, 58, 138, 0.35) !important;
+  border-color: #3B82F6 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-grounding-toggle-title,
+body.m3-dark-mode #local-grounding-toggle-card .m3-grounding-toggle-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-grounding-toggle-subtitle,
+body.m3-dark-mode #local-grounding-toggle-card .m3-grounding-toggle-subtitle,
+body.m3-dark-mode #left-setup-sidebar label:has(#input-local-grounding) span,
+body.m3-dark-mode #left-setup-sidebar label:has(#input-local-grounding) div {
+  color: #DBEAFE !important;
+}
+
+body.m3-dark-mode #finops-cost-pill {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #finops-cost-usd {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #finops-cost-meta {
+  color: #94A3B8 !important;
+}
+
+body.m3-dark-mode #counselor-profile-accordion,
+body.m3-dark-mode .m3-profile-accordion {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-profile-summary-bar {
+  background: #1E293B !important;
+  border-bottom-color: #334155 !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-profile-summary-bar span {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #sidebar-profile-summary-text {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-profile-accordion-body {
+  background: #111827 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #location-infer-hint {
+  color: #94A3B8 !important;
+}
+
+body.m3-dark-mode .m3-trace-item {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-trace-top {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-trace-desc {
+  color: #CBD5E1 !important;
+}
+
+/* 3. Slide Stage Toolbar & Under-Stage Drawer (Counselor Teaching Notes, Co-Design & Quick-Edit) */
+body.m3-dark-mode #slide-stage-toolbar > div > div {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-session-timer-pill {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #session-timer-pill {
+  color: #38BDF8 !important;
+}
+
+body.m3-dark-mode .m3-req-jump-label {
+  color: #94A3B8 !important;
+}
+
+body.m3-dark-mode .m3-req-jump-pill {
+  background: #1E293B !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-req-jump-pill.active {
+  background: #2563EB !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-understage-tabs {
+  background: #0F172A !important;
+  border-bottom-color: #1E293B !important;
+}
+
+body.m3-dark-mode .m3-understage-tab-btn {
+  background: #1E293B !important;
+  border-color: #334155 !important;
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-understage-tab-btn.active {
+  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+/* Fix Counselor Teaching Notes Card & Cues in Dark Mode (Screenshot 1hvq2k6iplop0.png) */
+body.m3-dark-mode #slide-speaker-notes-card,
+body.m3-dark-mode .m3-speaker-notes-card,
+body.m3-dark-mode #slide-codesign-bar,
+body.m3-dark-mode #slide-quick-edit-card {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode #slide-speaker-notes-card strong,
+body.m3-dark-mode #slide-codesign-bar strong,
+body.m3-dark-mode #slide-quick-edit-card strong {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #notes-polish-status-pill,
+body.m3-dark-mode .m3-notes-provenance-pill {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+  border-color: #3B82F6 !important;
+}
+
+body.m3-dark-mode #stage-presenter-notes {
+  background: transparent !important;
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode #stage-presenter-notes div {
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode #stage-presenter-notes strong {
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode #stage-presenter-notes .m3-cue-tag {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+body.m3-dark-mode #stage-presenter-notes .m3-stage-cue-pill {
+  background: rgba(217, 119, 6, 0.24) !important;
+  color: #FDE68A !important;
+  border-color: rgba(245, 158, 11, 0.55) !important;
+}
+
+body.m3-dark-mode #stage-presenter-notes .m3-expected-answer-box {
+  background: rgba(21, 128, 61, 0.25) !important;
+  border-color: #22C55E !important;
+  color: #DCFCE7 !important;
+}
+
+body.m3-dark-mode #stage-presenter-notes .m3-expected-answer-box strong {
+  color: #86EFAC !important;
+}
+
+body.m3-dark-mode .m3-arch-thumb-btn {
+  background: #1E293B !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-arch-thumb-btn.active {
+  background: #1E3A8A !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+/* 4. Panels 2, 3, 4 & 5: Triage, Workbook, Class Prep & Letters, and Admin Console */
 body.m3-dark-mode .m3-notes-box,
 body.m3-dark-mode .m3-codesign-panel,
 body.m3-dark-mode .m3-markdown-body:not(.m3-docs-article-body),
 body.m3-dark-mode .m3-triage-col,
 body.m3-dark-mode .m3-triage-card,
+body.m3-dark-mode .m3-req-node-card,
 body.m3-dark-mode .m3-gear-group-card {
   background: #0F172A !important;
   border-color: #334155 !important;
   color: #E2E8F0 !important;
+}
+
+/* Fix Markdown Preview Headings & Links in Workbook & Class Prep Tabs (Screenshots 5ttel8q2pr258.png & 6j2u28njdlup0.png) */
+body.m3-dark-mode .m3-markdown-body h1,
+body.m3-dark-mode .m3-markdown-body h2,
+body.m3-dark-mode .m3-markdown-body h3,
+body.m3-dark-mode .m3-markdown-body h4 {
+  color: #93C5FD !important;
+  border-bottom-color: #1E293B !important;
+}
+
+body.m3-dark-mode .m3-markdown-body p,
+body.m3-dark-mode .m3-markdown-body li,
+body.m3-dark-mode .m3-markdown-body td {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-markdown-body th {
+  background: #1E293B !important;
+  color: #F8FAFC !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-markdown-body strong {
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-markdown-body a {
+  color: #60A5FA !important;
+}
+
+body.m3-dark-mode .m3-markdown-body code {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-markdown-body blockquote {
+  background: rgba(30, 58, 138, 0.32) !important;
+  border-left-color: #60A5FA !important;
+  color: #DBEAFE !important;
+}
+
+/* Fix Sub-Tab Filter Pills (.m3-studiokit-pill) in Class Prep & Admin Console (Screenshot 5ttel8q2pr258.png) */
+body.m3-dark-mode .m3-studiokit-subtabs {
+  background: #111827 !important;
+  border-color: #1E293B !important;
+}
+
+body.m3-dark-mode .m3-studiokit-pill {
+  background: #1E293B !important;
+  color: #E2E8F0 !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-studiokit-pill:hover {
+  background: #334155 !important;
+  color: #FFFFFF !important;
+  border-color: #60A5FA !important;
+}
+
+body.m3-dark-mode .m3-studiokit-pill.active {
+  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important;
+  color: #FFFFFF !important;
+  border-color: #60A5FA !important;
+}
+
+/* Fix Inline Light Bars & Labels in Tab 4 (#panel-studiokit) & Tab 2 (#panel-triage) */
+body.m3-dark-mode #studiokit-sec-agenda .m3-card > div[style*="background:#EFF6FF"],
+body.m3-dark-mode #studiokit-citations-list .m3-req-node-card[style*="background:#EFF6FF"] {
+  background: rgba(30, 58, 138, 0.35) !important;
+  border-color: #3B82F6 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #studiokit-sec-agenda label,
+body.m3-dark-mode #studiokit-gear-checklist-card label,
+body.m3-dark-mode #buddy-rotator-card label,
+body.m3-dark-mode #studiokit-citations-list .m3-req-node-card div {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode #studiokit-citations-list .m3-req-node-card strong {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #prereq-readiness-list label {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #prereq-readiness-list label strong {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #prereq-readiness-list label span {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #studiokit-feedback-card {
+  background: linear-gradient(135deg, #111827 0%, #1E293B 100%) !important;
+  border-color: #3B82F6 !important;
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode #studiokit-feedback-card > div:has(#feedback-req-verified-checkbox),
+body.m3-dark-mode #studiokit-feedback-card div[style*="background:#FFFFFF"] {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #studiokit-feedback-card label {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #btn-jump-to-bluecard-tracker,
+body.m3-dark-mode #btn-jump-to-counselor-rating {
+  background: rgba(180, 83, 9, 0.25) !important;
+  color: #FDE68A !important;
+  border-color: #F59E0B !important;
+}
+
+body.m3-dark-mode #bluecard-bulk-paste-box {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-req-node-card div {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-req-jump-action-btn {
+  background: #1E293B !important;
+  border-color: #3B82F6 !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-bluecard-table th {
+  background: #1E293B !important;
+  color: #F8FAFC !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-bluecard-table td {
+  background: #0F172A !important;
+  color: #E2E8F0 !important;
+  border-color: #1E293B !important;
 }
 
 body.m3-dark-mode .m3-finops-table th {
@@ -4130,10 +4754,265 @@ body.m3-dark-mode .m3-finops-table td {
   border-color: #1E293B !important;
 }
 
+/* 5. Super-User Admin Console (#panel-admin) in Dark Mode */
+body.m3-dark-mode .m3-admin-img-card {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-admin-img-card.selected {
+  border-color: #60A5FA !important;
+  background: #1E293B !important;
+}
+
+body.m3-dark-mode .m3-admin-img-card div {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #admin-inspector-preview-box {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode #admin-subtab-telemetry > div:first-child {
+  background: rgba(21, 128, 61, 0.22) !important;
+  border-color: #22C55E !important;
+  color: #DCFCE7 !important;
+}
+
+body.m3-dark-mode #admin-telemetry-kpi-grid .m3-card div {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #admin-circuit-breaker-cards > div {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #admin-circuit-breaker-cards > div div {
+  color: #CBD5E1 !important;
+}
+
 body.m3-dark-mode .m3-footer-banner-inner {
   background: #0F172A !important;
   border-top-color: #1E293B !important;
   color: #94A3B8 !important;
+}
+
+/* ============================================================================
+   6. ALL MODALS IN DARK MODE
+   ============================================================================ */
+
+/* Modal A: Visual Merit Badge Patch Gallery (#patch-gallery-modal) (Screenshot 18ukcv03akij0.png) */
+body.m3-dark-mode #patch-gallery-modal .m3-modal-dialog {
+  background: #0B1120 !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-sticky-header {
+  background: #0F172A !important;
+  border-bottom-color: #1E293B !important;
+}
+
+body.m3-dark-mode #patch-gallery-modal-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-sticky-header p {
+  color: #94A3B8 !important;
+}
+
+body.m3-dark-mode #patch-gallery-grid {
+  background: #0B1120 !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-card {
+  background: #1E293B !important;
+  border-color: #334155 !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-card:hover {
+  background: #26354D !important;
+  border-color: #60A5FA !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-card.eagle-patch {
+  background: linear-gradient(180deg, #1E293B 0%, #172033 100%) !important;
+  border-color: #F59E0B !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-card.active {
+  background: #1E3A8A !important;
+  border-color: #60A5FA !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-card .m3-patch-card-title,
+body.m3-dark-mode .m3-patch-gallery-card > div:nth-of-type(1) {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-patch-gallery-card .m3-patch-card-category,
+body.m3-dark-mode .m3-patch-gallery-card > div:nth-of-type(2) {
+  color: #94A3B8 !important;
+}
+
+/* Modal B: Gemini Flash Speaker Notes Polish Estimate (#ai-polish-finops-modal) */
+body.m3-dark-mode #ai-polish-finops-title {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #finops-modal-lead-text {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode #finops-card-single-slide {
+  background: rgba(88, 28, 135, 0.32) !important;
+  border-color: #A855F7 !important;
+}
+
+body.m3-dark-mode #finops-card-single-slide div {
+  color: #F3E8FF !important;
+}
+
+body.m3-dark-mode #finops-card-entire-deck {
+  background: rgba(180, 83, 9, 0.28) !important;
+  border-color: #F59E0B !important;
+}
+
+body.m3-dark-mode #finops-card-entire-deck div {
+  color: #FEF3C7 !important;
+}
+
+body.m3-dark-mode #ai-polish-finops-modal div:has(#finops-modal-force-refresh-checkbox) {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode #ai-polish-finops-modal label {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #ai-polish-finops-modal label span {
+  color: #CBD5E1 !important;
+}
+
+/* Modal C: Open in Google Slides — Account & Destination (#gslides-export-modal) */
+body.m3-dark-mode #gslides-export-modal-title {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #gslides-export-modal p {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode #gslides-export-modal div:has(#gslides-detected-account-email) {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #gslides-detected-account-email {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #gslides-export-modal div:has(#gslides-share-email-input) {
+  background: rgba(30, 58, 138, 0.32) !important;
+  border-color: #3B82F6 !important;
+  color: #DBEAFE !important;
+}
+
+body.m3-dark-mode #gslides-export-modal label[for="gslides-share-email-input"] {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #gslides-share-email-input {
+  background: #0F172A !important;
+  border-color: #60A5FA !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #btn-gslides-pick-google-account {
+  background: #1E293B !important;
+  border-color: #60A5FA !important;
+  color: #93C5FD !important;
+}
+
+/* Modal D: Merit Badge Image Catalog & AI Image Studio (#image-studio-modal) */
+body.m3-dark-mode #image-studio-modal-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #image-studio-modal-subtitle,
+body.m3-dark-mode #image-studio-modal p {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-image-catalog-card {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-image-catalog-card.active {
+  border-color: #22C55E !important;
+  background: rgba(21, 128, 61, 0.18) !important;
+}
+
+body.m3-dark-mode .m3-image-catalog-card div {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode #studio-tab-ai > div[style*="background:#EFF6FF"] {
+  background: rgba(30, 58, 138, 0.35) !important;
+  border-color: #3B82F6 !important;
+  color: #DBEAFE !important;
+}
+
+body.m3-dark-mode #studio-tab-ai > div[style*="background:#EFF6FF"] div {
+  color: #DBEAFE !important;
+}
+
+body.m3-dark-mode #studio-ai-cost-banner {
+  background: rgba(180, 83, 9, 0.25) !important;
+  border-color: #F59E0B !important;
+  color: #FEF3C7 !important;
+}
+
+body.m3-dark-mode #studio-ai-cost-banner div {
+  color: #FEF3C7 !important;
+}
+
+body.m3-dark-mode #studio-tab-ai label:has(#studio-ai-consent-checkbox) {
+  background: #0F172A !important;
+  border-color: #475569 !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #studio-upload-preview-wrap {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+/* Modals E, F, G: Keyboard Shortcuts, Insert Custom Slide & Admin Unlock */
+body.m3-dark-mode #shortcuts-modal-title,
+body.m3-dark-mode #insert-custom-slide-title,
+body.m3-dark-mode #admin-unlock-modal-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #insert-custom-slide-modal p,
+body.m3-dark-mode #admin-unlock-modal p {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-kbd {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #F8FAFC !important;
 }
 
 /* Pin the 16:9 PowerPoint Slide Canvas (#widescreen-slide-stage) to its true WYSIWYG Warm Cream palette */
@@ -4144,7 +5023,7 @@ body.m3-dark-mode #widescreen-slide-stage {
   color: #0F172A;
 }
 
-/* 2. Documentation Studio Modal (#docs-viewer-modal) in Dark Mode */
+/* 7. Documentation Studio Modal (#docs-viewer-modal) in Dark Mode (Screenshot 2965ciam38vgg.png) */
 body.m3-dark-mode .m3-docs-studio-dialog {
   background: #0F172A !important;
   border-color: #334155 !important;
@@ -4271,54 +5150,93 @@ body.m3-dark-mode .m3-docs-article-body {
 }
 
 body.m3-dark-mode .m3-docs-article-body h1 {
-  color: #93C5FD;
-  border-bottom-color: #1E293B;
+  color: #93C5FD !important;
+  border-bottom-color: #1E293B !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body h2 {
-  color: #F8FAFC;
-  border-bottom-color: #1E293B;
+  color: #F8FAFC !important;
+  border-bottom-color: #1E293B !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body h3 {
-  color: #60A5FA;
+  color: #60A5FA !important;
 }
 
-body.m3-dark-mode .m3-docs-article-body a {
-  color: #60A5FA;
+body.m3-dark-mode .m3-docs-article-body a,
+body.m3-dark-mode .m3-doc-inline-link {
+  color: #60A5FA !important;
+}
+
+body.m3-dark-mode .m3-docs-article-body a:hover,
+body.m3-dark-mode .m3-doc-inline-link:hover {
+  color: #93C5FD !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body code {
-  background: #1E293B;
-  color: #93C5FD;
+  background: #1E293B !important;
+  color: #93C5FD !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body pre {
-  background: #020617;
-  border: 1px solid #1E293B;
-  color: #F8FAFC;
+  background: #020617 !important;
+  border: 1px solid #1E293B !important;
+  color: #F8FAFC !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body pre code {
-  background: transparent;
-  color: inherit;
+  background: transparent !important;
+  color: inherit !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body th {
-  background: #1E293B;
-  color: #F8FAFC;
-  border-color: #334155;
+  background: #1E293B !important;
+  color: #F8FAFC !important;
+  border-color: #334155 !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body td {
-  border-color: #334155;
-  color: #E2E8F0;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body blockquote {
-  background: rgba(30, 58, 138, 0.32);
-  border-left-color: #60A5FA;
-  color: #DBEAFE;
+  background: rgba(30, 58, 138, 0.32) !important;
+  border-left-color: #60A5FA !important;
+  color: #DBEAFE !important;
+}
+
+body.m3-dark-mode .m3-doc-alert-badge {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-doc-alert.is-tip {
+  background: rgba(21, 128, 61, 0.25) !important;
+  border-left-color: #22C55E !important;
+  color: #DCFCE7 !important;
+}
+body.m3-dark-mode .m3-doc-alert.is-tip .m3-doc-alert-badge {
+  color: #86EFAC !important;
+}
+
+body.m3-dark-mode .m3-doc-alert.is-important {
+  background: rgba(109, 40, 217, 0.25) !important;
+  border-left-color: #A855F7 !important;
+  color: #F3E8FF !important;
+}
+body.m3-dark-mode .m3-doc-alert.is-important .m3-doc-alert-badge {
+  color: #D8B4FE !important;
+}
+
+body.m3-dark-mode .m3-doc-alert.is-warning,
+body.m3-dark-mode .m3-doc-alert.is-caution {
+  background: rgba(180, 83, 9, 0.25) !important;
+  border-left-color: #F59E0B !important;
+  color: #FEF3C7 !important;
+}
+body.m3-dark-mode .m3-doc-alert.is-warning .m3-doc-alert-badge,
+body.m3-dark-mode .m3-doc-alert.is-caution .m3-doc-alert-badge {
+  color: #FDE68A !important;
 }
 
 body.m3-dark-mode .m3-docs-article-body img {
@@ -4330,6 +5248,7 @@ body.m3-dark-mode .m3-docs-article-body .mermaid {
   background: #F8FAFC;
   border-color: #334155;
 }
+
 
 
 

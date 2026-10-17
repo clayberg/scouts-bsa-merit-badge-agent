@@ -2161,3 +2161,59 @@ def test_v29_plan11_modals_presenter_docs_viewer_and_readme_clean() -> None:
     assert "applyWorkbenchDarkMode" in ui_js
 
 
+def test_v30_plan13_comprehensive_dark_mode_and_click_to_zoom_lightbox() -> None:
+    """Verifies Plan 13: Counselor Teaching Notes dark mode contrast, Documentation Viewer sky-blue links & GitHub Alerts, Click-to-Zoom Lightbox modal, Visual Patch Gallery dark mode, and full-UI + modal dark mode adaptation while preserving the Warm Cream WYSIWYG slide stage."""
+    from pathlib import Path
+
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+
+    # 1. Counselor Teaching Notes Card (#slide-speaker-notes-card & #stage-presenter-notes) Dark Mode rules
+    assert "body.m3-dark-mode #slide-speaker-notes-card" in ui_css
+    assert "body.m3-dark-mode #stage-presenter-notes" in ui_css
+    assert "body.m3-dark-mode #stage-presenter-notes .m3-stage-cue-pill" in ui_css
+    assert "body.m3-dark-mode #stage-presenter-notes .m3-expected-answer-box" in ui_css
+
+    # 2. Documentation Viewer Links (.m3-doc-inline-link) & GitHub Alerts (.m3-doc-alert)
+    assert 'class="m3-doc-inline-link"' in ui_js
+    assert 'style="color:#003F87; font-weight:700; text-decoration:underline;"' not in ui_js
+    assert "body.m3-dark-mode .m3-doc-inline-link" in ui_css
+    assert "m3-doc-alert-badge" in ui_js
+    assert "body.m3-dark-mode .m3-doc-alert" in ui_css
+
+    # 3. Click-to-Zoom Lightbox Modal (#image-zoom-lightbox-modal) & zoomable figures/diagrams
+    assert 'id="image-zoom-lightbox-modal"' in ui_html
+    assert 'id="btn-lightbox-zoom-in"' in ui_html
+    assert 'id="btn-lightbox-zoom-out"' in ui_html
+    assert 'id="btn-lightbox-zoom-reset"' in ui_html
+    assert 'id="lightbox-zoom-scale-pill"' in ui_html
+    assert "openImageZoomLightbox" in ui_js
+    assert "applyLightboxZoomScale" in ui_js
+    assert "m3-doc-zoomable-figure" in ui_js
+    assert "m3-doc-zoom-pill" in ui_js
+    assert ".m3-lightbox-backdrop" in ui_css
+
+    # 4. Visual Merit Badge Patch Gallery (#patch-gallery-modal) Dark Mode rules
+    assert "m3-patch-card-title" in ui_js
+    assert "m3-patch-card-category" in ui_js
+    assert "body.m3-dark-mode .m3-patch-gallery-sticky-header" in ui_css
+    assert "body.m3-dark-mode .m3-patch-gallery-card" in ui_css
+    assert "body.m3-dark-mode .m3-patch-gallery-card .m3-patch-card-title" in ui_css
+
+    # 5. All Other Modals & UI Panels in Dark Mode while preserving #widescreen-slide-stage
+    assert "body.m3-dark-mode #ai-polish-finops-title" in ui_css
+    assert "body.m3-dark-mode #finops-card-single-slide" in ui_css
+    assert "body.m3-dark-mode #finops-card-entire-deck" in ui_css
+    assert "body.m3-dark-mode #gslides-export-modal-title" in ui_css
+    assert "body.m3-dark-mode #image-studio-modal-title" in ui_css
+    assert "body.m3-dark-mode .m3-image-catalog-card" in ui_css
+    assert "body.m3-dark-mode .m3-studiokit-pill" in ui_css
+    assert "body.m3-dark-mode .m3-markdown-body h1" in ui_css
+    assert "body.m3-dark-mode #local-grounding-toggle-card" in ui_css
+    assert "body.m3-dark-mode #counselor-profile-accordion" in ui_css
+    assert "body.m3-dark-mode #widescreen-slide-stage" in ui_css
+
+
+

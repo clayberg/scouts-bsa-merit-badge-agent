@@ -7469,10 +7469,10 @@ function renderPatchGalleryModal() {
       return `
         <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}">
           <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" loading="lazy" />
-          <div style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.2;">
+          <div class="m3-patch-card-title" style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.2;">
             ${b.is_eagle_required ? "⭐ " : ""}${escapeHtml(name)}
           </div>
-          <div style="font-size:0.65rem; color:#64748B;">${escapeHtml(b.category || "")}</div>
+          <div class="m3-patch-card-category" style="font-size:0.65rem; color:#64748B;">${escapeHtml(b.category || "")}</div>
         </div>
       `;
     })
@@ -8709,10 +8709,10 @@ function formatDocInlineMarkdown(text, currentDocRelPath = "") {
     } else if (src.startsWith("./images/")) {
       src = `/docs/${src.slice(2)}`;
     }
-    return `<img src="${src}" alt="${alt}" loading="lazy" />`;
+    return `<figure class="m3-doc-zoomable-figure" data-zoom-src="${src}" data-zoom-alt="${alt}" title="Click to zoom screenshot in full-screen lightbox"><img src="${src}" alt="${alt}" class="m3-doc-zoomable-img" loading="lazy" /><span class="m3-doc-zoom-pill">🔍 Click to zoom</span></figure>`;
   });
 
-  // Links [label](href)
+  // Links [label](href) — use CSS class .m3-doc-inline-link so Light Mode (#003F87) & Dark Mode (#60A5FA) adapt cleanly
   s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label, rawHref) => {
     const href = rawHref.trim();
     const cleanTarget = href.split("#")[0].replace(/^\.\//, "").replace(/^\.\.\//, "").toLowerCase();
@@ -8720,12 +8720,12 @@ function formatDocInlineMarkdown(text, currentDocRelPath = "") {
       DOC_PATH_TO_ID_MAP[cleanTarget] ||
       (currentDocRelPath.startsWith("docs/") && DOC_PATH_TO_ID_MAP[`docs/${cleanTarget}`]);
     if (mappedDocId) {
-      return `<a href="#doc-${mappedDocId}" data-internal-doc-id="${mappedDocId}" style="color:#003F87; font-weight:700; text-decoration:underline;">${label}</a>`;
+      return `<a href="#doc-${mappedDocId}" class="m3-doc-inline-link is-internal-doc" data-internal-doc-id="${mappedDocId}">${label}</a>`;
     }
     if (href.startsWith("#")) {
-      return `<a href="${href}" style="color:#003F87; font-weight:600;">${label}</a>`;
+      return `<a href="${href}" class="m3-doc-inline-link is-anchor-link">${label}</a>`;
     }
-    return `<a href="${href}" target="_blank" rel="noopener noreferrer" style="color:#003F87; font-weight:600;">${label}</a>`;
+    return `<a href="${href}" class="m3-doc-inline-link" target="_blank" rel="noopener noreferrer">${label}</a>`;
   });
 
   // Bold **text**
@@ -8765,6 +8765,14 @@ function renderDocumentationMarkdownToHtml(md, currentDocRelPath = "") {
     }
   };
 
+  const alertMetaMap = {
+    NOTE: { icon: "ℹ️", label: "NOTE", cls: "is-note" },
+    TIP: { icon: "💡", label: "TIP", cls: "is-tip" },
+    IMPORTANT: { icon: "📌", label: "IMPORTANT", cls: "is-important" },
+    WARNING: { icon: "⚠️", label: "WARNING", cls: "is-warning" },
+    CAUTION: { icon: "🛑", label: "CAUTION", cls: "is-caution" },
+  };
+
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i];
     const trimmed = raw.trim();
@@ -8779,7 +8787,11 @@ function renderDocumentationMarkdownToHtml(md, currentDocRelPath = "") {
       } else {
         const blockContent = codeFenceLines.join("\n");
         if (codeFenceLang === "mermaid") {
-          out.push(`<div class="mermaid">${escapeHtml(blockContent)}</div>`);
+          out.push(
+            `<div class="m3-doc-mermaid-wrap" title="Click diagram to zoom in full-screen lightbox"><div class="mermaid">${escapeHtml(
+              blockContent
+            )}</div><span class="m3-doc-zoom-pill">🔍 Click diagram to zoom</span></div>`
+          );
         } else {
           out.push(`<pre><code class="lang-${escapeHtml(codeFenceLang)}">${escapeHtml(blockContent)}</code></pre>`);
         }
@@ -8805,7 +8817,7 @@ function renderDocumentationMarkdownToHtml(md, currentDocRelPath = "") {
     if (/^!\[([^\]]*)\]\(([^)]+)\)$/.test(trimmed)) {
       closeLists();
       closeTable();
-      out.push(`<div>${formatDocInlineMarkdown(trimmed, currentDocRelPath)}</div>`);
+      out.push(`<div class="m3-doc-img-block">${formatDocInlineMarkdown(trimmed, currentDocRelPath)}</div>`);
       continue;
     }
 
@@ -8843,30 +8855,52 @@ function renderDocumentationMarkdownToHtml(md, currentDocRelPath = "") {
     if (trimmed.startsWith("### ")) {
       closeLists();
       const rawTitle = trimmed.slice(4).trim();
-      const id = `doc-sec-${slugifyDocHeading(rawTitle)}-${headings.length}`;
-      headings.push({ level: 3, text: rawTitle.replace(/\*\*/g, "").replace(/`/g, ""), id });
-      out.push(`<h3 id="${id}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h3>`);
+      const slug = slugifyDocHeading(rawTitle);
+      const id = `doc-sec-${slug}-${headings.length}`;
+      headings.push({ level: 3, text: rawTitle.replace(/\*\*/g, "").replace(/`/g, ""), id, slug });
+      out.push(`<h3 id="${id}" data-heading-slug="${slug}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h3>`);
       continue;
     }
     if (trimmed.startsWith("## ")) {
       closeLists();
       const rawTitle = trimmed.slice(3).trim();
-      const id = `doc-sec-${slugifyDocHeading(rawTitle)}-${headings.length}`;
-      headings.push({ level: 2, text: rawTitle.replace(/\*\*/g, "").replace(/`/g, ""), id });
-      out.push(`<h2 id="${id}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h2>`);
+      const slug = slugifyDocHeading(rawTitle);
+      const id = `doc-sec-${slug}-${headings.length}`;
+      headings.push({ level: 2, text: rawTitle.replace(/\*\*/g, "").replace(/`/g, ""), id, slug });
+      out.push(`<h2 id="${id}" data-heading-slug="${slug}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h2>`);
       continue;
     }
     if (trimmed.startsWith("# ")) {
       closeLists();
       const rawTitle = trimmed.slice(2).trim();
-      const id = `doc-sec-${slugifyDocHeading(rawTitle)}-${headings.length}`;
-      out.push(`<h1 id="${id}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h1>`);
+      const slug = slugifyDocHeading(rawTitle);
+      const id = `doc-sec-${slug}-${headings.length}`;
+      out.push(`<h1 id="${id}" data-heading-slug="${slug}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h1>`);
       continue;
     }
 
-    if (trimmed.startsWith("> ")) {
+    if (trimmed.startsWith(">")) {
       closeLists();
-      out.push(`<blockquote>${formatDocInlineMarkdown(trimmed.slice(2), currentDocRelPath)}</blockquote>`);
+      const quoteLines = [trimmed.replace(/^>\s?/, "")];
+      while (i + 1 < lines.length && lines[i + 1].trim().startsWith(">")) {
+        i += 1;
+        quoteLines.push(lines[i].trim().replace(/^>\s?/, ""));
+      }
+      const combinedQuote = quoteLines.join(" ").trim();
+      const alertMatch = combinedQuote.match(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*(.*)$/i);
+      if (alertMatch) {
+        const kind = alertMatch[1].toUpperCase();
+        const bodyPart = alertMatch[2] || "";
+        const meta = alertMetaMap[kind] || alertMetaMap.NOTE;
+        out.push(
+          `<blockquote class="m3-doc-alert ${meta.cls}"><span class="m3-doc-alert-badge">${meta.icon} ${meta.label}</span> <span>${formatDocInlineMarkdown(
+            bodyPart,
+            currentDocRelPath
+          )}</span></blockquote>`
+        );
+      } else {
+        out.push(`<blockquote>${formatDocInlineMarkdown(combinedQuote, currentDocRelPath)}</blockquote>`);
+      }
       continue;
     }
 
@@ -9019,6 +9053,52 @@ function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
     });
   });
 
+  // Bind in-article Table of Contents anchor links (e.g. #1-getting-started-in-60-seconds) so they smooth-scroll inside #docs-viewer-scroll-container
+  bodyEl.querySelectorAll('a[href^="#"]:not([data-internal-doc-id])').forEach((a) => {
+    a.addEventListener("click", (ev) => {
+      const rawHash = (a.getAttribute("href") || "").slice(1);
+      if (!rawHash) return;
+      const slug = slugifyDocHeading(rawHash);
+      const targetEl =
+        document.getElementById(rawHash) ||
+        bodyEl.querySelector(`[data-heading-slug="${slug}"]`) ||
+        bodyEl.querySelector(`[id^="doc-sec-${slug}"]`);
+      if (targetEl) {
+        ev.preventDefault();
+        targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+
+  // Bind Click-to-Zoom Lightbox on all embedded screenshots (img / figure) and Mermaid diagrams
+  bodyEl.querySelectorAll(".m3-doc-zoomable-figure, .m3-doc-article-body img, img").forEach((el) => {
+    if (el.dataset.zoomBound === "1") return;
+    el.dataset.zoomBound = "1";
+    el.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const imgNode = el.tagName === "IMG" ? el : el.querySelector("img");
+      const src = imgNode?.getAttribute("src") || el.getAttribute("data-zoom-src") || "";
+      const alt = imgNode?.getAttribute("alt") || el.getAttribute("data-zoom-alt") || "Embedded Documentation Screenshot";
+      if (src) {
+        openImageZoomLightbox({ src, title: alt });
+      }
+    });
+  });
+
+  bodyEl.querySelectorAll(".m3-doc-mermaid-wrap, .mermaid").forEach((wrapEl) => {
+    if (wrapEl.dataset.zoomBound === "1") return;
+    wrapEl.dataset.zoomBound = "1";
+    wrapEl.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const mNode = wrapEl.classList.contains("mermaid") ? wrapEl : wrapEl.querySelector(".mermaid");
+      if (!mNode) return;
+      openImageZoomLightbox({
+        svgHtml: mNode.innerHTML,
+        title: "Architecture & Workflow Diagram (Mermaid)",
+      });
+    });
+  });
+
   // Render Table of Contents in left rail
   if (tocEl) {
     if (headings.length === 0) {
@@ -9070,6 +9150,46 @@ function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
   }
 }
 
+state.lightboxZoomScale = 1.0;
+
+function applyLightboxZoomScale(nextScale) {
+  const clamped = Math.min(3.0, Math.max(0.5, Number(nextScale) || 1.0));
+  state.lightboxZoomScale = Math.round(clamped * 100) / 100;
+  const innerEl = document.getElementById("lightbox-content-inner");
+  const scalePill = document.getElementById("lightbox-zoom-scale-pill");
+  if (innerEl) {
+    innerEl.style.transform = `scale(${state.lightboxZoomScale})`;
+  }
+  if (scalePill) {
+    scalePill.textContent = `${Math.round(state.lightboxZoomScale * 100)}%`;
+  }
+}
+
+function openImageZoomLightbox({ src = "", title = "Screenshot / Diagram Preview", svgHtml = "" } = {}) {
+  const modal = document.getElementById("image-zoom-lightbox-modal");
+  const titleEl = document.getElementById("lightbox-modal-title");
+  const innerEl = document.getElementById("lightbox-content-inner");
+  if (!modal || !innerEl) return;
+
+  if (titleEl) {
+    titleEl.textContent = title || "Screenshot / Diagram Preview";
+  }
+  if (svgHtml) {
+    innerEl.innerHTML = `<div class="m3-lightbox-mermaid-card">${svgHtml}</div>`;
+  } else if (src) {
+    innerEl.innerHTML = `<img src="${escapeHtml(src)}" alt="${escapeHtml(title)}" class="m3-lightbox-zoomed-img" />`;
+  }
+  applyLightboxZoomScale(1.0);
+  modal.classList.remove("hidden");
+  modal.classList.add("open");
+}
+
+function closeImageZoomLightbox() {
+  const modal = document.getElementById("image-zoom-lightbox-modal");
+  modal?.classList.remove("open");
+  modal?.classList.add("hidden");
+}
+
 async function openDocumentationViewerModal(initialDocId = null) {
   const modal = document.getElementById("docs-viewer-modal");
   if (!modal) return;
@@ -9110,6 +9230,51 @@ function bindDocumentationViewerModal() {
   });
   modal?.addEventListener("click", (ev) => {
     if (ev.target === modal) closeModal();
+  });
+
+  // Bind Click-to-Zoom Lightbox modal controls
+  const lbModal = document.getElementById("image-zoom-lightbox-modal");
+  const lbStage = document.getElementById("lightbox-canvas-stage");
+  document.getElementById("btn-close-lightbox-modal")?.addEventListener("click", closeImageZoomLightbox);
+  document.getElementById("btn-lightbox-zoom-in")?.addEventListener("click", () => {
+    applyLightboxZoomScale(state.lightboxZoomScale + 0.25);
+  });
+  document.getElementById("btn-lightbox-zoom-out")?.addEventListener("click", () => {
+    applyLightboxZoomScale(state.lightboxZoomScale - 0.25);
+  });
+  document.getElementById("btn-lightbox-zoom-reset")?.addEventListener("click", () => {
+    applyLightboxZoomScale(1.0);
+  });
+  lbModal?.addEventListener("click", (ev) => {
+    if (ev.target === lbModal || ev.target === lbStage) {
+      closeImageZoomLightbox();
+    }
+  });
+  lbStage?.addEventListener(
+    "wheel",
+    (ev) => {
+      if (ev.ctrlKey || ev.metaKey) {
+        ev.preventDefault();
+        applyLightboxZoomScale(state.lightboxZoomScale + (ev.deltaY < 0 ? 0.15 : -0.15));
+      }
+    },
+    { passive: false }
+  );
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape" && lbModal && !lbModal.classList.contains("hidden")) {
+      ev.stopPropagation();
+      closeImageZoomLightbox();
+    }
+  });
+
+  // Also allow clicking the main slide diagram (#stage-diagram-img) to open the Click-to-Zoom Lightbox
+  const stageImg = document.getElementById("stage-diagram-img");
+  stageImg?.addEventListener("click", () => {
+    const src = stageImg.getAttribute("src") || "";
+    const alt = stageImg.getAttribute("alt") || document.getElementById("stage-diagram-caption")?.textContent || "Slide Visual";
+    if (src) {
+      openImageZoomLightbox({ src, title: alt });
+    }
   });
 
   document.getElementById("btn-docs-select-user-guide")?.addEventListener("click", () => {
