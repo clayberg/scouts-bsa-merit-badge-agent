@@ -55,6 +55,15 @@
       <button
         type="button"
         class="m3-btn m3-btn-outlined"
+        id="btn-open-docs-viewer"
+        title="Open User &amp; Engineering Documentation Viewer (Shortcut: D)"
+        style="padding:7px 11px; font-size:0.78rem; font-weight:700; color:#003F87; border-color:#93C5FD; background:#F0F7FF;"
+      >
+        📘 Documentation
+      </button>
+      <button
+        type="button"
+        class="m3-btn m3-btn-outlined"
         id="btn-keyboard-shortcuts"
         title="View Keyboard Shortcuts Cheat-Sheet (Shortcut: ?)"
         style="padding:7px 11px; font-size:0.78rem;"
@@ -682,30 +691,32 @@
           <!-- IN-STAGE SPLIT-SCREEN PRESENTER CONSOLE DOCK (WORKS IN BOTH PREVIEW & FULLSCREEN MODES) -->
           <aside class="m3-presenter-console-dock hidden" id="stage-presenter-console-dock" aria-label="In-Stage Split-Screen Presenter Console">
             <div class="m3-pc-dock-header">
-              <div>
-                <div style="font-size:0.70rem; font-weight:800; color:#FDB913; text-transform:uppercase; letter-spacing:0.05em;">
-                  🪟 Split-Screen Presenter View (Shortcut: P)
-                </div>
-                <div id="pc-dock-slide-meta" style="font-size:0.78rem; color:#CBD5E1; font-weight:700; margin-top:2px;">
-                  Slide 1 &bull; Cover
-                </div>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span class="m3-pc-badge-pill">PRESENTER VIEW</span>
+                <span class="m3-pc-dock-timer" id="pc-dock-timer" title="Click to Start/Pause Session Timer">04:18</span>
               </div>
-              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-                <span class="m3-pc-dock-timer" id="pc-dock-timer" title="Click to Start/Pause Session Timer">⏱️ 45:00</span>
+              <div style="display:flex; align-items:center; gap:5px;">
                 <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-dec" title="Decrease Teleprompter Font Size">A−</button>
                 <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-inc" title="Increase Teleprompter Font Size">A+</button>
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-popout-window" title="Pop Out Speaker Notes to a 2nd Physical Monitor">↗ 2nd Monitor</button>
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-close-console" title="Exit Presenter View (Shortcut: P)">✕</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-popout-window" title="Pop Out Speaker Notes to a Floating 2nd Monitor Window">↗ 2nd Monitor</button>
+                <button type="button" class="m3-pc-mini-btn m3-pc-close-btn" id="btn-pc-close-console" title="Exit Presenter View (Shortcut: P)">✕</button>
               </div>
             </div>
+
+            <div class="m3-pc-upnext-card" id="pc-dock-upnext-card">
+              <div style="min-width:0; flex:1;">
+                <div class="m3-pc-upnext-kicker" id="pc-dock-slide-meta">UP NEXT &bull; SLIDE 2 OF 82</div>
+                <div class="m3-pc-upnext-title" id="pc-dock-next-slide">Requirement Overview &amp; Local Grounding</div>
+              </div>
+              <span class="m3-pc-pacing-pill" id="pc-dock-pacing-badge">⏱ ~2 min</span>
+            </div>
+
+            <div class="m3-pc-nav-grid">
+              <button type="button" class="m3-pc-nav-btn m3-pc-nav-prev" id="btn-pc-prev-slide">◀ Prev Slide</button>
+              <button type="button" class="m3-pc-nav-btn m3-pc-nav-next" id="btn-pc-next-slide">Next Slide ▶</button>
+            </div>
+
             <div class="m3-pc-dock-notes" id="pc-dock-notes-body"></div>
-            <div class="m3-pc-dock-footer">
-              <div class="m3-pc-dock-next" id="pc-dock-next-slide">Next: Overview Slide</div>
-              <div style="display:flex; align-items:center; gap:6px;">
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-prev-slide">◀ Prev</button>
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-next-slide">Next ▶</button>
-              </div>
-            </div>
           </aside>
           </div>
 
@@ -1923,6 +1934,8 @@
       <div class="m3-footer-banner-text">
         <span>Created by <strong>Eric Clayberg - Troop 19, Middleton MA</strong> with help from <strong>Google Gemini</strong> &bull; </span>
         <a href="https://www.linkedin.com/in/clayberg" target="_blank" rel="noopener noreferrer" class="m3-footer-link">LinkedIn Profile</a>
+        <span> &bull; </span>
+        <a href="https://github.com/clayberg/scouts-bsa-merit-badge-agent" target="_blank" rel="noopener noreferrer" class="m3-footer-link" id="footer-github-repo-link" title="Open Scouts BSA Merit Badge Counselor Workbench GitHub Repository">GitHub</a>
         <span> &bull; Suggestions &amp; Feedback: </span>
         <a
           id="btn-suggestions-feedback"
@@ -1962,9 +1975,10 @@
         <kbd class="m3-kbd">Space</kbd><span>Reveal Quiz Answer Card on Active Slide</span>
         <kbd class="m3-kbd">N</kbd><span>Toggle Counselor Speaker Notes / Fullscreen Teleprompter</span>
         <kbd class="m3-kbd">F</kbd><span>Toggle Fullscreen Projector Mode</span>
-        <kbd class="m3-kbd">P</kbd><span>Open Dual-Screen Presenter Speaker Notes Window</span>
+        <kbd class="m3-kbd">P</kbd><span>Open Split-Screen Presenter Console &amp; 2nd-Monitor Notes</span>
         <kbd class="m3-kbd">Q</kbd><span>Toggle Classroom Quiz &amp; Scenario Answer Reveal Mode</span>
         <kbd class="m3-kbd">T</kbd><span>Start / Pause Classroom Session Countdown Timer</span>
+        <kbd class="m3-kbd">D</kbd><span>Open / Close User &amp; Engineering Documentation Viewer</span>
         <kbd class="m3-kbd">?</kbd><span>Open / Close Keyboard Shortcuts Cheat-Sheet</span>
         <kbd class="m3-kbd">Ctrl + Shift + A</kbd><span>Open Super-User Admin Console</span>
       </div>
@@ -2072,68 +2086,82 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
   <!-- MODAL: FINOPS COST ESTIMATE GATE FOR AI POLISH SLIDE & POLISH ENTIRE DECK (REQUEST #5) -->
   <div class="m3-modal-backdrop hidden" id="ai-polish-finops-modal" role="dialog" aria-modal="true" aria-labelledby="ai-polish-finops-title">
-    <div class="m3-modal-dialog" style="max-width:640px; width:94%; padding:24px;">
-      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; border-bottom:2px solid #E2E8F0; padding-bottom:10px; margin-bottom:14px;">
+    <div class="m3-modal-dialog" style="max-width:660px; width:94%; padding:24px; border-radius:20px;">
+      <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; border-bottom:1px solid #E2E8F0; padding-bottom:12px; margin-bottom:14px;">
         <div>
-          <span class="m3-chip m3-chip-gold" style="font-size:0.70rem; margin-bottom:4px; display:inline-block;">💰 FINOPS TOKEN &amp; COST TRANSPARENCY GATE</span>
-          <h3 id="ai-polish-finops-title" style="font-family:'Roboto Slab',serif; font-size:1.12rem; font-weight:800; color:#003F87; margin:0;">
-            ✨ Gemini Flash Speaker Notes Polish — Cost Estimate
+          <div style="font-size:0.70rem; font-weight:800; color:#6D28D9; text-transform:uppercase; letter-spacing:0.06em;">
+            FINOPS COST TRANSPARENCY GATE
+          </div>
+          <h3 id="ai-polish-finops-title" style="font-size:1.18rem; font-weight:800; color:#0F172A; margin:4px 0 0 0;">
+            ✨ Gemini Flash Speaker Notes Polish Estimate
           </h3>
         </div>
-        <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-ai-polish-finops" style="padding:4px 10px; font-size:0.80rem;">✕</button>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="background:#F3E8FF; color:#6D28D9; border:1px solid #D8B4FE; padding:4px 12px; border-radius:999px; font-size:0.75rem; font-weight:800;">
+            gemini-2.5-flash
+          </span>
+          <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-ai-polish-finops" style="padding:4px 10px; font-size:0.80rem;">✕</button>
+        </div>
       </div>
-      <p style="font-size:0.82rem; color:#334155; margin:0 0 14px; line-height:1.45;">
-        Compare the estimated <strong>Gemini Flash</strong> token usage and cost for polishing your current slide versus batch-polishing the entire teaching deck. Slides already polished in the SQLite cache cost <strong>$0.00</strong> unless you force a re-polish.
+
+      <p id="finops-modal-lead-text" style="font-size:0.83rem; color:#334155; margin:0 0 14px; line-height:1.45;">
+        Compare the estimated Vertex AI token usage and cost for polishing the current slide versus batch-polishing all <strong id="finops-lead-slide-count">82 slides</strong> in the <strong id="finops-lead-badge-name">First Aid</strong> deck:
       </p>
 
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:12px; margin-bottom:14px;">
-        <!-- Single Slide Cost Card -->
-        <div id="finops-card-single-slide" style="border:2px solid #CBD5E1; border-radius:12px; padding:14px; background:#F8FAFC;">
-          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
-            <span style="font-size:0.76rem; font-weight:800; color:#003F87; text-transform:uppercase;">✨ AI Polish Current Slide</span>
-            <span class="m3-chip" id="finops-single-cache-badge" style="font-size:0.68rem; background:#E0F2FE; color:#0369A1;">1 Slide</span>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(255px, 1fr)); gap:12px; margin-bottom:14px;">
+        <!-- Option 1: Single Slide Cost Card (Lavender Theme) -->
+        <div id="finops-card-single-slide" style="background:#FAF5FF; border:1.5px solid #D8B4FE; border-radius:14px; padding:14px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
+            <span style="font-size:0.72rem; font-weight:800; color:#6D28D9; text-transform:uppercase; letter-spacing:0.03em;">
+              OPTION 1 &bull; CURRENT SLIDE ONLY
+            </span>
+            <span class="m3-chip" id="finops-single-cache-badge" style="font-size:0.68rem; background:#EDE9FE; color:#5B21B6; font-weight:700;">1 Slide</span>
           </div>
-          <div id="finops-single-cost-value" style="font-family:'Roboto Slab',serif; font-size:1.45rem; font-weight:800; color:#0F172A; margin:4px 0;">
-            ~$0.0008 <span style="font-size:0.78rem; font-weight:600; color:#475569;">(&lt; $0.001 USD)</span>
+          <div id="finops-single-cost-value" style="font-size:1.50rem; font-weight:800; color:#3B0764; margin:4px 0;">
+            ~$0.0008 <span style="font-size:0.78rem; font-weight:700; color:#6D28D9;">(&lt; 0.1&cent;)</span>
           </div>
-          <div id="finops-single-token-meta" style="font-size:0.75rem; color:#475569; line-height:1.4;">
-            ~450 input + ~280 output tokens &bull; 1 Gemini Flash call (~1.5s)
+          <div id="finops-single-token-meta" style="font-size:0.75rem; color:#475569; line-height:1.5;">
+            &bull; 1 Gemini Flash call (~450 in / ~280 out tokens)<br/>
+            &bull; Latency: ~1.2 seconds
           </div>
         </div>
 
-        <!-- Full Deck Batch Cost Card -->
-        <div id="finops-card-entire-deck" style="border:2px solid #CBD5E1; border-radius:12px; padding:14px; background:#FFFBEB;">
-          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
-            <span style="font-size:0.76rem; font-weight:800; color:#92400E; text-transform:uppercase;">✨ Polish Entire Deck</span>
+        <!-- Option 2: Full Deck Batch Cost Card (Amber Theme) -->
+        <div id="finops-card-entire-deck" style="background:#FFFBEB; border:1.5px solid #FBBF24; border-radius:14px; padding:14px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
+            <span style="font-size:0.72rem; font-weight:800; color:#B45309; text-transform:uppercase; letter-spacing:0.03em;" id="finops-deck-option-kicker">
+              OPTION 2 &bull; ENTIRE 82-SLIDE DECK
+            </span>
             <span class="m3-chip" id="finops-deck-slide-count-badge" style="font-size:0.68rem; background:#FEF3C7; color:#92400E; font-weight:700;">82 Slides</span>
           </div>
-          <div id="finops-deck-cost-value" style="font-family:'Roboto Slab',serif; font-size:1.45rem; font-weight:800; color:#78350F; margin:4px 0;">
-            ~$0.0685 <span style="font-size:0.78rem; font-weight:600; color:#92400E;">USD</span>
+          <div id="finops-deck-cost-value" style="font-size:1.50rem; font-weight:800; color:#78350F; margin:4px 0;">
+            ~$0.0685 <span style="font-size:0.78rem; font-weight:700; color:#B45309;">(82 slides)</span>
           </div>
-          <div id="finops-deck-token-meta" style="font-size:0.75rem; color:#78350F; line-height:1.4;">
-            82 uncached slides &times; $0.000835 / slide &bull; Parallel batch (8x concurrency)
+          <div id="finops-deck-token-meta" style="font-size:0.75rem; color:#475569; line-height:1.5;">
+            &bull; Cached slides: <strong>$0.00</strong> (SQLite hit)<br/>
+            &bull; Parallel batch: <code>Semaphore(6)</code>
           </div>
         </div>
       </div>
 
-      <div style="background:#F1F5F9; border-radius:10px; padding:10px 12px; margin-bottom:14px; display:flex; flex-direction:column; gap:8px; font-size:0.80rem; color:#1E293B;">
+      <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:10px 14px; margin-bottom:14px; display:flex; flex-direction:column; gap:7px; font-size:0.79rem; color:#1E293B;">
         <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-weight:600;">
-          <input type="checkbox" id="chk-finops-force-repolish" style="width:16px; height:16px; accent-color:#003F87;" />
+          <input type="checkbox" id="chk-finops-force-repolish" style="width:16px; height:16px; accent-color:#4338CA;" />
           <span>Force fresh Gemini Flash generation even for slides already cached in SQLite</span>
         </label>
         <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-weight:600;">
-          <input type="checkbox" id="chk-finops-dont-ask-session" checked style="width:16px; height:16px; accent-color:#003F87;" />
+          <input type="checkbox" id="chk-finops-dont-ask-session" checked style="width:16px; height:16px; accent-color:#4338CA;" />
           <span>Don't show this FinOps cost popup again during this browser session</span>
         </label>
       </div>
 
-      <div style="display:flex; align-items:center; justify-content:flex-end; gap:10px; flex-wrap:wrap;">
-        <button type="button" class="m3-btn m3-btn-outlined" id="btn-cancel-ai-polish-finops">Cancel</button>
-        <button type="button" class="m3-btn m3-btn-tonal" id="btn-confirm-polish-single-slide" style="font-weight:800;">
-          ✨ Polish Current Slide (~$0.0008)
+      <div class="m3-finops-modal-actions-row">
+        <button type="button" class="m3-btn m3-btn-outlined" id="btn-cancel-ai-polish-finops" style="height:40px; padding:0 16px; font-size:0.80rem;">Cancel</button>
+        <button type="button" class="m3-finops-pill-btn-single" id="btn-confirm-polish-single-slide">
+          ✨ Polish This Slide (~$0.0008)
         </button>
-        <button type="button" class="m3-btn m3-btn-filled" id="btn-confirm-polish-entire-deck" style="font-weight:800; background:linear-gradient(135deg, #003F87 0%, #1E40AF 100%);">
-          ✨ Polish Entire Deck (~$0.068)
+        <button type="button" class="m3-finops-pill-btn-deck" id="btn-confirm-polish-entire-deck">
+          ✨ Polish All 82 Slides (~$0.0685)
         </button>
       </div>
     </div>
@@ -2141,73 +2169,186 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
   <!-- MODAL: GOOGLE SLIDES ACCOUNT CHOOSER & NEW TAB EXPORT (REQUEST #7) -->
   <div class="m3-modal-backdrop hidden" id="gslides-export-modal" role="dialog" aria-modal="true" aria-labelledby="gslides-export-modal-title">
-    <div class="m3-modal-dialog" style="max-width:600px; width:94%; padding:24px;">
-      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; border-bottom:2px solid #E2E8F0; padding-bottom:10px; margin-bottom:14px;">
+    <div class="m3-modal-dialog" style="max-width:640px; width:94%; padding:24px; border-radius:20px;">
+      <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; border-bottom:1px solid #E2E8F0; padding-bottom:12px; margin-bottom:14px;">
         <div>
-          <span class="m3-chip m3-chip-gold" style="font-size:0.70rem; margin-bottom:4px; display:inline-block;">🟨 GOOGLE SLIDES EXPORT &amp; ACCOUNT SELECTION</span>
-          <h3 id="gslides-export-modal-title" style="font-family:'Roboto Slab',serif; font-size:1.12rem; font-weight:800; color:#003F87; margin:0;">
-            Choose Where to Create &amp; Open Your Google Slide Deck
+          <div style="font-size:0.70rem; font-weight:800; color:#B45309; text-transform:uppercase; letter-spacing:0.06em;">
+            DIRECT GOOGLE DRIVE &amp; SLIDES CONVERSION
+          </div>
+          <h3 id="gslides-export-modal-title" style="font-size:1.18rem; font-weight:800; color:#0F172A; margin:4px 0 0 0;">
+            🟨 Open in Google Slides — Account &amp; Destination
           </h3>
         </div>
-        <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-gslides-export-modal" style="padding:4px 10px; font-size:0.80rem;">✕</button>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="background:#FEF3C7; color:#92400E; border:1px solid #FCD34D; padding:4px 12px; border-radius:999px; font-size:0.73rem; font-weight:800;">
+            NEW TAB ↗
+          </span>
+          <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-gslides-export-modal" style="padding:4px 10px; font-size:0.80rem;">✕</button>
+        </div>
       </div>
 
-      <p style="font-size:0.82rem; color:#334155; margin:0 0 12px; line-height:1.45;">
-        Select which Google account should receive your converted Google Slides deck. As soon as conversion finishes (~4 seconds), the presentation will open automatically in a <strong>new browser tab</strong>.
-      </p>
-
-      <!-- Option 1: Active Workstation / Authenticated Google Account -->
-      <div style="border:2px solid #003F87; border-radius:12px; padding:14px; background:#F0F7FF; margin-bottom:12px;">
-        <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:6px;">
-          <div style="font-size:0.82rem; font-weight:800; color:#003F87;">
-            1. Direct Conversion via Active Google Account
-          </div>
-          <span class="m3-chip" id="gslides-detected-account-chip" style="font-size:0.74rem; background:#DBEAFE; color:#1E3A8A; font-weight:700;">
-            Checking account...
+      <!-- Box 1: Active Workstation / Cloud Google Drive Account -->
+      <div style="background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:14px; margin-bottom:12px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap;">
+          <span style="font-size:0.78rem; font-weight:800; color:#003F87;">
+            1. Active Workstation Google Drive Account
+          </span>
+          <span id="gslides-detected-auth-mode-badge" style="font-size:0.68rem; font-weight:800; background:#DCFCE7; color:#166534; padding:3px 9px; border-radius:999px;">
+            GOOGLE DRIVE CLI + ADC
           </span>
         </div>
-        <div style="font-size:0.78rem; color:#334155; margin-bottom:10px;">
-          Converts the deck directly into Google Slides in <strong id="gslides-detected-account-label">your active workstation Google Drive</strong> and opens it in a new browser tab.
+        <div id="gslides-detected-account-email" style="font-size:0.96rem; font-weight:800; color:#0F172A; margin-top:6px;">
+          clayberg@google.com
         </div>
-        <div class="m3-field-group" style="margin-bottom:10px;">
-          <label class="m3-field-label" for="gslides-share-email-input" style="font-size:0.76rem;">
-            Optional: Also share editor access &amp; open under another Google Account (e.g. your <code>@gmail.com</code> or other Google email):
-          </label>
-          <input
-            type="email"
-            class="m3-input"
-            id="gslides-share-email-input"
-            placeholder="e.g. yourname@gmail.com (leave blank to open in active account)"
-            style="font-size:0.82rem; padding:7px 10px;"
-          />
+        <div style="font-size:0.77rem; color:#475569; margin-top:4px; line-height:1.4;">
+          Uploads and converts your <code>.pptx</code> directly into a native Google Slides deck in <strong id="gslides-detected-account-label">My Drive</strong> and opens it in a new tab.
         </div>
-        <button type="button" class="m3-btn m3-btn-filled" id="btn-gslides-create-and-open-tab" style="width:100%; justify-content:center; font-weight:800; padding:10px 16px;">
-          🟨 Create Google Slide Deck &amp; Open in New Tab ↗
+      </div>
+
+      <!-- Box 2: Share / Open with Personal Gmail or Secondary Account (Optional) -->
+      <div style="background:#EFF6FF; border:1.5px solid #BFDBFE; border-radius:14px; padding:14px; margin-bottom:14px;">
+        <label for="gslides-share-email-input" style="display:block; font-size:0.78rem; font-weight:800; color:#1E40AF; margin-bottom:6px;">
+          2. Share / Open with Personal Gmail or Secondary Account (Optional)
+        </label>
+        <input
+          type="email"
+          class="m3-input"
+          id="gslides-share-email-input"
+          value="clayberg@gmail.com"
+          placeholder="e.g. clayberg@gmail.com (leave blank to open only in active account)"
+          style="background:#FFFFFF; border:1px solid #93C5FD; border-radius:8px; padding:8px 12px; font-size:0.84rem; color:#0F172A; font-weight:600; width:100%;"
+        />
+        <div style="font-size:0.74rem; color:#1E3A8A; margin-top:6px; line-height:1.4;">
+          Automatically grants Editor access and appends <code>?authuser=...</code> when opening the new tab.
+        </div>
+      </div>
+
+      <div style="display:flex; align-items:center; justify-content:flex-end; gap:10px; flex-wrap:wrap;">
+        <button type="button" class="m3-gslides-oauth-btn" id="btn-gslides-pick-google-account">
+          🔑 Pick Google Account (OAuth)
+        </button>
+        <button type="button" class="m3-gslides-create-btn" id="btn-gslides-create-and-open-tab">
+          🟨 Create &amp; Open in New Tab ↗
         </button>
       </div>
 
-      <!-- Option 2: Google OAuth Account Picker / Google Account Chooser -->
-      <div style="border:1.5px solid #CBD5E1; border-radius:12px; padding:14px; background:#F8FAFC; margin-bottom:10px;">
-        <div style="font-size:0.82rem; font-weight:800; color:#1E293B; margin-bottom:4px;">
-          2. Sign In with a Different Google Account (Google Account Chooser)
-        </div>
-        <div style="font-size:0.77rem; color:#475569; margin-bottom:10px;">
-          Prompt Google's Account Chooser so you can sign in to a personal <code>@gmail.com</code> or secondary Google Workspace account directly in your browser.
+      <div id="gslides-export-status-banner" class="hidden" style="margin-top:12px; padding:10px 12px; border-radius:10px; font-size:0.80rem; font-weight:700; background:#FEFCE8; color:#854D0E; border:1px solid #FDE047; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+        <span id="gslides-export-status-text"></span>
+        <a id="gslides-export-open-tab-link" href="#" target="_blank" rel="noopener noreferrer" class="m3-btn m3-btn-filled" style="display:none; padding:5px 12px; font-size:0.76rem; font-weight:800;">
+          Open Google Slides Tab ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: OPTION A DUAL-MODE DOCUMENTATION STUDIO VIEWER (`📘 Documentation`, SHORTCUT: `D`) -->
+  <div class="m3-modal-backdrop hidden" id="docs-viewer-modal" role="dialog" aria-modal="true" aria-labelledby="docs-viewer-modal-title">
+    <div class="m3-modal-dialog m3-docs-studio-dialog" id="docs-studio-dialog-box">
+      <!-- Top Header Bar -->
+      <div class="m3-docs-studio-topbar">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.25rem;">📘</span>
+          <div>
+            <h3 id="docs-viewer-modal-title" style="font-family:'Roboto Slab',serif; font-size:1.10rem; font-weight:800; color:#FFFFFF; margin:0;">
+              Scouts BSA Workbench Documentation
+            </h3>
+            <div style="font-size:0.75rem; color:#CBD5E1;">
+              Counselor User &amp; Admin Guides + Engineering Architecture Reference
+            </div>
+          </div>
         </div>
         <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-          <button type="button" class="m3-btn m3-btn-tonal" id="btn-gslides-oauth-account-picker" style="font-size:0.79rem; font-weight:700;">
-            🔐 Sign In / Pick Google Account (OAuth)
+          <input
+            type="search"
+            class="m3-docs-search-input"
+            id="docs-viewer-search-input"
+            placeholder="🔎 Filter headings or search text..."
+          />
+          <a
+            href="https://github.com/clayberg/scouts-bsa-merit-badge-agent"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="m3-docs-topbar-btn"
+            title="Open GitHub Repository"
+          >
+            ↗ GitHub Repo
+          </a>
+          <button type="button" class="m3-docs-topbar-btn" id="btn-docs-viewer-maximize" title="Toggle Full-Viewport Maximized Reading View">
+            ⤢ Maximize
           </button>
-          <button type="button" class="m3-btn m3-btn-outlined" id="btn-gslides-open-account-chooser" style="font-size:0.79rem; font-weight:700;">
-            🌐 Open Google Slides Account Switcher ↗
+          <button type="button" class="m3-docs-topbar-close-btn" id="btn-close-docs-viewer-modal" title="Close Documentation Viewer (Esc)">
+            ✕
           </button>
         </div>
       </div>
 
-      <div id="gslides-export-status-banner" class="hidden" style="margin-top:10px; padding:10px 12px; border-radius:8px; font-size:0.80rem; font-weight:700; background:#FEF3C7; color:#92400E; border:1px solid #F59E0B;"></div>
+      <!-- Audience & Document Mode Selector Bar (User Guide preselected + Admin Guide on left; Engineering Docs toggle on right) -->
+      <div class="m3-docs-audience-bar">
+        <div class="m3-docs-user-pills-group" role="tablist" aria-label="User Documentation Guides">
+          <span class="m3-docs-group-label">USER DOCS:</span>
+          <button type="button" class="m3-docs-primary-pill is-active" id="btn-docs-select-user-guide" data-doc-id="user_guide" aria-selected="true">
+            📘 User Guide
+          </button>
+          <button type="button" class="m3-docs-primary-pill" id="btn-docs-select-admin-guide" data-doc-id="admin_guide" aria-selected="false">
+            🛡️ Admin Guide
+          </button>
+        </div>
+        <div class="m3-docs-eng-controls-group">
+          <button type="button" class="m3-docs-eng-toggle-btn" id="btn-docs-toggle-eng-list" aria-expanded="false">
+            ⚙️ Engineering Docs (9) ▾
+          </button>
+        </div>
+      </div>
+
+      <!-- Main 2-Pane Split: Adaptive Left Rail (TOC in User Mode / 9-Doc Navigator + TOC in Engineering Mode) + Right Markdown Canvas -->
+      <div class="m3-docs-studio-body">
+        <aside class="m3-docs-left-rail" id="docs-viewer-left-rail" aria-label="Documentation Navigation &amp; Outline">
+          <!-- Engineering Docs List (Shown when Engineering Docs Mode is toggled on) -->
+          <div id="docs-sidebar-eng-section" class="hidden" style="margin-bottom:10px;">
+            <div class="m3-docs-rail-section-title">⚙️ ENGINEERING DOCS (9)</div>
+            <div class="m3-docs-eng-nav-list" id="docs-eng-list-nav"></div>
+          </div>
+          <!-- On This Page Section Outline -->
+          <div id="docs-viewer-toc-section">
+            <div class="m3-docs-rail-section-title" id="docs-viewer-toc-kicker">ON THIS PAGE</div>
+            <div class="m3-docs-toc-nav-list" id="docs-toc-nav"></div>
+          </div>
+        </aside>
+
+        <div class="m3-docs-main-canvas" id="docs-viewer-scroll-container">
+          <div class="m3-docs-doc-header-bar">
+            <div style="min-width:0;">
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                <span class="m3-docs-cat-badge" id="docs-current-category-badge">USER &amp; ADMIN DOC</span>
+                <code class="m3-docs-path-pill" id="docs-current-rel-path">docs/USER_GUIDE.md</code>
+              </div>
+              <div id="docs-viewer-doc-subtitle" style="font-size:0.80rem; color:#334155; margin-top:4px; font-weight:600;">
+                Complete Counselor Workbench Manual, Visual Tour &amp; Field Toolkit Guide
+              </div>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <button type="button" class="m3-docs-print-pill" id="btn-docs-print-doc">
+                🖨️ Print / Save PDF
+              </button>
+              <a
+                id="link-docs-current-github"
+                href="https://github.com/clayberg/scouts-bsa-merit-badge-agent/blob/main/docs/USER_GUIDE.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="m3-docs-github-pill"
+              >
+                ↗ View on GitHub
+              </a>
+            </div>
+          </div>
+          <article class="m3-markdown-body m3-docs-article-body" id="docs-viewer-markdown-body">
+            Loading documentation...
+          </article>
+        </div>
+      </div>
     </div>
   </div>
 
-  <script src="/ui/app.js?v=20261017a"></script>
+  <script src="/ui/app.js?v=20261017c"></script>
 </body>
 </html>

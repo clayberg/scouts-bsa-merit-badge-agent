@@ -944,6 +944,13 @@ function bindFilterAndSlideControls() {
 
   document.addEventListener("fullscreenchange", () => {
     if (!document.fullscreenElement && stageWrapper?.classList.contains("is-presenting-fullscreen")) {
+      const openingPopupRecently =
+        (presenterPopupWin && !presenterPopupWin.closed) ||
+        Date.now() - (state._openingSecondMonitorPopupAt || 0) < 2500;
+      if (openingPopupRecently) {
+        // Keep CSS .is-presenting-fullscreen theatre mode active when 2nd Monitor popup opens
+        return;
+      }
       stageWrapper.classList.remove("is-presenting-fullscreen");
       fsHud?.classList.add("hidden");
       const fsBtn = document.getElementById("btn-present-fullscreen");
@@ -1441,19 +1448,22 @@ function bindFilterAndSlideControls() {
     const singleCostEl = document.getElementById("finops-single-cost-value");
     const singleMetaEl = document.getElementById("finops-single-token-meta");
     const deckCountBadge = document.getElementById("finops-deck-slide-count-badge");
+    const deckOptionKicker = document.getElementById("finops-deck-option-kicker");
     const deckCostEl = document.getElementById("finops-deck-cost-value");
     const deckMetaEl = document.getElementById("finops-deck-token-meta");
+    const leadCountEl = document.getElementById("finops-lead-slide-count");
+    const leadBadgeEl = document.getElementById("finops-lead-badge-name");
     const forceChk = document.getElementById("chk-finops-force-repolish");
     const btnSingle = document.getElementById("btn-confirm-polish-single-slide");
     const btnDeck = document.getElementById("btn-confirm-polish-entire-deck");
 
     if (singleCard) {
-      singleCard.style.borderColor = requestedMode === "single" ? "#003F87" : "#CBD5E1";
+      singleCard.style.borderColor = requestedMode === "single" ? "#4F46E5" : "#C7D2FE";
       singleCard.style.boxShadow =
-        requestedMode === "single" ? "0 0 0 3px rgba(0, 63, 135, 0.16)" : "none";
+        requestedMode === "single" ? "0 0 0 3px rgba(79, 70, 229, 0.16)" : "none";
     }
     if (deckCard) {
-      deckCard.style.borderColor = requestedMode === "deck" ? "#D97706" : "#CBD5E1";
+      deckCard.style.borderColor = requestedMode === "deck" ? "#D97706" : "#FCD34D";
       deckCard.style.boxShadow =
         requestedMode === "deck" ? "0 0 0 3px rgba(217, 119, 6, 0.18)" : "none";
     }
@@ -1475,16 +1485,19 @@ function bindFilterAndSlideControls() {
       const slideNumLabel = isCover ? "Cover Slide" : `Slide #${state.activeSlideIdx + 2}`;
       const singleCached = estimate.single_slide_cached && !force;
       const singleUsd = singleCached ? 0 : estimate.single_slide_cost_usd || 0.000835;
+      if (leadBadgeEl) {
+        leadBadgeEl.textContent = `${state.currentResult.badge_name || "First Aid"} Merit Badge`;
+      }
       if (singleBadge) {
         singleBadge.textContent = singleCached ? `${slideNumLabel} • Cached ($0)` : slideNumLabel;
       }
       if (singleCostEl) {
         singleCostEl.innerHTML = singleCached
-          ? `$0.0000 <span style="font-size:0.78rem; font-weight:600; color:#15803D;">(Cached in SQLite • ~$0.0008 if re-polished)</span>`
-          : `~$${singleUsd.toFixed(4)} <span style="font-size:0.78rem; font-weight:600; color:#475569;">(&lt; $0.001 USD)</span>`;
+          ? `$0.0000 <span style="font-size:0.78rem; font-weight:700; color:#15803D;">(Cached in SQLite • ~$0.0008 if re-polished)</span>`
+          : `~$${singleUsd.toFixed(4)} <span style="font-size:0.78rem; font-weight:700; color:#475569;">(&lt; $0.001 / slide)</span>`;
       }
       if (singleMetaEl) {
-        singleMetaEl.textContent = `~${estimate.single_slide_input_tokens} input + ~${estimate.single_slide_output_tokens} output tokens • 1 Gemini Flash call (~1.5s)`;
+        singleMetaEl.innerHTML = `~${estimate.single_slide_input_tokens} input tokens + ~${estimate.single_slide_output_tokens} output tokens<br/>Latency: ~1.5 seconds • Cached in SQLite (${singleCached ? "Already cached: $0.00" : "$0.00 on repeat"})`;
       }
 
       const nTotal = estimate.total_slides || totalSlides;
@@ -1494,6 +1507,12 @@ function bindFilterAndSlideControls() {
         ? estimate.deck_full_repolish_cost_usd || nTotal * 0.000835
         : estimate.deck_uncached_cost_usd ?? nUncached * 0.000835;
 
+      if (leadCountEl) {
+        leadCountEl.textContent = `${nTotal}-slide`;
+      }
+      if (deckOptionKicker) {
+        deckOptionKicker.textContent = `OPTION 2 • ENTIRE ${nTotal}-SLIDE DECK`;
+      }
       if (deckCountBadge) {
         deckCountBadge.textContent =
           nCached > 0 && !force
@@ -1501,19 +1520,19 @@ function bindFilterAndSlideControls() {
             : `${nTotal} Slides`;
       }
       if (deckCostEl) {
-        deckCostEl.innerHTML = `~$${Number(deckUsd).toFixed(3)} <span style="font-size:0.78rem; font-weight:600; color:#92400E;">USD</span>`;
+        deckCostEl.innerHTML = `~$${Number(deckUsd).toFixed(4)} <span style="font-size:0.78rem; font-weight:700; color:#92400E;">(${nTotal} slides × $0.0008)</span>`;
       }
       if (deckMetaEl) {
-        deckMetaEl.textContent =
+        deckMetaEl.innerHTML =
           nCached > 0 && !force
-            ? `${nUncached} uncached slides × $0.0008 / slide (${nCached} already cached in SQLite at $0.00)`
-            : `${nTotal} slides × $0.0008 / slide • Parallel batch (6x concurrency)`;
+            ? `~${(nUncached * 450).toLocaleString()} input + ~${(nUncached * 280).toLocaleString()} output tokens (${nCached} already cached at $0.00)<br/>Parallel 6x worker pool • Live <code>[1/${nTotal}]</code> progress counter`
+            : `~${(nTotal * 450).toLocaleString()} input tokens + ~${(nTotal * 280).toLocaleString()} output tokens<br/>Parallel 6x worker pool • Live <code>[1/${nTotal}]</code> progress counter`;
       }
       if (btnSingle) {
-        btnSingle.textContent = `✨ Polish Current Slide (~$${singleUsd > 0 ? singleUsd.toFixed(4) : "0.0008"})`;
+        btnSingle.textContent = `✨ Polish This Slide (~$${singleUsd > 0 ? singleUsd.toFixed(4) : "0.0008"})`;
       }
       if (btnDeck) {
-        btnDeck.textContent = `✨ Polish Entire Deck (${nTotal} Slides • ~$${Number(deckUsd).toFixed(3)})`;
+        btnDeck.textContent = `✨ Polish All ${nTotal} Slides (~$${Number(deckUsd).toFixed(4)})`;
       }
     };
 
@@ -6208,12 +6227,78 @@ function syncArchetypeVisualPicker(activeArch) {
   });
 }
 
-// UI-2 & Plan 7 #3: In-Stage Split-Screen Presenter Console + Dual-Window 2nd-Monitor Pop-Out
+// UI-2 & Plan 7 #3 / Plan 11 #2: In-Stage Split-Screen Presenter Console + Dual-Window 2nd-Monitor Pop-Out
+function formatPresenterCueBodyHtml(rawSegment) {
+  let decorated = escapeHtml(String(rawSegment || "").trim());
+  decorated = decorated
+    .replace(/\*{1,2}([^*\n]{2,110}?)\*{2}/g, "<strong>$1</strong>")
+    .replace(/\*{2}([^*\n]{2,110}?)\*{1,2}/g, "<strong>$1</strong>");
+  decorated = decorated.replace(
+    /\[Expected Answer:\s*([^\]]+)\]/gi,
+    '<div class="m3-expected-answer-box"><strong>✓ Expected Answer:</strong> $1</div>'
+  );
+  decorated = decorated.replace(
+    /\[((?!SAY\]|DEMONSTRATE\]|ASK SCOUTS\])[^\]]{3,160})\]/g,
+    '<span class="m3-stage-cue-pill">🎬 [$1]</span>'
+  );
+  return decorated;
+}
+
+function formatPresenterConsoleCardsHtml(rawNotes) {
+  const lines = String(rawNotes || "")
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  if (lines.length === 0) {
+    return "<em>No speaker notes for this slide.</em>";
+  }
+  const cards = [];
+  for (const line of lines) {
+    if (/^\[SAY\]/i.test(line)) {
+      const body = formatPresenterCueBodyHtml(line.replace(/^\[SAY\]\s*/i, ""));
+      cards.push(`
+        <div class="m3-pc-cue-card m3-pc-cue-card-say">
+          <div class="m3-pc-cue-kicker">🗣️ [SAY — CONVERSATIONAL SCRIPT]</div>
+          <div>${body}</div>
+        </div>
+      `);
+    } else if (/^\[DEMONSTRATE\]/i.test(line)) {
+      const body = formatPresenterCueBodyHtml(line.replace(/^\[DEMONSTRATE\]\s*/i, ""));
+      cards.push(`
+        <div class="m3-pc-cue-card m3-pc-cue-card-demo">
+          <div class="m3-pc-cue-kicker">🛠️ [DEMONSTRATE]</div>
+          <div>${body}</div>
+        </div>
+      `);
+    } else if (/^\[ASK SCOUTS\]/i.test(line)) {
+      const body = formatPresenterCueBodyHtml(line.replace(/^\[ASK SCOUTS\]\s*/i, ""));
+      cards.push(`
+        <div class="m3-pc-cue-card m3-pc-cue-card-ask">
+          <div class="m3-pc-cue-kicker">❓ [ASK SCOUTS]</div>
+          <div>${body}</div>
+        </div>
+      `);
+    } else {
+      const body = formatPresenterCueBodyHtml(line);
+      cards.push(`
+        <div class="m3-pc-cue-card m3-pc-cue-card-say">
+          <div class="m3-pc-cue-kicker">🗣️ [COUNSELOR NOTE]</div>
+          <div>${body}</div>
+        </div>
+      `);
+    }
+  }
+  return cards.join("");
+}
+
 function buildPresenterSyncPayload() {
   const res = state.currentResult || {};
   const slides = res.storyboard?.slides || [];
   const idx = state.activeSlideIdx;
   const isCover = idx === -1;
+  const totalDeckSlides = slides.length + 1;
+  const currSlideNum = isCover ? 1 : idx + 2;
+  const nextSlideNum = Math.min(totalDeckSlides, currSlideNum + 1);
   const currSlide = isCover
     ? {
         title: `${res.badge_name || "First Aid"} Merit Badge - Cover Slide`,
@@ -6225,13 +6310,19 @@ function buildPresenterSyncPayload() {
       }
     : slides[idx] || {};
   const nextSlide = idx + 1 < slides.length ? slides[idx + 1] : null;
+  const rawNotes = currSlide.presenter_notes || "";
   return {
     badgeName: res.badge_name || "First Aid",
-    slideNumberLabel: isCover ? `Cover Slide (1 of ${slides.length + 1})` : `Slide ${idx + 2} of ${slides.length + 1}`,
+    slideNumberLabel: isCover ? `Cover Slide (1 of ${totalDeckSlides})` : `Slide ${currSlideNum} of ${totalDeckSlides}`,
+    upNextKickerLabel: nextSlide
+      ? `UP NEXT • SLIDE ${nextSlideNum} OF ${totalDeckSlides}`
+      : `CURRENT • SLIDE ${currSlideNum} OF ${totalDeckSlides}`,
     reqLabel: isCover ? "Cover" : `Requirement ${currSlide.req_number || ""}`,
     slideTitle: currSlide.title || "",
-    notesHtml: formatSpeakerNotesHtml(currSlide.presenter_notes || ""),
-    nextSlideTitle: nextSlide ? `Next: ${nextSlide.title} (Req ${nextSlide.req_number || ""})` : "End of Slide Deck",
+    notesHtml: formatPresenterConsoleCardsHtml(rawNotes),
+    nextSlideTitle: nextSlide
+      ? `${nextSlide.title}${nextSlide.req_number ? ` (Req ${nextSlide.req_number})` : ""}`
+      : `${currSlide.title || "Final Slide"} (End of Slide Deck)`,
     timerFormatted: formatTimerMmSs(state.sessionTimerSeconds),
   };
 }
@@ -6269,8 +6360,8 @@ function togglePresenterConsoleMode(forceState) {
 }
 
 function changePresenterFontScale(delta) {
-  const current = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.90;
-  const nextScale = Math.min(1.45, Math.max(0.74, Math.round((current + delta) * 100) / 100));
+  const current = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.86;
+  const nextScale = Math.min(1.45, Math.max(0.72, Math.round((current + delta) * 100) / 100));
   state.presenterFontScale = nextScale;
   const dockNotes = document.getElementById("pc-dock-notes-body");
   if (dockNotes) {
@@ -6280,7 +6371,7 @@ function changePresenterFontScale(delta) {
     try {
       const notesEl = presenterPopupWin.document.getElementById("pv-notes-body");
       if (notesEl) {
-        notesEl.style.fontSize = `${Math.round((nextScale + 0.12) * 100) / 100}rem`;
+        notesEl.style.fontSize = `${Math.round((nextScale + 0.10) * 100) / 100}rem`;
       }
     } catch (_e) {}
   }
@@ -6300,15 +6391,15 @@ function syncPresenterViewWindow() {
   const nextBtn = document.getElementById("btn-pc-next-slide");
 
   if (dockTitle) dockTitle.textContent = payload.slideTitle;
-  if (dockMeta) dockMeta.textContent = `${payload.badgeName} • ${payload.slideNumberLabel} • ${payload.reqLabel}`;
+  if (dockMeta) dockMeta.textContent = payload.upNextKickerLabel;
   if (dockNotes) {
     dockNotes.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
-    const scale = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.90;
+    const scale = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.86;
     dockNotes.style.fontSize = `${scale}rem`;
   }
   if (dockNext) dockNext.textContent = payload.nextSlideTitle;
   if (dockTimer) {
-    dockTimer.textContent = `⏱️ ${payload.timerFormatted}`;
+    dockTimer.textContent = payload.timerFormatted;
     dockTimer.title = state.sessionTimerRunning
       ? "Timer running (Click to Pause)"
       : "Click to Start/Resume Session Timer";
@@ -6336,7 +6427,7 @@ function syncPresenterViewWindow() {
       if (metaEl) metaEl.textContent = `${payload.badgeName} • ${payload.slideNumberLabel} • ${payload.reqLabel}`;
       if (notesEl) notesEl.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
       if (nextEl) nextEl.textContent = payload.nextSlideTitle;
-      if (timerEl) timerEl.textContent = `⏱️ ${payload.timerFormatted}`;
+      if (timerEl) timerEl.textContent = payload.timerFormatted;
       if (pvPrevBtn) pvPrevBtn.disabled = state.activeSlideIdx <= -1;
       if (pvNextBtn) pvNextBtn.disabled = state.activeSlideIdx >= slides.length - 1;
     } catch (_e) {
@@ -6346,13 +6437,18 @@ function syncPresenterViewWindow() {
 }
 
 function openPresenterViewWindow() {
+  state._openingSecondMonitorPopupAt = Date.now();
   const popupLeft = Math.max(20, (window.screenX || 0) + (window.outerWidth || 1200) - 660);
   const popupTop = Math.max(20, (window.screenY || 0) + 60);
-  const features = `popup=yes,width=640,height=720,left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`;
+  const features = `popup=yes,width=640,height=740,left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`;
   presenterPopupWin = window.open("", "BSAPresenterView", features);
   if (!presenterPopupWin) return;
+  // Auto-close the in-stage right dock when the 2nd Monitor popup opens so the main screen shows only the centered 16:9 slide
+  if (state.presenterConsoleOpen) {
+    togglePresenterConsoleMode(false);
+  }
   const payload = buildPresenterSyncPayload();
-  const baseFontScale = Math.round(((state.presenterFontScale || 0.90) + 0.12) * 100) / 100;
+  const baseFontScale = Math.round(((state.presenterFontScale || 0.86) + 0.10) * 100) / 100;
   presenterPopupWin.document.open();
   presenterPopupWin.document.write(`<!DOCTYPE html>
 <html lang="en">
@@ -6362,19 +6458,19 @@ function openPresenterViewWindow() {
   <style>
     body {
       margin: 0;
-      padding: 18px 20px;
+      padding: 16px 18px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #0F172A;
       color: #F8FAFC;
-      line-height: 1.55;
+      line-height: 1.52;
     }
     .pv-banner {
       background: rgba(30, 58, 138, 0.45);
       border: 1px solid #3B82F6;
       border-radius: 8px;
       padding: 6px 12px;
-      margin-bottom: 12px;
-      font-size: 0.76rem;
+      margin-bottom: 10px;
+      font-size: 0.75rem;
       color: #BFDBFE;
       display: flex;
       justify-content: space-between;
@@ -6384,21 +6480,30 @@ function openPresenterViewWindow() {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1.5px solid #334155;
+      border-bottom: 1px solid #334155;
       padding-bottom: 10px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       gap: 8px;
       flex-wrap: wrap;
     }
+    .pv-badge {
+      background: #F4C430;
+      color: #0F172A;
+      font-size: 0.68rem;
+      font-weight: 900;
+      padding: 3px 9px;
+      border-radius: 999px;
+      letter-spacing: 0.04em;
+    }
     .pv-timer {
       font-family: monospace;
-      font-size: 1.05rem;
+      font-size: 0.92rem;
       font-weight: 800;
-      color: #4ADE80;
-      background: #022C22;
-      padding: 5px 12px;
-      border-radius: 999px;
-      border: 1px solid #10B981;
+      color: #38BDF8;
+      background: rgba(30, 41, 59, 0.95);
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(56, 189, 248, 0.42);
       cursor: pointer;
     }
     .pv-controls {
@@ -6407,14 +6512,14 @@ function openPresenterViewWindow() {
       gap: 6px;
     }
     .pv-controls button {
-      height: 32px;
-      background: #1E293B;
+      height: 30px;
+      background: rgba(30, 41, 59, 0.96);
       color: #E2E8F0;
-      border: 1px solid #475569;
-      border-radius: 8px;
-      padding: 0 11px;
-      font-weight: 700;
-      font-size: 0.78rem;
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      border-radius: 6px;
+      padding: 0 10px;
+      font-weight: 800;
+      font-size: 0.76rem;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
@@ -6429,40 +6534,88 @@ function openPresenterViewWindow() {
       opacity: 0.4;
       cursor: not-allowed;
     }
-    .pv-controls button.pv-nav-btn {
-      background: linear-gradient(135deg, #1E3A8A 0%, #003F87 100%);
-      border-color: #60A5FA;
-      color: #FFFFFF;
+    .pv-controls button.pv-close-btn {
+      background: rgba(239, 68, 68, 0.22);
+      border-color: rgba(248, 113, 113, 0.45);
+      color: #FCA5A5;
     }
     .pv-controls button.pv-close-btn:hover {
-      background: #7F1D1D;
-      border-color: #F87171;
-      color: #FECACA;
+      background: #DC2626;
+      color: #FFFFFF;
+    }
+    .pv-upnext-card {
+      background: rgba(30, 41, 59, 0.88);
+      border: 1px solid rgba(148, 163, 184, 0.28);
+      border-radius: 9px;
+      padding: 8px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .pv-nav-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .pv-nav-grid button {
+      height: 34px;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+    #pv-btn-prev {
+      background: rgba(30, 41, 59, 0.96);
+      border: 1px solid rgba(148, 163, 184, 0.42);
+      color: #E2E8F0;
+    }
+    #pv-btn-next {
+      background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+      border: 1px solid rgba(96, 165, 250, 0.55);
+      color: #FFFFFF;
     }
     .pv-title {
-      font-size: 1.18rem;
+      font-size: 1.05rem;
       font-weight: 800;
       color: #FDE047;
       margin: 4px 0 10px 0;
     }
     .pv-notes {
-      background: #1E293B;
-      border: 1px solid #334155;
-      border-radius: 12px;
-      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
       font-size: ${baseFontScale}rem;
-      min-height: 340px;
     }
-    .m3-cue-tag {
-      display: inline-block;
-      padding: 2px 8px;
-      border-radius: 6px;
+    .m3-pc-cue-card {
+      padding: 10px 12px;
+      border-radius: 9px;
+      line-height: 1.5;
+    }
+    .m3-pc-cue-card-say {
+      background: rgba(30, 58, 138, 0.36);
+      border-left: 3.5px solid #60A5FA;
+    }
+    .m3-pc-cue-card-demo {
+      background: rgba(120, 53, 15, 0.36);
+      border-left: 3.5px solid #FBBF24;
+    }
+    .m3-pc-cue-card-ask {
+      background: rgba(6, 78, 59, 0.36);
+      border-left: 3.5px solid #34D399;
+    }
+    .m3-pc-cue-kicker {
+      font-size: 0.66rem;
       font-weight: 800;
-      font-size: 0.80rem;
-      background: #DBEAFE;
-      color: #1E3A8A;
-      margin-right: 6px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
     }
+    .m3-pc-cue-card-say .m3-pc-cue-kicker { color: #93C5FD; }
+    .m3-pc-cue-card-demo .m3-pc-cue-kicker { color: #FCD34D; }
+    .m3-pc-cue-card-ask .m3-pc-cue-kicker { color: #6EE7B7; }
     .m3-stage-cue-pill {
       display: inline-block;
       font-size: 0.78rem;
@@ -6476,46 +6629,45 @@ function openPresenterViewWindow() {
       margin: 1px 3px;
     }
     .m3-expected-answer-box {
-      margin-top: 8px;
+      margin-top: 6px;
       padding: 8px 12px;
-      background: #064E3B;
+      background: rgba(6, 78, 59, 0.68);
       border-left: 4px solid #10B981;
       border-radius: 6px;
-      font-size: 0.90rem;
+      font-size: 0.88rem;
       color: #A7F3D0;
       font-weight: 600;
-    }
-    .pv-next {
-      margin-top: 12px;
-      padding: 10px 14px;
-      background: #1E293B;
-      border-left: 4px solid #60A5FA;
-      border-radius: 6px;
-      font-size: 0.88rem;
-      color: #CBD5E1;
     }
   </style>
 </head>
 <body>
   <div class="pv-banner">
-    <span>🪟 <strong>Floating Companion Teleprompter</strong> — Drag this window to your laptop screen while projecting the main slide deck.</span>
+    <span>🪟 <strong>2nd Monitor Speaker Teleprompter</strong> — Drag to your laptop screen while projecting the main slide deck.</span>
   </div>
   <div class="pv-top">
-    <div>
-      <div id="pv-slide-meta" style="font-size:0.82rem; color:#94A3B8; font-weight:700;">${escapeHtml(payload.badgeName)} • ${escapeHtml(payload.slideNumberLabel)} • ${escapeHtml(payload.reqLabel)}</div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span class="pv-badge">PRESENTER VIEW</span>
+      <span class="pv-timer" id="pv-timer" title="Click to Start/Pause Session Timer">${escapeHtml(payload.timerFormatted)}</span>
     </div>
     <div class="pv-controls">
-      <span class="pv-timer" id="pv-timer" title="Click to Start/Pause Session Timer">⏱️ ${escapeHtml(payload.timerFormatted)}</span>
       <button type="button" id="pv-btn-font-dec" title="Decrease Font Size">A−</button>
       <button type="button" id="pv-btn-font-inc" title="Increase Font Size">A+</button>
-      <button type="button" class="pv-nav-btn" id="pv-btn-prev">◀ Prev</button>
-      <button type="button" class="pv-nav-btn" id="pv-btn-next">Next ▶</button>
       <button type="button" class="pv-close-btn" id="pv-btn-close" title="Close Floating Window">✕</button>
     </div>
   </div>
+  <div class="pv-upnext-card">
+    <div>
+      <div id="pv-slide-meta" style="font-size:0.65rem; color:#94A3B8; font-weight:800; text-transform:uppercase;">${escapeHtml(payload.upNextKickerLabel)}</div>
+      <div id="pv-next-slide" style="font-size:0.78rem; color:#E2E8F0; font-weight:700; margin-top:2px;">${escapeHtml(payload.nextSlideTitle)}</div>
+    </div>
+    <span style="font-size:0.70rem; color:#FBBF24; font-weight:800; background:rgba(251,191,36,0.14); border:1px solid rgba(251,191,36,0.32); padding:4px 8px; border-radius:6px; white-space:nowrap;">⏱ ~2 min</span>
+  </div>
+  <div class="pv-nav-grid">
+    <button type="button" id="pv-btn-prev">◀ Prev Slide</button>
+    <button type="button" id="pv-btn-next">Next Slide ▶</button>
+  </div>
   <div class="pv-title" id="pv-slide-title">${escapeHtml(payload.slideTitle)}</div>
   <div class="pv-notes" id="pv-notes-body">${payload.notesHtml}</div>
-  <div class="pv-next" id="pv-next-slide">${escapeHtml(payload.nextSlideTitle)}</div>
 </body>
 </html>`);
   presenterPopupWin.document.close();
@@ -7716,7 +7868,9 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   });
   document.getElementById("btn-gslides-pick-google-account")?.addEventListener("click", async () => {
     const shareEmailInput = document.getElementById("gslides-share-email-input");
-    const shareEmail = shareEmailInput?.value || "";
+    const shareEmail = (shareEmailInput?.value || "").trim();
+    const statusBanner = document.getElementById("gslides-export-status-banner");
+    const statusText = document.getElementById("gslides-export-status-text");
     // If Google Identity Services (GIS) is loaded and an OAuth Client ID is configured, invoke the native Google Account Picker
     if (window.google?.accounts?.oauth2 && state.googleOauthClientId) {
       const tokenClient = window.google.accounts.oauth2.initTokenClient({
@@ -7738,14 +7892,22 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       tokenClient.requestAccessToken({ prompt: "select_account" });
       return;
     }
-    // Otherwise focus the target Google Account email field so the user can enter their @gmail.com / secondary account
-    // or open Google Account Chooser while sharing the generated presentation directly with their chosen email
-    if (shareEmailInput && !shareEmailInput.value.trim()) {
+    // When no browser OAuth Client ID is configured, if the counselor entered a target email in Card 2, export & share with that account immediately;
+    // otherwise focus Card 2 and show instructions to enter their target @gmail.com / Google Workspace address
+    if (!shareEmail && shareEmailInput) {
       shareEmailInput.focus();
       shareEmailInput.style.outline = "2px solid #2563EB";
+      if (statusBanner && statusText) {
+        statusBanner.classList.remove("hidden");
+        statusBanner.style.background = "#EFF6FF";
+        statusBanner.style.borderColor = "#93C5FD";
+        statusText.style.color = "#1E3A8A";
+        statusText.textContent =
+          "🔑 Enter your target @gmail.com or Google account email in Box 2 above (or leave blank to use your active workstation account), then click 'Create & Open in New Tab ↗'.";
+      }
       setTimeout(() => {
         shareEmailInput.style.outline = "";
-      }, 1800);
+      }, 2200);
       return;
     }
     await runGoogleSlidesExportAndOpenTab({ shareEmail });
@@ -8141,6 +8303,9 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     } else if (ev.key.toLowerCase() === "t" && !ev.ctrlKey && !ev.metaKey) {
       ev.preventDefault();
       toggleSessionTimer();
+    } else if (ev.key.toLowerCase() === "d" && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
+      ev.preventDefault();
+      openDocumentationViewerModal();
     } else if (ev.ctrlKey && ev.shiftKey && ev.key.toLowerCase() === "a") {
       ev.preventDefault();
       document.getElementById("btn-footer-admin-unlock")?.click();
@@ -8455,6 +8620,520 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     await fetch("/api/v1/admin/circuit-breakers/reset", { method: "POST" });
     await loadAdminZeroPiiTelemetry();
   });
+
+  bindDocumentationViewerModal();
 }
+
+// ===========================================================================
+// PLAN 11 FEATURE #2: OPTION A DUAL-MODE DOCUMENTATION STUDIO VIEWER
+// ===========================================================================
+
+state.docsCatalog = null;
+state.currentDocId = "user_guide";
+state.currentDocMarkdown = "";
+state.currentDocTitle = "User Guide";
+state.docsEngListVisible = false;
+
+const DOC_PATH_TO_ID_MAP = {
+  "docs/user_guide.md": "user_guide",
+  "user_guide.md": "user_guide",
+  "docs/admin_guide.md": "admin_guide",
+  "admin_guide.md": "admin_guide",
+  "readme.md": "readme",
+  "docs/tdd.md": "tdd",
+  "tdd.md": "tdd",
+  "architecture_decisions.md": "architecture_decisions",
+  "docs/adr/readme.md": "adr_readme",
+  "adr/readme.md": "adr_readme",
+  "docs/api_integration_guide.md": "api_integration_guide",
+  "api_integration_guide.md": "api_integration_guide",
+  "docs/finops-billing-and-deployment-guide.md": "finops_guide",
+  "finops-billing-and-deployment-guide.md": "finops_guide",
+  "scope.md": "scope",
+  "spec.md": "spec",
+  "docs/runbook.md": "runbook",
+  "runbook.md": "runbook",
+};
+
+function slugifyDocHeading(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/<[^>]+>/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function formatDocInlineMarkdown(text, currentDocRelPath = "") {
+  let s = escapeHtml(text);
+  // Inline images ![alt](src)
+  s = s.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_m, alt, rawSrc) => {
+    let src = rawSrc.trim();
+    if (src.startsWith("images/")) {
+      src = `/docs/${src}`;
+    } else if (src.startsWith("docs/images/")) {
+      src = `/${src}`;
+    } else if (src.startsWith("./images/")) {
+      src = `/docs/${src.slice(2)}`;
+    }
+    return `<img src="${src}" alt="${alt}" loading="lazy" />`;
+  });
+
+  // Links [label](href)
+  s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label, rawHref) => {
+    const href = rawHref.trim();
+    const cleanTarget = href.split("#")[0].replace(/^\.\//, "").replace(/^\.\.\//, "").toLowerCase();
+    const mappedDocId =
+      DOC_PATH_TO_ID_MAP[cleanTarget] ||
+      (currentDocRelPath.startsWith("docs/") && DOC_PATH_TO_ID_MAP[`docs/${cleanTarget}`]);
+    if (mappedDocId) {
+      return `<a href="#doc-${mappedDocId}" data-internal-doc-id="${mappedDocId}" style="color:#003F87; font-weight:700; text-decoration:underline;">${label}</a>`;
+    }
+    if (href.startsWith("#")) {
+      return `<a href="${href}" style="color:#003F87; font-weight:600;">${label}</a>`;
+    }
+    return `<a href="${href}" target="_blank" rel="noopener noreferrer" style="color:#003F87; font-weight:600;">${label}</a>`;
+  });
+
+  // Bold **text**
+  s = s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  // Italic *text*
+  s = s.replace(/(^|\s)\*([^*]+)\*/g, "$1<em>$2</em>");
+  // Inline code `code`
+  s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
+  return s;
+}
+
+function renderDocumentationMarkdownToHtml(md, currentDocRelPath = "") {
+  const lines = String(md || "").split(/\r?\n/);
+  const out = [];
+  const headings = [];
+  let inList = false;
+  let inOrderedList = false;
+  let inTable = false;
+  let inCodeFence = false;
+  let codeFenceLang = "";
+  let codeFenceLines = [];
+
+  const closeLists = () => {
+    if (inList) {
+      out.push("</ul>");
+      inList = false;
+    }
+    if (inOrderedList) {
+      out.push("</ol>");
+      inOrderedList = false;
+    }
+  };
+  const closeTable = () => {
+    if (inTable) {
+      out.push("</tbody></table>");
+      inTable = false;
+    }
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i];
+    const trimmed = raw.trim();
+
+    if (trimmed.startsWith("```")) {
+      closeLists();
+      closeTable();
+      if (!inCodeFence) {
+        inCodeFence = true;
+        codeFenceLang = trimmed.slice(3).trim().toLowerCase();
+        codeFenceLines = [];
+      } else {
+        const blockContent = codeFenceLines.join("\n");
+        if (codeFenceLang === "mermaid") {
+          out.push(`<div class="mermaid">${escapeHtml(blockContent)}</div>`);
+        } else {
+          out.push(`<pre><code class="lang-${escapeHtml(codeFenceLang)}">${escapeHtml(blockContent)}</code></pre>`);
+        }
+        inCodeFence = false;
+        codeFenceLang = "";
+        codeFenceLines = [];
+      }
+      continue;
+    }
+
+    if (inCodeFence) {
+      codeFenceLines.push(raw);
+      continue;
+    }
+
+    if (!trimmed) {
+      closeLists();
+      closeTable();
+      continue;
+    }
+
+    // Standalone image line
+    if (/^!\[([^\]]*)\]\(([^)]+)\)$/.test(trimmed)) {
+      closeLists();
+      closeTable();
+      out.push(`<div>${formatDocInlineMarkdown(trimmed, currentDocRelPath)}</div>`);
+      continue;
+    }
+
+    // Table row
+    if (trimmed.startsWith("|") && trimmed.endsWith("|")) {
+      closeLists();
+      const cells = trimmed
+        .slice(1, -1)
+        .split("|")
+        .map((c) => c.trim());
+      if (cells.every((c) => /^[-:\s]+$/.test(c))) {
+        continue;
+      }
+      if (!inTable) {
+        out.push("<table><thead><tr>");
+        cells.forEach((c) => out.push(`<th>${formatDocInlineMarkdown(c, currentDocRelPath)}</th>`));
+        out.push("</tr></thead><tbody>");
+        inTable = true;
+      } else {
+        out.push("<tr>");
+        cells.forEach((c) => out.push(`<td>${formatDocInlineMarkdown(c, currentDocRelPath)}</td>`));
+        out.push("</tr>");
+      }
+      continue;
+    } else {
+      closeTable();
+    }
+
+    if (/^---+$/.test(trimmed)) {
+      closeLists();
+      out.push("<hr/>");
+      continue;
+    }
+
+    if (trimmed.startsWith("### ")) {
+      closeLists();
+      const rawTitle = trimmed.slice(4).trim();
+      const id = `doc-sec-${slugifyDocHeading(rawTitle)}-${headings.length}`;
+      headings.push({ level: 3, text: rawTitle.replace(/\*\*/g, "").replace(/`/g, ""), id });
+      out.push(`<h3 id="${id}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h3>`);
+      continue;
+    }
+    if (trimmed.startsWith("## ")) {
+      closeLists();
+      const rawTitle = trimmed.slice(3).trim();
+      const id = `doc-sec-${slugifyDocHeading(rawTitle)}-${headings.length}`;
+      headings.push({ level: 2, text: rawTitle.replace(/\*\*/g, "").replace(/`/g, ""), id });
+      out.push(`<h2 id="${id}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h2>`);
+      continue;
+    }
+    if (trimmed.startsWith("# ")) {
+      closeLists();
+      const rawTitle = trimmed.slice(2).trim();
+      const id = `doc-sec-${slugifyDocHeading(rawTitle)}-${headings.length}`;
+      out.push(`<h1 id="${id}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h1>`);
+      continue;
+    }
+
+    if (trimmed.startsWith("> ")) {
+      closeLists();
+      out.push(`<blockquote>${formatDocInlineMarkdown(trimmed.slice(2), currentDocRelPath)}</blockquote>`);
+      continue;
+    }
+
+    if (/^[-*]\s+/.test(trimmed)) {
+      if (inOrderedList) {
+        out.push("</ol>");
+        inOrderedList = false;
+      }
+      if (!inList) {
+        out.push("<ul>");
+        inList = true;
+      }
+      out.push(`<li>${formatDocInlineMarkdown(trimmed.replace(/^[-*]\s+/, ""), currentDocRelPath)}</li>`);
+      continue;
+    }
+
+    if (/^\d+\.\s+/.test(trimmed)) {
+      if (inList) {
+        out.push("</ul>");
+        inList = false;
+      }
+      if (!inOrderedList) {
+        out.push("<ol>");
+        inOrderedList = true;
+      }
+      out.push(`<li>${formatDocInlineMarkdown(trimmed.replace(/^\d+\.\s+/, ""), currentDocRelPath)}</li>`);
+      continue;
+    }
+
+    closeLists();
+    out.push(`<p>${formatDocInlineMarkdown(trimmed, currentDocRelPath)}</p>`);
+  }
+
+  closeLists();
+  closeTable();
+  return { html: out.join("\n"), headings };
+}
+
+function renderDocumentationEngineeringList() {
+  const navEl = document.getElementById("docs-eng-list-nav");
+  if (!navEl || !state.docsCatalog) return;
+  const engDocs = state.docsCatalog.engineering_docs || [];
+  navEl.innerHTML = engDocs
+    .map(
+      (doc) => `
+      <button type="button" class="m3-docs-eng-item-btn ${state.currentDocId === doc.doc_id ? "is-active" : ""}" data-doc-id="${escapeHtml(doc.doc_id)}">
+        <span class="m3-docs-eng-item-title">${escapeHtml(doc.icon || "📄")} ${escapeHtml(doc.title)}</span>
+        <span class="m3-docs-eng-item-path">${escapeHtml(doc.rel_path)}</span>
+      </button>
+    `
+    )
+    .join("");
+
+  navEl.querySelectorAll("[data-doc-id]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const docId = btn.getAttribute("data-doc-id");
+      if (docId) loadDocumentationItem(docId);
+    });
+  });
+}
+
+async function loadDocumentationItem(docId) {
+  const bodyEl = document.getElementById("docs-viewer-markdown-body");
+  const tocEl = document.getElementById("docs-toc-nav");
+  const catBadgeEl = document.getElementById("docs-current-category-badge");
+  const pathPillEl = document.getElementById("docs-current-rel-path");
+  const ghLinkEl = document.getElementById("link-docs-current-github");
+  const btnUserGuide = document.getElementById("btn-docs-select-user-guide");
+  const btnAdminGuide = document.getElementById("btn-docs-select-admin-guide");
+  const btnEngToggle = document.getElementById("btn-docs-toggle-eng-list");
+  const engSection = document.getElementById("docs-sidebar-eng-section");
+
+  state.currentDocId = docId;
+
+  if (btnUserGuide) {
+    const isUg = docId === "user_guide";
+    btnUserGuide.classList.toggle("is-active", isUg);
+    btnUserGuide.setAttribute("aria-selected", isUg ? "true" : "false");
+  }
+  if (btnAdminGuide) {
+    const isAg = docId === "admin_guide";
+    btnAdminGuide.classList.toggle("is-active", isAg);
+    btnAdminGuide.setAttribute("aria-selected", isAg ? "true" : "false");
+  }
+
+  const isEngineeringDoc = docId !== "user_guide" && docId !== "admin_guide";
+  if (isEngineeringDoc) {
+    state.docsEngListVisible = true;
+    engSection?.classList.remove("hidden");
+  }
+  if (btnEngToggle) {
+    btnEngToggle.classList.toggle("is-active", isEngineeringDoc || state.docsEngListVisible);
+    btnEngToggle.setAttribute("aria-expanded", state.docsEngListVisible ? "true" : "false");
+  }
+  renderDocumentationEngineeringList();
+
+  if (bodyEl) {
+    bodyEl.innerHTML = `<div style="padding:24px; color:#003F87; font-weight:700;">⏳ Loading documentation...</div>`;
+  }
+
+  try {
+    const resp = await fetch(`/api/v1/docs/${encodeURIComponent(docId)}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    state.currentDocMarkdown = data.markdown || "";
+    state.currentDocTitle = data.title || docId;
+
+    if (catBadgeEl) {
+      const isEng = data.category === "engineering";
+      catBadgeEl.textContent = isEng ? "ENGINEERING DOC" : "USER & ADMIN DOC";
+      catBadgeEl.classList.toggle("is-engineering", isEng);
+    }
+    if (pathPillEl) {
+      pathPillEl.textContent = data.rel_path || data.repo_path || `${docId}.md`;
+    }
+    const subtitleEl = document.getElementById("docs-viewer-doc-subtitle");
+    if (subtitleEl) {
+      subtitleEl.textContent = data.subtitle || data.title || "";
+    }
+    if (ghLinkEl && data.github_url) {
+      ghLinkEl.href = data.github_url;
+    }
+
+    const searchInput = document.getElementById("docs-viewer-search-input");
+    if (searchInput) searchInput.value = "";
+
+    renderActiveDocMarkdownAndToc(state.currentDocMarkdown, data.rel_path || "");
+  } catch (err) {
+    if (bodyEl) {
+      bodyEl.innerHTML = `<div style="padding:24px; color:#991B1B; font-weight:700;">Could not load document: ${escapeHtml(err.message)}</div>`;
+    }
+  }
+}
+
+function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
+  const bodyEl = document.getElementById("docs-viewer-markdown-body");
+  const tocEl = document.getElementById("docs-toc-nav");
+  if (!bodyEl) return;
+
+  const { html, headings } = renderDocumentationMarkdownToHtml(markdownText, relPath);
+  bodyEl.innerHTML = html;
+
+  // Bind internal .md links inside the rendered article so they switch documents inside the modal
+  bodyEl.querySelectorAll("[data-internal-doc-id]").forEach((a) => {
+    a.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      const targetId = a.getAttribute("data-internal-doc-id");
+      if (targetId) loadDocumentationItem(targetId);
+    });
+  });
+
+  // Render Table of Contents in left rail
+  if (tocEl) {
+    if (headings.length === 0) {
+      tocEl.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 8px;">No section headings</div>`;
+    } else {
+      tocEl.innerHTML = headings
+        .map(
+          (h) => `
+          <button type="button" class="m3-docs-toc-link ${h.level === 3 ? "is-h3" : ""}" data-toc-target="${escapeHtml(h.id)}">
+            ${escapeHtml(h.text)}
+          </button>
+        `
+        )
+        .join("");
+      tocEl.querySelectorAll("[data-toc-target]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const targetId = btn.getAttribute("data-toc-target");
+          const targetEl = targetId ? document.getElementById(targetId) : null;
+          if (targetEl) {
+            targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+    }
+  }
+
+  // Render Mermaid diagrams if present (lazy-load mermaid.js asynchronously so it never blocks page startup)
+  const mermaidBlocks = bodyEl.querySelectorAll(".mermaid");
+  if (mermaidBlocks.length > 0) {
+    if (window.mermaid) {
+      try {
+        window.mermaid.initialize({ startOnLoad: false, theme: "default", securityLevel: "loose" });
+        window.mermaid.run({ nodes: mermaidBlocks }).catch(() => {});
+      } catch (_e) {}
+    } else if (!window.__mermaidLoading) {
+      window.__mermaidLoading = true;
+      const s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js";
+      s.async = true;
+      s.onload = () => {
+        try {
+          window.mermaid.initialize({ startOnLoad: false, theme: "default", securityLevel: "loose" });
+          const currentBlocks = document.querySelectorAll("#docs-viewer-markdown-body .mermaid");
+          if (currentBlocks.length > 0) window.mermaid.run({ nodes: currentBlocks }).catch(() => {});
+        } catch (_e) {}
+      };
+      document.head.appendChild(s);
+    }
+  }
+}
+
+async function openDocumentationViewerModal(initialDocId = null) {
+  const modal = document.getElementById("docs-viewer-modal");
+  if (!modal) return;
+  modal.classList.remove("hidden");
+  modal.classList.add("open");
+
+  if (!state.docsCatalog) {
+    try {
+      const resp = await fetch("/api/v1/docs");
+      if (resp.ok) {
+        state.docsCatalog = await resp.json();
+      }
+    } catch (_e) {}
+  }
+
+  const targetDocId = initialDocId || state.currentDocId || "user_guide";
+  await loadDocumentationItem(targetDocId);
+}
+
+function bindDocumentationViewerModal() {
+  const modal = document.getElementById("docs-viewer-modal");
+  const closeModal = () => {
+    modal?.classList.remove("open");
+    modal?.classList.add("hidden");
+  };
+
+  document.getElementById("btn-open-docs-viewer")?.addEventListener("click", () => {
+    openDocumentationViewerModal("user_guide");
+  });
+  document.getElementById("btn-close-docs-viewer-modal")?.addEventListener("click", closeModal);
+  const maxBtn = document.getElementById("btn-docs-viewer-maximize");
+  const dialogBox = document.getElementById("docs-studio-dialog-box");
+  maxBtn?.addEventListener("click", () => {
+    if (!dialogBox) return;
+    const isMax = dialogBox.classList.toggle("is-maximized");
+    if (isMax) {
+      dialogBox.style.maxWidth = "99vw";
+      dialogBox.style.width = "99vw";
+      dialogBox.style.height = "96vh";
+      dialogBox.style.maxHeight = "96vh";
+      maxBtn.textContent = "⤡ Restore";
+    } else {
+      dialogBox.style.maxWidth = "";
+      dialogBox.style.width = "";
+      dialogBox.style.height = "";
+      dialogBox.style.maxHeight = "";
+      maxBtn.textContent = "⤢ Maximize";
+    }
+  });
+  modal?.addEventListener("click", (ev) => {
+    if (ev.target === modal) closeModal();
+  });
+
+  document.getElementById("btn-docs-select-user-guide")?.addEventListener("click", () => {
+    loadDocumentationItem("user_guide");
+  });
+  document.getElementById("btn-docs-select-admin-guide")?.addEventListener("click", () => {
+    loadDocumentationItem("admin_guide");
+  });
+
+  const engToggleBtn = document.getElementById("btn-docs-toggle-eng-list");
+  const engSection = document.getElementById("docs-sidebar-eng-section");
+  engToggleBtn?.addEventListener("click", () => {
+    state.docsEngListVisible = !state.docsEngListVisible;
+    engSection?.classList.toggle("hidden", !state.docsEngListVisible);
+    engToggleBtn.classList.toggle("is-active", state.docsEngListVisible);
+    engToggleBtn.setAttribute("aria-expanded", state.docsEngListVisible ? "true" : "false");
+    if (state.docsEngListVisible) {
+      renderDocumentationEngineeringList();
+      if (state.currentDocId === "user_guide" || state.currentDocId === "admin_guide") {
+        loadDocumentationItem("readme");
+      }
+    }
+  });
+
+  document.getElementById("docs-viewer-search-input")?.addEventListener("input", (ev) => {
+    const q = (ev.target.value || "").trim().toLowerCase();
+    const rawMd = state.currentDocMarkdown || "";
+    if (!q) {
+      renderActiveDocMarkdownAndToc(rawMd);
+      return;
+    }
+    const sections = rawMd.split(/\n(?=##\s)/);
+    const matched = sections.filter((sec, idx) => idx === 0 || sec.toLowerCase().includes(q));
+    renderActiveDocMarkdownAndToc(
+      matched.length > 0 ? matched.join("\n\n") : `# No sections matching "${q}"\n\nTry a different keyword.`
+    );
+  });
+
+  document.getElementById("btn-docs-print-doc")?.addEventListener("click", () => {
+    const bodyHtml = document.getElementById("docs-viewer-markdown-body")?.innerHTML || "";
+    const relPath = document.getElementById("docs-current-rel-path")?.textContent || "";
+    printHtmlDocument(
+      `${state.currentDocTitle || "Documentation"} — Scouts BSA Merit Badge Counselor Workbench`,
+      `Source: ${relPath}`,
+      bodyHtml
+    );
+  });
+}
+
 
 

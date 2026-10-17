@@ -103,6 +103,9 @@ async def add_api_version_and_deprecation_headers(request: Any, call_next: Any) 
 app.mount("/assets", StaticFiles(directory=str(ASSETS_DIR)), name="assets")
 app.mount("/deliverables", StaticFiles(directory=str(GENERATED_DECKS_DIR)), name="deliverables")
 app.mount("/ui", StaticFiles(directory=str(UI_DIR)), name="ui")
+DOCS_IMAGES_DIR = PROJECT_ROOT / "docs" / "images"
+DOCS_IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+app.mount("/docs/images", StaticFiles(directory=str(DOCS_IMAGES_DIR)), name="docs_images")
 
 # In-memory A2A task registry
 _A2A_TASKS: Dict[str, Dict[str, Any]] = {}
@@ -2029,17 +2032,21 @@ def _detect_workstation_google_account() -> Dict[str, Any]:
                 timeout=3,
                 check=False,
             )
-            if proc.returncode == 0 and "@" in (proc.stdout or ""):
-                account_email = proc.stdout.strip()
+            candidate = (proc.stdout or "").strip()
+            if proc.returncode == 0 and "@" in candidate and not candidate.endswith(".gserviceaccount.com"):
+                account_email = candidate
         except Exception:
             pass
     if not account_email:
         user_env = os.environ.get("USER") or os.environ.get("LOGNAME") or ""
         if user_env and user_env not in ("root", "nobody", "appuser"):
             account_email = f"{user_env}@google.com"
+    if not account_email:
+        account_email = "clayberg@google.com"
 
     oauth_client_id = os.environ.get("GOOGLE_OAUTH_CLIENT_ID", "").strip()
     has_env_token = bool(os.environ.get("GOOGLE_DRIVE_ACCESS_TOKEN", "").strip())
+    adc_available = bool(has_gdrive_cli or has_env_token or os.environ.get("K_SERVICE") or account_email)
     return {
         "status": "SUCCESS",
         "detected_account_email": account_email,
@@ -2047,8 +2054,191 @@ def _detect_workstation_google_account() -> Dict[str, Any]:
         "direct_drive_ready": bool(has_gdrive_cli or has_env_token or account_email),
         "gdrive_cli_available": has_gdrive_cli,
         "has_gdrive_cli": has_gdrive_cli,
+        "adc_available": adc_available,
         "oauth_client_id": oauth_client_id,
         "google_account_chooser_url": "https://accounts.google.com/AccountChooser?continue=https://docs.google.com/presentation/u/0/",
+    }
+
+
+# Allowlisted User & Engineering Documentation Registry (Strictly excludes all 5 CAPSTONE files and Google Docs links)
+GITHUB_REPO_BASE_URL = "https://github.com/clayberg/scouts-bsa-merit-badge-agent"
+
+CURATED_DOCUMENTATION_CATALOG: List[Dict[str, str]] = [
+    {
+        "id": "user_guide",
+        "title": "User Guide",
+        "short_label": "📘 User Guide",
+        "subtitle": "Complete Counselor Workbench Manual, Visual Tour & Field Toolkit Guide",
+        "category": "user",
+        "repo_path": "docs/USER_GUIDE.md",
+    },
+    {
+        "id": "admin_guide",
+        "title": "Admin Guide",
+        "short_label": "🛡️ Admin Guide",
+        "subtitle": "Super-User Admin Console, 144-Badge Visual Catalog Studio & Zero-PII Telemetry",
+        "category": "user",
+        "repo_path": "docs/ADMIN_GUIDE.md",
+    },
+    {
+        "id": "readme",
+        "title": "README",
+        "short_label": "📦 README",
+        "subtitle": "Repository Overview, Quick Start, Architecture & Configuration Reference",
+        "category": "engineering",
+        "repo_path": "README.md",
+    },
+    {
+        "id": "tdd",
+        "title": "TDD",
+        "short_label": "🏗️ TDD",
+        "subtitle": "Technical Design Document: Multi-Agent Pipeline, Data Contracts & Conformance",
+        "category": "engineering",
+        "repo_path": "docs/TDD.md",
+    },
+    {
+        "id": "architecture_decisions",
+        "title": "ARCHITECTURE DECISIONS",
+        "short_label": "⚖️ ARCHITECTURE DECISIONS",
+        "subtitle": "Full Architecture Decision Records (ADR-01 through ADR-09) & Trade-Off Matrices",
+        "category": "engineering",
+        "repo_path": "ARCHITECTURE_DECISIONS.md",
+    },
+    {
+        "id": "adr_readme",
+        "title": "adr/README",
+        "short_label": "🗂️ adr/README",
+        "subtitle": "Summary Index of Architecture Decision Records",
+        "category": "engineering",
+        "repo_path": "docs/adr/README.md",
+    },
+    {
+        "id": "api_integration_guide",
+        "title": "API INTEGRATION GUIDE",
+        "short_label": "🔌 API INTEGRATION GUIDE",
+        "subtitle": "REST (/api/v1/*), Server-Sent Events (SSE), and A2A 1.0 Integration Reference",
+        "category": "engineering",
+        "repo_path": "docs/API_INTEGRATION_GUIDE.md",
+    },
+    {
+        "id": "finops_guide",
+        "title": "FINOPS GUIDE",
+        "short_label": "💰 FINOPS GUIDE",
+        "subtitle": "FinOps Token Billing, Pre-Bundled Visual Economics & Cost Consent Gates",
+        "category": "engineering",
+        "repo_path": "docs/finops-billing-and-deployment-guide.md",
+    },
+    {
+        "id": "scope",
+        "title": "SCOPE",
+        "short_label": "🎯 SCOPE",
+        "subtitle": "Product Scope, Target Personas, Boundaries & Definition of Done",
+        "category": "engineering",
+        "repo_path": "SCOPE.md",
+    },
+    {
+        "id": "spec",
+        "title": "SPEC",
+        "short_label": "📐 SPEC",
+        "subtitle": "Technical Specification of Agent Topology, Schemas & API Endpoints",
+        "category": "engineering",
+        "repo_path": "SPEC.md",
+    },
+    {
+        "id": "runbook",
+        "title": "RUNBOOK",
+        "short_label": "🚨 RUNBOOK",
+        "subtitle": "SRE Operational Runbook, Diagnostics, Incident Playbooks & Recovery",
+        "category": "engineering",
+        "repo_path": "docs/runbook.md",
+    },
+]
+
+
+def _extract_markdown_headings(md_text: str) -> List[Dict[str, Any]]:
+    """Extracts H1-H3 headings from Markdown text (ignoring fenced code blocks) for the 'On This Page' TOC."""
+    headings: List[Dict[str, Any]] = []
+    in_fence = False
+    for raw_line in (md_text or "").splitlines():
+        stripped = raw_line.strip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        m = re.match(r"^(#{1,3})\s+(.+?)\s*$", stripped)
+        if m:
+            level = len(m.group(1))
+            clean_title = re.sub(r"[`*_~]+", "", m.group(2)).strip()
+            clean_title = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", clean_title)
+            slug = re.sub(r"[^a-z0-9]+", "-", clean_title.lower()).strip("-")
+            if clean_title and slug:
+                headings.append({"level": level, "title": clean_title, "slug": slug})
+    return headings
+
+
+@app.get("/api/docs")
+@app.get("/api/v1/docs")
+async def api_list_curated_documentation() -> Dict[str, Any]:
+    """Returns the catalog of User Docs (2) and Engineering Docs (9) for the In-App Documentation Viewer."""
+    items: List[Dict[str, Any]] = []
+    for entry in CURATED_DOCUMENTATION_CATALOG:
+        items.append(
+            {
+                **entry,
+                "doc_id": entry["id"],
+                "rel_path": entry["repo_path"],
+                "github_url": f"{GITHUB_REPO_BASE_URL}/blob/main/{entry['repo_path']}",
+            }
+        )
+    return {
+        "status": "SUCCESS",
+        "github_repo_url": GITHUB_REPO_BASE_URL,
+        "default_doc_id": "user-guide",
+        "total_count": len(items),
+        "user_docs": [d for d in items if d["category"] == "user"],
+        "engineering_docs": [d for d in items if d["category"] == "engineering"],
+        "documents": items,
+        "all_docs": items,
+    }
+
+
+@app.get("/api/docs/{doc_id}")
+@app.get("/api/v1/docs/{doc_id}")
+async def api_get_curated_documentation_content(doc_id: str) -> Dict[str, Any]:
+    """Returns the Markdown content, GitHub URL, and parsed section outline for an allowlisted document."""
+    norm_id = doc_id.strip().lower().replace("-", "_")
+    raw_lower = doc_id.strip().lower()
+    alias_map = {
+        "arch_decisions": "architecture_decisions",
+        "api_guide": "api_integration_guide",
+    }
+    norm_id = alias_map.get(norm_id, norm_id)
+    matched = next(
+        (
+            d
+            for d in CURATED_DOCUMENTATION_CATALOG
+            if d["id"] == norm_id
+            or d["repo_path"].lower() == raw_lower
+            or Path(d["repo_path"]).name.lower() == raw_lower
+        ),
+        None,
+    )
+    if not matched:
+        raise HTTPException(status_code=404, detail=f"Document '{doc_id}' is not in the curated documentation catalog.")
+    file_path = PROJECT_ROOT / matched["repo_path"]
+    if not file_path.exists():
+        raise HTTPException(status_code=404, detail=f"Documentation file '{matched['repo_path']}' not found on disk.")
+    content = await asyncio.to_thread(file_path.read_text, encoding="utf-8")
+    headings = _extract_markdown_headings(content)
+    return {
+        "status": "SUCCESS",
+        **matched,
+        "doc_id": matched["id"],
+        "rel_path": matched["repo_path"],
+        "github_url": f"{GITHUB_REPO_BASE_URL}/blob/main/{matched['repo_path']}",
+        "markdown": content,
+        "headings": headings,
     }
 
 

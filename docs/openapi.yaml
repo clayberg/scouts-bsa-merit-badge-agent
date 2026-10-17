@@ -1,7 +1,6 @@
 openapi: 3.1.0
 info:
-  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
-    \ Server"
+  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -490,7 +489,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       responses:
         '200':
@@ -594,7 +593,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       responses:
         '200':
@@ -1038,6 +1037,94 @@ paths:
           content:
             application/json:
               schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/docs:
+    get:
+      summary: Api List Curated Documentation
+      description: Returns the catalog of User Docs (2) and Engineering Docs (9) for
+        the In-App Documentation Viewer.
+      operationId: api_list_curated_documentation_api_v1_docs_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Curated Documentation Api V1 Docs Get
+  /api/docs:
+    get:
+      summary: Api List Curated Documentation
+      description: Returns the catalog of User Docs (2) and Engineering Docs (9) for
+        the In-App Documentation Viewer.
+      operationId: api_list_curated_documentation_api_docs_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Curated Documentation Api Docs Get
+  /api/v1/docs/{doc_id}:
+    get:
+      summary: Api Get Curated Documentation Content
+      description: Returns the Markdown content, GitHub URL, and parsed section outline
+        for an allowlisted document.
+      operationId: api_get_curated_documentation_content_api_v1_docs__doc_id__get
+      parameters:
+      - name: doc_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Doc Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Curated Documentation Content Api V1 Docs  Doc
+                  Id  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/docs/{doc_id}:
+    get:
+      summary: Api Get Curated Documentation Content
+      description: Returns the Markdown content, GitHub URL, and parsed section outline
+        for an allowlisted document.
+      operationId: api_get_curated_documentation_content_api_docs__doc_id__get
+      parameters:
+      - name: doc_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Doc Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Curated Documentation Content Api Docs  Doc
+                  Id  Get
         '422':
           description: Validation Error
           content:
@@ -4796,7 +4883,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
         session_id:
           type: string
           title: Session Id

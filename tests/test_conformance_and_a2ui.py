@@ -2061,3 +2061,87 @@ def test_v28_plan10_ui_presenter_gslides_finops_and_animation() -> None:
     assert "iso_heavy_4_foreground_cable.png" in ui_html
     assert ".m3-construction-foreground-cable" in ui_css
     assert "construction-foreground-cable-overlay" in ui_js
+
+
+def test_v29_plan11_modals_presenter_docs_viewer_and_readme_clean() -> None:
+    """Verifies Plan 11: FinOps & Google Slides modal alignment, Presenter View 3-card layout + fullscreen centering + non-disruptive 2nd Monitor, Footer GitHub link, Option A Documentation Studio Viewer (excluding Capstone & Google Docs), and clean README/docs."""
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from src.server import app
+
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    readme_md = (repo_root / "README.md").read_text(encoding="utf-8")
+
+    client = TestClient(app)
+
+    # 1. Issue 1: FinOps Cost Estimate Gate Modal lavender & amber cards + single-row pill buttons + Force fresh checkbox
+    assert 'id="finops-card-single-slide"' in ui_html
+    assert 'id="finops-card-entire-deck"' in ui_html
+    assert "OPTION 1 &bull; CURRENT SLIDE ONLY" in ui_html
+    assert 'id="finops-deck-option-kicker"' in ui_html
+    assert 'id="chk-finops-force-repolish"' in ui_html
+    assert 'id="chk-finops-dont-ask-session"' in ui_html
+    assert ".m3-finops-pill-btn-single" in ui_css
+    assert ".m3-finops-pill-btn-deck" in ui_css
+
+    # 2. Issue 2: Presenter View 3-card layout, widescreen fullscreen centering, and non-disruptive 2nd Monitor popup
+    assert "PRESENTER VIEW" in ui_html
+    assert 'id="pc-dock-upnext-card"' in ui_html
+    assert "formatPresenterConsoleCardsHtml" in ui_js
+    assert "m3-pc-cue-card-say" in ui_js and "m3-pc-cue-card-demo" in ui_js and "m3-pc-cue-card-ask" in ui_js
+    assert "margin: 0 auto !important;" in ui_css
+    assert "_openingSecondMonitorPopupAt" in ui_js
+
+    # 3. Issue 3: Google Slides Account & Destination Modal 2-card layout + detected account email
+    acc_res = client.get("/api/v1/slide/export-gslides/account-info").json()
+    assert acc_res["status"] == "SUCCESS"
+    assert "@" in acc_res["detected_account_email"] and ".gserviceaccount.com" not in acc_res["detected_account_email"]
+    assert "1. Active Workstation Google Drive Account" in ui_html
+    assert "2. Share / Open with Personal Gmail or Secondary Account (Optional)" in ui_html
+    assert 'id="btn-gslides-pick-google-account"' in ui_html
+    assert 'id="btn-gslides-create-and-open-tab"' in ui_html
+
+    # 4. New Feature 1: Application Footer GitHub link
+    assert 'id="footer-github-repo-link"' in ui_html
+    assert 'href="https://github.com/clayberg/scouts-bsa-merit-badge-agent"' in ui_html
+
+    # 5. New Feature 2: Top-bar Documentation button + Option A Dual-Mode Documentation Studio Modal & API
+    assert 'id="btn-open-docs-viewer"' in ui_html
+    assert 'id="docs-viewer-modal"' in ui_html
+    assert 'id="btn-docs-select-user-guide"' in ui_html
+    assert 'id="btn-docs-select-admin-guide"' in ui_html
+    assert 'id="btn-docs-toggle-eng-list"' in ui_html
+    assert "Open Google Doc" not in ui_html
+
+    docs_cat = client.get("/api/v1/docs").json()
+    assert docs_cat["status"] == "SUCCESS"
+    assert docs_cat["total_count"] == 11
+    assert len(docs_cat["user_docs"]) == 2
+    assert len(docs_cat["engineering_docs"]) == 9
+    all_ids = [d["doc_id"] for d in docs_cat["all_docs"]]
+    assert "user_guide" in all_ids and "admin_guide" in all_ids
+    assert all("capstone" not in doc_id.lower() for doc_id in all_ids)
+
+    ug_doc = client.get("/api/v1/docs/user_guide").json()
+    assert ug_doc["status"] == "SUCCESS"
+    assert ug_doc["doc_id"] == "user_guide"
+    assert len(ug_doc["markdown"]) > 1000
+    assert "https://github.com/clayberg/scouts-bsa-merit-badge-agent/blob/main/docs/USER_GUIDE.md" == ug_doc["github_url"]
+
+    # Reject any non-allowlisted or Capstone doc request
+    bad_doc = client.get("/api/v1/docs/capstone_panel_playbook")
+    assert bad_doc.status_code == 404
+
+    # 6. New Feature 3: Verify README.md and all 11 curated docs have zero Capstone or Google Docs references
+    assert "CAPSTONE" not in readme_md and "capstone" not in readme_md.lower()
+    for d in docs_cat["all_docs"]:
+        doc_path = repo_root / d["rel_path"]
+        assert doc_path.exists(), f"Missing doc {d['rel_path']}"
+        text = doc_path.read_text(encoding="utf-8")
+        assert "docs.google.com/document" not in text, f"{d['rel_path']} still references docs.google.com/document"
+        assert "1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E" not in text, f"{d['rel_path']} still references executive briefing slide deck"
+        assert "Executive Briefing" not in text, f"{d['rel_path']} still references Executive Briefing"
+
