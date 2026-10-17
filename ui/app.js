@@ -32,6 +32,7 @@ const state = {
   filmstripQuery: "",
   deckConfigDirty: false,
   activeUnderstageTab: "notes",
+  presenterFontScale: 0.90,
   revealedQuizSlides: new Set(),
   checkedGearItems: new Set(),
 };
@@ -275,6 +276,7 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
   const imgEl = document.getElementById("construction-frame-img");
   const slotEl = document.getElementById("construction-emblem-slot");
   const overlayImgEl = document.getElementById("construction-badge-emblem-overlay");
+  const fgCableEl = document.getElementById("construction-foreground-cable-overlay");
   const titleEl = document.getElementById("construction-step-title");
   const descEl = document.getElementById("construction-step-desc");
   const counterEl = document.getElementById("construction-frame-counter");
@@ -292,6 +294,12 @@ function renderConstructionFrame(frameIdx, autoCycleConcept = true) {
         overlayImgEl.style.transform = frame.emblemSlot.imgTransform || "none";
         overlayImgEl.style.filter = frame.emblemSlot.imgFilter || "";
       }
+    }
+    if (fgCableEl) {
+      const isHelicopterHoistFrame =
+        currentConceptKey === "iso_heavy" &&
+        (safeIdx === 3 || String(frame.src || "").includes("iso_heavy_4_helicopter_emblem"));
+      fgCableEl.classList.toggle("hidden", !isHelicopterHoistFrame);
     }
     imgEl?.classList.remove("fade-step");
   };
@@ -1153,9 +1161,9 @@ function bindFilterAndSlideControls() {
     renderActiveSlide(state.activeSlideIdx);
   });
 
-  document.getElementById("btn-ai-polish-notes")?.addEventListener("click", async (ev) => {
-    const btn = ev.currentTarget;
-    if (!state.currentResult) return;
+  const executePolishSingleSlide = async (forceRefreshOverride = null) => {
+    const btn = document.getElementById("btn-ai-polish-notes");
+    if (!btn || !state.currentResult) return;
     const slides = state.currentResult.storyboard?.slides || [];
     const isCover = state.activeSlideIdx === -1;
     if (!isCover && (state.activeSlideIdx < 0 || !slides[state.activeSlideIdx])) return;
@@ -1170,10 +1178,14 @@ function bindFilterAndSlideControls() {
     const alreadyPolished = isCover
       ? Boolean(state.currentResult._polishedCoverNotes)
       : Boolean(slide._isPolishedNotes);
+    const shouldForceRefresh =
+      typeof forceRefreshOverride === "boolean" ? forceRefreshOverride : alreadyPolished;
     if (!isCover && !slide._originalProceduralNotes && slide.presenter_notes) {
       slide._originalProceduralNotes = slide.presenter_notes;
     }
-    const nextSeed = ((isCover ? state.currentResult._coverPolishSeed : slide._polishVariationSeed) || 0) + 1;
+    const nextSeed = shouldForceRefresh
+      ? ((isCover ? state.currentResult._coverPolishSeed : slide._polishVariationSeed) || 0) + 1
+      : 0;
     if (isCover) {
       state.currentResult._coverPolishSeed = nextSeed;
     } else {
@@ -1194,17 +1206,22 @@ function bindFilterAndSlideControls() {
           badge_name: state.currentResult.badge_name || "First Aid",
           slide_index: state.activeSlideIdx,
           slide_data: slide,
-          audience_level: document.getElementById("audience-select")?.value || slide.audience_level || "All Scouts (Ages 11-17)",
+          audience_level:
+            document.getElementById("audience-select")?.value ||
+            slide.audience_level ||
+            "All Scouts (Ages 11-17)",
           storyboard_slides: slides,
           counselor_info: state.currentResult.counselor_info || {},
           output_path: state.currentResult.output_path || "",
-          force_refresh: alreadyPolished,
+          force_refresh: shouldForceRefresh,
           variation_seed: nextSeed,
         }),
       });
       if (resp.ok) {
         const data = await resp.json();
-        const src = data.polish_source || (data.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
+        const src =
+          data.polish_source ||
+          (data.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
         if (data.presenter_notes) {
           if (isCover) {
             state.currentResult._polishedCoverNotes = data.presenter_notes;
@@ -1234,11 +1251,11 @@ function bindFilterAndSlideControls() {
       btn.disabled = false;
       btn.textContent = origText;
     }
-  });
+  };
 
-  document.getElementById("btn-ai-polish-deck")?.addEventListener("click", async (ev) => {
-    const btn = ev.currentTarget;
-    if (!state.currentResult) return;
+  const executePolishEntireDeck = async (forceRefreshOverride = false) => {
+    const btn = document.getElementById("btn-ai-polish-deck");
+    if (!btn || !state.currentResult) return;
     const slides = state.currentResult.storyboard?.slides || [];
     if (!slides.length) return;
     const totalSlides = slides.length;
@@ -1246,6 +1263,7 @@ function bindFilterAndSlideControls() {
     const audienceLevel = document.getElementById("audience-select")?.value || "All Scouts (Ages 11-17)";
     const statusPill = document.getElementById("notes-polish-status-pill");
     const origText = btn.textContent;
+    const shouldForceRefresh = Boolean(forceRefreshOverride);
     const t0 = performance.now();
     let completedCount = 0;
     let geminiCount = 0;
@@ -1265,7 +1283,6 @@ function bindFilterAndSlideControls() {
     updateBatchCounterUi(0);
 
     try {
-      // Build ordered work queue: prioritize currently viewed slide first so user sees immediate update, then cover + rest of deck
       const activeIdx = state.activeSlideIdx;
       const orderedIndices = [];
       if (activeIdx >= 0 && activeIdx < totalSlides) {
@@ -1275,7 +1292,6 @@ function bindFilterAndSlideControls() {
         if (i !== activeIdx) orderedIndices.push(i);
       }
 
-      // Also polish cover slide alongside the first wave
       const coverPromise = fetch("/api/v1/slide/polish-notes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -1289,14 +1305,16 @@ function bindFilterAndSlideControls() {
           },
           audience_level: audienceLevel,
           storyboard_slides: [],
-          force_refresh: true,
-          variation_seed: 1,
+          force_refresh: shouldForceRefresh,
+          variation_seed: shouldForceRefresh ? 1 : 0,
         }),
       })
         .then((r) => (r.ok ? r.json() : null))
         .then((cData) => {
           if (cData && cData.presenter_notes) {
-            const cSrc = cData.polish_source || (cData.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
+            const cSrc =
+              cData.polish_source ||
+              (cData.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
             state.currentResult._polishedCoverNotes = cData.presenter_notes;
             state.currentResult._coverPolishSource = cSrc;
             state.currentResult._coverPolishFallbackReason = cData.fallback_reason || "";
@@ -1328,13 +1346,15 @@ function bindFilterAndSlideControls() {
                 slide_data: sObj,
                 audience_level: audienceLevel,
                 storyboard_slides: [],
-                force_refresh: true,
-                variation_seed: (idx % 5) + 1,
+                force_refresh: shouldForceRefresh,
+                variation_seed: shouldForceRefresh ? (idx % 5) + 1 : 0,
               }),
             });
             if (sResp.ok) {
               const sData = await sResp.json();
-              const src = sData.polish_source || (sData.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
+              const src =
+                sData.polish_source ||
+                (sData.polish_engine === "gemini-flash" ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH");
               if (sData.presenter_notes) {
                 sObj.presenter_notes = sData.presenter_notes;
                 sObj._isPolishedNotes = true;
@@ -1364,7 +1384,6 @@ function bindFilterAndSlideControls() {
       const workers = Array.from({ length: Math.min(CONCURRENCY, orderedIndices.length) }, () => runWorker());
       await Promise.all([coverPromise, ...workers]);
 
-      // Rebuild the .pptx once using the warm SQLite cache from the completed batch
       const batchResp = await fetch("/api/v1/slide/polish-notes-batch", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -1404,6 +1423,190 @@ function bindFilterAndSlideControls() {
       btn.disabled = false;
       btn.textContent = origText;
     }
+  };
+
+  const openAiPolishFinopsGateModal = async (requestedMode = "single") => {
+    const modal = document.getElementById("ai-polish-finops-modal");
+    if (!modal || !state.currentResult) return;
+    const slides = state.currentResult.storyboard?.slides || [];
+    const totalSlides = slides.length + 1;
+    const isCover = state.activeSlideIdx === -1;
+    const activeSlide = isCover
+      ? { title: `${state.currentResult.badge_name || "First Aid"} Merit Badge - Cover Slide`, req_number: "Cover" }
+      : slides[Math.max(0, state.activeSlideIdx)] || {};
+
+    const singleCard = document.getElementById("finops-card-single-slide");
+    const deckCard = document.getElementById("finops-card-entire-deck");
+    const singleBadge = document.getElementById("finops-single-cache-badge");
+    const singleCostEl = document.getElementById("finops-single-cost-value");
+    const singleMetaEl = document.getElementById("finops-single-token-meta");
+    const deckCountBadge = document.getElementById("finops-deck-slide-count-badge");
+    const deckCostEl = document.getElementById("finops-deck-cost-value");
+    const deckMetaEl = document.getElementById("finops-deck-token-meta");
+    const forceChk = document.getElementById("chk-finops-force-repolish");
+    const btnSingle = document.getElementById("btn-confirm-polish-single-slide");
+    const btnDeck = document.getElementById("btn-confirm-polish-entire-deck");
+
+    if (singleCard) {
+      singleCard.style.borderColor = requestedMode === "single" ? "#003F87" : "#CBD5E1";
+      singleCard.style.boxShadow =
+        requestedMode === "single" ? "0 0 0 3px rgba(0, 63, 135, 0.16)" : "none";
+    }
+    if (deckCard) {
+      deckCard.style.borderColor = requestedMode === "deck" ? "#D97706" : "#CBD5E1";
+      deckCard.style.boxShadow =
+        requestedMode === "deck" ? "0 0 0 3px rgba(217, 119, 6, 0.18)" : "none";
+    }
+
+    let estimate = {
+      single_slide_cached: false,
+      single_slide_input_tokens: 450,
+      single_slide_output_tokens: 280,
+      single_slide_cost_usd: 0.000835,
+      total_slides: totalSlides,
+      cached_slides_count: 0,
+      uncached_slides_count: totalSlides,
+      deck_uncached_cost_usd: Number((totalSlides * 0.000835).toFixed(4)),
+      deck_full_repolish_cost_usd: Number((totalSlides * 0.000835).toFixed(4)),
+    };
+
+    const renderEstimateUi = () => {
+      const force = Boolean(forceChk?.checked);
+      const slideNumLabel = isCover ? "Cover Slide" : `Slide #${state.activeSlideIdx + 2}`;
+      const singleCached = estimate.single_slide_cached && !force;
+      const singleUsd = singleCached ? 0 : estimate.single_slide_cost_usd || 0.000835;
+      if (singleBadge) {
+        singleBadge.textContent = singleCached ? `${slideNumLabel} • Cached ($0)` : slideNumLabel;
+      }
+      if (singleCostEl) {
+        singleCostEl.innerHTML = singleCached
+          ? `$0.0000 <span style="font-size:0.78rem; font-weight:600; color:#15803D;">(Cached in SQLite • ~$0.0008 if re-polished)</span>`
+          : `~$${singleUsd.toFixed(4)} <span style="font-size:0.78rem; font-weight:600; color:#475569;">(&lt; $0.001 USD)</span>`;
+      }
+      if (singleMetaEl) {
+        singleMetaEl.textContent = `~${estimate.single_slide_input_tokens} input + ~${estimate.single_slide_output_tokens} output tokens • 1 Gemini Flash call (~1.5s)`;
+      }
+
+      const nTotal = estimate.total_slides || totalSlides;
+      const nCached = estimate.cached_slides_count || 0;
+      const nUncached = force ? nTotal : estimate.uncached_slides_count ?? nTotal;
+      const deckUsd = force
+        ? estimate.deck_full_repolish_cost_usd || nTotal * 0.000835
+        : estimate.deck_uncached_cost_usd ?? nUncached * 0.000835;
+
+      if (deckCountBadge) {
+        deckCountBadge.textContent =
+          nCached > 0 && !force
+            ? `${nTotal} Slides (${nCached} Cached)`
+            : `${nTotal} Slides`;
+      }
+      if (deckCostEl) {
+        deckCostEl.innerHTML = `~$${Number(deckUsd).toFixed(3)} <span style="font-size:0.78rem; font-weight:600; color:#92400E;">USD</span>`;
+      }
+      if (deckMetaEl) {
+        deckMetaEl.textContent =
+          nCached > 0 && !force
+            ? `${nUncached} uncached slides × $0.0008 / slide (${nCached} already cached in SQLite at $0.00)`
+            : `${nTotal} slides × $0.0008 / slide • Parallel batch (6x concurrency)`;
+      }
+      if (btnSingle) {
+        btnSingle.textContent = `✨ Polish Current Slide (~$${singleUsd > 0 ? singleUsd.toFixed(4) : "0.0008"})`;
+      }
+      if (btnDeck) {
+        btnDeck.textContent = `✨ Polish Entire Deck (${nTotal} Slides • ~$${Number(deckUsd).toFixed(3)})`;
+      }
+    };
+
+    renderEstimateUi();
+    modal.classList.remove("hidden");
+    modal.classList.add("open");
+
+    try {
+      const resp = await fetch("/api/v1/slide/estimate-polish-cost", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name || "First Aid",
+          slide_index: state.activeSlideIdx,
+          slide_data: activeSlide,
+          storyboard_slides: slides,
+          audience_level:
+            document.getElementById("audience-select")?.value || "All Scouts (Ages 11-17)",
+        }),
+      });
+      if (resp.ok) {
+        const serverEst = await resp.json();
+        estimate = { ...estimate, ...serverEst };
+        renderEstimateUi();
+      }
+    } catch (_e) {}
+
+    if (forceChk) {
+      forceChk.onchange = () => renderEstimateUi();
+    }
+  };
+
+  document.getElementById("btn-close-ai-polish-finops")?.addEventListener("click", () => {
+    const m = document.getElementById("ai-polish-finops-modal");
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+  });
+  document.getElementById("btn-cancel-ai-polish-finops")?.addEventListener("click", () => {
+    const m = document.getElementById("ai-polish-finops-modal");
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+  });
+  document.getElementById("btn-confirm-polish-single-slide")?.addEventListener("click", async () => {
+    const m = document.getElementById("ai-polish-finops-modal");
+    const force = Boolean(document.getElementById("chk-finops-force-repolish")?.checked);
+    const dontAsk = Boolean(document.getElementById("chk-finops-dont-ask-session")?.checked);
+    if (dontAsk) {
+      try {
+        window.sessionStorage.setItem("bsa_ai_polish_finops_ack_v1", "1");
+      } catch (_e) {}
+    }
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+    await executePolishSingleSlide(force ? true : null);
+  });
+  document.getElementById("btn-confirm-polish-entire-deck")?.addEventListener("click", async () => {
+    const m = document.getElementById("ai-polish-finops-modal");
+    const force = Boolean(document.getElementById("chk-finops-force-repolish")?.checked);
+    const dontAsk = Boolean(document.getElementById("chk-finops-dont-ask-session")?.checked);
+    if (dontAsk) {
+      try {
+        window.sessionStorage.setItem("bsa_ai_polish_finops_ack_v1", "1");
+      } catch (_e) {}
+    }
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+    await executePolishEntireDeck(force);
+  });
+
+  document.getElementById("btn-ai-polish-notes")?.addEventListener("click", async () => {
+    if (!state.currentResult) return;
+    let acked = false;
+    try {
+      acked = window.sessionStorage.getItem("bsa_ai_polish_finops_ack_v1") === "1";
+    } catch (_e) {}
+    if (!acked) {
+      await openAiPolishFinopsGateModal("single");
+      return;
+    }
+    await executePolishSingleSlide(null);
+  });
+
+  document.getElementById("btn-ai-polish-deck")?.addEventListener("click", async () => {
+    if (!state.currentResult) return;
+    let acked = false;
+    try {
+      acked = window.sessionStorage.getItem("bsa_ai_polish_finops_ack_v1") === "1";
+    } catch (_e) {}
+    if (!acked) {
+      await openAiPolishFinopsGateModal("deck");
+      return;
+    }
+    await executePolishEntireDeck(false);
   });
 
   // Quick-Switch Slide Image button
@@ -6039,6 +6242,14 @@ function togglePresenterConsoleMode(forceState) {
   if (!stageWrapper || !dockEl) return;
   const nextActive = typeof forceState === "boolean" ? forceState : !state.presenterConsoleOpen;
   state.presenterConsoleOpen = nextActive;
+
+  // If entering Presenter Console while the Construction Animation stage is visible,
+  // auto-hide the construction animation so the active slide canvas and presenter dock are centered side-by-side.
+  const animStage = document.getElementById("slide-construction-stage");
+  if (nextActive && animStage && !animStage.classList.contains("hidden")) {
+    hideConstructionAnimationStage();
+  }
+
   stageWrapper.classList.toggle("is-presenter-console-active", nextActive);
   dockEl.classList.toggle("hidden", !nextActive);
 
@@ -6057,8 +6268,27 @@ function togglePresenterConsoleMode(forceState) {
   setTimeout(() => fitActiveSlideToStage(), 40);
 }
 
+function changePresenterFontScale(delta) {
+  const current = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.90;
+  const nextScale = Math.min(1.45, Math.max(0.74, Math.round((current + delta) * 100) / 100));
+  state.presenterFontScale = nextScale;
+  const dockNotes = document.getElementById("pc-dock-notes-body");
+  if (dockNotes) {
+    dockNotes.style.fontSize = `${nextScale}rem`;
+  }
+  if (presenterPopupWin && !presenterPopupWin.closed) {
+    try {
+      const notesEl = presenterPopupWin.document.getElementById("pv-notes-body");
+      if (notesEl) {
+        notesEl.style.fontSize = `${Math.round((nextScale + 0.12) * 100) / 100}rem`;
+      }
+    } catch (_e) {}
+  }
+}
+
 function syncPresenterViewWindow() {
   const payload = buildPresenterSyncPayload();
+  const slides = state.currentResult?.storyboard?.slides || [];
 
   // 1. Update In-Stage Split-Screen Presenter Console Dock
   const dockTitle = document.getElementById("pc-dock-slide-title");
@@ -6066,11 +6296,25 @@ function syncPresenterViewWindow() {
   const dockNotes = document.getElementById("pc-dock-notes-body");
   const dockNext = document.getElementById("pc-dock-next-slide");
   const dockTimer = document.getElementById("pc-dock-timer");
+  const prevBtn = document.getElementById("btn-pc-prev-slide");
+  const nextBtn = document.getElementById("btn-pc-next-slide");
+
   if (dockTitle) dockTitle.textContent = payload.slideTitle;
   if (dockMeta) dockMeta.textContent = `${payload.badgeName} • ${payload.slideNumberLabel} • ${payload.reqLabel}`;
-  if (dockNotes) dockNotes.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
+  if (dockNotes) {
+    dockNotes.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
+    const scale = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.90;
+    dockNotes.style.fontSize = `${scale}rem`;
+  }
   if (dockNext) dockNext.textContent = payload.nextSlideTitle;
-  if (dockTimer) dockTimer.textContent = `⏱️ ${payload.timerFormatted}`;
+  if (dockTimer) {
+    dockTimer.textContent = `⏱️ ${payload.timerFormatted}`;
+    dockTimer.title = state.sessionTimerRunning
+      ? "Timer running (Click to Pause)"
+      : "Click to Start/Resume Session Timer";
+  }
+  if (prevBtn) prevBtn.disabled = state.activeSlideIdx <= -1;
+  if (nextBtn) nextBtn.disabled = state.activeSlideIdx >= slides.length - 1;
 
   // 2. BroadcastChannel + Optional 2nd-Monitor Popup Window
   try {
@@ -6086,11 +6330,15 @@ function syncPresenterViewWindow() {
       const notesEl = doc.getElementById("pv-notes-body");
       const nextEl = doc.getElementById("pv-next-slide");
       const timerEl = doc.getElementById("pv-timer");
+      const pvPrevBtn = doc.getElementById("pv-btn-prev");
+      const pvNextBtn = doc.getElementById("pv-btn-next");
       if (titleEl) titleEl.textContent = payload.slideTitle;
       if (metaEl) metaEl.textContent = `${payload.badgeName} • ${payload.slideNumberLabel} • ${payload.reqLabel}`;
       if (notesEl) notesEl.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
       if (nextEl) nextEl.textContent = payload.nextSlideTitle;
       if (timerEl) timerEl.textContent = `⏱️ ${payload.timerFormatted}`;
+      if (pvPrevBtn) pvPrevBtn.disabled = state.activeSlideIdx <= -1;
+      if (pvNextBtn) pvNextBtn.disabled = state.activeSlideIdx >= slides.length - 1;
     } catch (_e) {
       // ignore cross-window race
     }
@@ -6098,79 +6346,126 @@ function syncPresenterViewWindow() {
 }
 
 function openPresenterViewWindow() {
-  presenterPopupWin = window.open("", "BSAPresenterView", "width=680,height=780,resizable=yes,scrollbars=yes");
+  const popupLeft = Math.max(20, (window.screenX || 0) + (window.outerWidth || 1200) - 660);
+  const popupTop = Math.max(20, (window.screenY || 0) + 60);
+  const features = `popup=yes,width=640,height=720,left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`;
+  presenterPopupWin = window.open("", "BSAPresenterView", features);
   if (!presenterPopupWin) return;
   const payload = buildPresenterSyncPayload();
+  const baseFontScale = Math.round(((state.presenterFontScale || 0.90) + 0.12) * 100) / 100;
   presenterPopupWin.document.open();
   presenterPopupWin.document.write(`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Counselor Presenter View — ${escapeHtml(payload.badgeName)}</title>
+  <title>2nd Monitor Speaker Teleprompter — ${escapeHtml(payload.badgeName)}</title>
   <style>
     body {
       margin: 0;
-      padding: 20px;
+      padding: 18px 20px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #0F172A;
       color: #F8FAFC;
       line-height: 1.55;
     }
+    .pv-banner {
+      background: rgba(30, 58, 138, 0.45);
+      border: 1px solid #3B82F6;
+      border-radius: 8px;
+      padding: 6px 12px;
+      margin-bottom: 12px;
+      font-size: 0.76rem;
+      color: #BFDBFE;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     .pv-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 2px solid #334155;
-      padding-bottom: 12px;
-      margin-bottom: 14px;
+      border-bottom: 1.5px solid #334155;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+      gap: 8px;
+      flex-wrap: wrap;
     }
     .pv-timer {
       font-family: monospace;
-      font-size: 1.35rem;
+      font-size: 1.05rem;
       font-weight: 800;
       color: #4ADE80;
-      background: #1E293B;
-      padding: 6px 14px;
+      background: #022C22;
+      padding: 5px 12px;
       border-radius: 999px;
-      border: 1px solid #334155;
+      border: 1px solid #10B981;
+      cursor: pointer;
+    }
+    .pv-controls {
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
     .pv-controls button {
-      background: #003F87;
-      color: #FFFFFF;
-      border: 1px solid #60A5FA;
+      height: 32px;
+      background: #1E293B;
+      color: #E2E8F0;
+      border: 1px solid #475569;
       border-radius: 8px;
-      padding: 8px 14px;
+      padding: 0 11px;
       font-weight: 700;
+      font-size: 0.78rem;
       cursor: pointer;
-      margin-left: 6px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pv-controls button:hover:not(:disabled) {
+      background: #334155;
+      border-color: #60A5FA;
+      color: #FFFFFF;
+    }
+    .pv-controls button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .pv-controls button.pv-nav-btn {
+      background: linear-gradient(135deg, #1E3A8A 0%, #003F87 100%);
+      border-color: #60A5FA;
+      color: #FFFFFF;
+    }
+    .pv-controls button.pv-close-btn:hover {
+      background: #7F1D1D;
+      border-color: #F87171;
+      color: #FECACA;
     }
     .pv-title {
-      font-size: 1.25rem;
+      font-size: 1.18rem;
       font-weight: 800;
       color: #FDE047;
-      margin: 4px 0 12px 0;
+      margin: 4px 0 10px 0;
     }
     .pv-notes {
       background: #1E293B;
       border: 1px solid #334155;
       border-radius: 12px;
       padding: 16px;
-      font-size: 1.05rem;
-      min-height: 320px;
+      font-size: ${baseFontScale}rem;
+      min-height: 340px;
     }
     .m3-cue-tag {
       display: inline-block;
       padding: 2px 8px;
       border-radius: 6px;
       font-weight: 800;
-      font-size: 0.82rem;
+      font-size: 0.80rem;
       background: #DBEAFE;
       color: #1E3A8A;
       margin-right: 6px;
     }
     .m3-stage-cue-pill {
       display: inline-block;
-      font-size: 0.80rem;
+      font-size: 0.78rem;
       font-weight: 700;
       font-style: italic;
       color: #FDE68A;
@@ -6186,32 +6481,36 @@ function openPresenterViewWindow() {
       background: #064E3B;
       border-left: 4px solid #10B981;
       border-radius: 6px;
-      font-size: 0.92rem;
+      font-size: 0.90rem;
       color: #A7F3D0;
       font-weight: 600;
     }
     .pv-next {
-      margin-top: 14px;
+      margin-top: 12px;
       padding: 10px 14px;
       background: #1E293B;
       border-left: 4px solid #60A5FA;
       border-radius: 6px;
-      font-size: 0.90rem;
+      font-size: 0.88rem;
       color: #CBD5E1;
     }
   </style>
 </head>
 <body>
+  <div class="pv-banner">
+    <span>🪟 <strong>Floating Companion Teleprompter</strong> — Drag this window to your laptop screen while projecting the main slide deck.</span>
+  </div>
   <div class="pv-top">
     <div>
-      <div id="pv-slide-meta" style="font-size:0.82rem; color:#94A3B8; font-weight:700;">${escapeHtml(payload.badgeName)} • ${escapeHtml(payload.slideNumberLabel)}</div>
+      <div id="pv-slide-meta" style="font-size:0.82rem; color:#94A3B8; font-weight:700;">${escapeHtml(payload.badgeName)} • ${escapeHtml(payload.slideNumberLabel)} • ${escapeHtml(payload.reqLabel)}</div>
     </div>
-    <div style="display:flex; align-items:center; gap:8px;">
-      <span class="pv-timer" id="pv-timer">⏱️ ${escapeHtml(payload.timerFormatted)}</span>
-      <div class="pv-controls">
-        <button type="button" id="pv-btn-prev">◀ Prev</button>
-        <button type="button" id="pv-btn-next">Next ▶</button>
-      </div>
+    <div class="pv-controls">
+      <span class="pv-timer" id="pv-timer" title="Click to Start/Pause Session Timer">⏱️ ${escapeHtml(payload.timerFormatted)}</span>
+      <button type="button" id="pv-btn-font-dec" title="Decrease Font Size">A−</button>
+      <button type="button" id="pv-btn-font-inc" title="Increase Font Size">A+</button>
+      <button type="button" class="pv-nav-btn" id="pv-btn-prev">◀ Prev</button>
+      <button type="button" class="pv-nav-btn" id="pv-btn-next">Next ▶</button>
+      <button type="button" class="pv-close-btn" id="pv-btn-close" title="Close Floating Window">✕</button>
     </div>
   </div>
   <div class="pv-title" id="pv-slide-title">${escapeHtml(payload.slideTitle)}</div>
@@ -6220,11 +6519,23 @@ function openPresenterViewWindow() {
 </body>
 </html>`);
   presenterPopupWin.document.close();
+  presenterPopupWin.document.getElementById("pv-timer")?.addEventListener("click", () => {
+    toggleSessionTimer();
+  });
+  presenterPopupWin.document.getElementById("pv-btn-font-dec")?.addEventListener("click", () => {
+    changePresenterFontScale(-0.08);
+  });
+  presenterPopupWin.document.getElementById("pv-btn-font-inc")?.addEventListener("click", () => {
+    changePresenterFontScale(0.08);
+  });
   presenterPopupWin.document.getElementById("pv-btn-prev")?.addEventListener("click", () => {
     document.getElementById("btn-prev-slide")?.click();
   });
   presenterPopupWin.document.getElementById("pv-btn-next")?.addEventListener("click", () => {
     document.getElementById("btn-next-slide")?.click();
+  });
+  presenterPopupWin.document.getElementById("pv-btn-close")?.addEventListener("click", () => {
+    presenterPopupWin?.close();
   });
   presenterPopupWin.document.addEventListener("keydown", (ev) => {
     if (ev.key === "ArrowLeft") {
@@ -6235,6 +6546,9 @@ function openPresenterViewWindow() {
       document.getElementById("btn-next-slide")?.click();
     }
   });
+  try {
+    presenterPopupWin.focus();
+  } catch (_e) {}
 }
 
 // Feature C4: Printable 3x5 / 4x6 Counselor Pocket Cue Cards
@@ -6875,9 +7189,9 @@ function renderAdminAssetMatrixTable() {
         <td>${escapeHtml(r.category || "")}</td>
         <td>${r.cover_present ? "✅" : "⚠️"}</td>
         <td>${r.emblem_present ? "✅" : "⚠️"}</td>
-        <td>${r.pdf_and_index_present !== false ? `✅ (${r.indexed_reqs || 5} Reqs)` : "⚠️"}</td>
-        <td><strong>${r.pamphlet_figures}</strong></td>
-        <td><strong>${r.nano_banana_heroes}</strong></td>
+        <td><strong>${r.pamphlet_figures}</strong> figs</td>
+        <td><strong>${r.nano_banana_heroes}</strong> heroes</td>
+        <td>${r.pdf_and_index_present !== false ? `✅ (${r.indexed_reqs || 8} Reqs)` : "⚠️"}</td>
         <td>
           <button type="button" class="m3-btn m3-btn-tonal" data-admin-inspect-badge="${escapeHtml(r.badge_name)}" style="padding:3px 9px; font-size:0.72rem;">
             🖼️ Inspect Visuals
@@ -7026,18 +7340,116 @@ function renderPatchGalleryModal() {
   });
 }
 
-async function exportActiveDeckToGoogleSlides() {
+async function openGoogleSlidesExportModal() {
+  if (!state.currentResult) return;
+  const modal = document.getElementById("gslides-export-modal");
+  if (!modal) return;
+  const accountEmailEl = document.getElementById("gslides-detected-account-email");
+  const authModeBadgeEl = document.getElementById("gslides-detected-auth-mode-badge");
+  const shareEmailInput = document.getElementById("gslides-share-email-input");
+  const statusBanner = document.getElementById("gslides-export-status-banner");
+  const statusText = document.getElementById("gslides-export-status-text");
+  const openTabLink = document.getElementById("gslides-export-open-tab-link");
+
+  if (statusBanner) statusBanner.classList.add("hidden");
+  if (openTabLink) openTabLink.style.display = "none";
+
+  // Pre-fill saved secondary email if any
+  try {
+    const savedShareEmail = window.localStorage.getItem("scouts_bsa_gslides_share_email") || "";
+    if (shareEmailInput && !shareEmailInput.value && savedShareEmail) {
+      shareEmailInput.value = savedShareEmail;
+    }
+  } catch (_e) {}
+
+  modal.classList.remove("hidden");
+  modal.classList.add("open");
+
+  try {
+    const resp = await fetch("/api/v1/slide/export-gslides/account-info");
+    if (resp.ok) {
+      const info = await resp.json();
+      if (accountEmailEl && info.detected_account_email) {
+        accountEmailEl.textContent = info.detected_account_email;
+      }
+      if (authModeBadgeEl) {
+        authModeBadgeEl.textContent = info.gdrive_cli_available
+          ? "GOOGLE DRIVE CLI + ADC"
+          : info.adc_available
+          ? "CLOUD ADC"
+          : "BROWSER OAUTH / GUIDED";
+      }
+      if (info.oauth_client_id) {
+        state.googleOauthClientId = info.oauth_client_id;
+      }
+    }
+  } catch (_e) {
+    // keep default account label
+  }
+}
+
+async function runGoogleSlidesExportAndOpenTab({ oauthToken = "", shareEmail = "" } = {}) {
   if (!state.currentResult) return;
   const mainBtn = document.getElementById("btn-download-pptx");
   const labelEl = document.getElementById("deck-export-main-label");
+  const createBtn = document.getElementById("btn-gslides-create-and-open-tab");
+  const statusBanner = document.getElementById("gslides-export-status-banner");
+  const statusText = document.getElementById("gslides-export-status-text");
+  const openTabLink = document.getElementById("gslides-export-open-tab-link");
   const origLabel = labelEl?.textContent || "Open in Google Slides";
-  if (labelEl) labelEl.textContent = "⏳ Exporting to Google Slides...";
-  if (mainBtn) mainBtn.style.pointerEvents = "none";
+
+  // Pre-open the new browser tab synchronously inside the click gesture so browser popup blockers NEVER block it
+  let slideTab = null;
   try {
-    let oauthToken = "";
-    try {
-      oauthToken = window.localStorage.getItem("scouts_bsa_google_oauth_token") || "";
-    } catch (_e) {}
+    slideTab = window.open("about:blank", "_blank");
+    if (slideTab && slideTab.document) {
+      slideTab.document.write(`<!DOCTYPE html>
+<html><head><title>Creating Google Slides Presentation...</title>
+<style>body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0F172A;color:#F8FAFC;text-align:center;}
+.box{max-width:460px;padding:28px 32px;background:#1E293B;border:1px solid #334155;border-radius:16px;box-shadow:0 20px 45px rgba(0,0,0,0.4);}
+.spin{width:38px;height:38px;border:4px solid #334155;border-top-color:#FACC15;border-radius:50%;animation:s 0.8s linear infinite;margin:0 auto 14px auto;}
+@keyframes s{to{transform:rotate(360deg)}}</style></head>
+<body><div class="box"><div class="spin"></div><h2 style="margin:0 0 8px 0;font-size:1.15rem;color:#FDE047;">Creating Google Slides Presentation...</h2>
+<p style="margin:0;font-size:0.86rem;color:#CBD5E1;line-height:1.45;">Uploading and converting your <strong>${escapeHtml(
+        state.currentResult.badge_name || "Merit Badge"
+      )}</strong> slide deck into Google Drive. This tab will redirect automatically in a moment.</p></div></body></html>`);
+      slideTab.document.close();
+    }
+  } catch (_e) {
+    slideTab = null;
+  }
+
+  if (labelEl) labelEl.textContent = "⏳ Creating Google Slides Deck...";
+  if (mainBtn) mainBtn.style.pointerEvents = "none";
+  if (createBtn) {
+    createBtn.disabled = true;
+    createBtn.textContent = "⏳ Creating Google Slides Deck in Drive...";
+  }
+  if (statusBanner) {
+    statusBanner.classList.remove("hidden");
+    statusBanner.style.background = "#FEFCE8";
+    statusBanner.style.borderColor = "#FDE047";
+  }
+  if (statusText) {
+    statusText.style.color = "#854D0E";
+    statusText.textContent = "⏳ Converting .PPTX to native Google Slides presentation in Google Drive...";
+  }
+  if (openTabLink) openTabLink.style.display = "none";
+
+  try {
+    let tokenToUse = oauthToken;
+    if (!tokenToUse) {
+      try {
+        tokenToUse = window.localStorage.getItem("scouts_bsa_google_oauth_token") || "";
+      } catch (_e) {}
+    }
+    const cleanShareEmail = (shareEmail || "").trim();
+    if (cleanShareEmail) {
+      try {
+        window.localStorage.setItem("scouts_bsa_gslides_share_email", cleanShareEmail);
+      } catch (_e) {}
+    }
+
     const resp = await fetch("/api/v1/slide/export-gslides", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -7047,20 +7459,48 @@ async function exportActiveDeckToGoogleSlides() {
         pptx_download_url: state.currentResult.pptx_download_url || "",
         storyboard_slides: state.currentResult.storyboard?.slides || [],
         counselor_info: state.currentResult.counselor_info || {},
-        google_oauth_access_token: oauthToken,
+        google_oauth_access_token: tokenToUse,
+        share_with_email: cleanShareEmail,
       }),
     });
+
     if (resp.ok) {
       const data = await resp.json();
-      if (data.status === "EXPORTED" && data.presentation_url) {
-        window.open(data.presentation_url, "_blank", "noopener,noreferrer");
+      if ((data.status === "SUCCESS" || data.status === "EXPORTED") && data.presentation_url) {
+        const targetUrl = data.presentation_url;
+        if (slideTab && !slideTab.closed) {
+          slideTab.location.replace(targetUrl);
+        } else {
+          window.open(targetUrl, "_blank", "noopener,noreferrer");
+        }
+        if (statusBanner) {
+          statusBanner.style.background = "#F0FDF4";
+          statusBanner.style.borderColor = "#86EFAC";
+        }
+        if (statusText) {
+          statusText.style.color = "#166534";
+          const ownerNote = data.owner_account ? ` in ${data.owner_account}` : "";
+          const sharedNote = data.shared_with_email ? ` (shared with ${data.shared_with_email})` : "";
+          statusText.textContent = `✅ Google Slides presentation created${ownerNote}${sharedNote} and opened in a new browser tab!`;
+        }
+        if (openTabLink) {
+          openTabLink.href = targetUrl;
+          openTabLink.style.display = "inline-flex";
+        }
         if (labelEl) labelEl.textContent = "✅ Opened in Google Slides!";
         setTimeout(() => {
           if (labelEl) labelEl.textContent = origLabel;
-        }, 2400);
+        }, 3000);
         return;
       }
-      // Guided Import fallback: trigger local .pptx download + open Google Slides import screen
+
+      // Guided Import fallback (only if neither OAuth, Cloud ADC, nor local gdrive CLI succeeded)
+      const fallbackUrl = data.google_slides_import_url || "https://docs.google.com/presentation/u/0/";
+      if (slideTab && !slideTab.closed) {
+        slideTab.location.replace(fallbackUrl);
+      } else {
+        window.open(fallbackUrl, "_blank", "noopener,noreferrer");
+      }
       if (data.pptx_download_url) {
         const dlLink = document.createElement("a");
         dlLink.href = `${data.pptx_download_url}?v=${Date.now()}`;
@@ -7069,19 +7509,37 @@ async function exportActiveDeckToGoogleSlides() {
         dlLink.click();
         dlLink.remove();
       }
-      if (data.google_slides_import_url) {
-        window.open(data.google_slides_import_url, "_blank", "noopener,noreferrer");
+      if (statusText) {
+        statusText.textContent =
+          "ℹ️ Direct Drive upload unavailable — downloaded .PPTX locally and opened Google Slides in a new tab.";
+      }
+      if (openTabLink) {
+        openTabLink.href = fallbackUrl;
+        openTabLink.style.display = "inline-flex";
       }
       if (labelEl) labelEl.textContent = "✅ PPTX Downloaded + Slides Opened";
       setTimeout(() => {
         if (labelEl) labelEl.textContent = origLabel;
       }, 2800);
+    } else if (slideTab && !slideTab.closed) {
+      slideTab.close();
     }
   } catch (err) {
     console.warn("Google Slides export warning:", err);
+    if (slideTab && !slideTab.closed) {
+      slideTab.close();
+    }
   } finally {
     if (mainBtn) mainBtn.style.pointerEvents = "";
+    if (createBtn) {
+      createBtn.disabled = false;
+      createBtn.textContent = "🟨 Create & Open in New Tab ↗";
+    }
   }
+}
+
+async function exportActiveDeckToGoogleSlides() {
+  await openGoogleSlidesExportModal();
 }
 
 function syncDeckExportSplitButtonUi(mode) {
@@ -7229,6 +7687,70 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     }
   });
 
+  // Plan 10 Request #3: Jump to "Rate This Merit Badge Teaching Package" on Grounded Research Citations & Local Troop References page
+  document.getElementById("btn-jump-to-counselor-rating")?.addEventListener("click", () => {
+    const ratingCard = document.getElementById("studiokit-feedback-card");
+    if (ratingCard) {
+      ratingCard.scrollIntoView({ behavior: "smooth", block: "start" });
+      ratingCard.style.transition = "box-shadow 0.25s ease, outline 0.25s ease";
+      ratingCard.style.outline = "3px solid #D97706";
+      ratingCard.style.boxShadow = "0 0 0 6px rgba(217, 119, 6, 0.22)";
+      setTimeout(() => {
+        ratingCard.style.outline = "";
+        ratingCard.style.boxShadow = "";
+      }, 1600);
+    }
+  });
+
+  // Plan 10 Request #7: Google Account & Slides Export Modal handlers
+  const gslidesModal = document.getElementById("gslides-export-modal");
+  const closeGslidesModal = () => {
+    gslidesModal?.classList.remove("open");
+    gslidesModal?.classList.add("hidden");
+  };
+  document.getElementById("btn-close-gslides-export-modal")?.addEventListener("click", closeGslidesModal);
+  document.getElementById("btn-cancel-gslides-export-modal")?.addEventListener("click", closeGslidesModal);
+  document.getElementById("btn-gslides-create-and-open-tab")?.addEventListener("click", async () => {
+    const shareEmail = document.getElementById("gslides-share-email-input")?.value || "";
+    await runGoogleSlidesExportAndOpenTab({ shareEmail });
+  });
+  document.getElementById("btn-gslides-pick-google-account")?.addEventListener("click", async () => {
+    const shareEmailInput = document.getElementById("gslides-share-email-input");
+    const shareEmail = shareEmailInput?.value || "";
+    // If Google Identity Services (GIS) is loaded and an OAuth Client ID is configured, invoke the native Google Account Picker
+    if (window.google?.accounts?.oauth2 && state.googleOauthClientId) {
+      const tokenClient = window.google.accounts.oauth2.initTokenClient({
+        client_id: state.googleOauthClientId,
+        scope: "https://www.googleapis.com/auth/drive.file",
+        prompt: "select_account",
+        callback: async (tokenResponse) => {
+          if (tokenResponse && tokenResponse.access_token) {
+            try {
+              window.localStorage.setItem("scouts_bsa_google_oauth_token", tokenResponse.access_token);
+            } catch (_e) {}
+            await runGoogleSlidesExportAndOpenTab({
+              oauthToken: tokenResponse.access_token,
+              shareEmail,
+            });
+          }
+        },
+      });
+      tokenClient.requestAccessToken({ prompt: "select_account" });
+      return;
+    }
+    // Otherwise focus the target Google Account email field so the user can enter their @gmail.com / secondary account
+    // or open Google Account Chooser while sharing the generated presentation directly with their chosen email
+    if (shareEmailInput && !shareEmailInput.value.trim()) {
+      shareEmailInput.focus();
+      shareEmailInput.style.outline = "2px solid #2563EB";
+      setTimeout(() => {
+        shareEmailInput.style.outline = "";
+      }, 1800);
+      return;
+    }
+    await runGoogleSlidesExportAndOpenTab({ shareEmail });
+  });
+
   // UI-6: Sunlight / High-Contrast Camp Mode toggle
   const sunlightBtn = document.getElementById("btn-toggle-sunlight-mode");
   try {
@@ -7294,6 +7816,24 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   });
   document.getElementById("btn-pc-close-dock")?.addEventListener("click", () => {
     togglePresenterConsoleMode(false);
+  });
+  document.getElementById("btn-pc-close-console")?.addEventListener("click", () => {
+    togglePresenterConsoleMode(false);
+  });
+  document.getElementById("btn-pc-prev-slide")?.addEventListener("click", () => {
+    document.getElementById("btn-prev-slide")?.click();
+  });
+  document.getElementById("btn-pc-next-slide")?.addEventListener("click", () => {
+    document.getElementById("btn-next-slide")?.click();
+  });
+  document.getElementById("btn-pc-font-dec")?.addEventListener("click", () => {
+    changePresenterFontScale(-0.08);
+  });
+  document.getElementById("btn-pc-font-inc")?.addEventListener("click", () => {
+    changePresenterFontScale(0.08);
+  });
+  document.getElementById("pc-dock-timer")?.addEventListener("click", () => {
+    toggleSessionTimer();
   });
   document.getElementById("btn-pc-popout-window")?.addEventListener("click", () => {
     openPresenterViewWindow();

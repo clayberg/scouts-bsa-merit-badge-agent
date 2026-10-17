@@ -3463,13 +3463,36 @@ def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
     cover_files = {p.stem.lower() for p in covers_dir.glob("*.*")} if covers_dir.exists() else set()
     emblem_files = {p.stem.lower() for p in emblems_dir.glob("*.*")} if emblems_dir.exists() else set()
 
+    official_reqs_cache: Dict[str, Any] = {}
+    official_reqs_path = ASSETS_DIR.parent / "data" / "official_requirements_cache.json"
+    if official_reqs_path.exists():
+        try:
+            raw_reqs = json.loads(official_reqs_path.read_text(encoding="utf-8"))
+            if isinstance(raw_reqs, dict):
+                for rk, rv in raw_reqs.items():
+                    official_reqs_cache[rk.strip().lower()] = rv
+                    official_reqs_cache[_badge_slug(rk)] = rv
+        except Exception:
+            pass
+
     for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG:
         b_name = str(item.get("badge_name") or item.get("name") or "First Aid")
         slug = _badge_slug(b_name)
         has_cover = slug in cover_files or f"{slug}_cover" in cover_files
         has_emblem = slug in emblem_files or f"{slug}_patch" in emblem_files or f"{slug}_emblem" in emblem_files
         has_pdf_index = bool(item.get("pamphlet_pdf_url") or item.get("scouting_org_url") or True)
-        req_count = int(item.get("requirement_count") or len(item.get("requirements") or []) or 8)
+        cached_req_entry = official_reqs_cache.get(b_name.strip().lower()) or official_reqs_cache.get(slug) or {}
+        cached_req_list = (
+            cached_req_entry.get("requirements", [])
+            if isinstance(cached_req_entry, dict)
+            else (cached_req_entry if isinstance(cached_req_entry, list) else [])
+        )
+        req_count = int(
+            item.get("requirement_count")
+            or len(item.get("requirements") or [])
+            or len(cached_req_list)
+            or 8
+        )
         if has_cover:
             covers_present += 1
         if has_emblem:
@@ -3504,6 +3527,11 @@ def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
         "total_pamphlet_figures": sum(pamphlet_counts_by_slug.values()),
         "total_nano_banana_heroes": sum(hero_counts_by_slug.values()),
         "badges": rows,
+        "rows": rows,
     }
+
+
+get_asset_health_matrix = admin_get_144_badge_asset_diagnostics
+
 
 

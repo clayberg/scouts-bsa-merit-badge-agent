@@ -1,6 +1,7 @@
 openapi: 3.1.0
 info:
-  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
+  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
+    \ Server"
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -489,7 +490,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       responses:
         '200':
@@ -593,7 +594,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       responses:
         '200':
@@ -699,7 +700,7 @@ paths:
     post:
       summary: Api Polish Slide Speaker Notes
       description: 'Option C Layer 2: Polishes a single slide''s Counselor Teaching
-        Notes via Gemini 2.5 Flash or Studio Narrative Synthesizer with SQLite caching.'
+        Notes via Gemini Flash or Studio Narrative Synthesizer with SQLite caching.'
       operationId: api_polish_slide_speaker_notes_api_v1_slide_polish_notes_post
       parameters:
       - name: authorization
@@ -744,7 +745,7 @@ paths:
     post:
       summary: Api Polish Slide Speaker Notes
       description: 'Option C Layer 2: Polishes a single slide''s Counselor Teaching
-        Notes via Gemini 2.5 Flash or Studio Narrative Synthesizer with SQLite caching.'
+        Notes via Gemini Flash or Studio Narrative Synthesizer with SQLite caching.'
       operationId: api_polish_slide_speaker_notes_api_slide_polish_notes_post
       parameters:
       - name: authorization
@@ -875,6 +876,96 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/estimate-polish-cost:
+    post:
+      summary: Api Estimate Slide Polish Cost
+      description: Calculates exact Gemini Flash token & USD cost estimates for polishing
+        a single slide vs. the entire deck, accounting for SQLite cache hits.
+      operationId: api_estimate_slide_polish_cost_api_v1_slide_estimate_polish_cost_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlidePolishEstimateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Estimate Slide Polish Cost Api V1 Slide Estimate
+                  Polish Cost Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/estimate-polish-cost:
+    post:
+      summary: Api Estimate Slide Polish Cost
+      description: Calculates exact Gemini Flash token & USD cost estimates for polishing
+        a single slide vs. the entire deck, accounting for SQLite cache hits.
+      operationId: api_estimate_slide_polish_cost_api_slide_estimate_polish_cost_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlidePolishEstimateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Estimate Slide Polish Cost Api Slide Estimate
+                  Polish Cost Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/qr.svg:
     get:
       summary: Api Generate Qr Svg
@@ -947,6 +1038,84 @@ paths:
           content:
             application/json:
               schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/export-gslides/account-info:
+    get:
+      summary: Api Get Google Slides Account Info
+      description: Returns the detected Google account and authentication options
+        for 'Open in Google Slides'.
+      operationId: api_get_google_slides_account_info_api_v1_slide_export_gslides_account_info_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Google Slides Account Info Api V1 Slide Export
+                  Gslides Account Info Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/export-gslides/account-info:
+    get:
+      summary: Api Get Google Slides Account Info
+      description: Returns the detected Google account and authentication options
+        for 'Open in Google Slides'.
+      operationId: api_get_google_slides_account_info_api_slide_export_gslides_account_info_get
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Google Slides Account Info Api Slide Export
+                  Gslides Account Info Get
         '422':
           description: Validation Error
           content:
@@ -3998,6 +4167,25 @@ components:
           - type: 'null'
           title: User Access Token
           description: Optional OAuth 2.0 Bearer token with drive.file scope.
+        google_oauth_access_token:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Google Oauth Access Token
+          description: Alias for user_access_token from browser OAuth client.
+        share_with_email:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Share With Email
+          description: Optional Google account email (@gmail.com or Workspace) to
+            grant editor access and open with authuser.
+        use_adc:
+          type: boolean
+          title: Use Adc
+          description: Whether to allow workstation/server credentials when no browser
+            OAuth token is provided.
+          default: true
       type: object
       title: GoogleSlidesExportRequest
     HTTPValidationError:
@@ -4248,6 +4436,39 @@ components:
           description: Optional existing PPTX output path to overwrite.
       type: object
       title: SlidePolishDeckBatchRequest
+    SlidePolishEstimateRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Official Merit Badge name.
+          default: First Aid
+        slide_index:
+          type: integer
+          title: Slide Index
+          description: Active slide index (-1 for Cover Slide).
+          default: 0
+        slide_data:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Slide Data
+          description: Active slide dictionary.
+        storyboard_slides:
+          items:
+            additionalProperties: true
+            type: object
+          type: array
+          title: Storyboard Slides
+          description: Full slide array from client state.
+        audience_level:
+          type: string
+          title: Audience Level
+          description: Target Scout audience level.
+          default: All Scouts (Ages 11-17)
+      type: object
+      title: SlidePolishEstimateRequest
     SlidePolishNotesRequest:
       properties:
         badge_name:
@@ -4575,7 +4796,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
         session_id:
           type: string
           title: Session Id

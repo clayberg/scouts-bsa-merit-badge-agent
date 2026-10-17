@@ -1952,10 +1952,112 @@ def test_v27_ai_polish_slide_and_deck_provenance_and_zero_boilerplate() -> None:
     assert "Gemini Flash" in ui_js
 
 
+def test_v28_plan10_ui_presenter_gslides_finops_and_animation() -> None:
+    """Verifies all 8 Plan 10 features: Patch Gallery sticky header, 144-badge Pamphlet Figs & PDF Reqs, Counselor Rating jump button, Google Doc link rewriting, AI Polish FinOps gate, Presenter View buttons/centering, Google Slides account flow, and Frame 4 helicopter hoist cable overlay."""
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from PIL import Image
+    from scripts.sync_markdown_with_mermaid_to_gdocs import (
+        load_companion_gdocs_registry,
+        rewrite_internal_md_links_for_gdocs,
+    )
+    from src.agents.image_studio import get_asset_health_matrix
+    from src.server import app
 
+    repo_root = Path(__file__).resolve().parents[1]
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
 
+    # 1. Request #1: Sticky Header in Visual Merit Badge Patch Gallery (#patch-gallery-modal)
+    assert "max-height:88vh; display:flex; flex-direction:column; overflow:hidden; padding:0;" in ui_html
+    assert "m3-patch-gallery-sticky-header" in ui_html
+    assert "flex:1 1 auto; min-height:0; overflow-y:auto;" in ui_html
 
+    # 2. Request #2: 144-Badge Visual Asset Health Matrix column alignment + true per-badge requirement counts
+    matrix = get_asset_health_matrix()
+    assert matrix["total_badges"] == 144
+    by_badge = {row["badge_name"]: row for row in matrix["rows"]}
+    assert by_badge["First Aid"]["indexed_reqs"] == 15
+    assert by_badge["Weather"]["indexed_reqs"] == 12
+    assert by_badge["Cooking"]["indexed_reqs"] == 7
+    assert by_badge["First Aid"]["pamphlet_figures"] >= 10
+    assert "<td><strong>${r.pamphlet_figures}</strong> figs</td>" in ui_js
+    assert "<td><strong>${r.nano_banana_heroes}</strong> heroes</td>" in ui_js
+    assert "<td>${r.pdf_and_index_present !== false ? `✅ (${r.indexed_reqs || 8} Reqs)` : \"⚠️\"}</td>" in ui_js
 
+    # 3. Request #3: "↓ Counselor Rating" Jump Button on Grounded Research Citations & Local Troop References card
+    assert 'id="btn-jump-to-counselor-rating"' in ui_html
+    assert "↓ Counselor Rating" in ui_html
+    assert 'document.getElementById("btn-jump-to-counselor-rating")' in ui_js
+    assert 'document.getElementById("studiokit-feedback-card")' in ui_js
 
+    # 4. Request #4: Automatic Markdown-to-Google-Docs cross-link rewriting via docs/gdocs_registry.json
+    reg = load_companion_gdocs_registry()
+    assert reg["docs/USER_GUIDE.md"] == "1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo"
+    assert reg["docs/ADMIN_GUIDE.md"] == "1jCQclVI2KnO-qJaRqwRHQkVMJ8CDohWjU8u2JT3CJpU"
+    sample_ug = "Read the dedicated **[Super-User Admin Guide (`docs/ADMIN_GUIDE.md`)](ADMIN_GUIDE.md)**."
+    rewritten_ug = rewrite_internal_md_links_for_gdocs(sample_ug, "docs/USER_GUIDE.md", reg)
+    assert "https://docs.google.com/document/d/1jCQclVI2KnO-qJaRqwRHQkVMJ8CDohWjU8u2JT3CJpU/edit" in rewritten_ug
+    assert "(ADMIN_GUIDE.md)" not in rewritten_ug
 
+    # 5. Request #5: FinOps Cost Estimate Gate for AI Polish Slide & Polish Entire Deck
+    client = TestClient(app)
+    est_resp = client.post(
+        "/api/v1/slide/estimate-polish-cost",
+        json={
+            "badge_name": "First Aid",
+            "slide_index": 0,
+            "slide_data": {"title": "Scene Safety", "req_number": "1", "bullet_points": ["Scan for hazards"]},
+            "storyboard_slides": [
+                {"title": "Scene Safety", "req_number": "1", "bullet_points": ["Scan for hazards"]},
+                {"title": "First Aid Kit", "req_number": "2", "bullet_points": ["21 essential items"]},
+            ],
+            "audience_level": "All Scouts (Ages 11-17)",
+        },
+    )
+    assert est_resp.status_code == 200
+    est_data = est_resp.json()
+    assert est_data["status"] == "SUCCESS"
+    assert round(est_data["single_slide_cost_usd"], 4) == 0.0008
+    assert est_data["total_slides"] == 3  # 2 storyboard slides + 1 cover slide
+    assert "deck_uncached_cost_usd" in est_data and "deck_full_repolish_cost_usd" in est_data
+    assert 'id="ai-polish-finops-modal"' in ui_html
+    assert "openAiPolishFinopsGateModal" in ui_js
 
+    # 6. Request #6: Presenter View buttons, dark-slate glass styling, font scaling, centering, and 2nd Monitor companion popup
+    assert 'id="btn-pc-close-console"' in ui_html
+    assert 'document.getElementById("btn-pc-close-console")' in ui_js
+    assert 'document.getElementById("btn-pc-prev-slide")' in ui_js
+    assert 'document.getElementById("btn-pc-next-slide")' in ui_js
+    assert 'document.getElementById("btn-pc-font-dec")' in ui_js
+    assert 'document.getElementById("btn-pc-font-inc")' in ui_js
+    assert "changePresenterFontScale" in ui_js
+    assert "hideConstructionAnimationStage()" in ui_js
+    assert ".m3-pc-mini-btn" in ui_css
+    assert "#btn-pc-prev-slide" in ui_css and "#btn-pc-next-slide" in ui_css
+
+    # 7. Request #7: Open in Google Slides Account Selection & New Browser Tab Flow
+    acc_resp = client.get("/api/v1/slide/export-gslides/account-info")
+    assert acc_resp.status_code == 200
+    acc_data = acc_resp.json()
+    assert acc_data["status"] == "SUCCESS"
+    assert "detected_account_email" in acc_data
+    assert 'id="gslides-export-modal"' in ui_html
+    assert "openGoogleSlidesExportModal" in ui_js
+    assert "runGoogleSlidesExportAndOpenTab" in ui_js
+    assert 'data.status === "SUCCESS" || data.status === "EXPORTED"' in ui_js
+
+    # 8. Request #8: Frame 4 (3D Heavy Equipment) Helicopter Hoist Cable Foreground Overlay
+    cable_png = repo_root / "assets" / "construction_anim" / "iso_heavy_4_foreground_cable.png"
+    assert cable_png.exists()
+    with Image.open(cable_png) as cable_im:
+        assert cable_im.size == (960, 540)
+        assert cable_im.mode == "RGBA"
+        # Ensure non-empty alpha channel where the cable and golden eyelet lug are drawn
+        alpha_bbox = cable_im.getchannel("A").getbbox()
+        assert alpha_bbox is not None
+    assert 'id="construction-foreground-cable-overlay"' in ui_html
+    assert "iso_heavy_4_foreground_cable.png" in ui_html
+    assert ".m3-construction-foreground-cable" in ui_css
+    assert "construction-foreground-cable-overlay" in ui_js

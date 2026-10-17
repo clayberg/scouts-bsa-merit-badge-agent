@@ -2876,10 +2876,19 @@ body.m3-sunlight-mode .m3-slide-card {
 
 #slide-stage-wrapper.is-presenter-console-active .m3-slide-and-presenter-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 360px;
-  gap: 16px;
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr) 390px;
+  gap: 18px;
+  align-items: stretch;
+  justify-content: center;
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#slide-stage-wrapper.is-presenter-console-active #widescreen-slide-stage.hidden + #stage-presenter-console-dock {
+  grid-column: 1 / -1;
+  width: min(680px, 94%);
+  margin: 0 auto;
 }
 
 #slide-stage-wrapper.is-presenter-console-active #widescreen-slide-stage {
@@ -2893,22 +2902,23 @@ body.m3-sunlight-mode .m3-slide-card {
 #slide-stage-wrapper.is-presenter-console-active #stage-presenter-console-dock {
   display: flex !important;
   min-width: 0;
-  width: 360px;
+  width: 390px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .m3-presenter-console-dock {
-  background: #0F172A;
+  background: linear-gradient(180deg, #0F172A 0%, #1E293B 100%);
   color: #F8FAFC;
-  border: 1.5px solid #334155;
+  border: 1.5px solid #475569;
   border-radius: 14px;
-  padding: 12px 14px;
+  padding: 14px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-height: 560px;
+  max-height: 580px;
   overflow: hidden;
-  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.35);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.42);
 }
 
 #slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active {
@@ -2918,6 +2928,8 @@ body.m3-sunlight-mode .m3-slide-card {
 #slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active .m3-slide-and-presenter-row {
   max-width: 96vw;
   align-items: stretch;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 #slide-stage-wrapper.is-presenting-fullscreen .m3-presenter-console-dock {
@@ -2929,8 +2941,97 @@ body.m3-sunlight-mode .m3-slide-card {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #334155;
+  flex-wrap: wrap;
+}
+
+.m3-pc-dock-timer {
+  font-family: var(--font-mono, "JetBrains Mono", monospace);
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #FDE68A;
+  background: rgba(245, 158, 11, 0.16);
+  border: 1px solid rgba(251, 191, 36, 0.45);
+  border-radius: 8px;
+  height: 30px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+}
+
+.m3-pc-dock-timer:hover {
+  background: rgba(245, 158, 11, 0.28);
+  border-color: #FBBF24;
+  transform: translateY(-1px);
+}
+
+.m3-pc-mini-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  background: #1E293B;
+  color: #F1F5F9;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  height: 30px;
+  min-height: 30px;
+  padding: 0 10px;
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.m3-pc-mini-btn:hover:not(:disabled) {
+  background: #334155;
+  border-color: #94A3B8;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.m3-pc-mini-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.m3-pc-mini-btn:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+}
+
+#btn-pc-popout-window {
+  background: rgba(3, 105, 161, 0.35);
+  border-color: #38BDF8;
+  color: #E0F2FE;
+}
+
+#btn-pc-popout-window:hover {
+  background: rgba(2, 132, 199, 0.55);
+  color: #FFFFFF;
+}
+
+#btn-pc-close-console {
+  background: rgba(185, 28, 28, 0.28);
+  border-color: #F87171;
+  color: #FECACA;
+  width: 30px;
+  padding: 0;
+}
+
+#btn-pc-close-console:hover {
+  background: rgba(220, 38, 38, 0.55);
+  color: #FFFFFF;
 }
 
 .m3-pc-dock-notes {
@@ -2959,14 +3060,76 @@ body.m3-sunlight-mode .m3-slide-card {
   border-left-color: #10B981;
 }
 
+.m3-pc-dock-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #334155;
+}
+
 .m3-pc-dock-next {
+  flex: 1;
+  min-width: 0;
   background: #1E293B;
   border-left: 3.5px solid #38BDF8;
   border-radius: 6px;
-  padding: 8px 10px;
-  font-size: 0.80rem;
+  padding: 7px 10px;
+  font-size: 0.78rem;
   color: #CBD5E1;
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#btn-pc-prev-slide,
+#btn-pc-next-slide {
+  height: 34px;
+  min-height: 34px;
+  padding: 0 13px;
+  font-size: 0.79rem;
+  font-weight: 800;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+#btn-pc-prev-slide {
+  background: #1E293B;
+  border: 1.5px solid #64748B;
+  color: #F8FAFC;
+}
+
+#btn-pc-prev-slide:hover:not(:disabled) {
+  background: #334155;
+  border-color: #CBD5E1;
+}
+
+#btn-pc-next-slide {
+  background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%);
+  border: 1.5px solid #7DD3FC;
+  color: #FFFFFF;
+}
+
+#btn-pc-next-slide:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+/* Frame 4 Helicopter Foreground Hoist Cable & Ring Eyelet Overlay */
+.m3-construction-foreground-cable {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 6;
+  user-select: none;
 }
 
 /* ============================================================================

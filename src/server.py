@@ -1010,6 +1010,14 @@ class SlidePolishDeckBatchRequest(BaseModel):
     output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
 
 
+class SlidePolishEstimateRequest(BaseModel):
+    badge_name: str = Field("First Aid", description="Official Merit Badge name.")
+    slide_index: int = Field(0, description="Active slide index (-1 for Cover Slide).")
+    slide_data: Optional[Dict[str, Any]] = Field(default_factory=dict, description="Active slide dictionary.")
+    storyboard_slides: List[Dict[str, Any]] = Field(default_factory=list, description="Full slide array from client state.")
+    audience_level: str = Field("All Scouts (Ages 11-17)", description="Target Scout audience level.")
+
+
 class GoogleSlidesExportRequest(BaseModel):
     badge_name: str = Field("First Aid", description="Official Merit Badge name.")
     pptx_download_url: Optional[str] = Field(None, description="Web URL or local path to the generated .pptx deck.")
@@ -1018,6 +1026,9 @@ class GoogleSlidesExportRequest(BaseModel):
     storyboard_slides: Optional[List[Dict[str, Any]]] = Field(None, description="Optional slide array if PPTX needs regeneration.")
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     user_access_token: Optional[str] = Field(None, description="Optional OAuth 2.0 Bearer token with drive.file scope.")
+    google_oauth_access_token: Optional[str] = Field(None, description="Alias for user_access_token from browser OAuth client.")
+    share_with_email: Optional[str] = Field(None, description="Optional Google account email (@gmail.com or Workspace) to grant editor access and open with authuser.")
+    use_adc: bool = Field(True, description="Whether to allow workstation/server credentials when no browser OAuth token is provided.")
 
 
 def _normalize_bold_and_strip_corny_openers(text: str, is_say_block: bool = False) -> str:
@@ -1896,6 +1907,99 @@ async def api_polish_deck_speaker_notes_batch(
     }
 
 
+@app.post("/api/slide/estimate-polish-cost")
+@app.post("/api/v1/slide/estimate-polish-cost")
+async def api_estimate_slide_polish_cost(
+    req: SlidePolishEstimateRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Calculates exact Gemini Flash token & USD cost estimates for polishing a single slide vs. the entire deck, accounting for SQLite cache hits."""
+    import hashlib
+    from src.memory.session_store import get_polished_speaker_notes
+
+    def _hash_for_slide(idx: int, s_data: Dict[str, Any]) -> str:
+        is_cover = idx == -1 or str(s_data.get("req_number") or "").lower() == "cover"
+        req_num = "Cover" if is_cover else str(s_data.get("req_number") or (idx + 1))
+        title = str(
+            s_data.get("title")
+            or (f"{req.badge_name} Merit Badge Cover Slide" if is_cover else f"{req.badge_name} Requirement {req_num}")
+        )
+        arch = "COVER" if is_cover else str(s_data.get("archetype") or "SPLIT_VISUAL_EXPLAINER").upper()
+        bullets = [str(b) for b in (s_data.get("bullet_points") or []) if str(b).strip()]
+        vis_caption = str(s_data.get("visual_caption") or "")
+        has_vis = bool(s_data.get("diagram_path") or s_data.get("diagram_url"))
+        aud_level = str(req.audience_level or s_data.get("audience_level") or "All Scouts (Ages 11-17)")
+        payload = json.dumps(
+            {
+                "v": "gemini_flash_v4",
+                "badge": req.badge_name.strip().lower(),
+                "req": req_num,
+                "slide_idx": idx,
+                "title": title,
+                "arch": arch,
+                "bullets": bullets,
+                "caption": vis_caption if has_vis else "",
+                "has_vis": has_vis,
+                "audience": aud_level,
+                "seed": 0,
+            },
+            sort_keys=True,
+        )
+        return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:32]
+
+    def _is_valid_cached(h: str) -> bool:
+        raw = get_polished_speaker_notes(h)
+        if not raw:
+            return False
+        if (
+            "Let's step out of the classroom for a moment" in raw
+            or "Alright," in raw
+            or "listen up" in raw.lower()
+            or "gather 'round" in raw.lower()
+            or "future lifesavers" in raw.lower()
+        ):
+            return False
+        return True
+
+    # Gemini Flash (thinking_budget=0) pricing: $0.30 / 1M input tokens, $2.50 / 1M output tokens
+    # Avg per-slide: ~450 input tokens ($0.000135) + ~280 output tokens ($0.000700) = $0.000835 / slide
+    per_slide_in_tokens = 450
+    per_slide_out_tokens = 280
+    per_slide_usd = round((per_slide_in_tokens * 0.30 / 1_000_000.0) + (per_slide_out_tokens * 2.50 / 1_000_000.0), 6)
+
+    active_s_data = dict(req.slide_data or {})
+    if not active_s_data and 0 <= req.slide_index < len(req.storyboard_slides):
+        active_s_data = dict(req.storyboard_slides[req.slide_index] or {})
+    single_cached = _is_valid_cached(_hash_for_slide(req.slide_index, active_s_data))
+
+    visible_slides = [
+        (idx, s) for idx, s in enumerate(req.storyboard_slides or []) if isinstance(s, dict) and not s.get("hidden")
+    ]
+    total_deck_slides = len(visible_slides) + 1  # Include Cover Slide (-1)
+    cached_count = 1 if _is_valid_cached(_hash_for_slide(-1, {"req_number": "Cover", "title": f"{req.badge_name} Merit Badge Cover Slide"})) else 0
+    for idx, s in visible_slides:
+        if _is_valid_cached(_hash_for_slide(idx, s)):
+            cached_count += 1
+    uncached_count = max(0, total_deck_slides - cached_count)
+
+    return {
+        "status": "SUCCESS",
+        "badge_name": req.badge_name,
+        "model_label": "Gemini Flash",
+        "single_slide_index": req.slide_index,
+        "single_slide_cached": single_cached,
+        "single_slide_input_tokens": per_slide_in_tokens,
+        "single_slide_output_tokens": per_slide_out_tokens,
+        "single_slide_cost_usd": round(per_slide_usd, 5),
+        "total_slides": total_deck_slides,
+        "cached_slides_count": cached_count,
+        "uncached_slides_count": uncached_count,
+        "deck_uncached_cost_usd": round(uncached_count * per_slide_usd, 4),
+        "deck_full_repolish_cost_usd": round(total_deck_slides * per_slide_usd, 4),
+        "pricing_rate_summary": "$0.30 / 1M input tokens • $2.50 / 1M output tokens (thinking_budget=0)",
+    }
+
+
 @app.get("/api/qr.svg")
 @app.get("/api/v1/qr.svg")
 async def api_generate_qr_svg(
@@ -1907,6 +2011,54 @@ async def api_generate_qr_svg(
 
     svg_str = render_qr_svg(url=url, size_px=size)
     return Response(content=svg_str, media_type="image/svg+xml")
+
+
+def _detect_workstation_google_account() -> Dict[str, Any]:
+    """Detects the active workstation/server Google account and whether direct Google Drive upload is available."""
+    import subprocess
+
+    gdrive_bin = Path("/google/bin/releases/gemini-agents-gdrive/gdrive")
+    has_gdrive_cli = gdrive_bin.exists()
+    account_email = os.environ.get("GOOGLE_ACCOUNT_EMAIL", "").strip()
+    if not account_email:
+        try:
+            proc = subprocess.run(
+                ["gcloud", "config", "get-value", "account"],
+                capture_output=True,
+                text=True,
+                timeout=3,
+                check=False,
+            )
+            if proc.returncode == 0 and "@" in (proc.stdout or ""):
+                account_email = proc.stdout.strip()
+        except Exception:
+            pass
+    if not account_email:
+        user_env = os.environ.get("USER") or os.environ.get("LOGNAME") or ""
+        if user_env and user_env not in ("root", "nobody", "appuser"):
+            account_email = f"{user_env}@google.com"
+
+    oauth_client_id = os.environ.get("GOOGLE_OAUTH_CLIENT_ID", "").strip()
+    has_env_token = bool(os.environ.get("GOOGLE_DRIVE_ACCESS_TOKEN", "").strip())
+    return {
+        "status": "SUCCESS",
+        "detected_account_email": account_email,
+        "workstation_account_email": account_email,
+        "direct_drive_ready": bool(has_gdrive_cli or has_env_token or account_email),
+        "gdrive_cli_available": has_gdrive_cli,
+        "has_gdrive_cli": has_gdrive_cli,
+        "oauth_client_id": oauth_client_id,
+        "google_account_chooser_url": "https://accounts.google.com/AccountChooser?continue=https://docs.google.com/presentation/u/0/",
+    }
+
+
+@app.get("/api/slide/export-gslides/account-info")
+@app.get("/api/v1/slide/export-gslides/account-info")
+async def api_get_google_slides_account_info(
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Returns the detected Google account and authentication options for 'Open in Google Slides'."""
+    return await asyncio.to_thread(_detect_workstation_google_account)
 
 
 @app.post("/api/slide/export-gslides")
@@ -1935,6 +2087,8 @@ async def api_export_slide_deck_to_google_slides(
         cand = PROJECT_ROOT / clean_rel
         if cand.exists():
             pptx_file = cand
+        elif (GENERATED_DECKS_DIR / Path(clean_rel).name).exists():
+            pptx_file = GENERATED_DECKS_DIR / Path(clean_rel).name
 
     if (not pptx_file or not pptx_file.exists()) and req.storyboard_slides:
         c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
@@ -1959,16 +2113,33 @@ async def api_export_slide_deck_to_google_slides(
             pptx_file = Path(build_res["output_path"])
 
     if not pptx_file or not pptx_file.exists():
+        # Fallback to most recent .pptx matching badge_name in GENERATED_DECKS_DIR
+        slug_prefix = req.badge_name.strip().replace(" ", "_").lower()
+        candidates = sorted(
+            [p for p in GENERATED_DECKS_DIR.glob("*.pptx") if p.name.lower().startswith(slug_prefix)],
+            key=lambda p: p.stat().st_mtime,
+            reverse=True,
+        )
+        if not candidates:
+            candidates = sorted(GENERATED_DECKS_DIR.glob("*.pptx"), key=lambda p: p.stat().st_mtime, reverse=True)
+        if candidates:
+            pptx_file = candidates[0]
+
+    if not pptx_file or not pptx_file.exists():
         raise HTTPException(status_code=404, detail="No generated PPTX deck found to convert to Google Slides.")
 
     theme_display = {"STANDARD": "Crisp White", "BEAUTIFIED": "Warm Cream", "STUDIO": "Dark Slate"}.get(
         str(req.beautification_tier or "BEAUTIFIED").upper(), "Warm Cream"
     )
     deck_title = f"{req.badge_name} Merit Badge — Counselor Teaching Deck ({theme_display})"
-    access_token = (req.user_access_token or os.environ.get("GOOGLE_DRIVE_ACCESS_TOKEN") or "").strip()
-    auth_mode = "USER_OAUTH_TOKEN" if req.user_access_token else "ENV_TOKEN"
+    explicit_oauth_token = (req.user_access_token or req.google_oauth_access_token or "").strip()
+    access_token = explicit_oauth_token or os.environ.get("GOOGLE_DRIVE_ACCESS_TOKEN", "").strip()
+    auth_mode = "USER_OAUTH_TOKEN" if explicit_oauth_token else ("ENV_TOKEN" if access_token else "")
+    target_share_email = (req.share_with_email or "").strip()
+    acct_info = await asyncio.to_thread(_detect_workstation_google_account)
+    detected_email = str(acct_info.get("workstation_account_email") or "")
 
-    if not access_token:
+    if not access_token and req.use_adc:
         try:
             import google.auth
             import google.auth.transport.requests
@@ -1983,7 +2154,7 @@ async def api_export_slide_deck_to_google_slides(
         except Exception:
             pass
 
-    if not access_token:
+    if not access_token and req.use_adc:
         try:
             proc = subprocess.run(
                 ["gcloud", "auth", "print-access-token"],
@@ -1998,6 +2169,7 @@ async def api_export_slide_deck_to_google_slides(
         except Exception:
             pass
 
+    # Tier 1 & 2: Direct Google Drive v3 Multipart REST Upload (when token has Drive scope)
     if access_token:
         try:
             def _upload_to_drive() -> Dict[str, Any]:
@@ -2016,7 +2188,7 @@ async def api_export_slide_deck_to_google_slides(
                 ).encode("utf-8") + pptx_bytes + f"\r\n--{boundary}--\r\n".encode("utf-8")
 
                 resp = ext_requests.post(
-                    "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,webViewLink",
+                    "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,webViewLink,owners",
                     headers={
                         "Authorization": f"Bearer {access_token}",
                         "Content-Type": f"multipart/related; boundary={boundary}",
@@ -2025,16 +2197,41 @@ async def api_export_slide_deck_to_google_slides(
                     timeout=30,
                 )
                 if resp.status_code in (200, 201):
-                    return resp.json()
+                    data_json = resp.json()
+                    if target_share_email and "@" in target_share_email and data_json.get("id"):
+                        try:
+                            ext_requests.post(
+                                f"https://www.googleapis.com/drive/v3/files/{data_json['id']}/permissions",
+                                headers={
+                                    "Authorization": f"Bearer {access_token}",
+                                    "Content-Type": "application/json",
+                                },
+                                json={"role": "writer", "type": "user", "emailAddress": target_share_email},
+                                timeout=10,
+                            )
+                        except Exception:
+                            pass
+                    return data_json
                 return {"error_status": resp.status_code, "error_body": resp.text[:300]}
 
             drive_res = await asyncio.to_thread(_upload_to_drive)
             if drive_res.get("id"):
                 pres_id = str(drive_res["id"])
+                owners = drive_res.get("owners") or []
+                owner_email = (
+                    str(owners[0].get("emailAddress") or "")
+                    if owners and isinstance(owners[0], dict)
+                    else detected_email
+                )
                 pres_url = str(drive_res.get("webViewLink") or f"https://docs.google.com/presentation/d/{pres_id}/edit")
+                if target_share_email and "@" in target_share_email:
+                    sep = "&" if "?" in pres_url else "?"
+                    pres_url = f"{pres_url}{sep}authuser={target_share_email}"
                 return {
                     "status": "SUCCESS",
                     "auth_mode": auth_mode,
+                    "account_email": owner_email or detected_email,
+                    "shared_with_email": target_share_email,
                     "badge_name": req.badge_name,
                     "presentation_id": pres_id,
                     "presentation_url": pres_url,
@@ -2045,17 +2242,95 @@ async def api_export_slide_deck_to_google_slides(
         except Exception as exc:
             logger.warning("Direct Drive API Google Slides conversion warning: %s", exc)
 
+    # Tier 3: Workstation gdrive CLI (/google/bin/releases/gemini-agents-gdrive/gdrive)
+    gdrive_bin = Path("/google/bin/releases/gemini-agents-gdrive/gdrive")
+    if req.use_adc and gdrive_bin.exists():
+        try:
+            def _upload_via_gdrive_cli() -> Optional[str]:
+                proc = subprocess.run(
+                    [
+                        str(gdrive_bin),
+                        "mutate",
+                        "upload",
+                        str(pptx_file),
+                        "--mime-type",
+                        "application/vnd.google-apps.presentation",
+                    ],
+                    capture_output=True,
+                    text=True,
+                    timeout=45,
+                    check=False,
+                )
+                combined = f"{proc.stdout or ''}\n{proc.stderr or ''}"
+                m_id = re.search(r"\(ID:\s*([A-Za-z0-9_-]{15,})\)", combined)
+                if not m_id:
+                    return None
+                fid = m_id.group(1)
+                try:
+                    subprocess.run(
+                        [str(gdrive_bin), "mutate", "rename", fid, deck_title],
+                        capture_output=True,
+                        text=True,
+                        timeout=12,
+                        check=False,
+                    )
+                except Exception:
+                    pass
+                if target_share_email and "@" in target_share_email and target_share_email.lower() != detected_email.lower():
+                    try:
+                        subprocess.run(
+                            [
+                                str(gdrive_bin),
+                                "mutate",
+                                "share",
+                                fid,
+                                "--email",
+                                target_share_email,
+                                "--role",
+                                "writer",
+                            ],
+                            capture_output=True,
+                            text=True,
+                            timeout=15,
+                            check=False,
+                        )
+                    except Exception:
+                        pass
+                return fid
+
+            cli_pres_id = await asyncio.to_thread(_upload_via_gdrive_cli)
+            if cli_pres_id:
+                pres_url = f"https://docs.google.com/presentation/d/{cli_pres_id}/edit"
+                effective_user = target_share_email if (target_share_email and "@" in target_share_email) else detected_email
+                if effective_user:
+                    pres_url = f"{pres_url}?authuser={effective_user}"
+                return {
+                    "status": "SUCCESS",
+                    "auth_mode": "WORKSTATION_GDRIVE_CLI",
+                    "account_email": detected_email or "Workstation Google Account",
+                    "shared_with_email": target_share_email,
+                    "badge_name": req.badge_name,
+                    "presentation_id": cli_pres_id,
+                    "presentation_url": pres_url,
+                    "deck_title": deck_title,
+                    "pptx_download_url": _to_web_asset_url(str(pptx_file)),
+                    "duration_ms": round((time.perf_counter() - t_start) * 1000.0, 2),
+                }
+        except Exception as exc:
+            logger.warning("gdrive CLI Google Slides conversion warning: %s", exc)
+
     return {
         "status": "AUTH_GUIDED_IMPORT",
         "auth_mode": "OAUTH_CLIENT_OR_GUIDED_IMPORT",
+        "account_email": detected_email,
         "oauth_client_id": os.environ.get("GOOGLE_OAUTH_CLIENT_ID", ""),
         "badge_name": req.badge_name,
         "deck_title": deck_title,
         "pptx_download_url": _to_web_asset_url(str(pptx_file)),
-        "slides_import_url": "https://docs.google.com/presentation/u/0/",
+        "slides_import_url": "https://accounts.google.com/AccountChooser?continue=https://docs.google.com/presentation/u/0/",
+        "google_slides_import_url": "https://accounts.google.com/AccountChooser?continue=https://docs.google.com/presentation/u/0/",
         "message": (
-            "Provide a Google OAuth 2.0 Bearer token (scope: https://www.googleapis.com/auth/drive.file) "
-            "or configure GOOGLE_OAUTH_CLIENT_ID to create the deck directly in your Google Drive."
+            "Choose a Google account via OAuth 2.0 or import the generated .pptx into your selected Google account."
         ),
         "duration_ms": round((time.perf_counter() - t_start) * 1000.0, 2),
     }

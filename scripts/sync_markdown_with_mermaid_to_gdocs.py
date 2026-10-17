@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 from pathlib import Path
 import re
 import subprocess
@@ -33,11 +34,12 @@ from PIL import Image, ImageChops
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 IMAGES_DIR = REPO_ROOT / "docs" / "images"
+GDOCS_REGISTRY_PATH = REPO_ROOT / "docs" / "gdocs_registry.json"
 GDOCS_BIN = "/google/bin/releases/gemini-agents-gdocs/gdocs"
 CHROME_BIN = "/usr/bin/google-chrome"
 
-# Mapping of repository Markdown files to their companion Google Doc IDs
-COMPANION_GDOCS: dict[str, str] = {
+# Default fallback mapping of repository Markdown files to their companion Google Doc IDs
+_DEFAULT_COMPANION_GDOCS: dict[str, str] = {
     "docs/USER_GUIDE.md": "1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo",
     "docs/ADMIN_GUIDE.md": "1jCQclVI2KnO-qJaRqwRHQkVMJ8CDohWjU8u2JT3CJpU",
     "docs/TDD.md": "1Bpj41LTlT4MKyLSyxtSOvEtdj2kMHsPBSqL6lqeF_nQ",
@@ -48,6 +50,106 @@ COMPANION_GDOCS: dict[str, str] = {
     "docs/CAPSTONE_PANEL_PLAYBOOK.md": "1S80Sja2XTpyHxrSwuaATYaEePbF1PV6CkrCiDbEbiaU",
     "docs/CAPSTONE_SUBMISSION_AND_BUNDLING_GUIDE.md": "13OQXD6ec260-3bLVRwC2hSiSpLJAURT7vkUVW2DeQF4",
 }
+
+
+def load_companion_gdocs_registry() -> dict[str, str]:
+  """Load canonical Markdown-to-Google-Doc registry from docs/gdocs_registry.json."""
+  registry = dict(_DEFAULT_COMPANION_GDOCS)
+  if GDOCS_REGISTRY_PATH.exists():
+    try:
+      loaded = json.loads(GDOCS_REGISTRY_PATH.read_text(encoding="utf-8"))
+      if isinstance(loaded, dict):
+        for k, v in loaded.items():
+          if isinstance(k, str) and isinstance(v, str) and v.strip():
+            registry[k.strip()] = v.strip()
+    except Exception:
+      pass
+  return registry
+
+
+COMPANION_GDOCS: dict[str, str] = load_companion_gdocs_registry()
+
+
+def rewrite_internal_md_links_for_gdocs(
+    md_text: str,
+    source_md_rel_path: str,
+    registry: dict[str, str] | None = None,
+) -> str:
+  """Rewrite internal relative/repo .md links to their canonical Google Doc URLs.
+
+  Why this matters:
+  - In GitHub (.md files), links like `[Super-User Admin Guide (`docs/ADMIN_GUIDE.md`)](ADMIN_GUIDE.md)`
+    should resolve to `docs/ADMIN_GUIDE.md` in the repository.
+  - When exported to Google Docs via `gdocs mutate import-md`, relative links like `ADMIN_GUIDE.md`
+    would otherwise remain pointing to the `.md` filename instead of the companion Google Doc.
+  - This pre-processor resolves every internal `.md` link against `source_md_rel_path` and
+    `docs/gdocs_registry.json`, replacing the link target with
+    `https://docs.google.com/document/d/<DOC_ID>/edit` automatically on every sync.
+  """
+  reg = registry if registry is not None else load_companion_gdocs_registry()
+  source_dir = (REPO_ROOT / source_md_rel_path).resolve().parent
+
+  # Build lookup by both normalized repo-relative path ("docs/ADMIN_GUIDE.md") and basename ("ADMIN_GUIDE.md")
+  by_rel_path: dict[str, str] = {}
+  by_basename: dict[str, str] = {}
+  for rel_key, doc_id in reg.items():
+    norm_key = rel_key.strip().lstrip("./")
+    by_rel_path[norm_key] = doc_id
+    base = Path(norm_key).name
+    if base not in by_basename:
+      by_basename[base] = doc_id
+
+  link_pattern = re.compile(r"(!?\[([^\]]+)\])\(([^)]+)\)")
+
+  def _replace_link(match: re.Match[str]) -> str:
+    full_prefix = match.group(1)
+    label_text = match.group(2)
+    raw_target = match.group(3).strip()
+
+    # Never rewrite image links ![...](...) or external/anchor-only links
+    if full_prefix.startswith("!"):
+      return match.group(0)
+    if (
+        raw_target.startswith("http://")
+        or raw_target.startswith("https://")
+        or raw_target.startswith("mailto:")
+        or raw_target.startswith("#")
+    ):
+      return match.group(0)
+
+    # Strip optional #section anchor or query string when resolving the .md path
+    path_part = raw_target.split("#", 1)[0].split("?", 1)[0].strip()
+    if not path_part.lower().endswith(".md"):
+      return match.group(0)
+
+    # Resolve relative to source markdown file directory, then relative to REPO_ROOT
+    resolved_doc_id = None
+    try:
+      candidate_abs = (source_dir / path_part).resolve()
+      candidate_rel = candidate_abs.relative_to(REPO_ROOT).as_posix()
+      resolved_doc_id = by_rel_path.get(candidate_rel)
+    except Exception:
+      pass
+
+    if not resolved_doc_id:
+      norm_candidate = path_part.lstrip("./")
+      resolved_doc_id = by_rel_path.get(norm_candidate) or by_basename.get(
+          Path(norm_candidate).name
+      )
+
+    if not resolved_doc_id:
+      return match.group(0)
+
+    gdoc_url = f"https://docs.google.com/document/d/{resolved_doc_id}/edit"
+    # Clean up parenthetical (`docs/ADMIN_GUIDE.md`) in link label for Google Doc readers if present
+    cleaned_label = re.sub(
+        r"\s*\(`?(?:docs/)?[A-Za-z0-9_-]+\.md`?\)",
+        " (Google Doc)",
+        label_text,
+    )
+    return f"[{cleaned_label}]({gdoc_url})"
+
+  return link_pattern.sub(_replace_link, md_text)
 
 
 def _clean_mermaid_label(raw_label: str) -> list[str]:
@@ -384,6 +486,9 @@ def process_markdown_file(
       return f"![Architecture and Workflow Diagram {counter}]({rel_img_path})"
 
     synced_md_text = pattern.sub(_repl, text)
+    synced_md_text = rewrite_internal_md_links_for_gdocs(
+        synced_md_text, md_rel_path, COMPANION_GDOCS
+    )
     temp_md_path = md_path.parent / f".{md_path.stem}.gdoc-sync.md"
     try:
       temp_md_path.write_text(synced_md_text, encoding="utf-8")

@@ -2,7 +2,7 @@
 
 This guide explains how system administrators and curriculum maintainers unlock and operate the **Super-User Admin Console** built into the Scouts BSA Merit Badge Counselor Workbench.
 
-While the standard Counselor Workbench interface (`docs/USER_GUIDE.md`) stays focused on preparing classes, presenting slides, and tracking Blue Card requirements for Scouts, the **Super-User Admin Console** gives authorized maintainers a dedicated control center to:
+While the standard Counselor Workbench interface (**[User Guide (`docs/USER_GUIDE.md`)](USER_GUIDE.md)**) stays focused on preparing classes, presenting slides, and tracking Blue Card requirements for Scouts, the **Super-User Admin Console** gives authorized maintainers a dedicated control center to:
 
 - Browse and curate the **3,917 built-in visual assets** (**2,323 100%-Vision-verified BSA Pamphlet figures** [`1,009` primary active + `1,314` requirement alternates], **1,306 pre-generated Nano Banana requirement hero & topic illustrations**, **144 badge emblems**, and **144 pamphlet covers**) across all **144 official Merit Badges**.
 - Edit image titles, Vision-verified captions, and requirement mappings in place, with automatic synchronization to both the per-badge catalog (`assets/badge_image_catalog/<slug>/catalog.json`) and the master pamphlet image catalog (`data/pamphlet_image_catalog.json`).
@@ -154,9 +154,9 @@ Below the circuit breaker cards sits a searchable table (`max-height: 460px` wit
 - For each badge, the matrix reports 5 health columns:
   - **Cover (`assets/pamphlet_covers/`)**: `✅` Present (`144/144`)
   - **Emblem (`assets/badge_emblems/`)**: `✅` Present (`144/144` authentic `400x400` Scout Shop emblems verified in `assets/badge_emblems/scoutshop_emblems_manifest.json`)
-  - **PDF + Index (`data/pamphlet_Requirement_Index.json`)**: `✅` Indexed (`144/144`) with requirement count
-  - **Pamphlet Figs (`assets/pamphlet_images/`)**: Count of active Vision-verified primary and alternate figures (`2,323` total)
-  - **Nano Heroes (`assets/ai_illustrations/`)**: Count of pre-bundled requirement hero illustrations (`1,306` total Nano Banana PNGs)
+  - **Pamphlet Figs (`assets/pamphlet_images/`)**: Count of active Vision-verified primary and alternate figures (`2,323` total, e.g. `17 figs`)
+  - **Nano Heroes (`assets/ai_illustrations/`)**: Count of pre-bundled requirement hero illustrations (`1,306` total Nano Banana PNGs, e.g. `17 heroes`)
+  - **PDF & Index (`data/official_requirements_cache.json` + `data/pamphlet_Requirement_Index.json`)**: `✅` Indexed (`144/144`) with the badge's official top-level requirement count (e.g. `15 Reqs` for First Aid, `12 Reqs` for Weather)
 - Click **`🖼️ Inspect Visuals`** on any row to jump directly to **Tab 1 (`Cached Image & Caption Studio`)** with that Merit Badge selected in the **Merit Badge (All 144)** dropdown and scrolled into view.
 
 ### 3. Prompt SHA-256 Manifest & Guardrail Audit Log
