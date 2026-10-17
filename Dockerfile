@@ -21,18 +21,19 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PORT=8085
 
 # Install package dependencies first for layer caching
-COPY pyproject.toml README.md ./
+COPY pyproject.toml README.md SCOPE.md SPEC.md ARCHITECTURE_DECISIONS.md ./
 COPY src/ ./src/
 
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
     pip install --no-cache-dir .
 
-# Copy runtime application assets, prompts, configs, UI, and evaluation gate scripts
+# Copy runtime application assets, documentation, prompts, configs, UI, and evaluation gate scripts
 COPY scripts/ ./scripts/
 COPY data/ ./data/
 COPY tests/data/ ./tests/data/
 COPY config/ ./config/
 COPY prompts/ ./prompts/
+COPY docs/ ./docs/
 COPY ui/ ./ui/
 COPY assets/ ./assets/
 

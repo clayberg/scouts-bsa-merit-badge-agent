@@ -2227,9 +2227,25 @@ async def api_get_curated_documentation_content(doc_id: str) -> Dict[str, Any]:
     if not matched:
         raise HTTPException(status_code=404, detail=f"Document '{doc_id}' is not in the curated documentation catalog.")
     file_path = PROJECT_ROOT / matched["repo_path"]
-    if not file_path.exists():
+    content: Optional[str] = None
+    if file_path.exists():
+        content = await asyncio.to_thread(file_path.read_text, encoding="utf-8")
+    else:
+        # Resilient fallback: fetch from canonical GitHub raw URL if a doc file was omitted from a minimal container layer
+        raw_url = f"https://raw.githubusercontent.com/clayberg/scouts-bsa-merit-badge-agent/main/{matched['repo_path']}"
+        def _fetch_remote_md() -> Optional[str]:
+            import urllib.request
+            try:
+                req = urllib.request.Request(raw_url, headers={"User-Agent": "ScoutsBSA-Workbench/2.5"})
+                with urllib.request.urlopen(req, timeout=6) as resp:
+                    if resp.status == 200:
+                        return resp.read().decode("utf-8", errors="replace")
+            except Exception:
+                return None
+            return None
+        content = await asyncio.to_thread(_fetch_remote_md)
+    if content is None:
         raise HTTPException(status_code=404, detail=f"Documentation file '{matched['repo_path']}' not found on disk.")
-    content = await asyncio.to_thread(file_path.read_text, encoding="utf-8")
     headings = _extract_markdown_headings(content)
     return {
         "status": "SUCCESS",

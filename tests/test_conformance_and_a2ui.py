@@ -2144,4 +2144,20 @@ def test_v29_plan11_modals_presenter_docs_viewer_and_readme_clean() -> None:
         assert "docs.google.com/document" not in text, f"{d['rel_path']} still references docs.google.com/document"
         assert "1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E" not in text, f"{d['rel_path']} still references executive briefing slide deck"
         assert "Executive Briefing" not in text, f"{d['rel_path']} still references Executive Briefing"
+        # Also verify every single allowlisted doc_id returns 200 via /api/v1/docs/{doc_id}
+        res_doc = client.get(f"/api/v1/docs/{d['doc_id']}")
+        assert res_doc.status_code == 200, f"GET /api/v1/docs/{d['doc_id']} failed with {res_doc.status_code}"
+        assert len(res_doc.json().get("markdown", "")) > 200
+
+    # 7. Verify Dockerfile copies all documentation files & UI supports Maximize/Restore, Full-Height Scroll & Dark Mode
+    dockerfile_text = (repo_root / "Dockerfile").read_text(encoding="utf-8")
+    assert "COPY docs/ ./docs/" in dockerfile_text
+    assert "SCOPE.md" in dockerfile_text and "SPEC.md" in dockerfile_text and "ARCHITECTURE_DECISIONS.md" in dockerfile_text
+    assert ".m3-docs-studio-dialog.is-maximized" in ui_css
+    assert "max-height: none !important;" in ui_css
+    assert "body.m3-dark-mode" in ui_css
+    assert 'id="btn-toggle-dark-mode"' in ui_html
+    assert 'id="btn-docs-toggle-theme"' in ui_html
+    assert "applyWorkbenchDarkMode" in ui_js
+
 

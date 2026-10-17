@@ -3474,10 +3474,10 @@ body.m3-sunlight-mode .m3-slide-card {
 
 /* Option A: Dual-Mode Material 3 Documentation Studio Modal */
 .m3-docs-studio-dialog {
-  max-width: 1220px !important;
+  max-width: 1360px !important;
   width: 95vw !important;
-  height: 89vh !important;
-  max-height: 89vh !important;
+  height: 92vh !important;
+  max-height: 92vh !important;
   padding: 0 !important;
   display: flex !important;
   flex-direction: column !important;
@@ -3485,6 +3485,19 @@ body.m3-sunlight-mode .m3-slide-card {
   border-radius: 16px !important;
   border: 1px solid #CBD5E1 !important;
   background: #FFFFFF !important;
+  transition: width 160ms ease, height 160ms ease, max-width 160ms ease, max-height 160ms ease, border-radius 160ms ease;
+}
+
+#docs-viewer-modal.is-maximized-backdrop {
+  padding: 6px !important;
+}
+
+.m3-docs-studio-dialog.is-maximized {
+  max-width: 99vw !important;
+  width: 99vw !important;
+  height: 97vh !important;
+  max-height: 97vh !important;
+  border-radius: 10px !important;
 }
 
 .m3-docs-studio-topbar {
@@ -3835,11 +3848,25 @@ body.m3-sunlight-mode .m3-slide-card {
 }
 
 .m3-docs-article-body {
-  padding: 22px 32px 44px 32px;
-  max-width: 920px;
+  padding: 24px 36px 52px 36px !important;
+  max-width: 1040px !important;
+  width: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  flex: 1 1 auto !important;
+  margin: 0 !important;
+  background: transparent !important;
   color: #1E293B;
   font-size: 0.90rem;
   line-height: 1.65;
+}
+
+.m3-docs-studio-dialog.is-maximized .m3-docs-article-body {
+  max-width: 1320px !important;
 }
 
 .m3-docs-article-body h1 {
@@ -3958,6 +3985,352 @@ body.m3-sunlight-mode .m3-slide-card {
   display: flex;
   justify-content: center;
 }
+
+/* ============================================================================
+   SYNCHRONIZED DARK MODE (Documentation Studio Window & Full Workbench UI)
+   Preserves WYSIWYG 16:9 PowerPoint Slide Canvas (#widescreen-slide-stage)
+   ============================================================================ */
+
+body.m3-dark-mode {
+  --md-sys-color-primary: #2563EB;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #1E3A8A;
+  --md-sys-color-on-primary-container: #DBEAFE;
+  --md-sys-color-surface: #0B1120;
+  --md-sys-color-surface-bright: #111827;
+  --md-sys-color-surface-container-lowest: #0F172A;
+  --md-sys-color-surface-container-low: #111827;
+  --md-sys-color-surface-container: #1E293B;
+  --md-sys-color-surface-container-high: #334155;
+  --md-sys-color-on-surface: #F1F5F9;
+  --md-sys-color-on-surface-variant: #94A3B8;
+  --md-sys-color-outline: #334155;
+  --md-sys-color-outline-variant: #1E293B;
+  background-color: #0B1120;
+  color: #F1F5F9;
+}
+
+body.m3-dark-mode .m3-hero-banner {
+  background: linear-gradient(135deg, #003F87 0%, #0F294A 100%) !important;
+  border: 1px solid #1E3A8A !important;
+}
+
+/* 1. Workbench Chrome, Top App Bar, Cards, Inputs, Tabs & Drawers in Dark Mode */
+body.m3-dark-mode .m3-top-bar {
+  background: rgba(15, 23, 42, 0.94);
+  border-bottom-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-brand-titles h1 {
+  color: #F8FAFC;
+}
+
+body.m3-dark-mode .m3-brand-subtitle {
+  color: #94A3B8;
+}
+
+body.m3-dark-mode #btn-open-docs-viewer {
+  background: rgba(30, 58, 138, 0.55) !important;
+  color: #93C5FD !important;
+  border-color: #3B82F6 !important;
+}
+
+body.m3-dark-mode #btn-toggle-dark-mode {
+  background: rgba(250, 204, 21, 0.16) !important;
+  color: #FDE047 !important;
+  border-color: rgba(250, 204, 21, 0.45) !important;
+}
+
+body.m3-dark-mode .m3-card,
+body.m3-dark-mode .m3-understage-drawer,
+body.m3-dark-mode .m3-slide-outline-rail,
+body.m3-dark-mode .m3-slide-toolbar,
+body.m3-dark-mode .m3-req-jump-bar,
+body.m3-dark-mode .m3-modal-dialog:not(.m3-docs-studio-dialog) {
+  background: #111827 !important;
+  border-color: #1E293B !important;
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode .m3-card-title,
+body.m3-dark-mode .m3-section-heading {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-field-label {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-input,
+body.m3-dark-mode .m3-select,
+body.m3-dark-mode textarea.m3-input {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-btn-outlined {
+  background: #1E293B;
+  color: #E2E8F0;
+  border-color: #475569;
+}
+
+body.m3-dark-mode .m3-btn-tonal {
+  background: #1E3A8A;
+  color: #DBEAFE;
+  border-color: #3B82F6;
+}
+
+body.m3-dark-mode .m3-tab-bar {
+  background: #111827;
+  border-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-tab-btn {
+  color: #94A3B8;
+}
+
+body.m3-dark-mode .m3-tab-btn.active {
+  background: #1E3A8A;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-slide-thumb {
+  background: #0F172A;
+  border-color: #1E293B;
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-slide-thumb.active {
+  background: #1E3A8A;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-notes-box,
+body.m3-dark-mode .m3-codesign-panel,
+body.m3-dark-mode .m3-markdown-body:not(.m3-docs-article-body),
+body.m3-dark-mode .m3-triage-col,
+body.m3-dark-mode .m3-triage-card,
+body.m3-dark-mode .m3-gear-group-card {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-finops-table th {
+  background: #1E293B !important;
+  color: #F8FAFC !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-finops-table td {
+  background: #0F172A !important;
+  color: #E2E8F0 !important;
+  border-color: #1E293B !important;
+}
+
+body.m3-dark-mode .m3-footer-banner-inner {
+  background: #0F172A !important;
+  border-top-color: #1E293B !important;
+  color: #94A3B8 !important;
+}
+
+/* Pin the 16:9 PowerPoint Slide Canvas (#widescreen-slide-stage) to its true WYSIWYG Warm Cream palette */
+body.m3-dark-mode #widescreen-slide-stage {
+  --md-sys-color-primary: #003F87;
+  --md-sys-color-on-surface: #0F172A;
+  --md-sys-color-on-surface-variant: #475569;
+  color: #0F172A;
+}
+
+/* 2. Documentation Studio Modal (#docs-viewer-modal) in Dark Mode */
+body.m3-dark-mode .m3-docs-studio-dialog {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-docs-audience-bar {
+  background: #111827 !important;
+  border-bottom-color: #1E293B !important;
+}
+
+body.m3-dark-mode .m3-docs-group-label {
+  color: #94A3B8;
+}
+
+body.m3-dark-mode .m3-docs-primary-pill {
+  background: #1E293B;
+  border-color: #334155;
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-docs-primary-pill:hover {
+  background: #334155;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-docs-primary-pill.is-active {
+  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%);
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-docs-eng-toggle-btn {
+  background: #1E293B;
+  border-color: #475569;
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-docs-eng-toggle-btn.is-active {
+  background: linear-gradient(135deg, #1E3A8A 0%, #0F172A 100%);
+  color: #FDE68A;
+  border-color: #F4C430;
+}
+
+body.m3-dark-mode .m3-docs-search-input {
+  background: #0F172A;
+  border-color: #475569;
+  color: #F8FAFC;
+}
+
+body.m3-dark-mode .m3-docs-left-rail {
+  background: #111827;
+  border-right-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-docs-rail-section-title {
+  color: #94A3B8;
+  border-bottom-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-docs-eng-item-title {
+  color: #F1F5F9;
+}
+
+body.m3-dark-mode .m3-docs-eng-item-path {
+  color: #94A3B8;
+}
+
+body.m3-dark-mode .m3-docs-eng-item-btn:hover {
+  background: #1E293B;
+  border-color: #334155;
+}
+
+body.m3-dark-mode .m3-docs-eng-item-btn.is-active {
+  background: rgba(37, 99, 235, 0.28);
+  border-color: #60A5FA;
+}
+
+body.m3-dark-mode .m3-docs-toc-link {
+  color: #CBD5E1;
+}
+
+body.m3-dark-mode .m3-docs-toc-link.is-h3 {
+  color: #94A3B8;
+}
+
+body.m3-dark-mode .m3-docs-toc-link:hover {
+  background: #1E293B;
+  color: #60A5FA;
+}
+
+body.m3-dark-mode .m3-docs-main-canvas {
+  background: #0F172A !important;
+}
+
+body.m3-dark-mode .m3-docs-doc-header-bar {
+  background: rgba(15, 23, 42, 0.95);
+  border-bottom-color: #1E293B;
+}
+
+body.m3-dark-mode #docs-viewer-doc-subtitle {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-docs-path-pill {
+  background: #1E293B;
+  border-color: #334155;
+  color: #93C5FD;
+}
+
+body.m3-dark-mode .m3-docs-print-pill {
+  background: #1E293B;
+  border-color: #475569;
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-docs-print-pill:hover {
+  background: #334155;
+}
+
+body.m3-dark-mode .m3-docs-article-body {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-docs-article-body h1 {
+  color: #93C5FD;
+  border-bottom-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-docs-article-body h2 {
+  color: #F8FAFC;
+  border-bottom-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-docs-article-body h3 {
+  color: #60A5FA;
+}
+
+body.m3-dark-mode .m3-docs-article-body a {
+  color: #60A5FA;
+}
+
+body.m3-dark-mode .m3-docs-article-body code {
+  background: #1E293B;
+  color: #93C5FD;
+}
+
+body.m3-dark-mode .m3-docs-article-body pre {
+  background: #020617;
+  border: 1px solid #1E293B;
+  color: #F8FAFC;
+}
+
+body.m3-dark-mode .m3-docs-article-body pre code {
+  background: transparent;
+  color: inherit;
+}
+
+body.m3-dark-mode .m3-docs-article-body th {
+  background: #1E293B;
+  color: #F8FAFC;
+  border-color: #334155;
+}
+
+body.m3-dark-mode .m3-docs-article-body td {
+  border-color: #334155;
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-docs-article-body blockquote {
+  background: rgba(30, 58, 138, 0.32);
+  border-left-color: #60A5FA;
+  color: #DBEAFE;
+}
+
+body.m3-dark-mode .m3-docs-article-body img {
+  border-color: #334155;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+body.m3-dark-mode .m3-docs-article-body .mermaid {
+  background: #F8FAFC;
+  border-color: #334155;
+}
+
 
 
 

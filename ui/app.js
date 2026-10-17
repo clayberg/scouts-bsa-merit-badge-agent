@@ -7913,17 +7913,51 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     await runGoogleSlidesExportAndOpenTab({ shareEmail });
   });
 
-  // UI-6: Sunlight / High-Contrast Camp Mode toggle
+  // UI-6: Synchronized Dark Mode & Sunlight / High-Contrast Camp Mode toggles
+  const darkBtn = document.getElementById("btn-toggle-dark-mode");
+  const docsThemeBtn = document.getElementById("btn-docs-toggle-theme");
   const sunlightBtn = document.getElementById("btn-toggle-sunlight-mode");
+
+  const applyWorkbenchDarkMode = (enableDark) => {
+    const active = Boolean(enableDark);
+    document.body.classList.toggle("m3-dark-mode", active);
+    if (active && document.body.classList.contains("m3-sunlight-mode")) {
+      document.body.classList.remove("m3-sunlight-mode");
+      if (sunlightBtn) sunlightBtn.textContent = "☀️ Sunlight Mode";
+      try {
+        window.localStorage.setItem("scouts_bsa_sunlight_mode", "0");
+      } catch (_e) {}
+    }
+    if (darkBtn) darkBtn.textContent = active ? "☀️ Light" : "🌙 Dark";
+    if (docsThemeBtn) docsThemeBtn.textContent = active ? "☀️ Light" : "🌙 Dark";
+    try {
+      window.localStorage.setItem("scouts_bsa_dark_mode", active ? "1" : "0");
+    } catch (_e) {}
+  };
+
   try {
-    if (window.localStorage.getItem("scouts_bsa_sunlight_mode") === "1") {
+    if (window.localStorage.getItem("scouts_bsa_dark_mode") === "1") {
+      applyWorkbenchDarkMode(true);
+    } else if (window.localStorage.getItem("scouts_bsa_sunlight_mode") === "1") {
       document.body.classList.add("m3-sunlight-mode");
       if (sunlightBtn) sunlightBtn.textContent = "☀️ Sunlight: ON";
     }
   } catch (_e) {}
+
+  darkBtn?.addEventListener("click", () => {
+    const nextDark = !document.body.classList.contains("m3-dark-mode");
+    applyWorkbenchDarkMode(nextDark);
+  });
+  docsThemeBtn?.addEventListener("click", () => {
+    const nextDark = !document.body.classList.contains("m3-dark-mode");
+    applyWorkbenchDarkMode(nextDark);
+  });
   sunlightBtn?.addEventListener("click", () => {
     const active = document.body.classList.toggle("m3-sunlight-mode");
-    sunlightBtn.textContent = active ? "☀️ Sunlight: ON" : "☀️ Sunlight";
+    if (active && document.body.classList.contains("m3-dark-mode")) {
+      applyWorkbenchDarkMode(false);
+    }
+    sunlightBtn.textContent = active ? "☀️ Sunlight: ON" : "☀️ Sunlight Mode";
     try {
       window.localStorage.setItem("scouts_bsa_sunlight_mode", active ? "1" : "0");
     } catch (_e) {}
@@ -8960,6 +8994,7 @@ async function loadDocumentationItem(docId) {
     if (searchInput) searchInput.value = "";
 
     renderActiveDocMarkdownAndToc(state.currentDocMarkdown, data.rel_path || "");
+    document.getElementById("docs-viewer-scroll-container")?.scrollTo({ top: 0, behavior: "instant" });
   } catch (err) {
     if (bodyEl) {
       bodyEl.innerHTML = `<div style="padding:24px; color:#991B1B; font-weight:700;">Could not load document: ${escapeHtml(err.message)}</div>`;
@@ -9070,19 +9105,8 @@ function bindDocumentationViewerModal() {
   maxBtn?.addEventListener("click", () => {
     if (!dialogBox) return;
     const isMax = dialogBox.classList.toggle("is-maximized");
-    if (isMax) {
-      dialogBox.style.maxWidth = "99vw";
-      dialogBox.style.width = "99vw";
-      dialogBox.style.height = "96vh";
-      dialogBox.style.maxHeight = "96vh";
-      maxBtn.textContent = "⤡ Restore";
-    } else {
-      dialogBox.style.maxWidth = "";
-      dialogBox.style.width = "";
-      dialogBox.style.height = "";
-      dialogBox.style.maxHeight = "";
-      maxBtn.textContent = "⤢ Maximize";
-    }
+    modal?.classList.toggle("is-maximized-backdrop", isMax);
+    maxBtn.textContent = isMax ? "⤡ Restore" : "⤢ Maximize";
   });
   modal?.addEventListener("click", (ev) => {
     if (ev.target === modal) closeModal();
