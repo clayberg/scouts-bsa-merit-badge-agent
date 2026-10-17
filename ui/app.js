@@ -914,31 +914,28 @@ function bindFilterAndSlideControls() {
   const setPresentationFullscreenMode = async (enable) => {
     if (!stageWrapper) return;
     hideConstructionAnimationStage();
+    document.getElementById("widescreen-slide-stage")?.classList.remove("hidden");
     stageWrapper.classList.toggle("is-presenting-fullscreen", enable);
     fsHud?.classList.toggle("hidden", !enable);
     const fsBtn = document.getElementById("btn-present-fullscreen");
     if (fsBtn) {
       fsBtn.textContent = enable ? "✕ Exit Fullscreen" : "🖥️ Present Fullscreen";
     }
-    if (enable) {
-      try {
-        if (!document.fullscreenElement && stageWrapper.requestFullscreen) {
-          await stageWrapper.requestFullscreen();
-        }
-      } catch (_e) {
-        // CSS .is-presenting-fullscreen overlay remains active even if browser blocks native fullscreen
-      }
-    } else {
+    // Use the deterministic full-viewport CSS theatre overlay (.is-presenting-fullscreen)
+    // and exit native OS fullscreen if active so macOS Spaces never hijack Presenter View into a separate fullscreen space
+    if (!enable) {
       try {
         if (document.fullscreenElement && document.exitFullscreen) {
           await document.exitFullscreen();
         }
       } catch (_e) {}
     }
+    fitActiveSlideToStage();
+    setTimeout(() => fitActiveSlideToStage(), 40);
   };
 
   document.getElementById("btn-present-fullscreen")?.addEventListener("click", async () => {
-    const isNowActive = !stageWrapper?.classList.contains("is-presenting-fullscreen") && !document.fullscreenElement;
+    const isNowActive = !stageWrapper?.classList.contains("is-presenting-fullscreen");
     await setPresentationFullscreenMode(isNowActive);
   });
 
@@ -3140,6 +3137,7 @@ function renderActiveSlide(idx) {
   }
 
   renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualForIntro);
+  document.getElementById("btn-stage-zoom-image")?.classList.toggle("hidden", !hasVisual || hideVisualForIntro);
 
   if (!hasVisual || hideVisualForIntro) {
     if (rightZone) rightZone.style.display = "none";
@@ -4372,13 +4370,16 @@ function bindImageStudioModal() {
             : "📐 Official BSA";
         return `
           <div class="m3-image-catalog-card ${isCurrent ? "active" : ""}">
-            <img src="${escapeHtml(entry.image_url)}" alt="${escapeHtml(entry.title)}" />
+            <div class="m3-catalog-img-zoom-wrap" data-zoom-catalog-idx="${idx}" title="Click image to view &amp; zoom in Lightbox (up to 500%)">
+              <img src="${escapeHtml(entry.image_url)}" alt="${escapeHtml(entry.title)}" style="cursor:zoom-in;" />
+              <button type="button" class="m3-catalog-zoom-pill" data-zoom-catalog-idx="${idx}" title="Click to open in Click-to-Zoom Lightbox (up to 500%)">🔍 Zoom</button>
+            </div>
             <div style="display:flex; justify-content:space-between; align-items:center; gap:6px;">
               <span class="m3-chip m3-chip-primary" style="font-size:0.66rem; padding:2px 7px;">${escapeHtml(kindBadge)}</span>
               ${isCurrent ? '<span style="font-size:0.70rem; font-weight:800; color:#166534;">✓ Active on Slide</span>' : ""}
             </div>
             <div style="font-size:0.84rem; font-weight:700; color:#0F172A;">${escapeHtml(entry.title || `Badge Graphic ${idx + 1}`)}</div>
-            <div style="font-size:0.76rem; color:#475569; line-height:1.4;">${escapeHtml(entry.description || "")}</div>
+            <div style="font-size:0.76rem; color:#475569; line-height:1.4;">${escapeHtml(entry.description || entry.caption || "")}</div>
             <button type="button" class="m3-btn ${isCurrent ? "m3-btn-outlined" : "m3-btn-tonal"}" data-apply-catalog-idx="${idx}" style="margin-top:auto; width:100%; font-size:0.76rem; padding:7px 10px;">
               ${isCurrent ? "✓ Currently Active on Slide" : `✅ Use on Slide ${state.activeSlideIdx + 2}`}
             </button>
@@ -4386,6 +4387,21 @@ function bindImageStudioModal() {
         `;
       })
       .join("");
+
+    grid.querySelectorAll(".m3-catalog-img-zoom-wrap").forEach((wrapEl) => {
+      wrapEl.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const idx = parseInt(wrapEl.getAttribute("data-zoom-catalog-idx") || "0", 10);
+        const chosen = (state.badgeCatalogCache || [])[idx];
+        if (chosen && chosen.image_url) {
+          openImageZoomLightbox({
+            src: chosen.image_url,
+            title: chosen.title || `Badge Graphic ${idx + 1}`,
+            caption: chosen.caption || chosen.description || chosen.title || "",
+          });
+        }
+      });
+    });
 
     grid.querySelectorAll("[data-apply-catalog-idx]").forEach((btn) => {
       btn.addEventListener("click", async () => {
@@ -4617,7 +4633,10 @@ function bindImageStudioModal() {
               .map(
                 (entry, i) => `
                 <div class="m3-image-catalog-card">
-                  <img src="${escapeHtml(entry.image_url)}" alt="${escapeHtml(entry.title)}" />
+                  <div class="m3-catalog-img-zoom-wrap" data-zoom-ws-idx="${i}" title="Click image to view &amp; zoom in Lightbox (up to 500%)">
+                    <img src="${escapeHtml(entry.image_url)}" alt="${escapeHtml(entry.title)}" style="cursor:zoom-in;" />
+                    <button type="button" class="m3-catalog-zoom-pill" data-zoom-ws-idx="${i}" title="Click to open in Click-to-Zoom Lightbox (up to 500%)">🔍 Zoom</button>
+                  </div>
                   <div style="font-size:0.84rem; font-weight:700; color:#0F172A;">${escapeHtml(entry.title)}</div>
                   <div style="font-size:0.76rem; color:#475569; line-height:1.4;">${escapeHtml(entry.description)}</div>
                   <button type="button" class="m3-btn m3-btn-tonal" data-apply-ws-idx="${i}" style="margin-top:auto; width:100%; font-size:0.76rem; padding:7px 10px;">
@@ -4627,6 +4646,19 @@ function bindImageStudioModal() {
               `
               )
               .join("");
+            resultsGrid.querySelectorAll(".m3-catalog-img-zoom-wrap").forEach((wrapEl) => {
+              wrapEl.addEventListener("click", (ev) => {
+                ev.stopPropagation();
+                const chosen = found[parseInt(wrapEl.getAttribute("data-zoom-ws-idx") || "0", 10)];
+                if (chosen && chosen.image_url) {
+                  openImageZoomLightbox({
+                    src: chosen.image_url,
+                    title: chosen.title || "Web Search Image",
+                    caption: chosen.caption || chosen.description || chosen.title || "",
+                  });
+                }
+              });
+            });
             resultsGrid.querySelectorAll("[data-apply-ws-idx]").forEach((b) => {
               b.addEventListener("click", async () => {
                 const chosen = found[parseInt(b.getAttribute("data-apply-ws-idx"), 10)];
@@ -6334,11 +6366,11 @@ function togglePresenterConsoleMode(forceState) {
   const nextActive = typeof forceState === "boolean" ? forceState : !state.presenterConsoleOpen;
   state.presenterConsoleOpen = nextActive;
 
-  // If entering Presenter Console while the Construction Animation stage is visible,
-  // auto-hide the construction animation so the active slide canvas and presenter dock are centered side-by-side.
-  const animStage = document.getElementById("slide-construction-stage");
-  if (nextActive && animStage && !animStage.classList.contains("hidden")) {
+  // Always ensure the construction animation stage is hidden and the 16:9 slide stage is visible
+  // so Presenter View never hides the slides in either normal or fullscreen mode.
+  if (nextActive) {
     hideConstructionAnimationStage();
+    document.getElementById("widescreen-slide-stage")?.classList.remove("hidden");
   }
 
   stageWrapper.classList.toggle("is-presenter-console-active", nextActive);
@@ -6438,15 +6470,25 @@ function syncPresenterViewWindow() {
 
 function openPresenterViewWindow() {
   state._openingSecondMonitorPopupAt = Date.now();
+  // Ensure native OS fullscreen is not active when opening the popup so macOS never forces the popup into a Fullscreen Space
+  if (document.fullscreenElement && document.exitFullscreen) {
+    try {
+      document.exitFullscreen().catch(() => {});
+    } catch (_e) {}
+  }
   const popupLeft = Math.max(20, (window.screenX || 0) + (window.outerWidth || 1200) - 660);
   const popupTop = Math.max(20, (window.screenY || 0) + 60);
   const features = `popup=yes,width=640,height=740,left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`;
   presenterPopupWin = window.open("", "BSAPresenterView", features);
   if (!presenterPopupWin) return;
+  try {
+    presenterPopupWin.resizeTo(640, 740);
+  } catch (_e) {}
   // Auto-close the in-stage right dock when the 2nd Monitor popup opens so the main screen shows only the centered 16:9 slide
   if (state.presenterConsoleOpen) {
     togglePresenterConsoleMode(false);
   }
+  document.getElementById("widescreen-slide-stage")?.classList.remove("hidden");
   const payload = buildPresenterSyncPayload();
   const baseFontScale = Math.round(((state.presenterFontScale || 0.86) + 0.10) * 100) / 100;
   presenterPopupWin.document.open();
@@ -6940,7 +6982,10 @@ function renderAdminCatalogGrid(preselectImageId = null) {
             <span class="m3-chip m3-chip-primary" style="font-size:0.65rem; padding:1px 6px;">Req ${escapeHtml(String(it.req_number || "1"))}</span>
             ${rolePill}
           </div>
-          <img src="${escapeHtml(it.image_url || "")}" alt="${escapeHtml(it.title || "")}" style="width:100%; height:128px; object-fit:contain; background:#F8FAFC; border-radius:8px; border:1px solid #E2E8F0;" loading="lazy" />
+          <div class="m3-catalog-img-zoom-wrap" style="position:relative;">
+            <img src="${escapeHtml(it.image_url || "")}" alt="${escapeHtml(it.title || "")}" data-admin-zoom-idx="${idx}" title="Click to inspect • Click 🔍 Zoom to open in Lightbox (up to 500%)" style="width:100%; height:128px; object-fit:contain; background:#F8FAFC; border-radius:8px; border:1px solid #E2E8F0; cursor:pointer;" loading="lazy" />
+            <button type="button" class="m3-catalog-zoom-pill" data-admin-zoom-idx="${idx}" title="Open image and caption in Click-to-Zoom Lightbox (up to 500%)">🔍 Zoom</button>
+          </div>
           <div style="font-size:0.79rem; font-weight:700; color:#0F172A; line-height:1.25;">${escapeHtml(it.title || it.filename || "Visual")}</div>
           <div style="font-size:0.72rem; color:#475569; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
             ${escapeHtml(it.caption || it.description || "")}
@@ -6958,6 +7003,22 @@ function renderAdminCatalogGrid(preselectImageId = null) {
     selectAdminCatalogImage(found, false);
   }
 
+  grid.querySelectorAll("button.m3-catalog-zoom-pill[data-admin-zoom-idx]").forEach((zBtn) => {
+    zBtn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const idx = parseInt(zBtn.getAttribute("data-admin-zoom-idx") || "0", 10);
+      const chosen = items[idx];
+      if (chosen && chosen.image_url) {
+        selectAdminCatalogImage(chosen, false);
+        openImageZoomLightbox({
+          src: chosen.image_url,
+          title: chosen.title || chosen.filename || "Catalog Visual",
+          caption: chosen.caption || chosen.description || chosen.title || "",
+        });
+      }
+    });
+  });
+
   grid.querySelectorAll("[data-admin-card-idx]").forEach((cardEl) => {
     cardEl.addEventListener("click", () => {
       const idx = parseInt(cardEl.getAttribute("data-admin-card-idx") || "0", 10);
@@ -6966,6 +7027,17 @@ function renderAdminCatalogGrid(preselectImageId = null) {
         grid.querySelectorAll(".m3-admin-img-card").forEach((c) => c.classList.remove("selected"));
         cardEl.classList.add("selected");
         selectAdminCatalogImage(chosen, false);
+      }
+    });
+    cardEl.addEventListener("dblclick", () => {
+      const idx = parseInt(cardEl.getAttribute("data-admin-card-idx") || "0", 10);
+      const chosen = items[idx];
+      if (chosen && chosen.image_url) {
+        openImageZoomLightbox({
+          src: chosen.image_url,
+          title: chosen.title || chosen.filename || "Catalog Visual",
+          caption: chosen.caption || chosen.description || chosen.title || "",
+        });
       }
     });
   });
@@ -7222,12 +7294,12 @@ async function loadAdminZeroPiiTelemetry() {
             const p99 = Number(st.p99_ms ?? st.p99 ?? p95);
             const pct = Math.min(100, Math.max(6, Math.round((p95 / maxP99) * 100)));
             return `
-              <div style="display:grid; grid-template-columns:minmax(225px, 245px) minmax(90px, 1fr) auto; gap:12px; align-items:center; font-size:0.79rem;">
-                <strong style="color:#0F172A; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${escapeHtml(sid)}">${escapeHtml(sid)}</strong>
-                <div style="background:#E2E8F0; height:10px; border-radius:999px; overflow:hidden; min-width:80px;">
-                  <div style="width:${pct}%; height:100%; background:#003F87; border-radius:999px;"></div>
+              <div class="m3-stage-latency-row" style="display:grid; grid-template-columns:minmax(225px, 245px) minmax(90px, 1fr) auto; gap:12px; align-items:center; font-size:0.79rem;">
+                <strong class="m3-stage-latency-name" style="color:#0F172A; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${escapeHtml(sid)}">${escapeHtml(sid)}</strong>
+                <div class="m3-stage-latency-track" style="background:#E2E8F0; height:10px; border-radius:999px; overflow:hidden; min-width:80px;">
+                  <div class="m3-stage-latency-fill" style="width:${pct}%; height:100%; background:#003F87; border-radius:999px;"></div>
                 </div>
-                <span style="font-family:var(--font-mono); font-size:0.72rem; color:#334155; white-space:nowrap; text-align:right;">p50: ${p50}ms • p95: ${p95}ms • p99: ${p99}ms</span>
+                <span class="m3-stage-latency-stats" style="font-family:var(--font-mono); font-size:0.72rem; color:#334155; white-space:nowrap; text-align:right;">p50: ${p50}ms • p95: ${p95}ms • p99: ${p99}ms</span>
               </div>
             `;
           })
@@ -9080,7 +9152,7 @@ function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
       const src = imgNode?.getAttribute("src") || el.getAttribute("data-zoom-src") || "";
       const alt = imgNode?.getAttribute("alt") || el.getAttribute("data-zoom-alt") || "Embedded Documentation Screenshot";
       if (src) {
-        openImageZoomLightbox({ src, title: alt });
+        openImageZoomLightbox({ src, title: alt, caption: alt });
       }
     });
   });
@@ -9095,6 +9167,7 @@ function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
       openImageZoomLightbox({
         svgHtml: mNode.innerHTML,
         title: "Architecture & Workflow Diagram (Mermaid)",
+        caption: `${state.currentDocTitle || "Documentation"} — Interactive Mermaid Architecture Diagram (Use + / - or Ctrl+Scroll to zoom up to 500%)`,
       });
     });
   });
@@ -9126,12 +9199,22 @@ function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
   }
 
   // Render Mermaid diagrams if present (lazy-load mermaid.js asynchronously so it never blocks page startup)
+  const expandMermaidSvgs = (rootNode) => {
+    rootNode.querySelectorAll(".mermaid svg").forEach((svgEl) => {
+      svgEl.style.maxWidth = "100%";
+      svgEl.style.width = "100%";
+      svgEl.style.height = "auto";
+    });
+  };
   const mermaidBlocks = bodyEl.querySelectorAll(".mermaid");
   if (mermaidBlocks.length > 0) {
     if (window.mermaid) {
       try {
         window.mermaid.initialize({ startOnLoad: false, theme: "default", securityLevel: "loose" });
-        window.mermaid.run({ nodes: mermaidBlocks }).catch(() => {});
+        window.mermaid
+          .run({ nodes: mermaidBlocks })
+          .then(() => expandMermaidSvgs(bodyEl))
+          .catch(() => {});
       } catch (_e) {}
     } else if (!window.__mermaidLoading) {
       window.__mermaidLoading = true;
@@ -9142,7 +9225,12 @@ function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
         try {
           window.mermaid.initialize({ startOnLoad: false, theme: "default", securityLevel: "loose" });
           const currentBlocks = document.querySelectorAll("#docs-viewer-markdown-body .mermaid");
-          if (currentBlocks.length > 0) window.mermaid.run({ nodes: currentBlocks }).catch(() => {});
+          if (currentBlocks.length > 0) {
+            window.mermaid
+              .run({ nodes: currentBlocks })
+              .then(() => expandMermaidSvgs(document))
+              .catch(() => {});
+          }
         } catch (_e) {}
       };
       document.head.appendChild(s);
@@ -9153,7 +9241,7 @@ function renderActiveDocMarkdownAndToc(markdownText, relPath = "") {
 state.lightboxZoomScale = 1.0;
 
 function applyLightboxZoomScale(nextScale) {
-  const clamped = Math.min(3.0, Math.max(0.5, Number(nextScale) || 1.0));
+  const clamped = Math.min(5.0, Math.max(0.5, Number(nextScale) || 1.0));
   state.lightboxZoomScale = Math.round(clamped * 100) / 100;
   const innerEl = document.getElementById("lightbox-content-inner");
   const scalePill = document.getElementById("lightbox-zoom-scale-pill");
@@ -9165,10 +9253,12 @@ function applyLightboxZoomScale(nextScale) {
   }
 }
 
-function openImageZoomLightbox({ src = "", title = "Screenshot / Diagram Preview", svgHtml = "" } = {}) {
+function openImageZoomLightbox({ src = "", title = "Screenshot / Diagram Preview", caption = "", svgHtml = "" } = {}) {
   const modal = document.getElementById("image-zoom-lightbox-modal");
   const titleEl = document.getElementById("lightbox-modal-title");
   const innerEl = document.getElementById("lightbox-content-inner");
+  const captionBar = document.getElementById("lightbox-caption-bar");
+  const captionTextEl = document.getElementById("lightbox-caption-text");
   if (!modal || !innerEl) return;
 
   if (titleEl) {
@@ -9176,9 +9266,27 @@ function openImageZoomLightbox({ src = "", title = "Screenshot / Diagram Preview
   }
   if (svgHtml) {
     innerEl.innerHTML = `<div class="m3-lightbox-mermaid-card">${svgHtml}</div>`;
+    const svgEl = innerEl.querySelector("svg");
+    if (svgEl) {
+      svgEl.style.maxWidth = "none";
+      svgEl.style.width = "100%";
+      svgEl.style.height = "auto";
+    }
   } else if (src) {
     innerEl.innerHTML = `<img src="${escapeHtml(src)}" alt="${escapeHtml(title)}" class="m3-lightbox-zoomed-img" />`;
   }
+
+  const resolvedCaption = String(caption || title || "").trim();
+  if (captionBar && captionTextEl) {
+    if (resolvedCaption) {
+      captionTextEl.textContent = resolvedCaption;
+      captionBar.classList.remove("hidden");
+    } else {
+      captionTextEl.textContent = "";
+      captionBar.classList.add("hidden");
+    }
+  }
+
   applyLightboxZoomScale(1.0);
   modal.classList.remove("hidden");
   modal.classList.add("open");
@@ -9267,14 +9375,59 @@ function bindDocumentationViewerModal() {
     }
   });
 
-  // Also allow clicking the main slide diagram (#stage-diagram-img) to open the Click-to-Zoom Lightbox
-  const stageImg = document.getElementById("stage-diagram-img");
-  stageImg?.addEventListener("click", () => {
-    const src = stageImg.getAttribute("src") || "";
-    const alt = stageImg.getAttribute("alt") || document.getElementById("stage-diagram-caption")?.textContent || "Slide Visual";
-    if (src) {
-      openImageZoomLightbox({ src, title: alt });
-    }
+  // Allow clicking the 16:9 slide diagram (#stage-diagram-img) or its 🔍 Click to zoom pill (#btn-stage-zoom-image)
+  // to open the Click-to-Zoom Lightbox with the slide's title and visual caption
+  const openActiveSlideDiagramInLightbox = (ev) => {
+    ev?.stopPropagation();
+    const stageImg = document.getElementById("stage-diagram-img");
+    const src = stageImg?.getAttribute("src") || "";
+    if (!src) return;
+    const slides = state.currentResult?.storyboard?.slides || [];
+    const activeSlide = slides[state.activeSlideIdx] || {};
+    const title = activeSlide.title || stageImg?.getAttribute("alt") || "Slide Visual Diagram";
+    const caption =
+      document.getElementById("stage-diagram-caption")?.textContent ||
+      activeSlide.visual_caption ||
+      stageImg?.getAttribute("alt") ||
+      title;
+    openImageZoomLightbox({ src, title, caption });
+  };
+  document.getElementById("stage-diagram-img")?.addEventListener("click", openActiveSlideDiagramInLightbox);
+  document.getElementById("btn-stage-zoom-image")?.addEventListener("click", openActiveSlideDiagramInLightbox);
+
+  // Allow clicking the Admin "Image & Caption Inspector" preview image (#admin-inspector-img) or its 🔍 Click to zoom pill (#btn-admin-inspector-zoom)
+  const openAdminInspectorImageInLightbox = (ev) => {
+    ev?.stopPropagation();
+    const inspImg = document.getElementById("admin-inspector-img");
+    const src = inspImg?.getAttribute("src") || "";
+    if (!src) return;
+    const title =
+      document.getElementById("admin-edit-title")?.value ||
+      state.selectedAdminImage?.title ||
+      "Admin Catalog Visual";
+    const caption =
+      document.getElementById("admin-edit-caption")?.value ||
+      state.selectedAdminImage?.caption ||
+      state.selectedAdminImage?.description ||
+      title;
+    openImageZoomLightbox({ src, title, caption });
+  };
+  document.getElementById("admin-inspector-img")?.addEventListener("click", openAdminInspectorImageInLightbox);
+  document.getElementById("btn-admin-inspector-zoom")?.addEventListener("click", openAdminInspectorImageInLightbox);
+
+  // Allow clicking the Local File Upload preview image (#studio-upload-preview-img) in Tab 4 of the Image Studio Modal
+  document.getElementById("studio-upload-preview-img")?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    const upImg = document.getElementById("studio-upload-preview-img");
+    const src = upImg?.getAttribute("src") || "";
+    if (!src) return;
+    const title = document.getElementById("studio-upload-title-input")?.value || "Uploaded Slide Image Preview";
+    const caption =
+      document.getElementById("studio-upload-desc-input")?.value ||
+      document.getElementById("studio-upload-title-input")?.value ||
+      document.getElementById("studio-upload-preview-meta")?.textContent ||
+      title;
+    openImageZoomLightbox({ src, title, caption });
   });
 
   document.getElementById("btn-docs-select-user-guide")?.addEventListener("click", () => {

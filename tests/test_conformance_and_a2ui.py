@@ -2215,5 +2215,33 @@ def test_v30_plan13_comprehensive_dark_mode_and_click_to_zoom_lightbox() -> None
     assert "body.m3-dark-mode #counselor-profile-accordion" in ui_css
     assert "body.m3-dark-mode #widescreen-slide-stage" in ui_css
 
+    # 6. Plan 14: 9 Isolated Dark Mode Contrast & Opaque Modal Fixes
+    assert 'id="feedback-req-verified-box"' in ui_html
+    assert "body.m3-dark-mode #feedback-req-verified-box" in ui_css
+    assert 'id="admin-console-header-card"' in ui_html
+    assert "body.m3-dark-mode #admin-console-header-card" in ui_css
+    assert 'id="admin-zero-pii-banner"' in ui_html
+    assert "body.m3-dark-mode #admin-zero-pii-banner" in ui_css
+    assert "body.m3-dark-mode #admin-stage-latency-bars" in ui_css
+    assert "body.m3-dark-mode #admin-circuit-breakers-grid > div" in ui_css
+    assert 'body.m3-dark-mode input[type="file"]::file-selector-button' in ui_css
+    assert "body.m3-dark-mode #btn-studio-clear-cache" in ui_css
+    assert "body.m3-dark-mode #btn-footer-admin-unlock" in ui_css
+    assert 'id="gslides-card-active-account"' in ui_html
+    assert 'id="gslides-card-share-account"' in ui_html
+    assert "body.m3-dark-mode #gslides-export-modal .m3-modal-dialog" in ui_css
+    assert "div:has(#gslides-share-email-input)" not in ui_css
+
+    # 7. Plan 14: Fullscreen Presenter View 2-Column Grid & 500% Lightbox with Captions + Admin/Studio Zoom
+    assert "grid-template-columns: minmax(0, 1fr) 410px !important;" in ui_css
+    assert "Math.min(5.0, Math.max(0.5" in ui_js
+    assert 'id="lightbox-caption-bar"' in ui_html
+    assert 'id="lightbox-caption-text"' in ui_html
+    assert 'id="btn-stage-zoom-image"' in ui_html
+    assert 'id="btn-admin-inspector-zoom"' in ui_html
+    assert "data-zoom-catalog-idx" in ui_js
+    assert "data-admin-zoom-idx" in ui_js
+
+
 
 

@@ -2885,39 +2885,33 @@ body.m3-sunlight-mode .m3-slide-card {
 }
 
 #slide-stage-wrapper.is-presenter-console-active .m3-slide-and-presenter-row {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: stretch;
-  justify-content: center;
-  width: 100%;
-  max-width: 1460px;
-  margin: 0 auto;
-}
-
-#slide-stage-wrapper.is-presenter-console-active #widescreen-slide-stage.hidden + #stage-presenter-console-dock {
-  flex: 0 1 680px;
-  width: min(680px, 94%);
-  margin: 0 auto;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 400px !important;
+  gap: 20px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  max-width: 1460px !important;
+  margin: 0 auto !important;
 }
 
 #slide-stage-wrapper.is-presenter-console-active #widescreen-slide-stage {
-  flex: 1 1 820px;
-  min-width: 0;
-  width: 100%;
-  max-width: 980px;
-  margin: 0;
+  display: flex !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
   overflow: hidden;
   box-sizing: border-box;
 }
 
 #slide-stage-wrapper.is-presenter-console-active #stage-presenter-console-dock {
   display: flex !important;
-  flex: 0 0 420px;
-  min-width: 0;
-  width: 420px;
+  min-width: 0 !important;
+  width: 400px !important;
+  max-width: 400px !important;
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 !important;
 }
 
 .m3-presenter-console-dock {
@@ -2934,25 +2928,44 @@ body.m3-sunlight-mode .m3-slide-card {
   box-shadow: 0 16px 36px rgba(15, 23, 42, 0.36);
 }
 
-#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active {
+#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active,
+#slide-stage-wrapper:fullscreen.is-presenter-console-active {
   padding: 18px 24px 72px 24px;
 }
 
-#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active .m3-slide-and-presenter-row {
-  max-width: 1680px;
-  width: 96vw;
-  align-items: stretch;
-  justify-content: center;
-  margin: 0 auto;
+#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active .m3-slide-and-presenter-row,
+#slide-stage-wrapper:fullscreen.is-presenter-console-active .m3-slide-and-presenter-row {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 410px !important;
+  gap: 22px !important;
+  max-width: 1680px !important;
+  width: min(96vw, 1680px) !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
 }
 
-#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active #widescreen-slide-stage {
-  flex: 0 1 1180px;
-  max-width: 1180px;
+#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active #widescreen-slide-stage,
+#slide-stage-wrapper:fullscreen.is-presenter-console-active #widescreen-slide-stage {
+  display: flex !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: 80vh !important;
+  aspect-ratio: 16 / 9 !important;
   margin: 0 !important;
 }
 
-#slide-stage-wrapper.is-presenting-fullscreen .m3-presenter-console-dock {
+#slide-stage-wrapper.is-presenting-fullscreen.is-presenter-console-active #stage-presenter-console-dock,
+#slide-stage-wrapper:fullscreen.is-presenter-console-active #stage-presenter-console-dock {
+  display: flex !important;
+  width: 410px !important;
+  max-width: 410px !important;
+  max-height: calc(100vh - 115px) !important;
+  margin: 0 !important;
+}
+
+#slide-stage-wrapper.is-presenting-fullscreen .m3-presenter-console-dock,
+#slide-stage-wrapper:fullscreen .m3-presenter-console-dock {
   max-height: calc(100vh - 115px);
 }
 
@@ -4087,17 +4100,82 @@ body.m3-sunlight-mode .m3-slide-card {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
   border-radius: 10px;
-  padding: 14px;
+  padding: 18px;
   margin: 14px 0;
   overflow-x: auto;
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   cursor: zoom-in;
+  position: relative;
+}
+
+.m3-docs-article-body .mermaid svg {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 580px;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
 }
 
 /* ============================================================================
    CLICK-TO-ZOOM LIGHTBOX MODAL (#image-zoom-lightbox-modal)
+   Supports up to 500% zoom, full-width Mermaid diagrams & bottom caption bar
    ============================================================================ */
+
+.m3-stage-zoom-pill,
+.m3-inspector-zoom-pill,
+.m3-catalog-zoom-pill {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 8;
+  background: rgba(15, 23, 42, 0.82);
+  color: #F8FAFC;
+  border: 1px solid rgba(96, 165, 250, 0.75);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  cursor: zoom-in;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+  transition: transform 130ms ease, background 130ms ease, border-color 130ms ease;
+}
+
+.m3-inspector-zoom-pill {
+  top: 10px;
+  right: 10px;
+  left: auto;
+}
+
+.m3-catalog-zoom-pill {
+  top: 8px;
+  right: 8px;
+  left: auto;
+  padding: 2px 8px;
+  font-size: 0.65rem;
+}
+
+.m3-stage-zoom-pill:hover,
+.m3-inspector-zoom-pill:hover,
+.m3-catalog-zoom-pill:hover {
+  background: #1D4ED8;
+  border-color: #93C5FD;
+  color: #FFFFFF;
+  transform: scale(1.04);
+}
+
+#stage-diagram-img {
+  cursor: zoom-in;
+}
+
+.m3-catalog-img-zoom-wrap {
+  position: relative;
+  width: 100%;
+  cursor: zoom-in;
+}
 
 .m3-lightbox-backdrop {
   z-index: 3200 !important;
@@ -4232,8 +4310,8 @@ body.m3-sunlight-mode .m3-slide-card {
 }
 
 .m3-lightbox-zoomed-img {
-  max-width: 90vw;
-  max-height: 80vh;
+  max-width: 88vw;
+  max-height: 74vh;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -4250,8 +4328,51 @@ body.m3-sunlight-mode .m3-slide-card {
   border-radius: 14px;
   border: 2px solid #60A5FA;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
-  max-width: 90vw;
-  overflow: auto;
+  width: min(88vw, 1360px);
+  min-width: min(82vw, 920px);
+  max-width: 92vw;
+  overflow: visible;
+}
+
+.m3-lightbox-mermaid-card svg {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.m3-lightbox-caption-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: #0F172A;
+  border-top: 1px solid #1E293B;
+  color: #F1F5F9;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  flex-shrink: 0;
+}
+
+.m3-lightbox-caption-badge {
+  background: rgba(245, 158, 11, 0.18);
+  color: #FDE68A;
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.m3-lightbox-caption-text {
+  color: #E2E8F0;
+  font-weight: 600;
+  flex: 1;
+  min-width: 0;
 }
 
 /* ============================================================================
@@ -4337,16 +4458,48 @@ body.m3-dark-mode textarea.m3-input {
   color: #F8FAFC !important;
 }
 
+/* Fix #6 (438s33c0na2bo.png): File input "Choose File" button & Counselor Cache status in Dark Mode */
+body.m3-dark-mode input[type="file"]::file-selector-button,
+body.m3-dark-mode input[type="file"]::-webkit-file-upload-button {
+  background: #1E3A8A !important;
+  color: #F8FAFC !important;
+  border: 1px solid #3B82F6 !important;
+  border-radius: 6px;
+  padding: 4px 10px;
+  margin-right: 8px;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+body.m3-dark-mode input[type="file"]::file-selector-button:hover,
+body.m3-dark-mode input[type="file"]::-webkit-file-upload-button:hover {
+  background: #2563EB !important;
+  border-color: #60A5FA !important;
+}
+
+body.m3-dark-mode #counselor-cache-status-row,
+body.m3-dark-mode #counselor-cache-status-text {
+  color: #CBD5E1 !important;
+}
+
 body.m3-dark-mode .m3-btn-outlined {
-  background: #1E293B;
-  color: #E2E8F0;
-  border-color: #475569;
+  background: #1E293B !important;
+  color: #E2E8F0 !important;
+  border-color: #475569 !important;
+}
+
+body.m3-dark-mode .m3-btn-outlined:hover {
+  background: #334155 !important;
+  color: #FFFFFF !important;
+  border-color: #60A5FA !important;
 }
 
 body.m3-dark-mode .m3-btn-tonal {
-  background: #1E3A8A;
-  color: #DBEAFE;
-  border-color: #3B82F6;
+  background: #1E3A8A !important;
+  color: #DBEAFE !important;
+  border-color: #3B82F6 !important;
 }
 
 body.m3-dark-mode .m3-tab-bar {
@@ -4690,21 +4843,32 @@ body.m3-dark-mode #prereq-readiness-list label span {
   color: #E2E8F0 !important;
 }
 
+/* Fix #1 (5hsp5rfcshnao.png): Rate This Merit Badge Teaching Package (#studiokit-feedback-card) */
 body.m3-dark-mode #studiokit-feedback-card {
   background: linear-gradient(135deg, #111827 0%, #1E293B 100%) !important;
   border-color: #3B82F6 !important;
   color: #F1F5F9 !important;
 }
 
-body.m3-dark-mode #studiokit-feedback-card > div:has(#feedback-req-verified-checkbox),
-body.m3-dark-mode #studiokit-feedback-card div[style*="background:#FFFFFF"] {
-  background: #0F172A !important;
-  border-color: #334155 !important;
-  color: #E2E8F0 !important;
+body.m3-dark-mode #studiokit-feedback-card .m3-card-title {
+  color: #93C5FD !important;
 }
 
+body.m3-dark-mode #studiokit-feedback-card .m3-card-header div {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode #feedback-req-verified-box,
+body.m3-dark-mode #studiokit-feedback-card div[style*="background:#EFF6FF"],
+body.m3-dark-mode #studiokit-feedback-card div[style*="background:#FFFFFF"] {
+  background: rgba(30, 58, 138, 0.42) !important;
+  border-color: #3B82F6 !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #feedback-req-verified-box label,
 body.m3-dark-mode #studiokit-feedback-card label {
-  color: #E2E8F0 !important;
+  color: #F1F5F9 !important;
 }
 
 body.m3-dark-mode #btn-jump-to-bluecard-tracker,
@@ -4754,7 +4918,41 @@ body.m3-dark-mode .m3-finops-table td {
   border-color: #1E293B !important;
 }
 
-/* 5. Super-User Admin Console (#panel-admin) in Dark Mode */
+/* 5. Super-User Admin Console (#panel-admin) in Dark Mode (Fixes #2, #3, #4, #5) */
+body.m3-dark-mode #admin-console-header-card {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%) !important;
+  border-color: #3B82F6 !important;
+}
+
+body.m3-dark-mode #admin-console-header-card .m3-card-title,
+body.m3-dark-mode #panel-admin .m3-card-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #admin-console-header-subtitle,
+body.m3-dark-mode #panel-admin .m3-card-header div,
+body.m3-dark-mode #admin-catalog-filter-footer,
+body.m3-dark-mode #admin-catalog-count-label,
+body.m3-dark-mode #admin-inspector-file-meta,
+body.m3-dark-mode #admin-asset-summary-subtitle {
+  color: #CBD5E1 !important;
+  border-top-color: #334155 !important;
+}
+
+body.m3-dark-mode #admin-asset-summary-subtitle strong {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #btn-admin-lock-session {
+  background: rgba(127, 29, 29, 0.35) !important;
+  color: #FCA5A5 !important;
+  border-color: #F87171 !important;
+}
+
+body.m3-dark-mode label[for="admin-edit-discard"] {
+  color: #FCA5A5 !important;
+}
+
 body.m3-dark-mode .m3-admin-img-card {
   background: #0F172A !important;
   border-color: #334155 !important;
@@ -4775,30 +4973,119 @@ body.m3-dark-mode #admin-inspector-preview-box {
   border-color: #334155 !important;
 }
 
+/* Fix #3 (2hntlqub873tg.png): Zero-PII Privacy Banner & Histograms in Admin Sub-Tab 2 */
+body.m3-dark-mode #admin-zero-pii-banner,
 body.m3-dark-mode #admin-subtab-telemetry > div:first-child {
-  background: rgba(21, 128, 61, 0.22) !important;
-  border-color: #22C55E !important;
-  color: #DCFCE7 !important;
+  background: rgba(6, 78, 59, 0.55) !important;
+  border-color: #10B981 !important;
+  color: #ECFDF5 !important;
+}
+
+body.m3-dark-mode #admin-zero-pii-banner-text,
+body.m3-dark-mode #admin-zero-pii-banner div,
+body.m3-dark-mode #admin-zero-pii-banner strong {
+  color: #ECFDF5 !important;
+}
+
+body.m3-dark-mode #admin-zero-pii-banner code {
+  background: rgba(2, 44, 34, 0.85) !important;
+  color: #6EE7B7 !important;
+  border: 1px solid rgba(52, 211, 153, 0.4) !important;
+  padding: 1px 5px;
+  border-radius: 4px;
 }
 
 body.m3-dark-mode #admin-telemetry-kpi-grid .m3-card div {
   color: #F8FAFC !important;
 }
 
+body.m3-dark-mode .m3-hist-bar-row {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-hist-bar-track {
+  background: #1E293B !important;
+}
+
+/* Fix #4 (3akfqlgocpreg.png): 6-Stage ADK Pipeline Latency Breakdown (#admin-stage-latency-bars) */
+body.m3-dark-mode #admin-stage-latency-bars,
+body.m3-dark-mode #admin-stage-latency-bars div,
+body.m3-dark-mode #admin-stage-latency-bars span {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode #admin-stage-latency-bars strong,
+body.m3-dark-mode .m3-stage-latency-name {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-stage-latency-track {
+  background: #1E293B !important;
+  border: 1px solid #334155 !important;
+}
+
+body.m3-dark-mode .m3-stage-latency-fill {
+  background: linear-gradient(90deg, #3B82F6 0%, #38BDF8 100%) !important;
+}
+
+/* Fix #5 (2hemh0t6mtr10.png): Admin Sub-Tab 3 Circuit Breakers (#admin-circuit-breakers-grid) & Maintenance */
+body.m3-dark-mode #admin-circuit-breakers-grid > div,
 body.m3-dark-mode #admin-circuit-breaker-cards > div {
   background: #0F172A !important;
   border-color: #334155 !important;
-  color: #E2E8F0 !important;
+  color: #F8FAFC !important;
 }
 
+body.m3-dark-mode #admin-circuit-breakers-grid > div div,
 body.m3-dark-mode #admin-circuit-breaker-cards > div div {
   color: #CBD5E1 !important;
 }
 
+body.m3-dark-mode #admin-circuit-breakers-grid > div div:first-child span:first-child {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode #btn-admin-maint-purge-cache {
+  background: rgba(127, 29, 29, 0.35) !important;
+  color: #FCA5A5 !important;
+  border-color: #F87171 !important;
+}
+
+/* Fix #8 (6t7dkkeuqc0g8.png): Footer Banner (#workbench-footer-banner) */
+body.m3-dark-mode .m3-footer-banner,
 body.m3-dark-mode .m3-footer-banner-inner {
   background: #0F172A !important;
   border-top-color: #1E293B !important;
-  color: #94A3B8 !important;
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-footer-banner-text {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-footer-banner-text strong {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-footer-link {
+  color: #60A5FA !important;
+}
+
+body.m3-dark-mode .m3-footer-link:hover {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-footer-admin-btn,
+body.m3-dark-mode #btn-footer-admin-unlock {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+  border: 1px solid #3B82F6 !important;
+}
+
+body.m3-dark-mode .m3-footer-admin-btn:hover,
+body.m3-dark-mode #btn-footer-admin-unlock:hover {
+  background: #1E3A8A !important;
+  color: #FFFFFF !important;
 }
 
 /* ============================================================================
@@ -4860,6 +5147,12 @@ body.m3-dark-mode .m3-patch-gallery-card > div:nth-of-type(2) {
 }
 
 /* Modal B: Gemini Flash Speaker Notes Polish Estimate (#ai-polish-finops-modal) */
+body.m3-dark-mode #ai-polish-finops-modal .m3-modal-dialog {
+  background: #111827 !important;
+  border: 1px solid #334155 !important;
+  color: #F8FAFC !important;
+}
+
 body.m3-dark-mode #ai-polish-finops-title {
   color: #F8FAFC !important;
 }
@@ -4869,57 +5162,91 @@ body.m3-dark-mode #finops-modal-lead-text {
 }
 
 body.m3-dark-mode #finops-card-single-slide {
-  background: rgba(88, 28, 135, 0.32) !important;
+  background: rgba(88, 28, 135, 0.35) !important;
   border-color: #A855F7 !important;
 }
 
-body.m3-dark-mode #finops-card-single-slide div {
+body.m3-dark-mode #finops-card-single-slide div,
+body.m3-dark-mode #finops-card-single-slide span {
   color: #F3E8FF !important;
 }
 
 body.m3-dark-mode #finops-card-entire-deck {
-  background: rgba(180, 83, 9, 0.28) !important;
+  background: rgba(180, 83, 9, 0.32) !important;
   border-color: #F59E0B !important;
 }
 
-body.m3-dark-mode #finops-card-entire-deck div {
+body.m3-dark-mode #finops-card-entire-deck div,
+body.m3-dark-mode #finops-card-entire-deck span {
   color: #FEF3C7 !important;
 }
 
-body.m3-dark-mode #ai-polish-finops-modal div:has(#finops-modal-force-refresh-checkbox) {
+body.m3-dark-mode #finops-card-options-box {
   background: #0F172A !important;
   border-color: #334155 !important;
-}
-
-body.m3-dark-mode #ai-polish-finops-modal label {
   color: #E2E8F0 !important;
 }
 
+body.m3-dark-mode #ai-polish-finops-modal label,
 body.m3-dark-mode #ai-polish-finops-modal label span {
-  color: #CBD5E1 !important;
+  color: #E2E8F0 !important;
 }
 
-/* Modal C: Open in Google Slides — Account & Destination (#gslides-export-modal) */
+/* Fix #9 (1dn2319sho748.png): Open in Google Slides — Account & Destination (#gslides-export-modal) */
+body.m3-dark-mode #gslides-export-modal .m3-modal-dialog {
+  background: #111827 !important;
+  border: 1.5px solid #334155 !important;
+  color: #F8FAFC !important;
+  opacity: 1 !important;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.75) !important;
+}
+
+body.m3-dark-mode #gslides-modal-header-row {
+  border-bottom-color: #1E293B !important;
+}
+
+body.m3-dark-mode #gslides-modal-overline {
+  color: #FBBF24 !important;
+}
+
 body.m3-dark-mode #gslides-export-modal-title {
   color: #F8FAFC !important;
 }
 
-body.m3-dark-mode #gslides-export-modal p {
-  color: #CBD5E1 !important;
+body.m3-dark-mode #gslides-modal-newtab-badge {
+  background: rgba(245, 158, 11, 0.22) !important;
+  color: #FDE68A !important;
+  border-color: #F59E0B !important;
 }
 
-body.m3-dark-mode #gslides-export-modal div:has(#gslides-detected-account-email) {
+body.m3-dark-mode #gslides-card-active-account {
   background: #0F172A !important;
   border-color: #334155 !important;
-  color: #E2E8F0 !important;
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode #gslides-card-active-title {
+  color: #93C5FD !important;
 }
 
 body.m3-dark-mode #gslides-detected-account-email {
-  color: #F8FAFC !important;
+  color: #FFFFFF !important;
 }
 
-body.m3-dark-mode #gslides-export-modal div:has(#gslides-share-email-input) {
-  background: rgba(30, 58, 138, 0.32) !important;
+body.m3-dark-mode #gslides-card-active-desc,
+body.m3-dark-mode #gslides-card-active-desc strong {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode #gslides-card-active-desc code {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+body.m3-dark-mode #gslides-card-share-account {
+  background: #172554 !important;
   border-color: #3B82F6 !important;
   color: #DBEAFE !important;
 }
@@ -4934,20 +5261,59 @@ body.m3-dark-mode #gslides-share-email-input {
   color: #F8FAFC !important;
 }
 
+body.m3-dark-mode #gslides-card-share-desc {
+  color: #DBEAFE !important;
+}
+
+body.m3-dark-mode #gslides-card-share-desc code {
+  background: #0F172A !important;
+  color: #93C5FD !important;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
 body.m3-dark-mode #btn-gslides-pick-google-account {
   background: #1E293B !important;
   border-color: #60A5FA !important;
   color: #93C5FD !important;
 }
 
-/* Modal D: Merit Badge Image Catalog & AI Image Studio (#image-studio-modal) */
+/* Fix #7 (0fs08f2rl7se8.png): Merit Badge Image Catalog & AI Image Studio (#image-studio-modal) */
+body.m3-dark-mode #image-studio-modal .m3-modal-dialog {
+  background: #111827 !important;
+  border-color: #334155 !important;
+  color: #F1F5F9 !important;
+}
+
 body.m3-dark-mode #image-studio-modal-title {
   color: #93C5FD !important;
 }
 
 body.m3-dark-mode #image-studio-modal-subtitle,
-body.m3-dark-mode #image-studio-modal p {
+body.m3-dark-mode #image-studio-modal p,
+body.m3-dark-mode #studio-tab-catalog > div:first-child > div,
+body.m3-dark-mode #studio-tab-web > div:first-child,
+body.m3-dark-mode #studio-tab-ai > div:first-child,
+body.m3-dark-mode #studio-tab-upload > div:first-child {
   color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode #image-studio-modal code {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+body.m3-dark-mode #btn-studio-clear-cache {
+  background: rgba(127, 29, 29, 0.38) !important;
+  color: #FCA5A5 !important;
+  border-color: #F87171 !important;
+}
+
+body.m3-dark-mode #btn-studio-clear-cache:hover {
+  background: rgba(185, 28, 28, 0.55) !important;
+  color: #FFFFFF !important;
 }
 
 body.m3-dark-mode .m3-image-catalog-card {
@@ -4965,13 +5331,17 @@ body.m3-dark-mode .m3-image-catalog-card div {
   color: #E2E8F0 !important;
 }
 
-body.m3-dark-mode #studio-tab-ai > div[style*="background:#EFF6FF"] {
-  background: rgba(30, 58, 138, 0.35) !important;
+body.m3-dark-mode #studio-ai-content-aware-box,
+body.m3-dark-mode #studio-tab-ai > div[style*="background:#EFF6FF"],
+body.m3-dark-mode #studio-tab-ai div[style*="background:#F0F9FF"] {
+  background: rgba(30, 58, 138, 0.38) !important;
   border-color: #3B82F6 !important;
   color: #DBEAFE !important;
 }
 
-body.m3-dark-mode #studio-tab-ai > div[style*="background:#EFF6FF"] div {
+body.m3-dark-mode #studio-ai-content-aware-box div,
+body.m3-dark-mode #studio-ai-content-aware-box label,
+body.m3-dark-mode #studio-ai-content-aware-box strong {
   color: #DBEAFE !important;
 }
 
@@ -4981,20 +5351,20 @@ body.m3-dark-mode #studio-ai-cost-banner {
   color: #FEF3C7 !important;
 }
 
-body.m3-dark-mode #studio-ai-cost-banner div {
+body.m3-dark-mode #studio-ai-cost-banner div,
+body.m3-dark-mode #studio-ai-cost-banner span {
   color: #FEF3C7 !important;
 }
 
-body.m3-dark-mode #studio-tab-ai label:has(#studio-ai-consent-checkbox) {
-  background: #0F172A !important;
-  border-color: #475569 !important;
-  color: #F8FAFC !important;
+body.m3-dark-mode label[for="studio-ai-consent-checkbox"] {
+  color: #F1F5F9 !important;
 }
 
-body.m3-dark-mode #studio-upload-preview-wrap {
+body.m3-dark-mode #studio-upload-preview-wrap,
+body.m3-dark-mode #studio-upload-preview-meta {
   background: #0F172A !important;
   border-color: #334155 !important;
-  color: #E2E8F0 !important;
+  color: #F8FAFC !important;
 }
 
 /* Modals E, F, G: Keyboard Shortcuts, Insert Custom Slide & Admin Unlock */
@@ -5249,11 +5619,16 @@ body.m3-dark-mode .m3-docs-article-body .mermaid {
   border-color: #334155;
 }
 
+/* 8. Global Dark-Mode Inline Color Safeguards (excludes #widescreen-slide-stage WYSIWYG slide canvas) */
+body.m3-dark-mode :is(#panel-admin, #panel-studiokit, #panel-triage, #understage-drawer, #left-setup-sidebar, .m3-modal-dialog) :is([style*="color:#0F172A"], [style*="color: #0F172A"], [style*="color:#1E293B"], [style*="color: #1E293B"]) {
+  color: #F8FAFC !important;
+}
 
+body.m3-dark-mode :is(#panel-admin, #panel-studiokit, #panel-triage, #understage-drawer, #left-setup-sidebar, .m3-modal-dialog) :is([style*="color:#334155"], [style*="color: #334155"], [style*="color:#475569"], [style*="color: #475569"], [style*="color:#64748B"], [style*="color: #64748B"]) {
+  color: #CBD5E1 !important;
+}
 
-
-
-
-
-
+body.m3-dark-mode :is(#panel-admin, #panel-studiokit, #panel-triage, #understage-drawer, #left-setup-sidebar, .m3-modal-dialog) :is([style*="color:#003F87"], [style*="color: #003F87"], [style*="color:#1E40AF"], [style*="color: #1E40AF"], [style*="color:#1E3A8A"], [style*="color: #1E3A8A"]) {
+  color: #93C5FD !important;
+}
 
