@@ -424,6 +424,12 @@ def delete_custom_template(template_id: str) -> bool:
         return False
     remaining = [p for p in profiles if p.template_id != norm]
     save_template_catalog(remaining)
+    for f in list(OVERLAYS_DIR.glob(f"{norm}*")) + list(TEMPLATES_DIR.glob(f"{norm}*")):
+        try:
+            if f.is_file():
+                f.unlink()
+        except Exception:
+            pass
     return True
 
 

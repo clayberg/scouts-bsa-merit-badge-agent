@@ -1106,27 +1106,92 @@ def save_counselor_workspace(
     s = store or _default_store
     ws_id = str(workspace_payload.get("workspace_id") or "").strip()
     badge_name = str(workspace_payload.get("badge_name") or "First Aid").strip()
+    session_label = str(workspace_payload.get("session_label") or "").strip()
+    force_new = bool(workspace_payload.get("force_new") or workspace_payload.get("forceNew"))
+
+    # If no workspace_id was passed and force_new is False, reuse an existing workspace for the same (badge_name, session_label)
+    if not ws_id and not force_new:
+        try:
+            with sqlite3.connect(s.db_path) as conn:
+                row = conn.execute(
+                    """
+                    SELECT workspace_id FROM counselor_workspaces
+                    WHERE LOWER(badge_name) = LOWER(?)
+                      AND LOWER(COALESCE(session_label, '')) = LOWER(?)
+                      AND is_archived = 0
+                    ORDER BY updated_at DESC LIMIT 1
+                    """,
+                    (badge_name, session_label),
+                ).fetchone()
+                if not row and not session_label:
+                    row = conn.execute(
+                        """
+                        SELECT workspace_id FROM counselor_workspaces
+                        WHERE LOWER(badge_name) = LOWER(?)
+                          AND is_archived = 0
+                        ORDER BY updated_at DESC LIMIT 1
+                        """,
+                        (badge_name,),
+                    ).fetchone()
+                if row and row[0]:
+                    ws_id = str(row[0])
+        except Exception:
+            pass
+
     if not ws_id:
         slug = re.sub(r"[^a-z0-9]+", "_", badge_name.lower()).strip("_") or "badge"
         ws_id = f"ws_{slug}_{uuid.uuid4().hex[:8]}"
 
-    ws_title = str(workspace_payload.get("workspace_title") or badge_name).strip()
-    session_label = str(workspace_payload.get("session_label") or "").strip()
-    camp_bundle_tag = str(workspace_payload.get("camp_bundle_tag") or "").strip()
-    template_id = str(workspace_payload.get("template_id") or "default_workbench").strip()
+    existing_ws = get_counselor_workspace(ws_id, include_deck_payload=True, store=s)
 
-    counselor_info = workspace_payload.get("counselor_info") or {}
-    deck_result = workspace_payload.get("deck_result") or {}
-    blue_card_roster = workspace_payload.get("blue_card_roster") or {}
-    class_prep = workspace_payload.get("class_prep") or {}
-    local_grounding = workspace_payload.get("local_grounding") or {}
+    ws_title = str(workspace_payload.get("workspace_title") or (existing_ws.get("workspace_title") if existing_ws else "") or badge_name).strip()
+    camp_bundle_tag = str(
+        workspace_payload.get("camp_bundle_tag")
+        if "camp_bundle_tag" in workspace_payload and workspace_payload.get("camp_bundle_tag") is not None
+        else (existing_ws.get("camp_bundle_tag") if existing_ws else "") or ""
+    ).strip()
+    template_id = str(
+        workspace_payload.get("template_id")
+        or (existing_ws.get("template_id") if existing_ws else "")
+        or "default_workbench"
+    ).strip()
 
-    active_slide_idx = int(workspace_payload.get("active_slide_idx", -1))
+    counselor_info = workspace_payload.get("counselor_info") or workspace_payload.get("troop_context") or (existing_ws.get("counselor_info") if existing_ws else {}) or {}
+    deck_result = (
+        workspace_payload.get("deck_result")
+        or workspace_payload.get("deck_payload")
+        or (existing_ws.get("deck_result") if existing_ws else {})
+        or {}
+    )
+    blue_card_roster = (
+        workspace_payload.get("blue_card_roster")
+        if workspace_payload.get("blue_card_roster")
+        else (existing_ws.get("blue_card_roster") if existing_ws else {}) or {}
+    )
+    class_prep = (
+        workspace_payload.get("class_prep")
+        or workspace_payload.get("class_prep_payload")
+        or (existing_ws.get("class_prep") if existing_ws else {})
+        or {}
+    )
+    local_grounding = workspace_payload.get("local_grounding") or (existing_ws.get("local_grounding") if existing_ws else {}) or {}
+
+    active_slide_idx = int(workspace_payload.get("active_slide_idx", existing_ws.get("active_slide_idx", -1) if existing_ws else -1))
     slides_list = (deck_result.get("storyboard") or {}).get("slides") or []
-    slide_count = int(workspace_payload.get("slide_count") or len(slides_list) or 0)
+    computed_slides = (len(slides_list) + 1) if slides_list else 0
+    slide_count = int(
+        workspace_payload.get("slide_count")
+        or computed_slides
+        or (existing_ws.get("slide_count") if existing_ws else 0)
+        or 0
+    )
     scouts_list = blue_card_roster.get("scouts") if isinstance(blue_card_roster, dict) else []
-    scout_count = int(workspace_payload.get("scout_count") or (len(scouts_list) if isinstance(scouts_list, list) else 0))
-    custom_edits_count = int(workspace_payload.get("custom_edits_count") or 0)
+    scout_count = int(
+        workspace_payload.get("scout_count")
+        if workspace_payload.get("scout_count")
+        else (len(scouts_list) if isinstance(scouts_list, list) and scouts_list else (existing_ws.get("scout_count") if existing_ws else 0) or 0)
+    )
+    custom_edits_count = int(workspace_payload.get("custom_edits_count") or (existing_ws.get("custom_edits_count") if existing_ws else 0) or 0)
     is_pinned = 1 if workspace_payload.get("is_pinned", True) else 0
     is_archived = 1 if workspace_payload.get("is_archived", False) else 0
 

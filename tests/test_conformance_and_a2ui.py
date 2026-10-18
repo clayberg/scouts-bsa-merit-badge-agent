@@ -2537,9 +2537,10 @@ def test_v35_plan16_templates_workspaces_favorites_and_mcp() -> None:
     assert audit_res["conformance_report"]["passed"] is True
     assert audit_res["conformance_report"]["aabb_overlap_count"] == 0
 
-    # Clean up test workspaces
+    # Clean up test workspaces and test favorite
     client.delete(f"/api/v1/workspaces/{ws_id}")
     client.delete(f"/api/v1/workspaces/{cloned_id}")
+    client.post("/api/v1/counselor/favorites", json={"badge_name": "Kayaking", "is_favorite": False})
 
     # Verify UI & Dark Mode CSS parity for Plans 16A, 16B, 16C
     ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")

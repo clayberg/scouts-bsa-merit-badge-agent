@@ -457,7 +457,10 @@ window.showToast = showToast;
 
 function checkTopBarProfileSpace() {
   const chip = document.getElementById("top-counselor-profile-chip");
-  const topBar = document.querySelector(".m3-top-app-bar");
+  const topBar =
+    document.getElementById("top-app-bar") ||
+    document.querySelector(".m3-top-bar") ||
+    document.querySelector(".m3-top-app-bar");
   if (!chip || !topBar) return;
   chip.classList.remove("is-compact-name-only");
   if (topBar.scrollWidth > topBar.clientWidth + 4 || window.innerWidth < 1260) {
@@ -10011,36 +10014,54 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
   const slides = state.currentResult?.storyboard?.slides || [];
   slides.forEach((s) => {
     s.template_id = prof.template_id;
-    if (prof.template_id === "default_workbench") {
-      if (s.brand_palette === "MATCH_TEMPLATE") {
-        s.brand_palette = "CLASSIC_NAVY";
-      }
-    } else if (matchPaletteChecked) {
+    if (matchPaletteChecked && prof.template_id !== "default_workbench") {
+      s.accent_palette_key = "MATCH_TEMPLATE";
       s.brand_palette = "MATCH_TEMPLATE";
+    } else if (prof.template_id === "default_workbench") {
+      if (s.accent_palette_key === "MATCH_TEMPLATE") s.accent_palette_key = "NAVY_GOLD";
+      if (s.brand_palette === "MATCH_TEMPLATE") s.brand_palette = "CLASSIC_NAVY";
     }
   });
 
   if (state.currentResult) {
     state.currentResult.template_id = prof.template_id;
-    renderActiveSlide();
+    const activeIdx = typeof state.activeSlideIdx === "number" ? state.activeSlideIdx : -1;
+    renderActiveSlide(activeIdx);
+    window.renderSlideTemplateOverlay(activeIdx === -1, null);
+  } else {
+    window.renderSlideTemplateOverlay(true, null);
   }
+  renderTemplateCatalogGrid();
 
-  if (state.currentSessionId && state.currentResult) {
+  // Synchronize downloadable .pptx in background
+  if (state.currentResult && slides.length > 0) {
     try {
-      await fetch("/api/v1/templates/apply", {
+      const resp = await fetch("/api/v1/templates/apply", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          session_id: state.currentSessionId,
-          workspace_id: state.activeWorkspaceId || null,
+          badge_name: state.currentResult.badge_name || state.currentBadge || "First Aid",
           template_id: prof.template_id,
-          match_template_palette: matchPaletteChecked && prof.template_id !== "default_workbench",
+          storyboard_slides: slides,
+          counselor_info: state.currentResult.counselor_info || null,
+          accent_palette_key: matchPaletteChecked && prof.template_id !== "default_workbench" ? "MATCH_TEMPLATE" : null,
         }),
       });
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.pptx_download_url && state.currentResult) {
+          state.currentResult.pptx_download_url = data.pptx_download_url;
+          if (typeof syncDeckExportSplitButtonUi === "function") {
+            syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
+          }
+        }
+      }
     } catch (_e) {}
   }
 
-  renderTemplateCatalogGrid();
+  if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+    window.autoSaveActiveWorkspaceDebounced();
+  }
   if (showNotification) {
     const bottomIn = prof.safe_bounds?.content_bottom_max_in || 6.95;
     showToast(`🖼️ Applied "${prof.name}" template (responsive safe canvas y <= ${bottomIn.toFixed(2)}").`, "info");
@@ -10066,16 +10087,28 @@ function renderTemplateCatalogGrid() {
   const grid = document.getElementById("template-catalog-grid");
   if (!grid) return;
   const list = state.templateCatalog || [];
-  const activeId = state.activeTemplateId || "default_workbench";
+  const countChip = document.getElementById("template-catalog-count-chip");
+  if (countChip) countChip.textContent = `${list.length} Templates`;
+
+  const sel = document.getElementById("template-select");
+  if (sel && list.length > 0) {
+    sel.innerHTML = list
+      .map(
+        (t) =>
+          `<option value="${escapeHtml(t.template_id)}" ${t.template_id === state.activeTemplateId ? "selected" : ""}>${escapeHtml(t.name)}</option>`
+      )
+      .join("");
+  }
 
   grid.innerHTML = list
     .map((t) => {
-      const isAct = t.template_id === activeId;
-      const thumbImg = t.thumbnail_url || t.bottom_silhouette_url || t.corner_logo_url || "";
-      const barHex = t.bottom_bar_hex || t.primary_hex || "#003F87";
-      const accHex = t.bottom_accent_hex || t.accent_hex || "#D4AF37";
-      const bottomMax = t.safe_bounds?.content_bottom_max_in || 6.95;
-      const badgeTag = t.is_builtin ? "Built-In" : "Custom Upload";
+      const isActive = t.template_id === (state.activeTemplateId || "default_workbench");
+      const bottomSafe = (t.safe_bounds?.content_bottom_max_in || 6.95).toFixed(2);
+      const previewBg = t.cover_bg_url
+        ? `background-image:linear-gradient(rgba(250,248,245,0.78), rgba(250,248,245,0.84)), url('${escapeHtml(t.cover_bg_url)}'); background-size:cover;`
+        : t.canvas_watermark_url
+        ? `background-image:url('${escapeHtml(t.canvas_watermark_url)}'); background-size:cover;`
+        : "background:#FAF8F5;";
       const customActionsHtml = !t.is_builtin
         ? `
           <div class="m3-tpl-card-actions">
@@ -10085,40 +10118,62 @@ function renderTemplateCatalogGrid() {
         `
         : "";
       return `
-        <div class="m3-template-card ${isAct ? "active" : ""}" data-tpl-select="${escapeHtml(t.template_id)}">
+        <div class="m3-template-card ${isActive ? "active" : ""}" data-select-template="${escapeHtml(t.template_id)}" data-tpl-select="${escapeHtml(t.template_id)}">
           ${customActionsHtml}
-          <div class="m3-template-card-preview" style="background:${escapeHtml(t.card_bg_hex || "#F8FAFC")};">
-            <div style="position:absolute; top:0; left:0; right:0; height:18%; background:${escapeHtml(t.primary_hex || "#003F87")}; border-top:3px solid ${escapeHtml(accHex)};"></div>
-            ${
-              thumbImg
-                ? `<img src="${escapeHtml(thumbImg)}" alt="${escapeHtml(t.name)}" style="max-height:70%; max-width:85%; object-fit:contain; z-index:1;" />`
-                : `<span style="font-size:0.75rem; font-weight:800; color:${escapeHtml(t.primary_hex || "#003F87")};">16:9 Widescreen Canvas</span>`
-            }
-            <div style="position:absolute; left:0; right:0; bottom:0; height:12%; background:${escapeHtml(barHex)}; border-top:2px solid ${escapeHtml(accHex)};"></div>
+          <div>
+            <div class="m3-template-preview-box" style="${previewBg}">
+              <div style="height:16%; width:100%; background:${escapeHtml(t.primary_hex || "#003F87")}; border-bottom:2px solid ${escapeHtml(t.accent_hex || "#D4AF37")}; display:flex; align-items:center; justify-content:space-between; padding:0 8px; color:#FFFFFF; font-size:0.60rem; font-weight:800;">
+                <span>${escapeHtml(t.name.slice(0, 24))}</span>
+                <span>16:9</span>
+              </div>
+              <div style="padding:6px 8px; width:100%; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
+                <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800;">
+                  Safe Zone: 1.12"&ndash;${bottomSafe}"
+                </div>
+                <div class="m3-tpl-preview-fig-card" style="background:#FFFFFF; border:1px solid #CBD5E1; border-radius:4px; height:72%; display:flex; align-items:center; justify-content:center; font-size:0.52rem; font-weight:700;">
+                  Figure
+                </div>
+              </div>
+              <div style="height:13%; width:100%; position:relative; display:flex; align-items:center; justify-content:space-between; padding:0 6px; background:${escapeHtml(t.bottom_bar_hex || "transparent")};">
+                ${
+                  t.bottom_silhouette_url
+                    ? `<img src="${escapeHtml(t.bottom_silhouette_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:fill;" />`
+                    : `<span style="font-size:0.50rem; color:${t.bottom_bar_hex ? "#FFFFFF" : "#64748B"}; font-weight:700;">Footer Strip</span>`
+                }
+                ${
+                  t.corner_logo_url
+                    ? `<img src="${escapeHtml(t.corner_logo_url)}" alt="" style="max-height:85%; max-width:36%; object-fit:contain; margin-left:auto; position:relative; z-index:2; background:rgba(255,255,255,0.88); padding:1px 3px; border-radius:3px;" />`
+                    : ""
+                }
+              </div>
+            </div>
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-top:7px;">
+              <div class="m3-template-card-title" style="font-size:0.79rem; font-weight:800; color:#003F87; line-height:1.2;">${escapeHtml(t.name)}</div>
+              ${isActive ? `<span class="m3-chip m3-chip-primary" style="font-size:0.62rem; padding:1px 6px;">✓ Active</span>` : ""}
+            </div>
+            <div class="m3-template-card-desc" style="font-size:0.69rem; color:#475569; margin-top:3px; line-height:1.35;">${escapeHtml(t.description || "")}</div>
           </div>
-          <div style="display:flex; justify-content:space-between; align-items:center; gap:6px;">
-            <div class="m3-template-card-title">${escapeHtml(t.name)}</div>
-            <span class="m3-chip" style="font-size:0.65rem; padding:1px 6px;">${badgeTag}</span>
-          </div>
-          <div class="m3-template-card-desc">${escapeHtml(t.description || "")}</div>
-          <div class="m3-template-card-swatches">
-            <span class="m3-template-swatch-dot" style="background:${escapeHtml(t.primary_hex || "#003F87")};" title="Primary: ${escapeHtml(t.primary_hex)}"></span>
-            <span class="m3-template-swatch-dot" style="background:${escapeHtml(t.accent_hex || "#D4AF37")};" title="Accent: ${escapeHtml(t.accent_hex)}"></span>
-            <span class="m3-template-swatch-dot" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")};" title="Card Tint: ${escapeHtml(t.card_bg_hex)}"></span>
-            <span style="margin-left:auto; font-size:0.68rem; color:#64748B; font-weight:700;">Safe Y &le; ${bottomMax.toFixed(2)}"</span>
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; padding-top:4px; border-top:1px solid #E2E8F0; font-size:0.66rem; color:#64748B;">
+            <span>📐 Max Y: <strong>${bottomSafe}"</strong></span>
+            <span style="display:inline-flex; align-items:center; gap:4px;">
+              <span style="width:10px; height:10px; border-radius:50%; background:${escapeHtml(t.primary_hex || "#003F87")}; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:${escapeHtml(t.accent_hex || "#D4AF37")}; display:inline-block;"></span>
+            </span>
           </div>
         </div>
       `;
     })
     .join("");
 
-  grid.querySelectorAll("[data-tpl-select]").forEach((card) => {
-    card.addEventListener("click", (ev) => {
+  grid.querySelectorAll("[data-select-template]").forEach((card) => {
+    card.addEventListener("click", async (ev) => {
       if (ev.target.closest("[data-tpl-edit]") || ev.target.closest("[data-tpl-delete]")) {
         return;
       }
-      const id = card.getAttribute("data-tpl-select");
-      if (id) applyTemplateToActiveDeck(id, true);
+      const tid = card.getAttribute("data-select-template");
+      if (tid) {
+        await applyTemplateToActiveDeck(tid, true);
+      }
     });
   });
 
@@ -10140,20 +10195,15 @@ function renderTemplateCatalogGrid() {
       try {
         const resp = await fetch(`/api/v1/templates/${encodeURIComponent(tplId)}`, { method: "DELETE" });
         if (resp.ok) {
-          state.templateCatalog = (state.templateCatalog || []).filter((x) => x.template_id !== tplId);
-          const sel = document.getElementById("template-select");
-          if (sel) {
-            Array.from(sel.options).forEach((o) => {
-              if (o.value === tplId) o.remove();
-            });
-          }
+          const data = await resp.json();
+          state.templateCatalog = data.templates || (state.templateCatalog || []).filter((x) => x.template_id !== tplId);
           const wasActive = state.activeTemplateId === tplId;
           if (wasActive) {
             await applyTemplateToActiveDeck("default_workbench", false);
             showToast(`🗑️ Deleted "${tpl?.name || tplId}" and reverted deck to Workbench Classic.`, "info");
           } else {
+            syncTemplateSelectorUi();
             renderTemplateCatalogGrid();
-            renderStageTemplateSplitDropdown();
             showToast(`🗑️ Deleted custom template "${tpl?.name || tplId}".`, "info");
           }
         } else {
@@ -10168,25 +10218,25 @@ function renderTemplateCatalogGrid() {
 }
 
 async function initPowerPointTemplateStudio() {
-  try {
-    const savedId = window.localStorage.getItem(TEMPLATE_STORAGE_KEY);
-    if (savedId) state.activeTemplateId = savedId;
-  } catch (_e) {}
+  state.activeTemplateId =
+    window.localStorage.getItem(TEMPLATE_STORAGE_KEY) ||
+    window.localStorage.getItem("bsa_active_template_id_v1") ||
+    "default_workbench";
+  state.templateCatalog = [];
+  state.showSafeZoneXray = false;
 
   try {
     const resp = await fetch("/api/v1/templates");
     if (resp.ok) {
       const data = await resp.json();
-      if (Array.isArray(data.templates) && data.templates.length > 0) {
-        state.templateCatalog = data.templates;
-      }
+      state.templateCatalog = data.templates || [];
     }
   } catch (_e) {}
 
-  // Ensure activeTemplateId still exists in catalog
   if (
     state.activeTemplateId !== "default_workbench" &&
-    !(state.templateCatalog || []).some((t) => t.template_id === state.activeTemplateId)
+    state.templateCatalog.length > 0 &&
+    !state.templateCatalog.some((t) => t.template_id === state.activeTemplateId)
   ) {
     state.activeTemplateId = "default_workbench";
   }
@@ -10196,10 +10246,6 @@ async function initPowerPointTemplateStudio() {
 
   const openModal = () => {
     renderTemplateCatalogGrid();
-    const statusEl = document.getElementById("template-upload-status");
-    if (statusEl && statusEl.textContent.includes("showToast")) {
-      statusEl.textContent = "";
-    }
     const m = document.getElementById("template-studio-modal");
     m?.classList.remove("hidden");
     m?.classList.add("open");
@@ -10260,8 +10306,7 @@ async function initPowerPointTemplateStudio() {
         const data = await resp.json();
         const updated = data.template;
         if (updated) {
-          const idx = (state.templateCatalog || []).findIndex((x) => x.template_id === tplId);
-          if (idx >= 0) state.templateCatalog[idx] = updated;
+          state.templateCatalog = data.templates || state.templateCatalog;
           syncTemplateSelectorUi();
           renderTemplateCatalogGrid();
           closeEditTplModal();
@@ -10276,31 +10321,50 @@ async function initPowerPointTemplateStudio() {
     }
   });
 
-  document.getElementById("template-select")?.addEventListener("change", (e) => {
-    applyTemplateToActiveDeck(e.target.value, true);
+  document.getElementById("template-select")?.addEventListener("change", async (ev) => {
+    await applyTemplateToActiveDeck(ev.target.value, true);
     markDeckConfigDirty();
   });
 
-  document.getElementById("template-xray-toggle-checkbox")?.addEventListener("change", (e) => {
-    state.showSafeZoneXray = Boolean(e.target.checked);
+  // Safe-Zone X-Ray toggle (#template-safezone-xray-checkbox in ui/index.html)
+  const handleSafeZoneXrayToggle = (checked) => {
+    state.showSafeZoneXray = Boolean(checked);
+    const chkMain = document.getElementById("template-safezone-xray-checkbox");
+    const chkAlt = document.getElementById("template-xray-toggle-checkbox");
+    if (chkMain) chkMain.checked = state.showSafeZoneXray;
+    if (chkAlt) chkAlt.checked = state.showSafeZoneXray;
     const stageBtn = document.getElementById("btn-toggle-safezone-xray-stage");
     stageBtn?.classList.toggle("active", state.showSafeZoneXray);
-    window.renderSlideTemplateOverlay(state.activeSlideIndex === -1, null);
-  });
+    const activeIdx = typeof state.activeSlideIdx === "number" ? state.activeSlideIdx : -1;
+    window.renderSlideTemplateOverlay(activeIdx === -1, null);
+    showToast(
+      state.showSafeZoneXray
+        ? "📐 Safe-Zone X-Ray enabled on Slide Stage (close studio to inspect live slide bounds)."
+        : "📐 Safe-Zone X-Ray overlay hidden.",
+      "info"
+    );
+  };
 
+  document.getElementById("template-safezone-xray-checkbox")?.addEventListener("change", (ev) => {
+    handleSafeZoneXrayToggle(ev.target.checked);
+  });
+  document.getElementById("template-xray-toggle-checkbox")?.addEventListener("change", (ev) => {
+    handleSafeZoneXrayToggle(ev.target.checked);
+  });
   document.getElementById("btn-toggle-safezone-xray-stage")?.addEventListener("click", () => {
-    state.showSafeZoneXray = !state.showSafeZoneXray;
-    const chk = document.getElementById("template-xray-toggle-checkbox");
-    if (chk) chk.checked = state.showSafeZoneXray;
-    const stageBtn = document.getElementById("btn-toggle-safezone-xray-stage");
-    stageBtn?.classList.toggle("active", state.showSafeZoneXray);
-    window.renderSlideTemplateOverlay(state.activeSlideIndex === -1, null);
+    handleSafeZoneXrayToggle(!state.showSafeZoneXray);
   });
 
-  document.getElementById("btn-upload-template-submit")?.addEventListener("click", async () => {
+  document.getElementById("template-match-palette-checkbox")?.addEventListener("change", async () => {
+    await applyTemplateToActiveDeck(state.activeTemplateId || "default_workbench", false);
+  });
+
+  // Template File Upload (#btn-upload-template-file in ui/index.html)
+  const handleUploadTemplateFile = async () => {
     const fileInput = document.getElementById("template-upload-file-input");
-    const nameInput = document.getElementById("template-upload-name-input");
-    const statusEl = document.getElementById("template-upload-status");
+    const statusEl =
+      document.getElementById("template-import-status-msg") ||
+      document.getElementById("template-upload-status");
     const file = fileInput?.files?.[0];
     if (!file) {
       showToast("Select a .pptx, .ppt, .png, or .jpg file first.", "warning");
@@ -10308,71 +10372,65 @@ async function initPowerPointTemplateStudio() {
     }
     if (statusEl) {
       statusEl.style.color = "#0369A1";
-      statusEl.textContent = `Uploading & analyzing "${file.name}"...`;
+      statusEl.textContent = `Uploading and analyzing "${file.name}"...`;
     }
     try {
       const fd = new FormData();
       fd.append("file", file);
-      fd.append("name", nameInput?.value || file.name);
-      const resp = await fetch("/api/v1/templates/upload", { method: "POST", body: fd });
+      fd.append("custom_name", file.name);
+      const resp = await fetch("/api/v1/templates/upload", {
+        method: "POST",
+        body: fd,
+      });
       const data = await resp.json();
-      if (resp.ok && data.template) {
-        state.templateCatalog.push(data.template);
-        syncTemplateSelectorUi();
-        await applyTemplateToActiveDeck(data.template.template_id, true);
-        if (statusEl) {
-          statusEl.style.color = "#15803D";
-          statusEl.textContent = `✅ Added & applied "${data.template.name}" (Safe Y <= ${data.template.safe_bounds?.content_bottom_max_in || 6.54}")`;
-        }
-        if (fileInput) fileInput.value = "";
-        if (nameInput) nameInput.value = "";
-      } else {
-        if (statusEl) {
-          statusEl.style.color = "#B91C1C";
-          statusEl.textContent = `⚠️ ${data.detail || "Could not ingest template file."}`;
-        }
+      if (!resp.ok) throw new Error(data.detail || "Upload failed");
+      state.templateCatalog = data.templates || state.templateCatalog;
+      syncTemplateSelectorUi();
+      await applyTemplateToActiveDeck(data.template.template_id, true);
+      if (statusEl) {
+        statusEl.style.color = "#15803D";
+        statusEl.textContent = `✓ Imported and applied "${data.template.name}".`;
       }
+      if (fileInput) fileInput.value = "";
     } catch (err) {
       if (statusEl) {
         statusEl.style.color = "#B91C1C";
         statusEl.textContent = `⚠️ Upload error: ${err.message}`;
       }
     }
-  });
+  };
+  document.getElementById("btn-upload-template-file")?.addEventListener("click", handleUploadTemplateFile);
+  document.getElementById("btn-upload-template-submit")?.addEventListener("click", handleUploadTemplateFile);
 
-  document.getElementById("btn-import-template-url-submit")?.addEventListener("click", async () => {
+  // Template URL Import (#btn-import-template-url in ui/index.html)
+  const handleImportTemplateUrl = async () => {
     const urlInput = document.getElementById("template-import-url-input");
-    const nameInput = document.getElementById("template-upload-name-input");
-    const statusEl = document.getElementById("template-upload-status");
-    const rawUrl = (urlInput?.value || "").trim();
-    if (!rawUrl) {
+    const statusEl =
+      document.getElementById("template-import-status-msg") ||
+      document.getElementById("template-upload-status");
+    const url = (urlInput?.value || "").trim();
+    if (!url) {
       showToast("Paste an HTTP/HTTPS template URL first.", "warning");
       return;
     }
     if (statusEl) {
       statusEl.style.color = "#0369A1";
-      statusEl.textContent = `Fetching template from ${rawUrl}...`;
+      statusEl.textContent = "Downloading and inspecting template from URL...";
     }
     try {
       const resp = await fetch("/api/v1/templates/import-url", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url: rawUrl, name: nameInput?.value || "" }),
+        body: JSON.stringify({ url }),
       });
       const data = await resp.json();
-      if (resp.ok && data.template) {
-        state.templateCatalog.push(data.template);
-        syncTemplateSelectorUi();
-        await applyTemplateToActiveDeck(data.template.template_id, true);
-        if (statusEl) {
-          statusEl.style.color = "#15803D";
-          statusEl.textContent = `✅ Imported & applied "${data.template.name}"`;
-        }
-      } else {
-        if (statusEl) {
-          statusEl.style.color = "#B91C1C";
-          statusEl.textContent = `⚠️ ${data.detail || "Could not import template URL."}`;
-        }
+      if (!resp.ok) throw new Error(data.detail || "URL import failed");
+      state.templateCatalog = data.templates || state.templateCatalog;
+      syncTemplateSelectorUi();
+      await applyTemplateToActiveDeck(data.template.template_id, true);
+      if (statusEl) {
+        statusEl.style.color = "#15803D";
+        statusEl.textContent = `✓ Imported and applied "${data.template.name}".`;
       }
     } catch (err) {
       if (statusEl) {
@@ -10380,43 +10438,53 @@ async function initPowerPointTemplateStudio() {
         statusEl.textContent = `⚠️ URL import error: ${err.message}`;
       }
     }
-  });
+  };
+  document.getElementById("btn-import-template-url")?.addEventListener("click", handleImportTemplateUrl);
+  document.getElementById("btn-import-template-url-submit")?.addEventListener("click", handleImportTemplateUrl);
 }
 
 // ============================================================================
 // PLAN 16B + PLAN 17: MULTI-BADGE COUNSELOR WORKSPACES, FAVORITES & SAVED DECK LIBRARY
 // ============================================================================
 
-const FAVORITES_STORAGE_KEY = "scouts_bsa_favorite_badges_v1";
+const FAVORITES_STORAGE_KEY = "bsa_favorite_badges_v1";
+const WORKSPACES_INDEX_STORAGE_KEY = "bsa_saved_workspaces_index_v1";
 const SKIP_DELETE_CONFIRM_STORAGE_KEY = "scouts_bsa_skip_delete_deck_confirm_v1";
-const POPULAR_QUICK_BADGES = [
-  "First Aid",
-  "Camping",
-  "Swimming",
-  "Cooking",
-  "Environmental Science",
-  "Citizenship in the World",
-  "Personal Fitness",
-  "Emergency Preparedness",
-  "Communications",
-  "Kayaking",
-];
+let _workspacesInitPromise = null;
 
-function syncFavoriteBadgesUi() {
-  const favs = state.favoriteBadges || [];
-  const curBadge = document.getElementById("badge-select")?.value || state.currentBadge || "First Aid";
-  const isFav = favs.some((b) => b.toLowerCase() === curBadge.toLowerCase());
-
-  const starBtn = document.getElementById("btn-toggle-favorite-current-badge");
-  const starIcon = document.getElementById("favorite-current-badge-star-icon");
-  if (starBtn && starIcon) {
-    starBtn.setAttribute("aria-pressed", isFav ? "true" : "false");
-    starBtn.classList.toggle("active", isFav);
-    starIcon.textContent = isFav ? "★" : "☆";
-    starIcon.style.color = isFav ? "#FFFFFF" : "";
+function formatWorkspaceTimestamp(rawTs) {
+  if (!rawTs) return "Recently updated";
+  try {
+    let dt;
+    if (typeof rawTs === "number") {
+      dt = new Date(rawTs > 1e12 ? rawTs : rawTs * 1000);
+    } else {
+      const str = String(rawTs).trim();
+      const iso = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(str) ? `${str.replace(" ", "T")}Z` : str;
+      dt = new Date(iso);
+    }
+    if (Number.isNaN(dt.getTime())) return String(rawTs);
+    return dt.toLocaleString([], { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+  } catch (_e) {
+    return "Recently updated";
   }
+}
 
-  const favCountEl = document.getElementById("quick-fav-count");
+window.syncActiveBadgeStarButton = function syncActiveBadgeStarButton() {
+  const starBtn = document.getElementById("btn-star-active-badge");
+  const select = document.getElementById("badge-select");
+  const current = select?.value || state.currentBadge || "First Aid";
+  const favs = state.favoriteBadges || [];
+  const favSet = new Set(favs.map((x) => String(x).toLowerCase()));
+  const isFav = favSet.has(current.toLowerCase());
+  if (starBtn) {
+    starBtn.textContent = isFav ? "⭐ Favorited" : "☆ Favorite";
+    starBtn.style.background = isFav ? "#FEF3C7" : "";
+    starBtn.style.color = isFav ? "#92400E" : "";
+    starBtn.style.borderColor = isFav ? "#F59E0B" : "";
+    starBtn.setAttribute("aria-pressed", isFav ? "true" : "false");
+  }
+  const favCountEl = document.getElementById("fav-badges-count-lbl");
   if (favCountEl) favCountEl.textContent = String(favs.length);
 
   // Sync Favorites count inside Sidebar "Eagle / Favorites" (#filter-eagle-select) dropdown
@@ -10427,47 +10495,51 @@ function syncFavoriteBadgesUi() {
       favOpt.textContent = `Favorites (${favs.length})`;
     }
   }
+};
 
+function syncFavoriteBadgesUi() {
+  window.syncActiveBadgeStarButton();
   renderQuickSelectBadgesRow();
 }
 
 window.toggleFavoriteBadge = async function toggleFavoriteBadge(badgeName) {
-  const clean = String(badgeName || "").trim();
+  const clean = String(badgeName || state.currentBadge || "First Aid").trim();
   if (!clean) return;
-  const exists = (state.favoriteBadges || []).some((b) => b.toLowerCase() === clean.toLowerCase());
-  const nextAction = exists ? "remove" : "add";
-  if (exists) {
-    state.favoriteBadges = state.favoriteBadges.filter((b) => b.toLowerCase() !== clean.toLowerCase());
+  const favs = Array.isArray(state.favoriteBadges) ? [...state.favoriteBadges] : [];
+  const idx = favs.findIndex((x) => x.toLowerCase() === clean.toLowerCase());
+  const nowFav = idx === -1;
+  if (nowFav) {
+    favs.push(clean);
   } else {
-    state.favoriteBadges = [...(state.favoriteBadges || []), clean];
+    favs.splice(idx, 1);
   }
+  state.favoriteBadges = favs;
   try {
-    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(state.favoriteBadges));
+    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favs));
   } catch (_e) {}
 
-  syncFavoriteBadgesUi();
-  if (typeof applyBadgeFilters === "function") {
-    applyBadgeFilters();
-  }
-
   try {
-    const resp = await fetch("/api/v1/favorites/toggle", {
+    const resp = await fetch("/api/v1/counselor/favorites", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ badge_name: clean, action: nextAction }),
+      body: JSON.stringify({ badge_name: clean, is_favorite: nowFav }),
     });
     if (resp.ok) {
       const data = await resp.json();
       if (Array.isArray(data.favorites)) {
         state.favoriteBadges = data.favorites;
-        window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(state.favoriteBadges));
-        syncFavoriteBadgesUi();
+        window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(data.favorites));
       }
     }
   } catch (_e) {}
 
+  if (typeof applyBadgeFilters === "function") {
+    applyBadgeFilters(false);
+  }
+  window.syncActiveBadgeStarButton();
+  renderQuickSelectBadgesRow();
   showToast(
-    nextAction === "add" ? `★ Added "${clean}" to My Favorite Badges` : `Removed "${clean}" from Favorites`,
+    nowFav ? `⭐ Added "${clean}" to My Favorite Merit Badges.` : `Removed "${clean}" from My Favorites.`,
     "info"
   );
 };
@@ -10478,160 +10550,205 @@ function renderQuickSelectBadgesRow() {
   const mode = state.quickSelectMode || "popular";
   const curBadge = document.getElementById("badge-select")?.value || state.currentBadge || "First Aid";
 
+  const favCountEl = document.getElementById("fav-badges-count-lbl");
+  if (favCountEl) favCountEl.textContent = String((state.favoriteBadges || []).length);
+  const wsCountEl = document.getElementById("ws-badges-count-lbl");
+  if (wsCountEl) wsCountEl.textContent = String((state.savedWorkspaces || []).length);
+
   if (mode === "favorites") {
     const favs = state.favoriteBadges || [];
     if (favs.length === 0) {
-      row.innerHTML = `<span style="font-size:0.75rem; color:#64748B; font-style:italic;">Click the ★ star next to any Merit Badge or in the Patch Gallery to pin your Favorites here!</span>`;
+      row.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 2px;">No starred badges yet — click <strong>☆ Favorite</strong> above or star patches in the <strong>🎖️ Patch Gallery</strong>!</div>`;
       return;
     }
     row.innerHTML = favs
       .map(
-        (b) =>
-          `<button type="button" class="m3-quick-badge-chip ${b === curBadge ? "active" : ""}" data-badge="${escapeHtml(b)}">★ ${escapeHtml(b)}</button>`
+        (bName) =>
+          `<button type="button" class="m3-badge-pill ${bName === curBadge ? "active" : ""}" data-badge="${escapeHtml(bName)}">⭐ ${escapeHtml(bName)}</button>`
       )
       .join("");
   } else if (mode === "workspaces") {
-    const decks = state.savedWorkspaces || [];
-    if (decks.length === 0) {
-      row.innerHTML = `<span style="font-size:0.75rem; color:#64748B; font-style:italic;">No saved decks yet — click "🗂️ My Decks" above to save or clone a deck workspace.</span>`;
+    const wsList = state.savedWorkspaces || [];
+    if (wsList.length === 0) {
+      row.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 2px;">No saved decks yet — click <strong>💾 Save Deck</strong> to pin multiple badges in progress.</div>`;
       return;
     }
-    row.innerHTML = decks
+    row.innerHTML = wsList
       .slice(0, 8)
       .map((ws) => {
         const isAct = ws.workspace_id === state.activeWorkspaceId;
-        const label = ws.session_label ? `${ws.badge_name} (${ws.session_label})` : ws.workspace_title || ws.badge_name;
-        return `<button type="button" class="m3-quick-badge-chip ${isAct ? "active" : ""}" data-workspace-quick-load="${escapeHtml(ws.workspace_id)}" title="${escapeHtml(ws.workspace_title || ws.badge_name)}">🗂️ ${escapeHtml(label)}</button>`;
+        const label = ws.session_label
+          ? `${ws.badge_name} (${ws.session_label})`
+          : ws.workspace_title || ws.badge_name;
+        return `<button type="button" class="m3-badge-pill ${isAct ? "active" : ""}" data-switch-ws="${escapeHtml(ws.workspace_id)}" title="${escapeHtml(ws.workspace_title || ws.badge_name)}">🗂️ ${escapeHtml(label)}</button>`;
       })
       .join("");
-    row.querySelectorAll("[data-workspace-quick-load]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const wid = btn.getAttribute("data-workspace-quick-load");
-        if (wid) loadSavedWorkspaceById(wid);
+    row.querySelectorAll("[data-switch-ws]").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const wsId = btn.getAttribute("data-switch-ws");
+        if (wsId) await switchActiveWorkspace(wsId);
       });
     });
     return;
   } else {
-    row.innerHTML = POPULAR_QUICK_BADGES.map(
-      (b) => `<button type="button" class="m3-quick-badge-chip ${b === curBadge ? "active" : ""}" data-badge="${escapeHtml(b)}">${escapeHtml(b)}</button>`
-    ).join("");
+    const popular = [
+      { name: "First Aid", label: "★ First Aid" },
+      { name: "Weather", label: "Weather" },
+      { name: "Camping", label: "★ Camping" },
+      { name: "Citizenship in the Nation", label: "★ Cit. in Nation" },
+      { name: "Cooking", label: "★ Cooking" },
+      { name: "Emergency Preparedness", label: "★ Emergency Prep" },
+      { name: "Environmental Science", label: "★ Env. Science" },
+      { name: "Robotics", label: "Robotics" },
+    ];
+    row.innerHTML = popular
+      .map(
+        (p) =>
+          `<button type="button" class="m3-badge-pill ${p.name === curBadge ? "active" : ""}" data-badge="${escapeHtml(p.name)}">${escapeHtml(p.label)}</button>`
+      )
+      .join("");
   }
 
-  row.querySelectorAll("[data-badge]").forEach((chip) => {
-    chip.addEventListener("click", async () => {
-      const bName = chip.getAttribute("data-badge");
+  row.querySelectorAll("[data-badge]").forEach((pill) => {
+    pill.addEventListener("click", async () => {
+      const bName = pill.getAttribute("data-badge");
       if (!bName) return;
-      const sel = document.getElementById("badge-select");
-      if (sel) sel.value = bName;
-      syncFavoriteBadgesUi();
+      const select = document.getElementById("badge-select");
+      if (select) select.value = bName;
+      window.syncActiveBadgeStarButton();
       await executeStreamingWorkflow(bName);
     });
   });
 }
 
 function renderActiveWorkspacesBar() {
-  const pillsEl = document.getElementById("active-workspaces-pills-list");
-  const topCountEl = document.getElementById("top-saved-decks-count-badge");
-  const quickCountEl = document.getElementById("quick-decks-count");
+  const bar = document.getElementById("active-workspaces-bar");
+  const listEl = document.getElementById("active-workspaces-pills-list");
+  const topPill = document.getElementById("top-workspaces-count-pill");
+  const copySelect = document.getElementById("select-bluecard-copy-workspace");
   const wsList = state.savedWorkspaces || [];
 
-  if (topCountEl) topCountEl.textContent = String(wsList.length);
-  if (quickCountEl) quickCountEl.textContent = String(wsList.length);
-  if (!pillsEl) return;
+  if (topPill) topPill.textContent = String(wsList.length);
+  const wsCountEl = document.getElementById("ws-badges-count-lbl");
+  if (wsCountEl) wsCountEl.textContent = String(wsList.length);
+
+  if (copySelect) {
+    const otherWs = wsList.filter((w) => w.workspace_id !== state.activeWorkspaceId);
+    copySelect.innerHTML =
+      `<option value="">🔁 Copy Scouts From Deck (${otherWs.length})...</option>` +
+      otherWs
+        .map(
+          (w) =>
+            `<option value="${escapeHtml(w.workspace_id)}">📋 ${escapeHtml(w.workspace_title || w.badge_name)} (${w.scout_count || 0} Scouts)</option>`
+        )
+        .join("");
+  }
+
+  if (!bar || !listEl) return;
+  if (!state.currentResult) {
+    bar.classList.add("hidden");
+    return;
+  }
+  bar.classList.remove("hidden");
 
   if (wsList.length === 0) {
     const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
     const slug = badgeNameToEmblemSlug(curBadge);
-    pillsEl.innerHTML = `
-      <button type="button" class="m3-workspace-pill active" id="btn-current-unsaved-ws-pill" title="Current active deck on stage">
-        <img class="m3-workspace-pill-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" onerror="this.style.display='none'" />
+    listEl.innerHTML = `
+      <span style="font-size:0.72rem; font-weight:800; color:#003F87; margin-right:2px;">🗂️ Active Decks:</span>
+      <button type="button" class="m3-ws-pill active" title="Current active deck on stage">
+        <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
         <span>${escapeHtml(curBadge)}</span>
-        <span class="m3-workspace-pill-meta">Active</span>
+        <span class="m3-ws-pill-meta">(Active)</span>
       </button>
     `;
     return;
   }
 
-  pillsEl.innerHTML = wsList
-    .slice(0, 10)
+  const itemsHtml = wsList
+    .slice(0, 6)
     .map((ws) => {
       const isAct = ws.workspace_id === state.activeWorkspaceId;
       const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
-      const titleText = ws.workspace_title || ws.badge_name;
-      const subMeta = ws.session_label || `${ws.slide_count || 0} slides`;
+      const shortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
+      const label = shortSession
+        ? `${ws.badge_name} • ${shortSession}`
+        : ws.workspace_title || ws.badge_name;
       return `
-        <button type="button" class="m3-workspace-pill ${isAct ? "active" : ""}" data-ws-pill-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(titleText)} (${escapeHtml(subMeta)})">
-          <img class="m3-workspace-pill-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" onerror="this.style.display='none'" />
-          <span style="max-width:170px; overflow:hidden; text-overflow:ellipsis;">${escapeHtml(titleText)}</span>
-          <span class="m3-workspace-pill-meta">${escapeHtml(subMeta)}</span>
+        <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-ws-bar-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${escapeHtml(ws.session_label || "")} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
+          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
+          <span>${escapeHtml(label)}</span>
+          <span class="m3-ws-pill-meta">(${ws.scout_count || 0})</span>
         </button>
       `;
     })
     .join("");
 
-  pillsEl.querySelectorAll("[data-ws-pill-id]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const wid = btn.getAttribute("data-ws-pill-id");
-      if (wid) loadSavedWorkspaceById(wid);
+  listEl.innerHTML = `<span style="font-size:0.72rem; font-weight:800; color:#003F87; margin-right:2px;">🗂️ Active Decks:</span>${itemsHtml}`;
+  listEl.querySelectorAll("[data-ws-bar-id]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const wid = btn.getAttribute("data-ws-bar-id");
+      if (wid && wid !== state.activeWorkspaceId) {
+        await switchActiveWorkspace(wid);
+      }
     });
   });
-
-  syncBlueCardCopyRosterDropdown();
-}
-
-function syncBlueCardCopyRosterDropdown() {
-  const sel = document.getElementById("bluecard-copy-roster-from-ws-select");
-  if (!sel) return;
-  const wsList = state.savedWorkspaces || [];
-  const opts = [`<option value="">🔁 Copy Scouts From Saved Deck...</option>`];
-  wsList.forEach((ws) => {
-    if ((ws.scout_count || 0) > 0) {
-      opts.push(
-        `<option value="${escapeHtml(ws.workspace_id)}">${escapeHtml(ws.workspace_title || ws.badge_name)} (${ws.scout_count} Scouts)</option>`
-      );
-    }
-  });
-  sel.innerHTML = opts.join("");
 }
 
 async function saveCurrentDeckAsWorkspace(options = {}) {
   if (!state.currentResult) return null;
-  const res = state.currentResult;
-  const badgeName = res.badge_name || state.currentBadge || "First Aid";
-  const rosterObj = loadBadgeBlueCardRoster(badgeName);
+  if (_workspacesInitPromise) {
+    try {
+      await _workspacesInitPromise;
+    } catch (_e) {}
+  }
+  const badgeName = state.currentResult.badge_name || state.currentBadge || "First Aid";
+  const existingWs = (state.savedWorkspaces || []).find((w) =>
+    options.forceNew
+      ? false
+      : state.activeWorkspaceId
+      ? w.workspace_id === state.activeWorkspaceId
+      : w.badge_name?.toLowerCase() === badgeName.toLowerCase()
+  );
+  const wsId = options.forceNew ? null : existingWs?.workspace_id || state.activeWorkspaceId || null;
 
-  const wsTitle =
-    options.workspace_title !== undefined
-      ? options.workspace_title
-      : document.getElementById("ws-title-input")?.value?.trim() || badgeName;
   const sessionLabel =
-    options.session_label !== undefined
+    options.sessionLabel !== undefined
+      ? options.sessionLabel
+      : options.session_label !== undefined
       ? options.session_label
-      : document.getElementById("ws-session-label-input")?.value?.trim() || "";
+      : document.getElementById("ws-session-label-input")?.value?.trim() ?? existingWs?.session_label ?? "";
   const bundleTag =
-    options.camp_bundle_tag !== undefined
+    options.bundleTag !== undefined
+      ? options.bundleTag
+      : options.camp_bundle_tag !== undefined
       ? options.camp_bundle_tag
-      : document.getElementById("ws-bundle-tag-input")?.value?.trim() || "";
+      : document.getElementById("ws-bundle-tag-input")?.value?.trim() ?? existingWs?.camp_bundle_tag ?? "";
+  const titleInputVal = document.getElementById("ws-title-input")?.value?.trim();
+  const wsTitle =
+    options.workspaceTitle ||
+    options.workspace_title ||
+    titleInputVal ||
+    existingWs?.workspace_title ||
+    badgeName;
+
+  const roster = loadBadgeBlueCardRoster(badgeName);
+  const slides = state.currentResult?.storyboard?.slides || [];
 
   const payload = {
-    workspace_id: options.forceNew ? null : state.activeWorkspaceId || null,
-    session_id: state.currentSessionId || null,
+    workspace_id: wsId,
+    workspace_title: wsTitle,
     badge_name: badgeName,
-    workspace_title: wsTitle || badgeName,
     session_label: sessionLabel,
     camp_bundle_tag: bundleTag,
-    instruction_depth: document.getElementById("depth-select")?.value || "Deep Dive",
-    visual_theme: document.getElementById("beautification-select")?.value || "WARM_CREAM",
     template_id: state.activeTemplateId || "default_workbench",
-    troop_context: {
-      counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
-      troop_name: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
-      location: document.getElementById("input-location")?.value || "Austin, TX",
-    },
-    deck_payload: res,
-    blue_card_roster: rosterObj,
-    class_prep_payload: state.lastClassPrepData || {},
-    is_pinned: true,
+    counselor_info: state.currentResult.counselor_info || {},
+    deck_result: state.currentResult,
+    blue_card_roster: roster,
+    active_slide_idx: typeof state.activeSlideIdx === "number" ? state.activeSlideIdx : -1,
+    slide_count: slides.length + 1,
+    scout_count: (roster?.scouts || []).length,
+    force_new: Boolean(options.forceNew),
   };
 
   try {
@@ -10642,18 +10759,14 @@ async function saveCurrentDeckAsWorkspace(options = {}) {
     });
     if (resp.ok) {
       const data = await resp.json();
-      if (data.workspace) {
-        state.activeWorkspaceId = data.workspace.workspace_id;
-        const idx = state.savedWorkspaces.findIndex((w) => w.workspace_id === data.workspace.workspace_id);
-        if (idx >= 0) {
-          state.savedWorkspaces[idx] = data.workspace;
-        } else {
-          state.savedWorkspaces.unshift(data.workspace);
-        }
-        renderActiveWorkspacesBar();
-        renderSavedWorkspacesGrid();
-        renderQuickSelectBadgesRow();
-      }
+      state.activeWorkspaceId = data.workspace?.workspace_id || state.activeWorkspaceId;
+      state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
+      try {
+        window.localStorage.setItem(WORKSPACES_INDEX_STORAGE_KEY, JSON.stringify(state.savedWorkspaces));
+      } catch (_e) {}
+      renderActiveWorkspacesBar();
+      renderSavedWorkspacesGrid();
+      renderQuickSelectBadgesRow();
       if (options.toastMessage) showToast(options.toastMessage, "info");
       return data.workspace;
     }
@@ -10661,79 +10774,108 @@ async function saveCurrentDeckAsWorkspace(options = {}) {
   return null;
 }
 
-window.onWorkbenchDeckHydrated = async function onWorkbenchDeckHydrated(result) {
-  if (!result || !result.badge_name) return;
-  const badgeName = result.badge_name;
-  const existing = (state.savedWorkspaces || []).find(
-    (w) => w.badge_name?.toLowerCase() === badgeName.toLowerCase() && !w.session_label
-  );
-  state.activeWorkspaceId = existing ? existing.workspace_id : null;
-
-  const titleIn = document.getElementById("ws-title-input");
-  const sessionIn = document.getElementById("ws-session-label-input");
-  const bundleIn = document.getElementById("ws-bundle-tag-input");
-  if (titleIn) titleIn.value = existing?.workspace_title || badgeName;
-  if (sessionIn) sessionIn.value = existing?.session_label || "";
-  if (bundleIn) bundleIn.value = existing?.camp_bundle_tag || "";
-
-  await saveCurrentDeckAsWorkspace({
-    workspace_title: existing?.workspace_title || badgeName,
-    session_label: existing?.session_label || "",
-    camp_bundle_tag: existing?.camp_bundle_tag || "",
-  });
+window.autoSaveActiveWorkspaceDebounced = function autoSaveActiveWorkspaceDebounced() {
+  if (state._wsAutoSaveTimer) clearTimeout(state._wsAutoSaveTimer);
+  state._wsAutoSaveTimer = setTimeout(() => {
+    if (state.activeWorkspaceId) {
+      saveCurrentDeckAsWorkspace({ toastMessage: "" });
+    }
+  }, 450);
 };
 
-async function loadSavedWorkspaceById(workspaceId) {
+window.syncActiveWorkspaceBlueCardRoster = function syncActiveWorkspaceBlueCardRoster(_rosterObj) {
+  window.autoSaveActiveWorkspaceDebounced();
+};
+
+window.onWorkbenchDeckHydrated = async function onWorkbenchDeckHydrated(result) {
+  if (!result || state._switchingWorkspaceInProgress) return;
+  if (_workspacesInitPromise) {
+    try {
+      await _workspacesInitPromise;
+    } catch (_e) {}
+  }
+  const badgeName = result.badge_name || "First Aid";
+  const matchWs = (state.savedWorkspaces || []).find((w) => w.badge_name?.toLowerCase() === badgeName.toLowerCase());
+  state.activeWorkspaceId = matchWs ? matchWs.workspace_id : null;
+
+  const titleIn = document.getElementById("ws-title-input");
+  const sessIn = document.getElementById("ws-session-label-input");
+  const bndlIn = document.getElementById("ws-bundle-tag-input");
+  if (titleIn) titleIn.value = matchWs?.workspace_title || badgeName;
+  if (sessIn) sessIn.value = matchWs?.session_label || "";
+  if (bndlIn) bndlIn.value = matchWs?.camp_bundle_tag || "";
+
+  // Only auto-persist to SQLite if this badge already exists in savedWorkspaces OR if savedWorkspaces is completely empty.
+  // This prevents hydrating a badge from creating unwanted phantom decks when the user already has their own saved deck(s)!
+  if (matchWs || (state.savedWorkspaces || []).length === 0) {
+    await saveCurrentDeckAsWorkspace({
+      workspace_title: matchWs?.workspace_title || badgeName,
+      session_label: matchWs?.session_label || "",
+      camp_bundle_tag: matchWs?.camp_bundle_tag || "",
+      toastMessage: "",
+    });
+  } else {
+    renderActiveWorkspacesBar();
+    renderSavedWorkspacesGrid();
+    renderQuickSelectBadgesRow();
+  }
+};
+
+async function switchActiveWorkspace(workspaceId) {
   if (!workspaceId) return;
   try {
+    if (state.currentResult && state.activeWorkspaceId && state.activeWorkspaceId !== workspaceId) {
+      await saveCurrentDeckAsWorkspace({ toastMessage: "" });
+    }
     const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(workspaceId)}`);
-    if (!resp.ok) return;
+    if (!resp.ok) throw new Error("Workspace not found");
     const data = await resp.json();
     const ws = data.workspace;
     if (!ws) return;
 
+    state._switchingWorkspaceInProgress = true;
     state.activeWorkspaceId = ws.workspace_id;
     state.currentBadge = ws.badge_name;
-    const badgeSel = document.getElementById("badge-select");
-    if (badgeSel) badgeSel.value = ws.badge_name;
+    state.activeTemplateId = ws.template_id || "default_workbench";
+    syncTemplateSelectorUi();
 
-    if (ws.template_id) {
-      state.activeTemplateId = ws.template_id;
-      syncTemplateSelectorUi();
-    }
+    const select = document.getElementById("badge-select");
+    if (select) select.value = ws.badge_name;
 
     if (ws.blue_card_roster && Array.isArray(ws.blue_card_roster.scouts)) {
       saveBadgeBlueCardRoster(ws.badge_name, ws.blue_card_roster);
     }
 
-    if (ws.deck_payload && ws.deck_payload.storyboard) {
-      state.currentResult = ws.deck_payload;
-      state.activeSlideIndex = -1;
-      hydrateWorkbench(ws.deck_payload);
+    const deckObj = ws.deck_result || ws.deck_payload;
+    if (deckObj && deckObj.storyboard) {
+      hydrateWorkbench(deckObj);
+      if (typeof ws.active_slide_idx === "number" && ws.active_slide_idx >= -1) {
+        state.activeSlideIdx = ws.active_slide_idx;
+        renderFilmstrip(deckObj.storyboard.slides || []);
+        renderActiveSlide(ws.active_slide_idx);
+      }
     } else {
       await executeStreamingWorkflow(ws.badge_name);
     }
+    state._switchingWorkspaceInProgress = false;
 
     const titleIn = document.getElementById("ws-title-input");
-    const sessionIn = document.getElementById("ws-session-label-input");
-    const bundleIn = document.getElementById("ws-bundle-tag-input");
-    if (titleIn) titleIn.value = ws.workspace_title || ws.badge_name;
-    if (sessionIn) sessionIn.value = ws.session_label || "";
-    if (bundleIn) bundleIn.value = ws.camp_bundle_tag || "";
+    const sessIn = document.getElementById("ws-session-label-input");
+    const bndlIn = document.getElementById("ws-bundle-tag-input");
+    if (titleIn) titleIn.value = ws.workspace_title || ws.badge_name || "";
+    if (sessIn) sessIn.value = ws.session_label || "";
+    if (bndlIn) bndlIn.value = ws.camp_bundle_tag || "";
 
     renderActiveWorkspacesBar();
     renderSavedWorkspacesGrid();
     renderQuickSelectBadgesRow();
-
-    const modal = document.getElementById("saved-workspaces-modal");
-    modal?.classList.remove("open");
-    modal?.classList.add("hidden");
-
     showToast(`Switched to "${ws.workspace_title || ws.badge_name}".`, "info");
   } catch (err) {
+    state._switchingWorkspaceInProgress = false;
     showToast(`Could not load workspace: ${err.message}`, "warning");
   }
 }
+const loadSavedWorkspaceById = switchActiveWorkspace;
 
 let _pendingDeleteWorkspaceId = null;
 
@@ -10741,7 +10883,13 @@ async function executeWorkspaceDeletion(wid) {
   if (!wid) return;
   const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(wid)}`, { method: "DELETE" });
   if (resp.ok) {
-    state.savedWorkspaces = (state.savedWorkspaces || []).filter((w) => w.workspace_id !== wid);
+    const data = await resp.json();
+    state.savedWorkspaces = Array.isArray(data.workspaces)
+      ? data.workspaces
+      : (state.savedWorkspaces || []).filter((w) => w.workspace_id !== wid);
+    try {
+      window.localStorage.setItem(WORKSPACES_INDEX_STORAGE_KEY, JSON.stringify(state.savedWorkspaces));
+    } catch (_e) {}
     if (state.activeWorkspaceId === wid) {
       state.activeWorkspaceId = state.savedWorkspaces[0]?.workspace_id || null;
     }
@@ -10784,62 +10932,64 @@ function promptOrExecuteWorkspaceDeletion(wid) {
 
 function renderSavedWorkspacesGrid() {
   const grid = document.getElementById("saved-workspaces-grid");
-  const filterSel = document.getElementById("workspaces-bundle-filter-select");
   if (!grid) return;
-  const all = state.savedWorkspaces || [];
+  const q = (document.getElementById("workspaces-search-input")?.value || "").trim().toLowerCase();
+  const list = (state.savedWorkspaces || []).filter((w) => {
+    if (!q) return true;
+    return `${w.workspace_title || ""} ${w.badge_name || ""} ${w.session_label || ""} ${w.camp_bundle_tag || ""}`
+      .toLowerCase()
+      .includes(q);
+  });
 
-  if (filterSel) {
-    const curVal = filterSel.value || "ALL";
-    const bundles = Array.from(new Set(all.map((w) => w.camp_bundle_tag).filter(Boolean)));
-    filterSel.innerHTML =
-      `<option value="ALL">All Camp Weeks &amp; Sessions (${all.length})</option>` +
-      bundles.map((b) => `<option value="${escapeHtml(b)}">🏕️ ${escapeHtml(b)}</option>`).join("");
-    if (bundles.includes(curVal)) filterSel.value = curVal;
-  }
-
-  const activeBundle = filterSel?.value || "ALL";
-  const filtered = activeBundle === "ALL" ? all : all.filter((w) => w.camp_bundle_tag === activeBundle);
-
-  if (filtered.length === 0) {
-    grid.innerHTML = `<div style="grid-column:1/-1; padding:24px; text-align:center; color:#64748B;">No saved decks match this filter. Click "💾 Save Current Deck" above to store your active badge deck!</div>`;
+  if (list.length === 0) {
+    grid.innerHTML = `<div style="padding:18px; color:#64748B; font-size:0.84rem;">No saved Merit Badge workspaces match your filter. Click <strong>💾 Save Active Deck</strong> above to save your current deck.</div>`;
     return;
   }
 
-  grid.innerHTML = filtered
-    .map((ws) => {
-      const isAct = ws.workspace_id === state.activeWorkspaceId;
-      const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
-      const updatedDate = ws.updated_at ? new Date(ws.updated_at * 1000).toLocaleString([], { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "Just now";
+  grid.innerHTML = list
+    .map((w) => {
+      const isAct = w.workspace_id === state.activeWorkspaceId;
+      const slug = badgeNameToEmblemSlug(w.badge_name || "First Aid");
+      const tplProf = (state.templateCatalog || []).find((t) => t.template_id === w.template_id);
+      const tplName = tplProf ? tplProf.name : "Workbench Classic";
+      const updatedLabel = formatWorkspaceTimestamp(w.updated_at);
       return `
         <div class="m3-workspace-card ${isAct ? "active" : ""}">
-          <div class="m3-workspace-card-header">
-            <img class="m3-workspace-card-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" onerror="this.style.display='none'" />
-            <div style="flex:1; min-width:0;">
-              <div class="m3-workspace-card-title">${escapeHtml(ws.workspace_title || ws.badge_name)}</div>
-              <div class="m3-workspace-card-sub">
-                ${escapeHtml(ws.badge_name)}
-                ${ws.session_label ? ` • <strong>${escapeHtml(ws.session_label)}</strong>` : ""}
-                ${ws.camp_bundle_tag ? ` • 🏕️ ${escapeHtml(ws.camp_bundle_tag)}` : ""}
+          <div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:42px; height:42px; object-fit:contain; flex-shrink:0;" onerror="this.style.display='none'" />
+              <div style="min-width:0; flex:1;">
+                <div class="m3-workspace-card-title" style="font-size:0.86rem; font-weight:800; color:#003F87; line-height:1.25;">${escapeHtml(w.workspace_title || w.badge_name)}</div>
+                <div class="m3-workspace-card-sub" style="font-size:0.72rem; color:#475569; margin-top:2px;">
+                  <strong>${escapeHtml(w.badge_name)}</strong>
+                  ${w.session_label ? ` &bull; ${escapeHtml(w.session_label)}` : ""}
+                  ${w.camp_bundle_tag ? ` &bull; <span style="color:#0284C7; font-weight:700;">🏕️ ${escapeHtml(w.camp_bundle_tag)}</span>` : ""}
+                </div>
               </div>
+              ${isAct ? `<span class="m3-chip m3-chip-primary" style="font-size:0.65rem;">Active</span>` : ""}
             </div>
-            ${isAct ? `<span class="m3-chip" style="background:#FEF3C7; color:#92400E; font-weight:800; font-size:0.68rem;">Active</span>` : ""}
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:10px; font-size:0.71rem; color:#475569;">
+              <span style="white-space:nowrap;">📊 <strong>${w.slide_count || 0}</strong> Slides</span>
+              <span>&bull;</span>
+              <span style="white-space:nowrap;">🪪 <strong>${w.scout_count || 0}</strong> Scouts in Roster</span>
+              <span>&bull;</span>
+              <span style="white-space:nowrap;">🖼️ ${escapeHtml(tplName.slice(0, 24))}</span>
+              <span>&bull;</span>
+              <span style="white-space:nowrap;">🕒 ${escapeHtml(updatedLabel)}</span>
+            </div>
           </div>
-          <div class="m3-workspace-card-metrics">
-            <span class="m3-workspace-metric-badge">🎞️ ${ws.slide_count || 0} Slides</span>
-            <span class="m3-workspace-metric-badge">📋 ${ws.scout_count || 0} Scouts on Blue Card</span>
-            <span class="m3-workspace-metric-badge">🖼️ ${escapeHtml(ws.template_id || "default_workbench")}</span>
-            <span class="m3-workspace-metric-badge">🕒 ${escapeHtml(updatedDate)}</span>
-          </div>
-          <div class="m3-workspace-card-actions">
-            <button type="button" class="m3-primary-btn" data-ws-open="${escapeHtml(ws.workspace_id)}" style="flex:1; padding:6px 10px; font-size:0.76rem; font-weight:800;">
-              📂 Switch to Deck
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; padding-top:8px; border-top:1px solid #E2E8F0;">
+            <button type="button" class="m3-btn ${isAct ? "m3-btn-tonal" : "m3-btn-filled"}" data-ws-open="${escapeHtml(w.workspace_id)}" style="padding:5px 12px; font-size:0.74rem; font-weight:800;">
+              ${isAct ? "✓ Currently Open" : "📂 Switch to Deck"}
             </button>
-            <button type="button" class="m3-tonal-btn" data-ws-clone="${escapeHtml(ws.workspace_id)}" title="Clone this deck with Title, Class Section & Camp Week copied and a fresh Blue Card roster" style="padding:6px 10px; font-size:0.75rem; font-weight:700;">
-              📑 Clone
-            </button>
-            <button type="button" class="m3-tonal-btn" data-ws-delete="${escapeHtml(ws.workspace_id)}" title="Delete this saved deck workspace" style="padding:6px 10px; font-size:0.75rem; color:#B91C1C;">
-              🗑️
-            </button>
+            <div style="display:flex; gap:5px;">
+              <button type="button" class="m3-btn m3-btn-outlined" data-ws-clone="${escapeHtml(w.workspace_id)}" title="Clone this deck with Title, Class Section &amp; Camp Week copied and a fresh Blue Card roster" style="padding:5px 9px; font-size:0.72rem;">
+                📑 Clone
+              </button>
+              <button type="button" class="m3-btn m3-btn-outlined" data-ws-delete="${escapeHtml(w.workspace_id)}" title="Delete saved deck workspace" style="padding:5px 9px; font-size:0.72rem; color:#DC2626;">
+                🗑️
+              </button>
+            </div>
           </div>
         </div>
       `;
@@ -10847,7 +10997,15 @@ function renderSavedWorkspacesGrid() {
     .join("");
 
   grid.querySelectorAll("[data-ws-open]").forEach((btn) => {
-    btn.addEventListener("click", () => loadSavedWorkspaceById(btn.getAttribute("data-ws-open")));
+    btn.addEventListener("click", async () => {
+      const wid = btn.getAttribute("data-ws-open");
+      if (wid) {
+        await switchActiveWorkspace(wid);
+        const modal = document.getElementById("saved-workspaces-modal");
+        modal?.classList.remove("open");
+        modal?.classList.add("hidden");
+      }
+    });
   });
 
   grid.querySelectorAll("[data-ws-clone]").forEach((btn) => {
@@ -10860,23 +11018,21 @@ function renderSavedWorkspacesGrid() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           new_title: srcWs?.workspace_title || srcWs?.badge_name || null,
-          session_label: srcWs?.session_label !== undefined ? srcWs.session_label : null,
-          camp_bundle_tag: srcWs?.camp_bundle_tag !== undefined ? srcWs.camp_bundle_tag : null,
-          clear_blue_card_roster: true,
+          session_label: srcWs?.session_label !== undefined ? srcWs.session_label : "",
+          camp_bundle_tag: srcWs?.camp_bundle_tag !== undefined ? srcWs.camp_bundle_tag : "",
+          copy_roster: false,
         }),
       });
       if (resp.ok) {
         const data = await resp.json();
-        if (data.workspace) {
-          state.savedWorkspaces.unshift(data.workspace);
-          renderSavedWorkspacesGrid();
-          renderActiveWorkspacesBar();
-          renderQuickSelectBadgesRow();
-          showToast(
-            `📑 Cloned "${data.workspace.workspace_title}" (copied Title, Section & Camp Tag)!`,
-            "info"
-          );
-        }
+        state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
+        renderSavedWorkspacesGrid();
+        renderActiveWorkspacesBar();
+        renderQuickSelectBadgesRow();
+        showToast(
+          `📑 Cloned "${data.workspace?.workspace_title || srcWs?.badge_name}" with a clean Blue Card roster!`,
+          "info"
+        );
       }
     });
   });
@@ -10890,49 +11046,78 @@ function renderSavedWorkspacesGrid() {
 }
 
 async function initMultiBadgeWorkspacesAndFavorites() {
+  state.quickSelectMode = "popular";
   try {
-    const rawFavs = window.localStorage.getItem(FAVORITES_STORAGE_KEY);
-    if (rawFavs) state.favoriteBadges = JSON.parse(rawFavs);
-  } catch (_e) {}
+    const localFavs = JSON.parse(
+      window.localStorage.getItem(FAVORITES_STORAGE_KEY) ||
+        window.localStorage.getItem("scouts_bsa_favorite_badges_v1") ||
+        "null"
+    );
+    state.favoriteBadges = Array.isArray(localFavs) ? localFavs : ["First Aid", "Camping", "Weather"];
+  } catch (_e) {
+    state.favoriteBadges = ["First Aid", "Camping", "Weather"];
+  }
 
-  try {
-    const [respFav, respWs] = await Promise.all([fetch("/api/v1/favorites"), fetch("/api/v1/workspaces")]);
-    if (respFav.ok) {
-      const dataFav = await respFav.json();
-      if (Array.isArray(dataFav.favorites) && dataFav.favorites.length > 0) {
-        state.favoriteBadges = dataFav.favorites;
+  _workspacesInitPromise = (async () => {
+    try {
+      const [respFav, respWs] = await Promise.all([
+        fetch("/api/v1/counselor/favorites"),
+        fetch("/api/v1/workspaces"),
+      ]);
+      if (respFav.ok) {
+        const dataFav = await respFav.json();
+        if (Array.isArray(dataFav.favorites) && dataFav.favorites.length > 0) {
+          state.favoriteBadges = dataFav.favorites;
+          try {
+            window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(dataFav.favorites));
+          } catch (_e) {}
+        }
       }
-    }
-    if (respWs.ok) {
-      const dataWs = await respWs.json();
-      if (Array.isArray(dataWs.workspaces)) {
-        state.savedWorkspaces = dataWs.workspaces;
+      if (respWs.ok) {
+        const dataWs = await respWs.json();
+        state.savedWorkspaces = Array.isArray(dataWs.workspaces) ? dataWs.workspaces : [];
+        if (!state.activeWorkspaceId && state.savedWorkspaces.length > 0) {
+          const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
+          const matched = state.savedWorkspaces.find(
+            (w) => w.badge_name?.toLowerCase() === curBadge.toLowerCase()
+          );
+          state.activeWorkspaceId = matched
+            ? matched.workspace_id
+            : state.savedWorkspaces[0].workspace_id;
+        }
       }
+    } catch (_e) {
+      state.savedWorkspaces = state.savedWorkspaces || [];
     }
-  } catch (_e) {}
+  })();
 
-  syncFavoriteBadgesUi();
+  await _workspacesInitPromise;
+
+  window.syncActiveBadgeStarButton();
+  renderQuickSelectBadgesRow();
   renderActiveWorkspacesBar();
 
-  document.getElementById("btn-toggle-favorite-current-badge")?.addEventListener("click", () => {
-    const cur = document.getElementById("badge-select")?.value || state.currentBadge || "First Aid";
-    window.toggleFavoriteBadge(cur);
+  document.getElementById("btn-star-active-badge")?.addEventListener("click", async () => {
+    const select = document.getElementById("badge-select");
+    const targetBadge = select?.value || state.currentBadge || "First Aid";
+    await window.toggleFavoriteBadge(targetBadge);
   });
 
   document.getElementById("badge-select")?.addEventListener("change", () => {
-    syncFavoriteBadgesUi();
+    window.syncActiveBadgeStarButton();
   });
 
-  const setQuickMode = (mode) => {
-    state.quickSelectMode = mode;
-    document.getElementById("quick-tab-popular")?.classList.toggle("active", mode === "popular");
-    document.getElementById("quick-tab-favorites")?.classList.toggle("active", mode === "favorites");
-    document.getElementById("quick-tab-workspaces")?.classList.toggle("active", mode === "workspaces");
-    renderQuickSelectBadgesRow();
-  };
-  document.getElementById("quick-tab-popular")?.addEventListener("click", () => setQuickMode("popular"));
-  document.getElementById("quick-tab-favorites")?.addEventListener("click", () => setQuickMode("favorites"));
-  document.getElementById("quick-tab-workspaces")?.addEventListener("click", () => setQuickMode("workspaces"));
+  document.querySelectorAll("[data-quick-mode]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.quickSelectMode = btn.getAttribute("data-quick-mode") || "popular";
+      document.querySelectorAll("[data-quick-mode]").forEach((b) => {
+        const isAct = b.getAttribute("data-quick-mode") === state.quickSelectMode;
+        b.classList.toggle("active", isAct);
+        b.setAttribute("aria-selected", isAct ? "true" : "false");
+      });
+      renderQuickSelectBadgesRow();
+    });
+  });
 
   const openWsModal = () => {
     const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
@@ -10955,9 +11140,9 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   };
 
   document.getElementById("btn-open-saved-workspaces")?.addEventListener("click", openWsModal);
-  document.getElementById("btn-open-workspaces-modal-from-bar")?.addEventListener("click", openWsModal);
+  document.getElementById("btn-ws-open-library")?.addEventListener("click", openWsModal);
+  document.getElementById("btn-close-workspaces-modal")?.addEventListener("click", closeWsModal);
   document.getElementById("btn-close-saved-workspaces")?.addEventListener("click", closeWsModal);
-  document.getElementById("workspaces-bundle-filter-select")?.addEventListener("change", renderSavedWorkspacesGrid);
 
   // Delete Deck Confirmation Modal handlers
   const closeDeleteConfirmModal = () => {
@@ -11015,24 +11200,35 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   wirePresetDropdown("btn-ws-bundle-presets", "ws-bundle-presets-menu", "ws-bundle-tag-input", "data-bundle-preset");
 
   document.addEventListener("click", (ev) => {
-    if (!ev.target.closest(".m3-combobox-wrapper, .m3-ws-combo-wrap")) {
+    if (!ev.target.closest(".m3-combobox-wrapper, .m3-ws-combo-wrap, .m3-ws-combobox-input-group")) {
       document.querySelectorAll(".m3-combobox-presets-menu, .m3-ws-combo-menu").forEach((m) => m.classList.add("hidden"));
     }
   });
 
-  const handleSaveCurrentWorkspaceClick = async () => {
+  document.getElementById("btn-ws-save-current")?.addEventListener("click", async () => {
     await saveCurrentDeckAsWorkspace({
       forceNew: false,
-      toastMessage: "💾 Saved current Merit Badge deck & Blue Card roster to Library!",
+      toastMessage: "💾 Saved current deck & Blue Card roster to your Deck Library!",
     });
-  };
-  document.getElementById("btn-save-current-workspace")?.addEventListener("click", handleSaveCurrentWorkspaceClick);
-  document.getElementById("btn-modal-save-workspace")?.addEventListener("click", handleSaveCurrentWorkspaceClick);
+  });
 
-  const handleCloneActiveWorkspaceClick = async () => {
+  document.getElementById("btn-modal-save-workspace")?.addEventListener("click", async () => {
+    await saveCurrentDeckAsWorkspace({
+      forceNew: false,
+      toastMessage: "💾 Updated active deck in your Deck Library!",
+    });
+  });
+
+  const handleCloneCurrent = async () => {
+    if (!state.activeWorkspaceId) {
+      await saveCurrentDeckAsWorkspace({ toastMessage: "" });
+    }
     const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
     const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
-    const copiedTitle = document.getElementById("ws-title-input")?.value?.trim() || activeWs?.workspace_title || curBadge;
+    const copiedTitle =
+      document.getElementById("ws-title-input")?.value?.trim() ||
+      activeWs?.workspace_title ||
+      curBadge;
     const copiedSession =
       document.getElementById("ws-session-label-input")?.value !== undefined
         ? document.getElementById("ws-session-label-input").value.trim()
@@ -11041,6 +11237,28 @@ async function initMultiBadgeWorkspacesAndFavorites() {
       document.getElementById("ws-bundle-tag-input")?.value !== undefined
         ? document.getElementById("ws-bundle-tag-input").value.trim()
         : activeWs?.camp_bundle_tag || "";
+
+    if (state.activeWorkspaceId) {
+      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(state.activeWorkspaceId)}/clone`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          new_title: copiedTitle,
+          session_label: copiedSession,
+          camp_bundle_tag: copiedBundle,
+          copy_roster: false,
+        }),
+      });
+      if (resp.ok) {
+        const data = await resp.json();
+        state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
+        if (data.workspace?.workspace_id) {
+          await switchActiveWorkspace(data.workspace.workspace_id);
+        }
+        showToast(`📑 Cloned "${copiedTitle}" with a fresh Blue Card roster!`, "info");
+        return;
+      }
+    }
 
     const ws = await saveCurrentDeckAsWorkspace({
       forceNew: true,
@@ -11055,16 +11273,18 @@ async function initMultiBadgeWorkspacesAndFavorites() {
       showToast(`📑 Cloned "${copiedTitle}" (copied Title, Class Section & Camp Week)!`, "info");
     }
   };
-  document.getElementById("btn-clone-active-workspace")?.addEventListener("click", handleCloneActiveWorkspaceClick);
-  document.getElementById("btn-modal-clone-workspace")?.addEventListener("click", handleCloneActiveWorkspaceClick);
 
-  // Cross-Badge Blue Card Roster Copy
-  document.getElementById("bluecard-copy-roster-from-ws-select")?.addEventListener("change", async (e) => {
-    const srcWid = e.target.value;
-    e.target.value = "";
-    if (!srcWid || !state.currentResult) return;
+  document.getElementById("btn-ws-clone-section")?.addEventListener("click", handleCloneCurrent);
+  document.getElementById("btn-modal-clone-workspace")?.addEventListener("click", handleCloneCurrent);
+  document.getElementById("workspaces-search-input")?.addEventListener("input", renderSavedWorkspacesGrid);
+
+  // Cross-Badge Patrol Blue Card Roster Copy (#select-bluecard-copy-workspace in ui/index.html)
+  const handleCopyRosterChange = async (ev) => {
+    const srcWsId = ev.target.value;
+    ev.target.value = "";
+    if (!srcWsId || !state.currentResult) return;
     try {
-      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(srcWid)}`);
+      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(srcWsId)}`);
       if (!resp.ok) return;
       const data = await resp.json();
       const srcScouts = data.workspace?.blue_card_roster?.scouts || [];
@@ -11082,15 +11302,31 @@ async function initMultiBadgeWorkspacesAndFavorites() {
       });
       saveBadgeBlueCardRoster(badgeName, curRoster);
       renderBlueCardTracker(state.currentResult);
-      showToast(`🔁 Copied ${added} Scout attendee(s) from "${data.workspace?.workspace_title || data.workspace?.badge_name}"!`, "info");
+      showToast(
+        `🔁 Copied ${added} Scout attendee(s) from "${data.workspace?.workspace_title || data.workspace?.badge_name}"!`,
+        "info"
+      );
     } catch (_e) {}
-  });
+  };
+  document.getElementById("select-bluecard-copy-workspace")?.addEventListener("change", handleCopyRosterChange);
+  document.getElementById("bluecard-copy-roster-from-ws-select")?.addEventListener("change", handleCopyRosterChange);
 
   // Portable .bsadeck.json Export & Import
   document.getElementById("btn-export-workspaces-json")?.addEventListener("click", () => {
-    const blob = new Blob([JSON.stringify({ exported_at: new Date().toISOString(), favorites: state.favoriteBadges, workspaces: state.savedWorkspaces }, null, 2)], {
-      type: "application/json",
-    });
+    const blob = new Blob(
+      [
+        JSON.stringify(
+          {
+            exported_at: new Date().toISOString(),
+            favorites: state.favoriteBadges,
+            workspaces: state.savedWorkspaces,
+          },
+          null,
+          2
+        ),
+      ],
+      { type: "application/json" }
+    );
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = `scouts_bsa_workbench_decks_${new Date().toISOString().slice(0, 10)}.bsadeck.json`;

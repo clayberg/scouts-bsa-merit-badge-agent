@@ -3548,6 +3548,7 @@ async def api_admin_reset_circuit_breakers(
 class TemplateImportUrlRequest(BaseModel):
     url: str = Field(..., description="HTTP/HTTPS URL to a .pptx, .ppt, or background image template.")
     custom_name: Optional[str] = Field(None, description="Optional display title for the imported template.")
+    name: Optional[str] = Field(None, description="Optional alias for custom_name.")
     bottom_safe_in: float = Field(6.55, description="Safe bottom coordinate in inches (5.80..6.95).")
 
 
@@ -3599,7 +3600,7 @@ async def api_upload_powerpoint_template(
     if "application/json" in ctype:
         body = await request.json()
         filename = str(body.get("filename") or "custom_template.pptx")
-        custom_name = body.get("custom_name")
+        custom_name = body.get("custom_name") or body.get("name")
         bottom_safe_in = float(body.get("bottom_safe_in", 6.55))
         b64_str = str(body.get("data_base64") or "").strip()
         if "," in b64_str:
@@ -3611,8 +3612,8 @@ async def api_upload_powerpoint_template(
         if up_file is not None and hasattr(up_file, "read"):
             raw_bytes = await up_file.read()
             filename = getattr(up_file, "filename", None) or filename
-        if form.get("custom_name"):
-            custom_name = str(form.get("custom_name"))
+        if form.get("custom_name") or form.get("name"):
+            custom_name = str(form.get("custom_name") or form.get("name"))
         if form.get("bottom_safe_in"):
             bottom_safe_in = float(form.get("bottom_safe_in"))
 
@@ -3650,7 +3651,7 @@ async def api_import_template_from_url(
         profile = await asyncio.to_thread(
             ingest_template_from_url,
             url=req.url,
-            custom_name=req.custom_name,
+            custom_name=req.custom_name or req.name,
             bottom_safe_in=req.bottom_safe_in,
         )
     except Exception as exc:
@@ -3782,6 +3783,7 @@ class WorkspaceSaveRequest(BaseModel):
     template_id: str = "default_workbench"
     counselor_info: Dict[str, Any] = Field(default_factory=dict)
     deck_result: Dict[str, Any] = Field(default_factory=dict)
+    deck_payload: Optional[Dict[str, Any]] = None
     blue_card_roster: Dict[str, Any] = Field(default_factory=dict)
     class_prep: Dict[str, Any] = Field(default_factory=dict)
     local_grounding: Dict[str, Any] = Field(default_factory=dict)
@@ -3791,6 +3793,7 @@ class WorkspaceSaveRequest(BaseModel):
     scout_count: int = 0
     is_pinned: bool = True
     is_archived: bool = False
+    force_new: bool = False
 
 
 class WorkspaceCloneRequest(BaseModel):
@@ -3798,6 +3801,7 @@ class WorkspaceCloneRequest(BaseModel):
     session_label: Optional[str] = None
     camp_bundle_tag: Optional[str] = None
     copy_roster: bool = False
+    clear_blue_card_roster: Optional[bool] = None
 
 
 class FavoriteToggleRequest(BaseModel):

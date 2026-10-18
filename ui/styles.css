@@ -7191,6 +7191,140 @@ body.m3-dark-mode .m3-workspace-metric-badge {
   display: none !important;
 }
 
+/* 10. Quick-Select Badge Pills (.m3-badge-pill) Dark Mode & Alias Parity */
+.m3-quick-badge-chip {
+  padding: 5px 11px;
+  border-radius: var(--md-sys-shape-corner-pill);
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--md-sys-color-surface-container-low);
+  color: var(--md-sys-color-on-surface);
+  border: 1px solid var(--md-sys-color-outline);
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.m3-quick-badge-chip:hover,
+.m3-quick-badge-chip.active {
+  background: var(--md-sys-color-primary);
+  color: #FFFFFF;
+  border-color: var(--md-sys-color-primary);
+}
+
+body.m3-dark-mode .m3-badge-pill,
+body.m3-dark-mode .m3-quick-badge-chip {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-badge-pill:hover,
+body.m3-dark-mode .m3-quick-badge-chip:hover {
+  background: #334155 !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-badge-pill.active,
+body.m3-dark-mode .m3-quick-badge-chip.active {
+  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35) !important;
+}
+
+/* 11. Material 3 File Input & "Choose File" Button (#template-upload-file-input) */
+input[type="file"].m3-input {
+  padding: 4px 8px !important;
+  font-size: 0.74rem !important;
+  line-height: 1.4;
+  cursor: pointer;
+  color: #334155;
+  background: #FFFFFF;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 8px;
+}
+
+input[type="file"].m3-input::file-selector-button,
+input[type="file"].m3-input::-webkit-file-upload-button {
+  margin-right: 10px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid #93C5FD;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+  color: #003F87;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+input[type="file"].m3-input::file-selector-button:hover,
+input[type="file"].m3-input::-webkit-file-upload-button:hover {
+  background: linear-gradient(135deg, #003F87 0%, #1D4ED8 100%);
+  border-color: #003F87;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode input[type="file"].m3-input {
+  background: #0F172A !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode input[type="file"].m3-input::file-selector-button,
+body.m3-dark-mode input[type="file"].m3-input::-webkit-file-upload-button {
+  background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 100%) !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode input[type="file"].m3-input::file-selector-button:hover,
+body.m3-dark-mode input[type="file"].m3-input::-webkit-file-upload-button:hover {
+  background: linear-gradient(135deg, #2563EB 0%, #3B82F6 100%) !important;
+  border-color: #93C5FD !important;
+  color: #FFFFFF !important;
+}
+
+/* 12. Button Class Aliases (.m3-primary-btn / .m3-tonal-btn) */
+.m3-primary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 999px;
+  border: 1px solid #003F87;
+  background: linear-gradient(135deg, #003F87 0%, #0F294A 100%);
+  color: #FFFFFF;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.m3-tonal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 999px;
+  border: 1px solid #CBD5E1;
+  background: #F1F5F9;
+  color: #0F172A;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+body.m3-dark-mode .m3-tonal-btn {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
+}
+
+
 
 
 
