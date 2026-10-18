@@ -4,7 +4,9 @@
     "enforce_two_deep_leadership": true,
     "enforce_no_one_on_one_contact": true,
     "enforce_buddy_system": true,
-    "enforce_guide_to_safe_scouting": true
+    "enforce_guide_to_safe_scouting": true,
+    "block_nudity_nsfw_and_inappropriate_youth_imagery": true,
+    "block_substance_abuse_hazing_and_violence": true
   },
   "dlp_pii_scrubbing": {
     "redact_counselor_email_before_telemetry_sink": true,

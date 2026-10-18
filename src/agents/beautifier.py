@@ -836,9 +836,9 @@ def beautify_slide_storyboard(
                 "first_aid_req_15_topic_visual.png",
             ):
                 _topic_override_caps = {
-                    "first_aid_req_12_topic_visual.png": "Four-panel Mental Health First Aid showing noticing a distressed peer, Two-Deep supportive listening, calm breathing reassurance, and connecting with an adult leader.",
-                    "first_aid_req_14_topic_visual.png": "Four-panel BSA EDGE First Aid instruction showing explaining anatomy on a chart, demonstrating forearm splinting, guiding cravat practice, and enabling independent care.",
-                    "first_aid_req_15_topic_visual.png": "(Left) Scout interviewing an EMS paramedic by an ambulance; (Center) Wilderness mountain rescue litter team; (Right) ER nurse and physician mentoring a Scout.",
+                    "first_aid_req_12_topic_visual.png": "Scouts practicing Mental Health First Aid by noticing a distressed peer, listening with Two-Deep leadership, guiding slow breathing, and connecting with an adult leader.",
+                    "first_aid_req_14_topic_visual.png": "Older Scout instructor teaching forearm splinting using the BSA EDGE method by explaining on a chart, demonstrating, guiding cravat practice, and enabling independent care.",
+                    "first_aid_req_15_topic_visual.png": "Uniformed Scout interviewing an EMS paramedic beside an ambulance, a wilderness rescue litter team on a mountain trail, and an ER nurse and physician mentoring a Scout.",
                 }
                 slide["visual_caption"] = _topic_override_caps[cur_diag_fname]
             elif "ai_illustrations" in str(cur_diag):
@@ -923,36 +923,12 @@ def beautify_slide_storyboard(
             raw_vc_final = _ensure_complete_caption_sentence(raw_vc_final, max_chars=125)
             norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
 
-            overlaps_bullet = False
-            adj_slides = [slide] + ([slides[idx - 1]] if idx >= 1 else [])
-            for adj_s in adj_slides:
-                for b_item in adj_s.get("bullet_points") or []:
-                    norm_b = _re.sub(r"[^a-z0-9]+", " ", str(b_item).lower()).strip()
-                    if norm_b and (norm_vc == norm_b or (len(norm_vc) > 35 and norm_vc[:45] in norm_b)):
-                        overlaps_bullet = True
-                        break
-                if overlaps_bullet:
-                    break
-
-            if not norm_vc or norm_vc in seen_visual_captions or overlaps_bullet:
-                clean_t = strip_pamphlet_and_req_caption_prefixes(title, badge_name).replace(":", " — ").strip(" .,-—")
-                clean_t = _re.sub(r"\s*—\s*(?:Core Principles & Field Reference|Field Visual & Key Principles)$", "", clean_t, flags=_re.IGNORECASE).strip()
-                if is_req_lead_slide:
-                    alt_cap = f"Scout and counselor field illustration for {clean_t} demonstrating Requirement {req_num} skills."
-                elif "topic_visual" in str(slide.get("diagram_path") or ""):
-                    alt_cap = f"Four-panel instructional breakdown of {clean_t} for Requirement {req_num} field practice."
-                else:
-                    alt_cap = f"Official {badge_name} field visual illustrating {clean_t} for Requirement {req_num}."
-                alt_cap = _ensure_complete_caption_sentence(alt_cap.replace(":", ""), max_chars=125)
-                norm_alt = _re.sub(r"[^a-z0-9]+", " ", alt_cap.lower()).strip()
-                if norm_alt in seen_visual_captions:
-                    alt_cap = _ensure_complete_caption_sentence(
-                        f"Field reference for {clean_t} on Slide {idx + 2} supporting Requirement {req_num} review.",
-                        max_chars=125,
-                    )
-                    norm_alt = _re.sub(r"[^a-z0-9]+", " ", alt_cap.lower()).strip()
-                raw_vc_final = alt_cap
-                norm_vc = norm_alt
+            if not norm_vc:
+                clean_t = strip_pamphlet_and_req_caption_prefixes(title, badge_name).replace(":", " - ").strip(" .,-—")
+                clean_t = _re.sub(r"\s*[—\-]\s*(?:Core Principles & Field Reference|Field Visual & Key Principles)$", "", clean_t, flags=_re.IGNORECASE).strip()
+                alt_cap = f"Uniformed Scouts demonstrating {clean_t} skills during {badge_name} field practice."
+                raw_vc_final = _ensure_complete_caption_sentence(alt_cap.replace(":", ""), max_chars=125)
+                norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
 
             seen_visual_captions.add(norm_vc)
             slide["visual_caption"] = raw_vc_final

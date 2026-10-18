@@ -5632,3 +5632,111 @@ body.m3-dark-mode :is(#panel-admin, #panel-studiokit, #panel-triage, #understage
   color: #93C5FD !important;
 }
 
+/* 9. Dark Mode for Model Armor / Safety Blocked Alert inside Nano Banana FinOps Banner */
+body.m3-dark-mode #studio-ai-cost-banner .m3-studio-ai-blocked-alert,
+body.m3-dark-mode .m3-studio-ai-blocked-alert {
+  background: #3B1219 !important;
+  border-color: #F87171 !important;
+  color: #FECACA !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+body.m3-dark-mode #studio-ai-cost-banner .m3-studio-ai-blocked-alert .m3-studio-ai-blocked-title,
+body.m3-dark-mode .m3-studio-ai-blocked-alert .m3-studio-ai-blocked-title {
+  color: #FCA5A5 !important;
+}
+
+body.m3-dark-mode #studio-ai-cost-banner .m3-studio-ai-blocked-alert .m3-studio-ai-blocked-rem,
+body.m3-dark-mode .m3-studio-ai-blocked-alert .m3-studio-ai-blocked-rem {
+  color: #FECACA !important;
+}
+
+body.m3-dark-mode #studio-ai-cost-banner .m3-studio-ai-success-msg {
+  color: #86EFAC !important;
+}
+
+body.m3-dark-mode #studio-ai-include-slide-context-label {
+  color: #93C5FD !important;
+}
+
+/* 10. Dark Mode for Interactive Construction Animation Showcase Header & Footer (image viewport unchanged) */
+body.m3-dark-mode .m3-construction-stage,
+body.m3-dark-mode #slide-construction-stage {
+  background: linear-gradient(180deg, #0F172A 0%, #1E293B 100%) !important;
+  border-color: #334155 !important;
+  box-shadow: 0 18px 44px rgba(2, 6, 23, 0.65) !important;
+}
+
+body.m3-dark-mode .m3-construction-topbar {
+  background: #0F172A !important;
+  border-bottom-color: #334155 !important;
+}
+
+body.m3-dark-mode #construction-stage-heading {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-construction-concept-switcher {
+  background: #1E293B !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-construction-concept-btn {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-construction-concept-btn:hover {
+  background: rgba(59, 130, 246, 0.16) !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-construction-concept-btn.active {
+  background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.45) !important;
+}
+
+body.m3-dark-mode .m3-construction-topbar #btn-construction-toggle-play,
+body.m3-dark-mode .m3-construction-topbar #btn-close-construction-stage {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-construction-topbar #btn-construction-toggle-play:hover,
+body.m3-dark-mode .m3-construction-topbar #btn-close-construction-stage:hover {
+  background: #334155 !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-construction-footer {
+  background: #0F172A !important;
+  border-top-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-construction-step-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-construction-step-desc {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-construction-dot {
+  background: #334155 !important;
+  border-color: #475569 !important;
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-construction-dot:hover {
+  background: #475569 !important;
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-construction-dot.active {
+  background: #2563EB !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+

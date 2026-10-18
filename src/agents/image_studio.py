@@ -607,17 +607,13 @@ def seed_badge_image_catalog_from_storyboard(
             sk = _canonical_stem_key(canonical_p)
             if sk not in by_stem:
                 cap = str(slide.get("original_visual_caption") or slide.get("visual_caption") or s_title)
-                desc = (
-                    f"Official figure for Requirement {req_num} ({s_title}). "
-                    f"{bullet_summary or 'Illustrates key concepts and field techniques from the BSA Merit Badge Pamphlet.'}"
-                )
                 entry = {
                     "image_id": hashlib.sha256(f"{badge_name}:{canonical_p}".encode("utf-8")).hexdigest()[:14],
                     "badge_name": badge_name,
                     "req_number": req_num,
                     "slide_title": s_title,
                     "title": cap[:68],
-                    "description": desc,
+                    "description": cap,
                     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
                     "source_label": "📐 Official Pamphlet / Topic Figure",
                     "image_path": canonical_p,
@@ -633,31 +629,21 @@ def seed_badge_image_catalog_from_storyboard(
             abs_hero = os.path.abspath(str(ai_hero))
             sk_hero = _canonical_stem_key(abs_hero)
             slide_cap = str(slide.get("visual_caption") or s_title)
-            if sk_hero not in by_stem or abs_hero.endswith("_nano_hero.png"):
-                if abs_hero.endswith("_nano_hero.png"):
-                    cfg_hero = resolve_content_aware_visual_config(
-                        badge_name=badge_name,
-                        slide_title=s_title,
-                        req_number=req_num,
-                        bullet_points=slide.get("bullet_points") or [],
-                    )
-                    eff_st = cfg_hero["effective_style"]
-                    hum_lbl = "Uniformed Scouts" if cfg_hero["include_humans"] else "Pure Equipment / Environment"
+            if sk_hero not in by_stem:
+                is_hero_file = abs_hero.endswith("_nano_hero.png") or "/ai_illustrations/" in abs_hero.replace("\\", "/")
+                if is_hero_file:
                     entry = {
                         "image_id": hashlib.sha256(f"{badge_name}:{abs_hero}".encode("utf-8")).hexdigest()[:14],
                         "badge_name": badge_name,
                         "req_number": req_num,
                         "slide_title": s_title,
                         "title": s_title[:68],
-                        "description": slide_cap or (
-                            f"Context-grounded Nano Banana ({eff_st} • {hum_lbl}) hero graphic for "
-                            f"Requirement {req_num} ({s_title})."
-                        ),
-                        "source_type": "NANO_BANANA_HERO",
-                        "source_label": "🍌 Nano Banana Hero",
+                        "description": slide_cap,
+                        "source_type": "NANO_BANANA_HERO" if abs_hero.endswith("_nano_hero.png") else "NANO_BANANA_AI",
+                        "source_label": "🍌 Nano Banana Hero" if abs_hero.endswith("_nano_hero.png") else "🍌 Nano Banana Visual",
                         "image_path": abs_hero,
                         "image_url": _to_web_asset_url(abs_hero),
-                        "custom_prompt": cfg_hero["enriched_subject"],
+                        "custom_prompt": "",
                         "is_alternate": False,
                         "alternate_rank": 0,
                         "caption": slide_cap,
@@ -668,11 +654,8 @@ def seed_badge_image_catalog_from_storyboard(
                         "badge_name": badge_name,
                         "req_number": req_num,
                         "slide_title": s_title,
-                        "title": f"EDGE Skill Concept Map: {s_title}"[:68],
-                        "description": slide_cap or (
-                            f"220-DPI BSA EDGE Method concept map for Requirement {req_num} ({s_title}) "
-                            f"featuring the {badge_name} emblem and 4 key teaching pillars."
-                        ),
+                        "title": s_title[:68],
+                        "description": slide_cap,
                         "source_type": "EDGE_CONCEPT_MAP",
                         "source_label": "✨ EDGE Skill Concept Map",
                         "image_path": abs_hero,
@@ -732,6 +715,49 @@ def seed_badge_image_catalog_from_storyboard(
                     "alternate_rank": alt_rank,
                     "caption": v_cap,
                 }
+    except Exception:
+        pass
+
+    try:
+        nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
+        if nano_cat_path.exists():
+            nano_cat = json.loads(nano_cat_path.read_text(encoding="utf-8"))
+            slug = _badge_slug(badge_name)
+            for nb_fname, nb_meta in nano_cat.items():
+                if not nb_fname.startswith(f"{slug}_"):
+                    continue
+                cand_nb = ASSETS_DIR / "ai_illustrations" / nb_fname
+                if not cand_nb.exists():
+                    continue
+                abs_nb = os.path.abspath(str(cand_nb))
+                sk_nb = _canonical_stem_key(abs_nb)
+                req_n = str(nb_meta.get("req_number") or "1")
+                nb_title = str(nb_meta.get("topic") or nb_meta.get("title") or f"{badge_name} Req {req_n} Illustration")[:68]
+                nb_cap = str(nb_meta.get("caption") or nb_title)
+                if sk_nb in by_stem:
+                    by_stem[sk_nb]["title"] = nb_title
+                    by_stem[sk_nb]["slide_title"] = nb_title
+                    by_stem[sk_nb]["description"] = nb_cap
+                    by_stem[sk_nb]["caption"] = nb_cap
+                    by_stem[sk_nb]["source_type"] = "NANO_BANANA_HERO" if nb_fname.endswith("_nano_hero.png") else "NANO_BANANA_AI"
+                    by_stem[sk_nb]["source_label"] = "🍌 Nano Banana Hero" if nb_fname.endswith("_nano_hero.png") else "🍌 Nano Banana Visual"
+                else:
+                    by_stem[sk_nb] = {
+                        "image_id": hashlib.sha256(f"{badge_name}:{abs_nb}".encode("utf-8")).hexdigest()[:14],
+                        "badge_name": badge_name,
+                        "req_number": req_n,
+                        "slide_title": nb_title,
+                        "title": nb_title,
+                        "description": nb_cap,
+                        "source_type": "NANO_BANANA_HERO",
+                        "source_label": "🍌 Nano Banana Hero" if nb_fname.endswith("_nano_hero.png") else "🍌 Nano Banana Visual",
+                        "image_path": abs_nb,
+                        "image_url": _to_web_asset_url(abs_nb),
+                        "custom_prompt": "",
+                        "is_alternate": False,
+                        "alternate_rank": 0,
+                        "caption": nb_cap,
+                    }
     except Exception:
         pass
 
@@ -1453,12 +1479,15 @@ def _extract_visual_subject_from_prompt(
     slide_title: str,
     custom_prompt: str,
     bullet_points: Optional[List[str]] = None,
+    include_slide_context: bool = True,
 ) -> str:
     """Translates `custom_prompt` or `slide_title` + `bullet_points` into a concrete, vivid visual scene description.
 
     Strips meta-instructions and slide boilerplate (`: Core Concepts & Definitions`, `, Illustrated`, etc.)
     and expands Scouting/First Aid shorthand (like `'The five-and-five (5 back blows'`) into unambiguous
     visual subjects that image generators and visual verifiers can accurately depict.
+    When `include_slide_context=False`, uses only `custom_prompt` without injecting `slide_title`,
+    `bullet_points`, or `badge_name` topic expansions.
     """
     raw = (custom_prompt or "").strip()
     # Strip legacy meta-instruction prefixes
@@ -1492,15 +1521,24 @@ def _extract_visual_subject_from_prompt(
     )
     if was_auto_wrapper:
         core_candidate = re.sub(r"\s+outdoors$", "", core_candidate, flags=re.IGNORECASE).strip()
-    clean_title = clean_slide_topic_boilerplate(slide_title or "")
+    clean_title = clean_slide_topic_boilerplate(slide_title or "") if include_slide_context else ""
 
-    # If the user typed a genuinely custom subject (different from the slide title), check if it matches any shorthand expansion first
-    probe_text = f"{core_candidate} {clean_title}".lower() if (not cleaned or core_candidate.lower() == clean_title.lower()) else core_candidate.lower()
+    # If user unchecked "Include slide context" and typed a prompt, return their cleaned prompt directly
+    if not include_slide_context and cleaned:
+        return core_candidate[:240] if was_auto_wrapper else cleaned[:240]
+
+    # If the user typed a genuinely custom subject (different from the slide title), preserve their explicit subject
+    # unless it is a shorthand medical/badge term from the slide title itself.
+    if cleaned and not was_auto_wrapper and core_candidate.lower() != clean_title.lower():
+        if "five-and-five" in core_candidate.lower() or "5 back blows" in core_candidate.lower():
+            for triggers, expanded_scene, _ in CONCEPT_VISUAL_EXPANSIONS:
+                if any(t in core_candidate.lower() for t in triggers):
+                    return expanded_scene
+        return cleaned[:240]
+
+    probe_text = f"{core_candidate} {clean_title}".lower()
     for triggers, expanded_scene, _ in CONCEPT_VISUAL_EXPANSIONS:
         if any(t in probe_text for t in triggers):
-            # If the user typed a custom prompt that already has extra detail, preserve it unless it was auto-generated from the slide title
-            if cleaned and not was_auto_wrapper and core_candidate.lower() != clean_title.lower() and len(core_candidate.split()) >= 5 and "five-and-five" not in core_candidate.lower():
-                return cleaned[:240]
             return expanded_scene
 
     if cleaned and core_candidate.lower() != clean_title.lower():
@@ -1508,7 +1546,7 @@ def _extract_visual_subject_from_prompt(
 
     # Build a concrete scene from the cleaned slide title + first bullet point
     first_bullet = ""
-    if bullet_points:
+    if include_slide_context and bullet_points:
         b0 = clean_slide_topic_boilerplate(str(bullet_points[0]).strip())
         first_bullet = b0.split(":", 1)[-1].strip() if ":" in b0 else b0
     if clean_title and first_bullet:
@@ -1573,6 +1611,24 @@ def estimate_nano_banana_image_cost(
     plus post-generation prompt & style alignment verification (`verify_generated_image_matches_prompt`).
     """
     raw_style = style_preset or visual_style or "Auto (Content-Aware Mix)"
+    inc_slide_ctx = kwargs.get("include_slide_context", True)
+    if isinstance(inc_slide_ctx, str):
+        inc_slide_ctx = inc_slide_ctx.strip().lower() not in ("false", "0", "no", "off")
+    else:
+        inc_slide_ctx = bool(inc_slide_ctx)
+
+    armor = sanitize_text_with_model_armor(f"{badge_name} {slide_title if inc_slide_ctx else ''} {custom_prompt}", direction="INPUT")
+    if not armor["allowed"]:
+        return build_guided_tool_error(
+            error_code="NANO_BANANA_PROMPT_BLOCKED",
+            message=armor.get("remediation") or "Custom image prompt blocked by Youth Protection / Model Armor guardrail.",
+            remediation=armor.get("remediation") or "Use safe, educational Scouting descriptions.",
+            details={
+                "policy_name": armor.get("policy_name"),
+                "violations": armor.get("violations", []),
+            },
+        )
+
     resolved_cfg = resolve_content_aware_visual_config(
         badge_name=badge_name or "Merit Badge",
         slide_title=slide_title or "",
@@ -1581,6 +1637,7 @@ def estimate_nano_banana_image_cost(
         custom_prompt=custom_prompt or "",
         visual_style=raw_style,
         include_humans=kwargs.get("include_humans", "auto"),
+        include_slide_context=inc_slide_ctx,
     )
     eff_style = resolved_cfg["effective_style"]
     n_imgs = max(1, min(4, int(num_images or 1)))
@@ -2037,6 +2094,7 @@ def resolve_content_aware_visual_config(
     custom_prompt: str = "",
     visual_style: str = "Auto (Content-Aware Mix)",
     include_humans: Optional[Any] = "auto",
+    include_slide_context: bool = True,
 ) -> Dict[str, Any]:
     """Content-Aware Hybrid Mix router for Nano Banana illustrations and hero graphics.
 
@@ -2048,21 +2106,28 @@ def resolve_content_aware_visual_config(
        - `'UNIFORMED_FIELD_ACTION'` (`default_include_humans=True`, `recommended_style='Photorealistic Image'`)
     2. `effective_style`: Uses `recommended_style` when `visual_style` is `'Auto...'`, or preserves explicit style selection.
     3. `include_humans`: Uses `default_include_humans` when `include_humans` is `'auto'`/`None`, or honors explicit `True`/`False`.
-    4. `enriched_subject`: Context-grounded visual scene description incorporating slide title and bullet points.
+    4. `include_slide_context`: When `True` (default), augments the prompt with slide title & bullet points; when `False`,
+       omits slide title and bullet points while still enforcing the Scouting uniform directive when `include_humans=True`.
+    5. `enriched_subject`: Context-grounded visual scene description.
     """
-    clean_title = clean_slide_topic_boilerplate(slide_title or "")
+    clean_title = clean_slide_topic_boilerplate(slide_title or "") if include_slide_context else ""
     bps_clean: List[str] = []
-    for raw_b in (bullet_points or [])[:4]:
-        cb = clean_slide_topic_boilerplate(str(raw_b).strip())
-        if ":" in cb:
-            head, tail = cb.split(":", 1)
-            cb = f"{head.strip()} ({tail.strip()[:55]})" if len(head.strip()) < 28 else head.strip()
-        if cb:
-            bps_clean.append(cb[:75])
+    if include_slide_context:
+        for raw_b in (bullet_points or [])[:4]:
+            cb = clean_slide_topic_boilerplate(str(raw_b).strip())
+            if ":" in cb:
+                head, tail = cb.split(":", 1)
+                cb = f"{head.strip()} ({tail.strip()[:55]})" if len(head.strip()) < 28 else head.strip()
+            if cb:
+                bps_clean.append(cb[:75])
 
-    title_prompt_lower = f"{clean_title} {custom_prompt or ''}".lower()
-    combined_lower = f"{badge_name} {title_prompt_lower} {' '.join(bps_clean)}".lower()
-    req_clean = str(req_number or "1").strip().lower()
+    title_prompt_lower = f"{clean_title} {custom_prompt or ''}".lower().strip()
+    combined_lower = (
+        f"{badge_name} {title_prompt_lower} {' '.join(bps_clean)}".lower()
+        if include_slide_context
+        else title_prompt_lower
+    )
+    req_clean = str(req_number or "1").strip().lower() if include_slide_context else ""
 
     explicit_no_humans_phrases = (
         "no humans", "no people", "without humans", "without people", "zero humans",
@@ -2169,11 +2234,12 @@ def resolve_content_aware_visual_config(
 
     base_subject = _extract_visual_subject_from_prompt(
         badge_name=badge_name,
-        slide_title=slide_title,
+        slide_title=slide_title if include_slide_context else "",
         custom_prompt=custom_prompt,
-        bullet_points=bullet_points,
+        bullet_points=bullet_points if include_slide_context else None,
+        include_slide_context=include_slide_context,
     )
-    bullet_context = "; ".join(bps_clean[:4])
+    bullet_context = "; ".join(bps_clean[:4]) if include_slide_context else ""
 
     if not resolved_humans:
         # Strip human action prefixes so the prompt describes pure equipment, kits, or natural phenomena
@@ -2183,9 +2249,11 @@ def resolve_content_aware_visual_config(
             base_subject,
             flags=re.IGNORECASE,
         ).strip()
-        if not pure_obj or len(pure_obj) < 10:
+        if not pure_obj or len(pure_obj) < 4:
             pure_obj = clean_title or badge_name
-        if any(k in combined_lower for k in ("kit", "essentials", "gear", "packing", "stove", "utensil", "tool", "bandage", "gauze", "splint")):
+        if not include_slide_context:
+            enriched_subject = f"{pure_obj}, depicting only the physical equipment, objects, or natural environment with zero human figures"
+        elif any(k in combined_lower for k in ("kit", "essentials", "gear", "packing", "stove", "utensil", "tool", "bandage", "gauze", "splint")):
             enriched_subject = (
                 f"Overhead knolling equipment flat-lay on a rustic wooden camp table for {badge_name} ({clean_title or pure_obj}), "
                 f"neatly displaying physical supplies and gear ({bullet_context or pure_obj}) with zero human figures, no hands, and no people"
@@ -2203,7 +2271,7 @@ def resolve_content_aware_visual_config(
             f"visually depicting: {bullet_context or base_subject}"
         )
     else:
-        if bullet_context and len(base_subject) < 150 and bullet_context[:30].lower() not in base_subject.lower():
+        if include_slide_context and bullet_context and len(base_subject) < 150 and bullet_context[:30].lower() not in base_subject.lower():
             enriched_subject = f"{base_subject} (illustrating slide concepts: {bullet_context[:160]})"
         else:
             enriched_subject = base_subject
@@ -2213,6 +2281,7 @@ def resolve_content_aware_visual_config(
         "style_source": style_source,
         "include_humans": resolved_humans,
         "humans_source": humans_source,
+        "include_slide_context": include_slide_context,
         "paradigm_category": paradigm_category,
         "routing_reason": routing_reason,
         "enriched_subject": enriched_subject[:380],
@@ -2280,12 +2349,19 @@ def _try_live_ai_image_synthesis(
     )
 
     if include_humans:
-        # Replace youth-specific terms ('Boy Scout') with 'adult Scouts BSA Leader' so Vertex AI's
-        # person_generation safety filter allows rendering human figures while preserving Scouting identity.
+        # Replace youth-specific or generic human terms ('Boy Scout', 'Scouts', 'people', 'persons') with
+        # 'adult Scouts BSA Leaders in tan Scout uniforms' so Vertex AI's person_generation safety filter
+        # allows rendering human figures while ensuring all humans are uniformed Scouters.
         safe_subject = re.sub(
             r"\b(Boy\s+Scouts?|Scouts?)\b(?!\s+BSA)",
-            "adult Scouts BSA Leader",
+            "adult Scouts BSA Leaders",
             visual_subject,
+            flags=re.IGNORECASE,
+        )
+        safe_subject = re.sub(
+            r"\b(people|persons|adults|campers|paddlers|hikers|instructors)\b",
+            "adult Scouts BSA Leaders in tan Scout uniforms",
+            safe_subject,
             flags=re.IGNORECASE,
         )
         subject_directive = (
@@ -2344,6 +2420,11 @@ def _try_live_ai_image_synthesis(
                 parts = getattr(resp, "parts", None) or []
                 if not parts and getattr(resp, "candidates", None):
                     for cand in resp.candidates:
+                        fin_reason = str(getattr(cand, "finish_reason", "") or "").upper()
+                        if any(k in fin_reason for k in ("SAFETY", "PROHIBITED", "BLOCKLIST", "SPII", "IMAGE_SAFETY")):
+                            _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_blocked"] = True
+                            _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_reason"] = f"Blocked by Gemini safety filter ({fin_reason})."
+                            return False
                         if getattr(cand, "content", None) and getattr(cand.content, "parts", None):
                             parts.extend(cand.content.parts)
                 for part in parts:
@@ -2358,8 +2439,18 @@ def _try_live_ai_image_synthesis(
                             _LAST_AI_SYNTHESIS_DIAGNOSTICS["model_used"] = f"{nano_model} ({loc})"
                             _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(f"SUCCESS:{nano_model}@{loc}")
                             return True
+                    part_text = str(getattr(part, "text", "") or "").lower()
+                    if any(w in part_text for w in ("cannot generate", "can't generate", "unable to generate", "safety guidelines", "violates", "inappropriate")):
+                        _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_blocked"] = True
+                        _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_reason"] = "Blocked by Gemini safety policy."
+                        return False
                 _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(f"EMPTY:{nano_model}@{loc}:{modalities}")
             except Exception as exc:
+                err_s = str(exc).lower()
+                if any(w in err_s for w in ("safety", "prohibited", "blocked", "blocklist", "violat")):
+                    _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_blocked"] = True
+                    _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_reason"] = f"Blocked by Vertex AI safety filter: {str(exc)[:120]}"
+                    return False
                 _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(
                     f"ERR:{nano_model}@{loc}:{type(exc).__name__}:{str(exc)[:120]}"
                 )
@@ -2399,6 +2490,11 @@ def _try_live_ai_image_synthesis(
                         return True
                 _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(f"EMPTY:{img_model}@{default_loc}")
             except Exception as exc:
+                err_s = str(exc).lower()
+                if any(w in err_s for w in ("safety", "prohibited", "blocked", "blocklist", "violat", "filtered")):
+                    _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_blocked"] = True
+                    _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_reason"] = f"Blocked by Imagen safety filter: {str(exc)[:120]}"
+                    return False
                 _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(
                     f"ERR:{img_model}@{default_loc}:{type(exc).__name__}:{str(exc)[:120]}"
                 )
@@ -2428,6 +2524,7 @@ def _try_live_ai_image_synthesis(
                         "custom_prompt": bridged_prompt,
                         "visual_style": visual_style,
                         "include_humans": include_humans,
+                        "include_slide_context": False,
                         "user_consented": True,
                     }
                 ).encode("utf-8")
@@ -2439,6 +2536,12 @@ def _try_live_ai_image_synthesis(
                 )
                 with urllib.request.urlopen(req, timeout=60) as resp:
                     remote_data = json.loads(resp.read().decode("utf-8"))
+                if remote_data.get("error_code") == "NANO_BANANA_PROMPT_BLOCKED" or remote_data.get("status") == "ERROR":
+                    _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_blocked"] = True
+                    _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_reason"] = str(
+                        remote_data.get("remediation") or remote_data.get("message") or "Blocked by Model Armor / Safety Policy."
+                    )
+                    return False
                 remote_img_url = remote_data.get("image_url") or ""
                 remote_source = (remote_data.get("prompt_alignment") or {}).get("candidate_source", "")
                 if remote_img_url and remote_source in ("LIVE_AI_DIFFUSION", "CACHED_NANO_BANANA"):
@@ -2463,6 +2566,19 @@ def _try_live_ai_image_synthesis(
                         _LAST_AI_SYNTHESIS_DIAGNOSTICS["model_used"] = remote_model
                         _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append("SUCCESS:cloud-run-vertex-bridge")
                         return True
+                elif remote_source == "SUBJECT_GROUNDED_STYLE_SYNTHESIS":
+                    # Remote Cloud Run failed Gemini/Imagen safety check and fell back to Wikimedia; treat as blocked if custom prompt was rejected
+                    _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append("REMOTE_FELL_BACK_TO_WIKIMEDIA")
+            except urllib.error.HTTPError as http_exc:
+                try:
+                    err_body = http_exc.read().decode("utf-8", errors="ignore")
+                    if "NANO_BANANA_PROMPT_BLOCKED" in err_body or "SAFETY" in err_body.upper():
+                        _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_blocked"] = True
+                        _LAST_AI_SYNTHESIS_DIAGNOSTICS["safety_reason"] = "Blocked by Model Armor / Youth Protection guardrail."
+                        return False
+                except Exception:
+                    pass
+                _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(f"ERR:cloud-run-bridge:HTTP_{http_exc.code}")
             except Exception as exc:
                 _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"].append(
                     f"ERR:cloud-run-bridge:{type(exc).__name__}:{str(exc)[:100]}"
@@ -2470,6 +2586,117 @@ def _try_live_ai_image_synthesis(
                 logger.info("Local-to-Cloud-Run Vertex AI bridge skipped: %s", exc)
 
     return False
+
+
+def _generate_clean_visual_caption_for_nano_image(
+    out_path: Path,
+    custom_prompt: str,
+    base_subject: str,
+    slide_title: str,
+    badge_name: str,
+    include_humans: bool,
+    include_slide_context: bool,
+) -> Tuple[str, str]:
+    """Generates a natural Title Case title and 1-sentence visual caption describing what is seen in the image.
+
+    Attempts Gemini 2.5 Flash Vision inspection first; falls back to synthesizing a natural, complete
+    visual sentence from the scene subject without dumping raw prompt syntax or meta-labels.
+    """
+    # 1. Try live Gemini 2.5 Flash Vision inspection if credentials are available
+    if out_path.exists() and not os.getenv("PYTEST_CURRENT_TEST"):
+        client = _get_genai_client()
+        if client is not None:
+            try:
+                from google.genai import types  # type: ignore
+
+                img_bytes = out_path.read_bytes()
+                v_prompt = (
+                    "Inspect this Scouting illustration and return JSON with two keys: "
+                    "\"title\" (3 to 6 word Title Case name of what is visibly shown, no colons) and "
+                    "\"caption\" (ONE complete, natural sentence of 12 to 22 words describing specifically what is "
+                    "visibly happening or depicted in the image). Never start with 'This image shows', 'Illustration of', "
+                    "or 'Custom', and never include colons."
+                )
+                resp = client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=[
+                        types.Part.from_bytes(data=img_bytes, mime_type="image/png"),
+                        v_prompt,
+                    ],
+                )
+                txt = (resp.text or "").strip()
+                m_j = re.search(r"\{.*\}", txt, flags=re.DOTALL)
+                if m_j:
+                    parsed = json.loads(m_j.group(0))
+                    v_t = str(parsed.get("title") or "").replace(":", "").strip()
+                    v_c = str(parsed.get("caption") or "").replace(":", " - ").strip()
+                    if v_t and v_c and len(v_c) >= 24:
+                        if v_c[-1] not in ".!?":
+                            v_c += "."
+                        return v_t[:68], v_c[:135]
+            except Exception as exc:
+                logger.debug("Nano Banana vision caption fallback used: %s", exc)
+
+    # 2. Deterministic natural visual sentence synthesis (zero meta-prefixes or raw prompt dumps)
+    raw_subj = (custom_prompt or base_subject or "").strip()
+    raw_subj = re.sub(r"\s*\(illustrating slide concepts:.*?\)", "", raw_subj, flags=re.IGNORECASE).strip()
+    raw_subj = re.sub(
+        r"^(Pure equipment or environment only[^:]*:|2x2 four-quadrant visual concept map[^:]*:|Create\s+an?\s+[^:]+:\s*)",
+        "",
+        raw_subj,
+        flags=re.IGNORECASE,
+    ).strip(" .,:;-")
+
+    num_words = {"1": "One", "2": "Two", "3": "Three", "4": "Four", "5": "Five", "6": "Six"}
+    m_num = re.match(r"^([1-6])\s+(.*)$", raw_subj)
+    if m_num:
+        raw_subj = f"{num_words[m_num.group(1)]} {m_num.group(2)}"
+
+    if include_humans:
+        raw_subj = re.sub(
+            r"\b(people|persons|adults|campers|paddlers|hikers)\b",
+            "uniformed Scouts",
+            raw_subj,
+            flags=re.IGNORECASE,
+        )
+        raw_subj = re.sub(
+            r"\b(?<!uniformed\s)scouts\b",
+            "uniformed Scouts",
+            raw_subj,
+            flags=re.IGNORECASE,
+        )
+        raw_subj = re.sub(
+            r"\b(?<!uniformed\s)scout\b",
+            "uniformed Scout",
+            raw_subj,
+            flags=re.IGNORECASE,
+        )
+
+    clean_t = clean_slide_topic_boilerplate(slide_title or "").replace("&", "and").replace(":", "").strip()
+    subj_words = raw_subj.split()
+    title_candidate = " ".join(w.capitalize() if w.lower() not in ("a", "an", "the", "in", "on", "of", "and", "with", "to", "for") or idx == 0 else w.lower() for idx, w in enumerate(subj_words[:7]))
+    title_out = (title_candidate if (not include_slide_context or custom_prompt.strip()) else (clean_t or title_candidate))[:68] or f"{badge_name} Field Illustration"
+
+    if not raw_subj:
+        raw_subj = f"Uniformed Scouts practicing {clean_t or badge_name} skills outdoors"
+
+    sent = raw_subj[0].upper() + raw_subj[1:] if len(raw_subj) > 1 else raw_subj.upper()
+    if include_slide_context and clean_t and clean_t.lower() not in sent.lower() and len(sent) < 75:
+        if include_humans and "uniform" not in sent.lower():
+            sent = f"{sent} in tan Scout field uniforms while practicing {clean_t} for {badge_name}"
+        else:
+            sent = f"{sent} while practicing {clean_t} during {badge_name} field instruction"
+    elif not include_slide_context and len(sent) < 65:
+        if include_humans:
+            if "tan" not in sent.lower() and "necerchief" not in sent.lower():
+                sent = f"{sent} wearing tan Scout field shirts and neckerchiefs in an outdoor setting"
+            else:
+                sent = f"{sent} during an outdoor Scouting activity"
+        else:
+            sent = f"{sent} arranged cleanly in an outdoor Scouting setting"
+
+    sent = re.sub(r"\s+", " ", sent.replace(":", " - ")).strip(" .,:;-") + "."
+    return title_out, sent[:135]
 
 
 def generate_nano_banana_slide_image(
@@ -2484,16 +2711,18 @@ def generate_nano_banana_slide_image(
     user_consented: bool = False,
     style_preset: Optional[str] = None,
     include_humans: Optional[Any] = "auto",
+    include_slide_context: bool = True,
     **kwargs: Any,
 ) -> Dict[str, Any]:
     """Generates and verifies a concept-illustrative AI graphic via `NanoBananaImageAgent` after user cost consent.
 
     Pipeline:
-    1. Resolves content-aware visual style and `include_humans` (`True` -> Adult Scouts BSA Field Uniform directive;
-       `False` -> Zero-Humans / Pure Equipment & Environment directive) via `resolve_content_aware_visual_config`.
-    2. Enforces explicit FinOps cost consent (`$0.08 USD` per image).
-    3. Synthesizes the illustration in the resolved `effective_style`.
-    4. Runs post-generation prompt & style alignment verification (`verify_generated_image_matches_prompt`).
+    1. Resolves content-aware visual style, `include_humans` (`True` -> Adult Scouts BSA Field Uniform directive;
+       `False` -> Zero-Humans / Pure Equipment & Environment directive), and `include_slide_context` via `resolve_content_aware_visual_config`.
+    2. Enforces Youth Protection / Model Armor guardrails BEFORE cost consent or image synthesis.
+    3. Enforces explicit FinOps cost consent (`$0.08 USD` per image).
+    4. Synthesizes the illustration in the resolved `effective_style` and generates a clean visual caption.
+    5. Runs post-generation prompt & style alignment verification (`verify_generated_image_matches_prompt`).
     """
     requested_style = (style_preset or visual_style or "Photorealistic Image").strip()
     if not badge_name or not str(badge_name).strip():
@@ -2501,6 +2730,26 @@ def generate_nano_banana_slide_image(
             error_code="EMPTY_NANO_BANANA_BADGE",
             message="badge_name cannot be empty when generating a custom slide illustration.",
             remediation="Provide a valid Scouts BSA Merit Badge name.",
+        )
+
+    if isinstance(include_slide_context, str):
+        inc_slide_ctx = include_slide_context.strip().lower() not in ("false", "0", "no", "off")
+    else:
+        inc_slide_ctx = bool(include_slide_context)
+
+    armor = sanitize_text_with_model_armor(
+        f"{badge_name} {slide_title if inc_slide_ctx else ''} {custom_prompt}",
+        direction="INPUT",
+    )
+    if not armor["allowed"]:
+        return build_guided_tool_error(
+            error_code="NANO_BANANA_PROMPT_BLOCKED",
+            message=armor.get("remediation") or "Custom image prompt blocked by Youth Protection / Model Armor guardrail.",
+            remediation=armor.get("remediation") or "Use safe, educational Scouting descriptions.",
+            details={
+                "policy_name": armor.get("policy_name"),
+                "violations": armor.get("violations", []),
+            },
         )
 
     resolved_cfg = resolve_content_aware_visual_config(
@@ -2511,6 +2760,7 @@ def generate_nano_banana_slide_image(
         custom_prompt=custom_prompt,
         visual_style=requested_style,
         include_humans=include_humans,
+        include_slide_context=inc_slide_ctx,
     )
     eff_style = resolved_cfg["effective_style"]
     resolved_humans: bool = bool(resolved_cfg["include_humans"])
@@ -2523,7 +2773,12 @@ def generate_nano_banana_slide_image(
         visual_style=eff_style,
         num_images=1,
         req_number=req_number,
+        include_humans=resolved_humans,
+        include_slide_context=inc_slide_ctx,
+        bullet_points=bullet_points,
     )
+    if cost_est.get("status") == "ERROR":
+        return cost_est
 
     if not user_consented:
         return {
@@ -2535,17 +2790,10 @@ def generate_nano_banana_slide_image(
             "message": cost_est["consent_prompt_text"],
         }
 
-    armor = sanitize_text_with_model_armor(f"{badge_name} {slide_title} {custom_prompt}", direction="INPUT")
-    if not armor["allowed"]:
-        return build_guided_tool_error(
-            error_code="NANO_BANANA_PROMPT_BLOCKED",
-            message="Custom image prompt blocked by Youth Protection / Model Armor guardrail.",
-            remediation="Use safe, educational Scouting descriptions.",
-        )
-
     cat_dir = _badge_catalog_dir(badge_name)
     humans_tag = "bsa_uniform" if resolved_humans else "no_humans_gear"
-    seed_str = f"{badge_name}:{req_number}:{slide_title}:{visual_subject}:{eff_style}:{humans_tag}:v3"
+    ctx_tag = "with_ctx" if inc_slide_ctx else "no_ctx"
+    seed_str = f"{badge_name}:{req_number}:{slide_title if inc_slide_ctx else ''}:{visual_subject}:{eff_style}:{humans_tag}:{ctx_tag}:v4"
     img_hash = hashlib.sha256(seed_str.encode("utf-8")).hexdigest()[:12]
     seed_int = int(img_hash[:6], 16) % 99999
     out_path = cat_dir / f"nanobanana_{img_hash}.png"
@@ -2586,6 +2834,26 @@ def generate_nano_banana_slide_image(
             include_humans=resolved_humans,
             badge_name=badge_name,
         )
+        # If Gemini/Imagen or the Cloud Run bridge blocked the prompt for safety, NEVER fall back to Wikimedia!
+        if _LAST_AI_SYNTHESIS_DIAGNOSTICS.get("safety_blocked"):
+            if out_path.exists():
+                try:
+                    out_path.unlink()
+                except Exception:
+                    pass
+            reason_msg = str(
+                _LAST_AI_SYNTHESIS_DIAGNOSTICS.get("safety_reason")
+                or "Blocked by Model Armor policy 'model-armor-scouts-bsa-youth-protection-v2' due to BSA_YOUTH_PROTECTION_OR_SAFETY_VIOLATION."
+            )
+            return build_guided_tool_error(
+                error_code="NANO_BANANA_PROMPT_BLOCKED",
+                message=reason_msg,
+                remediation=(
+                    "Blocked by Model Armor policy 'model-armor-scouts-bsa-youth-protection-v2' due to BSA_YOUTH_PROTECTION_OR_SAFETY_VIOLATION. "
+                    "Remove any inappropriate, unsafe, or non-Scouting content and describe a safe educational Scouting scene."
+                ),
+            )
+
         if synthesized and out_path.exists():
             alignment_report = verify_generated_image_matches_prompt(
                 image_path=str(out_path),
@@ -2603,7 +2871,7 @@ def generate_nano_banana_slide_image(
             wiki_ok = _synthesize_wikimedia_styled_image(
                 visual_subject=visual_subject,
                 badge_name=badge_name,
-                slide_title=slide_title,
+                slide_title=slide_title if inc_slide_ctx else "",
                 visual_style=eff_style,
                 seed_int=seed_int,
                 out_path=out_path,
@@ -2641,18 +2909,19 @@ def generate_nano_banana_slide_image(
     if _LAST_AI_SYNTHESIS_DIAGNOSTICS.get("attempts"):
         alignment_report["ai_synthesis_attempts"] = _LAST_AI_SYNTHESIS_DIAGNOSTICS["attempts"]
     alignment_report["include_humans"] = resolved_humans
+    alignment_report["include_slide_context"] = inc_slide_ctx
     alignment_report["paradigm_category"] = resolved_cfg["paradigm_category"]
     alignment_report["routing_reason"] = resolved_cfg["routing_reason"]
-
     alignment_report["attempts_used"] = max(1, attempts_used)
-    score_pct = int(float(alignment_report.get("alignment_score", 0.92)) * 100)
-    clean_t = clean_slide_topic_boilerplate(slide_title or "")
-    short_subj = visual_subject[:56] + ("..." if len(visual_subject) > 56 else "")
-    humans_badge = "Uniformed Scouts" if resolved_humans else "Equipment/Environment Only"
-    title_out = (clean_t or short_subj)[:68]
-    desc_out = (
-        f"Custom {eff_style} ({humans_badge}) illustrating '{visual_subject[:115]}' "
-        f"for {badge_name} Req {req_number} (Prompt Alignment Verified: {score_pct}%)."
+
+    title_out, desc_out = _generate_clean_visual_caption_for_nano_image(
+        out_path=out_path,
+        custom_prompt=custom_prompt,
+        base_subject=resolved_cfg["base_subject"],
+        slide_title=slide_title,
+        badge_name=badge_name,
+        include_humans=resolved_humans,
+        include_slide_context=inc_slide_ctx,
     )
 
     entry = register_image_in_badge_catalog(
@@ -2664,6 +2933,7 @@ def generate_nano_banana_slide_image(
             "slide_title": slide_title,
             "title": title_out,
             "description": desc_out,
+            "caption": desc_out,
             "source_type": "NANO_BANANA_AI",
             "source_label": "🍌 Nano Banana AI",
             "image_path": str(out_path),
@@ -2946,26 +3216,36 @@ def admin_list_badge_catalog_images(
     except Exception as exc:
         logger.debug("Admin catalog pamphlet scan warning: %s", exc)
 
-    # 3. Nano Banana hero illustrations on disk (`assets/ai_illustrations/<slug>_*_nano_hero.png`)
+    # 3. Nano Banana hero & topic illustrations on disk (`assets/ai_illustrations/<slug>_*.png` + `data/nano_banana_image_catalog.json`)
     try:
         ai_dir = ASSETS_DIR / "ai_illustrations"
+        nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
+        nano_cat = json.loads(nano_cat_path.read_text(encoding="utf-8")) if nano_cat_path.exists() else {}
         if ai_dir.exists():
-            for hero_file in sorted(ai_dir.glob(f"{slug}_*_nano_hero.png")):
+            for hero_file in sorted(ai_dir.glob(f"{slug}_*.png")):
                 abs_h = os.path.abspath(str(hero_file))
                 sk_h = _canonical_stem_key(abs_h)
-                if sk_h not in by_stem:
-                    m_req = re.search(rf"^{re.escape(slug)}_req_([a-z0-9]+)_", hero_file.stem, re.IGNORECASE)
-                    req_n = m_req.group(1) if m_req else "1"
+                nb_meta = nano_cat.get(hero_file.name) or {}
+                m_req = re.search(rf"^{re.escape(slug)}_req_([a-z0-9]+)_", hero_file.stem, re.IGNORECASE)
+                req_n = str(nb_meta.get("req_number") or (m_req.group(1) if m_req else "1"))
+                nb_title = str(nb_meta.get("topic") or nb_meta.get("title") or f"{clean_badge} Req {req_n} Illustration")[:68]
+                nb_cap = str(nb_meta.get("caption") or f"Uniformed Scouts practicing {clean_badge} Requirement {req_n} skills.")
+                if sk_h in by_stem:
+                    by_stem[sk_h]["title"] = nb_title
+                    by_stem[sk_h]["description"] = nb_cap
+                    by_stem[sk_h]["caption"] = nb_cap
+                    by_stem[sk_h]["req_number"] = req_n
+                else:
                     by_stem[sk_h] = {
                         "image_id": hashlib.sha256(f"{clean_badge}:{abs_h}".encode("utf-8")).hexdigest()[:14],
                         "badge_name": clean_badge,
                         "req_number": req_n,
-                        "slide_title": f"{clean_badge} Req {req_n} Hero Illustration",
-                        "title": f"{clean_badge} Req {req_n} Nano Banana Hero",
-                        "description": f"Pre-generated Nano Banana hero illustration for {clean_badge} Requirement {req_n}.",
-                        "caption": f"Nano Banana field illustration for {clean_badge} Requirement {req_n}.",
+                        "slide_title": nb_title,
+                        "title": nb_title,
+                        "description": nb_cap,
+                        "caption": nb_cap,
                         "source_type": "NANO_BANANA_HERO",
-                        "source_label": "🍌 Nano Banana Hero Graphic",
+                        "source_label": "🍌 Nano Banana Hero Graphic" if hero_file.name.endswith("_nano_hero.png") else "🍌 Nano Banana Visual",
                         "image_path": abs_h,
                         "image_url": _to_web_asset_url(abs_h),
                         "custom_prompt": "",
@@ -3142,6 +3422,28 @@ def admin_update_catalog_image_metadata(
                         pass
             except Exception as exc:
                 logger.warning("Failed to update data/pamphlet_image_catalog.json: %s", exc)
+
+        # 3. If backed by data/nano_banana_image_catalog.json, atomically update it and invalidate cache
+        nano_json_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
+        if fname and nano_json_path.exists():
+            try:
+                raw_nb = json.loads(nano_json_path.read_text(encoding="utf-8"))
+                if isinstance(raw_nb, dict) and fname in raw_nb:
+                    nb_ref = raw_nb[fname]
+                    nb_ref["caption"] = matched_item.get("caption", "")
+                    nb_ref["topic"] = matched_item.get("title", "")
+                    nb_ref["req_number"] = matched_item.get("req_number", "1")
+                    tmp_nb = nano_json_path.with_suffix(".json.tmp")
+                    tmp_nb.write_text(json.dumps(raw_nb, indent=2), encoding="utf-8")
+                    os.replace(str(tmp_nb), str(nano_json_path))
+                    try:
+                        import src.agents.beautifier as bf_mod
+
+                        bf_mod._NANO_BANANA_CATALOG_CACHE = None
+                    except Exception:
+                        pass
+            except Exception as exc:
+                logger.warning("Failed to update data/nano_banana_image_catalog.json: %s", exc)
 
         return {
             "status": "SUCCESS",

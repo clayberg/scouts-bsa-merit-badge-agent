@@ -46,8 +46,31 @@ _PROMPT_INJECTION_PATTERNS = [
 
 _UNSAFE_SCOUTING_PATTERNS = [
     re.compile(r"skip\s+(the\s+)?buddy\s+system", re.IGNORECASE),
-    re.compile(r"one[-\s]on[-\s]one\s+private\s+contact\s+with\s+youth", re.IGNORECASE),
+    re.compile(r"one[-\s]on[-\s]one\s+(private\s+)?(contact|meeting|session|tent)\s+(with\s+)?(youth|scout|counselor|adult)", re.IGNORECASE),
+    re.compile(r"one[-\s]on[-\s]one\s+in\s+private", re.IGNORECASE),
     re.compile(r"omit\s+safety\s+warnings", re.IGNORECASE),
+    # Youth Protection & NSFW / Nudity / Sexually Explicit imagery filters
+    re.compile(
+        r"\b(naked|nude|nudity|undressed|unclothed|topless|bottomless|pantsless|"
+        r"without\s+clothes|no\s+clothes|strip\s+naked|stripping\s+clothes|"
+        r"skinny[-\s]?dip\w*|streaking|nsfw|erotic|porn|pornograph\w*|"
+        r"lewd|obscene|sexually\s+explicit|sexual\s+act\w*|having\s+sex|"
+        r"intercourse|genitalia|genitals|lingerie|fetish|molest\w*|grooming)\b",
+        re.IGNORECASE,
+    ),
+    # Substance abuse, underage drinking, smoking/vaping & illicit drugs in Scouting visuals
+    re.compile(
+        r"\b(drinking\s+(beer|alcohol|liquor|vodka|whiskey|tequila|wine)|"
+        r"drunk\s+scouts?|intoxicated\s+scouts?|smoking\s+(a\s+)?(joint|weed|marijuana|cigarette|cigar|bong)|"
+        r"vaping\s+scouts?|cocaine|heroin|methamphetamine|crystal\s+meth|fentanyl)\b",
+        re.IGNORECASE,
+    ),
+    # Hazing, bullying, self-harm, and dangerous prohibited acts
+    re.compile(
+        r"\b(hazing\s+ritual|bullying\s+a\s+scout|self[-\s]harm|suicide|"
+        r"pipe\s+bomb|homemade\s+bomb|pointing\s+a?\s*gun\s+at\s+a?\s*scout)\b",
+        re.IGNORECASE,
+    ),
 ]
 
 

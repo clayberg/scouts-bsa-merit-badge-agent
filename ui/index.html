@@ -1864,10 +1864,16 @@
             <div id="studio-ai-humans-resolved-badge" style="font-weight:600;">
               🧠 <strong>Content-Aware Active:</strong> Analyzing slide context for optimal style &amp; uniform directive...
             </div>
-            <label style="display:flex; align-items:center; gap:6px; font-weight:700; color:#0369A1; cursor:pointer; white-space:nowrap;">
-              <input type="checkbox" id="studio-ai-include-humans-checkbox" checked style="width:15px; height:15px; accent-color:#003F87;" />
-              Include Uniformed Scouts
-            </label>
+            <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+              <label style="display:flex; align-items:center; gap:6px; font-weight:700; color:#0369A1; cursor:pointer; white-space:nowrap;" title="When checked (default), augments your prompt with this slide's title and bullet concepts. Uncheck to generate purely from your prompt with no added slide details.">
+                <input type="checkbox" id="studio-ai-include-slide-context-checkbox" checked style="width:15px; height:15px; accent-color:#003F87;" />
+                Include slide context
+              </label>
+              <label style="display:flex; align-items:center; gap:6px; font-weight:700; color:#0369A1; cursor:pointer; white-space:nowrap;" title="When checked, any humans in the scene are rendered in official Scouts BSA Field Uniforms.">
+                <input type="checkbox" id="studio-ai-include-humans-checkbox" checked style="width:15px; height:15px; accent-color:#003F87;" />
+                Include Uniformed Scouts
+              </label>
+            </div>
           </div>
           <div style="grid-column: 1 / -1;">
             <label class="m3-field-label" for="studio-ai-prompt-input">3. Visual Scene Description (pure visual concept — no text printed on image)</label>

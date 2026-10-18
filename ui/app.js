@@ -4129,13 +4129,15 @@ function cleanSlideTopicBoilerplate(rawTitle) {
   return s.replace(/\s+/g, " ").replace(/^[,:;\-–—\s]+|[,:;\-–—\s]+$/g, "");
 }
 
-function resolveClientSideContentAwareConfig(badgeName, slide, customPrompt = "", styleVal = "Auto (Content-Aware Mix)", humansMode = "auto") {
-  const cleanTitle = cleanSlideTopicBoilerplate(slide?.title || "");
-  const bullets = Array.isArray(slide?.bullet_points) ? slide.bullet_points : [];
+function resolveClientSideContentAwareConfig(badgeName, slide, customPrompt = "", styleVal = "Auto (Content-Aware Mix)", humansMode = "auto", includeSlideContext = true) {
+  const cleanTitle = includeSlideContext ? cleanSlideTopicBoilerplate(slide?.title || "") : "";
+  const bullets = includeSlideContext && Array.isArray(slide?.bullet_points) ? slide.bullet_points : [];
   const bulletText = bullets.slice(0, 4).map((b) => cleanSlideTopicBoilerplate(String(b))).join(" ");
-  const titlePromptLower = `${cleanTitle} ${customPrompt || ""}`.toLowerCase();
-  const combinedLower = `${badgeName || ""} ${titlePromptLower} ${bulletText}`.toLowerCase();
-  const reqClean = String(slide?.req_number || "1").trim().toLowerCase();
+  const titlePromptLower = `${cleanTitle} ${customPrompt || ""}`.toLowerCase().trim();
+  const combinedLower = includeSlideContext
+    ? `${badgeName || ""} ${titlePromptLower} ${bulletText}`.toLowerCase()
+    : titlePromptLower;
+  const reqClean = includeSlideContext ? String(slide?.req_number || "1").trim().toLowerCase() : "";
 
   const noHumansPhrases = [
     "no humans", "no people", "without humans", "without people", "zero humans",
@@ -4275,6 +4277,7 @@ function bindImageStudioModal() {
   const styleSelectEl = document.getElementById("studio-ai-style-select");
   const humansSelectEl = document.getElementById("studio-ai-humans-select");
   const humansCheckboxEl = document.getElementById("studio-ai-include-humans-checkbox");
+  const slideContextCheckboxEl = document.getElementById("studio-ai-include-slide-context-checkbox");
   const resolvedBadgeEl = document.getElementById("studio-ai-humans-resolved-badge");
 
   const closeModal = () => {
@@ -4515,6 +4518,9 @@ function bindImageStudioModal() {
     if (humansSelectEl) {
       humansSelectEl.value = "auto";
     }
+    if (slideContextCheckboxEl) {
+      slideContextCheckboxEl.checked = true;
+    }
     updateNanoBananaContentAwareBanner();
     // Open popup modal immediately so the user gets instant visual feedback
     renderModalCatalogGrid();
@@ -4541,13 +4547,15 @@ function bindImageStudioModal() {
     const slide = slides[state.activeSlideIdx] || {};
     const styleVal = styleSelectEl?.value || "Auto (Content-Aware Mix)";
     const humansMode = humansSelectEl?.value || "auto";
+    const includeSlideCtx = slideContextCheckboxEl ? Boolean(slideContextCheckboxEl.checked) : true;
     const promptVal = document.getElementById("studio-ai-prompt-input")?.value || "";
     const cfg = resolveClientSideContentAwareConfig(
       state.currentResult.badge_name,
       slide,
       promptVal,
       styleVal,
-      humansMode
+      humansMode,
+      includeSlideCtx
     );
     if (humansCheckboxEl) {
       humansCheckboxEl.checked = Boolean(cfg.includeHumans);
@@ -4558,7 +4566,8 @@ function bindImageStudioModal() {
         ? "Adult Scouts BSA Field Uniforms"
         : "Zero Humans (Pure Equipment / Environment)";
       const modeTag = cfg.humansSource === "Explicit Override" ? "Manual Override" : "Auto-Detected";
-      resolvedBadgeEl.innerHTML = `🧠 <strong>${escapeHtml(modeTag)}:</strong> ${directiveIcon} <strong>${escapeHtml(directiveText)}</strong> • Effective Style: <strong>${escapeHtml(cfg.effectiveStyle)}</strong>`;
+      const ctxTag = includeSlideCtx ? "Slide Context: Included" : "Slide Context: Omitted (Prompt Only)";
+      resolvedBadgeEl.innerHTML = `🧠 <strong>${escapeHtml(modeTag)}:</strong> ${directiveIcon} <strong>${escapeHtml(directiveText)}</strong> • Effective Style: <strong>${escapeHtml(cfg.effectiveStyle)}</strong> • <strong>${escapeHtml(ctxTag)}</strong>`;
     }
   };
 
@@ -4574,6 +4583,10 @@ function bindImageStudioModal() {
     if (humansSelectEl) {
       humansSelectEl.value = humansCheckboxEl.checked ? "true" : "false";
     }
+    updateNanoBananaContentAwareBanner();
+  });
+
+  slideContextCheckboxEl?.addEventListener("change", () => {
     updateNanoBananaContentAwareBanner();
   });
 
@@ -4694,13 +4707,15 @@ function bindImageStudioModal() {
     const slide = slides[state.activeSlideIdx] || {};
     const styleVal = document.getElementById("studio-ai-style-select")?.value || "Auto (Content-Aware Mix)";
     const humansMode = document.getElementById("studio-ai-humans-select")?.value || "auto";
+    const includeSlideCtx = slideContextCheckboxEl ? Boolean(slideContextCheckboxEl.checked) : true;
     const customPrompt = document.getElementById("studio-ai-prompt-input")?.value || "";
     const resolvedCfg = resolveClientSideContentAwareConfig(
       state.currentResult.badge_name,
       slide,
       customPrompt,
       styleVal,
-      humansMode
+      humansMode,
+      includeSlideCtx
     );
     const includeHumansPayload = humansMode === "auto" ? "auto" : Boolean(resolvedCfg.includeHumans);
     const statusBox = document.getElementById("studio-ai-consent-msg");
@@ -4723,6 +4738,7 @@ function bindImageStudioModal() {
           custom_prompt: customPrompt,
           visual_style: styleVal,
           include_humans: includeHumansPayload,
+          include_slide_context: includeSlideCtx,
           accent_palette_key: slide.accent_palette_key || "NAVY_GOLD",
           beautification_tier: state.currentResult.beautification_tier || "BEAUTIFIED",
           user_consented: true,
@@ -4739,19 +4755,25 @@ function bindImageStudioModal() {
           await applyCatalogImageToActiveSlide(createdEntry, "custom_image");
           const alignSummary = data.prompt_alignment?.verification_summary || "Prompt alignment verified.";
           if (statusBox) {
-            statusBox.innerHTML = `<span style="color:#166534; font-weight:700;">✅ Generated &amp; verified "${escapeHtml(createdEntry.title)}" ($${Number(data.cost_estimate?.estimated_cost_usd || 0.08).toFixed(2)} USD). ${escapeHtml(alignSummary)}</span>`;
+            statusBox.innerHTML = `<span class="m3-studio-ai-success-msg" style="color:#166534; font-weight:700;">✅ Generated &amp; verified "${escapeHtml(createdEntry.title)}" ($${Number(data.cost_estimate?.estimated_cost_usd || 0.08).toFixed(2)} USD). ${escapeHtml(alignSummary)}</span>`;
           }
           setTimeout(() => closeModal(), 750);
         } else {
           if (statusBox) {
             if (data.error_code === "NANO_BANANA_PROMPT_BLOCKED" || data.status === "ERROR") {
               const codeLbl = escapeHtml(data.error_code || "NANO_BANANA_PROMPT_BLOCKED");
-              const msgLbl = escapeHtml(data.message || "Custom image prompt blocked by Youth Protection / Model Armor guardrail.");
-              const remLbl = escapeHtml(data.remediation || "Use safe, educational Scouting descriptions.");
+              const rawMsg = String(data.message || "Custom image prompt blocked by Youth Protection / Model Armor guardrail.");
+              const rawRem = String(data.remediation || "Use safe, educational Scouting descriptions.");
+              const msgLbl = escapeHtml(rawMsg);
+              const remLbl = escapeHtml(
+                rawRem === rawMsg || rawMsg.includes(rawRem)
+                  ? "Revise the image prompt to describe a safe, Youth Protection-compliant Scouting activity with no personal contact info or inappropriate content."
+                  : rawRem
+              );
               statusBox.innerHTML = `
-                <div style="background:#FEF2F2; border:1.5px solid #DC2626; border-radius:8px; padding:8px 12px; margin-top:4px; color:#991B1B;">
-                  <div style="font-weight:800; font-size:0.84rem;">🛑 [${codeLbl}] ${msgLbl}</div>
-                  <div style="font-size:0.78rem; margin-top:3px; color:#7F1D1D;"><strong>Remediation:</strong> ${remLbl} (Zero image tokens billed: $0.00 USD)</div>
+                <div class="m3-studio-ai-blocked-alert" style="background:#FEF2F2; border:1.5px solid #DC2626; border-radius:8px; padding:10px 12px; margin-top:6px; color:#991B1B;">
+                  <div class="m3-studio-ai-blocked-title" style="font-weight:800; font-size:0.84rem;">🛑 [${codeLbl}] ${msgLbl}</div>
+                  <div class="m3-studio-ai-blocked-rem" style="font-size:0.78rem; margin-top:4px; color:#7F1D1D;"><strong>Remediation:</strong> ${remLbl} (Zero image tokens billed: $0.00 USD)</div>
                 </div>
               `;
             } else {

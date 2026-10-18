@@ -198,6 +198,7 @@ class NanoBananaCostRequest(BaseModel):
     prompt: str = ""
     visual_style: str = "Photorealistic Image"
     include_humans: Optional[Any] = "auto"
+    include_slide_context: bool = True
     num_images: int = Field(1, ge=1, le=4)
 
 
@@ -211,6 +212,7 @@ class NanoBananaGenerateRequest(BaseModel):
     bullet_points: List[str] = Field(default_factory=list)
     visual_style: str = "Photorealistic Image"
     include_humans: Optional[Any] = "auto"
+    include_slide_context: bool = True
     accent_palette_key: str = "NAVY_GOLD"
     beautification_tier: str = "STUDIO"
     user_consented: bool = False
@@ -2841,6 +2843,8 @@ async def api_estimate_nano_banana_cost(
         custom_prompt=req.custom_prompt or req.prompt,
         visual_style=req.visual_style,
         include_humans=req.include_humans,
+        include_slide_context=req.include_slide_context,
+        bullet_points=req.bullet_points,
         num_images=req.num_images,
     )
 
@@ -2864,6 +2868,7 @@ async def api_generate_nano_banana_image(
         bullet_points=req.bullet_points,
         visual_style=req.visual_style,
         include_humans=req.include_humans,
+        include_slide_context=req.include_slide_context,
         accent_palette_key=req.accent_palette_key,
         beautification_tier=req.beautification_tier,
         user_consented=req.user_consented,

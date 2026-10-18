@@ -2243,5 +2243,115 @@ def test_v30_plan13_comprehensive_dark_mode_and_click_to_zoom_lightbox() -> None
     assert "data-admin-zoom-idx" in ui_js
 
 
+def test_v28_vision_captions_slide_context_toggle_model_armor_and_dark_mode(monkeypatch) -> None:
+    """Verifies Plan 15:
+    1. All 1,306 Nano Banana illustrations and 2,341 Pamphlet figures have Vision-verified visual captions
+       (0 meta captions like 'Educational Scouting handbook illustration' or 'Scout and counselor reviewing').
+    2. `include_slide_context=False` omits slide bullets/title while keeping the Uniformed Scouts directive,
+       and generates a clean visual caption instead of dumping the raw prompt.
+    3. Model Armor blocks inappropriate prompts ('2 scouts naked in a canoe') with `NANO_BANANA_PROMPT_BLOCKED`
+       at $0.00 and never falls back to Wikimedia Commons.
+    4. Dark Mode CSS rules for `.m3-studio-ai-blocked-alert` and `.m3-construction-stage` header & footer.
+    """
+    from pathlib import Path
+    import json
+    from src.agents.image_studio import (
+        resolve_content_aware_visual_config,
+        generate_nano_banana_slide_image,
+        _generate_clean_visual_caption_for_nano_image,
+    )
+
+    repo_root = Path(__file__).resolve().parent.parent
+
+    # 1. Verify zero meta captions in nano_banana_image_catalog.json and pamphlet_image_catalog.json
+    nano_cat = json.loads((repo_root / "data" / "nano_banana_image_catalog.json").read_text(encoding="utf-8"))
+    assert len(nano_cat) >= 1300
+    for fname, entry in nano_cat.items():
+        cap = str(entry.get("caption") or "")
+        assert len(cap) >= 20, f"Short caption for {fname}: {cap}"
+        assert "Educational Scouting handbook illustration" not in cap
+        assert not cap.startswith("Scout and counselor reviewing ")
+        assert not cap.startswith("Four-panel instructional breakdown")
+
+    pamphlet_cat = json.loads((repo_root / "data" / "pamphlet_image_catalog.json").read_text(encoding="utf-8"))
+    assert len(pamphlet_cat) >= 2320
+    for fname, entry in pamphlet_cat.items():
+        cap = str(entry.get("caption") or "")
+        assert len(cap) >= 20, f"Short caption for {fname}: {cap}"
+        assert "Official figure for Requirement" not in cap
+
+    # 2. Verify include_slide_context=True vs False
+    cfg_with_ctx = resolve_content_aware_visual_config(
+        badge_name="First Aid",
+        slide_title="Rigid Forearm Splinting, Sling & Distal CMS Check",
+        req_number="8",
+        bullet_points=["Immobilize Joint Above & Below", "Open Fracture Dressing"],
+        custom_prompt="2 people in a canoe",
+        visual_style="Auto (Content-Aware Mix)",
+        include_humans="auto",
+        include_slide_context=True,
+    )
+    assert cfg_with_ctx["include_slide_context"] is True
+    assert cfg_with_ctx["include_humans"] is True
+    assert "Immobilize Joint Above" in cfg_with_ctx["enriched_subject"]
+
+    cfg_no_ctx = resolve_content_aware_visual_config(
+        badge_name="First Aid",
+        slide_title="Rigid Forearm Splinting, Sling & Distal CMS Check",
+        req_number="8",
+        bullet_points=["Immobilize Joint Above & Below", "Open Fracture Dressing"],
+        custom_prompt="2 people in a canoe",
+        visual_style="Auto (Content-Aware Mix)",
+        include_humans="auto",
+        include_slide_context=False,
+    )
+    assert cfg_no_ctx["include_slide_context"] is False
+    assert cfg_no_ctx["include_humans"] is True
+    assert "Immobilize Joint Above" not in cfg_no_ctx["enriched_subject"]
+    assert "First Aid" not in cfg_no_ctx["enriched_subject"]
+    assert cfg_no_ctx["enriched_subject"] == "2 people in a canoe"
+    assert "Uniformed Scouts" in cfg_no_ctx["routing_reason"]
+
+    clean_title, clean_cap = _generate_clean_visual_caption_for_nano_image(
+        out_path=Path("/nonexistent/test.png"),
+        custom_prompt="2 people in a canoe",
+        base_subject="2 people in a canoe (illustrating slide concepts: Immobilize Joint Above & Below)",
+        slide_title="Rigid Forearm Splinting, Sling & Distal CMS Check",
+        badge_name="First Aid",
+        include_humans=True,
+        include_slide_context=False,
+    )
+    assert "Custom " not in clean_cap
+    assert "illustrating slide concepts" not in clean_cap
+    assert "Prompt Alignment Verified" not in clean_cap
+    assert "uniformed Scouts" in clean_cap
+
+    # 3. Verify Model Armor blocks '2 scouts naked in a canoe' at $0.00 with zero fallback
+    blocked_res = generate_nano_banana_slide_image(
+        badge_name="First Aid",
+        slide_title="Rigid Forearm Splinting, Sling & Distal CMS Check",
+        req_number="8",
+        bullet_points=["Immobilize Joint Above & Below"],
+        custom_prompt="2 scouts naked in a canoe",
+        user_consented=True,
+    )
+    assert blocked_res["status"] == "ERROR"
+    assert blocked_res["error_code"] == "NANO_BANANA_PROMPT_BLOCKED"
+    assert "Model Armor" in blocked_res["message"]
+
+    # 4. Verify UI elements & Dark Mode CSS rules for Plan 15
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+
+    assert 'id="studio-ai-include-slide-context-checkbox"' in ui_html
+    assert "include_slide_context: includeSlideCtx" in ui_js
+    assert 'class="m3-studio-ai-blocked-alert"' in ui_js
+    assert "body.m3-dark-mode #studio-ai-cost-banner .m3-studio-ai-blocked-alert" in ui_css
+    assert "body.m3-dark-mode .m3-construction-topbar" in ui_css
+    assert "body.m3-dark-mode .m3-construction-footer" in ui_css
+
+
+
 
 
