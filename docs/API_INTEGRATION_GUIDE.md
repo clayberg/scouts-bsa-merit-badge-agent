@@ -2,7 +2,7 @@
 
 The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), legacy unversioned aliases (`/api/*` with RFC 8594 `Deprecation: true` and `Sunset: 2027-01-01` headers), PowerPoint Template & Custom Slide Theme Engine endpoints (`/api/v1/templates*`), Multi-Badge Saved Deck Workspaces & Starred Favorites endpoints (`/api/v1/workspaces*`, `/api/v1/badges/favorites*`), Official Scouts BSA Workbench Model Context Protocol (`MCP`) endpoints (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`, documented in the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**), Merit Badge Image Studio endpoints (`/api/v1/badge/images`, `/api/v1/slide/*`), in-app documentation endpoints (`/api/v1/docs`, `/api/v1/docs/{doc_id}`), Super-User Admin Console and Zero-PII Telemetry endpoints (`/api/v1/admin/*`, documented in [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)), counselor profile persistence (`/api/v1/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
 
-- **OpenAPI 3.1 schema (`117` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
+- **OpenAPI 3.1 schema (`119` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
 - **MCP Server Integration Guide (`12` Tools, `6` `bsa://` Resources, `4` Prompts)**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md) (`python -m src.mcp_server` / `scouts-bsa-mcp` stdio CLI + HTTP `/mcp` & `/mcp/sse`).
 - **Swagger UI**: `http://localhost:8085/docs`
 - **A2A 1.0 Agent Card**: `http://localhost:8085/.well-known/agent.json`
@@ -20,7 +20,7 @@ Every HTTP response includes `X-API-Version: 1.2.0`. Calls to unversioned `/api/
 
 ---
 
-## 2. Endpoint summary (`117` OpenAPI 3.1 paths)
+## 2. Endpoint summary (`119` OpenAPI 3.1 paths)
 
 All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in `docs/openapi.yaml`.
 
@@ -35,10 +35,11 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 | `GET /api/v1/badges/favorites` | Lists all Merit Badges starred as favorites (`counselor_favorites` SQLite table). | Yes |
 | `POST /api/v1/badges/favorites/toggle` | Toggles `⭐` favorite status (`badge_name`) in `counselor_favorites` and returns the updated favorite list. | Yes |
 | `GET /api/v1/templates` | Lists the **8 built-in Scouting America & Heritage PowerPoint templates** (`default_workbench`, `scouting_america_250`, `scouting_america_forest_sunrise`, `scouting_america_topographic`, `scouting_america_high_adventure_rock`, `classic_outdoor_silhouette_navy`, `classic_fleur_crimson_crest`, `wilderness_camp_timber`) plus custom uploaded/URL templates with `SafeCanvasBounds`. | Yes |
-| `POST /api/v1/templates/upload` | Uploads a custom `.pptx`, `.ppt`, `.png`, `.jpg`, or `.webp` slide template, extracts dominant brand colors and background artwork, and computes `SafeCanvasBounds` (`content_bottom_max_in` clamping). | Yes |
+| `POST /api/v1/templates/upload` | Uploads a custom `.pptx`, `.ppt`, `.png`, `.jpg`, or `.webp` slide template, extracts dominant brand colors and background artwork, and computes `SafeCanvasBounds` (`content_bottom_max_in <= 6.54"` clamping). | Yes |
 | `POST /api/v1/templates/import-url` | Imports a custom PowerPoint or image template from a remote URL and registers it in the template catalog. | Yes |
-| `POST /api/v1/templates/apply` | Applies a selected `template_id` (and optional `beautification_tier` / `accent_palette_key` such as `MATCH_TEMPLATE`) to a slide storyboard and rebuilds the `.pptx` deck within `SafeCanvasBounds`. | Yes |
-| `DELETE /api/v1/templates/{template_id}` | Deletes a custom user-uploaded or URL-imported template while protecting the 8 built-in templates. | Yes |
+| `POST /api/v1/templates/apply` | Applies a selected `template_id` (and optional `visual_theme` / `beautification_tier` `WARM_CREAM`, `CRISP_WHITE`, or `DARK_SLATE`, short aliases `CREAM`, `WHITE`, `SLATE`, legacy aliases `BEAUTIFIED`, `STANDARD`, `STUDIO`, and `accent_palette_key` such as `MATCH_TEMPLATE`) to a slide storyboard and rebuilds the `.pptx` deck within `SafeCanvasBounds`. | Yes |
+| `PATCH /api/v1/templates/{template_id}` | Updates the display `name` and `description` metadata of a custom user-uploaded or URL-imported template while protecting the 8 built-in templates. | Yes |
+| `DELETE /api/v1/templates/{template_id}` | Deletes a custom user-uploaded or URL-imported template while protecting the 8 built-in templates (and reverts the active deck to `Workbench Classic` / `default_workbench` if that template was applied). | Yes |
 | `GET /api/v1/workspaces`, `POST /api/v1/workspaces` | Lists all saved counselor deck workspaces (`counselor_workspaces` table in `scouts_bsa_sessions.db`) or saves/updates a workspace (`workspace_title`, `session_label`, `camp_bundle_tag`, `template_id`, `storyboard_slides`, and isolated Patrol Blue Card `#34124` `blue_card_roster`). | Yes |
 | `GET /api/v1/workspaces/{workspace_id}`, `PATCH /api/v1/workspaces/{workspace_id}`, `DELETE /api/v1/workspaces/{workspace_id}` | Loads, renames/updates metadata or Blue Card roster on, or deletes a saved Merit Badge deck workspace (`<80ms` hot-swap). | Yes |
 | `POST /api/v1/workspaces/{workspace_id}/clone` | Clones a saved deck workspace for a new patrol section (`📑 Clone for New Section`, e.g., Morning vs. Afternoon Patrol) with an optional fresh empty Blue Card roster. | Yes |
@@ -82,7 +83,7 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 
 | Method and path | Purpose | Auth required in prod |
 | :--- | :--- | :--- |
-| `GET /mcp/info`, `GET /api/v1/mcp/info` | Returns the Scouts BSA Workbench MCP Server discovery manifest (`12` tools, `6` `bsa://` resources, `4` guided prompts, and ready-to-copy client configs for Claude Desktop, Gemini CLI, Cursor, and Google ADK). See [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md). | No |
+| `GET /mcp/info`, `GET /api/v1/mcp/info` | Returns the Scouts BSA Workbench MCP Server discovery manifest (`12` tools, `6` `bsa://` resources, `4` guided prompts, and ready-to-copy client configs for Claude Desktop, Gemini CLI / AGY, Cursor, and Google ADK). See [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md). | No |
 | `POST /mcp`, `POST /api/v1/mcp` | Executes Model Context Protocol (`2024-11-05`) JSON-RPC 2.0 calls (`initialize`, `tools/list`, `tools/call`, `resources/list`, `resources/read`, `prompts/list`, `prompts/get`). | Yes |
 | `GET /mcp/sse`, `GET /api/v1/mcp/sse` | Streams Model Context Protocol Server-Sent Events (`text/event-stream`) for SSE-based MCP clients and IDEs. | No (SSE) |
 | `GET /api/v1/admin/session` | Checks whether the current browser session is authorized for the Super-User Admin Console (`is_admin`, `auth_mode`, `role`). | Super-User / Session |
@@ -117,7 +118,7 @@ curl -X POST http://localhost:8085/api/v1/workflow/run \
   -d '{
     "badge_name": "Weather",
     "depth_mode": "Standard Deck",
-    "beautification_tier": "BEAUTIFIED",
+    "beautification_tier": "WARM_CREAM",
     "enable_deep_research": true,
     "audience_level": "All Scouts (Ages 11-17)",
     "counselor_name": "Eric Clayberg",
@@ -197,7 +198,7 @@ curl -X POST http://localhost:8085/api/v1/slide/export-gslides \
   -H "Content-Type: application/json" \
   -d '{
     "badge_name": "First Aid",
-    "beautification_tier": "BEAUTIFIED",
+    "beautification_tier": "WARM_CREAM",
     "share_with_email": "counselor@gmail.com",
     "use_adc": true
   }'
@@ -245,7 +246,7 @@ curl -X POST http://localhost:8085/api/v1/slide/generate-nano-banana-image \
     "prompt": "Cross-section diagram showing a steep cold front wedge lifting warm moist air into cumulonimbus clouds",
     "visual_style": "Auto (Content-Aware Mix)",
     "include_humans": false,
-    "beautification_tier": "BEAUTIFIED",
+    "beautification_tier": "WARM_CREAM",
     "user_consented": true
   }'
 ```

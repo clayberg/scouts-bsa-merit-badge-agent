@@ -2551,6 +2551,158 @@ def test_v35_plan16_templates_workspaces_favorites_and_mcp() -> None:
     assert "body.m3-dark-mode .m3-active-workspaces-bar" in ui_css
 
 
+def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
+    """Verifies all 5 Plan 17 user observations & enhancements:
+    1) Favorites: `.m3-patch-fav-btn.is-fav` white star on gold circle, `#btn-patch-gallery-fav-filter` header button,
+       and `FAVORITES` option in `#filter-eagle-select`.
+    2) Merit Badge Library: Delete confirmation modal (`#delete-workspace-confirm-modal` + `#chk-skip-delete-deck-confirm`),
+       blank default `session_label` & `camp_bundle_tag` with `workspace_title == badge_name` on new decks, copying all 3 fields
+       on clone, and editable combobox preset dropdowns (`#ws-session-presets-menu`, `#ws-bundle-presets-menu`).
+    3) Templates: Responsive slide geometry + luminance-aware `get_contrasting_text_rgb()`, 3-box anatomical Safe-Zone X-Ray,
+       custom template metadata edit (`PATCH /api/v1/templates/{id}`) & delete (`DELETE /api/v1/templates/{id}`), and toolbar
+       split-button template switcher (`#stage-template-split-group`).
+    4) MCP Server & Agent Hub: `Gemini CLI / AGY` label, modern theme aliases (`WARM_CREAM`, `CRISP_WHITE`, `DARK_SLATE`,
+       `CREAM`, `WHITE`, `SLATE`) in `normalize_visual_theme()` and MCP tools, interactive Section 2 Resource/Prompt execution,
+       and Section 3 `[📊 Visual Card Preview | { } Raw JSON-RPC 2.0]` tabs.
+    5) Dynamic Top-Bar Counselor Profile Pill (`#top-counselor-chip-name` + `#top-counselor-chip-affil` without fixed 185px cap).
+    """
+    import io
+    from pathlib import Path
+    from PIL import Image
+    from fastapi.testclient import TestClient
+    from src.server import app
+    from src.tools.template_engine import get_contrasting_text_rgb, normalize_visual_theme
+
+    repo_root = Path(__file__).resolve().parents[1]
+    client = TestClient(app)
+
+    # 1. Verify modern visual theme alias normalization & luminance contrast helper
+    assert normalize_visual_theme("WARM_CREAM") == "BEAUTIFIED"
+    assert normalize_visual_theme("CREAM") == "BEAUTIFIED"
+    assert normalize_visual_theme("CRISP_WHITE") == "STANDARD"
+    assert normalize_visual_theme("WHITE") == "STANDARD"
+    assert normalize_visual_theme("DARK_SLATE") == "STUDIO"
+    assert normalize_visual_theme("SLATE") == "STUDIO"
+
+    assert get_contrasting_text_rgb("#003F87") == (255, 255, 255)
+    assert get_contrasting_text_rgb("#1B4332") == (255, 255, 255)
+    assert get_contrasting_text_rgb("#FAF8F5") == (15, 23, 42)
+
+    # 2. Verify custom template upload, PATCH metadata update, and DELETE cleanup
+    img_buf = io.BytesIO()
+    Image.new("RGB", (640, 360), color=(20, 60, 120)).save(img_buf, format="PNG")
+    img_buf.seek(0)
+    up_res = client.post(
+        "/api/v1/templates/upload",
+        files={"file": ("council_banner.png", img_buf.getvalue(), "image/png")},
+        data={"name": "Initial Custom Template"},
+    )
+    assert up_res.status_code == 200
+    custom_tpl = up_res.json()["template"]
+    custom_id = custom_tpl["template_id"]
+    assert custom_id.startswith("custom_")
+    assert custom_tpl["is_builtin"] is False
+
+    patch_res = client.patch(
+        f"/api/v1/templates/{custom_id}",
+        json={"name": "Troop 123 High Adventure Theme", "description": "Edited custom template description"},
+    )
+    assert patch_res.status_code == 200
+    patched_tpl = patch_res.json()["template"]
+    assert patched_tpl["name"] == "Troop 123 High Adventure Theme"
+    assert patched_tpl["description"] == "Edited custom template description"
+
+    del_res = client.delete(f"/api/v1/templates/{custom_id}")
+    assert del_res.status_code == 200
+    assert del_res.json()["deleted"] is True
+
+    # 3. Verify workspace defaults (title = badge_name, blank session/camp tags) and cloning copies all 3 fields
+    ws_new = client.post(
+        "/api/v1/workspaces",
+        json={"badge_name": "Wilderness Survival", "visual_theme": "WARM_CREAM"},
+    )
+    assert ws_new.status_code == 200
+    ws_data = ws_new.json()["workspace"]
+    assert ws_data["workspace_title"] == "Wilderness Survival"
+    assert ws_data["session_label"] == ""
+    assert ws_data["camp_bundle_tag"] == ""
+
+    ws_tagged = client.post(
+        "/api/v1/workspaces",
+        json={
+            "workspace_id": ws_data["workspace_id"],
+            "badge_name": "Wilderness Survival",
+            "workspace_title": "Wilderness Survival — Basecamp",
+            "session_label": "Morning Session (9:00 AM)",
+            "camp_bundle_tag": "Summer Camp — Week 2",
+        },
+    ).json()["workspace"]
+
+    ws_cloned = client.post(
+        f"/api/v1/workspaces/{ws_tagged['workspace_id']}/clone",
+        json={"clear_blue_card_roster": True},
+    )
+    assert ws_cloned.status_code == 200
+    cloned_data = ws_cloned.json()["workspace"]
+    assert cloned_data["workspace_title"] == "Wilderness Survival — Basecamp"
+    assert cloned_data["session_label"] == "Morning Session (9:00 AM)"
+    assert cloned_data["camp_bundle_tag"] == "Summer Camp — Week 2"
+
+    client.delete(f"/api/v1/workspaces/{ws_tagged['workspace_id']}")
+    client.delete(f"/api/v1/workspaces/{cloned_data['workspace_id']}")
+
+    # 4. Verify MCP Hub exposes Gemini CLI / AGY and modern theme names + prompts/get execution
+    mcp_info = client.get("/mcp/info").json()
+    assert "gemini_cli_agy" in mcp_info["client_snippets"]
+    create_tool = next(t for t in mcp_info["tools"] if t["name"] == "create_merit_badge_slide_deck")
+    enum_vals = create_tool["inputSchema"]["properties"]["visual_theme"]["enum"]
+    for modern_theme in ("WARM_CREAM", "CRISP_WHITE", "DARK_SLATE", "CREAM", "WHITE", "SLATE"):
+        assert modern_theme in enum_vals
+
+    rpc_prompt = client.post(
+        "/mcp",
+        json={
+            "jsonrpc": "2.0",
+            "id": 99,
+            "method": "prompts/get",
+            "params": {
+                "name": "plan-merit-badge-camp-class",
+                "arguments": {"badge_name": "First Aid", "camp_name": "Camp Yawgoog"},
+            },
+        },
+    )
+    assert rpc_prompt.status_code == 200
+    assert len(rpc_prompt.json()["result"]["messages"]) >= 1
+
+    # 5. Verify UI HTML, CSS & JS hooks for all 5 Plan 17 items
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+
+    assert 'id="top-counselor-chip-name"' in ui_html
+    assert 'id="top-counselor-chip-affil"' in ui_html
+    assert 'id="btn-patch-gallery-fav-filter"' in ui_html
+    assert 'id="stage-template-split-group"' in ui_html
+    assert 'id="btn-stage-template-caret"' in ui_html
+    assert 'id="stage-template-dropdown-menu"' in ui_html
+    assert 'id="xray-box-header"' in ui_html
+    assert 'id="xray-box-content"' in ui_html
+    assert 'id="xray-box-footer"' in ui_html
+    assert 'id="delete-workspace-confirm-modal"' in ui_html
+    assert 'id="chk-skip-delete-deck-confirm"' in ui_html
+    assert 'id="edit-template-meta-modal"' in ui_html
+    assert 'id="ws-session-presets-menu"' in ui_html
+    assert 'id="ws-bundle-presets-menu"' in ui_html
+    assert "Gemini CLI / AGY" in ui_html
+    assert "Gemini CLI / Jetski" not in ui_html
+    assert 'id="btn-mcp-view-visual"' in ui_html
+    assert 'id="btn-mcp-view-json"' in ui_html
+    assert ".m3-patch-fav-btn.is-fav" in ui_css
+    assert "function showToast(" in ui_js
+    assert "renderMcpVisualCardPreview" in ui_js
+
+
+
 
 
 

@@ -3556,8 +3556,14 @@ class TemplateApplyRequest(BaseModel):
     template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
     storyboard_slides: List[Dict[str, Any]] = Field(default_factory=list, description="Current storyboard slides.")
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
-    visual_theme: Optional[str] = Field(None, description="Optional BEAUTIFIED, STANDARD, or STUDIO.")
+    visual_theme: Optional[str] = Field(None, description="Optional WARM_CREAM (CREAM), CRISP_WHITE (WHITE), DARK_SLATE (SLATE), or legacy BEAUTIFIED/STANDARD/STUDIO.")
     accent_palette_key: Optional[str] = Field(None, description="Optional palette key or MATCH_TEMPLATE.")
+
+
+class TemplateMetadataUpdateRequest(BaseModel):
+    name: Optional[str] = Field(None, description="Updated custom template display title.")
+    description: Optional[str] = Field(None, description="Updated custom template description.")
+    bottom_safe_in: Optional[float] = Field(None, description="Optional updated safe bottom coordinate in inches (5.80..6.95).")
 
 
 @app.get("/api/templates")
@@ -3671,14 +3677,14 @@ async def api_apply_powerpoint_template(
         SlideSpec,
         generate_bsa_slide_deck_pptx,
     )
-    from src.tools.template_engine import get_template_profile
+    from src.tools.template_engine import get_template_profile, normalize_visual_theme
 
     prof = await asyncio.to_thread(get_template_profile, req.template_id)
     slides_list = [dict(s) for s in (req.storyboard_slides or [])]
     for s in slides_list:
         s["template_id"] = prof.template_id
         if req.visual_theme:
-            s["beautification_tier"] = str(req.visual_theme).upper()
+            s["beautification_tier"] = normalize_visual_theme(req.visual_theme)
         if req.accent_palette_key:
             s["accent_palette_key"] = str(req.accent_palette_key).upper()
 
@@ -3711,6 +3717,36 @@ async def api_apply_powerpoint_template(
         "template": prof.model_dump(),
         "storyboard_slides": slides_list,
         "pptx_download_url": rebuilt_pptx_url,
+    }
+
+
+@app.patch("/api/templates/{template_id}")
+@app.patch("/api/v1/templates/{template_id}")
+async def api_update_custom_template_metadata(
+    template_id: str,
+    req: TemplateMetadataUpdateRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Updates `name`, `description`, or `bottom_safe_in` for a custom user-uploaded/URL template."""
+    from src.tools.template_engine import load_template_catalog, update_template_metadata
+
+    updated = await asyncio.to_thread(
+        update_template_metadata,
+        template_id=template_id,
+        name=req.name,
+        description=req.description,
+        bottom_safe_in=req.bottom_safe_in,
+    )
+    if updated is None:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Custom template '{template_id}' not found or is a built-in read-only template.",
+        )
+    all_profiles = await asyncio.to_thread(load_template_catalog)
+    return {
+        "status": "UPDATED",
+        "template": updated.model_dump(),
+        "templates": [p.model_dump() for p in all_profiles],
     }
 
 
@@ -3759,7 +3795,8 @@ class WorkspaceSaveRequest(BaseModel):
 
 class WorkspaceCloneRequest(BaseModel):
     new_title: Optional[str] = None
-    session_label: Optional[str] = "Afternoon Patrol / Section 2"
+    session_label: Optional[str] = None
+    camp_bundle_tag: Optional[str] = None
     copy_roster: bool = False
 
 
@@ -3828,6 +3865,7 @@ async def api_clone_workspace(
         workspace_id=workspace_id,
         new_title=req.new_title,
         session_label=req.session_label,
+        camp_bundle_tag=req.camp_bundle_tag,
         copy_roster=req.copy_roster,
     )
     if not cloned:

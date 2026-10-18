@@ -2,7 +2,7 @@
 
 Implements Plan 16C (Option C Dual-Transport Semantic MCP Server):
 1. Local `stdio` transport (`python -m src.mcp_server` or `scouts-bsa-mcp` CLI) via FastMCP
-   for Claude Desktop, Gemini CLI / Jetski, Cursor, and Windsurf.
+   for Claude Desktop, Gemini CLI / AGY, Cursor, and Windsurf.
 2. HTTP JSON-RPC 2.0 & SSE transport (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`) mounted
    directly on the FastAPI server (`src/server.py`) for Cloud Run, Google ADK `MCPToolset`,
    and the in-app Interactive MCP Playground.
@@ -32,7 +32,11 @@ from src.memory.session_store import (
     retrieve_pamphlet_memory_chunks,
     save_counselor_workspace,
 )
-from src.tools.template_engine import get_template_profile, load_template_catalog
+from src.tools.template_engine import (
+    get_template_profile,
+    load_template_catalog,
+    normalize_visual_theme,
+)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MCP_SERVER_NAME = "scouts-bsa-merit-badge-workbench"
@@ -224,7 +228,7 @@ def mcp_tool_create_merit_badge_slide_deck(
     badge_name: str,
     instruction_depth: str = "Deep Dive",
     template_id: str = "default_workbench",
-    visual_theme: str = "BEAUTIFIED",
+    visual_theme: str = "WARM_CREAM",
     counselor_name: str = "Scoutmaster Bob",
     troop_info: str = "Troop 19, Silicon Valley Monterey Bay Council",
     state_code: str = "CA",
@@ -246,9 +250,7 @@ def mcp_tool_create_merit_badge_slide_deck(
     slides_raw = ((deck_res.get("storyboard") or {}).get("slides")) or []
 
     tpl_prof = get_template_profile(template_id)
-    tier_norm = str(visual_theme or "BEAUTIFIED").upper()
-    if tier_norm not in ("STANDARD", "BEAUTIFIED", "STUDIO"):
-        tier_norm = "BEAUTIFIED"
+    tier_norm = normalize_visual_theme(visual_theme)
 
     slide_specs: List[SlideSpec] = []
     for s in slides_raw:
@@ -276,9 +278,9 @@ def mcp_tool_create_merit_badge_slide_deck(
 
     ws_meta = save_counselor_workspace(
         {
-            "workspace_title": workspace_title or f"{clean_badge} ({tpl_prof.name})",
+            "workspace_title": workspace_title or clean_badge,
             "badge_name": clean_badge,
-            "session_label": session_label or instruction_depth,
+            "session_label": session_label or "",
             "template_id": tpl_prof.template_id,
             "counselor_info": c_info.model_dump(),
             "deck_result": deck_res,
@@ -492,7 +494,7 @@ def mcp_tool_apply_powerpoint_template(
         if isinstance(s, dict):
             s["template_id"] = prof.template_id
             if visual_theme:
-                s["beautification_tier"] = str(visual_theme).upper()
+                s["beautification_tier"] = normalize_visual_theme(visual_theme)
             if accent_palette_key:
                 s["accent_palette_key"] = str(accent_palette_key).upper()
             slide_specs.append(SlideSpec(**s))
@@ -743,7 +745,12 @@ MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
                 "badge_name": {"type": "string", "description": "Official Merit Badge name (e.g. 'First Aid', 'Weather')."},
                 "instruction_depth": {"type": "string", "description": "'Deep Dive' or 'Standard Overview'.", "default": "Deep Dive"},
                 "template_id": {"type": "string", "description": "PowerPoint template ID (e.g. 'scouting_america_250', 'scouting_america_forest_sunrise', 'default_workbench').", "default": "default_workbench"},
-                "visual_theme": {"type": "string", "description": "'BEAUTIFIED' (Warm Cream), 'STANDARD' (Crisp White), or 'STUDIO' (Dark Slate).", "default": "BEAUTIFIED"},
+                "visual_theme": {
+                    "type": "string",
+                    "description": "'WARM_CREAM' ('CREAM'), 'CRISP_WHITE' ('WHITE'), or 'DARK_SLATE' ('SLATE').",
+                    "enum": ["WARM_CREAM", "CRISP_WHITE", "DARK_SLATE", "CREAM", "WHITE", "SLATE", "BEAUTIFIED", "STANDARD", "STUDIO"],
+                    "default": "WARM_CREAM",
+                },
                 "counselor_name": {"type": "string", "description": "Counselor display name for Cover Slide."},
                 "troop_info": {"type": "string", "description": "Troop and Council affiliation."},
                 "state_code": {"type": "string", "description": "2-letter US State code for local grounding."},
@@ -825,7 +832,7 @@ MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
             "properties": {
                 "workspace_id": {"type": "string"},
                 "template_id": {"type": "string", "description": "e.g. 'scouting_america_250', 'scouting_america_forest_sunrise', 'scouting_america_topographic', 'classic_outdoor_silhouette_navy'."},
-                "visual_theme": {"type": "string", "description": "Optional 'BEAUTIFIED', 'STANDARD', or 'STUDIO'."},
+                "visual_theme": {"type": "string", "description": "Optional 'WARM_CREAM' ('CREAM'), 'CRISP_WHITE' ('WHITE'), or 'DARK_SLATE' ('SLATE')."},
                 "accent_palette_key": {"type": "string", "description": "Optional 'NAVY_GOLD', 'OLIVE_FOREST', 'EAGLE_CRIMSON', 'SLATE_ACTION', or 'MATCH_TEMPLATE'."},
             },
         },
@@ -935,7 +942,7 @@ def get_mcp_prompt_messages(name: str, arguments: Optional[Dict[str, Any]] = Non
     """Renders structured MCP prompt messages for any of the 4 guided counselor workflows."""
     args = arguments or {}
     clean_name = str(name or "").strip()
-    if clean_name == "build-camp-merit-badge-curriculum":
+    if clean_name in ("build-camp-merit-badge-curriculum", "plan-merit-badge-camp-class"):
         badge = args.get("badge_name", "First Aid")
         tpl = args.get("template_id", "scouting_america_250")
         return {
@@ -956,8 +963,8 @@ def get_mcp_prompt_messages(name: str, arguments: Optional[Dict[str, Any]] = Non
                 }
             ],
         }
-    if clean_name == "prepare-merit-badge-midway-bundle":
-        badges = args.get("badge_names_csv", "First Aid, Emergency Preparedness")
+    if clean_name in ("prepare-merit-badge-midway-bundle", "prepare-midway-multi-badge-bundle"):
+        badges = args.get("badge_names_csv") or args.get("badges_csv", "First Aid, Emergency Preparedness")
         tpl = args.get("template_id", "scouting_america_forest_sunrise")
         return {
             "description": f"Merit Badge Midway Multi-Deck Bundle ({badges})",
@@ -976,7 +983,7 @@ def get_mcp_prompt_messages(name: str, arguments: Optional[Dict[str, Any]] = Non
                 }
             ],
         }
-    if clean_name == "review-scout-blue-card-signoffs":
+    if clean_name in ("review-scout-blue-card-signoffs", "audit-blue-card-readiness"):
         ws_id = args.get("workspace_id", "")
         return {
             "description": f"Patrol Blue Card (#34124) Readiness & Sign-Off Audit ({ws_id})",
@@ -995,7 +1002,7 @@ def get_mcp_prompt_messages(name: str, arguments: Optional[Dict[str, Any]] = Non
                 }
             ],
         }
-    if clean_name == "customize-slide-deck-for-local-troop":
+    if clean_name in ("customize-slide-deck-for-local-troop", "customize-slide-for-younger-scouts"):
         ws_id = args.get("workspace_id", "")
         st = args.get("state_code", "CA")
         loc = args.get("city_or_camp", "Local Council Camp")
@@ -1051,6 +1058,40 @@ def get_mcp_server_manifest() -> Dict[str, Any]:
         ],
         "resources": MCP_RESOURCES_CATALOG,
         "prompts": MCP_PROMPTS_CATALOG,
+        "client_snippets": {
+            "claude_desktop": {
+                "label": "Claude Desktop",
+                "mcpServers": {
+                    "scouts-bsa-workbench": {
+                        "command": "python",
+                        "args": ["-m", "src.mcp_server"],
+                        "env": {"PYTHONPATH": "."},
+                    }
+                },
+            },
+            "gemini_cli_agy": {
+                "label": "Gemini CLI / AGY",
+                "mcpServers": {
+                    "scouts-bsa-workbench": {
+                        "httpUrl": "http://localhost:8080/mcp",
+                        "command": "python",
+                        "args": ["-m", "src.mcp_server"],
+                    }
+                },
+            },
+            "cursor": {
+                "label": "Cursor / VS Code",
+                "mcpServers": {
+                    "scouts-bsa-workbench": {
+                        "url": "http://localhost:8080/mcp/sse",
+                    }
+                },
+            },
+            "google_adk": {
+                "label": "Google ADK MCPToolset",
+                "command": "python -m src.mcp_server",
+            },
+        },
     }
 
 

@@ -30,8 +30,10 @@ from src.config import GENERATED_DIAGRAMS_DIR, ScoutsBSAPalette, is_eagle_requir
 from src.schemas import CounselorTitleSlideInfo
 from src.tools.template_engine import (
     create_presentation_from_template,
+    get_contrasting_text_rgb,
     get_template_profile,
     hex_to_rgb,
+    normalize_visual_theme,
 )
 
 
@@ -717,7 +719,7 @@ def _resolve_palette_tokens(
     slide_spec: SlideSpec,
 ) -> Tuple[Tuple[int, int, int], Tuple[int, int, int], Tuple[int, int, int]]:
     """Returns `(primary_rgb, accent_rgb, card_bg_rgb)` matching `resolveSlidePaletteTokens` in `ui/app.js` 1:1."""
-    tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    tier = normalize_visual_theme(getattr(slide_spec, "beautification_tier", "STANDARD"), default="STANDARD")
     if tier == "STANDARD":
         return (
             ScoutsBSAPalette.NAVY_BLUE_RGB,
@@ -767,7 +769,7 @@ def _resolve_text_colors(
     default_anchor_rgb: Optional[Tuple[int, int, int]] = None,
 ) -> Tuple[Tuple[int, int, int], Tuple[int, int, int], Tuple[int, int, int]]:
     """Returns `(anchor_rgb, body_rgb, title_rgb)` matching `ui/app.js` for the slide's beautification_tier."""
-    tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
+    tier = normalize_visual_theme(getattr(slide_spec, "beautification_tier", "STANDARD"), default="STANDARD")
     primary_rgb, _, _ = _resolve_palette_tokens(slide_spec)
     anchor_base = default_anchor_rgb or primary_rgb
     if tier == "STUDIO":
@@ -783,7 +785,7 @@ def _apply_slide_tier_background(
     """Applies distinct canvas background color for STANDARD, BEAUTIFIED, and STUDIO plus an optional top accent band."""
     from pptx.enum.shapes import MSO_CONNECTOR
 
-    norm_tier = str(tier or "STANDARD").upper()
+    norm_tier = normalize_visual_theme(tier, default="STANDARD")
     try:
         bg = slide.background
         fill = bg.fill
@@ -2247,7 +2249,7 @@ def generate_bsa_slide_deck_pptx(
         or "default_workbench"
     )
     deck_tier = (
-        str(getattr(request.slides[0], "beautification_tier", "STANDARD") or "STANDARD").upper()
+        normalize_visual_theme(getattr(request.slides[0], "beautification_tier", "STANDARD"), default="STANDARD")
         if request.slides
         else "STANDARD"
     )
@@ -2449,7 +2451,7 @@ def generate_bsa_slide_deck_pptx(
     for idx, slide_spec in enumerate(request.slides, start=1):
         if not getattr(slide_spec, "template_id", None) or slide_spec.template_id == "default_workbench":
             slide_spec.template_id = req_template_id
-        s_tier = str(getattr(slide_spec, "beautification_tier", deck_tier) or deck_tier).upper()
+        s_tier = normalize_visual_theme(getattr(slide_spec, "beautification_tier", deck_tier), default=deck_tier)
         content_slide = add_template_slide(False, s_tier)
         slide_num = idx + 1
         arch = (slide_spec.archetype or "SPLIT_VISUAL_EXPLAINER").upper()
@@ -2711,8 +2713,8 @@ def generate_bsa_slide_deck_pptx(
             ftf.word_wrap = True
             ftf.vertical_anchor = MSO_ANCHOR.TOP
             fp = ftf.paragraphs[0]
-            if safe_bounds.suppress_native_footer and tpl_profile.bottom_bar_hex and not tpl_profile.use_native_master_layouts:
-                footer_rgb = (241, 245, 249)
+            if safe_bounds.suppress_native_footer and tpl_profile.bottom_bar_hex:
+                footer_rgb = get_contrasting_text_rgb(tpl_profile.bottom_bar_hex)
             else:
                 footer_rgb = (148, 163, 184) if s_tier == "STUDIO" else ScoutsBSAPalette.MUTED_TEXT_RGB
             _set_paragraph_runs(

@@ -16,7 +16,7 @@ The MCP server supports two transport modes out of the box, sharing the same SQL
 flowchart LR
     subgraph Clients["External AI Agents & IDEs"]
         C1["Claude Desktop / Cursor\n(stdio: python -m src.mcp_server)"]
-        C2["Gemini CLI / Jetski\n(stdio or HTTP POST /mcp)"]
+        C2["Gemini CLI / AGY\n(stdio or HTTP POST /mcp)"]
         C3["Google ADK MCPToolset\n(stdio or HTTP /mcp/sse)"]
     end
 
@@ -39,8 +39,8 @@ flowchart LR
 
 | Transport Mode | Entrypoint / Endpoint | Best For |
 | :--- | :--- | :--- |
-| **1. Local `stdio` Transport** | `python -m src.mcp_server` (or `scouts-bsa-mcp` CLI script) | Claude Desktop, Gemini CLI, Jetski, Cursor, Windsurf, and local Python Google ADK `StdioServerParameters` agents. |
-| **2. HTTP JSON-RPC 2.0 & SSE** | `POST /mcp`, `GET /mcp/info`, `GET /mcp/sse` (also aliased under `/api/v1/mcp*`) | Cloud Run deployments, remote agent orchestrators, browser-based testing, and the in-app **Interactive MCP Tool Playground** (`🤖 MCP Hub`). |
+| **1. Local `stdio` Transport** | `python -m src.mcp_server` (or `scouts-bsa-mcp` CLI script) | Claude Desktop, Gemini CLI, AGY, Cursor, Windsurf, and local Python Google ADK `StdioServerParameters` agents. |
+| **2. HTTP JSON-RPC 2.0 & SSE** | `POST /mcp`, `GET /mcp/info`, `GET /mcp/sse` (also aliased under `/api/v1/mcp*`) | Cloud Run deployments, remote agent orchestrators, browser-based testing, and the in-app **Interactive MCP Playground** (`🤖 MCP Hub`). |
 
 ---
 
@@ -64,7 +64,7 @@ You can copy pre-filled configuration snippets directly from the top-bar **`🤖
 }
 ```
 
-### 2.2 Gemini CLI / Jetski (`settings.json`)
+### 2.2 Gemini CLI / AGY (`settings.json`)
 
 ```json
 {
@@ -115,7 +115,7 @@ counselor_assistant = LlmAgent(
 
 ## 3. Grounded `bsa://` MCP Resources (6)
 
-External agents can read structured catalog, requirement, template, and workspace state directly via `resources/read`:
+External agents can read structured catalog, requirement, template, and workspace state directly via `resources/read`. Inside Section 2 of the in-app **`🤖 MCP Hub`**, every resource card includes interactive **`▶ Read Live`** and **`📋 Copy URI`** buttons so you can inspect the live resource payload in the Interactive MCP Playground or copy the URI into an external agent session:
 
 | Resource URI | Name | Returned JSON Payload |
 | :--- | :--- | :--- |
@@ -136,12 +136,12 @@ All 12 tools can be invoked over `stdio` or via `POST /mcp` (`method: "tools/cal
 | :--- | :--- | :--- |
 | **1** | `search_merit_badges` | Filters the 144 official Merit Badges by `query`, `category`, `eagle_only`, or `favorites_only`. |
 | **2** | `query_merit_badge_pamphlet` | Runs Hybrid Okapi BM25 + 768-dim Cosine RRF search across the official BSA Merit Badge pamphlet PDF (`badge_name`, `question`, `top_k`). |
-| **3** | `create_merit_badge_slide_deck` | Builds a complete Merit Badge teaching slide deck, applies `template_id` (`scouting_america_250`, `scouting_america_forest_sunrise`, etc.) and `visual_theme` (`BEAUTIFIED`, `STANDARD`, `STUDIO`), saves a persistent workspace in `counselor_workspaces`, and returns `workspace_id` and `pptx_download_url`. |
+| **3** | `create_merit_badge_slide_deck` | Builds a complete Merit Badge teaching slide deck, applies `template_id` (`scouting_america_250`, `scouting_america_forest_sunrise`, etc.) and `visual_theme` (`WARM_CREAM`, `CRISP_WHITE`, or `DARK_SLATE`; short aliases `CREAM`, `WHITE`, `SLATE` and legacy enum aliases `BEAUTIFIED`, `STANDARD`, `STUDIO` are also accepted), saves a persistent workspace in `counselor_workspaces`, and returns `workspace_id` and `pptx_download_url`. |
 | **4** | `get_slide_deck_workspace` | Loads a saved deck workspace (`workspace_id`), returning its full slide outline, template profile, and Patrol Blue Card (`#34124`) roster. |
 | **5** | `update_slide_in_deck` | Surgically updates a slide (`workspace_id`, `slide_index`) with new `title`, `bullet_points`, `presenter_notes`, `archetype`, or `visual_caption`. |
 | **6** | `polish_slide_teaching_notes` | Compiles or polishes conversational first-person `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` counselor teaching scripts with inline stage cues (`workspace_id`, `slide_index`, `audience_level`). |
 | **7** | `generate_or_select_slide_image` | Lists curated slide image choices (`action="list_choices"`), selects an alternate choice (`action="select_choice"`, `choice_index`), or generates a custom Nano Banana illustration (`action="generate_custom"`, `custom_prompt`, `include_slide_context`, `user_consented`). Enforces Model Armor YPT/safety checks and the `$0.08` FinOps consent gate. |
-| **8** | `apply_powerpoint_template` | Switches a saved workspace (`workspace_id`) to any built-in or uploaded PowerPoint template (`template_id`, `visual_theme`, `accent_palette_key`) and rebuilds the `.pptx` deck using `SafeCanvasBounds`. |
+| **8** | `apply_powerpoint_template` | Switches a saved workspace (`workspace_id`) to any built-in or uploaded PowerPoint template (`template_id`, `visual_theme` (`WARM_CREAM`, `CRISP_WHITE`, `DARK_SLATE`, or aliases), `accent_palette_key`) and rebuilds the `.pptx` deck using `SafeCanvasBounds`. |
 | **9** | `export_slide_deck` | Exports a workspace (`workspace_id`) as a downloadable `.pptx` presentation (`export_format="pptx"`) or returns scannable ISO 18004 QR checklist links (`export_format="pocket_checklist"`). |
 | **10** | `generate_class_prep_and_parent_letter` | Generates a timed counselor session agenda and Prerequisite Parent/Scoutmaster Letter (`workspace_id`, `session_mode`, `camp_or_location`). |
 | **11** | `manage_patrol_blue_card_roster` | Manages Application for Merit Badge (`#34124`) Scout attendees (`action="list"`, `"add_or_update_scout"`, `"copy_roster_from_workspace"`, or `"export_scoutbook_csv"`). |
@@ -149,7 +149,11 @@ All 12 tools can be invoked over `stdio` or via `POST /mcp` (`method: "tools/cal
 
 ---
 
-## 5. Guided Counselor MCP Prompts (4)
+## 5. Guided Counselor MCP Prompts (4) & Interactive MCP Playground
+
+MCP Prompts are reusable multi-step workflow templates exposed via the standard `prompts/list` and `prompts/get` JSON-RPC 2.0 methods. In MCP-compatible clients such as **Claude Desktop**, **Gemini CLI / AGY**, and **Cursor**, these prompts appear directly in the `/` slash-command picker (for example, `/build-camp-merit-badge-curriculum`). When selected, the server returns a structured multi-step instruction message that guides the host AI agent through reading the appropriate `bsa://` resources and calling the Workbench's MCP tools in sequence.
+
+Inside Section 2 of the in-app **`🤖 MCP Hub`**, each prompt card also includes **`▶ Execute Prompt`** and **`📋 Copy Prompt`** buttons so you can run the prompt live in the Interactive MCP Playground or copy the rendered workflow prompt to your clipboard.
 
 | Prompt Name | Arguments | Workflow Summary |
 | :--- | :--- | :--- |
@@ -157,6 +161,15 @@ All 12 tools can be invoked over `stdio` or via `POST /mcp` (`method: "tools/cal
 | `prepare-merit-badge-midway-bundle` | `badge_names_csv`, `template_id` | Batch-creates harmonized slide decks and parent prerequisite letters across multiple badges for a Council Merit Badge Midway. |
 | `review-scout-blue-card-signoffs` | `workspace_id` | Audits each Scout's completed requirements against the official requirement tree and exports a Scoutbook-ready CSV. |
 | `customize-slide-deck-for-local-troop` | `workspace_id`, `state_code`, `city_or_camp` | Tailors a saved deck workspace and teaching scripts to local state weather, terrain, and council camp context. |
+
+### 5.1 In-App Interactive MCP Playground (`[📊 Visual Card Preview | { } Raw JSON-RPC 2.0]`)
+
+Section 3 of the **`🤖 MCP Hub`** provides a full-height Interactive MCP Playground (`min-height: 440px`) that supports all **22 MCP capabilities** (**12 Tools**, **6 `bsa://` Resources**, and **4 Guided Prompts**) directly from the browser:
+
+- **Unified Capability Selector**: Pick any of the 12 Tools (`tools/call`), 6 `bsa://` Resources (`resources/read`), or 4 Guided Prompts (`prompts/get`) from the grouped selector, or click any card in Section 2 to auto-populate the JSON arguments editor and execute immediately.
+- **Dual-Mode Output Toggle (`[📊 Visual Card Preview | { } Raw JSON-RPC 2.0]`)**:
+  - **`📊 Visual Card Preview`**: Renders human-friendly Material 3 summary cards for Merit Badge search results (with patch emblems and Eagle-Required pills), pamphlet BM25+Vector passages, template safe-zone profiles, saved deck workspaces, Blue Card rosters, and multi-step guided prompt workflows.
+  - **`{ } Raw JSON-RPC 2.0`**: Displays the exact JSON-RPC 2.0 response envelope returned by `POST /mcp`, alongside a live RPC latency and status pill (`200 OK • X ms`) and a 1-click **`📋 Copy Response`** button.
 
 ---
 
@@ -182,7 +195,7 @@ curl -s -X POST http://localhost:8080/mcp \
       "arguments": {
         "badge_name": "First Aid",
         "template_id": "scouting_america_250",
-        "visual_theme": "BEAUTIFIED",
+        "visual_theme": "WARM_CREAM",
         "workspace_title": "First Aid - Morning Patrol",
         "session_label": "Period 1 (9:00 AM)"
       }

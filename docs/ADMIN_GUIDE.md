@@ -181,7 +181,7 @@ Configure the following environment variables in `.env` (for local runs) or in y
 
 ## 8. Admin REST API Reference (`/api/v1/admin/*` & `/api/admin/*`)
 
-All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `117` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
+All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `119` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
 
 | Method & Path | Request Payload / Query Params | Response Summary |
 | :--- | :--- | :--- |

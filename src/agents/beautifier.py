@@ -115,7 +115,9 @@ def generate_ai_editorial_illustration(
             remediation="Provide a valid Scouts BSA Merit Badge name such as 'Weather' or 'First Aid'.",
         )
 
-    tier_tag = str(beautification_tier or "BEAUTIFIED").strip().upper()
+    from src.tools.template_engine import normalize_visual_theme
+
+    tier_tag = normalize_visual_theme(beautification_tier)
     req_tag = str(req_number or "").strip()
     if not req_tag and slide_title:
         import re as _re
@@ -499,10 +501,10 @@ def beautify_slide_storyboard(
             remediation="Call generate_slide_storyboard first and pass its output dictionary.",
         )
 
+    from src.tools.template_engine import normalize_visual_theme
+
     badge_name = str(storyboard.get("badge_name") or "First Aid").strip()
-    tier_upper = str(beautification_tier or "BEAUTIFIED").strip().upper()
-    if tier_upper not in ("STANDARD", "BEAUTIFIED", "STUDIO"):
-        tier_upper = "BEAUTIFIED"
+    tier_upper = normalize_visual_theme(beautification_tier)
 
     effective_max_images = (
         0

@@ -1110,7 +1110,7 @@ def save_counselor_workspace(
         slug = re.sub(r"[^a-z0-9]+", "_", badge_name.lower()).strip("_") or "badge"
         ws_id = f"ws_{slug}_{uuid.uuid4().hex[:8]}"
 
-    ws_title = str(workspace_payload.get("workspace_title") or f"{badge_name} Merit Badge Deck").strip()
+    ws_title = str(workspace_payload.get("workspace_title") or badge_name).strip()
     session_label = str(workspace_payload.get("session_label") or "").strip()
     camp_bundle_tag = str(workspace_payload.get("camp_bundle_tag") or "").strip()
     template_id = str(workspace_payload.get("template_id") or "default_workbench").strip()
@@ -1300,18 +1300,20 @@ def clone_counselor_workspace(
     workspace_id: str,
     new_title: Optional[str] = None,
     session_label: Optional[str] = None,
+    camp_bundle_tag: Optional[str] = None,
     copy_roster: bool = False,
     store: Optional[PersistentSessionStore] = None,
 ) -> Optional[Dict[str, Any]]:
-    """Clones an existing deck workspace (preserving slide edits, template, and speaker notes) for a new class section."""
+    """Clones an existing deck workspace (preserving all three metadata fields: workspace_title, session_label, and camp_bundle_tag, plus slide edits, template, and speaker notes)."""
     src = get_counselor_workspace(workspace_id, include_deck_payload=True, store=store)
     if not src:
         return None
     badge_name = src["badge_name"]
     slug = re.sub(r"[^a-z0-9]+", "_", badge_name.lower()).strip("_") or "badge"
     new_id = f"ws_{slug}_{uuid.uuid4().hex[:8]}"
-    label = (session_label if session_label is not None else "Section 2 / Afternoon Patrol").strip()
-    title = (new_title or f"{badge_name} ({label})").strip()
+    label = (session_label if session_label is not None else (src.get("session_label") or "")).strip()
+    bundle_tag = (camp_bundle_tag if camp_bundle_tag is not None else (src.get("camp_bundle_tag") or "")).strip()
+    title = (new_title if new_title is not None else (src.get("workspace_title") or badge_name)).strip()
     roster = dict(src.get("blue_card_roster") or {}) if copy_roster else {"scouts": []}
     if copy_roster and isinstance(roster.get("scouts"), list):
         # Copy attendees but reset completed requirements if desired or keep intact
@@ -1321,7 +1323,7 @@ def clone_counselor_workspace(
         "workspace_title": title,
         "badge_name": badge_name,
         "session_label": label,
-        "camp_bundle_tag": src.get("camp_bundle_tag", ""),
+        "camp_bundle_tag": bundle_tag,
         "template_id": src.get("template_id", "default_workbench"),
         "counselor_info": src.get("counselor_info", {}),
         "deck_result": src.get("deck_result", {}),

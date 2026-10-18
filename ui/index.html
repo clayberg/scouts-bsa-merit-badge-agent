@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261018a" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261018b" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -45,12 +45,11 @@
     <div class="m3-top-actions">
       <button
         type="button"
-        class="m3-chip m3-chip-primary"
+        class="m3-chip m3-chip-primary m3-top-profile-pill"
         id="top-counselor-profile-chip"
         title="Click to edit your cached Counselor Profile &amp; Troop Info"
-        style="cursor:pointer; border:1px solid #93C5FD; padding:5px 10px; font-size:0.74rem; max-width:185px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;"
       >
-        👤 <span id="top-counselor-chip-text" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">Scoutmaster Bob &bull; Troop 123</span>
+        👤 <span id="top-counselor-chip-text"><span id="top-counselor-chip-name">Scoutmaster Bob</span><span id="top-counselor-chip-affil"> &bull; Troop 123, My Council</span></span>
       </button>
       <button
         type="button"
@@ -190,7 +189,7 @@
             <label class="m3-field-label" for="filter-eagle-select">Eagle / Favorites</label>
             <select class="m3-select" id="filter-eagle-select">
               <option value="ALL">All Badges (144)</option>
-              <option value="FAVORITES">⭐ My Favorites</option>
+              <option value="FAVORITES">Favorites (0)</option>
               <option value="EAGLE">Eagle-Required (18)</option>
               <option value="ELECTIVE">Electives (126)</option>
             </select>
@@ -650,16 +649,29 @@
               </div>
               <span class="m3-chip m3-chip-secondary" id="active-slide-req-chip" style="padding:3px 8px; font-size:0.71rem; white-space:nowrap; flex-shrink:0;">Cover</span>
               <span class="m3-chip m3-chip-gold hidden" id="active-slide-grounded-chip" style="padding:3px 8px; font-size:0.70rem; white-space:nowrap; flex-shrink:0;">🌐 Grounded</span>
-              <!-- PLAN 16A: 1-CLICK STAGE TEMPLATE SWITCHER PILL -->
-              <button
-                type="button"
-                class="m3-btn m3-btn-tonal m3-stage-compact-btn"
-                id="btn-stage-template-picker"
-                title="Switch PowerPoint Template across the entire slide deck or upload a custom .PPTX/.PPT/Image template"
-                style="font-weight:800;"
-              >
-                🖼️ <span id="stage-template-pill-label">Workbench Classic</span> ▾
-              </button>
+              <!-- PLAN 16A + PLAN 17: SPLIT-BUTTON STAGE TEMPLATE SWITCHER PILL + DROPDOWN -->
+              <div class="m3-split-export-group m3-stage-template-split-group" id="stage-template-split-group">
+                <button
+                  type="button"
+                  class="m3-btn m3-btn-tonal m3-stage-compact-btn m3-split-main-btn"
+                  id="btn-stage-template-picker"
+                  title="Open PowerPoint Template &amp; Custom Slide Theme Studio"
+                  style="font-weight:800;"
+                >
+                  🖼️ <span id="stage-template-pill-label">Workbench Classic</span>
+                </button>
+                <button
+                  type="button"
+                  class="m3-btn m3-btn-tonal m3-stage-compact-btn m3-split-caret-btn"
+                  id="btn-stage-template-caret"
+                  title="Instant PowerPoint Template Switcher Dropdown"
+                  aria-haspopup="menu"
+                  aria-expanded="false"
+                >
+                  ▾
+                </button>
+                <div class="m3-export-dropdown-menu m3-stage-template-dropdown-menu hidden" id="stage-template-dropdown-menu" role="menu" aria-label="PowerPoint Template Quick Switcher"></div>
+              </div>
             </div>
             <div class="m3-stage-toolbar-right">
               <!-- FEATURE C1: LIVE CLASSROOM SESSION & SKILL STATION COUNTDOWN TIMER -->
@@ -799,12 +811,20 @@
               <span id="stage-footer-left">Scouts BSA Merit Badge Series</span>
               <span id="stage-footer-right">Slide 1</span>
             </div>
-            <!-- PLAN 16A: LIVE POWERPOINT TEMPLATE BRANDING OVERLAY & SAFE-ZONE X-RAY LAYER -->
+            <!-- PLAN 16A + PLAN 17: LIVE POWERPOINT TEMPLATE BRANDING OVERLAY & 3-BOX ANATOMICAL SAFE-ZONE X-RAY LAYER -->
             <div class="m3-slide-template-overlay hidden" id="slide-template-overlay-layer" aria-hidden="true"></div>
             <div class="m3-slide-safezone-xray hidden" id="slide-safezone-xray-layer" aria-hidden="true">
-              <div class="m3-xray-zone m3-xray-header">ZONE 1: HEADER SAFE ZONE (0.20"&ndash;1.02")</div>
-              <div class="m3-xray-zone m3-xray-content" id="xray-content-zone-label">ZONES 2&ndash;4: INSTRUCTIONAL CARDS &amp; VISUAL SAFE CANVAS (1.12"&ndash;6.54")</div>
-              <div class="m3-xray-zone m3-xray-footer" id="xray-footer-zone-label">RESERVED TEMPLATE FOOTER &amp; LOGO ZONE (6.55"&ndash;7.50")</div>
+              <div class="m3-xray-box m3-xray-box-header" id="xray-box-header">
+                <span class="m3-xray-badge m3-xray-badge-header" id="xray-header-zone-label">ZONE 1: HEADER SAFE BOX (0.20"&ndash;1.02" &bull; 12.13" &times; 0.82")</span>
+              </div>
+              <div class="m3-xray-box m3-xray-box-content" id="xray-box-content">
+                <span class="m3-xray-badge m3-xray-badge-content" id="xray-content-zone-label">ZONE 2: ACTIVE CONTENT &amp; SAFETY SAFE-BOX (1.12"&ndash;6.54" &bull; 12.13" &times; 5.42")</span>
+                <span class="m3-xray-delta-callout" id="xray-geometry-delta-pill">▲ Lifted +0.41" above template footer bar &amp; corner logo</span>
+              </div>
+              <div class="m3-xray-box m3-xray-box-footer" id="xray-box-footer">
+                <span class="m3-xray-badge m3-xray-badge-footer" id="xray-footer-zone-label">ZONE 3: RESERVED TEMPLATE FOOTER &amp; BRANDING BAR (6.54"&ndash;7.50")</span>
+                <div class="m3-xray-logo-box" id="xray-box-logo">PROTECTED CORNER LOGO</div>
+              </div>
             </div>
           </div>
 
@@ -2131,13 +2151,24 @@
         </div>
         <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
           <span class="m3-chip m3-chip-secondary" id="patch-gallery-count-chip" style="font-size:0.74rem;">144 of 144 Badges</span>
+          <button
+            type="button"
+            class="m3-patch-header-fav-toggle"
+            id="btn-patch-gallery-fav-filter"
+            title="Toggle favorites filter"
+            aria-label="Toggle favorites filter"
+            aria-pressed="false"
+          >
+            <span class="m3-patch-header-fav-star" id="patch-gallery-fav-filter-icon">☆</span>
+            <span id="patch-gallery-fav-filter-label">Favorites</span>
+          </button>
           <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 144 patches..." style="width:190px; padding:6px 10px; font-size:0.80rem;" />
           <select class="m3-select" id="patch-gallery-category-select" aria-label="Filter Patch Gallery by Category" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All Categories</option>
           </select>
           <select class="m3-select" id="patch-gallery-filter-select" aria-label="Filter Patch Gallery by Eagle or Favorites Status" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All 144 Badges</option>
-            <option value="FAVORITES">⭐ My Favorites</option>
+            <option value="FAVORITES">Favorites</option>
             <option value="EAGLE">★ Eagle-Required (18)</option>
             <option value="ELECTIVE">Elective Badges (126)</option>
           </select>
@@ -2606,24 +2637,96 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
       <div style="padding:14px 22px 22px; overflow-y:auto; flex:1 1 auto; min-height:0;">
         <!-- SAVE / UPDATE CURRENT DECK FORM BAR -->
-        <div class="m3-ws-save-bar" style="display:grid; grid-template-columns:1.3fr 1fr 1fr auto auto; gap:10px; align-items:end; padding:12px 14px; border-radius:12px; border:1px solid #BFDBFE; background:#EFF6FF; margin-bottom:14px;">
+        <div class="m3-ws-save-bar" style="display:grid; grid-template-columns:1.25fr 1.05fr 1.05fr auto auto; gap:10px; align-items:end; padding:12px 14px; border-radius:12px; border:1px solid #BFDBFE; background:#EFF6FF; margin-bottom:14px;">
           <div>
             <label class="m3-field-label" for="ws-title-input" style="font-size:0.72rem;">Active Deck Title</label>
-            <input type="text" id="ws-title-input" class="m3-input" placeholder="e.g., First Aid — Morning Patrol (Troop 19)" style="padding:6px 10px; font-size:0.79rem;" />
+            <input type="text" id="ws-title-input" class="m3-input" placeholder="e.g., First Aid" style="padding:6px 10px; font-size:0.79rem;" />
           </div>
-          <div>
+          <div class="m3-ws-combobox-wrap" id="ws-session-combobox-wrap" style="position:relative;">
             <label class="m3-field-label" for="ws-session-label-input" style="font-size:0.72rem;">Class Section / Period</label>
-            <input type="text" id="ws-session-label-input" class="m3-input" placeholder="e.g., Period 1 (9:00 AM)" style="padding:6px 10px; font-size:0.79rem;" />
+            <div class="m3-ws-combobox-input-group">
+              <input
+                type="text"
+                id="ws-session-label-input"
+                list="ws-session-datalist"
+                class="m3-input m3-ws-combo-input"
+                placeholder="Optional (click ▾ for examples)"
+                style="padding:6px 28px 6px 10px; font-size:0.79rem;"
+              />
+              <button
+                type="button"
+                class="m3-ws-combo-caret-btn"
+                id="btn-ws-session-presets"
+                title="Choose an illustrative Class Section / Period example or type your own"
+                aria-label="Toggle Class Section examples"
+              >▾</button>
+            </div>
+            <datalist id="ws-session-datalist">
+              <option value="Period 1 (9:00 AM)"></option>
+              <option value="Period 2 (10:15 AM)"></option>
+              <option value="Morning Session (9:00 AM – 12:00 PM)"></option>
+              <option value="Afternoon Patrol (2:00 PM – 4:30 PM)"></option>
+              <option value="Evening Troop Meeting (7:00 PM)"></option>
+              <option value="First-Year Camper / Trailblazer"></option>
+              <option value="Older Scouts / Eagle Prep Section"></option>
+            </datalist>
+            <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-session-presets-menu" role="listbox">
+              <div class="m3-ws-combo-menu-kicker">Class Section / Period Examples</div>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="">(Leave Blank)</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="Period 1 (9:00 AM)">Period 1 (9:00 AM)</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="Period 2 (10:15 AM)">Period 2 (10:15 AM)</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="Morning Session (9:00 AM – 12:00 PM)">Morning Session (9:00 AM – 12:00 PM)</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="Afternoon Patrol (2:00 PM – 4:30 PM)">Afternoon Patrol (2:00 PM – 4:30 PM)</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="Evening Troop Meeting (7:00 PM)">Evening Troop Meeting (7:00 PM)</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="First-Year Camper / Trailblazer">First-Year Camper / Trailblazer</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-session-label-input" data-ws-preset-val="Older Scouts / Eagle Prep Section">Older Scouts / Eagle Prep Section</button>
+            </div>
           </div>
-          <div>
+          <div class="m3-ws-combobox-wrap" id="ws-bundle-combobox-wrap" style="position:relative;">
             <label class="m3-field-label" for="ws-bundle-tag-input" style="font-size:0.72rem;">Camp Week / Midway Tag</label>
-            <input type="text" id="ws-bundle-tag-input" class="m3-input" placeholder="e.g., Summer Camp Week 2" style="padding:6px 10px; font-size:0.79rem;" />
+            <div class="m3-ws-combobox-input-group">
+              <input
+                type="text"
+                id="ws-bundle-tag-input"
+                list="ws-bundle-datalist"
+                class="m3-input m3-ws-combo-input"
+                placeholder="Optional (click ▾ for examples)"
+                style="padding:6px 28px 6px 10px; font-size:0.79rem;"
+              />
+              <button
+                type="button"
+                class="m3-ws-combo-caret-btn"
+                id="btn-ws-bundle-presets"
+                title="Choose an illustrative Camp Week / Midway Tag example or type your own"
+                aria-label="Toggle Camp Week / Midway Tag examples"
+              >▾</button>
+            </div>
+            <datalist id="ws-bundle-datalist">
+              <option value="Summer Camp Week 1"></option>
+              <option value="Summer Camp Week 2"></option>
+              <option value="Council Merit Badge Midway"></option>
+              <option value="District Merit Badge College"></option>
+              <option value="Fall Camporee Skill Station"></option>
+              <option value="Winter Cabin Lock-In"></option>
+              <option value="Spring Eagle Trail Weekend"></option>
+            </datalist>
+            <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-bundle-presets-menu" role="listbox">
+              <div class="m3-ws-combo-menu-kicker">Camp Week / Midway Tag Examples</div>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="">(Leave Blank)</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 1">Summer Camp Week 1</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 2">Summer Camp Week 2</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Council Merit Badge Midway">Council Merit Badge Midway</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="District Merit Badge College">District Merit Badge College</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Fall Camporee Skill Station">Fall Camporee Skill Station</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Winter Cabin Lock-In">Winter Cabin Lock-In</button>
+              <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Spring Eagle Trail Weekend">Spring Eagle Trail Weekend</button>
+            </div>
           </div>
           <button type="button" class="m3-btn m3-btn-filled" id="btn-modal-save-workspace" style="padding:7px 14px; font-size:0.78rem; font-weight:800; white-space:nowrap;">
             💾 Save Active Deck
           </button>
-          <button type="button" class="m3-btn m3-btn-tonal" id="btn-modal-clone-workspace" title="Save as a new class section copy (e.g. Afternoon Patrol)" style="padding:7px 12px; font-size:0.78rem; font-weight:800; white-space:nowrap;">
-            📑 Clone for New Section
+          <button type="button" class="m3-btn m3-btn-tonal" id="btn-modal-clone-workspace" title="Clone this deck (copying Title, Class Section/Period, and Camp Week/Midway Tag)" style="padding:7px 12px; font-size:0.78rem; font-weight:800; white-space:nowrap;">
+            📑 Clone Deck
           </button>
         </div>
 
@@ -2632,9 +2735,9 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
     </div>
   </div>
 
-  <!-- PLAN 16C MODAL: OFFICIAL SCOUTS BSA WORKBENCH MCP SERVER HUB & INTERACTIVE TOOL PLAYGROUND -->
+  <!-- PLAN 16C + PLAN 17 MODAL: OFFICIAL SCOUTS BSA WORKBENCH MCP SERVER HUB & INTERACTIVE TOOL PLAYGROUND -->
   <div class="m3-modal-backdrop hidden" id="mcp-hub-modal" role="dialog" aria-modal="true" aria-labelledby="mcp-hub-modal-title">
-    <div class="m3-modal-dialog m3-mcp-hub-dialog" style="max-width:1080px; width:95%; max-height:90vh; display:flex; flex-direction:column; overflow:hidden; padding:0;">
+    <div class="m3-modal-dialog m3-mcp-hub-dialog" style="max-width:1120px; width:96%; height:88vh; max-height:90vh; display:flex; flex-direction:column; overflow:hidden; padding:0;">
       <div class="m3-mcp-hub-header" style="display:flex; align-items:center; justify-content:space-between; gap:12px; padding:16px 22px; border-bottom:2px solid #E2E8F0; background:#FFFFFF; flex-shrink:0; flex-wrap:wrap;">
         <div>
           <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
@@ -2646,7 +2749,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
             </span>
           </div>
           <div style="font-size:0.80rem; color:#475569; margin-top:3px;">
-            Connect Claude Desktop, Gemini CLI, Jetski, Cursor, or Google ADK agents directly to the Workbench via <strong>12 MCP Tools</strong>, <strong>6 Grounded <code>bsa://</code> Resources</strong>, and <strong>4 Pedagogical Prompts</strong>.
+            Connect Claude Desktop, Gemini CLI / AGY, Cursor, or Google ADK agents directly to the Workbench via <strong>12 MCP Tools</strong>, <strong>6 Grounded <code>bsa://</code> Resources</strong>, and <strong>4 Pedagogical Prompts</strong>.
           </div>
         </div>
         <div style="display:flex; align-items:center; gap:8px;">
@@ -2657,16 +2760,16 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
         </div>
       </div>
 
-      <div style="padding:16px 22px 22px; overflow-y:auto; flex:1 1 auto; min-height:0;" id="mcp-hub-body">
-        <div style="display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1.15fr); gap:16px; align-items:start;">
-          <!-- LEFT COLUMN: 1-CLICK CLIENT CONFIG GENERATOR & RESOURCES/PROMPTS -->
-          <div style="display:flex; flex-direction:column; gap:12px; min-width:0;">
+      <div style="padding:16px 22px 20px; overflow-y:auto; flex:1 1 auto; min-height:0; display:flex; flex-direction:column;" id="mcp-hub-body">
+        <div class="m3-mcp-hub-grid" style="display:grid; grid-template-columns:minmax(0, 0.96fr) minmax(0, 1.24fr); gap:16px; align-items:stretch; flex:1 1 auto; min-height:0;">
+          <!-- LEFT COLUMN: 1-CLICK CLIENT CONFIG GENERATOR & INTERACTIVE RESOURCES/PROMPTS -->
+          <div style="display:flex; flex-direction:column; gap:12px; min-width:0; overflow-y:auto; max-height:100%;">
             <div class="m3-card" style="padding:14px;">
               <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:8px; flex-wrap:wrap;">
                 <div style="font-size:0.84rem; font-weight:800; color:#003F87;">1. 1-Click MCP Client Configuration</div>
                 <div style="display:flex; gap:4px; flex-wrap:wrap;" id="mcp-client-tabs">
                   <button type="button" class="m3-quick-mode-btn active" data-mcp-client="claude">Claude Desktop</button>
-                  <button type="button" class="m3-quick-mode-btn" data-mcp-client="gemini">Gemini CLI / Jetski</button>
+                  <button type="button" class="m3-quick-mode-btn" data-mcp-client="gemini">Gemini CLI / AGY</button>
                   <button type="button" class="m3-quick-mode-btn" data-mcp-client="cursor">Cursor</button>
                   <button type="button" class="m3-quick-mode-btn" data-mcp-client="adk">Python ADK</button>
                 </div>
@@ -2677,26 +2780,31 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               </button>
             </div>
 
-            <div class="m3-card" style="padding:14px;">
-              <div style="font-size:0.84rem; font-weight:800; color:#003F87; margin-bottom:6px;">
-                2. Grounded <code>bsa://</code> Resources (6) &amp; Prompts (4)
+            <div class="m3-card" style="padding:14px; flex:1 1 auto;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; margin-bottom:6px; flex-wrap:wrap;">
+                <div style="font-size:0.84rem; font-weight:800; color:#003F87;">
+                  2. Grounded <code>bsa://</code> Resources (6) &amp; Guided Prompts (4)
+                </div>
+                <span style="font-size:0.69rem; color:#64748B; font-weight:700;">Click ▶ to execute or 📋 to copy</span>
               </div>
               <div id="mcp-resources-and-prompts-list" style="font-size:0.76rem; display:flex; flex-direction:column; gap:6px;"></div>
             </div>
           </div>
 
-          <!-- RIGHT COLUMN: INTERACTIVE LIVE JSON-RPC 2.0 MCP TOOL PLAYGROUND -->
-          <div class="m3-card" style="padding:14px; min-width:0;">
-            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; gap:8px; flex-wrap:wrap;">
+          <!-- RIGHT COLUMN: INTERACTIVE LIVE JSON-RPC 2.0 MCP TOOL PLAYGROUND (FILLS REMAINING WINDOW HEIGHT) -->
+          <div class="m3-card m3-mcp-playground-card" style="padding:14px; min-width:0; display:flex; flex-direction:column; height:100%; min-height:540px;">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; gap:8px; flex-wrap:wrap; flex-shrink:0;">
               <div style="font-size:0.84rem; font-weight:800; color:#003F87;">
                 3. Interactive MCP JSON-RPC 2.0 Tool &amp; Resource Playground (<code>POST /mcp</code>)
               </div>
-              <span class="m3-chip m3-chip-secondary" style="font-size:0.70rem;">Protocol 2024-11-05</span>
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                <span class="m3-chip m3-chip-secondary" id="mcp-playground-latency-pill" style="font-size:0.68rem;">Protocol 2024-11-05</span>
+              </div>
             </div>
 
-            <div style="display:grid; grid-template-columns:minmax(0, 1fr) auto; gap:8px; align-items:end; margin-bottom:8px;">
+            <div style="display:grid; grid-template-columns:minmax(0, 1fr) auto; gap:8px; align-items:end; margin-bottom:8px; flex-shrink:0;">
               <div style="min-width:0;">
-                <label class="m3-field-label" for="mcp-playground-tool-select" style="font-size:0.73rem;">Select MCP Tool or Resource Action</label>
+                <label class="m3-field-label" for="mcp-playground-tool-select" style="font-size:0.73rem;">Select MCP Tool, Resource URI, or Guided Prompt</label>
                 <select id="mcp-playground-tool-select" class="m3-select" style="padding:6px 10px; font-size:0.79rem; width:100%;">
                   <option value="search_merit_badges">🛠️ Tool: search_merit_badges (Filter 144 Merit Badges)</option>
                   <option value="query_merit_badge_pamphlet">🛠️ Tool: query_merit_badge_pamphlet (Hybrid BM25+Vector RRF RAG)</option>
@@ -2710,8 +2818,15 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                   <option value="generate_class_prep_and_parent_letter">🛠️ Tool: generate_class_prep_and_parent_letter (Agenda + Parent Letter)</option>
                   <option value="manage_patrol_blue_card_roster">🛠️ Tool: manage_patrol_blue_card_roster (#34124 Roster &amp; Scoutbook CSV)</option>
                   <option value="audit_deck_conformance">🛠️ Tool: audit_deck_conformance (Stage-1 AABB Geometry Audit)</option>
+                  <option value="resource:bsa://catalog/badges">📚 Resource: bsa://catalog/badges (Read All 144 Merit Badges)</option>
+                  <option value="resource:bsa://badges/First Aid/requirements">📚 Resource: bsa://badges/First Aid/requirements (Read Verbatim Reqs)</option>
+                  <option value="resource:bsa://badges/First Aid/images">📚 Resource: bsa://badges/First Aid/images (Read Curated Visuals)</option>
                   <option value="resource:bsa://templates/catalog">📚 Resource: bsa://templates/catalog (Read Template Profiles)</option>
                   <option value="resource:bsa://workspaces/list">📚 Resource: bsa://workspaces/list (Read Saved Workspaces)</option>
+                  <option value="prompt:build-camp-merit-badge-curriculum">💬 Prompt: build-camp-merit-badge-curriculum (5-Day Camp Plan)</option>
+                  <option value="prompt:prepare-merit-badge-midway-bundle">💬 Prompt: prepare-merit-badge-midway-bundle (Midway Multi-Deck)</option>
+                  <option value="prompt:review-scout-blue-card-signoffs">💬 Prompt: review-scout-blue-card-signoffs (#34124 Sign-Off Audit)</option>
+                  <option value="prompt:customize-slide-deck-for-local-troop">💬 Prompt: customize-slide-deck-for-local-troop (Local Grounding)</option>
                 </select>
               </div>
               <button type="button" class="m3-btn m3-btn-filled" id="btn-run-mcp-playground" style="padding:7px 14px; font-size:0.78rem; font-weight:800;">
@@ -2719,17 +2834,94 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               </button>
             </div>
 
-            <label class="m3-field-label" for="mcp-playground-args-textarea" style="font-size:0.72rem;">JSON-RPC Arguments Payload</label>
-            <textarea id="mcp-playground-args-textarea" class="m3-input" rows="5" style="font-family:var(--font-mono); font-size:0.75rem; margin-bottom:8px;"></textarea>
+            <div style="flex-shrink:0;">
+              <label class="m3-field-label" for="mcp-playground-args-textarea" style="font-size:0.72rem;">JSON-RPC Arguments Payload</label>
+              <textarea id="mcp-playground-args-textarea" class="m3-input" rows="4" style="font-family:var(--font-mono); font-size:0.74rem; margin-bottom:8px;"></textarea>
+            </div>
 
-            <div style="font-size:0.72rem; font-weight:800; color:#475569; margin-bottom:4px;">Live JSON-RPC 2.0 Response from <code>POST /mcp</code>:</div>
-            <pre id="mcp-playground-output" style="background:#0F172A; color:#A7F3D0; padding:10px 12px; border-radius:8px; font-size:0.73rem; max-height:240px; overflow:auto; margin:0; font-family:var(--font-mono);">Click "▶ Execute via /mcp" to run a live JSON-RPC 2.0 call against the server.</pre>
+            <!-- RESPONSE HEADER WITH VISUAL CARD PREVIEW vs RAW JSON-RPC TOGGLE -->
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:6px; flex-wrap:wrap; flex-shrink:0;">
+              <div style="font-size:0.73rem; font-weight:800; color:#475569;">
+                Live Response from <code>POST /mcp</code>:
+              </div>
+              <div style="display:flex; align-items:center; gap:6px;">
+                <div class="m3-quick-mode-toggle" id="mcp-response-view-tabs" role="tablist" aria-label="MCP Response View Mode">
+                  <button type="button" class="m3-quick-mode-btn active" data-mcp-view="visual" id="btn-mcp-view-visual">📊 Visual Card Preview</button>
+                  <button type="button" class="m3-quick-mode-btn" data-mcp-view="json" id="btn-mcp-view-json">{ } Raw JSON-RPC 2.0</button>
+                </div>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-mcp-response" title="Copy JSON-RPC response to clipboard" style="padding:3px 8px; font-size:0.69rem; font-weight:700;">
+                  📋 Copy
+                </button>
+              </div>
+            </div>
+
+            <div id="mcp-playground-visual-preview" class="m3-mcp-visual-preview-box" style="flex:1 1 auto; min-height:380px; overflow:auto;">
+              <div style="color:#64748B; font-size:0.78rem; padding:18px; text-align:center;">
+                Click <strong>"▶ Execute via /mcp"</strong> (or click any Resource / Prompt in Section 2) to inspect the live response as interactive visual cards or raw JSON-RPC 2.0.
+              </div>
+            </div>
+            <pre id="mcp-playground-output" class="hidden" style="background:#0F172A; color:#A7F3D0; padding:12px 14px; border-radius:10px; font-size:0.74rem; flex:1 1 auto; min-height:380px; overflow:auto; margin:0; font-family:var(--font-mono);">Click "▶ Execute via /mcp" to run a live JSON-RPC 2.0 call against the server.</pre>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="/ui/app.js?v=20261018a"></script>
+  <!-- PLAN 17 MODAL: CONFIRM DELETE SAVED DECK WORKSPACE (WITH "DON'T ASK AGAIN" CHECKBOX) -->
+  <div class="m3-modal-backdrop hidden" id="delete-workspace-confirm-modal" role="dialog" aria-modal="true" aria-labelledby="delete-ws-confirm-title">
+    <div class="m3-modal-dialog" style="max-width:460px; width:92%; padding:22px; border-radius:16px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; border-bottom:1px solid #E2E8F0; padding-bottom:8px;">
+        <h3 id="delete-ws-confirm-title" style="font-family:'Roboto Slab',serif; font-size:1.05rem; font-weight:800; color:#B91C1C; margin:0;">
+          🗑️ Delete Saved Deck?
+        </h3>
+        <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-delete-ws-confirm" style="padding:4px 10px; font-size:0.78rem;">✕</button>
+      </div>
+      <p id="delete-ws-confirm-message" style="font-size:0.84rem; color:#334155; margin:0 0 12px 0; line-height:1.45;">
+        Are you sure you want to delete this saved deck from your Merit Badge Library?
+      </p>
+      <label style="display:flex; align-items:center; gap:8px; font-size:0.79rem; font-weight:600; color:#475569; margin-bottom:16px; cursor:pointer;">
+        <input type="checkbox" id="chk-skip-delete-deck-confirm" style="width:16px; height:16px; accent-color:#003F87;" />
+        <span>Don't ask again when deleting decks</span>
+      </label>
+      <div style="display:flex; align-items:center; justify-content:flex-end; gap:8px;">
+        <button type="button" class="m3-btn m3-btn-outlined" id="btn-cancel-delete-ws-confirm" style="padding:6px 14px; font-size:0.80rem;">Cancel</button>
+        <button type="button" class="m3-btn m3-btn-filled" id="btn-confirm-delete-ws-action" style="padding:6px 14px; font-size:0.80rem; background:#DC2626; border-color:#DC2626; color:#FFFFFF;">
+          🗑️ Delete Deck
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLAN 17 MODAL: EDIT CUSTOM TEMPLATE NAME & DESCRIPTION (✏️ PENCIL ACTION) -->
+  <div class="m3-modal-backdrop hidden" id="edit-template-meta-modal" role="dialog" aria-modal="true" aria-labelledby="edit-template-meta-title">
+    <div class="m3-modal-dialog" style="max-width:480px; width:92%; padding:22px; border-radius:16px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; border-bottom:1px solid #E2E8F0; padding-bottom:8px;">
+        <h3 id="edit-template-meta-title" style="font-family:'Roboto Slab',serif; font-size:1.05rem; font-weight:800; color:#003F87; margin:0;">
+          ✏️ Edit Custom PowerPoint Template
+        </h3>
+        <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-edit-template-meta" style="padding:4px 10px; font-size:0.78rem;">✕</button>
+      </div>
+      <input type="hidden" id="edit-template-meta-id" value="" />
+      <div class="m3-field-group">
+        <label class="m3-field-label" for="edit-template-name-input">Template Name</label>
+        <input type="text" class="m3-input" id="edit-template-name-input" placeholder="e.g., Troop 19 Court of Honor Template" />
+      </div>
+      <div class="m3-field-group">
+        <label class="m3-field-label" for="edit-template-desc-input">Template Description</label>
+        <textarea class="m3-input" id="edit-template-desc-input" rows="3" placeholder="Describe the layout, council branding, or intended session use..."></textarea>
+      </div>
+      <div style="display:flex; align-items:center; justify-content:flex-end; gap:8px; margin-top:12px;">
+        <button type="button" class="m3-btn m3-btn-outlined" id="btn-cancel-edit-template-meta" style="padding:6px 14px; font-size:0.80rem;">Cancel</button>
+        <button type="button" class="m3-btn m3-btn-filled" id="btn-save-edit-template-meta" style="padding:6px 14px; font-size:0.80rem;">
+          💾 Save Template Info
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
+  <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
+
+  <script src="/ui/app.js?v=20261018b"></script>
 </body>
 </html>

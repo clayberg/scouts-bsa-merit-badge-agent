@@ -5927,6 +5927,7 @@ body.m3-dark-mode .m3-construction-dot.active {
 }
 
 .m3-template-card {
+  position: relative;
   border: 2px solid #E2E8F0;
   border-radius: 12px;
   background: #FFFFFF;
@@ -5951,7 +5952,8 @@ body.m3-dark-mode .m3-construction-dot.active {
   box-shadow: 0 0 0 2px rgba(0, 63, 135, 0.18);
 }
 
-.m3-template-preview-box {
+.m3-template-preview-box,
+.m3-template-card-preview {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -5961,7 +5963,45 @@ body.m3-dark-mode .m3-construction-dot.active {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.m3-template-card-title {
+  font-size: 0.80rem;
+  font-weight: 800;
+  color: #003F87;
+  line-height: 1.25;
+}
+
+.m3-template-card-desc {
+  font-size: 0.71rem;
+  color: #475569;
+  line-height: 1.38;
+}
+
+.m3-template-card-swatches {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.m3-template-swatch-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid rgba(15, 23, 42, 0.18);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+body.m3-dark-mode .m3-template-card-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-template-card-desc {
+  color: #CBD5E1 !important;
 }
 
 .m3-mcp-resource-item {
@@ -6436,6 +6476,721 @@ body.m3-dark-mode .m3-stage-tools-popover > div:first-child {
   color: #94A3B8 !important;
   border-bottom-color: #334155 !important;
 }
+
+/* ============================================================================
+   PLAN 17: FAVORITES INVERTED GOLD CIRCLE STAR, HEADER FAVORITES TOGGLE,
+   3-BOX ANATOMICAL SAFE-ZONE X-RAY, STAGE TEMPLATE SPLIT-BUTTON,
+   CUSTOM TEMPLATE EDIT/DELETE ACTIONS, COMBOBOX PRESETS, INTERACTIVE MCP HUB,
+   AND DYNAMIC TOP-BAR COUNSELOR PROFILE PILL
+   ============================================================================ */
+
+/* 1. Inverted Gold-Circle Star for Patch Gallery Cards (.m3-patch-fav-btn) */
+.m3-patch-fav-btn {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1.5px solid #CBD5E1;
+  background: rgba(255, 255, 255, 0.94);
+  color: #D97706;
+  font-size: 0.82rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 4;
+  padding: 0;
+  box-shadow: 0 2px 5px rgba(15, 23, 42, 0.12);
+  transition: transform 130ms ease, background 130ms ease, border-color 130ms ease, color 130ms ease, box-shadow 130ms ease;
+}
+
+.m3-patch-fav-btn:hover {
+  transform: scale(1.14);
+  border-color: #F59E0B;
+  background: #FFFBEB;
+}
+
+/* Inverted prominent favorite state: White star against Scout Gold circle (Light & Dark Mode) */
+.m3-patch-fav-btn.is-fav,
+body.m3-dark-mode .m3-patch-fav-btn.is-fav {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%) !important;
+  border-color: #B45309 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 3px 10px rgba(217, 119, 6, 0.45) !important;
+}
+
+.m3-patch-fav-btn.is-fav:hover,
+body.m3-dark-mode .m3-patch-fav-btn.is-fav:hover {
+  background: linear-gradient(135deg, #FBBF24 0%, #B45309 100%) !important;
+  color: #FFFFFF !important;
+  transform: scale(1.16);
+}
+
+/* 2. Patch Gallery Header Favorites Filter Toggle Button (#btn-patch-gallery-fav-filter) */
+.m3-patch-header-fav-toggle,
+.m3-patch-header-fav-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px 5px 7px;
+  border-radius: 999px;
+  border: 1.5px solid #CBD5E1;
+  background: #F8FAFC;
+  color: #334155;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.m3-patch-header-fav-toggle:hover,
+.m3-patch-header-fav-toggle-btn:hover {
+  border-color: #F59E0B;
+  background: #FFFBEB;
+  color: #92400E;
+}
+
+.m3-patch-header-fav-star,
+.m3-fav-star-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1.5px solid #D97706;
+  background: #FFFFFF;
+  color: #D97706;
+  font-size: 0.78rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 140ms ease;
+}
+
+.m3-patch-header-fav-toggle.is-active,
+.m3-patch-header-fav-toggle-btn.is-active,
+.m3-patch-header-fav-toggle-btn.active {
+  background: #FEF3C7;
+  border-color: #D97706;
+  color: #78350F;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.24);
+}
+
+.m3-patch-header-fav-toggle.is-active .m3-patch-header-fav-star,
+.m3-patch-header-fav-toggle-btn.is-active .m3-fav-star-circle,
+.m3-patch-header-fav-toggle-btn.active .m3-fav-star-circle,
+body.m3-dark-mode .m3-patch-header-fav-toggle.is-active .m3-patch-header-fav-star,
+body.m3-dark-mode .m3-patch-header-fav-toggle-btn.is-active .m3-fav-star-circle,
+body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active .m3-fav-star-circle {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%) !important;
+  border-color: #B45309 !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-patch-header-fav-toggle,
+body.m3-dark-mode .m3-patch-header-fav-toggle-btn {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-patch-header-fav-toggle .m3-patch-header-fav-star,
+body.m3-dark-mode .m3-patch-header-fav-toggle-btn .m3-fav-star-circle {
+  background: #0F172A;
+  border-color: #FBBF24;
+  color: #FBBF24;
+}
+
+body.m3-dark-mode .m3-patch-header-fav-toggle.is-active,
+body.m3-dark-mode .m3-patch-header-fav-toggle-btn.is-active,
+body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
+  background: rgba(217, 119, 6, 0.24) !important;
+  border-color: #F59E0B !important;
+  color: #FDE68A !important;
+}
+
+/* 3. 3-Box Anatomical Coordinate Safe-Zone X-Ray Overlay (#slide-safezone-xray-layer) */
+.m3-slide-safezone-xray {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 25;
+  display: block !important;
+  padding: 0 !important;
+  background: rgba(15, 23, 42, 0.06);
+}
+
+.m3-slide-safezone-xray.hidden {
+  display: none !important;
+}
+
+.m3-xray-box {
+  position: absolute;
+  border-radius: 8px;
+  box-sizing: border-box;
+  pointer-events: none;
+  transition: top 180ms ease, height 180ms ease, left 180ms ease, width 180ms ease;
+}
+
+.m3-xray-box-header {
+  left: 4.5%;
+  width: 91.0%;
+  top: 2.4%;
+  height: 11.0%;
+  border: 2px dashed #2563EB;
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.m3-xray-box-content {
+  left: 4.5%;
+  width: 91.0%;
+  top: 14.8%;
+  height: 72.4%;
+  border: 2.5px dashed #16A34A;
+  background: rgba(22, 163, 74, 0.07);
+}
+
+.m3-xray-box-footer {
+  left: 0%;
+  width: 100%;
+  top: 87.2%;
+  height: 12.8%;
+  border-top: 2.5px dashed #D97706;
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(245, 158, 11, 0.14),
+    rgba(245, 158, 11, 0.14) 8px,
+    rgba(217, 119, 6, 0.24) 8px,
+    rgba(217, 119, 6, 0.24) 16px
+  );
+}
+
+.m3-xray-badge {
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 5px;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.22);
+}
+
+.m3-xray-badge-header {
+  background: #1D4ED8;
+  color: #FFFFFF;
+}
+
+.m3-xray-badge-content {
+  background: #15803D;
+  color: #FFFFFF;
+}
+
+.m3-xray-badge-footer {
+  background: #B45309;
+  color: #FFFFFF;
+}
+
+.m3-xray-delta-callout {
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
+  background: #0F172A;
+  color: #FDE047;
+  border: 1px solid #F59E0B;
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.m3-xray-logo-box {
+  position: absolute;
+  right: 1.5%;
+  top: 8%;
+  width: 22%;
+  height: 84%;
+  border: 2px dashed #DC2626;
+  background: rgba(220, 38, 38, 0.18);
+  color: #FFFFFF;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* 4. Stage Toolbar Template Split-Button & Instant Dropdown Menu */
+.m3-stage-template-split-group {
+  position: relative;
+  display: inline-flex;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+
+.m3-stage-template-split-group .m3-split-main-btn {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-right: 1px solid rgba(0, 63, 135, 0.18) !important;
+}
+
+.m3-stage-template-split-group .m3-split-caret-btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  padding: 4px 6px !important;
+  min-width: 22px;
+}
+
+.m3-stage-template-dropdown-menu {
+  left: 0;
+  right: auto;
+  top: calc(100% + 6px);
+  min-width: 310px;
+  max-height: 380px;
+  overflow-y: auto;
+  z-index: 80;
+}
+
+/* 5. Custom Template Card Edit (✏️) & Delete (🗑️) Icon Buttons */
+.m3-tpl-card-actions {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 6;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.m3-tpl-card-icon-btn,
+.m3-tpl-action-icon-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  border: 1px solid #CBD5E1;
+  background: rgba(255, 255, 255, 0.94);
+  color: #334155;
+  font-size: 0.72rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  box-shadow: 0 2px 5px rgba(15, 23, 42, 0.14);
+  transition: all 130ms ease;
+}
+
+.m3-tpl-card-icon-btn:hover,
+.m3-tpl-action-icon-btn:hover {
+  background: #EFF6FF;
+  border-color: #3B82F6;
+  color: #003F87;
+  transform: scale(1.08);
+}
+
+.m3-tpl-card-icon-btn.is-delete:hover,
+.m3-tpl-action-icon-btn.delete:hover {
+  background: #FEF2F2;
+  border-color: #EF4444;
+  color: #DC2626;
+}
+
+body.m3-dark-mode .m3-tpl-card-icon-btn,
+body.m3-dark-mode .m3-tpl-action-icon-btn {
+  background: rgba(15, 23, 42, 0.92) !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-tpl-card-icon-btn:hover,
+body.m3-dark-mode .m3-tpl-action-icon-btn:hover {
+  background: #1E3A8A !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-tpl-card-icon-btn.is-delete:hover,
+body.m3-dark-mode .m3-tpl-action-icon-btn.delete:hover {
+  background: rgba(220, 38, 38, 0.28) !important;
+  border-color: #F87171 !important;
+  color: #FCA5A5 !important;
+}
+
+.m3-stage-template-menu-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #1E293B;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.m3-stage-template-menu-item:hover {
+  background: #EFF6FF;
+  color: #003F87;
+}
+
+.m3-stage-template-menu-item.is-active {
+  background: #FEF3C7;
+  color: #78350F;
+}
+
+.m3-stage-tpl-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(15, 23, 42, 0.2);
+  flex-shrink: 0;
+}
+
+.m3-stage-template-menu-footer {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid #E2E8F0;
+}
+
+body.m3-dark-mode .m3-stage-template-menu-item {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-stage-template-menu-item:hover {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-stage-template-menu-item.is-active {
+  background: rgba(217, 119, 6, 0.22) !important;
+  color: #FDE68A !important;
+}
+
+body.m3-dark-mode .m3-stage-template-menu-footer {
+  border-top-color: #334155 !important;
+}
+
+/* 6. Editable Combobox Preset Dropdowns in Saved Workspaces Library */
+.m3-ws-combobox-input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.m3-ws-combo-caret-btn {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  border: none;
+  background: transparent;
+  color: #475569;
+  font-size: 0.74rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m3-ws-combo-caret-btn:hover {
+  background: rgba(59, 130, 246, 0.14);
+  color: #003F87;
+}
+
+body.m3-dark-mode .m3-ws-combo-caret-btn {
+  color: #94A3B8;
+}
+
+body.m3-dark-mode .m3-ws-combo-caret-btn:hover {
+  background: rgba(96, 165, 250, 0.2);
+  color: #FFFFFF;
+}
+
+.m3-ws-combo-menu {
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  min-width: 240px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 90;
+}
+
+.m3-ws-combo-menu-kicker {
+  font-size: 0.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748B;
+  padding: 5px 10px 3px;
+}
+
+/* 7. Interactive MCP Hub Section 2 & Visual Card Preview in Section 3 */
+.m3-mcp-interactive-row,
+.m3-mcp-item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.m3-mcp-item-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+}
+
+.m3-mcp-mini-action-btn,
+.m3-mcp-mini-btn {
+  padding: 3px 8px;
+  border-radius: 6px;
+  border: 1px solid #93C5FD;
+  background: #EFF6FF;
+  color: #003F87;
+  font-size: 0.68rem;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 120ms ease;
+}
+
+.m3-mcp-mini-btn.primary {
+  background: #003F87;
+  border-color: #003F87;
+  color: #FFFFFF;
+}
+
+.m3-mcp-mini-action-btn:hover,
+.m3-mcp-mini-btn:hover {
+  background: #DBEAFE;
+  border-color: #2563EB;
+  color: #003F87;
+}
+
+.m3-mcp-mini-btn.primary:hover {
+  background: #1D4ED8;
+  border-color: #1D4ED8;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-mcp-mini-action-btn,
+body.m3-dark-mode .m3-mcp-mini-btn {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-mcp-mini-btn.primary {
+  background: #2563EB !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-mcp-mini-action-btn:hover,
+body.m3-dark-mode .m3-mcp-mini-btn:hover {
+  background: #2563EB !important;
+  color: #FFFFFF !important;
+}
+
+.m3-mcp-visual-preview-box {
+  background: #F8FAFC;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+body.m3-dark-mode .m3-mcp-visual-preview-box {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #F1F5F9 !important;
+}
+
+.m3-mcp-visual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 8px;
+}
+
+.m3-mcp-visual-card {
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: 10px;
+  padding: 9px 11px;
+  box-shadow: 0 2px 5px rgba(15, 23, 42, 0.04);
+}
+
+.m3-mcp-visual-card-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #003F87;
+  margin-bottom: 3px;
+}
+
+body.m3-dark-mode .m3-mcp-visual-card {
+  background: #1E293B !important;
+  border-color: #334155 !important;
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode .m3-mcp-visual-card-title {
+  color: #93C5FD !important;
+}
+
+/* Saved Workspace Card Anatomy (#saved-workspaces-grid) */
+.m3-workspace-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.m3-workspace-card-emblem {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 1.5px solid #CBD5E1;
+  background: #FFFFFF;
+  flex-shrink: 0;
+}
+
+.m3-workspace-card-title {
+  font-size: 0.90rem;
+  font-weight: 800;
+  color: #003F87;
+  line-height: 1.2;
+}
+
+.m3-workspace-card-sub {
+  font-size: 0.75rem;
+  color: #475569;
+  margin-top: 2px;
+}
+
+.m3-workspace-card-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.m3-workspace-metric-badge {
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.70rem;
+  font-weight: 700;
+  color: #334155;
+}
+
+.m3-workspace-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+body.m3-dark-mode .m3-workspace-card-title {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-workspace-card-sub {
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-workspace-metric-badge {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #CBD5E1 !important;
+}
+
+/* 8. Dynamic Top-Bar Counselor Name & Affiliation Pill (#top-counselor-profile-chip) */
+.m3-top-profile-pill {
+  cursor: pointer;
+  border: 1px solid #93C5FD;
+  padding: 5px 11px;
+  font-size: 0.74rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: min(440px, 28vw);
+  min-width: 0;
+  flex-shrink: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#top-counselor-chip-text {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#top-counselor-chip-name {
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+#top-counselor-chip-affil {
+  font-weight: 600;
+  opacity: 0.92;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.m3-top-profile-pill.is-compact-name-only #top-counselor-chip-affil {
+  display: none !important;
+}
+
+@media (max-width: 1460px) {
+  .m3-top-profile-pill #top-counselor-chip-affil {
+    display: none;
+  }
+}
+
+/* 9. Global Floating Toast Notification (#workbench-toast-notification) */
+.m3-toast-notification {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  z-index: 4500;
+  background: #0F172A;
+  color: #F8FAFC;
+  border: 1.5px solid #3B82F6;
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-size: 0.80rem;
+  font-weight: 700;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.38);
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.m3-toast-notification.hidden {
+  display: none !important;
+}
+
 
 
 

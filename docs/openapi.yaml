@@ -4224,6 +4224,56 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/templates/{template_id}:
+    patch:
+      summary: Api Update Custom Template Metadata
+      description: Updates `name`, `description`, or `bottom_safe_in` for a custom
+        user-uploaded/URL template.
+      operationId: api_update_custom_template_metadata_api_v1_templates__template_id__patch
+      parameters:
+      - name: template_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Template Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemplateMetadataUpdateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Update Custom Template Metadata Api V1 Templates  Template
+                  Id  Patch
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
     delete:
       summary: Api Delete Custom Template
       description: Deletes a custom uploaded/URL template from the catalog.
@@ -4268,6 +4318,56 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
   /api/templates/{template_id}:
+    patch:
+      summary: Api Update Custom Template Metadata
+      description: Updates `name`, `description`, or `bottom_safe_in` for a custom
+        user-uploaded/URL template.
+      operationId: api_update_custom_template_metadata_api_templates__template_id__patch
+      parameters:
+      - name: template_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Template Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemplateMetadataUpdateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Update Custom Template Metadata Api Templates  Template
+                  Id  Patch
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
     delete:
       summary: Api Delete Custom Template
       description: Deletes a custom uploaded/URL template from the catalog.
@@ -5792,7 +5892,8 @@ components:
           - type: string
           - type: 'null'
           title: Visual Theme
-          description: Optional BEAUTIFIED, STANDARD, or STUDIO.
+          description: Optional WARM_CREAM (CREAM), CRISP_WHITE (WHITE), DARK_SLATE
+            (SLATE), or legacy BEAUTIFIED/STANDARD/STUDIO.
         accent_palette_key:
           anyOf:
           - type: string
@@ -5822,6 +5923,28 @@ components:
       required:
       - url
       title: TemplateImportUrlRequest
+    TemplateMetadataUpdateRequest:
+      properties:
+        name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Name
+          description: Updated custom template display title.
+        description:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Description
+          description: Updated custom template description.
+        bottom_safe_in:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Bottom Safe In
+          description: Optional updated safe bottom coordinate in inches (5.80..6.95).
+      type: object
+      title: TemplateMetadataUpdateRequest
     TroopLogoUploadRequest:
       properties:
         filename:
@@ -5990,7 +6113,11 @@ components:
           - type: string
           - type: 'null'
           title: Session Label
-          default: Afternoon Patrol / Section 2
+        camp_bundle_tag:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Camp Bundle Tag
         copy_roster:
           type: boolean
           title: Copy Roster

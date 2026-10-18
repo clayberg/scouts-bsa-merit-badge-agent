@@ -437,15 +437,56 @@ function syncUnderstageDrawerVisibility(slideIdx = state.activeSlideIdx) {
   }
 }
 
+let _workbenchToastTimer = null;
+function showToast(message, tone = "info") {
+  const toastEl = document.getElementById("workbench-toast-notification");
+  if (!toastEl) return;
+  toastEl.textContent = String(message || "");
+  toastEl.classList.remove("hidden", "is-warning", "is-error", "is-visible");
+  if (tone === "warning") toastEl.classList.add("is-warning");
+  if (tone === "error") toastEl.classList.add("is-error");
+  void toastEl.offsetWidth;
+  toastEl.classList.add("is-visible");
+  if (_workbenchToastTimer) clearTimeout(_workbenchToastTimer);
+  _workbenchToastTimer = setTimeout(() => {
+    toastEl.classList.remove("is-visible");
+    setTimeout(() => toastEl.classList.add("hidden"), 220);
+  }, 3600);
+}
+window.showToast = showToast;
+
+function checkTopBarProfileSpace() {
+  const chip = document.getElementById("top-counselor-profile-chip");
+  const topBar = document.querySelector(".m3-top-app-bar");
+  if (!chip || !topBar) return;
+  chip.classList.remove("is-compact-name-only");
+  if (topBar.scrollWidth > topBar.clientWidth + 4 || window.innerWidth < 1260) {
+    chip.classList.add("is-compact-name-only");
+  }
+}
+
 function syncCounselorProfileSummary() {
   const cName = (document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob").trim();
   const tName = (document.getElementById("input-troop-name")?.value || "Troop 123, My Council").trim();
-  const summaryText = `${cName} • ${tName}`;
+  const summaryText = tName ? `${cName} • ${tName}` : cName;
   const sidebarSumEl = document.getElementById("sidebar-profile-summary-text");
   const topChipEl = document.getElementById("top-counselor-chip-text");
+  const topChipNameEl = document.getElementById("top-counselor-chip-name");
+  const topChipAffilEl = document.getElementById("top-counselor-chip-affil");
+  const topProfileChip = document.getElementById("top-counselor-profile-chip");
   if (sidebarSumEl) sidebarSumEl.textContent = summaryText;
-  if (topChipEl) topChipEl.textContent = summaryText;
+  if (topChipNameEl && topChipAffilEl) {
+    topChipNameEl.textContent = cName;
+    topChipAffilEl.textContent = tName ? ` • ${tName}` : "";
+  } else if (topChipEl) {
+    topChipEl.textContent = summaryText;
+  }
+  if (topProfileChip) {
+    topProfileChip.title = `${summaryText} — Click to edit Counselor & Troop Profile`;
+  }
+  requestAnimationFrame(checkTopBarProfileSpace);
 }
+window.addEventListener("resize", checkTopBarProfileSpace);
 
 function formatSlideThemeLabel(tierCode) {
   const upper = String(tierCode || "BEAUTIFIED").toUpperCase();
@@ -1723,8 +1764,10 @@ async function loadBadgesCatalog() {
   const eagleSelect = document.getElementById("filter-eagle-select");
   if (eagleSelect && totalCount > 0) {
     const prevEagleVal = eagleSelect.value || "ALL";
+    const favCount = (state.favoriteBadges || []).length;
     eagleSelect.innerHTML = `
       <option value="ALL">All Badges (${totalCount})</option>
+      <option value="FAVORITES">Favorites (${favCount})</option>
       <option value="EAGLE">Eagle-Required (${eagleCount})</option>
       <option value="ELECTIVE">Electives (${electiveCount})</option>
     `;
@@ -7612,6 +7655,15 @@ function renderPatchGalleryModal() {
   const selectedCat = catSelect?.value || "all";
 
   const favSet = new Set((state.favoriteBadges || []).map((x) => String(x).toLowerCase()));
+  const headerFavBtn = document.getElementById("btn-patch-gallery-fav-filter");
+  if (headerFavBtn) {
+    const isFavFilterActive = filterMode === "favorites";
+    headerFavBtn.classList.toggle("is-active", isFavFilterActive);
+    headerFavBtn.setAttribute("aria-pressed", isFavFilterActive ? "true" : "false");
+    const starEl = document.getElementById("patch-gallery-fav-filter-star");
+    if (starEl) starEl.textContent = isFavFilterActive ? "★" : "☆";
+  }
+
   const filtered = allBadges.filter((b) => {
     const name = b.badge_name || "";
     const cat = b.category || "";
@@ -7637,7 +7689,7 @@ function renderPatchGalleryModal() {
       const eagleClass = b.is_eagle_required ? "eagle-patch" : "";
       return `
         <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}" style="position:relative;">
-          <button type="button" class="m3-patch-fav-btn" data-fav-toggle-badge="${escapeHtml(name)}" title="${isFav ? "Remove from My Favorites" : "Add to My Favorites"}">${isFav ? "⭐" : "☆"}</button>
+          <button type="button" class="m3-patch-fav-btn ${isFav ? "is-fav" : ""}" data-fav-toggle-badge="${escapeHtml(name)}" aria-pressed="${isFav ? "true" : "false"}" title="${isFav ? "Remove from My Favorites" : "Add to My Favorites"}">${isFav ? "★" : "☆"}</button>
           <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" loading="lazy" />
           <div class="m3-patch-card-title" style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.2;">
             ${b.is_eagle_required ? "★ " : ""}${escapeHtml(name)}
@@ -8171,6 +8223,14 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   document.getElementById("patch-gallery-filter-select")?.addEventListener("change", () => renderPatchGalleryModal());
   document.getElementById("patch-gallery-eagle-filter")?.addEventListener("change", () => renderPatchGalleryModal());
   document.getElementById("patch-gallery-category-select")?.addEventListener("change", () => renderPatchGalleryModal());
+  document.getElementById("btn-patch-gallery-fav-filter")?.addEventListener("click", () => {
+    const eagleSel =
+      document.getElementById("patch-gallery-filter-select") ||
+      document.getElementById("patch-gallery-eagle-filter");
+    if (!eagleSel) return;
+    eagleSel.value = eagleSel.value === "FAVORITES" ? "ALL" : "FAVORITES";
+    renderPatchGalleryModal();
+  });
 
   // Feature C1: Live Classroom Session Countdown Timer + Fullscreen HUD Timer
   document.getElementById("session-timer-preset-select")?.addEventListener("change", () => {
@@ -9603,7 +9663,7 @@ function bindDocumentationViewerModal() {
 }
 
 // ============================================================================
-// PLAN 16A: HYBRID POWERPOINT TEMPLATE & CUSTOM SLIDE THEME ENGINE
+// PLAN 16A + PLAN 17: HYBRID POWERPOINT TEMPLATE & CUSTOM SLIDE THEME ENGINE
 // ============================================================================
 
 const TEMPLATE_STORAGE_KEY = "scouts_bsa_active_template_id_v1";
@@ -9617,51 +9677,151 @@ function getActiveTemplateProfile() {
     primary_hex: "#003F87",
     accent_hex: "#D4AF37",
     card_bg_hex: "#EFF6FF",
-    safe_bounds: { content_bottom_max_in: 6.95 },
+    safe_bounds: {
+      header_top_in: 0.28,
+      content_top_min_in: 1.12,
+      content_bottom_max_in: 6.95,
+      left_margin_in: 0.60,
+      right_margin_in: 0.60,
+      footer_max_width_in: 12.13,
+    },
   };
 }
 
+function getContrastingTextHex(bgHex, fallbackHex = "#FFFFFF") {
+  const clean = String(bgHex || "").trim().replace(/^#/, "");
+  if (clean.length !== 6) return fallbackHex;
+  const r = parseInt(clean.slice(0, 2), 16);
+  const g = parseInt(clean.slice(2, 4), 16);
+  const b = parseInt(clean.slice(4, 6), 16);
+  if (Number.isNaN(r) || Number.isNaN(g) || Number.isNaN(b)) return fallbackHex;
+  const lum = 0.299 * r + 0.587 * g + 0.114 * b;
+  return lum < 145 ? "#FFFFFF" : "#0F172A";
+}
+
 window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover = false, tokens = null) {
+  const stageEl = document.getElementById("widescreen-slide-stage");
   const overlayEl = document.getElementById("slide-template-overlay-layer");
   const xrayEl = document.getElementById("slide-safezone-xray-layer");
   const footerStrip = document.getElementById("stage-footer-strip");
+  const footerLeft = document.getElementById("stage-footer-left");
+  const footerRight = document.getElementById("stage-footer-right");
+  const safetyBar = document.getElementById("stage-safety-bar");
+  const bodySplit = document.getElementById("stage-body-split");
+
   const prof = getActiveTemplateProfile();
   state.activeTemplateProfile = prof;
 
+  const bounds = prof?.safe_bounds || {};
+  const headerTopIn = Number(bounds.header_top_in || 0.28);
+  const topIn = Number(bounds.content_top_min_in || 1.12);
+  const bottomIn = Number(bounds.content_bottom_max_in || 6.95);
+  const footerMaxWidthIn = Number(bounds.footer_max_width_in || 12.13);
+  const isCustomGeometry = Boolean(prof && prof.template_id !== "default_workbench");
+
+  // 1. Update 3-Box Anatomical Safe-Zone X-Ray Overlay
   if (xrayEl) {
     const showXray = Boolean(state.showSafeZoneXray);
     xrayEl.classList.toggle("hidden", !showXray);
-    const bottomIn = prof?.safe_bounds?.content_bottom_max_in || 6.95;
+
+    const headerBox = document.getElementById("xray-box-header");
+    const contentBox = document.getElementById("xray-box-content");
+    const footerBox = document.getElementById("xray-box-footer");
+    const logoBox = document.getElementById("xray-box-logo");
+
+    const headerTopPct = (headerTopIn / 7.5) * 100;
+    const contentTopPct = (topIn / 7.5) * 100;
+    const contentBottomPct = (bottomIn / 7.5) * 100;
+
+    if (headerBox) {
+      headerBox.style.top = `${headerTopPct.toFixed(2)}%`;
+      headerBox.style.height = `${Math.max(8, contentTopPct - headerTopPct - 0.6).toFixed(2)}%`;
+    }
+    if (contentBox) {
+      contentBox.style.top = `${contentTopPct.toFixed(2)}%`;
+      contentBox.style.height = `${Math.max(40, contentBottomPct - contentTopPct - 0.6).toFixed(2)}%`;
+    }
+    if (footerBox) {
+      footerBox.style.top = `${contentBottomPct.toFixed(2)}%`;
+      footerBox.style.height = `${Math.max(6, 100 - contentBottomPct - 0.8).toFixed(2)}%`;
+    }
+    if (logoBox) {
+      const hasCornerLogo = Boolean(prof?.corner_logo_url || footerMaxWidthIn < 11.2);
+      logoBox.style.display = hasCornerLogo ? "flex" : "none";
+    }
+
+    const headerLbl = document.getElementById("xray-header-zone-label");
     const contentLbl = document.getElementById("xray-content-zone-label");
+    const deltaPill = document.getElementById("xray-geometry-delta-pill");
     const footerLbl = document.getElementById("xray-footer-zone-label");
+
+    if (headerLbl) {
+      headerLbl.textContent = `ZONE 1: HEADER & REQUIREMENT BANNER (${headerTopIn.toFixed(2)}"–${topIn.toFixed(2)}")`;
+    }
     if (contentLbl) {
-      contentLbl.textContent = `ZONES 2–4: INSTRUCTIONAL CARDS & VISUAL SAFE CANVAS (1.12"–${bottomIn.toFixed(2)}")`;
+      const availH = (bottomIn - topIn).toFixed(2);
+      contentLbl.textContent = `ZONES 2–5: PEDAGOGICAL CONTENT & SAFETY SAFE-BOX (12.13" × ${availH}" • y: ${topIn.toFixed(2)}"–${bottomIn.toFixed(2)}")`;
+    }
+    if (deltaPill) {
+      const deltaIn = Math.max(0, 6.95 - bottomIn);
+      deltaPill.textContent = isCustomGeometry
+        ? `📐 Responsive Template Geometry Active: Content & Safety Banner Lifted +${deltaIn.toFixed(2)}" Above "${prof.name}" Footer & Logo`
+        : `📐 Standard Full-Canvas Geometry (5.83" Content Height • y <= 6.95")`;
     }
     if (footerLbl) {
-      footerLbl.textContent =
-        prof.template_id === "default_workbench"
-          ? `ZONE 6: STANDARD SLIDE FOOTER STRIP (7.15"–7.43")`
-          : `RESERVED TEMPLATE BRANDING & LOGO SAFE ZONE (${bottomIn.toFixed(2)}"–7.50") • Template: ${prof.name}`;
+      footerLbl.textContent = isCustomGeometry
+        ? `ZONE 6: RESERVED TEMPLATE BRANDING & FOOTER SAFE ZONE (${bottomIn.toFixed(2)}"–7.50" • ${prof.name})`
+        : `ZONE 6: STANDARD WORKBENCH SLIDE FOOTER STRIP (6.95"–7.50")`;
     }
   }
 
   if (!overlayEl) return;
-  if (!prof || prof.template_id === "default_workbench") {
+
+  // 2. Default Workbench Classic: Reset responsive geometry overrides & footer overrides
+  if (!isCustomGeometry) {
     overlayEl.classList.add("hidden");
     overlayEl.innerHTML = "";
+    if (stageEl) {
+      stageEl.classList.remove("has-custom-template-geometry");
+      stageEl.style.removeProperty("--tpl-bottom-reserve-pct");
+      stageEl.style.removeProperty("--tpl-header-top-pct");
+    }
+    if (bodySplit) {
+      bodySplit.style.paddingBottom = "";
+    }
+    if (safetyBar) {
+      safetyBar.style.marginBottom = "";
+    }
     if (footerStrip) {
-      footerStrip.style.background = "";
-      footerStrip.style.color = "";
-      footerStrip.style.paddingRight = "";
-      footerStrip.style.borderRadius = "";
+      footerStrip.style.cssText = "";
     }
     return;
   }
 
+  // 3. Branded / Custom Template Active: Apply True Responsive Slide Geometry + High-Contrast Footer
   overlayEl.classList.remove("hidden");
   const isDarkSlide = Boolean(tokens?.isStudio || document.getElementById("beautification-select")?.value === "STUDIO");
-  const parts = [];
+  const silUrl = isDarkSlide ? (prof.bottom_silhouette_dark_url || prof.bottom_silhouette_url) : prof.bottom_silhouette_url;
+  const logoUrl = isDarkSlide ? (prof.corner_logo_dark_url || prof.corner_logo_url) : prof.corner_logo_url;
+  const hasBottomBar = Boolean(prof.bottom_bar_hex && !silUrl);
+  const hasLogo = Boolean(logoUrl || footerMaxWidthIn < 11.2);
 
+  const bottomReservePct = Math.max(9.2, ((7.5 - bottomIn) / 7.5) * 100);
+  if (stageEl) {
+    stageEl.classList.add("has-custom-template-geometry");
+    stageEl.style.setProperty("--tpl-bottom-reserve-pct", `${bottomReservePct.toFixed(2)}%`);
+    stageEl.style.setProperty("--tpl-header-top-pct", `${((headerTopIn / 7.5) * 100).toFixed(2)}%`);
+  }
+
+  // Lift #stage-body-split and #stage-safety-bar above the template's reserved bottom branding/logo zone
+  if (safetyBar && !safetyBar.classList.contains("hidden")) {
+    safetyBar.style.marginBottom = `${Math.max(4.8, bottomReservePct - 4.2).toFixed(2)}%`;
+    if (bodySplit) bodySplit.style.paddingBottom = "0.25rem";
+  } else if (bodySplit) {
+    bodySplit.style.paddingBottom = `${Math.max(4.8, bottomReservePct - 3.8).toFixed(2)}%`;
+  }
+
+  const parts = [];
   if (isCover && prof.cover_bg_url) {
     parts.push(
       `<img src="${escapeHtml(prof.cover_bg_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.22" : "0.18"}; pointer-events:none;" />`
@@ -9672,61 +9832,169 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     );
   }
 
-  const silUrl = isDarkSlide ? (prof.bottom_silhouette_dark_url || prof.bottom_silhouette_url) : prof.bottom_silhouette_url;
   if (silUrl) {
     parts.push(
       `<img src="${escapeHtml(silUrl)}" alt="" style="position:absolute; left:0; right:0; bottom:0; width:100%; height:10.2%; object-fit:fill; pointer-events:none; opacity:0.95;" />`
     );
-  } else if (prof.bottom_bar_hex) {
+  } else if (hasBottomBar) {
     const barHex = prof.bottom_bar_hex;
     const accHex = prof.bottom_accent_hex || "#D4AF37";
+    const barWidthPct = hasLogo ? "76%" : "96%";
     parts.push(
-      `<div style="position:absolute; left:0; bottom:1.6%; width:76%; height:4.4%; background:${escapeHtml(barHex)}; border-top:3px solid ${escapeHtml(accHex)}; border-radius:0 6px 6px 0; pointer-events:none; opacity:0.94;"></div>`
+      `<div style="position:absolute; left:0; bottom:1.4%; width:${barWidthPct}; height:4.8%; background:${escapeHtml(barHex)}; border-top:3px solid ${escapeHtml(accHex)}; border-radius:0 6px 6px 0; pointer-events:none; opacity:0.96;"></div>`
     );
   }
 
-  const logoUrl = isDarkSlide ? (prof.corner_logo_dark_url || prof.corner_logo_url) : prof.corner_logo_url;
   if (logoUrl) {
     parts.push(
-      `<img src="${escapeHtml(logoUrl)}" alt="${escapeHtml(prof.name)} Logo" style="position:absolute; right:1.8%; bottom:1.6%; max-width:20.5%; max-height:7.6%; object-fit:contain; pointer-events:none; filter:drop-shadow(0 1px 3px rgba(15,23,42,0.18));" />`
+      `<img src="${escapeHtml(logoUrl)}" alt="${escapeHtml(prof.name)} Logo" style="position:absolute; right:1.8%; bottom:1.4%; max-width:20.5%; max-height:7.6%; object-fit:contain; pointer-events:none; filter:drop-shadow(0 1px 3px rgba(15,23,42,0.18));" />`
     );
   }
 
   overlayEl.innerHTML = parts.join("");
 
   if (footerStrip) {
-    if (prof.bottom_bar_hex && !silUrl) {
+    if (hasBottomBar) {
+      const contrastHex = getContrastingTextHex(prof.bottom_bar_hex, "#FFFFFF");
+      footerStrip.style.position = "absolute";
+      footerStrip.style.left = "1.8%";
+      footerStrip.style.bottom = "1.4%";
+      footerStrip.style.height = "4.8%";
+      footerStrip.style.width = hasLogo ? "72.5%" : "93%";
+      footerStrip.style.margin = "0";
+      footerStrip.style.padding = "0 12px";
       footerStrip.style.background = "transparent";
-      footerStrip.style.color = "#F8FAFC";
-      footerStrip.style.paddingRight = "24%";
-      footerStrip.style.position = "relative";
-      footerStrip.style.zIndex = "4";
+      footerStrip.style.borderTop = "none";
+      footerStrip.style.display = "flex";
+      footerStrip.style.alignItems = "center";
+      footerStrip.style.justifyContent = "space-between";
+      footerStrip.style.zIndex = "5";
+      footerStrip.style.color = contrastHex;
+      if (footerLeft) {
+        footerLeft.style.color = contrastHex;
+        footerLeft.style.fontWeight = "700";
+        footerLeft.style.textShadow = contrastHex === "#FFFFFF" ? "0 1px 2px rgba(0,0,0,0.35)" : "none";
+      }
+      if (footerRight) {
+        footerRight.style.color = contrastHex;
+        footerRight.style.fontWeight = "700";
+        footerRight.style.textShadow = contrastHex === "#FFFFFF" ? "0 1px 2px rgba(0,0,0,0.35)" : "none";
+      }
     } else if (silUrl) {
+      footerStrip.style.position = "absolute";
+      footerStrip.style.left = "2.2%";
+      footerStrip.style.bottom = "1.5%";
+      footerStrip.style.height = "4.6%";
+      footerStrip.style.width = hasLogo ? "72.5%" : "93%";
+      footerStrip.style.margin = "0";
+      footerStrip.style.padding = "0 10px";
       footerStrip.style.background = "transparent";
+      footerStrip.style.borderTop = "none";
+      footerStrip.style.display = "flex";
+      footerStrip.style.alignItems = "center";
+      footerStrip.style.justifyContent = "space-between";
+      footerStrip.style.zIndex = "5";
       footerStrip.style.color = "#FFFFFF";
-      footerStrip.style.paddingRight = "24%";
-      footerStrip.style.position = "relative";
-      footerStrip.style.zIndex = "4";
+      if (footerLeft) {
+        footerLeft.style.color = "#FFFFFF";
+        footerLeft.style.fontWeight = "700";
+        footerLeft.style.textShadow = "0 1px 3px rgba(0,0,0,0.75)";
+      }
+      if (footerRight) {
+        footerRight.style.color = "#FFFFFF";
+        footerRight.style.fontWeight = "700";
+        footerRight.style.textShadow = "0 1px 3px rgba(0,0,0,0.75)";
+      }
     } else {
-      footerStrip.style.background = "";
-      footerStrip.style.color = "";
-      footerStrip.style.paddingRight = "";
+      footerStrip.style.cssText = "";
     }
   }
 };
+
+function renderStageTemplateSplitDropdown() {
+  const menuEl = document.getElementById("stage-template-dropdown-menu");
+  if (!menuEl) return;
+  const list = state.templateCatalog || [];
+  const activeId = state.activeTemplateId || "default_workbench";
+
+  const itemsHtml = list
+    .map((t) => {
+      const isAct = t.template_id === activeId;
+      const shortName = String(t.name || "").replace(" (Full Canvas)", "");
+      const badgeTag = t.is_builtin ? "Built-In" : "Custom";
+      return `
+        <button type="button" class="m3-stage-template-menu-item ${isAct ? "is-active" : ""}" data-stage-quick-tpl="${escapeHtml(t.template_id)}" role="menuitem">
+          <span class="m3-stage-tpl-swatch" style="background:linear-gradient(135deg, ${escapeHtml(t.primary_hex || "#003F87")} 55%, ${escapeHtml(t.accent_hex || "#D4AF37")} 45%);"></span>
+          <span style="flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${escapeHtml(shortName)}</span>
+          <span style="font-size:0.64rem; opacity:0.72; font-weight:600;">${badgeTag}</span>
+          ${isAct ? '<span aria-hidden="true" style="color:#D97706; font-weight:900;">✓</span>' : ""}
+        </button>
+      `;
+    })
+    .join("");
+
+  menuEl.innerHTML = `
+    <div style="padding:4px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
+      Switch Slide Template (${list.length})
+    </div>
+    <div style="max-height:260px; overflow-y:auto;">
+      ${itemsHtml}
+    </div>
+    <div class="m3-stage-template-menu-footer">
+      <button type="button" class="m3-tonal-btn" id="btn-stage-menu-open-studio" style="width:100%; font-size:0.74rem; padding:6px 10px; font-weight:700;">
+        🎨 Open Template Studio &amp; Upload...
+      </button>
+    </div>
+  `;
+
+  menuEl.querySelectorAll("[data-stage-quick-tpl]").forEach((btn) => {
+    btn.addEventListener("click", async (ev) => {
+      ev.stopPropagation();
+      const tplId = btn.getAttribute("data-stage-quick-tpl");
+      menuEl.classList.add("hidden");
+      document.getElementById("btn-stage-template-caret")?.setAttribute("aria-expanded", "false");
+      if (tplId) {
+        await applyTemplateToActiveDeck(tplId, true);
+      }
+    });
+  });
+
+  menuEl.querySelector("#btn-stage-menu-open-studio")?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    menuEl.classList.add("hidden");
+    document.getElementById("btn-stage-template-caret")?.setAttribute("aria-expanded", "false");
+    document.getElementById("btn-stage-template-picker")?.click();
+  });
+}
 
 function syncTemplateSelectorUi() {
   const prof = getActiveTemplateProfile();
   state.activeTemplateProfile = prof;
   const sel = document.getElementById("template-select");
-  if (sel && Array.from(sel.options).some((o) => o.value === prof.template_id)) {
-    sel.value = prof.template_id;
+  if (sel) {
+    // Ensure all catalog items exist in #template-select
+    const existingValues = new Set(Array.from(sel.options).map((o) => o.value));
+    (state.templateCatalog || []).forEach((t) => {
+      if (!existingValues.has(t.template_id)) {
+        const opt = document.createElement("option");
+        opt.value = t.template_id;
+        opt.textContent = t.name;
+        sel.appendChild(opt);
+      } else {
+        const opt = Array.from(sel.options).find((o) => o.value === t.template_id);
+        if (opt) opt.textContent = t.name;
+      }
+    });
+    if (Array.from(sel.options).some((o) => o.value === prof.template_id)) {
+      sel.value = prof.template_id;
+    }
   }
   const pillLbl = document.getElementById("stage-template-pill-label");
   if (pillLbl) {
     const shortName = prof.name.replace(" (Full Canvas)", "").replace("Scouting America | ", "");
     pillLbl.textContent = shortName;
   }
+  renderStageTemplateSplitDropdown();
 }
 
 async function applyTemplateToActiveDeck(templateId, showNotification = true) {
@@ -9743,152 +10011,195 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
   const slides = state.currentResult?.storyboard?.slides || [];
   slides.forEach((s) => {
     s.template_id = prof.template_id;
-    if (matchPaletteChecked && prof.template_id !== "default_workbench") {
-      s.accent_palette_key = "MATCH_TEMPLATE";
-    } else if (prof.template_id === "default_workbench" && s.accent_palette_key === "MATCH_TEMPLATE") {
-      s.accent_palette_key = "NAVY_GOLD";
+    if (prof.template_id === "default_workbench") {
+      if (s.brand_palette === "MATCH_TEMPLATE") {
+        s.brand_palette = "CLASSIC_NAVY";
+      }
+    } else if (matchPaletteChecked) {
+      s.brand_palette = "MATCH_TEMPLATE";
     }
   });
 
   if (state.currentResult) {
     state.currentResult.template_id = prof.template_id;
-    renderActiveSlide(state.activeSlideIdx);
+    renderActiveSlide();
   }
-  renderTemplateCatalogGrid();
 
-  // Synchronize downloadable .pptx in background
-  if (state.currentResult && slides.length > 0) {
+  if (state.currentSessionId && state.currentResult) {
     try {
-      const resp = await fetch("/api/v1/templates/apply", {
+      await fetch("/api/v1/templates/apply", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          badge_name: state.currentResult.badge_name || state.currentBadge || "First Aid",
+          session_id: state.currentSessionId,
+          workspace_id: state.activeWorkspaceId || null,
           template_id: prof.template_id,
-          storyboard_slides: slides,
-          counselor_info: state.currentResult.counselor_info || null,
-          accent_palette_key: matchPaletteChecked && prof.template_id !== "default_workbench" ? "MATCH_TEMPLATE" : null,
+          match_template_palette: matchPaletteChecked && prof.template_id !== "default_workbench",
         }),
       });
-      if (resp.ok) {
-        const data = await resp.json();
-        if (data.pptx_download_url && state.currentResult) {
-          state.currentResult.pptx_download_url = data.pptx_download_url;
-          syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
-        }
-      }
     } catch (_e) {}
   }
 
-  if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
-    window.autoSaveActiveWorkspaceDebounced();
-  }
+  renderTemplateCatalogGrid();
   if (showNotification) {
-    showToast(`Applied "${prof.name}" template (${prof.safe_bounds?.content_bottom_max_in || 6.95}" safe canvas).`, "info");
+    const bottomIn = prof.safe_bounds?.content_bottom_max_in || 6.95;
+    showToast(`🖼️ Applied "${prof.name}" template (responsive safe canvas y <= ${bottomIn.toFixed(2)}").`, "info");
   }
+}
+
+function openEditTemplateMetaModal(tpl) {
+  if (!tpl) return;
+  const modal = document.getElementById("edit-template-meta-modal");
+  const idInput = document.getElementById("edit-template-meta-id") || document.getElementById("edit-tpl-id-input");
+  const nameInput = document.getElementById("edit-template-name-input") || document.getElementById("edit-tpl-name-input");
+  const descInput = document.getElementById("edit-template-desc-input") || document.getElementById("edit-tpl-desc-input");
+  if (!modal || !idInput || !nameInput || !descInput) return;
+  idInput.value = tpl.template_id;
+  nameInput.value = tpl.name || "";
+  descInput.value = tpl.description || "";
+  modal.classList.remove("hidden");
+  modal.classList.add("open");
+  nameInput.focus();
 }
 
 function renderTemplateCatalogGrid() {
   const grid = document.getElementById("template-catalog-grid");
   if (!grid) return;
   const list = state.templateCatalog || [];
-  const countChip = document.getElementById("template-catalog-count-chip");
-  if (countChip) countChip.textContent = `${list.length} Templates`;
-
-  const sel = document.getElementById("template-select");
-  if (sel && list.length > 0) {
-    sel.innerHTML = list
-      .map(
-        (t) =>
-          `<option value="${escapeHtml(t.template_id)}" ${t.template_id === state.activeTemplateId ? "selected" : ""}>${escapeHtml(t.name)}</option>`
-      )
-      .join("");
-  }
+  const activeId = state.activeTemplateId || "default_workbench";
 
   grid.innerHTML = list
     .map((t) => {
-      const isActive = t.template_id === (state.activeTemplateId || "default_workbench");
-      const bottomSafe = (t.safe_bounds?.content_bottom_max_in || 6.95).toFixed(2);
-      const previewBg = t.cover_bg_url
-        ? `background-image:linear-gradient(rgba(250,248,245,0.78), rgba(250,248,245,0.84)), url('${escapeHtml(t.cover_bg_url)}'); background-size:cover;`
-        : t.canvas_watermark_url
-        ? `background-image:url('${escapeHtml(t.canvas_watermark_url)}'); background-size:cover;`
-        : "background:#FAF8F5;";
-      return `
-        <div class="m3-template-card ${isActive ? "active" : ""}" data-select-template="${escapeHtml(t.template_id)}">
-          <div>
-            <div class="m3-template-preview-box" style="${previewBg}">
-              <div style="height:16%; background:${escapeHtml(t.primary_hex || "#003F87")}; border-bottom:2px solid ${escapeHtml(t.accent_hex || "#D4AF37")}; display:flex; align-items:center; justify-content:space-between; padding:0 8px; color:#FFFFFF; font-size:0.60rem; font-weight:800;">
-                <span>${escapeHtml(t.name.slice(0, 24))}</span>
-                <span>16:9</span>
-              </div>
-              <div style="padding:6px 8px; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
-                <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800;">
-                  Safe Zone: 1.12"&ndash;${bottomSafe}"
-                </div>
-                <div class="m3-tpl-preview-fig-card" style="background:#FFFFFF; border:1px solid #CBD5E1; border-radius:4px; height:72%; display:flex; align-items:center; justify-content:center; font-size:0.52rem; font-weight:700;">
-                  Figure
-                </div>
-              </div>
-              <div style="height:13%; position:relative; display:flex; align-items:center; justify-content:space-between; padding:0 6px; background:${escapeHtml(t.bottom_bar_hex || "transparent")};">
-                ${
-                  t.bottom_silhouette_url
-                    ? `<img src="${escapeHtml(t.bottom_silhouette_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:fill;" />`
-                    : `<span style="font-size:0.50rem; color:${t.bottom_bar_hex ? "#FFFFFF" : "#64748B"}; font-weight:700;">Footer Strip</span>`
-                }
-                ${
-                  t.corner_logo_url
-                    ? `<img src="${escapeHtml(t.corner_logo_url)}" alt="" style="max-height:85%; max-width:36%; object-fit:contain; margin-left:auto; position:relative; z-index:2; background:rgba(255,255,255,0.88); padding:1px 3px; border-radius:3px;" />`
-                    : ""
-                }
-              </div>
-            </div>
-            <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-top:7px;">
-              <div style="font-size:0.79rem; font-weight:800; color:#003F87; line-height:1.2;">${escapeHtml(t.name)}</div>
-              ${isActive ? `<span class="m3-chip m3-chip-primary" style="font-size:0.62rem; padding:1px 6px;">✓ Active</span>` : ""}
-            </div>
-            <div style="font-size:0.69rem; color:#475569; margin-top:3px; line-height:1.35;">${escapeHtml(t.description || "")}</div>
+      const isAct = t.template_id === activeId;
+      const thumbImg = t.thumbnail_url || t.bottom_silhouette_url || t.corner_logo_url || "";
+      const barHex = t.bottom_bar_hex || t.primary_hex || "#003F87";
+      const accHex = t.bottom_accent_hex || t.accent_hex || "#D4AF37";
+      const bottomMax = t.safe_bounds?.content_bottom_max_in || 6.95;
+      const badgeTag = t.is_builtin ? "Built-In" : "Custom Upload";
+      const customActionsHtml = !t.is_builtin
+        ? `
+          <div class="m3-tpl-card-actions">
+            <button type="button" class="m3-tpl-action-icon-btn" data-tpl-edit="${escapeHtml(t.template_id)}" title="Edit template name and description">✏️</button>
+            <button type="button" class="m3-tpl-action-icon-btn delete" data-tpl-delete="${escapeHtml(t.template_id)}" title="Delete custom template">🗑️</button>
           </div>
-          <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; padding-top:4px; border-top:1px solid #E2E8F0; font-size:0.66rem; color:#64748B;">
-            <span>📐 Max Y: <strong>${bottomSafe}"</strong></span>
-            <span style="display:inline-flex; align-items:center; gap:4px;">
-              <span style="width:10px; height:10px; border-radius:50%; background:${escapeHtml(t.primary_hex || "#003F87")}; display:inline-block;"></span>
-              <span style="width:10px; height:10px; border-radius:50%; background:${escapeHtml(t.accent_hex || "#D4AF37")}; display:inline-block;"></span>
-            </span>
+        `
+        : "";
+      return `
+        <div class="m3-template-card ${isAct ? "active" : ""}" data-tpl-select="${escapeHtml(t.template_id)}">
+          ${customActionsHtml}
+          <div class="m3-template-card-preview" style="background:${escapeHtml(t.card_bg_hex || "#F8FAFC")};">
+            <div style="position:absolute; top:0; left:0; right:0; height:18%; background:${escapeHtml(t.primary_hex || "#003F87")}; border-top:3px solid ${escapeHtml(accHex)};"></div>
+            ${
+              thumbImg
+                ? `<img src="${escapeHtml(thumbImg)}" alt="${escapeHtml(t.name)}" style="max-height:70%; max-width:85%; object-fit:contain; z-index:1;" />`
+                : `<span style="font-size:0.75rem; font-weight:800; color:${escapeHtml(t.primary_hex || "#003F87")};">16:9 Widescreen Canvas</span>`
+            }
+            <div style="position:absolute; left:0; right:0; bottom:0; height:12%; background:${escapeHtml(barHex)}; border-top:2px solid ${escapeHtml(accHex)};"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:6px;">
+            <div class="m3-template-card-title">${escapeHtml(t.name)}</div>
+            <span class="m3-chip" style="font-size:0.65rem; padding:1px 6px;">${badgeTag}</span>
+          </div>
+          <div class="m3-template-card-desc">${escapeHtml(t.description || "")}</div>
+          <div class="m3-template-card-swatches">
+            <span class="m3-template-swatch-dot" style="background:${escapeHtml(t.primary_hex || "#003F87")};" title="Primary: ${escapeHtml(t.primary_hex)}"></span>
+            <span class="m3-template-swatch-dot" style="background:${escapeHtml(t.accent_hex || "#D4AF37")};" title="Accent: ${escapeHtml(t.accent_hex)}"></span>
+            <span class="m3-template-swatch-dot" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")};" title="Card Tint: ${escapeHtml(t.card_bg_hex)}"></span>
+            <span style="margin-left:auto; font-size:0.68rem; color:#64748B; font-weight:700;">Safe Y &le; ${bottomMax.toFixed(2)}"</span>
           </div>
         </div>
       `;
     })
     .join("");
 
-  grid.querySelectorAll("[data-select-template]").forEach((card) => {
-    card.addEventListener("click", async () => {
-      const tid = card.getAttribute("data-select-template");
-      if (tid) {
-        await applyTemplateToActiveDeck(tid, true);
+  grid.querySelectorAll("[data-tpl-select]").forEach((card) => {
+    card.addEventListener("click", (ev) => {
+      if (ev.target.closest("[data-tpl-edit]") || ev.target.closest("[data-tpl-delete]")) {
+        return;
+      }
+      const id = card.getAttribute("data-tpl-select");
+      if (id) applyTemplateToActiveDeck(id, true);
+    });
+  });
+
+  grid.querySelectorAll("[data-tpl-edit]").forEach((btn) => {
+    btn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const tplId = btn.getAttribute("data-tpl-edit");
+      const tpl = (state.templateCatalog || []).find((x) => x.template_id === tplId);
+      if (tpl) openEditTemplateMetaModal(tpl);
+    });
+  });
+
+  grid.querySelectorAll("[data-tpl-delete]").forEach((btn) => {
+    btn.addEventListener("click", async (ev) => {
+      ev.stopPropagation();
+      const tplId = btn.getAttribute("data-tpl-delete");
+      if (!tplId) return;
+      const tpl = (state.templateCatalog || []).find((x) => x.template_id === tplId);
+      try {
+        const resp = await fetch(`/api/v1/templates/${encodeURIComponent(tplId)}`, { method: "DELETE" });
+        if (resp.ok) {
+          state.templateCatalog = (state.templateCatalog || []).filter((x) => x.template_id !== tplId);
+          const sel = document.getElementById("template-select");
+          if (sel) {
+            Array.from(sel.options).forEach((o) => {
+              if (o.value === tplId) o.remove();
+            });
+          }
+          const wasActive = state.activeTemplateId === tplId;
+          if (wasActive) {
+            await applyTemplateToActiveDeck("default_workbench", false);
+            showToast(`🗑️ Deleted "${tpl?.name || tplId}" and reverted deck to Workbench Classic.`, "info");
+          } else {
+            renderTemplateCatalogGrid();
+            renderStageTemplateSplitDropdown();
+            showToast(`🗑️ Deleted custom template "${tpl?.name || tplId}".`, "info");
+          }
+        } else {
+          const err = await resp.json().catch(() => ({}));
+          showToast(`Could not delete template: ${err.detail || resp.statusText}`, "warning");
+        }
+      } catch (err) {
+        showToast(`Delete failed: ${err.message}`, "warning");
       }
     });
   });
 }
 
 async function initPowerPointTemplateStudio() {
-  state.activeTemplateId = window.localStorage.getItem(TEMPLATE_STORAGE_KEY) || "default_workbench";
-  state.templateCatalog = [];
-  state.showSafeZoneXray = false;
+  try {
+    const savedId = window.localStorage.getItem(TEMPLATE_STORAGE_KEY);
+    if (savedId) state.activeTemplateId = savedId;
+  } catch (_e) {}
 
   try {
     const resp = await fetch("/api/v1/templates");
     if (resp.ok) {
       const data = await resp.json();
-      state.templateCatalog = data.templates || [];
+      if (Array.isArray(data.templates) && data.templates.length > 0) {
+        state.templateCatalog = data.templates;
+      }
     }
   } catch (_e) {}
+
+  // Ensure activeTemplateId still exists in catalog
+  if (
+    state.activeTemplateId !== "default_workbench" &&
+    !(state.templateCatalog || []).some((t) => t.template_id === state.activeTemplateId)
+  ) {
+    state.activeTemplateId = "default_workbench";
+  }
 
   syncTemplateSelectorUi();
   renderTemplateCatalogGrid();
 
   const openModal = () => {
     renderTemplateCatalogGrid();
+    const statusEl = document.getElementById("template-upload-status");
+    if (statusEl && statusEl.textContent.includes("showToast")) {
+      statusEl.textContent = "";
+    }
     const m = document.getElementById("template-studio-modal");
     m?.classList.remove("hidden");
     m?.classList.add("open");
@@ -9903,136 +10214,260 @@ async function initPowerPointTemplateStudio() {
   document.getElementById("btn-stage-template-picker")?.addEventListener("click", openModal);
   document.getElementById("btn-close-template-studio")?.addEventListener("click", closeModal);
 
-  document.getElementById("template-select")?.addEventListener("change", async (ev) => {
-    await applyTemplateToActiveDeck(ev.target.value, true);
+  // Split-button caret dropdown on Slide Stage Toolbar
+  const caretBtn = document.getElementById("btn-stage-template-caret");
+  const splitMenu = document.getElementById("stage-template-dropdown-menu");
+  caretBtn?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    if (!splitMenu) return;
+    renderStageTemplateSplitDropdown();
+    const isHidden = splitMenu.classList.toggle("hidden");
+    caretBtn.setAttribute("aria-expanded", isHidden ? "false" : "true");
   });
 
-  document.getElementById("template-safezone-xray-checkbox")?.addEventListener("change", (ev) => {
-    state.showSafeZoneXray = Boolean(ev.target.checked);
-    window.renderSlideTemplateOverlay(state.activeSlideIdx === -1, null);
+  document.addEventListener("click", (ev) => {
+    if (splitMenu && !splitMenu.classList.contains("hidden")) {
+      if (!ev.target.closest("#stage-template-split-group")) {
+        splitMenu.classList.add("hidden");
+        caretBtn?.setAttribute("aria-expanded", "false");
+      }
+    }
   });
 
-  document.getElementById("template-match-palette-checkbox")?.addEventListener("change", async () => {
-    await applyTemplateToActiveDeck(state.activeTemplateId || "default_workbench", false);
+  // Edit Custom Template Metadata Modal handlers
+  const closeEditTplModal = () => {
+    const m = document.getElementById("edit-template-meta-modal");
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+  };
+  document.getElementById("btn-close-edit-template-meta")?.addEventListener("click", closeEditTplModal);
+  document.getElementById("btn-cancel-edit-template-meta")?.addEventListener("click", closeEditTplModal);
+  document.getElementById("btn-save-edit-template-meta")?.addEventListener("click", async () => {
+    const tplId = (document.getElementById("edit-template-meta-id") || document.getElementById("edit-tpl-id-input"))?.value || "";
+    const newName = ((document.getElementById("edit-template-name-input") || document.getElementById("edit-tpl-name-input"))?.value || "").trim();
+    const newDesc = ((document.getElementById("edit-template-desc-input") || document.getElementById("edit-tpl-desc-input"))?.value || "").trim();
+    if (!tplId || !newName) {
+      showToast("Template name cannot be empty.", "warning");
+      return;
+    }
+    try {
+      const resp = await fetch(`/api/v1/templates/${encodeURIComponent(tplId)}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: newName, description: newDesc }),
+      });
+      if (resp.ok) {
+        const data = await resp.json();
+        const updated = data.template;
+        if (updated) {
+          const idx = (state.templateCatalog || []).findIndex((x) => x.template_id === tplId);
+          if (idx >= 0) state.templateCatalog[idx] = updated;
+          syncTemplateSelectorUi();
+          renderTemplateCatalogGrid();
+          closeEditTplModal();
+          showToast(`✏️ Updated template "${updated.name}".`, "info");
+        }
+      } else {
+        const err = await resp.json().catch(() => ({}));
+        showToast(`Update failed: ${err.detail || resp.statusText}`, "warning");
+      }
+    } catch (err) {
+      showToast(`Update error: ${err.message}`, "warning");
+    }
   });
 
-  document.getElementById("btn-upload-template-file")?.addEventListener("click", async () => {
+  document.getElementById("template-select")?.addEventListener("change", (e) => {
+    applyTemplateToActiveDeck(e.target.value, true);
+    markDeckConfigDirty();
+  });
+
+  document.getElementById("template-xray-toggle-checkbox")?.addEventListener("change", (e) => {
+    state.showSafeZoneXray = Boolean(e.target.checked);
+    const stageBtn = document.getElementById("btn-toggle-safezone-xray-stage");
+    stageBtn?.classList.toggle("active", state.showSafeZoneXray);
+    window.renderSlideTemplateOverlay(state.activeSlideIndex === -1, null);
+  });
+
+  document.getElementById("btn-toggle-safezone-xray-stage")?.addEventListener("click", () => {
+    state.showSafeZoneXray = !state.showSafeZoneXray;
+    const chk = document.getElementById("template-xray-toggle-checkbox");
+    if (chk) chk.checked = state.showSafeZoneXray;
+    const stageBtn = document.getElementById("btn-toggle-safezone-xray-stage");
+    stageBtn?.classList.toggle("active", state.showSafeZoneXray);
+    window.renderSlideTemplateOverlay(state.activeSlideIndex === -1, null);
+  });
+
+  document.getElementById("btn-upload-template-submit")?.addEventListener("click", async () => {
     const fileInput = document.getElementById("template-upload-file-input");
-    const statusEl = document.getElementById("template-import-status-msg");
+    const nameInput = document.getElementById("template-upload-name-input");
+    const statusEl = document.getElementById("template-upload-status");
     const file = fileInput?.files?.[0];
     if (!file) {
       showToast("Select a .pptx, .ppt, .png, or .jpg file first.", "warning");
       return;
     }
-    if (statusEl) statusEl.textContent = `Uploading and analyzing ${file.name}...`;
+    if (statusEl) {
+      statusEl.style.color = "#0369A1";
+      statusEl.textContent = `Uploading & analyzing "${file.name}"...`;
+    }
     try {
-      const arrayBuf = await file.arrayBuffer();
-      const bytes = new Uint8Array(arrayBuf);
-      let binary = "";
-      for (let i = 0; i < bytes.byteLength; i++) {
-        binary += String.fromCharCode(bytes[i]);
-      }
-      const b64 = window.btoa(binary);
-      const resp = await fetch("/api/v1/templates/upload", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ filename: file.name, data_base64: b64 }),
-      });
+      const fd = new FormData();
+      fd.append("file", file);
+      fd.append("name", nameInput?.value || file.name);
+      const resp = await fetch("/api/v1/templates/upload", { method: "POST", body: fd });
       const data = await resp.json();
-      if (!resp.ok) throw new Error(data.detail || "Upload failed");
-      state.templateCatalog = data.templates || state.templateCatalog;
-      await applyTemplateToActiveDeck(data.template.template_id, true);
-      if (statusEl) statusEl.textContent = `✓ Imported and applied "${data.template.name}".`;
+      if (resp.ok && data.template) {
+        state.templateCatalog.push(data.template);
+        syncTemplateSelectorUi();
+        await applyTemplateToActiveDeck(data.template.template_id, true);
+        if (statusEl) {
+          statusEl.style.color = "#15803D";
+          statusEl.textContent = `✅ Added & applied "${data.template.name}" (Safe Y <= ${data.template.safe_bounds?.content_bottom_max_in || 6.54}")`;
+        }
+        if (fileInput) fileInput.value = "";
+        if (nameInput) nameInput.value = "";
+      } else {
+        if (statusEl) {
+          statusEl.style.color = "#B91C1C";
+          statusEl.textContent = `⚠️ ${data.detail || "Could not ingest template file."}`;
+        }
+      }
     } catch (err) {
-      if (statusEl) statusEl.textContent = `⚠️ Upload error: ${err.message}`;
+      if (statusEl) {
+        statusEl.style.color = "#B91C1C";
+        statusEl.textContent = `⚠️ Upload error: ${err.message}`;
+      }
     }
   });
 
-  document.getElementById("btn-import-template-url")?.addEventListener("click", async () => {
+  document.getElementById("btn-import-template-url-submit")?.addEventListener("click", async () => {
     const urlInput = document.getElementById("template-import-url-input");
-    const statusEl = document.getElementById("template-import-status-msg");
-    const url = (urlInput?.value || "").trim();
-    if (!url) {
+    const nameInput = document.getElementById("template-upload-name-input");
+    const statusEl = document.getElementById("template-upload-status");
+    const rawUrl = (urlInput?.value || "").trim();
+    if (!rawUrl) {
       showToast("Paste an HTTP/HTTPS template URL first.", "warning");
       return;
     }
-    if (statusEl) statusEl.textContent = `Downloading and inspecting template from URL...`;
+    if (statusEl) {
+      statusEl.style.color = "#0369A1";
+      statusEl.textContent = `Fetching template from ${rawUrl}...`;
+    }
     try {
       const resp = await fetch("/api/v1/templates/import-url", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url }),
+        body: JSON.stringify({ url: rawUrl, name: nameInput?.value || "" }),
       });
       const data = await resp.json();
-      if (!resp.ok) throw new Error(data.detail || "URL import failed");
-      state.templateCatalog = data.templates || state.templateCatalog;
-      await applyTemplateToActiveDeck(data.template.template_id, true);
-      if (statusEl) statusEl.textContent = `✓ Imported and applied "${data.template.name}".`;
+      if (resp.ok && data.template) {
+        state.templateCatalog.push(data.template);
+        syncTemplateSelectorUi();
+        await applyTemplateToActiveDeck(data.template.template_id, true);
+        if (statusEl) {
+          statusEl.style.color = "#15803D";
+          statusEl.textContent = `✅ Imported & applied "${data.template.name}"`;
+        }
+      } else {
+        if (statusEl) {
+          statusEl.style.color = "#B91C1C";
+          statusEl.textContent = `⚠️ ${data.detail || "Could not import template URL."}`;
+        }
+      }
     } catch (err) {
-      if (statusEl) statusEl.textContent = `⚠️ URL import error: ${err.message}`;
+      if (statusEl) {
+        statusEl.style.color = "#B91C1C";
+        statusEl.textContent = `⚠️ URL import error: ${err.message}`;
+      }
     }
   });
 }
 
 // ============================================================================
-// PLAN 16B: MULTI-BADGE COUNSELOR WORKSPACES, FAVORITES & SAVED DECK LIBRARY
+// PLAN 16B + PLAN 17: MULTI-BADGE COUNSELOR WORKSPACES, FAVORITES & SAVED DECK LIBRARY
 // ============================================================================
 
-const FAVORITES_STORAGE_KEY = "bsa_favorite_badges_v1";
-const WORKSPACES_INDEX_STORAGE_KEY = "bsa_saved_workspaces_index_v1";
+const FAVORITES_STORAGE_KEY = "scouts_bsa_favorite_badges_v1";
+const SKIP_DELETE_CONFIRM_STORAGE_KEY = "scouts_bsa_skip_delete_deck_confirm_v1";
+const POPULAR_QUICK_BADGES = [
+  "First Aid",
+  "Camping",
+  "Swimming",
+  "Cooking",
+  "Environmental Science",
+  "Citizenship in the World",
+  "Personal Fitness",
+  "Emergency Preparedness",
+  "Communications",
+  "Kayaking",
+];
 
-window.syncActiveBadgeStarButton = function syncActiveBadgeStarButton() {
-  const starBtn = document.getElementById("btn-star-active-badge");
-  const select = document.getElementById("badge-select");
-  const current = select?.value || state.currentBadge || "First Aid";
-  const favSet = new Set((state.favoriteBadges || []).map((x) => String(x).toLowerCase()));
-  const isFav = favSet.has(current.toLowerCase());
-  if (starBtn) {
-    starBtn.textContent = isFav ? "⭐ Favorited" : "☆ Favorite";
-    starBtn.style.background = isFav ? "#FEF3C7" : "";
-    starBtn.style.color = isFav ? "#92400E" : "";
-    starBtn.style.borderColor = isFav ? "#F59E0B" : "";
+function syncFavoriteBadgesUi() {
+  const favs = state.favoriteBadges || [];
+  const curBadge = document.getElementById("badge-select")?.value || state.currentBadge || "First Aid";
+  const isFav = favs.some((b) => b.toLowerCase() === curBadge.toLowerCase());
+
+  const starBtn = document.getElementById("btn-toggle-favorite-current-badge");
+  const starIcon = document.getElementById("favorite-current-badge-star-icon");
+  if (starBtn && starIcon) {
+    starBtn.setAttribute("aria-pressed", isFav ? "true" : "false");
+    starBtn.classList.toggle("active", isFav);
+    starIcon.textContent = isFav ? "★" : "☆";
+    starIcon.style.color = isFav ? "#FFFFFF" : "";
   }
-  const favCountEl = document.getElementById("fav-badges-count-lbl");
-  if (favCountEl) favCountEl.textContent = String((state.favoriteBadges || []).length);
-};
+
+  const favCountEl = document.getElementById("quick-fav-count");
+  if (favCountEl) favCountEl.textContent = String(favs.length);
+
+  // Sync Favorites count inside Sidebar "Eagle / Favorites" (#filter-eagle-select) dropdown
+  const eagleSelect = document.getElementById("filter-eagle-select");
+  if (eagleSelect) {
+    const favOpt = Array.from(eagleSelect.options).find((o) => o.value === "FAVORITES");
+    if (favOpt) {
+      favOpt.textContent = `Favorites (${favs.length})`;
+    }
+  }
+
+  renderQuickSelectBadgesRow();
+}
 
 window.toggleFavoriteBadge = async function toggleFavoriteBadge(badgeName) {
-  const clean = String(badgeName || state.currentBadge || "First Aid").trim();
+  const clean = String(badgeName || "").trim();
   if (!clean) return;
-  const favs = Array.isArray(state.favoriteBadges) ? [...state.favoriteBadges] : [];
-  const idx = favs.findIndex((x) => x.toLowerCase() === clean.toLowerCase());
-  const nowFav = idx === -1;
-  if (nowFav) {
-    favs.push(clean);
+  const exists = (state.favoriteBadges || []).some((b) => b.toLowerCase() === clean.toLowerCase());
+  const nextAction = exists ? "remove" : "add";
+  if (exists) {
+    state.favoriteBadges = state.favoriteBadges.filter((b) => b.toLowerCase() !== clean.toLowerCase());
   } else {
-    favs.splice(idx, 1);
+    state.favoriteBadges = [...(state.favoriteBadges || []), clean];
   }
-  state.favoriteBadges = favs;
   try {
-    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favs));
+    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(state.favoriteBadges));
   } catch (_e) {}
 
+  syncFavoriteBadgesUi();
+  if (typeof applyBadgeFilters === "function") {
+    applyBadgeFilters();
+  }
+
   try {
-    const resp = await fetch("/api/v1/counselor/favorites", {
+    const resp = await fetch("/api/v1/favorites/toggle", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ badge_name: clean, is_favorite: nowFav }),
+      body: JSON.stringify({ badge_name: clean, action: nextAction }),
     });
     if (resp.ok) {
       const data = await resp.json();
       if (Array.isArray(data.favorites)) {
         state.favoriteBadges = data.favorites;
-        window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(data.favorites));
+        window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(state.favoriteBadges));
+        syncFavoriteBadgesUi();
       }
     }
   } catch (_e) {}
 
-  applyBadgeFilters(false);
-  renderQuickSelectBadgesRow();
-  window.syncActiveBadgeStarButton();
   showToast(
-    nowFav ? `⭐ Added "${clean}" to My Favorite Merit Badges.` : `Removed "${clean}" from My Favorites.`,
+    nextAction === "add" ? `★ Added "${clean}" to My Favorite Badges` : `Removed "${clean}" from Favorites`,
     "info"
   );
 };
@@ -10041,173 +10476,162 @@ function renderQuickSelectBadgesRow() {
   const row = document.getElementById("quick-badges-row");
   if (!row) return;
   const mode = state.quickSelectMode || "popular";
-  const favCountEl = document.getElementById("fav-badges-count-lbl");
-  if (favCountEl) favCountEl.textContent = String((state.favoriteBadges || []).length);
-  const wsCountEl = document.getElementById("ws-badges-count-lbl");
-  if (wsCountEl) wsCountEl.textContent = String((state.savedWorkspaces || []).length);
+  const curBadge = document.getElementById("badge-select")?.value || state.currentBadge || "First Aid";
 
   if (mode === "favorites") {
     const favs = state.favoriteBadges || [];
     if (favs.length === 0) {
-      row.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 2px;">No starred badges yet — click <strong>☆ Favorite</strong> above or star patches in the <strong>🎖️ Patch Gallery</strong>!</div>`;
+      row.innerHTML = `<span style="font-size:0.75rem; color:#64748B; font-style:italic;">Click the ★ star next to any Merit Badge or in the Patch Gallery to pin your Favorites here!</span>`;
       return;
     }
     row.innerHTML = favs
       .map(
-        (bName) =>
-          `<button type="button" class="m3-badge-pill ${bName === state.currentBadge ? "active" : ""}" data-badge="${escapeHtml(bName)}">⭐ ${escapeHtml(bName)}</button>`
+        (b) =>
+          `<button type="button" class="m3-quick-badge-chip ${b === curBadge ? "active" : ""}" data-badge="${escapeHtml(b)}">★ ${escapeHtml(b)}</button>`
       )
       .join("");
   } else if (mode === "workspaces") {
-    const wsList = state.savedWorkspaces || [];
-    if (wsList.length === 0) {
-      row.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 2px;">No saved decks yet — click <strong>💾 Save Deck</strong> to pin multiple badges in progress.</div>`;
+    const decks = state.savedWorkspaces || [];
+    if (decks.length === 0) {
+      row.innerHTML = `<span style="font-size:0.75rem; color:#64748B; font-style:italic;">No saved decks yet — click "🗂️ My Decks" above to save or clone a deck workspace.</span>`;
       return;
     }
-    row.innerHTML = wsList
+    row.innerHTML = decks
       .slice(0, 8)
-      .map(
-        (ws) =>
-          `<button type="button" class="m3-badge-pill ${ws.workspace_id === state.activeWorkspaceId ? "active" : ""}" data-switch-ws="${escapeHtml(ws.workspace_id)}">🗂️ ${escapeHtml(ws.workspace_title || ws.badge_name)}</button>`
-      )
+      .map((ws) => {
+        const isAct = ws.workspace_id === state.activeWorkspaceId;
+        const label = ws.session_label ? `${ws.badge_name} (${ws.session_label})` : ws.workspace_title || ws.badge_name;
+        return `<button type="button" class="m3-quick-badge-chip ${isAct ? "active" : ""}" data-workspace-quick-load="${escapeHtml(ws.workspace_id)}" title="${escapeHtml(ws.workspace_title || ws.badge_name)}">🗂️ ${escapeHtml(label)}</button>`;
+      })
       .join("");
-    row.querySelectorAll("[data-switch-ws]").forEach((btn) => {
-      btn.addEventListener("click", async () => {
-        const wsId = btn.getAttribute("data-switch-ws");
-        if (wsId) await switchActiveWorkspace(wsId);
+    row.querySelectorAll("[data-workspace-quick-load]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const wid = btn.getAttribute("data-workspace-quick-load");
+        if (wid) loadSavedWorkspaceById(wid);
       });
     });
     return;
   } else {
-    const popular = [
-      { name: "First Aid", label: "★ First Aid" },
-      { name: "Weather", label: "Weather" },
-      { name: "Camping", label: "★ Camping" },
-      { name: "Citizenship in the Nation", label: "★ Cit. in Nation" },
-      { name: "Cooking", label: "★ Cooking" },
-      { name: "Emergency Preparedness", label: "★ Emergency Prep" },
-      { name: "Environmental Science", label: "★ Env. Science" },
-      { name: "Robotics", label: "Robotics" },
-    ];
-    row.innerHTML = popular
-      .map(
-        (p) =>
-          `<button type="button" class="m3-badge-pill ${p.name === state.currentBadge ? "active" : ""}" data-badge="${escapeHtml(p.name)}">${escapeHtml(p.label)}</button>`
-      )
-      .join("");
+    row.innerHTML = POPULAR_QUICK_BADGES.map(
+      (b) => `<button type="button" class="m3-quick-badge-chip ${b === curBadge ? "active" : ""}" data-badge="${escapeHtml(b)}">${escapeHtml(b)}</button>`
+    ).join("");
   }
 
-  row.querySelectorAll("[data-badge]").forEach((pill) => {
-    pill.addEventListener("click", async () => {
-      const bName = pill.getAttribute("data-badge");
+  row.querySelectorAll("[data-badge]").forEach((chip) => {
+    chip.addEventListener("click", async () => {
+      const bName = chip.getAttribute("data-badge");
       if (!bName) return;
-      const select = document.getElementById("badge-select");
-      if (select) select.value = bName;
+      const sel = document.getElementById("badge-select");
+      if (sel) sel.value = bName;
+      syncFavoriteBadgesUi();
       await executeStreamingWorkflow(bName);
     });
   });
 }
 
 function renderActiveWorkspacesBar() {
-  const bar = document.getElementById("active-workspaces-bar");
-  const listEl = document.getElementById("active-workspaces-pills-list");
-  const topPill = document.getElementById("top-workspaces-count-pill");
-  const copySelect = document.getElementById("select-bluecard-copy-workspace");
+  const pillsEl = document.getElementById("active-workspaces-pills-list");
+  const topCountEl = document.getElementById("top-saved-decks-count-badge");
+  const quickCountEl = document.getElementById("quick-decks-count");
   const wsList = state.savedWorkspaces || [];
 
-  if (topPill) topPill.textContent = String(Math.max(1, wsList.length));
-  const wsCountEl = document.getElementById("ws-badges-count-lbl");
-  if (wsCountEl) wsCountEl.textContent = String(Math.max(1, wsList.length));
+  if (topCountEl) topCountEl.textContent = String(wsList.length);
+  if (quickCountEl) quickCountEl.textContent = String(wsList.length);
+  if (!pillsEl) return;
 
-  if (copySelect) {
-    const otherWs = wsList.filter((w) => w.workspace_id !== state.activeWorkspaceId);
-    copySelect.innerHTML =
-      `<option value="">🔁 Copy Scouts From Deck (${otherWs.length})...</option>` +
-      otherWs
-        .map(
-          (w) =>
-            `<option value="${escapeHtml(w.workspace_id)}">📋 ${escapeHtml(w.workspace_title || w.badge_name)} (${w.scout_count || 0} Scouts)</option>`
-        )
-        .join("");
-  }
-
-  if (!bar || !listEl) return;
-  if (!state.currentResult) {
-    bar.classList.add("hidden");
+  if (wsList.length === 0) {
+    const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
+    const slug = badgeNameToEmblemSlug(curBadge);
+    pillsEl.innerHTML = `
+      <button type="button" class="m3-workspace-pill active" id="btn-current-unsaved-ws-pill" title="Current active deck on stage">
+        <img class="m3-workspace-pill-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" onerror="this.style.display='none'" />
+        <span>${escapeHtml(curBadge)}</span>
+        <span class="m3-workspace-pill-meta">Active</span>
+      </button>
+    `;
     return;
   }
-  bar.classList.remove("hidden");
 
-  const itemsHtml = wsList
-    .slice(0, 6)
+  pillsEl.innerHTML = wsList
+    .slice(0, 10)
     .map((ws) => {
       const isAct = ws.workspace_id === state.activeWorkspaceId;
       const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
-      const shortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
-      const label = shortSession ? `${ws.badge_name} • ${shortSession}` : ws.badge_name || ws.workspace_title;
+      const titleText = ws.workspace_title || ws.badge_name;
+      const subMeta = ws.session_label || `${ws.slide_count || 0} slides`;
       return `
-        <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-ws-bar-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${escapeHtml(ws.session_label || "")} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
-          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
-          <span>${escapeHtml(label)}</span>
-          <span class="m3-ws-pill-meta">(${ws.scout_count || 0})</span>
+        <button type="button" class="m3-workspace-pill ${isAct ? "active" : ""}" data-ws-pill-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(titleText)} (${escapeHtml(subMeta)})">
+          <img class="m3-workspace-pill-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" onerror="this.style.display='none'" />
+          <span style="max-width:170px; overflow:hidden; text-overflow:ellipsis;">${escapeHtml(titleText)}</span>
+          <span class="m3-workspace-pill-meta">${escapeHtml(subMeta)}</span>
         </button>
       `;
     })
     .join("");
 
-  listEl.innerHTML = `<span style="font-size:0.72rem; font-weight:800; color:#003F87; margin-right:2px;">🗂️ Active Decks:</span>${itemsHtml}`;
-  listEl.querySelectorAll("[data-ws-bar-id]").forEach((btn) => {
-    btn.addEventListener("click", async () => {
-      const wid = btn.getAttribute("data-ws-bar-id");
-      if (wid && wid !== state.activeWorkspaceId) {
-        await switchActiveWorkspace(wid);
-      }
+  pillsEl.querySelectorAll("[data-ws-pill-id]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const wid = btn.getAttribute("data-ws-pill-id");
+      if (wid) loadSavedWorkspaceById(wid);
     });
   });
+
+  syncBlueCardCopyRosterDropdown();
+}
+
+function syncBlueCardCopyRosterDropdown() {
+  const sel = document.getElementById("bluecard-copy-roster-from-ws-select");
+  if (!sel) return;
+  const wsList = state.savedWorkspaces || [];
+  const opts = [`<option value="">🔁 Copy Scouts From Saved Deck...</option>`];
+  wsList.forEach((ws) => {
+    if ((ws.scout_count || 0) > 0) {
+      opts.push(
+        `<option value="${escapeHtml(ws.workspace_id)}">${escapeHtml(ws.workspace_title || ws.badge_name)} (${ws.scout_count} Scouts)</option>`
+      );
+    }
+  });
+  sel.innerHTML = opts.join("");
 }
 
 async function saveCurrentDeckAsWorkspace(options = {}) {
   if (!state.currentResult) return null;
-  const badgeName = state.currentResult.badge_name || state.currentBadge || "First Aid";
-  const existingWs = (state.savedWorkspaces || []).find((w) =>
-    options.forceNew
-      ? false
-      : state.activeWorkspaceId
-      ? w.workspace_id === state.activeWorkspaceId
-      : w.badge_name.toLowerCase() === badgeName.toLowerCase()
-  );
-  const wsId = options.forceNew ? null : existingWs?.workspace_id || state.activeWorkspaceId || null;
-  const sessionLabel =
-    options.sessionLabel !== undefined
-      ? options.sessionLabel
-      : document.getElementById("ws-session-label-input")?.value || existingWs?.session_label || "";
-  const bundleTag =
-    options.bundleTag !== undefined
-      ? options.bundleTag
-      : document.getElementById("ws-bundle-tag-input")?.value || existingWs?.camp_bundle_tag || "";
-  const titleInputVal = document.getElementById("ws-title-input")?.value?.trim();
-  const wsTitle =
-    options.workspaceTitle ||
-    titleInputVal ||
-    existingWs?.workspace_title ||
-    (sessionLabel ? `${badgeName} — ${sessionLabel}` : `${badgeName} Merit Badge Deck`);
+  const res = state.currentResult;
+  const badgeName = res.badge_name || state.currentBadge || "First Aid";
+  const rosterObj = loadBadgeBlueCardRoster(badgeName);
 
-  const roster = loadBadgeBlueCardRoster(badgeName);
-  const slides = state.currentResult?.storyboard?.slides || [];
+  const wsTitle =
+    options.workspace_title !== undefined
+      ? options.workspace_title
+      : document.getElementById("ws-title-input")?.value?.trim() || badgeName;
+  const sessionLabel =
+    options.session_label !== undefined
+      ? options.session_label
+      : document.getElementById("ws-session-label-input")?.value?.trim() || "";
+  const bundleTag =
+    options.camp_bundle_tag !== undefined
+      ? options.camp_bundle_tag
+      : document.getElementById("ws-bundle-tag-input")?.value?.trim() || "";
 
   const payload = {
-    workspace_id: wsId,
-    workspace_title: wsTitle,
+    workspace_id: options.forceNew ? null : state.activeWorkspaceId || null,
+    session_id: state.currentSessionId || null,
     badge_name: badgeName,
+    workspace_title: wsTitle || badgeName,
     session_label: sessionLabel,
     camp_bundle_tag: bundleTag,
+    instruction_depth: document.getElementById("depth-select")?.value || "Deep Dive",
+    visual_theme: document.getElementById("beautification-select")?.value || "WARM_CREAM",
     template_id: state.activeTemplateId || "default_workbench",
-    counselor_info: state.currentResult.counselor_info || {},
-    deck_result: state.currentResult,
-    blue_card_roster: roster,
-    active_slide_idx: state.activeSlideIdx,
-    slide_count: slides.length + 1,
-    scout_count: (roster?.scouts || []).length,
+    troop_context: {
+      counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
+      troop_name: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
+      location: document.getElementById("input-location")?.value || "Austin, TX",
+    },
+    deck_payload: res,
+    blue_card_roster: rosterObj,
+    class_prep_payload: state.lastClassPrepData || {},
+    is_pinned: true,
   };
 
   try {
@@ -10218,13 +10642,18 @@ async function saveCurrentDeckAsWorkspace(options = {}) {
     });
     if (resp.ok) {
       const data = await resp.json();
-      state.activeWorkspaceId = data.workspace?.workspace_id || state.activeWorkspaceId;
-      state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
-      try {
-        window.localStorage.setItem(WORKSPACES_INDEX_STORAGE_KEY, JSON.stringify(state.savedWorkspaces));
-      } catch (_e) {}
-      renderActiveWorkspacesBar();
-      renderSavedWorkspacesGrid();
+      if (data.workspace) {
+        state.activeWorkspaceId = data.workspace.workspace_id;
+        const idx = state.savedWorkspaces.findIndex((w) => w.workspace_id === data.workspace.workspace_id);
+        if (idx >= 0) {
+          state.savedWorkspaces[idx] = data.workspace;
+        } else {
+          state.savedWorkspaces.unshift(data.workspace);
+        }
+        renderActiveWorkspacesBar();
+        renderSavedWorkspacesGrid();
+        renderQuickSelectBadgesRow();
+      }
       if (options.toastMessage) showToast(options.toastMessage, "info");
       return data.workspace;
     }
@@ -10232,135 +10661,185 @@ async function saveCurrentDeckAsWorkspace(options = {}) {
   return null;
 }
 
-window.autoSaveActiveWorkspaceDebounced = function autoSaveActiveWorkspaceDebounced() {
-  if (state._wsAutoSaveTimer) clearTimeout(state._wsAutoSaveTimer);
-  state._wsAutoSaveTimer = setTimeout(() => {
-    saveCurrentDeckAsWorkspace({ toastMessage: "" });
-  }, 450);
-};
-
-window.syncActiveWorkspaceBlueCardRoster = function syncActiveWorkspaceBlueCardRoster(_rosterObj) {
-  window.autoSaveActiveWorkspaceDebounced();
-};
-
 window.onWorkbenchDeckHydrated = async function onWorkbenchDeckHydrated(result) {
-  if (!result || state._switchingWorkspaceInProgress) return;
-  const badgeName = result.badge_name || "First Aid";
-  const matchWs = (state.savedWorkspaces || []).find((w) => w.badge_name.toLowerCase() === badgeName.toLowerCase());
-  state.activeWorkspaceId = matchWs ? matchWs.workspace_id : null;
-  await saveCurrentDeckAsWorkspace({ toastMessage: "" });
+  if (!result || !result.badge_name) return;
+  const badgeName = result.badge_name;
+  const existing = (state.savedWorkspaces || []).find(
+    (w) => w.badge_name?.toLowerCase() === badgeName.toLowerCase() && !w.session_label
+  );
+  state.activeWorkspaceId = existing ? existing.workspace_id : null;
+
+  const titleIn = document.getElementById("ws-title-input");
+  const sessionIn = document.getElementById("ws-session-label-input");
+  const bundleIn = document.getElementById("ws-bundle-tag-input");
+  if (titleIn) titleIn.value = existing?.workspace_title || badgeName;
+  if (sessionIn) sessionIn.value = existing?.session_label || "";
+  if (bundleIn) bundleIn.value = existing?.camp_bundle_tag || "";
+
+  await saveCurrentDeckAsWorkspace({
+    workspace_title: existing?.workspace_title || badgeName,
+    session_label: existing?.session_label || "",
+    camp_bundle_tag: existing?.camp_bundle_tag || "",
+  });
 };
 
-async function switchActiveWorkspace(workspaceId) {
+async function loadSavedWorkspaceById(workspaceId) {
   if (!workspaceId) return;
   try {
-    // Auto-save current workspace before switching
-    if (state.currentResult && state.activeWorkspaceId && state.activeWorkspaceId !== workspaceId) {
-      await saveCurrentDeckAsWorkspace({ toastMessage: "" });
-    }
     const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(workspaceId)}`);
-    if (!resp.ok) throw new Error("Workspace not found");
+    if (!resp.ok) return;
     const data = await resp.json();
     const ws = data.workspace;
     if (!ws) return;
 
-    state._switchingWorkspaceInProgress = true;
     state.activeWorkspaceId = ws.workspace_id;
     state.currentBadge = ws.badge_name;
-    state.activeTemplateId = ws.template_id || "default_workbench";
-    syncTemplateSelectorUi();
+    const badgeSel = document.getElementById("badge-select");
+    if (badgeSel) badgeSel.value = ws.badge_name;
 
-    const select = document.getElementById("badge-select");
-    if (select) select.value = ws.badge_name;
+    if (ws.template_id) {
+      state.activeTemplateId = ws.template_id;
+      syncTemplateSelectorUi();
+    }
 
     if (ws.blue_card_roster && Array.isArray(ws.blue_card_roster.scouts)) {
       saveBadgeBlueCardRoster(ws.badge_name, ws.blue_card_roster);
     }
 
-    if (ws.deck_result && ws.deck_result.storyboard) {
-      hydrateWorkbench(ws.deck_result);
-      if (typeof ws.active_slide_idx === "number" && ws.active_slide_idx >= -1) {
-        state.activeSlideIdx = ws.active_slide_idx;
-        renderFilmstrip(ws.deck_result.storyboard.slides || []);
-        renderActiveSlide(ws.active_slide_idx);
-      }
+    if (ws.deck_payload && ws.deck_payload.storyboard) {
+      state.currentResult = ws.deck_payload;
+      state.activeSlideIndex = -1;
+      hydrateWorkbench(ws.deck_payload);
     } else {
       await executeStreamingWorkflow(ws.badge_name);
     }
-    state._switchingWorkspaceInProgress = false;
 
     const titleIn = document.getElementById("ws-title-input");
-    const sessIn = document.getElementById("ws-session-label-input");
-    const bndlIn = document.getElementById("ws-bundle-tag-input");
-    if (titleIn) titleIn.value = ws.workspace_title || "";
-    if (sessIn) sessIn.value = ws.session_label || "";
-    if (bndlIn) bndlIn.value = ws.camp_bundle_tag || "";
+    const sessionIn = document.getElementById("ws-session-label-input");
+    const bundleIn = document.getElementById("ws-bundle-tag-input");
+    if (titleIn) titleIn.value = ws.workspace_title || ws.badge_name;
+    if (sessionIn) sessionIn.value = ws.session_label || "";
+    if (bundleIn) bundleIn.value = ws.camp_bundle_tag || "";
 
     renderActiveWorkspacesBar();
     renderSavedWorkspacesGrid();
     renderQuickSelectBadgesRow();
+
+    const modal = document.getElementById("saved-workspaces-modal");
+    modal?.classList.remove("open");
+    modal?.classList.add("hidden");
+
     showToast(`Switched to "${ws.workspace_title || ws.badge_name}".`, "info");
   } catch (err) {
-    state._switchingWorkspaceInProgress = false;
     showToast(`Could not load workspace: ${err.message}`, "warning");
   }
 }
 
-function renderSavedWorkspacesGrid() {
-  const grid = document.getElementById("saved-workspaces-grid");
-  if (!grid) return;
-  const q = (document.getElementById("workspaces-search-input")?.value || "").trim().toLowerCase();
-  const list = (state.savedWorkspaces || []).filter((w) => {
-    if (!q) return true;
-    return `${w.workspace_title} ${w.badge_name} ${w.session_label} ${w.camp_bundle_tag}`.toLowerCase().includes(q);
-  });
+let _pendingDeleteWorkspaceId = null;
 
-  if (list.length === 0) {
-    grid.innerHTML = `<div style="padding:18px; color:#64748B; font-size:0.84rem;">No saved Merit Badge workspaces match your filter. Click <strong>💾 Save Active Deck</strong> above to save your current deck.</div>`;
+async function executeWorkspaceDeletion(wid) {
+  if (!wid) return;
+  const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(wid)}`, { method: "DELETE" });
+  if (resp.ok) {
+    state.savedWorkspaces = (state.savedWorkspaces || []).filter((w) => w.workspace_id !== wid);
+    if (state.activeWorkspaceId === wid) {
+      state.activeWorkspaceId = state.savedWorkspaces[0]?.workspace_id || null;
+    }
+    renderSavedWorkspacesGrid();
+    renderActiveWorkspacesBar();
+    renderQuickSelectBadgesRow();
+    showToast("🗑️ Deleted saved deck workspace.", "info");
+  }
+}
+
+function promptOrExecuteWorkspaceDeletion(wid) {
+  if (!wid) return;
+  let skipConfirm = false;
+  try {
+    skipConfirm = window.localStorage.getItem(SKIP_DELETE_CONFIRM_STORAGE_KEY) === "1";
+  } catch (_e) {}
+
+  if (skipConfirm) {
+    executeWorkspaceDeletion(wid);
     return;
   }
 
-  grid.innerHTML = list
-    .map((w) => {
-      const isAct = w.workspace_id === state.activeWorkspaceId;
-      const slug = badgeNameToEmblemSlug(w.badge_name || "First Aid");
-      const tplProf = (state.templateCatalog || []).find((t) => t.template_id === w.template_id);
-      const tplName = tplProf ? tplProf.name : "Workbench Classic";
+  _pendingDeleteWorkspaceId = wid;
+  const ws = (state.savedWorkspaces || []).find((w) => w.workspace_id === wid);
+  const deckTitle = ws?.workspace_title || ws?.badge_name || "this Merit Badge deck";
+  const titleEl = document.getElementById("delete-workspace-confirm-title-text");
+  if (titleEl) {
+    titleEl.textContent = deckTitle;
+  }
+  const msgEl = document.getElementById("delete-ws-confirm-message");
+  if (msgEl) {
+    msgEl.textContent = `Are you sure you want to delete "${deckTitle}" from your Merit Badge Library?`;
+  }
+  const chk = document.getElementById("chk-skip-delete-deck-confirm");
+  if (chk) chk.checked = false;
+  const modal = document.getElementById("delete-workspace-confirm-modal");
+  modal?.classList.remove("hidden");
+  modal?.classList.add("open");
+}
+
+function renderSavedWorkspacesGrid() {
+  const grid = document.getElementById("saved-workspaces-grid");
+  const filterSel = document.getElementById("workspaces-bundle-filter-select");
+  if (!grid) return;
+  const all = state.savedWorkspaces || [];
+
+  if (filterSel) {
+    const curVal = filterSel.value || "ALL";
+    const bundles = Array.from(new Set(all.map((w) => w.camp_bundle_tag).filter(Boolean)));
+    filterSel.innerHTML =
+      `<option value="ALL">All Camp Weeks &amp; Sessions (${all.length})</option>` +
+      bundles.map((b) => `<option value="${escapeHtml(b)}">🏕️ ${escapeHtml(b)}</option>`).join("");
+    if (bundles.includes(curVal)) filterSel.value = curVal;
+  }
+
+  const activeBundle = filterSel?.value || "ALL";
+  const filtered = activeBundle === "ALL" ? all : all.filter((w) => w.camp_bundle_tag === activeBundle);
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div style="grid-column:1/-1; padding:24px; text-align:center; color:#64748B;">No saved decks match this filter. Click "💾 Save Current Deck" above to store your active badge deck!</div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered
+    .map((ws) => {
+      const isAct = ws.workspace_id === state.activeWorkspaceId;
+      const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
+      const updatedDate = ws.updated_at ? new Date(ws.updated_at * 1000).toLocaleString([], { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "Just now";
       return `
         <div class="m3-workspace-card ${isAct ? "active" : ""}">
-          <div>
-            <div style="display:flex; align-items:center; gap:10px;">
-              <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:42px; height:42px; object-fit:contain; flex-shrink:0;" />
-              <div style="min-width:0; flex:1;">
-                <div style="font-size:0.86rem; font-weight:800; color:#003F87; line-height:1.25;">${escapeHtml(w.workspace_title || w.badge_name)}</div>
-                <div style="font-size:0.72rem; color:#475569; margin-top:2px;">
-                  <strong>${escapeHtml(w.badge_name)}</strong>
-                  ${w.session_label ? ` &bull; ${escapeHtml(w.session_label)}` : ""}
-                  ${w.camp_bundle_tag ? ` &bull; <span style="color:#0284C7; font-weight:700;">🏕️ ${escapeHtml(w.camp_bundle_tag)}</span>` : ""}
-                </div>
+          <div class="m3-workspace-card-header">
+            <img class="m3-workspace-card-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" onerror="this.style.display='none'" />
+            <div style="flex:1; min-width:0;">
+              <div class="m3-workspace-card-title">${escapeHtml(ws.workspace_title || ws.badge_name)}</div>
+              <div class="m3-workspace-card-sub">
+                ${escapeHtml(ws.badge_name)}
+                ${ws.session_label ? ` • <strong>${escapeHtml(ws.session_label)}</strong>` : ""}
+                ${ws.camp_bundle_tag ? ` • 🏕️ ${escapeHtml(ws.camp_bundle_tag)}` : ""}
               </div>
-              ${isAct ? `<span class="m3-chip m3-chip-primary" style="font-size:0.65rem;">Active</span>` : ""}
             </div>
-            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:10px; font-size:0.71rem; color:#475569;">
-              <span style="white-space:nowrap;">📊 <strong>${w.slide_count || 0}</strong> Slides</span>
-              <span>&bull;</span>
-              <span style="white-space:nowrap;">🪪 <strong>${w.scout_count || 0}</strong> Scouts in Roster</span>
-              <span>&bull;</span>
-              <span style="white-space:nowrap;">🖼️ ${escapeHtml(tplName.slice(0, 24))}</span>
-            </div>
+            ${isAct ? `<span class="m3-chip" style="background:#FEF3C7; color:#92400E; font-weight:800; font-size:0.68rem;">Active</span>` : ""}
           </div>
-          <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; padding-top:8px; border-top:1px solid #E2E8F0;">
-            <button type="button" class="m3-btn ${isAct ? "m3-btn-tonal" : "m3-btn-filled"}" data-ws-open="${escapeHtml(w.workspace_id)}" style="padding:5px 12px; font-size:0.74rem; font-weight:800;">
-              ${isAct ? "✓ Currently Open" : "📂 Switch to Deck"}
+          <div class="m3-workspace-card-metrics">
+            <span class="m3-workspace-metric-badge">🎞️ ${ws.slide_count || 0} Slides</span>
+            <span class="m3-workspace-metric-badge">📋 ${ws.scout_count || 0} Scouts on Blue Card</span>
+            <span class="m3-workspace-metric-badge">🖼️ ${escapeHtml(ws.template_id || "default_workbench")}</span>
+            <span class="m3-workspace-metric-badge">🕒 ${escapeHtml(updatedDate)}</span>
+          </div>
+          <div class="m3-workspace-card-actions">
+            <button type="button" class="m3-primary-btn" data-ws-open="${escapeHtml(ws.workspace_id)}" style="flex:1; padding:6px 10px; font-size:0.76rem; font-weight:800;">
+              📂 Switch to Deck
             </button>
-            <div style="display:flex; gap:5px;">
-              <button type="button" class="m3-btn m3-btn-outlined" data-ws-clone="${escapeHtml(w.workspace_id)}" title="Clone this deck for another class section (e.g. Afternoon Patrol)" style="padding:5px 9px; font-size:0.72rem;">
-                📑 Clone
-              </button>
-              <button type="button" class="m3-btn m3-btn-outlined" data-ws-delete="${escapeHtml(w.workspace_id)}" title="Delete saved deck workspace" style="padding:5px 9px; font-size:0.72rem; color:#DC2626;">
-                🗑️
-              </button>
-            </div>
+            <button type="button" class="m3-tonal-btn" data-ws-clone="${escapeHtml(ws.workspace_id)}" title="Clone this deck with Title, Class Section & Camp Week copied and a fresh Blue Card roster" style="padding:6px 10px; font-size:0.75rem; font-weight:700;">
+              📑 Clone
+            </button>
+            <button type="button" class="m3-tonal-btn" data-ws-delete="${escapeHtml(ws.workspace_id)}" title="Delete this saved deck workspace" style="padding:6px 10px; font-size:0.75rem; color:#B91C1C;">
+              🗑️
+            </button>
           </div>
         </div>
       `;
@@ -10368,109 +10847,102 @@ function renderSavedWorkspacesGrid() {
     .join("");
 
   grid.querySelectorAll("[data-ws-open]").forEach((btn) => {
-    btn.addEventListener("click", async () => {
-      const wid = btn.getAttribute("data-ws-open");
-      if (wid) {
-        await switchActiveWorkspace(wid);
-        const modal = document.getElementById("saved-workspaces-modal");
-        modal?.classList.remove("open");
-        modal?.classList.add("hidden");
-      }
-    });
+    btn.addEventListener("click", () => loadSavedWorkspaceById(btn.getAttribute("data-ws-open")));
   });
 
   grid.querySelectorAll("[data-ws-clone]").forEach((btn) => {
     btn.addEventListener("click", async () => {
       const wid = btn.getAttribute("data-ws-clone");
       if (!wid) return;
+      const srcWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === wid);
       const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(wid)}/clone`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ session_label: "Section 2 / Afternoon Patrol", copy_roster: false }),
+        body: JSON.stringify({
+          new_title: srcWs?.workspace_title || srcWs?.badge_name || null,
+          session_label: srcWs?.session_label !== undefined ? srcWs.session_label : null,
+          camp_bundle_tag: srcWs?.camp_bundle_tag !== undefined ? srcWs.camp_bundle_tag : null,
+          clear_blue_card_roster: true,
+        }),
       });
       if (resp.ok) {
         const data = await resp.json();
-        state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
-        renderSavedWorkspacesGrid();
-        renderActiveWorkspacesBar();
-        showToast(`Cloned deck as "${data.workspace?.workspace_title}" with a clean Blue Card roster!`, "info");
+        if (data.workspace) {
+          state.savedWorkspaces.unshift(data.workspace);
+          renderSavedWorkspacesGrid();
+          renderActiveWorkspacesBar();
+          renderQuickSelectBadgesRow();
+          showToast(
+            `📑 Cloned "${data.workspace.workspace_title}" (copied Title, Section & Camp Tag)!`,
+            "info"
+          );
+        }
       }
     });
   });
 
   grid.querySelectorAll("[data-ws-delete]").forEach((btn) => {
-    btn.addEventListener("click", async () => {
+    btn.addEventListener("click", () => {
       const wid = btn.getAttribute("data-ws-delete");
-      if (!wid) return;
-      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(wid)}`, { method: "DELETE" });
-      if (resp.ok) {
-        const data = await resp.json();
-        state.savedWorkspaces = data.workspaces || [];
-        if (state.activeWorkspaceId === wid) {
-          state.activeWorkspaceId = state.savedWorkspaces[0]?.workspace_id || null;
-        }
-        renderSavedWorkspacesGrid();
-        renderActiveWorkspacesBar();
-        showToast("Deleted saved deck workspace.", "info");
-      }
+      if (wid) promptOrExecuteWorkspaceDeletion(wid);
     });
   });
 }
 
 async function initMultiBadgeWorkspacesAndFavorites() {
-  state.quickSelectMode = "popular";
   try {
-    const localFavs = JSON.parse(window.localStorage.getItem(FAVORITES_STORAGE_KEY) || "null");
-    state.favoriteBadges = Array.isArray(localFavs) ? localFavs : ["First Aid", "Camping", "Weather"];
-  } catch (_e) {
-    state.favoriteBadges = ["First Aid", "Camping", "Weather"];
-  }
+    const rawFavs = window.localStorage.getItem(FAVORITES_STORAGE_KEY);
+    if (rawFavs) state.favoriteBadges = JSON.parse(rawFavs);
+  } catch (_e) {}
 
   try {
-    const resp = await fetch("/api/v1/counselor/favorites");
-    if (resp.ok) {
-      const data = await resp.json();
-      if (Array.isArray(data.favorites) && data.favorites.length > 0) {
-        state.favoriteBadges = data.favorites;
+    const [respFav, respWs] = await Promise.all([fetch("/api/v1/favorites"), fetch("/api/v1/workspaces")]);
+    if (respFav.ok) {
+      const dataFav = await respFav.json();
+      if (Array.isArray(dataFav.favorites) && dataFav.favorites.length > 0) {
+        state.favoriteBadges = dataFav.favorites;
+      }
+    }
+    if (respWs.ok) {
+      const dataWs = await respWs.json();
+      if (Array.isArray(dataWs.workspaces)) {
+        state.savedWorkspaces = dataWs.workspaces;
       }
     }
   } catch (_e) {}
 
-  try {
-    const respWs = await fetch("/api/v1/workspaces");
-    if (respWs.ok) {
-      const dataWs = await respWs.json();
-      state.savedWorkspaces = dataWs.workspaces || [];
-    }
-  } catch (_e) {
-    state.savedWorkspaces = [];
-  }
-
-  window.syncActiveBadgeStarButton();
-  renderQuickSelectBadgesRow();
+  syncFavoriteBadgesUi();
   renderActiveWorkspacesBar();
 
-  document.getElementById("btn-star-active-badge")?.addEventListener("click", async () => {
-    const select = document.getElementById("badge-select");
-    const targetBadge = select?.value || state.currentBadge || "First Aid";
-    await window.toggleFavoriteBadge(targetBadge);
+  document.getElementById("btn-toggle-favorite-current-badge")?.addEventListener("click", () => {
+    const cur = document.getElementById("badge-select")?.value || state.currentBadge || "First Aid";
+    window.toggleFavoriteBadge(cur);
   });
 
-  document.querySelectorAll("[data-quick-mode]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      state.quickSelectMode = btn.getAttribute("data-quick-mode") || "popular";
-      document.querySelectorAll("[data-quick-mode]").forEach((b) => {
-        b.classList.toggle("active", b.getAttribute("data-quick-mode") === state.quickSelectMode);
-      });
-      renderQuickSelectBadgesRow();
-    });
+  document.getElementById("badge-select")?.addEventListener("change", () => {
+    syncFavoriteBadgesUi();
   });
+
+  const setQuickMode = (mode) => {
+    state.quickSelectMode = mode;
+    document.getElementById("quick-tab-popular")?.classList.toggle("active", mode === "popular");
+    document.getElementById("quick-tab-favorites")?.classList.toggle("active", mode === "favorites");
+    document.getElementById("quick-tab-workspaces")?.classList.toggle("active", mode === "workspaces");
+    renderQuickSelectBadgesRow();
+  };
+  document.getElementById("quick-tab-popular")?.addEventListener("click", () => setQuickMode("popular"));
+  document.getElementById("quick-tab-favorites")?.addEventListener("click", () => setQuickMode("favorites"));
+  document.getElementById("quick-tab-workspaces")?.addEventListener("click", () => setQuickMode("workspaces"));
 
   const openWsModal = () => {
+    const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
+    const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
     const titleIn = document.getElementById("ws-title-input");
-    if (titleIn && !titleIn.value && state.currentResult) {
-      titleIn.value = `${state.currentResult.badge_name} Merit Badge Deck`;
-    }
+    const sessionIn = document.getElementById("ws-session-label-input");
+    const bundleIn = document.getElementById("ws-bundle-tag-input");
+    if (titleIn) titleIn.value = activeWs?.workspace_title || curBadge;
+    if (sessionIn) sessionIn.value = activeWs?.session_label || "";
+    if (bundleIn) bundleIn.value = activeWs?.camp_bundle_tag || "";
     renderSavedWorkspacesGrid();
     const m = document.getElementById("saved-workspaces-modal");
     m?.classList.remove("hidden");
@@ -10483,49 +10955,116 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   };
 
   document.getElementById("btn-open-saved-workspaces")?.addEventListener("click", openWsModal);
-  document.getElementById("btn-ws-open-library")?.addEventListener("click", openWsModal);
-  document.getElementById("btn-close-workspaces-modal")?.addEventListener("click", closeWsModal);
+  document.getElementById("btn-open-workspaces-modal-from-bar")?.addEventListener("click", openWsModal);
+  document.getElementById("btn-close-saved-workspaces")?.addEventListener("click", closeWsModal);
+  document.getElementById("workspaces-bundle-filter-select")?.addEventListener("change", renderSavedWorkspacesGrid);
 
-  document.getElementById("btn-ws-save-current")?.addEventListener("click", async () => {
-    await saveCurrentDeckAsWorkspace({ toastMessage: "💾 Saved current deck & Blue Card roster to your Deck Library!" });
-  });
-
-  document.getElementById("btn-modal-save-workspace")?.addEventListener("click", async () => {
-    await saveCurrentDeckAsWorkspace({ toastMessage: "💾 Updated active deck in your Deck Library!" });
-  });
-
-  const handleCloneCurrent = async () => {
-    if (!state.activeWorkspaceId) {
-      await saveCurrentDeckAsWorkspace({ toastMessage: "" });
+  // Delete Deck Confirmation Modal handlers
+  const closeDeleteConfirmModal = () => {
+    _pendingDeleteWorkspaceId = null;
+    const m = document.getElementById("delete-workspace-confirm-modal");
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+  };
+  document.getElementById("btn-close-delete-workspace-confirm")?.addEventListener("click", closeDeleteConfirmModal);
+  document.getElementById("btn-close-delete-ws-confirm")?.addEventListener("click", closeDeleteConfirmModal);
+  document.getElementById("btn-cancel-delete-workspace")?.addEventListener("click", closeDeleteConfirmModal);
+  document.getElementById("btn-cancel-delete-ws-confirm")?.addEventListener("click", closeDeleteConfirmModal);
+  const handleConfirmDeleteDeck = async () => {
+    const wid = _pendingDeleteWorkspaceId;
+    const skipChk = document.getElementById("chk-skip-delete-deck-confirm");
+    if (skipChk?.checked) {
+      try {
+        window.localStorage.setItem(SKIP_DELETE_CONFIRM_STORAGE_KEY, "1");
+      } catch (_e) {}
     }
-    if (!state.activeWorkspaceId) return;
-    const label = document.getElementById("ws-session-label-input")?.value?.trim() || "Section 2 / Afternoon Patrol";
-    const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(state.activeWorkspaceId)}/clone`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ session_label: label, copy_roster: false }),
-    });
-    if (resp.ok) {
-      const data = await resp.json();
-      state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
-      if (data.workspace?.workspace_id) {
-        await switchActiveWorkspace(data.workspace.workspace_id);
-      }
-      showToast(`📑 Cloned deck for "${label}" with a fresh Blue Card roster!`, "info");
+    closeDeleteConfirmModal();
+    if (wid) {
+      await executeWorkspaceDeletion(wid);
     }
   };
+  document.getElementById("btn-confirm-delete-workspace")?.addEventListener("click", handleConfirmDeleteDeck);
+  document.getElementById("btn-confirm-delete-ws-action")?.addEventListener("click", handleConfirmDeleteDeck);
 
-  document.getElementById("btn-ws-clone-section")?.addEventListener("click", handleCloneCurrent);
-  document.getElementById("btn-modal-clone-workspace")?.addEventListener("click", handleCloneCurrent);
-  document.getElementById("workspaces-search-input")?.addEventListener("input", renderSavedWorkspacesGrid);
+  // Editable Combobox Preset Dropdowns for Class Section / Period and Camp Week / Midway Tag
+  const wirePresetDropdown = (btnId, menuId, inputId, attrName) => {
+    const btn = document.getElementById(btnId);
+    const menu = document.getElementById(menuId);
+    const input = document.getElementById(inputId);
+    if (!btn || !menu || !input) return;
+    btn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      document.querySelectorAll(".m3-combobox-presets-menu, .m3-ws-combo-menu").forEach((m) => {
+        if (m !== menu) m.classList.add("hidden");
+      });
+      menu.classList.toggle("hidden");
+    });
+    menu.querySelectorAll(`[${attrName}], [data-ws-preset-val]`).forEach((optBtn) => {
+      optBtn.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const val = optBtn.hasAttribute("data-ws-preset-val")
+          ? optBtn.getAttribute("data-ws-preset-val") || ""
+          : optBtn.getAttribute(attrName) || "";
+        input.value = val;
+        menu.classList.add("hidden");
+        input.focus();
+      });
+    });
+  };
+  wirePresetDropdown("btn-ws-session-presets", "ws-session-presets-menu", "ws-session-label-input", "data-session-preset");
+  wirePresetDropdown("btn-ws-bundle-presets", "ws-bundle-presets-menu", "ws-bundle-tag-input", "data-bundle-preset");
 
-  // Cross-Badge Patrol Blue Card Roster Copy
-  document.getElementById("select-bluecard-copy-workspace")?.addEventListener("change", async (ev) => {
-    const srcWsId = ev.target.value;
-    ev.target.value = "";
-    if (!srcWsId || !state.currentResult) return;
+  document.addEventListener("click", (ev) => {
+    if (!ev.target.closest(".m3-combobox-wrapper, .m3-ws-combo-wrap")) {
+      document.querySelectorAll(".m3-combobox-presets-menu, .m3-ws-combo-menu").forEach((m) => m.classList.add("hidden"));
+    }
+  });
+
+  const handleSaveCurrentWorkspaceClick = async () => {
+    await saveCurrentDeckAsWorkspace({
+      forceNew: false,
+      toastMessage: "💾 Saved current Merit Badge deck & Blue Card roster to Library!",
+    });
+  };
+  document.getElementById("btn-save-current-workspace")?.addEventListener("click", handleSaveCurrentWorkspaceClick);
+  document.getElementById("btn-modal-save-workspace")?.addEventListener("click", handleSaveCurrentWorkspaceClick);
+
+  const handleCloneActiveWorkspaceClick = async () => {
+    const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
+    const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
+    const copiedTitle = document.getElementById("ws-title-input")?.value?.trim() || activeWs?.workspace_title || curBadge;
+    const copiedSession =
+      document.getElementById("ws-session-label-input")?.value !== undefined
+        ? document.getElementById("ws-session-label-input").value.trim()
+        : activeWs?.session_label || "";
+    const copiedBundle =
+      document.getElementById("ws-bundle-tag-input")?.value !== undefined
+        ? document.getElementById("ws-bundle-tag-input").value.trim()
+        : activeWs?.camp_bundle_tag || "";
+
+    const ws = await saveCurrentDeckAsWorkspace({
+      forceNew: true,
+      workspace_title: copiedTitle,
+      session_label: copiedSession,
+      camp_bundle_tag: copiedBundle,
+    });
+    if (ws) {
+      saveBadgeBlueCardRoster(ws.badge_name, { scouts: [] });
+      renderBlueCardTracker(state.currentResult);
+      renderQuickSelectBadgesRow();
+      showToast(`📑 Cloned "${copiedTitle}" (copied Title, Class Section & Camp Week)!`, "info");
+    }
+  };
+  document.getElementById("btn-clone-active-workspace")?.addEventListener("click", handleCloneActiveWorkspaceClick);
+  document.getElementById("btn-modal-clone-workspace")?.addEventListener("click", handleCloneActiveWorkspaceClick);
+
+  // Cross-Badge Blue Card Roster Copy
+  document.getElementById("bluecard-copy-roster-from-ws-select")?.addEventListener("change", async (e) => {
+    const srcWid = e.target.value;
+    e.target.value = "";
+    if (!srcWid || !state.currentResult) return;
     try {
-      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(srcWsId)}`);
+      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(srcWid)}`);
       if (!resp.ok) return;
       const data = await resp.json();
       const srcScouts = data.workspace?.blue_card_roster?.scouts || [];
@@ -10597,7 +11136,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
 }
 
 // ============================================================================
-// PLAN 16C: OFFICIAL SCOUTS BSA WORKBENCH MCP SERVER HUB & PLAYGROUND
+// PLAN 16C + PLAN 17: OFFICIAL SCOUTS BSA WORKBENCH MCP SERVER HUB & PLAYGROUND
 // ============================================================================
 
 const MCP_SAMPLE_PAYLOADS = {
@@ -10607,9 +11146,9 @@ const MCP_SAMPLE_PAYLOADS = {
     badge_name: "Camping",
     instruction_depth: "Deep Dive",
     template_id: "scouting_america_250",
-    visual_theme: "BEAUTIFIED",
-    workspace_title: "Camping — Summer Camp Week 1",
-    session_label: "Morning Patrol",
+    visual_theme: "WARM_CREAM",
+    workspace_title: "Camping",
+    session_label: "",
   },
   get_slide_deck_workspace: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", include_slides: true },
   update_slide_in_deck: {
@@ -10633,6 +11172,25 @@ const MCP_SAMPLE_PAYLOADS = {
   audit_deck_conformance: { workspace_id: "REPLACE_WITH_WORKSPACE_ID" },
   "resource:bsa://templates/catalog": { uri: "bsa://templates/catalog" },
   "resource:bsa://workspaces/list": { uri: "bsa://workspaces/list" },
+  "resource:bsa://badges/catalog": { uri: "bsa://badges/catalog" },
+  "resource:bsa://badges/First Aid/requirements": { uri: "bsa://badges/First Aid/requirements" },
+  "resource:bsa://badges/First Aid/images": { uri: "bsa://badges/First Aid/images" },
+  "prompt:build-camp-merit-badge-curriculum": {
+    name: "build-camp-merit-badge-curriculum",
+    arguments: { badge_name: "First Aid", template_id: "scouting_america_250" },
+  },
+  "prompt:prepare-merit-badge-midway-bundle": {
+    name: "prepare-merit-badge-midway-bundle",
+    arguments: { badge_names_csv: "First Aid, Search and Rescue, Emergency Preparedness", template_id: "scouting_america_forest_sunrise" },
+  },
+  "prompt:review-scout-blue-card-signoffs": {
+    name: "review-scout-blue-card-signoffs",
+    arguments: { workspace_id: "REPLACE_WITH_WORKSPACE_ID" },
+  },
+  "prompt:customize-slide-deck-for-local-troop": {
+    name: "customize-slide-deck-for-local-troop",
+    arguments: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", state_code: "TX", city_or_camp: "Camp Constantine" },
+  },
 };
 
 function getMcpClientConfigSnippet(clientType) {
@@ -10683,6 +11241,164 @@ function getMcpClientConfigSnippet(clientType) {
   );
 }
 
+function renderMcpVisualCardPreview(rpcResponse, selVal) {
+  const visContainer = document.getElementById("mcp-playground-visual-preview");
+  if (!visContainer) return;
+
+  const result = rpcResponse?.result || {};
+  let parsedPayload = result?.structuredContent || null;
+
+  if (!parsedPayload && Array.isArray(result?.content) && result.content[0]?.text) {
+    try {
+      parsedPayload = JSON.parse(result.content[0].text);
+    } catch (_e) {}
+  }
+  if (!parsedPayload && Array.isArray(result?.contents) && result.contents[0]?.text) {
+    try {
+      parsedPayload = JSON.parse(result.contents[0].text);
+    } catch (_e) {}
+  }
+
+  // Case 1: Guided MCP Prompt (prompts/get)
+  if (Array.isArray(result?.messages) && result.messages.length > 0) {
+    const msgCards = result.messages
+      .map((m) => {
+        const txt = m.content?.text || JSON.stringify(m.content || {});
+        return `
+          <div class="m3-mcp-visual-card">
+            <div class="m3-mcp-visual-card-title">💬 Guided Agent Prompt (${escapeHtml(m.role || "user")})</div>
+            <div style="font-size:0.76rem; line-height:1.5; white-space:pre-wrap; font-family:ui-monospace,monospace; background:rgba(15,23,42,0.04); padding:10px; border-radius:8px;">${escapeHtml(txt)}</div>
+          </div>
+        `;
+      })
+      .join("");
+    visContainer.innerHTML = `
+      <div style="margin-bottom:8px; font-size:0.78rem; font-weight:800; color:#0369A1;">
+        ✅ Rendered Guided MCP Prompt (${result.messages.length} message block) — Ready for Gemini CLI / AGY or Claude Desktop
+      </div>
+      ${msgCards}
+    `;
+    return;
+  }
+
+  if (!parsedPayload || typeof parsedPayload !== "object") {
+    visContainer.innerHTML = `<div class="m3-mcp-visual-card"><div class="m3-mcp-visual-card-title">JSON-RPC 2.0 Result</div><pre style="margin:0; font-size:0.72rem; white-space:pre-wrap;">${escapeHtml(JSON.stringify(rpcResponse, null, 2))}</pre></div>`;
+    return;
+  }
+
+  // Case 2: Badge Search / Catalog
+  if (Array.isArray(parsedPayload.badges)) {
+    const badges = parsedPayload.badges.slice(0, 12);
+    visContainer.innerHTML = `
+      <div style="margin-bottom:8px; font-size:0.78rem; font-weight:800; color:#0F172A;">
+        🏅 Matched ${parsedPayload.count ?? parsedPayload.badges.length} Official Merit Badges (showing top ${badges.length})
+      </div>
+      <div class="m3-mcp-visual-grid">
+        ${badges
+          .map((b) => {
+            const name = b.badge_name || b.name || "Badge";
+            const slug = badgeNameToEmblemSlug(name);
+            return `
+              <div class="m3-mcp-visual-card" style="display:flex; align-items:center; gap:10px;">
+                <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:38px; height:38px; border-radius:50%; object-fit:contain; border:1px solid #CBD5E1;" onerror="this.style.display='none'" />
+                <div style="min-width:0;">
+                  <div class="m3-mcp-visual-card-title" style="margin:0;">${escapeHtml(name)}</div>
+                  <div style="font-size:0.68rem; color:#64748B;">${b.is_eagle_required ? "🦅 Eagle-Required" : escapeHtml(b.category || "Elective")}</div>
+                </div>
+              </div>
+            `;
+          })
+          .join("")}
+      </div>
+    `;
+    return;
+  }
+
+  // Case 3: Pamphlet RAG Passages
+  if (Array.isArray(parsedPayload.passages)) {
+    visContainer.innerHTML = `
+      <div style="margin-bottom:8px; font-size:0.78rem; font-weight:800; color:#0F172A;">
+        📘 Grounded Pamphlet RAG Chunks for "${escapeHtml(parsedPayload.badge_name || "")}" (${parsedPayload.passages.length} hits)
+      </div>
+      ${parsedPayload.passages
+        .map(
+          (p, i) => `
+          <div class="m3-mcp-visual-card">
+            <div class="m3-mcp-visual-card-title">#${i + 1} • ${escapeHtml(p.section || "Pamphlet Excerpt")} (RRF Score: ${Number(p.score || 0).toFixed(3)})</div>
+            <div style="font-size:0.74rem; line-height:1.45;">${escapeHtml(String(p.text || "").slice(0, 320))}...</div>
+          </div>
+        `
+        )
+        .join("")}
+    `;
+    return;
+  }
+
+  // Case 4: Templates Catalog
+  if (Array.isArray(parsedPayload.templates)) {
+    visContainer.innerHTML = `
+      <div style="margin-bottom:8px; font-size:0.78rem; font-weight:800; color:#0F172A;">
+        🖼️ PowerPoint Template Catalog (${parsedPayload.templates.length} Templates)
+      </div>
+      <div class="m3-mcp-visual-grid">
+        ${parsedPayload.templates
+          .map(
+            (t) => `
+            <div class="m3-mcp-visual-card">
+              <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                <span style="width:14px; height:14px; border-radius:50%; background:${escapeHtml(t.primary_hex || "#003F87")}; display:inline-block;"></span>
+                <span style="width:14px; height:14px; border-radius:50%; background:${escapeHtml(t.accent_hex || "#D4AF37")}; display:inline-block;"></span>
+                <strong style="font-size:0.76rem;">${escapeHtml(t.name)}</strong>
+              </div>
+              <div style="font-size:0.68rem; color:#64748B;">Safe Y &le; ${Number(t.safe_bounds?.content_bottom_max_in || 6.95).toFixed(2)}" • ${escapeHtml(t.template_id)}</div>
+            </div>
+          `
+          )
+          .join("")}
+      </div>
+    `;
+    return;
+  }
+
+  // Case 5: Workspaces List or Single Workspace / Created Deck
+  if (Array.isArray(parsedPayload.workspaces)) {
+    visContainer.innerHTML = `
+      <div style="margin-bottom:8px; font-size:0.78rem; font-weight:800; color:#0F172A;">
+        🗂️ Saved Counselor Deck Workspaces (${parsedPayload.workspaces.length})
+      </div>
+      <div class="m3-mcp-visual-grid">
+        ${parsedPayload.workspaces
+          .map(
+            (w) => `
+            <div class="m3-mcp-visual-card">
+              <div class="m3-mcp-visual-card-title">${escapeHtml(w.workspace_title || w.badge_name)}</div>
+              <div style="font-size:0.7rem; color:#64748B;">🎞️ ${w.slide_count || 0} Slides • 📋 ${w.scout_count || 0} Scouts • 🖼️ ${escapeHtml(w.template_id || "default_workbench")}</div>
+            </div>
+          `
+          )
+          .join("")}
+      </div>
+    `;
+    return;
+  }
+
+  // Default structured summary card
+  const entries = Object.entries(parsedPayload).slice(0, 10);
+  visContainer.innerHTML = `
+    <div class="m3-mcp-visual-card">
+      <div class="m3-mcp-visual-card-title">🤖 Structured MCP Payload (${escapeHtml(selVal)})</div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:8px; margin-top:6px;">
+        ${entries
+          .map(([k, v]) => {
+            const valStr = typeof v === "object" ? JSON.stringify(v).slice(0, 90) : String(v);
+            return `<div style="padding:6px 8px; border-radius:6px; background:rgba(15,23,42,0.04); font-size:0.72rem;"><strong>${escapeHtml(k)}:</strong> ${escapeHtml(valStr)}</div>`;
+          })
+          .join("")}
+      </div>
+    </div>
+  `;
+}
+
 async function initMcpAgentHubAndPlayground() {
   const codeEl = document.getElementById("mcp-client-config-code");
   if (codeEl) codeEl.textContent = getMcpClientConfigSnippet("claude");
@@ -10708,14 +11424,113 @@ async function initMcpAgentHubAndPlayground() {
     const argsBox = document.getElementById("mcp-playground-args-textarea");
     if (!toolSel || !argsBox) return;
     const key = toolSel.value;
-    const sample = { ...(MCP_SAMPLE_PAYLOADS[key] || {}) };
+    const sample = JSON.parse(JSON.stringify(MCP_SAMPLE_PAYLOADS[key] || {}));
     if (sample.workspace_id === "REPLACE_WITH_WORKSPACE_ID" && state.activeWorkspaceId) {
       sample.workspace_id = state.activeWorkspaceId;
+    }
+    if (sample.arguments?.workspace_id === "REPLACE_WITH_WORKSPACE_ID" && state.activeWorkspaceId) {
+      sample.arguments.workspace_id = state.activeWorkspaceId;
     }
     argsBox.value = JSON.stringify(sample, null, 2);
   };
 
   document.getElementById("mcp-playground-tool-select")?.addEventListener("change", syncPlaygroundSampleArgs);
+
+  // Switch between Raw JSON-RPC 2.0 and Visual Card Preview tabs
+  const setMcpViewTab = (mode) => {
+    const tabVis = document.getElementById("btn-mcp-view-visual") || document.getElementById("mcp-tab-visual-preview");
+    const tabRaw = document.getElementById("btn-mcp-view-json") || document.getElementById("mcp-tab-raw-json");
+    const visEl = document.getElementById("mcp-playground-visual-preview");
+    const rawEl = document.getElementById("mcp-playground-output");
+    const isVis = mode === "visual";
+    tabVis?.classList.toggle("active", isVis);
+    tabRaw?.classList.toggle("active", !isVis);
+    visEl?.classList.toggle("hidden", !isVis);
+    rawEl?.classList.toggle("hidden", isVis);
+  };
+  document.getElementById("btn-mcp-view-visual")?.addEventListener("click", () => setMcpViewTab("visual"));
+  document.getElementById("btn-mcp-view-json")?.addEventListener("click", () => setMcpViewTab("raw"));
+  document.getElementById("mcp-tab-visual-preview")?.addEventListener("click", () => setMcpViewTab("visual"));
+  document.getElementById("mcp-tab-raw-json")?.addEventListener("click", () => setMcpViewTab("raw"));
+
+  document.getElementById("btn-copy-mcp-response")?.addEventListener("click", () => {
+    const outPre = document.getElementById("mcp-playground-output");
+    if (outPre?.textContent) {
+      navigator.clipboard?.writeText(outPre.textContent);
+      showToast("📋 Copied JSON-RPC 2.0 response to clipboard!", "info");
+    }
+  });
+
+  const executePlaygroundAction = async () => {
+    const toolSel = document.getElementById("mcp-playground-tool-select");
+    const argsBox = document.getElementById("mcp-playground-args-textarea");
+    const outPre = document.getElementById("mcp-playground-output");
+    const latencyPill = document.getElementById("mcp-playground-latency-pill");
+    if (!toolSel || !argsBox || !outPre) return;
+
+    let parsedArgs = {};
+    try {
+      parsedArgs = JSON.parse(argsBox.value || "{}");
+    } catch (err) {
+      outPre.textContent = `JSON Parse Error in Arguments: ${err.message}`;
+      return;
+    }
+
+    const selVal = toolSel.value;
+    let rpcBody;
+    if (selVal.startsWith("resource:")) {
+      const sampleUri = String(parsedArgs.uri || selVal.replace("resource:", "")).replace("{badge_name}", "First Aid");
+      rpcBody = { jsonrpc: "2.0", id: Date.now(), method: "resources/read", params: { uri: sampleUri } };
+    } else if (selVal.startsWith("prompt:")) {
+      const promptName = parsedArgs.name || selVal.replace("prompt:", "");
+      rpcBody = {
+        jsonrpc: "2.0",
+        id: Date.now(),
+        method: "prompts/get",
+        params: { name: promptName, arguments: parsedArgs.arguments || parsedArgs },
+      };
+    } else {
+      rpcBody = { jsonrpc: "2.0", id: Date.now(), method: "tools/call", params: { name: selVal, arguments: parsedArgs } };
+    }
+
+    outPre.textContent = "Executing JSON-RPC 2.0 request against POST /mcp...";
+    const t0 = performance.now();
+    try {
+      const resp = await fetch("/mcp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(rpcBody),
+      });
+      const elapsedMs = Math.round(performance.now() - t0);
+      const data = await resp.json();
+      outPre.textContent = JSON.stringify(data, null, 2);
+      renderMcpVisualCardPreview(data, selVal);
+
+      if (latencyPill) {
+        latencyPill.textContent = `${resp.status} OK • ${elapsedMs}ms`;
+        latencyPill.classList.remove("hidden");
+      }
+
+      if (
+        selVal === "create_merit_badge_slide_deck" ||
+        selVal === "update_slide_in_deck" ||
+        selVal === "apply_powerpoint_template"
+      ) {
+        const respWs = await fetch("/api/v1/workspaces");
+        if (respWs.ok) {
+          const dataWs = await respWs.json();
+          state.savedWorkspaces = dataWs.workspaces || [];
+          renderActiveWorkspacesBar();
+          renderQuickSelectBadgesRow();
+          showToast(`🤖 MCP Agent executed "${selVal}" — Deck Library synced live!`, "info");
+        }
+      }
+    } catch (err) {
+      outPre.textContent = `RPC Error: ${err.message}`;
+    }
+  };
+
+  document.getElementById("btn-run-mcp-playground")?.addEventListener("click", executePlaygroundAction);
 
   const openMcpModal = async () => {
     syncPlaygroundSampleArgs();
@@ -10727,18 +11542,105 @@ async function initMcpAgentHubAndPlayground() {
           const info = await resp.json();
           listEl.dataset.loaded = "1";
           const resHtml = (info.resources || [])
-            .map(
-              (r) =>
-                `<div class="m3-mcp-resource-item"><code>${escapeHtml(r.uri)}</code> — ${escapeHtml(r.name)}</div>`
-            )
+            .map((r) => {
+              const concreteUri = String(r.uri || "").replace("{badge_name}", "First Aid").replace("{workspace_id}", state.activeWorkspaceId || "ws_demo");
+              return `
+                <div class="m3-mcp-resource-item">
+                  <div class="m3-mcp-item-row">
+                    <div>
+                      <code>${escapeHtml(r.uri)}</code> — <strong>${escapeHtml(r.name)}</strong>
+                    </div>
+                    <div class="m3-mcp-item-actions">
+                      <button type="button" class="m3-mcp-mini-btn primary" data-mcp-exec-resource="${escapeHtml(concreteUri)}" title="Read this resource live in the Section 3 Playground">▶ Read</button>
+                      <button type="button" class="m3-mcp-mini-btn" data-mcp-copy-text="${escapeHtml(concreteUri)}" title="Copy resource URI">📋 Copy</button>
+                    </div>
+                  </div>
+                </div>
+              `;
+            })
             .join("");
           const prmHtml = (info.prompts || [])
-            .map(
-              (p) =>
-                `<div class="m3-mcp-prompt-item"><strong>💬 Prompt: ${escapeHtml(p.name)}</strong> — ${escapeHtml(p.description)}</div>`
-            )
+            .map((p) => {
+              return `
+                <div class="m3-mcp-prompt-item">
+                  <div class="m3-mcp-item-row">
+                    <div>
+                      <strong>💬 Prompt: ${escapeHtml(p.name)}</strong> — ${escapeHtml(p.description)}
+                    </div>
+                    <div class="m3-mcp-item-actions">
+                      <button type="button" class="m3-mcp-mini-btn primary" data-mcp-exec-prompt="${escapeHtml(p.name)}" title="Execute prompts/get live in the Section 3 Playground">▶ Run Prompt</button>
+                      <button type="button" class="m3-mcp-mini-btn" data-mcp-copy-text="/mcp:${escapeHtml(p.name)}" title="Copy MCP prompt command">📋 Copy</button>
+                    </div>
+                  </div>
+                </div>
+              `;
+            })
             .join("");
           listEl.innerHTML = resHtml + prmHtml;
+
+          listEl.querySelectorAll("[data-mcp-copy-text]").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              const txt = btn.getAttribute("data-mcp-copy-text") || "";
+              navigator.clipboard?.writeText(txt);
+              showToast(`📋 Copied "${txt}" to clipboard!`, "info");
+            });
+          });
+
+          listEl.querySelectorAll("[data-mcp-exec-resource]").forEach((btn) => {
+            btn.addEventListener("click", async () => {
+              const uri = btn.getAttribute("data-mcp-exec-resource") || "bsa://templates/catalog";
+              const toolSel = document.getElementById("mcp-playground-tool-select");
+              const argsBox = document.getElementById("mcp-playground-args-textarea");
+              if (toolSel) {
+                const optKey = `resource:${uri}`;
+                if (!Array.from(toolSel.options).some((o) => o.value === optKey)) {
+                  const opt = document.createElement("option");
+                  opt.value = optKey;
+                  opt.textContent = `${uri} — Read Resource`;
+                  toolSel.appendChild(opt);
+                }
+                toolSel.value = optKey;
+              }
+              if (argsBox) {
+                argsBox.value = JSON.stringify({ uri }, null, 2);
+              }
+              await executePlaygroundAction();
+            });
+          });
+
+          listEl.querySelectorAll("[data-mcp-exec-prompt]").forEach((btn) => {
+            btn.addEventListener("click", async () => {
+              const pName = btn.getAttribute("data-mcp-exec-prompt") || "plan-merit-badge-camp-class";
+              const toolSel = document.getElementById("mcp-playground-tool-select");
+              const argsBox = document.getElementById("mcp-playground-args-textarea");
+              const optKey = `prompt:${pName}`;
+              if (toolSel) {
+                if (!Array.from(toolSel.options).some((o) => o.value === optKey)) {
+                  const opt = document.createElement("option");
+                  opt.value = optKey;
+                  opt.textContent = `prompt:${pName} — Guided Prompt`;
+                  toolSel.appendChild(opt);
+                }
+                toolSel.value = optKey;
+              }
+              const sample = JSON.parse(
+                JSON.stringify(
+                  MCP_SAMPLE_PAYLOADS[optKey] || {
+                    name: pName,
+                    arguments: { badge_name: state.currentBadge || "First Aid", workspace_id: state.activeWorkspaceId || "ws_demo" },
+                  }
+                )
+              );
+              if (sample.arguments?.workspace_id === "REPLACE_WITH_WORKSPACE_ID" && state.activeWorkspaceId) {
+                sample.arguments.workspace_id = state.activeWorkspaceId;
+              }
+              if (argsBox) {
+                argsBox.value = JSON.stringify(sample, null, 2);
+              }
+              setMcpViewTab("visual");
+              await executePlaygroundAction();
+            });
+          });
         }
       } catch (_e) {}
     }
@@ -10762,52 +11664,5 @@ async function initMcpAgentHubAndPlayground() {
       openDocumentationViewerModal("mcp_server_guide");
     }
   });
-
-  document.getElementById("btn-run-mcp-playground")?.addEventListener("click", async () => {
-    const toolSel = document.getElementById("mcp-playground-tool-select");
-    const argsBox = document.getElementById("mcp-playground-args-textarea");
-    const outPre = document.getElementById("mcp-playground-output");
-    if (!toolSel || !argsBox || !outPre) return;
-
-    let parsedArgs = {};
-    try {
-      parsedArgs = JSON.parse(argsBox.value || "{}");
-    } catch (err) {
-      outPre.textContent = `JSON Parse Error in Arguments: ${err.message}`;
-      return;
-    }
-
-    const selVal = toolSel.value;
-    const rpcBody = selVal.startsWith("resource:")
-      ? { jsonrpc: "2.0", id: Date.now(), method: "resources/read", params: { uri: parsedArgs.uri || selVal.replace("resource:", "") } }
-      : { jsonrpc: "2.0", id: Date.now(), method: "tools/call", params: { name: selVal, arguments: parsedArgs } };
-
-    outPre.textContent = "Executing JSON-RPC 2.0 request against POST /mcp...";
-    try {
-      const resp = await fetch("/mcp", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(rpcBody),
-      });
-      const data = await resp.json();
-      outPre.textContent = JSON.stringify(data, null, 2);
-
-      // If the MCP tool created or modified a workspace, refresh our live workspace bar!
-      if (selVal === "create_merit_badge_slide_deck" || selVal === "update_slide_in_deck" || selVal === "apply_powerpoint_template") {
-        const respWs = await fetch("/api/v1/workspaces");
-        if (respWs.ok) {
-          const dataWs = await respWs.json();
-          state.savedWorkspaces = dataWs.workspaces || [];
-          renderActiveWorkspacesBar();
-          showToast(`🤖 MCP Agent executed "${selVal}" — Deck Library synced live!`, "info");
-        }
-      }
-    } catch (err) {
-      outPre.textContent = `RPC Error: ${err.message}`;
-    }
-  });
 }
-
-
-
 

@@ -99,6 +99,34 @@ def hex_to_rgb(hex_str: str, default: Tuple[int, int, int] = (0, 63, 135)) -> Tu
     return default
 
 
+VISUAL_THEME_ALIAS_MAP: Dict[str, str] = {
+    "WARM_CREAM": "BEAUTIFIED",
+    "WARM_CREME": "BEAUTIFIED",
+    "CREAM": "BEAUTIFIED",
+    "CREME": "BEAUTIFIED",
+    "BEAUTIFIED": "BEAUTIFIED",
+    "CRISP_WHITE": "STANDARD",
+    "WHITE": "STANDARD",
+    "STANDARD": "STANDARD",
+    "DARK_SLATE": "STUDIO",
+    "SLATE": "STUDIO",
+    "STUDIO": "STUDIO",
+}
+
+
+def normalize_visual_theme(raw_tier: Optional[str], default: str = "BEAUTIFIED") -> str:
+    """Normalizes modern slide theme names (`WARM_CREAM`/`CREAM`, `CRISP_WHITE`/`WHITE`, `DARK_SLATE`/`SLATE`) and legacy aliases (`BEAUTIFIED`, `STANDARD`, `STUDIO`)."""
+    clean = str(raw_tier or "").strip().upper().replace("-", "_").replace(" ", "_")
+    return VISUAL_THEME_ALIAS_MAP.get(clean, default)
+
+
+def get_contrasting_text_rgb(bg_hex: Optional[str]) -> Tuple[int, int, int]:
+    """Computes relative luminance of `bg_hex` and returns high-contrast white `(255, 255, 255)` for dark bars or dark slate `(15, 23, 42)` for light bars."""
+    r, g, b = hex_to_rgb(str(bg_hex or "#003F87"), (0, 63, 135))
+    luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255.0
+    return (255, 255, 255) if luminance < 0.55 else (15, 23, 42)
+
+
 BUILTIN_TEMPLATES: List[TemplateProfile] = [
     TemplateProfile(
         template_id="default_workbench",
@@ -399,6 +427,35 @@ def delete_custom_template(template_id: str) -> bool:
     return True
 
 
+def update_template_metadata(
+    template_id: str,
+    name: Optional[str] = None,
+    description: Optional[str] = None,
+    bottom_safe_in: Optional[float] = None,
+) -> Optional[TemplateProfile]:
+    """Updates `name`, `description`, and optional `bottom_safe_in` for a custom (non-builtin) template."""
+    norm = str(template_id or "").strip()
+    if not norm:
+        return None
+    profiles = load_template_catalog()
+    updated_target: Optional[TemplateProfile] = None
+    for p in profiles:
+        if p.template_id == norm:
+            if p.is_builtin:
+                return None
+            if name is not None and str(name).strip():
+                p.name = str(name).strip()
+            if description is not None:
+                p.description = str(description).strip()
+            if bottom_safe_in is not None:
+                p.safe_bounds.content_bottom_max_in = max(5.80, min(6.95, float(bottom_safe_in)))
+            updated_target = p
+            break
+    if updated_target is not None:
+        save_template_catalog(profiles)
+    return updated_target
+
+
 def _extract_dominant_color_hex(img_path: Path, default_hex: str = "#003F87") -> str:
     """Extracts a rich dark/medium brand color from an uploaded image or logo."""
     try:
@@ -458,15 +515,27 @@ def ingest_custom_template_bytes(
                         primary_hex = f"#{clrs[2].upper()}"
                     if len(clrs) >= 4:
                         accent_hex = f"#{clrs[3].upper()}"
-                media_files = [n for n in z.namelist() if n.startswith("ppt/media/") and n.lower().endswith((".png", ".jpg", ".jpeg"))]
+                # Prefer media referenced by slideMasters or slideLayouts so content-slide photos aren't mistaken for corner logos
+                master_layout_media: List[str] = []
+                for rel_name in z.namelist():
+                    if (rel_name.startswith("ppt/slideMasters/_rels/") or rel_name.startswith("ppt/slideLayouts/_rels/")) and rel_name.endswith(".rels"):
+                        rel_xml = z.read(rel_name).decode("utf-8", errors="ignore")
+                        for m_target in re.findall(r'Target="\.\./media/([^"]+)"', rel_xml):
+                            cand = f"ppt/media/{m_target}"
+                            if cand in z.namelist() and cand.lower().endswith((".png", ".jpg", ".jpeg")) and cand not in master_layout_media:
+                                master_layout_media.append(cand)
+                media_files = master_layout_media or [
+                    n for n in z.namelist() if n.startswith("ppt/media/") and n.lower().endswith((".png", ".jpg", ".jpeg"))
+                ]
                 for idx_m, mname in enumerate(media_files[:3]):
                     m_ext = Path(mname).suffix.lower()
                     saved_m = OVERLAYS_DIR / f"{template_id}_media_{idx_m}{m_ext}"
                     saved_m.write_bytes(z.read(mname))
                     with Image.open(saved_m) as im:
+                        aspect = im.width / max(1, im.height)
                         if im.width >= 1000 and im.height >= 550 and not watermark_url:
                             watermark_url = f"/assets/templates/overlays/{saved_m.name}"
-                        elif im.width >= 120 and not corner_logo_url:
+                        elif im.width >= 90 and im.height <= 420 and aspect >= 0.75 and not corner_logo_url:
                             corner_logo_url = f"/assets/templates/overlays/{saved_m.name}"
             prs = Presentation(str(out_pptx))
             layouts = list(prs.slide_layouts)
@@ -603,7 +672,7 @@ def decorate_slide_with_template_chrome(
         return
 
     # 1. Subtle watermark (e.g. Topographic Contour lines) on non-dark slides if present
-    norm_tier = str(tier or "BEAUTIFIED").upper()
+    norm_tier = normalize_visual_theme(tier)
     if profile.canvas_watermark_url and norm_tier != "STUDIO" and not is_cover:
         wm_disk = REPO_ROOT / profile.canvas_watermark_url.lstrip("/")
         if wm_disk.exists():
