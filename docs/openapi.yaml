@@ -3935,6 +3935,997 @@ paths:
                 type: object
                 title: Response Api Admin Reset Circuit Breakers Api Admin Circuit
                   Breakers Reset Post
+  /api/v1/templates:
+    get:
+      summary: Api List Powerpoint Templates
+      description: Returns all built-in curated Scouting templates and any custom
+        user-uploaded/URL templates.
+      operationId: api_list_powerpoint_templates_api_v1_templates_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Powerpoint Templates Api V1 Templates Get
+  /api/templates:
+    get:
+      summary: Api List Powerpoint Templates
+      description: Returns all built-in curated Scouting templates and any custom
+        user-uploaded/URL templates.
+      operationId: api_list_powerpoint_templates_api_templates_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Powerpoint Templates Api Templates Get
+  /api/v1/templates/upload:
+    post:
+      summary: Api Upload Powerpoint Template
+      description: Uploads a custom `.pptx`, legacy `.ppt`, or `.png`/`.jpg`/`.webp`
+        template (via JSON base64 or multipart form) and extracts SafeCanvasBounds.
+      operationId: api_upload_powerpoint_template_api_v1_templates_upload_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Upload Powerpoint Template Api V1 Templates Upload
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/templates/upload:
+    post:
+      summary: Api Upload Powerpoint Template
+      description: Uploads a custom `.pptx`, legacy `.ppt`, or `.png`/`.jpg`/`.webp`
+        template (via JSON base64 or multipart form) and extracts SafeCanvasBounds.
+      operationId: api_upload_powerpoint_template_api_templates_upload_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Upload Powerpoint Template Api Templates Upload
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/templates/import-url:
+    post:
+      summary: Api Import Template From Url
+      description: Imports a PowerPoint template or slide background from an HTTP/HTTPS
+        URL.
+      operationId: api_import_template_from_url_api_v1_templates_import_url_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemplateImportUrlRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Import Template From Url Api V1 Templates Import
+                  Url Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/templates/import-url:
+    post:
+      summary: Api Import Template From Url
+      description: Imports a PowerPoint template or slide background from an HTTP/HTTPS
+        URL.
+      operationId: api_import_template_from_url_api_templates_import_url_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemplateImportUrlRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Import Template From Url Api Templates Import
+                  Url Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/templates/apply:
+    post:
+      summary: Api Apply Powerpoint Template
+      description: Applies a PowerPoint template to the active deck and rebuilds the
+        downloadable .pptx with SafeCanvasBounds.
+      operationId: api_apply_powerpoint_template_api_v1_templates_apply_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemplateApplyRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Apply Powerpoint Template Api V1 Templates Apply
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/templates/apply:
+    post:
+      summary: Api Apply Powerpoint Template
+      description: Applies a PowerPoint template to the active deck and rebuilds the
+        downloadable .pptx with SafeCanvasBounds.
+      operationId: api_apply_powerpoint_template_api_templates_apply_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemplateApplyRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Apply Powerpoint Template Api Templates Apply
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/templates/{template_id}:
+    delete:
+      summary: Api Delete Custom Template
+      description: Deletes a custom uploaded/URL template from the catalog.
+      operationId: api_delete_custom_template_api_v1_templates__template_id__delete
+      parameters:
+      - name: template_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Template Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Delete Custom Template Api V1 Templates  Template
+                  Id  Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/templates/{template_id}:
+    delete:
+      summary: Api Delete Custom Template
+      description: Deletes a custom uploaded/URL template from the catalog.
+      operationId: api_delete_custom_template_api_templates__template_id__delete
+      parameters:
+      - name: template_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Template Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Delete Custom Template Api Templates  Template
+                  Id  Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/workspaces:
+    get:
+      summary: Api List Workspaces
+      description: Lists saved multi-badge counselor deck workspaces.
+      operationId: api_list_workspaces_api_v1_workspaces_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Badge Name
+      - name: camp_bundle_tag
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Camp Bundle Tag
+      - name: include_archived
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: false
+          title: Include Archived
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api List Workspaces Api V1 Workspaces Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    post:
+      summary: Api Save Workspace
+      description: Creates or updates a multi-badge counselor deck workspace in SQLite
+        (`counselor_workspaces`).
+      operationId: api_save_workspace_api_v1_workspaces_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkspaceSaveRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Workspace Api V1 Workspaces Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/workspaces:
+    get:
+      summary: Api List Workspaces
+      description: Lists saved multi-badge counselor deck workspaces.
+      operationId: api_list_workspaces_api_workspaces_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Badge Name
+      - name: camp_bundle_tag
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Camp Bundle Tag
+      - name: include_archived
+        in: query
+        required: false
+        schema:
+          type: boolean
+          default: false
+          title: Include Archived
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api List Workspaces Api Workspaces Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    post:
+      summary: Api Save Workspace
+      description: Creates or updates a multi-badge counselor deck workspace in SQLite
+        (`counselor_workspaces`).
+      operationId: api_save_workspace_api_workspaces_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkspaceSaveRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Workspace Api Workspaces Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/workspaces/{workspace_id}:
+    get:
+      summary: Api Get Workspace
+      description: Retrieves a full counselor deck workspace (including storyboard,
+        Blue Card roster, and class prep).
+      operationId: api_get_workspace_api_v1_workspaces__workspace_id__get
+      parameters:
+      - name: workspace_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Workspace Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Workspace Api V1 Workspaces  Workspace Id  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Delete Workspace
+      description: Deletes a saved counselor deck workspace.
+      operationId: api_delete_workspace_api_v1_workspaces__workspace_id__delete
+      parameters:
+      - name: workspace_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Workspace Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Delete Workspace Api V1 Workspaces  Workspace
+                  Id  Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/workspaces/{workspace_id}:
+    get:
+      summary: Api Get Workspace
+      description: Retrieves a full counselor deck workspace (including storyboard,
+        Blue Card roster, and class prep).
+      operationId: api_get_workspace_api_workspaces__workspace_id__get
+      parameters:
+      - name: workspace_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Workspace Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Workspace Api Workspaces  Workspace Id  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Delete Workspace
+      description: Deletes a saved counselor deck workspace.
+      operationId: api_delete_workspace_api_workspaces__workspace_id__delete
+      parameters:
+      - name: workspace_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Workspace Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Delete Workspace Api Workspaces  Workspace Id  Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/workspaces/{workspace_id}/clone:
+    post:
+      summary: Api Clone Workspace
+      description: Clones an existing deck workspace for a new class section (with
+        optional roster copy).
+      operationId: api_clone_workspace_api_v1_workspaces__workspace_id__clone_post
+      parameters:
+      - name: workspace_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Workspace Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkspaceCloneRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Clone Workspace Api V1 Workspaces  Workspace Id  Clone
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/workspaces/{workspace_id}/clone:
+    post:
+      summary: Api Clone Workspace
+      description: Clones an existing deck workspace for a new class section (with
+        optional roster copy).
+      operationId: api_clone_workspace_api_workspaces__workspace_id__clone_post
+      parameters:
+      - name: workspace_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Workspace Id
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkspaceCloneRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Clone Workspace Api Workspaces  Workspace Id  Clone
+                  Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/counselor/favorites:
+    get:
+      summary: Api Get Favorites
+      description: Returns the counselor's starred favorite Merit Badges.
+      operationId: api_get_favorites_api_v1_counselor_favorites_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Favorites Api V1 Counselor Favorites Get
+    post:
+      summary: Api Toggle Favorite
+      description: Toggles a starred favorite Merit Badge in SQLite.
+      operationId: api_toggle_favorite_api_v1_counselor_favorites_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FavoriteToggleRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Toggle Favorite Api V1 Counselor Favorites Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/counselor/favorites:
+    get:
+      summary: Api Get Favorites
+      description: Returns the counselor's starred favorite Merit Badges.
+      operationId: api_get_favorites_api_counselor_favorites_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Favorites Api Counselor Favorites Get
+    post:
+      summary: Api Toggle Favorite
+      description: Toggles a starred favorite Merit Badge in SQLite.
+      operationId: api_toggle_favorite_api_counselor_favorites_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FavoriteToggleRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Toggle Favorite Api Counselor Favorites Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/mcp/info:
+    get:
+      summary: Api Mcp Server Info
+      description: Returns the Model Context Protocol (MCP) server manifest (12 Tools,
+        6 Resources, 4 Prompts).
+      operationId: api_mcp_server_info_api_v1_mcp_info_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api Mcp Server Info Api V1 Mcp Info Get
+  /mcp/info:
+    get:
+      summary: Api Mcp Server Info
+      description: Returns the Model Context Protocol (MCP) server manifest (12 Tools,
+        6 Resources, 4 Prompts).
+      operationId: api_mcp_server_info_mcp_info_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api Mcp Server Info Mcp Info Get
+  /api/v1/mcp:
+    post:
+      summary: Api Mcp Jsonrpc Endpoint
+      description: Handles Model Context Protocol (MCP) JSON-RPC 2.0 requests (`initialize`,
+        `tools/list`, `tools/call`, `resources/list`, `resources/read`, `prompts/list`,
+        `prompts/get`).
+      operationId: api_mcp_jsonrpc_endpoint_api_v1_mcp_post
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api Mcp Jsonrpc Endpoint Api V1 Mcp Post
+  /mcp:
+    post:
+      summary: Api Mcp Jsonrpc Endpoint
+      description: Handles Model Context Protocol (MCP) JSON-RPC 2.0 requests (`initialize`,
+        `tools/list`, `tools/call`, `resources/list`, `resources/read`, `prompts/list`,
+        `prompts/get`).
+      operationId: api_mcp_jsonrpc_endpoint_mcp_post
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api Mcp Jsonrpc Endpoint Mcp Post
+  /api/v1/mcp/sse:
+    get:
+      summary: Api Mcp Sse Endpoint
+      description: Provides the Model Context Protocol SSE discovery stream pointing
+        clients to POST `/mcp`.
+      operationId: api_mcp_sse_endpoint_api_v1_mcp_sse_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+  /mcp/sse:
+    get:
+      summary: Api Mcp Sse Endpoint
+      description: Provides the Model Context Protocol SSE discovery stream pointing
+        clients to POST `/mcp`.
+      operationId: api_mcp_sse_endpoint_mcp_sse_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
   /:
     get:
       summary: Serve A2Ui Workbench
@@ -4208,6 +5199,20 @@ components:
           title: Custom Troop Logo Path
       type: object
       title: CounselorProfileSaveRequest
+    FavoriteToggleRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+        is_favorite:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Is Favorite
+      type: object
+      required:
+      - badge_name
+      title: FavoriteToggleRequest
     GoogleSlidesExportRequest:
       properties:
         badge_name:
@@ -4320,6 +5325,10 @@ components:
           - type: 'null'
           title: Include Humans
           default: auto
+        include_slide_context:
+          type: boolean
+          title: Include Slide Context
+          default: true
         num_images:
           type: integer
           maximum: 4.0
@@ -4370,6 +5379,10 @@ components:
           - type: 'null'
           title: Include Humans
           default: auto
+        include_slide_context:
+          type: boolean
+          title: Include Slide Context
+          default: true
         accent_palette_key:
           type: string
           title: Accent Palette Key
@@ -4443,6 +5456,13 @@ components:
           - type: 'null'
           title: Output Path
           description: Optional PPTX output path.
+        template_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+          description: Optional PowerPoint template ID.
+          default: default_workbench
       type: object
       title: SlideDeckCustomizeRequest
     SlideImageUploadRequest:
@@ -4741,6 +5761,67 @@ components:
           title: Location Or Zip
       type: object
       title: StudioKitAgendaRequest
+    TemplateApplyRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Official Merit Badge name.
+          default: First Aid
+        template_id:
+          type: string
+          title: Template Id
+          description: Selected PowerPoint template ID.
+          default: default_workbench
+        storyboard_slides:
+          items:
+            additionalProperties: true
+            type: object
+          type: array
+          title: Storyboard Slides
+          description: Current storyboard slides.
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+          description: Optional Counselor Title Slide metadata.
+        visual_theme:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Visual Theme
+          description: Optional BEAUTIFIED, STANDARD, or STUDIO.
+        accent_palette_key:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Accent Palette Key
+          description: Optional palette key or MATCH_TEMPLATE.
+      type: object
+      title: TemplateApplyRequest
+    TemplateImportUrlRequest:
+      properties:
+        url:
+          type: string
+          title: Url
+          description: HTTP/HTTPS URL to a .pptx, .ppt, or background image template.
+        custom_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Custom Name
+          description: Optional display title for the imported template.
+        bottom_safe_in:
+          type: number
+          title: Bottom Safe In
+          description: Safe bottom coordinate in inches (5.80..6.95).
+          default: 6.55
+      type: object
+      required:
+      - url
+      title: TemplateImportUrlRequest
     TroopLogoUploadRequest:
       properties:
         filename:
@@ -4897,3 +5978,96 @@ components:
           description: Optional webhook callback URL notified on completion.
       type: object
       title: WorkflowRunRequest
+    WorkspaceCloneRequest:
+      properties:
+        new_title:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: New Title
+        session_label:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Session Label
+          default: Afternoon Patrol / Section 2
+        copy_roster:
+          type: boolean
+          title: Copy Roster
+          default: false
+      type: object
+      title: WorkspaceCloneRequest
+    WorkspaceSaveRequest:
+      properties:
+        workspace_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Workspace Id
+        workspace_title:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Workspace Title
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        session_label:
+          type: string
+          title: Session Label
+          default: ''
+        camp_bundle_tag:
+          type: string
+          title: Camp Bundle Tag
+          default: ''
+        template_id:
+          type: string
+          title: Template Id
+          default: default_workbench
+        counselor_info:
+          additionalProperties: true
+          type: object
+          title: Counselor Info
+        deck_result:
+          additionalProperties: true
+          type: object
+          title: Deck Result
+        blue_card_roster:
+          additionalProperties: true
+          type: object
+          title: Blue Card Roster
+        class_prep:
+          additionalProperties: true
+          type: object
+          title: Class Prep
+        local_grounding:
+          additionalProperties: true
+          type: object
+          title: Local Grounding
+        active_slide_idx:
+          type: integer
+          title: Active Slide Idx
+          default: -1
+        slide_count:
+          type: integer
+          title: Slide Count
+          default: 0
+        custom_edits_count:
+          type: integer
+          title: Custom Edits Count
+          default: 0
+        scout_count:
+          type: integer
+          title: Scout Count
+          default: 0
+        is_pinned:
+          type: boolean
+          title: Is Pinned
+          default: true
+        is_archived:
+          type: boolean
+          title: Is Archived
+          default: false
+      type: object
+      title: WorkspaceSaveRequest

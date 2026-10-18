@@ -19,6 +19,7 @@ import math
 import os
 import re
 import sqlite3
+import uuid
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
 from src.observability.logging_setup import logger, scrub_pii_before_sink, scrub_pii_from_structure
@@ -331,6 +332,41 @@ class PersistentSessionStore:
                     audience_level TEXT,
                     polished_notes TEXT,
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
+            )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS counselor_workspaces (
+                    workspace_id TEXT PRIMARY KEY,
+                    workspace_title TEXT NOT NULL,
+                    badge_name TEXT NOT NULL,
+                    session_label TEXT DEFAULT '',
+                    camp_bundle_tag TEXT DEFAULT '',
+                    template_id TEXT DEFAULT 'default_workbench',
+                    counselor_info_json TEXT DEFAULT '{}',
+                    deck_result_json TEXT DEFAULT '{}',
+                    blue_card_roster_json TEXT DEFAULT '{}',
+                    class_prep_json TEXT DEFAULT '{}',
+                    local_grounding_json TEXT DEFAULT '{}',
+                    active_slide_idx INTEGER DEFAULT -1,
+                    slide_count INTEGER DEFAULT 0,
+                    custom_edits_count INTEGER DEFAULT 0,
+                    scout_count INTEGER DEFAULT 0,
+                    is_pinned INTEGER DEFAULT 1,
+                    is_archived INTEGER DEFAULT 0,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
+            )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS counselor_favorites (
+                    counselor_id TEXT DEFAULT 'default',
+                    badge_name TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    PRIMARY KEY (counselor_id, badge_name)
                 )
                 """
             )
@@ -1055,6 +1091,330 @@ def save_polished_speaker_notes(
         return True
     except Exception:
         return False
+
+
+# ==============================================================================
+# MULTI-BADGE COUNSELOR WORKSPACES & FAVORITES (PLAN 16B)
+# ==============================================================================
+
+
+def save_counselor_workspace(
+    workspace_payload: Dict[str, Any],
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    """Creates or updates a multi-badge counselor deck workspace in SQLite (`counselor_workspaces`)."""
+    s = store or _default_store
+    ws_id = str(workspace_payload.get("workspace_id") or "").strip()
+    badge_name = str(workspace_payload.get("badge_name") or "First Aid").strip()
+    if not ws_id:
+        slug = re.sub(r"[^a-z0-9]+", "_", badge_name.lower()).strip("_") or "badge"
+        ws_id = f"ws_{slug}_{uuid.uuid4().hex[:8]}"
+
+    ws_title = str(workspace_payload.get("workspace_title") or f"{badge_name} Merit Badge Deck").strip()
+    session_label = str(workspace_payload.get("session_label") or "").strip()
+    camp_bundle_tag = str(workspace_payload.get("camp_bundle_tag") or "").strip()
+    template_id = str(workspace_payload.get("template_id") or "default_workbench").strip()
+
+    counselor_info = workspace_payload.get("counselor_info") or {}
+    deck_result = workspace_payload.get("deck_result") or {}
+    blue_card_roster = workspace_payload.get("blue_card_roster") or {}
+    class_prep = workspace_payload.get("class_prep") or {}
+    local_grounding = workspace_payload.get("local_grounding") or {}
+
+    active_slide_idx = int(workspace_payload.get("active_slide_idx", -1))
+    slides_list = (deck_result.get("storyboard") or {}).get("slides") or []
+    slide_count = int(workspace_payload.get("slide_count") or len(slides_list) or 0)
+    scouts_list = blue_card_roster.get("scouts") if isinstance(blue_card_roster, dict) else []
+    scout_count = int(workspace_payload.get("scout_count") or (len(scouts_list) if isinstance(scouts_list, list) else 0))
+    custom_edits_count = int(workspace_payload.get("custom_edits_count") or 0)
+    is_pinned = 1 if workspace_payload.get("is_pinned", True) else 0
+    is_archived = 1 if workspace_payload.get("is_archived", False) else 0
+
+    with sqlite3.connect(s.db_path) as conn:
+        conn.execute(
+            """
+            INSERT INTO counselor_workspaces (
+                workspace_id, workspace_title, badge_name, session_label, camp_bundle_tag,
+                template_id, counselor_info_json, deck_result_json, blue_card_roster_json,
+                class_prep_json, local_grounding_json, active_slide_idx, slide_count,
+                custom_edits_count, scout_count, is_pinned, is_archived, updated_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            ON CONFLICT(workspace_id) DO UPDATE SET
+                workspace_title=excluded.workspace_title,
+                badge_name=excluded.badge_name,
+                session_label=excluded.session_label,
+                camp_bundle_tag=excluded.camp_bundle_tag,
+                template_id=excluded.template_id,
+                counselor_info_json=excluded.counselor_info_json,
+                deck_result_json=excluded.deck_result_json,
+                blue_card_roster_json=excluded.blue_card_roster_json,
+                class_prep_json=excluded.class_prep_json,
+                local_grounding_json=excluded.local_grounding_json,
+                active_slide_idx=excluded.active_slide_idx,
+                slide_count=excluded.slide_count,
+                custom_edits_count=excluded.custom_edits_count,
+                scout_count=excluded.scout_count,
+                is_pinned=excluded.is_pinned,
+                is_archived=excluded.is_archived,
+                updated_at=CURRENT_TIMESTAMP
+            """,
+            (
+                ws_id,
+                ws_title,
+                badge_name,
+                session_label,
+                camp_bundle_tag,
+                template_id,
+                json.dumps(counselor_info, ensure_ascii=False),
+                json.dumps(deck_result, ensure_ascii=False),
+                json.dumps(blue_card_roster, ensure_ascii=False),
+                json.dumps(class_prep, ensure_ascii=False),
+                json.dumps(local_grounding, ensure_ascii=False),
+                active_slide_idx,
+                slide_count,
+                custom_edits_count,
+                scout_count,
+                is_pinned,
+                is_archived,
+            ),
+        )
+        conn.commit()
+    return get_counselor_workspace(ws_id, include_deck_payload=False, store=s) or {"workspace_id": ws_id}
+
+
+def list_counselor_workspaces(
+    badge_name: Optional[str] = None,
+    camp_bundle_tag: Optional[str] = None,
+    include_archived: bool = False,
+    store: Optional[PersistentSessionStore] = None,
+) -> List[Dict[str, Any]]:
+    """Lists saved counselor deck workspaces (lightweight metadata without multi-MB deck payloads)."""
+    s = store or _default_store
+    items: List[Dict[str, Any]] = []
+    try:
+        with sqlite3.connect(s.db_path) as conn:
+            conn.row_factory = sqlite3.Row
+            clauses = ["1=1"]
+            params: List[Any] = []
+            if not include_archived:
+                clauses.append("is_archived = 0")
+            if badge_name:
+                clauses.append("LOWER(badge_name) = LOWER(?)")
+                params.append(badge_name.strip())
+            if camp_bundle_tag:
+                clauses.append("LOWER(camp_bundle_tag) = LOWER(?)")
+                params.append(camp_bundle_tag.strip())
+            where_sql = " AND ".join(clauses)
+            rows = conn.execute(
+                f"""
+                SELECT workspace_id, workspace_title, badge_name, session_label, camp_bundle_tag,
+                       template_id, active_slide_idx, slide_count, custom_edits_count,
+                       scout_count, is_pinned, is_archived, created_at, updated_at
+                FROM counselor_workspaces
+                WHERE {where_sql}
+                ORDER BY is_pinned DESC, updated_at DESC
+                """,
+                params,
+            ).fetchall()
+            for r in rows:
+                items.append(
+                    {
+                        "workspace_id": r["workspace_id"],
+                        "workspace_title": r["workspace_title"],
+                        "badge_name": r["badge_name"],
+                        "session_label": r["session_label"] or "",
+                        "camp_bundle_tag": r["camp_bundle_tag"] or "",
+                        "template_id": r["template_id"] or "default_workbench",
+                        "active_slide_idx": int(r["active_slide_idx"] or -1),
+                        "slide_count": int(r["slide_count"] or 0),
+                        "custom_edits_count": int(r["custom_edits_count"] or 0),
+                        "scout_count": int(r["scout_count"] or 0),
+                        "is_pinned": bool(r["is_pinned"]),
+                        "is_archived": bool(r["is_archived"]),
+                        "created_at": r["created_at"],
+                        "updated_at": r["updated_at"],
+                    }
+                )
+    except Exception:
+        pass
+    return items
+
+
+def get_counselor_workspace(
+    workspace_id: str,
+    include_deck_payload: bool = True,
+    store: Optional[PersistentSessionStore] = None,
+) -> Optional[Dict[str, Any]]:
+    """Loads a saved counselor deck workspace by `workspace_id`."""
+    if not workspace_id:
+        return None
+    s = store or _default_store
+    try:
+        with sqlite3.connect(s.db_path) as conn:
+            conn.row_factory = sqlite3.Row
+            row = conn.execute(
+                "SELECT * FROM counselor_workspaces WHERE workspace_id = ?",
+                (str(workspace_id).strip(),),
+            ).fetchone()
+            if not row:
+                return None
+
+            def _safe_json(val: Any) -> Dict[str, Any]:
+                if not val:
+                    return {}
+                try:
+                    parsed = json.loads(val)
+                    return parsed if isinstance(parsed, dict) else {}
+                except Exception:
+                    return {}
+
+            res: Dict[str, Any] = {
+                "workspace_id": row["workspace_id"],
+                "workspace_title": row["workspace_title"],
+                "badge_name": row["badge_name"],
+                "session_label": row["session_label"] or "",
+                "camp_bundle_tag": row["camp_bundle_tag"] or "",
+                "template_id": row["template_id"] or "default_workbench",
+                "active_slide_idx": int(row["active_slide_idx"] or -1),
+                "slide_count": int(row["slide_count"] or 0),
+                "custom_edits_count": int(row["custom_edits_count"] or 0),
+                "scout_count": int(row["scout_count"] or 0),
+                "is_pinned": bool(row["is_pinned"]),
+                "is_archived": bool(row["is_archived"]),
+                "created_at": row["created_at"],
+                "updated_at": row["updated_at"],
+                "counselor_info": _safe_json(row["counselor_info_json"]),
+                "blue_card_roster": _safe_json(row["blue_card_roster_json"]),
+                "class_prep": _safe_json(row["class_prep_json"]),
+                "local_grounding": _safe_json(row["local_grounding_json"]),
+            }
+            if include_deck_payload:
+                res["deck_result"] = _safe_json(row["deck_result_json"])
+            return res
+    except Exception:
+        return None
+
+
+def clone_counselor_workspace(
+    workspace_id: str,
+    new_title: Optional[str] = None,
+    session_label: Optional[str] = None,
+    copy_roster: bool = False,
+    store: Optional[PersistentSessionStore] = None,
+) -> Optional[Dict[str, Any]]:
+    """Clones an existing deck workspace (preserving slide edits, template, and speaker notes) for a new class section."""
+    src = get_counselor_workspace(workspace_id, include_deck_payload=True, store=store)
+    if not src:
+        return None
+    badge_name = src["badge_name"]
+    slug = re.sub(r"[^a-z0-9]+", "_", badge_name.lower()).strip("_") or "badge"
+    new_id = f"ws_{slug}_{uuid.uuid4().hex[:8]}"
+    label = (session_label if session_label is not None else "Section 2 / Afternoon Patrol").strip()
+    title = (new_title or f"{badge_name} ({label})").strip()
+    roster = dict(src.get("blue_card_roster") or {}) if copy_roster else {"scouts": []}
+    if copy_roster and isinstance(roster.get("scouts"), list):
+        # Copy attendees but reset completed requirements if desired or keep intact
+        pass
+    cloned_payload = {
+        "workspace_id": new_id,
+        "workspace_title": title,
+        "badge_name": badge_name,
+        "session_label": label,
+        "camp_bundle_tag": src.get("camp_bundle_tag", ""),
+        "template_id": src.get("template_id", "default_workbench"),
+        "counselor_info": src.get("counselor_info", {}),
+        "deck_result": src.get("deck_result", {}),
+        "blue_card_roster": roster,
+        "class_prep": src.get("class_prep", {}),
+        "local_grounding": src.get("local_grounding", {}),
+        "active_slide_idx": src.get("active_slide_idx", -1),
+        "slide_count": src.get("slide_count", 0),
+        "custom_edits_count": src.get("custom_edits_count", 0),
+        "scout_count": len(roster.get("scouts") or []) if isinstance(roster.get("scouts"), list) else 0,
+        "is_pinned": True,
+        "is_archived": False,
+    }
+    save_counselor_workspace(cloned_payload, store=store)
+    return get_counselor_workspace(new_id, include_deck_payload=True, store=store)
+
+
+def delete_counselor_workspace(
+    workspace_id: str,
+    store: Optional[PersistentSessionStore] = None,
+) -> bool:
+    """Deletes a saved counselor deck workspace from SQLite."""
+    if not workspace_id:
+        return False
+    s = store or _default_store
+    try:
+        with sqlite3.connect(s.db_path) as conn:
+            cur = conn.execute(
+                "DELETE FROM counselor_workspaces WHERE workspace_id = ?",
+                (str(workspace_id).strip(),),
+            )
+            conn.commit()
+            return cur.rowcount > 0
+    except Exception:
+        return False
+
+
+def get_counselor_favorites(
+    counselor_id: str = "default",
+    store: Optional[PersistentSessionStore] = None,
+) -> List[str]:
+    """Returns the counselor's starred/favorited Merit Badge names."""
+    s = store or _default_store
+    favs: List[str] = []
+    try:
+        with sqlite3.connect(s.db_path) as conn:
+            rows = conn.execute(
+                "SELECT badge_name FROM counselor_favorites WHERE counselor_id = ? ORDER BY created_at ASC",
+                (str(counselor_id or "default"),),
+            ).fetchall()
+            favs = [str(r[0]) for r in rows if r and r[0]]
+    except Exception:
+        pass
+    return favs
+
+
+def toggle_counselor_favorite(
+    badge_name: str,
+    is_favorite: Optional[bool] = None,
+    counselor_id: str = "default",
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    """Stars or unstars a Merit Badge in `counselor_favorites` and returns the updated list."""
+    clean_badge = str(badge_name or "").strip()
+    if not clean_badge:
+        return {"badge_name": "", "is_favorite": False, "favorites": get_counselor_favorites(counselor_id, store)}
+    s = store or _default_store
+    cid = str(counselor_id or "default")
+    current = get_counselor_favorites(cid, s)
+    currently_fav = any(b.lower() == clean_badge.lower() for b in current)
+    target_state = (not currently_fav) if is_favorite is None else bool(is_favorite)
+    try:
+        with sqlite3.connect(s.db_path) as conn:
+            if target_state:
+                conn.execute(
+                    "INSERT OR IGNORE INTO counselor_favorites (counselor_id, badge_name) VALUES (?, ?)",
+                    (cid, clean_badge),
+                )
+            else:
+                conn.execute(
+                    "DELETE FROM counselor_favorites WHERE counselor_id = ? AND LOWER(badge_name) = LOWER(?)",
+                    (cid, clean_badge),
+                )
+            conn.commit()
+    except Exception:
+        pass
+    updated = get_counselor_favorites(cid, s)
+    return {
+        "badge_name": clean_badge,
+        "is_favorite": target_state,
+        "favorites": updated,
+    }
+
 
 
 

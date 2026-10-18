@@ -20,7 +20,6 @@ import os
 import re
 from typing import Any, Dict, List, Optional, Set, Tuple
 from PIL import Image
-from pptx import Presentation
 from pptx.dml.color import RGBColor
 from pptx.enum.shapes import MSO_SHAPE
 from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
@@ -29,6 +28,11 @@ from pydantic import BaseModel, Field
 
 from src.config import GENERATED_DIAGRAMS_DIR, ScoutsBSAPalette, is_eagle_required
 from src.schemas import CounselorTitleSlideInfo
+from src.tools.template_engine import (
+    create_presentation_from_template,
+    get_template_profile,
+    hex_to_rgb,
+)
 
 
 # ==============================================================================
@@ -62,7 +66,8 @@ class SlideSpec(BaseModel):
     diagram_type: str = Field("pamphlet_figure", description="Diagram type key.")
     beautification_tier: str = Field("STANDARD", description="Visual polish tier: STANDARD, BEAUTIFIED, or STUDIO.")
     visual_theme: str = Field("STANDARD_CLEAN", description="Layer-0 magazine vector card theme.")
-    accent_palette_key: str = Field("NAVY_GOLD", description="Brand color palette key (NAVY_GOLD, OLIVE_FOREST, EAGLE_CRIMSON, SLATE_ACTION).")
+    accent_palette_key: str = Field("NAVY_GOLD", description="Brand color palette key (NAVY_GOLD, OLIVE_FOREST, EAGLE_CRIMSON, SLATE_ACTION, MATCH_TEMPLATE).")
+    template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
     callout_badge_text: str = Field("", description="Magazine header callout pill text.")
     real_world_connection_box: Optional[str] = Field(None, description="Grounded Deep Research & Local Troop connection callout box.")
     grounded_citation_label: Optional[str] = Field(None, description="Source citation badge (e.g. 'NOAA / NWS + Local Council Grounded').")
@@ -85,6 +90,7 @@ class PowerPointBuildRequest(BaseModel):
     counselor_info: Optional[CounselorTitleSlideInfo] = Field(None, description="Title slide counselor customization.")
     output_path: Optional[str] = Field(None, description="Target filesystem path for saved .pptx file.")
     hitl_confirmation_token: Optional[str] = Field(None, description="Optional FastMCP HITL confirmation token.")
+    template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
 
 
 class PowerPointBuildResult(BaseModel):
@@ -93,6 +99,7 @@ class PowerPointBuildResult(BaseModel):
     slide_count: int = Field(..., description="Total number of slides generated.")
     output_path: str = Field(..., description="Absolute filesystem path to saved .pptx file.")
     is_eagle_required: bool = Field(..., description="True if Eagle-required badge styling was applied.")
+    template_id: str = Field("default_workbench", description="Applied PowerPoint template ID.")
     status: str = Field("SUCCESS", description="Execution status.")
 
 
@@ -718,6 +725,16 @@ def _resolve_palette_tokens(
             ScoutsBSAPalette.CRISP_SLATE_RGB,
         )
     pal = str(getattr(slide_spec, "accent_palette_key", "NAVY_GOLD") or "NAVY_GOLD").upper()
+    tpl_id = str(getattr(slide_spec, "template_id", "default_workbench") or "default_workbench")
+    if pal == "MATCH_TEMPLATE" and tpl_id and tpl_id != "default_workbench":
+        prof = get_template_profile(tpl_id)
+        if tier == "STUDIO":
+            return (244, 196, 48), hex_to_rgb(prof.accent_hex, (56, 189, 248)), (30, 41, 59)
+        return (
+            hex_to_rgb(prof.primary_hex, (0, 63, 135)),
+            hex_to_rgb(prof.accent_hex, (212, 175, 55)),
+            hex_to_rgb(prof.card_bg_hex, (239, 246, 255)),
+        )
     if tier == "STUDIO":
         if pal == "OLIVE_FOREST":
             return (74, 222, 128), (34, 197, 94), (23, 37, 42)
@@ -2224,13 +2241,20 @@ def generate_bsa_slide_deck_pptx(
                 recovery_suggestion="Call request_counselor_confirmation first to obtain a valid HMAC-SHA256 confirmation_token.",
             )
 
-    prs = Presentation()
-    prs.slide_width = Inches(13.333)
-    prs.slide_height = Inches(7.5)
+    req_template_id = (
+        getattr(request, "template_id", None)
+        or (getattr(request.slides[0], "template_id", None) if request.slides else None)
+        or "default_workbench"
+    )
+    deck_tier = (
+        str(getattr(request.slides[0], "beautification_tier", "STANDARD") or "STANDARD").upper()
+        if request.slides
+        else "STANDARD"
+    )
+    prs, add_template_slide, safe_bounds, tpl_profile = create_presentation_from_template(req_template_id)
 
     badge_title = request.badge_name.strip().title()
     eagle_flag = is_eagle_required(badge_title)
-    blank_layout = prs.slide_layouts[6]
     used_sha256: Set[str] = set()
 
     # -------------------------------------------------------------------------
@@ -2242,12 +2266,7 @@ def generate_bsa_slide_deck_pptx(
     #      - Official Pamphlet Cover on Right: [x: 8.35..12.70, y: 0.50..6.65]
     #      - Footer (no box): [x: 0.65..12.70, y: 6.85..7.20]
     # -------------------------------------------------------------------------
-    cover_slide = prs.slides.add_slide(blank_layout)
-    deck_tier = (
-        str(getattr(request.slides[0], "beautification_tier", "STANDARD") or "STANDARD").upper()
-        if request.slides
-        else "STANDARD"
-    )
+    cover_slide = add_template_slide(True, deck_tier)
     _apply_slide_tier_background(cover_slide, deck_tier, None)
     cover_title_rgb = (248, 250, 252) if deck_tier == "STUDIO" else ScoutsBSAPalette.NAVY_BLUE_RGB
     cover_sub_rgb = (
@@ -2428,10 +2447,12 @@ def generate_bsa_slide_deck_pptx(
     total_deck_slides = 1 + len(request.slides)
     temp_unique_files: List[str] = []
     for idx, slide_spec in enumerate(request.slides, start=1):
-        content_slide = prs.slides.add_slide(blank_layout)
+        if not getattr(slide_spec, "template_id", None) or slide_spec.template_id == "default_workbench":
+            slide_spec.template_id = req_template_id
+        s_tier = str(getattr(slide_spec, "beautification_tier", deck_tier) or deck_tier).upper()
+        content_slide = add_template_slide(False, s_tier)
         slide_num = idx + 1
         arch = (slide_spec.archetype or "SPLIT_VISUAL_EXPLAINER").upper()
-        s_tier = str(getattr(slide_spec, "beautification_tier", deck_tier) or deck_tier).upper()
         s_primary_rgb, s_accent_rgb, s_card_bg_rgb = _resolve_palette_tokens(slide_spec)
         s_anchor_rgb, s_body_rgb, s_title_rgb = _resolve_text_colors(slide_spec, s_primary_rgb)
         _apply_slide_tier_background(content_slide, s_tier, s_accent_rgb)
@@ -2500,7 +2521,10 @@ def generate_bsa_slide_deck_pptx(
             bool(slide_spec.safety_warning)
             or (arch == "FULL_BLEED_IMAGE_EXPLAINER" and has_visual)
         )
-        content_bottom = 6.18 if has_bottom_bar else 6.95
+        max_content_bottom = float(safe_bounds.content_bottom_max_in)
+        safety_bar_h = float(safe_bounds.safety_bar_height_in)
+        safety_bar_top = round(max_content_bottom - safety_bar_h, 2)
+        content_bottom = round(safety_bar_top - 0.10, 2) if has_bottom_bar else max_content_bottom
 
         # ---------------------------------------------------------------------
         # SPECIAL FULL-CANVAS ARCHETYPES:
@@ -2625,12 +2649,12 @@ def generate_bsa_slide_deck_pptx(
         if slide_spec.safety_warning:
             warn_str = _concise_card_body(_clean_text(slide_spec.safety_warning), max_words=28, max_chars=185)
             warn_font_pt = _compute_fitting_font_size(
-                [f"🛡️ Guide to Safe Scouting: {warn_str}"], box_w_in=11.95, box_h_in=0.78, min_pt=12.5, max_pt=15.5, space_after_pt=0.0
+                [f"🛡️ Guide to Safe Scouting: {warn_str}"], box_w_in=11.95, box_h_in=safety_bar_h, min_pt=12.5, max_pt=15.5, space_after_pt=0.0
             )
             warn_bg = (42, 24, 32) if s_tier == "STUDIO" else ScoutsBSAPalette.SOFT_RED_CARD_RGB
             warn_border = (248, 113, 113) if s_tier == "STUDIO" else ScoutsBSAPalette.EAGLE_RED_RGB
             callout_box = _add_styled_box(
-                content_slide, left_in=0.60, top_in=6.28, width_in=12.133, height_in=0.78,
+                content_slide, left_in=0.60, top_in=safety_bar_top, width_in=12.133, height_in=safety_bar_h,
                 bg_rgb=warn_bg, border_rgb=warn_border, border_pt=1.5, left_accent_rgb=warn_border,
             )
             stf = callout_box.text_frame
@@ -2651,7 +2675,7 @@ def generate_bsa_slide_deck_pptx(
             diag_bg = (23, 37, 42) if s_tier == "STUDIO" else ScoutsBSAPalette.SOFT_OLIVE_CARD_RGB
             diag_border = (74, 222, 128) if s_tier == "STUDIO" else ScoutsBSAPalette.WARM_OLIVE_RGB
             callout_box = _add_styled_box(
-                content_slide, left_in=0.60, top_in=6.28, width_in=12.133, height_in=0.78,
+                content_slide, left_in=0.60, top_in=safety_bar_top, width_in=12.133, height_in=safety_bar_h,
                 bg_rgb=diag_bg, border_rgb=diag_border, border_pt=1.25, left_accent_rgb=diag_border,
             )
             stf = callout_box.text_frame
@@ -2664,7 +2688,7 @@ def generate_bsa_slide_deck_pptx(
             )
             key_takeaway = _concise_card_body(raw_diag_text, max_words=28, max_chars=185)
             diag_font_pt = _compute_fitting_font_size(
-                [f"DIAGRAM EXPLANATION: {key_takeaway}"], box_w_in=11.95, box_h_in=0.78, min_pt=12.5, max_pt=15.5, space_after_pt=0.0
+                [f"DIAGRAM EXPLANATION: {key_takeaway}"], box_w_in=11.95, box_h_in=safety_bar_h, min_pt=12.5, max_pt=15.5, space_after_pt=0.0
             )
             _set_paragraph_runs(
                 stf.paragraphs[0],
@@ -2677,25 +2701,31 @@ def generate_bsa_slide_deck_pptx(
             )
 
         # ---------------------------------------------------------------------
-        # ZONE 6: Footer Metadata Strip [x: 0.60..12.733, y: 7.15..7.43]
+        # ZONE 6: Footer Metadata Strip (Adapts to Template SafeCanvasBounds)
         # ---------------------------------------------------------------------
-        footer_box = content_slide.shapes.add_textbox(Inches(0.60), Inches(7.15), Inches(12.133), Inches(0.28))
-        ftf = footer_box.text_frame
-        ftf.word_wrap = True
-        ftf.vertical_anchor = MSO_ANCHOR.TOP
-        fp = ftf.paragraphs[0]
-        footer_rgb = (148, 163, 184) if s_tier == "STUDIO" else ScoutsBSAPalette.MUTED_TEXT_RGB
-        _set_paragraph_runs(
-            fp,
-            f"Scouts BSA {badge_title} Merit Badge",
-            f"Slide {slide_num} of {total_deck_slides} • {req_tag}",
-            font_size_pt=13.0,
-            anchor_rgb=footer_rgb,
-            body_rgb=footer_rgb,
-            space_after_pt=0.0,
-            align=PP_ALIGN.LEFT,
-            separator=" • ",
-        )
+        if not tpl_profile.bottom_silhouette_url:
+            f_top = float(safe_bounds.footer_top_in)
+            f_w = float(safe_bounds.footer_max_width_in)
+            footer_box = content_slide.shapes.add_textbox(Inches(0.60), Inches(f_top), Inches(f_w), Inches(0.28))
+            ftf = footer_box.text_frame
+            ftf.word_wrap = True
+            ftf.vertical_anchor = MSO_ANCHOR.TOP
+            fp = ftf.paragraphs[0]
+            if safe_bounds.suppress_native_footer and tpl_profile.bottom_bar_hex and not tpl_profile.use_native_master_layouts:
+                footer_rgb = (241, 245, 249)
+            else:
+                footer_rgb = (148, 163, 184) if s_tier == "STUDIO" else ScoutsBSAPalette.MUTED_TEXT_RGB
+            _set_paragraph_runs(
+                fp,
+                f"Scouts BSA {badge_title} Merit Badge",
+                f"Slide {slide_num} of {total_deck_slides} • {req_tag}",
+                font_size_pt=13.0,
+                anchor_rgb=footer_rgb,
+                body_rgb=footer_rgb,
+                space_after_pt=0.0,
+                align=PP_ALIGN.LEFT,
+                separator=" • ",
+            )
 
         # ---------------------------------------------------------------------
         # Presenter Instructor Notes
@@ -2727,6 +2757,7 @@ def generate_bsa_slide_deck_pptx(
         slide_count=len(prs.slides),
         output_path=os.path.abspath(out_filename),
         is_eagle_required=eagle_flag,
+        template_id=tpl_profile.template_id,
         status="SUCCESS",
     )
     return result.model_dump()

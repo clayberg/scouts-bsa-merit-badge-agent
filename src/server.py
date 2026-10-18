@@ -2123,6 +2123,14 @@ CURATED_DOCUMENTATION_CATALOG: List[Dict[str, str]] = [
         "repo_path": "docs/API_INTEGRATION_GUIDE.md",
     },
     {
+        "id": "mcp_server_guide",
+        "title": "MCP SERVER GUIDE",
+        "short_label": "🤖 MCP SERVER GUIDE",
+        "subtitle": "Model Context Protocol (MCP) Server: stdio + HTTP /mcp, 12 Tools, 6 Resources & 4 Prompts",
+        "category": "engineering",
+        "repo_path": "docs/MCP_SERVER_INTEGRATION_GUIDE.md",
+    },
+    {
         "id": "finops_guide",
         "title": "FINOPS GUIDE",
         "short_label": "💰 FINOPS GUIDE",
@@ -2557,6 +2565,7 @@ class SlideDeckCustomizeRequest(BaseModel):
     storyboard_slides: List[Dict[str, Any]] = Field(default_factory=list, description="Full slide array from client state.")
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     output_path: Optional[str] = Field(None, description="Optional PPTX output path.")
+    template_id: Optional[str] = Field("default_workbench", description="Optional PowerPoint template ID.")
 
 
 @app.post("/api/slide/deck-customize")
@@ -2574,6 +2583,10 @@ async def api_customize_slide_deck(
     )
 
     slides_list = [dict(s) for s in (req.storyboard_slides or [])]
+    tpl_id = str(req.template_id or "default_workbench").strip() or "default_workbench"
+    for s in slides_list:
+        if tpl_id != "default_workbench" or not s.get("template_id"):
+            s["template_id"] = tpl_id
     act = (req.action or "sync_slides").strip().lower()
     active_idx = max(0, min(req.slide_index, max(0, len(slides_list) - 1)))
 
@@ -2645,6 +2658,7 @@ async def api_customize_slide_deck(
                     slides=visible_specs,
                     counselor_info=c_info,
                     output_path=out_file,
+                    template_id=tpl_id,
                 ),
             )
             if build_res.get("output_path"):
@@ -3524,6 +3538,380 @@ async def api_admin_reset_circuit_breakers(
         "status": "RESET",
         "circuit_breakers": states,
     }
+
+
+# ==============================================================================
+# PLAN 16A: POWERPOINT TEMPLATE ENGINE ENDPOINTS
+# ==============================================================================
+
+
+class TemplateImportUrlRequest(BaseModel):
+    url: str = Field(..., description="HTTP/HTTPS URL to a .pptx, .ppt, or background image template.")
+    custom_name: Optional[str] = Field(None, description="Optional display title for the imported template.")
+    bottom_safe_in: float = Field(6.55, description="Safe bottom coordinate in inches (5.80..6.95).")
+
+
+class TemplateApplyRequest(BaseModel):
+    badge_name: str = Field("First Aid", description="Official Merit Badge name.")
+    template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
+    storyboard_slides: List[Dict[str, Any]] = Field(default_factory=list, description="Current storyboard slides.")
+    counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
+    visual_theme: Optional[str] = Field(None, description="Optional BEAUTIFIED, STANDARD, or STUDIO.")
+    accent_palette_key: Optional[str] = Field(None, description="Optional palette key or MATCH_TEMPLATE.")
+
+
+@app.get("/api/templates")
+@app.get("/api/v1/templates")
+async def api_list_powerpoint_templates() -> Dict[str, Any]:
+    """Returns all built-in curated Scouting templates and any custom user-uploaded/URL templates."""
+    from src.tools.template_engine import load_template_catalog
+
+    profiles = await asyncio.to_thread(load_template_catalog)
+    return {
+        "status": "SUCCESS",
+        "total": len(profiles),
+        "templates": [p.model_dump() for p in profiles],
+    }
+
+
+@app.post("/api/templates/upload")
+@app.post("/api/v1/templates/upload")
+async def api_upload_powerpoint_template(
+    request: Request,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Uploads a custom `.pptx`, legacy `.ppt`, or `.png`/`.jpg`/`.webp` template (via JSON base64 or multipart form) and extracts SafeCanvasBounds."""
+    import base64
+    from src.tools.template_engine import ingest_custom_template_bytes, load_template_catalog
+
+    ctype = (request.headers.get("content-type") or "").lower()
+    raw_bytes = b""
+    filename = "custom_template.pptx"
+    custom_name: Optional[str] = None
+    bottom_safe_in: float = 6.55
+
+    if "application/json" in ctype:
+        body = await request.json()
+        filename = str(body.get("filename") or "custom_template.pptx")
+        custom_name = body.get("custom_name")
+        bottom_safe_in = float(body.get("bottom_safe_in", 6.55))
+        b64_str = str(body.get("data_base64") or "").strip()
+        if "," in b64_str:
+            b64_str = b64_str.split(",", 1)[1]
+        raw_bytes = base64.b64decode(b64_str) if b64_str else b""
+    else:
+        form = await request.form()
+        up_file = form.get("file")
+        if up_file is not None and hasattr(up_file, "read"):
+            raw_bytes = await up_file.read()
+            filename = getattr(up_file, "filename", None) or filename
+        if form.get("custom_name"):
+            custom_name = str(form.get("custom_name"))
+        if form.get("bottom_safe_in"):
+            bottom_safe_in = float(form.get("bottom_safe_in"))
+
+    if not raw_bytes:
+        raise HTTPException(status_code=400, detail="Uploaded template file is empty.")
+    try:
+        profile = await asyncio.to_thread(
+            ingest_custom_template_bytes,
+            raw_bytes=raw_bytes,
+            original_filename=filename,
+            custom_name=custom_name,
+            bottom_safe_in=bottom_safe_in,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    all_profiles = await asyncio.to_thread(load_template_catalog)
+    return {
+        "status": "SUCCESS",
+        "template": profile.model_dump(),
+        "templates": [p.model_dump() for p in all_profiles],
+    }
+
+
+@app.post("/api/templates/import-url")
+@app.post("/api/v1/templates/import-url")
+async def api_import_template_from_url(
+    req: TemplateImportUrlRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Imports a PowerPoint template or slide background from an HTTP/HTTPS URL."""
+    from src.tools.template_engine import ingest_template_from_url, load_template_catalog
+
+    try:
+        profile = await asyncio.to_thread(
+            ingest_template_from_url,
+            url=req.url,
+            custom_name=req.custom_name,
+            bottom_safe_in=req.bottom_safe_in,
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    all_profiles = await asyncio.to_thread(load_template_catalog)
+    return {
+        "status": "SUCCESS",
+        "template": profile.model_dump(),
+        "templates": [p.model_dump() for p in all_profiles],
+    }
+
+
+@app.post("/api/templates/apply")
+@app.post("/api/v1/templates/apply")
+async def api_apply_powerpoint_template(
+    req: TemplateApplyRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Applies a PowerPoint template to the active deck and rebuilds the downloadable .pptx with SafeCanvasBounds."""
+    from src.tools.pptx_builder import (
+        CounselorTitleSlideInfo,
+        PowerPointBuildRequest,
+        SlideSpec,
+        generate_bsa_slide_deck_pptx,
+    )
+    from src.tools.template_engine import get_template_profile
+
+    prof = await asyncio.to_thread(get_template_profile, req.template_id)
+    slides_list = [dict(s) for s in (req.storyboard_slides or [])]
+    for s in slides_list:
+        s["template_id"] = prof.template_id
+        if req.visual_theme:
+            s["beautification_tier"] = str(req.visual_theme).upper()
+        if req.accent_palette_key:
+            s["accent_palette_key"] = str(req.accent_palette_key).upper()
+
+    visible_specs = [
+        SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+        for s in slides_list
+        if not s.get("hidden")
+    ]
+    rebuilt_pptx_url: Optional[str] = None
+    if visible_specs:
+        c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
+        out_file = str(
+            GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{prof.template_id}_Merit_Badge_Deck.pptx"
+        )
+        build_res = await asyncio.to_thread(
+            generate_bsa_slide_deck_pptx,
+            PowerPointBuildRequest(
+                badge_name=req.badge_name,
+                slides=visible_specs,
+                counselor_info=c_info,
+                output_path=out_file,
+                template_id=prof.template_id,
+            ),
+        )
+        if build_res.get("output_path"):
+            rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
+
+    return {
+        "status": "SUCCESS",
+        "template": prof.model_dump(),
+        "storyboard_slides": slides_list,
+        "pptx_download_url": rebuilt_pptx_url,
+    }
+
+
+@app.delete("/api/templates/{template_id}")
+@app.delete("/api/v1/templates/{template_id}")
+async def api_delete_custom_template(
+    template_id: str,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Deletes a custom uploaded/URL template from the catalog."""
+    from src.tools.template_engine import delete_custom_template, load_template_catalog
+
+    deleted = await asyncio.to_thread(delete_custom_template, template_id)
+    all_profiles = await asyncio.to_thread(load_template_catalog)
+    return {
+        "status": "DELETED" if deleted else "NOT_FOUND_OR_BUILTIN",
+        "deleted": deleted,
+        "templates": [p.model_dump() for p in all_profiles],
+    }
+
+
+# ==============================================================================
+# PLAN 16B: MULTI-BADGE COUNSELOR WORKSPACES & FAVORITES ENDPOINTS
+# ==============================================================================
+
+
+class WorkspaceSaveRequest(BaseModel):
+    workspace_id: Optional[str] = None
+    workspace_title: Optional[str] = None
+    badge_name: str = "First Aid"
+    session_label: str = ""
+    camp_bundle_tag: str = ""
+    template_id: str = "default_workbench"
+    counselor_info: Dict[str, Any] = Field(default_factory=dict)
+    deck_result: Dict[str, Any] = Field(default_factory=dict)
+    blue_card_roster: Dict[str, Any] = Field(default_factory=dict)
+    class_prep: Dict[str, Any] = Field(default_factory=dict)
+    local_grounding: Dict[str, Any] = Field(default_factory=dict)
+    active_slide_idx: int = -1
+    slide_count: int = 0
+    custom_edits_count: int = 0
+    scout_count: int = 0
+    is_pinned: bool = True
+    is_archived: bool = False
+
+
+class WorkspaceCloneRequest(BaseModel):
+    new_title: Optional[str] = None
+    session_label: Optional[str] = "Afternoon Patrol / Section 2"
+    copy_roster: bool = False
+
+
+class FavoriteToggleRequest(BaseModel):
+    badge_name: str
+    is_favorite: Optional[bool] = None
+
+
+@app.get("/api/workspaces")
+@app.get("/api/v1/workspaces")
+async def api_list_workspaces(
+    badge_name: Optional[str] = None,
+    camp_bundle_tag: Optional[str] = None,
+    include_archived: bool = False,
+) -> Dict[str, Any]:
+    """Lists saved multi-badge counselor deck workspaces."""
+    from src.memory.session_store import list_counselor_workspaces
+
+    items = await asyncio.to_thread(
+        list_counselor_workspaces,
+        badge_name=badge_name,
+        camp_bundle_tag=camp_bundle_tag,
+        include_archived=include_archived,
+    )
+    return {"status": "SUCCESS", "total": len(items), "workspaces": items}
+
+
+@app.post("/api/workspaces")
+@app.post("/api/v1/workspaces")
+async def api_save_workspace(
+    req: WorkspaceSaveRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Creates or updates a multi-badge counselor deck workspace in SQLite (`counselor_workspaces`)."""
+    from src.memory.session_store import list_counselor_workspaces, save_counselor_workspace
+
+    saved = await asyncio.to_thread(save_counselor_workspace, req.model_dump())
+    all_ws = await asyncio.to_thread(list_counselor_workspaces)
+    return {"status": "SUCCESS", "workspace": saved, "workspaces": all_ws}
+
+
+@app.get("/api/workspaces/{workspace_id}")
+@app.get("/api/v1/workspaces/{workspace_id}")
+async def api_get_workspace(workspace_id: str) -> Dict[str, Any]:
+    """Retrieves a full counselor deck workspace (including storyboard, Blue Card roster, and class prep)."""
+    from src.memory.session_store import get_counselor_workspace
+
+    ws = await asyncio.to_thread(get_counselor_workspace, workspace_id, True)
+    if not ws:
+        raise HTTPException(status_code=404, detail=f"Workspace '{workspace_id}' not found.")
+    return {"status": "SUCCESS", "workspace": ws}
+
+
+@app.post("/api/workspaces/{workspace_id}/clone")
+@app.post("/api/v1/workspaces/{workspace_id}/clone")
+async def api_clone_workspace(
+    workspace_id: str,
+    req: WorkspaceCloneRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Clones an existing deck workspace for a new class section (with optional roster copy)."""
+    from src.memory.session_store import clone_counselor_workspace, list_counselor_workspaces
+
+    cloned = await asyncio.to_thread(
+        clone_counselor_workspace,
+        workspace_id=workspace_id,
+        new_title=req.new_title,
+        session_label=req.session_label,
+        copy_roster=req.copy_roster,
+    )
+    if not cloned:
+        raise HTTPException(status_code=404, detail=f"Workspace '{workspace_id}' not found.")
+    all_ws = await asyncio.to_thread(list_counselor_workspaces)
+    return {"status": "SUCCESS", "workspace": cloned, "workspaces": all_ws}
+
+
+@app.delete("/api/workspaces/{workspace_id}")
+@app.delete("/api/v1/workspaces/{workspace_id}")
+async def api_delete_workspace(
+    workspace_id: str,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Deletes a saved counselor deck workspace."""
+    from src.memory.session_store import delete_counselor_workspace, list_counselor_workspaces
+
+    deleted = await asyncio.to_thread(delete_counselor_workspace, workspace_id)
+    all_ws = await asyncio.to_thread(list_counselor_workspaces)
+    return {"status": "DELETED" if deleted else "NOT_FOUND", "deleted": deleted, "workspaces": all_ws}
+
+
+@app.get("/api/counselor/favorites")
+@app.get("/api/v1/counselor/favorites")
+async def api_get_favorites() -> Dict[str, Any]:
+    """Returns the counselor's starred favorite Merit Badges."""
+    from src.memory.session_store import get_counselor_favorites
+
+    favs = await asyncio.to_thread(get_counselor_favorites)
+    return {"status": "SUCCESS", "favorites": favs}
+
+
+@app.post("/api/counselor/favorites")
+@app.post("/api/v1/counselor/favorites")
+async def api_toggle_favorite(
+    req: FavoriteToggleRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Toggles a starred favorite Merit Badge in SQLite."""
+    from src.memory.session_store import toggle_counselor_favorite
+
+    res = await asyncio.to_thread(toggle_counselor_favorite, req.badge_name, req.is_favorite)
+    return {"status": "SUCCESS", **res}
+
+
+# ==============================================================================
+# PLAN 16C: OFFICIAL SCOUTS BSA WORKBENCH MCP SERVER ENDPOINTS (`/mcp`)
+# ==============================================================================
+
+
+@app.get("/mcp/info")
+@app.get("/api/v1/mcp/info")
+async def api_mcp_server_info() -> Dict[str, Any]:
+    """Returns the Model Context Protocol (MCP) server manifest (12 Tools, 6 Resources, 4 Prompts)."""
+    from src.mcp_server import get_mcp_server_manifest
+
+    return await asyncio.to_thread(get_mcp_server_manifest)
+
+
+@app.post("/mcp")
+@app.post("/api/v1/mcp")
+async def api_mcp_jsonrpc_endpoint(request: Request) -> Dict[str, Any]:
+    """Handles Model Context Protocol (MCP) JSON-RPC 2.0 requests (`initialize`, `tools/list`, `tools/call`, `resources/list`, `resources/read`, `prompts/list`, `prompts/get`)."""
+    from src.mcp_server import handle_mcp_jsonrpc_request
+
+    try:
+        payload = await request.json()
+    except Exception:
+        return {"jsonrpc": "2.0", "id": None, "error": {"code": -32700, "message": "Parse error: invalid JSON payload."}}
+    return await asyncio.to_thread(handle_mcp_jsonrpc_request, payload)
+
+
+@app.get("/mcp/sse")
+@app.get("/api/v1/mcp/sse")
+async def api_mcp_sse_endpoint() -> StreamingResponse:
+    """Provides the Model Context Protocol SSE discovery stream pointing clients to POST `/mcp`."""
+    from src.mcp_server import get_mcp_server_manifest
+
+    async def _sse_gen():
+        yield "event: endpoint\ndata: /mcp\n\n"
+        manifest = await asyncio.to_thread(get_mcp_server_manifest)
+        yield f"event: manifest\ndata: {json.dumps(manifest)}\n\n"
+
+    return StreamingResponse(_sse_gen(), media_type="text/event-stream")
 
 
 @app.get("/", response_class=HTMLResponse)

@@ -1,8 +1,9 @@
-# API and integration guide (`OpenAPI 3.1`, `A2A 1.0`, and `SSE`)
+# API and integration guide (`OpenAPI 3.1`, `MCP 2024-11-05`, `A2A 1.0`, and `SSE`)
 
-The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), legacy unversioned aliases (`/api/*` with RFC 8594 `Deprecation: true` and `Sunset: 2027-01-01` headers), Merit Badge Image Studio endpoints (`/api/v1/badge/images`, `/api/v1/slide/*`), in-app documentation endpoints (`/api/v1/docs`, `/api/v1/docs/{doc_id}`), Super-User Admin Console and Zero-PII Telemetry endpoints (`/api/v1/admin/*`, documented in [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)), counselor profile persistence (`/api/v1/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
+The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), legacy unversioned aliases (`/api/*` with RFC 8594 `Deprecation: true` and `Sunset: 2027-01-01` headers), PowerPoint Template & Custom Slide Theme Engine endpoints (`/api/v1/templates*`), Multi-Badge Saved Deck Workspaces & Starred Favorites endpoints (`/api/v1/workspaces*`, `/api/v1/badges/favorites*`), Official Scouts BSA Workbench Model Context Protocol (`MCP`) endpoints (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`, documented in the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**), Merit Badge Image Studio endpoints (`/api/v1/badge/images`, `/api/v1/slide/*`), in-app documentation endpoints (`/api/v1/docs`, `/api/v1/docs/{doc_id}`), Super-User Admin Console and Zero-PII Telemetry endpoints (`/api/v1/admin/*`, documented in [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)), counselor profile persistence (`/api/v1/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
 
-- **OpenAPI 3.1 schema (`93` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
+- **OpenAPI 3.1 schema (`117` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
+- **MCP Server Integration Guide (`12` Tools, `6` `bsa://` Resources, `4` Prompts)**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md) (`python -m src.mcp_server` / `scouts-bsa-mcp` stdio CLI + HTTP `/mcp` & `/mcp/sse`).
 - **Swagger UI**: `http://localhost:8085/docs`
 - **A2A 1.0 Agent Card**: `http://localhost:8085/.well-known/agent.json`
 
@@ -19,19 +20,29 @@ Every HTTP response includes `X-API-Version: 1.2.0`. Calls to unversioned `/api/
 
 ---
 
-## 2. Endpoint summary (`93` OpenAPI 3.1 paths)
+## 2. Endpoint summary (`117` OpenAPI 3.1 paths)
 
 All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in `docs/openapi.yaml`.
 
-### 2.1 Core workbench, curriculum workflow, and documentation endpoints
+### 2.1 Core workbench, curriculum workflow, templates, workspaces, and documentation endpoints
 
 | Method and path | Purpose | Auth required in prod |
 | :--- | :--- | :--- |
 | `GET /` | Serves the Material 3 Expressive Counselor Workbench (`ui/index.html`). | No |
 | `GET /health`, `GET /api/v1/health` | Container liveness check (`{"status": "UP", "version": "3.1.0"}`). | No (Cloud Run probe) |
 | `GET /readiness` | Deep readiness check for SQLite session store, 144-badge catalog, FinOps and Model Armor policy JSON files, and circuit breakers. | No (Cloud Run probe) |
-| `GET /api/v1/badges` | Lists all 144 official Scouts BSA Merit Badges with category, Eagle-required status, sub-requirement count, and pamphlet/DRG URLs. | Yes |
-| `GET /api/v1/docs` | Lists the allowlisted in-app documentation catalog (2 User Docs: `user-guide`, `admin-guide`; and 9 Engineering Docs: `readme`, `architecture`, `tdd`, `adr`, `finops-guide`, `api-guide`, `data-governance`, `security-compliance`, `runbook`) for the `📘 Documentation` modal. | No |
+| `GET /api/v1/badges` | Lists all 144 official Scouts BSA Merit Badges with category, Eagle-required status, favorite flag (`is_favorite`), sub-requirement count, and pamphlet/DRG URLs. | Yes |
+| `GET /api/v1/badges/favorites` | Lists all Merit Badges starred as favorites (`counselor_favorites` SQLite table). | Yes |
+| `POST /api/v1/badges/favorites/toggle` | Toggles `⭐` favorite status (`badge_name`) in `counselor_favorites` and returns the updated favorite list. | Yes |
+| `GET /api/v1/templates` | Lists the **8 built-in Scouting America & Heritage PowerPoint templates** (`default_workbench`, `scouting_america_250`, `scouting_america_forest_sunrise`, `scouting_america_topographic`, `scouting_america_high_adventure_rock`, `classic_outdoor_silhouette_navy`, `classic_fleur_crimson_crest`, `wilderness_camp_timber`) plus custom uploaded/URL templates with `SafeCanvasBounds`. | Yes |
+| `POST /api/v1/templates/upload` | Uploads a custom `.pptx`, `.ppt`, `.png`, `.jpg`, or `.webp` slide template, extracts dominant brand colors and background artwork, and computes `SafeCanvasBounds` (`content_bottom_max_in` clamping). | Yes |
+| `POST /api/v1/templates/import-url` | Imports a custom PowerPoint or image template from a remote URL and registers it in the template catalog. | Yes |
+| `POST /api/v1/templates/apply` | Applies a selected `template_id` (and optional `beautification_tier` / `accent_palette_key` such as `MATCH_TEMPLATE`) to a slide storyboard and rebuilds the `.pptx` deck within `SafeCanvasBounds`. | Yes |
+| `DELETE /api/v1/templates/{template_id}` | Deletes a custom user-uploaded or URL-imported template while protecting the 8 built-in templates. | Yes |
+| `GET /api/v1/workspaces`, `POST /api/v1/workspaces` | Lists all saved counselor deck workspaces (`counselor_workspaces` table in `scouts_bsa_sessions.db`) or saves/updates a workspace (`workspace_title`, `session_label`, `camp_bundle_tag`, `template_id`, `storyboard_slides`, and isolated Patrol Blue Card `#34124` `blue_card_roster`). | Yes |
+| `GET /api/v1/workspaces/{workspace_id}`, `PATCH /api/v1/workspaces/{workspace_id}`, `DELETE /api/v1/workspaces/{workspace_id}` | Loads, renames/updates metadata or Blue Card roster on, or deletes a saved Merit Badge deck workspace (`<80ms` hot-swap). | Yes |
+| `POST /api/v1/workspaces/{workspace_id}/clone` | Clones a saved deck workspace for a new patrol section (`📑 Clone for New Section`, e.g., Morning vs. Afternoon Patrol) with an optional fresh empty Blue Card roster. | Yes |
+| `GET /api/v1/docs` | Lists the allowlisted in-app documentation catalog (`12` docs total: 2 User Docs `user-guide`, `admin-guide`; and 10 Engineering Docs `readme`, `architecture`, `tdd`, `adr`, `finops-guide`, `api-guide`, `mcp-guide`, `data-governance`, `security-compliance`, `runbook`) for the `📘 Documentation` modal. | No |
 | `GET /api/v1/docs/{doc_id}` | Returns raw Markdown, title, category (`User Docs` or `Engineering Docs`), and relative repository path for an allowlisted `doc_id` with path-traversal protection. | No |
 | `GET /api/v1/counselor-profile` | Loads locally cached counselor info (`.cache/counselor_profile.json` on local runs; returns `storage_mode: "browser_local_storage"` on Cloud Run). | Yes |
 | `POST /api/v1/counselor-profile` | Saves counselor info to `.cache/counselor_profile.json` (`0600` owner-only permissions) on local runs. | Yes |
@@ -67,10 +78,13 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 | `POST /api/v1/slide/generate-nano-banana-image` | Invokes `NanoBananaImageAgent` (`gemini-2.5-flash-image` / Imagen 3) across 10 UI visual styles (including `Auto (Content-Aware Mix)` and `include_humans` control) after verifying `user_consented=True`, checks prompt alignment (`verify_generated_image_matches_prompt()`), and caches the graphic. | Yes |
 | `POST /api/v1/slide/upload-image` | Uploads a local `.png`/`.jpg`/`.webp`/`.gif` image (`<= 10 MB`, `$0.00 USD`), normalizes it to RGB PNG (`max 1600px`), and registers it as `USER_UPLOAD` in the badge catalog. | Yes |
 
-### 2.3 Super-User Admin Console and A2A 1.0 endpoints
+### 2.3 Super-User Admin Console, MCP Server, and A2A 1.0 endpoints
 
 | Method and path | Purpose | Auth required in prod |
 | :--- | :--- | :--- |
+| `GET /mcp/info`, `GET /api/v1/mcp/info` | Returns the Scouts BSA Workbench MCP Server discovery manifest (`12` tools, `6` `bsa://` resources, `4` guided prompts, and ready-to-copy client configs for Claude Desktop, Gemini CLI, Cursor, and Google ADK). See [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md). | No |
+| `POST /mcp`, `POST /api/v1/mcp` | Executes Model Context Protocol (`2024-11-05`) JSON-RPC 2.0 calls (`initialize`, `tools/list`, `tools/call`, `resources/list`, `resources/read`, `prompts/list`, `prompts/get`). | Yes |
+| `GET /mcp/sse`, `GET /api/v1/mcp/sse` | Streams Model Context Protocol Server-Sent Events (`text/event-stream`) for SSE-based MCP clients and IDEs. | No (SSE) |
 | `GET /api/v1/admin/session` | Checks whether the current browser session is authorized for the Super-User Admin Console (`is_admin`, `auth_mode`, `role`). | Super-User / Session |
 | `POST /api/v1/admin/unlock` | Validates `ADMIN_SUPERUSER_TOKEN` and sets a signed `HttpOnly` session cookie (`bsa_admin_session`, 24h TTL). | Super-User Token |
 | `POST /api/v1/admin/lock` | Locks the Super-User Admin Console for the current browser session by setting `bsa_admin_session=locked`. | Super-User / Session |
@@ -262,7 +276,7 @@ curl -X POST http://localhost:8085/api/v1/upload-logo \
 
 ### 3.7 Browse in-app documentation (`GET /api/v1/docs` & `GET /api/v1/docs/{doc_id}`)
 ```bash
-# List all allowlisted User Docs (2) and Engineering Docs (9)
+# List all allowlisted User Docs (2) and Engineering Docs (10) across 12 total docs
 curl -fsS http://localhost:8085/api/v1/docs | jq .
 
 # Fetch a specific document's Markdown content by allowlisted ID

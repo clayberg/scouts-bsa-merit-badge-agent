@@ -142,27 +142,28 @@ def check_pptx_conformance(
                     )
                 )
 
-            if not str(s_name).startswith("CardAccent_"):
+            if not str(s_name).startswith(("CardAccent_", "TemplateChrome_Watermark", "TemplateChrome_BottomBar", "TemplateChrome_AccentStripe")):
                 boxes.append((s_name, left_in, top_in, right_in, bottom_in))
 
-            # 6. Check embedded image SHA-256 hashes
-            try:
-                img = getattr(shape, "image", None)
-                if img is not None and getattr(img, "blob", None):
-                    digest = hashlib.sha256(img.blob).hexdigest()
-                    if digest in seen_image_hashes:
-                        issues.append(
-                            ConformanceIssue(
-                                slide_index=slide_idx,
-                                issue_type="DUPLICATE_VISUAL_ASSET",
-                                severity="WARNING",
-                                description=f"Slide {slide_idx} reuses an identical image SHA-256 ({digest[:12]}).",
-                                remediation_hint="Generate a slide-specific diagram via generate_slide_visual_asset.",
+            # 6. Check embedded image SHA-256 hashes (excluding recurring template chrome logos/watermarks)
+            if not str(s_name).startswith("TemplateChrome_"):
+                try:
+                    img = getattr(shape, "image", None)
+                    if img is not None and getattr(img, "blob", None):
+                        digest = hashlib.sha256(img.blob).hexdigest()
+                        if digest in seen_image_hashes:
+                            issues.append(
+                                ConformanceIssue(
+                                    slide_index=slide_idx,
+                                    issue_type="DUPLICATE_VISUAL_ASSET",
+                                    severity="WARNING",
+                                    description=f"Slide {slide_idx} reuses an identical image SHA-256 ({digest[:12]}).",
+                                    remediation_hint="Generate a slide-specific diagram via generate_slide_visual_asset.",
+                                )
                             )
-                        )
-                    seen_image_hashes.add(digest)
-            except Exception:
-                pass
+                        seen_image_hashes.add(digest)
+                except Exception:
+                    pass
 
             # 3, 4, 5. Inspect TextFrame paragraphs, font sizes, and literal bullet characters
             if getattr(shape, "has_text_frame", False):

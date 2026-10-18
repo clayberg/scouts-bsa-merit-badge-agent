@@ -2,7 +2,7 @@
 
 This guide explains how system administrators and curriculum maintainers unlock and operate the **Super-User Admin Console** built into the Scouts BSA Merit Badge Counselor Workbench.
 
-While the standard Counselor Workbench interface (**[User Guide (`docs/USER_GUIDE.md`)](USER_GUIDE.md)**) stays focused on preparing classes, presenting slides, and tracking Blue Card requirements for Scouts, the **Super-User Admin Console** gives authorized maintainers a dedicated control center to:
+While the standard Counselor Workbench interface (**[User Guide (`docs/USER_GUIDE.md`)](USER_GUIDE.md)**) and the built-in Model Context Protocol server (**[MCP Server Integration Guide (`docs/MCP_SERVER_INTEGRATION_GUIDE.md`)](MCP_SERVER_INTEGRATION_GUIDE.md)**) stay focused on preparing classes, applying PowerPoint templates, managing multi-badge deck workspaces, presenting slides, and tracking Blue Card requirements for Scouts, the **Super-User Admin Console** gives authorized maintainers a dedicated control center to:
 
 - Browse and curate the **3,917 built-in visual assets** (**2,323 100%-Vision-verified BSA Pamphlet figures** [`1,009` primary active + `1,314` requirement alternates], **1,306 pre-generated Nano Banana requirement hero & topic illustrations**, **144 badge emblems**, and **144 pamphlet covers**) across all **144 official Merit Badges**.
 - Edit image titles, Vision-verified captions, and requirement mappings in place, with automatic synchronization to both the per-badge catalog (`assets/badge_image_catalog/<slug>/catalog.json`) and the master pamphlet image catalog (`data/pamphlet_image_catalog.json`).
@@ -181,7 +181,7 @@ Configure the following environment variables in `.env` (for local runs) or in y
 
 ## 8. Admin REST API Reference (`/api/v1/admin/*` & `/api/admin/*`)
 
-All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `93` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
+All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `117` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
 
 | Method & Path | Request Payload / Query Params | Response Summary |
 | :--- | :--- | :--- |

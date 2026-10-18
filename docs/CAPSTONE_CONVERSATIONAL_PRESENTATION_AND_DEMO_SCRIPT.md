@@ -6,6 +6,7 @@
 - **Companion Playbook**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md) (12 Core Slides, 0 Appendix)
 - **Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)
 - **Super-User Admin Guide**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)
+- **MCP Server Integration Guide**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md)
 - **Format Convention**: Uses the same **`[STAGE DIRECTION / VISUAL CUE]`**, **`[DEMONSTRATE / POINT TO ON SLIDE]`**, **`[SAY]`**, and **`[LIKELY PANELIST QUESTIONS ON SLIDE X]`** structure used in our generated Merit Badge slide decks, with natural inline expansions for every acronym on first mention.
 
 ---
@@ -32,13 +33,13 @@
 - **`[DEMONSTRATE / POINT TO ON SLIDE]`**:
   - Start on **Slide 1 (`01 / 12`)**.
   - Point to the three stacked left-hand capability cards (`144 Official Badges • 100% Fidelity`, `< 2 Min Build • 6 Synchronized Deliverables`, and `Predictable FinOps • $0.14 to $1.00 Cap`).
-  - Gesture to the right-hand visual showcase (`144 Official Emblems • 3,917 Visuals • 3 Slide Themes`) and the footer bar (`Verified: 27/27 Rubric Criteria • 60/60 Pytest • 85 OpenAPI Endpoints`).
+  - Gesture to the right-hand visual showcase (`144 Official Emblems • 3,917 Visuals • 3 Slide Themes`) and the footer bar (`Verified: 27/27 Rubric Criteria • 67/67 Pytest • 117 OpenAPI Endpoints`).
 - **`[SAY]`**:
   > "Good morning, everyone. I am Eric Clayberg. Outside of my work at Google as a Forward Deployed Engineer, or **FDE**, I serve as a volunteer Scouts BSA Merit Badge Counselor for Troop 19 in Middleton, Massachusetts.
   >
   > Today I am walking you through the **Scouts BSA Merit Badge Counselor Workbench**, an end-to-end multi-agent curriculum, co-design, and field operations platform built on the **Google Agent Development Kit (ADK)**, **Vertex AI Gemini 2.5 Pro and Flash**, and **Cloud Run**.
   >
-  > In under two minutes, it turns any of the **144 official 80-page Merit Badge pamphlets** into six synchronized classroom and field deliverables: a widescreen 16:9 slide deck for PowerPoint or Google Slides, a printable Scout Workbook, a 3-panel **Blue Card (`#34124`)** and Scoutbook CSV sign-off tracker, a 4-mode timed session agenda, a Quartermaster gear packing checklist, and a **Youth Protection Training (YPT)** parent welcome letter: all backed by **3,917 pre-bundled visual assets**, verified across **60 automated pytest tests** and **85 OpenAPI 3.1 endpoints**, and capped at a predictable **$0.14 to $1.00 FinOps budget** (`~$0.18` actual cold LLM spend on our default `Warm Cream` slide theme)."
+  > In under two minutes, it turns any of the **144 official 80-page Merit Badge pamphlets** into six synchronized classroom and field deliverables: a widescreen 16:9 slide deck for PowerPoint or Google Slides, a printable Scout Workbook, a 3-panel **Blue Card (`#34124`)** and Scoutbook CSV sign-off tracker, a 4-mode timed session agenda, a Quartermaster gear packing checklist, and a **Youth Protection Training (YPT)** parent welcome letter: all backed by **3,917 pre-bundled visual assets**, verified across **67 automated pytest tests** and **117 OpenAPI 3.1 endpoints**, and capped at a predictable **$0.14 to $1.00 FinOps budget** (`~$0.18` actual cold LLM spend on our default `Warm Cream` slide theme)."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 1]`**:
   - **Q: Are all 144 Merit Badges really supported out of the box, or only a small demo subset?**
     - **Golden Answer**: "All **144 official Scouting America Merit Badges** (`18` Eagle-Required plus `126` Electives and Test Lab badges) are 100% populated and verified in `data/merit_badge_requirements/` with authentic `400x400` Scout Shop embroidered emblems (`assets/badge_emblems/`), official pamphlet covers, and **3,917 pre-bundled visual assets** (`2,323` Vision-verified pamphlet figures and `1,306` Nano Banana illustrations), verified by `tests/test_image_and_caption_quality.py`."
@@ -87,11 +88,11 @@
 
 ---
 
-### Slide 4 (`04 / 12`): *9-Component / 7-Agent Google ADK Pipeline Orchestrates Research, Planning & QA* (`SequentialAgent`, 2 Bounded `LoopAgents`, `AgentTool` Search Isolation, `EventsCompactionConfig`, HMAC HITL & `85` OpenAPI Endpoints)
+### Slide 4 (`04 / 12`): *9-Component / 7-Agent Google ADK Pipeline Orchestrates Research, Planning & QA* (`SequentialAgent`, 2 Bounded `LoopAgents`, `AgentTool` Search Isolation, `EventsCompactionConfig`, HMAC HITL & `117` OpenAPI Endpoints)
 
 - **`[STAGE DIRECTION / VISUAL CUE: ACTIVE SLIDE: Slide 4 (04 / 12) | Timing: 02:25-03:20]`**
 - **`[DEMONSTRATE / POINT TO ON SLIDE]`**:
-  - Point to Card 1 (`1. 5-Stage SequentialAgent + 2 Bounded LoopAgents`), Card 2 (`2. AgentTool Search Isolation & Compaction`), and Card 3 (`3. Dual-Transport API Plane (85 OpenAPI Endpoints)`).
+  - Point to Card 1 (`1. 5-Stage SequentialAgent + 2 Bounded LoopAgents`), Card 2 (`2. AgentTool Search Isolation & Compaction`), and Card 3 (`3. Dual-Transport API & MCP Plane (117 OpenAPI Endpoints)`).
   - Trace the 9-component / 7-specialist-agent architecture diagram on the right (`docs/images/mermaid-tdd-1.png`).
 - **`[SAY]`**:
   > "On Slide 4, let's look under the hood at the **9-component Google ADK multi-agent topology** shown in the right-hand architecture diagram. A top-level `MeritBadgeCoordinatorAgent` (`SequentialAgent`) orchestrates five deterministic stages across seven core agents plus two on-demand Image Studio agents.
@@ -100,7 +101,7 @@
   >
   > **Stage 2** runs a bounded `ResearchCoverageCriticAgent` loop (`LoopAgent(max_iterations=2)`) to verify 100% sub-requirement recall before planning begins. **Stages 3 and 4** run `SlideContentPlannerAgent` (`gemini-2.5-pro`) and `SlideBeautifierAgent` (`gemini-2.5-flash`), while **Stage 5** wraps `PowerPointBuilderAgent` and `BSABrandAndSafetyReviewAgent` inside a bounded `LoopAgent(max_iterations=3)`.
   >
-  > Session state uses `EventsCompactionConfig(compaction_interval=5, overlap_size=2)` to prevent context bloat, high-cost builds require a cryptographic **HMAC-SHA256** (Hash-based Message Authentication Code) **Human-in-the-Loop (HITL)** token verified via `hmac.compare_digest()`, and the entire pipeline is exposed over **85 contract-tested OpenAPI 3.1 endpoints** supporting REST, **Server-Sent Events (SSE)**, **A2A (Agent-to-Agent protocol v1.0)** at `/.well-known/agent.json`, and **A2UI (Agent-to-User Interface v0.9)** components."
+  > Session state uses `EventsCompactionConfig(compaction_interval=5, overlap_size=2)` to prevent context bloat, high-cost builds require a cryptographic **HMAC-SHA256** (Hash-based Message Authentication Code) **Human-in-the-Loop (HITL)** token verified via `hmac.compare_digest()`, and the entire pipeline is exposed over **117 contract-tested OpenAPI 3.1 endpoints** supporting REST, **Server-Sent Events (SSE)**, **A2A (Agent-to-Agent protocol v1.0)** at `/.well-known/agent.json`, **MCP (Model Context Protocol JSON-RPC 2.0)** at `POST /mcp`, and **A2UI (Agent-to-User Interface v0.9)** components."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 4]`**:
   - **Q: Why did you choose a deterministic `SequentialAgent` + bounded `LoopAgent` instead of an open-ended autonomous ReAct swarm?**
     - **Golden Answer**: "In `ADR-01`, we benchmarked our deterministic `SequentialAgent + bounded LoopAgent` spine against an unconstrained **ReAct (Reason + Act)** swarm. The ReAct swarm had a `14%` sub-requirement omission rate on 60-slide badges and nearly doubled token cost (`$0.74/deck`). Our 5-stage `SequentialAgent` with bounded `LoopAgent` critics guarantees `100%` sub-requirement recall at `~$0.18` actual cold LLM cost with only `18ms` of orchestration overhead."
@@ -108,18 +109,18 @@
 
 ---
 
-### Slide 5 (`05 / 12`): *Zero-Drift Pamphlet Grounding, Hybrid BM25+Vector RAG & 51-State Local Context* (PyMuPDF + `SHA-256` Requirement Lock, Hybrid Okapi BM25 + 768-dim Cosine RRF `Recall@3 = 1.00`, 6-Table SQLite WAL, 51-State Registry & `3,917` Pre-Bundled Visuals)
+### Slide 5 (`05 / 12`): *Zero-Drift Pamphlet Grounding, Hybrid BM25+Vector RAG & 51-State Local Context* (PyMuPDF + `SHA-256` Requirement Lock, Hybrid Okapi BM25 + 768-dim Cosine RRF `Recall@3 = 1.00`, 8-Table SQLite WAL, 51-State Registry & `3,917` Pre-Bundled Visuals)
 
 - **`[STAGE DIRECTION / VISUAL CUE: ACTIVE SLIDE: Slide 5 (05 / 12) | Timing: 03:20-04:15]`**
 - **`[DEMONSTRATE / POINT TO ON SLIDE]`**:
-  - Point to Card 1 (`1. PyMuPDF Extraction & SHA-256 Requirement Lock`), Card 2 (`2. Hybrid BM25 + Cosine Vector RRF & 6-Table Store`), and Card 3 (`3. 51-State Local Grounding & 3,917 Visual Assets`).
+  - Point to Card 1 (`1. PyMuPDF Extraction & SHA-256 Requirement Lock`), Card 2 (`2. Hybrid BM25 + Cosine Vector RRF & 8-Table Store`), and Card 3 (`3. 51-State Local Grounding & 3,917 Visual Assets`).
   - Point to the right-hand visual showing the 5-step RAG workflow on top and the pre-bundled visual asset catalog on the bottom.
 - **`[SAY]`**:
   > "A multi-agent pipeline is only as trustworthy as its grounding engine. Slide 5 covers our canonical pamphlet extraction, **Hybrid Retrieval-Augmented Generation (RAG)** store, and 51-state regional context engine.
   >
   > First, `pamphlet_extractor.py` parses all 144 official BSA pamphlet PDFs via `PyMuPDF` and locks every verbatim requirement string (`1a` through `15b`) with a cryptographic **SHA-256 hash** (`compute_canonical_pamphlet_hash()`), guaranteeing zero requirement drift.
   >
-  > Second, instead of stuffing an 80-page PDF into every agent prompt, `PersistentSessionStore` indexes pamphlet chunks in a 6-table **SQLite Write-Ahead Logging (WAL)** database (paired with a production `CloudSQLPgVectorBackend` adapter) and executes **Hybrid Okapi BM25** (Best Matching 25 lexical keyword search) plus 768-dimensional `text-embedding-005` Cosine **Reciprocal Rank Fusion (`RRF`, `k=60`)**. In `ADR-02`, pure dense vector search scored only `0.8125 Recall@3` because embeddings confuse short alphanumeric IDs like `Req 2a` versus `Req 2b`. Hybrid RRF cuts input tokens by **68%** while achieving a perfect **`1.0000 Recall@3`** and **`1.0000 Mean Reciprocal Rank (MRR)`** in **`1.8 milliseconds`**.
+  > Second, instead of stuffing an 80-page PDF into every agent prompt, `PersistentSessionStore` indexes pamphlet chunks in an 8-table **SQLite Write-Ahead Logging (WAL)** database (paired with a production `CloudSQLPgVectorBackend` adapter) and executes **Hybrid Okapi BM25** (Best Matching 25 lexical keyword search) plus 768-dimensional `text-embedding-005` Cosine **Reciprocal Rank Fusion (`RRF`, `k=60`)**. In `ADR-02`, pure dense vector search scored only `0.8125 Recall@3` because embeddings confuse short alphanumeric IDs like `Req 2a` versus `Req 2b`. Hybrid RRF cuts input tokens by **68%** while achieving a perfect **`1.0000 Recall@3`** and **`1.0000 Mean Reciprocal Rank (MRR)`** in **`1.8 milliseconds`**.
   >
   > Third, our 51-jurisdiction registry (`_STATE_CIVIC_AND_FIELD_REGISTRY`) resolves any counselor ZIP code to local NOAA National Weather Service Forecast Offices, terrain profiles, state parks, and current U.S. Senators (for *Citizenship in the Nation* Req 8), alongside **3,917 pre-bundled visual assets** (`2,323` Vision-verified pamphlet figures, `1,306` Nano Banana illustrations, `144` emblems, and `144` pamphlet covers)."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 5]`**:
@@ -219,14 +220,14 @@
 - **`[DEMONSTRATE / POINT TO ON SLIDE]`**:
   - Walk left-to-right across the 3-column storyboard on Slide 10:
     - Column 1 (`1. Pre-Coding Harness & Eval Gate`: `1.00 Recall@3 • 100% Lock`)
-    - Column 2 (`2. In-Loop vs Out-of-Loop & Flywheel`: `60 / 60 Pytest • 85 APIs`)
+    - Column 2 (`2. In-Loop vs Out-of-Loop & Flywheel`: `67 / 67 Pytest • 117 APIs`)
     - Column 3 (`3. 4 Coding-Agent Mistakes Fixed`: `FM-1..FM-4 • 0 Regressions`)
 - **`[SAY]`**:
   > "Slide 10 walks through our **AI-Driven Engineering Harness**, blocking **Evaluation Gate**, and how we turned coding-agent mistakes into permanent automated guardrails.
   >
   > Before writing application code, we established a strict engineering harness in **Column 1**: `AGENTS.md` architectural rules, `SPEC.md` and `SCOPE.md` boundary contracts, a cryptographic SHA-256 prompt manifest (`prompts/manifest.json`), and `scripts/eval_gate.py` paired with `vertexai.preview.evaluation.EvalTask` across our 12-badge Golden Suite (`Recall@3 = 1.0000`, `MRR = 1.0000`, `NDCG@3 = 1.0000`, `100%` sub-requirement coverage, and `0` Stage-1 AABB overlaps).
   >
-  > In **Column 2**, we paired **in-the-loop human-AI co-design** (interactive Playwright verification and 150-DPI 4-quadrant vision audits on every UI and slide change) with **outside-the-loop batch verification** across **60 automated `pytest` tests** (`85` OpenAPI 3.1 paths, fault injection, and an 8-worker load test at `6.8ms p50` / `14.2ms p95`) and a **Continuous Learning Flywheel** that auto-promotes counselor-verified runs (`>= 4/5 stars`) into `tests/data/golden_extensions.json` alongside a `v1.0 -> v1.2` schema upcaster (`migrate_payload_schema()`).
+  > In **Column 2**, we paired **in-the-loop human-AI co-design** (interactive Playwright verification and 150-DPI 4-quadrant vision audits on every UI and slide change) with **outside-the-loop batch verification** across **67 automated `pytest` tests** (`117` OpenAPI 3.1 paths, fault injection, and an 8-worker load test at `6.8ms p50` / `14.2ms p95`) and a **Continuous Learning Flywheel** that auto-promotes counselor-verified runs (`>= 4/5 stars`) into `tests/data/golden_extensions.json` alongside a `v1.0 -> v1.2` schema upcaster (`migrate_payload_schema()`).
   >
   > **Column 3** highlights four real coding-agent mistakes we caught and codified into `AGENTS.md` and regression tests:
   > - **`FM-1` (`Vertex Tool Collision`)**: Isolating `GoogleSearchTool` inside an ADK `AgentTool` to eliminate HTTP 400 tool-mixing errors.
@@ -234,8 +235,8 @@
   > - **`FM-3` (`Synthetic Badge Icons`)**: Replacing 6 synthetic circular icons with 100% authentic `400x400` Scout Shop embroidered emblems (`test_image_and_caption_quality.py`).
   > - **`FM-4` (`Popup-Only Presenter`)**: Adding the in-stage **Split-Screen Presenter Console (`P`)** for single-screen laptops alongside the dual-monitor popup."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 10]`**:
-  - **Q: How do your 60 `pytest` tests and `eval_gate.py` run deterministically in CI/CD on every commit without racking up live Vertex AI token bills?**
-    - **Golden Answer**: "Our test harness exercises the full ADK orchestration spine, SQLite Hybrid RRF retrieval (`Recall@3 = 1.00`), SHA-256 locks, Stage-1 AABB geometry checks, fault-injection circuit breakers, and all 85 OpenAPI contracts deterministically against cached golden fixtures in `<30 seconds` at `$0.00` token cost, while supporting `USE_LIVE_VERTEX_AI=1` for scheduled pre-release `EvalTask` runs."
+  - **Q: How do your 67 `pytest` tests and `eval_gate.py` run deterministically in CI/CD on every commit without racking up live Vertex AI token bills?**
+    - **Golden Answer**: "Our test harness exercises the full ADK orchestration spine, SQLite Hybrid RRF retrieval (`Recall@3 = 1.00`), SHA-256 locks, Stage-1 AABB geometry checks, fault-injection circuit breakers, and all 117 OpenAPI contracts deterministically against cached golden fixtures in `<30 seconds` at `$0.00` token cost, while supporting `USE_LIVE_VERTEX_AI=1` for scheduled pre-release `EvalTask` runs."
 - **`[STAGE DIRECTION: ADVANCE TO SLIDE 11 (11 / 12)]`**
 
 ---

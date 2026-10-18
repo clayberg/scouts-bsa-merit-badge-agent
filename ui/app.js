@@ -1751,11 +1751,15 @@ function applyBadgeFilters(initialLoad = false) {
   const category = document.getElementById("filter-category-select")?.value || "ALL";
   const eagleMode = document.getElementById("filter-eagle-select")?.value || "ALL";
 
+  const favSet = new Set((state.favoriteBadges || []).map((x) => String(x).toLowerCase()));
   state.filteredBadges = state.badges.filter((b) => {
     if (query && !b.badge_name.toLowerCase().includes(query) && !(b.category || "").toLowerCase().includes(query)) {
       return false;
     }
     if (category !== "ALL" && b.category !== category) {
+      return false;
+    }
+    if (eagleMode === "FAVORITES" && !favSet.has(b.badge_name.toLowerCase())) {
       return false;
     }
     if (eagleMode === "EAGLE" && !b.is_eagle_required) {
@@ -1788,7 +1792,8 @@ function applyBadgeFilters(initialLoad = false) {
   state.filteredBadges.forEach((b) => {
     const opt = document.createElement("option");
     opt.value = b.badge_name;
-    opt.textContent = `${b.is_eagle_required ? "★ " : ""}${b.badge_name} (${b.category})`;
+    const isFav = favSet.has(b.badge_name.toLowerCase());
+    opt.textContent = `${isFav ? "⭐ " : ""}${b.is_eagle_required ? "★ " : ""}${b.badge_name} (${b.category})`;
     select.appendChild(opt);
   });
 
@@ -1796,6 +1801,9 @@ function applyBadgeFilters(initialLoad = false) {
     select.value = prevValue;
   } else {
     select.value = state.filteredBadges[0].badge_name;
+  }
+  if (typeof window.syncActiveBadgeStarButton === "function") {
+    window.syncActiveBadgeStarButton();
   }
 }
 
@@ -1972,8 +1980,9 @@ async function executeStreamingWorkflow(badgeName) {
   });
 }
 
-function hydrateWorkbench(result) {
-  if (!result || result.status === "ERROR") return;
+function hydrateWorkbench(rawResult) {
+  const result = rawResult?.result && rawResult.result.storyboard ? rawResult.result : rawResult;
+  if (!result || result.status === "ERROR" || !result.badge_name || !result.storyboard) return;
   state.currentResult = result;
   state.activeSlideIdx = -1;
   clearDeckConfigDirty();
@@ -2094,6 +2103,12 @@ function hydrateWorkbench(result) {
   renderBuddyStationRotator(result);
   renderPrereqReadinessChecklist(result);
   syncPresenterViewWindow();
+  if (typeof window.syncActiveBadgeStarButton === "function") {
+    window.syncActiveBadgeStarButton();
+  }
+  if (typeof window.onWorkbenchDeckHydrated === "function") {
+    window.onWorkbenchDeckHydrated(result);
+  }
 }
 
 function getLiveParentLetterMarkdown(result) {
@@ -2392,6 +2407,43 @@ function resolveSlidePaletteTokens(slide, deckTier) {
     };
   }
   const paletteKey = String(slide?.accent_palette_key || "NAVY_GOLD").toUpperCase();
+  const tplProf = state.activeTemplateProfile;
+  if (paletteKey === "MATCH_TEMPLATE" && tplProf && tplProf.template_id !== "default_workbench") {
+    if (tier === "STUDIO") {
+      return {
+        tier: "STUDIO",
+        isBeautified: true,
+        isStudio: true,
+        stageBg: "#0F172A",
+        textFg: "#F8FAFC",
+        subTextFg: "#E2E8F0",
+        primaryHex: "#38BDF8",
+        accentHex: tplProf.accent_hex || "#F4C430",
+        cardBg: "#1E293B",
+        badgeBg: "#1E293B",
+        badgeFg: tplProf.accent_hex || "#F4C430",
+        stageBorder: `3px solid ${tplProf.accent_hex || "#F4C430"}`,
+        headerBg: "linear-gradient(90deg, rgba(30,41,59,0.92) 0%, rgba(15,23,42,0.92) 100%)",
+        footerColor: "#94A3B8",
+      };
+    }
+    return {
+      tier: "BEAUTIFIED",
+      isBeautified: true,
+      isStudio: false,
+      stageBg: "#FAF8F5",
+      textFg: "#0F172A",
+      subTextFg: "#334155",
+      primaryHex: tplProf.primary_hex || "#003F87",
+      accentHex: tplProf.accent_hex || "#D4AF37",
+      cardBg: tplProf.card_bg_hex || "#EFF6FF",
+      badgeBg: "#FEF3C7",
+      badgeFg: "#92400E",
+      stageBorder: `2.5px solid ${tplProf.accent_hex || "#D4AF37"}`,
+      headerBg: "linear-gradient(90deg, rgba(7,86,151,0.07) 0%, rgba(212,175,55,0.12) 100%)",
+      footerColor: "#64748B",
+    };
+  }
   if (tier === "STUDIO") {
     const studioAccents = {
       NAVY_GOLD: { primaryHex: "#38BDF8", accentHex: "#F4C430" },
@@ -2690,6 +2742,9 @@ function renderActiveSlide(idx) {
       }
     }
     document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
+    if (typeof window.renderSlideTemplateOverlay === "function") {
+      window.renderSlideTemplateOverlay(true, null);
+    }
     syncPresenterViewWindow();
     fitActiveSlideToStage();
     return;
@@ -3201,6 +3256,9 @@ function renderActiveSlide(idx) {
   }
   applyQuizRevealMaskIfEnabled(slide);
   syncArchetypeVisualPicker(slide.archetype);
+  if (typeof window.renderSlideTemplateOverlay === "function") {
+    window.renderSlideTemplateOverlay(false, tokens);
+  }
   syncPresenterViewWindow();
   fitActiveSlideToStage();
 }
@@ -5431,10 +5489,18 @@ function renderQuartermasterGearChecklist(result) {
 // ---------------------------------------------------------------------------
 // F6: Patrol Blue Card (#34124) & Scoutbook Plus Requirement Sign-Off Tracker
 // ---------------------------------------------------------------------------
+function getBlueCardRosterStorageKey(badgeName) {
+  if (state.activeWorkspaceId) {
+    return `${BLUECARD_STORAGE_PREFIX}ws_${state.activeWorkspaceId}`;
+  }
+  return BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
+}
+
 function loadBadgeBlueCardRoster(badgeName) {
-  const key = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
+  const wsKey = getBlueCardRosterStorageKey(badgeName);
+  const badgeKey = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
   try {
-    const raw = window.localStorage.getItem(key);
+    const raw = window.localStorage.getItem(wsKey) || window.localStorage.getItem(badgeKey);
     if (raw) {
       const parsed = JSON.parse(raw);
       if (parsed && Array.isArray(parsed.scouts)) {
@@ -5452,10 +5518,16 @@ function loadBadgeBlueCardRoster(badgeName) {
 }
 
 function saveBadgeBlueCardRoster(badgeName, rosterObj) {
-  const key = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
+  const wsKey = getBlueCardRosterStorageKey(badgeName);
+  const badgeKey = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
   try {
-    window.localStorage.setItem(key, JSON.stringify(rosterObj));
+    const serialized = JSON.stringify(rosterObj);
+    window.localStorage.setItem(wsKey, serialized);
+    window.localStorage.setItem(badgeKey, serialized);
   } catch (_e) {}
+  if (typeof window.syncActiveWorkspaceBlueCardRoster === "function") {
+    window.syncActiveWorkspaceBlueCardRoster(rosterObj);
+  }
 }
 
 function renderBlueCardTracker(result) {
@@ -7539,10 +7611,12 @@ function renderPatchGalleryModal() {
   const filterMode = (filterSelectEl?.value || "all").toLowerCase();
   const selectedCat = catSelect?.value || "all";
 
+  const favSet = new Set((state.favoriteBadges || []).map((x) => String(x).toLowerCase()));
   const filtered = allBadges.filter((b) => {
     const name = b.badge_name || "";
     const cat = b.category || "";
     if (q && !`${name} ${cat}`.toLowerCase().includes(q)) return false;
+    if (filterMode === "favorites" && !favSet.has(name.toLowerCase())) return false;
     if ((filterMode === "eagle" || filterMode === "eagle_required") && !b.is_eagle_required) return false;
     if (filterMode === "elective" && b.is_eagle_required) return false;
     if (selectedCat.toLowerCase() !== "all" && cat !== selectedCat) return false;
@@ -7559,18 +7633,31 @@ function renderPatchGalleryModal() {
       const name = b.badge_name;
       const slug = badgeNameToEmblemSlug(name);
       const isSelected = name === state.currentBadge;
+      const isFav = favSet.has(name.toLowerCase());
       const eagleClass = b.is_eagle_required ? "eagle-patch" : "";
       return `
-        <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}">
+        <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}" style="position:relative;">
+          <button type="button" class="m3-patch-fav-btn" data-fav-toggle-badge="${escapeHtml(name)}" title="${isFav ? "Remove from My Favorites" : "Add to My Favorites"}">${isFav ? "⭐" : "☆"}</button>
           <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" loading="lazy" />
           <div class="m3-patch-card-title" style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.2;">
-            ${b.is_eagle_required ? "⭐ " : ""}${escapeHtml(name)}
+            ${b.is_eagle_required ? "★ " : ""}${escapeHtml(name)}
           </div>
           <div class="m3-patch-card-category" style="font-size:0.65rem; color:#64748B;">${escapeHtml(b.category || "")}</div>
         </div>
       `;
     })
     .join("");
+
+  grid.querySelectorAll("[data-fav-toggle-badge]").forEach((favBtn) => {
+    favBtn.addEventListener("click", async (ev) => {
+      ev.stopPropagation();
+      const bName = favBtn.getAttribute("data-fav-toggle-badge");
+      if (bName && typeof window.toggleFavoriteBadge === "function") {
+        await window.toggleFavoriteBadge(bName);
+        renderPatchGalleryModal();
+      }
+    });
+  });
 
   grid.querySelectorAll("[data-gallery-badge]").forEach((card) => {
     card.addEventListener("click", async () => {
@@ -9497,7 +9584,1217 @@ function bindDocumentationViewerModal() {
       bodyHtml
     );
   });
+
+  initPowerPointTemplateStudio();
+  initMultiBadgeWorkspacesAndFavorites();
+  initMcpAgentHubAndPlayground();
 }
+
+// ============================================================================
+// PLAN 16A: HYBRID POWERPOINT TEMPLATE & CUSTOM SLIDE THEME ENGINE
+// ============================================================================
+
+const TEMPLATE_STORAGE_KEY = "scouts_bsa_active_template_id_v1";
+
+function getActiveTemplateProfile() {
+  const tplId = state.activeTemplateId || "default_workbench";
+  const list = state.templateCatalog || [];
+  return list.find((t) => t.template_id === tplId) || list[0] || {
+    template_id: "default_workbench",
+    name: "Workbench Classic (Full Canvas)",
+    primary_hex: "#003F87",
+    accent_hex: "#D4AF37",
+    card_bg_hex: "#EFF6FF",
+    safe_bounds: { content_bottom_max_in: 6.95 },
+  };
+}
+
+window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover = false, tokens = null) {
+  const overlayEl = document.getElementById("slide-template-overlay-layer");
+  const xrayEl = document.getElementById("slide-safezone-xray-layer");
+  const footerStrip = document.getElementById("stage-footer-strip");
+  const prof = getActiveTemplateProfile();
+  state.activeTemplateProfile = prof;
+
+  if (xrayEl) {
+    const showXray = Boolean(state.showSafeZoneXray);
+    xrayEl.classList.toggle("hidden", !showXray);
+    const bottomIn = prof?.safe_bounds?.content_bottom_max_in || 6.95;
+    const contentLbl = document.getElementById("xray-content-zone-label");
+    const footerLbl = document.getElementById("xray-footer-zone-label");
+    if (contentLbl) {
+      contentLbl.textContent = `ZONES 2–4: INSTRUCTIONAL CARDS & VISUAL SAFE CANVAS (1.12"–${bottomIn.toFixed(2)}")`;
+    }
+    if (footerLbl) {
+      footerLbl.textContent =
+        prof.template_id === "default_workbench"
+          ? `ZONE 6: STANDARD SLIDE FOOTER STRIP (7.15"–7.43")`
+          : `RESERVED TEMPLATE BRANDING & LOGO SAFE ZONE (${bottomIn.toFixed(2)}"–7.50") • Template: ${prof.name}`;
+    }
+  }
+
+  if (!overlayEl) return;
+  if (!prof || prof.template_id === "default_workbench") {
+    overlayEl.classList.add("hidden");
+    overlayEl.innerHTML = "";
+    if (footerStrip) {
+      footerStrip.style.background = "";
+      footerStrip.style.color = "";
+      footerStrip.style.paddingRight = "";
+      footerStrip.style.borderRadius = "";
+    }
+    return;
+  }
+
+  overlayEl.classList.remove("hidden");
+  const isDarkSlide = Boolean(tokens?.isStudio || document.getElementById("beautification-select")?.value === "STUDIO");
+  const parts = [];
+
+  if (isCover && prof.cover_bg_url) {
+    parts.push(
+      `<img src="${escapeHtml(prof.cover_bg_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.22" : "0.18"}; pointer-events:none;" />`
+    );
+  } else if (!isCover && prof.canvas_watermark_url && !isDarkSlide) {
+    parts.push(
+      `<img src="${escapeHtml(prof.canvas_watermark_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; pointer-events:none;" />`
+    );
+  }
+
+  const silUrl = isDarkSlide ? (prof.bottom_silhouette_dark_url || prof.bottom_silhouette_url) : prof.bottom_silhouette_url;
+  if (silUrl) {
+    parts.push(
+      `<img src="${escapeHtml(silUrl)}" alt="" style="position:absolute; left:0; right:0; bottom:0; width:100%; height:10.2%; object-fit:fill; pointer-events:none; opacity:0.95;" />`
+    );
+  } else if (prof.bottom_bar_hex) {
+    const barHex = prof.bottom_bar_hex;
+    const accHex = prof.bottom_accent_hex || "#D4AF37";
+    parts.push(
+      `<div style="position:absolute; left:0; bottom:1.6%; width:76%; height:4.4%; background:${escapeHtml(barHex)}; border-top:3px solid ${escapeHtml(accHex)}; border-radius:0 6px 6px 0; pointer-events:none; opacity:0.94;"></div>`
+    );
+  }
+
+  const logoUrl = isDarkSlide ? (prof.corner_logo_dark_url || prof.corner_logo_url) : prof.corner_logo_url;
+  if (logoUrl) {
+    parts.push(
+      `<img src="${escapeHtml(logoUrl)}" alt="${escapeHtml(prof.name)} Logo" style="position:absolute; right:1.8%; bottom:1.6%; max-width:20.5%; max-height:7.6%; object-fit:contain; pointer-events:none; filter:drop-shadow(0 1px 3px rgba(15,23,42,0.18));" />`
+    );
+  }
+
+  overlayEl.innerHTML = parts.join("");
+
+  if (footerStrip) {
+    if (prof.bottom_bar_hex && !silUrl) {
+      footerStrip.style.background = "transparent";
+      footerStrip.style.color = "#F8FAFC";
+      footerStrip.style.paddingRight = "24%";
+      footerStrip.style.position = "relative";
+      footerStrip.style.zIndex = "4";
+    } else if (silUrl) {
+      footerStrip.style.background = "transparent";
+      footerStrip.style.color = "#FFFFFF";
+      footerStrip.style.paddingRight = "24%";
+      footerStrip.style.position = "relative";
+      footerStrip.style.zIndex = "4";
+    } else {
+      footerStrip.style.background = "";
+      footerStrip.style.color = "";
+      footerStrip.style.paddingRight = "";
+    }
+  }
+};
+
+function syncTemplateSelectorUi() {
+  const prof = getActiveTemplateProfile();
+  state.activeTemplateProfile = prof;
+  const sel = document.getElementById("template-select");
+  if (sel && Array.from(sel.options).some((o) => o.value === prof.template_id)) {
+    sel.value = prof.template_id;
+  }
+  const pillLbl = document.getElementById("stage-template-pill-label");
+  if (pillLbl) {
+    const shortName = prof.name.replace(" (Full Canvas)", "").replace("Scouting America | ", "");
+    pillLbl.textContent = `Template: ${shortName}`;
+  }
+}
+
+async function applyTemplateToActiveDeck(templateId, showNotification = true) {
+  state.activeTemplateId = templateId || "default_workbench";
+  try {
+    window.localStorage.setItem(TEMPLATE_STORAGE_KEY, state.activeTemplateId);
+  } catch (_e) {}
+
+  const prof = getActiveTemplateProfile();
+  state.activeTemplateProfile = prof;
+  syncTemplateSelectorUi();
+
+  const matchPaletteChecked = document.getElementById("template-match-palette-checkbox")?.checked !== false;
+  const slides = state.currentResult?.storyboard?.slides || [];
+  slides.forEach((s) => {
+    s.template_id = prof.template_id;
+    if (matchPaletteChecked && prof.template_id !== "default_workbench") {
+      s.accent_palette_key = "MATCH_TEMPLATE";
+    } else if (prof.template_id === "default_workbench" && s.accent_palette_key === "MATCH_TEMPLATE") {
+      s.accent_palette_key = "NAVY_GOLD";
+    }
+  });
+
+  if (state.currentResult) {
+    state.currentResult.template_id = prof.template_id;
+    renderActiveSlide(state.activeSlideIdx);
+  }
+  renderTemplateCatalogGrid();
+
+  // Synchronize downloadable .pptx in background
+  if (state.currentResult && slides.length > 0) {
+    try {
+      const resp = await fetch("/api/v1/templates/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name || state.currentBadge || "First Aid",
+          template_id: prof.template_id,
+          storyboard_slides: slides,
+          counselor_info: state.currentResult.counselor_info || null,
+          accent_palette_key: matchPaletteChecked && prof.template_id !== "default_workbench" ? "MATCH_TEMPLATE" : null,
+        }),
+      });
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.pptx_download_url && state.currentResult) {
+          state.currentResult.pptx_download_url = data.pptx_download_url;
+          syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
+        }
+      }
+    } catch (_e) {}
+  }
+
+  if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+    window.autoSaveActiveWorkspaceDebounced();
+  }
+  if (showNotification) {
+    showToast(`Applied "${prof.name}" template (${prof.safe_bounds?.content_bottom_max_in || 6.95}" safe canvas).`, "info");
+  }
+}
+
+function renderTemplateCatalogGrid() {
+  const grid = document.getElementById("template-catalog-grid");
+  if (!grid) return;
+  const list = state.templateCatalog || [];
+  const countChip = document.getElementById("template-catalog-count-chip");
+  if (countChip) countChip.textContent = `${list.length} Templates`;
+
+  const sel = document.getElementById("template-select");
+  if (sel && list.length > 0) {
+    sel.innerHTML = list
+      .map(
+        (t) =>
+          `<option value="${escapeHtml(t.template_id)}" ${t.template_id === state.activeTemplateId ? "selected" : ""}>${escapeHtml(t.name)}</option>`
+      )
+      .join("");
+  }
+
+  grid.innerHTML = list
+    .map((t) => {
+      const isActive = t.template_id === (state.activeTemplateId || "default_workbench");
+      const bottomSafe = (t.safe_bounds?.content_bottom_max_in || 6.95).toFixed(2);
+      const previewBg = t.cover_bg_url
+        ? `background-image:linear-gradient(rgba(250,248,245,0.78), rgba(250,248,245,0.84)), url('${escapeHtml(t.cover_bg_url)}'); background-size:cover;`
+        : t.canvas_watermark_url
+        ? `background-image:url('${escapeHtml(t.canvas_watermark_url)}'); background-size:cover;`
+        : "background:#FAF8F5;";
+      return `
+        <div class="m3-template-card ${isActive ? "active" : ""}" data-select-template="${escapeHtml(t.template_id)}">
+          <div>
+            <div class="m3-template-preview-box" style="${previewBg}">
+              <div style="height:16%; background:${escapeHtml(t.primary_hex || "#003F87")}; border-bottom:2px solid ${escapeHtml(t.accent_hex || "#D4AF37")}; display:flex; align-items:center; justify-content:space-between; padding:0 8px; color:#FFFFFF; font-size:0.60rem; font-weight:800;">
+                <span>${escapeHtml(t.name.slice(0, 24))}</span>
+                <span>16:9</span>
+              </div>
+              <div style="padding:6px 8px; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
+                <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800;">
+                  Safe Zone: 1.12"&ndash;${bottomSafe}"
+                </div>
+                <div class="m3-tpl-preview-fig-card" style="background:#FFFFFF; border:1px solid #CBD5E1; border-radius:4px; height:72%; display:flex; align-items:center; justify-content:center; font-size:0.52rem; font-weight:700;">
+                  Figure
+                </div>
+              </div>
+              <div style="height:13%; position:relative; display:flex; align-items:center; justify-content:space-between; padding:0 6px; background:${escapeHtml(t.bottom_bar_hex || "transparent")};">
+                ${
+                  t.bottom_silhouette_url
+                    ? `<img src="${escapeHtml(t.bottom_silhouette_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:fill;" />`
+                    : `<span style="font-size:0.50rem; color:${t.bottom_bar_hex ? "#FFFFFF" : "#64748B"}; font-weight:700;">Footer Strip</span>`
+                }
+                ${
+                  t.corner_logo_url
+                    ? `<img src="${escapeHtml(t.corner_logo_url)}" alt="" style="max-height:85%; max-width:36%; object-fit:contain; margin-left:auto; position:relative; z-index:2; background:rgba(255,255,255,0.88); padding:1px 3px; border-radius:3px;" />`
+                    : ""
+                }
+              </div>
+            </div>
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-top:7px;">
+              <div style="font-size:0.79rem; font-weight:800; color:#003F87; line-height:1.2;">${escapeHtml(t.name)}</div>
+              ${isActive ? `<span class="m3-chip m3-chip-primary" style="font-size:0.62rem; padding:1px 6px;">✓ Active</span>` : ""}
+            </div>
+            <div style="font-size:0.69rem; color:#475569; margin-top:3px; line-height:1.35;">${escapeHtml(t.description || "")}</div>
+          </div>
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; padding-top:4px; border-top:1px solid #E2E8F0; font-size:0.66rem; color:#64748B;">
+            <span>📐 Max Y: <strong>${bottomSafe}"</strong></span>
+            <span style="display:inline-flex; align-items:center; gap:4px;">
+              <span style="width:10px; height:10px; border-radius:50%; background:${escapeHtml(t.primary_hex || "#003F87")}; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:${escapeHtml(t.accent_hex || "#D4AF37")}; display:inline-block;"></span>
+            </span>
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+
+  grid.querySelectorAll("[data-select-template]").forEach((card) => {
+    card.addEventListener("click", async () => {
+      const tid = card.getAttribute("data-select-template");
+      if (tid) {
+        await applyTemplateToActiveDeck(tid, true);
+      }
+    });
+  });
+}
+
+async function initPowerPointTemplateStudio() {
+  state.activeTemplateId = window.localStorage.getItem(TEMPLATE_STORAGE_KEY) || "default_workbench";
+  state.templateCatalog = [];
+  state.showSafeZoneXray = false;
+
+  try {
+    const resp = await fetch("/api/v1/templates");
+    if (resp.ok) {
+      const data = await resp.json();
+      state.templateCatalog = data.templates || [];
+    }
+  } catch (_e) {}
+
+  syncTemplateSelectorUi();
+  renderTemplateCatalogGrid();
+
+  const openModal = () => {
+    renderTemplateCatalogGrid();
+    const m = document.getElementById("template-studio-modal");
+    m?.classList.remove("hidden");
+    m?.classList.add("open");
+  };
+  const closeModal = () => {
+    const m = document.getElementById("template-studio-modal");
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+  };
+
+  document.getElementById("btn-open-template-studio-sidebar")?.addEventListener("click", openModal);
+  document.getElementById("btn-stage-template-picker")?.addEventListener("click", openModal);
+  document.getElementById("btn-close-template-studio")?.addEventListener("click", closeModal);
+
+  document.getElementById("template-select")?.addEventListener("change", async (ev) => {
+    await applyTemplateToActiveDeck(ev.target.value, true);
+  });
+
+  document.getElementById("template-safezone-xray-checkbox")?.addEventListener("change", (ev) => {
+    state.showSafeZoneXray = Boolean(ev.target.checked);
+    window.renderSlideTemplateOverlay(state.activeSlideIdx === -1, null);
+  });
+
+  document.getElementById("template-match-palette-checkbox")?.addEventListener("change", async () => {
+    await applyTemplateToActiveDeck(state.activeTemplateId || "default_workbench", false);
+  });
+
+  document.getElementById("btn-upload-template-file")?.addEventListener("click", async () => {
+    const fileInput = document.getElementById("template-upload-file-input");
+    const statusEl = document.getElementById("template-import-status-msg");
+    const file = fileInput?.files?.[0];
+    if (!file) {
+      showToast("Select a .pptx, .ppt, .png, or .jpg file first.", "warning");
+      return;
+    }
+    if (statusEl) statusEl.textContent = `Uploading and analyzing ${file.name}...`;
+    try {
+      const arrayBuf = await file.arrayBuffer();
+      const bytes = new Uint8Array(arrayBuf);
+      let binary = "";
+      for (let i = 0; i < bytes.byteLength; i++) {
+        binary += String.fromCharCode(bytes[i]);
+      }
+      const b64 = window.btoa(binary);
+      const resp = await fetch("/api/v1/templates/upload", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename: file.name, data_base64: b64 }),
+      });
+      const data = await resp.json();
+      if (!resp.ok) throw new Error(data.detail || "Upload failed");
+      state.templateCatalog = data.templates || state.templateCatalog;
+      await applyTemplateToActiveDeck(data.template.template_id, true);
+      if (statusEl) statusEl.textContent = `✓ Imported and applied "${data.template.name}".`;
+    } catch (err) {
+      if (statusEl) statusEl.textContent = `⚠️ Upload error: ${err.message}`;
+    }
+  });
+
+  document.getElementById("btn-import-template-url")?.addEventListener("click", async () => {
+    const urlInput = document.getElementById("template-import-url-input");
+    const statusEl = document.getElementById("template-import-status-msg");
+    const url = (urlInput?.value || "").trim();
+    if (!url) {
+      showToast("Paste an HTTP/HTTPS template URL first.", "warning");
+      return;
+    }
+    if (statusEl) statusEl.textContent = `Downloading and inspecting template from URL...`;
+    try {
+      const resp = await fetch("/api/v1/templates/import-url", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url }),
+      });
+      const data = await resp.json();
+      if (!resp.ok) throw new Error(data.detail || "URL import failed");
+      state.templateCatalog = data.templates || state.templateCatalog;
+      await applyTemplateToActiveDeck(data.template.template_id, true);
+      if (statusEl) statusEl.textContent = `✓ Imported and applied "${data.template.name}".`;
+    } catch (err) {
+      if (statusEl) statusEl.textContent = `⚠️ URL import error: ${err.message}`;
+    }
+  });
+}
+
+// ============================================================================
+// PLAN 16B: MULTI-BADGE COUNSELOR WORKSPACES, FAVORITES & SAVED DECK LIBRARY
+// ============================================================================
+
+const FAVORITES_STORAGE_KEY = "bsa_favorite_badges_v1";
+const WORKSPACES_INDEX_STORAGE_KEY = "bsa_saved_workspaces_index_v1";
+
+window.syncActiveBadgeStarButton = function syncActiveBadgeStarButton() {
+  const starBtn = document.getElementById("btn-star-active-badge");
+  const select = document.getElementById("badge-select");
+  const current = select?.value || state.currentBadge || "First Aid";
+  const favSet = new Set((state.favoriteBadges || []).map((x) => String(x).toLowerCase()));
+  const isFav = favSet.has(current.toLowerCase());
+  if (starBtn) {
+    starBtn.textContent = isFav ? "⭐ Favorited" : "☆ Favorite";
+    starBtn.style.background = isFav ? "#FEF3C7" : "";
+    starBtn.style.color = isFav ? "#92400E" : "";
+    starBtn.style.borderColor = isFav ? "#F59E0B" : "";
+  }
+  const favCountEl = document.getElementById("fav-badges-count-lbl");
+  if (favCountEl) favCountEl.textContent = String((state.favoriteBadges || []).length);
+};
+
+window.toggleFavoriteBadge = async function toggleFavoriteBadge(badgeName) {
+  const clean = String(badgeName || state.currentBadge || "First Aid").trim();
+  if (!clean) return;
+  const favs = Array.isArray(state.favoriteBadges) ? [...state.favoriteBadges] : [];
+  const idx = favs.findIndex((x) => x.toLowerCase() === clean.toLowerCase());
+  const nowFav = idx === -1;
+  if (nowFav) {
+    favs.push(clean);
+  } else {
+    favs.splice(idx, 1);
+  }
+  state.favoriteBadges = favs;
+  try {
+    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favs));
+  } catch (_e) {}
+
+  try {
+    const resp = await fetch("/api/v1/counselor/favorites", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ badge_name: clean, is_favorite: nowFav }),
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      if (Array.isArray(data.favorites)) {
+        state.favoriteBadges = data.favorites;
+        window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(data.favorites));
+      }
+    }
+  } catch (_e) {}
+
+  applyBadgeFilters(false);
+  renderQuickSelectBadgesRow();
+  window.syncActiveBadgeStarButton();
+  showToast(
+    nowFav ? `⭐ Added "${clean}" to My Favorite Merit Badges.` : `Removed "${clean}" from My Favorites.`,
+    "info"
+  );
+};
+
+function renderQuickSelectBadgesRow() {
+  const row = document.getElementById("quick-badges-row");
+  if (!row) return;
+  const mode = state.quickSelectMode || "popular";
+  const favCountEl = document.getElementById("fav-badges-count-lbl");
+  if (favCountEl) favCountEl.textContent = String((state.favoriteBadges || []).length);
+  const wsCountEl = document.getElementById("ws-badges-count-lbl");
+  if (wsCountEl) wsCountEl.textContent = String((state.savedWorkspaces || []).length);
+
+  if (mode === "favorites") {
+    const favs = state.favoriteBadges || [];
+    if (favs.length === 0) {
+      row.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 2px;">No starred badges yet — click <strong>☆ Favorite</strong> above or star patches in the <strong>🎖️ Patch Gallery</strong>!</div>`;
+      return;
+    }
+    row.innerHTML = favs
+      .map(
+        (bName) =>
+          `<button type="button" class="m3-badge-pill ${bName === state.currentBadge ? "active" : ""}" data-badge="${escapeHtml(bName)}">⭐ ${escapeHtml(bName)}</button>`
+      )
+      .join("");
+  } else if (mode === "workspaces") {
+    const wsList = state.savedWorkspaces || [];
+    if (wsList.length === 0) {
+      row.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 2px;">No saved decks yet — click <strong>💾 Save Deck</strong> to pin multiple badges in progress.</div>`;
+      return;
+    }
+    row.innerHTML = wsList
+      .slice(0, 8)
+      .map(
+        (ws) =>
+          `<button type="button" class="m3-badge-pill ${ws.workspace_id === state.activeWorkspaceId ? "active" : ""}" data-switch-ws="${escapeHtml(ws.workspace_id)}">🗂️ ${escapeHtml(ws.workspace_title || ws.badge_name)}</button>`
+      )
+      .join("");
+    row.querySelectorAll("[data-switch-ws]").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const wsId = btn.getAttribute("data-switch-ws");
+        if (wsId) await switchActiveWorkspace(wsId);
+      });
+    });
+    return;
+  } else {
+    const popular = [
+      { name: "First Aid", label: "★ First Aid" },
+      { name: "Weather", label: "Weather" },
+      { name: "Camping", label: "★ Camping" },
+      { name: "Citizenship in the Nation", label: "★ Cit. in Nation" },
+      { name: "Cooking", label: "★ Cooking" },
+      { name: "Emergency Preparedness", label: "★ Emergency Prep" },
+      { name: "Environmental Science", label: "★ Env. Science" },
+      { name: "Robotics", label: "Robotics" },
+    ];
+    row.innerHTML = popular
+      .map(
+        (p) =>
+          `<button type="button" class="m3-badge-pill ${p.name === state.currentBadge ? "active" : ""}" data-badge="${escapeHtml(p.name)}">${escapeHtml(p.label)}</button>`
+      )
+      .join("");
+  }
+
+  row.querySelectorAll("[data-badge]").forEach((pill) => {
+    pill.addEventListener("click", async () => {
+      const bName = pill.getAttribute("data-badge");
+      if (!bName) return;
+      const select = document.getElementById("badge-select");
+      if (select) select.value = bName;
+      await executeStreamingWorkflow(bName);
+    });
+  });
+}
+
+function renderActiveWorkspacesBar() {
+  const bar = document.getElementById("active-workspaces-bar");
+  const listEl = document.getElementById("active-workspaces-pills-list");
+  const topPill = document.getElementById("top-workspaces-count-pill");
+  const copySelect = document.getElementById("select-bluecard-copy-workspace");
+  const wsList = state.savedWorkspaces || [];
+
+  if (topPill) topPill.textContent = String(Math.max(1, wsList.length));
+  const wsCountEl = document.getElementById("ws-badges-count-lbl");
+  if (wsCountEl) wsCountEl.textContent = String(Math.max(1, wsList.length));
+
+  if (copySelect) {
+    const otherWs = wsList.filter((w) => w.workspace_id !== state.activeWorkspaceId);
+    copySelect.innerHTML =
+      `<option value="">🔁 Copy Scouts From Deck (${otherWs.length})...</option>` +
+      otherWs
+        .map(
+          (w) =>
+            `<option value="${escapeHtml(w.workspace_id)}">📋 ${escapeHtml(w.workspace_title || w.badge_name)} (${w.scout_count || 0} Scouts)</option>`
+        )
+        .join("");
+  }
+
+  if (!bar || !listEl) return;
+  if (!state.currentResult) {
+    bar.classList.add("hidden");
+    return;
+  }
+  bar.classList.remove("hidden");
+
+  const itemsHtml = wsList
+    .slice(0, 6)
+    .map((ws) => {
+      const isAct = ws.workspace_id === state.activeWorkspaceId;
+      const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
+      const label = ws.session_label ? `${ws.badge_name} (${ws.session_label})` : ws.workspace_title || ws.badge_name;
+      return `
+        <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-ws-bar-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
+          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:16px; height:16px; border-radius:50%; object-fit:contain;" />
+          <span>${escapeHtml(label)}</span>
+          <span class="m3-ws-pill-meta">&bull; ${ws.scout_count || 0} Scouts</span>
+        </button>
+      `;
+    })
+    .join("");
+
+  listEl.innerHTML = `<span style="font-size:0.72rem; font-weight:800; color:#003F87; margin-right:2px;">🗂️ Active Decks:</span>${itemsHtml}`;
+  listEl.querySelectorAll("[data-ws-bar-id]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const wid = btn.getAttribute("data-ws-bar-id");
+      if (wid && wid !== state.activeWorkspaceId) {
+        await switchActiveWorkspace(wid);
+      }
+    });
+  });
+}
+
+async function saveCurrentDeckAsWorkspace(options = {}) {
+  if (!state.currentResult) return null;
+  const badgeName = state.currentResult.badge_name || state.currentBadge || "First Aid";
+  const existingWs = (state.savedWorkspaces || []).find((w) =>
+    options.forceNew
+      ? false
+      : state.activeWorkspaceId
+      ? w.workspace_id === state.activeWorkspaceId
+      : w.badge_name.toLowerCase() === badgeName.toLowerCase()
+  );
+  const wsId = options.forceNew ? null : existingWs?.workspace_id || state.activeWorkspaceId || null;
+  const sessionLabel =
+    options.sessionLabel !== undefined
+      ? options.sessionLabel
+      : document.getElementById("ws-session-label-input")?.value || existingWs?.session_label || "";
+  const bundleTag =
+    options.bundleTag !== undefined
+      ? options.bundleTag
+      : document.getElementById("ws-bundle-tag-input")?.value || existingWs?.camp_bundle_tag || "";
+  const titleInputVal = document.getElementById("ws-title-input")?.value?.trim();
+  const wsTitle =
+    options.workspaceTitle ||
+    titleInputVal ||
+    existingWs?.workspace_title ||
+    (sessionLabel ? `${badgeName} — ${sessionLabel}` : `${badgeName} Merit Badge Deck`);
+
+  const roster = loadBadgeBlueCardRoster(badgeName);
+  const slides = state.currentResult?.storyboard?.slides || [];
+
+  const payload = {
+    workspace_id: wsId,
+    workspace_title: wsTitle,
+    badge_name: badgeName,
+    session_label: sessionLabel,
+    camp_bundle_tag: bundleTag,
+    template_id: state.activeTemplateId || "default_workbench",
+    counselor_info: state.currentResult.counselor_info || {},
+    deck_result: state.currentResult,
+    blue_card_roster: roster,
+    active_slide_idx: state.activeSlideIdx,
+    slide_count: slides.length + 1,
+    scout_count: (roster?.scouts || []).length,
+  };
+
+  try {
+    const resp = await fetch("/api/v1/workspaces", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      state.activeWorkspaceId = data.workspace?.workspace_id || state.activeWorkspaceId;
+      state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
+      try {
+        window.localStorage.setItem(WORKSPACES_INDEX_STORAGE_KEY, JSON.stringify(state.savedWorkspaces));
+      } catch (_e) {}
+      renderActiveWorkspacesBar();
+      renderSavedWorkspacesGrid();
+      if (options.toastMessage) showToast(options.toastMessage, "info");
+      return data.workspace;
+    }
+  } catch (_e) {}
+  return null;
+}
+
+window.autoSaveActiveWorkspaceDebounced = function autoSaveActiveWorkspaceDebounced() {
+  if (state._wsAutoSaveTimer) clearTimeout(state._wsAutoSaveTimer);
+  state._wsAutoSaveTimer = setTimeout(() => {
+    saveCurrentDeckAsWorkspace({ toastMessage: "" });
+  }, 450);
+};
+
+window.syncActiveWorkspaceBlueCardRoster = function syncActiveWorkspaceBlueCardRoster(_rosterObj) {
+  window.autoSaveActiveWorkspaceDebounced();
+};
+
+window.onWorkbenchDeckHydrated = async function onWorkbenchDeckHydrated(result) {
+  if (!result || state._switchingWorkspaceInProgress) return;
+  const badgeName = result.badge_name || "First Aid";
+  const matchWs = (state.savedWorkspaces || []).find((w) => w.badge_name.toLowerCase() === badgeName.toLowerCase());
+  state.activeWorkspaceId = matchWs ? matchWs.workspace_id : null;
+  await saveCurrentDeckAsWorkspace({ toastMessage: "" });
+};
+
+async function switchActiveWorkspace(workspaceId) {
+  if (!workspaceId) return;
+  try {
+    // Auto-save current workspace before switching
+    if (state.currentResult && state.activeWorkspaceId && state.activeWorkspaceId !== workspaceId) {
+      await saveCurrentDeckAsWorkspace({ toastMessage: "" });
+    }
+    const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(workspaceId)}`);
+    if (!resp.ok) throw new Error("Workspace not found");
+    const data = await resp.json();
+    const ws = data.workspace;
+    if (!ws) return;
+
+    state._switchingWorkspaceInProgress = true;
+    state.activeWorkspaceId = ws.workspace_id;
+    state.currentBadge = ws.badge_name;
+    state.activeTemplateId = ws.template_id || "default_workbench";
+    syncTemplateSelectorUi();
+
+    const select = document.getElementById("badge-select");
+    if (select) select.value = ws.badge_name;
+
+    if (ws.blue_card_roster && Array.isArray(ws.blue_card_roster.scouts)) {
+      saveBadgeBlueCardRoster(ws.badge_name, ws.blue_card_roster);
+    }
+
+    if (ws.deck_result && ws.deck_result.storyboard) {
+      hydrateWorkbench(ws.deck_result);
+      if (typeof ws.active_slide_idx === "number" && ws.active_slide_idx >= -1) {
+        state.activeSlideIdx = ws.active_slide_idx;
+        renderFilmstrip(ws.deck_result.storyboard.slides || []);
+        renderActiveSlide(ws.active_slide_idx);
+      }
+    } else {
+      await executeStreamingWorkflow(ws.badge_name);
+    }
+    state._switchingWorkspaceInProgress = false;
+
+    const titleIn = document.getElementById("ws-title-input");
+    const sessIn = document.getElementById("ws-session-label-input");
+    const bndlIn = document.getElementById("ws-bundle-tag-input");
+    if (titleIn) titleIn.value = ws.workspace_title || "";
+    if (sessIn) sessIn.value = ws.session_label || "";
+    if (bndlIn) bndlIn.value = ws.camp_bundle_tag || "";
+
+    renderActiveWorkspacesBar();
+    renderSavedWorkspacesGrid();
+    renderQuickSelectBadgesRow();
+    showToast(`Switched to "${ws.workspace_title || ws.badge_name}".`, "info");
+  } catch (err) {
+    state._switchingWorkspaceInProgress = false;
+    showToast(`Could not load workspace: ${err.message}`, "warning");
+  }
+}
+
+function renderSavedWorkspacesGrid() {
+  const grid = document.getElementById("saved-workspaces-grid");
+  if (!grid) return;
+  const q = (document.getElementById("workspaces-search-input")?.value || "").trim().toLowerCase();
+  const list = (state.savedWorkspaces || []).filter((w) => {
+    if (!q) return true;
+    return `${w.workspace_title} ${w.badge_name} ${w.session_label} ${w.camp_bundle_tag}`.toLowerCase().includes(q);
+  });
+
+  if (list.length === 0) {
+    grid.innerHTML = `<div style="padding:18px; color:#64748B; font-size:0.84rem;">No saved Merit Badge workspaces match your filter. Click <strong>💾 Save Active Deck</strong> above to save your current deck.</div>`;
+    return;
+  }
+
+  grid.innerHTML = list
+    .map((w) => {
+      const isAct = w.workspace_id === state.activeWorkspaceId;
+      const slug = badgeNameToEmblemSlug(w.badge_name || "First Aid");
+      const tplProf = (state.templateCatalog || []).find((t) => t.template_id === w.template_id);
+      const tplName = tplProf ? tplProf.name : "Workbench Classic";
+      return `
+        <div class="m3-workspace-card ${isAct ? "active" : ""}">
+          <div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:42px; height:42px; object-fit:contain; flex-shrink:0;" />
+              <div style="min-width:0; flex:1;">
+                <div style="font-size:0.86rem; font-weight:800; color:#003F87; line-height:1.25;">${escapeHtml(w.workspace_title || w.badge_name)}</div>
+                <div style="font-size:0.72rem; color:#475569; margin-top:2px;">
+                  <strong>${escapeHtml(w.badge_name)}</strong>
+                  ${w.session_label ? ` &bull; ${escapeHtml(w.session_label)}` : ""}
+                  ${w.camp_bundle_tag ? ` &bull; <span style="color:#0284C7; font-weight:700;">🏕️ ${escapeHtml(w.camp_bundle_tag)}</span>` : ""}
+                </div>
+              </div>
+              ${isAct ? `<span class="m3-chip m3-chip-primary" style="font-size:0.65rem;">Active</span>` : ""}
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:10px; font-size:0.71rem; color:#475569;">
+              <span style="white-space:nowrap;">📊 <strong>${w.slide_count || 0}</strong> Slides</span>
+              <span>&bull;</span>
+              <span style="white-space:nowrap;">🪪 <strong>${w.scout_count || 0}</strong> Scouts in Roster</span>
+              <span>&bull;</span>
+              <span style="white-space:nowrap;">🖼️ ${escapeHtml(tplName.slice(0, 24))}</span>
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; padding-top:8px; border-top:1px solid #E2E8F0;">
+            <button type="button" class="m3-btn ${isAct ? "m3-btn-tonal" : "m3-btn-filled"}" data-ws-open="${escapeHtml(w.workspace_id)}" style="padding:5px 12px; font-size:0.74rem; font-weight:800;">
+              ${isAct ? "✓ Currently Open" : "📂 Switch to Deck"}
+            </button>
+            <div style="display:flex; gap:5px;">
+              <button type="button" class="m3-btn m3-btn-outlined" data-ws-clone="${escapeHtml(w.workspace_id)}" title="Clone this deck for another class section (e.g. Afternoon Patrol)" style="padding:5px 9px; font-size:0.72rem;">
+                📑 Clone
+              </button>
+              <button type="button" class="m3-btn m3-btn-outlined" data-ws-delete="${escapeHtml(w.workspace_id)}" title="Delete saved deck workspace" style="padding:5px 9px; font-size:0.72rem; color:#DC2626;">
+                🗑️
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+
+  grid.querySelectorAll("[data-ws-open]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const wid = btn.getAttribute("data-ws-open");
+      if (wid) {
+        await switchActiveWorkspace(wid);
+        const modal = document.getElementById("saved-workspaces-modal");
+        modal?.classList.remove("open");
+        modal?.classList.add("hidden");
+      }
+    });
+  });
+
+  grid.querySelectorAll("[data-ws-clone]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const wid = btn.getAttribute("data-ws-clone");
+      if (!wid) return;
+      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(wid)}/clone`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ session_label: "Section 2 / Afternoon Patrol", copy_roster: false }),
+      });
+      if (resp.ok) {
+        const data = await resp.json();
+        state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
+        renderSavedWorkspacesGrid();
+        renderActiveWorkspacesBar();
+        showToast(`Cloned deck as "${data.workspace?.workspace_title}" with a clean Blue Card roster!`, "info");
+      }
+    });
+  });
+
+  grid.querySelectorAll("[data-ws-delete]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const wid = btn.getAttribute("data-ws-delete");
+      if (!wid) return;
+      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(wid)}`, { method: "DELETE" });
+      if (resp.ok) {
+        const data = await resp.json();
+        state.savedWorkspaces = data.workspaces || [];
+        if (state.activeWorkspaceId === wid) {
+          state.activeWorkspaceId = state.savedWorkspaces[0]?.workspace_id || null;
+        }
+        renderSavedWorkspacesGrid();
+        renderActiveWorkspacesBar();
+        showToast("Deleted saved deck workspace.", "info");
+      }
+    });
+  });
+}
+
+async function initMultiBadgeWorkspacesAndFavorites() {
+  state.quickSelectMode = "popular";
+  try {
+    const localFavs = JSON.parse(window.localStorage.getItem(FAVORITES_STORAGE_KEY) || "null");
+    state.favoriteBadges = Array.isArray(localFavs) ? localFavs : ["First Aid", "Camping", "Weather"];
+  } catch (_e) {
+    state.favoriteBadges = ["First Aid", "Camping", "Weather"];
+  }
+
+  try {
+    const resp = await fetch("/api/v1/counselor/favorites");
+    if (resp.ok) {
+      const data = await resp.json();
+      if (Array.isArray(data.favorites) && data.favorites.length > 0) {
+        state.favoriteBadges = data.favorites;
+      }
+    }
+  } catch (_e) {}
+
+  try {
+    const respWs = await fetch("/api/v1/workspaces");
+    if (respWs.ok) {
+      const dataWs = await respWs.json();
+      state.savedWorkspaces = dataWs.workspaces || [];
+    }
+  } catch (_e) {
+    state.savedWorkspaces = [];
+  }
+
+  window.syncActiveBadgeStarButton();
+  renderQuickSelectBadgesRow();
+  renderActiveWorkspacesBar();
+
+  document.getElementById("btn-star-active-badge")?.addEventListener("click", async () => {
+    const select = document.getElementById("badge-select");
+    const targetBadge = select?.value || state.currentBadge || "First Aid";
+    await window.toggleFavoriteBadge(targetBadge);
+  });
+
+  document.querySelectorAll("[data-quick-mode]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.quickSelectMode = btn.getAttribute("data-quick-mode") || "popular";
+      document.querySelectorAll("[data-quick-mode]").forEach((b) => {
+        b.classList.toggle("active", b.getAttribute("data-quick-mode") === state.quickSelectMode);
+      });
+      renderQuickSelectBadgesRow();
+    });
+  });
+
+  const openWsModal = () => {
+    const titleIn = document.getElementById("ws-title-input");
+    if (titleIn && !titleIn.value && state.currentResult) {
+      titleIn.value = `${state.currentResult.badge_name} Merit Badge Deck`;
+    }
+    renderSavedWorkspacesGrid();
+    const m = document.getElementById("saved-workspaces-modal");
+    m?.classList.remove("hidden");
+    m?.classList.add("open");
+  };
+  const closeWsModal = () => {
+    const m = document.getElementById("saved-workspaces-modal");
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+  };
+
+  document.getElementById("btn-open-saved-workspaces")?.addEventListener("click", openWsModal);
+  document.getElementById("btn-ws-open-library")?.addEventListener("click", openWsModal);
+  document.getElementById("btn-close-workspaces-modal")?.addEventListener("click", closeWsModal);
+
+  document.getElementById("btn-ws-save-current")?.addEventListener("click", async () => {
+    await saveCurrentDeckAsWorkspace({ toastMessage: "💾 Saved current deck & Blue Card roster to your Deck Library!" });
+  });
+
+  document.getElementById("btn-modal-save-workspace")?.addEventListener("click", async () => {
+    await saveCurrentDeckAsWorkspace({ toastMessage: "💾 Updated active deck in your Deck Library!" });
+  });
+
+  const handleCloneCurrent = async () => {
+    if (!state.activeWorkspaceId) {
+      await saveCurrentDeckAsWorkspace({ toastMessage: "" });
+    }
+    if (!state.activeWorkspaceId) return;
+    const label = document.getElementById("ws-session-label-input")?.value?.trim() || "Section 2 / Afternoon Patrol";
+    const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(state.activeWorkspaceId)}/clone`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ session_label: label, copy_roster: false }),
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      state.savedWorkspaces = data.workspaces || state.savedWorkspaces;
+      if (data.workspace?.workspace_id) {
+        await switchActiveWorkspace(data.workspace.workspace_id);
+      }
+      showToast(`📑 Cloned deck for "${label}" with a fresh Blue Card roster!`, "info");
+    }
+  };
+
+  document.getElementById("btn-ws-clone-section")?.addEventListener("click", handleCloneCurrent);
+  document.getElementById("btn-modal-clone-workspace")?.addEventListener("click", handleCloneCurrent);
+  document.getElementById("workspaces-search-input")?.addEventListener("input", renderSavedWorkspacesGrid);
+
+  // Cross-Badge Patrol Blue Card Roster Copy
+  document.getElementById("select-bluecard-copy-workspace")?.addEventListener("change", async (ev) => {
+    const srcWsId = ev.target.value;
+    ev.target.value = "";
+    if (!srcWsId || !state.currentResult) return;
+    try {
+      const resp = await fetch(`/api/v1/workspaces/${encodeURIComponent(srcWsId)}`);
+      if (!resp.ok) return;
+      const data = await resp.json();
+      const srcScouts = data.workspace?.blue_card_roster?.scouts || [];
+      const badgeName = state.currentResult.badge_name || "First Aid";
+      const curRoster = loadBadgeBlueCardRoster(badgeName);
+      const existingNames = new Set((curRoster.scouts || []).map((s) => String(s.name || "").toLowerCase()));
+      let added = 0;
+      srcScouts.forEach((sc) => {
+        const nm = String(sc.name || "").trim();
+        if (nm && !existingNames.has(nm.toLowerCase())) {
+          curRoster.scouts.push({ name: nm, completedReqs: [] });
+          existingNames.add(nm.toLowerCase());
+          added += 1;
+        }
+      });
+      saveBadgeBlueCardRoster(badgeName, curRoster);
+      renderBlueCardTracker(state.currentResult);
+      showToast(`🔁 Copied ${added} Scout attendee(s) from "${data.workspace?.workspace_title || data.workspace?.badge_name}"!`, "info");
+    } catch (_e) {}
+  });
+
+  // Portable .bsadeck.json Export & Import
+  document.getElementById("btn-export-workspaces-json")?.addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify({ exported_at: new Date().toISOString(), favorites: state.favoriteBadges, workspaces: state.savedWorkspaces }, null, 2)], {
+      type: "application/json",
+    });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `scouts_bsa_workbench_decks_${new Date().toISOString().slice(0, 10)}.bsadeck.json`;
+    a.click();
+  });
+
+  document.getElementById("btn-import-workspaces-json")?.addEventListener("click", () => {
+    document.getElementById("workspaces-import-json-input")?.click();
+  });
+
+  document.getElementById("workspaces-import-json-input")?.addEventListener("change", async (ev) => {
+    const file = ev.target.files?.[0];
+    if (!file) return;
+    try {
+      const text = await file.text();
+      const parsed = JSON.parse(text);
+      if (Array.isArray(parsed.favorites)) {
+        state.favoriteBadges = parsed.favorites;
+        window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(parsed.favorites));
+      }
+      if (Array.isArray(parsed.workspaces)) {
+        for (const ws of parsed.workspaces) {
+          await fetch("/api/v1/workspaces", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(ws),
+          });
+        }
+        const respWs = await fetch("/api/v1/workspaces");
+        if (respWs.ok) {
+          const dataWs = await respWs.json();
+          state.savedWorkspaces = dataWs.workspaces || [];
+        }
+      }
+      renderSavedWorkspacesGrid();
+      renderActiveWorkspacesBar();
+      renderQuickSelectBadgesRow();
+      showToast("📥 Imported saved deck workspaces backup!", "info");
+    } catch (_e) {
+      showToast("Invalid .bsadeck.json backup file.", "warning");
+    }
+  });
+}
+
+// ============================================================================
+// PLAN 16C: OFFICIAL SCOUTS BSA WORKBENCH MCP SERVER HUB & PLAYGROUND
+// ============================================================================
+
+const MCP_SAMPLE_PAYLOADS = {
+  search_merit_badges: { query: "water", eagle_only: false, favorites_only: false },
+  query_merit_badge_pamphlet: { badge_name: "First Aid", question: "How do you treat severe arterial bleeding and shock?", top_k: 4 },
+  create_merit_badge_slide_deck: {
+    badge_name: "Camping",
+    instruction_depth: "Deep Dive",
+    template_id: "scouting_america_250",
+    visual_theme: "BEAUTIFIED",
+    workspace_title: "Camping — Summer Camp Week 1",
+    session_label: "Morning Patrol",
+  },
+  get_slide_deck_workspace: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", include_slides: true },
+  update_slide_in_deck: {
+    workspace_id: "REPLACE_WITH_WORKSPACE_ID",
+    slide_index: 0,
+    title: "Requirement 1a: BSA Swimmer Test & Buddy System",
+  },
+  polish_slide_teaching_notes: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", slide_index: 0, audience_level: "All Scouts (Ages 11–17)" },
+  generate_or_select_slide_image: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", slide_index: 0, action: "list_choices" },
+  apply_powerpoint_template: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", template_id: "scouting_america_forest_sunrise" },
+  export_slide_deck: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", export_format: "pptx" },
+  generate_class_prep_and_parent_letter: { workspace_id: "REPLACE_WITH_WORKSPACE_ID", session_mode: "TWO_TROOP_MEETINGS" },
+  manage_patrol_blue_card_roster: {
+    workspace_id: "REPLACE_WITH_WORKSPACE_ID",
+    action: "add_or_update_scout",
+    scout_name: "Leo Martinez",
+    troop_number: "Troop 19",
+    patrol_name: "Eagle Patrol",
+    completed_reqs: ["1a", "1b", "2a"],
+  },
+  audit_deck_conformance: { workspace_id: "REPLACE_WITH_WORKSPACE_ID" },
+  "resource:bsa://templates/catalog": { uri: "bsa://templates/catalog" },
+  "resource:bsa://workspaces/list": { uri: "bsa://workspaces/list" },
+};
+
+function getMcpClientConfigSnippet(clientType) {
+  const origin = window.location.origin || "http://localhost:8080";
+  if (clientType === "gemini") {
+    return JSON.stringify(
+      {
+        mcpServers: {
+          "scouts-bsa-workbench": {
+            httpUrl: `${origin}/mcp`,
+            command: "python",
+            args: ["-m", "src.mcp_server"],
+          },
+        },
+      },
+      null,
+      2
+    );
+  }
+  if (clientType === "cursor") {
+    return JSON.stringify(
+      {
+        mcpServers: {
+          "scouts-bsa-workbench": {
+            url: `${origin}/mcp/sse`,
+          },
+        },
+      },
+      null,
+      2
+    );
+  }
+  if (clientType === "adk") {
+    return `from google.adk.tools.mcp_tool import MCPToolset, StdioServerParameters\n\ntoolset = MCPToolset(\n    connection_params=StdioServerParameters(\n        command="python",\n        args=["-m", "src.mcp_server"],\n    )\n)`;
+  }
+  return JSON.stringify(
+    {
+      mcpServers: {
+        "scouts-bsa-workbench": {
+          command: "python",
+          args: ["-m", "src.mcp_server"],
+          env: { PYTHONPATH: "." },
+        },
+      },
+    },
+    null,
+    2
+  );
+}
+
+async function initMcpAgentHubAndPlayground() {
+  const codeEl = document.getElementById("mcp-client-config-code");
+  if (codeEl) codeEl.textContent = getMcpClientConfigSnippet("claude");
+
+  document.querySelectorAll("[data-mcp-client]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const cType = btn.getAttribute("data-mcp-client") || "claude";
+      document.querySelectorAll("[data-mcp-client]").forEach((b) => {
+        b.classList.toggle("active", b.getAttribute("data-mcp-client") === cType);
+      });
+      if (codeEl) codeEl.textContent = getMcpClientConfigSnippet(cType);
+    });
+  });
+
+  document.getElementById("btn-copy-mcp-client-config")?.addEventListener("click", () => {
+    const txt = codeEl?.textContent || "";
+    navigator.clipboard?.writeText(txt);
+    showToast("📋 Copied MCP client configuration to clipboard!", "info");
+  });
+
+  const syncPlaygroundSampleArgs = () => {
+    const toolSel = document.getElementById("mcp-playground-tool-select");
+    const argsBox = document.getElementById("mcp-playground-args-textarea");
+    if (!toolSel || !argsBox) return;
+    const key = toolSel.value;
+    const sample = { ...(MCP_SAMPLE_PAYLOADS[key] || {}) };
+    if (sample.workspace_id === "REPLACE_WITH_WORKSPACE_ID" && state.activeWorkspaceId) {
+      sample.workspace_id = state.activeWorkspaceId;
+    }
+    argsBox.value = JSON.stringify(sample, null, 2);
+  };
+
+  document.getElementById("mcp-playground-tool-select")?.addEventListener("change", syncPlaygroundSampleArgs);
+
+  const openMcpModal = async () => {
+    syncPlaygroundSampleArgs();
+    const listEl = document.getElementById("mcp-resources-and-prompts-list");
+    if (listEl && !listEl.dataset.loaded) {
+      try {
+        const resp = await fetch("/mcp/info");
+        if (resp.ok) {
+          const info = await resp.json();
+          listEl.dataset.loaded = "1";
+          const resHtml = (info.resources || [])
+            .map(
+              (r) =>
+                `<div class="m3-mcp-resource-item"><code>${escapeHtml(r.uri)}</code> — ${escapeHtml(r.name)}</div>`
+            )
+            .join("");
+          const prmHtml = (info.prompts || [])
+            .map(
+              (p) =>
+                `<div class="m3-mcp-prompt-item"><strong>💬 Prompt: ${escapeHtml(p.name)}</strong> — ${escapeHtml(p.description)}</div>`
+            )
+            .join("");
+          listEl.innerHTML = resHtml + prmHtml;
+        }
+      } catch (_e) {}
+    }
+    const m = document.getElementById("mcp-hub-modal");
+    m?.classList.remove("hidden");
+    m?.classList.add("open");
+  };
+
+  const closeMcpModal = () => {
+    const m = document.getElementById("mcp-hub-modal");
+    m?.classList.remove("open");
+    m?.classList.add("hidden");
+  };
+
+  document.getElementById("btn-open-mcp-hub")?.addEventListener("click", openMcpModal);
+  document.getElementById("btn-close-mcp-hub")?.addEventListener("click", closeMcpModal);
+
+  document.getElementById("btn-mcp-open-guide-doc")?.addEventListener("click", () => {
+    closeMcpModal();
+    if (typeof openDocumentationViewerModal === "function") {
+      openDocumentationViewerModal("mcp_server_guide");
+    }
+  });
+
+  document.getElementById("btn-run-mcp-playground")?.addEventListener("click", async () => {
+    const toolSel = document.getElementById("mcp-playground-tool-select");
+    const argsBox = document.getElementById("mcp-playground-args-textarea");
+    const outPre = document.getElementById("mcp-playground-output");
+    if (!toolSel || !argsBox || !outPre) return;
+
+    let parsedArgs = {};
+    try {
+      parsedArgs = JSON.parse(argsBox.value || "{}");
+    } catch (err) {
+      outPre.textContent = `JSON Parse Error in Arguments: ${err.message}`;
+      return;
+    }
+
+    const selVal = toolSel.value;
+    const rpcBody = selVal.startsWith("resource:")
+      ? { jsonrpc: "2.0", id: Date.now(), method: "resources/read", params: { uri: parsedArgs.uri || selVal.replace("resource:", "") } }
+      : { jsonrpc: "2.0", id: Date.now(), method: "tools/call", params: { name: selVal, arguments: parsedArgs } };
+
+    outPre.textContent = "Executing JSON-RPC 2.0 request against POST /mcp...";
+    try {
+      const resp = await fetch("/mcp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(rpcBody),
+      });
+      const data = await resp.json();
+      outPre.textContent = JSON.stringify(data, null, 2);
+
+      // If the MCP tool created or modified a workspace, refresh our live workspace bar!
+      if (selVal === "create_merit_badge_slide_deck" || selVal === "update_slide_in_deck" || selVal === "apply_powerpoint_template") {
+        const respWs = await fetch("/api/v1/workspaces");
+        if (respWs.ok) {
+          const dataWs = await respWs.json();
+          state.savedWorkspaces = dataWs.workspaces || [];
+          renderActiveWorkspacesBar();
+          showToast(`🤖 MCP Agent executed "${selVal}" — Deck Library synced live!`, "info");
+        }
+      }
+    } catch (err) {
+      outPre.textContent = `RPC Error: ${err.message}`;
+    }
+  });
+}
+
 
 
 

@@ -49,6 +49,7 @@ dev = [
 
 [project.scripts]
 scouts-bsa-agent = "src.server:main"
+scouts-bsa-mcp = "src.mcp_server:main"
 run-eval-suite = "tests.eval_golden_suite:run_eval_suite"
 
 [tool.pytest.ini_options]

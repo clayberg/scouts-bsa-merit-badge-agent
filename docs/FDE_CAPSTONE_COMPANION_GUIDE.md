@@ -4,6 +4,7 @@
 **Companion Playbook**: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md) (12 Core Slides, 0 Appendix)  
 **Detailed User Guide**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)  
 **Super-User Admin Guide**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)  
+**MCP Server Integration Guide**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md)  
 **Purpose**: This guide prepares you to walk into the Google Cloud Forward Deployed Engineer (FDE) Capstone review panel knowing every moving part of the **Scouts BSA Merit Badge Counselor Workbench**. It covers how official BSA pamphlets and requirements are gathered and locked with SHA-256 hashes, how our two SQLite WAL databases (`PersistentSessionStore` and `ZeroPiiTelemetryStore`) and external APIs interact, when each of the 9 Google ADK components (7 specialist AI agents + Coordinator + on-demand Image Studio) engages and consumes tokens, how every slide in the 12-slide Executive Readout maps to the capstone grading rubric, and how to answer 50 panelist probing questions (`Q1` through `Q50`).
 
 > **Note on Capstone Rubric Terminology (`Technical Architecture Rubric: 3.00 / 3.00`)**: Throughout our engineering artifacts, the automated `fde-artifact-analyzer` evaluates **27 Technical Architecture & Engineering Execution criteria** on a `0.00 to 3.00` scale (`3.00 / 3.00` verified across all 27 criteria, formerly referred to in internal analyzer logs as `"Part B"`), **19 AgentOps Production Readiness criteria** (`95 / 95`), and **6 FDE Advisory & Delivery dimensions** (`100 / 100`). On the presentation slides and in spoken talk tracks, always call the `3.00 / 3.00` score the **Technical Architecture Rubric (27/27 criteria)** so panelists have full context without internal shorthand.
@@ -152,7 +153,7 @@ Once the deck renders in the workbench, counselors can review, customize, teach,
 
 We use two purpose-built SQLite databases configured with **`PRAGMA journal_mode=WAL;` (Write-Ahead Logging)** so concurrent readers and background async writers never block each other:
 
-1. **Primary Curriculum, Vector & Session Database (`scouts_bsa_sessions.db`, managed by `PersistentSessionStore` in `src/memory/session_store.py`)** with **six tables**:
+1. **Primary Curriculum, Vector & Session Database (`scouts_bsa_sessions.db`, managed by `PersistentSessionStore` in `src/memory/session_store.py`)** with **eight tables**:
 
 | SQLite Table (`scouts_bsa_sessions.db`) | What It Stores | Why It Exists in the Architecture |
 | :--- | :--- | :--- |
@@ -162,6 +163,8 @@ We use two purpose-built SQLite databases configured with **`PRAGMA journal_mode
 | **`polished_speaker_notes`** | `notes_hash` (Primary Key SHA-256), `badge_name`, `req_number`, `slide_title`, `audience_level`, `polished_notes`, `updated_at` | Caches on-demand AI-polished conversational `[SAY]/[DEMONSTRATE]/[ASK SCOUTS]` teaching scripts (`POST /api/slide/polish-notes` and `POST /api/slide/polish-notes-batch`) keyed by content SHA-256 hash so repeated polish requests return in `<5ms` at `$0.00` token cost. |
 | **`hitl_feedback`** | `feedback_id`, `session_id`, `badge_name`, `rating` (`1-5`), `thumbs_up`, `requirement_accuracy_verified` (`0/1`), `promoted_to_golden` (`0/1`), `comments` (PII-scrubbed), `created_at` | Stores counselor quality ratings and requirement accuracy sign-offs submitted via `/api/v1/feedback` for continuous AgentOps evaluation and automatic promotion to `tests/data/golden_extensions.json`. |
 | **`compliance_attestation_ledger`** | `attestation_id`, `session_id`, `badge_name`, `pamphlet_sha256_hash`, `hitl_token_verified`, `model_armor_verdict`, `created_at` | Append-only cryptographic audit ledger recording the SHA-256 requirement lock, Model Armor safety verdict, and HMAC-SHA256 HITL approval for every generated deck. |
+| **`counselor_workspaces`** | `workspace_id` (Primary Key), `badge_name`, `section_label`, `camp_week_tag`, `template_id`, `deck_state_json`, `blue_card_roster_json`, `updated_at` | Powers **Multi-Badge Counselor Workspaces & the Saved Deck Library (`🗂️ My Decks`)** for `<80ms` hot-swapping across multiple badges and Morning/Afternoon Patrol sections (`📑 Clone for New Section`), isolated Blue Card (`#34124`) rosters (`🔁 Copy Scouts From Deck`), and `.bsadeck.json` archive export/import. |
+| **`counselor_favorites`** | `badge_name` (Primary Key), `starred_at` | Persists 1-click `⭐` starred Merit Badges across the badge selector, `🔥 Popular \| ⭐ Favorites \| 🗂️ Decks` quick-select bar, and 144-Badge Visual Patch Gallery. |
 
 2. **Zero-PII Operational Telemetry Database (`ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py`)** with **four anonymous tables**:
    - **`telemetry_workflow_runs`**: Records `timestamp_utc`, `badge_name`, `audience_level`, `visual_style`, `duration_ms`, `cache_hit`, `success`, `qa_score`, and `estimated_cost_usd`.
@@ -234,9 +237,9 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 - **Left Column (3 Stacked KPI Cards)**:
   1. **`144 Official Badges • 100% Fidelity`**: Cryptographic SHA-256 requirement lock prevents text drift; `3,917` pre-bundled visuals (`2,323` pamphlet figures + `1,306` AI scenes); `100%` authentic `400x400` Scout Shop embroidered badge emblems.
   2. **`< 2 Min Build • 6 Synchronized Deliverables`**: Replaces `8 to 15 hours` of manual weekend counselor prep per badge; generates a `16:9` Slide Deck (`.PPTX` & Google Slides), Scout Workbook, Blue Card (`#34124`) Tracker, 4-Mode Agenda, Quartermaster Gear List, and YPT Parent Letter.
-  3. **`Predictable FinOps • $0.14 to $1.00 Cap`**: Hard `$1.00` budget ceiling via `FinOpsBudgetPlugin` (`~$0.18` actual cold on `Beautified`); `$0.00 to $0.02` on warm cache reruns; `68%` Hybrid RAG token savings; verified across `60` automated `pytest` tests and `85` OpenAPI 3.1 endpoints.
+  3. **`Predictable FinOps • $0.14 to $1.00 Cap`**: Hard `$1.00` budget ceiling via `FinOpsBudgetPlugin` (`~$0.18` actual cold on `Beautified`); `$0.00 to $0.02` on warm cache reruns; `68%` Hybrid RAG token savings; verified across `67` automated `pytest` tests and `117` OpenAPI 3.1 endpoints.
 - **Right Visual Frame**: High-resolution composite showcase (`144 Official Emblems • 3,917 Visuals • 3 Polish Tiers`).
-- **Footer & CTA Pill**: `Presenter: Eric Clayberg (Troop 19, Middleton MA) • Verified: 27/27 Rubric Criteria • 60/60 Pytest • 85 OpenAPI Endpoints` | CTA: **`Open Design Doc (TDD) ↗`**
+- **Footer & CTA Pill**: `Presenter: Eric Clayberg (Troop 19, Middleton MA) • Verified: 27/27 Rubric Criteria • 67/67 Pytest • 117 OpenAPI Endpoints` | CTA: **`Open Design Doc (TDD) ↗`**
 
 #### Technical details & jargon on Slide 1
 - **9 ADK Components / 7 Specialist Agents**: Root `MeritBadgeCoordinatorAgent` (`SequentialAgent`) + 7 core specialist agent roles (`PamphletResearchAgent`, `WebSearchGroundingAgent`, `ResearchCoverageCriticAgent`, `SlideContentPlannerAgent`, `SlideBeautifierAgent`, `PowerPointBuilderAgent`, `BSABrandAndSafetyReviewAgent`) + on-demand `MeritBadgeImageStudio` (`WebImageSearchAgent` + `NanoBananaImageAgent`).
@@ -297,17 +300,17 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 #### What is on the slide
 - **Eyebrow**: `GOOGLE ADK MULTI-AGENT ORCHESTRATION, TOOL ISOLATION & API PLANE • FDE CAPSTONE READOUT • 4 / 12`
 - **Title**: *9-Component / 7-Agent Google ADK Pipeline Orchestrates Research, Planning & QA*
-- **Subtitle**: *Combines deterministic SequentialAgent staging, bounded LoopAgent critics, AgentTool search isolation, and 85 OpenAPI 3.1 endpoints.*
+- **Subtitle**: *Combines deterministic SequentialAgent staging, bounded LoopAgent critics, AgentTool search isolation, and 117 OpenAPI 3.1 endpoints.*
 - **Left Column (3 Stacked Cards)**:
   1. **`1. 5-Stage SequentialAgent + 2 Bounded LoopAgents`**: Coordinator orchestrates 7 core agents + 2 on-demand studio agents; Stage 2 `ResearchCoverageCritic` `LoopAgent` (`max 2x`) enforces `100%` sub-requirement recall; Stage 5 `Builder + Reviewer` `LoopAgent` (`max 3x`) enforces `0` AABB overlaps.
   2. **`2. AgentTool Search Isolation & Compaction`**: Solves Vertex AI HTTP `400` error when mixing `GoogleSearchTool` and custom `FunctionTool`s by isolating search inside `WebSearchGroundingAgent` wrapped as an `AgentTool`; `EventsCompactionConfig` (`interval=5, overlap=2`) + `HMAC-SHA256` HITL gate.
-  3. **`3. Dual-Transport API Plane (85 OpenAPI Endpoints)`**: FastAPI plane exposes `85` contract-tested paths (`docs/openapi.yaml`); real-time SSE progress streaming + A2UI v0.9 interactive payloads; standards-compliant A2A 1.0 Agent Card at `/.well-known/agent.json`.
+  3. **`3. Dual-Transport API & MCP Plane (117 OpenAPI Endpoints)`**: FastAPI plane exposes `117` contract-tested paths (`docs/openapi.yaml`); real-time SSE progress streaming + A2UI v0.9 interactive payloads; standards-compliant A2A 1.0 Agent Card at `/.well-known/agent.json` plus Dual-Transport MCP Server (`src/mcp_server.py` / `POST /mcp`, [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md)).
 - **Right Visual Frame**: Architecture diagram (`9-Component / 7-Specialist-Agent Google ADK Pipeline (TDD)`).
-- **Footer & CTA Pill**: `ADK Pattern: WebSearchGroundingAgent isolated via AgentTool (0 tool-mixing 400s) + HMAC-SHA256 HITL gate + A2A 1.0 / A2UI v0.9.` | CTA: **`Architecture in TDD ↗`**
+- **Footer & CTA Pill**: `ADK Pattern: WebSearchGroundingAgent isolated via AgentTool (0 tool-mixing 400s) + HMAC-SHA256 HITL gate + A2A 1.0 / MCP / A2UI v0.9.` | CTA: **`Architecture in TDD ↗`**
 
 #### Technical details & jargon on Slide 4
 - **The Vertex AI Tool-Mixing Constraint (`FM-1` / `ADR-01`)**: Vertex AI returns `400 INVALID_ARGUMENT` if a single `LlmAgent` registers both built-in `GoogleSearchTool` grounding and custom Python `FunctionTool` definitions. Wrapping `WebSearchGroundingAgent` inside an ADK `AgentTool` lets `PamphletResearchAgent` invoke live Google Search grounding alongside PDF extraction and SHA-256 verification tools with zero schema collisions.
-- **85 Contract-Tested OpenAPI 3.1 Endpoints**: Verified on every `pytest` run by `test_openapi_contract_matches_live_fastapi_routes`, covering workflow execution, SSE streaming, A2A 1.0 tasks, Image Studio, speaker script polishing, Google Slides export, StudioKit, and Super-User Admin routes.
+- **117 Contract-Tested OpenAPI 3.1 Endpoints**: Verified on every `pytest` run by `test_openapi_contract_matches_live_fastapi_routes`, covering workflow execution, SSE streaming, A2A 1.0 tasks, MCP JSON-RPC 2.0 (`POST /mcp`), Hybrid PowerPoint Template Studio (`/api/v1/templates*`), Multi-Badge Workspaces & Favorites (`/api/v1/workspaces*`, `/api/v1/badges/favorites*`), Image Studio, speaker script polishing, Google Slides export, StudioKit, and Super-User Admin routes.
 
 #### Associated Probing Questions on Slide 4
 - See **Section 5**: **`Q7`** (`SequentialAgent` + `LoopAgent` vs. ReAct Swarm), **`Q8`** (`AgentTool` Search Isolation), **`Q9`** (`gemini-2.5-pro` vs. `gemini-2.5-flash` Ablation), **`Q12`** (Model Provider Portability), **`Q13`** (9 Components vs. 7 Specialist Agents), **`Q15`** (`EventsCompactionConfig`), and **`Q24`** (HMAC-SHA256 HITL Gate).
@@ -322,7 +325,7 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 - **Subtitle**: *Cryptographic SHA-256 requirement locks, Reciprocal Rank Fusion (Recall@3 = 1.00), and 3,917 pre-bundled visual assets across 144 badges.*
 - **Left Column (3 Stacked Cards)**:
   1. **`1. PyMuPDF Extraction & SHA-256 Requirement Lock`**: Parses all 144 official BSA Pamphlet PDFs + `scouting.org` requirements; `compute_canonical_pamphlet_hash()` locks verbatim sub-requirements (`1a..15b`) with SHA-256 so LLMs never paraphrase standards.
-  2. **`2. Hybrid BM25 + Cosine Vector RRF & 6-Table Store`**: Fuses Okapi BM25 lexical scores + 768-dim `text-embedding-005` vectors via RRF (`k=60`), achieving `1.0000 Recall@3` vs. `0.8125` dense-only; persisted in our 6-table SQLite WAL store + `CloudSQLPgVectorBackend` adapter.
+  2. **`2. Hybrid BM25 + Cosine Vector RRF & 8-Table Store`**: Fuses Okapi BM25 lexical scores + 768-dim `text-embedding-005` vectors via RRF (`k=60`), achieving `1.0000 Recall@3` vs. `0.8125` dense-only; persisted in our 8-table SQLite WAL store + `CloudSQLPgVectorBackend` adapter.
   3. **`3. 51-State Local Grounding & 3,917 Visual Assets`**: `_STATE_CIVIC_AND_FIELD_REGISTRY` resolves ZIP codes across all 51 jurisdictions to local NWS offices, terrain, parks & U.S. Senators; `3,917` pre-bundled visuals (`2,323` pamphlet figures + `1,306` AI scenes + `144` emblems + `144` covers).
 - **Right Visual Frame**: Composite showcase (`Top: 5-Step Workflow • Bottom: Pre-Bundled Visual Assets`).
 - **Footer & CTA Pill**: `Verified in ADR-02: Hybrid BM25 + 768-dim Cosine RRF achieves 1.0000 Recall@3 & 1.0000 MRR in 1.8ms with 68% token reduction.` | CTA: **`View ADRs in Repo ↗`**
@@ -426,22 +429,22 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 #### What is on the slide
 - **Eyebrow**: `AI-DRIVEN DEVELOPMENT HARNESS, GOLDEN EVAL GATE & POST-MORTEMS • FDE CAPSTONE READOUT • 10 / 12`
 - **Title**: *AI-Driven Engineering Harness: Turning Coding-Agent Mistakes into Automated Guardrails*
-- **Subtitle**: *How AGENTS.md constraints, SHA-256 prompt manifests, 60 pytest tests, and 4 post-mortems govern human-AI engineering.*
+- **Subtitle**: *How AGENTS.md constraints, SHA-256 prompt manifests, 67 pytest tests, and 4 post-mortems govern human-AI engineering.*
 - **Three Full-Height Storyboard Columns**:
   1. **`1. Pre-Coding Harness & Eval Gate` (`1.00 Recall@3 • 100% Lock`)**:
      - `AGENTS.md` & `SPEC.md` Contracts: Codifies ADK tool-isolation, `12.0pt` font floor, `unslop` prose rules & YPT guardrails before coding.
      - Cryptographic Prompt Manifest: `prompts/manifest.json` locks XML-tagged system prompts via SHA-256.
      - Blocking Golden Eval Gate: `scripts/eval_gate.py` + `Vertex EvalTask` across 12 Golden Badges enforce `Recall@3=1.00`, `MRR=1.00`, `NDCG@3=1.00` & `0` AABB overlaps.
-  2. **`2. In-Loop vs Out-of-Loop & Flywheel` (`60 / 60 Pytest • 85 APIs`)**:
+  2. **`2. In-Loop vs Out-of-Loop & Flywheel` (`67 / 67 Pytest • 117 APIs`)**:
      - In-the-Loop Co-Design: Interactive UI verification via Playwright & 150-DPI 4-quadrant vision audits on every UI & slide change.
-     - Outside-the-Loop Batch Suite: `60` `pytest` tests cover all 144 badges, `85` OpenAPI 3.1 paths, fault injection & 8-worker load (`14.2ms p95`).
+     - Outside-the-Loop Batch Suite: `67` `pytest` tests cover all 144 badges, `117` OpenAPI 3.1 paths, fault injection & 8-worker load (`14.2ms p95`).
      - Continuous Learning Flywheel: Counselor ratings (`>=4/5` stars) auto-promote to `golden_extensions.json` + Schema Upcaster (`v1.0->v1.2`).
   3. **`3. 4 Coding-Agent Mistakes Fixed` (`FM-1..FM-4 • 0 Regressions`)**:
      - `FM-1 (Vertex Tool Collision)`: Agent mixed `GoogleSearchTool` + `FunctionTool` (HTTP `400`) -> Isolated search inside ADK `AgentTool`.
      - `FM-2 (Split-Card Text Bleed)`: Fixed-size text overflowed cards -> Added `_compute_fitting_font_size()` (`12.0pt` floor, `0.86` wrap margin).
      - `FM-3 (Synthetic Badge Icons)`: Replaced 6 synthetic circular icons with `400x400` Scout Shop emblems.
      - `FM-4 (Popup-Only Presenter)`: Added in-stage Split-Screen Console (`P`) for single-screen laptops.
-- **Footer & CTA Pill**: `Blocking CI/CD Eval Gate (scripts/eval_gate.py): 1.00 Recall@3 • 1.00 MRR • 100% Sub-Req Coverage • 0 AABB Overlaps • 60/60 Pytest.` | CTA: **`View ADRs in Repo ↗`**
+- **Footer & CTA Pill**: `Blocking CI/CD Eval Gate (scripts/eval_gate.py): 1.00 Recall@3 • 1.00 MRR • 100% Sub-Req Coverage • 0 AABB Overlaps • 67/67 Pytest.` | CTA: **`View ADRs in Repo ↗`**
 
 #### Technical details & jargon on Slide 10
 - **How Coding-Agent Failures Become Permanent Guardrails (`FM-1..FM-4`)**: Every time an AI coding assistant introduced a subtle regression during development, we fixed the root cause, added an explicit rule to `AGENTS.md`, and wrote a deterministic regression test in `tests/` (`test_conformance_and_a2ui.py` and `test_image_and_caption_quality.py`) so the failure can never recur.
@@ -486,7 +489,7 @@ This section walks through all **12 core slides (`1 / 12` through `12 / 12`, zer
 - **Column 2 (`2. Verified Capstone Rubric Scorecard`)**:
   - **Technical Architecture Rubric: `3.00 / 3.00`**: All 27 engineering criteria verified in code.
   - **AgentOps Production Score: `95 / 95`**: 6-step Cloud Build canary (`10% -> 100%`) with auto-rollback on `/readiness` fail.
-  - **FDE Readiness Score: `100 / 100`**: `144/144` Badges • `60/60` Pytest Tests • `85` OpenAPI Paths • `Recall@3 = 1.0000` • `0` Stage-1 AABB Overlaps (`3.4ms` avg).
+  - **FDE Readiness Score: `100 / 100`**: `144/144` Badges • `67/67` Pytest Tests • `117` OpenAPI Paths • `Recall@3 = 1.0000` • `0` Stage-1 AABB Overlaps (`3.4ms` avg).
   - **Live Demo Walkthrough (`:8085`)**: (1) Badge Discovery & Patch Gallery, (2) Image Switcher & AI Script Polish, (3) Split-Screen Presenter & Quiz (`Space`), (4) Blue Cards, QR Handout & GSlides, (5) Super-User Admin Console (`Ctrl+Shift+A`).
 - **Column 3 (Visual Frame)**: Multi-region Google Cloud deployment topology (`Cloud Run + Terraform + Canary CI/CD`).
 - **Footer & CTA Pill**: `Live Demo Ready (:8085 Material 3 Workbench) • Eric Clayberg (Troop 19, Middleton MA) • Thank You & Panel Q&A!` | CTA: **`Open GitHub Repo ↗`**
@@ -621,13 +624,13 @@ If a panelist interrupts with a question while a specific slide is on screen, us
 | **Slide 1 (`01 / 12`)** | **Scouts BSA Merit Badge Counselor Workbench** (`144 Badges`, `< 2 Min`, `$0.14-$1.00`, `3,917` Visuals, `6` Deliverables) | `Q1`, `Q2`, `Q10`, `Q13`, `Q32`, `Q34`, `Q50` |
 | **Slide 2 (`02 / 12`)** | **Volunteer Counselors Spend 8 to 15 Hours Per Badge Rebuilding Slides & Handouts** (Problem, 3 Personas, Scope Boundaries, DoD SLOs) | `Q2`, `Q3`, `Q4`, `Q6`, `Q10` |
 | **Slide 3 (`03 / 12`)** | **End-to-End Critical User Journeys: From Badge Selection to Blue Card Sign-Off** (`CUJ-1..3`, Patch Gallery, 3 Construction Animations, Co-Design) | `Q6`, `Q11`, `Q38`, `Q47`, `Q50` |
-| **Slide 4 (`04 / 12`)** | **9-Component / 7-Agent Google ADK Pipeline Orchestrates Research, Planning & QA** (`SequentialAgent`, `LoopAgent`, `AgentTool`, Compaction, `85` APIs) | `Q7`, `Q8`, `Q9`, `Q12`, `Q13`, `Q15`, `Q24`, `Q38` |
-| **Slide 5 (`05 / 12`)** | **Zero-Drift Pamphlet Grounding, Hybrid BM25+Vector RAG & 51-State Local Context** (PyMuPDF, SHA-256 Lock, Hybrid RRF `Recall@3=1.00`, 6-Table SQLite, 51 States) | `Q6`, `Q10`, `Q11`, `Q14`, `Q15`, `Q31` |
+| **Slide 4 (`04 / 12`)** | **9-Component / 7-Agent Google ADK Pipeline Orchestrates Research, Planning & QA** (`SequentialAgent`, `LoopAgent`, `AgentTool`, Compaction, `117` APIs) | `Q7`, `Q8`, `Q9`, `Q12`, `Q13`, `Q15`, `Q24`, `Q38` |
+| **Slide 5 (`05 / 12`)** | **Zero-Drift Pamphlet Grounding, Hybrid BM25+Vector RAG & 51-State Local Context** (PyMuPDF, SHA-256 Lock, Hybrid RRF `Recall@3=1.00`, 8-Table SQLite, 51 States) | `Q6`, `Q10`, `Q11`, `Q14`, `Q15`, `Q31` |
 | **Slide 6 (`06 / 12`)** | **Pedagogical Slide Engine: 12 BSA EDGE Archetypes, 3 Polish Tiers & `<10ms` AABB Gate** (12 Archetypes, 2 Depths, 3 Tiers, De-Boxed Figures, `12.0pt` Floor, `3.4ms` AABB) | `Q3`, `Q17`, `Q18` |
 | **Slide 7 (`07 / 12`)** | **Interactive Human-AI Co-Design: Image Switcher, 4-Tab Studio & Conversational Notes** (`◀ 1/3 ▶ ▾` Switcher, 4-Tab Studio, `$0.08` Gate, Hybrid `[SAY]/[DEMO]/[ASK]` Polish) | `Q16`, `Q19`, `Q35`, `Q42`, `Q43`, `Q45` |
 | **Slide 8 (`08 / 12`)** | **Complete Classroom & Field Toolkit: Blue Cards, Workbooks, Agendas & Google Slides** (Blue Card `#34124`, Workbook, 4-Mode Agendas, Gear List, QR Handout, Presenter `P`, GSlides) | `Q2`, `Q17`, `Q44`, `Q47`, `Q49` |
 | **Slide 9 (`09 / 12`)** | **FinOps Unit Economics: Pre-Bundled Visuals Cut Cold Spend to `~$0.18` (`$1.00` Max Cap)** (3-Model Routing, `$0.00` Pre-Bundled Image Cost, `~$192.50/mo` Council TCO) | `Q9`, `Q32`, `Q33`, `Q34`, `Q35`, `Q42` |
-| **Slide 10 (`10 / 12`)** | **AI-Driven Engineering Harness: Turning Coding-Agent Mistakes into Automated Guardrails** (`AGENTS.md`, `eval_gate.py`, `60` Pytests, Golden Flywheel, `FM-1..FM-4`) | `Q8`, `Q18`, `Q36`, `Q37`, `Q43`, `Q48`, `Q50` |
+| **Slide 10 (`10 / 12`)** | **AI-Driven Engineering Harness: Turning Coding-Agent Mistakes into Automated Guardrails** (`AGENTS.md`, `eval_gate.py`, `67` Pytests, Golden Flywheel, `FM-1..FM-4`) | `Q8`, `Q18`, `Q36`, `Q37`, `Q43`, `Q48`, `Q50` |
 | **Slide 11 (`11 / 12`)** | **Defense-in-Depth Security, Youth Protection (YPT) & Zero-PII Admin Console** (Pre-LLM PII Scrub, Model Armor, 3-State Breaker, `Ctrl+Shift+A` Admin & Swap Leaderboard) | `Q21`, `Q22`, `Q23`, `Q24`, `Q25`, `Q28`, `Q29`, `Q46` |
 | **Slide 12 (`12 / 12`)** | **Cloud Run v2 Production Infrastructure, 90-Day National Rollout & Scorecard** (Prototype vs. 90-Day Rollout, `3.00/3.00 • 95/95 • 100/100`, Terraform + Canary CI/CD) | `Q4`, `Q5`, `Q20`, `Q26`, `Q27`, `Q30`, `Q31`, `Q39`, `Q40`, `Q41` |
 
@@ -1003,11 +1006,11 @@ If a panelist interrupts with a question while a specific slide is on screen, us
 - **Code & Doc Citations**: `scripts/eval_gate.py`, `src/agents/researcher.py` (`verify_subrequirement_coverage`), `cloudbuild.yaml`.
 
 #### **Q37. How do your unit and integration tests run deterministically in CI without incurring live Vertex AI token costs on every PR?**
-- **Associated Slides**: **Slide 10** (Col 2: `60 / 60 Pytest • 85 APIs`), **Slide 12** (Scorecard)
+- **Associated Slides**: **Slide 10** (Col 2: `67 / 67 Pytest • 117 APIs`), **Slide 12** (Scorecard)
 - **Rubric Mapping**: **6.4 (Testing & Quality Engineering)** & **5.3 (AI Cost Management)**
 - **Golden Answer**:
-  "In CI (`pytest tests/` and `scripts/eval_gate.py`), `USE_LIVE_VERTEX_AI` defaults to `false`. Our test suite (**`60` passing `pytest` tests** across 6 test modules, verifying all 144 Merit Badges and `400x400` emblems, automated OpenAPI 3.1 contract drift across all **`85` paths**, selective Web/AI cache clearing, Easy Slide Image Switcher `slide_image_choices`, Hybrid Conversational Speaker Notes and parallel batch polish, Direct Google Slides export, Scannable ISO 18004 QR SVG generation, Counselor Field Toolkit, and Super-User Admin Console + `ZeroPiiTelemetryStore`) exercises the **exact same Python tool functions, SQLite WAL + Hybrid BM25/Vector RRF search, SHA-256 requirement hash verification, HMAC-SHA256 HITL token validation, PII scrubber, 3-state `CircuitBreaker` fault injection, `python-pptx` compilation, and Stage 1 AABB geometry overlap math** using our deterministic curriculum synthesizer and controlled fault-injection mocks. Every PR runs all 60 tests and the 12-badge evaluation gate in **under 30 seconds at `$0.00` Vertex AI cost**, while staging/nightly builds can set `USE_LIVE_VERTEX_AI=true` to run live Gemini and `vertexai.preview.evaluation.EvalTask` smoke tests."
-- **Code & Doc Citations**: `tests/test_tools.py`, `tests/test_memory.py`, `tests/test_pii_scrubber.py`, `tests/test_conformance_and_a2ui.py`, `tests/test_resilience_and_fault_injection.py`, `tests/test_image_and_caption_quality.py`.
+  "In CI (`pytest tests/` and `scripts/eval_gate.py`), `USE_LIVE_VERTEX_AI` defaults to `false`. Our test suite (**`67` passing `pytest` tests** across 7 test modules, verifying all 144 Merit Badges and `400x400` emblems, automated OpenAPI 3.1 contract drift across all **`117` paths**, Hybrid PowerPoint Template Studio (`8` built-in templates + custom upload/URL import + `SafeCanvasBounds`), Multi-Badge Counselor Workspaces & Starred Favorites (`<80ms` deck switching, section cloning, `.bsadeck.json` backup), Official Scouts BSA Workbench MCP Server (`12` tools, `6` `bsa://` resources, `4` prompts over Stdio & HTTP JSON-RPC 2.0), selective Web/AI cache clearing, Easy Slide Image Switcher `slide_image_choices`, Hybrid Conversational Speaker Notes and parallel batch polish, Direct Google Slides export, Scannable ISO 18004 QR SVG generation, Counselor Field Toolkit, and Super-User Admin Console + `ZeroPiiTelemetryStore`) exercises the **exact same Python tool functions, SQLite WAL + Hybrid BM25/Vector RRF search, SHA-256 requirement hash verification, HMAC-SHA256 HITL token validation, PII scrubber, 3-state `CircuitBreaker` fault injection, `python-pptx` compilation, and Stage 1 AABB geometry overlap math** using our deterministic curriculum synthesizer and controlled fault-injection mocks. Every PR runs all 67 tests and the 12-badge evaluation gate in **under 30 seconds at `$0.00` Vertex AI cost**, while staging/nightly builds can set `USE_LIVE_VERTEX_AI=true` to run live Gemini and `vertexai.preview.evaluation.EvalTask` smoke tests."
+- **Code & Doc Citations**: `tests/test_tools.py`, `tests/test_memory.py`, `tests/test_pii_scrubber.py`, `tests/test_conformance_and_a2ui.py`, `tests/test_resilience_and_fault_injection.py`, `tests/test_image_and_caption_quality.py`, `tests/test_templates_workspaces_and_mcp.py`.
 
 #### **Q38. How does your FastAPI workflow endpoint handle long-running deck generation requests without timing out HTTP clients?**
 - **Associated Slides**: **Slide 3** (CUJ-2 Live Construction Animations), **Slide 4** (Card 3: Dual-Transport API Plane), **Slide 12** (Col 1: Cloud Tasks)
@@ -1043,7 +1046,7 @@ If a panelist interrupts with a question while a specific slide is on screen, us
 - **Golden Answer**:
   "Because zero agent files hardcode model IDs, our model cutover runbook (`docs/runbook.md` & `config/finops_model_policy.json`) is a 4-step zero-code process:
   1. **Policy Update in Branch**: Update `fast_worker_model` in `config/finops_model_policy.json` from `gemini-2.5-flash` to `gemini-3.0-flash` and update the per-million token rates.
-  2. **Golden Evaluation Gate (`scripts/eval_gate.py`)**: Run `python3 scripts/eval_gate.py` and `pytest` (`60` tests) against all 12 golden badges to verify that `gemini-3.0-flash` maintains `100%` sub-requirement coverage, `100%` SHA-256 lock, `0` Stage 1 AABB shape overlaps, and stays under the `$0.14 / $0.38 / $1.00` FinOps tier ceilings.
+  2. **Golden Evaluation Gate (`scripts/eval_gate.py`)**: Run `python3 scripts/eval_gate.py` and `pytest` (`67` tests) against all 12 golden badges to verify that `gemini-3.0-flash` maintains `100%` sub-requirement coverage, `100%` SHA-256 lock, `0` Stage 1 AABB shape overlaps, and stays under the `$0.14 / $0.38 / $1.00` FinOps tier ceilings.
   3. **10% Canary Traffic Rollout (`cloudbuild.yaml`)**: Merge to trigger Cloud Build, which deploys the `gemini-3.0-flash` revision to Cloud Run at a `10%` canary traffic split and monitors OpenTelemetry latency, error rates, and `/readiness`.
   4. **100% Promotion**: Once canary metrics pass, promote traffic to `100%`."
 - **Code & Doc Citations**: `config/finops_model_policy.json`, `prompts/manifest.json`, `scripts/eval_gate.py`, `cloudbuild.yaml`.
@@ -1114,7 +1117,7 @@ If a panelist interrupts with a question while a specific slide is on screen, us
 - **Golden Answer**:
   "When building a production system with AI coding agents, unconstrained prompting leads to architectural drift. We structured our engineering harness in three layers (shown across the three columns on Slide 10):
   1. **Pre-Coding Architectural Contracts (`AGENTS.md`, `SPEC.md`, `SCOPE.md`, `prompts/manifest.json`)**: Before writing feature code, we codified non-negotiable rules in `AGENTS.md`: ADK `AgentTool` search isolation, our `12.0pt` minimum font floor, `unslop` prose rules (zero em/en dashes), pre-LLM PII scrubbing, and SHA-256 prompt manifest locking.
-  2. **In-the-Loop vs. Outside-the-Loop Verification**: In the loop, we verified every UI and slide change visually using headless Playwright captures and 150-DPI 4-quadrant vision inspection. Outside the loop, every commit must pass **`60` automated `pytest` tests** (`85` OpenAPI 3.1 endpoints, fault injection, `14.2ms p95` load test) and our blocking **`scripts/eval_gate.py`** across the 12-badge Golden Suite (`Recall@3 = 1.0000`, `0` Stage-1 AABB overlaps).
+  2. **In-the-Loop vs. Outside-the-Loop Verification**: In the loop, we verified every UI and slide change visually using headless Playwright captures and 150-DPI 4-quadrant vision inspection. Outside the loop, every commit must pass **`67` automated `pytest` tests** (`117` OpenAPI 3.1 endpoints, fault injection, `14.2ms p95` load test) and our blocking **`scripts/eval_gate.py`** across the 12-badge Golden Suite (`Recall@3 = 1.0000`, `0` Stage-1 AABB overlaps).
   3. **Turning Coding-Agent Mistakes into Automated Regression Tests (`FM-1..FM-4`)**: Every time a coding agent made a mistake, we turned the post-mortem into both an `AGENTS.md` rule and a permanent `pytest` test:
      - **`FM-1` (Vertex AI Tool Collision)**: Agent mixed `GoogleSearchTool` and `FunctionTool` on one agent (HTTP `400`) -> Isolated search inside `WebSearchGroundingAgent` (`AgentTool`) + contract test.
      - **`FM-2` (Split-Card Text Overflow)**: Fixed font sizes bled out of split cards -> Built `_compute_fitting_font_size()` (`12.0pt` floor, `0.86` margin) + `check_pptx_conformance()` AABB gate.
@@ -1165,7 +1168,7 @@ Before starting the live panel presentation, run the `<5 second` automated pre-f
 
 *(Maps to **Slide 4**, **Slide 5**, **Slide 6**, **Slide 9**, and **Slide 10** | Official Rubric Subcategories **Architectural Trade-Offs & Tech Stack Defense** and **Self-Directed Learning & Continuous Improvement**)*
 
-### 7.1 Quantitative Architectural Trade-Off Matrices (`ADR-01` through `ADR-09`)
+### 7.1 Quantitative Architectural Trade-Off Matrices (`ADR-01` through `ADR-10`)
 
 #### Table 7.1A: Multi-Agent Orchestration Framework Trade-Offs (`ADR-01`)
 | Metric / Criterion | **Google ADK (`SequentialAgent` + `LoopAgent` + `AgentTool`) (Chosen)** | LangGraph (`StateGraph`) | CrewAI (Role-Playing Swarm) | Single-Prompt Monolithic LLM |

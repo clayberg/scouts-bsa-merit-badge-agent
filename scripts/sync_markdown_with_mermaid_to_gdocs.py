@@ -42,6 +42,8 @@ CHROME_BIN = "/usr/bin/google-chrome"
 _DEFAULT_COMPANION_GDOCS: dict[str, str] = {
     "docs/USER_GUIDE.md": "1IYMvIW_72EFoA5wr4h1I4mPXyCm0k6RmRbnlv9z5dHo",
     "docs/ADMIN_GUIDE.md": "1jCQclVI2KnO-qJaRqwRHQkVMJ8CDohWjU8u2JT3CJpU",
+    "docs/API_INTEGRATION_GUIDE.md": "1kJ2Dr3UeQka89_HV_MyDBPlIHEvj2ZB0Xczo1sQKBDU",
+    "docs/MCP_SERVER_INTEGRATION_GUIDE.md": "1LBSU1slmXO4dM7x45vcSSE4-oSbMqPA5UViml8J44BA",
     "docs/TDD.md": "1Bpj41LTlT4MKyLSyxtSOvEtdj2kMHsPBSqL6lqeF_nQ",
     "docs/finops-billing-and-deployment-guide.md": "1k8oXmGze3dxOotTvahVEOhQT5qET425wRbmH3mU6miQ",
     "docs/FDE_CAPSTONE_COMPANION_GUIDE.md": "1a_3TPfgm7U2O5S_f4QR_Aey3ptGnICFdAgvzfF-uXYw",
@@ -49,6 +51,20 @@ _DEFAULT_COMPANION_GDOCS: dict[str, str] = {
     "docs/CAPSTONE_ARTIFACT_ANALYZER_REPORT.md": "1xTVDg0mWaK8oUhPiVrEjsA0vcOkZj9CKARse0iNFi7M",
     "docs/CAPSTONE_PANEL_PLAYBOOK.md": "1S80Sja2XTpyHxrSwuaATYaEePbF1PV6CkrCiDbEbiaU",
     "docs/CAPSTONE_SUBMISSION_AND_BUNDLING_GUIDE.md": "13OQXD6ec260-3bLVRwC2hSiSpLJAURT7vkUVW2DeQF4",
+}
+
+_COMPANION_GDOC_TITLES: dict[str, str] = {
+    "docs/USER_GUIDE.md": "Scouts BSA Merit Badge Counselor Workbench: Detailed User Guide",
+    "docs/ADMIN_GUIDE.md": "Scouts BSA Merit Badge Counselor Workbench: Super-User Admin Guide (docs/ADMIN_GUIDE.md)",
+    "docs/API_INTEGRATION_GUIDE.md": "Scouts BSA Merit Badge Counselor Workbench: API Integration Guide (docs/API_INTEGRATION_GUIDE.md)",
+    "docs/MCP_SERVER_INTEGRATION_GUIDE.md": "Scouts BSA Merit Badge Counselor Workbench: MCP Server Integration Guide (docs/MCP_SERVER_INTEGRATION_GUIDE.md)",
+    "docs/TDD.md": "Technical Design Document & Custom Project Scope: Scouts BSA Merit Badge Counselor Workbench",
+    "docs/finops-billing-and-deployment-guide.md": "Scouts BSA Merit Badge Workbench - FinOps, Token Billing & Deployment Cost Guide",
+    "docs/FDE_CAPSTONE_COMPANION_GUIDE.md": "FDE Capstone Companion Guide: Slide-by-Slide Explainer, Jargon Decoder & Architecture Primer",
+    "docs/CAPSTONE_CONVERSATIONAL_PRESENTATION_AND_DEMO_SCRIPT.md": "Scouts BSA Merit Badge Agent: Conversational Slide Deck, Live Demo & Panel Q&A Script",
+    "docs/CAPSTONE_ARTIFACT_ANALYZER_REPORT.md": "FDE Capstone App (go/capstone-app) & Background Artifact Analyzer Report",
+    "docs/CAPSTONE_PANEL_PLAYBOOK.md": "FDE Capstone Panel Playbook: Speaker Script, Live Demo & CTO/CIO/CFO Q&A",
+    "docs/CAPSTONE_SUBMISSION_AND_BUNDLING_GUIDE.md": "FDE Capstone Option A: Staging & Production Web App Submission, GitHub Sync & Bundling Guide",
 }
 
 
@@ -503,7 +519,10 @@ def process_markdown_file(
             str(temp_md_path),
             "--update",
             doc_id,
+            "--ignore-sharing-checks",
         ]
+        if md_rel_path in _COMPANION_GDOC_TITLES:
+          cmd.extend(["--title", _COMPANION_GDOC_TITLES[md_rel_path]])
         res = subprocess.run(cmd, capture_output=True, text=True)
         combined_out = (res.stdout or "") + "\n" + (res.stderr or "")
         has_err = (
@@ -555,8 +574,15 @@ def main() -> None:
       "README.md",
       "docs/USER_GUIDE.md",
       "docs/ADMIN_GUIDE.md",
+      "docs/API_INTEGRATION_GUIDE.md",
+      "docs/MCP_SERVER_INTEGRATION_GUIDE.md",
       "docs/TDD.md",
       "docs/finops-billing-and-deployment-guide.md",
+      "docs/FDE_CAPSTONE_COMPANION_GUIDE.md",
+      "docs/CAPSTONE_CONVERSATIONAL_PRESENTATION_AND_DEMO_SCRIPT.md",
+      "docs/CAPSTONE_ARTIFACT_ANALYZER_REPORT.md",
+      "docs/CAPSTONE_PANEL_PLAYBOOK.md",
+      "docs/CAPSTONE_SUBMISSION_AND_BUNDLING_GUIDE.md",
   ]
 
   for i, rel_path in enumerate(target_files):

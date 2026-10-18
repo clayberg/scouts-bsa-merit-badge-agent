@@ -2118,9 +2118,9 @@ def test_v29_plan11_modals_presenter_docs_viewer_and_readme_clean() -> None:
 
     docs_cat = client.get("/api/v1/docs").json()
     assert docs_cat["status"] == "SUCCESS"
-    assert docs_cat["total_count"] == 11
+    assert docs_cat["total_count"] == 12
     assert len(docs_cat["user_docs"]) == 2
-    assert len(docs_cat["engineering_docs"]) == 9
+    assert len(docs_cat["engineering_docs"]) == 10
     all_ids = [d["doc_id"] for d in docs_cat["all_docs"]]
     assert "user_guide" in all_ids and "admin_guide" in all_ids
     assert all("capstone" not in doc_id.lower() for doc_id in all_ids)
@@ -2351,6 +2351,205 @@ def test_v28_vision_captions_slide_context_toggle_model_armor_and_dark_mode(monk
     assert "body.m3-dark-mode .m3-construction-topbar" in ui_css
     assert "body.m3-dark-mode .m3-construction-concept-btn" in ui_css
     assert "body.m3-dark-mode .m3-construction-footer" in ui_css
+
+
+def test_v35_plan16_templates_workspaces_favorites_and_mcp() -> None:
+    """Verifies Plans 16A, 16B, and 16C end-to-end:
+    - Plan 16A: 8 council-neutral curated PowerPoint templates, SafeCanvasBounds AABB conformance,
+      1-click template application, and custom template upload.
+    - Plan 16B: Multi-badge counselor workspaces CRUD, cloning for Morning vs. Afternoon Patrol,
+      cross-badge Blue Card roster copying, and starred favorite Merit Badges.
+    - Plan 16C: Dual-transport MCP Server (`src/mcp_server.py` + `POST /mcp` JSON-RPC 2.0) with
+      12 Tools, 6 `bsa://` Resources, 4 Prompts, and Model Armor safety enforcement.
+    """
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from src.server import app
+
+    client = TestClient(app)
+    repo_root = Path(__file__).resolve().parent.parent
+
+    # 1. Plan 16A: Verify 8 council-neutral curated templates
+    tpl_resp = client.get("/api/v1/templates")
+    assert tpl_resp.status_code == 200
+    tpl_data = tpl_resp.json()
+    assert tpl_data["status"] == "SUCCESS"
+    assert tpl_data["total"] >= 8
+    tpl_ids = {t["template_id"] for t in tpl_data["templates"]}
+    for expected_id in (
+        "default_workbench",
+        "scouting_america_250",
+        "scouting_america_forest_sunrise",
+        "scouting_america_topographic",
+        "scouting_america_high_adventure_rock",
+        "classic_outdoor_silhouette_navy",
+        "classic_fleur_crimson_crest",
+        "wilderness_camp_timber",
+    ):
+        assert expected_id in tpl_ids
+
+    # Ensure zero external council/site references in template names/descriptions
+    for t in tpl_data["templates"]:
+        combined = f"{t['name']} {t['description']}".lower()
+        assert "michigan" not in combined
+        assert "brewster" not in combined
+
+    # Apply 'scouting_america_250' template to sample slides and verify PPTX build
+    apply_resp = client.post(
+        "/api/v1/templates/apply",
+        json={
+            "badge_name": "First Aid",
+            "template_id": "scouting_america_250",
+            "storyboard_slides": [
+                {
+                    "title": "Requirement 1: Scene Safety & Triage",
+                    "req_number": "1",
+                    "archetype": "SPLIT_VISUAL_EXPLAINER",
+                    "bullet_points": ["Check Scene: Ensure responder safety before approaching."],
+                    "safety_warning": "Wear personal protective gloves.",
+                }
+            ],
+            "accent_palette_key": "MATCH_TEMPLATE",
+        },
+    )
+    assert apply_resp.status_code == 200
+    apply_json = apply_resp.json()
+    assert apply_json["status"] == "SUCCESS"
+    assert apply_json["template"]["template_id"] == "scouting_america_250"
+    assert apply_json["pptx_download_url"]
+
+    # 2. Plan 16B: Verify Starred Favorites & Multi-Badge Workspaces + Cloning
+    fav_resp = client.post("/api/v1/counselor/favorites", json={"badge_name": "Kayaking", "is_favorite": True})
+    assert fav_resp.status_code == 200
+    assert "Kayaking" in fav_resp.json()["favorites"]
+
+    ws_create = client.post(
+        "/api/v1/workspaces",
+        json={
+            "workspace_title": "First Aid — Morning Patrol",
+            "badge_name": "First Aid",
+            "session_label": "Morning Patrol (9:00 AM)",
+            "camp_bundle_tag": "Summer Camp Week 1",
+            "template_id": "scouting_america_250",
+            "blue_card_roster": {
+                "scouts": [
+                    {"name": "Alex Carter", "troop": "Troop 19", "patrol": "Eagle Patrol", "completed_reqs": ["1a", "2a"]},
+                    {"name": "Sam Rivera", "troop": "Troop 19", "patrol": "Fox Patrol", "completed_reqs": ["1a"]},
+                ]
+            },
+            "deck_result": {
+                "badge_name": "First Aid",
+                "storyboard": {
+                    "slides": [
+                        {
+                            "title": "Requirement 1a: First Aid Kit",
+                            "req_number": "1a",
+                            "archetype": "SPLIT_VISUAL_EXPLAINER",
+                            "bullet_points": ["Inspect sterile gauze and bandages."],
+                        }
+                    ]
+                },
+            },
+        },
+    )
+    assert ws_create.status_code == 200
+    ws_id = ws_create.json()["workspace"]["workspace_id"]
+    assert ws_id.startswith("ws_first_aid_")
+
+    # Clone workspace for Afternoon Patrol with clean roster
+    ws_clone = client.post(
+        f"/api/v1/workspaces/{ws_id}/clone",
+        json={"session_label": "Afternoon Patrol (2:00 PM)", "copy_roster": False},
+    )
+    assert ws_clone.status_code == 200
+    cloned_ws = ws_clone.json()["workspace"]
+    cloned_id = cloned_ws["workspace_id"]
+    assert cloned_id != ws_id
+    assert cloned_ws["scout_count"] == 0
+
+    # 3. Plan 16C: Verify MCP Server Info & JSON-RPC 2.0 Endpoint (`POST /mcp`)
+    mcp_info = client.get("/mcp/info")
+    assert mcp_info.status_code == 200
+    info_json = mcp_info.json()
+    assert info_json["counts"]["tools"] == 12
+    assert info_json["counts"]["resources"] == 6
+    assert info_json["counts"]["prompts"] == 4
+
+    # JSON-RPC initialize
+    rpc_init = client.post("/mcp", json={"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": {}})
+    assert rpc_init.status_code == 200
+    assert rpc_init.json()["result"]["serverInfo"]["name"] == "scouts-bsa-merit-badge-workbench"
+
+    # JSON-RPC tools/call -> copy_roster_from_workspace from Morning Patrol to Afternoon Patrol
+    rpc_copy = client.post(
+        "/mcp",
+        json={
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "tools/call",
+            "params": {
+                "name": "manage_patrol_blue_card_roster",
+                "arguments": {
+                    "workspace_id": cloned_id,
+                    "action": "copy_roster_from_workspace",
+                    "copy_from_workspace_id": ws_id,
+                },
+            },
+        },
+    )
+    assert rpc_copy.status_code == 200
+    copy_res = rpc_copy.json()["result"]["structuredContent"]
+    assert copy_res["status"] == "SUCCESS"
+    assert copy_res["copied_count"] == 2
+    assert copy_res["scout_count"] == 2
+
+    # JSON-RPC tools/call -> update_slide_in_deck & audit_deck_conformance
+    rpc_upd = client.post(
+        "/mcp",
+        json={
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "tools/call",
+            "params": {
+                "name": "update_slide_in_deck",
+                "arguments": {
+                    "workspace_id": ws_id,
+                    "slide_index": 0,
+                    "title": "Requirement 1a: Personal First-Aid Kit Inspection",
+                },
+            },
+        },
+    )
+    assert rpc_upd.status_code == 200
+    assert rpc_upd.json()["result"]["structuredContent"]["status"] == "SUCCESS"
+
+    rpc_audit = client.post(
+        "/mcp",
+        json={
+            "jsonrpc": "2.0",
+            "id": 4,
+            "method": "tools/call",
+            "params": {"name": "audit_deck_conformance", "arguments": {"workspace_id": ws_id}},
+        },
+    )
+    assert rpc_audit.status_code == 200
+    audit_res = rpc_audit.json()["result"]["structuredContent"]
+    assert audit_res["conformance_report"]["passed"] is True
+    assert audit_res["conformance_report"]["aabb_overlap_count"] == 0
+
+    # Clean up test workspaces
+    client.delete(f"/api/v1/workspaces/{ws_id}")
+    client.delete(f"/api/v1/workspaces/{cloned_id}")
+
+    # Verify UI & Dark Mode CSS parity for Plans 16A, 16B, 16C
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    assert 'id="template-studio-modal"' in ui_html
+    assert 'id="saved-workspaces-modal"' in ui_html
+    assert 'id="mcp-hub-modal"' in ui_html
+    assert "body.m3-dark-mode .m3-template-card" in ui_css
+    assert "body.m3-dark-mode .m3-active-workspaces-bar" in ui_css
+
 
 
 
