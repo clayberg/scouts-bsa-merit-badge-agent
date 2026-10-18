@@ -6159,6 +6159,285 @@ body.m3-dark-mode .m3-mcp-prompt-item {
   color: #FDE68A !important;
 }
 
+/* ============================================================================
+   UX/UI REFINEMENTS (OPTIONS 1, 2 & 3):
+   1. Single-Line Top App Bar Consolidation (.m3-top-utility-pill)
+   2. Single-Row Above-Stage Toolbar Stack (.m3-stage-stepper-pill & Tools Menu)
+   3. 100% Offline-Resilient Inline Icons (.m3-inline-icon)
+   ============================================================================ */
+
+.m3-inline-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  line-height: 1;
+  font-size: 0.96em;
+  flex-shrink: 0;
+}
+
+.m3-top-bar {
+  padding: 10px 18px;
+  gap: 10px;
+}
+
+.m3-brand-cluster {
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.m3-brand-emblem {
+  width: 38px;
+  height: 38px;
+}
+
+.m3-brand-titles h1 {
+  font-size: 1.06rem;
+  white-space: nowrap;
+}
+
+.m3-brand-subtitle {
+  font-size: 0.71rem;
+  white-space: nowrap;
+}
+
+.m3-top-actions {
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 1260px) {
+  .m3-top-actions {
+    flex-wrap: wrap;
+  }
+}
+
+.m3-top-compact-btn {
+  padding: 5px 9px !important;
+  font-size: 0.72rem !important;
+  white-space: nowrap;
+}
+
+.m3-top-utility-pill {
+  display: inline-flex;
+  align-items: center;
+  background: #F1F5F9;
+  border: 1px solid #CBD5E1;
+  border-radius: 999px;
+  padding: 2px;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.m3-utility-seg-btn {
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 0.71rem;
+  font-weight: 700;
+  color: #1E293B;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.m3-utility-seg-btn:hover {
+  background: #E2E8F0;
+  color: #003F87;
+}
+
+/* Single-Row Slide Stage Toolbar */
+.m3-slide-canvas-wrapper {
+  gap: 10px;
+}
+
+.m3-slide-toolbar {
+  padding: 6px 10px;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.m3-stage-toolbar-left,
+.m3-stage-toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.m3-stage-compact-btn {
+  padding: 4px 7px !important;
+  font-size: 0.71rem !important;
+  white-space: nowrap !important;
+  flex-shrink: 0;
+}
+
+.m3-active-workspaces-bar {
+  padding: 5px 10px !important;
+  gap: 6px !important;
+}
+
+.m3-ws-pill {
+  padding: 3px 8px !important;
+  font-size: 0.71rem !important;
+  gap: 4px !important;
+  white-space: nowrap;
+}
+
+.m3-ws-action-btn {
+  padding: 3px 8px !important;
+  font-size: 0.71rem !important;
+  white-space: nowrap;
+}
+
+.m3-session-timer-cluster {
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding: 2px 6px !important;
+  gap: 4px !important;
+}
+
+.m3-timer-preset-select {
+  font-size: 0.71rem !important;
+  padding: 1px 2px !important;
+}
+
+body.m3-dark-mode .m3-timer-preset-select {
+  color: #E2E8F0 !important;
+  background: transparent !important;
+}
+
+body.m3-dark-mode .m3-timer-preset-select option {
+  background: #0F172A !important;
+  color: #F8FAFC !important;
+}
+
+@media (max-width: 1200px) {
+  .m3-slide-toolbar,
+  .m3-stage-toolbar-left,
+  .m3-stage-toolbar-right {
+    flex-wrap: wrap;
+  }
+}
+
+.m3-stage-stepper-pill {
+  display: inline-flex;
+  align-items: center;
+  background: #F8FAFC;
+  border: 1px solid #CBD5E1;
+  border-radius: 999px;
+  padding: 2px 4px;
+  gap: 4px;
+}
+
+.m3-stepper-nav-btn {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 999px;
+  padding: 3px 9px;
+  font-size: 0.73rem;
+  font-weight: 700;
+  color: #003F87;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 140ms ease, border-color 140ms ease;
+}
+
+.m3-stepper-nav-btn:hover {
+  background: #EFF6FF;
+  border-color: #93C5FD;
+}
+
+.m3-stepper-index-label {
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: #0F172A;
+  padding: 0 6px;
+  white-space: nowrap;
+}
+
+.m3-stage-tools-dropdown-wrap {
+  position: relative;
+}
+
+.m3-stage-tools-popover {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  min-width: 288px;
+  background: #FFFFFF;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 12px;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.18);
+  padding: 8px;
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.m3-stage-tools-section-kicker {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748B;
+  padding: 2px 6px;
+}
+
+.m3-stage-tools-popover.hidden {
+  display: none !important;
+}
+
+/* Dark Mode Parity for Options 1, 2 & 3 */
+body.m3-dark-mode .m3-top-utility-pill {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-utility-seg-btn {
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-utility-seg-btn:hover {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-stage-stepper-pill {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-stepper-nav-btn {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-stepper-nav-btn:hover {
+  background: #334155 !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-stepper-index-label {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-stage-tools-popover {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.55) !important;
+}
+
+body.m3-dark-mode .m3-stage-tools-popover > div:first-child {
+  color: #94A3B8 !important;
+  border-bottom-color: #334155 !important;
+}
+
+
 
 
 

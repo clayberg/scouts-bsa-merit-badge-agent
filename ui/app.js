@@ -461,7 +461,7 @@ function markDeckConfigDirty() {
   dirtyBanner?.classList.remove("hidden");
   if (genBtn && !genBtn.disabled) {
     genBtn.classList.add("m3-btn-dirty-pulse");
-    genBtn.innerHTML = '<span class="material-symbols-outlined">autorenew</span> Update Slide Deck &amp; Workbook';
+    genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">🔄</span> Update Slide Deck &amp; Workbook';
   }
   // Live-update Visual Polish & Asset Mode preview in sidebar before running
   const tierVal = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
@@ -695,7 +695,7 @@ function bindFilterAndSlideControls() {
       sidebarToggleLabel.textContent = isCollapsed ? "Show Setup" : "Hide Setup";
     }
     if (sidebarToggleIcon) {
-      sidebarToggleIcon.textContent = isCollapsed ? "left_panel_open" : "left_panel_close";
+      sidebarToggleIcon.textContent = isCollapsed ? "⇥" : "⇤";
     }
     if (sidebarToggleBtn) {
       sidebarToggleBtn.title = isCollapsed
@@ -716,7 +716,7 @@ function bindFilterAndSlideControls() {
   filmstripToggleBtn?.addEventListener("click", () => {
     if (!storyboardLayout) return;
     const isCollapsed = storyboardLayout.classList.toggle("filmstrip-collapsed");
-    filmstripToggleBtn.textContent = isCollapsed ? "▶ Show Outline" : "◀ Hide Outline";
+    filmstripToggleBtn.textContent = isCollapsed ? "▶ Outline" : "◀ Outline";
     requestAnimationFrame(() => fitActiveSlideToStage());
   });
 
@@ -1875,7 +1875,7 @@ async function executeStreamingWorkflow(badgeName) {
 
   if (genBtn) {
     genBtn.disabled = true;
-    genBtn.innerHTML = '<span class="material-symbols-outlined">hourglass_top</span> Generating Deck &amp; Workbook...';
+    genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">⏳</span> Generating Deck &amp; Workbook...';
   }
 
   if (progressFill) progressFill.style.width = "10%";
@@ -1919,7 +1919,7 @@ async function executeStreamingWorkflow(badgeName) {
         es.close();
         if (genBtn) {
           genBtn.disabled = false;
-          genBtn.innerHTML = '<span class="material-symbols-outlined">auto_awesome</span> Generate Slide Deck &amp; Workbook';
+          genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
         }
         hydrateWorkbench(payload.result);
         resolve(payload.result);
@@ -1927,7 +1927,7 @@ async function executeStreamingWorkflow(badgeName) {
         es.close();
         if (genBtn) {
           genBtn.disabled = false;
-          genBtn.innerHTML = '<span class="material-symbols-outlined">auto_awesome</span> Generate Slide Deck &amp; Workbook';
+          genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
         }
         resolve(null);
       } else if (payload.agent && traceList) {
@@ -1973,7 +1973,7 @@ async function executeStreamingWorkflow(badgeName) {
       } finally {
         if (genBtn) {
           genBtn.disabled = false;
-          genBtn.innerHTML = '<span class="material-symbols-outlined">auto_awesome</span> Generate Slide Deck &amp; Workbook';
+          genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
         }
       }
     };
@@ -2016,8 +2016,8 @@ function hydrateWorkbench(rawResult) {
   document.getElementById("hero-badge-title").textContent = `${result.badge_name} Merit Badge`;
   const categoryLabel = result.category ? ` • ${result.category.toUpperCase()}` : "";
   document.getElementById("hero-eagle-kicker").innerHTML = result.is_eagle_required
-    ? `<span class="material-symbols-outlined" style="font-size:16px;">stars</span><span>★ EAGLE-REQUIRED MERIT BADGE${escapeHtml(categoryLabel)}</span>`
-    : `<span class="material-symbols-outlined" style="font-size:16px;">verified</span><span>SCOUTS BSA ELECTIVE MERIT BADGE${escapeHtml(categoryLabel)}</span>`;
+    ? `<span class="m3-inline-icon" aria-hidden="true">★</span><span>EAGLE-REQUIRED MERIT BADGE${escapeHtml(categoryLabel)}</span>`
+    : `<span class="m3-inline-icon" aria-hidden="true">✓</span><span>SCOUTS BSA ELECTIVE MERIT BADGE${escapeHtml(categoryLabel)}</span>`;
 
   const activeTier = result.beautification_tier || document.getElementById("beautification-select")?.value || "BEAUTIFIED";
   const activeThemeLabel = formatSlideThemeLabel(activeTier);
@@ -2630,7 +2630,7 @@ function renderActiveSlide(idx) {
     document.getElementById("fullscreen-hud-counter");
   if (idx === -1) {
     const coverTokens = resolveSlidePaletteTokens(null, deckTier);
-    document.getElementById("active-slide-index-chip").textContent = `Slide 1 of ${totalSlides}`;
+    document.getElementById("active-slide-index-chip").textContent = `1 / ${totalSlides}`;
     document.getElementById("active-slide-req-chip").textContent = "Cover Slide";
     if (fsCounterEl) fsCounterEl.textContent = `Slide 1 of ${totalSlides} • Cover Slide`;
     if (themeChip) themeChip.textContent = `🎨 ${formatSlideThemeLabel(deckTier)}`;
@@ -2769,9 +2769,9 @@ function renderActiveSlide(idx) {
   const reqLabel =
     slide.req_number === "Overview" || slide.req_number === "Sources"
       ? slide.req_number
-      : `Requirement ${slide.req_number || idx + 1}`;
+      : `Req ${slide.req_number || idx + 1}`;
 
-  document.getElementById("active-slide-index-chip").textContent = `Slide ${idx + 2} of ${totalSlides}`;
+  document.getElementById("active-slide-index-chip").textContent = `${idx + 2} / ${totalSlides}`;
   document.getElementById("active-slide-req-chip").textContent = reqLabel;
   if (fsCounterEl) fsCounterEl.textContent = `Slide ${idx + 2} of ${totalSlides} • ${reqLabel}`;
   if (themeChip) themeChip.textContent = `🎨 ${formatSlideThemeLabel(tokens.tier)} • ${visTheme}`;
@@ -7892,14 +7892,14 @@ function syncDeckExportSplitButtonUi(mode) {
   if (chkGslides) chkGslides.textContent = normalized === "gslides" ? "✓" : "";
 
   if (normalized === "gslides") {
-    if (iconEl) iconEl.textContent = "slideshow";
+    if (iconEl) iconEl.textContent = "🟨";
     if (labelEl) labelEl.textContent = "Open in Google Slides";
     if (mainBtn) {
       mainBtn.removeAttribute("download");
       mainBtn.href = "#export-gslides";
     }
   } else {
-    if (iconEl) iconEl.textContent = "download";
+    if (iconEl) iconEl.textContent = "📥";
     if (labelEl) labelEl.textContent = "Download Slide Deck (.PPTX)";
     if (mainBtn) {
       mainBtn.setAttribute("download", "");
@@ -7955,16 +7955,28 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     }
   });
 
-  // UI-1 & Part 2 Features 4 & 5: Top Bar Export & Print Dropdown Menu
+  // UI-1 & Part 2 Features 4 & 5: Top Bar Export & Print Dropdown Menu + Stage Slide & Class Tools Dropdown
   const exportToggleBtn = document.getElementById("btn-export-menu-toggle");
   const exportMenu = document.getElementById("top-export-dropdown-menu");
+  const stageToolsToggleBtn = document.getElementById("btn-stage-tools-menu-toggle");
+  const stageToolsMenu = document.getElementById("stage-tools-dropdown-menu");
   exportToggleBtn?.addEventListener("click", (ev) => {
     ev.stopPropagation();
+    stageToolsMenu?.classList.add("hidden");
+    stageToolsToggleBtn?.setAttribute("aria-expanded", "false");
     exportMenu?.classList.toggle("hidden");
+  });
+  stageToolsToggleBtn?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    exportMenu?.classList.add("hidden");
+    const isNowHidden = stageToolsMenu?.classList.toggle("hidden");
+    stageToolsToggleBtn.setAttribute("aria-expanded", String(!isNowHidden));
   });
   document.addEventListener("click", () => {
     exportMenu?.classList.add("hidden");
     deckExportMenu?.classList.add("hidden");
+    stageToolsMenu?.classList.add("hidden");
+    stageToolsToggleBtn?.setAttribute("aria-expanded", "false");
   });
   document.getElementById("btn-top-print-workbook")?.addEventListener("click", () => {
     document.getElementById("btn-print-workbook")?.click();
@@ -8104,7 +8116,7 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     document.body.classList.toggle("m3-dark-mode", active);
     if (active && document.body.classList.contains("m3-sunlight-mode")) {
       document.body.classList.remove("m3-sunlight-mode");
-      if (sunlightBtn) sunlightBtn.textContent = "☀️ Sunlight Mode";
+      if (sunlightBtn) sunlightBtn.textContent = "☀️ Sun";
       try {
         window.localStorage.setItem("scouts_bsa_sunlight_mode", "0");
       } catch (_e) {}
@@ -8121,7 +8133,7 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       applyWorkbenchDarkMode(true);
     } else if (window.localStorage.getItem("scouts_bsa_sunlight_mode") === "1") {
       document.body.classList.add("m3-sunlight-mode");
-      if (sunlightBtn) sunlightBtn.textContent = "☀️ Sunlight: ON";
+      if (sunlightBtn) sunlightBtn.textContent = "☀️ Sun: ON";
     }
   } catch (_e) {}
 
@@ -8138,7 +8150,7 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     if (active && document.body.classList.contains("m3-dark-mode")) {
       applyWorkbenchDarkMode(false);
     }
-    sunlightBtn.textContent = active ? "☀️ Sunlight: ON" : "☀️ Sunlight Mode";
+    sunlightBtn.textContent = active ? "☀️ Sun: ON" : "☀️ Sun";
     try {
       window.localStorage.setItem("scouts_bsa_sunlight_mode", active ? "1" : "0");
     } catch (_e) {}
@@ -9713,7 +9725,7 @@ function syncTemplateSelectorUi() {
   const pillLbl = document.getElementById("stage-template-pill-label");
   if (pillLbl) {
     const shortName = prof.name.replace(" (Full Canvas)", "").replace("Scouting America | ", "");
-    pillLbl.textContent = `Template: ${shortName}`;
+    pillLbl.textContent = shortName;
   }
 }
 
@@ -10131,12 +10143,13 @@ function renderActiveWorkspacesBar() {
     .map((ws) => {
       const isAct = ws.workspace_id === state.activeWorkspaceId;
       const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
-      const label = ws.session_label ? `${ws.badge_name} (${ws.session_label})` : ws.workspace_title || ws.badge_name;
+      const shortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
+      const label = shortSession ? `${ws.badge_name} • ${shortSession}` : ws.badge_name || ws.workspace_title;
       return `
-        <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-ws-bar-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
-          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:16px; height:16px; border-radius:50%; object-fit:contain;" />
+        <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-ws-bar-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${escapeHtml(ws.session_label || "")} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
+          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
           <span>${escapeHtml(label)}</span>
-          <span class="m3-ws-pill-meta">&bull; ${ws.scout_count || 0} Scouts</span>
+          <span class="m3-ws-pill-meta">(${ws.scout_count || 0})</span>
         </button>
       `;
     })
