@@ -5682,30 +5682,43 @@ body.m3-dark-mode .m3-construction-concept-switcher {
 }
 
 body.m3-dark-mode .m3-construction-concept-btn {
-  color: #CBD5E1 !important;
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
 }
 
 body.m3-dark-mode .m3-construction-concept-btn:hover {
-  background: rgba(59, 130, 246, 0.16) !important;
-  color: #F8FAFC !important;
+  background: #334155 !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
 }
 
 body.m3-dark-mode .m3-construction-concept-btn.active {
   background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important;
+  border-color: #60A5FA !important;
   color: #FFFFFF !important;
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.45) !important;
 }
 
+body.m3-dark-mode #construction-status-pill {
+  background: rgba(245, 158, 11, 0.20) !important;
+  border-color: rgba(251, 191, 36, 0.55) !important;
+  color: #FDE68A !important;
+}
+
 body.m3-dark-mode .m3-construction-topbar #btn-construction-toggle-play,
-body.m3-dark-mode .m3-construction-topbar #btn-close-construction-stage {
+body.m3-dark-mode .m3-construction-topbar #btn-close-construction-stage,
+body.m3-dark-mode .m3-construction-topbar #btn-close-construction-anim {
   background: #1E293B !important;
   border-color: #475569 !important;
   color: #E2E8F0 !important;
 }
 
 body.m3-dark-mode .m3-construction-topbar #btn-construction-toggle-play:hover,
-body.m3-dark-mode .m3-construction-topbar #btn-close-construction-stage:hover {
+body.m3-dark-mode .m3-construction-topbar #btn-close-construction-stage:hover,
+body.m3-dark-mode .m3-construction-topbar #btn-close-construction-anim:hover {
   background: #334155 !important;
+  border-color: #60A5FA !important;
   color: #FFFFFF !important;
 }
 

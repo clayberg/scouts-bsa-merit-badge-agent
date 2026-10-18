@@ -2349,6 +2349,7 @@ def test_v28_vision_captions_slide_context_toggle_model_armor_and_dark_mode(monk
     assert 'class="m3-studio-ai-blocked-alert"' in ui_js
     assert "body.m3-dark-mode #studio-ai-cost-banner .m3-studio-ai-blocked-alert" in ui_css
     assert "body.m3-dark-mode .m3-construction-topbar" in ui_css
+    assert "body.m3-dark-mode .m3-construction-concept-btn" in ui_css
     assert "body.m3-dark-mode .m3-construction-footer" in ui_css
 
 
