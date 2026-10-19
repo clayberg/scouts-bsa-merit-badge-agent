@@ -6708,8 +6708,8 @@ body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
 .m3-xray-box-footer {
   left: 0%;
   width: 100%;
-  top: 87.2%;
-  height: 12.8%;
+  top: 91.5%;
+  height: 8.5%;
   border-top: 2.5px dashed #D97706;
   background: repeating-linear-gradient(
     -45deg,
@@ -6746,6 +6746,7 @@ body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
 .m3-xray-badge-footer {
   background: #B45309;
   color: #FFFFFF;
+  top: -11px;
 }
 
 .m3-xray-delta-callout {
@@ -7414,6 +7415,190 @@ body.m3-dark-mode .m3-tonal-btn {
   border-color: #475569 !important;
   color: #E2E8F0 !important;
 }
+
+/* 13. Style Family Color Variant Swatch Bar (Template Studio & Stage Quick-Switcher) */
+.m3-tpl-variant-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: nowrap;
+  margin-top: 6px;
+  padding: 4px 5px;
+  border-radius: 8px;
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+}
+
+.m3-tpl-variant-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 2px 7px;
+  flex: 1 1 0;
+  min-width: 0;
+  border-radius: 999px;
+  border: 1.5px solid #CBD5E1;
+  background: #FFFFFF;
+  color: #1E293B;
+  font-family: var(--font-sans);
+  font-size: 0.63rem;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.m3-tpl-variant-pill:hover {
+  border-color: #003F87;
+  background: #EFF6FF;
+}
+
+.m3-tpl-variant-pill.is-selected {
+  border-color: #003F87;
+  background: #DBEAFE;
+  color: #003F87;
+  font-weight: 800;
+}
+
+.m3-tpl-variant-pill.is-active-deck {
+  border-color: #D97706;
+  box-shadow: 0 0 0 1px rgba(217, 119, 6, 0.35);
+}
+
+.m3-tpl-variant-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.22);
+}
+
+.m3-stage-tpl-family-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  transition: background 120ms ease;
+}
+
+.m3-stage-tpl-family-row:hover {
+  background: #F1F5F9;
+}
+
+.m3-stage-tpl-family-row.is-active-family {
+  background: #EFF6FF;
+}
+
+.m3-stage-tpl-family-main-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0F172A;
+  cursor: pointer;
+  text-align: left;
+  min-width: 0;
+  flex: 1;
+}
+
+.m3-stage-tpl-color-pills {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.m3-stage-tpl-color-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  border: 1px solid #CBD5E1;
+  background: #FFFFFF;
+  color: #334155;
+  font-family: var(--font-sans);
+  font-size: 0.63rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+
+.m3-stage-tpl-color-btn:hover {
+  border-color: #003F87;
+  background: #EFF6FF;
+  color: #003F87;
+}
+
+.m3-stage-tpl-color-btn.is-active {
+  border-color: #D97706;
+  background: #FEF3C7;
+  color: #92400E;
+  font-weight: 800;
+}
+
+body.m3-dark-mode .m3-tpl-variant-bar {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-tpl-variant-pill {
+  background: #1E293B !important;
+  border-color: #475569 !important;
+  color: #E2E8F0 !important;
+}
+
+body.m3-dark-mode .m3-tpl-variant-pill:hover {
+  border-color: #60A5FA !important;
+  background: #334155 !important;
+}
+
+body.m3-dark-mode .m3-tpl-variant-pill.is-selected {
+  background: #1E3A8A !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-stage-tpl-family-row:hover {
+  background: #1E293B !important;
+}
+
+body.m3-dark-mode .m3-stage-tpl-family-row.is-active-family {
+  background: rgba(30, 58, 138, 0.45) !important;
+}
+
+body.m3-dark-mode .m3-stage-tpl-family-main-btn {
+  color: #F8FAFC !important;
+}
+
+body.m3-dark-mode .m3-stage-tpl-color-btn {
+  background: #0F172A !important;
+  border-color: #475569 !important;
+  color: #CBD5E1 !important;
+}
+
+body.m3-dark-mode .m3-stage-tpl-color-btn:hover {
+  border-color: #60A5FA !important;
+  background: #1E293B !important;
+  color: #FFFFFF !important;
+}
+
+body.m3-dark-mode .m3-stage-tpl-color-btn.is-active {
+  background: #78350F !important;
+  border-color: #F59E0B !important;
+  color: #FEF3C7 !important;
+}
+
 
 
 

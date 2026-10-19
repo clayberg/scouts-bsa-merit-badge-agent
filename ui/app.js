@@ -9759,11 +9759,24 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     }
     if (footerBox) {
       footerBox.style.top = `${contentBottomPct.toFixed(2)}%`;
-      footerBox.style.height = `${Math.max(6, 100 - contentBottomPct - 0.8).toFixed(2)}%`;
+      footerBox.style.height = `${Math.max(5.5, 100 - contentBottomPct).toFixed(2)}%`;
     }
     if (logoBox) {
-      const hasCornerLogo = Boolean(prof?.corner_logo_url || footerMaxWidthIn < 11.2);
-      logoBox.style.display = hasCornerLogo ? "flex" : "none";
+      const fLeftIn = Number(bounds.footer_left_in || 0.60);
+      const hasRightCornerLogo = Boolean(prof?.corner_logo_url || (fLeftIn + footerMaxWidthIn < 11.8));
+      const hasLeftCornerLogo = Boolean(prof?.bottom_silhouette_url && fLeftIn > 1.2);
+      logoBox.style.display = (hasRightCornerLogo || hasLeftCornerLogo) ? "flex" : "none";
+      if (hasLeftCornerLogo) {
+        logoBox.style.left = "1.2%";
+        logoBox.style.right = "auto";
+        logoBox.style.width = "24%";
+        logoBox.textContent = "PROTECTED LEFT LOGO";
+      } else {
+        logoBox.style.left = "auto";
+        logoBox.style.right = "1.5%";
+        logoBox.style.width = "22%";
+        logoBox.textContent = "PROTECTED CORNER LOGO";
+      }
     }
 
     const headerLbl = document.getElementById("xray-header-zone-label");
@@ -9841,22 +9854,24 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
   const hasRightLogo = Boolean(logoUrl || (footerLeftIn + footerMaxWidthIn < 11.8));
   const hasLeftLogoInBanner = Boolean(silUrl && footerLeftIn > 1.2);
 
-  const bottomReservePct = Math.max(9.2, ((7.5 - bottomIn) / 7.5) * 100);
+  const bottomReserveHeightPct = Math.max(7.2, ((7.5 - bottomIn) / 7.5) * 100);
+  // Note: CSS percentage margins/paddings resolve against the 16:9 container's WIDTH (16 units), not HEIGHT (9 units)
+  const bottomReserveWidthPct = bottomReserveHeightPct * (9.0 / 16.0);
   if (stageEl) {
     stageEl.classList.add("has-custom-template-geometry");
-    stageEl.style.setProperty("--tpl-bottom-reserve-pct", `${bottomReservePct.toFixed(2)}%`);
+    stageEl.style.setProperty("--tpl-bottom-reserve-pct", `${bottomReserveHeightPct.toFixed(2)}%`);
     stageEl.style.setProperty("--tpl-header-top-pct", `${((headerTopIn / 7.5) * 100).toFixed(2)}%`);
   }
   if (headerBandEl) {
     headerBandEl.style.paddingTop = topBannerUrl && topBannerUrl.includes("_header_strip") ? "22px" : "";
   }
 
-  // Lift #stage-body-split and #stage-safety-bar above the template's reserved bottom branding/logo zone
+  // Lift #stage-body-split and #stage-safety-bar cleanly above the template's reserved bottom branding/logo zone without excess gap
   if (safetyBar && !safetyBar.classList.contains("hidden")) {
-    safetyBar.style.marginBottom = `${Math.max(4.8, bottomReservePct - 4.2).toFixed(2)}%`;
-    if (bodySplit) bodySplit.style.paddingBottom = "0.25rem";
+    safetyBar.style.marginBottom = `${Math.max(3.6, bottomReserveWidthPct - 0.5).toFixed(2)}%`;
+    if (bodySplit) bodySplit.style.paddingBottom = "3px";
   } else if (bodySplit) {
-    bodySplit.style.paddingBottom = `${Math.max(4.8, bottomReservePct - 3.8).toFixed(2)}%`;
+    bodySplit.style.paddingBottom = `${Math.max(3.8, bottomReserveWidthPct).toFixed(2)}%`;
   }
 
   const parts = [];
@@ -9960,14 +9975,124 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
   }
 };
 
+function groupTemplatesByStyleFamily(list) {
+  const groups = [];
+  const byKey = new Map();
+  (list || []).forEach((t) => {
+    const isMultiColorFamily = Boolean(
+      t.is_builtin &&
+        t.family_id &&
+        ["brushed_banner", "outdoor_silhouette", "forest_sunrise", "topographic", "fleur_crest"].includes(t.family_id)
+    );
+    const groupKey = isMultiColorFamily ? `family:${t.family_id}` : `single:${t.template_id}`;
+    if (!byKey.has(groupKey)) {
+      const baseName = String(t.name || "").replace(/\s*\([^)]+\)\s*$/, "");
+      const entry = {
+        groupKey,
+        isMultiColorFamily,
+        familyId: t.family_id || "custom_uploaded",
+        familyName: t.family_name || (t.is_builtin ? "Built-In Templates" : "Custom Uploaded Templates"),
+        seriesTitle: isMultiColorFamily ? baseName : t.name,
+        variants: [],
+      };
+      byKey.set(groupKey, entry);
+      groups.push(entry);
+    }
+    byKey.get(groupKey).variants.push(t);
+  });
+  return groups;
+}
+
+function populateTemplateSelectOptgroups(sel, list, activeId) {
+  if (!sel || !Array.isArray(list) || list.length === 0) return;
+  const optgroups = [];
+  const byLabel = new Map();
+  list.forEach((t) => {
+    const label =
+      t.family_name ||
+      (t.is_builtin
+        ? t.template_id === "default_workbench"
+          ? "Workbench Default"
+          : "Scouting America Templates"
+        : "Custom Uploaded Templates");
+    if (!byLabel.has(label)) {
+      const grp = { label, items: [] };
+      byLabel.set(label, grp);
+      optgroups.push(grp);
+    }
+    byLabel.get(label).items.push(t);
+  });
+  sel.innerHTML = optgroups
+    .map(
+      (grp) => `
+      <optgroup label="${escapeHtml(grp.label)}">
+        ${grp.items
+          .map(
+            (t) =>
+              `<option value="${escapeHtml(t.template_id)}" ${
+                t.template_id === activeId ? "selected" : ""
+              }>${escapeHtml(t.name)}</option>`
+          )
+          .join("")}
+      </optgroup>
+    `
+    )
+    .join("");
+  if (Array.from(sel.options).some((o) => o.value === activeId)) {
+    sel.value = activeId;
+  }
+}
+
 function renderStageTemplateSplitDropdown() {
   const menuEl = document.getElementById("stage-template-dropdown-menu");
   if (!menuEl) return;
   const list = state.templateCatalog || [];
   const activeId = state.activeTemplateId || "default_workbench";
+  const groups = groupTemplatesByStyleFamily(list);
 
-  const itemsHtml = list
-    .map((t) => {
+  const itemsHtml = groups
+    .map((grp) => {
+      if (grp.isMultiColorFamily && grp.variants.length > 1) {
+        const activeVariant = grp.variants.find((v) => v.template_id === activeId) || null;
+        const primaryTarget = activeVariant || grp.variants[0];
+        const colorBtnsHtml = grp.variants
+          .map((v) => {
+            const isAct = v.template_id === activeId;
+            const dotHex = v.variant_swatch_hex || v.primary_hex || "#003F87";
+            const vLabel = v.variant_label || v.name;
+            return `
+              <button
+                type="button"
+                class="m3-stage-tpl-color-btn ${isAct ? "is-active" : ""}"
+                data-stage-quick-tpl="${escapeHtml(v.template_id)}"
+                title="Switch to ${escapeHtml(v.name)}"
+              >
+                <span class="m3-tpl-variant-dot" style="background:${escapeHtml(dotHex)};"></span>
+                <span>${escapeHtml(vLabel)}</span>
+              </button>
+            `;
+          })
+          .join("");
+        return `
+          <div class="m3-stage-tpl-family-row ${activeVariant ? "is-active-family" : ""}" role="menuitem">
+            <button
+              type="button"
+              class="m3-stage-tpl-family-main-btn"
+              data-stage-quick-tpl="${escapeHtml(primaryTarget.template_id)}"
+              title="${escapeHtml(primaryTarget.name)}"
+            >
+              <span class="m3-stage-tpl-swatch" style="background:linear-gradient(135deg, ${escapeHtml(
+                primaryTarget.primary_hex || "#003F87"
+              )} 55%, ${escapeHtml(primaryTarget.accent_hex || "#D4AF37")} 45%);"></span>
+              <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${escapeHtml(grp.seriesTitle)}</span>
+            </button>
+            <div class="m3-stage-tpl-color-pills">
+              ${colorBtnsHtml}
+            </div>
+          </div>
+        `;
+      }
+      const t = grp.variants[0];
       const isAct = t.template_id === activeId;
       const shortName = String(t.name || "").replace(" (Full Canvas)", "");
       const badgeTag = t.is_builtin ? "Built-In" : "Custom";
@@ -9984,9 +10109,9 @@ function renderStageTemplateSplitDropdown() {
 
   menuEl.innerHTML = `
     <div style="padding:4px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
-      Switch Slide Template (${list.length})
+      Switch Slide Template (${list.length} Across ${groups.length} Styles)
     </div>
-    <div style="max-height:260px; overflow-y:auto;">
+    <div style="max-height:290px; overflow-y:auto;">
       ${itemsHtml}
     </div>
     <div class="m3-stage-template-menu-footer">
@@ -10021,20 +10146,9 @@ function syncTemplateSelectorUi() {
   state.activeTemplateProfile = prof;
   const sel = document.getElementById("template-select");
   if (sel) {
-    // Ensure all catalog items exist in #template-select
-    const existingValues = new Set(Array.from(sel.options).map((o) => o.value));
-    (state.templateCatalog || []).forEach((t) => {
-      if (!existingValues.has(t.template_id)) {
-        const opt = document.createElement("option");
-        opt.value = t.template_id;
-        opt.textContent = t.name;
-        sel.appendChild(opt);
-      } else {
-        const opt = Array.from(sel.options).find((o) => o.value === t.template_id);
-        if (opt) opt.textContent = t.name;
-      }
-    });
-    if (Array.from(sel.options).some((o) => o.value === prof.template_id)) {
+    if ((state.templateCatalog || []).length > 0) {
+      populateTemplateSelectOptgroups(sel, state.templateCatalog, prof.template_id);
+    } else if (Array.from(sel.options).some((o) => o.value === prof.template_id)) {
       sel.value = prof.template_id;
     }
   }
@@ -10054,6 +10168,10 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
 
   const prof = getActiveTemplateProfile();
   state.activeTemplateProfile = prof;
+  if (prof?.family_id) {
+    state.selectedFamilyVariantMap = state.selectedFamilyVariantMap || {};
+    state.selectedFamilyVariantMap[prof.family_id] = prof.template_id;
+  }
   syncTemplateSelectorUi();
 
   const matchPaletteChecked = document.getElementById("template-match-palette-checkbox")?.checked !== false;
@@ -10138,22 +10256,27 @@ function renderTemplateCatalogGrid() {
   const grid = document.getElementById("template-catalog-grid");
   if (!grid) return;
   const list = state.templateCatalog || [];
+  const activeId = state.activeTemplateId || "default_workbench";
+  const groups = groupTemplatesByStyleFamily(list);
   const countChip = document.getElementById("template-catalog-count-chip");
-  if (countChip) countChip.textContent = `${list.length} Templates`;
+  if (countChip) {
+    countChip.textContent = `${list.length} Templates • ${groups.length} Style Cards`;
+  }
 
   const sel = document.getElementById("template-select");
   if (sel && list.length > 0) {
-    sel.innerHTML = list
-      .map(
-        (t) =>
-          `<option value="${escapeHtml(t.template_id)}" ${t.template_id === state.activeTemplateId ? "selected" : ""}>${escapeHtml(t.name)}</option>`
-      )
-      .join("");
+    populateTemplateSelectOptgroups(sel, list, activeId);
   }
 
-  grid.innerHTML = list
-    .map((t) => {
-      const isActive = t.template_id === (state.activeTemplateId || "default_workbench");
+  state.selectedFamilyVariantMap = state.selectedFamilyVariantMap || {};
+
+  grid.innerHTML = groups
+    .map((grp) => {
+      const activeInGroup = grp.variants.find((v) => v.template_id === activeId) || null;
+      const rememberedId = state.selectedFamilyVariantMap[grp.familyId];
+      const rememberedVariant = grp.variants.find((v) => v.template_id === rememberedId) || null;
+      const t = activeInGroup || rememberedVariant || grp.variants[0];
+      const isActive = Boolean(activeInGroup);
       const bottomSafe = (t.safe_bounds?.content_bottom_max_in || 6.95).toFixed(2);
       const previewBg = t.cover_bg_url
         ? `background-image:linear-gradient(rgba(250,248,245,0.78), rgba(250,248,245,0.84)), url('${escapeHtml(t.cover_bg_url)}'); background-size:cover;`
@@ -10168,6 +10291,31 @@ function renderTemplateCatalogGrid() {
           </div>
         `
         : "";
+      const variantBarHtml =
+        grp.isMultiColorFamily && grp.variants.length > 1
+          ? `
+            <div class="m3-tpl-variant-bar" role="group" aria-label="${escapeHtml(grp.seriesTitle)} Color Variants">
+              ${grp.variants
+                .map((v) => {
+                  const isSel = v.template_id === t.template_id;
+                  const isActDeck = v.template_id === activeId;
+                  const dotHex = v.variant_swatch_hex || v.primary_hex || "#003F87";
+                  return `
+                    <button
+                      type="button"
+                      class="m3-tpl-variant-pill ${isSel ? "is-selected" : ""} ${isActDeck ? "is-active-deck" : ""}"
+                      data-select-template="${escapeHtml(v.template_id)}"
+                      title="Switch to ${escapeHtml(v.name)}"
+                    >
+                      <span class="m3-tpl-variant-dot" style="background:${escapeHtml(dotHex)};"></span>
+                      <span>${escapeHtml(v.variant_label || v.name)}</span>
+                    </button>
+                  `;
+                })
+                .join("")}
+            </div>
+          `
+          : "";
       return `
         <div class="m3-template-card ${isActive ? "active" : ""}" data-select-template="${escapeHtml(t.template_id)}" data-tpl-select="${escapeHtml(t.template_id)}">
           ${customActionsHtml}
@@ -10179,7 +10327,7 @@ function renderTemplateCatalogGrid() {
                     ? `<img src="${escapeHtml(t.top_banner_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:fill; opacity:0.92;" />`
                     : ""
                 }
-                <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">${escapeHtml(t.name.slice(0, 24))}</span>
+                <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">${escapeHtml(t.name.slice(0, 26))}</span>
                 <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">16:9</span>
               </div>
               <div style="padding:6px 8px; width:100%; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
@@ -10203,6 +10351,7 @@ function renderTemplateCatalogGrid() {
                 }
               </div>
             </div>
+            ${variantBarHtml}
             <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-top:7px;">
               <div class="m3-template-card-title" style="font-size:0.79rem; font-weight:800; color:#003F87; line-height:1.2;">${escapeHtml(t.name)}</div>
               ${isActive ? `<span class="m3-chip m3-chip-primary" style="font-size:0.62rem; padding:1px 6px;">✓ Active</span>` : ""}
@@ -10221,12 +10370,13 @@ function renderTemplateCatalogGrid() {
     })
     .join("");
 
-  grid.querySelectorAll("[data-select-template]").forEach((card) => {
-    card.addEventListener("click", async (ev) => {
+  grid.querySelectorAll("[data-select-template]").forEach((el) => {
+    el.addEventListener("click", async (ev) => {
+      ev.stopPropagation();
       if (ev.target.closest("[data-tpl-edit]") || ev.target.closest("[data-tpl-delete]")) {
         return;
       }
-      const tid = card.getAttribute("data-select-template");
+      const tid = el.getAttribute("data-select-template");
       if (tid) {
         await applyTemplateToActiveDeck(tid, true);
       }

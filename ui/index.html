@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261019c" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261019e" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -278,22 +278,44 @@
               type="button"
               class="m3-btn m3-btn-tonal"
               id="btn-open-template-studio-sidebar"
-              title="Open PowerPoint Template Studio (Browse 8 Built-In Scouting Templates, Upload .PPTX/.PPT/Image, or Import URL)"
+              title="Open PowerPoint Template Studio (Browse 17 Built-In Scouting Templates Across 7 Style Families, Upload .PPTX/.PPT/Image, or Import URL)"
               style="padding:2px 8px; font-size:0.71rem; font-weight:800;"
             >
               🎨 Template Studio
             </button>
           </div>
           <select class="m3-select" id="template-select">
-            <option value="default_workbench" selected>Workbench Classic</option>
-            <option value="bsa_scouting_america">BSA Scouting America</option>
-            <option value="scouting_america_250">BSA America 250™</option>
-            <option value="scouting_america_forest_sunrise">BSA Forest Sunrise</option>
-            <option value="scouting_america_topographic">BSA Topographic</option>
-            <option value="scouting_america_high_adventure_rock">BSA High Adventure</option>
-            <option value="classic_outdoor_silhouette_navy">BSA Outdoor Adventure</option>
-            <option value="classic_fleur_crimson_crest">BSA Fleur-de-Lis Crest</option>
-            <option value="wilderness_camp_timber">BSA Summer Camp</option>
+            <optgroup label="Workbench Default">
+              <option value="default_workbench" selected>Workbench Classic</option>
+            </optgroup>
+            <optgroup label="1. Brushed Banner Series">
+              <option value="bsa_scouting_america">BSA Scouting America (Green)</option>
+              <option value="bsa_scouting_america_blue">BSA Scouting America (Blue)</option>
+              <option value="bsa_scouting_america_red">BSA Scouting America (Red)</option>
+            </optgroup>
+            <optgroup label="2. Horizon Silhouette Series">
+              <option value="classic_outdoor_silhouette_navy">BSA Outdoor Adventure (Blue)</option>
+              <option value="classic_outdoor_silhouette_green">BSA Outdoor Adventure (Green)</option>
+              <option value="classic_outdoor_silhouette_red">BSA Outdoor Adventure (Red)</option>
+            </optgroup>
+            <optgroup label="3. Forest Sunrise &amp; Camp Series">
+              <option value="scouting_america_forest_sunrise">BSA Forest Sunrise (Blue)</option>
+              <option value="wilderness_camp_timber">BSA Forest Sunrise (Green)</option>
+              <option value="scouting_america_forest_sunrise_red">BSA Forest Sunrise (Red)</option>
+            </optgroup>
+            <optgroup label="4. Topographic Contour Series">
+              <option value="scouting_america_topographic">BSA Topographic (Blue)</option>
+              <option value="scouting_america_topographic_green">BSA Topographic (Green)</option>
+              <option value="scouting_america_topographic_tan">BSA Topographic (Tan)</option>
+            </optgroup>
+            <optgroup label="5. Fleur-de-Lis Crest Series">
+              <option value="classic_fleur_crimson_crest">BSA Fleur-de-Lis Crest (Red)</option>
+              <option value="classic_fleur_navy_crest">BSA Fleur-de-Lis Crest (Blue)</option>
+            </optgroup>
+            <optgroup label="6. Special &amp; Action Editions">
+              <option value="scouting_america_250">BSA America 250™</option>
+              <option value="scouting_america_high_adventure_rock">BSA High Adventure</option>
+            </optgroup>
           </select>
         </div>
 
@@ -2583,9 +2605,9 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
       <div style="padding:14px 22px 22px; overflow-y:auto; flex:1 1 auto; min-height:0;" id="template-studio-body">
         <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; flex-wrap:wrap;">
           <div style="font-size:0.84rem; font-weight:800; color:#003F87;">
-            1. Curated Scouting America &amp; Heritage Templates (Click any template for instant live switch)
+            1. Curated Scouting America &amp; Heritage Style Families (Click a card or color pill for instant live switch)
           </div>
-          <span class="m3-chip m3-chip-secondary" id="template-catalog-count-chip">8 Templates</span>
+          <span class="m3-chip m3-chip-secondary" id="template-catalog-count-chip">17 Templates &bull; 7 Style Families</span>
         </div>
 
         <div class="m3-template-catalog-grid" id="template-catalog-grid"></div>
@@ -2935,6 +2957,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261019c"></script>
+  <script src="/ui/app.js?v=20261019e"></script>
 </body>
 </html>

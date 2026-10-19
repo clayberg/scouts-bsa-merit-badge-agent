@@ -2717,30 +2717,56 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
     assert "slide-density-micro-compact" in ui_css
     assert "slide-density-micro-compact" in ui_js
 
-    # 7. Verify shortened built-in template names, composite master banner extraction, flush-right silhouette footer, Dark Mode footer lock, and Keys shortcut button
+    # 7. Verify 17 built-in templates across 7 Style Families (Option A naming), composite master banner extraction, flush-right silhouette footer, tightened safe-zone bounds, Dark Mode footer lock, and Keys shortcut button
     from src.tools.template_engine import BUILTIN_TEMPLATES, get_template_profile
 
     builtin_names = {t.template_id: t.name for t in BUILTIN_TEMPLATES}
-    assert len(BUILTIN_TEMPLATES) == 9
+    assert len(BUILTIN_TEMPLATES) == 17
     assert builtin_names["default_workbench"] == "Workbench Classic"
-    assert builtin_names["bsa_scouting_america"] == "BSA Scouting America"
+    assert builtin_names["bsa_scouting_america"] == "BSA Scouting America (Green)"
+    assert builtin_names["bsa_scouting_america_blue"] == "BSA Scouting America (Blue)"
+    assert builtin_names["bsa_scouting_america_red"] == "BSA Scouting America (Red)"
+    assert builtin_names["classic_outdoor_silhouette_navy"] == "BSA Outdoor Adventure (Blue)"
+    assert builtin_names["classic_outdoor_silhouette_green"] == "BSA Outdoor Adventure (Green)"
+    assert builtin_names["classic_outdoor_silhouette_red"] == "BSA Outdoor Adventure (Red)"
+    assert builtin_names["scouting_america_forest_sunrise"] == "BSA Forest Sunrise (Blue)"
+    assert builtin_names["wilderness_camp_timber"] == "BSA Forest Sunrise (Green)"
+    assert builtin_names["scouting_america_forest_sunrise_red"] == "BSA Forest Sunrise (Red)"
+    assert builtin_names["scouting_america_topographic"] == "BSA Topographic (Blue)"
+    assert builtin_names["scouting_america_topographic_green"] == "BSA Topographic (Green)"
+    assert builtin_names["scouting_america_topographic_tan"] == "BSA Topographic (Tan)"
+    assert builtin_names["classic_fleur_crimson_crest"] == "BSA Fleur-de-Lis Crest (Red)"
+    assert builtin_names["classic_fleur_navy_crest"] == "BSA Fleur-de-Lis Crest (Blue)"
     assert builtin_names["scouting_america_250"] == "BSA America 250™"
-    assert builtin_names["scouting_america_forest_sunrise"] == "BSA Forest Sunrise"
-    assert builtin_names["scouting_america_topographic"] == "BSA Topographic"
     assert builtin_names["scouting_america_high_adventure_rock"] == "BSA High Adventure"
-    assert builtin_names["classic_outdoor_silhouette_navy"] == "BSA Outdoor Adventure"
-    assert builtin_names["classic_fleur_crimson_crest"] == "BSA Fleur-de-Lis Crest"
-    assert builtin_names["wilderness_camp_timber"] == "BSA Summer Camp"
 
     scouting_prof = get_template_profile("bsa_scouting_america")
     assert scouting_prof.is_builtin is True
+    assert scouting_prof.family_id == "brushed_banner"
+    assert scouting_prof.variant_label == "Green"
     assert scouting_prof.top_banner_url.endswith("bsa_scouting_america_header_strip.png")
     assert scouting_prof.bottom_silhouette_url.endswith("bsa_scouting_america_footer_banner.png")
     assert scouting_prof.safe_bounds.footer_left_in == 3.49
+    assert scouting_prof.safe_bounds.content_bottom_max_in == 6.88
+
+    scouting_blue = get_template_profile("bsa_scouting_america_blue")
+    assert scouting_blue.family_id == "brushed_banner"
+    assert scouting_blue.variant_label == "Blue"
+    assert scouting_blue.top_banner_url.endswith("bsa_scouting_america_blue_header_strip.png")
+    assert scouting_blue.bottom_silhouette_url.endswith("bsa_scouting_america_blue_footer_banner.png")
 
     outdoor_prof = get_template_profile("classic_outdoor_silhouette_navy")
+    assert outdoor_prof.family_id == "outdoor_silhouette"
     assert outdoor_prof.safe_bounds.footer_max_width_in == 12.133
+    assert outdoor_prof.safe_bounds.content_bottom_max_in == 6.82
+
+    outdoor_green = get_template_profile("classic_outdoor_silhouette_green")
+    assert outdoor_green.family_id == "outdoor_silhouette"
+    assert outdoor_green.bottom_silhouette_url.endswith("classic_silhouette_green.png")
+
     assert "m3-shortcuts-key-btn" in ui_html
+    assert "optgroup label=" in ui_html
+    assert "m3-tpl-variant-bar" in ui_css
     assert "max-width: 192px;" in ui_css
     assert "background: #F1EFEA;" in ui_css
 
