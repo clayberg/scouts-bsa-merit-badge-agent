@@ -36,6 +36,28 @@ import io
 import json
 import math
 import os
+
+_NANO_CAT_CACHE = None
+_NANO_CAT_MTIME = 0.0
+
+def _load_nano_banana_catalog() -> dict:
+    global _NANO_CAT_CACHE, _NANO_CAT_MTIME
+    import json
+    from src.config import ASSETS_DIR
+    nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
+    if not nano_cat_path.exists():
+        return {}
+    current_mtime = nano_cat_path.stat().st_mtime_ns
+    if _NANO_CAT_CACHE is not None and _NANO_CAT_MTIME == current_mtime:
+        return _NANO_CAT_CACHE
+    try:
+        with open(nano_cat_path, "r", encoding="utf-8") as f:
+            _NANO_CAT_CACHE = json.load(f)
+            _NANO_CAT_MTIME = current_mtime
+            return _NANO_CAT_CACHE
+    except Exception:
+        return {}
+
 import re
 import shutil
 import threading
@@ -3219,8 +3241,7 @@ def admin_list_badge_catalog_images(
     # 3. Nano Banana hero & topic illustrations on disk (`assets/ai_illustrations/<slug>_*.png` + `data/nano_banana_image_catalog.json`)
     try:
         ai_dir = ASSETS_DIR / "ai_illustrations"
-        nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
-        nano_cat = json.loads(nano_cat_path.read_text(encoding="utf-8")) if nano_cat_path.exists() else {}
+        nano_cat = _load_nano_banana_catalog()
         if ai_dir.exists():
             for hero_file in sorted(ai_dir.glob(f"{slug}_*.png")):
                 abs_h = os.path.abspath(str(hero_file))

@@ -650,7 +650,7 @@ html, body {
   gap: 12px;
   flex-wrap: wrap;
   background: #FFFFFF;
-  padding: 12px 18px;
+  padding: 8px 18px;
   border-radius: var(--md-sys-shape-corner-md);
   border: 1px solid var(--md-sys-color-outline-variant);
 }
@@ -1916,7 +1916,7 @@ html, body {
   align-items: center;
   gap: 6px;
   overflow-x: auto;
-  padding: 8px 12px;
+  padding: 4px 12px;
   background: #FFFFFF;
   border: 1px solid var(--md-sys-color-outline-variant);
   border-radius: var(--md-sys-shape-corner-md);
@@ -5861,8 +5861,8 @@ body.m3-dark-mode .m3-construction-dot.active {
   background: #FFFFFF;
   border: 1.5px solid #CBD5E1;
   border-radius: 12px;
-  padding: 7px 12px;
-  margin-bottom: 8px;
+  padding: 4px 12px;
+  margin-bottom: 4px;
   box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
 }
 
@@ -5928,17 +5928,7 @@ body.m3-dark-mode .m3-construction-dot.active {
   overflow: hidden;
 }
 
-.m3-slide-safezone-xray {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 25;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 2.5% 4.5%;
-  background: rgba(15, 23, 42, 0.08);
-}
+/* Consolidated old .m3-slide-safezone-xray */
 
 .m3-xray-zone {
   border: 2px dashed #16A34A;
@@ -6101,30 +6091,7 @@ body.m3-dark-mode .m3-template-card-desc {
   background: #F0F7FF;
 }
 
-.m3-patch-fav-btn {
-  position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: 1px solid #CBD5E1;
-  background: rgba(255, 255, 255, 0.92);
-  color: #D97706;
-  font-size: 0.80rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 2;
-  padding: 0;
-  transition: transform 120ms ease, background 120ms ease;
-}
-
-.m3-patch-fav-btn:hover {
-  transform: scale(1.15);
-  background: #FEF3C7;
-}
+/* Consolidated old .m3-patch-fav-btn */
 
 /* Dark Mode Parity for Plans 16A, 16B, 16C */
 body.m3-dark-mode .m3-quick-mode-toggle {
@@ -7619,3 +7586,49 @@ body.m3-dark-mode .m3-stage-tpl-color-btn.is-active {
 
 
 
+
+
+/* UX-3: Sticky Left-Sidebar Primary CTA */
+.m3-setup-cta-sticky-footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 15;
+  padding: 10px 0 4px;
+  background: linear-gradient(180deg, rgba(248,250,252,0.88) 0%, #F8FAFC 28%);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid #E2E8F0;
+}
+body.m3-dark-mode .m3-setup-cta-sticky-footer {
+  background: linear-gradient(180deg, rgba(15,23,42,0.88) 0%, #0F172A 28%);
+  border-top: 1px solid #334155;
+}
+body.high-contrast-sunlight .m3-setup-cta-sticky-footer {
+  background: #FFFFFF;
+  border-top: 2px solid #000000;
+}
+
+/* UX-2 & UX-5: Responsive Top App Bar */
+@media (max-width: 1440px) {
+  #top-app-bar .m3-brand-subtitle {
+    display: none;
+  }
+  #top-app-bar {
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+}
+
+/* UX-4: Complete Outdoor Sunlight Mode */
+body.high-contrast-sunlight .m3-top-bar,
+body.high-contrast-sunlight .m3-active-workspaces-bar,
+body.high-contrast-sunlight .m3-ws-pill,
+body.high-contrast-sunlight .m3-slide-toolbar,
+body.high-contrast-sunlight .m3-req-jump-bar,
+body.high-contrast-sunlight .m3-req-jump-pill,
+body.high-contrast-sunlight .m3-understage-drawer,
+body.high-contrast-sunlight .m3-modal-dialog,
+body.high-contrast-sunlight .m3-template-card {
+  background: #FFFFFF !important;
+  border: 2px solid #000000 !important;
+  color: #000000 !important;
+}

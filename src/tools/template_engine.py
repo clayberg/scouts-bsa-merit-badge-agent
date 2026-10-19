@@ -739,12 +739,19 @@ def _ensure_dirs() -> None:
         d.mkdir(parents=True, exist_ok=True)
 
 
+_CATALOG_CACHE = None
+_CATALOG_MTIME = 0.0
+
 def load_template_catalog() -> List[TemplateProfile]:
-    """Returns all built-in templates plus any custom user-uploaded or URL-imported templates."""
+    global _CATALOG_CACHE, _CATALOG_MTIME
     _ensure_dirs()
     by_id: Dict[str, TemplateProfile] = {t.template_id: t for t in BUILTIN_TEMPLATES}
     if CATALOG_JSON_PATH.exists():
         try:
+            current_mtime = CATALOG_JSON_PATH.stat().st_mtime_ns
+            if _CATALOG_CACHE is not None and _CATALOG_MTIME == current_mtime:
+                return _CATALOG_CACHE
+            
             raw = json.loads(CATALOG_JSON_PATH.read_text(encoding="utf-8"))
             if isinstance(raw, list):
                 for item in raw:
@@ -752,11 +759,17 @@ def load_template_catalog() -> List[TemplateProfile]:
                         tid = str(item["template_id"])
                         if tid not in by_id:
                             by_id[tid] = TemplateProfile(**item)
+            
+            _CATALOG_CACHE = list(by_id.values())
+            _CATALOG_MTIME = current_mtime
         except Exception:
             pass
     else:
         save_template_catalog(list(by_id.values()))
-    return list(by_id.values())
+        _CATALOG_CACHE = list(by_id.values())
+        _CATALOG_MTIME = 0.0
+    
+    return _CATALOG_CACHE if _CATALOG_CACHE is not None else list(by_id.values())
 
 
 def save_template_catalog(profiles: List[TemplateProfile]) -> None:
@@ -831,7 +844,7 @@ def _extract_dominant_color_hex(img_path: Path, default_hex: str = "#003F87") ->
     try:
         with Image.open(img_path) as im:
             rgba = im.convert("RGBA").resize((64, 64))
-            pixels = list(rgba.getdata())
+            pixels = list(rgba.get_flattened_data()) if hasattr(rgba, 'get_flattened_data') else list(rgba.get_flattened_data()) if hasattr(rgba, "get_flattened_data") else list(rgba.getdata())
             candidates: List[Tuple[int, int, int]] = []
             for r, g, b, a in pixels:
                 if a < 128:
@@ -1219,7 +1232,7 @@ def decorate_slide_with_template_chrome(
                 pic.name = "TemplateChrome_CoverBg"
             except Exception:
                 pass
-    elif profile.canvas_watermark_url and norm_tier != "STUDIO" and not is_cover:
+    elif profile.canvas_watermark_url and norm_tier != "STUDIO":
         wm_disk = REPO_ROOT / profile.canvas_watermark_url.lstrip("/")
         if wm_disk.exists():
             try:

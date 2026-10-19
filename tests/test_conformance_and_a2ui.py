@@ -2777,6 +2777,112 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
     assert "savedScrollTop = list.scrollTop" in ui_js
 
 
+def test_workstreams_1_to_4_topographic_concurrency_mcp_and_modal_controller(tmp_path):
+    """Verifies all 4 Workstreams from the Multidimensional Code, Asset & UX Review Plan
+    plus the BSA Topographic Contour Watermark visibility fix across Cover and Content slides.
+    """
+    from concurrent.futures import ThreadPoolExecutor
+    from pathlib import Path
+    from PIL import Image
+
+    from src.mcp_server import mcp_tool_query_merit_badge_pamphlet
+    from src.memory.session_store import PersistentSessionStore
+    from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
+    from src.tools.template_engine import get_template_profile
+
+    repo_root = Path(__file__).resolve().parent.parent
+
+    # 1. Verify Topographic Contour Watermark visibility (non-blank transparent contour lines across center + edges)
+    for tpl_id, expected_file in [
+        ("scouting_america_topographic", "topographic_contour_bg.png"),
+        ("scouting_america_topographic_green", "topographic_contour_green_bg.png"),
+        ("scouting_america_topographic_tan", "topographic_contour_tan_bg.png"),
+    ]:
+        prof = get_template_profile(tpl_id)
+        assert prof.canvas_watermark_url.endswith(expected_file)
+        wm_path = repo_root / "assets" / "templates" / "overlays" / expected_file
+        assert wm_path.exists()
+        with Image.open(wm_path) as im:
+            rgba = im.convert("RGBA")
+            w, h = rgba.size
+            assert (w, h) == (1920, 1080)
+            # Sample center band of the watermark to verify contour lines are visible (alpha > 0)
+            center_crop = rgba.crop((int(w * 0.2), int(h * 0.2), int(w * 0.8), int(h * 0.8)))
+            px_iter = center_crop.get_flattened_data() if hasattr(center_crop, "get_flattened_data") else center_crop.getdata()
+            alphas = [px[3] for px in px_iter]
+            visible_contour_px = sum(1 for a in alphas if a >= 25)
+            transparent_bg_px = sum(1 for a in alphas if a == 0)
+            assert visible_contour_px > 5000, f"{expected_file} should have visible contour lines in center"
+            assert transparent_bg_px > 100000, f"{expected_file} should have transparent background between contours"
+
+    # 2. Verify PersistentSessionStore WAL mode, RLock thread safety, and ping_sync()
+    db_file = tmp_path / "test_wal_concurrency.db"
+    store = PersistentSessionStore(db_path=db_file)
+    assert store.ping_sync() is True
+
+    def _worker(i: int) -> bool:
+        sid = f"sess-worker-{i}"
+        store.save_session_sync(sid, "First Aid", {"unit": f"Troop {100 + i}"}, [{"idx": i}])
+        loaded = store.get_session_sync(sid)
+        return loaded is not None and loaded["badge_name"] == "First Aid"
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        results = list(pool.map(_worker, range(16)))
+    assert all(results)
+
+    # 3. Verify MCP query_merit_badge_pamphlet returns unwrapped chunk_count & passages list
+    mcp_res = mcp_tool_query_merit_badge_pamphlet("First Aid", "tourniquet", top_k=3)
+    assert mcp_res["status"] == "SUCCESS"
+    assert isinstance(mcp_res["chunks"], list)
+    assert isinstance(mcp_res["passages"], list)
+    assert mcp_res["chunk_count"] == len(mcp_res["passages"])
+    assert mcp_res["chunk_count"] >= 1
+
+    # 4. Verify rebuild_deck_pptx_from_storyboard helper builds valid PPTX with Topographic watermark on Cover + Content
+    out_pptx = tmp_path / "topo_rebuild_test.pptx"
+    sample_slides = [
+        {
+            "slide_number": 1,
+            "requirement_id": "Cover",
+            "title": "First Aid Merit Badge",
+            "bullet_points": ["Prepared. For Life."],
+            "speaker_notes": "Welcome Scouts.",
+            "visual_layout": "FULL_BLEED_HERO",
+            "template_id": "scouting_america_topographic",
+        },
+        {
+            "slide_number": 2,
+            "requirement_id": "1a",
+            "title": "Handling Medical Emergencies",
+            "bullet_points": ["Check the scene for safety", "Call 911 immediately"],
+            "speaker_notes": "[SAY] Always check scene safety first.",
+            "visual_layout": "SPLIT_50_50",
+            "template_id": "scouting_america_topographic",
+        },
+    ]
+    built_path = rebuild_deck_pptx_from_storyboard(
+        badge_name="First Aid",
+        storyboard_slides=sample_slides,
+        output_path=out_pptx,
+        template_id="scouting_america_topographic",
+    )
+    assert Path(built_path).exists()
+    assert Path(built_path).stat().st_size > 20_000
+
+    # 5. Verify Universal ModalController, Sticky CTA, and Sunlight Mode CSS in UI files
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+
+    assert "m3-setup-cta-sticky-footer" in ui_html
+    assert ".m3-setup-cta-sticky-footer" in ui_css
+    assert "isAnyModalOpen" in ui_js
+    assert "closeTopmostModal" in ui_js
+    assert "body.high-contrast-sunlight" in ui_css
+    assert 'value="clayberg@gmail.com"' not in ui_html
+
+
+
 
 
 

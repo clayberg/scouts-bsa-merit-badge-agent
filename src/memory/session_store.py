@@ -19,6 +19,7 @@ import math
 import os
 import re
 import sqlite3
+import threading
 import uuid
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
@@ -60,6 +61,7 @@ class EventsCompactionConfig(BaseModel):
                     overlap_size=self.overlap_size,
                 )
             except Exception:
+                logger.debug("Database operation failed", exc_info=True)
                 pass
         return self
 
@@ -87,6 +89,7 @@ def get_adk_context_cache_config(
                 cache_intervals=cache_intervals,
             )
         except Exception:
+            logger.debug("Database operation failed", exc_info=True)
             pass
     return {
         "min_tokens": min_tokens,
@@ -246,11 +249,21 @@ def _compute_bm25_scores(
     return scores
 
 
+
+_SESSION_DB_LOCK = threading.RLock()
+
+def _connect_session_db(db_path: str):
+    conn = sqlite3.connect(str(db_path), timeout=15.0)
+    conn.execute("PRAGMA journal_mode=WAL;")
+    conn.execute("PRAGMA synchronous=NORMAL;")
+    return conn
+
 class PersistentSessionStore:
     """Manages persistent session state and vector memory across SQLite, ADK Vertex AI Session Service, and Vertex AI Search."""
 
     def __init__(self, db_path: Optional[str] = None) -> None:
         self.db_path = db_path or os.getenv("LOCAL_SQLITE_DB_PATH", "scouts_bsa_sessions.db")
+        self._lock = _SESSION_DB_LOCK
         self.use_cloud = os.getenv("USE_VERTEX_SESSION_SERVICE", "false").lower() == "true"
         self.project_id = os.getenv("GOOGLE_CLOUD_PROJECT", "")
         self.location = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
@@ -265,9 +278,21 @@ class PersistentSessionStore:
                 self.memory_bank_service = None
         self._init_db()
 
+    def _connect(self):
+        return _connect_session_db(self.db_path)
+
+    def ping_sync(self) -> bool:
+        try:
+            with self._lock, self._connect() as conn:
+                conn.execute("SELECT 1").fetchone()
+            return True
+        except Exception:
+            logger.debug("ping_sync failed", exc_info=True)
+            return False
+
     def _init_db(self) -> None:
         """Initializes the persistent SQLite tables for counselor sessions and pamphlet vector chunks."""
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             conn.execute(
                 """
                 CREATE TABLE IF NOT EXISTS counselor_sessions (
@@ -389,7 +414,7 @@ class PersistentSessionStore:
                 extra={"session_id": session_id, "badge_name": badge_name},
             )
 
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             conn.execute(
                 """
                 INSERT INTO counselor_sessions (session_id, badge_name, counselor_info, history_json)
@@ -414,7 +439,7 @@ class PersistentSessionStore:
         """Synchronously retrieves stored session state from SQLite / Vertex AI cache and upcasts schema to v1.2.0."""
         from src.schemas import migrate_payload_schema
 
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute(
                 "SELECT badge_name, counselor_info, history_json FROM counselor_sessions WHERE session_id=?",
@@ -453,7 +478,7 @@ class PersistentSessionStore:
         feedback_id = hashlib.sha256(
             f"{badge_name}:{session_id}:{counselor_name}:{rating}:{clean_comments}".encode("utf-8")
         ).hexdigest()[:16]
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             conn.execute(
                 """
                 INSERT INTO hitl_feedback (
@@ -502,7 +527,7 @@ class PersistentSessionStore:
     ) -> List[Dict[str, Any]]:
         """Lists recent Counselor feedback records from the SQLite `hitl_feedback` table."""
         out: List[Dict[str, Any]] = []
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             cursor = conn.cursor()
             if badge_name:
                 cursor.execute(
@@ -555,7 +580,7 @@ class PersistentSessionStore:
         if not raw_chunks and clean_text.strip():
             raw_chunks = [clean_text.strip()]
 
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             for idx, chunk in enumerate(raw_chunks[:64]):
                 chunk_id = f"{badge_name.lower().replace(' ', '_')}_chunk_{idx}"
                 embedding = _compute_text_embedding(chunk)
@@ -583,7 +608,7 @@ class PersistentSessionStore:
         """Retrieves the top-k pamphlet chunks using Hybrid Search (Dense Cosine + Lexical Okapi BM25 via Reciprocal Rank Fusion)."""
         q_vec = _compute_text_embedding(query or badge_name)
         rows: List[Any] = []
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute(
                 "SELECT chunk_id, badge_name, chunk_text, embedding_json FROM pamphlet_vector_memory WHERE lower(badge_name)=lower(?)",
@@ -680,6 +705,7 @@ class PersistentSessionStore:
                 if cloud_hits:
                     return cloud_hits
             except Exception:
+                logger.debug("Database operation failed", exc_info=True)
                 pass
 
         return self.hybrid_search_pamphlet_rrf_sync(badge_name=badge_name, query=query, top_k=top_k)
@@ -713,7 +739,7 @@ class PersistentSessionStore:
             )
         if not rows:
             return 0
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             conn.executemany(
                 """
                 INSERT INTO badge_image_catalog (
@@ -741,7 +767,7 @@ class PersistentSessionStore:
     def list_badge_images_sync(self, badge_name: str) -> List[Dict[str, Any]]:
         """Retrieves all cached image catalog entries for a given Merit Badge from SQLite."""
         rows_out: List[Dict[str, Any]] = []
-        with sqlite3.connect(self.db_path) as conn:
+        with self._lock, self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute(
                 """
@@ -829,6 +855,7 @@ def load_local_counselor_profile() -> Dict[str, Any]:
                 merged["cached_locally"] = True
                 return merged
         except Exception:
+            logger.debug("Database operation failed", exc_info=True)
             pass
     return defaults
 
@@ -857,6 +884,7 @@ def save_local_counselor_profile(profile: Dict[str, Any]) -> Dict[str, Any]:
         try:
             os.chmod(profile_path, 0o600)
         except Exception:
+            logger.debug("Database operation failed", exc_info=True)
             pass
         logger.info(
             "Saved local counselor profile to .cache/counselor_profile.json (PII redacted from logs)",
@@ -1038,7 +1066,7 @@ def get_polished_speaker_notes(
         return None
     s = store or _default_store
     try:
-        with sqlite3.connect(s.db_path) as conn:
+        with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
             cur = conn.cursor()
             cur.execute(
                 "SELECT polished_notes FROM polished_speaker_notes WHERE notes_hash = ?",
@@ -1048,6 +1076,7 @@ def get_polished_speaker_notes(
             if row and row[0]:
                 return str(row[0])
     except Exception:
+        logger.debug("Database operation failed", exc_info=True)
         pass
     return None
 
@@ -1067,7 +1096,7 @@ def save_polished_speaker_notes(
     s = store or _default_store
     clean_notes = str(polished_notes).strip()
     try:
-        with sqlite3.connect(s.db_path) as conn:
+        with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
             conn.execute(
                 """
                 INSERT INTO polished_speaker_notes (
@@ -1090,6 +1119,7 @@ def save_polished_speaker_notes(
             conn.commit()
         return True
     except Exception:
+        logger.debug("Database operation failed", exc_info=True)
         return False
 
 
@@ -1112,7 +1142,7 @@ def save_counselor_workspace(
     # If no workspace_id was passed and force_new is False, reuse an existing workspace for the same (badge_name, session_label)
     if not ws_id and not force_new:
         try:
-            with sqlite3.connect(s.db_path) as conn:
+            with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
                 row = conn.execute(
                     """
                     SELECT workspace_id FROM counselor_workspaces
@@ -1136,6 +1166,7 @@ def save_counselor_workspace(
                 if row and row[0]:
                     ws_id = str(row[0])
         except Exception:
+            logger.debug("Database operation failed", exc_info=True)
             pass
 
     if not ws_id:
@@ -1195,7 +1226,7 @@ def save_counselor_workspace(
     is_pinned = 1 if workspace_payload.get("is_pinned", True) else 0
     is_archived = 1 if workspace_payload.get("is_archived", False) else 0
 
-    with sqlite3.connect(s.db_path) as conn:
+    with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
         conn.execute(
             """
             INSERT INTO counselor_workspaces (
@@ -1258,7 +1289,7 @@ def list_counselor_workspaces(
     s = store or _default_store
     items: List[Dict[str, Any]] = []
     try:
-        with sqlite3.connect(s.db_path) as conn:
+        with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
             conn.row_factory = sqlite3.Row
             clauses = ["1=1"]
             params: List[Any] = []
@@ -1302,6 +1333,7 @@ def list_counselor_workspaces(
                     }
                 )
     except Exception:
+        logger.debug("Database operation failed", exc_info=True)
         pass
     return items
 
@@ -1316,7 +1348,7 @@ def get_counselor_workspace(
         return None
     s = store or _default_store
     try:
-        with sqlite3.connect(s.db_path) as conn:
+        with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
             conn.row_factory = sqlite3.Row
             row = conn.execute(
                 "SELECT * FROM counselor_workspaces WHERE workspace_id = ?",
@@ -1332,6 +1364,7 @@ def get_counselor_workspace(
                     parsed = json.loads(val)
                     return parsed if isinstance(parsed, dict) else {}
                 except Exception:
+                    logger.debug("Database operation failed", exc_info=True)
                     return {}
 
             res: Dict[str, Any] = {
@@ -1358,6 +1391,7 @@ def get_counselor_workspace(
                 res["deck_result"] = _safe_json(row["deck_result_json"])
             return res
     except Exception:
+        logger.debug("Database operation failed", exc_info=True)
         return None
 
 
@@ -1415,7 +1449,7 @@ def delete_counselor_workspace(
         return False
     s = store or _default_store
     try:
-        with sqlite3.connect(s.db_path) as conn:
+        with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
             cur = conn.execute(
                 "DELETE FROM counselor_workspaces WHERE workspace_id = ?",
                 (str(workspace_id).strip(),),
@@ -1423,6 +1457,7 @@ def delete_counselor_workspace(
             conn.commit()
             return cur.rowcount > 0
     except Exception:
+        logger.debug("Database operation failed", exc_info=True)
         return False
 
 
@@ -1434,13 +1469,14 @@ def get_counselor_favorites(
     s = store or _default_store
     favs: List[str] = []
     try:
-        with sqlite3.connect(s.db_path) as conn:
+        with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
             rows = conn.execute(
                 "SELECT badge_name FROM counselor_favorites WHERE counselor_id = ? ORDER BY created_at ASC",
                 (str(counselor_id or "default"),),
             ).fetchall()
             favs = [str(r[0]) for r in rows if r and r[0]]
     except Exception:
+        logger.debug("Database operation failed", exc_info=True)
         pass
     return favs
 
@@ -1461,7 +1497,7 @@ def toggle_counselor_favorite(
     currently_fav = any(b.lower() == clean_badge.lower() for b in current)
     target_state = (not currently_fav) if is_favorite is None else bool(is_favorite)
     try:
-        with sqlite3.connect(s.db_path) as conn:
+        with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
             if target_state:
                 conn.execute(
                     "INSERT OR IGNORE INTO counselor_favorites (counselor_id, badge_name) VALUES (?, ?)",
@@ -1474,6 +1510,7 @@ def toggle_counselor_favorite(
                 )
             conn.commit()
     except Exception:
+        logger.debug("Database operation failed", exc_info=True)
         pass
     updated = get_counselor_favorites(cid, s)
     return {

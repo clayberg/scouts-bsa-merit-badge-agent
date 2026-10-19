@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261019f" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261019g" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -346,14 +346,7 @@
           <span id="finops-cost-meta">Warm Cream &bull; Instant Load</span>
         </div>
 
-        <div id="deck-dirty-banner" class="m3-dirty-settings-banner hidden">
-          ⚡ Deck settings updated — click <strong>Generate Slide Deck</strong> below when ready.
-        </div>
-
-        <button class="m3-btn m3-btn-filled" id="btn-generate-deck" type="button" style="width:100%; margin-bottom:12px;">
-          <span class="m3-inline-icon" aria-hidden="true">✨</span>
-          Generate Slide Deck &amp; Workbook
-        </button>
+        <!-- Generate button moved to sticky footer below -->
 
         <!-- Collapsible Counselor Profile Accordion (saves ~420px of vertical height once set) -->
         <details class="m3-profile-accordion" id="counselor-profile-accordion">
@@ -412,6 +405,16 @@
             </div>
           </div>
         </details>
+        
+        <div class="m3-setup-cta-sticky-footer">
+          <div id="deck-dirty-banner" class="m3-dirty-settings-banner hidden">
+            ⚡ Deck settings updated — click <strong>Generate Slide Deck</strong> below when ready.
+          </div>
+          <button class="m3-btn m3-btn-filled" id="btn-generate-deck" type="button" style="width:100%;">
+            <span class="m3-inline-icon" aria-hidden="true">✨</span>
+            Generate Slide Deck &amp; Workbook
+          </button>
+        </div>
       </section>
     </aside>
 
@@ -1046,14 +1049,7 @@
                   ✨ Apply &amp; Rebuild .PPTX
                 </button>
               </div>
-
-              <!-- Hidden compatibility hooks for legacy image select references -->
-              <div id="codesign-image-studio-row" class="m3-codesign-image-controls" style="display:none;">
-                <span id="codesign-quick-image-label"></span>
-                <select id="codesign-quick-image-select"></select>
-                <button type="button" id="btn-prev-slide-image">◀</button>
-                <button type="button" id="btn-next-slide-image">▶</button>
-              </div>
+              <div class="m3-codesign-image-controls" id="codesign-image-studio-row" style="display:none;" aria-hidden="true"></div>
             </div>
 
             <!-- DRAWER TAB 3: QUICK EDIT SLIDE TEXT & SPEAKER NOTES -->
@@ -2397,7 +2393,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
           </span>
         </div>
         <div id="gslides-detected-account-email" style="font-size:0.96rem; font-weight:800; color:#0F172A; margin-top:6px;">
-          clayberg@google.com
+          (Detecting...)
         </div>
         <div id="gslides-card-active-desc" style="font-size:0.77rem; color:#475569; margin-top:4px; line-height:1.4;">
           Uploads and converts your <code>.pptx</code> directly into a native Google Slides deck in <strong id="gslides-detected-account-label">My Drive</strong> and opens it in a new tab.
@@ -2413,8 +2409,8 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
           type="email"
           class="m3-input"
           id="gslides-share-email-input"
-          value="clayberg@gmail.com"
-          placeholder="e.g. clayberg@gmail.com (leave blank to open only in active account)"
+          value=""
+          placeholder="e.g., scoutmaster@gmail.com (leave blank to open only in active account)"
           style="background:#FFFFFF; border:1px solid #93C5FD; border-radius:8px; padding:8px 12px; font-size:0.84rem; color:#0F172A; font-weight:600; width:100%;"
         />
         <div id="gslides-card-share-desc" style="font-size:0.74rem; color:#1E3A8A; margin-top:6px; line-height:1.4;">
@@ -2957,6 +2953,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261019f"></script>
+  <script src="/ui/app.js?v=20261019g"></script>
 </body>
 </html>

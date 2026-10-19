@@ -17,6 +17,7 @@ This module implements:
 
 import hashlib
 import os
+from pathlib import Path
 import re
 from typing import Any, Dict, List, Optional, Set, Tuple
 from PIL import Image
@@ -2187,6 +2188,40 @@ def _render_split_explainer_zone(
 # ==============================================================================
 # MAIN PPTX GENERATOR FUNCTION
 # ==============================================================================
+
+
+def rebuild_deck_pptx_from_storyboard(
+    badge_name: str,
+    storyboard_slides: list[Any],
+    output_path: str | Path,
+    counselor_info: dict[str, Any] | None = None,
+    template_id: str | None = None,
+    default_tier: str = "BEAUTIFIED",
+) -> str:
+    """Cleanly coerces slide dicts to SlideSpecs and generates a .PPTX deck.
+    
+    Preserves all presentation attributes (template_id, palettes, visuals, layouts).
+    """
+    visible_slides = []
+    for s_raw in storyboard_slides:
+        s_dict = dict(s_raw) if isinstance(s_raw, dict) else dict(getattr(s_raw, "__dict__", {}))
+        if s_dict.get("hidden"):
+            continue
+        valid_fields = {k: v for k, v in s_dict.items() if k in SlideSpec.model_fields}
+        if "beautification_tier" not in valid_fields or not valid_fields["beautification_tier"]:
+            valid_fields["beautification_tier"] = default_tier
+        visible_slides.append(SlideSpec(**valid_fields))
+
+    req = PowerPointBuildRequest(
+        badge_name=badge_name,
+        slides=visible_slides,
+        counselor_info=CounselorTitleSlideInfo(**counselor_info) if counselor_info else None,
+        output_path=str(output_path),
+        template_id=str(template_id or "default_workbench"),
+    )
+    generate_bsa_slide_deck_pptx(req)
+    return str(output_path)
+
 
 def generate_bsa_slide_deck_pptx(
     request: Any,

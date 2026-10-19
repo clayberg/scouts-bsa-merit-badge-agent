@@ -424,7 +424,8 @@ def _to_web_asset_url(fs_path: Optional[str]) -> Optional[str]:
         dest = GENERATED_DIAGRAMS_DIR / p.name
         if p.resolve() != dest.resolve():
             import shutil
-            shutil.copyfile(str(p), str(dest))
+            if not dest.exists() or dest.stat().st_size != p.stat().st_size or dest.stat().st_mtime < p.stat().st_mtime:
+                shutil.copyfile(str(p), str(dest))
         return f"/assets/diagrams/{p.name}"
     return None
 
@@ -729,10 +730,8 @@ async def api_regenerate_slide(
     from src.agents.beautifier import generate_ai_editorial_illustration
     from src.agents.image_studio import register_image_in_badge_catalog
     from src.tools.pptx_builder import (
+    rebuild_deck_pptx_from_storyboard,
         CounselorTitleSlideInfo,
-        PowerPointBuildRequest,
-        SlideSpec,
-        generate_bsa_slide_deck_pptx,
     )
 
     req_num = str(req.slide_data.get("req_number") or (req.slide_index + 1))
@@ -932,26 +931,16 @@ async def api_regenerate_slide(
             out_file = req.output_path or str(
                 GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Regen_Merit_Badge_Deck.pptx"
             )
-            visible_slides = [
-                SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
-                for s in slides_copy
-                if not s.get("hidden")
-            ]
-            eff_tpl_id = str(
-                req.template_id
-                or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "")
-                or "default_workbench"
-            ).strip() or "default_workbench"
-            build_res = await asyncio.to_thread(
-                generate_bsa_slide_deck_pptx,
-                PowerPointBuildRequest(
-                    badge_name=req.badge_name,
-                    slides=visible_slides,
-                    counselor_info=c_info,
-                    output_path=out_file,
-                    template_id=eff_tpl_id,
-                ),
+            eff_tpl_id = str(req.template_id or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "") or "default_workbench").strip() or "default_workbench"
+            rebuild_deck_pptx_from_storyboard(
+                badge_name=req.badge_name,
+                storyboard_slides=slides_copy,
+                output_path=out_file,
+                counselor_info=req.counselor_info if isinstance(req.counselor_info, dict) else (req.counselor_info.__dict__ if hasattr(req.counselor_info, "__dict__") else None),
+                template_id=eff_tpl_id,
+                default_tier=tier if "tier" in locals() else "BEAUTIFIED",
             )
+            build_res = {"output_path": out_file}
             if build_res.get("output_path"):
                 rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
         except Exception as exc:
@@ -1156,7 +1145,7 @@ def _invoke_gemini_flash_polish_sync(
 
     # Path 1: Vertex AI Application Default Credentials (Cloud Run Service Account or local Argolis ADC)
     use_vertex = os.environ.get("GOOGLE_GENAI_USE_VERTEXAI", "true").strip().lower() not in ("false", "0", "no")
-    project_id = (os.environ.get("GOOGLE_CLOUD_PROJECT") or "clayberg-scouts-bsa-prod").strip().strip('"').strip("'")
+    project_id = (os.environ.get("GOOGLE_CLOUD_PROJECT") or os.environ.get("GCP_PROJECT") or "").strip().strip('"').strip("'")
     is_cloud_run = bool(os.environ.get("K_SERVICE"))
     in_pytest = bool(os.environ.get("PYTEST_CURRENT_TEST"))
     now_ts = time.time()
@@ -1170,12 +1159,14 @@ def _invoke_gemini_flash_polish_sync(
                     from google import genai
                     from google.genai import types as genai_types
 
-                    client = genai.Client(
-                        vertexai=True,
-                        project=project_id,
-                        location=loc,
-                        http_options={"timeout": 22000, "retry_options": {"attempts": 1}},
-                    )
+                    kwargs = {
+                        "vertexai": True,
+                        "location": loc,
+                        "http_options": {"timeout": 22000, "retry_options": {"attempts": 1}},
+                    }
+                    if project_id:
+                        kwargs["project"] = project_id
+                    client = genai.Client(**kwargs)
                     try:
                         gen_cfg = genai_types.GenerateContentConfig(
                             temperature=0.6,
@@ -1734,10 +1725,8 @@ async def api_polish_slide_speaker_notes(
 ) -> Dict[str, Any]:
     """Option C Layer 2: Polishes a single slide's Counselor Teaching Notes via Gemini Flash or Studio Narrative Synthesizer with SQLite caching."""
     from src.tools.pptx_builder import (
+    rebuild_deck_pptx_from_storyboard,
         CounselorTitleSlideInfo,
-        PowerPointBuildRequest,
-        SlideSpec,
-        generate_bsa_slide_deck_pptx,
     )
 
     t_start = time.perf_counter()
@@ -1763,26 +1752,16 @@ async def api_polish_slide_speaker_notes(
             out_file = req.output_path or str(
                 GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Polished_Merit_Badge_Deck.pptx"
             )
-            visible_slides = [
-                SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
-                for s in slides_copy
-                if not s.get("hidden")
-            ]
-            eff_tpl_id = str(
-                req.template_id
-                or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "")
-                or "default_workbench"
-            ).strip() or "default_workbench"
-            build_res = await asyncio.to_thread(
-                generate_bsa_slide_deck_pptx,
-                PowerPointBuildRequest(
-                    badge_name=req.badge_name,
-                    slides=visible_slides,
-                    counselor_info=c_info,
-                    output_path=out_file,
-                    template_id=eff_tpl_id,
-                ),
+            eff_tpl_id = str(req.template_id or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "") or "default_workbench").strip() or "default_workbench"
+            rebuild_deck_pptx_from_storyboard(
+                badge_name=req.badge_name,
+                storyboard_slides=slides_copy,
+                output_path=out_file,
+                counselor_info=req.counselor_info if isinstance(req.counselor_info, dict) else (req.counselor_info.__dict__ if hasattr(req.counselor_info, "__dict__") else None),
+                template_id=eff_tpl_id,
+                default_tier=tier if "tier" in locals() else "BEAUTIFIED",
             )
+            build_res = {"output_path": out_file}
             if build_res.get("output_path"):
                 rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
         except Exception as exc:
@@ -1813,10 +1792,8 @@ async def api_polish_deck_speaker_notes_batch(
 ) -> Dict[str, Any]:
     """Polishes all slides across the entire Merit Badge deck in parallel with SQLite caching and a single PPTX rebuild."""
     from src.tools.pptx_builder import (
+    rebuild_deck_pptx_from_storyboard,
         CounselorTitleSlideInfo,
-        PowerPointBuildRequest,
-        SlideSpec,
-        generate_bsa_slide_deck_pptx,
     )
 
     t_start = time.perf_counter()
@@ -1888,26 +1865,16 @@ async def api_polish_deck_speaker_notes_batch(
             out_file = req.output_path or str(
                 GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Deck_Polished_Merit_Badge_Deck.pptx"
             )
-            visible_slides = [
-                SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
-                for s in slides_copy
-                if not s.get("hidden")
-            ]
-            eff_tpl_id = str(
-                req.template_id
-                or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "")
-                or "default_workbench"
-            ).strip() or "default_workbench"
-            build_res = await asyncio.to_thread(
-                generate_bsa_slide_deck_pptx,
-                PowerPointBuildRequest(
-                    badge_name=req.badge_name,
-                    slides=visible_slides,
-                    counselor_info=c_info,
-                    output_path=out_file,
-                    template_id=eff_tpl_id,
-                ),
+            eff_tpl_id = str(req.template_id or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "") or "default_workbench").strip() or "default_workbench"
+            rebuild_deck_pptx_from_storyboard(
+                badge_name=req.badge_name,
+                storyboard_slides=slides_copy,
+                output_path=out_file,
+                counselor_info=req.counselor_info if isinstance(req.counselor_info, dict) else (req.counselor_info.__dict__ if hasattr(req.counselor_info, "__dict__") else None),
+                template_id=eff_tpl_id,
+                default_tier=tier if "tier" in locals() else "BEAUTIFIED",
             )
+            build_res = {"output_path": out_file}
             if build_res.get("output_path"):
                 rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
         except Exception as exc:
@@ -2066,7 +2033,7 @@ def _detect_workstation_google_account() -> Dict[str, Any]:
         if user_env and user_env not in ("root", "nobody", "appuser"):
             account_email = f"{user_env}@google.com"
     if not account_email:
-        account_email = "clayberg@google.com"
+        account_email = os.environ.get("BSA_DEFAULT_GOOGLE_ACCOUNT", "counselor@scouting.org")
 
     oauth_client_id = os.environ.get("GOOGLE_OAUTH_CLIENT_ID", "").strip()
     has_env_token = bool(os.environ.get("GOOGLE_DRIVE_ACCESS_TOKEN", "").strip())
@@ -2309,10 +2276,8 @@ async def api_export_slide_deck_to_google_slides(
     import subprocess
     import requests as ext_requests
     from src.tools.pptx_builder import (
+    rebuild_deck_pptx_from_storyboard,
         CounselorTitleSlideInfo,
-        PowerPointBuildRequest,
-        SlideSpec,
-        generate_bsa_slide_deck_pptx,
     )
 
     t_start = time.perf_counter()
@@ -2331,24 +2296,15 @@ async def api_export_slide_deck_to_google_slides(
                 GENERATED_DECKS_DIR
                 / f"{req.badge_name.strip().replace(' ', '_')}_{eff_tpl_id}_{req.beautification_tier}_GoogleSlides_Export.pptx"
             )
-            visible_slides = []
-            for s in req.storyboard_slides:
-                if s.get("hidden"):
-                    continue
-                s_copy = dict(s)
-                s_copy["template_id"] = eff_tpl_id
-                visible_slides.append(SlideSpec(**{k: v for k, v in s_copy.items() if k in SlideSpec.model_fields}))
-            if visible_slides:
-                build_res = await asyncio.to_thread(
-                    generate_bsa_slide_deck_pptx,
-                    PowerPointBuildRequest(
-                        badge_name=req.badge_name,
-                        slides=visible_slides,
-                        counselor_info=c_info,
-                        output_path=out_file,
-                        template_id=eff_tpl_id,
-                    ),
+            if req.storyboard_slides:
+                rebuild_deck_pptx_from_storyboard(
+                    badge_name=req.badge_name,
+                    storyboard_slides=req.storyboard_slides,
+                    output_path=out_file,
+                    counselor_info=c_info.model_dump() if hasattr(c_info, "model_dump") else getattr(c_info, "__dict__", None),
+                    template_id=eff_tpl_id,
                 )
+                build_res = {"output_path": out_file}
                 if build_res.get("output_path") and Path(build_res["output_path"]).exists():
                     pptx_file = Path(build_res["output_path"])
         except Exception as exc:
@@ -2446,8 +2402,7 @@ async def api_export_slide_deck_to_google_slides(
                         "Authorization": f"Bearer {access_token}",
                         "Content-Type": f"multipart/related; boundary={boundary}",
                     },
-                    data=body,
-                    timeout=30,
+                    data=body, timeout=15,
                 )
                 if resp.status_code in (200, 201):
                     data_json = resp.json()
@@ -2459,8 +2414,7 @@ async def api_export_slide_deck_to_google_slides(
                                     "Authorization": f"Bearer {access_token}",
                                     "Content-Type": "application/json",
                                 },
-                                json={"role": "writer", "type": "user", "emailAddress": target_share_email},
-                                timeout=10,
+                                json={"role": "writer", "type": "user", "emailAddress": target_share_email}, timeout=15,
                             )
                         except Exception:
                             pass
@@ -2613,7 +2567,7 @@ async def api_customize_slide_deck(
 ) -> Dict[str, Any]:
     """Inserts a custom local slide, hides/skips slides, or reorders slides, and rebuilds the .pptx excluding hidden slides."""
     from src.tools.pptx_builder import (
-        CounselorTitleSlideInfo,
+    CounselorTitleSlideInfo,
         PowerPointBuildRequest,
         SlideSpec,
         generate_bsa_slide_deck_pptx,
@@ -3000,9 +2954,10 @@ async def readiness_deep_probe() -> Dict[str, Any]:
 
     # 1. SQLite session store check
     try:
-        _default_store.save_session_sync("readiness_probe", "First Aid", {}, [{"probe_ts": time.time()}])
-        loaded = _default_store.get_session_sync("readiness_probe")
-        checks["session_store"] = "READY" if loaded else "DEGRADED"
+        is_ok = await asyncio.to_thread(_default_store.ping_sync)
+        checks["session_store"] = "READY" if is_ok else "DEGRADED"
+        if not is_ok:
+            overall_ready = False
     except Exception as exc:
         checks["session_store"] = f"FAILED: {exc}"
         overall_ready = False
@@ -3710,7 +3665,7 @@ async def api_apply_powerpoint_template(
 ) -> Dict[str, Any]:
     """Applies a PowerPoint template to the active deck and rebuilds the downloadable .pptx with SafeCanvasBounds."""
     from src.tools.pptx_builder import (
-        CounselorTitleSlideInfo,
+    CounselorTitleSlideInfo,
         PowerPointBuildRequest,
         SlideSpec,
         generate_bsa_slide_deck_pptx,

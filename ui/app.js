@@ -581,6 +581,55 @@ function bindConstructionAnimationControls() {
   startConstructionAnimationTimer();
 }
 
+window.isAnyModalOpen = function() {
+  const modals = document.querySelectorAll(".m3-modal-backdrop");
+  for (const m of modals) {
+    if (m.classList.contains("open") || !m.classList.contains("hidden")) {
+      return true;
+    }
+  }
+  return false;
+};
+
+window.closeTopmostModal = function() {
+  const orderedModalIds = [
+    "delete-workspace-confirm-modal",
+    "edit-template-meta-modal",
+    "image-zoom-lightbox-modal",
+    "image-studio-modal",
+    "patch-gallery-modal",
+    "template-studio-modal",
+    "saved-workspaces-modal",
+    "mcp-hub-modal",
+    "docs-viewer-modal",
+    "gslides-export-modal",
+    "ai-polish-finops-modal",
+    "keyboard-shortcuts-modal",
+    "admin-pin-modal",
+    "admin-unlock-modal",
+    "insert-custom-slide-modal"
+  ];
+  for (const id of orderedModalIds) {
+    const m = document.getElementById(id);
+    if (m && (m.classList.contains("open") || !m.classList.contains("hidden"))) {
+      const closeBtn = m.querySelector(".m3-btn-close, .close-btn, [id^='btn-close']");
+      if (closeBtn) {
+        closeBtn.click();
+      } else {
+        m.classList.remove("open");
+        m.classList.add("hidden");
+      }
+      return;
+    }
+  }
+};
+
+document.addEventListener("click", (ev) => {
+  if (ev.target && ev.target.classList && ev.target.classList.contains("m3-modal-backdrop")) {
+    if (window.closeTopmostModal) window.closeTopmostModal();
+  }
+});
+
 document.addEventListener("DOMContentLoaded", async () => {
   bindNavigationTabs();
   bindConstructionAnimationControls();
@@ -1015,8 +1064,13 @@ function bindFilterAndSlideControls() {
     if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || ev.target?.isContentEditable) {
       return;
     }
-    const modal = document.getElementById("image-studio-modal");
-    if (modal && modal.classList.contains("open")) return;
+    if (window.isAnyModalOpen && window.isAnyModalOpen()) {
+      if (ev.key === "Escape") {
+        ev.preventDefault();
+        if (window.closeTopmostModal) window.closeTopmostModal();
+      }
+      return;
+    }
     const storyboardPanel = document.getElementById("panel-storyboard");
     if (storyboardPanel && storyboardPanel.classList.contains("hidden")) return;
 
@@ -8559,6 +8613,9 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   document.addEventListener("keydown", (ev) => {
     const tag = (ev.target?.tagName || "").toUpperCase();
     if (["INPUT", "TEXTAREA", "SELECT"].includes(tag) || ev.target?.isContentEditable) return;
+    if (window.isAnyModalOpen && window.isAnyModalOpen()) {
+      return;
+    }
     if (ev.key === "?") {
       ev.preventDefault();
       const isHidden = shortcutsModal?.classList.toggle("hidden");
@@ -9569,12 +9626,6 @@ function bindDocumentationViewerModal() {
     },
     { passive: false }
   );
-  document.addEventListener("keydown", (ev) => {
-    if (ev.key === "Escape" && lbModal && !lbModal.classList.contains("hidden")) {
-      ev.stopPropagation();
-      closeImageZoomLightbox();
-    }
-  });
 
   // Allow clicking the 16:9 slide diagram (#stage-diagram-img) or its 🔍 Click to zoom pill (#btn-stage-zoom-image)
   // to open the Click-to-Zoom Lightbox with the slide's title and visual caption
@@ -9883,9 +9934,9 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     parts.push(
       `<img src="${escapeHtml(prof.cover_bg_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.22" : "0.18"}; pointer-events:none;" />`
     );
-  } else if (!isCover && prof.canvas_watermark_url && !isDarkSlide) {
+  } else if (prof.canvas_watermark_url) {
     parts.push(
-      `<img src="${escapeHtml(prof.canvas_watermark_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; pointer-events:none;" />`
+      `<img src="${escapeHtml(prof.canvas_watermark_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.42" : "0.86"}; pointer-events:none;" />`
     );
   }
 
@@ -10340,7 +10391,7 @@ function renderTemplateCatalogGrid() {
       const previewBg = t.cover_bg_url
         ? `background-image:linear-gradient(rgba(250,248,245,0.78), rgba(250,248,245,0.84)), url('${escapeHtml(t.cover_bg_url)}'); background-size:cover;`
         : t.canvas_watermark_url
-        ? `background-image:url('${escapeHtml(t.canvas_watermark_url)}'); background-size:cover;`
+        ? `background-color:#FAF8F5; background-image:url('${escapeHtml(t.canvas_watermark_url)}'); background-size:cover;`
         : "background:#FAF8F5;";
       const customActionsHtml = !t.is_builtin
         ? `
@@ -10390,10 +10441,10 @@ function renderTemplateCatalogGrid() {
                 <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">16:9</span>
               </div>
               <div style="padding:6px 8px; width:100%; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
-                <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800;">
+                <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800; opacity:${t.canvas_watermark_url ? "0.84" : "0.95"};">
                   Safe Zone: 1.12"&ndash;${bottomSafe}"
                 </div>
-                <div class="m3-tpl-preview-fig-card" style="background:#FFFFFF; border:1px solid #CBD5E1; border-radius:4px; height:72%; display:flex; align-items:center; justify-content:center; font-size:0.52rem; font-weight:700;">
+                <div class="m3-tpl-preview-fig-card" style="background:#FFFFFF; border:1px solid #CBD5E1; border-radius:4px; height:72%; display:flex; align-items:center; justify-content:center; font-size:0.52rem; font-weight:700; opacity:${t.canvas_watermark_url ? "0.82" : "0.95"};">
                   Figure
                 </div>
               </div>

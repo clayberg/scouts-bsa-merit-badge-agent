@@ -191,17 +191,22 @@ _DISCARDED_PAMPHLET_FILENAMES = {
 }
 
 
+_PAMPHLET_VISION_CATALOG_MTIME = 0.0
+
 def _load_pamphlet_image_catalog() -> Dict[str, Dict[str, Any]]:
     """Loads the vision-verified pamphlet image catalog mapping filenames to requirement numbers and captions."""
-    global _PAMPHLET_VISION_CATALOG_CACHE
-    if _PAMPHLET_VISION_CATALOG_CACHE is not None:
+    global _PAMPHLET_VISION_CATALOG_CACHE, _PAMPHLET_VISION_CATALOG_MTIME
+    if not _PAMPHLET_CATALOG_PATH.exists():
+        return {}
+    current_mtime = _PAMPHLET_CATALOG_PATH.stat().st_mtime_ns
+    if _PAMPHLET_VISION_CATALOG_CACHE is not None and _PAMPHLET_VISION_CATALOG_MTIME == current_mtime:
         return _PAMPHLET_VISION_CATALOG_CACHE
-    if _PAMPHLET_CATALOG_PATH.exists():
-        try:
-            _PAMPHLET_VISION_CATALOG_CACHE = json.loads(_PAMPHLET_CATALOG_PATH.read_text(encoding="utf-8"))
-            return _PAMPHLET_VISION_CATALOG_CACHE
-        except Exception:
-            pass
+    try:
+        _PAMPHLET_VISION_CATALOG_CACHE = json.loads(_PAMPHLET_CATALOG_PATH.read_text(encoding="utf-8"))
+        _PAMPHLET_VISION_CATALOG_MTIME = current_mtime
+        return _PAMPHLET_VISION_CATALOG_CACHE
+    except Exception:
+        pass
     _PAMPHLET_VISION_CATALOG_CACHE = {}
     return _PAMPHLET_VISION_CATALOG_CACHE
 

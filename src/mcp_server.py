@@ -215,12 +215,14 @@ def mcp_tool_query_merit_badge_pamphlet(
     clean_badge = str(badge_name or "First Aid").strip()
     clean_q = str(question or clean_badge).strip()
     chunks = retrieve_pamphlet_memory_chunks(clean_badge, clean_q, top_k=max(1, min(12, int(top_k or 5))))
+    matches = chunks.get("matches", []) if isinstance(chunks, dict) else (chunks if isinstance(chunks, list) else [])
     return {
         "status": "SUCCESS",
         "badge_name": clean_badge,
         "query": clean_q,
-        "chunk_count": len(chunks),
-        "chunks": chunks,
+        "chunk_count": len(matches),
+        "chunks": matches,
+        "passages": matches,
     }
 
 
@@ -238,7 +240,7 @@ def mcp_tool_create_merit_badge_slide_deck(
     """Builds a complete Merit Badge teaching slide deck, applies the chosen PowerPoint template, and saves a persistent workspace."""
     from src.server import _load_or_build_cached_default_deck
     from src.schemas import CounselorTitleSlideInfo
-    from src.tools.pptx_builder import PowerPointBuildRequest, SlideSpec, generate_bsa_slide_deck_pptx
+    from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
 
     clean_badge = str(badge_name or "First Aid").strip()
     c_info = CounselorTitleSlideInfo(
@@ -251,27 +253,24 @@ def mcp_tool_create_merit_badge_slide_deck(
 
     tpl_prof = get_template_profile(template_id)
     tier_norm = normalize_visual_theme(visual_theme)
-
-    slide_specs: List[SlideSpec] = []
     for s in slides_raw:
         if isinstance(s, dict):
-            s["beautification_tier"] = tier_norm
             s["template_id"] = tpl_prof.template_id
-            slide_specs.append(SlideSpec(**s))
+            s["beautification_tier"] = tier_norm
 
-    if slide_specs:
-        slug = badge_file_slug(clean_badge)
-        out_pptx = REPO_ROOT / "deliverables" / f"{slug}_{tpl_prof.template_id}_mcp.pptx"
-        out_pptx.parent.mkdir(parents=True, exist_ok=True)
-        pptx_res = generate_bsa_slide_deck_pptx(
-            PowerPointBuildRequest(
-                badge_name=clean_badge,
-                slides=slide_specs,
-                counselor_info=c_info,
-                output_path=str(out_pptx),
-                template_id=tpl_prof.template_id,
-            )
+    slug = badge_file_slug(clean_badge)
+    out_pptx = REPO_ROOT / "deliverables" / f"{slug}_{tpl_prof.template_id}_Deck.pptx"
+    out_pptx.parent.mkdir(parents=True, exist_ok=True)
+    if not out_pptx.exists() or out_pptx.stat().st_size < 10000:
+        rebuild_deck_pptx_from_storyboard(
+            badge_name=clean_badge,
+            storyboard_slides=slides_raw,
+            output_path=str(out_pptx),
+            counselor_info=c_info.model_dump() if hasattr(c_info, "model_dump") else getattr(c_info, "__dict__", None),
+            template_id=tpl_prof.template_id,
+            default_tier=tier_norm,
         )
+        pptx_res = {"output_path": str(out_pptx)}
         deck_res["pptx_path"] = pptx_res.get("output_path")
         deck_res["pptx_download_url"] = f"/deliverables/{out_pptx.name}"
         deck_res["template_id"] = tpl_prof.template_id
@@ -487,31 +486,28 @@ def mcp_tool_apply_powerpoint_template(
     slides_raw = ((deck.get("storyboard") or {}).get("slides")) or []
 
     from src.schemas import CounselorTitleSlideInfo
-    from src.tools.pptx_builder import PowerPointBuildRequest, SlideSpec, generate_bsa_slide_deck_pptx
-
-    slide_specs: List[SlideSpec] = []
-    for s in slides_raw:
-        if isinstance(s, dict):
-            s["template_id"] = prof.template_id
-            if visual_theme:
-                s["beautification_tier"] = normalize_visual_theme(visual_theme)
-            if accent_palette_key:
-                s["accent_palette_key"] = str(accent_palette_key).upper()
-            slide_specs.append(SlideSpec(**s))
+    from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
 
     c_info = CounselorTitleSlideInfo(**(ws.get("counselor_info") or {})) if ws.get("counselor_info") else None
     slug = badge_file_slug(ws["badge_name"])
     out_pptx = REPO_ROOT / "deliverables" / f"{slug}_{prof.template_id}_{workspace_id[-6:]}.pptx"
     out_pptx.parent.mkdir(parents=True, exist_ok=True)
-    pptx_res = generate_bsa_slide_deck_pptx(
-        PowerPointBuildRequest(
-            badge_name=ws["badge_name"],
-            slides=slide_specs,
-            counselor_info=c_info,
-            output_path=str(out_pptx),
-            template_id=prof.template_id,
-        )
+    if visual_theme:
+        for s in slides_raw:
+            if isinstance(s, dict):
+                s["beautification_tier"] = normalize_visual_theme(visual_theme)
+    if accent_palette_key:
+        for s in slides_raw:
+            if isinstance(s, dict):
+                s["accent_palette_key"] = str(accent_palette_key).upper()
+    rebuild_deck_pptx_from_storyboard(
+        badge_name=ws["badge_name"],
+        storyboard_slides=slides_raw,
+        output_path=str(out_pptx),
+        counselor_info=c_info.model_dump() if hasattr(c_info, "model_dump") else getattr(c_info, "__dict__", None),
+        template_id=prof.template_id,
     )
+    pptx_res = {"output_path": str(out_pptx)}
     deck["pptx_path"] = pptx_res.get("output_path")
     deck["pptx_download_url"] = f"/deliverables/{out_pptx.name}"
     deck["template_id"] = prof.template_id
