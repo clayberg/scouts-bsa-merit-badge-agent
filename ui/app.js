@@ -1713,6 +1713,7 @@ function bindFilterAndSlideControls() {
       state.activeSlideIdx -= 1;
       renderFilmstrip(slides);
       renderActiveSlide(state.activeSlideIdx);
+      scrollActiveFilmstripThumbIntoView(true);
     }
   });
 
@@ -1722,6 +1723,7 @@ function bindFilterAndSlideControls() {
       state.activeSlideIdx += 1;
       renderFilmstrip(slides);
       renderActiveSlide(state.activeSlideIdx);
+      scrollActiveFilmstripThumbIntoView(true);
     }
   });
 
@@ -2337,6 +2339,7 @@ function renderRequirementJumpBar(slides) {
 function renderFilmstrip(slides) {
   const list = document.getElementById("slide-filmstrip-list");
   if (!list) return;
+  const savedScrollTop = list.scrollTop;
   list.classList.remove("hidden");
   list.innerHTML = "";
   renderRequirementJumpBar(slides);
@@ -2438,6 +2441,7 @@ function renderFilmstrip(slides) {
     });
     list.appendChild(thumb);
   });
+  list.scrollTop = savedScrollTop;
 }
 
 function resolveSlidePaletteTokens(slide, deckTier) {
@@ -10003,6 +10007,62 @@ function groupTemplatesByStyleFamily(list) {
   return groups;
 }
 
+function getTemplateBaseDisplayName(t) {
+  const raw = String(t?.name || "Workbench Classic")
+    .replace(" (Full Canvas)", "")
+    .replace("Scouting America | ", "");
+  return raw.replace(/\s*\((Green|Blue|Red|Tan)\)\s*$/i, "").trim();
+}
+
+function getTemplateVariantInfo(t) {
+  let colorKey = String(t?.variant_color || "").toLowerCase();
+  let label = String(t?.variant_label || "");
+  if (!colorKey) {
+    const m = String(t?.name || "").match(/\((Green|Blue|Red|Tan)\)\s*$/i);
+    if (m) {
+      label = m[1];
+      colorKey = m[1].toLowerCase();
+    }
+  }
+  if (!colorKey) return null;
+  const defaultHexMap = {
+    green: "#1B5E20",
+    blue: "#003F87",
+    red: "#CE1126",
+    tan: "#8B5A2B",
+  };
+  const emojiMap = {
+    green: "🟢",
+    blue: "🔵",
+    red: "🔴",
+    tan: "🟤",
+  };
+  return {
+    colorKey,
+    label: label || colorKey.charAt(0).toUpperCase() + colorKey.slice(1),
+    swatchHex: t?.variant_swatch_hex || defaultHexMap[colorKey] || t?.primary_hex || "#003F87",
+    emoji: emojiMap[colorKey] || "⚪",
+  };
+}
+
+function formatTemplateNameWithColorDotHtml(t, dotSizePx = 9) {
+  const baseName = escapeHtml(getTemplateBaseDisplayName(t));
+  const vInfo = getTemplateVariantInfo(t);
+  if (!vInfo) return `<span>${baseName}</span>`;
+  return `<span>${baseName}</span><span class="m3-tpl-inline-color-dot" style="background:${escapeHtml(
+    vInfo.swatchHex
+  )}; width:${dotSizePx}px; height:${dotSizePx}px;" title="${escapeHtml(
+    vInfo.label
+  )} variant" aria-label="${escapeHtml(vInfo.label)}"></span>`;
+}
+
+function formatTemplateOptionText(t) {
+  const baseName = getTemplateBaseDisplayName(t);
+  const vInfo = getTemplateVariantInfo(t);
+  if (!vInfo) return baseName;
+  return `${baseName} ${vInfo.emoji}`;
+}
+
 function populateTemplateSelectOptgroups(sel, list, activeId) {
   if (!sel || !Array.isArray(list) || list.length === 0) return;
   const optgroups = [];
@@ -10031,7 +10091,7 @@ function populateTemplateSelectOptgroups(sel, list, activeId) {
             (t) =>
               `<option value="${escapeHtml(t.template_id)}" ${
                 t.template_id === activeId ? "selected" : ""
-              }>${escapeHtml(t.name)}</option>`
+              }>${escapeHtml(formatTemplateOptionText(t))}</option>`
           )
           .join("")}
       </optgroup>
@@ -10154,8 +10214,7 @@ function syncTemplateSelectorUi() {
   }
   const pillLbl = document.getElementById("stage-template-pill-label");
   if (pillLbl) {
-    const shortName = prof.name.replace(" (Full Canvas)", "").replace("Scouting America | ", "");
-    pillLbl.textContent = shortName;
+    pillLbl.innerHTML = formatTemplateNameWithColorDotHtml(prof, 9);
   }
   renderStageTemplateSplitDropdown();
 }
@@ -10327,7 +10386,7 @@ function renderTemplateCatalogGrid() {
                     ? `<img src="${escapeHtml(t.top_banner_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:fill; opacity:0.92;" />`
                     : ""
                 }
-                <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">${escapeHtml(t.name.slice(0, 26))}</span>
+                <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45); display:inline-flex; align-items:center; white-space:nowrap;">${formatTemplateNameWithColorDotHtml(t, 8)}</span>
                 <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">16:9</span>
               </div>
               <div style="padding:6px 8px; width:100%; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
@@ -10353,7 +10412,7 @@ function renderTemplateCatalogGrid() {
             </div>
             ${variantBarHtml}
             <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-top:7px;">
-              <div class="m3-template-card-title" style="font-size:0.79rem; font-weight:800; color:#003F87; line-height:1.2;">${escapeHtml(t.name)}</div>
+              <div class="m3-template-card-title" style="font-size:0.79rem; font-weight:800; color:#003F87; line-height:1.2; display:inline-flex; align-items:center;">${formatTemplateNameWithColorDotHtml(t, 10)}</div>
               ${isActive ? `<span class="m3-chip m3-chip-primary" style="font-size:0.62rem; padding:1px 6px;">✓ Active</span>` : ""}
             </div>
             <div class="m3-template-card-desc" style="font-size:0.69rem; color:#475569; margin-top:3px; line-height:1.35;">${escapeHtml(t.description || "")}</div>

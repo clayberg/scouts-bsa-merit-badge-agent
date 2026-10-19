@@ -2766,9 +2766,15 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
 
     assert "m3-shortcuts-key-btn" in ui_html
     assert "optgroup label=" in ui_html
+    assert "BSA Scouting America 🟢" in ui_html
     assert "m3-tpl-variant-bar" in ui_css
-    assert "max-width: 192px;" in ui_css
+    assert "m3-tpl-inline-color-dot" in ui_css
+    assert "max-width: 242px;" in ui_css
     assert "background: #F1EFEA;" in ui_css
+    assert "formatTemplateNameWithColorDotHtml" in ui_js
+    assert "formatTemplateOptionText" in ui_js
+    assert "t.name.slice(0, 26)" not in ui_js
+    assert "savedScrollTop = list.scrollTop" in ui_js
 
 
 

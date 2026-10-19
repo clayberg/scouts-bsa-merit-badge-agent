@@ -6790,7 +6790,7 @@ body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
   align-items: stretch;
   flex-shrink: 1;
   min-width: 0;
-  max-width: 192px;
+  max-width: 242px;
 }
 
 .m3-stage-template-split-group .m3-split-main-btn {
@@ -6798,7 +6798,7 @@ body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
   border-bottom-right-radius: 0 !important;
   border-right: 1px solid rgba(0, 63, 135, 0.18) !important;
   min-width: 0;
-  max-width: 168px;
+  max-width: 218px;
   overflow: hidden;
   display: inline-flex;
   align-items: center;
@@ -6806,12 +6806,25 @@ body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
 }
 
 #stage-template-pill-label {
-  display: inline-block;
-  max-width: 132px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 186px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   vertical-align: bottom;
+}
+
+.m3-tpl-inline-color-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  vertical-align: middle;
+  margin-left: 4px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.78), inset 0 0 0 1px rgba(15, 23, 42, 0.26);
 }
 
 .m3-shortcuts-key-btn {
