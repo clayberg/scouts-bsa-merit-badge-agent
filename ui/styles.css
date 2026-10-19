@@ -664,9 +664,12 @@ html, body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  flex: 1 1 100%;
   aspect-ratio: 16 / 9;
-  min-height: 410px;
   height: auto;
+  min-height: 0;
   box-sizing: border-box;
 }
 
@@ -728,8 +731,8 @@ html, body {
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   gap: 14px;
   padding: 8px 20px 10px 20px;
-  flex: 1 0 auto;
-  min-height: min-content;
+  flex: 1 1 0%;
+  min-height: 0;
   align-items: stretch;
   box-sizing: border-box;
   min-width: 0;
@@ -748,7 +751,7 @@ html, body {
   gap: 7px;
   text-align: left;
   min-width: 0;
-  min-height: min-content;
+  min-height: 0;
 }
 
 .m3-slide-card-item {
@@ -1073,7 +1076,7 @@ html, body {
   gap: 5px;
 }
 .m3-widescreen-slide.slide-density-compact .m3-slide-card-item {
-  padding: 6px 10px;
+  padding: 6px 10px !important;
 }
 .m3-widescreen-slide.slide-density-compact .m3-slide-card-anchor {
   font-size: 0.82rem;
@@ -1119,7 +1122,7 @@ html, body {
   gap: 4px;
 }
 .m3-widescreen-slide.slide-density-ultra-compact .m3-slide-card-item {
-  padding: 4px 9px;
+  padding: 4px 9px !important;
 }
 .m3-widescreen-slide.slide-density-ultra-compact .m3-slide-card-anchor {
   font-size: 0.76rem;
@@ -1140,6 +1143,53 @@ html, body {
 .m3-widescreen-slide.slide-density-ultra-compact .m3-slide-footer-strip {
   padding: 3px 16px;
   font-size: 0.64rem;
+}
+
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-header-band {
+  padding: 2px 14px 1px 14px;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-header-title {
+  font-size: clamp(0.86rem, 1.08vw, 1.0rem);
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-req-strip {
+  padding: 2px 8px;
+  font-size: 0.68rem;
+  line-height: 1.16;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-body-split {
+  padding: 3px 14px 3px 14px;
+  gap: 6px;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-left-zone {
+  gap: 3px;
+  overflow-y: auto;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-card-item {
+  padding: 3px 7px !important;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-card-anchor {
+  font-size: 0.71rem;
+  margin-bottom: 0;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-card-text {
+  font-size: 0.68rem;
+  line-height: 1.16;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-right-visual {
+  padding: 4px 6px;
+  gap: 3px;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-right-visual img {
+  max-height: 130px !important;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-safety-bar {
+  margin: 0 14px 3px;
+  padding: 2px 8px;
+  font-size: 0.64rem;
+}
+.m3-widescreen-slide.slide-density-micro-compact .m3-slide-footer-strip {
+  padding: 2px 14px;
+  font-size: 0.60rem;
 }
 
 /* Keynote Demo Voice Speaker Notes Box */
@@ -2890,6 +2940,9 @@ body.m3-sunlight-mode .m3-slide-card {
 }
 
 .m3-slide-and-presenter-row > #widescreen-slide-stage {
+  width: 100%;
+  max-width: 100%;
+  flex: 1 1 100%;
   margin: 0 auto;
 }
 

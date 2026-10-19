@@ -2630,6 +2630,7 @@ function conciseCardBody(bodyText, maxWords = 24, maxChars = 150) {
 function renderActiveSlide(idx) {
   const res = state.currentResult;
   if (!res) return;
+  if (idx === undefined) idx = state.activeSlideIdx ?? -1;
   state.activeSlideIdx = idx;
   const slides = res.storyboard?.slides || [];
   const totalSlides = slides.length + 1;
@@ -3323,8 +3324,9 @@ function isSlideStageOverflowing(stageEl) {
   const bottomBoundaryEl = (safetyBar && !safetyBar.classList.contains("hidden")) ? safetyBar : footerStrip;
   if (bottomBoundaryEl && splitEl) {
     const boundaryTop = bottomBoundaryEl.getBoundingClientRect().top;
-    const splitBottom = splitEl.getBoundingClientRect().bottom;
-    if (splitBottom > boundaryTop + 1) return true;
+    const padBottom = parseFloat(window.getComputedStyle(splitEl).paddingBottom) || 0;
+    const splitContentBottom = splitEl.getBoundingClientRect().bottom - padBottom;
+    if (splitContentBottom > boundaryTop + 2) return true;
     if (leftEl && leftEl.lastElementChild) {
       const lastBottom = leftEl.lastElementChild.getBoundingClientRect().bottom;
       if (lastBottom > boundaryTop - 2) return true;
@@ -3337,11 +3339,13 @@ function fitActiveSlideToStage() {
   const stageEl = document.getElementById("widescreen-slide-stage");
   if (!stageEl || stageEl.offsetParent === null) return;
 
-  // Reset density classes and height overrides so we measure against the true 16:9 stage
-  stageEl.classList.remove("slide-density-compact", "slide-density-ultra-compact");
+  // Reset density classes while strictly preserving uniform 100% width and 16:9 aspect ratio across all slides
+  stageEl.classList.remove("slide-density-compact", "slide-density-ultra-compact", "slide-density-micro-compact");
+  stageEl.style.width = "100%";
+  stageEl.style.maxWidth = "100%";
   stageEl.style.aspectRatio = "16 / 9";
   stageEl.style.height = "auto";
-  stageEl.style.minHeight = "410px";
+  stageEl.style.minHeight = "0px";
 
   if (isSlideStageOverflowing(stageEl)) {
     stageEl.classList.add("slide-density-compact");
@@ -3350,11 +3354,7 @@ function fitActiveSlideToStage() {
     stageEl.classList.add("slide-density-ultra-compact");
   }
   if (isSlideStageOverflowing(stageEl)) {
-    // Guarantee zero vertical cropping on extra-dense slides or narrow laptop viewports
-    const targetMinH = Math.max(410, Math.round(stageEl.clientWidth * (9 / 16)));
-    stageEl.style.minHeight = `${targetMinH}px`;
-    stageEl.style.aspectRatio = "auto";
-    stageEl.style.height = "auto";
+    stageEl.classList.add("slide-density-micro-compact");
   }
 }
 

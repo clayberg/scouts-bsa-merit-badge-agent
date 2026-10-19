@@ -2702,6 +2702,17 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
     assert "function showToast(" in ui_js
     assert "renderMcpVisualCardPreview" in ui_js
 
+    # 6. Verify uniform 16:9 slide stage width & aspect-ratio lock across all slides (no shrink-to-fit on Cover / Full-Bleed slides)
+    assert "width: 100%;" in ui_css
+    assert "aspect-ratio: 16 / 9;" in ui_css
+    assert "flex: 1 1 100%;" in ui_css
+    assert 'stageEl.style.width = "100%";' in ui_js
+    assert 'stageEl.style.aspectRatio = "16 / 9";' in ui_js
+    assert 'stageEl.style.aspectRatio = "auto"' not in ui_js
+    assert "slide-density-micro-compact" in ui_css
+    assert "slide-density-micro-compact" in ui_js
+
+
 
 
 
