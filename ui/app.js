@@ -2090,6 +2090,16 @@ function hydrateWorkbench(rawResult) {
   clearDeckConfigDirty();
 
   const slides = result.storyboard?.slides || [];
+  slides.forEach((s, idx) => {
+    if (!s._uid) {
+      s._uid = `sl_${idx}_${s.req_number || ""}_${(s.title || "").slice(0, 24)}`;
+    }
+  });
+  if (state._deckCustomizeDebounceTimer) {
+    clearTimeout(state._deckCustomizeDebounceTimer);
+    state._deckCustomizeDebounceTimer = null;
+  }
+  state._lastSyncedStoryboardSignature = computeStoryboardDeckSignature(slides);
   const reqs = result.research_artifact?.requirements || [];
   const finops = result.finops_cost_estimate || {};
   const resolvedLoc = result.deep_research_enrichment?.resolved_location || {};
@@ -2469,11 +2479,29 @@ function renderFilmstrip(slides) {
   const q = (state.filmstripQuery || "").trim().toLowerCase();
   const quizOnly = Boolean(state.filterQuizSlidesOnly);
 
+  // Sync Tools dropdown Hide/Unhide button text with active slide state
+  const activeSlideForTools = state.activeSlideIdx >= 0 ? slides[state.activeSlideIdx] : null;
+  const hideSlideMenuBtn = document.getElementById("btn-toggle-hide-slide");
+  if (hideSlideMenuBtn) {
+    hideSlideMenuBtn.textContent = activeSlideForTools?.hidden ? "👁️ Unhide Slide" : "👁️ Hide Slide";
+  }
+
   // Slide 1: Cover Slide item
   if (!quizOnly && (!q || "slide 1 cover title badge".includes(q) || (state.currentResult?.badge_name || "").toLowerCase().includes(q))) {
     const coverThumb = document.createElement("div");
-    coverThumb.className = `m3-slide-thumb ${state.activeSlideIdx === -1 ? "active" : ""}`;
+    const isCoverActive = state.activeSlideIdx === -1;
+    coverThumb.className = `m3-slide-thumb ${isCoverActive ? "active" : ""}`;
     const coverImgUrl = state.currentResult?.pamphlet_cover_url || state.currentResult?.badge_emblem_url || "";
+    const coverCustomizerHtml = isCoverActive
+      ? `
+        <div class="m3-thumb-bottom-bar" style="margin-top:5px;">
+          <span class="m3-thumb-arch-pill">🪪 Title Slide</span>
+          <div class="m3-thumb-customizer-cluster" role="group" aria-label="Slide Deck Customizer Controls">
+            <button type="button" class="m3-thumb-micro-pill" data-thumb-custom-act="insert" title="Insert a custom local camp or troop slide after this slide (updates .PPTX)">➕</button>
+          </div>
+        </div>
+      `
+      : "";
     coverThumb.innerHTML = `
       <div class="m3-thumb-top">
         <span>Slide 1 &bull; Cover</span>
@@ -2483,7 +2511,17 @@ function renderFilmstrip(slides) {
         <div class="m3-thumb-title" style="flex:1; min-width:0;">${escapeHtml(state.currentResult?.badge_name || "")} Merit Badge</div>
         ${coverImgUrl ? `<img class="m3-thumb-mini-img" src="${escapeHtml(coverImgUrl)}" alt="Cover" loading="lazy" />` : ""}
       </div>
+      ${coverCustomizerHtml}
     `;
+    coverThumb.querySelectorAll("[data-thumb-custom-act]").forEach((btn) => {
+      btn.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const act = btn.getAttribute("data-thumb-custom-act");
+        if (act === "insert") {
+          document.getElementById("btn-insert-custom-slide")?.click();
+        }
+      });
+    });
     coverThumb.addEventListener("click", () => {
       hideConstructionAnimationStage();
       state.activeSlideIdx = -1;
@@ -2536,9 +2574,46 @@ function renderFilmstrip(slides) {
       ? `<span class="m3-thumb-imgcount-pill" title="${choices.length} curated visuals available for this slide">🖼️ ${activeChoicePos}/${choices.length}</span>`
       : "";
 
+    const isActiveSlide = idx === state.activeSlideIdx;
     const thumb = document.createElement("div");
-    thumb.className = `m3-slide-thumb ${idx === state.activeSlideIdx ? "active" : ""} ${isHidden ? "hidden-slide" : ""}`;
+    thumb.className = `m3-slide-thumb ${isActiveSlide ? "active" : ""} ${isHidden ? "hidden-slide" : ""}`;
     const badgeFlags = `${hasHero ? " ✨" : ""}`;
+    const activeCustomizerClusterHtml = isActiveSlide
+      ? `
+        <div class="m3-thumb-customizer-cluster" role="group" aria-label="Active Slide Customizer Actions">
+          <button
+            type="button"
+            class="m3-thumb-micro-pill"
+            data-thumb-custom-act="insert"
+            title="Insert a custom local camp or troop slide after this slide (updates .PPTX)"
+            aria-label="Insert custom slide"
+          >➕</button>
+          <button
+            type="button"
+            class="m3-thumb-micro-pill ${isHidden ? "is-toggled" : ""}"
+            data-thumb-custom-act="toggle_hide"
+            title="${isHidden ? "Unhide this slide (restore to presentation and .PPTX export)" : "Hide or skip this slide during presentation and .PPTX export"}"
+            aria-label="${isHidden ? "Unhide slide" : "Hide slide"}"
+          >👁️</button>
+          <button
+            type="button"
+            class="m3-thumb-micro-pill"
+            data-thumb-custom-act="move_up"
+            title="Move active slide earlier in deck (↑)"
+            aria-label="Move slide earlier"
+            ${idx <= 0 ? "disabled" : ""}
+          >↑</button>
+          <button
+            type="button"
+            class="m3-thumb-micro-pill"
+            data-thumb-custom-act="move_down"
+            title="Move active slide later in deck (↓)"
+            aria-label="Move slide later"
+            ${idx >= slides.length - 1 ? "disabled" : ""}
+          >↓</button>
+        </div>
+      `
+      : "";
     thumb.innerHTML = `
       <div class="m3-thumb-top">
         <span>Slide ${idx + 2} &bull; ${s.req_number === "Overview" || s.req_number === "Sources" ? escapeHtml(s.req_number) : "Req " + escapeHtml(s.req_number || "")}</span>
@@ -2547,14 +2622,48 @@ function renderFilmstrip(slides) {
       <div class="m3-thumb-row-flex">
         <div style="flex:1; min-width:0;">
           <div class="m3-thumb-title">${escapeHtml(s.title || "")}</div>
-          <div class="m3-thumb-badges-row">
-            ${archBadgeText ? `<span class="m3-thumb-arch-pill">${archBadgeText}</span>` : ""}
-            ${choicePillHtml}
-          </div>
+          ${
+            !isActiveSlide
+              ? `
+                <div class="m3-thumb-badges-row">
+                  ${archBadgeText ? `<span class="m3-thumb-arch-pill">${archBadgeText}</span>` : ""}
+                  ${choicePillHtml}
+                </div>
+              `
+              : ""
+          }
         </div>
         ${hasImg ? `<img class="m3-thumb-mini-img" src="${escapeHtml(s.diagram_url)}" alt="" loading="lazy" />` : ""}
       </div>
+      ${
+        isActiveSlide
+          ? `
+            <div class="m3-thumb-bottom-bar">
+              <div class="m3-thumb-badges-row" style="margin-top:0;">
+                ${archBadgeText ? `<span class="m3-thumb-arch-pill">${archBadgeText}</span>` : ""}
+                ${choicePillHtml}
+              </div>
+              ${activeCustomizerClusterHtml}
+            </div>
+          `
+          : ""
+      }
     `;
+    thumb.querySelectorAll("[data-thumb-custom-act]").forEach((btn) => {
+      btn.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const act = btn.getAttribute("data-thumb-custom-act");
+        if (act === "insert") {
+          document.getElementById("btn-insert-custom-slide")?.click();
+        } else if (act === "toggle_hide") {
+          customizeActiveSlideDeck("toggle_hide");
+        } else if (act === "move_up") {
+          customizeActiveSlideDeck("move_up");
+        } else if (act === "move_down") {
+          customizeActiveSlideDeck("move_down");
+        }
+      });
+    });
     thumb.addEventListener("click", () => {
       hideConstructionAnimationStage();
       state.activeSlideIdx = idx;
@@ -7491,17 +7600,18 @@ async function loadAdminZeroPiiTelemetry() {
             </thead>
             <tbody>
               ${rows
-                .map(
-                  (r) => `
+                .map((r) => {
+                  const slug = badgeNameToEmblemSlug(r.badge_name || "First Aid");
+                  return `
                 <tr>
-                  <td><strong>${escapeHtml(r.badge_name)}</strong></td>
+                  <td><div style="display:inline-flex; align-items:center; gap:6px;"><img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" loading="lazy" /><strong>${escapeHtml(r.badge_name)}</strong></div></td>
                   <td>${r.run_count}</td>
                   <td>${r.warm_runs}</td>
                   <td>${r.cold_runs}</td>
                   <td>${r.avg_duration_ms} ms</td>
                   <td>${r.avg_qa_score}%</td>
-                </tr>`
-                )
+                </tr>`;
+                })
                 .join("")}
             </tbody>
           </table>
@@ -7523,10 +7633,11 @@ async function loadAdminZeroPiiTelemetry() {
             </thead>
             <tbody>
               ${swaps
-                .map(
-                  (s, idx) => `
+                .map((s, idx) => {
+                  const slug = badgeNameToEmblemSlug(s.badge_name || "First Aid");
+                  return `
                 <tr>
-                  <td><strong>${escapeHtml(s.badge_name)}</strong></td>
+                  <td><div style="display:inline-flex; align-items:center; gap:6px;"><img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" loading="lazy" /><strong>${escapeHtml(s.badge_name)}</strong></div></td>
                   <td>Req ${escapeHtml(s.req_number)}</td>
                   <td><code>${escapeHtml(s.to_image_id || s.event_type || "alternate")}</code></td>
                   <td><strong>${s.event_count}</strong></td>
@@ -7537,8 +7648,8 @@ async function loadAdminZeroPiiTelemetry() {
                         : `<span style="font-size:0.70rem; color:#64748B;">Logged</span>`
                     }
                   </td>
-                </tr>`
-                )
+                </tr>`;
+                })
                 .join("")}
             </tbody>
           </table>
@@ -7693,10 +7804,11 @@ function renderAdminAssetMatrixTable() {
     (r) => !q || `${r.badge_name} ${r.category}`.toLowerCase().includes(q)
   );
   tbody.innerHTML = rows
-    .map(
-      (r) => `
+    .map((r) => {
+      const slug = badgeNameToEmblemSlug(r.badge_name || "First Aid");
+      return `
       <tr>
-        <td><strong>${escapeHtml(r.badge_name)}</strong> ${r.eagle_required ? "⭐" : ""}</td>
+        <td><div style="display:inline-flex; align-items:center; gap:6px;"><img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" loading="lazy" /><strong>${escapeHtml(r.badge_name)}</strong> ${r.eagle_required ? "⭐" : ""}</div></td>
         <td>${escapeHtml(r.category || "")}</td>
         <td>${r.cover_present ? "✅" : "⚠️"}</td>
         <td>${r.emblem_present ? "✅" : "⚠️"}</td>
@@ -7709,8 +7821,8 @@ function renderAdminAssetMatrixTable() {
           </button>
         </td>
       </tr>
-    `
-    )
+    `;
+    })
     .join("");
 
   tbody.querySelectorAll("[data-admin-inspect-badge]").forEach((btn) => {
@@ -7736,9 +7848,190 @@ function renderAdminAssetMatrixTable() {
   });
 }
 
+function computeStoryboardDeckSignature(slides) {
+  if (!Array.isArray(slides)) return "";
+  return slides
+    .map((s, idx) => {
+      const uid = s._uid || `${idx}_${s.req_number || ""}_${(s.title || "").slice(0, 32)}`;
+      return `${uid}:${s.hidden ? "1" : "0"}`;
+    })
+    .join("|");
+}
+
+function scheduleDebouncedDeckPptxSync(delayMs = 1200) {
+  if (!state.currentResult) return;
+  const slides = state.currentResult.storyboard?.slides || [];
+  if (state._deckCustomizeDebounceTimer) {
+    clearTimeout(state._deckCustomizeDebounceTimer);
+    state._deckCustomizeDebounceTimer = null;
+  }
+  const currentSig = computeStoryboardDeckSignature(slides);
+  // Net-zero no-op detection: if user moved a slide up then down, or toggled Hide then Unhide back to the last synced state, skip backend .pptx rebuild
+  if (
+    typeof state._lastSyncedStoryboardSignature === "string" &&
+    currentSig === state._lastSyncedStoryboardSignature
+  ) {
+    state._deckPptxSyncPending = false;
+    return;
+  }
+  state._deckPptxSyncPending = true;
+  state._deckCustomizeDebounceTimer = setTimeout(async () => {
+    state._deckCustomizeDebounceTimer = null;
+    if (!state.currentResult) return;
+    const latestSlides = state.currentResult.storyboard?.slides || [];
+    const targetSig = computeStoryboardDeckSignature(latestSlides);
+    if (
+      typeof state._lastSyncedStoryboardSignature === "string" &&
+      targetSig === state._lastSyncedStoryboardSignature
+    ) {
+      state._deckPptxSyncPending = false;
+      return;
+    }
+    try {
+      const resp = await fetch("/api/slide/deck-customize", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name,
+          action: "sync_slides",
+          slide_index: Math.max(0, state.activeSlideIdx),
+          storyboard_slides: latestSlides,
+          counselor_info: state.currentResult.counselor_info || {},
+          output_path: state.currentResult.output_path || "",
+          template_id: state.activeTemplateId || "default_workbench",
+        }),
+      });
+      if (!resp.ok) return;
+      const data = await resp.json();
+      if (data.pptx_download_url) {
+        state.currentResult.pptx_download_url = data.pptx_download_url;
+        const dlBtn = document.getElementById("btn-download-pptx");
+        if (dlBtn) dlBtn.href = data.pptx_download_url;
+      }
+      state._lastSyncedStoryboardSignature = targetSig;
+      state._deckPptxSyncPending = false;
+      if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+        window.autoSaveActiveWorkspaceDebounced();
+      }
+    } catch (err) {
+      state._deckPptxSyncPending = false;
+      console.warn("Debounced slide deck .pptx sync warning:", err);
+    }
+  }, delayMs);
+}
+
 async function customizeActiveSlideDeck(action, extraPayload = {}) {
   if (!state.currentResult) return;
   const slides = state.currentResult.storyboard?.slides || [];
+  slides.forEach((s, idx) => {
+    if (!s._uid) {
+      s._uid = `sl_${idx}_${s.req_number || ""}_${(s.title || "").slice(0, 24)}`;
+    }
+  });
+  if (typeof state._lastSyncedStoryboardSignature !== "string") {
+    state._lastSyncedStoryboardSignature = computeStoryboardDeckSignature(slides);
+  }
+
+  const act = String(action || "").trim().toLowerCase();
+  const refreshStageImmediately = () => {
+    renderFilmstrip(slides);
+    renderRequirementJumpBar(slides);
+    renderActiveSlide(state.activeSlideIdx);
+    const activeThumb = document.querySelector("#slide-filmstrip-list .m3-slide-thumb.active");
+    activeThumb?.scrollIntoView({ block: "nearest" });
+  };
+
+  // Immediate (0ms) optimistic client-side updates for Move Up, Move Down, Hide/Unhide, Hide Prereqs, and Insert Slide
+  if (act === "move_up") {
+    const idx = state.activeSlideIdx;
+    if (idx <= 0 || idx >= slides.length) return;
+    const tmp = slides[idx - 1];
+    slides[idx - 1] = slides[idx];
+    slides[idx] = tmp;
+    state.activeSlideIdx = idx - 1;
+    refreshStageImmediately();
+    scheduleDebouncedDeckPptxSync(1200);
+    return;
+  }
+
+  if (act === "move_down") {
+    const idx = state.activeSlideIdx;
+    if (idx < 0 || idx >= slides.length - 1) return;
+    const tmp = slides[idx + 1];
+    slides[idx + 1] = slides[idx];
+    slides[idx] = tmp;
+    state.activeSlideIdx = idx + 1;
+    refreshStageImmediately();
+    scheduleDebouncedDeckPptxSync(1200);
+    return;
+  }
+
+  if (act === "toggle_hide" || act === "toggle_hide_slide") {
+    const idx = state.activeSlideIdx;
+    if (idx < 0 || idx >= slides.length) return;
+    slides[idx].hidden = !Boolean(slides[idx].hidden);
+    refreshStageImmediately();
+    scheduleDebouncedDeckPptxSync(1200);
+    return;
+  }
+
+  if (act === "hide_prereqs" || act === "hide_home_prereq_slides") {
+    const prereqKeywords = [
+      "home", "30 day", "90 day", "chore", "log", "budget", "family", "parent",
+      "prerequisite", "prereq", "before camp", "track for", "menu for",
+    ];
+    const prereqNumsSet = new Set((extraPayload.prereq_req_numbers || []).map((n) => String(n)));
+    const targetHide = extraPayload.hide_prereqs === undefined ? true : Boolean(extraPayload.hide_prereqs);
+    slides.forEach((s) => {
+      const blob = `${s.title || ""} ${(s.bullet_points || []).join(" ")}`.toLowerCase();
+      if (
+        prereqNumsSet.has(String(s.req_number || "")) ||
+        prereqKeywords.some((k) => blob.includes(k)) ||
+        Boolean(s.is_home_prereq)
+      ) {
+        s.hidden = targetHide;
+        s.is_home_prereq = true;
+      }
+    });
+    refreshStageImmediately();
+    scheduleDebouncedDeckPptxSync(1200);
+    return;
+  }
+
+  if ((act === "insert" || act === "insert_custom_slide") && extraPayload.custom_slide) {
+    const cs = extraPayload.custom_slide;
+    const newSlide = {
+      _uid: `sl_custom_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+      req_number: String(cs.req_number || "Local"),
+      title: String(cs.title || "Local Camp & Troop Instructions"),
+      bullet_points: (cs.bullet_points && cs.bullet_points.length > 0
+        ? cs.bullet_points
+        : ["Local troop or camp expectation."]
+      ).slice(0, 4),
+      presenter_notes: String(
+        cs.presenter_notes || "[SAY] Review these local camp rules and troop expectations with your patrol."
+      ),
+      safety_warning: cs.safety_warning || null,
+      archetype: String(cs.archetype || "CONCEPT_TEXT_SLIDE"),
+      visual_theme: String(cs.visual_theme || "NUMBERED_STEP_CARDS"),
+      accent_palette_key: String(cs.accent_palette_key || "FOREST_GREEN"),
+      beautification_tier: String(cs.beautification_tier || "BEAUTIFIED"),
+      visual_source_label: String(cs.visual_source_label || "Custom Counselor Slide"),
+      visual_caption: String(cs.visual_caption || cs.title || "Custom Slide"),
+      diagram_path: cs.diagram_path || null,
+      diagram_url: cs.diagram_url || null,
+      is_custom_slide: true,
+      hidden: false,
+      template_id: state.activeTemplateId || "default_workbench",
+    };
+    const insertPos = state.activeSlideIdx < 0 ? 0 : Math.min(slides.length, state.activeSlideIdx + 1);
+    slides.splice(insertPos, 0, newSlide);
+    state.activeSlideIdx = insertPos;
+    refreshStageImmediately();
+    scheduleDebouncedDeckPptxSync(150);
+    return;
+  }
+
   try {
     const resp = await fetch("/api/slide/deck-customize", {
       method: "POST",
@@ -7750,6 +8043,7 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
         storyboard_slides: slides,
         counselor_info: state.currentResult.counselor_info || {},
         output_path: state.currentResult.output_path || "",
+        template_id: state.activeTemplateId || "default_workbench",
         ...extraPayload,
       }),
     });
@@ -7766,6 +8060,7 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
       const dlBtn = document.getElementById("btn-download-pptx");
       if (dlBtn) dlBtn.href = data.pptx_download_url;
     }
+    state._lastSyncedStoryboardSignature = computeStoryboardDeckSignature(state.currentResult.storyboard.slides);
     renderFilmstrip(state.currentResult.storyboard.slides);
     renderRequirementJumpBar(state.currentResult.storyboard.slides);
     renderActiveSlide(state.activeSlideIdx);
@@ -8133,9 +8428,43 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
 
   const deckCaretBtn = document.getElementById("btn-deck-export-caret");
   const deckExportMenu = document.getElementById("deck-export-mode-menu");
+  const exportToggleBtn = document.getElementById("btn-export-menu-toggle");
+  const exportMenu = document.getElementById("top-export-dropdown-menu");
+  const stageToolsToggleBtn = document.getElementById("btn-stage-tools-menu-toggle");
+  const stageToolsMenu = document.getElementById("stage-tools-dropdown-menu");
+  const reqJumpToggleBtn = document.getElementById("btn-stage-req-jump-toggle");
+  const reqJumpMenu = document.getElementById("req-jump-dropdown-menu");
+  const presentCaretBtn = document.getElementById("btn-stage-present-caret");
+  const presentMenu = document.getElementById("stage-present-dropdown-menu");
+  const topWsCaretBtn = document.getElementById("btn-top-workspaces-caret");
+  const topWsMenu = document.getElementById("top-workspaces-dropdown-menu");
+  const stageTplCaretBtn = document.getElementById("btn-stage-template-caret");
+  const stageTplMenu = document.getElementById("stage-template-dropdown-menu");
+
+  const closeAllPopoverMenus = (exceptMenu = null) => {
+    [
+      [exportMenu, exportToggleBtn],
+      [stageToolsMenu, stageToolsToggleBtn],
+      [reqJumpMenu, reqJumpToggleBtn],
+      [presentMenu, presentCaretBtn],
+      [topWsMenu, topWsCaretBtn],
+      [stageTplMenu, stageTplCaretBtn],
+    ].forEach(([m, btn]) => {
+      if (m && m !== exceptMenu) {
+        m.classList.add("hidden");
+        btn?.setAttribute("aria-expanded", "false");
+      }
+    });
+    if (deckExportMenu && deckExportMenu !== exceptMenu) {
+      deckExportMenu.classList.add("hidden");
+    }
+  };
+  window.closeAllPopoverMenus = closeAllPopoverMenus;
+
   deckCaretBtn?.addEventListener("click", (ev) => {
     ev.preventDefault();
     ev.stopPropagation();
+    closeAllPopoverMenus(deckExportMenu);
     deckExportMenu?.classList.toggle("hidden");
   });
   document.querySelectorAll("#deck-export-mode-menu [data-export-mode]").forEach((optBtn) => {
@@ -8161,37 +8490,6 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       await exportActiveDeckToGoogleSlides();
     }
   });
-
-  // UI-1 & Part 2 Features 4 & 5 + Bar C/A1/O2/TP1 Consolidation:
-  // Top Bar Export & Decks Dropdowns, Outline Tools Dropdown, Requirement Jump Dropdown, and Present & Timer Dropdown
-  const exportToggleBtn = document.getElementById("btn-export-menu-toggle");
-  const exportMenu = document.getElementById("top-export-dropdown-menu");
-  const stageToolsToggleBtn = document.getElementById("btn-stage-tools-menu-toggle");
-  const stageToolsMenu = document.getElementById("stage-tools-dropdown-menu");
-  const reqJumpToggleBtn = document.getElementById("btn-stage-req-jump-toggle");
-  const reqJumpMenu = document.getElementById("req-jump-dropdown-menu");
-  const presentCaretBtn = document.getElementById("btn-stage-present-caret");
-  const presentMenu = document.getElementById("stage-present-dropdown-menu");
-  const topWsCaretBtn = document.getElementById("btn-top-workspaces-caret");
-  const topWsMenu = document.getElementById("top-workspaces-dropdown-menu");
-
-  const closeAllPopoverMenus = (exceptMenu = null) => {
-    [
-      [exportMenu, exportToggleBtn],
-      [stageToolsMenu, stageToolsToggleBtn],
-      [reqJumpMenu, reqJumpToggleBtn],
-      [presentMenu, presentCaretBtn],
-      [topWsMenu, topWsCaretBtn],
-    ].forEach(([m, btn]) => {
-      if (m && m !== exceptMenu) {
-        m.classList.add("hidden");
-        btn?.setAttribute("aria-expanded", "false");
-      }
-    });
-    if (deckExportMenu && deckExportMenu !== exceptMenu) {
-      deckExportMenu.classList.add("hidden");
-    }
-  };
 
   exportToggleBtn?.addEventListener("click", (ev) => {
     ev.stopPropagation();
@@ -8607,7 +8905,8 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     });
   });
 
-  document.getElementById("btn-toggle-hide-slide")?.addEventListener("click", async () => {
+  document.getElementById("btn-toggle-hide-slide")?.addEventListener("click", async (ev) => {
+    ev.stopPropagation();
     if (state.activeSlideIdx < 0) return;
     await customizeActiveSlideDeck("toggle_hide");
   });
@@ -8625,11 +8924,13 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       prereq_req_numbers: prereqNums,
     });
   });
-  document.getElementById("btn-move-slide-up")?.addEventListener("click", async () => {
+  document.getElementById("btn-move-slide-up")?.addEventListener("click", async (ev) => {
+    ev.stopPropagation();
     if (state.activeSlideIdx <= 0) return;
     await customizeActiveSlideDeck("move_up");
   });
-  document.getElementById("btn-move-slide-down")?.addEventListener("click", async () => {
+  document.getElementById("btn-move-slide-down")?.addEventListener("click", async (ev) => {
+    ev.stopPropagation();
     const slides = state.currentResult?.storyboard?.slides || [];
     if (state.activeSlideIdx < 0 || state.activeSlideIdx >= slides.length - 1) return;
     await customizeActiveSlideDeck("move_down");
@@ -10387,14 +10688,14 @@ function renderStageTemplateSplitDropdown() {
     .join("");
 
   menuEl.innerHTML = `
-    <div style="padding:4px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
+    <div class="m3-stage-template-menu-header" style="padding:4px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
       Switch Slide Template (${list.length} Across ${groups.length} Styles)
     </div>
     <div style="max-height:290px; overflow-y:auto;">
       ${itemsHtml}
     </div>
     <div class="m3-stage-template-menu-footer">
-      <button type="button" class="m3-tonal-btn" id="btn-stage-menu-open-studio" style="width:100%; font-size:0.74rem; padding:6px 10px; font-weight:700;">
+      <button type="button" class="m3-btn m3-btn-tonal m3-tonal-btn" id="btn-stage-menu-open-studio" style="width:100%; font-size:0.74rem; padding:6px 10px; font-weight:700; justify-content:center;">
         🎨 Open Template Studio &amp; Upload...
       </button>
     </div>
@@ -10751,6 +11052,9 @@ async function initPowerPointTemplateStudio() {
   caretBtn?.addEventListener("click", (ev) => {
     ev.stopPropagation();
     if (!splitMenu) return;
+    if (typeof window.closeAllPopoverMenus === "function") {
+      window.closeAllPopoverMenus(splitMenu);
+    }
     renderStageTemplateSplitDropdown();
     const isHidden = splitMenu.classList.toggle("hidden");
     caretBtn.setAttribute("aria-expanded", isHidden ? "false" : "true");
@@ -10959,6 +11263,12 @@ window.syncActiveBadgeStarButton = function syncActiveBadgeStarButton() {
   const starBtn = document.getElementById("btn-star-active-badge");
   const select = document.getElementById("badge-select");
   const current = select?.value || state.currentBadge || "First Aid";
+  const activeEmblemImg = document.getElementById("active-selected-badge-emblem");
+  if (activeEmblemImg) {
+    const curSlug = badgeNameToEmblemSlug(current);
+    activeEmblemImg.src = `/assets/badge_emblems/${curSlug}.png`;
+    activeEmblemImg.alt = `${current} Merit Badge Emblem`;
+  }
   const favs = state.favoriteBadges || [];
   const favSet = new Set(favs.map((x) => String(x).toLowerCase()));
   const isFav = favSet.has(current.toLowerCase());
@@ -11047,10 +11357,10 @@ function renderQuickSelectBadgesRow() {
       return;
     }
     row.innerHTML = favs
-      .map(
-        (bName) =>
-          `<button type="button" class="m3-badge-pill ${bName === curBadge ? "active" : ""}" data-badge="${escapeHtml(bName)}">⭐ ${escapeHtml(bName)}</button>`
-      )
+      .map((bName) => {
+        const slug = badgeNameToEmblemSlug(bName);
+        return `<button type="button" class="m3-badge-pill ${bName === curBadge ? "active" : ""}" data-badge="${escapeHtml(bName)}" title="Switch to ${escapeHtml(bName)} Merit Badge"><img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" loading="lazy" /><span>⭐ ${escapeHtml(bName)}</span></button>`;
+      })
       .join("");
   } else if (mode === "workspaces") {
     const wsList = state.savedWorkspaces || [];
@@ -11121,10 +11431,10 @@ function renderQuickSelectBadgesRow() {
       { name: "Robotics", label: "Robotics" },
     ];
     row.innerHTML = popular
-      .map(
-        (p) =>
-          `<button type="button" class="m3-badge-pill ${p.name === curBadge ? "active" : ""}" data-badge="${escapeHtml(p.name)}">${escapeHtml(p.label)}</button>`
-      )
+      .map((p) => {
+        const slug = badgeNameToEmblemSlug(p.name);
+        return `<button type="button" class="m3-badge-pill ${p.name === curBadge ? "active" : ""}" data-badge="${escapeHtml(p.name)}" title="Switch to ${escapeHtml(p.name)} Merit Badge"><img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" loading="lazy" /><span>${escapeHtml(p.label)}</span></button>`;
+      })
       .join("");
   }
 
@@ -12129,9 +12439,11 @@ function renderMcpVisualCardPreview(rpcResponse, selVal) {
 
   // Case 3: Pamphlet RAG Passages
   if (Array.isArray(parsedPayload.passages)) {
+    const ragSlug = badgeNameToEmblemSlug(parsedPayload.badge_name || "First Aid");
     visContainer.innerHTML = `
-      <div style="margin-bottom:8px; font-size:0.78rem; font-weight:800; color:#0F172A;">
-        📘 Grounded Pamphlet RAG Chunks for "${escapeHtml(parsedPayload.badge_name || "")}" (${parsedPayload.passages.length} hits)
+      <div style="margin-bottom:8px; font-size:0.78rem; font-weight:800; color:#0F172A; display:inline-flex; align-items:center; gap:6px;">
+        <img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(ragSlug)}.png" alt="" style="width:18px; height:18px;" />
+        <span>📘 Grounded Pamphlet RAG Chunks for "${escapeHtml(parsedPayload.badge_name || "")}" (${parsedPayload.passages.length} hits)</span>
       </div>
       ${parsedPayload.passages
         .map(
@@ -12181,14 +12493,18 @@ function renderMcpVisualCardPreview(rpcResponse, selVal) {
       </div>
       <div class="m3-mcp-visual-grid">
         ${parsedPayload.workspaces
-          .map(
-            (w) => `
+          .map((w) => {
+            const wsSlug = badgeNameToEmblemSlug(w.badge_name || "First Aid");
+            return `
             <div class="m3-mcp-visual-card">
-              <div class="m3-mcp-visual-card-title">${escapeHtml(w.workspace_title || w.badge_name)}</div>
+              <div class="m3-mcp-visual-card-title" style="display:inline-flex; align-items:center; gap:6px;">
+                <img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(wsSlug)}.png" alt="" style="width:18px; height:18px;" />
+                <span>${escapeHtml(w.workspace_title || w.badge_name)}</span>
+              </div>
               <div style="font-size:0.7rem; color:#64748B;">🎞️ ${w.slide_count || 0} Slides • 📋 ${w.scout_count || 0} Scouts • 🖼️ ${escapeHtml(w.template_id || "default_workbench")}</div>
             </div>
-          `
-          )
+          `;
+          })
           .join("")}
       </div>
     `;

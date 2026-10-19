@@ -7959,11 +7959,178 @@ body.m3-dark-mode .m3-req-jump-trigger-btn:hover {
 
 body.m3-dark-mode .m3-req-jump-dropdown-menu,
 body.m3-dark-mode .m3-stage-present-dropdown-menu,
-body.m3-dark-mode .m3-top-workspaces-dropdown-menu {
+body.m3-dark-mode .m3-top-workspaces-dropdown-menu,
+body.m3-dark-mode .m3-stage-template-dropdown-menu,
+body.m3-dark-mode .m3-export-dropdown-menu {
+  background: #0F172A !important;
+  border-color: #334155 !important;
+  color: #F8FAFC !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55) !important;
+}
+
+body.m3-dark-mode .m3-export-menu-item {
+  color: #F1F5F9 !important;
+}
+
+body.m3-dark-mode .m3-export-menu-item:hover {
+  background: #1E293B !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-stage-template-menu-header,
+body.m3-dark-mode .m3-stage-tools-section-kicker {
+  color: #94A3B8 !important;
+  border-color: #334155 !important;
+}
+
+body.m3-dark-mode #btn-stage-menu-open-studio {
+  background: #1E293B !important;
+  border: 1px solid #475569 !important;
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode #btn-stage-menu-open-studio:hover {
+  background: #334155 !important;
+  border-color: #60A5FA !important;
+  color: #FFFFFF !important;
+}
+
+/* Dark Mode Classroom Session Timer Controls Parity */
+body.m3-dark-mode .m3-session-timer-cluster {
+  background: #1E293B !important;
+  border: 1.5px solid #38BDF8 !important;
+  color: #F8FAFC !important;
+  padding: 4px 8px !important;
+}
+
+body.m3-dark-mode .m3-session-timer-cluster.timer-warn {
+  background: #451A03 !important;
+  border-color: #F59E0B !important;
+}
+
+body.m3-dark-mode .m3-session-timer-cluster.timer-expired {
+  background: #450A0A !important;
+  border-color: #F87171 !important;
+}
+
+body.m3-dark-mode .m3-timer-preset-select {
+  color: #F8FAFC !important;
+  background: #0F172A !important;
+  border: 1px solid #475569 !important;
+  border-radius: 6px !important;
+  padding: 2px 6px !important;
+  font-weight: 800 !important;
+}
+
+body.m3-dark-mode .m3-session-timer-display {
+  color: #34D399 !important;
+  font-weight: 800 !important;
+}
+
+body.m3-dark-mode .m3-timer-mini-btn {
+  background: #065F46 !important;
+  color: #ECFDF5 !important;
+  border: 1px solid #10B981 !important;
+}
+
+body.m3-dark-mode .m3-timer-mini-btn:hover {
+  background: #047857 !important;
+  color: #FFFFFF !important;
+}
+
+/* Quick-Select & Table Merit Badge Emblem Icons */
+.m3-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.m3-pill-badge-emblem {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Active Slide Lower-Right Customizer Micro-Pills (➕, 👁️, ↑, ↓) */
+.m3-thumb-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.m3-thumb-customizer-cluster {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.m3-thumb-micro-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 21px;
+  height: 19px;
+  padding: 0 5px;
+  border-radius: 999px;
+  border: 1px solid #BFDBFE;
+  background: #FFFFFF;
+  color: #003F87;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+  transition: all 110ms ease;
+}
+
+.m3-thumb-micro-pill:hover:not(:disabled) {
+  background: #003F87;
+  border-color: #003F87;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.m3-thumb-micro-pill.is-toggled {
+  background: #FEF3C7;
+  border-color: #F59E0B;
+  color: #92400E;
+}
+
+.m3-thumb-micro-pill:disabled {
+  opacity: 0.36;
+  cursor: not-allowed;
+}
+
+body.m3-dark-mode .m3-thumb-micro-pill {
   background: #0F172A;
-  border-color: #334155;
-  color: #F8FAFC;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55);
+  border-color: #475569;
+  color: #93C5FD;
+}
+
+body.m3-dark-mode .m3-thumb-micro-pill:hover:not(:disabled) {
+  background: #2563EB;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-thumb-micro-pill.is-toggled {
+  background: #78350F;
+  border-color: #F59E0B;
+  color: #FEF3C7;
+}
+
+body.high-contrast-sunlight .m3-thumb-micro-pill {
+  background: #FFFFFF !important;
+  border: 1.5px solid #000000 !important;
+  color: #000000 !important;
 }
 
 body.m3-dark-mode .m3-req-jump-menu-item,

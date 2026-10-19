@@ -2898,6 +2898,24 @@ def test_workstreams_1_to_4_topographic_concurrency_mcp_and_modal_controller(tmp
     assert ".m3-quick-decks-actions-row" in ui_css
     assert "syncOutlineToolsFilterBadge" in ui_js
 
+    # 7. Verify Active-Slide Micro-Pills (➕, 👁️, ↑, ↓), Debounced Net-Zero PPTX Sync, Emblem Pills, and Dark Mode Timer/Template Contrast
+    assert "m3-thumb-customizer-cluster" in ui_js
+    assert "m3-thumb-micro-pill" in ui_js
+    assert 'data-thumb-custom-act="move_up"' in ui_js
+    assert 'data-thumb-custom-act="move_down"' in ui_js
+    assert 'data-thumb-custom-act="toggle_hide"' in ui_js
+    assert 'data-thumb-custom-act="insert"' in ui_js
+    assert "computeStoryboardDeckSignature" in ui_js
+    assert "scheduleDebouncedDeckPptxSync" in ui_js
+    assert "_lastSyncedStoryboardSignature" in ui_js
+    assert 'id="active-selected-badge-emblem"' in ui_html
+    assert "m3-pill-badge-emblem" in ui_html
+    assert "m3-pill-badge-emblem" in ui_js
+    assert ".m3-thumb-micro-pill" in ui_css
+    assert "body.m3-dark-mode .m3-session-timer-cluster" in ui_css
+    assert "body.m3-dark-mode .m3-stage-template-dropdown-menu" in ui_css
+
+
 
 
 
