@@ -2721,7 +2721,9 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
     from src.tools.template_engine import BUILTIN_TEMPLATES, get_template_profile
 
     builtin_names = {t.template_id: t.name for t in BUILTIN_TEMPLATES}
+    assert len(BUILTIN_TEMPLATES) == 9
     assert builtin_names["default_workbench"] == "Workbench Classic"
+    assert builtin_names["bsa_scouting_america"] == "BSA Scouting America"
     assert builtin_names["scouting_america_250"] == "BSA America 250™"
     assert builtin_names["scouting_america_forest_sunrise"] == "BSA Forest Sunrise"
     assert builtin_names["scouting_america_topographic"] == "BSA Topographic"
@@ -2729,6 +2731,12 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
     assert builtin_names["classic_outdoor_silhouette_navy"] == "BSA Outdoor Adventure"
     assert builtin_names["classic_fleur_crimson_crest"] == "BSA Fleur-de-Lis Crest"
     assert builtin_names["wilderness_camp_timber"] == "BSA Summer Camp"
+
+    scouting_prof = get_template_profile("bsa_scouting_america")
+    assert scouting_prof.is_builtin is True
+    assert scouting_prof.top_banner_url.endswith("bsa_scouting_america_header_strip.png")
+    assert scouting_prof.bottom_silhouette_url.endswith("bsa_scouting_america_footer_banner.png")
+    assert scouting_prof.safe_bounds.footer_left_in == 3.49
 
     outdoor_prof = get_template_profile("classic_outdoor_silhouette_navy")
     assert outdoor_prof.safe_bounds.footer_max_width_in == 12.133
