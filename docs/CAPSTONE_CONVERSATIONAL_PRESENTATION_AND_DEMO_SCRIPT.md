@@ -33,13 +33,13 @@
 - **`[DEMONSTRATE / POINT TO ON SLIDE]`**:
   - Start on **Slide 1 (`01 / 12`)**.
   - Point to the three stacked left-hand capability cards (`144 Official Badges • 100% Fidelity`, `< 2 Min Build • 6 Synchronized Deliverables`, and `Predictable FinOps • $0.14 to $1.00 Cap`).
-  - Gesture to the right-hand visual showcase (`144 Official Emblems • 3,917 Visuals • 3 Slide Themes`) and the footer bar (`Verified: 27/27 Rubric Criteria • 68/68 Pytest • 119 OpenAPI Endpoints`).
+  - Gesture to the right-hand visual showcase (`144 Official Emblems • 3,917 Visuals • 3 Slide Themes`) and the footer bar (`Verified: 27/27 Rubric Criteria • 69/69 Pytest • 119 OpenAPI Endpoints`).
 - **`[SAY]`**:
   > "Good morning, everyone. I am Eric Clayberg. Outside of my work at Google as a Forward Deployed Engineer, or **FDE**, I serve as a volunteer Scouts BSA Merit Badge Counselor for Troop 19 in Middleton, Massachusetts.
   >
   > Today I am walking you through the **Scouts BSA Merit Badge Counselor Workbench**, an end-to-end multi-agent curriculum, co-design, and field operations platform built on the **Google Agent Development Kit (ADK)**, **Vertex AI Gemini 2.5 Pro and Flash**, and **Cloud Run**.
   >
-  > In under two minutes, it turns any of the **144 official 80-page Merit Badge pamphlets** into six synchronized classroom and field deliverables: a widescreen 16:9 slide deck for PowerPoint or Google Slides, a printable Scout Workbook, a 3-panel **Blue Card (`#34124`)** and Scoutbook CSV sign-off tracker, a 4-mode timed session agenda, a Quartermaster gear packing checklist, and a **Youth Protection Training (YPT)** parent welcome letter: all backed by **3,917 pre-bundled visual assets**, verified across **68 automated pytest tests** and **119 OpenAPI 3.1 endpoints**, and capped at a predictable **$0.14 to $1.00 FinOps budget** (`~$0.18` actual cold LLM spend on our default `Warm Cream` slide theme)."
+  > In under two minutes, it turns any of the **144 official 80-page Merit Badge pamphlets** into six synchronized classroom and field deliverables: a widescreen 16:9 slide deck for PowerPoint or Google Slides, a printable Scout Workbook, a 3-panel **Blue Card (`#34124`)** and Scoutbook CSV sign-off tracker, a 4-mode timed session agenda, a Quartermaster gear packing checklist, and a **Youth Protection Training (YPT)** parent welcome letter: all backed by **3,917 pre-bundled visual assets**, verified across **69 automated pytest tests** and **119 OpenAPI 3.1 endpoints**, and capped at a predictable **$0.14 to $1.00 FinOps budget** (`~$0.18` actual cold LLM spend on our default `Warm Cream` slide theme)."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 1]`**:
   - **Q: Are all 144 Merit Badges really supported out of the box, or only a small demo subset?**
     - **Golden Answer**: "All **144 official Scouting America Merit Badges** (`18` Eagle-Required plus `126` Electives and Test Lab badges) are 100% populated and verified in `data/merit_badge_requirements/` with authentic `400x400` Scout Shop embroidered emblems (`assets/badge_emblems/`), official pamphlet covers, and **3,917 pre-bundled visual assets** (`2,323` Vision-verified pamphlet figures and `1,306` Nano Banana illustrations), verified by `tests/test_image_and_caption_quality.py`."
@@ -227,7 +227,7 @@
   >
   > Before writing application code, we established a strict engineering harness in **Column 1**: `AGENTS.md` architectural rules, `SPEC.md` and `SCOPE.md` boundary contracts, a cryptographic SHA-256 prompt manifest (`prompts/manifest.json`), and `scripts/eval_gate.py` paired with `vertexai.preview.evaluation.EvalTask` across our 12-badge Golden Suite (`Recall@3 = 1.0000`, `MRR = 1.0000`, `NDCG@3 = 1.0000`, `100%` sub-requirement coverage, and `0` Stage-1 AABB overlaps).
   >
-  > In **Column 2**, we paired **in-the-loop human-AI co-design** (interactive Playwright verification and 150-DPI 4-quadrant vision audits on every UI and slide change) with **outside-the-loop batch verification** across **68 automated `pytest` tests** (`119` OpenAPI 3.1 paths, fault injection, and an 8-worker load test at `6.8ms p50` / `14.2ms p95`) and a **Continuous Learning Flywheel** that auto-promotes counselor-verified runs (`>= 4/5 stars`) into `tests/data/golden_extensions.json` alongside a `v1.0 -> v1.2` schema upcaster (`migrate_payload_schema()`).
+  > In **Column 2**, we paired **in-the-loop human-AI co-design** (interactive Playwright verification and 150-DPI 4-quadrant vision audits on every UI and slide change) with **outside-the-loop batch verification** across **69 automated `pytest` tests** (`119` OpenAPI 3.1 paths, fault injection, and an 8-worker load test at `6.8ms p50` / `14.2ms p95`) and a **Continuous Learning Flywheel** that auto-promotes counselor-verified runs (`>= 4/5 stars`) into `tests/data/golden_extensions.json` alongside a `v1.0 -> v1.2` schema upcaster (`migrate_payload_schema()`).
   >
   > **Column 3** highlights four real coding-agent mistakes we caught and codified into `AGENTS.md` and regression tests:
   > - **`FM-1` (`Vertex Tool Collision`)**: Isolating `GoogleSearchTool` inside an ADK `AgentTool` to eliminate HTTP 400 tool-mixing errors.
@@ -235,7 +235,7 @@
   > - **`FM-3` (`Synthetic Badge Icons`)**: Replacing 6 synthetic circular icons with 100% authentic `400x400` Scout Shop embroidered emblems (`test_image_and_caption_quality.py`).
   > - **`FM-4` (`Popup-Only Presenter`)**: Adding the in-stage **Split-Screen Presenter Console (`P`)** for single-screen laptops alongside the dual-monitor popup."
 - **`[LIKELY PANELIST QUESTIONS ON SLIDE 10]`**:
-  - **Q: How do your 68 `pytest` tests and `eval_gate.py` run deterministically in CI/CD on every commit without racking up live Vertex AI token bills?**
+  - **Q: How do your 69 `pytest` tests and `eval_gate.py` run deterministically in CI/CD on every commit without racking up live Vertex AI token bills?**
     - **Golden Answer**: "Our test harness exercises the full ADK orchestration spine, SQLite Hybrid RRF retrieval (`Recall@3 = 1.00`), SHA-256 locks, Stage-1 AABB geometry checks, fault-injection circuit breakers, and all 119 OpenAPI contracts deterministically against cached golden fixtures in `<30 seconds` at `$0.00` token cost, while supporting `USE_LIVE_VERTEX_AI=1` for scheduled pre-release `EvalTask` runs."
 - **`[STAGE DIRECTION: ADVANCE TO SLIDE 11 (11 / 12)]`**
 

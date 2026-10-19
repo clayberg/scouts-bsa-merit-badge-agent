@@ -2881,6 +2881,24 @@ def test_workstreams_1_to_4_topographic_concurrency_mcp_and_modal_controller(tmp
     assert "body.high-contrast-sunlight" in ui_css
     assert 'value="clayberg@gmail.com"' not in ui_html
 
+    # 6. Verify Above-Stage Bars & Outline Consolidation (Bar C -> Bar B Dropdown, Option A1, Option O2, Option TP1)
+    assert 'id="btn-stage-req-jump-toggle"' in ui_html
+    assert 'id="req-jump-dropdown-menu"' in ui_html
+    assert 'id="top-workspaces-split-group"' in ui_html
+    assert 'id="btn-top-workspaces-caret"' in ui_html
+    assert 'id="top-workspaces-dropdown-menu"' in ui_html
+    assert "m3-filmstrip-single-row" in ui_html
+    assert 'id="stage-live-timer-badge"' in ui_html
+    assert 'id="stage-present-split-group"' in ui_html
+    assert 'id="btn-stage-present-caret"' in ui_html
+    assert 'id="stage-present-dropdown-menu"' in ui_html
+    assert ".m3-req-jump-dropdown-menu" in ui_css
+    assert ".m3-top-workspaces-dropdown-menu" in ui_css
+    assert ".m3-stage-present-dropdown-menu" in ui_css
+    assert ".m3-quick-decks-actions-row" in ui_css
+    assert "syncOutlineToolsFilterBadge" in ui_js
+
+
 
 
 

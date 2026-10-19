@@ -7632,3 +7632,378 @@ body.high-contrast-sunlight .m3-template-card {
   border: 2px solid #000000 !important;
   color: #000000 !important;
 }
+
+/* ============================================================================
+   ABOVE-STAGE BARS & OUTLINE CONSOLIDATION (Bar C -> Bar B Dropdown, A1, O2, TP1)
+   ============================================================================ */
+
+/* Bar C -> Bar B Requirement Jump Interactive Dropdown (`[📍 Overview ▾]`) */
+.m3-req-jump-dropdown-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.m3-req-jump-trigger-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #BFDBFE;
+  background: #EFF6FF;
+  color: #1E3A8A;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 140ms ease;
+  white-space: nowrap;
+}
+
+.m3-req-jump-trigger-btn:hover {
+  background: #DBEAFE;
+  border-color: #60A5FA;
+}
+
+.m3-req-jump-trigger-btn .m3-chip {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+
+.m3-req-jump-caret {
+  font-size: 0.65rem;
+  opacity: 0.8;
+}
+
+.m3-req-jump-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0 !important;
+  right: auto !important;
+  z-index: 1200;
+  width: 348px !important;
+  min-width: 348px !important;
+  max-width: 360px !important;
+  padding: 9px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.18);
+}
+
+.m3-req-jump-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+  margin-top: 4px;
+  max-height: 290px;
+  overflow-y: auto;
+}
+
+.m3-req-jump-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px 9px;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+  background: #F8FAFC;
+  color: #1E293B;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+  transition: all 120ms ease;
+}
+
+.m3-req-jump-menu-item:hover {
+  background: #EFF6FF;
+  border-color: #93C5FD;
+  color: #003F87;
+}
+
+.m3-req-jump-menu-item.active {
+  background: #003F87;
+  border-color: #003F87;
+  color: #FFFFFF;
+}
+
+.m3-req-jump-menu-meta {
+  font-size: 0.65rem;
+  font-weight: 600;
+  opacity: 0.78;
+}
+
+.m3-req-jump-menu-check {
+  font-size: 0.72rem;
+  font-weight: 900;
+  color: #FCD34D;
+}
+
+/* Option O2: Single-Row Search + Unified `[🛠️ Tools ▾]` at Top of Slide Outline */
+.m3-filmstrip-single-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+}
+
+.m3-filmstrip-search-compact {
+  flex: 1;
+  min-width: 0;
+  padding: 5px 9px !important;
+  font-size: 0.74rem !important;
+  border-radius: 8px !important;
+}
+
+.m3-filmstrip-tools-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 9px !important;
+  font-size: 0.73rem !important;
+  font-weight: 800 !important;
+  border-radius: 8px !important;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.m3-filmstrip-tools-btn.has-active-filter {
+  background: #FEF3C7 !important;
+  border-color: #F59E0B !important;
+  color: #92400E !important;
+}
+
+.m3-filmstrip-tools-popover {
+  left: 0 !important;
+  right: auto !important;
+  min-width: 242px !important;
+  z-index: 1200 !important;
+}
+
+/* Option TP1: Collapsible Live Timer Pill + Unified `[🖥️ Present | ▾]` Split-Button */
+.m3-stage-live-timer-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1.5px solid #F59E0B;
+  background: #FFFBEB;
+  color: #92400E;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(245, 158, 11, 0.18);
+  transition: all 140ms ease;
+}
+
+.m3-stage-live-timer-pill.is-running {
+  background: #FEF3C7;
+  border-color: #D97706;
+  color: #78350F;
+}
+
+.m3-stage-live-timer-pill:hover {
+  filter: brightness(0.97);
+}
+
+.m3-stage-present-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0 !important;
+  left: auto !important;
+  z-index: 1200;
+  width: 296px !important;
+  min-width: 296px !important;
+  padding: 10px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.18);
+}
+
+.m3-present-menu-timer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px 10px;
+  margin: 4px 0 6px;
+  border-radius: 9px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+}
+
+/* Option A1: Consolidated `Quick-Select -> 🗂️ Decks` + Top-Bar `[🗂️ My Decks 2 | ▾]` Split-Button */
+.m3-quick-decks-pills-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+}
+
+.m3-quick-decks-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px dashed #CBD5E1;
+}
+
+.m3-top-workspaces-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0 !important;
+  right: auto !important;
+  z-index: 1300;
+  width: 318px !important;
+  min-width: 318px !important;
+  max-width: 350px !important;
+  padding: 9px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.22);
+}
+
+.m3-top-ws-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 4px;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.m3-top-ws-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 9px;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+  background: #F8FAFC;
+  color: #0F172A;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  transition: all 120ms ease;
+}
+
+.m3-top-ws-menu-item:hover {
+  background: #EFF6FF;
+  border-color: #93C5FD;
+}
+
+.m3-top-ws-menu-item.active {
+  background: #EFF6FF;
+  border-color: #2563EB;
+  color: #003F87;
+}
+
+.m3-top-ws-menu-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.m3-top-ws-menu-meta {
+  font-size: 0.67rem;
+  font-weight: 600;
+  color: #64748B;
+  white-space: nowrap;
+}
+
+.m3-top-ws-menu-check {
+  font-weight: 900;
+  color: #2563EB;
+}
+
+.m3-top-ws-menu-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 4px;
+}
+
+/* Dark Mode & Sunlight Mode Parity for Consolidated Controls */
+body.m3-dark-mode .m3-req-jump-trigger-btn {
+  background: #1E293B;
+  border-color: #475569;
+  color: #93C5FD;
+}
+
+body.m3-dark-mode .m3-req-jump-trigger-btn:hover {
+  background: #334155;
+  border-color: #60A5FA;
+}
+
+body.m3-dark-mode .m3-req-jump-dropdown-menu,
+body.m3-dark-mode .m3-stage-present-dropdown-menu,
+body.m3-dark-mode .m3-top-workspaces-dropdown-menu {
+  background: #0F172A;
+  border-color: #334155;
+  color: #F8FAFC;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55);
+}
+
+body.m3-dark-mode .m3-req-jump-menu-item,
+body.m3-dark-mode .m3-top-ws-menu-item,
+body.m3-dark-mode .m3-present-menu-timer-box {
+  background: #1E293B;
+  border-color: #334155;
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-req-jump-menu-item:hover,
+body.m3-dark-mode .m3-top-ws-menu-item:hover {
+  background: #334155;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-req-jump-menu-item.active,
+body.m3-dark-mode .m3-top-ws-menu-item.active {
+  background: #1E3A8A;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-stage-live-timer-pill {
+  background: #451A03;
+  border-color: #F59E0B;
+  color: #FDE68A;
+}
+
+body.m3-dark-mode .m3-quick-decks-actions-row {
+  border-top-color: #334155;
+}
+
+body.high-contrast-sunlight .m3-req-jump-trigger-btn,
+body.high-contrast-sunlight .m3-req-jump-dropdown-menu,
+body.high-contrast-sunlight .m3-stage-present-dropdown-menu,
+body.high-contrast-sunlight .m3-top-workspaces-dropdown-menu,
+body.high-contrast-sunlight .m3-stage-live-timer-pill {
+  background: #FFFFFF !important;
+  border: 2px solid #000000 !important;
+  color: #000000 !important;
+}

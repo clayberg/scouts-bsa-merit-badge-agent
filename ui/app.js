@@ -2351,36 +2351,47 @@ function scrollActiveFilmstripThumbIntoView(alignToTop = true) {
 
 function renderRequirementJumpBar(slides) {
   const bar = document.getElementById("req-quick-jump-bar");
-  if (!bar) return;
-  bar.innerHTML = `<span class="m3-req-jump-label">Jump to:</span>`;
+  const menuEl = document.getElementById("req-jump-dropdown-menu");
+  if (bar) {
+    bar.innerHTML = `<span class="m3-req-jump-label">Jump to:</span>`;
+  }
 
   const activeReq =
     state.activeSlideIdx === -1
       ? "__COVER__"
       : String(slides[state.activeSlideIdx]?.req_number || "");
 
+  const jumpToTarget = (targetSlideIdx) => {
+    hideConstructionAnimationStage();
+    state.activeSlideIdx = targetSlideIdx;
+    renderFilmstrip(slides);
+    renderActiveSlide(targetSlideIdx);
+    scrollActiveFilmstripThumbIntoView(true);
+    menuEl?.classList.add("hidden");
+    document.getElementById("btn-stage-req-jump-toggle")?.setAttribute("aria-expanded", "false");
+  };
+
   const addJumpPill = (label, targetSlideIdx, isActive) => {
+    if (!bar) return;
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = `m3-req-jump-pill${isActive ? " active" : ""}`;
     btn.textContent = label;
-    btn.addEventListener("click", () => {
-      hideConstructionAnimationStage();
-      state.activeSlideIdx = targetSlideIdx;
-      renderFilmstrip(slides);
-      renderActiveSlide(targetSlideIdx);
-      scrollActiveFilmstripThumbIntoView(true);
-    });
+    btn.addEventListener("click", () => jumpToTarget(targetSlideIdx));
     bar.appendChild(btn);
   };
 
   addJumpPill("Cover", -1, activeReq === "__COVER__");
 
   const seenReqs = new Map();
+  const reqCounts = new Map();
   slides.forEach((s, idx) => {
     const reqKey = String(s.req_number || "").trim();
-    if (!reqKey || seenReqs.has(reqKey)) return;
-    seenReqs.set(reqKey, idx);
+    if (!reqKey) return;
+    reqCounts.set(reqKey, (reqCounts.get(reqKey) || 0) + 1);
+    if (!seenReqs.has(reqKey)) {
+      seenReqs.set(reqKey, idx);
+    }
   });
 
   seenReqs.forEach((slideIdx, reqKey) => {
@@ -2388,6 +2399,63 @@ function renderRequirementJumpBar(slides) {
       reqKey === "Overview" || reqKey === "Sources" ? reqKey : `Req ${reqKey}`;
     addJumpPill(pillLabel, slideIdx, activeReq === reqKey);
   });
+
+  if (menuEl) {
+    const items = [
+      {
+        label: "Cover Slide",
+        sub: "Slide 1",
+        targetIdx: -1,
+        isActive: activeReq === "__COVER__",
+      },
+    ];
+    seenReqs.forEach((slideIdx, reqKey) => {
+      const pillLabel =
+        reqKey === "Overview" || reqKey === "Sources" ? reqKey : `Req ${reqKey}`;
+      const count = reqCounts.get(reqKey) || 1;
+      const startSlideNum = slideIdx + 2;
+      const sub =
+        count > 1
+          ? `Slides ${startSlideNum}–${startSlideNum + count - 1}`
+          : `Slide ${startSlideNum}`;
+      items.push({
+        label: pillLabel,
+        sub,
+        targetIdx: slideIdx,
+        isActive: activeReq === reqKey,
+      });
+    });
+
+    menuEl.innerHTML = `
+      <div class="m3-stage-tools-section-kicker" style="padding:4px 10px 6px; border-bottom:1px solid #E2E8F0; margin-bottom:6px;">
+        Jump to Section or Requirement (${items.length})
+      </div>
+      <div class="m3-req-jump-menu-grid">
+        ${items
+          .map(
+            (it) => `
+          <button
+            type="button"
+            class="m3-req-jump-menu-item ${it.isActive ? "active" : ""}"
+            data-req-jump-idx="${it.targetIdx}"
+            role="menuitem"
+          >
+            <span class="m3-req-jump-item-title">${escapeHtml(it.label)}${it.isActive ? " ✓" : ""}</span>
+            <span class="m3-req-jump-item-sub">${escapeHtml(it.sub)}</span>
+          </button>
+        `
+          )
+          .join("")}
+      </div>
+    `;
+    menuEl.querySelectorAll("[data-req-jump-idx]").forEach((btn) => {
+      btn.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const idx = parseInt(btn.getAttribute("data-req-jump-idx") || "-1", 10);
+        jumpToTarget(idx);
+      });
+    });
+  }
 }
 
 function renderFilmstrip(slides) {
@@ -6371,6 +6439,11 @@ function updateSessionTimerDisplay() {
   const fsTimer = document.getElementById("fullscreen-hud-timer");
   const cluster = document.getElementById("session-timer-cluster");
   const startBtn = document.getElementById("btn-timer-start-pause");
+  const liveBadge = document.getElementById("stage-live-timer-badge");
+  const liveText = document.getElementById("stage-live-timer-text");
+  const liveIcon = document.getElementById("stage-live-timer-state-icon");
+  const presetEl = document.getElementById("session-timer-preset-select");
+  const presetSeconds = parseInt(presetEl?.value || "2700", 10) || 2700;
   const formatted = formatTimerMmSs(state.sessionTimerSeconds);
   if (pill) {
     pill.textContent = formatted;
@@ -6384,6 +6457,14 @@ function updateSessionTimerDisplay() {
   if (cluster) {
     cluster.classList.toggle("timer-warn", state.sessionTimerSeconds > 0 && state.sessionTimerSeconds <= 300);
     cluster.classList.toggle("timer-expired", state.sessionTimerSeconds <= 0);
+  }
+  if (liveBadge) {
+    const showLiveOnBar = Boolean(state.sessionTimerRunning || state.sessionTimerSeconds < presetSeconds);
+    liveBadge.classList.toggle("hidden", !showLiveOnBar);
+    liveBadge.classList.toggle("is-running", Boolean(state.sessionTimerRunning));
+    liveBadge.classList.toggle("timer-warn", state.sessionTimerSeconds > 0 && state.sessionTimerSeconds <= 300);
+    if (liveText) liveText.textContent = formatted;
+    if (liveIcon) liveIcon.textContent = state.sessionTimerRunning ? "⏸" : "▶";
   }
   syncPresenterViewWindow();
 }
@@ -8081,28 +8162,72 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     }
   });
 
-  // UI-1 & Part 2 Features 4 & 5: Top Bar Export & Print Dropdown Menu + Stage Slide & Class Tools Dropdown
+  // UI-1 & Part 2 Features 4 & 5 + Bar C/A1/O2/TP1 Consolidation:
+  // Top Bar Export & Decks Dropdowns, Outline Tools Dropdown, Requirement Jump Dropdown, and Present & Timer Dropdown
   const exportToggleBtn = document.getElementById("btn-export-menu-toggle");
   const exportMenu = document.getElementById("top-export-dropdown-menu");
   const stageToolsToggleBtn = document.getElementById("btn-stage-tools-menu-toggle");
   const stageToolsMenu = document.getElementById("stage-tools-dropdown-menu");
+  const reqJumpToggleBtn = document.getElementById("btn-stage-req-jump-toggle");
+  const reqJumpMenu = document.getElementById("req-jump-dropdown-menu");
+  const presentCaretBtn = document.getElementById("btn-stage-present-caret");
+  const presentMenu = document.getElementById("stage-present-dropdown-menu");
+  const topWsCaretBtn = document.getElementById("btn-top-workspaces-caret");
+  const topWsMenu = document.getElementById("top-workspaces-dropdown-menu");
+
+  const closeAllPopoverMenus = (exceptMenu = null) => {
+    [
+      [exportMenu, exportToggleBtn],
+      [stageToolsMenu, stageToolsToggleBtn],
+      [reqJumpMenu, reqJumpToggleBtn],
+      [presentMenu, presentCaretBtn],
+      [topWsMenu, topWsCaretBtn],
+    ].forEach(([m, btn]) => {
+      if (m && m !== exceptMenu) {
+        m.classList.add("hidden");
+        btn?.setAttribute("aria-expanded", "false");
+      }
+    });
+    if (deckExportMenu && deckExportMenu !== exceptMenu) {
+      deckExportMenu.classList.add("hidden");
+    }
+  };
+
   exportToggleBtn?.addEventListener("click", (ev) => {
     ev.stopPropagation();
-    stageToolsMenu?.classList.add("hidden");
-    stageToolsToggleBtn?.setAttribute("aria-expanded", "false");
-    exportMenu?.classList.toggle("hidden");
+    closeAllPopoverMenus(exportMenu);
+    const isNowHidden = exportMenu?.classList.toggle("hidden");
+    exportToggleBtn.setAttribute("aria-expanded", String(!isNowHidden));
   });
   stageToolsToggleBtn?.addEventListener("click", (ev) => {
     ev.stopPropagation();
-    exportMenu?.classList.add("hidden");
+    closeAllPopoverMenus(stageToolsMenu);
     const isNowHidden = stageToolsMenu?.classList.toggle("hidden");
     stageToolsToggleBtn.setAttribute("aria-expanded", String(!isNowHidden));
   });
+  reqJumpToggleBtn?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    closeAllPopoverMenus(reqJumpMenu);
+    const isNowHidden = reqJumpMenu?.classList.toggle("hidden");
+    reqJumpToggleBtn.setAttribute("aria-expanded", String(!isNowHidden));
+  });
+  presentCaretBtn?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    closeAllPopoverMenus(presentMenu);
+    const isNowHidden = presentMenu?.classList.toggle("hidden");
+    presentCaretBtn.setAttribute("aria-expanded", String(!isNowHidden));
+  });
+  topWsCaretBtn?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    closeAllPopoverMenus(topWsMenu);
+    const isNowHidden = topWsMenu?.classList.toggle("hidden");
+    topWsCaretBtn.setAttribute("aria-expanded", String(!isNowHidden));
+  });
+  document.getElementById("session-timer-cluster")?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+  });
   document.addEventListener("click", () => {
-    exportMenu?.classList.add("hidden");
-    deckExportMenu?.classList.add("hidden");
-    stageToolsMenu?.classList.add("hidden");
-    stageToolsToggleBtn?.setAttribute("aria-expanded", "false");
+    closeAllPopoverMenus(null);
   });
   document.getElementById("btn-top-print-workbook")?.addEventListener("click", () => {
     document.getElementById("btn-print-workbook")?.click();
@@ -8306,7 +8431,7 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     renderPatchGalleryModal();
   });
 
-  // Feature C1: Live Classroom Session Countdown Timer + Fullscreen HUD Timer
+  // Feature C1: Live Classroom Session Countdown Timer + Fullscreen HUD Timer + TP1 Live Stage Timer Pill
   document.getElementById("session-timer-preset-select")?.addEventListener("change", () => {
     resetSessionTimer();
   });
@@ -8316,8 +8441,29 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   document.getElementById("fullscreen-hud-timer")?.addEventListener("click", () => {
     toggleSessionTimer();
   });
+  document.getElementById("stage-live-timer-badge")?.addEventListener("click", () => {
+    toggleSessionTimer();
+  });
   document.getElementById("btn-timer-reset")?.addEventListener("click", () => {
     resetSessionTimer();
+  });
+
+  // Option TP1: Present & Classroom Timer Split-Button Menu Actions
+  document.querySelectorAll("[data-present-menu-action]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const action = btn.getAttribute("data-present-menu-action");
+      document.getElementById("stage-present-dropdown-menu")?.classList.add("hidden");
+      document.getElementById("btn-stage-present-caret")?.setAttribute("aria-expanded", "false");
+      if (action === "fullscreen") {
+        document.getElementById("btn-present-fullscreen")?.click();
+      } else if (action === "presenter") {
+        document.getElementById("btn-popout-speaker-notes")?.click();
+      } else if (action === "quiz-reveal") {
+        document.getElementById("btn-toggle-quiz-reveal")?.click();
+      } else if (action === "scoreboard") {
+        document.getElementById("btn-toggle-patrol-scoreboard")?.click();
+      }
+    });
   });
 
   // Feature 1 & Plan 7 #3: Fullscreen Teleprompter Notes (`🎙️ Notes (N)`) & In-Stage Split-Screen Presenter Console (`🪟 Presenter View (P)`)
@@ -8367,6 +8513,10 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   quizBtn?.addEventListener("click", () => {
     state.quizRevealMode = !state.quizRevealMode;
     quizBtn.textContent = state.quizRevealMode ? "🎯 Quiz Reveal: ON" : "🎯 Quiz Reveal: Off";
+    const presentQuizLbl = document.getElementById("present-menu-quiz-reveal-label");
+    if (presentQuizLbl) {
+      presentQuizLbl.textContent = state.quizRevealMode ? "🎯 Quiz Reveal Mode: ON" : "🎯 Quiz Reveal Mode: Off";
+    }
     quizBtn.classList.toggle("m3-btn-filled", state.quizRevealMode);
     quizBtn.classList.toggle("m3-btn-outlined", !state.quizRevealMode);
     if (state.currentResult && state.activeSlideIdx >= 0) {
@@ -8398,12 +8548,25 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     syncPatrolScoreboardDom();
   });
 
+  let prereqsHiddenState = false;
+  const syncOutlineToolsFilterBadge = () => {
+    const lbl = document.getElementById("stage-tools-btn-label");
+    const toggleBtn = document.getElementById("btn-stage-tools-menu-toggle");
+    const activeFilters = (state.filterQuizSlidesOnly ? 1 : 0) + (prereqsHiddenState ? 1 : 0);
+    if (lbl) {
+      lbl.textContent = activeFilters > 0 ? `Tools • ${activeFilters}` : "Tools";
+    }
+    toggleBtn?.classList.toggle("has-active-filter", activeFilters > 0);
+  };
+
   const filterQuizBtn = document.getElementById("btn-filter-quiz-slides");
-  filterQuizBtn?.addEventListener("click", () => {
+  filterQuizBtn?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
     state.filterQuizSlidesOnly = !state.filterQuizSlidesOnly;
     filterQuizBtn.textContent = state.filterQuizSlidesOnly ? "⚡ Showing Quiz Slides (All)" : "⚡ Quiz Slides Only";
     filterQuizBtn.classList.toggle("m3-btn-filled", state.filterQuizSlidesOnly);
     filterQuizBtn.classList.toggle("m3-btn-tonal", !state.filterQuizSlidesOnly);
+    syncOutlineToolsFilterBadge();
     const slides = state.currentResult?.storyboard?.slides || [];
     renderFilmstrip(slides);
   });
@@ -8448,11 +8611,12 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     if (state.activeSlideIdx < 0) return;
     await customizeActiveSlideDeck("toggle_hide");
   });
-  let prereqsHiddenState = false;
   document.getElementById("btn-toggle-hide-prereq-slides")?.addEventListener("click", async (ev) => {
+    ev.stopPropagation();
     prereqsHiddenState = !prereqsHiddenState;
     const btn = ev.currentTarget;
     if (btn) btn.textContent = prereqsHiddenState ? "🏠 Show Home-Prereqs" : "🏠 Hide Home-Prereqs";
+    syncOutlineToolsFilterBadge();
     const prereqNums = (state.currentResult?.research_artifact?.requirements || [])
       .filter((r) => r.execution_mode === "PREREQUISITE_CAMPOUT_HOME")
       .map((r) => String(r.req_number));
@@ -10890,24 +11054,58 @@ function renderQuickSelectBadgesRow() {
       .join("");
   } else if (mode === "workspaces") {
     const wsList = state.savedWorkspaces || [];
+    const actionsRowHtml = `
+      <div class="m3-quick-decks-actions-row">
+        <button type="button" class="m3-ws-action-btn" data-quick-ws-action="save" title="Save current active deck &amp; Blue Card roster">💾 Save</button>
+        <button type="button" class="m3-ws-action-btn" data-quick-ws-action="clone" title="Clone active deck for a new class section or period">📑 Clone</button>
+        <button type="button" class="m3-ws-action-btn" data-quick-ws-action="library" title="Open My Merit Badge Decks &amp; Classroom Sessions Library">🗂️ Library</button>
+      </div>
+    `;
     if (wsList.length === 0) {
-      row.innerHTML = `<div style="font-size:0.74rem; color:#64748B; padding:4px 2px;">No saved decks yet — click <strong>💾 Save Deck</strong> to pin multiple badges in progress.</div>`;
-      return;
+      const curSlug = badgeNameToEmblemSlug(curBadge || "First Aid");
+      row.innerHTML = `
+        <div class="m3-quick-decks-pills-wrap">
+          <button type="button" class="m3-ws-pill active" title="Current active deck on stage">
+            <img src="/assets/badge_emblems/${escapeHtml(curSlug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
+            <span>${escapeHtml(curBadge)}</span>
+            <span class="m3-ws-pill-meta">(Active)</span>
+          </button>
+        </div>
+        ${actionsRowHtml}
+      `;
+    } else {
+      const pillsHtml = wsList
+        .slice(0, 8)
+        .map((ws) => {
+          const isAct = ws.workspace_id === state.activeWorkspaceId;
+          const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
+          const shortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
+          const label = shortSession
+            ? `${ws.badge_name} • ${shortSession}`
+            : ws.workspace_title || ws.badge_name;
+          return `
+            <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-switch-ws="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${escapeHtml(ws.session_label || "")} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
+              <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
+              <span>${escapeHtml(label)}</span>
+              <span class="m3-ws-pill-meta">(${ws.scout_count || 0})</span>
+            </button>
+          `;
+        })
+        .join("");
+      row.innerHTML = `<div class="m3-quick-decks-pills-wrap">${pillsHtml}</div>${actionsRowHtml}`;
     }
-    row.innerHTML = wsList
-      .slice(0, 8)
-      .map((ws) => {
-        const isAct = ws.workspace_id === state.activeWorkspaceId;
-        const label = ws.session_label
-          ? `${ws.badge_name} (${ws.session_label})`
-          : ws.workspace_title || ws.badge_name;
-        return `<button type="button" class="m3-badge-pill ${isAct ? "active" : ""}" data-switch-ws="${escapeHtml(ws.workspace_id)}" title="${escapeHtml(ws.workspace_title || ws.badge_name)}">🗂️ ${escapeHtml(label)}</button>`;
-      })
-      .join("");
     row.querySelectorAll("[data-switch-ws]").forEach((btn) => {
       btn.addEventListener("click", async () => {
         const wsId = btn.getAttribute("data-switch-ws");
         if (wsId) await switchActiveWorkspace(wsId);
+      });
+    });
+    row.querySelectorAll("[data-quick-ws-action]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const act = btn.getAttribute("data-quick-ws-action");
+        if (act === "save") document.getElementById("btn-ws-save-current")?.click();
+        else if (act === "clone") document.getElementById("btn-ws-clone-section")?.click();
+        else if (act === "library") document.getElementById("btn-ws-open-library")?.click();
       });
     });
     return;
@@ -10946,12 +11144,70 @@ function renderActiveWorkspacesBar() {
   const bar = document.getElementById("active-workspaces-bar");
   const listEl = document.getElementById("active-workspaces-pills-list");
   const topPill = document.getElementById("top-workspaces-count-pill");
+  const topWsMenu = document.getElementById("top-workspaces-dropdown-menu");
   const copySelect = document.getElementById("select-bluecard-copy-workspace");
   const wsList = state.savedWorkspaces || [];
 
   if (topPill) topPill.textContent = String(wsList.length);
   const wsCountEl = document.getElementById("ws-badges-count-lbl");
   if (wsCountEl) wsCountEl.textContent = String(wsList.length);
+
+  // Populate Option A1 Top-Bar My Decks Quick-Switcher Dropdown (`#top-workspaces-dropdown-menu`)
+  if (topWsMenu) {
+    const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
+    const menuItemsHtml =
+      wsList.length === 0
+        ? `<div style="padding:8px 10px; font-size:0.75rem; color:#64748B;">Current active deck: <strong>${escapeHtml(curBadge)}</strong> (no saved decks yet).</div>`
+        : wsList
+            .map((ws) => {
+              const isAct = ws.workspace_id === state.activeWorkspaceId;
+              const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
+              const shortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
+              const label = shortSession
+                ? `${ws.badge_name} • ${shortSession}`
+                : ws.workspace_title || ws.badge_name;
+              return `
+                <button type="button" class="m3-top-ws-menu-item ${isAct ? "active" : ""}" data-top-ws-id="${escapeHtml(ws.workspace_id)}">
+                  <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:18px; height:18px; border-radius:50%; object-fit:contain; flex-shrink:0;" />
+                  <span class="m3-top-ws-menu-title">${escapeHtml(label)}</span>
+                  <span class="m3-top-ws-menu-meta">${ws.slide_count || 0} sl • ${ws.scout_count || 0}🪪</span>
+                  ${isAct ? `<span class="m3-top-ws-menu-check">✓</span>` : ""}
+                </button>
+              `;
+            })
+            .join("");
+
+    topWsMenu.innerHTML = `
+      <div class="m3-dropdown-section-label">Switch Active Merit Badge Deck (${wsList.length})</div>
+      <div class="m3-top-ws-menu-list">${menuItemsHtml}</div>
+      <div class="m3-dropdown-divider"></div>
+      <div class="m3-top-ws-menu-actions">
+        <button type="button" class="m3-ws-action-btn" data-top-ws-action="save">💾 Save Deck</button>
+        <button type="button" class="m3-ws-action-btn" data-top-ws-action="clone">📑 Clone Section</button>
+        <button type="button" class="m3-ws-action-btn" data-top-ws-action="library">🗂️ Library...</button>
+      </div>
+    `;
+    topWsMenu.querySelectorAll("[data-top-ws-id]").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const wid = btn.getAttribute("data-top-ws-id");
+        topWsMenu.classList.add("hidden");
+        document.getElementById("btn-top-workspaces-caret")?.setAttribute("aria-expanded", "false");
+        if (wid && wid !== state.activeWorkspaceId) {
+          await switchActiveWorkspace(wid);
+        }
+      });
+    });
+    topWsMenu.querySelectorAll("[data-top-ws-action]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const act = btn.getAttribute("data-top-ws-action");
+        topWsMenu.classList.add("hidden");
+        document.getElementById("btn-top-workspaces-caret")?.setAttribute("aria-expanded", "false");
+        if (act === "save") document.getElementById("btn-ws-save-current")?.click();
+        else if (act === "clone") document.getElementById("btn-ws-clone-section")?.click();
+        else if (act === "library") document.getElementById("btn-ws-open-library")?.click();
+      });
+    });
+  }
 
   if (copySelect) {
     const otherWs = wsList.filter((w) => w.workspace_id !== state.activeWorkspaceId);

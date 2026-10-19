@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261019h" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261019j" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -51,14 +51,27 @@
       >
         👤 <span id="top-counselor-chip-text"><span id="top-counselor-chip-name">Scoutmaster Bob</span><span id="top-counselor-chip-affil"> &bull; Troop 123, My Council</span></span>
       </button>
-      <button
-        type="button"
-        class="m3-btn m3-btn-outlined m3-top-compact-btn"
-        id="btn-open-saved-workspaces"
-        title="Open Multi-Badge Saved Decks &amp; Classroom Sessions Library (Shortcut: W)"
-      >
-        🗂️ My Decks <span id="top-workspaces-count-pill" style="background:#003F87; color:#FFFFFF; border-radius:999px; padding:1px 6px; font-size:0.66rem; margin-left:2px;">1</span>
-      </button>
+      <div class="m3-split-export-group m3-top-workspaces-split-group" id="top-workspaces-split-group">
+        <button
+          type="button"
+          class="m3-btn m3-btn-outlined m3-top-compact-btn m3-split-main-btn"
+          id="btn-open-saved-workspaces"
+          title="Open Multi-Badge Saved Decks &amp; Classroom Sessions Library (Shortcut: W)"
+        >
+          🗂️ My Decks <span id="top-workspaces-count-pill" style="background:#003F87; color:#FFFFFF; border-radius:999px; padding:1px 6px; font-size:0.66rem; margin-left:2px;">1</span>
+        </button>
+        <button
+          type="button"
+          class="m3-btn m3-btn-outlined m3-top-compact-btn m3-split-caret-btn"
+          id="btn-top-workspaces-caret"
+          title="Quick-Switch Active Merit Badge Deck, Save, or Clone Section"
+          aria-haspopup="menu"
+          aria-expanded="false"
+        >
+          ▾
+        </button>
+        <div class="m3-export-dropdown-menu m3-top-workspaces-dropdown-menu hidden" id="top-workspaces-dropdown-menu" role="menu" aria-label="Quick Deck Switcher &amp; Actions"></div>
+      </div>
       <button
         type="button"
         class="m3-btn m3-btn-outlined m3-top-compact-btn"
@@ -508,22 +521,58 @@
       <section id="panel-storyboard" class="m3-storyboard-layout">
         <!-- Left Column: Slide Filmstrip (hidden while generating) + Research & Generation Progress -->
         <div class="m3-storyboard-left-col" id="storyboard-left-col">
-          <!-- Filmstrip Search & Filter Box -->
+          <!-- Filmstrip Search & Consolidated Slide/Filter Tools (Option O2 Single-Row Header) -->
           <div class="m3-filmstrip-toolbar hidden" id="filmstrip-toolbar">
-            <input
-              type="search"
-              class="m3-input"
-              id="filmstrip-search-input"
-              placeholder="🔎 Filter slides by keyword or req (e.g. 2b, CPR)..."
-              style="padding:7px 10px; font-size:0.78rem; margin-bottom:6px;"
-            />
-            <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; flex-wrap:wrap;">
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-filter-quiz-slides" title="Filter filmstrip to show only Patrol Quiz &amp; Checkpoint slides" style="padding:3px 8px; font-size:0.71rem;">
-                ⚡ Quiz Slides Only
-              </button>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-hide-prereq-slides" title="1-click hide/unhide home-prerequisite slides (30-day logs, family chores) during summer camp" style="padding:3px 8px; font-size:0.71rem;">
-                🏠 Hide Home-Prereqs
-              </button>
+            <div class="m3-filmstrip-single-row">
+              <input
+                type="search"
+                class="m3-input m3-filmstrip-search-compact"
+                id="filmstrip-search-input"
+                placeholder="🔎 Filter slides or req..."
+              />
+              <div class="m3-stage-tools-dropdown-wrap" id="stage-tools-dropdown-wrap">
+                <button
+                  type="button"
+                  class="m3-btn m3-btn-outlined m3-stage-compact-btn m3-filmstrip-tools-btn"
+                  id="btn-stage-tools-menu-toggle"
+                  title="Filter Slide Outline (Quiz Slides Only, Hide Home-Prereqs), Edit Slide Order (Insert, Hide, Move ↑/↓), &amp; Classroom Game"
+                  aria-haspopup="menu"
+                  aria-expanded="false"
+                >
+                  🛠️ <span id="stage-tools-btn-label">Tools</span> ▾
+                </button>
+                <div class="m3-export-dropdown-menu m3-stage-tools-popover m3-filmstrip-tools-popover hidden" id="stage-tools-dropdown-menu" role="menu">
+                  <div class="m3-stage-tools-section-kicker">Filter Slide Outline</div>
+                  <div style="display:flex; flex-direction:column; gap:4px; padding:4px 8px 6px;">
+                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-filter-quiz-slides" title="Filter filmstrip to show only Patrol Quiz &amp; Checkpoint slides" style="padding:5px 10px; font-size:0.74rem; justify-content:flex-start;">
+                      ⚡ Quiz Slides Only
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-hide-prereq-slides" title="1-click hide/unhide home-prerequisite slides (30-day logs, family chores) during summer camp" style="padding:5px 10px; font-size:0.74rem; justify-content:flex-start;">
+                      🏠 Hide Home-Prereqs
+                    </button>
+                  </div>
+                  <div class="m3-stage-tools-section-kicker" style="margin-top:2px; border-top:1px solid #E2E8F0; padding-top:6px;">Slide Deck Customizer</div>
+                  <div style="display:flex; align-items:center; gap:5px; padding:4px 6px;">
+                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-insert-custom-slide" title="Insert a custom local camp or troop slide after this slide (updates .PPTX)" style="padding:5px 9px; font-size:0.73rem; font-weight:700; white-space:nowrap; flex:1;">
+                      ➕ Insert Slide
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-hide-slide" title="Hide or skip this slide during Fullscreen presentation and exclude from .PPTX export" style="padding:5px 9px; font-size:0.73rem; white-space:nowrap; flex:1;">
+                      👁️ Hide Slide
+                    </button>
+                    <button type="button" class="m3-timer-mini-btn" id="btn-move-slide-up" title="Move Active Slide Earlier (↑)">↑</button>
+                    <button type="button" class="m3-timer-mini-btn" id="btn-move-slide-down" title="Move Active Slide Later (↓)">↓</button>
+                  </div>
+                  <div class="m3-stage-tools-section-kicker" style="margin-top:4px; border-top:1px solid #E2E8F0; padding-top:6px;">Classroom Quiz &amp; Patrol Game</div>
+                  <div style="display:flex; flex-direction:column; gap:4px; padding:4px 8px 6px;">
+                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-quiz-reveal" title="Mask quiz answers &amp; scenario solutions until clicked or Spacebar pressed (Shortcut: Q)" style="padding:5px 10px; font-size:0.75rem; justify-content:flex-start;">
+                      🎯 Quiz Reveal: Off
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-patrol-scoreboard" title="Show or hide the interactive 4-Patrol Game Show Scoreboard (auto-appears on Patrol Quiz slides)" style="padding:5px 10px; font-size:0.75rem; justify-content:flex-start;">
+                      🏆 Patrol Scoreboard
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -648,8 +697,8 @@
             </div>
           </div>
 
-          <!-- PLAN 16B: MULTI-BADGE ACTIVE DECK WORKSPACE SWITCHER BAR -->
-          <div class="m3-active-workspaces-bar hidden" id="active-workspaces-bar" aria-label="Active Merit Badge Deck Workspaces">
+          <!-- PLAN 16B: MULTI-BADGE ACTIVE DECK WORKSPACE SWITCHER BAR (Consolidated into Quick-Select Decks & Top-Bar Split-Button via Option A1) -->
+          <div class="m3-active-workspaces-bar hidden" id="active-workspaces-bar" aria-label="Active Merit Badge Deck Workspaces" style="display:none !important;">
             <div style="display:flex; align-items:center; gap:5px; flex-wrap:nowrap; overflow-x:auto; flex:1; min-width:0;" id="active-workspaces-pills-list"></div>
             <div style="display:flex; align-items:center; gap:4px; flex-shrink:0;">
               <button type="button" class="m3-ws-action-btn" id="btn-ws-save-current" title="Save current slide deck, edits, template, and Blue Card roster to your Deck Library">
@@ -685,7 +734,22 @@
                   Next ›
                 </button>
               </div>
-              <span class="m3-chip m3-chip-secondary" id="active-slide-req-chip" style="padding:3px 8px; font-size:0.71rem; white-space:nowrap; flex-shrink:0;">Cover</span>
+              <!-- BAR C CONSOLIDATED INTO BAR B INTERACTIVE REQUIREMENT JUMP DROPDOWN -->
+              <div class="m3-req-jump-dropdown-wrap" id="req-jump-dropdown-wrap">
+                <button
+                  type="button"
+                  class="m3-chip m3-chip-secondary m3-req-jump-trigger-btn"
+                  id="btn-stage-req-jump-toggle"
+                  title="Jump directly to Cover, Overview, or any Requirement (Req 1–15)"
+                  aria-haspopup="menu"
+                  aria-expanded="false"
+                >
+                  <span style="font-size:0.72rem;" aria-hidden="true">📍</span>
+                  <span id="active-slide-req-chip">Cover</span>
+                  <span style="font-size:0.64rem; opacity:0.8; margin-left:1px;" aria-hidden="true">▾</span>
+                </button>
+                <div class="m3-export-dropdown-menu m3-req-jump-dropdown-menu hidden" id="req-jump-dropdown-menu" role="menu" aria-label="Jump to Requirement"></div>
+              </div>
               <span class="m3-chip m3-chip-gold hidden" id="active-slide-grounded-chip" style="padding:3px 8px; font-size:0.70rem; white-space:nowrap; flex-shrink:0;">🌐 Grounded</span>
               <!-- PLAN 16A + PLAN 17: SPLIT-BUTTON STAGE TEMPLATE SWITCHER PILL + DROPDOWN -->
               <div class="m3-split-export-group m3-stage-template-split-group" id="stage-template-split-group">
@@ -712,65 +776,79 @@
               </div>
             </div>
             <div class="m3-stage-toolbar-right">
-              <!-- FEATURE C1: LIVE CLASSROOM SESSION & SKILL STATION COUNTDOWN TIMER -->
-              <div class="m3-session-timer-cluster" id="session-timer-cluster" title="Live Troop Meeting &amp; Skill Station Countdown Timer">
-                <select id="session-timer-preset-select" class="m3-timer-preset-select" aria-label="Session Timer Preset">
-                  <option value="2700" selected>⏱️ 45m</option>
-                  <option value="3000">⏱️ 50m</option>
-                  <option value="900">⏱️ 15m</option>
-                  <option value="5400">⏱️ 90m</option>
-                </select>
-                <span class="m3-session-timer-display" id="session-timer-pill">45:00</span>
-                <button type="button" class="m3-timer-mini-btn" id="btn-timer-start-pause" title="Start / Pause Session Countdown Timer">▶</button>
-                <button type="button" class="m3-timer-mini-btn" id="btn-timer-reset" title="Reset Session Countdown Timer">↺</button>
-              </div>
-              <!-- CONSOLIDATED SLIDE & CLASSROOM ACTIONS POPOVER MENU -->
-              <div class="m3-stage-tools-dropdown-wrap" id="stage-tools-dropdown-wrap">
-                <button
-                  type="button"
-                  class="m3-btn m3-btn-outlined m3-stage-compact-btn"
-                  id="btn-stage-tools-menu-toggle"
-                  title="Slide Actions (Insert, Hide, Reorder ↑/↓) &amp; Classroom Quiz / Patrol Scoreboard"
-                  aria-haspopup="menu"
-                  aria-expanded="false"
-                >
-                  🛠️ Tools ▾
-                </button>
-                <div class="m3-export-dropdown-menu m3-stage-tools-popover hidden" id="stage-tools-dropdown-menu" role="menu">
-                  <div class="m3-stage-tools-section-kicker">Slide Deck Customizer</div>
-                  <div style="display:flex; align-items:center; gap:5px; padding:4px 6px;">
-                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-insert-custom-slide" title="Insert a custom local camp or troop slide after this slide (updates .PPTX)" style="padding:5px 9px; font-size:0.73rem; font-weight:700; white-space:nowrap; flex:1;">
-                      ➕ Insert Slide
-                    </button>
-                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-hide-slide" title="Hide or skip this slide during Fullscreen presentation and exclude from .PPTX export" style="padding:5px 9px; font-size:0.73rem; white-space:nowrap; flex:1;">
-                      👁️ Hide Slide
-                    </button>
-                    <button type="button" class="m3-timer-mini-btn" id="btn-move-slide-up" title="Move Active Slide Earlier (↑)">↑</button>
-                    <button type="button" class="m3-timer-mini-btn" id="btn-move-slide-down" title="Move Active Slide Later (↓)">↓</button>
-                  </div>
-                  <div class="m3-stage-tools-section-kicker" style="margin-top:4px; border-top:1px solid #E2E8F0; padding-top:6px;">Classroom Quiz &amp; Patrol Game</div>
-                  <div style="display:flex; flex-direction:column; gap:4px; padding:4px 8px 6px;">
-                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-quiz-reveal" title="Mask quiz answers &amp; scenario solutions until clicked or Spacebar pressed (Shortcut: Q)" style="padding:5px 10px; font-size:0.75rem; justify-content:flex-start;">
-                      🎯 Quiz Reveal: Off
-                    </button>
-                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-toggle-patrol-scoreboard" title="Show or hide the interactive 4-Patrol Game Show Scoreboard (auto-appears on Patrol Quiz slides)" style="padding:5px 10px; font-size:0.75rem; justify-content:flex-start;">
-                      🏆 Patrol Scoreboard
-                    </button>
-                  </div>
-                </div>
-              </div>
+              <!-- OPTION TP1: COMPACT LIVE COUNTDOWN BADGE (SHOWN ONLY WHEN TIMER IS RUNNING/ACTIVE) -->
+              <button
+                type="button"
+                class="m3-stage-live-timer-pill hidden"
+                id="stage-live-timer-badge"
+                title="Classroom Session Timer Active — Click to Pause/Resume (or open Present ▾ menu)"
+              >
+                <span>⏱️</span>
+                <span id="stage-live-timer-text">45:00</span>
+                <span id="stage-live-timer-state-icon">⏸</span>
+              </button>
               <!-- UI-2: DUAL-WINDOW PRESENTER VIEW POP-OUT -->
               <button type="button" class="m3-btn m3-btn-tonal m3-stage-compact-btn" id="btn-popout-speaker-notes" title="Open synchronized Counselor Speaker Notes &amp; Timer on a second screen (Shortcut: P)">
                 🪟 Presenter View
               </button>
-              <button type="button" class="m3-btn m3-btn-tonal m3-stage-compact-btn" id="btn-present-fullscreen" title="Present slides fullscreen on a troop projector or monitor (Shortcut: F)">
-                🖥️ Present
-              </button>
+              <!-- OPTION TP1: UNIFIED [🖥️ Present | ▾] SPLIT-BUTTON WITH EMBEDDED CLASSROOM TIMER & ENGAGEMENT CONTROLS -->
+              <div class="m3-split-export-group m3-stage-present-split-group" id="stage-present-split-group">
+                <button type="button" class="m3-btn m3-btn-tonal m3-stage-compact-btn m3-split-main-btn" id="btn-present-fullscreen" title="Present slides fullscreen on a troop projector or monitor (Shortcut: F)">
+                  🖥️ Present
+                </button>
+                <button
+                  type="button"
+                  class="m3-btn m3-btn-tonal m3-stage-compact-btn m3-split-caret-btn"
+                  id="btn-stage-present-caret"
+                  title="Presentation Modes, Classroom Session Timer (T), &amp; Patrol Quiz Controls"
+                  aria-haspopup="menu"
+                  aria-expanded="false"
+                >
+                  ▾
+                </button>
+                <div class="m3-export-dropdown-menu m3-stage-present-dropdown-menu hidden" id="stage-present-dropdown-menu" role="menu" aria-label="Presentation &amp; Classroom Timer Controls">
+                  <div class="m3-stage-tools-section-kicker">Presentation Modes</div>
+                  <div style="display:flex; flex-direction:column; gap:4px; padding:4px 8px 6px;">
+                    <button type="button" class="m3-btn m3-btn-tonal" data-present-menu-action="fullscreen" style="padding:5px 10px; font-size:0.75rem; justify-content:space-between; width:100%;">
+                      <span>🖥️ Present Fullscreen</span>
+                      <kbd class="m3-kbd">F</kbd>
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-outlined" data-present-menu-action="presenter" style="padding:5px 10px; font-size:0.75rem; justify-content:space-between; width:100%;">
+                      <span>🪟 Split-Screen Presenter View</span>
+                      <kbd class="m3-kbd">P</kbd>
+                    </button>
+                  </div>
+                  <div class="m3-stage-tools-section-kicker" style="margin-top:2px; border-top:1px solid #E2E8F0; padding-top:6px;">Classroom Session Timer (Shortcut: T)</div>
+                  <div style="padding:6px 8px 8px; display:flex; align-items:center; justify-content:space-between; gap:6px;">
+                    <div class="m3-session-timer-cluster" id="session-timer-cluster" title="Live Troop Meeting &amp; Skill Station Countdown Timer" style="width:100%; justify-content:space-between;">
+                      <select id="session-timer-preset-select" class="m3-timer-preset-select" aria-label="Session Timer Preset">
+                        <option value="2700" selected>⏱️ 45m</option>
+                        <option value="3000">⏱️ 50m</option>
+                        <option value="900">⏱️ 15m</option>
+                        <option value="5400">⏱️ 90m</option>
+                      </select>
+                      <span class="m3-session-timer-display" id="session-timer-pill">45:00</span>
+                      <button type="button" class="m3-timer-mini-btn" id="btn-timer-start-pause" title="Start / Pause Session Countdown Timer">▶</button>
+                      <button type="button" class="m3-timer-mini-btn" id="btn-timer-reset" title="Reset Session Countdown Timer">↺</button>
+                    </div>
+                  </div>
+                  <div class="m3-stage-tools-section-kicker" style="margin-top:2px; border-top:1px solid #E2E8F0; padding-top:6px;">Live Patrol Engagement</div>
+                  <div style="display:flex; flex-direction:column; gap:4px; padding:4px 8px 6px;">
+                    <button type="button" class="m3-btn m3-btn-outlined" data-present-menu-action="quiz-reveal" style="padding:5px 10px; font-size:0.75rem; justify-content:space-between; width:100%;">
+                      <span id="present-menu-quiz-reveal-label">🎯 Quiz Answer Masking: Off</span>
+                      <kbd class="m3-kbd">Q</kbd>
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-outlined" data-present-menu-action="scoreboard" style="padding:5px 10px; font-size:0.75rem; justify-content:flex-start; width:100%;">
+                      <span>🏆 Toggle 4-Patrol Scoreboard</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <!-- STICKY REQUIREMENT QUICK-JUMP PILL BAR -->
-          <div class="m3-req-jump-bar hidden" id="req-quick-jump-bar" aria-label="Quick-Jump by Requirement"></div>
+          <!-- STICKY REQUIREMENT QUICK-JUMP PILL BAR (Consolidated into Bar B [📍 Req ▾] Dropdown) -->
+          <div class="m3-req-jump-bar hidden" id="req-quick-jump-bar" aria-label="Quick-Jump by Requirement" style="display:none !important;"></div>
 
           <!-- SIDE-BY-SIDE SLIDE + PRESENTER VIEW ROW (PREVENTING OVERLAP WHEN PRESENTER VIEW IS OPEN) -->
           <div class="m3-slide-and-presenter-row" id="slide-and-presenter-row">
@@ -2953,6 +3031,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261019h"></script>
+  <script src="/ui/app.js?v=20261019j"></script>
 </body>
 </html>
