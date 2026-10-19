@@ -56,3 +56,7 @@ output/
 .cache/
 *.bundle
 
+
+# SQLite WAL shared-memory files
+*.db-shm
+*.db-wal
