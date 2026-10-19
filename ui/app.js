@@ -9929,14 +9929,18 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     bodySplit.style.paddingBottom = `${Math.max(3.8, bottomReserveWidthPct).toFixed(2)}%`;
   }
 
+  const withTplVer = (u) => {
+    if (!u) return "";
+    return u.includes("?") ? u : `${u}?v=20261019h`;
+  };
   const parts = [];
   if (isCover && prof.cover_bg_url) {
     parts.push(
-      `<img src="${escapeHtml(prof.cover_bg_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.22" : "0.18"}; pointer-events:none;" />`
+      `<img src="${escapeHtml(withTplVer(prof.cover_bg_url))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.22" : "0.18"}; pointer-events:none;" />`
     );
   } else if (prof.canvas_watermark_url) {
     parts.push(
-      `<img src="${escapeHtml(prof.canvas_watermark_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.42" : "0.86"}; pointer-events:none;" />`
+      `<img src="${escapeHtml(withTplVer(prof.canvas_watermark_url))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.48" : "0.95"}; pointer-events:none;" />`
     );
   }
 
@@ -10388,10 +10392,11 @@ function renderTemplateCatalogGrid() {
       const t = activeInGroup || rememberedVariant || grp.variants[0];
       const isActive = Boolean(activeInGroup);
       const bottomSafe = (t.safe_bounds?.content_bottom_max_in || 6.95).toFixed(2);
+      const withVer = (u) => (u && !u.includes("?") ? `${u}?v=20261019h` : u || "");
       const previewBg = t.cover_bg_url
-        ? `background-image:linear-gradient(rgba(250,248,245,0.78), rgba(250,248,245,0.84)), url('${escapeHtml(t.cover_bg_url)}'); background-size:cover;`
+        ? `background-image:linear-gradient(rgba(250,248,245,0.78), rgba(250,248,245,0.84)), url('${escapeHtml(withVer(t.cover_bg_url))}'); background-size:cover;`
         : t.canvas_watermark_url
-        ? `background-color:#FAF8F5; background-image:url('${escapeHtml(t.canvas_watermark_url)}'); background-size:cover;`
+        ? `background-color:#FAF8F5; background-image:url('${escapeHtml(withVer(t.canvas_watermark_url))}'); background-size:cover;`
         : "background:#FAF8F5;";
       const customActionsHtml = !t.is_builtin
         ? `
@@ -10441,10 +10446,10 @@ function renderTemplateCatalogGrid() {
                 <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">16:9</span>
               </div>
               <div style="padding:6px 8px; width:100%; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
-                <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800; opacity:${t.canvas_watermark_url ? "0.84" : "0.95"};">
+                <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800; opacity:${t.canvas_watermark_url ? "0.70" : "0.95"};">
                   Safe Zone: 1.12"&ndash;${bottomSafe}"
                 </div>
-                <div class="m3-tpl-preview-fig-card" style="background:#FFFFFF; border:1px solid #CBD5E1; border-radius:4px; height:72%; display:flex; align-items:center; justify-content:center; font-size:0.52rem; font-weight:700; opacity:${t.canvas_watermark_url ? "0.82" : "0.95"};">
+                <div class="m3-tpl-preview-fig-card" style="background:#FFFFFF; border:1px solid #CBD5E1; border-radius:4px; height:72%; display:flex; align-items:center; justify-content:center; font-size:0.52rem; font-weight:700; opacity:${t.canvas_watermark_url ? "0.70" : "0.95"};">
                   Figure
                 </div>
               </div>
