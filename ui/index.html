@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261019a" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261019c" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -96,11 +96,23 @@
         </button>
         <button
           type="button"
-          class="m3-utility-seg-btn"
+          class="m3-utility-seg-btn m3-shortcuts-key-btn"
           id="btn-keyboard-shortcuts"
           title="View Keyboard Shortcuts Cheat-Sheet (Shortcut: ?)"
         >
-          ⌨️
+          <svg width="15" height="13" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="flex-shrink:0;">
+            <rect x="1" y="1" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="2" fill="rgba(0,63,135,0.10)"/>
+            <rect x="3.5" y="3.5" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="7" y="3.5" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="10.5" y="3.5" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="14" y="3.5" width="2.5" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="3.5" y="7" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="7" y="7" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="10.5" y="7" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="14" y="7" width="2.5" height="2.2" rx="0.5" fill="currentColor"/>
+            <rect x="5.5" y="10.5" width="9" height="2.2" rx="0.6" fill="currentColor"/>
+          </svg>
+          <span>Keys</span>
         </button>
       </div>
       <div class="m3-export-dropdown-wrap" id="top-export-dropdown-wrap">
@@ -273,14 +285,14 @@
             </button>
           </div>
           <select class="m3-select" id="template-select">
-            <option value="default_workbench" selected>Workbench Classic (Full Canvas)</option>
-            <option value="scouting_america_250">Scouting America | America 250™</option>
-            <option value="scouting_america_forest_sunrise">Scouting America Forest Sunrise</option>
-            <option value="scouting_america_topographic">Scouting America Topographic Contour</option>
-            <option value="scouting_america_high_adventure_rock">Scouting America High Adventure Action</option>
-            <option value="classic_outdoor_silhouette_navy">Classic Outdoor Adventure Silhouette</option>
-            <option value="classic_fleur_crimson_crest">Eagle Court of Honor &amp; Fleur-de-Lis Crest</option>
-            <option value="wilderness_camp_timber">Summer Camp &amp; Wood Badge Pine Crest</option>
+            <option value="default_workbench" selected>Workbench Classic</option>
+            <option value="scouting_america_250">BSA America 250™</option>
+            <option value="scouting_america_forest_sunrise">BSA Forest Sunrise</option>
+            <option value="scouting_america_topographic">BSA Topographic</option>
+            <option value="scouting_america_high_adventure_rock">BSA High Adventure</option>
+            <option value="classic_outdoor_silhouette_navy">BSA Outdoor Adventure</option>
+            <option value="classic_fleur_crimson_crest">BSA Fleur-de-Lis Crest</option>
+            <option value="wilderness_camp_timber">BSA Summer Camp</option>
           </select>
         </div>
 
@@ -2922,6 +2934,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261019a"></script>
+  <script src="/ui/app.js?v=20261019c"></script>
 </body>
 </html>

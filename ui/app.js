@@ -2155,6 +2155,14 @@ function hydrateWorkbench(rawResult) {
   if (typeof window.onWorkbenchDeckHydrated === "function") {
     window.onWorkbenchDeckHydrated(result);
   }
+  if (
+    state.activeTemplateId &&
+    state.activeTemplateId !== "default_workbench" &&
+    result.template_id !== state.activeTemplateId &&
+    typeof applyTemplateToActiveDeck === "function"
+  ) {
+    applyTemplateToActiveDeck(state.activeTemplateId, false);
+  }
 }
 
 function getLiveParentLetterMarkdown(result) {
@@ -7845,6 +7853,11 @@ async function runGoogleSlidesExportAndOpenTab({ oauthToken = "", shareEmail = "
         badge_name: state.currentResult.badge_name || "First Aid",
         output_path: state.currentResult.output_path || "",
         pptx_download_url: state.currentResult.pptx_download_url || "",
+        beautification_tier:
+          state.currentResult.beautification_tier ||
+          document.getElementById("beautification-select")?.value ||
+          "BEAUTIFIED",
+        template_id: state.activeTemplateId || state.currentResult.template_id || "default_workbench",
         storyboard_slides: state.currentResult.storyboard?.slides || [],
         counselor_info: state.currentResult.counselor_info || {},
         google_oauth_access_token: tokenToUse,
@@ -9676,7 +9689,7 @@ function getActiveTemplateProfile() {
   const list = state.templateCatalog || [];
   return list.find((t) => t.template_id === tplId) || list[0] || {
     template_id: "default_workbench",
-    name: "Workbench Classic (Full Canvas)",
+    name: "Workbench Classic",
     primary_hex: "#003F87",
     accent_hex: "#D4AF37",
     card_bg_hex: "#EFF6FF",
@@ -9780,7 +9793,10 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
 
   if (!overlayEl) return;
 
-  // 2. Default Workbench Classic: Reset responsive geometry overrides & footer overrides
+  const isDarkSlide = Boolean(tokens?.isStudio || document.getElementById("beautification-select")?.value === "STUDIO");
+  const headerBandEl = document.getElementById("stage-header-band");
+
+  // 2. Default Workbench Classic: Reset responsive geometry overrides & keep slide footer locked to Slide Theme (never flipping with UI Dark Mode)
   if (!isCustomGeometry) {
     overlayEl.classList.add("hidden");
     overlayEl.innerHTML = "";
@@ -9788,6 +9804,9 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
       stageEl.classList.remove("has-custom-template-geometry");
       stageEl.style.removeProperty("--tpl-bottom-reserve-pct");
       stageEl.style.removeProperty("--tpl-header-top-pct");
+    }
+    if (headerBandEl) {
+      headerBandEl.style.paddingTop = "";
     }
     if (bodySplit) {
       bodySplit.style.paddingBottom = "";
@@ -9797,23 +9816,39 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     }
     if (footerStrip) {
       footerStrip.style.cssText = "";
+      footerStrip.style.background = isDarkSlide ? "#1E293B" : "#F1EFEA";
+      footerStrip.style.color = isDarkSlide ? "#CBD5E1" : "#475569";
+      const fColor = isDarkSlide ? "#CBD5E1" : "#475569";
+      if (footerLeft) {
+        footerLeft.style.color = fColor;
+        footerLeft.style.textShadow = "none";
+      }
+      if (footerRight) {
+        footerRight.style.color = fColor;
+        footerRight.style.textShadow = "none";
+      }
     }
     return;
   }
 
   // 3. Branded / Custom Template Active: Apply True Responsive Slide Geometry + High-Contrast Footer
   overlayEl.classList.remove("hidden");
-  const isDarkSlide = Boolean(tokens?.isStudio || document.getElementById("beautification-select")?.value === "STUDIO");
   const silUrl = isDarkSlide ? (prof.bottom_silhouette_dark_url || prof.bottom_silhouette_url) : prof.bottom_silhouette_url;
   const logoUrl = isDarkSlide ? (prof.corner_logo_dark_url || prof.corner_logo_url) : prof.corner_logo_url;
+  const topBannerUrl = prof.top_banner_url || "";
+  const footerLeftIn = Number(bounds.footer_left_in || 0.60);
   const hasBottomBar = Boolean(prof.bottom_bar_hex && !silUrl);
-  const hasLogo = Boolean(logoUrl || footerMaxWidthIn < 11.2);
+  const hasRightLogo = Boolean(logoUrl || (footerLeftIn + footerMaxWidthIn < 11.8));
+  const hasLeftLogoInBanner = Boolean(silUrl && footerLeftIn > 1.2);
 
   const bottomReservePct = Math.max(9.2, ((7.5 - bottomIn) / 7.5) * 100);
   if (stageEl) {
     stageEl.classList.add("has-custom-template-geometry");
     stageEl.style.setProperty("--tpl-bottom-reserve-pct", `${bottomReservePct.toFixed(2)}%`);
     stageEl.style.setProperty("--tpl-header-top-pct", `${((headerTopIn / 7.5) * 100).toFixed(2)}%`);
+  }
+  if (headerBandEl) {
+    headerBandEl.style.paddingTop = topBannerUrl && topBannerUrl.includes("_header_strip") ? "22px" : "";
   }
 
   // Lift #stage-body-split and #stage-safety-bar above the template's reserved bottom branding/logo zone
@@ -9835,14 +9870,22 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     );
   }
 
-  if (silUrl) {
+  if (topBannerUrl) {
+    const topStripH = topBannerUrl.includes("_header_strip") ? "3.8%" : "1.8%";
     parts.push(
-      `<img src="${escapeHtml(silUrl)}" alt="" style="position:absolute; left:0; right:0; bottom:0; width:100%; height:10.2%; object-fit:fill; pointer-events:none; opacity:0.95;" />`
+      `<img src="${escapeHtml(topBannerUrl)}" alt="" style="position:absolute; left:0; right:0; top:0; width:100%; height:${topStripH}; object-fit:fill; pointer-events:none; opacity:0.97;" />`
+    );
+  }
+
+  if (silUrl) {
+    const silHeightPct = silUrl.includes("_footer_banner") ? "7.4%" : "10.2%";
+    parts.push(
+      `<img src="${escapeHtml(silUrl)}" alt="" style="position:absolute; left:0; right:0; bottom:0; width:100%; height:${silHeightPct}; object-fit:fill; pointer-events:none; opacity:0.96;" />`
     );
   } else if (hasBottomBar) {
     const barHex = prof.bottom_bar_hex;
     const accHex = prof.bottom_accent_hex || "#D4AF37";
-    const barWidthPct = hasLogo ? "76%" : "96%";
+    const barWidthPct = hasRightLogo ? "76%" : "96%";
     parts.push(
       `<div style="position:absolute; left:0; bottom:1.4%; width:${barWidthPct}; height:4.8%; background:${escapeHtml(barHex)}; border-top:3px solid ${escapeHtml(accHex)}; border-radius:0 6px 6px 0; pointer-events:none; opacity:0.96;"></div>`
     );
@@ -9863,7 +9906,7 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
       footerStrip.style.left = "1.8%";
       footerStrip.style.bottom = "1.4%";
       footerStrip.style.height = "4.8%";
-      footerStrip.style.width = hasLogo ? "72.5%" : "93%";
+      footerStrip.style.width = hasRightLogo ? "72.5%" : "96.4%";
       footerStrip.style.margin = "0";
       footerStrip.style.padding = "0 12px";
       footerStrip.style.background = "transparent";
@@ -9884,11 +9927,14 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
         footerRight.style.textShadow = contrastHex === "#FFFFFF" ? "0 1px 2px rgba(0,0,0,0.35)" : "none";
       }
     } else if (silUrl) {
+      const leftPct = hasLeftLogoInBanner ? `${((footerLeftIn / 13.333) * 100).toFixed(1)}%` : "1.8%";
+      const rightEdgePct = hasRightLogo ? "26.5%" : "1.8%";
       footerStrip.style.position = "absolute";
-      footerStrip.style.left = "2.2%";
-      footerStrip.style.bottom = "1.5%";
+      footerStrip.style.left = leftPct;
+      footerStrip.style.right = rightEdgePct;
+      footerStrip.style.bottom = silUrl.includes("_footer_banner") ? "1.3%" : "1.2%";
       footerStrip.style.height = "4.6%";
-      footerStrip.style.width = hasLogo ? "72.5%" : "93%";
+      footerStrip.style.width = "auto";
       footerStrip.style.margin = "0";
       footerStrip.style.padding = "0 10px";
       footerStrip.style.background = "transparent";
@@ -9901,12 +9947,12 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
       if (footerLeft) {
         footerLeft.style.color = "#FFFFFF";
         footerLeft.style.fontWeight = "700";
-        footerLeft.style.textShadow = "0 1px 3px rgba(0,0,0,0.75)";
+        footerLeft.style.textShadow = "0 1px 3px rgba(0,0,0,0.82)";
       }
       if (footerRight) {
         footerRight.style.color = "#FFFFFF";
         footerRight.style.fontWeight = "700";
-        footerRight.style.textShadow = "0 1px 3px rgba(0,0,0,0.75)";
+        footerRight.style.textShadow = "0 1px 3px rgba(0,0,0,0.82)";
       }
     } else {
       footerStrip.style.cssText = "";
@@ -10049,10 +10095,15 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
       });
       if (resp.ok) {
         const data = await resp.json();
-        if (data.pptx_download_url && state.currentResult) {
-          state.currentResult.pptx_download_url = data.pptx_download_url;
-          if (typeof syncDeckExportSplitButtonUi === "function") {
-            syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
+        if (state.currentResult) {
+          if (data.output_path) {
+            state.currentResult.output_path = data.output_path;
+          }
+          if (data.pptx_download_url) {
+            state.currentResult.pptx_download_url = data.pptx_download_url;
+            if (typeof syncDeckExportSplitButtonUi === "function") {
+              syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
+            }
           }
         }
       }
@@ -10122,9 +10173,14 @@ function renderTemplateCatalogGrid() {
           ${customActionsHtml}
           <div>
             <div class="m3-template-preview-box" style="${previewBg}">
-              <div style="height:16%; width:100%; background:${escapeHtml(t.primary_hex || "#003F87")}; border-bottom:2px solid ${escapeHtml(t.accent_hex || "#D4AF37")}; display:flex; align-items:center; justify-content:space-between; padding:0 8px; color:#FFFFFF; font-size:0.60rem; font-weight:800;">
-                <span>${escapeHtml(t.name.slice(0, 24))}</span>
-                <span>16:9</span>
+              <div style="height:16%; width:100%; position:relative; overflow:hidden; background:${escapeHtml(t.primary_hex || "#003F87")}; border-bottom:2px solid ${escapeHtml(t.accent_hex || "#D4AF37")}; display:flex; align-items:center; justify-content:space-between; padding:0 8px; color:#FFFFFF; font-size:0.60rem; font-weight:800;">
+                ${
+                  t.top_banner_url
+                    ? `<img src="${escapeHtml(t.top_banner_url)}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:fill; opacity:0.92;" />`
+                    : ""
+                }
+                <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">${escapeHtml(t.name.slice(0, 24))}</span>
+                <span style="position:relative; z-index:2; text-shadow:0 1px 2px rgba(0,0,0,0.45);">16:9</span>
               </div>
               <div style="padding:6px 8px; width:100%; display:grid; grid-template-columns:1.2fr 0.8fr; gap:5px; flex:1; align-items:center;">
                 <div class="m3-tpl-preview-safe-card" style="background:${escapeHtml(t.card_bg_hex || "#EFF6FF")}; border-left:3px solid ${escapeHtml(t.primary_hex || "#003F87")}; border-radius:4px; height:72%; padding:3px 5px; font-size:0.52rem; font-weight:800;">

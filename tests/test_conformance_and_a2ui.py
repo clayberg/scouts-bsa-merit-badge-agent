@@ -275,9 +275,14 @@ def test_v5_slide_typography_alignment_and_borderless_cover_and_headers(tmp_path
             is_footer = bsh.top >= Inches(7.0)
             for p_i, para in enumerate(bsh.text_frame.paragraphs):
                 if para.text.strip():
-                    assert para.alignment == PP_ALIGN.LEFT, (
-                        f"Slide {idx} paragraph {p_i} ('{para.text[:30]}...') must be left-justified, got {para.alignment}"
-                    )
+                    if is_footer:
+                        assert para.alignment in (PP_ALIGN.LEFT, PP_ALIGN.RIGHT), (
+                            f"Slide {idx} footer paragraph {p_i} must be left- or right-justified, got {para.alignment}"
+                        )
+                    else:
+                        assert para.alignment == PP_ALIGN.LEFT, (
+                            f"Slide {idx} paragraph {p_i} ('{para.text[:30]}...') must be left-justified, got {para.alignment}"
+                        )
                     for run in para.runs:
                         if run.font.size and not is_footer:
                             assert run.font.size.pt >= 12.0, f"Slide {idx} font too small: {run.font.size.pt}pt"
@@ -2711,6 +2716,26 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
     assert 'stageEl.style.aspectRatio = "auto"' not in ui_js
     assert "slide-density-micro-compact" in ui_css
     assert "slide-density-micro-compact" in ui_js
+
+    # 7. Verify shortened built-in template names, composite master banner extraction, flush-right silhouette footer, Dark Mode footer lock, and Keys shortcut button
+    from src.tools.template_engine import BUILTIN_TEMPLATES, get_template_profile
+
+    builtin_names = {t.template_id: t.name for t in BUILTIN_TEMPLATES}
+    assert builtin_names["default_workbench"] == "Workbench Classic"
+    assert builtin_names["scouting_america_250"] == "BSA America 250™"
+    assert builtin_names["scouting_america_forest_sunrise"] == "BSA Forest Sunrise"
+    assert builtin_names["scouting_america_topographic"] == "BSA Topographic"
+    assert builtin_names["scouting_america_high_adventure_rock"] == "BSA High Adventure"
+    assert builtin_names["classic_outdoor_silhouette_navy"] == "BSA Outdoor Adventure"
+    assert builtin_names["classic_fleur_crimson_crest"] == "BSA Fleur-de-Lis Crest"
+    assert builtin_names["wilderness_camp_timber"] == "BSA Summer Camp"
+
+    outdoor_prof = get_template_profile("classic_outdoor_silhouette_navy")
+    assert outdoor_prof.safe_bounds.footer_max_width_in == 12.133
+    assert "m3-shortcuts-key-btn" in ui_html
+    assert "max-width: 192px;" in ui_css
+    assert "background: #F1EFEA;" in ui_css
+
 
 
 

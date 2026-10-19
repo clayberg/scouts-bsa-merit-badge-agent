@@ -178,6 +178,7 @@ class SlideRegenerateRequest(BaseModel):
     )
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional counselor personalization info.")
     output_path: Optional[str] = Field(None, description="Optional existing .pptx output path to update.")
+    template_id: Optional[str] = Field("default_workbench", description="Optional active PowerPoint template ID.")
 
 
 class WebImageSearchRequest(BaseModel):
@@ -936,6 +937,11 @@ async def api_regenerate_slide(
                 for s in slides_copy
                 if not s.get("hidden")
             ]
+            eff_tpl_id = str(
+                req.template_id
+                or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "")
+                or "default_workbench"
+            ).strip() or "default_workbench"
             build_res = await asyncio.to_thread(
                 generate_bsa_slide_deck_pptx,
                 PowerPointBuildRequest(
@@ -943,6 +949,7 @@ async def api_regenerate_slide(
                     slides=visible_slides,
                     counselor_info=c_info,
                     output_path=out_file,
+                    template_id=eff_tpl_id,
                 ),
             )
             if build_res.get("output_path"):
@@ -1004,6 +1011,7 @@ class SlidePolishNotesRequest(BaseModel):
     )
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
+    template_id: Optional[str] = Field("default_workbench", description="Optional active PowerPoint template ID.")
 
 
 class SlidePolishDeckBatchRequest(BaseModel):
@@ -1013,6 +1021,7 @@ class SlidePolishDeckBatchRequest(BaseModel):
     force_refresh: bool = Field(False, description="Bypass SQLite cache and regenerate all slides.")
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
+    template_id: Optional[str] = Field("default_workbench", description="Optional active PowerPoint template ID.")
 
 
 class SlidePolishEstimateRequest(BaseModel):
@@ -1028,6 +1037,7 @@ class GoogleSlidesExportRequest(BaseModel):
     pptx_download_url: Optional[str] = Field(None, description="Web URL or local path to the generated .pptx deck.")
     output_path: Optional[str] = Field(None, description="Optional filesystem path to the .pptx file.")
     beautification_tier: str = Field("BEAUTIFIED", description="Deck visual tier.")
+    template_id: Optional[str] = Field("default_workbench", description="Active PowerPoint template ID.")
     storyboard_slides: Optional[List[Dict[str, Any]]] = Field(None, description="Optional slide array if PPTX needs regeneration.")
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     user_access_token: Optional[str] = Field(None, description="Optional OAuth 2.0 Bearer token with drive.file scope.")
@@ -1758,6 +1768,11 @@ async def api_polish_slide_speaker_notes(
                 for s in slides_copy
                 if not s.get("hidden")
             ]
+            eff_tpl_id = str(
+                req.template_id
+                or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "")
+                or "default_workbench"
+            ).strip() or "default_workbench"
             build_res = await asyncio.to_thread(
                 generate_bsa_slide_deck_pptx,
                 PowerPointBuildRequest(
@@ -1765,6 +1780,7 @@ async def api_polish_slide_speaker_notes(
                     slides=visible_slides,
                     counselor_info=c_info,
                     output_path=out_file,
+                    template_id=eff_tpl_id,
                 ),
             )
             if build_res.get("output_path"):
@@ -1877,6 +1893,11 @@ async def api_polish_deck_speaker_notes_batch(
                 for s in slides_copy
                 if not s.get("hidden")
             ]
+            eff_tpl_id = str(
+                req.template_id
+                or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "")
+                or "default_workbench"
+            ).strip() or "default_workbench"
             build_res = await asyncio.to_thread(
                 generate_bsa_slide_deck_pptx,
                 PowerPointBuildRequest(
@@ -1884,6 +1905,7 @@ async def api_polish_deck_speaker_notes_batch(
                     slides=visible_slides,
                     counselor_info=c_info,
                     output_path=out_file,
+                    template_id=eff_tpl_id,
                 ),
             )
             if build_res.get("output_path"):
@@ -2295,38 +2317,53 @@ async def api_export_slide_deck_to_google_slides(
 
     t_start = time.perf_counter()
     pptx_file: Optional[Path] = None
+    eff_tpl_id = str(
+        req.template_id
+        or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "")
+        or "default_workbench"
+    ).strip() or "default_workbench"
 
-    if req.output_path and Path(req.output_path).exists():
-        pptx_file = Path(req.output_path)
-    elif req.pptx_download_url:
-        clean_rel = req.pptx_download_url.split("?")[0].lstrip("/")
-        cand = PROJECT_ROOT / clean_rel
-        if cand.exists():
-            pptx_file = cand
-        elif (GENERATED_DECKS_DIR / Path(clean_rel).name).exists():
-            pptx_file = GENERATED_DECKS_DIR / Path(clean_rel).name
+    # When storyboard_slides are supplied, rebuild .pptx with the active template_id so any template changes or slide edits are guaranteed in Google Slides
+    if req.storyboard_slides:
+        try:
+            c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
+            out_file = str(
+                GENERATED_DECKS_DIR
+                / f"{req.badge_name.strip().replace(' ', '_')}_{eff_tpl_id}_{req.beautification_tier}_GoogleSlides_Export.pptx"
+            )
+            visible_slides = []
+            for s in req.storyboard_slides:
+                if s.get("hidden"):
+                    continue
+                s_copy = dict(s)
+                s_copy["template_id"] = eff_tpl_id
+                visible_slides.append(SlideSpec(**{k: v for k, v in s_copy.items() if k in SlideSpec.model_fields}))
+            if visible_slides:
+                build_res = await asyncio.to_thread(
+                    generate_bsa_slide_deck_pptx,
+                    PowerPointBuildRequest(
+                        badge_name=req.badge_name,
+                        slides=visible_slides,
+                        counselor_info=c_info,
+                        output_path=out_file,
+                        template_id=eff_tpl_id,
+                    ),
+                )
+                if build_res.get("output_path") and Path(build_res["output_path"]).exists():
+                    pptx_file = Path(build_res["output_path"])
+        except Exception as exc:
+            logger.warning("Rebuild before export-gslides warning: %s", exc)
 
-    if (not pptx_file or not pptx_file.exists()) and req.storyboard_slides:
-        c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
-        out_file = str(
-            GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{req.beautification_tier}_GoogleSlides_Export.pptx"
-        )
-        visible_slides = [
-            SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
-            for s in req.storyboard_slides
-            if not s.get("hidden")
-        ]
-        build_res = await asyncio.to_thread(
-            generate_bsa_slide_deck_pptx,
-            PowerPointBuildRequest(
-                badge_name=req.badge_name,
-                slides=visible_slides,
-                counselor_info=c_info,
-                output_path=out_file,
-            ),
-        )
-        if build_res.get("output_path") and Path(build_res["output_path"]).exists():
-            pptx_file = Path(build_res["output_path"])
+    if not pptx_file or not pptx_file.exists():
+        if req.pptx_download_url:
+            clean_rel = req.pptx_download_url.split("?")[0].lstrip("/")
+            cand = PROJECT_ROOT / clean_rel
+            if cand.exists():
+                pptx_file = cand
+            elif (GENERATED_DECKS_DIR / Path(clean_rel).name).exists():
+                pptx_file = GENERATED_DECKS_DIR / Path(clean_rel).name
+        if (not pptx_file or not pptx_file.exists()) and req.output_path and Path(req.output_path).exists():
+            pptx_file = Path(req.output_path)
 
     if not pptx_file or not pptx_file.exists():
         # Fallback to most recent .pptx matching badge_name in GENERATED_DECKS_DIR
@@ -3695,6 +3732,7 @@ async def api_apply_powerpoint_template(
         if not s.get("hidden")
     ]
     rebuilt_pptx_url: Optional[str] = None
+    rebuilt_output_path: Optional[str] = None
     if visible_specs:
         c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
         out_file = str(
@@ -3711,12 +3749,14 @@ async def api_apply_powerpoint_template(
             ),
         )
         if build_res.get("output_path"):
-            rebuilt_pptx_url = _to_web_asset_url(build_res["output_path"])
+            rebuilt_output_path = str(build_res["output_path"])
+            rebuilt_pptx_url = _to_web_asset_url(rebuilt_output_path)
 
     return {
         "status": "SUCCESS",
         "template": prof.model_dump(),
         "storyboard_slides": slides_list,
+        "output_path": rebuilt_output_path,
         "pptx_download_url": rebuilt_pptx_url,
     }
 

@@ -182,7 +182,7 @@ curl -s -X POST http://localhost:8080/mcp \
   -d '{"jsonrpc": "2.0", "id": 1, "method": "tools/list", "params": {}}'
 ```
 
-### 6.2 Build a Deck with the `Scouting America | America 250™` Template
+### 6.2 Build a Deck with the `BSA America 250™` Template
 ```bash
 curl -s -X POST http://localhost:8080/mcp \
   -H "Content-Type: application/json" \

@@ -2470,10 +2470,12 @@ def generate_bsa_slide_deck_pptx(
         )
 
         # ---------------------------------------------------------------------
-        # ZONE 1: Borderless Centered Slide Title [x: 0.60..12.733, y: 0.20..1.02]
+        # ZONE 1: Borderless Centered Slide Title [x: 0.60..12.733, y: header_top_in]
         # ---------------------------------------------------------------------
+        hdr_top_in = float(getattr(safe_bounds, "header_top_in", 0.20) or 0.20)
+        hdr_h_in = float(getattr(safe_bounds, "header_height_in", 0.82) or 0.82)
         header_box = content_slide.shapes.add_textbox(
-            Inches(0.60), Inches(0.20), Inches(12.133), Inches(0.82)
+            Inches(0.60), Inches(hdr_top_in), Inches(12.133), Inches(hdr_h_in)
         )
         htf = header_box.text_frame
         htf.word_wrap = True
@@ -2705,29 +2707,49 @@ def generate_bsa_slide_deck_pptx(
         # ---------------------------------------------------------------------
         # ZONE 6: Footer Metadata Strip (Adapts to Template SafeCanvasBounds)
         # ---------------------------------------------------------------------
-        if not tpl_profile.bottom_silhouette_url:
-            f_top = float(safe_bounds.footer_top_in)
-            f_w = float(safe_bounds.footer_max_width_in)
-            footer_box = content_slide.shapes.add_textbox(Inches(0.60), Inches(f_top), Inches(f_w), Inches(0.28))
-            ftf = footer_box.text_frame
-            ftf.word_wrap = True
-            ftf.vertical_anchor = MSO_ANCHOR.TOP
-            fp = ftf.paragraphs[0]
-            if safe_bounds.suppress_native_footer and tpl_profile.bottom_bar_hex:
-                footer_rgb = get_contrasting_text_rgb(tpl_profile.bottom_bar_hex)
-            else:
-                footer_rgb = (148, 163, 184) if s_tier == "STUDIO" else ScoutsBSAPalette.MUTED_TEXT_RGB
-            _set_paragraph_runs(
-                fp,
-                f"Scouts BSA {badge_title} Merit Badge",
-                f"Slide {slide_num} of {total_deck_slides} • {req_tag}",
-                font_size_pt=13.0,
-                anchor_rgb=footer_rgb,
-                body_rgb=footer_rgb,
-                space_after_pt=0.0,
-                align=PP_ALIGN.LEFT,
-                separator=" • ",
-            )
+        f_left = float(getattr(safe_bounds, "footer_left_in", 0.60) or 0.60)
+        f_top = float(safe_bounds.footer_top_in)
+        f_w = float(safe_bounds.footer_max_width_in)
+        if tpl_profile.bottom_silhouette_url:
+            footer_rgb = (15, 23, 42) if s_tier == "STUDIO" and "_footer_banner" not in tpl_profile.bottom_silhouette_url else (255, 255, 255)
+        elif safe_bounds.suppress_native_footer and tpl_profile.bottom_bar_hex:
+            footer_rgb = get_contrasting_text_rgb(tpl_profile.bottom_bar_hex)
+        else:
+            footer_rgb = (148, 163, 184) if s_tier == "STUDIO" else ScoutsBSAPalette.MUTED_TEXT_RGB
+
+        left_w = round(f_w * 0.54, 3)
+        right_w = round(f_w * 0.44, 3)
+        right_x = round(f_left + f_w - right_w, 3)
+
+        footer_left_box = content_slide.shapes.add_textbox(Inches(f_left), Inches(f_top), Inches(left_w), Inches(0.28))
+        fl_tf = footer_left_box.text_frame
+        fl_tf.word_wrap = True
+        fl_tf.vertical_anchor = MSO_ANCHOR.TOP
+        _set_paragraph_runs(
+            fl_tf.paragraphs[0],
+            f"Scouts BSA {badge_title} Merit Badge",
+            "",
+            font_size_pt=12.5,
+            anchor_rgb=footer_rgb,
+            body_rgb=footer_rgb,
+            space_after_pt=0.0,
+            align=PP_ALIGN.LEFT,
+        )
+
+        footer_right_box = content_slide.shapes.add_textbox(Inches(right_x), Inches(f_top), Inches(right_w), Inches(0.28))
+        fr_tf = footer_right_box.text_frame
+        fr_tf.word_wrap = True
+        fr_tf.vertical_anchor = MSO_ANCHOR.TOP
+        _set_paragraph_runs(
+            fr_tf.paragraphs[0],
+            f"Slide {slide_num} of {total_deck_slides} • {req_tag}",
+            "",
+            font_size_pt=12.5,
+            anchor_rgb=footer_rgb,
+            body_rgb=footer_rgb,
+            space_after_pt=0.0,
+            align=PP_ALIGN.RIGHT,
+        )
 
         # ---------------------------------------------------------------------
         # Presenter Instructor Notes

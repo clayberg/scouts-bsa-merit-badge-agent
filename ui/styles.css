@@ -1046,10 +1046,10 @@ html, body {
 }
 
 .m3-slide-footer-strip {
-  background: var(--md-sys-color-surface-container);
+  background: #F1EFEA;
   padding: 6px 20px;
   font-size: 0.70rem;
-  color: var(--md-sys-color-on-surface-variant);
+  color: #475569;
   display: flex;
   justify-content: space-between;
   flex-shrink: 0;
@@ -6787,13 +6787,51 @@ body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
   position: relative;
   display: inline-flex;
   align-items: stretch;
-  flex-shrink: 0;
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: 192px;
 }
 
 .m3-stage-template-split-group .m3-split-main-btn {
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-right: 1px solid rgba(0, 63, 135, 0.18) !important;
+  min-width: 0;
+  max-width: 168px;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#stage-template-pill-label {
+  display: inline-block;
+  max-width: 132px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+
+.m3-shortcuts-key-btn {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+  color: #003F87 !important;
+  font-weight: 800 !important;
+  background: rgba(0, 63, 135, 0.08);
+  border: 1px solid rgba(0, 63, 135, 0.24) !important;
+}
+
+.m3-shortcuts-key-btn:hover {
+  background: rgba(0, 63, 135, 0.16) !important;
+  color: #002855 !important;
+}
+
+body.m3-dark-mode .m3-shortcuts-key-btn {
+  color: #93C5FD !important;
+  background: rgba(59, 130, 246, 0.18) !important;
+  border-color: rgba(147, 197, 253, 0.38) !important;
 }
 
 .m3-stage-template-split-group .m3-split-caret-btn {
