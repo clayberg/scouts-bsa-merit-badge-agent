@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261020b" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261020c" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -483,16 +483,16 @@
 
         <div class="m3-hero-kpis">
           <div class="m3-kpi-pill">
-            <div class="m3-kpi-value" id="kpi-slide-count">--</div>
             <div class="m3-kpi-label">Total Slides</div>
+            <div class="m3-kpi-value" id="kpi-slide-count">--</div>
           </div>
           <div class="m3-kpi-pill">
-            <div class="m3-kpi-value" id="kpi-subreq-count">--</div>
             <div class="m3-kpi-label">Requirements</div>
+            <div class="m3-kpi-value" id="kpi-subreq-count">--</div>
           </div>
           <div class="m3-kpi-pill">
-            <div class="m3-kpi-value" id="kpi-polish-tier">Warm Cream</div>
             <div class="m3-kpi-label">Slide Theme</div>
+            <div class="m3-kpi-value" id="kpi-polish-tier">Warm Cream</div>
           </div>
         </div>
       </div>
@@ -966,16 +966,14 @@
           <!-- IN-STAGE SPLIT-SCREEN PRESENTER CONSOLE DOCK (WORKS IN BOTH PREVIEW & FULLSCREEN MODES) -->
           <aside class="m3-presenter-console-dock hidden" id="stage-presenter-console-dock" aria-label="In-Stage Split-Screen Presenter Console">
             <div class="m3-pc-dock-header">
-              <div style="display:flex; align-items:center; gap:5px; min-width:0;">
-                <span class="m3-pc-badge-pill">PRESENTER</span>
+              <div style="display:flex; align-items:center; gap:6px; min-width:0;">
+                <span class="m3-pc-badge-pill">PRESENTER VIEW</span>
                 <span class="m3-pc-dock-timer" id="pc-dock-timer" title="Click to Start/Pause Session Timer">04:18</span>
               </div>
-              <div style="display:flex; align-items:center; gap:4px; flex-shrink:0;">
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-dec" title="Decrease Teleprompter Font Size">A−</button>
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-inc" title="Increase Teleprompter Font Size">A+</button>
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-toggle-float" title="Toggle Draggable Floating Presenter Overlay vs. Right-of-Slide Dock">🪟 Float</button>
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-popout-window" title="Pop Out Speaker Notes to a Floating 2nd Monitor Window">↗ 2nd Win</button>
-                <button type="button" class="m3-pc-mini-btn m3-pc-close-btn" id="btn-pc-close-console" title="Exit Presenter View (Shortcut: P)">✕</button>
+              <div style="display:flex; align-items:center; gap:5px; flex-shrink:0;">
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-toggle-float" title="Toggle Draggable Floating Presenter Window vs. Right-of-Slide Dock">🪟 Float</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-popout-window" title="Pop Out Speaker Notes to a Floating 2nd Monitor Window">↗ 2nd Monitor</button>
+                <button type="button" class="m3-pc-mini-btn m3-pc-close-btn" id="btn-pc-close-console" title="Close Presenter View (Shortcut: P)" aria-label="Close Presenter View">✕</button>
               </div>
             </div>
 
@@ -990,6 +988,8 @@
             <div class="m3-pc-nav-grid">
               <button type="button" class="m3-pc-nav-btn m3-pc-nav-prev" id="btn-pc-prev-slide">◀ Prev Slide</button>
               <button type="button" class="m3-pc-nav-btn m3-pc-nav-next" id="btn-pc-next-slide">Next Slide ▶</button>
+              <button type="button" class="m3-pc-mini-btn m3-pc-font-btn" id="btn-pc-font-dec" title="Decrease Teleprompter Font Size">A−</button>
+              <button type="button" class="m3-pc-mini-btn m3-pc-font-btn" id="btn-pc-font-inc" title="Increase Teleprompter Font Size">A+</button>
             </div>
 
             <div class="m3-pc-dock-notes" id="pc-dock-notes-body"></div>
@@ -3051,6 +3051,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261020b"></script>
+  <script src="/ui/app.js?v=20261020c"></script>
 </body>
 </html>

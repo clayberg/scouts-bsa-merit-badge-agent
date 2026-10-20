@@ -2929,6 +2929,20 @@ def test_workstreams_1_to_4_topographic_concurrency_mcp_and_modal_controller(tmp
     assert "splitMarkdownTableRow" in ui_js
     assert "@media (max-width: 1480px)" in ui_css
 
+    # 9. Verify 2-Tier Presenter View Header + Close Button, Dark Mode + Add Slide Glyph, and Label-First KPI Pill Order
+    assert 'id="btn-pc-close-console"' in ui_html
+    assert "m3-pc-nav-grid" in ui_html
+    assert ".m3-pc-nav-grid" in ui_css
+    assert "435px" in ui_css
+    assert "450px" in ui_css
+    assert "m3-thumb-micro-pill-add" in ui_js
+    assert "m3-thumb-plus-glyph" in ui_js
+    assert "body.m3-dark-mode .m3-thumb-micro-pill-add" in ui_css
+    assert ui_html.index(">Total Slides<") < ui_html.index('id="kpi-slide-count"')
+    assert ui_html.index(">Requirements<") < ui_html.index('id="kpi-subreq-count"')
+    assert ui_html.index(">Slide Theme<") < ui_html.index('id="kpi-polish-tier"')
+
+
 
 
 

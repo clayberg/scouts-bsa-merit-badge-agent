@@ -2541,7 +2541,7 @@ function renderFilmstrip(slides) {
         <div class="m3-thumb-bottom-bar" style="margin-top:5px;">
           <span class="m3-thumb-arch-pill">🪪 Title Slide</span>
           <div class="m3-thumb-customizer-cluster" role="group" aria-label="Slide Deck Customizer Controls">
-            <button type="button" class="m3-thumb-micro-pill" data-thumb-custom-act="insert" title="Insert a custom local camp or troop slide after this slide (updates .PPTX)">➕</button>
+            <button type="button" class="m3-thumb-micro-pill m3-thumb-micro-pill-add" data-thumb-custom-act="insert" title="Insert a custom local camp or troop slide after this slide (updates .PPTX)" aria-label="Insert custom slide"><span class="m3-thumb-plus-glyph">+</span></button>
           </div>
         </div>
       `
@@ -2627,11 +2627,11 @@ function renderFilmstrip(slides) {
         <div class="m3-thumb-customizer-cluster" role="group" aria-label="Active Slide Customizer Actions">
           <button
             type="button"
-            class="m3-thumb-micro-pill"
+            class="m3-thumb-micro-pill m3-thumb-micro-pill-add"
             data-thumb-custom-act="insert"
             title="Insert a custom local camp or troop slide after this slide (updates .PPTX)"
             aria-label="Insert custom slide"
-          >➕</button>
+          ><span class="m3-thumb-plus-glyph">+</span></button>
           <button
             type="button"
             class="m3-thumb-micro-pill ${isHidden ? "is-toggled" : ""}"
@@ -6948,7 +6948,7 @@ function togglePresenterFloatingMode(forceFloat) {
   stageWrapper.classList.toggle("is-presenter-floating", nextFloat);
   const floatBtn = document.getElementById("btn-pc-toggle-float");
   if (floatBtn) {
-    floatBtn.textContent = nextFloat ? "📌 Dock Right" : "🪟 Float";
+    floatBtn.textContent = nextFloat ? "📌 Dock" : "🪟 Float";
     floatBtn.title = nextFloat
       ? "Dock Presenter Console to the right of the slide"
       : "Float Presenter Console as a draggable overlay window";
