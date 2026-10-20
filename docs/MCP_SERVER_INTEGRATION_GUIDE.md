@@ -122,7 +122,7 @@ External agents can read structured catalog, requirement, template, and workspac
 | `bsa://catalog/badges` | Official 144 Merit Badges Catalog | All 144 Merit Badges with `name`, `slug`, `category`, `is_eagle_required`, `is_favorite`, and `emblem_url`. |
 | `bsa://badges/{badge_name}/requirements` | Official Verbatim Merit Badge Requirements | Official verbatim requirements tree and sub-requirements (`1a`, `1b`, ...) for any badge (e.g., `bsa://badges/First Aid/requirements`). |
 | `bsa://badges/{badge_name}/images` | Curated Vision-Verified Pamphlet & Nano Banana Visuals | All pre-bundled Vision-verified pamphlet figures and Nano Banana illustrations for the badge. |
-| `bsa://templates/catalog` | PowerPoint Slide Templates Catalog | All 8 built-in curated Scouting templates plus any custom uploaded/URL templates, including `SafeCanvasBounds` and brand palettes. |
+| `bsa://templates/catalog` | PowerPoint Slide Templates Catalog | All 17 built-in curated Scouting templates across 7 Style Families plus any custom uploaded/URL templates, including `SafeCanvasBounds` and brand palettes. |
 | `bsa://workspaces/list` | Saved Counselor Deck Workspaces | Metadata list of all saved counselor deck workspaces (`workspace_id`, `workspace_title`, `badge_name`, `session_label`, `camp_bundle_tag`, `slide_count`, `scout_count`). |
 | `bsa://workspaces/{workspace_id}` | Full Counselor Deck Workspace State | Complete storyboard slides, speaker notes, selected PowerPoint template, and Patrol Blue Card (`#34124`) Scout roster. |
 
@@ -168,7 +168,7 @@ Section 3 of the **`🤖 MCP Hub`** provides a full-height Interactive MCP Playg
 
 - **Unified Capability Selector**: Pick any of the 12 Tools (`tools/call`), 6 `bsa://` Resources (`resources/read`), or 4 Guided Prompts (`prompts/get`) from the grouped selector, or click any card in Section 2 to auto-populate the JSON arguments editor and execute immediately.
 - **Dual-Mode Output Toggle (`[📊 Visual Card Preview | { } Raw JSON-RPC 2.0]`)**:
-  - **`📊 Visual Card Preview`**: Renders human-friendly Material 3 summary cards for Merit Badge search results (with patch emblems and Eagle-Required pills), pamphlet BM25+Vector passages, template safe-zone profiles, saved deck workspaces, Blue Card rosters, and multi-step guided prompt workflows.
+  - **`📊 Visual Card Preview`**: Renders human-friendly Material 3 summary cards for Merit Badge search results (with patch emblems and Eagle-Required pills), pamphlet BM25+Vector passages (with badge emblems), template safe-zone profiles (with inline color dots), saved deck workspaces (with badge emblems and template color dots), Blue Card rosters, and multi-step guided prompt workflows.
   - **`{ } Raw JSON-RPC 2.0`**: Displays the exact JSON-RPC 2.0 response envelope returned by `POST /mcp`, alongside a live RPC latency and status pill (`200 OK • X ms`) and a 1-click **`📋 Copy Response`** button.
 
 ---

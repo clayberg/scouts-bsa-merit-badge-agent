@@ -2914,6 +2914,9 @@ def test_workstreams_1_to_4_topographic_concurrency_mcp_and_modal_controller(tmp
     assert ".m3-thumb-micro-pill" in ui_css
     assert "body.m3-dark-mode .m3-session-timer-cluster" in ui_css
     assert "body.m3-dark-mode .m3-stage-template-dropdown-menu" in ui_css
+    assert "preserveActiveOutlinePosition" in ui_js
+    assert "m3-workspace-card-tpl-pill" in ui_js
+
 
 
 

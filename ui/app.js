@@ -7933,12 +7933,39 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
   }
 
   const act = String(action || "").trim().toLowerCase();
-  const refreshStageImmediately = () => {
+  const refreshStageImmediately = (preserveActiveOutlinePosition = false) => {
+    const listEl = document.getElementById("slide-filmstrip-list");
+    const prevAnchorEl = preserveActiveOutlinePosition
+      ? listEl?.querySelector(".m3-slide-thumb.active .m3-thumb-customizer-cluster") ||
+        listEl?.querySelector(".m3-slide-thumb.active")
+      : null;
+    const prevAnchorTop = prevAnchorEl ? prevAnchorEl.getBoundingClientRect().top : null;
+
     renderFilmstrip(slides);
     renderRequirementJumpBar(slides);
     renderActiveSlide(state.activeSlideIdx);
-    const activeThumb = document.querySelector("#slide-filmstrip-list .m3-slide-thumb.active");
-    activeThumb?.scrollIntoView({ block: "nearest" });
+
+    if (preserveActiveOutlinePosition && listEl && prevAnchorTop !== null) {
+      const nextAnchorEl =
+        listEl.querySelector(".m3-slide-thumb.active .m3-thumb-customizer-cluster") ||
+        listEl.querySelector(".m3-slide-thumb.active");
+      if (nextAnchorEl) {
+        const nextAnchorTop = nextAnchorEl.getBoundingClientRect().top;
+        const deltaY = nextAnchorTop - prevAnchorTop;
+        if (Math.abs(deltaY) > 0.5) {
+          listEl.scrollTop = Math.max(0, listEl.scrollTop + deltaY);
+        }
+      }
+    }
+
+    const activeThumb = listEl?.querySelector(".m3-slide-thumb.active");
+    if (listEl && activeThumb) {
+      const listRect = listEl.getBoundingClientRect();
+      const thumbRect = activeThumb.getBoundingClientRect();
+      if (thumbRect.top < listRect.top || thumbRect.bottom > listRect.bottom) {
+        activeThumb.scrollIntoView({ block: "nearest" });
+      }
+    }
   };
 
   // Immediate (0ms) optimistic client-side updates for Move Up, Move Down, Hide/Unhide, Hide Prereqs, and Insert Slide
@@ -7949,7 +7976,7 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
     slides[idx - 1] = slides[idx];
     slides[idx] = tmp;
     state.activeSlideIdx = idx - 1;
-    refreshStageImmediately();
+    refreshStageImmediately(true);
     scheduleDebouncedDeckPptxSync(1200);
     return;
   }
@@ -7961,7 +7988,7 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
     slides[idx + 1] = slides[idx];
     slides[idx] = tmp;
     state.activeSlideIdx = idx + 1;
-    refreshStageImmediately();
+    refreshStageImmediately(true);
     scheduleDebouncedDeckPptxSync(1200);
     return;
   }
@@ -7970,7 +7997,7 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
     const idx = state.activeSlideIdx;
     if (idx < 0 || idx >= slides.length) return;
     slides[idx].hidden = !Boolean(slides[idx].hidden);
-    refreshStageImmediately();
+    refreshStageImmediately(true);
     scheduleDebouncedDeckPptxSync(1200);
     return;
   }
@@ -11837,8 +11864,11 @@ function renderSavedWorkspacesGrid() {
     .map((w) => {
       const isAct = w.workspace_id === state.activeWorkspaceId;
       const slug = badgeNameToEmblemSlug(w.badge_name || "First Aid");
-      const tplProf = (state.templateCatalog || []).find((t) => t.template_id === w.template_id);
-      const tplName = tplProf ? tplProf.name : "Workbench Classic";
+      const tplProf = (state.templateCatalog || []).find((t) => t.template_id === w.template_id) || {
+        template_id: w.template_id || "default_workbench",
+        name: "Workbench Classic",
+      };
+      const tplDisplayHtml = formatTemplateNameWithColorDotHtml(tplProf, 9);
       const updatedLabel = formatWorkspaceTimestamp(w.updated_at);
       return `
         <div class="m3-workspace-card ${isAct ? "active" : ""}">
@@ -11860,7 +11890,7 @@ function renderSavedWorkspacesGrid() {
               <span>&bull;</span>
               <span style="white-space:nowrap;">🪪 <strong>${w.scout_count || 0}</strong> Scouts in Roster</span>
               <span>&bull;</span>
-              <span style="white-space:nowrap;">🖼️ ${escapeHtml(tplName.slice(0, 24))}</span>
+              <span class="m3-workspace-card-tpl-pill" style="white-space:nowrap; display:inline-flex; align-items:center; gap:3px;">🖼️ ${tplDisplayHtml}</span>
               <span>&bull;</span>
               <span style="white-space:nowrap;">🕒 ${escapeHtml(updatedLabel)}</span>
             </div>
@@ -12473,7 +12503,7 @@ function renderMcpVisualCardPreview(rpcResponse, selVal) {
               <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
                 <span style="width:14px; height:14px; border-radius:50%; background:${escapeHtml(t.primary_hex || "#003F87")}; display:inline-block;"></span>
                 <span style="width:14px; height:14px; border-radius:50%; background:${escapeHtml(t.accent_hex || "#D4AF37")}; display:inline-block;"></span>
-                <strong style="font-size:0.76rem;">${escapeHtml(t.name)}</strong>
+                <strong style="font-size:0.76rem; display:inline-flex; align-items:center;">${formatTemplateNameWithColorDotHtml(t, 9)}</strong>
               </div>
               <div style="font-size:0.68rem; color:#64748B;">Safe Y &le; ${Number(t.safe_bounds?.content_bottom_max_in || 6.95).toFixed(2)}" • ${escapeHtml(t.template_id)}</div>
             </div>
@@ -12495,13 +12525,21 @@ function renderMcpVisualCardPreview(rpcResponse, selVal) {
         ${parsedPayload.workspaces
           .map((w) => {
             const wsSlug = badgeNameToEmblemSlug(w.badge_name || "First Aid");
+            const wsTplProf = (state.templateCatalog || []).find((t) => t.template_id === w.template_id) || {
+              template_id: w.template_id || "default_workbench",
+              name: "Workbench Classic",
+            };
+            const wsTplHtml = formatTemplateNameWithColorDotHtml(wsTplProf, 8);
             return `
             <div class="m3-mcp-visual-card">
               <div class="m3-mcp-visual-card-title" style="display:inline-flex; align-items:center; gap:6px;">
                 <img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(wsSlug)}.png" alt="" style="width:18px; height:18px;" />
                 <span>${escapeHtml(w.workspace_title || w.badge_name)}</span>
               </div>
-              <div style="font-size:0.7rem; color:#64748B;">🎞️ ${w.slide_count || 0} Slides • 📋 ${w.scout_count || 0} Scouts • 🖼️ ${escapeHtml(w.template_id || "default_workbench")}</div>
+              <div style="font-size:0.7rem; color:#64748B; display:flex; align-items:center; gap:4px; flex-wrap:wrap;">
+                <span>🎞️ ${w.slide_count || 0} Slides • 📋 ${w.scout_count || 0} Scouts •</span>
+                <span style="display:inline-flex; align-items:center; gap:3px;">🖼️ ${wsTplHtml}</span>
+              </div>
             </div>
           `;
           })

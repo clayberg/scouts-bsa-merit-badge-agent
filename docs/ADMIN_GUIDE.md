@@ -125,8 +125,8 @@ When you are reviewing a slide deck on the **16:9 Slide Stage** while an Admin S
 
 ### 2. Top Merit Badges & Anonymous Visual Swap Hotspots
 
-- **Top Merit Badges by Generation Volume**: Table ranking the most frequently generated Merit Badges with total runs, warm vs. cold run split, average build latency (`ms`), and average QA conformance score (`%`).
-- **Anonymous Visual Swap & Regeneration Hotspots**: Whenever a counselor uses the **Easy Slide Image Switcher** or Co-Design bar to replace a slide's default graphic, the Workbench records an anonymous swap event (`badge_name`, `req_number`, `event_type`, `from_image_id`, `to_image_id`). Each row includes a **`🔍 Open in Studio`** button that jumps directly to Tab 1 pre-filtered to that badge and requirement so maintainers can inspect the figure and promote a stronger default visual.
+- **Top Merit Badges by Generation Volume**: Table ranking the most frequently generated Merit Badges with circular `16x16` Merit Badge emblem icons (`m3-pill-badge-emblem`), total runs, warm vs. cold run split, average build latency (`ms`), and average QA conformance score (`%`).
+- **Anonymous Visual Swap & Regeneration Hotspots**: Whenever a counselor uses the **Easy Slide Image Switcher** or Co-Design bar to replace a slide's default graphic, the Workbench records an anonymous swap event (`badge_name`, `req_number`, `event_type`, `from_image_id`, `to_image_id`). Each row displays the badge's `16x16` emblem icon and includes a **`🔍 Open in Studio`** button that jumps directly to Tab 1 pre-filtered to that badge and requirement so maintainers can inspect the figure and promote a stronger default visual.
 
 ### 3. 6-Stage ADK Pipeline Latency Breakdown (`p50` / `p95` / `p99` ms + Histograms)
 
