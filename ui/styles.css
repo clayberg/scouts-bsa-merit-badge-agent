@@ -8338,3 +8338,423 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   border: 2px solid #000000 !important;
   color: #000000 !important;
 }
+
+/* ==========================================================================
+   SLIDE DECK UI/UX & GLOBAL STYLING PLAN (v2.0) — 16:9 WEB STAGE PARITY
+   ========================================================================== */
+
+/* 1. Customizer Sub-Expander & Quick Layout Style Controls */
+.m3-sub-expander {
+  margin-top: 8px;
+  border: 1px solid #CBD5E1;
+  border-radius: 10px;
+  background: #F8FAFC;
+  padding: 6px 10px;
+  font-size: 0.76rem;
+}
+
+.m3-sub-expander > summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #003F87;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.m3-sub-expander > summary::-webkit-details-marker {
+  display: none;
+}
+
+.m3-sub-expander > summary::after {
+  content: "▾";
+  font-size: 0.75rem;
+  color: #64748B;
+  transition: transform 0.16s ease;
+}
+
+.m3-sub-expander[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.m3-sub-expander-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #E2E8F0;
+}
+
+.m3-sub-expander-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.71rem;
+  font-weight: 700;
+  color: #334155;
+}
+
+.m3-select-sm {
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 7px;
+  border: 1px solid #CBD5E1;
+  background: #FFFFFF;
+  color: #0F172A;
+}
+
+.m3-sub-expander-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px dashed #CBD5E1;
+}
+
+.m3-btn-xs {
+  padding: 4px 9px !important;
+  font-size: 0.71rem !important;
+  font-weight: 800 !important;
+  border-radius: 7px !important;
+}
+
+/* Quick-Toggle Layout Style Row inside Stage [🖼️ Template | ▾] Dropdown */
+.m3-stage-style-quick-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+  padding: 4px 6px 8px;
+}
+
+.m3-stage-style-quick-btn {
+  padding: 5px 6px;
+  font-size: 0.70rem;
+  font-weight: 800;
+  border-radius: 7px;
+  border: 1px solid #CBD5E1;
+  background: #F8FAFC;
+  color: #1E293B;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.14s ease;
+  white-space: nowrap;
+}
+
+.m3-stage-style-quick-btn:hover {
+  border-color: #3B82F6;
+  background: #EFF6FF;
+  color: #003F87;
+}
+
+.m3-stage-style-quick-btn.active {
+  background: #003F87;
+  border-color: #003F87;
+  color: #FFFFFF;
+}
+
+/* External Patrol Scoreboard Bar (Positioned Above 16:9 Stage) */
+#slide-stage-wrapper > #stage-patrol-scoreboard {
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 1.5px solid #93C5FD;
+  background: linear-gradient(90deg, #EFF6FF 0%, #F8FAFC 100%);
+  padding: 6px 12px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.06);
+}
+
+/* 2. Clean Open Text Mode (data-text-container="CLEAN_OPEN") */
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-slide-card:not(.m3-quiz-reveal-card),
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-slide-step-card:not(.m3-quiz-reveal-card),
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-slide-bullet-row {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0.35rem 0.25rem !important;
+}
+
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-slide-card:not(.m3-quiz-reveal-card):not(:last-child),
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-slide-step-card:not(.m3-quiz-reveal-card):not(:last-child),
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-slide-bullet-row:not(:last-child) {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.28) !important;
+}
+
+/* Preserve column header visual structure on REQUIREMENTS_TRIAGE_MATRIX in Clean/Line modes */
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-triage-column-card,
+#widescreen-slide-stage[data-text-container="LEFT_ACCENT_LINE"] .m3-triage-column-card {
+  background: rgba(255, 255, 255, 0.55) !important;
+  border: none !important;
+  border-top: 3px solid var(--triage-col-accent, var(--slide-accent, #1E3A8A)) !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+/* 3. Editorial Left-Accent Line Mode (data-text-container="LEFT_ACCENT_LINE") */
+#widescreen-slide-stage[data-text-container="LEFT_ACCENT_LINE"] .m3-slide-card:not(.m3-quiz-reveal-card),
+#widescreen-slide-stage[data-text-container="LEFT_ACCENT_LINE"] .m3-slide-step-card:not(.m3-quiz-reveal-card),
+#widescreen-slide-stage[data-text-container="LEFT_ACCENT_LINE"] .m3-slide-bullet-row {
+  background: transparent !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left: 3.5px solid var(--slide-accent, #1E3A8A) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0.35rem 0.5rem 0.35rem 0.85rem !important;
+}
+
+/* Clean Lead-In Bullet Point Hierarchy for CLEAN_OPEN & LEFT_ACCENT_LINE */
+.m3-clean-point-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.45;
+}
+
+.m3-clean-point-marker {
+  color: var(--slide-accent, #1E3A8A);
+  font-weight: 900;
+  font-size: 1.02em;
+  line-height: 1.35;
+  flex-shrink: 0;
+}
+
+.m3-clean-point-lead {
+  font-weight: 800;
+  color: var(--slide-accent, #1E3A8A);
+}
+
+.m3-clean-point-body {
+  color: var(--slide-fg-ink, #0F172A);
+  font-weight: 500;
+}
+
+/* 4. Frameless Right-Hand Image (data-image-frame="FRAMELESS_CLEAN" & "SOFT_SHADOW") */
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] #stage-right-visual,
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] .m3-slide-right-visual,
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] .m3-slide-visual-card,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] #stage-right-visual,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] .m3-slide-right-visual,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] .m3-slide-visual-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] #stage-diagram-img,
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] #stage-visual-img,
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] .m3-slide-visual-img-wrap,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] #stage-diagram-img,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] #stage-visual-img,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] .m3-slide-visual-img-wrap {
+  border-radius: 10px;
+  border: none !important;
+}
+
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] #stage-diagram-img,
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] #stage-visual-img {
+  box-shadow: none !important;
+}
+
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] #stage-diagram-img,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] #stage-visual-img {
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.12) !important;
+}
+
+#widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] #stage-diagram-caption,
+#widescreen-slide-stage[data-image-frame="SOFT_SHADOW"] #stage-diagram-caption {
+  background: transparent !important;
+  border: none !important;
+  padding-top: 4px !important;
+}
+
+/* 5. Minimal Top Header & Requirement Subtitle (data-header-chrome="MINIMAL_ACCENT" & "COMPACT_SINGLE_LINE") */
+#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-magazine-badge,
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-magazine-badge {
+  display: none !important;
+}
+
+#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-header-band,
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-header-band {
+  background: transparent !important;
+  border-bottom: 2px solid var(--slide-accent, #1E3A8A) !important;
+  box-shadow: none !important;
+  padding-bottom: 6px !important;
+}
+
+#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-slide-title,
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-slide-title {
+  color: var(--slide-title-ink, #0F172A) !important;
+  text-shadow: none !important;
+}
+
+#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-req-strip-box,
+#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-req-banner,
+#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] .m3-slide-req-strip,
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-req-strip-box,
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-req-banner,
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] .m3-slide-req-strip {
+  background: transparent !important;
+  color: var(--slide-fg-muted, #334155) !important;
+  border: none !important;
+  border-left: 3px solid var(--slide-accent, #1E3A8A) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0.16rem 0.65rem !important;
+  margin-bottom: 0.35rem !important;
+  font-style: italic;
+}
+
+#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-req-verbatim,
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-req-verbatim {
+  color: inherit !important;
+  font-weight: 600 !important;
+}
+
+#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-req-verbatim {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 6. Hover-Revealed Floating Image Action Pills */
+#stage-right-visual #btn-stage-zoom-image,
+#stage-right-visual .m3-stage-zoom-pill,
+#stage-right-visual #stage-visual-source-badge,
+#stage-right-visual .m3-stage-visual-pill {
+  opacity: 0.18;
+  transition: opacity 0.18s ease;
+}
+
+#stage-right-visual:hover #btn-stage-zoom-image,
+#stage-right-visual:hover .m3-stage-zoom-pill,
+#stage-right-visual:hover #stage-visual-source-badge,
+#stage-right-visual:hover .m3-stage-visual-pill,
+#stage-right-visual:focus-within #btn-stage-zoom-image,
+#stage-right-visual:focus-within .m3-stage-zoom-pill,
+#stage-right-visual:focus-within #stage-visual-source-badge,
+#stage-right-visual:focus-within .m3-stage-visual-pill,
+#stage-right-visual:has(#stage-visual-pill-popover:not(.hidden)) #stage-visual-source-badge,
+#stage-right-visual:has(.m3-quick-image-popover:not(.hidden)) .m3-stage-visual-pill {
+  opacity: 1;
+}
+
+/* 7. Typography Scale Rules (data-typography-scale) */
+#widescreen-slide-stage[data-typography-scale="COMFORTABLE"] .m3-slide-card,
+#widescreen-slide-stage[data-typography-scale="COMFORTABLE"] .m3-slide-bullet-row {
+  font-size: 1.02rem;
+  line-height: 1.45;
+}
+
+#widescreen-slide-stage[data-typography-scale="LARGE_PROJECTOR"] .m3-slide-card,
+#widescreen-slide-stage[data-typography-scale="LARGE_PROJECTOR"] .m3-slide-bullet-row {
+  font-size: 1.14rem !important;
+  line-height: 1.48 !important;
+}
+
+#widescreen-slide-stage[data-typography-scale="LARGE_PROJECTOR"] #stage-slide-title {
+  font-size: 1.45rem !important;
+}
+
+#widescreen-slide-stage[data-typography-scale="COMPACT"] .m3-slide-card,
+#widescreen-slide-stage[data-typography-scale="COMPACT"] .m3-slide-bullet-row {
+  font-size: 0.92rem !important;
+  line-height: 1.38 !important;
+}
+
+/* 8. Compact Accent Safety Strip Mode (data-safety-banner="COMPACT_ACCENT") */
+#widescreen-slide-stage[data-safety-banner="COMPACT_ACCENT"] #stage-safety-bar {
+  background: transparent !important;
+  border: none !important;
+  border-top: 2px solid #DC2626 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 4px 2px 0 2px !important;
+  color: #B91C1C !important;
+}
+
+/* 9. Dark Mode & Sunlight Mode Support for Global Deck Style Controls & Stage Attributes */
+body.m3-dark-mode .m3-sub-expander {
+  background: #0F172A;
+  border-color: #334155;
+}
+
+body.m3-dark-mode .m3-sub-expander > summary {
+  color: #93C5FD;
+}
+
+body.m3-dark-mode .m3-sub-expander-grid {
+  border-top-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-sub-expander-grid label {
+  color: #CBD5E1;
+}
+
+body.m3-dark-mode .m3-select-sm {
+  background: #1E293B;
+  border-color: #475569;
+  color: #F8FAFC;
+}
+
+body.m3-dark-mode .m3-sub-expander-actions {
+  border-top-color: #334155;
+}
+
+body.m3-dark-mode .m3-template-studio-style-bar {
+  background: #0F172A !important;
+  border-bottom-color: #334155 !important;
+}
+
+body.m3-dark-mode .m3-template-studio-style-bar label {
+  color: #93C5FD !important;
+}
+
+body.m3-dark-mode .m3-stage-style-quick-btn {
+  background: #1E293B;
+  border-color: #334155;
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-stage-style-quick-btn:hover {
+  background: #334155;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-stage-style-quick-btn.active {
+  background: #2563EB;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode #slide-stage-wrapper > #stage-patrol-scoreboard {
+  background: #0F172A;
+  border-color: #3B82F6;
+  color: #F8FAFC;
+}
+
+body.high-contrast-sunlight .m3-sub-expander,
+body.high-contrast-sunlight .m3-select-sm,
+body.high-contrast-sunlight .m3-stage-style-quick-btn,
+body.high-contrast-sunlight .m3-template-studio-style-bar,
+body.high-contrast-sunlight #slide-stage-wrapper > #stage-patrol-scoreboard {
+  background: #FFFFFF !important;
+  border: 2px solid #000000 !important;
+  color: #000000 !important;
+}
+
+body.high-contrast-sunlight .m3-stage-style-quick-btn.active {
+  background: #000000 !important;
+  color: #FFFFFF !important;
+}
+

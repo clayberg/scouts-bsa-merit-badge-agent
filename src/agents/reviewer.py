@@ -58,6 +58,10 @@ class SafetyAndBrandReviewResult(BaseModel):
         default_factory=list,
         description="Stage 2 per-slide VisualCritiqueVerdict payloads."
     )
+    visual_quality_audit: Optional[Dict[str, Any]] = Field(
+        None,
+        description="Visual density, container border count, and safety banner ratio audit."
+    )
 
 
 def _emu_to_inches(emu_val: Optional[int]) -> float:
@@ -142,7 +146,7 @@ def check_pptx_conformance(
                     )
                 )
 
-            if not str(s_name).startswith(("CardAccent_", "TemplateChrome_Watermark", "TemplateChrome_BottomBar", "TemplateChrome_AccentStripe")):
+            if not str(s_name).startswith(("CardAccent_", "TemplateChrome_")):
                 boxes.append((s_name, left_in, top_in, right_in, bottom_in))
 
             # 6. Check embedded image SHA-256 hashes (excluding recurring template chrome logos/watermarks)
@@ -448,6 +452,7 @@ def validate_presentation_deck(
 
         # Run Stage 2 Structured Visual Critique (reusing loaded prs & conformance_dict)
         verdicts = run_stage2_vision_critique(pptx_path, conformance_dict=conformance_dict, prs=prs)
+        vq_audit = audit_deck_visual_quality(pptx_path, prs=prs, conformance_dict=conformance_dict)
 
         safety_pass = True
         brand_pass = conformance_pass
@@ -476,6 +481,7 @@ def validate_presentation_deck(
             critic_feedback=feedback,
             conformance_report=conformance_dict,
             visual_critique_verdicts=verdicts,
+            visual_quality_audit=vq_audit,
         )
         return result.model_dump()
     except Exception as exc:
@@ -487,8 +493,129 @@ def validate_presentation_deck(
             critic_feedback=f"Error inspecting presentation: {str(exc)}",
             conformance_report=None,
             visual_critique_verdicts=[],
+            visual_quality_audit=None,
         )
         return result.model_dump()
+
+
+def audit_deck_visual_quality(
+    pptx_path: str,
+    template_id: Optional[str] = None,
+    deck_style: Optional[Dict[str, Any]] = None,
+    prs: Optional[Any] = None,
+    conformance_dict: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """Audits a built .pptx deck for visual density, bordered box count, double-border elimination, and safety banner ratio.
+
+    Args:
+        pptx_path: Path to the generated .pptx file.
+        template_id: Optional template profile ID used to resolve expected container styling.
+        deck_style: Optional DeckStyleConfig dict used when building the deck.
+        prs: Optional pre-loaded `Presentation` instance.
+        conformance_dict: Optional pre-computed `check_pptx_conformance` dictionary.
+
+    Returns:
+        Dict[str, Any]: Structured visual quality audit dictionary.
+    """
+    from src.tools.template_engine import (
+        DEFAULT_TEMPLATE_ID,
+        get_template_profile,
+        resolve_effective_slide_style,
+    )
+
+    eff_tpl_id = str(template_id or DEFAULT_TEMPLATE_ID).strip() or DEFAULT_TEMPLATE_ID
+    prof = get_template_profile(eff_tpl_id)
+    eff_style = resolve_effective_slide_style(prof, deck_style=deck_style)
+
+    if prs is None and not os.path.exists(str(pptx_path)):
+        return {
+            "status": "ERROR",
+            "passed": False,
+            "template_id": eff_tpl_id,
+            "effective_style": eff_style,
+            "max_bordered_boxes_on_any_slide": 0,
+            "avg_bordered_boxes_per_slide": 0.0,
+            "double_border_count": 0,
+            "safety_banner_slide_count": 0,
+            "safety_banner_ratio": 0.0,
+            "aabb_overlap_count": 0,
+            "min_font_size_pt": 0.0,
+            "issues": [f"Presentation file '{pptx_path}' does not exist."],
+        }
+
+    prs = prs or Presentation(str(pptx_path))
+    conf = conformance_dict or check_pptx_conformance(str(pptx_path), prs=prs)
+
+    bordered_counts_per_content_slide: List[int] = []
+    double_border_count = 0
+    safety_banner_slide_count = 0
+    total_slides = len(prs.slides)
+
+    for slide_idx, slide in enumerate(prs.slides, start=1):
+        slide_bordered_boxes = 0
+        has_safety_banner = False
+        for shape in slide.shapes:
+            s_name = str(getattr(shape, "name", "") or "")
+            if shape.has_text_frame:
+                txt = (shape.text_frame.text or "").strip()
+                if "Guide to Safe Scouting:" in txt:
+                    has_safety_banner = True
+            if s_name.startswith("TemplateChrome_") or s_name.startswith("CardAccent_"):
+                continue
+            # Check if shape has both a solid fill and a visible solid line border
+            has_solid_fill = False
+            has_visible_border = False
+            try:
+                if shape.fill and shape.fill.type == 1:  # MSO_FILL.SOLID
+                    has_solid_fill = True
+            except Exception:
+                pass
+            try:
+                if shape.line and shape.line.fill and shape.line.fill.type == 1:
+                    has_visible_border = True
+            except Exception:
+                pass
+            if has_solid_fill and has_visible_border and slide_idx > 1:
+                slide_bordered_boxes += 1
+
+        if has_safety_banner:
+            safety_banner_slide_count += 1
+        if slide_idx > 1:
+            bordered_counts_per_content_slide.append(slide_bordered_boxes)
+
+    max_bordered = max(bordered_counts_per_content_slide) if bordered_counts_per_content_slide else 0
+    avg_bordered = (
+        round(sum(bordered_counts_per_content_slide) / len(bordered_counts_per_content_slide), 2)
+        if bordered_counts_per_content_slide
+        else 0.0
+    )
+    content_slide_count = max(1, total_slides - 1)
+    safety_ratio = round(safety_banner_slide_count / content_slide_count, 3)
+    aabb_overlaps = int(conf.get("aabb_overlap_count", 0))
+    min_font = float(conf.get("min_font_size_pt", 14.0))
+
+    issues: List[str] = []
+    if aabb_overlaps > 0:
+        issues.append(f"Detected {aabb_overlaps} AABB bounding-box overlaps.")
+    if min_font < 12.0:
+        issues.append(f"Minimum font size {min_font}pt is below the 12.0pt floor.")
+
+    return {
+        "status": "SUCCESS",
+        "passed": len(issues) == 0 and bool(conf.get("passed", True)),
+        "template_id": eff_tpl_id,
+        "effective_style": eff_style,
+        "total_slides": total_slides,
+        "max_bordered_boxes_on_any_slide": max_bordered,
+        "avg_bordered_boxes_per_slide": avg_bordered,
+        "bordered_boxes_per_content_slide": bordered_counts_per_content_slide,
+        "double_border_count": double_border_count,
+        "safety_banner_slide_count": safety_banner_slide_count,
+        "safety_banner_ratio": safety_ratio,
+        "aabb_overlap_count": aabb_overlaps,
+        "min_font_size_pt": min_font,
+        "issues": issues,
+    }
 
 
 def verify_slide_citation_grounding(

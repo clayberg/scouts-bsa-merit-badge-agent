@@ -91,7 +91,72 @@ class TemplateProfile(BaseModel):
     corner_logo_url: str = Field("", description="Optional bottom-right branding lockup PNG URL.")
     corner_logo_dark_url: str = Field("", description="Optional white bottom-right lockup PNG URL for Dark Slate mode.")
     top_banner_url: str = Field("", description="Optional top header crest/banner PNG URL.")
+    default_text_container_style: str = Field(
+        "CLEAN_OPEN",
+        description="Default text container style: CLEAN_OPEN, LEFT_ACCENT_LINE, or BOXED_CARDS.",
+    )
+    default_image_frame_style: str = Field(
+        "FRAMELESS_CLEAN",
+        description="Default image frame style: FRAMELESS_CLEAN, SOFT_SHADOW, or FRAMED_CARD.",
+    )
+    default_header_chrome_style: str = Field(
+        "MINIMAL_ACCENT",
+        description="Default header chrome style: MINIMAL_ACCENT, COMPACT_SINGLE_LINE, or FULL_BANNER.",
+    )
     safe_bounds: SafeCanvasBounds = Field(default_factory=SafeCanvasBounds)
+
+    def to_dict(self) -> Dict[str, Any]:
+        """Serializes the TemplateProfile to a plain dictionary including default style fields."""
+        return self.model_dump()
+
+
+DEFAULT_TEMPLATE_ID = "default_workbench"
+LEGACY_WORKBENCH_TEMPLATE_ID = "default_workbench"
+DEFAULT_FACTORY_TEMPLATE_ID = "bsa_scouting_america"
+
+VALID_LAYOUT_STYLE_PRESETS = ("AUTO_TEMPLATE", "CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS")
+VALID_TEXT_CONTAINER_STYLES = ("AUTO", "CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS")
+VALID_IMAGE_FRAME_STYLES = ("AUTO", "FRAMELESS_CLEAN", "SOFT_SHADOW", "FRAMED_CARD")
+VALID_HEADER_CHROME_STYLES = ("AUTO", "MINIMAL_ACCENT", "COMPACT_SINGLE_LINE", "FULL_BANNER")
+VALID_TYPOGRAPHY_SCALES = ("COMFORTABLE", "LARGE_PROJECTOR", "COMPACT")
+VALID_SAFETY_BANNER_MODES = ("ACUTE_HAZARDS_ONLY", "COMPACT_ACCENT", "ALL_WARNINGS")
+
+
+class DeckStyleConfig(BaseModel):
+    """Global and per-deck styling configuration for layout presets and granular visual overrides."""
+
+    layout_style_preset: str = Field(
+        "AUTO_TEMPLATE",
+        description="High-level layout style preset: AUTO_TEMPLATE, CLEAN_OPEN, LEFT_ACCENT_LINE, or BOXED_CARDS.",
+    )
+    text_container_style: str = Field(
+        "AUTO",
+        description="Granular text container style override: AUTO, CLEAN_OPEN, LEFT_ACCENT_LINE, or BOXED_CARDS.",
+    )
+    image_frame_style: str = Field(
+        "AUTO",
+        description="Granular image frame style override: AUTO, FRAMELESS_CLEAN, SOFT_SHADOW, or FRAMED_CARD.",
+    )
+    header_chrome_style: str = Field(
+        "AUTO",
+        description="Granular header chrome style override: AUTO, MINIMAL_ACCENT, COMPACT_SINGLE_LINE, or FULL_BANNER.",
+    )
+    typography_scale: str = Field(
+        "COMFORTABLE",
+        description="Typography density scale: COMFORTABLE (0.0pt), LARGE_PROJECTOR (+1.5pt), or COMPACT (-1.0pt).",
+    )
+    safety_banner_mode: str = Field(
+        "ACUTE_HAZARDS_ONLY",
+        description="Safety callout banner behavior: ACUTE_HAZARDS_ONLY, COMPACT_ACCENT, or ALL_WARNINGS.",
+    )
+    match_template_palette: bool = Field(
+        True,
+        description="When True, slide accent colors automatically harmonize with the active template palette.",
+    )
+
+    def to_dict(self) -> Dict[str, Any]:
+        """Serializes the DeckStyleConfig to a plain dictionary."""
+        return self.model_dump()
 
 
 def hex_to_rgb(hex_str: str, default: Tuple[int, int, int] = (0, 63, 135)) -> Tuple[int, int, int]:
@@ -150,6 +215,9 @@ BUILTIN_TEMPLATES: List[TemplateProfile] = [
         primary_hex="#003F87",
         accent_hex="#D4AF37",
         card_bg_hex="#EFF6FF",
+        default_text_container_style="BOXED_CARDS",
+        default_image_frame_style="FRAMELESS_CLEAN",
+        default_header_chrome_style="MINIMAL_ACCENT",
         safe_bounds=SafeCanvasBounds(
             left_in=0.60,
             right_in=12.733,
@@ -788,6 +856,135 @@ def get_template_profile(template_id: Optional[str]) -> TemplateProfile:
         if prof.template_id == norm:
             return prof
     return BUILTIN_TEMPLATES[0]
+
+
+def resolve_effective_slide_style(
+    template_profile: Any = None,
+    deck_style: Optional[Any] = None,
+    slide_spec: Optional[Any] = None,
+) -> Dict[str, Any]:
+    """Resolves the effective slide layout & chrome styling with strict precedence:
+    1. Per-slide override (`slide_spec.container_style_override`, `card_theme_style`, or `visual_theme` when set to a layout style).
+    2. Granular `deck_style` field (`text_container_style`, `image_frame_style`, `header_chrome_style`) when not `"AUTO"`.
+    3. `deck_style["layout_style_preset"]` (or `default_layout_style_preset`) when not `"AUTO_TEMPLATE"`.
+    4. `TemplateProfile` defaults (`default_text_container_style`, `default_image_frame_style`, `default_header_chrome_style`).
+    """
+    # Resolve TemplateProfile
+    if isinstance(template_profile, TemplateProfile):
+        prof = template_profile
+    elif isinstance(template_profile, dict) and template_profile.get("template_id"):
+        prof = get_template_profile(str(template_profile.get("template_id")))
+    elif isinstance(template_profile, str) and template_profile.strip():
+        prof = get_template_profile(template_profile.strip())
+    else:
+        slide_tpl = None
+        if isinstance(slide_spec, dict):
+            slide_tpl = slide_spec.get("template_id")
+        elif slide_spec is not None:
+            slide_tpl = getattr(slide_spec, "template_id", None)
+        prof = get_template_profile(str(slide_tpl or "default_workbench"))
+
+    # Normalize deck_style dict
+    ds: Dict[str, Any] = {}
+    if isinstance(deck_style, DeckStyleConfig):
+        ds = deck_style.to_dict()
+    elif isinstance(deck_style, dict):
+        ds = dict(deck_style)
+    elif slide_spec is not None:
+        s_ds = slide_spec.get("deck_style") if isinstance(slide_spec, dict) else getattr(slide_spec, "deck_style", None)
+        if isinstance(s_ds, dict):
+            ds = dict(s_ds)
+
+    raw_preset = str(
+        ds.get("layout_style_preset")
+        or ds.get("default_layout_style_preset")
+        or "AUTO_TEMPLATE"
+    ).strip().upper()
+    if raw_preset not in VALID_LAYOUT_STYLE_PRESETS:
+        raw_preset = "AUTO_TEMPLATE"
+
+    # Step 4: Start from TemplateProfile defaults
+    eff_text = str(getattr(prof, "default_text_container_style", "CLEAN_OPEN") or "CLEAN_OPEN").upper()
+    eff_img = str(getattr(prof, "default_image_frame_style", "FRAMELESS_CLEAN") or "FRAMELESS_CLEAN").upper()
+    eff_hdr = str(getattr(prof, "default_header_chrome_style", "MINIMAL_ACCENT") or "MINIMAL_ACCENT").upper()
+
+    # Step 3: Apply layout_style_preset when not AUTO_TEMPLATE
+    if raw_preset == "CLEAN_OPEN":
+        eff_text = "CLEAN_OPEN"
+        eff_img = "FRAMELESS_CLEAN"
+        eff_hdr = "MINIMAL_ACCENT"
+    elif raw_preset == "LEFT_ACCENT_LINE":
+        eff_text = "LEFT_ACCENT_LINE"
+        eff_img = "FRAMELESS_CLEAN"
+        eff_hdr = "MINIMAL_ACCENT"
+    elif raw_preset == "BOXED_CARDS":
+        eff_text = "BOXED_CARDS"
+        eff_img = "FRAMED_CARD"
+        eff_hdr = "FULL_BANNER"
+
+    # Step 2: Apply granular deck_style fields when not AUTO
+    gran_text = str(ds.get("text_container_style") or "AUTO").strip().upper()
+    if gran_text in ("CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS"):
+        eff_text = gran_text
+
+    gran_img = str(ds.get("image_frame_style") or "AUTO").strip().upper()
+    if gran_img in ("FRAMELESS_CLEAN", "SOFT_SHADOW", "FRAMED_CARD"):
+        eff_img = gran_img
+
+    gran_hdr = str(ds.get("header_chrome_style") or "AUTO").strip().upper()
+    if gran_hdr in ("MINIMAL_ACCENT", "COMPACT_SINGLE_LINE", "FULL_BANNER"):
+        eff_hdr = gran_hdr
+
+    # Step 1: Apply per-slide overrides if present on slide_spec
+    if slide_spec is not None:
+        def _get_field(obj: Any, key: str) -> Any:
+            return obj.get(key) if isinstance(obj, dict) else getattr(obj, key, None)
+
+        for key_candidate in ("container_style_override", "card_theme_style", "visual_theme"):
+            val = str(_get_field(slide_spec, key_candidate) or "").strip().upper()
+            if val in ("CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS"):
+                eff_text = val
+                break
+
+        img_ov = str(_get_field(slide_spec, "image_frame_style_override") or "").strip().upper()
+        if img_ov in ("FRAMELESS_CLEAN", "SOFT_SHADOW", "FRAMED_CARD"):
+            eff_img = img_ov
+
+        hdr_ov = str(_get_field(slide_spec, "header_chrome_style_override") or "").strip().upper()
+        if hdr_ov in ("MINIMAL_ACCENT", "COMPACT_SINGLE_LINE", "FULL_BANNER"):
+            eff_hdr = hdr_ov
+
+    # Typography scale & delta
+    typo_scale = str(ds.get("typography_scale") or "COMFORTABLE").strip().upper()
+    if typo_scale not in VALID_TYPOGRAPHY_SCALES:
+        typo_scale = "COMFORTABLE"
+    font_delta_map = {
+        "COMFORTABLE": 0.0,
+        "LARGE_PROJECTOR": 1.5,
+        "COMPACT": -1.0,
+    }
+    font_size_delta_pt = font_delta_map.get(typo_scale, 0.0)
+
+    # Safety banner mode
+    safety_mode = str(ds.get("safety_banner_mode") or "ACUTE_HAZARDS_ONLY").strip().upper()
+    if safety_mode not in VALID_SAFETY_BANNER_MODES:
+        safety_mode = "ACUTE_HAZARDS_ONLY"
+
+    match_palette = bool(ds.get("match_template_palette", True))
+
+    return {
+        "template_id": prof.template_id,
+        "layout_style_preset": raw_preset,
+        "text_container_style": eff_text,
+        "image_frame_style": eff_img,
+        "header_chrome_style": eff_hdr,
+        "typography_scale": typo_scale,
+        "font_size_delta_pt": font_size_delta_pt,
+        "safety_banner_mode": safety_mode,
+        "match_template_palette": match_palette,
+        "explicit_image_frame_override": gran_img in ("FRAMELESS_CLEAN", "SOFT_SHADOW", "FRAMED_CARD") or raw_preset != "AUTO_TEMPLATE",
+        "explicit_header_chrome_override": gran_hdr in ("MINIMAL_ACCENT", "COMPACT_SINGLE_LINE", "FULL_BANNER") or raw_preset != "AUTO_TEMPLATE",
+    }
 
 
 def delete_custom_template(template_id: str) -> bool:

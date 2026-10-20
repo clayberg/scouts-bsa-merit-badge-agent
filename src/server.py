@@ -138,6 +138,8 @@ class WorkflowRunRequest(BaseModel):
     audience_level: str = Field("All Scouts (Ages 11–17)", description="Target Scout audience level.")
     session_id: str = Field("a2ui_workbench_session", description="Persistent counselor session ID.")
     webhook_url: Optional[str] = Field(None, description="Optional webhook callback URL notified on completion.")
+    template_id: Optional[str] = Field(None, description="Optional PowerPoint template ID override.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional DeckStyleConfig override dictionary.")
 
 
 class CounselorFeedbackRequest(BaseModel):
@@ -179,6 +181,10 @@ class SlideRegenerateRequest(BaseModel):
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional counselor personalization info.")
     output_path: Optional[str] = Field(None, description="Optional existing .pptx output path to update.")
     template_id: Optional[str] = Field("default_workbench", description="Optional active PowerPoint template ID.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional deck-wide DeckStyleConfig dictionary.")
+    container_style_override: Optional[str] = Field(None, description="Optional per-slide container style override ('CLEAN_OPEN', 'LEFT_ACCENT_LINE', 'BOXED_CARDS').")
+    image_frame_style_override: Optional[str] = Field(None, description="Optional per-slide image frame style override ('FRAMELESS_CLEAN', 'SOFT_SHADOW', 'FRAMED_CARD').")
+    header_chrome_style_override: Optional[str] = Field(None, description="Optional per-slide header chrome style override ('MINIMAL_ACCENT', 'SOLID_PILL').")
 
 
 class WebImageSearchRequest(BaseModel):
@@ -635,6 +641,41 @@ async def api_run_workflow(
     result["counselor_info"] = counselor_info
     if req.custom_troop_logo_path:
         result["custom_troop_logo_url"] = _to_web_asset_url(req.custom_troop_logo_path)
+    if req.template_id or req.deck_style:
+        try:
+            from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
+            from src.tools.template_engine import get_template_profile, resolve_effective_slide_style
+
+            eff_tpl_id = str(req.template_id or result.get("template_id") or "default_workbench").strip() or "default_workbench"
+            prof = get_template_profile(eff_tpl_id)
+            eff_style = resolve_effective_slide_style(prof, deck_style=req.deck_style)
+            sb_slides = ((result.get("storyboard") or {}).get("slides")) or []
+            if sb_slides:
+                out_file = str(
+                    GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{prof.template_id}_Merit_Badge_Deck.pptx"
+                )
+                rebuild_deck_pptx_from_storyboard(
+                    badge_name=req.badge_name,
+                    storyboard_slides=sb_slides,
+                    output_path=out_file,
+                    counselor_info=counselor_info,
+                    template_id=prof.template_id,
+                    default_tier=str(req.beautification_tier or "BEAUTIFIED"),
+                    deck_style=eff_style,
+                )
+                result["output_path"] = out_file
+            result["template_id"] = prof.template_id
+            result["deck_style"] = eff_style
+        except Exception as exc:
+            logger.warning("Workflow template/deck_style rebuild warning: %s", exc)
+    elif "deck_style" not in result:
+        try:
+            from src.tools.template_engine import get_template_profile, resolve_effective_slide_style
+
+            prof = get_template_profile(str(result.get("template_id") or "default_workbench"))
+            result["deck_style"] = resolve_effective_slide_style(prof, deck_style=None)
+        except Exception:
+            pass
     decorated = _decorate_result_urls(result)
     if req.webhook_url:
         decorated["webhook_notification"] = {
@@ -659,6 +700,8 @@ async def api_stream_workflow(
     beautification_tier: str = Query("BEAUTIFIED"),
     schedule_format: str = Query("3 Troop Meetings (45 min each)"),
     audience_level: str = Query("All Scouts (Ages 11–17)"),
+    template_id: Optional[str] = Query(None),
+    layout_style_preset: Optional[str] = Query(None),
 ) -> StreamingResponse:
     """Streams live Server-Sent Events (SSE) as each agent completes its work."""
     counselor_info = {
@@ -713,6 +756,34 @@ async def api_stream_workflow(
                 res_obj["counselor_info"] = counselor_info
                 if custom_troop_logo_path:
                     res_obj["custom_troop_logo_url"] = _to_web_asset_url(custom_troop_logo_path)
+                if template_id or layout_style_preset:
+                    try:
+                        from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
+                        from src.tools.template_engine import get_template_profile, resolve_effective_slide_style
+
+                        eff_tpl_id = str(template_id or res_obj.get("template_id") or "default_workbench").strip() or "default_workbench"
+                        prof = get_template_profile(eff_tpl_id)
+                        ds_override = {"layout_style_preset": layout_style_preset} if layout_style_preset else None
+                        eff_style = resolve_effective_slide_style(prof, deck_style=ds_override)
+                        sb_slides = ((res_obj.get("storyboard") or {}).get("slides")) or []
+                        if sb_slides:
+                            out_file = str(
+                                GENERATED_DECKS_DIR / f"{badge_name.strip().replace(' ', '_')}_{prof.template_id}_Merit_Badge_Deck.pptx"
+                            )
+                            rebuild_deck_pptx_from_storyboard(
+                                badge_name=badge_name,
+                                storyboard_slides=sb_slides,
+                                output_path=out_file,
+                                counselor_info=counselor_info,
+                                template_id=prof.template_id,
+                                default_tier=str(beautification_tier or "BEAUTIFIED"),
+                                deck_style=eff_style,
+                            )
+                            res_obj["output_path"] = out_file
+                        res_obj["template_id"] = prof.template_id
+                        res_obj["deck_style"] = eff_style
+                    except Exception as exc:
+                        logger.warning("Stream workflow template/deck_style rebuild warning: %s", exc)
                 ev["result"] = _decorate_result_urls(res_obj)
             yield f"data: {json.dumps(ev)}\n\n"
 
@@ -925,6 +996,18 @@ async def api_regenerate_slide(
                 target_s["visual_caption"] = vis_caption
                 target_s["diagram_path"] = png_path
                 target_s["ai_hero_image_path"] = png_path if vis_mode == "ai_hero" else None
+                if req.container_style_override is not None:
+                    target_s["container_style_override"] = req.container_style_override
+                elif req.slide_data.get("container_style_override") is not None:
+                    target_s["container_style_override"] = req.slide_data.get("container_style_override")
+                if req.image_frame_style_override is not None:
+                    target_s["image_frame_style_override"] = req.image_frame_style_override
+                elif req.slide_data.get("image_frame_style_override") is not None:
+                    target_s["image_frame_style_override"] = req.slide_data.get("image_frame_style_override")
+                if req.header_chrome_style_override is not None:
+                    target_s["header_chrome_style_override"] = req.header_chrome_style_override
+                elif req.slide_data.get("header_chrome_style_override") is not None:
+                    target_s["header_chrome_style_override"] = req.slide_data.get("header_chrome_style_override")
                 if png_path is None and target_s.get("full_bullet_points") and not req.slide_data.get("bullet_points"):
                     target_s["bullet_points"] = list(target_s["full_bullet_points"])
             c_info = CounselorTitleSlideInfo(**req.counselor_info) if req.counselor_info else None
@@ -939,6 +1022,7 @@ async def api_regenerate_slide(
                 counselor_info=req.counselor_info if isinstance(req.counselor_info, dict) else (req.counselor_info.__dict__ if hasattr(req.counselor_info, "__dict__") else None),
                 template_id=eff_tpl_id,
                 default_tier=tier if "tier" in locals() else "BEAUTIFIED",
+                deck_style=req.deck_style,
             )
             build_res = {"output_path": out_file}
             if build_res.get("output_path"):
@@ -966,6 +1050,12 @@ async def api_regenerate_slide(
     updated_slide_out["diagram_path"] = png_path
     updated_slide_out["diagram_url"] = png_url
     updated_slide_out["presenter_notes"] = recompiled_notes
+    if req.container_style_override is not None:
+        updated_slide_out["container_style_override"] = req.container_style_override
+    if req.image_frame_style_override is not None:
+        updated_slide_out["image_frame_style_override"] = req.image_frame_style_override
+    if req.header_chrome_style_override is not None:
+        updated_slide_out["header_chrome_style_override"] = req.header_chrome_style_override
 
     return {
         "status": "SUCCESS",
@@ -983,6 +1073,7 @@ async def api_regenerate_slide(
         "svg_url": svg_url,
         "pptx_download_url": rebuilt_pptx_url,
         "updated_slide": updated_slide_out,
+        "deck_style": req.deck_style,
         "duration_ms": elapsed_regen_ms,
     }
 
@@ -1001,6 +1092,7 @@ class SlidePolishNotesRequest(BaseModel):
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
     template_id: Optional[str] = Field("default_workbench", description="Optional active PowerPoint template ID.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional DeckStyleConfig dictionary.")
 
 
 class SlidePolishDeckBatchRequest(BaseModel):
@@ -1011,6 +1103,7 @@ class SlidePolishDeckBatchRequest(BaseModel):
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     output_path: Optional[str] = Field(None, description="Optional existing PPTX output path to overwrite.")
     template_id: Optional[str] = Field("default_workbench", description="Optional active PowerPoint template ID.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional DeckStyleConfig dictionary.")
 
 
 class SlidePolishEstimateRequest(BaseModel):
@@ -1027,6 +1120,7 @@ class GoogleSlidesExportRequest(BaseModel):
     output_path: Optional[str] = Field(None, description="Optional filesystem path to the .pptx file.")
     beautification_tier: str = Field("BEAUTIFIED", description="Deck visual tier.")
     template_id: Optional[str] = Field("default_workbench", description="Active PowerPoint template ID.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional DeckStyleConfig dictionary.")
     storyboard_slides: Optional[List[Dict[str, Any]]] = Field(None, description="Optional slide array if PPTX needs regeneration.")
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     user_access_token: Optional[str] = Field(None, description="Optional OAuth 2.0 Bearer token with drive.file scope.")
@@ -1760,6 +1854,7 @@ async def api_polish_slide_speaker_notes(
                 counselor_info=req.counselor_info if isinstance(req.counselor_info, dict) else (req.counselor_info.__dict__ if hasattr(req.counselor_info, "__dict__") else None),
                 template_id=eff_tpl_id,
                 default_tier=tier if "tier" in locals() else "BEAUTIFIED",
+                deck_style=req.deck_style,
             )
             build_res = {"output_path": out_file}
             if build_res.get("output_path"):
@@ -1873,6 +1968,7 @@ async def api_polish_deck_speaker_notes_batch(
                 counselor_info=req.counselor_info if isinstance(req.counselor_info, dict) else (req.counselor_info.__dict__ if hasattr(req.counselor_info, "__dict__") else None),
                 template_id=eff_tpl_id,
                 default_tier=tier if "tier" in locals() else "BEAUTIFIED",
+                deck_style=req.deck_style,
             )
             build_res = {"output_path": out_file}
             if build_res.get("output_path"):
@@ -2303,6 +2399,7 @@ async def api_export_slide_deck_to_google_slides(
                     output_path=out_file,
                     counselor_info=c_info.model_dump() if hasattr(c_info, "model_dump") else getattr(c_info, "__dict__", None),
                     template_id=eff_tpl_id,
+                    deck_style=req.deck_style,
                 )
                 build_res = {"output_path": out_file}
                 if build_res.get("output_path") and Path(build_res["output_path"]).exists():
@@ -2557,6 +2654,7 @@ class SlideDeckCustomizeRequest(BaseModel):
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     output_path: Optional[str] = Field(None, description="Optional PPTX output path.")
     template_id: Optional[str] = Field("default_workbench", description="Optional PowerPoint template ID.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional DeckStyleConfig dictionary.")
 
 
 @app.post("/api/slide/deck-customize")
@@ -2650,6 +2748,7 @@ async def api_customize_slide_deck(
                     counselor_info=c_info,
                     output_path=out_file,
                     template_id=tpl_id,
+                    deck_style=req.deck_style,
                 ),
             )
             if build_res.get("output_path"):
@@ -3551,6 +3650,21 @@ class TemplateApplyRequest(BaseModel):
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     visual_theme: Optional[str] = Field(None, description="Optional WARM_CREAM (CREAM), CRISP_WHITE (WHITE), DARK_SLATE (SLATE), or legacy BEAUTIFIED/STANDARD/STUDIO.")
     accent_palette_key: Optional[str] = Field(None, description="Optional palette key or MATCH_TEMPLATE.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional deck-wide DeckStyleConfig dictionary.")
+    layout_style_preset: Optional[str] = Field(None, description="Optional shorthand layout style preset ('AUTO_TEMPLATE', 'CLEAN_OPEN', 'LEFT_ACCENT_LINE', 'BOXED_CARDS').")
+
+
+class DeckStylePreferencesRequest(BaseModel):
+    default_template_id: Optional[str] = Field(None, description="Default template profile ID.")
+    default_slide_theme: Optional[str] = Field(None, description="Default slide theme ('WARM_CREAM', 'CRISP_WHITE', 'DARK_SLATE').")
+    default_layout_style_preset: Optional[str] = Field(None, description="Default layout style preset ('AUTO_TEMPLATE', 'CLEAN_OPEN', 'LEFT_ACCENT_LINE', 'BOXED_CARDS').")
+    layout_style_preset: Optional[str] = Field(None, description="Alias for default_layout_style_preset.")
+    text_container_style: Optional[str] = Field(None, description="Optional granular text container style ('CLEAN_OPEN', 'LEFT_ACCENT_LINE', 'BOXED_CARDS').")
+    image_frame_style: Optional[str] = Field(None, description="Optional granular image frame style ('FRAMELESS_CLEAN', 'SOFT_SHADOW', 'FRAMED_CARD').")
+    header_chrome_style: Optional[str] = Field(None, description="Optional granular header chrome style ('MINIMAL_ACCENT', 'SOLID_PILL').")
+    typography_scale: Optional[str] = Field(None, description="Typography scale ('COMFORTABLE', 'COMPACT', 'LARGE').")
+    safety_banner_mode: Optional[str] = Field(None, description="Safety banner mode ('HAZARD_ONLY', 'ALL_SLIDES', 'HIDDEN').")
+    match_template_palette: Optional[bool] = Field(None, description="Whether to harmonize card accents with the template's brand palette.")
 
 
 class TemplateMetadataUpdateRequest(BaseModel):
@@ -3559,17 +3673,73 @@ class TemplateMetadataUpdateRequest(BaseModel):
     bottom_safe_in: Optional[float] = Field(None, description="Optional updated safe bottom coordinate in inches (5.80..6.95).")
 
 
+@app.get("/api/preferences/deck-style")
+@app.get("/api/v1/preferences/deck-style")
+async def api_get_deck_style_preferences() -> Dict[str, Any]:
+    """Returns persistent counselor default deck style preferences alongside factory defaults."""
+    from src.memory.session_store import (
+        FACTORY_DEFAULT_DECK_STYLE_PREFS,
+        load_default_deck_style_preferences,
+    )
+
+    prefs = await asyncio.to_thread(load_default_deck_style_preferences)
+    return {
+        "status": "SUCCESS",
+        "preferences": prefs,
+        "factory_defaults": dict(FACTORY_DEFAULT_DECK_STYLE_PREFS),
+    }
+
+
+@app.put("/api/preferences/deck-style")
+@app.put("/api/v1/preferences/deck-style")
+@app.post("/api/preferences/deck-style")
+@app.post("/api/v1/preferences/deck-style")
+async def api_save_deck_style_preferences(
+    req: DeckStylePreferencesRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Saves counselor default deck style preferences to SQLite (`user_preferences`)."""
+    from src.memory.session_store import save_default_deck_style_preferences
+
+    payload = {k: v for k, v in req.model_dump().items() if v is not None}
+    saved = await asyncio.to_thread(save_default_deck_style_preferences, payload)
+    return {
+        "status": "SUCCESS",
+        "preferences": saved,
+    }
+
+
+@app.delete("/api/preferences/deck-style")
+@app.delete("/api/v1/preferences/deck-style")
+@app.post("/api/preferences/deck-style/reset")
+@app.post("/api/v1/preferences/deck-style/reset")
+async def api_reset_deck_style_preferences(
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Resets counselor default deck style preferences back to factory defaults."""
+    from src.memory.session_store import reset_default_deck_style_preferences
+
+    reset_prefs = await asyncio.to_thread(reset_default_deck_style_preferences)
+    return {
+        "status": "RESET",
+        "preferences": reset_prefs,
+    }
+
+
 @app.get("/api/templates")
 @app.get("/api/v1/templates")
 async def api_list_powerpoint_templates() -> Dict[str, Any]:
     """Returns all built-in curated Scouting templates and any custom user-uploaded/URL templates."""
+    from src.memory.session_store import load_default_deck_style_preferences
     from src.tools.template_engine import load_template_catalog
 
     profiles = await asyncio.to_thread(load_template_catalog)
+    default_prefs = await asyncio.to_thread(load_default_deck_style_preferences)
     return {
         "status": "SUCCESS",
         "total": len(profiles),
         "templates": [p.model_dump() for p in profiles],
+        "default_preferences": default_prefs,
     }
 
 
@@ -3670,9 +3840,18 @@ async def api_apply_powerpoint_template(
         SlideSpec,
         generate_bsa_slide_deck_pptx,
     )
-    from src.tools.template_engine import get_template_profile, normalize_visual_theme
+    from src.tools.template_engine import (
+        get_template_profile,
+        normalize_visual_theme,
+        resolve_effective_slide_style,
+    )
 
     prof = await asyncio.to_thread(get_template_profile, req.template_id)
+    merged_deck_style: Dict[str, Any] = dict(req.deck_style or {})
+    if req.layout_style_preset and "layout_style_preset" not in merged_deck_style:
+        merged_deck_style["layout_style_preset"] = req.layout_style_preset
+    eff_style = resolve_effective_slide_style(prof, deck_style=merged_deck_style if merged_deck_style else None)
+
     slides_list = [dict(s) for s in (req.storyboard_slides or [])]
     for s in slides_list:
         s["template_id"] = prof.template_id
@@ -3701,6 +3880,7 @@ async def api_apply_powerpoint_template(
                 counselor_info=c_info,
                 output_path=out_file,
                 template_id=prof.template_id,
+                deck_style=eff_style,
             ),
         )
         if build_res.get("output_path"):
@@ -3710,6 +3890,8 @@ async def api_apply_powerpoint_template(
     return {
         "status": "SUCCESS",
         "template": prof.model_dump(),
+        "deck_style": eff_style,
+        "effective_style": eff_style,
         "storyboard_slides": slides_list,
         "output_path": rebuilt_output_path,
         "pptx_download_url": rebuilt_pptx_url,
@@ -3776,6 +3958,7 @@ class WorkspaceSaveRequest(BaseModel):
     session_label: str = ""
     camp_bundle_tag: str = ""
     template_id: str = "default_workbench"
+    deck_style: Optional[Dict[str, Any]] = None
     counselor_info: Dict[str, Any] = Field(default_factory=dict)
     deck_result: Dict[str, Any] = Field(default_factory=dict)
     deck_payload: Optional[Dict[str, Any]] = None

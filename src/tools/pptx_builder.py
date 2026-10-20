@@ -35,6 +35,7 @@ from src.tools.template_engine import (
     get_template_profile,
     hex_to_rgb,
     normalize_visual_theme,
+    resolve_effective_slide_style,
 )
 
 
@@ -71,6 +72,22 @@ class SlideSpec(BaseModel):
     visual_theme: str = Field("STANDARD_CLEAN", description="Layer-0 magazine vector card theme.")
     accent_palette_key: str = Field("NAVY_GOLD", description="Brand color palette key (NAVY_GOLD, OLIVE_FOREST, EAGLE_CRIMSON, SLATE_ACTION, MATCH_TEMPLATE).")
     template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
+    container_style_override: Optional[str] = Field(
+        None,
+        description="Optional per-slide text container style override: AUTO, CLEAN_OPEN, LEFT_ACCENT_LINE, or BOXED_CARDS.",
+    )
+    image_frame_style_override: Optional[str] = Field(
+        None,
+        description="Optional per-slide image frame style override: AUTO, FRAMELESS_CLEAN, SOFT_SHADOW, or FRAMED_CARD.",
+    )
+    header_chrome_style_override: Optional[str] = Field(
+        None,
+        description="Optional per-slide header chrome style override: AUTO, MINIMAL_ACCENT, COMPACT_SINGLE_LINE, or FULL_BANNER.",
+    )
+    deck_style: Optional[Dict[str, Any]] = Field(
+        None,
+        description="Optional resolved deck style configuration dictionary.",
+    )
     callout_badge_text: str = Field("", description="Magazine header callout pill text.")
     real_world_connection_box: Optional[str] = Field(None, description="Grounded Deep Research & Local Troop connection callout box.")
     grounded_citation_label: Optional[str] = Field(None, description="Source citation badge (e.g. 'NOAA / NWS + Local Council Grounded').")
@@ -94,6 +111,7 @@ class PowerPointBuildRequest(BaseModel):
     output_path: Optional[str] = Field(None, description="Target filesystem path for saved .pptx file.")
     hitl_confirmation_token: Optional[str] = Field(None, description="Optional FastMCP HITL confirmation token.")
     template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional global or per-deck style configuration.")
 
 
 class PowerPointBuildResult(BaseModel):
@@ -103,6 +121,7 @@ class PowerPointBuildResult(BaseModel):
     output_path: str = Field(..., description="Absolute filesystem path to saved .pptx file.")
     is_eagle_required: bool = Field(..., description="True if Eagle-required badge styling was applied.")
     template_id: str = Field("default_workbench", description="Applied PowerPoint template ID.")
+    deck_style: Optional[Dict[str, Any]] = Field(None, description="Resolved deck style configuration.")
     status: str = Field("SUCCESS", description="Execution status.")
 
 
@@ -370,6 +389,49 @@ def _format_top_requirement_strip_text(req_number: str, raw_verbatim: str, max_c
     return _concise_card_body(cleaned_lead, max_words=28, max_chars=max_chars)
 
 
+_ACTIVE_CONTAINER_STYLE: str = "BOXED_CARDS"
+_ACTIVE_FONT_DELTA_PT: float = 0.0
+
+_ACUTE_HAZARD_KEYWORDS: Tuple[str, ...] = (
+    "911", "ems", "bleed", "tourniquet", "shock", "fracture", "splint", "hypothermia",
+    "heat stroke", "heat exhaustion", "hyperthermia", "lightning", "drown", "cpr", "aed",
+    "airway", "choking", "poison", "venom", "bite", "sting", "anaphylaxis", "epinephrine",
+    "burn", "scald", "firearm", "muzzle", "ammunition", "range officer", "belay", "harness",
+    "rappel", "pfd", "life jacket", "life vest", "carbon monoxide", "dehydration", "frostbite",
+    "concussion", "spinal", "neck injury", "head injury", "protective gloves", "nitrile",
+    "bloodborne", "ppe", "sterile", "triage", "evacuat", "rescue", "submers", "current",
+    "rip tide", "undertow", "whitewater", "capsize", "swamp", "open flame", "propane",
+    "stove", "blade", "knife", "axe", "saw", "blood circle", "totin", "power tool",
+    "eye protection", "goggles", "ear protection", "welding", "chemical", "voltage",
+    "electrical", "radiation", "heat illness", "buddy system", "safe swim", "safety afloat",
+    "climb on safely", "weather hazard", "thunderstorm", "flash flood", "avalanche",
+)
+
+
+def _is_acute_safety_hazard(warning_text: Optional[str], badge_name: str = "") -> bool:
+    """Returns True when `warning_text` describes a genuine physical, medical, or field safety hazard."""
+    txt = str(warning_text or "").strip().lower()
+    if not txt:
+        return False
+    return any(kw in txt for kw in _ACUTE_HAZARD_KEYWORDS)
+
+
+def _get_slide_effective_style(slide_spec: Optional[SlideSpec]) -> Dict[str, Any]:
+    """Resolves the effective slide layout style and updates module-level active rendering state."""
+    global _ACTIVE_CONTAINER_STYLE, _ACTIVE_FONT_DELTA_PT
+    if slide_spec is None:
+        eff = resolve_effective_slide_style(template_profile="default_workbench")
+    else:
+        eff = resolve_effective_slide_style(
+            template_profile=getattr(slide_spec, "template_id", "default_workbench"),
+            deck_style=getattr(slide_spec, "deck_style", None),
+            slide_spec=slide_spec,
+        )
+    _ACTIVE_CONTAINER_STYLE = str(eff.get("text_container_style") or "BOXED_CARDS").upper()
+    _ACTIVE_FONT_DELTA_PT = float(eff.get("font_size_delta_pt") or 0.0)
+    return eff
+
+
 def _compute_fitting_font_size(
     paragraphs_text: List[str],
     box_w_in: float,
@@ -377,15 +439,19 @@ def _compute_fitting_font_size(
     min_pt: float = 12.0,
     max_pt: float = 21.0,
     space_after_pt: float = 6.0,
+    font_delta_pt: Optional[float] = None,
 ) -> float:
     """Computes the largest comfortable font size (in pt) that wraps cleanly inside [box_w_in x box_h_in] without overflowing in Google Slides."""
-    safe_min = max(11.5, float(min_pt))
+    delta = _ACTIVE_FONT_DELTA_PT if font_delta_pt is None else float(font_delta_pt)
+    adj_min = max(12.0, float(min_pt) + min(0.0, delta))
+    adj_max = max(adj_min, float(max_pt) + delta)
+    safe_min = max(12.0, adj_min)
     if not paragraphs_text:
-        return max(safe_min, float(max_pt))
+        return max(safe_min, adj_max)
     usable_w_in = max(1.05, box_w_in - 0.54)
     usable_h_in = max(0.24, box_h_in - 0.28)
 
-    candidate = float(max(safe_min, float(max_pt)))
+    candidate = float(max(safe_min, adj_max))
     while candidate >= safe_min:
         # Conservative character width and line height accounting for Google Slides font metrics & bold runs
         char_w_in = (candidate * 0.66) / 72.0
@@ -416,8 +482,6 @@ def _compute_fitting_font_size(
         candidate -= 0.5
 
     return round(safe_min, 1)
-
-
 
 
 def _set_rounded_rect_radius(shape: Any, width_in: float, height_in: float, radius_in: float = 0.09) -> None:
@@ -464,14 +528,79 @@ def _add_styled_box(
     top_accent_rgb: Optional[Tuple[int, int, int]] = None,
     left_accent_rgb: Optional[Tuple[int, int, int]] = None,
     radius_in: float = 0.09,
+    container_style: Optional[str] = None,
 ) -> Any:
-    """Adds a rounded rectangular card shape with an integrated Layered Crescent top or left accent border."""
+    """Adds an instructional text container respecting `container_style` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, or `BOXED_CARDS`)."""
+    eff_style = str(container_style or _ACTIVE_CONTAINER_STYLE or "BOXED_CARDS").strip().upper()
     body_left = left_in
     body_top = top_in
     body_w = width_in
     body_h = height_in
     fg_radius = radius_in
 
+    if eff_style == "CLEAN_OPEN":
+        shape = slide.shapes.add_shape(
+            MSO_SHAPE.ROUNDED_RECTANGLE,
+            Inches(body_left),
+            Inches(body_top),
+            Inches(body_w),
+            Inches(body_h),
+        )
+        shape.name = f"CleanOpen_Zone_{len(slide.shapes)}"
+        _set_rounded_rect_radius(shape, body_w, body_h, radius_in=0.04)
+        shape.fill.background()
+        shape.line.fill.background()
+        tf = shape.text_frame
+        tf.word_wrap = True
+        tf.vertical_anchor = MSO_ANCHOR.TOP
+        tf.margin_left = Inches(0.08)
+        tf.margin_right = Inches(0.08)
+        tf.margin_top = Inches(0.04)
+        tf.margin_bottom = Inches(0.04)
+        return shape
+
+    if eff_style == "LEFT_ACCENT_LINE":
+        accent_color = left_accent_rgb or top_accent_rgb or border_rgb
+        if accent_color is not None and width_in > 0.50:
+            bar_w = 0.055
+            bar_h = max(0.18, round(height_in - 0.08, 3))
+            bar = slide.shapes.add_shape(
+                MSO_SHAPE.ROUNDED_RECTANGLE,
+                Inches(left_in),
+                Inches(round(top_in + 0.04, 3)),
+                Inches(bar_w),
+                Inches(bar_h),
+            )
+            bar.name = f"CardAccent_LeftLine_{len(slide.shapes)}"
+            _set_rounded_rect_radius(bar, bar_w, bar_h, radius_in=0.025)
+            bar.fill.solid()
+            bar.fill.fore_color.rgb = RGBColor(*accent_color)
+            bar.line.fill.background()
+            bar.text_frame.word_wrap = True
+            body_left = round(left_in + 0.11, 3)
+            body_w = round(width_in - 0.11, 3)
+
+        shape = slide.shapes.add_shape(
+            MSO_SHAPE.ROUNDED_RECTANGLE,
+            Inches(body_left),
+            Inches(body_top),
+            Inches(body_w),
+            Inches(body_h),
+        )
+        shape.name = f"LeftAccent_Zone_{len(slide.shapes)}"
+        _set_rounded_rect_radius(shape, body_w, body_h, radius_in=0.04)
+        shape.fill.background()
+        shape.line.fill.background()
+        tf = shape.text_frame
+        tf.word_wrap = True
+        tf.vertical_anchor = MSO_ANCHOR.TOP
+        tf.margin_left = Inches(0.10)
+        tf.margin_right = Inches(0.10)
+        tf.margin_top = Inches(0.05)
+        tf.margin_bottom = Inches(0.05)
+        return shape
+
+    # Default / legacy: BOXED_CARDS
     if top_accent_rgb is not None and height_in > 0.35:
         bar_h = 0.065
         cap_h = min(height_in, 0.28)
@@ -729,7 +858,9 @@ def _resolve_palette_tokens(
         )
     pal = str(getattr(slide_spec, "accent_palette_key", "NAVY_GOLD") or "NAVY_GOLD").upper()
     tpl_id = str(getattr(slide_spec, "template_id", "default_workbench") or "default_workbench")
-    if pal == "MATCH_TEMPLATE" and tpl_id and tpl_id != "default_workbench":
+    eff_style = _get_slide_effective_style(slide_spec)
+    match_tpl_pal = bool(eff_style.get("match_template_palette", True))
+    if tpl_id and tpl_id != "default_workbench" and (pal == "MATCH_TEMPLATE" or (match_tpl_pal and pal == "NAVY_GOLD")):
         prof = get_template_profile(tpl_id)
         if tier == "STUDIO":
             return (244, 196, 48), hex_to_rgb(prof.accent_hex, (56, 189, 248)), (30, 41, 59)
@@ -960,7 +1091,8 @@ def _render_stacked_point_cards(
             tf.margin_right = Inches(0.14 if width_in < 7.0 else 0.18)
 
             use_step_pill = (
-                tier != "STANDARD"
+                _ACTIVE_CONTAINER_STYLE == "BOXED_CARDS"
+                and tier != "STANDARD"
                 and anchor.startswith(f"0{idx_pt + 1}")
                 and bool(raw_anchor and body and c_h >= 0.72)
             )
@@ -1087,36 +1219,61 @@ def _render_right_visual_card(
     top_in: float,
     bottom_in: float,
 ) -> None:
-    """Renders the unified right-hand visual card container (`[x: 7.00..12.733, y: top_in..bottom_in]`)
-    with the embedded image and a clean caption inside the card (matching `rightZone` in `ui/app.js`).
+    """Renders the right-hand visual zone (`[x: 7.00..12.733, y: top_in..bottom_in]`)
+    respecting `image_frame_style` (`FRAMELESS_CLEAN`, `SOFT_SHADOW`, or `FRAMED_CARD`).
     """
     tier = str(getattr(slide_spec, "beautification_tier", "STANDARD") or "STANDARD").upper()
     primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
     anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
+    eff_style = _get_slide_effective_style(slide_spec)
+    img_frame_style = str(eff_style.get("image_frame_style") or "FRAMELESS_CLEAN").upper()
+    if (
+        str(getattr(slide_spec, "template_id", "default_workbench") or "default_workbench") == "default_workbench"
+        and eff_style.get("text_container_style") == "BOXED_CARDS"
+        and not eff_style.get("explicit_image_frame_override", False)
+    ):
+        img_frame_style = "FRAMED_CARD"
 
     frame_bg = (30, 41, 59) if tier == "STUDIO" else (card_bg_rgb if tier == "BEAUTIFIED" else (248, 250, 252))
     frame_border = accent_rgb if tier in ("BEAUTIFIED", "STUDIO") else ScoutsBSAPalette.BORDER_GRAY_RGB
     frame_h = max(2.40, round(bottom_in - top_in, 3))
-
-    # Outer visual container card (named CardAccent_RightVisualFrame so child picture + caption sit inside it cleanly)
-    frame_box = slide.shapes.add_shape(
-        MSO_SHAPE.ROUNDED_RECTANGLE,
-        Inches(7.00),
-        Inches(top_in),
-        Inches(5.733),
-        Inches(frame_h),
-    )
-    frame_box.name = f"CardAccent_RightVisualFrame_{len(slide.shapes)}"
-    _set_rounded_rect_radius(frame_box, 5.733, frame_h, radius_in=0.10)
-    frame_box.fill.solid()
-    frame_box.fill.fore_color.rgb = RGBColor(*frame_bg)
-    frame_box.line.color.rgb = RGBColor(*frame_border)
-    frame_box.line.width = Pt(1.5 if tier in ("BEAUTIFIED", "STUDIO") else 1.0)
-    frame_box.text_frame.word_wrap = True
-
     cap_h = 0.72
-    img_pad_x = 0.16
-    img_pad_top = 0.12
+
+    if img_frame_style == "FRAMED_CARD":
+        # Outer visual container card (named CardAccent_RightVisualFrame so child picture + caption sit inside it cleanly)
+        frame_box = slide.shapes.add_shape(
+            MSO_SHAPE.ROUNDED_RECTANGLE,
+            Inches(7.00),
+            Inches(top_in),
+            Inches(5.733),
+            Inches(frame_h),
+        )
+        frame_box.name = f"CardAccent_RightVisualFrame_{len(slide.shapes)}"
+        _set_rounded_rect_radius(frame_box, 5.733, frame_h, radius_in=0.10)
+        frame_box.fill.solid()
+        frame_box.fill.fore_color.rgb = RGBColor(*frame_bg)
+        frame_box.line.color.rgb = RGBColor(*frame_border)
+        frame_box.line.width = Pt(1.5 if tier in ("BEAUTIFIED", "STUDIO") else 1.0)
+        frame_box.text_frame.word_wrap = True
+    elif img_frame_style == "SOFT_SHADOW":
+        shadow_h = max(1.65, round(frame_h - cap_h - 0.06, 3))
+        shadow_bg = (22, 32, 48) if tier == "STUDIO" else (236, 241, 247)
+        shadow_box = slide.shapes.add_shape(
+            MSO_SHAPE.ROUNDED_RECTANGLE,
+            Inches(7.08),
+            Inches(round(top_in + 0.06, 3)),
+            Inches(5.573),
+            Inches(shadow_h),
+        )
+        shadow_box.name = f"CardAccent_SoftShadow_{len(slide.shapes)}"
+        _set_rounded_rect_radius(shadow_box, 5.573, shadow_h, radius_in=0.08)
+        shadow_box.fill.solid()
+        shadow_box.fill.fore_color.rgb = RGBColor(*shadow_bg)
+        shadow_box.line.fill.background()
+        shadow_box.text_frame.word_wrap = True
+
+    img_pad_x = 0.16 if img_frame_style == "FRAMED_CARD" else 0.08
+    img_pad_top = 0.12 if img_frame_style == "FRAMED_CARD" else 0.04
     avail_img_w = 5.733 - (2 * img_pad_x)
     avail_img_h = max(1.60, frame_h - cap_h - img_pad_top - 0.10)
     try:
@@ -1785,7 +1942,7 @@ def _render_step_by_step_4card_zone(
         tf = card.text_frame
         tf.margin_top = Inches(0.06)
         tf.margin_bottom = Inches(0.05)
-        use_pill = tier != "STANDARD" and card_h >= 1.15 and cw >= 4.5
+        use_pill = _ACTIVE_CONTAINER_STYLE == "BOXED_CARDS" and tier != "STANDARD" and card_h >= 1.15 and cw >= 4.5
         head_line = f"{badge}  {anchor}"
         head_for_fit = f"          {anchor}" if use_pill else head_line
         step_font_pt = _compute_fitting_font_size(
@@ -2197,10 +2354,11 @@ def rebuild_deck_pptx_from_storyboard(
     counselor_info: dict[str, Any] | None = None,
     template_id: str | None = None,
     default_tier: str = "BEAUTIFIED",
+    deck_style: dict[str, Any] | None = None,
 ) -> str:
     """Cleanly coerces slide dicts to SlideSpecs and generates a .PPTX deck.
     
-    Preserves all presentation attributes (template_id, palettes, visuals, layouts).
+    Preserves all presentation attributes (template_id, palettes, visuals, layouts, deck_style).
     """
     visible_slides = []
     for s_raw in storyboard_slides:
@@ -2210,6 +2368,8 @@ def rebuild_deck_pptx_from_storyboard(
         valid_fields = {k: v for k, v in s_dict.items() if k in SlideSpec.model_fields}
         if "beautification_tier" not in valid_fields or not valid_fields["beautification_tier"]:
             valid_fields["beautification_tier"] = default_tier
+        if isinstance(deck_style, dict) and not valid_fields.get("deck_style"):
+            valid_fields["deck_style"] = dict(deck_style)
         visible_slides.append(SlideSpec(**valid_fields))
 
     req = PowerPointBuildRequest(
@@ -2218,13 +2378,15 @@ def rebuild_deck_pptx_from_storyboard(
         counselor_info=CounselorTitleSlideInfo(**counselor_info) if counselor_info else None,
         output_path=str(output_path),
         template_id=str(template_id or "default_workbench"),
+        deck_style=dict(deck_style) if isinstance(deck_style, dict) else None,
     )
-    generate_bsa_slide_deck_pptx(req)
+    generate_bsa_slide_deck_pptx(req, deck_style=deck_style)
     return str(output_path)
 
 
 def generate_bsa_slide_deck_pptx(
     request: Any,
+    deck_style: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Generates a 16:9 widescreen PowerPoint presentation with zero AABB overlaps.
 
@@ -2235,6 +2397,7 @@ def generate_bsa_slide_deck_pptx(
     Args:
         request: A validated `PowerPointBuildRequest` (or raw dictionary) containing `badge_name`,
             `slides`, `counselor_info`, `output_path`, and optional `hitl_confirmation_token`.
+        deck_style: Optional global or per-deck style configuration dictionary.
 
     Returns:
         Dict[str, Any]: A serialized `PowerPointBuildResult` dictionary (`status='SUCCESS'`,
@@ -2283,6 +2446,14 @@ def generate_bsa_slide_deck_pptx(
         or (getattr(request.slides[0], "template_id", None) if request.slides else None)
         or "default_workbench"
     )
+    effective_deck_style: Optional[Dict[str, Any]] = None
+    if isinstance(deck_style, dict):
+        effective_deck_style = dict(deck_style)
+    elif isinstance(getattr(request, "deck_style", None), dict):
+        effective_deck_style = dict(request.deck_style)
+    elif request.slides and isinstance(getattr(request.slides[0], "deck_style", None), dict):
+        effective_deck_style = dict(request.slides[0].deck_style)
+
     deck_tier = (
         normalize_visual_theme(getattr(request.slides[0], "beautification_tier", "STANDARD"), default="STANDARD")
         if request.slides
@@ -2486,6 +2657,12 @@ def generate_bsa_slide_deck_pptx(
     for idx, slide_spec in enumerate(request.slides, start=1):
         if not getattr(slide_spec, "template_id", None) or slide_spec.template_id == "default_workbench":
             slide_spec.template_id = req_template_id
+        if effective_deck_style is not None:
+            merged_ds = dict(effective_deck_style)
+            if isinstance(getattr(slide_spec, "deck_style", None), dict):
+                merged_ds.update(slide_spec.deck_style)
+            slide_spec.deck_style = merged_ds
+        eff_style = _get_slide_effective_style(slide_spec)
         s_tier = normalize_visual_theme(getattr(slide_spec, "beautification_tier", deck_tier), default=deck_tier)
         content_slide = add_template_slide(False, s_tier)
         slide_num = idx + 1
@@ -2505,16 +2682,34 @@ def generate_bsa_slide_deck_pptx(
         )
 
         # ---------------------------------------------------------------------
-        # ZONE 1: Borderless Centered Slide Title [x: 0.60..12.733, y: header_top_in]
+        # ZONE 1: Slide Title [x: 0.60..12.733, y: header_top_in]
         # ---------------------------------------------------------------------
         hdr_top_in = float(getattr(safe_bounds, "header_top_in", 0.20) or 0.20)
-        hdr_h_in = float(getattr(safe_bounds, "header_height_in", 0.82) or 0.82)
+        hdr_h_in = max(0.55, min(float(getattr(safe_bounds, "header_height_in", 0.82) or 0.82), round(1.06 - hdr_top_in, 2)))
+        hdr_chrome = str(eff_style.get("header_chrome_style") or "MINIMAL_ACCENT").upper()
+        hdr_title_rgb = s_title_rgb
+        if hdr_chrome == "FULL_BANNER" and not tpl_profile.top_banner_url:
+            banner_bg = content_slide.shapes.add_shape(
+                MSO_SHAPE.ROUNDED_RECTANGLE,
+                Inches(0.60),
+                Inches(hdr_top_in),
+                Inches(12.133),
+                Inches(hdr_h_in),
+            )
+            banner_bg.name = f"CardAccent_HeaderBanner_{len(content_slide.shapes)}"
+            _set_rounded_rect_radius(banner_bg, 12.133, hdr_h_in, radius_in=0.07)
+            banner_bg.fill.solid()
+            banner_bg.fill.fore_color.rgb = RGBColor(*s_primary_rgb)
+            banner_bg.line.fill.background()
+            banner_bg.text_frame.word_wrap = True
+            hdr_title_rgb = (255, 255, 255)
+
         header_box = content_slide.shapes.add_textbox(
             Inches(0.60), Inches(hdr_top_in), Inches(12.133), Inches(hdr_h_in)
         )
         htf = header_box.text_frame
         htf.word_wrap = True
-        htf.vertical_anchor = MSO_ANCHOR.TOP
+        htf.vertical_anchor = MSO_ANCHOR.MIDDLE if hdr_chrome == "FULL_BANNER" else MSO_ANCHOR.TOP
         hp = htf.paragraphs[0]
         title_str = _clean_text(slide_spec.title) or f"Requirement {slide_spec.req_number}"
         hdr_pt = (
@@ -2527,7 +2722,7 @@ def generate_bsa_slide_deck_pptx(
             title_str,
             "",
             font_size_pt=hdr_pt,
-            anchor_rgb=s_title_rgb,
+            anchor_rgb=hdr_title_rgb,
             space_after_pt=0.0,
             align=PP_ALIGN.CENTER,
         )
@@ -2555,13 +2750,28 @@ def generate_bsa_slide_deck_pptx(
             slide_spec.diagram_path = resolved_diagram
         has_visual = bool(resolved_diagram and os.path.exists(resolved_diagram))
 
-        # Determine whether this slide needs a bottom bar (for safety warnings or full-page diagram captions)
+        # Determine whether this slide needs a bottom bar (respecting safety_banner_mode)
+        safety_mode = str(eff_style.get("safety_banner_mode") or "ACUTE_HAZARDS_ONLY").upper()
+        if not slide_spec.safety_warning:
+            show_safety_warning = False
+        elif safety_mode in ("ALL_WARNINGS", "COMPACT_ACCENT"):
+            show_safety_warning = True
+        else:
+            show_safety_warning = (
+                _is_acute_safety_hazard(slide_spec.safety_warning, badge_title)
+                or (req_template_id == "default_workbench" and not effective_deck_style)
+            )
+
         has_bottom_bar = (
-            bool(slide_spec.safety_warning)
+            show_safety_warning
             or (arch == "FULL_BLEED_IMAGE_EXPLAINER" and has_visual)
         )
         max_content_bottom = float(safe_bounds.content_bottom_max_in)
-        safety_bar_h = float(safe_bounds.safety_bar_height_in)
+        safety_bar_h = (
+            min(0.56, float(safe_bounds.safety_bar_height_in))
+            if (show_safety_warning and safety_mode == "COMPACT_ACCENT")
+            else float(safe_bounds.safety_bar_height_in)
+        )
         safety_bar_top = round(max_content_bottom - safety_bar_h, 2)
         content_bottom = round(safety_bar_top - 0.10, 2) if has_bottom_bar else max_content_bottom
 
@@ -2590,10 +2800,15 @@ def generate_bsa_slide_deck_pptx(
             )
             if has_req_strip:
                 raw_verbatim = _clean_text(slide_spec.verbatim_requirement_text)
+                req_max_chars = 115 if hdr_chrome == "COMPACT_SINGLE_LINE" else 205
                 verbatim_text = (
-                    raw_verbatim
-                    if str(slide_spec.req_number).lower() == "overview"
-                    else _format_top_requirement_strip_text(str(slide_spec.req_number), raw_verbatim, max_chars=205)
+                    _concise_card_body(raw_verbatim, max_words=18, max_chars=req_max_chars)
+                    if (str(slide_spec.req_number).lower() == "overview" and hdr_chrome == "COMPACT_SINGLE_LINE")
+                    else (
+                        raw_verbatim
+                        if str(slide_spec.req_number).lower() == "overview"
+                        else _format_top_requirement_strip_text(str(slide_spec.req_number), raw_verbatim, max_chars=req_max_chars)
+                    )
                 )
                 strip_anchor = (
                     "Curriculum & Local Context"
@@ -2601,15 +2816,24 @@ def generate_bsa_slide_deck_pptx(
                     else f"Official Requirement {slide_spec.req_number}"
                 )
                 full_strip_line = f"{strip_anchor}: {verbatim_text}"
-                strip_h = (
-                    0.74
-                    if len(full_strip_line) <= 95
-                    else (0.92 if len(full_strip_line) <= 180 else 1.08)
-                )
+                if hdr_chrome == "COMPACT_SINGLE_LINE":
+                    strip_h = 0.58
+                else:
+                    strip_h = (
+                        0.74
+                        if len(full_strip_line) <= 95
+                        else (0.92 if len(full_strip_line) <= 180 else 1.08)
+                    )
                 strip_bg = (30, 41, 59) if s_tier == "STUDIO" else (s_card_bg_rgb if s_tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
+                strip_container_style = (
+                    "LEFT_ACCENT_LINE"
+                    if (_ACTIVE_CONTAINER_STYLE in ("CLEAN_OPEN", "LEFT_ACCENT_LINE") or hdr_chrome == "COMPACT_SINGLE_LINE")
+                    else "BOXED_CARDS"
+                )
                 req_strip = _add_styled_box(
                     content_slide, left_in=0.60, top_in=1.10, width_in=12.133, height_in=strip_h,
                     bg_rgb=strip_bg, border_rgb=s_accent_rgb, border_pt=1.5, left_accent_rgb=s_accent_rgb,
+                    container_style=strip_container_style,
                 )
                 rstf = req_strip.text_frame
                 rstf.margin_top = Inches(0.05)
@@ -2685,16 +2909,24 @@ def generate_bsa_slide_deck_pptx(
         # ---------------------------------------------------------------------
         # OPTIONAL ZONE 5: Bottom Safety Warning or Full-Bleed Diagram Bar
         # ---------------------------------------------------------------------
-        if slide_spec.safety_warning:
-            warn_str = _concise_card_body(_clean_text(slide_spec.safety_warning), max_words=28, max_chars=185)
+        if show_safety_warning and slide_spec.safety_warning:
+            warn_max_words = 18 if safety_mode == "COMPACT_ACCENT" else 28
+            warn_max_chars = 125 if safety_mode == "COMPACT_ACCENT" else 185
+            warn_str = _concise_card_body(_clean_text(slide_spec.safety_warning), max_words=warn_max_words, max_chars=warn_max_chars)
             warn_font_pt = _compute_fitting_font_size(
                 [f"🛡️ Guide to Safe Scouting: {warn_str}"], box_w_in=11.95, box_h_in=safety_bar_h, min_pt=12.5, max_pt=15.5, space_after_pt=0.0
             )
             warn_bg = (42, 24, 32) if s_tier == "STUDIO" else ScoutsBSAPalette.SOFT_RED_CARD_RGB
             warn_border = (248, 113, 113) if s_tier == "STUDIO" else ScoutsBSAPalette.EAGLE_RED_RGB
+            safety_container_style = (
+                "LEFT_ACCENT_LINE"
+                if (safety_mode == "COMPACT_ACCENT" or _ACTIVE_CONTAINER_STYLE in ("CLEAN_OPEN", "LEFT_ACCENT_LINE"))
+                else "BOXED_CARDS"
+            )
             callout_box = _add_styled_box(
                 content_slide, left_in=0.60, top_in=safety_bar_top, width_in=12.133, height_in=safety_bar_h,
                 bg_rgb=warn_bg, border_rgb=warn_border, border_pt=1.5, left_accent_rgb=warn_border,
+                container_style=safety_container_style,
             )
             stf = callout_box.text_frame
             stf.margin_top = Inches(0.05)
@@ -2811,12 +3043,18 @@ def generate_bsa_slide_deck_pptx(
         except OSError:
             pass
 
+    resolved_summary = resolve_effective_slide_style(
+        template_profile=tpl_profile,
+        deck_style=effective_deck_style,
+        slide_spec=request.slides[0] if request.slides else None,
+    )
     result = PowerPointBuildResult(
         badge_name=badge_title,
         slide_count=len(prs.slides),
         output_path=os.path.abspath(out_filename),
         is_eagle_required=eagle_flag,
         template_id=tpl_profile.template_id,
+        deck_style=resolved_summary,
         status="SUCCESS",
     )
     return result.model_dump()

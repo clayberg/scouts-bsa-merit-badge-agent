@@ -29,6 +29,7 @@ from src.memory.session_store import (
     get_counselor_favorites,
     get_counselor_workspace,
     list_counselor_workspaces,
+    load_default_deck_style_preferences,
     retrieve_pamphlet_memory_chunks,
     save_counselor_workspace,
 )
@@ -36,6 +37,7 @@ from src.tools.template_engine import (
     get_template_profile,
     load_template_catalog,
     normalize_visual_theme,
+    resolve_effective_slide_style,
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -112,7 +114,16 @@ def read_mcp_resource(uri: str) -> Dict[str, Any]:
 
     if clean_uri == "bsa://templates/catalog":
         profiles = [p.model_dump() for p in load_template_catalog()]
-        return {"uri": clean_uri, "mimeType": "application/json", "data": {"total": len(profiles), "templates": profiles}}
+        default_prefs = load_default_deck_style_preferences()
+        return {
+            "uri": clean_uri,
+            "mimeType": "application/json",
+            "data": {
+                "total": len(profiles),
+                "templates": profiles,
+                "default_deck_style_preferences": default_prefs,
+            },
+        }
 
     if clean_uri == "bsa://workspaces/list":
         ws = list_counselor_workspaces()
@@ -236,6 +247,8 @@ def mcp_tool_create_merit_badge_slide_deck(
     state_code: str = "CA",
     workspace_title: str = "",
     session_label: str = "",
+    layout_style_preset: Optional[str] = None,
+    deck_style: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Builds a complete Merit Badge teaching slide deck, applies the chosen PowerPoint template, and saves a persistent workspace."""
     from src.server import _load_or_build_cached_default_deck
@@ -253,6 +266,11 @@ def mcp_tool_create_merit_badge_slide_deck(
 
     tpl_prof = get_template_profile(template_id)
     tier_norm = normalize_visual_theme(visual_theme)
+    merged_ds = dict(deck_style or {})
+    if layout_style_preset and "layout_style_preset" not in merged_ds:
+        merged_ds["layout_style_preset"] = layout_style_preset
+    eff_style = resolve_effective_slide_style(tpl_prof, deck_style=merged_ds if merged_ds else None)
+
     for s in slides_raw:
         if isinstance(s, dict):
             s["template_id"] = tpl_prof.template_id
@@ -261,7 +279,7 @@ def mcp_tool_create_merit_badge_slide_deck(
     slug = badge_file_slug(clean_badge)
     out_pptx = REPO_ROOT / "deliverables" / f"{slug}_{tpl_prof.template_id}_Deck.pptx"
     out_pptx.parent.mkdir(parents=True, exist_ok=True)
-    if not out_pptx.exists() or out_pptx.stat().st_size < 10000:
+    if merged_ds or not out_pptx.exists() or out_pptx.stat().st_size < 10000:
         rebuild_deck_pptx_from_storyboard(
             badge_name=clean_badge,
             storyboard_slides=slides_raw,
@@ -269,11 +287,13 @@ def mcp_tool_create_merit_badge_slide_deck(
             counselor_info=c_info.model_dump() if hasattr(c_info, "model_dump") else getattr(c_info, "__dict__", None),
             template_id=tpl_prof.template_id,
             default_tier=tier_norm,
+            deck_style=eff_style,
         )
         pptx_res = {"output_path": str(out_pptx)}
         deck_res["pptx_path"] = pptx_res.get("output_path")
         deck_res["pptx_download_url"] = f"/deliverables/{out_pptx.name}"
         deck_res["template_id"] = tpl_prof.template_id
+    deck_res["deck_style"] = eff_style
 
     ws_meta = save_counselor_workspace(
         {
@@ -281,6 +301,7 @@ def mcp_tool_create_merit_badge_slide_deck(
             "badge_name": clean_badge,
             "session_label": session_label or "",
             "template_id": tpl_prof.template_id,
+            "deck_style": eff_style,
             "counselor_info": c_info.model_dump(),
             "deck_result": deck_res,
             "slide_count": len(slides_raw),
@@ -293,6 +314,7 @@ def mcp_tool_create_merit_badge_slide_deck(
         "badge_name": clean_badge,
         "template_id": tpl_prof.template_id,
         "template_name": tpl_prof.name,
+        "deck_style": eff_style,
         "slide_count": len(slides_raw),
         "pptx_download_url": deck_res.get("pptx_download_url", ""),
     }
@@ -329,8 +351,11 @@ def mcp_tool_update_slide_in_deck(
     presenter_notes: Optional[str] = None,
     archetype: Optional[str] = None,
     visual_caption: Optional[str] = None,
+    container_style_override: Optional[str] = None,
+    image_frame_style_override: Optional[str] = None,
+    header_chrome_style_override: Optional[str] = None,
 ) -> Dict[str, Any]:
-    """Surgically edits a slide's title, bullet points, speaker notes, or archetype inside a saved workspace."""
+    """Surgically edits a slide's title, bullet points, speaker notes, archetype, or style overrides inside a saved workspace."""
     ws = get_counselor_workspace(workspace_id, include_deck_payload=True)
     if not ws:
         return {"status": "ERROR", "message": f"Workspace '{workspace_id}' not found."}
@@ -351,6 +376,12 @@ def mcp_tool_update_slide_in_deck(
         target["archetype"] = str(archetype).strip().upper()
     if visual_caption is not None:
         target["visual_caption"] = str(visual_caption).strip()
+    if container_style_override is not None:
+        target["container_style_override"] = str(container_style_override).strip().upper()
+    if image_frame_style_override is not None:
+        target["image_frame_style_override"] = str(image_frame_style_override).strip().upper()
+    if header_chrome_style_override is not None:
+        target["header_chrome_style_override"] = str(header_chrome_style_override).strip().upper()
 
     ws["custom_edits_count"] = int(ws.get("custom_edits_count") or 0) + 1
     save_counselor_workspace(ws)
@@ -363,6 +394,9 @@ def mcp_tool_update_slide_in_deck(
             "archetype": target.get("archetype"),
             "bullet_count": len(target.get("bullet_points") or []),
             "visual_caption": target.get("visual_caption"),
+            "container_style_override": target.get("container_style_override"),
+            "image_frame_style_override": target.get("image_frame_style_override"),
+            "header_chrome_style_override": target.get("header_chrome_style_override"),
         },
     }
 
@@ -476,6 +510,8 @@ def mcp_tool_apply_powerpoint_template(
     template_id: str,
     visual_theme: Optional[str] = None,
     accent_palette_key: Optional[str] = None,
+    layout_style_preset: Optional[str] = None,
+    deck_style: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Applies any built-in or uploaded PowerPoint template to a saved deck workspace and rebuilds its .pptx file."""
     ws = get_counselor_workspace(workspace_id, include_deck_payload=True)
@@ -500,24 +536,36 @@ def mcp_tool_apply_powerpoint_template(
         for s in slides_raw:
             if isinstance(s, dict):
                 s["accent_palette_key"] = str(accent_palette_key).upper()
+
+    merged_ds = dict(ws.get("deck_style") or {})
+    if isinstance(deck_style, dict):
+        merged_ds.update(deck_style)
+    if layout_style_preset:
+        merged_ds["layout_style_preset"] = layout_style_preset
+    eff_style = resolve_effective_slide_style(prof, deck_style=merged_ds if merged_ds else None)
+
     rebuild_deck_pptx_from_storyboard(
         badge_name=ws["badge_name"],
         storyboard_slides=slides_raw,
         output_path=str(out_pptx),
         counselor_info=c_info.model_dump() if hasattr(c_info, "model_dump") else getattr(c_info, "__dict__", None),
         template_id=prof.template_id,
+        deck_style=eff_style,
     )
     pptx_res = {"output_path": str(out_pptx)}
     deck["pptx_path"] = pptx_res.get("output_path")
     deck["pptx_download_url"] = f"/deliverables/{out_pptx.name}"
     deck["template_id"] = prof.template_id
+    deck["deck_style"] = eff_style
     ws["template_id"] = prof.template_id
+    ws["deck_style"] = eff_style
     save_counselor_workspace(ws)
     return {
         "status": "SUCCESS",
         "workspace_id": workspace_id,
         "template_id": prof.template_id,
         "template_name": prof.name,
+        "deck_style": eff_style,
         "safe_bounds": prof.safe_bounds.model_dump(),
         "pptx_download_url": deck["pptx_download_url"],
     }
@@ -690,15 +738,23 @@ def mcp_tool_audit_deck_conformance(workspace_id: str) -> Dict[str, Any]:
         ws = get_counselor_workspace(workspace_id, include_deck_payload=True) or ws
         pptx_path = (ws.get("deck_result") or {}).get("pptx_path")
 
-    from src.agents.reviewer import check_pptx_conformance
+    from src.agents.reviewer import audit_deck_visual_quality, check_pptx_conformance
 
     report = check_pptx_conformance(str(pptx_path or ""))
+    vq_audit = audit_deck_visual_quality(
+        str(pptx_path or ""),
+        template_id=ws.get("template_id", "default_workbench"),
+        deck_style=ws.get("deck_style"),
+        conformance_dict=report,
+    )
     return {
         "status": "SUCCESS",
         "workspace_id": workspace_id,
         "badge_name": ws["badge_name"],
         "template_id": ws.get("template_id", "default_workbench"),
+        "deck_style": ws.get("deck_style"),
         "conformance_report": report,
+        "visual_quality_audit": vq_audit,
     }
 
 
@@ -752,6 +808,15 @@ MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
                 "state_code": {"type": "string", "description": "2-letter US State code for local grounding."},
                 "workspace_title": {"type": "string", "description": "Optional custom title for the saved deck workspace."},
                 "session_label": {"type": "string", "description": "Optional class section label (e.g. 'Morning Patrol')."},
+                "layout_style_preset": {
+                    "type": "string",
+                    "description": "Optional layout style preset ('AUTO_TEMPLATE', 'CLEAN_OPEN', 'LEFT_ACCENT_LINE', 'BOXED_CARDS').",
+                    "enum": ["AUTO_TEMPLATE", "CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS"],
+                },
+                "deck_style": {
+                    "type": "object",
+                    "description": "Optional DeckStyleConfig dictionary.",
+                },
             },
         },
         "handler": mcp_tool_create_merit_badge_slide_deck,
@@ -783,6 +848,9 @@ MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
                 "presenter_notes": {"type": "string"},
                 "archetype": {"type": "string"},
                 "visual_caption": {"type": "string"},
+                "container_style_override": {"type": "string", "enum": ["CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS"]},
+                "image_frame_style_override": {"type": "string", "enum": ["FRAMELESS_CLEAN", "SOFT_SHADOW", "FRAMED_CARD"]},
+                "header_chrome_style_override": {"type": "string", "enum": ["MINIMAL_ACCENT", "SOLID_PILL"]},
             },
         },
         "handler": mcp_tool_update_slide_in_deck,
@@ -830,6 +898,15 @@ MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
                 "template_id": {"type": "string", "description": "e.g. 'scouting_america_250', 'scouting_america_forest_sunrise', 'scouting_america_topographic', 'classic_outdoor_silhouette_navy'."},
                 "visual_theme": {"type": "string", "description": "Optional 'WARM_CREAM' ('CREAM'), 'CRISP_WHITE' ('WHITE'), or 'DARK_SLATE' ('SLATE')."},
                 "accent_palette_key": {"type": "string", "description": "Optional 'NAVY_GOLD', 'OLIVE_FOREST', 'EAGLE_CRIMSON', 'SLATE_ACTION', or 'MATCH_TEMPLATE'."},
+                "layout_style_preset": {
+                    "type": "string",
+                    "description": "Optional 'AUTO_TEMPLATE', 'CLEAN_OPEN', 'LEFT_ACCENT_LINE', or 'BOXED_CARDS'.",
+                    "enum": ["AUTO_TEMPLATE", "CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS"],
+                },
+                "deck_style": {
+                    "type": "object",
+                    "description": "Optional DeckStyleConfig dictionary.",
+                },
             },
         },
         "handler": mcp_tool_apply_powerpoint_template,

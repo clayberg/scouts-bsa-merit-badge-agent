@@ -1145,12 +1145,14 @@ function bindFilterAndSlideControls() {
     const newArch = document.getElementById("codesign-archetype-select")?.value || slide.archetype || "SPLIT_VISUAL_EXPLAINER";
     const newTheme = document.getElementById("codesign-theme-select")?.value || slide.visual_theme || "NUMBERED_STEP_CARDS";
     const newPalette = document.getElementById("codesign-palette-select")?.value || slide.accent_palette_key || "NAVY_GOLD";
+    const newContainerOverride = document.getElementById("codesign-container-style-select")?.value || slide.container_style_override || "AUTO_DECK";
     const rawSourceVal = document.getElementById("codesign-source-select")?.value || "keep_current";
     const visSourceMode =
       rawSourceVal === "none" || (newArch === "CONCEPT_TEXT_SLIDE" && rawSourceVal === "keep_current")
         ? "none"
         : rawSourceVal;
     const applyBtn = document.getElementById("btn-apply-codesign");
+    slide.container_style_override = newContainerOverride;
 
     try {
       if (applyBtn) {
@@ -1166,17 +1168,21 @@ function bindFilterAndSlideControls() {
           new_archetype: newArch,
           new_visual_theme: newTheme,
           new_accent_palette: newPalette,
+          container_style_override: newContainerOverride,
           visual_source_mode: visSourceMode,
           slide_data: slide,
           storyboard_slides: slides,
           counselor_info: state.currentResult.counselor_info || {},
           output_path: state.currentResult.output_path || "",
+          template_id: state.activeTemplateId || "bsa_scouting_america",
+          deck_style: typeof getCurrentDeckStyleConfig === "function" ? getCurrentDeckStyleConfig() : undefined,
         }),
       }).then((r) => r.json());
 
       slide.archetype = resp.new_archetype || (visSourceMode === "none" ? "CONCEPT_TEXT_SLIDE" : newArch);
       slide.visual_theme = newTheme;
       slide.accent_palette_key = newPalette;
+      slide.container_style_override = newContainerOverride;
       slide.beautification_tier =
         visSourceMode === "ai_hero"
           ? "STUDIO"
@@ -2035,6 +2041,21 @@ async function executeStreamingWorkflow(badgeName) {
     `;
   }
 
+  const activeTemplateId =
+    state.activeTemplateId ||
+    document.getElementById("template-select")?.value ||
+    "bsa_scouting_america";
+  const activeDeckStyle =
+    typeof getCurrentDeckStyleConfig === "function"
+      ? getCurrentDeckStyleConfig()
+      : {
+          layout_style: "AUTO_TEMPLATE",
+          text_container_style: "AUTO",
+          image_frame_style: "AUTO",
+          header_chrome_style: "AUTO",
+          typography_scale: "COMFORTABLE",
+          safety_banner_mode: "ACUTE_HAZARDS_ONLY",
+        };
   const paramsObj = {
     badge_name: badgeName,
     depth_mode: depthMode,
@@ -2046,6 +2067,13 @@ async function executeStreamingWorkflow(badgeName) {
     location_or_zip: locationOrZip,
     email_address: email,
     phone_number: phone,
+    template_id: activeTemplateId,
+    layout_style: activeDeckStyle.layout_style,
+    text_container_style: activeDeckStyle.text_container_style,
+    image_frame_style: activeDeckStyle.image_frame_style,
+    header_chrome_style: activeDeckStyle.header_chrome_style,
+    typography_scale: activeDeckStyle.typography_scale,
+    safety_banner_mode: activeDeckStyle.safety_banner_mode,
   };
   if (customLogoPath) {
     paramsObj.custom_troop_logo_path = customLogoPath;
@@ -2112,6 +2140,8 @@ async function executeStreamingWorkflow(badgeName) {
             email_address: email,
             phone_number: phone,
             custom_troop_logo_path: customLogoPath || null,
+            template_id: activeTemplateId,
+            deck_style: activeDeckStyle,
           }),
         }).then((r) => r.json());
         hydrateWorkbench(res);
@@ -2914,6 +2944,99 @@ function conciseCardBody(bodyText, maxWords = 24, maxChars = 150) {
   return res;
 }
 
+const DECK_STYLE_PREFS_STORAGE_KEY = "bsa_default_deck_style_prefs_v1";
+
+function getCurrentDeckStyleConfig() {
+  const layoutEl = document.getElementById("deck-layout-style-select");
+  const textEl = document.getElementById("deck-text-container-select");
+  const imgEl = document.getElementById("deck-image-frame-select");
+  const hdrEl = document.getElementById("deck-header-chrome-select");
+  const typoEl = document.getElementById("deck-typography-scale-select");
+  const safetyEl = document.getElementById("deck-safety-banner-select");
+
+  return {
+    layout_style: layoutEl?.value || state.deckStyle?.layout_style || "AUTO_TEMPLATE",
+    text_container_style: textEl?.value || state.deckStyle?.text_container_style || "AUTO",
+    image_frame_style: imgEl?.value || state.deckStyle?.image_frame_style || "AUTO",
+    header_chrome_style: hdrEl?.value || state.deckStyle?.header_chrome_style || "AUTO",
+    typography_scale: typoEl?.value || state.deckStyle?.typography_scale || "COMFORTABLE",
+    safety_banner_mode: safetyEl?.value || state.deckStyle?.safety_banner_mode || "ACUTE_HAZARDS_ONLY",
+  };
+}
+window.getCurrentDeckStyleConfig = getCurrentDeckStyleConfig;
+
+function resolveEffectiveSlideStyle(slide) {
+  const ds = getCurrentDeckStyleConfig();
+  state.deckStyle = ds;
+  const activeTplId =
+    state.activeTemplateId ||
+    document.getElementById("template-select")?.value ||
+    "bsa_scouting_america";
+  const isArtworkTemplate = Boolean(activeTplId && activeTplId !== "default_workbench");
+
+  const layoutStyle =
+    ds.layout_style === "AUTO_TEMPLATE"
+      ? isArtworkTemplate
+        ? "CLEAN_OPEN"
+        : "BOXED_CARDS"
+      : ds.layout_style || "CLEAN_OPEN";
+
+  const slideOverride = String(slide?.container_style_override || "AUTO_DECK").toUpperCase();
+  const textContainer =
+    slideOverride && slideOverride !== "AUTO_DECK"
+      ? slideOverride
+      : ds.text_container_style && ds.text_container_style !== "AUTO"
+      ? ds.text_container_style
+      : layoutStyle;
+
+  const imageFrame =
+    ds.image_frame_style && ds.image_frame_style !== "AUTO"
+      ? ds.image_frame_style
+      : textContainer === "BOXED_CARDS"
+      ? "FRAMED_CARD"
+      : "FRAMELESS_CLEAN";
+
+  const headerChrome =
+    ds.header_chrome_style && ds.header_chrome_style !== "AUTO"
+      ? ds.header_chrome_style
+      : textContainer === "BOXED_CARDS" && !isArtworkTemplate
+      ? "FULL_BANNER"
+      : "MINIMAL_ACCENT";
+
+  return {
+    layout_style: layoutStyle,
+    text_container_style: textContainer,
+    image_frame_style: imageFrame,
+    header_chrome_style: headerChrome,
+    typography_scale: ds.typography_scale || "COMFORTABLE",
+    safety_banner_mode: ds.safety_banner_mode || "ACUTE_HAZARDS_ONLY",
+  };
+}
+window.resolveEffectiveSlideStyle = resolveEffectiveSlideStyle;
+
+function isAcuteSafetyHazardSlide(slide, archetype, normTheme) {
+  if (!slide || !slide.safety_warning) return false;
+  if (archetype === "SAFETY_CRITICAL_CALLOUT" || normTheme === "SAFETY_ALERT_SPLIT") {
+    return true;
+  }
+  const warnText = String(slide.safety_warning || "");
+  if (slide.req_number === "Overview" || slide.req_number === "Sources") {
+    return false;
+  }
+  return /\b(911|bleed|tourniquet|chok|cpr|aed|hypothermia|heat\s*stroke|heat\s*exhaustion|burn|fracture|shock|lightning|drown|poison|venom|anaphylax|epinephrine|concussion|spinal|triage|life-threatening|personal\s+flotation|pfd|belay|firearm|range\s+safety|chemical\s+splash|eye\s+protection|open\s+flame|carbon\s+monoxide|swiftwater|whitewater|frostbite)\b/i.test(
+    warnText
+  );
+}
+
+function formatConciseReqSubtitle(verbatimText, maxChars = 205) {
+  const clean = String(verbatimText || "").replace(/\s+/g, " ").trim();
+  if (clean.length <= maxChars) return clean;
+  const sliced = clean.slice(0, maxChars);
+  const lastSpace = sliced.lastIndexOf(" ");
+  const cut = lastSpace > 120 ? sliced.slice(0, lastSpace) : sliced;
+  return `${cut.replace(/[,;:\-(]+$/, "")}…`;
+}
+
 function renderActiveSlide(idx) {
   const res = state.currentResult;
   if (!res) return;
@@ -2964,6 +3087,7 @@ function renderActiveSlide(idx) {
     document.getElementById("fullscreen-hud-counter");
   if (idx === -1) {
     const coverTokens = resolveSlidePaletteTokens(null, deckTier);
+    const coverEffStyle = resolveEffectiveSlideStyle(null);
     document.getElementById("active-slide-index-chip").textContent = `1 / ${totalSlides}`;
     document.getElementById("active-slide-req-chip").textContent = "Cover Slide";
     if (fsCounterEl) fsCounterEl.textContent = `Slide 1 of ${totalSlides} • Cover Slide`;
@@ -2976,6 +3100,15 @@ function renderActiveSlide(idx) {
     if (stageEl) {
       stageEl.style.background = coverTokens.stageBg;
       stageEl.style.border = coverTokens.stageBorder;
+      stageEl.setAttribute("data-text-container", coverEffStyle.text_container_style);
+      stageEl.setAttribute("data-image-frame", coverEffStyle.image_frame_style);
+      stageEl.setAttribute("data-header-chrome", coverEffStyle.header_chrome_style);
+      stageEl.setAttribute("data-typography-scale", coverEffStyle.typography_scale);
+      stageEl.setAttribute("data-safety-banner", coverEffStyle.safety_banner_mode);
+      stageEl.style.setProperty("--slide-accent", coverTokens.primaryHex || "#1E3A8A");
+      stageEl.style.setProperty("--slide-fg-ink", coverTokens.textFg || "#0F172A");
+      stageEl.style.setProperty("--slide-fg-muted", coverTokens.subTextFg || "#334155");
+      stageEl.style.setProperty("--slide-title-ink", coverTokens.isStudio ? "#F8FAFC" : (coverTokens.primaryHex || "#0F172A"));
     }
     if (headerBand) {
       headerBand.style.borderTop = "none";
@@ -3126,6 +3259,7 @@ function renderActiveSlide(idx) {
   const thmSel = document.getElementById("codesign-theme-select");
   const palSel = document.getElementById("codesign-palette-select");
   const srcSel = document.getElementById("codesign-source-select");
+  const contStyleSel = document.getElementById("codesign-container-style-select");
   const validArchs = [
     "SPLIT_VISUAL_EXPLAINER",
     "STEP_BY_STEP_PROCEDURE_4CARD",
@@ -3149,6 +3283,7 @@ function renderActiveSlide(idx) {
   if (archSel) archSel.value = validArchs.includes(archetype) ? archetype : "SPLIT_VISUAL_EXPLAINER";
   if (thmSel) thmSel.value = normTheme && thmSel.querySelector(`option[value="${normTheme}"]`) ? normTheme : "NUMBERED_STEP_CARDS";
   if (palSel) palSel.value = slide.accent_palette_key || "NAVY_GOLD";
+  if (contStyleSel) contStyleSel.value = slide.container_style_override || "AUTO_DECK";
   if (srcSel) {
     srcSel.value =
       archetype === "CONCEPT_TEXT_SLIDE" || (!slide.diagram_url && slide.visual_source_label?.includes("None"))
@@ -3159,10 +3294,27 @@ function renderActiveSlide(idx) {
   }
   populateQuickImageSwitcher(slide);
 
-  // Apply Layer-0 Magazine Vector Card Header, Stage Background & Border
+  const effStyle = resolveEffectiveSlideStyle(slide);
+  const isBoxedContainerMode = effStyle.text_container_style === "BOXED_CARDS";
+  const isCleanOrLineMode = !isBoxedContainerMode;
+  const isSequentialSlide =
+    archetype === "STEP_BY_STEP_PROCEDURE_4CARD" ||
+    normTheme === "TIMELINE_CHEVRON_CARDS" ||
+    archetype === "WORKED_EXAMPLE_TEMPLATE";
+
+  // Apply Layer-0 Magazine Vector Card Header, Stage Background, Border & v2.0 Data Attributes
   if (stageEl) {
     stageEl.style.background = tokens.stageBg;
     stageEl.style.border = tokens.stageBorder;
+    stageEl.setAttribute("data-text-container", effStyle.text_container_style);
+    stageEl.setAttribute("data-image-frame", effStyle.image_frame_style);
+    stageEl.setAttribute("data-header-chrome", effStyle.header_chrome_style);
+    stageEl.setAttribute("data-typography-scale", effStyle.typography_scale);
+    stageEl.setAttribute("data-safety-banner", effStyle.safety_banner_mode);
+    stageEl.style.setProperty("--slide-accent", tokens.primaryHex || "#1E3A8A");
+    stageEl.style.setProperty("--slide-fg-ink", tokens.textFg || "#0F172A");
+    stageEl.style.setProperty("--slide-fg-muted", tokens.subTextFg || "#334155");
+    stageEl.style.setProperty("--slide-title-ink", tokens.isStudio ? "#F8FAFC" : (tokens.primaryHex || "#0F172A"));
   }
   const titleEl = document.getElementById("stage-slide-title");
   if (titleEl) {
@@ -3174,7 +3326,7 @@ function renderActiveSlide(idx) {
     headerBand.style.background = tokens.headerBg;
   }
   if (magBadge) {
-    if (tokens.isBeautified) {
+    if (tokens.isBeautified && effStyle.header_chrome_style === "FULL_BANNER") {
       magBadge.classList.remove("hidden");
       const badgeLabel = slide.callout_badge_text || visTheme;
       magBadge.innerHTML = `<span style="display:inline-block; background:${tokens.badgeBg}; color:${tokens.badgeFg}; border:1px solid ${tokens.accentHex}; font-size:0.72rem; font-weight:700; padding:2px 10px; border-radius:999px;">🎨 ${escapeHtml(formatSlideThemeLabel(tokens.tier).toUpperCase())} &bull; ${escapeHtml(badgeLabel)}</span>`;
@@ -3202,9 +3354,16 @@ function renderActiveSlide(idx) {
       reqStripBox.style.display = "flex";
       reqStripBox.style.borderColor = tokens.accentHex;
       reqStripBox.style.background = tokens.isBeautified ? tokens.cardBg : "#FFFFFF";
-      document.getElementById("stage-req-verbatim").innerHTML = `<strong style="color:${tokens.primaryHex};">${escapeHtml(reqHeaderLabel)}:</strong> <span style="color:${tokens.textFg};">${escapeHtml(slide.verbatim_requirement_text)}</span>`;
+      const rawVerbatim = String(slide.verbatim_requirement_text || "").trim();
+      const displayReqText =
+        effStyle.header_chrome_style !== "FULL_BANNER" && isCleanOrLineMode
+          ? formatConciseReqSubtitle(rawVerbatim, effStyle.header_chrome_style === "COMPACT_SINGLE_LINE" ? 140 : 205)
+          : rawVerbatim;
+      reqStripBox.title = rawVerbatim;
+      document.getElementById("stage-req-verbatim").innerHTML = `<strong style="color:${tokens.primaryHex};">${escapeHtml(reqHeaderLabel)}:</strong> <span style="color:${tokens.textFg};">${escapeHtml(displayReqText)}</span>`;
     } else {
       reqStripBox.style.display = "none";
+      reqStripBox.title = "";
     }
   }
 
@@ -3230,13 +3389,16 @@ function renderActiveSlide(idx) {
     }
 
     if (!tokens.isBeautified) {
+      if (isCleanOrLineMode) {
+        prefix = `<span class="m3-clean-point-marker" style="color:${anchorColor};">▸</span> `;
+      }
       return { style, anchorColor, bodyColor, prefix };
     }
 
     if (normTheme === "DARK_SLATE_SPOTLIGHT") {
       style = `background:#1E293B; border:1.5px solid #F4C430; border-left:6px solid #38BDF8; color:#F8FAFC; box-shadow:0 4px 12px rgba(15,23,42,0.22);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
-      anchorColor = "#F4C430";
-      bodyColor = "#E2E8F0";
+      anchorColor = isCleanOrLineMode && !tokens.isStudio ? tokens.primaryHex : "#F4C430";
+      bodyColor = isCleanOrLineMode && !tokens.isStudio ? tokens.textFg : "#E2E8F0";
       prefix = `<span style="color:#38BDF8; font-weight:900; margin-right:6px;">★</span>`;
     } else if (normTheme === "SAFETY_ALERT_SPLIT") {
       const sBg = tokens.isStudio ? "#311018" : "#FFF1F2";
@@ -3256,9 +3418,13 @@ function renderActiveSlide(idx) {
       style = `background:${tokens.cardBg}; border:1.5px solid ${tokens.accentHex}; border-top:5px solid ${tokens.primaryHex}; color:${tokens.textFg}; box-shadow:0 3px 10px rgba(15,23,42,0.08);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       prefix = `<span style="color:${tokens.accentHex}; font-weight:900; margin-right:6px;">◆</span>`;
     } else {
-      // NUMBERED_STEP_CARDS (default)
-      const numFg = tokens.isStudio ? "#0F172A" : "#FFFFFF";
-      prefix = `<span style="display:inline-block; background:${tokens.primaryHex}; color:${numFg}; font-family:'JetBrains Mono',monospace; font-size:0.73rem; font-weight:700; padding:1px 7px; border-radius:6px; margin-right:7px;">0${bpIdx + 1}</span>`;
+      // NUMBERED_STEP_CARDS (default) — Only show 01..04 badges in Clean/Line mode when the slide is genuinely sequential
+      if (isCleanOrLineMode && !isSequentialSlide) {
+        prefix = `<span class="m3-clean-point-marker" style="color:${anchorColor}; margin-right:5px;">▸</span>`;
+      } else {
+        const numFg = tokens.isStudio ? "#0F172A" : "#FFFFFF";
+        prefix = `<span style="display:inline-block; background:${tokens.primaryHex}; color:${numFg}; font-family:'JetBrains Mono',monospace; font-size:0.73rem; font-weight:700; padding:1px 7px; border-radius:6px; margin-right:7px;">0${bpIdx + 1}</span>`;
+      }
     }
     return { style, anchorColor, bodyColor, prefix };
   }
@@ -3283,11 +3449,11 @@ function renderActiveSlide(idx) {
     const rightBg = tokens.isStudio ? "#311018" : "#FFF5F5";
     const rightAnchor = tokens.isStudio ? "#FB7185" : "#CE1126";
     grid.innerHTML = `
-      <div class="m3-slide-card-item" style="border-top: 4px solid ${tokens.primaryHex}; background:${tokens.cardBg}; color:${tokens.textFg};">
+      <div class="m3-slide-card-item m3-slide-card" style="--slide-accent:${tokens.primaryHex}; border-top: 4px solid ${tokens.primaryHex}; background:${tokens.cardBg}; color:${tokens.textFg};">
         <div class="m3-slide-card-anchor" style="color:${tokens.primaryHex};">${escapeHtml(cmp.left_header || "Concept A")}</div>
         ${(cmp.left_points || []).map((pt) => `<div class="m3-slide-card-text" style="margin-top:4px; color:${tokens.subTextFg};">&bull; ${escapeHtml(pt)}</div>`).join("")}
       </div>
-      <div class="m3-slide-card-item" style="border-top: 4px solid ${rightAnchor}; background:${rightBg}; color:${tokens.textFg};">
+      <div class="m3-slide-card-item m3-slide-card" style="--slide-accent:${rightAnchor}; border-top: 4px solid ${rightAnchor}; background:${rightBg}; color:${tokens.textFg};">
         <div class="m3-slide-card-anchor" style="color:${rightAnchor};">${escapeHtml(cmp.right_header || "Concept B")}</div>
         ${(cmp.right_points || []).map((pt) => `<div class="m3-slide-card-text" style="margin-top:4px; color:${tokens.subTextFg};">&bull; ${escapeHtml(pt)}</div>`).join("")}
       </div>
@@ -3339,8 +3505,8 @@ function renderActiveSlide(idx) {
     grid3.innerHTML = colSpecs
       .map(
         (col) => `
-        <div class="m3-slide-card-item" style="border:1.5px solid ${col.color}; border-top:5px solid ${col.color}; background:${col.bg}; color:${tokens.textFg};">
-          <div class="m3-slide-card-anchor" style="color:${col.color}; margin-bottom:6px;">${escapeHtml(col.header)}</div>
+        <div class="m3-slide-card-item m3-triage-column-card" style="--triage-col-accent:${col.color}; border:1.5px solid ${col.color}; border-top:5px solid ${col.color}; background:${col.bg}; color:${tokens.textFg};">
+          <div class="m3-slide-card-anchor m3-triage-col-header" style="color:${col.color}; margin-bottom:6px;">${escapeHtml(col.header)}</div>
           ${col.items
             .map((it) =>
               it.req
@@ -3352,9 +3518,9 @@ function renderActiveSlide(idx) {
       )
       .join("");
     leftZone.appendChild(grid3);
-    if (bullets[3]) {
+    if (bullets[3] && isBoxedContainerMode) {
       const localCard = document.createElement("div");
-      localCard.className = "m3-slide-card-item";
+      localCard.className = "m3-slide-card-item m3-slide-card";
       localCard.style.cssText = `${baseCardSpec.style} margin-top:8px;`;
       localCard.innerHTML = `<div class="m3-slide-card-text" style="color:${baseCardSpec.bodyColor};">📍 ${escapeHtml(bullets[3])}</div>`;
       leftZone.appendChild(localCard);
@@ -3363,8 +3529,17 @@ function renderActiveSlide(idx) {
     (archetype === "STEP_BY_STEP_PROCEDURE_4CARD" || archetype === "GEAR_CHECKLIST_GRID") &&
     bullets.length >= 2
   ) {
+    const useVerticalStack =
+      archetype === "STEP_BY_STEP_PROCEDURE_4CARD" &&
+      hasVisual &&
+      !hideVisualForIntro &&
+      isCleanOrLineMode;
     const grid2x2 = document.createElement("div");
-    grid2x2.className = "m3-slide-2col-grid";
+    if (useVerticalStack) {
+      grid2x2.style.cssText = "display:flex; flex-direction:column; gap:8px; width:100%;";
+    } else {
+      grid2x2.className = "m3-slide-2col-grid";
+    }
     bullets.slice(0, 6).forEach((bp, bpIdx) => {
       const cSpec = getCardThemeSpec(bpIdx);
       const colonParts = String(bp).split(":");
@@ -3386,7 +3561,7 @@ function renderActiveSlide(idx) {
         inner = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${badgeTag}${escapeHtml(conciseCardBody(bp))}</div>`;
       }
       const itemEl = document.createElement("div");
-      itemEl.className = "m3-slide-card-item";
+      itemEl.className = "m3-slide-card-item m3-slide-step-card m3-slide-card";
       itemEl.style.cssText = cSpec.style;
       itemEl.innerHTML = inner;
       grid2x2.appendChild(itemEl);
@@ -3412,7 +3587,7 @@ function renderActiveSlide(idx) {
         ([k, v], i) => {
           const cSpec = getCardThemeSpec(i);
           return `
-        <div class="m3-slide-card-item" style="padding:8px 12px; ${cSpec.style}">
+        <div class="m3-slide-card-item m3-slide-step-card m3-slide-card" style="padding:8px 12px; ${cSpec.style}">
           <span style="font-weight:700; color:${cSpec.anchorColor};">${cSpec.prefix}${escapeHtml(k)}:</span>
           <span class="m3-slide-card-text" style="color:${cSpec.bodyColor};"> ${escapeHtml(String(v))}</span>
         </div>`;
@@ -3440,7 +3615,7 @@ function renderActiveSlide(idx) {
     const correctOptIdx = correctLetterMatch ? correctLetterMatch[1].toUpperCase().charCodeAt(0) - 65 : 0;
 
     leftZone.innerHTML = `
-      <div class="m3-slide-card-item" style="background:${tokens.cardBg}; border:2px solid ${tokens.primaryHex}; color:${tokens.textFg};">
+      <div class="m3-slide-card-item m3-quiz-reveal-card" style="background:${tokens.cardBg}; border:2px solid ${tokens.primaryHex}; color:${tokens.textFg};">
         <div class="m3-slide-card-anchor" style="color:${tokens.primaryHex}; justify-content:space-between;">
           <span>❓ Patrol Scenario Challenge</span>
           <span style="font-size:0.70rem; font-weight:700; opacity:0.85;">Click an option to test your patrol!</span>
@@ -3450,13 +3625,13 @@ function renderActiveSlide(idx) {
       ${(qz.options || [])
         .map((opt, i) => {
           const revealedClass = isQuizRevealed && i === correctOptIdx ? " quiz-selected-correct" : "";
-          return `<div class="m3-slide-card-item m3-quiz-option-card${revealedClass}" data-quiz-opt-idx="${i}" style="${baseCardSpec.style}"><strong style="color:${baseCardSpec.anchorColor};">Option ${String.fromCharCode(65 + i)}:</strong> <span style="color:${baseCardSpec.bodyColor};">${escapeHtml(opt)}</span></div>`;
+          return `<div class="m3-slide-card-item m3-quiz-option-card m3-quiz-reveal-card${revealedClass}" data-quiz-opt-idx="${i}" style="${baseCardSpec.style}"><strong style="color:${baseCardSpec.anchorColor};">Option ${String.fromCharCode(65 + i)}:</strong> <span style="color:${baseCardSpec.bodyColor};">${escapeHtml(opt)}</span></div>`;
         })
         .join("")}
       <button type="button" class="m3-quiz-reveal-btn ${isQuizRevealed ? "hidden" : ""}" id="btn-reveal-quiz-answer">
         👁️ Reveal Verified Answer &amp; Explanation
       </button>
-      <div class="m3-slide-card-item ${isQuizRevealed ? "" : "hidden"}" id="quiz-verified-answer-card" style="background:${tokens.isStudio ? "#064E3B" : "#DCFCE7"}; border:1.5px solid #15803D; color:${tokens.textFg};">
+      <div class="m3-slide-card-item m3-quiz-reveal-card ${isQuizRevealed ? "" : "hidden"}" id="quiz-verified-answer-card" style="background:${tokens.isStudio ? "#064E3B" : "#DCFCE7"}; border:1.5px solid #15803D; color:${tokens.textFg};">
         <div class="m3-slide-card-anchor" style="color:${tokens.isStudio ? "#4ADE80" : "#15803D"};">✓ Verified Answer: ${escapeHtml(qz.correct_answer || "")}</div>
         <div class="m3-slide-card-text" style="color:${tokens.subTextFg};">${escapeHtml(qz.explanation || "")}</div>
       </div>
@@ -3488,7 +3663,9 @@ function renderActiveSlide(idx) {
     bullets.forEach((bp, bpIdx) => {
       const cSpec = getCardThemeSpec(bpIdx);
       const card = document.createElement("div");
-      card.className = "m3-slide-card-item";
+      card.className = isCleanOrLineMode
+        ? "m3-slide-card-item m3-slide-bullet-row m3-slide-card"
+        : "m3-slide-card-item m3-slide-card";
       card.style.cssText = cSpec.style;
       const colonIdx = bp.indexOf(":");
       const isSourcesSlide = archetype === "SOURCES_AND_REFERENCES";
@@ -3496,13 +3673,34 @@ function renderActiveSlide(idx) {
         const anchor = bp.slice(0, colonIdx);
         const rawRest = bp.slice(colonIdx + 1).trim();
         const rest = isSourcesSlide ? rawRest : conciseCardBody(rawRest);
-        card.innerHTML = `
-          <div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${cSpec.prefix}${escapeHtml(anchor)}</div>
-          <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(rest)}</div>
-        `;
+        if (isCleanOrLineMode && !isSequentialSlide) {
+          card.innerHTML = `
+            <div class="m3-clean-point-row">
+              <span class="m3-clean-point-marker" style="color:${cSpec.anchorColor};">▸</span>
+              <div>
+                <span class="m3-clean-point-lead" style="color:${cSpec.anchorColor};">${escapeHtml(anchor)}:</span>
+                <span class="m3-clean-point-body" style="color:${cSpec.bodyColor};"> ${escapeHtml(rest)}</span>
+              </div>
+            </div>
+          `;
+        } else {
+          card.innerHTML = `
+            <div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${cSpec.prefix}${escapeHtml(anchor)}</div>
+            <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(rest)}</div>
+          `;
+        }
       } else {
         const bodyTxt = isSourcesSlide ? bp : conciseCardBody(bp);
-        card.innerHTML = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${cSpec.prefix}${escapeHtml(bodyTxt)}</div>`;
+        if (isCleanOrLineMode && !isSequentialSlide) {
+          card.innerHTML = `
+            <div class="m3-clean-point-row">
+              <span class="m3-clean-point-marker" style="color:${cSpec.anchorColor};">▸</span>
+              <div class="m3-clean-point-body" style="color:${cSpec.bodyColor};">${escapeHtml(bodyTxt)}</div>
+            </div>
+          `;
+        } else {
+          card.innerHTML = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${cSpec.prefix}${escapeHtml(bodyTxt)}</div>`;
+        }
       }
       leftZone.appendChild(card);
     });
@@ -3558,8 +3756,14 @@ function renderActiveSlide(idx) {
     }
   }
 
-  // Safety bar: show ONLY when the slide has an explicit safety warning
-  if (slide.safety_warning) {
+  // Safety bar: respect safety_banner_mode ("ACUTE_HAZARDS_ONLY" | "COMPACT_ACCENT" | "ALL_WARNINGS")
+  const shouldShowSafetyWarning =
+    Boolean(slide.safety_warning) &&
+    (effStyle.safety_banner_mode === "ALL_WARNINGS" ||
+      effStyle.safety_banner_mode === "COMPACT_ACCENT" ||
+      !isCleanOrLineMode ||
+      isAcuteSafetyHazardSlide(slide, archetype, normTheme));
+  if (shouldShowSafetyWarning) {
     safetyBar?.classList.remove("hidden");
     if (safetyText) safetyText.textContent = `Guide to Safe Scouting: ${slide.safety_warning}`;
   } else {
@@ -10502,23 +10706,32 @@ function bindDocumentationViewerModal() {
 const TEMPLATE_STORAGE_KEY = "scouts_bsa_active_template_id_v1";
 
 function getActiveTemplateProfile() {
-  const tplId = state.activeTemplateId || "default_workbench";
+  const tplId = state.activeTemplateId || "bsa_scouting_america";
   const list = state.templateCatalog || [];
-  return list.find((t) => t.template_id === tplId) || list[0] || {
-    template_id: "default_workbench",
-    name: "Workbench Classic",
-    primary_hex: "#003F87",
-    accent_hex: "#D4AF37",
-    card_bg_hex: "#EFF6FF",
-    safe_bounds: {
-      header_top_in: 0.28,
-      content_top_min_in: 1.12,
-      content_bottom_max_in: 6.95,
-      left_margin_in: 0.60,
-      right_margin_in: 0.60,
-      footer_max_width_in: 12.13,
-    },
-  };
+  return (
+    list.find((t) => t.template_id === tplId) ||
+    list.find((t) => t.template_id === "bsa_scouting_america") ||
+    list[0] || {
+      template_id: "bsa_scouting_america",
+      name: "BSA Scouting America (Green)",
+      family_id: "brushed_banner",
+      family_name: "1. Brushed Banner Series",
+      variant_color: "green",
+      variant_label: "Green",
+      variant_swatch_hex: "#1B5E20",
+      primary_hex: "#1B5E20",
+      accent_hex: "#D4AF37",
+      card_bg_hex: "#F1F8E9",
+      safe_bounds: {
+        header_top_in: 0.28,
+        content_top_min_in: 1.12,
+        content_bottom_max_in: 6.72,
+        left_margin_in: 0.60,
+        right_margin_in: 0.60,
+        footer_max_width_in: 9.80,
+      },
+    }
+  );
 }
 
 function getContrastingTextHex(bgHex, fallbackHex = "#FFFFFF") {
@@ -10984,8 +11197,32 @@ function renderStageTemplateSplitDropdown() {
     })
     .join("");
 
+  const activeLayoutStyle = getCurrentDeckStyleConfig().layout_style || "AUTO_TEMPLATE";
+  const quickLayoutOptions = [
+    { val: "AUTO_TEMPLATE", label: "✨ Auto", title: "Match Template Style (Clean on Artwork, Boxed on Classic)" },
+    { val: "CLEAN_OPEN", label: "📖 Clean", title: "Clean & Open (Borderless Text & Frameless Images)" },
+    { val: "LEFT_ACCENT_LINE", label: "📏 Line", title: "Editorial Left-Accent Line (No Box Outlines)" },
+    { val: "BOXED_CARDS", label: "🗂️ Boxed", title: "Classic Boxed Cards (Framed Containers)" },
+  ];
+  const quickLayoutBtnsHtml = quickLayoutOptions
+    .map(
+      (opt) =>
+        `<button type="button" class="m3-stage-style-quick-btn ${
+          activeLayoutStyle === opt.val ? "active" : ""
+        }" data-stage-quick-layout="${escapeHtml(opt.val)}" title="${escapeHtml(opt.title)}">${escapeHtml(
+          opt.label
+        )}</button>`
+    )
+    .join("");
+
   menuEl.innerHTML = `
-    <div class="m3-stage-template-menu-header" style="padding:4px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
+    <div class="m3-stage-template-menu-header" style="padding:4px 10px 4px; font-size:0.67rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B;">
+      Deck Layout Style (Live Stage + .PPTX)
+    </div>
+    <div class="m3-stage-style-quick-row" role="group" aria-label="Quick Deck Layout Style">
+      ${quickLayoutBtnsHtml}
+    </div>
+    <div class="m3-stage-template-menu-header" style="padding:5px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-top:1px solid #E2E8F0; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
       Switch Slide Template (${list.length} Across ${groups.length} Styles)
     </div>
     <div style="max-height:290px; overflow-y:auto;">
@@ -10997,6 +11234,26 @@ function renderStageTemplateSplitDropdown() {
       </button>
     </div>
   `;
+
+  menuEl.querySelectorAll("[data-stage-quick-layout]").forEach((btn) => {
+    btn.addEventListener("click", async (ev) => {
+      ev.stopPropagation();
+      const layoutVal = btn.getAttribute("data-stage-quick-layout");
+      if (!layoutVal) return;
+      const sidebarLayoutSel = document.getElementById("deck-layout-style-select");
+      const modalLayoutSel = document.getElementById("modal-deck-layout-style-select");
+      if (sidebarLayoutSel) sidebarLayoutSel.value = layoutVal;
+      if (modalLayoutSel) modalLayoutSel.value = layoutVal;
+      const textSel = document.getElementById("deck-text-container-select");
+      const imgSel = document.getElementById("deck-image-frame-select");
+      const hdrSel = document.getElementById("deck-header-chrome-select");
+      if (textSel) textSel.value = "AUTO";
+      if (imgSel) imgSel.value = "AUTO";
+      if (hdrSel) hdrSel.value = "AUTO";
+      renderStageTemplateSplitDropdown();
+      await applyDeckStyleToActiveDeck(true);
+    });
+  });
 
   menuEl.querySelectorAll("[data-stage-quick-tpl]").forEach((btn) => {
     btn.addEventListener("click", async (ev) => {
@@ -11018,6 +11275,166 @@ function renderStageTemplateSplitDropdown() {
   });
 }
 
+function syncDeckStyleSelectorsUi(styleObj) {
+  const ds = styleObj || getCurrentDeckStyleConfig();
+  state.deckStyle = ds;
+  const sidebarLayoutSel = document.getElementById("deck-layout-style-select");
+  const modalLayoutSel = document.getElementById("modal-deck-layout-style-select");
+  const textSel = document.getElementById("deck-text-container-select");
+  const imgSel = document.getElementById("deck-image-frame-select");
+  const hdrSel = document.getElementById("deck-header-chrome-select");
+  const typoSel = document.getElementById("deck-typography-scale-select");
+  const safetySel = document.getElementById("deck-safety-banner-select");
+
+  if (sidebarLayoutSel && ds.layout_style) sidebarLayoutSel.value = ds.layout_style;
+  if (modalLayoutSel && ds.layout_style) modalLayoutSel.value = ds.layout_style;
+  if (textSel && ds.text_container_style) textSel.value = ds.text_container_style;
+  if (imgSel && ds.image_frame_style) imgSel.value = ds.image_frame_style;
+  if (hdrSel && ds.header_chrome_style) hdrSel.value = ds.header_chrome_style;
+  if (typoSel && ds.typography_scale) typoSel.value = ds.typography_scale;
+  if (safetySel && ds.safety_banner_mode) safetySel.value = ds.safety_banner_mode;
+}
+
+async function applyDeckStyleToActiveDeck(showNotification = false) {
+  const ds = getCurrentDeckStyleConfig();
+  state.deckStyle = ds;
+  syncDeckStyleSelectorsUi(ds);
+
+  if (state.currentResult) {
+    state.currentResult.deck_style = ds;
+    const activeIdx = typeof state.activeSlideIdx === "number" ? state.activeSlideIdx : -1;
+    renderActiveSlide(activeIdx);
+  }
+  renderStageTemplateSplitDropdown();
+
+  const slides = state.currentResult?.storyboard?.slides || [];
+  if (state.currentResult && slides.length > 0) {
+    if (state._deckStyleRebuildTimer) {
+      clearTimeout(state._deckStyleRebuildTimer);
+    }
+    state._deckStyleRebuildTimer = setTimeout(async () => {
+      try {
+        const prof = getActiveTemplateProfile();
+        const matchPaletteChecked = document.getElementById("template-match-palette-checkbox")?.checked !== false;
+        const resp = await fetch("/api/v1/templates/apply", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            badge_name: state.currentResult.badge_name || state.currentBadge || "First Aid",
+            template_id: prof.template_id,
+            storyboard_slides: slides,
+            counselor_info: state.currentResult.counselor_info || null,
+            accent_palette_key: matchPaletteChecked && prof.template_id !== "default_workbench" ? "MATCH_TEMPLATE" : null,
+            deck_style: ds,
+          }),
+        });
+        if (resp.ok) {
+          const data = await resp.json();
+          if (state.currentResult) {
+            if (data.output_path) state.currentResult.output_path = data.output_path;
+            if (data.pptx_download_url) {
+              state.currentResult.pptx_download_url = data.pptx_download_url;
+              if (typeof syncDeckExportSplitButtonUi === "function") {
+                syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
+              }
+            }
+          }
+        }
+      } catch (_e) {}
+    }, 180);
+  }
+
+  if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+    window.autoSaveActiveWorkspaceDebounced();
+  }
+  if (showNotification) {
+    const labelMap = {
+      AUTO_TEMPLATE: "Match Template Style",
+      CLEAN_OPEN: "Clean & Open (Borderless)",
+      LEFT_ACCENT_LINE: "Editorial Left-Accent Line",
+      BOXED_CARDS: "Classic Boxed Cards",
+    };
+    showToast(`🎛️ Applied "${labelMap[ds.layout_style] || ds.layout_style}" deck style across stage & .PPTX.`, "info");
+  }
+}
+window.applyDeckStyleToActiveDeck = applyDeckStyleToActiveDeck;
+
+async function saveDefaultDeckStylePreferences() {
+  const defaultTemplateId = state.activeTemplateId || document.getElementById("template-select")?.value || "bsa_scouting_america";
+  const ds = getCurrentDeckStyleConfig();
+  const payload = {
+    default_template_id: defaultTemplateId,
+    deck_style: ds,
+  };
+  try {
+    window.localStorage.setItem(DECK_STYLE_PREFS_STORAGE_KEY, JSON.stringify(payload));
+    window.localStorage.setItem(TEMPLATE_STORAGE_KEY, defaultTemplateId);
+  } catch (_e) {}
+  try {
+    await fetch("/api/v1/preferences/deck-style", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+  } catch (_e) {}
+  const prof = getActiveTemplateProfile();
+  showToast(`📌 Saved "${prof.name}" + "${ds.layout_style}" as your default deck style.`, "info");
+}
+
+async function resetDefaultDeckStylePreferences() {
+  const defaultPayload = {
+    default_template_id: "bsa_scouting_america",
+    deck_style: {
+      layout_style: "AUTO_TEMPLATE",
+      text_container_style: "AUTO",
+      image_frame_style: "AUTO",
+      header_chrome_style: "AUTO",
+      typography_scale: "COMFORTABLE",
+      safety_banner_mode: "ACUTE_HAZARDS_ONLY",
+    },
+  };
+  try {
+    window.localStorage.setItem(DECK_STYLE_PREFS_STORAGE_KEY, JSON.stringify(defaultPayload));
+    window.localStorage.setItem(TEMPLATE_STORAGE_KEY, "bsa_scouting_america");
+  } catch (_e) {}
+  syncDeckStyleSelectorsUi(defaultPayload.deck_style);
+  try {
+    await fetch("/api/v1/preferences/deck-style", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(defaultPayload),
+    });
+  } catch (_e) {}
+  await applyTemplateToActiveDeck("bsa_scouting_america", false);
+  await applyDeckStyleToActiveDeck(false);
+  showToast("↺ Reset default style to BSA Scouting America 🟢 + Clean Open layout.", "info");
+}
+
+async function loadDefaultDeckStylePreferences() {
+  let loadedPrefs = null;
+  try {
+    const raw = window.localStorage.getItem(DECK_STYLE_PREFS_STORAGE_KEY);
+    if (raw) {
+      loadedPrefs = JSON.parse(raw);
+    }
+  } catch (_e) {}
+
+  try {
+    const resp = await fetch("/api/v1/preferences/deck-style");
+    if (resp.ok) {
+      const serverPrefs = await resp.json();
+      if (serverPrefs && (serverPrefs.default_template_id || serverPrefs.deck_style)) {
+        loadedPrefs = loadedPrefs || serverPrefs;
+      }
+    }
+  } catch (_e) {}
+
+  if (loadedPrefs?.deck_style) {
+    syncDeckStyleSelectorsUi(loadedPrefs.deck_style);
+  }
+  return loadedPrefs;
+}
+
 function syncTemplateSelectorUi() {
   const prof = getActiveTemplateProfile();
   state.activeTemplateProfile = prof;
@@ -11037,7 +11454,7 @@ function syncTemplateSelectorUi() {
 }
 
 async function applyTemplateToActiveDeck(templateId, showNotification = true) {
-  state.activeTemplateId = templateId || "default_workbench";
+  state.activeTemplateId = templateId || "bsa_scouting_america";
   try {
     window.localStorage.setItem(TEMPLATE_STORAGE_KEY, state.activeTemplateId);
   } catch (_e) {}
@@ -11085,6 +11502,7 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
           storyboard_slides: slides,
           counselor_info: state.currentResult.counselor_info || null,
           accent_palette_key: matchPaletteChecked && prof.template_id !== "default_workbench" ? "MATCH_TEMPLATE" : null,
+          deck_style: getCurrentDeckStyleConfig(),
         }),
       });
       if (resp.ok) {
@@ -11301,10 +11719,13 @@ function renderTemplateCatalogGrid() {
 }
 
 async function initPowerPointTemplateStudio() {
-  state.activeTemplateId =
+  const loadedPrefs = await loadDefaultDeckStylePreferences();
+  const savedTpl =
+    loadedPrefs?.default_template_id ||
     window.localStorage.getItem(TEMPLATE_STORAGE_KEY) ||
-    window.localStorage.getItem("bsa_active_template_id_v1") ||
-    "default_workbench";
+    window.localStorage.getItem("bsa_active_template_id_v1");
+  state.activeTemplateId =
+    savedTpl && savedTpl !== "default_workbench" ? savedTpl : "bsa_scouting_america";
   state.templateCatalog = [];
   state.showSafeZoneXray = false;
 
@@ -11321,13 +11742,71 @@ async function initPowerPointTemplateStudio() {
     state.templateCatalog.length > 0 &&
     !state.templateCatalog.some((t) => t.template_id === state.activeTemplateId)
   ) {
-    state.activeTemplateId = "default_workbench";
+    state.activeTemplateId = "bsa_scouting_america";
   }
 
   syncTemplateSelectorUi();
   renderTemplateCatalogGrid();
 
+  // Bind Global Deck Layout Style Controls & Sub-Customizer Controls
+  const sidebarLayoutSel = document.getElementById("deck-layout-style-select");
+  const modalLayoutSel = document.getElementById("modal-deck-layout-style-select");
+  const resetSubStyleOverridesToAuto = () => {
+    const textSel = document.getElementById("deck-text-container-select");
+    const imgSel = document.getElementById("deck-image-frame-select");
+    const hdrSel = document.getElementById("deck-header-chrome-select");
+    if (textSel) textSel.value = "AUTO";
+    if (imgSel) imgSel.value = "AUTO";
+    if (hdrSel) hdrSel.value = "AUTO";
+  };
+
+  sidebarLayoutSel?.addEventListener("change", () => {
+    if (modalLayoutSel) modalLayoutSel.value = sidebarLayoutSel.value;
+    resetSubStyleOverridesToAuto();
+    applyDeckStyleToActiveDeck(true);
+  });
+
+  modalLayoutSel?.addEventListener("change", () => {
+    if (sidebarLayoutSel) sidebarLayoutSel.value = modalLayoutSel.value;
+    resetSubStyleOverridesToAuto();
+    applyDeckStyleToActiveDeck(true);
+  });
+
+  [
+    "deck-text-container-select",
+    "deck-image-frame-select",
+    "deck-header-chrome-select",
+    "deck-typography-scale-select",
+    "deck-safety-banner-select",
+  ].forEach((selId) => {
+    document.getElementById(selId)?.addEventListener("change", () => {
+      applyDeckStyleToActiveDeck(true);
+    });
+  });
+
+  document.getElementById("codesign-container-style-select")?.addEventListener("change", (ev) => {
+    const val = ev.target?.value || "AUTO_DECK";
+    const slides = state.currentResult?.storyboard?.slides || [];
+    const activeSlide = state.activeSlideIdx >= 0 ? slides[state.activeSlideIdx] : null;
+    if (activeSlide) {
+      activeSlide.container_style_override = val;
+      renderActiveSlide(state.activeSlideIdx);
+      applyDeckStyleToActiveDeck(false);
+    }
+  });
+
+  document.getElementById("btn-save-default-deck-style")?.addEventListener("click", () => {
+    saveDefaultDeckStylePreferences();
+  });
+  document.getElementById("btn-modal-save-default-deck-style")?.addEventListener("click", () => {
+    saveDefaultDeckStylePreferences();
+  });
+  document.getElementById("btn-reset-default-deck-style")?.addEventListener("click", () => {
+    resetDefaultDeckStylePreferences();
+  });
+
   const openModal = () => {
+    syncDeckStyleSelectorsUi();
     renderTemplateCatalogGrid();
     const m = document.getElementById("template-studio-modal");
     m?.classList.remove("hidden");

@@ -21,6 +21,7 @@ import re
 import sqlite3
 import threading
 import uuid
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
 from src.observability.logging_setup import logger, scrub_pii_before_sink, scrub_pii_from_structure
@@ -392,6 +393,15 @@ class PersistentSessionStore:
                     badge_name TEXT NOT NULL,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     PRIMARY KEY (counselor_id, badge_name)
+                )
+                """
+            )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS user_preferences (
+                    pref_key TEXT PRIMARY KEY,
+                    pref_json TEXT NOT NULL,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
                 """
             )
@@ -1188,12 +1198,16 @@ def save_counselor_workspace(
     ).strip()
 
     counselor_info = workspace_payload.get("counselor_info") or workspace_payload.get("troop_context") or (existing_ws.get("counselor_info") if existing_ws else {}) or {}
-    deck_result = (
+    deck_result = dict(
         workspace_payload.get("deck_result")
         or workspace_payload.get("deck_payload")
         or (existing_ws.get("deck_result") if existing_ws else {})
         or {}
     )
+    if isinstance(workspace_payload.get("deck_style"), dict):
+        deck_result["deck_style"] = dict(workspace_payload["deck_style"])
+    elif existing_ws and isinstance(existing_ws.get("deck_style"), dict) and "deck_style" not in deck_result:
+        deck_result["deck_style"] = dict(existing_ws["deck_style"])
     blue_card_roster = (
         workspace_payload.get("blue_card_roster")
         if workspace_payload.get("blue_card_roster")
@@ -1387,8 +1401,11 @@ def get_counselor_workspace(
                 "class_prep": _safe_json(row["class_prep_json"]),
                 "local_grounding": _safe_json(row["local_grounding_json"]),
             }
+            parsed_deck = _safe_json(row["deck_result_json"])
+            if isinstance(parsed_deck.get("deck_style"), dict):
+                res["deck_style"] = dict(parsed_deck["deck_style"])
             if include_deck_payload:
-                res["deck_result"] = _safe_json(row["deck_result_json"])
+                res["deck_result"] = parsed_deck
             return res
     except Exception:
         logger.debug("Database operation failed", exc_info=True)
@@ -1518,6 +1535,124 @@ def toggle_counselor_favorite(
         "is_favorite": target_state,
         "favorites": updated,
     }
+
+
+FACTORY_DEFAULT_DECK_STYLE_PREFS: Dict[str, Any] = {
+    "default_template_id": "bsa_scouting_america",
+    "default_slide_theme": "WARM_CREAM",
+    "default_layout_style_preset": "AUTO_TEMPLATE",
+    "text_container_style": "AUTO",
+    "image_frame_style": "AUTO",
+    "header_chrome_style": "AUTO",
+    "typography_scale": "COMFORTABLE",
+    "safety_banner_mode": "ACUTE_HAZARDS_ONLY",
+    "match_template_palette": True,
+}
+
+
+def _resolve_prefs_db_path(
+    db_path: Optional[Any] = None,
+    store: Optional[PersistentSessionStore] = None,
+) -> Path:
+    if db_path is not None:
+        return Path(db_path)
+    s = store or _default_store
+    return Path(s.db_path)
+
+
+def _ensure_user_preferences_table(conn: sqlite3.Connection) -> None:
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS user_preferences (
+            pref_key TEXT PRIMARY KEY,
+            pref_json TEXT NOT NULL,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """
+    )
+
+
+def load_default_deck_style_preferences(
+    db_path: Optional[Any] = None,
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    """Loads persisted default deck style preferences from SQLite, falling back to `FACTORY_DEFAULT_DECK_STYLE_PREFS`."""
+    resolved = dict(FACTORY_DEFAULT_DECK_STYLE_PREFS)
+    target_db = _resolve_prefs_db_path(db_path=db_path, store=store)
+    try:
+        with _SESSION_DB_LOCK, _connect_session_db(target_db) as conn:
+            _ensure_user_preferences_table(conn)
+            row = conn.execute(
+                "SELECT pref_json FROM user_preferences WHERE pref_key = ?",
+                ("default_deck_style",),
+            ).fetchone()
+            if row and row[0]:
+                parsed = json.loads(row[0])
+                if isinstance(parsed, dict):
+                    for k, v in parsed.items():
+                        if v is not None:
+                            resolved[k] = v
+    except Exception:
+        logger.debug("Failed to load default_deck_style preferences", exc_info=True)
+    return resolved
+
+
+def save_default_deck_style_preferences(
+    prefs: Dict[str, Any],
+    db_path: Optional[Any] = None,
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    """Merges and persists default deck style preferences in SQLite `user_preferences` (`pref_key='default_deck_style'`)."""
+    current = load_default_deck_style_preferences(db_path=db_path, store=store)
+    if isinstance(prefs, dict):
+        for k, v in prefs.items():
+            if v is not None:
+                current[k] = v
+        # Normalize convenience aliases if caller passed layout_style_preset or template_id
+        if "layout_style_preset" in prefs and "default_layout_style_preset" not in prefs and prefs.get("layout_style_preset"):
+            current["default_layout_style_preset"] = str(prefs["layout_style_preset"]).strip().upper()
+        if "template_id" in prefs and "default_template_id" not in prefs and prefs.get("template_id"):
+            current["default_template_id"] = str(prefs["template_id"]).strip()
+        if "slide_theme" in prefs and "default_slide_theme" not in prefs and prefs.get("slide_theme"):
+            current["default_slide_theme"] = str(prefs["slide_theme"]).strip().upper()
+
+    target_db = _resolve_prefs_db_path(db_path=db_path, store=store)
+    try:
+        with _SESSION_DB_LOCK, _connect_session_db(target_db) as conn:
+            _ensure_user_preferences_table(conn)
+            conn.execute(
+                """
+                INSERT INTO user_preferences (pref_key, pref_json, updated_at)
+                VALUES (?, ?, CURRENT_TIMESTAMP)
+                ON CONFLICT(pref_key) DO UPDATE SET
+                    pref_json = excluded.pref_json,
+                    updated_at = CURRENT_TIMESTAMP
+                """,
+                ("default_deck_style", json.dumps(current, ensure_ascii=False)),
+            )
+            conn.commit()
+    except Exception:
+        logger.debug("Failed to save default_deck_style preferences", exc_info=True)
+    return current
+
+
+def reset_default_deck_style_preferences(
+    db_path: Optional[Any] = None,
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    """Resets `default_deck_style` preferences in SQLite back to `FACTORY_DEFAULT_DECK_STYLE_PREFS`."""
+    target_db = _resolve_prefs_db_path(db_path=db_path, store=store)
+    try:
+        with _SESSION_DB_LOCK, _connect_session_db(target_db) as conn:
+            _ensure_user_preferences_table(conn)
+            conn.execute(
+                "DELETE FROM user_preferences WHERE pref_key = ?",
+                ("default_deck_style",),
+            )
+            conn.commit()
+    except Exception:
+        logger.debug("Failed to reset default_deck_style preferences", exc_info=True)
+    return dict(FACTORY_DEFAULT_DECK_STYLE_PREFS)
 
 
 

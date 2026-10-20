@@ -491,6 +491,22 @@ paths:
           type: string
           default: All Scouts (Ages 11–17)
           title: Audience Level
+      - name: template_id
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+      - name: layout_style_preset
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Layout Style Preset
       responses:
         '200':
           description: Successful Response
@@ -595,6 +611,22 @@ paths:
           type: string
           default: All Scouts (Ages 11–17)
           title: Audience Level
+      - name: template_id
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+      - name: layout_style_preset
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Layout Style Preset
       responses:
         '200':
           description: Successful Response
@@ -3935,6 +3967,364 @@ paths:
                 type: object
                 title: Response Api Admin Reset Circuit Breakers Api Admin Circuit
                   Breakers Reset Post
+  /api/v1/preferences/deck-style:
+    get:
+      summary: Api Get Deck Style Preferences
+      description: Returns persistent counselor default deck style preferences alongside
+        factory defaults.
+      operationId: api_get_deck_style_preferences_api_v1_preferences_deck_style_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Deck Style Preferences Api V1 Preferences
+                  Deck Style Get
+    post:
+      summary: Api Save Deck Style Preferences
+      description: Saves counselor default deck style preferences to SQLite (`user_preferences`).
+      operationId: api_save_deck_style_preferences_api_v1_preferences_deck_style_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeckStylePreferencesRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Deck Style Preferences Api V1 Preferences
+                  Deck Style Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    put:
+      summary: Api Save Deck Style Preferences
+      description: Saves counselor default deck style preferences to SQLite (`user_preferences`).
+      operationId: api_save_deck_style_preferences_api_v1_preferences_deck_style_put
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeckStylePreferencesRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Deck Style Preferences Api V1 Preferences
+                  Deck Style Put
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Reset Deck Style Preferences
+      description: Resets counselor default deck style preferences back to factory
+        defaults.
+      operationId: api_reset_deck_style_preferences_api_v1_preferences_deck_style_delete
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Reset Deck Style Preferences Api V1 Preferences
+                  Deck Style Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/preferences/deck-style:
+    get:
+      summary: Api Get Deck Style Preferences
+      description: Returns persistent counselor default deck style preferences alongside
+        factory defaults.
+      operationId: api_get_deck_style_preferences_api_preferences_deck_style_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Deck Style Preferences Api Preferences Deck
+                  Style Get
+    post:
+      summary: Api Save Deck Style Preferences
+      description: Saves counselor default deck style preferences to SQLite (`user_preferences`).
+      operationId: api_save_deck_style_preferences_api_preferences_deck_style_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeckStylePreferencesRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Deck Style Preferences Api Preferences Deck
+                  Style Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    put:
+      summary: Api Save Deck Style Preferences
+      description: Saves counselor default deck style preferences to SQLite (`user_preferences`).
+      operationId: api_save_deck_style_preferences_api_preferences_deck_style_put
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeckStylePreferencesRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Deck Style Preferences Api Preferences Deck
+                  Style Put
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    delete:
+      summary: Api Reset Deck Style Preferences
+      description: Resets counselor default deck style preferences back to factory
+        defaults.
+      operationId: api_reset_deck_style_preferences_api_preferences_deck_style_delete
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Reset Deck Style Preferences Api Preferences Deck
+                  Style Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/preferences/deck-style/reset:
+    post:
+      summary: Api Reset Deck Style Preferences
+      description: Resets counselor default deck style preferences back to factory
+        defaults.
+      operationId: api_reset_deck_style_preferences_api_v1_preferences_deck_style_reset_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Reset Deck Style Preferences Api V1 Preferences
+                  Deck Style Reset Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/preferences/deck-style/reset:
+    post:
+      summary: Api Reset Deck Style Preferences
+      description: Resets counselor default deck style preferences back to factory
+        defaults.
+      operationId: api_reset_deck_style_preferences_api_preferences_deck_style_reset_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Reset Deck Style Preferences Api Preferences Deck
+                  Style Reset Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/templates:
     get:
       summary: Api List Powerpoint Templates
@@ -5299,6 +5689,74 @@ components:
           title: Custom Troop Logo Path
       type: object
       title: CounselorProfileSaveRequest
+    DeckStylePreferencesRequest:
+      properties:
+        default_template_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Default Template Id
+          description: Default template profile ID.
+        default_slide_theme:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Default Slide Theme
+          description: Default slide theme ('WARM_CREAM', 'CRISP_WHITE', 'DARK_SLATE').
+        default_layout_style_preset:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Default Layout Style Preset
+          description: Default layout style preset ('AUTO_TEMPLATE', 'CLEAN_OPEN',
+            'LEFT_ACCENT_LINE', 'BOXED_CARDS').
+        layout_style_preset:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Layout Style Preset
+          description: Alias for default_layout_style_preset.
+        text_container_style:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Text Container Style
+          description: Optional granular text container style ('CLEAN_OPEN', 'LEFT_ACCENT_LINE',
+            'BOXED_CARDS').
+        image_frame_style:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Image Frame Style
+          description: Optional granular image frame style ('FRAMELESS_CLEAN', 'SOFT_SHADOW',
+            'FRAMED_CARD').
+        header_chrome_style:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Header Chrome Style
+          description: Optional granular header chrome style ('MINIMAL_ACCENT', 'SOLID_PILL').
+        typography_scale:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Typography Scale
+          description: Typography scale ('COMFORTABLE', 'COMPACT', 'LARGE').
+        safety_banner_mode:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Safety Banner Mode
+          description: Safety banner mode ('HAZARD_ONLY', 'ALL_SLIDES', 'HIDDEN').
+        match_template_palette:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Match Template Palette
+          description: Whether to harmonize card accents with the template's brand
+            palette.
+      type: object
+      title: DeckStylePreferencesRequest
     FavoriteToggleRequest:
       properties:
         badge_name:
@@ -5337,6 +5795,20 @@ components:
           title: Beautification Tier
           description: Deck visual tier.
           default: BEAUTIFIED
+        template_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+          description: Active PowerPoint template ID.
+          default: default_workbench
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+          description: Optional DeckStyleConfig dictionary.
         storyboard_slides:
           anyOf:
           - items:
@@ -5563,6 +6035,13 @@ components:
           title: Template Id
           description: Optional PowerPoint template ID.
           default: default_workbench
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+          description: Optional DeckStyleConfig dictionary.
       type: object
       title: SlideDeckCustomizeRequest
     SlideImageUploadRequest:
@@ -5641,6 +6120,20 @@ components:
           - type: 'null'
           title: Output Path
           description: Optional existing PPTX output path to overwrite.
+        template_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+          description: Optional active PowerPoint template ID.
+          default: default_workbench
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+          description: Optional DeckStyleConfig dictionary.
       type: object
       title: SlidePolishDeckBatchRequest
     SlidePolishEstimateRequest:
@@ -5731,6 +6224,20 @@ components:
           - type: 'null'
           title: Output Path
           description: Optional existing PPTX output path to overwrite.
+        template_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+          description: Optional active PowerPoint template ID.
+          default: default_workbench
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+          description: Optional DeckStyleConfig dictionary.
       type: object
       title: SlidePolishNotesRequest
     SlideRegenerateRequest:
@@ -5813,6 +6320,41 @@ components:
           - type: 'null'
           title: Output Path
           description: Optional existing .pptx output path to update.
+        template_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+          description: Optional active PowerPoint template ID.
+          default: default_workbench
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+          description: Optional deck-wide DeckStyleConfig dictionary.
+        container_style_override:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Container Style Override
+          description: Optional per-slide container style override ('CLEAN_OPEN',
+            'LEFT_ACCENT_LINE', 'BOXED_CARDS').
+        image_frame_style_override:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Image Frame Style Override
+          description: Optional per-slide image frame style override ('FRAMELESS_CLEAN',
+            'SOFT_SHADOW', 'FRAMED_CARD').
+        header_chrome_style_override:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Header Chrome Style Override
+          description: Optional per-slide header chrome style override ('MINIMAL_ACCENT',
+            'SOLID_PILL').
       type: object
       required:
       - badge_name
@@ -5900,6 +6442,20 @@ components:
           - type: 'null'
           title: Accent Palette Key
           description: Optional palette key or MATCH_TEMPLATE.
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+          description: Optional deck-wide DeckStyleConfig dictionary.
+        layout_style_preset:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Layout Style Preset
+          description: Optional shorthand layout style preset ('AUTO_TEMPLATE', 'CLEAN_OPEN',
+            'LEFT_ACCENT_LINE', 'BOXED_CARDS').
       type: object
       title: TemplateApplyRequest
     TemplateImportUrlRequest:
@@ -5914,6 +6470,12 @@ components:
           - type: 'null'
           title: Custom Name
           description: Optional display title for the imported template.
+        name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Name
+          description: Optional alias for custom_name.
         bottom_safe_in:
           type: number
           title: Bottom Safe In
@@ -6099,6 +6661,19 @@ components:
           - type: 'null'
           title: Webhook Url
           description: Optional webhook callback URL notified on completion.
+        template_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Id
+          description: Optional PowerPoint template ID override.
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+          description: Optional DeckStyleConfig override dictionary.
       type: object
       title: WorkflowRunRequest
     WorkspaceCloneRequest:
@@ -6122,6 +6697,11 @@ components:
           type: boolean
           title: Copy Roster
           default: false
+        clear_blue_card_roster:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Clear Blue Card Roster
       type: object
       title: WorkspaceCloneRequest
     WorkspaceSaveRequest:
@@ -6152,6 +6732,12 @@ components:
           type: string
           title: Template Id
           default: default_workbench
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
         counselor_info:
           additionalProperties: true
           type: object
@@ -6160,6 +6746,12 @@ components:
           additionalProperties: true
           type: object
           title: Deck Result
+        deck_payload:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Payload
         blue_card_roster:
           additionalProperties: true
           type: object
@@ -6195,6 +6787,10 @@ components:
         is_archived:
           type: boolean
           title: Is Archived
+          default: false
+        force_new:
+          type: boolean
+          title: Force New
           default: false
       type: object
       title: WorkspaceSaveRequest

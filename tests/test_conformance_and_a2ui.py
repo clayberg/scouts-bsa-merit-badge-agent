@@ -2943,6 +2943,170 @@ def test_workstreams_1_to_4_topographic_concurrency_mcp_and_modal_controller(tmp
     assert ui_html.index(">Slide Theme<") < ui_html.index('id="kpi-polish-tier"')
 
 
+def test_v38_slide_deck_ui_ux_global_styling_and_visual_quality_audit(tmp_path) -> None:
+    """Verifies Plan v2.0 Global Deck Styling, Unboxed PPTX Compiler, Visual Quality Auditor, and UI/Preferences."""
+    from pathlib import Path
+    from fastapi.testclient import TestClient
+    from src.server import app
+    from src.tools.template_engine import (
+        BUILTIN_TEMPLATES,
+        DEFAULT_FACTORY_TEMPLATE_ID,
+        get_template_profile,
+        resolve_effective_slide_style,
+    )
+    from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
+    from src.agents.reviewer import audit_deck_visual_quality
+
+    repo_root = Path(__file__).resolve().parents[1]
+
+    # 1. Verify Factory Default Template & TemplateProfile Style Defaults
+    assert DEFAULT_FACTORY_TEMPLATE_ID == "bsa_scouting_america"
+    wb_prof = get_template_profile("default_workbench")
+    assert wb_prof.default_text_container_style == "BOXED_CARDS"
+    assert wb_prof.default_image_frame_style == "FRAMELESS_CLEAN"
+    assert wb_prof.default_header_chrome_style == "MINIMAL_ACCENT"
+
+    bsa_prof = get_template_profile("bsa_scouting_america")
+    assert bsa_prof.default_text_container_style == "CLEAN_OPEN"
+    assert bsa_prof.default_image_frame_style == "FRAMELESS_CLEAN"
+    assert bsa_prof.default_header_chrome_style == "MINIMAL_ACCENT"
+
+    for tpl_prof in BUILTIN_TEMPLATES:
+        if tpl_prof.template_id != "default_workbench":
+            assert tpl_prof.default_text_container_style == "CLEAN_OPEN"
+
+    # 2. Verify 4-Tier Style Precedence in resolve_effective_slide_style
+    eff_auto_bsa = resolve_effective_slide_style("bsa_scouting_america", {"layout_style_preset": "AUTO_TEMPLATE"})
+    assert eff_auto_bsa["text_container_style"] == "CLEAN_OPEN"
+    assert eff_auto_bsa["image_frame_style"] == "FRAMELESS_CLEAN"
+
+    eff_auto_wb = resolve_effective_slide_style("default_workbench", {"layout_style_preset": "AUTO_TEMPLATE"})
+    assert eff_auto_wb["text_container_style"] == "BOXED_CARDS"
+
+    eff_line = resolve_effective_slide_style("default_workbench", {"layout_style_preset": "LEFT_ACCENT_LINE"})
+    assert eff_line["text_container_style"] == "LEFT_ACCENT_LINE"
+
+    eff_slide_override = resolve_effective_slide_style(
+        "bsa_scouting_america",
+        {"layout_style_preset": "CLEAN_OPEN"},
+        {"container_style_override": "BOXED_CARDS"},
+    )
+    assert eff_slide_override["text_container_style"] == "BOXED_CARDS"
+
+    # 3. Verify GET / PUT / DELETE /api/v1/preferences/deck-style REST Endpoints
+    client = TestClient(app)
+    get_res = client.get("/api/v1/preferences/deck-style")
+    assert get_res.status_code == 200
+    assert get_res.json()["preferences"]["default_template_id"] == "bsa_scouting_america"
+
+    put_res = client.put(
+        "/api/v1/preferences/deck-style",
+        json={
+            "default_template_id": "classic_outdoor_silhouette_navy",
+            "default_slide_theme": "CRISP_WHITE",
+            "default_layout_style_preset": "LEFT_ACCENT_LINE",
+            "typography_scale": "LARGE_PROJECTOR",
+        },
+    )
+    assert put_res.status_code == 200
+    assert put_res.json()["preferences"]["default_template_id"] == "classic_outdoor_silhouette_navy"
+    assert put_res.json()["preferences"]["default_layout_style_preset"] == "LEFT_ACCENT_LINE"
+    assert put_res.json()["preferences"]["typography_scale"] == "LARGE_PROJECTOR"
+
+    del_res = client.delete("/api/v1/preferences/deck-style")
+    assert del_res.status_code == 200
+    assert del_res.json()["preferences"]["default_template_id"] == "bsa_scouting_america"
+
+    # 4. Verify PPTX Unboxed Compiler & Stage-2 Visual Quality Auditor across CLEAN_OPEN vs BOXED_CARDS
+    sample_slides = [
+        {
+            "slide_number": 1,
+            "requirement_id": "Cover",
+            "title": "Weather Merit Badge",
+            "subtitle": "Troop 19 • Atmospheric Science",
+            "key_points": [],
+            "speaker_notes": "[SAY] Welcome to Weather Merit Badge.",
+            "layout_archetype": "TITLE_HERO_BANNER",
+            "template_id": "bsa_scouting_america",
+        },
+        {
+            "slide_number": 2,
+            "requirement_id": "Overview",
+            "title": "Weather Curriculum Roadmap",
+            "subtitle": "Session Plan & Triage",
+            "key_points": [
+                "Group Session: Meteorology vs Climate (Req 1-3)",
+                "Field Station: Cloud & Front Identification (Req 4-7)",
+                "Individual Project: Weather Log & Instrument Build (Req 8-11)",
+            ],
+            "speaker_notes": "[SAY] Here is our roadmap.",
+            "layout_archetype": "REQUIREMENTS_TRIAGE_MATRIX",
+            "template_id": "bsa_scouting_america",
+        },
+        {
+            "slide_number": 3,
+            "requirement_id": "1",
+            "title": "Meteorology & Earth's Atmosphere",
+            "subtitle": "Requirement 1",
+            "verbatim_requirement_text": "Define meteorology. Explain what weather is and what climate is. Discuss how the weather affects farmers, sailors, aviators, and the outdoor construction industry.",
+            "key_points": [
+                "Meteorology Definition: The scientific study of Earth's atmosphere and short-term weather processes.",
+                "Weather vs Climate: Weather describes hourly/daily state; climate tracks 30-year regional averages.",
+                "Aviation & Marine Impact: Pilots track wind shear and icing; mariners monitor barometric pressure.",
+                "Agriculture & Construction: Frost warnings and high winds govern planting and crane safety.",
+            ],
+            "speaker_notes": "[SAY] Let's compare weather and climate.",
+            "layout_archetype": "SPLIT_VISUAL_EXPLAINER",
+            "template_id": "bsa_scouting_america",
+        },
+    ]
+
+    clean_pptx = tmp_path / "weather_clean_open.pptx"
+    boxed_pptx = tmp_path / "weather_boxed_cards.pptx"
+
+    rebuild_deck_pptx_from_storyboard(
+        badge_name="Weather",
+        storyboard_slides=sample_slides,
+        output_path=clean_pptx,
+        template_id="bsa_scouting_america",
+        deck_style={"layout_style_preset": "CLEAN_OPEN", "typography_scale": "LARGE_PROJECTOR"},
+    )
+    rebuild_deck_pptx_from_storyboard(
+        badge_name="Weather",
+        storyboard_slides=sample_slides,
+        output_path=boxed_pptx,
+        template_id="default_workbench",
+        deck_style={"layout_style_preset": "BOXED_CARDS"},
+    )
+
+    clean_audit = audit_deck_visual_quality(clean_pptx)
+    boxed_audit = audit_deck_visual_quality(boxed_pptx)
+    assert clean_audit["aabb_overlap_count"] == 0
+    assert clean_audit["min_font_size_pt"] >= 12.0
+    assert clean_audit["avg_bordered_boxes_per_slide"] < boxed_audit["avg_bordered_boxes_per_slide"]
+
+    # 5. Verify Frontend HTML/CSS/JS Global Deck Style Controls & Externalized Patrol Scoreboard
+    ui_html = (repo_root / "ui" / "index.html").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+
+    assert '<option value="bsa_scouting_america" selected>' in ui_html
+    assert 'id="deck-layout-style-select"' in ui_html
+    assert 'id="deck-style-customizer-details"' in ui_html
+    assert 'id="btn-save-default-deck-style"' in ui_html
+    assert 'id="btn-reset-default-deck-style"' in ui_html
+    assert 'id="modal-deck-layout-style-select"' in ui_html
+    assert 'id="btn-modal-save-default-deck-style"' in ui_html
+    assert 'id="codesign-container-style-select"' in ui_html
+    assert ui_html.index('id="stage-patrol-scoreboard"') < ui_html.index('id="widescreen-slide-stage"')
+    assert 'data-text-container="CLEAN_OPEN"' in ui_css
+    assert 'data-text-container="LEFT_ACCENT_LINE"' in ui_css
+    assert 'data-image-frame="FRAMELESS_CLEAN"' in ui_css
+    assert "resolveEffectiveSlideStyle" in ui_js
+    assert "saveDefaultDeckStylePreferences" in ui_js
+
+
+
 
 
 

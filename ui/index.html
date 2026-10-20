@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261020c" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261020a" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -302,10 +302,10 @@
           </div>
           <select class="m3-select" id="template-select">
             <optgroup label="Workbench Default">
-              <option value="default_workbench" selected>Workbench Classic</option>
+              <option value="default_workbench">Workbench Classic</option>
             </optgroup>
             <optgroup label="1. Brushed Banner Series">
-              <option value="bsa_scouting_america">BSA Scouting America 🟢</option>
+              <option value="bsa_scouting_america" selected>BSA Scouting America 🟢</option>
               <option value="bsa_scouting_america_blue">BSA Scouting America 🔵</option>
               <option value="bsa_scouting_america_red">BSA Scouting America 🔴</option>
             </optgroup>
@@ -333,6 +333,68 @@
               <option value="scouting_america_high_adventure_rock">BSA High Adventure</option>
             </optgroup>
           </select>
+        </div>
+
+        <div class="m3-field-group">
+          <label class="m3-field-label" for="deck-layout-style-select">Deck Layout Style</label>
+          <select id="deck-layout-style-select" class="m3-select">
+            <option value="AUTO_TEMPLATE" selected>✨ Match Template Style (Recommended)</option>
+            <option value="CLEAN_OPEN">📖 Clean &amp; Open (Borderless Text &amp; Frameless Images)</option>
+            <option value="LEFT_ACCENT_LINE">📏 Editorial Left-Accent Line (No Boxes)</option>
+            <option value="BOXED_CARDS">🗂️ Classic Boxed Cards (Framed Containers)</option>
+          </select>
+
+          <details id="deck-style-customizer-details" class="m3-sub-expander">
+            <summary>🎛️ Customize Boxes, Image Frame &amp; Font Size...</summary>
+            <div class="m3-sub-expander-grid">
+              <label for="deck-text-container-select">Text Points Style
+                <select id="deck-text-container-select" class="m3-select-sm">
+                  <option value="AUTO" selected>Auto (From Layout Style)</option>
+                  <option value="CLEAN_OPEN">Borderless Hierarchy (Bold Colored Lead-In)</option>
+                  <option value="LEFT_ACCENT_LINE">Left Accent Line Only (No Box Outline)</option>
+                  <option value="BOXED_CARDS">Boxed Cards (Fill + Outline)</option>
+                </select>
+              </label>
+              <label for="deck-image-frame-select">Right Image Frame
+                <select id="deck-image-frame-select" class="m3-select-sm">
+                  <option value="AUTO" selected>Auto (From Layout Style)</option>
+                  <option value="FRAMELESS_CLEAN">Frameless Image + Clean Caption</option>
+                  <option value="SOFT_SHADOW">Rounded Image + Subtle Shadow</option>
+                  <option value="FRAMED_CARD">Framed Card Box Around Image</option>
+                </select>
+              </label>
+              <label for="deck-header-chrome-select">Top Header &amp; Requirement Strip
+                <select id="deck-header-chrome-select" class="m3-select-sm">
+                  <option value="AUTO" selected>Auto (Minimal on Artwork Templates)</option>
+                  <option value="MINIMAL_ACCENT">Minimal Kicker + Thin Accent Rule</option>
+                  <option value="COMPACT_SINGLE_LINE">Compact 1-Line Requirement Subtitle</option>
+                  <option value="FULL_BANNER">Full Solid Navy Header Banner</option>
+                </select>
+              </label>
+              <label for="deck-typography-scale-select">Slide Font Size Scale
+                <select id="deck-typography-scale-select" class="m3-select-sm">
+                  <option value="COMFORTABLE" selected>Comfortable Classroom (15–16pt Body)</option>
+                  <option value="LARGE_PROJECTOR">Large Projector / Camp Hall (17–18pt Body)</option>
+                  <option value="COMPACT">Compact Reference (13.5–14.5pt Body)</option>
+                </select>
+              </label>
+              <label for="deck-safety-banner-select">Bottom Safety Strip
+                <select id="deck-safety-banner-select" class="m3-select-sm">
+                  <option value="ACUTE_HAZARDS_ONLY" selected>Acute Physical / Field Hazards Only</option>
+                  <option value="COMPACT_ACCENT">Compact Bottom Accent Line</option>
+                  <option value="ALL_WARNINGS">Full Warning Box on Every Slide</option>
+                </select>
+              </label>
+              <div class="m3-sub-expander-actions">
+                <button type="button" id="btn-save-default-deck-style" class="m3-btn m3-btn-tonal m3-btn-xs" title="Save active template &amp; layout style as your sticky default for all new Merit Badge decks">
+                  📌 Save as My Default Style
+                </button>
+                <button type="button" id="btn-reset-default-deck-style" class="m3-btn m3-btn-outlined m3-btn-xs" title="Reset to Recommended Default (BSA Scouting America + Clean Open)">
+                  ↺ Reset
+                </button>
+              </div>
+            </div>
+          </details>
         </div>
 
         <div class="m3-field-group">
@@ -776,7 +838,7 @@
                   title="Open PowerPoint Template &amp; Custom Slide Theme Studio"
                   style="font-weight:800;"
                 >
-                  🖼️ <span id="stage-template-pill-label">Workbench Classic</span>
+                  🖼️ <span id="stage-template-pill-label">BSA Scouting America 🟢</span>
                 </button>
                 <button
                   type="button"
@@ -869,6 +931,37 @@
           <!-- STICKY REQUIREMENT QUICK-JUMP PILL BAR (Consolidated into Bar B [📍 Req ▾] Dropdown) -->
           <div class="m3-req-jump-bar hidden" id="req-quick-jump-bar" aria-label="Quick-Jump by Requirement" style="display:none !important;"></div>
 
+          <!-- FEATURE 2: INTERACTIVE PATROL SCOREBOARD BAR (Sits directly above the 16:9 slide stage so it never crowds slide canvas) -->
+          <div class="m3-patrol-scoreboard-bar hidden" id="stage-patrol-scoreboard" aria-label="Interactive Patrol Quiz Scoreboard">
+            <div style="display:flex; align-items:center; gap:6px; font-weight:800; font-size:0.78rem; color:#003F87;">
+              <span>🏆 PATROL QUIZ SCOREBOARD</span>
+              <span style="font-size:0.70rem; font-weight:600; color:#475569;">(Press <kbd class="m3-kbd">Space</kbd> or click card to reveal answer)</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;" id="patrol-scoreboard-counters">
+              <div class="m3-patrol-score-pill" data-patrol="Eagle">
+                <span>🦅 Eagle: <strong id="score-val-Eagle">0</strong></span>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Eagle" data-delta="-1">−</button>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Eagle" data-delta="1">+</button>
+              </div>
+              <div class="m3-patrol-score-pill" data-patrol="Fox">
+                <span>🦊 Fox: <strong id="score-val-Fox">0</strong></span>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Fox" data-delta="-1">−</button>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Fox" data-delta="1">+</button>
+              </div>
+              <div class="m3-patrol-score-pill" data-patrol="Wolf">
+                <span>🐺 Wolf: <strong id="score-val-Wolf">0</strong></span>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Wolf" data-delta="-1">−</button>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Wolf" data-delta="1">+</button>
+              </div>
+              <div class="m3-patrol-score-pill" data-patrol="Raven">
+                <span>🐦‍⬛ Raven: <strong id="score-val-Raven">0</strong></span>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Raven" data-delta="-1">−</button>
+                <button type="button" class="m3-patrol-score-btn" data-patrol="Raven" data-delta="1">+</button>
+              </div>
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-patrol-scores-reset" style="padding:2px 8px; font-size:0.70rem;">↺ Reset</button>
+            </div>
+          </div>
+
           <!-- SIDE-BY-SIDE SLIDE + PRESENTER VIEW ROW (PREVENTING OVERLAP WHEN PRESENTER VIEW IS OPEN) -->
           <div class="m3-slide-and-presenter-row" id="slide-and-presenter-row">
             <!-- 16:9 WIDESCREEN SLIDE STAGE -->
@@ -877,37 +970,6 @@
               <div class="m3-slide-header-title" id="stage-slide-title">Loading Slide...</div>
               <div id="stage-magazine-badge" class="hidden" style="margin-top:4px;"></div>
               <span class="m3-chip m3-chip-gold hidden" id="stage-req-number">Cover</span>
-            </div>
-
-            <!-- FEATURE 2: INTERACTIVE PATROL SCOREBOARD OVERLAY ON SOCRATIC_CHECKPOINT_QUIZ SLIDES -->
-            <div class="m3-patrol-scoreboard-bar hidden" id="stage-patrol-scoreboard" aria-label="Interactive Patrol Quiz Scoreboard">
-              <div style="display:flex; align-items:center; gap:6px; font-weight:800; font-size:0.78rem; color:#003F87;">
-                <span>🏆 PATROL QUIZ SCOREBOARD</span>
-                <span style="font-size:0.70rem; font-weight:600; color:#475569;">(Press <kbd class="m3-kbd">Space</kbd> or click card to reveal answer)</span>
-              </div>
-              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;" id="patrol-scoreboard-counters">
-                <div class="m3-patrol-score-pill" data-patrol="Eagle">
-                  <span>🦅 Eagle: <strong id="score-val-Eagle">0</strong></span>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Eagle" data-delta="-1">−</button>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Eagle" data-delta="1">+</button>
-                </div>
-                <div class="m3-patrol-score-pill" data-patrol="Fox">
-                  <span>🦊 Fox: <strong id="score-val-Fox">0</strong></span>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Fox" data-delta="-1">−</button>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Fox" data-delta="1">+</button>
-                </div>
-                <div class="m3-patrol-score-pill" data-patrol="Wolf">
-                  <span>🐺 Wolf: <strong id="score-val-Wolf">0</strong></span>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Wolf" data-delta="-1">−</button>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Wolf" data-delta="1">+</button>
-                </div>
-                <div class="m3-patrol-score-pill" data-patrol="Raven">
-                  <span>🐦‍⬛ Raven: <strong id="score-val-Raven">0</strong></span>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Raven" data-delta="-1">−</button>
-                  <button type="button" class="m3-patrol-score-btn" data-patrol="Raven" data-delta="1">+</button>
-                </div>
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-patrol-scores-reset" style="padding:2px 8px; font-size:0.70rem;">↺ Reset</button>
-              </div>
             </div>
 
             <!-- Shown ONLY on the first slide of a requirement sequence -->
@@ -1141,6 +1203,15 @@
                     <option value="restore_original">Restore Original Slide Graphic</option>
                     <option value="ai_hero">🍌 Nano Banana Hero Graphic (or EDGE Concept Map)</option>
                     <option value="none">None (Remove Graphic &amp; Expand Text to Full Width)</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="m3-field-label" for="codesign-container-style-select" style="font-size:0.73rem;">5. Container Style (This Slide)</label>
+                  <select class="m3-select" id="codesign-container-style-select" style="padding:6px 8px; font-size:0.78rem;">
+                    <option value="AUTO_DECK" selected>Inherit Deck Style</option>
+                    <option value="CLEAN_OPEN">Clean &amp; Borderless</option>
+                    <option value="LEFT_ACCENT_LINE">Editorial Left-Accent Line</option>
+                    <option value="BOXED_CARDS">Boxed Cards</option>
                   </select>
                 </div>
                 <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-codesign" style="padding:8px 14px; font-size:0.80rem;">
@@ -2696,6 +2767,26 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
         </div>
       </div>
 
+      <!-- GLOBAL DECK STYLE BAR IN TEMPLATE STUDIO MODAL -->
+      <div class="m3-template-studio-style-bar" style="display:flex; align-items:center; justify-content:space-between; gap:12px; padding:10px 22px; background:#F8FAFC; border-bottom:1px solid #E2E8F0; flex-wrap:wrap; flex-shrink:0;">
+        <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+          <label for="modal-deck-layout-style-select" style="font-size:0.78rem; font-weight:800; color:#003F87;">
+            🎛️ Global Deck Layout Style:
+          </label>
+          <select id="modal-deck-layout-style-select" class="m3-select" style="padding:5px 10px; font-size:0.78rem; width:auto; min-width:290px;">
+            <option value="AUTO_TEMPLATE" selected>✨ Match Template Style (Recommended)</option>
+            <option value="CLEAN_OPEN">📖 Clean &amp; Open (Borderless Text &amp; Frameless Images)</option>
+            <option value="LEFT_ACCENT_LINE">📏 Editorial Left-Accent Line (No Boxes)</option>
+            <option value="BOXED_CARDS">🗂️ Classic Boxed Cards (Framed Containers)</option>
+          </select>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+          <button type="button" id="btn-modal-save-default-deck-style" class="m3-btn m3-btn-tonal" style="padding:5px 12px; font-size:0.76rem; font-weight:800;" title="Save active PowerPoint template and layout style as your personal default">
+            📌 Set as My Default
+          </button>
+        </div>
+      </div>
+
       <div style="padding:14px 22px 22px; overflow-y:auto; flex:1 1 auto; min-height:0;" id="template-studio-body">
         <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; flex-wrap:wrap;">
           <div style="font-size:0.84rem; font-weight:800; color:#003F87;">
@@ -3051,6 +3142,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261020c"></script>
+  <script src="/ui/app.js?v=20261020a"></script>
 </body>
 </html>
