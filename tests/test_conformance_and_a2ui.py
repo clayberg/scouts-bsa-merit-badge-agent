@@ -1239,8 +1239,8 @@ def test_phase1_phase2_phase3_counselor_ux_and_features():
     assert regen["updated_slide"]["title"] == "Custom Counselor Edited Title — Req 1"
     assert regen["updated_slide"]["bullet_points"] == ["Custom Bullet Alpha", "Custom Bullet Beta"]
 
-    # 9. Verify the 7 UI/UX polish & interaction fixes (horizontal KPI banner, Show/Hide Setup toggle, Fullscreen stage wrapper, Co-Design bar layout, Email/Gmail buttons, Gear Copy/Print buttons, and 2D Camp Pioneering emblem centering)
-    assert ".m3-hero-kpis {\n  display: flex;\n  flex-direction: row;" in css
+    # 9. Verify the 7 UI/UX polish & interaction fixes (compact stacked horizontal KPI pills in banner, Show/Hide Setup toggle, Fullscreen stage wrapper, Co-Design bar layout, Email/Gmail buttons, Gear Copy/Print buttons, and 2D Camp Pioneering emblem centering)
+    assert ".m3-hero-kpis {\n  display: flex;\n  flex-direction: column;" in css
     assert 'id="slide-stage-wrapper"' in html
     assert "is-presenting-fullscreen" in css
     assert "setPresentationFullscreenMode" in app_js
@@ -2916,6 +2916,19 @@ def test_workstreams_1_to_4_topographic_concurrency_mcp_and_modal_controller(tmp
     assert "body.m3-dark-mode .m3-stage-template-dropdown-menu" in ui_css
     assert "preserveActiveOutlinePosition" in ui_js
     assert "m3-workspace-card-tpl-pill" in ui_js
+
+    # 8. Verify Small Laptop Responsive Banner, Full-Size Presenter View Auto-Collapse & Float, Custom Troop Logo Delete, and Markdown Table Escaped Pipe/Backtick Parser
+    assert 'id="btn-clear-troop-logo"' in ui_html
+    assert "m3-clear-logo-btn" in ui_html
+    assert "clearCustomTroopLogo" in ui_js
+    assert "syncTroopLogoUi" in ui_js
+    assert 'id="btn-pc-toggle-float"' in ui_html
+    assert 'data-present-menu-action="presenter-window"' in ui_html
+    assert "togglePresenterFloatingMode" in ui_js
+    assert "is-presenter-floating" in ui_css
+    assert "splitMarkdownTableRow" in ui_js
+    assert "@media (max-width: 1480px)" in ui_css
+
 
 
 

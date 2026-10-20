@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261020a" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261020b" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -409,8 +409,20 @@
 
             <div class="m3-field-group">
               <label class="m3-field-label" for="input-troop-logo">Optional Troop Custom Logo (.png / .jpg)</label>
-              <input class="m3-input" id="input-troop-logo" type="file" accept=".png,.jpg,.jpeg" style="padding:6px 10px; font-size:0.82rem;" />
-              <div id="troop-logo-status" style="display:none; align-items:center; gap:8px; margin-top:6px; font-size:0.78rem; color:var(--md-sys-color-primary); font-weight:600;"></div>
+              <div class="m3-troop-logo-input-row" style="display:flex; align-items:center; gap:6px;">
+                <input class="m3-input" id="input-troop-logo" type="file" accept=".png,.jpg,.jpeg" style="padding:6px 10px; font-size:0.82rem; flex:1; min-width:0;" />
+                <button
+                  type="button"
+                  class="m3-btn m3-btn-outlined m3-clear-logo-btn hidden"
+                  id="btn-clear-troop-logo"
+                  title="Remove custom troop logo"
+                  aria-label="Remove custom troop logo"
+                  style="padding:6px 10px; font-size:0.84rem; color:#B91C1C; border-color:#FECACA; background:#FEF2F2; flex-shrink:0;"
+                >
+                  🗑️
+                </button>
+              </div>
+              <div id="troop-logo-status" style="display:none; align-items:center; justify-content:space-between; gap:8px; margin-top:6px; font-size:0.78rem; color:var(--md-sys-color-primary); font-weight:600;"></div>
             </div>
 
             <div id="counselor-cache-status-row" style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:6px; font-size:0.72rem; color:var(--md-sys-color-on-surface-variant);">
@@ -439,29 +451,30 @@
 
       <!-- HERO SUMMARY BANNER WITH BADGE PATCH & RESOURCE LINKS -->
       <div class="m3-hero-banner" id="hero-summary-banner">
-        <div style="display:flex; align-items:center; gap:18px;">
+        <div class="m3-hero-banner-main" style="display:flex; align-items:center; gap:14px; min-width:0; flex:1;">
           <img
             id="hero-badge-patch-img"
+            class="m3-hero-patch-img"
             src="/assets/badge_emblems/first_aid.png"
             alt="Merit Badge Patch"
-            style="width:74px; height:74px; object-fit:contain; filter:drop-shadow(0 4px 12px rgba(0,0,0,0.28));"
+            style="width:64px; height:64px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 4px 12px rgba(0,0,0,0.28));"
           />
           <div class="m3-hero-left">
             <div class="m3-hero-kicker" id="hero-eagle-kicker">
-              <span class="m3-inline-icon" style="font-size:16px;" aria-hidden="true">★</span>
+              <span class="m3-inline-icon" style="font-size:15px;" aria-hidden="true">★</span>
               <span>EAGLE-REQUIRED MERIT BADGE</span>
             </div>
             <h2 class="m3-hero-title" id="hero-badge-title">First Aid Merit Badge</h2>
             <div class="m3-hero-meta" id="hero-badge-subtitle">
               Official BSA Merit Badge Pamphlet &amp; Requirement Teaching Deck
             </div>
-            <div style="display:flex; align-items:center; gap:8px; margin-top:8px; flex-wrap:wrap;">
-              <a class="m3-btn m3-btn-outlined" id="link-top-pamphlet" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener" style="padding:4px 10px; font-size:0.75rem; background:rgba(255,255,255,0.14); color:#FFFFFF; border-color:rgba(255,255,255,0.35);">
-                <span class="m3-inline-icon" style="font-size:15px;" aria-hidden="true">📘</span>
+            <div class="m3-hero-links-row" style="display:flex; align-items:center; gap:8px; margin-top:6px; flex-wrap:wrap;">
+              <a class="m3-btn m3-btn-outlined" id="link-top-pamphlet" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener" style="padding:3px 10px; font-size:0.74rem; background:rgba(255,255,255,0.14); color:#FFFFFF; border-color:rgba(255,255,255,0.35);">
+                <span class="m3-inline-icon" style="font-size:14px;" aria-hidden="true">📘</span>
                 Official BSA Pamphlet
               </a>
-              <a class="m3-btn m3-btn-tonal" id="link-top-drg" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener" style="padding:4px 10px; font-size:0.75rem; background:rgba(253,185,19,0.22); color:#FDB913; border:1px solid rgba(253,185,19,0.45);">
-                <span class="m3-inline-icon" style="font-size:15px;" aria-hidden="true">↗</span>
+              <a class="m3-btn m3-btn-tonal" id="link-top-drg" href="https://www.scouting.org/skills/merit-badges/" target="_blank" rel="noopener" style="padding:3px 10px; font-size:0.74rem; background:rgba(253,185,19,0.22); color:#FDB913; border:1px solid rgba(253,185,19,0.45);">
+                <span class="m3-inline-icon" style="font-size:14px;" aria-hidden="true">↗</span>
                 Resource Guide
               </a>
             </div>
@@ -478,7 +491,7 @@
             <div class="m3-kpi-label">Requirements</div>
           </div>
           <div class="m3-kpi-pill">
-            <div class="m3-kpi-value" id="kpi-polish-tier" style="font-size:1.02rem;">Warm Cream</div>
+            <div class="m3-kpi-value" id="kpi-polish-tier">Warm Cream</div>
             <div class="m3-kpi-label">Slide Theme</div>
           </div>
         </div>
@@ -790,8 +803,8 @@
                 <span id="stage-live-timer-text">45:00</span>
                 <span id="stage-live-timer-state-icon">⏸</span>
               </button>
-              <!-- UI-2: DUAL-WINDOW PRESENTER VIEW POP-OUT -->
-              <button type="button" class="m3-btn m3-btn-tonal m3-stage-compact-btn" id="btn-popout-speaker-notes" title="Open synchronized Counselor Speaker Notes &amp; Timer on a second screen (Shortcut: P)">
+              <!-- UI-2: DUAL-WINDOW PRESENTER VIEW POP-OUT (Hidden from stage bar; accessible via Present ▾ menu or P shortcut) -->
+              <button type="button" class="m3-btn m3-btn-tonal m3-stage-compact-btn hidden" id="btn-popout-speaker-notes" title="Open synchronized Counselor Speaker Notes &amp; Timer (Shortcut: P)" style="display:none !important;">
                 🪟 Presenter View
               </button>
               <!-- OPTION TP1: UNIFIED [🖥️ Present | ▾] SPLIT-BUTTON WITH EMBEDDED CLASSROOM TIMER & ENGAGEMENT CONTROLS -->
@@ -817,8 +830,11 @@
                       <kbd class="m3-kbd">F</kbd>
                     </button>
                     <button type="button" class="m3-btn m3-btn-outlined" data-present-menu-action="presenter" style="padding:5px 10px; font-size:0.75rem; justify-content:space-between; width:100%;">
-                      <span>🪟 Split-Screen Presenter View</span>
+                      <span id="present-menu-presenter-label">🪟 Split-Screen Presenter View</span>
                       <kbd class="m3-kbd">P</kbd>
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-outlined" data-present-menu-action="presenter-window" style="padding:5px 10px; font-size:0.75rem; justify-content:space-between; width:100%;">
+                      <span>↗ Pop-Out Presenter (2nd Window)</span>
                     </button>
                   </div>
                   <div class="m3-stage-tools-section-kicker" style="margin-top:2px; border-top:1px solid #E2E8F0; padding-top:6px;">Classroom Session Timer (Shortcut: T)</div>
@@ -950,14 +966,15 @@
           <!-- IN-STAGE SPLIT-SCREEN PRESENTER CONSOLE DOCK (WORKS IN BOTH PREVIEW & FULLSCREEN MODES) -->
           <aside class="m3-presenter-console-dock hidden" id="stage-presenter-console-dock" aria-label="In-Stage Split-Screen Presenter Console">
             <div class="m3-pc-dock-header">
-              <div style="display:flex; align-items:center; gap:8px;">
-                <span class="m3-pc-badge-pill">PRESENTER VIEW</span>
+              <div style="display:flex; align-items:center; gap:5px; min-width:0;">
+                <span class="m3-pc-badge-pill">PRESENTER</span>
                 <span class="m3-pc-dock-timer" id="pc-dock-timer" title="Click to Start/Pause Session Timer">04:18</span>
               </div>
-              <div style="display:flex; align-items:center; gap:5px;">
+              <div style="display:flex; align-items:center; gap:4px; flex-shrink:0;">
                 <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-dec" title="Decrease Teleprompter Font Size">A−</button>
                 <button type="button" class="m3-pc-mini-btn" id="btn-pc-font-inc" title="Increase Teleprompter Font Size">A+</button>
-                <button type="button" class="m3-pc-mini-btn" id="btn-pc-popout-window" title="Pop Out Speaker Notes to a Floating 2nd Monitor Window">↗ 2nd Monitor</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-toggle-float" title="Toggle Draggable Floating Presenter Overlay vs. Right-of-Slide Dock">🪟 Float</button>
+                <button type="button" class="m3-pc-mini-btn" id="btn-pc-popout-window" title="Pop Out Speaker Notes to a Floating 2nd Monitor Window">↗ 2nd Win</button>
                 <button type="button" class="m3-pc-mini-btn m3-pc-close-btn" id="btn-pc-close-console" title="Exit Presenter View (Shortcut: P)">✕</button>
               </div>
             </div>
@@ -3034,6 +3051,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261020a"></script>
+  <script src="/ui/app.js?v=20261020b"></script>
 </body>
 </html>

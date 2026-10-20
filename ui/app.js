@@ -672,8 +672,52 @@ async function loadCachedCounselorProfile() {
   setVal("input-counselor-phone", prof.phone_number || "(000) 555-1234");
   if (prof.custom_troop_logo_path) {
     state.customLogoPath = prof.custom_troop_logo_path;
+    const fname = String(prof.custom_troop_logo_path).split("/").pop() || "Custom Logo";
+    syncTroopLogoUi(fname);
+  } else {
+    syncTroopLogoUi("");
   }
   syncCounselorProfileSummary();
+}
+
+function syncTroopLogoUi(filenameLabel = "") {
+  const logoStatus = document.getElementById("troop-logo-status");
+  const clearBtn = document.getElementById("btn-clear-troop-logo");
+  const hasLogo = Boolean(state.customLogoPath || state.customLogoUrl || filenameLabel);
+  if (clearBtn) {
+    clearBtn.classList.toggle("hidden", !hasLogo);
+  }
+  if (logoStatus) {
+    if (hasLogo) {
+      const label = filenameLabel || String(state.customLogoPath || "Custom Troop Logo").split("/").pop();
+      logoStatus.style.display = "flex";
+      logoStatus.textContent = `✓ Uploaded: ${label}`;
+    } else {
+      logoStatus.style.display = "none";
+      logoStatus.textContent = "";
+    }
+  }
+}
+
+async function clearCustomTroopLogo(showNotification = true) {
+  const logoInput = document.getElementById("input-troop-logo");
+  if (logoInput) {
+    logoInput.value = "";
+  }
+  state.customLogoPath = null;
+  state.customLogoUrl = null;
+  if (state.currentResult) {
+    state.currentResult.custom_troop_logo_url = null;
+    state.currentResult.custom_troop_logo_path = null;
+  }
+  syncTroopLogoUi("");
+  await saveCachedCounselorProfile();
+  if (state.currentResult) {
+    renderActiveSlide(state.activeSlideIdx);
+  }
+  if (showNotification && typeof showToast === "function") {
+    showToast("🗑️ Removed custom troop logo.");
+  }
 }
 
 async function saveCachedCounselorProfile() {
@@ -724,8 +768,13 @@ async function resetCachedCounselorProfile() {
   setVal("input-counselor-phone", "(000) 555-1234");
   state.customLogoPath = null;
   state.customLogoUrl = null;
-  const logoStatus = document.getElementById("troop-logo-status");
-  if (logoStatus) logoStatus.style.display = "none";
+  if (state.currentResult) {
+    state.currentResult.custom_troop_logo_url = null;
+    state.currentResult.custom_troop_logo_path = null;
+  }
+  const logoInput = document.getElementById("input-troop-logo");
+  if (logoInput) logoInput.value = "";
+  syncTroopLogoUi("");
   syncCounselorProfileSummary();
   if (state.currentResult) {
     renderActiveSlide(state.activeSlideIdx);
@@ -873,23 +922,21 @@ function bindFilterAndSlideControls() {
 
   // Upload Optional Troop Custom Logo and live-render on Slide 1
   const logoInput = document.getElementById("input-troop-logo");
-  const logoStatus = document.getElementById("troop-logo-status");
+  const clearLogoBtn = document.getElementById("btn-clear-troop-logo");
+  clearLogoBtn?.addEventListener("click", async () => {
+    await clearCustomTroopLogo(true);
+  });
   logoInput?.addEventListener("change", (e) => {
     const file = e.target.files?.[0];
     if (!file) {
-      state.customLogoPath = null;
-      state.customLogoUrl = null;
-      if (logoStatus) logoStatus.style.display = "none";
-      saveCachedCounselorProfile();
-      if (state.activeSlideIdx === -1 && state.currentResult) {
-        renderActiveSlide(-1);
-      }
+      clearCustomTroopLogo(false);
       return;
     }
     const reader = new FileReader();
     reader.onload = async () => {
       const dataUrl = String(reader.result || "");
       state.customLogoUrl = dataUrl;
+      syncTroopLogoUi(file.name);
       if (state.activeSlideIdx === -1 && state.currentResult) {
         renderActiveSlide(-1);
       }
@@ -903,10 +950,7 @@ function bindFilterAndSlideControls() {
           state.customLogoPath = resp.logo_path;
           state.customLogoUrl = resp.logo_url || dataUrl;
           await saveCachedCounselorProfile();
-          if (logoStatus) {
-            logoStatus.style.display = "flex";
-            logoStatus.textContent = `✓ Uploaded: ${resp.filename || file.name}`;
-          }
+          syncTroopLogoUi(resp.filename || file.name);
           if (state.activeSlideIdx === -1 && state.currentResult) {
             renderActiveSlide(-1);
           }
@@ -3722,16 +3766,59 @@ function escapeHtml(str) {
 // ---------------------------------------------------------------------------
 // Styled Markdown Renderer & FinOps Table Formatter
 // ---------------------------------------------------------------------------
+function splitMarkdownTableRow(rowLine) {
+  let inner = String(rowLine || "").trim();
+  if (inner.startsWith("|")) inner = inner.slice(1);
+  if (inner.endsWith("|")) inner = inner.slice(0, -1);
+  const cells = [];
+  let cur = "";
+  let inBackticks = false;
+  for (let i = 0; i < inner.length; i++) {
+    const ch = inner[i];
+    if (ch === "\\" && i + 1 < inner.length) {
+      const nextCh = inner[i + 1];
+      if (nextCh === "|" || nextCh === "`" || nextCh === "\\") {
+        cur += nextCh === "|" ? "\\|" : ch + nextCh;
+        i += 1;
+        continue;
+      }
+    }
+    if (ch === "`") {
+      inBackticks = !inBackticks;
+      cur += ch;
+      continue;
+    }
+    if (ch === "|" && !inBackticks) {
+      cells.push(cur.replace(/\\\|/g, "|").trim());
+      cur = "";
+    } else {
+      cur += ch;
+    }
+  }
+  cells.push(cur.replace(/\\\|/g, "|").trim());
+  return cells;
+}
+
 function formatInlineMarkdown(text) {
-  let s = escapeHtml(text);
+  const codeSpans = [];
+  let raw = String(text ?? "").replace(/`([^`\n]+)`/g, (_m, codeInner) => {
+    const idx = codeSpans.length;
+    codeSpans.push(`<code>${escapeHtml(codeInner.replace(/\\\|/g, "|"))}</code>`);
+    return `\x00CODE_${idx}\x00`;
+  });
+  raw = raw.replace(/\\\|/g, "|");
+  let s = escapeHtml(raw);
+  // Support inline <br> and <br/> line breaks inside table cells
+  s = s.replace(/&lt;br\s*\/?&gt;/gi, "<br/>");
+  s = s.replace(/<br\/>\s*-\s+/g, "<br/>&bull; ");
   // Links [label](url)
   s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:var(--md-sys-color-primary); font-weight:600;">$1</a>');
   // Bold **text** (non-greedy across any inner characters)
   s = s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   // Italic *text*
-  s = s.replace(/(^|\s)\*([^*]+)\*/g, "$1<em>$2</em>");
-  // Inline code `code`
-  s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
+  s = s.replace(/(^|[\s(>]|<br\/>)\*([^*\n]+)\*/g, "$1<em>$2</em>");
+  // Restore protected inline code spans
+  s = s.replace(/\x00CODE_(\d+)\x00/g, (_m, idx) => codeSpans[Number(idx)] || "");
   return s;
 }
 
@@ -3769,10 +3856,7 @@ function renderMarkdownToStyledHtml(md) {
     // Markdown table row
     if (trimmed.startsWith("|") && trimmed.endsWith("|")) {
       closeList();
-      const cells = trimmed
-        .slice(1, -1)
-        .split("|")
-        .map((c) => c.trim());
+      const cells = splitMarkdownTableRow(trimmed);
       if (cells.every((c) => /^[-:\s]+$/.test(c))) {
         continue;
       }
@@ -3795,6 +3879,16 @@ function renderMarkdownToStyledHtml(md) {
     if (/^---+$/.test(trimmed)) {
       closeList();
       out.push("<hr/>");
+      continue;
+    }
+    if (trimmed.startsWith("##### ")) {
+      closeList();
+      out.push(`<h5>${formatInlineMarkdown(trimmed.slice(6))}</h5>`);
+      continue;
+    }
+    if (trimmed.startsWith("#### ")) {
+      closeList();
+      out.push(`<h4>${formatInlineMarkdown(trimmed.slice(5))}</h4>`);
       continue;
     }
     if (trimmed.startsWith("### ")) {
@@ -6769,6 +6863,55 @@ function togglePresenterConsoleMode(forceState) {
     document.getElementById("widescreen-slide-stage")?.classList.remove("hidden");
   }
 
+  // Keep the 16:9 slide stage full-size when Presenter View opens to the right of the slide
+  // by auto-collapsing the Left Setup Sidebar and Filmstrip Outline (and restoring them on exit).
+  const workbenchGrid = document.getElementById("main-workbench-grid");
+  const storyboardLayout = document.getElementById("panel-storyboard");
+  const sidebarToggleLabel = document.getElementById("label-toggle-sidebar");
+  const sidebarToggleIcon = document.getElementById("icon-toggle-sidebar");
+  const filmstripToggleBtn = document.getElementById("btn-toggle-filmstrip");
+  const isFullscreen =
+    stageWrapper.classList.contains("is-presenting-fullscreen") ||
+    Boolean(document.fullscreenElement);
+
+  if (nextActive && !isFullscreen && !state.presenterFloatingMode) {
+    if (workbenchGrid && state._prePcSidebarCollapsed === undefined) {
+      state._prePcSidebarCollapsed = workbenchGrid.classList.contains("sidebar-collapsed");
+    }
+    if (storyboardLayout && state._prePcFilmstripCollapsed === undefined) {
+      state._prePcFilmstripCollapsed = storyboardLayout.classList.contains("filmstrip-collapsed");
+    }
+    if (workbenchGrid && !workbenchGrid.classList.contains("sidebar-collapsed")) {
+      workbenchGrid.classList.add("sidebar-collapsed");
+      if (sidebarToggleLabel) sidebarToggleLabel.textContent = "Show Setup";
+      if (sidebarToggleIcon) sidebarToggleIcon.textContent = "⇥";
+    }
+    if (storyboardLayout && !storyboardLayout.classList.contains("filmstrip-collapsed")) {
+      storyboardLayout.classList.add("filmstrip-collapsed");
+      if (filmstripToggleBtn) filmstripToggleBtn.textContent = "▶ Outline";
+    }
+  } else if (!nextActive) {
+    if (workbenchGrid && state._prePcSidebarCollapsed === false) {
+      workbenchGrid.classList.remove("sidebar-collapsed");
+      if (sidebarToggleLabel) sidebarToggleLabel.textContent = "Hide Setup";
+      if (sidebarToggleIcon) sidebarToggleIcon.textContent = "⇤";
+    }
+    if (storyboardLayout && state._prePcFilmstripCollapsed === false) {
+      storyboardLayout.classList.remove("filmstrip-collapsed");
+      if (filmstripToggleBtn) filmstripToggleBtn.textContent = "◀ Outline";
+    }
+    state._prePcSidebarCollapsed = undefined;
+    state._prePcFilmstripCollapsed = undefined;
+    state.presenterFloatingMode = false;
+    stageWrapper.classList.remove("is-presenter-floating");
+    dockEl.style.left = "";
+    dockEl.style.top = "";
+    dockEl.style.right = "";
+    dockEl.style.bottom = "";
+    const floatBtn = document.getElementById("btn-pc-toggle-float");
+    if (floatBtn) floatBtn.textContent = "🪟 Float";
+  }
+
   stageWrapper.classList.toggle("is-presenter-console-active", nextActive);
   dockEl.classList.toggle("hidden", !nextActive);
 
@@ -6778,11 +6921,69 @@ function togglePresenterConsoleMode(forceState) {
     mainBtn.classList.toggle("m3-btn-filled", nextActive);
     mainBtn.classList.toggle("m3-btn-tonal", !nextActive);
   }
+  const presentMenuLabel = document.getElementById("present-menu-presenter-label");
+  if (presentMenuLabel) {
+    presentMenuLabel.textContent = nextActive
+      ? "🪟 Exit Split-Screen Presenter View"
+      : "🪟 Split-Screen Presenter View";
+  }
   const fsBtn = document.getElementById("btn-fs-popout-notes");
   if (fsBtn) {
     fsBtn.textContent = nextActive ? "🪟 Exit Split View (P)" : "🪟 Presenter View (P)";
   }
   syncPresenterViewWindow();
+  fitActiveSlideToStage();
+  setTimeout(() => fitActiveSlideToStage(), 40);
+}
+
+function togglePresenterFloatingMode(forceFloat) {
+  const stageWrapper = document.getElementById("slide-stage-wrapper");
+  const dockEl = document.getElementById("stage-presenter-console-dock");
+  if (!stageWrapper || !dockEl) return;
+  if (!state.presenterConsoleOpen) {
+    togglePresenterConsoleMode(true);
+  }
+  const nextFloat = typeof forceFloat === "boolean" ? forceFloat : !state.presenterFloatingMode;
+  state.presenterFloatingMode = nextFloat;
+  stageWrapper.classList.toggle("is-presenter-floating", nextFloat);
+  const floatBtn = document.getElementById("btn-pc-toggle-float");
+  if (floatBtn) {
+    floatBtn.textContent = nextFloat ? "📌 Dock Right" : "🪟 Float";
+    floatBtn.title = nextFloat
+      ? "Dock Presenter Console to the right of the slide"
+      : "Float Presenter Console as a draggable overlay window";
+  }
+  const workbenchGrid = document.getElementById("main-workbench-grid");
+  const storyboardLayout = document.getElementById("panel-storyboard");
+  const sidebarToggleLabel = document.getElementById("label-toggle-sidebar");
+  const sidebarToggleIcon = document.getElementById("icon-toggle-sidebar");
+  const filmstripToggleBtn = document.getElementById("btn-toggle-filmstrip");
+  if (nextFloat) {
+    // When floating over the workbench, restore any auto-collapsed sidebars if desired
+    if (workbenchGrid && state._prePcSidebarCollapsed === false) {
+      workbenchGrid.classList.remove("sidebar-collapsed");
+      if (sidebarToggleLabel) sidebarToggleLabel.textContent = "Hide Setup";
+      if (sidebarToggleIcon) sidebarToggleIcon.textContent = "⇤";
+    }
+    if (storyboardLayout && state._prePcFilmstripCollapsed === false) {
+      storyboardLayout.classList.remove("filmstrip-collapsed");
+      if (filmstripToggleBtn) filmstripToggleBtn.textContent = "◀ Outline";
+    }
+  } else {
+    dockEl.style.left = "";
+    dockEl.style.top = "";
+    dockEl.style.right = "";
+    dockEl.style.bottom = "";
+    if (workbenchGrid && !workbenchGrid.classList.contains("sidebar-collapsed")) {
+      workbenchGrid.classList.add("sidebar-collapsed");
+      if (sidebarToggleLabel) sidebarToggleLabel.textContent = "Show Setup";
+      if (sidebarToggleIcon) sidebarToggleIcon.textContent = "⇥";
+    }
+    if (storyboardLayout && !storyboardLayout.classList.contains("filmstrip-collapsed")) {
+      storyboardLayout.classList.add("filmstrip-collapsed");
+      if (filmstripToggleBtn) filmstripToggleBtn.textContent = "▶ Outline";
+    }
+  }
   fitActiveSlideToStage();
   setTimeout(() => fitActiveSlideToStage(), 40);
 }
@@ -8782,7 +8983,9 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       if (action === "fullscreen") {
         document.getElementById("btn-present-fullscreen")?.click();
       } else if (action === "presenter") {
-        document.getElementById("btn-popout-speaker-notes")?.click();
+        togglePresenterConsoleMode();
+      } else if (action === "presenter-window") {
+        openPresenterViewWindow();
       } else if (action === "quiz-reveal") {
         document.getElementById("btn-toggle-quiz-reveal")?.click();
       } else if (action === "scoreboard") {
@@ -8832,6 +9035,49 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   document.getElementById("btn-pc-popout-window")?.addEventListener("click", () => {
     openPresenterViewWindow();
   });
+  document.getElementById("btn-pc-toggle-float")?.addEventListener("click", () => {
+    togglePresenterFloatingMode();
+  });
+
+  // Allow dragging the Presenter Console header to move it when in Floating Mode (or auto-float on drag)
+  const pcDockEl = document.getElementById("stage-presenter-console-dock");
+  const pcHeaderEl = pcDockEl?.querySelector(".m3-pc-dock-header");
+  if (pcDockEl && pcHeaderEl) {
+    let pcDragState = null;
+    pcHeaderEl.addEventListener("mousedown", (ev) => {
+      if (ev.target.closest("button")) return;
+      const rect = pcDockEl.getBoundingClientRect();
+      pcDragState = {
+        startX: ev.clientX,
+        startY: ev.clientY,
+        origLeft: rect.left,
+        origTop: rect.top,
+        moved: false,
+      };
+    });
+    window.addEventListener("mousemove", (ev) => {
+      if (!pcDragState) return;
+      const dx = ev.clientX - pcDragState.startX;
+      const dy = ev.clientY - pcDragState.startY;
+      if (!pcDragState.moved && Math.hypot(dx, dy) > 6) {
+        pcDragState.moved = true;
+        if (!state.presenterFloatingMode) {
+          togglePresenterFloatingMode(true);
+        }
+      }
+      if (pcDragState.moved) {
+        const nextLeft = Math.max(8, Math.min(window.innerWidth - 360, pcDragState.origLeft + dx));
+        const nextTop = Math.max(8, Math.min(window.innerHeight - 160, pcDragState.origTop + dy));
+        pcDockEl.style.left = `${nextLeft}px`;
+        pcDockEl.style.top = `${nextTop}px`;
+        pcDockEl.style.right = "auto";
+        pcDockEl.style.bottom = "auto";
+      }
+    });
+    window.addEventListener("mouseup", () => {
+      pcDragState = null;
+    });
+  }
 
   // Feature C2 & Feature 2: Classroom Quiz Reveal Mode, Patrol Scoreboard & Quiz Slide Filter
   const quizBtn = document.getElementById("btn-toggle-quiz-reveal");
@@ -9520,7 +9766,18 @@ function slugifyDocHeading(text) {
 }
 
 function formatDocInlineMarkdown(text, currentDocRelPath = "") {
-  let s = escapeHtml(text);
+  const codeSpans = [];
+  let raw = String(text ?? "").replace(/`([^`\n]+)`/g, (_m, codeInner) => {
+    const idx = codeSpans.length;
+    codeSpans.push(`<code>${escapeHtml(codeInner.replace(/\\\|/g, "|"))}</code>`);
+    return `\x00CODE_${idx}\x00`;
+  });
+  raw = raw.replace(/\\\|/g, "|");
+  let s = escapeHtml(raw);
+  // Support inline <br> and <br/> line breaks inside table cells
+  s = s.replace(/&lt;br\s*\/?&gt;/gi, "<br/>");
+  s = s.replace(/<br\/>\s*-\s+/g, "<br/>&bull; ");
+
   // Inline images ![alt](src)
   s = s.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_m, alt, rawSrc) => {
     let src = rawSrc.trim();
@@ -9553,9 +9810,9 @@ function formatDocInlineMarkdown(text, currentDocRelPath = "") {
   // Bold **text**
   s = s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   // Italic *text*
-  s = s.replace(/(^|\s)\*([^*]+)\*/g, "$1<em>$2</em>");
-  // Inline code `code`
-  s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
+  s = s.replace(/(^|[\s(>]|<br\/>)\*([^*\n]+)\*/g, "$1<em>$2</em>");
+  // Restore protected inline code spans
+  s = s.replace(/\x00CODE_(\d+)\x00/g, (_m, idx) => codeSpans[Number(idx)] || "");
   return s;
 }
 
@@ -9646,10 +9903,7 @@ function renderDocumentationMarkdownToHtml(md, currentDocRelPath = "") {
     // Table row
     if (trimmed.startsWith("|") && trimmed.endsWith("|")) {
       closeLists();
-      const cells = trimmed
-        .slice(1, -1)
-        .split("|")
-        .map((c) => c.trim());
+      const cells = splitMarkdownTableRow(trimmed);
       if (cells.every((c) => /^[-:\s]+$/.test(c))) {
         continue;
       }
@@ -9674,6 +9928,22 @@ function renderDocumentationMarkdownToHtml(md, currentDocRelPath = "") {
       continue;
     }
 
+    if (trimmed.startsWith("##### ")) {
+      closeLists();
+      const rawTitle = trimmed.slice(6).trim();
+      const slug = slugifyDocHeading(rawTitle);
+      const id = `doc-sec-${slug}-${headings.length}`;
+      out.push(`<h5 id="${id}" data-heading-slug="${slug}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h5>`);
+      continue;
+    }
+    if (trimmed.startsWith("#### ")) {
+      closeLists();
+      const rawTitle = trimmed.slice(5).trim();
+      const slug = slugifyDocHeading(rawTitle);
+      const id = `doc-sec-${slug}-${headings.length}`;
+      out.push(`<h4 id="${id}" data-heading-slug="${slug}">${formatDocInlineMarkdown(rawTitle, currentDocRelPath)}</h4>`);
+      continue;
+    }
     if (trimmed.startsWith("### ")) {
       closeLists();
       const rawTitle = trimmed.slice(4).trim();
