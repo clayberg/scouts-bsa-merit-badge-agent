@@ -58,6 +58,8 @@ flowchart LR
 
 ![Scouts BSA Merit Badge Counselor Workbench Overview](images/workbench-overview-layout.png)
 
+![Scouts BSA Merit Badge Counselor Workbench Dark Mode](images/ug_workbench_dark_mode.png)
+
 The Workbench is organized into four main areas (plus a bottom footer) so you can set up your class on the left and review all of your teaching materials on the right without losing your place:
 
 | Screen Area | Where to Find It | What You Use It For |
@@ -84,6 +86,10 @@ In the upper-left card (**1. Find & Select Merit Badge**), you have five ways to
 | **Eagle / Favorites (`#filter-eagle-select`)** | Choose **All Badges (144)**, **Eagle-Required (18)**, **Electives (126)**, or **★ Favorites**. | In the dropdown list, Eagle-Required badges are marked with a star (**★**). Choosing **★ Favorites** narrows the Merit Badge dropdown directly to your starred badges. |
 | **1-Click `⭐` Favorite Star, Live Badge Emblem & 3-Mode Quick-Select Bar (`🔥 Popular \| ⭐ Favorites \| 🗂️ Decks`)** | Displays a live `17x17` Merit Badge patch emblem right beside the **Select Merit Badge** label (`#active-selected-badge-emblem`). Click the **`⭐`** button right next to the dropdown (or the inverted gold-circle **`★`** star in the top-right corner of any patch card in the gallery) to star/unstar a badge in SQLite (`counselor_favorites`) and `localStorage`. Switch the Quick-Select bar between **`🔥 Popular`** (8 top badges), **`⭐ Favorites`** (your starred badges), and **`🗂️ Decks`** (your saved deck sessions + `[💾 Save] [📑 Clone] [🗂️ Library]`). All three Quick-Select modes render `15x15` circular Merit Badge emblem icons on every pill (`m3-pill-badge-emblem`). | Lets counselors who teach 3 to 6 Merit Badges at troop meetings or summer camp access their personal badge lineup and saved patrol decks in one click with visual badge recognition across every tab. |
 | **⚜️ Browse Visual Patch Gallery (144)** | Opens an interactive 144-badge visual patch grid modal (`#patch-gallery-modal`) displaying all 144 authentic `400x400` Scout Shop emblems (`assets/badge_emblems/`). Features a **Sticky Header** (`position: sticky; top: 0`) that keeps the search bar, **All / Eagle-Required / Electives** dropdown, **Header Favorites Filter Toggle (`★` button with `"Toggle favorites filter"` tooltip)**, **Category** filter, live badge count indicator (`144 / 144 badges`), and `✕` close button pinned at the top while you scroll through the grid. Every patch card displays an **Inverted Gold-Circle Star (`★` white star on `#D97706` amber-gold circle)** when favorited. | Click any Merit Badge patch card in the gallery to load that badge, or click the header **`★`** toggle button to filter the grid to only the badges you counsel. |
+
+![144-Badge Visual Patch Gallery with Favorites Filter and Gold-Circle Stars](images/ug-patch-gallery-favorites.png)
+
+![3-Mode Quick-Select Bar and Top-Bar My Decks Instant Switcher](images/ug-quick-select-and-decks-dropdown.png)
 
 ### Managing Multiple Merit Badge Decks & Patrol Sections (`🗂️ My Decks | ▾` & `Quick-Select -> 🗂️ Decks`)
 
@@ -125,6 +131,8 @@ Click **`🎨 Template Studio`** in the left sidebar or use the **Split-Button T
 ![PowerPoint Template Studio](images/ug_template_studio_light.png)
 
 ![Template Studio Dark Mode](images/ug_template_studio_dark.png)
+
+![Stage Toolbar Template Switcher Dropdown and 3-Box Safe-Zone X-Ray](images/ug-template-switcher-and-safezone-xray.png)
 
 - **17 Curated Scouting Templates Organized into Style Family Cards (`#template-catalog-grid`)**: Multi-variant template families (*Brushed Banner Series*, *Horizon Silhouette Series*, *Forest Sunrise & Camp Series*, *Topographic Contour Series*, and *Fleur-de-Lis Crest Series*) display an interactive **Color Variant Swatch Bar (`[🟢 Green] [🔵 Blue] [🔴 Red]`)** directly underneath the 16:9 miniature preview. Clicking any color pill updates the card preview and applies that template variant to your active deck in one click.
 - **True Responsive Slide Geometry & Auto-Contrasted Footer Text**: When you apply a branded template with a bottom footer bar, horizon silhouette, or corner logo, both the live 16:9 web stage (`#widescreen-slide-stage`) and the exported `.pptx` presentation automatically lift instructional cards and the **`🛡️ Guide to Safe Scouting`** warning banner cleanly above the reserved bottom zone (`y <= 6.86"` / `6.82"`), shift the footer attribution text clear of the left or right logo, and auto-select crisp white (`#FFFFFF`) text on dark navy/forest/crimson footer bars or dark slate (`#0F172A`) text on light footer bars.
@@ -184,13 +192,22 @@ When **Slide Deck Preview** (Tab 1) is active, you have fast controls for naviga
 - Directly to the right of **`Next ▶`** (`Slide X / Y`), the active requirement indicator (**`[📍 Cover ▾]`**, **`[📍 Overview ▾]`**, or **`[📍 Req 2b ▾]`**, `#btn-stage-req-jump-toggle`) serves as both your live location badge and a **1-Click Requirement Quick-Jump Dropdown (`#req-jump-dropdown-menu`)**.
 - Clicking **`[📍 Overview ▾]`** opens a 2-column popover grid listing **Cover Slide**, **Overview**, and every requirement (**Req 1** through **Req 15**) with slide ranges and an active **`✓`** checkmark. Clicking any requirement jumps straight to its introductory slide and automatically scrolls the left **Slide Filmstrip Outline** to center the active slide card.
 
+![Slide Outline Active-Slide Micro-Pills, Tools Menu and Requirement Jump Popover](images/ug-outline-micro-pills-and-tools-menus.png)
+
 ### 3. Easy Slide Image Switcher (On-Stage Visual Pill & Popover)
 - Look at the source pill above the image on the right side of the 16:9 slide stage:
   - When a slide has a single visual (such as a Requirement Intro slide with one Nano Banana hero illustration), the pill shows a static label (`🍌 NANO BANANA AI ILLUSTRATION`).
   - When a slide has multiple visual choices (such as the primary pamphlet figure plus up to 2 Gemini Vision-verified BSA pamphlet alternates for that requirement, or custom images you uploaded for that slide), the pill shows **`◀`** and **`▶`** arrows and a **`(1/3) ▾`** counter.
   - Click **`◀`** or **`▶`** (or press **`[`** and **`]`** on your keyboard) to switch between the slide's image options in one click, or click **`(1/3) ▾`** to open a popover showing each option's thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`), and Vision-verified caption. Picking any option updates the slide image, its caption, and your `[SAY]` / `[DEMONSTRATE]` teaching script right away and rebuilds your `.pptx` file in the background at `$0.00` cost. You can also click **`+ Upload / Add Custom Image for This Slide...`** at the bottom of the popover to open the 4-Tab Image Studio.
 
+![On-Stage Easy Slide Image Switcher Popover](images/ug-easy-slide-image-switcher.png)
+
 ### 4. Centered Split-Screen Presenter View (`P`), Non-Disruptive `↗ 2nd Monitor` Window, Fullscreen Teleprompter (`N`), Classroom Timer & Patrol Scoreboard (`Space`)
+
+![Centered Split-Screen Presenter View with 3 Color-Coded Teleprompter Cards](images/ug-split-screen-presenter-view.png)
+
+![Present Split-Button Timer Menu, Socratic Quiz Reveal and 4-Patrol Scoreboard](images/ug-timer-quiz-and-patrol-scoreboard.png)
+
 - **🪟 Centered Split-Screen Presenter View (`🪟 Presenter View` or press `P`)**: Clicking **`🪟 Presenter View`** (or pressing **`P`**) in either normal preview mode or Fullscreen mode (`F`) opens the **Split-Screen Presenter Console** (`#stage-presenter-console-dock`) centered side-by-side with the 16:9 slide stage:
   - **Compact Header Bar**: Displays a gold **`PRESENTER VIEW`** badge and clickable cyan **`MM:SS`** session timer on the left, plus **`A−`** / **`A+`** teleprompter font-scaling buttons, **`↗ 2nd Monitor`**, and a red-tinted **`✕`** close button on the right.
   - **Top `"Up Next"` Preview Card**: Full-width card right below the header showing `UP NEXT • SLIDE X OF Y`, the next slide's full title, and a **`⏱ ~2 min`** pacing badge.
@@ -239,6 +256,9 @@ flowchart TD
 ![Under-Stage Co-Design Bar, Popup Image Studio & Quick Text Editor](images/codesign-and-image-studio.png)
 
 ### Drawer Tab 1: `🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])` & FinOps Cost Gate
+
+![Under-Stage Counselor Teaching Notes and FinOps AI Polish Cost Gate Modal](images/ug-teaching-notes-and-ai-polish-modal.png)
+
 Displays your ready-to-speak **EDGE Method** script for the current slide, compiled on the fly (`<5ms` per deck) directly from the slide's teaching cards, official requirement text, and active visual caption:
 - **`[SAY]`**: A conversational first-person speaking script that teaches the actual material on the slide and includes highlighted inline stage directions (`🎬 [Point to Card 1: ...]`, `🎬 [Gesture to the right-hand figure: ...]`, `🎬 [Pause for hands]`).
 - **`[DEMONSTRATE]`**: Included selectively when the slide calls for a hands-on skill demonstration, gear inspection, worked-example walkthrough, or diagram trace.
@@ -296,6 +316,8 @@ Want to tweak a slide title, reword a bullet card, or add a personal story to yo
 
 Click the second main tab at the top of the screen (**Requirements & Blue Card Sign-Off**) to view how every official requirement is taught and to track Scout sign-offs during class.
 
+![3-Column Requirements Triage and Patrol Blue Card Sign-Off Tracker](images/ug-requirements-triage-and-blue-cards.png)
+
 ![Requirements Triage, Bulk Blue Card Roster & 4-Sub-Tab Classroom Toolkit](images/counselor-field-toolkit.png)
 
 ### 3-Column Requirements Triage & Header Action Buttons
@@ -328,6 +350,9 @@ Below the requirement columns sits an interactive roster table saved automatical
 ## 9. Step 7: Using the Workbook, 4-Tab Classroom Toolkit, Cue Cards & Station Rotator
 
 ### Top Tab 3: `Scout & Counselor Workbook` (with Section Filter Pills)
+
+![Scout and Counselor Workbook with Section Filter Pills and Print 3x5 Cue Cards](images/ug-scout-workbook-preview.png)
+
 Click **Scout & Counselor Workbook** to preview the complete printable workbook for the active Merit Badge:
 - Use the sticky **Section Filter Bar** at the top of the workbook card (**`All Sections`**, **`Checklist Table`**, **`Requirement Notes`**, and **`Instructor Guide`**) to jump straight to the section you want to review or print.
 - Use the action buttons in the upper right of the card:
@@ -336,6 +361,9 @@ Click **Scout & Counselor Workbook** to preview the complete printable workbook 
   - **🖨️ Print 3x5 Pocket Cue Cards**: Generates a 2x2 printable grid of `3x5` counselor index cards containing each requirement's number, verbatim summary, **`[SAY]`**, **`[DEMONSTRATE]`**, and **`[ASK SCOUTS]`** prompts so you can teach outdoors at camp without carrying a laptop.
 
 ### Top Tab 4: `Lesson Plan, Gear List, Parent Letter & FinOps` (Organized into 4 Sub-Tabs)
+
+![Classroom Toolkit: Session Agenda, YPT Parent Welcome Letter and Counselor Rating](images/ug-classroom-toolkit-agenda-letter-finops.png)
+
 Click **Lesson Plan, Gear List, Parent Letter & FinOps** to access your classroom preparation toolkit, organized into four focused sub-tabs so you never have to scroll down a long page:
 
 | Sub-Tab | Key Controls & Options | How Counselors Use It |
@@ -358,6 +386,8 @@ In the Top Application Bar (and inside **`📥 Export & Print ▾`**), the Workb
   - **Bottom Modal Actions**: Click **`🔑 Pick Google Account (OAuth)`** (`#btn-gslides-pick-google-account`) to pick a Google account via Google Identity Services OAuth (`drive.file`) or Google's Account Chooser, or click **`🟨 Create & Open in New Tab ↗`** (`#btn-gslides-create-and-open-tab`) to convert your `.pptx` into a native Google Slides presentation (`mimeType: application/vnd.google-apps.presentation`) and open `https://docs.google.com/presentation/d/<id>/edit` in a new browser tab.
 - Click the **`▾`** caret on the right edge of the split-button anytime to switch your default export action between **`.PPTX`** and **Google Slides**.
 - Also in **`📥 Export & Print ▾`**, clicking **`📱 Print 1-Page Field & QR Handout`** opens a printable 1-page pocket reference featuring **standard-compliant, phone-camera-scannable ISO/IEC 18004 QR codes** (`/api/v1/qr.svg`) that resolve directly to the official BSA Merit Badge Pamphlet PDF (`filestore.scouting.org`) and the Scouting.org Digital Resource Guide.
+
+![Direct Google Slides Export Modal and In-App Documentation Studio](images/ug-gslides-export-and-docs-studio.png)
 
 ### Opening in Microsoft PowerPoint or Apple Keynote
 1. Double-click the downloaded `.pptx` file on your laptop.

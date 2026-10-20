@@ -111,7 +111,7 @@ When you are reviewing a slide deck on the **16:9 Slide Stage** while an Admin S
 
 ## 5. Tab 2: Zero-PII Usage, Latency & Visual Swap Telemetry
 
-![Super-User Admin Console: Zero-PII Telemetry Dashboard and System Diagnostics](images/admin-console-telemetry-diagnostics.png)
+![Super-User Admin Console: Zero-PII Telemetry Dashboard](images/admin-console-telemetry-diagnostics.png)
 
 **Tab 2 (`📊 2. Zero-PII Usage & Latency Telemetry`)** visualizes aggregated operational metrics from `ZeroPiiTelemetryStore` (`GET /api/v1/admin/telemetry/summary`).
 
@@ -135,6 +135,8 @@ Horizontal bar chart and 5-bucket mini-histograms reporting `p50`, `p95`, and `p
 ---
 
 ## 6. Tab 3: System Diagnostics & 144-Badge Asset Health
+
+![Super-User Admin Console: System Diagnostics and 144-Badge Asset Health](images/admin-console-system-diagnostics-tab3.png)
 
 **Tab 3 (`🩺 3. System Diagnostics & 144-Badge Asset Health`)** provides live resilience monitoring, 1-click maintenance actions, prompt SHA-256 verification, and a searchable asset audit across all 144 Merit Badges (`GET /api/v1/admin/diagnostics/assets`).
 
