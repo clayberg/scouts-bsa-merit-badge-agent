@@ -9098,17 +9098,17 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     csvFileInput.value = "";
   });
 
-  // Plan 9 Fix 4: Jump to Patrol Blue Card (#34124) Tracker button at top of Requirements & Blue Cards page
+  // Jump to 3-Column Official Requirements Triage from top of Requirements & Blue Cards page
   document.getElementById("btn-jump-to-bluecard-tracker")?.addEventListener("click", () => {
-    const trackerCard = document.getElementById("bluecard-tracker-card");
-    if (trackerCard) {
-      trackerCard.scrollIntoView({ behavior: "smooth", block: "start" });
-      trackerCard.style.transition = "box-shadow 0.25s ease, outline 0.25s ease";
-      trackerCard.style.outline = "3px solid #D97706";
-      trackerCard.style.boxShadow = "0 0 0 6px rgba(217, 119, 6, 0.22)";
+    const reqCols = document.getElementById("triage-requirements-columns") || document.getElementById("bluecard-tracker-card");
+    if (reqCols) {
+      reqCols.scrollIntoView({ behavior: "smooth", block: "start" });
+      reqCols.style.transition = "box-shadow 0.25s ease, outline 0.25s ease";
+      reqCols.style.outline = "3px solid #D97706";
+      reqCols.style.boxShadow = "0 0 0 6px rgba(217, 119, 6, 0.22)";
       setTimeout(() => {
-        trackerCard.style.outline = "";
-        trackerCard.style.boxShadow = "";
+        reqCols.style.outline = "";
+        reqCols.style.boxShadow = "";
       }, 1600);
     }
   });

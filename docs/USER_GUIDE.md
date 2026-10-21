@@ -317,38 +317,38 @@ Want to tweak a slide title, reword a teaching point, or add a personal story to
 
 ## 8. Step 6: Tracking Requirements & Signing Off Blue Cards (`#34124`)
 
-Click the second main tab at the top of the screen (**📚 2. Requirements & Blue Cards**) to view how every official requirement is taught and to track Scout sign-offs during class.
+Click the second main tab at the top of the screen (**📚 2. Requirements & Blue Cards**) to track Scout sign-offs during class and review how every official requirement is taught.
 
-![3-Column Requirements Triage and Patrol Blue Card Sign-Off Tracker](images/ug-requirements-triage-and-blue-cards.png)
+![Patrol Blue Card Sign-Off Tracker and 3-Column Requirements Triage](images/ug-requirements-triage-and-blue-cards.png)
 
 ![Requirements Triage, Bulk Blue Card Roster & 4-Sub-Tab Classroom Toolkit](images/counselor-field-toolkit.png)
 
-### 3-Column Requirements Triage & Quick Links
-
-At the top of the **Official BSA Merit Badge Pamphlet & Digital Resource Guides** card, three buttons let you jump straight to **`↓ Blue Card Tracker`**, open the **Official BSA Pamphlet (PDF)**, or open the **Scouting.org Resource Guide**. Directly below, every official requirement for the badge is sorted into one of three practical teaching columns:
-- **Discussion & Core Theory**: Requirements you can cover through interactive patrol discussion, visual explainers, and Socratic Q&A.
-- **Hands-On Skill Demonstrations**: Physical skills where each Scout must *demonstrate*, *build*, *treat*, or *perform* a task at a practice station.
-- **Field & Home Prerequisites**: Prerequisites, multi-week logs, field visits, or campout tasks that Scouts complete outside of a regular troop classroom meeting.
-
-Every requirement card lists the **exact official BSA requirement text**, the recommended **EDGE Method phase**, the **Counselor Sign-Off Criteria**, any **Youth Protection or Guide to Safe Scouting reminders**, and a **▶ Jump to Teaching Slides** button that takes you straight to that requirement's slides.
-
 ### Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker
 
-Below the requirement columns sits an interactive roster table saved automatically for each Merit Badge deck:
+At the top of the **Official BSA Merit Badge Pamphlet & Digital Resource Guides** card, three buttons let you jump straight to **`↓ Requirements`**, open the **Official BSA Pamphlet (PDF)**, or open the **Scouting.org Resource Guide**. Directly below that header bar sits your interactive **Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker**, saved automatically for each Merit Badge deck:
 1. **Add Scouts Individually, Copy From Another Deck, Bulk Paste, or Import `.CSV`**:
    - Type a Scout's name (for example, `Alex Carter - Eagle Patrol`) into the box and click **➕ Add Scout** or press `Enter`.
    - Click **🔁 Copy Scouts From Deck** to copy the Scout roster (names, units, and patrols with fresh unchecked requirement boxes) from any of your other saved Merit Badge decks in **🗂️ My Decks**.
-   - Click **📋 Bulk Paste Roster** to paste an entire patrol or class list from a spreadsheet, one Scout per line.
-   - Or click **📤 Import CSV** to upload a standard `.csv` roster exported from **Scoutbook Plus** or **TroopWebHost**.
+   - Click **📋 Paste Roster** to paste an entire patrol or class list from a spreadsheet, one Scout per line.
+   - Or click **📤 Import .CSV Roster** to upload a standard `.csv` roster exported from **Scoutbook Plus** or **TroopWebHost**.
 2. **Check Off Completed Requirements, Bulk Sign Off Columns & Stamp Dates**:
    - As each Scout demonstrates mastery of a requirement (`1`, `2a`, `2b`, `3`, ...), check the box in their row.
-   - Click any **Requirement Column Header (`1 ✓`, `2a ✓`, ...)** to toggle that requirement for the entire patrol in one click after a group demonstration.
-   - Pick a date in the **📅 Completion Date** field and click **Stamp Checked** to record the completion date across all checked cells. That date is included automatically in your Scoutbook CSV export and printed Sign-Off Sheet.
+   - Click **✅ Mark In-Class Done** to check off all **Discussion & Core Knowledge** requirements for every Scout in the roster at once, or click any **Requirement Column Header (`Req 1`, `Req 2a`, ...)** to toggle that requirement for the entire patrol after a group demonstration.
+   - Pick a date in the **📅 Sign-Off Date** field to record the completion date across your Scoutbook CSV export and printed Blue Cards.
 3. **Automatic `Partial` vs. `Complete` Blue Card Status**: The **Blue Card Status** column shows `Partial (X/Y)` in amber while a Scout is still working, and switches to `Complete (Y/Y)` in green once all requirements are checked. You can also click **All ✓** in the **Quick** column to check or uncheck an entire row at once.
 4. **Export Scoutbook CSV, Print Patrol Sheet, or Print 3-Panel Blue Cards (`#34124`)**:
    - Click **📥 Export Scoutbook CSV** to download a `.csv` spreadsheet listing every Scout, unit, requirement status, completion date, and counselor name for easy entry into **Scoutbook Plus** or troop advancement records.
-   - Click **🖨️ Print Sign-Off Sheet** to open a clean, printable **Application for Merit Badge (`#34124`) Patrol Sign-Off Record** complete with a Counselor signature and date line.
    - Click **🪪 Print 3-Panel Blue Cards (#34124)** to generate printable three-column tri-fold Blue Cards (*Applicant's Record*, *Application for Merit Badge*, and *Counselor's Record*) filled in with each Scout's name, unit, completed requirement initials and dates, and your counselor signature block.
+   - Click **🖨️ Print Sign-Off Sheet** to open a clean, printable **Application for Merit Badge (`#34124`) Patrol Sign-Off Record** complete with a Counselor signature and date line.
+
+### 3-Column Requirements Triage & Quick Links
+
+Below the Blue Card Sign-Off Tracker (or one click away via the **`📋 ↓ Requirements`** button at the top of the page), every official requirement for the badge is sorted into one of three practical teaching columns:
+- **💬 Discussion & Core Knowledge**: Requirements you can cover through interactive patrol discussion, visual explainers, and Socratic Q&A.
+- **🛠️ Hands-On Skill Demonstrations**: Physical skills where each Scout must *demonstrate*, *build*, *treat*, or *perform* a task at a practice station.
+- **🥾 Campout, Field & Home Projects**: Prerequisites, multi-week logs, field visits, or campout tasks that Scouts complete outside of a regular troop classroom meeting.
+
+Every requirement card lists the **exact official BSA requirement text**, the recommended **EDGE Method phase**, the **Counselor Sign-Off Criteria**, any **Youth Protection or Guide to Safe Scouting reminders**, and a **▶ Jump to Teaching Slides** button that takes you straight to that requirement's slides.
 
 ---
 

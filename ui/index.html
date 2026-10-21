@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261021a" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261021d" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -427,7 +427,7 @@
 
         <!-- Collapsible Counselor Profile Accordion (saves ~420px of vertical height once set) -->
         <details class="m3-profile-accordion" id="counselor-profile-accordion">
-          <summary class="m3-profile-summary-bar" title="Expand or collapse persistent Counselor &amp; Troop contact details">
+          <summary class="m3-profile-summary m3-profile-summary-bar" title="Expand or collapse persistent Counselor &amp; Troop contact details">
             <div style="display:flex; flex-direction:column; gap:2px; min-width:0;">
               <span style="font-size:0.72rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#003F87;">
                 👤 Counselor &amp; Troop Profile (Saved)
@@ -1270,11 +1270,11 @@
                 type="button"
                 class="m3-btn m3-btn-tonal"
                 id="btn-jump-to-bluecard-tracker"
-                title="Scroll directly down to the Patrol Blue Card (#34124) &amp; Scoutbook Plus Requirement Sign-Off Tracker"
+                title="Scroll directly down to the 3-Column Official Merit Badge Requirements Triage"
                 style="background:#EFF6FF; color:#003F87; border:1.5px solid #003F87; font-weight:800; white-space:nowrap; padding:7px 12px; font-size:0.80rem;"
               >
-                <span class="m3-inline-icon" style="font-size:17px;" aria-hidden="true">🛡️</span>
-                ↓ Blue Card Tracker
+                <span class="m3-inline-icon" style="font-size:17px;" aria-hidden="true">📋</span>
+                ↓ Requirements
               </button>
               <a id="link-pamphlet-pdf" class="m3-btn m3-btn-filled" href="#" target="_blank" rel="noopener" style="white-space:nowrap; padding:7px 12px; font-size:0.80rem;">
                 <span class="m3-inline-icon" style="font-size:17px;" aria-hidden="true">📄</span>
@@ -1287,47 +1287,12 @@
             </div>
           </div>
           <p style="font-size:0.88rem; color:var(--md-sys-color-on-surface-variant);">
-            Below are the official requirements for this Merit Badge, organized by teaching mode with <strong>EDGE Method phases</strong> and <strong>Counselor Sign-Off Criteria</strong>. Click <strong>▶ Jump to Teaching Slides</strong> on any requirement card to open its slides, or use the <strong>Patrol Blue Card (#34124) &amp; Scoutbook Sign-Off Tracker</strong> below during class.
+            Use the <strong>Patrol Blue Card (#34124) &amp; Scoutbook Sign-Off Tracker</strong> directly below during class, or scroll to the <strong>Official Merit Badge Requirements</strong> organized by teaching mode with <strong>EDGE Method phases</strong>, <strong>Counselor Sign-Off Criteria</strong>, and <strong>▶ Jump to Teaching Slides</strong> buttons.
           </p>
         </div>
 
-        <div class="m3-triage-columns" style="margin-bottom:18px;">
-          <div class="m3-triage-col">
-            <div class="m3-card-header">
-              <h3 class="m3-card-title">
-                <span class="m3-inline-icon" aria-hidden="true">💬</span>
-                Discussion &amp; Core Knowledge
-              </h3>
-              <span class="m3-chip m3-chip-primary" id="count-in-class">0</span>
-            </div>
-            <div id="triage-col-in-class" style="display:flex; flex-direction:column; gap:10px;"></div>
-          </div>
-
-          <div class="m3-triage-col">
-            <div class="m3-card-header">
-              <h3 class="m3-card-title" style="color:var(--md-sys-color-secondary);">
-                <span class="m3-inline-icon" aria-hidden="true">🛠️</span>
-                Hands-On Skill Demonstrations
-              </h3>
-              <span class="m3-chip m3-chip-secondary" id="count-hands-on">0</span>
-            </div>
-            <div id="triage-col-hands-on" style="display:flex; flex-direction:column; gap:10px;"></div>
-          </div>
-
-          <div class="m3-triage-col">
-            <div class="m3-card-header">
-              <h3 class="m3-card-title" style="color:var(--md-sys-color-tertiary);">
-                <span class="m3-inline-icon" aria-hidden="true">🥾</span>
-                Campout, Field &amp; Home Projects
-              </h3>
-              <span class="m3-chip m3-chip-eagle" id="count-prereq">0</span>
-            </div>
-            <div id="triage-col-prereq" style="display:flex; flex-direction:column; gap:10px;"></div>
-          </div>
-        </div>
-
-        <!-- FEATURE F6: PATROL BLUE CARD (#34124) & SCOUTBOOK PLUS REQUIREMENT SIGN-OFF TRACKER -->
-        <div class="m3-card" id="bluecard-tracker-card">
+        <!-- FEATURE F6: PATROL BLUE CARD (#34124) & SCOUTBOOK PLUS REQUIREMENT SIGN-OFF TRACKER (ON TOP) -->
+        <div class="m3-card" id="bluecard-tracker-card" style="margin-bottom:18px;">
           <div class="m3-card-header" style="flex-wrap:wrap; gap:12px;">
             <div>
               <h3 class="m3-card-title">
@@ -1399,6 +1364,41 @@
           </div>
 
           <div class="m3-bluecard-matrix-wrap" id="bluecard-matrix-container"></div>
+        </div>
+
+        <div class="m3-triage-columns" id="triage-requirements-columns" style="margin-bottom:18px;">
+          <div class="m3-triage-col">
+            <div class="m3-card-header">
+              <h3 class="m3-card-title">
+                <span class="m3-inline-icon" aria-hidden="true">💬</span>
+                Discussion &amp; Core Knowledge
+              </h3>
+              <span class="m3-chip m3-chip-primary" id="count-in-class">0</span>
+            </div>
+            <div id="triage-col-in-class" style="display:flex; flex-direction:column; gap:10px;"></div>
+          </div>
+
+          <div class="m3-triage-col">
+            <div class="m3-card-header">
+              <h3 class="m3-card-title" style="color:var(--md-sys-color-secondary);">
+                <span class="m3-inline-icon" aria-hidden="true">🛠️</span>
+                Hands-On Skill Demonstrations
+              </h3>
+              <span class="m3-chip m3-chip-secondary" id="count-hands-on">0</span>
+            </div>
+            <div id="triage-col-hands-on" style="display:flex; flex-direction:column; gap:10px;"></div>
+          </div>
+
+          <div class="m3-triage-col">
+            <div class="m3-card-header">
+              <h3 class="m3-card-title" style="color:var(--md-sys-color-tertiary);">
+                <span class="m3-inline-icon" aria-hidden="true">🥾</span>
+                Campout, Field &amp; Home Projects
+              </h3>
+              <span class="m3-chip m3-chip-eagle" id="count-prereq">0</span>
+            </div>
+            <div id="triage-col-prereq" style="display:flex; flex-direction:column; gap:10px;"></div>
+          </div>
         </div>
       </section>
 
@@ -3144,6 +3144,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261021a"></script>
+  <script src="/ui/app.js?v=20261021d"></script>
 </body>
 </html>

@@ -1902,23 +1902,32 @@ html, body {
   overflow: hidden;
 }
 
-.m3-profile-summary {
+.m3-profile-summary,
+.m3-profile-summary-bar {
   list-style: none;
   cursor: pointer;
-  padding: 10px 13px;
+  padding: 11px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 10px;
   user-select: none;
   transition: background 150ms ease;
 }
 
-.m3-profile-summary::-webkit-details-marker {
+.m3-profile-summary::-webkit-details-marker,
+.m3-profile-summary-bar::-webkit-details-marker {
   display: none;
 }
 
-.m3-profile-summary:hover {
+.m3-profile-summary::marker,
+.m3-profile-summary-bar::marker {
+  display: none;
+  content: "";
+}
+
+.m3-profile-summary:hover,
+.m3-profile-summary-bar:hover {
   background: var(--md-sys-color-surface-container);
 }
 
@@ -1933,13 +1942,14 @@ html, body {
   flex-shrink: 0;
 }
 
-.m3-profile-accordion[open] .m3-profile-summary {
+.m3-profile-accordion[open] .m3-profile-summary,
+.m3-profile-accordion[open] .m3-profile-summary-bar {
   border-bottom: 1px solid var(--md-sys-color-outline-variant);
   background: #EFF6FF;
 }
 
 .m3-profile-accordion-body {
-  padding: 12px 13px 4px;
+  padding: 12px 14px 6px;
   background: #FFFFFF;
 }
 
