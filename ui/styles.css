@@ -9065,3 +9065,10 @@ body.m3-dark-mode ::selection {
   background: rgba(96, 165, 250, 0.28);
   color: #F8FAFC;
 }
+
+/* Hybrid Workspace Persistence: Ephemeral Preview Pill (`m3-ws-pill-preview`) */
+.m3-ws-pill.m3-ws-pill-preview {
+  border-style: dashed !important;
+  border-width: 1.5px !important;
+  font-style: italic;
+}

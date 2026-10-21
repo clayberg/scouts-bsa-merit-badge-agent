@@ -966,7 +966,7 @@ function bindFilterAndSlideControls() {
     const badge = document.getElementById("badge-select")?.value || state.currentBadge;
     if (badge) {
       clearDeckConfigDirty();
-      await executeStreamingWorkflow(badge);
+      await executeStreamingWorkflow(badge, { isExplicitBuild: true });
     }
   });
 
@@ -1053,6 +1053,9 @@ function bindFilterAndSlideControls() {
       }
       renderFilmstrip(slides);
       renderActiveSlide(state.activeSlideIdx);
+      if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+        window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
+      }
       if (statusEl) {
         statusEl.textContent = "✅ Saved & Updated .pptx on Disk!";
         setTimeout(() => {
@@ -1320,6 +1323,9 @@ function bindFilterAndSlideControls() {
       }
       renderFilmstrip(slides);
       renderActiveSlide(state.activeSlideIdx);
+      if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+        window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
+      }
     } finally {
       if (applyBtn && reqSeq === state._codesignReqSeq) {
         applyBtn.disabled = false;
@@ -1482,6 +1488,9 @@ function bindFilterAndSlideControls() {
           }
         }
         renderActiveSlide(state.activeSlideIdx);
+        if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+          window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
+        }
       }
     } catch (err) {
       console.warn("Could not polish slide notes:", err);
@@ -1648,6 +1657,9 @@ function bindFilterAndSlideControls() {
       const finalSource = geminiCount > 0 ? "GEMINI_FLASH" : "PROCEDURAL_STUDIO_POLISH";
       const elapsedMs = Math.round(performance.now() - t0);
       renderActiveSlide(state.activeSlideIdx);
+      if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+        window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
+      }
       syncNotesPolishProvenancePill({
         isPolished: true,
         polishSource: finalSource,
@@ -2077,8 +2089,9 @@ function inferBrowserLocationHint() {
   }
 }
 
-async function executeStreamingWorkflow(badgeName) {
+async function executeStreamingWorkflow(badgeName, options = {}) {
   state.currentBadge = badgeName;
+  state._promoteDeckOnHydrate = Boolean(options && options.isExplicitBuild);
   clearDeckConfigDirty();
   state.revealedQuizSlides = new Set();
   state.checkedGearItems = new Set();
@@ -4907,6 +4920,9 @@ async function applyCatalogImageToActiveSlide(entry, visualSourceOverride = "cus
       }
       renderFilmstrip(slides);
       renderActiveSlide(state.activeSlideIdx);
+      if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+        window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
+      }
     }
   } catch (err) {
     console.warn("Could not apply catalog image to slide:", err);
@@ -8468,7 +8484,7 @@ function scheduleDebouncedDeckPptxSync(delayMs = 1200) {
       state._lastSyncedStoryboardSignature = targetSig;
       state._deckPptxSyncPending = false;
       if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
-        window.autoSaveActiveWorkspaceDebounced();
+        window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
       }
     } catch (err) {
       state._deckPptxSyncPending = false;
@@ -8648,6 +8664,9 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
     renderFilmstrip(state.currentResult.storyboard.slides);
     renderRequirementJumpBar(state.currentResult.storyboard.slides);
     renderActiveSlide(state.activeSlideIdx);
+    if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
+      window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
+    }
   } catch (err) {
     console.warn("Slide deck customize warning:", err);
   }
@@ -11519,7 +11538,7 @@ async function applyDeckStyleToActiveDeck(showNotification = false) {
   }
 
   if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
-    window.autoSaveActiveWorkspaceDebounced();
+    window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: Boolean(showNotification) });
   }
   if (showNotification) {
     const labelMap = {
@@ -11698,7 +11717,7 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
   }
 
   if (typeof window.autoSaveActiveWorkspaceDebounced === "function") {
-    window.autoSaveActiveWorkspaceDebounced();
+    window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: Boolean(showNotification) });
   }
   if (showNotification) {
     const bottomIn = prof.safe_bounds?.content_bottom_max_in || 6.95;
@@ -12361,12 +12380,32 @@ function renderQuickSelectBadgesRow() {
           `;
         })
         .join("");
-      row.innerHTML = `<div class="m3-quick-decks-pills-wrap">${pillsHtml}</div>${actionsRowHtml}`;
+      const isPreviewingUnsaved = Boolean(state.currentResult && !state.activeWorkspaceId);
+      const previewSlug = badgeNameToEmblemSlug(curBadge || "First Aid");
+      const previewPillHtml = isPreviewingUnsaved
+        ? `
+          <button type="button" class="m3-ws-pill m3-ws-pill-preview active" data-pin-preview-ws="true" title="Previewing ${escapeHtml(curBadge)} (browsed in Preview mode — click to pin to My Decks, or edit/regenerate to auto-save)">
+            <img src="/assets/badge_emblems/${escapeHtml(previewSlug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
+            <span>👁️ ${escapeHtml(curBadge)}</span>
+            <span class="m3-ws-pill-meta">(Preview • 📌 Pin)</span>
+          </button>
+        `
+        : "";
+      row.innerHTML = `<div class="m3-quick-decks-pills-wrap">${pillsHtml}${previewPillHtml}</div>${actionsRowHtml}`;
     }
     row.querySelectorAll("[data-switch-ws]").forEach((btn) => {
       btn.addEventListener("click", async () => {
         const wsId = btn.getAttribute("data-switch-ws");
         if (wsId) await switchActiveWorkspace(wsId);
+      });
+    });
+    row.querySelectorAll("[data-pin-preview-ws]").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const bName = state.currentResult?.badge_name || curBadge || "First Aid";
+        await saveCurrentDeckAsWorkspace({
+          workspace_title: bName,
+          toastMessage: `📌 Pinned "${bName}" to My Decks.`,
+        });
       });
     });
     row.querySelectorAll("[data-quick-ws-action]").forEach((btn) => {
@@ -12530,13 +12569,34 @@ function renderActiveWorkspacesBar() {
     })
     .join("");
 
-  listEl.innerHTML = `<span style="font-size:0.72rem; font-weight:800; color:#003F87; margin-right:2px;">🗂️ Active Decks:</span>${itemsHtml}`;
+  const isPreviewingUnsavedBar = Boolean(state.currentResult && !state.activeWorkspaceId);
+  const curBadgeForBar = state.currentResult?.badge_name || state.currentBadge || "First Aid";
+  const previewSlugForBar = badgeNameToEmblemSlug(curBadgeForBar);
+  const previewBarPillHtml = isPreviewingUnsavedBar
+    ? `
+      <button type="button" class="m3-ws-pill m3-ws-pill-preview active" data-pin-preview-bar="true" title="Previewing ${escapeHtml(curBadgeForBar)} (browsed in Preview mode — click to pin to My Decks, or edit/regenerate to auto-save)">
+        <img src="/assets/badge_emblems/${escapeHtml(previewSlugForBar)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
+        <span>👁️ ${escapeHtml(curBadgeForBar)}</span>
+        <span class="m3-ws-pill-meta">(Preview • 📌 Pin)</span>
+      </button>
+    `
+    : "";
+
+  listEl.innerHTML = `<span style="font-size:0.72rem; font-weight:800; color:#003F87; margin-right:2px;">🗂️ Active Decks:</span>${itemsHtml}${previewBarPillHtml}`;
   listEl.querySelectorAll("[data-ws-bar-id]").forEach((btn) => {
     btn.addEventListener("click", async () => {
       const wid = btn.getAttribute("data-ws-bar-id");
       if (wid && wid !== state.activeWorkspaceId) {
         await switchActiveWorkspace(wid);
       }
+    });
+  });
+  listEl.querySelectorAll("[data-pin-preview-bar]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      await saveCurrentDeckAsWorkspace({
+        workspace_title: curBadgeForBar,
+        toastMessage: `📌 Pinned "${curBadgeForBar}" to My Decks.`,
+      });
     });
   });
 }
@@ -12620,21 +12680,35 @@ async function saveCurrentDeckAsWorkspace(options = {}) {
   return null;
 }
 
-window.autoSaveActiveWorkspaceDebounced = function autoSaveActiveWorkspaceDebounced() {
+window.autoSaveActiveWorkspaceDebounced = function autoSaveActiveWorkspaceDebounced(options = {}) {
+  const promoteIfUnsaved = Boolean(options && options.promoteIfUnsaved);
+  if (promoteIfUnsaved) {
+    state._pendingAutoPromoteWorkspace = true;
+  }
   if (state._wsAutoSaveTimer) clearTimeout(state._wsAutoSaveTimer);
   state._wsAutoSaveTimer = setTimeout(() => {
+    const shouldPromote = Boolean(state._pendingAutoPromoteWorkspace);
+    state._pendingAutoPromoteWorkspace = false;
     if (state.activeWorkspaceId) {
       saveCurrentDeckAsWorkspace({ toastMessage: "" });
+    } else if (shouldPromote && state.currentResult) {
+      const bName = state.currentResult.badge_name || state.currentBadge || "First Aid";
+      saveCurrentDeckAsWorkspace({
+        workspace_title: bName,
+        toastMessage: `📌 Auto-saved "${bName}" to My Decks.`,
+      });
     }
   }, 450);
 };
 
 window.syncActiveWorkspaceBlueCardRoster = function syncActiveWorkspaceBlueCardRoster(_rosterObj) {
-  window.autoSaveActiveWorkspaceDebounced();
+  window.autoSaveActiveWorkspaceDebounced({ promoteIfUnsaved: true });
 };
 
 window.onWorkbenchDeckHydrated = async function onWorkbenchDeckHydrated(result) {
   if (!result || state._switchingWorkspaceInProgress) return;
+  const shouldPromote = Boolean(state._promoteDeckOnHydrate);
+  state._promoteDeckOnHydrate = false;
   if (_workspacesInitPromise) {
     try {
       await _workspacesInitPromise;
@@ -12651,14 +12725,16 @@ window.onWorkbenchDeckHydrated = async function onWorkbenchDeckHydrated(result) 
   if (sessIn) sessIn.value = matchWs?.session_label || "";
   if (bndlIn) bndlIn.value = matchWs?.camp_bundle_tag || "";
 
-  // Only auto-persist to SQLite if this badge already exists in savedWorkspaces OR if savedWorkspaces is completely empty.
-  // This prevents hydrating a badge from creating unwanted phantom decks when the user already has their own saved deck(s)!
-  if (matchWs || (state.savedWorkspaces || []).length === 0) {
+  // Hybrid Workspace Model (Option C):
+  // - Passive browsing of a new badge loads in Preview Mode (does not clutter My Decks).
+  // - Explicit generation (`shouldPromote === true`), first-run empty store, or updating an existing workspace persists to SQLite.
+  if (shouldPromote || matchWs || (state.savedWorkspaces || []).length === 0) {
+    const isNewPromotion = Boolean(shouldPromote && !matchWs && (state.savedWorkspaces || []).length > 0);
     await saveCurrentDeckAsWorkspace({
       workspace_title: matchWs?.workspace_title || badgeName,
       session_label: matchWs?.session_label || "",
       camp_bundle_tag: matchWs?.camp_bundle_tag || "",
-      toastMessage: "",
+      toastMessage: isNewPromotion ? `📌 Added "${badgeName}" to My Decks.` : "",
     });
   } else {
     renderActiveWorkspacesBar();

@@ -3118,6 +3118,9 @@ def test_v38_slide_deck_ui_ux_global_styling_and_visual_quality_audit(tmp_path) 
     assert "body:not(.high-contrast-sunlight) #sidebar-setup .m3-sub-expander" in ui_css
     assert '#widescreen-slide-stage[data-is-cover="true"] #stage-header-band' in ui_css
     assert 'stageEl.setAttribute("data-is-cover", "true")' in ui_js
+    assert "promoteIfUnsaved" in ui_js
+    assert "_promoteDeckOnHydrate" in ui_js
+    assert "m3-ws-pill-preview" in ui_js and ".m3-ws-pill.m3-ws-pill-preview" in ui_css
 
 
 
