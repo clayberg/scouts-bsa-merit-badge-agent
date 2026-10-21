@@ -3214,6 +3214,7 @@ function renderActiveSlide(idx) {
     if (stageEl) {
       stageEl.style.background = coverTokens.stageBg;
       stageEl.style.border = coverTokens.stageBorder;
+      stageEl.setAttribute("data-is-cover", "true");
       stageEl.setAttribute("data-slide-theme", coverTokens.tier || deckTier || "BEAUTIFIED");
       stageEl.setAttribute("data-text-container", coverEffStyle.text_container_style);
       stageEl.setAttribute("data-image-frame", coverEffStyle.image_frame_style);
@@ -3226,8 +3227,13 @@ function renderActiveSlide(idx) {
       stageEl.style.setProperty("--slide-title-ink", coverTokens.isStudio ? "#F8FAFC" : (coverTokens.primaryHex || "#0F172A"));
     }
     if (headerBand) {
+      headerBand.style.display = "none";
       headerBand.style.borderTop = "none";
+      headerBand.style.borderBottom = "none";
       headerBand.style.background = "transparent";
+    }
+    if (splitContainer) {
+      splitContainer.style.paddingTop = "18px";
     }
 
     document.getElementById("stage-slide-title").textContent = "";
@@ -3437,6 +3443,7 @@ function renderActiveSlide(idx) {
   if (stageEl) {
     stageEl.style.background = tokens.stageBg;
     stageEl.style.border = tokens.stageBorder;
+    stageEl.setAttribute("data-is-cover", "false");
     stageEl.setAttribute("data-slide-theme", tokens.tier || deckTier || "BEAUTIFIED");
     stageEl.setAttribute("data-text-container", effStyle.text_container_style);
     stageEl.setAttribute("data-image-frame", effStyle.image_frame_style);
@@ -3454,8 +3461,13 @@ function renderActiveSlide(idx) {
     titleEl.style.color = (tokens.isStudio || effStyle.header_chrome_style === "FULL_BANNER") ? "#F8FAFC" : tokens.primaryHex;
   }
   if (headerBand) {
+    headerBand.style.display = "flex";
+    headerBand.style.borderBottom = "";
     headerBand.style.borderTop = tokens.isBeautified ? `6px solid ${tokens.accentHex}` : "none";
     headerBand.style.background = tokens.headerBg;
+  }
+  if (splitContainer) {
+    splitContainer.style.paddingTop = "";
   }
   if (magBadge) {
     magBadge.classList.add("hidden");

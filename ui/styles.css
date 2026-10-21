@@ -8741,6 +8741,12 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   padding-bottom: 6px !important;
 }
 
+#widescreen-slide-stage[data-is-cover="true"] #stage-header-band {
+  display: none !important;
+  border: none !important;
+  border-bottom: none !important;
+}
+
 #widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-slide-title,
 #widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-slide-title {
   color: var(--slide-title-ink, #0F172A) !important;

@@ -3116,6 +3116,8 @@ def test_v38_slide_deck_ui_ux_global_styling_and_visual_quality_audit(tmp_path) 
     assert "--radius-inner: 12px;" in ui_css and "--radius-control: 8px;" in ui_css
     assert "color-scheme: light;" in ui_css and "color-scheme: dark;" in ui_css
     assert "body:not(.high-contrast-sunlight) #sidebar-setup .m3-sub-expander" in ui_css
+    assert '#widescreen-slide-stage[data-is-cover="true"] #stage-header-band' in ui_css
+    assert 'stageEl.setAttribute("data-is-cover", "true")' in ui_js
 
 
 
