@@ -966,10 +966,16 @@ def _resolve_card_theme_treatment(
         return anchor, bg_rgb, border_rgb, anchor_rgb, body_rgb, border_pt
 
     if "DARK_SLATE" in theme:
-        bg_rgb = (30, 41, 59)
-        border_rgb = (244, 196, 48)
-        anchor_rgb = (244, 196, 48)
-        body_rgb = (226, 232, 240)
+        if tier == "STUDIO":
+            bg_rgb = (30, 41, 59)
+            border_rgb = (244, 196, 48)
+            anchor_rgb = (244, 196, 48)
+            body_rgb = (226, 232, 240)
+        else:
+            bg_rgb = (254, 252, 232)
+            border_rgb = (217, 119, 6)
+            anchor_rgb = (180, 83, 9)
+            body_rgb = default_body_rgb
         border_pt = 1.5
         anchor = f"★ {anchor}" if anchor else "★"
     elif "SAFETY_ALERT" in theme:
@@ -1227,12 +1233,6 @@ def _render_right_visual_card(
     anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
     eff_style = _get_slide_effective_style(slide_spec)
     img_frame_style = str(eff_style.get("image_frame_style") or "FRAMELESS_CLEAN").upper()
-    if (
-        str(getattr(slide_spec, "template_id", "default_workbench") or "default_workbench") == "default_workbench"
-        and eff_style.get("text_container_style") == "BOXED_CARDS"
-        and not eff_style.get("explicit_image_frame_override", False)
-    ):
-        img_frame_style = "FRAMED_CARD"
 
     frame_bg = (30, 41, 59) if tier == "STUDIO" else (card_bg_rgb if tier == "BEAUTIFIED" else (248, 250, 252))
     frame_border = accent_rgb if tier in ("BEAUTIFIED", "STUDIO") else ScoutsBSAPalette.BORDER_GRAY_RGB
@@ -1271,6 +1271,19 @@ def _render_right_visual_card(
         shadow_box.fill.fore_color.rgb = RGBColor(*shadow_bg)
         shadow_box.line.fill.background()
         shadow_box.text_frame.word_wrap = True
+    elif eff_style.get("text_container_style") == "BOXED_CARDS":
+        # Invisible/borderless anchor shape so the right visual is 100% frameless while preserving shape-name parity
+        frame_box = slide.shapes.add_shape(
+            MSO_SHAPE.ROUNDED_RECTANGLE,
+            Inches(7.00),
+            Inches(top_in),
+            Inches(5.733),
+            Inches(frame_h),
+        )
+        frame_box.name = f"CardAccent_RightVisualFrame_{len(slide.shapes)}"
+        frame_box.fill.background()
+        frame_box.line.fill.background()
+        frame_box.text_frame.word_wrap = True
 
     img_pad_x = 0.16 if img_frame_style == "FRAMED_CARD" else 0.08
     img_pad_top = 0.12 if img_frame_style == "FRAMED_CARD" else 0.04
@@ -1362,13 +1375,16 @@ def _render_requirement_intro_slide(
         slide_spec.verbatim_requirement_text
         or (slide_spec.bullet_points[0] if slide_spec.bullet_points else f"Complete Requirement {slide_spec.req_number}.")
     )
-    verbatim_text = _format_top_requirement_strip_text(str(slide_spec.req_number), raw_verbatim, max_chars=205)
+    verbatim_text = raw_verbatim
     full_req_line = f"Official Requirement {slide_spec.req_number}: {verbatim_text}"
     req_h = (
         0.74
         if len(full_req_line) <= 95
         else (0.92 if len(full_req_line) <= 180 else 1.08)
     )
+    eff_style = _get_slide_effective_style(slide_spec)
+    hdr_chrome = str(eff_style.get("header_chrome_style") or "MINIMAL_ACCENT").upper()
+    req_container_style = "BOXED_CARDS" if hdr_chrome == "FULL_BANNER" else "LEFT_ACCENT_LINE"
 
     # Top Strip: Full-width Official Requirement text (matches UI preview `.m3-slide-req-strip` with thick left accent)
     req_box = _add_styled_box(
@@ -1381,6 +1397,7 @@ def _render_requirement_intro_slide(
         border_rgb=accent_rgb,
         border_pt=1.5,
         left_accent_rgb=accent_rgb,
+        container_style=req_container_style,
     )
     rtf = req_box.text_frame
     rtf.margin_top = Inches(0.05)
@@ -1664,6 +1681,7 @@ def _render_triage_matrix_zone(
         box_h = total_avail_h
 
     for col_idx, (col_title, header_rgb, bg_rgb, left_x, col_w) in enumerate(col_specs):
+        is_line_col = _ACTIVE_CONTAINER_STYLE == "LEFT_ACCENT_LINE"
         card = _add_styled_box(
             slide,
             left_in=left_x,
@@ -1673,7 +1691,9 @@ def _render_triage_matrix_zone(
             bg_rgb=bg_rgb,
             border_rgb=header_rgb,
             border_pt=1.5 if tier in ("BEAUTIFIED", "STUDIO") else 1.25,
-            top_accent_rgb=header_rgb,
+            left_accent_rgb=header_rgb if is_line_col else None,
+            top_accent_rgb=None if is_line_col else header_rgb,
+            container_style=_ACTIVE_CONTAINER_STYLE,
         )
         tf = card.text_frame
         tf.margin_top = Inches(0.07)
@@ -2800,35 +2820,23 @@ def generate_bsa_slide_deck_pptx(
             )
             if has_req_strip:
                 raw_verbatim = _clean_text(slide_spec.verbatim_requirement_text)
-                req_max_chars = 115 if hdr_chrome == "COMPACT_SINGLE_LINE" else 205
-                verbatim_text = (
-                    _concise_card_body(raw_verbatim, max_words=18, max_chars=req_max_chars)
-                    if (str(slide_spec.req_number).lower() == "overview" and hdr_chrome == "COMPACT_SINGLE_LINE")
-                    else (
-                        raw_verbatim
-                        if str(slide_spec.req_number).lower() == "overview"
-                        else _format_top_requirement_strip_text(str(slide_spec.req_number), raw_verbatim, max_chars=req_max_chars)
-                    )
-                )
+                verbatim_text = raw_verbatim
                 strip_anchor = (
                     "Curriculum & Local Context"
                     if str(slide_spec.req_number).lower() == "overview"
                     else f"Official Requirement {slide_spec.req_number}"
                 )
                 full_strip_line = f"{strip_anchor}: {verbatim_text}"
-                if hdr_chrome == "COMPACT_SINGLE_LINE":
-                    strip_h = 0.58
-                else:
-                    strip_h = (
-                        0.74
-                        if len(full_strip_line) <= 95
-                        else (0.92 if len(full_strip_line) <= 180 else 1.08)
-                    )
+                strip_h = (
+                    0.74
+                    if len(full_strip_line) <= 95
+                    else (0.92 if len(full_strip_line) <= 180 else 1.08)
+                )
                 strip_bg = (30, 41, 59) if s_tier == "STUDIO" else (s_card_bg_rgb if s_tier == "BEAUTIFIED" else ScoutsBSAPalette.WHITE_RGB)
                 strip_container_style = (
-                    "LEFT_ACCENT_LINE"
-                    if (_ACTIVE_CONTAINER_STYLE in ("CLEAN_OPEN", "LEFT_ACCENT_LINE") or hdr_chrome == "COMPACT_SINGLE_LINE")
-                    else "BOXED_CARDS"
+                    "BOXED_CARDS"
+                    if hdr_chrome == "FULL_BANNER"
+                    else "LEFT_ACCENT_LINE"
                 )
                 req_strip = _add_styled_box(
                     content_slide, left_in=0.60, top_in=1.10, width_in=12.133, height_in=strip_h,
@@ -2936,8 +2944,8 @@ def generate_bsa_slide_deck_pptx(
                 "🛡️ Guide to Safe Scouting",
                 warn_str,
                 font_size_pt=warn_font_pt,
-                anchor_rgb=warn_border,
-                body_rgb=s_body_rgb,
+                anchor_rgb=(254, 202, 202) if s_tier == "STUDIO" else warn_border,
+                body_rgb=(254, 242, 242) if s_tier == "STUDIO" else s_body_rgb,
                 font_name="Roboto",
                 space_after_pt=0.0,
                 bold_body=False,

@@ -824,7 +824,7 @@ async def api_regenerate_slide(
             effective_archetype = "CONCEPT_TEXT_SLIDE"
         asset_payload = {"status": "SUCCESS", "visual_source_mode": "none"}
     elif vis_mode == "restore_original":
-        orig_p = req.slide_data.get("original_diagram_path")
+        orig_p = req.slide_data.get("original_diagram_path") or req.slide_data.get("diagram_path")
         if orig_p and os.path.exists(str(orig_p)):
             png_path = str(orig_p)
             png_url = _to_web_asset_url(png_path)
@@ -832,13 +832,16 @@ async def api_regenerate_slide(
             vis_label = str(req.slide_data.get("original_visual_source_label") or "Official BSA Pamphlet Figure")
             vis_caption = str(req.slide_data.get("original_visual_caption") or title)
             orig_arch = str(req.slide_data.get("original_archetype") or "SPLIT_VISUAL_EXPLAINER")
-            effective_archetype = orig_arch if orig_arch != "CONCEPT_TEXT_SLIDE" else "SPLIT_VISUAL_EXPLAINER"
+            if req.new_archetype and req.new_archetype != "CONCEPT_TEXT_SLIDE":
+                effective_archetype = str(req.new_archetype)
+            else:
+                effective_archetype = orig_arch if orig_arch != "CONCEPT_TEXT_SLIDE" else "SPLIT_VISUAL_EXPLAINER"
         else:
             png_path = None
             png_url = None
             svg_url = None
             vis_label = "None (Originally Text-Only Slide)"
-            effective_archetype = str(req.slide_data.get("original_archetype") or "CONCEPT_TEXT_SLIDE")
+            effective_archetype = str(req.new_archetype or req.slide_data.get("original_archetype") or "CONCEPT_TEXT_SLIDE")
         asset_payload = {"status": "SUCCESS", "visual_source_mode": "restore_original"}
     elif vis_mode == "custom_image" and req.custom_image_path and os.path.exists(str(req.custom_image_path)):
         from src.tools.pamphlet_extractor import _load_pamphlet_image_catalog

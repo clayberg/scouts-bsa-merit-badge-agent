@@ -6964,9 +6964,9 @@ body.m3-dark-mode .m3-shortcuts-key-btn {
   left: 0;
   right: auto;
   top: calc(100% + 6px);
-  min-width: 310px;
-  max-height: 380px;
-  overflow-y: auto;
+  min-width: 325px;
+  max-height: 620px;
+  overflow-y: visible;
   z-index: 80;
 }
 
@@ -7040,7 +7040,7 @@ body.m3-dark-mode .m3-tpl-action-icon-btn.delete:hover {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 7px 10px;
+  padding: 5px 10px;
   border: none;
   border-radius: 8px;
   background: transparent;
@@ -8487,14 +8487,27 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   border-bottom: 1px solid rgba(148, 163, 184, 0.28) !important;
 }
 
-/* Preserve column header visual structure on REQUIREMENTS_TRIAGE_MATRIX in Clean/Line modes */
-#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-triage-column-card,
-#widescreen-slide-stage[data-text-container="LEFT_ACCENT_LINE"] .m3-triage-column-card {
-  background: rgba(255, 255, 255, 0.55) !important;
+/* Differentiate CLEAN_OPEN vs LEFT_ACCENT_LINE on Slide 2 (REQUIREMENTS_TRIAGE_MATRIX) */
+#widescreen-slide-stage[data-text-container="CLEAN_OPEN"] .m3-triage-column-card {
+  background: transparent !important;
   border: none !important;
   border-top: 3px solid var(--triage-col-accent, var(--slide-accent, #1E3A8A)) !important;
-  border-radius: 6px !important;
+  border-radius: 0 !important;
   box-shadow: none !important;
+  padding: 0.45rem 0.4rem !important;
+}
+
+#widescreen-slide-stage[data-text-container="LEFT_ACCENT_LINE"] .m3-triage-column-card {
+  background: rgba(15, 23, 42, 0.03) !important;
+  border: none !important;
+  border-left: 4px solid var(--triage-col-accent, var(--slide-accent, #1E3A8A)) !important;
+  border-radius: 0 8px 8px 0 !important;
+  box-shadow: none !important;
+  padding: 0.5rem 0.65rem 0.5rem 0.85rem !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-text-container="LEFT_ACCENT_LINE"] .m3-triage-column-card {
+  background: rgba(30, 41, 59, 0.55) !important;
 }
 
 /* 3. Editorial Left-Accent Line Mode (data-text-container="LEFT_ACCENT_LINE") */
@@ -8537,6 +8550,32 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   font-weight: 500;
 }
 
+/* Dark Slate (STUDIO) High-Contrast Overrides for Clean & Line Modes */
+#widescreen-slide-stage[data-slide-theme="STUDIO"] {
+  --slide-accent: #60A5FA;
+  --slide-fg-ink: #F8FAFC;
+  --slide-fg-muted: #CBD5E1;
+  --slide-title-ink: #F8FAFC;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"] .m3-clean-point-marker {
+  color: #FBBF24 !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"] .m3-clean-point-lead {
+  color: #93C5FD !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"] .m3-clean-point-body {
+  color: #F1F5F9 !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-text-container="CLEAN_OPEN"] .m3-slide-card:not(.m3-quiz-reveal-card):not(:last-child),
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-text-container="CLEAN_OPEN"] .m3-slide-step-card:not(.m3-quiz-reveal-card):not(:last-child),
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-text-container="CLEAN_OPEN"] .m3-slide-bullet-row:not(:last-child) {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25) !important;
+}
+
 /* 4. Frameless Right-Hand Image (data-image-frame="FRAMELESS_CLEAN" & "SOFT_SHADOW") */
 #widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] #stage-right-visual,
 #widescreen-slide-stage[data-image-frame="FRAMELESS_CLEAN"] .m3-slide-right-visual,
@@ -8577,9 +8616,8 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   padding-top: 4px !important;
 }
 
-/* 5. Minimal Top Header & Requirement Subtitle (data-header-chrome="MINIMAL_ACCENT" & "COMPACT_SINGLE_LINE") */
-#widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-magazine-badge,
-#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-magazine-badge {
+/* 5. Permanently Eliminate #stage-magazine-badge & Style Minimal Top Header + Full Requirement Text */
+#stage-magazine-badge {
   display: none !important;
 }
 
@@ -8595,6 +8633,11 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
 #widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-slide-title {
   color: var(--slide-title-ink, #0F172A) !important;
   text-shadow: none !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-header-chrome="MINIMAL_ACCENT"] #stage-slide-title,
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-header-chrome="COMPACT_SINGLE_LINE"] #stage-slide-title {
+  color: #F8FAFC !important;
 }
 
 #widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-req-strip-box,
@@ -8614,16 +8657,20 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   font-style: italic;
 }
 
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-header-chrome="MINIMAL_ACCENT"] #stage-req-strip-box,
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-header-chrome="MINIMAL_ACCENT"] #stage-req-banner,
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-header-chrome="MINIMAL_ACCENT"] .m3-slide-req-strip {
+  color: #E2E8F0 !important;
+  border-left-color: #60A5FA !important;
+}
+
 #widescreen-slide-stage[data-header-chrome="MINIMAL_ACCENT"] #stage-req-verbatim,
 #widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-req-verbatim {
   color: inherit !important;
   font-weight: 600 !important;
-}
-
-#widescreen-slide-stage[data-header-chrome="COMPACT_SINGLE_LINE"] #stage-req-verbatim {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
 }
 
 /* 6. Hover-Revealed Floating Image Action Pills */
@@ -8673,13 +8720,35 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
 
 /* 8. Compact Accent Safety Strip Mode (data-safety-banner="COMPACT_ACCENT") */
 #widescreen-slide-stage[data-safety-banner="COMPACT_ACCENT"] #stage-safety-bar {
-  background: transparent !important;
+  background: rgba(254, 242, 242, 0.85) !important;
   border: none !important;
   border-top: 2px solid #DC2626 !important;
-  border-radius: 0 !important;
+  border-left: 3.5px solid #DC2626 !important;
+  border-radius: 4px !important;
   box-shadow: none !important;
-  padding: 4px 2px 0 2px !important;
-  color: #B91C1C !important;
+  padding: 4px 10px !important;
+  color: #991B1B !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"] #stage-safety-bar {
+  background: rgba(127, 29, 29, 0.52) !important;
+  border-color: #F87171 !important;
+  color: #FEF2F2 !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"] #stage-safety-bar #stage-safety-text {
+  color: #FEF2F2 !important;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"][data-safety-banner="COMPACT_ACCENT"] #stage-safety-bar {
+  background: rgba(127, 29, 29, 0.58) !important;
+  border: none !important;
+  border-top: 2px solid #F87171 !important;
+  border-left: 3.5px solid #F87171 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  padding: 4px 10px !important;
+  color: #FEF2F2 !important;
 }
 
 /* 9. Dark Mode & Sunlight Mode Support for Global Deck Style Controls & Stage Attributes */

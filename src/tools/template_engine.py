@@ -919,8 +919,8 @@ def resolve_effective_slide_style(
         eff_hdr = "MINIMAL_ACCENT"
     elif raw_preset == "BOXED_CARDS":
         eff_text = "BOXED_CARDS"
-        eff_img = "FRAMED_CARD"
-        eff_hdr = "FULL_BANNER"
+        eff_img = "FRAMELESS_CLEAN"
+        eff_hdr = "MINIMAL_ACCENT"
 
     # Step 2: Apply granular deck_style fields when not AUTO
     gran_text = str(ds.get("text_container_style") or "AUTO").strip().upper()

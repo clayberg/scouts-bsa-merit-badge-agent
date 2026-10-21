@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261020a" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261021a" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -367,7 +367,6 @@
                 <select id="deck-header-chrome-select" class="m3-select-sm">
                   <option value="AUTO" selected>Auto (Minimal on Artwork Templates)</option>
                   <option value="MINIMAL_ACCENT">Minimal Kicker + Thin Accent Rule</option>
-                  <option value="COMPACT_SINGLE_LINE">Compact 1-Line Requirement Subtitle</option>
                   <option value="FULL_BANNER">Full Solid Navy Header Banner</option>
                 </select>
               </label>
@@ -1113,7 +1112,7 @@
               <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; flex-wrap:wrap; gap:10px;">
                 <div>
                   <span style="font-family:'Roboto Slab',serif; font-size:0.92rem; font-weight:700; color:#003F87;">
-                    🎨 Slide Layout, Card Style &amp; Palette (Auto-Applies on Selection)
+                    🎨 Slide Layout, Point Style &amp; Palette (Auto-Applies on Selection)
                   </span>
                   <span style="font-size:0.75rem; color:#475569; margin-left:8px;">
                     Tip: Use the on-stage <strong>Easy Slide Image Switcher</strong> (or <kbd class="m3-kbd">[</kbd> / <kbd class="m3-kbd">]</kbd>) to cycle cached visuals.
@@ -1176,14 +1175,14 @@
                   </select>
                 </div>
                 <div>
-                  <label class="m3-field-label" for="codesign-theme-select" style="font-size:0.73rem;">2. Card Style (Magazine Theme)</label>
+                  <label class="m3-field-label" for="codesign-theme-select" style="font-size:0.73rem;">2. Point Callout &amp; Marker Style</label>
                   <select class="m3-select" id="codesign-theme-select" style="padding:6px 8px; font-size:0.78rem;">
                     <option value="NUMBERED_STEP_CARDS">Numbered Step Badges (01, 02, 03)</option>
-                    <option value="THREE_PILLAR_BENTO">Bento Accent Cards (Top Color Bar ◆)</option>
-                    <option value="EDITORIAL_CALLOUT_QUOTE">Editorial Callout Cards (Warm Gold ❝)</option>
-                    <option value="DARK_SLATE_SPOTLIGHT">High-Contrast Dark Slate Cards (★)</option>
-                    <option value="TIMELINE_CHEVRON_CARDS">Timeline Sequence Cards (STEP 1 ➔)</option>
-                    <option value="SAFETY_ALERT_SPLIT">Safety Warning Highlight (Crimson ⚠️)</option>
+                    <option value="THREE_PILLAR_BENTO">Key Concept Diamonds (◆ Accent)</option>
+                    <option value="TIMELINE_CHEVRON_CARDS">Sequential Action Steps (STEP 1 ➔)</option>
+                    <option value="EDITORIAL_CALLOUT_QUOTE">Counselor Quote &amp; Callout (❝)</option>
+                    <option value="SAFETY_ALERT_SPLIT">Safety &amp; Caution Callout (⚠️ SAFETY)</option>
+                    <option value="DARK_SLATE_SPOTLIGHT">Key Takeaway Spotlight (★ Gold Star)</option>
                   </select>
                 </div>
                 <div>
@@ -2784,6 +2783,9 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
           <button type="button" id="btn-modal-save-default-deck-style" class="m3-btn m3-btn-tonal" style="padding:5px 12px; font-size:0.76rem; font-weight:800;" title="Save active PowerPoint template and layout style as your personal default">
             📌 Set as My Default
           </button>
+          <button type="button" id="btn-modal-reset-default-deck-style" class="m3-btn m3-btn-outlined" style="padding:5px 12px; font-size:0.76rem; font-weight:800;" title="Reset default template and layout style to recommended defaults (BSA Scouting America + Clean Open)">
+            ↺ Reset
+          </button>
         </div>
       </div>
 
@@ -3142,6 +3144,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261020a"></script>
+  <script src="/ui/app.js?v=20261021a"></script>
 </body>
 </html>

@@ -974,6 +974,28 @@ function bindFilterAndSlideControls() {
   ["depth-select", "beautification-select", "audience-select", "deep-research-checkbox"].forEach((id) => {
     document.getElementById(id)?.addEventListener("change", () => {
       markDeckConfigDirty();
+      if (id === "beautification-select" && state.currentResult) {
+        const newTier = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
+        state.currentResult.beautification_tier = newTier;
+        const slides = state.currentResult.storyboard?.slides || [];
+        slides.forEach((s) => {
+          s.beautification_tier = newTier;
+        });
+        const beauLabelMap = {
+          STANDARD: "Crisp White",
+          BEAUTIFIED: "Warm Cream",
+          STUDIO: "Dark Slate",
+        };
+        const resBeauEl = document.getElementById("res-beautification");
+        if (resBeauEl) resBeauEl.textContent = beauLabelMap[newTier] || newTier;
+        renderFilmstrip(slides);
+        if (state.activeSlideIdx >= 0) {
+          renderActiveSlide(state.activeSlideIdx);
+        }
+        if (typeof applyDeckStyleToActiveDeck === "function") {
+          applyDeckStyleToActiveDeck(false);
+        }
+      }
     });
   });
 
@@ -1056,7 +1078,7 @@ function bindFilterAndSlideControls() {
     fsHud?.classList.toggle("hidden", !enable);
     const fsBtn = document.getElementById("btn-present-fullscreen");
     if (fsBtn) {
-      fsBtn.textContent = enable ? "✕ Exit Fullscreen" : "🖥️ Present Fullscreen";
+      fsBtn.textContent = enable ? "✕ Exit Fullscreen" : "🖥️ Present";
     }
     // Use the deterministic full-viewport CSS theatre overlay (.is-presenting-fullscreen)
     // and exit native OS fullscreen if active so macOS Spaces never hijack Presenter View into a separate fullscreen space
@@ -1088,7 +1110,7 @@ function bindFilterAndSlideControls() {
       stageWrapper.classList.remove("is-presenting-fullscreen");
       fsHud?.classList.add("hidden");
       const fsBtn = document.getElementById("btn-present-fullscreen");
-      if (fsBtn) fsBtn.textContent = "🖥️ Present Fullscreen";
+      if (fsBtn) fsBtn.textContent = "🖥️ Present";
     }
   });
 
@@ -1136,27 +1158,80 @@ function bindFilterAndSlideControls() {
   // F3, F4, F5, F6 Action Buttons (Copy, Email, Gmail, Print, Schedule Selector, Gear Multiplier, Blue Card)
   bindCounselorToolkitActions();
 
-  document.getElementById("btn-apply-codesign")?.addEventListener("click", async () => {
+  const applyCoDesignSelection = async () => {
     if (!state.currentResult || state.activeSlideIdx < 0) return;
     const slides = state.currentResult.storyboard?.slides || [];
     const slide = slides[state.activeSlideIdx];
     if (!slide) return;
+
+    if (slide.diagram_url && !slide.original_diagram_url) {
+      slide.original_diagram_url = slide.diagram_url;
+    }
+    if (slide.diagram_path && !slide.original_diagram_path) {
+      slide.original_diagram_path = slide.diagram_path;
+    }
+    if (slide.visual_caption && !slide.original_visual_caption) {
+      slide.original_visual_caption = slide.visual_caption;
+    }
+    if (slide.visual_source_label && !slide.original_visual_source_label) {
+      slide.original_visual_source_label = slide.visual_source_label;
+    }
 
     const newArch = document.getElementById("codesign-archetype-select")?.value || slide.archetype || "SPLIT_VISUAL_EXPLAINER";
     const newTheme = document.getElementById("codesign-theme-select")?.value || slide.visual_theme || "NUMBERED_STEP_CARDS";
     const newPalette = document.getElementById("codesign-palette-select")?.value || slide.accent_palette_key || "NAVY_GOLD";
     const newContainerOverride = document.getElementById("codesign-container-style-select")?.value || slide.container_style_override || "AUTO_DECK";
     const rawSourceVal = document.getElementById("codesign-source-select")?.value || "keep_current";
-    const visSourceMode =
-      rawSourceVal === "none" || (newArch === "CONCEPT_TEXT_SLIDE" && rawSourceVal === "keep_current")
-        ? "none"
-        : rawSourceVal;
-    const applyBtn = document.getElementById("btn-apply-codesign");
+    let visSourceMode = rawSourceVal;
+    if (newArch === "CONCEPT_TEXT_SLIDE") {
+      visSourceMode = "none";
+    } else if (rawSourceVal === "none" && slide.archetype === "CONCEPT_TEXT_SLIDE") {
+      // User switched from Full Text back to a visual layout (e.g., Split Visual or Big Visual): restore image automatically
+      visSourceMode = "restore_original";
+      const srcSelEl = document.getElementById("codesign-source-select");
+      if (srcSelEl) srcSelEl.value = "keep_current";
+    } else if (rawSourceVal !== "none" && !slide.diagram_url && (slide.original_diagram_url || slide.original_diagram_path)) {
+      visSourceMode = "restore_original";
+    }
+
+    // 1. Optimistic immediate (<5ms) update on the live stage so rapid clicks (Split Visual -> Full Text -> Split Visual -> Big Visual) never lag or block
+    slide.archetype = visSourceMode === "none" ? "CONCEPT_TEXT_SLIDE" : newArch;
+    slide.visual_theme = newTheme;
+    slide.accent_palette_key = newPalette;
     slide.container_style_override = newContainerOverride;
+    slide.beautification_tier =
+      state.currentResult.beautification_tier ||
+      document.getElementById("beautification-select")?.value ||
+      "BEAUTIFIED";
+
+    if (visSourceMode === "none") {
+      slide.diagram_url = null;
+      slide.diagram_path = null;
+      slide.ai_hero_image_path = null;
+      slide.visual_source_label = "None (Full-Width Text Layout)";
+      slide.callout_badge_text = "";
+      if (slide.full_bullet_points) {
+        slide.bullet_points = slide.full_bullet_points.slice();
+      }
+    } else if (visSourceMode === "restore_original" || (!slide.diagram_url && visSourceMode !== "ai_hero")) {
+      const fallbackChoice = (typeof getSlideSpecificImageChoices === "function" ? getSlideSpecificImageChoices(slide) : [])[0];
+      slide.diagram_url = slide.original_diagram_url || fallbackChoice?.image_url || slide.diagram_url || null;
+      slide.diagram_path = slide.original_diagram_path || fallbackChoice?.image_path || slide.diagram_path || null;
+      slide.ai_hero_image_path = null;
+      slide.visual_caption = slide.original_visual_caption || slide.visual_caption || slide.title;
+      slide.visual_source_label = slide.original_visual_source_label || slide.visual_source_label || "Official BSA Pamphlet / Wikimedia Figure";
+      slide.callout_badge_text = "";
+    }
+
+    renderFilmstrip(slides);
+    renderActiveSlide(state.activeSlideIdx);
+
+    state._codesignReqSeq = (state._codesignReqSeq || 0) + 1;
+    const reqSeq = state._codesignReqSeq;
+    const applyBtn = document.getElementById("btn-apply-codesign");
 
     try {
       if (applyBtn) {
-        applyBtn.disabled = true;
         applyBtn.textContent = "⏳ Applying...";
       }
       const resp = await fetch("/api/slide/regenerate", {
@@ -1179,48 +1254,54 @@ function bindFilterAndSlideControls() {
         }),
       }).then((r) => r.json());
 
-      slide.archetype = resp.new_archetype || (visSourceMode === "none" ? "CONCEPT_TEXT_SLIDE" : newArch);
+      // Ignore out-of-order responses if the user clicked another layout/style while this request was in flight
+      if (reqSeq !== state._codesignReqSeq) return;
+
+      slide.archetype = visSourceMode === "none" ? "CONCEPT_TEXT_SLIDE" : (newArch || resp.new_archetype || "SPLIT_VISUAL_EXPLAINER");
       slide.visual_theme = newTheme;
       slide.accent_palette_key = newPalette;
       slide.container_style_override = newContainerOverride;
       slide.beautification_tier =
-        visSourceMode === "ai_hero"
-          ? "STUDIO"
-          : state.currentResult.beautification_tier === "STANDARD"
-          ? "BEAUTIFIED"
-          : state.currentResult.beautification_tier;
+        state.currentResult.beautification_tier ||
+        document.getElementById("beautification-select")?.value ||
+        "BEAUTIFIED";
 
       if (visSourceMode === "none") {
         slide.diagram_url = null;
         slide.diagram_path = null;
         slide.ai_hero_image_path = null;
         slide.visual_source_label = "None (Full-Width Text Layout)";
-        slide.callout_badge_text = `📄 ${newTheme.replace(/_/g, " ")} • ${newPalette} • Full-Width Text`;
+        slide.callout_badge_text = "";
         if (slide.full_bullet_points) {
           slide.bullet_points = slide.full_bullet_points.slice();
         }
       } else if (visSourceMode === "restore_original") {
-        slide.diagram_url = resp.diagram_url || slide.original_diagram_url || null;
-        slide.diagram_path = resp.diagram_path || slide.original_diagram_path || null;
+        const fallbackChoice = (typeof getSlideSpecificImageChoices === "function" ? getSlideSpecificImageChoices(slide) : [])[0];
+        slide.diagram_url = resp.diagram_url || slide.original_diagram_url || fallbackChoice?.image_url || null;
+        slide.diagram_path = resp.diagram_path || slide.original_diagram_path || fallbackChoice?.image_path || null;
         slide.ai_hero_image_path = null;
         slide.visual_caption = resp.visual_caption || slide.original_visual_caption || slide.title;
         slide.visual_source_label = resp.visual_source_label || slide.original_visual_source_label || "Official BSA Pamphlet / Wikimedia Figure";
-        slide.callout_badge_text = `📐 ${newTheme.replace(/_/g, " ")} • ${newPalette} • Restored Original`;
+        slide.callout_badge_text = "";
       } else {
         if (resp.diagram_url) {
           slide.diagram_url = `${resp.diagram_url}${resp.diagram_url.includes("?") ? "&" : "?"}t=${Date.now()}`;
+        } else if (!slide.diagram_url && slide.original_diagram_url) {
+          slide.diagram_url = slide.original_diagram_url;
         }
         if (resp.diagram_path) {
           slide.diagram_path = resp.diagram_path;
+        } else if (!slide.diagram_path && slide.original_diagram_path) {
+          slide.diagram_path = slide.original_diagram_path;
         }
         if (visSourceMode === "ai_hero") {
           slide.ai_hero_image_path = resp.diagram_path || resp.diagram_url || "ai_hero";
           slide.visual_source_label = "EDGE Skill Concept Map (SlideBeautifierAgent)";
-          slide.callout_badge_text = `✨ ${newTheme.replace(/_/g, " ")} • ${newPalette} • EDGE Concept Map`;
+          slide.callout_badge_text = "";
         } else {
           slide.ai_hero_image_path = null;
           slide.visual_source_label = resp.visual_source_label || slide.visual_source_label || "Official BSA Pamphlet / Wikimedia Figure";
-          slide.callout_badge_text = `📐 ${newTheme.replace(/_/g, " ")} • ${newPalette}`;
+          slide.callout_badge_text = "";
         }
       }
 
@@ -1236,12 +1317,13 @@ function bindFilterAndSlideControls() {
       renderFilmstrip(slides);
       renderActiveSlide(state.activeSlideIdx);
     } finally {
-      if (applyBtn) {
+      if (applyBtn && reqSeq === state._codesignReqSeq) {
         applyBtn.disabled = false;
         applyBtn.textContent = "✨ Apply to Slide";
       }
     }
-  });
+  };
+  document.getElementById("btn-apply-codesign")?.addEventListener("click", applyCoDesignSelection);
 
   // Plan 6 Option C Layer 2: 1-Click AI Polish Script & Copy Script buttons
   document.getElementById("btn-copy-slide-notes")?.addEventListener("click", (ev) => {
@@ -2989,18 +3071,15 @@ function resolveEffectiveSlideStyle(slide) {
       ? ds.text_container_style
       : layoutStyle;
 
+  // Decouple Right Image Frame and Header Chrome from Text Points Style ("Boxed Cards" only affects text points!)
   const imageFrame =
     ds.image_frame_style && ds.image_frame_style !== "AUTO"
       ? ds.image_frame_style
-      : textContainer === "BOXED_CARDS"
-      ? "FRAMED_CARD"
       : "FRAMELESS_CLEAN";
 
   const headerChrome =
-    ds.header_chrome_style && ds.header_chrome_style !== "AUTO"
+    ds.header_chrome_style && ds.header_chrome_style !== "AUTO" && ds.header_chrome_style !== "COMPACT_SINGLE_LINE"
       ? ds.header_chrome_style
-      : textContainer === "BOXED_CARDS" && !isArtworkTemplate
-      ? "FULL_BANNER"
       : "MINIMAL_ACCENT";
 
   return {
@@ -3100,6 +3179,7 @@ function renderActiveSlide(idx) {
     if (stageEl) {
       stageEl.style.background = coverTokens.stageBg;
       stageEl.style.border = coverTokens.stageBorder;
+      stageEl.setAttribute("data-slide-theme", coverTokens.tier || deckTier || "BEAUTIFIED");
       stageEl.setAttribute("data-text-container", coverEffStyle.text_container_style);
       stageEl.setAttribute("data-image-frame", coverEffStyle.image_frame_style);
       stageEl.setAttribute("data-header-chrome", coverEffStyle.header_chrome_style);
@@ -3221,6 +3301,22 @@ function renderActiveSlide(idx) {
   const slide = slides[idx];
   if (!slide) return;
 
+  if (slide.diagram_url && !slide.original_diagram_url) {
+    slide.original_diagram_url = slide.diagram_url;
+  }
+  if (slide.diagram_path && !slide.original_diagram_path) {
+    slide.original_diagram_path = slide.diagram_path;
+  }
+  if (slide.visual_caption && !slide.original_visual_caption) {
+    slide.original_visual_caption = slide.visual_caption;
+  }
+  if (slide.visual_source_label && !slide.original_visual_source_label) {
+    slide.original_visual_source_label = slide.visual_source_label;
+  }
+  if (slide.archetype && slide.archetype !== "CONCEPT_TEXT_SLIDE" && !slide.original_archetype) {
+    slide.original_archetype = slide.archetype;
+  }
+
   const archetype = slide.archetype || "SPLIT_VISUAL_EXPLAINER";
   const scoreboardEl = document.getElementById("stage-patrol-scoreboard");
   if (scoreboardEl) {
@@ -3302,10 +3398,11 @@ function renderActiveSlide(idx) {
     normTheme === "TIMELINE_CHEVRON_CARDS" ||
     archetype === "WORKED_EXAMPLE_TEMPLATE";
 
-  // Apply Layer-0 Magazine Vector Card Header, Stage Background, Border & v2.0 Data Attributes
+  // Apply Layer-0 Header, Stage Background, Border & v2.0 Data Attributes
   if (stageEl) {
     stageEl.style.background = tokens.stageBg;
     stageEl.style.border = tokens.stageBorder;
+    stageEl.setAttribute("data-slide-theme", tokens.tier || deckTier || "BEAUTIFIED");
     stageEl.setAttribute("data-text-container", effStyle.text_container_style);
     stageEl.setAttribute("data-image-frame", effStyle.image_frame_style);
     stageEl.setAttribute("data-header-chrome", effStyle.header_chrome_style);
@@ -3319,20 +3416,15 @@ function renderActiveSlide(idx) {
   const titleEl = document.getElementById("stage-slide-title");
   if (titleEl) {
     titleEl.textContent = slide.title || "";
-    titleEl.style.color = tokens.isStudio ? "#F8FAFC" : tokens.primaryHex;
+    titleEl.style.color = (tokens.isStudio || effStyle.header_chrome_style === "FULL_BANNER") ? "#F8FAFC" : tokens.primaryHex;
   }
   if (headerBand) {
     headerBand.style.borderTop = tokens.isBeautified ? `6px solid ${tokens.accentHex}` : "none";
     headerBand.style.background = tokens.headerBg;
   }
   if (magBadge) {
-    if (tokens.isBeautified && effStyle.header_chrome_style === "FULL_BANNER") {
-      magBadge.classList.remove("hidden");
-      const badgeLabel = slide.callout_badge_text || visTheme;
-      magBadge.innerHTML = `<span style="display:inline-block; background:${tokens.badgeBg}; color:${tokens.badgeFg}; border:1px solid ${tokens.accentHex}; font-size:0.72rem; font-weight:700; padding:2px 10px; border-radius:999px;">🎨 ${escapeHtml(formatSlideThemeLabel(tokens.tier).toUpperCase())} &bull; ${escapeHtml(badgeLabel)}</span>`;
-    } else {
-      magBadge.classList.add("hidden");
-    }
+    magBadge.classList.add("hidden");
+    magBadge.innerHTML = "";
   }
 
   const reqNumChip = document.getElementById("stage-req-number");
@@ -3346,7 +3438,7 @@ function renderActiveSlide(idx) {
     footerRight.style.color = tokens.footerColor;
   }
 
-  // Show the Requirement Definition strip when verbatim_requirement_text is non-empty
+  // Always show the full Requirement Definition / Overview text in all modes (never truncate)
   const hasVerbatimReq = Boolean(slide.verbatim_requirement_text && slide.verbatim_requirement_text.trim());
   const reqHeaderLabel = slide.req_number === "Overview" ? "Curriculum & Local Context" : `Official ${reqLabel}`;
   if (reqStripBox) {
@@ -3355,12 +3447,10 @@ function renderActiveSlide(idx) {
       reqStripBox.style.borderColor = tokens.accentHex;
       reqStripBox.style.background = tokens.isBeautified ? tokens.cardBg : "#FFFFFF";
       const rawVerbatim = String(slide.verbatim_requirement_text || "").trim();
-      const displayReqText =
-        effStyle.header_chrome_style !== "FULL_BANNER" && isCleanOrLineMode
-          ? formatConciseReqSubtitle(rawVerbatim, effStyle.header_chrome_style === "COMPACT_SINGLE_LINE" ? 140 : 205)
-          : rawVerbatim;
       reqStripBox.title = rawVerbatim;
-      document.getElementById("stage-req-verbatim").innerHTML = `<strong style="color:${tokens.primaryHex};">${escapeHtml(reqHeaderLabel)}:</strong> <span style="color:${tokens.textFg};">${escapeHtml(displayReqText)}</span>`;
+      const reqLabelColor = tokens.isStudio ? "#93C5FD" : tokens.primaryHex;
+      const reqBodyColor = tokens.isStudio ? "#F1F5F9" : tokens.textFg;
+      document.getElementById("stage-req-verbatim").innerHTML = `<strong style="color:${reqLabelColor};">${escapeHtml(reqHeaderLabel)}:</strong> <span style="color:${reqBodyColor};">${escapeHtml(rawVerbatim)}</span>`;
     } else {
       reqStripBox.style.display = "none";
       reqStripBox.title = "";
@@ -3375,7 +3465,7 @@ function renderActiveSlide(idx) {
     (archetype === "REQUIREMENT_INTRO" && !tokens.isBeautified);
   const isSplitWithReqBanner = hasVerbatimReq && hasVisual && !hideVisualForIntro;
 
-  // Resolve per-card styling & prefix for all 6 Magazine Card Themes
+  // Resolve per-card styling & prefix for all 6 Point Callout & Marker Styles
   function getCardThemeSpec(bpIdx) {
     let style = tokens.isBeautified
       ? `background:${tokens.cardBg}; border:1.5px solid ${tokens.accentHex}; border-left:6px solid ${tokens.primaryHex}; color:${tokens.textFg}; box-shadow:0 3px 10px rgba(15,23,42,0.08);`
@@ -3396,10 +3486,17 @@ function renderActiveSlide(idx) {
     }
 
     if (normTheme === "DARK_SLATE_SPOTLIGHT") {
-      style = `background:#1E293B; border:1.5px solid #F4C430; border-left:6px solid #38BDF8; color:#F8FAFC; box-shadow:0 4px 12px rgba(15,23,42,0.22);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
-      anchorColor = isCleanOrLineMode && !tokens.isStudio ? tokens.primaryHex : "#F4C430";
-      bodyColor = isCleanOrLineMode && !tokens.isStudio ? tokens.textFg : "#E2E8F0";
-      prefix = `<span style="color:#38BDF8; font-weight:900; margin-right:6px;">★</span>`;
+      if (tokens.isStudio) {
+        style = `background:#1E293B; border:1.5px solid #F4C430; border-left:6px solid #38BDF8; color:#F8FAFC; box-shadow:0 4px 12px rgba(15,23,42,0.22);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
+        anchorColor = "#F4C430";
+        bodyColor = "#F1F5F9";
+        prefix = `<span style="color:#F4C430; font-weight:900; margin-right:6px;">★</span>`;
+      } else {
+        style = `background:#FEFCE8; border:1.5px solid #D97706; border-left:6px solid #B45309; color:#0F172A; box-shadow:0 3px 10px rgba(217,119,6,0.10);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
+        anchorColor = "#B45309";
+        bodyColor = tokens.textFg;
+        prefix = `<span style="color:#D97706; font-weight:900; margin-right:6px;">★</span>`;
+      }
     } else if (normTheme === "SAFETY_ALERT_SPLIT") {
       const sBg = tokens.isStudio ? "#311018" : "#FFF1F2";
       const sBorder = tokens.isStudio ? "#FB7185" : "#CE1126";
@@ -3669,11 +3766,13 @@ function renderActiveSlide(idx) {
       card.style.cssText = cSpec.style;
       const colonIdx = bp.indexOf(":");
       const isSourcesSlide = archetype === "SOURCES_AND_REFERENCES";
+      const usePlainCleanBullet =
+        isCleanOrLineMode && !isSequentialSlide && normTheme === "NUMBERED_STEP_CARDS";
       if (colonIdx > 0 && colonIdx < 52) {
         const anchor = bp.slice(0, colonIdx);
         const rawRest = bp.slice(colonIdx + 1).trim();
         const rest = isSourcesSlide ? rawRest : conciseCardBody(rawRest);
-        if (isCleanOrLineMode && !isSequentialSlide) {
+        if (usePlainCleanBullet) {
           card.innerHTML = `
             <div class="m3-clean-point-row">
               <span class="m3-clean-point-marker" style="color:${cSpec.anchorColor};">▸</span>
@@ -3691,7 +3790,7 @@ function renderActiveSlide(idx) {
         }
       } else {
         const bodyTxt = isSourcesSlide ? bp : conciseCardBody(bp);
-        if (isCleanOrLineMode && !isSequentialSlide) {
+        if (usePlainCleanBullet) {
           card.innerHTML = `
             <div class="m3-clean-point-row">
               <span class="m3-clean-point-marker" style="color:${cSpec.anchorColor};">▸</span>
@@ -9423,7 +9522,15 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     btn.addEventListener("click", () => {
       const arch = btn.getAttribute("data-arch") || "SPLIT_VISUAL_EXPLAINER";
       const archSel = document.getElementById("codesign-archetype-select");
+      const srcSel = document.getElementById("codesign-source-select");
       if (archSel) archSel.value = arch;
+      if (srcSel) {
+        if (arch === "CONCEPT_TEXT_SLIDE") {
+          srcSel.value = "none";
+        } else if (srcSel.value === "none") {
+          srcSel.value = "restore_original";
+        }
+      }
       syncArchetypeVisualPicker(arch);
       document.getElementById("btn-apply-codesign")?.click();
     });
@@ -9431,7 +9538,16 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   ["codesign-archetype-select", "codesign-theme-select", "codesign-palette-select", "codesign-source-select"].forEach((id) => {
     document.getElementById(id)?.addEventListener("change", (ev) => {
       if (id === "codesign-archetype-select") {
-        syncArchetypeVisualPicker(ev.target.value);
+        const arch = ev.target.value;
+        const srcSel = document.getElementById("codesign-source-select");
+        if (srcSel) {
+          if (arch === "CONCEPT_TEXT_SLIDE") {
+            srcSel.value = "none";
+          } else if (srcSel.value === "none") {
+            srcSel.value = "restore_original";
+          }
+        }
+        syncArchetypeVisualPicker(arch);
       }
       document.getElementById("btn-apply-codesign")?.click();
     });
@@ -10915,7 +11031,7 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     );
   } else if (prof.canvas_watermark_url) {
     parts.push(
-      `<img src="${escapeHtml(withTplVer(prof.canvas_watermark_url))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.48" : "0.95"}; pointer-events:none;" />`
+      `<img src="${escapeHtml(withTplVer(prof.canvas_watermark_url))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.06" : "0.95"}; pointer-events:none;" />`
     );
   }
 
@@ -11216,17 +11332,17 @@ function renderStageTemplateSplitDropdown() {
     .join("");
 
   menuEl.innerHTML = `
-    <div class="m3-stage-template-menu-header" style="padding:4px 10px 4px; font-size:0.67rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B;">
+    <div class="m3-stage-template-menu-header" style="padding:4px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
+      Switch Slide Template (${list.length} Across ${groups.length} Styles)
+    </div>
+    <div style="max-height:none; overflow:visible;">
+      ${itemsHtml}
+    </div>
+    <div class="m3-stage-template-menu-header" style="padding:6px 10px 4px; font-size:0.67rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-top:1px solid #E2E8F0; margin-top:4px;">
       Deck Layout Style (Live Stage + .PPTX)
     </div>
     <div class="m3-stage-style-quick-row" role="group" aria-label="Quick Deck Layout Style">
       ${quickLayoutBtnsHtml}
-    </div>
-    <div class="m3-stage-template-menu-header" style="padding:5px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-top:1px solid #E2E8F0; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
-      Switch Slide Template (${list.length} Across ${groups.length} Styles)
-    </div>
-    <div style="max-height:290px; overflow-y:auto;">
-      ${itemsHtml}
     </div>
     <div class="m3-stage-template-menu-footer">
       <button type="button" class="m3-btn m3-btn-tonal m3-tonal-btn" id="btn-stage-menu-open-studio" style="width:100%; font-size:0.74rem; padding:6px 10px; font-weight:700; justify-content:center;">
@@ -11802,6 +11918,9 @@ async function initPowerPointTemplateStudio() {
     saveDefaultDeckStylePreferences();
   });
   document.getElementById("btn-reset-default-deck-style")?.addEventListener("click", () => {
+    resetDefaultDeckStylePreferences();
+  });
+  document.getElementById("btn-modal-reset-default-deck-style")?.addEventListener("click", () => {
     resetDefaultDeckStylePreferences();
   });
 
