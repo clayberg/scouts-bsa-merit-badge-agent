@@ -3104,6 +3104,19 @@ def test_v38_slide_deck_ui_ux_global_styling_and_visual_quality_audit(tmp_path) 
     assert 'data-image-frame="FRAMELESS_CLEAN"' in ui_css
     assert "resolveEffectiveSlideStyle" in ui_js
     assert "saveDefaultDeckStylePreferences" in ui_js
+    assert "shouldMatchTemplatePalette" in ui_js
+
+    # 6. Verify all 6 Cherry-Picked ge-ui-designer Engineering Improvements
+    import re
+    assert "font-variant-numeric: tabular-nums;" in ui_css
+    assert not re.search(r"transition:\s*all\b", ui_css), "ui/styles.css should have 0 transition: all rules"
+    inline_hex_matches = re.findall(r'style="[^"]*#[0-9A-Fa-f]{3,8}[^"]*"', ui_html)
+    assert len(inline_hex_matches) == 0, f"ui/index.html should have 0 inline hex styles, found: {inline_hex_matches[:3]}"
+    assert "--radius-outer: 24px;" in ui_css and "--radius-card: 16px;" in ui_css
+    assert "--radius-inner: 12px;" in ui_css and "--radius-control: 8px;" in ui_css
+    assert "color-scheme: light;" in ui_css and "color-scheme: dark;" in ui_css
+    assert "body:not(.high-contrast-sunlight) #sidebar-setup .m3-sub-expander" in ui_css
+
 
 
 

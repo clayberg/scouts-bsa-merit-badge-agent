@@ -1196,8 +1196,12 @@ function bindFilterAndSlideControls() {
 
     // 1. Optimistic immediate (<5ms) update on the live stage so rapid clicks (Split Visual -> Full Text -> Split Visual -> Big Visual) never lag or block
     slide.archetype = visSourceMode === "none" ? "CONCEPT_TEXT_SLIDE" : newArch;
+    if (newTheme && newTheme !== slide.visual_theme) {
+      slide._customThemeOverride = true;
+    }
     slide.visual_theme = newTheme;
     slide.accent_palette_key = newPalette;
+    slide._customPaletteOverride = Boolean(newPalette && newPalette !== "MATCH_TEMPLATE");
     slide.container_style_override = newContainerOverride;
     slide.beautification_tier =
       state.currentResult.beautification_tier ||
@@ -2246,9 +2250,24 @@ function hydrateWorkbench(rawResult) {
   clearDeckConfigDirty();
 
   const slides = result.storyboard?.slides || [];
+  if (result.template_id && !state.activeTemplateId) {
+    state.activeTemplateId = result.template_id;
+  }
+  const hydrateProf = typeof getActiveTemplateProfile === "function" ? getActiveTemplateProfile() : null;
+  if (hydrateProf) {
+    state.activeTemplateProfile = hydrateProf;
+  }
+  const matchPaletteOnHydrate = document.getElementById("template-match-palette-checkbox")?.checked !== false;
   slides.forEach((s, idx) => {
     if (!s._uid) {
       s._uid = `sl_${idx}_${s.req_number || ""}_${(s.title || "").slice(0, 24)}`;
+    }
+    if (hydrateProf && hydrateProf.template_id !== "default_workbench") {
+      s.template_id = hydrateProf.template_id;
+      if (matchPaletteOnHydrate && !s._customPaletteOverride) {
+        s.accent_palette_key = "MATCH_TEMPLATE";
+        s.brand_palette = "MATCH_TEMPLATE";
+      }
     }
   });
   if (state._deckCustomizeDebounceTimer) {
@@ -2377,6 +2396,9 @@ function hydrateWorkbench(rawResult) {
   if (typeof window.onWorkbenchDeckHydrated === "function") {
     window.onWorkbenchDeckHydrated(result);
   }
+  if (typeof syncTemplateSelectorUi === "function") {
+    syncTemplateSelectorUi();
+  }
   if (
     state.activeTemplateId &&
     state.activeTemplateId !== "default_workbench" &&
@@ -2384,6 +2406,8 @@ function hydrateWorkbench(rawResult) {
     typeof applyTemplateToActiveDeck === "function"
   ) {
     applyTemplateToActiveDeck(state.activeTemplateId, false);
+  } else if (typeof window.renderSlideTemplateOverlay === "function") {
+    window.renderSlideTemplateOverlay(state.activeSlideIdx === -1, null);
   }
 }
 
@@ -2852,8 +2876,19 @@ function resolveSlidePaletteTokens(slide, deckTier) {
     };
   }
   const paletteKey = String(slide?.accent_palette_key || "NAVY_GOLD").toUpperCase();
-  const tplProf = state.activeTemplateProfile;
-  if (paletteKey === "MATCH_TEMPLATE" && tplProf && tplProf.template_id !== "default_workbench") {
+  const tplProf =
+    typeof getActiveTemplateProfile === "function"
+      ? getActiveTemplateProfile()
+      : state.activeTemplateProfile;
+  if (tplProf) {
+    state.activeTemplateProfile = tplProf;
+  }
+  const matchPaletteChecked =
+    document.getElementById("template-match-palette-checkbox")?.checked !== false;
+  const shouldMatchTemplatePalette =
+    Boolean(tplProf && tplProf.template_id !== "default_workbench") &&
+    (paletteKey === "MATCH_TEMPLATE" || (matchPaletteChecked && !slide?._customPaletteOverride));
+  if (shouldMatchTemplatePalette) {
     if (tier === "STUDIO") {
       return {
         tier: "STUDIO",
@@ -2863,11 +2898,11 @@ function resolveSlidePaletteTokens(slide, deckTier) {
         textFg: "#F8FAFC",
         subTextFg: "#E2E8F0",
         primaryHex: "#38BDF8",
-        accentHex: tplProf.accent_hex || "#F4C430",
+        accentHex: tplProf.accent_hex || "#435835",
         cardBg: "#1E293B",
         badgeBg: "#1E293B",
-        badgeFg: tplProf.accent_hex || "#F4C430",
-        stageBorder: `3px solid ${tplProf.accent_hex || "#F4C430"}`,
+        badgeFg: tplProf.accent_hex || "#435835",
+        stageBorder: `3px solid ${tplProf.accent_hex || "#435835"}`,
         headerBg: "linear-gradient(90deg, rgba(30,41,59,0.92) 0%, rgba(15,23,42,0.92) 100%)",
         footerColor: "#94A3B8",
       };
@@ -2879,12 +2914,12 @@ function resolveSlidePaletteTokens(slide, deckTier) {
       stageBg: "#FAF8F5",
       textFg: "#0F172A",
       subTextFg: "#334155",
-      primaryHex: tplProf.primary_hex || "#003F87",
-      accentHex: tplProf.accent_hex || "#D4AF37",
-      cardBg: tplProf.card_bg_hex || "#EFF6FF",
+      primaryHex: tplProf.primary_hex || "#5A6F43",
+      accentHex: tplProf.accent_hex || "#435835",
+      cardBg: tplProf.card_bg_hex || "#F4F7F0",
       badgeBg: "#FEF3C7",
       badgeFg: "#92400E",
-      stageBorder: `2.5px solid ${tplProf.accent_hex || "#D4AF37"}`,
+      stageBorder: `2.5px solid ${tplProf.accent_hex || "#435835"}`,
       headerBg: "linear-gradient(90deg, rgba(7,86,151,0.07) 0%, rgba(212,175,55,0.12) 100%)",
       footerColor: "#64748B",
     };
@@ -3485,7 +3520,12 @@ function renderActiveSlide(idx) {
       return { style, anchorColor, bodyColor, prefix };
     }
 
-    if (normTheme === "DARK_SLATE_SPOTLIGHT") {
+    const effectiveCardTheme =
+      isCleanOrLineMode && !slide._customThemeOverride && archetype !== "SAFETY_CRITICAL_CALLOUT"
+        ? "NUMBERED_STEP_CARDS"
+        : normTheme;
+
+    if (effectiveCardTheme === "DARK_SLATE_SPOTLIGHT") {
       if (tokens.isStudio) {
         style = `background:#1E293B; border:1.5px solid #F4C430; border-left:6px solid #38BDF8; color:#F8FAFC; box-shadow:0 4px 12px rgba(15,23,42,0.22);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
         anchorColor = "#F4C430";
@@ -3497,21 +3537,21 @@ function renderActiveSlide(idx) {
         bodyColor = tokens.textFg;
         prefix = `<span style="color:#D97706; font-weight:900; margin-right:6px;">★</span>`;
       }
-    } else if (normTheme === "SAFETY_ALERT_SPLIT") {
+    } else if (effectiveCardTheme === "SAFETY_ALERT_SPLIT") {
       const sBg = tokens.isStudio ? "#311018" : "#FFF1F2";
       const sBorder = tokens.isStudio ? "#FB7185" : "#CE1126";
       style = `background:${sBg}; border:1.5px solid ${sBorder}; border-left:6px solid ${sBorder}; color:${tokens.textFg}; box-shadow:0 3px 10px rgba(206,17,38,0.10);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       anchorColor = sBorder;
       prefix = `<span style="display:inline-block; background:${sBorder}; color:#FFFFFF; font-size:0.70rem; font-weight:800; padding:1px 6px; border-radius:5px; margin-right:6px;">⚠️ SAFETY</span>`;
-    } else if (normTheme === "TIMELINE_CHEVRON_CARDS") {
+    } else if (effectiveCardTheme === "TIMELINE_CHEVRON_CARDS") {
       style = `background:${tokens.cardBg}; border:1.5px solid ${tokens.accentHex}; border-left:6px solid ${tokens.primaryHex}; color:${tokens.textFg};${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       prefix = `<span style="display:inline-block; background:${tokens.badgeBg}; color:${tokens.badgeFg}; border:1px solid ${tokens.accentHex}; font-family:'JetBrains Mono',monospace; font-size:0.71rem; font-weight:800; padding:1px 7px; border-radius:999px; margin-right:7px;">STEP ${bpIdx + 1} &#10140;</span>`;
-    } else if (normTheme === "EDITORIAL_CALLOUT_QUOTE") {
+    } else if (effectiveCardTheme === "EDITORIAL_CALLOUT_QUOTE") {
       const qBg = tokens.isStudio ? "#1E293B" : "#FFFBEB";
       style = `background:${qBg}; border:1.5px solid #F59E0B; border-left:6px solid #D97706; color:${tokens.textFg};${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       anchorColor = tokens.isStudio ? "#FBBF24" : "#B45309";
       prefix = `<span style="color:${anchorColor}; font-size:1.05rem; font-weight:900; margin-right:6px;">&#10077;</span>`;
-    } else if (normTheme === "THREE_PILLAR_BENTO") {
+    } else if (effectiveCardTheme === "THREE_PILLAR_BENTO") {
       style = `background:${tokens.cardBg}; border:1.5px solid ${tokens.accentHex}; border-top:5px solid ${tokens.primaryHex}; color:${tokens.textFg}; box-shadow:0 3px 10px rgba(15,23,42,0.08);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       prefix = `<span style="color:${tokens.accentHex}; font-weight:900; margin-right:6px;">◆</span>`;
     } else {
@@ -10835,10 +10875,15 @@ function getActiveTemplateProfile() {
       family_name: "1. Brushed Banner Series",
       variant_color: "green",
       variant_label: "Green",
-      variant_swatch_hex: "#1B5E20",
-      primary_hex: "#1B5E20",
-      accent_hex: "#D4AF37",
-      card_bg_hex: "#F1F8E9",
+      variant_swatch_hex: "#5A6F43",
+      primary_hex: "#5A6F43",
+      accent_hex: "#435835",
+      bottom_accent_hex: "#435835",
+      card_bg_hex: "#F4F7F0",
+      top_banner_url: "/assets/templates/overlays/bsa_scouting_america_header_strip.png",
+      bottom_silhouette_url: "/assets/templates/overlays/bsa_scouting_america_footer_banner.png",
+      bottom_silhouette_dark_url: "/assets/templates/overlays/bsa_scouting_america_footer_banner.png",
+      footer_badge_text: "Prepared. For Life.",
       safe_bounds: {
         header_top_in: 0.28,
         content_top_min_in: 1.12,
@@ -11588,6 +11633,7 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
   const slides = state.currentResult?.storyboard?.slides || [];
   slides.forEach((s) => {
     s.template_id = prof.template_id;
+    s._customPaletteOverride = false;
     if (matchPaletteChecked && prof.template_id !== "default_workbench") {
       s.accent_palette_key = "MATCH_TEMPLATE";
       s.brand_palette = "MATCH_TEMPLATE";
@@ -11862,8 +11908,13 @@ async function initPowerPointTemplateStudio() {
     state.activeTemplateId = "bsa_scouting_america";
   }
 
+  state.activeTemplateProfile = getActiveTemplateProfile();
   syncTemplateSelectorUi();
   renderTemplateCatalogGrid();
+  if (state.currentResult && state.currentResult.storyboard?.slides) {
+    const activeIdx = typeof state.activeSlideIdx === "number" ? state.activeSlideIdx : -1;
+    renderActiveSlide(activeIdx);
+  }
 
   // Bind Global Deck Layout Style Controls & Sub-Customizer Controls
   const sidebarLayoutSel = document.getElementById("deck-layout-style-select");

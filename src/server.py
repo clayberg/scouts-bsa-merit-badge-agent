@@ -651,6 +651,13 @@ async def api_run_workflow(
             eff_style = resolve_effective_slide_style(prof, deck_style=req.deck_style)
             sb_slides = ((result.get("storyboard") or {}).get("slides")) or []
             if sb_slides:
+                match_tpl_palette = bool(eff_style.get("match_template_palette", True))
+                for s in sb_slides:
+                    if isinstance(s, dict):
+                        s["template_id"] = prof.template_id
+                        if match_tpl_palette and prof.template_id != "default_workbench":
+                            s["accent_palette_key"] = "MATCH_TEMPLATE"
+                            s["brand_palette"] = "MATCH_TEMPLATE"
                 out_file = str(
                     GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{prof.template_id}_Merit_Badge_Deck.pptx"
                 )
@@ -767,6 +774,13 @@ async def api_stream_workflow(
                         eff_style = resolve_effective_slide_style(prof, deck_style=ds_override)
                         sb_slides = ((res_obj.get("storyboard") or {}).get("slides")) or []
                         if sb_slides:
+                            match_tpl_palette = bool(eff_style.get("match_template_palette", True))
+                            for s in sb_slides:
+                                if isinstance(s, dict):
+                                    s["template_id"] = prof.template_id
+                                    if match_tpl_palette and prof.template_id != "default_workbench":
+                                        s["accent_palette_key"] = "MATCH_TEMPLATE"
+                                        s["brand_palette"] = "MATCH_TEMPLATE"
                             out_file = str(
                                 GENERATED_DECKS_DIR / f"{badge_name.strip().replace(' ', '_')}_{prof.template_id}_Merit_Badge_Deck.pptx"
                             )

@@ -40,6 +40,66 @@
 
   --md-sys-color-success: #15803D;
   --md-sys-color-success-container: #DCFCE7;
+  --md-sys-color-success-surface: #F0FDF4;
+  --md-sys-color-success-outline: #86EFAC;
+  --md-sys-color-on-success-container: #166534;
+  --md-sys-color-on-success-strong: #14532D;
+
+  --md-sys-color-on-surface-secondary: #334155;
+  --md-sys-color-on-surface-strong: #1E293B;
+  --md-sys-color-on-surface-muted: #64748B;
+
+  --md-sys-color-info-surface: #EFF6FF;
+  --md-sys-color-info-surface-subtle: #F0F7FF;
+  --md-sys-color-info-outline: #BFDBFE;
+  --md-sys-color-info-outline-strong: #93C5FD;
+  --md-sys-color-on-info-surface: #1E40AF;
+  --md-sys-color-on-info-strong: #1E3A8A;
+
+  --md-sys-color-sky-surface: #F0F9FF;
+  --md-sys-color-sky-outline: #BAE6FD;
+  --md-sys-color-on-sky-surface: #0369A1;
+  --md-sys-color-on-sky-strong: #0C4A6E;
+
+  --md-sys-color-danger: #B91C1C;
+  --md-sys-color-danger-bright: #DC2626;
+  --md-sys-color-danger-surface: #FEF2F2;
+  --md-sys-color-danger-outline: #FECACA;
+  --md-sys-color-danger-outline-strong: #FCA5A5;
+
+  --md-sys-color-warning-surface: #FFFBEB;
+  --md-sys-color-warning-surface-subtle: #FEFCE8;
+  --md-sys-color-warning-outline: #FCD34D;
+  --md-sys-color-warning-accent: #F59E0B;
+  --md-sys-color-warning-bright: #FBBF24;
+  --md-sys-color-on-warning-surface: #92400E;
+  --md-sys-color-on-warning-strong: #78350F;
+  --md-sys-color-on-warning-olive: #854D0E;
+
+  --md-sys-color-accent-violet: #6D28D9;
+  --md-sys-color-accent-indigo: #4338CA;
+  --md-sys-color-violet-surface: #FAF5FF;
+  --md-sys-color-violet-container: #F3E8FF;
+  --md-sys-color-indigo-container: #EDE9FE;
+  --md-sys-color-violet-outline: #D8B4FE;
+  --md-sys-color-on-violet-container: #5B21B6;
+  --md-sys-color-on-violet-strong: #3B0764;
+
+  --md-sys-color-hud-gold: #FDB913;
+  --md-sys-color-hud-yellow: #FDE047;
+  --md-sys-color-hud-on-surface: #F8FAFC;
+  --md-sys-color-code-bg: #0F172A;
+  --md-sys-color-code-fg: #E2E8F0;
+  --md-sys-color-code-emerald: #A7F3D0;
+  --md-sys-color-inverse-on-surface: #FFFFFF;
+  --md-sys-color-inverse-muted: #CBD5E1;
+
+  /* Concentric Shape Radii (24px -> 16px -> 12px -> 8px) */
+  --radius-outer: 24px;
+  --radius-card: 16px;
+  --radius-inner: 12px;
+  --radius-control: 8px;
+  --radius-pill: 9999px;
 
   /* Expressive Shape Radii */
   --md-sys-shape-corner-xl: 28px;
@@ -351,7 +411,7 @@ html, body {
   color: var(--md-sys-color-on-surface);
   border: 1px solid var(--md-sys-color-outline);
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
 
 .m3-badge-pill:hover, .m3-badge-pill.active {
@@ -547,7 +607,7 @@ html, body {
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 180ms var(--md-sys-motion-spring);
+  transition: background-color 180ms var(--md-sys-motion-spring), color 180ms var(--md-sys-motion-spring), border-color 180ms var(--md-sys-motion-spring), box-shadow 180ms var(--md-sys-motion-spring), transform 180ms var(--md-sys-motion-spring), opacity 180ms var(--md-sys-motion-spring);
 }
 
 .m3-tab-btn:hover {
@@ -666,7 +726,7 @@ html, body {
   background: #FFFFFF;
   border: 1.5px solid var(--md-sys-color-outline-variant);
   cursor: pointer;
-  transition: all 160ms var(--md-sys-motion-spring);
+  transition: background-color 160ms var(--md-sys-motion-spring), color 160ms var(--md-sys-motion-spring), border-color 160ms var(--md-sys-motion-spring), box-shadow 160ms var(--md-sys-motion-spring), transform 160ms var(--md-sys-motion-spring), opacity 160ms var(--md-sys-motion-spring);
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -1014,7 +1074,7 @@ html, body {
   border: 1.5px solid #E2E8F0;
   background: #F8FAFC;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
   text-align: left;
   width: 100%;
   box-sizing: border-box;
@@ -1645,7 +1705,7 @@ html, body {
   font-size: 0.75rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 160ms ease;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease, opacity 160ms ease;
 }
 
 .m3-construction-concept-btn:hover {
@@ -1853,7 +1913,7 @@ html, body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
 
 .m3-construction-dot:hover {
@@ -1884,7 +1944,7 @@ html, body {
   background: #FFFFFF;
   color: var(--md-sys-color-primary);
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
   flex-shrink: 0;
 }
 
@@ -2026,7 +2086,7 @@ html, body {
   font-weight: 700;
   white-space: nowrap;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-req-jump-pill:hover {
@@ -2069,7 +2129,7 @@ html, body {
   font-size: 0.80rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
 
 .m3-understage-tab-btn:hover {
@@ -2211,7 +2271,7 @@ html, body {
   font-size: 0.86rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
 
 .m3-quiz-reveal-btn:hover {
@@ -2235,7 +2295,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-req-jump-action-btn:hover {
@@ -2526,7 +2586,7 @@ html, body {
   border: 1.5px solid #CBD5E1;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease, opacity 0.15s ease;
 }
 
 .m3-arch-thumb-btn:hover {
@@ -2570,7 +2630,7 @@ html, body {
   font-size: 0.79rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease, opacity 0.15s ease;
 }
 
 .m3-studiokit-pill:hover {
@@ -2621,7 +2681,7 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  transition: all 0.15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease, opacity 0.15s ease;
 }
 
 .m3-admin-img-card:hover {
@@ -2836,7 +2896,7 @@ html, body {
   border: 1.5px solid #E2E8F0;
   background: #FFFFFF;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease, opacity 0.15s ease;
 }
 
 .m3-patch-gallery-card:hover {
@@ -3787,7 +3847,7 @@ body.m3-sunlight-mode .m3-slide-card {
   font-size: 0.80rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-docs-primary-pill:hover {
@@ -3842,7 +3902,7 @@ body.m3-sunlight-mode .m3-slide-card {
   font-size: 0.78rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-docs-eng-toggle-btn:hover {
@@ -3903,7 +3963,7 @@ body.m3-sunlight-mode .m3-slide-card {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  transition: all 130ms ease;
+  transition: background-color 130ms ease, color 130ms ease, border-color 130ms ease, box-shadow 130ms ease, transform 130ms ease, opacity 130ms ease;
 }
 
 .m3-docs-eng-item-btn:hover {
@@ -4605,6 +4665,48 @@ body.m3-dark-mode {
   --md-sys-color-on-surface-variant: #94A3B8;
   --md-sys-color-outline: #334155;
   --md-sys-color-outline-variant: #1E293B;
+  --md-sys-color-on-surface-secondary: #CBD5E1;
+  --md-sys-color-on-surface-strong: #E2E8F0;
+  --md-sys-color-on-surface-muted: #94A3B8;
+  --md-sys-color-info-surface: rgba(30, 58, 138, 0.28);
+  --md-sys-color-info-surface-subtle: rgba(30, 58, 138, 0.22);
+  --md-sys-color-info-outline: #1E3A8A;
+  --md-sys-color-info-outline-strong: #3B82F6;
+  --md-sys-color-on-info-surface: #93C5FD;
+  --md-sys-color-on-info-strong: #BFDBFE;
+  --md-sys-color-sky-surface: rgba(12, 74, 110, 0.32);
+  --md-sys-color-sky-outline: #0284C7;
+  --md-sys-color-on-sky-surface: #7DD3FC;
+  --md-sys-color-on-sky-strong: #E0F2FE;
+  --md-sys-color-success: #4ADE80;
+  --md-sys-color-success-container: rgba(21, 128, 61, 0.28);
+  --md-sys-color-success-surface: rgba(20, 83, 45, 0.32);
+  --md-sys-color-success-outline: #22C55E;
+  --md-sys-color-on-success-container: #86EFAC;
+  --md-sys-color-on-success-strong: #BBF7D0;
+  --md-sys-color-danger: #F87171;
+  --md-sys-color-danger-bright: #EF4444;
+  --md-sys-color-danger-surface: rgba(127, 29, 29, 0.32);
+  --md-sys-color-danger-outline: rgba(248, 113, 113, 0.42);
+  --md-sys-color-danger-outline-strong: #EF4444;
+  --md-sys-color-gold: #FBBF24;
+  --md-sys-color-gold-container: rgba(120, 53, 15, 0.36);
+  --md-sys-color-warning-surface: rgba(120, 53, 15, 0.32);
+  --md-sys-color-warning-surface-subtle: rgba(113, 63, 18, 0.28);
+  --md-sys-color-warning-outline: #D97706;
+  --md-sys-color-warning-accent: #F59E0B;
+  --md-sys-color-warning-bright: #FBBF24;
+  --md-sys-color-on-warning-surface: #FDE68A;
+  --md-sys-color-on-warning-strong: #FEF3C7;
+  --md-sys-color-on-warning-olive: #FDE047;
+  --md-sys-color-accent-violet: #C084FC;
+  --md-sys-color-accent-indigo: #818CF8;
+  --md-sys-color-violet-surface: rgba(76, 29, 149, 0.28);
+  --md-sys-color-violet-container: rgba(88, 28, 135, 0.34);
+  --md-sys-color-indigo-container: rgba(49, 46, 129, 0.36);
+  --md-sys-color-violet-outline: #7C3AED;
+  --md-sys-color-on-violet-container: #DDD6FE;
+  --md-sys-color-on-violet-strong: #EDE9FE;
   background-color: #0B1120;
   color: #F1F5F9;
 }
@@ -5986,7 +6088,7 @@ body.m3-dark-mode .m3-construction-dot.active {
   padding: 3px 8px;
   border-radius: 999px;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-quick-mode-btn:hover {
@@ -6026,7 +6128,7 @@ body.m3-dark-mode .m3-construction-dot.active {
   font-size: 0.74rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-ws-pill:hover {
@@ -6060,7 +6162,7 @@ body.m3-dark-mode .m3-construction-dot.active {
   font-size: 0.72rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-ws-action-btn:hover {
@@ -6128,7 +6230,7 @@ body.m3-dark-mode .m3-construction-dot.active {
   justify-content: space-between;
   gap: 8px;
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
 
 .m3-template-card:hover {
@@ -6231,7 +6333,7 @@ body.m3-dark-mode .m3-template-card-desc {
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
 
 .m3-workspace-card.active {
@@ -6711,7 +6813,7 @@ body.m3-dark-mode .m3-patch-fav-btn.is-fav:hover {
   font-size: 0.78rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-patch-header-fav-toggle:hover,
@@ -6734,7 +6836,7 @@ body.m3-dark-mode .m3-patch-fav-btn.is-fav:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-patch-header-fav-toggle.is-active,
@@ -7006,7 +7108,7 @@ body.m3-dark-mode .m3-shortcuts-key-btn {
   cursor: pointer;
   padding: 0;
   box-shadow: 0 2px 5px rgba(15, 23, 42, 0.14);
-  transition: all 130ms ease;
+  transition: background-color 130ms ease, color 130ms ease, border-color 130ms ease, box-shadow 130ms ease, transform 130ms ease, opacity 130ms ease;
 }
 
 .m3-tpl-card-icon-btn:hover,
@@ -7189,7 +7291,7 @@ body.m3-dark-mode .m3-ws-combo-caret-btn:hover {
   font-weight: 800;
   cursor: pointer;
   white-space: nowrap;
-  transition: all 120ms ease;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease, opacity 120ms ease;
 }
 
 .m3-mcp-mini-btn.primary {
@@ -7421,7 +7523,7 @@ body.m3-dark-mode .m3-workspace-metric-badge {
   color: var(--md-sys-color-on-surface);
   border: 1px solid var(--md-sys-color-outline);
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
 
 .m3-quick-badge-chip:hover,
@@ -7477,7 +7579,7 @@ input[type="file"].m3-input::-webkit-file-upload-button {
   font-size: 0.72rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 input[type="file"].m3-input::file-selector-button:hover,
@@ -7520,7 +7622,7 @@ body.m3-dark-mode input[type="file"].m3-input::-webkit-file-upload-button:hover 
   font-family: var(--font-sans);
   font-weight: 800;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-tonal-btn {
@@ -7535,7 +7637,7 @@ body.m3-dark-mode input[type="file"].m3-input::-webkit-file-upload-button:hover 
   font-family: var(--font-sans);
   font-weight: 700;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 body.m3-dark-mode .m3-tonal-btn {
@@ -7574,7 +7676,7 @@ body.m3-dark-mode .m3-tonal-btn {
   font-weight: 700;
   white-space: nowrap;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-tpl-variant-pill:hover {
@@ -7659,7 +7761,7 @@ body.m3-dark-mode .m3-tonal-btn {
   font-size: 0.63rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 120ms ease;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease, opacity 120ms ease;
 }
 
 .m3-stage-tpl-color-btn:hover {
@@ -7805,7 +7907,7 @@ body.high-contrast-sunlight .m3-template-card {
   font-size: 0.75rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
   white-space: nowrap;
 }
 
@@ -7869,7 +7971,7 @@ body.high-contrast-sunlight .m3-template-card {
   cursor: pointer;
   text-align: left;
   white-space: nowrap;
-  transition: all 120ms ease;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease, opacity 120ms ease;
 }
 
 .m3-req-jump-menu-item:hover {
@@ -7953,7 +8055,7 @@ body.high-contrast-sunlight .m3-template-card {
   cursor: pointer;
   white-space: nowrap;
   box-shadow: 0 1px 4px rgba(245, 158, 11, 0.18);
-  transition: all 140ms ease;
+  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, opacity 140ms ease;
 }
 
 .m3-stage-live-timer-pill.is-running {
@@ -8051,7 +8153,7 @@ body.high-contrast-sunlight .m3-template-card {
   font-weight: 700;
   cursor: pointer;
   text-align: left;
-  transition: all 120ms ease;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease, opacity 120ms ease;
 }
 
 .m3-top-ws-menu-item:hover {
@@ -8236,7 +8338,7 @@ body.m3-dark-mode .m3-timer-mini-btn:hover {
   line-height: 1;
   cursor: pointer;
   box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
-  transition: all 110ms ease;
+  transition: background-color 110ms ease, color 110ms ease, border-color 110ms ease, box-shadow 110ms ease, transform 110ms ease, opacity 110ms ease;
 }
 
 .m3-thumb-micro-pill:hover:not(:disabled) {
@@ -8454,7 +8556,7 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   color: #1E293B;
   cursor: pointer;
   text-align: center;
-  transition: all 0.14s ease;
+  transition: background-color 0.14s ease, color 0.14s ease, border-color 0.14s ease, box-shadow 0.14s ease, transform 0.14s ease, opacity 0.14s ease;
   white-space: nowrap;
 }
 
@@ -8837,3 +8939,123 @@ body.high-contrast-sunlight .m3-stage-style-quick-btn.active {
   color: #FFFFFF !important;
 }
 
+/* ============================================================================
+   CHERRY-PICKED GE-UI-DESIGNER ENGINEERING IMPROVEMENTS (#1 - #6)
+   Preserves 100% of Scouting America Brand Identity & 3-Mode Theming
+   ============================================================================ */
+
+/* Improvement #1: Tabular Numbers (`font-variant-numeric: tabular-nums`) on Timers, Steppers, KPIs & Tables */
+#stage-live-timer-badge,
+#fullscreen-hud-timer,
+#fullscreen-hud-status,
+#active-slide-index-chip,
+#kpi-slide-count,
+#kpi-subreq-count,
+#badge-filter-count-chip,
+#top-workspaces-count-pill,
+#ws-badges-count-lbl,
+#count-in-class,
+#count-hands-on,
+#count-prereq,
+#lightbox-zoom-scale-pill,
+.m3-kpi-value,
+.m3-patrol-score-btn,
+.m3-patrol-score-val,
+.m3-patrol-score-Delta,
+.m3-filmstrip-num,
+.m3-top-ws-menu-meta,
+.m3-markdown-body table td,
+.m3-markdown-body table th,
+.m3-docs-article-body table td,
+.m3-docs-article-body table th,
+table td,
+table th {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Improvement #4: Tonal Surface Hierarchy Over Nested Card Borders in Left Setup Sidebar (#left-setup-sidebar / #sidebar-setup) */
+body:not(.high-contrast-sunlight) #left-setup-sidebar .m3-sub-expander,
+body:not(.high-contrast-sunlight) #left-setup-sidebar #deck-style-customizer-details,
+body:not(.high-contrast-sunlight) #left-setup-sidebar #counselor-profile-accordion,
+body:not(.high-contrast-sunlight) #left-setup-sidebar #finops-cost-pill,
+body:not(.high-contrast-sunlight) #left-setup-sidebar #local-grounding-toggle-card,
+body:not(.high-contrast-sunlight) #sidebar-setup .m3-sub-expander,
+body:not(.high-contrast-sunlight) #sidebar-setup #deck-style-customizer-details,
+body:not(.high-contrast-sunlight) #sidebar-setup #counselor-profile-accordion,
+body:not(.high-contrast-sunlight) #sidebar-setup #finops-cost-pill,
+body:not(.high-contrast-sunlight) #sidebar-setup #local-grounding-toggle-card {
+  background: var(--md-sys-color-surface-container-low) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: var(--radius-inner, 12px) !important;
+}
+
+body:not(.high-contrast-sunlight) #left-setup-sidebar .m3-sub-expander-grid,
+body:not(.high-contrast-sunlight) #left-setup-sidebar .m3-sub-expander-actions {
+  border-top-color: rgba(148, 163, 184, 0.22) !important;
+}
+
+body.m3-dark-mode:not(.high-contrast-sunlight) #left-setup-sidebar .m3-sub-expander,
+body.m3-dark-mode:not(.high-contrast-sunlight) #left-setup-sidebar #deck-style-customizer-details,
+body.m3-dark-mode:not(.high-contrast-sunlight) #left-setup-sidebar #counselor-profile-accordion,
+body.m3-dark-mode:not(.high-contrast-sunlight) #left-setup-sidebar #finops-cost-pill,
+body.m3-dark-mode:not(.high-contrast-sunlight) #left-setup-sidebar #local-grounding-toggle-card,
+body.m3-dark-mode:not(.high-contrast-sunlight) #sidebar-setup .m3-sub-expander,
+body.m3-dark-mode:not(.high-contrast-sunlight) #sidebar-setup #deck-style-customizer-details,
+body.m3-dark-mode:not(.high-contrast-sunlight) #sidebar-setup #counselor-profile-accordion,
+body.m3-dark-mode:not(.high-contrast-sunlight) #sidebar-setup #finops-cost-pill,
+body.m3-dark-mode:not(.high-contrast-sunlight) #sidebar-setup #local-grounding-toggle-card {
+  background: rgba(30, 41, 59, 0.68) !important;
+  border-color: transparent !important;
+}
+
+/* Improvement #5: Concentric Border Radii Hierarchy (24px -> 16px -> 12px -> 8px) */
+.m3-hero-banner,
+.m3-modal-dialog {
+  border-radius: var(--radius-outer, 24px);
+}
+
+.m3-card,
+.m3-sidebar-card,
+.m3-understage-drawer,
+.m3-slide-outline-rail {
+  border-radius: var(--radius-card, 16px);
+}
+
+.m3-sub-expander,
+#counselor-profile-accordion,
+#finops-cost-pill,
+.m3-req-node-card,
+.m3-trace-item {
+  border-radius: var(--radius-inner, 12px);
+}
+
+.m3-select,
+.m3-input,
+.m3-select-sm,
+.m3-stage-style-quick-btn {
+  border-radius: var(--radius-control, 8px);
+}
+
+/* Improvement #6: Native Browser Surface Theming (`color-scheme`, `scrollbar-color`, `::selection`) */
+:root,
+html {
+  color-scheme: light;
+  scrollbar-color: #CBD5E1 transparent;
+}
+
+html:has(body.m3-dark-mode),
+body.m3-dark-mode {
+  color-scheme: dark;
+  scrollbar-color: #334155 #0B1120;
+}
+
+::selection {
+  background: rgba(0, 63, 135, 0.18);
+  color: #001B3E;
+}
+
+body.m3-dark-mode ::selection {
+  background: rgba(96, 165, 250, 0.28);
+  color: #F8FAFC;
+}
