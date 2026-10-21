@@ -46,7 +46,7 @@ We have created and installed a single automated script at `scripts/publish_and_
 
 ### 2.1 What the Script Does
 1. Verifies `.gitignore` excludes `.cache/` and `*.bundle` so the bundle never packs itself recursively.
-2. Optionally runs all 70 `pytest` unit, fault-injection, PowerPoint Template Studio (`17` built-in templates across `7` Style Families + `DeckStyleConfig` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`) + `📌 Save as My Default Style` in SQLite `user_preferences` + `audit_deck_visual_quality`), Multi-Badge Workspaces (`9` SQLite tables), MCP Server (`22` capabilities), Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, and contract-drift tests (`121` OpenAPI 3.1 paths) and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
+2. Optionally runs all 70 `pytest` unit, fault-injection, PowerPoint Template Studio (`17` built-in templates across `7` Style Families + `DeckStyleConfig` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`) + `📌 Save as My Default Style` / `"📌 Set as My Default"` and `"↺ Reset"` `#btn-modal-reset-default-deck-style` in SQLite `user_preferences` + `audit_deck_visual_quality`), Multi-Badge Workspaces (`9` SQLite tables), MCP Server (`22` capabilities), Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, and contract-drift tests (`121` OpenAPI 3.1 paths) and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
 3. Stages and commits any latest changes on branch `main`.
 4. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)

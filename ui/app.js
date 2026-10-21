@@ -4717,7 +4717,7 @@ function populateQuickImageSwitcher(slide) {
   const quickSel = document.getElementById("codesign-quick-image-select");
   const prevBtn = document.getElementById("btn-prev-slide-image");
   const nextBtn = document.getElementById("btn-next-slide-image");
-  if (!quickSel || !state.currentResult) return;
+  if (!state.currentResult) return;
 
   const rawCatalog = state.currentResult.badge_image_catalog;
   const badgeCatalog = Array.isArray(rawCatalog)
@@ -4740,6 +4740,7 @@ function populateQuickImageSwitcher(slide) {
   });
 
   state.badgeCatalogCache = merged;
+  if (!quickSel) return;
   quickSel.innerHTML = "";
 
   const isNoneActive =

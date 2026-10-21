@@ -1,22 +1,22 @@
 # Scouts BSA Merit Badge Counselor Workbench: User Guide
 
-Welcome to the **Scouts BSA Merit Badge Counselor Workbench**. Whether you are preparing for three 45-minute troop meetings, a week of summer camp instruction, a Saturday Merit Badge Midway clinic, or a weekend campout practicum, this tool helps you prepare a complete, grounded teaching package for any of the **144 official Scouts BSA Merit Badges** in a few minutes.
+Welcome to the **Scouts BSA Merit Badge Counselor Workbench**. Whether you are preparing for three 45-minute troop meetings, a week of summer camp instruction, a Saturday Merit Badge Midway clinic, or a weekend campout practicum, this tool helps you prepare a complete teaching package for any of the **144 official Scouts BSA Merit Badges** in a few minutes.
 
 Instead of spending an entire weekend formatting slides and typing up handouts from scratch, you can generate:
-- A widescreen (`16:9`) **PowerPoint Slide Deck (`.pptx`)** (or 1-click **native Google Slides deck**) with official requirement wording, clear teaching points, diagrams, official pamphlet figures, counselor speaker notes, your choice of **17 built-in Scouting America & Heritage PowerPoint templates across 7 Style Families (`BSA Scouting America 🟢` default)** (or your own uploaded `.pptx`/image template), and a **Global Deck Layout Style Engine (`Slide Layout Style`)** supporting `📖 Clean & Borderless (No Boxes)`, `📏 Editorial Left-Accent Line`, and `🗂️ Boxed Cards & Framed Visuals`.
-- A **Multi-Badge Saved Decks & Classroom Sessions Library (`🗂️ My Decks`)** and **1-Click Starred Favorites (`⭐`)** so you can switch between multiple Merit Badges or Morning vs. Afternoon patrol sections in under `80ms` with isolated Patrol Blue Card (`#34124`) rosters.
-- A **Centered Split-Screen Presenter View (`🪟 Presenter View` / `P`)** with 3 color-coded `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` teleprompter cards and a non-disruptive **`↗ 2nd Monitor`** floating speaker window, plus a **Fullscreen Teleprompter Notes Drawer (`🎙️ Notes (N)`)**, **Interactive Patrol Scoreboard (`🏆 Patrol Scoreboard`)**, and **Live Classroom & Skill Station Timer (`⏱️ Timer`)**.
-- An **In-App Markdown Documentation Viewer (`📘 Documentation` / `D`)** and **MCP Server & Agent Hub (`🤖 MCP Hub`)** in the Top Application Bar so you can read the User Guide, Admin Guide, and 10 engineering references (including the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**) or connect AI assistants (`12` MCP tools, `6` `bsa://` resources, `4` guided prompts) without leaving your active slide deck.
-- A **Slide Deck Customizer** directly in the left outline so you can insert custom local camp slides (`➕ Insert Slide`), hide home-prerequisite slides (`👁️ Hide Prereqs`), or reorder and skip individual slides (`▲` / `▼` / `👁`) before exporting your `.pptx`.
-- A printable **Scout & Counselor Workbook (`.md` / PDF)** with section filters, fill-in-the-blank study boxes, and requirement sign-off checklists.
-- **Printable 3x5 Counselor Pocket Cue Cards** (4 cards per page) and a **1-Page Printable Pocket Field Checklist & QR Handout** for outdoor field instruction away from a screen.
-- A **Counselor Session Agenda & Patrol Skill Station Rotator Matrix** tailored to your meeting schedule and patrol count.
-- A **Master Quartermaster Gear Checklist** and **Pre-Class Prerequisite Readiness Checklist** scaled to the size of your patrol or class.
-- A **Youth Protection (YPT) Prerequisite & Parent Welcome Letter** ready to open in your email app or Gmail.
-- An interactive **Patrol Blue Card (`#34124`) & Scoutbook Plus Sign-Off Tracker** with Scoutbook `.csv` import (`📤 Import CSV`), **`🔁 Copy Scouts From Deck`** cross-badge roster copy, bulk roster paste, 1-click column header sign-off, completion date stamping, and **Printable 3-Panel Blue Cards (`#34124`)**.
+- A widescreen (`16:9`) **PowerPoint Slide Deck (`.pptx`)** or **Google Slides presentation** with official requirement wording, clear teaching points, diagrams, official pamphlet figures, counselor speaker notes, **17 built-in Scouting America and Heritage templates across 8 style families**, and flexible **Deck Layout Styles** (*Clean & Borderless*, *Editorial Left-Accent Line*, and *Boxed Cards*).
+- A **My Decks Library** and **Starred Favorites** so you can switch between multiple Merit Badges or separate morning and afternoon patrol sections in an instant, each with its own Scout roster.
+- A **Split-Screen Presenter View** with color-coded `[SAY]`, `[DEMONSTRATE]`, and `[ASK SCOUTS]` speaking cards, a **2nd Monitor** speaker window, a **Fullscreen Mode** with a slide-up **Notes Drawer**, a **Patrol Scoreboard**, and a **Classroom Session Timer**.
+- An **In-App Documentation Viewer** and **MCP Hub** in the top bar so you can read this guide or connect external AI assistants without leaving your active slide deck.
+- A **Slide Deck Customizer** directly in the slide outline so you can insert custom local camp slides, hide home-prerequisite slides, or reorder and skip individual slides before downloading your presentation.
+- A printable **Scout & Counselor Workbook** with section filters, fill-in-the-blank study boxes, and requirement sign-off checklists.
+- **Printable 3x5 Counselor Pocket Cue Cards** and a **1-Page Field Checklist & QR Handout** for outdoor field instruction away from a screen.
+- A **Counselor Session Agenda & Patrol Skill Station Rotator** tailored to your meeting schedule and patrol count.
+- A **Master Quartermaster Gear Checklist** and **Pre-Class Prerequisite Readiness Checklist** scaled to the size of your class.
+- A **Youth Protection Prerequisite & Parent Welcome Letter** ready to open in your email app or Gmail.
+- An interactive **Patrol Blue Card (`#34124`) & Scoutbook Plus Sign-Off Tracker** with Scoutbook `.csv` import, cross-deck roster copy, bulk roster paste, one-click column sign-off, completion date stamping, and **Printable 3-Panel Blue Cards**.
 
 > [!NOTE]
-> **System Administrators, Maintainers & AI Agent Integrators**: Looking for the Zero-PII Super-User Admin Console (144-badge image and caption curation studio, aggregated usage/latency/image-swap telemetry, and system diagnostics)? Read the dedicated **[Super-User Admin Guide (`docs/ADMIN_GUIDE.md`)](ADMIN_GUIDE.md)**. To connect Claude Desktop, Gemini CLI, Cursor, or Google ADK agents to the built-in Model Context Protocol server, read the **[MCP Server Integration Guide (`docs/MCP_SERVER_INTEGRATION_GUIDE.md`)](MCP_SERVER_INTEGRATION_GUIDE.md)**.
+> **System Administrators & AI Agent Integrators**: For the Super-User Admin Console covering the 144-badge image curation studio, usage telemetry, and system diagnostics, see the **[Super-User Admin Guide](ADMIN_GUIDE.md)**. To connect Claude Desktop, Gemini CLI, Cursor, or Google ADK agents to the built-in Model Context Protocol server, see the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**.
 
 ---
 
@@ -30,8 +30,8 @@ Instead of spending an entire weekend formatting slides and typing up handouts f
 6. [Step 4: Previewing, Presenting, Timing & Switching Slide Images](#6-step-4-previewing-presenting-timing--switching-slide-images)
 7. [Step 5: Customizing Individual Slides, Layouts, Graphics & Text](#7-step-5-customizing-individual-slides-layouts-graphics--text)
 8. [Step 6: Tracking Requirements & Signing Off Blue Cards (`#34124`)](#8-step-6-tracking-requirements--signing-off-blue-cards-34124)
-9. [Step 7: Using the Workbook, 4-Tab Classroom Toolkit, Cue Cards & Station Rotator](#9-step-7-using-the-workbook-4-tab-classroom-toolkit-cue-cards--station-rotator)
-10. [Exporting Your Slide Deck to PowerPoint (`.PPTX`) or Direct Google Slides](#10-exporting-your-slide-deck-to-powerpoint-pptx-or-direct-google-slides)
+9. [Step 7: Using the Workbook, Classroom Toolkit, Cue Cards & Station Rotator](#9-step-7-using-the-workbook-classroom-toolkit-cue-cards--station-rotator)
+10. [Exporting Your Slide Deck to PowerPoint or Google Slides](#10-exporting-your-slide-deck-to-powerpoint-or-google-slides)
 11. [Frequently Asked Questions for Counselors](#11-frequently-asked-questions-for-counselors)
 
 ---
@@ -40,17 +40,17 @@ Instead of spending an entire weekend formatting slides and typing up handouts f
 
 ```mermaid
 flowchart LR
-    Step1["1. Select a Merit Badge<br/>(All 144 Official Badges)"] --> Step2["2. Pick Depth, Audience<br/>& Enter Counselor Info"]
+    Step1["1. Select a Merit Badge<br/>(All 144 Official Badges)"] --> Step2["2. Pick Depth, Template<br/>& Enter Counselor Info"]
     Step2 --> Step3["3. Click 'Generate Slide Deck<br/>& Workbook'"]
-    Step3 --> Step4["4. Review Slides, Switch<br/>Images or AI-Polish Notes"]
+    Step3 --> Step4["4. Review Slides, Switch<br/>Images or Polish Notes"]
     Step4 --> Step5["5. Present (P / F) or Export<br/>(.PPTX / Google Slides)"]
 ```
 
-1. **Pick a Merit Badge**: In the left sidebar under **1. Find & Select Merit Badge**, search for any badge by name, filter by category or Eagle-Required status, open **`⚜️ Browse Visual Patch Gallery (144)`**, or click one of the **Quick-Select Popular Badges** buttons (such as **★ First Aid**, **Weather**, or **★ Camping**).
-2. **Choose Your Deck Settings**: Under **2. Deck Style & Counselor Info**, choose whether you want a **Deep Dive Teaching Deck (3 to 8 Slides / Req • 30 to 100+ Slides)** or a shorter **Standard Troop Meeting Deck (1 to 4 Slides / Req • 18 to 48 Slides)**, and select your **Target Scout Audience Level**. Every deck uses the unified **Warm Cream (`#FAF8F5`) Rich Visual Slide Theme** (`Visual Assets: 100% Pre-Cached (8-Bit PNG)` in the sidebar, bundling all `3,917` curated pamphlet figures and Nano Banana illustrations at `$0.00` runtime image cost), with per-slide Card Style and Brand Palette pickers in Drawer Tab 2.
-3. **Add Your Counselor & Troop Details (One Time)**: Click **👤 Counselor & Troop Profile (Saved) • Edit ▾** to enter your name, troop and council, city/state or ZIP code, optional email/phone, and optional troop logo. Your browser remembers these details automatically for future badges.
-4. **Generate Your Package**: Click **Generate Slide Deck & Workbook**. While your slides are being built, you can watch the animated **Scout Slide Construction Showcase**.
-5. **Present, Export, or Print**: Step through your slides on the **16:9 Slide Stage**, click **🪟 Presenter View (`P`)** or **🖥️ Present Fullscreen (`F`)** to teach from your browser, use the **Sticky Export Split-Button** (`📥 Download Slide Deck (.PPTX)` or `🟨 Open in Google Slides`), or open the **📥 Export & Print ▾** menu in the top bar to download your `.pptx` slide deck, `.md` workbook, `3x5` pocket cue cards, 1-page QR field handout, prerequisite checklist, or Blue Card CSV.
+1. **Pick a Merit Badge**: In the left sidebar under **1. Find & Select Merit Badge**, search for any badge by name, filter by category or Eagle-Required status, open **⚜️ Patch Gallery (144)**, or click one of the **Quick-Select Badges** buttons such as **★ First Aid**, **Weather**, or **★ Camping**.
+2. **Choose Your Deck Settings**: Under **2. Deck Style & Counselor Info**, choose whether you want a **Deep Dive Teaching Deck** or a shorter **Standard Troop Meeting Deck**, pick your **Slide Theme & Visuals** (*Warm Cream*, *Crisp White*, or *Dark Slate*), choose a **PowerPoint Template** and **Deck Layout Style**, and select your **Target Scout Audience Level**. All 3,917 pamphlet figures and illustrations are pre-bundled so images load immediately at zero extra cost.
+3. **Add Your Counselor & Troop Details**: Click **👤 Counselor & Troop Profile (Saved) • Edit ▾** to enter your name, troop and council, city and state or ZIP code, optional email and phone, and optional troop logo. The Workbench remembers these details automatically for future badges.
+4. **Generate Your Package**: Click **✨ Generate Slide Deck & Workbook**. While your slides are being built, you can watch the animated **Scout Slide Construction Showcase**.
+5. **Present, Export, or Print**: Step through your slides on the **16:9 Slide Stage**, click **🖥️ Present** or press **`P`** for **Split-Screen Presenter View** to teach from your browser, use the top-right export button to **Download Slide Deck (.PPTX)** or **Open in Google Slides**, or open the **📥 Export & Print ▾** menu to download your workbook, `3x5` pocket cue cards, 1-page QR field handout, prerequisite checklist, or Blue Card CSV.
 
 ---
 
@@ -60,18 +60,18 @@ flowchart LR
 
 ![Scouts BSA Merit Badge Counselor Workbench Dark Mode](images/ug_workbench_dark_mode.png)
 
-The Workbench is organized into four main areas (plus a bottom footer) so you can set up your class on the left and review all of your teaching materials on the right without losing your place:
+The Workbench is organized into four main areas plus a bottom footer so you can set up your class on the left and review all of your teaching materials on the right without losing your place:
 
 | Screen Area | Where to Find It | What You Use It For |
 | :--- | :--- | :--- |
-| **Top Application Bar** | Across the very top of the window | Displays your **Dynamic Counselor Profile Pill** (which expands to show your full `"Name • Affiliation"` when top-bar space permits and collapses cleanly to `"Name"` when horizontal space is tight), the **`🗂️ My Decks | ▾` Split-Button** (`#top-workspaces-split-group`, where clicking the main button opens the **My Merit Badge Decks & Classroom Sessions Library Modal** and clicking `▾` opens a 1-click deck switcher, save, and clone menu even when the left sidebar is collapsed), the **`🤖 MCP Hub`** button opening the **MCP Server & Agent Hub Modal** (see **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**), the **`📘 Documentation`** button (`#btn-open-docs-viewer`, shortcut `D`) opening the **In-App Markdown Documentation Viewer** (Option A: Dual-Mode Material 3 Documentation Studio Modal with `📘 User Guide` preselected, `🛡️ Admin Guide`, and `⚙️ Engineering Docs (10)` toggle across `12` docs), the **`?` Keyboard Shortcuts** button, direct links to the **Official BSA Pamphlet** and **Resource Guide**, the **`🪟 Presenter View`** button (`P`), the **Sticky Export Split-Button** (`📥 Download Slide Deck (.PPTX)` / `🟨 Open in Google Slides`), the **`📥 Export & Print ▾`** dropdown menu, and the **`☀️ Sunlight`** high-contrast outdoor mode toggle. |
-| **Left Setup Sidebar** | Left column (`1. Find & Select Merit Badge` and `2. Deck Style & Counselor Info`) | Lets you choose or star (`⭐`) any of the 144 Merit Badges, switch the 3-mode Quick-Select bar (`🔥 Popular | ⭐ Favorites | 🗂️ Decks` with rich badge-emblem deck pills and `[💾 Save] [📑 Clone] [🗂️ Library]` actions), open the 144-Badge Visual Patch Gallery, pick a **PowerPoint Slide Template** (`17` built-in Scouting templates across `7` Style Families or upload/URL custom templates), set deck length and target Scout age group, inspect the `Visual Assets: 100% Pre-Cached (8-Bit PNG)` status badge, enter your local troop information, and click the sticky **Generate Slide Deck & Workbook** footer button. Collapse this sidebar anytime by clicking **Hide Setup** on the left side of the main tab bar. |
-| **Blue Merit Badge Summary Banner** | Top of the right main stage | Shows the official Merit Badge patch emblem, whether the badge is **Eagle-Required** or **Elective**, the badge category, and three compact horizontal summary pills stacked vertically on the right with the label on the left and the value on the right (**TOTAL SLIDES 83**, **REQUIREMENTS 15**, and **SLIDE THEME Warm Cream**) so the banner stays on a single compact row even on 13-inch laptop displays (`1280px` to `1480px`). |
-| **4 Main Workbench Tabs** | Directly below the blue summary banner | Switches the main workspace between:<br/>1. **Slide Deck Preview**<br/>2. **Requirements & Blue Card Sign-Off**<br/>3. **Scout & Counselor Workbook**<br/>4. **Lesson Plan, Gear List, Parent Letter & FinOps** |
-| **Application Footer** | Bottom of the window (`#workbench-footer-banner`) | Displays creator credits, **LinkedIn Profile**, the **`GitHub`** repository link (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`), feedback email, and the **`🔒 Admin`** Console link. |
+| **Top Application Bar** | Across the very top of the window | Shows your **Counselor Profile Pill**, the **`🗂️ My Decks | ▾`** button for opening your saved decks library or switching active decks in one click, **`🤖 MCP Hub`**, **`📘 Documentation`** (shortcut `D`), **`🌙 Dark`** and **`☀️ Sunlight`** display modes, **`⌨️ Keys`** keyboard shortcuts, **`📥 Export & Print ▾`**, and the primary **Download Slide Deck (.PPTX) / Open in Google Slides** split-button. |
+| **Left Setup Sidebar** | Left column (`1. Find & Select Merit Badge` and `2. Deck Style & Counselor Info`) | Lets you choose or star any of the 144 Merit Badges, switch the **Quick-Select Badges** bar between **🔥 Popular**, **⭐ Favorites**, and **🗂️ Decks**, open the **144-Badge Patch Gallery**, pick a **PowerPoint Template** and **Deck Layout Style**, set deck length and target Scout age group, enter your local troop information, and click **✨ Generate Slide Deck & Workbook**. You can fold this sidebar away anytime by clicking **⬅ Hide Setup** on the left side of the main tab bar. |
+| **Blue Merit Badge Summary Banner** | Top of the right main workspace | Shows the official Merit Badge patch emblem, whether the badge is **Eagle-Required** or **Elective**, the badge category, direct links to the **📘 Official BSA Pamphlet** and **↗ Resource Guide**, and three summary pills on the right showing **TOTAL SLIDES**, **REQUIREMENTS**, and **SLIDE THEME**. |
+| **Main Workbench Tabs** | Directly below the blue summary banner | Switches the main workspace between:<br/>1. **📊 1. Slides & Notes**<br/>2. **📚 2. Requirements & Blue Cards**<br/>3. **📘 3. Scout Workbook**<br/>4. **🗓️ 4. Class Prep & Letters** |
+| **Application Footer** | Bottom of the window | Displays creator credits, **LinkedIn Profile**, the **GitHub** repository link, feedback email, and the **🔒 Admin** Console link. |
 
 > [!TIP]
-> **Need More Screen Space for Your Projector?** Click **Hide Setup** on the far-left edge of the main tabs bar to fold away the left setup sidebar, and click **« Hide Outline** above the slide stage to fold away the slide list. Click **Show Setup** or **» Show Outline** whenever you want them back.
+> **Need More Screen Space for Your Projector?** Click **⬅ Hide Setup** on the left edge of the main tabs bar to fold away the left setup sidebar, and click **« Outline** above the slide stage to fold away the slide list. Click **➡ Show Setup** or **» Outline** whenever you want them back.
 
 ---
 
@@ -81,53 +81,54 @@ In the upper-left card (**1. Find & Select Merit Badge**), you have five ways to
 
 | Control | How It Works | Practical Tip for Counselors |
 | :--- | :--- | :--- |
-| **Search Merit Badge Name** | Type any word (such as `First Aid`, `Weather`, `Canoeing`, `Robotics`, or `Citizenship`). | Narrows the dropdown list immediately as you type. |
-| **Category** | Filter by Scouting subject area: *All Categories*, *Outdoor & Campcraft*, *Health & Public Safety*, *Citizenship & Personal Development*, *Nature & Environment*, *STEM & Science*, *Aquatics & Sports*, *Trades, Business & Careers*, or *Arts, Crafts & Hobbies*. | Helpful when planning a themed campout weekend (such as an Aquatics weekend or a STEM Merit Badge Midway). |
-| **Eagle / Favorites (`#filter-eagle-select`)** | Choose **All Badges (144)**, **Eagle-Required (18)**, **Electives (126)**, or **★ Favorites**. | In the dropdown list, Eagle-Required badges are marked with a star (**★**). Choosing **★ Favorites** narrows the Merit Badge dropdown directly to your starred badges. |
-| **1-Click `⭐` Favorite Star, Live Badge Emblem & 3-Mode Quick-Select Bar (`🔥 Popular \| ⭐ Favorites \| 🗂️ Decks`)** | Displays a live `17x17` Merit Badge patch emblem right beside the **Select Merit Badge** label (`#active-selected-badge-emblem`). Click the **`⭐`** button right next to the dropdown (or the inverted gold-circle **`★`** star in the top-right corner of any patch card in the gallery) to star/unstar a badge in SQLite (`counselor_favorites`) and `localStorage`. Switch the Quick-Select bar between **`🔥 Popular`** (8 top badges), **`⭐ Favorites`** (your starred badges), and **`🗂️ Decks`** (your saved deck sessions + `[💾 Save] [📑 Clone] [🗂️ Library]`). All three Quick-Select modes render `15x15` circular Merit Badge emblem icons on every pill (`m3-pill-badge-emblem`). | Lets counselors who teach 3 to 6 Merit Badges at troop meetings or summer camp access their personal badge lineup and saved patrol decks in one click with visual badge recognition across every tab. |
-| **⚜️ Browse Visual Patch Gallery (144)** | Opens an interactive 144-badge visual patch grid modal (`#patch-gallery-modal`) displaying all 144 authentic `400x400` Scout Shop emblems (`assets/badge_emblems/`). Features a **Sticky Header** (`position: sticky; top: 0`) that keeps the search bar, **All / Eagle-Required / Electives** dropdown, **Header Favorites Filter Toggle (`★` button with `"Toggle favorites filter"` tooltip)**, **Category** filter, live badge count indicator (`144 / 144 badges`), and `✕` close button pinned at the top while you scroll through the grid. Every patch card displays an **Inverted Gold-Circle Star (`★` white star on `#D97706` amber-gold circle)** when favorited. | Click any Merit Badge patch card in the gallery to load that badge, or click the header **`★`** toggle button to filter the grid to only the badges you counsel. |
+| **Search Merit Badge Name** | Type any word such as `First Aid`, `Weather`, `Canoeing`, `Robotics`, or `Citizenship`. | Narrows the dropdown list immediately as you type. |
+| **Category** | Filter by Scouting subject area: *All Categories*, *Outdoor & Campcraft*, *Health & Public Safety*, *Citizenship & Personal Development*, *Nature & Environment*, *STEM & Science*, *Aquatics & Sports*, *Trades, Business & Careers*, or *Arts, Crafts & Hobbies*. | Helpful when planning a themed campout weekend such as an Aquatics weekend or a STEM Merit Badge Midway. |
+| **Eagle / Favorites** | Choose **All Badges (144)**, **Eagle-Required (18)**, **Electives (126)**, or **★ Favorites**. | Eagle-Required badges are marked with a star (**★**) in the dropdown list. Choosing **★ Favorites** narrows the Merit Badge dropdown directly to your starred badges. |
+| **Starred Favorites & Quick-Select Bar (`🔥 Popular \| ⭐ Favorites \| 🗂️ Decks`)** | Click the **`⭐ Favorited`** button above the Merit Badge dropdown, or click the star in the corner of any patch in the gallery, to save a badge to your favorites list. Switch the Quick-Select bar between **🔥 Popular** (8 top badges), **⭐ Favorites** (your starred badges), and **🗂️ Decks** (your saved class decks plus **💾 Save**, **📑 Clone**, and **🗂️ Library** buttons). Every badge pill includes its circular Merit Badge patch icon. | Lets counselors who teach several Merit Badges at troop meetings or summer camp access their personal badge lineup and saved patrol decks in one click. |
+| **⚜️ Patch Gallery (144)** | Opens a visual grid of all 144 official Merit Badge patches. The top search and filter bar stays pinned in place while you scroll, so you can search by name, filter by **All / Eagle-Required / Electives** or **Category**, or click the **`★`** button to show only your starred badges. | Click any Merit Badge patch card in the gallery to load that badge right away, or click the gold star on any card to add or remove it from your favorites. |
 
 ![144-Badge Visual Patch Gallery with Favorites Filter and Gold-Circle Stars](images/ug-patch-gallery-favorites.png)
 
 ![3-Mode Quick-Select Bar and Top-Bar My Decks Instant Switcher](images/ug-quick-select-and-decks-dropdown.png)
 
-### Managing Multiple Merit Badge Decks & Patrol Sections (`🗂️ My Decks | ▾` & `Quick-Select -> 🗂️ Decks`)
+### Managing Multiple Merit Badge Decks & Patrol Sections (`🗂️ My Decks`)
 
-Counselors who teach multiple Merit Badges at summer camp or run separate **Morning Patrol** and **Afternoon Patrol** sections of the same badge can manage all of their active decks in three consolidated places without taking up vertical space above the slide stage: the **Quick-Select `🗂️ Decks` tab** in the Left Setup Sidebar, the **Top-Bar `[🗂️ My Decks | ▾]` Split-Button**, and the **My Merit Badge Decks & Classroom Sessions Library Modal (`🗂️ My Decks`)**:
+Counselors who teach multiple Merit Badges at summer camp or run separate **Morning Patrol** and **Afternoon Patrol** sections of the same badge can manage all of their active decks in three places: the **🗂️ Decks** tab under **Quick-Select Badges** in the left sidebar, the **`🗂️ My Decks | ▾`** split-button in the top bar, and the **My Merit Badge Decks & Classroom Sessions Library** window:
 
 ![Saved Decks & Sessions Library](images/ug_saved_workspaces_light.png)
 
 ![Saved Decks Library Dark Mode](images/ug_saved_workspaces_dark.png)
 
-- **Dual-Tier Persistence (`scouts_bsa_sessions.db` + `localStorage`) & Template Color Dots**: Every saved deck workspace (`counselor_workspaces` table in SQLite) stores its full slide storyboard, custom slide edits, speaker notes, selected PowerPoint template, session label (such as `Period 1 - Morning Patrol`), Camp Week / Midway bundle tag (such as `Summer Camp Week 1`), and isolated **Patrol Blue Card (`#34124`)** Scout roster. Each workspace card in the library displays its Merit Badge emblem (`42x42`), slide count, Scout roster count, and the clean template base name paired with a color dot (`m3-tpl-inline-color-dot`, such as `🖼️ BSA Scouting America 🟢` or `🖼️ BSA Outdoor Adventure 🔵`) instead of truncated text.
-- **Clean New-Deck Defaults & Editable Preset Dropdowns**: When saving a brand-new deck (`💾 Save Current Deck to Library`), **Deck / Session Title** defaults cleanly to the Merit Badge name (such as `First Aid`) while **Class Section / Period** and **Camp Week / Midway Tag** start blank so you only add tags when needed. Both fields pair free-text inputs with illustrative preset dropdowns (for example, `Period 1 - Morning Patrol`, `Period 2 - Afternoon Patrol`, `Tuesday Troop Meeting`, or `Summer Camp Week 1`, `Council Merit Badge Midway`) so you can either pick a preset or type your own label.
-- **`<80ms` Hot-Swapping via `Quick-Select -> 🗂️ Decks` & Top-Bar `[🗂️ My Decks | ▾]`**: Switch to the **`🗂️ Decks`** tab under **Quick-Select Badges** in the left sidebar (which renders rich badge-emblem pills with Scout roster counts plus a compact **`[💾 Save] [📑 Clone] [🗂️ Library]`** action strip), or click the **`▾`** caret on the Top App Bar **`[🗂️ My Decks | ▾]`** split-button when the setup sidebar is hidden, to switch your slide stage, workbook, and Blue Card roster in under `80ms` without re-running the AI pipeline.
-- **`📑 Clone for New Section` (Morning vs. Afternoon Patrols)**: Click **`📑 Clone`** in the Quick-Select `🗂️ Decks` strip, in the Top-Bar `🗂️ My Decks ▾` menu, or on any card in the library modal to copy all three metadata fields (**Deck Title**, **Class Section / Period**, and **Camp Week / Midway Tag**) along with your customized slides, templates, and speaker notes into a fresh workspace with an empty Blue Card roster for your next class period.
-- **Delete Confirmation Dialog (`Don't ask again`)**: Clicking **`🗑️`** on a saved deck opens a confirmation dialog with a **`Don't ask again`** checkbox (`localStorage`) to prevent accidental deletion of active class decks.
-- **Portable `.bsadeck.json` Backup Export & Import**: Click **`📤 Export .bsadeck.json`** on any workspace card to save a portable JSON backup file to your laptop, or click **`📥 Import .bsadeck.json`** in the modal header to restore a saved deck and Blue Card roster on another machine.
+- **Saved Storyboards, Templates & Patrol Rosters**: Every saved deck preserves its full slide storyboard, custom slide edits, speaker notes, selected PowerPoint template and layout style, session label (such as `Period 1 - Morning Patrol`), camp or event tag (such as `Summer Camp Week 1`), and its own separate **Patrol Blue Card (`#34124`)** Scout roster. Each card in the library shows its Merit Badge patch, slide count, Scout roster count, and active template name with a color dot indicator.
+- **Simple Session Labels & Preset Dropdowns**: When saving a deck, **Active Deck Title** defaults to the Merit Badge name while **Class Section / Period** and **Camp Week / Midway Tag** start blank so you only add labels when you need them. You can either pick a common preset from the dropdown or type your own custom label.
+- **Instant Deck Switching**: Click any saved deck pill under **Quick-Select Badges -> 🗂️ Decks**, or click the **`▾`** arrow on **`🗂️ My Decks | ▾`** in the top bar when the left sidebar is hidden, to switch your slide stage, workbook, and Blue Card roster immediately without rebuilding the deck.
+- **📑 Clone for New Section**: Click **📑 Clone** in the Quick-Select bar, in the top-bar **`🗂️ My Decks | ▾`** menu, or on any card in the library window to duplicate your customized slides, template, and speaker notes into a fresh session with an empty Blue Card roster for your next patrol or class period.
+- **Safe Deletion**: Clicking **`🗑️`** on a saved deck asks for confirmation before deleting, with a **Don't ask again** option if you are cleaning up multiple old sessions.
+- **Backup Export & Import**: Click **📤 Export Backup (.JSON)** in the library window to save a portable backup file to your laptop, or click **📥 Import Backup** to restore a saved deck and Blue Card roster on another computer.
 
 ---
 
 ## 4. Step 2: Choosing Your Deck Style & Saving Your Counselor Profile
 
-In the lower-left card (**2. Deck Style & Counselor Info**), you control how detailed the presentation should be, which Scout age group you are teaching, and what local troop information should appear on the cover slide and handouts.
+In the lower-left card (**2. Deck Style & Counselor Info**), you control how detailed the presentation should be, how slides and templates are styled, which Scout age group you are teaching, and what local troop information appears on the cover slide and handouts.
 
-### Choosing Deck Depth, Unified Warm Cream Visual Theme & Audience Age
+### Choosing Deck Depth, Slide Theme, Template & Layout Style
 
 ![Workbench Visual & Teaching Showcase](images/slide-polish-tiers-comparison.png)
 
 | Setting | Options Available | When to Use Each Option |
 | :--- | :--- | :--- |
-| **Slide Deck Length & Depth** | • **Deep Dive Teaching Deck (3 to 8 Slides / Req • 30 to 100+ Slides)**<br/>• **Standard Troop Meeting Deck (1 to 4 Slides / Req • 18 to 48 Slides)** | Choose **Deep Dive** for multi-week troop classes, summer camp blocks, or Merit Badge Universities where you want dedicated slides for every sub-requirement (`1a`, `1b`, `2a`), worked examples, and review quizzes. Choose **Standard** for a compact overview deck. |
-| **PowerPoint Slide Template & Branding (`🎨 Template Studio`)** | • **17 Built-In Council-Neutral Scouting America & Heritage Templates Organized Across 7 Style Families (`Option A` Naming)**:<br/>  - *0. Workbench Default*: `Workbench Classic` (`default_workbench`)<br/>  - *1. Brushed Banner Series*: `BSA Scouting America (Green)`, `BSA Scouting America (Blue)`, `BSA Scouting America (Red)`<br/>  - *2. Horizon Silhouette Series*: `BSA Outdoor Adventure (Blue)`, `BSA Outdoor Adventure (Green)`, `BSA Outdoor Adventure (Red)`<br/>  - *3. Forest Sunrise & Camp Series*: `BSA Forest Sunrise (Blue)`, `BSA Forest Sunrise (Green)`, `BSA Forest Sunrise (Red)`<br/>  - *4. Topographic Contour Series*: `BSA Topographic (Blue)`, `BSA Topographic (Green)`, `BSA Topographic (Tan)`<br/>  - *5. Fleur-de-Lis Crest Series*: `BSA Fleur-de-Lis Crest (Red)`, `BSA Fleur-de-Lis Crest (Blue)`<br/>  - *6. Special & Action Editions*: `BSA America 250™`, `BSA High Adventure`<br/>• **Custom Upload, URL Import & Edit/Delete**: Upload `.pptx`, `.ppt`, `.png`, `.jpg`, or `.webp` (`POST /api/v1/templates/upload`), import by URL (`POST /api/v1/templates/import-url`), edit custom template Name/Description (`PATCH /api/v1/templates/{template_id}`), or delete custom templates (`DELETE /api/v1/templates/{template_id}`) | Applies decorative header/footer banners, outdoor horizon silhouettes, corner medallions, auto-contrasted luminance footer text, and responsive `SafeCanvasBounds` (`content_bottom_max_in <= 6.86"` / `6.88"` / `6.82"` clamping so teaching cards and the `🛡️ Guide to Safe Scouting` bar sit right above footer bars or corner logos with zero gap or overlap). Works orthogonally with **`WARM_CREAM`** (`CREAM`, `#FAF8F5`), **`CRISP_WHITE`** (`WHITE`, `#FFFFFF`), and **`DARK_SLATE`** (`SLATE`, `#0F172A`). |
-| **Unified Warm Cream (`WARM_CREAM` / `#FAF8F5`) Rich Visual Slide Theme** | • **Sidebar Status Badge**: `Visual Assets: 100% Pre-Cached (8-Bit PNG)` *(`$0.00` runtime image cost; `~$0.18` cold LLM / `$0.00` cached)*<br/>• **Per-Slide Overrides (Drawer Tab 2)**: 6 Card Styles, `Container Style (This Slide)`, & 5 Brand Palettes (including `MATCH_TEMPLATE`) | Every deck uses a warm editorial cream canvas (`WARM_CREAM`, `#FAF8F5`) with pre-bundled visuals from all **3,917 built-in curated assets** (`1,306` 8-bit PNG Nano Banana requirement heroes, topic illustrations, and scientific diagrams + `2,323` Vision-verified BSA Pamphlet figures + `144` emblems + `144` covers). You can customize any individual slide's **Container Style**, **Card Style**, or **Brand Palette** in Drawer Tab 2, and REST/MCP/Python API callers can specify `WARM_CREAM` (`CREAM`), `CRISP_WHITE` (`WHITE`), or `DARK_SLATE` (`SLATE`) (with legacy enum aliases `BEAUTIFIED`, `STANDARD`, and `STUDIO` retained for backward compatibility). |
-| **Slide Layout Style (`DeckStyleConfig` Global Deck Layout Style Engine)** | • **`✨ Auto (Match Template)`** *(Recommended default: `📖 Clean & Borderless` on all 16 BSA templates; `🗂️ Boxed Cards` on `Workbench Classic`)*<br/>• **`📖 Clean & Borderless (No Boxes)`** (`CLEAN_OPEN` + `FRAMELESS_CLEAN` + `MINIMAL_ACCENT`)<br/>• **`📏 Editorial Left-Accent Line`** (`LEFT_ACCENT_LINE`: `3.5px` vertical accent bar on the left of each teaching point without 4-sided card boxes)<br/>• **`🗂️ Boxed Cards & Framed Visuals`** (`BOXED_CARDS`: classic bento card containers)<br/>• **`🎛️ Customize Boxes, Image Frame & Font Size...`** (`Text Containers`, `Image Framing`, `Header & Req Strip`, `Typography Scale`, `Safety Callout Mode`) + **`📌 Save as My Default Style`** | Lets you strip 4-sided card boxes and image frames for an open magazine layout (`📖 Clean & Borderless`), step body typography up by `+2.0pt to +3.3pt` (`13.5pt to 15.0pt` in `COMFORTABLE_LARGE`), expand right-hand visuals by `+21.7%` area, and persist your preferred default across sessions (`GET / PUT / DELETE /api/v1/preferences/deck-style` + `localStorage`). |
-| **Target Scout Audience Level** | • **All Scouts (Ages 11 to 17)**<br/>• **First-Year / Tenderfoot Focus (Ages 11 to 12)**<br/>• **Older Scouts / Eagle Prep (Ages 14 to 17)** | Adjusts the counselor speaker notes (`[SAY]`, `[DEMONSTRATE]`, `[ASK SCOUTS]`) so your explanations and check questions fit either younger crossovers or older Scouts preparing for Eagle Boards of Review. |
-| **Enable Local Regional Grounding (NOAA / Terrain / Field Sites)** | Checked by default | Tailors your **Badge Overview slide (Slide 2)**, **Session Lesson Plan**, and **Parent Welcome Letter** to your local area, referencing your nearest National Weather Service office, current state U.S. Senators (for civic badges), local terrain hazards, and nearby parks or field study sites. |
+| **Slide Deck Length & Depth** | • **Deep Dive Teaching Deck (3-8 Slides / Req • 30-100+ Slides)**<br/>• **Standard Troop Meeting Deck (1-4 Slides / Req • 18-48 Slides)** | Choose **Deep Dive** for multi-week troop classes, summer camp blocks, or Merit Badge Universities where you want dedicated slides for every sub-requirement, worked examples, and review quizzes. Choose **Standard** for a shorter overview deck. |
+| **Slide Theme & Visuals** | • **Warm Cream: Pamphlet + AI Visuals** *(Default)*<br/>• **Crisp White: Pamphlet + AI Visuals**<br/>• **Dark Slate: Pamphlet + AI Visuals** | Sets the background canvas and text contrast across your slides. **Warm Cream** provides a soft editorial cream background, **Crisp White** uses a bright white background, and **Dark Slate** uses a deep navy-slate background with high-contrast white and gold text for darkened rooms. Changing this dropdown updates a loaded deck immediately. |
+| **PowerPoint Template (`🎨 Template Studio`)** | • **17 Built-In Scouting America & Heritage Templates Across 8 Style Families**:<br/>  - *Standard Workbench*: **Workbench Classic**<br/>  - *1. Brushed Banner Series*: **BSA Scouting America** (*Green*, *Blue*, *Red*)<br/>  - *2. Horizon Silhouette Series*: **BSA Outdoor Adventure** (*Blue*, *Green*, *Red*)<br/>  - *3. Forest Sunrise & Camp Series*: **BSA Forest Sunrise** (*Blue*, *Green*, *Red*)<br/>  - *4. Topographic Contour Series*: **BSA Topographic** (*Blue*, *Green*, *Tan*)<br/>  - *5. Fleur-de-Lis Crest Series*: **BSA Fleur-de-Lis Crest** (*Red*, *Blue*)<br/>  - *6. Special & Action Editions*: **BSA America 250™**, **BSA High Adventure**<br/>• **Custom Upload & URL Import**: Upload your own `.pptx`, `.ppt`, `.png`, `.jpg`, or `.webp` template, import a template from a web link, or rename and delete custom templates. | Applies header and footer banners, outdoor horizon silhouettes, and corner logos across your presentation. Slide content and safety callouts automatically adjust their vertical spacing so they stay clear of footer banners and corner emblems. |
+| **Deck Layout Style** | • **✨ Match Template Style (Recommended: Clean on BSA, Boxed on Classic)**<br/>• **📖 Clean & Borderless (No Boxes: Largest Text & Visuals)**<br/>• **📏 Editorial Left-Accent Line (Minimal Vertical Rule)**<br/>• **🗂️ Boxed Cards (Classic Bento Containers)** | Controls how teaching points and requirement overviews are framed across both the live web stage and your downloaded `.pptx` file. **Match Template Style** uses an open, unboxed layout on all 16 branded BSA templates and uses boxed teaching cards on **Workbench Classic**. |
+| **🎛️ Customize Boxes, Image Frame & Font Size...** | Expandable customizer directly under **Deck Layout Style** with five fine-grained controls:<br/>• **Text Points Style**: *Auto (Follow Layout Style)*, *Clean & Borderless*, *Left Vertical Accent Line*, or *Boxed Cards*<br/>• **Right Image Frame**: *Auto (Frameless Image + Caption)*, *Frameless Image + Caption*, *Frameless + Soft Drop Shadow*, or *Boxed Image Card*<br/>• **Top Header & Requirement Strip**: *Auto (Unboxed Left-Accent Strip)*, *Unboxed Left-Accent Requirement Strip*, or *Full Solid Navy Header Banner*<br/>• **Body Font Size Scale**: *Comfortable Large (+2.5pt Unboxed)*, *Large Projector (+4pt Extra Legible)*, or *Compact (Standard Density)*<br/>• **Bottom Safety Strip**: *Acute Physical/Medical Hazards Only*, *Compact Bottom Accent Line*, or *Show on Every Slide with Warnings*<br/>• **📌 Save as My Default Style** and **↺ Reset** buttons | Lets you fine-tune text cards and image frames independently. For example, choosing **Boxed Cards** under **Text Points Style** puts boxes around your teaching points while keeping the right-hand illustration frameless unless you specifically choose **Boxed Image Card** under **Right Image Frame**. Full requirement wording is always shown without truncation. Clicking **📌 Save as My Default Style** remembers your favorite template, theme, and layout settings for all future sessions. |
+| **Target Scout Audience Level** | • **All Scouts (Ages 11-17)**<br/>• **First-Year / Tenderfoot Focus (Ages 11-12)**<br/>• **Older Scouts / Eagle Prep (Ages 14-17)** | Adjusts the counselor speaker notes (`[SAY]`, `[DEMONSTRATE]`, `[ASK SCOUTS]`) so your explanations and check questions fit either younger crossovers or older Scouts preparing for Eagle Boards of Review. |
+| **📍 Enable Local Regional Grounding** | Checked by default | Tailors your **Requirements Overview slide (Slide 2)**, **Session Lesson Plan**, and **Parent Welcome Letter** to your local area, referencing your nearest National Weather Service office, state U.S. Senators for civic badges, local terrain hazards, and nearby parks or field study sites. |
 
-### PowerPoint Template & Custom Slide Theme Studio (`[🖼️ Template Name | ▾]`)
+### PowerPoint Template & Custom Slide Theme Studio
 
-Click **`🎨 Template Studio`** in the left sidebar or use the **Split-Button Template Switcher (`[🖼️ Template Name | ▾]`)** in the stage toolbar: clicking the main button opens the **PowerPoint Template & Theme Studio Modal**, while clicking the right **`▾`** caret opens a compact Style Family dropdown menu with inline **1-Click Color Swatch Pills (`[🟢 Green] [🔵 Blue] [🔴 Red]`)** right on each family row:
+Click **`🎨 Template Studio`** in the left sidebar or use the **`[🖼️ Template Name | ▾]`** split-button in the stage toolbar. Clicking the main button opens the **PowerPoint Template & Custom Slide Theme Studio**, while clicking the **`▾`** arrow opens a quick-switch menu on top of the slide stage:
 
 ![PowerPoint Template Studio](images/ug_template_studio_light.png)
 
@@ -135,12 +136,12 @@ Click **`🎨 Template Studio`** in the left sidebar or use the **Split-Button T
 
 ![Stage Toolbar Template Switcher Dropdown and 3-Box Safe-Zone X-Ray](images/ug-template-switcher-and-safezone-xray.png)
 
-- **17 Curated Scouting Templates Organized into Style Family Cards (`#template-catalog-grid`)**: Multi-variant template families (*Brushed Banner Series*, *Horizon Silhouette Series*, *Forest Sunrise & Camp Series*, *Topographic Contour Series*, and *Fleur-de-Lis Crest Series*) display an interactive **Color Variant Swatch Bar (`[🟢 Green] [🔵 Blue] [🔴 Red]`)** directly underneath the 16:9 miniature preview. Clicking any color pill updates the card preview and applies that template variant to your active deck in one click.
-- **True Responsive Slide Geometry & Auto-Contrasted Footer Text**: When you apply a branded template with a bottom footer bar, horizon silhouette, or corner logo, both the live 16:9 web stage (`#widescreen-slide-stage`) and the exported `.pptx` presentation automatically lift instructional cards and the **`🛡️ Guide to Safe Scouting`** warning banner cleanly above the reserved bottom zone (`y <= 6.86"` / `6.82"`), shift the footer attribution text clear of the left or right logo, and auto-select crisp white (`#FFFFFF`) text on dark navy/forest/crimson footer bars or dark slate (`#0F172A`) text on light footer bars.
-- **Tab 2 (`📤 Upload Custom Template (.PPTX / Image)`) & Custom Template Edit/Delete**: Upload your own `.pptx`, `.ppt`, `.png`, `.jpg`, or `.webp` slide template (`POST /api/v1/templates/upload`). User-added templates display a **`✏️` pencil icon** (`PATCH /api/v1/templates/{template_id}`) to edit the template's Name and Description in place and a **`🗑️` delete icon** (`DELETE /api/v1/templates/{template_id}`) that removes the template and automatically reverts the active deck to **`Workbench Classic`** (`default_workbench`).
-- **Tab 3 (`🌐 Import Template from URL`)**: Paste a direct link to a `.pptx` or background image (`POST /api/v1/templates/import-url`) to register it in your template catalog.
-- **Redesigned 3-Box Anatomical Safe-Zone X-Ray (`📐 Preview Safe-Zone X-Ray`)**: Toggle the Safe-Zone X-Ray switch in the modal header to inspect a clear 3-zone anatomical diagram overlaid on the 16:9 preview: **Zone 1 (`Header Reserve`)**, **Zone 2 (`Active Pedagogical Content & Safety Safe-Box` with live dimension and delta badge)**, and **Zone 3 (`Template Footer & Protected Corner Logo Zone`)**.
-- **Global Deck Layout Style Quick-Toggle (`[✨ Auto] [📖 Clean] [📏 Line] [🗂️ Boxed]`) & `📌 Save as My Default Style`**: Switch the entire deck between `✨ Auto (Match Template)`, `📖 Clean & Borderless`, `📏 Editorial Left-Accent Line`, and `🗂️ Boxed Cards` directly from the left sidebar (`Slide Layout Style`), the Stage Toolbar `[🖼️ Template | ▾]` dropdown, or the Template Studio header. Click **`📌 Save as My Default Style`** to persist your `DeckStyleConfig` across browser sessions and local API runs (`PUT /api/v1/preferences/deck-style`).
+- **Quick-Switch Menu in the Stage Toolbar (`[🖼️ Template Name | ▾]`)**: The top section, **Switch Slide Template (17 Across 8 Styles)**, lists all 8 style families in full view without scrolling, with one-click color pills (**Green**, **Blue**, **Red**, **Tan**) right on each row. Directly below the template list, **Deck Layout Style (Live Stage + .PPTX)** lets you toggle between **✨ Auto**, **📖 Clean**, **📏 Line**, and **🗂️ Boxed** in one click, followed by a button to open the full Template Studio.
+- **Style Family Cards in the Template Studio**: Inside the Template Studio window, each style family card shows a 16:9 miniature preview with interactive color pills underneath. Clicking any card or color pill applies that template to your active deck right away.
+- **Global Deck Layout Style Bar, `📌 Set as My Default` & `↺ Reset`**: At the top of the Template Studio window, you can change the **Deck Layout Style**, click **📌 Set as My Default** to save your current template and layout preferences, or click **↺ Reset** to return to the factory default (**BSA Scouting America • Green** with **Match Template Style**).
+- **Automatic Footer Clearance & High-Contrast Text**: When you pick a template with a bottom branding bar, outdoor horizon silhouette, or corner logo, both the live slide stage and the exported `.pptx` presentation automatically keep teaching points and the **Guide to Safe Scouting** bar clear of the footer artwork and choose high-contrast footer text.
+- **Upload Custom Templates or Import by Web Link**: At the bottom of the Template Studio, you can upload your own `.pptx`, `.ppt`, `.png`, `.jpg`, or `.webp` template or paste a direct web link. Custom templates include a **`✏️`** edit button to update their name and description and a **`🗑️`** delete button to remove them.
+- **📐 Preview Safe-Zone X-Ray on Stage**: Check **📐 Preview Safe-Zone X-Ray on Stage** in the Template Studio header to overlay dashed guide boxes on the live slide canvas showing the **Header & Requirement Banner**, the **Pedagogical Content & Safety Safe-Box**, and the **Reserved Template Branding & Footer Safe Zone**.
 
 ### Saving Your Counselor & Troop Profile
 
@@ -148,8 +149,8 @@ Click **👤 Counselor & Troop Profile (Saved) • Edit ▾** at the bottom of t
 - **Counselor Name**: Printed on your Cover Slide (Slide 1), Parent Welcome Letter, and Blue Card Sign-Off Sheet (for example, `Scoutmaster Bob`).
 - **Troop & Council Affiliation**: Your unit and council name (for example, `Troop 19, Spirit of Adventure Council`).
 - **Location (City, State or ZIP Code)**: Enter your town or 5-digit ZIP code (such as `Middleton, MA` or `01949`) so local weather, terrain hazards, and field study locations match your troop's home area.
-- **Contact Email & Contact Phone (Optional)**: Displayed in the counselor contact box on Slide 1 and in your Parent Welcome Letter so Scouts (copying a parent or guardian under Youth Protection rules) know how to reach you.
-- **Optional Troop Custom Logo (`.png` / `.jpg`) & `🗑️` Delete Button**: Upload your troop numeral patch, patrol medallion, or council shoulder strip to display it in the lower-left counselor block on Slide 1. Whenever a custom logo is loaded, a red **`🗑️` delete icon button (`#btn-clear-troop-logo`)** appears right next to the file field so you can remove the custom logo in one click without resetting the rest of your counselor contact profile.
+- **Contact Email & Contact Phone (Optional)**: Displayed in the counselor contact box on Slide 1 and in your Parent Welcome Letter so Scouts, copying a parent or guardian under Youth Protection rules, know how to reach you.
+- **Optional Troop Custom Logo (`.png` / `.jpg`) & `🗑️` Remove Button**: Upload your troop numeral patch, patrol medallion, or council shoulder strip to display it in the lower-left counselor block on Slide 1. Whenever a custom logo is loaded, a red **`🗑️`** delete button appears next to the file field so you can remove the logo in one click without clearing the rest of your contact profile.
 - **↺ Reset Info**: Clears your saved profile and restores the default sample values anytime.
 
 ---
@@ -158,9 +159,9 @@ Click **👤 Counselor & Troop Profile (Saved) • Edit ▾** at the bottom of t
 
 ![Three Scout Slide Construction Animations](images/construction-animations-triptych.png)
 
-Whenever a new Merit Badge deck is being assembled, or anytime you click **Merit Badge Construction Animation** in the **Research & Generation Progress** card in the left outline column, the Workbench displays an interactive **Scout Slide Construction Showcase** featuring your selected Merit Badge emblem:
+Whenever a new Merit Badge deck is being assembled, or anytime you click **Merit Badge Construction Animation** in the **Research & Generation Progress** card at the bottom of the slide outline column, the Workbench displays an interactive **Scout Slide Construction Showcase** featuring your selected Merit Badge emblem:
 
-1. **🏗️ 1. 3D Heavy Equipment (6f)**: Miniature Scouts in campaign hats and construction hardhats use a yellow mini-bulldozer, tower crane, forklift, scissor-lift, and twin-rotor cargo helicopter to erect a giant 16:9 slide and hoist your Merit Badge patch into the upper-right mounting ring. On Frame 4 (`iso_heavy_4_helicopter_emblem.jpg`), a transparent foreground hoist cable and golden mounting ring eyelet (`iso_heavy_4_foreground_cable.png`) render in front of the badge patch so the helicopter cable physically holds the emblem from above.
+1. **🏗️ 1. 3D Heavy Equipment (6f)**: Miniature Scouts in campaign hats and hardhats use a yellow mini-bulldozer, tower crane, forklift, scissor-lift, and twin-rotor cargo helicopter to erect a giant 16:9 slide and hoist your Merit Badge patch into the upper-right mounting ring.
 2. **🪵 2. 2D Camp Pioneering (4f)**: A patrol at a pine forest campsite ties square and diagonal lashings on timber spars and uses an A-frame block-and-tackle pulley rig to hoist a canvas projection screen framed with your Merit Badge emblem.
 3. **⚙️ 3. 3D Slide-O-Matic (4f)**: Stop-motion clay Scouts inside a log-cabin workshop feed Merit Badge pamphlets into a brass-and-oak *"Slide-O-Matic"* contraption before cutting a ceremonial red ribbon.
 
@@ -170,74 +171,69 @@ You can switch between the three animations using the top buttons, step backward
 
 ## 6. Step 4: Previewing, Presenting, Timing & Switching Slide Images
 
-When **Slide Deck Preview** (Tab 1) is active, you have fast controls for navigating slides, switching visuals, timing your class, and projecting to a patrol:
+When **📊 1. Slides & Notes** is active, you have fast controls for navigating slides, switching visuals, timing your class, and projecting to a patrol:
 
-### 1. Single-Row Slide Outline Filter, Active-Slide Micro-Pills (`+`, `👁️`, `↑`, `↓`) & Unified `[🛠️ Tools ▾]` Menu (Left Column of Tab 1)
-- At the top of the **Slide Filmstrip Outline** (`#filmstrip-toolbar`), the **`🔎 Filter slides or req...`** search box and the unified **`[🛠️ Tools ▾]`** dropdown button sit side-by-side on a single horizontal row (`36px` total header height, giving the slide outline extra vertical room).
+### 1. Slide Outline Filter, Active-Slide Quick Buttons (`+`, `👁️`, `↑`, `↓`) & `[🛠️ Tools ▾]` Menu
+- At the top of the **Slide Filmstrip Outline**, the **🔎 Filter slides or req...** search box and the **`[🛠️ Tools ▾]`** dropdown button sit side by side on a single compact row.
 - Type a requirement number (such as `2b` or `4a`) or a topic word (such as `CPR`, `tourniquet`, or `splint`) into **🔎 Filter slides or req...** to narrow the slide list immediately.
-- **Inline Active-Slide Customizer Micro-Pills (`+`, `👁️`, `↑`, `↓`) with Immediate (`0ms`) Visual Updates & Debounced Net-Zero `.PPTX` Sync**:
-  - In the lower-right corner of the **active slide** in the Slide Filmstrip Outline (`.m3-thumb-customizer-cluster`), four compact circular micro-pill buttons appear with hover tooltips:
-    * **`+`** (*Insert a custom local camp or troop slide right after this slide*, rendered as a crisp typographic `+` pill in `m3-thumb-micro-pill-add` with an emerald-green border and bright white glyph in Dark Mode so it stands out clearly against dark slate cards)
-    * **`👁️`** (*Hide this slide from the presentation & exported .PPTX* or *Unhide this slide so it is included in the presentation*)
-    * **`↑`** (*Move active slide earlier in the deck*)
-    * **`↓`** (*Move active slide later in the deck*)
-  - **Stationary Physical Position on `↑` / `↓` Clicks (`0ms` Response)**: Clicking **`↑`**, **`↓`**, or **`👁️`** updates the slide position or hidden state **immediately (`0ms`)** in the outline and on the stage. When you click **`↑`** or **`↓`**, the outline scroll container (`#slide-filmstrip-list`) automatically compensates by the exact height delta (`listEl.scrollTop += deltaY`) so the selected slide card and its **`↑`** / **`↓`** buttons remain stationary right under your mouse cursor while the neighboring slides shift up or down around it (only shifting physical position when the scroll list has reached the very top or bottom and can no longer scroll further). This lets you click **`↑`** or **`↓`** multiple times in a row without moving your cursor.
-  - Background `.pptx` regeneration is debounced (`1200ms` window after your last click). If you toggle **`👁️` Hide** and then **`👁️` Unhide** (or move a slide up and back down) within the debounce window so that the net deck change is zero, the background `.pptx` rebuild is automatically skipped (`computeStoryboardDeckSignature`).
-- Click **`[🛠️ Tools ▾]`** (`#btn-stage-tools-menu-toggle`) to access three grouped sections in one menu (clicking `↑`, `↓`, or `👁️ Hide Slide` inside the menu also keeps the popover open for repeated clicks):
-  1. **Filter Slide Outline**: Toggle **`⚡ Quiz Slides Only`** (`#btn-filter-quiz-slides`) or **`🏠 Hide Home-Prereqs`** (`#btn-toggle-hide-prereq-slides`). Whenever a filter is active, the button highlights in amber and displays a live count badge (**`🛠️ Tools • 1 ▾`**).
-  2. **Slide Deck Customizer**: Click **`➕ Insert Slide`** to insert a custom local camp slide right after the active slide, **`👁️ Hide Slide` / `👁️ Unhide Slide`** to toggle visibility of the current slide, or **`↑` / `↓`** to reorder slides.
-  3. **Classroom Quiz & Patrol Game**: Toggle **`🎯 Quiz Reveal: Off`** or open the **`🏆 Patrol Scoreboard`**.
-- Each card in the **Slide Filmstrip Outline** also displays a **`32x32` miniature visual thumbnail**, a color-coded visual source badge (`[🍌 Hero]`, `[📘 Pamphlet]`, `[📊 Diagram]`, `[📁 Custom]`, or `[📝 Text]`), and a **`🖼️ 1/2`** multi-choice count badge.
+- **Quick Customizer Buttons on the Active Slide (`+`, `👁️`, `↑`, `↓`)**:
+  - In the lower-right corner of the active slide card in the outline, four small circular buttons appear:
+    * **`+`**: Insert a custom local camp or troop slide right after this slide.
+    * **`👁️`**: Hide this slide from the presentation and exported `.pptx`, or unhide it so it is included again.
+    * **`↑`**: Move the active slide earlier in the deck.
+    * **`↓`**: Move the active slide later in the deck.
+  - **Steady Cursor Position While Reordering**: Clicking **`↑`** or **`↓`** moves the slide immediately and adjusts the outline scroll position so the active slide card and its **`↑`** / **`↓`** buttons stay right under your mouse pointer. This lets you click **`↑`** or **`↓`** several times in a row without chasing the card up or down the list. Your downloadable `.pptx` file automatically updates in the background a moment after you finish reordering.
+- Click **`[🛠️ Tools ▾]`** to access three grouped sections in one menu:
+  1. **Filter Slide Outline**: Toggle **⚡ Quiz Slides Only** or **🏠 Hide Home-Prereqs**. Whenever a filter is active, the Tools button highlights in amber and shows a count badge (**`🛠️ Tools • 1 ▾`**).
+  2. **Slide Deck Customizer**: Click **➕ Insert Slide**, **👁️ Hide Slide**, or **↑ / ↓** to customize the deck from the menu.
+  3. **Classroom Quiz & Patrol Game**: Toggle **🎯 Quiz Reveal: Off** or open the **🏆 Patrol Scoreboard**.
+- Each card in the slide outline also displays a miniature visual thumbnail, a source badge (`Hero`, `Pamphlet`, `Diagram`, `Custom`, or `Text`), and a **`🖼️ 1/2`** badge when multiple image choices are available for that slide.
 
-### 2. Single Above-Stage Toolbar & Interactive Requirement Jump Dropdown (`[📍 Overview ▾]` / `[📍 Req X ▾]`)
-- To maximize vertical space for the 16:9 slide canvas, all above-stage controls are consolidated into a **single `42px` Stage Toolbar (`#slide-stage-toolbar`)**.
-- Directly to the right of **`Next ▶`** (`Slide X / Y`), the active requirement indicator (**`[📍 Cover ▾]`**, **`[📍 Overview ▾]`**, or **`[📍 Req 2b ▾]`**, `#btn-stage-req-jump-toggle`) serves as both your live location badge and a **1-Click Requirement Quick-Jump Dropdown (`#req-jump-dropdown-menu`)**.
-- Clicking **`[📍 Overview ▾]`** opens a 2-column popover grid listing **Cover Slide**, **Overview**, and every requirement (**Req 1** through **Req 15**) with slide ranges and an active **`✓`** checkmark. Clicking any requirement jumps straight to its introductory slide and automatically scrolls the left **Slide Filmstrip Outline** to center the active slide card.
+### 2. Stage Toolbar & Requirement Quick-Jump Menu (`[📍 Overview ▾]` / `[📍 Req X ▾]`)
+- Above the 16:9 slide stage sits a single compact toolbar with **« Outline**, **‹ Prev / Next ›**, the **Requirement Quick-Jump** button (**`[📍 Cover Slide ▾]`**, **`[📍 Overview ▾]`**, or **`[📍 Req 2b ▾]`**), the **Template Switcher** (**`[🖼️ BSA Scouting America 🟢 | ▾]`**), and **`[🖥️ Present | ▾]`**.
+- Clicking the **Requirement Quick-Jump** button opens a two-column menu listing the **Cover Slide**, **Overview**, and every requirement (**Req 1** through **Req 15**) with slide ranges and a **`✓`** checkmark on the current section. Clicking any requirement jumps straight to its introductory slide and scrolls the left outline to match.
 
 ![Slide Outline Active-Slide Micro-Pills, Tools Menu and Requirement Jump Popover](images/ug-outline-micro-pills-and-tools-menus.png)
 
 ### 3. Easy Slide Image Switcher (On-Stage Visual Pill & Popover)
-- Look at the source pill above the image on the right side of the 16:9 slide stage:
-  - When a slide has a single visual (such as a Requirement Intro slide with one Nano Banana hero illustration), the pill shows a static label (`🍌 NANO BANANA AI ILLUSTRATION`).
-  - When a slide has multiple visual choices (such as the primary pamphlet figure plus up to 2 Gemini Vision-verified BSA pamphlet alternates for that requirement, or custom images you uploaded for that slide), the pill shows **`◀`** and **`▶`** arrows and a **`(1/3) ▾`** counter.
-  - Click **`◀`** or **`▶`** (or press **`[`** and **`]`** on your keyboard) to switch between the slide's image options in one click, or click **`(1/3) ▾`** to open a popover showing each option's thumbnail, role label (`Primary Pamphlet Figure`, `Pamphlet Alternate #1`, `Pamphlet Alternate #2`), and Vision-verified caption. Picking any option updates the slide image, its caption, and your `[SAY]` / `[DEMONSTRATE]` teaching script right away and rebuilds your `.pptx` file in the background at `$0.00` cost. You can also click **`+ Upload / Add Custom Image for This Slide...`** at the bottom of the popover to open the 4-Tab Image Studio.
+- Hover over the illustration on the right side of the 16:9 slide stage to reveal the zoom and image-source controls at the top of the visual:
+  - When a slide has a single visual, the pill shows its source label (such as `🍌 NANO BANANA AI ILLUSTRATION`).
+  - When a slide has multiple visual choices, such as the primary pamphlet figure plus alternate BSA pamphlet figures for that requirement or custom photos you uploaded, the pill shows **`◀`** and **`▶`** arrows and a **`(1/2) ▾`** counter.
+  - Click **`◀`** or **`▶`**, or press **`[`** and **`]`** on your keyboard, to cycle between the slide's image options. Click **`(1/2) ▾`** to open a menu showing each option's thumbnail, role label, and caption. Picking any option updates the slide image, its caption, and your `[SAY]` / `[DEMONSTRATE]` teaching script right away and updates your `.pptx` download at zero cost. You can also click **+ Upload / Add Custom Image for This Slide...** at the bottom of the menu to open the 4-Tab Image Studio.
 
 ![On-Stage Easy Slide Image Switcher Popover](images/ug-easy-slide-image-switcher.png)
 
-### 4. Centered Split-Screen Presenter View (`P`), Non-Disruptive `↗ 2nd Monitor` Window, Fullscreen Teleprompter (`N`), Classroom Timer & Patrol Scoreboard (`Space`)
+### 4. Split-Screen Presenter View (`P`), 2nd Monitor Window, Fullscreen Mode (`F`), Classroom Timer & Patrol Scoreboard (`Space`)
 
 ![Centered Split-Screen Presenter View with 3 Color-Coded Teleprompter Cards](images/ug-split-screen-presenter-view.png)
 
 ![Present Split-Button Timer Menu, Socratic Quiz Reveal and 4-Patrol Scoreboard](images/ug-timer-quiz-and-patrol-scoreboard.png)
 
-- **🪟 Full-Size Split-Screen Presenter View (`P`), Draggable `🪟 Float` Overlay & `↗ 2nd Monitor` Pop-Out**: Selecting **`🪟 Split-Screen Presenter View (P)`** from the **`[🖥️ Present | ▾]`** menu (or pressing **`P`**) in either normal preview mode or Fullscreen mode (`F`) opens the **Presenter Console** (`#stage-presenter-console-dock`) directly to the right of the 16:9 slide stage:
-  - **Full-Size Slide Preservation**: When opened in normal preview mode, the Workbench automatically collapses the Left Setup Sidebar and Slide Filmstrip Outline (`sidebar-collapsed` + `filmstrip-collapsed`, restoring them automatically when you exit Presenter View) so your 16:9 slide stays at full size (`890px+` wide on a 1366px laptop) while the `435px` Presenter Console (`450px` when floating) sits cleanly to its right.
-  - **2-Tier Window Header & Navigation Bar (Zero Button Clipping + Dedicated `✕` Close Button)**:
-    * **Top Window Header Bar (`.m3-pc-dock-header`)**: Displays the gold **`PRESENTER VIEW`** badge and clickable cyan **`MM:SS`** session timer on the left, and **`🪟 Float`** (which toggles to **`📌 Dock`** when floating so you can drag the window anywhere on screen by its header bar), **`↗ 2nd Monitor`** (`#btn-pc-popout-window`), and a crimson **`✕` Close button** (`#btn-pc-close-console`, pinned at the far right in both docked and floating modes) on the right.
-    * **Top `"Up Next"` Preview Card**: Full-width card right below the header showing `UP NEXT • SLIDE X OF Y`, the next slide's full title, and a **`⏱ ~2 min`** pacing badge.
-    * **4-Button Navigation & Teleprompter Font Bar (`.m3-pc-nav-grid`)**: Places **`◀ Prev Slide`**, **`Next Slide ▶`**, and the **`A−`** / **`A+`** teleprompter font-size buttons on a dedicated row directly above the speaker notes cards so no header buttons ever clip or overflow.
-  - **3 Separate Color-Coded Teleprompter Cards**: Renders **`🗣️ [SAY]`** in a royal-blue card, **`🛠️ [DEMONSTRATE]`** in an amber card, and **`❓ [ASK SCOUTS]`** (with its **`✓ Expected Answer:`** callout) in an emerald card, with rendered **`**bold**`** emphasis and highlighted `🎬 [Stage Cues]`.
-- **↗ Non-Disruptive `↗ 2nd Monitor` Floating Browser Teleprompter Window**: Teaching with a projector or dual display? Click **`↗ 2nd Monitor`** inside the Presenter Console header (or choose **`↗ Pop-Out Presenter (2nd Window)`** directly inside the **`[🖥️ Present | ▾]`** dropdown menu) to open a synchronized OS browser window (`scouts_bsa_presenter_sync_v1`). Opening the 2nd window automatically closes the in-stage right-hand dock so your main screen shows only the centered 16:9 slide.
-- **🖥️ Centered Present Fullscreen (`🖥️ Present Fullscreen` or press `F`) & Teleprompter Notes (`🎙️ Notes (N)`)**: Expands the 16:9 slide canvas centered on widescreen and ultrawide monitors with a floating bottom control bar (**◀ Prev**, **Next ▶**, **🎙️ Notes (N)**, **✕ Exit Fullscreen**). Clicking **`🎙️ Notes (N)`** (or pressing **`N`**) slides up a semi-transparent bottom teleprompter drawer displaying your **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** script right inside Fullscreen mode, or press **`P`** in Fullscreen for the centered side-by-side Presenter Console.
-- **🖥️ Unified `[🖥️ Present | ▾]` Split-Button & Collapsible Live Classroom Timer (`Option TP1`)**: On the right side of the stage toolbar (replacing the standalone Presenter View toolbar button to save horizontal space on laptop displays), clicking the main **`🖥️ Present`** button launches **Centered Fullscreen Mode (`F`)** immediately, while clicking the **`▾`** caret (`#btn-stage-present-caret`) opens the **Presentation, Session Timer & Classroom Engagement Popover (`#stage-present-dropdown-menu`)** containing:
-  - **Presentation Modes**: `🖥️ Present Fullscreen (F)`, `🪟 Split-Screen Presenter View (P)`, and `↗ Pop-Out Presenter (2nd Window)`.
-  - **Classroom Session Timer (`#session-timer-cluster`)**: Preset selector (`45m Troop`, `30m Fast`, `60m Camp`, `90m Midway`, `10m Drill`), digital readout (`45:00`), `▶` Start/Pause, and `↺` Reset. While the timer is idle at its default preset, it stays tucked inside the `▾` menu so the stage toolbar remains uncluttered; the moment you start the countdown (or pause it mid-session), a **Live Countdown Pill (`⏱️ 44:59 ⏸`, `#stage-live-timer-badge`)** appears automatically on the stage toolbar next to `🖥️ Present` (turning amber at 5 minutes remaining and crimson at 1 minute remaining, and clicking it pauses/resumes in 1 click).
-  - **Live Patrol Engagement**: Quick toggles for **`🎯 Quiz Reveal Mode`** and the **`🏆 Patrol Scoreboard`**.
-- **❓ Interactive Quiz Reveal Mode (`Q`), `Space` Bar Reveal & Externalized 🏆 Patrol Scoreboard**: On Socratic Checkpoint & Scenario slides (or whenever **Hide Quiz Answers (Scout Mode)** is checked), pressing the **`Space`** bar (or clicking a masked quiz card or the **`👁️ Reveal Answer & Coaching Tip (Space)`** button) reveals the counselor answer key and coaching tip on the spot. The interactive **🏆 Patrol Scoreboard** (`🦅 Eagle`, `🦊 Fox`, `🐺 Wolf`, `🐻 Bear` with `+1` / `-1` / `↺ Reset` buttons) renders in a dedicated bar above the 16:9 slide stage so it never crowds or overlaps slide content.
-- **`?` Keyboard Shortcuts Cheat-Sheet Modal**: Click **`?`** in the top bar (or press `?` on your keyboard) to view all stage and image shortcuts:
+- **🪟 Split-Screen Presenter View (`P`), Draggable `🪟 Float` Mode & `↗ 2nd Monitor` Window**: Selecting **🪟 Split-Screen Presenter View** from the **`[🖥️ Present | ▾]`** menu, or pressing **`P`**, opens the **Presenter Console** directly to the right of the 16:9 slide stage:
+  - **Full-Size Slide Stage**: When opened in normal preview mode, the Workbench automatically folds away the left setup sidebar and slide outline so your 16:9 slide stays large and easy to read while the Presenter Console sits to its right. Exiting Presenter View restores your sidebars automatically.
+  - **Window Controls & Up Next Preview**:
+    * **Top Header Bar**: Shows the gold **PRESENTER VIEW** badge and clickable **MM:SS** session timer on the left, and **🪟 Float** (which switches to **📌 Dock** when floating so you can drag the console anywhere on screen), **↗ 2nd Monitor**, and the red **`✕`** close button on the right.
+    * **Up Next Card**: Shows the upcoming slide number, full title, and a **⏱ ~2 min** pacing estimate.
+    * **Navigation & Font Size Row**: Places **◀ Prev Slide**, **Next Slide ▶**, and the **A−** / **A+** teleprompter font-size buttons on a dedicated bar right above your speaking notes.
+  - **3 Color-Coded Speaking Cards**: Displays **`🗣️ [SAY]`** in a blue card, **`🛠️ [DEMONSTRATE]`** in an amber card, and **`❓ [ASK SCOUTS]`** (with its **✓ Expected Answer:** key) in a green card, complete with bold emphasis and highlighted `🎬 [Stage Cues]`.
+- **↗ 2nd Monitor Speaker Window**: Teaching with a projector or dual display? Click **↗ 2nd Monitor** inside the Presenter Console header, or choose **↗ Pop-Out Presenter (2nd Window)** inside the **`[🖥️ Present | ▾]`** menu, to open a synchronized speaker window that you can drag onto your laptop screen while the projector shows only the 16:9 slide.
+- **🖥️ Present Fullscreen (`F`) & Slide-Up Notes Drawer (`N`)**: Clicking **`🖥️ Present`** in the stage toolbar, or pressing **`F`**, expands the 16:9 slide stage to fill your screen with a floating bottom control bar (**◀ Prev**, **Next ▶**, **🎙️ Notes (N)**, **✕ Exit Fullscreen**). Clicking **🎙️ Notes (N)** or pressing **`N`** slides up a bottom teleprompter drawer inside Fullscreen mode, or you can press **`P`** in Fullscreen for the side-by-side Presenter Console. Exiting Fullscreen returns to the normal stage with the toolbar button kept cleanly labeled **🖥️ Present**.
+- **⏱️ Classroom Session Timer**: Click the **`▾`** arrow on **`[🖥️ Present | ▾]`** to access the **Classroom Session Timer**. Pick a preset (*45m Troop*, *30m Fast*, *60m Camp*, *90m Midway*, or *10m Drill*) and click **`▶`** to start. While the timer is idle, it stays tucked inside the menu; as soon as it is running or paused mid-session, a live countdown pill (**`⏱️ 44:59 ⏸`**) appears on the stage toolbar next to **🖥️ Present**, turning amber at 5 minutes remaining and red at 1 minute remaining.
+- **❓ Quiz Reveal Mode (`Q`), `Space` Bar Reveal & 🏆 Patrol Scoreboard**: On Socratic Checkpoint and Scenario slides, or whenever **Quiz Answer Masking** is turned on, pressing the **`Space`** bar or clicking a masked quiz card reveals the answer key and coaching tip on the spot. When you turn on the **🏆 Patrol Scoreboard** (**Eagle**, **Fox**, **Wolf**, **Raven** with **`+`** / **`−`** and **↺ Reset** buttons), it appears in a dedicated bar cleanly above the 16:9 slide stage so it never covers slide text or graphics.
+- **⌨️ Keys Cheat-Sheet**: Click **⌨️ Keys** in the top bar, or press **`?`** on your keyboard, to view all keyboard shortcuts:
 
 | Key | Action |
 | :--- | :--- |
 | **`←` / `→`** | Previous / Next slide |
-| **`Space`** | Reveal / hide quiz answer on Socratic Checkpoint slides (or when Scout Quiz Mode is active) |
-| **`[` / `]`** | Cycle previous / next image choice in the Easy Slide Image Switcher |
-| **`F`** | Toggle Centered Fullscreen classroom projector mode |
+| **`Space`** | Reveal or hide the quiz answer on Socratic Checkpoint slides |
+| **`[` / `]`** | Cycle previous or next image choice in the Easy Slide Image Switcher |
+| **`F`** | Toggle Fullscreen classroom projector mode |
 | **`N`** | Toggle Fullscreen Teleprompter Notes Drawer (`[SAY]` / `[DEMO]` / `[ASK]`) |
-| **`P`** | Toggle Centered Split-Screen Presenter View (in Preview or Fullscreen) + `↗ 2nd Monitor` |
-| **`Q`** | Toggle Quiz Answer Hide/Reveal mode (`Scout Mode`) |
-| **`D`** | Open / close the In-App Markdown Documentation Viewer (`📘 User Guide`, `🛡️ Admin Guide`, & `⚙️ Engineering Docs (10)` across `12` docs) |
-| **`?`** | Open Keyboard Shortcuts Cheat-Sheet modal |
-| **`Esc`** | Close active popover, modal, or Fullscreen view |
+| **`P`** | Toggle Split-Screen Presenter View |
+| **`Q`** | Toggle Quiz Answer Masking mode |
+| **`D`** | Open or close the In-App Documentation Viewer |
+| **`?`** | Open Keyboard Shortcuts Cheat-Sheet |
+| **`Esc`** | Close active menu, popup window, or Fullscreen view |
 
 ---
 
@@ -248,9 +244,9 @@ Directly below the 16:9 slide stage sits the **3-Tab Under-Stage Drawer**, which
 ```mermaid
 flowchart TD
     Drawer["Under-Stage Drawer<br/>(Directly Below the 16:9 Slide Stage)"] --> Tab1["🎙️ Tab 1: Counselor Teaching Notes<br/>([SAY], [DEMONSTRATE], [ASK SCOUTS])"]
-    Drawer --> Tab2["🎨 Tab 2: Customize Slide & Image Studio<br/>(10 SVG Layout Cards, Theme, Palette & Graphic)"]
+    Drawer --> Tab2["🎨 Tab 2: Customize Slide & Image Studio<br/>(Slide Layout, Point Style, Palette & Graphic)"]
     Drawer --> Tab3["✏️ Tab 3: Quick Edit Slide Text<br/>(Edit Title, Caption, Cards & Notes in Place)"]
-    Tab2 --> Modal["🖼️ Manage & Add Slide Images Button<br/>(Opens 4-Tab Popup Image Studio)"]
+    Tab2 --> Modal["🖼️ Open 4-Tab Image Studio<br/>(Catalog / Web / AI / Upload)"]
     Modal --> M1["🗂️ 1. Badge Image Catalog & Carousel"]
     Modal --> M2["🌐 2. Web Image Search Agent"]
     Modal --> M3["🍌 3. Nano Banana AI Image Generator"]
@@ -259,41 +255,43 @@ flowchart TD
 
 ![Under-Stage Co-Design Bar, Popup Image Studio & Quick Text Editor](images/codesign-and-image-studio.png)
 
-### Drawer Tab 1: `🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])` & FinOps Cost Gate
+### Drawer Tab 1: `🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])` & AI Polish
 
 ![Under-Stage Counselor Teaching Notes and FinOps AI Polish Cost Gate Modal](images/ug-teaching-notes-and-ai-polish-modal.png)
 
-Displays your ready-to-speak **EDGE Method** script for the current slide, compiled on the fly (`<5ms` per deck) directly from the slide's teaching cards, official requirement text, and active visual caption:
-- **`[SAY]`**: A conversational first-person speaking script that teaches the actual material on the slide and includes highlighted inline stage directions (`🎬 [Point to Card 1: ...]`, `🎬 [Gesture to the right-hand figure: ...]`, `🎬 [Pause for hands]`).
-- **`[DEMONSTRATE]`**: Included selectively when the slide calls for a hands-on skill demonstration, gear inspection, worked-example walkthrough, or diagram trace.
-- **`[ASK SCOUTS]`**: A specific patrol or field check question followed by a highlighted **`✓ Expected Answer:`** key so you have the exact BSA pamphlet answer in front of you.
-- **`✨ AI Polish Slide`, `✨ Polish Entire Deck` & FinOps Cost Transparency Gate Modal (`#ai-polish-finops-modal`)**:
-  - Clicking **`✨ AI Polish Slide`** (`POST /api/v1/slide/polish-notes`) or **`✨ Polish Entire Deck`** (`POST /api/v1/slide/polish-notes-batch`) opens the **FinOps Cost Transparency Gate Modal** (`POST /api/v1/slide/estimate-polish-cost`) comparing two side-by-side options:
-    1. **Option 1: Current Slide Only (`~$0.0008` on `gemini-2.5-flash`)** displayed in a soft lavender card (`#FAF5FF`).
-    2. **Option 2: Entire Deck (`~$0.068` for an 82-slide deck)** displayed in a warm amber card (`#FFFBEB`).
-  - **Session Controls & Cache Bypass**: Check **`Force fresh Gemini Flash generation even for slides already cached in SQLite`** if you want to bypass cached scripts (`$0.00` cache hits), or check **`Don't show this FinOps cost popup again during this browser session`** (`sessionStorage`) for 1-click polishing during the rest of your session.
-  - **Single-Row Action Pills, Live `[1/82]` Progress & `↺ Restore Default`**: Click **`✨ Polish This Slide (~$0.0008)`** or **`✨ Polish All 82 Slides (~$0.068)`** to generate warm, teacher-style coaching scripts with rendered **`**bold**`** emphasis (and live **`⏳ Polishing [1/82]...`** batch progress). Polished slides display an **`✨ AI-Polished (Gemini 2.5 Flash)`** provenance badge, sync into your downloadable `.pptx` file, and include a **`↺ Restore Default`** button alongside **`📋 Copy Script`**. Whenever you switch a slide's image or edit its cards, the teaching script updates automatically to match.
+Displays your ready-to-speak **EDGE Method** script for the current slide, built directly from the slide's teaching points, official requirement text, and active visual caption:
+- **`[SAY]`**: A conversational first-person speaking script that teaches the material on the slide and includes highlighted stage cues such as `🎬 [Point to Card 1: ...]`, `🎬 [Gesture to the right-hand figure: ...]`, and `🎬 [Pause for questions]`.
+- **`[DEMONSTRATE]`**: Included when the slide calls for a hands-on skill demonstration, gear inspection, worked-example walkthrough, or diagram trace.
+- **`[ASK SCOUTS]`**: A patrol check question followed by a highlighted **✓ Expected Answer:** key so you have the exact BSA pamphlet answer in front of you.
+- **✨ AI Polish Slide & ✨ Polish Entire Deck**:
+  - Clicking **✨ AI Polish Slide** or **✨ Polish Entire Deck** opens a cost preview window comparing two side-by-side options:
+    1. **Option 1 • Current Slide Only (`~$0.0008`, or `$0.0000` if already cached)**
+    2. **Option 2 • Entire Deck (`~$0.068` for an uncached 83-slide deck, or only the uncached slides)**
+  - **Session Controls**: Check **Force fresh Gemini Flash generation** if you want to re-polish slides that were already cached, or check **Don't show this FinOps cost popup again during this browser session** for one-click polishing during the rest of your session.
+  - **Live Progress & Restore Default**: Click **✨ Polish This Slide** or **✨ Polish All Slides** to generate warm, natural coaching scripts with bold key phrases and a live progress counter. Polished slides display an **✨ AI-Polished** badge, sync into your downloadable `.pptx` file, and include a **↺ Restore Default** button next to **📋 Copy Script**. Whenever you switch a slide's image or edit its text points, the teaching script updates automatically to match.
 
 ### Drawer Tab 2: `🎨 Customize Slide & Image Studio`
-Lets you change the layout, colors, or illustration on the active slide and automatically rebuilds your downloadable `.pptx` file:
+
+In **🎨 Slide Layout, Point Style & Palette (Auto-Applies on Selection)**, any change you make updates the live slide stage immediately and rebuilds your downloadable `.pptx` file in the background:
 
 | Control | Options Available | What It Does |
 | :--- | :--- | :--- |
-| **1. Slide Layout (10 Clickable SVG Mini-Wireframe Cards)** | • *Split + Visual* (`SPLIT_VISUAL_EXPLAINER`)<br/>• *2x2 Step Grid* (`PROCESS_STEP_GRID`)<br/>• *2-Col Compare* (`TWO_COLUMN_COMPARISON`)<br/>• *Checklist (`[✓]`)* (`SAFETY_CHECKLIST_GRID`)<br/>• *3-Col Triage* (`REQUIREMENT_TRIAGE_MATRIX`)<br/>• *Worked Example* (`WORKED_EXAMPLE_CARD`)<br/>• *Patrol Quiz* (`SOCRATIC_CHECKPOINT`)<br/>• *Full-Width Text* (`CONCEPT_TEXT_SLIDE`)<br/>• *Large Diagram* (`FULL_BLEED_IMAGE_EXPLAINER`)<br/>• *Req Intro* (`REQUIREMENT_INTRO_BANNER`) | Click any visual mini-wireframe card (or select from the dropdown) to rearrange how the teaching cards and right-side visual are positioned on the current slide. |
-| **2. Card Style & Per-Slide Container Override** | • **Container Style (This Slide)**: *Use Deck Default*, *Clean & Borderless (`CLEAN_OPEN`)*, *Left-Accent Line (`LEFT_ACCENT_LINE`)*, *Boxed Cards (`BOXED_CARDS`)*<br/>• **Card Style**: *Numbered Step Badges (01, 02, 03)*, *Bento Accent Cards (Top Color Bar ◆)*, *Editorial Callout Cards (Warm Gold ❝)*, *High-Contrast Dark Slate Cards (★)*, *Timeline Sequence Cards (STEP 1 ➔)*, *Safety Warning Highlight (Crimson ⚠️)* | Overrides the container style for just the active slide (or uses the deck-wide `DeckStyleConfig`), and changes the visual style, sequential step badges (`01..04`, shown only on procedural step slides), and accent borders of the teaching points. In `FRAMELESS_CLEAN` image mode, interactive zoom and image-switcher pills stay hidden until you hover over the visual. |
-| **3. Brand Palette** | • *Scouts Navy & Eagle Gold*<br/>• *Outdoor Olive & Forest Green*<br/>• *Eagle Crimson & Navy*<br/>• *Executive Slate & Action Blue* | Updates the color scheme of the header bar and card borders on the active slide. |
-| **4. Right-Side Graphic** | • *Keep Current Slide Graphic*<br/>• *Restore Original Slide Graphic*<br/>• *🍌 Nano Banana Hero Graphic (or EDGE Concept Map)*<br/>• *None (Remove Graphic & Expand Text to Full Width)* | Controls the right-hand picture. Choosing **None** removes the picture and expands your teaching cards across the full width of the slide; choosing **Restore Original Slide Graphic** brings back the default diagram or pamphlet figure. |
-| **✨ Apply to Slide** | Primary action button | Applies your selected Layout, Card Style, Brand Palette, and Right-Side Graphic to the slide and updates the `.pptx` download. |
+| **Visual Layout Wireframe Row & `1. Slide Layout (Archetype)`** | • **Split Visual** (*Stacked Cards + Right Visual*)<br/>• **2x2 Steps** (*4-Step Procedure Grid*)<br/>• **2-Col Compare** (*Two-Column Comparison*)<br/>• **Checklist** (*Safety & Gear Checklist Grid*)<br/>• **Patrol Quiz** (*Interactive Socratic Quiz*)<br/>• **Full Text** (*Full-Width Concept Text, No Image*)<br/>• **Big Visual** (*Large Diagram Spotlight*)<br/>• Plus dropdown options for *3-Column Triage Matrix*, *Worked Example / Case Study*, and *Requirement Intro Banner* | Rearranges how the teaching points and visual are positioned on the current slide. Switching from **Split Visual** to **Full Text** expands your text across the slide, and switching back to **Split Visual** or **Big Visual** automatically restores the slide's illustration. |
+| **2. Point Callout & Marker Style** | • **Numbered Step Badges (01, 02, 03)**<br/>• **Accent Cards (Top Color Bar ◆)**<br/>• **Discussion Callout (Warm Gold ❝)**<br/>• **Key Takeaway Spotlight (★ Gold Star)**<br/>• **Action Sequence (STEP 1 ➔)**<br/>• **Safety Warning Highlight (Crimson ⚠️)** | Changes the callout marker prefix (`01`, `◆`, `❝`, `★`, `STEP 1 ➔`, or `⚠️ SAFETY`) and accent styling on each teaching point across **Clean**, **Line**, and **Boxed** container modes. |
+| **3. Brand Palette** | • **🎯 Match PowerPoint Template Palette**<br/>• **Scouts Navy & Eagle Gold**<br/>• **Outdoor Olive & Forest Green**<br/>• **Eagle Crimson & Navy**<br/>• **Executive Slate & Action Blue** | Updates the accent color scheme of the header bar, callout markers, and borders on the active slide. |
+| **4. Visual Mode** | • **Keep Current Slide Graphic**<br/>• **Restore Original Slide Graphic**<br/>• **🍌 Nano Banana Hero Graphic (or EDGE Concept Map)**<br/>• **None (Remove Graphic & Expand Text)** | Controls the right-hand picture. You can also click **↺ Restore Original** at the top of the panel anytime to reset the slide's graphic and layout. |
+| **5. Container Style (This Slide)** | • **Inherit Deck Style**<br/>• **📖 Clean & Borderless (No Boxes)**<br/>• **📏 Editorial Left-Accent Line**<br/>• **🗂️ Boxed Cards** | Lets you override the text point container style on just the current slide while the rest of the presentation follows your deck-wide **Deck Layout Style**. |
 
-### Using the 4-Tab Popup Image Studio (`🖼️ Manage & Add Slide Images`)
-Click **🖼️ Manage & Add Slide Images (Catalog / Web / AI)** in the upper-right corner of the **Customize Slide & Image Studio** bar to open the popup Image Studio window:
+### Using the 4-Tab Image Studio (`🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)`)
+
+Click **🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)** near the top of the **Customize Slide & Image Studio** panel to open the popup Image Studio window:
 
 1. **🗂️ 1. Badge Image Catalog & Carousel**:
-   - Shows thumbnail cards for every image saved for the current Merit Badge (including official BSA pamphlet figures, requirement hero illustrations, diagrams, web search photos, and your own uploaded pictures).
+   - Shows thumbnail cards for every image saved for the current Merit Badge, including official BSA pamphlet figures, requirement hero illustrations, diagrams, web search photos, and your own uploaded pictures.
    - Click **✅ Use on Slide** on any card to place that graphic onto your current slide.
    - Click **🗑️ Clear Web/AI Cache** in the upper right if you want to remove extra web-searched or custom AI-generated images while keeping all official pamphlet figures, default requirement hero graphics, and your own uploaded photos.
 2. **🌐 2. Web Image Search Agent**:
-   - Type a topic (such as `splint forearm`, `cumulonimbus cloud`, or `square lashing`) and click **🔎 Search Web & Commons** to search Wikimedia Commons for free educational photographs and diagrams (`$0.00` cost).
+   - Type a topic (such as `splint forearm`, `cumulonimbus cloud`, or `square lashing`) and click **🔎 Search Web & Commons** to search Wikimedia Commons for free educational photographs and diagrams at zero cost.
    - Click **Use on Slide** on any result to save it to the badge catalog and place it on the current slide.
 3. **🍌 3. Nano Banana AI Image Generator**:
    - Creates a custom illustration tailored to your slide:
@@ -305,7 +303,8 @@ Click **🖼️ Manage & Add Slide Images (Catalog / Web / AI)** in the upper-ri
    - Click **1. Select Local Image File (PNG, JPG, WEBP, GIF)** to pick a photo from your own computer (such as a photo from a troop campout or your own training prop), enter an optional title and description, and click **📁 Upload, Cache & Apply Local Image to Slide (`$0.00 USD`)**.
 
 ### Drawer Tab 3: `✏️ Quick Edit Slide Text`
-Want to tweak a slide title, reword a bullet card, or add a personal story to your speaker notes?
+
+Want to tweak a slide title, reword a teaching point, or add a personal story to your speaker notes?
 1. Click **✏️ Quick Edit Slide Text** below the slide stage.
 2. Edit any of the four boxes:
    - **Slide Title**
@@ -318,78 +317,80 @@ Want to tweak a slide title, reword a bullet card, or add a personal story to yo
 
 ## 8. Step 6: Tracking Requirements & Signing Off Blue Cards (`#34124`)
 
-Click the second main tab at the top of the screen (**Requirements & Blue Card Sign-Off**) to view how every official requirement is taught and to track Scout sign-offs during class.
+Click the second main tab at the top of the screen (**📚 2. Requirements & Blue Cards**) to view how every official requirement is taught and to track Scout sign-offs during class.
 
 ![3-Column Requirements Triage and Patrol Blue Card Sign-Off Tracker](images/ug-requirements-triage-and-blue-cards.png)
 
 ![Requirements Triage, Bulk Blue Card Roster & 4-Sub-Tab Classroom Toolkit](images/counselor-field-toolkit.png)
 
-### 3-Column Requirements Triage & Header Action Buttons
-At the top of the **Official BSA Merit Badge Pamphlet & Digital Resource Guides** card, three single-line action buttons let you jump directly to **`↓ Blue Card Tracker`**, open the **`Official BSA Pamphlet (PDF)`**, or open the **`Scouting.org Resource Guide`**. Directly below, every official requirement for the badge is sorted into one of three practical teaching columns:
-- **Discussion & Core Knowledge**: Requirements you can cover through interactive patrol discussion, visual explainers, and Socratic Q&A.
+### 3-Column Requirements Triage & Quick Links
+
+At the top of the **Official BSA Merit Badge Pamphlet & Digital Resource Guides** card, three buttons let you jump straight to **`↓ Blue Card Tracker`**, open the **Official BSA Pamphlet (PDF)**, or open the **Scouting.org Resource Guide**. Directly below, every official requirement for the badge is sorted into one of three practical teaching columns:
+- **Discussion & Core Theory**: Requirements you can cover through interactive patrol discussion, visual explainers, and Socratic Q&A.
 - **Hands-On Skill Demonstrations**: Physical skills where each Scout must *demonstrate*, *build*, *treat*, or *perform* a task at a practice station.
-- **Campout, Field & Home Projects**: Prerequisites, multi-week logs, field visits, or campout tasks that Scouts must complete outside of a regular troop classroom meeting.
+- **Field & Home Prerequisites**: Prerequisites, multi-week logs, field visits, or campout tasks that Scouts complete outside of a regular troop classroom meeting.
 
 Every requirement card lists the **exact official BSA requirement text**, the recommended **EDGE Method phase**, the **Counselor Sign-Off Criteria**, any **Youth Protection or Guide to Safe Scouting reminders**, and a **▶ Jump to Teaching Slides** button that takes you straight to that requirement's slides.
 
 ### Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker
-Below the requirement columns sits an interactive roster table saved automatically in your browser for each Merit Badge:
-1. **Add Scouts Individually, Copy From Another Saved Deck (`🔁 Copy Scouts From Deck`), Bulk Paste, or Import `.CSV`**:
-   - Type a Scout's name (for example, `Alex Carter - Eagle Patrol`) into the box and click **➕ Add Scout** (or press `Enter`).
-   - Click **`🔁 Copy Scouts From Deck`** to copy the Scout roster (names, units, and patrols with fresh unchecked requirement boxes) from any of your other saved Merit Badge deck workspaces in **`🗂️ My Decks`**.
-   - Click **📋 Bulk Paste Roster** to paste an entire patrol or class list from a spreadsheet (one Scout per line, such as `Name, Patrol / Unit`).
-   - Or click **📤 Import CSV** to upload a standard `.csv` roster exported from **Scoutbook Plus** or **TroopWebHost** (`Scout Name`, `BSA Member ID`, `Unit`, `Patrol`, and existing requirement checkmarks).
+
+Below the requirement columns sits an interactive roster table saved automatically for each Merit Badge deck:
+1. **Add Scouts Individually, Copy From Another Deck, Bulk Paste, or Import `.CSV`**:
+   - Type a Scout's name (for example, `Alex Carter - Eagle Patrol`) into the box and click **➕ Add Scout** or press `Enter`.
+   - Click **🔁 Copy Scouts From Deck** to copy the Scout roster (names, units, and patrols with fresh unchecked requirement boxes) from any of your other saved Merit Badge decks in **🗂️ My Decks**.
+   - Click **📋 Bulk Paste Roster** to paste an entire patrol or class list from a spreadsheet, one Scout per line.
+   - Or click **📤 Import CSV** to upload a standard `.csv` roster exported from **Scoutbook Plus** or **TroopWebHost**.
 2. **Check Off Completed Requirements, Bulk Sign Off Columns & Stamp Dates**:
    - As each Scout demonstrates mastery of a requirement (`1`, `2a`, `2b`, `3`, ...), check the box in their row.
    - Click any **Requirement Column Header (`1 ✓`, `2a ✓`, ...)** to toggle that requirement for the entire patrol in one click after a group demonstration.
-   - Pick a date in the **📅 Completion Date** field and click **Stamp Checked** to record the completion date across all checked cells (included automatically in your Scoutbook CSV export and printed Sign-Off Sheet).
-3. **Automatic `Partial` vs. `Complete` Blue Card Status**: The **Blue Card Status** column automatically shows `Partial (X/Y)` in amber while a Scout is still working, and switches to `Complete (Y/Y)` in green once all requirements are checked. You can also click **All ✓** in the **Quick** column to check or uncheck an entire row at once.
+   - Pick a date in the **📅 Completion Date** field and click **Stamp Checked** to record the completion date across all checked cells. That date is included automatically in your Scoutbook CSV export and printed Sign-Off Sheet.
+3. **Automatic `Partial` vs. `Complete` Blue Card Status**: The **Blue Card Status** column shows `Partial (X/Y)` in amber while a Scout is still working, and switches to `Complete (Y/Y)` in green once all requirements are checked. You can also click **All ✓** in the **Quick** column to check or uncheck an entire row at once.
 4. **Export Scoutbook CSV, Print Patrol Sheet, or Print 3-Panel Blue Cards (`#34124`)**:
    - Click **📥 Export Scoutbook CSV** to download a `.csv` spreadsheet listing every Scout, unit, requirement status, completion date, and counselor name for easy entry into **Scoutbook Plus** or troop advancement records.
    - Click **🖨️ Print Sign-Off Sheet** to open a clean, printable **Application for Merit Badge (`#34124`) Patrol Sign-Off Record** complete with a Counselor signature and date line.
-   - Click **🪪 Print 3-Panel Blue Cards (#34124)** to generate printable 3-column tri-fold Blue Cards (*Applicant's Record*, *Application for Merit Badge*, and *Counselor's Record*) pre-populated with each Scout's name, unit, completed requirement initials/dates, and your counselor signature block.
+   - Click **🪪 Print 3-Panel Blue Cards (#34124)** to generate printable three-column tri-fold Blue Cards (*Applicant's Record*, *Application for Merit Badge*, and *Counselor's Record*) filled in with each Scout's name, unit, completed requirement initials and dates, and your counselor signature block.
 
 ---
 
-## 9. Step 7: Using the Workbook, 4-Tab Classroom Toolkit, Cue Cards & Station Rotator
+## 9. Step 7: Using the Workbook, Classroom Toolkit, Cue Cards & Station Rotator
 
-### Top Tab 3: `Scout & Counselor Workbook` (with Section Filter Pills)
+### Top Tab 3: `📘 3. Scout Workbook` (with Section Filter Pills)
 
 ![Scout and Counselor Workbook with Section Filter Pills and Print 3x5 Cue Cards](images/ug-scout-workbook-preview.png)
 
-Click **Scout & Counselor Workbook** to preview the complete printable workbook for the active Merit Badge:
-- Use the sticky **Section Filter Bar** at the top of the workbook card (**`All Sections`**, **`Checklist Table`**, **`Requirement Notes`**, and **`Instructor Guide`**) to jump straight to the section you want to review or print.
+Click **📘 3. Scout Workbook** to preview the complete printable workbook for the active Merit Badge:
+- Use the **Section Filter Bar** at the top of the workbook card (**All Sections**, **Checklist Table**, **Requirement Notes**, and **Instructor Guide**) or the search box to jump straight to the section you want to review or print.
 - Use the action buttons in the upper right of the card:
-  - **📋 Copy Text**: Copies the entire workbook to your clipboard.
-  - **🖨️ Print / Save PDF**: Opens a clean, black-and-white print view formatted for standard `8.5" x 11"` paper or **Save as PDF**.
-  - **🖨️ Print 3x5 Pocket Cue Cards**: Generates a 2x2 printable grid of `3x5` counselor index cards containing each requirement's number, verbatim summary, **`[SAY]`**, **`[DEMONSTRATE]`**, and **`[ASK SCOUTS]`** prompts so you can teach outdoors at camp without carrying a laptop.
+   - **📋 Copy Text**: Copies the entire workbook to your clipboard.
+   - **🖨️ Print / Save PDF**: Opens a clean, black-and-white print view formatted for standard `8.5" x 11"` paper or **Save as PDF**.
+   - **🖨️ Print 3x5 Pocket Cue Cards**: Generates a printable grid of `3x5` counselor index cards containing each requirement's number, verbatim summary, **`[SAY]`**, **`[DEMONSTRATE]`**, and **`[ASK SCOUTS]`** prompts so you can teach outdoors at camp without carrying a laptop.
 
-### Top Tab 4: `Lesson Plan, Gear List, Parent Letter & FinOps` (Organized into 4 Sub-Tabs)
+### Top Tab 4: `🗓️ 4. Class Prep & Letters` (Organized into 4 Sub-Tabs)
 
 ![Classroom Toolkit: Session Agenda, YPT Parent Welcome Letter and Counselor Rating](images/ug-classroom-toolkit-agenda-letter-finops.png)
 
-Click **Lesson Plan, Gear List, Parent Letter & FinOps** to access your classroom preparation toolkit, organized into four focused sub-tabs so you never have to scroll down a long page:
+Click **🗓️ 4. Class Prep & Letters** to access your classroom preparation toolkit, organized into four focused sub-tabs:
 
 | Sub-Tab | Key Controls & Options | How Counselors Use It |
 | :--- | :--- | :--- |
-| **🗓️ 1. Agenda & Station Rotations** | • **🗓️ Session Schedule Format** dropdown:<br/>  1. *3 Troop Meetings (45 min each)*<br/>  2. *Summer Camp Week (4x 50-min Mon-Thu + Fri Make-Up)*<br/>  3. *Saturday Merit Badge Midway / Clinic (3-Hour Block)*<br/>  4. *Weekend Campout Practicum (Fri Eve + Sat Field + Sun Sign-Off)*<br/>• **🔄 Patrol Skill Station Rotator Matrix** (`2`, `3`, or `4` Patrols; `15`, `20`, or `25` min/station)<br/>• **🖨️ Print 3x5 Pocket Cue Cards** button | Regroups the badge requirements into a timed, minute-by-minute teaching plan, builds a **Round-Robin Patrol Skill Station Rotation Schedule** across all `HANDS_ON_SKILL_STATION` requirements so patrols never bottleneck on the same equipment, and prints pocket cue cards. |
-| **🎒 2. Quartermaster Gear & Pre-Class Check** | • **🏕️ Class / Patrol Size** dropdown (*1 Scout*, *4 Scouts*, *8 Scouts*, or *16 Scouts*)<br/>• **📋 Pre-Class Prerequisite Readiness Checklist** (`PREREQUISITE_CAMPOUT_HOME` table + **🖨️ Print Prerequisite Check Sheet**)<br/>• Interactive checkboxes, **📋 Copy Packing List**, and **🖨️ Print Checklist** | Multiplies physical prop and supply quantities based on your class size, and builds a Day-1 **Prerequisite Readiness Check Sheet** listing every home log, multi-week chart, or campout task Scouts must bring to class before receiving full Blue Card sign-off. |
-| **✉️ 3. Parent Welcome Letter (YPT)** | • **📋 Copy**, **✉️ Draft in Email App**, **📨 Compose in Gmail**, **🖨️ Print**, and **📥 .MD** | Generates a ready-to-send welcome letter for parents, guardians, and Scoutmasters listing prerequisites to finish before class, what gear to bring, local field study context, and **Scouting America Youth Protection (Two-Deep Leadership / no one-on-one digital contact)** reminders. |
-| **📊 4. Citations, FinOps & Rating** | • **`↓ Counselor Rating`** jump button in the header of **Grounded Research Citations & Local Troop References**<br/>• **FinOps Cost & Token Budget (`$1.00 Max Cap`)**<br/>• **Counselor Sign-Off & Continuous Learning Flywheel** (`1` to `5` stars + **✅ Requirement Accuracy Verified**) | Lists the official BSA pamphlet and authoritative public references (NOAA, USGS, NPS, American Red Cross), displays the estimated generation cost and cache savings, and lets you jump straight to or submit your counselor quality rating. |
+| **🗓️ 1. Agenda & Station Rotations** | • **🗓️ Session Schedule Format** dropdown:<br/>  1. *3 Troop Meetings (45 min each)*<br/>  2. *Summer Camp Week (4x 50-min Mon-Thu + Fri Make-Up)*<br/>  3. *Saturday Merit Badge Midway / Clinic (3-Hour Block)*<br/>  4. *Weekend Campout Practicum (Fri Eve + Sat Field + Sun Sign-Off)*<br/>• **🔄 Patrol Skill Station Rotator Matrix** (`2`, `3`, or `4` Patrols; `15`, `20`, or `25` min per station)<br/>• **🖨️ Print 3x5 Pocket Cue Cards** button | Organizes the badge requirements into a timed, minute-by-minute teaching plan, builds a **Round-Robin Patrol Skill Station Rotation Schedule** across all hands-on skill requirements so patrols never bottleneck on the same equipment, and prints pocket cue cards. |
+| **🎒 2. Quartermaster Gear & Pre-Class Check** | • **🏕️ Class / Patrol Size** dropdown (*1 Scout*, *4 Scouts*, *8 Scouts*, or *16 Scouts*)<br/>• **📋 Pre-Class Prerequisite Readiness Checklist** with **🖨️ Print Prerequisite Check Sheet**<br/>• Interactive checkboxes, **📋 Copy Packing List**, and **🖨️ Print Checklist** | Multiplies physical prop and supply quantities based on your class size, and builds a Day-1 **Prerequisite Readiness Check Sheet** listing every home log, multi-week chart, or campout task Scouts must bring to class before receiving full Blue Card sign-off. |
+| **✉️ 3. Parent Welcome Letter (YPT)** | • **📋 Copy**, **✉️ Draft in Email App**, **📨 Compose in Gmail**, **🖨️ Print**, and **📥 .MD** | Generates a ready-to-send welcome letter for parents, guardians, and Scoutmasters listing prerequisites to finish before class, what gear to bring, local field study context, and **Scouting America Youth Protection** reminders (Two-Deep Leadership and copying a parent or guardian on all digital communication). |
+| **📊 4. Citations, FinOps & Rating** | • **`↓ Counselor Rating`** jump button in the header of **Grounded Research Citations & Local Troop References**<br/>• **FinOps Cost & Token Budget**<br/>• **Counselor Sign-Off & Continuous Learning** (`1` to `5` stars + **✅ Requirement Accuracy Verified**) | Lists the official BSA pamphlet and public references (such as NOAA, USGS, NPS, and the American Red Cross), displays the estimated generation cost and cache savings, and lets you submit your counselor quality rating. |
 
 ---
 
-## 10. Exporting Your Slide Deck to PowerPoint (`.PPTX`) or Direct Google Slides
+## 10. Exporting Your Slide Deck to PowerPoint or Google Slides
 
-In the Top Application Bar (and inside **`📥 Export & Print ▾`**), the Workbench provides a **Sticky Export Split-Button** (`scouts_bsa_preferred_deck_export_mode_v1` in `localStorage`) that remembers your preferred slide deck format across sessions:
-- **Mode 1: `📥 Download Slide Deck (.PPTX)` (Default)**: Downloads a widescreen (`16:9`) PowerPoint presentation named `<Badge>_<PolishMode>_<Depth>_Merit_Badge_Deck.pptx` where every title, teaching card, caption, and speaker note is a native editable text box.
-- **Mode 2: `🟨 Open in Google Slides` (Account & Destination Modal `#gslides-export-modal` + Direct Google Drive Conversion via `POST /api/v1/slide/export-gslides`)**:
-  - Clicking **`🟨 Open in Google Slides`** opens the **Account & Destination Modal (`#gslides-export-modal`)**, which queries `GET /api/v1/slide/export-gslides/account-info` and displays two cards:
-    1. **Card 1 (`1. Active Workstation Google Drive Account`)**: Displays your active workstation Google Drive account (`clayberg@google.com` in bold alongside a green `GOOGLE DRIVE CLI + ADC` or `CLOUD DRIVE ADC` badge).
-    2. **Card 2 (`2. Share / Open with Personal Gmail or Secondary Account (Optional)`)**: Lets you enter a personal `@gmail.com` or secondary Google account (`#gslides-share-email-input`) so the exported deck automatically grants Editor permissions and appends `?authuser=<email>` when opening the new tab.
-  - **Bottom Modal Actions**: Click **`🔑 Pick Google Account (OAuth)`** (`#btn-gslides-pick-google-account`) to pick a Google account via Google Identity Services OAuth (`drive.file`) or Google's Account Chooser, or click **`🟨 Create & Open in New Tab ↗`** (`#btn-gslides-create-and-open-tab`) to convert your `.pptx` into a native Google Slides presentation (`mimeType: application/vnd.google-apps.presentation`) and open `https://docs.google.com/presentation/d/<id>/edit` in a new browser tab.
-- Click the **`▾`** caret on the right edge of the split-button anytime to switch your default export action between **`.PPTX`** and **Google Slides**.
-- Also in **`📥 Export & Print ▾`**, clicking **`📱 Print 1-Page Field & QR Handout`** opens a printable 1-page pocket reference featuring **standard-compliant, phone-camera-scannable ISO/IEC 18004 QR codes** (`/api/v1/qr.svg`) that resolve directly to the official BSA Merit Badge Pamphlet PDF (`filestore.scouting.org`) and the Scouting.org Digital Resource Guide.
+In the Top Application Bar (and inside **`📥 Export & Print ▾`**), the primary export split-button remembers your preferred slide deck format across sessions:
+- **Mode 1: `📥 Download Slide Deck (.PPTX)` (Default)**: Downloads a widescreen (`16:9`) PowerPoint presentation where every title, teaching point, caption, and speaker note is a native editable text box.
+- **Mode 2: `🟨 Open in Google Slides`**:
+  - Clicking **🟨 Open in Google Slides** opens the **Open in Google Slides: Account & Destination** window displaying two options:
+    1. **1. Active Workstation Google Drive Account**: Shows your active Google Drive account, which uploads and converts your `.pptx` directly into a native Google Slides deck in **My Drive** and opens it in a new browser tab.
+    2. **2. Share / Open with Personal Gmail or Secondary Account (Optional)**: Lets you enter a personal `@gmail.com` or secondary Google account so the exported presentation automatically grants Editor access and opens under that account.
+  - **Bottom Window Actions**: Click **🔑 Pick Google Account (OAuth)** to sign in with a specific Google account, or click **🟨 Create & Open in New Tab ↗** to create and open your Google Slides deck right away.
+- Click the **`▾`** arrow on the right edge of the top-right export button anytime to switch your default action between **Download Slide Deck (.PPTX)** and **Open in Google Slides**.
+- Inside **`📥 Export & Print ▾`**, clicking **📱 Print 1-Page Field & QR Handout** opens a printable one-page pocket reference featuring phone-scannable QR codes that open the official BSA Merit Badge Pamphlet PDF and the Scouting.org Digital Resource Guide.
 
 ![Direct Google Slides Export Modal and In-App Documentation Studio](images/ug-gslides-export-and-docs-studio.png)
 
@@ -397,38 +398,38 @@ In the Top Application Bar (and inside **`📥 Export & Print ▾`**), the Workb
 1. Double-click the downloaded `.pptx` file on your laptop.
 2. Switch to **Presenter View** during class so your Scouts see the 16:9 visual slides on the projector while you read the **`[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]`** teaching script on your laptop screen.
 
-### Importing into Google Slides for Google Drive Sharing
+### Importing Manually into Google Slides
 1. Open [Google Slides](https://slides.google.com) or your troop's shared Google Drive folder.
 2. Click **File -> Import slides** (or **File -> Open -> Upload**) and drag in your downloaded `.pptx` file.
 3. Click **View -> Show speaker notes** to see your EDGE teaching script below each slide, or click **Slideshow -> Presenter view** when teaching.
 
-### Connecting AI Assistants via the Built-In MCP Server (`🤖 MCP Hub`)
+### Connecting AI Assistants via the Built-In MCP Hub (`🤖 MCP Hub`)
 
-Click **`🤖 MCP Hub`** in the Top Application Bar to open the **MCP Server & Agent Hub Modal**:
+Click **`🤖 MCP Hub`** in the Top Application Bar if you use AI desktop tools such as **Claude Desktop**, **Gemini CLI**, or **Cursor** and want them to work directly with your Merit Badge decks:
 
 ![MCP Server & Agent Hub](images/ug_mcp_hub_light.png)
 
 ![MCP Hub Dark Mode](images/ug_mcp_hub_dark.png)
 
-- **1-Click Client Configs**: Copy ready-to-use configuration snippets for **Claude Desktop**, **Gemini CLI / AGY**, **Cursor**, or **Google ADK `MCPToolset`** using either local `stdio` (`python -m src.mcp_server` / `scouts-bsa-mcp`) or HTTP (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`).
-- **12 MCP Tools, 6 `bsa://` Resources & 4 Guided Prompts**: External AI agents can search badges, query official pamphlets via Hybrid BM25 + Vector RRF, build slide decks with any of the 17 PowerPoint templates across 7 Style Families (`BSA Scouting America` default), modern visual themes (`WARM_CREAM`, `CRISP_WHITE`, `DARK_SLATE`), and `DeckStyleConfig` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`), switch slide visuals, manage Patrol Blue Card (`#34124`) rosters, and run `<10ms` Stage-1 AABB geometry and Stage-2 visual quality conformance audits. In Section 2 of the modal, every `bsa://` resource card includes **`▶ Read Live`** and **`📋 Copy URI`** buttons, and every guided prompt card includes **`▶ Execute Prompt`** and **`📋 Copy Prompt`** buttons (guided prompts also appear as `/` slash commands in Claude Desktop, Gemini CLI / AGY, and Cursor).
-- **Full-Height Interactive MCP Playground (`[📊 Visual Card Preview | { } Raw JSON-RPC 2.0]`)**: Section 3 of the modal lets you execute all **22 MCP capabilities** (**12 Tools**, **6 `bsa://` Resources**, and **4 Guided Prompts**) live in your browser and toggle between human-friendly **Visual Card Previews** and **Raw JSON-RPC 2.0** envelopes with a live RPC latency/status pill. For full protocol details, read the **[MCP Server Integration Guide (`docs/MCP_SERVER_INTEGRATION_GUIDE.md`)](MCP_SERVER_INTEGRATION_GUIDE.md)**.
+- **One-Click Setup Snippets**: Copy ready-to-use connection settings for **Claude Desktop**, **Gemini CLI**, **Cursor**, or **Google ADK**.
+- **Built-In Actions & Guided Prompts**: Connected AI assistants can search all 144 Merit Badges, look up official requirement text, build slide decks with any of the 17 PowerPoint templates and layout styles, switch slide visuals, and help manage Patrol Blue Card (`#34124`) rosters.
+- **Interactive Playground**: You can also test any of the built-in tools, resources, and guided prompts right inside the modal's visual preview cards. For technical setup details, see the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**.
 
 ---
 
 ## 11. Frequently Asked Questions for Counselors
 
 ### Can I use the Workbench at summer camp where Wi-Fi is spotty or unavailable?
-Yes. All 144 Merit Badge requirement outlines and all **3,917 built-in curated visual assets** (**2,323 100%-Vision-verified BSA Pamphlet figures** [`1,009` primary active + `1,314` requirement alternates], **1,306 pre-generated Nano Banana requirement hero & topic illustrations**, **144 badge emblems**, and **144 pamphlet covers**) are stored locally when running on your laptop (`1.5 to 3.5s` offline build speed). Any Merit Badge decks, pamphlets, or extra images you generate before camp stay saved on your machine for instant offline use.
+Yes. All 144 Merit Badge requirement outlines and all **3,917 built-in visual assets** (including **2,323 official BSA Pamphlet figures**, **1,306 requirement hero and topic illustrations**, **144 badge emblems**, and **144 pamphlet covers**) are stored locally when running on your laptop. Any Merit Badge decks, workbooks, or extra images you generate before camp stay saved on your computer for offline use.
 
-### How do I remove an image from a slide if I just want larger text cards?
-Select the slide in **Slide Deck Preview**, click the second tab below the slide (**🎨 Customize Slide & Image Studio**), change **4. Right-Side Graphic** to **None (Remove Graphic & Expand Text to Full Width)**, and click **✨ Apply to Slide**. The picture is removed and the text cards expand across the full width of the slide.
+### How do I remove an image from a slide if I just want full-width text?
+Select the slide in **📊 1. Slides & Notes**, click the second tab below the slide (**🎨 Customize Slide & Image Studio**), and click the **Full Text** wireframe button (or set **4. Visual Mode** to **None**). The picture is removed and your teaching points expand across the full width of the slide.
 
 ### How do I switch a slide back to its original diagram or pamphlet illustration?
-In **🎨 Customize Slide & Image Studio**, set **4. Right-Side Graphic** to **Restore Original Slide Graphic** and click **✨ Apply to Slide**.
+In **🎨 Customize Slide & Image Studio**, click the **Split Visual** or **Big Visual** wireframe button (or click **↺ Restore Original** at the top of the panel). The slide's original pamphlet figure or illustration is restored automatically.
 
 ### How do I add my own troop photos to a slide?
-Click **🎨 Customize Slide & Image Studio** below the slide stage, click **🖼️ Manage & Add Slide Images (Catalog / Web / AI)** in the upper-right corner, select the fourth tab (**📁 4. File Upload**), pick any `.png`, `.jpg`, `.webp`, or `.gif` photo from your computer, and click **📁 Upload, Cache & Apply Local Image to Slide (`$0.00 USD`)**.
+Click **🎨 Customize Slide & Image Studio** below the slide stage, click **🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)**, select the fourth tab (**📁 4. File Upload**), pick any `.png`, `.jpg`, `.webp`, or `.gif` photo from your computer, and click **📁 Upload, Cache & Apply Local Image to Slide (`$0.00 USD`)**.
 
 ### Is my contact information kept private?
-Yes. Your Counselor Name, Troop, Location/ZIP, Email, and Phone are saved locally in your browser (and in a private local cache file when running on your own laptop) so you don't have to retype them. They are placed directly onto your Cover Slide, Parent Welcome Letter, and Blue Card Sign-Off Sheet, and are never shared with outside services or telemetry logs.
+Yes. Your Counselor Name, Troop, Location or ZIP code, Email, and Phone are saved locally in your browser and on your own computer so you do not have to retype them. They are placed only onto your Cover Slide, Parent Welcome Letter, and Blue Card Sign-Off Sheet, and are never shared with outside services or usage logs.
