@@ -989,7 +989,7 @@ If a panelist interrupts with a question while a specific slide is on screen, us
   2. **Beautified Tier (`~$0.18 / deck` actual cold LLM spend vs. `$0.38` uncached shadow ceiling, `$0.02` warm cached rerun)**: Adds warm cream editorial styling plus up to 5 Nano Banana Hero Illustrations. Because we pre-bundled **all 1,306 Nano Banana illustrations and 2,323 pamphlet figures** across all 144 badges in the repository, runtime image attachment costs **`$0.00`**, so actual cold spend on Vertex AI is only **`~$0.18`** (the `$0.38` figure is our uncached shadow-ledger ceiling if all 5 hero images had to be synthesized cold from scratch).
   3. **Studio Tier (`<= $1.00` hard cap)**: Adds dark executive slate styling and up to 15 custom hero illustrations, governed by `FinOpsBudgetPlugin(max_budget_usd=1.00)`. If a 65-slide badge like *Emergency Preparedness* would exceed `$1.00`, the plugin caps custom visual generation at 15 or steps down to `BEAUTIFIED`.
   4. **On-Demand Nano Banana Slide Image (`$0.08 / image`)**: Combines `~2,580` tokens across prompt construction, `gemini-2.5-flash-image` / Imagen 3 synthesis (`~$0.06`), and multimodal Vision prompt alignment verification (`verify_generated_image_matches_prompt()`, `~$0.02`). Once generated, the image is cached in `badge_image_catalog` by SHA-256 hash so reusing it across slides or future decks costs **`$0.00`**."
-- **Code & Doc Citations**: `src/agents/guardrails.py` (`estimate_workflow_finops_cost`, `FinOpsBudgetPlugin`), `config/finops_model_policy.json`, `docs/finops-billing-and-deployment-guide.md`.
+- **Code & Doc Citations**: `src/agents/guardrails.py` (`estimate_workflow_finops_cost`, `FinOpsBudgetPlugin`), `config/finops_model_policy.json`, `docs/FINOPS_AND_TCO.md`.
 
 #### **Q33. How did you arrive at the `~$192.50 / month` actual (`$0.13 / deck`) vs. `$282.50 / month` ceiling (`$0.19 / deck`) Total Cost of Ownership (TCO) for a 500-counselor Scouting Council on Slide 9?**
 - **Associated Slides**: **Slide 9** (Card 3: 500-Counselor Council TCO)
@@ -1003,17 +1003,17 @@ If a panelist interrupts with a question while a specific slide is on screen, us
     - **Total Monthly Actual Council TCO**: `$81.00 + $31.50 + $80.00` = **`$192.50 / month` (`~$0.13 / deck`)**.
   - **Uncached Shadow-Ledger Ceiling**: Even if 450 cold builds paid the full `$0.38` uncached shadow ceiling (`450 × $0.38 = $171.00`), total monthly TCO is capped at **`$282.50 / month` (`~$0.19 / deck`)**.
   - Compared to buying 500 commercial `$25-$30/month` AI presentation SaaS seats (`$12,500-$15,000 / month`), our architecture delivers a **98% cost reduction**."
-- **Code & Doc Citations**: `docs/finops-billing-and-deployment-guide.md` (§5 Council-Scale TCO Model), Slide 9 of Executive Readout Deck.
+- **Code & Doc Citations**: `docs/FINOPS_AND_TCO.md` (§5 Council-Scale TCO Model), Slide 9 of Executive Readout Deck.
 
 #### **Q34. How are token and image costs paid right now during development versus if a volunteer downloads the app locally or a council deploys it on Cloud Run?**
 - **Associated Slides**: **Slide 1** (Executive Summary), **Slide 9** (FinOps), **Slide 12** (Rollout)
 - **Rubric Mapping**: **5.3 (AI Cost Management)** & **2.7 (Operational Documentation)**
 - **Golden Answer**:
-  "We documented all three billing modes in `docs/finops-billing-and-deployment-guide.md`:
+  "We documented all three billing modes in `docs/FINOPS_AND_TCO.md`:
   1. **During Current Development (Shadow-Ledger Offline Mode: `$0.00` billed)**: When `USE_LIVE_VERTEX_AI=false` or no `GEMINI_API_KEY` is set, the app runs in our **Deterministic Curriculum & Local Vector Engine** at **`$0.00` real API cost**. The FinOps table displays a transparent *Shadow-Ledger Estimate* showing what the exact token count (`~28k-36k` tokens) would cost on Vertex AI (`$0.14 / $0.18 actual / $0.38 ceiling`). When live keys are enabled on our GCP project, charges bill to our Cloud billing account via ADC.
   2. **When a Future Volunteer Downloads & Runs Locally**: The volunteer has three options: (a) run **free (`$0.00`)** in Offline Deterministic mode using the bundled 144-badge catalog (`3,917` visuals), Wikimedia search, and local file uploads; (b) paste a personal **Google AI Studio API Key** (`GEMINI_API_KEY` in `.env`) using Google's free tier; or (c) attach a personal pay-as-you-go GCP billing account (`~$0.18` per cold deck).
   3. **When Deployed in a Council GCP Project on Cloud Run**: Individual counselors never manage API keys or pay out of pocket. The Cloud Run container runs as `scouts-bsa-agent-sa` using **Application Default Credentials (ADC)** and pulls `BSA_API_KEY` from **Secret Manager**, billing all Vertex AI calls centrally to the hosting Scouting Council's GCP Billing Account (`~$192.50/mo` actual) under GCP Budget Alerts (`50%`, `80%`, `100%`)."
-- **Code & Doc Citations**: `docs/finops-billing-and-deployment-guide.md`, `src/config.py`, `terraform/main.tf`.
+- **Code & Doc Citations**: `docs/FINOPS_AND_TCO.md`, `src/config.py`, `terraform/main.tf`.
 
 #### **Q35. Does the app ever encounter an error due to a cost or quota being denied, and what happens when it does?**
 - **Associated Slides**: **Slide 7** (`$0.08` Image Studio Gate), **Slide 9** (`FinOpsBudgetPlugin`), **Slide 11** (Circuit Breaker)
@@ -1063,11 +1063,11 @@ If a panelist interrupts with a question while a specific slide is on screen, us
 - **Rubric Mapping**: **2.7 (Operational Documentation)** & **4.4 (Graceful Degradation)**
 - **Golden Answer**:
   "First, the incident is non-disruptive to counselors because `CircuitBreaker` (`src/resilience.py`) automatically trips `OPEN` after 3 consecutive `429`s and routes requests to `gemini-2.5-flash` or our deterministic fallback engine (`0` user-facing HTTP 500s).
-  Second, our operational runbook (`docs/runbook.md` §3) gives the on-call engineer three immediate mitigation actions:
+  Second, our operational runbook (`docs/RUNBOOK.md` §3) gives the on-call engineer three immediate mitigation actions:
   1. **Inspect Live Breaker & Quota Telemetry**: Open Tab 2 of the Super-User Admin Console (`Ctrl+Shift+A`) or query `/readiness` and filter Cloud Logging for `severity>=WARNING AND jsonPayload.circuit_breaker_state=\"OPEN\"`.
   2. **Shift Default Model Tier or Freeze On-Demand Image Generation**: Update `config/finops_model_policy.json` (or set `DEFAULT_BEAUTIFICATION_TIER=STANDARD` / `MAX_BUDGET_USD=0.20` via `gcloud run services update`) to shed `gemini-2.5-pro` and Imagen quota load immediately.
   3. **Route Across Secondary Vertex AI Regions**: Point `GOOGLE_CLOUD_LOCATION` from `us-central1` to `us-east5` or `global` and click **Reset Breakers** in the Admin Console."
-- **Code & Doc Citations**: `docs/runbook.md`, `src/resilience.py`, `src/server.py` (`/readiness`, `/api/admin/circuit-breakers/reset`).
+- **Code & Doc Citations**: `docs/RUNBOOK.md`, `src/resilience.py`, `src/server.py` (`/readiness`, `/api/admin/circuit-breakers/reset`).
 
 #### **Q40. How do you manage Terraform state locking and environment parity between `dev`, `staging`, and `prod`?**
 - **Associated Slides**: **Slide 12** (Col 3: Cloud Run + Terraform + Canary CI/CD)
@@ -1080,7 +1080,7 @@ If a panelist interrupts with a question while a specific slide is on screen, us
 - **Associated Slides**: **Slide 9** (Deliberate 3-Model Routing), **Slide 10** (Eval Gate), **Slide 12** (Canary CI/CD)
 - **Rubric Mapping**: **6.3 (AI Lifecycle Management)**
 - **Golden Answer**:
-  "Because zero agent files hardcode model IDs, our model cutover runbook (`docs/runbook.md` & `config/finops_model_policy.json`) is a 4-step zero-code process:
+  "Because zero agent files hardcode model IDs, our model cutover runbook (`docs/RUNBOOK.md` & `config/finops_model_policy.json`) is a 4-step zero-code process:
   1. **Policy Update in Branch**: Update `fast_worker_model` in `config/finops_model_policy.json` from `gemini-2.5-flash` to `gemini-3.0-flash` and update the per-million token rates.
   2. **Golden Evaluation Gate (`scripts/eval_gate.py`)**: Run `python3 scripts/eval_gate.py` and `pytest` (`70` tests) against all 12 golden badges to verify that `gemini-3.0-flash` maintains `100%` sub-requirement coverage, `100%` SHA-256 lock, `0` Stage 1 AABB shape overlaps, and stays under the `$0.14 / $0.38 / $1.00` FinOps tier ceilings.
   3. **10% Canary Traffic Rollout (`cloudbuild.yaml`)**: Merge to trigger Cloud Build, which deploys the `gemini-3.0-flash` revision to Cloud Run at a `10%` canary traffic split and monitors OpenTelemetry latency, error rates, and `/readiness`.

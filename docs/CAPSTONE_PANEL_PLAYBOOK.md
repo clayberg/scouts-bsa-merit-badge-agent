@@ -8,7 +8,7 @@
 **Super-User Admin Guide**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)
 **MCP Server Integration Guide**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md)
 **Companion Study Guide**: [`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`](FDE_CAPSTONE_COMPANION_GUIDE.md)
-**FinOps & Deployment Cost Guide**: [`docs/finops-billing-and-deployment-guide.md`](finops-billing-and-deployment-guide.md)
+**FinOps & Deployment Cost Guide**: [`docs/FINOPS_AND_TCO.md`](FINOPS_AND_TCO.md)
 
 ## 1. Panel Presentation Structure & Timing (30-Minute Slot)
 

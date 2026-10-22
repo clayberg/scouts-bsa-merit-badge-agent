@@ -370,10 +370,10 @@ scouts-bsa-merit-badge-agent/
 │   ├── API_INTEGRATION_GUIDE.md          # REST (/api/v1/*), Admin (/api/v1/admin/*), SSE, and A2A 1.0 integration guide
 │   ├── MCP_SERVER_INTEGRATION_GUIDE.md   # Dual-transport MCP Server guide (12 tools, 6 bsa:// resources, 4 prompts)
 │   ├── TDD.md                            # Technical Design Document (architecture, data contracts, & ADRs)
-│   ├── finops-billing-and-deployment-guide.md # FinOps token billing, local vs. Cloud Run costs, and consent gates
+│   ├── FINOPS_AND_TCO.md                 # FinOps token billing, local vs. Cloud Run costs, Council TCO, and consent gates
 │   ├── openapi.yaml                      # Exported OpenAPI 3.1 contract (123 paths across FastAPI, Templates, DeckStyleConfig, Workspaces, MCP, Admin, Docs & A2A)
-│   ├── runbook.md                        # Operational runbook, triage playbooks, and rollback commands
-│   └── adr/README.md                     # Summary index of the 11 Architecture Decision Records (ADR-01 to ADR-11)
+│   ├── RUNBOOK.md                        # Operational runbook, triage playbooks, and rollback commands
+│   └── ADR.md                            # Summary index of the 11 Architecture Decision Records (ADR-01 to ADR-11) & Rubric A4 log
 ├── prompts/
 │   ├── manifest.json           # Versioned prompt manifest with SHA-256 hashes
 │   ├── coordinator.md          # System instructions for MeritBadgeCoordinatorAgent
@@ -469,10 +469,10 @@ scouts-bsa-merit-badge-agent/
 - **[`docs/ADMIN_GUIDE.md`](docs/ADMIN_GUIDE.md)**: Super-User Admin Console documentation covering the 144-Badge Catalog & Caption Studio, Zero-PII Usage, Honest Dual Latency, 5% Online Production Trace Audit Sampler (`OnlineProductionAuditSampler`), & Image-Swap Telemetry (`ZeroPiiTelemetryStore`), System Diagnostics, and `/api/v1/admin/*` endpoints.
 - **[`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](docs/MCP_SERVER_INTEGRATION_GUIDE.md)**: Official Scouts BSA Workbench MCP Server integration guide covering `stdio` (`python -m src.mcp_server` / `scouts-bsa-mcp`) and HTTP (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`) transports, `12` MCP Tools, `6` `bsa://` Resources, `4` Guided Prompts, and the in-app `🤖 MCP Hub` modal.
 - **[`docs/TDD.md`](docs/TDD.md)**: Full Technical Design Document covering the 7-agent pipeline, Physical GCP Cloud Run v2 topology, Pydantic v2 data contracts, security boundary, and `ADR-11` as-built reconciliation matrix.
-- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Eleven Architecture Decision Records (`ADR-01` through `ADR-11`) covering the options evaluated, quantitative benchmark matrices, as-built reconciliation, and engineering post-mortems.
-- **[`docs/finops-billing-and-deployment-guide.md`](docs/finops-billing-and-deployment-guide.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, executable 3-tier TCO modeling (`scripts/cost_model.py`), and budget/quota error handling.
+- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/ADR.md`](docs/ADR.md)**: Eleven Architecture Decision Records (`ADR-01` through `ADR-11`) covering the options evaluated, quantitative benchmark matrices, as-built reconciliation, and engineering post-mortems.
+- **[`docs/FINOPS_AND_TCO.md`](docs/FINOPS_AND_TCO.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, executable 3-tier TCO modeling (`scripts/cost_model.py`), and budget/quota error handling.
 - **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification (`123` paths) and request examples for `/api/v1/*`, `/api/v1/templates/*`, `/api/v1/preferences/deck-style*`, `/api/v1/workspaces*`, `/mcp*`, `/api/v1/admin/*`, `/api/v1/docs`, `/a2a/*`, `/health`, and `/readiness`.
-- **[`docs/runbook.md`](docs/runbook.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), Super-User Admin Console diagnostics, SQLite online backup, and Cloud Run revision rollback.
+- **[`docs/RUNBOOK.md`](docs/RUNBOOK.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), Super-User Admin Console diagnostics, SQLite online backup, and Cloud Run revision rollback.
 
 ### Environment variables (`.env`)
 
