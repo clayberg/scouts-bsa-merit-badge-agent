@@ -8,7 +8,10 @@
 **Executive Readout Deck (12 Core Slides, 0 Appendix: `<= 15` Cap)**: [`https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit`](https://docs.google.com/presentation/d/1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E/edit) (Slide Ops ID: `pres-fc3fc5e36b5b` | Local `.PPTX`: `deliverables/FDE_Capstone_Executive_Readout.pptx` | Playbook: [`docs/CAPSTONE_PANEL_PLAYBOOK.md`](CAPSTONE_PANEL_PLAYBOOK.md))  
 **Detailed User Documentation**: [`docs/USER_GUIDE.md`](USER_GUIDE.md)  
 **Super-User Admin Documentation**: [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)  
-**MCP Server Integration Guide**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md)
+**MCP Server Integration Guide**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md)  
+**FinOps, Token Billing & TCO Guide**: [`docs/FINOPS_AND_TCO.md`](FINOPS_AND_TCO.md)  
+**SRE Operational Runbook**: [`docs/RUNBOOK.md`](RUNBOOK.md)  
+**ADR Index & Deferred Sandbox Matrix**: [`docs/ADR.md`](ADR.md) (Full Spec: [`ARCHITECTURE_DECISIONS.md`](../ARCHITECTURE_DECISIONS.md))
 
 ---
 
@@ -27,7 +30,7 @@ When you submit your presentation and `.bundle` file in the web app, the platfor
 
 1. **Stage 1: Synchronous Pre-Flight Gate (`analyzer-initial-checks`)**:
    - **Slide Count & Appendix Classifier**: Inspects your Google Slides deck (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`, synced from Slide Ops `pres-fc3fc5e36b5b` and `deliverables/FDE_Capstone_Executive_Readout.pptx`) using Gemini. It enforces the **`<= 15 Core Slides`** limit. Our deck has **12 Core Slides (`Slide 1` through `Slide 12`) and 0 Appendix slides** (`12 <= 15`), so it passes Stage 1 cleanly and every slide is evaluated as a primary slide.
-   - **Git Bundle & Authorship Validator**: Runs `git bundle verify` on `scouts-bsa-merit-badge-agent.bundle`, checks commit authorship (`clayberg@google.com`), verifies the presence of an annotated tag matching `capstone-YYYYMMDD` (e.g., `capstone-20261020`), and checks the **Scoped Git Link Gate** to verify the repository belongs to `https://github.com/cloud-ai-fde/...` (or `delta-fde`).
+   - **Git Bundle & Authorship Validator**: Runs `git bundle verify` on `repo.bundle` (`10.21 MB`, also written to `scouts-bsa-merit-badge-agent.bundle` and `deliverables/repo.bundle`), checks commit authorship (`clayberg@google.com`), verifies the presence of an annotated tag matching `capstone-YYYYMMDD` (`capstone-20261022`), and checks the **Scoped Git Link Gate** to verify the repository belongs to `https://github.com/cloud-ai-fde/...` (`https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`). All **22 automated Stage 1 & Stage 2 pre-flight gates** pass via `capstone_preflight.py --repo-root . --check-claims`.
 2. **Stage 2: Asynchronous Background Artifact Analyzer (`analyzer-preseed` v3.8)**:
    - Once Stage 1 passes and you enter the emails of your **3 Panelists** and **1 Manager**, the backend triggers a Cloud Run Job (`analyzer-preseed`) powered by **Gemini 3.7 / 3.8** and the **Antigravity SDK**.
    - Over roughly **3 to 5 minutes**, it unpacks the `.bundle`, reads all source code, tests, Terraform configs, ADRs, and slides, and pre-seeds `0.0-3.0` scores (`0.5` increments), 3-5 purple evidence bullets, and suggested probing questions across all **27 Part B subcategories**.
@@ -44,17 +47,17 @@ By design, the Capstone web app enforces strict Role-Based Access Control (RBAC)
 
 We have created and installed a single automated script at `scripts/publish_and_bundle_capstone.sh` inside the repository (`/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/scripts/publish_and_bundle_capstone.sh`).
 
-### 2.1 What the Script and Submission Bundle Builder (`scripts/build_submission_bundle.py` & `scripts/repo_audit.sh`) Do
+### 2.1 What the Script and Submission Bundle Builder (`scripts/build_submission_bundle.py`, `scripts/repo_audit.sh` & `capstone_preflight.py`) Do
 1. Verifies `.gitignore` excludes `.cache/`, `*.db-wal`, `*.db-shm`, and `*.bundle` so the bundle never packs itself recursively or leaks local cache state.
-2. Optionally runs all 76 `pytest` unit, fault-injection, PowerPoint Template Studio (`17` built-in templates across `7` Style Families + `DeckStyleConfig` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`) + `📌 Save as My Default Style` / `"📌 Set as My Default"` and `"↺ Reset"` `#btn-modal-reset-default-deck-style` in SQLite `user_preferences` + `audit_deck_visual_quality`), Multi-Badge Workspaces (`9` SQLite tables), MCP Server (`22` capabilities), Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, `OnlineProductionAuditSampler` (5% trace audit sampling), Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), bidirectional SSE egress PII scrubbing (`scrub_pii_from_structure()`), `scripts/cost_model.py` 3-tier TCO calculator, and contract-drift tests (`123` OpenAPI 3.1 paths) plus the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
-3. Runs `python3 scripts/build_submission_bundle.py` and `bash scripts/repo_audit.sh` to generate `data/asset_inventory_manifest.json` (indexing all `3,917` pre-bundled visual assets across all `144` Merit Badges with SHA-256 checksums) and construct a lean, verified **`< 25 MB` (`~14.2 MB`, well below the `< 30 MB` `go/capstone-app` Stage 1 limit)** Git bundle (`scouts-bsa-merit-badge-agent.bundle` and `deliverables/scouts-bsa-merit-badge-agent-submission.bundle`) while keeping 100% of the `1.2 GB` `assets/` directory intact in the live local workspace and Argolis Cloud Run container.
+2. Optionally runs all 77 `pytest` unit, fault-injection, PowerPoint Template Studio (`17` built-in templates across `7` Style Families + `DeckStyleConfig` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`) + `📌 Save as My Default Style` / `"📌 Set as My Default"` and `"↺ Reset"` `#btn-modal-reset-default-deck-style` in SQLite `user_preferences` + `audit_deck_visual_quality`), Multi-Badge Workspaces (`9` SQLite tables), MCP Server (`22` capabilities), Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, `OnlineProductionAuditSampler` (5% trace audit sampling), Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), bidirectional SSE egress PII scrubbing (`scrub_pii_from_structure()`), `scripts/cost_model.py` 3-tier TCO calculator, Per-Badge GitHub Raw Batch Asset Hydrator (`src/tools/asset_hydrator.py`), and contract-drift tests (`124` OpenAPI 3.1 paths) plus the 12-badge `scripts/eval_gate.py` / `scripts/run_eval.py` benchmark (`--run-tests`).
+3. Runs `python3 scripts/build_submission_bundle.py`, `bash scripts/repo_audit.sh`, and `capstone_preflight.py --repo-root . --check-claims` to generate `data/asset_inventory_manifest.json` (indexing all `3,917` pre-bundled visual assets across all `144` Merit Badges with SHA-256 checksums), embed the annotated `capstone-20261022` tag, and construct a lean, verified **`10.21 MB` (`486` files, well below the `< 30 MB` `go/capstone-app` Stage 1 limit)** Git bundle (`repo.bundle`, `scouts-bsa-merit-badge-agent.bundle`, `deliverables/repo.bundle`, and `deliverables/scouts-bsa-merit-badge-agent-submission.bundle`) while keeping 100% of the `1.2 GB` `assets/` directory intact in the live local workspace and Argolis Cloud Run container (and supporting `< 1s` on-demand per-badge batch hydration via `src/tools/asset_hydrator.py` if cloned standalone).
 4. Stages and commits any latest changes on branch `main`.
 5. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)
    - `fde` -> `git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git` (`https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`)
-6. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, e.g., `capstone-20261020`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
-7. Validates `scouts-bsa-merit-badge-agent.bundle` with `git bundle verify`, `git bundle list-heads`, and `bash scripts/repo_audit.sh`.
-8. Pushes `main` and the `capstone-YYYYMMDD` tag to **both** `https://github.com/clayberg/scouts-bsa-merit-badge-agent` and `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`.
+6. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, `capstone-20261022`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
+7. Validates `repo.bundle` and `scouts-bsa-merit-badge-agent.bundle` with `git bundle verify`, `git bundle list-heads`, `bash scripts/repo_audit.sh`, and `capstone_preflight.py --repo-root . --check-claims` (`22/22 PASS`).
+8. Pushes `main` and the `capstone-20261022` tag to **both** `https://github.com/clayberg/scouts-bsa-merit-badge-agent` and `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`.
 
 ### 2.2 Full Source of `scripts/publish_and_bundle_capstone.sh`
 
@@ -188,34 +191,35 @@ git push origin "${CAPSTONE_TAG}" --force
 git push fde "${CAPSTONE_TAG}" --force
 ```
 
-### Step 5: Build & Verify the `< 25 MB` `.bundle` Archive for `go/capstone-app` (`scripts/build_submission_bundle.py` & `scripts/repo_audit.sh`)
+### Step 5: Build & Verify the `10.21 MB` (`< 30 MB`) `repo.bundle` Archive for `go/capstone-app` (`scripts/build_submission_bundle.py`, `scripts/repo_audit.sh` & `capstone_preflight.py`)
 ```bash
 # Generates data/asset_inventory_manifest.json (3,917 SHA-256 asset checksums),
-# builds the < 25 MB submission bundle (preserving 100% of assets/ on disk),
-# and runs git bundle verify + hygiene audit:
+# builds the 10.21 MB repo.bundle & scouts-bsa-merit-badge-agent.bundle (preserving 100% of assets/ on disk),
+# and runs git bundle verify + hygiene & claims-vs-code preflight audit:
 .venv/bin/python scripts/build_submission_bundle.py
 bash scripts/repo_audit.sh
+python3 ~/.gemini/config/skills/fde-capstone-coach/scripts/capstone_preflight.py --repo-root . --check-claims
 
-# Verify bundle integrity and confirm HEAD + tag are present
-git bundle verify scouts-bsa-merit-badge-agent.bundle
-git bundle list-heads scouts-bsa-merit-badge-agent.bundle
+# Verify bundle integrity and confirm HEAD + annotated tag are present
+git bundle verify repo.bundle
+git bundle list-heads repo.bundle
 ```
 
 Expected output from `git bundle verify`:
 ```text
 The bundle contains these 3 refs:
 <commit_sha> refs/heads/main
-<tag_sha> refs/tags/capstone-20261020
+<tag_sha> refs/tags/capstone-20261022
 <commit_sha> HEAD
 The bundle records a complete history.
-scouts-bsa-merit-badge-agent.bundle is okay
+repo.bundle is okay
 ```
 
 ---
 
 ## 4. Submitting to `go/capstone-app-staging` or `go/capstone-app`
 
-Once `scouts-bsa-merit-badge-agent.bundle` is built and verified:
+Once `repo.bundle` (`scouts-bsa-merit-badge-agent.bundle`) is built and verified:
 
 1. **Open the Target Portal**:
    - **Staging (for dry runs)**: [`https://goto.google.com/capstone-app-staging`](https://goto.google.com/capstone-app-staging) (`https://fde-eval-tool-stage-491561659673.us-central1.run.app`)
@@ -225,9 +229,9 @@ Once `scouts-bsa-merit-badge-agent.bundle` is built and verified:
      **FDE Capstone Executive Readout: Scouts BSA Merit Badge Counselor Workbench** (12 Core Slides, 0 Appendix; Slide Ops `pres-fc3fc5e36b5b` / `deliverables/FDE_Capstone_Executive_Readout.pptx`).
    - Verify the Stage 1 slide check turns green (**12 Core Slides, 0 Appendix <= 15 Core Slides**).
 3. **Step 2 in UI: Upload Git Bundle & Repository Details**:
-   - Upload file: `/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/scouts-bsa-merit-badge-agent.bundle` (~`25 MB`).
+   - Upload file: `/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/repo.bundle` (`10.21 MB`, or `scouts-bsa-merit-badge-agent.bundle`).
    - GitHub Repository URL: `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`
-   - Git Tag: `capstone-20261020` (or the `capstone-YYYYMMDD` tag output by `scripts/publish_and_bundle_capstone.sh`).
+   - Git Tag: `capstone-20261022` (or the `capstone-YYYYMMDD` tag output by `scripts/build_submission_bundle.py`).
    - Wait ~5-10 seconds for `analyzer-initial-checks` to confirm bundle integrity and authorship.
 4. **Step 3 in UI: Assign Panelists & Manager**:
    - Enter the `@google.com` email addresses of your **3 Panelists** and **1 Manager** (remember: you cannot list your own `clayberg@google.com` address as a panelist/manager on your own submission).

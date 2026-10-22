@@ -3923,32 +3923,64 @@ paths:
       description: Returns continuous 5% online production trace audit sampler metrics
         and recent zero-PII samples.
       operationId: api_admin_online_audit_telemetry_api_v1_admin_telemetry_online_audit_get
+      parameters:
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 25
+          title: Limit
       responses:
         '200':
           description: Successful Response
           content:
             application/json:
               schema:
-                additionalProperties: true
                 type: object
+                additionalProperties: true
                 title: Response Api Admin Online Audit Telemetry Api V1 Admin Telemetry
                   Online Audit Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /api/admin/telemetry/online-audit:
     get:
       summary: Api Admin Online Audit Telemetry
       description: Returns continuous 5% online production trace audit sampler metrics
         and recent zero-PII samples.
       operationId: api_admin_online_audit_telemetry_api_admin_telemetry_online_audit_get
+      parameters:
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 25
+          title: Limit
       responses:
         '200':
           description: Successful Response
           content:
             application/json:
               schema:
-                additionalProperties: true
                 type: object
+                additionalProperties: true
                 title: Response Api Admin Online Audit Telemetry Api Admin Telemetry
                   Online Audit Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/admin/diagnostics/assets:
     get:
       summary: Api Admin Diagnostics Assets
