@@ -135,11 +135,11 @@ This file records the eleven main engineering decisions behind the Scouts BSA Me
 
 ---
 
-## 9. Quantitative architectural trade-off benchmark matrices
+## 12. Quantitative architectural trade-off benchmark matrices
 
 To compare each layer of the stack quantitatively against alternative Google Cloud and open-source designs, the tables below summarize measured latency, unit cost, memory footprint, and failure rates across our benchmark suite (`scripts/eval_gate.py`).
 
-### 9.1 Orchestration framework comparison (`ADR-01`)
+### 12.1 Orchestration framework comparison (`ADR-01`)
 
 | Dimension | **Google ADK (`SequentialAgent` + `LoopAgent` + `AgentTool`) (Chosen)** | LangGraph (`StateGraph`) | CrewAI (Role-Playing Multi-Agent) | Single-Prompt Monolithic LLM |
 | :--- | :--- | :--- | :--- | :--- |
@@ -148,7 +148,7 @@ To compare each layer of the stack quantitatively against alternative Google Clo
 | **60-slide Deep Dive completion rate** | **`100%` (bounded `LoopAgent(max_iterations=3)`)** | `94%` (manual cycle guards required) | `72%` (frequent token loop exhaustion) | `38%` (hits output token truncation) |
 | **Native OpenTelemetry & Cloud Trace integration** | **Built-in (`before_model_callback` / `after_tool_callback`)** | Requires LangSmith or custom OTel callbacks | Requires third-party telemetry hooks | Manual wrapper only |
 
-### 9.2 Grounding and memory tiering comparison (`ADR-02`)
+### 12.2 Grounding and memory tiering comparison (`ADR-02`)
 
 | Dimension | **Hybrid SQLite BM25 + Vector RRF (`k=60`) + Vertex AI Search Bridge (Chosen)** | Pure Dense Vector Search (Cosine Only) | Full 80-Page PDF Prompt Stuffing | Standalone Managed Vector DB (Always-On) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -157,7 +157,7 @@ To compare each layer of the stack quantitatively against alternative Google Clo
 | **Per-deck input token footprint** | **`~32k` tokens (`68%` reduction)** | `~32k` tokens | `~185k` tokens across 5 stages | `~32k` tokens |
 | **Idle infrastructure cost (summer camp offline / low traffic)** | **`$0.00 / month` (embedded SQLite + scale-to-zero)** | `$0.00 / month` | `$0.00 / month` (`+$0.42/deck` token tax) | `~$180 to $250 / month` minimum node cost |
 
-### 9.3 Compute runtime and presentation rendering comparison (`ADR-03` & `ADR-06`)
+### 12.3 Compute runtime and presentation rendering comparison (`ADR-03` & `ADR-06`)
 
 | Dimension | **Cloud Run v2 + Deterministic `python-pptx` + Pre-Bundled & On-Demand Visuals (Chosen)** | Vertex AI Agent Engine Only (No Custom Headless Graphics) | End-to-End Generative Diffusion Slide Images |
 | :--- | :--- | :--- | :--- |
@@ -168,33 +168,33 @@ To compare each layer of the stack quantitatively against alternative Google Clo
 
 ---
 
-## 10. Engineering retrospective, failure post-mortems, and continuous learning loop
+## 13. Engineering retrospective, failure post-mortems, and continuous learning loop
 
-This section documents three real engineering failures encountered while building the Scouts BSA Merit Badge Counselor Workbench, how root-cause analysis reshaped our architecture, and how our automated evaluation loop prevents regressions.
+This section documents four real engineering failures encountered while building the Scouts BSA Merit Badge Counselor Workbench, how root-cause analysis reshaped our architecture, and how our automated evaluation loop prevents regressions.
 
-### 10.1 Post-mortem #1: Nano Banana prompt-text bleeding into generated illustrations
+### 13.1 Post-mortem #1: Nano Banana prompt-text bleeding into generated illustrations
 - **Symptom observed**: During initial testing of the Merit Badge Image Studio (`NanoBananaImageAgent`), counselors clicking to generate an illustration for *"Requirement 2b: Demonstrate direct pressure and tourniquet application"* received an image that rendered a literal PowerPoint slide mockup containing the words *"Create a slide illustration for Requirement 2b..."* inside the artwork.
 - **Root cause**: Passing raw slide metadata (`Requirement 2b`, `Create a slide image...`, `16:9 slide graphic`) into `gemini-2.5-flash-image` triggered the model's typography/poster prior rather than its pure visual illustration prior.
 - **Architectural fix**:
   1. Built `build_clean_illustration_prompt()` and `resolve_content_aware_visual_config()` (`src/agents/image_studio.py`) to strip all requirement numbers (`Req 2b`) and meta-instructional phrasing before calling the image generator, replacing them with explicit subject-plus-style descriptors across 10 UI visual styles (`8` artistic styles + `Auto (Content-Aware Mix)` + `4-Quadrant Concept Map`, plus 4 legacy aliases: `Photorealistic Image`, `4-Quadrant Concept Map`, `Watercolor Field Sketch`, `Line Drawing`, `Cartoon Drawing`, `Technical Diagram`, `3D Isometric Illustration`, `Editorial Vector Illustration`, and `Vintage Merit Badge Poster`), explicit human/uniform vs. zero-human directives (`include_humans`), and negative text constraints (`zero words, zero letters, zero slide frames`).
   2. Added a post-generation multimodal verification gate, `verify_generated_image_matches_prompt()`, which inspects the generated PNG to verify both semantic subject alignment (`alignment_score >= 0.70`) and zero rendered prompt text before returning the image to the counselor.
 
-### 10.2 Post-mortem #2: Dense vector dilution on alphanumeric BSA requirement identifiers
+### 13.2 Post-mortem #2: Dense vector dilution on alphanumeric BSA requirement identifiers
 - **Symptom observed**: When querying the pamphlet memory store for specific sub-requirements (such as *"Requirement 9a weather instrument"* vs. *"Requirement 9b outdoor camping nights"*), pure dense cosine similarity occasionally ranked general narrative paragraphs above the exact numbered requirement chunk.
 - **Root cause**: Compact dense embeddings compress semantics across the entire sentence and underweight short alphanumeric tokens (`1a`, `2b`, `9a`).
 - **Architectural fix**: Upgraded `PersistentSessionStore` (`src/memory/session_store.py`) to execute **Hybrid Search via Reciprocal Rank Fusion (`hybrid_search_pamphlet_rrf_sync`)**, combining dense cosine similarity ranks ($r_{\text{dense}}$) with Okapi BM25 lexical ranks ($r_{\text{bm25}}$) and an explicit alphanumeric requirement-marker boost ($k=60$). This raised `Recall@3`, `MRR`, and `NDCG@3` on `scripts/eval_gate.py` to **`1.0000`**.
 
-### 10.3 Post-mortem #3: Vertex AI `400 INVALID_ARGUMENT` when combining `GoogleSearchTool` and custom `FunctionTool`s
+### 13.3 Post-mortem #3: Vertex AI `400 INVALID_ARGUMENT` when combining `GoogleSearchTool` and custom `FunctionTool`s
 - **Symptom observed**: Attaching both ADK's built-in `google_search` tool and our custom `fetch_merit_badge_pamphlet_pdf` `FunctionTool` to `PamphletResearchAgent` caused Vertex AI to reject requests with `400 INVALID_ARGUMENT: Built-in tools and function declarations cannot be combined in the same request`.
 - **Root cause**: The Gemini API enforces strict separation between Google-hosted grounding tools (`google_search`) and user-defined tool declarations within a single model turn.
 - **Architectural fix**: Isolated `google_search` inside a dedicated sub-agent (`WebSearchGroundingAgent` on `gemini-2.5-flash`) and wrapped that sub-agent using ADK's `AgentTool` (`src/agents/researcher.py`). To the parent `PamphletResearchAgent`, `WebSearchGroundingAgent` appears as a standard callable tool while executing its grounded search in an isolated model context.
 
-### 10.4 Post-mortem #4: Initial template palette mismatch immediately after regenerating a deck
+### 13.4 Post-mortem #4: Initial template palette mismatch immediately after regenerating a deck
 - **Symptom observed**: Immediately after regenerating a Merit Badge deck with an active BSA template (such as `BSA Scouting America` in olive green `#5A6F43`), content slides displayed a rotating crimson (`EAGLE_CRIMSON`, `#991B1B`) or gold (`NAVY_GOLD`) stage border, title ink, and boxed callout pills on initial load. Reapplying the same template via `/api/v1/templates/apply` fixed the colors.
 - **Root cause**: `StoryboardBeautifierAgent` assigned rotating `accent_palette_key` values (`NAVY_GOLD`, `OLIVE_FOREST`, `EAGLE_CRIMSON`, `SLATE_ACTION`) and rotating `card_theme_style` values (`LEFT_ACCENT_CARDS`, `NUMBERED_STEP_CARDS`, `QUOTE_CALLOUT_CARDS`, `SAFETY_BANNER_CARDS`) to slides during initial generation, whereas `/api/v1/templates/apply` explicitly overwrote `s["accent_palette_key"] = "MATCH_TEMPLATE"` when `match_template_palette=True`. In addition, `getActiveTemplateProfile()` in `ui/app.js` fell back to `default_workbench` navy/amber tokens before `/api/v1/templates` finished loading.
 - **Architectural fix**: Updated `/api/workflow/run` and `/api/workflow/stream` (`src/server.py`) and `hydrateWorkbench()` (`ui/app.js`) to stamp `template_id` and `accent_palette_key = "MATCH_TEMPLATE"` on every slide before compiling the `.pptx` and hydrating the 16:9 Web Stage. Updated `getActiveTemplateProfile()`, `resolveSlidePaletteTokens()`, and `getCardThemeSpec()` (`ui/app.js`) so initial deck generation and template reapplication resolve identical template-matched borders, headings, and clean `▸` lead-in markers (`unless` the counselor explicitly selects a custom per-slide override in Co-Design Drawer Tab 2).
 
-### 10.5 Closed-loop continuous learning pipeline (`promote_session_to_golden_dataset`)
+### 13.5 Closed-loop continuous learning pipeline (`promote_session_to_golden_dataset`)
 Every production counselor session feeds a continuous improvement loop:
 1. **Capture**: Counselor thumbs-up/down ratings (`POST /api/v1/feedback`), single-slide regenerations (`POST /api/v1/slide/regenerate`), and Stage 1/2 conformance diagnostics are logged to SQLite (`hitl_feedback`) and `deliverables/counselor_hitl_feedback.jsonl` (`RuntimeMetricsCollector.record_counselor_feedback` in `src/resilience.py`).
 2. **Promote**: `promote_session_to_golden_dataset()` (`scripts/eval_gate.py`) promotes any counselor-verified (`rating >= 4` and `requirement_accuracy_verified=True`) session trace into `tests/data/golden_extensions.json`, recording the badge name, expected requirement count, and expected 7-agent execution trajectory.
