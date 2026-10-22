@@ -12,6 +12,7 @@ integrates persistent session storage, vector memory, and history compaction.
 import asyncio
 import os
 import time
+import uuid
 from typing import Any, AsyncGenerator, Dict, List, Optional
 from pydantic import BaseModel, Field
 from google import adk
