@@ -126,7 +126,9 @@ def build_lightweight_submission_bundle(
 
     if output_paths is None:
         output_paths = [
+            repo_root / "repo.bundle",
             repo_root / "scouts-bsa-merit-badge-agent.bundle",
+            repo_root / "deliverables" / "repo.bundle",
             repo_root / "deliverables" / "scouts-bsa-merit-badge-agent.bundle",
             repo_root / "deliverables" / "scouts-bsa-merit-badge-agent-submission.bundle",
         ]
@@ -194,10 +196,18 @@ def build_lightweight_submission_bundle(
             if "data/asset_inventory_manifest.json" not in selected_files:
                 selected_files.append("data/asset_inventory_manifest.json")
 
-        # Ensure new scripts and observability modules are included even before git commit
+        # Ensure new scripts, canonical docs, and observability modules are included even before git commit
         for extra_rel in (
+            "AGENTS.md",
+            "docs/CAPSTONE_TRACKER.md",
+            "docs/ARCHITECTURE.md",
+            "docs/ADR.md",
+            "docs/RUNBOOK.md",
+            "docs/FINOPS_AND_TCO.md",
             "src/observability/online_audit_sampler.py",
+            "src/tools/asset_hydrator.py",
             "scripts/cost_model.py",
+            "scripts/run_eval.py",
             "scripts/build_submission_bundle.py",
             "scripts/repo_audit.sh",
             "scripts/smoke_test_deployment.py",
@@ -210,6 +220,16 @@ def build_lightweight_submission_bundle(
                 if extra_rel not in selected_files:
                     selected_files.append(extra_rel)
 
+        tag_name = f"capstone-{datetime.now(timezone.utc).strftime('%Y%m%d')}"
+        submission_url = "https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent"
+        tag_message = (
+            f"FDE Capstone Submission ({tag_name})\n"
+            f"Submission URL: {submission_url}\n"
+            "Mirror URL: https://github.com/clayberg/scouts-bsa-merit-badge-agent\n"
+            "Candidate: clayberg@google.com (Eric Clayberg)\n"
+            "Project: Scouts BSA Merit Badge Counselor Workbench (Google ADK + Vertex AI + Cloud Run)"
+        )
+
         subprocess.run(["git", "init", "-b", "main"], cwd=str(stage_root), check=True, capture_output=True)
         subprocess.run(["git", "config", "user.name", "Eric Clayberg"], cwd=str(stage_root), check=True, capture_output=True)
         subprocess.run(["git", "config", "user.email", "clayberg@google.com"], cwd=str(stage_root), check=True, capture_output=True)
@@ -217,6 +237,20 @@ def build_lightweight_submission_bundle(
         subprocess.run(
             ["git", "commit", "-m", "Scouts BSA Merit Badge Counselor Workbench - FDE Capstone Submission"],
             cwd=str(stage_root),
+            check=True,
+            capture_output=True,
+        )
+        subprocess.run(
+            ["git", "tag", "-f", "-a", tag_name, "-m", tag_message],
+            cwd=str(stage_root),
+            check=True,
+            capture_output=True,
+        )
+
+        # Also ensure the same annotated tag with Submission URL is present on repo_root
+        subprocess.run(
+            ["git", "tag", "-f", "-a", tag_name, "-m", tag_message],
+            cwd=str(repo_root),
             check=True,
             capture_output=True,
         )
