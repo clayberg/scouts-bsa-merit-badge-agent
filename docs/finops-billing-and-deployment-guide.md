@@ -2,7 +2,7 @@
 
 **Author:** Eric Clayberg (Troop 19, Middleton MA)
 **Repository:** `https://github.com/clayberg/scouts-bsa-merit-badge-agent`
-**Code References:** `src/config.py`, `src/agents/guardrails.py`, `src/agents/coordinator.py`, `src/agents/image_studio.py`, `src/server.py`, `terraform/main.tf`
+**Code References:** `src/config.py`, `src/agents/guardrails.py`, `src/agents/coordinator.py`, `src/agents/image_studio.py`, `src/observability/online_audit_sampler.py`, `src/server.py`, `scripts/cost_model.py`, `terraform/main.tf`
 
 > **Purpose of this guide:** The Scouts BSA Merit Badge Counselor Workbench displays token counts and dollar budgets in the UI for slide deck generation, on-demand **Nano Banana AI** custom illustrations (`$0.08/image`), and **AI Polish Speaker Notes** (`$0.000835/slide` via `gemini-2.5-flash` with `thinking_budget=0`). This document explains how the **Unified Pre-Bundled Visual Architecture** delivers all 3,917 curated visual assets across all 144 Merit Badges at `$0.00` runtime image cost, how a volunteer counselor pays or avoids paying when running the app locally, how billing works when a Council or Troop hosts the app on Google Cloud Run, and how the app recovers whenever a cost is denied or an API quota limit is reached.
 
@@ -93,7 +93,17 @@ Because any counselor visiting the Cloud Run URL spends from the host project's 
 
 * **Cloud Armor rate limiting (`terraform/main.tf`)**: A Google Cloud Armor security policy (`scouts-bsa-model-armor-edge-policy`) throttles any single IP address exceeding **120 requests per minute** with an automatic `HTTP 429` response and a 5-minute ban (`300s`).
 * **Per-deck FinOps budget cap (`$1.00 USD`)**: Even if a user requests the largest badge in the catalog in `STUDIO` mode, `FinOpsBudgetPlugin` caps per-deck spend at `$1.00 USD`.
-* **Super-User Admin Console Zero-PII FinOps and Swap Telemetry ([`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md))**: Council administrators can open **Tab 2 (`Zero-PII Usage, Latency & Image-Swap Telemetry`)** of the Super-User Admin Console (`GET /api/v1/admin/telemetry/summary`, backed by `ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py` with recursive `scrub_pii_dict()` enforcement) to monitor total decks generated, cache hit rate (`%`), average FinOps spend per deck (`$ USD`), `p50`/`p95` stage latencies, and the **Easy Slide Image Switcher Swap Leaderboard** without storing any counselor or Scout PII.
+* **Super-User Admin Console Zero-PII FinOps, Honest Dual Latency, Online Production Trace Audit Sampling & Swap Telemetry ([`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md))**: Council administrators can open **Tab 2 (`Zero-PII Usage, Latency & Image-Swap Telemetry`)** of the Super-User Admin Console (`GET /api/v1/admin/telemetry/summary` and `GET /api/v1/admin/telemetry/online-audit-samples`, backed by `ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py` and `OnlineProductionAuditSampler` in `src/observability/online_audit_sampler.py` with recursive `scrub_pii_dict()` and SSE egress `scrub_pii_from_structure()` enforcement) to monitor total decks generated, cache hit rate (`%`), average FinOps spend per deck (`$ USD`), Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), deterministic 5% (`0.05`) online production trace quality audits, and the **Easy Slide Image Switcher Swap Leaderboard** without storing any counselor or Scout PII.
+
+### Three-tier monthly TCO projection (`scripts/cost_model.py`: Single Troop, Council, and National Scale)
+
+You can execute `python3 scripts/cost_model.py` (or `python3 scripts/cost_model.py --json`) to compute the combined variable Vertex AI token spend and fixed GCP infrastructure charges across three deployment scales:
+
+| Deployment Tier | Monthly Volume | Cold vs. Warm Builds | Variable Vertex AI Token Spend (`USD/mo`) | Fixed GCP Platform Spend (`USD/mo`) | Total Actual Monthly TCO (`USD/mo`) | Effective Cost per Deck |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Tier 1: Single Troop (`min_instances = 0` scale-to-zero)** | `50 decks/mo` (`~15` counselors) | `35 cold` (`$0.184`) + `15 warm` (`$0.030`) | `$6.89 / mo` | `$1.02 / mo` (scale-to-zero Cloud Run v2 + storage) | **`~$7.91 / month`** | **`~$0.16 / deck`** |
+| **Tier 2: 500-Counselor Council (`min_instances = 1` warm)** | `1,500 decks/mo` (`500` counselors) | `450 cold` (`$0.184`) + `1,050 warm` (`$0.030`) | `$112.50 / mo` (`$202.50` uncached ceiling) | `$80.00 / mo` (`~$68.00` Cloud Run v2 `2 vCPU / 4 GiB` + `~$12.00` Storage/Secret Manager/Trace) | **`$192.50 / month`** (`$282.50/mo` uncached ceiling) | **`$0.13 / deck`** (98% less than 500 `$30/mo` SaaS seats) |
+| **Tier 3: National Scale (`85%` global semantic/deck cache hit rate)** | `100,000 decks/mo` (national merit badge clinics) | `15,000 cold` (`$0.184`) + `85,000 warm` (`$0.020`) | `$4,460.00 / mo` | `$940.00 / mo` (autoscaled Cloud Run v2 + Cloud Armor + CDN/GCS + Trace) | **`$5,400.00 / month`** | **`$0.054 / deck`** |
 
 ## 4. Cost-denial layers, explicit FinOps consent gates, and graceful fallbacks
 

@@ -345,7 +345,7 @@
       "req_number": "5",
       "topic_heading": null,
       "lead_text": "Complete the activities in FOUR of the following options and show improvement over a three-month period:",
-      "req_text": "Complete the activities in FOUR of the following options and show improvement over a three-month period: (a) Option A—Sprinting. Do ALL of the following: (1) 100-meter dash (2) 200-meter dash (d) Option B—Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run (g) Option C—Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running high jump (best of three tries) (2) Standing long jump OR standing high jump (best of three tries) (j) Option D—Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim (m) Option E—Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2) Push-ups in two minutes (p) Option F—Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance) (s) Option G—Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (30) Option H—Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard line, eight kicks (2) Football kick or soccer kick for distance, five kicks (total distance) (33) Option I—Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions each",
+      "req_text": "Complete the activities in FOUR of the following options and show improvement over a three-month period: (a) Option A—Sprinting. Do ALL of the following: (1) 100-meter dash (2) 200-meter dash (b) Option B—Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run (c) Option C—Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running high jump (best of three tries) (2) Standing long jump OR standing high jump (best of three tries) (d) Option D—Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim (e) Option E—Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2) Push-ups in two minutes (f) Option F—Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance) (g) Option G—Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line (h) Option H—Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard line, eight kicks (2) Football kick or soccer kick for distance, five kicks (total distance) (i) Option I—Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions each",
       "sub_requirements": [
         {
           "sub_id": "5a",
@@ -375,8 +375,8 @@
           ]
         },
         {
-          "sub_id": "5d",
-          "label": "(d)",
+          "sub_id": "5b",
+          "label": "(b)",
           "text": "Option B—Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run",
           "resources": [
             {
@@ -386,14 +386,14 @@
           ],
           "children": [
             {
-              "sub_id": "5d(1)",
+              "sub_id": "5b(1)",
               "label": "(1)",
               "text": "3k run",
               "resources": [],
               "children": []
             },
             {
-              "sub_id": "5d(2)",
+              "sub_id": "5b(2)",
               "label": "(2)",
               "text": "5k run",
               "resources": [],
@@ -402,13 +402,13 @@
           ]
         },
         {
-          "sub_id": "5g",
-          "label": "(g)",
+          "sub_id": "5c",
+          "label": "(c)",
           "text": "Option C—Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running high jump (best of three tries) (2) Standing long jump OR standing high jump (best of three tries)",
           "resources": [],
           "children": [
             {
-              "sub_id": "5g(1)",
+              "sub_id": "5c(1)",
               "label": "(1)",
               "text": "Running long jump OR running high jump (best of three tries)",
               "resources": [
@@ -424,7 +424,7 @@
               "children": []
             },
             {
-              "sub_id": "5g(2)",
+              "sub_id": "5c(2)",
               "label": "(2)",
               "text": "Standing long jump OR standing high jump (best of three tries)",
               "resources": [
@@ -442,13 +442,13 @@
           ]
         },
         {
-          "sub_id": "5j",
-          "label": "(j)",
+          "sub_id": "5d",
+          "label": "(d)",
           "text": "Option D—Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim",
           "resources": [],
           "children": [
             {
-              "sub_id": "5j(1)",
+              "sub_id": "5d(1)",
               "label": "(1)",
               "text": "100-meter swim",
               "resources": [
@@ -460,7 +460,7 @@
               "children": []
             },
             {
-              "sub_id": "5j(2)",
+              "sub_id": "5d(2)",
               "label": "(2)",
               "text": "200-meter swim",
               "resources": [
@@ -474,13 +474,13 @@
           ]
         },
         {
-          "sub_id": "5m",
-          "label": "(m)",
+          "sub_id": "5e",
+          "label": "(e)",
           "text": "Option E—Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2) Push-ups in two minutes",
           "resources": [],
           "children": [
             {
-              "sub_id": "5m(1)",
+              "sub_id": "5e(1)",
               "label": "(1)",
               "text": "Pull-ups in two minutes",
               "resources": [
@@ -492,7 +492,7 @@
               "children": []
             },
             {
-              "sub_id": "5m(2)",
+              "sub_id": "5e(2)",
               "label": "(2)",
               "text": "Push-ups in two minutes",
               "resources": [
@@ -506,8 +506,8 @@
           ]
         },
         {
-          "sub_id": "5p",
-          "label": "(p)",
+          "sub_id": "5f",
+          "label": "(f)",
           "text": "Option F—Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance)",
           "resources": [
             {
@@ -517,14 +517,14 @@
           ],
           "children": [
             {
-              "sub_id": "5p(1)",
+              "sub_id": "5f(1)",
               "label": "(1)",
               "text": "Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet",
               "resources": [],
               "children": []
             },
             {
-              "sub_id": "5p(2)",
+              "sub_id": "5f(2)",
               "label": "(2)",
               "text": "Baseball throw for distance, five throws (total distance)",
               "resources": [],
@@ -533,9 +533,9 @@
           ]
         },
         {
-          "sub_id": "5s",
-          "label": "(s)",
-          "text": "Option G—Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots:",
+          "sub_id": "5g",
+          "label": "(g)",
+          "text": "Option G—Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line",
           "resources": [
             {
               "title": "How To Shoot a Free Throw (video)",
@@ -552,20 +552,20 @@
           ],
           "children": [
             {
-              "sub_id": "5s(1)",
+              "sub_id": "5g(1)",
               "label": "(1)",
               "text": "Basketball shot for accuracy, 10 free-throw shots",
               "resources": [],
               "children": []
             },
             {
-              "sub_id": "5s(2)",
+              "sub_id": "5g(2)",
               "label": "(2)",
-              "text": "Basketball throw for skill and agility, the following shots:",
+              "text": "Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line",
               "resources": [],
               "children": [
                 {
-                  "sub_id": "5s(2)(a)",
+                  "sub_id": "5g(2)(a)",
                   "label": "(a)",
                   "text": "Left-side layup",
                   "resources": [],
@@ -574,7 +574,7 @@
                   "_parent_dom_id": "14228"
                 },
                 {
-                  "sub_id": "5s(2)(b)",
+                  "sub_id": "5g(2)(b)",
                   "label": "(b)",
                   "text": "Right-side layup",
                   "resources": [],
@@ -583,7 +583,7 @@
                   "_parent_dom_id": "14228"
                 },
                 {
-                  "sub_id": "5s(2)(c)",
+                  "sub_id": "5g(2)(c)",
                   "label": "(c)",
                   "text": "Left side of hoop, along the key line",
                   "resources": [],
@@ -592,7 +592,7 @@
                   "_parent_dom_id": "14228"
                 },
                 {
-                  "sub_id": "5s(2)(d)",
+                  "sub_id": "5g(2)(d)",
                   "label": "(d)",
                   "text": "Right side of hoop, along the key line",
                   "resources": [],
@@ -601,7 +601,7 @@
                   "_parent_dom_id": "14228"
                 },
                 {
-                  "sub_id": "5s(2)(e)",
+                  "sub_id": "5g(2)(e)",
                   "label": "(e)",
                   "text": "Where key line and free-throw line meet, left side",
                   "resources": [],
@@ -610,7 +610,7 @@
                   "_parent_dom_id": "14228"
                 },
                 {
-                  "sub_id": "5s(2)(f)",
+                  "sub_id": "5g(2)(f)",
                   "label": "(f)",
                   "text": "Where key line and free-throw line meet, left side",
                   "resources": [],
@@ -619,7 +619,7 @@
                   "_parent_dom_id": "14228"
                 },
                 {
-                  "sub_id": "5s(2)(g)",
+                  "sub_id": "5g(2)(g)",
                   "label": "(g)",
                   "text": "Top of the key",
                   "resources": [],
@@ -628,7 +628,7 @@
                   "_parent_dom_id": "14228"
                 },
                 {
-                  "sub_id": "5s(2)(h)",
+                  "sub_id": "5g(2)(h)",
                   "label": "(h)",
                   "text": "Another spot along the three-point line",
                   "resources": [],
@@ -641,13 +641,13 @@
           ]
         },
         {
-          "sub_id": "530",
-          "label": "(30)",
+          "sub_id": "5h",
+          "label": "(h)",
           "text": "Option H—Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard line, eight kicks (2) Football kick or soccer kick for distance, five kicks (total distance)",
           "resources": [],
           "children": [
             {
-              "sub_id": "530(1)",
+              "sub_id": "5h(1)",
               "label": "(1)",
               "text": "Goals from the 10-yard line, eight kicks",
               "resources": [
@@ -659,7 +659,7 @@
               "children": []
             },
             {
-              "sub_id": "530(2)",
+              "sub_id": "5h(2)",
               "label": "(2)",
               "text": "Football kick or soccer kick for distance, five kicks (total distance)",
               "resources": [
@@ -673,13 +673,13 @@
           ]
         },
         {
-          "sub_id": "533",
-          "label": "(33)",
+          "sub_id": "5i",
+          "label": "(i)",
           "text": "Option I—Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions each",
           "resources": [],
           "children": [
             {
-              "sub_id": "533(1)",
+              "sub_id": "5i(1)",
               "label": "(1)",
               "text": "Chest/bench press, two sets of 15 repetitions each",
               "resources": [
@@ -691,7 +691,7 @@
               "children": []
             },
             {
-              "sub_id": "533(2)",
+              "sub_id": "5i(2)",
               "label": "(2)",
               "text": "Leg curls, two sets of 15 repetitions each",
               "resources": [

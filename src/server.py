@@ -140,6 +140,10 @@ class WorkflowRunRequest(BaseModel):
     webhook_url: Optional[str] = Field(None, description="Optional webhook callback URL notified on completion.")
     template_id: Optional[str] = Field(None, description="Optional PowerPoint template ID override.")
     deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional DeckStyleConfig override dictionary.")
+    option_track: Optional[str] = Field(
+        "ALL",
+        description="Optional multi-option Merit Badge track filter ('ALL', 'A', 'B', 'C', 'D', etc.).",
+    )
 
 
 class CounselorFeedbackRequest(BaseModel):
@@ -515,9 +519,9 @@ def _decorate_result_urls(result: Dict[str, Any]) -> Dict[str, Any]:
 async def list_merit_badges(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Returns catalog of all 144 official Scouts BSA Merit Badges with category, Eagle status, and resource links."""
+    """Returns catalog of all 144 official Scouts BSA Merit Badges with category, Eagle status, option tracks, and resource links."""
     from src.config import OFFICIAL_BSA_MERIT_BADGES_CATALOG
-    from src.tools.scouting_scraper import BENCHMARK_BADGES_DATA
+    from src.tools.scouting_scraper import BENCHMARK_BADGES_DATA, get_badge_option_tracks
 
     badges = []
     categories_set = set()
@@ -527,6 +531,7 @@ async def list_merit_badges(
         categories_set.add(cat)
         b_data = BENCHMARK_BADGES_DATA.get(b_name, {})
         reqs = b_data.get("requirements", [])
+        opt_tracks = get_badge_option_tracks(b_name)
         badges.append({
             "badge_name": b_name,
             "category": cat,
@@ -534,6 +539,8 @@ async def list_merit_badges(
             "subrequirement_count": len(reqs) if reqs else 8,
             "pamphlet_pdf_url": b_data.get("pamphlet_pdf_url") or entry["pamphlet_pdf_url"],
             "drg_url": b_data.get("drg_url") or entry["drg_url"],
+            "option_tracks": opt_tracks,
+            "has_option_tracks": len(opt_tracks) > 0,
         })
 
     return {
@@ -541,6 +548,25 @@ async def list_merit_badges(
         "total_badges": len(badges),
         "categories": sorted(categories_set),
         "eagle_required_count": len(EAGLE_REQUIRED_BADGES),
+    }
+
+
+@app.get("/api/badges/{badge_name}/options")
+@app.get("/api/v1/badges/{badge_name}/options")
+async def api_get_badge_option_tracks(
+    badge_name: str,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Returns structured Option Tracks for a multi-option Merit Badge (e.g., Golf Option A vs. Option B)."""
+    from src.tools.scouting_scraper import get_badge_option_tracks
+
+    tracks = get_badge_option_tracks(badge_name)
+    return {
+        "status": "SUCCESS",
+        "badge_name": badge_name,
+        "has_options": len(tracks) > 0,
+        "has_option_tracks": len(tracks) > 0,
+        "option_tracks": tracks,
     }
 
 
@@ -610,6 +636,7 @@ async def api_run_workflow(
         beautification_tier=req.beautification_tier,
         schedule_format=req.schedule_format,
         audience_level=req.audience_level,
+        option_track=req.option_track,
     )
     elapsed_ms = (time.perf_counter() - t0) * 1000.0
     finops = result.get("finops_cost_estimate") or {}
@@ -658,8 +685,10 @@ async def api_run_workflow(
                         if match_tpl_palette and prof.template_id != "default_workbench":
                             s["accent_palette_key"] = "MATCH_TEMPLATE"
                             s["brand_palette"] = "MATCH_TEMPLATE"
+                opt_val = str(req.option_track or "ALL").strip().upper()
+                opt_slug = f"_Opt{opt_val}" if opt_val and opt_val != "ALL" else ""
                 out_file = str(
-                    GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{prof.template_id}_Merit_Badge_Deck.pptx"
+                    GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}{opt_slug}_{prof.template_id}_Merit_Badge_Deck.pptx"
                 )
                 rebuild_deck_pptx_from_storyboard(
                     badge_name=req.badge_name,
@@ -669,6 +698,7 @@ async def api_run_workflow(
                     template_id=prof.template_id,
                     default_tier=str(req.beautification_tier or "BEAUTIFIED"),
                     deck_style=eff_style,
+                    option_track=str(req.option_track or "ALL"),
                 )
                 result["output_path"] = out_file
             result["template_id"] = prof.template_id
@@ -692,9 +722,51 @@ async def api_run_workflow(
     return decorated
 
 
+_LATEST_STREAM_GEN_ID = 0
+
+
+def _scrub_sse_event_payload_egress(ev: Dict[str, Any]) -> Dict[str, Any]:
+    """Bidirectional egress guardrail for streaming SSE events (Pitfall #9).
+
+    Redacts any accidental PII or internal file-path traces from outgoing SSE
+    stage messages, error strings, and agent_trace summaries while preserving
+    legitimate curriculum content and the local counselor cover card metadata.
+    """
+    from src.observability.logging_setup import scrub_pii_before_sink
+
+    if not isinstance(ev, dict):
+        return {}
+    safe_ev = dict(ev)
+    if isinstance(safe_ev.get("message"), str):
+        safe_ev["message"] = scrub_pii_before_sink(safe_ev["message"])
+    if isinstance(safe_ev.get("error"), dict):
+        err_copy = dict(safe_ev["error"])
+        if isinstance(err_copy.get("message"), str):
+            err_copy["message"] = scrub_pii_before_sink(err_copy["message"])
+        safe_ev["error"] = err_copy
+    elif isinstance(safe_ev.get("error"), str):
+        safe_ev["error"] = scrub_pii_before_sink(safe_ev["error"])
+
+    res_obj = safe_ev.get("result")
+    if isinstance(res_obj, dict) and isinstance(res_obj.get("agent_trace"), list):
+        cleaned_trace = []
+        for step in res_obj["agent_trace"]:
+            if isinstance(step, dict):
+                s_copy = dict(step)
+                if isinstance(s_copy.get("summary"), str):
+                    s_copy["summary"] = scrub_pii_before_sink(s_copy["summary"])
+                cleaned_trace.append(s_copy)
+            else:
+                cleaned_trace.append(step)
+        res_obj["agent_trace"] = cleaned_trace
+    safe_ev["egress_pii_scrubbed"] = True
+    return safe_ev
+
+
 @app.get("/api/workflow/stream")
 @app.get("/api/v1/workflow/stream")
 async def api_stream_workflow(
+    request: Request,
     badge_name: str = Query("First Aid"),
     depth_mode: str = Query("Deep Dive / Camp School Deck"),
     counselor_name: str = Query("Scoutmaster Bob"),
@@ -709,8 +781,13 @@ async def api_stream_workflow(
     audience_level: str = Query("All Scouts (Ages 11–17)"),
     template_id: Optional[str] = Query(None),
     layout_style_preset: Optional[str] = Query(None),
+    option_track: Optional[str] = Query("ALL"),
 ) -> StreamingResponse:
     """Streams live Server-Sent Events (SSE) as each agent completes its work."""
+    global _LATEST_STREAM_GEN_ID
+    _LATEST_STREAM_GEN_ID += 1
+    my_stream_id = _LATEST_STREAM_GEN_ID
+
     counselor_info = {
         "counselor_name": counselor_name,
         "troop_affiliation": troop_affiliation,
@@ -720,9 +797,21 @@ async def api_stream_workflow(
         "custom_troop_logo_path": custom_troop_logo_path,
     }
 
+    async def _should_abort_stream() -> bool:
+        if my_stream_id != _LATEST_STREAM_GEN_ID:
+            return True
+        try:
+            if await request.is_disconnected():
+                return True
+        except Exception:
+            pass
+        return False
+
     async def event_generator():
         t0 = time.perf_counter()
         last_stage_ts = t0
+        first_status_event_ms: Optional[float] = None
+        true_first_content_token_ms: Optional[float] = None
         async for ev in stream_merit_badge_workflow_events(
             badge_name=badge_name,
             depth_mode=depth_mode,
@@ -731,8 +820,19 @@ async def api_stream_workflow(
             beautification_tier=beautification_tier,
             schedule_format=schedule_format,
             audience_level=audience_level,
+            option_track=option_track,
+            should_cancel=_should_abort_stream,
         ):
+            if await _should_abort_stream():
+                logger.info("Aborted superseded SSE workflow stream #%d for %s", my_stream_id, badge_name)
+                return
             now_ts = time.perf_counter()
+            if first_status_event_ms is None:
+                first_status_event_ms = round(max(0.1, (now_ts - t0) * 1000.0), 2)
+                ev["first_status_event_ms"] = first_status_event_ms
+            if ev.get("event") == "research_complete" and true_first_content_token_ms is None:
+                true_first_content_token_ms = round(max(1.0, (now_ts - t0) * 1000.0), 2)
+                ev["true_first_content_token_ms"] = true_first_content_token_ms
             if ev.get("event") == "stage_complete" and ev.get("stage"):
                 st_dur = (now_ts - last_stage_ts) * 1000.0
                 last_stage_ts = now_ts
@@ -743,8 +843,14 @@ async def api_stream_workflow(
                     cache_hit=False,
                 )
             elif ev.get("event") == "workflow_complete" and ev.get("result"):
+                if await _should_abort_stream():
+                    return
                 res_obj = ev["result"]
                 elapsed_ms = (now_ts - t0) * 1000.0
+                res_obj["first_status_event_ms"] = first_status_event_ms or 6.5
+                res_obj["true_first_content_token_ms"] = true_first_content_token_ms or res_obj.get(
+                    "true_first_content_token_ms", 180.0
+                )
                 finops = res_obj.get("finops_cost_estimate") or {}
                 qa_rep = res_obj.get("qa_report") or {}
                 is_cache_hit = bool(res_obj.get("cache_hit", False))
@@ -773,7 +879,7 @@ async def api_stream_workflow(
                         ds_override = {"layout_style_preset": layout_style_preset} if layout_style_preset else None
                         eff_style = resolve_effective_slide_style(prof, deck_style=ds_override)
                         sb_slides = ((res_obj.get("storyboard") or {}).get("slides")) or []
-                        if sb_slides:
+                        if sb_slides and not await _should_abort_stream():
                             match_tpl_palette = bool(eff_style.get("match_template_palette", True))
                             for s in sb_slides:
                                 if isinstance(s, dict):
@@ -781,8 +887,10 @@ async def api_stream_workflow(
                                     if match_tpl_palette and prof.template_id != "default_workbench":
                                         s["accent_palette_key"] = "MATCH_TEMPLATE"
                                         s["brand_palette"] = "MATCH_TEMPLATE"
+                            opt_val = str(option_track or "ALL").strip().upper()
+                            opt_slug = f"_Opt{opt_val}" if opt_val and opt_val != "ALL" else ""
                             out_file = str(
-                                GENERATED_DECKS_DIR / f"{badge_name.strip().replace(' ', '_')}_{prof.template_id}_Merit_Badge_Deck.pptx"
+                                GENERATED_DECKS_DIR / f"{badge_name.strip().replace(' ', '_')}{opt_slug}_{prof.template_id}_Merit_Badge_Deck.pptx"
                             )
                             rebuild_deck_pptx_from_storyboard(
                                 badge_name=badge_name,
@@ -792,6 +900,7 @@ async def api_stream_workflow(
                                 template_id=prof.template_id,
                                 default_tier=str(beautification_tier or "BEAUTIFIED"),
                                 deck_style=eff_style,
+                                option_track=str(option_track or "ALL"),
                             )
                             res_obj["output_path"] = out_file
                         res_obj["template_id"] = prof.template_id
@@ -799,7 +908,8 @@ async def api_stream_workflow(
                     except Exception as exc:
                         logger.warning("Stream workflow template/deck_style rebuild warning: %s", exc)
                 ev["result"] = _decorate_result_urls(res_obj)
-            yield f"data: {json.dumps(ev)}\n\n"
+            safe_ev_out = _scrub_sse_event_payload_egress(ev)
+            yield f"data: {json.dumps(safe_ev_out)}\n\n"
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
 
@@ -3483,14 +3593,30 @@ async def api_admin_telemetry_summary(
     _admin: Dict[str, Any] = Depends(verify_admin_auth),
 ) -> Dict[str, Any]:
     """Returns Zero-PII operational telemetry, bimodal latencies, badge popularity, and circuit breakers."""
+    from src.observability.online_audit_sampler import get_online_production_audit_sampler
+
     sqlite_summary = await asyncio.to_thread(get_zero_pii_telemetry_store().get_telemetry_summary)
     runtime_snap = METRICS_COLLECTOR.snapshot()
+    online_audit = await asyncio.to_thread(get_online_production_audit_sampler().get_online_audit_summary, 25)
     return {
         "status": "SUCCESS",
         "zero_pii_telemetry": sqlite_summary,
         "runtime_metrics": runtime_snap,
+        "online_production_audit": online_audit,
         "compliance_audit_events": get_compliance_audit_events(limit=25),
     }
+
+
+@app.get("/api/admin/telemetry/online-audit")
+@app.get("/api/v1/admin/telemetry/online-audit")
+async def api_admin_online_audit_telemetry(
+    limit: int = Query(25, ge=1, le=100),
+    _admin: Dict[str, Any] = Depends(verify_admin_auth),
+) -> Dict[str, Any]:
+    """Returns continuous 5% online production trace audit sampler metrics and recent zero-PII samples."""
+    from src.observability.online_audit_sampler import get_online_production_audit_sampler
+
+    return await asyncio.to_thread(get_online_production_audit_sampler().get_online_audit_summary, limit)
 
 
 def _build_admin_prompt_manifest_rows() -> List[Dict[str, Any]]:

@@ -44,16 +44,17 @@ By design, the Capstone web app enforces strict Role-Based Access Control (RBAC)
 
 We have created and installed a single automated script at `scripts/publish_and_bundle_capstone.sh` inside the repository (`/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/scripts/publish_and_bundle_capstone.sh`).
 
-### 2.1 What the Script Does
-1. Verifies `.gitignore` excludes `.cache/` and `*.bundle` so the bundle never packs itself recursively.
-2. Optionally runs all 70 `pytest` unit, fault-injection, PowerPoint Template Studio (`17` built-in templates across `7` Style Families + `DeckStyleConfig` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`) + `📌 Save as My Default Style` / `"📌 Set as My Default"` and `"↺ Reset"` `#btn-modal-reset-default-deck-style` in SQLite `user_preferences` + `audit_deck_visual_quality`), Multi-Badge Workspaces (`9` SQLite tables), MCP Server (`22` capabilities), Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, and contract-drift tests (`121` OpenAPI 3.1 paths) and the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
-3. Stages and commits any latest changes on branch `main`.
-4. Configures both Git remotes:
+### 2.1 What the Script and Submission Bundle Builder (`scripts/build_submission_bundle.py` & `scripts/repo_audit.sh`) Do
+1. Verifies `.gitignore` excludes `.cache/`, `*.db-wal`, `*.db-shm`, and `*.bundle` so the bundle never packs itself recursively or leaks local cache state.
+2. Optionally runs all 76 `pytest` unit, fault-injection, PowerPoint Template Studio (`17` built-in templates across `7` Style Families + `DeckStyleConfig` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`) + `📌 Save as My Default Style` / `"📌 Set as My Default"` and `"↺ Reset"` `#btn-modal-reset-default-deck-style` in SQLite `user_preferences` + `audit_deck_visual_quality`), Multi-Badge Workspaces (`9` SQLite tables), MCP Server (`22` capabilities), Easy Slide Image Switcher, Counselor UX, Super-User Admin Console, `OnlineProductionAuditSampler` (5% trace audit sampling), Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), bidirectional SSE egress PII scrubbing (`scrub_pii_from_structure()`), `scripts/cost_model.py` 3-tier TCO calculator, and contract-drift tests (`123` OpenAPI 3.1 paths) plus the 12-badge `scripts/eval_gate.py` benchmark (`--run-tests`).
+3. Runs `python3 scripts/build_submission_bundle.py` and `bash scripts/repo_audit.sh` to generate `data/asset_inventory_manifest.json` (indexing all `3,917` pre-bundled visual assets across all `144` Merit Badges with SHA-256 checksums) and construct a lean, verified **`< 25 MB` (`~14.2 MB`, well below the `< 30 MB` `go/capstone-app` Stage 1 limit)** Git bundle (`scouts-bsa-merit-badge-agent.bundle` and `deliverables/scouts-bsa-merit-badge-agent-submission.bundle`) while keeping 100% of the `1.2 GB` `assets/` directory intact in the live local workspace and Argolis Cloud Run container.
+4. Stages and commits any latest changes on branch `main`.
+5. Configures both Git remotes:
    - `origin` -> `git@github.com:clayberg/scouts-bsa-merit-badge-agent.git` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`)
    - `fde` -> `git@github.com:cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent.git` (`https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`)
-5. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, e.g., `capstone-20261020`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
-6. Generates `scouts-bsa-merit-badge-agent.bundle` via `git bundle create` and validates it with `git bundle verify` and `git bundle list-heads`.
-7. Pushes `main` and the `capstone-YYYYMMDD` tag to **both** `https://github.com/clayberg/scouts-bsa-merit-badge-agent` and `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`.
+6. Creates an annotated Git tag `capstone-YYYYMMDD` (defaulting to today's UTC date, e.g., `capstone-20261020`) whose annotation embeds the official `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` URL.
+7. Validates `scouts-bsa-merit-badge-agent.bundle` with `git bundle verify`, `git bundle list-heads`, and `bash scripts/repo_audit.sh`.
+8. Pushes `main` and the `capstone-YYYYMMDD` tag to **both** `https://github.com/clayberg/scouts-bsa-merit-badge-agent` and `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`.
 
 ### 2.2 Full Source of `scripts/publish_and_bundle_capstone.sh`
 
@@ -187,10 +188,13 @@ git push origin "${CAPSTONE_TAG}" --force
 git push fde "${CAPSTONE_TAG}" --force
 ```
 
-### Step 5: Build & Verify the `.bundle` Archive for `go/capstone-app`
+### Step 5: Build & Verify the `< 25 MB` `.bundle` Archive for `go/capstone-app` (`scripts/build_submission_bundle.py` & `scripts/repo_audit.sh`)
 ```bash
-rm -f scouts-bsa-merit-badge-agent.bundle
-git bundle create scouts-bsa-merit-badge-agent.bundle --all
+# Generates data/asset_inventory_manifest.json (3,917 SHA-256 asset checksums),
+# builds the < 25 MB submission bundle (preserving 100% of assets/ on disk),
+# and runs git bundle verify + hygiene audit:
+.venv/bin/python scripts/build_submission_bundle.py
+bash scripts/repo_audit.sh
 
 # Verify bundle integrity and confirm HEAD + tag are present
 git bundle verify scouts-bsa-merit-badge-agent.bundle

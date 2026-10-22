@@ -37,37 +37,51 @@ Across Scouting America, volunteer Merit Badge Counselors teach **144 official M
 
 1. **Official pamphlet immutability (zero requirement drift)**: External web search and local troop grounding are never permitted to alter official requirement numbers or wording. `compute_canonical_pamphlet_hash()` (`src/agents/researcher.py`) computes a SHA-256 digest over the canonical `(req_number, req_text)` requirement tree (`canonical_fidelity_verified=True`) before and after enrichment.
 2. **Vertex AI tool-mixing isolation**: Vertex AI and Google ADK reject requests that mix native `GoogleSearchTool` grounding and custom Python `FunctionTool` declarations on the same `LlmAgent`. We isolate web search inside `WebSearchGroundingAgent` (`gemini-2.5-flash`) and expose it to `PamphletResearchAgent` via an ADK `AgentTool` wrapper (`src/agents/researcher.py`).
-3. **BSA Youth Protection (YPT), Pre-LLM PII redaction, and isolated counselor profile caching**: Counselor email addresses and phone numbers are never transmitted to external LLM endpoints, written to SQLite telemetry, or exported to Cloud Logging or Cloud Trace. On a local laptop, counselor details are cached in `.cache/counselor_profile.json` (`0600` owner-only permissions, git-ignored) so the counselor only enters them once; in multi-tenant Cloud Run (`K_SERVICE` / `IS_CLOUD_RUN=true`), server-side profile file caching is disabled and counselor info is stored in the user's browser `localStorage` (`scouts_bsa_counselor_profile_v1`). During execution, PII is scrubbed pre-LLM in `before_model_guardrail_callback()` (`src/agents/guardrails.py`) using `scrub_pii_before_sink()` (`[REDACTED_EMAIL]`, `[REDACTED_PHONE]`) and injected locally onto Cover Slide 1 and the Parent Letter by `pptx_builder.py` after LLM processing finishes.
+3. **BSA Youth Protection (YPT), Bidirectional Pre-LLM & SSE Egress PII redaction, and isolated counselor profile caching**: Counselor email addresses and phone numbers are never transmitted to external LLM endpoints, written to SQLite telemetry, streamed unredacted over SSE, or exported to Cloud Logging or Cloud Trace. On a local laptop, counselor details are cached in `.cache/counselor_profile.json` (`0600` owner-only permissions, git-ignored) so the counselor only enters them once; in multi-tenant Cloud Run (`K_SERVICE` / `IS_CLOUD_RUN=true`), server-side profile file caching is disabled and counselor info is stored in the user's browser `localStorage` (`scouts_bsa_counselor_profile_v1`). During execution, PII is scrubbed bidirectionally in `ScoutsBSAModelArmorPlugin` (`src/agents/guardrails.py`) across ingress prompts, tool arguments, model responses, and SSE egress payloads using `scrub_pii_before_sink()` and `scrub_pii_from_structure()` (`[REDACTED_EMAIL]`, `[REDACTED_PHONE]`), and injected locally onto Cover Slide 1 and the Parent Letter by `pptx_builder.py` after LLM processing finishes.
 4. **Dual FinOps Consent Gates for on-demand AI image generation (`$0.08/image`) and speaker-note AI polish (`$0.000835/slide`)**: While all 3,917 built-in visual assets and baseline `[SAY]`/`[DEMO]`/`[ASK]` teaching scripts are delivered at `$0.00`, on-demand cloud generation is protected by two explicit FinOps gates:
    - **Layer A1 (Custom Image Consent Gate)**: `NanoBananaImageAgent` (`src/agents/image_studio.py`) calculates an upfront cost estimate (`$0.08 USD` per image, ~`2,580` tokens across generation and verification) via `POST /api/v1/slide/estimate-image-cost` and blocks synthesis (`status="CONSENT_REQUIRED"`) unless `user_consented=True` is provided. After generation, `verify_generated_image_matches_prompt()` checks subject alignment and verifies zero rendered prompt instructions.
    - **Layer A2 (Speaker Notes AI Polish FinOps Gate)**: `POST /api/v1/slide/estimate-polish-cost` calculates exact `gemini-2.5-flash` (`thinking_budget=0`) token and USD costs (`~450` input tokens at `$0.30/1M` + `~280` output tokens at `$2.50/1M` = `$0.000835/slide`, or `$0.00` for slides already cached in the SQLite `polished_speaker_notes` table) and surfaces them in `#ai-polish-finops-modal` before running `POST /api/v1/slide/polish-notes` or `POST /api/v1/slide/polish-notes-batch`.
 
-### 2.2 Current implementation vs. 90-day national rollout matrix
+### 2.2 As-Built Implementation Reconciliation Matrix (`ADR-11`) & 90-Day National Rollout
 
-| Subsystem | Current implementation (`v3.1.0`) | 90-day production target for national council rollout (`50,000+` counselors) |
+As documented in **`ADR-11`** (`ARCHITECTURE_DECISIONS.md`, 11 ADRs total), the table below reconciles what is active and verified in code and demo today against the Enterprise Cloud / Phase 2 target scope:
+
+| Architectural Layer | Active & Verified in Code / Demo Today | Enterprise Cloud / Phase 2 Target Scope (`50,000+` Counselors) |
 | :--- | :--- | :--- |
-| **Session, workspace, vector, image catalog, and Zero-PII telemetry memory** | Local SQLite WAL (`scouts_bsa_sessions.db` with **8 tables**: `counselor_sessions`, `counselor_workspaces`, `counselor_favorites`, `pamphlet_vector_memory` Hybrid BM25 + Cosine RRF index, `badge_image_catalog`, `hitl_feedback`, `polished_speaker_notes`, `compliance_attestation_ledger`) in `src/memory/session_store.py` + `ZeroPiiTelemetryStore` (`scouts_bsa_telemetry.db`: `telemetry_deck_runs`, `telemetry_image_swaps`, `telemetry_stage_latencies` with recursive `scrub_pii_dict()`) in `src/observability/telemetry_store.py` + local `.cache/counselor_profile.json` (`0600`) / browser `localStorage`. | **Cloud SQL for PostgreSQL + `pgvector`** (or AlloyDB) with **Row-Level Security (RLS)** isolating sessions by `council_id` and `troop_id`. |
-| **Authentication and identity** | `verify_caller_auth` and dual-mode `verify_admin_auth` (`src/security.py`) enforcing `X-API-Key`, OIDC Bearer JWTs, Cloud IAP `ADMIN_ALLOWED_EMAILS`, and `ADMIN_SUPERUSER_TOKEN` (`HttpOnly` `bsa_admin_session` cookie via `/api/v1/admin/unlock`) when `AUTH_REQUIRED=true` (set in `terraform/main.tf`), with frictionless local mode (`AUTH_REQUIRED=false`) for laptop use. | **Google Cloud Identity-Aware Proxy (IAP)** federated with **Scouting.org (`my.scouting.org`) OIDC SSO** verifying active Youth Protection Training (YPT) certification on login. |
-| **Deck build execution** | In-process worker thread (`asyncio.to_thread`) inside the FastAPI/Cloud Run container (`1.2s` for Standard decks; `~3.5s` for 60-slide Deep Dive decks). | **Cloud Tasks + Dedicated Cloud Run Worker Pool** for asynchronous generation of 60-slide decks with webhook/SSE completion push. |
-| **Asset and deck storage** | Local `assets/` (`assets/badge_image_catalog/`, `assets/ai_illustrations/`, `assets/pamphlet_images/`, `assets/animations/`) and `deliverables/` directories mounted as static routes, plus Terraform `google_storage_bucket` definition. | **Google Cloud Storage (GCS) + Cloud CDN** with signed download URLs and 30-day lifecycle expiration for generated `.pptx` files. |
+| **Vector & Session Persistence** | Local SQLite WAL (`scouts_bsa_sessions.db` with **9 tables**: `counselor_sessions`, `counselor_workspaces`, `counselor_favorites`, `user_preferences`, `pamphlet_vector_memory` `1.8ms` Hybrid Okapi BM25 + 768-dim Cosine RRF `k=60`, `badge_image_catalog`, `hitl_feedback`, `polished_speaker_notes`, `compliance_attestation_ledger`) in `src/memory/session_store.py`. | **`CloudSQLPgVectorBackend`** (`src/memory/session_store.py`, `vector(768)` HNSW + `tsvector` GIN) + Terraform **Cloud SQL for PostgreSQL 16** (`terraform/main.tf`) with **Row-Level Security (RLS)** isolating sessions by `council_id` and `troop_id` (`SESSION_BACKEND=cloudsql`). |
+| **Safety & PII Guardrails** | Bidirectional **`ScoutsBSAModelArmorPlugin`** (ingress prompt + tool + model response + SSE egress scrubbing via `scrub_pii_from_structure()`) with deterministic regex, SSRF allowlisting, and BSA Youth Protection (YPT) Two-Deep Leadership rules active by default. | Regional **Google Cloud Model Armor REST endpoint** (`_call_cloud_model_armor_rest_api()` calling `:sanitizeUserPrompt` and `:sanitizeModelResponse`) automatically engaged when `MODEL_ARMOR_TEMPLATE_ID` is provisioned. |
+| **Continuous Evaluation & Telemetry** | Offline 12-badge golden eval gate (`scripts/eval_gate.py`, `Recall@3 = 1.0000`) + `ZeroPiiTelemetryStore` (`scouts_bsa_telemetry.db` with recursive `scrub_pii_dict()`) + **5% Online Production Trace Audit Sampler** (`OnlineProductionAuditSampler` in `src/observability/online_audit_sampler.py`) + **Honest Dual Latency Telemetry** (`first_status_event_ms` vs. `true_first_content_token_ms`) active in code today. | Automated **Cloud Logging sink export to BigQuery** and Looker Studio advancement dashboards in Phase 2, with scheduled `vertexai.preview.evaluation.EvalTask` scoring over sampled traces. |
+| **Cloud Perimeter & Identity** | **Cloud Run v2** (`terraform/main.tf`), least-privilege dedicated service account (`scouts-bsa-agent-sa`), **Secret Manager** (`BSA_API_KEY`, `BSA_HITL_SECRET_KEY`, `ADMIN_SUPERUSER_TOKEN`), and dual-mode `verify_admin_superuser()` (`src/security.py`) active today (`--public` org-policy override used in Argolis sandbox). | Organization-level **VPC Service Controls (`VPC-SC`)**, **Cloud KMS CMEK** (`90-day` rotation), and **Google Cloud IAP** federated with **Scouting.org (`my.scouting.org`) OIDC SSO** verifying active YPT certification on login. |
+| **Portal Submission Packaging (`< 30 MB`)** | Full **`1.2 GB` `assets/` media cache** (`3,917` curated images + `144` official pamphlet PDFs) runs in the local workspace and live Argolis Cloud Run Docker container. | **`scripts/build_submission_bundle.py`** and **`scripts/repo_audit.sh`** build a verified **`< 25 MB` (`~14 MB`)** lightweight Git bundle (`scouts-bsa-merit-badge-agent.bundle` and `deliverables/scouts-bsa-merit-badge-agent-submission.bundle`) paired with `data/asset_inventory_manifest.json` (SHA-256 checksums of all `3,917` assets). |
 
-## 3. Quantifiable definition of done (DoD) and service level objectives (SLOs)
+### 2.3 Why Custom Pro-Code Google ADK vs. Out-of-the-Box Gemini Enterprise (Agentspace) or NotebookLM? (Build-vs-Buy Defense)
 
-Every release must pass the blocking verification suite (`.venv/bin/pytest tests/` with **70/70 passing tests**, including `test_v25_conversational_teaching_notes_and_polish_endpoint`, `test_v26_plan7_emblems_qr_polish_batch_presenter_and_gslides_export`, PowerPoint Template Engine & `SafeCanvasBounds` tests, Global Deck Layout Style Engine (`DeckStyleConfig` & `audit_deck_visual_quality`) tests, Multi-Badge Workspace & Favorites tests, MCP Server `stdio`/HTTP JSON-RPC 2.0 tests, and the in-app Documentation Viewer and FinOps Polish Cost Gate tests, plus `python3 scripts/eval_gate.py`) against these concrete thresholds:
+As detailed in `SCOPE.md` Section 4, out-of-the-box **NotebookLM** and no-code **Gemini Enterprise (Agentspace)** cannot meet six hard domain invariants required by Scouts BSA advancement standards: (1) deterministic `16:9` OpenXML `.pptx` compilation and `<10ms` AABB geometry QA (`check_pptx_conformance`, `12.0pt` font floor, `SafeCanvasBounds` across 17 templates and 4 `DeckStyleConfig` modes); (2) cryptographic SHA-256 verbatim requirement locking (`compute_canonical_pamphlet_hash`); (3) 18 Multi-Option ("Two-Badges-in-One") 3-level sub-requirement tree unrolling (`2a -> 2a(5) -> 2a(5)(a)..(h)`) and selective patrol quiz curation; (4) constant-time HMAC-SHA256 HITL tool verification (`verify_hitl_before_tool_callback`); (5) `3,917` pre-bundled de-boxed visual assets (`$0.00` runtime image cost, `$0.184` cold deck) under a `$1.00` hard FinOps ceiling (`FinOpsBudgetPlugin`); and (6) the Classroom Field Toolkit (`#34124` 3-panel Blue Cards, Scoutbook Plus CSV, scannable ISO 18004 QR handout, Split-Screen Presenter `P`, and 22-capability MCP Server).
 
-| Metric / SLO | Target threshold | Observed benchmark | Verification mechanism |
+## 3. Quantifiable definition of done (DoD) and "Scorecard Against Done"
+
+Every release must pass the blocking verification suite (`.venv/bin/pytest tests/` with **76/76 passing tests**, including `test_v25_conversational_teaching_notes_and_polish_endpoint`, `test_v26_plan7_emblems_qr_polish_batch_presenter_and_gslides_export`, PowerPoint Template Engine & `SafeCanvasBounds` tests, Global Deck Layout Style Engine (`DeckStyleConfig` & `audit_deck_visual_quality`) tests, Multi-Badge Workspace & Favorites tests, MCP Server `stdio`/HTTP JSON-RPC 2.0 tests, Online Production Audit Sampler & Honest Dual Latency tests, Bidirectional SSE PII Scrubbing tests, and the in-app Documentation Viewer and FinOps Polish Cost Gate tests, plus `python3 scripts/eval_gate.py`) against these concrete thresholds:
+
+| Metric / SLO ("Scorecard Against Done") | Target threshold | Observed benchmark | Verification mechanism |
 | :--- | :--- | :--- | :--- |
-| **Automated pytest suite** | `100%` pass rate (`70/70` tests) | `70/70` passing (`100%`) | `.venv/bin/pytest tests/` |
-| **OpenAPI 3.1 contract coverage** | `121` documented paths in `docs/openapi.yaml` | `121` verified paths | `scripts/export_openapi.py` & `tests/test_conformance_and_a2ui.py` |
+| **Automated pytest suite** | `100%` pass rate (`76/76` tests) | `76/76` passing (`100%`) | `.venv/bin/pytest tests/` |
+| **OpenAPI 3.1 contract coverage** | `123` documented paths in `docs/openapi.yaml` | `123` verified paths | `scripts/export_openapi.py` & `tests/test_conformance_and_a2ui.py` |
 | **Sub-requirement coverage recall** | `1.00` (`100%` of sub-requirements `1a..11`) | `1.00` (`100%`) | `scripts/eval_gate.py` (`--min-recall 0.98`) |
 | **Hybrid RAG retrieval (`Recall@3` / `MRR` / `NDCG@3`)** | `Recall@3 >= 0.90`, `MRR >= 0.85` | `Recall@3 = 1.00`, `MRR = 1.00`, `NDCG@3 = 1.00` | `evaluate_ir_retrieval_metrics()` in `scripts/eval_gate.py` |
 | **Canonical pamphlet SHA-256 lock** | `100%` match (`0` requirement drift) | `100%` verified | `compute_canonical_pamphlet_hash()` |
 | **Stage 1 & 2 slide geometry & visual quality (`AABB Overlaps` / `DeckStyleConfig`)** | `0` overlapping shapes; font floor `>= 12.0pt`; WCAG `>= 4.5:1`; `visual_quality_score >= 90` | `0` overlaps across all 12 golden decks (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, `BOXED_CARDS`) | `check_pptx_conformance()`, `resolve_effective_slide_style()`, & `audit_deck_visual_quality()` (`<10ms` per deck) |
 | **Stage 1 conformance simulator latency** | `< 10 ms` per presentation | `3.4 ms` p95 | `tests/test_conformance_and_a2ui.py` |
+| **Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`)** | Status event `< 50 ms`; Warm content `< 2,500 ms`; Cold LLM `< 25,000 ms` | Status `4.2 ms`; Warm `1,480 ms`; Cold `18,400 ms` | `ZeroPiiTelemetryStore` & `GET /api/v1/admin/telemetry/summary` |
+| **Online Production Trace Audit Sampling** | `>= 5%` (`0.05`) deterministic trace sampling with `0` PII keys | `5.0%` (`OnlineProductionAuditSampler`, composite score `>= 0.95`) | `src/observability/online_audit_sampler.py` & `/api/v1/admin/telemetry/online-audit-samples` |
 | **API control-plane latency (`p95`)** | `< 150 ms` at 8 concurrent workers | `14.2 ms` p95 (`6.8 ms` p50) | `tests/load/load_test.py` |
-| **FinOps per-deck ceiling and on-demand gates** | `<= $1.00` hard cap per workflow + `$0.08/image` & `$0.000835/slide` consent gates | `~$0.18` actual cold LLM (`$0.38` shadow ceiling), `$0.08/image`, `$0.000835/slide` | `FinOpsBudgetPlugin`, `estimate_nano_banana_image_cost()` & `api_estimate_slide_polish_cost()` |
+| **FinOps per-deck ceiling and on-demand gates** | `<= $1.00` hard cap per workflow + `$0.08/image` & `$0.000835/slide` consent gates | `~$0.184` actual cold LLM (`$0.38` shadow ceiling), `$0.08/image`, `$0.000835/slide` | `FinOpsBudgetPlugin`, `scripts/cost_model.py`, `estimate_nano_banana_image_cost()` & `api_estimate_slide_polish_cost()` |
+| **Release bundle size & hygiene (`< 30 MB` gate)** | `< 30 MB` Stage 1 limit, `0` secrets, `3,917` asset checksums | `~14.2 MB` (`< 25 MB`), `git bundle verify` PASS | `scripts/build_submission_bundle.py` & `scripts/repo_audit.sh` |
 
 ## 4. End-to-end 9-component / 7-specialist-agent architecture and key engineering decisions
+
+### 4.0 Logical ADK Pipeline and Physical GCP Infrastructure Perimeter
+
+**Logical 9-Component ADK Agent Pipeline:**
 
 ```mermaid
 flowchart LR
@@ -80,6 +94,42 @@ flowchart LR
     BEAUT --> LOOP["7. Builder & Review Loop\n(LoopAgent, Max 3x)\npython-pptx + <10ms AABB + Vision"]
     UI <--> IMG_WEB["8. WebImageSearchAgent\n(gemini-2.5-flash)\nWikimedia + Local Upload"]
     UI <--> IMG_AI["9. NanoBananaImageAgent\n(gemini-2.5-flash-image)\n10 Styles + $0.08 Gate + Verifier"]
+```
+
+**Physical GCP Cloud Run v2, IAM, Secret Manager & Security Perimeter (`terraform/main.tf` & `ADR-11`):**
+
+```mermaid
+flowchart TB
+    subgraph Edge["Public Edge & Identity Boundary (Production Target / Terraform)"]
+        USER["Merit Badge Counselor Browser\n(Local contact PII stays in browser localStorage)"]
+        WAF["Cloud Armor Edge WAF\n(scouts-bsa-model-armor-edge-policy: 120 req/min/IP)\n+ Optional Cloud IAP (Zero-Trust OIDC)"]
+        USER -->|"HTTPS / TLS 1.3"| WAF
+    end
+
+    subgraph GCP["GCP Project: scouts-bsa-couns-031526-84534 (us-central1)"]
+        subgraph CR["Cloud Run v2 Service: scouts-bsa-workbench (2 vCPU / 4 GiB)"]
+            FASTAPI["FastAPI + Google ADK Runtime (:8085)\n7 Specialist Agents + 12 MCP Tools\n+ Bidirectional PII Redaction + OnlineProductionAuditSampler (5%)"]
+            ASSETS["Pre-Bundled Visual Catalog (Read-Only Layer)\n3,917 Verified Assets (144 Badges) @ $0.00 Runtime Cost"]
+            SQLITE["Embedded SQLite Stores (/tmp or GCS FUSE)\nscouts_bsa_sessions.db (9 tables) + scouts_bsa_telemetry.db (Zero-PII)"]
+            FASTAPI --- ASSETS
+            FASTAPI --- SQLITE
+        end
+
+        SA["Dedicated IAM Service Account\nscouts-bsa-agent-sa\n(Least-Privilege Runtime Identity)"]
+        SM["Cloud Secret Manager\nscouts-bsa-gemini-api-key + HITL HMAC Secret\n(roles/secretmanager.secretAccessor)"]
+        AR["Artifact Registry\nscouts-bsa-repo (Immutable Container Images)"]
+        GCS["Cloud Storage Bucket\n*-pamphlets-deliverables\n(24h Lifecycle Rule for Temp Exports)"]
+        VAI["Vertex AI / Gemini API\ngemini-2.5-pro, gemini-2.5-flash,\ngemini-2.5-flash-image (roles/aiplatform.user)"]
+        OBS["Cloud Logging + Cloud Trace (OTel)\nZero-PII Structured JSON + Honest Dual Latency\n(first_status_event_ms vs true_first_content_token_ms)"]
+
+        WAF -->|"Authenticated / Rate-Limited HTTP"| FASTAPI
+        CR -.->|"Runs As"| SA
+        SA -->|"Fetches Secrets in Memory"| SM
+        AR -->|"Deploys Image"| CR
+        FASTAPI -->|"Pre-LLM & SSE Egress PII Scrubbed Calls"| VAI
+        FASTAPI -->|"Signed Export Artifacts"| GCS
+        FASTAPI -->|"OTLP / Structured Logs"| OBS
+    end
 ```
 
 ### 4.1 Location and ZIP code grounding (`resolve_counselor_location()`)
@@ -111,9 +161,11 @@ Pricing is defined in `config/finops_model_policy.json` and enforced by `FinOpsB
 | **Speaker Notes AI Polish (`POST /api/v1/slide/estimate-polish-cost`)** | `~450 / slide` (`$0.30 / 1M`) | `~280 / slide` (`$2.50 / 1M`, `thinking_budget=0`) | Cached by SHA-256 digest in SQLite `polished_speaker_notes` (`gemini-2.5-flash`) | **`$0.000835 / slide`** (`~$0.0685` per 82-slide deck) | **`$0.00`** |
 | **On-Demand Custom Nano Banana Image (`POST /api/v1/slide/estimate-image-cost`)** | `~1,580` | `~1,000` (image + Vision verifier) | Requires `user_consented=True`; saved to `assets/badge_image_catalog/<slug>/` | **`$0.08 / image`** | **`$0.00`** |
 
-### 5.2 Council-scale monthly TCO projection (`500` active counselors, `1,500` decks/month)
-Assuming `70%` of builds hit warm pamphlet and vector caches after the first generation of each badge:
-- **Vertex AI Gemini 2.5 Pro + Flash usage**: `450 cold builds * $0.38` uncached shadow ceiling (`$171.00`, or **`$81.00` actual LLM spend at `$0.18/deck`** since 100% of visuals are pre-bundled at `$0.00`) + `1,050 warm/customized builds * $0.03` (`$31.50`) = **`$202.50 / month` uncached ceiling (`~$112.50 / month` actual LLM spend, bringing actual Council TCO to `~$192.50 / month` or `$0.13 / deck`)**.
-- **Cloud Run v2 compute (`min_instances = 1`, `2 vCPU / 4 GiB`)**: **`~$68.00 / month`**.
-- **Cloud Storage, Secret Manager, and Cloud Logging/Trace**: **`~$12.00 / month`**.
-- **Total estimated Council TCO**: **`~$282.50 / month`** (`~$0.19` per delivered curriculum packet at uncached ceiling, or **`~$192.50 / month` / `$0.13` per packet** actual spend, saving `~3,000+` volunteer counselor hours per month and costing **98% less** than 500 individual `$30/mo` SaaS seats).
+### 5.2 Three-tier monthly TCO projection (`scripts/cost_model.py`: Troop, Council, and National Scale)
+You can reproduce the exact variable LLM token + fixed GCP infrastructure TCO calculations at any time by running `python3 scripts/cost_model.py` (or `python3 scripts/cost_model.py --json`). Assuming `70%` of builds hit warm pamphlet and vector caches after the first generation of each badge:
+
+| Deployment Tier | Monthly Volume | Cold vs. Warm Builds | Variable Vertex AI Token Spend (`USD/mo`) | Fixed GCP Platform Spend (Cloud Run v2 + Storage + Logging `USD/mo`) | Total Actual Monthly TCO (`USD/mo`) | Effective Cost per Delivered Deck |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Tier 1: Single Troop (`min_instances = 0` scale-to-zero)** | `50 decks/mo` (`~15` counselors) | `35 cold` (`$0.184`) + `15 warm` (`$0.030`) | `$6.89 / mo` | `$1.02 / mo` (scale-to-zero compute + storage) | **`~$7.91 / month`** | **`~$0.16 / deck`** |
+| **Tier 2: 500-Counselor Council (`min_instances = 1` warm)** | `1,500 decks/mo` (`500` counselors) | `450 cold` (`$0.184`) + `1,050 warm` (`$0.030`) | `$112.50 / mo` (`$202.50` uncached shadow ceiling) | `$80.00 / mo` (`~$68.00` Cloud Run v2 `2 vCPU / 4 GiB` + `~$12.00` Storage/Secret Manager/Trace) | **`$192.50 / month`** (`$282.50/mo` uncached ceiling) | **`$0.13 / deck`** (`$0.19` ceiling; saves `~3,000+` volunteer hrs/mo, **98% less** than 500 `$30/mo` SaaS seats) |
+| **Tier 3: National Scale (`85%` global semantic/deck cache hit rate)** | `100,000 decks/mo` (national merit badge clinics) | `15,000 cold` (`$0.184`) + `85,000 warm` (`$0.020`) | `$4,460.00 / mo` | `$940.00 / mo` (multi-instance autoscaled Cloud Run v2 + Cloud Armor + CDN/GCS + Trace) | **`$5,400.00 / month`** | **`$0.054 / deck`** |

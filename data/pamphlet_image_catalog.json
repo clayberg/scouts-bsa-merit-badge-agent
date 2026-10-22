@@ -6552,8 +6552,8 @@
     "is_alternate": false,
     "alternate_rank": 0,
     "score": 5,
-    "topic": "Cold Chain Food Storage Outside the 40°F–140°F Danger Zone",
-    "caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°F."
+    "topic": "Cold Chain Food Storage Outside the 40\u00b0F\u2013140\u00b0F Danger Zone",
+    "caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40\u00b0F."
   },
   "cooking_p017_img2.png": {
     "badge": "Cooking",
@@ -13627,9 +13627,12 @@
   },
   "golf_p050_img1.png": {
     "badge": "Golf",
-    "req_number": "1",
+    "req_number": "2a(5)",
     "req_numbers": [
-      "1"
+      "1",
+      "2a",
+      "2a(5)",
+      "2a(6)"
     ],
     "is_alternate": false,
     "alternate_rank": 0,
@@ -13639,9 +13642,12 @@
   },
   "golf_p059_img1.png": {
     "badge": "Golf",
-    "req_number": "1",
+    "req_number": "2a(1)",
     "req_numbers": [
-      "1"
+      "1",
+      "2a",
+      "2a(1)",
+      "2a(6)"
     ],
     "is_alternate": true,
     "alternate_rank": 1,
@@ -13651,9 +13657,11 @@
   },
   "golf_p080_img1.png": {
     "badge": "Golf",
-    "req_number": "2",
+    "req_number": "2b(3)",
     "req_numbers": [
-      "2"
+      "2b",
+      "2b(1)",
+      "2b(3)"
     ],
     "is_alternate": false,
     "alternate_rank": 0,
@@ -13663,9 +13671,11 @@
   },
   "golf_p083_img1.png": {
     "badge": "Golf",
-    "req_number": "2",
+    "req_number": "2b(5)",
     "req_numbers": [
-      "2"
+      "2b",
+      "2b(5)",
+      "2b(6)"
     ],
     "is_alternate": true,
     "alternate_rank": 1,
@@ -13675,9 +13685,11 @@
   },
   "golf_p084_img1.png": {
     "badge": "Golf",
-    "req_number": "2",
+    "req_number": "2b(5)",
     "req_numbers": [
-      "2"
+      "2b",
+      "2b(5)",
+      "2b(6)"
     ],
     "is_alternate": true,
     "alternate_rank": 2,
@@ -24056,9 +24068,10 @@
   },
   "skating_p029_img1.png": {
     "badge": "Skating",
-    "req_number": "2",
+    "req_number": "2a",
     "req_numbers": [
-      "2"
+      "2",
+      "2a"
     ],
     "is_alternate": true,
     "alternate_rank": 1,
@@ -24068,9 +24081,10 @@
   },
   "skating_p029_img2.png": {
     "badge": "Skating",
-    "req_number": "2",
+    "req_number": "2a",
     "req_numbers": [
-      "2"
+      "2",
+      "2a"
     ],
     "is_alternate": true,
     "alternate_rank": 2,
@@ -24080,9 +24094,10 @@
   },
   "skating_p049_img1.png": {
     "badge": "Skating",
-    "req_number": "2",
+    "req_number": "2b",
     "req_numbers": [
-      "2"
+      "2",
+      "2b"
     ],
     "is_alternate": false,
     "alternate_rank": 0,
@@ -27125,7 +27140,7 @@
     "alternate_rank": 1,
     "score": 5,
     "topic": "Cold Front 3D Cross Section & Cloud Sequence",
-    "caption": "3D Cold Front profile illustrating the steep 150–1100 frontal slope, towering cumulonimbus anvil, and wind shift."
+    "caption": "3D Cold Front profile illustrating the steep 150\u20131100 frontal slope, towering cumulonimbus anvil, and wind shift."
   },
   "weather_ec2020_s28_img1.png": {
     "badge": "Weather",
@@ -27173,7 +27188,7 @@
     "alternate_rank": 0,
     "score": 5,
     "topic": "Cloud Classification by Altitude Level & Vertical Development",
-    "caption": "Atmospheric cloud classification chart showing Low (<6,500 ft), Middle (6,500–20,000 ft), High (>20,000 ft)."
+    "caption": "Atmospheric cloud classification chart showing Low (<6,500 ft), Middle (6,500\u201320,000 ft), High (>20,000 ft)."
   },
   "weather_ec2020_s47_img1.png": {
     "badge": "Weather",
@@ -27196,8 +27211,8 @@
     "is_alternate": false,
     "alternate_rank": 0,
     "score": 5,
-    "topic": "Earth's 23.5° Axial Tilt, Solstices & Global Climate Zones",
-    "caption": "Earth's 23.5° axial tilt across its annual solar orbit showing the June/December Solstices and March/September."
+    "topic": "Earth's 23.5\u00b0 Axial Tilt, Solstices & Global Climate Zones",
+    "caption": "Earth's 23.5\u00b0 axial tilt across its annual solar orbit showing the June/December Solstices and March/September."
   },
   "weather_p019_img1.png": {
     "badge": "Weather",
@@ -27210,7 +27225,7 @@
     "alternate_rank": 0,
     "score": 5,
     "topic": "Measuring Temperature & Relative Humidity",
-    "caption": "Analog dial thermometer (°C) and relative humidity hygrometer (%) used to measure core atmospheric variables."
+    "caption": "Analog dial thermometer (\u00b0C) and relative humidity hygrometer (%) used to measure core atmospheric variables."
   },
   "weather_p023_img1.png": {
     "badge": "Weather",
@@ -28675,5 +28690,277 @@
     "score": 4,
     "topic": "Flushing a Foreign Object from the Eye",
     "caption": "A responder flushes a patient's eye under a gentle stream of clean running water from the bridge of the nose outward."
+  },
+  "golf_p010_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(1)",
+    "req_numbers": [
+      "2a",
+      "2a(1)"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "USGA Rules of Golf and Handicap System",
+    "caption": "Official United States Golf Association (USGA) rulebook guidance and course etiquette standards."
+  },
+  "golf_p014_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(3)",
+    "req_numbers": [
+      "2a",
+      "2a(3)"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "Modern Titanium and Graphite Golf Woods",
+    "caption": "Modern metal drivers and fairway woods engineered with titanium clubheads and graphite shafts."
+  },
+  "golf_p024_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(3)",
+    "req_numbers": [
+      "2a",
+      "2a(3)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 1,
+    "score": 5,
+    "topic": "Golf Iron Clubhead and Grooved Face",
+    "caption": "Steel golf iron clubhead showing the grooved clubface, hosel, and narrow sole design."
+  },
+  "golf_p027_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(3)",
+    "req_numbers": [
+      "2a",
+      "2a(3)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 2,
+    "score": 5,
+    "topic": "Maintaining and Regripping Golf Clubs",
+    "caption": "Inspecting and maintaining rubber and cord golf club grips for secure hand traction."
+  },
+  "golf_p032_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(5)",
+    "req_numbers": [
+      "2a",
+      "2a(5)"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "Balanced Golf Address Stance and Posture",
+    "caption": "Proper athletic golf address posture with knees flexed, spine tilted from the hips, and arms hanging naturally."
+  },
+  "golf_p033_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(5)",
+    "req_numbers": [
+      "2a",
+      "2a(5)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 1,
+    "score": 5,
+    "topic": "Square Stance Alignment to Target Line",
+    "caption": "Square foot and shoulder alignment parallel to the intended target line for a straight golf shot."
+  },
+  "golf_p039_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(5)",
+    "req_numbers": [
+      "2a",
+      "2a(5)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 2,
+    "score": 5,
+    "topic": "Full Iron Swing and Downward Strike Position",
+    "caption": "Centering ball position in the stance to produce a crisp downward iron strike and follow-through."
+  },
+  "golf_p045_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(6)",
+    "req_numbers": [
+      "2a",
+      "2a(1)",
+      "2a(6)"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "Official 18-Hole Golf Course Scorecard",
+    "caption": "Standard 18-hole golf course scorecard showing hole yardages, par ratings, handicap indexes, and player strokes."
+  },
+  "golf_p046_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(5)",
+    "req_numbers": [
+      "2a",
+      "2a(5)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 3,
+    "score": 5,
+    "topic": "Greenside Chip-and-Run Approach Shot",
+    "caption": "Executing a low chip-and-run approach shot near the green using a mid-iron."
+  },
+  "golf_p047_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(5)",
+    "req_numbers": [
+      "2a",
+      "2a(5)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 4,
+    "score": 5,
+    "topic": "High-Lofted Pitch and Lob Wedge Shot",
+    "caption": "Using a high-lofted wedge to hit a soft pitch shot over a greenside hazard."
+  },
+  "golf_p048_img2.png": {
+    "badge": "Golf",
+    "req_number": "2a(5)",
+    "req_numbers": [
+      "2a",
+      "2a(5)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 5,
+    "score": 5,
+    "topic": "Greenside Sand Bunker Explosion Shot",
+    "caption": "Swinging a flanged sand wedge into the sand behind the ball to splash it cleanly onto the green."
+  },
+  "golf_p061_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(1)",
+    "req_numbers": [
+      "2a",
+      "2a(1)",
+      "2a(6)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 1,
+    "score": 5,
+    "topic": "Course Conduct and Fairway Turf Care",
+    "caption": "Practicing proper golf etiquette, pace of play, and turf care on the fairway and putting green."
+  },
+  "golf_p065_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(2)",
+    "req_numbers": [
+      "2a",
+      "2a(2)"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "Historic Pioneers and Champions of Golf",
+    "caption": "Historic golf champions and pioneers who shaped modern tournament play and equipment design."
+  },
+  "golf_p076_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(4)",
+    "req_numbers": [
+      "2a",
+      "2a(4)"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "PGA Teaching Professional Golf Instruction",
+    "caption": "A golf teaching professional coaching a young player on swing mechanics and club selection."
+  },
+  "golf_p077_img1.png": {
+    "badge": "Golf",
+    "req_number": "2a(4)",
+    "req_numbers": [
+      "2a",
+      "2a(4)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 1,
+    "score": 5,
+    "topic": "Golf Course Architecture and Turf Management",
+    "caption": "Golf course design and turfgrass maintenance managed by course architects and superintendents."
+  },
+  "golf_p085_img1.png": {
+    "badge": "Golf",
+    "req_number": "2b(5)",
+    "req_numbers": [
+      "2b",
+      "2b(5)",
+      "2b(6)"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "Disc Golf Putting into Chain Basket Target",
+    "caption": "A disc golfer focuses on the metal chain target basket while executing a balanced putt."
+  },
+  "golf_p088_img1.png": {
+    "badge": "Golf",
+    "req_number": "2b(5)",
+    "req_numbers": [
+      "2b",
+      "2b(5)"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 2,
+    "score": 5,
+    "topic": "Disc Golf X-Step Footwork and Release",
+    "caption": "Using the X-Step footwork sequence on the tee pad to build momentum and accuracy on a disc golf drive."
+  },
+  "skating_p020_img1.png": {
+    "badge": "Skating",
+    "req_number": "2a",
+    "req_numbers": [
+      "2a"
+    ],
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "score": 5,
+    "topic": "Ice Skate Boot Fit and Blade Care",
+    "caption": "Properly laced ice skating boots providing ankle support and hollow-ground steel blade edges."
+  },
+  "skating_p032_img1.png": {
+    "badge": "Skating",
+    "req_number": "2a",
+    "req_numbers": [
+      "2a"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 1,
+    "score": 5,
+    "topic": "Ice Skating Forward Stroking from T-Position",
+    "caption": "Starting from a balanced T-position on the ice and pushing off the inside edge for forward stroking."
+  },
+  "skating_p047_img1.png": {
+    "badge": "Skating",
+    "req_number": "2b",
+    "req_numbers": [
+      "2b"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 1,
+    "score": 5,
+    "topic": "Quad Roller Skate Anatomy and Care",
+    "caption": "Quad roller skate assembly showing the boot, plate, trucks, urethane wheels, and adjustable toe stop."
+  },
+  "skating_p051_img1.png": {
+    "badge": "Skating",
+    "req_number": "2b",
+    "req_numbers": [
+      "2b"
+    ],
+    "is_alternate": true,
+    "alternate_rank": 2,
+    "score": 5,
+    "topic": "Roller Skating Slalom and Edge Control",
+    "caption": "Executing a controlled serpentine slalom pattern on quad roller skates."
   }
 }

@@ -2382,18 +2382,65 @@ def _try_live_ai_image_synthesis(
         )
         safe_subject = re.sub(
             r"\b(people|persons|adults|campers|paddlers|hikers|instructors)\b",
-            "adult Scouts BSA Leaders in tan Scout uniforms",
+            "adult Scouts BSA Leaders",
             safe_subject,
             flags=re.IGNORECASE,
         )
-        subject_directive = (
-            "Uniform & Attire Requirement: Every person, responder, instructor, or participant depicted in the "
-            "scene MUST wear an authentic Adult Scouts BSA Field Uniform — specifically a classic tan button-up "
-            "short-sleeve Scout uniform shirt with shoulder epaulet loops and buttoned chest pockets, a rolled "
-            "Scout neckerchief with a woggle slide worn at the collar, and olive-green Scout field pants or shorts "
-            "with a web belt. "
+        scene_lower = f"{badge_name} {visual_subject}".lower()
+        is_winter_scene = any(
+            kw in scene_lower
+            for kw in (
+                "snow", "winter", "blizzard", "avalanche", "hypothermia", "frostbite",
+                "ice ", "icy", "ski", "snowboard", "snowshoe", "alpine", "freezing",
+                "cold-weather", "cold weather", "bivouac", "arctic", "glacier",
+            )
         )
-        closing_detail = "with accurate anatomical, uniform, and equipment detail"
+        is_aquatic_scene = any(
+            kw in scene_lower
+            for kw in (
+                "kayak", "canoe", "raft", "whitewater", "rowing", "sailing", "motorboat",
+                "water rescue", "pfd", "life jacket", "lifesaving", "paddleboard",
+            )
+        )
+        is_ppe_scene = any(
+            kw in scene_lower
+            for kw in (
+                "weld", "metalwork", "foundry", "forging", "chemistry", "laboratory",
+                "woodwork", "climbing", "belay", "rappel", "cycling", "biking",
+                "skating", "skateboard", "rifle", "shotgun", "archery",
+            )
+        )
+        if is_winter_scene:
+            subject_directive = (
+                "Weather-Appropriate Winter Attire & Uniform Requirement: Because this scene takes place in snow "
+                "or cold weather, every person, responder, instructor, or participant depicted MUST wear heavy "
+                "insulated winter expedition parkas or cold-weather alpine jackets (in olive green, tan, or safety "
+                "orange/red with a Scouting America emblem patch on the sleeve), a rolled Scout neckerchief worn at "
+                "the warm collar, knit winter beanie hats or ski helmets, insulated winter gloves, warm full-length "
+                "winter field pants, and insulated snow boots. NEVER depict short sleeves, bare arms, or shorts in snow. "
+            )
+        elif is_aquatic_scene:
+            subject_directive = (
+                "Aquatic Safety & Uniform Requirement: Every person or instructor on or near the water MUST wear a "
+                "properly fitted, buckled USCG-approved Personal Flotation Device (PFD life jacket) over weather-appropriate "
+                "Scouts BSA activity attire with a Scout neckerchief or emblem, plus a paddling helmet where appropriate. "
+            )
+        elif is_ppe_scene:
+            subject_directive = (
+                "Activity Safety PPE & Uniform Requirement: Every person, instructor, or participant MUST wear "
+                "activity-appropriate Personal Protective Equipment (such as safety glasses/goggles, helmet, heavy "
+                "gloves, or harness as required by the skill) over an authentic Adult Scouts BSA Field Uniform "
+                "(tan button-up Scout uniform shirt, rolled neckerchief, and full-length olive-green field pants). "
+            )
+        else:
+            subject_directive = (
+                "Uniform & Attire Requirement: Every person, responder, instructor, or participant depicted in the "
+                "scene MUST wear an authentic Adult Scouts BSA Field Uniform — specifically a classic tan button-up "
+                "Scout uniform shirt with shoulder epaulet loops and buttoned chest pockets, a rolled "
+                "Scout neckerchief with a woggle slide worn at the collar, and olive-green Scout field pants "
+                "with a web belt. "
+            )
+        closing_detail = "with accurate anatomical, weather-appropriate uniform/PPE, and equipment detail"
     else:
         safe_subject = re.sub(
             r"\b(adult\s+Scouts\s+BSA\s+Leaders?|Boy\s+Scouts?|Scouts\s+BSA\s+Leaders?)\b",
@@ -2494,16 +2541,20 @@ def _try_live_ai_image_synthesis(
         person_gen_mode = "ALLOW_ADULT" if include_humans else "DONT_ALLOW"
         for img_model in imagen_candidates:
             try:
-                resp = client.models.generate_images(
-                    model=img_model,
-                    prompt=full_visual_prompt,
-                    config={
-                        "number_of_images": 1,
-                        "output_mime_type": "image/png",
-                        "person_generation": person_gen_mode,
-                        "aspect_ratio": "4:3",
-                    },
-                )
+                import warnings
+
+                with warnings.catch_warnings():
+                    warnings.simplefilter("ignore")
+                    resp = client.models.generate_images(
+                        model=img_model,
+                        prompt=full_visual_prompt,
+                        config={
+                            "number_of_images": 1,
+                            "output_mime_type": "image/png",
+                            "person_generation": person_gen_mode,
+                            "aspect_ratio": "4:3",
+                        },
+                    )
                 if resp and getattr(resp, "generated_images", None):
                     img_bytes = resp.generated_images[0].image.image_bytes
                     if _save_ai_image_bytes(img_bytes, style_key, out_path, compress_800x600=compress_800x600):

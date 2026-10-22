@@ -263,7 +263,7 @@
       "req_number": "4",
       "topic_heading": null,
       "lead_text": "Do ONE of the following:",
-      "req_text": "Do ONE of the following: (a) Option A—Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw. (2) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry. (3) Demonstrate a high brace, low brace, and righting pry. (e) Option B—Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry. (h) Option C—Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.",
+      "req_text": "Do ONE of the following: (a) Option A—Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw. (2) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry. (3) Demonstrate a high brace, low brace, and righting pry. (b) Option B—Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry. (c) Option C—Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.",
       "sub_requirements": [
         {
           "sub_id": "4a",
@@ -300,13 +300,13 @@
           ]
         },
         {
-          "sub_id": "4e",
-          "label": "(e)",
+          "sub_id": "4b",
+          "label": "(b)",
           "text": "Option B—Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry.",
           "resources": [],
           "children": [
             {
-              "sub_id": "4e(1)",
+              "sub_id": "4b(1)",
               "label": "(1)",
               "text": "Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.",
               "resources": [
@@ -334,7 +334,7 @@
               "children": []
             },
             {
-              "sub_id": "4e(2)",
+              "sub_id": "4b(2)",
               "label": "(2)",
               "text": "Demonstrate a high brace, low brace, and righting pry.",
               "resources": [
@@ -348,13 +348,13 @@
           ]
         },
         {
-          "sub_id": "4h",
-          "label": "(h)",
+          "sub_id": "4c",
+          "label": "(c)",
           "text": "Option C—Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.",
           "resources": [],
           "children": [
             {
-              "sub_id": "4h(1)",
+              "sub_id": "4c(1)",
               "label": "(1)",
               "text": "Demonstrate the following strokes: bow draw, rudder, and sculling draw.",
               "resources": [
@@ -378,7 +378,7 @@
               "children": []
             },
             {
-              "sub_id": "4h(2)",
+              "sub_id": "4c(2)",
               "label": "(2)",
               "text": "Demonstrate a high brace and low brace.",
               "resources": [

@@ -155,6 +155,14 @@ def generate_ai_editorial_illustration(
     nano_hero_path: Optional[Path] = (
         AI_ILLUSTRATIONS_DIR / f"{slug}_req_{req_slug}_nano_hero.png" if req_slug else None
     )
+    if (nano_hero_path is None or not nano_hero_path.exists()) and req_tag:
+        import re as _re_opt
+
+        m_opt_p = _re_opt.match(r"^(\d+[a-zA-Z])", req_tag.strip())
+        if m_opt_p:
+            cand_opt_hero = AI_ILLUSTRATIONS_DIR / f"{slug}_req_{m_opt_p.group(1).lower()}_nano_hero.png"
+            if cand_opt_hero.exists():
+                nano_hero_path = cand_opt_hero
     if nano_hero_path is not None and nano_hero_path.exists() and nano_hero_path.stat().st_size >= 35_000:
         return {
             "badge_name": badge_name.strip(),
@@ -754,9 +762,15 @@ def beautify_slide_storyboard(
         )
         badge_slug_check = badge_file_slug(badge_name)
         req_slug_check = badge_file_slug(req_num)
+        opt_prefix_check = ""
+        import re as _re_chk
+
+        m_opt_chk = _re_chk.match(r"^(\d+[a-zA-Z])", str(req_num or "").strip())
+        if m_opt_chk:
+            opt_prefix_check = m_opt_chk.group(1).lower()
         has_prebundled_nano_hero = bool(
-            req_slug_check
-            and (AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{req_slug_check}_nano_hero.png").exists()
+            (req_slug_check and (AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{req_slug_check}_nano_hero.png").exists())
+            or (opt_prefix_check and (AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{opt_prefix_check}_nano_hero.png").exists())
         )
         if (
             tier_upper in ("BEAUTIFIED", "STUDIO")

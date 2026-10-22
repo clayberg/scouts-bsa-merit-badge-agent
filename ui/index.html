@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261021f" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261022a" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -200,7 +200,7 @@
 
         <div class="m3-field-group">
           <label class="m3-field-label" for="filter-search-input">Search Merit Badge Name</label>
-          <input class="m3-input" id="filter-search-input" type="search" placeholder="Search all 144 badges (e.g., Weather, First Aid, Kayaking)..." />
+          <input class="m3-input" id="filter-search-input" name="merit-badge-catalog-search" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore="true" data-form-type="other" readonly onfocus="this.removeAttribute('readonly');" onmousedown="this.removeAttribute('readonly');" placeholder="Search all 144 badges (e.g., Weather, First Aid, Kayaking)..." />
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
@@ -208,6 +208,7 @@
             <label class="m3-field-label" for="filter-category-select">Category</label>
             <select class="m3-select" id="filter-category-select">
               <option value="ALL">All Categories</option>
+              <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
             </select>
           </div>
           <div class="m3-field-group">
@@ -216,6 +217,7 @@
               <option value="ALL">All Badges (144)</option>
               <option value="FAVORITES">Favorites (0)</option>
               <option value="EAGLE">Eagle-Required (18)</option>
+              <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
               <option value="ELECTIVE">Electives (126)</option>
             </select>
           </div>
@@ -238,6 +240,22 @@
             </button>
           </div>
           <select class="m3-select" id="badge-select"></select>
+        </div>
+
+        <div class="m3-field-group hidden" id="option-track-field-wrap" style="background:rgba(0,63,135,0.045); border:1px solid rgba(0,63,135,0.18); border-radius:10px; padding:9px 10px; margin-bottom:10px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:6px; flex-wrap:nowrap;">
+            <label class="m3-field-label" for="option-track-select" style="margin-bottom:0; color:var(--color-primary); font-weight:800; font-size:0.74rem; letter-spacing:0.03em; white-space:nowrap;">
+              🔀 Option Track
+            </label>
+            <span class="m3-chip m3-chip-primary" id="option-track-count-chip" style="font-size:0.67rem; font-weight:700; padding:2px 8px; white-space:nowrap; flex-shrink:0; line-height:1.2;">Multi-Option Badge</span>
+          </div>
+          <select class="m3-select" id="option-track-select" style="font-size:0.80rem; padding:6px 26px 6px 9px; font-weight:600; text-overflow:ellipsis;">
+            <option value="ALL">All Option Tracks (Full Multi-Option Deck)</option>
+          </select>
+          <div class="m3-option-track-pills" id="option-track-quick-pills"></div>
+          <div id="option-track-helper-text" style="font-size:0.71rem; color:var(--color-text-muted); margin-top:5px; line-height:1.38;">
+            Scouts complete 1 option track, or you can generate all option tracks in a single deck.
+          </div>
         </div>
 
         <div class="m3-field-group" style="margin-bottom:0;">
@@ -2364,11 +2382,13 @@
           <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 144 patches..." style="width:190px; padding:6px 10px; font-size:0.80rem;" />
           <select class="m3-select" id="patch-gallery-category-select" aria-label="Filter Patch Gallery by Category" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All Categories</option>
+            <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
           </select>
           <select class="m3-select" id="patch-gallery-filter-select" aria-label="Filter Patch Gallery by Eagle or Favorites Status" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All 144 Badges</option>
             <option value="FAVORITES">Favorites</option>
             <option value="EAGLE">★ Eagle-Required (18)</option>
+            <option value="MULTI_OPTION">A|B Multi-Option Badges (18)</option>
             <option value="ELECTIVE">Elective Badges (126)</option>
           </select>
           <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-patch-gallery" style="padding:6px 12px;">✕ Close</button>
@@ -2397,7 +2417,7 @@
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
         <div class="m3-field-group">
           <label class="m3-field-label" for="custom-slide-req-input">2. Requirement / Tag</label>
-          <input type="text" class="m3-input" id="custom-slide-req-input" value="Local" />
+          <input type="text" class="m3-input" id="custom-slide-req-input" name="custom-slide-req-tag" autocomplete="off" data-lpignore="true" data-1p-ignore="true" data-form-type="other" value="Local" />
         </div>
         <div class="m3-field-group">
           <label class="m3-field-label" for="custom-slide-archetype-select">3. Slide Layout</label>
@@ -2436,14 +2456,17 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
       <p style="font-size:0.81rem; color:var(--md-sys-color-on-surface-variant); margin-bottom:10px;">
         Enter the Super-User Admin passphrase (<code>ADMIN_SUPERUSER_TOKEN</code>) to unlock the Cached Image &amp; Caption Studio and Zero-PII Telemetry Dashboard.
       </p>
-      <div class="m3-field-group">
-        <label class="m3-field-label" for="admin-unlock-passphrase-input">Admin Passphrase / Token</label>
-        <input type="password" class="m3-input" id="admin-unlock-passphrase-input" placeholder="Enter ADMIN_SUPERUSER_TOKEN..." />
-      </div>
-      <div id="admin-unlock-error-msg" class="hidden" style="font-size:0.78rem; color:var(--md-sys-color-danger); font-weight:600; margin-bottom:8px;"></div>
-      <button type="button" class="m3-btn m3-btn-filled" id="btn-submit-admin-unlock" style="width:100%; justify-content:center;">
-        🔓 Verify &amp; Open Admin Console
-      </button>
+      <form id="admin-unlock-form" onsubmit="return false;" autocomplete="off">
+        <input type="text" name="username" value="admin-superuser" autocomplete="username" style="display:none;" aria-hidden="true" tabindex="-1" />
+        <div class="m3-field-group">
+          <label class="m3-field-label" for="admin-unlock-passphrase-input">Admin Passphrase / Token</label>
+          <input type="password" class="m3-input" id="admin-unlock-passphrase-input" name="admin-passphrase-token" autocomplete="new-password" data-lpignore="true" data-1p-ignore="true" placeholder="Enter ADMIN_SUPERUSER_TOKEN..." />
+        </div>
+        <div id="admin-unlock-error-msg" class="hidden" style="font-size:0.78rem; color:var(--md-sys-color-danger); font-weight:600; margin-bottom:8px;"></div>
+        <button type="button" class="m3-btn m3-btn-filled" id="btn-submit-admin-unlock" style="width:100%; justify-content:center;">
+          🔓 Verify &amp; Open Admin Console
+        </button>
+      </form>
     </div>
   </div>
 
@@ -3144,6 +3167,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261021f"></script>
+  <script src="/ui/app.js?v=20261022a"></script>
 </body>
 </html>

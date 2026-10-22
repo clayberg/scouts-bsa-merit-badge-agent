@@ -3207,6 +3207,164 @@ def test_v30_multi_option_unrolling_and_winter_attire_visuals(tmp_path):
         assert p.exists() and p.stat().st_size > 1000, f"Missing or empty pre-cached asset: {asset_rel}"
 
 
+def test_online_production_audit_sampler_and_honest_dual_latency(tmp_path) -> None:
+    """Verifies the 5% OnlineProductionAuditSampler, honest dual latency fields, and Admin endpoint."""
+    from fastapi.testclient import TestClient
+    from src.observability.online_audit_sampler import OnlineProductionAuditSampler
+    from src.server import app
+
+    db_file = tmp_path / "online_audit_test.db"
+    jsonl_file = tmp_path / "online_audit_test.jsonl"
+    sampler = OnlineProductionAuditSampler(
+        db_path=str(db_file),
+        sample_rate=0.05,
+        jsonl_sink_path=str(jsonl_file),
+    )
+    assert sampler.sample_rate == 0.05
+
+    mock_workflow = {
+        "badge_name": "First Aid",
+        "option_track": "ALL",
+        "status": "SUCCESS",
+        "hitl_confirmation_token": "hmac_tok_123456",
+        "counselor_name": "Jane Doe PII",
+        "email_address": "jane.doe@example.org",
+        "phone_number": "555-867-5309",
+        "deep_research_enrichment": {
+            "canonical_pamphlet_hash": "a" * 64,
+            "pamphlet_primary_verified": True,
+        },
+        "research_artifact": {
+            "requirements": [{"req_number": "1"}, {"req_number": "2"}],
+        },
+        "storyboard": {
+            "slides": [{"req_number": "1"}, {"req_number": "2"}],
+        },
+        "conformance_report": {
+            "aabb_overlap_count": 0,
+            "min_font_size_pt": 14.5,
+            "visual_quality_score": 97.0,
+        },
+    }
+
+    # First run is always sampled via periodic_1_in_20 guarantee
+    sample_res = sampler.evaluate_and_record_workflow_result(
+        mock_workflow,
+        first_status_event_ms=6.2,
+        true_first_content_token_ms=192.4,
+        total_duration_ms=1780.0,
+    )
+    assert sample_res["sampled"] is True
+    assert sample_res["audit_passed"] is True
+    assert sample_res["canonical_sha256_verified"] is True
+    assert sample_res["subrequirement_coverage_ratio"] == 1.0
+    assert sample_res["first_status_event_ms"] == 6.2
+    assert sample_res["true_first_content_token_ms"] == 192.4
+    assert "counselor_name" not in sample_res
+    assert "email_address" not in sample_res
+    assert jsonl_file.exists()
+
+    summary = sampler.get_online_audit_summary()
+    assert summary["total_sampled_runs"] >= 1
+    assert summary["online_pass_rate"] == 1.0
+    assert summary["zero_pii_enforced"] is True
+
+    client = TestClient(app)
+    r_metrics = client.get("/api/v1/metrics")
+    assert r_metrics.status_code == 200
+    m_json = r_metrics.json()
+    assert "honest_dual_latency_ms" in m_json
+    assert m_json["honest_dual_latency_ms"]["cosmetic_status_timer_conflation"] is False
+    assert "online_production_audit" in m_json
+
+    r_admin = client.get("/api/v1/admin/telemetry/online-audit")
+    assert r_admin.status_code == 200
+    assert r_admin.json()["status"] == "SUCCESS"
+
+
+def test_sse_egress_pii_scrubbing_guardrail() -> None:
+    """Verifies bidirectional SSE egress PII scrubbing in _scrub_sse_event_payload_egress (Pitfall #9)."""
+    from src.server import _scrub_sse_event_payload_egress
+
+    raw_event = {
+        "event": "stage_start",
+        "stage": "research",
+        "message": "Contact counselor@secret-troop.org or call (415) 555-0199 for SSN 123-45-6789.",
+        "error": {"message": "Failed for user john.smith@gmail.com"},
+        "result": {
+            "agent_trace": [
+                {
+                    "agent": "PamphletResearchAgent",
+                    "summary": "Loaded profile for leader@scouting.org at 800-555-1212.",
+                }
+            ]
+        },
+    }
+    scrubbed = _scrub_sse_event_payload_egress(raw_event)
+    assert scrubbed["egress_pii_scrubbed"] is True
+    assert "counselor@secret-troop.org" not in scrubbed["message"]
+    assert "415" not in scrubbed["message"]
+    assert "123-45-6789" not in scrubbed["message"]
+    assert "john.smith@gmail.com" not in scrubbed["error"]["message"]
+    trace_sum = scrubbed["result"]["agent_trace"][0]["summary"]
+    assert "leader@scouting.org" not in trace_sum
+
+
+def test_executable_finops_cost_model_and_multi_tier_tco() -> None:
+    """Verifies scripts/cost_model.py unit economics and Troop/Council/National TCO calculations."""
+    from scripts.cost_model import compute_finops_tco_model
+
+    model = compute_finops_tco_model()
+    assert model["status"] == "VERIFIED"
+    assert model["pre_bundled_visual_assets"] == 3917
+    assert model["hard_budget_ceiling_usd"] == 1.00
+    assert model["cold_default_deck_cost_usd"] == 0.184
+    assert model["warm_cache_deck_cost_usd"] == 0.006
+
+    tiers = {t["tier_id"]: t for t in model["scale_tier_monthly_tco"]}
+    assert "TIER_1_SINGLE_TROOP" in tiers
+    assert "TIER_2_REGIONAL_COUNCIL" in tiers
+    assert "TIER_3_NATIONAL_SCOUTING_AMERICA" in tiers
+
+    council = tiers["TIER_2_REGIONAL_COUNCIL"]
+    assert council["total_monthly_tco_usd"] == 192.50
+    assert council["variable_ai_spend_usd"] == 87.48
+    assert council["fixed_gcp_platform_usd"] == 105.02
+    assert council["net_savings_pct"] >= 98.0
+
+
+def test_submission_bundle_manifest_and_smoke_test() -> None:
+    """Verifies generate_asset_inventory_manifest and run_inprocess_smoke_test."""
+    from scripts.build_submission_bundle import generate_asset_inventory_manifest
+    from scripts.smoke_test_deployment import run_inprocess_smoke_test
+
+    manifest = generate_asset_inventory_manifest()
+    assert manifest["total_curated_visual_assets"] == 3917
+    assert manifest["total_official_merit_badges"] == 144
+    assert manifest["builtin_pptx_templates"] == 17
+    assert len(manifest["sample_sha256_verifications"]) >= 6
+
+    smoke = run_inprocess_smoke_test()
+    assert smoke["status"] == "PASSED"
+    assert smoke["checks"]["cycling_multi_option_tracks"] >= 2
+
+
+def test_patch_gallery_left_column_and_single_card_popover_positioning() -> None:
+    """Verifies .drop-right and .drop-up positioning on Patch Gallery multi-option popovers."""
+    from pathlib import Path
+
+    repo_root = Path(__file__).resolve().parent.parent
+    ui_css = (repo_root / "ui" / "styles.css").read_text(encoding="utf-8")
+    ui_js = (repo_root / "ui" / "app.js").read_text(encoding="utf-8")
+
+    assert ".m3-patch-multiopt-wrap.drop-right .m3-patch-multiopt-menu" in ui_css
+    assert "min-height: 270px !important" in ui_css
+    assert "adjustMultiOptMenuPosition" in ui_js
+    assert "drop-right" in ui_js
+    assert "drop-up" in ui_js
+
+
+
 
 
 

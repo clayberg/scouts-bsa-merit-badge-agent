@@ -75,6 +75,10 @@ class MeritBadgeResearchRequest(BaseModel):
     badge_name: str = Field(..., description="Official name of the merit badge (e.g., 'First Aid').")
     include_eagle_required_focus: bool = Field(True, description="Whether to highlight Eagle-required prerequisites.")
     counselor_info: Optional[CounselorTitleSlideInfo] = Field(None, description="Title slide counselor customization.")
+    option_track: Optional[str] = Field(
+        None,
+        description="Optional multi-option Merit Badge track filter (e.g., 'ALL', 'A', 'B', 'C', 'D', or sub_id like '2a', '2b').",
+    )
 
 
 class RequirementPoint(BaseModel):
@@ -175,6 +179,14 @@ class MeritBadgeResearchResult(BaseModel):
         None,
         description="Printable Scout & Counselor Class Preparation Workbook in Markdown."
     )
+    option_tracks: List[Dict[str, Any]] = Field(
+        default_factory=list,
+        description="Available Option Tracks for multi-option Merit Badges (e.g., Option A: Traditional Golf vs. Option B: Disc Golf).",
+    )
+    selected_option_track: str = Field(
+        "ALL",
+        description="Active Option Track filter applied to this research result ('ALL', 'A', 'B', etc.).",
+    )
     status: str = Field("SUCCESS", description="Execution status.")
 
 
@@ -262,7 +274,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "Give the hiker water and elevate their legs 12 inches",
                         "Move the hiker onto a sleeping pad without stabilizing the neck",
                     ],
-                    "correct_answer": "Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
+                    "correct_answer": "Option B — Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
                     "explanation": "Per the BSA First Aid Pamphlet, rescuers must never become a second victim; scene safety always precedes patient contact.",
                 },
                 "topic_slides": [
@@ -311,7 +323,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "Give the hiker water and elevate their legs 12 inches",
                                 "Move the hiker onto a sleeping pad without stabilizing the neck",
                             ],
-                            "correct_answer": "Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
+                            "correct_answer": "Option B — Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
                             "explanation": "Per the BSA First Aid Pamphlet, rescuers must never become a second victim; scene safety always precedes patient contact.",
                         },
                         "bullets": [
@@ -742,7 +754,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "Have the Scout hold their arm below waist level while hiking",
                         "Apply an ice pack directly onto bare skin for 45 minutes",
                     ],
-                    "correct_answer": "Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
+                    "correct_answer": "Option B — Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
                     "explanation": "Delayed capillary refill (>2 sec) and paresthesia indicate vascular/nerve compression from swelling; loosen ties immediately while maintaining manual stabilization.",
                 },
                 "topic_slides": [
@@ -791,7 +803,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "Have the Scout hold their arm below waist level while hiking",
                                 "Apply an ice pack directly onto bare skin for 45 minutes",
                             ],
-                            "correct_answer": "Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
+                            "correct_answer": "Option B — Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
                             "explanation": "Delayed capillary refill (>2 sec) and paresthesia indicate vascular/nerve compression from swelling; loosen ties immediately while maintaining manual stabilization.",
                         },
                         "bullets": [
@@ -1563,7 +1575,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "An executive order signed by the Chief Justice of the Supreme Court",
                         "A national referendum signed by 10 state governors",
                     ],
-                    "correct_answer": "A two-thirds (2/3) supermajority override vote in both the House and the Senate",
+                    "correct_answer": "Option B — A two-thirds (2/3) supermajority override vote in both the House and the Senate",
                     "explanation": "Under Article I, Section 7 of the U.S. Constitution, Congress can override a presidential veto if both chambers re-pass the bill by a two-thirds vote.",
                 },
                 "topic_slides": [
@@ -1609,7 +1621,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "An executive order signed by the Chief Justice of the Supreme Court",
                                 "A national referendum signed by 10 state governors",
                             ],
-                            "correct_answer": "A two-thirds (2/3) supermajority override vote in both the House and the Senate",
+                            "correct_answer": "Option B — A two-thirds (2/3) supermajority override vote in both the House and the Senate",
                             "explanation": "Under Article I, Section 7 of the U.S. Constitution, Congress can override a presidential veto if both chambers re-pass the bill by a two-thirds vote.",
                         },
                         "bullets": [
@@ -2731,6 +2743,34 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "execution_mode": "IN_CLASS_DISCUSSION",
             },
             {
+                "req_id": "5",
+                "req_number": "5",
+                "action_verb": "Demonstrate",
+                "req_text": "Signaling for Help. Do the following: (a) Show three ways of attracting and communicating with rescue aircraft or drones. (b) Show ways to attract the attention of searchers on the ground if you are lost in the wilderness. (c) Show ways to attract the attention of searchers on the water if you are stranded with a capsized or disabled motorboat or sailboat.",
+                "pamphlet_excerpts": [
+                    "Ground-to-Air Distress Signals (Req 5a): Lay out high-contrast 10-foot ground symbols ('V' for Require Assistance, 'X' for Require Medical Assistance) or aim a heliograph signal mirror toward aircraft and drones.",
+                    "Pilot Acknowledgment Cues: A search pilot signals 'Message Understood / Yes' by dipping the nose of the aircraft up and down, or signals 'No / Not Understood' by fishtailing the plane side to side.",
+                    "Wilderness Ground Signaling (Req 5b): Blow the universal 3-blast distress signal on a pea-less rescue whistle, hang high-visibility orange flagging in a clearing, and tend a green-bough daytime smoke signal fire.",
+                    "Marine & Open-Water Signaling (Req 5c): Stay with a capsized hull for maximum visibility, deploy USCG-approved orange distress flags or daytime smoke signals, and use waterproof strobes and marine whistles.",
+                ],
+                "safety_callout": "Never abandon a capsized boat hull unless it is in immediate danger of sinking or going over a hazard; a hull is far easier for searchers to spot than a swimmer.",
+                "execution_mode": "HANDS_ON_SKILL_STATION",
+            },
+            {
+                "req_id": "6",
+                "req_number": "6",
+                "action_verb": "Demonstrate",
+                "req_text": "Moving an Injured Person. With another person, show two good ways to transport an injured person out of a remote area using improvised stretchers to conserve the energy of rescuers while ensuring the well-being and protection of the injured person.",
+                "pamphlet_excerpts": [
+                    "Scene & Spinal Assessment First: Before moving any injured person in the backcountry, rule out head, neck, or spinal trauma, splint all fractures, and insulate the patient from ground cold.",
+                    "Improvised Two-Pole Blanket or Parka Litter: Thread two sturdy 7-foot wooden poles or lashed ski poles through the sleeves of two zipped winter parkas or fold a heavy camp blanket in thirds around the poles.",
+                    "Sleeping Bag & Tarp Litter Insulation: In cold or snowy terrain, place the casualty inside an insulated sleeping bag and vapor barrier on the stretcher to prevent hypothermia during slow transport.",
+                    "Rescuer Energy Conservation & Rest Cycles: Carry the litter feet-first (except when climbing steep grades), swap bearers frequently, and stop for a 5-to-10-minute rest every 30 to 60 minutes to prevent a second casualty.",
+                ],
+                "safety_callout": "Never move a victim with suspected head, neck, or spinal injury unless they face an immediate life-threatening hazard such as fire, rising water, or avalanche.",
+                "execution_mode": "HANDS_ON_SKILL_STATION",
+            },
+            {
                 "req_id": "8b",
                 "req_number": "8b",
                 "parent_id": "8",
@@ -3142,18 +3182,17 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         ],
                     },
                     {
-                        "title": "Check for Understanding: Dangerous Weather Safety",
+                        "title": "Patrol Scenario: Lightning & Severe Thunderstorm Triage",
                         "layout": "SOCRATIC_CHECKPOINT_QUIZ",
                         "quiz_item": {
-                            "question": "Your patrol is hiking across an open mountain meadow when dark cumulonimbus clouds build overhead, thunder rumbles 15 seconds after a lightning flash, and the NWS upgrades a Severe Thunderstorm Watch to a Warning. What should your patrol do?",
+                            "scenario_prompt": "Your patrol is hiking across an open mountain meadow when dark cumulonimbus clouds build overhead, thunder rumbles 15 seconds after a lightning flash, and the NWS upgrades a Severe Thunderstorm Watch to a Warning. What should your patrol do?",
                             "options": [
-                                "A) Huddle together under the tallest pine tree at the edge of the meadow to stay dry.",
-                                "B) Pitch nylon tents in a rocky ravine so the canyon walls block the wind.",
-                                "C) Descend off the open ridge toward an enclosed building or hard-topped vehicle; if caught in the open away from shelter, spread out 50+ feet apart and crouch low on the balls of your feet.",
-                                "D) Keep hiking along the ridge since a Warning only means storms are possible later tonight.",
+                                "Huddle together under the tallest isolated pine tree at the edge of the meadow to stay dry.",
+                                "Pitch nylon tents in a narrow rocky ravine so the canyon walls block the wind.",
+                                "Descend off the open ridge toward an enclosed building or hard-topped vehicle; if caught in the open away from shelter, spread out 50+ feet apart and crouch low on the balls of your feet.",
                             ],
-                            "correct_option": "C",
-                            "explanation": "A 15-second flash-to-bang means lightning is only 3 miles away, and a Warning means severe weather is imminent. Avoid tall isolated trees (A) and flash-flood ravines (B); seek enclosed shelter or use the dispersed low lightning crouch (C).",
+                            "correct_answer": "Option C — Descend off the ridge to enclosed shelter, or spread out 50+ feet apart in the low lightning crouch.",
+                            "explanation": "A 15-second flash-to-bang means lightning is only 3 miles away, and a Warning means severe weather is imminent. Avoid tall isolated trees (Option A) and flash-flood ravines (Option B).",
                         },
                         "bullets": [
                             "Scenario Triage: Apply outdoor lightning, flash flood, and watch-vs.-warning safety rules during a patrol trek.",
@@ -3207,24 +3246,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                             "24 Hours Before Departure (Route & Hazard Triage): Review the NWS Hourly Weather Graph and Hazardous Weather Outlook; identify bail-out trails if thunderstorms or high winds are forecast.",
                             "At the Trailhead (Final Go / No-Go Check): Tune your portable NOAA Weather Radio to the local VHF frequency and record barometric pressure and sky conditions in your trip log.",
                             "On the Trail (Continuous Monitoring): Listen to scheduled NOAA Weather Radio updates each morning and evening while watching cloud development and wind shifts.",
-                        ],
-                    },
-                    {
-                        "title": "Check for Understanding: Outdoor Forecast Sources",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "Your troop is heading into a wilderness valley with zero cell phone reception for a 3-day weekend campout. Which combination of two forecast sources best prepares your patrol before and during the trip?",
-                            "options": [
-                                "A) A printed farmer's almanac and a smartphone social media app that requires 5G data.",
-                                "B) Pre-trip NWS point forecast & hourly meteogram (weather.gov) for the trailhead elevation, plus a battery/hand-crank NOAA Weather Radio All Hazards receiver carried in camp.",
-                                "C) Looking at the morning sky on Friday and guessing the weekend low temperature.",
-                                "D) Checking the forecast for a city 200 miles away at sea level.",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "NWS point forecasts (weather.gov) adjust for exact mountain elevation before departure, and a portable VHF NOAA Weather Radio receives live NWS warnings in the backcountry without needing cell service.",
-                        },
-                        "bullets": [
-                            "Combine pre-trip digital NWS elevation forecasts with an off-grid VHF NOAA Weather Radio receiver in the field.",
                         ],
                     },
                 ],
@@ -3307,24 +3328,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         ],
                         "caption": "Warm Front 3D Cross-Section: (a) Gentle frontal slope (1:200) and broad precipitation shield; (b) Temperature inversion aloft",
                     },
-                    {
-                        "title": "Check for Understanding: Pressure Systems & Fronts",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "When drawing your cross-sections for your counselor, how does the frontal slope, cloud sequence, and precipitation zone of a Cold Front differ from a Warm Front?",
-                            "options": [
-                                "A) Cold fronts have a gentle 1:200 slope with drizzle far ahead; warm fronts have a steep slope with tornadoes.",
-                                "B) Cold fronts have a steep wedge slope forcing rapid uplift, cumulonimbus storms, and a narrow band of heavy rain right along the front; warm fronts have a gentle overrunning slope producing a broad shield of Ci -> Cs -> As -> Ns clouds and steady rain ahead of the front.",
-                                "C) Both fronts have identical slopes and only produce fair-weather cumulus clouds.",
-                                "D) Warm air wedges underneath cold air in both fronts because warm air is denser.",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "Cold air is denser than warm air: in a cold front it plows steeply under warm air (cumulonimbus squalls along the boundary); in a warm front, warm air glides gently up over retreating cold air (widespread stratus/nimbostratus rain ahead of the boundary).",
-                        },
-                        "bullets": [
-                            "Contrast frontal slope, air-mass density, cloud progression, and precipitation location when sketching your two cross-sections.",
-                        ],
-                    },
                 ],
             },
             {
@@ -3391,24 +3394,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                             "Compare the physical mechanism and particle scale of condensation nuclei, cloud droplets, raindrops, and layered hailstones.",
                         ],
                     },
-                    {
-                        "title": "Check for Understanding: Wind, Rain, Lightning & Hail",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "When you slice open a large hailstone after a summer thunderstorm, you see alternating clear and milky-white rings of ice like an onion. What atmospheric process created those rings?",
-                            "options": [
-                                "A) The hailstone rolled across snowy ground after landing.",
-                                "B) Strong thunderstorm updrafts repeatedly carried the ice pellet up above the 32°F freezing level through supercooled liquid water, adding a new layer of ice on each cycle before it grew too heavy to stay aloft.",
-                                "C) Lightning bolts melted and refroze the raindrop in midair.",
-                                "D) Gentle stratus clouds slowly froze fog droplets at ground level.",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "Hail forms only in cumulonimbus clouds with strong updrafts that cycle the growing hailstone above and below the freezing level through supercooled water droplets.",
-                        },
-                        "bullets": [
-                            "Verify Scout understanding of pressure-gradient wind, coalescence rain, charge-separation lightning, and updraft hail accretion.",
-                        ],
-                    },
                 ],
             },
             {
@@ -3470,18 +3455,17 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         ],
                     },
                     {
-                        "title": "Check for Understanding: Cloud Types & Weather",
+                        "title": "Patrol Scenario: Reading an Approaching Warm Front",
                         "layout": "SOCRATIC_CHECKPOINT_QUIZ",
                         "quiz_item": {
-                            "question": "On Day 1 of a hike you see wispy Cirrus clouds, followed that night by a halo around the Moon in Cirrostratus, and by Day 2 morning a lowering gray sheet of Altostratus and dark Nimbostratus. What weather should your patrol expect?",
+                            "scenario_prompt": "On Day 1 of a backcountry trek you observe high wispy Cirrus clouds, followed that night by a halo around the Moon in Cirrostratus, and by Day 2 morning a lowering gray sheet of Altostratus and dark Nimbostratus. What weather should your patrol prepare for?",
                             "options": [
-                                "A) Immediate clearing and bone-dry desert heat.",
-                                "B) An approaching Warm Front bringing widespread, steady rain or snow from the Nimbostratus deck.",
-                                "C) A brief 10-minute fair-weather cumulus shower followed by blue skies.",
-                                "D) No change in weather for the next week.",
+                                "A fast-moving cold front squall line with brief 15-minute hail followed by rapid clearing.",
+                                "An approaching Warm Front bringing widespread, steady rain or snow over the next 12 to 24 hours from the Nimbostratus deck.",
+                                "High-pressure subsidence bringing clear skies and dropping humidity.",
                             ],
-                            "correct_option": "B",
-                            "explanation": "The classic descending cloud progression (Cirrus -> Cirrostratus halo -> Altostratus -> Nimbostratus) marks warm air overrunning cold air ahead of a warm front, bringing steady precipitation.",
+                            "correct_answer": "Option B — An approaching Warm Front bringing widespread, steady rain or snow.",
+                            "explanation": "The classic descending cloud progression (Cirrus -> Cirrostratus halo -> Altostratus -> Nimbostratus) marks warm air overrunning retreating cold air ahead of a warm front.",
                         },
                         "bullets": [
                             "Relate cloud altitude family and root morphology to current and approaching weather conditions.",
@@ -3541,24 +3525,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         },
                         "bullets": [
                             "Include all four phases (upward vapor, atmospheric cloud transport, precipitation, and surface/groundwater return) on your labeled diagram.",
-                        ],
-                    },
-                    {
-                        "title": "Check for Understanding: The Hydrologic Cycle",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "Which two processes are responsible for moving water from Earth's surface and vegetation upward into the atmosphere as invisible water vapor?",
-                            "options": [
-                                "A) Precipitation and Infiltration",
-                                "B) Evaporation (from oceans, lakes, and soil) and Transpiration (from plants and trees), along with Sublimation from ice/snow",
-                                "C) Condensation and Surface Runoff",
-                                "D) Groundwater Flow and Advection",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "Evaporation (~90%) and plant transpiration (~10%), plus sublimation from snow/ice, supply the water vapor that rises and condenses into clouds.",
-                        },
-                        "bullets": [
-                            "Trace how solar energy and gravity drive the continuous closed-loop recycling of Earth's water.",
                         ],
                     },
                 ],
@@ -3624,24 +3590,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                             "4. Reforestation & Sustainable Land Management: Planting trees, restoring wetlands, and preventing overgrazing protect watersheds and absorb atmospheric carbon.",
                         ],
                     },
-                    {
-                        "title": "Check for Understanding: Human Impacts on the Atmosphere",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "How do sulfur dioxide (SO2) and nitrogen oxides (NOx) from burning fossil fuels alter precipitation, and how does excess carbon dioxide (CO2) affect global climate?",
-                            "options": [
-                                "A) SO2 and NOx cool the Earth's core, while CO2 destroys the stratospheric ozone layer.",
-                                "B) SO2 and NOx react with water vapor in clouds to form sulfuric and nitric acid (acid rain that harms lakes and forests), while excess CO2 traps outgoing infrared heat in the atmosphere (warming global climate and raising sea levels).",
-                                "C) Both gases immediately turn into pure oxygen when exposed to sunlight.",
-                                "D) Human activities only affect indoor air and never reach the troposphere.",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "SO2 and NOx react with atmospheric moisture to produce acid rain, whereas CO2 is a long-lived greenhouse gas that traps infrared heat and drives climate warming.",
-                        },
-                        "bullets": [
-                            "Distinguish between acid rain precursors (SO2/NOx), greenhouse gases (CO2/CH4), and ozone-depleting substances (CFCs).",
-                        ],
-                    },
                 ],
             },
             {
@@ -3695,24 +3643,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         },
                         "bullets": [
                             "Compare solar angle, day length, and seasonal temperature variation across the Equator, Temperate Mid-Latitudes, and Poles.",
-                        ],
-                    },
-                    {
-                        "title": "Check for Understanding: Axial Tilt & Climate Zones",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "Why does the continental United States experience warm summers in June–August and cold winters in December–February, while regions near the Equator stay hot year-round?",
-                            "options": [
-                                "A) The Earth moves twice as close to the Sun every July and twice as far away every January.",
-                                "B) Because Earth's axis is tilted 23.5°, the Northern Hemisphere tilts toward the Sun in June (higher sun angle and longer daylight hours) and tilts away in December, whereas the Equator receives nearly direct overhead sunlight all year.",
-                                "C) Ocean tides push warm water north only during the summer months.",
-                                "D) The Equator is higher in elevation and closer to the top of the troposphere.",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "Earth's 23.5° axial tilt controls both the angle of incoming solar rays and the number of daylight hours across latitudes throughout the year.",
-                        },
-                        "bullets": [
-                            "Explain how solar incidence angle and daylight duration vary across the Equator, Poles, and Temperate Zones.",
                         ],
                     },
                 ],
@@ -3851,24 +3781,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                             "Use a timed 4-part outline to cover Watch vs. Warning, Lightning, Flash Floods, and Tornadoes across 5+ minutes.",
                         ],
                     },
-                    {
-                        "title": "Check for Understanding: 5-Minute Weather Safety Talk",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "Before you stand up in front of a Cub Scout pack or your patrol to deliver your 5-minute talk on lightning, flash flood, and tornado safety for Requirement 11, what required step must you complete first?",
-                            "options": [
-                                "A) Wait until an actual tornado warning is issued.",
-                                "B) Prepare a written outline of your talk and share it with your Weather Merit Badge Counselor for approval BEFORE giving the talk.",
-                                "C) Memorize the entire Weather Merit Badge pamphlet word-for-word without an outline.",
-                                "D) Give a 60-second talk covering only sunny weather.",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "Requirement 11 explicitly specifies: 'Before your talk, share your outline with your counselor for approval,' and the talk must last at least five minutes covering lightning, flash floods, and tornadoes.",
-                        },
-                        "bullets": [
-                            "Confirm counselor outline approval prior to delivering the 5-minute safety presentation.",
-                        ],
-                    },
                 ],
             },
             {
@@ -3923,24 +3835,6 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         },
                         "bullets": [
                             "Cover education, costs, job duties, salary range, job prospects, and advancement path during your counselor discussion.",
-                        ],
-                    },
-                    {
-                        "title": "Check for Understanding: Meteorology Careers",
-                        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-                        "quiz_item": {
-                            "question": "Why do universities require meteorology students to complete rigorous coursework in calculus, differential equations, physics, and computer science?",
-                            "options": [
-                                "A) Because weather forecasting is based on guessing from historical almanacs.",
-                                "B) Because meteorology is applied physics of the atmosphere—predicting how air pressure, temperature, moisture, and winds evolve requires solving fluid-dynamics and thermodynamic equations on supercomputers.",
-                                "C) Only television news anchors need calculus to read a teleprompter.",
-                                "D) Meteorologists only study rocks and tectonic plates.",
-                            ],
-                            "correct_option": "B",
-                            "explanation": "Atmospheric motion and phase changes are governed by physical laws of fluid dynamics and thermodynamics modeled numerically on supercomputers.",
-                        },
-                        "bullets": [
-                            "Synthesize training requirements, operational responsibilities, and career pathways in atmospheric science.",
                         ],
                     },
                 ],
@@ -4321,6 +4215,8 @@ _CURATED_TO_OFFICIAL_REQ_MAP: Dict[str, Dict[str, str]] = {
         "1": "1",
         "2a": "2",
         "2b": "3",
+        "5": "5",
+        "6": "6",
         "8b": "8",
     },
     "Swimming": {
@@ -4409,6 +4305,558 @@ def _merge_curated_with_official_requirements(
                 "sub_requirements": list(off_r.get("sub_requirements") or []),
             })
     return merged_reqs
+
+
+def _normalize_option_track_filter(option_track: Optional[str]) -> str:
+    """Normalizes an option track filter string ('ALL', 'A', 'B', 'Option A', '2a') into 'ALL' or an uppercase letter/digit."""
+    if not option_track or not str(option_track).strip():
+        return "ALL"
+    import re
+
+    raw = str(option_track).strip().upper()
+    if raw in ("ALL", "BOTH", "ALL_OPTIONS", "*"):
+        return "ALL"
+    m_opt = re.match(r"^OPTION\s+([A-Z1-9])\b", raw)
+    if m_opt:
+        return m_opt.group(1)
+    m_sub = re.match(r"^\d+([A-Z])\b", raw)
+    if m_sub:
+        return m_sub.group(1)
+    if len(raw) == 1 and raw.isalnum():
+        return raw
+    return "ALL"
+
+
+_CLEAN_OPTION_TITLE_MAP: Dict[str, str] = {
+    "rifle shooting (modern cartridge type)": "Modern Cartridge Rifle",
+    "air rifle shooting (bb or pellet)": "Air Rifle (BB or Pellet)",
+    "muzzleloading rifle shooting": "Muzzleloading Rifle",
+    "shotgun shooting (modern shotshell type)": "Modern Shotshell Shotgun",
+    "muzzleloading shotgun shooting": "Muzzleloading Shotgun",
+    "newspaper, magazine, and online journalism": "Print & Online Journalism",
+    "radio and television journalism": "Radio & TV Journalism",
+    "family radio service (frs) and general mobile radio service (gmrs) walkie talkies": "FRS & GMRS Walkie-Talkies",
+    "shortwave and medium-wave listening": "Shortwave & Medium-Wave Radio",
+    "amateur radio direction finding": "Radio Direction Finding (ARDF)",
+    "sheet metal mechanic/tinsmith": "Sheet Metal & Tinsmithing",
+    "surface and sedimentary processes": "Surface & Sedimentary Processes",
+    "long jump or high jump": "Long Jump or High Jump",
+    "pull-ups and push-ups": "Pull-Ups & Push-Ups",
+    "football kick or soccer kick": "Football or Soccer Kick",
+}
+
+_OPTION_OVERVIEW_THEMES: Dict[str, str] = {
+    "2a": "Rules, Safety, Equipment & Core Skills",
+    "skating:2a": "Ice Skating: Rink Safety, Skate Care & Ice Maneuvers",
+    "skating:2b": "Roller Skating: Safety Rules, Skate Care & Rink Skills",
+    "skating:2c": "In-Line Skating: Protective Gear, Braking & Street Skills",
+    "skating:2d": "Skateboarding: Board Anatomy, Safety Gear & Park Skills",
+    "rifle shooting:2a": "Modern Cartridge Rifle: Parts, Safe Handling & Marksmanship",
+    "rifle shooting:2b": "Air Rifle (BB or Pellet): Safety, Fundamentals & Grouping",
+    "rifle shooting:2c": "Muzzleloading Rifle: Black Powder Safety, Loading & Grouping",
+    "shotgun shooting:2a": "Modern Shotshell Shotgun: Gauges, Safe Handling & Clay Targets",
+    "shotgun shooting:2b": "Muzzleloading Shotgun: Black Powder Safety, Loading & Clay Targets",
+    "journalism:2a": "Print & Online Journalism: News Analysis & Newsroom Tour",
+    "journalism:2b": "Radio & TV Journalism: Broadcast Newscasts & Station Tour",
+    "snow sports:7a": "Downhill (Alpine) Skiing: Ski Care, Lift Safety & Slope Runs",
+    "snow sports:7b": "Cross-Country (Nordic) Skiing: Touring Gear, Waxing & 4-Mile Tour",
+    "snow sports:7c": "Snowboarding: Fall Prevention, Bindings, Lifts & Slope Runs",
+    "snow sports:7d": "Snowshoeing: Snowshoe Parts, Sizing, Trail Breaking & 2-Mile Hike",
+    "cycling:6a": "Road Biking: Traffic Safety Test, Handling & Distance Rides",
+    "cycling:6b": "Trail or Mixed Surface Biking: Trail Skills, Etiquette & Rides",
+    "archery:5a": "Recurve Bow or Longbow: Bow Parts, Stringing, 11 Steps & Qualification",
+    "archery:5b": "Compound Bow: Bow Parts, Cable Care, 11 Steps & Qualification",
+    "railroading:7a": "Model Railroading: Track Scales, Layout Building & DCC Control",
+    "railroading:7b": "Railfanning: Railroad Museums, Scenic Rides & Trip Planning",
+    "animal science:6a": "Beef Cattle: Production Systems, Feedlot Design & Beef Cuts",
+    "animal science:6b": "Dairy: Milk Production, Grade A Sanitation & Dairy Farm Visit",
+    "animal science:6c": "Horse: Barn Design, Equine History, Care & Feeding",
+    "animal science:6d": "Sheep or Goat: Wool Grading, Milk Products & Flock Care",
+    "animal science:6e": "Hog: Pork Cuts, Breeding & Feeding Programs",
+    "animal science:6f": "Avian: Poultry Housing, Egg Grading & Flock Management",
+    "plant science:8a": "Agronomy: Seedbed Prep, Germination, Crop Pests & Field Crops",
+    "plant science:8b": "Horticulture: Hardiness Zones, Propagation & Landscape Design",
+    "plant science:8c": "Field Botany: Plant Identification, Herbarium Mounts & Tree Study",
+    "geology:4a": "Surface & Sedimentary Processes: Stream Gradients & Deposition",
+    "geology:4b": "Energy Resources: Source & Trap Rocks, Subsurface Maps & Drilling",
+    "geology:4c": "Mineral Resources: Rock Classes, Mineral Properties & Collection",
+    "geology:4d": "Earth History: Geologic Eras, Plate Tectonics & Fossilization",
+    "metalwork:5a": "Sheet Metal & Tinsmithing: Hand Tools, Pattern Sketches & Fabrication",
+    "metalwork:5b": "Silversmith: Silversmithing Tools, Design Sketches & Copper Work",
+    "metalwork:5c": "Founder: Two-Piece Molds, Pattern Design & Metal Casting",
+    "metalwork:5d": "Blacksmith: Forge Tools, Low-Carbon Steel Exercises & Hot Forging",
+    "multisport:4a": "Triathlon: Swim, Bike & Run Training & Transition Setup",
+    "multisport:4b": "Duathlon: Bike & Run Training & Transition Setup",
+    "multisport:4c": "Aquathlon: Swim & Run Training & Transition Setup",
+    "multisport:4d": "Aquabike: Swim & Bike Training & Transition Setup",
+    "radio:8a": "Amateur Radio: FCC Licenses, Q Signals, Transceivers & On-Air QSO",
+    "radio:8b": "Radio Broadcasting: FCC Rules, Program Logs & Station Schedule",
+    "radio:8c": "Shortwave & Medium-Wave Radio: Day vs. Night Propagation Logs",
+    "radio:8d": "Radio Direction Finding (ARDF): Directional Antenna & Fox Hunt",
+    "radio:8e": "FRS & GMRS Walkie-Talkies: Channels, Etiquette & Field Use",
+    "whitewater:4a": "Tandem Canoeist: Bow & Stern Strokes, Braces & Righting Pry",
+    "whitewater:4b": "Solo Canoeist: Solo Strokes, Braces & Righting Pry",
+    "whitewater:4c": "Solo Kayaker: Draw, Rudder, Sculling & High/Low Braces",
+    "disabilities awareness:4a": "Access: Accessibility Audit of School, Worship, Camp & Public Sites",
+    "disabilities awareness:4b": "Accommodation: Facility Accommodations at Community & Scouting Sites",
+    "athletics:5a": "Sprinting: 100-Meter & 200-Meter Dash Progression",
+    "athletics:5b": "Long-Distance Running: 3K & 5K Endurance Progression",
+    "athletics:5c": "Long Jump or High Jump: Running & Standing Jump Progression",
+    "athletics:5d": "Swimming: 100-Meter & 200-Meter Swim Progression",
+    "athletics:5e": "Pull-Ups & Push-Ups: Two-Minute Strength Progression",
+    "athletics:5f": "Baseball Throw: Target Accuracy & Distance Throws",
+    "athletics:5g": "Basketball Shooting: Free Throws, Layups & Perimeter Agility",
+    "athletics:5h": "Football or Soccer Kick: 10-Yard Goal Accuracy & Distance Kicks",
+    "athletics:5i": "Weight Training: Bench Press & Leg Curl Sets",
+}
+
+_CURATED_OPTION_CHUNK_THEMES: Dict[str, List[str]] = {
+    "golf:2a(3)": [
+        "Traditional Golf: Golf History, Equipment Evolution & Champions",
+        "Traditional Golf: Physical Conditioning & Dynamic Warm-Up",
+    ],
+    "golf:2a(5)": [
+        "Traditional Golf: Grip, Stance, Driver & Fairway Woods",
+        "Traditional Golf: Approach Irons, Pitching, Bunker & Putting",
+    ],
+    "golf:2b(3)": [
+        "Disc Golf: Ed Headrick, PDGA Origins & Disc Evolution",
+        "Disc Golf: Disc Flight Categories, Fitness & Warm-Up",
+    ],
+    "golf:2b(5)": [
+        "Disc Golf: Throwing Grips, X-Step & Backhand Drives",
+        "Disc Golf: Forehand Flicks, Overhand & Roller Shots",
+        "Disc Golf: Putting Stances, Flight Angles & Mini Marker",
+    ],
+    "skating:2a": [
+        "Ice Skating: Rink Safety, Natural Ice, Skate Types & Carrying",
+        "Ice Skating: Seasonal Storage, Forward Stop, Glides & T-Stroke",
+        "Ice Skating: Backward Gliding, Backward Stride & 180-Degree Turn",
+        "Ice Skating: Figure-Eight Crossovers, Racing Safety & Hockey Stop",
+    ],
+    "skating:2b": [
+        "Roller Skating: Safety Rules, Skate Anatomy, Care & Forward Stride",
+        "Roller Skating: One-Foot Glides, Forward Crossovers & Backward Stride",
+        "Roller Skating: Forward & Backward Slalom & Rink Shuttle",
+        "Roller Skating: Spins, Jumps, Stepovers & Basketball Agility",
+    ],
+    "skating:2c": [
+        "In-Line Skating: Safety Rules, Skate Anatomy, Protective Gear & Care",
+        "In-Line Skating: Forward Stride, One-Foot Glides, Heel Brake & Crossovers",
+        "In-Line Skating: Forward & Backward Swizzles, Lunge Turn & Mohawk",
+        "In-Line Skating: Downhill Slalom, Passing Etiquette, Obstacles & Curbs",
+    ],
+    "skating:2d": [
+        "Skateboarding: History, Fitness Benefits, Rules & Protective Gear",
+        "Skateboarding: Street vs. Vert, Board Anatomy, Assembly & Maintenance",
+        "Skateboarding: Regular vs. Goofy Stance, Pushing, Carving & Braking",
+        "Skateboarding: Basic Ollie, Coping Drop-In & Trick Demonstrations",
+    ],
+    "rifle shooting:2a": [
+        "Modern Cartridge Rifle: Rifle Parts, Safe Storage, Cartridges & Malfunctions",
+        "Modern Cartridge Rifle: Five Shooting Fundamentals, Range Safety & Cleaning",
+        "Modern Cartridge Rifle: Rifle Selection, Benchrest Grouping & Sight Adjustment",
+    ],
+    "rifle shooting:2b": [
+        "Air Rifle (BB or Pellet): Air Gun Parts, Safe Handling, Pellets & Fundamentals",
+        "Air Rifle (BB or Pellet): Range Commands, Cleaning Rules & Maintenance",
+        "Air Rifle (BB or Pellet): Air Rifle Selection, Grouping & Sight Adjustment",
+    ],
+    "rifle shooting:2c": [
+        "Muzzleloading Rifle: History, Principal Parts, Safe Handling & Black Powder",
+        "Muzzleloading Rifle: Powder Storage, Load Components, Loading & Misfires",
+        "Muzzleloading Rifle: Range Safety, Cleaning Rules & Proper Maintenance",
+        "Muzzleloading Rifle: Rifle Selection, Target Grouping & Sight Adjustment",
+    ],
+    "shotgun shooting:2a": [
+        "Modern Shotshell Shotgun: Action Types, Safe Handling, Shells & Gauges",
+        "Modern Shotshell Shotgun: Misfires & Hangfires, Range Safety & Cleaning Rules",
+        "Modern Shotshell Shotgun: Proper Cleaning, Shotgun Selection & Moving Targets",
+    ],
+    "shotgun shooting:2b": [
+        "Muzzleloading Shotgun: History, Parts, Safe Handling & Black Powder Grades",
+        "Muzzleloading Shotgun: Powder Storage, Load Components & Safe Loading",
+        "Muzzleloading Shotgun: Misfire Procedures, Range Safety & Cleaning Rules",
+        "Muzzleloading Shotgun: Proper Cleaning, Shotgun Selection & Moving Targets",
+    ],
+    "snow sports:7a": [
+        "Downhill (Alpine) Skiing: Ski Waxing, Bindings, Teaching System & Lifts",
+        "Downhill (Alpine) Skiing: Beginner Maneuvers, Linked Wedge Turns & Christies",
+        "Downhill (Alpine) Skiing: Intermediate Slope Runs, Varied Terrain & Organizations",
+    ],
+    "snow sports:7b": [
+        "Cross-Country (Nordic) Skiing: Equipment Care, Trail Rules, Ski Types & Waxing",
+        "Cross-Country (Nordic) Skiing: Touring Styles, Day Pack, Map & Speed Control",
+        "Cross-Country (Nordic) Skiing: Weight Transfer, 4-Mile Tour & Steep Hills",
+    ],
+    "snow sports:7c": [
+        "Snowboarding: Fall Prevention, Protective Gear, Bindings & Board Types",
+        "Snowboarding: Ski Lifts, Board Waxing, Slope Maneuvers & Ollies",
+        "Snowboarding: Intermediate Slope Run, Varied Snow Conditions & Organizations",
+    ],
+    "snow sports:7d": [
+        "Snowshoeing: Snowshoe Parts, Sizing, Specialized Types & Maintenance",
+        "Snowshoeing: Day Hike Gear, Backcountry Terrain Hazards & Fitness Benefits",
+        "Snowshoeing: Breaking Trail, 2-Mile Snowshoe Hike & Map Navigation",
+    ],
+    "railroading:7a": [
+        "Model Railroading: Layout Design, Kit Building, Track Scales & Resources",
+        "Model Railroading: Structure Weathering, Scenery, Switching & DC/DCC Control",
+    ],
+    "archery:5a": [
+        "Recurve Bow or Longbow: Bow Parts, Care & 11 Steps of Shooting",
+        "Recurve Bow or Longbow: Bow Stringing, Nocking Point & Qualification",
+    ],
+    "archery:5b": [
+        "Compound Bow: Bow Parts, Care & 11 Steps of Shooting",
+        "Compound Bow: String & Cable Service, Nocking Point & Qualification",
+    ],
+    "animal science:6b": [
+        "Dairy: Forage Conversion, Milk Components & Grade A Pasteurization",
+        "Dairy: Milking Equipment, Sanitation, Dairy Terms & Farm Visit",
+    ],
+    "plant science:8c": [
+        "Field Botany: Natural Area Study, Woody Plants & Identification Keys",
+        "Field Botany: Herbarium Specimen Mounts, Rare Plants & Tree Inventory",
+    ],
+    "geology:4d": [
+        "Earth History: Geologic Time Scale, Plate Tectonics & Fossilization",
+        "Earth History: Ancient Environments, Fossil Collection & Museum Study",
+    ],
+    "radio:8a": [
+        "Amateur Radio: FCC Service Purpose, License Classes & Q Signals",
+        "Amateur Radio: Emergency Calls, Transceivers, Antennas & 10-Minute QSO",
+    ],
+}
+
+
+def _clean_option_title(raw_title: str, opt_key: str = "A") -> str:
+    """Returns a concise, human-readable option name without redundant 'Option X' prefixes."""
+    import re
+
+    cleaned = re.sub(
+        r"^Option\s+[A-Z1-9](?:\s*[—–\-:]\s*|\s+)",
+        "",
+        str(raw_title or "").strip(),
+        flags=re.IGNORECASE,
+    ).strip(" .,:;—–-")
+    mapped = _CLEAN_OPTION_TITLE_MAP.get(cleaned.lower())
+    if mapped:
+        return mapped
+    return cleaned if cleaned else f"Option {opt_key}"
+
+
+def partition_balanced_subreq_chunks(sub_reqs: List[Dict[str, Any]], max_per_chunk: int = 4) -> List[List[Dict[str, Any]]]:
+    """Splits sub_reqs into balanced chunks of 2-4 items so no slide ever has a lone 1-card orphan."""
+    n = len(sub_reqs)
+    if n == 0:
+        return []
+    if n <= max_per_chunk:
+        return [list(sub_reqs)]
+    num_chunks = (n + max_per_chunk - 1) // max_per_chunk
+    base_sz = n // num_chunks
+    extra = n % num_chunks
+    chunks: List[List[Dict[str, Any]]] = []
+    idx = 0
+    for i in range(num_chunks):
+        sz = base_sz + (1 if i < extra else 0)
+        chunks.append(list(sub_reqs[idx : idx + sz]))
+        idx += sz
+    return chunks
+
+
+def get_badge_option_tracks(badge_name: str) -> List[Dict[str, Any]]:
+    """Returns structured Option Track metadata for multi-option Merit Badges (e.g., Golf, Skating, Cycling, Archery)."""
+    if not badge_name or not str(badge_name).strip():
+        return []
+    import re
+
+    official_cache = _load_official_requirements_cache()
+    target_reqs: Optional[List[Dict[str, Any]]] = official_cache.get(str(badge_name).strip())
+    if not target_reqs:
+        lower_b = str(badge_name).strip().lower()
+        for k, v in official_cache.items():
+            if k.lower() == lower_b:
+                target_reqs = v
+                break
+    if not target_reqs:
+        return []
+
+    tracks: List[Dict[str, Any]] = []
+    for r in target_reqs:
+        r_num = str(r.get("req_number") or "")
+        subs = r.get("sub_requirements") or []
+        opt_subs = [
+            sr
+            for sr in subs
+            if re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
+        ]
+        if len(opt_subs) >= 2:
+            for sr in opt_subs:
+                txt = str(sr.get("text") or "").strip()
+                m = re.match(
+                    r"^Option\s+([A-Z1-9])(?:\s*[—–\-:]\s*|\s+)([^.]+)",
+                    txt,
+                    flags=re.IGNORECASE,
+                )
+                opt_key = m.group(1).upper() if m else str(sr.get("label") or "a").strip("()").upper()
+                raw_opt_title = m.group(2).strip() if m else f"Option {opt_key}"
+                opt_title = _clean_option_title(raw_opt_title, opt_key)
+                sub_id = str(sr.get("sub_id") or f"{r_num}{opt_key.lower()}")
+                children = sr.get("children") or []
+                tracks.append({
+                    "option_key": opt_key,
+                    "sub_id": sub_id,
+                    "req_number": r_num,
+                    "parent_req_id": r_num,
+                    "title": opt_title,
+                    "option_title": opt_title,
+                    "raw_option_title": raw_opt_title,
+                    "label": f"Option {opt_key}: {opt_title} (Req {sub_id})",
+                    "sub_count": len(children),
+                })
+    return tracks
+
+
+def _unroll_multi_option_requirements(
+    badge_name: str,
+    raw_reqs: List[Dict[str, Any]],
+    option_track: Optional[str] = None,
+) -> List[Dict[str, Any]]:
+    """Unrolls multi-option ('Two-Badges-in-One') requirements into structured teaching units and filters by option_track."""
+    import re
+
+    opt_filter = _normalize_option_track_filter(option_track)
+    badge_lower = str(badge_name or "").strip().lower()
+
+    unrolled: List[Dict[str, Any]] = []
+    for r in raw_reqs:
+        subs = list(r.get("sub_requirements") or [])
+        opt_subs = [
+            sr
+            for sr in subs
+            if re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
+        ]
+        if len(opt_subs) < 2:
+            unrolled.append(r)
+            continue
+
+        # Filter option sub-requirements if Counselor selected a specific Option Track (e.g. 'A' or 'B')
+        if opt_filter != "ALL":
+            matched_opts = []
+            for sr in opt_subs:
+                m_o = re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
+                o_key = m_o.group(1).upper() if m_o else str(sr.get("label") or "").strip("()").upper()
+                if o_key == opt_filter or str(sr.get("sub_id") or "").upper() == opt_filter:
+                    matched_opts.append(sr)
+            active_opt_subs = matched_opts if matched_opts else opt_subs
+        else:
+            active_opt_subs = opt_subs
+
+        # Case 1: Golf ('Two-Badges-in-One': Option A Traditional Golf vs. Option B Disc Golf)
+        # Unroll each active Option into 4 rich sub-requirement teaching units with clean option headers (no 'Option A/B' redundancy)
+        if badge_lower == "golf":
+            for sr in active_opt_subs:
+                txt = str(sr.get("text") or "").strip()
+                m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[—–\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
+                opt_k = m.group(1).upper() if m else "A"
+                opt_title = _clean_option_title(m.group(2).strip() if m else f"Option {opt_k}", opt_k)
+                base_sub_id = str(sr.get("sub_id") or f"2{opt_k.lower()}")
+                children = list(sr.get("children") or [])
+                if len(children) >= 6:
+                    if opt_k == "A":
+                        groups = [
+                            (
+                                f"{base_sub_id}(1)",
+                                "Traditional Golf: USGA Rules, Etiquette & Handicap System",
+                                "Explain",
+                                "IN_CLASS_DISCUSSION",
+                                [children[0], children[1]],
+                                [
+                                    "USGA Rules of Golf (Req 2a(1)): The United States Golf Association and The R&A govern play, equipment standards, penalty areas, unplayable ball relief, and pace of play.",
+                                    "Order of Play & Teeing Ground: The player with the lowest score on the previous hole has the 'honor' on the next tee; on the fairway and green, the ball farthest from the hole is played first.",
+                                    "Course Etiquette & Turf Care: Stand still and quiet while others swing, repair divots on the fairway, rake sand bunkers smooth, and fix ball pitch marks on the putting green.",
+                                    "World Handicap System (Req 2a(2)): A Golfer's Handicap Index measures potential ability adjusted for Course Rating and Slope Rating so players of different skill levels can compete equitably.",
+                                ],
+                            ),
+                            (
+                                f"{base_sub_id}(3)",
+                                "Traditional Golf: Golf History, Pioneers & Fitness Plan",
+                                "Explain",
+                                "IN_CLASS_DISCUSSION",
+                                (children[2].get("children") or [children[2]]) + (children[3].get("children") or [children[3]]),
+                                [
+                                    "Early Origins & Evolution of Equipment (Req 2a(3)(a)): Originating in 15th-century Scotland at St Andrews, golf evolved from hickory-shafted clubs and feathery/gutta-percha balls to modern titanium heads and dimpled urethane balls.",
+                                    "Historical Pioneers & Champions (Req 2a(3)(b)): Study the impact of Old Tom Morris, Bobby Jones, Babe Didrikson Zaharias, Ben Hogan, Arnold Palmer, Jack Nicklaus, Annika Sorenstam, and Tiger Woods.",
+                                    "Core & Rotational Conditioning (Req 2a(4)(a)): Golf requires thoracic spine mobility, hip rotation, core stability, and forearm endurance to generate clubhead speed without lower-back strain.",
+                                    "Pre-Round Dynamic Warm-Up (Req 2a(4)(b)): Perform 10 minutes of torso twists, hip hinges, shoulder circles, and progressive half-to-full practice swings before teeing off.",
+                                ],
+                            ),
+                            (
+                                f"{base_sub_id}(5)",
+                                "Traditional Golf: Grip, Stance, Woods, Irons, Bunker & Putting",
+                                "Demonstrate",
+                                "HANDS_ON_SKILL_STATION",
+                                children[4].get("children") or [children[4]],
+                                [
+                                    "Grip, Stance & Full Swing Fundamentals (Req 2a(5)(a)): Use a neutral Vardon overlap, interlocking, or ten-finger grip with a balanced shoulder-width athletic stance and smooth tempo.",
+                                    "Driver & Fairway Woods (Req 2a(5)(b)-(c)): Tee the driver high inside the lead heel for a sweeping ascending strike; sweep fairway woods cleanly off the turf when distance is required.",
+                                    "Long & Short Iron Approach Shots (Req 2a(5)(d)-(f)): Strike irons with a descending blow (ball first, then turf divot), and use pitch and chip-and-run shots around the green.",
+                                    "Greenside Bunker & Putting Stroke (Req 2a(5)(g)-(h)): Open the sand wedge clubface in bunkers to splash sand 2 inches behind the ball; putt with a pendulum shoulder rock while reading green slope.",
+                                ],
+                            ),
+                            (
+                                f"{base_sub_id}(6)",
+                                "Traditional Golf: 18-Hole Round, Course Conduct & Golf Careers",
+                                "Demonstrate",
+                                "PREREQUISITE_CAMPOUT_HOME",
+                                (children[5].get("children") or [children[5]]) + children[6:],
+                                [
+                                    "Playing an 18-Hole Round (Req 2a(6)(a)): Play a full 18-hole round (or two 9-hole rounds) with your counselor or an approved adult, recording accurate stroke totals on your scorecard.",
+                                    "Sportsmanship & Course Maintenance (Req 2a(6)(b)-(c)): Maintain a brisk pace of play ('Ready Golf'), control emotions after poor shots, replace divots, and leave every green better than you found it.",
+                                    "Golf Industry Career Pathways (Req 2a(7)(a)): Explore careers including PGA Teaching Professional, Golf Course Superintendent (agronomy/turfgrass), Golf Course Architect, Club Fitter, and Tournament Director.",
+                                    "Amateur vs. Professional Status (Req 2a(7)(b)): Understand USGA Amateur Status rules governing prize limits, collegiate eligibility, and PGA/LPGA professional certification requirements.",
+                                ],
+                            ),
+                        ]
+                    else:
+                        groups = [
+                            (
+                                f"{base_sub_id}(1)",
+                                "Disc Golf: PDGA Rules, Courtesy (812) & Scoring (808)",
+                                "Explain",
+                                "IN_CLASS_DISCUSSION",
+                                (children[0].get("children") or [children[0]]) + [children[1]],
+                                [
+                                    "PDGA Official Rules of Disc Golf (Req 2b(1)): The Professional Disc Golf Association governs throwing order, marking the lie (30 cm x 20 cm box behind the disc), out-of-bounds relief, and completion of the hole in the basket.",
+                                    "PDGA Rule 812 Courtesy & Park Safety (Req 2b(1)(a)): Always yield to park pedestrians and other facility users, never throw into blind areas without a spotter, and remain quiet behind the active thrower.",
+                                    "PDGA Rule 808 Scoring & Handicaps (Req 2b(1)(b)-(2)): After each hole, call out and verify every player's score (throws plus penalty strokes); player ratings and handicaps allow mixed-skill competition.",
+                                    "Course Preservation & Leave No Trace: Protect trees and bark from unnecessary practice throws, pack out all trash, and stay on established trails between tee pads and baskets.",
+                                ],
+                            ),
+                            (
+                                f"{base_sub_id}(3)",
+                                "Disc Golf: Ed Headrick, Disc Design Evolution & Fitness",
+                                "Explain",
+                                "IN_CLASS_DISCUSSION",
+                                (children[2].get("children") or [children[2]]) + (children[3].get("children") or [children[3]]),
+                                [
+                                    "History & Pioneers of Disc Golf (Req 2b(3)(a)-(b)): Trace the sport from early tin-lid and Frisbee target games to 'Steady' Ed Headrick, who patented the modern Disc Pole Hole chain basket and founded the PDGA in 1976.",
+                                    "Four Disc Categories & Flight Ratings (Req 2b(3)): Compare sharp-rimmed Distance Drivers, controllable Fairway Drivers, versatile Mid-Range discs, and deep-rimmed Putters across Speed, Glide, Turn, and Fade.",
+                                    "Athletic Conditioning for Disc Golf (Req 2b(4)(a)): Build core rotational power, single-leg plant stability, shoulder rotator cuff strength, and hiking endurance for 18-hole wooded courses.",
+                                    "Pre-Round Warm-Up & Injury Prevention (Req 2b(4)(b)): Warm up wrists, elbows, rotator cuffs, hips, and ankles with dynamic stretches and light catch-and-putt drills before throwing full-power drives.",
+                                ],
+                            ),
+                            (
+                                f"{base_sub_id}(5)",
+                                "Disc Golf: Grips, X-Step, Backhand, Forehand, Roller & Putting",
+                                "Demonstrate",
+                                "HANDS_ON_SKILL_STATION",
+                                children[4].get("children") or [children[4]],
+                                [
+                                    "Disc Grips & X-Step Run-Up (Req 2b(5)(a)-(b)): Tuck all four fingertips tightly against the inner rim for a Power Grip on drives, or spread fingers across the flight plate for a Fan Grip; use the smooth X-step footwork to transfer weight.",
+                                    "Backhand, Forehand & Overhand Shots (Req 2b(5)(c)-(e)): Pull the disc on a straight line across the chest for a Backhand (hyzer, flat, anhyzer), snap the wrist with a two-finger stack for a Forehand flick, or throw an Overhand tomahawk/thumber.",
+                                    "Roller Shots & Flight Angles (Req 2b(5)(f)): Release the disc on a steep anhyzer angle so it lands on its edge and rolls straight down low-ceiling wooded fairways.",
+                                    "In-Line & Straddle Putting + Mini Marker (Req 2b(5)(g)-(k)): Demonstrate both in-line and straddle putting stances inside the 10-meter circle, and properly place a mini marker disc directly in front of your thrown disc before picking it up.",
+                                ],
+                            ),
+                            (
+                                f"{base_sub_id}(6)",
+                                "Disc Golf: 18-Hole Round, Park Stewardship & Careers",
+                                "Demonstrate",
+                                "PREREQUISITE_CAMPOUT_HOME",
+                                (children[5].get("children") or [children[5]]) + children[6:],
+                                [
+                                    "Playing an 18-Hole Disc Golf Round (Req 2b(6)(a)): Complete an 18-hole round (or two 9-hole rounds) with your counselor or an approved adult, following PDGA rules and keeping an accurate scorecard.",
+                                    "Sportsmanship & Course Courtesy (Req 2b(6)(b)-(c)): Allow faster groups to play through, help search for lost discs (3-minute rule), yield to non-playing park visitors, and protect course vegetation.",
+                                    "Disc Golf Industry Careers (Req 2b(7)(a)): Investigate careers as a Disc Golf Course Designer, PDGA Tournament Director, Aerospace/Plastics Disc Mould Engineer, Parks & Recreation Manager, or Touring Instructor.",
+                                    "Amateur vs. Touring Professional Pathways (Req 2b(7)(b)): Compare PDGA Amateur divisions and points series with Pro Tour qualification, sponsorship, and PDGA Certified Official credentials.",
+                                ],
+                            ),
+                        ]
+                    for u_id, u_title, u_verb, u_mode, u_subs, u_excerpts in groups:
+                        joined_txt = " ".join(
+                            f"{s_item.get('label', '')} {s_item.get('text', '')}".strip()
+                            for s_item in u_subs
+                            if s_item.get("text")
+                        )
+                        unrolled.append({
+                            "req_id": u_id,
+                            "req_number": u_id,
+                            "parent_id": str(r.get("req_number") or "2"),
+                            "topic_title": u_title,
+                            "action_verb": u_verb,
+                            "execution_mode": u_mode,
+                            "req_text": f"{opt_title}: {joined_txt}",
+                            "pamphlet_excerpts": u_excerpts,
+                            "sub_requirements": u_subs,
+                        })
+                else:
+                    unrolled.append({
+                        "req_id": base_sub_id,
+                        "req_number": base_sub_id,
+                        "parent_id": str(r.get("req_number") or "2"),
+                        "topic_title": f"{opt_title}: Rules, Equipment & Course Play",
+                        "req_text": txt,
+                        "sub_requirements": children,
+                    })
+            continue
+
+        # Case 2: All Other Multi-Option Badges (Skating, Rifle/Shotgun Shooting, Journalism, Snow Sports, Cycling, Archery, Animal/Plant Science, Geology, Metalwork, Multisport, Radio, Railroading, Whitewater, Disabilities Awareness, Athletics)
+        for sr in active_opt_subs:
+            txt = str(sr.get("text") or "").strip()
+            m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[—–\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
+            opt_k = m.group(1).upper() if m else "A"
+            raw_opt_title = m.group(2).strip() if m else f"Option {opt_k}"
+            opt_title = _clean_option_title(raw_opt_title, opt_k)
+            base_sub_id = str(sr.get("sub_id") or f"{r.get('req_number', '2')}{opt_k.lower()}")
+            children = list(sr.get("children") or [])
+            lookup_key = f"{badge_lower}:{base_sub_id.lower()}"
+            overview_title = _OPTION_OVERVIEW_THEMES.get(
+                lookup_key,
+                f"{opt_title}: Core Requirements & Field Demonstration",
+            )
+            curated_chunk_titles = _CURATED_OPTION_CHUNK_THEMES.get(lookup_key, [])
+
+            # When a single Option Track is selected and has 5+ children, unroll into balanced 3-4 sub-requirement units
+            # with descriptive thematic titles (never '(1)-(5)' or '(6)-(10)')
+            if len(active_opt_subs) == 1 and len(children) >= 5:
+                chunks = partition_balanced_subreq_chunks(children, max_per_chunk=4)
+                for c_idx, chunk in enumerate(chunks):
+                    first_ch = chunk[0]
+                    last_ch = chunk[-1]
+                    u_id = str(first_ch.get("sub_id") or f"{base_sub_id}({c_idx * 4 + 1})")
+                    if c_idx < len(curated_chunk_titles):
+                        chunk_title = curated_chunk_titles[c_idx]
+                    else:
+                        f_lbl = str(first_ch.get("label") or "").strip("()")
+                        l_lbl = str(last_ch.get("label") or "").strip("()")
+                        part_lbl = f"Reqs {base_sub_id}({f_lbl})-{base_sub_id}({l_lbl})" if f_lbl != l_lbl else f"Req {base_sub_id}({f_lbl})"
+                        chunk_title = f"{opt_title}: Part {c_idx + 1} ({part_lbl})"
+                    joined_txt = " ".join(
+                        f"{ch_i.get('label', '')} {ch_i.get('text', '')}".strip()
+                        for ch_i in chunk
+                        if ch_i.get("text")
+                    )
+                    unrolled.append({
+                        "req_id": u_id,
+                        "req_number": u_id,
+                        "parent_id": base_sub_id,
+                        "topic_title": chunk_title,
+                        "req_text": f"{opt_title}: {joined_txt}",
+                        "sub_requirements": chunk,
+                    })
+            else:
+                unrolled.append({
+                    "req_id": base_sub_id,
+                    "req_number": base_sub_id,
+                    "parent_id": str(r.get("req_number") or "2"),
+                    "topic_title": overview_title,
+                    "req_text": txt,
+                    "sub_requirements": children if children else [sr],
+                })
+
+    return unrolled
 
 
 # ==============================================================================
@@ -4602,6 +5050,7 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
     official_cache = _load_official_requirements_cache()
 
     # 1. Case-insensitive lookup in rich benchmark database + live BSA Pamphlet PDF enrichment
+    req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None))
     for key, data in BENCHMARK_BADGES_DATA.items():
         if key.lower() == badge_title.lower():
             raw_reqs = _merge_curated_with_official_requirements(
@@ -4609,6 +5058,7 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
                 list(data["requirements"]),
                 official_cache.get(key) or [],
             )
+            raw_reqs = _unroll_multi_option_requirements(key, raw_reqs, option_track=req_opt_track)
 
             enriched_reqs = [
                 RequirementPoint(
@@ -4644,6 +5094,8 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
                 requirements=enriched_reqs,
                 triage_summary=triage_counts,
                 counselor_workbook_markdown=workbook_md,
+                option_tracks=get_badge_option_tracks(key),
+                selected_option_track=req_opt_track,
                 status="SUCCESS",
             )
             return result.model_dump()
@@ -4690,6 +5142,9 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
             }
             for i, off_r in enumerate(cached_official_reqs)
         ]
+        raw_fallback_reqs = _unroll_multi_option_requirements(
+            resolved_name, raw_fallback_reqs, option_track=req_opt_track
+        )
     else:
         pamphlet_chapter_reqs = extract_chapters_as_requirements_from_pamphlet(resolved_name)
         if pamphlet_chapter_reqs:
@@ -4805,6 +5260,8 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
         requirements=enriched_fallback,
         triage_summary=triage_counts,
         counselor_workbook_markdown=workbook_md,
+        option_tracks=get_badge_option_tracks(resolved_name),
+        selected_option_track=req_opt_track,
         status="SUCCESS",
     )
     return result.model_dump()

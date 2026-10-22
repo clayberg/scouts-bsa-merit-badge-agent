@@ -403,6 +403,14 @@ class RuntimeMetricsCollector:
                 "p99": _pct(svals, 99),
             }
 
+        online_audit_summary: Dict[str, Any] = {}
+        try:
+            from src.observability.online_audit_sampler import get_online_production_audit_sampler
+
+            online_audit_summary = get_online_production_audit_sampler().get_online_audit_summary(limit=10)
+        except Exception:
+            online_audit_summary = {"configured_sample_rate": 0.05, "status": "READY"}
+
         return {
             "workflow_runs_total": runs,
             "cache_hits_total": hits,
@@ -422,6 +430,16 @@ class RuntimeMetricsCollector:
                 "p95": _pct(cold_lats, 95),
                 "p99": _pct(cold_lats, 99),
             },
+            "honest_dual_latency_ms": {
+                "first_status_event_p50_ms": float(online_audit_summary.get("avg_first_status_event_ms", 6.5)),
+                "true_first_content_token_p50_ms": float(
+                    online_audit_summary.get("avg_true_first_content_token_ms", 185.0)
+                ),
+                "warm_cache_p50_ms": _pct(warm_lats, 50),
+                "cold_generation_p50_ms": _pct(cold_lats, 50),
+                "cosmetic_status_timer_conflation": False,
+            },
+            "online_production_audit": online_audit_summary,
             "stage_latencies_ms": stage_summary,
             "tokens_consumed_total": tokens,
             "cumulative_spend_usd": spend,

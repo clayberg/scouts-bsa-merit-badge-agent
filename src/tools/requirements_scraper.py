@@ -213,12 +213,17 @@ def parse_scouting_org_badge_html(
                     li_parent_dom_id = cls.replace("mb-parent-", "")
 
             c_text, c_resources, _ = _extract_resources_and_clean_html(li)
-            # Extract leading label like `(a)` or `(1)`
+            # Extract leading label like `(a)`, `(1)`, or `Option A—...`
             m_lbl = re.match(r"^\(([a-zA-Z0-9]+)\)\s*(.*)$", c_text)
+            m_opt = re.match(r"^Option\s+([A-Z1-9])\b", c_text, flags=re.IGNORECASE)
             if m_lbl:
                 lbl_token = m_lbl.group(1)
                 lbl_formatted = f"({lbl_token})"
                 body_text = m_lbl.group(2).strip()
+            elif m_opt:
+                lbl_token = m_opt.group(1).lower()
+                lbl_formatted = f"({lbl_token})"
+                body_text = c_text
             else:
                 lbl_token = chr(97 + c_idx) if c_idx < 26 else str(c_idx + 1)
                 lbl_formatted = f"({lbl_token})"
@@ -243,26 +248,30 @@ def parse_scouting_org_badge_html(
             else:
                 top_sub_reqs.append(node_dict)
 
-        # Roll up nested children text into each top_sub_req["text"] while also preserving `children`
+        def _rollup_node_bottom_up(nd: Dict[str, Any]) -> None:
+            nd.pop("_dom_id", None)
+            nd.pop("_parent_dom_id", None)
+            ch_list = nd.get("children") or []
+            for ch_item in ch_list:
+                _rollup_node_bottom_up(ch_item)
+            if ch_list:
+                ch_summary = " ".join(
+                    f"{ch_item['label']} {ch_item['text']}".strip()
+                    for ch_item in ch_list
+                    if ch_item.get("text")
+                )
+                nd["text"] = f"{nd['text']} {ch_summary}".strip() if nd.get("text") else ch_summary
+
+        # Roll up nested children text bottom-up into each top_sub_req["text"] while preserving `children`
         cleaned_sub_reqs: List[Dict[str, Any]] = []
         for sr in top_sub_reqs:
-            sr.pop("_dom_id", None)
-            sr.pop("_parent_dom_id", None)
-            children = sr.get("children") or []
-            for ch in children:
-                ch.pop("_dom_id", None)
-                ch.pop("_parent_dom_id", None)
-            if children:
-                child_summary = " ".join(f"{ch['label']} {ch['text']}" for ch in children if ch.get("text"))
-                full_sr_text = f"{sr['text']} {child_summary}".strip() if sr["text"] else child_summary
-            else:
-                full_sr_text = sr["text"]
+            _rollup_node_bottom_up(sr)
             cleaned_sub_reqs.append({
                 "sub_id": sr["sub_id"],
                 "label": sr["label"],
-                "text": full_sr_text,
+                "text": sr["text"],
                 "resources": sr["resources"],
-                "children": children,
+                "children": sr.get("children") or [],
             })
 
         if cleaned_sub_reqs:

@@ -980,11 +980,18 @@ def summarize_pamphlet_for_requirement(
     ]
 
     best_pages: List[int] = []
+    req_num_str = str(req_number or "").strip()
     if page_count > 8 and words:
         scored: List[Tuple[float, int]] = []
         for p_num, p_info in pages.items():
             if p_num < 6 or p_num > page_count - 2:
                 continue
+            # For Golf, prevent Option A (Traditional Golf, pp. 6-77) and Option B (Disc Golf, pp. 78-96) from cross-contaminating
+            if slug == "golf":
+                if req_num_str.lower().startswith("2a") and p_num >= 78:
+                    continue
+                if req_num_str.lower().startswith("2b") and p_num < 78:
+                    continue
             txt_lower = p_info["text"].lower()
             head_lower = p_info["heading"].lower()
             # Never match Glossary, Index, Photo Credits, or Resources pages
@@ -1016,7 +1023,10 @@ def summarize_pamphlet_for_requirement(
     matched_heading = (pages.get(best_pages[0]) or {}).get("heading", "") if best_pages else ""
 
     clean_req_short = _derive_topic_title(req_number, req_text, matched_heading)
-    clean_req_num = re.sub(r"[a-zA-Z]+$", "", str(req_number or "")).strip()
+    m_base_num = re.match(r"^(\d+)", req_num_str)
+    clean_req_num = m_base_num.group(1) if m_base_num else re.sub(r"[a-zA-Z]+$", "", req_num_str).strip()
+    m_opt_prefix = re.match(r"^(\d+[a-zA-Z])", req_num_str)
+    opt_prefix = m_opt_prefix.group(1).lower() if m_opt_prefix else ""
 
     # 1. First check the vision-verified pamphlet image catalog for an unused image paired with this requirement
     chosen_raw_img: Optional[Path] = None
@@ -1024,17 +1034,34 @@ def summarize_pamphlet_for_requirement(
     chosen_img_caption: str = ""
 
     catalog = _load_pamphlet_image_catalog()
-    matching_cat_entries: List[Tuple[int, str, Dict[str, Any]]] = []
+    matching_cat_entries: List[Tuple[int, int, str, Dict[str, Any]]] = []
     for fname, entry in catalog.items():
         if not (fname.startswith(f"{slug}_p") or fname.startswith(f"{slug}_ec")):
             continue
+        if entry.get("discard"):
+            continue
+        entry_req = str(entry.get("req_number") or "").strip()
         allowed_reqs = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
-        if (str(entry.get("req_number") or "").strip() == clean_req_num or clean_req_num in allowed_reqs) and not entry.get("discard"):
-            alt_rank = int(entry.get("alternate_rank") or (1 if entry.get("is_alternate") else 0))
-            matching_cat_entries.append((alt_rank, fname, entry))
-    matching_cat_entries.sort(key=lambda x: (x[0], x[1]))
+        all_entry_reqs = [entry_req] + allowed_reqs
+        alt_rank = int(entry.get("alternate_rank") or (1 if entry.get("is_alternate") else 0))
 
-    for _, fname, entry in matching_cat_entries:
+        # Tier 0: Exact sub-requirement match (e.g., '2a(3)' or '2a')
+        if req_num_str in all_entry_reqs:
+            matching_cat_entries.append((0, alt_rank, fname, entry))
+        # Tier 1: Option-track prefix match (e.g., '2a' matches '2a(1)')
+        elif opt_prefix and any(r_item.lower() == opt_prefix for r_item in all_entry_reqs):
+            matching_cat_entries.append((1, alt_rank, fname, entry))
+        # Tier 2: Base requirement match ('2'), ONLY if entry is not scoped to a conflicting option track
+        elif clean_req_num in all_entry_reqs:
+            has_conflicting_opt = opt_prefix and any(
+                re.match(r"^\d+[a-zA-Z]", r_item) and not r_item.lower().startswith(opt_prefix)
+                for r_item in all_entry_reqs
+            )
+            if not has_conflicting_opt:
+                matching_cat_entries.append((2, alt_rank, fname, entry))
+    matching_cat_entries.sort(key=lambda x: (x[0], x[1], x[2]))
+
+    for _, _, fname, entry in matching_cat_entries:
         cand_path = PAMPHLET_IMAGES_DIR / fname
         cand_md5 = _raw_file_md5(cand_path) if cand_path.exists() else ""
         if (
@@ -1184,9 +1211,73 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
     """Derives a clear, subject-matter slide title (never meta!) for a requirement without splitting ratios like 30:2."""
     cleaned = re.sub(r"\s+", " ", req_text).strip()
     lower_raw = cleaned.lower()
-    if "most likely hazards you may encounter" in lower_raw or "hazards you may encounter while participating" in lower_raw:
+    if (
+        "most likely hazards you may encounter" in lower_raw[:220]
+        or "hazards you may encounter while participating" in lower_raw[:220]
+        or "hazards you are most likely to encounter" in lower_raw[:220]
+        or "most likely hazards associated with" in lower_raw[:220]
+    ):
         return "Hazards, First Aid & Safety" if str(req_number).lower() == "overview" else f"Req {req_number}: Hazards, First Aid & Safety"
-    if "career opportunities" in lower_raw or ("three career" in lower_raw and "pick one" in lower_raw):
+    if (
+        "what a projectile is" in lower_raw[:160]
+        or "why a projectile" in lower_raw[:160]
+        or ("projectile" in lower_raw[:160] and "range" in lower_raw[:260])
+    ):
+        topic = "Projectile Safety, Range Rules & Wildlife"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "how you could apply the skills and knowledge of safe and responsible" in lower_raw[:180]:
+        topic = "Shooting Sports Careers & Conservation"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "hard news" in lower_raw[:240] and ("feature" in lower_raw[:240] or "editorial" in lower_raw[:240]):
+        topic = "Hard News, Feature, Opinion & Editorial"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "state and local laws concerning bicycles" in lower_raw[:220]:
+        topic = "State & Local Bicycle Traffic Laws"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "wearing the right clothing for biking" in lower_raw[:220] or ("right clothing" in lower_raw[:180] and "helmet" in lower_raw[:240]):
+        topic = "Cycling Apparel, Helmet Fit & Visibility"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "using a bicycle safety checklist, clean" in lower_raw[:160]:
+        topic = "Bicycle Safety Inspection & Maintenance"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "winter sports safety" in lower_raw[:180] or ("hypothermia" in lower_raw[:220] and "frostbite" in lower_raw[:220]):
+        topic = "Winter Sports Safety, First Aid & Hazards"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "every snow sport participant" in lower_raw[:180]:
+        topic = "Sprains, Fractures & Cold-Weather First Aid"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "importance of strength, endurance" in lower_raw[:180]:
+        topic = "Winter Fitness, Conditioning & Warm-Up"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "properly clothed and equipped" in lower_raw[:180]:
+        topic = "Cold-Weather Layering & Snow Gear Check"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "your responsibility code" in lower_raw[:180]:
+        topic = "Skier & Rider Responsibility Code"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "leave no trace" in lower_raw[:200] or "outdoor code" in lower_raw[:200]:
+        topic = "Leave No Trace & Outdoor Ethics"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "importance of having a physical examination" in lower_raw[:180]:
+        topic = "Pre-Participation Physical & Health Check"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "name and point to the parts of an arrow" in lower_raw[:160]:
+        topic = "Arrow Anatomy, Bowstrings & Equipment"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "proper use, care, and storage of" in lower_raw[:160] and "archery" in lower_raw[:240]:
+        topic = "Archery Gear Care, Tabs & Armguards"
+        return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
+    if "option a" in lower_raw and "option b" in lower_raw:
+        opt_matches = re.findall(r"Option\s+([A-Z])\s*[—–-]\s*([A-Za-z0-9 &/()-]+?)(?=\.\s|\s+\([1a]\)|$)", cleaned)
+        if len(opt_matches) >= 2:
+            opt_summary = " / ".join(f"{name.strip()}" for _, name in opt_matches[:3])
+            return opt_summary if str(req_number).lower() == "overview" else f"Req {req_number}: {opt_summary}"
+    if (len(lower_raw) < 420 or "career" in lower_raw[:160] or "professions" in lower_raw[:160]) and (
+        "career opportunities" in lower_raw
+        or ("three career" in lower_raw and "pick one" in lower_raw)
+        or "careers related to" in lower_raw
+        or "professions that provide services" in lower_raw
+    ):
         return "Careers & Professional Pathways" if str(req_number).lower() == "overview" else f"Req {req_number}: Careers & Professional Pathways"
 
     # Protect common abbreviations before splitting on punctuation
@@ -1194,8 +1285,10 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
 
     prefix_pattern = re.compile(
         r"^(\([a-zA-Z0-9]+\)\s*|"
+        r"(?:Define|Explain|Describe|Demonstrate|Discuss|Identify|List|Review|Show|Tell(?:\s+about)?)\s+(?:to\s+your\s+counselor\s+)?(?:your\s+understanding\s+of\s+)?(?:each\s+of\s+)?the\s+following(?:\s+\w+)?[:\s,]*|"
         r"Do (?:ALL|ONE|TWO|THREE|FOUR|EACH) of the following(?:\s+options)?(?:,\s*including)?[:\s,]*|"
         r"Do the following[:\s,]*|"
+        r"And discuss with your counselor\s+|"
         r"With the aid of diagrams(?:\s*\([^)]*\))?,\s*do each of the following[:\s,]*|"
         r"With the aid of diagrams,\s*|"
         r"With guidance from your counselor,\s*|"
@@ -1622,59 +1715,75 @@ def _build_sub_requirement_slides(
     pages_map: Dict[int, Dict[str, Any]],
     extended_pages: List[int],
 ) -> List[Dict[str, Any]]:
-    """Groups sub-requirements into clean 3-4 card Sub-Requirement Deep Dive slides covering 100% of sub-requirements."""
+    """Groups sub-requirements into balanced 3-4 card slides covering 100% of sub-requirements without lone 1-card orphans."""
     if not sub_reqs:
         return []
-    n_subs = len(sub_reqs)
-    if n_subs <= 4:
-        sub_chunks = [sub_reqs]
-    elif n_subs <= 6:
-        chunk_size = 3
-        sub_chunks = [sub_reqs[i : i + chunk_size] for i in range(0, n_subs, chunk_size)]
-    elif n_subs <= 16:
-        chunk_size = 4
-        sub_chunks = [sub_reqs[i : i + chunk_size] for i in range(0, n_subs, chunk_size)]
-    else:
-        # Balance 17+ sub-requirements across 5 slides of 3-4 cards so no slide has a lone card
-        sub_chunks = [
-            sub_reqs[0:4],
-            sub_reqs[4:8],
-            sub_reqs[8:12],
-            sub_reqs[12:15],
-            sub_reqs[15:],
-        ]
+    from src.tools.scouting_scraper import _CURATED_OPTION_CHUNK_THEMES, partition_balanced_subreq_chunks
+
+    sub_chunks = partition_balanced_subreq_chunks(sub_reqs, max_per_chunk=4)
+    lookup_key = f"{str(badge_name or '').strip().lower()}:{str(req_num or '').strip().lower()}"
+    curated_chunk_titles = _CURATED_OPTION_CHUNK_THEMES.get(lookup_key, [])
 
     slides_out: List[Dict[str, Any]] = []
     for c_idx, chunk in enumerate(sub_chunks):
         chunk_bullets: List[str] = []
+        chunk_short_topics: List[str] = []
         for s_idx, sr in enumerate(chunk):
             sr_id = str(sr.get("sub_id") or sr.get("id") or f"{req_num}{chr(97 + s_idx)}")
             raw_sr_txt = str(sr.get("text") or "").strip()
             sr_txt = _enrich_sub_requirement_text(
                 badge_name, req_num, sr_id, raw_sr_txt, req_text, pages_map, extended_pages
             )
-            if ":" in sr_txt[:60]:
+            if " — " in sr_txt:
+                topic_head, topic_body = sr_txt.split(" — ", 1)
+                clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
+                combined = f"Requirement {sr_id} ({clean_head}): {topic_body.strip()}"
+                if clean_head and len(clean_head.split()) <= 5:
+                    chunk_short_topics.append(clean_head)
+            elif ":" in sr_txt[:60]:
                 topic_head, topic_body = sr_txt.split(":", 1)
-                clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE)
-                combined = f"Req {sr_id} — {clean_head}: {topic_body.strip()}"
+                clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
+                combined = f"Requirement {sr_id} ({clean_head}): {topic_body.strip()}"
+                if clean_head and len(clean_head.split()) <= 5:
+                    chunk_short_topics.append(clean_head)
             elif raw_sr_txt and len(raw_sr_txt.split()) <= 7:
                 sr_topic = _derive_topic_title(sr_id, raw_sr_txt).replace(f"Req {sr_id}:", "").strip()
-                combined = f"Req {sr_id} — {sr_topic}: {sr_txt}"
+                if sr_txt.lower().startswith(sr_topic.lower()):
+                    combined = f"Requirement {sr_id}: {sr_txt}"
+                else:
+                    combined = f"Requirement {sr_id} ({sr_topic}): {sr_txt}"
+                if sr_topic and len(sr_topic.split()) <= 5:
+                    chunk_short_topics.append(sr_topic)
             else:
                 combined = f"Requirement {sr_id}: {sr_txt}"
             chunk_bullets.append(combined)
 
         first_id = chunk[0].get("sub_id") or chunk[0].get("id") or f"{req_num}a"
         last_id = chunk[-1].get("sub_id") or chunk[-1].get("id") or f"{req_num}b"
-        range_label = f"Reqs {first_id}–{last_id}" if len(chunk) > 1 else f"Req {first_id}"
-        # Render Sub-Requirement Deep Dive slides full-width (CONCEPT_TEXT_SLIDE) so each sub-requirement card
-        # gets full 12.133" width and never repeats the Requirement Intro hero illustration right before it.
+        range_label = f"Reqs {first_id}-{last_id}" if len(chunk) > 1 else f"Req {first_id}"
+
+        # Build clean, non-redundant slide title without double colons or 'Sub-Requirement Deep Dive' boilerplate on option tracks
+        if c_idx < len(curated_chunk_titles):
+            slide_title = f"{curated_chunk_titles[c_idx]} ({range_label})"
+        elif ":" in base_title:
+            opt_prefix = base_title.split(":", 1)[0].strip()
+            if len(sub_chunks) == 1:
+                slide_title = f"{base_title} ({range_label})"
+            elif chunk_short_topics:
+                uniq_topics = list(dict.fromkeys(chunk_short_topics))[:3]
+                slide_title = f"{opt_prefix}: {', '.join(uniq_topics)} ({range_label})"
+            else:
+                slide_title = f"{base_title} ({range_label})"
+        else:
+            slide_title = f"{base_title}: Sub-Requirement Deep Dive ({range_label})"
+
         slides_out.append({
-            "title": f"{base_title}: Sub-Requirement Deep Dive ({range_label})",
+            "title": slide_title,
             "layout": "CONCEPT_TEXT_SLIDE",
             "bullets": chunk_bullets,
             "image_path": None,
             "caption": f"{badge_name} Sub-Requirement Reference — {base_title} ({range_label})",
+            "is_subreq_slide": True,
         })
     return slides_out
 
@@ -2033,7 +2142,7 @@ def decompose_requirement_into_topic_slides(
                 # Place Sub-Requirement Deep Dive slide(s) first so both Deep Dive and Troop Meeting decks include them
                 combined_slides = sub_slides + [
                     s for s in resolved_slides
-                    if "sub-requirement deep dive" not in str(s.get("title", "")).lower()
+                    if not s.get("is_subreq_slide") and "sub-requirement deep dive" not in str(s.get("title", "")).lower()
                 ]
                 return combined_slides[:7]
         return resolved_slides[:7]
@@ -2149,7 +2258,7 @@ def decompose_requirement_into_topic_slides(
                 for vb in vis_bullets:
                     used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
                 generated.append({
-                    "title": f"{base_title}: Field Visual & Key Principles",
+                    "title": f"{base_title} (Visual Guide)" if ":" in base_title else f"{base_title}: Field Visual & Key Principles",
                     "layout": "SPLIT_VISUAL_EXPLAINER",
                     "bullets": vis_bullets,
                     "image_path": vis_img,
@@ -2175,7 +2284,7 @@ def decompose_requirement_into_topic_slides(
         else:
             slide_img, slide_cap = None, base_title
         generated.append({
-            "title": f"{base_title}: Core Principles & Field Reference",
+            "title": f"{base_title} (Core Principles)" if ":" in base_title else f"{base_title}: Core Principles & Field Reference",
             "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
             "bullets": deep_bullets,
             "image_path": slide_img,
@@ -2206,7 +2315,7 @@ def decompose_requirement_into_topic_slides(
         ]
 
     generated.append({
-        "title": f"{base_title}: Step-by-Step Execution",
+        "title": f"{base_title} (Step-by-Step)" if ":" in base_title else f"{base_title}: Step-by-Step Execution",
         "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
         "bullets": proc_bullets[:4],
         "image_path": None,
@@ -2218,7 +2327,7 @@ def decompose_requirement_into_topic_slides(
     if len(generated) < 6:
         if comp_data:
             generated.append({
-                "title": f"{base_title}: Technical Comparison & Standards",
+                "title": f"{base_title} (Technical Comparison)" if ":" in base_title else f"{base_title}: Technical Comparison & Standards",
                 "layout": "DIFFERENTIAL_COMPARISON_2COL",
                 "comparison_data": comp_data,
                 "bullets": (comp_data.get("left_points", [])[:2] + comp_data.get("right_points", [])[:2]),
@@ -2226,7 +2335,7 @@ def decompose_requirement_into_topic_slides(
             })
         if worked_ex and len(generated) < 6:
             generated.append({
-                "title": f"{base_title}: Worked Example & Scout Log",
+                "title": f"{base_title} (Scout Log)" if ":" in base_title else f"{base_title}: Worked Example & Scout Log",
                 "layout": "WORKED_EXAMPLE_TEMPLATE",
                 "worked_example": worked_ex,
                 "bullets": [f"{k}: {v}" for k, v in list((worked_ex.get("fields") or {}).items())[:4]],
@@ -2251,7 +2360,7 @@ def decompose_requirement_into_topic_slides(
                     else:
                         fields_map[f"Workbook Entry {idx_f}"] = pt.strip()
             generated.append({
-                "title": f"{base_title}: Scout Workbook & Review Guide",
+                "title": f"{base_title} (Workbook Guide)" if ":" in base_title else f"{base_title}: Scout Workbook & Review Guide",
                 "layout": "WORKED_EXAMPLE_TEMPLATE",
                 "worked_example": {
                     "title": f"Requirement {req_num} Verification Log — {base_title}",
@@ -2266,45 +2375,230 @@ def decompose_requirement_into_topic_slides(
     # D. Equipment Checklist (if explicitly curated) & Patrol Scenario Review (Enable Phase)
     if checklist and len(generated) < 6:
         generated.append({
-            "title": f"{base_title}: Equipment & Inspection Checklist",
+            "title": f"{base_title} (Equipment Checklist)" if ":" in base_title else f"{base_title}: Equipment & Inspection Checklist",
             "layout": "GEAR_CHECKLIST_GRID",
             "gear_checklist": checklist[:4],
             "bullets": checklist[:4],
             "image_path": None,
         })
 
-    if quiz_item:
-        effective_quiz = quiz_item
-    else:
-        primary_focus = (
-            sub_reqs[0].get("text", base_title)
-            if sub_reqs
-            else (fresh_pamphlet_bullets[0] if fresh_pamphlet_bullets else (excerpts[0] if excerpts else base_title))
-        )
-        clean_focus = primary_focus.split(": ", 1)[-1].rstrip(".")
-        effective_quiz = {
-            "scenario_prompt": f"During your patrol's {badge_name} practice session on {base_title} (Requirement {req_num}), how should your patrol verify mastery of this requirement?",
-            "options": [
-                f"Option A: Demonstrate and explain {clean_focus[:110]} following the official {badge_name} pamphlet standards.",
-                f"Option B: Rely on guesswork without verifying the specific {base_title} criteria in Requirement {req_num}.",
-                "Option C: Sign off the requirement before completing the practical demonstration or counselor discussion.",
+    effective_quiz = _get_selective_safety_quiz_for_requirement(
+        badge_name=badge_name,
+        req_num=req_num,
+        req_index=req_index,
+        req_text=req_text,
+        base_title=base_title,
+        explicit_quiz=quiz_item,
+    )
+    if effective_quiz:
+        generated.append({
+            "title": f"{base_title} (Safety Scenario)" if ":" in base_title else f"{base_title}: Patrol Safety Scenario",
+            "layout": "SOCRATIC_CHECKPOINT_QUIZ",
+            "quiz_item": effective_quiz,
+            "bullets": [
+                effective_quiz["scenario_prompt"],
+                effective_quiz["correct_answer"],
+                effective_quiz["explanation"],
             ],
-            "correct_answer": f"Option A — Follow the official {badge_name} pamphlet standards and verify every sub-requirement.",
-            "explanation": f"Requirement {req_num} ({base_title}) requires each Scout to understand and demonstrate the specific principles covered in the {badge_name} Merit Badge Pamphlet.",
-        }
-    generated.append({
-        "title": f"{base_title}: Patrol Scenario & Mastery Check",
-        "layout": "SOCRATIC_CHECKPOINT_QUIZ",
-        "quiz_item": effective_quiz,
-        "bullets": [
-            effective_quiz["scenario_prompt"],
-            effective_quiz["correct_answer"],
-            effective_quiz["explanation"],
-        ],
-        "image_path": None,
-    })
+            "image_path": None,
+        })
 
     return generated[:7]
+
+
+_CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
+    "athletics": {
+        "scenario_prompt": "During a warm afternoon track practice for the 1,500-meter run, a Scout stops sweating, becomes confused and unsteady, and has hot, flushed skin. What is your patrol's immediate first-aid action?",
+        "options": [
+            "Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
+            "Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+            "Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
+        ],
+        "correct_answer": "Option B — Call 911 immediately and begin rapid active cooling in the shade.",
+        "explanation": "Hot skin combined with altered mental status (confusion or dizziness) during exertion indicates heatstroke, a medical emergency requiring immediate EMS activation and aggressive cooling per the Athletics Merit Badge Pamphlet.",
+    },
+    "skating": {
+        "scenario_prompt": "While skating on an outdoor winter pond, a skater breaks through thin ice into frigid water 30 feet from shore. How should your patrol respond safely?",
+        "options": [
+            "Skate out to the edge of the ice hole in a group to pull the skater up by both hands.",
+            "Stay off the thin ice, call for emergency help, lie flat near shore to spread weight, and extend a long reach/throw aid (branch, hockey stick, or rope) while coaching the skater to kick horizontally onto firm ice and roll away from the hole.",
+            "Instruct the skater to remove their skates and winter jacket in the water before trying to climb out.",
+        ],
+        "correct_answer": "Option B — Stay off the weak ice, extend a reach/throw rescue aid from shore, and have the skater kick horizontally and roll away from the edge.",
+        "explanation": "Walking or skating up to an ice breakthrough hole causes the ice edge to collapse under rescuers; follow Reach-Throw protocol and keep clothing/skates on for buoyancy and traction.",
+    },
+    "golf": {
+        "scenario_prompt": "Your patrol is on the 6th fairway when dark thunderclouds build and you hear thunder 20 seconds after seeing a lightning flash. What must your group do immediately?",
+        "options": [
+            "Finish playing the current hole quickly while holding metal golf umbrellas overhead.",
+            "Take shelter together under the tallest oak tree along the fairway edge until the rain passes.",
+            "Suspend play immediately under the 30/30 lightning rule, leave golf bags/metal clubs behind if needed, and move to the clubhouse or a designated lightning-safe building, waiting 30 minutes after the last thunder before resuming.",
+        ],
+        "correct_answer": "Option C — Suspend play immediately (flash-to-bang under 30 seconds) and seek a substantial lightning-safe building for at least 30 minutes after the last thunder.",
+        "explanation": "A 20-second flash-to-bang count means lightning is 4 miles away (within the 6-mile / 30-second strike zone); isolated trees and metal clubs/umbrellas are acute lightning hazards.",
+    },
+    "snow_sports": {
+        "scenario_prompt": "While skiing down an intermediate alpine trail, you approach a slower snowboarder ahead of you who suddenly begins a wide turn across the run. Under the Alpine Responsibility Code, who has the right-of-way and what must you do?",
+        "options": [
+            "Shout 'On your left!' and pass at high speed since uphill skiers have momentum.",
+            "The downhill rider ahead always has the right-of-way; you must adjust your speed and steer clear to avoid them regardless of their turn.",
+            "Stop in the middle of a blind rollover just above the snowboarder and wait.",
+        ],
+        "correct_answer": "Option B — People ahead of you always have the right-of-way; the overtaking uphill skier must stay in control and avoid them.",
+        "explanation": "Under Your Responsibility Code in the Snow Sports Merit Badge Pamphlet, downhill skiers/riders cannot see behind them, so uphill traffic bears full responsibility for avoiding collisions and must never stop where obstructed from above.",
+    },
+    "cycling": {
+        "scenario_prompt": "Before departing on a 25-mile troop road ride, you check a Scout's helmet and notice the front rim sits high on the forehead (4 fingers above the eyebrows) and the side straps form a loose loop below the chin. How must the helmet be adjusted?",
+        "options": [
+            "Tilt the helmet back further so the Scout can see traffic lights more easily.",
+            "Apply the 2-V-1 helmet fit rule: level the rim 1 to 2 finger-widths above the eyebrows, adjust side sliders to form a snug 'V' right under each ear, and tighten the chin buckle until only 1 finger fits underneath.",
+            "Wear a thick winter beanie underneath the loose straps without tightening the retention dial.",
+        ],
+        "correct_answer": "Option B — Level the helmet 1-2 fingers above the eyebrows, form a 'V' under the ears, and snug the chin strap to 1 finger width.",
+        "explanation": "A helmet tilted back exposes the frontal skull in a forward crash; the BSA Cycling Pamphlet's 2-V-1 fit check keeps the helmet level and secure during impact.",
+    },
+    "archery": {
+        "scenario_prompt": "While shooting on the archery range, an arrow slips off your bow rest and lands on the ground 4 feet in front of the shooting line while other archers are still at full draw. What must you do?",
+        "options": [
+            "Lean forward across the shooting line and grab the arrow quickly before anyone notices.",
+            "Leave the arrow on the ground, never reach or step across the shooting line while the range is hot, and wait for the Range Officer's three-whistle 'Retrieve Arrows' command.",
+            "Signal your buddy in the next lane to kick the arrow back behind the waiting line.",
+        ],
+        "correct_answer": "Option B — Leave the dropped arrow untouched in front of the shooting line until the Range Officer blows three whistles to retrieve arrows.",
+        "explanation": "Stepping or reaching across an active shooting line puts you directly in the path of adjacent bows; any arrow forward of the line is retrieved only after all bows are racked on the 3-whistle signal.",
+    },
+    "rifle_shooting": {
+        "scenario_prompt": "On the firing line, you squeeze the trigger on a loaded .22 rimfire rifle and hear an audible 'click' with no discharge. What is the mandatory misfire safety procedure?",
+        "options": [
+            "Immediately open the bolt to eject the cartridge and inspect the firing pin indent.",
+            "Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire.",
+            "Lay the closed rifle down on the shooting mat pointed toward the waiting bench and walk over to the instructor.",
+        ],
+        "correct_answer": "Option B — Keep the muzzle pointed downrange for at least 30 seconds and summon the Range Safety Officer before opening the action.",
+        "explanation": "A delayed ignition (hangfire) can detonate seconds after the trigger pull; opening the breech immediately exposes the shooter's face and hands to a live rupture outside the chamber.",
+    },
+    "swimming": {
+        "scenario_prompt": "While swimming at an ocean beach, a Scout feels a narrow, fast-moving current pulling them straight offshore through a break in the sandbar. What is the safest way to escape this rip current?",
+        "options": [
+            "Sprint-swim straight back toward the beach directly against the outgoing current.",
+            "Stay calm to conserve energy, swim parallel to the shoreline until out of the narrow seaward pull, and then angle back to the beach with the breaking waves.",
+            "Dive to the sandy bottom and try to crawl toward shore underwater.",
+        ],
+        "correct_answer": "Option B — Swim parallel to shore until clear of the narrow rip current channel, then swim diagonally back to shore.",
+        "explanation": "Rip currents are narrow channels that quickly exhaust swimmers who fight them head-on; swimming parallel to the beach moves you out of the current within 50 to 100 feet.",
+    },
+    "lifesaving": {
+        "scenario_prompt": "A tired non-swimmer slips off a camp dock into 8-foot-deep water about 6 feet from the dock edge and begins thrashing in panic. Following the BSA Order of Water Rescue, what should your patrol attempt FIRST?",
+        "options": [
+            "Dive straight in without equipment and grab the thrashing victim around the shoulders.",
+            "Use a Reach or Throw rescue from the dock first — lie flat on the dock and extend a rescue pole, paddle, towel, or ring buoy so the rescuer stays out of the water.",
+            "Launch a motorboat from the far side of the lake before offering any assistance from the dock.",
+        ],
+        "correct_answer": "Option B — Follow Reach -> Throw -> Row -> Go with Gear: extend a reaching pole/paddle or throw a flotation aid from the dock first.",
+        "explanation": "A panicked drowning victim can submerge an unequipped swimming rescuer; Reach and Throw rescues from shore/dock deliver immediate buoyancy with zero contact risk to the rescuer.",
+    },
+    "kayaking": {
+        "scenario_prompt": "Your kayak capsizes in calm lake water during a practice paddle. After performing a wet exit, what is your immediate priority in the water?",
+        "options": [
+            "Abandon the kayak and paddle and try to swim 300 yards to the nearest shoreline.",
+            "Maintain physical contact with your capsized kayak and paddle, signal your buddy boat, and position yourself at the bow/stern for a T-rescue or heel-hook re-entry.",
+            "Unbuckle and remove your PFD life jacket so you can swim faster.",
+        ],
+        "correct_answer": "Option B — Hold onto your kayak and paddle, keep your PFD fastened, and coordinate a buddy T-rescue.",
+        "explanation": "A swamped kayak provides massive flotation and high visibility for rescuers, whereas swimming away in open water risks cold-water exhaustion and separation.",
+    },
+    "canoeing": {
+        "scenario_prompt": "Two Scouts capsize their canoe in the middle of a breezy lake a quarter-mile from shore. Both Scouts are wearing PFDs and the canoe floats upside down. What should they do?",
+        "options": [
+            "Leave the canoe behind and race each other swimming to shore.",
+            "Stay with the floating canoe (which has built-in foam flotation blocks), move to the upwind side, and perform a canoe-over-canoe rescue with their buddy boat or flip/paddle the swamped canoe to shore.",
+            "Stand up on top of the overturned hull to wave both arms.",
+        ],
+        "correct_answer": "Option B — Always stay with the floating canoe on its upwind side and perform a buddy canoe-over-canoe rescue or swamped-canoe recovery.",
+        "explanation": "Shorelines look much closer than they are across open water; staying with the buoyant canoe prevents wind drift separation and enables rapid buddy recovery.",
+    },
+    "camping": {
+        "scenario_prompt": "During a freezing rainstorm at camp, a patrol asks if they can bring their liquid-fuel or canister camp stove inside the tent vestibule to boil water and warm up the tent before sleeping. How should the patrol leader respond?",
+        "options": [
+            "Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
+            "Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+            "Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
+        ],
+        "correct_answer": "Option B — Never operate any stove, lantern, or charcoal heater inside or near a tent due to lethal Carbon Monoxide poisoning and fire hazards.",
+        "explanation": "BSA Guide to Safe Scouting and the Camping Pamphlet mandate 'No Flames in Tents'; carbon monoxide is colorless and odorless and causes fatal hypoxia in enclosed shelters.",
+    },
+    "cooking": {
+        "scenario_prompt": "While preparing chicken fajitas at camp, a Scout uses a plastic cutting board and chef's knife to slice raw chicken breast, and then reaches for fresh bell peppers and tortillas to slice for a cold side salad. What food-safety step is required first?",
+        "options": [
+            "Wipe the knife blade on a dry camp towel and slice the raw vegetables on the same board.",
+            "Prevent cross-contamination by using a separate cutting board for produce, or washing, rinsing, and sanitizing the board, knife, and hands thoroughly with hot soapy water and sanitizer solution before touching ready-to-eat food.",
+            "Leave the raw chicken sitting in the sun at 75°F for 4 hours before cooking.",
+        ],
+        "correct_answer": "Option B — Use separate prep surfaces or wash, rinse, and sanitize all utensils, boards, and hands after handling raw poultry.",
+        "explanation": "Raw poultry carries Salmonella and Campylobacter; transferring raw juices to ready-to-eat produce causes acute foodborne illness unless surfaces are sanitized and perishables stay out of the 40°F-140°F danger zone.",
+    },
+    "wilderness_survival": {
+        "scenario_prompt": "While hiking back from a peak at dusk, your buddy pair realizes you missed a trail junction and are no longer sure where the main trail is. Following the BSA S.T.O.P. survival protocol, what should you do?",
+        "options": [
+            "Run downhill through the woods before total darkness falls to look for a road.",
+            "Stop immediately in place, Think calmly without panic, Observe your surroundings/weather/daylight/gear, and Plan shelter and signaling while staying together so searchers can find you.",
+            "Split up and hike in opposite directions to cover twice as much ground.",
+        ],
+        "correct_answer": "Option B — Apply S.T.O.P. (Stop, Think, Observe, Plan), stay together in one visible location, prepare shelter before dark, and use 3-blast whistle signals.",
+        "explanation": "Moving randomly after losing the trail increases search radius exponentially and risks injury after dark; staying put with S.T.O.P., shelter, and 3-signal distress calls maximizes rapid rescue.",
+    },
+}
+
+
+def _get_selective_safety_quiz_for_requirement(
+    badge_name: str,
+    req_num: str,
+    req_index: int,
+    req_text: str,
+    base_title: str,
+    explicit_quiz: Optional[Dict[str, Any]] = None,
+) -> Optional[Dict[str, Any]]:
+    """Returns a genuine, non-boilerplate Patrol Scenario Quiz only where pedagogically appropriate.
+
+    Policy:
+    - Never emit generic strawman quizzes ('Rely on guesswork...', 'Sign off the requirement before completing...').
+    - Never force quizzes onto every requirement or across multi-option skill tracks.
+    - Include a quiz ONLY if:
+      (a) the requirement has a curated, non-boilerplate `explicit_quiz`, OR
+      (b) this is Requirement 1 (`req_index == 0`) of a badge with a curated field-safety scenario in `_CURATED_REQ1_SAFETY_QUIZZES`.
+    """
+    if isinstance(explicit_quiz, dict):
+        raw_opts = [str(o).strip() for o in (explicit_quiz.get("options") or []) if str(o).strip()]
+        opts_blob = " ".join(raw_opts).lower()
+        if (
+            raw_opts
+            and "rely on guesswork" not in opts_blob
+            and "sign off the requirement before completing" not in opts_blob
+        ):
+            clean_opts = [
+                re.sub(r"^(?:Option\s+[A-D]\s*[:.\-—–]\s*|\(?[A-D]\)\s*|[A-D]\.\s*)", "", o, flags=re.IGNORECASE).strip()
+                for o in raw_opts
+            ]
+            prompt = str(explicit_quiz.get("scenario_prompt") or explicit_quiz.get("question") or "").strip()
+            ans = str(explicit_quiz.get("correct_answer") or explicit_quiz.get("correct_option") or "").strip()
+            exp = str(explicit_quiz.get("explanation") or "").strip()
+            if prompt and len(clean_opts) >= 2:
+                return {
+                    "scenario_prompt": prompt,
+                    "options": clean_opts,
+                    "correct_answer": ans,
+                    "explanation": exp,
+                }
+
+    slug = _badge_slug(badge_name)
+    clean_num = str(req_num or "").strip().lower()
+    if req_index == 0 or clean_num in ("1", "1a"):
+        curated = _CURATED_REQ1_SAFETY_QUIZZES.get(slug)
+        if curated:
+            return dict(curated)
+
+    return None
+
 
 
 PAMPHLET_COVERS_DIR = ASSETS_DIR / "pamphlet_covers"

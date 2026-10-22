@@ -86,12 +86,12 @@ Every slide deck is grounded in the official **BSA Merit Badge Pamphlet** and **
     - Also includes a compact **Blue Merit Badge Summary Banner** with three vertically stacked label-first KPI pills (**`TOTAL SLIDES 83`**, **`REQUIREMENTS 15`**, **`SLIDE THEME Warm Cream`**), a consolidated **Single-Row Above-Stage Toolbar (`#slide-stage-toolbar`)** with an interactive 2-column **Requirement Quick-Jump Dropdown (`[📍 Overview ▾]`)**, a **Collapsible Live Classroom Timer Pill (`⏱️ 44:59 ⏸`)** + unified **`[🖥️ Present | ▾]` Split-Button** (`Present Fullscreen (F)`, `Split-Screen Presenter View (P)`, `Pop-Out Presenter (2nd Window)`, embedded `45m ▾ | 45:00 | ▶ | ↺` timer controls, and `Quiz Reveal` / `Patrol Scoreboard` toggles), a **Single-Row Slide Outline Filter & Unified `[🛠️ Tools ▾]` Menu** (`[🔎 Filter slides or req...] [🛠️ Tools ▾]` consolidating `⚡ Quiz Slides Only`, `🏠 Hide Home-Prereqs`, `Slide Deck Customizer`, and `Patrol Game` with a live `Tools • 1` active-filter badge), **Active-Slide Lower-Right Customizer Micro-Pills (`+`, `👁️`, `↑`, `↓`)** featuring a high-contrast emerald/white typographic `+` Add Slide button (`m3-thumb-micro-pill-add`) in Dark Mode, `0ms` stationary-position visual updates (`preserveActiveOutlinePosition`, keeping the selected slide card at the same physical vertical position under the cursor while neighbor slides shift around it), and `1200ms` debounced net-zero `.pptx` sync (`scheduleDebouncedDeckPptxSync`), a **Consolidated `Quick-Select -> 🗂️ Decks` Switcher & Top-Bar `[🗂️ My Decks | ▾]` Split-Button** for `<80ms` multi-badge deck hot-swapping (with `15x15` Merit Badge emblem icons on `🔥 Popular`, `⭐ Favorites`, and `🗂️ Decks`, plus template color dots `m3-tpl-inline-color-dot` on Saved Workspaces cards), a unified `📥 Export & Print ▾` menu (`Download Slide Deck (.PPTX)`, `Open in Google Slides`, `Download Workbook (.MD)`, `Print / Save Workbook PDF`, `Print 3x5 Pocket Cue Cards`, `Print 1-Page Field & QR Handout` with phone-camera-scannable ISO/IEC 18004 QR codes via `/api/v1/qr.svg`, `Print Prerequisite Readiness Checklist`, and `Export Blue Card CSV`), and **Visual Source Mini-Badges & Multi-Image Count Pills (`🖼️ 1/2`)** in the Left Slide Filmstrip.
   - **Patrol Blue Card (`#34124`) & Scoutbook Plus Requirement Sign-Off Tracker**: Use the **`↓ Blue Card Tracker`** quick-jump button at the top of Tab 2 to scroll straight to the roster, build your patrol roster (`➕ Add Scout`, **`📋 Bulk Paste Roster`**, or **`📤 Import CSV`**), set a **`📅 Completion Date`** with one-click **`Stamp Checked`**, check off individual requirements per Scout or click **`All ✓`** in the `Quick` column, automatically track `Partial (X/Y)` vs. `Complete (Y/Y)` status, and click **`📥 Export Scoutbook CSV`**, **`🖨️ Print Sign-Off Sheet`**, or **`🪪 Print 3-Panel Blue Cards (#34124)`**.
   - **Workbook Section Filter Bar & 4-Sub-Tab StudioKit**: Filter Tab 3 (`Scout & Counselor Workbook`) by `All Sections`, `Checklist Table`, `Requirement Notes`, or `Instructor Guide`. In Tab 4 (`Lesson Plan, Gear List, Parent Letter & FinOps`), switch cleanly across 4 sub-tabs: **`🗓️ 1. Agenda & Station Rotations`** (including the **4-Format Session Pacing Selector**, **Patrol Skill Station Rotator Matrix** for 2 to 4 patrols, and **Printable 3x5 Counselor Pocket Cue Cards**), **`🎒 2. Quartermaster Gear & Pre-Class Check`** (including the **Master Quartermaster Gear Checklist** with patrol size multiplier and the **Pre-Class Prerequisite Readiness Checklist**), **`✉️ 3. Parent Welcome Letter (YPT)`** (with one-click `📋 Copy`, `✉️ Draft in Email App`, `📨 Compose in Gmail`, `🖨️ Print`, and `📥 .MD` actions), and **`📊 4. Citations, FinOps & Rating`** (with a **`↓ Counselor Rating`** jump button in the header of the `Grounded Research Citations & Local Troop References` card).
-  - **Zero-PII Super-User Admin Console (`docs/ADMIN_GUIDE.md`)**: Accessed via `Ctrl+Shift+A`, the footer `🔒 Admin` link, or `/?admin=1` (protected by dual-mode `verify_admin_superuser()` auth in `src/security.py`). Provides **Tab 1: Cached Image & Caption Studio** (inline caption editing, 1-click primary promotion `★ Make Default`, Gemini Vision re-captioning, and image replacement across all 144 badges), **Tab 2: Zero-PII Usage, Latency & Image-Swap Telemetry** (`ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py` with recursive `scrub_pii_dict()` enforcement and the **Easy Slide Image Switcher Swap Leaderboard**), and **Tab 3: System Diagnostics & 144-Badge Asset Health** (featuring aligned `Pamphlet Figs`, `Nano Heroes`, and `PDF & Index` columns reporting each badge's exact official top-level requirement count, such as `15 Reqs` for First Aid and `12 Reqs` for Weather).
+  - **Zero-PII Super-User Admin Console (`docs/ADMIN_GUIDE.md`) & 5% Online Production Trace Audit Sampler**: Accessed via `Ctrl+Shift+A`, the footer `🔒 Admin` link, or `/?admin=1` (protected by dual-mode `verify_admin_superuser()` auth in `src/security.py`). Provides **Tab 1: Cached Image & Caption Studio** (inline caption editing, 1-click primary promotion `★ Make Default`, Gemini Vision re-captioning, and image replacement across all 144 badges), **Tab 2: Zero-PII Usage, Latency & Image-Swap Telemetry** (`ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py` with recursive `scrub_pii_dict()` enforcement, **Honest Dual Latency Telemetry** separating `first_status_event_ms` from `true_first_content_token_ms`, the **5% Online Production Trace Audit Sampler** via `OnlineProductionAuditSampler` in `src/observability/online_audit_sampler.py`, and the **Easy Slide Image Switcher Swap Leaderboard**), and **Tab 3: System Diagnostics & 144-Badge Asset Health** (featuring aligned `Pamphlet Figs`, `Nano Heroes`, and `PDF & Index` columns reporting each badge's exact official top-level requirement count, such as `15 Reqs` for First Aid and `12 Reqs` for Weather).
 
-- **Persistent Counselor Profile Caching & PII Protection (Local vs. Cloud)**:
+- **Persistent Counselor Profile Caching & Bidirectional PII Protection (Local vs. Cloud)**:
   - **Local / Laptop runs**: Your Counselor Name, Troop/Council, Location/ZIP, Email, Phone, and Custom Troop Logo path are cached locally in `.cache/counselor_profile.json` (`0600` owner-only file permissions, git-ignored) so you only need to enter them once.
   - **Web / Cloud Run deployments**: In multi-tenant cloud mode (`K_SERVICE`), server-side disk caching of counselor PII is disabled; instead, your profile is cached in your own browser's `localStorage` (`scouts_bsa_counselor_profile_v1`).
-  - **Strict PII boundary**: Counselor contact PII (email, phone, name) is injected directly into the local Slide 1 Cover and Parent Letter templates and is scrubbed via `ScoutsBSAModelArmorPlugin` and `scrub_pii_before_sink()` before any LLM prompt, SQLite telemetry record, OpenTelemetry span, or Cloud Logging sink.
+  - **Strict bidirectional PII boundary**: Counselor contact PII (email, phone, name) is injected directly into the local Slide 1 Cover and Parent Letter templates and is scrubbed bidirectionally via `ScoutsBSAModelArmorPlugin`, `scrub_pii_before_sink()`, and `scrub_pii_from_structure()` across ingress prompts, tool arguments, model responses, SSE egress streams, SQLite telemetry records, OpenTelemetry spans, and Cloud Logging sinks.
 
 - **1:1 parity between live web preview and downloaded `.pptx`**:
   - Both the Material 3 web preview (`ui/app.js`) and the PowerPoint builder (`src/tools/pptx_builder.py`) render the exact same text, card grid structure, integrated `1.5pt` card borders, de-boxed pamphlet figures, responsive `SafeCanvasBounds` (`y <= 6.54"`), and visual theme (`WARM_CREAM`, `CRISP_WHITE`, or `DARK_SLATE`, plus legacy aliases `BEAUTIFIED`, `STANDARD`, `STUDIO`), enforcing a `12.0pt` minimum body font floor (`_compute_fitting_font_size()`) with 100% sentence preservation so text never clips mid-sentence or bleeds outside cards in PowerPoint or Google Slides. Output filenames include the polish tier (`<Badge>_<Tier>_<Depth>_Merit_Badge_Deck.pptx`) so switching tiers never serves a stale cached file.
@@ -202,7 +202,7 @@ The Material 3 Counselor Workbench (`:8085`) uses a responsive two-column layout
    - **PowerPoint Template (`#template-select`) & `🎨 Template Studio` (`#btn-open-template-studio-sidebar`)**: Defaults to **`BSA Scouting America 🟢` (`bsa_scouting_america`)** across **17 built-in Scouting America & Heritage PowerPoint templates in 7 groups (`Workbench Default` + 6 branded series; 8 Style Families in the stage switcher)**. Opening the **PowerPoint Template & Theme Studio Modal** provides a header **Global Deck Layout Style** bar (`#modal-deck-layout-style-select`), **`📌 Set as My Default`** (`#btn-modal-save-default-deck-style`), **`↺ Reset`** (`#btn-modal-reset-default-deck-style`), custom `.pptx`/`.ppt`/`.png`/`.jpg`/`.webp` upload (`POST /api/v1/templates/upload`), template URL import (`POST /api/v1/templates/import-url`), custom template Name/Description editing (`✏️` via `PATCH /api/v1/templates/{template_id}`), custom template deletion (`🗑️` via `DELETE /api/v1/templates/{template_id}`), and the **3-Box Anatomical Safe-Zone X-Ray (`📐 Preview Safe-Zone X-Ray`)**.
    - **Deck Layout Style (`#deck-layout-style-select`) & `🎛️ Customize Boxes, Image Frame & Font Size...` (`#deck-style-customizer-details`)**:
      - **Master Preset (`#deck-layout-style-select`)**: Choose **`✨ Match Template Style (Recommended)`** (`AUTO_TEMPLATE`: defaults all 16 branded BSA templates to `Clean & Open` and `Workbench Classic` to `Classic Boxed Cards` with frameless right-hand visuals), **`📖 Clean & Open (Borderless Text & Frameless Images)`** (`CLEAN_OPEN`), **`📏 Editorial Left-Accent Line (No Boxes)`** (`LEFT_ACCENT_LINE`), or **`🗂️ Classic Boxed Cards (Framed Containers)`** (`BOXED_CARDS`).
-     - **Granular Customizer (`#deck-style-customizer-details`)**: Independently tune **`Text Points Style`** (`#deck-text-container-select`), **`Right Image Frame`** (`#deck-image-frame-select` — decoupled from `Text Points Style` so selecting `Boxed Cards` only boxes text points), **`Top Header & Requirement Strip`** (`#deck-header-chrome-select`: `Auto`, `Minimal Kicker + Thin Accent Rule`, `Full Solid Navy Header Banner`), **`Slide Font Size Scale`** (`#deck-typography-scale-select`: `Comfortable Classroom 15-16pt`, `Large Projector / Camp Hall 17-18pt`, `Compact Reference 13.5-14.5pt`), and **`Bottom Safety Strip`** (`#deck-safety-banner-select`: `Acute Physical / Field Hazards Only`, `Compact Bottom Accent Line`, `Full Warning Box on Every Slide`), plus **`📌 Save as My Default Style`** (`#btn-save-default-deck-style`, persisted via `GET/PUT/DELETE /api/v1/preferences/deck-style` and `localStorage`) and **`↺ Reset`** (`#btn-reset-default-deck-style`).
+     - **Granular Customizer (`#deck-style-customizer-details`)**: Independently tune **`Text Points Style`** (`#deck-text-container-select`), **`Right Image Frame`** (`#deck-image-frame-select`: decoupled from `Text Points Style` so selecting `Boxed Cards` only boxes text points), **`Top Header & Requirement Strip`** (`#deck-header-chrome-select`: `Auto`, `Minimal Kicker + Thin Accent Rule`, `Full Solid Navy Header Banner`), **`Slide Font Size Scale`** (`#deck-typography-scale-select`: `Comfortable Classroom 15-16pt`, `Large Projector / Camp Hall 17-18pt`, `Compact Reference 13.5-14.5pt`), and **`Bottom Safety Strip`** (`#deck-safety-banner-select`: `Acute Physical / Field Hazards Only`, `Compact Bottom Accent Line`, `Full Warning Box on Every Slide`), plus **`📌 Save as My Default Style`** (`#btn-save-default-deck-style`, persisted via `GET/PUT/DELETE /api/v1/preferences/deck-style` and `localStorage`) and **`↺ Reset`** (`#btn-reset-default-deck-style`).
    - **Target Scout Audience Level (`#audience-select`)**: Choose **All Scouts (Ages 11-17)**, **First-Year / Tenderfoot Focus (Ages 11-12)**, or **Older Scouts / Eagle Prep (Ages 14-17)**.
    - **Enable Local Regional Grounding (`#local-grounding-toggle-card` / `#deep-research-checkbox`)**: Attaches regional `.gov`/`.edu`/`.org` references (NOAA NWS, USGS, NPS, American Red Cross, state agencies) grounded to your location.
    - **Pre-Cached Graphics Status Pill (`#finops-cost-pill`)**: Displays `Visual Assets: 100% Pre-Cached (8-Bit PNG) • Warm Cream • Instant Load` (`3,917` built-in curated visual assets across all 144 badges at `$0.00` runtime image cost, `~$0.184` actual cold LLM spend vs. `$0.38` ceiling).
@@ -246,6 +246,8 @@ The Material 3 Counselor Workbench (`:8085`) uses a responsive two-column layout
 
 ## 4. System architecture and agent pipeline
 
+### 4.1 Logical Multi-Agent Google ADK Pipeline
+
 ```mermaid
 flowchart LR
     UIs["Material 3 Counselor Workbench<br/>(FastAPI + Web UI :8085 & A2A 1.0)"] --> Coord["MeritBadgeCoordinatorAgent<br/>(ADK Supervisor & Guardrails)"]
@@ -258,6 +260,50 @@ flowchart LR
     Rev -.->|"Self-Healing Retry"| Build
     Rev --> Out["Deliverables<br/>(.PPTX Deck, .MD Workbook, Pacing Plan, Gear List, Parent Letter & Blue Card CSV)"]
 ```
+
+### 4.2 Physical GCP Cloud Run v2, IAM, Secret Manager & Security Perimeter
+
+```mermaid
+flowchart LR
+    subgraph ClientEdge["Counselor & External AI Clients"]
+        Browser["Browser SPA (:8085)<br/>localStorage Profile & Presenter (P)"]
+        MCPClient["External AI Clients<br/>(Claude / AGY / Cursor via MCP)"]
+    end
+
+    subgraph GCPEdge["Google Cloud Perimeter (terraform/main.tf)"]
+        WAF["Cloud Armor WAF (120 RPM/IP)<br/>+ HTTPS Load Balancer / IAP"]
+        subgraph VPC["VPC / VPC-SC Security Perimeter (scouts-bsa-agent-vpc)"]
+            CR["Cloud Run v2 (scouts-bsa-merit-badge-agent)<br/>SA: scouts-bsa-agent-sa (Least-Privilege IAM)<br/>SQLite WAL (9 Tables) + 3,917 Pre-Bundled Assets"]
+            SM["Secret Manager<br/>(BSA_API_KEY, BSA_HITL_SECRET_KEY,<br/>ADMIN_SUPERUSER_TOKEN)"]
+            CSQL["Phase 2: Cloud SQL PostgreSQL 16<br/>(CloudSQLPgVectorBackend + RLS)"]
+            GCS["Cloud Storage Bucket<br/>(CMEK 90-Day Rotation)"]
+        end
+        Vertex["Vertex AI (gemini-2.5-pro / flash / flash-image)<br/>+ Regional Cloud Model Armor REST API"]
+        Obs["Cloud Trace + Cloud Logging + ZeroPiiTelemetryStore<br/>+ 5% OnlineProductionAuditSampler"]
+    end
+
+    Browser -->|"HTTPS / SSE (Bidirectional PII Scrub)"| WAF
+    MCPClient -->|"JSON-RPC 2.0 (POST /mcp & Stdio)"| WAF
+    WAF --> CR
+    CR -->|"roles/secretmanager.secretAccessor"| SM
+    CR -->|"roles/aiplatform.user + Pre-LLM PII Firewall"| Vertex
+    CR -.->|"SESSION_BACKEND=cloudsql"| CSQL
+    CR -->|"roles/storage.objectUser"| GCS
+    CR -->|"W3C traceparent + Honest Dual Latency"| Obs
+```
+
+### 4.3 Why Custom Pro-Code Google ADK vs. Out-of-the-Box Gemini Enterprise (Agentspace) or NotebookLM? (Build-vs-Buy Defense)
+
+While out-of-the-box **NotebookLM** and no-code **Gemini Enterprise (Agentspace)** assistants work well for conversational document Q&A, they cannot satisfy six concrete technical and compliance requirements needed for Scouts BSA Merit Badge instruction:
+
+| Technical Requirement | Out-of-the-Box NotebookLM / No-Code Gemini Enterprise (Agentspace) | Custom Pro-Code 7-Agent Google ADK Workbench (`scouts-bsa-merit-badge-agent`) |
+| :--- | :--- | :--- |
+| **1. Deterministic Widescreen `.PPTX` OpenXML Compilation & `<10ms` AABB Geometry QA** | Produces text summaries or audio overviews only; cannot compile native `16:9` OpenXML `.pptx` shape trees, apply master templates, or verify bounding-box collisions. | `PowerPointBuilderAgent` + `BSABrandAndSafetyReviewAgent` (`LoopAgent`, max 3x) compile native `13.333" x 7.5"` `.pptx` decks across **17 templates** and **4 `DeckStyleConfig` modes**, enforcing `check_pptx_conformance()` (`<10ms` AABB overlap math, `12.0pt` font floor, `SafeCanvasBounds`, and `audit_deck_visual_quality >= 90`). |
+| **2. Cryptographic SHA-256 Verbatim Requirement Lock & Zero Requirement Drift** | Summarizes and paraphrases source documents by default; cannot cryptographically guarantee that verbatim sub-requirement wording (`1a..15b`) never drifts during web enrichment. | `compute_canonical_pamphlet_hash()` locks the canonical `(req_number, req_text)` tree with a SHA-256 digest before and after `WebSearchGroundingAgent` (`AgentTool`) executes, automatically restoring verbatim wording on any mismatch. |
+| **3. 18 Multi-Option ("Two-Badges-in-One") 3-Level Sub-Requirement Tree Unrolling & Selective Patrol Scenario Quiz Curation** | Flattens multi-discipline option trees (`Cycling` Road vs. Mountain Bike, `Skating` Ice/Roller/Inline/Skateboard) into generic bullet points and cannot selectively curate patrol quizzes. | Unrolls all **18 Multi-Option Merit Badges** across 3-level sub-requirement trees (`2a -> 2a(5) -> 2a(5)(a)..(h)` via `GET /api/v1/badges/{badge_name}/options`) with option-scoped pamphlet page ranges, and restricts `SOCRATIC_REVIEW_QUIZ` slides (`_select_quiz_eligible_requirement_ids()`) to `<= 3` safety/judgment requirements per deck. |
+| **4. Cryptographic HMAC-SHA256 Human-in-the-Loop (HITL) Tool Gate** | Lacks tool-level cryptographic token verification; an LLM can trigger downstream actions without verifiable proof of human approval. | `request_counselor_confirmation()` signs `{badge_name}:{slide_count}:APPROVED` with `BSA_HITL_SECRET_KEY`, and `verify_hitl_before_tool_callback()` verifies the HMAC-SHA256 signature via constant-time `hmac.compare_digest()` before `.pptx` compilation runs. |
+| **5. Pre-Bundled `3,917` De-Boxed Visual Assets (`$0.00` Runtime Image Cost, `$0.184` Cold Deck) & `$1.00` Hard FinOps Ceiling** | Cannot extract and flood-fill de-box 2,323 scanned pamphlet figures, bundle 1,306 zero-text Nano Banana illustrations, or enforce per-deck USD circuit breakers. | Bundles **3,917 curated visual assets** across all 144 badges at **`$0.00` runtime image cost** (`$0.184` cold LLM deck build), enforces a hard **`$1.00` ceiling** via `FinOpsBudgetPlugin` (modeled across 3 deployment tiers by `scripts/cost_model.py`), and gates on-demand images (`$0.08`) and note polish (`$0.000835/slide`) behind explicit consent modals. |
+| **6. Classroom Field Toolkit (`#34124` 3-Panel Blue Cards, Scoutbook Plus CSV, Scannable ISO 18004 QR Handout, Split-Screen Presenter `P`, and 22-Capability MCP Server)** | Provides a chat interface only; lacks classroom projection, Blue Card sign-off matrices, QR field handouts, or MCP server endpoints. | Ships the **Patrol Blue Card (`#34124`) & Scoutbook Plus CSV Tracker**, **Scannable ISO 18004 QR Handout** (`/api/v1/qr.svg`), **Full-Size Split-Screen Presenter View (`P`)** with Spacebar Patrol Quiz Scoreboard, `<80ms` Multi-Badge Workspaces (`🗂️ My Decks`), and a **22-Capability Dual-Transport MCP Server** (`src/mcp_server.py`). |
 
 ### Agent roles and main helper functions (9 Components / 7 Specialist Agents)
 
@@ -313,6 +359,7 @@ scouts-bsa-merit-badge-agent/
 │   ├── official_requirements_cache.json # Canonical Scouting.org requirement trees for all 144 Merit Badges
 │   ├── pamphlet_image_catalog.json      # Master catalog of 2,323 Vision-verified BSA Pamphlet figures & alternates
 │   ├── nano_banana_image_catalog.json   # Master catalog of 1,306 pre-generated 8-bit Nano Banana PNGs
+│   ├── asset_inventory_manifest.json    # SHA-256 checksum inventory of all 3,917 visual assets for <25 MB bundle verification
 │   ├── local_grounding_cache.json       # Cached regional NOAA/NWS, terrain, and state agency lookups
 │   └── us_senators_cache.json           # Cached U.S. Senators lookup across all 50 states + D.C.
 ├── deliverables/               # Generated .pptx slide decks, .md workbooks, and evaluation reports
@@ -324,9 +371,9 @@ scouts-bsa-merit-badge-agent/
 │   ├── MCP_SERVER_INTEGRATION_GUIDE.md   # Dual-transport MCP Server guide (12 tools, 6 bsa:// resources, 4 prompts)
 │   ├── TDD.md                            # Technical Design Document (architecture, data contracts, & ADRs)
 │   ├── finops-billing-and-deployment-guide.md # FinOps token billing, local vs. Cloud Run costs, and consent gates
-│   ├── openapi.yaml                      # Exported OpenAPI 3.1 contract (121 paths across FastAPI, Templates, DeckStyleConfig, Workspaces, MCP, Admin, Docs & A2A)
+│   ├── openapi.yaml                      # Exported OpenAPI 3.1 contract (123 paths across FastAPI, Templates, DeckStyleConfig, Workspaces, MCP, Admin, Docs & A2A)
 │   ├── runbook.md                        # Operational runbook, triage playbooks, and rollback commands
-│   └── adr/README.md                     # Summary index of the 10 Architecture Decision Records
+│   └── adr/README.md                     # Summary index of the 11 Architecture Decision Records (ADR-01 to ADR-11)
 ├── prompts/
 │   ├── manifest.json           # Versioned prompt manifest with SHA-256 hashes
 │   ├── coordinator.md          # System instructions for MeritBadgeCoordinatorAgent
@@ -338,6 +385,9 @@ scouts-bsa-merit-badge-agent/
 ├── scripts/
 │   ├── deploy_cloud_run.sh                # One-command Cloud Run / Argolis deployment and readiness verifier
 │   ├── eval_gate.py                       # Multi-metric pre-deployment evaluation gate (12 golden badges)
+│   ├── cost_model.py                      # Executable 3-tier FinOps & TCO calculator (Single Troop, Council, National)
+│   ├── build_submission_bundle.py         # Builds verified <25 MB Git submission bundle + SHA-256 asset manifest
+│   ├── repo_audit.sh                      # Pre-submission repository hygiene, bundle size (<30 MB), and secret audit
 │   ├── export_openapi.py                  # Exports live FastAPI OpenAPI 3.1 schema to docs/openapi.yaml
 │   ├── pregenerate_hero_illustrations.py  # Batch pre-generator & 8-bit PNG quantizer for all 144 badge hero & topic graphics
 │   ├── build_option2_all_144_visuals.py   # Multi-slide topic illustration & high-res scientific chart builder
@@ -356,13 +406,14 @@ scouts-bsa-merit-badge-agent/
 │   │   ├── image_studio.py     # WebImageSearchAgent, NanoBananaImageAgent (10 UI styles + $0.08 gate), & Upload
 │   │   ├── builder.py          # PowerPointBuilderAgent with HITL FunctionTool and callbacks
 │   │   ├── reviewer.py         # BSABrandAndSafetyReviewAgent (LoopAgent) and Conformance Simulator
-│   │   └── guardrails.py       # ScoutsBSAModelArmorPlugin, FinOpsBudgetPlugin, and PII callbacks
+│   │   └── guardrails.py       # ScoutsBSAModelArmorPlugin, FinOpsBudgetPlugin, and bidirectional PII callbacks
 │   ├── memory/
-│   │   └── session_store.py    # PersistentSessionStore (SQLite WAL, polished_speaker_notes cache, pgvector & hybrid RRF)
+│   │   └── session_store.py    # PersistentSessionStore (9 SQLite WAL tables, polished_speaker_notes cache, pgvector & hybrid RRF)
 │   ├── observability/
-│   │   ├── logging_setup.py    # Structured JSON logging, intent/outcome logs, and DLP PII scrubber
-│   │   ├── telemetry_store.py  # ZeroPiiTelemetryStore (SQLite usage, stage latency, and image-swap telemetry)
-│   │   └── tracing.py          # OpenTelemetry TracerProvider, ring buffer, and Cloud Trace exporter
+│   │   ├── logging_setup.py        # Structured JSON logging, intent/outcome logs, and DLP PII scrubber
+│   │   ├── online_audit_sampler.py # 5% OnlineProductionAuditSampler for continuous zero-PII production trace QA
+│   │   ├── telemetry_store.py      # ZeroPiiTelemetryStore (SQLite usage, Honest Dual Latency, and image-swap telemetry)
+│   │   └── tracing.py              # OpenTelemetry TracerProvider, ring buffer, and Cloud Trace exporter
 │   ├── tools/
 │   │   ├── scouting_scraper.py       # 144-badge catalog, pamphlet scraper, and workbook generator
 │   │   ├── requirements_scraper.py   # Live Scouting.org requirement & sub-requirement parser for all 144 badges
@@ -398,8 +449,8 @@ scouts-bsa-merit-badge-agent/
 │   ├── test_pii_scrubber.py                     # Pre-LLM PII redaction and Model Armor guardrail tests
 │   ├── test_resilience_and_fault_injection.py   # Circuit breaker, 429 retry, auth, and OpenAPI schema tests
 │   └── test_tools.py                            # Tool validation and GuidedToolError recovery tests
-├── ARCHITECTURE_DECISIONS.md   # 10 Architecture Decision Records + quantitative benchmarks & post-mortems
-├── SCOPE.md                    # Project scope and target user personas
+├── ARCHITECTURE_DECISIONS.md   # 11 Architecture Decision Records (ADR-01 to ADR-11) + benchmarks & post-mortems
+├── SCOPE.md                    # Project scope, target user personas, and Build-vs-Buy ADK defense
 ├── SPEC.md                     # Technical specification of agent topology and endpoints
 ├── Dockerfile                  # Multi-stage non-root container image with /health HEALTHCHECK
 ├── cloudbuild.yaml             # Cloud Build CI/CD pipeline with 10% canary and auto-rollback
@@ -415,12 +466,12 @@ scouts-bsa-merit-badge-agent/
 
 ### User and engineering documentation (also accessible via Top-Bar `📘 Documentation` / `D`)
 - **[`docs/USER_GUIDE.md`](docs/USER_GUIDE.md)**: Detailed user documentation written from a Merit Badge Counselor's perspective, featuring real UI screenshots, Mermaid workflow diagrams, and reference tables for every workbench option.
-- **[`docs/ADMIN_GUIDE.md`](docs/ADMIN_GUIDE.md)**: Super-User Admin Console documentation covering the 144-Badge Catalog & Caption Studio, Zero-PII Usage, Latency & Image-Swap Telemetry (`ZeroPiiTelemetryStore`), System Diagnostics, and `/api/v1/admin/*` endpoints.
+- **[`docs/ADMIN_GUIDE.md`](docs/ADMIN_GUIDE.md)**: Super-User Admin Console documentation covering the 144-Badge Catalog & Caption Studio, Zero-PII Usage, Honest Dual Latency, 5% Online Production Trace Audit Sampler (`OnlineProductionAuditSampler`), & Image-Swap Telemetry (`ZeroPiiTelemetryStore`), System Diagnostics, and `/api/v1/admin/*` endpoints.
 - **[`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](docs/MCP_SERVER_INTEGRATION_GUIDE.md)**: Official Scouts BSA Workbench MCP Server integration guide covering `stdio` (`python -m src.mcp_server` / `scouts-bsa-mcp`) and HTTP (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`) transports, `12` MCP Tools, `6` `bsa://` Resources, `4` Guided Prompts, and the in-app `🤖 MCP Hub` modal.
-- **[`docs/TDD.md`](docs/TDD.md)**: Full Technical Design Document covering the 7-agent pipeline, Pydantic v2 data contracts, security boundary, and observability architecture.
-- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Ten Architecture Decision Records covering the options evaluated, quantitative benchmark matrices, and engineering post-mortems.
-- **[`docs/finops-billing-and-deployment-guide.md`](docs/finops-billing-and-deployment-guide.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, and budget/quota error handling.
-- **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification (`121` paths) and request examples for `/api/v1/*`, `/api/v1/templates/*`, `/api/v1/preferences/deck-style*`, `/api/v1/workspaces*`, `/mcp*`, `/api/v1/admin/*`, `/api/v1/docs`, `/a2a/*`, `/health`, and `/readiness`.
+- **[`docs/TDD.md`](docs/TDD.md)**: Full Technical Design Document covering the 7-agent pipeline, Physical GCP Cloud Run v2 topology, Pydantic v2 data contracts, security boundary, and `ADR-11` as-built reconciliation matrix.
+- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/adr/README.md`](docs/adr/README.md)**: Eleven Architecture Decision Records (`ADR-01` through `ADR-11`) covering the options evaluated, quantitative benchmark matrices, as-built reconciliation, and engineering post-mortems.
+- **[`docs/finops-billing-and-deployment-guide.md`](docs/finops-billing-and-deployment-guide.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, executable 3-tier TCO modeling (`scripts/cost_model.py`), and budget/quota error handling.
+- **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification (`123` paths) and request examples for `/api/v1/*`, `/api/v1/templates/*`, `/api/v1/preferences/deck-style*`, `/api/v1/workspaces*`, `/mcp*`, `/api/v1/admin/*`, `/api/v1/docs`, `/a2a/*`, `/health`, and `/readiness`.
 - **[`docs/runbook.md`](docs/runbook.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), Super-User Admin Console diagnostics, SQLite online backup, and Cloud Run revision rollback.
 
 ### Environment variables (`.env`)
@@ -512,14 +563,21 @@ adk deploy cloud_run \
 ## 8. Testing and evaluation gate
 
 ```bash
-# 1. Run all 70 unit, security, fault-injection, Image Studio, Easy Slide Image Switcher, PowerPoint Templates, Global Deck Layout Style Engine (DeckStyleConfig & Stage-2 Visual Quality Auditor), Multi-Badge Workspaces, MCP Server, Conversational Teaching Notes, Counselor UX, Super-User Admin Console, In-App Docs Viewer, OpenAPI drift, and conformance tests
+# 1. Run all 76 unit, security, fault-injection, Image Studio, Easy Slide Image Switcher, PowerPoint Templates, Global Deck Layout Style Engine (DeckStyleConfig & Stage-2 Visual Quality Auditor), Multi-Badge Workspaces, MCP Server, Conversational Teaching Notes, Counselor UX, Super-User Admin Console, OnlineProductionAuditSampler, Honest Dual Latency, In-App Docs Viewer, OpenAPI drift (123 paths), and conformance tests
 .venv/bin/pytest tests/ -v
 
 # 2. Run the pre-deployment evaluation gate across the 12 golden badges
 #    (verifies IR Recall@3 = 1.0, MRR = 1.0, NDCG@3 = 1.0, SHA-256 requirement lock, and 0 AABB overlaps)
 .venv/bin/python3 scripts/eval_gate.py
 
-# 3. Run the concurrent API and deck generation latency benchmark
+# 3. Run the executable 3-tier FinOps & TCO model (Single Troop, 500-Counselor Council, National Scale)
+.venv/bin/python3 scripts/cost_model.py
+
+# 4. Build and audit the < 25 MB (< 30 MB limit) lightweight Git release bundle + SHA-256 asset manifest
+.venv/bin/python3 scripts/build_submission_bundle.py
+bash scripts/repo_audit.sh
+
+# 5. Run the concurrent API and deck generation latency benchmark
 .venv/bin/python3 tests/load/load_test.py
 ```
 

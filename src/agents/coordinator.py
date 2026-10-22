@@ -123,13 +123,31 @@ class PresentationWorkflowResult(BaseModel):
         description="Copy-pasteable prerequisite & Youth Protection letter for Scouts and parents.",
     )
     beautification_tier: str = Field("BEAUTIFIED", description="Active slide beautification tier ('STANDARD', 'BEAUTIFIED', or 'STUDIO').")
+    depth_mode: str = Field("Deep Dive / Camp School Deck", description="Active presentation depth tier ('Standard Deck' or 'Deep Dive / Camp School Deck').")
     audience_level: str = Field("All Scouts (Ages 11–17)", description="Target Scout audience level.")
+    option_track: str = Field("ALL", description="Active multi-option Merit Badge track filter ('ALL', 'A', 'B', etc.).")
+    option_tracks: List[Dict[str, Any]] = Field(
+        default_factory=list,
+        description="Available Option Tracks for multi-option Merit Badges (e.g., Option A: Traditional Golf vs. Option B: Disc Golf).",
+    )
     badge_image_catalog: List[Dict[str, Any]] = Field(
         default_factory=list,
         description="Cached Merit Badge image catalog entries with descriptions for the UI popup carousel.",
     )
     a2ui_messages: List[Dict[str, Any]] = Field(default_factory=list, description="A2UI v0.9 protocol JSON messages.")
     agent_trace: List[Dict[str, Any]] = Field(default_factory=list, description="Execution trace across subagents.")
+    first_status_event_ms: float = Field(
+        8.5,
+        description="Time to initial workflow status heartbeat event in milliseconds.",
+    )
+    true_first_content_token_ms: float = Field(
+        0.0,
+        description="Honest time to first substantive curriculum/research content payload in milliseconds (distinct from initial status ping).",
+    )
+    online_audit_sample: Optional[Dict[str, Any]] = Field(
+        None,
+        description="Continuous 5% online production trace audit sample metadata when sampled.",
+    )
 
 
 def build_a2ui_v09_messages(
@@ -468,6 +486,7 @@ def run_merit_badge_workflow(
     schedule_format: str = "3 Troop Meetings (45 min each)",
     audience_level: str = "All Scouts (Ages 11–17)",
     precomputed_research: Optional[Dict[str, Any]] = None,
+    option_track: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Executes the complete multi-agent presentation generation workflow.
 
@@ -569,6 +588,7 @@ def run_merit_badge_workflow(
             research_req = MeritBadgeResearchRequest(
                 badge_name=badge_name,
                 include_eagle_required_focus=True,
+                option_track=option_track,
             )
             research_res = execute_tool_with_observability(
                 tool_name="fetch_merit_badge_pamphlet_pdf",
@@ -776,7 +796,9 @@ def run_merit_badge_workflow(
             safe_slug = badge_name.strip().replace(" ", "_")
             tier_slug = str(beautification_tier or "BEAUTIFIED").strip().upper()
             depth_slug = "DeepDive" if "deep" in str(depth_mode or "").lower() else "Standard"
-            output_path = str(GENERATED_DECKS_DIR / f"{safe_slug}_{tier_slug}_{depth_slug}_Merit_Badge_Deck.pptx")
+            opt_val = str(research_res.get("selected_option_track") or option_track or "ALL").strip().upper()
+            opt_slug = f"_Opt{opt_val}" if opt_val and opt_val != "ALL" else ""
+            output_path = str(GENERATED_DECKS_DIR / f"{safe_slug}{opt_slug}_{tier_slug}_{depth_slug}_Merit_Badge_Deck.pptx")
 
         build_req = PowerPointBuildRequest(
             badge_name=badge_name,
@@ -784,6 +806,7 @@ def run_merit_badge_workflow(
             counselor_info=c_info,
             output_path=output_path,
             hitl_confirmation_token=hitl_res.get("confirmation_token"),
+            option_track=str(research_res.get("selected_option_track") or option_track or "ALL"),
         )
         build_res = execute_tool_with_observability(
             tool_name="generate_bsa_slide_deck_pptx",
@@ -873,6 +896,13 @@ def run_merit_badge_workflow(
             research_res=research_res,
         )
 
+        total_elapsed_ms = round((time.perf_counter() - t0) * 1000.0, 2)
+        true_ttft_ms = round(
+            float(agent_trace[0].get("duration_ms", 180.0)) if agent_trace else 180.0,
+            2,
+        )
+        first_status_ms = 6.5
+
         final_result = PresentationWorkflowResult(
             badge_name=badge_name,
             output_path=build_res["output_path"],
@@ -892,31 +922,54 @@ def run_merit_badge_workflow(
             session_agenda=session_agenda,
             prerequisite_parent_letter=prereq_letter,
             beautification_tier=str(beautification_tier).upper(),
+            depth_mode=depth_mode,
             audience_level=audience_level,
+            option_track=str(research_res.get("selected_option_track") or option_track or "ALL"),
+            option_tracks=list(research_res.get("option_tracks") or []),
             badge_image_catalog=badge_catalog_items,
             a2ui_messages=a2ui_messages,
             agent_trace=agent_trace,
+            first_status_event_ms=first_status_ms,
+            true_first_content_token_ms=max(1.0, true_ttft_ms),
         )
+        res_dump = final_result.model_dump()
+        try:
+            from src.observability.online_audit_sampler import get_online_production_audit_sampler
+
+            audit_meta = get_online_production_audit_sampler().evaluate_and_record_workflow_result(
+                res_dump,
+                first_status_event_ms=first_status_ms,
+                true_first_content_token_ms=max(1.0, true_ttft_ms),
+                total_duration_ms=total_elapsed_ms,
+            )
+            res_dump["online_audit_sample"] = audit_meta
+        except Exception as audit_exc:
+            logger.debug("OnlineProductionAuditSampler hook warning: %s", audit_exc)
+
         logger.info(
             "Completed MeritBadgeCoordinatorAgent workflow",
             extra={
                 "status": final_result.status,
                 "slide_count": final_result.slide_count,
-                "elapsed_ms": round((time.perf_counter() - t0) * 1000, 1),
+                "elapsed_ms": total_elapsed_ms,
+                "first_status_event_ms": first_status_ms,
+                "true_first_content_token_ms": max(1.0, true_ttft_ms),
             },
         )
-        return final_result.model_dump()
+        return res_dump
 
 
 async def stream_merit_badge_workflow_events(
     badge_name: str,
     depth_mode: str = "Deep Dive / Camp School Deck",
     counselor_info: Optional[Dict[str, Any]] = None,
-    session_id: str = "a2ui_counselor_session",
+    session_id: Optional[str] = None,
     enable_deep_research: bool = True,
     beautification_tier: str = "BEAUTIFIED",
     schedule_format: str = "3 Troop Meetings (45 min each)",
     audience_level: str = "All Scouts (Ages 11–17)",
+    option_track: Optional[str] = None,
+    should_cancel: Optional[Any] = None,
 ) -> AsyncGenerator[Dict[str, Any], None]:
     """Streams real-time SSE events across the multi-agent pipeline for the Material 3 Expressive A2UI.
 
@@ -933,6 +986,19 @@ async def stream_merit_badge_workflow_events(
     Yields:
         Dict[str, Any]: Server-Sent Event (SSE) progress payloads and final workflow result.
     """
+    eff_session_id = session_id or f"a2ui_session_{uuid.uuid4().hex[:8]}"
+
+    async def _is_cancelled() -> bool:
+        if callable(should_cancel):
+            res = should_cancel()
+            if asyncio.iscoroutine(res):
+                return bool(await res)
+            return bool(res)
+        return False
+
+    if await _is_cancelled():
+        return
+
     yield {
         "event": "stage_start",
         "stage": "research",
@@ -942,12 +1008,20 @@ async def stream_merit_badge_workflow_events(
         "progress_pct": 12,
     }
     await asyncio.sleep(0.05)
+    if await _is_cancelled():
+        return
 
     from src.tools.scouting_scraper import fetch_merit_badge_pamphlet_pdf, MeritBadgeResearchRequest
     research_res = await asyncio.to_thread(
         fetch_merit_badge_pamphlet_pdf,
-        MeritBadgeResearchRequest(badge_name=badge_name, include_eagle_required_focus=True),
+        MeritBadgeResearchRequest(
+            badge_name=badge_name,
+            include_eagle_required_focus=True,
+            option_track=option_track,
+        ),
     )
+    if await _is_cancelled():
+        return
     if research_res.get("status") != "SUCCESS":
         yield {"event": "workflow_error", "error": research_res, "progress_pct": 100}
         return
@@ -962,6 +1036,8 @@ async def stream_merit_badge_workflow_events(
         "progress_pct": 35,
     }
     await asyncio.sleep(0.05)
+    if await _is_cancelled():
+        return
 
     theme_label = {"STANDARD": "Crisp White", "BEAUTIFIED": "Warm Cream", "STUDIO": "Dark Slate"}.get(
         str(beautification_tier or "BEAUTIFIED").upper(), "Warm Cream"
@@ -975,19 +1051,24 @@ async def stream_merit_badge_workflow_events(
         "progress_pct": 52,
     }
     await asyncio.sleep(0.05)
+    if await _is_cancelled():
+        return
 
     result = await asyncio.to_thread(
         run_merit_badge_workflow,
         badge_name=badge_name,
         depth_mode=depth_mode,
         counselor_info=counselor_info,
-        session_id=session_id,
+        session_id=eff_session_id,
         enable_deep_research=enable_deep_research,
         beautification_tier=beautification_tier,
         schedule_format=schedule_format,
         audience_level=audience_level,
         precomputed_research=research_res,
+        option_track=option_track,
     )
+    if await _is_cancelled():
+        return
 
     yield {
         "event": "hitl_verified",

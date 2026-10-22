@@ -151,7 +151,7 @@ paths:
     get:
       summary: List Merit Badges
       description: Returns catalog of all 144 official Scouts BSA Merit Badges with
-        category, Eagle status, and resource links.
+        category, Eagle status, option tracks, and resource links.
       operationId: list_merit_badges_api_v1_badges_get
       parameters:
       - name: authorization
@@ -189,7 +189,7 @@ paths:
     get:
       summary: List Merit Badges
       description: Returns catalog of all 144 official Scouts BSA Merit Badges with
-        category, Eagle status, and resource links.
+        category, Eagle status, option tracks, and resource links.
       operationId: list_merit_badges_api_badges_get
       parameters:
       - name: authorization
@@ -217,6 +217,96 @@ paths:
                 type: object
                 additionalProperties: true
                 title: Response List Merit Badges Api Badges Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/badges/{badge_name}/options:
+    get:
+      summary: Api Get Badge Option Tracks
+      description: Returns structured Option Tracks for a multi-option Merit Badge
+        (e.g., Golf Option A vs. Option B).
+      operationId: api_get_badge_option_tracks_api_v1_badges__badge_name__options_get
+      parameters:
+      - name: badge_name
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Badge Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Badge Option Tracks Api V1 Badges  Badge Name  Options
+                  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/badges/{badge_name}/options:
+    get:
+      summary: Api Get Badge Option Tracks
+      description: Returns structured Option Tracks for a multi-option Merit Badge
+        (e.g., Golf Option A vs. Option B).
+      operationId: api_get_badge_option_tracks_api_badges__badge_name__options_get
+      parameters:
+      - name: badge_name
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Badge Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Badge Option Tracks Api Badges  Badge Name  Options
+                  Get
         '422':
           description: Validation Error
           content:
@@ -507,6 +597,15 @@ paths:
           - type: string
           - type: 'null'
           title: Layout Style Preset
+      - name: option_track
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: ALL
+          title: Option Track
       responses:
         '200':
           description: Successful Response
@@ -627,6 +726,15 @@ paths:
           - type: string
           - type: 'null'
           title: Layout Style Preset
+      - name: option_track
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: ALL
+          title: Option Track
       responses:
         '200':
           description: Successful Response
@@ -3809,6 +3917,38 @@ paths:
                 type: object
                 title: Response Api Admin Telemetry Summary Api Admin Telemetry Summary
                   Get
+  /api/v1/admin/telemetry/online-audit:
+    get:
+      summary: Api Admin Online Audit Telemetry
+      description: Returns continuous 5% online production trace audit sampler metrics
+        and recent zero-PII samples.
+      operationId: api_admin_online_audit_telemetry_api_v1_admin_telemetry_online_audit_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api Admin Online Audit Telemetry Api V1 Admin Telemetry
+                  Online Audit Get
+  /api/admin/telemetry/online-audit:
+    get:
+      summary: Api Admin Online Audit Telemetry
+      description: Returns continuous 5% online production trace audit sampler metrics
+        and recent zero-PII samples.
+      operationId: api_admin_online_audit_telemetry_api_admin_telemetry_online_audit_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api Admin Online Audit Telemetry Api Admin Telemetry
+                  Online Audit Get
   /api/v1/admin/diagnostics/assets:
     get:
       summary: Api Admin Diagnostics Assets
@@ -6674,6 +6814,14 @@ components:
           - type: 'null'
           title: Deck Style
           description: Optional DeckStyleConfig override dictionary.
+        option_track:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Option Track
+          description: Optional multi-option Merit Badge track filter ('ALL', 'A',
+            'B', 'C', 'D', etc.).
+          default: ALL
       type: object
       title: WorkflowRunRequest
     WorkspaceCloneRequest:

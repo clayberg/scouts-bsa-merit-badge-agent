@@ -1,0 +1,150 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at_utc": "2026-10-22T13:58:00.162433+00:00",
+  "total_curated_visual_assets": 3917,
+  "total_official_merit_badges": 144,
+  "builtin_pptx_templates": 17,
+  "deployment_note": "The full 1.2 GB assets/ directory (3,917 PNG visual assets, 144 BSA Pamphlet PDFs, and 17 PowerPoint templates) is present in the live workspace and baked into the Argolis Cloud Run Docker container image (Dockerfile COPY assets/ ./assets/). The standalone go/capstone-app submission bundle omits bulk binary PNG/PDF media to satisfy the portal's < 30 MB upload cap (MAX_BUNDLE_SIZE_MB = 30).",
+  "category_breakdown": {
+    "ai_illustrations": {
+      "file_count": 1349,
+      "total_bytes": 251538601,
+      "total_mb": 239.89
+    },
+    "pamphlet_images": {
+      "file_count": 2344,
+      "total_bytes": 206673247,
+      "total_mb": 197.1
+    },
+    "badge_emblems": {
+      "file_count": 145,
+      "total_bytes": 25807999,
+      "total_mb": 24.61
+    },
+    "pamphlet_covers": {
+      "file_count": 144,
+      "total_bytes": 16277335,
+      "total_mb": 15.52
+    },
+    "templates": {
+      "file_count": 37,
+      "total_bytes": 4833249,
+      "total_mb": 4.61
+    },
+    "construction_anim": {
+      "file_count": 15,
+      "total_bytes": 1372125,
+      "total_mb": 1.31
+    }
+  },
+  "sample_sha256_verifications": [
+    {
+      "category": "ai_illustrations",
+      "rel_path": "assets/ai_illustrations/action_sports_req_1_nano_hero.png",
+      "size_bytes": "193703",
+      "sha256": "6b62d7f6f3b78f9a4115f8a673fe777b5eb6a6da1dae85993fe62ac23e62414f"
+    },
+    {
+      "category": "ai_illustrations",
+      "rel_path": "assets/ai_illustrations/action_sports_req_1_topic_visual.png",
+      "size_bytes": "261634",
+      "sha256": "ce3dfc30ce855742aee99b56105babd6adc02eb63f67a76b513a719204a75cba"
+    },
+    {
+      "category": "ai_illustrations",
+      "rel_path": "assets/ai_illustrations/action_sports_req_2_nano_hero.png",
+      "size_bytes": "248686",
+      "sha256": "268dd6c078cbcb6de16c7d698413319b5d60119d24bc08d5987f3102212022d1"
+    },
+    {
+      "category": "pamphlet_images",
+      "rel_path": "assets/pamphlet_images/american_business_p013_img1.png",
+      "size_bytes": "114854",
+      "sha256": "12e7f2d05b099cfa305bc5d852c56569d69b61f8e60c82fa13b7554823c0c07c"
+    },
+    {
+      "category": "pamphlet_images",
+      "rel_path": "assets/pamphlet_images/american_business_p018_img1.png",
+      "size_bytes": "110522",
+      "sha256": "627d27466df06fdedf5405d371c5254acfe7f71e44d38ecd8845d7017eb02712"
+    },
+    {
+      "category": "pamphlet_images",
+      "rel_path": "assets/pamphlet_images/american_business_p024_img1.png",
+      "size_bytes": "46320",
+      "sha256": "6d4181e252b3647a542e4e42bc8c11bf2c96ca29e62e9576bffdb66acd451c7e"
+    },
+    {
+      "category": "badge_emblems",
+      "rel_path": "assets/badge_emblems/action_sports.png",
+      "size_bytes": "333887",
+      "sha256": "158d1038ffd37fea323456c1c038ee95a225ebc33daa623804c2a67b02cec2a1"
+    },
+    {
+      "category": "badge_emblems",
+      "rel_path": "assets/badge_emblems/american_business.png",
+      "size_bytes": "70524",
+      "sha256": "13fcb0659c01203fb92e3c0760ff99b942bcd11ceec3f71046af6b7f4b07cf57"
+    },
+    {
+      "category": "badge_emblems",
+      "rel_path": "assets/badge_emblems/american_cultures.png",
+      "size_bytes": "83032",
+      "sha256": "b4b3612621b56b0242a7b12478da532eb194a3885765637cc39500a1ae75fb38"
+    },
+    {
+      "category": "pamphlet_covers",
+      "rel_path": "assets/pamphlet_covers/action_sports_cover.png",
+      "size_bytes": "116219",
+      "sha256": "8c58cb6b73421edd4bec17620d794eec1ff98ff80746f2f4093260243c47df35"
+    },
+    {
+      "category": "pamphlet_covers",
+      "rel_path": "assets/pamphlet_covers/american_business_cover.png",
+      "size_bytes": "133913",
+      "sha256": "82710f51ceb23dd265d791dbaf0695b0b83339e4ad5df4c9d19e15b66fc08a73"
+    },
+    {
+      "category": "pamphlet_covers",
+      "rel_path": "assets/pamphlet_covers/american_cultures_cover.png",
+      "size_bytes": "156577",
+      "sha256": "a6000c2c1d30c3fe52649f58fe657777693084431cd6257902386342697bfd99"
+    },
+    {
+      "category": "templates",
+      "rel_path": "assets/templates/bsa_scouting_america.pptx",
+      "size_bytes": "28109",
+      "sha256": "c3b7428c58b513e3dc5caa24324d2f335a94671ceb122611fdfb0a6d6245ad00"
+    },
+    {
+      "category": "templates",
+      "rel_path": "assets/templates/bsa_scouting_america_blue.pptx",
+      "size_bytes": "28109",
+      "sha256": "8d71b72dc8b3fde06f4bdfc8f7bf00db097d331df112416a72a1f7f149be0818"
+    },
+    {
+      "category": "templates",
+      "rel_path": "assets/templates/bsa_scouting_america_red.pptx",
+      "size_bytes": "28109",
+      "sha256": "8d71b72dc8b3fde06f4bdfc8f7bf00db097d331df112416a72a1f7f149be0818"
+    },
+    {
+      "category": "construction_anim",
+      "rel_path": "assets/construction_anim/camp_pioneer_1_lashings.jpg",
+      "size_bytes": "141377",
+      "sha256": "fed4de8d210546f441a8baeb2c2d66373df0a1d21d62d810f4e930810cec1473"
+    },
+    {
+      "category": "construction_anim",
+      "rel_path": "assets/construction_anim/camp_pioneer_2_pulley_hoist.jpg",
+      "size_bytes": "140716",
+      "sha256": "ae13b5a61f1793c385934e30e1c92105288e39e8f08410828e7e57a5561bf766"
+    },
+    {
+      "category": "construction_anim",
+      "rel_path": "assets/construction_anim/camp_pioneer_3_field_sketch.jpg",
+      "size_bytes": "144074",
+      "sha256": "d9475274dbece3b75b9753c708acb1296989f87d19f2445cea1745bad2cf9770"
+    }
+  ]
+}

@@ -112,6 +112,7 @@ class PowerPointBuildRequest(BaseModel):
     hitl_confirmation_token: Optional[str] = Field(None, description="Optional FastMCP HITL confirmation token.")
     template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
     deck_style: Optional[Dict[str, Any]] = Field(None, description="Optional global or per-deck style configuration.")
+    option_track: Optional[str] = Field("ALL", description="Active multi-option Merit Badge track filter ('ALL', 'A', 'B', etc.).")
 
 
 class PowerPointBuildResult(BaseModel):
@@ -2240,15 +2241,20 @@ def _render_socratic_quiz_zone(
     qi = slide_spec.quiz_item or {}
     raw_scenario = _clean_text(
         qi.get("scenario_prompt")
+        or qi.get("question")
         or (slide_spec.bullet_points[0] if slide_spec.bullet_points else f"How should your patrol apply Requirement {slide_spec.req_number} in the field?")
     )
     scenario = _concise_card_body(raw_scenario, max_words=26 if full_width else 16, max_chars=170 if full_width else 105)
     options = qi.get("options") or slide_spec.bullet_points[1:4] or [
-        "Follow standard step-by-step field procedure.",
-        "Improvise without checking safety guidelines.",
-        "Skip buddy check and proceed alone.",
+        "Follow the step-by-step BSA pamphlet procedure and verify with your buddy.",
+        "Attempt the task solo without completing the pre-activity safety check.",
+        "Proceed using uninspected equipment before reviewing hazards with the counselor.",
     ]
-    raw_answer = _clean_text(qi.get("correct_answer") or "Option A — Follow standard step-by-step field procedure.")
+    raw_answer = _clean_text(
+        qi.get("correct_answer")
+        or qi.get("correct_option")
+        or "Option A — Follow the step-by-step BSA pamphlet procedure."
+    )
     answer = _concise_card_body(raw_answer, max_words=22 if full_width else 14, max_chars=145 if full_width else 90)
     raw_exp = _clean_text(qi.get("explanation") or "Grounded in the BSA Guide to Safe Scouting and merit badge instruction.")
     explanation = _concise_card_body(raw_exp, max_words=24 if full_width else 15, max_chars=160 if full_width else 98)
@@ -2286,9 +2292,8 @@ def _render_socratic_quiz_zone(
     otf.margin_bottom = Inches(0.05)
     formatted_opts: List[str] = []
     for idx_o, opt in enumerate(options[:3], start=1):
-        opt_letter = chr(64 + idx_o)
         clean_opt = _clean_text(opt)
-        clean_opt = re.sub(rf"^Option\s+{opt_letter}\s*[:\-—]\s*", "", clean_opt, flags=re.IGNORECASE)
+        clean_opt = re.sub(r"^(?:Option\s+[A-D]\s*[:.\-—–]\s*|\(?[A-D]\)\s*|[A-D]\.\s*)", "", clean_opt, flags=re.IGNORECASE)
         clean_opt = _concise_card_body(clean_opt, max_words=20 if full_width else 12, max_chars=130 if full_width else 80)
         formatted_opts.append(clean_opt)
     o_font = _compute_fitting_font_size(
@@ -2375,6 +2380,7 @@ def rebuild_deck_pptx_from_storyboard(
     template_id: str | None = None,
     default_tier: str = "BEAUTIFIED",
     deck_style: dict[str, Any] | None = None,
+    option_track: str | None = None,
 ) -> str:
     """Cleanly coerces slide dicts to SlideSpecs and generates a .PPTX deck.
     
@@ -2399,6 +2405,7 @@ def rebuild_deck_pptx_from_storyboard(
         output_path=str(output_path),
         template_id=str(template_id or "default_workbench"),
         deck_style=dict(deck_style) if isinstance(deck_style, dict) else None,
+        option_track=str(option_track or "ALL"),
     )
     generate_bsa_slide_deck_pptx(req, deck_style=deck_style)
     return str(output_path)
@@ -2525,11 +2532,40 @@ def generate_bsa_slide_deck_pptx(
         except Exception:
             patch_placed = False
 
+    # Resolve optional Single-Option Subhead when a multi-option deck covers only one option track
+    single_option_subhead = ""
+    try:
+        from src.tools.scouting_scraper import get_badge_option_tracks
+
+        opt_tracks = get_badge_option_tracks(badge_title)
+        if len(opt_tracks) >= 2:
+            req_opt = str(getattr(request, "option_track", None) or "ALL").strip().upper()
+            if req_opt and req_opt != "ALL":
+                for tr in opt_tracks:
+                    if str(tr.get("option_key", "")).upper() == req_opt or str(tr.get("sub_id", "")).upper() == req_opt:
+                        single_option_subhead = str(tr.get("title") or tr.get("option_title") or "")
+                        break
+            if not single_option_subhead:
+                slide_req_nums = [str(getattr(s, "req_number", "") or "").lower() for s in (request.slides or [])]
+                matched_tracks = [
+                    tr
+                    for tr in opt_tracks
+                    if any(
+                        rn == str(tr.get("sub_id", "")).lower()
+                        or rn.startswith(f"{str(tr.get('sub_id', '')).lower()}(")
+                        for rn in slide_req_nums
+                    )
+                ]
+                if len(matched_tracks) == 1:
+                    single_option_subhead = str(matched_tracks[0].get("title") or matched_tracks[0].get("option_title") or "")
+    except Exception:
+        single_option_subhead = ""
+
     # Zone A2: Centered Badge Title & Subtitle (Borderless Textbox — No Box!)
     hero_left = 3.05 if patch_placed else 0.65
     hero_w = 5.05 if patch_placed else 7.45
     hero_box = cover_slide.shapes.add_textbox(
-        Inches(hero_left), Inches(1.05), Inches(hero_w), Inches(2.15)
+        Inches(hero_left), Inches(0.90 if single_option_subhead else 1.05), Inches(hero_w), Inches(2.55 if single_option_subhead else 2.15)
     )
     htf = hero_box.text_frame
     htf.word_wrap = True
@@ -2542,16 +2578,29 @@ def generate_bsa_slide_deck_pptx(
         "",
         font_size_pt=title_pt,
         anchor_rgb=cover_title_rgb,
-        space_after_pt=10.0,
+        space_after_pt=6.0 if single_option_subhead else 10.0,
         align=PP_ALIGN.CENTER,
     )
+
+    if single_option_subhead:
+        p_opt = htf.add_paragraph()
+        _set_paragraph_runs(
+            p_opt,
+            single_option_subhead,
+            "",
+            font_size_pt=24.0,
+            anchor_rgb=cover_label_rgb,
+            font_name="Roboto Slab",
+            space_after_pt=6.0,
+            align=PP_ALIGN.CENTER,
+        )
 
     p_sub = htf.add_paragraph()
     _set_paragraph_runs(
         p_sub,
         "Eagle-Required Merit Badge" if eagle_flag else "Scouts BSA Merit Badge",
         "",
-        font_size_pt=24.0,
+        font_size_pt=21.0 if single_option_subhead else 24.0,
         anchor_rgb=cover_sub_rgb,
         font_name="Roboto Slab",
         space_after_pt=4.0,
