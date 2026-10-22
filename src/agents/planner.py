@@ -803,7 +803,11 @@ def generate_slide_storyboard(
             # Deep Dive mode: First slide lists & teaches core concepts for Req N,
             # followed by all detailed topic & full-page diagram slides
             core_teaching_points = _build_bullet_points_for_req(req, req_num, req_text)
-            intro_title = f"Requirement {req_num}: {clean_section_title}"
+            intro_title = (
+                f"{clean_section_title} (Req {req_num})"
+                if ":" in clean_section_title
+                else f"Requirement {req_num}: {clean_section_title}"
+            )
             slides.append(
                 SlideSpec(
                     title=intro_title,
@@ -839,11 +843,11 @@ def generate_slide_storyboard(
             n_reqs = max(1, len(requirements))
             sub_slides = [
                 s for s in raw_topic_slides
-                if "sub-requirement deep dive" in str(s.get("title", "")).lower()
+                if s.get("is_subreq_slide") or "sub-requirement deep dive" in str(s.get("title", "")).lower()
             ]
             other_slides = [
                 s for s in raw_topic_slides
-                if "sub-requirement deep dive" not in str(s.get("title", "")).lower()
+                if not s.get("is_subreq_slide") and "sub-requirement deep dive" not in str(s.get("title", "")).lower()
             ]
             if len(sub_slides) > 3:
                 all_sub_bullets: List[str] = []

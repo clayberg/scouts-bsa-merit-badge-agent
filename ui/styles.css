@@ -2881,6 +2881,8 @@ html, body {
 .m3-patch-gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  align-content: start;
+  min-height: 270px !important;
   gap: 10px;
   padding: 4px;
 }
@@ -2889,6 +2891,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: start;
   text-align: center;
   gap: 6px;
   padding: 10px 8px;
@@ -2903,6 +2906,11 @@ html, body {
   border-color: #003F87;
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 63, 135, 0.12);
+}
+
+.m3-patch-gallery-card:has(.m3-patch-multiopt-wrap:hover),
+.m3-patch-gallery-card:has(.m3-patch-multiopt-wrap.menu-open) {
+  transform: none !important;
 }
 
 .m3-patch-gallery-card.eagle-patch {
@@ -6797,6 +6805,270 @@ body.m3-dark-mode .m3-patch-fav-btn.is-fav:hover {
   background: linear-gradient(135deg, #FBBF24 0%, #B45309 100%) !important;
   color: #FFFFFF !important;
   transform: scale(1.16);
+}
+
+/* 1b. Multi-Option Badge Upper-Right Corner "A|B" Interactive Button & Option Popover Menu */
+.m3-patch-gallery-card:has(.m3-patch-multiopt-wrap:hover),
+.m3-patch-gallery-card:has(.m3-patch-multiopt-wrap.menu-open),
+.m3-patch-gallery-card.is-multiopt-open {
+  z-index: 60 !important;
+  overflow: visible !important;
+}
+
+.m3-patch-multiopt-wrap {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 18;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 6px;
+}
+
+.m3-patch-multiopt-badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5px;
+  height: 21px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+  border: 1px solid #60A5FA;
+  color: #1E40AF;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgba(30, 64, 175, 0.16);
+  cursor: pointer;
+  pointer-events: auto;
+  user-select: none;
+  transition: transform 0.14s ease, background 0.14s ease, box-shadow 0.14s ease;
+}
+
+.m3-patch-multiopt-badge:hover,
+.m3-patch-multiopt-wrap:hover .m3-patch-multiopt-badge,
+.m3-patch-gallery-card.is-multiopt-open .m3-patch-multiopt-badge {
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
+  border-color: #1E3A8A;
+  color: #FFFFFF;
+  transform: scale(1.06);
+  box-shadow: 0 3px 8px rgba(30, 64, 175, 0.28);
+}
+
+.m3-patch-multiopt-badge .m3-patch-multiopt-sep {
+  color: #60A5FA;
+  font-weight: 800;
+  margin: 0 0.5px;
+}
+
+.m3-patch-multiopt-badge:hover .m3-patch-multiopt-sep,
+.m3-patch-multiopt-wrap:hover .m3-patch-multiopt-badge .m3-patch-multiopt-sep,
+.m3-patch-gallery-card.is-multiopt-open .m3-patch-multiopt-badge .m3-patch-multiopt-sep {
+  color: #93C5FD;
+}
+
+.m3-patch-multiopt-menu {
+  display: none;
+  position: absolute;
+  top: 22px;
+  right: 0;
+  width: 208px;
+  max-height: 240px;
+  overflow-y: auto;
+  background: #FFFFFF;
+  border: 1.5px solid #93C5FD;
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.24), 0 2px 6px rgba(15, 23, 42, 0.12);
+  padding: 4px;
+  z-index: 80;
+  text-align: left;
+}
+
+.m3-patch-multiopt-wrap.drop-right .m3-patch-multiopt-menu {
+  right: auto;
+  left: -82px;
+}
+
+.m3-patch-multiopt-wrap.drop-up .m3-patch-multiopt-menu {
+  top: auto;
+  bottom: 24px;
+}
+
+.m3-patch-multiopt-wrap:hover .m3-patch-multiopt-menu,
+.m3-patch-multiopt-wrap.is-open .m3-patch-multiopt-menu,
+.m3-patch-multiopt-wrap.menu-open .m3-patch-multiopt-menu,
+.m3-patch-gallery-card.is-multiopt-open .m3-patch-multiopt-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.m3-patch-multiopt-menu-hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  font-size: 0.60rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #1E40AF;
+  padding: 2px 5px 3px;
+  border-bottom: 1px solid #E2E8F0;
+  margin-bottom: 1px;
+}
+
+.m3-patch-multiopt-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 4px 6px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: #0F172A;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.m3-patch-multiopt-item:hover {
+  background: #EFF6FF;
+  border-color: #BFDBFE;
+  color: #1E3A8A;
+}
+
+.m3-patch-multiopt-item.is-all-opts {
+  margin-top: 2px;
+  padding-top: 6px;
+  border-top: 1px dashed #CBD5E1;
+  border-radius: 0 0 6px 6px;
+  color: #0369A1;
+  font-weight: 800;
+}
+
+.m3-patch-multiopt-item-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #DBEAFE;
+  color: #1E40AF;
+  font-size: 0.62rem;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.m3-option-track-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.m3-option-track-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 63, 135, 0.26);
+  background: #FFFFFF;
+  color: #003F87;
+  font-size: 0.69rem;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background 0.14s ease, border-color 0.14s ease, color 0.14s ease, transform 0.14s ease;
+}
+
+.m3-option-track-pill:hover {
+  background: #EFF6FF;
+  border-color: #2563EB;
+  transform: translateY(-1px);
+}
+
+.m3-option-track-pill.active {
+  background: #003F87;
+  border-color: #003F87;
+  color: #FFFFFF;
+  box-shadow: 0 2px 5px rgba(0, 63, 135, 0.25);
+}
+
+#option-track-field-wrap.is-awaiting-selection {
+  border: 1.5px solid #2563EB !important;
+  background: rgba(37, 99, 235, 0.08) !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+}
+
+body.m3-dark-mode .m3-patch-multiopt-badge {
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.92) 0%, rgba(29, 78, 216, 0.85) 100%);
+  border-color: #60A5FA;
+  color: #DBEAFE;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+}
+
+body.m3-dark-mode .m3-patch-multiopt-badge .m3-patch-multiopt-sep {
+  color: #93C5FD;
+}
+
+body.m3-dark-mode .m3-patch-multiopt-menu {
+  background: #0F172A;
+  border-color: #3B82F6;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.65);
+}
+
+body.m3-dark-mode .m3-patch-multiopt-menu-hdr {
+  color: #93C5FD;
+  border-bottom-color: #1E293B;
+}
+
+body.m3-dark-mode .m3-patch-multiopt-item {
+  color: #E2E8F0;
+}
+
+body.m3-dark-mode .m3-patch-multiopt-item:hover {
+  background: rgba(59, 130, 246, 0.22);
+  border-color: rgba(96, 165, 250, 0.45);
+  color: #FFFFFF;
+}
+
+body.m3-dark-mode .m3-patch-multiopt-item-key {
+  background: rgba(30, 64, 175, 0.65);
+  color: #DBEAFE;
+}
+
+body.m3-dark-mode .m3-option-track-pill {
+  background: #1E293B;
+  border-color: #334155;
+  color: #BFDBFE;
+}
+
+body.m3-dark-mode .m3-option-track-pill.active {
+  background: #2563EB;
+  border-color: #60A5FA;
+  color: #FFFFFF;
+}
+
+body.high-contrast-sunlight .m3-patch-multiopt-badge {
+  background: #003F87 !important;
+  border: 1.5px solid #002654 !important;
+  color: #FFFFFF !important;
+}
+
+body.high-contrast-sunlight .m3-patch-multiopt-badge .m3-patch-multiopt-sep {
+  color: #FDE047 !important;
 }
 
 /* 2. Patch Gallery Header Favorites Filter Toggle Button (#btn-patch-gallery-fav-filter) */

@@ -36,6 +36,7 @@ const state = {
   revealedQuizSlides: new Set(),
   checkedGearItems: new Set(),
 };
+window.state = state;
 
 const CONSTRUCTION_ANIM_CONCEPTS = {
   iso_heavy: {
@@ -823,7 +824,23 @@ function bindFilterAndSlideControls() {
   const catSelect = document.getElementById("filter-category-select");
   const eagleSelect = document.getElementById("filter-eagle-select");
 
-  searchInput?.addEventListener("input", () => applyBadgeFilters(false));
+  if (searchInput) {
+    searchInput._userHasInteracted = false;
+    const markUserInteracted = () => {
+      searchInput._userHasInteracted = true;
+      searchInput.removeAttribute("readonly");
+    };
+    searchInput.addEventListener("keydown", markUserInteracted);
+    searchInput.addEventListener("paste", markUserInteracted);
+    searchInput.addEventListener("drop", markUserInteracted);
+    searchInput.addEventListener("input", () => {
+      const valTrim = (searchInput.value || "").trim();
+      if (!searchInput._userHasInteracted && (valTrim === "Local" || valTrim === "admin-superuser")) {
+        searchInput.value = "";
+      }
+      applyBadgeFilters(false);
+    });
+  }
   catSelect?.addEventListener("change", () => applyBadgeFilters(false));
   eagleSelect?.addEventListener("change", () => applyBadgeFilters(false));
 
@@ -1906,7 +1923,46 @@ function bindFilterAndSlideControls() {
     document.querySelectorAll(".m3-badge-pill").forEach((p) => {
       p.classList.toggle("active", p.getAttribute("data-badge") === badge);
     });
-    await executeStreamingWorkflow(badge);
+    const badgeEntry = (state.badges || []).find(
+      (b) => String(b.badge_name || "").toLowerCase() === String(badge).toLowerCase()
+    );
+    const tracks = Array.isArray(badgeEntry?.option_tracks) ? badgeEntry.option_tracks : [];
+    const isMultiOpt = Boolean(badgeEntry?.has_option_tracks || tracks.length >= 2);
+    if (isMultiOpt) {
+      if (typeof window.abortActiveWorkflowStream === "function") {
+        window.abortActiveWorkflowStream();
+      }
+      state.currentBadge = badge;
+      if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+        window.syncActiveBadgeOptionTrackSelector(badge, "PROMPT");
+      }
+      const wrapEl = document.getElementById("option-track-field-wrap");
+      if (wrapEl) {
+        wrapEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        wrapEl.style.transition = "box-shadow 0.25s ease, transform 0.25s ease";
+        wrapEl.style.boxShadow = "0 0 0 3px rgba(37, 99, 235, 0.35)";
+        setTimeout(() => {
+          wrapEl.style.boxShadow = "";
+        }, 1400);
+      }
+      return;
+    }
+    if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+      window.syncActiveBadgeOptionTrackSelector(badge, "ALL");
+    }
+    await executeStreamingWorkflow(badge, { optionTrack: "ALL" });
+  });
+
+  document.getElementById("option-track-select")?.addEventListener("change", async (e) => {
+    const rawVal = e.target.value || "ALL";
+    if (rawVal === "PROMPT") return;
+    const optVal = rawVal;
+    const badge = document.getElementById("badge-select")?.value || state.currentBadge || "First Aid";
+    if (!badge) return;
+    if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+      window.syncActiveBadgeOptionTrackSelector(badge, optVal);
+    }
+    await executeStreamingWorkflow(badge, { optionTrack: optVal, isExplicitBuild: true });
   });
 
   document.getElementById("btn-prev-slide")?.addEventListener("click", () => {
@@ -1964,9 +2020,18 @@ async function loadBadgesCatalog() {
   const electiveCount = totalCount - eagleCount;
 
   const searchInput = document.getElementById("filter-search-input");
-  if (searchInput && totalCount > 0) {
-    searchInput.placeholder = `Search all ${totalCount} badges (e.g., Weather, First Aid, Kayaking)...`;
+  if (searchInput) {
+    if (!searchInput._userHasInteracted && (searchInput.value === "Local" || searchInput.value === "admin-superuser")) {
+      searchInput.value = "";
+    }
+    if (totalCount > 0) {
+      searchInput.placeholder = `Search all ${totalCount} badges (e.g., Weather, First Aid, Kayaking)...`;
+    }
   }
+
+  const multiOptCount = (state.badges || []).filter(
+    (b) => b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2)
+  ).length || 18;
 
   const eagleSelect = document.getElementById("filter-eagle-select");
   if (eagleSelect && totalCount > 0) {
@@ -1977,19 +2042,27 @@ async function loadBadgesCatalog() {
       <option value="FAVORITES">Favorites (${favCount})</option>
       <option value="EAGLE">Eagle-Required (${eagleCount})</option>
       <option value="ELECTIVE">Electives (${electiveCount})</option>
+      <option value="MULTI_OPTION">Multi-Option Badges (${multiOptCount})</option>
     `;
     eagleSelect.value = prevEagleVal;
   }
 
   const catSelect = document.getElementById("filter-category-select");
   if (catSelect) {
-    catSelect.innerHTML = '<option value="ALL">All Categories</option>';
+    const prevCatVal = catSelect.value || "ALL";
+    catSelect.innerHTML = `
+      <option value="ALL">All Categories</option>
+      <option value="MULTI_OPTION">Multi-Option Badges (${multiOptCount})</option>
+    `;
     state.categories.forEach((cat) => {
       const opt = document.createElement("option");
       opt.value = cat;
       opt.textContent = cat;
       catSelect.appendChild(opt);
     });
+    if (Array.from(catSelect.options).some((o) => o.value === prevCatVal)) {
+      catSelect.value = prevCatVal;
+    }
   }
 
   applyBadgeFilters(true);
@@ -2003,10 +2076,13 @@ function applyBadgeFilters(initialLoad = false) {
 
   const favSet = new Set((state.favoriteBadges || []).map((x) => String(x).toLowerCase()));
   state.filteredBadges = state.badges.filter((b) => {
+    const isMultiOpt = Boolean(b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2));
     if (query && !b.badge_name.toLowerCase().includes(query) && !(b.category || "").toLowerCase().includes(query)) {
       return false;
     }
-    if (category !== "ALL" && b.category !== category) {
+    if (category === "MULTI_OPTION") {
+      if (!isMultiOpt) return false;
+    } else if (category !== "ALL" && b.category !== category) {
       return false;
     }
     if (eagleMode === "FAVORITES" && !favSet.has(b.badge_name.toLowerCase())) {
@@ -2016,6 +2092,9 @@ function applyBadgeFilters(initialLoad = false) {
       return false;
     }
     if (eagleMode === "ELECTIVE" && b.is_eagle_required) {
+      return false;
+    }
+    if (eagleMode === "MULTI_OPTION" && !isMultiOpt) {
       return false;
     }
     return true;
@@ -2089,7 +2168,46 @@ function inferBrowserLocationHint() {
   }
 }
 
+window.abortActiveWorkflowStream = function abortActiveWorkflowStream() {
+  state._workflowRunId = (state._workflowRunId || 0) + 1;
+  if (state._activeWorkflowEventSource) {
+    try {
+      state._activeWorkflowEventSource.close();
+    } catch (_e) {}
+    state._activeWorkflowEventSource = null;
+  }
+  if (state._activeWorkflowAbortController) {
+    try {
+      state._activeWorkflowAbortController.abort();
+    } catch (_e) {}
+    state._activeWorkflowAbortController = null;
+  }
+  const genBtn = document.getElementById("btn-generate-deck");
+  if (genBtn) {
+    genBtn.disabled = false;
+    genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
+  }
+  if (state.currentResult && state.currentResult.storyboard) {
+    const progressFill = document.getElementById("trace-progress-fill");
+    const progressLabel = document.getElementById("trace-progress-label");
+    const traceList = document.getElementById("agent-trace-list");
+    const traceToggleBtn = document.getElementById("btn-toggle-trace-details");
+    const filmstripEl = document.getElementById("slide-filmstrip-list");
+    if (progressFill) progressFill.style.width = "100%";
+    if (progressLabel) progressLabel.textContent = "Complete";
+    traceList?.classList.add("hidden");
+    if (traceToggleBtn) traceToggleBtn.textContent = "Details ▾";
+    filmstripEl?.classList.remove("hidden");
+    if (typeof hideConstructionAnimationStage === "function") {
+      hideConstructionAnimationStage();
+    }
+  }
+};
+
 async function executeStreamingWorkflow(badgeName, options = {}) {
+  if (typeof window.abortActiveWorkflowStream === "function") {
+    window.abortActiveWorkflowStream();
+  }
   state.currentBadge = badgeName;
   state._promoteDeckOnHydrate = Boolean(options && options.isExplicitBuild);
   clearDeckConfigDirty();
@@ -2155,6 +2273,14 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
           typography_scale: "COMFORTABLE",
           safety_banner_mode: "ACUTE_HAZARDS_ONLY",
         };
+  if (typeof window.syncActiveBadgeOptionTrackSelector === "function" && (badgeName !== state._lastOptionTrackBadge || options?.optionTrack)) {
+    window.syncActiveBadgeOptionTrackSelector(badgeName, options?.optionTrack || "ALL");
+  }
+  const rawOptionTrack =
+    options?.optionTrack ||
+    document.getElementById("option-track-select")?.value ||
+    "ALL";
+  const optionTrack = rawOptionTrack === "PROMPT" ? "ALL" : rawOptionTrack;
   const paramsObj = {
     badge_name: badgeName,
     depth_mode: depthMode,
@@ -2167,6 +2293,7 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
     email_address: email,
     phone_number: phone,
     template_id: activeTemplateId,
+    option_track: optionTrack,
     layout_style: activeDeckStyle.layout_style,
     text_container_style: activeDeckStyle.text_container_style,
     image_frame_style: activeDeckStyle.image_frame_style,
@@ -2179,10 +2306,21 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
   }
   const params = new URLSearchParams(paramsObj);
 
+  const runId = (state._workflowRunId || 0) + 1;
+  state._workflowRunId = runId;
+  const abortCtrl = new AbortController();
+  state._activeWorkflowAbortController = abortCtrl;
+
   return new Promise((resolve) => {
     const es = new EventSource(`/api/workflow/stream?${params.toString()}`);
+    state._activeWorkflowEventSource = es;
 
     es.onmessage = (evt) => {
+      if (state._workflowRunId !== runId || abortCtrl.signal.aborted) {
+        es.close();
+        resolve(null);
+        return;
+      }
       const payload = JSON.parse(evt.data);
       const pct = payload.progress_pct || 50;
       if (progressFill) progressFill.style.width = `${pct}%`;
@@ -2190,15 +2328,27 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
 
       if (payload.event === "workflow_complete" && payload.result) {
         es.close();
-        if (genBtn) {
+        if (state._activeWorkflowEventSource === es) {
+          state._activeWorkflowEventSource = null;
+        }
+        if (state._activeWorkflowAbortController === abortCtrl) {
+          state._activeWorkflowAbortController = null;
+        }
+        if (state._workflowRunId === runId && genBtn) {
           genBtn.disabled = false;
           genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
         }
         hydrateWorkbench(payload.result);
         resolve(payload.result);
-      } else if (payload.event === "workflow_error") {
+      } else if (payload.event === "workflow_error" || payload.event === "workflow_aborted") {
         es.close();
-        if (genBtn) {
+        if (state._activeWorkflowEventSource === es) {
+          state._activeWorkflowEventSource = null;
+        }
+        if (state._activeWorkflowAbortController === abortCtrl) {
+          state._activeWorkflowAbortController = null;
+        }
+        if (state._workflowRunId === runId && genBtn) {
           genBtn.disabled = false;
           genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
         }
@@ -2223,10 +2373,18 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
 
     es.onerror = async () => {
       es.close();
+      if (state._activeWorkflowEventSource === es) {
+        state._activeWorkflowEventSource = null;
+      }
+      if (state._workflowRunId !== runId || abortCtrl.signal.aborted) {
+        resolve(null);
+        return;
+      }
       try {
         const res = await fetch("/api/workflow/run", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
+          signal: abortCtrl.signal,
           body: JSON.stringify({
             badge_name: badgeName,
             depth_mode: depthMode,
@@ -2240,13 +2398,20 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
             phone_number: phone,
             custom_troop_logo_path: customLogoPath || null,
             template_id: activeTemplateId,
+            option_track: optionTrack,
             deck_style: activeDeckStyle,
           }),
         }).then((r) => r.json());
+        if (state._workflowRunId !== runId || abortCtrl.signal.aborted) {
+          resolve(null);
+          return;
+        }
         hydrateWorkbench(res);
         resolve(res);
+      } catch (_err) {
+        resolve(null);
       } finally {
-        if (genBtn) {
+        if (state._workflowRunId === runId && genBtn) {
           genBtn.disabled = false;
           genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
         }
@@ -2322,10 +2487,43 @@ function hydrateWorkbench(rawResult) {
   const activeTier = result.beautification_tier || document.getElementById("beautification-select")?.value || "BEAUTIFIED";
   const activeThemeLabel = formatSlideThemeLabel(activeTier);
   const activeAudience = result.audience_level || document.getElementById("audience-select")?.value || "All Scouts (Ages 11–17)";
-  const depthDesc = (result.depth_mode || "").toLowerCase().includes("deep")
-    ? "Detailed Deep-Dive Teaching Deck"
+  const rawDepthMode =
+    result.depth_mode ||
+    result.storyboard?.depth_mode ||
+    result.finops_cost_estimate?.depth_mode ||
+    document.getElementById("depth-select")?.value ||
+    "Deep Dive / Camp School Deck";
+  const depthDesc = String(rawDepthMode).toLowerCase().includes("deep")
+    ? "Detailed Deep-Dive Teaching Deck (3–8 Slides per Requirement)"
     : "Standard Troop Meeting Deck (1–3 Slides per Requirement)";
-  document.getElementById("hero-badge-subtitle").textContent = `${depthDesc} • ${activeThemeLabel} Theme • ${activeAudience}`;
+  const resultOptionTracks = result.option_tracks || result.research_artifact?.option_tracks || [];
+  const activeOptionTrackKey = String(
+    result.option_track ||
+      result.research_artifact?.selected_option_track ||
+      document.getElementById("option-track-select")?.value ||
+      "ALL"
+  ).toUpperCase();
+  if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+    window.syncActiveBadgeOptionTrackSelector(result.badge_name, activeOptionTrackKey, resultOptionTracks);
+  }
+  let optionSubtitlePrefix = "";
+  if (Array.isArray(resultOptionTracks) && resultOptionTracks.length >= 2) {
+    if (activeOptionTrackKey !== "ALL") {
+      const matchedTrack = resultOptionTracks.find(
+        (t) => String(t.option_key || "").toUpperCase() === activeOptionTrackKey
+      );
+      if (matchedTrack) {
+        optionSubtitlePrefix = `${matchedTrack.option_title || matchedTrack.title} (Option ${matchedTrack.option_key}) • `;
+      }
+    } else {
+      const shortNames = resultOptionTracks.map((t) => t.option_title || t.title);
+      optionSubtitlePrefix =
+        resultOptionTracks.length <= 2
+          ? `All ${resultOptionTracks.length} Options (${shortNames.join(" / ")}) • `
+          : `All ${resultOptionTracks.length} Options • `;
+    }
+  }
+  document.getElementById("hero-badge-subtitle").textContent = `${optionSubtitlePrefix}${depthDesc} • ${activeThemeLabel} Theme • ${activeAudience}`;
 
   const patchImg = document.getElementById("hero-badge-patch-img");
   if (patchImg && result.patch_url) {
@@ -2355,6 +2553,10 @@ function hydrateWorkbench(rawResult) {
   if (topDrg) topDrg.href = drgUrl;
 
   // 2. Render Clean Generation Summary & Auto-Collapse Trace Details so Slide Outline has full vertical room
+  const progressFill = document.getElementById("trace-progress-fill");
+  const progressLabel = document.getElementById("trace-progress-label");
+  if (progressFill) progressFill.style.width = "100%";
+  if (progressLabel) progressLabel.textContent = "Complete";
   const traceList = document.getElementById("agent-trace-list");
   const traceToggleBtn = document.getElementById("btn-toggle-trace-details");
   if (traceList) {
@@ -3021,7 +3223,7 @@ const DANGLING_TAIL_WORDS_JS = new Set([
   "including", "through", "during", "before", "after", "under", "over", "between",
 ]);
 
-function conciseCardBody(bodyText, maxWords = 24, maxChars = 150) {
+function conciseCardBody(bodyText, maxWords = 26, maxChars = 165) {
   const cleaned = String(bodyText || "").trim();
   if (!cleaned) return "";
   const words = cleaned.split(/\s+/);
@@ -3047,13 +3249,17 @@ function conciseCardBody(bodyText, maxWords = 24, maxChars = 150) {
     if (cleaned.includes(sep)) {
       const head = cleaned.split(sep)[0].trim().replace(/[,;:\-]+$/, "");
       const headWords = head.split(/\s+/);
-      if (headWords.length >= 6 && headWords.length <= maxWords && head.length <= maxChars) {
+      if (headWords.length >= 6 && headWords.length <= maxWords + 2 && head.length <= maxChars + 15) {
         return /[.!?]$/.test(head) ? head : `${head}.`;
       }
     }
   }
-  const capped = words.slice(0, maxWords);
-  while (capped.length > 6 && capped.join(" ").length > maxChars) {
+  // Preserve single complete sentences within comfortable card capacity rather than chopping mid-phrase
+  if (words.length <= maxWords + 18 && cleaned.length <= maxChars + 115) {
+    return /[.!?]$/.test(cleaned) ? cleaned : `${cleaned}.`;
+  }
+  const capped = words.slice(0, maxWords + 6);
+  while (capped.length > 6 && capped.join(" ").length > maxChars + 65) {
     capped.pop();
   }
   while (
@@ -3165,6 +3371,8 @@ function formatConciseReqSubtitle(verbatimText, maxChars = 205) {
 }
 
 function renderActiveSlide(idx) {
+  window.renderActiveSlide = renderActiveSlide;
+  window.renderFilmstrip = renderFilmstrip;
   const res = state.currentResult;
   if (!res) return;
   if (idx === undefined) idx = state.activeSlideIdx ?? -1;
@@ -3271,6 +3479,41 @@ function renderActiveSlide(idx) {
     const unitLabelColor = coverTokens.isStudio ? "#F4C430" : "#4B5320";
     const bodyTextColor = coverTokens.textFg;
 
+    // Resolve single-option subhead for Slide #1 when a multi-option deck covers only one option
+    let singleOptionSubhead = "";
+    const badgeMeta = (state.badges || []).find(
+      (b) => String(b.badge_name || "").toLowerCase() === String(res.badge_name || "").toLowerCase()
+    );
+    const allTracks =
+      Array.isArray(res.option_tracks) && res.option_tracks.length >= 2
+        ? res.option_tracks
+        : Array.isArray(badgeMeta?.option_tracks) && badgeMeta.option_tracks.length >= 2
+        ? badgeMeta.option_tracks
+        : [];
+    const activeOptKey = String(
+      res.option_track || document.getElementById("option-track-select")?.value || "ALL"
+    ).trim().toUpperCase();
+    if (allTracks.length >= 2) {
+      if (activeOptKey && activeOptKey !== "ALL") {
+        const matchedTrack = allTracks.find(
+          (t) =>
+            String(t.option_key || "").toUpperCase() === activeOptKey ||
+            String(t.sub_id || "").toUpperCase() === activeOptKey
+        );
+        if (matchedTrack) {
+          singleOptionSubhead = matchedTrack.option_title || matchedTrack.title || "";
+        }
+      } else if (Array.isArray(res.slides) && res.slides.length > 0) {
+        const presentTracks = allTracks.filter((t) => {
+          const sid = String(t.sub_id || "").toLowerCase();
+          return sid && res.slides.some((s) => String(s.req_number || "").toLowerCase().startsWith(sid));
+        });
+        if (presentTracks.length === 1) {
+          singleOptionSubhead = presentTracks[0].option_title || presentTracks[0].title || "";
+        }
+      }
+    }
+
     if (leftZone) {
       leftZone.style.display = "flex";
       leftZone.style.justifyContent = "space-between";
@@ -3283,6 +3526,11 @@ function renderActiveSlide(idx) {
           }
           <div style="flex:1; text-align:center;">
             <div style="font-size:2.1rem; font-weight:800; color:${titleColor}; line-height:1.15;">${escapeHtml(res.badge_name)}</div>
+            ${
+              singleOptionSubhead
+                ? `<div id="cover-single-option-subhead" style="font-size:1.32rem; font-weight:800; margin-top:5px; color:${labelColor}; letter-spacing:0.01em;">${escapeHtml(singleOptionSubhead)}</div>`
+                : ""
+            }
             <div style="font-size:1.15rem; font-weight:700; margin-top:6px; color:${subColor};">
               ${res.is_eagle_required ? "Eagle-Required Merit Badge" : "Scouts BSA Merit Badge"}
             </div>
@@ -3715,7 +3963,7 @@ function renderActiveSlide(idx) {
         const body = conciseCardBody(colonParts.slice(2).join(":").trim());
         inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(anchor)}</div>
                  <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
-      } else if (colonParts.length >= 2 && colonParts[0].trim().length <= 52) {
+      } else if (colonParts.length >= 2 && colonParts[0].trim().length <= 72) {
         const body = conciseCardBody(colonParts.slice(1).join(":").trim());
         inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(colonParts[0].trim())}</div>
                  <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
@@ -3733,7 +3981,7 @@ function renderActiveSlide(idx) {
     const fallbackFields = {};
     bullets.slice(0, 4).forEach((bp, i) => {
       const cIdx = bp.indexOf(":");
-      if (cIdx > 0 && cIdx < 48) {
+      if (cIdx > 0 && cIdx < 72) {
         fallbackFields[bp.slice(0, cIdx).trim()] = bp.slice(cIdx + 1).trim();
       } else {
         fallbackFields[`Step ${i + 1}`] = bp;
@@ -3773,8 +4021,39 @@ function renderActiveSlide(idx) {
       explanation: "Grounded in the official Scouts BSA Merit Badge Pamphlet and Guide to Safe Scouting.",
     };
     const isQuizRevealed = state.revealedQuizSlides.has(idx);
-    const correctLetterMatch = String(qz.correct_answer || "Option A").match(/Option\s+([A-D])/i);
-    const correctOptIdx = correctLetterMatch ? correctLetterMatch[1].toUpperCase().charCodeAt(0) - 65 : 0;
+    const stripQuizOptionPrefix = (rawOpt) =>
+      String(rawOpt || "")
+        .replace(/^\s*(?:Option\s+[A-D]\s*[:.\-—–]\s*|[A-D]\s*[).:\-—–]\s*)/i, "")
+        .trim();
+    const cleanedOptions = (qz.options || []).map((opt) => stripQuizOptionPrefix(opt));
+    const rawCorrectAns = String(qz.correct_answer || qz.correct_option || "").trim();
+    const correctLetterMatch =
+      rawCorrectAns.match(/^\s*Option\s+([A-D])\b/i) ||
+      rawCorrectAns.match(/^\s*([A-D])(?:\s*[).:\-—–]|\s*$)/i);
+    let correctOptIdx = 0;
+    if (correctLetterMatch) {
+      correctOptIdx = correctLetterMatch[1].toUpperCase().charCodeAt(0) - 65;
+    } else if (rawCorrectAns && cleanedOptions.length > 0) {
+      const strippedAns = stripQuizOptionPrefix(rawCorrectAns).toLowerCase();
+      const matchedIdx = cleanedOptions.findIndex((cOpt, idxOpt) => {
+        const lowerOpt = cOpt.toLowerCase();
+        const rawLower = String((qz.options || [])[idxOpt] || "").trim().toLowerCase();
+        return (
+          lowerOpt === strippedAns ||
+          rawLower === rawCorrectAns.toLowerCase() ||
+          (strippedAns.length >= 12 && (lowerOpt.includes(strippedAns) || strippedAns.includes(lowerOpt)))
+        );
+      });
+      if (matchedIdx >= 0) {
+        correctOptIdx = matchedIdx;
+      }
+    }
+    const correctLetter = String.fromCharCode(65 + Math.max(0, Math.min(3, correctOptIdx)));
+    const correctOptText = cleanedOptions[correctOptIdx] || stripQuizOptionPrefix(rawCorrectAns);
+    const formattedCorrectAnswer = /^Option\s+[A-D]\b/i.test(rawCorrectAns)
+      ? rawCorrectAns
+      : `Option ${correctLetter} — ${correctOptText}`;
+    const promptText = qz.scenario_prompt || qz.question || bullets[0] || "";
 
     leftZone.innerHTML = `
       <div class="m3-slide-card-item m3-quiz-reveal-card" style="background:${tokens.cardBg}; border:2px solid ${tokens.primaryHex}; color:${tokens.textFg};">
@@ -3782,19 +4061,19 @@ function renderActiveSlide(idx) {
           <span>❓ Patrol Scenario Challenge</span>
           <span style="font-size:0.70rem; font-weight:700; opacity:0.85;">Click an option to test your patrol!</span>
         </div>
-        <div class="m3-slide-card-text" style="color:${tokens.subTextFg};">${escapeHtml(qz.scenario_prompt || "")}</div>
+        <div class="m3-slide-card-text" style="color:${tokens.subTextFg};">${escapeHtml(promptText)}</div>
       </div>
-      ${(qz.options || [])
-        .map((opt, i) => {
+      ${cleanedOptions
+        .map((optText, i) => {
           const revealedClass = isQuizRevealed && i === correctOptIdx ? " quiz-selected-correct" : "";
-          return `<div class="m3-slide-card-item m3-quiz-option-card m3-quiz-reveal-card${revealedClass}" data-quiz-opt-idx="${i}" style="${baseCardSpec.style}"><strong style="color:${baseCardSpec.anchorColor};">Option ${String.fromCharCode(65 + i)}:</strong> <span style="color:${baseCardSpec.bodyColor};">${escapeHtml(opt)}</span></div>`;
+          return `<div class="m3-slide-card-item m3-quiz-option-card m3-quiz-reveal-card${revealedClass}" data-quiz-opt-idx="${i}" style="${baseCardSpec.style}"><strong style="color:${baseCardSpec.anchorColor};">Option ${String.fromCharCode(65 + i)}:</strong> <span style="color:${baseCardSpec.bodyColor};">${escapeHtml(optText)}</span></div>`;
         })
         .join("")}
       <button type="button" class="m3-quiz-reveal-btn ${isQuizRevealed ? "hidden" : ""}" id="btn-reveal-quiz-answer">
         👁️ Reveal Verified Answer &amp; Explanation
       </button>
       <div class="m3-slide-card-item m3-quiz-reveal-card ${isQuizRevealed ? "" : "hidden"}" id="quiz-verified-answer-card" style="background:${tokens.isStudio ? "#064E3B" : "#DCFCE7"}; border:1.5px solid #15803D; color:${tokens.textFg};">
-        <div class="m3-slide-card-anchor" style="color:${tokens.isStudio ? "#4ADE80" : "#15803D"};">✓ Verified Answer: ${escapeHtml(qz.correct_answer || "")}</div>
+        <div class="m3-slide-card-anchor" style="color:${tokens.isStudio ? "#4ADE80" : "#15803D"};">✓ Verified Answer: ${escapeHtml(formattedCorrectAnswer)}</div>
         <div class="m3-slide-card-text" style="color:${tokens.subTextFg};">${escapeHtml(qz.explanation || "")}</div>
       </div>
     `;
@@ -3833,7 +4112,7 @@ function renderActiveSlide(idx) {
       const isSourcesSlide = archetype === "SOURCES_AND_REFERENCES";
       const usePlainCleanBullet =
         isCleanOrLineMode && !isSequentialSlide && normTheme === "NUMBERED_STEP_CARDS";
-      if (colonIdx > 0 && colonIdx < 52) {
+      if (colonIdx > 0 && colonIdx < 72) {
         const anchor = bp.slice(0, colonIdx);
         const rawRest = bp.slice(colonIdx + 1).trim();
         const rest = isSourcesSlide ? rawRest : conciseCardBody(rawRest);
@@ -8682,7 +8961,15 @@ function renderPatchGalleryModal() {
     state.badges?.length > 0
       ? state.badges
       : [{ badge_name: "First Aid", is_eagle_required: true, category: "Personal Development" }];
-  if (catSelect && catSelect.options.length <= 1) {
+  if (catSelect && catSelect.options.length <= 2) {
+    const prevVal = catSelect.value || "all";
+    const multiCount =
+      allBadges.filter((b) => b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2))
+        .length || 18;
+    catSelect.innerHTML = `
+      <option value="all">All Categories</option>
+      <option value="MULTI_OPTION">Multi-Option Badges (${multiCount})</option>
+    `;
     const cats =
       state.categories?.length > 0
         ? state.categories
@@ -8693,6 +8980,9 @@ function renderPatchGalleryModal() {
       opt.textContent = cat;
       catSelect.appendChild(opt);
     });
+    if (Array.from(catSelect.options).some((o) => o.value === prevVal)) {
+      catSelect.value = prevVal;
+    }
   }
 
   const q = (document.getElementById("patch-gallery-search-input")?.value || "").trim().toLowerCase();
@@ -8715,11 +9005,17 @@ function renderPatchGalleryModal() {
   const filtered = allBadges.filter((b) => {
     const name = b.badge_name || "";
     const cat = b.category || "";
+    const isMultiOpt = Boolean(b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2));
     if (q && !`${name} ${cat}`.toLowerCase().includes(q)) return false;
     if (filterMode === "favorites" && !favSet.has(name.toLowerCase())) return false;
     if ((filterMode === "eagle" || filterMode === "eagle_required") && !b.is_eagle_required) return false;
     if (filterMode === "elective" && b.is_eagle_required) return false;
-    if (selectedCat.toLowerCase() !== "all" && cat !== selectedCat) return false;
+    if (filterMode === "multi_option" && !isMultiOpt) return false;
+    if (selectedCat === "MULTI_OPTION") {
+      if (!isMultiOpt) return false;
+    } else if (selectedCat.toLowerCase() !== "all" && cat !== selectedCat) {
+      return false;
+    }
     return true;
   });
 
@@ -8729,15 +9025,59 @@ function renderPatchGalleryModal() {
   }
 
   grid.innerHTML = filtered
-    .map((b) => {
+    .map((b, cardIdx) => {
       const name = b.badge_name;
       const slug = badgeNameToEmblemSlug(name);
       const isSelected = name === state.currentBadge;
       const isFav = favSet.has(name.toLowerCase());
       const eagleClass = b.is_eagle_required ? "eagle-patch" : "";
+      const tracks = Array.isArray(b.option_tracks) ? b.option_tracks : [];
+      const isMultiOpt = Boolean(b.has_option_tracks || tracks.length >= 2);
+      const colIdx = cardIdx % 6;
+      const isLeftCol = colIdx === 0 || filtered.length === 1;
+      const isBottomRow = filtered.length > 6 && cardIdx >= filtered.length - 6;
+      const posClasses = [isLeftCol ? "drop-right" : "", isBottomRow ? "drop-up" : ""]
+        .filter(Boolean)
+        .join(" ");
+      const multiOptTitle = isMultiOpt
+        ? `Click or hover to choose an Option Track (${tracks.map((t) => t.option_title || t.title).join(" • ")})`
+        : "";
+      const multiOptMenuHtml = isMultiOpt
+        ? `
+          <div class="m3-patch-multiopt-wrap ${posClasses}" data-multiopt-wrap="${escapeHtml(name)}">
+            <button type="button" class="m3-patch-multiopt-badge" data-multiopt-toggle="${escapeHtml(name)}" aria-haspopup="true" aria-expanded="false" title="${escapeHtml(multiOptTitle)}">
+              A<span class="m3-patch-multiopt-sep">|</span>B<span style="font-size:0.48rem; margin-left:1px; opacity:0.88;">▾</span>
+            </button>
+            <div class="m3-patch-multiopt-menu" role="menu" aria-label="${escapeHtml(name)} Option Tracks">
+              <div class="m3-patch-multiopt-menu-hdr">
+                <span>Choose Option Track</span>
+                <span style="color:#1D4ED8;">${tracks.length} Options</span>
+              </div>
+              ${tracks
+                .map((t) => {
+                  const oKey = String(t.option_key || "A").toUpperCase();
+                  const oTitle = t.option_title || t.title || `Option ${oKey}`;
+                  return `
+                    <button type="button" class="m3-patch-multiopt-item" role="menuitem" data-patch-badge="${escapeHtml(name)}" data-patch-option="${escapeHtml(oKey)}">
+                      <span class="m3-patch-multiopt-key">Opt ${escapeHtml(oKey)}</span>
+                      <span class="m3-patch-multiopt-label">${escapeHtml(oTitle)}</span>
+                    </button>
+                  `;
+                })
+                .join("")}
+              <div class="m3-patch-multiopt-divider"></div>
+              <button type="button" class="m3-patch-multiopt-item" role="menuitem" data-patch-badge="${escapeHtml(name)}" data-patch-option="ALL">
+                <span class="m3-patch-multiopt-key is-all">ALL</span>
+                <span class="m3-patch-multiopt-label">All ${tracks.length} Options (Full Deck)</span>
+              </button>
+            </div>
+          </div>
+        `
+        : "";
       return `
-        <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}" style="position:relative;">
+        <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}" data-gallery-multiopt="${isMultiOpt ? "true" : "false"}" style="position:relative;">
           <button type="button" class="m3-patch-fav-btn ${isFav ? "is-fav" : ""}" data-fav-toggle-badge="${escapeHtml(name)}" aria-pressed="${isFav ? "true" : "false"}" title="${isFav ? "Remove from My Favorites" : "Add to My Favorites"}">${isFav ? "★" : "☆"}</button>
+          ${multiOptMenuHtml}
           <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" loading="lazy" />
           <div class="m3-patch-card-title" style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.2;">
             ${b.is_eagle_required ? "★ " : ""}${escapeHtml(name)}
@@ -8747,6 +9087,27 @@ function renderPatchGalleryModal() {
       `;
     })
     .join("");
+
+  const selectGalleryBadgeWithOption = async (badge, chosenOption = "ALL") => {
+    if (!badge) return;
+    const modal = document.getElementById("patch-gallery-modal");
+    modal?.classList.remove("open");
+    modal?.classList.add("hidden");
+    const select = document.getElementById("badge-select");
+    if (select) {
+      if (!Array.from(select.options).some((o) => o.value === badge)) {
+        const opt = document.createElement("option");
+        opt.value = badge;
+        opt.textContent = badge;
+        select.appendChild(opt);
+      }
+      select.value = badge;
+    }
+    if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+      window.syncActiveBadgeOptionTrackSelector(badge, chosenOption);
+    }
+    await executeStreamingWorkflow(badge, { optionTrack: chosenOption, isExplicitBuild: true });
+  };
 
   grid.querySelectorAll("[data-fav-toggle-badge]").forEach((favBtn) => {
     favBtn.addEventListener("click", async (ev) => {
@@ -8759,16 +9120,77 @@ function renderPatchGalleryModal() {
     });
   });
 
+  const adjustMultiOptMenuPosition = (wrap) => {
+    if (!wrap) return;
+    const card = wrap.closest(".m3-patch-gallery-card");
+    if (!card || !grid) return;
+    const gridRect = grid.getBoundingClientRect();
+    const cardRect = card.getBoundingClientRect();
+    const menuWidth = 212;
+    const spaceLeftOfRightEdge = cardRect.right - 6 - gridRect.left;
+    wrap.classList.toggle("drop-right", spaceLeftOfRightEdge < menuWidth);
+    const spaceBelow = gridRect.bottom - (cardRect.top + 28);
+    const spaceAbove = cardRect.top - gridRect.top;
+    wrap.classList.toggle("drop-up", spaceBelow < 165 && spaceAbove > spaceBelow);
+  };
+
+  grid.querySelectorAll(".m3-patch-multiopt-wrap").forEach((wrap) => {
+    wrap.addEventListener("mouseenter", () => adjustMultiOptMenuPosition(wrap));
+    wrap.addEventListener("focusin", () => adjustMultiOptMenuPosition(wrap));
+  });
+
+  grid.querySelectorAll("[data-multiopt-toggle]").forEach((toggleBtn) => {
+    toggleBtn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const wrap = toggleBtn.closest(".m3-patch-multiopt-wrap");
+      if (!wrap) return;
+      adjustMultiOptMenuPosition(wrap);
+      const wasOpen = wrap.classList.contains("menu-open");
+      grid.querySelectorAll(".m3-patch-multiopt-wrap.menu-open").forEach((w) => {
+        w.classList.remove("menu-open");
+        w.querySelector("[data-multiopt-toggle]")?.setAttribute("aria-expanded", "false");
+      });
+      if (!wasOpen) {
+        wrap.classList.add("menu-open");
+        toggleBtn.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+
+  grid.querySelectorAll("[data-patch-option]").forEach((optBtn) => {
+    optBtn.addEventListener("click", async (ev) => {
+      ev.stopPropagation();
+      const badge = optBtn.getAttribute("data-patch-badge");
+      const chosenOption = optBtn.getAttribute("data-patch-option") || "ALL";
+      await selectGalleryBadgeWithOption(badge, chosenOption);
+    });
+  });
+
   grid.querySelectorAll("[data-gallery-badge]").forEach((card) => {
-    card.addEventListener("click", async () => {
+    card.addEventListener("click", async (ev) => {
+      if (ev.target.closest(".m3-patch-multiopt-wrap") || ev.target.closest("[data-fav-toggle-badge]")) {
+        return;
+      }
       const badge = card.getAttribute("data-gallery-badge");
       if (!badge) return;
-      const modal = document.getElementById("patch-gallery-modal");
-      modal?.classList.remove("open");
-      modal?.classList.add("hidden");
-      const select = document.getElementById("badge-select");
-      if (select) select.value = badge;
-      await executeStreamingWorkflow(badge);
+      const isMultiOpt = card.getAttribute("data-gallery-multiopt") === "true";
+      if (isMultiOpt) {
+        const wrap = card.querySelector(".m3-patch-multiopt-wrap");
+        if (wrap) {
+          adjustMultiOptMenuPosition(wrap);
+          const wasOpen = wrap.classList.contains("menu-open");
+          grid.querySelectorAll(".m3-patch-multiopt-wrap.menu-open").forEach((w) => {
+            w.classList.remove("menu-open");
+            w.querySelector("[data-multiopt-toggle]")?.setAttribute("aria-expanded", "false");
+          });
+          if (!wasOpen) {
+            wrap.classList.add("menu-open");
+            wrap.querySelector("[data-multiopt-toggle]")?.setAttribute("aria-expanded", "true");
+          }
+          return;
+        }
+      }
+      await selectGalleryBadgeWithOption(badge, "ALL");
     });
   });
 }
@@ -12268,6 +12690,109 @@ window.syncActiveBadgeStarButton = function syncActiveBadgeStarButton() {
       favOpt.textContent = `Favorites (${favs.length})`;
     }
   }
+  if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+    window.syncActiveBadgeOptionTrackSelector(current);
+  }
+};
+
+window.syncActiveBadgeOptionTrackSelector = function syncActiveBadgeOptionTrackSelector(
+  badgeName,
+  forcedOptionKey = null,
+  explicitTracks = null
+) {
+  const wrapEl = document.getElementById("option-track-field-wrap");
+  const selectEl = document.getElementById("option-track-select");
+  const chipEl = document.getElementById("option-track-count-chip");
+  const helperEl = document.getElementById("option-track-helper-text");
+  const pillsEl = document.getElementById("option-track-quick-pills");
+  if (!wrapEl || !selectEl) return;
+
+  const targetBadge = String(
+    badgeName || document.getElementById("badge-select")?.value || state.currentBadge || "First Aid"
+  ).trim();
+  const badgeEntry = (state.badges || []).find(
+    (b) => String(b.badge_name || "").toLowerCase() === targetBadge.toLowerCase()
+  );
+  const tracks = Array.isArray(explicitTracks) && explicitTracks.length > 0
+    ? explicitTracks
+    : Array.isArray(badgeEntry?.option_tracks)
+    ? badgeEntry.option_tracks
+    : [];
+
+  if (tracks.length < 2) {
+    wrapEl.classList.add("hidden");
+    selectEl.innerHTML = `<option value="ALL">All Option Tracks</option>`;
+    selectEl.value = "ALL";
+    if (pillsEl) pillsEl.innerHTML = "";
+    state._lastOptionTrackBadge = targetBadge;
+    return;
+  }
+
+  const prevBadge = state._lastOptionTrackBadge;
+  const prevValue = forcedOptionKey || (prevBadge === targetBadge ? selectEl.value : "ALL") || "ALL";
+  state._lastOptionTrackBadge = targetBadge;
+
+  const parentReqIds = Array.from(new Set(tracks.map((t) => t.parent_req_id || t.req_number || "2")));
+  const reqLabel = parentReqIds.length === 1 ? `Req ${parentReqIds[0]}` : `Reqs ${parentReqIds.join(", ")}`;
+  if (chipEl) {
+    chipEl.textContent = `${tracks.length} Options • ${reqLabel}`;
+  }
+  if (helperEl) {
+    helperEl.textContent =
+      prevValue === "PROMPT"
+        ? `Pick a single option below to generate just that track for ${targetBadge}, or choose All ${tracks.length} Options.`
+        : `Scouts complete ONE option for ${reqLabel}, or generate all ${tracks.length} options in one deck.`;
+  }
+
+  selectEl.innerHTML = "";
+  if (prevValue === "PROMPT") {
+    const promptOpt = document.createElement("option");
+    promptOpt.value = "PROMPT";
+    promptOpt.textContent = `— Select an Option Track to Generate (${targetBadge}) —`;
+    selectEl.appendChild(promptOpt);
+  }
+  const allOpt = document.createElement("option");
+  allOpt.value = "ALL";
+  allOpt.textContent = `All ${tracks.length} Options (Full Deck)`;
+  selectEl.appendChild(allOpt);
+
+  tracks.forEach((t) => {
+    const opt = document.createElement("option");
+    opt.value = String(t.option_key || "A").toUpperCase();
+    opt.textContent = `Option ${t.option_key}: ${t.option_title || t.title}`;
+    selectEl.appendChild(opt);
+  });
+
+  if (Array.from(selectEl.options).some((o) => o.value === prevValue)) {
+    selectEl.value = prevValue;
+  } else {
+    selectEl.value = "ALL";
+  }
+
+  if (pillsEl) {
+    const activeVal = selectEl.value;
+    const pillsHtml = tracks
+      .map((t) => {
+        const oKey = String(t.option_key || "A").toUpperCase();
+        const oTitle = t.option_title || t.title || `Option ${oKey}`;
+        const isAct = activeVal === oKey;
+        return `<button type="button" class="m3-option-track-pill ${isAct ? "active" : ""}" data-quick-option-track="${escapeHtml(oKey)}" title="Generate ${escapeHtml(targetBadge)} — Option ${escapeHtml(oKey)}: ${escapeHtml(oTitle)}"><span class="m3-option-track-pill-key">Opt ${escapeHtml(oKey)}</span><span>${escapeHtml(oTitle)}</span></button>`;
+      })
+      .concat([
+        `<button type="button" class="m3-option-track-pill ${activeVal === "ALL" ? "active" : ""}" data-quick-option-track="ALL" title="Generate Full ${escapeHtml(targetBadge)} Deck (All ${tracks.length} Options)"><span class="m3-option-track-pill-key">ALL</span><span>All ${tracks.length} Options</span></button>`,
+      ])
+      .join("");
+    pillsEl.innerHTML = pillsHtml;
+    pillsEl.querySelectorAll("[data-quick-option-track]").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const chosenOpt = btn.getAttribute("data-quick-option-track") || "ALL";
+        window.syncActiveBadgeOptionTrackSelector(targetBadge, chosenOpt, tracks);
+        await executeStreamingWorkflow(targetBadge, { optionTrack: chosenOpt, isExplicitBuild: true });
+      });
+    });
+  }
+
+  wrapEl.classList.remove("hidden");
 };
 
 function syncFavoriteBadgesUi() {
