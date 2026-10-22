@@ -122,7 +122,7 @@ External agents can read structured catalog, requirement, template, and workspac
 | `bsa://catalog/badges` | Official 144 Merit Badges Catalog | All 144 Merit Badges with `name`, `slug`, `category`, `is_eagle_required`, `is_favorite`, and `emblem_url`. |
 | `bsa://badges/{badge_name}/requirements` | Official Verbatim Merit Badge Requirements | Official verbatim requirements tree and sub-requirements (`1a`, `1b`, ...) for any badge (e.g., `bsa://badges/First Aid/requirements`). |
 | `bsa://badges/{badge_name}/images` | Curated Vision-Verified Pamphlet & Nano Banana Visuals | All pre-bundled Vision-verified pamphlet figures and Nano Banana illustrations for the badge. |
-| `bsa://templates/catalog` | PowerPoint Slide Templates Catalog | All 17 built-in curated Scouting templates across 7 Style Families plus any custom uploaded/URL templates, including `SafeCanvasBounds` and brand palettes. |
+| `bsa://templates/catalog` | PowerPoint Slide Templates Catalog | All 17 built-in curated Scouting templates across 8 Style Families plus any custom uploaded/URL templates, including `SafeCanvasBounds` and brand palettes. |
 | `bsa://workspaces/list` | Saved Counselor Deck Workspaces | Metadata list of all saved counselor deck workspaces (`workspace_id`, `workspace_title`, `badge_name`, `session_label`, `camp_bundle_tag`, `slide_count`, `scout_count`). |
 | `bsa://workspaces/{workspace_id}` | Full Counselor Deck Workspace State | Complete storyboard slides, speaker notes, selected PowerPoint template, and Patrol Blue Card (`#34124`) Scout roster. |
 

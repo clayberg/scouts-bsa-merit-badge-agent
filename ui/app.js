@@ -2493,7 +2493,12 @@ function hydrateWorkbench(rawResult) {
     result.finops_cost_estimate?.depth_mode ||
     document.getElementById("depth-select")?.value ||
     "Deep Dive / Camp School Deck";
-  const depthDesc = String(rawDepthMode).toLowerCase().includes("deep")
+  const rawDepthLower = String(rawDepthMode).toLowerCase();
+  const isDeepDiveDeck =
+    rawDepthLower.includes("deep") ||
+    rawDepthLower.includes("comprehensive") ||
+    Number(result.slide_count || slides.length) > 40;
+  const depthDesc = isDeepDiveDeck
     ? "Detailed Deep-Dive Teaching Deck (3–8 Slides per Requirement)"
     : "Standard Troop Meeting Deck (1–3 Slides per Requirement)";
   const resultOptionTracks = result.option_tracks || result.research_artifact?.option_tracks || [];
@@ -4973,8 +4978,8 @@ function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualFor
         const cType = String(c.source_type || "").toUpperCase();
         const roleLabel =
           cType === "OFFICIAL_PAMPHLET_FIGURE"
-            ? c.is_alternate
-              ? `📐 Pamphlet Alternate #${c.alternate_rank || i}`
+            ? c.is_alternate || i > 0
+              ? `🔄 Pamphlet Alternate #${c.alternate_rank || i}`
               : "📐 Primary Pamphlet Figure"
             : cType.includes("NANO_BANANA")
             ? "🍌 Nano Banana AI Illustration"
@@ -5009,19 +5014,19 @@ function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualFor
         <span>Slide Image Choices (${choices.length})</span>
         <span>Req ${escapeHtml(String(slide.req_number || ""))}</span>
       </div>
+      ${itemsHtml}
+      <button type="button" class="m3-pill-popover-footer-btn" id="stage-pill-open-studio-btn">
+        + Upload / Add Custom Image for This Slide…
+      </button>
       ${
         state.isAdminSession
-          ? `<div class="m3-popover-admin-sticky-bar">
+          ? `<div class="m3-popover-admin-sticky-bar" style="margin-top:6px;">
                <button type="button" class="m3-pill-popover-footer-btn" id="stage-pill-open-admin-btn" style="margin:0; background:#EFF6FF; color:#003F87; border-color:#93C5FD; font-weight:800;">
                  ✏️ Admin: Edit Caption / Promote to Primary
                </button>
              </div>`
           : ""
       }
-      ${itemsHtml}
-      <button type="button" class="m3-pill-popover-footer-btn" id="stage-pill-open-studio-btn">
-        + Upload / Add Custom Image for This Slide…
-      </button>
     `;
 
     visPopover.querySelectorAll("[data-pill-choice-idx]").forEach((btn) => {
@@ -8109,7 +8114,11 @@ async function checkAdminSessionAndInit() {
     const resp = await fetch("/api/v1/admin/session");
     if (!resp.ok) return;
     const data = await resp.json();
-    state.isAdminSession = Boolean(data.is_admin);
+    const urlParams = new URLSearchParams(window.location.search);
+    const requestedAdminUrl = urlParams.get("admin") === "1" || urlParams.get("admin") === "true";
+    state.canAutoUnlockWorkstation = Boolean(data.is_admin);
+    state.adminAuthMode = data.auth_mode || "verified";
+    state.isAdminSession = Boolean(data.is_admin) && (data.auth_mode === "signed_cookie" || requestedAdminUrl);
     const adminTabBtn = document.getElementById("tab-btn-admin");
     const footerBtn = document.getElementById("btn-footer-admin-unlock");
     const modeChip = document.getElementById("admin-auth-mode-chip");
@@ -8120,7 +8129,10 @@ async function checkAdminSessionAndInit() {
       footerBtn.textContent = state.isAdminSession ? "🛡️ Admin Console" : "🔒 Admin";
     }
     if (modeChip) {
-      modeChip.textContent = `🔒 Zero-PII • Auth: ${data.auth_mode || "verified"}`;
+      modeChip.textContent = `🔒 Zero-PII • Auth: ${state.adminAuthMode}`;
+    }
+    if (requestedAdminUrl && state.isAdminSession) {
+      switchMainTab("panel-admin");
     }
     if (state.currentResult) {
       renderActiveSlide(state.activeSlideIdx);
@@ -10236,8 +10248,14 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
 
   const unlockModal = document.getElementById("admin-unlock-modal");
   document.getElementById("btn-footer-admin-unlock")?.addEventListener("click", () => {
-    if (state.isAdminSession) {
+    if (state.isAdminSession || state.canAutoUnlockWorkstation) {
+      state.isAdminSession = true;
       document.getElementById("tab-btn-admin")?.classList.remove("hidden");
+      const footerBtn = document.getElementById("btn-footer-admin-unlock");
+      if (footerBtn) footerBtn.textContent = "🛡️ Admin Console";
+      if (state.currentResult) {
+        renderActiveSlide(state.activeSlideIdx);
+      }
       switchMainTab("panel-admin");
     } else {
       unlockModal?.classList.remove("hidden");
@@ -10856,6 +10874,14 @@ function renderDocumentationEngineeringList() {
   const navEl = document.getElementById("docs-eng-list-nav");
   if (!navEl || !state.docsCatalog) return;
   const engDocs = state.docsCatalog.engineering_docs || [];
+  const engToggleBtn = document.getElementById("btn-docs-toggle-eng-list");
+  if (engToggleBtn) {
+    engToggleBtn.textContent = `⚙️ Engineering Docs (${engDocs.length}) ▾`;
+  }
+  const engTitleEl = document.getElementById("docs-sidebar-eng-title");
+  if (engTitleEl) {
+    engTitleEl.textContent = `⚙️ ENGINEERING DOCS (${engDocs.length})`;
+  }
   navEl.innerHTML = engDocs
     .map(
       (doc) => `
@@ -11437,11 +11463,11 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     const footerLbl = document.getElementById("xray-footer-zone-label");
 
     if (headerLbl) {
-      headerLbl.textContent = `ZONE 1: HEADER & REQUIREMENT BANNER (${headerTopIn.toFixed(2)}"–${topIn.toFixed(2)}")`;
+      headerLbl.textContent = `ZONE 1: HEADER SAFE BOX (${headerTopIn.toFixed(2)}"–${topIn.toFixed(2)}" • 12.13" × ${(topIn - headerTopIn).toFixed(2)}")`;
     }
     if (contentLbl) {
       const availH = (bottomIn - topIn).toFixed(2);
-      contentLbl.textContent = `ZONES 2–5: PEDAGOGICAL CONTENT & SAFETY SAFE-BOX (12.13" × ${availH}" • y: ${topIn.toFixed(2)}"–${bottomIn.toFixed(2)}")`;
+      contentLbl.textContent = `ZONE 2: ACTIVE CONTENT & SAFETY SAFE-BOX (12.13" × ${availH}" • y: ${topIn.toFixed(2)}"–${bottomIn.toFixed(2)}")`;
     }
     if (deltaPill) {
       const deltaIn = Math.max(0, 6.95 - bottomIn);
@@ -11451,8 +11477,8 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     }
     if (footerLbl) {
       footerLbl.textContent = isCustomGeometry
-        ? `ZONE 6: RESERVED TEMPLATE BRANDING & FOOTER SAFE ZONE (${bottomIn.toFixed(2)}"–7.50" • ${prof.name})`
-        : `ZONE 6: STANDARD WORKBENCH SLIDE FOOTER STRIP (6.95"–7.50")`;
+        ? `ZONE 3: RESERVED TEMPLATE FOOTER & BRANDING BAR (${bottomIn.toFixed(2)}"–7.50" • ${prof.name})`
+        : `ZONE 3: STANDARD WORKBENCH SLIDE FOOTER STRIP (6.95"–7.50")`;
     }
   }
 

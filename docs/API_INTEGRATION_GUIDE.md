@@ -2,9 +2,9 @@
 
 The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), legacy unversioned aliases (`/api/*` with RFC 8594 `Deprecation: true` and `Sunset: 2027-01-01` headers), PowerPoint Template & Custom Slide Theme Engine endpoints (`/api/v1/templates*`), Multi-Badge Saved Deck Workspaces & Starred Favorites endpoints (`/api/v1/workspaces*`, `/api/v1/badges/favorites*`), Official Scouts BSA Workbench Model Context Protocol (`MCP`) endpoints (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`, documented in the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**), Merit Badge Image Studio endpoints (`/api/v1/badge/images`, `/api/v1/slide/*`), in-app documentation endpoints (`/api/v1/docs`, `/api/v1/docs/{doc_id}`), Super-User Admin Console and Zero-PII Telemetry endpoints (`/api/v1/admin/*`, documented in [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)), counselor profile persistence (`/api/v1/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
 
-- **OpenAPI 3.1 schema (`121` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
+- **OpenAPI 3.1 schema (`124` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
 - **MCP Server Integration Guide (`12` Tools, `6` `bsa://` Resources, `4` Prompts)**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md) (`python -m src.mcp_server` / `scouts-bsa-mcp` stdio CLI + HTTP `/mcp` & `/mcp/sse`).
-- **Swagger UI**: `http://localhost:8085/docs`
+- **Swagger UI**: `http://localhost:8085/docs` (or `http://localhost:8080/docs` when started with `--port 8080`)
 - **A2A 1.0 Agent Card**: `http://localhost:8085/.well-known/agent.json`
 
 ---
@@ -20,7 +20,7 @@ Every HTTP response includes `X-API-Version: 1.2.0`. Calls to unversioned `/api/
 
 ---
 
-## 2. Endpoint summary (`121` OpenAPI 3.1 paths)
+## 2. Endpoint summary (`124` OpenAPI 3.1 paths)
 
 All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in `docs/openapi.yaml`.
 
@@ -44,7 +44,7 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 | `GET /api/v1/workspaces`, `POST /api/v1/workspaces` | Lists all saved counselor deck workspaces (`counselor_workspaces` table in `scouts_bsa_sessions.db`) or saves/updates a workspace (`workspace_title`, `session_label`, `camp_bundle_tag`, `template_id`, `storyboard_slides`, and isolated Patrol Blue Card `#34124` `blue_card_roster`). | Yes |
 | `GET /api/v1/workspaces/{workspace_id}`, `PATCH /api/v1/workspaces/{workspace_id}`, `DELETE /api/v1/workspaces/{workspace_id}` | Loads, renames/updates metadata or Blue Card roster on, or deletes a saved Merit Badge deck workspace (`<80ms` hot-swap). | Yes |
 | `POST /api/v1/workspaces/{workspace_id}/clone` | Clones a saved deck workspace for a new patrol section (`📑 Clone for New Section`, e.g., Morning vs. Afternoon Patrol) with an optional fresh empty Blue Card roster. | Yes |
-| `GET /api/v1/docs` | Lists the allowlisted in-app documentation catalog (`12` docs total: 2 User Docs `user-guide`, `admin-guide`; and 10 Engineering Docs `readme`, `architecture`, `tdd`, `adr`, `finops-guide`, `api-guide`, `mcp-guide`, `data-governance`, `security-compliance`, `runbook`) for the `📘 Documentation` modal. | No |
+| `GET /api/v1/docs` | Lists the allowlisted in-app documentation catalog (`12` docs total: 2 User Docs `user_guide`, `admin_guide`; and 10 Engineering Docs `readme`, `tdd`, `adr`, `adr-readme`, `api-guide`, `mcp-guide`, `finops-guide`, `scope`, `spec`, `runbook`, `companion-guide`) for the `📘 Documentation` modal. | No |
 | `GET /api/v1/docs/{doc_id}` | Returns raw Markdown, title, category (`User Docs` or `Engineering Docs`), and relative repository path for an allowlisted `doc_id` with path-traversal protection. | No |
 | `GET /api/v1/counselor-profile` | Loads locally cached counselor info (`.cache/counselor_profile.json` on local runs; returns `storage_mode: "browser_local_storage"` on Cloud Run). | Yes |
 | `POST /api/v1/counselor-profile` | Saves counselor info to `.cache/counselor_profile.json` (`0600` owner-only permissions) on local runs. | Yes |
@@ -95,7 +95,9 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 | `POST /api/v1/admin/catalog/promote-primary` | Promotes an alternate figure (`alternate_rank >= 1`) to Primary Default (`is_alternate=False`, `alternate_rank=0`) for its requirement and demotes the prior primary. | Super-User |
 | `POST /api/v1/admin/catalog/vision-recaption`, `POST /api/v1/admin/catalog/recaption-vision` | Runs a single-image `gemini-2.5-flash` Vision pass to generate and persist an updated instructional caption. | Super-User |
 | `POST /api/v1/admin/catalog/replace-image` | Replaces a catalog image in place (creating a `.bak.<ts>` backup and quantizing to an 8-bit PNG `<= 800x600`) from a Base64 upload (`image_data_uri`) or live Nano Banana regeneration (`regenerate_nano=true`). | Super-User |
-| `GET /api/v1/admin/telemetry/summary` | Returns aggregated zero-PII deck usage, cache hit rate, FinOps spend, bimodal stage latency percentiles, compliance audit events, and the Easy Slide Image Switcher Swap Leaderboard (`ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py`). | Super-User |
+| `GET /api/v1/admin/telemetry/summary` | Returns aggregated zero-PII deck usage, cache hit rate, FinOps spend, Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), bimodal stage latency percentiles, 5% online trace audit summary, compliance audit events, and the Easy Slide Image Switcher Swap Leaderboard (`ZeroPiiTelemetryStore` in `src/observability/telemetry_store.py`). | Super-User |
+| `GET /api/v1/admin/telemetry/online-audit-samples` | Returns summary statistics and recent zero-PII production trace audit samples from the 5% `OnlineProductionAuditSampler` (`src/observability/online_audit_sampler.py`). | Super-User |
+| `POST /api/v1/admin/telemetry/online-audit-sample` | Evaluates and records a production trace audit sample (`Recall@3`, SHA-256 requirement lock, AABB overlaps, dual TTFT, FinOps ceiling, PII scrub check). | Super-User |
 | `POST /api/v1/admin/telemetry/image-swap` | Records an anonymous slide visual swap event (`badge_name`, `req_number`, `from_image_id`, `to_image_id`) with zero counselor PII. | Yes |
 | `GET /api/v1/admin/diagnostics/assets` | Returns the 144-Badge Asset Health Matrix (`covers_present`, `emblems_present`, `pdfs_indexed_present`, `total_pamphlet_figures`, `total_nano_banana_heroes`), Prompt SHA-256 Manifest, and Zero-PII Guardrail Audit Log. | Super-User |
 | `POST /api/v1/admin/circuit-breakers/reset` | Resets all downstream circuit breakers back to `CLOSED`. | Super-User |

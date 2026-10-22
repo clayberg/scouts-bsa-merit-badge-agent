@@ -144,10 +144,11 @@ Horizontal bar chart and 5-bucket mini-histograms reporting `p50`, `p95`, and `p
 
 - Displays the real-time state (`CLOSED`, `OPEN`, `HALF_OPEN`), failure count vs. threshold, total successes, and total short-circuits for each downstream circuit breaker (Vertex AI Gemini/Imagen, Scouting.org Pamphlet Scraper, and Google Search Web Grounding).
 - **1-Click Maintenance Actions Toolbar**:
-  - **`🧹 Purge Temp Web/AI Cache`** (`POST /api/v1/admin/maintenance/purge-temp-cache`): Purges temporary web-search staging thumbnails while preserving all 3,917 built-in catalog visuals.
-  - **`🖼️ Verify & Repair Covers/Emblems`** (`POST /api/v1/admin/maintenance/repair-covers`): Verifies and repairs all 144 pamphlet covers (`assets/pamphlet_covers/`) and 144 badge emblems (`assets/badge_emblems/`).
-  - **`🔄 Reset All Circuit Breakers to CLOSED`** (`POST /api/v1/admin/circuit-breakers/reset`): Resets all circuit breakers to `CLOSED` and reloads in-memory caches.
-  - **`📥 Download Zero-PII Snapshot JSON`** (`GET /api/v1/admin/maintenance/snapshot`): Downloads a portable JSON snapshot of asset health, prompt SHA-256 hashes, and aggregated Zero-PII telemetry.
+  - **`🧹 Purge Temporary Web/AI Caches`** (`POST /api/v1/admin/maintenance/purge-temp-cache`): Purges temporary web-search staging thumbnails while preserving all 3,917 built-in catalog visuals.
+  - **`🔧 Verify & Repair 144 Covers & Emblems`** (`POST /api/v1/admin/maintenance/repair-covers`): Verifies and repairs all 144 pamphlet covers (`assets/pamphlet_covers/`) and 144 badge emblems (`assets/badge_emblems/`).
+  - **`🏛️ Refresh 100 U.S. Senators Cache`** (`POST /api/v1/admin/senators/refresh`): Triggers a forced refresh of the 100 U.S. Senators grounding cache (`24h` TTL) across all 50 states.
+  - **`📥 Download Zero-PII Telemetry Snapshot (.JSON)`** (`GET /api/v1/admin/maintenance/snapshot`): Downloads a portable JSON snapshot of asset health, prompt SHA-256 hashes, and aggregated Zero-PII telemetry.
+  - **`🔄 Reset All Circuit Breakers to CLOSED`** (`POST /api/v1/admin/circuit-breakers/reset`, located on the Downstream Resilience Circuit Breakers header): Resets all circuit breakers to `CLOSED` and reloads in-memory caches.
 
 ### 2. 144-Badge Visual Asset Health Matrix
 
@@ -156,8 +157,8 @@ Below the circuit breaker cards sits a searchable table (`max-height: 460px` wit
 - For each badge, the matrix reports 5 health columns:
   - **Cover (`assets/pamphlet_covers/`)**: `✅` Present (`144/144`)
   - **Emblem (`assets/badge_emblems/`)**: `✅` Present (`144/144` authentic `400x400` Scout Shop emblems verified in `assets/badge_emblems/scoutshop_emblems_manifest.json`)
-  - **Pamphlet Figs (`assets/pamphlet_images/`)**: Count of active Vision-verified primary and alternate figures (`2,323` total, e.g. `17 figs`)
-  - **Nano Heroes (`assets/ai_illustrations/`)**: Count of pre-bundled requirement hero illustrations (`1,306` total Nano Banana PNGs, e.g. `17 heroes`)
+  - **Pamphlet Figs (`assets/pamphlet_images/`)**: Count of active Vision-verified primary and alternate figures (`2,323` manifest figures / `2,362` total indexed figures in the live header pill, e.g. `17 figs`)
+  - **Nano Heroes (`assets/ai_illustrations/`)**: Count of pre-bundled requirement hero illustrations (`1,156` requirement heroes in the live header pill / `1,306` total Nano Banana PNGs on disk, e.g. `17 heroes`)
   - **PDF & Index (`data/official_requirements_cache.json` + `data/pamphlet_Requirement_Index.json`)**: `✅` Indexed (`144/144`) with the badge's official top-level requirement count (e.g. `15 Reqs` for First Aid, `12 Reqs` for Weather)
 - Click **`🖼️ Inspect Visuals`** on any row to jump directly to **Tab 1 (`Cached Image & Caption Studio`)** with that Merit Badge selected in the **Merit Badge (All 144)** dropdown and scrolled into view.
 
@@ -183,7 +184,7 @@ Configure the following environment variables in `.env` (for local runs) or in y
 
 ## 8. Admin REST API Reference (`/api/v1/admin/*` & `/api/admin/*`)
 
-All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `119` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
+All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `124` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
 
 | Method & Path | Request Payload / Query Params | Response Summary |
 | :--- | :--- | :--- |
@@ -196,8 +197,11 @@ All administrative endpoints are defined in `src/server.py` and exported in `doc
 | `POST /api/v1/admin/catalog/recaption-vision` (`POST /api/admin/catalog/recaption-vision`) | `{"badge_name": str, "image_id": str, "req_number": str}` | Runs a Gemini 2.5 Flash Vision pass on the image file and saves the new caption (`<= 180` chars) to both catalog JSON files. |
 | `POST /api/v1/admin/catalog/replace-image` (`POST /api/admin/catalog/replace-image`) | `{"badge_name": str, "image_id": str, "image_data_uri": str, "regenerate_nano": bool, "custom_prompt": str}` | Backs up the existing PNG to `.bak.<ts>`, quantizes the replacement or regenerated image to an 8-bit PNG, and refreshes caches. |
 | `POST /api/v1/admin/telemetry/image-swap` (`POST /api/admin/telemetry/image-swap`) | `{"badge_name": str, "req_number": str, "event_type": str, "from_image_id": str, "to_image_id": str}` | Records an anonymous slide visual swap or regeneration event in `ZeroPiiTelemetryStore` with zero counselor PII. |
-| `GET /api/v1/admin/telemetry/summary` (`GET /api/admin/telemetry/summary`) | None | Returns aggregated zero-PII counters (`24h`/`7d`/`All-Time`), `p50`/`p95`/`p99` latencies with 5-bucket histograms, FinOps spend vs. saved, top badges, and visual swap hotspots. |
+| `GET /api/v1/admin/telemetry/summary` (`GET /api/admin/telemetry/summary`) | None | Returns aggregated zero-PII counters (`24h`/`7d`/`All-Time`), Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), `p50`/`p95`/`p99` latencies with 5-bucket histograms, 5% online audit sampler summary, FinOps spend vs. saved, top badges, and visual swap hotspots. |
+| `GET /api/v1/admin/telemetry/online-audit-samples` | Query: `limit` *(optional, default 25)* | Returns summary statistics and recent zero-PII trace audit samples from the 5% `OnlineProductionAuditSampler`. |
+| `POST /api/v1/admin/telemetry/online-audit-sample` | `{"badge_name": str, "force_sample": bool, ...}` | Evaluates and records a production trace sample (`Recall@3`, SHA-256 hash lock, AABB overlaps, dual TTFT, FinOps ceiling, PII scrub check). |
 | `GET /api/v1/admin/diagnostics/assets` (`GET /api/admin/diagnostics/assets`) | None | Returns the 144-badge 5-column asset health matrix (`Cover`, `Emblem`, `Pamphlet Figs`, `Nano Heroes`, `PDF & Index` with true requirement counts), prompt SHA-256 manifest, guardrail audit log, and circuit breaker states. |
+| `POST /api/v1/admin/senators/refresh` (`POST /api/admin/senators/refresh`) | `{"state_code": str}` *(optional)* | Triggers a forced refresh of the 100 U.S. Senators grounding cache (`24h` TTL). |
 | `POST /api/v1/admin/maintenance/purge-temp-cache` (`POST /api/admin/maintenance/purge-temp-cache`) | None | Purges temporary web-search staging thumbnails while preserving all 3,917 built-in catalog visuals. |
 | `POST /api/v1/admin/maintenance/repair-covers` (`POST /api/admin/maintenance/repair-covers`) | None | Verifies and repairs all 144 Merit Badge pamphlet covers and 144 badge emblems on disk. |
 | `GET /api/v1/admin/maintenance/snapshot` (`GET /api/admin/maintenance/snapshot`) | None | Downloads a portable Zero-PII JSON snapshot of catalog diagnostics, prompt manifest hashes, and telemetry. |

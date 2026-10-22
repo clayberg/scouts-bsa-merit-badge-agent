@@ -7225,11 +7225,17 @@ body.m3-dark-mode .m3-patch-header-fav-toggle-btn.active {
 .m3-xray-badge-header {
   background: #1D4ED8;
   color: #FFFFFF;
+  left: auto;
+  right: 8px;
+  top: -10px;
 }
 
 .m3-xray-badge-content {
   background: #15803D;
   color: #FFFFFF;
+  left: auto;
+  right: 8px;
+  top: -10px;
 }
 
 .m3-xray-badge-footer {
