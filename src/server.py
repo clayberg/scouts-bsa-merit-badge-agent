@@ -4288,6 +4288,18 @@ async def api_mcp_sse_endpoint() -> StreamingResponse:
     return StreamingResponse(_sse_gen(), media_type="text/event-stream")
 
 
+@app.api_route("/favicon.ico", methods=["GET", "HEAD"], include_in_schema=False)
+async def serve_favicon() -> Response:
+    """Serves the official Scouts BSA favicon for browser tabs."""
+    ico_path = UI_DIR / "favicon.ico"
+    if ico_path.exists():
+        return Response(content=ico_path.read_bytes(), media_type="image/x-icon")
+    png_path = UI_DIR / "favicon.png"
+    if png_path.exists():
+        return Response(content=png_path.read_bytes(), media_type="image/png")
+    return Response(status_code=204)
+
+
 @app.get("/", response_class=HTMLResponse)
 async def serve_a2ui_workbench() -> HTMLResponse:
     """Serves the Google Material 3 Expressive A2UI Counselor Workbench."""

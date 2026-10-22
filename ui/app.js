@@ -6097,6 +6097,7 @@ function printHtmlDocument(docTitle, subtitle, bodyHtml) {
 <head>
   <meta charset="UTF-8" />
   <title>${escapeHtml(docTitle)}</title>
+  <link rel="icon" type="image/png" href="/ui/favicon.png" />
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -7745,6 +7746,7 @@ function openPresenterViewWindow() {
 <head>
   <meta charset="UTF-8" />
   <title>2nd Monitor Speaker Teleprompter — ${escapeHtml(payload.badgeName)}</title>
+  <link rel="icon" type="image/png" href="/ui/favicon.png" />
   <style>
     body {
       margin: 0;
@@ -9260,6 +9262,7 @@ async function runGoogleSlidesExportAndOpenTab({ oauthToken = "", shareEmail = "
     if (slideTab && slideTab.document) {
       slideTab.document.write(`<!DOCTYPE html>
 <html><head><title>Creating Google Slides Presentation...</title>
+<link rel="icon" type="image/png" href="/ui/favicon.png" />
 <style>body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0F172A;color:#F8FAFC;text-align:center;}
 .box{max-width:460px;padding:28px 32px;background:#1E293B;border:1px solid #334155;border-radius:16px;box-shadow:0 20px 45px rgba(0,0,0,0.4);}
 .spin{width:38px;height:38px;border:4px solid #334155;border-top-color:#FACC15;border-radius:50%;animation:s 0.8s linear infinite;margin:0 auto 14px auto;}
