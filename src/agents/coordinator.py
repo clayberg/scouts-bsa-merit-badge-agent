@@ -724,6 +724,18 @@ def run_merit_badge_workflow(
             ),
         })
 
+        # 2A-HYDRATE. PER-BADGE BATCH ASSET HYDRATOR (fetches missing badge PNGs in 1 batch if running from <30MB bundle)
+        asset_batch_hydration: Dict[str, Any] = {"batch_status": "ALL_LOCAL_CACHE_HIT", "hydrated_count": 0}
+        try:
+            from src.tools.asset_hydrator import hydrate_missing_badge_assets_batch
+
+            asset_batch_hydration = hydrate_missing_badge_assets_batch(
+                badge_name=badge_name,
+                template_id=(counselor_info or {}).get("template_id"),
+            )
+        except Exception as hyd_exc:
+            logger.debug("Per-badge batch asset hydration warning: %s", hyd_exc)
+
         # 2B. OPTIONAL SLIDE BEAUTIFIER SUBAGENT (Magazine Themes & Targeted Editorial Hero Art)
         step_t_bf = time.perf_counter()
         beautify_res = execute_tool_with_observability(
@@ -933,6 +945,7 @@ def run_merit_badge_workflow(
             true_first_content_token_ms=max(1.0, true_ttft_ms),
         )
         res_dump = final_result.model_dump()
+        res_dump["asset_batch_hydration"] = asset_batch_hydration
         try:
             from src.observability.online_audit_sampler import get_online_production_audit_sampler
 

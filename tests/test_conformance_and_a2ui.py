@@ -3364,6 +3364,79 @@ def test_patch_gallery_left_column_and_single_card_popover_positioning() -> None
     assert "drop-up" in ui_js
 
 
+def test_per_badge_batch_github_asset_hydrator(tmp_path) -> None:
+    """Verifies per-badge batch GitHub asset hydration and pull-once local disk caching."""
+    import json
+    from src.tools.asset_hydrator import (
+        collect_badge_asset_rel_paths,
+        hydrate_missing_badge_assets_batch,
+    )
+
+    # 1. In the full workspace, all First Aid assets are already on disk (0 remote calls)
+    full_paths = collect_badge_asset_rel_paths("First Aid")
+    assert len(full_paths) >= 20
+    assert "assets/badge_emblems/first_aid.png" in full_paths
+    assert "assets/pamphlet_covers/first_aid_cover.png" in full_paths
+
+    res_full = hydrate_missing_badge_assets_batch("First Aid")
+    assert res_full["batch_status"] == "ALL_LOCAL_CACHE_HIT"
+    assert res_full["hydrated_count"] == 0
+    assert res_full["already_cached_count"] == len(full_paths)
+
+    # 2. Simulate a fresh <30MB .bundle clone in tmp_path where assets/ are not yet on disk
+    data_dir = tmp_path / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    (data_dir / "pamphlet_image_catalog.json").write_text(
+        json.dumps({
+            "astronomy_p012_img1.png": {"badge": "Astronomy", "req_number": "1"},
+            "astronomy_p018_img1.png": {"badge": "Astronomy", "req_number": "2"},
+        }),
+        encoding="utf-8",
+    )
+    (data_dir / "nano_banana_image_catalog.json").write_text(
+        json.dumps({
+            "astronomy_req_1_nano_hero.png": {"badge_name": "Astronomy", "req_number": "1"},
+        }),
+        encoding="utf-8",
+    )
+
+    fetched_urls: list[str] = []
+    valid_png_bytes = b"\x89PNG\r\n\x1a\n" + (b"\x00" * 64)
+
+    def _mock_github_opener(url: str, timeout: float) -> bytes:
+        fetched_urls.append(url)
+        if url.endswith("catalog.json"):
+            return json.dumps({"badge_name": "Astronomy", "items": []}).encode("utf-8")
+        return valid_png_bytes
+
+    # First batch run pulls all 5 Astronomy assets in one concurrent batch
+    res_first = hydrate_missing_badge_assets_batch(
+        "Astronomy",
+        repo_root=tmp_path,
+        opener=_mock_github_opener,
+    )
+    assert res_first["batch_status"] == "BATCH_HYDRATED"
+    assert res_first["hydrated_count"] == 5
+    assert res_first["failed_count"] == 0
+    assert (tmp_path / "assets" / "badge_emblems" / "astronomy.png").exists()
+    assert (tmp_path / "assets" / "pamphlet_images" / "astronomy_p012_img1.png").exists()
+    assert (tmp_path / "assets" / "ai_illustrations" / "astronomy_req_1_nano_hero.png").exists()
+    first_fetch_count = len(fetched_urls)
+    assert first_fetch_count >= 5
+
+    # Second batch run hits local disk cache 100% and makes ZERO network calls
+    res_second = hydrate_missing_badge_assets_batch(
+        "Astronomy",
+        repo_root=tmp_path,
+        opener=_mock_github_opener,
+    )
+    assert res_second["batch_status"] == "ALL_LOCAL_CACHE_HIT"
+    assert res_second["hydrated_count"] == 0
+    assert res_second["already_cached_count"] == 6  # 5 images + catalog.json
+    assert len(fetched_urls) == first_fetch_count
+
+
+
 
 
 

@@ -83,12 +83,23 @@ app.add_middleware(
 
 @app.middleware("http")
 async def add_api_version_and_deprecation_headers(request: Any, call_next: Any) -> Any:
-    """Attaches `X-API-Version: 1.2.0` and RFC 8594 `Deprecation`/`Sunset` headers on legacy unversioned paths."""
+    """Attaches `X-API-Version: 1.2.0`, RFC 8594 `Deprecation`/`Sunset` headers, and lazy-hydrates missing `/assets/` files on demand."""
     from src.schemas import CURRENT_SCHEMA_VERSION
+
+    path = str(getattr(request, "url", "") and request.url.path or "")
+    if path.startswith("/assets/"):
+        rel_asset = path.lstrip("/")
+        local_asset = PROJECT_ROOT / rel_asset
+        if not local_asset.exists():
+            try:
+                from src.tools.asset_hydrator import hydrate_single_asset_on_demand
+
+                await asyncio.to_thread(hydrate_single_asset_on_demand, rel_asset)
+            except Exception:
+                pass
 
     response = await call_next(request)
     response.headers["X-API-Version"] = CURRENT_SCHEMA_VERSION
-    path = str(getattr(request, "url", "") and request.url.path or "")
     if path.startswith("/api/") and not path.startswith("/api/v1/"):
         response.headers["Deprecation"] = "true"
         response.headers["Sunset"] = "2027-01-01"
