@@ -711,21 +711,27 @@
           </div>
         </div>
         <div class="m3-demo-tour-controls">
-          <button type="button" class="m3-btn m3-btn-tonal m3-demo-ctrl-btn" id="btn-demo-step-prev" title="Previous step in this guided walkthrough">
+          <button type="button" class="m3-btn m3-btn-outlined m3-demo-ctrl-btn m3-demo-speed-btn" id="btn-demo-speed-toggle" title="Cycle guided tour pacing: Normal (6.5s/step), Relaxed (9s/step), or Manual Step-by-Step">
+            ⏱️ Pace: Normal (6.5s)
+          </button>
+          <button type="button" class="m3-btn m3-btn-tonal m3-demo-ctrl-btn" id="btn-demo-step-prev" title="Previous step in this guided walkthrough (Shortcut: ←)">
             ⏮ Prev
           </button>
-          <button type="button" class="m3-btn m3-btn-tonal m3-demo-ctrl-btn" id="btn-demo-step-pause" title="Pause or resume automatic step progression">
+          <button type="button" class="m3-btn m3-btn-tonal m3-demo-ctrl-btn" id="btn-demo-step-pause" title="Pause or resume automatic step progression (Shortcut: Space)">
             ⏸ Pause
           </button>
-          <button type="button" class="m3-btn m3-btn-filled m3-demo-ctrl-btn" id="btn-demo-step-next" title="Advance to the next step in this guided walkthrough">
+          <button type="button" class="m3-btn m3-btn-filled m3-demo-ctrl-btn" id="btn-demo-step-next" title="Advance to the next step in this guided walkthrough (Shortcut: →)">
             ⏭ Next Step
           </button>
           <button type="button" class="m3-btn m3-btn-outlined m3-demo-ctrl-btn" id="btn-demo-next-scenario" title="Switch to the next guided demo walkthrough">
             🎬 Next Demo ▸
           </button>
-          <button type="button" class="m3-btn m3-btn-outlined m3-demo-ctrl-btn m3-demo-exit-btn" id="btn-demo-exit" title="Exit the guided demo walkthrough">
+          <button type="button" class="m3-btn m3-btn-outlined m3-demo-ctrl-btn m3-demo-exit-btn" id="btn-demo-exit" title="Exit the guided demo walkthrough and scroll to top (Shortcut: Esc)">
             ✕ Exit
           </button>
+        </div>
+        <div class="m3-demo-progress-track" aria-hidden="true">
+          <div class="m3-demo-progress-fill" id="demo-banner-progress-fill"></div>
         </div>
       </div>
 
@@ -3366,13 +3372,27 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
   <!-- INTERACTIVE GUIDED DEMO VISUAL ATTENTION OVERLAY (SPOTLIGHT RING, FLOATING CALLOUT & VIRTUAL CURSOR) -->
   <div id="demo-spotlight-ring" class="m3-demo-spotlight-ring hidden" aria-hidden="true"></div>
-  <div id="demo-floating-callout" class="m3-demo-floating-callout hidden" role="status" aria-live="polite">
+  <div id="demo-floating-callout" class="m3-demo-floating-callout hidden" role="status" aria-live="polite" data-placement="bottom">
     <div class="m3-demo-callout-header">
       <span class="m3-demo-callout-step-pill" id="demo-callout-step-pill">STEP 1 OF 6</span>
       <span class="m3-demo-callout-title" id="demo-callout-title">Selecting Citizenship in the Nation</span>
+      <button type="button" class="m3-demo-callout-close-btn" id="btn-callout-close" title="Exit guided demo and scroll to top (Esc)" aria-label="Exit guided demo">✕</button>
     </div>
     <div class="m3-demo-callout-body" id="demo-callout-body">
       Choosing Citizenship in the Nation from Popular and confirming that Local Regional Grounding is enabled.
+    </div>
+    <div class="m3-demo-callout-footer">
+      <button type="button" class="m3-demo-callout-pace-pill" id="btn-callout-speed" title="Click to cycle tour speed: Normal (6.5s) • Relaxed (9s) • Manual">
+        ⏱️ 6.5s
+      </button>
+      <div class="m3-demo-callout-actions">
+        <button type="button" class="m3-demo-callout-btn" id="btn-callout-prev" title="Previous step (←)">⏮ Prev</button>
+        <button type="button" class="m3-demo-callout-btn" id="btn-callout-pause" title="Pause or resume auto-advance (Space)">⏸ Pause</button>
+        <button type="button" class="m3-demo-callout-btn m3-demo-callout-btn-primary" id="btn-callout-next" title="Next step (→)">⏭ Next</button>
+      </div>
+    </div>
+    <div class="m3-demo-callout-progress-track" aria-hidden="true">
+      <div class="m3-demo-callout-progress-fill" id="demo-callout-progress-fill"></div>
     </div>
   </div>
   <div id="demo-virtual-cursor" class="m3-demo-virtual-cursor hidden" aria-hidden="true">
@@ -3385,6 +3405,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261023a"></script>
+  <script src="/ui/app.js?v=20261023b"></script>
 </body>
 </html>

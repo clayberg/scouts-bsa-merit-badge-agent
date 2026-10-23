@@ -14649,7 +14649,8 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Selecting Citizenship in the Nation from Popular",
         narration:
           "Selecting the Eagle-required Citizenship in the Nation Merit Badge from the Popular Quick-Select strip to load its 40-slide teaching deck, Scout Workbook, and Blue Card roster.",
-        targetSelector: '[data-quick-badge="Citizenship in the Nation"], #popular-badges-strip',
+        preActionSelector: '[data-badge="Citizenship in the Nation"], #quick-badges-row',
+        targetSelector: '[data-badge="Citizenship in the Nation"], #quick-badges-row',
         placement: "right",
         action: async () => {
           switchMainTab("panel-storyboard");
@@ -14659,6 +14660,8 @@ const DEMO_SCENARIOS_CATALOG = [
           if (locInput && !locInput.value.trim()) {
             locInput.value = "Middleton, MA 01949";
           }
+          const deepResCheckbox = document.getElementById("deep-research-checkbox");
+          if (deepResCheckbox) deepResCheckbox.checked = true;
           const webGroundToggle = document.getElementById("toggle-web-grounding");
           if (webGroundToggle) webGroundToggle.checked = true;
           if (state.currentResult?.badge_name !== "Citizenship in the Nation") {
@@ -14674,7 +14677,8 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Confirming Local Regional Grounding (Middleton, MA 01949)",
         narration:
           "Confirming that Local Regional Grounding is enabled in the Troop Setup sidebar so Requirement 8 automatically resolves Massachusetts, both U.S. Senators, and the local U.S. House Representative.",
-        targetSelector: "#toggle-web-grounding, #counselor-profile-accordion",
+        preActionSelector: "#local-grounding-toggle-card",
+        targetSelector: "#input-counselor-location, #local-grounding-toggle-card",
         placement: "right",
         action: async () => {
           const profileAcc = document.getElementById("counselor-profile-accordion");
@@ -14689,6 +14693,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Switching to Requirement 8 (Slide 36): State Name & Congressional Delegation",
         narration:
           "Jumping directly to Requirement 8 (Congressional Delegation & Constituent Letter) to show live local grounding: Massachusetts, Sen. Elizabeth Warren (D-MA), Sen. Edward J. Markey (D-MA), and Rep. Seth Moulton (D-MA-6).",
+        preActionSelector: "#req-quick-jump-bar",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
@@ -14707,6 +14712,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Stepping to Slide 37: How a Bill Becomes a Law & Your Constituent Voice",
         narration:
           "Advancing to the next Requirement 8 slide where the teaching cards name both Massachusetts U.S. Senators and the Middleton, MA (01949) U.S. House Representative for the Scout's discussion.",
+        preActionSelector: "#btn-slide-next",
         targetSelector: "#stage-left-cards",
         placement: "right",
         action: async () => {
@@ -14723,6 +14729,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Stepping to Slide 39: Worked Example Constituent Letter Template",
         narration:
           "Advancing to the Worked Example Constituent Letter slide showing a ready-to-use letter template addressed to the Scout's real Congressional delegation alongside [SAY] / [DEMONSTRATE] / [ASK SCOUTS] counselor notes.",
+        preActionSelector: "#btn-slide-next",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
@@ -14741,6 +14748,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Inspecting the 7-Agent Workflow Trace & Civic Grounding Lock",
         narration:
           "Opening the 4th Under-Stage Tab (Multi-Agent Workflow Trace & FinOps) to verify the 7-agent ADK pipeline, SHA-256 requirement lock, and Massachusetts Congressional grounding citations.",
+        preActionSelector: "#tab-btn-understage-trace",
         targetSelector: "#trace-telemetry-card",
         placement: "top",
         action: async () => {
@@ -14760,7 +14768,8 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Selecting Golf & Revealing the Multi-Option Track Selector",
         narration:
           "Selecting the Golf Merit Badge (one of 18 Multi-Option badges) and choosing Option B: Disc Golf (Reqs 1 + 2b(1)-2b(6)) in the left sidebar Track Selector.",
-        targetSelector: "#multi-option-track-group, #badge-select",
+        preActionSelector: "#badge-select",
+        targetSelector: "#option-track-field-wrap, #option-track-select, #badge-select",
         placement: "right",
         action: async () => {
           switchMainTab("panel-storyboard");
@@ -14785,6 +14794,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Stepping to Unrolled Sub-Requirement 2b(3): Disc Golf Equipment & Flight Profiles",
         narration:
           "Jumping to Requirement 2b(3) where the curriculum planner unrolls 3-level sub-requirements (distance drivers, fairway drivers, mid-range discs, and putters) with dedicated Disc Golf visuals.",
+        preActionSelector: "#req-quick-jump-bar",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
@@ -14801,6 +14811,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Stepping to 3-Level Sub-Requirements 2b(5)(a)-(d): Grips & X-Step Backhand Drives",
         narration:
           "Advancing to Requirement 2b(5) to show how 3-level nested sub-requirements (2b(5)(a) through 2b(5)(h)) are unrolled into step-by-step hands-on coaching cards with zero requirement drift.",
+        preActionSelector: "#btn-slide-next",
         targetSelector: "#stage-left-cards",
         placement: "right",
         action: async () => {
@@ -14817,8 +14828,9 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Switching to Tab 2: Verbatim Requirements & Patrol Blue Card Tracker",
         narration:
           "Switching to Tab 2 (2. Requirements & Blue Cards) to inspect the verbatim SHA-256 requirement tree and the interactive Patrol Blue Card sign-off matrix.",
-        targetSelector: "#tab-triage",
-        placement: "bottom",
+        preActionSelector: "#tab-triage",
+        targetSelector: "#bluecard-tracker-card, #tab-triage",
+        placement: "top",
         action: async () => {
           switchMainTab("panel-triage");
         },
@@ -14834,7 +14846,8 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Opening Tab 4 Under-Stage: Multi-Agent Workflow Trace & FinOps",
         narration:
           "Opening the Multi-Agent Workflow Trace & FinOps drawer below the 16:9 slide stage to inspect Honest Dual Latency (First Status Event vs. True TTFT) and the 7-stage Google ADK timeline.",
-        targetSelector: "#tab-btn-understage-trace",
+        preActionSelector: "#tab-btn-understage-trace",
+        targetSelector: "#trace-kpi-strip, #trace-telemetry-card",
         placement: "top",
         action: async () => {
           switchMainTab("panel-storyboard");
@@ -14850,6 +14863,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Reviewing the Live Run FinOps Token & Cost Ledger ($0.006 Warm / $0.184 Cold)",
         narration:
           "Highlighting the Live Run FinOps Ledger showing per-agent token consumption, the $1.00 FinOpsBudgetPlugin hard ceiling, and how 3,917 pre-bundled visuals hold runtime image cost to $0.00.",
+        preActionSelector: "#trace-finops-ledger-box",
         targetSelector: "#trace-finops-ledger-box",
         placement: "left",
         action: async () => {
@@ -14860,6 +14874,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Launching the 4-Tab Image Studio to Test the BSA Youth Protection & PII Guardrail",
         narration:
           "Clicking 'Test YPT / PII Guardrail' to open the Nano Banana AI Image Studio and inject a test prompt containing youth PII (email, SSN, phone) and a prohibited one-on-one tent scenario.",
+        preActionSelector: "#btn-trace-test-guardrail, #btn-open-image-studio",
         targetSelector: "#studio-ai-prompt-input",
         placement: "top",
         action: async () => {
@@ -14873,6 +14888,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Verifying Model Armor & BSA Two-Deep Leadership Interception ($0.00 Charged)",
         narration:
           "Confirming that ScoutsBSAModelArmorPlugin intercepts the one-on-one Youth Protection violation, redacts all youth PII before any external API call, and blocks prompt injection at $0.00 cost.",
+        preActionSelector: "#btn-studio-sample-guardrail",
         targetSelector: "#studio-guardrail-result-banner",
         placement: "top",
         action: async () => {
@@ -14890,7 +14906,8 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Opening the Stage Template & Layout Style Dropdown",
         narration:
           "Opening the Stage Toolbar [Template | ▾] menu where counselors can switch between 17 PowerPoint templates and 4 global Deck Layout Styles.",
-        targetSelector: "#btn-stage-template-caret",
+        preActionSelector: "#btn-stage-template-caret",
+        targetSelector: "#stage-template-dropdown-menu, #btn-stage-template-caret",
         placement: "bottom",
         action: async () => {
           document.getElementById("btn-close-image-studio")?.click();
@@ -14906,6 +14923,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Applying Editorial Left-Accent Line Layout Style",
         narration:
           "Switching the deck layout style to 'Line' (Editorial Left-Accent Line) to render colored 4px vertical accent bars with generous typography.",
+        preActionSelector: '[data-quick-container-style="LEFT_ACCENT_LINE"]',
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
@@ -14916,12 +14934,13 @@ const DEMO_SCENARIOS_CATALOG = [
       {
         title: "Restoring Clean & Borderless Layout & Opening the 17-Template Studio",
         narration:
-          "Switching back to 'Clean' (Clean & Borderless) for +2.5pt larger body text and opening the 17-Template PowerPoint Gallery modal.",
-        targetSelector: "#template-gallery-modal .m3-modal-dialog, #btn-stage-open-template-gallery",
+          "Switching back to 'Clean' (Clean & Borderless) for +2.5pt larger body text and opening the 17-Template PowerPoint Studio modal.",
+        preActionSelector: "#btn-stage-template-picker",
+        targetSelector: "#template-catalog-grid, #template-studio-modal .m3-modal-dialog, #btn-stage-template-picker",
         placement: "top",
         action: async () => {
           document.querySelector('[data-quick-container-style="CLEAN_OPEN"]')?.click();
-          document.getElementById("btn-stage-open-template-gallery")?.click();
+          document.getElementById("btn-stage-template-picker")?.click();
         },
       },
     ],
@@ -14935,10 +14954,11 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Cycling Cached Pamphlet & AI Visuals via the On-Stage Easy Image Switcher",
         narration:
           "Using the on-stage Easy Image Switcher (or '[' and ']' keys) to cycle through pre-bundled pamphlet and handbook figures in under 50ms at $0.00 cost.",
+        preActionSelector: "#stage-right-visual",
         targetSelector: "#stage-right-visual",
         placement: "left",
         action: async () => {
-          document.getElementById("btn-close-template-gallery")?.click();
+          document.getElementById("btn-close-template-studio")?.click();
           switchMainTab("panel-storyboard");
           if (state.activeSlideIdx < 2) {
             state.activeSlideIdx = 3;
@@ -14953,6 +14973,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Opening Under-Stage Tab 2: Customize Slide & Archetype Wireframe Picker",
         narration:
           "Opening the 'Customize Slide & Image Studio' drawer to switch the slide's pedagogical archetype and callout marker style with instant live preview.",
+        preActionSelector: '[data-understage-tab="codesign"]',
         targetSelector: "#slide-codesign-bar",
         placement: "top",
         action: async () => {
@@ -14971,6 +14992,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Jumping to a Patrol Scenario Checkpoint Quiz Slide",
         narration:
           "Jumping to a curated Patrol Scenario & Checkpoint Quiz slide where Scouts debate a real-world field scenario before revealing the verified answer.",
+        preActionSelector: "#req-quick-jump-bar",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
@@ -14987,6 +15009,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Revealing the 4-Patrol Scoreboard & Awarding Patrol Points",
         narration:
           "Enabling the interactive 4-Patrol Scoreboard bar above the slide stage and awarding points to Eagle and Fox Patrols.",
+        preActionSelector: "#btn-toggle-patrol-scoreboard",
         targetSelector: "#stage-patrol-scoreboard",
         placement: "bottom",
         action: async () => {
@@ -15001,8 +15024,9 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Launching Split-Screen Presenter View (Shortcut: P)",
         narration:
           "Opening Split-Screen Presenter View alongside the 16:9 slide stage so the counselor can read [SAY] / [DEMONSTRATE] / [ASK SCOUTS] teleprompter cues and track the 45-minute pacing timer.",
-        targetSelector: "#btn-stage-present-split",
-        placement: "bottom",
+        preActionSelector: "#stage-present-split-group",
+        targetSelector: "#stage-presenter-console-dock, #stage-present-split-group",
+        placement: "left",
         action: async () => {
           if (typeof togglePresenterConsoleMode === "function" && !state.presenterConsoleOpen) {
             togglePresenterConsoleMode();
@@ -15020,7 +15044,8 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Opening Tab 2: Official Requirements & Patrol Blue Card Sign-Off Matrix",
         narration:
           "Switching to Tab 2 (2. Requirements & Blue Cards) where counselors track individual Scout completion across every sub-requirement and export Scoutbook Plus CSVs.",
-        targetSelector: "#panel-triage",
+        preActionSelector: "#tab-triage",
+        targetSelector: "#bluecard-tracker-card, #panel-triage",
         placement: "top",
         action: async () => {
           if (state.presenterConsoleOpen && typeof togglePresenterConsoleMode === "function") {
@@ -15033,8 +15058,9 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Switching to Tab 4: Class Prep, Parent Letter & Scannable ISO 18004 QR Handout",
         narration:
           "Opening Tab 4 (4. Class Prep & Letters) to preview the Timed Lesson Plan, Prerequisite Parent Letter, Quartermaster Gear Checklist, and Scannable QR Pocket Study Guide.",
-        targetSelector: "#panel-studiokit",
-        placement: "top",
+        preActionSelector: "#tab-studiokit",
+        targetSelector: "#studiokit-subtabs-bar, #studiokit-sec-agenda",
+        placement: "bottom",
         action: async () => {
           switchMainTab("panel-studiokit");
         },
@@ -15050,21 +15076,23 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Opening the 22-Capability Model Context Protocol (MCP) Hub & Playground",
         narration:
           "Opening the MCP Agent Hub (12 Tools, 6 Resources, 4 Prompts) and executing a live JSON-RPC 2.0 tool call against POST /mcp.",
-        targetSelector: "#mcp-hub-modal .m3-modal-dialog",
-        placement: "top",
+        preActionSelector: "#btn-open-mcp-hub",
+        targetSelector: "#mcp-playground-visual-preview, #mcp-hub-modal .m3-modal-dialog",
+        placement: "left",
         action: async () => {
           document.getElementById("btn-open-mcp-hub")?.click();
           setTimeout(() => {
             document.getElementById("btn-run-mcp-playground")?.click();
-          }, 250);
+          }, 220);
         },
       },
       {
         title: "Opening the 12-Document Reference & Architecture Studio (Shortcut: D)",
         narration:
           "Switching from the MCP Hub to the built-in 12-Document Reference Studio featuring full-text search, interactive Mermaid architecture diagrams, and light/dark reading modes.",
-        targetSelector: "#docs-viewer-modal .m3-modal-dialog, #btn-open-docs-viewer",
-        placement: "top",
+        preActionSelector: "#btn-open-docs-viewer",
+        targetSelector: "#docs-viewer-left-rail, #docs-studio-dialog-box, #btn-open-docs-viewer",
+        placement: "right",
         action: async () => {
           document.getElementById("btn-close-mcp-hub")?.click();
           if (typeof openDocumentationViewerModal === "function") {
@@ -15077,8 +15105,195 @@ const DEMO_SCENARIOS_CATALOG = [
 ];
 
 let _demoStepTimer = null;
+let _demoCompletionHideTimer = null;
+let _demoCountdownRaf = null;
+let _demoPaceMode = "normal"; // "normal" (6.5s) | "relaxed" (9.0s) | "manual" (0s)
+let _demoHoverPaused = false;
+let _demoScrollRafPending = false;
+let _demoCountdownState = {
+  durationMs: 6500,
+  elapsedMs: 0,
+  lastTickTs: 0,
+  onComplete: null,
+};
 
-function positionDemoSpotlightAndCallout(targetSelector, stepPillText, titleText, bodyText, placement = "bottom") {
+const DEMO_PACE_MODES = [
+  { id: "normal", baseMs: 6500, bannerLabel: "⏱️ Pace: Normal (6.5s)", calloutLabel: "⏱️ 6.5s" },
+  { id: "relaxed", baseMs: 9000, bannerLabel: "🐢 Pace: Relaxed (9s)", calloutLabel: "🐢 9.0s" },
+  { id: "manual", baseMs: 0, bannerLabel: "✋ Pace: Manual", calloutLabel: "✋ Manual" },
+];
+
+function getActiveDemoPaceConfig() {
+  return DEMO_PACE_MODES.find((m) => m.id === _demoPaceMode) || DEMO_PACE_MODES[0];
+}
+
+function computeDemoStepDwellMs(step) {
+  const paceCfg = getActiveDemoPaceConfig();
+  if (paceCfg.baseMs <= 0) return 0;
+  const textLen = String(step?.title || "").length + String(step?.narration || "").length;
+  const extraChars = Math.max(0, textLen - 140);
+  const extraMs = Math.min(1800, extraChars * 28);
+  return paceCfg.baseMs + extraMs;
+}
+
+function updateDemoProgressBars(pct) {
+  const clamped = Math.max(0, Math.min(100, pct));
+  const bannerFill = document.getElementById("demo-banner-progress-fill");
+  const calloutFill = document.getElementById("demo-callout-progress-fill");
+  if (bannerFill) bannerFill.style.width = `${clamped.toFixed(1)}%`;
+  if (calloutFill) calloutFill.style.width = `${clamped.toFixed(1)}%`;
+}
+
+function stopDemoCountdownLoop() {
+  if (_demoStepTimer) {
+    clearTimeout(_demoStepTimer);
+    _demoStepTimer = null;
+  }
+  if (_demoCountdownRaf) {
+    cancelAnimationFrame(_demoCountdownRaf);
+    _demoCountdownRaf = null;
+  }
+  _demoCountdownState.onComplete = null;
+}
+
+function startDemoCountdownLoop(durationMs, onComplete) {
+  stopDemoCountdownLoop();
+  if (durationMs <= 0) {
+    updateDemoProgressBars(100);
+    return;
+  }
+  _demoCountdownState = {
+    durationMs,
+    elapsedMs: 0,
+    lastTickTs: performance.now(),
+    onComplete,
+  };
+  updateDemoProgressBars(0);
+
+  const tick = (now) => {
+    if (!state.activeDemoTour || state.activeDemoTour.completed) {
+      updateDemoProgressBars(0);
+      return;
+    }
+    const isPaused = Boolean(state.activeDemoTour.paused) || _demoHoverPaused;
+    if (!isPaused) {
+      const dt = Math.max(0, now - _demoCountdownState.lastTickTs);
+      _demoCountdownState.elapsedMs += dt;
+    }
+    _demoCountdownState.lastTickTs = now;
+    const pct = (_demoCountdownState.elapsedMs / _demoCountdownState.durationMs) * 100;
+    updateDemoProgressBars(pct);
+
+    if (_demoCountdownState.elapsedMs >= _demoCountdownState.durationMs) {
+      const cb = _demoCountdownState.onComplete;
+      stopDemoCountdownLoop();
+      if (typeof cb === "function") cb();
+      return;
+    }
+    _demoCountdownRaf = requestAnimationFrame(tick);
+  };
+
+  _demoCountdownRaf = requestAnimationFrame(tick);
+}
+
+function resolveFirstVisibleTargetElement(targetSelector) {
+  if (!targetSelector) return null;
+  const selectors = String(targetSelector)
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  for (const sel of selectors) {
+    try {
+      const candidate = document.querySelector(sel);
+      if (candidate) {
+        const r = candidate.getBoundingClientRect();
+        if (r.width > 8 && r.height > 8) {
+          return candidate;
+        }
+      }
+    } catch (_err) {}
+  }
+  return null;
+}
+
+function scrollTargetIntoComfortZone(targetEl) {
+  if (!targetEl || typeof targetEl.getBoundingClientRect !== "function") return;
+  const rect = targetEl.getBoundingClientRect();
+  const vh = window.innerHeight || 800;
+  const topSafeMargin = 96;
+  const bottomSafeMargin = vh - 110;
+  const isOutOfComfortZone =
+    rect.top < topSafeMargin ||
+    (rect.bottom > bottomSafeMargin && rect.height < vh * 0.72);
+  if (isOutOfComfortZone) {
+    try {
+      targetEl.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+    } catch (_err) {
+      targetEl.scrollIntoView(true);
+    }
+  }
+}
+
+function closeDemoOpenedModalsAndResetScroll(scrollToTop = true) {
+  document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
+  document.getElementById("btn-close-image-studio")?.click();
+  document.getElementById("btn-close-template-studio")?.click();
+  document.getElementById("btn-close-mcp-hub")?.click();
+  document.getElementById("btn-close-docs-viewer-modal")?.click();
+  const profileAcc = document.getElementById("counselor-profile-accordion");
+  if (profileAcc) profileAcc.open = false;
+
+  if (scrollToTop) {
+    try {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    } catch (_err) {
+      window.scrollTo(0, 0);
+    }
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    const sidebarEl = document.getElementById("left-setup-sidebar");
+    if (sidebarEl) sidebarEl.scrollTop = 0;
+  }
+}
+
+function hideDemoSpotlightAndCalloutOverlays(immediate = false) {
+  const ringEl = document.getElementById("demo-spotlight-ring");
+  const calloutEl = document.getElementById("demo-floating-callout");
+  const cursorEl = document.getElementById("demo-virtual-cursor");
+
+  if (immediate) {
+    ringEl?.classList.remove("is-fading-out");
+    calloutEl?.classList.remove("is-fading-out");
+    cursorEl?.classList.remove("is-fading-out");
+    ringEl?.classList.add("hidden");
+    calloutEl?.classList.add("hidden");
+    cursorEl?.classList.add("hidden");
+    return;
+  }
+
+  ringEl?.classList.add("is-fading-out");
+  calloutEl?.classList.add("is-fading-out");
+  cursorEl?.classList.add("is-fading-out");
+  setTimeout(() => {
+    if (!state.activeDemoTour || state.activeDemoTour.completed) {
+      ringEl?.classList.add("hidden");
+      calloutEl?.classList.add("hidden");
+      cursorEl?.classList.add("hidden");
+      ringEl?.classList.remove("is-fading-out");
+      calloutEl?.classList.remove("is-fading-out");
+      cursorEl?.classList.remove("is-fading-out");
+    }
+  }, 310);
+}
+
+function positionDemoSpotlightAndCallout(
+  targetSelector,
+  stepPillText,
+  titleText,
+  bodyText,
+  placement = "bottom",
+  options = {}
+) {
   const ringEl = document.getElementById("demo-spotlight-ring");
   const calloutEl = document.getElementById("demo-floating-callout");
   const cursorEl = document.getElementById("demo-virtual-cursor");
@@ -15086,30 +15301,20 @@ function positionDemoSpotlightAndCallout(targetSelector, stepPillText, titleText
   const titleEl = document.getElementById("demo-callout-title");
   const bodyEl = document.getElementById("demo-callout-body");
 
-  if (pillEl) pillEl.textContent = stepPillText;
-  if (titleEl) titleEl.textContent = titleText;
-  if (bodyEl) bodyEl.textContent = bodyText;
+  if (pillEl && stepPillText) pillEl.textContent = stepPillText;
+  if (titleEl && titleText) titleEl.textContent = titleText;
+  if (bodyEl && bodyText) bodyEl.textContent = bodyText;
 
-  let targetEl = null;
-  if (targetSelector) {
-    const selectors = String(targetSelector).split(",").map((s) => s.trim());
-    for (const sel of selectors) {
-      const candidate = document.querySelector(sel);
-      if (candidate) {
-        const r = candidate.getBoundingClientRect();
-        if (r.width > 8 && r.height > 8) {
-          targetEl = candidate;
-          break;
-        }
-      }
-    }
+  const targetEl = resolveFirstVisibleTargetElement(targetSelector);
+  if (!targetEl) {
+    hideDemoSpotlightAndCalloutOverlays(true);
+    return;
   }
 
-  if (!targetEl) {
-    ringEl?.classList.add("hidden");
-    calloutEl?.classList.add("hidden");
-    cursorEl?.classList.add("hidden");
-    return;
+  ringEl?.classList.remove("hidden", "is-fading-out");
+  cursorEl?.classList.remove("hidden", "is-fading-out");
+  if (!options.cursorOnly) {
+    calloutEl?.classList.remove("hidden", "is-fading-out");
   }
 
   const rect = targetEl.getBoundingClientRect();
@@ -15117,79 +15322,227 @@ function positionDemoSpotlightAndCallout(targetSelector, stepPillText, titleText
   const top = Math.max(8, rect.top - pad);
   const left = Math.max(8, rect.left - pad);
   const width = Math.min(window.innerWidth - left - 8, rect.width + pad * 2);
-  const height = Math.min(window.innerHeight - top - 8, rect.height + pad * 2);
+  const clampedHeight = Math.min(window.innerHeight - top - 8, rect.height + pad * 2);
 
   if (ringEl) {
-    ringEl.classList.remove("hidden");
     ringEl.style.top = `${Math.round(top)}px`;
     ringEl.style.left = `${Math.round(left)}px`;
     ringEl.style.width = `${Math.round(width)}px`;
-    ringEl.style.height = `${Math.round(height)}px`;
+    ringEl.style.height = `${Math.round(clampedHeight)}px`;
   }
 
   if (cursorEl) {
-    cursorEl.classList.remove("hidden");
     const cursorX = Math.min(window.innerWidth - 36, Math.max(16, rect.left + Math.min(rect.width * 0.28, 120)));
     const cursorY = Math.min(window.innerHeight - 36, Math.max(16, rect.top + Math.min(rect.height * 0.35, 64)));
     cursorEl.style.transform = `translate3d(${Math.round(cursorX)}px, ${Math.round(cursorY)}px, 0)`;
-    cursorEl.classList.remove("is-clicking");
-    void cursorEl.offsetWidth;
-    cursorEl.classList.add("is-clicking");
+    if (options.pulseCursor !== false) {
+      cursorEl.classList.remove("is-clicking");
+      void cursorEl.offsetWidth;
+      cursorEl.classList.add("is-clicking");
+    }
   }
 
-  if (calloutEl) {
-    calloutEl.classList.remove("hidden");
-    const calloutW = 360;
-    const calloutH = 118;
-    let cTop = rect.bottom + 14;
-    let cLeft = rect.left;
+  if (calloutEl && !options.cursorOnly) {
+    const calloutW = Math.max(320, calloutEl.offsetWidth || 386);
+    const calloutH = Math.max(128, calloutEl.offsetHeight || 156);
+    const gap = 14;
+    const minTop = 74;
+    const maxTop = Math.max(minTop, window.innerHeight - calloutH - 14);
+    const minLeft = 14;
+    const maxLeft = Math.max(minLeft, window.innerWidth - calloutW - 14);
 
-    if (placement === "right" && rect.right + calloutW + 20 < window.innerWidth) {
-      cTop = Math.max(76, rect.top);
-      cLeft = rect.right + 14;
-    } else if (placement === "left" && rect.left - calloutW - 20 > 0) {
-      cTop = Math.max(76, rect.top);
-      cLeft = rect.left - calloutW - 14;
-    } else if (placement === "top" || rect.bottom + calloutH + 24 > window.innerHeight) {
-      cTop = Math.max(76, rect.top - calloutH - 14);
-      cLeft = Math.min(window.innerWidth - calloutW - 16, Math.max(16, rect.left + 12));
+    let cTop = rect.bottom + gap;
+    let cLeft = rect.left;
+    let resolvedSide = placement;
+
+    const spaceRight = window.innerWidth - rect.right;
+    const spaceLeft = rect.left;
+    const spaceBottom = window.innerHeight - rect.bottom;
+    const spaceTop = rect.top;
+
+    if (placement === "right" && spaceRight >= calloutW + 20) {
+      cTop = Math.min(maxTop, Math.max(minTop, rect.top));
+      cLeft = Math.min(maxLeft, rect.right + gap);
+      resolvedSide = "right";
+    } else if (placement === "left" && spaceLeft >= calloutW + 20) {
+      cTop = Math.min(maxTop, Math.max(minTop, rect.top));
+      cLeft = Math.max(minLeft, rect.left - calloutW - gap);
+      resolvedSide = "left";
+    } else if (placement === "top" && spaceTop >= calloutH + minTop + gap) {
+      cTop = Math.max(minTop, rect.top - calloutH - gap);
+      cLeft = Math.min(maxLeft, Math.max(minLeft, rect.left + 10));
+      resolvedSide = "top";
+    } else if (spaceBottom >= calloutH + 22) {
+      cTop = Math.min(maxTop, Math.max(minTop, rect.bottom + gap));
+      cLeft = Math.min(maxLeft, Math.max(minLeft, rect.left));
+      resolvedSide = "bottom";
+    } else if (spaceTop >= calloutH + minTop + gap) {
+      cTop = Math.max(minTop, rect.top - calloutH - gap);
+      cLeft = Math.min(maxLeft, Math.max(minLeft, rect.left + 10));
+      resolvedSide = "top";
+    } else if (spaceRight >= calloutW + 20) {
+      cTop = Math.min(maxTop, Math.max(minTop, rect.top + 8));
+      cLeft = Math.min(maxLeft, rect.right + gap);
+      resolvedSide = "right";
+    } else if (spaceLeft >= calloutW + 20) {
+      cTop = Math.min(maxTop, Math.max(minTop, rect.top + 8));
+      cLeft = Math.max(minLeft, rect.left - calloutW - gap);
+      resolvedSide = "left";
     } else {
-      cTop = Math.min(window.innerHeight - calloutH - 16, Math.max(76, rect.bottom + 14));
-      cLeft = Math.min(window.innerWidth - calloutW - 16, Math.max(16, rect.left));
+      // Target spans most of the viewport: dock callout cleanly in bottom-right HUD corner
+      cTop = maxTop;
+      cLeft = maxLeft;
+      resolvedSide = "bottom";
     }
 
+    calloutEl.setAttribute("data-placement", resolvedSide);
     calloutEl.style.top = `${Math.round(cTop)}px`;
     calloutEl.style.left = `${Math.round(cLeft)}px`;
   }
 }
 
-function stopInteractiveDemoTour() {
-  if (_demoStepTimer) {
-    clearTimeout(_demoStepTimer);
-    _demoStepTimer = null;
+function syncDemoControlsState() {
+  const tour = state.activeDemoTour;
+  const scenario = tour ? DEMO_SCENARIOS_CATALOG.find((d) => d.id === tour.scenarioId) : null;
+  const totalSteps = scenario?.steps?.length || 1;
+  const stepIdx = tour?.stepIdx || 0;
+  const isLastStep = stepIdx >= totalSteps - 1;
+  const isCompleted = Boolean(tour?.completed);
+  const isPaused = Boolean(tour?.paused);
+  const paceCfg = getActiveDemoPaceConfig();
+
+  const prevBtn = document.getElementById("btn-demo-step-prev");
+  const pauseBtn = document.getElementById("btn-demo-step-pause");
+  const nextBtn = document.getElementById("btn-demo-step-next");
+  const speedBtn = document.getElementById("btn-demo-speed-toggle");
+
+  const calloutPrevBtn = document.getElementById("btn-callout-prev");
+  const calloutPauseBtn = document.getElementById("btn-callout-pause");
+  const calloutNextBtn = document.getElementById("btn-callout-next");
+  const calloutSpeedBtn = document.getElementById("btn-callout-speed");
+
+  if (prevBtn) prevBtn.disabled = stepIdx === 0 && !isCompleted;
+  if (calloutPrevBtn) calloutPrevBtn.disabled = stepIdx === 0;
+
+  const pauseText = isPaused || paceCfg.baseMs <= 0 ? "▶ Resume" : "⏸ Pause";
+  if (pauseBtn) {
+    pauseBtn.textContent = pauseText;
+    pauseBtn.classList.toggle("hidden", isCompleted);
   }
+  if (calloutPauseBtn) {
+    calloutPauseBtn.textContent = pauseText;
+  }
+
+  if (nextBtn) {
+    if (isCompleted) {
+      nextBtn.textContent = "↺ Replay Demo";
+    } else if (isLastStep) {
+      nextBtn.textContent = "✓ Finish Tour";
+    } else {
+      nextBtn.textContent = "⏭ Next Step";
+    }
+  }
+  if (calloutNextBtn) {
+    calloutNextBtn.textContent = isLastStep ? "✓ Finish Tour" : "⏭ Next";
+  }
+
+  if (speedBtn) speedBtn.textContent = paceCfg.bannerLabel;
+  if (calloutSpeedBtn) calloutSpeedBtn.textContent = paceCfg.calloutLabel;
+}
+
+function completeInteractiveDemoTour(scenario) {
+  stopDemoCountdownLoop();
+  if (_demoCompletionHideTimer) {
+    clearTimeout(_demoCompletionHideTimer);
+    _demoCompletionHideTimer = null;
+  }
+
+  if (state.activeDemoTour) {
+    state.activeDemoTour.completed = true;
+    state.activeDemoTour.paused = true;
+  }
+
+  // 1. Fade out and dismiss the spotlight ring, floating callout bubble, and virtual cursor
+  hideDemoSpotlightAndCalloutOverlays(false);
+
+  // 2. Close any modal opened during the demo and smoothly scroll the UI back to the top
+  closeDemoOpenedModalsAndResetScroll(true);
+
+  // 3. Transition the docked banner into a clean completion summary state
+  const bannerEl = document.getElementById("active-demo-tour-banner");
+  const badgeEl = document.getElementById("demo-tour-badge");
+  const titleEl = document.getElementById("demo-tour-title");
+  const narrationEl = document.getElementById("demo-tour-narration");
+  const dotsEl = document.getElementById("demo-tour-step-dots");
+
+  if (bannerEl && scenario) {
+    bannerEl.classList.remove("hidden");
+    bannerEl.classList.add("is-completed");
+    if (badgeEl) {
+      badgeEl.textContent = `✅ COMPLETED DEMO ${scenario.index} OF ${DEMO_SCENARIOS_CATALOG.length}`;
+    }
+    if (titleEl) {
+      titleEl.textContent = `Completed: ${scenario.shortTitle}`;
+    }
+    if (narrationEl) {
+      narrationEl.textContent =
+        "Tour complete: spotlight dismissed and view returned to the top of the Workbench. Click 'Replay Demo', 'Next Demo ▸', or 'Exit'.";
+    }
+    if (dotsEl) {
+      dotsEl.querySelectorAll(".m3-demo-step-dot").forEach((d) => {
+        d.classList.remove("active");
+        d.classList.add("done");
+      });
+    }
+    updateDemoProgressBars(100);
+    syncDemoControlsState();
+
+    _demoCompletionHideTimer = setTimeout(() => {
+      if (state.activeDemoTour?.completed) {
+        stopInteractiveDemoTour({ scrollToTop: false });
+      }
+    }, 5200);
+  } else {
+    stopInteractiveDemoTour({ scrollToTop: false });
+  }
+}
+window.completeInteractiveDemoTour = completeInteractiveDemoTour;
+
+function stopInteractiveDemoTour(options = {}) {
+  stopDemoCountdownLoop();
+  if (_demoCompletionHideTimer) {
+    clearTimeout(_demoCompletionHideTimer);
+    _demoCompletionHideTimer = null;
+  }
+  const shouldScrollTop = options.scrollToTop !== false;
   state.activeDemoTour = null;
-  document.getElementById("active-demo-tour-banner")?.classList.add("hidden");
-  document.getElementById("demo-spotlight-ring")?.classList.add("hidden");
-  document.getElementById("demo-floating-callout")?.classList.add("hidden");
-  document.getElementById("demo-virtual-cursor")?.classList.add("hidden");
+
+  const bannerEl = document.getElementById("active-demo-tour-banner");
+  bannerEl?.classList.remove("is-completed");
+  bannerEl?.classList.add("hidden");
+
+  hideDemoSpotlightAndCalloutOverlays(true);
+  closeDemoOpenedModalsAndResetScroll(shouldScrollTop);
 }
 window.stopInteractiveDemoTour = stopInteractiveDemoTour;
 
-async function runDemoStep(scenario, stepIdx) {
+async function runDemoStep(scenario, stepIdx, options = {}) {
   if (!scenario || !Array.isArray(scenario.steps) || stepIdx < 0 || stepIdx >= scenario.steps.length) {
     return;
   }
-  if (_demoStepTimer) {
-    clearTimeout(_demoStepTimer);
-    _demoStepTimer = null;
+  stopDemoCountdownLoop();
+  if (_demoCompletionHideTimer) {
+    clearTimeout(_demoCompletionHideTimer);
+    _demoCompletionHideTimer = null;
   }
 
+  const wasPaused = Boolean(state.activeDemoTour?.paused && !state.activeDemoTour?.completed);
   state.activeDemoTour = {
     scenarioId: scenario.id,
     scenarioIndex: scenario.index,
     stepIdx,
-    paused: Boolean(state.activeDemoTour?.paused),
+    paused: wasPaused || _demoPaceMode === "manual",
+    completed: false,
   };
 
   const step = scenario.steps[stepIdx];
@@ -15199,10 +15552,8 @@ async function runDemoStep(scenario, stepIdx) {
   const titleEl = document.getElementById("demo-tour-title");
   const narrationEl = document.getElementById("demo-tour-narration");
   const dotsEl = document.getElementById("demo-tour-step-dots");
-  const prevBtn = document.getElementById("btn-demo-step-prev");
-  const pauseBtn = document.getElementById("btn-demo-step-pause");
 
-  bannerEl?.classList.remove("hidden");
+  bannerEl?.classList.remove("hidden", "is-completed");
   if (badgeEl) {
     badgeEl.textContent = `🎬 DEMO ${scenario.index} OF ${DEMO_SCENARIOS_CATALOG.length} • STEP ${stepIdx + 1} OF ${totalSteps}`;
   }
@@ -15211,12 +15562,6 @@ async function runDemoStep(scenario, stepIdx) {
   }
   if (narrationEl) {
     narrationEl.textContent = step.narration;
-  }
-  if (prevBtn) {
-    prevBtn.disabled = stepIdx === 0;
-  }
-  if (pauseBtn) {
-    pauseBtn.textContent = state.activeDemoTour.paused ? "▶ Resume" : "⏸ Pause";
   }
 
   if (dotsEl) {
@@ -15229,37 +15574,75 @@ async function runDemoStep(scenario, stepIdx) {
     dotsEl.querySelectorAll("[data-demo-step-jump]").forEach((btn) => {
       btn.addEventListener("click", () => {
         const jIdx = parseInt(btn.getAttribute("data-demo-step-jump") || "0", 10);
-        runDemoStep(scenario, jIdx);
+        runDemoStep(scenario, jIdx, { immediateAction: true });
       });
     });
   }
 
+  syncDemoControlsState();
+
+  // Phase 1: Optional pre-action cursor glide when stepping automatically between steps
+  const usePreGlide = !options.immediateAction && stepIdx > 0 && step.preActionSelector;
+  if (usePreGlide) {
+    const preEl = resolveFirstVisibleTargetElement(step.preActionSelector);
+    if (preEl) {
+      scrollTargetIntoComfortZone(preEl);
+      positionDemoSpotlightAndCallout(
+        step.preActionSelector,
+        `STEP ${stepIdx + 1} OF ${totalSteps}`,
+        step.title,
+        step.narration,
+        step.placement || "bottom",
+        { pulseCursor: true }
+      );
+      await new Promise((resolve) => setTimeout(resolve, 480));
+      if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) {
+        return;
+      }
+    }
+  }
+
+  // Phase 2: Execute step action
   try {
     if (typeof step.action === "function") {
       await step.action();
     }
   } catch (_err) {}
 
+  // Phase 3: Scroll target into comfort zone & lock spotlight + callout across smooth-scroll frames
+  const lockSpotlightToCurrentStep = (pulse = false) => {
+    if (!state.activeDemoTour || state.activeDemoTour.completed) return;
+    if (state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) return;
+    const targetEl = resolveFirstVisibleTargetElement(step.targetSelector);
+    if (targetEl && pulse) {
+      scrollTargetIntoComfortZone(targetEl);
+    }
+    positionDemoSpotlightAndCallout(
+      step.targetSelector,
+      `STEP ${stepIdx + 1} OF ${totalSteps}`,
+      step.title,
+      step.narration,
+      step.placement || "bottom",
+      { pulseCursor: pulse }
+    );
+  };
+
   requestAnimationFrame(() => {
-    setTimeout(() => {
-      if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id) return;
-      positionDemoSpotlightAndCallout(
-        step.targetSelector,
-        `STEP ${stepIdx + 1} OF ${totalSteps}`,
-        step.title,
-        step.narration,
-        step.placement || "bottom"
-      );
-    }, 120);
+    setTimeout(() => lockSpotlightToCurrentStep(true), 90);
+    setTimeout(() => lockSpotlightToCurrentStep(false), 320);
+    setTimeout(() => lockSpotlightToCurrentStep(false), 620);
   });
 
-  if (!state.activeDemoTour.paused && stepIdx < totalSteps - 1) {
-    _demoStepTimer = setTimeout(() => {
-      if (state.activeDemoTour && !state.activeDemoTour.paused && state.activeDemoTour.scenarioId === scenario.id) {
-        runDemoStep(scenario, stepIdx + 1);
-      }
-    }, 3900);
-  }
+  // Phase 4: Start smooth countdown progress bar and schedule next step or end-of-tour cleanup
+  const dwellMs = computeDemoStepDwellMs(step);
+  startDemoCountdownLoop(dwellMs, () => {
+    if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id) return;
+    if (stepIdx < totalSteps - 1) {
+      runDemoStep(scenario, stepIdx + 1);
+    } else {
+      completeInteractiveDemoTour(scenario);
+    }
+  });
 }
 
 async function startInteractiveDemoTour(demoId = "demo-1-grounded-deck") {
@@ -15271,9 +15654,10 @@ async function startInteractiveDemoTour(demoId = "demo-1-grounded-deck") {
     scenarioId: scenario.id,
     scenarioIndex: scenario.index,
     stepIdx: 0,
-    paused: false,
+    paused: _demoPaceMode === "manual",
+    completed: false,
   };
-  await runDemoStep(scenario, 0);
+  await runDemoStep(scenario, 0, { immediateAction: true });
 }
 window.startInteractiveDemoTour = startInteractiveDemoTour;
 
@@ -15309,47 +15693,85 @@ function initInteractiveGuidedDemoWalkthroughs() {
     });
   });
 
-  document.getElementById("btn-demo-step-prev")?.addEventListener("click", () => {
-    if (!state.activeDemoTour) return;
-    const scenario = DEMO_SCENARIOS_CATALOG.find((d) => d.id === state.activeDemoTour.scenarioId);
-    if (scenario && state.activeDemoTour.stepIdx > 0) {
-      runDemoStep(scenario, state.activeDemoTour.stepIdx - 1);
-    }
-  });
-
-  document.getElementById("btn-demo-step-next")?.addEventListener("click", () => {
+  const handlePrevStep = () => {
     if (!state.activeDemoTour) return;
     const scenario = DEMO_SCENARIOS_CATALOG.find((d) => d.id === state.activeDemoTour.scenarioId);
     if (!scenario) return;
-    if (state.activeDemoTour.stepIdx < scenario.steps.length - 1) {
-      runDemoStep(scenario, state.activeDemoTour.stepIdx + 1);
-    } else {
-      const nextScenario = DEMO_SCENARIOS_CATALOG[scenario.index % DEMO_SCENARIOS_CATALOG.length];
-      startInteractiveDemoTour(nextScenario.id);
+    if (state.activeDemoTour.completed) {
+      runDemoStep(scenario, scenario.steps.length - 1, { immediateAction: true });
+    } else if (state.activeDemoTour.stepIdx > 0) {
+      runDemoStep(scenario, state.activeDemoTour.stepIdx - 1, { immediateAction: true });
     }
-  });
+  };
 
-  document.getElementById("btn-demo-step-pause")?.addEventListener("click", () => {
+  const handleNextOrFinishStep = () => {
     if (!state.activeDemoTour) return;
-    state.activeDemoTour.paused = !state.activeDemoTour.paused;
-    const pauseBtn = document.getElementById("btn-demo-step-pause");
-    if (pauseBtn) {
-      pauseBtn.textContent = state.activeDemoTour.paused ? "▶ Resume" : "⏸ Pause";
+    const scenario = DEMO_SCENARIOS_CATALOG.find((d) => d.id === state.activeDemoTour.scenarioId);
+    if (!scenario) return;
+    if (state.activeDemoTour.completed) {
+      startInteractiveDemoTour(scenario.id);
+    } else if (state.activeDemoTour.stepIdx < scenario.steps.length - 1) {
+      runDemoStep(scenario, state.activeDemoTour.stepIdx + 1, { immediateAction: true });
+    } else {
+      completeInteractiveDemoTour(scenario);
     }
-    if (state.activeDemoTour.paused && _demoStepTimer) {
-      clearTimeout(_demoStepTimer);
-      _demoStepTimer = null;
-    } else if (!state.activeDemoTour.paused) {
+  };
+
+  const handleTogglePause = () => {
+    if (!state.activeDemoTour || state.activeDemoTour.completed) return;
+    if (_demoPaceMode === "manual") {
+      _demoPaceMode = "normal";
+      state.activeDemoTour.paused = false;
       const scenario = DEMO_SCENARIOS_CATALOG.find((d) => d.id === state.activeDemoTour.scenarioId);
-      if (scenario && state.activeDemoTour.stepIdx < scenario.steps.length - 1) {
-        _demoStepTimer = setTimeout(() => {
-          if (state.activeDemoTour && !state.activeDemoTour.paused) {
+      const step = scenario?.steps?.[state.activeDemoTour.stepIdx];
+      syncDemoControlsState();
+      if (scenario && step) {
+        startDemoCountdownLoop(computeDemoStepDwellMs(step), () => {
+          if (state.activeDemoTour.stepIdx < scenario.steps.length - 1) {
             runDemoStep(scenario, state.activeDemoTour.stepIdx + 1);
+          } else {
+            completeInteractiveDemoTour(scenario);
           }
-        }, 3200);
+        });
+      }
+      return;
+    }
+    state.activeDemoTour.paused = !state.activeDemoTour.paused;
+    syncDemoControlsState();
+  };
+
+  const handleCyclePaceMode = () => {
+    const idx = DEMO_PACE_MODES.findIndex((m) => m.id === _demoPaceMode);
+    const nextMode = DEMO_PACE_MODES[(idx + 1) % DEMO_PACE_MODES.length];
+    _demoPaceMode = nextMode.id;
+    if (state.activeDemoTour && !state.activeDemoTour.completed) {
+      state.activeDemoTour.paused = _demoPaceMode === "manual";
+      const scenario = DEMO_SCENARIOS_CATALOG.find((d) => d.id === state.activeDemoTour.scenarioId);
+      const step = scenario?.steps?.[state.activeDemoTour.stepIdx];
+      if (scenario && step) {
+        startDemoCountdownLoop(computeDemoStepDwellMs(step), () => {
+          if (state.activeDemoTour.stepIdx < scenario.steps.length - 1) {
+            runDemoStep(scenario, state.activeDemoTour.stepIdx + 1);
+          } else {
+            completeInteractiveDemoTour(scenario);
+          }
+        });
       }
     }
-  });
+    syncDemoControlsState();
+  };
+
+  document.getElementById("btn-demo-step-prev")?.addEventListener("click", handlePrevStep);
+  document.getElementById("btn-callout-prev")?.addEventListener("click", handlePrevStep);
+
+  document.getElementById("btn-demo-step-next")?.addEventListener("click", handleNextOrFinishStep);
+  document.getElementById("btn-callout-next")?.addEventListener("click", handleNextOrFinishStep);
+
+  document.getElementById("btn-demo-step-pause")?.addEventListener("click", handleTogglePause);
+  document.getElementById("btn-callout-pause")?.addEventListener("click", handleTogglePause);
+
+  document.getElementById("btn-demo-speed-toggle")?.addEventListener("click", handleCyclePaceMode);
+  document.getElementById("btn-callout-speed")?.addEventListener("click", handleCyclePaceMode);
 
   document.getElementById("btn-demo-next-scenario")?.addEventListener("click", () => {
     const curIdx = state.activeDemoTour?.scenarioIndex || 1;
@@ -15358,7 +15780,22 @@ function initInteractiveGuidedDemoWalkthroughs() {
   });
 
   document.getElementById("btn-demo-exit")?.addEventListener("click", () => {
-    stopInteractiveDemoTour();
+    stopInteractiveDemoTour({ scrollToTop: true });
+  });
+  document.getElementById("btn-callout-close")?.addEventListener("click", () => {
+    stopInteractiveDemoTour({ scrollToTop: true });
+  });
+
+  // Hover-to-Pause on floating callout bubble and docked tour banner
+  const calloutEl = document.getElementById("demo-floating-callout");
+  const bannerEl = document.getElementById("active-demo-tour-banner");
+  [calloutEl, bannerEl].forEach((el) => {
+    el?.addEventListener("mouseenter", () => {
+      _demoHoverPaused = true;
+    });
+    el?.addEventListener("mouseleave", () => {
+      _demoHoverPaused = false;
+    });
   });
 
   // Under-stage Tab 4 action buttons & Image Studio 1-click sample/guardrail pills
@@ -15385,8 +15822,8 @@ function initInteractiveGuidedDemoWalkthroughs() {
 
   document.getElementById("btn-studio-sample-safe")?.addEventListener("click", () => {
     const promptInput = document.getElementById("studio-ai-prompt-input");
-    const bannerEl = document.getElementById("studio-guardrail-result-banner");
-    bannerEl?.classList.add("hidden");
+    const bannerGuardrailEl = document.getElementById("studio-guardrail-result-banner");
+    bannerGuardrailEl?.classList.add("hidden");
     const badgeName = state.currentResult?.badge_name || "Citizenship in the Nation";
     if (promptInput) {
       promptInput.value = `Clean educational Scouting America handbook diagram for ${badgeName}: two adult Scouts BSA instructors in official tan Field Uniform shirts and olive trousers coaching a patrol at a sunny outdoor camp skill station, zero text printed on image.`;
@@ -15399,8 +15836,10 @@ function initInteractiveGuidedDemoWalkthroughs() {
     triggerGuardrailDemoVerification();
   });
 
-  window.addEventListener("resize", () => {
-    if (!state.activeDemoTour) return;
+  // Real-time Spotlight & Callout Repositioning on Both Scroll and Resize
+  const repositionActiveDemoOverlay = () => {
+    _demoScrollRafPending = false;
+    if (!state.activeDemoTour || state.activeDemoTour.completed) return;
     const scenario = DEMO_SCENARIOS_CATALOG.find((d) => d.id === state.activeDemoTour.scenarioId);
     const step = scenario?.steps?.[state.activeDemoTour.stepIdx];
     if (step) {
@@ -15409,10 +15848,24 @@ function initInteractiveGuidedDemoWalkthroughs() {
         `STEP ${state.activeDemoTour.stepIdx + 1} OF ${scenario.steps.length}`,
         step.title,
         step.narration,
-        step.placement || "bottom"
+        step.placement || "bottom",
+        { pulseCursor: false }
       );
     }
-  });
+  };
+
+  window.addEventListener("resize", repositionActiveDemoOverlay);
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (!state.activeDemoTour || state.activeDemoTour.completed) return;
+      if (!_demoScrollRafPending) {
+        _demoScrollRafPending = true;
+        requestAnimationFrame(repositionActiveDemoOverlay);
+      }
+    },
+    { passive: true, capture: true }
+  );
 }
 
 if (document.readyState === "loading") {
@@ -15422,5 +15875,6 @@ if (document.readyState === "loading") {
 } else {
   initInteractiveGuidedDemoWalkthroughs();
 }
+
 
 
