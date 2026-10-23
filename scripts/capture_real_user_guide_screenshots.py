@@ -340,7 +340,7 @@ async def capture_all() -> None:
             codesign_composite = _stitch_vertical_cards(
                 [
                     (
-                        "Under-Stage Drawer Tab 2: Customize Slide & Image Studio (Visual SVG Archetype Cards, Card Theme, Palette & Graphic)",
+                        "Under-Stage Drawer Tab 2: Customize Slide & Image (Visual SVG Archetype Cards, Card Theme, Palette & Graphic)",
                         codesign_shot,
                     ),
                     (

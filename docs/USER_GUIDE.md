@@ -271,7 +271,7 @@ Directly below the 16:9 slide stage sits the **4-Tab Under-Stage Drawer**, which
 ```mermaid
 flowchart TD
     Drawer["4-Tab Under-Stage Drawer<br/>(Directly Below the 16:9 Slide Stage)"] --> Tab1["🎙️ Tab 1: Counselor Teaching Notes<br/>([SAY], [DEMONSTRATE], [ASK SCOUTS])"]
-    Drawer --> Tab2["🎨 Tab 2: Customize Slide & Image Studio<br/>(Slide Layout, Point Style, Palette & Graphic)"]
+    Drawer --> Tab2["🎨 Tab 2: Customize Slide & Image<br/>(Slide Layout, Point Style, Palette & Graphic)"]
     Drawer --> Tab3["✏️ Tab 3: Quick Edit Slide Text<br/>(Edit Title, Caption, Cards & Notes in Place)"]
     Drawer --> Tab4["📊 Tab 4: Multi-Agent Workflow Trace & FinOps<br/>(7-Agent Timeline, Latency, SHA-256 Lock & Cost Ledger)"]
     Tab2 --> Modal["🖼️ Open 4-Tab Image Studio<br/>(Catalog / Web / AI / Upload)"]
@@ -283,7 +283,7 @@ flowchart TD
 
 ![Under-Stage Co-Design Bar, Popup Image Studio & Quick Text Editor](images/codesign-and-image-studio.png)
 
-### Drawer Tab 1: `🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])` & AI Polish
+### Drawer Tab 1: `🎙️ Counselor Teaching Notes` & AI Polish
 
 ![Under-Stage Counselor Teaching Notes and FinOps AI Polish Cost Gate Modal](images/ug-teaching-notes-and-ai-polish-modal.png)
 
@@ -298,7 +298,7 @@ Displays your ready-to-speak **EDGE Method** script for the current slide, built
   - **Session Controls**: Check **Force fresh Gemini Flash generation** if you want to re-polish slides that were already cached, or check **Don't show this FinOps cost popup again during this browser session** for one-click polishing during the rest of your session.
   - **Live Progress & Restore Default**: Click **✨ Polish This Slide** or **✨ Polish All Slides** to generate warm, natural coaching scripts with bold key phrases and a live progress counter. Polished slides display an **✨ AI-Polished** badge, sync into your downloadable `.pptx` file, and include a **↺ Restore Default** button next to **📋 Copy Script**. Whenever you switch a slide's image or edit its text points, the teaching script updates automatically to match.
 
-### Drawer Tab 2: `🎨 Customize Slide & Image Studio`
+### Drawer Tab 2: `🎨 Customize Slide & Image`
 
 In **🎨 Slide Layout, Point Style & Palette (Auto-Applies on Selection)**, any change you make updates the live slide stage immediately and rebuilds your downloadable `.pptx` file in the background:
 
@@ -312,7 +312,7 @@ In **🎨 Slide Layout, Point Style & Palette (Auto-Applies on Selection)**, any
 
 ### Using the 4-Tab Image Studio (`🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)`)
 
-Click **🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)** near the top of the **Customize Slide & Image Studio** panel to open the popup Image Studio window:
+Click **🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)** near the top of the **Customize Slide & Image** panel to open the popup Image Studio window:
 
 1. **🗂️ 1. Badge Image Catalog & Carousel**:
    - Shows thumbnail cards for every image saved for the current Merit Badge, including official BSA pamphlet figures, requirement hero illustrations, diagrams, web search photos, and your own uploaded pictures.
@@ -465,13 +465,13 @@ Click **`🤖 MCP Hub`** in the Top Application Bar if you use AI desktop tools 
 Yes. All 144 Merit Badge requirement outlines and all **3,917 built-in visual assets** (including **2,323 official BSA Pamphlet figures**, **1,306 requirement hero and topic illustrations**, **144 badge emblems**, and **144 pamphlet covers**) are stored locally when running on your laptop. Any Merit Badge decks, workbooks, or extra images you generate before camp stay saved on your computer for offline use.
 
 ### How do I remove an image from a slide if I just want full-width text?
-Select the slide in **📊 1. Slides & Notes**, click the second tab below the slide (**🎨 Customize Slide & Image Studio**), and click the **Full Text** wireframe button (or set **4. Visual Mode** to **None**). The picture is removed and your teaching points expand across the full width of the slide.
+Select the slide in **📊 1. Slides & Notes**, click the second tab below the slide (**🎨 Customize Slide & Image**), and click the **Full Text** wireframe button (or set **4. Visual Mode** to **None**). The picture is removed and your teaching points expand across the full width of the slide.
 
 ### How do I switch a slide back to its original diagram or pamphlet illustration?
-In **🎨 Customize Slide & Image Studio**, click the **Split Visual** or **Big Visual** wireframe button (or click **↺ Restore Original** at the top of the panel). The slide's original pamphlet figure or illustration is restored automatically.
+In **🎨 Customize Slide & Image**, click the **Split Visual** or **Big Visual** wireframe button (or click **↺ Restore Original** at the top of the panel). The slide's original pamphlet figure or illustration is restored automatically.
 
 ### How do I add my own troop photos to a slide?
-Click **🎨 Customize Slide & Image Studio** below the slide stage, click **🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)**, select the fourth tab (**📁 4. File Upload**), pick any `.png`, `.jpg`, `.webp`, or `.gif` photo from your computer, and click **📁 Upload, Cache & Apply Local Image to Slide (`$0.00 USD`)**.
+Click **🎨 Customize Slide & Image** below the slide stage, click **🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)**, select the fourth tab (**📁 4. File Upload**), pick any `.png`, `.jpg`, `.webp`, or `.gif` photo from your computer, and click **📁 Upload, Cache & Apply Local Image to Slide (`$0.00 USD`)**.
 
 ### Is my contact information kept private?
 Yes. Your Counselor Name, Troop, Location or ZIP code, Email, and Phone are saved locally in your browser and on your own computer so you do not have to retype them. They are placed only onto your Cover Slide, Parent Welcome Letter, and Blue Card Sign-Off Sheet, and are never shared with outside services or usage logs.

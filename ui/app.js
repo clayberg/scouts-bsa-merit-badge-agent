@@ -15449,7 +15449,7 @@ const DEMO_SCENARIOS_CATALOG = [
       {
         title: "Co-Design Layout 1 of 3: Switching to 'Full Text' (Concept Text Slide)",
         narration:
-          "Opening Under-Stage Tab 2 (Customize Slide & Image Studio) and clicking 'Full Text' (CONCEPT_TEXT_SLIDE) to expand the teaching points across the full 16:9 canvas.",
+          "Opening Under-Stage Tab 2 (Customize Slide & Image) and clicking 'Full Text' (CONCEPT_TEXT_SLIDE) to expand the teaching points across the full 16:9 canvas.",
         preActionSelector: '[data-arch="CONCEPT_TEXT_SLIDE"], [data-understage-tab="codesign"]',
         targetSelector: "#widescreen-slide-stage",
         placement: "top",

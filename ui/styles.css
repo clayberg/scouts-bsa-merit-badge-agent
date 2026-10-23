@@ -2111,23 +2111,26 @@ html, body {
 .m3-understage-tabs {
   display: flex;
   align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+  gap: 4px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   background: var(--md-sys-color-surface-container-low);
-  padding: 5px;
+  padding: 4px;
   border-radius: var(--md-sys-shape-corner-pill);
   border: 1px solid var(--md-sys-color-outline-variant);
 }
 
 .m3-understage-tab-btn {
-  padding: 7px 15px;
+  padding: 6px 11px;
   border-radius: var(--md-sys-shape-corner-pill);
   border: none;
   background: transparent;
   color: var(--md-sys-color-on-surface-variant);
   font-family: var(--font-sans);
-  font-size: 0.80rem;
+  font-size: 0.77rem;
   font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
   cursor: pointer;
   transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease, opacity 150ms ease;
 }
