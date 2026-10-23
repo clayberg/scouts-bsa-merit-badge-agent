@@ -518,7 +518,7 @@ OFFICIAL_BSA_MERIT_BADGES_CATALOG: List[Dict[str, object]] = [
     )
 ]
 
-ALL_OFFICIAL_BADGE_NAMES: Set[str] = {
+ALL_OFFICIAL_BADGE_NAMES: Dict[str, str] = {
     str(item["badge_name"]).lower(): str(item["badge_name"])
     for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG
 }
@@ -746,6 +746,37 @@ def get_model_provider(provider_name: Optional[str] = None) -> ModelProvider:
     if resolved in ("litellm", "litellm_multi_provider", "secondary"):
         return SecondaryLiteLLMModelProvider()
     return ModelProvider()
+
+
+def get_effective_gemini_api_key() -> str:
+    """Resolves the active Gemini API key from environment or Secret Manager without hardcoded secrets."""
+    raw = (os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or "").strip().strip('"').strip("'")
+    if raw and "your-" not in raw.lower() and "placeholder" not in raw.lower():
+        return raw
+    return get_secret("GEMINI_API_KEY", default="")
+
+
+try:
+    from pydantic_settings import BaseSettings as _PydanticBaseSettings  # type: ignore
+except ImportError:
+    from pydantic import BaseModel as _PydanticBaseSettings  # type: ignore
+
+
+class AppConfig(_PydanticBaseSettings):
+    """Typed runtime configuration contract for the Scouts BSA Merit Badge Workbench."""
+
+    google_cloud_project: str = os.environ.get("GOOGLE_CLOUD_PROJECT", "clayberg-genai-test")
+    google_cloud_location: str = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+    auth_required: bool = os.environ.get("AUTH_REQUIRED", "false").lower() in ("1", "true", "yes")
+    require_hitl_confirmation: bool = os.environ.get("REQUIRE_HITL_CONFIRMATION", "false").lower() in (
+        "1",
+        "true",
+        "yes",
+    )
+    local_sqlite_db_path: str = os.environ.get("LOCAL_SQLITE_DB_PATH", "scouts_bsa_sessions.db")
+    cloud_sql_dsn: str = os.environ.get("CLOUD_SQL_DSN", "")
+    rate_limit_rpm: int = int(os.environ.get("BSA_RATE_LIMIT_RPM", "600"))
+    rate_limit_burst: int = int(os.environ.get("BSA_RATE_LIMIT_BURST", "300"))
 
 
 

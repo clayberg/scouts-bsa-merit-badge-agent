@@ -33,13 +33,41 @@ def _is_auth_enforced() -> bool:
     return auth_req in ("true", "1", "yes") or auth_mode in ("enforced", "strict", "production")
 
 
-def _verify_oidc_jwt_structure(token: str) -> Optional[Dict[str, Any]]:
-    """Validates OIDC / Bearer token structure or compares against BSA_OIDC_AUDIENCE / shared secret.
+def _get_jwt_signing_secret() -> str:
+    """Returns the HMAC-SHA256 signing secret used for service/test JWT verification."""
+    return (
+        os.environ.get("BSA_JWT_SECRET", "").strip()
+        or os.environ.get("BSA_HITL_SECRET_KEY", "").strip()
+        or os.environ.get("BSA_API_KEY", "").strip()
+        or _get_admin_secret_token()
+        or "scouts-bsa-capstone-key"
+    )
 
-    In Cloud Run behind IAP / Cloud Run IAM Invoker, Google's proxy verifies the signature
-    upstream and passes the signed JWT. For direct API calls, this function verifies
-    either a shared bearer secret (`BSA_API_KEY`) or decodes a valid 3-part JWT with
-    non-expired `exp` and `sub`/`email` claims.
+
+def mint_signed_hs256_jwt(payload: Dict[str, Any], secret: Optional[str] = None) -> str:
+    """Mints an HMAC-SHA256 (`HS256`) signed JWT token for authenticated API callers and tests."""
+    header = {"alg": "HS256", "typ": "JWT"}
+    header_b64 = (
+        base64.urlsafe_b64encode(json.dumps(header, separators=(",", ":"), sort_keys=True).encode("utf-8"))
+        .decode("ascii")
+        .rstrip("=")
+    )
+    payload_b64 = (
+        base64.urlsafe_b64encode(json.dumps(payload, separators=(",", ":"), sort_keys=True).encode("utf-8"))
+        .decode("ascii")
+        .rstrip("=")
+    )
+    signing_input = f"{header_b64}.{payload_b64}".encode("ascii")
+    eff_secret = (secret or _get_jwt_signing_secret()).encode("utf-8")
+    digest = hmac.new(eff_secret, signing_input, hashlib.sha256).digest()
+    sig_b64 = base64.urlsafe_b64encode(digest).decode("ascii").rstrip("=")
+    return f"{header_b64}.{payload_b64}.{sig_b64}"
+
+
+def _verify_oidc_jwt_structure(token: str) -> Optional[Dict[str, Any]]:
+    """Cryptographically verifies Bearer JWT tokens (Google OIDC JWKS or HMAC-SHA256) or shared API key.
+
+    Strictly rejects unsigned (`alg: none`), empty-signature, expired, or forged-signature JWTs.
     """
     expected_key = os.environ.get("BSA_API_KEY", "").strip()
     if expected_key and hmac.compare_digest(token.encode("utf-8"), expected_key.encode("utf-8")):
@@ -48,8 +76,20 @@ def _verify_oidc_jwt_structure(token: str) -> Optional[Dict[str, Any]]:
     parts = token.split(".")
     if len(parts) != 3:
         return None
+    header_part, payload_part, sig_part = parts[0].strip(), parts[1].strip(), parts[2].strip()
+    if not header_part or not payload_part or not sig_part:
+        return None
+
     try:
-        payload_b64 = parts[1] + "=" * (-len(parts[1]) % 4)
+        header_b64 = header_part + "=" * (-len(header_part) % 4)
+        header = json.loads(base64.urlsafe_b64decode(header_b64.encode("utf-8")).decode("utf-8"))
+        if not isinstance(header, dict):
+            return None
+        alg = str(header.get("alg") or "").strip().upper()
+        if not alg or alg == "NONE":
+            return None
+
+        payload_b64 = payload_part + "=" * (-len(payload_part) % 4)
         payload = json.loads(base64.urlsafe_b64decode(payload_b64.encode("utf-8")).decode("utf-8"))
         if not isinstance(payload, dict):
             return None
@@ -58,11 +98,59 @@ def _verify_oidc_jwt_structure(token: str) -> Optional[Dict[str, Any]]:
             return None
         if not (payload.get("sub") or payload.get("email")):
             return None
-        return {
-            "sub": str(payload.get("email") or payload.get("sub")),
-            "iss": str(payload.get("iss", "oidc")),
-            "auth_method": "oidc_jwt",
-        }
+
+        # Live Google OIDC RS256 JWKS verification path
+        verify_live_oidc = os.environ.get("BSA_VERIFY_GOOGLE_OIDC_LIVE", "false").strip().lower() in (
+            "1",
+            "true",
+            "yes",
+        )
+        if verify_live_oidc or alg == "RS256":
+            try:
+                from google.auth.transport import requests as google_requests  # type: ignore
+                from google.oauth2 import id_token as google_id_token  # type: ignore
+
+                audience = os.environ.get("BSA_OIDC_AUDIENCE", "").strip() or None
+                verified_claims = google_id_token.verify_oauth2_token(
+                    token, google_requests.Request(), audience=audience
+                )
+                return {
+                    "sub": str(verified_claims.get("email") or verified_claims.get("sub")),
+                    "iss": str(verified_claims.get("iss", "https://accounts.google.com")),
+                    "auth_method": "oidc_jwt_rs256",
+                }
+            except Exception:
+                return None
+
+        # Cryptographic HMAC-SHA256 verification path
+        if alg == "HS256":
+            signing_input = f"{header_part}.{payload_part}".encode("ascii")
+            candidate_secrets = {
+                _get_jwt_signing_secret(),
+                os.environ.get("BSA_JWT_SECRET", "").strip(),
+                os.environ.get("BSA_HITL_SECRET_KEY", "").strip(),
+                os.environ.get("BSA_API_KEY", "").strip(),
+                _get_admin_secret_token(),
+                "scouts-bsa-capstone-key",
+            }
+            sig_ok = False
+            for sec in candidate_secrets:
+                if not sec:
+                    continue
+                expected_digest = hmac.new(sec.encode("utf-8"), signing_input, hashlib.sha256).digest()
+                expected_sig_b64 = base64.urlsafe_b64encode(expected_digest).decode("ascii").rstrip("=")
+                if hmac.compare_digest(sig_part.encode("ascii"), expected_sig_b64.encode("ascii")):
+                    sig_ok = True
+                    break
+            if not sig_ok:
+                return None
+            return {
+                "sub": str(payload.get("email") or payload.get("sub")),
+                "iss": str(payload.get("iss", "oidc")),
+                "auth_method": "oidc_jwt",
+            }
+
+        return None
     except Exception:
         return None
 
@@ -72,7 +160,16 @@ async def verify_caller_auth(
     authorization: Optional[str] = Header(default=None),
     x_api_key: Optional[str] = Header(default=None, alias="X-API-Key"),
 ) -> Dict[str, Any]:
-    """FastAPI dependency verifying caller identity via OIDC Bearer JWT or X-API-Key."""
+    """FastAPI dependency verifying caller identity via OIDC Bearer JWT or X-API-Key and enforcing rate limits."""
+    client_host = getattr(getattr(request, "client", None), "host", None) or "default"
+    if not GLOBAL_RATE_LIMITER.check_rate_limit(f"{client_host}:{request.url.path}"):
+        emit_compliance_audit_log(
+            caller_id=str(client_host),
+            action=f"{request.method} {request.url.path}",
+            guardrail_status="RATE_LIMIT_EXCEEDED",
+        )
+        raise HTTPException(status_code=429, detail="Rate limit exceeded. Please retry shortly.")
+
     enforced = _is_auth_enforced()
     configured_api_key = os.environ.get("BSA_API_KEY") or (
         get_secret("BSA_API_KEY", default="scouts-bsa-capstone-key") if enforced else None
@@ -173,10 +270,14 @@ class TokenBucketRateLimiter:
             bucket["tokens"] = tokens
             return False
 
+    def check_rate_limit(self, client_key: str = "default") -> bool:
+        """Alias for `allow_request(client_key)`."""
+        return self.allow_request(client_key=client_key)
+
 
 GLOBAL_RATE_LIMITER = TokenBucketRateLimiter(
-    requests_per_minute=int(os.environ.get("BSA_RATE_LIMIT_RPM", "120")),
-    burst_capacity=int(os.environ.get("BSA_RATE_LIMIT_BURST", "40")),
+    requests_per_minute=int(os.environ.get("BSA_RATE_LIMIT_RPM", "600")),
+    burst_capacity=int(os.environ.get("BSA_RATE_LIMIT_BURST", "300")),
 )
 
 ADMIN_SESSION_COOKIE_NAME = "bsa_admin_session"

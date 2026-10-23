@@ -425,29 +425,98 @@ async def a2a_cancel_task(
 # 2. COUNSELOR WORKBENCH API & SSE STREAMING ENDPOINTS
 # ==============================================================================
 
+ASYNC_RENDER_CONCURRENCY_SEMAPHORE = asyncio.Semaphore(4)
+
+
+def _validate_safe_pptx_output_path(output_path: Optional[str], default_filename: str = "Deck.pptx") -> str:
+    """Confines any caller-supplied `.pptx` output path to `GENERATED_DECKS_DIR`, `ASSETS_DIR`, or system tempdir."""
+    import tempfile
+
+    if not output_path or not str(output_path).strip():
+        return str((GENERATED_DECKS_DIR / default_filename).resolve())
+    cand = Path(str(output_path).strip()).resolve()
+    allowed_roots = (
+        GENERATED_DECKS_DIR.resolve(),
+        ASSETS_DIR.resolve(),
+        Path(tempfile.gettempdir()).resolve(),
+    )
+    for root in allowed_roots:
+        try:
+            cand.relative_to(root)
+            return str(cand)
+        except ValueError:
+            continue
+    safe_name = os.path.basename(str(output_path).strip()) or default_filename
+    if not safe_name.lower().endswith(".pptx"):
+        safe_name += ".pptx"
+    return str((GENERATED_DECKS_DIR / safe_name).resolve())
+
+
+async def _async_rebuild_deck_pptx(**kwargs: Any) -> Dict[str, Any]:
+    """Non-blocking, semaphore-bounded wrapper around `rebuild_deck_pptx_from_storyboard`."""
+    from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
+
+    if "output_path" in kwargs:
+        kwargs["output_path"] = _validate_safe_pptx_output_path(kwargs.get("output_path"))
+    async with ASYNC_RENDER_CONCURRENCY_SEMAPHORE:
+        return await asyncio.to_thread(rebuild_deck_pptx_from_storyboard, **kwargs)
+
+
+def _load_or_build_cached_default_deck(badge_name: str, counselor_info: Any = None) -> Dict[str, Any]:
+    """Loads or builds the default teaching slide deck for `badge_name`."""
+    from src.agents.coordinator import run_merit_badge_workflow
+
+    c_dict = (
+        counselor_info.model_dump()
+        if hasattr(counselor_info, "model_dump")
+        else (counselor_info if isinstance(counselor_info, dict) else None)
+    )
+    return run_merit_badge_workflow(badge_name=badge_name, counselor_info=c_dict)
+
+
 def _to_web_asset_url(fs_path: Optional[str]) -> Optional[str]:
-    """Converts a local filesystem path under assets/ or deliverables/ into a web-servable URL."""
+    """Converts a local filesystem path under allowlisted asset/deliverable directories into a web-servable URL."""
+    import tempfile
+
     if not fs_path:
         return None
     p = Path(fs_path)
     try:
-        rel_assets = p.resolve().relative_to(ASSETS_DIR.resolve())
+        resolved_p = p.resolve()
+    except Exception:
+        return None
+    try:
+        rel_assets = resolved_p.relative_to(ASSETS_DIR.resolve())
         return f"/assets/{rel_assets.as_posix()}"
     except Exception:
         pass
     try:
-        rel_deliv = p.resolve().relative_to(GENERATED_DECKS_DIR.resolve())
+        rel_deliv = resolved_p.relative_to(GENERATED_DECKS_DIR.resolve())
         return f"/deliverables/{rel_deliv.as_posix()}"
     except Exception:
         pass
-    if p.exists():
+    allowed_copy_roots = (
+        ASSETS_DIR.resolve(),
+        GENERATED_DECKS_DIR.resolve(),
+        (PROJECT_ROOT / "data").resolve(),
+        Path(tempfile.gettempdir()).resolve(),
+    )
+    is_allowed_source = False
+    for root in allowed_copy_roots:
+        try:
+            resolved_p.relative_to(root)
+            is_allowed_source = True
+            break
+        except ValueError:
+            continue
+    if is_allowed_source and resolved_p.is_file():
         # Copy into assets/diagrams so it is web-servable
-        dest = GENERATED_DIAGRAMS_DIR / p.name
-        if p.resolve() != dest.resolve():
+        dest = GENERATED_DIAGRAMS_DIR / resolved_p.name
+        if resolved_p != dest.resolve():
             import shutil
-            if not dest.exists() or dest.stat().st_size != p.stat().st_size or dest.stat().st_mtime < p.stat().st_mtime:
-                shutil.copyfile(str(p), str(dest))
-        return f"/assets/diagrams/{p.name}"
+            if not dest.exists() or dest.stat().st_size != resolved_p.stat().st_size or dest.stat().st_mtime < resolved_p.stat().st_mtime:
+                shutil.copyfile(str(resolved_p), str(dest))
+        return f"/assets/diagrams/{resolved_p.name}"
     return None
 
 
@@ -610,6 +679,8 @@ async def api_upload_troop_logo(
         raw_bytes = base64.b64decode(b64_str)
     except Exception as exc:
         raise HTTPException(status_code=400, detail=f"Invalid image data: {exc}")
+    if len(raw_bytes) > 5 * 1024 * 1024:
+        raise HTTPException(status_code=413, detail="Uploaded logo exceeds maximum allowed size of 5 MB.")
 
     dest_path = custom_logos_dir / safe_filename
     dest_path.write_bytes(raw_bytes)
@@ -701,7 +772,7 @@ async def api_run_workflow(
                 out_file = str(
                     GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}{opt_slug}_{prof.template_id}_Merit_Badge_Deck.pptx"
                 )
-                rebuild_deck_pptx_from_storyboard(
+                await _async_rebuild_deck_pptx(
                     badge_name=req.badge_name,
                     storyboard_slides=sb_slides,
                     output_path=out_file,
@@ -734,16 +805,20 @@ async def api_run_workflow(
 
 
 _LATEST_STREAM_GEN_ID = 0
+_LATEST_STREAM_BY_SESSION: Dict[str, int] = {}
 
 
 def _scrub_sse_event_payload_egress(ev: Dict[str, Any]) -> Dict[str, Any]:
     """Bidirectional egress guardrail for streaming SSE events (Pitfall #9).
 
     Redacts any accidental PII or internal file-path traces from outgoing SSE
-    stage messages, error strings, and agent_trace summaries while preserving
-    legitimate curriculum content and the local counselor cover card metadata.
+    stage messages, error strings, storyboard, research_artifact, and agent_trace
+    summaries while preserving legitimate curriculum content.
     """
-    from src.observability.logging_setup import scrub_pii_before_sink
+    from src.observability.logging_setup import (
+        scrub_pii_before_sink,
+        scrub_pii_from_structure,
+    )
 
     if not isinstance(ev, dict):
         return {}
@@ -757,19 +832,28 @@ def _scrub_sse_event_payload_egress(ev: Dict[str, Any]) -> Dict[str, Any]:
         safe_ev["error"] = err_copy
     elif isinstance(safe_ev.get("error"), str):
         safe_ev["error"] = scrub_pii_before_sink(safe_ev["error"])
+    if "storyboard" in safe_ev:
+        safe_ev["storyboard"] = scrub_pii_from_structure(safe_ev["storyboard"])
+    if "research_artifact" in safe_ev:
+        safe_ev["research_artifact"] = scrub_pii_from_structure(safe_ev["research_artifact"])
 
     res_obj = safe_ev.get("result")
-    if isinstance(res_obj, dict) and isinstance(res_obj.get("agent_trace"), list):
-        cleaned_trace = []
-        for step in res_obj["agent_trace"]:
-            if isinstance(step, dict):
-                s_copy = dict(step)
-                if isinstance(s_copy.get("summary"), str):
-                    s_copy["summary"] = scrub_pii_before_sink(s_copy["summary"])
-                cleaned_trace.append(s_copy)
-            else:
-                cleaned_trace.append(step)
-        res_obj["agent_trace"] = cleaned_trace
+    if isinstance(res_obj, dict):
+        if "storyboard" in res_obj:
+            res_obj["storyboard"] = scrub_pii_from_structure(res_obj["storyboard"])
+        if "research_artifact" in res_obj:
+            res_obj["research_artifact"] = scrub_pii_from_structure(res_obj["research_artifact"])
+        if isinstance(res_obj.get("agent_trace"), list):
+            cleaned_trace = []
+            for step in res_obj["agent_trace"]:
+                if isinstance(step, dict):
+                    s_copy = dict(step)
+                    if isinstance(s_copy.get("summary"), str):
+                        s_copy["summary"] = scrub_pii_before_sink(s_copy["summary"])
+                    cleaned_trace.append(s_copy)
+                else:
+                    cleaned_trace.append(step)
+            res_obj["agent_trace"] = cleaned_trace
     safe_ev["egress_pii_scrubbed"] = True
     return safe_ev
 
@@ -793,11 +877,14 @@ async def api_stream_workflow(
     template_id: Optional[str] = Query(None),
     layout_style_preset: Optional[str] = Query(None),
     option_track: Optional[str] = Query("ALL"),
+    session_id: Optional[str] = Query(None),
 ) -> StreamingResponse:
     """Streams live Server-Sent Events (SSE) as each agent completes its work."""
     global _LATEST_STREAM_GEN_ID
     _LATEST_STREAM_GEN_ID += 1
     my_stream_id = _LATEST_STREAM_GEN_ID
+    stream_scope_key = str(session_id or f"{counselor_name}:{troop_affiliation}:{badge_name}").strip()
+    _LATEST_STREAM_BY_SESSION[stream_scope_key] = my_stream_id
 
     counselor_info = {
         "counselor_name": counselor_name,
@@ -809,7 +896,7 @@ async def api_stream_workflow(
     }
 
     async def _should_abort_stream() -> bool:
-        if my_stream_id != _LATEST_STREAM_GEN_ID:
+        if _LATEST_STREAM_BY_SESSION.get(stream_scope_key, my_stream_id) != my_stream_id:
             return True
         try:
             if await request.is_disconnected():
@@ -903,7 +990,7 @@ async def api_stream_workflow(
                             out_file = str(
                                 GENERATED_DECKS_DIR / f"{badge_name.strip().replace(' ', '_')}{opt_slug}_{prof.template_id}_Merit_Badge_Deck.pptx"
                             )
-                            rebuild_deck_pptx_from_storyboard(
+                            await _async_rebuild_deck_pptx(
                                 badge_name=badge_name,
                                 storyboard_slides=sb_slides,
                                 output_path=out_file,
@@ -1153,7 +1240,7 @@ async def api_regenerate_slide(
                 GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Regen_Merit_Badge_Deck.pptx"
             )
             eff_tpl_id = str(req.template_id or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "") or "default_workbench").strip() or "default_workbench"
-            rebuild_deck_pptx_from_storyboard(
+            await _async_rebuild_deck_pptx(
                 badge_name=req.badge_name,
                 storyboard_slides=slides_copy,
                 output_path=out_file,
@@ -1411,7 +1498,7 @@ def _invoke_gemini_flash_polish_sync(
                             max_output_tokens=4096,
                         )
                     resp = client.models.generate_content(
-                        model="gemini-2.5-flash",
+                        model=select_model_for_task("coordinator"),
                         contents=prompt,
                         config=gen_cfg,
                     )
@@ -1440,7 +1527,8 @@ def _invoke_gemini_flash_polish_sync(
     # Path 2: Vertex AI Express Mode Key (AQ.*) via direct REST (avoids google-genai _gaos._hooks bug)
     if has_valid_key and raw_key.startswith("AQ."):
         try:
-            url = f"https://aiplatform.googleapis.com/v1/publishers/google/models/gemini-2.5-flash:generateContent?key={raw_key}"
+            flash_model_id = select_model_for_task("coordinator")
+            url = f"https://aiplatform.googleapis.com/v1/publishers/google/models/{flash_model_id}:generateContent?key={raw_key}"
             payload = {
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
                 "generationConfig": {
@@ -1486,7 +1574,7 @@ def _invoke_gemini_flash_polish_sync(
 
             client = genai.Client(api_key=raw_key, http_options={"timeout": 20000, "retry_options": {"attempts": 1}})
             resp = client.models.generate_content(
-                model="gemini-2.5-flash",
+                model=select_model_for_task("coordinator"),
                 contents=prompt,
                 config=genai_types.GenerateContentConfig(
                     temperature=0.6,
@@ -1985,7 +2073,7 @@ async def api_polish_slide_speaker_notes(
                 GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Polished_Merit_Badge_Deck.pptx"
             )
             eff_tpl_id = str(req.template_id or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "") or "default_workbench").strip() or "default_workbench"
-            rebuild_deck_pptx_from_storyboard(
+            await _async_rebuild_deck_pptx(
                 badge_name=req.badge_name,
                 storyboard_slides=slides_copy,
                 output_path=out_file,
@@ -2099,7 +2187,7 @@ async def api_polish_deck_speaker_notes_batch(
                 GENERATED_DECKS_DIR / f"{req.badge_name.strip().replace(' ', '_')}_{tier}_Deck_Polished_Merit_Badge_Deck.pptx"
             )
             eff_tpl_id = str(req.template_id or (req.storyboard_slides[0].get("template_id") if req.storyboard_slides else "") or "default_workbench").strip() or "default_workbench"
-            rebuild_deck_pptx_from_storyboard(
+            await _async_rebuild_deck_pptx(
                 badge_name=req.badge_name,
                 storyboard_slides=slides_copy,
                 output_path=out_file,
@@ -2232,12 +2320,14 @@ async def api_estimate_slide_polish_cost(
 @app.get("/api/v1/qr.svg")
 async def api_generate_qr_svg(
     url: str = Query("https://www.scouting.org/skills/merit-badges/", description="Target URL to encode as an ISO/IEC 18004 QR Code SVG."),
+    data: Optional[str] = Query(None, description="Optional alias for `url` query parameter."),
     size: int = Query(96, ge=48, le=512, description="Rendered SVG width/height in pixels."),
 ) -> Response:
     """Returns a standard-compliant, phone-camera-scannable ISO/IEC 18004 QR Code SVG for `url`."""
     from src.tools.qr_generator import render_qr_svg
 
-    svg_str = render_qr_svg(url=url, size_px=size)
+    effective_url = str(data or url or "https://www.scouting.org/skills/merit-badges/").strip()
+    svg_str = render_qr_svg(url=effective_url, size_px=size)
     return Response(content=svg_str, media_type="image/svg+xml")
 
 
@@ -2427,7 +2517,7 @@ async def api_list_curated_documentation() -> Dict[str, Any]:
     return {
         "status": "SUCCESS",
         "github_repo_url": GITHUB_REPO_BASE_URL,
-        "default_doc_id": "user-guide",
+        "default_doc_id": "user_guide",
         "total_count": len(items),
         "user_docs": [d for d in items if d["category"] == "user"],
         "engineering_docs": [d for d in items if d["category"] == "engineering"],
@@ -2531,7 +2621,7 @@ async def api_export_slide_deck_to_google_slides(
                 / f"{req.badge_name.strip().replace(' ', '_')}_{eff_tpl_id}_{req.beautification_tier}_GoogleSlides_Export.pptx"
             )
             if req.storyboard_slides:
-                rebuild_deck_pptx_from_storyboard(
+                await _async_rebuild_deck_pptx(
                     badge_name=req.badge_name,
                     storyboard_slides=req.storyboard_slides,
                     output_path=out_file,
@@ -4147,6 +4237,7 @@ async def api_list_workspaces(
     badge_name: Optional[str] = None,
     camp_bundle_tag: Optional[str] = None,
     include_archived: bool = False,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
     """Lists saved multi-badge counselor deck workspaces."""
     from src.memory.session_store import list_counselor_workspaces
@@ -4176,7 +4267,10 @@ async def api_save_workspace(
 
 @app.get("/api/workspaces/{workspace_id}")
 @app.get("/api/v1/workspaces/{workspace_id}")
-async def api_get_workspace(workspace_id: str) -> Dict[str, Any]:
+async def api_get_workspace(
+    workspace_id: str,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
     """Retrieves a full counselor deck workspace (including storyboard, Blue Card roster, and class prep)."""
     from src.memory.session_store import get_counselor_workspace
 
@@ -4263,7 +4357,10 @@ async def api_mcp_server_info() -> Dict[str, Any]:
 
 @app.post("/mcp")
 @app.post("/api/v1/mcp")
-async def api_mcp_jsonrpc_endpoint(request: Request) -> Dict[str, Any]:
+async def api_mcp_jsonrpc_endpoint(
+    request: Request,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
     """Handles Model Context Protocol (MCP) JSON-RPC 2.0 requests (`initialize`, `tools/list`, `tools/call`, `resources/list`, `resources/read`, `prompts/list`, `prompts/get`)."""
     from src.mcp_server import handle_mcp_jsonrpc_request
 
@@ -4276,7 +4373,9 @@ async def api_mcp_jsonrpc_endpoint(request: Request) -> Dict[str, Any]:
 
 @app.get("/mcp/sse")
 @app.get("/api/v1/mcp/sse")
-async def api_mcp_sse_endpoint() -> StreamingResponse:
+async def api_mcp_sse_endpoint(
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> StreamingResponse:
     """Provides the Model Context Protocol SSE discovery stream pointing clients to POST `/mcp`."""
     from src.mcp_server import get_mcp_server_manifest
 

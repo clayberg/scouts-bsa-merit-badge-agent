@@ -457,7 +457,7 @@
                 Scoutmaster Bob &bull; Troop 123, My Council
               </span>
             </div>
-            <span class="m3-chip m3-chip-primary" style="font-size:0.68rem; padding:3px 9px; flex-shrink:0;">Edit ▾</span>
+            <span id="profile-accordion-chevron" class="m3-chip m3-chip-primary" style="font-size:0.68rem; padding:3px 9px; flex-shrink:0;">Edit ▾</span>
           </summary>
 
           <div class="m3-profile-accordion-body">
@@ -559,6 +559,89 @@
                 <span class="m3-inline-icon" style="font-size:14px;" aria-hidden="true">↗</span>
                 Resource Guide
               </a>
+              <!-- INTERACTIVE GUIDED DEMO LAUNCHER MENU -->
+              <div class="m3-hero-demo-dropdown-wrap" id="hero-demo-dropdown-wrap" style="position:relative; display:inline-flex;">
+                <button
+                  type="button"
+                  class="m3-btn m3-btn-tonal m3-hero-demo-btn"
+                  id="btn-hero-demo-menu-toggle"
+                  aria-haspopup="menu"
+                  aria-expanded="false"
+                  aria-controls="hero-demo-dropdown-menu"
+                  title="Launch an interactive, narrated step-by-step guided walkthrough with live spotlight callouts"
+                >
+                  <span class="m3-inline-icon" style="font-size:14px;" aria-hidden="true">🎬</span>
+                  <span>Demo</span>
+                  <span aria-hidden="true" style="font-size:0.68rem; opacity:0.9;">▾</span>
+                </button>
+                <div class="m3-hero-demo-menu hidden" id="hero-demo-dropdown-menu" role="menu" aria-label="Interactive Guided Feature Walkthroughs">
+                  <div class="m3-hero-demo-menu-header">
+                    <div>
+                      <div class="m3-hero-demo-menu-kicker">🎬 INTERACTIVE GUIDED TOURS</div>
+                      <div class="m3-hero-demo-menu-subtitle">Narrated step-by-step walkthroughs with live cursor &amp; spotlight callouts</div>
+                    </div>
+                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-hero-demo-menu" style="padding:2px 8px; font-size:0.72rem;">✕</button>
+                  </div>
+                  <div class="m3-hero-demo-section-label">Featured Walkthroughs</div>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-1-grounded-deck" id="btn-demo-1-grounded-deck">
+                    <span class="m3-hero-demo-item-icon">🦅</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">1. Eagle-Required Badge &amp; Local Regional Grounding (Citizenship in the Nation)</span>
+                      <span class="m3-hero-demo-item-desc">Selects Citizenship in the Nation, confirms Local Grounding (Middleton, MA), and steps through Requirement 8 slides showing Massachusetts, both U.S. Senators, the local House Rep, and the Constituent Letter template.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-2-multi-option-golf" id="btn-demo-2-multi-option-golf">
+                    <span class="m3-hero-demo-item-icon">⛳</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">2. Multi-Option Badge &amp; 3-Level Sub-Requirement Tree (Golf — Option B: Disc Golf)</span>
+                      <span class="m3-hero-demo-item-desc">Loads Golf Option B (Disc Golf), steps through unrolled 3-level sub-requirements (2b(1), 2b(3), 2b(5)(a)-(d) grips &amp; X-Step drives), and inspects the Requirements &amp; Blue Cards matrix.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-3-guardrail-and-trace" id="btn-demo-3-guardrail-and-trace">
+                    <span class="m3-hero-demo-item-icon">🛡️</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">3. Youth Protection Guardrail, Workflow Trace &amp; FinOps Ledger</span>
+                      <span class="m3-hero-demo-item-desc">Opens the Multi-Agent Workflow Trace &amp; FinOps drawer to inspect the 7-agent ADK timeline, Honest Dual Latency, and $0.184/$0.006 cost table, then triggers a live BSA Youth Protection &amp; PII Guardrail intercept.</span>
+                    </span>
+                  </button>
+                  <div class="m3-hero-demo-section-label">More Feature Walkthroughs</div>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-4-layout-and-templates" id="btn-demo-4-layout-and-templates">
+                    <span class="m3-hero-demo-item-icon">🎨</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">4. Live Layout Style Switcher &amp; 17-Template Studio</span>
+                      <span class="m3-hero-demo-item-desc">Compares Clean &amp; Borderless, Editorial Left-Accent Line, and Boxed Cards live on the 16:9 stage, then opens the 17-Template PowerPoint Gallery.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-5-codesign-and-image" id="btn-demo-5-codesign-and-image">
+                    <span class="m3-hero-demo-item-icon">🖼️</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">5. On-Stage Image Switcher (&lt;50ms) &amp; Per-Slide Co-Design</span>
+                      <span class="m3-hero-demo-item-desc">Cycles pre-bundled pamphlet &amp; AI figures instantaneously via the on-stage Easy Image Switcher and previews Visual Archetype layouts.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-6-presenter-and-quiz" id="btn-demo-6-presenter-and-quiz">
+                    <span class="m3-hero-demo-item-icon">🪟</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">6. Split-Screen Presenter View, Patrol Quiz &amp; Scoreboard</span>
+                      <span class="m3-hero-demo-item-desc">Jumps to a Patrol Scenario Checkpoint Quiz slide, awards Patrol points, and launches the Split-Screen Presenter View with teleprompter notes.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-7-blue-cards-and-qr" id="btn-demo-7-blue-cards-and-qr">
+                    <span class="m3-hero-demo-item-icon">📇</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">7. Digital Blue Card (#34124) Sign-Off &amp; Scannable QR Handout</span>
+                      <span class="m3-hero-demo-item-desc">Demonstrates Patrol requirement sign-off, Scoutbook Plus CSV export, and the scannable ISO 18004 QR Pocket Study Guide.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-8-mcp-and-docs-studio" id="btn-demo-8-mcp-and-docs-studio">
+                    <span class="m3-hero-demo-item-icon">🔌</span>
+                    <span class="m3-hero-demo-item-body">
+                      <span class="m3-hero-demo-item-title">8. 22-Capability MCP Playground &amp; 12-Doc Reference Studio</span>
+                      <span class="m3-hero-demo-item-desc">Executes a live JSON-RPC tool call in the Model Context Protocol Playground and opens the 12-Document Reference Studio.</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -581,7 +664,7 @@
 
       <!-- CLEAN NAVIGATION TABS BAR (WITH HIDE/SHOW SETUP BUTTON AT LEFT EDGE) -->
       <nav class="m3-tabs-bar" aria-label="Workbench Views">
-        <div class="m3-tabs-group">
+        <div class="m3-tabs-group" role="tablist" aria-label="Primary Workbench Panels">
           <button
             type="button"
             class="m3-btn m3-btn-tonal"
@@ -592,28 +675,59 @@
             <span class="m3-inline-icon" style="font-size:18px;" id="icon-toggle-sidebar" aria-hidden="true">⇤</span>
             <span id="label-toggle-sidebar">Hide Setup</span>
           </button>
-          <button type="button" class="m3-tab-btn active" id="tab-storyboard" data-panel="panel-storyboard">
+          <button type="button" class="m3-tab-btn active" role="tab" aria-selected="true" aria-controls="panel-storyboard" id="tab-storyboard" data-panel="panel-storyboard">
             <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">📊</span>
             1. Slides &amp; Notes
           </button>
-          <button type="button" class="m3-tab-btn" id="tab-triage" data-panel="panel-triage">
+          <button type="button" class="m3-tab-btn" role="tab" aria-selected="false" aria-controls="panel-triage" id="tab-triage" data-panel="panel-triage">
             <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">📚</span>
             2. Requirements &amp; Blue Cards
           </button>
-          <button type="button" class="m3-tab-btn" id="tab-workbook" data-panel="panel-workbook">
+          <button type="button" class="m3-tab-btn" role="tab" aria-selected="false" aria-controls="panel-workbook" id="tab-workbook" data-panel="panel-workbook">
             <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">📘</span>
             3. Scout Workbook
           </button>
-          <button type="button" class="m3-tab-btn" id="tab-studiokit" data-panel="panel-studiokit">
+          <button type="button" class="m3-tab-btn" role="tab" aria-selected="false" aria-controls="panel-studiokit" id="tab-studiokit" data-panel="panel-studiokit">
             <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">🗓️</span>
             4. Class Prep &amp; Letters
           </button>
-          <button type="button" class="m3-tab-btn hidden" id="tab-btn-admin" data-panel="panel-admin" title="Super-User Admin Console (Cached Image &amp; Caption Studio, Zero-PII Telemetry, 144-Badge Asset Health)">
+          <button type="button" class="m3-tab-btn hidden" role="tab" aria-selected="false" aria-controls="panel-admin" id="tab-btn-admin" data-panel="panel-admin" title="Super-User Admin Console (Cached Image &amp; Caption Studio, Zero-PII Telemetry, 144-Badge Asset Health)">
             <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">⚙️</span>
             🛡️ Admin Console
           </button>
         </div>
       </nav>
+
+      <!-- DOCKED INTERACTIVE GUIDED DEMO TOUR BAR (NARRATES EACH STEP WITH PLAYBACK & SPOTLIGHT CONTROLS) -->
+      <div class="m3-demo-tour-banner hidden" id="active-demo-tour-banner" role="region" aria-live="polite" aria-label="Guided Demo Tour Player">
+        <div class="m3-demo-tour-left">
+          <div class="m3-demo-tour-top-row">
+            <span class="m3-demo-tour-badge" id="demo-tour-badge">🎬 DEMO 1 OF 8 &bull; STEP 1 OF 6</span>
+            <span class="m3-demo-tour-title" id="demo-tour-title">Eagle-Required Badge &amp; Local Regional Grounding (Citizenship in the Nation)</span>
+            <div class="m3-demo-tour-step-dots" id="demo-tour-step-dots" aria-label="Demo steps"></div>
+          </div>
+          <div class="m3-demo-tour-narration" id="demo-tour-narration">
+            Selecting Citizenship in the Nation from Popular and confirming that Local Regional Grounding is enabled for Middleton, MA (01949).
+          </div>
+        </div>
+        <div class="m3-demo-tour-controls">
+          <button type="button" class="m3-btn m3-btn-tonal m3-demo-ctrl-btn" id="btn-demo-step-prev" title="Previous step in this guided walkthrough">
+            ⏮ Prev
+          </button>
+          <button type="button" class="m3-btn m3-btn-tonal m3-demo-ctrl-btn" id="btn-demo-step-pause" title="Pause or resume automatic step progression">
+            ⏸ Pause
+          </button>
+          <button type="button" class="m3-btn m3-btn-filled m3-demo-ctrl-btn" id="btn-demo-step-next" title="Advance to the next step in this guided walkthrough">
+            ⏭ Next Step
+          </button>
+          <button type="button" class="m3-btn m3-btn-outlined m3-demo-ctrl-btn" id="btn-demo-next-scenario" title="Switch to the next guided demo walkthrough">
+            🎬 Next Demo ▸
+          </button>
+          <button type="button" class="m3-btn m3-btn-outlined m3-demo-ctrl-btn m3-demo-exit-btn" id="btn-demo-exit" title="Exit the guided demo walkthrough">
+            ✕ Exit
+          </button>
+        </div>
+      </div>
 
       <!-- PANEL 1: SLIDE DECK PREVIEW -->
       <section id="panel-storyboard" class="m3-storyboard-layout">
@@ -1089,17 +1203,20 @@
             <button type="button" class="m3-btn m3-btn-outlined" id="btn-fs-exit" style="padding:5px 12px; font-size:0.78rem; background:rgba(255,255,255,0.16); color:var(--md-sys-color-on-primary); border-color:rgba(255,255,255,0.35);">✕ Exit Fullscreen</button>
           </div>
 
-          <!-- UNDER-STAGE TABBED DRAWER: 1. TEACHING NOTES (DEFAULT) | 2. CO-DESIGN & IMAGE STUDIO | 3. QUICK EDIT SLIDE TEXT -->
+          <!-- UNDER-STAGE TABBED DRAWER: 1. TEACHING NOTES (DEFAULT) | 2. CO-DESIGN & IMAGE STUDIO | 3. QUICK EDIT SLIDE TEXT | 4. MULTI-AGENT WORKFLOW TRACE & FINOPS -->
           <div class="m3-understage-drawer hidden" id="understage-drawer">
             <div class="m3-understage-tabs" role="tablist" aria-label="Slide Teaching &amp; Customization Tools">
-              <button type="button" class="m3-understage-tab-btn active" data-understage-tab="notes" id="tab-btn-understage-notes">
+              <button type="button" class="m3-understage-tab-btn active" role="tab" aria-selected="true" aria-controls="slide-speaker-notes-card" data-understage-tab="notes" id="tab-btn-understage-notes">
                 🎙️ Counselor Teaching Notes ([SAY] / [DEMO] / [ASK])
               </button>
-              <button type="button" class="m3-understage-tab-btn" data-understage-tab="codesign" id="tab-btn-understage-codesign">
+              <button type="button" class="m3-understage-tab-btn" role="tab" aria-selected="false" aria-controls="slide-codesign-bar" data-understage-tab="codesign" id="tab-btn-understage-codesign">
                 🎨 Customize Slide &amp; Image Studio
               </button>
-              <button type="button" class="m3-understage-tab-btn" data-understage-tab="quickedit" id="tab-btn-understage-quickedit">
+              <button type="button" class="m3-understage-tab-btn" role="tab" aria-selected="false" aria-controls="slide-quick-edit-card" data-understage-tab="quickedit" id="tab-btn-understage-quickedit">
                 ✏️ Quick Edit Slide Text
+              </button>
+              <button type="button" class="m3-understage-tab-btn" role="tab" aria-selected="false" aria-controls="trace-telemetry-card" data-understage-tab="trace" id="tab-btn-understage-trace" title="Inspect the 7-Agent Google ADK execution timeline, Honest Dual Latency (First Status Event vs. True TTFT), SHA-256 requirement lock, and Live Run FinOps Token &amp; Cost Ledger">
+                📊 Multi-Agent Workflow Trace &amp; FinOps
               </button>
             </div>
 
@@ -1272,6 +1389,75 @@
                 <button type="button" class="m3-btn m3-btn-filled" id="btn-save-quickedit" style="padding:8px 16px; font-size:0.80rem;">
                   💾 Save Slide Edits &amp; Rebuild .PPTX
                 </button>
+              </div>
+            </div>
+
+            <!-- DRAWER TAB 4: MULTI-AGENT WORKFLOW TRACE, HONEST DUAL LATENCY & LIVE RUN FINOPS LEDGER -->
+            <div class="m3-card hidden" id="trace-telemetry-card" role="tabpanel" aria-labelledby="tab-btn-understage-trace" style="padding:14px 18px; background:var(--md-sys-color-surface); border:1.5px solid var(--md-sys-color-outline);">
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; flex-wrap:wrap; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+                  <span style="font-family:'Roboto Slab',serif; font-size:0.94rem; font-weight:800; color:var(--md-sys-color-primary);">
+                    📊 7-Agent Google ADK Workflow Trace, Grounding Lock &amp; FinOps Ledger
+                  </span>
+                  <span class="m3-chip m3-chip-primary" id="trace-card-mode-badge" style="font-size:0.71rem; font-weight:700;">
+                    ⚡ Pre-Generated Instant Cache ($0.006 Warm)
+                  </span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-trace-test-guardrail" title="Open the 4-Tab Image Studio with a pre-filled Youth Protection (YPT) &amp; PII test prompt to verify Model Armor guardrail interception" style="padding:5px 11px; font-size:0.75rem; font-weight:700;">
+                    🛡️ Test YPT / PII Guardrail
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-outlined" id="btn-trace-copy-json" title="Copy the structured ADK execution trace &amp; FinOps ledger JSON to clipboard" style="padding:5px 11px; font-size:0.75rem; font-weight:700;">
+                    📋 Copy Trace JSON
+                  </button>
+                </div>
+              </div>
+
+              <!-- 5-METRIC TELEMETRY & CONFORMANCE KPI STRIP -->
+              <div class="m3-trace-kpi-strip" id="trace-kpi-strip">
+                <div class="m3-trace-kpi-box">
+                  <div class="m3-trace-kpi-label">First Status Event (SSE)</div>
+                  <div class="m3-trace-kpi-value" id="trace-kpi-first-status">6.2 ms</div>
+                  <div class="m3-trace-kpi-sub">Target SLO: &lt; 500 ms</div>
+                </div>
+                <div class="m3-trace-kpi-box">
+                  <div class="m3-trace-kpi-label">True First Content Token</div>
+                  <div class="m3-trace-kpi-value" id="trace-kpi-true-ttft">612 ms</div>
+                  <div class="m3-trace-kpi-sub">Gemini 2.5 Flash Stream</div>
+                </div>
+                <div class="m3-trace-kpi-box">
+                  <div class="m3-trace-kpi-label">SHA-256 Requirement Lock</div>
+                  <div class="m3-trace-kpi-value" id="trace-kpi-pamphlet-hash" style="font-family:var(--font-mono); font-size:0.80rem;">Verified (100% Match)</div>
+                  <div class="m3-trace-kpi-sub" id="trace-kpi-pamphlet-hash-sub">Zero Requirement Drift</div>
+                </div>
+                <div class="m3-trace-kpi-box">
+                  <div class="m3-trace-kpi-label">AABB Geometry &amp; YPT QA</div>
+                  <div class="m3-trace-kpi-value" id="trace-kpi-aabb-status">0 Overlaps (&lt;10ms)</div>
+                  <div class="m3-trace-kpi-sub" id="trace-kpi-ypt-sub">Bidirectional Zero-PII Active</div>
+                </div>
+                <div class="m3-trace-kpi-box">
+                  <div class="m3-trace-kpi-label">Run Cost / Budget Ceiling</div>
+                  <div class="m3-trace-kpi-value" id="trace-kpi-run-cost">$0.0062 / $1.00</div>
+                  <div class="m3-trace-kpi-sub" id="trace-kpi-run-cost-sub">3,917 Pre-Bundled Assets ($0 Img)</div>
+                </div>
+              </div>
+
+              <!-- 2-COLUMN BODY: LEFT = 7-AGENT ADK PIPELINE TIMELINE | RIGHT = LIVE RUN FINOPS TOKEN & COST LEDGER -->
+              <div class="m3-trace-two-col-grid">
+                <div class="m3-trace-col-box">
+                  <div class="m3-trace-col-header">
+                    <span>🤖 7-Agent Google ADK Pipeline &amp; Tool Boundary Timeline</span>
+                    <span id="trace-grounding-summary-pill" class="m3-chip m3-chip-secondary" style="font-size:0.68rem;">Hybrid BM25 + Vector RRF (k=60)</span>
+                  </div>
+                  <div id="workflow-trace-grid" class="m3-workflow-trace-timeline"></div>
+                </div>
+                <div class="m3-trace-col-box">
+                  <div class="m3-trace-col-header">
+                    <span>💰 Live Run FinOps Token &amp; Unit Economics Ledger</span>
+                    <span id="trace-finops-tier-pill" class="m3-chip m3-chip-secondary" style="font-size:0.68rem;">Council TCO: $192.50/mo</span>
+                  </div>
+                  <div id="trace-finops-ledger-box" class="m3-trace-finops-ledger-box"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -2231,8 +2417,19 @@
             </div>
           </div>
           <div style="grid-column: 1 / -1;">
-            <label class="m3-field-label" for="studio-ai-prompt-input">3. Visual Scene Description (pure visual concept — no text printed on image)</label>
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:4px;">
+              <label class="m3-field-label" for="studio-ai-prompt-input" style="margin-bottom:0;">3. Visual Scene Description (pure visual concept — no text printed on image)</label>
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-studio-sample-safe" title="Fill a safe, uniform-accurate Scouting instructional diagram prompt" style="padding:2px 9px; font-size:0.71rem; font-weight:700;">
+                  ✨ Sample Safe Diagram
+                </button>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-studio-sample-guardrail" title="Test the bidirectional BSA Youth Protection (YPT) &amp; Zero-PII Model Armor safety guardrail" style="padding:2px 9px; font-size:0.71rem; font-weight:700; color:var(--md-sys-color-danger); border-color:var(--md-sys-color-danger-outline); background:var(--md-sys-color-danger-surface);">
+                  🛡️ Test YPT / PII Safety Guardrail
+                </button>
+              </div>
+            </div>
             <textarea class="m3-input" id="studio-ai-prompt-input" rows="3" style="font-family:var(--font-sans); resize:vertical;"></textarea>
+            <div id="studio-guardrail-result-banner" class="m3-studio-guardrail-banner hidden" role="alert" aria-live="assertive"></div>
           </div>
         </div>
 
@@ -3167,9 +3364,27 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
     </div>
   </div>
 
+  <!-- INTERACTIVE GUIDED DEMO VISUAL ATTENTION OVERLAY (SPOTLIGHT RING, FLOATING CALLOUT & VIRTUAL CURSOR) -->
+  <div id="demo-spotlight-ring" class="m3-demo-spotlight-ring hidden" aria-hidden="true"></div>
+  <div id="demo-floating-callout" class="m3-demo-floating-callout hidden" role="status" aria-live="polite">
+    <div class="m3-demo-callout-header">
+      <span class="m3-demo-callout-step-pill" id="demo-callout-step-pill">STEP 1 OF 6</span>
+      <span class="m3-demo-callout-title" id="demo-callout-title">Selecting Citizenship in the Nation</span>
+    </div>
+    <div class="m3-demo-callout-body" id="demo-callout-body">
+      Choosing Citizenship in the Nation from Popular and confirming that Local Regional Grounding is enabled.
+    </div>
+  </div>
+  <div id="demo-virtual-cursor" class="m3-demo-virtual-cursor hidden" aria-hidden="true">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle class="m3-demo-cursor-pulse" cx="10" cy="10" r="9" fill="rgba(253, 185, 19, 0.42)" />
+      <path d="M6 4L22 11.5L14.5 14.2L18.5 21.5L15.2 23.2L11.2 15.8L6 20V4Z" fill="#003F87" stroke="#FDB913" stroke-width="2" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261022a"></script>
+  <script src="/ui/app.js?v=20261023a"></script>
 </body>
 </html>

@@ -408,6 +408,10 @@ class OnlineProductionAuditSampler:
             "recent_samples": samples,
         }
 
+    def get_summary(self, limit: int = 25) -> dict[str, Any]:
+        """Alias for `get_online_audit_summary(limit=limit)`."""
+        return self.get_online_audit_summary(limit=limit)
+
 
 _DEFAULT_ONLINE_SAMPLER: OnlineProductionAuditSampler | None = None
 _SAMPLER_LOCK = threading.Lock()
@@ -421,3 +425,13 @@ def get_online_production_audit_sampler() -> OnlineProductionAuditSampler:
             if _DEFAULT_ONLINE_SAMPLER is None:
                 _DEFAULT_ONLINE_SAMPLER = OnlineProductionAuditSampler()
     return _DEFAULT_ONLINE_SAMPLER
+
+
+def get_online_audit_sampler() -> OnlineProductionAuditSampler:
+    """Backwards-compatible alias for `get_online_production_audit_sampler()`."""
+    return get_online_production_audit_sampler()
+
+
+def get_online_audit_summary(limit: int = 25) -> dict[str, Any]:
+    """Module-level convenience wrapper returning the singleton sampler summary."""
+    return get_online_production_audit_sampler().get_online_audit_summary(limit=limit)

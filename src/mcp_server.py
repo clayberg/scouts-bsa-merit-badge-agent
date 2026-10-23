@@ -251,7 +251,7 @@ def mcp_tool_create_merit_badge_slide_deck(
     deck_style: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Builds a complete Merit Badge teaching slide deck, applies the chosen PowerPoint template, and saves a persistent workspace."""
-    from src.server import _load_or_build_cached_default_deck
+    from src.agents.coordinator import run_merit_badge_workflow
     from src.schemas import CounselorTitleSlideInfo
     from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
 
@@ -261,7 +261,7 @@ def mcp_tool_create_merit_badge_slide_deck(
         troop_affiliation=troop_info or "Troop 19",
         location_or_zip=state_code or "CA",
     )
-    deck_res = _load_or_build_cached_default_deck(clean_badge, counselor_info=c_info)
+    deck_res = run_merit_badge_workflow(badge_name=clean_badge, counselor_info=c_info)
     slides_raw = ((deck_res.get("storyboard") or {}).get("slides")) or []
 
     tpl_prof = get_template_profile(template_id)
@@ -588,7 +588,7 @@ def mcp_tool_export_slide_deck(
         "workspace_id": workspace_id,
         "export_format": fmt,
         "pptx_download_url": (ws.get("deck_result") or {}).get("pptx_download_url", f"/deliverables/{slug}.pptx"),
-        "qr_pamphlet_svg_url": f"/api/v1/qr.svg?data=https://www.scouting.org/merit-badges/{slug.replace('_', '-')}/",
+        "qr_pamphlet_svg_url": f"/api/v1/qr.svg?url=https://www.scouting.org/merit-badges/{slug.replace('_', '-')}/",
     }
 
 
@@ -1222,7 +1222,9 @@ def handle_mcp_jsonrpc_request(payload: Dict[str, Any]) -> Dict[str, Any]:
                 "error": {"code": -32601, "message": f"Unknown MCP tool '{tool_name}'."},
             }
         try:
-            res_obj = spec["handler"](**tool_args)
+            from src.observability.logging_setup import scrub_pii_from_structure
+
+            res_obj = scrub_pii_from_structure(spec["handler"](**tool_args))
             is_err = isinstance(res_obj, dict) and res_obj.get("status") == "ERROR"
             return {
                 "jsonrpc": "2.0",
@@ -1256,8 +1258,10 @@ def handle_mcp_jsonrpc_request(payload: Dict[str, Any]) -> Dict[str, Any]:
         }
 
     if method == "resources/read":
+        from src.observability.logging_setup import scrub_pii_from_structure
+
         uri = str(params.get("uri") or "").strip()
-        res_data = read_mcp_resource(uri)
+        res_data = scrub_pii_from_structure(read_mcp_resource(uri))
         return {
             "jsonrpc": "2.0",
             "id": req_id,
@@ -1300,13 +1304,106 @@ def handle_mcp_jsonrpc_request(payload: Dict[str, Any]) -> Dict[str, Any]:
 # ==============================================================================
 
 
+class _StdioFastMCPAdapter:
+    """Fallback FastMCP-compatible registry and stdio JSON-RPC runner when `fastmcp` is not installed."""
+
+    def __init__(self, server_name: str) -> None:
+        self.name = server_name
+        self.tools: Dict[str, Any] = {}
+        self.resources: Dict[str, Any] = {}
+        self.prompts: Dict[str, Any] = {}
+
+    def tool(self, name: str, description: str = "") -> Any:
+        def _decorator(fn: Any) -> Any:
+            self.tools[name] = {"name": name, "description": description, "handler": fn}
+            return fn
+
+        return _decorator
+
+    def resource(self, uri: str, name: str = "", description: str = "", mime_type: str = "application/json") -> Any:
+        def _decorator(fn: Any) -> Any:
+            self.resources[uri] = {
+                "uri": uri,
+                "name": name or uri,
+                "description": description,
+                "mimeType": mime_type,
+                "handler": fn,
+            }
+            return fn
+
+        return _decorator
+
+    def prompt(self, name: str, description: str = "") -> Any:
+        def _decorator(fn: Any) -> Any:
+            self.prompts[name] = {"name": name, "description": description, "handler": fn}
+            return fn
+
+        return _decorator
+
+    def run(self) -> None:
+        import sys
+
+        for line in sys.stdin:
+            raw = line.strip()
+            if not raw:
+                continue
+            try:
+                req = json.loads(raw)
+                resp = handle_mcp_jsonrpc_request(req)
+                sys.stdout.write(json.dumps(resp, ensure_ascii=False) + "\n")
+                sys.stdout.flush()
+            except Exception as exc:
+                err_resp = {"jsonrpc": "2.0", "id": None, "error": {"code": -32700, "message": str(exc)}}
+                sys.stdout.write(json.dumps(err_resp) + "\n")
+                sys.stdout.flush()
+
+
 def build_fastmcp_instance() -> Any:
     """Constructs a `FastMCP` server instance with all 12 tools, 6 resources, and 4 prompts registered."""
-    from fastmcp import FastMCP
+    try:
+        from fastmcp import FastMCP  # type: ignore
+    except ImportError:
+        try:
+            from mcp.server.fastmcp import FastMCP  # type: ignore
+        except ImportError:
+            FastMCP = _StdioFastMCPAdapter  # type: ignore
 
     mcp = FastMCP(MCP_SERVER_NAME)
     for t_spec in MCP_TOOLS_REGISTRY.values():
         mcp.tool(name=t_spec["name"], description=t_spec["description"])(t_spec["handler"])
+
+    for r_spec in MCP_RESOURCES_CATALOG:
+        r_uri = r_spec["uri"]
+        r_name = r_spec.get("name", r_uri)
+        r_desc = r_spec.get("description", "")
+
+        def _make_resource_reader(bound_uri: str) -> Any:
+            def _reader() -> str:
+                res_data = read_mcp_resource(bound_uri)
+                return json.dumps(res_data.get("data", res_data), indent=2, ensure_ascii=False)
+
+            return _reader
+
+        try:
+            mcp.resource(r_uri, name=r_name, description=r_desc)(_make_resource_reader(r_uri))
+        except TypeError:
+            mcp.resource(r_uri)(_make_resource_reader(r_uri))
+
+    for p_spec in MCP_PROMPTS_CATALOG:
+        p_name = p_spec["name"]
+        p_desc = p_spec.get("description", "")
+
+        def _make_prompt_handler(bound_name: str) -> Any:
+            def _prompt_fn(**kwargs: Any) -> Dict[str, Any]:
+                return get_mcp_prompt_messages(bound_name, kwargs)
+
+            return _prompt_fn
+
+        try:
+            mcp.prompt(name=p_name, description=p_desc)(_make_prompt_handler(p_name))
+        except TypeError:
+            mcp.prompt(p_name)(_make_prompt_handler(p_name))
+
     return mcp
 
 

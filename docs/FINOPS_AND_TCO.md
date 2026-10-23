@@ -2,7 +2,7 @@
 
 **Author:** Eric Clayberg (Troop 19, Middleton MA)
 **Repository:** `https://github.com/clayberg/scouts-bsa-merit-badge-agent`
-**Code References:** `src/config.py`, `src/agents/guardrails.py`, `src/agents/coordinator.py`, `src/agents/image_studio.py`, `src/observability/online_audit_sampler.py`, `src/server.py`, `scripts/cost_model.py`, `terraform/main.tf`
+**Code References:** `src/config.py`, `src/agents/guardrails.py`, `src/agents/coordinator.py`, `src/agents/image_studio.py`, `src/observability/online_audit_sampler.py`, `src/server.py`, `scripts/cost_model.py`, `terraform/main.tf`, `terraform/iam.tf`
 
 > **Purpose of this guide:** The Scouts BSA Merit Badge Counselor Workbench displays token counts and dollar budgets in the UI for slide deck generation, on-demand **Nano Banana AI** custom illustrations (`$0.08/image`), and **AI Polish Speaker Notes** (`$0.000835/slide` via `gemini-2.5-flash` with `thinking_budget=0`). Run `.venv/bin/python3 scripts/cost_model.py` to reproduce all financial tables below programmatically. This document explains how the **Unified Pre-Bundled Visual Architecture** delivers all 3,917 curated visual assets across all 144 Merit Badges at `$0.00` runtime image cost, how per-deck unit economics and per-agent token budgets break down across our 9 ADK components, how a volunteer counselor pays or avoids paying when running the app locally, how billing works when a Council or Troop hosts the app on Google Cloud Run, and how the app recovers whenever a cost is denied or an API quota limit is reached.
 
@@ -102,11 +102,11 @@ In a Cloud Run deployment, all costs are paid by the **Cloud Billing Account att
 1. **Cloud Run compute and storage**: Billed to the host GCP Project based on container CPU/memory seconds while requests are active (scaling down to `min_instance_count = 0` in low-traffic environments so there is no idle server charge).
 2. **Vertex AI / Gemini token and image usage**: Billed to the same host GCP Project whenever counselors generate decks, polish speaker notes, or request custom AI images.
 
-### How credentials work in Cloud Run (`terraform/main.tf` + `src/config.py`)
+### How credentials work in Cloud Run (`terraform/main.tf`, `terraform/iam.tf` + `src/config.py`)
 
-Instead of storing an API key in a plain-text `.env` file, the Cloud Run service (`scouts-bsa-workbench` in `terraform/main.tf`) uses two Google Cloud security mechanisms:
+Instead of storing an API key in a plain-text `.env` file, the Cloud Run service (`scouts-bsa-workbench` in `terraform/main.tf` and `terraform/iam.tf`, configured with `memory_limit = "4Gi"`) uses two Google Cloud security mechanisms:
 
-* **Dedicated IAM Service Account (`scouts-bsa-agent-sa`)**: Terraform provisions a least-privilege service account and grants it `roles/aiplatform.user` (allowing Vertex AI calls via Application Default Credentials) and `roles/secretmanager.secretAccessor`.
+* **Dedicated IAM Service Account (`scouts-bsa-agent-sa`)**: `terraform/iam.tf` provisions least-privilege service accounts and grants `roles/aiplatform.user` (allowing Vertex AI calls via Application Default Credentials) and `roles/secretmanager.secretAccessor`.
 * **Google Cloud Secret Manager (`USE_GCP_SECRET_MANAGER=true`)**: When the container starts on Cloud Run, `AppConfig.get_effective_gemini_api_key()` in `src/config.py` fetches the API key directly from `projects/<PROJECT_ID>/secrets/scouts-bsa-gemini-api-key/versions/latest` in memory.
 
 ### Protecting the shared Council/Troop wallet and monitoring Zero-PII FinOps telemetry
@@ -215,7 +215,7 @@ Similarly, if cloud `gemini-2.5-flash` is unavailable during `POST /api/v1/slide
 
 ## 5. Merit Badge Image Studio and speaker-note customization options compared
 
-The table below compares the four visual sourcing tabs in the **Merit Badge Image Catalog & AI Image Studio** modal alongside the two speaker-note editing options in the **3-Tab Under-Stage Drawer**:
+The table below compares the four visual sourcing tabs in the **Merit Badge Image Catalog & AI Image Studio** modal alongside the speaker-note editing and live FinOps trace options in the **4-Tab Under-Stage Drawer (`.m3-understage-drawer`)**:
 
 | Workbench feature | Source / engine tag | Cost | How it works | Preserved when clearing Web/AI cache? |
 | :--- | :--- | :--- | :--- | :--- |
@@ -225,3 +225,4 @@ The table below compares the four visual sourcing tabs in the **Merit Badge Imag
 | **📁 Image Studio Tab 4: File Upload** | `USER_UPLOAD` | **$0.00 USD** | Lets the counselor upload any local image (`PNG`, `JPG`, `JPEG`, `WEBP`, `GIF`, `<= 10 MB`) via `POST /api/v1/slide/upload-image`. Normalizes resolution (up to 1600px at 220 DPI), saves it to `assets/badge_image_catalog/<badge>/uploaded_<hash>.png`, and applies it to the slide. | **Yes**, user-uploaded local photos are preserved across cache clears |
 | **🎙️ Drawer Sub-Tab 1: AI Polish Slide / Polish Entire Deck** | `GEMINI_FLASH` (or `PROCEDURAL_STUDIO_POLISH` fallback) | **`$0.000835 / slide`** (`$0.00` on SQLite cache hit; Layer A2 Consent Gate) | Opens `#ai-polish-finops-modal` (`POST /api/v1/slide/estimate-polish-cost`) showing single-slide (`~$0.0008`) vs. full-deck (`~$0.0685`) `gemini-2.5-flash` (`thinking_budget=0`) token cost, polishes `[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]` notes via `POST /api/v1/slide/polish-notes` or `/polish-notes-batch`, caches in SQLite `polished_speaker_notes`, and updates the `.pptx`. | **Yes**, persisted in SQLite `polished_speaker_notes` (`scouts_bsa_sessions.db`) |
 | **✏️ Drawer Sub-Tab 3: Quick Edit Slide Text** | `POST /api/v1/slide/regenerate` | **$0.00 USD** | Edits slide title, visual caption, teaching card bullets, and speaker notes directly in the browser and rebuilds the `.pptx` in under 1 second with zero LLM calls. | **Yes** |
+| **📊 Drawer Sub-Tab 4: Multi-Agent Workflow Trace & FinOps** | `#trace-telemetry-card` / `#workflow-trace-grid` / `#trace-finops-ledger-box` | **$0.00 USD** | Displays the 5-card Telemetry KPI strip (`First Status Event`, `True TTFT`, `SHA-256 Requirement Lock`, `0 Overlaps (<10ms)`, `Run Cost / Budget Ceiling`), the 7-Agent Google ADK Pipeline Timeline (`#workflow-trace-grid`), and the Live Run FinOps Token & Unit Economics Ledger (`#trace-finops-ledger-box`). | **Yes** |

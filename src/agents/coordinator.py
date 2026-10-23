@@ -572,6 +572,36 @@ def run_merit_badge_workflow(
             history=[{"type": "workflow_start", "badge_name": badge_name}],
         )
 
+        # 0C. GOOGLE ADK RUNNER & IN-MEMORY SESSION SERVICE ORCHESTRATION HOOK
+        adk_session_obj = None
+        adk_runner_invoked = False
+        try:
+            adk_runner = get_merit_badge_adk_runner()
+            if adk_runner is not None and hasattr(adk_runner, "session_service"):
+                try:
+                    adk_session_obj = adk_runner.session_service.get_session_sync(
+                        app_name="scouts_bsa_merit_badge_agent",
+                        user_id="merit_badge_counselor",
+                        session_id=session_id,
+                    )
+                except Exception:
+                    adk_session_obj = None
+                if adk_session_obj is None:
+                    adk_session_obj = adk_runner.session_service.create_session_sync(
+                        app_name="scouts_bsa_merit_badge_agent",
+                        user_id="merit_badge_counselor",
+                        session_id=session_id,
+                        state={
+                            "badge_name": badge_name,
+                            "depth_mode": depth_mode,
+                            "beautification_tier": str(beautification_tier),
+                            "stage": "workflow_start",
+                        },
+                    )
+                adk_runner_invoked = True
+        except Exception as adk_exc:
+            logger.debug("ADK Runner session hook warning: %s", adk_exc)
+
         # 1. RESEARCH SUBAGENT (5-Tier Pamphlet, Sub-Requirement Tree & Execution Triage)
         step_t0 = time.perf_counter()
         from src.tools.scouting_scraper import (
@@ -914,7 +944,7 @@ def run_merit_badge_workflow(
             float(agent_trace[0].get("duration_ms", 180.0)) if agent_trace else 180.0,
             2,
         )
-        first_status_ms = 6.5
+        first_status_ms = round(max(0.1, (step_t0 - t0) * 1000.0), 2)
 
         final_result = PresentationWorkflowResult(
             badge_name=badge_name,
@@ -947,6 +977,15 @@ def run_merit_badge_workflow(
         )
         res_dump = final_result.model_dump()
         res_dump["asset_batch_hydration"] = asset_batch_hydration
+        res_dump["adk_runner_invoked"] = adk_runner_invoked
+        res_dump["adk_session_id"] = session_id
+        if adk_session_obj is not None and hasattr(adk_session_obj, "state") and isinstance(adk_session_obj.state, dict):
+            adk_session_obj.state.update({
+                "stage": "workflow_complete",
+                "slide_count": build_res["slide_count"],
+                "output_path": build_res["output_path"],
+                "safety_approved": bool(review_res.get("approved", False)),
+            })
         try:
             from src.observability.online_audit_sampler import get_online_production_audit_sampler
 
@@ -1111,8 +1150,13 @@ async def stream_merit_badge_workflow_events(
     }
 
 
+_COORDINATOR_SINGLETON: Optional[adk.Agent] = None
+_ADK_APP_SINGLETON: Optional[Any] = None
+_ADK_RUNNER_SINGLETON: Optional[Any] = None
+
+
 def get_merit_badge_coordinator_agent(model_name: Optional[str] = None) -> adk.Agent:
-    """Instantiates the `MeritBadgeCoordinatorAgent` root supervisor.
+    """Instantiates (or returns cached singleton of) the `MeritBadgeCoordinatorAgent` root supervisor.
 
     Args:
         model_name: Optional Gemini model override (defaults to
@@ -1122,6 +1166,10 @@ def get_merit_badge_coordinator_agent(model_name: Optional[str] = None) -> adk.A
         adk.Agent: Configured root supervisor agent with `EventsCompactionConfig`,
         Model Armor guardrail callbacks, and specialized subagents.
     """
+    global _COORDINATOR_SINGLETON
+    if model_name is None and _COORDINATOR_SINGLETON is not None:
+        return _COORDINATOR_SINGLETON
+
     resolved_model = model_name or select_model_for_task("coordinator")
     system_instruction = (
         f"{SCOUTS_BSA_CONSTITUTION}\n\n"
@@ -1171,7 +1219,14 @@ def get_merit_badge_coordinator_agent(model_name: Optional[str] = None) -> adk.A
         object.__setattr__(agent, "compaction_config", compaction_cfg)
     except Exception:
         pass
+    if model_name is None:
+        _COORDINATOR_SINGLETON = agent
     return agent
+
+
+def build_merit_badge_coordinator(model_name: Optional[str] = None) -> adk.Agent:
+    """Alias for `get_merit_badge_coordinator_agent(model_name)`."""
+    return get_merit_badge_coordinator_agent(model_name=model_name)
 
 
 def get_merit_badge_sequential_agent() -> Any:
@@ -1204,20 +1259,11 @@ def get_merit_badge_sequential_agent() -> Any:
 
 
 def get_merit_badge_adk_app() -> Any:
-    """Instantiates the official Google ADK `App` container for `adk web`, `adk run`, and `adk eval`.
+    """Instantiates (or returns cached singleton of) the official Google ADK `App` container."""
+    global _ADK_APP_SINGLETON
+    if _ADK_APP_SINGLETON is not None:
+        return _ADK_APP_SINGLETON
 
-    Configures:
-    - `root_agent`: `MeritBadgeCoordinatorAgent`
-    - `plugins`: `[ScoutsBSAModelArmorPlugin(), FinOpsBudgetPlugin()]`
-    - `events_compaction_config`: Native ADK `EventsCompactionConfig`
-    - `context_cache_config`: Native ADK `ContextCacheConfig`
-
-    Args:
-        None.
-
-    Returns:
-        Any: Configured `google.adk.apps.app.App` instance (or `root_agent` fallback).
-    """
     coordinator = get_merit_badge_coordinator_agent()
     compaction_cfg = EventsCompactionConfig(
         compaction_interval=5,
@@ -1226,18 +1272,51 @@ def get_merit_badge_adk_app() -> Any:
     )
     if _ADKApp is not None:
         try:
-            return _ADKApp(
+            _ADK_APP_SINGLETON = _ADKApp(
                 name="scouts_bsa_merit_badge_agent",
                 root_agent=coordinator,
                 plugins=[ScoutsBSAModelArmorPlugin(), FinOpsBudgetPlugin()],
                 events_compaction_config=compaction_cfg.to_adk_compaction_config(),
                 context_cache_config=get_adk_context_cache_config(),
             )
+            return _ADK_APP_SINGLETON
         except Exception:
             pass
-    return coordinator
+    _ADK_APP_SINGLETON = coordinator
+    return _ADK_APP_SINGLETON
+
+
+def get_merit_badge_adk_runner() -> Any:
+    """Returns a configured `google.adk.runners.Runner` backed by `InMemorySessionService`."""
+    global _ADK_RUNNER_SINGLETON
+    if _ADK_RUNNER_SINGLETON is not None:
+        return _ADK_RUNNER_SINGLETON
+    try:
+        from google.adk.runners import Runner
+        from google.adk.sessions import InMemorySessionService
+
+        session_service = InMemorySessionService()
+        app_instance = get_merit_badge_adk_app()
+        if _ADKApp is not None and isinstance(app_instance, _ADKApp):
+            _ADK_RUNNER_SINGLETON = Runner(
+                app=app_instance,
+                session_service=session_service,
+                auto_create_session=True,
+            )
+        else:
+            _ADK_RUNNER_SINGLETON = Runner(
+                app_name="scouts_bsa_merit_badge_agent",
+                agent=get_merit_badge_coordinator_agent(),
+                session_service=session_service,
+                auto_create_session=True,
+            )
+    except Exception as exc:
+        logger.debug("ADK Runner initialization warning: %s", exc)
+        _ADK_RUNNER_SINGLETON = None
+    return _ADK_RUNNER_SINGLETON
 
 
 root_agent = get_merit_badge_coordinator_agent()
 adk_app = get_merit_badge_adk_app()
+adk_runner = get_merit_badge_adk_runner()
 

@@ -57,6 +57,13 @@ minversion = "8.0"
 addopts = "-ra -q --asyncio-mode=auto"
 testpaths = ["tests"]
 python_files = ["test_*.py", "eval_*.py"]
+filterwarnings = [
+    "ignore:\\[EXPERIMENTAL\\]:UserWarning",
+    "ignore:Your application has authenticated using end user credentials:UserWarning",
+    "ignore:Palette images with Transparency expressed in bytes:UserWarning",
+    "ignore:BaseAgentConfig is deprecated:DeprecationWarning",
+    "ignore:Using.*httpx.*starlette",
+]
 
 [tool.ruff]
 line-length = 100

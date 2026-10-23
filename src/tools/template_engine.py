@@ -1375,6 +1375,62 @@ def ingest_custom_template_bytes(
     return profile
 
 
+def _validate_public_template_url_host(host: str) -> None:
+    """Blocks SSRF attempts against loopback, RFC1918 private, link-local, IPv6 internal, or cloud metadata hosts."""
+    import ipaddress
+    import socket
+
+    clean_host = (host or "").strip().lower().rstrip(".")
+    if not clean_host:
+        raise ValueError("Template URL must include a valid hostname.")
+    blocked_names = {
+        "localhost",
+        "metadata.google.internal",
+        "metadata",
+        "169.254.169.254",
+        "0.0.0.0",
+        "127.0.0.1",
+        "::1",
+    }
+    if (
+        clean_host in blocked_names
+        or clean_host.endswith(".internal")
+        or clean_host.endswith(".local")
+        or clean_host.startswith("10.")
+        or clean_host.startswith("192.168.")
+    ):
+        raise ValueError("Internal, loopback, or cloud metadata network URLs are not permitted.")
+
+    def _check_ip(ip_str: str) -> None:
+        ip_obj = ipaddress.ip_address(ip_str)
+        if (
+            ip_obj.is_private
+            or ip_obj.is_loopback
+            or ip_obj.is_link_local
+            or ip_obj.is_multicast
+            or ip_obj.is_reserved
+            or ip_obj.is_unspecified
+        ):
+            raise ValueError(f"Internal or non-routable IP address '{ip_str}' is not permitted.")
+
+    try:
+        _check_ip(clean_host)
+        return
+    except ValueError as exc:
+        if "not permitted" in str(exc):
+            raise
+
+    try:
+        addr_infos = socket.getaddrinfo(clean_host, None)
+    except Exception as exc:
+        raise ValueError(f"Unable to resolve template hostname '{clean_host}': {exc}") from exc
+
+    for info in addr_infos:
+        sockaddr = info[4]
+        if sockaddr and sockaddr[0]:
+            _check_ip(str(sockaddr[0]))
+
+
 def ingest_template_from_url(
     url: str,
     custom_name: Optional[str] = None,
@@ -1384,9 +1440,7 @@ def ingest_template_from_url(
     parsed = urllib.parse.urlparse(str(url or "").strip())
     if parsed.scheme not in ("http", "https") or not parsed.netloc:
         raise ValueError("Template URL must be a valid http:// or https:// URL.")
-    host = parsed.hostname or ""
-    if host in ("localhost", "127.0.0.1", "0.0.0.0", "169.254.169.254") or host.startswith("10.") or host.startswith("192.168."):
-        raise ValueError("Internal or loopback network URLs are not permitted.")
+    _validate_public_template_url_host(parsed.hostname or "")
 
     req = urllib.request.Request(url, headers={"User-Agent": "ScoutsBSAMeritBadgeWorkbench/1.0"})
     with urllib.request.urlopen(req, timeout=15) as resp:

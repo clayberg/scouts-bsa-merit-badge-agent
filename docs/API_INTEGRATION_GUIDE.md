@@ -2,7 +2,7 @@
 
 The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), legacy unversioned aliases (`/api/*` with RFC 8594 `Deprecation: true` and `Sunset: 2027-01-01` headers), PowerPoint Template & Custom Slide Theme Engine endpoints (`/api/v1/templates*`), Multi-Badge Saved Deck Workspaces & Starred Favorites endpoints (`/api/v1/workspaces*`, `/api/v1/badges/favorites*`), Official Scouts BSA Workbench Model Context Protocol (`MCP`) endpoints (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`, documented in the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**), Merit Badge Image Studio endpoints (`/api/v1/badge/images`, `/api/v1/slide/*`), in-app documentation endpoints (`/api/v1/docs`, `/api/v1/docs/{doc_id}`), Super-User Admin Console and Zero-PII Telemetry endpoints (`/api/v1/admin/*`, documented in [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)), counselor profile persistence (`/api/v1/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
 
-- **OpenAPI 3.1 schema (`124` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
+- **OpenAPI 3.1 schema (`125` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified across **`88/88` passing `pytest` tests (`0` warnings)** in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
 - **MCP Server Integration Guide (`12` Tools, `6` `bsa://` Resources, `4` Prompts)**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md) (`python -m src.mcp_server` / `scouts-bsa-mcp` stdio CLI + HTTP `/mcp` & `/mcp/sse`).
 - **Swagger UI**: `http://localhost:8085/docs` (or `http://localhost:8080/docs` when started with `--port 8080`)
 - **A2A 1.0 Agent Card**: `http://localhost:8085/.well-known/agent.json`
@@ -20,7 +20,7 @@ Every HTTP response includes `X-API-Version: 1.2.0`. Calls to unversioned `/api/
 
 ---
 
-## 2. Endpoint summary (`124` OpenAPI 3.1 paths)
+## 2. Endpoint summary (`125` OpenAPI 3.1 paths)
 
 All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in `docs/openapi.yaml`.
 

@@ -9,20 +9,59 @@ Provides AI-assisted Merit Badge Counselor session planning and communication to
 """
 
 from typing import Any, Dict, List, Optional
+from pydantic import BaseModel, Field
 from src.agents.researcher import resolve_counselor_location
 from src.schemas import build_guided_tool_error
 
 
+class CounselorSessionAgendaRequest(BaseModel):
+    """Pydantic request contract for `generate_counselor_session_agenda`."""
+
+    badge_name: str = Field(..., description="Official Scouts BSA Merit Badge name.")
+    schedule_format: str = Field(
+        default="3 Troop Meetings (45 min each)",
+        description="Selected session schedule format.",
+    )
+    session_mode: str = Field(
+        default="",
+        description="Optional alias for schedule_format (e.g., TWO_TROOP_MEETINGS, SATURDAY_CLINIC, SUMMER_CAMP).",
+    )
+    counselor_name: str = Field(default="", description="Optional Merit Badge Counselor name.")
+    troop_affiliation: str = Field(default="", description="Optional troop and council affiliation.")
+    location_or_zip: str = Field(default="", description="Optional ZIP code or city/state.")
+    research_result: Optional[Dict[str, Any]] = Field(
+        default=None,
+        description="Optional pre-fetched MeritBadgeResearchResult dictionary.",
+    )
+
+
+class PrerequisiteParentLetterRequest(BaseModel):
+    """Pydantic request contract for `generate_prerequisite_parent_letter`."""
+
+    badge_name: str = Field(..., description="Official Scouts BSA Merit Badge name.")
+    counselor_name: str = Field(default="", description="Optional Merit Badge Counselor name.")
+    troop_affiliation: str = Field(default="", description="Optional troop and council affiliation.")
+    location_or_zip: str = Field(default="", description="Optional ZIP code or city/state.")
+    session_dates_or_location: str = Field(default="", description="Optional session dates or camp/hall location.")
+    counselor_email: str = Field(default="", description="Optional counselor contact email.")
+    phone_number: str = Field(default="", description="Optional counselor contact phone.")
+    research_result: Optional[Dict[str, Any]] = Field(
+        default=None,
+        description="Optional pre-fetched MeritBadgeResearchResult dictionary.",
+    )
+
+
 def generate_counselor_session_agenda(
     badge_name: str,
-    research_result: Dict[str, Any],
+    research_result: Optional[Dict[str, Any]] = None,
     schedule_format: str = "3 Troop Meetings (45 min each)",
     counselor_info: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Generates a structured minute-by-minute Merit Badge teaching agenda and EDGE station guide.
 
     Args:
-        badge_name: Official name of the Scouts BSA Merit Badge (e.g., `'Weather'`, `'First Aid'`).
+        badge_name: Official name of the Scouts BSA Merit Badge (e.g., `'Weather'`, `'First Aid'`),
+            or a `CounselorSessionAgendaRequest` instance.
         research_result: Serialized `MeritBadgeResearchResult` dictionary containing `requirements`.
         schedule_format: Selected session schedule format (`'3 Troop Meetings (45 min each)'`,
             `'Saturday Merit Badge Clinic (3 hours)'`, or `'Summer Camp Week (4x 45-min blocks)'`).
@@ -34,12 +73,28 @@ def generate_counselor_session_agenda(
         (list of structured session blocks), `agenda_markdown`, and `status` (or a
         `GuidedToolError` dictionary if `badge_name` or `research_result` is invalid).
     """
+    if isinstance(badge_name, CounselorSessionAgendaRequest):
+        req_obj = badge_name
+        badge_name = req_obj.badge_name
+        schedule_format = req_obj.session_mode or req_obj.schedule_format or schedule_format
+        counselor_info = counselor_info or {
+            "counselor_name": req_obj.counselor_name,
+            "troop_affiliation": req_obj.troop_affiliation,
+            "location_or_zip": req_obj.location_or_zip,
+        }
+        if req_obj.research_result is not None:
+            research_result = req_obj.research_result
+
     if not badge_name or not str(badge_name).strip():
         return build_guided_tool_error(
             error_code="EMPTY_BADGE_NAME",
             message="badge_name cannot be empty when generating a counselor session agenda.",
             remediation="Provide a valid Scouts BSA Merit Badge name such as 'Weather' or 'First Aid'.",
         )
+    if research_result is None:
+        from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
+
+        research_result = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=str(badge_name).strip()))
     if not isinstance(research_result, dict):
         return build_guided_tool_error(
             error_code="INVALID_RESEARCH_RESULT",
@@ -271,13 +326,13 @@ def generate_counselor_session_agenda(
 
 def generate_prerequisite_parent_letter(
     badge_name: str,
-    research_result: Dict[str, Any],
+    research_result: Optional[Dict[str, Any]] = None,
     counselor_info: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Generates a copy-pasteable email/letter to Scouts and parents detailing prerequisites and YPT rules.
 
     Args:
-        badge_name: Official name of the Scouts BSA Merit Badge.
+        badge_name: Official name of the Scouts BSA Merit Badge (or a `PrerequisiteParentLetterRequest` instance).
         research_result: Serialized `MeritBadgeResearchResult` dictionary containing `requirements`.
         counselor_info: Optional dictionary with `counselor_name`, `troop_affiliation`,
             `location_or_zip`, `email_address`, and `phone_number`.
@@ -286,12 +341,29 @@ def generate_prerequisite_parent_letter(
         Dict[str, Any]: Dictionary containing `badge_name`, `subject_line`, `letter_markdown`,
         `prerequisite_count`, and `status` (or a `GuidedToolError` dictionary on invalid input).
     """
+    if isinstance(badge_name, PrerequisiteParentLetterRequest):
+        req_obj = badge_name
+        badge_name = req_obj.badge_name
+        counselor_info = counselor_info or {
+            "counselor_name": req_obj.counselor_name,
+            "troop_affiliation": req_obj.troop_affiliation,
+            "location_or_zip": req_obj.location_or_zip or req_obj.session_dates_or_location,
+            "email_address": req_obj.counselor_email,
+            "phone_number": req_obj.phone_number,
+        }
+        if req_obj.research_result is not None:
+            research_result = req_obj.research_result
+
     if not badge_name or not str(badge_name).strip():
         return build_guided_tool_error(
             error_code="EMPTY_BADGE_NAME",
             message="badge_name cannot be empty when generating a prerequisite parent letter.",
             remediation="Provide a valid Scouts BSA Merit Badge name such as 'Weather' or 'First Aid'.",
         )
+    if research_result is None:
+        from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
+
+        research_result = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=str(badge_name).strip()))
     if not isinstance(research_result, dict):
         return build_guided_tool_error(
             error_code="INVALID_RESEARCH_RESULT",

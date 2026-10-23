@@ -390,8 +390,24 @@ def _format_top_requirement_strip_text(req_number: str, raw_verbatim: str, max_c
     return _concise_card_body(cleaned_lead, max_words=28, max_chars=max_chars)
 
 
-_ACTIVE_CONTAINER_STYLE: str = "BOXED_CARDS"
-_ACTIVE_FONT_DELTA_PT: float = 0.0
+import contextvars
+import threading
+
+_ACTIVE_CONTAINER_STYLE: contextvars.ContextVar[str] = contextvars.ContextVar(
+    "_ACTIVE_CONTAINER_STYLE", default="BOXED_CARDS"
+)
+_ACTIVE_FONT_DELTA_PT: contextvars.ContextVar[float] = contextvars.ContextVar(
+    "_ACTIVE_FONT_DELTA_PT", default=0.0
+)
+RENDER_CONCURRENCY_SEMAPHORE = threading.BoundedSemaphore(4)
+
+
+def _get_active_container_style() -> str:
+    return _ACTIVE_CONTAINER_STYLE.get()
+
+
+def _get_active_font_delta_pt() -> float:
+    return _ACTIVE_FONT_DELTA_PT.get()
 
 _ACUTE_HAZARD_KEYWORDS: Tuple[str, ...] = (
     "911", "ems", "bleed", "tourniquet", "shock", "fracture", "splint", "hypothermia",
@@ -418,8 +434,7 @@ def _is_acute_safety_hazard(warning_text: Optional[str], badge_name: str = "") -
 
 
 def _get_slide_effective_style(slide_spec: Optional[SlideSpec]) -> Dict[str, Any]:
-    """Resolves the effective slide layout style and updates module-level active rendering state."""
-    global _ACTIVE_CONTAINER_STYLE, _ACTIVE_FONT_DELTA_PT
+    """Resolves the effective slide layout style and updates ContextVar-isolated active rendering state."""
     if slide_spec is None:
         eff = resolve_effective_slide_style(template_profile="default_workbench")
     else:
@@ -428,8 +443,8 @@ def _get_slide_effective_style(slide_spec: Optional[SlideSpec]) -> Dict[str, Any
             deck_style=getattr(slide_spec, "deck_style", None),
             slide_spec=slide_spec,
         )
-    _ACTIVE_CONTAINER_STYLE = str(eff.get("text_container_style") or "BOXED_CARDS").upper()
-    _ACTIVE_FONT_DELTA_PT = float(eff.get("font_size_delta_pt") or 0.0)
+    _ACTIVE_CONTAINER_STYLE.set(str(eff.get("text_container_style") or "BOXED_CARDS").upper())
+    _ACTIVE_FONT_DELTA_PT.set(float(eff.get("font_size_delta_pt") or 0.0))
     return eff
 
 
@@ -443,7 +458,7 @@ def _compute_fitting_font_size(
     font_delta_pt: Optional[float] = None,
 ) -> float:
     """Computes the largest comfortable font size (in pt) that wraps cleanly inside [box_w_in x box_h_in] without overflowing in Google Slides."""
-    delta = _ACTIVE_FONT_DELTA_PT if font_delta_pt is None else float(font_delta_pt)
+    delta = _get_active_font_delta_pt() if font_delta_pt is None else float(font_delta_pt)
     adj_min = max(12.0, float(min_pt) + min(0.0, delta))
     adj_max = max(adj_min, float(max_pt) + delta)
     safe_min = max(12.0, adj_min)
@@ -532,7 +547,7 @@ def _add_styled_box(
     container_style: Optional[str] = None,
 ) -> Any:
     """Adds an instructional text container respecting `container_style` (`CLEAN_OPEN`, `LEFT_ACCENT_LINE`, or `BOXED_CARDS`)."""
-    eff_style = str(container_style or _ACTIVE_CONTAINER_STYLE or "BOXED_CARDS").strip().upper()
+    eff_style = str(container_style or _get_active_container_style() or "BOXED_CARDS").strip().upper()
     body_left = left_in
     body_top = top_in
     body_w = width_in
@@ -1098,7 +1113,7 @@ def _render_stacked_point_cards(
             tf.margin_right = Inches(0.14 if width_in < 7.0 else 0.18)
 
             use_step_pill = (
-                _ACTIVE_CONTAINER_STYLE == "BOXED_CARDS"
+                _get_active_container_style() == "BOXED_CARDS"
                 and tier != "STANDARD"
                 and anchor.startswith(f"0{idx_pt + 1}")
                 and bool(raw_anchor and body and c_h >= 0.72)
@@ -1682,7 +1697,8 @@ def _render_triage_matrix_zone(
         box_h = total_avail_h
 
     for col_idx, (col_title, header_rgb, bg_rgb, left_x, col_w) in enumerate(col_specs):
-        is_line_col = _ACTIVE_CONTAINER_STYLE == "LEFT_ACCENT_LINE"
+        active_c_style = _get_active_container_style()
+        is_line_col = active_c_style == "LEFT_ACCENT_LINE"
         card = _add_styled_box(
             slide,
             left_in=left_x,
@@ -1694,7 +1710,7 @@ def _render_triage_matrix_zone(
             border_pt=1.5 if tier in ("BEAUTIFIED", "STUDIO") else 1.25,
             left_accent_rgb=header_rgb if is_line_col else None,
             top_accent_rgb=None if is_line_col else header_rgb,
-            container_style=_ACTIVE_CONTAINER_STYLE,
+            container_style=active_c_style,
         )
         tf = card.text_frame
         tf.margin_top = Inches(0.07)
@@ -1963,7 +1979,7 @@ def _render_step_by_step_4card_zone(
         tf = card.text_frame
         tf.margin_top = Inches(0.06)
         tf.margin_bottom = Inches(0.05)
-        use_pill = _ACTIVE_CONTAINER_STYLE == "BOXED_CARDS" and tier != "STANDARD" and card_h >= 1.15 and cw >= 4.5
+        use_pill = _get_active_container_style() == "BOXED_CARDS" and tier != "STANDARD" and card_h >= 1.15 and cw >= 4.5
         head_line = f"{badge}  {anchor}"
         head_for_fit = f"          {anchor}" if use_pill else head_line
         step_font_pt = _compute_fitting_font_size(
@@ -2460,11 +2476,19 @@ def generate_bsa_slide_deck_pptx(
             recovery_suggestion="Call generate_slide_storyboard first and provide at least one SlideSpec in PowerPointBuildRequest.slides.",
         )
 
-    if getattr(request, "hitl_confirmation_token", None):
-        if not verify_hitl_confirmation_token(request.hitl_confirmation_token, request.badge_name):
+    require_hitl = os.environ.get("REQUIRE_HITL_CONFIRMATION", "false").strip().lower() in ("1", "true", "yes")
+    supplied_token = getattr(request, "hitl_confirmation_token", None)
+    if require_hitl and not supplied_token:
+        return build_guided_tool_error(
+            error_type="HITL_CONFIRMATION_TOKEN_REQUIRED",
+            message=f"REQUIRE_HITL_CONFIRMATION is enabled, but no hitl_confirmation_token was supplied for '{request.badge_name}'.",
+            recovery_suggestion="Call request_counselor_confirmation first to obtain a valid HMAC-SHA256 confirmation_token.",
+        )
+    if supplied_token:
+        if not verify_hitl_confirmation_token(supplied_token, request.badge_name):
             return build_guided_tool_error(
                 error_type="INVALID_HITL_CONFIRMATION_TOKEN",
-                message=f"Supplied hitl_confirmation_token '{request.hitl_confirmation_token}' is invalid for '{request.badge_name}'.",
+                message=f"Supplied hitl_confirmation_token '{supplied_token}' is invalid for '{request.badge_name}'.",
                 recovery_suggestion="Call request_counselor_confirmation first to obtain a valid HMAC-SHA256 confirmation_token.",
             )
 
@@ -2977,7 +3001,7 @@ def generate_bsa_slide_deck_pptx(
             warn_border = (248, 113, 113) if s_tier == "STUDIO" else ScoutsBSAPalette.EAGLE_RED_RGB
             safety_container_style = (
                 "LEFT_ACCENT_LINE"
-                if (safety_mode == "COMPACT_ACCENT" or _ACTIVE_CONTAINER_STYLE in ("CLEAN_OPEN", "LEFT_ACCENT_LINE"))
+                if (safety_mode == "COMPACT_ACCENT" or _get_active_container_style() in ("CLEAN_OPEN", "LEFT_ACCENT_LINE"))
                 else "BOXED_CARDS"
             )
             callout_box = _add_styled_box(
@@ -3092,7 +3116,8 @@ def generate_bsa_slide_deck_pptx(
     # 3. SAVE FILE & CLEAN UP TEMPORARY SLIDE-UNIQUE IMAGE COPIES
     # -------------------------------------------------------------------------
     out_filename = request.output_path or f"{badge_title.replace(' ', '_')}_Merit_Badge_Deck.pptx"
-    prs.save(out_filename)
+    with RENDER_CONCURRENCY_SEMAPHORE:
+        prs.save(out_filename)
     for tmp_u in temp_unique_files:
         try:
             if os.path.exists(tmp_u):
@@ -3115,3 +3140,6 @@ def generate_bsa_slide_deck_pptx(
         status="SUCCESS",
     )
     return result.model_dump()
+
+
+compile_deck_to_pptx = generate_bsa_slide_deck_pptx

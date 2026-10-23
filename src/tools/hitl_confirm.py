@@ -8,6 +8,7 @@ using HMAC-SHA256 confirmation tokens bound to the badge storyboard.
 from datetime import datetime, timezone
 import hashlib
 import hmac
+import os
 from typing import Any, Dict, Optional
 from pydantic import BaseModel, Field, ValidationError
 from src.config import get_secret
@@ -226,6 +227,16 @@ def verify_hitl_before_tool_callback(
         token = getattr(req_obj, "hitl_confirmation_token", None) or args.get("hitl_confirmation_token")
         badge_name = getattr(req_obj, "badge_name", "") or args.get("badge_name", "")
 
+    require_hitl = os.environ.get("REQUIRE_HITL_CONFIRMATION", "false").strip().lower() in ("1", "true", "yes")
+    if require_hitl and not token:
+        return build_guided_tool_error(
+            error_type="HITL_CONFIRMATION_TOKEN_REQUIRED",
+            message=f"REQUIRE_HITL_CONFIRMATION is enabled, but no hitl_confirmation_token was provided for '{badge_name}'.",
+            recovery_suggestion=(
+                "Call request_counselor_confirmation first to obtain a valid confirmation_token "
+                "before calling generate_bsa_slide_deck_pptx."
+            ),
+        )
     if token and not verify_hitl_confirmation_token(token, badge_name):
         return build_guided_tool_error(
             error_type="HITL_CONFIRMATION_TOKEN_INVALID",

@@ -53,7 +53,7 @@ curl -fsS http://127.0.0.1:8080/api/v1/admin/maintenance/snapshot -o deliverable
 ## 2. Google Cloud provisioning and CI/CD deployment
 
 ### 2.1 Step 1: Provision infrastructure with Terraform (`terraform/`)
-`terraform/main.tf` creates the dedicated least-privilege service account (`scouts-bsa-agent-sa`), custom VPC (`scouts-bsa-agent-vpc`), private subnet with Private Google Access and flow logs, Cloud Armor WAF policy (`scouts-bsa-agent-cloud-armor-waf`), Secret Manager secrets (`gemini-api-key`, `bsa-hitl-secret-key`), versioned Cloud Storage bucket, and Cloud Run v2 service (`min_instance_count = 1`, `max_instance_count = 10`).
+`terraform/main.tf` and `terraform/iam.tf` create the dedicated least-privilege service accounts (`scouts-bsa-agent-sa`), IAM bindings, custom VPC (`scouts-bsa-agent-vpc`), private subnet with Private Google Access and flow logs, Cloud Armor WAF policy (`scouts-bsa-agent-cloud-armor-waf`), Secret Manager secrets (`gemini-api-key`, `bsa-hitl-secret-key`), versioned Cloud Storage bucket, and Cloud Run v2 service (`memory_limit = "4Gi"`, `min_instance_count = 1`, `max_instance_count = 10`).
 
 ```bash
 cd terraform
@@ -74,7 +74,7 @@ openssl rand -hex 32 | gcloud secrets versions add bsa-hitl-secret-key \
 ```
 
 ### 2.3 Step 3: Run the Cloud Build canary pipeline (`cloudbuild.yaml`)
-`cloudbuild.yaml` runs `ruff check`, `pytest tests/` (`77` automated tests), and `scripts/run_eval.py` (`scripts/eval_gate.py`). If any check fails, the build stops before touching Cloud Run. When all checks pass, it deploys a `canary` revision at `10%` traffic, checks `/readiness`, and promotes the revision to `100%` (or rolls back automatically if the canary probe fails):
+`cloudbuild.yaml` runs `ruff check`, `pytest tests/` (`88/88` passing automated tests with `0` warnings), load testing (`tests/load/load_test.py` and `tests/load/locustfile.py`), and the 20-badge golden evaluation suite (`scripts/run_eval.py` and `scripts/eval_gate.py`). If any check fails, the build stops before touching Cloud Run. When all checks pass, it deploys a `canary` revision at `10%` traffic, checks `/readiness`, and promotes the revision to `100%` (or rolls back automatically if the canary probe fails):
 
 ```bash
 gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}"
@@ -204,7 +204,7 @@ gcloud run services update-traffic scouts-bsa-merit-badge-agent \
    ```
 
 ### 4.3 Backing up and restoring the SQLite session and Zero-PII telemetry stores
-Use SQLite's online `.backup` command to snapshot both `scouts_bsa_sessions.db` (sessions, hybrid vector memory, badge image catalog, HITL feedback, and `polished_speaker_notes`) and `scouts_bsa_telemetry.db` (`ZeroPiiTelemetryStore` deck runs, image swaps, stage latencies, and `OnlineProductionAuditSampler` samples) without locking active readers:
+Use SQLite's online `.backup` command to snapshot both `scouts_bsa_sessions.db` (all 9 tables: `sessions` / `counselor_sessions`, `events`, `pamphlet_Requirement_chunks` / `pamphlet_vector_memory`, `counselor_feedback` / `hitl_feedback`, `badge_image_catalog`, `polished_speaker_notes`, `counselor_workspaces`, `counselor_favorites`, `user_preferences`, and `compliance_attestation_ledger`) and `scouts_bsa_telemetry.db` (`ZeroPiiTelemetryStore` deck runs, image swaps, stage latencies, and `OnlineProductionAuditSampler` samples) without locking active readers:
 
 ```bash
 # Create online backups of both SQLite databases

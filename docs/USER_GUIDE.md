@@ -66,9 +66,29 @@ The Workbench is organized into four main areas plus a bottom footer so you can 
 | :--- | :--- | :--- |
 | **Top Application Bar** | Across the very top of the window | Shows your **Counselor Profile Pill**, the **`🗂️ My Decks | ▾`** button for opening your saved decks library or switching active decks in one click, **`🤖 MCP Hub`**, **`📘 Documentation`** (shortcut `D`), **`🌙 Dark`** and **`☀️ Sunlight`** display modes, **`⌨️ Keys`** keyboard shortcuts, **`📥 Export & Print ▾`**, and the primary **Download Slide Deck (.PPTX) / Open in Google Slides** split-button. |
 | **Left Setup Sidebar** | Left column (`1. Find & Select Merit Badge` and `2. Deck Style & Counselor Info`) | Lets you choose or star any of the 144 Merit Badges, switch the **Quick-Select Badges** bar between **🔥 Popular**, **⭐ Favorites**, and **🗂️ Decks**, open the **144-Badge Patch Gallery**, pick a **PowerPoint Template** and **Deck Layout Style**, set deck length and target Scout age group, enter your local troop information, and click **✨ Generate Slide Deck & Workbook**. You can fold this sidebar away anytime by clicking **⬅ Hide Setup** on the left side of the main tab bar. |
-| **Blue Merit Badge Summary Banner** | Top of the right main workspace | Shows the official Merit Badge patch emblem, whether the badge is **Eagle-Required** or **Elective**, the badge category, direct links to the **📘 Official BSA Pamphlet** and **↗ Resource Guide**, and three summary pills on the right showing **TOTAL SLIDES**, **REQUIREMENTS**, and **SLIDE THEME**. |
+| **Blue Merit Badge Summary Banner** | Top of the right main workspace | Shows the official Merit Badge patch emblem, whether the badge is **Eagle-Required** or **Elective**, the badge category, direct links to the **📘 Official BSA Pamphlet** and **↗ Resource Guide**, the **`🎬 Demo ▾`** interactive guided tour launcher, and three summary pills on the right showing **TOTAL SLIDES**, **REQUIREMENTS**, and **SLIDE THEME**. |
 | **Main Workbench Tabs** | Directly below the blue summary banner | Switches the main workspace between:<br/>1. **📊 1. Slides & Notes**<br/>2. **📚 2. Requirements & Blue Cards**<br/>3. **📘 3. Scout Workbook**<br/>4. **🗓️ 4. Class Prep & Letters** |
 | **Application Footer** | Bottom of the window | Displays creator credits, **LinkedIn Profile**, the **GitHub** repository link, feedback email, and the **🔒 Admin** Console link. |
+
+### Launching an Interactive Narrated Guided Tour (`🎬 Demo ▾`)
+
+Want to see the Workbench's key features in action right away? Click the gold **`🎬 Demo ▾`** button in the Blue Merit Badge Summary Banner (right next to **📘 Official BSA Pamphlet** and **↗ Resource Guide**) to choose from **8 interactive, narrated step-by-step walkthroughs**:
+
+![Interactive Guided Demo Launcher Menu](images/ug-guided-demo-menu.png)
+
+![Guided Demo Tour Bar, Virtual Cursor, Spotlight Ring & Floating Callout on Citizenship in the Nation Requirement 8](images/ug-demo-citizenship-req8-spotlight.png)
+
+- **Docked Guided Demo Tour Bar**: Appears directly below the main navigation tabs and narrates every step with a clear 1 to 2 line description, interactive step-number pills (`1`, `2`, `3`, ...), and playback controls (**`⏮ Prev`**, **`⏸ Pause / ▶ Resume`**, **`⏭ Next Step`**, **`🎬 Next Demo ▸`**, and **`✕ Exit`**). Each step pauses automatically so you can watch what is happening or pause at any point to explore on your own.
+- **Live Virtual Cursor, Glowing Spotlight Ring & Floating Callout Bubble**: Because the Workbench packs rich authoring and classroom tools onto one screen, each demo step glides an animated virtual pointer cursor to the active control, frames the target area with a glowing gold and navy spotlight ring, and anchors a floating callout card right beside it.
+- **8 Built-In Walkthroughs**:
+  1. **🦅 1. Eagle-Required Badge & Local Regional Grounding (*Citizenship in the Nation*)**: Selects *Citizenship in the Nation* from **🔥 Popular**, confirms that **Local Regional Grounding** is enabled (`Middleton, MA 01949`), and steps through the **Requirement 8** slides showing the local state name (`Massachusetts`), both U.S. Senators (`Sen. Elizabeth Warren` and `Sen. Edward J. Markey`), the local U.S. House Representative (`Rep. Seth Moulton, D-MA-6`), and the **Worked Example Constituent Letter** template.
+  2. **⛳ 2. Multi-Option Badge & 3-Level Sub-Requirement Tree (*Golf: Option B Disc Golf*)**: Selects *Golf (Option B: Disc Golf)*, steps through unrolled 3-level sub-requirements (`2b(1)`, `2b(3)`, and `2b(5)(a)-(d)` grips and X-Step backhand drives), and opens the **Requirements & Blue Cards** matrix.
+  3. **🛡️ 3. Youth Protection Guardrail, Workflow Trace & FinOps Ledger**: Opens the **📊 Multi-Agent Workflow Trace & FinOps** drawer tab to inspect the 7-agent execution timeline and unit economics table, then launches the **4-Tab Image Studio** to demonstrate a live **BSA Youth Protection (YPT) & Zero-PII Guardrail** intercept.
+  4. **🎨 4. Live Layout Style Switcher & 17-Template Studio**: Compares *Clean & Borderless*, *Editorial Left-Accent Line*, and *Boxed Cards* on the 16:9 stage and opens the 17-Template PowerPoint Gallery.
+  5. **🖼️ 5. On-Stage Image Switcher (`<50ms`) & Per-Slide Co-Design**: Cycles pre-bundled pamphlet and handbook visuals via the on-stage Easy Image Switcher (`[` / `]`) and previews Slide Layout archetypes.
+  6. **🪟 6. Split-Screen Presenter View, Patrol Quiz & Scoreboard**: Jumps to a Patrol Scenario Checkpoint Quiz slide, awards Patrol points on the 4-Patrol Scoreboard, and opens Split-Screen Presenter View (`P`).
+  7. **📇 7. Digital Blue Card (`#34124`) Sign-Off & Scannable QR Handout**: Demonstrates Patrol requirement sign-off, Scoutbook Plus CSV export, and the scannable ISO 18004 QR Pocket Study Guide.
+  8. **🔌 8. 22-Capability MCP Playground & 12-Doc Reference Studio**: Executes a live JSON-RPC 2.0 tool call in the Model Context Protocol Playground and opens the 12-Document Reference Studio (`D`).
 
 > [!TIP]
 > **Need More Screen Space for Your Projector?** Click **⬅ Hide Setup** on the left edge of the main tabs bar to fold away the left setup sidebar, and click **« Outline** above the slide stage to fold away the slide list. Click **➡ Show Setup** or **» Outline** whenever you want them back.
@@ -245,13 +265,14 @@ When **📊 1. Slides & Notes** is active, you have fast controls for navigating
 
 ## 7. Step 5: Customizing Individual Slides, Layouts, Graphics & Text
 
-Directly below the 16:9 slide stage sits the **3-Tab Under-Stage Drawer**, which gives you everything you need to teach or customize the active slide without scrolling down a long page:
+Directly below the 16:9 slide stage sits the **4-Tab Under-Stage Drawer**, which gives you everything you need to teach, customize, or inspect the active slide and multi-agent workflow without scrolling down a long page:
 
 ```mermaid
 flowchart TD
-    Drawer["Under-Stage Drawer<br/>(Directly Below the 16:9 Slide Stage)"] --> Tab1["🎙️ Tab 1: Counselor Teaching Notes<br/>([SAY], [DEMONSTRATE], [ASK SCOUTS])"]
+    Drawer["4-Tab Under-Stage Drawer<br/>(Directly Below the 16:9 Slide Stage)"] --> Tab1["🎙️ Tab 1: Counselor Teaching Notes<br/>([SAY], [DEMONSTRATE], [ASK SCOUTS])"]
     Drawer --> Tab2["🎨 Tab 2: Customize Slide & Image Studio<br/>(Slide Layout, Point Style, Palette & Graphic)"]
     Drawer --> Tab3["✏️ Tab 3: Quick Edit Slide Text<br/>(Edit Title, Caption, Cards & Notes in Place)"]
+    Drawer --> Tab4["📊 Tab 4: Multi-Agent Workflow Trace & FinOps<br/>(7-Agent Timeline, Latency, SHA-256 Lock & Cost Ledger)"]
     Tab2 --> Modal["🖼️ Open 4-Tab Image Studio<br/>(Catalog / Web / AI / Upload)"]
     Modal --> M1["🗂️ 1. Badge Image Catalog & Carousel"]
     Modal --> M2["🌐 2. Web Image Search Agent"]
@@ -303,10 +324,12 @@ Click **🖼️ Open 4-Tab Image Studio (Catalog / Web / AI / Upload)** near the
    - Creates a custom illustration tailored to your slide:
      - **1. Visual Illustration Style**: Choose **✨ Auto (Content-Aware Mix)** to let the tool pick the best style for the slide topic, or choose a specific style (*Photorealistic Image*, *4-Quadrant Concept Map*, *Line Drawing*, *Watercolor Field Sketch*, *Technical Diagram*, *3D Isometric Illustration*, *Editorial Vector Illustration*, *Cartoon Drawing*, or *Vintage Merit Badge Poster*).
      - **2. Human Presence & Uniform Directive**: Choose **✨ Auto-Detect**, **👕 Include Humans (Adult Scouts BSA Uniforms)**, or **🧰 No Humans (Pure Equipment / Environment)**, or toggle the **Include Uniformed Scouts** checkbox.
-     - **3. Visual Scene Description**: Edit or refine the scene description you want illustrated.
+     - **3. Visual Scene Description**: Edit or refine the scene description you want illustrated, or click the **`✨ Sample Safe Diagram`** or **`🛡️ Test YPT / PII Safety Guardrail`** quick-fill buttons above the prompt box to preview how the bidirectional **Scouts BSA Model Armor & Youth Protection (Two-Deep Leadership + Zero-PII) Guardrail** blocks unsafe one-on-one youth scenarios and redacts personal information before any external AI call (`$0.00` charged).
    - Check the **`$0.08 USD`** cost consent box and click **🍌 Generate, Verify & Apply Custom AI Graphic (`$0.08 USD`)**.
 4. **📁 4. File Upload**:
    - Click **1. Select Local Image File (PNG, JPG, WEBP, GIF)** to pick a photo from your own computer (such as a photo from a troop campout or your own training prop), enter an optional title and description, and click **📁 Upload, Cache & Apply Local Image to Slide (`$0.00 USD`)**.
+
+![4-Tab Image Studio Showing BSA Youth Protection and Zero-PII Model Armor Guardrail Intercept](images/ug-ypt-pii-guardrail-demo.png)
 
 ### Drawer Tab 3: `✏️ Quick Edit Slide Text`
 
@@ -318,6 +341,16 @@ Want to tweak a slide title, reword a teaching point, or add a personal story to
    - **Slide Teaching Cards (One card per line: use "Heading: Body text")**
    - **Counselor Teaching Script (`[SAY]`, `[DEMONSTRATE]`, `[ASK SCOUTS]`)**
 3. Click **💾 Save Slide Edits & Rebuild .PPTX**. Your live slide preview and your downloadable PowerPoint deck update in less than a second at zero cost.
+
+### Drawer Tab 4: `📊 Multi-Agent Workflow Trace & FinOps`
+
+Click **📊 Multi-Agent Workflow Trace & FinOps** on the right side of the Under-Stage Drawer to inspect how your Merit Badge package was grounded, verified, and budgeted:
+
+![Under-Stage Tab 4: 7-Agent Google ADK Workflow Trace, Grounding Lock & Live Run FinOps Ledger](images/ug-multi-agent-workflow-trace-and-finops.png)
+
+- **5-Metric Telemetry & Conformance Strip**: Shows **First Status Event (SSE)** latency (`<500ms` SLO), **True First Content Token (TTFT)** latency, **SHA-256 Requirement Lock** (`100%` verbatim pamphlet verification with zero requirement drift), **AABB Geometry & YPT QA** (`0` bounding-box overlaps in `<10ms` plus bidirectional Zero-PII verification), and **Run Cost / Budget Ceiling** (`$0.006` warm cache vs. `$0.184` cold default under the `$1.00` hard cap).
+- **🤖 7-Agent Google ADK Pipeline & Tool Boundary Timeline**: Lists all 7 execution stages (`01 BSAPamphletTryRagAgent`, `02 JurisdictionalWebResearchAgent`, `03 EDGECurriculumArchitectAgent`, `04 SlideDeckStoryboardPlannerAgent`, `05 VisualQuality & AABB Geometry LoopAgent`, `06 PreBundledAssetMatcher & NanoBanana Studio`, and `07 ScoutsBSAModelArmor & ComplianceLedger`) with per-stage latency, model tier, and resolved local civic/NOAA citations.
+- **💰 Live Run FinOps Token & Unit Economics Ledger**: Displays the active run's token and cost breakdown alongside a **`🛡️ Test YPT / PII Guardrail`** button and a **`📋 Copy Trace JSON`** button.
 
 ---
 

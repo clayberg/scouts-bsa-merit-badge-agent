@@ -17,7 +17,10 @@ import re
 import time
 from typing import Any, Callable, Dict, Optional
 from opentelemetry.trace import Status, StatusCode
-from pythonjsonlogger import jsonlogger
+try:
+    from pythonjsonlogger.json import JsonFormatter as _BaseJsonFormatter
+except ImportError:
+    from pythonjsonlogger.jsonlogger import JsonFormatter as _BaseJsonFormatter
 from src.observability.tracing import tracer
 
 # ==============================================================================
@@ -118,7 +121,7 @@ def scrub_pii_from_structure(data: Any) -> Any:
 # STRUCTURED JSON LOGGER SETUP
 # ==============================================================================
 
-class PIIRedactingJsonFormatter(jsonlogger.JsonFormatter):
+class PIIRedactingJsonFormatter(_BaseJsonFormatter):
     """Custom JSON formatter that redacts PII fields before serializing log records."""
 
     def format(self, record: logging.LogRecord) -> str:

@@ -1,15 +1,15 @@
 {
   "manifest_version": "1.0.0",
-  "generated_at_utc": "2026-10-22T20:39:51.452795+00:00",
+  "generated_at_utc": "2026-10-23T04:20:49.004327+00:00",
   "total_curated_visual_assets": 3917,
   "total_official_merit_badges": 144,
   "builtin_pptx_templates": 17,
   "deployment_note": "The full 1.2 GB assets/ directory (3,917 PNG visual assets, 144 BSA Pamphlet PDFs, and 17 PowerPoint templates) is present in the live workspace and baked into the Argolis Cloud Run Docker container image (Dockerfile COPY assets/ ./assets/). The standalone go/capstone-app submission bundle omits bulk binary PNG/PDF media to satisfy the portal's < 30 MB upload cap (MAX_BUNDLE_SIZE_MB = 30).",
   "category_breakdown": {
     "ai_illustrations": {
-      "file_count": 1349,
-      "total_bytes": 251538601,
-      "total_mb": 239.89
+      "file_count": 1351,
+      "total_bytes": 252053697,
+      "total_mb": 240.38
     },
     "pamphlet_images": {
       "file_count": 2344,

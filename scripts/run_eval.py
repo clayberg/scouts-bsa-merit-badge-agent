@@ -2,7 +2,7 @@
 """Canonical Golden Dataset & Online Audit Sampler Evaluation Runner (`scripts/run_eval.py`).
 
 Executes:
-1. The deterministic + rubric-graded 12-badge Golden Dataset evaluation suite (`scripts/eval_gate.py`):
+1. The deterministic + rubric-graded 20-badge Golden Dataset evaluation suite (`scripts/eval_gate.py`):
    - Hybrid BM25 + Vector RRF retrieval (`Recall@3 = 1.0000`, `MRR = 1.0000`)
    - Cryptographic SHA-256 verbatim requirement lock (`0` character drift)
    - Stage 1 `<10ms` AABB PowerPoint geometry conformance (`0.0 sq in` overlap, `>= 12.0pt` font floor)
@@ -18,6 +18,8 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -30,10 +32,13 @@ def main(argv: list[str] | None = None) -> int:
         return proc.returncode
 
     # Verify the 5% Online Production Audit Sampler health and deterministic audit scoring
-    from src.observability.online_audit_sampler import get_online_audit_sampler
+    from src.observability.online_audit_sampler import (
+        get_online_audit_summary,
+        get_online_production_audit_sampler,
+    )
 
-    sampler = get_online_audit_sampler()
-    summary = sampler.get_summary()
+    sampler = get_online_production_audit_sampler()
+    summary = get_online_audit_summary() if sampler else {}
     print(
         f"[ONLINE-AUDIT-SAMPLER] configured_rate={summary.get('configured_sample_rate', 0.05):.2f} "
         f"status=ACTIVE total_sampled={summary.get('total_sampled_runs', 0)}"

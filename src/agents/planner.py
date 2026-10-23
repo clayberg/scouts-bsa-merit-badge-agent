@@ -152,6 +152,35 @@ def _split_anchor_and_detail(raw_point: str, fallback_anchor: str = "Key Concept
     return fallback_anchor, cleaned
 
 
+def compile_conversational_speaker_notes(
+    badge_name: str,
+    req_number: str = "1a",
+    slide_title: str = "",
+    bullet_points: Optional[List[str]] = None,
+    verbatim_text: str = "",
+    verbatim_req_text: str = "",
+    visual_caption: str = "",
+    archetype: str = "CONCEPT_TEXT_SLIDE",
+    execution_mode: str = "IN_CLASS_DISCUSSION",
+    safety_callout: Optional[str] = None,
+    safety_warning: Optional[str] = None,
+    audience_level: str = "All Scouts (Ages 11-17)",
+) -> str:
+    """Public helper that compiles a conversational Counselor Teaching Script for a slide."""
+    return _build_slide_teaching_notes(
+        badge_name=badge_name,
+        req_num=str(req_number or "1a"),
+        execution_mode=execution_mode,
+        slide_title=slide_title or f"{badge_name} Requirement {req_number}",
+        archetype=archetype or "CONCEPT_TEXT_SLIDE",
+        req_text=verbatim_req_text or verbatim_text,
+        bullet_points=bullet_points or [],
+        visual_caption=visual_caption,
+        safety_callout=safety_warning or safety_callout,
+        audience_level=audience_level,
+    )
+
+
 def _build_slide_teaching_notes(
     badge_name: str,
     req_num: str,

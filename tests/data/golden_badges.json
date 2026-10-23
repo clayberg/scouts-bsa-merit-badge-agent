@@ -4,69 +4,159 @@
     "is_eagle_required": true,
     "expected_min_requirements": 3,
     "has_safety_callout": true,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["choking", "tourniquet", "CPR", "triage"]
   },
   {
     "badge_name": "Camping",
     "is_eagle_required": true,
     "expected_min_requirements": 3,
     "has_safety_callout": true,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["Leave No Trace", "Outdoor Code", "tent", "hypothermia"]
   },
   {
     "badge_name": "Citizenship in the Community",
     "is_eagle_required": true,
     "expected_min_requirements": 2,
     "has_safety_callout": true,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["community", "local government", "service", "council"]
   },
   {
     "badge_name": "Citizenship in the Nation",
     "is_eagle_required": true,
     "expected_min_requirements": 2,
     "has_safety_callout": false,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["Constitution", "Bill of Rights", "branches", "Congress"]
   },
   {
     "badge_name": "Citizenship in the World",
     "is_eagle_required": true,
     "expected_min_requirements": 2,
     "has_safety_callout": false,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["international", "treaty", "passport", "sovereignty"]
   },
   {
     "badge_name": "Communication",
     "is_eagle_required": true,
     "expected_min_requirements": 2,
     "has_safety_callout": false,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["speech", "campfire", "listening", "presentation"]
   },
   {
     "badge_name": "Cooking",
     "is_eagle_required": true,
     "expected_min_requirements": 3,
     "has_safety_callout": true,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["food safety", "MyPlate", "camp stove", "trail meals"]
   },
   {
     "badge_name": "Personal Fitness",
     "is_eagle_required": true,
     "expected_min_requirements": 2,
     "has_safety_callout": true,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["aerobic", "strength", "flexibility", "12-week log"]
   },
   {
     "badge_name": "Robotics",
     "is_eagle_required": false,
     "expected_min_requirements": 2,
     "has_safety_callout": false,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["sensors", "actuators", "degrees of freedom", "programming"]
   },
   {
     "badge_name": "Welding",
     "is_eagle_required": false,
     "expected_min_requirements": 2,
     "has_safety_callout": true,
-    "expected_palette": "Navy Blue"
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["PPE", "auto-darkening helmet", "SMAW", "GMAW"]
+  },
+  {
+    "badge_name": "Weather",
+    "is_eagle_required": false,
+    "expected_min_requirements": 3,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["meteorology", "cold front", "barometer", "cumulonimbus"]
+  },
+  {
+    "badge_name": "Emergency Preparedness",
+    "is_eagle_required": true,
+    "expected_min_requirements": 3,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["mitigation", "preparedness", "response", "recovery"]
+  },
+  {
+    "badge_name": "Environmental Science",
+    "is_eagle_required": true,
+    "expected_min_requirements": 3,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["ecology", "biosphere", "ecosystem", "environmental impact"]
+  },
+  {
+    "badge_name": "Personal Management",
+    "is_eagle_required": true,
+    "expected_min_requirements": 3,
+    "has_safety_callout": false,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["budget", "compound interest", "13-week", "schedule"]
+  },
+  {
+    "badge_name": "Swimming",
+    "is_eagle_required": true,
+    "expected_min_requirements": 3,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["Safe Swim Defense", "BSA swimmer test", "strokes", "buddy check"]
+  },
+  {
+    "badge_name": "Lifesaving",
+    "is_eagle_required": true,
+    "expected_min_requirements": 3,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["Reach Throw Row Go", "water rescue", "victim", "Safe Swim Defense"]
+  },
+  {
+    "badge_name": "Sustainability",
+    "is_eagle_required": true,
+    "expected_min_requirements": 3,
+    "has_safety_callout": false,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["conservation", "water", "food waste", "energy"]
+  },
+  {
+    "badge_name": "Cybersecurity",
+    "is_eagle_required": false,
+    "expected_min_requirements": 3,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["CIA triad", "encryption", "phishing", "multi-factor"]
+  },
+  {
+    "badge_name": "Archery",
+    "is_eagle_required": false,
+    "expected_min_requirements": 2,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["range safety", "whistle commands", "nock", "bow"]
+  },
+  {
+    "badge_name": "Astronomy",
+    "is_eagle_required": false,
+    "expected_min_requirements": 3,
+    "has_safety_callout": true,
+    "expected_palette": "Navy Blue",
+    "expected_keywords": ["light pollution", "telescope", "constellations", "solar filter"]
   }
 ]

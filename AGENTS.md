@@ -44,7 +44,7 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
 
 Before committing code or packaging `repo.bundle`, run:
 
-1. **Test Suite (`77/77` passing tests)**:
+1. **Test Suite (`88/88` passing tests)**:
    ```bash
    .venv/bin/pytest tests/ -q
    ```

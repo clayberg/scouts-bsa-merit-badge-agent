@@ -36,10 +36,10 @@
 - [x] **Step 3**: Selected project and defined Scoping (`SCOPE.md`, `SPEC.md`) + Technical Design (`docs/TDD.md`, `docs/ARCHITECTURE.md`)
 - [x] **Step 4**: Initialized `docs/CAPSTONE_TRACKER.md` and `AGENTS.md`
 - [x] **Step 5**: Completed Duckie research, `3.0 / 3.0` implementation plan & 3-persona adversarial review
-- [x] **Step 6**: Built local 7-Agent Google ADK backend, dual architecture diagrams, persistent SQLite/CloudSQL state, bidirectional PII scrubbing, evals (`scripts/run_eval.py`) & `pytest` (`77/77` passing)
-- [x] **Step 7**: Built and verified interactive Material 3 Expressive A2UI frontend locally (`./run_local.sh`)
+- [x] **Step 6**: Built local 7-Agent Google ADK backend, dual architecture diagrams, persistent SQLite/CloudSQL state (9 tables incl. `compliance_attestation_ledger`), bidirectional PII scrubbing, 20-badge golden evals (`scripts/run_eval.py`) & `pytest` (`88/88` passing, `0` warnings, `125` OpenAPI paths)
+- [x] **Step 7**: Built and verified interactive Material 3 Expressive A2UI frontend locally (`./run_local.sh`), including `🎬 Demo ▾` (8 narrated multi-step guided tours with live virtual cursor, spotlight ring, and floating callout) and 4-Tab Under-Stage Drawer (`📊 Multi-Agent Workflow Trace & FinOps`)
 - [x] **Step 8**: Pushed to `cloud-ai-fde` GitHub, tagged `capstone-20261022` (annotated tag with `Submission URL`), and verified `< 30 MB` `repo.bundle` (`10.19 MB`)
-- [x] **Step 9**: Created Terraform IaC (`terraform/main.tf`, `variables.tf`, `outputs.tf`), `cloudbuild.yaml`, and smoke tests (`scripts/smoke_test_deployment.py`)
+- [x] **Step 9**: Created modular Terraform IaC (`terraform/main.tf`, `terraform/iam.tf`, `variables.tf`, `outputs.tf`), `cloudbuild.yaml`, and smoke tests (`scripts/smoke_test_deployment.py`)
 - [x] **Step 10**: Configured Cloud Run v2 topology (`min-instances=1`) and verified health/readiness probes (`/health`, `/readiness`)
 - [x] **Step 11**: Verified Executive Readout deck requirements (`12` core slides, strictly `<= 15` core slides)
 - [x] **Step 12**: Built 12-slide Executive Readout deck via Slide Ops (`pres-fc3fc5e36b5b`) and synced to Google Slides (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`)

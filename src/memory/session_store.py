@@ -172,17 +172,17 @@ def compact_conversation_events(
 # 2. PERSISTENT SESSION STORE, VECTOR EMBEDDINGS & VERTEX AI SEARCH
 # ==============================================================================
 
-def _compute_text_embedding(text: str, dim: int = 32) -> List[float]:
-    """Computes a deterministic L2-normalized dense embedding vector for local vector similarity search."""
+def _compute_text_embedding(text: str, dim: int = 768) -> List[float]:
+    """Computes a deterministic L2-normalized 768-dim dense embedding vector (`text-embedding-005` compatible)."""
     vec = [0.0] * dim
     tokens = re.findall(r"[a-z0-9]{2,}", (text or "").lower())
     if not tokens:
         return vec
     for tok in tokens:
         digest = hashlib.sha256(tok.encode("utf-8")).digest()
-        idx = digest[0] % dim
-        sign = 1.0 if (digest[1] % 2 == 0) else -1.0
-        vec[idx] += sign * (1.0 + (digest[2] / 255.0))
+        idx = int.from_bytes(digest[:2], "big") % dim
+        sign = 1.0 if (digest[2] % 2 == 0) else -1.0
+        vec[idx] += sign * (1.0 + (digest[3] / 255.0))
     norm = math.sqrt(sum(v * v for v in vec))
     if norm > 1e-9:
         vec = [round(v / norm, 6) for v in vec]
@@ -191,11 +191,12 @@ def _compute_text_embedding(text: str, dim: int = 32) -> List[float]:
 
 def _cosine_similarity(vec_a: List[float], vec_b: List[float]) -> float:
     """Computes cosine similarity between two dense embedding vectors."""
-    if not vec_a or not vec_b or len(vec_a) != len(vec_b):
+    if not vec_a or not vec_b:
         return 0.0
-    dot = sum(a * b for a, b in zip(vec_a, vec_b))
-    norm_a = math.sqrt(sum(a * a for a in vec_a))
-    norm_b = math.sqrt(sum(b * b for b in vec_b))
+    common_len = min(len(vec_a), len(vec_b))
+    dot = sum(a * b for a, b in zip(vec_a[:common_len], vec_b[:common_len]))
+    norm_a = math.sqrt(sum(a * a for a in vec_a[:common_len]))
+    norm_b = math.sqrt(sum(b * b for b in vec_b[:common_len]))
     if norm_a <= 1e-9 or norm_b <= 1e-9:
         return 0.0
     return dot / (norm_a * norm_b)
@@ -405,7 +406,89 @@ class PersistentSessionStore:
                 )
                 """
             )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS compliance_attestation_ledger (
+                    attestation_id TEXT PRIMARY KEY,
+                    session_id TEXT,
+                    badge_name TEXT,
+                    canonical_pamphlet_hash TEXT,
+                    ypt_two_deep_verified INTEGER DEFAULT 1,
+                    zero_pii_egress_verified INTEGER DEFAULT 1,
+                    aabb_conformance_passed INTEGER DEFAULT 1,
+                    created_at REAL
+                )
+                """
+            )
             conn.commit()
+
+    def record_compliance_attestation_sync(
+        self,
+        session_id: str,
+        badge_name: str,
+        canonical_pamphlet_hash: str = "",
+        ypt_two_deep_verified: bool = True,
+        zero_pii_egress_verified: bool = True,
+        aabb_conformance_passed: bool = True,
+    ) -> Dict[str, Any]:
+        """Records an immutable compliance attestation row in `compliance_attestation_ledger` (Table 9)."""
+        import time as _time
+
+        now_ts = round(_time.time(), 3)
+        att_id = f"att_{hashlib.sha256(f'{session_id}:{badge_name}:{now_ts}'.encode('utf-8')).hexdigest()[:16]}"
+        with self._lock, self._connect() as conn:
+            conn.execute(
+                """
+                INSERT OR REPLACE INTO compliance_attestation_ledger (
+                    attestation_id, session_id, badge_name, canonical_pamphlet_hash,
+                    ypt_two_deep_verified, zero_pii_egress_verified, aabb_conformance_passed, created_at
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    att_id,
+                    str(session_id or "default"),
+                    str(badge_name or "First Aid"),
+                    str(canonical_pamphlet_hash or ""),
+                    1 if ypt_two_deep_verified else 0,
+                    1 if zero_pii_egress_verified else 0,
+                    1 if aabb_conformance_passed else 0,
+                    now_ts,
+                ),
+            )
+            conn.commit()
+        return {
+            "attestation_id": att_id,
+            "session_id": session_id,
+            "badge_name": badge_name,
+            "canonical_pamphlet_hash": canonical_pamphlet_hash,
+            "ypt_two_deep_verified": ypt_two_deep_verified,
+            "zero_pii_egress_verified": zero_pii_egress_verified,
+            "aabb_conformance_passed": aabb_conformance_passed,
+            "created_at": now_ts,
+        }
+
+    def list_compliance_attestations_sync(self, limit: int = 50) -> List[Dict[str, Any]]:
+        """Lists recent compliance attestations from `compliance_attestation_ledger`."""
+        rows_out: List[Dict[str, Any]] = []
+        with self._lock, self._connect() as conn:
+            conn.row_factory = sqlite3.Row
+            cur = conn.execute(
+                "SELECT * FROM compliance_attestation_ledger ORDER BY created_at DESC LIMIT ?",
+                (max(1, int(limit)),),
+            )
+            for r in cur.fetchall():
+                rows_out.append({
+                    "attestation_id": r["attestation_id"],
+                    "session_id": r["session_id"],
+                    "badge_name": r["badge_name"],
+                    "canonical_pamphlet_hash": r["canonical_pamphlet_hash"],
+                    "ypt_two_deep_verified": bool(r["ypt_two_deep_verified"]),
+                    "zero_pii_egress_verified": bool(r["zero_pii_egress_verified"]),
+                    "aabb_conformance_passed": bool(r["aabb_conformance_passed"]),
+                    "created_at": r["created_at"],
+                })
+        return rows_out
 
     def save_session_sync(
         self,
@@ -1240,6 +1323,9 @@ def save_counselor_workspace(
     is_pinned = 1 if workspace_payload.get("is_pinned", True) else 0
     is_archived = 1 if workspace_payload.get("is_archived", False) else 0
 
+    counselor_info = scrub_pii_from_structure(counselor_info)
+    blue_card_roster = scrub_pii_from_structure(blue_card_roster)
+
     with _SESSION_DB_LOCK, _connect_session_db(s.db_path) as conn:
         conn.execute(
             """
@@ -1653,6 +1739,107 @@ def reset_default_deck_style_preferences(
     except Exception:
         logger.debug("Failed to reset default_deck_style preferences", exc_info=True)
     return dict(FACTORY_DEFAULT_DECK_STYLE_PREFS)
+
+
+ScoutSessionStore = PersistentSessionStore
+
+
+class CloudSQLPgVectorBackend:
+    """Cloud SQL for PostgreSQL + `pgvector` (`vector(768)`) + `tsvector` hybrid RRF adapter (`k=60`).
+
+    When `CLOUD_SQL_DSN` (or `PGVECTOR_DSN`) is configured, executes hybrid RRF queries over
+    `pgvector` cosine distance (`<=>`) and PostgreSQL full-text `ts_rank_cd`. Automatically
+    falls back to `PersistentSessionStore` SQLite WAL in local workstation mode.
+    """
+
+    def __init__(
+        self,
+        dsn: Optional[str] = None,
+        fallback_store: Optional[PersistentSessionStore] = None,
+        embedding_dim: int = 768,
+        rrf_k: int = 60,
+    ) -> None:
+        self.dsn = (dsn or os.getenv("CLOUD_SQL_DSN") or os.getenv("PGVECTOR_DSN") or "").strip()
+        self.embedding_dim = embedding_dim
+        self.rrf_k = rrf_k
+        self.fallback_store = fallback_store or _default_store
+
+    @property
+    def is_cloud_sql_configured(self) -> bool:
+        return bool(self.dsn)
+
+    def build_pgvector_hybrid_rrf_sql(self) -> str:
+        """Returns the canonical PostgreSQL `pgvector` + `ts_rank_cd` Reciprocal Rank Fusion SQL query."""
+        return f"""
+        WITH dense_ranked AS (
+            SELECT chunk_id, badge_name, chunk_text,
+                   1.0 - (embedding <=> %(query_vec)s::vector({self.embedding_dim})) AS vector_similarity,
+                   ROW_NUMBER() OVER (ORDER BY embedding <=> %(query_vec)s::vector({self.embedding_dim}) ASC) AS r_vec
+            FROM pamphlet_vector_memory
+            WHERE LOWER(badge_name) = LOWER(%(badge_name)s)
+        ),
+        lexical_ranked AS (
+            SELECT chunk_id,
+                   ts_rank_cd(to_tsvector('english', chunk_text), plainto_tsquery('english', %(query_text)s)) AS bm25_score,
+                   ROW_NUMBER() OVER (
+                       ORDER BY ts_rank_cd(to_tsvector('english', chunk_text), plainto_tsquery('english', %(query_text)s)) DESC
+                   ) AS r_bm25
+            FROM pamphlet_vector_memory
+            WHERE LOWER(badge_name) = LOWER(%(badge_name)s)
+        )
+        SELECT d.chunk_id, d.badge_name, d.chunk_text, d.vector_similarity, l.bm25_score,
+               (1.0 / (%(rrf_k)s + d.r_vec)) + (1.0 / (%(rrf_k)s + l.r_bm25)) AS rrf_score
+        FROM dense_ranked d
+        JOIN lexical_ranked l ON d.chunk_id = l.chunk_id
+        ORDER BY rrf_score DESC
+        LIMIT %(top_k)s;
+        """.strip()
+
+    def hybrid_search_sync(
+        self,
+        badge_name: str,
+        query: str,
+        top_k: int = 5,
+    ) -> List[Dict[str, Any]]:
+        """Executes hybrid RRF retrieval against Cloud SQL `pgvector` or falls back to SQLite WAL."""
+        if self.is_cloud_sql_configured:
+            try:
+                import psycopg  # type: ignore
+
+                q_vec = _compute_text_embedding(query, dim=self.embedding_dim)
+                with psycopg.connect(self.dsn) as conn:
+                    with conn.cursor() as cur:
+                        cur.execute(
+                            self.build_pgvector_hybrid_rrf_sql(),
+                            {
+                                "query_vec": q_vec,
+                                "badge_name": badge_name,
+                                "query_text": query,
+                                "rrf_k": self.rrf_k,
+                                "top_k": top_k,
+                            },
+                        )
+                        rows = cur.fetchall()
+                        return [
+                            {
+                                "chunk_id": r[0],
+                                "badge_name": r[1],
+                                "chunk_text": r[2],
+                                "vector_similarity": round(float(r[3]), 4),
+                                "bm25_score": round(float(r[4]), 4),
+                                "rrf_score": round(float(r[5]), 6),
+                                "source": "cloudsql_pgvector_hybrid_rrf",
+                            }
+                            for r in rows
+                        ]
+            except Exception as exc:
+                logger.debug("CloudSQLPgVectorBackend fallback to SQLite WAL: %s", exc)
+        return self.fallback_store.hybrid_search_pamphlet_rrf_sync(
+            badge_name=badge_name,
+            query=query,
+            top_k=top_k,
+            rrf_k=self.rrf_k,
+        )
 
 
 

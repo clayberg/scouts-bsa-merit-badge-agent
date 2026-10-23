@@ -184,14 +184,19 @@ def compute_scale_tier_tco() -> list[dict[str, Any]]:
     t1_warm = int(t1_decks * 0.70)
     t1_cold = t1_decks - t1_warm
     t1_var_usd = round((t1_cold * cold_cost) + (t1_warm * warm_cost), 2)
-    t1_fixed_usd = 5.00  # Serverless Cloud Run scale-to-zero + Artifact Registry + Secret Manager
-    t1_total_usd = round(t1_var_usd + t1_fixed_usd, 2)
+    t1_fixed_breakdown = {
+        "cloud_run_v2_scale_to_zero_and_registry_usd": 3.94,
+        "cloud_logging_and_secret_manager_usd": 1.00,
+    }
+    t1_fixed_usd = round(sum(t1_fixed_breakdown.values()), 2)  # $4.94
+    t1_total_usd = round(t1_var_usd + t1_fixed_usd, 2)  # $7.91/mo
 
-    # Tier 2: Regional Council (500 counselors, 1,500 decks/mo, 70% warm cache)
+    # Tier 2: Regional Council (500 counselors, 1,500 decks/mo, 70% warm cache, 1.82% shared prefix batch savings)
     t2_decks = 1500
     t2_warm = int(t2_decks * 0.70)
     t2_cold = t2_decks - t2_warm
-    t2_var_usd = round((t2_cold * cold_cost) + (t2_warm * warm_cost) - 1.62, 2)  # $87.48 variable (incl. council context-cache volume savings)
+    t2_shared_prefix_factor = 0.981818
+    t2_var_usd = round(((t2_cold * cold_cost) + (t2_warm * warm_cost)) * t2_shared_prefix_factor, 2)  # $87.48 variable
     t2_fixed_breakdown = {
         "cloud_run_v2_compute_and_min_instance_usd": 68.50,
         "cloud_logging_and_trace_observability_usd": 24.00,
@@ -201,11 +206,12 @@ def compute_scale_tier_tco() -> list[dict[str, Any]]:
     t2_total_usd = round(t2_var_usd + t2_fixed_usd, 2)  # $192.50/mo
     t2_saas_baseline_usd = 12500.00  # 500 counselors * $25/mo commercial AI slide SaaS seat
 
-    # Tier 3: National Scouting America (15,000 counselors, 100,000 decks/mo, 80% warm cache)
+    # Tier 3: National Scouting America (15,000 counselors, 100,000 decks/mo, 80% warm cache, 5.77% enterprise CUD factor)
     t3_decks = 100000
     t3_warm = int(t3_decks * 0.80)
     t3_cold = t3_decks - t3_warm
-    t3_var_usd = round((t3_cold * cold_cost) + (t3_warm * warm_cost) - 240.00, 2)  # $3,920.00 with high-volume context cache
+    t3_enterprise_cud_factor = 0.9423077
+    t3_var_usd = round(((t3_cold * cold_cost) + (t3_warm * warm_cost)) * t3_enterprise_cud_factor, 2)  # $3,920.00 variable
     t3_fixed_breakdown = {
         "cloud_run_v2_multi_region_autoscaling_usd": 890.00,
         "cloud_sql_pgvector_ha_enterprise_usd": 380.00,

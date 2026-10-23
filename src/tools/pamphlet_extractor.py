@@ -509,7 +509,9 @@ def _extract_pamphlet_images_for_pdf(pdf_path: Path, slug: str, reader: Any) -> 
                 pil_img = Image.open(io.BytesIO(img_file.data))
                 w, h = pil_img.size
                 if w >= 200 and h >= 150 and 0.3 <= (w / h) <= 3.2:
-                    if pil_img.mode not in ("RGB", "RGBA"):
+                    if pil_img.mode == "P" and "transparency" in pil_img.info:
+                        pil_img = pil_img.convert("RGBA")
+                    elif pil_img.mode not in ("RGB", "RGBA"):
                         pil_img = pil_img.convert("RGB")
                     extrema = pil_img.convert("L").getextrema()
                     if extrema and (extrema[1] - extrema[0]) > 45:
@@ -573,7 +575,10 @@ def fetch_web_supplement_image(badge_name: str, topic_query: str, slug_tag: str)
                         headers={"User-Agent": "ScoutsBSAMeritBadgeCounselorAgent/2.0 (https://scouting.org; educational)"},
                     )
                     if img_r.status_code == 200 and len(img_r.content) > 10_000:
-                        pil_im = Image.open(io.BytesIO(img_r.content)).convert("RGB")
+                        raw_im = Image.open(io.BytesIO(img_r.content))
+                        if raw_im.mode == "P" and "transparency" in raw_im.info:
+                            raw_im = raw_im.convert("RGBA")
+                        pil_im = raw_im.convert("RGB")
                         if pil_im.width >= 240 and pil_im.height >= 160:
                             pil_im.save(out_path, "PNG", optimize=True, compress_level=9)
                             return out_path

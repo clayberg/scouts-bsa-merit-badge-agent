@@ -1204,7 +1204,8 @@ def _download_candidate_thumbnail(
             with urllib.request.urlopen(img_req, timeout=6.0) as img_resp:
                 raw_bytes = img_resp.read()
             with Image.open(io.BytesIO(raw_bytes)) as im:
-                im.convert("RGB").save(local_img_path, format="PNG")
+                im_src = im.convert("RGBA") if (im.mode == "P" and "transparency" in im.info) else im
+                im_src.convert("RGB").save(local_img_path, format="PNG")
         if not local_img_path.exists():
             return None
         plain_desc = cand.get("description") or ""
@@ -1703,7 +1704,8 @@ def estimate_nano_banana_image_cost(
 def _transform_reference_image_to_style(src_img: Image.Image, visual_style: str) -> Image.Image:
     """Transforms a real subject photograph/illustration into any of the 8 Nano Banana visual styles at 1024x768."""
     W, H = 1024, 768
-    base = ImageOps.fit(src_img.convert("RGB"), (W, H), method=Image.Resampling.LANCZOS)
+    src_rgba = src_img.convert("RGBA") if (src_img.mode == "P" and "transparency" in src_img.info) else src_img
+    base = ImageOps.fit(src_rgba.convert("RGB"), (W, H), method=Image.Resampling.LANCZOS)
     style_lower = (visual_style or "Photorealistic Image").strip().lower()
 
     if "line" in style_lower and "watercolor" not in style_lower:
@@ -1835,7 +1837,8 @@ def verify_generated_image_matches_prompt(
     try:
         file_size = os.path.getsize(str(image_path))
         with Image.open(str(image_path)) as im:
-            rgb = im.convert("RGB")
+            im_src = im.convert("RGBA") if (im.mode == "P" and "transparency" in im.info) else im
+            rgb = im_src.convert("RGB")
             w, h = rgb.size
             sample = rgb.resize((256, 192), Image.Resampling.BILINEAR)
             gray = ImageOps.grayscale(sample)
@@ -1935,7 +1938,7 @@ def verify_generated_image_matches_prompt(
                 "Reply with JSON: {\"matches\": true/false, \"score\": 0.0-1.0, \"reason\": \"...\"}"
             )
             resp = client.models.generate_content(
-                model="gemini-2.5-flash",
+                model=select_model_for_task("reviewer"),
                 contents=[
                     types.Part.from_bytes(data=img_bytes, mime_type="image/png"),
                     critic_prompt,
@@ -2095,7 +2098,8 @@ def compress_hero_illustration(
     if not raw_png_bytes:
         return b""
     with Image.open(io.BytesIO(raw_png_bytes)) as im:
-        rgb = im.convert("RGB")
+        im_src = im.convert("RGBA") if (im.mode == "P" and "transparency" in im.info) else im
+        rgb = im_src.convert("RGB")
         w, h = rgb.size
         tw, th = target_size
         if abs((w / float(max(1, h))) - (tw / float(max(1, th)))) <= 0.18:
@@ -2326,7 +2330,8 @@ def _save_ai_image_bytes(
             out_path.write_bytes(compressed)
             return out_path.exists() and os.path.getsize(str(out_path)) >= 3000
     with Image.open(io.BytesIO(img_bytes)) as im:
-        rgb = im.convert("RGB")
+        im_src = im.convert("RGBA") if (im.mode == "P" and "transparency" in im.info) else im
+        rgb = im_src.convert("RGB")
         w, h = rgb.size
         if abs((w / float(max(1, h))) - (1024.0 / 768.0)) <= 0.18:
             fitted = rgb.resize((1024, 768), Image.Resampling.LANCZOS)
@@ -2691,7 +2696,7 @@ def _generate_clean_visual_caption_for_nano_image(
                     "or 'Custom', and never include colons."
                 )
                 resp = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model=select_model_for_task("reviewer"),
                     contents=[
                         types.Part.from_bytes(data=img_bytes, mime_type="image/png"),
                         v_prompt,
@@ -3658,7 +3663,7 @@ def admin_recaption_image_with_vision(
                     f"Do not include markdown, quotes, or 'Figure X:' prefixes."
                 )
                 resp = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model=select_model_for_task("reviewer"),
                     contents=[
                         types.Part.from_bytes(data=raw_bytes, mime_type="image/png"),
                         prompt_text,
@@ -3854,8 +3859,8 @@ def admin_get_144_badge_asset_diagnostics() -> Dict[str, Any]:
         slug = _badge_slug(b_name)
         has_cover = slug in cover_files or f"{slug}_cover" in cover_files
         has_emblem = slug in emblem_files or f"{slug}_patch" in emblem_files or f"{slug}_emblem" in emblem_files
-        has_pdf_index = bool(item.get("pamphlet_pdf_url") or item.get("scouting_org_url") or True)
         cached_req_entry = official_reqs_cache.get(b_name.strip().lower()) or official_reqs_cache.get(slug) or {}
+        has_pdf_index = bool(item.get("pamphlet_pdf_url") or item.get("drg_url") or cached_req_entry)
         cached_req_list = (
             cached_req_entry.get("requirements", [])
             if isinstance(cached_req_entry, dict)

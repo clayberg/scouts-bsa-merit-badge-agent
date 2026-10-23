@@ -8,7 +8,7 @@ and Google Material 3 Expressive A2UI Workbench.
 
 from enum import Enum
 from typing import Any, Dict, List, Literal, Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 # ==============================================================================
@@ -66,6 +66,7 @@ class VisualSourceType(str, Enum):
 
 class WorkedExampleData(BaseModel):
     """Concrete, filled-in artifact example for Scouts to model (e.g., Duty Roster, Recipe, Senator Letter)."""
+    model_config = ConfigDict(extra="forbid")
     title: str = Field(..., description="Title of the worked example artifact.")
     artifact_type: str = Field(..., description="Type: 'RECIPE_CARD', 'DUTY_ROSTER', 'LETTER_TEMPLATE', 'BUDGET_LOG', 'ACTION_PLAN'.")
     fields: Dict[str, str] = Field(default_factory=dict, description="Key-value fields of the worked example.")
@@ -74,6 +75,7 @@ class WorkedExampleData(BaseModel):
 
 class ComparisonPairData(BaseModel):
     """Structured two-column differential comparison for medical/gear/civic contrasts."""
+    model_config = ConfigDict(extra="forbid")
     left_header: str = Field(..., description="Left column title (e.g., 'Heat Exhaustion').")
     left_badge: str = Field("CAUTION", description="Status badge for left column.")
     left_points: List[str] = Field(default_factory=list, description="3-5 concrete attributes for left column.")
@@ -84,6 +86,7 @@ class ComparisonPairData(BaseModel):
 
 class SocraticQuizItem(BaseModel):
     """Interactive check-on-learning scenario question for the patrol."""
+    model_config = ConfigDict(extra="forbid")
     scenario_prompt: str = Field(..., description="Real-world scouting scenario question.")
     options: List[str] = Field(default_factory=list, description="3-4 multiple-choice or discussion options.")
     correct_answer: str = Field(..., description="Verified answer grounded in BSA Pamphlet.")
