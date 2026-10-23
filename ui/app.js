@@ -628,6 +628,9 @@ window.closeTopmostModal = function() {
 
 document.addEventListener("click", (ev) => {
   if (ev.target && ev.target.classList && ev.target.classList.contains("m3-modal-backdrop")) {
+    if (state.activeDemoTour && !state.activeDemoTour.completed) {
+      return;
+    }
     if (window.closeTopmostModal) window.closeTopmostModal();
   }
 });
@@ -2221,6 +2224,9 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
   clearDeckConfigDirty();
   state.revealedQuizSlides = new Set();
   state.checkedGearItems = new Set();
+  state.patrolScoreboardVisible = false;
+  document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
+  document.getElementById("btn-toggle-patrol-scoreboard")?.classList.remove("active");
   const depthMode = document.getElementById("depth-select")?.value || "Deep Dive / Camp School Deck";
   const beautificationTier = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
   const audienceLevel = document.getElementById("audience-select")?.value || "All Scouts (Ages 11–17)";
@@ -2434,6 +2440,14 @@ function hydrateWorkbench(rawResult) {
   state.currentResult = result;
   state.activeSlideIdx = -1;
   clearDeckConfigDirty();
+  if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== "demo-6-presenter-and-quiz") {
+    state.patrolScoreboardVisible = false;
+    document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
+    document.getElementById("btn-toggle-patrol-scoreboard")?.classList.remove("active");
+  }
+  if (result.deep_research_enrichment?.resolved_location && typeof window.syncDynamicTour1LocationText === "function") {
+    window.syncDynamicTour1LocationText(result.deep_research_enrichment.resolved_location);
+  }
 
   const slides = result.storyboard?.slides || [];
   if (result.template_id && !state.activeTemplateId) {
@@ -5388,12 +5402,24 @@ function bindImageStudioModal() {
   const slideContextCheckboxEl = document.getElementById("studio-ai-include-slide-context-checkbox");
   const resolvedBadgeEl = document.getElementById("studio-ai-humans-resolved-badge");
 
+  const clearGuardrailBannerState = () => {
+    const guardrailBanner = document.getElementById("studio-guardrail-result-banner");
+    if (guardrailBanner) {
+      guardrailBanner.classList.add("hidden");
+      guardrailBanner.innerHTML = "";
+    }
+    if (consentCheck) consentCheck.checked = false;
+    if (nanoGenBtn) nanoGenBtn.disabled = true;
+  };
+
   const closeModal = () => {
+    clearGuardrailBannerState();
     modal?.classList.remove("open");
     modal?.classList.add("hidden");
   };
 
   const openModal = () => {
+    clearGuardrailBannerState();
     modal?.classList.remove("hidden");
     modal?.classList.add("open");
   };
@@ -6635,9 +6661,12 @@ function renderBlueCardTracker(result) {
           </td>
           <td>${statusPill}</td>
           <td>
-            <button type="button" class="m3-btn m3-btn-outlined" data-bc-toggle-all="${sIdx}" style="padding:2px 8px; font-size:0.68rem;">
-              ${isComplete ? "Clear" : "All ✓"}
-            </button>
+            <div style="display:flex; align-items:center; gap:5px;">
+              <input type="checkbox" class="m3-bluecard-row-check" data-bc-row-scout="${sIdx}" ${isComplete ? "checked" : ""} style="accent-color:#003F87; width:14px; height:14px; cursor:pointer;" title="Toggle all requirements for ${escapeHtml(scout.name)}" />
+              <button type="button" class="m3-btn m3-btn-outlined" data-bc-toggle-all="${sIdx}" style="padding:2px 8px; font-size:0.68rem;">
+                ${isComplete ? "Clear" : "All ✓"}
+              </button>
+            </div>
           </td>
           ${reqCells}
         </tr>
@@ -6679,16 +6708,28 @@ function renderBlueCardTracker(result) {
     });
   });
 
+  const toggleAllReqsForSingleScout = (sIdx, forceState = null) => {
+    const targetScout = roster.scouts[sIdx];
+    if (!targetScout) return;
+    const allNums = reqs.map((r) => String(r.req_number));
+    const allDone = allNums.every((n) => (targetScout.completedReqs || []).includes(n));
+    const shouldCheckAll = typeof forceState === "boolean" ? forceState : !allDone;
+    targetScout.completedReqs = shouldCheckAll ? allNums : [];
+    saveBadgeBlueCardRoster(badgeName, roster);
+    renderBlueCardTracker(result);
+  };
+
   container.querySelectorAll("button[data-bc-toggle-all]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const sIdx = parseInt(btn.getAttribute("data-bc-toggle-all") || "0", 10);
-      const targetScout = roster.scouts[sIdx];
-      if (!targetScout) return;
-      const allNums = reqs.map((r) => String(r.req_number));
-      const allDone = allNums.every((n) => (targetScout.completedReqs || []).includes(n));
-      targetScout.completedReqs = allDone ? [] : allNums;
-      saveBadgeBlueCardRoster(badgeName, roster);
-      renderBlueCardTracker(result);
+      toggleAllReqsForSingleScout(sIdx);
+    });
+  });
+
+  container.querySelectorAll("input.m3-bluecard-row-check[data-bc-row-scout]").forEach((cb) => {
+    cb.addEventListener("change", () => {
+      const sIdx = parseInt(cb.getAttribute("data-bc-row-scout") || "0", 10);
+      toggleAllReqsForSingleScout(sIdx, cb.checked);
     });
   });
 
@@ -11251,6 +11292,7 @@ function bindDocumentationViewerModal() {
     maxBtn.textContent = isMax ? "⤡ Restore" : "⤢ Maximize";
   });
   modal?.addEventListener("click", (ev) => {
+    if (state.activeDemoTour && !state.activeDemoTour.completed) return;
     if (ev.target === modal) closeModal();
   });
 
@@ -14575,7 +14617,7 @@ function renderWorkflowTraceAndFinopsCard(result) {
     traceGridEl.innerHTML = stages
       .map(
         (st) => `
-        <div class="m3-trace-stage-row">
+        <div class="m3-trace-stage-row" id="trace-stage-row-${escapeHtml(st.step)}">
           <div class="m3-trace-stage-top">
             <div style="display:flex; align-items:center; gap:6px; min-width:0;">
               <span class="m3-trace-stage-num">${escapeHtml(st.step)}</span>
@@ -14637,8 +14679,266 @@ function triggerGuardrailDemoVerification(customPrompt) {
 window.triggerGuardrailDemoVerification = triggerGuardrailDemoVerification;
 
 // ===========================================================================
-// INTERACTIVE NARRATED MULTI-STEP DEMO WALKTHROUGHS + SPOTLIGHT & CURSOR
+// DYNAMIC USER LOCATION GROUNDING & INTERACTIVE NARRATED GUIDED TOURS (1-8)
 // ===========================================================================
+function getResolvedTourLocationSummary() {
+  const loc =
+    state.resolvedTourLocation ||
+    state.currentResult?.deep_research_enrichment?.resolved_location ||
+    {};
+  const rawInput = (document.getElementById("input-counselor-location")?.value || "").trim();
+  const displayLocation =
+    loc.display_location ||
+    loc.region_label ||
+    rawInput ||
+    inferBrowserLocationHint() ||
+    "Middleton, MA 01949";
+  const stateName = loc.state_name || loc.state_code || "Massachusetts";
+  const senator1 = loc.senator_1 || "Sen. Elizabeth Warren (D-MA)";
+  const senator2 = loc.senator_2 || "Sen. Edward J. Markey (D-MA)";
+  const houseRep = loc.house_rep || "Rep. Seth Moulton (D-MA-6)";
+  return {
+    displayLocation,
+    stateName,
+    senator1,
+    senator2,
+    houseRep,
+  };
+}
+
+function syncDynamicTour1LocationText(rawLoc) {
+  if (rawLoc && typeof rawLoc === "object") {
+    state.resolvedTourLocation = {
+      ...(state.resolvedTourLocation || {}),
+      ...rawLoc,
+      display_location:
+        rawLoc.display_location ||
+        rawLoc.region_label ||
+        (document.getElementById("input-counselor-location")?.value || "").trim() ||
+        state.resolvedTourLocation?.display_location ||
+        "Middleton, MA 01949",
+    };
+  }
+  const summary = getResolvedTourLocationSummary();
+  const menuDesc1 = document.getElementById("tour-menu-desc-1");
+  if (menuDesc1) {
+    menuDesc1.textContent = `Highlights Citizenship in the Nation in Quick-Select Favorites, builds the grounded deck for ${summary.displayLocation}, and steps through Requirement 8 slides (${summary.stateName}, ${summary.senator1}, ${summary.senator2}, and ${summary.houseRep}) plus the JurisdictionalWebResearchAgent trace.`;
+  }
+
+  const tour1 = DEMO_SCENARIOS_CATALOG.find((d) => d.id === "demo-1-grounded-deck");
+  if (tour1 && Array.isArray(tour1.steps)) {
+    tour1.shortTitle = `Eagle-Required Badge & Local Regional Grounding (${summary.displayLocation})`;
+    if (tour1.steps[0]) {
+      tour1.steps[0].title = "Spotlighting Citizenship in the Nation in Quick-Select Favorites";
+      tour1.steps[0].narration = `Highlighting the Eagle-required Citizenship in the Nation button in the Popular / Favorites strip before clicking it to build a regionally grounded deck for ${summary.displayLocation}.`;
+    }
+    if (tour1.steps[1]) {
+      tour1.steps[1].title = `Building Citizenship in the Nation & Grounding to ${summary.displayLocation}`;
+      tour1.steps[1].narration = `Clicking Citizenship in the Nation to build the 40-slide deck and confirming Local Regional Grounding for ${summary.displayLocation} so Requirement 8 resolves ${summary.stateName}, ${summary.senator1}, ${summary.senator2}, and ${summary.houseRep}.`;
+    }
+    if (tour1.steps[2]) {
+      tour1.steps[2].title = `Requirement 8 (Slide 36): ${summary.stateName} & Congressional Delegation`;
+      tour1.steps[2].narration = `Jumping to Requirement 8 (Congressional Delegation & Constituent Letter) to verify live local grounding for ${summary.displayLocation}: ${summary.stateName}, ${summary.senator1}, ${summary.senator2}, and ${summary.houseRep}.`;
+    }
+    if (tour1.steps[3]) {
+      tour1.steps[3].title = `Slide 37: How a Bill Becomes a Law & Your ${summary.stateName} Voice`;
+      tour1.steps[3].narration = `Advancing to the next Requirement 8 slide where the teaching cards name both ${summary.stateName} U.S. Senators (${summary.senator1} and ${summary.senator2}) and ${summary.houseRep} for ${summary.displayLocation}.`;
+    }
+    if (tour1.steps[4]) {
+      tour1.steps[4].title = `Slide 39: Worked Example Constituent Letter for ${summary.displayLocation}`;
+      tour1.steps[4].narration = `Advancing to the Worked Example Constituent Letter slide showing a ready-to-use letter template addressed to ${summary.senator1}, ${summary.senator2}, and ${summary.houseRep}.`;
+    }
+    if (tour1.steps[5]) {
+      tour1.steps[5].title = "Opening Under-Stage Tab 4: 7-Agent Workflow Trace & SHA-256 Lock";
+      tour1.steps[5].narration = `Opening the Multi-Agent Workflow Trace & FinOps drawer to inspect the 7-stage Google ADK pipeline, SHA-256 requirement hash lock, and Honest Dual Latency.`;
+    }
+    if (tour1.steps[6]) {
+      tour1.steps[6].title = `Stage 02: JurisdictionalWebResearchAgent (AgentTool) Grounding`;
+      tour1.steps[6].narration = `Highlighting the isolated JurisdictionalWebResearchAgent (AgentTool) stage box showing the resolved ${summary.displayLocation} delegation (${summary.senator1}, ${summary.senator2}, ${summary.houseRep}) and grounded civic citations.`;
+    }
+
+    if (state.activeDemoTour?.scenarioId === "demo-1-grounded-deck" && !state.activeDemoTour.completed) {
+      const activeStep = tour1.steps[state.activeDemoTour.stepIdx];
+      if (activeStep) {
+        const bTitle = document.getElementById("demo-tour-title");
+        const bNarr = document.getElementById("demo-tour-narration");
+        const cTitle = document.getElementById("demo-callout-title");
+        const cBody = document.getElementById("demo-callout-body");
+        if (bTitle) bTitle.textContent = activeStep.title;
+        if (bNarr) bNarr.textContent = activeStep.narration;
+        if (cTitle) cTitle.textContent = activeStep.title;
+        if (cBody) cBody.textContent = activeStep.narration;
+      }
+    }
+  }
+}
+window.syncDynamicTour1LocationText = syncDynamicTour1LocationText;
+
+async function resolveAndSyncUserLocationForTours() {
+  const locInput = document.getElementById("input-counselor-location");
+  const troopInput = document.getElementById("input-troop-name");
+  const rawLoc = (locInput?.value || "").trim() || inferBrowserLocationHint();
+  const rawTroop = (troopInput?.value || "").trim();
+  try {
+    const params = new URLSearchParams();
+    if (rawLoc) params.set("location_or_zip", rawLoc);
+    if (rawTroop) params.set("troop_affiliation", rawTroop);
+    const resp = await fetch(`/api/v1/location/resolve?${params.toString()}`);
+    if (resp.ok) {
+      const data = await resp.json();
+      if (data && data.resolved_location) {
+        if (locInput && !locInput.value.trim() && data.resolved_location.display_location) {
+          locInput.value = data.resolved_location.display_location;
+        }
+        syncDynamicTour1LocationText(data.resolved_location);
+        return data.resolved_location;
+      }
+    }
+  } catch (_err) {}
+  syncDynamicTour1LocationText(null);
+  return getResolvedTourLocationSummary();
+}
+window.resolveAndSyncUserLocationForTours = resolveAndSyncUserLocationForTours;
+
+let _tourBadgeLoadPromise = null;
+let _tourBadgeLoadKey = "";
+
+async function ensureBadgeLoadedForTour(badgeName, optionTrackLabel = "") {
+  const select = document.getElementById("badge-select");
+  if (select && select.value !== badgeName) {
+    select.value = badgeName;
+  }
+  document.querySelectorAll(".m3-badge-pill").forEach((p) => {
+    p.classList.toggle("active", p.getAttribute("data-badge") === badgeName);
+  });
+  let resolvedOptionTrack = "ALL";
+  if (optionTrackLabel) {
+    if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+      window.syncActiveBadgeOptionTrackSelector(badgeName, "ALL");
+    }
+    const trackSelect = document.getElementById("option-track-select");
+    if (trackSelect) {
+      const matchOpt = Array.from(trackSelect.options).find(
+        (o) =>
+          o.textContent.toLowerCase().includes(optionTrackLabel.toLowerCase()) ||
+          o.value.toLowerCase().includes(optionTrackLabel.toLowerCase())
+      );
+      if (matchOpt) {
+        trackSelect.value = matchOpt.value;
+        resolvedOptionTrack = matchOpt.value;
+      }
+    }
+  } else {
+    if (typeof window.syncActiveBadgeOptionTrackSelector === "function") {
+      window.syncActiveBadgeOptionTrackSelector(badgeName, "ALL");
+    }
+    resolvedOptionTrack = document.getElementById("option-track-select")?.value || "ALL";
+    if (resolvedOptionTrack === "PROMPT") resolvedOptionTrack = "ALL";
+  }
+
+  const currentBadgeMatches = state.currentResult?.badge_name === badgeName;
+  const currentTrackMatches =
+    !optionTrackLabel ||
+    String(
+      state.currentResult?.option_track ||
+        state.currentResult?.selected_option_label ||
+        state.currentResult?.selected_option_key ||
+        ""
+    )
+      .toLowerCase()
+      .includes(optionTrackLabel.toLowerCase()) ||
+    String(state.currentResult?.option_track || "") === resolvedOptionTrack;
+
+  if (currentBadgeMatches && currentTrackMatches && (state.currentResult?.storyboard?.slides || []).length > 0) {
+    hideConstructionAnimationStage();
+    return state.currentResult;
+  }
+
+  const loadKey = `${badgeName}::${resolvedOptionTrack}`;
+  if (_tourBadgeLoadPromise && _tourBadgeLoadKey === loadKey) {
+    return await _tourBadgeLoadPromise;
+  }
+
+  // Cancel any in-flight background SSE construction stream so Tour hydration is instantaneous (<100ms)
+  if (state._activeWorkflowEventSource) {
+    try {
+      state._activeWorkflowEventSource.close();
+    } catch (_e) {}
+    state._activeWorkflowEventSource = null;
+  }
+  if (state._activeWorkflowAbortController) {
+    try {
+      state._activeWorkflowAbortController.abort();
+    } catch (_e) {}
+    state._activeWorkflowAbortController = null;
+  }
+  state._workflowRunId = (state._workflowRunId || 0) + 1;
+
+  const depthMode = document.getElementById("depth-select")?.value || "Deep Dive / Camp School Deck";
+  const beautificationTier = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
+  const audienceLevel = document.getElementById("audience-select")?.value || "All Scouts (Ages 11–17)";
+  const enableDeepResearch = document.getElementById("deep-research-checkbox")?.checked !== false;
+  const counselorName = document.getElementById("input-counselor-name")?.value ?? "Scoutmaster Bob";
+  const troopName = document.getElementById("input-troop-name")?.value ?? "Troop 123, My Council";
+  const locationOrZip =
+    document.getElementById("input-counselor-location")?.value ||
+    state.resolvedTourLocation?.display_location ||
+    "Middleton, MA 01949";
+  const email = document.getElementById("input-counselor-email")?.value ?? "counselor@troop123.org";
+  const phone = document.getElementById("input-counselor-phone")?.value ?? "(000) 555-1234";
+  const activeTemplateId =
+    state.activeTemplateId || document.getElementById("template-select")?.value || "bsa_scouting_america";
+  const activeDeckStyle =
+    typeof getCurrentDeckStyleConfig === "function"
+      ? getCurrentDeckStyleConfig()
+      : {
+          layout_style: "AUTO_TEMPLATE",
+          text_container_style: "AUTO",
+          image_frame_style: "AUTO",
+          header_chrome_style: "AUTO",
+          typography_scale: "COMFORTABLE",
+          safety_banner_mode: "ACUTE_HAZARDS_ONLY",
+        };
+
+  _tourBadgeLoadKey = loadKey;
+  _tourBadgeLoadPromise = (async () => {
+    try {
+      const res = await fetch("/api/workflow/run", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badgeName,
+          depth_mode: depthMode,
+          beautification_tier: beautificationTier,
+          audience_level: audienceLevel,
+          enable_deep_research: enableDeepResearch,
+          counselor_name: counselorName,
+          troop_affiliation: troopName,
+          location_or_zip: locationOrZip,
+          email_address: email,
+          phone_number: phone,
+          custom_troop_logo_path: state.customLogoPath || null,
+          option_track: resolvedOptionTrack,
+        }),
+      }).then((r) => r.json());
+      hydrateWorkbench(res);
+      const genBtn = document.getElementById("btn-generate-deck");
+      if (genBtn) {
+        genBtn.disabled = false;
+        genBtn.innerHTML = '<span class="m3-inline-icon" aria-hidden="true">✨</span> Generate Slide Deck &amp; Workbook';
+      }
+      return state.currentResult;
+    } catch (_err) {
+      return await executeStreamingWorkflow(badgeName);
+    } finally {
+      _tourBadgeLoadPromise = null;
+      _tourBadgeLoadKey = "";
+    }
+  })();
+
+  return await _tourBadgeLoadPromise;
+}
+
 const DEMO_SCENARIOS_CATALOG = [
   {
     id: "demo-1-grounded-deck",
@@ -14646,59 +14946,58 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "Eagle-Required Badge & Local Regional Grounding (Citizenship in the Nation)",
     steps: [
       {
-        title: "Selecting Citizenship in the Nation from Popular",
+        title: "Spotlighting Citizenship in the Nation in Quick-Select Favorites",
         narration:
-          "Selecting the Eagle-required Citizenship in the Nation Merit Badge from the Popular Quick-Select strip to load its 40-slide teaching deck, Scout Workbook, and Blue Card roster.",
-        preActionSelector: '[data-badge="Citizenship in the Nation"], #quick-badges-row',
+          "Highlighting the Eagle-required Citizenship in the Nation button in the Popular / Favorites strip before clicking it to build a regionally grounded deck for your location.",
+        preActionSelector: "#quick-badges-row",
         targetSelector: '[data-badge="Citizenship in the Nation"], #quick-badges-row',
         placement: "right",
         action: async () => {
           switchMainTab("panel-storyboard");
-          const workbenchGrid = document.getElementById("main-workbench-grid");
-          workbenchGrid?.classList.remove("sidebar-collapsed");
-          const locInput = document.getElementById("input-counselor-location");
-          if (locInput && !locInput.value.trim()) {
-            locInput.value = "Middleton, MA 01949";
-          }
-          const deepResCheckbox = document.getElementById("deep-research-checkbox");
-          if (deepResCheckbox) deepResCheckbox.checked = true;
-          const webGroundToggle = document.getElementById("toggle-web-grounding");
-          if (webGroundToggle) webGroundToggle.checked = true;
-          if (state.currentResult?.badge_name !== "Citizenship in the Nation") {
-            const select = document.getElementById("badge-select");
-            if (select) select.value = "Citizenship in the Nation";
-            await executeStreamingWorkflow("Citizenship in the Nation");
-          } else {
-            renderActiveSlide(-1);
-          }
+          document.getElementById("main-workbench-grid")?.classList.remove("sidebar-collapsed");
+          await resolveAndSyncUserLocationForTours();
+          const quickRow = document.getElementById("quick-badges-row");
+          quickRow?.scrollIntoView({ behavior: "smooth", block: "center" });
         },
       },
       {
-        title: "Confirming Local Regional Grounding (Middleton, MA 01949)",
+        title: "Building Citizenship in the Nation & Confirming Local Grounding",
         narration:
-          "Confirming that Local Regional Grounding is enabled in the Troop Setup sidebar so Requirement 8 automatically resolves Massachusetts, both U.S. Senators, and the local U.S. House Representative.",
-        preActionSelector: "#local-grounding-toggle-card",
+          "Clicking Citizenship in the Nation to build the 40-slide deck and confirming Local Regional Grounding in the Troop Setup sidebar so Requirement 8 resolves your state, both U.S. Senators, and your U.S. House Representative.",
+        preActionSelector: '[data-badge="Citizenship in the Nation"]',
         targetSelector: "#input-counselor-location, #local-grounding-toggle-card",
         placement: "right",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          document.getElementById("main-workbench-grid")?.classList.remove("sidebar-collapsed");
           const profileAcc = document.getElementById("counselor-profile-accordion");
           if (profileAcc) profileAcc.open = true;
+          const locSummary = getResolvedTourLocationSummary();
           const locInput = document.getElementById("input-counselor-location");
           if (locInput && !locInput.value.trim()) {
-            locInput.value = "Middleton, MA 01949";
+            locInput.value = locSummary.displayLocation;
           }
+          const deepResCheckbox = document.getElementById("deep-research-checkbox");
+          if (deepResCheckbox) deepResCheckbox.checked = true;
+          await ensureBadgeLoadedForTour("Citizenship in the Nation");
+          if (state.currentResult?.deep_research_enrichment?.resolved_location) {
+            syncDynamicTour1LocationText(state.currentResult.deep_research_enrichment.resolved_location);
+          }
+          renderActiveSlide(-1);
         },
       },
       {
         title: "Switching to Requirement 8 (Slide 36): State Name & Congressional Delegation",
         narration:
-          "Jumping directly to Requirement 8 (Congressional Delegation & Constituent Letter) to show live local grounding: Massachusetts, Sen. Elizabeth Warren (D-MA), Sen. Edward J. Markey (D-MA), and Rep. Seth Moulton (D-MA-6).",
-        preActionSelector: "#req-quick-jump-bar",
+          "Jumping directly to Requirement 8 (Congressional Delegation & Constituent Letter) to verify live local grounding for your state, both U.S. Senators, and your local U.S. House Representative.",
+        preActionSelector: "#btn-stage-req-jump",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
+          switchMainTab("panel-storyboard");
           const profileAcc = document.getElementById("counselor-profile-accordion");
           if (profileAcc) profileAcc.open = false;
+          await ensureBadgeLoadedForTour("Citizenship in the Nation");
           const slides = state.currentResult?.storyboard?.slides || [];
           const req8Idx = slides.findIndex((s) => String(s.req_number) === "8");
           const targetIdx = req8Idx >= 0 ? req8Idx : Math.min(34, Math.max(0, slides.length - 1));
@@ -14711,11 +15010,13 @@ const DEMO_SCENARIOS_CATALOG = [
       {
         title: "Stepping to Slide 37: How a Bill Becomes a Law & Your Constituent Voice",
         narration:
-          "Advancing to the next Requirement 8 slide where the teaching cards name both Massachusetts U.S. Senators and the Middleton, MA (01949) U.S. House Representative for the Scout's discussion.",
+          "Advancing to the next Requirement 8 slide where the teaching cards name both of your state's U.S. Senators and your U.S. House Representative for the Scout's counselor discussion.",
         preActionSelector: "#btn-slide-next",
         targetSelector: "#stage-left-cards",
         placement: "right",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          await ensureBadgeLoadedForTour("Citizenship in the Nation");
           const slides = state.currentResult?.storyboard?.slides || [];
           const req8Idx = slides.findIndex((s) => String(s.req_number) === "8");
           const targetIdx = req8Idx >= 0 ? Math.min(slides.length - 1, req8Idx + 1) : 35;
@@ -14733,6 +15034,8 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          await ensureBadgeLoadedForTour("Citizenship in the Nation");
           const slides = state.currentResult?.storyboard?.slides || [];
           const req8Idx = slides.findIndex((s) => String(s.req_number) === "8");
           const targetIdx = req8Idx >= 0 ? Math.min(slides.length - 1, req8Idx + 3) : 37;
@@ -14745,16 +15048,33 @@ const DEMO_SCENARIOS_CATALOG = [
         },
       },
       {
-        title: "Inspecting the 7-Agent Workflow Trace & Civic Grounding Lock",
+        title: "Opening Under-Stage Tab 4: 7-Agent Workflow Trace & SHA-256 Lock",
         narration:
-          "Opening the 4th Under-Stage Tab (Multi-Agent Workflow Trace & FinOps) to verify the 7-agent ADK pipeline, SHA-256 requirement lock, and Massachusetts Congressional grounding citations.",
+          "Opening the 4th Under-Stage Tab (Multi-Agent Workflow Trace & FinOps) to inspect the 7-agent ADK pipeline, SHA-256 requirement lock, and Honest Dual Latency.",
         preActionSelector: "#tab-btn-understage-trace",
         targetSelector: "#trace-telemetry-card",
         placement: "top",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          await ensureBadgeLoadedForTour("Citizenship in the Nation");
           state.activeUnderstageTab = "trace";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.getElementById("trace-telemetry-card")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        },
+      },
+      {
+        title: "Stage 02: JurisdictionalWebResearchAgent (AgentTool) Grounding Box",
+        narration:
+          "Highlighting the isolated JurisdictionalWebResearchAgent (AgentTool) stage box showing the resolved local Congressional delegation and grounded civic citations.",
+        preActionSelector: "#trace-stage-row-02",
+        targetSelector: "#trace-stage-row-02, #workflow-trace-grid",
+        placement: "right",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          await ensureBadgeLoadedForTour("Citizenship in the Nation");
+          state.activeUnderstageTab = "trace";
+          syncUnderstageDrawerVisibility(state.activeSlideIdx);
+          document.getElementById("trace-stage-row-02")?.scrollIntoView({ behavior: "smooth", block: "center" });
         },
       },
     ],
@@ -14765,46 +15085,69 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "Multi-Option Badge & 3-Level Sub-Requirement Tree (Golf — Option B: Disc Golf)",
     steps: [
       {
-        title: "Selecting Golf & Revealing the Multi-Option Track Selector",
+        title: "Spotlighting Golf & Choosing Option B: Disc Golf Before Building",
         narration:
-          "Selecting the Golf Merit Badge (one of 18 Multi-Option badges) and choosing Option B: Disc Golf (Reqs 1 + 2b(1)-2b(6)) in the left sidebar Track Selector.",
+          "Highlighting the Golf Merit Badge (one of 18 Multi-Option badges) and selecting Option B: Disc Golf (Reqs 1 + 2b(1)-2b(6)) in the Left Setup Sidebar before building the deck.",
         preActionSelector: "#badge-select",
         targetSelector: "#option-track-field-wrap, #option-track-select, #badge-select",
         placement: "right",
         action: async () => {
           switchMainTab("panel-storyboard");
-          const workbenchGrid = document.getElementById("main-workbench-grid");
-          workbenchGrid?.classList.remove("sidebar-collapsed");
+          document.getElementById("main-workbench-grid")?.classList.remove("sidebar-collapsed");
           const select = document.getElementById("badge-select");
           if (select) {
             select.value = "Golf";
-            select.dispatchEvent(new Event("change"));
+            if (typeof syncMultiOptionTrackSelector === "function") {
+              syncMultiOptionTrackSelector("Golf");
+            } else {
+              select.dispatchEvent(new Event("change"));
+            }
           }
           const trackSelect = document.getElementById("option-track-select");
           if (trackSelect) {
-            const discOpt = Array.from(trackSelect.options).find((o) =>
-              o.textContent.toLowerCase().includes("disc golf") || o.value.toLowerCase().includes("2b")
+            const discOpt = Array.from(trackSelect.options).find(
+              (o) => o.textContent.toLowerCase().includes("disc golf") || o.value.toLowerCase().includes("2b")
             );
             if (discOpt) trackSelect.value = discOpt.value;
           }
-          await executeStreamingWorkflow("Golf");
+          document.getElementById("option-track-field-wrap")?.scrollIntoView({ behavior: "smooth", block: "center" });
         },
       },
       {
-        title: "Stepping to Unrolled Sub-Requirement 2b(3): Disc Golf Equipment & Flight Profiles",
+        title: "Building Golf Option B (Disc Golf) & Jumping to Slide 8 (Req 2b(3))",
         narration:
-          "Jumping to Requirement 2b(3) where the curriculum planner unrolls 3-level sub-requirements (distance drivers, fairway drivers, mid-range discs, and putters) with dedicated Disc Golf visuals.",
-        preActionSelector: "#req-quick-jump-bar",
+          "Generating the Golf Option B: Disc Golf deck and jumping to Slide 8 (Requirement 2b(3)) where the planner unrolls 3-level sub-requirements for disc flight dynamics and plastics.",
+        preActionSelector: "#btn-generate-deck",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          await ensureBadgeLoadedForTour("Golf", "disc golf");
           const slides = state.currentResult?.storyboard?.slides || [];
-          const idx = slides.findIndex((s) => String(s.req_number).includes("2b(3)") || String(s.title).toLowerCase().includes("disc"));
-          const targetIdx = idx >= 0 ? idx : Math.min(11, Math.max(0, slides.length - 1));
+          const idx = slides.findIndex((s) => String(s.req_number).includes("2b(3)"));
+          const targetIdx = idx >= 0 ? idx : Math.min(6, Math.max(0, slides.length - 1));
           state.activeSlideIdx = targetIdx;
           renderFilmstrip(slides);
           renderActiveSlide(targetIdx);
           scrollActiveFilmstripThumbIntoView(true);
+        },
+      },
+      {
+        title: "Inspecting the Custom Disc Golf Equipment & Chain Basket Illustration (Slide 8)",
+        narration:
+          "Highlighting the Slide 8 illustration on Requirement 2b(3), which is custom-tailored specifically to Disc Golf (comparing the 4 beveled disc profile shapes above a galvanized metal chain basket target).",
+        preActionSelector: "#stage-right-visual",
+        targetSelector: "#stage-right-visual, #stage-diagram-img",
+        placement: "left",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          await ensureBadgeLoadedForTour("Golf", "disc golf");
+          const slides = state.currentResult?.storyboard?.slides || [];
+          const idx = slides.findIndex((s) => String(s.req_number).includes("2b(3)"));
+          const targetIdx = idx >= 0 ? idx : Math.min(6, Math.max(0, slides.length - 1));
+          state.activeSlideIdx = targetIdx;
+          renderFilmstrip(slides);
+          renderActiveSlide(targetIdx);
         },
       },
       {
@@ -14815,9 +15158,11 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#stage-left-cards",
         placement: "right",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          await ensureBadgeLoadedForTour("Golf", "disc golf");
           const slides = state.currentResult?.storyboard?.slides || [];
           const idx = slides.findIndex((s) => String(s.req_number).includes("2b(5)"));
-          const targetIdx = idx >= 0 ? idx : Math.min(17, Math.max(0, slides.length - 1));
+          const targetIdx = idx >= 0 ? idx : Math.min(9, Math.max(0, slides.length - 1));
           state.activeSlideIdx = targetIdx;
           renderFilmstrip(slides);
           renderActiveSlide(targetIdx);
@@ -14825,13 +15170,14 @@ const DEMO_SCENARIOS_CATALOG = [
         },
       },
       {
-        title: "Switching to Tab 2: Verbatim Requirements & Patrol Blue Card Tracker",
+        title: "Switching to Tab 2: Verbatim Option B Requirements & Blue Card Matrix",
         narration:
-          "Switching to Tab 2 (2. Requirements & Blue Cards) to inspect the verbatim SHA-256 requirement tree and the interactive Patrol Blue Card sign-off matrix.",
+          "Switching to Tab 2 (2. Requirements & Blue Cards) to inspect the verbatim SHA-256 Option B: Disc Golf requirement tree and the interactive Patrol Blue Card sign-off matrix.",
         preActionSelector: "#tab-triage",
         targetSelector: "#bluecard-tracker-card, #tab-triage",
         placement: "top",
         action: async () => {
+          await ensureBadgeLoadedForTour("Golf", "disc golf");
           switchMainTab("panel-triage");
         },
       },
@@ -14843,7 +15189,7 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "Youth Protection Guardrail, Workflow Trace & FinOps Ledger",
     steps: [
       {
-        title: "Opening Tab 4 Under-Stage: Multi-Agent Workflow Trace & FinOps",
+        title: "Opening Under-Stage Tab 4: Multi-Agent Workflow Trace & FinOps",
         narration:
           "Opening the Multi-Agent Workflow Trace & FinOps drawer below the 16:9 slide stage to inspect Honest Dual Latency (First Status Event vs. True TTFT) and the 7-stage Google ADK timeline.",
         preActionSelector: "#tab-btn-understage-trace",
@@ -14867,31 +15213,76 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#trace-finops-ledger-box",
         placement: "left",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          state.activeUnderstageTab = "trace";
+          syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.getElementById("trace-finops-ledger-box")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
         },
       },
       {
-        title: "Launching the 4-Tab Image Studio to Test the BSA Youth Protection & PII Guardrail",
+        title: "Opening Image Studio & Clicking 'Sample Safe Diagram' (Normal Clean State)",
         narration:
-          "Clicking 'Test YPT / PII Guardrail' to open the Nano Banana AI Image Studio and inject a test prompt containing youth PII (email, SSN, phone) and a prohibited one-on-one tent scenario.",
-        preActionSelector: "#btn-trace-test-guardrail, #btn-open-image-studio",
-        targetSelector: "#studio-ai-prompt-input",
+          "Opening the Nano Banana AI Image Studio in its clean initial state (with no guardrail alert) and clicking '✨ Sample Safe Diagram' to populate a safe, uniform-accurate Scouting instructional prompt.",
+        preActionSelector: "#btn-open-image-studio",
+        targetSelector: "#btn-studio-sample-safe, #studio-ai-prompt-input",
         placement: "top",
         action: async () => {
+          switchMainTab("panel-storyboard");
           document.getElementById("btn-open-image-studio")?.click();
           const aiTabBtn = document.querySelector('[data-studio-tab="studio-tab-ai"], [data-studio-tab="ai"]');
           aiTabBtn?.click();
+          document.getElementById("btn-studio-sample-safe")?.click();
+        },
+      },
+      {
+        title: "Spotlighting the $0.08 USD FinOps Cost & Consent Gate",
+        narration:
+          "Highlighting the mandatory 'I consent to the estimated $0.08 USD cost...' FinOps gate at the bottom of the dialog, which keeps the Generate button disabled until the counselor explicitly opts in.",
+        preActionSelector: "#studio-ai-consent-row",
+        targetSelector: "#studio-ai-consent-row, #studio-ai-cost-banner",
+        placement: "top",
+        action: async () => {
+          const modal = document.getElementById("image-studio-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-image-studio")?.click();
+          }
+          document.querySelector('[data-studio-tab="studio-tab-ai"], [data-studio-tab="ai"]')?.click();
+          document.getElementById("studio-guardrail-result-banner")?.classList.add("hidden");
+          const consentCb = document.getElementById("studio-ai-consent-checkbox");
+          if (consentCb) consentCb.checked = false;
+          document.getElementById("studio-ai-consent-row")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        },
+      },
+      {
+        title: "Clicking 'Test YPT / PII Safety Guardrail' to Inject an Unsafe Prompt",
+        narration:
+          "Clicking '🛡️ Test YPT / PII Safety Guardrail' to simulate a prompt containing youth PII (full name, email, SSN, phone), a prohibited one-on-one adult/youth tent scenario, and a prompt-injection override.",
+        preActionSelector: "#btn-studio-sample-guardrail",
+        targetSelector: "#btn-studio-sample-guardrail, #studio-ai-prompt-input",
+        placement: "bottom",
+        action: async () => {
+          const modal = document.getElementById("image-studio-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-image-studio")?.click();
+          }
+          document.querySelector('[data-studio-tab="studio-tab-ai"], [data-studio-tab="ai"]')?.click();
           triggerGuardrailDemoVerification();
         },
       },
       {
         title: "Verifying Model Armor & BSA Two-Deep Leadership Interception ($0.00 Charged)",
         narration:
-          "Confirming that ScoutsBSAModelArmorPlugin intercepts the one-on-one Youth Protection violation, redacts all youth PII before any external API call, and blocks prompt injection at $0.00 cost.",
-        preActionSelector: "#btn-studio-sample-guardrail",
+          "Confirming that ScoutsBSAModelArmorPlugin blocks the one-on-one Youth Protection violation, redacts all youth PII before any external Vertex AI call, and rejects prompt injection at $0.00 cost.",
+        preActionSelector: "#studio-guardrail-result-banner",
         targetSelector: "#studio-guardrail-result-banner",
         placement: "top",
         action: async () => {
+          const modal = document.getElementById("image-studio-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-image-studio")?.click();
+            document.querySelector('[data-studio-tab="studio-tab-ai"], [data-studio-tab="ai"]')?.click();
+          }
+          triggerGuardrailDemoVerification();
           document.getElementById("studio-guardrail-result-banner")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
         },
       },
@@ -14905,12 +15296,11 @@ const DEMO_SCENARIOS_CATALOG = [
       {
         title: "Opening the Stage Template & Layout Style Dropdown",
         narration:
-          "Opening the Stage Toolbar [Template | ▾] menu where counselors can switch between 17 PowerPoint templates and 4 global Deck Layout Styles.",
+          "Opening the Stage Toolbar [🖼️ Template | ▾] menu where counselors can switch between 17 PowerPoint templates and 4 global Deck Layout Styles (Auto, Clean, Line, Boxed).",
         preActionSelector: "#btn-stage-template-caret",
         targetSelector: "#stage-template-dropdown-menu, #btn-stage-template-caret",
-        placement: "bottom",
+        placement: "left",
         action: async () => {
-          document.getElementById("btn-close-image-studio")?.click();
           switchMainTab("panel-storyboard");
           if (state.activeSlideIdx < 1) {
             state.activeSlideIdx = 2;
@@ -14920,27 +15310,93 @@ const DEMO_SCENARIOS_CATALOG = [
         },
       },
       {
-        title: "Applying Editorial Left-Accent Line Layout Style",
+        title: "Text Style 1 of 3: Applying 'Boxed' (Structured Card Containers)",
         narration:
-          "Switching the deck layout style to 'Line' (Editorial Left-Accent Line) to render colored 4px vertical accent bars with generous typography.",
-        preActionSelector: '[data-quick-container-style="LEFT_ACCENT_LINE"]',
-        targetSelector: "#widescreen-slide-stage",
-        placement: "top",
+          "Stepping through the 3 text styles in reverse order starting with '🗂️ Boxed' (BOXED_CARDS), which wraps each teaching point in a structured bordered card container while keeping the right visual unboxed.",
+        preActionSelector: '[data-quick-container-style="BOXED_CARDS"]',
+        targetSelector: "#stage-left-cards",
+        placement: "right",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
+          document.querySelector('[data-quick-container-style="BOXED_CARDS"]')?.click();
           document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
-          document.querySelector('[data-quick-container-style="LEFT_ACCENT_LINE"]')?.click();
         },
       },
       {
-        title: "Restoring Clean & Borderless Layout & Opening the 17-Template Studio",
+        title: "Text Style 2 of 3: Applying 'Line' (Editorial Left-Accent Line)",
         narration:
-          "Switching back to 'Clean' (Clean & Borderless) for +2.5pt larger body text and opening the 17-Template PowerPoint Studio modal.",
-        preActionSelector: "#btn-stage-template-picker",
-        targetSelector: "#template-catalog-grid, #template-studio-modal .m3-modal-dialog, #btn-stage-template-picker",
+          "Switching to '📏 Line' (LEFT_ACCENT_LINE), which removes full card borders and renders 4px vertical colored accent bars with generous open typography.",
+        preActionSelector: '[data-quick-container-style="LEFT_ACCENT_LINE"]',
+        targetSelector: "#stage-left-cards",
+        placement: "right",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
+          document.querySelector('[data-quick-container-style="LEFT_ACCENT_LINE"]')?.click();
+          document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
+        },
+      },
+      {
+        title: "Text Style 3 of 3: Applying 'Clean' (Open Borderless Typography)",
+        narration:
+          "Switching to '📖 Clean' (CLEAN_OPEN), which removes all card boxes and lines to maximize breathing room and lift body font size by +2.5pt to +3.3pt on both the live stage and exported .PPTX.",
+        preActionSelector: '[data-quick-container-style="CLEAN_OPEN"]',
+        targetSelector: "#stage-left-cards",
+        placement: "right",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
+          document.querySelector('[data-quick-container-style="CLEAN_OPEN"]')?.click();
+          document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
+        },
+      },
+      {
+        title: "Switching Slide Template & Inspecting the Updated Slide Footer",
+        narration:
+          "Switching to the 'BSA Outdoor Adventure 🔵' template (classic_outdoor_silhouette_navy) and highlighting the bottom slide footer and template overlay strip.",
+        preActionSelector: "#btn-stage-template-caret",
+        targetSelector: "#stage-footer-strip, #widescreen-slide-stage",
         placement: "top",
         action: async () => {
-          document.querySelector('[data-quick-container-style="CLEAN_OPEN"]')?.click();
-          document.getElementById("btn-stage-template-picker")?.click();
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
+          if (typeof applyTemplateToActiveDeck === "function") {
+            await applyTemplateToActiveDeck("classic_outdoor_silhouette_navy", false);
+          }
+          renderActiveSlide(state.activeSlideIdx);
+        },
+      },
+      {
+        title: "Spotlighting the 'Template' Studio Button in the Stage Toolbar",
+        narration:
+          "Highlighting the '🖼️ Template' button in the Stage Toolbar before clicking it to open the full 17-Template PowerPoint Studio Modal.",
+        preActionSelector: "#btn-stage-template-picker",
+        targetSelector: "#btn-stage-template-picker",
+        placement: "bottom",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+        },
+      },
+      {
+        title: "Opening the 17-Template Studio & Restoring the Original BSA Template",
+        narration:
+          "Opening the 17-Template Studio Modal and selecting 'BSA Scouting America 🟢' (bsa_scouting_america) to restore the deck to its original official template.",
+        preActionSelector: "#btn-stage-template-picker",
+        targetSelector: "#template-catalog-grid, #template-studio-modal .m3-modal-dialog",
+        placement: "top",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          const modal = document.getElementById("template-studio-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-stage-template-picker")?.click();
+          }
+          if (typeof applyTemplateToActiveDeck === "function") {
+            await applyTemplateToActiveDeck("bsa_scouting_america", false);
+          }
+          if (typeof renderTemplateStudioModalGrid === "function") {
+            renderTemplateStudioModalGrid();
+          }
         },
       },
     ],
@@ -14951,34 +15407,88 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "On-Stage Image Switcher (<50ms) & Per-Slide Co-Design",
     steps: [
       {
-        title: "Cycling Cached Pamphlet & AI Visuals via the On-Stage Easy Image Switcher",
+        title: "Switching to the 2nd Slide Illustration (2/2) in Under 50ms",
         narration:
-          "Using the on-stage Easy Image Switcher (or '[' and ']' keys) to cycle through pre-bundled pamphlet and handbook figures in under 50ms at $0.00 cost.",
-        preActionSelector: "#stage-right-visual",
+          "Clicking the on-stage Easy Image Switcher next arrow (']') to switch instantaneously from the primary illustration (1/2) to the 2nd curated handbook illustration (2/2) at $0.00 runtime cost.",
+        preActionSelector: "#stage-img-next-btn, #stage-right-visual",
         targetSelector: "#stage-right-visual",
         placement: "left",
         action: async () => {
-          document.getElementById("btn-close-template-studio")?.click();
           switchMainTab("panel-storyboard");
           if (state.activeSlideIdx < 2) {
             state.activeSlideIdx = 3;
             renderActiveSlide(3);
           }
-          if (typeof cycleSlideImageChoice === "function") {
+          if (typeof selectSlideImageChoiceByIndex === "function") {
+            selectSlideImageChoiceByIndex(1);
+          } else if (typeof cycleSlideImageChoice === "function") {
             cycleSlideImageChoice(1);
           }
         },
       },
       {
-        title: "Opening Under-Stage Tab 2: Customize Slide & Archetype Wireframe Picker",
+        title: "Switching Back to the Primary Slide Illustration (1/2)",
         narration:
-          "Opening the 'Customize Slide & Image Studio' drawer to switch the slide's pedagogical archetype and callout marker style with instant live preview.",
-        preActionSelector: '[data-understage-tab="codesign"]',
-        targetSelector: "#slide-codesign-bar",
+          "Clicking the on-stage Easy Image Switcher previous arrow ('[') to restore the primary slide illustration (1/2) with zero network latency.",
+        preActionSelector: "#stage-img-prev-btn, #stage-right-visual",
+        targetSelector: "#stage-right-visual",
+        placement: "left",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 2) {
+            state.activeSlideIdx = 3;
+            renderActiveSlide(3);
+          }
+          if (typeof selectSlideImageChoiceByIndex === "function") {
+            selectSlideImageChoiceByIndex(0);
+          } else if (typeof cycleSlideImageChoice === "function") {
+            cycleSlideImageChoice(-1);
+          }
+        },
+      },
+      {
+        title: "Co-Design Layout 1 of 3: Switching to 'Full Text' (Concept Text Slide)",
+        narration:
+          "Opening Under-Stage Tab 2 (Customize Slide & Image Studio) and clicking 'Full Text' (CONCEPT_TEXT_SLIDE) to expand the teaching points across the full 16:9 canvas.",
+        preActionSelector: '[data-arch="CONCEPT_TEXT_SLIDE"], [data-understage-tab="codesign"]',
+        targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 2) state.activeSlideIdx = 3;
           state.activeUnderstageTab = "codesign";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
+          document.querySelector('#codesign-archetype-visual-grid [data-arch="CONCEPT_TEXT_SLIDE"]')?.click();
+        },
+      },
+      {
+        title: "Co-Design Layout 2 of 3: Switching to 'Big Visual' (60% Hero Diagram)",
+        narration:
+          "Clicking 'Big Visual' (FULL_BLEED_IMAGE_EXPLAINER) in the Slide Layout picker to allocate 60% of the widescreen stage to the instructional diagram alongside concise key takeaways.",
+        preActionSelector: '[data-arch="FULL_BLEED_IMAGE_EXPLAINER"]',
+        targetSelector: "#widescreen-slide-stage",
+        placement: "top",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 2) state.activeSlideIdx = 3;
+          state.activeUnderstageTab = "codesign";
+          syncUnderstageDrawerVisibility(state.activeSlideIdx);
+          document.querySelector('#codesign-archetype-visual-grid [data-arch="FULL_BLEED_IMAGE_EXPLAINER"]')?.click();
+        },
+      },
+      {
+        title: "Co-Design Layout 3 of 3: Restoring 'Split Visual' (Balanced Split Explainer)",
+        narration:
+          "Clicking 'Split Visual' (SPLIT_VISUAL_EXPLAINER) to restore the balanced two-column teaching layout with synchronized live stage and .PPTX geometry.",
+        preActionSelector: '[data-arch="SPLIT_VISUAL_EXPLAINER"]',
+        targetSelector: "#widescreen-slide-stage",
+        placement: "top",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          if (state.activeSlideIdx < 2) state.activeSlideIdx = 3;
+          state.activeUnderstageTab = "codesign";
+          syncUnderstageDrawerVisibility(state.activeSlideIdx);
+          document.querySelector('#codesign-archetype-visual-grid [data-arch="SPLIT_VISUAL_EXPLAINER"]')?.click();
         },
       },
     ],
@@ -14992,7 +15502,7 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Jumping to a Patrol Scenario Checkpoint Quiz Slide",
         narration:
           "Jumping to a curated Patrol Scenario & Checkpoint Quiz slide where Scouts debate a real-world field scenario before revealing the verified answer.",
-        preActionSelector: "#req-quick-jump-bar",
+        preActionSelector: "#btn-stage-req-jump",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
@@ -15013,6 +15523,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#stage-patrol-scoreboard",
         placement: "bottom",
         action: async () => {
+          switchMainTab("panel-storyboard");
           if (!state.patrolScoreboardVisible) {
             document.getElementById("btn-toggle-patrol-scoreboard")?.click();
           }
@@ -15025,12 +15536,30 @@ const DEMO_SCENARIOS_CATALOG = [
         narration:
           "Opening Split-Screen Presenter View alongside the 16:9 slide stage so the counselor can read [SAY] / [DEMONSTRATE] / [ASK SCOUTS] teleprompter cues and track the 45-minute pacing timer.",
         preActionSelector: "#stage-present-split-group",
-        targetSelector: "#stage-presenter-console-dock, #stage-present-split-group",
+        targetSelector: "#stage-presenter-console-dock",
         placement: "left",
         action: async () => {
+          switchMainTab("panel-storyboard");
           if (typeof togglePresenterConsoleMode === "function" && !state.presenterConsoleOpen) {
-            togglePresenterConsoleMode();
+            togglePresenterConsoleMode(true);
           }
+        },
+      },
+      {
+        title: "Closing Presenter View & Restoring Normal Slide Mode",
+        narration:
+          "Clicking '✕ Close' on the Presenter View dock (or pressing 'P') and hiding the Patrol Scoreboard to restore the normal full-width Workbench slide mode.",
+        preActionSelector: "#btn-pc-close-console",
+        targetSelector: "#widescreen-slide-stage",
+        placement: "top",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          if (typeof togglePresenterConsoleMode === "function" && state.presenterConsoleOpen) {
+            togglePresenterConsoleMode(false);
+          }
+          state.patrolScoreboardVisible = false;
+          document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
+          document.getElementById("btn-toggle-patrol-scoreboard")?.classList.remove("active");
         },
       },
     ],
@@ -15038,31 +15567,78 @@ const DEMO_SCENARIOS_CATALOG = [
   {
     id: "demo-7-blue-cards-and-qr",
     index: 7,
-    shortTitle: "Digital Blue Card (#34124) Sign-Off & Scannable QR Handout",
+    shortTitle: "Digital Blue Card (#34124) Sign-Off & Class Prep Toolkit",
     steps: [
       {
-        title: "Opening Tab 2: Official Requirements & Patrol Blue Card Sign-Off Matrix",
+        title: "Toggling All Requirements On & Off for a Single Scout",
         narration:
-          "Switching to Tab 2 (2. Requirements & Blue Cards) where counselors track individual Scout completion across every sub-requirement and export Scoutbook Plus CSVs.",
+          "Opening Tab 2 (2. Requirements & Blue Cards) and toggling all requirements ON and then OFF for a single Scout using the per-Scout Quick Row checkbox and 'All ✓ / Clear' control.",
         preActionSelector: "#tab-triage",
-        targetSelector: "#bluecard-tracker-card, #panel-triage",
+        targetSelector: "#bluecard-tracker-card",
         placement: "top",
         action: async () => {
-          if (state.presenterConsoleOpen && typeof togglePresenterConsoleMode === "function") {
-            togglePresenterConsoleMode();
-          }
           switchMainTab("panel-triage");
+          const rowBtn = document.querySelector('button[data-bc-toggle-all="0"]');
+          if (rowBtn) {
+            rowBtn.click();
+            await new Promise((r) => setTimeout(r, 650));
+            document.querySelector('button[data-bc-toggle-all="0"]')?.click();
+          }
+          document.getElementById("bluecard-tracker-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
         },
       },
       {
-        title: "Switching to Tab 4: Class Prep, Parent Letter & Scannable ISO 18004 QR Handout",
+        title: "Toggling a Single Requirement Across All Scouts in the Patrol",
         narration:
-          "Opening Tab 4 (4. Class Prep & Letters) to preview the Timed Lesson Plan, Prerequisite Parent Letter, Quartermaster Gear Checklist, and Scannable QR Pocket Study Guide.",
-        preActionSelector: "#tab-studiokit",
-        targetSelector: "#studiokit-subtabs-bar, #studiokit-sec-agenda",
+          "Clicking the 'Req 1' column header checkbox in the Patrol Blue Card matrix to sign off Requirement 1 across every Scout in the patrol simultaneously.",
+        preActionSelector: '.m3-bluecard-col-check[data-bc-col-req="1"]',
+        targetSelector: "#bluecard-matrix-container, #bluecard-tracker-card",
+        placement: "top",
+        action: async () => {
+          switchMainTab("panel-triage");
+          const colCb = document.querySelector('.m3-bluecard-col-check[data-bc-col-req="1"], .m3-bluecard-col-check');
+          if (colCb) {
+            colCb.click();
+          }
+        },
+      },
+      {
+        title: "Opening '1. Agenda & Parent Letter': Draft in Email App & Compose in Gmail",
+        narration:
+          "Switching to Tab 4 (4. Class Prep & Letters), clicking '🗓️ 1. Agenda & Parent Letter', and highlighting the 1-click '✉️ Draft in Email App' and '📨 Compose in Gmail' buttons.",
+        preActionSelector: '[data-studiokit-filter="AGENDA"]',
+        targetSelector: "#btn-gmail-letter, #btn-mailto-letter, #studiokit-sec-agenda",
         placement: "bottom",
         action: async () => {
           switchMainTab("panel-studiokit");
+          document.querySelector('[data-studiokit-filter="AGENDA"]')?.click();
+          document.getElementById("btn-mailto-letter")?.scrollIntoView({ behavior: "smooth", block: "center" });
+        },
+      },
+      {
+        title: "Opening '2. Gear & Buddy Rotator': Master Quartermaster Gear Checklist",
+        narration:
+          "Clicking '🎒 2. Gear & Buddy Rotator' to display the Master Quartermaster Gear & Skill Station Packing Checklist with dynamic patrol-size quantity scaling.",
+        preActionSelector: '[data-studiokit-filter="GEAR"]',
+        targetSelector: "#studiokit-gear-checklist-card",
+        placement: "top",
+        action: async () => {
+          switchMainTab("panel-studiokit");
+          document.querySelector('[data-studiokit-filter="GEAR"]')?.click();
+          document.getElementById("studiokit-gear-checklist-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
+        },
+      },
+      {
+        title: "Spotlighting 'Print 1-Page Pocket Field Checklist'",
+        narration:
+          "Highlighting the '🧭 Print 1-Page Pocket Field Checklist' button, which generates a front-and-back field sheet with scannable ISO 18004 QR codes to the official BSA Pamphlet and Resource Guide.",
+        preActionSelector: "#btn-studiokit-print-field-qr",
+        targetSelector: "#btn-studiokit-print-field-qr",
+        placement: "left",
+        action: async () => {
+          switchMainTab("panel-studiokit");
+          document.querySelector('[data-studiokit-filter="ALL"]')?.click();
+          document.getElementById("btn-studiokit-print-field-qr")?.scrollIntoView({ behavior: "smooth", block: "center" });
         },
       },
     ],
@@ -15073,31 +15649,195 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "22-Capability MCP Playground & 12-Doc Reference Studio",
     steps: [
       {
-        title: "Opening the 22-Capability Model Context Protocol (MCP) Hub & Playground",
+        title: "Spotlighting the 'MCP Hub' Button in the Top Navigation Bar",
         narration:
-          "Opening the MCP Agent Hub (12 Tools, 6 Resources, 4 Prompts) and executing a live JSON-RPC 2.0 tool call against POST /mcp.",
+          "Highlighting the '🔌 MCP Hub' button in the top navigation bar before opening the 22-Capability Model Context Protocol (MCP) Agent Hub & Playground.",
         preActionSelector: "#btn-open-mcp-hub",
-        targetSelector: "#mcp-playground-visual-preview, #mcp-hub-modal .m3-modal-dialog",
-        placement: "left",
+        targetSelector: "#btn-open-mcp-hub",
+        placement: "bottom",
         action: async () => {
-          document.getElementById("btn-open-mcp-hub")?.click();
-          setTimeout(() => {
-            document.getElementById("btn-run-mcp-playground")?.click();
-          }, 220);
+          window.scrollTo({ top: 0, behavior: "smooth" });
         },
       },
       {
-        title: "Opening the 12-Document Reference & Architecture Studio (Shortcut: D)",
+        title: "MCP Hub Section 1: Claude Desktop Integration Config",
         narration:
-          "Switching from the MCP Hub to the built-in 12-Document Reference Studio featuring full-text search, interactive Mermaid architecture diagrams, and light/dark reading modes.",
+          "Opening the MCP Hub modal and inspecting the 1-Click MCP Client Configuration for Claude Desktop (stdio & Streamable HTTP JSON-RPC 2.0).",
+        preActionSelector: '[data-mcp-client="claude"]',
+        targetSelector: "#mcp-client-config-code",
+        placement: "bottom",
+        action: async () => {
+          const modal = document.getElementById("mcp-hub-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-mcp-hub")?.click();
+            await new Promise((r) => setTimeout(r, 180));
+          }
+          document.querySelector('[data-mcp-client="claude"]')?.click();
+        },
+      },
+      {
+        title: "MCP Hub Section 1: Switching to 'Gemini CLI / AGY' Config",
+        narration:
+          "Clicking the '✨ Gemini CLI / AGY' tab to preview the ready-to-copy settings.json configuration for Google Gemini CLI and Antigravity agents.",
+        preActionSelector: '[data-mcp-client="gemini"]',
+        targetSelector: "#mcp-client-config-code",
+        placement: "bottom",
+        action: async () => {
+          const modal = document.getElementById("mcp-hub-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-mcp-hub")?.click();
+            await new Promise((r) => setTimeout(r, 180));
+          }
+          document.querySelector('[data-mcp-client="gemini"]')?.click();
+        },
+      },
+      {
+        title: "Section 2 Guided Prompt: Executing 1st Prompt in Visual Card Preview",
+        narration:
+          "Clicking the first Guided Prompt ('▶ Run Prompt' in Section 2: Grounded bsa:// Resources & Guided Prompts) and inspecting the structured Visual Card Preview.",
+        preActionSelector: "#mcp-resources-and-prompts-list [data-mcp-exec-prompt]",
+        targetSelector: "#mcp-playground-visual-preview",
+        placement: "top",
+        action: async () => {
+          const modal = document.getElementById("mcp-hub-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-mcp-hub")?.click();
+            await new Promise((r) => setTimeout(r, 220));
+          }
+          const firstPromptBtn = document.querySelector("#mcp-resources-and-prompts-list [data-mcp-exec-prompt]");
+          if (firstPromptBtn) {
+            firstPromptBtn.click();
+            await new Promise((r) => setTimeout(r, 220));
+          }
+          document.getElementById("btn-mcp-view-visual")?.click();
+        },
+      },
+      {
+        title: "Section 2 Guided Prompt: Inspecting '{ } Raw JSON-RPC 2.0' Response",
+        narration:
+          "Switching to the '{ } Raw JSON-RPC 2.0' tab to inspect the exact MCP prompts/get JSON-RPC 2.0 wire payload returned by POST /mcp.",
+        preActionSelector: "#btn-mcp-view-json",
+        targetSelector: "#mcp-playground-output",
+        placement: "top",
+        action: async () => {
+          const modal = document.getElementById("mcp-hub-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-mcp-hub")?.click();
+            await new Promise((r) => setTimeout(r, 200));
+          }
+          document.getElementById("btn-mcp-view-json")?.click();
+        },
+      },
+      {
+        title: "Section 3 Playground: Running 1st Tool ('search_merit_badges') in Visual View",
+        narration:
+          "Selecting the first option ('search_merit_badges — Hybrid BM25 + Vector Search') in the Section 3 dropdown, executing it against POST /mcp, and viewing the Visual Card Preview.",
+        preActionSelector: "#mcp-playground-tool-select",
+        targetSelector: "#mcp-playground-visual-preview",
+        placement: "top",
+        action: async () => {
+          const modal = document.getElementById("mcp-hub-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-mcp-hub")?.click();
+            await new Promise((r) => setTimeout(r, 200));
+          }
+          const sel = document.getElementById("mcp-playground-tool-select");
+          if (sel) {
+            sel.selectedIndex = 0;
+            sel.dispatchEvent(new Event("change"));
+          }
+          document.getElementById("btn-mcp-view-visual")?.click();
+          document.getElementById("btn-run-mcp-playground")?.click();
+          await new Promise((r) => setTimeout(r, 220));
+        },
+      },
+      {
+        title: "Section 3 Playground: Inspecting '{ } Raw JSON-RPC 2.0' Tool Output",
+        narration:
+          "Clicking '{ } Raw JSON-RPC 2.0' to inspect the raw tools/call JSON-RPC 2.0 response payload from the search_merit_badges tool.",
+        preActionSelector: "#btn-mcp-view-json",
+        targetSelector: "#mcp-playground-output",
+        placement: "top",
+        action: async () => {
+          const modal = document.getElementById("mcp-hub-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-mcp-hub")?.click();
+            await new Promise((r) => setTimeout(r, 200));
+          }
+          document.getElementById("btn-mcp-view-json")?.click();
+        },
+      },
+      {
+        title: "Closing MCP Hub & Spotlighting the 'Documentation' Button",
+        narration:
+          "Closing the MCP Hub modal and highlighting the '📘 Documentation' button in the top navigation bar before launching the 12-Document Reference Studio.",
         preActionSelector: "#btn-open-docs-viewer",
-        targetSelector: "#docs-viewer-left-rail, #docs-studio-dialog-box, #btn-open-docs-viewer",
-        placement: "right",
+        targetSelector: "#btn-open-docs-viewer",
+        placement: "bottom",
         action: async () => {
           document.getElementById("btn-close-mcp-hub")?.click();
-          if (typeof openDocumentationViewerModal === "function") {
-            openDocumentationViewerModal("user_guide");
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        },
+      },
+      {
+        title: "Documentation Studio (1 of 3): Viewing the Counselor User Guide",
+        narration:
+          "Opening the Documentation Studio with the Guided Tour bar docked at the bottom of the screen so the top audience bar is completely clear, starting on the '📘 User Guide'.",
+        preActionSelector: "#btn-docs-select-user-guide",
+        targetSelector: "#btn-docs-select-user-guide, #docs-viewer-markdown-body",
+        placement: "bottom",
+        action: async () => {
+          const docsModal = document.getElementById("docs-viewer-modal");
+          if (!docsModal || docsModal.classList.contains("hidden")) {
+            if (typeof openDocumentationViewerModal === "function") {
+              await openDocumentationViewerModal("user_guide");
+            }
+          } else {
+            document.getElementById("btn-docs-select-user-guide")?.click();
           }
+          await new Promise((r) => setTimeout(r, 180));
+        },
+      },
+      {
+        title: "Documentation Studio (2 of 3): Switching to the Super-User Admin Guide",
+        narration:
+          "Clicking '🛡️ Admin Guide' in the top audience bar to view the Super-User Admin Console, Zero-PII Telemetry, and 144-Badge Asset Health documentation.",
+        preActionSelector: "#btn-docs-select-admin-guide",
+        targetSelector: "#btn-docs-select-admin-guide, #docs-viewer-markdown-body",
+        placement: "bottom",
+        action: async () => {
+          const docsModal = document.getElementById("docs-viewer-modal");
+          if (!docsModal || docsModal.classList.contains("hidden")) {
+            if (typeof openDocumentationViewerModal === "function") {
+              await openDocumentationViewerModal("admin_guide");
+            }
+          } else {
+            document.getElementById("btn-docs-select-admin-guide")?.click();
+          }
+          await new Promise((r) => setTimeout(r, 180));
+        },
+      },
+      {
+        title: "Documentation Studio (3 of 3): Opening Engineering Docs (README & Mermaid)",
+        narration:
+          "Clicking '⚙️ Engineering Docs (10) ▾' to expand the 10-document engineering library in the left rail and load the system README with interactive Mermaid architecture diagrams.",
+        preActionSelector: "#btn-docs-toggle-eng-list",
+        targetSelector: "#docs-sidebar-eng-section, #docs-viewer-markdown-body",
+        placement: "right",
+        action: async () => {
+          const docsModal = document.getElementById("docs-viewer-modal");
+          if (!docsModal || docsModal.classList.contains("hidden")) {
+            if (typeof openDocumentationViewerModal === "function") {
+              await openDocumentationViewerModal("readme");
+            }
+          } else {
+            state.docsEngListVisible = false;
+            document.getElementById("btn-docs-toggle-eng-list")?.click();
+            if (typeof loadDocumentationItem === "function") {
+              await loadDocumentationItem("readme");
+            }
+          }
+          await new Promise((r) => setTimeout(r, 220));
         },
       },
     ],
@@ -15109,6 +15849,8 @@ let _demoCompletionHideTimer = null;
 let _demoCountdownRaf = null;
 let _demoPaceMode = "normal"; // "normal" (6.5s) | "relaxed" (9.0s) | "manual" (0s)
 let _demoHoverPaused = false;
+let _demoHoverResumeTimer = null;
+let _demoLastPointerPos = null;
 let _demoScrollRafPending = false;
 let _demoCountdownState = {
   durationMs: 6500,
@@ -15216,12 +15958,46 @@ function resolveFirstVisibleTargetElement(targetSelector) {
   return null;
 }
 
+function isAnyFullModalOpen() {
+  const modalIds = ["docs-viewer-modal", "mcp-hub-modal", "template-studio-modal", "image-studio-modal"];
+  return modalIds.some((id) => {
+    const m = document.getElementById(id);
+    return Boolean(m && (m.classList.contains("open") || !m.classList.contains("hidden")));
+  });
+}
+
+function syncTourBannerDockingMode(targetEl = null) {
+  const bannerEl = document.getElementById("active-demo-tour-banner");
+  if (!bannerEl) return;
+  if (state.demoTourCustomPos && typeof state.demoTourCustomPos.left === "number") {
+    bannerEl.classList.remove("is-bottom-docked");
+    bannerEl.classList.add("is-floating-dragged");
+    bannerEl.style.left = `${Math.round(state.demoTourCustomPos.left)}px`;
+    bannerEl.style.top = `${Math.round(state.demoTourCustomPos.top)}px`;
+    return;
+  }
+  bannerEl.classList.remove("is-floating-dragged");
+  bannerEl.style.left = "";
+  bannerEl.style.top = "";
+
+  const modalOpen = isAnyFullModalOpen();
+  let targetNearTop = false;
+  if (targetEl && typeof targetEl.getBoundingClientRect === "function") {
+    const r = targetEl.getBoundingClientRect();
+    if (r.top < 145 && r.height < 180) {
+      targetNearTop = true;
+    }
+  }
+  bannerEl.classList.toggle("is-bottom-docked", modalOpen || targetNearTop);
+}
+
 function scrollTargetIntoComfortZone(targetEl) {
   if (!targetEl || typeof targetEl.getBoundingClientRect !== "function") return;
+  if (isAnyFullModalOpen()) return;
   const rect = targetEl.getBoundingClientRect();
   const vh = window.innerHeight || 800;
-  const topSafeMargin = 96;
-  const bottomSafeMargin = vh - 110;
+  const topSafeMargin = 110;
+  const bottomSafeMargin = vh - 120;
   const isOutOfComfortZone =
     rect.top < topSafeMargin ||
     (rect.bottom > bottomSafeMargin && rect.height < vh * 0.72);
@@ -15234,12 +16010,65 @@ function scrollTargetIntoComfortZone(targetEl) {
   }
 }
 
+function resetTourTransientUiForStep(scenario, stepIdx) {
+  const sid = scenario?.id || "";
+  const keepImageStudio = sid === "demo-3-guardrail-and-trace" && stepIdx >= 2 && stepIdx <= 5;
+  const keepTemplateDropdown = sid === "demo-4-layout-and-templates" && stepIdx === 0;
+  const keepTemplateStudio = sid === "demo-4-layout-and-templates" && stepIdx === 6;
+  const keepPresenterConsole = sid === "demo-6-presenter-and-quiz" && stepIdx === 2;
+  const keepPatrolScoreboard = sid === "demo-6-presenter-and-quiz" && (stepIdx === 1 || stepIdx === 2);
+  const keepMcpModal = sid === "demo-8-mcp-and-docs-studio" && stepIdx >= 1 && stepIdx <= 6;
+  const keepDocsModal = sid === "demo-8-mcp-and-docs-studio" && stepIdx >= 8 && stepIdx <= 10;
+
+  if (!keepTemplateDropdown) {
+    document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
+  }
+  if (!keepImageStudio) {
+    const imgModal = document.getElementById("image-studio-modal");
+    if (imgModal && !imgModal.classList.contains("hidden")) {
+      document.getElementById("btn-close-image-studio")?.click();
+    }
+  }
+  if (!keepTemplateStudio) {
+    const tplModal = document.getElementById("template-studio-modal");
+    if (tplModal && !tplModal.classList.contains("hidden")) {
+      document.getElementById("btn-close-template-studio")?.click();
+    }
+  }
+  if (!keepMcpModal) {
+    const mcpModal = document.getElementById("mcp-hub-modal");
+    if (mcpModal && !mcpModal.classList.contains("hidden")) {
+      document.getElementById("btn-close-mcp-hub")?.click();
+    }
+  }
+  if (!keepDocsModal) {
+    const docsModal = document.getElementById("docs-viewer-modal");
+    if (docsModal && !docsModal.classList.contains("hidden")) {
+      document.getElementById("btn-close-docs-viewer-modal")?.click();
+    }
+  }
+  if (!keepPresenterConsole && state.presenterConsoleOpen && typeof togglePresenterConsoleMode === "function") {
+    togglePresenterConsoleMode(false);
+  }
+  if (!keepPatrolScoreboard && state.patrolScoreboardVisible) {
+    state.patrolScoreboardVisible = false;
+    document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
+    document.getElementById("btn-toggle-patrol-scoreboard")?.classList.remove("active");
+  }
+}
+
 function closeDemoOpenedModalsAndResetScroll(scrollToTop = true) {
   document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
   document.getElementById("btn-close-image-studio")?.click();
   document.getElementById("btn-close-template-studio")?.click();
   document.getElementById("btn-close-mcp-hub")?.click();
   document.getElementById("btn-close-docs-viewer-modal")?.click();
+  if (state.presenterConsoleOpen && typeof togglePresenterConsoleMode === "function") {
+    togglePresenterConsoleMode(false);
+  }
+  state.patrolScoreboardVisible = false;
+  document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
+  document.getElementById("btn-toggle-patrol-scoreboard")?.classList.remove("active");
   const profileAcc = document.getElementById("counselor-profile-accordion");
   if (profileAcc) profileAcc.open = false;
 
@@ -15286,6 +16115,16 @@ function hideDemoSpotlightAndCalloutOverlays(immediate = false) {
   }, 310);
 }
 
+function rectsIntersect(a, b, pad = 6) {
+  if (!a || !b) return false;
+  return !(
+    a.right + pad < b.left ||
+    a.left - pad > b.right ||
+    a.bottom + pad < b.top ||
+    a.top - pad > b.bottom
+  );
+}
+
 function positionDemoSpotlightAndCallout(
   targetSelector,
   stepPillText,
@@ -15310,6 +16149,8 @@ function positionDemoSpotlightAndCallout(
     hideDemoSpotlightAndCalloutOverlays(true);
     return;
   }
+
+  syncTourBannerDockingMode(targetEl);
 
   ringEl?.classList.remove("hidden", "is-fading-out");
   cursorEl?.classList.remove("hidden", "is-fading-out");
@@ -15344,10 +16185,23 @@ function positionDemoSpotlightAndCallout(
 
   if (calloutEl && !options.cursorOnly) {
     const calloutW = Math.max(320, calloutEl.offsetWidth || 386);
-    const calloutH = Math.max(128, calloutEl.offsetHeight || 156);
+    const calloutH = Math.max(132, calloutEl.offsetHeight || 162);
     const gap = 14;
-    const minTop = 74;
-    const maxTop = Math.max(minTop, window.innerHeight - calloutH - 14);
+    const bannerEl = document.getElementById("active-demo-tour-banner");
+    const bannerVisible = Boolean(bannerEl && !bannerEl.classList.contains("hidden"));
+    const bannerRect = bannerVisible ? bannerEl.getBoundingClientRect() : null;
+
+    let minTop = 14;
+    let maxTop = Math.max(minTop, window.innerHeight - calloutH - 14);
+    if (bannerRect) {
+      if (bannerRect.top < window.innerHeight * 0.35) {
+        minTop = Math.max(minTop, Math.round(bannerRect.bottom + 10));
+      } else if (bannerRect.bottom > window.innerHeight * 0.65) {
+        maxTop = Math.min(maxTop, Math.round(bannerRect.top - calloutH - 10));
+      }
+    }
+    maxTop = Math.max(minTop, maxTop);
+
     const minLeft = 14;
     const maxLeft = Math.max(minLeft, window.innerWidth - calloutW - 14);
 
@@ -15357,8 +16211,8 @@ function positionDemoSpotlightAndCallout(
 
     const spaceRight = window.innerWidth - rect.right;
     const spaceLeft = rect.left;
-    const spaceBottom = window.innerHeight - rect.bottom;
-    const spaceTop = rect.top;
+    const spaceBottom = maxTop + calloutH - rect.bottom;
+    const spaceTop = rect.top - minTop;
 
     if (placement === "right" && spaceRight >= calloutW + 20) {
       cTop = Math.min(maxTop, Math.max(minTop, rect.top));
@@ -15368,15 +16222,15 @@ function positionDemoSpotlightAndCallout(
       cTop = Math.min(maxTop, Math.max(minTop, rect.top));
       cLeft = Math.max(minLeft, rect.left - calloutW - gap);
       resolvedSide = "left";
-    } else if (placement === "top" && spaceTop >= calloutH + minTop + gap) {
+    } else if (placement === "top" && spaceTop >= calloutH + gap) {
       cTop = Math.max(minTop, rect.top - calloutH - gap);
       cLeft = Math.min(maxLeft, Math.max(minLeft, rect.left + 10));
       resolvedSide = "top";
-    } else if (spaceBottom >= calloutH + 22) {
+    } else if (spaceBottom >= calloutH + gap) {
       cTop = Math.min(maxTop, Math.max(minTop, rect.bottom + gap));
       cLeft = Math.min(maxLeft, Math.max(minLeft, rect.left));
       resolvedSide = "bottom";
-    } else if (spaceTop >= calloutH + minTop + gap) {
+    } else if (spaceTop >= calloutH + gap) {
       cTop = Math.max(minTop, rect.top - calloutH - gap);
       cLeft = Math.min(maxLeft, Math.max(minLeft, rect.left + 10));
       resolvedSide = "top";
@@ -15389,10 +16243,26 @@ function positionDemoSpotlightAndCallout(
       cLeft = Math.max(minLeft, rect.left - calloutW - gap);
       resolvedSide = "left";
     } else {
-      // Target spans most of the viewport: dock callout cleanly in bottom-right HUD corner
       cTop = maxTop;
       cLeft = maxLeft;
       resolvedSide = "bottom";
+    }
+
+    // Final collision check against the Guided Tour banner (including user-dragged floating positions)
+    if (bannerRect) {
+      const candidateBox = {
+        left: cLeft,
+        top: cTop,
+        right: cLeft + calloutW,
+        bottom: cTop + calloutH,
+      };
+      if (rectsIntersect(candidateBox, bannerRect, 8)) {
+        if (bannerRect.top > window.innerHeight * 0.5) {
+          cTop = Math.max(14, bannerRect.top - calloutH - 12);
+        } else {
+          cTop = Math.min(window.innerHeight - calloutH - 14, bannerRect.bottom + 12);
+        }
+      }
     }
 
     calloutEl.setAttribute("data-placement", resolvedSide);
@@ -15435,7 +16305,7 @@ function syncDemoControlsState() {
 
   if (nextBtn) {
     if (isCompleted) {
-      nextBtn.textContent = "↺ Replay Demo";
+      nextBtn.textContent = "↺ Replay Tour";
     } else if (isLastStep) {
       nextBtn.textContent = "✓ Finish Tour";
     } else {
@@ -15465,7 +16335,7 @@ function completeInteractiveDemoTour(scenario) {
   // 1. Fade out and dismiss the spotlight ring, floating callout bubble, and virtual cursor
   hideDemoSpotlightAndCalloutOverlays(false);
 
-  // 2. Close any modal opened during the demo and smoothly scroll the UI back to the top
+  // 2. Close any modal opened during the tour and smoothly scroll the UI back to the top
   closeDemoOpenedModalsAndResetScroll(true);
 
   // 3. Transition the docked banner into a clean completion summary state
@@ -15476,17 +16346,17 @@ function completeInteractiveDemoTour(scenario) {
   const dotsEl = document.getElementById("demo-tour-step-dots");
 
   if (bannerEl && scenario) {
-    bannerEl.classList.remove("hidden");
+    bannerEl.classList.remove("hidden", "is-bottom-docked");
     bannerEl.classList.add("is-completed");
     if (badgeEl) {
-      badgeEl.textContent = `✅ COMPLETED DEMO ${scenario.index} OF ${DEMO_SCENARIOS_CATALOG.length}`;
+      badgeEl.textContent = `✅ COMPLETED TOUR ${scenario.index} OF ${DEMO_SCENARIOS_CATALOG.length}`;
     }
     if (titleEl) {
       titleEl.textContent = `Completed: ${scenario.shortTitle}`;
     }
     if (narrationEl) {
       narrationEl.textContent =
-        "Tour complete: spotlight dismissed and view returned to the top of the Workbench. Click 'Replay Demo', 'Next Demo ▸', or 'Exit'.";
+        "Guided Tour complete: spotlight dismissed and view returned to the top of the Workbench. Click 'Replay Tour', 'Next Tour ▸', or 'Exit'.";
     }
     if (dotsEl) {
       dotsEl.querySelectorAll(".m3-demo-step-dot").forEach((d) => {
@@ -15518,7 +16388,7 @@ function stopInteractiveDemoTour(options = {}) {
   state.activeDemoTour = null;
 
   const bannerEl = document.getElementById("active-demo-tour-banner");
-  bannerEl?.classList.remove("is-completed");
+  bannerEl?.classList.remove("is-completed", "is-bottom-docked", "is-floating-dragged");
   bannerEl?.classList.add("hidden");
 
   hideDemoSpotlightAndCalloutOverlays(true);
@@ -15545,6 +16415,9 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
     completed: false,
   };
 
+  // Ensure any modals/dropdowns/presenter-views from other steps are cleanly closed so Prev/Next is 100% idempotent
+  resetTourTransientUiForStep(scenario, stepIdx);
+
   const step = scenario.steps[stepIdx];
   const totalSteps = scenario.steps.length;
   const bannerEl = document.getElementById("active-demo-tour-banner");
@@ -15555,7 +16428,7 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
 
   bannerEl?.classList.remove("hidden", "is-completed");
   if (badgeEl) {
-    badgeEl.textContent = `🎬 DEMO ${scenario.index} OF ${DEMO_SCENARIOS_CATALOG.length} • STEP ${stepIdx + 1} OF ${totalSteps}`;
+    badgeEl.textContent = `🧭 TOUR ${scenario.index} OF ${DEMO_SCENARIOS_CATALOG.length} • STEP ${stepIdx + 1} OF ${totalSteps}`;
   }
   if (titleEl) {
     titleEl.textContent = `${step.title}`;
@@ -15609,6 +16482,14 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
     }
   } catch (_err) {}
 
+  if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) {
+    return;
+  }
+
+  // Refresh dynamic title/narration in case step.action resolved location
+  if (titleEl) titleEl.textContent = `${step.title}`;
+  if (narrationEl) narrationEl.textContent = step.narration;
+
   // Phase 3: Scroll target into comfort zone & lock spotlight + callout across smooth-scroll frames
   const lockSpotlightToCurrentStep = (pulse = false) => {
     if (!state.activeDemoTour || state.activeDemoTour.completed) return;
@@ -15646,6 +16527,7 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
 }
 
 async function startInteractiveDemoTour(demoId = "demo-1-grounded-deck") {
+  await resolveAndSyncUserLocationForTours();
   const scenario =
     DEMO_SCENARIOS_CATALOG.find((d) => d.id === demoId) || DEMO_SCENARIOS_CATALOG[0];
   document.getElementById("hero-demo-dropdown-menu")?.classList.add("hidden");
@@ -15661,13 +16543,99 @@ async function startInteractiveDemoTour(demoId = "demo-1-grounded-deck") {
 }
 window.startInteractiveDemoTour = startInteractiveDemoTour;
 
+function initDraggableDemoTourBanner() {
+  const bannerEl = document.getElementById("active-demo-tour-banner");
+  const handleEl = document.getElementById("demo-tour-drag-handle");
+  if (!bannerEl || !handleEl) return;
+
+  let isDragging = false;
+  let startX = 0;
+  let startY = 0;
+  let origLeft = 0;
+  let origTop = 0;
+
+  handleEl.addEventListener("dblclick", (ev) => {
+    ev.stopPropagation();
+    state.demoTourCustomPos = null;
+    syncTourBannerDockingMode();
+    showToast("📌 Guided Tour bar re-docked to automatic position.", "info");
+  });
+
+  handleEl.addEventListener("mousedown", (ev) => {
+    if (ev.button !== 0) return;
+    ev.preventDefault();
+    const r = bannerEl.getBoundingClientRect();
+    isDragging = true;
+    startX = ev.clientX;
+    startY = ev.clientY;
+    origLeft = r.left;
+    origTop = r.top;
+    state.demoTourCustomPos = { left: origLeft, top: origTop };
+    syncTourBannerDockingMode();
+  });
+
+  window.addEventListener("mousemove", (ev) => {
+    if (!isDragging) return;
+    const dx = ev.clientX - startX;
+    const dy = ev.clientY - startY;
+    const bw = bannerEl.offsetWidth || 860;
+    const bh = bannerEl.offsetHeight || 74;
+    const nextLeft = Math.max(8, Math.min(window.innerWidth - bw - 8, origLeft + dx));
+    const nextTop = Math.max(8, Math.min(window.innerHeight - bh - 8, origTop + dy));
+    state.demoTourCustomPos = { left: nextLeft, top: nextTop };
+    syncTourBannerDockingMode();
+  });
+
+  window.addEventListener("mouseup", () => {
+    isDragging = false;
+  });
+}
+
 function initInteractiveGuidedDemoWalkthroughs() {
   const demoToggleBtn = document.getElementById("btn-hero-demo-menu-toggle");
   const demoMenu = document.getElementById("hero-demo-dropdown-menu");
   const closeMenuBtn = document.getElementById("btn-close-hero-demo-menu");
 
+  resolveAndSyncUserLocationForTours();
+  initDraggableDemoTourBanner();
+
+  const locInput = document.getElementById("input-counselor-location");
+  locInput?.addEventListener("change", () => {
+    resolveAndSyncUserLocationForTours();
+  });
+
+  // Bind the 3 interactive Hero KPI pill buttons (Item 18)
+  document.getElementById("btn-hero-kpi-slides")?.addEventListener("click", () => {
+    switchMainTab("panel-storyboard");
+    const sbLayout = document.getElementById("panel-storyboard");
+    sbLayout?.classList.remove("filmstrip-collapsed");
+    const filmToggle = document.getElementById("btn-toggle-filmstrip");
+    if (filmToggle) filmToggle.textContent = "◀ Outline";
+    const filmstripEl = document.getElementById("slide-filmstrip-list");
+    filmstripEl?.classList.remove("hidden");
+    filmstripEl?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+
+  document.getElementById("btn-hero-kpi-reqs")?.addEventListener("click", () => {
+    switchMainTab("panel-triage");
+    document.getElementById("panel-triage")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  document.getElementById("btn-hero-kpi-theme")?.addEventListener("click", () => {
+    switchMainTab("panel-storyboard");
+    document.getElementById("btn-stage-template-picker")?.click();
+  });
+
+  // Bind Patrol Scoreboard ✕ Hide button (Item 11)
+  document.getElementById("btn-patrol-scoreboard-hide")?.addEventListener("click", () => {
+    state.patrolScoreboardVisible = false;
+    document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
+    document.getElementById("btn-toggle-patrol-scoreboard")?.classList.remove("active");
+  });
+
   demoToggleBtn?.addEventListener("click", (ev) => {
     ev.stopPropagation();
+    resolveAndSyncUserLocationForTours();
     const isHidden = demoMenu?.classList.toggle("hidden");
     demoToggleBtn.setAttribute("aria-expanded", !isHidden ? "true" : "false");
   });
@@ -15786,15 +16754,33 @@ function initInteractiveGuidedDemoWalkthroughs() {
     stopInteractiveDemoTour({ scrollToTop: true });
   });
 
-  // Hover-to-Pause on floating callout bubble and docked tour banner
+  // Intentional-Movement Hover-to-Pause on floating callout bubble and docked tour banner (Item 2):
+  // Stationary cursors sitting inside the window do NOT halt the tour; only intentional cursor movement
+  // pauses countdown for 1.8s so the user can click buttons comfortably.
   const calloutEl = document.getElementById("demo-floating-callout");
   const bannerEl = document.getElementById("active-demo-tour-banner");
+  const handleIntentionalPointerMove = (ev) => {
+    const prev = _demoLastPointerPos;
+    _demoLastPointerPos = { x: ev.clientX, y: ev.clientY };
+    const movedDist = prev
+      ? Math.hypot(ev.clientX - prev.x, ev.clientY - prev.y)
+      : Math.hypot(ev.movementX || 0, ev.movementY || 0);
+    if (movedDist < 3) return;
+    _demoHoverPaused = true;
+    if (_demoHoverResumeTimer) clearTimeout(_demoHoverResumeTimer);
+    _demoHoverResumeTimer = setTimeout(() => {
+      _demoHoverPaused = false;
+    }, 1800);
+  };
   [calloutEl, bannerEl].forEach((el) => {
-    el?.addEventListener("mouseenter", () => {
-      _demoHoverPaused = true;
-    });
+    el?.addEventListener("mousemove", handleIntentionalPointerMove);
     el?.addEventListener("mouseleave", () => {
       _demoHoverPaused = false;
+      _demoLastPointerPos = null;
+      if (_demoHoverResumeTimer) {
+        clearTimeout(_demoHoverResumeTimer);
+        _demoHoverResumeTimer = null;
+      }
     });
   });
 

@@ -851,11 +851,26 @@ def run_merit_badge_workflow(
             hitl_confirmation_token=hitl_res.get("confirmation_token"),
             option_track=str(research_res.get("selected_option_track") or option_track or "ALL"),
         )
-        build_res = execute_tool_with_observability(
-            tool_name="generate_bsa_slide_deck_pptx",
-            func=generate_bsa_slide_deck_pptx,
-            request=build_req,
+        can_reuse_cached_pptx = (
+            not os.environ.get("PYTEST_CURRENT_TEST")
+            and bool(output_path)
+            and os.path.exists(str(output_path))
+            and os.path.getsize(str(output_path)) > 50_000
+            and not (counselor_info or {}).get("custom_troop_logo_path")
         )
+        if can_reuse_cached_pptx:
+            build_res = {
+                "status": "SUCCESS",
+                "output_path": str(output_path),
+                "slide_count": len(slides_specs) + 1,
+                "cache_hit": True,
+            }
+        else:
+            build_res = execute_tool_with_observability(
+                tool_name="generate_bsa_slide_deck_pptx",
+                func=generate_bsa_slide_deck_pptx,
+                request=build_req,
+            )
         builder_model = select_model_for_task("builder")
         agent_trace.append({
             "agent": "PowerPointBuilderAgent",

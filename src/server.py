@@ -39,6 +39,7 @@ from src.config import (
     OFFICIAL_BSA_MERIT_BADGES_CATALOG,
     PROJECT_ROOT,
     load_prompt_manifest,
+    select_model_for_task,
 )
 from src.agents.coordinator import (
     run_merit_badge_workflow,
@@ -752,7 +753,6 @@ async def api_run_workflow(
         result["custom_troop_logo_url"] = _to_web_asset_url(req.custom_troop_logo_path)
     if req.template_id or req.deck_style:
         try:
-            from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
             from src.tools.template_engine import get_template_profile, resolve_effective_slide_style
 
             eff_tpl_id = str(req.template_id or result.get("template_id") or "default_workbench").strip() or "default_workbench"
@@ -969,7 +969,6 @@ async def api_stream_workflow(
                     res_obj["custom_troop_logo_url"] = _to_web_asset_url(custom_troop_logo_path)
                 if template_id or layout_style_preset:
                     try:
-                        from src.tools.pptx_builder import rebuild_deck_pptx_from_storyboard
                         from src.tools.template_engine import get_template_profile, resolve_effective_slide_style
 
                         eff_tpl_id = str(template_id or res_obj.get("template_id") or "default_workbench").strip() or "default_workbench"
@@ -990,16 +989,17 @@ async def api_stream_workflow(
                             out_file = str(
                                 GENERATED_DECKS_DIR / f"{badge_name.strip().replace(' ', '_')}{opt_slug}_{prof.template_id}_Merit_Badge_Deck.pptx"
                             )
-                            await _async_rebuild_deck_pptx(
-                                badge_name=badge_name,
-                                storyboard_slides=sb_slides,
-                                output_path=out_file,
-                                counselor_info=counselor_info,
-                                template_id=prof.template_id,
-                                default_tier=str(beautification_tier or "BEAUTIFIED"),
-                                deck_style=eff_style,
-                                option_track=str(option_track or "ALL"),
-                            )
+                            if not (os.path.exists(out_file) and os.path.getsize(out_file) > 50_000 and not custom_troop_logo_path):
+                                await _async_rebuild_deck_pptx(
+                                    badge_name=badge_name,
+                                    storyboard_slides=sb_slides,
+                                    output_path=out_file,
+                                    counselor_info=counselor_info,
+                                    template_id=prof.template_id,
+                                    default_tier=str(beautification_tier or "BEAUTIFIED"),
+                                    deck_style=eff_style,
+                                    option_track=str(option_track or "ALL"),
+                                )
                             res_obj["output_path"] = out_file
                         res_obj["template_id"] = prof.template_id
                         res_obj["deck_style"] = eff_style
@@ -1022,10 +1022,7 @@ async def api_regenerate_slide(
     t_regen_start = time.perf_counter()
     from src.agents.beautifier import generate_ai_editorial_illustration
     from src.agents.image_studio import register_image_in_badge_catalog
-    from src.tools.pptx_builder import (
-    rebuild_deck_pptx_from_storyboard,
-        CounselorTitleSlideInfo,
-    )
+    from src.tools.pptx_builder import CounselorTitleSlideInfo
 
     req_num = str(req.slide_data.get("req_number") or (req.slide_index + 1))
     title = str(req.slide_data.get("title") or f"Req {req_num}")
@@ -2044,10 +2041,7 @@ async def api_polish_slide_speaker_notes(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
     """Option C Layer 2: Polishes a single slide's Counselor Teaching Notes via Gemini Flash or Studio Narrative Synthesizer with SQLite caching."""
-    from src.tools.pptx_builder import (
-    rebuild_deck_pptx_from_storyboard,
-        CounselorTitleSlideInfo,
-    )
+    from src.tools.pptx_builder import CounselorTitleSlideInfo
 
     t_start = time.perf_counter()
     s_data = dict(req.slide_data or {})
@@ -2112,10 +2106,7 @@ async def api_polish_deck_speaker_notes_batch(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
     """Polishes all slides across the entire Merit Badge deck in parallel with SQLite caching and a single PPTX rebuild."""
-    from src.tools.pptx_builder import (
-    rebuild_deck_pptx_from_storyboard,
-        CounselorTitleSlideInfo,
-    )
+    from src.tools.pptx_builder import CounselorTitleSlideInfo
 
     t_start = time.perf_counter()
     slides_copy = [dict(s) for s in (req.storyboard_slides or [])]
@@ -2599,10 +2590,7 @@ async def api_export_slide_deck_to_google_slides(
     """Exports the active Merit Badge slide deck directly to a native Google Slides presentation via Google Drive API conversion."""
     import subprocess
     import requests as ext_requests
-    from src.tools.pptx_builder import (
-    rebuild_deck_pptx_from_storyboard,
-        CounselorTitleSlideInfo,
-    )
+    from src.tools.pptx_builder import CounselorTitleSlideInfo
 
     t_start = time.perf_counter()
     pptx_file: Optional[Path] = None
@@ -3081,6 +3069,49 @@ async def api_delete_counselor_profile(
     from src.memory.session_store import clear_local_counselor_profile
 
     return clear_local_counselor_profile()
+
+
+_TZ_LOCATION_FALLBACK_MAP: Dict[str, str] = {
+    "America/New_York": "Middleton, MA 01949",
+    "America/Detroit": "Detroit, MI",
+    "America/Chicago": "Chicago, IL",
+    "America/Denver": "Denver, CO",
+    "America/Phoenix": "Phoenix, AZ",
+    "America/Los_Angeles": "San Francisco, CA",
+    "America/Anchorage": "Anchorage, AK",
+    "Pacific/Honolulu": "Honolulu, HI",
+}
+
+
+@app.get("/api/location/resolve")
+@app.get("/api/v1/location/resolve")
+async def api_resolve_counselor_location(
+    request: Request,
+    location_or_zip: str = Query("", description="Explicit City, State or 5-digit US ZIP code."),
+    troop_affiliation: str = Query("", description="Troop number and local council string."),
+    timezone: str = Query("", description="Browser IANA timezone fallback hint."),
+) -> Dict[str, Any]:
+    """Resolves counselor regional context, state, U.S. Senators, U.S. House Representative, and NOAA WFO."""
+    from src.agents.researcher import resolve_counselor_location
+
+    eff_loc = (location_or_zip or "").strip()
+    eff_troop = (troop_affiliation or "").strip()
+    if not eff_loc and eff_troop in ("", "Troop 123, My Council"):
+        geo_city = (request.headers.get("x-appengine-city") or "").strip().title()
+        geo_region = (request.headers.get("x-appengine-region") or "").strip().upper()
+        if geo_city and geo_region and len(geo_region) == 2:
+            eff_loc = f"{geo_city}, {geo_region}"
+        elif timezone and timezone in _TZ_LOCATION_FALLBACK_MAP:
+            eff_loc = _TZ_LOCATION_FALLBACK_MAP[timezone]
+        else:
+            eff_loc = "Middleton, MA 01949"
+    resolved = await asyncio.to_thread(
+        resolve_counselor_location,
+        troop_affiliation=eff_troop,
+        location_or_zip=eff_loc,
+    )
+    return {"status": "SUCCESS", "resolved_location": resolved}
+
 
 
 @app.get("/api/badge/images")
