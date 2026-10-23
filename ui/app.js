@@ -14939,6 +14939,55 @@ async function ensureBadgeLoadedForTour(badgeName, optionTrackLabel = "") {
   return await _tourBadgeLoadPromise;
 }
 
+async function ensureTourDeckAndTeachingSlide(layoutStyle = null) {
+  switchMainTab("panel-storyboard");
+  if (!(state.currentResult?.storyboard?.slides || []).length) {
+    await ensureBadgeLoadedForTour(state.currentBadge || "First Aid");
+  }
+  const slides = state.currentResult?.storyboard?.slides || [];
+  const excludedArchetypes = [
+    "REQUIREMENTS_TRIAGE_MATRIX",
+    "SOCRATIC_CHECKPOINT_QUIZ",
+    "FULL_BLEED_IMAGE_EXPLAINER",
+    "SOURCES_AND_REFERENCES",
+    "WORKED_EXAMPLE_TEMPLATE",
+  ];
+  const curSlide = slides[state.activeSlideIdx];
+  if (
+    state.activeSlideIdx < 1 ||
+    !curSlide ||
+    excludedArchetypes.includes(String(curSlide.archetype || "")) ||
+    String(curSlide.req_number || "") === "Overview"
+  ) {
+    const bestIdx = slides.findIndex(
+      (s, i) =>
+        i >= 1 &&
+        String(s?.req_number || "") !== "Overview" &&
+        !excludedArchetypes.includes(String(s?.archetype || ""))
+    );
+    state.activeSlideIdx = bestIdx >= 1 ? bestIdx : Math.min(2, Math.max(0, slides.length - 1));
+  }
+  if (slides[state.activeSlideIdx]) {
+    slides[state.activeSlideIdx].container_style_override = "AUTO_DECK";
+    slides[state.activeSlideIdx]._customThemeOverride = false;
+  }
+  if (layoutStyle) {
+    const sidebarLayoutSel = document.getElementById("deck-layout-style-select");
+    const modalLayoutSel = document.getElementById("modal-deck-layout-style-select");
+    const textSel = document.getElementById("deck-text-container-select");
+    const contStyleSel = document.getElementById("codesign-container-style-select");
+    if (sidebarLayoutSel) sidebarLayoutSel.value = layoutStyle;
+    if (modalLayoutSel) modalLayoutSel.value = layoutStyle;
+    if (textSel) textSel.value = "AUTO";
+    if (contStyleSel) contStyleSel.value = "AUTO_DECK";
+    if (typeof renderStageTemplateSplitDropdown === "function") {
+      renderStageTemplateSplitDropdown();
+    }
+    await applyDeckStyleToActiveDeck(true);
+  }
+  renderActiveSlide(state.activeSlideIdx);
+}
+
 const DEMO_SCENARIOS_CATALOG = [
   {
     id: "demo-1-grounded-deck",
@@ -15301,10 +15350,9 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#stage-template-dropdown-menu, #btn-stage-template-caret",
         placement: "left",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 1) {
-            state.activeSlideIdx = 2;
-            renderActiveSlide(2);
+          await ensureTourDeckAndTeachingSlide(null);
+          if (typeof renderStageTemplateSplitDropdown === "function") {
+            renderStageTemplateSplitDropdown();
           }
           document.getElementById("stage-template-dropdown-menu")?.classList.remove("hidden");
         },
@@ -15313,13 +15361,11 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Text Style 1 of 3: Applying 'Boxed' (Structured Card Containers)",
         narration:
           "Stepping through the 3 text styles in reverse order starting with '🗂️ Boxed' (BOXED_CARDS), which wraps each teaching point in a structured bordered card container while keeping the right visual unboxed.",
-        preActionSelector: '[data-quick-container-style="BOXED_CARDS"]',
+        preActionSelector: '[data-stage-quick-layout="BOXED_CARDS"]',
         targetSelector: "#stage-left-cards",
         placement: "right",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
-          document.querySelector('[data-quick-container-style="BOXED_CARDS"]')?.click();
+          await ensureTourDeckAndTeachingSlide("BOXED_CARDS");
           document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
         },
       },
@@ -15327,13 +15373,11 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Text Style 2 of 3: Applying 'Line' (Editorial Left-Accent Line)",
         narration:
           "Switching to '📏 Line' (LEFT_ACCENT_LINE), which removes full card borders and renders 4px vertical colored accent bars with generous open typography.",
-        preActionSelector: '[data-quick-container-style="LEFT_ACCENT_LINE"]',
+        preActionSelector: '[data-stage-quick-layout="LEFT_ACCENT_LINE"]',
         targetSelector: "#stage-left-cards",
         placement: "right",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
-          document.querySelector('[data-quick-container-style="LEFT_ACCENT_LINE"]')?.click();
+          await ensureTourDeckAndTeachingSlide("LEFT_ACCENT_LINE");
           document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
         },
       },
@@ -15341,13 +15385,11 @@ const DEMO_SCENARIOS_CATALOG = [
         title: "Text Style 3 of 3: Applying 'Clean' (Open Borderless Typography)",
         narration:
           "Switching to '📖 Clean' (CLEAN_OPEN), which removes all card boxes and lines to maximize breathing room and lift body font size by +2.5pt to +3.3pt on both the live stage and exported .PPTX.",
-        preActionSelector: '[data-quick-container-style="CLEAN_OPEN"]',
+        preActionSelector: '[data-stage-quick-layout="CLEAN_OPEN"]',
         targetSelector: "#stage-left-cards",
         placement: "right",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
-          document.querySelector('[data-quick-container-style="CLEAN_OPEN"]')?.click();
+          await ensureTourDeckAndTeachingSlide("CLEAN_OPEN");
           document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
         },
       },
@@ -15359,8 +15401,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#stage-footer-strip, #widescreen-slide-stage",
         placement: "top",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 1) state.activeSlideIdx = 2;
+          await ensureTourDeckAndTeachingSlide(null);
           if (typeof applyTemplateToActiveDeck === "function") {
             await applyTemplateToActiveDeck("classic_outdoor_silhouette_navy", false);
           }
@@ -15375,7 +15416,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#btn-stage-template-picker",
         placement: "bottom",
         action: async () => {
-          switchMainTab("panel-storyboard");
+          await ensureTourDeckAndTeachingSlide(null);
         },
       },
       {
@@ -15386,7 +15427,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#template-catalog-grid, #template-studio-modal .m3-modal-dialog",
         placement: "top",
         action: async () => {
-          switchMainTab("panel-storyboard");
+          await ensureTourDeckAndTeachingSlide(null);
           const modal = document.getElementById("template-studio-modal");
           if (!modal || modal.classList.contains("hidden")) {
             document.getElementById("btn-stage-template-picker")?.click();
@@ -16457,6 +16498,12 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
   // Phase 1: Optional pre-action cursor glide when stepping automatically between steps
   const usePreGlide = !options.immediateAction && stepIdx > 0 && step.preActionSelector;
   if (usePreGlide) {
+    if (scenario.id === "demo-4-layout-and-templates" && stepIdx >= 1 && stepIdx <= 3) {
+      if (typeof renderStageTemplateSplitDropdown === "function") {
+        renderStageTemplateSplitDropdown();
+      }
+      document.getElementById("stage-template-dropdown-menu")?.classList.remove("hidden");
+    }
     const preEl = resolveFirstVisibleTargetElement(step.preActionSelector);
     if (preEl) {
       scrollTargetIntoComfortZone(preEl);
@@ -16532,6 +16579,13 @@ async function startInteractiveDemoTour(demoId = "demo-1-grounded-deck") {
     DEMO_SCENARIOS_CATALOG.find((d) => d.id === demoId) || DEMO_SCENARIOS_CATALOG[0];
   document.getElementById("hero-demo-dropdown-menu")?.classList.add("hidden");
   document.getElementById("btn-hero-demo-menu-toggle")?.setAttribute("aria-expanded", "false");
+  if (
+    scenario.id !== "demo-1-grounded-deck" &&
+    scenario.id !== "demo-2-multi-option" &&
+    !(state.currentResult?.storyboard?.slides || []).length
+  ) {
+    await ensureBadgeLoadedForTour(state.currentBadge || "First Aid");
+  }
   state.activeDemoTour = {
     scenarioId: scenario.id,
     scenarioIndex: scenario.index,
