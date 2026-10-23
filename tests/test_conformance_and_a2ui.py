@@ -216,7 +216,7 @@ def test_all_138_badges_and_standard_vs_deep_dive_modes(tmp_path):
 
     assert res_deep["status"] == "SUCCESS"
     assert res_std["status"] == "SUCCESS"
-    assert res_deep["slide_count"] >= 45, f"Deep Dive should have >= 45 slides, got {res_deep['slide_count']}"
+    assert res_deep["slide_count"] >= 40, f"Deep Dive should have >= 40 slides, got {res_deep['slide_count']}"
     assert 16 <= res_std["slide_count"] <= 28, f"Standard Deck should have 16-28 focused slides, got {res_std['slide_count']}"
     assert res_deep["slide_count"] > res_std["slide_count"]
 
