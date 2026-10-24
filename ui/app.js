@@ -4892,6 +4892,20 @@ async function cycleSlideImageChoice(delta) {
   }
 }
 
+async function selectSlideImageChoiceByIndex(choiceIdx) {
+  if (!state.currentResult || state.activeSlideIdx < 0) return;
+  const slides = state.currentResult.storyboard?.slides || [];
+  const slide = slides[state.activeSlideIdx];
+  if (!slide) return;
+  const choices = getSlideSpecificImageChoices(slide);
+  if (!choices.length) return;
+  const clampedIdx = Math.max(0, Math.min(choices.length - 1, Number(choiceIdx) || 0));
+  const targetEntry = choices[clampedIdx];
+  if (targetEntry) {
+    await selectSlideImageChoice(targetEntry);
+  }
+}
+
 function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualForIntro) {
   ensurePillPopoverOutsideListener();
   const visSourceBadge = document.getElementById("stage-visual-source-badge");
@@ -14412,6 +14426,7 @@ async function initMcpAgentHubAndPlayground() {
               if (argsBox) {
                 argsBox.value = JSON.stringify({ uri }, null, 2);
               }
+              setMcpViewTab("visual");
               await executePlaygroundAction();
             });
           });
@@ -14988,6 +15003,41 @@ async function ensureTourDeckAndTeachingSlide(layoutStyle = null) {
   renderActiveSlide(state.activeSlideIdx);
 }
 
+async function ensureTour5MultiImageSlide(choiceIdx = null, keepHover = true) {
+  switchMainTab("panel-storyboard");
+  await ensureBadgeLoadedForTour("First Aid");
+  const slides = state.currentResult?.storyboard?.slides || [];
+  let targetIdx = 4; // Slide 6 of First Aid: Scene Size-Up & Universal Precautions (2 curated pamphlet visuals)
+  const sAt4 = slides[targetIdx];
+  if (!sAt4 || getSlideSpecificImageChoices(sAt4).length < 2) {
+    const foundIdx = slides.findIndex(
+      (s, i) =>
+        i >= 1 &&
+        String(s?.archetype || "") === "SPLIT_VISUAL_EXPLAINER" &&
+        getSlideSpecificImageChoices(s).length >= 2
+    );
+    if (foundIdx >= 0) targetIdx = foundIdx;
+  }
+  state.activeSlideIdx = targetIdx;
+  const targetSlide = slides[targetIdx];
+  if (targetSlide && choiceIdx !== null) {
+    targetSlide.archetype = "SPLIT_VISUAL_EXPLAINER";
+  }
+  const rightVis = document.getElementById("stage-right-visual");
+  if (rightVis) {
+    rightVis.classList.toggle("demo-force-hover", Boolean(keepHover));
+  }
+  renderFilmstrip(slides);
+  renderActiveSlide(targetIdx);
+  if (choiceIdx !== null && typeof selectSlideImageChoiceByIndex === "function") {
+    await selectSlideImageChoiceByIndex(choiceIdx);
+    if (rightVis) {
+      rightVis.classList.toggle("demo-force-hover", Boolean(keepHover));
+    }
+  }
+  scrollActiveFilmstripThumbIntoView(false);
+}
+
 const DEMO_SCENARIOS_CATALOG = [
   {
     id: "demo-1-grounded-deck",
@@ -15163,9 +15213,9 @@ const DEMO_SCENARIOS_CATALOG = [
         },
       },
       {
-        title: "Building Golf Option B (Disc Golf) & Jumping to Slide 8 (Req 2b(3))",
+        title: "Building Golf Option B (Disc Golf) & Jumping to Slide 13 (Req 2b(3))",
         narration:
-          "Generating the Golf Option B: Disc Golf deck and jumping to Slide 8 (Requirement 2b(3)) where the planner unrolls 3-level sub-requirements for disc flight dynamics and plastics.",
+          "Generating the Golf Option B: Disc Golf deck and jumping to Slide 13 (Requirement 2b(3)) where the planner unrolls 3-level sub-requirements for disc flight dynamics and plastics.",
         preActionSelector: "#btn-generate-deck",
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
@@ -15182,9 +15232,9 @@ const DEMO_SCENARIOS_CATALOG = [
         },
       },
       {
-        title: "Inspecting the Custom Disc Golf Equipment & Chain Basket Illustration (Slide 8)",
+        title: "Inspecting the Custom Disc Golf Equipment & Chain Basket Illustration (Slide 13)",
         narration:
-          "Highlighting the Slide 8 illustration on Requirement 2b(3), which is custom-tailored specifically to Disc Golf (comparing the 4 beveled disc profile shapes above a galvanized metal chain basket target).",
+          "Highlighting the Slide 13 illustration on Requirement 2b(3), which is custom-tailored specifically to Disc Golf (comparing the 4 beveled disc profile shapes above a galvanized metal chain basket target).",
         preActionSelector: "#stage-right-visual",
         targetSelector: "#stage-right-visual, #stage-diagram-img",
         placement: "left",
@@ -15448,43 +15498,39 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "On-Stage Image Switcher (<50ms) & Per-Slide Co-Design",
     steps: [
       {
-        title: "Switching to the 2nd Slide Illustration (2/2) in Under 50ms",
+        title: "Selecting First Aid Slide 6 & Hovering the On-Stage Image Switcher (1/2)",
         narration:
-          "Clicking the on-stage Easy Image Switcher next arrow (']') to switch instantaneously from the primary illustration (1/2) to the 2nd curated handbook illustration (2/2) at $0.00 runtime cost.",
-        preActionSelector: "#stage-img-next-btn, #stage-right-visual",
-        targetSelector: "#stage-right-visual",
+          "Establishing a known starting point on First Aid Slide 6 (Scene Size-Up & Universal Precautions) with 2 curated pamphlet illustrations and hovering over the bottom-right image switcher pill to reveal '◀ (1/2) ▾ ▶'.",
+        preActionSelector: "#stage-visual-source-badge, #stage-right-visual",
+        targetSelector: "#stage-visual-source-badge, #stage-right-visual",
+        cursorSelector: "#stage-pill-next, #stage-visual-source-badge",
         placement: "left",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 2) {
-            state.activeSlideIdx = 3;
-            renderActiveSlide(3);
-          }
-          if (typeof selectSlideImageChoiceByIndex === "function") {
-            selectSlideImageChoiceByIndex(1);
-          } else if (typeof cycleSlideImageChoice === "function") {
-            cycleSlideImageChoice(1);
-          }
+          await ensureTour5MultiImageSlide(0, true);
+        },
+      },
+      {
+        title: "Switching to the 2nd Slide Illustration (2/2) in Under 50ms",
+        narration:
+          "Clicking the on-stage Easy Image Switcher next arrow ('▶' or ']') while hovering the switcher control to swap instantaneously from the primary illustration (1/2) to the 2nd curated handbook illustration (2/2) at $0.00 runtime cost.",
+        preActionSelector: "#stage-pill-next, #stage-visual-source-badge",
+        targetSelector: "#stage-right-visual",
+        cursorSelector: "#stage-pill-next, #stage-visual-source-badge",
+        placement: "left",
+        action: async () => {
+          await ensureTour5MultiImageSlide(1, true);
         },
       },
       {
         title: "Switching Back to the Primary Slide Illustration (1/2)",
         narration:
-          "Clicking the on-stage Easy Image Switcher previous arrow ('[') to restore the primary slide illustration (1/2) with zero network latency.",
-        preActionSelector: "#stage-img-prev-btn, #stage-right-visual",
+          "Clicking the on-stage Easy Image Switcher previous arrow ('◀' or '[') to restore the primary slide illustration (1/2) with zero network latency.",
+        preActionSelector: "#stage-pill-prev, #stage-visual-source-badge",
         targetSelector: "#stage-right-visual",
+        cursorSelector: "#stage-pill-prev, #stage-visual-source-badge",
         placement: "left",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 2) {
-            state.activeSlideIdx = 3;
-            renderActiveSlide(3);
-          }
-          if (typeof selectSlideImageChoiceByIndex === "function") {
-            selectSlideImageChoiceByIndex(0);
-          } else if (typeof cycleSlideImageChoice === "function") {
-            cycleSlideImageChoice(-1);
-          }
+          await ensureTour5MultiImageSlide(0, true);
         },
       },
       {
@@ -15495,8 +15541,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 2) state.activeSlideIdx = 3;
+          await ensureTour5MultiImageSlide(null, false);
           state.activeUnderstageTab = "codesign";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.querySelector('#codesign-archetype-visual-grid [data-arch="CONCEPT_TEXT_SLIDE"]')?.click();
@@ -15510,8 +15555,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 2) state.activeSlideIdx = 3;
+          await ensureTour5MultiImageSlide(null, false);
           state.activeUnderstageTab = "codesign";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.querySelector('#codesign-archetype-visual-grid [data-arch="FULL_BLEED_IMAGE_EXPLAINER"]')?.click();
@@ -15525,8 +15569,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#widescreen-slide-stage",
         placement: "top",
         action: async () => {
-          switchMainTab("panel-storyboard");
-          if (state.activeSlideIdx < 2) state.activeSlideIdx = 3;
+          await ensureTour5MultiImageSlide(null, false);
           state.activeUnderstageTab = "codesign";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.querySelector('#codesign-archetype-visual-grid [data-arch="SPLIT_VISUAL_EXPLAINER"]')?.click();
@@ -15545,15 +15588,55 @@ const DEMO_SCENARIOS_CATALOG = [
           "Jumping to a curated Patrol Scenario & Checkpoint Quiz slide where Scouts debate a real-world field scenario before revealing the verified answer.",
         preActionSelector: "#btn-stage-req-jump",
         targetSelector: "#widescreen-slide-stage",
+        cursorSelector: "#btn-reveal-quiz-answer",
         placement: "top",
         action: async () => {
           switchMainTab("panel-storyboard");
-          const slides = state.currentResult?.storyboard?.slides || [];
-          const quizIdx = slides.findIndex((s) => s.archetype === "SOCRATIC_CHECKPOINT_QUIZ");
+          let slides = state.currentResult?.storyboard?.slides || [];
+          let quizIdx = slides.findIndex((s) => s.archetype === "SOCRATIC_CHECKPOINT_QUIZ");
+          if (quizIdx < 0) {
+            await ensureBadgeLoadedForTour("First Aid");
+            slides = state.currentResult?.storyboard?.slides || [];
+            quizIdx = slides.findIndex((s) => s.archetype === "SOCRATIC_CHECKPOINT_QUIZ");
+          }
           const targetIdx = quizIdx >= 0 ? quizIdx : Math.min(4, Math.max(0, slides.length - 1));
           state.activeSlideIdx = targetIdx;
+          state.revealedQuizSlides.delete(targetIdx);
           renderFilmstrip(slides);
           renderActiveSlide(targetIdx);
+        },
+      },
+      {
+        title: "Clicking 'Reveal Verified Answer & Explanation'",
+        narration:
+          "Clicking '👁️ Reveal Verified Answer & Explanation' to highlight the correct patrol option in green and reveal the verified BSA Merit Badge Pamphlet explanation card.",
+        preActionSelector: "#btn-reveal-quiz-answer, #stage-left-cards",
+        targetSelector: "#quiz-verified-answer-card, #stage-left-cards",
+        cursorSelector: "#quiz-verified-answer-card",
+        placement: "right",
+        action: async () => {
+          switchMainTab("panel-storyboard");
+          let slides = state.currentResult?.storyboard?.slides || [];
+          let quizIdx = slides.findIndex((s) => s.archetype === "SOCRATIC_CHECKPOINT_QUIZ");
+          if (quizIdx < 0) {
+            await ensureBadgeLoadedForTour("First Aid");
+            slides = state.currentResult?.storyboard?.slides || [];
+            quizIdx = slides.findIndex((s) => s.archetype === "SOCRATIC_CHECKPOINT_QUIZ");
+          }
+          const targetIdx = quizIdx >= 0 ? quizIdx : Math.min(4, Math.max(0, slides.length - 1));
+          if (state.activeSlideIdx !== targetIdx) {
+            state.activeSlideIdx = targetIdx;
+            state.revealedQuizSlides.delete(targetIdx);
+            renderFilmstrip(slides);
+            renderActiveSlide(targetIdx);
+          }
+          const revealBtn = document.getElementById("btn-reveal-quiz-answer");
+          if (revealBtn && !revealBtn.classList.contains("hidden")) {
+            revealBtn.click();
+          } else {
+            state.revealedQuizSlides.add(targetIdx);
+            renderActiveSlide(targetIdx);
+          }
         },
       },
       {
@@ -15611,19 +15694,37 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "Digital Blue Card (#34124) Sign-Off & Class Prep Toolkit",
     steps: [
       {
-        title: "Toggling All Requirements On & Off for a Single Scout",
+        title: "Toggling All Requirements ON for a Single Scout ('All ✓')",
         narration:
-          "Opening Tab 2 (2. Requirements & Blue Cards) and toggling all requirements ON and then OFF for a single Scout using the per-Scout Quick Row checkbox and 'All ✓ / Clear' control.",
+          "Opening Tab 2 (2. Requirements & Blue Cards) and clicking 'All ✓' on the first Scout row to sign off all badge requirements for that Scout simultaneously (✓ COMPLETE).",
         preActionSelector: "#tab-triage",
         targetSelector: "#bluecard-tracker-card",
+        cursorSelector: 'button[data-bc-toggle-all="0"], input.m3-bluecard-row-check[data-bc-row-scout="0"]',
         placement: "top",
         action: async () => {
           switchMainTab("panel-triage");
+          const rowCb = document.querySelector('input.m3-bluecard-row-check[data-bc-row-scout="0"]');
           const rowBtn = document.querySelector('button[data-bc-toggle-all="0"]');
-          if (rowBtn) {
+          if (rowBtn && (!rowCb || !rowCb.checked)) {
             rowBtn.click();
-            await new Promise((r) => setTimeout(r, 650));
-            document.querySelector('button[data-bc-toggle-all="0"]')?.click();
+          }
+          document.getElementById("bluecard-tracker-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
+        },
+      },
+      {
+        title: "Toggling All Requirements OFF for That Scout ('Clear')",
+        narration:
+          "Clicking 'Clear' (or unchecking the Quick Row checkbox) on that same Scout row to toggle all requirements back OFF before signing off individual requirements by column.",
+        preActionSelector: 'button[data-bc-toggle-all="0"], input.m3-bluecard-row-check[data-bc-row-scout="0"]',
+        targetSelector: "#bluecard-tracker-card",
+        cursorSelector: 'button[data-bc-toggle-all="0"], input.m3-bluecard-row-check[data-bc-row-scout="0"]',
+        placement: "top",
+        action: async () => {
+          switchMainTab("panel-triage");
+          const rowCb = document.querySelector('input.m3-bluecard-row-check[data-bc-row-scout="0"]');
+          const rowBtn = document.querySelector('button[data-bc-toggle-all="0"]');
+          if (rowBtn && rowCb && rowCb.checked) {
+            rowBtn.click();
           }
           document.getElementById("bluecard-tracker-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
         },
@@ -15634,11 +15735,15 @@ const DEMO_SCENARIOS_CATALOG = [
           "Clicking the 'Req 1' column header checkbox in the Patrol Blue Card matrix to sign off Requirement 1 across every Scout in the patrol simultaneously.",
         preActionSelector: '.m3-bluecard-col-check[data-bc-col-req="1"]',
         targetSelector: "#bluecard-matrix-container, #bluecard-tracker-card",
+        cursorSelector: '.m3-bluecard-col-check[data-bc-col-req="1"], .m3-bluecard-col-check',
         placement: "top",
         action: async () => {
           switchMainTab("panel-triage");
           const colCb = document.querySelector('.m3-bluecard-col-check[data-bc-col-req="1"], .m3-bluecard-col-check');
           if (colCb) {
+            if (colCb.checked) {
+              colCb.click();
+            }
             colCb.click();
           }
         },
@@ -15733,6 +15838,34 @@ const DEMO_SCENARIOS_CATALOG = [
         },
       },
       {
+        title: "Section 2 Grounded Resource: Clicking 'Read' on 'bsa://catalog/badges'",
+        narration:
+          "Selecting 'bsa://catalog/badges — Official 144 Merit Badges Catalog' (the first item in '2. Grounded bsa:// Resources (6) & Guided Prompts (4)') and clicking '▶ Read' to load the catalog in the Visual Card Preview.",
+        preActionSelector:
+          '#mcp-resources-and-prompts-list [data-mcp-exec-resource="bsa://catalog/badges"], #mcp-resources-and-prompts-list .m3-mcp-resource-item',
+        targetSelector:
+          '#mcp-resources-and-prompts-list .m3-mcp-resource-item, #mcp-playground-visual-preview',
+        cursorSelector:
+          '#mcp-resources-and-prompts-list [data-mcp-exec-resource="bsa://catalog/badges"], #mcp-resources-and-prompts-list [data-mcp-exec-resource]',
+        placement: "bottom",
+        action: async () => {
+          const modal = document.getElementById("mcp-hub-modal");
+          if (!modal || modal.classList.contains("hidden")) {
+            document.getElementById("btn-open-mcp-hub")?.click();
+            await new Promise((r) => setTimeout(r, 220));
+          }
+          const firstResBtn =
+            document.querySelector('#mcp-resources-and-prompts-list [data-mcp-exec-resource="bsa://catalog/badges"]') ||
+            document.querySelector("#mcp-resources-and-prompts-list [data-mcp-exec-resource]");
+          if (firstResBtn) {
+            firstResBtn.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            firstResBtn.click();
+            await new Promise((r) => setTimeout(r, 220));
+          }
+          document.getElementById("btn-mcp-view-visual")?.click();
+        },
+      },
+      {
         title: "Section 2 Guided Prompt: Executing 1st Prompt in Visual Card Preview",
         narration:
           "Clicking the first Guided Prompt ('▶ Run Prompt' in Section 2: Grounded bsa:// Resources & Guided Prompts) and inspecting the structured Visual Card Preview.",
@@ -15751,22 +15884,6 @@ const DEMO_SCENARIOS_CATALOG = [
             await new Promise((r) => setTimeout(r, 220));
           }
           document.getElementById("btn-mcp-view-visual")?.click();
-        },
-      },
-      {
-        title: "Section 2 Guided Prompt: Inspecting '{ } Raw JSON-RPC 2.0' Response",
-        narration:
-          "Switching to the '{ } Raw JSON-RPC 2.0' tab to inspect the exact MCP prompts/get JSON-RPC 2.0 wire payload returned by POST /mcp.",
-        preActionSelector: "#btn-mcp-view-json",
-        targetSelector: "#mcp-playground-output",
-        placement: "top",
-        action: async () => {
-          const modal = document.getElementById("mcp-hub-modal");
-          if (!modal || modal.classList.contains("hidden")) {
-            document.getElementById("btn-open-mcp-hub")?.click();
-            await new Promise((r) => setTimeout(r, 200));
-          }
-          document.getElementById("btn-mcp-view-json")?.click();
         },
       },
       {
@@ -16056,10 +16173,13 @@ function resetTourTransientUiForStep(scenario, stepIdx) {
   const keepImageStudio = sid === "demo-3-guardrail-and-trace" && stepIdx >= 2 && stepIdx <= 5;
   const keepTemplateDropdown = sid === "demo-4-layout-and-templates" && stepIdx === 0;
   const keepTemplateStudio = sid === "demo-4-layout-and-templates" && stepIdx === 6;
-  const keepPresenterConsole = sid === "demo-6-presenter-and-quiz" && stepIdx === 2;
-  const keepPatrolScoreboard = sid === "demo-6-presenter-and-quiz" && (stepIdx === 1 || stepIdx === 2);
+  const keepVisualHover = sid === "demo-5-codesign-and-image" && stepIdx >= 0 && stepIdx <= 2;
+  const keepPresenterConsole = sid === "demo-6-presenter-and-quiz" && stepIdx === 3;
+  const keepPatrolScoreboard = sid === "demo-6-presenter-and-quiz" && (stepIdx === 2 || stepIdx === 3);
   const keepMcpModal = sid === "demo-8-mcp-and-docs-studio" && stepIdx >= 1 && stepIdx <= 6;
   const keepDocsModal = sid === "demo-8-mcp-and-docs-studio" && stepIdx >= 8 && stepIdx <= 10;
+
+  document.getElementById("stage-right-visual")?.classList.toggle("demo-force-hover", keepVisualHover);
 
   if (!keepTemplateDropdown) {
     document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
@@ -16099,6 +16219,7 @@ function resetTourTransientUiForStep(scenario, stepIdx) {
 }
 
 function closeDemoOpenedModalsAndResetScroll(scrollToTop = true) {
+  document.getElementById("stage-right-visual")?.classList.remove("demo-force-hover");
   document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
   document.getElementById("btn-close-image-studio")?.click();
   document.getElementById("btn-close-template-studio")?.click();
@@ -16214,8 +16335,15 @@ function positionDemoSpotlightAndCallout(
   }
 
   if (cursorEl) {
-    const cursorX = Math.min(window.innerWidth - 36, Math.max(16, rect.left + Math.min(rect.width * 0.28, 120)));
-    const cursorY = Math.min(window.innerHeight - 36, Math.max(16, rect.top + Math.min(rect.height * 0.35, 64)));
+    const customCursorTarget =
+      options.cursorSelector ? resolveFirstVisibleTargetElement(options.cursorSelector) : null;
+    const cRect = customCursorTarget ? customCursorTarget.getBoundingClientRect() : rect;
+    const cursorX = customCursorTarget
+      ? Math.min(window.innerWidth - 36, Math.max(16, cRect.left + Math.min(cRect.width * 0.5, 90)))
+      : Math.min(window.innerWidth - 36, Math.max(16, rect.left + Math.min(rect.width * 0.28, 120)));
+    const cursorY = customCursorTarget
+      ? Math.min(window.innerHeight - 36, Math.max(16, cRect.top + Math.min(cRect.height * 0.5, 48)))
+      : Math.min(window.innerHeight - 36, Math.max(16, rect.top + Math.min(rect.height * 0.35, 64)));
     cursorEl.style.transform = `translate3d(${Math.round(cursorX)}px, ${Math.round(cursorY)}px, 0)`;
     if (options.pulseCursor !== false) {
       cursorEl.classList.remove("is-clicking");
@@ -16551,7 +16679,7 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
       step.title,
       step.narration,
       step.placement || "bottom",
-      { pulseCursor: pulse }
+      { pulseCursor: pulse, cursorSelector: step.cursorSelector }
     );
   };
 
