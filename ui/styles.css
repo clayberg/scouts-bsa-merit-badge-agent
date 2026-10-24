@@ -2158,6 +2158,10 @@ html, body {
   align-items: end;
 }
 
+.m3-codesign-controls-grid .m3-field-label {
+  white-space: nowrap;
+}
+
 .m3-codesign-image-row {
   margin-top: 12px;
   padding-top: 10px;
