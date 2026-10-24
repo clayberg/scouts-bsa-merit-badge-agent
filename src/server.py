@@ -106,6 +106,8 @@ async def add_api_version_and_deprecation_headers(request: Any, call_next: Any) 
         response.headers["Sunset"] = "2027-01-01"
     elif path.startswith("/assets/construction_anim/"):
         response.headers["Cache-Control"] = "public, max-age=86400"
+    elif path == "/" or path.startswith("/ui/"):
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
     elif path.startswith("/assets/badge_emblems/") or path.startswith("/assets/pamphlet_covers/"):
         response.headers["Cache-Control"] = "public, max-age=0, must-revalidate"
     return response
@@ -4436,7 +4438,19 @@ async def serve_a2ui_workbench() -> HTMLResponse:
     index_file = UI_DIR / "index.html"
     if not index_file.exists():
         return HTMLResponse("<h1>UI loading...</h1>", status_code=200)
-    return HTMLResponse(index_file.read_text(encoding="utf-8"))
+    html_text = index_file.read_text(encoding="utf-8")
+    app_js = UI_DIR / "app.js"
+    styles_css = UI_DIR / "styles.css"
+    if app_js.exists():
+        js_ver = f"20261024a-{int(app_js.stat().st_mtime)}"
+        html_text = re.sub(r'/ui/app\.js(?:\?v=[^"\'>\s]+)?', f"/ui/app.js?v={js_ver}", html_text)
+    if styles_css.exists():
+        css_ver = f"20261024a-{int(styles_css.stat().st_mtime)}"
+        html_text = re.sub(r'/ui/styles\.css(?:\?v=[^"\'>\s]+)?', f"/ui/styles.css?v={css_ver}", html_text)
+    return HTMLResponse(
+        html_text,
+        headers={"Cache-Control": "no-cache, no-store, must-revalidate"},
+    )
 
 
 def main() -> None:
