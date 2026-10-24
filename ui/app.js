@@ -1261,6 +1261,11 @@ function bindFilterAndSlideControls() {
     renderFilmstrip(slides);
     renderActiveSlide(state.activeSlideIdx);
 
+    if (state.activeDemoTour && !state.activeDemoTour.completed) {
+      syncActiveSlideToPresenterPopout();
+      return;
+    }
+
     state._codesignReqSeq = (state._codesignReqSeq || 0) + 1;
     const reqSeq = state._codesignReqSeq;
     const applyBtn = document.getElementById("btn-apply-codesign");
@@ -2434,9 +2439,26 @@ async function executeStreamingWorkflow(badgeName, options = {}) {
   });
 }
 
-function hydrateWorkbench(rawResult) {
+function hydrateWorkbench(rawResult, options = {}) {
   const result = rawResult?.result && rawResult.result.storyboard ? rawResult.result : rawResult;
   if (!result || result.status === "ERROR" || !result.badge_name || !result.storyboard) return;
+  if (!options.fromTourCache) {
+    state._cachedBadgeResultsByKey = state._cachedBadgeResultsByKey || {};
+    const cacheTrackKey = String(
+      result.option_track ||
+        result.research_artifact?.selected_option_track ||
+        "ALL"
+    ).toUpperCase();
+    try {
+      const snapshot = JSON.parse(JSON.stringify(result));
+      state._cachedBadgeResultsByKey[`${result.badge_name}::${cacheTrackKey}`] = snapshot;
+      if (cacheTrackKey === "ALL" || !result.option_track) {
+        state._cachedBadgeResultsByKey[`${result.badge_name}::ALL`] = snapshot;
+      }
+    } catch (_err) {
+      state._cachedBadgeResultsByKey[`${result.badge_name}::${cacheTrackKey}`] = result;
+    }
+  }
   state.currentResult = result;
   state.activeSlideIdx = -1;
   clearDeckConfigDirty();
@@ -2635,13 +2657,16 @@ function hydrateWorkbench(rawResult) {
   if (typeof window.syncActiveBadgeStarButton === "function") {
     window.syncActiveBadgeStarButton();
   }
-  if (typeof window.onWorkbenchDeckHydrated === "function") {
+  if (typeof window.onWorkbenchDeckHydrated === "function" && !options.fromTourCache) {
     window.onWorkbenchDeckHydrated(result);
   }
   if (typeof syncTemplateSelectorUi === "function") {
     syncTemplateSelectorUi();
   }
+  const skipDeckTemplateRpc =
+    Boolean(options.fromTourCache) || Boolean(state.activeDemoTour && !state.activeDemoTour.completed);
   if (
+    !skipDeckTemplateRpc &&
     state.activeTemplateId &&
     state.activeTemplateId !== "default_workbench" &&
     result.template_id !== state.activeTemplateId &&
@@ -4827,7 +4852,7 @@ function ensurePillPopoverOutsideListener() {
   });
 }
 
-async function selectSlideImageChoice(targetEntry) {
+async function selectSlideImageChoice(targetEntry, options = {}) {
   if (!state.currentResult || state.activeSlideIdx < 0 || !targetEntry) return;
   const slides = state.currentResult.storyboard?.slides || [];
   const slide = slides[state.activeSlideIdx];
@@ -4852,6 +4877,10 @@ async function selectSlideImageChoice(targetEntry) {
   }
   registerChoiceOnSlide(slide, targetEntry);
   renderActiveSlide(state.activeSlideIdx);
+
+  if (options.skipServerRegen || (state.activeDemoTour && !state.activeDemoTour.completed)) {
+    return;
+  }
 
   // Anonymous Zero-PII image swap telemetry event
   fetch("/api/v1/admin/telemetry/image-swap", {
@@ -4892,7 +4921,7 @@ async function cycleSlideImageChoice(delta) {
   }
 }
 
-async function selectSlideImageChoiceByIndex(choiceIdx) {
+async function selectSlideImageChoiceByIndex(choiceIdx, options = {}) {
   if (!state.currentResult || state.activeSlideIdx < 0) return;
   const slides = state.currentResult.storyboard?.slides || [];
   const slide = slides[state.activeSlideIdx];
@@ -4902,7 +4931,7 @@ async function selectSlideImageChoiceByIndex(choiceIdx) {
   const clampedIdx = Math.max(0, Math.min(choices.length - 1, Number(choiceIdx) || 0));
   const targetEntry = choices[clampedIdx];
   if (targetEntry) {
-    await selectSlideImageChoice(targetEntry);
+    await selectSlideImageChoice(targetEntry, options);
   }
 }
 
@@ -14794,6 +14823,11 @@ async function resolveAndSyncUserLocationForTours() {
   const troopInput = document.getElementById("input-troop-name");
   const rawLoc = (locInput?.value || "").trim() || inferBrowserLocationHint();
   const rawTroop = (troopInput?.value || "").trim();
+  const cacheKey = `${rawLoc}::${rawTroop}`;
+  if (state.resolvedTourLocation && state._lastResolvedTourLocKey === cacheKey) {
+    syncDynamicTour1LocationText(state.resolvedTourLocation);
+    return state.resolvedTourLocation;
+  }
   try {
     const params = new URLSearchParams();
     if (rawLoc) params.set("location_or_zip", rawLoc);
@@ -14805,6 +14839,7 @@ async function resolveAndSyncUserLocationForTours() {
         if (locInput && !locInput.value.trim() && data.resolved_location.display_location) {
           locInput.value = data.resolved_location.display_location;
         }
+        state._lastResolvedTourLocKey = `${(locInput?.value || "").trim() || rawLoc}::${rawTroop}`;
         syncDynamicTour1LocationText(data.resolved_location);
         return data.resolved_location;
       }
@@ -14869,7 +14904,20 @@ async function ensureBadgeLoadedForTour(badgeName, optionTrackLabel = "") {
     return state.currentResult;
   }
 
-  const loadKey = `${badgeName}::${resolvedOptionTrack}`;
+  const loadKey = `${badgeName}::${String(resolvedOptionTrack || "ALL").toUpperCase()}`;
+  const cachedResult =
+    state._cachedBadgeResultsByKey?.[loadKey] ||
+    (!optionTrackLabel ? state._cachedBadgeResultsByKey?.[`${badgeName}::ALL`] : null);
+  if (cachedResult && (cachedResult.storyboard?.slides || []).length > 0) {
+    let hydratedCopy = cachedResult;
+    try {
+      hydratedCopy = JSON.parse(JSON.stringify(cachedResult));
+    } catch (_err) {}
+    hydrateWorkbench(hydratedCopy, { fromTourCache: true });
+    hideConstructionAnimationStage();
+    return state.currentResult;
+  }
+
   if (_tourBadgeLoadPromise && _tourBadgeLoadKey === loadKey) {
     return await _tourBadgeLoadPromise;
   }
@@ -15003,7 +15051,37 @@ async function ensureTourDeckAndTeachingSlide(layoutStyle = null) {
   renderActiveSlide(state.activeSlideIdx);
 }
 
-async function ensureTour5MultiImageSlide(choiceIdx = null, keepHover = true) {
+function scrollTour5StageAndCoDesignIntoView(includeCoDesignBar = false) {
+  const stageEl = document.getElementById("widescreen-slide-stage");
+  if (!stageEl) return;
+  const bannerEl = document.getElementById("active-demo-tour-banner");
+  const bannerVisible = Boolean(bannerEl && !bannerEl.classList.contains("hidden"));
+  const bannerRect = bannerVisible ? bannerEl.getBoundingClientRect() : null;
+  // Because #active-demo-tour-banner is sticky (top: 8px), once scrolled it occupies 8..(8 + height)
+  const topClearance =
+    bannerRect && bannerRect.height > 0 ? Math.max(92, Math.round(bannerRect.height + 16)) : 92;
+
+  const stageRect = stageEl.getBoundingClientRect();
+  const stageAbsTop = window.scrollY + stageRect.top;
+  let targetScrollY = Math.max(0, Math.round(stageAbsTop - topClearance));
+
+  if (includeCoDesignBar) {
+    const codesignBarEl = document.getElementById("slide-codesign-bar");
+    if (codesignBarEl && !codesignBarEl.classList.contains("hidden")) {
+      const barRect = codesignBarEl.getBoundingClientRect();
+      const barAbsBottom = window.scrollY + barRect.bottom;
+      const vh = window.innerHeight || 900;
+      const minScrollForBarBottom = Math.max(0, Math.round(barAbsBottom - (vh - 10)));
+      // Never scroll so far down that the top of #widescreen-slide-stage goes above topClearance
+      const maxScrollForStageTop = Math.max(0, Math.round(stageAbsTop - topClearance));
+      targetScrollY = Math.min(Math.max(targetScrollY, minScrollForBarBottom), maxScrollForStageTop);
+    }
+  }
+
+  window.scrollTo({ top: targetScrollY, left: 0, behavior: "auto" });
+}
+
+async function ensureTour5MultiImageSlide(choiceIdx = null, keepHover = true, includeCoDesignBar = false) {
   switchMainTab("panel-storyboard");
   await ensureBadgeLoadedForTour("First Aid");
   const slides = state.currentResult?.storyboard?.slides || [];
@@ -15023,6 +15101,9 @@ async function ensureTour5MultiImageSlide(choiceIdx = null, keepHover = true) {
   if (targetSlide && choiceIdx !== null) {
     targetSlide.archetype = "SPLIT_VISUAL_EXPLAINER";
   }
+  if (includeCoDesignBar) {
+    state.activeUnderstageTab = "codesign";
+  }
   const rightVis = document.getElementById("stage-right-visual");
   if (rightVis) {
     rightVis.classList.toggle("demo-force-hover", Boolean(keepHover));
@@ -15030,12 +15111,13 @@ async function ensureTour5MultiImageSlide(choiceIdx = null, keepHover = true) {
   renderFilmstrip(slides);
   renderActiveSlide(targetIdx);
   if (choiceIdx !== null && typeof selectSlideImageChoiceByIndex === "function") {
-    await selectSlideImageChoiceByIndex(choiceIdx);
+    await selectSlideImageChoiceByIndex(choiceIdx, { skipServerRegen: true });
     if (rightVis) {
       rightVis.classList.toggle("demo-force-hover", Boolean(keepHover));
     }
   }
   scrollActiveFilmstripThumbIntoView(false);
+  scrollTour5StageAndCoDesignIntoView(includeCoDesignBar);
 }
 
 const DEMO_SCENARIOS_CATALOG = [
@@ -15498,81 +15580,93 @@ const DEMO_SCENARIOS_CATALOG = [
     shortTitle: "On-Stage Image Switcher (<50ms) & Per-Slide Co-Design",
     steps: [
       {
-        title: "Selecting First Aid Slide 6 & Hovering the On-Stage Image Switcher (1/2)",
+        title: "First Aid Slide 6 & Hovering Image Switcher (1/2)",
         narration:
           "Establishing a known starting point on First Aid Slide 6 (Scene Size-Up & Universal Precautions) with 2 curated pamphlet illustrations and hovering over the bottom-right image switcher pill to reveal '◀ (1/2) ▾ ▶'.",
-        preActionSelector: "#stage-visual-source-badge, #stage-right-visual",
-        targetSelector: "#stage-visual-source-badge, #stage-right-visual",
+        preActionSelector: "#stage-right-visual",
+        targetSelector: "#stage-right-visual",
         cursorSelector: "#stage-pill-next, #stage-visual-source-badge",
-        placement: "left",
+        placement: "bottom",
+        skipComfortScroll: true,
         action: async () => {
-          await ensureTour5MultiImageSlide(0, true);
+          await ensureTour5MultiImageSlide(0, true, false);
         },
       },
       {
-        title: "Switching to the 2nd Slide Illustration (2/2) in Under 50ms",
+        title: "Switching to 2nd Slide Illustration (2/2) in <50ms",
         narration:
           "Clicking the on-stage Easy Image Switcher next arrow ('▶' or ']') while hovering the switcher control to swap instantaneously from the primary illustration (1/2) to the 2nd curated handbook illustration (2/2) at $0.00 runtime cost.",
-        preActionSelector: "#stage-pill-next, #stage-visual-source-badge",
+        preActionSelector: "#stage-right-visual",
         targetSelector: "#stage-right-visual",
         cursorSelector: "#stage-pill-next, #stage-visual-source-badge",
-        placement: "left",
+        placement: "bottom",
+        skipComfortScroll: true,
         action: async () => {
-          await ensureTour5MultiImageSlide(1, true);
+          await ensureTour5MultiImageSlide(1, true, false);
         },
       },
       {
-        title: "Switching Back to the Primary Slide Illustration (1/2)",
+        title: "Switching Back to Primary Slide Illustration (1/2)",
         narration:
           "Clicking the on-stage Easy Image Switcher previous arrow ('◀' or '[') to restore the primary slide illustration (1/2) with zero network latency.",
-        preActionSelector: "#stage-pill-prev, #stage-visual-source-badge",
+        preActionSelector: "#stage-right-visual",
         targetSelector: "#stage-right-visual",
         cursorSelector: "#stage-pill-prev, #stage-visual-source-badge",
-        placement: "left",
+        placement: "bottom",
+        skipComfortScroll: true,
         action: async () => {
-          await ensureTour5MultiImageSlide(0, true);
+          await ensureTour5MultiImageSlide(0, true, false);
         },
       },
       {
-        title: "Co-Design Layout 1 of 3: Switching to 'Full Text' (Concept Text Slide)",
+        title: "Switching Layout to 'Full Text' (Concept Text)",
         narration:
-          "Opening Under-Stage Tab 2 (Customize Slide & Image) and clicking 'Full Text' (CONCEPT_TEXT_SLIDE) to expand the teaching points across the full 16:9 canvas.",
-        preActionSelector: '[data-arch="CONCEPT_TEXT_SLIDE"], [data-understage-tab="codesign"]',
-        targetSelector: "#widescreen-slide-stage",
-        placement: "top",
+          "Scrolling 'Slide Layout, Point Style & Palette' into view below the 16:9 stage and clicking 'Full Text' (CONCEPT_TEXT_SLIDE) so you can watch the teaching points expand across the full canvas.",
+        preActionSelector: "#slide-codesign-bar",
+        targetSelector: "#slide-codesign-bar",
+        cursorSelector: '#codesign-archetype-visual-grid [data-arch="CONCEPT_TEXT_SLIDE"]',
+        placement: "left",
+        skipComfortScroll: true,
         action: async () => {
-          await ensureTour5MultiImageSlide(null, false);
+          await ensureTour5MultiImageSlide(null, false, true);
           state.activeUnderstageTab = "codesign";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.querySelector('#codesign-archetype-visual-grid [data-arch="CONCEPT_TEXT_SLIDE"]')?.click();
+          scrollTour5StageAndCoDesignIntoView(true);
         },
       },
       {
-        title: "Co-Design Layout 2 of 3: Switching to 'Big Visual' (60% Hero Diagram)",
+        title: "Switching Layout to 'Big Visual' (Hero Diagram)",
         narration:
-          "Clicking 'Big Visual' (FULL_BLEED_IMAGE_EXPLAINER) in the Slide Layout picker to allocate 60% of the widescreen stage to the instructional diagram alongside concise key takeaways.",
-        preActionSelector: '[data-arch="FULL_BLEED_IMAGE_EXPLAINER"]',
-        targetSelector: "#widescreen-slide-stage",
-        placement: "top",
+          "Clicking 'Big Visual' (FULL_BLEED_IMAGE_EXPLAINER) in 'Slide Layout, Point Style & Palette' to allocate 60% of the widescreen stage above to the instructional diagram alongside concise key takeaways.",
+        preActionSelector: "#slide-codesign-bar",
+        targetSelector: "#slide-codesign-bar",
+        cursorSelector: '#codesign-archetype-visual-grid [data-arch="FULL_BLEED_IMAGE_EXPLAINER"]',
+        placement: "left",
+        skipComfortScroll: true,
         action: async () => {
-          await ensureTour5MultiImageSlide(null, false);
+          await ensureTour5MultiImageSlide(null, false, true);
           state.activeUnderstageTab = "codesign";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.querySelector('#codesign-archetype-visual-grid [data-arch="FULL_BLEED_IMAGE_EXPLAINER"]')?.click();
+          scrollTour5StageAndCoDesignIntoView(true);
         },
       },
       {
-        title: "Co-Design Layout 3 of 3: Restoring 'Split Visual' (Balanced Split Explainer)",
+        title: "Restoring 'Split Visual' Slide Layout",
         narration:
-          "Clicking 'Split Visual' (SPLIT_VISUAL_EXPLAINER) to restore the balanced two-column teaching layout with synchronized live stage and .PPTX geometry.",
-        preActionSelector: '[data-arch="SPLIT_VISUAL_EXPLAINER"]',
-        targetSelector: "#widescreen-slide-stage",
-        placement: "top",
+          "Clicking 'Split Visual' (SPLIT_VISUAL_EXPLAINER) in 'Slide Layout, Point Style & Palette' to restore the balanced two-column teaching layout on the live 16:9 stage.",
+        preActionSelector: "#slide-codesign-bar",
+        targetSelector: "#slide-codesign-bar",
+        cursorSelector: '#codesign-archetype-visual-grid [data-arch="SPLIT_VISUAL_EXPLAINER"]',
+        placement: "left",
+        skipComfortScroll: true,
         action: async () => {
-          await ensureTour5MultiImageSlide(null, false);
+          await ensureTour5MultiImageSlide(null, false, true);
           state.activeUnderstageTab = "codesign";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
           document.querySelector('#codesign-archetype-visual-grid [data-arch="SPLIT_VISUAL_EXPLAINER"]')?.click();
+          scrollTour5StageAndCoDesignIntoView(true);
         },
       },
     ],
@@ -16632,16 +16726,23 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
       }
       document.getElementById("stage-template-dropdown-menu")?.classList.remove("hidden");
     }
+    if (scenario.id === "demo-5-codesign-and-image" && stepIdx >= 3) {
+      state.activeUnderstageTab = "codesign";
+      syncUnderstageDrawerVisibility(state.activeSlideIdx);
+      scrollTour5StageAndCoDesignIntoView(true);
+    }
     const preEl = resolveFirstVisibleTargetElement(step.preActionSelector);
     if (preEl) {
-      scrollTargetIntoComfortZone(preEl);
+      if (!step.skipComfortScroll) {
+        scrollTargetIntoComfortZone(preEl);
+      }
       positionDemoSpotlightAndCallout(
         step.preActionSelector,
         `STEP ${stepIdx + 1} OF ${totalSteps}`,
         step.title,
         step.narration,
         step.placement || "bottom",
-        { pulseCursor: true }
+        { pulseCursor: true, cursorSelector: step.cursorSelector }
       );
       await new Promise((resolve) => setTimeout(resolve, 480));
       if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) {
@@ -16670,7 +16771,7 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
     if (!state.activeDemoTour || state.activeDemoTour.completed) return;
     if (state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) return;
     const targetEl = resolveFirstVisibleTargetElement(step.targetSelector);
-    if (targetEl && pulse) {
+    if (targetEl && pulse && !step.skipComfortScroll) {
       scrollTargetIntoComfortZone(targetEl);
     }
     positionDemoSpotlightAndCallout(
@@ -16683,8 +16784,9 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
     );
   };
 
+  lockSpotlightToCurrentStep(true);
   requestAnimationFrame(() => {
-    setTimeout(() => lockSpotlightToCurrentStep(true), 90);
+    setTimeout(() => lockSpotlightToCurrentStep(false), 90);
     setTimeout(() => lockSpotlightToCurrentStep(false), 320);
     setTimeout(() => lockSpotlightToCurrentStep(false), 620);
   });
@@ -17017,7 +17119,7 @@ function initInteractiveGuidedDemoWalkthroughs() {
         step.title,
         step.narration,
         step.placement || "bottom",
-        { pulseCursor: false }
+        { pulseCursor: false, cursorSelector: step.cursorSelector }
       );
     }
   };

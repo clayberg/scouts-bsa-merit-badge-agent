@@ -695,6 +695,9 @@ async def api_upload_troop_logo(
     }
 
 
+_WORKFLOW_RESULT_CACHE: Dict[Tuple[Any, ...], Dict[str, Any]] = {}
+
+
 @app.post("/api/workflow/run")
 @app.post("/api/v1/workflow/run")
 async def api_run_workflow(
@@ -702,6 +705,8 @@ async def api_run_workflow(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
     """Executes the full multi-agent workflow and returns decorated A2UI & slide deck payloads."""
+    import copy
+
     t0 = time.perf_counter()
     counselor_info = {
         "counselor_name": req.counselor_name,
@@ -711,6 +716,39 @@ async def api_run_workflow(
         "phone_number": req.phone_number,
         "custom_troop_logo_path": req.custom_troop_logo_path,
     }
+    eff_tpl_key = str(req.template_id or "default_workbench").strip().lower()
+    cache_key = (
+        req.badge_name.strip().lower(),
+        str(req.depth_mode or "").strip().lower(),
+        str(req.beautification_tier or "BEAUTIFIED").strip().upper(),
+        str(req.audience_level or "").strip().lower(),
+        bool(req.enable_deep_research),
+        str(req.option_track or "ALL").strip().upper(),
+        str(req.location_or_zip or "").strip().lower(),
+        eff_tpl_key,
+        json.dumps(req.deck_style or {}, sort_keys=True),
+    )
+    fallback_cache_key = (
+        req.badge_name.strip().lower(),
+        str(req.depth_mode or "").strip().lower(),
+        str(req.beautification_tier or "BEAUTIFIED").strip().upper(),
+        str(req.audience_level or "").strip().lower(),
+        bool(req.enable_deep_research),
+        str(req.option_track or "ALL").strip().upper(),
+    )
+    use_mem_cache = not os.environ.get("PYTEST_CURRENT_TEST") and not req.custom_troop_logo_path
+    if use_mem_cache:
+        hit_obj = _WORKFLOW_RESULT_CACHE.get(cache_key) or _WORKFLOW_RESULT_CACHE.get(fallback_cache_key)
+        if hit_obj is not None:
+            cached_res = copy.deepcopy(hit_obj)
+            cached_res["counselor_info"] = counselor_info
+            cached_res["cache_hit"] = True
+            if req.webhook_url:
+                cached_res["webhook_notification"] = {
+                    "webhook_url": req.webhook_url,
+                    "delivery_status": "QUEUED",
+                }
+            return cached_res
     result = await asyncio.to_thread(
         run_merit_badge_workflow,
         badge_name=req.badge_name,
@@ -798,6 +836,9 @@ async def api_run_workflow(
         except Exception:
             pass
     decorated = _decorate_result_urls(result)
+    if use_mem_cache:
+        _WORKFLOW_RESULT_CACHE[cache_key] = copy.deepcopy(decorated)
+        _WORKFLOW_RESULT_CACHE[fallback_cache_key] = copy.deepcopy(decorated)
     if req.webhook_url:
         decorated["webhook_notification"] = {
             "webhook_url": req.webhook_url,
@@ -1008,6 +1049,18 @@ async def api_stream_workflow(
                     except Exception as exc:
                         logger.warning("Stream workflow template/deck_style rebuild warning: %s", exc)
                 ev["result"] = _decorate_result_urls(res_obj)
+                if not os.environ.get("PYTEST_CURRENT_TEST") and not custom_troop_logo_path:
+                    import copy
+
+                    stream_fb_key = (
+                        badge_name.strip().lower(),
+                        str(depth_mode or "").strip().lower(),
+                        str(beautification_tier or "BEAUTIFIED").strip().upper(),
+                        str(audience_level or "").strip().lower(),
+                        bool(enable_deep_research),
+                        str(option_track or "ALL").strip().upper(),
+                    )
+                    _WORKFLOW_RESULT_CACHE[stream_fb_key] = copy.deepcopy(ev["result"])
             safe_ev_out = _scrub_sse_event_payload_egress(ev)
             yield f"data: {json.dumps(safe_ev_out)}\n\n"
 

@@ -2153,8 +2153,8 @@ html, body {
 /* Responsive Co-Design Controls Grid (No Label Truncation) */
 .m3-codesign-controls-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(124px, 1fr));
+  gap: 8px;
   align-items: end;
 }
 
@@ -2571,10 +2571,10 @@ html, body {
 /* UI-3: Visual Archetype Thumbnail Picker */
 .m3-archetype-visual-picker {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   overflow-x: auto;
-  padding-bottom: 8px;
-  margin-bottom: 10px;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .m3-arch-thumb-btn {
@@ -2582,9 +2582,9 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3px;
-  min-width: 96px;
-  padding: 6px 10px;
+  gap: 2px;
+  min-width: 88px;
+  padding: 4px 8px;
   background: #FFFFFF;
   border: 1.5px solid #CBD5E1;
   border-radius: 10px;
