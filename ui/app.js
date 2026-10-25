@@ -1227,10 +1227,17 @@ function bindFilterAndSlideControls() {
 
     // 1. Optimistic immediate (<5ms) update on the live stage so rapid clicks (Split Visual -> Full Text -> Split Visual -> Big Visual) never lag or block
     slide.archetype = visSourceMode === "none" ? "CONCEPT_TEXT_SLIDE" : newArch;
-    if (newTheme && newTheme !== slide.visual_theme) {
+    const explicitThemeChange = Boolean(state._codesignThemeExplicitlyChanged);
+    state._codesignThemeExplicitlyChanged = false;
+    if (explicitThemeChange) {
       slide._customThemeOverride = true;
+      slide.visual_theme = newTheme;
+    } else if (slide._customThemeOverride) {
+      slide.visual_theme = newTheme;
     }
-    slide.visual_theme = newTheme;
+    const effectiveThemeForRegen = slide._customThemeOverride
+      ? slide.visual_theme || newTheme
+      : slide._baseVisualTheme || slide.visual_theme || "NUMBERED_STEP_CARDS";
     slide.accent_palette_key = newPalette;
     slide._customPaletteOverride = Boolean(newPalette && newPalette !== "MATCH_TEMPLATE");
     slide.container_style_override = newContainerOverride;
@@ -1283,7 +1290,7 @@ function bindFilterAndSlideControls() {
           badge_name: state.currentResult.badge_name,
           slide_index: state.activeSlideIdx,
           new_archetype: newArch,
-          new_visual_theme: newTheme,
+          new_visual_theme: effectiveThemeForRegen,
           new_accent_palette: newPalette,
           container_style_override: newContainerOverride,
           visual_source_mode: visSourceMode,
@@ -1300,7 +1307,9 @@ function bindFilterAndSlideControls() {
       if (reqSeq !== state._codesignReqSeq) return;
 
       slide.archetype = visSourceMode === "none" ? "CONCEPT_TEXT_SLIDE" : (newArch || resp.new_archetype || "SPLIT_VISUAL_EXPLAINER");
-      slide.visual_theme = newTheme;
+      if (slide._customThemeOverride) {
+        slide.visual_theme = newTheme;
+      }
       slide.accent_palette_key = newPalette;
       slide.container_style_override = newContainerOverride;
       slide.beautification_tier =
@@ -3743,8 +3752,24 @@ function renderActiveSlide(idx) {
     SAFETY_ALERT_SPOTLIGHT: "SAFETY_ALERT_SPLIT",
   };
   const normTheme = themeAliasMap[visTheme] || visTheme;
+  if (!slide._baseVisualTheme) {
+    slide._baseVisualTheme = normTheme;
+  }
+  const effStyle = resolveEffectiveSlideStyle(slide);
+  const isBoxedContainerMode = effStyle.text_container_style === "BOXED_CARDS";
+  const isCleanOrLineMode = !isBoxedContainerMode;
+  const effectiveCardTheme =
+    isCleanOrLineMode && !slide._customThemeOverride && archetype !== "SAFETY_CRITICAL_CALLOUT"
+      ? "NUMBERED_STEP_CARDS"
+      : normTheme;
+  if (themeChip) themeChip.textContent = `🎨 ${formatSlideThemeLabel(tokens.tier)} • ${effectiveCardTheme}`;
   if (archSel) archSel.value = validArchs.includes(archetype) ? archetype : "SPLIT_VISUAL_EXPLAINER";
-  if (thmSel) thmSel.value = normTheme && thmSel.querySelector(`option[value="${normTheme}"]`) ? normTheme : "NUMBERED_STEP_CARDS";
+  if (thmSel) {
+    thmSel.value =
+      effectiveCardTheme && thmSel.querySelector(`option[value="${effectiveCardTheme}"]`)
+        ? effectiveCardTheme
+        : "NUMBERED_STEP_CARDS";
+  }
   if (palSel) palSel.value = slide.accent_palette_key || "NAVY_GOLD";
   if (contStyleSel) contStyleSel.value = slide.container_style_override || "AUTO_DECK";
   if (srcSel) {
@@ -3757,12 +3782,9 @@ function renderActiveSlide(idx) {
   }
   populateQuickImageSwitcher(slide);
 
-  const effStyle = resolveEffectiveSlideStyle(slide);
-  const isBoxedContainerMode = effStyle.text_container_style === "BOXED_CARDS";
-  const isCleanOrLineMode = !isBoxedContainerMode;
   const isSequentialSlide =
     archetype === "STEP_BY_STEP_PROCEDURE_4CARD" ||
-    normTheme === "TIMELINE_CHEVRON_CARDS" ||
+    effectiveCardTheme === "TIMELINE_CHEVRON_CARDS" ||
     archetype === "WORKED_EXAMPLE_TEMPLATE";
 
   // Apply Layer-0 Header, Stage Background, Border & v2.0 Data Attributes
@@ -4176,7 +4198,7 @@ function renderActiveSlide(idx) {
       const colonIdx = bp.indexOf(":");
       const isSourcesSlide = archetype === "SOURCES_AND_REFERENCES";
       const usePlainCleanBullet =
-        isCleanOrLineMode && !isSequentialSlide && normTheme === "NUMBERED_STEP_CARDS";
+        isCleanOrLineMode && !isSequentialSlide && effectiveCardTheme === "NUMBERED_STEP_CARDS";
       if (colonIdx > 0 && colonIdx < 72) {
         const anchor = bp.slice(0, colonIdx);
         const rawRest = bp.slice(colonIdx + 1).trim();
@@ -10171,7 +10193,9 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   });
   ["codesign-archetype-select", "codesign-theme-select", "codesign-palette-select", "codesign-source-select"].forEach((id) => {
     document.getElementById(id)?.addEventListener("change", (ev) => {
-      if (id === "codesign-archetype-select") {
+      if (id === "codesign-theme-select") {
+        state._codesignThemeExplicitlyChanged = true;
+      } else if (id === "codesign-archetype-select") {
         const arch = ev.target.value;
         const srcSel = document.getElementById("codesign-source-select");
         if (srcSel) {

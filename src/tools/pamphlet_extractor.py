@@ -2258,17 +2258,16 @@ def decompose_requirement_into_topic_slides(
                 vis_img, vis_cap = str(topic_vis_path), topic_vis_caption
             else:
                 vis_img, vis_cap = None, ""
-            if vis_img:
-                vis_bullets = _dedupe_slide_bullets(fresh_pamphlet_bullets[:4])
-                for vb in vis_bullets:
-                    used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
-                generated.append({
-                    "title": f"{base_title} (Visual Guide)" if ":" in base_title else f"{base_title}: Field Visual & Key Principles",
-                    "layout": "SPLIT_VISUAL_EXPLAINER",
-                    "bullets": vis_bullets,
-                    "image_path": vis_img,
-                    "caption": vis_cap or base_title,
-                })
+            vis_bullets = _dedupe_slide_bullets(fresh_pamphlet_bullets[:4])
+            for vb in vis_bullets:
+                used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
+            generated.append({
+                "title": f"{base_title} (Visual Guide)" if ":" in base_title else f"{base_title}: Field Visual & Key Principles",
+                "layout": "SPLIT_VISUAL_EXPLAINER" if vis_img else "CONCEPT_TEXT_SLIDE",
+                "bullets": vis_bullets,
+                "image_path": vis_img,
+                "caption": vis_cap or base_title,
+            })
     else:
         # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
         deep_bullets = _dedupe_slide_bullets(
