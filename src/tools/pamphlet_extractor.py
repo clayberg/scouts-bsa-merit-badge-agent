@@ -2245,29 +2245,34 @@ def decompose_requirement_into_topic_slides(
             )
         )
         # Add 1 illustrated Pamphlet / Option 2 Topic Visual Reference slide
-        if len(fresh_pamphlet_bullets) >= 2:
-            popped_vis = _pop_next_avail_pamphlet()
-            if popped_vis:
-                vis_img, vis_cap = popped_vis
-            elif (
-                topic_vis_path.exists()
-                and topic_vis_path.stat().st_size >= 35_000
-                and str(topic_vis_path) not in used_image_paths
-            ):
-                used_image_paths.add(str(topic_vis_path))
-                vis_img, vis_cap = str(topic_vis_path), topic_vis_caption
-            else:
-                vis_img, vis_cap = None, ""
-            vis_bullets = _dedupe_slide_bullets(fresh_pamphlet_bullets[:4])
-            for vb in vis_bullets:
-                used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
-            generated.append({
-                "title": f"{base_title} (Visual Guide)" if ":" in base_title else f"{base_title}: Field Visual & Key Principles",
-                "layout": "SPLIT_VISUAL_EXPLAINER" if vis_img else "CONCEPT_TEXT_SLIDE",
-                "bullets": vis_bullets,
-                "image_path": vis_img,
-                "caption": vis_cap or base_title,
-            })
+        popped_vis = _pop_next_avail_pamphlet()
+        if popped_vis:
+            vis_img, vis_cap = popped_vis
+        elif (
+            topic_vis_path.exists()
+            and topic_vis_path.stat().st_size >= 35_000
+            and str(topic_vis_path) not in used_image_paths
+        ):
+            used_image_paths.add(str(topic_vis_path))
+            vis_img, vis_cap = str(topic_vis_path), topic_vis_caption
+        else:
+            vis_img, vis_cap = None, ""
+        fallback_vis_bullets = [
+            f"Core Requirement Focus: Master all sub-parts of { badge_name } Requirement { req_num } ({ base_title }).",
+            *(excerpts[2:6] or checklist[:3] or procedures[:3] or excerpts[:3] or [req_text]),
+        ]
+        vis_bullets = _dedupe_slide_bullets(
+            fresh_pamphlet_bullets[:4] if len(fresh_pamphlet_bullets) >= 2 else fallback_vis_bullets[:4]
+        )
+        for vb in vis_bullets:
+            used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
+        generated.append({
+            "title": f"{base_title} (Visual Guide)" if ":" in base_title else f"{base_title}: Field Visual & Key Principles",
+            "layout": "SPLIT_VISUAL_EXPLAINER" if vis_img else "CONCEPT_TEXT_SLIDE",
+            "bullets": vis_bullets,
+            "image_path": vis_img,
+            "caption": vis_cap or base_title,
+        })
     else:
         # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
         deep_bullets = _dedupe_slide_bullets(
