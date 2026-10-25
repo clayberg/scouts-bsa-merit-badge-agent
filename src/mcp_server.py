@@ -6,10 +6,10 @@ Implements Plan 16C (Option C Dual-Transport Semantic MCP Server):
 2. HTTP JSON-RPC 2.0 & SSE transport (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`) mounted
    directly on the FastAPI server (`src/server.py`) for Cloud Run, Google ADK `MCPToolset`,
    and the in-app Interactive MCP Playground.
-3. Exposes:
-   - 6 Grounded `bsa://` MCP Resources
-   - 12 Actionable MCP Tools (with Model Armor Youth Protection & FinOps consent gates)
-   - 4 Guided Pedagogical MCP Prompts
+3. Exposes 27 MCP Capabilities:
+   - 7 Grounded `bsa://` MCP Resources
+   - 15 Actionable MCP Tools (with Model Armor Youth Protection & FinOps consent gates)
+   - 5 Guided Pedagogical MCP Prompts
 """
 
 from __future__ import annotations
@@ -21,9 +21,12 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from src.config import (
+    COMPANION_BADGE_PAIRINGS,
     OFFICIAL_BSA_MERIT_BADGES_CATALOG,
     badge_file_slug,
+    is_discontinued_badge,
     is_eagle_required,
+    is_test_lab_badge,
 )
 from src.memory.session_store import (
     get_counselor_favorites,
@@ -47,26 +50,32 @@ MCP_PROTOCOL_VERSION = "2024-11-05"
 
 
 # ==============================================================================
-# 1. MCP RESOURCES (6 `bsa://` URI SCHEMES)
+# 1. MCP RESOURCES (7 `bsa://` URI SCHEMES)
 # ==============================================================================
 
 MCP_RESOURCES_CATALOG: List[Dict[str, Any]] = [
     {
         "uri": "bsa://catalog/badges",
-        "name": "Official 144 Merit Badges Catalog",
-        "description": "Complete catalog of all 144 official Scouts BSA Merit Badges with Eagle-required flags, categories, emblem URLs, and counselor favorite status.",
+        "name": "Official 149 Merit Badges Catalog (144 Standard + 5 Test Lab Pilots)",
+        "description": "Complete catalog of all 149 Scouts BSA Merit Badges with Eagle-required flags, Test Lab Pilot & Discontinued indicators, categories, emblem URLs, and counselor favorite status.",
         "mimeType": "application/json",
     },
     {
         "uri": "bsa://badges/{badge_name}/requirements",
         "name": "Official Verbatim Merit Badge Requirements",
-        "description": "Official verbatim requirements tree and sub-requirements for any of the 144 Merit Badges (e.g. bsa://badges/First Aid/requirements).",
+        "description": "Official verbatim requirements tree, 5-tier syllabus buckets, and sub-requirements for any of the 149 Merit Badges (e.g. bsa://badges/First Aid/requirements).",
         "mimeType": "application/json",
     },
     {
         "uri": "bsa://badges/{badge_name}/images",
         "name": "Curated Vision-Verified Pamphlet & Nano Banana Visuals",
         "description": "Pre-bundled Vision-verified pamphlet figures and Nano Banana illustrations for a Merit Badge (e.g. bsa://badges/First Aid/images).",
+        "mimeType": "application/json",
+    },
+    {
+        "uri": "bsa://badges/{badge_name}/class-prep-cpp",
+        "name": "1-Page Class Preparation Page (CPP) & 5-Tier Syllabus Bucket Map",
+        "description": "Structured 1-Page Class Preparation Page (CPP), prerequisite gates, and 5-tier syllabus bucket classification for a Merit Badge (e.g. bsa://badges/First Aid/class-prep-cpp).",
         "mimeType": "application/json",
     },
     {
@@ -100,11 +109,17 @@ def read_mcp_resource(uri: str) -> Dict[str, Any]:
         for entry in OFFICIAL_BSA_MERIT_BADGES_CATALOG:
             b = str(entry.get("badge_name") or entry.get("name") or "")
             slug = badge_file_slug(b)
+            is_tl = bool(entry.get("is_test_lab_pilot") or is_test_lab_badge(b))
+            is_disc = bool(entry.get("is_discontinued") or is_discontinued_badge(b))
             badges.append(
                 {
                     "name": b,
                     "slug": slug,
                     "is_eagle_required": bool(entry.get("is_eagle_required")),
+                    "is_test_lab_pilot": is_tl,
+                    "is_discontinued": is_disc,
+                    "status_badge": entry.get("status_badge") or ("DISCONTINUED" if is_disc else ("TEST_LAB_PILOT" if is_tl else "ACTIVE")),
+                    "companion_badges": COMPANION_BADGE_PAIRINGS.get(b, []),
                     "category": str(entry.get("category") or "General Scouting"),
                     "is_favorite": b.lower() in favs,
                     "emblem_url": f"/assets/badge_emblems/{slug}.png",
@@ -171,11 +186,19 @@ def read_mcp_resource(uri: str) -> Dict[str, Any]:
         cat = get_badge_image_catalog(badge_name)
         return {"uri": clean_uri, "mimeType": "application/json", "data": cat}
 
+    m_cpp = re.match(r"^bsa://badges/([^/]+)/class-prep-cpp$", clean_uri)
+    if m_cpp:
+        badge_name = m_cpp.group(1).replace("_", " ").strip()
+        from src.tools.counselor_studiokit import generate_class_preparation_page_cpp
+
+        cpp = generate_class_preparation_page_cpp(badge_name=badge_name)
+        return {"uri": clean_uri, "mimeType": "application/json", "data": cpp}
+
     return {"uri": clean_uri, "mimeType": "application/json", "data": {"error": f"Unknown MCP resource URI: {clean_uri}"}}
 
 
 # ==============================================================================
-# 2. MCP TOOLS (12 ACTIONABLE AGENT TOOLS)
+# 2. MCP TOOLS (15 ACTIONABLE AGENT TOOLS)
 # ==============================================================================
 
 
@@ -184,8 +207,9 @@ def mcp_tool_search_merit_badges(
     category: str = "ALL",
     eagle_only: bool = False,
     favorites_only: bool = False,
+    test_lab_only: bool = False,
 ) -> Dict[str, Any]:
-    """Searches and filters the 144 official Scouts BSA Merit Badges."""
+    """Searches and filters the 149 official Scouts BSA Merit Badges (144 standard + 5 Test Lab Pilots)."""
     q = str(query or "").strip().lower()
     cat_norm = str(category or "ALL").strip().lower()
     favs = {b.lower() for b in get_counselor_favorites()}
@@ -194,13 +218,20 @@ def mcp_tool_search_merit_badges(
         b = str(entry.get("badge_name") or entry.get("name") or "")
         b_cat = str(entry.get("category") or "General Scouting")
         is_eagle = bool(entry.get("is_eagle_required"))
+        is_tl = bool(entry.get("is_test_lab_pilot") or is_test_lab_badge(b))
+        is_disc = bool(entry.get("is_discontinued") or is_discontinued_badge(b))
         is_fav = b.lower() in favs
         if eagle_only and not is_eagle:
             continue
+        if test_lab_only and not is_tl:
+            continue
         if favorites_only and not is_fav:
             continue
-        if cat_norm not in ("", "all") and cat_norm not in b_cat.lower():
-            continue
+        if cat_norm not in ("", "all"):
+            if cat_norm in ("test_lab", "test lab", "test lab pilot") and not is_tl:
+                continue
+            elif cat_norm not in ("test_lab", "test lab", "test lab pilot") and cat_norm not in b_cat.lower():
+                continue
         if q and q not in b.lower() and q not in b_cat.lower():
             continue
         slug = badge_file_slug(b)
@@ -210,6 +241,8 @@ def mcp_tool_search_merit_badges(
                 "slug": slug,
                 "category": b_cat,
                 "is_eagle_required": is_eagle,
+                "is_test_lab_pilot": is_tl,
+                "is_discontinued": is_disc,
                 "is_favorite": is_fav,
                 "emblem_url": f"/assets/badge_emblems/{slug}.png",
             }
@@ -758,17 +791,116 @@ def mcp_tool_audit_deck_conformance(workspace_id: str) -> Dict[str, Any]:
     }
 
 
+def mcp_tool_generate_fillable_scout_workbook(
+    badge_name: str,
+    selected_option_track: Optional[str] = None,
+    include_qr: bool = True,
+) -> Dict[str, Any]:
+    """Generates the verb-aligned fillable Scout Workbook HTML & Markdown with Guide to Advancement Section 7.0.3.2 banner."""
+    from src.tools.scouting_scraper import (
+        fetch_official_merit_badge_requirements,
+        generate_fillable_scout_workbook_html,
+    )
+
+    clean_badge = str(badge_name or "First Aid").strip()
+    research_res = fetch_official_merit_badge_requirements(clean_badge, option_track=selected_option_track or "ALL")
+    html_res = generate_fillable_scout_workbook_html(
+        badge_name=clean_badge,
+        option_track=selected_option_track or "ALL",
+    )
+    html_res["workbook_markdown"] = research_res.get("counselor_workbook_markdown", "")
+    return html_res
+
+
+def mcp_tool_generate_class_preparation_page_cpp(
+    badge_name: str,
+    schedule_format: str = "4_session_mbc",
+    counselor_name: str = "Scoutmaster Bob",
+    troop_affiliation: str = "Troop 19",
+) -> Dict[str, Any]:
+    """Generates the 1-Page Class Preparation Page (CPP) & 5-Tier Syllabus Bucket Map for Scouts and Parents."""
+    from src.tools.counselor_studiokit import generate_class_preparation_page_cpp
+
+    clean_badge = str(badge_name or "First Aid").strip()
+    return generate_class_preparation_page_cpp(
+        badge_name=clean_badge,
+        counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_affiliation},
+    )
+
+
+def mcp_tool_manage_multisession_clinic_attendance_and_partials(
+    workspace_id: str,
+    badge_name: str = "First Aid",
+    action: str = "list",
+    scout_id: str = "",
+    scout_name: str = "",
+    troop_unit: str = "Troop 19",
+    session_attendance: Optional[Dict[str, str]] = None,
+    completed_reqs: Optional[List[str]] = None,
+    partial_classifications: Optional[Dict[str, str]] = None,
+    schedule_format: str = "4_session_mbc",
+    postponed_session_idx: Optional[int] = None,
+    companion_badge_name: str = "",
+) -> Dict[str, Any]:
+    """Manages multi-session clinic schedules (4x75m, 2xDouble-Block, Snow-Day Make-Up), Scout attendance (S1..S4, M), and smart partial classifications."""
+    from src.memory.session_store import (
+        get_clinic_session_schedule,
+        list_scout_session_attendance_and_partials,
+        save_clinic_session_schedule,
+        upsert_scout_session_attendance_and_partials,
+    )
+
+    act = str(action or "list").strip().lower()
+    if act == "save_schedule":
+        sched = save_clinic_session_schedule(
+            workspace_id=workspace_id,
+            badge_name=badge_name,
+            schedule_format=schedule_format,
+            postponed_session_idx=postponed_session_idx,
+            companion_badge_name=companion_badge_name,
+        )
+        return {"status": "SUCCESS", "workspace_id": workspace_id, "schedule": sched}
+
+    if act in ("upsert_scout", "update_attendance", "save_scout") and (scout_id or scout_name):
+        sid = scout_id or re.sub(r"[^a-z0-9]+", "_", scout_name.strip().lower()).strip("_") or "scout_1"
+        saved = upsert_scout_session_attendance_and_partials(
+            workspace_id=workspace_id,
+            scout_id=sid,
+            badge_name=badge_name,
+            scout_name=scout_name or sid,
+            troop_unit=troop_unit,
+            session_attendance=session_attendance,
+            completed_reqs=completed_reqs,
+            partial_classifications=partial_classifications,
+        )
+        return {
+            "status": "SUCCESS",
+            "workspace_id": workspace_id,
+            "scout": saved,
+            "scouts": list_scout_session_attendance_and_partials(workspace_id, badge_name),
+        }
+
+    return {
+        "status": "SUCCESS",
+        "workspace_id": workspace_id,
+        "badge_name": badge_name,
+        "schedule": get_clinic_session_schedule(workspace_id, badge_name),
+        "scouts": list_scout_session_attendance_and_partials(workspace_id, badge_name),
+    }
+
+
 MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
     "search_merit_badges": {
         "name": "search_merit_badges",
-        "description": "Searches and filters the 144 official Scouts BSA Merit Badges by keyword, category, Eagle-required status, or Counselor Starred Favorites.",
+        "description": "Searches and filters the 149 official Scouts BSA Merit Badges (144 standard + 5 Test Lab Pilots) by keyword, category, Eagle-required status, Test Lab status, or Counselor Starred Favorites.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Optional search keyword (e.g. 'water', 'first aid', 'citizenship')."},
-                "category": {"type": "string", "description": "Optional category filter or 'ALL'."},
+                "query": {"type": "string", "description": "Optional search keyword (e.g. 'water', 'first aid', 'auctioneering')."},
+                "category": {"type": "string", "description": "Optional category filter, 'Test Lab Pilot', or 'ALL'."},
                 "eagle_only": {"type": "boolean", "description": "If true, returns only Eagle-required Merit Badges."},
                 "favorites_only": {"type": "boolean", "description": "If true, returns only Counselor starred favorite badges."},
+                "test_lab_only": {"type": "boolean", "description": "If true, returns only the 5 Scouting America Test Lab Pilot badges."},
             },
         },
         "handler": mcp_tool_search_merit_badges,
@@ -968,11 +1100,63 @@ MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
         },
         "handler": mcp_tool_audit_deck_conformance,
     },
+    "generate_fillable_scout_workbook": {
+        "name": "generate_fillable_scout_workbook",
+        "description": "Generates a verb-aligned fillable Scout Workbook (HTML & Markdown) with Guide to Advancement Section 7.0.3.2 banner, option-track filtering, and pre-approval signature boxes.",
+        "inputSchema": {
+            "type": "object",
+            "required": ["badge_name"],
+            "properties": {
+                "badge_name": {"type": "string", "description": "Official Merit Badge name (any of the 149 badges)."},
+                "selected_option_track": {"type": "string", "description": "Optional option track filter (e.g. 'Option A', 'Triathlon')."},
+                "include_qr": {"type": "boolean", "default": True},
+            },
+        },
+        "handler": mcp_tool_generate_fillable_scout_workbook,
+    },
+    "generate_class_preparation_page_cpp": {
+        "name": "generate_class_preparation_page_cpp",
+        "description": "Generates a 1-Page Class Preparation Page (CPP) with 5-tier syllabus buckets, pre-work verification gates, and session pacing roadmap.",
+        "inputSchema": {
+            "type": "object",
+            "required": ["badge_name"],
+            "properties": {
+                "badge_name": {"type": "string", "description": "Official Merit Badge name."},
+                "schedule_format": {"type": "string", "default": "4_session_mbc"},
+                "counselor_name": {"type": "string", "default": "Scoutmaster Bob"},
+                "troop_affiliation": {"type": "string", "default": "Troop 19"},
+            },
+        },
+        "handler": mcp_tool_generate_class_preparation_page_cpp,
+    },
+    "manage_multisession_clinic_attendance_and_partials": {
+        "name": "manage_multisession_clinic_attendance_and_partials",
+        "description": "Manages multi-session clinic schedules (4x75m, 2xDouble-Block, Snow-Day Make-Up), Scout attendance (S1..S4, M), and smart partial classifications (Actionable Make-Up vs. Expected Home-Troop).",
+        "inputSchema": {
+            "type": "object",
+            "required": ["workspace_id"],
+            "properties": {
+                "workspace_id": {"type": "string"},
+                "badge_name": {"type": "string", "default": "First Aid"},
+                "action": {"type": "string", "enum": ["list", "save_schedule", "upsert_scout"], "default": "list"},
+                "scout_id": {"type": "string"},
+                "scout_name": {"type": "string"},
+                "troop_unit": {"type": "string", "default": "Troop 19"},
+                "session_attendance": {"type": "object"},
+                "completed_reqs": {"type": "array", "items": {"type": "string"}},
+                "partial_classifications": {"type": "object"},
+                "schedule_format": {"type": "string", "default": "4_session_mbc"},
+                "postponed_session_idx": {"type": "integer"},
+                "companion_badge_name": {"type": "string"},
+            },
+        },
+        "handler": mcp_tool_manage_multisession_clinic_attendance_and_partials,
+    },
 }
 
 
 # ==============================================================================
-# 3. MCP PROMPTS (4 GUIDED WORKFLOW PROMPTS)
+# 3. MCP PROMPTS (5 GUIDED WORKFLOW PROMPTS)
 # ==============================================================================
 
 MCP_PROMPTS_CATALOG: List[Dict[str, Any]] = [
@@ -1006,6 +1190,14 @@ MCP_PROMPTS_CATALOG: List[Dict[str, Any]] = [
             {"name": "workspace_id", "description": "Target deck workspace ID.", "required": True},
             {"name": "state_code", "description": "2-letter US State code (e.g. 'CA', 'CO').", "required": True},
             {"name": "city_or_camp", "description": "Local city or Scout camp name.", "required": False},
+        ],
+    },
+    {
+        "name": "multisession_mbc_clinic_facilitator_prompt",
+        "description": "Orchestrates a multi-session Merit Badge College or clinic workflow: generates the 1-Page CPP, fillable Scout workbook, 4-session schedule, and tracks attendance & partials.",
+        "arguments": [
+            {"name": "badge_name", "description": "Official Merit Badge name (e.g. 'First Aid', 'Citizenship in the Nation').", "required": True},
+            {"name": "schedule_format", "description": "Schedule preset ('4_session_mbc', '2_double_block', 'camp_5_day').", "required": False},
         ],
     },
 ]
@@ -1091,6 +1283,27 @@ def get_mcp_prompt_messages(name: str, arguments: Optional[Dict[str, Any]] = Non
                             f"1. Inspect the workspace slides with `get_slide_deck_workspace`.\n"
                             f"2. Polish key teaching scripts via `polish_slide_teaching_notes`.\n"
                             f"3. Verify AABB geometry conformance via `audit_deck_conformance`."
+                        ),
+                    },
+                }
+            ],
+        }
+    if clean_name in ("multisession_mbc_clinic_facilitator_prompt", "multisession-mbc-clinic-facilitator"):
+        badge = args.get("badge_name", "First Aid")
+        sched = args.get("schedule_format", "4_session_mbc")
+        return {
+            "description": f"Multi-Session Merit Badge Clinic Facilitator Workflow for {badge} ({sched})",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": {
+                        "type": "text",
+                        "text": (
+                            f"Prepare and facilitate a multi-session Merit Badge clinic for `{badge}` (`{sched}`):\n"
+                            f"1. Read `bsa://badges/{badge}/class-prep-cpp` and call `generate_class_preparation_page_cpp`.\n"
+                            f"2. Call `generate_fillable_scout_workbook` with `badge_name='{badge}'`.\n"
+                            f"3. Call `create_merit_badge_slide_deck` to build the slide deck with the 5-Part Facilitator Guide.\n"
+                            f"4. Use `manage_multisession_clinic_attendance_and_partials` to track S1..S4 and Make-Up attendance."
                         ),
                     },
                 }

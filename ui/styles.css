@@ -10102,3 +10102,130 @@ body.m3-dark-mode .m3-trace-stage-badge {
   }
 }
 
+/* ===========================================================================
+   v2.1 SINGLE-COUNSELOR BUCKY & MBC CLINIC ENHANCEMENTS
+   =========================================================================== */
+
+.m3-patch-discontinued-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  color: #B91C1C;
+  background: #FEE2E2;
+  border: 1px solid #FCA5A5;
+  border-radius: 999px;
+  padding: 1px 6px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.m3-patch-testlab-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  color: #5B21B6;
+  background: #EDE9FE;
+  border: 1px solid #C4B5FD;
+  border-radius: 999px;
+  padding: 1px 6px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.m3-patch-gallery-card.discontinued-patch {
+  border-color: #FCA5A5;
+  background: #FFFBFB;
+}
+
+.m3-patch-gallery-card.testlab-patch {
+  border-color: #C4B5FD;
+}
+
+.m3-slide-misconception-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 22px 6px 22px;
+  padding: 6px 12px;
+  border-left: 4px solid #D97706;
+  background: rgba(254, 243, 199, 0.72);
+  color: #78350F;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+#widescreen-slide-stage[data-slide-theme="STUDIO"] .m3-slide-misconception-bar {
+  background: rgba(120, 53, 15, 0.45);
+  color: #FDE68A;
+  border-left-color: #FBBF24;
+}
+
+.m3-pc-cue-card-pacing {
+  background: rgba(30, 58, 138, 0.36);
+  border-left: 3.5px solid #60A5FA;
+}
+
+.m3-pc-cue-card-answer {
+  background: rgba(6, 78, 59, 0.36);
+  border-left: 3.5px solid #34D399;
+}
+
+.m3-pc-cue-card-myth {
+  background: rgba(88, 28, 135, 0.36);
+  border-left: 3.5px solid #C084FC;
+}
+
+.m3-smart-partial-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.m3-smart-partial-badge.is-actionable {
+  background: #FFEDD5;
+  color: #9A3412;
+  border: 1px solid #FDBA74;
+}
+
+.m3-smart-partial-badge.is-expected {
+  background: #DBEAFE;
+  color: #1E40AF;
+  border: 1px solid #93C5FD;
+}
+
+.m3-bc-attendance-pill {
+  appearance: none;
+  border: 1px solid #CBD5E1;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  cursor: pointer;
+  line-height: 1.2;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.m3-bc-attendance-pill.is-present {
+  background: #DCFCE7;
+  color: #166534;
+  border-color: #86EFAC;
+}
+
+.m3-bc-attendance-pill.is-absent {
+  background: #FEE2E2;
+  color: #991B1B;
+  border-color: #FCA5A5;
+  text-decoration: line-through;
+}
+
+

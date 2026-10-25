@@ -32,7 +32,115 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 1: Before doing requirements 3 through 15, review with",
+      "action_verb": "Before",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 1 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Before doing requirements 3 through 15, review with is enough for Lifesaving Requirement 1 sign-off.",
+        "fact": "Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15, review with grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 1): Before doing requirements 3 through 15, review with your counselor the principles of Safe Swim Defense.",
+        "Field Verification Standard: Apply Lifesaving Requirement 1 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 1 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 1 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before doing requirements 3 through 15, review with.",
+        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Before doing requirements 3 through 15, review with",
+          "Primary Standard": "Before doing requirements 3 through 15, review with your counselor the principles of Safe Swim Defense.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 1, a Scout claims: \"Reading a short definition of Before doing requirements 3 through 15, review with is enough for Lifesaving Requirement 1 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15, review with grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15, review with grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 4-9, Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15, review with grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -51,14 +159,104 @@
               "url": "https://www.scouting.org/merit-badges/swimming/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2a is enough for Lifesaving Requirement 2a sign-off.",
+            "fact": "Each Scout must actively earn the specific principles and real-world steps of Req 2a grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "HARD_PREREQ_BADGE",
+            "gate_label": "BSA Swimmer Classification Gate",
+            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+            "blocking_in_class": true
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 2a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
           "text": "Swim continuously for 400 yards using each of the following strokes in a strong manner, in good form with rhythmic breathing, for at least 50 continuous yards: front crawl, sidestroke, breaststroke, and elementary backstroke.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2b is enough for Lifesaving Requirement 2b sign-off.",
+            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 2b grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 2b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -74,7 +272,115 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: Before doing requirements 3 through 15: (a) Earn",
+      "action_verb": "Before",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 2 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Before doing requirements 3 through 15: (a) Earn is enough for Lifesaving Requirement 2 sign-off.",
+        "fact": "Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15: (a) Earn grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 2a: Earn the Swimming merit badge.",
+        "Lifesaving Sub-Req 2b: Swim continuously for 400 yards using each of the following strokes in a strong manner, in good form with rhythmic breathing, for at least.",
+        "Core Standard 1 (Req 2): Before doing requirements 3 through 15: (a) Earn the Swimming merit badge.",
+        "Core Standard 2 (Req 2): (b) Swim continuously for 400 yards using each of the following strokes in a strong manner, in good form with rhythmic breathing, for at least 50 continuous yards: front crawl, sidestroke, breaststroke, and elementary backstroke."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before doing requirements 3 through 15: (a) Earn.",
+        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - Before doing requirements 3 through 15: (a) Earn",
+          "Primary Standard": "Earn the Swimming merit badge.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 2, a Scout claims: \"Reading a short definition of Before doing requirements 3 through 15: (a) Earn is enough for Lifesaving Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15: (a) Earn grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15: (a) Earn grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 10-15, Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 15: (a) Earn grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -93,7 +399,48 @@
               "url": "https://www.noaa.gov/multimedia/video/video-heading-to-beach-see-our-rip-current-survival-guide-first"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3a is enough for Lifesaving Requirement 3a sign-off.",
+            "fact": "Each Scout must actively common the specific principles and real-world steps of Req 3a grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 3a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3b",
@@ -105,28 +452,192 @@
               "url": "https://youtu.be/beNheoRRdKk"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3b is enough for Lifesaving Requirement 3b sign-off.",
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3b grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 3b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
           "text": "The order of methods in water rescue.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3c is enough for Lifesaving Requirement 3c sign-off.",
+            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 3c grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 3c)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3d",
           "label": "(d)",
           "text": "How rescue techniques vary depending on the setting and the condition of the person needing assistance.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3d is enough for Lifesaving Requirement 3d sign-off.",
+            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 3d grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 3d)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3e",
           "label": "(e)",
           "text": "Situations for which in-water rescues should not be undertaken.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3e is enough for Lifesaving Requirement 3e sign-off.",
+            "fact": "Each Scout must actively situations the specific principles and real-world steps of Req 3e grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 3e)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -146,7 +657,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: Explain the following: (a) Common drowning situations and",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 3 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Explain the following: (a) Common drowning situations and is enough for Lifesaving Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Common drowning situations and grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 3a: Common drowning situations and how to avoid them, such as unfenced residential pools, drop offs, river currents, rip currents, and medical emergencies.",
+        "Lifesaving Sub-Req 3b: How to identify persons in the water who need assistance.",
+        "Lifesaving Sub-Req 3c: The order of methods in water rescue.",
+        "Lifesaving Sub-Req 3d: How rescue techniques vary depending on the setting and the condition of the person needing assistance."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the following: (a) Common drowning situations and.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - Explain the following: (a) Common drowning situations and",
+          "Primary Standard": "Common drowning situations and how to avoid them, such as unfenced residential pools, drop offs, river current",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 3, a Scout claims: \"Reading a short definition of Explain the following: (a) Common drowning situations and is enough for Lifesaving Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Common drowning situations and grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Common drowning situations and grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 16-21, Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Common drowning situations and grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -172,7 +786,113 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: Demonstrate \"reaching\" rescues using various items such as",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Demonstrate \"reaching\" rescues using various items such as is enough for Lifesaving Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"reaching\" rescues using various items such as grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 4): Demonstrate \"reaching\" rescues using various items such as arm, leg, towels, shirts, paddles, poles.",
+        "Field Verification Standard: Apply Lifesaving Requirement 4 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 4 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 4 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate \"reaching\" rescues using various items such as.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - Demonstrate \"reaching\" rescues using various items such as",
+          "Primary Standard": "Demonstrate \"reaching\" rescues using various items such as arm, leg, towels, shirts, paddles, poles.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 4, a Scout claims: \"Reading a short definition of Demonstrate \"reaching\" rescues using various items such as is enough for Lifesaving Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"reaching\" rescues using various items such as grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"reaching\" rescues using various items such as grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"reaching\" rescues using various items such as grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -194,7 +914,113 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: Demonstrate \"throwing\" rescues using various items such as",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Demonstrate \"throwing\" rescues using various items such as is enough for Lifesaving Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"throwing\" rescues using various items such as grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 5): Demonstrate \"throwing\" rescues using various items such as a line, ring buoy, rescue bag, and free-floating support.",
+        "Core Standard 2 (Req 5): Successfully place at least one such aid within reach of a practice victim 25 feet from shore.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 5 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 5 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate \"throwing\" rescues using various items such as.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - Demonstrate \"throwing\" rescues using various items such as",
+          "Primary Standard": "Demonstrate \"throwing\" rescues using various items such as a line, ring buoy, rescue bag, and free-floating su",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 5, a Scout claims: \"Reading a short definition of Demonstrate \"throwing\" rescues using various items such as is enough for Lifesaving Requirement 5 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"throwing\" rescues using various items such as grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"throwing\" rescues using various items such as grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate \"throwing\" rescues using various items such as grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -216,7 +1042,115 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: With your counselor's approval, view in-person or on",
+      "action_verb": "With",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 34-39",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 6 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of With your counselor's approval, view in-person or on is enough for Lifesaving Requirement 6 sign-off.",
+        "fact": "Each Scout must actively with the specific principles and real-world steps of With your counselor's approval, view in-person or on grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Lifesaving Req 6 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 6): With your counselor's approval, view in-person or on video a rowing rescue performed using a rowboat, canoe, kayak, or stand up paddleboard.",
+        "Core Standard 2 (Req 6): Discuss with your counselor how effectively and efficiently the rescue was performed.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 6 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 6 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With your counselor's approval, view in-person or on.",
+        "Execute & Document: Perform the with task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - With your counselor's approval, view in-person or on",
+          "Primary Standard": "With your counselor's approval, view in-person or on video a rowing rescue performed using a rowboat, canoe, k",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 6, a Scout claims: \"Reading a short definition of With your counselor's approval, view in-person or on is enough for Lifesaving Requirement 6 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your counselor's approval, view in-person or on grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your counselor's approval, view in-person or on grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 34-39, Each Scout must actively with the specific principles and real-world steps of With your counselor's approval, view in-person or on grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 6."
     },
     {
       "req_id": "7",
@@ -233,7 +1167,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 7: List various items that can be used as",
+      "action_verb": "List",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 7 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 40-45",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 40-45",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 7 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of List various items that can be used as is enough for Lifesaving Requirement 7 sign-off.",
+        "fact": "Each Scout must actively list the specific principles and real-world steps of List various items that can be used as grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 7)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 7): List various items that can be used as aids in a \"go\" rescue.",
+        "Core Standard 2 (Req 7): Explain why buoyant aids are preferred.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 7 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 7 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 7): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing List various items that can be used as.",
+        "Execute & Document: Perform the list task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 7",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 7.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 40-45.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 7",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 7 - List various items that can be used as",
+          "Primary Standard": "List various items that can be used as aids in a \"go\" rescue. Explain why buoyant aids are preferred.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 40-45."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 7, a Scout claims: \"Reading a short definition of List various items that can be used as is enough for Lifesaving Requirement 7 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively list the specific principles and real-world steps of List various items that can be used as grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 7 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively list the specific principles and real-world steps of List various items that can be used as grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 40-45, Each Scout must actively list the specific principles and real-world steps of List various items that can be used as grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 7."
     },
     {
       "req_id": "8",
@@ -247,14 +1284,96 @@
           "label": "(a)",
           "text": "Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8a is enough for Lifesaving Requirement 8a sign-off.",
+            "fact": "Each Scout must actively present the specific principles and real-world steps of Req 8a grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 8a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8b",
           "label": "(b)",
           "text": "In a separate rescue, present the other aid to a subject and use it to tow the subject to safety.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8b is enough for Lifesaving Requirement 8b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 8b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -274,7 +1393,113 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 8: Correctly demonstrate rescues of a conscious practice subject",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 8 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 46-51",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 46-51",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Correctly demonstrate rescues of a conscious practice subject is enough for Lifesaving Requirement 8 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Correctly demonstrate rescues of a conscious practice subject grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 8)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 8a: Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety.",
+        "Lifesaving Sub-Req 8b: In a separate rescue, present the other aid to a subject and use it to tow the subject to safety.",
+        "Core Standard 1 (Req 8): Correctly demonstrate rescues of a conscious practice subject 30 feet from shore in deep water using two types of buoyant aids provided by your counselor.",
+        "Core Standard 2 (Req 8): Use a proper entry and a strong approach stroke."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 8): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Correctly demonstrate rescues of a conscious practice subject.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 8",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 8.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 46-51.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 8",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 8 - Correctly demonstrate rescues of a conscious practice subject",
+          "Primary Standard": "Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 46-51."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 8, a Scout claims: \"Reading a short definition of Correctly demonstrate rescues of a conscious practice subject is enough for Lifesaving Requirement 8 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Correctly demonstrate rescues of a conscious practice subject grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 8 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Correctly demonstrate rescues of a conscious practice subject grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 46-51, Each Scout must actively demonstrate the specific principles and real-world steps of Correctly demonstrate rescues of a conscious practice subject grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 8."
     },
     {
       "req_id": "9",
@@ -291,7 +1516,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 9: when it is appropriate to remove heavy clothing",
+      "action_verb": "Discuss",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 9 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 52-57",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 52-57",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 9 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of when it is appropriate to remove heavy clothing is enough for Lifesaving Requirement 9 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of when it is appropriate to remove heavy clothing grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 9)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 9): Discuss with your counselor when it is appropriate to remove heavy clothing before attempting a swimming rescue.",
+        "Core Standard 2 (Req 9): Remove street clothes in 20 seconds or less, enter the water, and approach a conscious practice subject 30 feet from shore in deep water.",
+        "Core Standard 3 (Req 9): Speak to the subject and use a nonbuoyant aid, such as a shirt or towel, to tow the subject to safety.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 9 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 9): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing when it is appropriate to remove heavy clothing.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 9",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 9.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 52-57.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 9",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 9 - when it is appropriate to remove heavy clothing",
+          "Primary Standard": "Discuss with your counselor when it is appropriate to remove heavy clothing before attempting a swimming rescu",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 52-57."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 9, a Scout claims: \"Reading a short definition of when it is appropriate to remove heavy clothing is enough for Lifesaving Requirement 9 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of when it is appropriate to remove heavy clothing grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 9 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of when it is appropriate to remove heavy clothing grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 52-57, Each Scout must actively discuss the specific principles and real-world steps of when it is appropriate to remove heavy clothing grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 9."
     },
     {
       "req_id": "10",
@@ -317,7 +1645,113 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 10: the importance of avoiding contact with an active",
+      "action_verb": "Discuss",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 10 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 58-63",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 58-63",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of the importance of avoiding contact with an active is enough for Lifesaving Requirement 10 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of the importance of avoiding contact with an active grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 10)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 10): Discuss with your counselor the importance of avoiding contact with an active subject and demonstrate lead-and-wait techniques.",
+        "Field Verification Standard: Apply Lifesaving Requirement 10 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 10 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 10 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 10): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing the importance of avoiding contact with an active.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 10",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 10.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 58-63.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 10",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 10 - the importance of avoiding contact with an active",
+          "Primary Standard": "Discuss with your counselor the importance of avoiding contact with an active subject and demonstrate lead-and",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 58-63."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 10, a Scout claims: \"Reading a short definition of the importance of avoiding contact with an active is enough for Lifesaving Requirement 10 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of the importance of avoiding contact with an active grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 10 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of the importance of avoiding contact with an active grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 58-63, Each Scout must actively discuss the specific principles and real-world steps of the importance of avoiding contact with an active grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 10."
     },
     {
       "req_id": "11",
@@ -331,14 +1765,96 @@
           "label": "(a)",
           "text": "Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 11a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 64-69",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 11a is enough for Lifesaving Requirement 11a sign-off.",
+            "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 11a grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 11a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "11b",
           "label": "(b)",
           "text": "Perform a cross-chest carry for an exhausted, responsive subject treading water.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 11b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 64-69",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 11b is enough for Lifesaving Requirement 11b sign-off.",
+            "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 11b grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 11b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -354,7 +1870,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 11: Perform the following nonequipment rescues for a conscious",
+      "action_verb": "Perform",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 11 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 64-69",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 64-69",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 11 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Perform the following nonequipment rescues for a conscious is enough for Lifesaving Requirement 11 sign-off.",
+        "fact": "Each Scout must actively perform the specific principles and real-world steps of Perform the following nonequipment rescues for a conscious grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 11)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 11a: Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float.",
+        "Lifesaving Sub-Req 11b: Perform a cross-chest carry for an exhausted, responsive subject treading water.",
+        "Core Standard 1 (Req 11): Perform the following nonequipment rescues for a conscious practice subject 30 feet from shore.",
+        "Core Standard 2 (Req 11): Begin in the water from a position near the subject."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 11): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Perform the following nonequipment rescues for a conscious.",
+        "Execute & Document: Perform the perform task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 11)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 11",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 11.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 11.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 64-69.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 11",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 11 - Perform the following nonequipment rescues for a conscious",
+          "Primary Standard": "Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 64-69."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 11 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 11, a Scout claims: \"Reading a short definition of Perform the following nonequipment rescues for a conscious is enough for Lifesaving Requirement 11 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively perform the specific principles and real-world steps of Perform the following nonequipment rescues for a conscious grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 11 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively perform the specific principles and real-world steps of Perform the following nonequipment rescues for a conscious grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 64-69, Each Scout must actively perform the specific principles and real-world steps of Perform the following nonequipment rescues for a conscious grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 11."
     },
     {
       "req_id": "12",
@@ -376,7 +1995,113 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 12: In deep water, show how to escape from",
+      "action_verb": "Show",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 12 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 70-75",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 70-75",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of In deep water, show how to escape from is enough for Lifesaving Requirement 12 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of In deep water, show how to escape from grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 12)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 12): In deep water, show how to escape from a victim's grasp on your wrist.",
+        "Core Standard 2 (Req 12): Repeat for front and rear holds about the head and shoulders.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 12 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 12 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 12): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing In deep water, show how to escape from.",
+        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 12)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 12",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 12.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 12.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 70-75.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 12",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 12 - In deep water, show how to escape from",
+          "Primary Standard": "In deep water, show how to escape from a victim's grasp on your wrist. Repeat for front and rear holds about t",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 70-75."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 12 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 12, a Scout claims: \"Reading a short definition of In deep water, show how to escape from is enough for Lifesaving Requirement 12 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of In deep water, show how to escape from grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 12 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of In deep water, show how to escape from grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 70-75, Each Scout must actively show the specific principles and real-world steps of In deep water, show how to escape from grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 12."
     },
     {
       "req_id": "13",
@@ -390,21 +2115,144 @@
           "label": "(a)",
           "text": "Perform an equipment assist using a buoyant aid.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 13a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 76-81",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 13a is enough for Lifesaving Requirement 13a sign-off.",
+            "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 13a grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 13a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "13b",
           "label": "(b)",
           "text": "Perform a front approach and wrist tow.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 13b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 76-81",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 13b is enough for Lifesaving Requirement 13b sign-off.",
+            "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 13b grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 13b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "13c",
           "label": "(c)",
           "text": "Perform a rear approach and armpit tow.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 13c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 76-81",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 13c is enough for Lifesaving Requirement 13c sign-off.",
+            "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 13c grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 13c)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [],
@@ -415,7 +2263,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 13: Perform the following rescues for an unconscious practice",
+      "action_verb": "Perform",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 13 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 76-81",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 76-81",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 13 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
+        "fact": "Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 13)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 13a: Perform an equipment assist using a buoyant aid.",
+        "Lifesaving Sub-Req 13b: Perform a front approach and wrist tow.",
+        "Lifesaving Sub-Req 13c: Perform a rear approach and armpit tow.",
+        "Core Standard 1 (Req 13): Perform the following rescues for an unconscious practice subject at or near the surface 30 feet from shore."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 13): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Perform the following rescues for an unconscious practice.",
+        "Execute & Document: Perform the perform task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 13)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 13",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 13.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 13.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 76-81.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 13",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 13 - Perform the following rescues for an unconscious practice",
+          "Primary Standard": "Perform an equipment assist using a buoyant aid.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 76-81."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 13 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 13, a Scout claims: \"Stop chest compressions every 30 seconds to check for a carotid pulse.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+          "Skip Requirement 13 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 76-81, Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 13."
     },
     {
       "req_id": "14",
@@ -434,7 +2385,48 @@
               "url": "https://youtu.be/Lp81Aki77_0"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 14a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 82-87",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 14a is enough for Lifesaving Requirement 14a sign-off.",
+            "fact": "Each Scout must actively recover the specific principles and real-world steps of Req 14a grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 14a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "14b",
@@ -446,7 +2438,48 @@
               "url": "https://youtu.be/tajzE__-B-U"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 14b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 82-87",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 14b is enough for Lifesaving Requirement 14b sign-off.",
+            "fact": "Each Scout must actively repeat the specific principles and real-world steps of Req 14b grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 14b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -466,7 +2499,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 14: how to respond if a victim submerges before",
+      "action_verb": "Discuss",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 14 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 82-87",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 82-87",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 14 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of how to respond if a victim submerges before is enough for Lifesaving Requirement 14 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of how to respond if a victim submerges before grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 14)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 14a: Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive.",
+        "Lifesaving Sub-Req 14b: Repeat using a headfirst surface dive.",
+        "Core Standard 1 (Req 14): Discuss with your counselor how to respond if a victim submerges before being reached by a rescuer, and do the following: (a) Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive.",
+        "Core Standard 2 (Req 14): (b) Repeat using a headfirst surface dive."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 14): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing how to respond if a victim submerges before.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 14)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 14",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 14.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 14.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 82-87.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 14",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 14 - how to respond if a victim submerges before",
+          "Primary Standard": "Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 82-87."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 14 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 14, a Scout claims: \"Reading a short definition of how to respond if a victim submerges before is enough for Lifesaving Requirement 14 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of how to respond if a victim submerges before grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 14 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of how to respond if a victim submerges before grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 82-87, Each Scout must actively discuss the specific principles and real-world steps of how to respond if a victim submerges before grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 14."
     },
     {
       "req_id": "15",
@@ -489,21 +2625,144 @@
               "url": "https://youtu.be/9hEjyLabTRE"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 15a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 88-93",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 15a is enough for Lifesaving Requirement 15a sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 15a grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 15a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "15b",
           "label": "(b)",
           "text": "Support a faceup subject in calm water of standing depth.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 15b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 88-93",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 15b is enough for Lifesaving Requirement 15b sign-off.",
+            "fact": "Each Scout must actively support the specific principles and real-world steps of Req 15b grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 15b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "15c",
           "label": "(c)",
           "text": "Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 15c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 88-93",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 15c is enough for Lifesaving Requirement 15c sign-off.",
+            "fact": "Each Scout must actively turn the specific principles and real-world steps of Req 15c grounded in the official Lifesaving pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 15c)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -523,7 +2782,113 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 15: Demonstrate management of a spinal injury to your",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 15 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 88-93",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 88-93",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Demonstrate management of a spinal injury to your is enough for Lifesaving Requirement 15 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate management of a spinal injury to your grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 15)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 15a: Discuss the causes, signs, and symptoms of a spinal injury.",
+        "Lifesaving Sub-Req 15b: Support a faceup subject in calm water of standing depth.",
+        "Lifesaving Sub-Req 15c: Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support.",
+        "Core Standard 1 (Req 15): Demonstrate management of a spinal injury to your counselor: (a) Discuss the causes, signs, and symptoms of a spinal injury."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 15): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate management of a spinal injury to your.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 15)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 15",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 15.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 15.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 88-93.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 15",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 15 - Demonstrate management of a spinal injury to your",
+          "Primary Standard": "Discuss the causes, signs, and symptoms of a spinal injury.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 88-93."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 15 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 15, a Scout claims: \"Reading a short definition of Demonstrate management of a spinal injury to your is enough for Lifesaving Requirement 15 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate management of a spinal injury to your grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 15 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate management of a spinal injury to your grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 88-93, Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate management of a spinal injury to your grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 15."
     },
     {
       "req_id": "16",
@@ -537,14 +2902,99 @@
           "label": "(a)",
           "text": "Describe how to recognize the need for rescue breathing and CPR.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 16a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 94-99",
+          "common_misconception_pair": {
+            "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
+            "fact": "Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 16a)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "16b",
           "label": "(b)",
           "text": "Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified provider.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 94-99",
+          "common_misconception_pair": {
+            "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
+            "fact": "Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 16b)",
+              "url": "https://www.scouting.org/merit-badges/lifesaving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Lifesaving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -560,7 +3010,113 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 16: Demonstrate knowledge of resuscitation procedure: (a) Describe how",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 16 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 94-99",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 94-99",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
+        "fact": "Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 16)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Lifesaving Sub-Req 16a: Describe how to recognize the need for rescue breathing and CPR.",
+        "Lifesaving Sub-Req 16b: Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified.",
+        "Core Standard 1 (Req 16): Demonstrate knowledge of resuscitation procedure: (a) Describe how to recognize the need for rescue breathing and CPR.",
+        "Core Standard 2 (Req 16): (b) Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified provider."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 16): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate knowledge of resuscitation procedure: (a) Describe how.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 16)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 16",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 16.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 16.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 94-99.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 16",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 16 - Demonstrate knowledge of resuscitation procedure: (a) Describe how",
+          "Primary Standard": "Describe how to recognize the need for rescue breathing and CPR.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 94-99."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 16 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 16, a Scout claims: \"Stop chest compressions every 30 seconds to check for a carotid pulse.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+          "Skip Requirement 16 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 94-99, Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 16."
     },
     {
       "req_id": "17",
@@ -582,7 +3138,113 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 17: With your counselor, discuss causes, prevention, and treatment",
+      "action_verb": "Discuss",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Lifesaving Requirement 17 activities.",
+      "pamphlet_citation": "Official BSA Lifesaving Pamphlet, pp. 100-105",
+      "pamphlet_page_citation": "Official BSA Lifesaving Pamphlet, pp. 100-105",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 17 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of With your counselor, discuss causes, prevention, and treatment is enough for Lifesaving Requirement 17 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of With your counselor, discuss causes, prevention, and treatment grounded in the official Lifesaving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 17)",
+          "url": "https://www.scouting.org/merit-badges/lifesaving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Lifesaving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Lifesaving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 17): With your counselor, discuss causes, prevention, and treatment of other injuries or illnesses that could occur while swimming or boating, including hypothermia, dehydration, heat-related illnesses, muscle cramps, sunburn, stings, and hyperventilation.",
+        "Field Verification Standard: Apply Lifesaving Requirement 17 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Lifesaving Req 17 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Lifesaving Workbook before requesting Requirement 17 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 17): Review the official Lifesaving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With your counselor, discuss causes, prevention, and treatment.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Lifesaving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Lifesaving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 17)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Lifesaving Req 17",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Lifesaving Approach",
+        "right_header": "Official BSA Lifesaving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 17.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 17.",
+          "Records concrete measurements, examples, and citations from Official BSA Lifesaving Pamphlet, pp. 100-105.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Lifesaving Req 17",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 17 - With your counselor, discuss causes, prevention, and treatment",
+          "Primary Standard": "With your counselor, discuss causes, prevention, and treatment of other injuries or illnesses that could occur",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Lifesaving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Lifesaving Pamphlet, pp. 100-105."
+        },
+        "counselor_tip": "Bring your filled-in Lifesaving Req 17 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Lifesaving Requirement 17, a Scout claims: \"Reading a short definition of With your counselor, discuss causes, prevention, and treatment is enough for Lifesaving Requirement 17 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of With your counselor, discuss causes, prevention, and treatment grounded in the official Lifesaving pamphlet.",
+          "Skip Requirement 17 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of With your counselor, discuss causes, prevention, and treatment grounded in the official Lifesaving pamphlet.",
+        "explanation": "Per Official BSA Lifesaving Pamphlet, pp. 100-105, Each Scout must actively discuss the specific principles and real-world steps of With your counselor, discuss causes, prevention, and treatment grounded in the official Lifesaving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Lifesaving Workbook organizer table and practical demonstration for Req 17."
     }
-  ]
+  ],
+  "badge_slug": "lifesaving",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

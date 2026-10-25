@@ -22,6 +22,83 @@ class ExecutionMode(str, Enum):
     PREREQUISITE_CAMPOUT_HOME = "PREREQUISITE_CAMPOUT_HOME"
 
 
+class SyllabusBucket(str, Enum):
+    """5-Tier Counselor Syllabus & Homework Taxonomy (`SC-GEN-01`)."""
+    PRE_REQ_MUST_BRING_PROOF = "PRE_REQ_MUST_BRING_PROOF"
+    BE_PREPARED_READ_AND_LIVE_DEMO = "BE_PREPARED_READ_AND_LIVE_DEMO"
+    IN_CLASS_COVERED = "IN_CLASS_COVERED"
+    INTER_SESSION_HOMEWORK = "INTER_SESSION_HOMEWORK"
+    LONG_TERM_TRACKER_90_DAY = "LONG_TERM_TRACKER_90_DAY"
+
+
+class WorkbookOrganizerType(str, Enum):
+    """Verb-aligned graphic organizer types for the Fillable Scout Workbook (`BUCKY-FEAT-01`)."""
+    ATOMIC_SOCRATIC_PROMPTS = "ATOMIC_SOCRATIC_PROMPTS"
+    HAZARD_5COL = "HAZARD_5COL"
+    FIRST_AID_3COL = "FIRST_AID_3COL"
+    COMPARISON_2COL = "COMPARISON_2COL"
+    LEDGER_13WK = "LEDGER_13WK"
+    CALORIE_LOG_5DAY = "CALORIE_LOG_5DAY"
+    SENSORY_2DAY = "SENSORY_2DAY"
+    TIME_DIARY_7DAY = "TIME_DIARY_7DAY"
+    DEMONSTRATION_GATE_CALLOUT = "DEMONSTRATION_GATE_CALLOUT"
+
+
+class MisconceptionFactPair(BaseModel):
+    """Contrasts a common Scout misconception with the verified BSA Pamphlet fact (`SLIDE-UPG-02`)."""
+    common_misconception: str = Field(..., max_length=200)
+    official_pamphlet_fact: str = Field(..., max_length=220)
+    pamphlet_page_ref: str = Field(default="BSA Official Pamphlet", max_length=80)
+
+
+class CuratedResourceLink(BaseModel):
+    """Official sub-requirement multimedia link (`video`, `website`, `pdf`) (`SLIDE-UPG-06`)."""
+    title: str = Field(..., max_length=180)
+    url: str = Field(..., max_length=500)
+    media_type: Literal["video", "website", "pdf"] = "website"
+    duration_label: Optional[str] = Field(default=None, max_length=32)
+
+
+class WorkbookOrganizerSpec(BaseModel):
+    """Structured table/prompt layout specification for a sub-requirement in the Scout Workbook."""
+    organizer_type: WorkbookOrganizerType = WorkbookOrganizerType.ATOMIC_SOCRATIC_PROMPTS
+    table_title: str = Field(default="Structured Study & Preparation Notes", max_length=140)
+    column_headers: List[str] = Field(default_factory=list)
+    row_labels: List[str] = Field(default_factory=list)
+    sub_prompts: List[str] = Field(default_factory=list)
+    requires_counselor_preapproval: bool = False
+    requires_parent_permission: bool = False
+    is_physical_demonstration: bool = False
+
+
+class StartingRequirementGate(BaseModel):
+    """Badge-level eligibility, safety, swim, and PPE readiness gates (`SC-GEN-02`)."""
+    recommended_min_age: Optional[int] = Field(default=None, ge=10, le=17)
+    recommended_min_rank: Optional[str] = Field(default=None, max_length=40)
+    swim_classification_gate: Optional[Literal["SWIMMER", "BEGINNER", "NON_SWIMMER_OK"]] = None
+    required_cert_or_card: List[str] = Field(default_factory=list)
+    ppe_and_dress_code: List[str] = Field(default_factory=list)
+    supply_fee_estimate_usd: Optional[float] = Field(default=None, ge=0.0, le=250.0)
+    skill_gate_disclaimer: Optional[str] = Field(default=None, max_length=280)
+    suggested_companion_badges: List[str] = Field(default_factory=list)
+
+
+class ClassLogisticsSlideConfig(BaseModel):
+    """Opt-in Slide 2 (Class Logistics) & Slide N (Homework/Checkout) configuration (`SC-MBC-06`)."""
+    enabled: bool = False
+    room_location: str = Field(default="Assigned Classroom", max_length=80)
+    session_period_label: str = Field(default="Session 1 of 4 (75-Min Period)", max_length=80)
+    uniform_dress_code: str = Field(default="Class A Field Uniform + Closed-Toe Shoes", max_length=100)
+    venue_and_free_period_rules: List[str] = Field(
+        default_factory=lambda: [
+            "Use the Buddy System for all hallway, restroom, and water breaks.",
+            "During free periods, remain in the designated Commons / Study Hall area.",
+            "Have your Pre-Work Proof and Scout Workbook open on your desk at check-in.",
+        ]
+    )
+    next_session_homework_items: List[str] = Field(default_factory=list)
+
+
 class SlideArchetype(str, Enum):
     """Slide archetypes used by the storyboard planner and python-pptx renderer."""
     COVER_HERO = "COVER_HERO"
@@ -154,6 +231,46 @@ class RequirementNode(BaseModel):
     counselor_signoff_criteria: str = Field(
         "Scout must individually explain or demonstrate mastery to the Merit Badge Counselor.",
         description="Exact verification standard for Blue Card / Scoutbook sign-off."
+    )
+    syllabus_bucket: SyllabusBucket = Field(
+        SyllabusBucket.IN_CLASS_COVERED,
+        description="5-Tier Syllabus & Homework bucket (`SC-GEN-01`)."
+    )
+    estimated_instruction_minutes: int = Field(
+        default=10, ge=2, le=120,
+        description="Estimated instructional or station time in minutes."
+    )
+    evidence_artifact_hint: Optional[str] = Field(
+        default=None, max_length=200,
+        description="Tangible artifact or proof required when `PRE_REQ_MUST_BRING_PROOF` or `INTER_SESSION_HOMEWORK`."
+    )
+    continuation_guidance: Optional[str] = Field(
+        default=None, max_length=240,
+        description="Guidance printed on `#34124` Partial Continuation notes explaining how to finish this item."
+    )
+    pamphlet_page_citation: Optional[str] = Field(
+        default=None, max_length=80,
+        description="Exact BSA Pamphlet page citation (`pp. X-Y`)."
+    )
+    common_misconception_pair: Optional[MisconceptionFactPair] = Field(
+        default=None,
+        description="Contrasting common Scout misconception vs. official BSA Pamphlet fact (`SLIDE-UPG-02`)."
+    )
+    curated_resources: List[CuratedResourceLink] = Field(
+        default_factory=list,
+        description="Official sub-requirement multimedia links (`video`, `website`, `pdf`) (`SLIDE-UPG-06`)."
+    )
+    workbook_organizer: Optional[WorkbookOrganizerSpec] = Field(
+        default=None,
+        description="Verb-aligned graphic organizer specification for the Fillable Scout Workbook (`BUCKY-FEAT-01`)."
+    )
+    requires_counselor_preapproval: bool = Field(
+        default=False,
+        description="True when the Scout must obtain counselor approval before beginning work."
+    )
+    requires_parent_permission: bool = Field(
+        default=False,
+        description="True when parent/guardian permission or supervision is required."
     )
 
 
@@ -493,6 +610,11 @@ def get_tool_json_schemas() -> Dict[str, Dict[str, Any]]:
         ComparisonPairData,
         SocraticQuizItem,
         RequirementNode,
+        MisconceptionFactPair,
+        CuratedResourceLink,
+        WorkbookOrganizerSpec,
+        StartingRequirementGate,
+        ClassLogisticsSlideConfig,
         VisualAssetSpec,
         SlideCardItem,
         ConformanceIssue,
@@ -511,14 +633,14 @@ def get_tool_json_schemas() -> Dict[str, Dict[str, Any]]:
 
 
 # ==============================================================================
-# 7. SCHEMA EVOLUTION & ZERO-DOWNTIME PAYLOAD UPCASTER (v1.0 -> v1.1 -> v1.2)
+# 7. SCHEMA EVOLUTION & ZERO-DOWNTIME PAYLOAD UPCASTER (v1.0 -> v1.1 -> v1.2 -> v2.1.0)
 # ==============================================================================
 
-CURRENT_SCHEMA_VERSION: str = "1.2.0"
+CURRENT_SCHEMA_VERSION: str = "2.1.0"
 
 
 def _upcast_slide_dict_v1_2(slide: Dict[str, Any]) -> Dict[str, Any]:
-    """Upcasts an individual slide dictionary from v1.0/v1.1 to v1.2.0."""
+    """Upcasts an individual slide dictionary from v1.0/v1.1/v1.2 to v2.1.0."""
     if not isinstance(slide, dict):
         return slide
     if not slide.get("original_archetype"):
@@ -548,6 +670,12 @@ def _upcast_slide_dict_v1_2(slide: Dict[str, Any]) -> Dict[str, Any]:
         )
     if "available_images" not in slide or not isinstance(slide.get("available_images"), list):
         slide["available_images"] = []
+    if "slide_role" not in slide or not slide.get("slide_role"):
+        slide["slide_role"] = "STANDARD"
+    if "gate_badges" not in slide or not isinstance(slide.get("gate_badges"), list):
+        slide["gate_badges"] = []
+    if "curated_resources" not in slide or not isinstance(slide.get("curated_resources"), list):
+        slide["curated_resources"] = []
     return slide
 
 

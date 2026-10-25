@@ -420,7 +420,328 @@ class PersistentSessionStore:
                 )
                 """
             )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS clinic_session_schedules (
+                    schedule_id TEXT PRIMARY KEY,
+                    workspace_id TEXT NOT NULL,
+                    badge_name TEXT NOT NULL,
+                    Companion_badge_name TEXT DEFAULT '',
+                    session_mode TEXT DEFAULT '4_session_mbc',
+                    session_dates_json TEXT DEFAULT '[]',
+                    room_location TEXT DEFAULT '',
+                    postponed_session_idx INTEGER DEFAULT 0,
+                    session_buckets_json TEXT DEFAULT '{}',
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
+            )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS scout_session_attendance_and_partials (
+                    record_id TEXT PRIMARY KEY,
+                    workspace_id TEXT NOT NULL,
+                    badge_name TEXT NOT NULL,
+                    scout_id TEXT NOT NULL,
+                    scout_name_redacted TEXT DEFAULT '',
+                    troop_number TEXT DEFAULT 'Troop 19',
+                    session_attendance_json TEXT DEFAULT '{"S1":"P","S2":"P","S3":"P","S4":"P","M":"-"}',
+                    completed_reqs_json TEXT DEFAULT '[]',
+                    completed_reqs_by_badge_json TEXT DEFAULT '{}',
+                    actionable_makeup_reqs_json TEXT DEFAULT '[]',
+                    expected_hometroop_reqs_json TEXT DEFAULT '[]',
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
+            )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS counselor_syllabus_bucket_overrides (
+                    override_id TEXT PRIMARY KEY,
+                    workspace_id TEXT DEFAULT 'default',
+                    badge_name TEXT NOT NULL,
+                    req_id TEXT NOT NULL,
+                    syllabus_bucket TEXT NOT NULL,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
+            )
+            # Enforce DECK_SCHEMA_BASELINE_VERSION ("2.1.0") clean-slate cache invalidation
+            try:
+                from src.config import DECK_SCHEMA_BASELINE_VERSION
+                row = conn.execute(
+                    "SELECT pref_json FROM user_preferences WHERE pref_key = 'schema_baseline_version'"
+                ).fetchone()
+                stored_ver = ""
+                if row and row[0]:
+                    try:
+                        stored_ver = json.loads(row[0]).get("version", "")
+                    except Exception:
+                        stored_ver = str(row[0])
+                if stored_ver != DECK_SCHEMA_BASELINE_VERSION:
+                    conn.execute("DELETE FROM polished_speaker_notes;")
+                    conn.execute(
+                        "UPDATE counselor_workspaces SET deck_result_json = '{}' "
+                        "WHERE deck_result_json NOT LIKE '%\"schema_version\": \"2.1.0\"%';"
+                    )
+                    conn.execute(
+                        """
+                        INSERT INTO user_preferences (pref_key, pref_json, updated_at)
+                        VALUES ('schema_baseline_version', ?, CURRENT_TIMESTAMP)
+                        ON CONFLICT(pref_key) DO UPDATE SET
+                            pref_json=excluded.pref_json,
+                            updated_at=CURRENT_TIMESTAMP
+                        """,
+                        (json.dumps({"version": DECK_SCHEMA_BASELINE_VERSION}),),
+                    )
+            except Exception:
+                logger.debug("Baseline version check skipped", exc_info=True)
             conn.commit()
+
+    def upsert_clinic_session_schedule_sync(
+        self,
+        workspace_id: str,
+        badge_name: str,
+        session_mode: str = "4_session_mbc",
+        companion_badge_name: str = "",
+        session_dates: Optional[List[str]] = None,
+        room_location: str = "",
+        postponed_session_idx: int = 0,
+        session_buckets: Optional[Dict[str, Any]] = None,
+    ) -> Dict[str, Any]:
+        """Persists a multi-session clinic schedule into `clinic_session_schedules` (Table 10)."""
+        sched_id = f"sched_{hashlib.sha256(f'{workspace_id}:{badge_name}'.encode('utf-8')).hexdigest()[:16]}"
+        dates_list = list(session_dates or ["Session 1", "Session 2", "Session 3", "Session 4", "Make-Up Day"])
+        buckets_dict = dict(session_buckets or {})
+        with self._lock, self._connect() as conn:
+            conn.execute(
+                """
+                INSERT INTO clinic_session_schedules (
+                    schedule_id, workspace_id, badge_name, Companion_badge_name,
+                    session_mode, session_dates_json, room_location,
+                    postponed_session_idx, session_buckets_json, updated_at
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+                ON CONFLICT(schedule_id) DO UPDATE SET
+                    Companion_badge_name=excluded.Companion_badge_name,
+                    session_mode=excluded.session_mode,
+                    session_dates_json=excluded.session_dates_json,
+                    room_location=excluded.room_location,
+                    postponed_session_idx=excluded.postponed_session_idx,
+                    session_buckets_json=excluded.session_buckets_json,
+                    updated_at=CURRENT_TIMESTAMP
+                """,
+                (
+                    sched_id,
+                    str(workspace_id or "default"),
+                    str(badge_name or "First Aid"),
+                    str(companion_badge_name or ""),
+                    str(session_mode or "4_session_mbc"),
+                    json.dumps(dates_list),
+                    scrub_pii_before_sink(str(room_location or "")),
+                    int(postponed_session_idx or 0),
+                    json.dumps(buckets_dict),
+                ),
+            )
+            conn.commit()
+        return {
+            "schedule_id": sched_id,
+            "workspace_id": str(workspace_id or "default"),
+            "badge_name": str(badge_name or "First Aid"),
+            "companion_badge_name": str(companion_badge_name or ""),
+            "session_mode": str(session_mode or "4_session_mbc"),
+            "session_dates": dates_list,
+            "room_location": str(room_location or ""),
+            "postponed_session_idx": int(postponed_session_idx or 0),
+            "session_buckets": buckets_dict,
+        }
+
+    def get_clinic_session_schedule_sync(
+        self, workspace_id: str, badge_name: str
+    ) -> Optional[Dict[str, Any]]:
+        """Retrieves a stored clinic session schedule from `clinic_session_schedules`."""
+        sched_id = f"sched_{hashlib.sha256(f'{workspace_id}:{badge_name}'.encode('utf-8')).hexdigest()[:16]}"
+        with self._lock, self._connect() as conn:
+            conn.row_factory = sqlite3.Row
+            row = conn.execute(
+                "SELECT * FROM clinic_session_schedules WHERE schedule_id = ?",
+                (sched_id,),
+            ).fetchone()
+            if not row:
+                return None
+            return {
+                "schedule_id": row["schedule_id"],
+                "workspace_id": row["workspace_id"],
+                "badge_name": row["badge_name"],
+                "companion_badge_name": row["Companion_badge_name"],
+                "session_mode": row["session_mode"],
+                "session_dates": json.loads(row["session_dates_json"] or "[]"),
+                "room_location": row["room_location"],
+                "postponed_session_idx": int(row["postponed_session_idx"] or 0),
+                "session_buckets": json.loads(row["session_buckets_json"] or "{}"),
+            }
+
+    def upsert_scout_session_attendance_and_partials_sync(
+        self,
+        workspace_id: str,
+        badge_name: str,
+        scout_id: str,
+        scout_name: str = "",
+        troop_number: str = "Troop 19",
+        session_attendance: Optional[Dict[str, str]] = None,
+        completed_reqs: Optional[List[str]] = None,
+        completed_reqs_by_badge: Optional[Dict[str, List[str]]] = None,
+        actionable_makeup_reqs: Optional[List[str]] = None,
+        expected_hometroop_reqs: Optional[List[str]] = None,
+    ) -> Dict[str, Any]:
+        """Persists a Scout's multi-session attendance (`S1..S4 | M`), troop number, and smart partial buckets (Table 11)."""
+        rec_id = f"attrec_{hashlib.sha256(f'{workspace_id}:{badge_name}:{scout_id}'.encode('utf-8')).hexdigest()[:16]}"
+        att_map = dict(session_attendance or {"S1": "P", "S2": "P", "S3": "P", "S4": "P", "M": "-"})
+        comp_list = [str(r) for r in (completed_reqs or [])]
+        by_badge = dict(completed_reqs_by_badge or {badge_name: comp_list})
+        makeup_list = [str(r) for r in (actionable_makeup_reqs or [])]
+        hometroop_list = [str(r) for r in (expected_hometroop_reqs or [])]
+        redacted_name = scrub_pii_before_sink(str(scout_name or f"Scout {scout_id}"))
+        with self._lock, self._connect() as conn:
+            conn.execute(
+                """
+                INSERT INTO scout_session_attendance_and_partials (
+                    record_id, workspace_id, badge_name, scout_id, scout_name_redacted,
+                    troop_number, session_attendance_json, completed_reqs_json,
+                    completed_reqs_by_badge_json, actionable_makeup_reqs_json,
+                    expected_hometroop_reqs_json, updated_at
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+                ON CONFLICT(record_id) DO UPDATE SET
+                    scout_name_redacted=excluded.scout_name_redacted,
+                    troop_number=excluded.troop_number,
+                    session_attendance_json=excluded.session_attendance_json,
+                    completed_reqs_json=excluded.completed_reqs_json,
+                    completed_reqs_by_badge_json=excluded.completed_reqs_by_badge_json,
+                    actionable_makeup_reqs_json=excluded.actionable_makeup_reqs_json,
+                    expected_hometroop_reqs_json=excluded.expected_hometroop_reqs_json,
+                    updated_at=CURRENT_TIMESTAMP
+                """,
+                (
+                    rec_id,
+                    str(workspace_id or "default"),
+                    str(badge_name or "First Aid"),
+                    str(scout_id),
+                    redacted_name,
+                    str(troop_number or "Troop 19"),
+                    json.dumps(att_map),
+                    json.dumps(comp_list),
+                    json.dumps(by_badge),
+                    json.dumps(makeup_list),
+                    json.dumps(hometroop_list),
+                ),
+            )
+            conn.commit()
+        return {
+            "record_id": rec_id,
+            "workspace_id": str(workspace_id or "default"),
+            "badge_name": str(badge_name or "First Aid"),
+            "scout_id": str(scout_id),
+            "scout_name": redacted_name,
+            "troop_number": str(troop_number or "Troop 19"),
+            "session_attendance": att_map,
+            "completed_reqs": comp_list,
+            "completed_reqs_by_badge": by_badge,
+            "actionable_makeup_reqs": makeup_list,
+            "expected_hometroop_reqs": hometroop_list,
+        }
+
+    def list_scout_session_attendance_and_partials_sync(
+        self, workspace_id: str, badge_name: str, troop_filter: Optional[str] = None
+    ) -> List[Dict[str, Any]]:
+        """Lists Scout attendance and smart partial records for a workspace and badge."""
+        out: List[Dict[str, Any]] = []
+        with self._lock, self._connect() as conn:
+            conn.row_factory = sqlite3.Row
+            rows = conn.execute(
+                """
+                SELECT * FROM scout_session_attendance_and_partials
+                WHERE workspace_id = ? AND badge_name = ?
+                ORDER BY troop_number ASC, scout_id ASC
+                """,
+                (str(workspace_id or "default"), str(badge_name or "First Aid")),
+            ).fetchall()
+            for r in rows:
+                if troop_filter and troop_filter.upper() != "ALL" and r["troop_number"] != troop_filter:
+                    continue
+                out.append({
+                    "record_id": r["record_id"],
+                    "workspace_id": r["workspace_id"],
+                    "badge_name": r["badge_name"],
+                    "scout_id": r["scout_id"],
+                    "scout_name": r["scout_name_redacted"],
+                    "troop_number": r["troop_number"],
+                    "session_attendance": json.loads(r["session_attendance_json"] or "{}"),
+                    "completed_reqs": json.loads(r["completed_reqs_json"] or "[]"),
+                    "completed_reqs_by_badge": json.loads(r["completed_reqs_by_badge_json"] or "{}"),
+                    "actionable_makeup_reqs": json.loads(r["actionable_makeup_reqs_json"] or "[]"),
+                    "expected_hometroop_reqs": json.loads(r["expected_hometroop_reqs_json"] or "[]"),
+                })
+        return out
+
+    def upsert_syllabus_bucket_override_sync(
+        self,
+        badge_name: str,
+        req_id: str,
+        syllabus_bucket: str,
+        workspace_id: str = "default",
+    ) -> Dict[str, Any]:
+        """Persists a counselor override of a requirement's 5-Tier SyllabusBucket in `counselor_syllabus_bucket_overrides` (Table 12)."""
+        ov_id = f"bktov_{hashlib.sha256(f'{workspace_id}:{badge_name}:{req_id}'.encode('utf-8')).hexdigest()[:16]}"
+        with self._lock, self._connect() as conn:
+            conn.execute(
+                """
+                INSERT INTO counselor_syllabus_bucket_overrides (
+                    override_id, workspace_id, badge_name, req_id, syllabus_bucket, updated_at
+                )
+                VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+                ON CONFLICT(override_id) DO UPDATE SET
+                    syllabus_bucket=excluded.syllabus_bucket,
+                    updated_at=CURRENT_TIMESTAMP
+                """,
+                (
+                    ov_id,
+                    str(workspace_id or "default"),
+                    str(badge_name),
+                    str(req_id),
+                    str(syllabus_bucket),
+                ),
+            )
+            conn.commit()
+        return {
+            "override_id": ov_id,
+            "workspace_id": str(workspace_id or "default"),
+            "badge_name": str(badge_name),
+            "req_id": str(req_id),
+            "syllabus_bucket": str(syllabus_bucket),
+        }
+
+    def list_syllabus_bucket_overrides_sync(
+        self, badge_name: str, workspace_id: str = "default"
+    ) -> Dict[str, str]:
+        """Returns `{req_id: syllabus_bucket}` overrides for a badge and workspace."""
+        out: Dict[str, str] = {}
+        with self._lock, self._connect() as conn:
+            conn.row_factory = sqlite3.Row
+            rows = conn.execute(
+                """
+                SELECT req_id, syllabus_bucket FROM counselor_syllabus_bucket_overrides
+                WHERE workspace_id = ? AND badge_name = ?
+                """,
+                (str(workspace_id or "default"), str(badge_name)),
+            ).fetchall()
+            for r in rows:
+                out[str(r["req_id"])] = str(r["syllabus_bucket"])
+        return out
+
+    save_syllabus_bucket_override_sync = upsert_syllabus_bucket_override_sync
+    get_syllabus_bucket_overrides_sync = list_syllabus_bucket_overrides_sync
+    save_clinic_session_schedule_sync = upsert_clinic_session_schedule_sync
 
     def record_compliance_attestation_sync(
         self,
@@ -657,10 +978,14 @@ class PersistentSessionStore:
                         "promoted_to_golden": bool(row[6]),
                         "comments": str(row[7] or ""),
                         "created_at": str(row[8] or ""),
-                        "schema_version": "1.2.0",
+                        "schema_version": "2.1.0",
                     }
                 )
         return out
+
+    save_syllabus_bucket_override_sync = upsert_syllabus_bucket_override_sync
+    get_syllabus_bucket_overrides_sync = list_syllabus_bucket_overrides_sync
+    save_clinic_session_schedule_sync = upsert_clinic_session_schedule_sync
 
     def index_pamphlet_chunks_sync(self, badge_name: str, requirements_text: str) -> int:
         """Splits ingested pamphlet text into semantic chunks, computes embeddings, and stores them in SQLite."""
@@ -1739,6 +2064,106 @@ def reset_default_deck_style_preferences(
     except Exception:
         logger.debug("Failed to reset default_deck_style preferences", exc_info=True)
     return dict(FACTORY_DEFAULT_DECK_STYLE_PREFS)
+
+
+def save_clinic_session_schedule(
+    workspace_id: str,
+    badge_name: str,
+    schedule_format: str = "4_session_mbc",
+    session_labels: Optional[List[str]] = None,
+    postponed_session_idx: Optional[int] = None,
+    companion_badge_name: str = "",
+    session_requirements_map: Optional[Dict[str, List[str]]] = None,
+    room_location: str = "",
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    s = store or _default_store
+    return s.save_clinic_session_schedule_sync(
+        workspace_id=workspace_id,
+        badge_name=badge_name,
+        session_mode=schedule_format,
+        session_dates=session_labels,
+        room_location=room_location,
+        postponed_session_idx=int(postponed_session_idx or 0),
+        session_buckets=session_requirements_map,
+        companion_badge_name=companion_badge_name,
+    )
+
+
+def get_clinic_session_schedule(
+    workspace_id: str,
+    badge_name: str,
+    store: Optional[PersistentSessionStore] = None,
+) -> Optional[Dict[str, Any]]:
+    s = store or _default_store
+    return s.get_clinic_session_schedule_sync(workspace_id=workspace_id, badge_name=badge_name)
+
+
+def upsert_scout_session_attendance_and_partials(
+    workspace_id: str,
+    scout_id: str,
+    badge_name: str,
+    scout_name: str = "",
+    troop_unit: str = "Troop 19",
+    session_attendance: Optional[Dict[str, Any]] = None,
+    completed_reqs: Optional[List[str]] = None,
+    completed_reqs_by_badge: Optional[Dict[str, List[str]]] = None,
+    partial_classifications: Optional[Dict[str, str]] = None,
+    counselor_notes: str = "",
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    s = store or _default_store
+    actionable = [k for k, v in (partial_classifications or {}).items() if "MAKEUP" in str(v).upper()]
+    expected = [k for k, v in (partial_classifications or {}).items() if "HOME" in str(v).upper()]
+    return s.upsert_scout_session_attendance_and_partials_sync(
+        workspace_id=workspace_id,
+        badge_name=badge_name,
+        scout_id=scout_id,
+        scout_name=scout_name,
+        troop_number=troop_unit,
+        session_attendance={str(k): str(v) for k, v in (session_attendance or {}).items()} or None,
+        completed_reqs=completed_reqs,
+        completed_reqs_by_badge=completed_reqs_by_badge,
+        actionable_makeup_reqs=actionable,
+        expected_hometroop_reqs=expected,
+    )
+
+
+def list_scout_session_attendance_and_partials(
+    workspace_id: str,
+    badge_name: str,
+    troop_filter: Optional[str] = None,
+    store: Optional[PersistentSessionStore] = None,
+) -> List[Dict[str, Any]]:
+    s = store or _default_store
+    return s.list_scout_session_attendance_and_partials_sync(
+        workspace_id=workspace_id, badge_name=badge_name, troop_filter=troop_filter
+    )
+
+
+def save_counselor_syllabus_bucket_override(
+    workspace_id: str,
+    badge_name: str,
+    req_number: str,
+    override_bucket: str,
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, Any]:
+    s = store or _default_store
+    return s.upsert_syllabus_bucket_override_sync(
+        badge_name=badge_name,
+        req_id=req_number,
+        syllabus_bucket=override_bucket,
+        workspace_id=workspace_id,
+    )
+
+
+def get_counselor_syllabus_bucket_overrides(
+    workspace_id: str,
+    badge_name: str,
+    store: Optional[PersistentSessionStore] = None,
+) -> Dict[str, str]:
+    s = store or _default_store
+    return s.list_syllabus_bucket_overrides_sync(badge_name=badge_name, workspace_id=workspace_id)
 
 
 ScoutSessionStore = PersistentSessionStore

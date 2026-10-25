@@ -1,30 +1,30 @@
 {
   "manifest_version": "1.0.0",
-  "generated_at_utc": "2026-10-24T15:31:01.704741+00:00",
-  "total_curated_visual_assets": 3917,
-  "total_official_merit_badges": 144,
+  "generated_at_utc": "2026-10-25T19:26:25.456173+00:00",
+  "total_curated_visual_assets": 4124,
+  "total_official_merit_badges": 149,
   "builtin_pptx_templates": 17,
-  "deployment_note": "The full 1.2 GB assets/ directory (3,917 PNG visual assets, 144 BSA Pamphlet PDFs, and 17 PowerPoint templates) is present in the live workspace and baked into the Argolis Cloud Run Docker container image (Dockerfile COPY assets/ ./assets/). The standalone go/capstone-app submission bundle omits bulk binary PNG/PDF media to satisfy the portal's < 30 MB upload cap (MAX_BUNDLE_SIZE_MB = 30).",
+  "deployment_note": "The full 1.2 GB assets/ directory (4,124 PNG visual assets, 149 BSA Pamphlet PDFs, and 17 PowerPoint templates) is present in the live workspace and baked into the Argolis Cloud Run Docker container image (Dockerfile COPY assets/ ./assets/). The standalone go/capstone-app submission bundle omits bulk binary PNG/PDF media to satisfy the portal's < 30 MB upload cap (MAX_BUNDLE_SIZE_MB = 30).",
   "category_breakdown": {
     "ai_illustrations": {
-      "file_count": 1351,
-      "total_bytes": 252053697,
-      "total_mb": 240.38
+      "file_count": 1412,
+      "total_bytes": 264699908,
+      "total_mb": 252.44
     },
     "pamphlet_images": {
-      "file_count": 2344,
-      "total_bytes": 206673247,
-      "total_mb": 197.1
+      "file_count": 2779,
+      "total_bytes": 219487698,
+      "total_mb": 209.32
     },
     "badge_emblems": {
-      "file_count": 145,
-      "total_bytes": 25807999,
-      "total_mb": 24.61
+      "file_count": 150,
+      "total_bytes": 27061033,
+      "total_mb": 25.81
     },
     "pamphlet_covers": {
-      "file_count": 144,
-      "total_bytes": 16277335,
-      "total_mb": 15.52
+      "file_count": 149,
+      "total_bytes": 16395283,
+      "total_mb": 15.64
     },
     "templates": {
       "file_count": 37,
@@ -58,21 +58,21 @@
     },
     {
       "category": "pamphlet_images",
-      "rel_path": "assets/pamphlet_images/american_business_p013_img1.png",
-      "size_bytes": "114854",
-      "sha256": "12e7f2d05b099cfa305bc5d852c56569d69b61f8e60c82fa13b7554823c0c07c"
+      "rel_path": "assets/pamphlet_images/action_sports_p003_img1.png",
+      "size_bytes": "7875",
+      "sha256": "8052b0d01d6ae4ea38d91de1096f4172ed49fc10289b4895bc92500ddc9204c4"
     },
     {
       "category": "pamphlet_images",
-      "rel_path": "assets/pamphlet_images/american_business_p018_img1.png",
-      "size_bytes": "110522",
-      "sha256": "627d27466df06fdedf5405d371c5254acfe7f71e44d38ecd8845d7017eb02712"
+      "rel_path": "assets/pamphlet_images/action_sports_p007_img1.png",
+      "size_bytes": "7996",
+      "sha256": "76a00de52092375207d6729493ada2558946fe5f9b1f31298de18801e54cd67d"
     },
     {
       "category": "pamphlet_images",
-      "rel_path": "assets/pamphlet_images/american_business_p024_img1.png",
-      "size_bytes": "46320",
-      "sha256": "6d4181e252b3647a542e4e42bc8c11bf2c96ca29e62e9576bffdb66acd451c7e"
+      "rel_path": "assets/pamphlet_images/action_sports_p012_img1.png",
+      "size_bytes": "8194",
+      "sha256": "f3f593955e7c258754f1ec1c647cb958eadf556f0fa8832811e3f0badd6ca3fa"
     },
     {
       "category": "badge_emblems",

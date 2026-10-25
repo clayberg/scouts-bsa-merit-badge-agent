@@ -33,7 +33,48 @@
               "url": "https://youtu.be/GRqwuAMqjnY"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 1a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 1a is enough for Safety Requirement 1a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 1a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1b",
@@ -45,7 +86,48 @@
               "url": "https://youtu.be/_GwVTdsnN1E?si=FyaKmgWPC4Hrod-P"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 1b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Safety hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 1b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -69,7 +151,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 1: Safety and Hazards. Do the following: (a) Explain",
+      "action_verb": "Safety",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 1 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Safety hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 1a: Explain what safety is and what it means to be safe.",
+        "Safety Sub-Req 1b: Explain what hazards are and how people manage hazards to reduce risks of harm and to improve safety.",
+        "Core Standard 1 (Req 1): Safety and Hazards.",
+        "Core Standard 2 (Req 1): Do the following: (a) Explain what safety is and what it means to be safe."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety and Hazards. Do the following: (a) Explain.",
+        "Execute & Document: Perform the safety task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Safety and Hazards. Do the following: (a) Explain",
+          "Primary Standard": "Explain what safety is and what it means to be safe.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 1, a Scout claims: \"Scouts can jump straight into Safety hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -92,7 +277,48 @@
               "url": "https://www.rubyhome.com/blog/home-accident-stats/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2a is enough for Safety Requirement 2a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 2a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2b",
@@ -108,7 +334,48 @@
               "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/use-caution-with-fireworks"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2b is enough for Safety Requirement 2b sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 2b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2c",
@@ -120,7 +387,48 @@
               "url": "https://www.injurylawyers.com/blog/5-leading-causes-of-house-fires/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2c is enough for Safety Requirement 2c sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 2c)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2d",
@@ -132,7 +440,53 @@
               "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Emergency%20Preparedness/Home%20Safety%20Checklists%20%231%20%23%202%2001%202026.pdf"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Safety hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Safety Req 2d plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 2d)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2e",
@@ -148,7 +502,48 @@
               "url": "https://www.youtube.com/watch?v=zeiN_A-OSt8&t=2s"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2e is enough for Safety Requirement 2e sign-off.",
+            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 2e grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 2e)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2f",
@@ -172,7 +567,53 @@
               "url": "https://www.ready.gov/evacuation"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2f Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2f is enough for Safety Requirement 2f sign-off.",
+            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 2f grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Safety Req 2f plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 2f)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -232,7 +673,115 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 2: Family and Home Safety. Do the following: (a)",
+      "action_verb": "Family",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 2 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Safety hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Safety Req 2 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 2a: Explain common causes of and prevention of home injuries.",
+        "Safety Sub-Req 2b: Discuss the dangers involved with the use of fireworks.",
+        "Safety Sub-Req 2c: Explain common causes of and prevention of home fires.",
+        "Safety Sub-Req 2d: Using the Home Safety Checklist in the Safety merit badge pamphlet, or one approved by your counselor, inspect your home or a similar building."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Family and Home Safety. Do the following: (a).",
+        "Execute & Document: Perform the family task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - Family and Home Safety. Do the following: (a)",
+          "Primary Standard": "Explain common causes of and prevention of home injuries.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 2, a Scout claims: \"Scouts can jump straight into Safety hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 10-15, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Safety prevents most field injuries."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -255,7 +804,48 @@
               "url": "https://www.cdc.gov/youth-violence/risk-factors/index.html"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3a is enough for Safety Requirement 3a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 3a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3b",
@@ -267,7 +857,53 @@
               "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Crime%20Prevention/Home%20Security%20Checklists%20%231%20%232.pdf"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3b is enough for Safety Requirement 3b sign-off.",
+            "fact": "Each Scout must actively using the specific principles and real-world steps of Req 3b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Safety Req 3b plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 3b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -291,7 +927,115 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: Safety from Crime. Do the following: (a) Explain",
+      "action_verb": "Safety",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 3 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Safety from Crime. Do the following: (a) Explain is enough for Safety Requirement 3 sign-off.",
+        "fact": "Each Scout must actively safety the specific principles and real-world steps of Safety from Crime. Do the following: (a) Explain grounded in the official Safety pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Safety Req 3 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 3a: Explain common types of crimes that can affect teens.",
+        "Safety Sub-Req 3b: Using a Home Security Checklist in the Safety merit badge pamphlet or one approved by your counselor, inspect your home or a similar building.",
+        "Core Standard 1 (Req 3): Safety from Crime.",
+        "Core Standard 2 (Req 3): Do the following: (a) Explain common types of crimes that can affect teens."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety from Crime. Do the following: (a) Explain.",
+        "Execute & Document: Perform the safety task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - Safety from Crime. Do the following: (a) Explain",
+          "Primary Standard": "Explain common types of crimes that can affect teens.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 3, a Scout claims: \"Reading a short definition of Safety from Crime. Do the following: (a) Explain is enough for Safety Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively safety the specific principles and real-world steps of Safety from Crime. Do the following: (a) Explain grounded in the official Safety pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively safety the specific principles and real-world steps of Safety from Crime. Do the following: (a) Explain grounded in the official Safety pamphlet.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 16-21, Each Scout must actively safety the specific principles and real-world steps of Safety from Crime. Do the following: (a) Explain grounded in the official Safety pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -314,7 +1058,48 @@
               "url": "https://youtu.be/P8Naa4pzDdo?si=5Wr7bMJOmXW9p0XG"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 4a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4a is enough for Safety Requirement 4a sign-off.",
+            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 4a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 4a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4b",
@@ -330,7 +1115,48 @@
               "url": "https://www.acacamps.org/resources/wildfire-evacuations"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 4b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4b is enough for Safety Requirement 4b sign-off.",
+            "fact": "Each Scout must actively camp the specific principles and real-world steps of Req 4b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 4b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4c",
@@ -342,7 +1168,48 @@
               "url": "https://youtu.be/sshDd_AgRAA?si=IRhkIwBLtRN6uqjF"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 4c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4c is enough for Safety Requirement 4c sign-off.",
+            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 4c grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 4c)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4d",
@@ -354,7 +1221,48 @@
               "url": "https://youtu.be/Lgm5QWD1T3k?si=ABHK45yx-DqYETJh"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 4d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4d is enough for Safety Requirement 4d sign-off.",
+            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 4d grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 4d)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -390,7 +1298,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: Safety in Public Places. Explain each of the",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 4 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Safety in Public Places. Explain each of the is enough for Safety Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Safety in Public Places. Explain each of the grounded in the official Safety pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 4a: How a person would safely exit from public buildings, a hotel, and a stadium in an emergency",
+        "Safety Sub-Req 4b: How and why Scouts would take shelter at camp",
+        "Safety Sub-Req 4c: How should Scouts respond to an active shooter",
+        "Safety Sub-Req 4d: The meaning of this saying: \"If You See Something, Say Something®\""
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety in Public Places. Explain each of the.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - Safety in Public Places. Explain each of the",
+          "Primary Standard": "How a person would safely exit from public buildings, a hotel, and a stadium in an emergency",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 4, a Scout claims: \"Reading a short definition of Safety in Public Places. Explain each of the is enough for Safety Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Safety in Public Places. Explain each of the grounded in the official Safety pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Safety in Public Places. Explain each of the grounded in the official Safety pamphlet.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 22-27, Each Scout must actively explain the specific principles and real-world steps of Safety in Public Places. Explain each of the grounded in the official Safety pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -409,7 +1420,48 @@
               "url": "https://filestore.scouting.org/filestore/YPSAT/YT%20Mod4%20Final%20Master%20Small.mp4"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5a is enough for Safety Requirement 5a sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 5a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "5b",
@@ -421,7 +1473,48 @@
               "url": "https://www.scouting.org/training/youth/scouts-bsa/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5b is enough for Safety Requirement 5b sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 5b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "5c",
@@ -437,7 +1530,48 @@
               "url": "https://blog.scoutingmagazine.org/2025/04/14/when-it-comes-to-child-protection-we-are-all-mandatory-reporters/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5c is enough for Safety Requirement 5c sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5c grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 5c)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -465,7 +1599,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: Safeguarding Youth. Do the following: (a) Discuss Scouting",
+      "action_verb": "Safeguarding",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 5 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Safeguarding Youth. Do the following: (a) Discuss Scouting is enough for Safety Requirement 5 sign-off.",
+        "fact": "Each Scout must actively safeguarding the specific principles and real-world steps of Safeguarding Youth. Do the following: (a) Discuss Scouting grounded in the official Safety pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 5a: Discuss Scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting activities.",
+        "Safety Sub-Req 5b: Discuss with your counselor what situations and behaviors would prompt you to Recognize, Resist, and Report a possible abuse situation.",
+        "Safety Sub-Req 5c: Discuss how you, other Scouts, leaders, and anyone can report situations suspicious for abuse through the Scouts First Helpline and other means.",
+        "Core Standard 1 (Req 5): Safeguarding Youth."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safeguarding Youth. Do the following: (a) Discuss Scouting.",
+        "Execute & Document: Perform the safeguarding task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - Safeguarding Youth. Do the following: (a) Discuss Scouting",
+          "Primary Standard": "Discuss Scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone i",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 5, a Scout claims: \"Reading a short definition of Safeguarding Youth. Do the following: (a) Discuss Scouting is enough for Safety Requirement 5 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively safeguarding the specific principles and real-world steps of Safeguarding Youth. Do the following: (a) Discuss Scouting grounded in the official Safety pamphlet.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively safeguarding the specific principles and real-world steps of Safeguarding Youth. Do the following: (a) Discuss Scouting grounded in the official Safety pamphlet.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 28-33, Each Scout must actively safeguarding the specific principles and real-world steps of Safeguarding Youth. Do the following: (a) Discuss Scouting grounded in the official Safety pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -484,21 +1721,144 @@
               "url": "https://youtu.be/aQdCVTon3HQ"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 6a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6a is enough for Safety Requirement 6a sign-off.",
+            "fact": "Each Scout must actively assault the specific principles and real-world steps of Req 6a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 6a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
           "text": "Assault at a restaurant event",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 6b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6b is enough for Safety Requirement 6b sign-off.",
+            "fact": "Each Scout must actively assault the specific principles and real-world steps of Req 6b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 6b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "6c",
           "label": "(c)",
           "text": "Sexual assault at a party or on a date",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 6c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6c is enough for Safety Requirement 6c sign-off.",
+            "fact": "Each Scout must actively sexual the specific principles and real-world steps of Req 6c grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 6c)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -514,7 +1874,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: Safety from Assault. Explain how to avoid or",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 34-39",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 6 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Safety from Assault. Explain how to avoid or is enough for Safety Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Safety from Assault. Explain how to avoid or grounded in the official Safety pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 6a: Assault on a street",
+        "Safety Sub-Req 6b: Assault at a restaurant event",
+        "Safety Sub-Req 6c: Sexual assault at a party or on a date",
+        "Core Standard 1 (Req 6): Safety from Assault."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety from Assault. Explain how to avoid or.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - Safety from Assault. Explain how to avoid or",
+          "Primary Standard": "Assault on a street",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 6, a Scout claims: \"Reading a short definition of Safety from Assault. Explain how to avoid or is enough for Safety Requirement 6 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Safety from Assault. Explain how to avoid or grounded in the official Safety pamphlet.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Safety from Assault. Explain how to avoid or grounded in the official Safety pamphlet.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 34-39, Each Scout must actively explain the specific principles and real-world steps of Safety from Assault. Explain how to avoid or grounded in the official Safety pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 6."
     },
     {
       "req_id": "7",
@@ -537,7 +2000,48 @@
               "url": "https://youtu.be/bdp8RdjV6PU?si=MPYq7d0la_3KVSuX"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7a is enough for Safety Requirement 7a sign-off.",
+            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 7a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 7a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7b",
@@ -553,7 +2057,48 @@
               "url": "https://youtu.be/CDhAOvsyw2s?si=42nASL5CjtBBKwru"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7b is enough for Safety Requirement 7b sign-off.",
+            "fact": "Each Scout must actively common the specific principles and real-world steps of Req 7b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 7b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7c",
@@ -565,7 +2110,48 @@
               "url": "https://youtu.be/aO858HyFbKI"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7c is enough for Safety Requirement 7c sign-off.",
+            "fact": "Each Scout must actively effective the specific principles and real-world steps of Req 7c grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 7c)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7d",
@@ -577,7 +2163,48 @@
               "url": "https://youtu.be/kDFeSUUwRnA?si=ncAfMQF1RIdIWetC"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7d is enough for Safety Requirement 7d sign-off.",
+            "fact": "Each Scout must actively identity the specific principles and real-world steps of Req 7d grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 7d)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7e",
@@ -593,7 +2220,48 @@
               "url": "https://www.myfriendtoous.org/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7e is enough for Safety Requirement 7e sign-off.",
+            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 7e grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 7e)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7f",
@@ -609,7 +2277,48 @@
               "url": "https://youtu.be/0Xo8N9qlJtk"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7f Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7f is enough for Safety Requirement 7f sign-off.",
+            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 7f grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 7f)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -661,7 +2370,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 7: Online Safety. Discuss the following with your counselor",
+      "action_verb": "Discuss",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 7 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 40-45",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 7 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Online Safety. Discuss the following with your counselor is enough for Safety Requirement 7 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Online Safety. Discuss the following with your counselor grounded in the official Safety pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 7)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 7a: How to avoid being the victim of online crimes",
+        "Safety Sub-Req 7b: Common online financial scams",
+        "Safety Sub-Req 7c: Effective online security",
+        "Safety Sub-Req 7d: Identity theft and how to prevent it"
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 7): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Online Safety. Discuss the following with your counselor.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 7",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 7.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 40-45.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 7",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 7 - Online Safety. Discuss the following with your counselor",
+          "Primary Standard": "How to avoid being the victim of online crimes",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 40-45."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 7, a Scout claims: \"Reading a short definition of Online Safety. Discuss the following with your counselor is enough for Safety Requirement 7 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Online Safety. Discuss the following with your counselor grounded in the official Safety pamphlet.",
+          "Skip Requirement 7 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Online Safety. Discuss the following with your counselor grounded in the official Safety pamphlet.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 40-45, Each Scout must actively discuss the specific principles and real-world steps of Online Safety. Discuss the following with your counselor grounded in the official Safety pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 7."
     },
     {
       "req_id": "8",
@@ -680,7 +2492,48 @@
               "url": "https://youtu.be/QUXLT3gcFb8"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8a is enough for Safety Requirement 8a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 8a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8b",
@@ -692,7 +2545,48 @@
               "url": "https://www.fmins.com/blog/how-to-be-a-better-passenger/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8b is enough for Safety Requirement 8b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 8b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8c",
@@ -708,7 +2602,48 @@
               "url": "https://youtu.be/3ElQynt6rV4?si=ZqpLU9aEY7P2SzLY"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8c is enough for Safety Requirement 8c sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 8c)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8d",
@@ -724,7 +2659,48 @@
               "url": "https://youtu.be/YiI8bnDwkcE"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8d is enough for Safety Requirement 8d sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 8d)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8e",
@@ -736,7 +2712,48 @@
               "url": "https://youtu.be/5w2X_16tuK4"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8e is enough for Safety Requirement 8e sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8e grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 8e)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8f",
@@ -748,7 +2765,48 @@
               "url": "https://youtu.be/vsfudxcksHI"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8f Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8f is enough for Safety Requirement 8f sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 8f)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -792,7 +2850,110 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 8: Travel Safety. Explain guidelines for traveling safely: (a)",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 8 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 46-51",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 8 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Travel Safety. Explain guidelines for traveling safely: (a) is enough for Safety Requirement 8 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Travel Safety. Explain guidelines for traveling safely: (a) grounded in the official Safety pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 8)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 8a: As a pedestrian in a city",
+        "Safety Sub-Req 8b: In a friend's car or truck",
+        "Safety Sub-Req 8c: In a rideshare vehicle",
+        "Safety Sub-Req 8d: On a bus"
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 8): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Travel Safety. Explain guidelines for traveling safely: (a).",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 8",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 8.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 46-51.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 8",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 8 - Travel Safety. Explain guidelines for traveling safely: (a)",
+          "Primary Standard": "As a pedestrian in a city",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 46-51."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 8, a Scout claims: \"Reading a short definition of Travel Safety. Explain guidelines for traveling safely: (a) is enough for Safety Requirement 8 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Travel Safety. Explain guidelines for traveling safely: (a) grounded in the official Safety pamphlet.",
+          "Skip Requirement 8 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Travel Safety. Explain guidelines for traveling safely: (a) grounded in the official Safety pamphlet.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 46-51, Each Scout must actively explain the specific principles and real-world steps of Travel Safety. Explain guidelines for traveling safely: (a) grounded in the official Safety pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 8."
     },
     {
       "req_id": "9",
@@ -815,7 +2976,53 @@
               "url": "https://youtu.be/MT9yVrlSn7M?si=TKjtM1VAhMXmou99"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 9a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 52-57",
+          "common_misconception_pair": {
+            "misconception": "Listing three job titles from a web search satisfies the Safety career exploration requirement.",
+            "fact": "Scouts must research three Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "PARENT_CONSENT_GATE",
+            "gate_label": "Parent/Guardian Consent & Review",
+            "gate_description": "Review and complete Safety Req 9a with your parent or guardian's written permission.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 9a)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "9b",
@@ -835,7 +3042,48 @@
               "url": "https://www.iloveit.net/passion/safety-as-a-passion-and-hobby/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 9b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 52-57",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 9b is enough for Safety Requirement 9b sign-off.",
+            "fact": "Each Scout must actively explore the specific principles and real-world steps of Req 9b grounded in the official Safety pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Safety Merit Badge Hub (Req 9b)",
+              "url": "https://www.scouting.org/merit-badges/safety/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Safety Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -867,7 +3115,118 @@
         "search_query_template": "911 EMS dispatch, nearest Level I/II Trauma Center, regional Search and Rescue (SAR), and environmental health hazards for {city}, {state}",
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 9: Safety Careers, Training & Hobby Pathways",
+      "action_verb": "Careers",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Safety Requirement 9 activities.",
+      "pamphlet_citation": "Official BSA Safety Pamphlet, pp. 52-57",
+      "pamphlet_page_citation": "Official BSA Safety Pamphlet, pp. 52-57",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 9 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Listing three job titles from a web search satisfies the Safety career exploration requirement.",
+        "fact": "Scouts must research three Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "PARENT_CONSENT_GATE",
+        "gate_label": "Parent/Guardian Consent & Review",
+        "gate_description": "Review and complete Safety Req 9 with your parent or guardian's written permission.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Safety Merit Badge Hub (Req 9)",
+          "url": "https://www.scouting.org/merit-badges/safety/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Safety Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Safety Sub-Req 9a: Explore careers related to Safety merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties.",
+        "Safety Sub-Req 9b: Explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer. Research any training.",
+        "Core Standard 1 (Req 9): Do ONE of the following: (a) Explore careers related to Safety merit badge.",
+        "Core Standard 2 (Req 9): Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 9): Review the official Safety requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety Careers, Training & Hobby Pathways.",
+        "Execute & Document: Perform the careers task methodically with your patrol buddy and log specific observations in your Safety Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Safety Req 9",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Safety Approach",
+        "right_header": "Official BSA Safety Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 9.",
+          "Records concrete measurements, examples, and citations from Official BSA Safety Pamphlet, pp. 52-57.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Safety Req 9",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 9 - Safety Careers, Training & Hobby Pathways",
+          "Primary Standard": "Explore careers related to Safety merit badge. Research one career to learn about the training and education n",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Safety terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Safety Pamphlet, pp. 52-57."
+        },
+        "counselor_tip": "Bring your filled-in Safety Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Safety Requirement 9, a Scout claims: \"Listing three job titles from a web search satisfies the Safety career exploration requirement.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Scouts must research three Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+          "Skip Requirement 9 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Scouts must research three Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+        "explanation": "Per Official BSA Safety Pamphlet, pp. 52-57, Scouts must research three Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Safety Workbook organizer table and practical demonstration for Req 9."
     }
-  ]
+  ],
+  "badge_slug": "safety",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

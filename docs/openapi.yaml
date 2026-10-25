@@ -1,7 +1,6 @@
 openapi: 3.1.0
 info:
-  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
-    \ Server"
+  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -151,8 +150,9 @@ paths:
   /api/v1/badges:
     get:
       summary: List Merit Badges
-      description: Returns catalog of all 144 official Scouts BSA Merit Badges with
-        category, Eagle status, option tracks, and resource links.
+      description: Returns catalog of all 149 Scouts BSA Merit Badges (144 standard
+        + 5 Test Lab Pilots) with category, Eagle status, Test Lab/Discontinued flags,
+        option tracks, and resource links.
       operationId: list_merit_badges_api_v1_badges_get
       parameters:
       - name: authorization
@@ -189,8 +189,9 @@ paths:
   /api/badges:
     get:
       summary: List Merit Badges
-      description: Returns catalog of all 144 official Scouts BSA Merit Badges with
-        category, Eagle status, option tracks, and resource links.
+      description: Returns catalog of all 149 Scouts BSA Merit Badges (144 standard
+        + 5 Test Lab Pilots) with category, Eagle status, Test Lab/Discontinued flags,
+        option tracks, and resource links.
       operationId: list_merit_badges_api_badges_get
       parameters:
       - name: authorization
@@ -580,7 +581,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       - name: template_id
         in: query
@@ -717,7 +718,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       - name: template_id
         in: query
@@ -1650,6 +1651,636 @@ paths:
                 additionalProperties: true
                 title: Response Api Generate Studiokit Agenda Api Studiokit Agenda
                   Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/studiokit/fillable-workbook:
+    post:
+      summary: Api Generate Fillable Workbook
+      description: Generates the verb-aligned fillable Scout Workbook HTML & Markdown
+        with GTA Section 7.0.3.2 banner.
+      operationId: api_generate_fillable_workbook_api_v1_studiokit_fillable_workbook_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitFillableWorkbookRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Fillable Workbook Api V1 Studiokit Fillable
+                  Workbook Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/studiokit/fillable-workbook:
+    post:
+      summary: Api Generate Fillable Workbook
+      description: Generates the verb-aligned fillable Scout Workbook HTML & Markdown
+        with GTA Section 7.0.3.2 banner.
+      operationId: api_generate_fillable_workbook_api_studiokit_fillable_workbook_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitFillableWorkbookRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Fillable Workbook Api Studiokit Fillable
+                  Workbook Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/studiokit/class-prep-cpp:
+    post:
+      summary: Api Generate Class Prep Cpp
+      description: Generates the 1-Page Class Preparation Page (CPP) in print-ready
+        HTML and Markdown.
+      operationId: api_generate_class_prep_cpp_api_v1_studiokit_class_prep_cpp_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitClassPrepCppRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Class Prep Cpp Api V1 Studiokit Class
+                  Prep Cpp Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/studiokit/class-prep-cpp:
+    post:
+      summary: Api Generate Class Prep Cpp
+      description: Generates the 1-Page Class Preparation Page (CPP) in print-ready
+        HTML and Markdown.
+      operationId: api_generate_class_prep_cpp_api_studiokit_class_prep_cpp_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitClassPrepCppRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Class Prep Cpp Api Studiokit Class Prep
+                  Cpp Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/studiokit/organizer-spec-sheet:
+    post:
+      summary: Api Generate Organizer Spec Sheet
+      description: Generates the 1-Page Organizer & Syllabus Catalog Spec Sheet for
+        MBC Deans or Camp Directors.
+      operationId: api_generate_organizer_spec_sheet_api_v1_studiokit_organizer_spec_sheet_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitOrganizerSpecRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Organizer Spec Sheet Api V1 Studiokit
+                  Organizer Spec Sheet Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/studiokit/organizer-spec-sheet:
+    post:
+      summary: Api Generate Organizer Spec Sheet
+      description: Generates the 1-Page Organizer & Syllabus Catalog Spec Sheet for
+        MBC Deans or Camp Directors.
+      operationId: api_generate_organizer_spec_sheet_api_studiokit_organizer_spec_sheet_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitOrganizerSpecRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Organizer Spec Sheet Api Studiokit Organizer
+                  Spec Sheet Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/studiokit/ypt-three-stage-pack:
+    post:
+      summary: Api Generate Ypt Three Stage Pack
+      description: Generates the 3-Stage YPT Two-Deep Communication Pack (T-14 Welcome,
+        Mid-Clinic Partial Alert, Final Packet).
+      operationId: api_generate_ypt_three_stage_pack_api_v1_studiokit_ypt_three_stage_pack_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitYptThreeStageRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Ypt Three Stage Pack Api V1 Studiokit
+                  Ypt Three Stage Pack Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/studiokit/ypt-three-stage-pack:
+    post:
+      summary: Api Generate Ypt Three Stage Pack
+      description: Generates the 3-Stage YPT Two-Deep Communication Pack (T-14 Welcome,
+        Mid-Clinic Partial Alert, Final Packet).
+      operationId: api_generate_ypt_three_stage_pack_api_studiokit_ypt_three_stage_pack_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudioKitYptThreeStageRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Ypt Three Stage Pack Api Studiokit Ypt
+                  Three Stage Pack Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/logistics-slides:
+    post:
+      summary: Api Inject Class Logistics Slides
+      description: Opt-in injection/removal of Slide 2 (Class Overview & Session Roadmap)
+        and Slide N (Homework, Make-Up & Blue Card Check-Out).
+      operationId: api_inject_class_logistics_slides_api_v1_slide_logistics_slides_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideLogisticsInjectRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Inject Class Logistics Slides Api V1 Slide Logistics
+                  Slides Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/logistics-slides:
+    post:
+      summary: Api Inject Class Logistics Slides
+      description: Opt-in injection/removal of Slide 2 (Class Overview & Session Roadmap)
+        and Slide N (Homework, Make-Up & Blue Card Check-Out).
+      operationId: api_inject_class_logistics_slides_api_slide_logistics_slides_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideLogisticsInjectRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Inject Class Logistics Slides Api Slide Logistics
+                  Slides Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/triage/attendance-and-partials:
+    post:
+      summary: Api Manage Triage Attendance And Partials
+      description: Manages multi-session clinic schedules, Scout attendance (S1..S4,
+        M), and smart partial classifications.
+      operationId: api_manage_triage_attendance_and_partials_api_v1_triage_attendance_and_partials_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TriageAttendancePartialsRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Manage Triage Attendance And Partials Api V1 Triage
+                  Attendance And Partials Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/triage/attendance-and-partials:
+    post:
+      summary: Api Manage Triage Attendance And Partials
+      description: Manages multi-session clinic schedules, Scout attendance (S1..S4,
+        M), and smart partial classifications.
+      operationId: api_manage_triage_attendance_and_partials_api_triage_attendance_and_partials_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TriageAttendancePartialsRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Manage Triage Attendance And Partials Api Triage
+                  Attendance And Partials Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/triage/bucket-override:
+    post:
+      summary: Api Save Triage Bucket Override
+      description: Saves or lists counselor 5-Tier Syllabus Bucket overrides in SQLite
+        WAL.
+      operationId: api_save_triage_bucket_override_api_v1_triage_bucket_override_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TriageBucketOverrideRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Triage Bucket Override Api V1 Triage Bucket
+                  Override Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/triage/bucket-override:
+    post:
+      summary: Api Save Triage Bucket Override
+      description: Saves or lists counselor 5-Tier Syllabus Bucket overrides in SQLite
+        WAL.
+      operationId: api_save_triage_bucket_override_api_triage_bucket_override_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TriageBucketOverrideRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Save Triage Bucket Override Api Triage Bucket
+                  Override Post
         '422':
           description: Validation Error
           content:
@@ -6548,6 +7179,34 @@ components:
       required:
       - badge_name
       title: SlideImageUploadRequest
+    SlideLogisticsInjectRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        slides:
+          items:
+            additionalProperties: true
+            type: object
+          type: array
+          title: Slides
+        logistics_config:
+          additionalProperties: true
+          type: object
+          title: Logistics Config
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+        research_result:
+          additionalProperties: true
+          type: object
+          title: Research Result
+      type: object
+      title: SlideLogisticsInjectRequest
     SlidePolishDeckBatchRequest:
       properties:
         badge_name:
@@ -6866,8 +7525,129 @@ components:
           - type: string
           - type: 'null'
           title: Location Or Zip
+        postponed_session_idx:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Postponed Session Idx
+        companion_badge_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Companion Badge Name
       type: object
       title: StudioKitAgendaRequest
+    StudioKitClassPrepCppRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        schedule_format:
+          type: string
+          title: Schedule Format
+          default: 4_session_mbc
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+        class_logistics:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Class Logistics
+        research_result:
+          additionalProperties: true
+          type: object
+          title: Research Result
+      type: object
+      title: StudioKitClassPrepCppRequest
+    StudioKitFillableWorkbookRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        selected_option_track:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Selected Option Track
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+        include_qr:
+          type: boolean
+          title: Include Qr
+          default: true
+      type: object
+      title: StudioKitFillableWorkbookRequest
+    StudioKitOrganizerSpecRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        schedule_format:
+          type: string
+          title: Schedule Format
+          default: 4_session_mbc
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+        class_logistics:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Class Logistics
+        research_result:
+          additionalProperties: true
+          type: object
+          title: Research Result
+      type: object
+      title: StudioKitOrganizerSpecRequest
+    StudioKitYptThreeStageRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+        class_logistics:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Class Logistics
+        scout_roster:
+          anyOf:
+          - items:
+              additionalProperties: true
+              type: object
+            type: array
+          - type: 'null'
+          title: Scout Roster
+        research_result:
+          additionalProperties: true
+          type: object
+          title: Research Result
+      type: object
+      title: StudioKitYptThreeStageRequest
     TemplateApplyRequest:
       properties:
         badge_name:
@@ -6972,6 +7752,117 @@ components:
           description: Optional updated safe bottom coordinate in inches (5.80..6.95).
       type: object
       title: TemplateMetadataUpdateRequest
+    TriageAttendancePartialsRequest:
+      properties:
+        workspace_id:
+          type: string
+          title: Workspace Id
+          default: default_workspace
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        action:
+          type: string
+          title: Action
+          default: list
+        scout_id:
+          type: string
+          title: Scout Id
+          default: ''
+        scout_name:
+          type: string
+          title: Scout Name
+          default: ''
+        troop_unit:
+          type: string
+          title: Troop Unit
+          default: Troop 19
+        session_attendance:
+          anyOf:
+          - additionalProperties:
+              type: string
+            type: object
+          - type: 'null'
+          title: Session Attendance
+        completed_reqs:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Completed Reqs
+        completed_reqs_by_badge:
+          anyOf:
+          - additionalProperties:
+              items:
+                type: string
+              type: array
+            type: object
+          - type: 'null'
+          title: Completed Reqs By Badge
+        partial_classifications:
+          anyOf:
+          - additionalProperties:
+              type: string
+            type: object
+          - type: 'null'
+          title: Partial Classifications
+        counselor_notes:
+          type: string
+          title: Counselor Notes
+          default: ''
+        schedule_format:
+          type: string
+          title: Schedule Format
+          default: 4_session_mbc
+        session_labels:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Session Labels
+        postponed_session_idx:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Postponed Session Idx
+        companion_badge_name:
+          type: string
+          title: Companion Badge Name
+          default: ''
+        session_requirements_map:
+          anyOf:
+          - additionalProperties:
+              items:
+                type: string
+              type: array
+            type: object
+          - type: 'null'
+          title: Session Requirements Map
+      type: object
+      title: TriageAttendancePartialsRequest
+    TriageBucketOverrideRequest:
+      properties:
+        workspace_id:
+          type: string
+          title: Workspace Id
+          default: default_workspace
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        req_number:
+          type: string
+          title: Req Number
+          default: '1'
+        override_bucket:
+          type: string
+          title: Override Bucket
+          default: IN_CLASS_DISCUSSION
+      type: object
+      title: TriageBucketOverrideRequest
     TroopLogoUploadRequest:
       properties:
         filename:
@@ -7114,7 +8005,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
         session_id:
           type: string
           title: Session Id

@@ -551,7 +551,7 @@ class ZeroPiiTelemetryStore:
             "total_saved_usd": estimated_saved_usd,
             "avg_deck_cost_usd": avg_deck_cost,
             "hard_cap_usd": 1.00,
-            "pre_cached_visual_assets": 3917,
+            "pre_cached_visual_assets": 4124,
             "per_cached_image_savings_usd": 0.08,
             "per_cached_deck_savings_usd": 1.44,
         },

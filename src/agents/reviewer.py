@@ -382,6 +382,23 @@ def lint_speaker_notes_voice(pptx_path: str) -> Dict[str, Any]:
         Dict[str, Any]: Dictionary containing `passed` (`bool`), `slides_audited` (`int`),
         and `issues` (`List[str]`), or a `GuidedToolError` dictionary if `pptx_path` is missing.
     """
+    if isinstance(pptx_path, list):
+        issues_list: List[str] = []
+        for idx, slide_dict in enumerate(pptx_path, start=1):
+            s_num = slide_dict.get("slide_number", idx) if isinstance(slide_dict, dict) else idx
+            if s_num == 1:
+                continue
+            notes_text = str((slide_dict.get("presenter_notes") if isinstance(slide_dict, dict) else "") or "").strip()
+            if "[PACING & MODALITY]" not in notes_text and "[SAY]" not in notes_text:
+                issues_list.append(f"Slide {s_num}: missing [PACING & MODALITY] or [SAY] counselor cue in speaker notes.")
+            if "..." in notes_text or "—" in notes_text:
+                issues_list.append(f"Slide {s_num}: speaker notes contain forbidden '...' or '—'.")
+        return {
+            "passed": len(issues_list) == 0,
+            "slides_audited": len(pptx_path),
+            "issues": issues_list,
+            "status": "SUCCESS",
+        }
     if not pptx_path or not os.path.exists(pptx_path):
         return build_guided_tool_error(
             error_code="PPTX_FILE_NOT_FOUND",
@@ -396,8 +413,8 @@ def lint_speaker_notes_voice(pptx_path: str) -> Dict[str, Any]:
         notes_text = ""
         if getattr(slide, "has_notes_slide", False) and slide.notes_slide and slide.notes_slide.notes_text_frame:
             notes_text = (slide.notes_slide.notes_text_frame.text or "").strip()
-        if "[SAY]" not in notes_text:
-            issues.append(f"Slide {idx}: missing [SAY] counselor cue in speaker notes.")
+        if "[PACING & MODALITY]" not in notes_text and "[SAY]" not in notes_text:
+            issues.append(f"Slide {idx}: missing [PACING & MODALITY] or [SAY] counselor cue in speaker notes.")
         if "..." in notes_text or "—" in notes_text:
             issues.append(f"Slide {idx}: speaker notes contain forbidden '...' or '—'.")
     return {
@@ -657,7 +674,7 @@ def verify_slide_citation_grounding(
         bullets_blob = " ".join(str(b) for b in (s.get("bullet_points") or [])).lower()
 
         is_grounded = False
-        if req_num and (not valid_req_ids or req_num in valid_req_ids or req_num in ("overview", "summary", "triage")):
+        if req_num and (not valid_req_ids or req_num in valid_req_ids or req_num in ("overview", "summary", "triage", "overview-logistics", "homework-checkout")):
             is_grounded = True
         elif any(
             kw in f"{title_str.lower()} {notes} {bullets_blob}"

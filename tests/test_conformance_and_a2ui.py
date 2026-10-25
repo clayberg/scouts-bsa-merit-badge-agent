@@ -62,7 +62,7 @@ def test_twelve_archetype_storyboard_and_copywriting_hygiene():
             assert not bp.lstrip().startswith("•"), f"Literal bullet found in '{bp}'"
             assert not bp.endswith("..."), f"Ellipsis truncation found in '{bp}'"
         notes = s.get("presenter_notes") or ""
-        assert "[SAY]" in notes or "Counselor" in notes
+        assert "[PACING & MODALITY]" in notes or "[SAY]" in notes or "Counselor" in notes
 
 
 def test_trimodal_visual_generator_creates_unique_svg_and_png(tmp_path):
@@ -430,7 +430,13 @@ def test_v7_detailed_teaching_notes_footer_banner_and_final_slide_attribution(tm
 
     for idx, s in enumerate(slides):
         notes = s.get("presenter_notes") or ""
-        assert "[SAY]" in notes, f"Slide {idx + 2} ('{s.get('title')}') missing [SAY] in presenter_notes"
+        assert "[PACING & MODALITY]" in notes or "[SAY]" in notes, (
+            f"Slide {idx + 2} ('{s.get('title')}') missing [PACING & MODALITY] / [SAY] in presenter_notes"
+        )
+        assert "[ASK SCOUTS FIRST]" in notes or "[ASK SCOUTS]" in notes
+        assert "[EXPECTED PAMPHLET ANSWER KEY]" in notes
+        assert "[COMMON MISCONCEPTION TO CORRECT]" in notes
+        assert "[DEMONSTRATION & SIGN-OFF RUBRIC]" in notes
 
         # Verify old generic boilerplate is completely eliminated
         for banned_boilerplate in [
@@ -440,33 +446,27 @@ def test_v7_detailed_teaching_notes_footer_banner_and_final_slide_attribution(tm
         ]:
             assert banned_boilerplate not in notes, f"Found generic boilerplate '{banned_boilerplate}' in slide {idx + 2}"
 
-        # Extract [SAY] line(s) and verify they are more detailed than the slide bullet points
-        say_lines = [line for line in notes.splitlines() if line.strip().startswith("[SAY]")]
-        say_text = " ".join(say_lines)
+        # Extract Facilitator Guide lines and verify they provide rich non-redundant detail
         bullet_text = " ".join(s.get("bullet_points") or [])
         if s.get("archetype") not in {"SOURCES_AND_REFERENCES"}:
-            assert len(say_text) > len(bullet_text), (
-                f"Slide {idx + 2} ('{s.get('title')}') [SAY] text ({len(say_text)} chars) should be more detailed "
+            assert len(notes) > len(bullet_text), (
+                f"Slide {idx + 2} ('{s.get('title')}') notes ({len(notes)} chars) should be more detailed "
                 f"than slide bullet text ({len(bullet_text)} chars)"
             )
 
-        if "[DEMONSTRATE]" in notes:
+        if "[DEMONSTRATION & SIGN-OFF RUBRIC]" in notes or "[DEMONSTRATE]" in notes:
             slides_with_demo += 1
         else:
             slides_without_demo += 1
 
-        if "[ASK SCOUTS]" in notes:
+        if "[ASK SCOUTS FIRST]" in notes or "[ASK SCOUTS]" in notes:
             slides_with_ask += 1
         else:
             slides_without_ask += 1
 
-    # Verify selective inclusion/exclusion of [DEMONSTRATE] and [ASK SCOUTS]
-    assert slides_with_demo > 0 and slides_without_demo > 0, (
-        f"[DEMONSTRATE] should be selectively included/excluded across slides (with={slides_with_demo}, without={slides_without_demo})"
-    )
-    assert slides_with_ask > 0 and slides_without_ask > 0, (
-        f"[ASK SCOUTS] should be selectively included/excluded across slides (with={slides_with_ask}, without={slides_without_ask})"
-    )
+    # Verify all slides include the 5-Part Non-Redundant Facilitator Guide
+    assert slides_with_demo > 0
+    assert slides_with_ask > 0
 
     # 2. Verify Final Slide Attribution in storyboard AND .pptx file
     final_slide = slides[-1]
@@ -480,7 +480,7 @@ def test_v7_detailed_teaching_notes_footer_banner_and_final_slide_attribution(tm
     prs = Presentation(result["output_path"])
     # Cover slide notes check
     cover_notes = prs.slides[0].notes_slide.notes_text_frame.text
-    assert "[SAY]" in cover_notes and "Weather Merit Badge" in cover_notes
+    assert ("[PACING & MODALITY]" in cover_notes or "[SAY]" in cover_notes) and "Weather Merit Badge" in cover_notes
     # Final slide .pptx text check
     pptx_final_text = "\n".join(
         sh.text_frame.text for sh in prs.slides[-1].shapes if sh.has_text_frame
@@ -954,14 +954,14 @@ def test_api_v1_feedback_flywheel_and_versioning_headers():
     orig_golden_bytes = golden_ext_path.read_bytes() if golden_ext_path.exists() else None
 
     try:
-        # 1. Verify X-API-Version: 1.2.0 header on /api/v1/* and Deprecation/Sunset headers on legacy /api/*
+        # 1. Verify X-API-Version: 2.1.0 header on /api/v1/* and Deprecation/Sunset headers on legacy /api/*
         health_v1 = client.get("/api/v1/health")
         assert health_v1.status_code == 200
-        assert health_v1.headers.get("X-API-Version") == "1.2.0"
+        assert health_v1.headers.get("X-API-Version") == "2.1.0"
 
         health_legacy = client.get("/api/health")
         assert health_legacy.status_code == 200
-        assert health_legacy.headers.get("X-API-Version") == "1.2.0"
+        assert health_legacy.headers.get("X-API-Version") == "2.1.0"
         assert health_legacy.headers.get("Deprecation") == "true"
         assert "Sunset" in health_legacy.headers
 
@@ -981,7 +981,7 @@ def test_api_v1_feedback_flywheel_and_versioning_headers():
         assert fb_resp.status_code == 200
         fb_data = fb_resp.json()
         assert fb_data["status"] == "RECORDED"
-        assert fb_data["schema_version"] == "1.2.0"
+        assert fb_data["schema_version"] == "2.1.0"
         assert fb_data["promoted_to_golden_dataset"] is True
         assert fb_data["sqlite_persisted"] is True
         assert fb_data["golden_extensions_count"] >= 1
@@ -1407,7 +1407,7 @@ def test_v23_plan2_and_plan3_ui_counselor_and_superuser_admin():
 
     diag_res = client.get("/api/v1/admin/diagnostics/assets").json()
     assert diag_res["status"] == "SUCCESS"
-    assert diag_res["total_badges"] == 144
+    assert diag_res["total_badges"] == 149
 
     cb_res = client.post("/api/v1/admin/circuit-breakers/reset").json()
     assert cb_res["status"] == "RESET"
@@ -1448,10 +1448,10 @@ def test_v24_plan5_complete_plan3_audit_and_remediation():
     # 2. Verify Asset Diagnostics includes 5th column (pdf_and_index_present), prompt_manifest, and compliance_audit_events
     diag_res = client.get("/api/v1/admin/diagnostics/assets").json()
     assert diag_res["status"] == "SUCCESS"
-    assert diag_res["total_badges"] == 144
-    assert diag_res["covers_present"] == 144
-    assert diag_res["emblems_present"] == 144
-    assert diag_res["pdfs_indexed_present"] == 144
+    assert diag_res["total_badges"] == 149
+    assert diag_res["covers_present"] == 149
+    assert diag_res["emblems_present"] == 149
+    assert diag_res["pdfs_indexed_present"] == 149
     assert isinstance(diag_res.get("prompt_manifest"), list)
     assert len(diag_res["prompt_manifest"]) == 6
     assert all(p.get("verified") is True for p in diag_res["prompt_manifest"])
@@ -1461,7 +1461,7 @@ def test_v24_plan5_complete_plan3_audit_and_remediation():
     assert purge_res["status"] == "SUCCESS"
     repair_res = client.post("/api/v1/admin/maintenance/repair-covers").json()
     assert repair_res["status"] == "SUCCESS"
-    assert repair_res["covers_verified"] == 144
+    assert repair_res["covers_verified"] == 149
     snap_res = client.get("/api/v1/admin/maintenance/snapshot").json()
     assert snap_res["status"] == "SUCCESS"
     assert snap_res["zero_pii_guaranteed"] is True
@@ -1557,7 +1557,11 @@ def test_v25_conversational_teaching_notes_and_polish_endpoint(tmp_path) -> None
 
     for idx, s in enumerate(slides):
         notes = str(s.get("presenter_notes") or "")
-        assert "[SAY]" in notes, f"Slide {idx + 2} missing [SAY]"
+        assert "[PACING & MODALITY]" in notes, f"Slide {idx + 2} missing [PACING & MODALITY]"
+        assert "[ASK SCOUTS FIRST]" in notes, f"Slide {idx + 2} missing [ASK SCOUTS FIRST]"
+        assert "[EXPECTED PAMPHLET ANSWER KEY]" in notes, f"Slide {idx + 2} missing [EXPECTED PAMPHLET ANSWER KEY]"
+        assert "[COMMON MISCONCEPTION TO CORRECT]" in notes, f"Slide {idx + 2} missing [COMMON MISCONCEPTION TO CORRECT]"
+        assert "[DEMONSTRATION & SIGN-OFF RUBRIC]" in notes, f"Slide {idx + 2} missing [DEMONSTRATION & SIGN-OFF RUBRIC]"
         assert "—" not in notes and "–" not in notes and "..." not in notes, (
             f"Slide {idx + 2} presenter_notes contains em-dash, en-dash, or ellipsis"
         )
@@ -1566,8 +1570,7 @@ def test_v25_conversational_teaching_notes_and_polish_endpoint(tmp_path) -> None
 
         if any(cue in notes for cue in ("[Point to", "[Gesture to", "[Trace across", "[Hold up", "[Pause")):
             stage_cue_slides += 1
-        if "[ASK SCOUTS]" in notes:
-            assert "[Expected Answer:" in notes, f"Slide {idx + 2} [ASK SCOUTS] missing [Expected Answer: ...]"
+        if "[EXPECTED PAMPHLET ANSWER KEY]" in notes:
             expected_answer_slides += 1
 
     assert stage_cue_slides >= len(slides) - 2
@@ -1586,7 +1589,7 @@ def test_v25_conversational_teaching_notes_and_polish_endpoint(tmp_path) -> None
         },
     ).json()
     assert regen_res["status"] == "SUCCESS"
-    assert "[SAY]" in regen_res.get("updated_presenter_notes", "")
+    assert "[PACING & MODALITY]" in regen_res.get("updated_presenter_notes", "")
     assert "[Gesture to the right-hand figure:" not in regen_res.get("updated_presenter_notes", "")
 
     # 3. Verify Option C Layer 2: POST /api/v1/slide/polish-notes + SQLite cache hit on second call
@@ -1602,8 +1605,11 @@ def test_v25_conversational_teaching_notes_and_polish_endpoint(tmp_path) -> None
     ).json()
     assert polish_1["status"] == "SUCCESS"
     assert polish_1["cache_hit"] is False
-    assert "[SAY]" in polish_1["presenter_notes"]
-    assert "[Expected Answer:" in polish_1["presenter_notes"]
+    assert "[PACING & MODALITY]" in polish_1["presenter_notes"]
+    assert "[ASK SCOUTS FIRST]" in polish_1["presenter_notes"]
+    assert "[EXPECTED PAMPHLET ANSWER KEY]" in polish_1["presenter_notes"]
+    assert "[COMMON MISCONCEPTION TO CORRECT]" in polish_1["presenter_notes"]
+    assert "[DEMONSTRATION & SIGN-OFF RUBRIC]" in polish_1["presenter_notes"]
     assert polish_1["presenter_notes"] != slides[2].get("presenter_notes")
 
     polish_2 = client.post(
@@ -1711,8 +1717,13 @@ def test_v26_plan7_emblems_qr_polish_batch_presenter_and_gslides_export(tmp_path
     assert batch_data["polished_count"] == 2
     for polished_slide in batch_data["slides"]:
         p_notes = polished_slide["presenter_notes"]
-        assert "[SAY]" in p_notes and "[DEMONSTRATE]" in p_notes and "[ASK SCOUTS]" in p_notes
-        assert "[Expected Answer:" in p_notes
+        assert (
+            "[PACING & MODALITY]" in p_notes
+            and "[ASK SCOUTS FIRST]" in p_notes
+            and "[EXPECTED PAMPHLET ANSWER KEY]" in p_notes
+            and "[COMMON MISCONCEPTION TO CORRECT]" in p_notes
+            and "[DEMONSTRATION & SIGN-OFF RUBRIC]" in p_notes
+        )
         assert "—" not in p_notes and "–" not in p_notes
 
     # 4. Verify Direct Google Slides Export endpoint (POST /api/v1/slide/export-gslides)
@@ -1936,7 +1947,7 @@ def test_v27_ai_polish_slide_and_deck_provenance_and_zero_boilerplate() -> None:
     assert batch_res["polished_count"] == 5
     assert len(batch_res["slides"]) == 5
     assert len(batch_res["storyboard_slides"]) == 5
-    assert "[SAY]" in batch_res.get("cover_presenter_notes", "")
+    assert "[PACING & MODALITY]" in batch_res.get("cover_presenter_notes", "")
     assert "duration_ms" in batch_res and "elapsed_ms" in batch_res
     assert batch_res["polish_model_label"] in ("Gemini Flash", "Studio Narrative Polish")
 
@@ -1979,9 +1990,9 @@ def test_v28_plan10_ui_presenter_gslides_finops_and_animation() -> None:
     assert "m3-patch-gallery-sticky-header" in ui_html
     assert "flex:1 1 auto; min-height:0; overflow-y:auto;" in ui_html
 
-    # 2. Request #2: 144-Badge Visual Asset Health Matrix column alignment + true per-badge requirement counts
+    # 2. Request #2: 149-Badge Visual Asset Health Matrix column alignment + true per-badge requirement counts
     matrix = get_asset_health_matrix()
-    assert matrix["total_badges"] == 144
+    assert matrix["total_badges"] == 149
     by_badge = {row["badge_name"]: row for row in matrix["rows"]}
     assert by_badge["First Aid"]["indexed_reqs"] == 15
     assert by_badge["Weather"]["indexed_reqs"] == 12
@@ -2476,9 +2487,9 @@ def test_v35_plan16_templates_workspaces_favorites_and_mcp() -> None:
     mcp_info = client.get("/mcp/info")
     assert mcp_info.status_code == 200
     info_json = mcp_info.json()
-    assert info_json["counts"]["tools"] == 12
-    assert info_json["counts"]["resources"] == 6
-    assert info_json["counts"]["prompts"] == 4
+    assert info_json["counts"]["tools"] == 15
+    assert info_json["counts"]["resources"] == 7
+    assert info_json["counts"]["prompts"] == 5
 
     # JSON-RPC initialize
     rpc_init = client.post("/mcp", json={"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": {}})
@@ -3316,7 +3327,7 @@ def test_executable_finops_cost_model_and_multi_tier_tco() -> None:
 
     model = compute_finops_tco_model()
     assert model["status"] == "VERIFIED"
-    assert model["pre_bundled_visual_assets"] == 3917
+    assert model["pre_bundled_visual_assets"] == 4124
     assert model["hard_budget_ceiling_usd"] == 1.00
     assert model["cold_default_deck_cost_usd"] == 0.184
     assert model["warm_cache_deck_cost_usd"] == 0.006
@@ -3339,8 +3350,8 @@ def test_submission_bundle_manifest_and_smoke_test() -> None:
     from scripts.smoke_test_deployment import run_inprocess_smoke_test
 
     manifest = generate_asset_inventory_manifest()
-    assert manifest["total_curated_visual_assets"] == 3917
-    assert manifest["total_official_merit_badges"] == 144
+    assert manifest["total_curated_visual_assets"] == 4124
+    assert manifest["total_official_merit_badges"] == 149
     assert manifest["builtin_pptx_templates"] == 17
     assert len(manifest["sample_sha256_verifications"]) >= 6
 

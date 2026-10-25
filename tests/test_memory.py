@@ -205,7 +205,7 @@ def test_schema_version_upcasting_and_sqlite_hitl_feedback(tmp_path):
         "conformance_report": {"passed": True, "aabb_overlap_count": 0},
     }
     migrated = migrate_payload_schema(legacy_v1_0)
-    assert migrated["schema_version"] == CURRENT_SCHEMA_VERSION == "1.2.0"
+    assert migrated["schema_version"] == CURRENT_SCHEMA_VERSION == "2.1.0"
     assert migrated["beautification_tier"] == "BEAUTIFIED"
     assert migrated["audience_level"] == "All Scouts (Ages 11–17)"
     assert migrated["storyboard"]["slides"][0]["visual_source_label"] == "Official BSA Pamphlet Diagram"
@@ -223,7 +223,7 @@ def test_schema_version_upcasting_and_sqlite_hitl_feedback(tmp_path):
     )
     loaded = store.get_session_sync("legacy_v1_session")
     assert loaded is not None
-    assert loaded["schema_version"] == "1.2.0"
+    assert loaded["schema_version"] == "2.1.0"
 
     fb_res = store.record_hitl_feedback_sync(
         session_id="legacy_v1_session",
@@ -233,7 +233,7 @@ def test_schema_version_upcasting_and_sqlite_hitl_feedback(tmp_path):
         requirement_accuracy_verified=True,
         comments="Verified 100% 2026 BSA Weather requirement fidelity.",
         promoted_to_golden=True,
-        schema_version="1.2.0",
+        schema_version="2.1.0",
     )
     assert fb_res["recorded"] is True
     assert fb_res["promoted_to_golden"] is True
@@ -244,6 +244,6 @@ def test_schema_version_upcasting_and_sqlite_hitl_feedback(tmp_path):
     assert rows[0]["rating"] == 5
     assert rows[0]["requirement_accuracy_verified"] is True
     assert rows[0]["promoted_to_golden"] is True
-    assert rows[0]["schema_version"] == "1.2.0"
+    assert rows[0]["schema_version"] == "2.1.0"
 
 

@@ -20,7 +20,7 @@ This runbook covers local setup, Google Cloud deployment via Terraform and Cloud
 # 1. Container liveness probe (expects HTTP 200 {"status": "UP"})
 curl -fsS http://127.0.0.1:8080/health | jq .
 
-# 2. Deep dependency readiness probe (checks SQLite store, 144-badge catalog, policy JSON files, circuit breakers)
+# 2. Deep dependency readiness probe (checks 12-table SQLite store, 149-badge catalog, policy JSON files, circuit breakers)
 curl -fsS http://127.0.0.1:8080/readiness | jq .
 
 # 3. Automated deployment smoke test suite (/health, /readiness, /api/badges, /api/v1/mcp/manifest, UI root)

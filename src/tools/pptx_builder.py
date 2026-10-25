@@ -101,6 +101,30 @@ class SlideSpec(BaseModel):
     original_archetype: str = Field("SPLIT_VISUAL_EXPLAINER", description="Original slide archetype before any override.")
     available_images: List[Dict[str, Any]] = Field(default_factory=list, description="Cached/available images for this slide or requirement.")
     full_bullet_points: Optional[List[str]] = Field(None, description="Complete list of bullet points preserved when split layout caps visible cards.")
+    slide_role: str = Field(
+        "teaching",
+        description="Slide role: teaching, overview, overview-logistics, homework-checkout, summary, or sources.",
+    )
+    misconception_pair: Optional[Dict[str, str]] = Field(
+        None,
+        description="Misconception vs. Fact pair grounded in the official pamphlet.",
+    )
+    pamphlet_reference: Optional[str] = Field(
+        None,
+        description="Pamphlet page citation rendered in the slide footer and UI badge.",
+    )
+    workbook_table_ref: Optional[str] = Field(
+        None,
+        description="Workbook organizer table reference rendered in the slide footer and UI badge.",
+    )
+    gate_badges: List[str] = Field(
+        default_factory=list,
+        description="Starting requirement gate badges displayed on the slide.",
+    )
+    curated_resources: List[Dict[str, str]] = Field(
+        default_factory=list,
+        description="Verified official Scouting America and educational multimedia links for this slide.",
+    )
 
 
 class PowerPointBuildRequest(BaseModel):
@@ -2855,14 +2879,29 @@ def generate_bsa_slide_deck_pptx(
                 or (req_template_id == "default_workbench" and not effective_deck_style)
             )
 
+        has_misconception_pair = bool(
+            isinstance(slide_spec.misconception_pair, dict)
+            and slide_spec.misconception_pair.get("misconception")
+            and slide_spec.misconception_pair.get("fact")
+        )
+        show_misconception_bar = (
+            has_misconception_pair
+            and not show_safety_warning
+            and not (arch == "FULL_BLEED_IMAGE_EXPLAINER" and has_visual)
+            and not (slide_spec.verbatim_requirement_text and slide_spec.verbatim_requirement_text.strip())
+            and arch not in {"REQUIREMENT_INTRO", "REQUIREMENTS_TRIAGE_MATRIX", "SOURCES_AND_REFERENCES"}
+            and len(slide_spec.bullet_points or []) <= 4
+        )
+
         has_bottom_bar = (
             show_safety_warning
             or (arch == "FULL_BLEED_IMAGE_EXPLAINER" and has_visual)
+            or show_misconception_bar
         )
         max_content_bottom = float(safe_bounds.content_bottom_max_in)
         safety_bar_h = (
             min(0.56, float(safe_bounds.safety_bar_height_in))
-            if (show_safety_warning and safety_mode == "COMPACT_ACCENT")
+            if ((show_safety_warning and safety_mode == "COMPACT_ACCENT") or show_misconception_bar)
             else float(safe_bounds.safety_bar_height_in)
         )
         safety_bar_top = round(max_content_bottom - safety_bar_h, 2)
@@ -3051,6 +3090,45 @@ def generate_bsa_slide_deck_pptx(
                 body_rgb=s_body_rgb,
                 space_after_pt=0.0,
             )
+        elif show_misconception_bar and isinstance(slide_spec.misconception_pair, dict):
+            mis_raw = _clean_text(str(slide_spec.misconception_pair.get("misconception") or slide_spec.misconception_pair.get("myth") or ""))
+            fact_raw = _clean_text(str(slide_spec.misconception_pair.get("fact") or slide_spec.misconception_pair.get("fact_correction") or ""))
+            combined_mis = _concise_card_body(f"Myth: {mis_raw} | Fact: {fact_raw}", max_words=26, max_chars=175)
+            mis_bg = (30, 41, 59) if s_tier == "STUDIO" else (248, 250, 252)
+            mis_accent = s_accent_rgb
+            callout_box = _add_styled_box(
+                content_slide,
+                left_in=0.60,
+                top_in=safety_bar_top,
+                width_in=12.133,
+                height_in=safety_bar_h,
+                bg_rgb=mis_bg,
+                border_rgb=mis_accent,
+                border_pt=0.0,
+                left_accent_rgb=mis_accent,
+                container_style="LEFT_ACCENT_LINE",
+            )
+            callout_box.name = f"CardAccent_Misconception_{idx}"
+            stf = callout_box.text_frame
+            stf.margin_top = Inches(0.04)
+            stf.margin_bottom = Inches(0.04)
+            mis_font_pt = _compute_fitting_font_size(
+                [f"Misconception vs. Pamphlet Fact: {combined_mis}"],
+                box_w_in=11.95,
+                box_h_in=safety_bar_h,
+                min_pt=12.5,
+                max_pt=15.0,
+                space_after_pt=0.0,
+            )
+            _set_paragraph_runs(
+                stf.paragraphs[0],
+                "Misconception vs. Pamphlet Fact",
+                combined_mis,
+                font_size_pt=mis_font_pt,
+                anchor_rgb=s_anchor_rgb,
+                body_rgb=s_body_rgb,
+                space_after_pt=0.0,
+            )
 
         # ---------------------------------------------------------------------
         # ZONE 6: Footer Metadata Strip (Adapts to Template SafeCanvasBounds)
@@ -3065,9 +3143,18 @@ def generate_bsa_slide_deck_pptx(
         else:
             footer_rgb = (148, 163, 184) if s_tier == "STUDIO" else ScoutsBSAPalette.MUTED_TEXT_RGB
 
-        left_w = round(f_w * 0.54, 3)
-        right_w = round(f_w * 0.44, 3)
+        left_w = round(f_w * 0.60, 3)
+        right_w = round(f_w * 0.38, 3)
         right_x = round(f_left + f_w - right_w, 3)
+
+        footer_left_parts = [f"Scouts BSA {badge_title} Merit Badge"]
+        if slide_spec.pamphlet_reference:
+            footer_left_parts.append(str(slide_spec.pamphlet_reference))
+        if slide_spec.workbook_table_ref:
+            footer_left_parts.append(str(slide_spec.workbook_table_ref))
+        footer_left_str = " • ".join(footer_left_parts)
+        if len(footer_left_str) > 88:
+            footer_left_str = footer_left_parts[0] + (f" • {footer_left_parts[1]}" if len(footer_left_parts) > 1 else "")
 
         footer_left_box = content_slide.shapes.add_textbox(Inches(f_left), Inches(f_top), Inches(left_w), Inches(0.28))
         fl_tf = footer_left_box.text_frame
@@ -3075,7 +3162,7 @@ def generate_bsa_slide_deck_pptx(
         fl_tf.vertical_anchor = MSO_ANCHOR.TOP
         _set_paragraph_runs(
             fl_tf.paragraphs[0],
-            f"Scouts BSA {badge_title} Merit Badge",
+            footer_left_str,
             "",
             font_size_pt=12.5,
             anchor_rgb=footer_rgb,
@@ -3143,3 +3230,125 @@ def generate_bsa_slide_deck_pptx(
 
 
 compile_deck_to_pptx = generate_bsa_slide_deck_pptx
+
+
+def inject_class_opening_and_closing_slides(
+    badge_name: str,
+    slides: List[Any],
+    logistics_config: Optional[Dict[str, Any]] = None,
+    requirements: Optional[List[Dict[str, Any]]] = None,
+) -> List[Dict[str, Any]]:
+    """Idempotently injects (or removes) Opt-In `Slide 2: Class Logistics & Prerequisites`
+    (`slide_role='overview-logistics'`) and `Slide N: Next Session Homework & Blue Card Check-Out`
+    (`slide_role='homework-checkout'`).
+
+    Always strips any pre-existing slides where `slide_role in ('overview-logistics', 'homework-checkout')`
+    first so repeated toggles never create duplicate logistics or homework slides.
+    """
+    cfg = dict(logistics_config or {})
+    enable_opening = bool(cfg.get("enable_opening_closing_slides", True))
+    session_dates = list(cfg.get("session_dates") or ["Session 1", "Session 2", "Session 3", "Session 4", "Make-Up Day"])
+    room_location = str(cfg.get("room_location") or "Main Clinic Room / Troop Hall")
+    ypt_contact = str(cfg.get("counselor_ypt_contact") or "counselor@scouting.org (always CC parent/unit leader)")
+    what_to_bring = list(
+        cfg.get("what_to_bring")
+        or [
+            f"Official Scouting America {badge_name} Merit Badge Pamphlet",
+            f"Verb-Aligned {badge_name} Fillable Scout Workbook",
+            "Signed Blue Card (#34124) or active Scoutbook connection",
+            "Completed Pre-Class Prerequisite logs and field gear",
+        ]
+    )
+
+    clean_slides: List[Dict[str, Any]] = []
+    for s in slides or []:
+        s_dict = s.model_dump() if hasattr(s, "model_dump") else dict(s)
+        if s_dict.get("slide_role") in ("overview-logistics", "homework-checkout"):
+            continue
+        clean_slides.append(s_dict)
+
+    if not enable_opening:
+        return clean_slides
+
+    reqs = list(requirements or [])
+    prereq_ids = ", ".join(
+        str(r.get("req_number"))
+        for r in reqs
+        if r.get("syllabus_bucket") == "Pre-Class Prerequisite" or r.get("execution_mode") == "PREREQUISITE_CAMPOUT_HOME"
+    ) or "Read Pamphlet Chapter 1"
+    makeup_ids = ", ".join(
+        str(r.get("req_number"))
+        for r in reqs
+        if r.get("syllabus_bucket") == "Make-Up Eligible"
+    ) or "Any missed session discussion topics"
+
+    opening_bullets = [
+        f"Clinic Schedule & Room: {' | '.join(session_dates)} in {room_location}.",
+        f"Pre-Class Prerequisites Due: Complete and bring proof for Requirements ({prereq_ids}).",
+        f"What to Bring Every Session: {'; '.join(what_to_bring[:3])}.",
+        f"YPT Two-Deep Communication Rule: Copy a parent/guardian or unit leader on all messages to {ypt_contact}.",
+    ]
+    opening_notes = (
+        f"[PACING & MODALITY] 3 min | Clinic Check-In & Prerequisite Audit | Ref: {badge_name} Class Preparation Page (CPP)\n"
+        f"[ASK SCOUTS FIRST] Who brought their signed Blue Card (#34124), {badge_name} Workbook, and prerequisite evidence for Requirements ({prereq_ids}) today?\n"
+        f"[EXPECTED PAMPHLET ANSWER KEY] Every Scout needs unit leader approval on Blue Card #34124, their optional {badge_name} study workbook (GTA 7.0.3.2), and Two-Deep Leadership on all digital emails.\n"
+        f"[COMMON MISCONCEPTION TO CORRECT] Myth: Filling out a worksheet alone completes the merit badge. Fact: Per BSA Guide to Advancement 7.0.3.2, workbooks are optional study aids; each Scout must actively explain or demonstrate mastery.\n"
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] Check in each Scout on the S1..S4 Attendance Matrix, record Troop numbers, and verify Pre-Class Prerequisites ({prereq_ids})."
+    )
+    opening_slide = SlideSpec(
+        title=f"{badge_name}: Class Schedule, Logistics & Prerequisites",
+        bullet_points=opening_bullets,
+        presenter_notes=opening_notes,
+        safety_warning="Follow Scouting America Youth Protection (YPT) Two-Deep Leadership and the Buddy System at all times.",
+        archetype="STEP_BY_STEP_PROCEDURE_4CARD",
+        req_number="Overview",
+        slide_role="overview-logistics",
+        execution_mode="IN_CLASS_DISCUSSION",
+        edge_phase="Explain & Plan",
+        subtitle=f"{room_location} • {' | '.join(session_dates[:3])}",
+        verbatim_requirement_text=f"Review clinic schedule, YPT Two-Deep communication rules, and Pre-Class Prerequisites ({prereq_ids}).",
+        pamphlet_reference=f"Official BSA {badge_name} Pamphlet",
+        workbook_table_ref="1-Page Class Preparation Page (CPP)",
+    ).model_dump()
+
+    closing_bullets = [
+        f"Next Session & Make-Up Homework: Complete workbook organizer tables for {badge_name} and review Make-Up Eligible Reqs ({makeup_ids}).",
+        f"Make-Up Day Protocol ({session_dates[-1]}): Scouts who missed a session can verify Make-Up Eligible items during our dedicated Make-Up block.",
+        "Smart Partial vs. Full Sign-Off: Actionable Make-Up Partials can be finished at clinic; Expected Home-Troop Partials (campouts/logs) finish with your unit.",
+        "Blue Card (#34124) & Scoutbook Check-Out: Verify your completed requirement numbers with the counselor before departing.",
+    ]
+    closing_notes = (
+        f"[PACING & MODALITY] 4 min | Session Wrap-Up, Homework & Blue Card Check-Out | Ref: {badge_name} Workbook & Blue Card #34124\n"
+        f"[ASK SCOUTS FIRST] Before you pack up, which requirements did you get signed off today, and what is your #1 homework item before our next session?\n"
+        f"[EXPECTED PAMPHLET ANSWER KEY] Scouts should confirm their stamped requirements on the S1..S4 roster, note any Make-Up Day items ({makeup_ids}), and keep their Blue Card #34124 safe.\n"
+        f"[COMMON MISCONCEPTION TO CORRECT] Myth: A Partial Blue Card means you failed the class. Fact: A BSA Partial preserves every completed requirement until age 18 so you can finish home-troop campouts or logs at your own pace.\n"
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] Use 'Stamp Session Reqs for Present Scouts' in Tab 2 and export Per-Troop Blue Card (#34124) PDFs and Scoutbook CSV packets."
+    )
+    closing_slide = SlideSpec(
+        title=f"{badge_name}: Homework, Make-Up Day & Blue Card Check-Out",
+        bullet_points=closing_bullets,
+        presenter_notes=closing_notes,
+        safety_warning=None,
+        archetype="STEP_BY_STEP_PROCEDURE_4CARD",
+        req_number="Summary",
+        slide_role="homework-checkout",
+        execution_mode="IN_CLASS_DISCUSSION",
+        edge_phase="Enable",
+        subtitle="Next Session Preparation & Blue Card (#34124) Verification",
+        verbatim_requirement_text=f"Complete assigned {badge_name} homework and verify your Blue Card (#34124) or Scoutbook record.",
+        pamphlet_reference=f"Official BSA {badge_name} Pamphlet",
+        workbook_table_ref="Blue Card #34124 & Workbook",
+    ).model_dump()
+
+    # Insert opening_slide at index 1 (right after Overview slide) and closing_slide right before Sources & References
+    if len(clean_slides) >= 1:
+        clean_slides.insert(1, opening_slide)
+    else:
+        clean_slides.append(opening_slide)
+
+    if len(clean_slides) >= 2 and clean_slides[-1].get("archetype") == "SOURCES_AND_REFERENCES":
+        clean_slides.insert(len(clean_slides) - 1, closing_slide)
+    else:
+        clean_slides.append(closing_slide)
+
+    return clean_slides

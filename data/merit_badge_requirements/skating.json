@@ -29,7 +29,50 @@
               "url": "https://www.scouting.org/health-and-safety/safety-moments/skateboard-safety/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "headers": [
+              "Activity Hazard / Risk",
+              "Prevention & PPE Strategy",
+              "Emergency Response & First Aid"
+            ],
+            "row_labels": [
+              "Hazard 1",
+              "Hazard 2",
+              "Hazard 3",
+              "Hazard 4"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Skating hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Skating Merit Badge Hub (Req 1a)",
+              "url": "https://www.scouting.org/merit-badges/skating/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Skating Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1b",
@@ -41,7 +84,51 @@
               "url": "https://www.icliniq.com/articles/first-aid-and-emergencies/skating-injuries"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Straighten an angled bone or dislocated joint before tying a rigid splint.",
+            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Skating Merit Badge Hub (Req 1b)",
+              "url": "https://www.scouting.org/merit-badges/skating/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Skating Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -61,7 +148,112 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 1: Skating Hazards, PPE & First Aid Response",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Skating Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Skating Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "headers": [
+          "Activity Hazard / Risk",
+          "Prevention & PPE Strategy",
+          "Emergency Response & First Aid"
+        ],
+        "row_labels": [
+          "Hazard 1",
+          "Hazard 2",
+          "Hazard 3",
+          "Hazard 4"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Skating hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Skating Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/skating/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Skating Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Skating Sub-Req 1a: Explain to your counselor the most likely hazards associated with skating and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+        "Skating Sub-Req 1b: Show that you know first aid for injuries or illnesses that could occur while skating, including hypothermia, frostbite, lacerations, abrasions, fractures, sprains and strains.",
+        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards associated with skating and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+        "Core Standard 2 (Req 1): (b) Show that you know first aid for injuries or illnesses that could occur while skating, including hypothermia, frostbite, lacerations, abrasions, fractures, sprains and strains, concussions, blisters, heat-related reactions, and shock."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Skating requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Skating Hazards, PPE & First Aid Response.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Skating Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Skating Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Skating Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Skating Approach",
+        "right_header": "Official BSA Skating Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Skating Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Skating Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Skating Hazards, PPE & First Aid Response",
+          "Primary Standard": "Explain to your counselor the most likely hazards associated with skating and what you should do to anticipate",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Skating terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Skating Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Skating Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Skating Requirement 1, a Scout claims: \"Scouts can jump straight into Skating hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries.",
+        "explanation": "Per Official BSA Skating Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Skating Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -95,7 +287,48 @@
                   "url": "https://cdn3.sportngin.com/attachments/document/39da-1736379/Getting_Started.pdf"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(1) is enough for Skating Requirement 2a(1) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(1) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(1))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(2)",
@@ -119,7 +352,48 @@
                   "url": "https://youtu.be/yVXJQq41tTA"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(2) is enough for Skating Requirement 2a(2) sign-off.",
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a(2) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(2))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(3)",
@@ -131,7 +405,48 @@
                   "url": "https://youtu.be/H6hUVU57Wpk"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(3) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(3) is enough for Skating Requirement 2a(3) sign-off.",
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a(3) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(3))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(4)",
@@ -143,7 +458,48 @@
                   "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Skating/how_to_carry_ice_skates.pdf"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(4) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(4) is enough for Skating Requirement 2a(4) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2a(4) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(4))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(5)",
@@ -155,7 +511,48 @@
                   "url": "https://www.skatepro.ca/en/a65.htm"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(5) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(5) is enough for Skating Requirement 2a(5) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2a(5) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(5))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(6)",
@@ -167,7 +564,48 @@
                   "url": "https://youtu.be/rhQY1_bTjVs&t=10"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(6) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(6) is enough for Skating Requirement 2a(6) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2a(6) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(6))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(7)",
@@ -179,7 +617,48 @@
                   "url": "https://youtu.be/-7QqRz2EZAM&t=10"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(7) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(7) is enough for Skating Requirement 2a(7) sign-off.",
+                "fact": "Each Scout must actively after the specific principles and real-world steps of Req 2a(7) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(7))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(8)",
@@ -191,7 +670,48 @@
                   "url": "https://youtu.be/-7QqRz2EZAM&t=516"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(8) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(8) is enough for Skating Requirement 2a(8) sign-off.",
+                "fact": "Each Scout must actively starting the specific principles and real-world steps of Req 2a(8) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(8))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(9)",
@@ -203,14 +723,96 @@
                   "url": "https://youtu.be/dZsfWfYxqzw&t=10"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(9) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(9) is enough for Skating Requirement 2a(9) sign-off.",
+                "fact": "Each Scout must actively glide the specific principles and real-world steps of Req 2a(9) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(9))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(10)",
               "label": "(10)",
               "text": "Skate backward for at least 20 feet on two skates.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(10) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(10) is enough for Skating Requirement 2a(10) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2a(10) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(10))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(11)",
@@ -222,7 +824,48 @@
                   "url": "https://youtu.be/Lm1PXq9iFog"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(11) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(11) is enough for Skating Requirement 2a(11) sign-off.",
+                "fact": "Each Scout must actively after the specific principles and real-world steps of Req 2a(11) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(11))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(12)",
@@ -238,7 +881,48 @@
                   "url": "https://youtu.be/krBVgF52z8M&t=10"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(12) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(12) is enough for Skating Requirement 2a(12) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2a(12) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(12))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(13)",
@@ -254,7 +938,48 @@
                   "url": "https://kidshealth.org/en/parents/safety-ice-skating.html"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(13) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(13) is enough for Skating Requirement 2a(13) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(13) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(13))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(14)",
@@ -266,7 +991,89 @@
                   "url": "https://youtu.be/nIfU38nAYYk"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(14) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(14) is enough for Skating Requirement 2a(14) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2a(14) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2a(14))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2a is enough for Skating Requirement 2a sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 2a grounded in the official Skating pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Skating Merit Badge Hub (Req 2a)",
+              "url": "https://www.scouting.org/merit-badges/skating/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Skating Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -286,21 +1093,144 @@
                   "url": "https://youtu.be/eXzKkXQCY_Q"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(1) is enough for Skating Requirement 2b(1) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(1) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(1))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(2)",
               "label": "(2)",
               "text": "Discuss the parts of a roller skate and their functions.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(2) is enough for Skating Requirement 2b(2) sign-off.",
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b(2) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(2))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(3)",
               "label": "(3)",
               "text": "Describe five essential steps to good roller skate care.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(3) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(3) is enough for Skating Requirement 2b(3) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2b(3) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(3))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(4)",
@@ -312,14 +1242,99 @@
                   "url": "https://youtu.be/znYKw5GQZVA"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(4) is enough for Skating Requirement 2b(4) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2b(4) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(4))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(5)",
               "label": "(5)",
               "text": "Skate forward and glide at least 15 feet on one skate, then on the other skate.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(5) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(5) is enough for Skating Requirement 2b(5) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2b(5) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(5))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(6)",
@@ -331,7 +1346,48 @@
                   "url": "https://youtu.be/VrgT9TPLANY"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(6) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(6) is enough for Skating Requirement 2b(6) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2b(6) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(6))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(7)",
@@ -343,28 +1399,192 @@
                   "url": "https://youtu.be/c7MLviMbw6A"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(7) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(7) is enough for Skating Requirement 2b(7) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2b(7) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(7))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(8)",
               "label": "(8)",
               "text": "Skate forward in a slalom pattern for at least 40 feet on two skates, then for at least 20 feet on one skate.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(8) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(8) is enough for Skating Requirement 2b(8) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2b(8) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(8))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(9)",
               "label": "(9)",
               "text": "Skate backward in a slalom pattern for at least 15 feet on two skates.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(9) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(9) is enough for Skating Requirement 2b(9) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2b(9) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(9))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(10)",
               "label": "(10)",
               "text": "Shuttle skate once around the rink, bending twice along the way, without stopping.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(10) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(10) is enough for Skating Requirement 2b(10) sign-off.",
+                "fact": "Each Scout must actively shuttle the specific principles and real-world steps of Req 2b(10) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(10))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(11)",
@@ -376,21 +1596,188 @@
                   "url": "https://youtu.be/d6Z91xZXNxE"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(11) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(11) is enough for Skating Requirement 2b(11) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2b(11) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(11))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(12)",
               "label": "(12)",
               "text": "Perform a stepover.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(12) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(12) is enough for Skating Requirement 2b(12) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2b(12) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(12))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(13)",
               "label": "(13)",
               "text": "While skating, dribble a basketball at least 40 feet, then back to your starting position, OR push a hockey ball with a stick at least 40 feet, then back to your starting position.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(13) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(13) is enough for Skating Requirement 2b(13) sign-off.",
+                "fact": "Each Scout must actively while the specific principles and real-world steps of Req 2b(13) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2b(13))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2b is enough for Skating Requirement 2b sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 2b grounded in the official Skating pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Skating Merit Badge Hub (Req 2b)",
+              "url": "https://www.scouting.org/merit-badges/skating/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Skating Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -410,7 +1797,48 @@
                   "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Skating/safety_rules_and_etiquette%20-%20inline_skating.pdf"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(1) is enough for Skating Requirement 2c(1) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(1) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(1))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(2)",
@@ -422,7 +1850,48 @@
                   "url": "https://youtu.be/dKYpuWcZ_Ak"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(2) is enough for Skating Requirement 2c(2) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(2) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(2))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(3)",
@@ -438,7 +1907,48 @@
                   "url": "https://youtu.be/GF4fs9-zMq8"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(3) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(3) is enough for Skating Requirement 2c(3) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(3) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(3))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(4)",
@@ -454,7 +1964,48 @@
                   "url": "https://youtu.be/Jcery4HP7_s"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(4) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(4) is enough for Skating Requirement 2c(4) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(4) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(4))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(5)",
@@ -466,7 +2017,48 @@
                   "url": "https://youtu.be/fg1eMFnl61U"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(5) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(5) is enough for Skating Requirement 2c(5) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2c(5) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(5))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(6)",
@@ -478,7 +2070,48 @@
                   "url": "https://youtu.be/iwtS9vr4r-Y"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(6) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(6) is enough for Skating Requirement 2c(6) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2c(6) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(6))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(7)",
@@ -490,7 +2123,48 @@
                   "url": "https://youtu.be/phN9uBIXkAw"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(7) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(7) is enough for Skating Requirement 2c(7) sign-off.",
+                "fact": "Each Scout must actively stop the specific principles and real-world steps of Req 2c(7) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(7))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(8)",
@@ -506,7 +2180,48 @@
                   "url": "https://youtu.be/2-ULGoMvk24"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(8) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(8) is enough for Skating Requirement 2c(8) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2c(8) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(8))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(9)",
@@ -518,7 +2233,48 @@
                   "url": "https://youtu.be/TbNlbqClkGQ"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(9) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(9) is enough for Skating Requirement 2c(9) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2c(9) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(9))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(10)",
@@ -530,7 +2286,48 @@
                   "url": "https://youtu.be/t3dO_3vh0Ig"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(10) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(10) is enough for Skating Requirement 2c(10) sign-off.",
+                "fact": "Each Scout must actively skate the specific principles and real-world steps of Req 2c(10) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(10))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(11)",
@@ -542,7 +2339,48 @@
                   "url": "https://youtu.be/__N7lV59GMI"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(11) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(11) is enough for Skating Requirement 2c(11) sign-off.",
+                "fact": "Each Scout must actively from the specific principles and real-world steps of Req 2c(11) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(11))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(12)",
@@ -554,7 +2392,48 @@
                   "url": "https://youtu.be/ytPUoplawVU"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(12) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(12) is enough for Skating Requirement 2c(12) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2c(12) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(12))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(13)",
@@ -566,7 +2445,48 @@
                   "url": "https://youtu.be/mzA573nx7W8"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(13) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(13) is enough for Skating Requirement 2c(13) sign-off.",
+                "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 2c(13) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(13))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(14)",
@@ -578,7 +2498,48 @@
                   "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Skating/passing_another_skater.pdf"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(14) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(14) is enough for Skating Requirement 2c(14) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(14) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(14))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(15)",
@@ -590,7 +2551,48 @@
                   "url": "https://youtu.be/NP5w-A5aRSc"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(15) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(15) is enough for Skating Requirement 2c(15) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(15) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(15))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(16)",
@@ -602,7 +2604,95 @@
                   "url": "https://youtu.be/3hq3sID5emE"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(16) is enough for Skating Requirement 2c(16) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(16) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2c(16))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2c is enough for Skating Requirement 2c sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 2c grounded in the official Skating pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Skating Merit Badge Hub (Req 2c)",
+              "url": "https://www.scouting.org/merit-badges/skating/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Skating Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -635,7 +2725,48 @@
                   "url": "https://youtu.be/w1mm3zDNyNI"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(1) is enough for Skating Requirement 2d(1) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(1) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(1))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(2)",
@@ -651,7 +2782,48 @@
                   "url": "https://youtu.be/6bu_9sI7QTI"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(2) is enough for Skating Requirement 2d(2) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2d(2) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(2))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(3)",
@@ -679,7 +2851,48 @@
                   "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Skating/passing_another_skateboarder.pdf"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(3) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(3) is enough for Skating Requirement 2d(3) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(3) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(3))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(4)",
@@ -691,14 +2904,101 @@
                   "url": "https://www.scouting.org/health-and-safety/safety-moments/skateboard-safety/"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(4) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(4) is enough for Skating Requirement 2d(4) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(4) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": {
+                "gate_type": "EQUIPMENT_GATE",
+                "gate_label": "Required Field Gear / PPE Inspection",
+                "gate_description": "Bring required personal gear or PPE for Skating Req 2d(4) inspection prior to hands-on station work.",
+                "blocking_in_class": false
+              },
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(4))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(5)",
               "label": "(5)",
               "text": "Describe the two main styles of skateboarding (street and vert), and describe common skatepark features (ramps, manual pad, rails, spine, etc.).",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(5) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(5) is enough for Skating Requirement 2d(5) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2d(5) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(5))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(6)",
@@ -710,7 +3010,48 @@
                   "url": "https://player.vimeo.com/video/901305105"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(6) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(6) is enough for Skating Requirement 2d(6) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(6) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(6))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(7)",
@@ -726,7 +3067,51 @@
                   "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Skating/parts_of_a_skateboard.jpg"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(7) is enough for Skating Requirement 2d(7) sign-off.",
+                "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2d(7) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(7))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(8)",
@@ -738,7 +3123,48 @@
                   "url": "https://www.skatexs.com/blogs/news/9432593-skateboard-maintenance-for-beginners"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(8) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(8) is enough for Skating Requirement 2d(8) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(8) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(8))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(9)",
@@ -750,7 +3176,49 @@
                   "url": "https://youtu.be/fdSzhc7HXJ0"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "COMPARE_CONTRAST_2COL",
+                "headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
+                "row_labels": [
+                  "Primary Mechanism",
+                  "Field Indicator",
+                  "Safety / Application"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(9) is enough for Skating Requirement 2d(9) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(9) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(9))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(10)",
@@ -766,7 +3234,51 @@
                   "url": "https://player.vimeo.com/video/901305658"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(10) is enough for Skating Requirement 2d(10) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2d(10) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(10))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(11)",
@@ -778,7 +3290,51 @@
                   "url": "https://youtu.be/gLikGjxWCUQ?si=-VfkhrC8oTh1LEvf"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(11) is enough for Skating Requirement 2d(11) sign-off.",
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2d(11) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(11))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(12)",
@@ -790,14 +3346,99 @@
                   "url": "https://player.vimeo.com/video/901305845"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2d(12) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(12) is enough for Skating Requirement 2d(12) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(12) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(12))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(13)",
               "label": "(13)",
               "text": "Show how to drop-in from coping.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(13) is enough for Skating Requirement 2d(13) sign-off.",
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2d(13) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(13))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2d(14)",
@@ -899,7 +3540,98 @@
                   "_dom_id": "15945",
                   "_parent_dom_id": "15940"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2d(14) is enough for Skating Requirement 2d(14) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2d(14) grounded in the official Skating pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Skating Merit Badge Hub (Req 2d(14))",
+                  "url": "https://www.scouting.org/merit-badges/skating/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Skating Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "row_labels": [
+              "Primary Mechanism",
+              "Field Indicator",
+              "Safety / Application"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2d is enough for Skating Requirement 2d sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 2d grounded in the official Skating pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "EQUIPMENT_GATE",
+            "gate_label": "Required Field Gear / PPE Inspection",
+            "gate_description": "Bring required personal gear or PPE for Skating Req 2d inspection prior to hands-on station work.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Skating Merit Badge Hub (Req 2d)",
+              "url": "https://www.scouting.org/merit-badges/skating/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Skating Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         }
@@ -1173,7 +3905,119 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: Working under the supervision of an experienced adult",
+      "action_verb": "Working",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Skating Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Skating Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
+        "row_labels": [
+          "Primary Mechanism",
+          "Field Indicator",
+          "Safety / Application"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Working under the supervision of an experienced adult is enough for Skating Requirement 2 sign-off.",
+        "fact": "Each Scout must actively working the specific principles and real-world steps of Working under the supervision of an experienced adult grounded in the official Skating pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "EQUIPMENT_GATE",
+        "gate_label": "Required Field Gear / PPE Inspection",
+        "gate_description": "Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Skating Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/skating/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Skating Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Skating Sub-Req 2a: Option A, Ice Skating. Do ALL of the following: (1) Explain the general safety and courtesy guidelines for ice skating. (2) Discuss preparations that.",
+        "Skating Sub-Req 2a(1): Explain the general safety and courtesy guidelines for ice skating.",
+        "Skating Sub-Req 2a(2): Discuss preparations that must be taken when skating outdoors on natural ice. Explain how to make an ice rescue.",
+        "Skating Sub-Req 2a(3): Discuss the parts and functions of the different types of ice skates."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Skating requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Working under the supervision of an experienced adult.",
+        "Execute & Document: Perform the working task methodically with your patrol buddy and log specific observations in your Skating Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Skating Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Skating Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Skating Approach",
+        "right_header": "Official BSA Skating Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Skating Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Skating Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - Working under the supervision of an experienced adult",
+          "Primary Standard": "Option A, Ice Skating. Do ALL of the following: (1) Explain the general safety and courtesy guidelines for ice",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Skating terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Skating Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Skating Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Skating Requirement 2, a Scout claims: \"Reading a short definition of Working under the supervision of an experienced adult is enough for Skating Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively working the specific principles and real-world steps of Working under the supervision of an experienced adult grounded in the official Skating pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively working the specific principles and real-world steps of Working under the supervision of an experienced adult grounded in the official Skating pamphlet.",
+        "explanation": "Per Official BSA Skating Pamphlet, pp. 10-15, Each Scout must actively working the specific principles and real-world steps of Working under the supervision of an experienced adult grounded in the official Skating pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Skating Workbook organizer table and practical demonstration for Req 2."
     }
-  ]
+  ],
+  "badge_slug": "skating",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

@@ -37,7 +37,55 @@
               "url": "https://www.kayakscout.com/kayaking-in-a-thunderstorm/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "headers": [
+              "Activity Hazard / Risk",
+              "Prevention & PPE Strategy",
+              "Emergency Response & First Aid"
+            ],
+            "row_labels": [
+              "Hazard 1",
+              "Hazard 2",
+              "Hazard 3",
+              "Hazard 4"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "HARD_PREREQ_BADGE",
+            "gate_label": "BSA Swimmer Classification Gate",
+            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+            "blocking_in_class": true
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 1a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1b",
@@ -49,7 +97,48 @@
               "url": "https://youtube.com/playlist?list=PLxKdp8_KfCQnMeVV5WjCGLQtOk0IdR_4S"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 1b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 1b is enough for Whitewater Requirement 1b sign-off.",
+            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 1b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 1b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1c",
@@ -65,7 +154,53 @@
               "url": "https://www.americanwhitewater.org/explore/safety/safety-code/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 1c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 1c is enough for Whitewater Requirement 1c sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "EQUIPMENT_GATE",
+            "gate_label": "Required Field Gear / PPE Inspection",
+            "gate_description": "Bring required personal gear or PPE for Whitewater Req 1c inspection prior to hands-on station work.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 1c)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -101,7 +236,117 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 1: Whitewater Hazards, PPE & First Aid Response",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "headers": [
+          "Activity Hazard / Risk",
+          "Prevention & PPE Strategy",
+          "Emergency Response & First Aid"
+        ],
+        "row_labels": [
+          "Hazard 1",
+          "Hazard 2",
+          "Hazard 3",
+          "Hazard 4"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in whitewater activities, including branches and trees in water along a.",
+        "Whitewater Sub-Req 1b: Review with your counselor the prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in whitewater activities.",
+        "Whitewater Sub-Req 1c: Discuss with your counselor the Scouting America Safety Afloat policy and the American Whitewater safety guidelines, including the use of helmet and life jackets.",
+        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in whitewater activities, including branches and trees in water along a shore and stretching across the stream, rocks, hydraulics over ledges or low-head dams, strong wind, low water or air temperature, and thunder and lightning storms."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Whitewater Hazards, PPE & First Aid Response.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Whitewater Hazards, PPE & First Aid Response",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in whitewater activiti",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 1, a Scout claims: \"Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -124,7 +369,56 @@
               "url": "https://youtu.be/nKBrFv164xQ"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2a is enough for Whitewater Requirement 2a sign-off.",
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "HARD_PREREQ_BADGE",
+            "gate_label": "BSA Swimmer Classification Gate",
+            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+            "blocking_in_class": true
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2b",
@@ -136,7 +430,48 @@
               "url": "https://raftingescapes.com/wave-train-rafting/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2b is enough for Whitewater Requirement 2b sign-off.",
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2c",
@@ -158,14 +493,137 @@
               "label": "(1)",
               "text": "When entering and exiting an eddy.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(1) is enough for Whitewater Requirement 2c(1) sign-off.",
+                "fact": "Each Scout must actively when the specific principles and real-world steps of Req 2c(1) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2c(1))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2c(2)",
               "label": "(2)",
               "text": "When ferrying in downstream and upstream directions.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2c(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2c(2) is enough for Whitewater Requirement 2c(2) sign-off.",
+                "fact": "Each Scout must actively when the specific principles and real-world steps of Req 2c(2) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2c(2))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2c is enough for Whitewater Requirement 2c sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2c)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -179,7 +637,48 @@
               "url": "https://youtu.be/qBn7YOJMK7g"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2d is enough for Whitewater Requirement 2d sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2d)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -215,7 +714,118 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: (a) Demonstrate understanding of the following river features",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Demonstrate understanding of the following river features is enough for Whitewater Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate understanding of the following river features grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 2a: Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream V, downstream V, riffle, eddy with an.",
+        "Whitewater Sub-Req 2b: Describe how waves form including standing waves and wave trains.",
+        "Whitewater Sub-Req 2c: Explain how to tilt or edge the boat without leaning your body (1) When entering and exiting an eddy. (2) When ferrying in downstream and upstream directions.",
+        "Whitewater Sub-Req 2c(1): When entering and exiting an eddy."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Demonstrate understanding of the following river features.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - (a) Demonstrate understanding of the following river features",
+          "Primary Standard": "Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 2, a Scout claims: \"Reading a short definition of (a) Demonstrate understanding of the following river features is enough for Whitewater Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate understanding of the following river features grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate understanding of the following river features grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate understanding of the following river features grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -229,14 +839,102 @@
           "label": "(a)",
           "text": "If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3a is enough for Whitewater Requirement 3a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 3a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
           "text": "If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3b is enough for Whitewater Requirement 3b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 3b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -256,7 +954,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: Before doing requirements 4 through 12, earn the",
+      "action_verb": "Before",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Before doing requirements 4 through 12, earn the is enough for Whitewater Requirement 3 sign-off.",
+        "fact": "Each Scout must actively before the specific principles and real-world steps of Before doing requirements 4 through 12, earn the grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 3a: If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor.",
+        "Whitewater Sub-Req 3b: If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor.",
+        "Core Standard 1 (Req 3): Before doing requirements 4 through 12, earn the Canoeing merit badge if you will be using a canoe to earn this merit badge.",
+        "Core Standard 2 (Req 3): If you will be using a kayak, earn the Kayaking merit badge."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before doing requirements 4 through 12, earn the.",
+        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - Before doing requirements 4 through 12, earn the",
+          "Primary Standard": "If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing mer",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 3, a Scout claims: \"Reading a short definition of Before doing requirements 4 through 12, earn the is enough for Whitewater Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 4 through 12, earn the grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 4 through 12, earn the grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 16-21, Each Scout must actively before the specific principles and real-world steps of Before doing requirements 4 through 12, earn the grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -281,21 +1085,197 @@
               "label": "(1)",
               "text": "Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4a(1) is enough for Whitewater Requirement 4a(1) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(1) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4a(1))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "4a(2)",
               "label": "(2)",
               "text": "Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4a(2) is enough for Whitewater Requirement 4a(2) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(2) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4a(2))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "4a(3)",
               "label": "(3)",
               "text": "Demonstrate a high brace, low brace, and righting pry.",
               "resources": [],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4a(3) is enough for Whitewater Requirement 4a(3) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(3) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4a(3))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4a is enough for Whitewater Requirement 4a sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 4a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -331,7 +1311,51 @@
                   "url": "https://youtu.be/0NbWDhmREgo"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4b(1) is enough for Whitewater Requirement 4b(1) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b(1) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4b(1))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "4b(2)",
@@ -343,7 +1367,95 @@
                   "url": "https://youtu.be/-HofhF4__ps"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4b(2) is enough for Whitewater Requirement 4b(2) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b(2) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4b(2))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4b is enough for Whitewater Requirement 4b sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 4b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -375,7 +1487,51 @@
                   "url": "https://youtu.be/0NbWDhmREgo"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4c(1) is enough for Whitewater Requirement 4c(1) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c(1) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4c(1))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "4c(2)",
@@ -391,7 +1547,95 @@
                   "url": "https://youtu.be/B1YxQJnfFz0"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4c(2) is enough for Whitewater Requirement 4c(2) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c(2) grounded in the official Whitewater pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4c(2))",
+                  "url": "https://www.scouting.org/merit-badges/whitewater/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Whitewater Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4c is enough for Whitewater Requirement 4c sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 4c grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4c)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         }
@@ -453,7 +1697,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: (a) Option A, Tandem Canoeist. Do ALL of",
+      "action_verb": "Explain",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Option A, Tandem Canoeist. Do ALL of is enough for Whitewater Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) Option A, Tandem Canoeist. Do ALL of grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 4a: Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross.",
+        "Whitewater Sub-Req 4a(1): Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.",
+        "Whitewater Sub-Req 4a(2): Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry.",
+        "Whitewater Sub-Req 4a(3): Demonstrate a high brace, low brace, and righting pry."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Option A, Tandem Canoeist. Do ALL of.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - (a) Option A, Tandem Canoeist. Do ALL of",
+          "Primary Standard": "Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the f",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 4, a Scout claims: \"Reading a short definition of (a) Option A, Tandem Canoeist. Do ALL of is enough for Whitewater Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Option A, Tandem Canoeist. Do ALL of grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Option A, Tandem Canoeist. Do ALL of grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 22-27, Each Scout must actively explain the specific principles and real-world steps of (a) Option A, Tandem Canoeist. Do ALL of grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -472,21 +1822,149 @@
               "url": "https://youtu.be/g0s-MvzFRNM?si=Qy7hha_z5TIivvjk"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5a is enough for Whitewater Requirement 5a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Whitewater Req 5a plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 5a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "5b",
           "label": "(b)",
           "text": "Identify the specific characteristics of the river that are factors in your classification according to the International Scale.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5b is enough for Whitewater Requirement 5b sign-off.",
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 5b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 5b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "5c",
           "label": "(c)",
           "text": "Discuss how the level of flow changes a river from one class to another and what effects different flow rates have on the features of a river and its hazards.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 5c)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -502,7 +1980,118 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: (a) Explain the International Scale of River Difficulty",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Whitewater Req 5 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 5a: Explain the International Scale of River Difficulty and apply the scale to the stretch of river approved by your counselor.",
+        "Whitewater Sub-Req 5b: Identify the specific characteristics of the river that are factors in your classification according to the International Scale.",
+        "Whitewater Sub-Req 5c: Discuss how the level of flow changes a river from one class to another and what effects different flow rates have on the features of a river and its hazards.",
+        "Core Standard 1 (Req 5): Do the following: (a) Explain the International Scale of River Difficulty and apply the scale to the stretch of river approved by your counselor."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain the International Scale of River Difficulty.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - (a) Explain the International Scale of River Difficulty",
+          "Primary Standard": "Explain the International Scale of River Difficulty and apply the scale to the stretch of river approved by yo",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 5, a Scout claims: \"Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 28-33, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -524,7 +2113,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: Explain the importance of communication during every whitewater",
+      "action_verb": "Explain",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 34-39",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Explain the importance of communication during every whitewater is enough for Whitewater Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the importance of communication during every whitewater grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 6): Explain the importance of communication during every whitewater outing.",
+        "Core Standard 2 (Req 6): Demonstrate knowledge and ability to use the following American Whitewater Universal River Signals, both visual and auditory: \"Stop,\" \"Are you OK?,\" \"Help/emergency,\" \"Run river right,\" \"Run river left,\" and \"All clear, come ahead.\".",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Whitewater Req 6 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Whitewater Workbook before requesting Requirement 6 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the importance of communication during every whitewater.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - Explain the importance of communication during every whitewater",
+          "Primary Standard": "Explain the importance of communication during every whitewater outing. Demonstrate knowledge and ability to u",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 6, a Scout claims: \"Reading a short definition of Explain the importance of communication during every whitewater is enough for Whitewater Requirement 6 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the importance of communication during every whitewater grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the importance of communication during every whitewater grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 34-39, Each Scout must actively explain the specific principles and real-world steps of Explain the importance of communication during every whitewater grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 6."
     },
     {
       "req_id": "7",
@@ -543,7 +2238,48 @@
               "url": "https://redbeardsailing.com/blogs/red-beard-report/canoe-buyers-guide"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7a is enough for Whitewater Requirement 7a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 7a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7b",
@@ -555,7 +2291,48 @@
               "url": "https://youtu.be/qzgkUM3hoP0"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7b is enough for Whitewater Requirement 7b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 7b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -575,7 +2352,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 7: (a) If completing this merit badge in a",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 7 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 40-45",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 40-45",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 7 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) If completing this merit badge in a is enough for Whitewater Requirement 7 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) If completing this merit badge in a grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 7)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 7a: If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how they differ in design, materials, and purpose.",
+        "Whitewater Sub-Req 7b: If completing this merit badge in a kayak, describe the various types of kayaks used on moving water and explain how they differ in design, materials, and purpose.",
+        "Core Standard 1 (Req 7): Do ONE of the following: (a) If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how they differ in design, materials, and purpose.",
+        "Core Standard 2 (Req 7): (b) If completing this merit badge in a kayak, describe the various types of kayaks used on moving water and explain how they differ in design, materials, and purpose."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 7): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) If completing this merit badge in a.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 7",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 7.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 40-45.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 7",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 7 - (a) If completing this merit badge in a",
+          "Primary Standard": "If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how t",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 40-45."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 7, a Scout claims: \"Reading a short definition of (a) If completing this merit badge in a is enough for Whitewater Requirement 7 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) If completing this merit badge in a grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 7 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) If completing this merit badge in a grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 40-45, Each Scout must actively explain the specific principles and real-world steps of (a) If completing this merit badge in a grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 7."
     },
     {
       "req_id": "8",
@@ -601,7 +2481,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 8: Review with your counselor the personal and group",
+      "action_verb": "Review",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 8 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 46-51",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 46-51",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 8 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Review with your counselor the personal and group is enough for Whitewater Requirement 8 sign-off.",
+        "fact": "Each Scout must actively review the specific principles and real-world steps of Review with your counselor the personal and group grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 8)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 8): Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used.",
+        "Field Verification Standard: Apply Whitewater Requirement 8 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Whitewater Req 8 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Whitewater Workbook before requesting Requirement 8 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 8): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Review with your counselor the personal and group.",
+        "Execute & Document: Perform the review task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 8",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 8.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 46-51.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 8",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 8 - Review with your counselor the personal and group",
+          "Primary Standard": "Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 46-51."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 8, a Scout claims: \"Reading a short definition of Review with your counselor the personal and group is enough for Whitewater Requirement 8 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively review the specific principles and real-world steps of Review with your counselor the personal and group grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 8 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively review the specific principles and real-world steps of Review with your counselor the personal and group grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 46-51, Each Scout must actively review the specific principles and real-world steps of Review with your counselor the personal and group grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 8."
     },
     {
       "req_id": "9",
@@ -618,7 +2601,118 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 9: Demonstrate your ability to read a Class II",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 9 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 52-57",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 52-57",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Whitewater Req 9 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 9)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 9): Demonstrate your ability to read a Class II section of river approved by your counselor.",
+        "Core Standard 2 (Req 9): Describe the most desirable paths or lines of travel as well as alternative routes and options.",
+        "Core Standard 3 (Req 9): Point out how to use the existing water features to your advantage, and explain how to best avoid the hazards present.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Whitewater Workbook before requesting Requirement 9 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 9): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate your ability to read a Class II.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 9",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 9.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 52-57.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 9",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 9 - Demonstrate your ability to read a Class II",
+          "Primary Standard": "Demonstrate your ability to read a Class II section of river approved by your counselor. Describe the most des",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 52-57."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 9, a Scout claims: \"Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+          "Skip Requirement 9 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 52-57, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 9."
     },
     {
       "req_id": "10",
@@ -641,7 +2735,48 @@
               "url": "https://youtu.be/78qqDqUIX20&t=24"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 10a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 10a is enough for Whitewater Requirement 10a sign-off.",
+            "fact": "Each Scout must actively launch the specific principles and real-world steps of Req 10a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "10b",
@@ -657,7 +2792,48 @@
               "url": "https://youtu.be/GoPN8COLz2A"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 10b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 10b is enough for Whitewater Requirement 10b sign-off.",
+            "fact": "Each Scout must actively paddle the specific principles and real-world steps of Req 10b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "10c",
@@ -673,7 +2849,48 @@
               "url": "https://youtu.be/XOjH3h5Cao0"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 10c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 10c is enough for Whitewater Requirement 10c sign-off.",
+            "fact": "Each Scout must actively backpaddle the specific principles and real-world steps of Req 10c grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10c)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "10d",
@@ -693,14 +2910,96 @@
               "url": "https://youtu.be/5yQSFFn24HY"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 10d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 10d is enough for Whitewater Requirement 10d sign-off.",
+            "fact": "Each Scout must actively ferry the specific principles and real-world steps of Req 10d grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10d)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "10e",
           "label": "(e)",
           "text": "Ferry downstream from both sides of the river.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 10e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 10e is enough for Whitewater Requirement 10e sign-off.",
+            "fact": "Each Scout must actively ferry the specific principles and real-world steps of Req 10e grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10e)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "10f",
@@ -716,7 +3015,48 @@
               "url": "https://youtu.be/1JS-7r697Rc"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 10f Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 10f is enough for Whitewater Requirement 10f sign-off.",
+            "fact": "Each Scout must actively eddy the specific principles and real-world steps of Req 10f grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10f)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "10g",
@@ -732,7 +3072,48 @@
               "url": "https://youtu.be/zxJRJMK-fsY"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 10g Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 10g is enough for Whitewater Requirement 10g sign-off.",
+            "fact": "Each Scout must actively peel the specific principles and real-world steps of Req 10g grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10g)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -804,7 +3185,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 10: Wearing a proper life jacket and being appropriately",
+      "action_verb": "Wearing",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 10 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 58-63",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Wearing a proper life jacket and being appropriately is enough for Whitewater Requirement 10 sign-off.",
+        "fact": "Each Scout must actively wearing the specific principles and real-world steps of Wearing a proper life jacket and being appropriately grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 10)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 10a: Launch and land.",
+        "Whitewater Sub-Req 10b: Paddle forward in a straight line at least 10 boat lengths.",
+        "Whitewater Sub-Req 10c: Backpaddle in a straight line at least five boat lengths.",
+        "Whitewater Sub-Req 10d: Ferry upstream from both sides of the river."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 10): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Wearing a proper life jacket and being appropriately.",
+        "Execute & Document: Perform the wearing task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 10",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 10.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 58-63.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 10",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 10 - Wearing a proper life jacket and being appropriately",
+          "Primary Standard": "Launch and land.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 58-63."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 10, a Scout claims: \"Reading a short definition of Wearing a proper life jacket and being appropriately is enough for Whitewater Requirement 10 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively wearing the specific principles and real-world steps of Wearing a proper life jacket and being appropriately grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 10 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively wearing the specific principles and real-world steps of Wearing a proper life jacket and being appropriately grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 58-63, Each Scout must actively wearing the specific principles and real-world steps of Wearing a proper life jacket and being appropriately grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 10."
     },
     {
       "req_id": "11",
@@ -831,7 +3318,48 @@
               "url": "https://youtu.be/JpF-CoXjfWU?si=huGEf8yBwEUBh-oN"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 11a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 64-69",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 11a is enough for Whitewater Requirement 11a sign-off.",
+            "fact": "Each Scout must actively selfrescue the specific principles and real-world steps of Req 11a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 11a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "11b",
@@ -851,7 +3379,48 @@
               "url": "https://youtu.be/UTzJsbXdHz0"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 11b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 64-69",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 11b is enough for Whitewater Requirement 11b sign-off.",
+            "fact": "Each Scout must actively proper the specific principles and real-world steps of Req 11b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 11b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "11c",
@@ -867,7 +3436,48 @@
               "url": "https://youtu.be/DbWkLJ2gKTE"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 11c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 64-69",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 11c is enough for Whitewater Requirement 11c sign-off.",
+            "fact": "Each Scout must actively proper the specific principles and real-world steps of Req 11c grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 11c)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "11d",
@@ -883,7 +3493,48 @@
               "url": "https://youtu.be/hp60rDcov48"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 11d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 64-69",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 11d is enough for Whitewater Requirement 11d sign-off.",
+            "fact": "Each Scout must actively portagingwhere the specific principles and real-world steps of Req 11d grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 11d)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "11e",
@@ -895,7 +3546,48 @@
               "url": "https://youtu.be/BOS2DnTFRSA"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 11e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 64-69",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 11e is enough for Whitewater Requirement 11e sign-off.",
+            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 11e grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 11e)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -947,7 +3639,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 11: Explain and demonstrate the following to your counselor",
+      "action_verb": "Explain",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 11 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 64-69",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 64-69",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Explain and demonstrate the following to your counselor is enough for Whitewater Requirement 11 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain and demonstrate the following to your counselor grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 11)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 11a: Self-rescue and procedures when capsized in moving water, including a wet exit if necessary",
+        "Whitewater Sub-Req 11b: Proper use of a throw rope to rescue a swimmer in whitewater",
+        "Whitewater Sub-Req 11c: Proper technique for receiving a throw rope as a swimmer",
+        "Whitewater Sub-Req 11d: Portaging, where portaging would be appropriate, and when and how to do it"
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 11): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain and demonstrate the following to your counselor.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 11)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 11",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 11.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 11.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 64-69.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 11",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 11 - Explain and demonstrate the following to your counselor",
+          "Primary Standard": "Self-rescue and procedures when capsized in moving water, including a wet exit if necessary",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 64-69."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 11 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 11, a Scout claims: \"Reading a short definition of Explain and demonstrate the following to your counselor is enough for Whitewater Requirement 11 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain and demonstrate the following to your counselor grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 11 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain and demonstrate the following to your counselor grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 64-69, Each Scout must actively explain the specific principles and real-world steps of Explain and demonstrate the following to your counselor grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 11."
     },
     {
       "req_id": "12",
@@ -966,21 +3764,147 @@
               "url": "https://youtu.be/HF98HTAhxuA"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 70-75",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 12a is enough for Whitewater Requirement 12a sign-off.",
+            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 12a grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 12a)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "12b",
           "label": "(b)",
           "text": "Determine local rules and obtain permission from landowners and land managers in advance.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 12b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 70-75",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 12b is enough for Whitewater Requirement 12b sign-off.",
+            "fact": "Each Scout must actively determine the specific principles and real-world steps of Req 12b grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 12b)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "12c",
           "label": "(c)",
           "text": "Explain what steps have been taken to comply with Scouting America Safety Afloat and the American Whitewater safety guidelines.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 12c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 70-75",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 12c is enough for Whitewater Requirement 12c sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12c grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 12c)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "12d",
@@ -996,14 +3920,99 @@
               "url": "https://youtu.be/57ukrEWtvy8"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 70-75",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 12d is enough for Whitewater Requirement 12d sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 12d grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 12d)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "12e",
           "label": "(e)",
           "text": "Explain to your counselor how well your plans worked for each trip taken.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 12e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 70-75",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 12e is enough for Whitewater Requirement 12e sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12e grounded in the official Whitewater pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Whitewater Merit Badge Hub (Req 12e)",
+              "url": "https://www.scouting.org/merit-badges/whitewater/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Whitewater Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -1027,7 +4036,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 12: Participate in one or more whitewater trips using",
+      "action_verb": "Participate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Whitewater Requirement 12 activities.",
+      "pamphlet_citation": "Official BSA Whitewater Pamphlet, pp. 70-75",
+      "pamphlet_page_citation": "Official BSA Whitewater Pamphlet, pp. 70-75",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 12 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Participate in one or more whitewater trips using is enough for Whitewater Requirement 12 sign-off.",
+        "fact": "Each Scout must actively participate the specific principles and real-world steps of Participate in one or more whitewater trips using grounded in the official Whitewater pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Whitewater Merit Badge Hub (Req 12)",
+          "url": "https://www.scouting.org/merit-badges/whitewater/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Whitewater Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Whitewater Sub-Req 12a: Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule, equipment, safety precautions, and emergency procedures.",
+        "Whitewater Sub-Req 12b: Determine local rules and obtain permission from landowners and land managers in advance.",
+        "Whitewater Sub-Req 12c: Explain what steps have been taken to comply with Scouting America Safety Afloat and the American Whitewater safety guidelines.",
+        "Whitewater Sub-Req 12d: Show how to protect personal and group equipment from water and how to load and secure the containers in boats to be used in."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 12): Review the official Whitewater requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Participate in one or more whitewater trips using.",
+        "Execute & Document: Perform the participate task methodically with your patrol buddy and log specific observations in your Whitewater Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 12)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Whitewater Req 12",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Whitewater Approach",
+        "right_header": "Official BSA Whitewater Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 12.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 12.",
+          "Records concrete measurements, examples, and citations from Official BSA Whitewater Pamphlet, pp. 70-75.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Whitewater Req 12",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 12 - Participate in one or more whitewater trips using",
+          "Primary Standard": "Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule, equipment, safety preca",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Whitewater terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Whitewater Pamphlet, pp. 70-75."
+        },
+        "counselor_tip": "Bring your filled-in Whitewater Req 12 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Whitewater Requirement 12, a Scout claims: \"Reading a short definition of Participate in one or more whitewater trips using is enough for Whitewater Requirement 12 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively participate the specific principles and real-world steps of Participate in one or more whitewater trips using grounded in the official Whitewater pamphlet.",
+          "Skip Requirement 12 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively participate the specific principles and real-world steps of Participate in one or more whitewater trips using grounded in the official Whitewater pamphlet.",
+        "explanation": "Per Official BSA Whitewater Pamphlet, pp. 70-75, Each Scout must actively participate the specific principles and real-world steps of Participate in one or more whitewater trips using grounded in the official Whitewater pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Whitewater Workbook organizer table and practical demonstration for Req 12."
     }
-  ]
+  ],
+  "badge_slug": "whitewater",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

@@ -162,6 +162,38 @@ class RequirementPoint(BaseModel):
         default_factory=list,
         description="Structured sub-requirements (e.g., 1a, 1b, 2a) from official BSA requirements."
     )
+    syllabus_bucket: str = Field(
+        "In-Class Concept",
+        description="5-Tier SyllabusBucket classification."
+    )
+    workbook_organizer: Optional[Dict[str, Any]] = Field(
+        None,
+        description="Verb-aligned WorkbookOrganizerSpec dictionary."
+    )
+    pamphlet_page_citation: Optional[str] = Field(
+        None,
+        description="Pamphlet page citation for slide footers and presenter notes."
+    )
+    common_misconception_pair: Optional[Dict[str, str]] = Field(
+        None,
+        description="Misconception vs. Fact pair grounded in the pamphlet."
+    )
+    starting_requirement_gate: Optional[Dict[str, Any]] = Field(
+        None,
+        description="Prerequisite or safety gate required before starting or signing off."
+    )
+    curated_resources: List[Dict[str, str]] = Field(
+        default_factory=list,
+        description="Verified official Scouting America and educational reference links."
+    )
+    estimated_minutes: int = Field(
+        15,
+        description="Estimated instructional minutes for this requirement."
+    )
+    homework_verification_note: str = Field(
+        "",
+        description="Counselor verification standard for Blue Card sign-off."
+    )
 
 
 class MeritBadgeResearchResult(BaseModel):
@@ -4076,15 +4108,36 @@ def enrich_requirement_point(
     if len(req_num) > 1 and req_num[-1].isalpha() and not enriched.get("parent_id"):
         enriched["parent_id"] = req_num[:-1]
 
-    # Attach official sub_requirements from data/official_requirements_cache.json if not already present
-    if not enriched.get("sub_requirements"):
-        official_cache = _load_official_requirements_cache()
-        badge_official = official_cache.get(badge_name) or []
-        for off_r in badge_official:
-            if str(off_r.get("req_number")) == req_num:
-                if off_r.get("sub_requirements"):
-                    enriched["sub_requirements"] = list(off_r["sub_requirements"])
-                break
+    # Attach official sub_requirements and v2.1.0 enriched metadata from data/official_requirements_cache.json
+    official_cache = _load_official_requirements_cache()
+    badge_official = official_cache.get(badge_name) or []
+    matched_off_r: Optional[Dict[str, Any]] = None
+    for off_r in badge_official:
+        if str(off_r.get("req_number")) == req_num:
+            matched_off_r = off_r
+            break
+    if matched_off_r:
+        if not enriched.get("sub_requirements") and matched_off_r.get("sub_requirements"):
+            enriched["sub_requirements"] = list(matched_off_r["sub_requirements"])
+        for meta_key in (
+            "syllabus_bucket",
+            "workbook_organizer",
+            "pamphlet_page_citation",
+            "common_misconception_pair",
+            "starting_requirement_gate",
+            "curated_resources",
+            "estimated_minutes",
+            "homework_verification_note",
+            "pamphlet_excerpts",
+            "step_by_step_procedure",
+            "gear_checklist",
+            "comparison_data",
+            "worked_example",
+            "quiz_item",
+            "safety_callout",
+        ):
+            if not enriched.get(meta_key) and matched_off_r.get(meta_key) is not None:
+                enriched[meta_key] = matched_off_r[meta_key]
 
     req_text = enriched.get("req_text", f"Complete requirement {req_num} for {badge_name}.")
     verb, mode, edge = _infer_action_verb_and_mode(
@@ -4095,6 +4148,45 @@ def enrich_requirement_point(
     enriched["action_verb"] = verb
     enriched["execution_mode"] = mode
     enriched.setdefault("edge_phase", edge)
+
+    # Ensure v2.1.0 syllabus_bucket and workbook_organizer defaults if not already set
+    if not enriched.get("syllabus_bucket"):
+        if mode == "PREREQUISITE_CAMPOUT_HOME":
+            enriched["syllabus_bucket"] = "Pre-Class Prerequisite"
+        elif mode == "HANDS_ON_SKILL_STATION":
+            enriched["syllabus_bucket"] = "In-Class Demonstration"
+        else:
+            enriched["syllabus_bucket"] = "In-Class Concept"
+    try:
+        from src.memory.session_store import PersistentSessionStore
+        overrides = PersistentSessionStore().list_syllabus_bucket_overrides_sync(badge_name)
+        if req_num in overrides:
+            enriched["syllabus_bucket"] = overrides[req_num]
+    except Exception:
+        pass
+    if not enriched.get("workbook_organizer"):
+        enriched["workbook_organizer"] = {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST" if mode == "HANDS_ON_SKILL_STATION" else "RULED_EXPLAIN_BOX",
+            "headers": [f"Req {req_num} Concept / Step", "Key Pamphlet Facts & Field Notes"],
+            "row_labels": ["Step / Point 1", "Step / Point 2", "Step / Point 3"],
+            "min_rows": 3,
+            "pre_approval_gate": "approval" in req_text.lower(),
+        }
+    if not enriched.get("common_misconception_pair"):
+        enriched["common_misconception_pair"] = {
+            "misconception": f"Reading a brief summary of {badge_name} Requirement {req_num} is sufficient for Blue Card sign-off.",
+            "fact": f"Each Scout must individually {verb.lower()} mastery of {badge_name} Requirement {req_num} grounded in the official BSA pamphlet.",
+        }
+    if not enriched.get("curated_resources"):
+        u_slug = badge_name.lower().replace(",", "").replace("&", "and").replace(" ", "-")
+        enriched["curated_resources"] = [
+            {
+                "title": f"Official Scouting America {badge_name} Hub (Req {req_num})",
+                "url": f"https://www.scouting.org/merit-badges/{u_slug}/",
+                "source_org": "Scouting America",
+                "resource_type": "Official DRG",
+            }
+        ]
 
     pamphlet_info = summarize_pamphlet_for_requirement(
         badge_name=badge_name,
@@ -4278,6 +4370,18 @@ def _merge_curated_with_official_requirements(
             m_req["parent_id"] = None
             m_req["req_text"] = off_r.get("req_text") or m_req.get("req_text", "")
             m_req["sub_requirements"] = list(off_r.get("sub_requirements") or [])
+            for extra_k in (
+                "syllabus_bucket",
+                "workbook_organizer",
+                "pamphlet_page_citation",
+                "common_misconception_pair",
+                "starting_requirement_gate",
+                "curated_resources",
+                "estimated_minutes",
+                "homework_verification_note",
+            ):
+                if off_r.get(extra_k) is not None and not m_req.get(extra_k):
+                    m_req[extra_k] = off_r[extra_k]
             if m_req.get("topic_title"):
                 m_req["topic_title"] = re.sub(
                     r"^Req\s+[0-9a-zA-Z]+\s*:",
@@ -4298,12 +4402,12 @@ def _merge_curated_with_official_requirements(
                 m_req["topic_slides"] = updated_ts
             merged_reqs.append(m_req)
         else:
-            merged_reqs.append({
-                "req_id": r_num,
-                "req_number": r_num,
-                "req_text": off_r.get("req_text", ""),
-                "sub_requirements": list(off_r.get("sub_requirements") or []),
-            })
+            m_off = dict(off_r)
+            m_off["req_id"] = r_num
+            m_off["req_number"] = r_num
+            m_off["req_text"] = off_r.get("req_text", "")
+            m_off["sub_requirements"] = list(off_r.get("sub_requirements") or [])
+            merged_reqs.append(m_off)
     return merged_reqs
 
 
@@ -4926,18 +5030,20 @@ def generate_counselor_workbook_markdown(
     contact_suffix = f" — `{' • '.join(contact_parts)}`" if contact_parts else ""
 
     lines: List[str] = [
-        f"# {badge_name} Merit Badge — Scout & Counselor Class Preparation Workbook",
+        f"# {badge_name} Merit Badge - Scout & Counselor Class Preparation Workbook",
         f"**Classification:** {eagle_tag}  ",
         f"**Counselor:** {c_name} ({c_troop}){contact_suffix}",
         f"**Official Pamphlet PDF:** {pdf_url}  ",
         f"**Digital Resource Guide (DRG):** {drg_url}",
         "",
+        "> **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.",
+        "",
         "---",
         "",
-        "## 1. Requirement Execution-Mode Triage Matrix",
+        "## 1. Requirement Execution-Mode & 5-Tier Syllabus Triage Matrix",
         "",
-        "| Req # | Topic | Action Verb | Execution Mode | Pamphlet Reference | Counselor Sign-Off Date & Initials |",
-        "| :--- | :--- | :--- | :--- | :--- | :--- |",
+        "| Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |",
+        "| :--- | :--- | :--- | :--- | :--- | :--- | :--- |",
     ]
 
     prereq_reqs: List[Dict[str, Any]] = []
@@ -4948,11 +5054,15 @@ def generate_counselor_workbook_markdown(
         topic = r.get("topic_title") or f"Req {r_num}"
         verb = r.get("action_verb", "Explain")
         mode = r.get("execution_mode", "IN_CLASS_DISCUSSION")
-        cit = r.get("pamphlet_citation") or "Official BSA Pamphlet"
-        lines.append(f"| **{r_num}** | {topic} | {verb} | `{mode}` | {cit} | `[ ____ / ____ / 2026 ]  Init: ____` |")
-        if mode == "PREREQUISITE_CAMPOUT_HOME":
+        bucket = r.get("syllabus_bucket") or (
+            "Pre-Class Prerequisite" if mode == "PREREQUISITE_CAMPOUT_HOME"
+            else ("In-Class Demonstration" if mode == "HANDS_ON_SKILL_STATION" else "In-Class Concept")
+        )
+        cit = r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet"
+        lines.append(f"| **{r_num}** | {topic} | {verb} | `{mode}` | **{bucket}** | {cit} | `[ ____ / ____ / 2026 ]  Init: ____` |")
+        if mode == "PREREQUISITE_CAMPOUT_HOME" or bucket == "Pre-Class Prerequisite":
             prereq_reqs.append(r)
-        elif mode == "HANDS_ON_SKILL_STATION":
+        elif mode == "HANDS_ON_SKILL_STATION" or bucket == "In-Class Demonstration":
             station_reqs.append(r)
 
     lines.extend([
@@ -4981,7 +5091,7 @@ def generate_counselor_workbook_markdown(
 
     lines.extend([
         "",
-        "## 4. Detailed Requirement Study Notes & Pamphlet Summaries",
+        "## 4. Detailed Requirement Study Notes, Verb-Aligned Organizers & Pamphlet Summaries",
         "",
     ])
     for r in reqs:
@@ -4989,12 +5099,29 @@ def generate_counselor_workbook_markdown(
         topic = r.get("topic_title") or f"Requirement {r_num}"
         lines.append(f"### {topic}")
         lines.append(f"**Official Requirement {r_num}:** {r.get('req_text', '')}")
-        if r.get("pamphlet_citation"):
-            lines.append(f"**Source:** *{r['pamphlet_citation']}*")
+        if r.get("pamphlet_page_citation") or r.get("pamphlet_citation"):
+            lines.append(f"**Source:** *{r.get('pamphlet_page_citation') or r.get('pamphlet_citation')}*")
         if r.get("safety_callout"):
             lines.append(f"> **Guide to Safe Scouting Warning:** {r['safety_callout']}")
+        gate = r.get("starting_requirement_gate")
+        if isinstance(gate, dict) and gate.get("gate_label"):
+            lines.append(f"> **Starting Gate ({gate.get('gate_type', 'GATE')}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
+        org = r.get("workbook_organizer") or {}
+        if isinstance(org, dict) and org.get("headers"):
+            headers = org.get("headers") or ["Sub-Part / Step", "Scout Notes & Field Evidence"]
+            row_labels = org.get("row_labels") or ["Row 1", "Row 2", "Row 3"]
+            if org.get("pre_approval_gate"):
+                lines.append("")
+                lines.append("**COUNSELOR PRE-APPROVAL REQUIRED BEFORE STARTING:** `Approved By: ___________________ Date: __________`")
+            lines.append("")
+            lines.append("| " + " | ".join(str(h) for h in headers) + " |")
+            lines.append("| " + " | ".join(":---" for _ in headers) + " |")
+            for rl in row_labels:
+                blank_cols = ["`____________________________________`" for _ in headers[1:]]
+                lines.append(f"| **{rl}** | " + " | ".join(blank_cols) + " |")
         excerpts = r.get("pamphlet_excerpts") or []
         if excerpts:
+            lines.append("")
             lines.append("**Official Pamphlet Summary:**")
             for ex in excerpts:
                 lines.append(f"- {ex}")
@@ -5003,6 +5130,196 @@ def generate_counselor_workbook_markdown(
         lines.append("")
 
     return "\n".join(lines)
+
+
+def generate_fillable_scout_workbook_html(
+    badge_name: str,
+    counselor_info: Optional[Dict[str, Any]] = None,
+    option_track: str = "ALL",
+    session_dates: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    """Generates a print-ready, verb-aligned Fillable Scout Workbook (HTML + Markdown) for any of the 149 badges.
+
+    Enforces:
+    1. Mandatory `GTA §7.0.3.2` compliance banner (`Optional organizational study aid`).
+    2. Option Track `A`/`B` filtering so Option A workbooks omit Option B tables and vice versa.
+    3. Verb-aligned graphic organizer tables (`COMPARE_CONTRAST_2COL`, `CAUSE_PREVENTION_MITIGATION_3COL`,
+       `STEP_BY_STEP_CHECKLIST`, `TIME_SERIES_LOG_TABLE`, `RULED_EXPLAIN_BOX`).
+    4. Dedicated `COUNSELOR PRE-APPROVAL REQUIRED` signature boxes where applicable.
+    """
+    import html as _html
+    from src.config import is_discontinued_badge, is_test_lab_badge
+
+    res = fetch_merit_badge_pamphlet_pdf(
+        MeritBadgeResearchRequest(
+            badge_name=badge_name,
+            option_track=option_track,
+            counselor_info=CounselorTitleSlideInfo(**counselor_info) if counselor_info else None,
+        )
+    )
+    if res.get("status") == "ERROR":
+        return res
+
+    resolved_badge = str(res.get("badge_name") or badge_name)
+    reqs = list(res.get("requirements") or [])
+    c_info = counselor_info or {}
+    c_name = _html.escape(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
+    c_troop = _html.escape(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
+    c_email = _html.escape(str(c_info.get("email_address") or "counselor@scouting.org"))
+    is_eagle = bool(res.get("is_eagle_required"))
+    is_tl = is_test_lab_badge(resolved_badge)
+    is_disc = is_discontinued_badge(resolved_badge)
+
+    badge_pills_html = (
+        '<span class="wb-pill eagle">EAGLE-REQUIRED</span>'
+        if is_eagle
+        else '<span class="wb-pill elective">ELECTIVE MERIT BADGE</span>'
+    )
+    if is_tl:
+        badge_pills_html += ' <span class="wb-pill testlab">TEST LAB PILOT</span>'
+    if is_disc:
+        badge_pills_html += ' <span class="wb-pill discontinued">DISCONTINUED</span>'
+    if option_track and option_track.upper() != "ALL":
+        badge_pills_html += f' <span class="wb-pill option">OPTION TRACK {_html.escape(option_track.upper())}</span>'
+
+    req_sections_html: List[str] = []
+    for idx, r in enumerate(reqs, start=1):
+        r_num = _html.escape(str(r.get("req_number") or str(idx)))
+        r_title = _html.escape(str(r.get("topic_title") or f"Requirement {r_num}"))
+        r_text = _html.escape(str(r.get("req_text") or ""))
+        r_verb = _html.escape(str(r.get("action_verb") or "Explain"))
+        r_bucket = _html.escape(str(r.get("syllabus_bucket") or "In-Class Concept"))
+        r_cit = _html.escape(str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet"))
+        org = r.get("workbook_organizer") or {}
+        org_type = _html.escape(str(org.get("organizer_type") or "RULED_EXPLAIN_BOX"))
+        headers = [str(h) for h in (org.get("headers") or [f"Req {r_num} Sub-Part", "Scout Notes & Field Evidence"])]
+        row_labels = [str(rl) for rl in (org.get("row_labels") or ["Item 1", "Item 2", "Item 3"])]
+        pre_app = bool(org.get("pre_approval_gate"))
+
+        pre_app_html = ""
+        if pre_app:
+            pre_app_html = (
+                '<div class="wb-preapproval-box">'
+                '<strong>COUNSELOR PRE-APPROVAL GATE:</strong> Obtain Counselor signature before executing this project/plan. '
+                '<span class="wb-sig-line">Counselor Signature: _______________________ Date: ____________</span>'
+                "</div>"
+            )
+
+        th_cells = "".join(f"<th>{_html.escape(h)}</th>" for h in headers)
+        tbody_rows: List[str] = []
+        for rl in row_labels:
+            editable_cells = "".join(
+                '<td class="wb-fillable-cell" contenteditable="true">&nbsp;</td>'
+                for _ in headers[1:]
+            )
+            tbody_rows.append(f"<tr><td class='wb-row-label'><strong>{_html.escape(rl)}</strong></td>{editable_cells}</tr>")
+
+        mis = r.get("common_misconception_pair") or {}
+        mis_html = ""
+        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact"):
+            mis_html = (
+                '<div class="wb-misconception-strip">'
+                f'<span class="wb-myth"><strong>Common Myth:</strong> {_html.escape(str(mis["misconception"]))}</span> '
+                f'<span class="wb-fact"><strong>Pamphlet Fact:</strong> {_html.escape(str(mis["fact"]))}</span>'
+                "</div>"
+            )
+
+        req_sections_html.append(
+            f"""
+            <section class="wb-req-block" data-req-number="{r_num}" data-organizer-type="{org_type}">
+              <div class="wb-req-header">
+                <div>
+                  <span class="wb-req-badge">Req {r_num}</span>
+                  <strong class="wb-req-title">{r_title}</strong>
+                </div>
+                <div class="wb-req-meta">
+                  <span class="wb-verb-tag">{r_verb}</span>
+                  <span class="wb-bucket-tag">{r_bucket}</span>
+                  <span class="wb-cit-tag">📖 {r_cit}</span>
+                </div>
+              </div>
+              <p class="wb-verbatim-text">{r_text}</p>
+              {pre_app_html}
+              {mis_html}
+              <table class="wb-organizer-table" id="wb-table-req-{r_num}">
+                <thead><tr>{th_cells}</tr></thead>
+                <tbody>{"".join(tbody_rows)}</tbody>
+              </table>
+              <div class="wb-signoff-strip">
+                <span>Scout Initials: ________</span>
+                <span>Buddy Verification: ________</span>
+                <span>Counselor Sign-Off: _____________________ Date: ____/____/2026</span>
+              </div>
+            </section>
+            """
+        )
+
+    dates_str = " | ".join(session_dates) if session_dates else "Session 1 • Session 2 • Session 3 • Session 4 • Make-Up Day"
+    html_doc = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{_html.escape(resolved_badge)} Merit Badge - Fillable Scout Workbook</title>
+  <style>
+    body {{ font-family: 'Segoe UI', Roboto, Arial, sans-serif; color: #0f172a; margin: 20px; line-height: 1.45; }}
+    .wb-header {{ border-bottom: 3px solid #003f87; padding-bottom: 12px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: flex-start; }}
+    .wb-title {{ font-size: 22px; font-weight: 800; color: #003f87; margin: 0 0 6px 0; }}
+    .wb-pill {{ display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; margin-right: 6px; }}
+    .wb-pill.eagle {{ background: #fef3c7; color: #92400e; border: 1px solid #f59e0b; }}
+    .wb-pill.elective {{ background: #e0f2fe; color: #075985; border: 1px solid #0284c7; }}
+    .wb-pill.testlab {{ background: #f3e8ff; color: #6b21a8; border: 1px solid #9333ea; }}
+    .wb-pill.discontinued {{ background: #fee2e2; color: #991b1b; border: 1px solid #dc2626; }}
+    .wb-gta-banner {{ background: #eff6ff; border-left: 4px solid #003f87; padding: 8px 12px; font-size: 12px; margin-bottom: 16px; }}
+    .wb-scout-id-grid {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 16px; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; font-size: 12px; }}
+    .wb-req-block {{ border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px; margin-bottom: 14px; page-break-inside: avoid; }}
+    .wb-req-header {{ display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; margin-bottom: 8px; }}
+    .wb-req-badge {{ background: #003f87; color: #fff; padding: 2px 8px; border-radius: 4px; font-weight: 700; font-size: 12px; margin-right: 6px; }}
+    .wb-verb-tag, .wb-bucket-tag, .wb-cit-tag {{ font-size: 11px; padding: 2px 6px; border-radius: 4px; background: #f1f5f9; color: #334155; margin-left: 4px; }}
+    .wb-verbatim-text {{ font-size: 12.5px; color: #1e293b; margin: 6px 0 10px 0; }}
+    .wb-preapproval-box {{ background: #fffbeb; border: 1px solid #f59e0b; color: #92400e; padding: 6px 10px; border-radius: 4px; font-size: 11.5px; margin-bottom: 8px; }}
+    .wb-misconception-strip {{ background: #f8fafc; border-left: 3px solid #ce1126; padding: 6px 10px; font-size: 11.5px; margin-bottom: 8px; }}
+    .wb-organizer-table {{ width: 100%; border-collapse: collapse; margin-bottom: 8px; font-size: 12px; }}
+    .wb-organizer-table th {{ background: #003f87; color: #fff; text-align: left; padding: 6px 8px; border: 1px solid #003f87; }}
+    .wb-organizer-table td {{ border: 1px solid #94a3b8; padding: 8px; vertical-align: top; }}
+    .wb-row-label {{ width: 28%; background: #f8fafc; }}
+    .wb-fillable-cell {{ min-height: 28px; background: #ffffff; }}
+    .wb-signoff-strip {{ display: flex; justify-content: space-between; font-size: 11px; color: #475569; padding-top: 4px; }}
+    @media print {{ body {{ margin: 0.4in; }} .no-print {{ display: none !important; }} }}
+  </style>
+</head>
+<body>
+  <div class="wb-header">
+    <div>
+      <h1 class="wb-title">{_html.escape(resolved_badge)} Merit Badge — Verb-Aligned Fillable Scout Workbook</h1>
+      <div>{badge_pills_html}</div>
+      <div style="font-size:12px; color:#475569; margin-top:4px;">Counselor: {c_name} ({c_troop}) • {c_email} • Schedule: {_html.escape(dates_str)}</div>
+    </div>
+  </div>
+  <div class="wb-gta-banner">
+    <strong>BSA Guide to Advancement §7.0.3.2 Notice:</strong> Merit badge workbooks are optional organizational study aids for Scouts. A counselor must never require a Scout to fill out a worksheet as a condition of sign-off when the official requirement specifies oral explanation, discussion, or physical demonstration.
+  </div>
+  <div class="wb-scout-id-grid">
+    <div><strong>Scout Name:</strong> _______________________</div>
+    <div><strong>Troop &amp; Council:</strong> ___________________</div>
+    <div><strong>BSA Member ID:</strong> ____________________</div>
+    <div><strong>Option Track:</strong> {_html.escape(option_track.upper())}</div>
+  </div>
+  {"".join(req_sections_html)}
+</body>
+</html>"""
+
+    return {
+        "status": "SUCCESS",
+        "badge_name": resolved_badge,
+        "is_eagle_required": is_eagle,
+        "is_test_lab_pilot": is_tl,
+        "is_discontinued": is_disc,
+        "selected_option_track": option_track.upper(),
+        "requirement_count": len(reqs),
+        "gta_compliance_clause": "GTA §7.0.3.2",
+        "workbook_html": html_doc,
+        "workbook_markdown": res.get("counselor_workbook_markdown", ""),
+    }
 
 
 # ==============================================================================
@@ -5100,7 +5417,7 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
             )
             return result.model_dump()
 
-    # 2. Check if badge is in the 144-badge OFFICIAL_BSA_MERIT_BADGES_CATALOG
+    # 2. Check if badge is in the 149-badge OFFICIAL_BSA_MERIT_BADGES_CATALOG
     from src.config import get_merit_badge_metadata
 
     catalog_meta = get_merit_badge_metadata(raw_name)
@@ -5126,22 +5443,21 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
             return build_guided_tool_error(
                 error_type="BADGE_PAMPHLET_NOT_FOUND",
                 message=f"Could not locate official PDF pamphlet for badge '{request.badge_name}'.",
-                recovery_suggestion="Check spelling or select from the 144 official Scouts BSA Merit Badges.",
+                recovery_suggestion="Check spelling or select from the 149 official Scouts BSA Merit Badges.",
                 available_badges_sample=["First Aid", "Camping", "Weather", "Citizenship in the Community"],
             )
 
-    # 3. Prefer official requirements from data/official_requirements_cache.json for all 144 Merit Badges!
+    # 3. Prefer official requirements from data/official_requirements_cache.json for all 149 Merit Badges!
     cached_official_reqs = official_cache.get(resolved_name)
     if cached_official_reqs:
-        raw_fallback_reqs = [
-            {
-                "req_id": str(off_r.get("req_number", str(i + 1))),
-                "req_number": str(off_r.get("req_number", str(i + 1))),
-                "req_text": str(off_r.get("req_text", "")),
-                "sub_requirements": list(off_r.get("sub_requirements") or []),
-            }
-            for i, off_r in enumerate(cached_official_reqs)
-        ]
+        raw_fallback_reqs = []
+        for i, off_r in enumerate(cached_official_reqs):
+            r_copy = dict(off_r)
+            r_copy["req_id"] = str(off_r.get("req_number", str(i + 1)))
+            r_copy["req_number"] = str(off_r.get("req_number", str(i + 1)))
+            r_copy["req_text"] = str(off_r.get("req_text", ""))
+            r_copy["sub_requirements"] = list(off_r.get("sub_requirements") or [])
+            raw_fallback_reqs.append(r_copy)
         raw_fallback_reqs = _unroll_multi_option_requirements(
             resolved_name, raw_fallback_reqs, option_track=req_opt_track
         )
@@ -5265,5 +5581,21 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
         status="SUCCESS",
     )
     return result.model_dump()
+
+
+def fetch_official_merit_badge_requirements(
+    badge_name: str,
+    option_track: str = "ALL",
+    counselor_info: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """Convenience wrapper around `fetch_merit_badge_pamphlet_pdf` accepting a string badge_name."""
+    return fetch_merit_badge_pamphlet_pdf(
+        MeritBadgeResearchRequest(
+            badge_name=badge_name,
+            option_track=option_track or "ALL",
+            counselor_info=CounselorTitleSlideInfo(**counselor_info) if counselor_info else None,
+        )
+    )
+
 
 

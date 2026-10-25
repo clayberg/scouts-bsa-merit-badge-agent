@@ -2,8 +2,8 @@
 
 The FastAPI server (`src/server.py`) serves the Material 3 web workbench (`/`), versioned REST endpoints (`/api/v1/*`), legacy unversioned aliases (`/api/*` with RFC 8594 `Deprecation: true` and `Sunset: 2027-01-01` headers), PowerPoint Template & Custom Slide Theme Engine endpoints (`/api/v1/templates*`), Multi-Badge Saved Deck Workspaces & Starred Favorites endpoints (`/api/v1/workspaces*`, `/api/v1/badges/favorites*`), Official Scouts BSA Workbench Model Context Protocol (`MCP`) endpoints (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`, documented in the **[MCP Server Integration Guide](MCP_SERVER_INTEGRATION_GUIDE.md)**), Merit Badge Image Studio endpoints (`/api/v1/badge/images`, `/api/v1/slide/*`), in-app documentation endpoints (`/api/v1/docs`, `/api/v1/docs/{doc_id}`), Super-User Admin Console and Zero-PII Telemetry endpoints (`/api/v1/admin/*`, documented in [`docs/ADMIN_GUIDE.md`](ADMIN_GUIDE.md)), counselor profile persistence (`/api/v1/counselor-profile`), Server-Sent Events (`/api/v1/workflow/stream`), Agent-to-Agent (`A2A 1.0`) task routes (`/a2a/*`), and container health checks (`/health`, `/readiness`).
 
-- **OpenAPI 3.1 schema (`127` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified across **`88/88` passing `pytest` tests (`0` warnings)** in `tests/test_resilience_and_fault_injection.py` and `tests/test_conformance_and_a2ui.py`.
-- **MCP Server Integration Guide (`12` Tools, `6` `bsa://` Resources, `4` Prompts)**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md) (`python -m src.mcp_server` / `scouts-bsa-mcp` stdio CLI + HTTP `/mcp` & `/mcp/sse`).
+- **OpenAPI 3.1 schema (`141` paths)**: [`docs/openapi.yaml`](openapi.yaml), exported by `scripts/export_openapi.py` and verified across **`97/97` passing `pytest` tests (`0` warnings)** in `tests/test_resilience_and_fault_injection.py`, `tests/test_conformance_and_a2ui.py`, and `tests/test_v21_single_counselor_bucky_and_mbc_enhancements.py`.
+- **MCP Server Integration Guide (`15` Tools, `7` `bsa://` Resources, `5` Prompts)**: [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md) (`python -m src.mcp_server` / `scouts-bsa-mcp` stdio CLI + HTTP `/mcp` & `/mcp/sse`).
 - **Swagger UI**: `http://localhost:8085/docs` (or `http://localhost:8080/docs` when started with `--port 8080`)
 - **A2A 1.0 Agent Card**: `http://localhost:8085/.well-known/agent.json`
 
@@ -20,7 +20,7 @@ Every HTTP response includes `X-API-Version: 1.2.0`. Calls to unversioned `/api/
 
 ---
 
-## 2. Endpoint summary (`127` OpenAPI 3.1 paths)
+## 2. Endpoint summary (`141` OpenAPI 3.1 paths)
 
 All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in `docs/openapi.yaml`.
 
@@ -30,8 +30,8 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 | :--- | :--- | :--- |
 | `GET /` | Serves the Material 3 Expressive Counselor Workbench (`ui/index.html`). | No |
 | `GET /health`, `GET /api/v1/health` | Container liveness check (`{"status": "UP", "version": "3.1.0"}`). | No (Cloud Run probe) |
-| `GET /readiness` | Deep readiness check for SQLite session store, 144-badge catalog, FinOps and Model Armor policy JSON files, and circuit breakers. | No (Cloud Run probe) |
-| `GET /api/v1/badges` | Lists all 144 official Scouts BSA Merit Badges with category, Eagle-required status, favorite flag (`is_favorite`), sub-requirement count, and pamphlet/DRG URLs. | Yes |
+| `GET /readiness` | Deep readiness check for 12-table SQLite session store, 149-badge catalog, FinOps and Model Armor policy JSON files, and circuit breakers. | No (Cloud Run probe) |
+| `GET /api/v1/badges` | Lists all 149 Scouts BSA Merit Badges (`143` Active Official, `5` Test Lab Pilots, `1` Discontinued Historical) with category, Eagle-required status, `is_test_lab`, `is_discontinued`, `status`, favorite flag (`is_favorite`), sub-requirement count, and pamphlet/DRG URLs. | Yes |
 | `GET /api/v1/badges/favorites` | Lists all Merit Badges starred as favorites (`counselor_favorites` SQLite table). | Yes |
 | `POST /api/v1/badges/favorites/toggle` | Toggles `⭐` favorite status (`badge_name`) in `counselor_favorites` and returns the updated favorite list. | Yes |
 | `GET /api/v1/templates` | Lists the **17 built-in Scouting America & Heritage PowerPoint templates** (`default_workbench`, `scouting_america_250`, `scouting_america_forest_sunrise`, `scouting_america_topographic`, `scouting_america_high_adventure_rock`, `classic_outdoor_silhouette_navy`, `classic_fleur_crimson_crest`, `wilderness_camp_timber`) plus custom uploaded/URL templates with `SafeCanvasBounds`. | Yes |
@@ -52,7 +52,14 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 | `POST /api/v1/upload-logo` | Uploads a custom Troop or Council logo (`.png`, `.jpg`, `.jpeg` as Base64 data URL), writes it to `assets/custom_logos/`, and returns `logo_path` and `logo_url`. | Yes |
 | `POST /api/v1/workflow/run` | Runs the 7-agent pipeline and returns the `.pptx` download URL, `.md` workbook, storyboard, lesson plan, parent letter, resolved location context, per-badge image catalog, and FinOps cost breakdown. | Yes |
 | `GET /api/v1/workflow/stream` | Streams real-time Server-Sent Events (`text/event-stream`) as each agent stage finishes. | No (Browser EventSource) |
-| `POST /api/v1/studiokit/agenda` | Regenerates the Counselor Session Agenda for a selected schedule format (`3 Troop Meetings (45 min each)`, `Summer Camp Week`, `Saturday Merit Badge Clinic`, or `Weekend Campout Practicum`). | Yes |
+| `POST /api/v1/studiokit/agenda` | Regenerates the Counselor Session Agenda for a selected schedule format (`3 Troop Meetings (45 min each)`, `Summer Camp Week`, `Saturday Merit Badge Clinic`, `Weekend Campout Practicum`, `4-Session MBC Clinic (75 min x 4 Saturdays)`, `2-Session Bi-Weekly Clinic`, or `Double-Block Companion Track`). | Yes |
+| `POST /api/v1/studiokit/fillable-workbook` | Generates a verb-aligned Fillable HTML5 & Print-Ready PDF Scout Merit Badge Workbook (`workbook_html`, `html_document`) with structured tables/matrices and the Guide to Advancement Section 7.0.3.2 banner. | Yes |
+| `POST /api/v1/studiokit/class-prep-cpp` | Generates a 1-Page Printable Class Preparation Page (`cpp_html`, `html_document`) with inline SVG QR code, 5-Tier Syllabus Bucket table, and supplies checklist. | Yes |
+| `POST /api/v1/studiokit/organizer-spec-sheet` | Generates the Organizer & MBC Registrar Syllabus Spec Sheet (`catalog_blurb`, `recommended_session_length`, `max_patrol_capacity`, `room_and_av_needs`, `prerequisite_summary`). | Yes |
+| `POST /api/v1/studiokit/ypt-three-stage-pack` | Generates the 3-Stage YPT Two-Deep Communication Pack (Stage 1 Welcome & Prereq, Stage 2 Mid-Clinic Progress, Stage 3 Final Partial & Sign-Off Report) with mandatory Two-Deep CC enforcement. | Yes |
+| `POST /api/v1/triage/attendance-and-partials` | Persists and queries multi-session `S1|S2|S3|S4|M` Scout attendance, troop unit tags, and Smart Partial differentiation (`actionable_makeup_reqs` vs. `expected_hometroop_reqs`) in SQLite WAL. | Yes |
+| `POST /api/v1/triage/bucket-override` | Saves or queries counselor overrides of a requirement's 5-Tier `SyllabusBucket` (`counselor_syllabus_bucket_overrides`). | Yes |
+| `POST /api/v1/slide/logistics-slides` | Generates or injects Opt-In Class Opening (`overview-logistics`) and Closing (`homework-checkout`) slides into a storyboard. | Yes |
 | `GET /api/v1/local-grounding/senators`, `POST /api/v1/local-grounding/senators` | Resolves current state U.S. Senators and official contact portals for a counselor's state, city, or ZIP code (with 24-hour cache TTL or `force=true` refresh). | Yes |
 | `GET /api/v1/qr.svg` | Generates an ISO/IEC 18004 scannable SVG QR code (`image/svg+xml`) for a target URL (`url`, `size=48..512`), used on the Cover Slide and printable workbooks. | No |
 | `POST /api/v1/hitl/confirm` | Validates counselor sign-off and returns an HMAC-SHA256 `confirmation_token`. | Yes |
@@ -84,7 +91,7 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 
 | Method and path | Purpose | Auth required in prod |
 | :--- | :--- | :--- |
-| `GET /mcp/info`, `GET /api/v1/mcp/info` | Returns the Scouts BSA Workbench MCP Server discovery manifest (`12` tools, `6` `bsa://` resources, `4` guided prompts, and ready-to-copy client configs for Claude Desktop, Gemini CLI / AGY, Cursor, and Google ADK). See [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md). | No |
+| `GET /mcp/info`, `GET /api/v1/mcp/info` | Returns the Scouts BSA Workbench MCP Server discovery manifest (`15` tools, `7` `bsa://` resources, `5` guided prompts, and ready-to-copy client configs for Claude Desktop, Gemini CLI / AGY, Cursor, and Google ADK). See [`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](MCP_SERVER_INTEGRATION_GUIDE.md). | No |
 | `POST /mcp`, `POST /api/v1/mcp` | Executes Model Context Protocol (`2024-11-05`) JSON-RPC 2.0 calls (`initialize`, `tools/list`, `tools/call`, `resources/list`, `resources/read`, `prompts/list`, `prompts/get`). | Yes |
 | `GET /mcp/sse`, `GET /api/v1/mcp/sse` | Streams Model Context Protocol Server-Sent Events (`text/event-stream`) for SSE-based MCP clients and IDEs. | No (SSE) |
 | `GET /api/v1/admin/session` | Checks whether the current browser session is authorized for the Super-User Admin Console (`is_admin`, `auth_mode`, `role`). | Super-User / Session |

@@ -65,8 +65,8 @@ Every release must pass the blocking verification suite (`.venv/bin/pytest tests
 
 | Metric / SLO ("Scorecard Against Done") | Target threshold | Observed benchmark | Verification mechanism |
 | :--- | :--- | :--- | :--- |
-| **Automated pytest suite** | `100%` pass rate (`88/88` tests, `0` warnings) | `88/88` passing (`100%`, `0` warnings) | `.venv/bin/pytest tests/` |
-| **OpenAPI 3.1 contract coverage** | `125` documented paths in `docs/openapi.yaml` | `125` verified paths | `scripts/export_openapi.py` & `tests/test_conformance_and_a2ui.py` |
+| **Automated pytest suite** | `100%` pass rate (`97/97` tests, `0` warnings) | `97/97` passing (`100%`, `0` warnings) | `.venv/bin/pytest tests/` |
+| **OpenAPI 3.1 contract coverage** | `141` documented paths in `docs/openapi.yaml` | `141` verified paths | `scripts/export_openapi.py` & `tests/test_conformance_and_a2ui.py` |
 | **Sub-requirement coverage recall** | `1.00` (`100%` of sub-requirements `1a..11`) | `1.00` (`100%` across `20` Golden Badges) | `scripts/eval_gate.py` & `scripts/run_eval.py` (`--min-recall 0.98`) |
 | **Hybrid RAG retrieval (`Recall@3` / `MRR` / `NDCG@3`) & NLG / `LLM-as-a-Judge` (`20` Golden Badges)** | `Recall@3 >= 0.90`, `MRR >= 0.85`; NLG `ROUGE-L >= 0.80`; `LLM-as-a-Judge >= 4.5 / 5.0` | `Recall@3 = 1.0000`, `MRR = 1.0000`, `NDCG@3 = 1.0000`; `ROUGE-L F1 = 0.8920`, `BLEU = 0.8140`, `Token F1 = 0.9050`; `LLM-as-a-Judge = 4.92 / 5.0` (`pedagogical_clarity`, `verbatim_grounding_fidelity`, `ypt_safety_compliance`, `edge_method_alignment`) | `tests/data/golden_badges.json`, `scripts/run_eval.py`, & `scripts/eval_gate.py` |
 | **Canonical pamphlet SHA-256 lock** | `100%` match (`0` requirement drift) | `100%` verified | `compute_canonical_pamphlet_hash()` |

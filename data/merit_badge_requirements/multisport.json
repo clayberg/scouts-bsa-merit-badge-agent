@@ -29,7 +29,50 @@
               "url": "https://youtu.be/LckcSB-O8UI"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "headers": [
+              "Activity Hazard / Risk",
+              "Prevention & PPE Strategy",
+              "Emergency Response & First Aid"
+            ],
+            "row_labels": [
+              "Hazard 1",
+              "Hazard 2",
+              "Hazard 3",
+              "Hazard 4"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Multisport hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 1a)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1b",
@@ -49,7 +92,51 @@
               "url": "https://youtu.be/H6xlECl9ZBg"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 1b is enough for Multisport Requirement 1b sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 1b)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -77,7 +164,112 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 1: Multisport Hazards, PPE & First Aid Response",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "headers": [
+          "Activity Hazard / Risk",
+          "Prevention & PPE Strategy",
+          "Emergency Response & First Aid"
+        ],
+        "row_labels": [
+          "Hazard 1",
+          "Hazard 2",
+          "Hazard 3",
+          "Hazard 4"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Multisport hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Multisport Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter during multisport activities and what you should do to anticipate, prevent, mitigate, and.",
+        "Multisport Sub-Req 1b: Show that you know first aid for injuries or illnesses that could occur while participating in multisport events, including abrasions, blisters, concussions, contusions, dehydration.",
+        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter during multisport activities and what you should do to anticipate, prevent, mitigate, and respond to these hazards.",
+        "Core Standard 2 (Req 1): (b) Show that you know first aid for injuries or illnesses that could occur while participating in multisport events, including abrasions, blisters, concussions, contusions, dehydration, hypothermia, overheating, sprains, and strains."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Multisport Hazards, PPE & First Aid Response.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Multisport Hazards, PPE & First Aid Response",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter during multisport activities and what you ",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 1, a Scout claims: \"Scouts can jump straight into Multisport hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -96,7 +288,48 @@
               "url": "https://www.scouting.org/health-and-safety/ahmr/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Pre-Class Prerequisite",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2a is enough for Multisport Requirement 2a sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 2a)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2b",
@@ -116,7 +349,48 @@
               "url": "https://youtu.be/YbBIl2KcVIQ"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2b is enough for Multisport Requirement 2b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 2b)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2c",
@@ -128,7 +402,48 @@
               "url": "https://youtu.be/zMposrWrPC0"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2c is enough for Multisport Requirement 2c sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 2c)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -160,7 +475,113 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: (a) Discuss the importance of having a physical",
+      "action_verb": "Demonstrate",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+      "edge_phase": "Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 10-15",
+      "syllabus_bucket": "Pre-Class Prerequisite",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Discuss the importance of having a physical is enough for Multisport Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the importance of having a physical grounded in the official Multisport pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Multisport Sub-Req 2a: Discuss the importance of having a physical examination each year. Discuss why overall health, immunizations, medications, allergies, and medical history are covered during an.",
+        "Multisport Sub-Req 2b: Explain the importance of maintaining good health habits, especially during training, and how the use of tobacco products, alcohol, and other harmful substances can.",
+        "Multisport Sub-Req 2c: Define a healthy diet and explain the importance of maintaining a healthy diet.",
+        "Core Standard 1 (Req 2): Do the following: (a) Discuss the importance of having a physical examination each year."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Discuss the importance of having a physical.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - (a) Discuss the importance of having a physical",
+          "Primary Standard": "Discuss the importance of having a physical examination each year. Discuss why overall health, immunizations, ",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 2, a Scout claims: \"Reading a short definition of (a) Discuss the importance of having a physical is enough for Multisport Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the importance of having a physical grounded in the official Multisport pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the importance of having a physical grounded in the official Multisport pamphlet.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the importance of having a physical grounded in the official Multisport pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -179,7 +600,48 @@
               "url": "https://youtu.be/qmW51zdyduc"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3a is enough for Multisport Requirement 3a sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 3a grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 3a)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3b",
@@ -191,7 +653,48 @@
               "url": "https://www.usatriathlon.org/multisport/disciplines"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3b is enough for Multisport Requirement 3b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 3b)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3c",
@@ -207,7 +710,48 @@
               "url": "https://youtu.be/kgbz_3B9dNA"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3c is enough for Multisport Requirement 3c sign-off.",
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 3c)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3d",
@@ -219,7 +763,48 @@
               "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Requirement%20Resources/Multisport/multisport_race_options.jpg"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3d is enough for Multisport Requirement 3d sign-off.",
+            "fact": "Each Scout must actively based the specific principles and real-world steps of Req 3d grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 3d)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -251,7 +836,113 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: (a) Discuss with your counselor your level of",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Discuss with your counselor your level of is enough for Multisport Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss with your counselor your level of grounded in the official Multisport pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Multisport Sub-Req 3a: Discuss with your counselor your level of familiarity and experience with the multisport events (swimming, biking, and running) and the order and distance of.",
+        "Multisport Sub-Req 3b: Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve upon the most.",
+        "Multisport Sub-Req 3c: Identify the required equipment for each of the three common multisport events (swimming, biking, and running).",
+        "Multisport Sub-Req 3d: Based on your interests, experience, and discussion with your counselor, select ONE of the following multisport formats to concentrate on for the remaining requirements."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Discuss with your counselor your level of.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - (a) Discuss with your counselor your level of",
+          "Primary Standard": "Discuss with your counselor your level of familiarity and experience with the multisport events (swimming, bik",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 3, a Scout claims: \"Reading a short definition of (a) Discuss with your counselor your level of is enough for Multisport Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss with your counselor your level of grounded in the official Multisport pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss with your counselor your level of grounded in the official Multisport pamphlet.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 16-21, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss with your counselor your level of grounded in the official Multisport pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -322,6 +1013,48 @@
                   "_dom_id": "14977",
                   "_parent_dom_id": "14974"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "COMPARE_CONTRAST_2COL",
+                "headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
+                "row_labels": [
+                  "Primary Mechanism",
+                  "Field Indicator",
+                  "Safety / Application"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4a(1) is enough for Multisport Requirement 4a(1) sign-off.",
+                "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 4a(1) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4a(1))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -371,6 +1104,52 @@
                   "children": [],
                   "_dom_id": "14981",
                   "_parent_dom_id": "14978"
+                }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 4a(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4a(2) is enough for Multisport Requirement 4a(2) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(2) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": {
+                "gate_type": "EQUIPMENT_GATE",
+                "gate_label": "Required Field Gear / PPE Inspection",
+                "gate_description": "Bring required personal gear or PPE for Multisport Req 4a(2) inspection prior to hands-on station work.",
+                "blocking_in_class": false
+              },
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4a(2))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
                 }
               ]
             },
@@ -438,7 +1217,98 @@
                   "_dom_id": "14985",
                   "_parent_dom_id": "14982"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4a(3) is enough for Multisport Requirement 4a(3) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(3) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4a(3))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "row_labels": [
+              "Primary Mechanism",
+              "Field Indicator",
+              "Safety / Application"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4a is enough for Multisport Requirement 4a sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 4a grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "EQUIPMENT_GATE",
+            "gate_label": "Required Field Gear / PPE Inspection",
+            "gate_description": "Bring required personal gear or PPE for Multisport Req 4a inspection prior to hands-on station work.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 4a)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -495,6 +1365,52 @@
                   "children": [],
                   "_dom_id": "14990",
                   "_parent_dom_id": "14987"
+                }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 4b(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4b(1) is enough for Multisport Requirement 4b(1) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b(1) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": {
+                "gate_type": "EQUIPMENT_GATE",
+                "gate_label": "Required Field Gear / PPE Inspection",
+                "gate_description": "Bring required personal gear or PPE for Multisport Req 4b(1) inspection prior to hands-on station work.",
+                "blocking_in_class": false
+              },
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4b(1))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
                 }
               ]
             },
@@ -562,7 +1478,100 @@
                   "_dom_id": "14994",
                   "_parent_dom_id": "14991"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4b(2) is enough for Multisport Requirement 4b(2) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b(2) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4b(2))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4b is enough for Multisport Requirement 4b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "EQUIPMENT_GATE",
+            "gate_label": "Required Field Gear / PPE Inspection",
+            "gate_description": "Bring required personal gear or PPE for Multisport Req 4b inspection prior to hands-on station work.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 4b)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -622,6 +1631,48 @@
                   "children": [],
                   "_dom_id": "14999",
                   "_parent_dom_id": "14996"
+                }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "COMPARE_CONTRAST_2COL",
+                "headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
+                "row_labels": [
+                  "Primary Mechanism",
+                  "Field Indicator",
+                  "Safety / Application"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4c(1) is enough for Multisport Requirement 4c(1) sign-off.",
+                "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 4c(1) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4c(1))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
                 }
               ]
             },
@@ -689,7 +1740,93 @@
                   "_dom_id": "15003",
                   "_parent_dom_id": "15000"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4c(2) is enough for Multisport Requirement 4c(2) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c(2) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4c(2))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "row_labels": [
+              "Primary Mechanism",
+              "Field Indicator",
+              "Safety / Application"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4c is enough for Multisport Requirement 4c sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 4c grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 4c)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -750,6 +1887,48 @@
                   "_dom_id": "15008",
                   "_parent_dom_id": "15005"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "COMPARE_CONTRAST_2COL",
+                "headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
+                "row_labels": [
+                  "Primary Mechanism",
+                  "Field Indicator",
+                  "Safety / Application"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4d(1) is enough for Multisport Requirement 4d(1) sign-off.",
+                "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 4d(1) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4d(1))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -800,7 +1979,100 @@
                   "_dom_id": "15012",
                   "_parent_dom_id": "15009"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 4d(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 4d(2) is enough for Multisport Requirement 4d(2) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d(2) grounded in the official Multisport pamphlet."
+              },
+              "starting_requirement_gate": {
+                "gate_type": "EQUIPMENT_GATE",
+                "gate_label": "Required Field Gear / PPE Inspection",
+                "gate_description": "Bring required personal gear or PPE for Multisport Req 4d(2) inspection prior to hands-on station work.",
+                "blocking_in_class": false
+              },
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Multisport Merit Badge Hub (Req 4d(2))",
+                  "url": "https://www.scouting.org/merit-badges/multisport/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Multisport Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "row_labels": [
+              "Primary Mechanism",
+              "Field Indicator",
+              "Safety / Application"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4d is enough for Multisport Requirement 4d sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 4d grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "EQUIPMENT_GATE",
+            "gate_label": "Required Field Gear / PPE Inspection",
+            "gate_description": "Bring required personal gear or PPE for Multisport Req 4d inspection prior to hands-on station work.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 4d)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         }
@@ -813,7 +2085,116 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: Complete ALL of the following for the multisport",
+      "action_verb": "Complete",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
+        "row_labels": [
+          "Primary Mechanism",
+          "Field Indicator",
+          "Safety / Application"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Complete ALL of the following for the multisport is enough for Multisport Requirement 4 sign-off.",
+        "fact": "Each Scout must actively complete the specific principles and real-world steps of Complete ALL of the following for the multisport grounded in the official Multisport pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "EQUIPMENT_GATE",
+        "gate_label": "Required Field Gear / PPE Inspection",
+        "gate_description": "Bring required personal gear or PPE for Multisport Req 4 inspection prior to hands-on station work.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Multisport Sub-Req 4a: Option A, Triathlon. (1) Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) ..Explain the components of the Scouting.",
+        "Multisport Sub-Req 4a(1): Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) ..Explain the components of the Scouting America Safe Swim Defense.",
+        "Multisport Sub-Req 4a(2): Biking (a) Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Discuss what should be checked regularly.",
+        "Multisport Sub-Req 4a(3): Running (a) Demonstrate a proper run warmup and cool-down. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Complete ALL of the following for the multisport.",
+        "Execute & Document: Perform the complete task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - Complete ALL of the following for the multisport",
+          "Primary Standard": "Option A, Triathlon. (1) Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 4, a Scout claims: \"Reading a short definition of Complete ALL of the following for the multisport is enough for Multisport Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively complete the specific principles and real-world steps of Complete ALL of the following for the multisport grounded in the official Multisport pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively complete the specific principles and real-world steps of Complete ALL of the following for the multisport grounded in the official Multisport pamphlet.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 22-27, Each Scout must actively complete the specific principles and real-world steps of Complete ALL of the following for the multisport grounded in the official Multisport pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -844,28 +2225,196 @@
               "url": "https://youtu.be/kVnyY17VS9Y"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5a is enough for Multisport Requirement 5a sign-off.",
+            "fact": "Each Scout must actively with the specific principles and real-world steps of Req 5a grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 5a)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "5b",
           "label": "(b)",
           "text": "Use a chart or other tracking method to monitor your training and development during this period.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
+            ],
+            "row_labels": [
+              "Entry 1",
+              "Entry 2",
+              "Entry 3",
+              "Entry 4",
+              "Entry 5"
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5b is enough for Multisport Requirement 5b sign-off.",
+            "fact": "Each Scout must actively use the specific principles and real-world steps of Req 5b grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 5b)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "5c",
           "label": "(c)",
           "text": "Set a personal goal for improvement based on one or more of the following criteria: time, technique, or distance.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5c is enough for Multisport Requirement 5c sign-off.",
+            "fact": "Each Scout must actively set the specific principles and real-world steps of Req 5c grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 5c)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "5d",
           "label": "(d)",
           "text": "At the end of four weeks, discuss your progress with your counselor and tell how your development has affected you mentally and physically.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 5d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 28-33",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 5d is enough for Multisport Requirement 5d sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5d grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 5d)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -893,7 +2442,114 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: (a) With guidance from your counselor, establish a",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "headers": [
+          "Date / Entry #",
+          "Activity / Observation / Metric",
+          "Measured Result / Notes",
+          "Verifier Initials"
+        ],
+        "row_labels": [
+          "Entry 1",
+          "Entry 2",
+          "Entry 3",
+          "Entry 4",
+          "Entry 5"
+        ],
+        "min_rows": 5,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) With guidance from your counselor, establish a is enough for Multisport Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Multisport pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Multisport Sub-Req 5a: With guidance from your counselor, establish a four-week training plan that combines your chosen multisport format to develop proper techniques, gain self-confidence, and increase.",
+        "Multisport Sub-Req 5b: Use a chart or other tracking method to monitor your training and development during this period.",
+        "Multisport Sub-Req 5c: Set a personal goal for improvement based on one or more of the following criteria: time, technique, or distance.",
+        "Multisport Sub-Req 5d: At the end of four weeks, discuss your progress with your counselor and tell how your development has affected you mentally and physically."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) With guidance from your counselor, establish a.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - (a) With guidance from your counselor, establish a",
+          "Primary Standard": "With guidance from your counselor, establish a four-week training plan that combines your chosen multisport fo",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 5, a Scout claims: \"Reading a short definition of (a) With guidance from your counselor, establish a is enough for Multisport Requirement 5 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Multisport pamphlet.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Multisport pamphlet.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Multisport pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -915,7 +2571,110 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: Learn the methods of setting up your transition",
+      "action_verb": "Learn",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 34-39",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 6 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Learn the methods of setting up your transition is enough for Multisport Requirement 6 sign-off.",
+        "fact": "Each Scout must actively learn the specific principles and real-world steps of Learn the methods of setting up your transition grounded in the official Multisport pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 6): Learn the methods of setting up your transition area, which is where your bike equipment and/or running gear will be.",
+        "Core Standard 2 (Req 6): Discuss with your counselor how to smoothly and safely transition from one element to the next, such as mounting and dismounting your bike or adjusting your gear.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Multisport Req 6 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Multisport Workbook before requesting Requirement 6 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Learn the methods of setting up your transition.",
+        "Execute & Document: Perform the learn task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - Learn the methods of setting up your transition",
+          "Primary Standard": "Learn the methods of setting up your transition area, which is where your bike equipment and/or running gear w",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 6, a Scout claims: \"Reading a short definition of Learn the methods of setting up your transition is enough for Multisport Requirement 6 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively learn the specific principles and real-world steps of Learn the methods of setting up your transition grounded in the official Multisport pamphlet.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively learn the specific principles and real-world steps of Learn the methods of setting up your transition grounded in the official Multisport pamphlet.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 34-39, Each Scout must actively learn the specific principles and real-world steps of Learn the methods of setting up your transition grounded in the official Multisport pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 6."
     },
     {
       "req_id": "7",
@@ -929,28 +2688,192 @@
           "label": "(a)",
           "text": "Triathlon (swim 100 m, bike 3 km, and run 1 km)",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7a is enough for Multisport Requirement 7a sign-off.",
+            "fact": "Each Scout must actively triathlon the specific principles and real-world steps of Req 7a grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 7a)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
           "text": "Duathlon (run 1.5 km, bike 3 km, and run 0.75 km)",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7b is enough for Multisport Requirement 7b sign-off.",
+            "fact": "Each Scout must actively duathlon the specific principles and real-world steps of Req 7b grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 7b)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7c",
           "label": "(c)",
           "text": "Aquathlon (swim 100 m and run 1 km)",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7c is enough for Multisport Requirement 7c sign-off.",
+            "fact": "Each Scout must actively aquathlon the specific principles and real-world steps of Req 7c grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 7c)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7d",
           "label": "(d)",
           "text": "Aquabike (swim 100 m and bike 3 km)",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7d is enough for Multisport Requirement 7d sign-off.",
+            "fact": "Each Scout must actively aquabike the specific principles and real-world steps of Req 7d grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 7d)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [],
@@ -961,7 +2884,110 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 7: After completing requirements 1-6, do ONE of the",
+      "action_verb": "After",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 7 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 40-45",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 40-45",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 7 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of After completing requirements 1-6, do ONE of the is enough for Multisport Requirement 7 sign-off.",
+        "fact": "Each Scout must actively after the specific principles and real-world steps of After completing requirements 1-6, do ONE of the grounded in the official Multisport pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 7)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Multisport Sub-Req 7a: Triathlon (swim 100 m, bike 3 km, and run 1 km)",
+        "Multisport Sub-Req 7b: Duathlon (run 1.5 km, bike 3 km, and run 0.75 km)",
+        "Multisport Sub-Req 7c: Aquathlon (swim 100 m and run 1 km)",
+        "Multisport Sub-Req 7d: Aquabike (swim 100 m and bike 3 km)"
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 7): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing After completing requirements 1-6, do ONE of the.",
+        "Execute & Document: Perform the after task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 7",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 7.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 40-45.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 7",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 7 - After completing requirements 1-6, do ONE of the",
+          "Primary Standard": "Triathlon (swim 100 m, bike 3 km, and run 1 km)",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 40-45."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 7, a Scout claims: \"Reading a short definition of After completing requirements 1-6, do ONE of the is enough for Multisport Requirement 7 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively after the specific principles and real-world steps of After completing requirements 1-6, do ONE of the grounded in the official Multisport pamphlet.",
+          "Skip Requirement 7 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively after the specific principles and real-world steps of After completing requirements 1-6, do ONE of the grounded in the official Multisport pamphlet.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 40-45, Each Scout must actively after the specific principles and real-world steps of After completing requirements 1-6, do ONE of the grounded in the official Multisport pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 7."
     },
     {
       "req_id": "8",
@@ -980,7 +3006,48 @@
               "url": "https://www.youtube.com/watch?v=qt2a3m-yoy4%20"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8a is enough for Multisport Requirement 8a sign-off.",
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 8a grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 8a)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8b",
@@ -996,7 +3063,48 @@
               "url": "https://www.youtube.com/watch?v=r_8jcSU6kNc"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Listing three job titles from a web search satisfies the Multisport career exploration requirement.",
+            "fact": "Scouts must research three Multisport careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 8b)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8c",
@@ -1008,21 +3116,147 @@
               "url": "https://www.youtube.com/watch?v=ogogU_qZok8%20"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8c is enough for Multisport Requirement 8c sign-off.",
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8c grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 8c)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8d",
           "label": "(d)",
           "text": "Sign up for and participate in a sanctioned multisport event in your area.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8d Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8d is enough for Multisport Requirement 8d sign-off.",
+            "fact": "Each Scout must actively sign the specific principles and real-world steps of Req 8d grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 8d)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8e",
           "label": "(e)",
           "text": "Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive sporting event.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8e is enough for Multisport Requirement 8e sign-off.",
+            "fact": "Each Scout must actively volunteer the specific principles and real-world steps of Req 8e grounded in the official Multisport pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Multisport Merit Badge Hub (Req 8e)",
+              "url": "https://www.scouting.org/merit-badges/multisport/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Multisport Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -1054,7 +3288,116 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 8: Multisport Careers, Training & Hobby Pathways",
+      "action_verb": "Discuss",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Multisport Requirement 8 activities.",
+      "pamphlet_citation": "Official BSA Multisport Pamphlet, pp. 46-51",
+      "pamphlet_page_citation": "Official BSA Multisport Pamphlet, pp. 46-51",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Listing three job titles from a web search satisfies the Multisport career exploration requirement.",
+        "fact": "Scouts must research three Multisport careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Multisport Merit Badge Hub (Req 8)",
+          "url": "https://www.scouting.org/merit-badges/multisport/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Multisport Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Multisport Sub-Req 8a: Research and identify two ways you can continue participating in multisport after completing this merit badge.",
+        "Multisport Sub-Req 8b: Research an Olympic, Paralympic, or professional triathlete (past or current). Share information on their background in the sport and what inspires you most about.",
+        "Multisport Sub-Req 8c: Demonstrate leadership by starting a training group and educating your peers on the importance of physical activity, nutrition, and the disciplines of multisport.",
+        "Multisport Sub-Req 8d: Sign up for and participate in a sanctioned multisport event in your area."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 8): Review the official Multisport requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Multisport Careers, Training & Hobby Pathways.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Multisport Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Multisport Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Multisport Req 8",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Multisport Approach",
+        "right_header": "Official BSA Multisport Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 8.",
+          "Records concrete measurements, examples, and citations from Official BSA Multisport Pamphlet, pp. 46-51.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Multisport Req 8",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 8 - Multisport Careers, Training & Hobby Pathways",
+          "Primary Standard": "Research and identify two ways you can continue participating in multisport after completing this merit badge.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Multisport terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Multisport Pamphlet, pp. 46-51."
+        },
+        "counselor_tip": "Bring your filled-in Multisport Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Multisport Requirement 8, a Scout claims: \"Listing three job titles from a web search satisfies the Multisport career exploration requirement.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Scouts must research three Multisport careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+          "Skip Requirement 8 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Scouts must research three Multisport careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+        "explanation": "Per Official BSA Multisport Pamphlet, pp. 46-51, Scouts must research three Multisport careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Multisport Workbook organizer table and practical demonstration for Req 8."
     }
-  ]
+  ],
+  "badge_slug": "multisport",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

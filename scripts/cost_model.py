@@ -35,7 +35,7 @@ PRICING_RATES_USD = {
     "nano_banana_or_imagen3_per_image": 0.080,
 }
 
-PRE_BUNDLED_VISUAL_ASSET_COUNT = 3917
+PRE_BUNDLED_VISUAL_ASSET_COUNT = 4124
 HARD_BUDGET_CEILING_USD = 1.00
 
 
@@ -95,18 +95,18 @@ def compute_per_deck_agent_breakdown() -> list[dict[str, Any]]:
             "output_tokens": 6800,
             "retry_multiplier": 1.00,
             "cost_usd": 0.086,
-            "notes": "Plans 12-archetype storyboard + Layer-1 [SAY]/[DEMO]/[ASK] scripts (<5ms deterministic).",
+            "notes": "Plans 12-archetype storyboard + 5-Part Facilitator Guide scripts (<5ms deterministic).",
         },
         {
             "stage_id": "3_SlideBeautifierAgent",
             "agent_name": "SlideBeautifierAgent",
-            "model": "gemini-2.5-flash + 3,917 Pre-Bundled Visuals",
+            "model": "gemini-2.5-flash + 4,124 Pre-Bundled Visuals",
             "uncached_input_tokens": 3900,
             "cached_input_tokens": 1600,
             "output_tokens": 1800,
             "retry_multiplier": 1.00,
             "cost_usd": 0.050,
-            "notes": "$0.00 runtime image synthesis cost via 3,917 pre-bundled PNG assets (saves $0.200-$1.440/deck).",
+            "notes": "$0.00 runtime image synthesis cost via 4,124 pre-bundled PNG assets (saves $0.200-$1.440/deck).",
         },
         {
             "stage_id": "4_PowerPointBuilderAgent",
@@ -297,7 +297,7 @@ def _format_markdown_report(model: dict[str, Any]) -> str:
             f"**${s['cost_usd']:.3f}** |"
         )
     lines.append(
-        f"| **Total Cold Default Deck** | **7 Specialist Agents + 3,917 Pre-Bundled Visuals** | **20,700** | **15,000** | **12,500** | **Bounded** | **${model['cold_default_deck_cost_usd']:.3f}** |"
+        f"| **Total Cold Default Deck** | **7 Specialist Agents + 4,124 Pre-Bundled Visuals** | **20,700** | **15,000** | **12,500** | **Bounded** | **${model['cold_default_deck_cost_usd']:.3f}** |"
     )
     lines.extend([
         "",

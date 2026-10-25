@@ -49,7 +49,56 @@
               "url": "https://youtu.be/-nZHTqSaJ0c"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 1a is enough for Scuba Diving Requirement 1a sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scuba Diving pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "HARD_PREREQ_BADGE",
+            "gate_label": "BSA Swimmer Classification Gate",
+            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+            "blocking_in_class": true
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 1a)",
+              "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Scuba Diving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1b",
@@ -61,7 +110,56 @@
               "url": "https://youtu.be/6eRwgM2Pa4o"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
+            "fact": "Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Scuba Diving Req 1b plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 1b)",
+              "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Scuba Diving Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -101,7 +199,118 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 1: (a) Show that you know first aid for",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scuba Diving Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Scuba Diving Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Scuba Diving hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Scuba Diving prevents most field injuries."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Scuba Diving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Scuba Diving Sub-Req 1a: Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression illness, nitrogen narcosis.",
+        "Scuba Diving Sub-Req 1b: Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions. Demonstrate the proper technique for.",
+        "Core Standard 1 (Req 1): Do the following: (a) Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression illness, nitrogen narcosis, motion sickness, fatigue, overexertion, heat reactions, dehydration, injuries by aquatic life, and cuts and scrapes.",
+        "Core Standard 2 (Req 1): (b) Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Scuba Diving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Show that you know first aid for.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Scuba Diving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Scuba Diving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scuba Diving Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Scuba Diving Approach",
+        "right_header": "Official BSA Scuba Diving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Scuba Diving Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Scuba Diving Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - (a) Show that you know first aid for",
+          "Primary Standard": "Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypother",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scuba Diving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scuba Diving Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Scuba Diving Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Scuba Diving Requirement 1, a Scout claims: \"Scouts can jump straight into Scuba Diving hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Scuba Diving prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Scuba Diving prevents most field injuries.",
+        "explanation": "Per Official BSA Scuba Diving Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Scuba Diving prevents most field injuries."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -123,7 +332,115 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: Before completing requirements 3 through 6, earn the",
+      "action_verb": "Before",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scuba Diving Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Scuba Diving Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 2 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Before completing requirements 3 through 6, earn the is enough for Scuba Diving Requirement 2 sign-off.",
+        "fact": "Each Scout must actively before the specific principles and real-world steps of Before completing requirements 3 through 6, earn the grounded in the official Scuba Diving pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Scuba Diving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 2): Before completing requirements 3 through 6, earn the Swimming merit badge.",
+        "Field Verification Standard: Apply Scuba Diving Requirement 2 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Scuba Diving Req 2 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Scuba Diving Workbook before requesting Requirement 2 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Scuba Diving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before completing requirements 3 through 6, earn the.",
+        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Scuba Diving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Scuba Diving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scuba Diving Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Scuba Diving Approach",
+        "right_header": "Official BSA Scuba Diving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Scuba Diving Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Scuba Diving Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - Before completing requirements 3 through 6, earn the",
+          "Primary Standard": "Before completing requirements 3 through 6, earn the Swimming merit badge.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scuba Diving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scuba Diving Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Scuba Diving Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Scuba Diving Requirement 2, a Scout claims: \"Reading a short definition of Before completing requirements 3 through 6, earn the is enough for Scuba Diving Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before completing requirements 3 through 6, earn the grounded in the official Scuba Diving pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before completing requirements 3 through 6, earn the grounded in the official Scuba Diving pamphlet.",
+        "explanation": "Per Official BSA Scuba Diving Pamphlet, pp. 10-15, Each Scout must actively before the specific principles and real-world steps of Before completing requirements 3 through 6, earn the grounded in the official Scuba Diving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -145,7 +462,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: Discuss the Scuba Diver's Code with your counselor",
+      "action_verb": "Discuss",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scuba Diving Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Scuba Diving Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 3 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Discuss the Scuba Diver's Code with your counselor is enough for Scuba Diving Requirement 3 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Discuss the Scuba Diver's Code with your counselor grounded in the official Scuba Diving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Scuba Diving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 3): Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba diver's safety.",
+        "Field Verification Standard: Apply Scuba Diving Requirement 3 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Scuba Diving Req 3 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Scuba Diving Workbook before requesting Requirement 3 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Scuba Diving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss the Scuba Diver's Code with your counselor.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Scuba Diving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Scuba Diving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scuba Diving Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Scuba Diving Approach",
+        "right_header": "Official BSA Scuba Diving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Scuba Diving Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Scuba Diving Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - Discuss the Scuba Diver's Code with your counselor",
+          "Primary Standard": "Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba di",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scuba Diving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scuba Diving Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Scuba Diving Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Scuba Diving Requirement 3, a Scout claims: \"Reading a short definition of Discuss the Scuba Diver's Code with your counselor is enough for Scuba Diving Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the Scuba Diver's Code with your counselor grounded in the official Scuba Diving pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the Scuba Diver's Code with your counselor grounded in the official Scuba Diving pamphlet.",
+        "explanation": "Per Official BSA Scuba Diving Pamphlet, pp. 16-21, Each Scout must actively discuss the specific principles and real-world steps of Discuss the Scuba Diver's Code with your counselor grounded in the official Scuba Diving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -167,7 +587,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: Earn an Open Water Diver Certification from a",
+      "action_verb": "Earn",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scuba Diving Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Scuba Diving Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 4 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Earn an Open Water Diver Certification from a is enough for Scuba Diving Requirement 4 sign-off.",
+        "fact": "Each Scout must actively earn the specific principles and real-world steps of Earn an Open Water Diver Certification from a grounded in the official Scuba Diving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Scuba Diving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 4): Earn an Open Water Diver Certification from a scuba organization recognized by the Scouting America scuba policy.",
+        "Field Verification Standard: Apply Scuba Diving Requirement 4 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Scuba Diving Req 4 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Scuba Diving Workbook before requesting Requirement 4 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Scuba Diving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Earn an Open Water Diver Certification from a.",
+        "Execute & Document: Perform the earn task methodically with your patrol buddy and log specific observations in your Scuba Diving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Scuba Diving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scuba Diving Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Scuba Diving Approach",
+        "right_header": "Official BSA Scuba Diving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Scuba Diving Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Scuba Diving Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - Earn an Open Water Diver Certification from a",
+          "Primary Standard": "Earn an Open Water Diver Certification from a scuba organization recognized by the Scouting America scuba poli",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scuba Diving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scuba Diving Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Scuba Diving Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Scuba Diving Requirement 4, a Scout claims: \"Reading a short definition of Earn an Open Water Diver Certification from a is enough for Scuba Diving Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively earn the specific principles and real-world steps of Earn an Open Water Diver Certification from a grounded in the official Scuba Diving pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively earn the specific principles and real-world steps of Earn an Open Water Diver Certification from a grounded in the official Scuba Diving pamphlet.",
+        "explanation": "Per Official BSA Scuba Diving Pamphlet, pp. 22-27, Each Scout must actively earn the specific principles and real-world steps of Earn an Open Water Diver Certification from a grounded in the official Scuba Diving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -189,7 +712,110 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: Explain what an ecosystem is, and describe four",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scuba Diving Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Scuba Diving Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 5 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Explain what an ecosystem is, and describe four is enough for Scuba Diving Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain what an ecosystem is, and describe four grounded in the official Scuba Diving pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Scuba Diving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 5): Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience.",
+        "Field Verification Standard: Apply Scuba Diving Requirement 5 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Scuba Diving Req 5 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Scuba Diving Workbook before requesting Requirement 5 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Scuba Diving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain what an ecosystem is, and describe four.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Scuba Diving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Scuba Diving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scuba Diving Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Scuba Diving Approach",
+        "right_header": "Official BSA Scuba Diving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Scuba Diving Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Scuba Diving Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - Explain what an ecosystem is, and describe four",
+          "Primary Standard": "Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scuba Diving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scuba Diving Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Scuba Diving Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Scuba Diving Requirement 5, a Scout claims: \"Reading a short definition of Explain what an ecosystem is, and describe four is enough for Scuba Diving Requirement 5 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain what an ecosystem is, and describe four grounded in the official Scuba Diving pamphlet.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain what an ecosystem is, and describe four grounded in the official Scuba Diving pamphlet.",
+        "explanation": "Per Official BSA Scuba Diving Pamphlet, pp. 28-33, Each Scout must actively explain the specific principles and real-world steps of Explain what an ecosystem is, and describe four grounded in the official Scuba Diving pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -227,7 +853,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: Scuba Diving Careers, Training & Hobby Pathways",
+      "action_verb": "Research",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scuba Diving Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Scuba Diving Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Scuba Diving Pamphlet, pp. 34-39",
+      "syllabus_bucket": "Make-Up Eligible",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 6 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Listing three job titles from a web search satisfies the Scuba Diving career exploration requirement.",
+        "fact": "Scouts must research three Scuba Diving careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/scuba-diving/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Scuba Diving Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 6): Find out about three career opportunities in the scuba industry.",
+        "Core Standard 2 (Req 6): Pick one and find out the education, training, and experience required for this profession.",
+        "Core Standard 3 (Req 6): Discuss this with your counselor, and explain why this profession might interest you.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Scuba Diving Workbook before requesting Requirement 6 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Scuba Diving requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Scuba Diving Careers, Training & Hobby Pathways.",
+        "Execute & Document: Perform the research task methodically with your patrol buddy and log specific observations in your Scuba Diving Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Scuba Diving Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scuba Diving Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Scuba Diving Approach",
+        "right_header": "Official BSA Scuba Diving Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Scuba Diving Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Scuba Diving Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - Scuba Diving Careers, Training & Hobby Pathways",
+          "Primary Standard": "Find out about three career opportunities in the scuba industry. Pick one and find out the education, training",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scuba Diving terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scuba Diving Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Scuba Diving Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Scuba Diving Requirement 6, a Scout claims: \"Listing three job titles from a web search satisfies the Scuba Diving career exploration requirement.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Scouts must research three Scuba Diving careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Scouts must research three Scuba Diving careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+        "explanation": "Per Official BSA Scuba Diving Pamphlet, pp. 34-39, Scouts must research three Scuba Diving careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 6."
     }
-  ]
+  ],
+  "badge_slug": "scuba-diving",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

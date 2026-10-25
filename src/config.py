@@ -457,7 +457,68 @@ _RAW_MERIT_BADGE_CATALOG: List[tuple] = [
     ("Wildland Fire Management", "Nature & Environment", False),
     ("Wood Carving", "Arts, Crafts & Hobbies", False),
     ("Woodwork", "Arts, Crafts & Hobbies", False),
+
+    # 5 Scouting America Test Lab Pilot Badges (2026 Active Pilot Cohort)
+    ("Auctioneering", "Trades, Business & Careers", False),
+    ("Dance", "Arts, Crafts & Hobbies", False),
+    ("Physics", "STEM & Science", False),
+    ("Psychology", "Health & Public Safety", False),
+    ("Sewing and Needlework", "Arts, Crafts & Hobbies", False),
 ]
+
+DECK_SCHEMA_BASELINE_VERSION: str = "2.1.0"
+
+TEST_LAB_PILOT_BADGES: Dict[str, str] = {
+    "Auctioneering": "2026-12-31",
+    "Dance": "2026-11-01",
+    "Physics": "2026-12-31",
+    "Psychology": "2026-12-31",
+    "Sewing and Needlework": "2026-12-31",
+}
+TEST_LAB_MERIT_BADGES: Set[str] = set(TEST_LAB_PILOT_BADGES.keys())
+
+DISCONTINUED_BADGES: Dict[str, str] = {
+    "Citizenship in Society": "Discontinued by Scouting America in 2026",
+}
+DISCONTINUED_MERIT_BADGES: Set[str] = set(DISCONTINUED_BADGES.keys())
+
+COMPANION_BADGE_PAIRINGS: Dict[str, List[str]] = {
+    "Fingerprinting": ["Crime Prevention", "Law", "Traffic Safety"],
+    "Crime Prevention": ["Fingerprinting", "Law", "Traffic Safety"],
+    "Pets": ["Dog Care", "Mammal Study", "Animal Science"],
+    "Dog Care": ["Pets", "Veterinary Medicine", "Mammal Study"],
+    "Chess": ["Coin Collecting", "Collections", "Stamp Collecting"],
+    "Coin Collecting": ["Stamp Collecting", "Collections", "Chess"],
+    "Stamp Collecting": ["Coin Collecting", "Collections", "Reading"],
+    "Collections": ["Coin Collecting", "Stamp Collecting", "Scouting Heritage"],
+    "Traffic Safety": ["Automotive Maintenance", "Crime Prevention", "Safety"],
+    "Scouting Heritage": ["Indian Lore", "American Heritage", "Collections"],
+    "Reading": ["Scholarship", "Journalism", "Public Speaking"],
+    "Scholarship": ["Reading", "Public Speaking", "Salesmanship"],
+    "Art": ["Sculpture", "Painting", "Graphic Arts"],
+    "Music": ["Bugling", "Theater", "Dance"],
+    "Bugling": ["Music", "Theater", "Scouting Heritage"],
+    "Textile": ["Sewing and Needlework", "Leatherwork", "Basketry"],
+    "Sewing and Needlework": ["Textile", "Leatherwork", "Art"],
+    "Salesmanship": ["Auctioneering", "Entrepreneurship", "American Business"],
+    "Auctioneering": ["Salesmanship", "Public Speaking", "Entrepreneurship"],
+}
+
+
+def is_test_lab_badge(badge_name: str) -> bool:
+    """Returns True if `badge_name` is one of the 5 Scouting America Test Lab Pilot badges."""
+    if not badge_name or not isinstance(badge_name, str):
+        return False
+    target = badge_name.strip().lower()
+    return any(k.lower() == target for k in TEST_LAB_PILOT_BADGES)
+
+
+def is_discontinued_badge(badge_name: str) -> bool:
+    """Returns True if `badge_name` has been officially discontinued by Scouting America."""
+    if not badge_name or not isinstance(badge_name, str):
+        return False
+    target = badge_name.strip().lower()
+    return any(k.lower() == target for k in DISCONTINUED_BADGES)
 
 
 def badge_url_slug(name: str) -> str:
@@ -509,9 +570,27 @@ OFFICIAL_BSA_MERIT_BADGES_CATALOG: List[Dict[str, object]] = [
         "badge_name": name,
         "category": category,
         "is_eagle_required": is_eagle,
+        "is_test_lab": name in TEST_LAB_PILOT_BADGES,
+        "pilot_expiration_date": TEST_LAB_PILOT_BADGES.get(name),
+        "is_discontinued": name in DISCONTINUED_BADGES,
+        "discontinued_notice": DISCONTINUED_BADGES.get(name),
+        "status": (
+            "DISCONTINUED"
+            if name in DISCONTINUED_BADGES
+            else ("TEST_LAB_PILOT" if name in TEST_LAB_PILOT_BADGES else "ACTIVE")
+        ),
+        "suggested_companion_badges": COMPANION_BADGE_PAIRINGS.get(name, []),
         "slug": badge_url_slug(name),
-        "pamphlet_pdf_url": f"https://www.scouting.org/merit-badges/{badge_url_slug(name)}/",
-        "drg_url": f"https://www.scouting.org/merit-badges/{badge_url_slug(name)}/",
+        "pamphlet_pdf_url": (
+            f"https://www.scouting.org/skills/merit-badges/test-lab/{badge_url_slug(name)}/"
+            if name in TEST_LAB_PILOT_BADGES
+            else f"https://www.scouting.org/merit-badges/{badge_url_slug(name)}/"
+        ),
+        "drg_url": (
+            f"https://www.scouting.org/skills/merit-badges/test-lab/{badge_url_slug(name)}/"
+            if name in TEST_LAB_PILOT_BADGES
+            else f"https://www.scouting.org/merit-badges/{badge_url_slug(name)}/"
+        ),
     }
     for name, category, is_eagle in sorted(
         _RAW_MERIT_BADGE_CATALOG, key=lambda x: x[0].lower()

@@ -602,8 +602,15 @@ def _decorate_result_urls(result: Dict[str, Any]) -> Dict[str, Any]:
 async def list_merit_badges(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Returns catalog of all 144 official Scouts BSA Merit Badges with category, Eagle status, option tracks, and resource links."""
-    from src.config import OFFICIAL_BSA_MERIT_BADGES_CATALOG
+    """Returns catalog of all 149 Scouts BSA Merit Badges (144 standard + 5 Test Lab Pilots) with category, Eagle status, Test Lab/Discontinued flags, option tracks, and resource links."""
+    from src.config import (
+        COMPANION_BADGE_PAIRINGS,
+        DISCONTINUED_BADGES,
+        OFFICIAL_BSA_MERIT_BADGES_CATALOG,
+        TEST_LAB_PILOT_BADGES,
+        is_discontinued_badge,
+        is_test_lab_badge,
+    )
     from src.tools.scouting_scraper import BENCHMARK_BADGES_DATA, get_badge_option_tracks
 
     badges = []
@@ -615,10 +622,16 @@ async def list_merit_badges(
         b_data = BENCHMARK_BADGES_DATA.get(b_name, {})
         reqs = b_data.get("requirements", [])
         opt_tracks = get_badge_option_tracks(b_name)
+        is_tl = bool(entry.get("is_test_lab_pilot") or is_test_lab_badge(b_name))
+        is_disc = bool(entry.get("is_discontinued") or is_discontinued_badge(b_name))
         badges.append({
             "badge_name": b_name,
             "category": cat,
             "is_eagle_required": bool(entry["is_eagle_required"]),
+            "is_test_lab_pilot": is_tl,
+            "is_discontinued": is_disc,
+            "status_badge": entry.get("status_badge") or ("DISCONTINUED" if is_disc else ("TEST_LAB_PILOT" if is_tl else "ACTIVE")),
+            "companion_badges": COMPANION_BADGE_PAIRINGS.get(b_name, []),
             "subrequirement_count": len(reqs) if reqs else 8,
             "pamphlet_pdf_url": b_data.get("pamphlet_pdf_url") or entry["pamphlet_pdf_url"],
             "drg_url": b_data.get("drg_url") or entry["drg_url"],
@@ -631,6 +644,8 @@ async def list_merit_badges(
         "total_badges": len(badges),
         "categories": sorted(categories_set),
         "eagle_required_count": len(EAGLE_REQUIRED_BADGES),
+        "test_lab_pilot_count": len(TEST_LAB_PILOT_BADGES),
+        "discontinued_count": len(DISCONTINUED_BADGES),
     }
 
 
@@ -1430,14 +1445,44 @@ def _normalize_bold_and_strip_corny_openers(text: str, is_say_block: bool = Fals
 
 
 def _parse_multiline_polished_sections(llm_text: str) -> str:
-    """Extracts full multi-line [SAY], [DEMONSTRATE], and [ASK SCOUTS] sections without dropping continuation lines."""
+    """Extracts the 5-Part Non-Redundant Facilitator Guide sections (or legacy 3-part [SAY]/[DEMONSTRATE]/[ASK SCOUTS] sections) without dropping continuation lines."""
     from src.agents.planner import _sanitize_no_ellipsis_or_emdash
 
     raw = str(llm_text or "").strip()
     if not raw:
         return ""
 
-    # Normalize common markdown bold/heading wrappers around section tags
+    # Check first for the native 5-Part Non-Redundant Facilitator Guide
+    five_part_headers = [
+        "PACING & MODALITY",
+        "ASK SCOUTS FIRST",
+        "EXPECTED PAMPHLET ANSWER KEY",
+        "COMMON MISCONCEPTION TO CORRECT",
+        "DEMONSTRATION & SIGN-OFF RUBRIC",
+    ]
+    norm_5 = raw
+    for h_tag in five_part_headers:
+        escaped_h = re.escape(h_tag)
+        norm_5 = re.sub(rf"\*{{1,3}}\s*\[?({escaped_h})\]?\s*\*{{1,3}}\s*:?", r"[\1] ", norm_5, flags=re.I)
+        norm_5 = re.sub(rf"(?:^|\n)\s*#{{1,4}}\s*\[?({escaped_h})\]?\s*:?", r"\n[\1] ", norm_5, flags=re.I)
+        norm_5 = re.sub(rf"\[({escaped_h})\]\s*:", r"[\1] ", norm_5, flags=re.I)
+
+    if re.search(r"\[PACING\s*&\s*MODALITY\]", norm_5, flags=re.I) or re.search(r"\[ASK\s+SCOUTS\s+FIRST\]", norm_5, flags=re.I):
+        out_5: List[str] = []
+        for idx_h, h_tag in enumerate(five_part_headers):
+            next_tags = "|".join(re.escape(f"[{nt}]") for nt in five_part_headers[idx_h + 1 :])
+            lookahead = rf"(?={next_tags}|\Z)" if next_tags else r"\Z"
+            m_sec = re.search(rf"\[{re.escape(h_tag)}\]\s*(.*?){lookahead}", norm_5, flags=re.S | re.I)
+            if m_sec and m_sec.group(1).strip():
+                sec_clean = _normalize_bold_and_strip_corny_openers(
+                    re.sub(r"\s+", " ", m_sec.group(1).strip()),
+                    is_say_block=(idx_h == 0),
+                )
+                out_5.append(_sanitize_no_ellipsis_or_emdash(f"[{h_tag}] {sec_clean}"))
+        if out_5:
+            return "\n".join(out_5)
+
+    # Legacy 3-part parser fallback ([SAY] / [DEMONSTRATE] / [ASK SCOUTS])
     norm = re.sub(r"\*{1,3}\s*\[?(SAY|DEMONSTRATE|ASK(?:\s+SCOUTS)?)\]?\s*\*{1,3}\s*:?", r"[\1] ", raw, flags=re.I)
     norm = re.sub(r"(?:^|\n)\s*#{1,4}\s*\[?(SAY|DEMONSTRATE|ASK(?:\s+SCOUTS)?)\]?\s*:?", r"\n[\1] ", norm, flags=re.I)
     norm = re.sub(r"(?:^|\n)\s*(SAY|DEMONSTRATE|ASK\s+SCOUTS)\s*:\s*", r"\n[\1] ", norm, flags=re.I)
@@ -1464,7 +1509,7 @@ def _parse_multiline_polished_sections(llm_text: str) -> str:
     # Fallback if the LLM returned a cohesive paragraph without explicit bracket headers
     if len(norm) >= 80:
         clean_para = _normalize_bold_and_strip_corny_openers(re.sub(r"\s+", " ", norm).strip(), is_say_block=True)
-        return _sanitize_no_ellipsis_or_emdash(f"[SAY] {clean_para}")
+        return _sanitize_no_ellipsis_or_emdash(f"[PACING & MODALITY] {clean_para}")
     return ""
 
 
@@ -1694,30 +1739,39 @@ def _synthesize_studio_narrative_script(
 
     if is_cover:
         cover_hooks = [
-            f"[SAY] Welcome to our {badge_name} Merit Badge clinic, Scouts! [Hold up the official {badge_name} Merit Badge patch and pamphlet] Today we are going beyond textbook definitions so your patrol can master every skill on the trail, at camp, and at home.",
-            f"[SAY] Glad to have every patrol here for the {badge_name} Merit Badge! [Hold up your signed Blue Card sample and {badge_name} pamphlet] Over this session we are turning the official {badge_name} requirements into hands-on field habits you can trust on any troop outing.",
-            f"[SAY] Welcome, Scouts! Let's kick off our {badge_name} Merit Badge workshop. [Point to the official {badge_name} emblem on screen] Whether this is your first merit badge clinic or your final step toward Eagle, today is all about practical demonstrations and buddy teamwork.",
+            f"[PACING & MODALITY] 3 min | Cover & Patrol Orientation | Welcome to our {badge_name} Merit Badge clinic, Scouts! [Hold up the official {badge_name} Merit Badge patch and pamphlet] Today we are going beyond textbook definitions so your patrol can master every skill on the trail, at camp, and at home.",
+            f"[PACING & MODALITY] 3 min | Cover & Patrol Orientation | Glad to have every patrol here for the {badge_name} Merit Badge! [Hold up your signed Blue Card sample and {badge_name} pamphlet] Over this session we are turning the official {badge_name} requirements into hands-on field habits you can trust on any troop outing.",
+            f"[PACING & MODALITY] 3 min | Cover & Patrol Orientation | Welcome, Scouts! Let's kick off our {badge_name} Merit Badge workshop. [Point to the official {badge_name} emblem on screen] Whether this is your first merit badge clinic or your final step toward Eagle, today is all about practical demonstrations and buddy teamwork.",
         ]
-        say_cover = (
+        pacing_cover = (
             cover_hooks[max(0, variation_seed) % len(cover_hooks)]
             + f" [Point to the Counselor Contact Card on screen] Take 15 seconds right now to write my contact details at the top of your printable {badge_name} Workbook, "
             f"and remember our Scouting America Youth Protection rule: always copy a parent, guardian, or second registered adult leader on every email, text, or call. "
             f"[Studio Coaching Cue: Confirm every Scout has a pen, workbook, and buddy partner before advancing to Slide 2.]"
         )
-        demo_cover = (
-            f"[DEMONSTRATE] [Hold up a sample signed Blue Card alongside the {badge_name} Workbook] "
-            f"Show the patrol how today's in-class demonstrations pair with campout or home prerequisites for full requirement sign-off."
-        )
         ask_cover = (
-            f"[ASK SCOUTS] Looking at the {badge_name} patch on screen, what is one hands-on skill or field challenge you are most excited to tackle today, "
-            f"and who has already started their prerequisite log? "
-            f"[Expected Answer: Verify which Scouts brought prerequisite notes and pair up first-year Scouts with experienced patrol buddies.]"
+            f"[ASK SCOUTS FIRST] Looking at the {badge_name} patch on screen, what is one hands-on skill or field challenge you are most excited to tackle today, "
+            f"and who has already started their prerequisite log? [Pause for hands]"
+        )
+        key_cover = (
+            f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Verify which Scouts brought prerequisite notes and pair up first-year Scouts with experienced patrol buddies.] "
+            f"Official {badge_name} Merit Badge Pamphlet & 1-Page Class Preparation Page (CPP)."
+        )
+        misc_cover = (
+            f"[COMMON MISCONCEPTION TO CORRECT] Myth: Filling out a merit badge workbook before class automatically signs off the badge. "
+            f"Fact: Per Scouting America Guide to Advancement Section 7.0.3.2, workbooks are optional study aids; every Scout must still personally discuss, demonstrate, or explain each requirement."
+        )
+        demo_cover = (
+            f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up a sample signed Blue Card (#34124) alongside the {badge_name} Workbook] "
+            f"Show the patrol how today's in-class demonstrations pair with campout or home prerequisites for full requirement sign-off."
         )
         return "\n".join(
             [
-                _sanitize_no_ellipsis_or_emdash(say_cover),
-                _sanitize_no_ellipsis_or_emdash(demo_cover),
+                _sanitize_no_ellipsis_or_emdash(pacing_cover),
                 _sanitize_no_ellipsis_or_emdash(ask_cover),
+                _sanitize_no_ellipsis_or_emdash(key_cover),
+                _sanitize_no_ellipsis_or_emdash(misc_cover),
+                _sanitize_no_ellipsis_or_emdash(demo_cover),
             ]
         )
 
@@ -1866,43 +1920,62 @@ def _synthesize_studio_narrative_script(
     if safety_warning:
         safety_beat = f" [Safety & Guide to Safe Scouting Check] Before any hands-on practice, enforce: {safety_warning.rstrip('.')}."
 
-    say_block = (
-        f"[SAY] {hook_line} {req_callout}"
+    pacing_block = (
+        f"[PACING & MODALITY] 5-7 min | {arch_upper} | {hook_line} {req_callout}"
         + " ".join(card_beats)
         + (" " + vis_beat.strip() if vis_beat else "")
         + f"{safety_beat} {aud_beat}"
     )
 
+    ask_templates = [
+        f"[ASK SCOUTS FIRST] If your patrol is out on a weekend campout and someone overlooks {first_h} during {clean_title}, what is the first warning sign you will notice, and how does {second_h} fix it? [Pause for hands]",
+        f"[ASK SCOUTS FIRST] Why do you think the official {badge_name} pamphlet pairs {first_h} with {second_h} under Requirement {req_num} instead of treating them as separate steps? [Call on two patrols]",
+        f"[ASK SCOUTS FIRST] Suppose a Tenderfoot Scout in your patrol asks you how to verify {first_h} in the field: what concrete check from this slide would you show them first? [Pause for buddy discussion]",
+        f"[ASK SCOUTS FIRST] Looking at our cards for {clean_title}, which step requires the most teamwork between patrol buddies on Requirement {req_num}, and why? [Pause for hands]",
+    ]
+    ask_block = ask_templates[(slide_seed // 4) % len(ask_templates)]
+
+    key_templates = [
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Scouts should explain that {first_h} ({first_b.rstrip('.')}) prevents early field errors, while {second_h} ({second_b.rstrip('.')}) fulfills {badge_name} Requirement {req_num}.]",
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: {first_h} establishes {first_b.rstrip('.')}, and {second_h} ensures {second_b.rstrip('.')}.]",
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Point directly to {first_h} ({first_b.rstrip('.')}) and follow up with {second_h} ({second_b.rstrip('.')}).]",
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Scouts should cite {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}) as key buddy checkpoints.]",
+    ]
+    key_block = key_templates[(slide_seed // 4) % len(key_templates)]
+    if arch_upper == "SOCRATIC_CHECKPOINT_QUIZ" and base_notes:
+        for ln in base_notes.splitlines():
+            if ln.strip().startswith("[EXPECTED PAMPHLET ANSWER KEY]"):
+                key_block = ln.strip()
+            elif ln.strip().startswith("[ASK SCOUTS FIRST]"):
+                ask_block = ln.strip()
+
+    misc_block = (
+        f"[COMMON MISCONCEPTION TO CORRECT] Myth: Rushing past {first_h} or memorizing {clean_title} without checking {second_h} is enough for {badge_name} Requirement {req_num}. "
+        f"Fact: In real field conditions, a Scout must verify {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}) step by step."
+    )
+    if base_notes:
+        for ln in base_notes.splitlines():
+            if ln.strip().startswith("[COMMON MISCONCEPTION TO CORRECT]"):
+                misc_block = ln.strip()
+                break
+
     demo_templates = [
-        f"[DEMONSTRATE] [Step in front of the table and model {first_h} at half-speed] Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), pausing so the patrol sees what a complete Requirement {req_num} demonstration looks like.",
-        f"[DEMONSTRATE] [Invite two volunteers to the front table] Use the BSA EDGE method (Explain, Demonstrate, Guide, Enable) to show {first_h} ({first_b.rstrip('.')}), then have the buddy pair demonstrate {second_h} ({second_b.rstrip('.')}) back to the troop.",
-        f"[DEMONSTRATE] [Hold up the field gear or workbook example for Requirement {req_num}] Point out the critical difference between doing {first_h} correctly ({first_b.rstrip('.')}) versus rushing past {second_h} ({second_b.rstrip('.')}).",
-        f"[DEMONSTRATE] [Walk side-by-side with the patrol] Coach Scouts through a live tabletop check of {first_h} ({first_b.rstrip('.')}) followed by {second_h} ({second_b.rstrip('.')}) so every Scout is ready for individual sign-off.",
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Step in front of the table and model {first_h} at half-speed] Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), pausing so the patrol sees what a complete Requirement {req_num} demonstration looks like.",
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Invite two volunteers to the front table] Use the BSA EDGE method (Explain, Demonstrate, Guide, Enable) to show {first_h} ({first_b.rstrip('.')}), then have the buddy pair demonstrate {second_h} ({second_b.rstrip('.')}) back to the troop.",
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up the field gear or workbook example for Requirement {req_num}] Point out the critical difference between doing {first_h} correctly ({first_b.rstrip('.')}) versus rushing past {second_h} ({second_b.rstrip('.')}).",
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Walk side-by-side with the patrol] Coach Scouts through a live tabletop check of {first_h} ({first_b.rstrip('.')}) followed by {second_h} ({second_b.rstrip('.')}) so every Scout is ready for individual Application for Merit Badge (#34124) sign-off.",
     ]
     demo_block = demo_templates[(slide_seed // 2) % len(demo_templates)]
     if has_visual and visual_caption:
         demo_block += f" [Trace the key callout on the slide figure: {visual_caption.rstrip('.')}]"
 
-    ask_templates = [
-        f"[ASK SCOUTS] If your patrol is out on a weekend campout and someone overlooks {first_h} during {clean_title}, what is the first warning sign you will notice, and how does {second_h} fix it? [Pause for hands] [Expected Answer: Scouts should explain that {first_h} ({first_b.rstrip('.')}) prevents early field errors, while {second_h} ({second_b.rstrip('.')}) fulfills {badge_name} Requirement {req_num}.]",
-        f"[ASK SCOUTS] Why do you think the official {badge_name} pamphlet pairs {first_h} with {second_h} under Requirement {req_num} instead of treating them as separate steps? [Call on two patrols] [Expected Answer: {first_h} establishes {first_b.rstrip('.')}, and {second_h} ensures {second_b.rstrip('.')}.]",
-        f"[ASK SCOUTS] Suppose a Tenderfoot Scout in your patrol asks you how to verify {first_h} in the field: what concrete check from this slide would you show them first? [Pause for buddy discussion] [Expected Answer: Point directly to {first_h} ({first_b.rstrip('.')}) and follow up with {second_h} ({second_b.rstrip('.')}).]",
-        f"[ASK SCOUTS] Looking at our cards for {clean_title}, which step requires the most teamwork between patrol buddies on Requirement {req_num}, and why? [Pause for hands] [Expected Answer: Scouts should cite {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}) as key buddy checkpoints.]",
-    ]
-    ask_block = ask_templates[(slide_seed // 4) % len(ask_templates)]
-
-    # Preserve any archetype-specific Expected Answer from base_notes if this is a SOCRATIC_CHECKPOINT_QUIZ
-    if arch_upper == "SOCRATIC_CHECKPOINT_QUIZ" and base_notes:
-        for ln in base_notes.splitlines():
-            if ln.strip().startswith("[ASK SCOUTS]"):
-                ask_block = ln.strip()
-                break
-
     return "\n".join(
         [
-            _sanitize_no_ellipsis_or_emdash(say_block),
-            _sanitize_no_ellipsis_or_emdash(demo_block),
+            _sanitize_no_ellipsis_or_emdash(pacing_block),
             _sanitize_no_ellipsis_or_emdash(ask_block),
+            _sanitize_no_ellipsis_or_emdash(key_block),
+            _sanitize_no_ellipsis_or_emdash(misc_block),
+            _sanitize_no_ellipsis_or_emdash(demo_block),
         ]
     )
 
@@ -1931,7 +2004,7 @@ async def _polish_single_slide_notes_core(
 
     hash_payload = json.dumps(
         {
-            "v": "gemini_flash_v4",
+            "v": "gemini_flash_v5_5part",
             "badge": badge_name.strip().lower(),
             "req": req_num,
             "slide_idx": slide_index,
@@ -2012,24 +2085,26 @@ async def _polish_single_slide_notes_core(
         f"You are an experienced, knowledgeable instructor teaching a {badge_name} Merit Badge class ({aud_level}).\n"
         f"Rewrite the speaker notes for Slide #{slide_index + 2 if slide_index >= 0 else 1} '{title}' "
         f"(Requirement {req_num}, Archetype: {arch}, Variation #{variation_seed}) into a clear, "
-        f"conversational, and professional teacher-to-student speaking script.\n"
+        f"conversational, and professional 5-Part Non-Redundant Facilitator Guide.\n"
         f"Official Requirement Text: {s_data.get('verbatim_requirement_text') or 'N/A'}\n"
         f"Slide Cards: {json.dumps(bullets)}\n"
         f"Visual Caption: {vis_caption if has_vis else 'None'}\n"
         f"Baseline Notes: {base_notes}\n\n"
         f"STRICT TONE & FORMAT RULES:\n"
-        f"1. Output exactly 3 sections starting with [SAY], [DEMONSTRATE], and [ASK SCOUTS].\n"
+        f"1. Output exactly 5 sections starting with [PACING & MODALITY], [ASK SCOUTS FIRST], [EXPECTED PAMPHLET ANSWER KEY], [COMMON MISCONCEPTION TO CORRECT], and [DEMONSTRATION & SIGN-OFF RUBRIC].\n"
         f"2. TONE: Write like a great classroom or field teacher talking naturally and respectfully to students in the middle of an ongoing lesson. "
         f"Keep the language clear, grounded, conversational, and professional.\n"
-        f"3. OPENING STYLE FOR THIS SLIDE: Use this specific opening structure so slides across the deck never sound repetitive: {chosen_opening_style}\n"
+        f"3. OPENING STYLE FOR THIS SLIDE: Use this specific opening structure in [PACING & MODALITY] so slides across the deck never sound repetitive: {chosen_opening_style}\n"
         f"4. BANNED CLICHES: NEVER start with greetings, roll-calls, or corny camp catchphrases such as 'Alright', 'Listen up', "
         f"'Gather round', 'Future lifesavers', 'Hey Scouts', 'Imagine this', 'Picture this', or 'Let's step out of the classroom'. "
         f"Jump straight into the substance of '{title}'.\n"
-        f"5. In [SAY], teach every card's concrete facts in natural first-person instructor prose and include 2-3 bracketed stage directions like "
-        f"[Point to Card 1: ...] or [Instructor Cue: ...]. When emphasizing key terms, wrap them in balanced double asterisks (**Term**).\n"
-        f"6. In [DEMONSTRATE], give a concrete physical, equipment, or tabletop EDGE demonstration action.\n"
-        f"7. In [ASK SCOUTS], ask a clear Socratic comprehension question and end with [Expected Answer: ...].\n"
-        f"8. Do NOT use em-dashes, en-dashes, or ellipses."
+        f"5. In [PACING & MODALITY], include time budget, modality, and first-person instructor prose with 2-3 bracketed stage directions like "
+        f"[Point to Card 1: ...] or [Studio Coaching Cue: ...]. When emphasizing key terms, wrap them in balanced double asterisks (**Term**).\n"
+        f"6. In [ASK SCOUTS FIRST], ask a clear Socratic comprehension question before lecturing.\n"
+        f"7. In [EXPECTED PAMPHLET ANSWER KEY], provide the concrete answer key starting with [Expected Answer: ...].\n"
+        f"8. In [COMMON MISCONCEPTION TO CORRECT], state Myth vs. Fact for this requirement.\n"
+        f"9. In [DEMONSTRATION & SIGN-OFF RUBRIC], give a concrete physical, equipment, or tabletop EDGE demonstration action and Application for Merit Badge (#34124) sign-off criterion.\n"
+        f"10. Do NOT use em-dashes, en-dashes, or ellipses."
     )
 
     bridge_payload = {
@@ -3050,6 +3125,73 @@ class StudioKitAgendaRequest(BaseModel):
     counselor_name: Optional[str] = None
     troop_affiliation: Optional[str] = None
     location_or_zip: Optional[str] = None
+    postponed_session_idx: Optional[int] = None
+    companion_badge_name: Optional[str] = None
+
+
+class StudioKitFillableWorkbookRequest(BaseModel):
+    badge_name: str = "First Aid"
+    selected_option_track: Optional[str] = None
+    counselor_info: Optional[Dict[str, Any]] = None
+    include_qr: bool = True
+
+
+class StudioKitClassPrepCppRequest(BaseModel):
+    badge_name: str = "First Aid"
+    schedule_format: str = "4_session_mbc"
+    counselor_info: Optional[Dict[str, Any]] = None
+    class_logistics: Optional[Dict[str, Any]] = None
+    research_result: Dict[str, Any] = Field(default_factory=dict)
+
+
+class StudioKitOrganizerSpecRequest(BaseModel):
+    badge_name: str = "First Aid"
+    schedule_format: str = "4_session_mbc"
+    counselor_info: Optional[Dict[str, Any]] = None
+    class_logistics: Optional[Dict[str, Any]] = None
+    research_result: Dict[str, Any] = Field(default_factory=dict)
+
+
+class StudioKitYptThreeStageRequest(BaseModel):
+    badge_name: str = "First Aid"
+    counselor_info: Optional[Dict[str, Any]] = None
+    class_logistics: Optional[Dict[str, Any]] = None
+    scout_roster: Optional[List[Dict[str, Any]]] = None
+    research_result: Dict[str, Any] = Field(default_factory=dict)
+
+
+class SlideLogisticsInjectRequest(BaseModel):
+    badge_name: str = "First Aid"
+    slides: List[Dict[str, Any]] = Field(default_factory=list)
+    logistics_config: Dict[str, Any] = Field(default_factory=dict)
+    counselor_info: Optional[Dict[str, Any]] = None
+    research_result: Dict[str, Any] = Field(default_factory=dict)
+
+
+class TriageAttendancePartialsRequest(BaseModel):
+    workspace_id: str = "default_workspace"
+    badge_name: str = "First Aid"
+    action: str = "list"
+    scout_id: str = ""
+    scout_name: str = ""
+    troop_unit: str = "Troop 19"
+    session_attendance: Optional[Dict[str, str]] = None
+    completed_reqs: Optional[List[str]] = None
+    completed_reqs_by_badge: Optional[Dict[str, List[str]]] = None
+    partial_classifications: Optional[Dict[str, str]] = None
+    counselor_notes: str = ""
+    schedule_format: str = "4_session_mbc"
+    session_labels: Optional[List[str]] = None
+    postponed_session_idx: Optional[int] = None
+    companion_badge_name: str = ""
+    session_requirements_map: Optional[Dict[str, List[str]]] = None
+
+
+class TriageBucketOverrideRequest(BaseModel):
+    workspace_id: str = "default_workspace"
+    badge_name: str = "First Aid"
+    req_number: str = "1"
+    override_bucket: str = "IN_CLASS_DISCUSSION"
 
 
 @app.post("/api/studiokit/agenda")
@@ -3075,6 +3217,8 @@ async def api_generate_studiokit_agenda(
         research_result=req.research_result,
         schedule_format=sched_fmt,
         counselor_info=c_info or None,
+        postponed_session_idx=req.postponed_session_idx,
+        companion_badge_name=req.companion_badge_name,
     )
     md_text = res.get("agenda_markdown") or res.get("markdown_content") or ""
     res["markdown_content"] = md_text
@@ -3085,8 +3229,197 @@ async def api_generate_studiokit_agenda(
         "sessions": res.get("sessions", []),
         "agenda_markdown": md_text,
         "markdown_content": md_text,
+        "postponed_session_idx": res.get("postponed_session_idx"),
+        "companion_badge": res.get("companion_badge"),
     }
     return res
+
+
+@app.post("/api/studiokit/fillable-workbook")
+@app.post("/api/v1/studiokit/fillable-workbook")
+async def api_generate_fillable_workbook(
+    req: StudioKitFillableWorkbookRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Generates the verb-aligned fillable Scout Workbook HTML & Markdown with GTA Section 7.0.3.2 banner."""
+    from src.tools.scouting_scraper import generate_fillable_scout_workbook_html
+
+    return generate_fillable_scout_workbook_html(
+        badge_name=req.badge_name,
+        counselor_info=req.counselor_info,
+        option_track=req.selected_option_track or "ALL",
+    )
+
+
+@app.post("/api/studiokit/class-prep-cpp")
+@app.post("/api/v1/studiokit/class-prep-cpp")
+async def api_generate_class_prep_cpp(
+    req: StudioKitClassPrepCppRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Generates the 1-Page Class Preparation Page (CPP) in print-ready HTML and Markdown."""
+    from src.tools.counselor_studiokit import generate_class_preparation_page_cpp
+
+    logistics = req.class_logistics or {}
+    return generate_class_preparation_page_cpp(
+        badge_name=req.badge_name,
+        counselor_info=req.counselor_info,
+        session_dates=logistics.get("session_dates"),
+        room_location=str(logistics.get("room_location") or ""),
+    )
+
+
+@app.post("/api/studiokit/organizer-spec-sheet")
+@app.post("/api/v1/studiokit/organizer-spec-sheet")
+async def api_generate_organizer_spec_sheet(
+    req: StudioKitOrganizerSpecRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Generates the 1-Page Organizer & Syllabus Catalog Spec Sheet for MBC Deans or Camp Directors."""
+    from src.tools.counselor_studiokit import generate_organizer_syllabus_spec_sheet
+
+    logistics = req.class_logistics or {}
+    return generate_organizer_syllabus_spec_sheet(
+        badge_name=req.badge_name,
+        counselor_info=req.counselor_info,
+        session_mode=req.schedule_format or "4_session_mbc",
+        max_scouts=int(logistics.get("max_scouts", 16)),
+        min_age_or_rank=str(logistics.get("min_age_or_rank") or "All Scouts (Ages 11-17)"),
+        room_needs=str(logistics.get("room_needs") or "Projector/TV + Tables for Buddy Stations"),
+    )
+
+
+@app.post("/api/studiokit/ypt-three-stage-pack")
+@app.post("/api/v1/studiokit/ypt-three-stage-pack")
+async def api_generate_ypt_three_stage_pack(
+    req: StudioKitYptThreeStageRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Generates the 3-Stage YPT Two-Deep Communication Pack (T-14 Welcome, Mid-Clinic Partial Alert, Final Packet)."""
+    from src.tools.counselor_studiokit import generate_three_stage_ypt_communication_pack
+
+    logistics = req.class_logistics or {}
+    return generate_three_stage_ypt_communication_pack(
+        badge_name=req.badge_name,
+        counselor_info=req.counselor_info,
+        session_dates=logistics.get("session_dates"),
+        room_location=str(logistics.get("room_location") or ""),
+        absent_scouts_summary=req.scout_roster,
+    )
+
+
+@app.post("/api/slide/logistics-slides")
+@app.post("/api/v1/slide/logistics-slides")
+async def api_inject_class_logistics_slides(
+    req: SlideLogisticsInjectRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Opt-in injection/removal of Slide 2 (Class Overview & Session Roadmap) and Slide N (Homework, Make-Up & Blue Card Check-Out)."""
+    from src.tools.pptx_builder import SlideSpec, inject_class_opening_and_closing_slides
+    from src.tools.scouting_scraper import fetch_official_merit_badge_requirements
+
+    res_data = req.research_result or fetch_official_merit_badge_requirements(req.badge_name)
+    specs = [
+        SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+        for s in (req.slides or [])
+    ]
+    out_slides = inject_class_opening_and_closing_slides(
+        badge_name=req.badge_name,
+        slides=specs,
+        logistics_config=req.logistics_config,
+        requirements=res_data.get("requirements", []),
+    )
+    return {
+        "status": "SUCCESS",
+        "badge_name": req.badge_name,
+        "total_slide_count": len(out_slides),
+        "slides": out_slides,
+        "storyboard_slides": out_slides,
+    }
+
+
+@app.post("/api/triage/attendance-and-partials")
+@app.post("/api/v1/triage/attendance-and-partials")
+async def api_manage_triage_attendance_and_partials(
+    req: TriageAttendancePartialsRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Manages multi-session clinic schedules, Scout attendance (S1..S4, M), and smart partial classifications."""
+    from src.memory.session_store import (
+        get_clinic_session_schedule,
+        list_scout_session_attendance_and_partials,
+        save_clinic_session_schedule,
+        upsert_scout_session_attendance_and_partials,
+    )
+
+    act = str(req.action or "list").strip().lower()
+    if act == "save_schedule":
+        sched = save_clinic_session_schedule(
+            workspace_id=req.workspace_id,
+            badge_name=req.badge_name,
+            schedule_format=req.schedule_format,
+            session_labels=req.session_labels,
+            postponed_session_idx=req.postponed_session_idx,
+            companion_badge_name=req.companion_badge_name,
+            session_requirements_map=req.session_requirements_map,
+        )
+        return {"status": "SUCCESS", "schedule": sched}
+
+    if act in ("upsert_scout", "update_attendance", "save_scout") and (req.scout_id or req.scout_name):
+        sid = req.scout_id or re.sub(r"[^a-z0-9]+", "_", req.scout_name.strip().lower()).strip("_") or "scout_1"
+        saved = upsert_scout_session_attendance_and_partials(
+            workspace_id=req.workspace_id,
+            scout_id=sid,
+            badge_name=req.badge_name,
+            scout_name=req.scout_name or sid,
+            troop_unit=req.troop_unit,
+            session_attendance=req.session_attendance,
+            completed_reqs=req.completed_reqs,
+            completed_reqs_by_badge=req.completed_reqs_by_badge,
+            partial_classifications=req.partial_classifications,
+            counselor_notes=req.counselor_notes,
+        )
+        return {
+            "status": "SUCCESS",
+            "scout": saved,
+            "scouts": list_scout_session_attendance_and_partials(req.workspace_id, req.badge_name),
+        }
+
+    return {
+        "status": "SUCCESS",
+        "workspace_id": req.workspace_id,
+        "badge_name": req.badge_name,
+        "schedule": get_clinic_session_schedule(req.workspace_id, req.badge_name),
+        "scouts": list_scout_session_attendance_and_partials(req.workspace_id, req.badge_name),
+    }
+
+
+@app.post("/api/triage/bucket-override")
+@app.post("/api/v1/triage/bucket-override")
+async def api_save_triage_bucket_override(
+    req: TriageBucketOverrideRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Saves or lists counselor 5-Tier Syllabus Bucket overrides in SQLite WAL."""
+    from src.memory.session_store import (
+        get_counselor_syllabus_bucket_overrides,
+        save_counselor_syllabus_bucket_override,
+    )
+
+    if req.req_number and req.override_bucket:
+        save_counselor_syllabus_bucket_override(
+            workspace_id=req.workspace_id,
+            badge_name=req.badge_name,
+            req_number=req.req_number,
+            override_bucket=req.override_bucket,
+        )
+    overrides = get_counselor_syllabus_bucket_overrides(req.workspace_id, req.badge_name)
+    return {
+        "status": "SUCCESS",
+        "workspace_id": req.workspace_id,
+        "badge_name": req.badge_name,
+        "overrides": overrides,
+    }
 
 
 @app.get("/api/counselor-profile")

@@ -44,7 +44,113 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 1: Show that you know first aid for the",
+      "action_verb": "Show",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Orienteering hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Orienteering prevents most field injuries."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 1): Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters, snakebite, insect stings, tick bites, heat and cold reactions (sunburn, heatstroke, heat exhaustion, hypothermia), dehydration.",
+        "Core Standard 2 (Req 1): Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Orienteering Req 1 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Orienteering Workbook before requesting Requirement 1 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Show that you know first aid for the.",
+        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Show that you know first aid for the",
+          "Primary Standard": "Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, sc",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 1, a Scout claims: \"Scouts can jump straight into Orienteering hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Orienteering prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Orienteering prevents most field injuries.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Orienteering prevents most field injuries."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -66,7 +172,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: Explain what orienteering is",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 2 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Explain what orienteering is is enough for Orienteering Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain what orienteering is grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 2): Explain what orienteering is.",
+        "Field Verification Standard: Apply Orienteering Requirement 2 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Orienteering Req 2 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Orienteering Workbook before requesting Requirement 2 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain what orienteering is.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - Explain what orienteering is",
+          "Primary Standard": "Explain what orienteering is.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 2, a Scout claims: \"Reading a short definition of Explain what orienteering is is enough for Orienteering Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain what orienteering is grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain what orienteering is grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 10-15, Each Scout must actively explain the specific principles and real-world steps of Explain what orienteering is grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -85,7 +294,48 @@
               "url": "https://youtu.be/bzNA6-lx5n8?si=JfVYqR9vTbCwySw5"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3a is enough for Orienteering Requirement 3a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 3a)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3b",
@@ -97,7 +347,51 @@
               "url": "https://youtu.be/0cF0ovA3FtY?si=o6nQlPuwNkbBJhwu"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3b is enough for Orienteering Requirement 3b sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 3b grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 3b)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -117,7 +411,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: (a) Explain how a compass works. Describe the",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Explain how a compass works. Describe the is enough for Orienteering Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a compass works. Describe the grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Orienteering Sub-Req 3a: Explain how a compass works. Describe the features of an orienteering compass.",
+        "Orienteering Sub-Req 3b: In the field, show how to take a compass bearing and follow it.",
+        "Core Standard 1 (Req 3): Do the following: (a) Explain how a compass works.",
+        "Core Standard 2 (Req 3): Describe the features of an orienteering compass."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain how a compass works. Describe the.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - (a) Explain how a compass works. Describe the",
+          "Primary Standard": "Explain how a compass works. Describe the features of an orienteering compass.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 3, a Scout claims: \"Reading a short definition of (a) Explain how a compass works. Describe the is enough for Orienteering Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a compass works. Describe the grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a compass works. Describe the grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 16-21, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a compass works. Describe the grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -131,14 +531,96 @@
           "label": "(a)",
           "text": "Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in the field.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 4a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4a is enough for Orienteering Requirement 4a sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 4a)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
           "text": "Point out and name 10 symbols on a topographic map.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 4b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4b is enough for Orienteering Requirement 4b sign-off.",
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4b grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 4b)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4c",
@@ -150,28 +632,201 @@
               "url": "https://youtu.be/SStmBzQC7eI?si=Le11Br8wWTxuIj0J"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 4c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4c is enough for Orienteering Requirement 4c sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 4c)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4d",
           "label": "(d)",
           "text": "Show a topographic map with magnetic north-south lines.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4d is enough for Orienteering Requirement 4d sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4d grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 4d)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4e",
           "label": "(e)",
           "text": "Show how to measure distances on a map using an orienteering compass.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4e is enough for Orienteering Requirement 4e sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4e grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 4e)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4f",
           "label": "(f)",
           "text": "Show how to orient a map using a compass.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4f is enough for Orienteering Requirement 4f sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4f grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 4f)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -191,7 +846,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: (a) Explain how a topographic map shows terrain",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Explain how a topographic map shows terrain is enough for Orienteering Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a topographic map shows terrain grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Orienteering Sub-Req 4a: Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in the field.",
+        "Orienteering Sub-Req 4b: Point out and name 10 symbols on a topographic map.",
+        "Orienteering Sub-Req 4c: Explain the meaning of declination. Tell why you must consider declination when using map and compass together.",
+        "Orienteering Sub-Req 4d: Show a topographic map with magnetic north-south lines."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain how a topographic map shows terrain.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - (a) Explain how a topographic map shows terrain",
+          "Primary Standard": "Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 4, a Scout claims: \"Reading a short definition of (a) Explain how a topographic map shows terrain is enough for Orienteering Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a topographic map shows terrain grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a topographic map shows terrain grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain how a topographic map shows terrain grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -213,7 +974,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: Set up a 100-meter pace course. Determine your",
+      "action_verb": "Set",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 5 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Set up a 100-meter pace course. Determine your is enough for Orienteering Requirement 5 sign-off.",
+        "fact": "Each Scout must actively set the specific principles and real-world steps of Set up a 100-meter pace course. Determine your grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 5): Set up a 100-meter pace course.",
+        "Core Standard 2 (Req 5): Determine your walking and running pace for 100 meters.",
+        "Core Standard 3 (Req 5): Tell why it is important to pace-count.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Orienteering Workbook before requesting Requirement 5 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Set up a 100-meter pace course. Determine your.",
+        "Execute & Document: Perform the set task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - Set up a 100-meter pace course. Determine your",
+          "Primary Standard": "Set up a 100-meter pace course. Determine your walking and running pace for 100 meters. Tell why it is importa",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 5, a Scout claims: \"Reading a short definition of Set up a 100-meter pace course. Determine your is enough for Orienteering Requirement 5 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively set the specific principles and real-world steps of Set up a 100-meter pace course. Determine your grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively set the specific principles and real-world steps of Set up a 100-meter pace course. Determine your grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 28-33, Each Scout must actively set the specific principles and real-world steps of Set up a 100-meter pace course. Determine your grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -232,7 +1096,48 @@
               "url": "https://carolinaorienteering.com/wp-content/uploads/Orienteering-Clue-Symbols.pdf"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 6a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6a is enough for Orienteering Requirement 6a sign-off.",
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 6a grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 6a)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "6b",
@@ -244,7 +1149,48 @@
               "url": "https://backwoodsok.org/control-descriptions-and-map-symbols-explained"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 6b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6b is enough for Orienteering Requirement 6b sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 6b)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "6c",
@@ -256,7 +1202,49 @@
               "url": "https://betterorienteering.org/intermediate-techniques"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "row_labels": [
+              "Primary Mechanism",
+              "Field Indicator",
+              "Safety / Application"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6c is enough for Orienteering Requirement 6c sign-off.",
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 6c)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -280,7 +1268,111 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: (a) Identify 20 international control description symbols. Tell",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 34-39",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
+        "row_labels": [
+          "Primary Mechanism",
+          "Field Indicator",
+          "Safety / Application"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Identify 20 international control description symbols. Tell is enough for Orienteering Requirement 6 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify 20 international control description symbols. Tell grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Orienteering Sub-Req 6a: Identify 20 international control description symbols. Tell the meaning of each symbol.",
+        "Orienteering Sub-Req 6b: Show a control description sheet and explain the information provided.",
+        "Orienteering Sub-Req 6c: Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation.",
+        "Core Standard 1 (Req 6): Do the following: (a) Identify 20 international control description symbols."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Identify 20 international control description symbols. Tell.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - (a) Identify 20 international control description symbols. Tell",
+          "Primary Standard": "Identify 20 international control description symbols. Tell the meaning of each symbol.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 6, a Scout claims: \"Reading a short definition of (a) Identify 20 international control description symbols. Tell is enough for Orienteering Requirement 6 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify 20 international control description symbols. Tell grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify 20 international control description symbols. Tell grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 34-39, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify 20 international control description symbols. Tell grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 6."
     },
     {
       "req_id": "7",
@@ -294,14 +1386,96 @@
           "label": "(a)",
           "text": "Take part in three orienteering events. One of these must be a cross-country course. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system. Requirement 7(a) can be completed by pairs or groups of Scouts.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7a is enough for Orienteering Requirement 7a sign-off.",
+            "fact": "Each Scout must actively take the specific principles and real-world steps of Req 7a grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 7a)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
           "text": "After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3) a discussion of how you could improve your time between control points, and (4) a list of your major weaknesses on this course. Describe what you could do to improve.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Make-Up Eligible",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 7b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 40-45",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 7b is enough for Orienteering Requirement 7b sign-off.",
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 7b grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 7b)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [],
@@ -312,7 +1486,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 7: (a) Take part in three orienteering events. One",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 7 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 40-45",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 40-45",
+      "syllabus_bucket": "Make-Up Eligible",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Take part in three orienteering events. One is enough for Orienteering Requirement 7 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take part in three orienteering events. One grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 7)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Orienteering Sub-Req 7a: Take part in three orienteering events. One of these must be a cross-country course. Note: While orienteering is primarily an individual sport, Scouting America.",
+        "Orienteering Sub-Req 7b: After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route.",
+        "Core Standard 1 (Req 7): Do the following: (a) Take part in three orienteering events.",
+        "Core Standard 2 (Req 7): One of these must be a cross-country course."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 7): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Take part in three orienteering events. One.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 7",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 7.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 40-45.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 7",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 7 - (a) Take part in three orienteering events. One",
+          "Primary Standard": "Take part in three orienteering events. One of these must be a cross-country course. Note: While orienteering ",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 40-45."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 7, a Scout claims: \"Reading a short definition of (a) Take part in three orienteering events. One is enough for Orienteering Requirement 7 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take part in three orienteering events. One grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 7 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take part in three orienteering events. One grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 40-45, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take part in three orienteering events. One grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 7."
     },
     {
       "req_id": "8",
@@ -326,7 +1606,48 @@
           "label": "(a)",
           "text": "Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare the master map and control description sheet.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8a is enough for Orienteering Requirement 8a sign-off.",
+            "fact": "Each Scout must actively set the specific principles and real-world steps of Req 8a grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 8a)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8b",
@@ -338,7 +1659,48 @@
               "url": "https://youtu.be/IfSaBKaau4k"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 8b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8b is enough for Orienteering Requirement 8b sign-off.",
+            "fact": "Each Scout must actively set the specific principles and real-world steps of Req 8b grounded in the official Orienteering pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Orienteering Merit Badge Hub (Req 8b)",
+              "url": "https://www.scouting.org/merit-badges/orienteering/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Orienteering Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -354,7 +1716,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 8: (a) Set up a cross-country course that is",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 8 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 46-51",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 46-51",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 8 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of (a) Set up a cross-country course that is is enough for Orienteering Requirement 8 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) Set up a cross-country course that is grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 8)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Orienteering Sub-Req 8a: Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare the master map and control description sheet.",
+        "Orienteering Sub-Req 8b: Set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes. Set point values.",
+        "Core Standard 1 (Req 8): Do ONE of the following: (a) Set up a cross-country course that is at least 2,000 meters long with at least five control markers.",
+        "Core Standard 2 (Req 8): Prepare the master map and control description sheet."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 8): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Set up a cross-country course that is.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 8",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 8.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 46-51.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 8",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 8 - (a) Set up a cross-country course that is",
+          "Primary Standard": "Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare t",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 46-51."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 8, a Scout claims: \"Reading a short definition of (a) Set up a cross-country course that is is enough for Orienteering Requirement 8 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Set up a cross-country course that is grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 8 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Set up a cross-country course that is grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 46-51, Each Scout must actively explain the specific principles and real-world steps of (a) Set up a cross-country course that is grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 8."
     },
     {
       "req_id": "9",
@@ -371,7 +1836,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 9: Act as an official during an orienteering event",
+      "action_verb": "Act",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 9 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 52-57",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 52-57",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 9 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Act as an official during an orienteering event is enough for Orienteering Requirement 9 sign-off.",
+        "fact": "Each Scout must actively act the specific principles and real-world steps of Act as an official during an orienteering event grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 9)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 9): Act as an official during an orienteering event.",
+        "Core Standard 2 (Req 9): This may be during the running of the course you set up for requirement 8.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Orienteering Req 9 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Orienteering Workbook before requesting Requirement 9 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 9): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Act as an official during an orienteering event.",
+        "Execute & Document: Perform the act task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 9",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 9.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 52-57.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 9",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 9 - Act as an official during an orienteering event",
+          "Primary Standard": "Act as an official during an orienteering event. This may be during the running of the course you set up for r",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 52-57."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 9, a Scout claims: \"Reading a short definition of Act as an official during an orienteering event is enough for Orienteering Requirement 9 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively act the specific principles and real-world steps of Act as an official during an orienteering event grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 9 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively act the specific principles and real-world steps of Act as an official during an orienteering event grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 52-57, Each Scout must actively act the specific principles and real-world steps of Act as an official during an orienteering event grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 9."
     },
     {
       "req_id": "10",
@@ -388,7 +1956,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 10: Teach orienteering techniques to your patrol, troop, or",
+      "action_verb": "Teach",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 10 activities.",
+      "pamphlet_citation": "Official BSA Orienteering Pamphlet, pp. 58-63",
+      "pamphlet_page_citation": "Official BSA Orienteering Pamphlet, pp. 58-63",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 10 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Teach orienteering techniques to your patrol, troop, or is enough for Orienteering Requirement 10 sign-off.",
+        "fact": "Each Scout must actively teach the specific principles and real-world steps of Teach orienteering techniques to your patrol, troop, or grounded in the official Orienteering pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Orienteering Merit Badge Hub (Req 10)",
+          "url": "https://www.scouting.org/merit-badges/orienteering/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Orienteering Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 10): Teach orienteering techniques to your patrol, troop, or crew.",
+        "Field Verification Standard: Apply Orienteering Requirement 10 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Orienteering Req 10 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Orienteering Workbook before requesting Requirement 10 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 10): Review the official Orienteering requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Teach orienteering techniques to your patrol, troop, or.",
+        "Execute & Document: Perform the teach task methodically with your patrol buddy and log specific observations in your Orienteering Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Orienteering Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Orienteering Req 10",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Orienteering Approach",
+        "right_header": "Official BSA Orienteering Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 10.",
+          "Records concrete measurements, examples, and citations from Official BSA Orienteering Pamphlet, pp. 58-63.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Orienteering Req 10",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 10 - Teach orienteering techniques to your patrol, troop, or",
+          "Primary Standard": "Teach orienteering techniques to your patrol, troop, or crew.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Orienteering terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Orienteering Pamphlet, pp. 58-63."
+        },
+        "counselor_tip": "Bring your filled-in Orienteering Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Orienteering Requirement 10, a Scout claims: \"Reading a short definition of Teach orienteering techniques to your patrol, troop, or is enough for Orienteering Requirement 10 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively teach the specific principles and real-world steps of Teach orienteering techniques to your patrol, troop, or grounded in the official Orienteering pamphlet.",
+          "Skip Requirement 10 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively teach the specific principles and real-world steps of Teach orienteering techniques to your patrol, troop, or grounded in the official Orienteering pamphlet.",
+        "explanation": "Per Official BSA Orienteering Pamphlet, pp. 58-63, Each Scout must actively teach the specific principles and real-world steps of Teach orienteering techniques to your patrol, troop, or grounded in the official Orienteering pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 10."
     }
-  ]
+  ],
+  "badge_slug": "orienteering",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

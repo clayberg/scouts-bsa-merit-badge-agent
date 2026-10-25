@@ -2059,6 +2059,7 @@ async function loadBadgesCatalog() {
   const multiOptCount = (state.badges || []).filter(
     (b) => b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2)
   ).length || 18;
+  const testLabCount = (state.badges || []).filter((b) => Boolean(b.is_test_lab_pilot)).length || 5;
 
   const eagleSelect = document.getElementById("filter-eagle-select");
   if (eagleSelect && totalCount > 0) {
@@ -2070,6 +2071,7 @@ async function loadBadgesCatalog() {
       <option value="EAGLE">Eagle-Required (${eagleCount})</option>
       <option value="ELECTIVE">Electives (${electiveCount})</option>
       <option value="MULTI_OPTION">Multi-Option Badges (${multiOptCount})</option>
+      <option value="TEST_LAB">🧪 Test Lab Pilot (${testLabCount})</option>
     `;
     eagleSelect.value = prevEagleVal;
   }
@@ -2080,6 +2082,7 @@ async function loadBadgesCatalog() {
     catSelect.innerHTML = `
       <option value="ALL">All Categories</option>
       <option value="MULTI_OPTION">Multi-Option Badges (${multiOptCount})</option>
+      <option value="TEST_LAB">🧪 Test Lab Pilot (${testLabCount})</option>
     `;
     state.categories.forEach((cat) => {
       const opt = document.createElement("option");
@@ -2104,11 +2107,14 @@ function applyBadgeFilters(initialLoad = false) {
   const favSet = new Set((state.favoriteBadges || []).map((x) => String(x).toLowerCase()));
   state.filteredBadges = state.badges.filter((b) => {
     const isMultiOpt = Boolean(b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2));
+    const isTestLab = Boolean(b.is_test_lab_pilot);
     if (query && !b.badge_name.toLowerCase().includes(query) && !(b.category || "").toLowerCase().includes(query)) {
       return false;
     }
     if (category === "MULTI_OPTION") {
       if (!isMultiOpt) return false;
+    } else if (category === "TEST_LAB") {
+      if (!isTestLab) return false;
     } else if (category !== "ALL" && b.category !== category) {
       return false;
     }
@@ -2122,6 +2128,9 @@ function applyBadgeFilters(initialLoad = false) {
       return false;
     }
     if (eagleMode === "MULTI_OPTION" && !isMultiOpt) {
+      return false;
+    }
+    if (eagleMode === "TEST_LAB" && !isTestLab) {
       return false;
     }
     return true;
@@ -2149,7 +2158,12 @@ function applyBadgeFilters(initialLoad = false) {
     const opt = document.createElement("option");
     opt.value = b.badge_name;
     const isFav = favSet.has(b.badge_name.toLowerCase());
-    opt.textContent = `${isFav ? "⭐ " : ""}${b.is_eagle_required ? "★ " : ""}${b.badge_name} (${b.category})`;
+    const statusSuffix = b.is_discontinued
+      ? " [🚫 Discontinued]"
+      : b.is_test_lab_pilot
+      ? " [🧪 Test Lab]"
+      : "";
+    opt.textContent = `${isFav ? "⭐ " : ""}${b.is_eagle_required ? "★ " : ""}${b.badge_name}${statusSuffix} (${b.category})`;
     select.appendChild(opt);
   });
 
@@ -2715,6 +2729,7 @@ function renderStudioKitAndParentLetter(result) {
   if (!result) return;
   const finops = result.finops_cost_estimate || {};
   const troopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
+  syncCompanionBadgePillBar(result);
 
   const agendaPreview = document.getElementById("studiokit-agenda-preview");
   if (agendaPreview) {
@@ -3545,6 +3560,8 @@ function renderActiveSlide(idx) {
 
     if (reqStripBox) reqStripBox.style.display = "none";
     safetyBar?.classList.add("hidden");
+    document.getElementById("stage-misconception-bar")?.classList.add("hidden");
+    document.getElementById("slide-multimedia-drawer")?.classList.add("hidden");
 
     const customLogoUrl = state.customLogoUrl || res.custom_troop_logo_url || "";
     const titleColor = coverTokens.isStudio ? "#F8FAFC" : "#003F87";
@@ -3825,7 +3842,12 @@ function renderActiveSlide(idx) {
   const reqNumChip = document.getElementById("stage-req-number");
   if (reqNumChip) reqNumChip.style.display = "none";
   if (footerLeft) {
-    footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge`;
+    const inlineCitations = [];
+    if (slide.pamphlet_reference) inlineCitations.push(`📖 ${slide.pamphlet_reference}`);
+    if (slide.workbook_table_ref) inlineCitations.push(`📝 ${slide.workbook_table_ref}`);
+    footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge${
+      inlineCitations.length ? " • " + inlineCitations.join(" • ") : ""
+    }`;
     footerLeft.style.color = tokens.footerColor;
   }
   if (footerRight) {
@@ -4286,18 +4308,95 @@ function renderActiveSlide(idx) {
     }
   }
 
-  // Safety bar: respect safety_banner_mode ("ACUTE_HAZARDS_ONLY" | "COMPACT_ACCENT" | "ALL_WARNINGS")
+  // Single Unified Bottom Callout Slot: Safety Warning takes precedence, otherwise Misconception vs. Fact Bar (borderless LEFT_ACCENT_LINE)
   const shouldShowSafetyWarning =
     Boolean(slide.safety_warning) &&
     (effStyle.safety_banner_mode === "ALL_WARNINGS" ||
       effStyle.safety_banner_mode === "COMPACT_ACCENT" ||
       !isCleanOrLineMode ||
       isAcuteSafetyHazardSlide(slide, archetype, normTheme));
+  const misconceptionBar = document.getElementById("stage-misconception-bar");
+  const misconceptionText = document.getElementById("stage-misconception-text");
+  const rawMyth =
+    slide.misconception_pair?.misconception ||
+    slide.misconception_pair?.myth ||
+    slide.common_misconception_pair?.misconception ||
+    "";
+  const rawFact =
+    slide.misconception_pair?.fact ||
+    slide.misconception_pair?.fact_correction ||
+    slide.common_misconception_pair?.fact_correction ||
+    "";
+  const hasMisconceptionPair = Boolean(rawMyth && rawFact);
   if (shouldShowSafetyWarning) {
     safetyBar?.classList.remove("hidden");
     if (safetyText) safetyText.textContent = `Guide to Safe Scouting: ${slide.safety_warning}`;
+    misconceptionBar?.classList.add("hidden");
+  } else if (hasMisconceptionPair) {
+    safetyBar?.classList.add("hidden");
+    misconceptionBar?.classList.remove("hidden");
+    if (misconceptionText) {
+      misconceptionText.innerHTML = `<strong>Myth:</strong> ${escapeHtml(
+        rawMyth
+      )} &rarr; <strong>Pamphlet Fact:</strong> ${escapeHtml(rawFact)}`;
+    }
   } else {
     safetyBar?.classList.add("hidden");
+    misconceptionBar?.classList.add("hidden");
+  }
+
+  // Under-Stage Collapsible Multimedia, Pamphlet & Workbook Citations Drawer
+  const mmDrawer = document.getElementById("slide-multimedia-drawer");
+  if (mmDrawer) {
+    mmDrawer.classList.remove("hidden");
+    const pamChip = document.getElementById("drawer-pamphlet-citation-chip");
+    const wbChip = document.getElementById("drawer-workbook-citation-chip");
+    const gatesWrap = document.getElementById("drawer-gate-badges-wrap");
+    const linksList = document.getElementById("slide-multimedia-links-list");
+    if (pamChip) {
+      pamChip.textContent = `📖 ${
+        slide.pamphlet_reference || `Official ${res.badge_name} Pamphlet (${reqLabel})`
+      }`;
+    }
+    if (wbChip) {
+      wbChip.textContent = `📝 ${
+        slide.workbook_table_ref || `Workbook ${reqLabel} Organizer`
+      }`;
+    }
+    if (gatesWrap) {
+      const gates = Array.isArray(slide.gate_badges) ? slide.gate_badges : [];
+      const verbBadge = slide.action_verb_badge ? [`🎯 ${slide.action_verb_badge}`] : [];
+      gatesWrap.innerHTML = [...verbBadge, ...gates]
+        .map(
+          (g) =>
+            `<span class="m3-chip m3-chip-secondary" style="font-size:0.65rem; padding:1px 7px;">${escapeHtml(
+              g
+            )}</span>`
+        )
+        .join("");
+    }
+    if (linksList) {
+      const resources = Array.isArray(slide.curated_resources) ? slide.curated_resources : [];
+      if (resources.length > 0) {
+        linksList.innerHTML = resources
+          .map(
+            (rc) => `
+              <a href="${escapeHtml(rc.url || "#")}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">
+                🔗 ${escapeHtml(rc.title || rc.resource_type || "Resource")} <span style="font-weight:500; color:#475569;">(${escapeHtml(rc.domain || "scouting.org")})</span> ↗
+              </a>
+            `
+          )
+          .join("");
+      } else {
+        const pamUrl = res.pamphlet_pdf_url || res.research_artifact?.pamphlet_pdf_url || "#";
+        const drgUrl = res.drg_url || res.research_artifact?.drg_url || "https://www.scouting.org/skills/merit-badges/";
+        linksList.innerHTML = `
+          <a href="${escapeHtml(pamUrl)}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">📖 Official Pamphlet PDF ↗</a>
+          <a href="${escapeHtml(drgUrl)}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">🌐 Scouting America DRG Hub ↗</a>
+        `;
+      }
+    }
+    mmDrawer.open = Boolean(slide.safety_warning);
   }
 
   // Counselor Teaching Notes
@@ -4341,8 +4440,14 @@ function isSlideStageOverflowing(stageEl) {
   if (rightEl && !rightEl.classList.contains("hidden") && rightEl.scrollHeight > rightEl.clientHeight + 2) return true;
 
   const safetyBar = document.getElementById("stage-safety-bar") || document.getElementById("slide-safety-bar");
+  const misconceptionBar = document.getElementById("stage-misconception-bar");
   const footerStrip = stageEl.querySelector(".m3-slide-footer-strip");
-  const bottomBoundaryEl = (safetyBar && !safetyBar.classList.contains("hidden")) ? safetyBar : footerStrip;
+  const bottomBoundaryEl =
+    safetyBar && !safetyBar.classList.contains("hidden")
+      ? safetyBar
+      : misconceptionBar && !misconceptionBar.classList.contains("hidden")
+      ? misconceptionBar
+      : footerStrip;
   if (bottomBoundaryEl && splitEl) {
     const boundaryTop = bottomBoundaryEl.getBoundingClientRect().top;
     const padBottom = parseFloat(window.getComputedStyle(splitEl).paddingBottom) || 0;
@@ -4383,6 +4488,75 @@ window.addEventListener("resize", () => {
   fitActiveSlideToStage();
 });
 
+const FACILITATOR_5PART_SPECS = [
+  {
+    tag: "[PACING & MODALITY]",
+    regex: /^\[PACING\s*&\s*MODALITY\]/i,
+    label: "⏱️ [PACING & MODALITY]",
+    chipBg: "#DBEAFE",
+    chipFg: "#1E3A8A",
+    cardBg: "#F8FAFC",
+    cardBorder: "#3B82F6",
+    pcClass: "m3-pc-cue-card-pacing",
+  },
+  {
+    tag: "[ASK SCOUTS FIRST]",
+    regex: /^\[ASK\s+SCOUTS(?:\s+FIRST)?\]/i,
+    label: "❓ [ASK SCOUTS FIRST — SOCRATIC HOOK]",
+    chipBg: "#FEF3C7",
+    chipFg: "#B45309",
+    cardBg: "#FFFBEB",
+    cardBorder: "#F59E0B",
+    pcClass: "m3-pc-cue-card-ask",
+  },
+  {
+    tag: "[EXPECTED PAMPHLET ANSWER KEY]",
+    regex: /^\[EXPECTED\s+PAMPHLET\s+ANSWER\s+KEY\]/i,
+    label: "✓ [EXPECTED PAMPHLET ANSWER KEY]",
+    chipBg: "#DCFCE7",
+    chipFg: "#166534",
+    cardBg: "#F0FDF4",
+    cardBorder: "#22C55E",
+    pcClass: "m3-pc-cue-card-answer",
+  },
+  {
+    tag: "[COMMON MISCONCEPTION TO CORRECT]",
+    regex: /^\[COMMON\s+MISCONCEPTION\s+TO\s+CORRECT\]/i,
+    label: "💡 [COMMON MISCONCEPTION TO CORRECT]",
+    chipBg: "#EDE9FE",
+    chipFg: "#5B21B6",
+    cardBg: "#F5F3FF",
+    cardBorder: "#8B5CF6",
+    pcClass: "m3-pc-cue-card-myth",
+  },
+  {
+    tag: "[DEMONSTRATION & SIGN-OFF RUBRIC]",
+    regex: /^\[DEMONSTRATION\s*&\s*SIGN-OFF\s+RUBRIC\]/i,
+    label: "🛠️ [DEMONSTRATION & SIGN-OFF RUBRIC]",
+    chipBg: "#E2EDC8",
+    chipFg: "#151E00",
+    cardBg: "#F7FEE7",
+    cardBorder: "#65A30D",
+    pcClass: "m3-pc-cue-card-demo",
+  },
+];
+
+function decorateFacilitatorInlineMarkup(rawLine) {
+  let decorated = escapeHtml(rawLine);
+  decorated = decorated
+    .replace(/\*{1,2}([^*\n]{2,110}?)\*{2}/g, "<strong>$1</strong>")
+    .replace(/\*{2}([^*\n]{2,110}?)\*{1,2}/g, "<strong>$1</strong>");
+  decorated = decorated.replace(
+    /\[Expected Answer:\s*([^\]]+)\]/gi,
+    '<div class="m3-expected-answer-box"><strong>✓ Expected Answer:</strong> $1</div>'
+  );
+  decorated = decorated.replace(
+    /\[((?!PACING\s*&\s*MODALITY\]|ASK\s+SCOUTS(?:\s+FIRST)?\]|EXPECTED\s+PAMPHLET\s+ANSWER\s+KEY\]|COMMON\s+MISCONCEPTION\s+TO\s+CORRECT\]|DEMONSTRATION\s*&\s*SIGN-OFF\s+RUBRIC\]|SAY\]|DEMONSTRATE\])[^\]]{3,160})\]/gi,
+    '<span class="m3-stage-cue-pill">🎬 [$1]</span>'
+  );
+  return decorated;
+}
+
 function formatSpeakerNotesHtml(rawNotes) {
   const lines = String(rawNotes || "")
     .split(/\n+/)
@@ -4390,29 +4564,46 @@ function formatSpeakerNotesHtml(rawNotes) {
     .filter(Boolean);
   return lines
     .map((line) => {
-      let decorated = escapeHtml(line)
+      for (const spec of FACILITATOR_5PART_SPECS) {
+        if (spec.regex.test(line)) {
+          const rest = line.replace(spec.regex, "").trim();
+          const bodyHtml = decorateFacilitatorInlineMarkup(rest);
+          return `
+            <div class="m3-facilitator-5part-card" style="background:${spec.cardBg}; border-left:4px solid ${spec.cardBorder}; border-radius:6px; padding:6px 10px; margin-bottom:7px;">
+              <span class="m3-cue-tag" style="background:${spec.chipBg}; color:${spec.chipFg}; margin-right:6px;">${escapeHtml(spec.tag)}</span>
+              <span>${bodyHtml}</span>
+            </div>
+          `;
+        }
+      }
+      // Fallback for legacy 3-part [SAY] / [DEMONSTRATE] / [ASK SCOUTS] speaker notes
+      let decorated = decorateFacilitatorInlineMarkup(line)
         .replace(/\[SAY\]/g, '<span class="m3-cue-tag">[SAY]</span>')
         .replace(/\[DEMONSTRATE\]/g, '<span class="m3-cue-tag" style="background:#E2EDC8;color:#151E00;">[DEMONSTRATE]</span>')
         .replace(/\[ASK SCOUTS\]/g, '<span class="m3-cue-tag" style="background:#FEF3C7;color:#B45309;">[ASK SCOUTS]</span>');
 
-      // Render Markdown bold (**term** as well as slightly mismatched *term** or **term*) as clean <strong> tags without asterisks
-      decorated = decorated
-        .replace(/\*{1,2}([^*\n]{2,110}?)\*{2}/g, "<strong>$1</strong>")
-        .replace(/\*{2}([^*\n]{2,110}?)\*{1,2}/g, "<strong>$1</strong>");
-
-      decorated = decorated.replace(
-        /\[Expected Answer:\s*([^\]]+)\]/gi,
-        '<div class="m3-expected-answer-box"><strong>✓ Expected Answer:</strong> $1</div>'
-      );
-
-      decorated = decorated.replace(
-        /\[((?!SAY\]|DEMONSTRATE\]|ASK SCOUTS\])[^\]]{3,160})\]/g,
-        '<span class="m3-stage-cue-pill">🎬 [$1]</span>'
-      );
-
       return `<div style="margin-bottom:8px;">${decorated}</div>`;
     })
     .join("");
+}
+
+const SYLLABUS_BUCKET_META = {
+  PRE_CLASS_PREREQUISITE: { label: "1. Pre-Class Prereq", bg: "#FEF2F2", fg: "#991B1B", border: "#FCA5A5" },
+  IN_CLASS_CORE: { label: "2. In-Class Core", bg: "#EFF6FF", fg: "#1E40AF", border: "#93C5FD" },
+  BETWEEN_SESSION_HOMEWORK: { label: "3. Between-Session HW", bg: "#FFFBEB", fg: "#92400E", border: "#FCD34D" },
+  MAKEUP_ELIGIBLE: { label: "4. Make-Up Eligible", bg: "#F5F3FF", fg: "#5B21B6", border: "#C4B5FD" },
+  POST_CLASS_TROOP_COMPLETION: { label: "5. Post-Class Troop/Camp", bg: "#ECFDF5", fg: "#065F46", border: "#6EE7B7" },
+};
+
+function resolveReqSyllabusBucket(r) {
+  const badgeName = state.currentResult?.badge_name || "First Aid";
+  const reqNum = String(r.req_number || "").trim();
+  const overrideMap = state.syllabusBucketOverrides?.[badgeName] || {};
+  if (overrideMap[reqNum]) return overrideMap[reqNum];
+  if (r.syllabus_bucket) return r.syllabus_bucket;
+  if (r.execution_mode === "PREREQUISITE_CAMPOUT_HOME") return "PRE_CLASS_PREREQUISITE";
+  if (r.execution_mode === "HANDS_ON_SKILL_STATION") return "MAKEUP_ELIGIBLE";
+  return "IN_CLASS_CORE";
 }
 
 function renderTriageMatrix(research, pamphletUrl, drgUrl) {
@@ -4423,9 +4614,15 @@ function renderTriageMatrix(research, pamphletUrl, drgUrl) {
   if (pdfLink) pdfLink.href = pamphletUrl || "#";
   if (drgLink) drgLink.href = drgUrl || "https://www.scouting.org/skills/merit-badges/";
 
-  const inClass = reqs.filter((r) => (r.execution_mode || "IN_CLASS_DISCUSSION") === "IN_CLASS_DISCUSSION");
-  const handsOn = reqs.filter((r) => r.execution_mode === "HANDS_ON_SKILL_STATION");
-  const prereq = reqs.filter((r) => r.execution_mode === "PREREQUISITE_CAMPOUT_HOME");
+  const activeBucketFilter = state.activeTriageBucketFilter || "ALL";
+  const visibleReqs =
+    activeBucketFilter === "ALL"
+      ? reqs
+      : reqs.filter((r) => resolveReqSyllabusBucket(r) === activeBucketFilter);
+
+  const inClass = visibleReqs.filter((r) => (r.execution_mode || "IN_CLASS_DISCUSSION") === "IN_CLASS_DISCUSSION");
+  const handsOn = visibleReqs.filter((r) => r.execution_mode === "HANDS_ON_SKILL_STATION");
+  const prereq = visibleReqs.filter((r) => r.execution_mode === "PREREQUISITE_CAMPOUT_HOME");
 
   document.getElementById("count-in-class").textContent = String(inClass.length);
   document.getElementById("count-hands-on").textContent = String(handsOn.length);
@@ -4445,11 +4642,33 @@ function renderTriageMatrix(research, pamphletUrl, drgUrl) {
         const slideCount = matchingSlideIndices.length;
         const edgePhase = r.edge_phase || (r.execution_mode === "HANDS_ON_SKILL_STATION" ? "Guide / Enable" : "Explain");
         const signoffText = r.counselor_signoff_criteria || "";
+        const bucketKey = resolveReqSyllabusBucket(r);
+        const bMeta = SYLLABUS_BUCKET_META[bucketKey] || SYLLABUS_BUCKET_META.IN_CLASS_CORE;
+        const verbBadge = r.action_verb_badge || "";
+        const bucketOptionsHtml = Object.entries(SYLLABUS_BUCKET_META)
+          .map(
+            ([k, v]) =>
+              `<option value="${escapeHtml(k)}" ${k === bucketKey ? "selected" : ""}>${escapeHtml(v.label)}</option>`
+          )
+          .join("");
         return `
-      <div class="m3-req-node-card">
+      <div class="m3-req-node-card" data-req-bucket="${escapeHtml(bucketKey)}">
         <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; flex-wrap:wrap;">
           <span class="m3-chip m3-chip-primary" style="font-size:0.72rem; padding:2px 8px;">Requirement ${escapeHtml(r.req_number)}</span>
-          <span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:2px 7px;">EDGE: ${escapeHtml(edgePhase)}</span>
+          <div style="display:flex; align-items:center; gap:4px; flex-wrap:wrap;">
+            ${
+              verbBadge
+                ? `<span class="m3-chip m3-chip-secondary" style="font-size:0.63rem; padding:1px 6px; font-weight:800;">🎯 ${escapeHtml(verbBadge)}</span>`
+                : ""
+            }
+            <span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:2px 7px;">EDGE: ${escapeHtml(edgePhase)}</span>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; margin-top:5px; flex-wrap:wrap;">
+          <span style="font-size:0.66rem; font-weight:800; padding:2px 7px; border-radius:999px; background:${bMeta.bg}; color:${bMeta.fg}; border:1px solid ${bMeta.border};">${escapeHtml(bMeta.label)}</span>
+          <select class="m3-req-bucket-override-select" data-override-req="${escapeHtml(reqStr)}" aria-label="Override Syllabus Bucket for Requirement ${escapeHtml(reqStr)}" style="height:22px; font-size:0.65rem; padding:0 4px; border-radius:4px; border:1px solid #CBD5E1; background:#F8FAFC; color:#334155;">
+            ${bucketOptionsHtml}
+          </select>
         </div>
         <div style="font-size:0.84rem; font-weight:600; color:var(--md-sys-color-on-surface); margin-top:4px;">${escapeHtml(r.req_text)}</div>
         ${
@@ -4474,6 +4693,54 @@ function renderTriageMatrix(research, pamphletUrl, drgUrl) {
   document.getElementById("triage-col-in-class").innerHTML = renderReqCards(inClass);
   document.getElementById("triage-col-hands-on").innerHTML = renderReqCards(handsOn);
   document.getElementById("triage-col-prereq").innerHTML = renderReqCards(prereq);
+
+  document.querySelectorAll(".m3-req-bucket-override-select[data-override-req]").forEach((sel) => {
+    sel.addEventListener("change", async () => {
+      const reqNum = sel.getAttribute("data-override-req") || "";
+      const newBucket = sel.value || "IN_CLASS_CORE";
+      const badgeName = state.currentResult?.badge_name || "First Aid";
+      state.syllabusBucketOverrides = state.syllabusBucketOverrides || {};
+      state.syllabusBucketOverrides[badgeName] = state.syllabusBucketOverrides[badgeName] || {};
+      state.syllabusBucketOverrides[badgeName][reqNum] = newBucket;
+      try {
+        await fetch("/api/v1/triage/bucket-override", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            badge_name: badgeName,
+            req_number: reqNum,
+            syllabus_bucket: newBucket,
+          }),
+        });
+      } catch (_e) {}
+      renderTriageMatrix(research, pamphletUrl, drgUrl);
+    });
+  });
+
+  const filterBar = document.getElementById("triage-syllabus-bucket-filter-bar");
+  if (filterBar && !filterBar.dataset.boundBucketFilter) {
+    filterBar.dataset.boundBucketFilter = "1";
+    filterBar.querySelectorAll("button[data-bucket-filter]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const chosen = btn.getAttribute("data-bucket-filter") || "ALL";
+        state.activeTriageBucketFilter = chosen;
+        filterBar.querySelectorAll("button[data-bucket-filter]").forEach((b) => {
+          const isAct = b.getAttribute("data-bucket-filter") === chosen;
+          b.classList.toggle("m3-btn-tonal", isAct);
+          b.classList.toggle("m3-btn-outlined", !isAct);
+          b.classList.toggle("active", isAct);
+        });
+        const currRes = state.currentResult;
+        if (currRes) {
+          renderTriageMatrix(
+            currRes.research_artifact || {},
+            currRes.pamphlet_pdf_url || "#",
+            currRes.drg_url || "https://www.scouting.org/skills/merit-badges/"
+          );
+        }
+      });
+    });
+  }
 
   document.querySelectorAll(".m3-req-jump-action-btn[data-jump-slide-idx]").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -6277,15 +6544,58 @@ function getPlainEmailBodyFromMarkdown(md) {
     .trim();
 }
 
+function syncCompanionBadgePillBar(result) {
+  const pillBar = document.getElementById("studiokit-companion-pill-bar");
+  if (!pillBar || !result) return;
+  const badgeName = result.badge_name || "First Aid";
+  const badgeMeta = (state.badges || []).find(
+    (b) => String(b.badge_name || "").toLowerCase() === badgeName.toLowerCase()
+  );
+  const companions =
+    Array.isArray(badgeMeta?.companion_badges) && badgeMeta.companion_badges.length > 0
+      ? badgeMeta.companion_badges
+      : [];
+  if (companions.length === 0) {
+    pillBar.innerHTML = "";
+    state.activeCompanionBadge = "";
+    return;
+  }
+  const activeComp = state.activeCompanionBadge || "";
+  pillBar.innerHTML = [
+    `<span style="font-size:0.71rem; font-weight:800; color:#475569;">🔗 Companion Track:</span>`,
+    `<button type="button" class="m3-btn ${!activeComp ? "m3-btn-tonal" : "m3-btn-outlined"}" data-companion-badge="" style="height:24px; font-size:0.68rem; padding:0 8px;">Single Badge (${escapeHtml(badgeName)})</button>`,
+    ...companions.map(
+      (cb) =>
+        `<button type="button" class="m3-btn ${
+          activeComp === cb ? "m3-btn-tonal" : "m3-btn-outlined"
+        }" data-companion-badge="${escapeHtml(cb)}" style="height:24px; font-size:0.68rem; padding:0 8px;">+ ${escapeHtml(cb)}</button>`
+    ),
+  ].join("");
+
+  pillBar.querySelectorAll("button[data-companion-badge]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.activeCompanionBadge = btn.getAttribute("data-companion-badge") || "";
+      syncCompanionBadgePillBar(result);
+      document.getElementById("studiokit-schedule-select")?.dispatchEvent(new Event("change"));
+      renderBlueCardTracker(result);
+    });
+  });
+}
+
 function bindCounselorToolkitActions() {
-  // F3: Session Pacing Schedule Format Selector
+  // F3: Session Pacing Schedule Format Selector + Snow-Day Compression + Companion Track
   const scheduleSel = document.getElementById("studiokit-schedule-select");
-  scheduleSel?.addEventListener("change", async () => {
+  const snowdaySel = document.getElementById("studiokit-snowday-select");
+  const rebuildStudioKitAgenda = async () => {
     if (!state.currentResult) return;
-    const scheduleFormat = scheduleSel.value || "3 Troop Meetings (60-Min)";
+    const scheduleFormat = scheduleSel?.value || "3 Troop Meetings (60-Min)";
+    const rawPostponed = parseInt(snowdaySel?.value || "0", 10);
+    const postponedSessionIdx = rawPostponed > 0 ? rawPostponed : null;
     const agendaPreview = document.getElementById("studiokit-agenda-preview");
     if (agendaPreview) {
-      agendaPreview.innerHTML = `<div style="padding:16px; color:#003F87; font-weight:600;">⏳ Rebuilding Session Pacing Plan for <strong>${escapeHtml(scheduleFormat)}</strong>...</div>`;
+      agendaPreview.innerHTML = `<div style="padding:16px; color:#003F87; font-weight:600;">⏳ Rebuilding Session Pacing Plan for <strong>${escapeHtml(scheduleFormat)}</strong>${
+        postponedSessionIdx ? ` (Snow-Day Compression: Session ${postponedSessionIdx})` : ""
+      }...</div>`;
     }
     try {
       const resp = await fetch("/api/studiokit/agenda", {
@@ -6294,6 +6604,8 @@ function bindCounselorToolkitActions() {
         body: JSON.stringify({
           badge_name: state.currentResult.badge_name,
           schedule_format: scheduleFormat,
+          postponed_session_idx: postponedSessionIdx,
+          companion_badge_name: state.activeCompanionBadge || "",
           requirements: state.currentResult.research_artifact?.requirements || [],
           storyboard_slides: state.currentResult.storyboard?.slides || [],
           counselor_info: {
@@ -6315,6 +6627,139 @@ function bindCounselorToolkitActions() {
       if (agendaPreview && state.currentResult.session_agenda?.agenda_markdown) {
         agendaPreview.innerHTML = renderMarkdownToStyledHtml(state.currentResult.session_agenda.agenda_markdown);
       }
+    }
+  };
+  scheduleSel?.addEventListener("change", rebuildStudioKitAgenda);
+  snowdaySel?.addEventListener("change", rebuildStudioKitAgenda);
+
+  // Fillable HTML Workbook & 1-Page CPP & Organizer Spec Sheet actions
+  const handleOpenFillableWorkbook = () => {
+    const badge = state.currentResult?.badge_name || "First Aid";
+    const optTrack =
+      state.currentResult?.option_track ||
+      document.getElementById("option-track-select")?.value ||
+      "ALL";
+    const counselor = document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
+    const url = `/api/v1/studiokit/fillable-workbook?badge_name=${encodeURIComponent(
+      badge
+    )}&option_track=${encodeURIComponent(optTrack)}&counselor_name=${encodeURIComponent(
+      counselor
+    )}&troop_name=${encodeURIComponent(troop)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+  document.getElementById("btn-workbook-open-fillable-html")?.addEventListener("click", handleOpenFillableWorkbook);
+  document.getElementById("btn-studiokit-fillable-workbook")?.addEventListener("click", handleOpenFillableWorkbook);
+
+  const handleOpenCpp = async () => {
+    if (!state.currentResult) return;
+    const badge = state.currentResult.badge_name || "First Aid";
+    const scheduleFormat = document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc";
+    try {
+      const resp = await fetch("/api/v1/studiokit/class-prep-cpp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badge,
+          schedule_format: scheduleFormat,
+          counselor_info: {
+            counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
+            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
+            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop123.org",
+            phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
+          },
+        }),
+      }).then((r) => r.json());
+      if (resp && resp.cpp_markdown) {
+        printHtmlDocument(
+          `${badge} Merit Badge — 1-Page Class Preparation Page (CPP)`,
+          `Pre-Class Readiness Guide • ${scheduleFormat}`,
+          renderMarkdownToStyledHtml(resp.cpp_markdown)
+        );
+      }
+    } catch (_e) {}
+  };
+  document.getElementById("btn-workbook-open-cpp")?.addEventListener("click", handleOpenCpp);
+  document.getElementById("btn-studiokit-cpp")?.addEventListener("click", handleOpenCpp);
+
+  document.getElementById("btn-studiokit-organizer-spec")?.addEventListener("click", async () => {
+    if (!state.currentResult) return;
+    const badge = state.currentResult.badge_name || "First Aid";
+    const scheduleFormat = document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc";
+    try {
+      const resp = await fetch("/api/v1/studiokit/organizer-spec-sheet", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badge,
+          schedule_format: scheduleFormat,
+          counselor_info: {
+            counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
+            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
+            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop123.org",
+            phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
+          },
+        }),
+      }).then((r) => r.json());
+      if (resp && resp.spec_markdown) {
+        printHtmlDocument(
+          `${badge} Merit Badge — 1-Page MBC Organizer Syllabus Spec Sheet`,
+          `Catalog & Room/Equipment Spec • ${scheduleFormat}`,
+          renderMarkdownToStyledHtml(resp.spec_markdown)
+        );
+      }
+    } catch (_e) {}
+  });
+
+  // Class Opening Setup Slide (Slide 2) & Class Closing Wrap-Up Slide (Slide N-1) Injection
+  document.getElementById("btn-apply-logistics-slides")?.addEventListener("click", async (ev) => {
+    if (!state.currentResult) return;
+    const btn = ev.currentTarget;
+    const origText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "⏳ Injecting Opening & Closing Slides...";
+    try {
+      const resp = await fetch("/api/v1/slide/logistics-slides", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: state.currentResult.badge_name || "First Aid",
+          slides: state.currentResult.storyboard?.slides || [],
+          requirements: state.currentResult.research_artifact?.requirements || [],
+          logistics_config: {
+            include_opening_slide: Boolean(document.getElementById("logistics-include-opening-checkbox")?.checked),
+            include_closing_slide: Boolean(document.getElementById("logistics-include-closing-checkbox")?.checked),
+            room_and_venue: document.getElementById("logistics-room-input")?.value || "Room 204 (Main Hall)",
+            restroom_and_emergency_exit:
+              document.getElementById("logistics-emergency-input")?.value ||
+              "Hallway West • Main Courtyard Muster Point",
+            session_dates_summary:
+              document.getElementById("logistics-dates-input")?.value ||
+              "Sessions 1–4 (75-Min Blocks) + Optional Make-Up Block",
+            next_session_homework:
+              document.getElementById("logistics-homework-input")?.value ||
+              "Complete Between-Session Workbook tables and bring signed prerequisite evidence.",
+            blue_card_procedure:
+              "Sign out with your Counselor before leaving; verify S1–S4 attendance & Scoutbook Plus export.",
+          },
+        }),
+      }).then((r) => r.json());
+      if (resp && Array.isArray(resp.slides)) {
+        state.currentResult.storyboard.slides = resp.slides;
+        state.currentResult.slide_count = resp.slides.length + 1;
+        document.getElementById("kpi-slide-count").textContent = String(state.currentResult.slide_count);
+        state.activeSlideIdx = 0;
+        renderFilmstrip(resp.slides);
+        renderActiveSlide(0);
+        btn.textContent = "✅ Injected Logistics Slides!";
+        setTimeout(() => {
+          btn.textContent = origText;
+        }, 2000);
+      }
+    } catch (_e) {
+      btn.textContent = origText;
+    } finally {
+      btn.disabled = false;
     }
   });
 
@@ -6439,14 +6884,22 @@ function bindCounselorToolkitActions() {
   document.getElementById("btn-print-gear-list")?.addEventListener("click", handlePrintGearList);
   document.getElementById("btn-print-gear-checklist")?.addEventListener("click", handlePrintGearList);
 
-  // F6: Blue Card Roster Add / Reset / CSV Export / Print
+  // F6: Blue Card Roster Add (with Troop) / Troop Filter / Session Stamp / Reset / CSV Export / Troop Packets / 3-Stage YPT Composer
   document.getElementById("btn-bluecard-add-scout")?.addEventListener("click", () => {
     const inputEl = document.getElementById("bluecard-scout-name-input");
+    const troopEl = document.getElementById("bluecard-scout-troop-input");
     const rawName = (inputEl?.value || "").trim();
+    const rawTroop = (troopEl?.value || "").trim() || document.getElementById("input-troop-name")?.value || "Troop 123";
     if (!rawName || !state.currentResult) return;
     const roster = loadBadgeBlueCardRoster(state.currentResult.badge_name);
     if (!roster.scouts.some((s) => s.name.toLowerCase() === rawName.toLowerCase())) {
-      roster.scouts.push({ name: rawName, completedReqs: [] });
+      roster.scouts.push({
+        name: rawName,
+        troop: rawTroop,
+        completedReqs: [],
+        completedReqsByBadge: { [state.currentResult.badge_name]: [] },
+        attendance: { S1: true, S2: true, S3: true, S4: true, M: false },
+      });
       saveBadgeBlueCardRoster(state.currentResult.badge_name, roster);
     }
     if (inputEl) inputEl.value = "";
@@ -6458,6 +6911,43 @@ function bindCounselorToolkitActions() {
       document.getElementById("btn-bluecard-add-scout")?.click();
     }
   });
+  document.getElementById("bluecard-troop-filter-select")?.addEventListener("change", () => {
+    if (state.currentResult) renderBlueCardTracker(state.currentResult);
+  });
+
+  // One-Click Session Requirement Stamper (S1..S4 | M)
+  document.getElementById("btn-bluecard-stamp-session")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    const badgeName = state.currentResult.badge_name || "First Aid";
+    const reqs = state.currentResult.research_artifact?.requirements || [];
+    const sessKey = document.getElementById("bluecard-session-stamp-select")?.value || "S1";
+    const roster = loadBadgeBlueCardRoster(badgeName);
+    const inClassReqs = reqs.filter((r) => resolveReqSyllabusBucket(r) !== "PRE_CLASS_PREREQUISITE");
+    const targetReqs = inClassReqs.length > 0 ? inClassReqs : reqs;
+    const chunkSize = Math.max(1, Math.ceil(targetReqs.length / 4));
+    let stampedNums = [];
+    if (sessKey === "M") {
+      stampedNums = reqs
+        .filter((r) => resolveReqSyllabusBucket(r) === "MAKEUP_ELIGIBLE" || r.execution_mode === "HANDS_ON_SKILL_STATION")
+        .map((r) => String(r.req_number));
+      if (stampedNums.length === 0) stampedNums = targetReqs.map((r) => String(r.req_number));
+    } else {
+      const sIdx = Math.max(0, Math.min(3, parseInt(sessKey.replace("S", ""), 10) - 1));
+      const slice = targetReqs.slice(sIdx * chunkSize, (sIdx + 1) * chunkSize);
+      stampedNums = (slice.length > 0 ? slice : targetReqs).map((r) => String(r.req_number));
+    }
+    roster.scouts.forEach((scout) => {
+      const att = scout.attendance || { S1: true, S2: true, S3: true, S4: true, M: false };
+      if (att[sessKey] !== false) {
+        const set = new Set(scout.completedReqs || []);
+        stampedNums.forEach((rn) => set.add(rn));
+        scout.completedReqs = Array.from(set);
+      }
+    });
+    saveBadgeBlueCardRoster(badgeName, roster);
+    renderBlueCardTracker(state.currentResult);
+  });
+
   document.getElementById("btn-bluecard-reset-roster")?.addEventListener("click", () => {
     if (!state.currentResult) return;
     const key = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(state.currentResult.badge_name);
@@ -6468,11 +6958,123 @@ function bindCounselorToolkitActions() {
   });
   document.getElementById("btn-bluecard-export-csv")?.addEventListener("click", () => {
     if (!state.currentResult) return;
-    exportBlueCardCsv(state.currentResult);
+    exportBlueCardCsv(state.currentResult, false);
+  });
+  document.getElementById("btn-bluecard-export-troop-packets")?.addEventListener("click", () => {
+    if (!state.currentResult) return;
+    exportBlueCardCsv(state.currentResult, true);
   });
   document.getElementById("btn-bluecard-print")?.addEventListener("click", () => {
     if (!state.currentResult) return;
     printBlueCardSignOffSheet(state.currentResult);
+  });
+
+  // 3-Stage YPT-Safe Email Composer
+  const yptBox = document.getElementById("bluecard-ypt-composer-box");
+  const renderActiveYptStage = () => {
+    const pack = state.activeYptPack || {};
+    const stageKey = state.activeYptStageKey || "stage1";
+    const map = {
+      stage1: pack.stage_1_welcome_and_cpp_markdown || "",
+      stage2: pack.stage_2_midpoint_homework_markdown || "",
+      stage3: pack.stage_3_post_class_bluecard_markdown || "",
+    };
+    const previewEl = document.getElementById("ypt-stage-markdown-preview");
+    if (previewEl) {
+      previewEl.innerHTML = renderMarkdownToStyledHtml(map[stageKey] || "Select a stage above.");
+    }
+    yptBox?.querySelectorAll(".m3-ypt-stage-tab").forEach((btn) => {
+      const isAct = btn.getAttribute("data-ypt-stage") === stageKey;
+      btn.classList.toggle("m3-btn-tonal", isAct);
+      btn.classList.toggle("m3-btn-outlined", !isAct);
+      btn.classList.toggle("active", isAct);
+    });
+  };
+
+  document.getElementById("btn-bluecard-open-ypt-composer")?.addEventListener("click", async () => {
+    if (!state.currentResult || !yptBox) return;
+    const willShow = yptBox.classList.contains("hidden");
+    yptBox.classList.toggle("hidden", !willShow);
+    if (!willShow) return;
+    const badgeName = state.currentResult.badge_name || "First Aid";
+    const roster = loadBadgeBlueCardRoster(badgeName);
+    try {
+      const resp = await fetch("/api/v1/studiokit/ypt-three-stage-pack", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badgeName,
+          schedule_format: document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc",
+          roster_scouts: roster.scouts || [],
+          counselor_info: {
+            counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
+            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
+            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop123.org",
+            phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
+          },
+        }),
+      }).then((r) => r.json());
+      if (resp && resp.ypt_pack) {
+        state.activeYptPack = resp.ypt_pack;
+        state.activeYptStageKey = state.activeYptStageKey || "stage1";
+        renderActiveYptStage();
+      }
+    } catch (_e) {}
+  });
+
+  yptBox?.querySelectorAll(".m3-ypt-stage-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.activeYptStageKey = btn.getAttribute("data-ypt-stage") || "stage1";
+      renderActiveYptStage();
+    });
+  });
+
+  const getActiveYptStageMarkdown = () => {
+    const pack = state.activeYptPack || {};
+    const stageKey = state.activeYptStageKey || "stage1";
+    if (stageKey === "stage2") return pack.stage_2_midpoint_homework_markdown || "";
+    if (stageKey === "stage3") return pack.stage_3_post_class_bluecard_markdown || "";
+    return pack.stage_1_welcome_and_cpp_markdown || "";
+  };
+
+  document.getElementById("btn-ypt-copy-stage")?.addEventListener("click", (ev) => {
+    copyTextWithFeedback(ev.currentTarget, getActiveYptStageMarkdown(), "✅ Copied YPT Stage Email!");
+  });
+
+  const checkTwoDeepCcEmails = () => {
+    const ccRaw = (document.getElementById("ypt-cc-emails-input")?.value || "").trim();
+    const counselorEmail = (document.getElementById("input-counselor-email")?.value || "").trim();
+    const combined = [ccRaw, counselorEmail].filter(Boolean).join(",");
+    const emails = combined.split(/[,;]+/).map((s) => s.trim()).filter((s) => s.includes("@"));
+    return { ccString: emails.join(","), count: emails.length };
+  };
+
+  document.getElementById("btn-ypt-mailto-stage")?.addEventListener("click", (ev) => {
+    const { ccString } = checkTwoDeepCcEmails();
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const plain = getPlainEmailBodyFromMarkdown(getActiveYptStageMarkdown());
+    copyTextWithFeedback(ev.currentTarget, plain, "✅ Opening Mail Client (YPT CC Included)");
+    const subject = encodeURIComponent(`[YPT Two-Deep CC] ${badge} Merit Badge — Multi-Session Clinic Update`);
+    const body = encodeURIComponent(plain.slice(0, 1800));
+    const link = document.createElement("a");
+    link.href = `mailto:?cc=${encodeURIComponent(ccString)}&subject=${subject}&body=${body}`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+
+  document.getElementById("btn-ypt-gmail-stage")?.addEventListener("click", (ev) => {
+    const { ccString } = checkTwoDeepCcEmails();
+    const badge = state.currentResult?.badge_name || "Merit Badge";
+    const plain = getPlainEmailBodyFromMarkdown(getActiveYptStageMarkdown());
+    copyTextWithFeedback(ev.currentTarget, plain, "✅ Opening Gmail (YPT CC Included)");
+    const subject = encodeURIComponent(`[YPT Two-Deep CC] ${badge} Merit Badge — Multi-Session Clinic Update`);
+    const body = encodeURIComponent(plain.slice(0, 1800));
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&cc=${encodeURIComponent(ccString)}&su=${subject}&body=${body}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
   });
 }
 
@@ -6648,6 +7250,26 @@ function getBlueCardRosterStorageKey(badgeName) {
   return BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
 }
 
+function persistRosterToClinicIdb(key, rosterObj) {
+  try {
+    if (typeof indexedDB === "undefined") return;
+    const req = indexedDB.open("bsa_counselor_clinic_idb_v1", 1);
+    req.onupgradeneeded = (ev) => {
+      const db = ev.target.result;
+      if (!db.objectStoreNames.contains("clinic_rosters")) {
+        db.createObjectStore("clinic_rosters", { keyPath: "id" });
+      }
+    };
+    req.onsuccess = (ev) => {
+      try {
+        const db = ev.target.result;
+        const tx = db.transaction("clinic_rosters", "readwrite");
+        tx.objectStore("clinic_rosters").put({ id: key, roster: rosterObj, updatedAt: Date.now() });
+      } catch (_e) {}
+    };
+  } catch (_e) {}
+}
+
 function loadBadgeBlueCardRoster(badgeName) {
   const wsKey = getBlueCardRosterStorageKey(badgeName);
   const badgeKey = BLUECARD_STORAGE_PREFIX + badgeNameToEmblemSlug(badgeName);
@@ -6656,15 +7278,38 @@ function loadBadgeBlueCardRoster(badgeName) {
     if (raw) {
       const parsed = JSON.parse(raw);
       if (parsed && Array.isArray(parsed.scouts)) {
+        parsed.scouts.forEach((s, idx) => {
+          if (!s.troop) s.troop = idx === 2 ? "Troop 45" : "Troop 12";
+          if (!s.attendance) s.attendance = { S1: true, S2: true, S3: true, S4: true, M: false };
+          if (!s.completedReqsByBadge) s.completedReqsByBadge = { [badgeName]: s.completedReqs || [] };
+        });
         return parsed;
       }
     }
   } catch (_e) {}
   return {
     scouts: [
-      { name: "Alex Carter (Patrol Leader)", completedReqs: [] },
-      { name: "Sam Rivera", completedReqs: [] },
-      { name: "Jordan Patel", completedReqs: [] },
+      {
+        name: "Alex Carter (Patrol Leader)",
+        troop: "Troop 12",
+        completedReqs: [],
+        completedReqsByBadge: { [badgeName]: [] },
+        attendance: { S1: true, S2: true, S3: true, S4: true, M: false },
+      },
+      {
+        name: "Sam Rivera",
+        troop: "Troop 12",
+        completedReqs: [],
+        completedReqsByBadge: { [badgeName]: [] },
+        attendance: { S1: true, S2: true, S3: true, S4: true, M: false },
+      },
+      {
+        name: "Jordan Patel",
+        troop: "Troop 45",
+        completedReqs: [],
+        completedReqsByBadge: { [badgeName]: [] },
+        attendance: { S1: true, S2: true, S3: false, S4: true, M: true },
+      },
     ],
   };
 }
@@ -6676,10 +7321,40 @@ function saveBadgeBlueCardRoster(badgeName, rosterObj) {
     const serialized = JSON.stringify(rosterObj);
     window.localStorage.setItem(wsKey, serialized);
     window.localStorage.setItem(badgeKey, serialized);
+    persistRosterToClinicIdb(badgeKey, rosterObj);
   } catch (_e) {}
   if (typeof window.syncActiveWorkspaceBlueCardRoster === "function") {
     window.syncActiveWorkspaceBlueCardRoster(rosterObj);
   }
+}
+
+function classifySmartPartialStatus(scout, reqs) {
+  const completedSet = new Set(scout.completedReqs || []);
+  const doneCount = reqs.filter((r) => completedSet.has(String(r.req_number))).length;
+  if (doneCount === reqs.length && reqs.length > 0) {
+    return {
+      code: "COMPLETE",
+      html: `<span class="m3-chip m3-chip-success" style="font-size:0.70rem; padding:2px 8px;">✓ COMPLETE (${doneCount}/${reqs.length})</span>`,
+      csvLabel: "COMPLETE",
+    };
+  }
+  const missingReqs = reqs.filter((r) => !completedSet.has(String(r.req_number)));
+  const hasMissedInClassOrMakeUp = missingReqs.some((r) => {
+    const bucket = resolveReqSyllabusBucket(r);
+    return bucket === "IN_CLASS_CORE" || bucket === "MAKEUP_ELIGIBLE" || bucket === "BETWEEN_SESSION_HOMEWORK";
+  });
+  if (hasMissedInClassOrMakeUp) {
+    return {
+      code: "ACTIONABLE_MAKEUP",
+      html: `<span class="m3-smart-partial-badge is-actionable" title="Missed one or more In-Class or Make-Up Eligible requirements">🟠 Actionable Make-Up (${doneCount}/${reqs.length})</span>`,
+      csvLabel: `PARTIAL - ACTIONABLE MAKE-UP (${doneCount}/${reqs.length})`,
+    };
+  }
+  return {
+    code: "EXPECTED_HOME_TROOP",
+    html: `<span class="m3-smart-partial-badge is-expected" title="Completed all In-Class requirements; only Pre-Class/Post-Class Troop or Campout requirements remain">🔵 Expected Home-Troop (${doneCount}/${reqs.length})</span>`,
+    csvLabel: `PARTIAL - EXPECTED HOME-TROOP (${doneCount}/${reqs.length})`,
+  };
 }
 
 function renderBlueCardTracker(result) {
@@ -6688,6 +7363,25 @@ function renderBlueCardTracker(result) {
   const badgeName = result.badge_name || "First Aid";
   const reqs = result.research_artifact?.requirements || [];
   const roster = loadBadgeBlueCardRoster(badgeName);
+
+  // Sync Multi-Troop filter dropdown options
+  const troopFilterSel = document.getElementById("bluecard-troop-filter-select");
+  const distinctTroops = Array.from(
+    new Set((roster.scouts || []).map((s) => String(s.troop || "Troop 123").trim()).filter(Boolean))
+  ).sort();
+  if (troopFilterSel) {
+    const prevTroopFilter = troopFilterSel.value || "ALL";
+    troopFilterSel.innerHTML = [
+      `<option value="ALL">All Troops (${roster.scouts.length} Scouts)</option>`,
+      ...distinctTroops.map((t) => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`),
+    ].join("");
+    if (distinctTroops.includes(prevTroopFilter)) {
+      troopFilterSel.value = prevTroopFilter;
+    } else {
+      troopFilterSel.value = "ALL";
+    }
+  }
+  const activeTroopFilter = troopFilterSel?.value || "ALL";
 
   if (reqs.length === 0) {
     container.innerHTML = `<div style="padding:14px; color:#64748B;">No requirements loaded for Blue Card tracking.</div>`;
@@ -6709,14 +7403,23 @@ function renderBlueCardTracker(result) {
     })
     .join("");
 
+  const sessionKeys = ["S1", "S2", "S3", "S4", "M"];
   const bodyRows = roster.scouts
     .map((scout, sIdx) => {
+      if (activeTroopFilter !== "ALL" && String(scout.troop || "Troop 123") !== activeTroopFilter) {
+        return "";
+      }
       const completedSet = new Set(scout.completedReqs || []);
       const doneCount = reqs.filter((r) => completedSet.has(String(r.req_number))).length;
       const isComplete = doneCount === reqs.length && reqs.length > 0;
-      const statusPill = isComplete
-        ? `<span class="m3-chip m3-chip-success" style="font-size:0.70rem; padding:2px 8px;">✓ COMPLETE (${doneCount}/${reqs.length})</span>`
-        : `<span class="m3-chip m3-chip-gold" style="font-size:0.70rem; padding:2px 8px;">Partial (${doneCount}/${reqs.length})</span>`;
+      const smartPartial = classifySmartPartialStatus(scout, reqs);
+      const att = scout.attendance || { S1: true, S2: true, S3: true, S4: true, M: false };
+      const attPillsHtml = sessionKeys
+        .map((sk) => {
+          const isPresent = Boolean(att[sk]);
+          return `<button type="button" class="m3-bc-attendance-pill ${isPresent ? "is-present" : "is-absent"}" data-bc-att-scout="${sIdx}" data-bc-att-sess="${sk}" title="Toggle ${sk} Attendance (${isPresent ? "Present" : "Absent / Not Attended"})">${sk}</button>`;
+        })
+        .join("");
 
       const reqCells = reqs
         .map((r) => {
@@ -6730,11 +7433,21 @@ function renderBlueCardTracker(result) {
         <tr>
           <td>
             <div style="display:flex; align-items:center; justify-content:space-between; gap:6px;">
-              <span>${escapeHtml(scout.name)}</span>
+              <div>
+                <div style="font-weight:700;">${escapeHtml(scout.name)}</div>
+                <span style="font-size:0.65rem; font-weight:800; color:#003F87; background:#EFF6FF; border:1px solid #BFDBFE; border-radius:4px; padding:1px 5px;">${escapeHtml(scout.troop || "Troop 123")}</span>
+              </div>
               <button type="button" data-bc-remove-scout="${sIdx}" title="Remove Scout" style="border:none; background:transparent; color:#94A3B8; cursor:pointer; font-size:0.78rem;">✕</button>
             </div>
           </td>
-          <td>${statusPill}</td>
+          <td>
+            <div style="display:flex; flex-direction:column; gap:4px;">
+              ${smartPartial.html}
+              <div style="display:flex; align-items:center; gap:3px; flex-wrap:wrap;" title="Multi-Session Clinic Attendance (S1..S4 | Make-Up)">
+                ${attPillsHtml}
+              </div>
+            </div>
+          </td>
           <td>
             <div style="display:flex; align-items:center; gap:5px;">
               <input type="checkbox" class="m3-bluecard-row-check" data-bc-row-scout="${sIdx}" ${isComplete ? "checked" : ""} style="accent-color:#003F87; width:14px; height:14px; cursor:pointer;" title="Toggle all requirements for ${escapeHtml(scout.name)}" />
@@ -6753,8 +7466,8 @@ function renderBlueCardTracker(result) {
     <table class="m3-bluecard-table">
       <thead>
         <tr>
-          <th>Scout Name</th>
-          <th>Blue Card Status</th>
+          <th>Scout Name &amp; Troop</th>
+          <th>Smart Partial &amp; Session Attendance (S1–S4 | M)</th>
           <th>Quick</th>
           ${headerCols}
         </tr>
@@ -6764,6 +7477,19 @@ function renderBlueCardTracker(result) {
       </tbody>
     </table>
   `;
+
+  container.querySelectorAll("button[data-bc-att-scout][data-bc-att-sess]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const sIdx = parseInt(btn.getAttribute("data-bc-att-scout") || "0", 10);
+      const sessKey = btn.getAttribute("data-bc-att-sess") || "S1";
+      const targetScout = roster.scouts[sIdx];
+      if (!targetScout) return;
+      targetScout.attendance = targetScout.attendance || { S1: true, S2: true, S3: true, S4: true, M: false };
+      targetScout.attendance[sessKey] = !targetScout.attendance[sessKey];
+      saveBadgeBlueCardRoster(badgeName, roster);
+      renderBlueCardTracker(result);
+    });
+  });
 
   container.querySelectorAll("input[data-bc-scout][data-bc-req]").forEach((cb) => {
     cb.addEventListener("change", () => {
@@ -6778,6 +7504,8 @@ function renderBlueCardTracker(result) {
         set.delete(rNum);
       }
       targetScout.completedReqs = Array.from(set);
+      targetScout.completedReqsByBadge = targetScout.completedReqsByBadge || {};
+      targetScout.completedReqsByBadge[badgeName] = targetScout.completedReqs;
       saveBadgeBlueCardRoster(badgeName, roster);
       renderBlueCardTracker(result);
     });
@@ -6790,6 +7518,8 @@ function renderBlueCardTracker(result) {
     const allDone = allNums.every((n) => (targetScout.completedReqs || []).includes(n));
     const shouldCheckAll = typeof forceState === "boolean" ? forceState : !allDone;
     targetScout.completedReqs = shouldCheckAll ? allNums : [];
+    targetScout.completedReqsByBadge = targetScout.completedReqsByBadge || {};
+    targetScout.completedReqsByBadge[badgeName] = targetScout.completedReqs;
     saveBadgeBlueCardRoster(badgeName, roster);
     renderBlueCardTracker(result);
   };
@@ -6836,35 +7566,55 @@ function renderBlueCardTracker(result) {
   });
 }
 
-function exportBlueCardCsv(result) {
+function sanitizeCsvCell(rawVal) {
+  let s = String(rawVal ?? "").trim();
+  if (/^[=+\-@\t\r]/.test(s)) {
+    s = `'${s}`;
+  }
+  return `"${s.replace(/"/g, '""')}"`;
+}
+
+function exportBlueCardCsv(result, groupedByTroop = false) {
   const badgeName = result.badge_name || "First Aid";
   const reqs = result.research_artifact?.requirements || [];
   const roster = loadBadgeBlueCardRoster(badgeName);
   const counselorName = document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob";
-  const troopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
+  const defaultTroopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
   const customDate = document.getElementById("bluecard-signoff-date")?.value;
   const todayIso = customDate || new Date().toISOString().slice(0, 10);
+  const activeTroopFilter = document.getElementById("bluecard-troop-filter-select")?.value || "ALL";
 
   const csvRows = [
-    ["Scout Name", "Unit", "Merit Badge", "Requirement", "Completed", "Date", "Counselor", "Overall Status"].join(","),
+    ["Scout Name", "Unit", "Merit Badge", "Requirement", "Completed", "Date", "Counselor", "Smart Partial Status", "Sessions Attended"].join(","),
   ];
 
-  roster.scouts.forEach((scout) => {
+  const scoutsList = (roster.scouts || []).slice().sort((a, b) => {
+    if (!groupedByTroop) return 0;
+    return String(a.troop || "").localeCompare(String(b.troop || ""));
+  });
+
+  scoutsList.forEach((scout) => {
+    const scoutTroop = scout.troop || defaultTroopName;
+    if (!groupedByTroop && activeTroopFilter !== "ALL" && scoutTroop !== activeTroopFilter) {
+      return;
+    }
     const set = new Set(scout.completedReqs || []);
-    const doneCount = reqs.filter((r) => set.has(String(r.req_number))).length;
-    const statusStr = doneCount === reqs.length && reqs.length > 0 ? "COMPLETE" : `PARTIAL (${doneCount}/${reqs.length})`;
+    const smartPartial = classifySmartPartialStatus(scout, reqs);
+    const att = scout.attendance || { S1: true, S2: true, S3: true, S4: true, M: false };
+    const attSummary = ["S1", "S2", "S3", "S4", "M"].filter((k) => Boolean(att[k])).join(" ");
     reqs.forEach((r) => {
       const rNum = String(r.req_number);
       const isDone = set.has(rNum);
       const cells = [
-        `"${String(scout.name).replace(/"/g, '""')}"`,
-        `"${String(troopName).replace(/"/g, '""')}"`,
-        `"${String(badgeName).replace(/"/g, '""')}"`,
-        `"Req ${rNum}"`,
+        sanitizeCsvCell(scout.name),
+        sanitizeCsvCell(scoutTroop),
+        sanitizeCsvCell(badgeName),
+        sanitizeCsvCell(`Req ${rNum}`),
         isDone ? "YES" : "NO",
         isDone ? todayIso : "",
-        `"${String(counselorName).replace(/"/g, '""')}"`,
-        `"${statusStr}"`,
+        sanitizeCsvCell(counselorName),
+        sanitizeCsvCell(smartPartial.csvLabel),
+        sanitizeCsvCell(attSummary),
       ];
       csvRows.push(cells.join(","));
     });
@@ -6874,7 +7624,8 @@ function exportBlueCardCsv(result) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `${badgeName.replace(/\s+/g, "_")}_Scoutbook_BlueCard_Export.csv`;
+  const suffix = groupedByTroop ? "_MultiTroop_Packets" : "_Scoutbook_BlueCard_Export";
+  a.download = `${badgeName.replace(/\s+/g, "_")}${suffix}.csv`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -7535,19 +8286,7 @@ function syncArchetypeVisualPicker(activeArch) {
 
 // UI-2 & Plan 7 #3 / Plan 11 #2: In-Stage Split-Screen Presenter Console + Dual-Window 2nd-Monitor Pop-Out
 function formatPresenterCueBodyHtml(rawSegment) {
-  let decorated = escapeHtml(String(rawSegment || "").trim());
-  decorated = decorated
-    .replace(/\*{1,2}([^*\n]{2,110}?)\*{2}/g, "<strong>$1</strong>")
-    .replace(/\*{2}([^*\n]{2,110}?)\*{1,2}/g, "<strong>$1</strong>");
-  decorated = decorated.replace(
-    /\[Expected Answer:\s*([^\]]+)\]/gi,
-    '<div class="m3-expected-answer-box"><strong>✓ Expected Answer:</strong> $1</div>'
-  );
-  decorated = decorated.replace(
-    /\[((?!SAY\]|DEMONSTRATE\]|ASK SCOUTS\])[^\]]{3,160})\]/g,
-    '<span class="m3-stage-cue-pill">🎬 [$1]</span>'
-  );
-  return decorated;
+  return decorateFacilitatorInlineMarkup(String(rawSegment || "").trim());
 }
 
 function formatPresenterConsoleCardsHtml(rawNotes) {
@@ -7560,6 +8299,23 @@ function formatPresenterConsoleCardsHtml(rawNotes) {
   }
   const cards = [];
   for (const line of lines) {
+    let matchedFivePart = false;
+    for (const spec of FACILITATOR_5PART_SPECS) {
+      if (spec.regex.test(line)) {
+        const body = formatPresenterCueBodyHtml(line.replace(spec.regex, "").trim());
+        cards.push(`
+          <div class="m3-pc-cue-card ${spec.pcClass}" style="border-left:4px solid ${spec.cardBorder};">
+            <div class="m3-pc-cue-kicker" style="color:${spec.cardBorder};">${escapeHtml(spec.label)}</div>
+            <div>${body}</div>
+          </div>
+        `);
+        matchedFivePart = true;
+        break;
+      }
+    }
+    if (matchedFivePart) continue;
+
+    // Fallback for legacy 3-part [SAY] / [DEMONSTRATE] / [ASK SCOUTS] speaker notes
     if (/^\[SAY\]/i.test(line)) {
       const body = formatPresenterCueBodyHtml(line.replace(/^\[SAY\]\s*/i, ""));
       cards.push(`
@@ -7612,7 +8368,7 @@ function buildPresenterSyncPayload() {
         presenter_notes:
           res._polishedCoverNotes ||
           document.getElementById("stage-presenter-notes")?.innerText ||
-          "[SAY] Welcome to our Merit Badge session, Scouts! [Point to the Counselor Contact card on screen] Let's make sure everyone has their printable Merit Badge Workbook and pen ready, and remember our Two-Deep Leadership rule whenever you email or call with questions.\n[DEMONSTRATE] [Hold up the Merit Badge emblem and sample Workbook] Walk through today's session schedule and show where Scouts will log their field observations.\n[ASK SCOUTS] Who has already started working on the home or campout prerequisites? [Expected Answer: Collect prerequisite logs or note which Scouts need campout scheduling.]",
+          "[PACING & MODALITY] 3–5 min • Session Opening & Youth Protection Ground Rules. [Point to the Counselor Contact card on screen] Welcome Scouts and verify that everyone has their Fillable Merit Badge Workbook ready.\n[ASK SCOUTS FIRST] Who has already started working on the Pre-Class Prerequisite requirements or brought their signed Scoutmaster Blue Card (#34124) today?\n[EXPECTED PAMPHLET ANSWER KEY] Collect prerequisite logs, check starting requirement gates, and remind Scouts of the BSA Two-Deep Leadership rule on all emails and calls.\n[COMMON MISCONCEPTION TO CORRECT] Myth: Group attendance alone earns the Merit Badge. → Fact: Every Scout is individually tested on each exact action verb in the official requirements.\n[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up the Merit Badge emblem and sample Workbook] Walk through today's session schedule and show where Scouts record their evidence.",
       }
     : slides[idx] || {};
   const nextSlide = idx + 1 < slides.length ? slides[idx + 1] : null;
@@ -9102,14 +9858,16 @@ function renderPatchGalleryModal() {
     state.badges?.length > 0
       ? state.badges
       : [{ badge_name: "First Aid", is_eagle_required: true, category: "Personal Development" }];
-  if (catSelect && catSelect.options.length <= 2) {
+  if (catSelect && catSelect.options.length <= 3) {
     const prevVal = catSelect.value || "all";
     const multiCount =
       allBadges.filter((b) => b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2))
         .length || 18;
+    const testLabCount = allBadges.filter((b) => Boolean(b.is_test_lab_pilot)).length || 5;
     catSelect.innerHTML = `
       <option value="all">All Categories</option>
       <option value="MULTI_OPTION">Multi-Option Badges (${multiCount})</option>
+      <option value="TEST_LAB">🧪 Test Lab Pilot (${testLabCount})</option>
     `;
     const cats =
       state.categories?.length > 0
@@ -9147,13 +9905,17 @@ function renderPatchGalleryModal() {
     const name = b.badge_name || "";
     const cat = b.category || "";
     const isMultiOpt = Boolean(b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2));
+    const isTestLab = Boolean(b.is_test_lab_pilot);
     if (q && !`${name} ${cat}`.toLowerCase().includes(q)) return false;
     if (filterMode === "favorites" && !favSet.has(name.toLowerCase())) return false;
     if ((filterMode === "eagle" || filterMode === "eagle_required") && !b.is_eagle_required) return false;
     if (filterMode === "elective" && b.is_eagle_required) return false;
     if (filterMode === "multi_option" && !isMultiOpt) return false;
+    if (filterMode === "test_lab" && !isTestLab) return false;
     if (selectedCat === "MULTI_OPTION") {
       if (!isMultiOpt) return false;
+    } else if (selectedCat === "TEST_LAB") {
+      if (!isTestLab) return false;
     } else if (selectedCat.toLowerCase() !== "all" && cat !== selectedCat) {
       return false;
     }
@@ -9172,6 +9934,8 @@ function renderPatchGalleryModal() {
       const isSelected = name === state.currentBadge;
       const isFav = favSet.has(name.toLowerCase());
       const eagleClass = b.is_eagle_required ? "eagle-patch" : "";
+      const discontinuedClass = b.is_discontinued ? "discontinued-patch" : "";
+      const testLabClass = b.is_test_lab_pilot ? "testlab-patch" : "";
       const tracks = Array.isArray(b.option_tracks) ? b.option_tracks : [];
       const isMultiOpt = Boolean(b.has_option_tracks || tracks.length >= 2);
       const colIdx = cardIdx % 6;
@@ -9215,13 +9979,18 @@ function renderPatchGalleryModal() {
           </div>
         `
         : "";
+      const statusIndicatorHtml = b.is_discontinued
+        ? `<span class="m3-patch-discontinued-pill" title="Discontinued by Scouting America"><svg width="11" height="11" viewBox="0 0 16 16" aria-hidden="true" style="vertical-align:-1.5px; margin-right:2px;"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#DC2626" stroke-width="2.2"/><line x1="3.4" y1="12.6" x2="12.6" y2="3.4" stroke="#DC2626" stroke-width="2.2"/></svg>Discontinued</span>`
+        : b.is_test_lab_pilot
+        ? `<span class="m3-patch-testlab-pill" title="Scouting America Test Lab Pilot Badge">🧪 Test Lab</span>`
+        : "";
       return `
-        <div class="m3-patch-gallery-card ${eagleClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}" data-gallery-multiopt="${isMultiOpt ? "true" : "false"}" style="position:relative;">
+        <div class="m3-patch-gallery-card ${eagleClass} ${discontinuedClass} ${testLabClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}" data-gallery-multiopt="${isMultiOpt ? "true" : "false"}" style="position:relative;">
           <button type="button" class="m3-patch-fav-btn ${isFav ? "is-fav" : ""}" data-fav-toggle-badge="${escapeHtml(name)}" aria-pressed="${isFav ? "true" : "false"}" title="${isFav ? "Remove from My Favorites" : "Add to My Favorites"}">${isFav ? "★" : "☆"}</button>
           ${multiOptMenuHtml}
           <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" loading="lazy" />
-          <div class="m3-patch-card-title" style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.2;">
-            ${b.is_eagle_required ? "★ " : ""}${escapeHtml(name)}
+          <div class="m3-patch-card-title" style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.22; display:flex; align-items:center; justify-content:center; gap:4px; flex-wrap:wrap;">
+            <span>${b.is_eagle_required ? "★ " : ""}${escapeHtml(name)}</span>${statusIndicatorHtml}
           </div>
           <div class="m3-patch-card-category" style="font-size:0.65rem; color:#64748B;">${escapeHtml(b.category || "")}</div>
         </div>
@@ -11668,8 +12437,12 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     if (bodySplit) {
       bodySplit.style.paddingBottom = "";
     }
+    const misconceptionBar = document.getElementById("stage-misconception-bar");
     if (safetyBar) {
       safetyBar.style.marginBottom = "";
+    }
+    if (misconceptionBar) {
+      misconceptionBar.style.marginBottom = "";
     }
     if (footerStrip) {
       footerStrip.style.cssText = "";
@@ -11710,11 +12483,19 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     headerBandEl.style.paddingTop = topBannerUrl && topBannerUrl.includes("_header_strip") ? "22px" : "";
   }
 
-  // Lift #stage-body-split and #stage-safety-bar cleanly above the template's reserved bottom branding/logo zone without excess gap
+  // Lift #stage-body-split and #stage-safety-bar / #stage-misconception-bar cleanly above the template's reserved bottom branding/logo zone without excess gap
+  const misconceptionBar = document.getElementById("stage-misconception-bar");
   if (safetyBar && !safetyBar.classList.contains("hidden")) {
     safetyBar.style.marginBottom = `${Math.max(3.6, bottomReserveWidthPct - 0.5).toFixed(2)}%`;
+    if (misconceptionBar) misconceptionBar.style.marginBottom = "";
+    if (bodySplit) bodySplit.style.paddingBottom = "3px";
+  } else if (misconceptionBar && !misconceptionBar.classList.contains("hidden")) {
+    misconceptionBar.style.marginBottom = `${Math.max(3.6, bottomReserveWidthPct - 0.5).toFixed(2)}%`;
+    if (safetyBar) safetyBar.style.marginBottom = "";
     if (bodySplit) bodySplit.style.paddingBottom = "3px";
   } else if (bodySplit) {
+    if (safetyBar) safetyBar.style.marginBottom = "";
+    if (misconceptionBar) misconceptionBar.style.marginBottom = "";
     bodySplit.style.paddingBottom = `${Math.max(3.8, bottomReserveWidthPct).toFixed(2)}%`;
   }
 

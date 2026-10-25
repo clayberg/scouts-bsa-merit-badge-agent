@@ -29,7 +29,50 @@
               "url": "https://www.youtube.com/watch?v=dcRpBP9WvKg"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "headers": [
+              "Activity Hazard / Risk",
+              "Prevention & PPE Strategy",
+              "Emergency Response & First Aid"
+            ],
+            "row_labels": [
+              "Hazard 1",
+              "Hazard 2",
+              "Hazard 3",
+              "Hazard 4"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Cycling hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cycling prevents most field injuries."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 1a)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1b",
@@ -41,7 +84,51 @@
               "url": "https://www.youtube.com/watch?v=oPCWzECMD_4"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 1b is enough for Cycling Requirement 1b sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 1b)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -65,7 +152,112 @@
         "search_query_template": "National Weather Service Weather Forecast Office (WFO), regional severe weather hazards, and county emergency management alerts for {city}, {state}",
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
-      }
+      },
+      "topic_title": "Req 1: Cycling Hazards, PPE & First Aid Response",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cycling Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Cycling Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "headers": [
+          "Activity Hazard / Risk",
+          "Prevention & PPE Strategy",
+          "Emergency Response & First Aid"
+        ],
+        "row_labels": [
+          "Hazard 1",
+          "Hazard 2",
+          "Hazard 3",
+          "Hazard 4"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Cycling hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cycling prevents most field injuries."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Cycling Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/cycling/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Cycling Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Cycling Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in cycling activities and what you should do to anticipate, help.",
+        "Cycling Sub-Req 1b: Show that you know first aid for injuries or illnesses that could occur while cycling, including cuts, scratches, concussions, blisters, sunburn, heat exhaustion, heatstroke.",
+        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in cycling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+        "Core Standard 2 (Req 1): Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Cycling requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Cycling Hazards, PPE & First Aid Response.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Cycling Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Cycling Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cycling Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Cycling Approach",
+        "right_header": "Official BSA Cycling Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Cycling Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Cycling Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Cycling Hazards, PPE & First Aid Response",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in cycling activities ",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cycling terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cycling Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Cycling Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Cycling Requirement 1, a Scout claims: \"Scouts can jump straight into Cycling hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cycling prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cycling prevents most field injuries.",
+        "explanation": "Per Official BSA Cycling Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cycling prevents most field injuries."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Cycling Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -91,7 +283,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: Describe your state and local laws concerning bicycles",
+      "action_verb": "Describe",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cycling Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Cycling Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 2 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Describe your state and local laws concerning bicycles is enough for Cycling Requirement 2 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of Describe your state and local laws concerning bicycles grounded in the official Cycling pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Cycling Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/cycling/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Cycling Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 2): Describe your state and local laws concerning bicycles.",
+        "Core Standard 2 (Req 2): Discuss what is the same and what is different from laws applying to motor vehicles.",
+        "Core Standard 3 (Req 2): Explain where and how you should ride on roads and streets to include lane position, changing lanes, making left and right turns, and riding through intersections.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Cycling Workbook before requesting Requirement 2 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Cycling requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Describe your state and local laws concerning bicycles.",
+        "Execute & Document: Perform the describe task methodically with your patrol buddy and log specific observations in your Cycling Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Cycling Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cycling Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Cycling Approach",
+        "right_header": "Official BSA Cycling Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Cycling Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Cycling Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - Describe your state and local laws concerning bicycles",
+          "Primary Standard": "Describe your state and local laws concerning bicycles. Discuss what is the same and what is different from la",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cycling terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cycling Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Cycling Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Cycling Requirement 2, a Scout claims: \"Reading a short definition of Describe your state and local laws concerning bicycles is enough for Cycling Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Describe your state and local laws concerning bicycles grounded in the official Cycling pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Describe your state and local laws concerning bicycles grounded in the official Cycling pamphlet.",
+        "explanation": "Per Official BSA Cycling Pamphlet, pp. 10-15, Each Scout must actively describe the specific principles and real-world steps of Describe your state and local laws concerning bicycles grounded in the official Cycling pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Cycling Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -113,7 +408,115 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: Explain the importance of wearing the right clothing",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cycling Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Cycling Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 3 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Explain the importance of wearing the right clothing is enough for Cycling Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the importance of wearing the right clothing grounded in the official Cycling pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "EQUIPMENT_GATE",
+        "gate_label": "Required Field Gear / PPE Inspection",
+        "gate_description": "Bring required personal gear or PPE for Cycling Req 3 inspection prior to hands-on station work.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Cycling Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/cycling/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Cycling Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 3): Explain the importance of wearing the right clothing and gear while cycling, including a properly sized and fitted helmet.",
+        "Core Standard 2 (Req 3): Know the Scouting America Bike Safety Guidelines.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Cycling Req 3 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Cycling Workbook before requesting Requirement 3 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Cycling requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the importance of wearing the right clothing.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Cycling Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Cycling Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cycling Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Cycling Approach",
+        "right_header": "Official BSA Cycling Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Cycling Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Cycling Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - Explain the importance of wearing the right clothing",
+          "Primary Standard": "Explain the importance of wearing the right clothing and gear while cycling, including a properly sized and fi",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cycling terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cycling Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Cycling Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Cycling Requirement 3, a Scout claims: \"Reading a short definition of Explain the importance of wearing the right clothing is enough for Cycling Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the importance of wearing the right clothing grounded in the official Cycling pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the importance of wearing the right clothing grounded in the official Cycling pamphlet.",
+        "explanation": "Per Official BSA Cycling Pamphlet, pp. 16-21, Each Scout must actively explain the specific principles and real-world steps of Explain the importance of wearing the right clothing grounded in the official Cycling pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Cycling Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -132,7 +535,51 @@
               "url": "https://scoutlife.org/features/169458/5-things-to-check-before-every-bike-ride/"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4a is enough for Cycling Requirement 4a sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4a grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 4a)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4b",
@@ -148,7 +595,51 @@
               "url": "https://www.youtube.com/watch?v=jh5Zv6Dcn6k"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4b is enough for Cycling Requirement 4b sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4b grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 4b)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4c",
@@ -160,14 +651,102 @@
               "url": "https://www.youtube.com/watch?v=7kc-CHtlQyM&list=PLHGEvyG5wuthKCwDfpQIZfTfan4mI6XTe&index=7%20"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4c is enough for Cycling Requirement 4c sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4c grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 4c)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4d",
           "label": "(d)",
           "text": "Show all points that need regular lubrication.",
           "resources": [],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4d is enough for Cycling Requirement 4d sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4d grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 4d)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4e",
@@ -183,7 +762,51 @@
               "url": "https://vimeo.com/1125028134"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4e is enough for Cycling Requirement 4e sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4e grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 4e)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "4f",
@@ -195,7 +818,51 @@
               "url": "https://www.youtube.com/watch?v=-Jp0SSAeCiY"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 4f is enough for Cycling Requirement 4f sign-off.",
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4f grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 4f)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -247,7 +914,110 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: Using a bicycle safety checklist, clean and adjust",
+      "action_verb": "Using",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cycling Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 4 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Using a bicycle safety checklist, clean and adjust is enough for Cycling Requirement 4 sign-off.",
+        "fact": "Each Scout must actively using the specific principles and real-world steps of Using a bicycle safety checklist, clean and adjust grounded in the official Cycling pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Cycling Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/cycling/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Cycling Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Cycling Sub-Req 4a: Show points that should be checked regularly to make sure the bicycle is safe to ride.",
+        "Cycling Sub-Req 4b: Show how to adjust the saddle and handlebars for a proper fit.",
+        "Cycling Sub-Req 4c: Show how to adjust brakes and gear shifting (derailleurs).",
+        "Cycling Sub-Req 4d: Show all points that need regular lubrication."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Cycling requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Using a bicycle safety checklist, clean and adjust.",
+        "Execute & Document: Perform the using task methodically with your patrol buddy and log specific observations in your Cycling Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Cycling Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cycling Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Cycling Approach",
+        "right_header": "Official BSA Cycling Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Cycling Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Cycling Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - Using a bicycle safety checklist, clean and adjust",
+          "Primary Standard": "Show points that should be checked regularly to make sure the bicycle is safe to ride.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cycling terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cycling Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Cycling Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Cycling Requirement 4, a Scout claims: \"Reading a short definition of Using a bicycle safety checklist, clean and adjust is enough for Cycling Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using a bicycle safety checklist, clean and adjust grounded in the official Cycling pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using a bicycle safety checklist, clean and adjust grounded in the official Cycling pamphlet.",
+        "explanation": "Per Official BSA Cycling Pamphlet, pp. 22-27, Each Scout must actively using the specific principles and real-world steps of Using a bicycle safety checklist, clean and adjust grounded in the official Cycling pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Cycling Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -277,7 +1047,113 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: Demonstrate basic bicycle handling skills to your counselor",
+      "action_verb": "Demonstrate",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cycling Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Cycling Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Demonstrate basic bicycle handling skills to your counselor is enough for Cycling Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate basic bicycle handling skills to your counselor grounded in the official Cycling pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Cycling Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/cycling/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Cycling Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 5): Demonstrate basic bicycle handling skills to your counselor, to include how to properly mount your bicycle, starting and stopping (to include emergency stops), riding in a straight line, turning, shifting gears, scanning, and signaling.",
+        "Field Verification Standard: Apply Cycling Requirement 5 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Cycling Req 5 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Cycling Workbook before requesting Requirement 5 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Cycling requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate basic bicycle handling skills to your counselor.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Cycling Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Cycling Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cycling Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Cycling Approach",
+        "right_header": "Official BSA Cycling Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Cycling Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Cycling Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - Demonstrate basic bicycle handling skills to your counselor",
+          "Primary Standard": "Demonstrate basic bicycle handling skills to your counselor, to include how to properly mount your bicycle, st",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cycling terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cycling Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Cycling Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Cycling Requirement 5, a Scout claims: \"Reading a short definition of Demonstrate basic bicycle handling skills to your counselor is enough for Cycling Requirement 5 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate basic bicycle handling skills to your counselor grounded in the official Cycling pamphlet.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate basic bicycle handling skills to your counselor grounded in the official Cycling pamphlet.",
+        "explanation": "Per Official BSA Cycling Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate basic bicycle handling skills to your counselor grounded in the official Cycling pamphlet."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Cycling Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -377,6 +1253,50 @@
                   "_dom_id": "14479",
                   "_parent_dom_id": "14474"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6a(1) is enough for Cycling Requirement 6a(1) sign-off.",
+                "fact": "Each Scout must actively take the specific principles and real-world steps of Req 6a(1) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6a(1))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -393,7 +1313,48 @@
                   "url": "https://www.mapmyride.com/"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 6a(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6a(2) is enough for Cycling Requirement 6a(2) sign-off.",
+                "fact": "Each Scout must actively avoiding the specific principles and real-world steps of Req 6a(2) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6a(2))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "6a(3)",
@@ -429,7 +1390,92 @@
                   "_dom_id": "14482",
                   "_parent_dom_id": "14480"
                 }
+              ],
+              "syllabus_bucket": "Pre-Class Prerequisite",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 6a(3) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6a(3) is enough for Cycling Requirement 6a(3) sign-off.",
+                "fact": "Each Scout must actively after the specific principles and real-world steps of Req 6a(3) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6a(3))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
+            }
+          ],
+          "syllabus_bucket": "Pre-Class Prerequisite",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6a is enough for Cycling Requirement 6a sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 6a grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 6a)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -503,6 +1549,50 @@
                   "_dom_id": "14488",
                   "_parent_dom_id": "14485"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6b(1) is enough for Cycling Requirement 6b(1) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b(1) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6b(1))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -556,6 +1646,50 @@
                   "_dom_id": "14492",
                   "_parent_dom_id": "14489"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6b(2) is enough for Cycling Requirement 6b(2) sign-off.",
+                "fact": "Each Scout must actively take the specific principles and real-world steps of Req 6b(2) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6b(2))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -572,7 +1706,48 @@
                   "url": "https://www.tfnu.org/trail-etiquette/"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 6b(3) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6b(3) is enough for Cycling Requirement 6b(3) sign-off.",
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6b(3) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6b(3))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "6b(4)",
@@ -584,7 +1759,53 @@
                   "url": "https://www.mapmyride.com/"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 6b(4) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": true
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6b(4) is enough for Cycling Requirement 6b(4) sign-off.",
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(4) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": {
+                "gate_type": "COUNSELOR_PRE_APPROVAL",
+                "gate_label": "Counselor Pre-Approval Required",
+                "gate_description": "Obtain your Merit Badge Counselor's approval on your Cycling Req 6b(4) plan before executing the project.",
+                "blocking_in_class": false
+              },
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6b(4))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "6b(5)",
@@ -596,7 +1817,97 @@
                   "url": "https://www.mapmyride.com/"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 6b(5) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 6b(5) is enough for Cycling Requirement 6b(5) sign-off.",
+                "fact": "Each Scout must actively after the specific principles and real-world steps of Req 6b(5) grounded in the official Cycling pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Cycling Merit Badge Hub (Req 6b(5))",
+                  "url": "https://www.scouting.org/merit-badges/cycling/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Cycling Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "In-Class Demonstration",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 6b is enough for Cycling Requirement 6b sign-off.",
+            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 6b grounded in the official Cycling pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Cycling Req 6b plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Cycling Merit Badge Hub (Req 6b)",
+              "url": "https://www.scouting.org/merit-badges/cycling/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Cycling Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         }
@@ -634,7 +1945,121 @@
         "search_query_template": "Local Scouts BSA Council camps, state/national park trailheads, USGS topo quadrangle, and outdoor fire/food-storage rules near {city}, {state}",
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: Using the Scouting America buddy system, complete all",
+      "action_verb": "Using",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+      "edge_phase": "Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cycling Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Cycling Pamphlet, pp. 34-39",
+      "syllabus_bucket": "Pre-Class Prerequisite",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Using the Scouting America buddy system, complete all is enough for Cycling Requirement 6 sign-off.",
+        "fact": "Each Scout must actively using the specific principles and real-world steps of Using the Scouting America buddy system, complete all grounded in the official Cycling pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Cycling Req 6 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Cycling Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/cycling/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Cycling Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Cycling Sub-Req 6a: Option A, Road Biking. Do ALL of the following: (1) Take a road safety test with your counselor and demonstrate the following: (a) On.",
+        "Cycling Sub-Req 6a(1): Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left.",
+        "Cycling Sub-Req 6a(2): Avoiding main highways, take two rides of 10 miles each, two rides of 15 miles each, and two rides of 25 miles each. You.",
+        "Cycling Sub-Req 6a(3): After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Cycling requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Using the Scouting America buddy system, complete all.",
+        "Execute & Document: Perform the using task methodically with your patrol buddy and log specific observations in your Cycling Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Cycling Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cycling Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Cycling Approach",
+        "right_header": "Official BSA Cycling Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Cycling Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Cycling Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - Using the Scouting America buddy system, complete all",
+          "Primary Standard": "Option A, Road Biking. Do ALL of the following: (1) Take a road safety test with your counselor and demonstrat",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cycling terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cycling Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Cycling Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Cycling Requirement 6, a Scout claims: \"Reading a short definition of Using the Scouting America buddy system, complete all is enough for Cycling Requirement 6 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using the Scouting America buddy system, complete all grounded in the official Cycling pamphlet.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using the Scouting America buddy system, complete all grounded in the official Cycling pamphlet.",
+        "explanation": "Per Official BSA Cycling Pamphlet, pp. 34-39, Each Scout must actively using the specific principles and real-world steps of Using the Scouting America buddy system, complete all grounded in the official Cycling pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Cycling Workbook organizer table and practical demonstration for Req 6."
     }
-  ]
+  ],
+  "badge_slug": "cycling",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

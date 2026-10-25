@@ -10,7 +10,7 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
    - The FastAPI server (`src/server.py`) wires real `google-adk` agents (`MeritBadgeCoordinatorAgent`, `SequentialAgent`, and bounded `LoopAgent` critics in `src/agents/coordinator.py`) directly into the live `/api/v1/workflow/run` and `/api/workflow/stream` request paths.
    - All agent handoffs and tool calls enforce strict Pydantic v2 schemas (`src/schemas.py`).
 2. **Persistent Multi-Turn Session & Vector State (Rubric B1.1 & B5.1)**:
-   - Session state, 768-dim hybrid vector/BM25 chunks, image catalogs, and multi-badge workspaces are persisted in `PersistentSessionStore` (`src/memory/session_store.py`, SQLite WAL mode with 9 tables and a dual-backend `CloudSQLPgVectorBackend` adapter for horizontal Cloud Run scaling). Never store session state solely in an in-memory Python `dict`.
+   - Session state, 768-dim hybrid vector/BM25 chunks, image catalogs, multi-badge workspaces, and multi-session clinic schedules/attendance are persisted in `PersistentSessionStore` (`src/memory/session_store.py`, SQLite WAL mode with 12 tables and a dual-backend `CloudSQLPgVectorBackend` adapter for horizontal Cloud Run scaling). Never store session state solely in an in-memory Python `dict`.
 3. **Two Separate Architecture Diagrams (Rubric B2.4 & Slide Readout)**:
    - Maintain two distinct architecture diagrams in `README.md`, `docs/ARCHITECTURE.md`, and `docs/TDD.md`:
      1. **Logical Multi-Agent Orchestration & Data Flow Diagram**
@@ -36,7 +36,7 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
 - **Tiered Model Routing**:
   - `gemini-2.5-pro`: Complex multi-requirement curriculum synthesis and 12-archetype pedagogical storyboarding (`PamphletResearchAgent`, `SlideContentPlannerAgent`).
   - `gemini-2.5-flash`: High-throughput regional grounding, visual styling, PowerPoint assembly, and critic verification (`WebSearchGroundingAgent`, `ResearchCoverageCriticAgent`, `SlideBeautifierAgent`, `PowerPointBuilderAgent`, `BSABrandAndSafetyReviewAgent`).
-- **FinOps Ceiling**: Enforce `FinOpsBudgetPlugin` (`max_budget_usd = $1.00` hard ceiling) and prefer the `3,917` pre-bundled visual assets (`$0.00` runtime image cost, with automatic on-demand GitHub Raw batch hydration via `src/tools/asset_hydrator.py` if local media is absent).
+- **FinOps Ceiling**: Enforce `FinOpsBudgetPlugin` (`max_budget_usd = $1.00` hard ceiling) and prefer the `4,124` pre-bundled visual assets across all `149` badges (`$0.00` runtime image cost, with automatic on-demand GitHub Raw batch hydration via `src/tools/asset_hydrator.py` if local media is absent).
 
 ---
 
@@ -44,7 +44,7 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
 
 Before committing code or packaging `repo.bundle`, run:
 
-1. **Test Suite (`88/88` passing tests)**:
+1. **Test Suite (`97/97` passing tests)**:
    ```bash
    .venv/bin/pytest tests/ -q
    ```

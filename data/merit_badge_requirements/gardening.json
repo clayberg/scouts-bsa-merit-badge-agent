@@ -29,7 +29,50 @@
               "url": "https://youtu.be/SgddPiUf61A"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "headers": [
+              "Activity Hazard / Risk",
+              "Prevention & PPE Strategy",
+              "Emergency Response & First Aid"
+            ],
+            "row_labels": [
+              "Hazard 1",
+              "Hazard 2",
+              "Hazard 3",
+              "Hazard 4"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Scouts can jump straight into Gardening hands-on activities and deal with hazards only after an accident happens.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 1a)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "1b",
@@ -41,7 +84,48 @@
               "url": "https://youtu.be/fMidlx7VB0A?si=v5o_p4iwXa6Dxy8A"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 1b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 4-9",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 1b is enough for Gardening Requirement 1b sign-off.",
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 1b)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -61,7 +145,112 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 1: Gardening Hazards, PPE & First Aid Response",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "headers": [
+          "Activity Hazard / Risk",
+          "Prevention & PPE Strategy",
+          "Emergency Response & First Aid"
+        ],
+        "row_labels": [
+          "Hazard 1",
+          "Hazard 2",
+          "Hazard 3",
+          "Hazard 4"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Gardening hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Gardening Sub-Req 1a: Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+        "Gardening Sub-Req 1b: Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites, anaphylactic shock, heat.",
+        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+        "Core Standard 2 (Req 1): (b) Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites, anaphylactic shock, heat reactions, and reactions from exposure to pesticides and fertilizers."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Gardening Hazards, PPE & First Aid Response.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Gardening Hazards, PPE & First Aid Response",
+          "Primary Standard": "Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipa",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 1, a Scout claims: \"Scouts can jump straight into Gardening hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -88,7 +277,48 @@
               "url": "https://youtu.be/RowLz52q8Og"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2a is enough for Gardening Requirement 2a sign-off.",
+            "fact": "Each Scout must actively grow the specific principles and real-world steps of Req 2a grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 2a)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "2b",
@@ -104,7 +334,48 @@
               "url": "https://youtu.be/Yv0MPxzFCvs"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 2b is enough for Gardening Requirement 2b sign-off.",
+            "fact": "Each Scout must actively grow the specific principles and real-world steps of Req 2b grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 2b)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -136,7 +407,113 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: and discuss your observations throughout the process with",
+      "action_verb": "Demonstrate",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 10-15",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of and discuss your observations throughout the process with is enough for Gardening Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of and discuss your observations throughout the process with grounded in the official Gardening pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Gardening Sub-Req 2a: Grow six vegetables, three from seeds and three from seedlings, through harvest.",
+        "Gardening Sub-Req 2b: Grow six flowers, three from seeds and three from seedlings, through flowering.",
+        "Core Standard 1 (Req 2): Do the following, and discuss your observations throughout the process with your counselor: (a) Grow six vegetables, three from seeds and three from seedlings, through harvest.",
+        "Core Standard 2 (Req 2): (b) Grow six flowers, three from seeds and three from seedlings, through flowering."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing and discuss your observations throughout the process with.",
+        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - and discuss your observations throughout the process with",
+          "Primary Standard": "Grow six vegetables, three from seeds and three from seedlings, through harvest.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 2, a Scout claims: \"Reading a short definition of and discuss your observations throughout the process with is enough for Gardening Requirement 2 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of and discuss your observations throughout the process with grounded in the official Gardening pamphlet.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of and discuss your observations throughout the process with grounded in the official Gardening pamphlet.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of and discuss your observations throughout the process with grounded in the official Gardening pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 2."
     },
     {
       "req_id": "3",
@@ -163,7 +540,48 @@
               "url": "https://youtu.be/3qCh8KZw_e0?si=f9aIa5z8f8LDDeLm"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3a is enough for Gardening Requirement 3a sign-off.",
+            "fact": "Each Scout must actively three the specific principles and real-world steps of Req 3a grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 3a)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3b",
@@ -183,7 +601,48 @@
               "url": "https://youtu.be/MVXr7HEMQMU"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3b is enough for Gardening Requirement 3b sign-off.",
+            "fact": "Each Scout must actively three the specific principles and real-world steps of Req 3b grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 3b)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "3c",
@@ -203,7 +662,48 @@
               "url": "https://youtu.be/DkxhGscNC18&t=1"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 3c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 16-21",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 3c is enough for Gardening Requirement 3c sign-off.",
+            "fact": "Each Scout must actively three the specific principles and real-world steps of Req 3c grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 3c)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -251,7 +751,110 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 3: Give the nutritional value of the following: (a)",
+      "action_verb": "Give",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 3 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 16-21",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 16-21",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 3 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Give the nutritional value of the following: (a) is enough for Gardening Requirement 3 sign-off.",
+        "fact": "Each Scout must actively give the specific principles and real-world steps of Give the nutritional value of the following: (a) grounded in the official Gardening pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 3)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Gardening Sub-Req 3a: Three root or tuber crops",
+        "Gardening Sub-Req 3b: Three vegetables that bear above the ground",
+        "Gardening Sub-Req 3c: Three fruits",
+        "Core Standard 1 (Req 3): Give the nutritional value of the following: (a) Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 3): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Give the nutritional value of the following: (a).",
+        "Execute & Document: Perform the give task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 3",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 3.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 16-21.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 3",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 3 - Give the nutritional value of the following: (a)",
+          "Primary Standard": "Three root or tuber crops",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 16-21."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 3, a Scout claims: \"Reading a short definition of Give the nutritional value of the following: (a) is enough for Gardening Requirement 3 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively give the specific principles and real-world steps of Give the nutritional value of the following: (a) grounded in the official Gardening pamphlet.",
+          "Skip Requirement 3 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively give the specific principles and real-world steps of Give the nutritional value of the following: (a) grounded in the official Gardening pamphlet.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 16-21, Each Scout must actively give the specific principles and real-world steps of Give the nutritional value of the following: (a) grounded in the official Gardening pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 3."
     },
     {
       "req_id": "4",
@@ -273,7 +876,110 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 4: Test 100 seeds for germination. Determine the percentage",
+      "action_verb": "Test",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 4 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 22-27",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 22-27",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 4 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Test 100 seeds for germination. Determine the percentage is enough for Gardening Requirement 4 sign-off.",
+        "fact": "Each Scout must actively test the specific principles and real-world steps of Test 100 seeds for germination. Determine the percentage grounded in the official Gardening pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 4)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 4): Test 100 seeds for germination.",
+        "Core Standard 2 (Req 4): Determine the percentage of seeds that germinate.",
+        "Core Standard 3 (Req 4): Explain why you think some did not germinate.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Gardening Workbook before requesting Requirement 4 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 4): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Test 100 seeds for germination. Determine the percentage.",
+        "Execute & Document: Perform the test task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 4",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 4.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 22-27.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 4",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 4 - Test 100 seeds for germination. Determine the percentage",
+          "Primary Standard": "Test 100 seeds for germination. Determine the percentage of seeds that germinate. Explain why you think some d",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 22-27."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 4, a Scout claims: \"Reading a short definition of Test 100 seeds for germination. Determine the percentage is enough for Gardening Requirement 4 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively test the specific principles and real-world steps of Test 100 seeds for germination. Determine the percentage grounded in the official Gardening pamphlet.",
+          "Skip Requirement 4 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively test the specific principles and real-world steps of Test 100 seeds for germination. Determine the percentage grounded in the official Gardening pamphlet.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 22-27, Each Scout must actively test the specific principles and real-world steps of Test 100 seeds for germination. Determine the percentage grounded in the official Gardening pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 4."
     },
     {
       "req_id": "5",
@@ -295,7 +1001,110 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 5: Visit your county extension office, local university, agricultural",
+      "action_verb": "Visit",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 5 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 28-33",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 28-33",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 5 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Visit your county extension office, local university, agricultural is enough for Gardening Requirement 5 sign-off.",
+        "fact": "Each Scout must actively visit the specific principles and real-world steps of Visit your county extension office, local university, agricultural grounded in the official Gardening pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 5)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 5): Visit your county extension office, local university, agricultural college, nursery, farm, botanical garden, or arboretum.",
+        "Core Standard 2 (Req 5): Report on what you learned.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Gardening Req 5 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Gardening Workbook before requesting Requirement 5 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 5): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Visit your county extension office, local university, agricultural.",
+        "Execute & Document: Perform the visit task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 5",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 5.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 28-33.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 5",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 5 - Visit your county extension office, local university, agricultural",
+          "Primary Standard": "Visit your county extension office, local university, agricultural college, nursery, farm, botanical garden, o",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 28-33."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 5, a Scout claims: \"Reading a short definition of Visit your county extension office, local university, agricultural is enough for Gardening Requirement 5 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively visit the specific principles and real-world steps of Visit your county extension office, local university, agricultural grounded in the official Gardening pamphlet.",
+          "Skip Requirement 5 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively visit the specific principles and real-world steps of Visit your county extension office, local university, agricultural grounded in the official Gardening pamphlet.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 28-33, Each Scout must actively visit the specific principles and real-world steps of Visit your county extension office, local university, agricultural grounded in the official Gardening pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 5."
     },
     {
       "req_id": "6",
@@ -321,7 +1130,110 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 6: how and why honeybees are used in pollinating",
+      "action_verb": "Explain",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 6 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 34-39",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 34-39",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 6 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of how and why honeybees are used in pollinating is enough for Gardening Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of how and why honeybees are used in pollinating grounded in the official Gardening pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 6)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 6): Explain to your counselor how and why honeybees are used in pollinating food crops and the problems that face the bee population today.",
+        "Core Standard 2 (Req 6): Discuss what the impact to humanity would be if there were no pollinators.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Gardening Req 6 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Gardening Workbook before requesting Requirement 6 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 6): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing how and why honeybees are used in pollinating.",
+        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 6",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 6.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 34-39.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 6",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 6 - how and why honeybees are used in pollinating",
+          "Primary Standard": "Explain to your counselor how and why honeybees are used in pollinating food crops and the problems that face ",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 34-39."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 6, a Scout claims: \"Reading a short definition of how and why honeybees are used in pollinating is enough for Gardening Requirement 6 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of how and why honeybees are used in pollinating grounded in the official Gardening pamphlet.",
+          "Skip Requirement 6 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of how and why honeybees are used in pollinating grounded in the official Gardening pamphlet.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 34-39, Each Scout must actively explain the specific principles and real-world steps of how and why honeybees are used in pollinating grounded in the official Gardening pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 6."
     },
     {
       "req_id": "7",
@@ -347,7 +1259,110 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 7: Identify five garden pests (insects, diseased plants). Recommend",
+      "action_verb": "Identify",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 7 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 40-45",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 40-45",
+      "syllabus_bucket": "In-Class Concept",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 7 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of Identify five garden pests (insects, diseased plants). Recommend is enough for Gardening Requirement 7 sign-off.",
+        "fact": "Each Scout must actively identify the specific principles and real-world steps of Identify five garden pests (insects, diseased plants). Recommend grounded in the official Gardening pamphlet."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 7)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 7): Identify five garden pests (insects, diseased plants).",
+        "Core Standard 2 (Req 7): Recommend two solutions for each pest.",
+        "Core Standard 3 (Req 7): At least one of the two solutions must be an organic method.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Gardening Workbook before requesting Requirement 7 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 7): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Identify five garden pests (insects, diseased plants). Recommend.",
+        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 7",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 7.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 40-45.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 7",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 7 - Identify five garden pests (insects, diseased plants). Recommend",
+          "Primary Standard": "Identify five garden pests (insects, diseased plants). Recommend two solutions for each pest. At least one of ",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 40-45."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 7, a Scout claims: \"Reading a short definition of Identify five garden pests (insects, diseased plants). Recommend is enough for Gardening Requirement 7 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively identify the specific principles and real-world steps of Identify five garden pests (insects, diseased plants). Recommend grounded in the official Gardening pamphlet.",
+          "Skip Requirement 7 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively identify the specific principles and real-world steps of Identify five garden pests (insects, diseased plants). Recommend grounded in the official Gardening pamphlet.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 40-45, Each Scout must actively identify the specific principles and real-world steps of Identify five garden pests (insects, diseased plants). Recommend grounded in the official Gardening pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 7."
     },
     {
       "req_id": "8",
@@ -366,7 +1381,52 @@
               "url": "https://youtu.be/V2eKYvKgTOI"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Pre-Class Prerequisite",
+          "workbook_organizer": {
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
+            ],
+            "row_labels": [
+              "Entry 1",
+              "Entry 2",
+              "Entry 3",
+              "Entry 4",
+              "Entry 5"
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8a is enough for Gardening Requirement 8a sign-off.",
+            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8a grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 8a)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8b",
@@ -378,7 +1438,52 @@
               "url": "https://youtu.be/C31jh3ohFwc?si=JaK1BOm1Zdj-9Cao"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Pre-Class Prerequisite",
+          "workbook_organizer": {
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
+            ],
+            "row_labels": [
+              "Entry 1",
+              "Entry 2",
+              "Entry 3",
+              "Entry 4",
+              "Entry 5"
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8b is enough for Gardening Requirement 8b sign-off.",
+            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8b grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 8b)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8c",
@@ -394,7 +1499,52 @@
               "url": "https://youtu.be/hBzrclNT4PI"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Pre-Class Prerequisite",
+          "workbook_organizer": {
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
+            ],
+            "row_labels": [
+              "Entry 1",
+              "Entry 2",
+              "Entry 3",
+              "Entry 4",
+              "Entry 5"
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8c is enough for Gardening Requirement 8c sign-off.",
+            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8c grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 8c)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8d",
@@ -406,7 +1556,52 @@
               "url": "https://youtu.be/Y2ZL-9hRtLc?si=wxK-wWUh_DNaTdsX"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Pre-Class Prerequisite",
+          "workbook_organizer": {
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
+            ],
+            "row_labels": [
+              "Entry 1",
+              "Entry 2",
+              "Entry 3",
+              "Entry 4",
+              "Entry 5"
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8d is enough for Gardening Requirement 8d sign-off.",
+            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8d grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 8d)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8e",
@@ -422,7 +1617,51 @@
               "url": "https://blogs.ifas.ufl.edu/orangeco/2022/11/29/honey-harvesting-honey-out-of-the-hive"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8e is enough for Gardening Requirement 8e sign-off.",
+            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 8e grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 8e)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "8f",
@@ -442,7 +1681,57 @@
               "url": "https://youtu.be/dTsWMZIEr6M"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Pre-Class Prerequisite",
+          "workbook_organizer": {
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
+            ],
+            "row_labels": [
+              "Entry 1",
+              "Entry 2",
+              "Entry 3",
+              "Entry 4",
+              "Entry 5"
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 8f is enough for Gardening Requirement 8f sign-off.",
+            "fact": "Each Scout must actively grow the specific principles and real-world steps of Req 8f grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Gardening Req 8f plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 8f)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -494,7 +1783,119 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 8: and record weekly observations. Discuss the results of",
+      "action_verb": "Record",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
+      "edge_phase": "Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 8 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 46-51",
+      "syllabus_bucket": "Pre-Class Prerequisite",
+      "workbook_organizer": {
+        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "headers": [
+          "Date / Entry #",
+          "Activity / Observation / Metric",
+          "Measured Result / Notes",
+          "Verifier Initials"
+        ],
+        "row_labels": [
+          "Entry 1",
+          "Entry 2",
+          "Entry 3",
+          "Entry 4",
+          "Entry 5"
+        ],
+        "min_rows": 5,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Reading a short definition of and record weekly observations. Discuss the results of is enough for Gardening Requirement 8 sign-off.",
+        "fact": "Each Scout must actively record the specific principles and real-world steps of and record weekly observations. Discuss the results of grounded in the official Gardening pamphlet."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Gardening Req 8 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 8)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Gardening Sub-Req 8a: Build a compost bin and maintain it for 90 days.",
+        "Gardening Sub-Req 8b: Build a vermicompost bin (worm compost bin) and maintain it for 90 days.",
+        "Gardening Sub-Req 8c: Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants. Maintain this garden through harvest or flowering, or for 90 days.",
+        "Gardening Sub-Req 8d: Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep), or in the ground as a."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 8): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing and record weekly observations. Discuss the results of.",
+        "Execute & Document: Perform the record task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 8",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 8.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 46-51.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 8",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 8 - and record weekly observations. Discuss the results of",
+          "Primary Standard": "Build a compost bin and maintain it for 90 days.",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 46-51."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 8, a Scout claims: \"Reading a short definition of and record weekly observations. Discuss the results of is enough for Gardening Requirement 8 sign-off.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Each Scout must actively record the specific principles and real-world steps of and record weekly observations. Discuss the results of grounded in the official Gardening pamphlet.",
+          "Skip Requirement 8 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Each Scout must actively record the specific principles and real-world steps of and record weekly observations. Discuss the results of grounded in the official Gardening pamphlet.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 46-51, Each Scout must actively record the specific principles and real-world steps of and record weekly observations. Discuss the results of grounded in the official Gardening pamphlet."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 8."
     },
     {
       "req_id": "9",
@@ -517,7 +1918,48 @@
               "url": "https://www.bls.gov/ooh/building-and-grounds-cleaning/grounds-maintenance-workers.htm"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "Make-Up Eligible",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 9a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 52-57",
+          "common_misconception_pair": {
+            "misconception": "Listing three job titles from a web search satisfies the Gardening career exploration requirement.",
+            "fact": "Scouts must research three Gardening careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 9a)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         },
         {
           "sub_id": "9b",
@@ -529,7 +1971,48 @@
               "url": "https://youtu.be/iVecXN-JQ64?si=Oi7akvlN2S3UerRT"
             }
           ],
-          "children": []
+          "children": [],
+          "syllabus_bucket": "In-Class Concept",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 9b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": false
+          },
+          "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 52-57",
+          "common_misconception_pair": {
+            "misconception": "Reading a short definition of Req 9b is enough for Gardening Requirement 9b sign-off.",
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 9b grounded in the official Gardening pamphlet."
+          },
+          "starting_requirement_gate": null,
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Gardening Merit Badge Hub (Req 9b)",
+              "url": "https://www.scouting.org/merit-badges/gardening/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Gardening Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
+            }
+          ]
         }
       ],
       "resources": [
@@ -553,7 +2036,113 @@
         "search_query_template": "Local USGS watershed, EPA ecoregion, native indicator flora/fauna, and {state} wildlife conservation resources near {city}, {state}",
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 9: Gardening Careers, Training & Hobby Pathways",
+      "action_verb": "Identify",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Gardening Requirement 9 activities.",
+      "pamphlet_citation": "Official BSA Gardening Pamphlet, pp. 52-57",
+      "pamphlet_page_citation": "Official BSA Gardening Pamphlet, pp. 52-57",
+      "syllabus_bucket": "Make-Up Eligible",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 9 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Listing three job titles from a web search satisfies the Gardening career exploration requirement.",
+        "fact": "Scouts must research three Gardening careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Gardening Merit Badge Hub (Req 9)",
+          "url": "https://www.scouting.org/merit-badges/gardening/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Gardening Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Gardening Sub-Req 9a: Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research the training, education, certification requirements, experience, and expenses.",
+        "Gardening Sub-Req 9b: Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required.",
+        "Core Standard 1 (Req 9): Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in gardening.",
+        "Core Standard 2 (Req 9): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 9): Review the official Gardening requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Gardening Careers, Training & Hobby Pathways.",
+        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Gardening Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Gardening Req 9",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Gardening Approach",
+        "right_header": "Official BSA Gardening Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 9.",
+          "Records concrete measurements, examples, and citations from Official BSA Gardening Pamphlet, pp. 52-57.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Gardening Req 9",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 9 - Gardening Careers, Training & Hobby Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research th",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Gardening terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Gardening Pamphlet, pp. 52-57."
+        },
+        "counselor_tip": "Bring your filled-in Gardening Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Gardening Requirement 9, a Scout claims: \"Listing three job titles from a web search satisfies the Gardening career exploration requirement.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Scouts must research three Gardening careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+          "Skip Requirement 9 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Scouts must research three Gardening careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+        "explanation": "Per Official BSA Gardening Pamphlet, pp. 52-57, Scouts must research three Gardening careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Gardening Workbook organizer table and practical demonstration for Req 9."
     }
-  ]
+  ],
+  "badge_slug": "gardening",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }

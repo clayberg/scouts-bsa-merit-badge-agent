@@ -1,7 +1,7 @@
 # Scope: Scouts BSA Merit Badge Counselor Workbench
 
 ## 1. Problem statement
-Volunteer Scouts BSA Merit Badge Counselors typically spend 8 to 15 hours building slide decks, Scout workbooks, lesson plans, and parent prerequisite letters for each of the 144 official Merit Badges. Standard single-prompt LLM slide generators do a poor job on Merit Badges: they summarize requirements down to four generic bullets, cut off multi-part sub-requirements (`1a`, `1b`, `2b1`, `3a-3q`), mix up requirement years, and repeat the same stock diagram across slides.
+Volunteer Scouts BSA Merit Badge Counselors typically spend 8 to 15 hours building slide decks, Scout workbooks, lesson plans, and parent prerequisite letters for each of the 149 official Merit Badges (144 standard badges plus the 5 Scouting America Test Lab Pilot badges: *Auctioneering*, *Dance*, *Physics*, *Psychology*, and *Sewing and Needlework*, with *Citizenship in Society* annotated as discontinued). Standard single-prompt LLM slide generators do a poor job on Merit Badges: they summarize requirements down to four generic bullets, cut off multi-part sub-requirements (`1a`, `1b`, `2b1`, `3a-3q`), mix up requirement years, and repeat the same stock diagram across slides.
 
 This project builds a multi-agent curriculum workbench on the Google Agent Development Kit (ADK) for Python (`scouts-bsa-merit-badge-agent`). It generates widescreen (`16:9`) PowerPoint decks (`.pptx`), printable Scout workbooks (`.md`), session agendas, and Youth Protection (YPT) parent letters grounded in the official BSA Merit Badge Pamphlet:
 

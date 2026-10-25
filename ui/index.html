@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Scouts BSA Merit Badge Counselor Workbench</title>
-  <meta name="description" content="Filter, select, generate, preview, and download official Scouts BSA Merit Badge teaching slide decks and Scout workbooks for all 144 Merit Badges." />
+  <meta name="description" content="Filter, select, generate, preview, and download official Scouts BSA Merit Badge teaching slide decks and Scout workbooks for all 149 Merit Badges." />
   <link rel="icon" type="image/png" href="/ui/favicon.png" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/ui/favicon.png" />
@@ -40,7 +40,7 @@
       <div class="m3-brand-titles">
         <h1>Scouts BSA Merit Badge Counselor Workbench</h1>
         <div class="m3-brand-subtitle">
-          All 144 Official Merit Badges &bull; Teaching Slide Decks &amp; Printable Scout Workbooks
+          All 149 Official &amp; Test Lab Merit Badges &bull; Teaching Slide Decks &amp; Printable Scout Workbooks
         </div>
       </div>
     </div>
@@ -194,16 +194,16 @@
             1. Find &amp; Select Merit Badge
           </h2>
           <div style="display:flex; align-items:center; gap:6px;">
-            <button type="button" class="m3-btn m3-btn-tonal" id="btn-open-patch-gallery" title="Browse all 144 Merit Badge patches visually with Eagle-Required filter" style="padding:4px 9px; font-size:0.72rem; font-weight:700;">
-              🎖️ Patch Gallery (144)
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-open-patch-gallery" title="Browse all 149 Merit Badge patches (144 Standard + 5 Test Lab Pilots) visually with Eagle-Required &amp; Test Lab filters" style="padding:4px 9px; font-size:0.72rem; font-weight:700;">
+              🎖️ Patch Gallery (149)
             </button>
-            <span class="m3-chip m3-chip-primary" id="badge-filter-count-chip">144 Badges</span>
+            <span class="m3-chip m3-chip-primary" id="badge-filter-count-chip">149 Badges</span>
           </div>
         </div>
 
         <div class="m3-field-group">
           <label class="m3-field-label" for="filter-search-input">Search Merit Badge Name</label>
-          <input class="m3-input" id="filter-search-input" name="merit-badge-catalog-search" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore="true" data-form-type="other" readonly onfocus="this.removeAttribute('readonly');" onmousedown="this.removeAttribute('readonly');" placeholder="Search all 144 badges (e.g., Weather, First Aid, Kayaking)..." />
+          <input class="m3-input" id="filter-search-input" name="merit-badge-catalog-search" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore="true" data-form-type="other" readonly onfocus="this.removeAttribute('readonly');" onmousedown="this.removeAttribute('readonly');" placeholder="Search all 149 badges (e.g., Weather, First Aid, Auctioneering)..." />
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
@@ -211,17 +211,19 @@
             <label class="m3-field-label" for="filter-category-select">Category</label>
             <select class="m3-select" id="filter-category-select">
               <option value="ALL">All Categories</option>
+              <option value="TEST_LAB">🧪 Test Lab Pilot (5)</option>
               <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
             </select>
           </div>
           <div class="m3-field-group">
-            <label class="m3-field-label" for="filter-eagle-select">Eagle / Favorites</label>
+            <label class="m3-field-label" for="filter-eagle-select">Eagle / Status</label>
             <select class="m3-select" id="filter-eagle-select">
-              <option value="ALL">All Badges (144)</option>
+              <option value="ALL">All Badges (149)</option>
               <option value="FAVORITES">Favorites (0)</option>
               <option value="EAGLE">Eagle-Required (18)</option>
+              <option value="TEST_LAB">🧪 Test Lab Pilot (5)</option>
               <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
-              <option value="ELECTIVE">Electives (126)</option>
+              <option value="ELECTIVE">Electives (131)</option>
             </select>
           </div>
         </div>
@@ -1046,6 +1048,7 @@
                       <select id="session-timer-preset-select" class="m3-timer-preset-select" aria-label="Session Timer Preset">
                         <option value="2700" selected>⏱️ 45m</option>
                         <option value="3000">⏱️ 50m</option>
+                        <option value="4500">⏱️ 75m (MBC)</option>
                         <option value="900">⏱️ 15m</option>
                         <option value="5400">⏱️ 90m</option>
                       </select>
@@ -1130,6 +1133,11 @@
               </div>
             </div>
 
+            <div class="m3-slide-misconception-bar hidden" id="stage-misconception-bar" aria-label="Common Misconception vs. Official BSA Fact">
+              <span class="m3-inline-icon" aria-hidden="true">💡</span>
+              <span id="stage-misconception-text">Myth vs. Fact</span>
+            </div>
+
             <div class="m3-slide-safety-bar hidden" id="stage-safety-bar">
               <span class="m3-inline-icon" aria-hidden="true">⛑️</span>
               <span id="stage-safety-text">Guide to Safe Scouting</span>
@@ -1139,7 +1147,7 @@
             <div class="m3-fullscreen-teleprompter hidden" id="fullscreen-teleprompter-drawer" aria-label="Fullscreen Counselor Teleprompter Notes">
               <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
                 <span style="font-size:0.74rem; font-weight:800; color:var(--md-sys-color-hud-gold); text-transform:uppercase; letter-spacing:0.04em;">
-                  🎙️ Counselor EDGE Teleprompter ([SAY] / [DEMONSTRATE] / [ASK SCOUTS]) — Press N to Hide
+                  🎙️ 5-Part Non-Redundant Facilitator Guide — Press N to Hide
                 </span>
                 <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-fs-teleprompter" style="padding:2px 8px; font-size:0.70rem; color:var(--md-sys-color-on-primary); border-color:rgba(255,255,255,0.35);">✕ Hide Notes</button>
               </div>
@@ -1251,6 +1259,44 @@
                 </div>
               </div>
               <div id="stage-presenter-notes" style="font-size:0.88rem; color:var(--md-sys-color-on-surface);"></div>
+
+              <!-- COLLAPSIBLE SUB-REQUIREMENT MULTIMEDIA, PAMPHLET CITATION & GATE DRAWER (SAFETY-FIRST DEFAULT COLLAPSE) -->
+              <details id="slide-multimedia-drawer" class="m3-slide-multimedia-drawer" style="margin-top:10px; border:1px solid var(--md-sys-color-outline-variant); border-radius:10px; padding:8px 12px; background:var(--md-sys-color-surface-container-low);">
+                <summary style="cursor:pointer; font-size:0.79rem; font-weight:800; color:var(--md-sys-color-primary); display:flex; align-items:center; justify-content:space-between; gap:8px;">
+                  <span id="slide-multimedia-summary-label">📖 Pamphlet Page Reference, Workbook Organizer &amp; Curated Field Resources</span>
+                  <span id="slide-gate-badges-inline" style="display:inline-flex; gap:6px; flex-wrap:wrap;"></span>
+                </summary>
+                <div id="slide-multimedia-drawer-body" style="margin-top:8px; font-size:0.80rem; display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:10px;"></div>
+              </details>
+
+              <!-- OPT-IN CLASS LOGISTICS SLIDES DRAWER (SLIDE 2 OPENING ROADMAP & SLIDE N HOMEWORK / CHECK-OUT) -->
+              <details id="logistics-slides-drawer" class="m3-logistics-slides-drawer" style="margin-top:8px; border:1px solid var(--md-sys-color-info-outline); border-radius:10px; padding:8px 12px; background:var(--md-sys-color-info-surface);">
+                <summary style="cursor:pointer; font-size:0.79rem; font-weight:800; color:var(--md-sys-color-primary); display:flex; align-items:center; justify-content:space-between; gap:8px;">
+                  <span>🏫 Optional Class Logistics Slides (Slide 2 Session Roadmap &amp; Slide N Homework / Blue Card Check-Out)</span>
+                  <span class="m3-chip m3-chip-primary" style="font-size:0.68rem;">Multi-Session Clinic Ready</span>
+                </summary>
+                <div style="margin-top:8px; display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:8px; align-items:end;">
+                  <label style="display:flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:700; cursor:pointer;">
+                    <input type="checkbox" id="chk-inject-slide2-roadmap" checked style="width:15px; height:15px;" />
+                    Include Slide 2 (Overview &amp; Pre-Work Gate)
+                  </label>
+                  <label style="display:flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:700; cursor:pointer;">
+                    <input type="checkbox" id="chk-inject-sliden-checkout" checked style="width:15px; height:15px;" />
+                    Include Final Slide (Homework &amp; Check-Out)
+                  </label>
+                  <div>
+                    <label class="m3-field-label" for="input-logistics-room" style="font-size:0.71rem;">Room / Teaching Station</label>
+                    <input type="text" id="input-logistics-room" class="m3-input" value="Science Lab 204 / Outdoor Pavilion" style="padding:4px 8px; font-size:0.76rem;" />
+                  </div>
+                  <div>
+                    <label class="m3-field-label" for="input-logistics-sessions" style="font-size:0.71rem;">Session Dates / Schedule</label>
+                    <input type="text" id="input-logistics-sessions" class="m3-input" value="4x 75-Min Sessions (S1–S4) + Make-Up Block" style="padding:4px 8px; font-size:0.76rem;" />
+                  </div>
+                  <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-logistics-slides" style="padding:6px 12px; font-size:0.76rem;">
+                    ➕ Inject / Update Logistics Slides
+                  </button>
+                </div>
+              </details>
             </div>
 
             <!-- DRAWER TAB 2: PER-SLIDE INTERACTIVE CO-DESIGN BAR & IMAGE STUDIO (UI-2 SIMPLIFIED, AUTO-APPLY) -->
@@ -1530,12 +1576,40 @@
                 type="text"
                 class="m3-input"
                 id="bluecard-scout-name-input"
-                placeholder="Add Scout name (e.g., Alex Carter - Eagle Patrol)..."
-                style="width:205px; padding:6px 10px; font-size:0.80rem;"
+                placeholder="Add Scout name (e.g., Alex Carter)..."
+                style="width:165px; padding:6px 10px; font-size:0.80rem;"
+              />
+              <input
+                type="text"
+                class="m3-input"
+                id="bluecard-scout-troop-input"
+                placeholder="Troop (e.g., Troop 19)"
+                value="Troop 19"
+                style="width:110px; padding:6px 8px; font-size:0.78rem;"
               />
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-add-scout" style="padding:6px 12px; font-size:0.78rem;">
                 ➕ Add Scout
               </button>
+              <select
+                id="bluecard-troop-filter-select"
+                class="m3-select"
+                title="Filter multi-troop clinic roster by Troop / Unit"
+                style="width:auto; padding:5px 9px; font-size:0.76rem; font-weight:700;"
+              >
+                <option value="ALL">🏕️ All Troops (Combined)</option>
+              </select>
+              <div style="display:inline-flex; align-items:center; gap:4px; background:var(--md-sys-color-info-surface); border:1px solid var(--md-sys-color-info-outline); border-radius:8px; padding:2px 6px;">
+                <select id="bluecard-session-stamp-select" class="m3-select" style="width:auto; padding:3px 6px; font-size:0.74rem; border:none; background:transparent; font-weight:700;">
+                  <option value="S1">Session 1 (S1)</option>
+                  <option value="S2">Session 2 (S2)</option>
+                  <option value="S3">Session 3 (S3)</option>
+                  <option value="S4">Session 4 (S4)</option>
+                  <option value="M">Make-Up (M)</option>
+                </select>
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-stamp-session" title="Stamp all requirements assigned to the selected session for all Scouts marked Present (✓) in that session" style="padding:4px 9px; font-size:0.74rem; font-weight:800;">
+                  ⚡ Stamp Session Reqs
+                </button>
+              </div>
               <input type="file" id="bluecard-csv-file-input" accept=".csv,.txt,text/csv,text/plain" class="hidden" />
               <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-import-csv" title="Upload a Scoutbook or TroopWebHost .CSV roster file" style="padding:6px 11px; font-size:0.78rem;">
                 📤 Import .CSV Roster
@@ -1557,6 +1631,12 @@
               <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-export-csv" style="padding:6px 12px; font-size:0.78rem;">
                 📥 Export Scoutbook CSV
               </button>
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-export-troop-packets" title="Export per-troop Blue Card (#34124) &amp; Scoutbook CSV summary packets grouped by Troop unit" style="padding:6px 11px; font-size:0.76rem; font-weight:700;">
+                📦 Per-Troop Packets
+              </button>
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-open-ypt-composer" title="Open the 3-Stage YPT Two-Deep Email Composer (T-14 Welcome, Mid-Clinic Partial Alert, Final Packet)" style="padding:6px 11px; font-size:0.76rem; font-weight:700;">
+                🛡️ 3-Stage YPT Email Pack
+              </button>
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-print-3panel" title="Print authentic 3-column perforated BSA Application for Merit Badge (#34124) Blue Cards for all Scouts in roster" style="padding:6px 12px; font-size:0.78rem; font-weight:700;">
                 🪪 Print 3-Panel Blue Cards (#34124)
               </button>
@@ -1564,6 +1644,28 @@
                 🖨️ Print Sign-Off Sheet
               </button>
             </div>
+          </div>
+
+          <!-- 3-STAGE YPT TWO-DEEP COMMUNICATION COMPOSER DRAWER -->
+          <div id="bluecard-ypt-composer-box" class="hidden" style="background:var(--md-sys-color-warning-surface); border:1.5px solid var(--md-sys-color-warning-accent); border-radius:10px; padding:12px 14px; margin-bottom:12px;">
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; margin-bottom:8px;">
+              <div>
+                <strong style="font-size:0.84rem; color:var(--md-sys-color-primary);">🛡️ 3-Stage YPT Two-Deep Communication Pack (No One-on-One Digital Contact)</strong>
+                <div style="font-size:0.75rem; color:var(--md-sys-color-on-surface-variant);">Every generated email pre-populates a mandatory Two-Deep CC (Parent/Guardian or Troop Advancement Chair) per Scouting America Youth Protection rules.</div>
+              </div>
+              <div style="display:flex; gap:6px; flex-wrap:wrap;">
+                <button type="button" class="m3-btn m3-btn-tonal" data-ypt-stage="stage_1_welcome_cpp" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">1️⃣ Stage 1: T-14 Welcome + CPP</button>
+                <button type="button" class="m3-btn m3-btn-tonal" data-ypt-stage="stage_2_mid_clinic_alert" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">2️⃣ Stage 2: Mid-Clinic Partial Alert</button>
+                <button type="button" class="m3-btn m3-btn-tonal" data-ypt-stage="stage_3_final_packet" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">3️⃣ Stage 3: Final Completion Packet</button>
+              </div>
+            </div>
+            <div style="display:grid; grid-template-columns:1fr 1fr auto auto; gap:8px; margin-bottom:8px; align-items:center;">
+              <input type="email" id="ypt-parent-cc-input" class="m3-input" placeholder="Mandatory Two-Deep CC (e.g., advancement@troop19.org)..." value="advancement-chair@troop19.org" style="padding:5px 9px; font-size:0.77rem;" />
+              <input type="text" id="ypt-email-subject-input" class="m3-input" placeholder="Email Subject..." style="padding:5px 9px; font-size:0.77rem;" />
+              <button type="button" class="m3-btn m3-btn-filled" id="btn-ypt-launch-mailto" style="padding:5px 11px; font-size:0.75rem;">✉️ Open Email (with CC)</button>
+              <button type="button" class="m3-btn m3-btn-outlined" id="btn-ypt-copy-body" style="padding:5px 11px; font-size:0.75rem;">📋 Copy Text</button>
+            </div>
+            <textarea id="ypt-email-body-textarea" class="m3-input" rows="5" style="font-family:var(--font-sans); font-size:0.78rem; width:100%;"></textarea>
           </div>
 
           <div id="bluecard-bulk-paste-box" class="hidden" style="background:var(--md-sys-color-info-surface); border:1px solid var(--md-sys-color-info-outline); border-radius:10px; padding:10px 14px; margin-bottom:12px;">
@@ -1579,6 +1681,20 @@
           </div>
 
           <div class="m3-bluecard-matrix-wrap" id="bluecard-matrix-container"></div>
+        </div>
+
+        <!-- 5-TIER SYLLABUS BUCKET FILTER & COUNSELOR OVERRIDE BAR -->
+        <div class="m3-card" id="triage-syllabus-bucket-filter-bar" style="margin-bottom:14px; padding:10px 14px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+          <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+            <span style="font-size:0.78rem; font-weight:800; color:var(--md-sys-color-primary);">🗂️ 5-Tier Syllabus Bucket Filter:</span>
+            <button type="button" class="m3-studiokit-pill active" data-bucket-filter="ALL">All Buckets</button>
+            <button type="button" class="m3-studiokit-pill" data-bucket-filter="PREREQ_HOME_TROOP">🏠 1. Prereq / Home-Troop</button>
+            <button type="button" class="m3-studiokit-pill" data-bucket-filter="IN_CLASS_DISCUSSION">💬 2. In-Class Discussion</button>
+            <button type="button" class="m3-studiokit-pill" data-bucket-filter="IN_CLASS_HANDS_ON">🛠️ 3. In-Class Hands-On</button>
+            <button type="button" class="m3-studiokit-pill" data-bucket-filter="HOMEWORK_BETWEEN_SESSIONS">📝 4. Between-Session Homework</button>
+            <button type="button" class="m3-studiokit-pill" data-bucket-filter="POST_CLASS_FOLLOWUP">⏳ 5. Post-Class Follow-Up</button>
+          </div>
+          <span style="font-size:0.73rem; color:var(--md-sys-color-on-surface-variant);">Tip: Counselors can override any requirement's bucket directly on its card below.</span>
         </div>
 
         <div class="m3-triage-columns" id="triage-requirements-columns" style="margin-bottom:18px;">
@@ -1638,6 +1754,12 @@
                 placeholder="🔎 Filter workbook sections..."
                 style="width:195px; padding:6px 10px; font-size:0.78rem;"
               />
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-fillable-html" title="Open &amp; Print the Verb-Aligned Fillable Scout Workbook with Guide to Advancement Section 7.0.3.2 Banner" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
+                📝 Fillable Scout Workbook (GTA §7.0.3.2)
+              </button>
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-cpp" title="Open &amp; Print the 1-Page Class Preparation Page (CPP) &amp; Syllabus Map" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
+                📄 1-Page Class Prep (CPP)
+              </button>
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-print-field-qr" title="Print 1-Page Pocket Field Checklist &amp; QR Handout" style="padding:7px 12px; font-size:0.79rem;">
                 🧭 Print 1-Page Field &amp; QR Handout
               </button>
@@ -1672,9 +1794,20 @@
             <button type="button" class="m3-studiokit-pill" data-studiokit-filter="PREREQ">✅ 3. Pre-Class Readiness</button>
             <button type="button" class="m3-studiokit-pill" data-studiokit-filter="FINOPS">📚 4. Grounded Citations &amp; Counselor Rating</button>
           </div>
-          <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-print-field-qr" title="Print a 1-Page Front-and-Back Pocket Field Checklist with QR Codes to the Official BSA Pamphlet &amp; Resource Guide" style="padding:6px 13px; font-size:0.79rem; font-weight:700; white-space:nowrap;">
-            🧭 Print 1-Page Pocket Field Checklist
-          </button>
+          <div style="display:flex; gap:6px; flex-wrap:wrap;">
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-cpp" title="Open &amp; Print the 1-Page Class Preparation Page (CPP) for Scouts &amp; Parents" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
+              📄 1-Page Class Prep (CPP)
+            </button>
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-fillable-workbook" title="Open &amp; Print the Verb-Aligned Fillable Scout Workbook (GTA §7.0.3.2)" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
+              📝 Fillable Scout Workbook
+            </button>
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-organizer-spec" title="Open &amp; Print the 1-Page Organizer &amp; Syllabus Catalog Spec Sheet for MBC Deans or Camp Directors" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
+              🏛️ Organizer Spec Sheet
+            </button>
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-print-field-qr" title="Print a 1-Page Front-and-Back Pocket Field Checklist with QR Codes to the Official BSA Pamphlet &amp; Resource Guide" style="padding:6px 11px; font-size:0.77rem; font-weight:700; white-space:nowrap;">
+              🧭 Pocket Field Checklist
+            </button>
+          </div>
         </div>
 
         <div id="studiokit-sec-agenda" style="display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:16px; margin-bottom:16px;">
@@ -1704,10 +1837,27 @@
               </label>
               <select class="m3-select" id="studiokit-schedule-select" style="flex:1; min-width:210px; padding:5px 9px; font-size:0.79rem;">
                 <option value="3 Troop Meetings (45 min each)" selected>3 Troop Meetings (45 min each)</option>
+                <option value="4_session_mbc">4-Session Merit Badge College (4&times; 75-min + Make-Up)</option>
+                <option value="2_double_block">2-Session Double-Block Clinic (2&times; 150-min)</option>
                 <option value="Summer Camp Week (4x 50-min blocks + Fri Make-Up)">Summer Camp Week (4&times; 50-min Mon–Thu + Fri Make-Up)</option>
                 <option value="Saturday Merit Badge Clinic (3-Hour Block)">Saturday Merit Badge Midway / Clinic (3-Hour Block)</option>
                 <option value="Weekend Campout Practicum">Weekend Campout Practicum (Fri Eve + Sat Field + Sun Sign-Off)</option>
               </select>
+            </div>
+
+            <!-- SNOW-DAY SHIFT & COMPANION DUAL-BADGE (2-IN-1) CONTROLS -->
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:10px; flex-wrap:wrap; font-size:0.75rem;">
+              <div style="display:flex; align-items:center; gap:6px;">
+                <label for="studiokit-snowday-select" style="font-weight:700; color:var(--md-sys-color-on-surface-variant);">❄️ Snow-Day / Postponed Shift:</label>
+                <select id="studiokit-snowday-select" class="m3-select" style="width:auto; padding:4px 8px; font-size:0.75rem;">
+                  <option value="">None (Standard Schedule)</option>
+                  <option value="1">Session 1 Postponed ➔ Shift to Make-Up</option>
+                  <option value="2">Session 2 Postponed ➔ Shift to Make-Up</option>
+                  <option value="3">Session 3 Postponed ➔ Shift to Make-Up</option>
+                  <option value="4">Session 4 Postponed ➔ Shift to Make-Up</option>
+                </select>
+              </div>
+              <div id="studiokit-companion-pill-bar" style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;"></div>
             </div>
 
             <div class="m3-markdown-body" id="studiokit-agenda-preview"></div>
@@ -2568,14 +2718,14 @@
       <div class="m3-patch-gallery-sticky-header" style="display:flex; align-items:center; justify-content:space-between; gap:12px; border-bottom:2px solid var(--md-sys-color-outline-variant); padding:18px 22px 14px; background:var(--md-sys-color-surface-bright); flex-shrink:0; z-index:3; flex-wrap:wrap;">
         <div>
           <h3 id="patch-gallery-modal-title" style="font-family:'Roboto Slab',serif; font-size:1.15rem; font-weight:800; color:var(--md-sys-color-primary); margin:0;">
-            🎖️ Visual Merit Badge Patch Gallery (All 144 Official Badges)
+            🎖️ Visual Merit Badge Patch Gallery (All 149 Official &amp; Test Lab Badges)
           </h3>
           <div style="font-size:0.80rem; color:var(--md-sys-color-on-surface-variant); margin-top:2px;">
-            Gold-bordered emblems denote Eagle-Required Merit Badges (18). Click any patch to select that Merit Badge.
+            Gold-bordered emblems denote Eagle-Required Merit Badges (18). 🧪 denotes Test Lab Pilot badges (5); 🚫 denotes Discontinued (Citizenship in Society).
           </div>
         </div>
         <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-          <span class="m3-chip m3-chip-secondary" id="patch-gallery-count-chip" style="font-size:0.74rem;">144 of 144 Badges</span>
+          <span class="m3-chip m3-chip-secondary" id="patch-gallery-count-chip" style="font-size:0.74rem;">149 of 149 Badges</span>
           <button
             type="button"
             class="m3-patch-header-fav-toggle"
@@ -2587,17 +2737,19 @@
             <span class="m3-patch-header-fav-star" id="patch-gallery-fav-filter-icon">☆</span>
             <span id="patch-gallery-fav-filter-label">Favorites</span>
           </button>
-          <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 144 patches..." style="width:190px; padding:6px 10px; font-size:0.80rem;" />
+          <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 149 patches..." style="width:190px; padding:6px 10px; font-size:0.80rem;" />
           <select class="m3-select" id="patch-gallery-category-select" aria-label="Filter Patch Gallery by Category" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All Categories</option>
+            <option value="TEST_LAB">🧪 Test Lab Pilot (5)</option>
             <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
           </select>
-          <select class="m3-select" id="patch-gallery-filter-select" aria-label="Filter Patch Gallery by Eagle or Favorites Status" style="width:auto; padding:6px 10px; font-size:0.80rem;">
-            <option value="ALL">All 144 Badges</option>
+          <select class="m3-select" id="patch-gallery-filter-select" aria-label="Filter Patch Gallery by Eagle, Test Lab, or Favorites Status" style="width:auto; padding:6px 10px; font-size:0.80rem;">
+            <option value="ALL">All 149 Badges</option>
             <option value="FAVORITES">Favorites</option>
             <option value="EAGLE">★ Eagle-Required (18)</option>
+            <option value="TEST_LAB">🧪 Test Lab Pilot (5)</option>
             <option value="MULTI_OPTION">A|B Multi-Option Badges (18)</option>
-            <option value="ELECTIVE">Elective Badges (126)</option>
+            <option value="ELECTIVE">Elective Badges (131)</option>
           </select>
           <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-patch-gallery" style="padding:6px 12px;">✕ Close</button>
         </div>

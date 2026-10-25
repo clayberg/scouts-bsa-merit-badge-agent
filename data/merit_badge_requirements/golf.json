@@ -32,7 +32,110 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 1: Discuss safety on the golf course. Show that",
+      "action_verb": "Discuss",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "edge_phase": "Demonstrate, Guide & Enable",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Golf Requirement 1 activities.",
+      "pamphlet_citation": "Official BSA Golf Pamphlet, pp. 4-9",
+      "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 4-9",
+      "syllabus_bucket": "In-Class Demonstration",
+      "workbook_organizer": {
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "headers": [
+          "Req 1 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
+        ],
+        "row_labels": [
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
+        ],
+        "min_rows": 3,
+        "pre_approval_gate": false
+      },
+      "common_misconception_pair": {
+        "misconception": "Scouts can jump straight into Golf hands-on activities and deal with hazards only after an accident happens.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Golf prevents most field injuries."
+      },
+      "starting_requirement_gate": null,
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Golf Merit Badge Hub (Req 1)",
+          "url": "https://www.scouting.org/merit-badges/golf/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Golf Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Core Standard 1 (Req 1): Discuss safety on the golf course.",
+        "Core Standard 2 (Req 1): Show that you know first aid for injuries or illnesses that could occur while golfing, including lightning, heat reactions, sunburn, dehydration, blisters, animal or bug bites, poison ivy exposure, sprains, and strains.",
+        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Golf Req 1 activities.",
+        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Golf Workbook before requesting Requirement 1 sign-off."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 1): Review the official Golf requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss safety on the golf course. Show that.",
+        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Golf Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Golf Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Golf Req 1",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Golf Approach",
+        "right_header": "Official BSA Golf Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 1.",
+          "Records concrete measurements, examples, and citations from Official BSA Golf Pamphlet, pp. 4-9.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Golf Req 1",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 1 - Discuss safety on the golf course. Show that",
+          "Primary Standard": "Discuss safety on the golf course. Show that you know first aid for injuries or illnesses that could occur whi",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Golf terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Golf Pamphlet, pp. 4-9."
+        },
+        "counselor_tip": "Bring your filled-in Golf Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Golf Requirement 1, a Scout claims: \"Scouts can jump straight into Golf hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Golf prevents most field injuries.",
+          "Skip Requirement 1 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Golf prevents most field injuries.",
+        "explanation": "Per Official BSA Golf Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Golf prevents most field injuries."
+      },
+      "estimated_minutes": 20,
+      "homework_verification_note": "Verify completed Golf Workbook organizer table and practical demonstration for Req 1."
     },
     {
       "req_id": "2",
@@ -108,6 +211,50 @@
                   "_dom_id": "11850",
                   "_parent_dom_id": "11847"
                 }
+              ],
+              "syllabus_bucket": "In-Class Demonstration",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(1) is enough for Golf Requirement 2a(1) sign-off.",
+                "fact": "Each Scout must actively study the specific principles and real-world steps of Req 2a(1) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2a(1))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -120,7 +267,48 @@
                   "url": "https://youtu.be/IGZ9IGOAWLw?si=2SS8GJeIHCLr5WRq"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(2) is enough for Golf Requirement 2a(2) sign-off.",
+                "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 2a(2) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2a(2))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2a(3)",
@@ -174,6 +362,50 @@
                   "_dom_id": "11855",
                   "_parent_dom_id": "11852"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(3) is enough for Golf Requirement 2a(3) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(3) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2a(3))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -209,6 +441,50 @@
                   "children": [],
                   "_dom_id": "11858",
                   "_parent_dom_id": "11856"
+                }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(4) is enough for Golf Requirement 2a(4) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(4) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2a(4))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
                 }
               ]
             },
@@ -342,6 +618,50 @@
                   "_dom_id": "11868",
                   "_parent_dom_id": "11859"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(5) is enough for Golf Requirement 2a(5) sign-off.",
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2a(5) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2a(5))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -382,6 +702,52 @@
                   "_dom_id": "11872",
                   "_parent_dom_id": "11869"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(6) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": true
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2a(6) is enough for Golf Requirement 2a(6) sign-off.",
+                "fact": "Each Scout must actively play the specific principles and real-world steps of Req 2a(6) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": {
+                "gate_type": "COUNSELOR_PRE_APPROVAL",
+                "gate_label": "Counselor Pre-Approval Required",
+                "gate_description": "Obtain your Merit Badge Counselor's approval on your Golf Req 2a(6) plan before executing the project.",
+                "blocking_in_class": false
+              },
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2a(6))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -398,7 +764,97 @@
                   "url": "https://youtu.be/FV0vJxab0QI?si=ezjS41VOHd8kh4nD"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "Make-Up Eligible",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2a(7) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Listing three job titles from a web search satisfies the Golf career exploration requirement.",
+                "fact": "Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2a(7))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "Make-Up Eligible",
+          "workbook_organizer": {
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "headers": [
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "row_labels": [
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Listing three job titles from a web search satisfies the Golf career exploration requirement.",
+            "fact": "Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Golf Req 2a plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Golf Merit Badge Hub (Req 2a)",
+              "url": "https://www.scouting.org/merit-badges/golf/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Golf Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         },
@@ -455,6 +911,47 @@
                   "_dom_id": "11876",
                   "_parent_dom_id": "11874"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(1) is enough for Golf Requirement 2b(1) sign-off.",
+                "fact": "Each Scout must actively study the specific principles and real-world steps of Req 2b(1) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2b(1))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -467,7 +964,48 @@
                   "url": "https://www.pdga.com/files/disc-golfers-code-en-us_1.pdf"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(2) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(2) is enough for Golf Requirement 2b(2) sign-off.",
+                "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 2b(2) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2b(2))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
             },
             {
               "sub_id": "2b(3)",
@@ -521,6 +1059,50 @@
                   "_dom_id": "11882",
                   "_parent_dom_id": "11878"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(3) is enough for Golf Requirement 2b(3) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(3) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2b(3))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -556,6 +1138,50 @@
                   "children": [],
                   "_dom_id": "11885",
                   "_parent_dom_id": "11883"
+                }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(4) is enough for Golf Requirement 2b(4) sign-off.",
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(4) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2b(4))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
                 }
               ]
             },
@@ -719,6 +1345,50 @@
                   "_dom_id": "11897",
                   "_parent_dom_id": "11886"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "headers": [
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "row_labels": [
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
+                ],
+                "min_rows": 4,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(5) is enough for Golf Requirement 2b(5) sign-off.",
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2b(5) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2b(5))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -759,6 +1429,52 @@
                   "_dom_id": "11901",
                   "_parent_dom_id": "11898"
                 }
+              ],
+              "syllabus_bucket": "In-Class Concept",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(6) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": true
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Reading a short definition of Req 2b(6) is enough for Golf Requirement 2b(6) sign-off.",
+                "fact": "Each Scout must actively play the specific principles and real-world steps of Req 2b(6) grounded in the official Golf pamphlet."
+              },
+              "starting_requirement_gate": {
+                "gate_type": "COUNSELOR_PRE_APPROVAL",
+                "gate_label": "Counselor Pre-Approval Required",
+                "gate_description": "Obtain your Merit Badge Counselor's approval on your Golf Req 2b(6) plan before executing the project.",
+                "blocking_in_class": false
+              },
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2b(6))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
               ]
             },
             {
@@ -775,7 +1491,94 @@
                   "url": "https://youtu.be/rLiz9krymJk?si=wgL3oVMWKdQ5JxDe"
                 }
               ],
-              "children": []
+              "children": [],
+              "syllabus_bucket": "Make-Up Eligible",
+              "workbook_organizer": {
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "headers": [
+                  "Req 2b(7) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
+                ],
+                "row_labels": [
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": false
+              },
+              "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+              "common_misconception_pair": {
+                "misconception": "Listing three job titles from a web search satisfies the Golf career exploration requirement.",
+                "fact": "Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+              },
+              "starting_requirement_gate": null,
+              "curated_resources": [
+                {
+                  "title": "Official Scouting America Golf Merit Badge Hub (Req 2b(7))",
+                  "url": "https://www.scouting.org/merit-badges/golf/",
+                  "source_org": "Scouting America",
+                  "resource_type": "Official DRG"
+                },
+                {
+                  "title": "Golf Merit Badge Pamphlet PDF",
+                  "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+                  "source_org": "Scouting America Filestore",
+                  "resource_type": "Reference PDF"
+                },
+                {
+                  "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+                  "url": "https://www.scouting.org/health-and-safety/gss/",
+                  "source_org": "Scouting America Health & Safety",
+                  "resource_type": "Interactive Tool"
+                }
+              ]
+            }
+          ],
+          "syllabus_bucket": "Make-Up Eligible",
+          "workbook_organizer": {
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "headers": [
+              "Req 2b Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
+            ],
+            "row_labels": [
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
+            ],
+            "min_rows": 3,
+            "pre_approval_gate": true
+          },
+          "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+          "common_misconception_pair": {
+            "misconception": "Listing three job titles from a web search satisfies the Golf career exploration requirement.",
+            "fact": "Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+          },
+          "starting_requirement_gate": {
+            "gate_type": "COUNSELOR_PRE_APPROVAL",
+            "gate_label": "Counselor Pre-Approval Required",
+            "gate_description": "Obtain your Merit Badge Counselor's approval on your Golf Req 2b plan before executing the project.",
+            "blocking_in_class": false
+          },
+          "curated_resources": [
+            {
+              "title": "Official Scouting America Golf Merit Badge Hub (Req 2b)",
+              "url": "https://www.scouting.org/merit-badges/golf/",
+              "source_org": "Scouting America",
+              "resource_type": "Official DRG"
+            },
+            {
+              "title": "Golf Merit Badge Pamphlet PDF",
+              "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+              "source_org": "Scouting America Filestore",
+              "resource_type": "Reference PDF"
+            },
+            {
+              "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+              "url": "https://www.scouting.org/health-and-safety/gss/",
+              "source_org": "Scouting America Health & Safety",
+              "resource_type": "Interactive Tool"
             }
           ]
         }
@@ -849,7 +1652,121 @@
         "search_query_template": "Local science/history museums, university laboratories, and professional chapters for {badge} Merit Badge near {city}, {state}",
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
-      }
+      },
+      "topic_title": "Req 2: Golf Careers, Training & Hobby Pathways",
+      "action_verb": "Complete",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
+      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Golf Requirement 2 activities.",
+      "pamphlet_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+      "pamphlet_page_citation": "Official BSA Golf Pamphlet, pp. 10-15",
+      "syllabus_bucket": "Make-Up Eligible",
+      "workbook_organizer": {
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "headers": [
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "row_labels": [
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
+        ],
+        "min_rows": 4,
+        "pre_approval_gate": true
+      },
+      "common_misconception_pair": {
+        "misconception": "Listing three job titles from a web search satisfies the Golf career exploration requirement.",
+        "fact": "Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "starting_requirement_gate": {
+        "gate_type": "COUNSELOR_PRE_APPROVAL",
+        "gate_label": "Counselor Pre-Approval Required",
+        "gate_description": "Obtain your Merit Badge Counselor's approval on your Golf Req 2 plan before executing the project.",
+        "blocking_in_class": false
+      },
+      "curated_resources": [
+        {
+          "title": "Official Scouting America Golf Merit Badge Hub (Req 2)",
+          "url": "https://www.scouting.org/merit-badges/golf/",
+          "source_org": "Scouting America",
+          "resource_type": "Official DRG"
+        },
+        {
+          "title": "Golf Merit Badge Pamphlet PDF",
+          "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf",
+          "source_org": "Scouting America Filestore",
+          "resource_type": "Reference PDF"
+        },
+        {
+          "title": "Scouting America Guide to Safe Scouting & YPT Standards",
+          "url": "https://www.scouting.org/health-and-safety/gss/",
+          "source_org": "Scouting America Health & Safety",
+          "resource_type": "Interactive Tool"
+        }
+      ],
+      "pamphlet_excerpts": [
+        "Golf Sub-Req 2a: Option A, Traditional Golf. Do ALL of the following: (1) Study the USGA Rules of Golf now in use. (a) Tell about the three.",
+        "Golf Sub-Req 2a(1): Study the USGA Rules of Golf now in use. (a) Tell about the three categories of golf etiquette. (b) Demonstrate that you understand the.",
+        "Golf Sub-Req 2a(2): Tell about your understanding of the World Handicap System.",
+        "Golf Sub-Req 2a(3): Do the following: (a) Tell about the early history of golf. (b) Describe golf's early years in the United States. (c) Tell about the."
+      ],
+      "step_by_step_procedure": [
+        "Prepare & Inspect (Req 2): Review the official Golf requirement standard and verify all required tools, reference tables, and safety gear.",
+        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Golf Careers, Training & Hobby Pathways.",
+        "Execute & Document: Perform the complete task methodically with your patrol buddy and log specific observations in your Golf Workbook.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+      ],
+      "gear_checklist": [
+        "Official Golf Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
+        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Golf Req 2",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+      ],
+      "comparison_data": {
+        "left_header": "Unprepared / Informal Golf Approach",
+        "right_header": "Official BSA Golf Pamphlet Standard",
+        "left_points": [
+          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
+          "Provides vague, one-word workbook notes without measurable field evidence.",
+          "Rushes past buddy verification and cannot explain why each step matters."
+        ],
+        "right_points": [
+          "Completes a structured safety and equipment check before starting Requirement 2.",
+          "Records concrete measurements, examples, and citations from Official BSA Golf Pamphlet, pp. 10-15.",
+          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+        ]
+      },
+      "worked_example": {
+        "title": "Sample Verified Workbook Entry: Golf Req 2",
+        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "fields": {
+          "Requirement & Topic": "Req 2 - Golf Careers, Training & Hobby Pathways",
+          "Primary Standard": "Option A, Traditional Golf. Do ALL of the following: (1) Study the USGA Rules of Golf now in use. (a) Tell abo",
+          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Golf terminology.",
+          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Golf Pamphlet, pp. 10-15."
+        },
+        "counselor_tip": "Bring your filled-in Golf Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+      },
+      "quiz_item": {
+        "scenario_prompt": "During a patrol review of Golf Requirement 2, a Scout claims: \"Listing three job titles from a web search satisfies the Golf career exploration requirement.\" How should you respond?",
+        "options": [
+          "Agree with the claim so the patrol can finish the requirement faster",
+          "Correct the misconception: Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+          "Skip Requirement 2 until after the troop court of honor",
+          "Sign off the Blue Card without completing the practical verification"
+        ],
+        "correct_answer": "Option B - Correct the misconception: Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
+        "explanation": "Per Official BSA Golf Pamphlet, pp. 10-15, Scouts must research three Golf careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+      },
+      "estimated_minutes": 15,
+      "homework_verification_note": "Verify completed Golf Workbook organizer table and practical demonstration for Req 2."
     }
-  ]
+  ],
+  "badge_slug": "golf",
+  "is_test_lab_pilot": false,
+  "schema_baseline_version": "2.1.0"
 }
