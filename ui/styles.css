@@ -9515,9 +9515,13 @@ body.m3-dark-mode ::selection {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 14px;
-  flex-wrap: wrap;
-  padding: 10px 16px 13px;
+  gap: 12px;
+  flex-wrap: nowrap;
+  height: 88px;
+  min-height: 88px;
+  max-height: 88px;
+  box-sizing: border-box;
+  padding: 10px 14px 13px;
   margin-bottom: 10px;
   border-radius: 12px;
   background: linear-gradient(135deg, #002855 0%, #003F87 65%, #0A4D9C 100%);
@@ -9525,7 +9529,7 @@ body.m3-dark-mode ::selection {
   border: 2px solid #FDB913;
   box-shadow: 0 10px 28px rgba(0, 40, 85, 0.34);
   overflow: hidden;
-  transition: opacity 0.28s ease, border-color 0.28s ease;
+  transition: opacity 0.18s ease, border-color 0.18s ease;
 }
 
 .m3-demo-tour-banner.is-bottom-docked {
@@ -9584,27 +9588,31 @@ body.m3-dark-mode ::selection {
 .m3-demo-tour-left {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  flex: 1;
-  min-width: 280px;
+  justify-content: center;
+  gap: 3px;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .m3-demo-tour-top-row {
   display: flex;
   align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  gap: 8px;
+  flex-wrap: nowrap;
+  min-width: 0;
 }
 
 .m3-demo-tour-badge {
   font-family: var(--font-mono, monospace);
-  font-size: 0.69rem;
+  font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.04em;
   background: #FDB913;
   color: #002855;
-  padding: 2px 9px;
+  padding: 2px 8px;
   border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .m3-demo-tour-banner.is-completed .m3-demo-tour-badge {
@@ -9613,38 +9621,52 @@ body.m3-dark-mode ::selection {
 }
 
 .m3-demo-tour-title {
-  font-size: 0.88rem;
+  font-size: 0.84rem;
   font-weight: 800;
   color: #FEF08A;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .m3-demo-tour-narration {
-  font-size: 0.80rem;
-  line-height: 1.42;
+  font-size: 0.77rem;
+  line-height: 1.35;
+  height: 2.08rem;
+  min-height: 2.08rem;
+  max-height: 2.08rem;
   color: #F8FAFC;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .m3-demo-tour-step-dots {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
+  flex-shrink: 0;
 }
 
 .m3-demo-step-dot {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   border-radius: 999px;
   border: 1.5px solid rgba(253, 185, 19, 0.65);
   background: rgba(255, 255, 255, 0.14);
   color: #FFFFFF;
-  font-size: 0.70rem;
+  font-size: 0.68rem;
   font-weight: 800;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+  flex-shrink: 0;
+  transition: background 0.15s ease, border-color 0.15s ease;
 }
 
 .m3-demo-step-dot:hover {
@@ -9656,7 +9678,6 @@ body.m3-dark-mode ::selection {
   background: #FDB913;
   color: #002855;
   border-color: #FFFFFF;
-  transform: scale(1.12);
 }
 
 .m3-demo-step-dot.done {
@@ -9667,14 +9688,16 @@ body.m3-dark-mode ::selection {
 .m3-demo-tour-controls {
   display: flex;
   align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+  gap: 5px;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
 }
 
 .m3-demo-ctrl-btn {
-  padding: 5px 11px !important;
-  font-size: 0.74rem !important;
+  padding: 4px 9px !important;
+  font-size: 0.72rem !important;
   font-weight: 700 !important;
+  white-space: nowrap !important;
 }
 
 .m3-demo-speed-btn {
@@ -9721,20 +9744,13 @@ body.m3-dark-mode ::selection {
   box-shadow:
     0 0 0 4px rgba(0, 63, 135, 0.72),
     0 0 28px 8px rgba(253, 185, 19, 0.65);
-  transition:
-    top 0.58s cubic-bezier(0.22, 1, 0.36, 1),
-    left 0.58s cubic-bezier(0.22, 1, 0.36, 1),
-    width 0.58s cubic-bezier(0.22, 1, 0.36, 1),
-    height 0.58s cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 0.32s ease,
-    transform 0.32s ease;
+  transition: opacity 0.14s ease;
 }
 
 .m3-demo-spotlight-ring.is-fading-out,
 .m3-demo-floating-callout.is-fading-out,
 .m3-demo-virtual-cursor.is-fading-out {
   opacity: 0 !important;
-  transform: scale(0.96);
   pointer-events: none !important;
 }
 
@@ -9752,11 +9768,7 @@ body.m3-dark-mode ::selection {
   opacity: 1;
   overflow: hidden;
   box-shadow: 0 16px 38px rgba(0, 15, 38, 0.54);
-  transition:
-    top 0.58s cubic-bezier(0.22, 1, 0.36, 1),
-    left 0.58s cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 0.32s ease,
-    transform 0.32s ease;
+  transition: opacity 0.14s ease;
 }
 
 .m3-demo-callout-header {
@@ -9908,9 +9920,7 @@ body.m3-dark-mode ::selection {
   z-index: 9880;
   opacity: 1;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.42));
-  transition:
-    transform 0.70s cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 0.32s ease;
+  transition: opacity 0.14s ease;
 }
 
 @keyframes demoCursorClickPulse {

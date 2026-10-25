@@ -1262,7 +1262,9 @@ function bindFilterAndSlideControls() {
     renderActiveSlide(state.activeSlideIdx);
 
     if (state.activeDemoTour && !state.activeDemoTour.completed) {
-      syncActiveSlideToPresenterPopout();
+      if (typeof syncActiveSlideToPresenterPopout === "function") {
+        syncActiveSlideToPresenterPopout();
+      }
       return;
     }
 
@@ -2796,16 +2798,24 @@ function scrollActiveFilmstripThumbIntoView(alignToTop = true) {
   if (!list) return;
   const activeThumb = list.querySelector(".m3-slide-thumb.active");
   if (!activeThumb) return;
+  const listRect = list.getBoundingClientRect();
+  const thumbRect = activeThumb.getBoundingClientRect();
+  const offsetInContainer = thumbRect.top - listRect.top;
+  const scrollBehavior = state.activeDemoTour ? "auto" : "smooth";
   if (alignToTop) {
-    const listRect = list.getBoundingClientRect();
-    const thumbRect = activeThumb.getBoundingClientRect();
-    const offsetInContainer = thumbRect.top - listRect.top;
     list.scrollTo({
       top: Math.max(0, list.scrollTop + offsetInContainer - 8),
-      behavior: "smooth",
+      behavior: scrollBehavior,
     });
-  } else {
-    activeThumb.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  } else if (offsetInContainer < 4 || thumbRect.bottom > listRect.bottom - 4) {
+    const targetTop =
+      offsetInContainer < 4
+        ? Math.max(0, list.scrollTop + offsetInContainer - 8)
+        : Math.max(0, list.scrollTop + (thumbRect.bottom - listRect.bottom) + 8);
+    list.scrollTo({
+      top: targetTop,
+      behavior: scrollBehavior,
+    });
   }
 }
 
@@ -15138,7 +15148,7 @@ const DEMO_SCENARIOS_CATALOG = [
           document.getElementById("main-workbench-grid")?.classList.remove("sidebar-collapsed");
           await resolveAndSyncUserLocationForTours();
           const quickRow = document.getElementById("quick-badges-row");
-          quickRow?.scrollIntoView({ behavior: "smooth", block: "center" });
+          quickRow?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
       {
@@ -15240,7 +15250,7 @@ const DEMO_SCENARIOS_CATALOG = [
           await ensureBadgeLoadedForTour("Citizenship in the Nation");
           state.activeUnderstageTab = "trace";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
-          document.getElementById("trace-telemetry-card")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          document.getElementById("trace-telemetry-card")?.scrollIntoView({ behavior: "auto", block: "nearest" });
         },
       },
       {
@@ -15255,7 +15265,7 @@ const DEMO_SCENARIOS_CATALOG = [
           await ensureBadgeLoadedForTour("Citizenship in the Nation");
           state.activeUnderstageTab = "trace";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
-          document.getElementById("trace-stage-row-02")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          document.getElementById("trace-stage-row-02")?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
     ],
@@ -15291,7 +15301,7 @@ const DEMO_SCENARIOS_CATALOG = [
             );
             if (discOpt) trackSelect.value = discOpt.value;
           }
-          document.getElementById("option-track-field-wrap")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          document.getElementById("option-track-field-wrap")?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
       {
@@ -15397,7 +15407,7 @@ const DEMO_SCENARIOS_CATALOG = [
           switchMainTab("panel-storyboard");
           state.activeUnderstageTab = "trace";
           syncUnderstageDrawerVisibility(state.activeSlideIdx);
-          document.getElementById("trace-finops-ledger-box")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          document.getElementById("trace-finops-ledger-box")?.scrollIntoView({ behavior: "auto", block: "nearest" });
         },
       },
       {
@@ -15431,7 +15441,7 @@ const DEMO_SCENARIOS_CATALOG = [
           document.getElementById("studio-guardrail-result-banner")?.classList.add("hidden");
           const consentCb = document.getElementById("studio-ai-consent-checkbox");
           if (consentCb) consentCb.checked = false;
-          document.getElementById("studio-ai-consent-row")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          document.getElementById("studio-ai-consent-row")?.scrollIntoView({ behavior: "auto", block: "nearest" });
         },
       },
       {
@@ -15464,7 +15474,7 @@ const DEMO_SCENARIOS_CATALOG = [
             document.querySelector('[data-studio-tab="studio-tab-ai"], [data-studio-tab="ai"]')?.click();
           }
           triggerGuardrailDemoVerification();
-          document.getElementById("studio-guardrail-result-banner")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          document.getElementById("studio-guardrail-result-banner")?.scrollIntoView({ behavior: "auto", block: "nearest" });
         },
       },
     ],
@@ -15802,7 +15812,7 @@ const DEMO_SCENARIOS_CATALOG = [
           if (rowBtn && (!rowCb || !rowCb.checked)) {
             rowBtn.click();
           }
-          document.getElementById("bluecard-tracker-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          document.getElementById("bluecard-tracker-card")?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
       {
@@ -15820,7 +15830,7 @@ const DEMO_SCENARIOS_CATALOG = [
           if (rowBtn && rowCb && rowCb.checked) {
             rowBtn.click();
           }
-          document.getElementById("bluecard-tracker-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          document.getElementById("bluecard-tracker-card")?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
       {
@@ -15852,7 +15862,7 @@ const DEMO_SCENARIOS_CATALOG = [
         action: async () => {
           switchMainTab("panel-studiokit");
           document.querySelector('[data-studiokit-filter="AGENDA"]')?.click();
-          document.getElementById("btn-mailto-letter")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          document.getElementById("btn-mailto-letter")?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
       {
@@ -15865,7 +15875,7 @@ const DEMO_SCENARIOS_CATALOG = [
         action: async () => {
           switchMainTab("panel-studiokit");
           document.querySelector('[data-studiokit-filter="GEAR"]')?.click();
-          document.getElementById("studiokit-gear-checklist-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          document.getElementById("studiokit-gear-checklist-card")?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
       {
@@ -15878,7 +15888,7 @@ const DEMO_SCENARIOS_CATALOG = [
         action: async () => {
           switchMainTab("panel-studiokit");
           document.querySelector('[data-studiokit-filter="ALL"]')?.click();
-          document.getElementById("btn-studiokit-print-field-qr")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          document.getElementById("btn-studiokit-print-field-qr")?.scrollIntoView({ behavior: "auto", block: "center" });
         },
       },
     ],
@@ -15896,7 +15906,7 @@ const DEMO_SCENARIOS_CATALOG = [
         targetSelector: "#btn-open-mcp-hub",
         placement: "bottom",
         action: async () => {
-          window.scrollTo({ top: 0, behavior: "smooth" });
+          window.scrollTo({ top: 0, behavior: "auto" });
         },
       },
       {
@@ -15952,7 +15962,7 @@ const DEMO_SCENARIOS_CATALOG = [
             document.querySelector('#mcp-resources-and-prompts-list [data-mcp-exec-resource="bsa://catalog/badges"]') ||
             document.querySelector("#mcp-resources-and-prompts-list [data-mcp-exec-resource]");
           if (firstResBtn) {
-            firstResBtn.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            firstResBtn.scrollIntoView({ behavior: "auto", block: "nearest" });
             firstResBtn.click();
             await new Promise((r) => setTimeout(r, 220));
           }
@@ -16028,7 +16038,7 @@ const DEMO_SCENARIOS_CATALOG = [
         placement: "bottom",
         action: async () => {
           document.getElementById("btn-close-mcp-hub")?.click();
-          window.scrollTo({ top: 0, behavior: "smooth" });
+          window.scrollTo({ top: 0, behavior: "auto" });
         },
       },
       {
@@ -16218,7 +16228,7 @@ function isAnyFullModalOpen() {
   });
 }
 
-function syncTourBannerDockingMode(targetEl = null) {
+function syncTourBannerDockingMode(_targetEl = null) {
   const bannerEl = document.getElementById("active-demo-tour-banner");
   if (!bannerEl) return;
   if (state.demoTourCustomPos && typeof state.demoTourCustomPos.left === "number") {
@@ -16232,32 +16242,45 @@ function syncTourBannerDockingMode(targetEl = null) {
   bannerEl.style.left = "";
   bannerEl.style.top = "";
 
+  // Only dock the Guided Tour banner to the bottom when a full-screen modal is open.
+  // Keeping it in normal sticky flow on all workbench steps prevents an 88px vertical layout jump between steps.
   const modalOpen = isAnyFullModalOpen();
-  let targetNearTop = false;
-  if (targetEl && typeof targetEl.getBoundingClientRect === "function") {
-    const r = targetEl.getBoundingClientRect();
-    if (r.top < 145 && r.height < 180) {
-      targetNearTop = true;
-    }
-  }
-  bannerEl.classList.toggle("is-bottom-docked", modalOpen || targetNearTop);
+  bannerEl.classList.toggle("is-bottom-docked", modalOpen);
 }
 
 function scrollTargetIntoComfortZone(targetEl) {
   if (!targetEl || typeof targetEl.getBoundingClientRect !== "function") return;
   if (isAnyFullModalOpen()) return;
+  if (targetEl.closest && targetEl.closest(".m3-top-app-bar")) {
+    if (window.scrollY > 4) {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }
+    return;
+  }
   const rect = targetEl.getBoundingClientRect();
   const vh = window.innerHeight || 800;
-  const topSafeMargin = 110;
-  const bottomSafeMargin = vh - 120;
-  const isOutOfComfortZone =
-    rect.top < topSafeMargin ||
-    (rect.bottom > bottomSafeMargin && rect.height < vh * 0.72);
-  if (isOutOfComfortZone) {
-    try {
-      targetEl.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
-    } catch (_err) {
-      targetEl.scrollIntoView(true);
+  const bannerEl = document.getElementById("active-demo-tour-banner");
+  const bannerVisible = Boolean(
+    bannerEl && !bannerEl.classList.contains("hidden") && !bannerEl.classList.contains("is-bottom-docked")
+  );
+  const bannerRect = bannerVisible ? bannerEl.getBoundingClientRect() : null;
+  const topSafeMargin =
+    bannerRect && bannerRect.height > 0 ? Math.max(96, Math.round(bannerRect.bottom + 14)) : 96;
+  const bottomSafeMargin = vh - 80;
+
+  if (rect.top < topSafeMargin) {
+    const delta = rect.top - topSafeMargin - 16;
+    window.scrollTo({ top: Math.max(0, Math.round(window.scrollY + delta)), left: 0, behavior: "auto" });
+  } else if (rect.bottom > bottomSafeMargin && rect.height < vh * 0.72) {
+    const delta = rect.bottom - bottomSafeMargin + 24;
+    const maxAllowedDelta = Math.max(0, rect.top - topSafeMargin - 12);
+    const boundedDelta = Math.min(delta, maxAllowedDelta);
+    if (boundedDelta > 4) {
+      window.scrollTo({
+        top: Math.max(0, Math.round(window.scrollY + boundedDelta)),
+        left: 0,
+        behavior: "auto",
+      });
     }
   }
 }
@@ -16330,7 +16353,7 @@ function closeDemoOpenedModalsAndResetScroll(scrollToTop = true) {
 
   if (scrollToTop) {
     try {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     } catch (_err) {
       window.scrollTo(0, 0);
     }
@@ -16368,7 +16391,7 @@ function hideDemoSpotlightAndCalloutOverlays(immediate = false) {
       calloutEl?.classList.remove("is-fading-out");
       cursorEl?.classList.remove("is-fading-out");
     }
-  }, 310);
+  }, 180);
 }
 
 function rectsIntersect(a, b, pad = 6) {
@@ -16408,10 +16431,19 @@ function positionDemoSpotlightAndCallout(
 
   syncTourBannerDockingMode(targetEl);
 
-  ringEl?.classList.remove("hidden", "is-fading-out");
-  cursorEl?.classList.remove("hidden", "is-fading-out");
-  if (!options.cursorOnly) {
-    calloutEl?.classList.remove("hidden", "is-fading-out");
+  // Keep overlays invisible while measuring dimensions and assigning exact new coordinates
+  // so they appear instantaneously in their new positions with zero jump or flash.
+  if (ringEl) {
+    ringEl.style.visibility = "hidden";
+    ringEl.classList.remove("hidden", "is-fading-out");
+  }
+  if (cursorEl) {
+    cursorEl.style.visibility = "hidden";
+    cursorEl.classList.remove("hidden", "is-fading-out");
+  }
+  if (calloutEl && !options.cursorOnly) {
+    calloutEl.style.visibility = "hidden";
+    calloutEl.classList.remove("hidden", "is-fading-out");
   }
 
   const rect = targetEl.getBoundingClientRect();
@@ -16532,6 +16564,10 @@ function positionDemoSpotlightAndCallout(
     calloutEl.style.top = `${Math.round(cTop)}px`;
     calloutEl.style.left = `${Math.round(cLeft)}px`;
   }
+
+  if (ringEl) ringEl.style.visibility = "visible";
+  if (cursorEl) cursorEl.style.visibility = "visible";
+  if (calloutEl && !options.cursorOnly) calloutEl.style.visibility = "visible";
 }
 
 function syncDemoControlsState() {
@@ -16593,12 +16629,13 @@ function completeInteractiveDemoTour(scenario) {
   if (state.activeDemoTour) {
     state.activeDemoTour.completed = true;
     state.activeDemoTour.paused = true;
+    state.activeDemoTour.transitioning = false;
   }
 
-  // 1. Fade out and dismiss the spotlight ring, floating callout bubble, and virtual cursor
-  hideDemoSpotlightAndCalloutOverlays(false);
+  // 1. Dismiss the spotlight ring, floating callout bubble, and virtual cursor
+  hideDemoSpotlightAndCalloutOverlays(true);
 
-  // 2. Close any modal opened during the tour and smoothly scroll the UI back to the top
+  // 2. Close any modal opened during the tour and return the UI to the top
   closeDemoOpenedModalsAndResetScroll(true);
 
   // 3. Transition the docked banner into a clean completion summary state
@@ -16659,7 +16696,7 @@ function stopInteractiveDemoTour(options = {}) {
 }
 window.stopInteractiveDemoTour = stopInteractiveDemoTour;
 
-async function runDemoStep(scenario, stepIdx, options = {}) {
+async function runDemoStep(scenario, stepIdx, _options = {}) {
   if (!scenario || !Array.isArray(scenario.steps) || stepIdx < 0 || stepIdx >= scenario.steps.length) {
     return;
   }
@@ -16670,13 +16707,20 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
   }
 
   const wasPaused = Boolean(state.activeDemoTour?.paused && !state.activeDemoTour?.completed);
+  const transitionRunId = (state.activeDemoTour?.runId || 0) + 1;
   state.activeDemoTour = {
     scenarioId: scenario.id,
     scenarioIndex: scenario.index,
     stepIdx,
     paused: wasPaused || _demoPaceMode === "manual",
     completed: false,
+    transitioning: true,
+    runId: transitionRunId,
   };
+
+  // Phase 1: Immediately hide the spotlight ring, floating callout, and virtual cursor
+  // BEFORE adjusting the workbench view or running step actions so the overlays never jump or chase.
+  hideDemoSpotlightAndCalloutOverlays(true);
 
   // Ensure any modals/dropdowns/presenter-views from other steps are cleanly closed so Prev/Next is 100% idempotent
   resetTourTransientUiForStep(scenario, stepIdx);
@@ -16717,48 +16761,19 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
 
   syncDemoControlsState();
 
-  // Phase 1: Optional pre-action cursor glide when stepping automatically between steps
-  const usePreGlide = !options.immediateAction && stepIdx > 0 && step.preActionSelector;
-  if (usePreGlide) {
-    if (scenario.id === "demo-4-layout-and-templates" && stepIdx >= 1 && stepIdx <= 3) {
-      if (typeof renderStageTemplateSplitDropdown === "function") {
-        renderStageTemplateSplitDropdown();
-      }
-      document.getElementById("stage-template-dropdown-menu")?.classList.remove("hidden");
-    }
-    if (scenario.id === "demo-5-codesign-and-image" && stepIdx >= 3) {
-      state.activeUnderstageTab = "codesign";
-      syncUnderstageDrawerVisibility(state.activeSlideIdx);
-      scrollTour5StageAndCoDesignIntoView(true);
-    }
-    const preEl = resolveFirstVisibleTargetElement(step.preActionSelector);
-    if (preEl) {
-      if (!step.skipComfortScroll) {
-        scrollTargetIntoComfortZone(preEl);
-      }
-      positionDemoSpotlightAndCallout(
-        step.preActionSelector,
-        `STEP ${stepIdx + 1} OF ${totalSteps}`,
-        step.title,
-        step.narration,
-        step.placement || "bottom",
-        { pulseCursor: true, cursorSelector: step.cursorSelector }
-      );
-      await new Promise((resolve) => setTimeout(resolve, 480));
-      if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) {
-        return;
-      }
-    }
-  }
-
-  // Phase 2: Execute step action
+  // Phase 2: Execute step action and adjust the workbench view while overlays remain hidden
   try {
     if (typeof step.action === "function") {
       await step.action();
     }
   } catch (_err) {}
 
-  if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) {
+  if (
+    !state.activeDemoTour ||
+    state.activeDemoTour.scenarioId !== scenario.id ||
+    state.activeDemoTour.stepIdx !== stepIdx ||
+    state.activeDemoTour.runId !== transitionRunId
+  ) {
     return;
   }
 
@@ -16766,35 +16781,41 @@ async function runDemoStep(scenario, stepIdx, options = {}) {
   if (titleEl) titleEl.textContent = `${step.title}`;
   if (narrationEl) narrationEl.textContent = step.narration;
 
-  // Phase 3: Scroll target into comfort zone & lock spotlight + callout across smooth-scroll frames
-  const lockSpotlightToCurrentStep = (pulse = false) => {
-    if (!state.activeDemoTour || state.activeDemoTour.completed) return;
-    if (state.activeDemoTour.scenarioId !== scenario.id || state.activeDemoTour.stepIdx !== stepIdx) return;
-    const targetEl = resolveFirstVisibleTargetElement(step.targetSelector);
-    if (targetEl && pulse && !step.skipComfortScroll) {
-      scrollTargetIntoComfortZone(targetEl);
-    }
-    positionDemoSpotlightAndCallout(
-      step.targetSelector,
-      `STEP ${stepIdx + 1} OF ${totalSteps}`,
-      step.title,
-      step.narration,
-      step.placement || "bottom",
-      { pulseCursor: pulse, cursorSelector: step.cursorSelector }
-    );
-  };
+  // Sync banner docking mode (e.g. if a modal opened or closed during step.action) and scroll target into view
+  syncTourBannerDockingMode();
+  const targetEl = resolveFirstVisibleTargetElement(step.targetSelector);
+  if (targetEl && !step.skipComfortScroll) {
+    scrollTargetIntoComfortZone(targetEl);
+  }
 
-  lockSpotlightToCurrentStep(true);
-  requestAnimationFrame(() => {
-    setTimeout(() => lockSpotlightToCurrentStep(false), 90);
-    setTimeout(() => lockSpotlightToCurrentStep(false), 320);
-    setTimeout(() => lockSpotlightToCurrentStep(false), 620);
-  });
+  // Wait one animation frame for DOM layout and synchronous scroll adjustments to settle completely
+  await new Promise((resolve) => requestAnimationFrame(resolve));
 
-  // Phase 4: Start smooth countdown progress bar and schedule next step or end-of-tour cleanup
+  if (
+    !state.activeDemoTour ||
+    state.activeDemoTour.scenarioId !== scenario.id ||
+    state.activeDemoTour.stepIdx !== stepIdx ||
+    state.activeDemoTour.runId !== transitionRunId
+  ) {
+    return;
+  }
+
+  // Phase 3: Show the overlays instantly in their exact new positions for the start of the step
+  state.activeDemoTour.transitioning = false;
+  positionDemoSpotlightAndCallout(
+    step.targetSelector,
+    `STEP ${stepIdx + 1} OF ${totalSteps}`,
+    step.title,
+    step.narration,
+    step.placement || "bottom",
+    { pulseCursor: true, cursorSelector: step.cursorSelector }
+  );
+
+  // Phase 4: Start smooth countdown progress bar; at completion of the step, hide overlays before advancing
   const dwellMs = computeDemoStepDwellMs(step);
   startDemoCountdownLoop(dwellMs, () => {
     if (!state.activeDemoTour || state.activeDemoTour.scenarioId !== scenario.id) return;
+    hideDemoSpotlightAndCalloutOverlays(true);
     if (stepIdx < totalSteps - 1) {
       runDemoStep(scenario, stepIdx + 1);
     } else {
@@ -17106,10 +17127,10 @@ function initInteractiveGuidedDemoWalkthroughs() {
     triggerGuardrailDemoVerification();
   });
 
-  // Real-time Spotlight & Callout Repositioning on Both Scroll and Resize
+  // Real-time Spotlight & Callout Repositioning on Both Scroll and Resize (only when not mid-step transition)
   const repositionActiveDemoOverlay = () => {
     _demoScrollRafPending = false;
-    if (!state.activeDemoTour || state.activeDemoTour.completed) return;
+    if (!state.activeDemoTour || state.activeDemoTour.completed || state.activeDemoTour.transitioning) return;
     const scenario = DEMO_SCENARIOS_CATALOG.find((d) => d.id === state.activeDemoTour.scenarioId);
     const step = scenario?.steps?.[state.activeDemoTour.stepIdx];
     if (step) {
@@ -17128,7 +17149,7 @@ function initInteractiveGuidedDemoWalkthroughs() {
   window.addEventListener(
     "scroll",
     () => {
-      if (!state.activeDemoTour || state.activeDemoTour.completed) return;
+      if (!state.activeDemoTour || state.activeDemoTour.completed || state.activeDemoTour.transitioning) return;
       if (!_demoScrollRafPending) {
         _demoScrollRafPending = true;
         requestAnimationFrame(repositionActiveDemoOverlay);
