@@ -2,9 +2,9 @@
 """Builds the `< 30 MB` `go/capstone-app` Portal Submission Git Bundle (`repo.bundle`).
 
 Why this script exists (`Workstream 1` / `go/fde-capstone-playbook` Step 11):
-- The live application (local `:8080` and Argolis Cloud Run container image)
-  uses the full `1.2 GB` `assets/` media library (`3,917` pre-bundled 8-bit PNG
-  visual assets + `144` official BSA Pamphlet PDFs + `17` `.pptx` templates).
+- The live application (local `:8085` and Argolis Cloud Run container image)
+  uses the full `1.2 GB` `assets/` media library (`4,124` pre-bundled 8-bit PNG
+  visual assets + `149` official BSA Pamphlet PDFs + `17` `.pptx` templates).
   This script NEVER deletes or alters a single file in `assets/`.
 - However, the `go/capstone-app` (`fde-capstone-hub`) Stage 1 Artifact Analyzer
   (`analyzer-initial-checks`) enforces a hard `30 MB` maximum upload limit on
@@ -12,7 +12,7 @@ Why this script exists (`Workstream 1` / `go/fde-capstone-playbook` Step 11):
   configs, tests, Terraform, and Markdown documentation.
 - This script:
   1. Writes `data/asset_inventory_manifest.json` documenting the exact counts
-     and sample SHA-256 digests of the `3,917` visual assets in `assets/`.
+     and sample SHA-256 digests of the `4,124` visual assets in `assets/`.
   2. Stages a clean, self-contained Git repository in a temporary directory
      containing 100% of `src/`, `ui/`, `tests/`, `scripts/`, `terraform/`,
      `prompts/`, `config/`, `docs/`, `data/`, root configs, and representative
@@ -200,6 +200,11 @@ def build_lightweight_submission_bundle(
         for extra_rel in (
             "AGENTS.md",
             "docs/CAPSTONE_TRACKER.md",
+            "docs/PERSONAL_TECHNICAL_BRIEFING.md",
+            "docs/CAPSTONE_ANALYZER_DRY_RUN_REPORT.md",
+            "docs/CAPSTONE_ARTIFACT_ANALYZER_REPORT.md",
+            "docs/CAPSTONE_PANEL_PLAYBOOK.md",
+            "docs/FDE_CAPSTONE_COMPANION_GUIDE.md",
             "docs/ARCHITECTURE.md",
             "docs/ADR.md",
             "docs/RUNBOOK.md",

@@ -238,3 +238,61 @@ def test_consolidation_5_sidebar_deduplication_understage_and_css_js_wiring() ->
     assert ".m3-split-btn-caret" in js
     assert ".m3-split-dropdown-menu" in js
     assert "deck-loaded-compact-hero" in js
+
+
+def test_items_1_to_6_multimedia_drawer_logistics_slides_footer_compact_hero_and_mcp_sync() -> None:
+    """Items 1-6: Multimedia drawer children, logistics slides + start time/location, 2-line footer, compact hero, and 27-capability MCP copy."""
+    html = UI_HTML.read_text(encoding="utf-8")
+    css = UI_CSS.read_text(encoding="utf-8")
+    js = UI_JS.read_text(encoding="utf-8")
+
+    # Item 1: #slide-multimedia-drawer-body populated with 4 child elements
+    for mm_id in (
+        "slide-multimedia-drawer",
+        "slide-multimedia-drawer-body",
+        "drawer-pamphlet-citation-chip",
+        "drawer-workbook-citation-chip",
+        "drawer-gate-badges-wrap",
+        "slide-multimedia-links-list",
+        "slide-gate-badges-inline",
+    ):
+        assert f'id="{mm_id}"' in html, f"Missing multimedia drawer element #{mm_id}"
+    assert "formatUiWorkbookOrganizerLabel" in js
+
+    # Item 2 & 6: Logistics drawer + Workspace Classroom Session Time, Location & Logistics Slides panel
+    for log_id in (
+        "input-logistics-time",
+        "input-logistics-room",
+        "input-logistics-sessions",
+        "btn-apply-logistics-slides",
+        "btn-remove-logistics-slides",
+        "ws-class-logistics-panel",
+        "ws-class-time-input",
+        "ws-class-time-datalist",
+        "ws-room-location-input",
+        "ws-room-location-datalist",
+        "ws-session-dates-input",
+        "ws-chk-include-slide2",
+        "ws-chk-include-sliden",
+        "btn-ws-apply-logistics-slides",
+        "btn-ws-remove-logistics-slides",
+    ):
+        assert f'id="{log_id}"' in html, f"Missing logistics control #{log_id}"
+    assert "applyOrRemoveClassLogisticsSlides" in js
+    assert "class_start_time" in js
+    assert "room_location" in js
+
+    # Item 3: 2-line footer wrapping in renderActiveSlide
+    assert 'white-space:nowrap; font-weight:600;">📝' in js
+
+    # Item 4: Slim single-row compact hero banner CSS
+    assert "body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-patch-img" in css
+    assert "min-height: 44px !important;" in css
+
+    # Item 5: 27-Capability MCP Playground & execution_mode human-readable map
+    assert "27-Capability MCP Playground" in html
+    assert "15 MCP Tools" in html
+    assert "7 Grounded" in html
+    assert "5 Pedagogical Prompts" in html
+    assert "formatUiExecutionModeLabel" in js
+

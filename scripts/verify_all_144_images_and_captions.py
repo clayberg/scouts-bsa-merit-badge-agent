@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Comprehensive 144-badge verification suite for slide images and captions.
+"""Comprehensive 149-badge verification suite for slide images and captions.
 
-Checks every generated slide deck across all 144 Merit Badges for:
+Checks every generated slide deck across all 149 Merit Badges for:
 1. Unnecessary repetitive prefixes ("handbook illustration depicting", "instructional field visual illustrating")
 2. Colons (:) inside visual_caption that could cause bold prefixes
 3. Truncated captions ending mid-sentence on dangling prepositions/articles/conjunctions
@@ -209,7 +209,7 @@ def main():
     if r["total_issues"] > 0:
       badges_with_issues.append(r)
 
-  print("\n=== 144-Badge Aggregate Summary ===")
+  print("\n=== 149-Badge Aggregate Summary ===")
   print(json.dumps(agg, indent=2))
   print(f"Badges with 0 issues: {len(results) - len(badges_with_issues)}/{len(results)}")
 

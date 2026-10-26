@@ -807,7 +807,13 @@ def seed_badge_image_catalog_from_storyboard(
         pass
 
     catalog_list = list(by_stem.values())
-    _save_catalog_json(badge_name, catalog_list)
+    c_path = _badge_catalog_json_path(badge_name)
+    is_test_or_offline = bool(
+        os.environ.get("PYTEST_CURRENT_TEST")
+        or os.environ.get("OFFLINE_DEMO_MODE", "").lower() == "true"
+    )
+    if not (is_test_or_offline and c_path.exists()):
+        _save_catalog_json(badge_name, catalog_list)
     batch_fn = getattr(_default_store, "upsert_badge_images_batch_sync", None)
     if callable(batch_fn):
         try:

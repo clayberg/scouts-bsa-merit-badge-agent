@@ -8,44 +8,44 @@ This runbook covers local setup, Google Cloud deployment via Terraform and Cloud
 
 ### 1.1 Starting the Material 3 Counselor Workbench
 ```bash
-# Start the FastAPI / Material 3 Counselor Workbench (:8080 / :8085)
+# Start the FastAPI / Material 3 Counselor Workbench (:8085)
 ./run_local.sh
 
 # Or start directly via uvicorn:
-.venv/bin/uvicorn src.server:app --host 0.0.0.0 --port 8080
+.venv/bin/uvicorn src.server:app --host 0.0.0.0 --port 8085
 ```
 
 ### 1.2 Checking health, readiness, smoke tests, runtime metrics, and Admin diagnostics locally
 ```bash
 # 1. Container liveness probe (expects HTTP 200 {"status": "UP"})
-curl -fsS http://127.0.0.1:8080/health | jq .
+curl -fsS http://127.0.0.1:8085/health | jq .
 
 # 2. Deep dependency readiness probe (checks 12-table SQLite store, 149-badge catalog, policy JSON files, circuit breakers)
-curl -fsS http://127.0.0.1:8080/readiness | jq .
+curl -fsS http://127.0.0.1:8085/readiness | jq .
 
 # 3. Automated deployment smoke test suite (/health, /readiness, /api/badges, /api/v1/mcp/manifest, UI root)
-.venv/bin/python3 scripts/smoke_test_deployment.py --base-url http://127.0.0.1:8080
+.venv/bin/python3 scripts/smoke_test_deployment.py --base-url http://127.0.0.1:8085
 
 # 4. Runtime telemetry, Honest Dual Latency percentiles (first_status_event_ms vs true_first_content_token_ms),
 #    5% OnlineProductionAuditSampler summary, and compliance audit events
-curl -fsS http://127.0.0.1:8080/api/v1/metrics | jq .
-curl -fsS http://127.0.0.1:8080/api/v1/telemetry/latency-breakdown | jq .
-curl -fsS http://127.0.0.1:8080/api/v1/eval/online-audit-summary | jq .
+curl -fsS http://127.0.0.1:8085/api/v1/metrics | jq .
+curl -fsS http://127.0.0.1:8085/api/v1/telemetry/latency-breakdown | jq .
+curl -fsS http://127.0.0.1:8085/api/v1/eval/online-audit-summary | jq .
 
 # 5. In-App Documentation Viewer catalog (2 User Docs + 10 Engineering Docs)
-curl -fsS http://127.0.0.1:8080/api/v1/docs | jq .
+curl -fsS http://127.0.0.1:8085/api/v1/docs | jq .
 
-# 6. Super-User Admin Console 144-badge asset health matrix and Zero-PII telemetry summary
+# 6. Super-User Admin Console 149-badge asset health matrix and Zero-PII telemetry summary
 #    (See docs/ADMIN_GUIDE.md for full UI and API documentation)
-curl -fsS http://127.0.0.1:8080/api/v1/admin/diagnostics/assets | jq .
-curl -fsS http://127.0.0.1:8080/api/v1/admin/telemetry/summary | jq .
+curl -fsS http://127.0.0.1:8085/api/v1/admin/diagnostics/assets | jq .
+curl -fsS http://127.0.0.1:8085/api/v1/admin/telemetry/summary | jq .
 
-# 7. Admin maintenance: verify/repair 144 pamphlet covers & emblems, purge temp web-search cache,
+# 7. Admin maintenance: verify/repair 149 pamphlet covers & emblems, purge temp web-search cache,
 #    reset circuit breakers, and export a downloadable Zero-PII diagnostic snapshot
-curl -fsS -X POST http://127.0.0.1:8080/api/v1/admin/maintenance/repair-covers | jq .
-curl -fsS -X POST http://127.0.0.1:8080/api/v1/admin/maintenance/purge-temp-cache | jq .
-curl -fsS -X POST http://127.0.0.1:8080/api/v1/admin/circuit-breakers/reset | jq .
-curl -fsS http://127.0.0.1:8080/api/v1/admin/maintenance/snapshot -o deliverables/admin_zero_pii_snapshot.json
+curl -fsS -X POST http://127.0.0.1:8085/api/v1/admin/maintenance/repair-covers | jq .
+curl -fsS -X POST http://127.0.0.1:8085/api/v1/admin/maintenance/purge-temp-cache | jq .
+curl -fsS -X POST http://127.0.0.1:8085/api/v1/admin/circuit-breakers/reset | jq .
+curl -fsS http://127.0.0.1:8085/api/v1/admin/maintenance/snapshot -o deliverables/admin_zero_pii_snapshot.json
 ```
 
 ---
@@ -74,7 +74,7 @@ openssl rand -hex 32 | gcloud secrets versions add bsa-hitl-secret-key \
 ```
 
 ### 2.3 Step 3: Run the Cloud Build canary pipeline (`cloudbuild.yaml`)
-`cloudbuild.yaml` runs `ruff check`, `pytest tests/` (`88/88` passing automated tests with `0` warnings), load testing (`tests/load/load_test.py` and `tests/load/locustfile.py`), and the 20-badge golden evaluation suite (`scripts/run_eval.py` and `scripts/eval_gate.py`). If any check fails, the build stops before touching Cloud Run. When all checks pass, it deploys a `canary` revision at `10%` traffic, checks `/readiness`, and promotes the revision to `100%` (or rolls back automatically if the canary probe fails):
+`cloudbuild.yaml` runs `ruff check`, `pytest tests/` (`133/133` passing automated tests [`112` unit/integration + `21` golden eval] with `0` warnings), load testing (`tests/load/load_test.py` and `tests/load/locustfile.py`), and the 20-badge golden evaluation suite (`scripts/run_eval.py` and `scripts/eval_gate.py`). If any check fails, the build stops before touching Cloud Run. When all checks pass, it deploys a `canary` revision at `10%` traffic, checks `/readiness`, and promotes the revision to `100%` (or rolls back automatically if the canary probe fails):
 
 ```bash
 gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}"
@@ -92,8 +92,8 @@ gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}
 - **Operator steps**:
   - Check current circuit breaker status and reset if needed:
     ```bash
-    curl -s http://127.0.0.1:8080/readiness | jq '.checks.circuit_breakers'
-    curl -s -X POST http://127.0.0.1:8080/api/v1/admin/circuit-breakers/reset | jq .
+    curl -s http://127.0.0.1:8085/readiness | jq '.checks.circuit_breakers'
+    curl -s -X POST http://127.0.0.1:8085/api/v1/admin/circuit-breakers/reset | jq .
     ```
   - If `gemini-2.5-pro` quota is exhausted in `us-central1`, route planner and reviewer calls to Flash via environment variable:
     ```bash
@@ -117,7 +117,7 @@ gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}
 - **Operator steps**:
   - Inspect recent compliance events:
     ```bash
-    curl -s http://127.0.0.1:8080/api/v1/metrics | jq '.recent_compliance_audit_events'
+    curl -s http://127.0.0.1:8085/api/v1/metrics | jq '.recent_compliance_audit_events'
     ```
   - Check whether a regex rule in `src/agents/guardrails.py` (`_PROMPT_INJECTION_PATTERNS` or `_UNSAFE_SCOUTING_PATTERNS`) or `config/model_armor_security_policy.json` matched valid curriculum text.
 
@@ -125,17 +125,17 @@ gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}
 - **Symptoms**: Clicking `✨ AI Polish Slide` or `✨ Polish Entire Deck` returns `polish_source == "PROCEDURAL_STUDIO_POLISH"` instead of `"GEMINI_FLASH"`, or a counselor reports stale cached speaker notes.
 - **Automatic handling**:
   1. Before polishing, `POST /api/v1/slide/estimate-polish-cost` calculates the exact `gemini-2.5-flash` (`thinking_budget=0`) token and USD cost (`$0.000835/slide` uncached; `$0.00` for slides cached in SQLite `polished_speaker_notes`).
-  2. `_invoke_gemini_flash_polish_sync()` (`src/server.py`) tries four credential paths in order: Vertex AI ADC (`global` and `us-central1`), Vertex AI Express key (`AQ.*`), standard Gemini API key (`AIza*`), and the Local-to-Cloud-Run Bridge. If all cloud paths are unavailable, `_synthesize_studio_narrative_script()` produces a slide-unique `[SAY]` / `[DEMONSTRATE]` / `[ASK SCOUTS]` script at `$0.00` (`PROCEDURAL_STUDIO_POLISH`).
+  2. `_invoke_gemini_flash_polish_sync()` (`src/server.py`) tries four credential paths in order: Vertex AI ADC (`global` and `us-central1`), Vertex AI Express key (`AQ.*`), standard Gemini API key (`AIza*`), and the Local-to-Cloud-Run Bridge. If all cloud paths are unavailable, `_synthesize_studio_narrative_script()` produces a slide-unique 5-Part Facilitator Guide script at `$0.00` (`PROCEDURAL_STUDIO_POLISH`).
 - **Operator steps**:
   - Check the FinOps polish cost estimate and SQLite cache hit count for a slide:
     ```bash
-    curl -s -X POST http://127.0.0.1:8080/api/v1/slide/estimate-polish-cost \
+    curl -s -X POST http://127.0.0.1:8085/api/v1/slide/estimate-polish-cost \
       -H "Content-Type: application/json" \
       -d '{"badge_name": "First Aid", "slide_index": 0, "storyboard_slides": [{"req_number": "1", "title": "First Aid Kit"}]}' | jq .
     ```
   - Force-refresh a slide's polished speaker script bypassing the SQLite cache (`force_refresh: true`):
     ```bash
-    curl -s -X POST http://127.0.0.1:8080/api/v1/slide/polish-notes \
+    curl -s -X POST http://127.0.0.1:8085/api/v1/slide/polish-notes \
       -H "Content-Type: application/json" \
       -d '{"badge_name": "First Aid", "slide_index": 0, "force_refresh": true, "slide_data": {"req_number": "1", "title": "First Aid Kit"}}' | jq '{polish_source, polish_model_label, cache_hit, fallback_reason}'
     ```
@@ -155,17 +155,17 @@ gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}
 - **Operator steps**:
   - Check workstation/server Google account detection and `gdrive` CLI readiness:
     ```bash
-    curl -s http://127.0.0.1:8080/api/v1/slide/export-gslides/account-info | jq .
+    curl -s http://127.0.0.1:8085/api/v1/slide/export-gslides/account-info | jq .
     ```
   - Test direct Google Slides conversion and sharing from the command line:
     ```bash
-    curl -s -X POST http://127.0.0.1:8080/api/v1/slide/export-gslides \
+    curl -s -X POST http://127.0.0.1:8085/api/v1/slide/export-gslides \
       -H "Content-Type: application/json" \
       -d '{"badge_name": "First Aid", "beautification_tier": "BEAUTIFIED", "share_with_email": "counselor@gmail.com", "use_adc": true}' | jq .
     ```
 
 ### Playbook F: Emergency FinOps budget freeze & zero-code model deprecation cutover (`config/models.yaml`)
-- **Emergency Live Image Freeze**: `FinOpsBudgetPlugin` (`max_budget_usd = $1.00`) automatically steps down `DARK_SLATE` (`STUDIO`) requests to `WARM_CREAM` (`BEAUTIFIED`) using the `3,917` pre-bundled visual assets (`$0.00` image cost). To freeze opt-in `$0.08` Nano Banana studio calls during a budget freeze without redeploying code, set `DISABLE_LIVE_IMAGE_GENERATION=true` or `MAX_WORKFLOW_BUDGET_USD=0.25` in Cloud Run environment variables.
+- **Emergency Live Image Freeze**: `FinOpsBudgetPlugin` (`max_budget_usd = $1.00`) automatically steps down `DARK_SLATE` (`STUDIO`) requests to `WARM_CREAM` (`BEAUTIFIED`) using the `4,124` pre-bundled visual assets across `149` badges (`$0.00` image cost). To freeze opt-in `$0.08` Nano Banana studio calls during a budget freeze without redeploying code, set `DISABLE_LIVE_IMAGE_GENERATION=true` or `MAX_WORKFLOW_BUDGET_USD=0.25` in Cloud Run environment variables.
 - **Zero-Code Model Deprecation Cutover**:
   1. Update `primary_model` or `fast_model` in `config/models.yaml` (or set `BSA_REASONING_MODEL` / `BSA_FAST_MODEL` environment variables).
   2. Run `.venv/bin/python3 scripts/run_eval.py` to verify `Recall@3 == 1.0000`, `0` requirement drift, and `100%` AABB slide geometry conformance on the new model.
@@ -204,7 +204,7 @@ gcloud run services update-traffic scouts-bsa-merit-badge-agent \
    ```
 
 ### 4.3 Backing up and restoring the SQLite session and Zero-PII telemetry stores
-Use SQLite's online `.backup` command to snapshot both `scouts_bsa_sessions.db` (all 9 tables: `sessions` / `counselor_sessions`, `events`, `pamphlet_Requirement_chunks` / `pamphlet_vector_memory`, `counselor_feedback` / `hitl_feedback`, `badge_image_catalog`, `polished_speaker_notes`, `counselor_workspaces`, `counselor_favorites`, `user_preferences`, and `compliance_attestation_ledger`) and `scouts_bsa_telemetry.db` (`ZeroPiiTelemetryStore` deck runs, image swaps, stage latencies, and `OnlineProductionAuditSampler` samples) without locking active readers:
+Use SQLite's online `.backup` command to snapshot both `scouts_bsa_sessions.db` (all 12 tables: `counselor_sessions`, `pamphlet_vector_memory`, `badge_image_catalog`, `hitl_feedback`, `polished_speaker_notes`, `counselor_workspaces`, `counselor_favorites`, `user_preferences`, `compliance_attestation_ledger`, `clinic_session_schedules`, `scout_session_attendance_and_partials`, and `counselor_syllabus_bucket_overrides`) and `scouts_bsa_telemetry.db` (`ZeroPiiTelemetryStore` deck runs, image swaps, stage latencies, and `OnlineProductionAuditSampler` samples) without locking active readers:
 
 ```bash
 # Create online backups of both SQLite databases

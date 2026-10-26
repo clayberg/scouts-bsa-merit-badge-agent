@@ -70,7 +70,7 @@ You can copy pre-filled configuration snippets directly from the top-bar **`🤖
 {
   "mcpServers": {
     "scouts-bsa-workbench": {
-      "httpUrl": "http://localhost:8080/mcp",
+      "httpUrl": "http://localhost:8085/mcp",
       "command": "python",
       "args": ["-m", "src.mcp_server"]
     }
@@ -84,7 +84,7 @@ You can copy pre-filled configuration snippets directly from the top-bar **`🤖
 {
   "mcpServers": {
     "scouts-bsa-workbench": {
-      "url": "http://localhost:8080/mcp/sse"
+      "url": "http://localhost:8085/mcp/sse"
     }
   }
 }
@@ -182,14 +182,14 @@ Section 3 of the **`🤖 MCP Hub`** provides a full-height Interactive MCP Playg
 
 ### 6.1 List Available MCP Tools
 ```bash
-curl -s -X POST http://localhost:8080/mcp \
+curl -s -X POST http://localhost:8085/mcp \
   -H "Content-Type: application/json" \
   -d '{"jsonrpc": "2.0", "id": 1, "method": "tools/list", "params": {}}'
 ```
 
 ### 6.2 Build a Deck with the `BSA America 250™` Template
 ```bash
-curl -s -X POST http://localhost:8080/mcp \
+curl -s -X POST http://localhost:8085/mcp \
   -H "Content-Type: application/json" \
   -d '{
     "jsonrpc": "2.0",
@@ -210,7 +210,7 @@ curl -s -X POST http://localhost:8080/mcp \
 
 ### 6.3 Read the PowerPoint Template Catalog Resource
 ```bash
-curl -s -X POST http://localhost:8080/mcp \
+curl -s -X POST http://localhost:8085/mcp \
   -H "Content-Type: application/json" \
   -d '{
     "jsonrpc": "2.0",

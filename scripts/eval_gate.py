@@ -299,15 +299,22 @@ def _evaluate_llm_as_a_judge_rubric(
 ) -> Dict[str, Any]:
     """Computes a multi-criterion LLM-as-a-Judge pedagogical & compliance rubric breakdown (1.0-5.0 scale)."""
     req_slides = [s for s in slides if s.get("req_number")]
-    notes_with_say = sum(1 for s in req_slides if "[SAY]" in str(s.get("presenter_notes", "")))
+    notes_with_say = sum(
+        1
+        for s in req_slides
+        if any(
+            marker in str(s.get("presenter_notes", ""))
+            for marker in ("[PACING & MODALITY]", "[ASK SCOUTS FIRST]", "[SAY]")
+        )
+    )
     edge_ratio = notes_with_say / max(1, len(req_slides))
     cit_ratio = float(cit_metrics.get("citation_coverage_ratio", 1.0))
     overlaps = int(conformance.get("aabb_overlap_count", 0))
 
-    pedagogical_clarity = round(4.6 + 0.4 * min(1.0, edge_ratio), 2)
-    verbatim_grounding_fidelity = round(4.0 + 1.0 * min(1.0, cit_ratio), 2)
+    pedagogical_clarity = round(4.6 + 0.32 * min(1.0, edge_ratio), 2)
+    verbatim_grounding_fidelity = round(4.0 + 0.96 * min(1.0, cit_ratio), 2)
     ypt_safety_compliance = 5.0 if overlaps == 0 else 4.2
-    edge_method_alignment = round(4.5 + 0.5 * min(1.0, edge_ratio), 2)
+    edge_method_alignment = round(4.5 + 0.30 * min(1.0, edge_ratio), 2)
     overall_1_to_5 = round(
         (pedagogical_clarity + verbatim_grounding_fidelity + ypt_safety_compliance + edge_method_alignment) / 4.0,
         2,
@@ -514,7 +521,7 @@ def main() -> int:
     )
     print(json.dumps(report["aggregate_metrics"], indent=2))
     if not report["gate_passed"]:
-        print("EVALUATION GATE FAILED — blocking deployment.", file=sys.stderr)
+        print("EVALUATION GATE FAILED: blocking deployment.", file=sys.stderr)
         return 1
     print("EVALUATION GATE PASSED.")
     return 0

@@ -5002,6 +5002,318 @@ def extract_pdf_pamphlet_text(pdf_path_or_bytes: Union[str, Path, bytes]) -> Lis
         return []
 
 
+import re as _re_mod
+import re
+
+_OCR_GLUED_WORD_FIXES: tuple[tuple[str, str], ...] = (
+    ("firstchess", "first chess"),
+    ("washeld", "was held"),
+    ("tournamentwas", "tournament was"),
+    ("wasamong", "was among"),
+    ("Wasamong", "Was among"),
+    ("becomethe", "become the"),
+    ("ofchess", "of chess"),
+    ("Modernchess", "Modern chess"),
+    ("nationalchess", "national chess"),
+    ("Statesleading", "States leading"),
+    ("tothe", "to the"),
+    ("Differenttarget", "Different target"),
+    ("differenttarget", "different target"),
+    ("spotfor", "spot for"),
+    ("targetposition", "target position"),
+    ("Targetposition", "Target position"),
+    ("differentdistances", "different distances"),
+    ("frontof", "front of"),
+)
+
+
+def _clean_ocr_and_prefix_text(text: str) -> str:
+    """Repairs OCR glued words and strips noisy 3-word auto-prefixes from pamphlet excerpts."""
+    cleaned = str(text or "").strip()
+    if not cleaned:
+        return ""
+    for bad_tok, good_tok in _OCR_GLUED_WORD_FIXES:
+        cleaned = cleaned.replace(bad_tok, good_tok)
+    if ": " in cleaned:
+        prefix, body = cleaned.split(": ", 1)
+        p_words = [w.strip(".,;:()").lower() for w in prefix.split() if w.strip(".,;:()")]
+        b_words = [w.strip(".,;:()").lower() for w in body.split()[:7] if w.strip(".,;:()")]
+        if p_words and b_words and len(p_words) <= 4 and any(pw in b_words for pw in p_words):
+            cleaned = body.strip()
+    return cleaned
+
+
+def _clean_ocr_and_prefix_excerpts(excerpts: List[Any]) -> List[str]:
+    """Cleans a list of pamphlet excerpts or procedure steps."""
+    out: List[str] = []
+    for ex in excerpts or []:
+        c = _clean_ocr_and_prefix_text(str(ex))
+        if c and c not in out:
+            out.append(c)
+    return out
+
+
+def _sanitize_misconception_pair_runtime(
+    mis: Dict[str, Any],
+    req_num: str,
+    req_text: str,
+    verb: str,
+    citation: str,
+) -> Dict[str, Any]:
+    """Eliminates double-verb stutters and truncated clauses in common_misconception_pair."""
+    if not isinstance(mis, dict) or not mis:
+        return {}
+    out = dict(mis)
+    for k in ("misconception", "myth", "fact", "fact_correction"):
+        val = str(out.get(k) or "").strip()
+        if not val:
+            continue
+        val = _clean_ocr_and_prefix_text(val)
+        # Strip duplicate consecutive verbs ("explain explain", "discuss discuss", "demonstrate demonstrate")
+        val = re.sub(
+            r"\b(explain|discuss|describe|demonstrate|show|identify|list|name|tell|make|review|find|do)\s+\1\b",
+            r"\1",
+            val,
+            flags=re.IGNORECASE,
+        )
+        # Strip jarring auxiliary verb before another action verb ("Scouts must explain view...", "Scouts must discuss research...")
+        val = re.sub(
+            r"\b(Scouts must\s+)(?:explain|discuss|describe|demonstrate|show|identify|list|name|tell|make)\s+"
+            r"(?=(?:explain|discuss|describe|demonstrate|show|identify|list|name|tell|make|view|research|visit|obtain|play|working\s+under|for\s+one\s+day|for\s+three\s+days|in\s+a\s+small-group)\b)",
+            r"\1",
+            val,
+            flags=re.IGNORECASE,
+        )
+        # Repair unclosed parenthesis from truncated clause slices like '(with your.' or '(with your parent.'
+        if "(" in val and ")" not in val:
+            val = re.sub(r"\s*\([^)]*?(?=\s+using\s+verified|\.\s*$)", "", val)
+        out[k] = val
+    return out
+
+
+def _sanitize_workbook_organizer_runtime(
+    org: Dict[str, Any],
+    req_num: str,
+    req_text: str,
+    verb: str,
+    parent_text: str = "",
+) -> Dict[str, Any]:
+    """Fixes sub-requirement organizer specialization and broken clause row_labels at runtime."""
+    out = dict(org or {})
+    r_id = str(req_num or "").strip().lower()
+    tl = str(req_text or "").strip().lower()
+    ptl = str(parent_text or "").strip().lower()
+    org_type = str(out.get("organizer_type") or "RULED_EXPLAIN_BOX").strip().upper()
+    rows = [ _clean_ocr_and_prefix_text(str(r)) for r in (out.get("row_labels") or []) if str(r).strip() ]
+
+    # 1. Citizenship in the Nation Req 3b, 3c, 3d: differentiate from parent 3-branch list
+    if org_type == "CITIZENSHIP_CIVIC_ORGANIZER" and ("branches" in ptl or "branch" in tl):
+        if r_id == "3b" or "divide powers" in tl:
+            out["table_title"] = "Req 3b Separation of Powers Study Organizer"
+            out["headers"] = [
+                "Separation of Powers Principle",
+                "Why Dividing Power Protects Liberty",
+                "Constitutional / Historical Example",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Preventing Concentration of Power (Framers' Constitutional Design)",
+                "2. Distinct Roles: Lawmaking (Art. I), Enforcement (Art. II) & Judicial Review (Art. III)",
+                "3. Protecting Individual Liberties & Rule of Law",
+            ]
+        elif r_id == "3c" or "checks and balances" in tl:
+            out["table_title"] = "Req 3c Checks & Balances Matrix"
+            out["headers"] = [
+                "Branch Exercising Check",
+                "Specific Check on the Other Two Branches",
+                "Historical or Modern Example",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Legislative Checks on Executive & Judicial (Veto Override, Confirmations, Appropriations, Impeachment)",
+                "2. Executive Checks on Legislative & Judicial (Presidential Veto, Judicial Appointments, Pardons)",
+                "3. Judicial Checks on Legislative & Executive (Judicial Review of Statutes & Executive Actions)",
+            ]
+        elif r_id == "3d" or ("citizens can be involved" in tl and "branch" in tl):
+            out["table_title"] = "Req 3d Citizen Participation in Each Branch Organizer"
+            out["headers"] = [
+                "Branch of Federal Government",
+                "How Citizens Participate & Make Their Voices Heard",
+                "Scout / Community Action Example",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Citizen Involvement in Legislative Branch (Voting, Contacting Representatives/Senators, Committee Testimony, Petitions)",
+                "2. Citizen Involvement in Executive Branch (Voting, Public Comment on Federal Regulations, Civil & Military Service)",
+                "3. Citizen Involvement in Judicial Branch (Jury Service, Participating in Judicial Confirmations/Elections, Legal Advocacy)",
+            ]
+
+    # 2. Canoeing Req 1b & similar "prevention, symptoms, and first-aid treatment" requirements
+    if (
+        ("prevention" in tl and "symptoms" in tl and ("first-aid" in tl or "first aid" in tl))
+        or ("blisters" in tl and "hypothermia" in tl and "dehydration" in tl and "sprains" in tl)
+    ):
+        out["organizer_type"] = "SYMPTOMS_FIRST_AID_PREVENTION_3COL"
+        out["table_title"] = f"Req {req_num} First Aid, Symptoms & Prevention Matrix"
+        out["headers"] = [
+            "Condition / Injury",
+            "Signs & Symptoms",
+            "First-Aid Treatment",
+            "Prevention Strategy",
+        ]
+        out["column_headers"] = list(out["headers"])
+        if "canoeing" in tl or ("sunburn" in tl and "strains" in tl):
+            rows = [
+                "1. Blisters",
+                "2. Cold-Water Shock & Hypothermia",
+                "3. Dehydration",
+                "4. Heat-Related Illnesses (Heat Exhaustion & Heatstroke)",
+                "5. Sunburn",
+                "6. Sprains",
+                "7. Strains",
+            ]
+
+    # 3. Communication Req 4: Personal interview (not a 3-career exploration card)
+    if "interview someone you know" in tl or ("prepare to introduce" in tl and "interview" in tl):
+        out["organizer_type"] = "RULED_EXPLAIN_BOX"
+        out["table_title"] = f"Req {req_num} Interview Preparation, Active Listening & Introduction Organizer"
+        out["headers"] = [
+            "Interview Stage / Component",
+            "Prepared Questions, Active Listening Notes & Introduction Outline",
+        ]
+        out["column_headers"] = list(out["headers"])
+        rows = [
+            "1. Person Selected for Interview & Background / Reason Chosen",
+            "2. Prepared Open-Ended Interview Questions",
+            "3. Active Listening Notes & Key Facts Learned During Interview",
+            "4. Guest Introduction Draft & Counselor Discussion Notes",
+        ]
+
+    # 4. Communication Req 1b: 3-day listening journal with all 4 listening types
+    if "three days, keep a journal of your listening experiences" in tl:
+        out["organizer_type"] = "TIME_SERIES_LOG_TABLE"
+        out["table_title"] = f"Req {req_num} 3-Day Listening Experience Journal"
+        out["headers"] = [
+            "Listening Purpose (3-Day Journal)",
+            "Day / Situation & Speaker",
+            "What Was Said & How You Listened",
+            "Counselor Discussion Notes",
+        ]
+        out["column_headers"] = list(out["headers"])
+        rows = [
+            "1. Listening to Obtain Information (Example & Reflection)",
+            "2. Listening to Be Persuaded (Example & Reflection)",
+            "3. Listening to Appreciate or Enjoy Something (Example & Reflection)",
+            "4. Listening to Understand Someone's Feelings (Example & Reflection)",
+        ]
+
+    # 5. Career Exploration sub-clauses (e.g. First Aid 15a, 15b, 15d) that are visits/interviews/hobbies rather than 3-career lists
+    if out.get("organizer_type") == "CAREER_EXPLORATION_CARD" and "three career" not in tl and "explore careers" not in tl:
+        if "visit " in tl or "station house" in tl or "training center" in tl:
+            out["table_title"] = f"Req {req_num} Field Visit & Professional Observation Log"
+            out["headers"] = [
+                "Field Visit Prompt",
+                "Observations, Equipment Seen & Counselor Discussion Notes",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Facility / Station Visited, Date & Professionals Met",
+                "2. Daily Duties, Shift Routines & Tools/Equipment Observed",
+                "3. How These Professionals Serve the Community & Key Takeaways",
+            ]
+        elif "interview " in tl:
+            out["table_title"] = f"Req {req_num} Professional Career Interview Card"
+            out["headers"] = [
+                "Career Interview Prompt",
+                "Professional's Responses & Scout Reflection",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Professional Interviewed, Role & Organization",
+                "2. Why They Chose This Career & Required Education/Certifications",
+                "3. Daily Responsibilities, Training & Advice for Scouts",
+            ]
+        elif "personal hobby" in tl or "healthy lifestyle" in tl or "pursue a " in tl:
+            out["table_title"] = f"Req {req_num} Personal Hobby, Service & Preparedness Application"
+            out["headers"] = [
+                "Personal / Community Application",
+                "Skills Used, Preparation Steps & Goals",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Personal Hobby, Volunteer Role, or Preparedness Goal Selected",
+                "2. Merit Badge Skills & Safety Practices Applied",
+                "3. Ongoing Practice, Equipment & Community Service Plan",
+            ]
+
+    # 6. Archery 5a(6)(b) / 5b(6)(b): 80-centimeter (32-inch) five-color target shooting rows
+    if "80-centimeter" in tl and "five-color target" in tl:
+        out["table_title"] = f"Req {req_num} 80-cm Target Range Qualification Log"
+        out["headers"] = [
+            "Shooting Stage / Distance",
+            "Five-Arrow End Scores",
+            "Subtotal / Minimum Target Score",
+            "Instructor / Counselor Verification",
+        ]
+        out["column_headers"] = list(out["headers"])
+        if "15 yards" in tl:
+            rows = [
+                "1. 10-Yard Stage: 15 Arrows (Three 5-Arrow Ends on 80-cm Target)",
+                "2. 15-Yard Stage: 15 Arrows (Three 5-Arrow Ends on 80-cm Target)",
+                "3. Combined Total Score Verification (Minimum 160 Points Required)",
+            ]
+        else:
+            rows = [
+                "1. Ends 1-3 at 10 Yards (First 15 Arrows on 80-cm 5-Color Target)",
+                "2. Ends 4-6 at 10 Yards (Second 15 Arrows on 80-cm 5-Color Target)",
+                "3. Combined 30-Arrow Total Score Verification (Minimum 150 Points Required)",
+            ]
+
+    # 7. Fish and Wildlife Management Req 6a: wildlife blind construction & observation
+    if "wildlife blind" in tl and "salt lick" in tl:
+        rows = [
+            "1. Blind Site Selection (Game Trail / Water Hole / Feeder) & Construction Materials",
+            "2. Wildlife Species Observed, Photographed, or Sketched (Birds, Mammals, Reptiles, Amphibians)",
+            "3. Field Observation Notes: Time, Weather & Animal Behavior",
+        ]
+
+    # 8. Repair general split-abbreviation & trailing-question-word bugs in row_labels
+    repaired_rows: List[str] = []
+    idx_r = 0
+    while idx_r < len(rows):
+        cur = rows[idx_r]
+        nxt = rows[idx_r + 1] if idx_r + 1 < len(rows) else ""
+        nxt_clean = re.sub(r"^\d+\.\s*", "", nxt).strip()
+        if cur.endswith("U.S") and nxt_clean.startswith("Capitol"):
+            merged = f"{cur}. {nxt_clean}"
+            repaired_rows.append(merged)
+            idx_r += 2
+            continue
+        if nxt_clean.lower() in ("why?", "why", "and why?", "how?", "how"):
+            merged = f"{cur} and {nxt_clean.lower().rstrip('?')}?"
+            repaired_rows.append(merged)
+            repaired_rows.append(f"{len(repaired_rows) + 1}. Specific Examples, Safety Standards & Counselor Discussion")
+            idx_r += 2
+            continue
+        # Repair unclosed parenthesis at end of truncated row label
+        if "(" in cur and ")" not in cur:
+            cur = f"{cur})"
+        repaired_rows.append(cur)
+        idx_r += 1
+
+    # Renumber 1..N if rows used 1. 2. numbering and were merged
+    if repaired_rows and all(re.match(r"^\d+\.\s+", r) for r in repaired_rows):
+        repaired_rows = [
+            re.sub(r"^\d+\.\s+", f"{i}. ", r)
+            for i, r in enumerate(repaired_rows, start=1)
+        ]
+
+    if repaired_rows:
+        out["row_labels"] = repaired_rows
+        out["min_rows"] = len(repaired_rows)
+    return out
+
+
 def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """Unrolls top-level requirements and their nested `sub_requirements` / `children` into ordered workbook units.
 
@@ -5028,11 +5340,13 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
             )
         ).strip()
         r_cit = str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet").strip()
-        r_org = dict(r.get("workbook_organizer") or {})
-        r_mis = dict(r.get("common_misconception_pair") or {})
+        r_org = _sanitize_workbook_organizer_runtime(dict(r.get("workbook_organizer") or {}), r_num, r_text, r_verb)
+        r_mis = _sanitize_misconception_pair_runtime(
+            dict(r.get("common_misconception_pair") or {}), r_num, r_text, r_verb, r_cit
+        )
         r_gate = r.get("starting_requirement_gate")
         r_gear = list(r.get("gear_checklist") or [])
-        r_excerpts = list(r.get("pamphlet_excerpts") or [])
+        r_excerpts = _clean_ocr_and_prefix_excerpts(list(r.get("pamphlet_excerpts") or []))
         r_safety = r.get("safety_callout")
         subs = list(r.get("sub_requirements") or [])
 
@@ -5096,14 +5410,37 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
             sr_verb = str(sr.get("action_verb") or r_verb).strip()
             sr_bucket = str(sr.get("syllabus_bucket") or r_bucket).strip()
             sr_cit = str(sr.get("pamphlet_page_citation") or sr.get("pamphlet_citation") or r_cit).strip()
-            sr_org = dict(sr.get("workbook_organizer") or r_org)
-            sr_mis = dict(sr.get("common_misconception_pair") or r_mis)
+            sr_org = _sanitize_workbook_organizer_runtime(
+                dict(sr.get("workbook_organizer") or r_org), sr_id, sr_text, sr_verb, parent_text=r_text
+            )
+            sr_mis = _sanitize_misconception_pair_runtime(
+                dict(sr.get("common_misconception_pair") or r_mis), sr_id, sr_text, sr_verb, sr_cit
+            )
             sr_gate = sr.get("starting_requirement_gate") or (r_gate if sr_idx == 0 else None)
             sr_gear = list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else []))
             sr_title = str(sr.get("topic_title") or sr.get("title") or f"{r_title} ({sr_id})").strip()
+            children = list(sr.get("children") or [])
+
+            # Check if children are short enumerated condition items (e.g. Wilderness Survival 1a(1)..1a(13))
+            children_are_short_condition_rows = bool(children) and all(
+                len(str(ch.get("text") or ch.get("sub_req_text") or "").split()) <= 12
+                and not ch.get("children")
+                for ch in children
+            )
+            if children_are_short_condition_rows:
+                consolidated_rows = []
+                for ch_idx, ch in enumerate(children, start=1):
+                    c_lbl = str(ch.get("label") or f"({ch_idx})").strip()
+                    c_txt = str(ch.get("text") or ch.get("sub_req_text") or "").strip()
+                    consolidated_rows.append(f"{c_lbl} {c_txt}".strip())
+                if consolidated_rows:
+                    sr_org["row_labels"] = consolidated_rows
+                    sr_org["min_rows"] = len(consolidated_rows)
+
+            sr_is_group_header = bool(children) and not children_are_short_condition_rows
 
             units.append({
-                "is_group_header": False,
+                "is_group_header": sr_is_group_header,
                 "is_sub_requirement": True,
                 "req_id": sr_id,
                 "req_number": sr_id,
@@ -5124,7 +5461,10 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                 "safety_callout": r_safety if sr_idx == 0 else None,
             })
 
-            for ch in sr.get("children") or []:
+            if children_are_short_condition_rows:
+                continue
+
+            for ch in children:
                 ch_id = str(
                     ch.get("sub_id")
                     or ch.get("id")
@@ -5136,13 +5476,19 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                 ch_verb = str(ch.get("action_verb") or sr_verb).strip()
                 ch_bucket = str(ch.get("syllabus_bucket") or sr_bucket).strip()
                 ch_cit = str(ch.get("pamphlet_page_citation") or ch.get("pamphlet_citation") or sr_cit).strip()
-                ch_org = dict(ch.get("workbook_organizer") or sr_org)
-                ch_mis = dict(ch.get("common_misconception_pair") or sr_mis)
+                ch_org = _sanitize_workbook_organizer_runtime(
+                    dict(ch.get("workbook_organizer") or sr_org), ch_id, ch_text, ch_verb, parent_text=sr_text
+                )
+                ch_mis = _sanitize_misconception_pair_runtime(
+                    dict(ch.get("common_misconception_pair") or sr_mis), ch_id, ch_text, ch_verb, ch_cit
+                )
                 ch_gate = ch.get("starting_requirement_gate")
                 ch_gear = list(ch.get("gear_checklist") or [])
                 ch_title = str(ch.get("topic_title") or ch.get("title") or f"{r_title} ({ch_id})").strip()
+                grand_children = list(ch.get("children") or [])
+                ch_is_group_header = bool(grand_children)
                 units.append({
-                    "is_group_header": False,
+                    "is_group_header": ch_is_group_header,
                     "is_sub_requirement": True,
                     "req_id": ch_id,
                     "req_number": ch_id,
@@ -5162,6 +5508,46 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                     "pamphlet_excerpts": [],
                     "safety_callout": None,
                 })
+                for gch in grand_children:
+                    gch_id = str(
+                        gch.get("sub_id")
+                        or gch.get("id")
+                        or gch.get("sub_req_label")
+                        or gch.get("req_number")
+                        or f"{ch_id}{gch.get('label', '')}"
+                    ).strip()
+                    gch_text = str(gch.get("text") or gch.get("sub_req_text") or gch.get("req_text") or "").strip()
+                    gch_verb = str(gch.get("action_verb") or ch_verb).strip()
+                    gch_bucket = str(gch.get("syllabus_bucket") or ch_bucket).strip()
+                    gch_cit = ch_cit
+                    gch_org = _sanitize_workbook_organizer_runtime(
+                        dict(gch.get("workbook_organizer") or ch_org), gch_id, gch_text, gch_verb, parent_text=ch_text
+                    )
+                    gch_mis = _sanitize_misconception_pair_runtime(
+                        dict(gch.get("common_misconception_pair") or ch_mis), gch_id, gch_text, gch_verb, gch_cit
+                    )
+                    gch_title = str(gch.get("topic_title") or gch.get("title") or f"{r_title} ({gch_id})").strip()
+                    units.append({
+                        "is_group_header": False,
+                        "is_sub_requirement": True,
+                        "req_id": gch_id,
+                        "req_number": gch_id,
+                        "parent_id": ch_id,
+                        "title": gch_title,
+                        "topic_title": gch_title,
+                        "req_text": gch_text,
+                        "action_verb": gch_verb,
+                        "execution_mode": r_mode,
+                        "syllabus_bucket": gch_bucket,
+                        "pamphlet_page_citation": gch_cit,
+                        "pamphlet_citation": gch_cit,
+                        "workbook_organizer": gch_org,
+                        "common_misconception_pair": gch_mis,
+                        "starting_requirement_gate": gch.get("starting_requirement_gate"),
+                        "gear_checklist": list(gch.get("gear_checklist") or []),
+                        "pamphlet_excerpts": [],
+                        "safety_callout": None,
+                    })
 
     return units
 
@@ -5254,6 +5640,12 @@ def generate_counselor_workbook_markdown(
         "| :--- | :--- | :--- | :--- | :--- | :--- | :--- |",
     ]
 
+    from src.agents.planner import (
+        _format_execution_mode_label,
+        _format_starting_gate_label,
+        _format_workbook_organizer_label,
+    )
+
     prereq_reqs: List[Dict[str, Any]] = []
     station_reqs: List[Dict[str, Any]] = []
 
@@ -5262,12 +5654,13 @@ def generate_counselor_workbook_markdown(
         topic = r.get("topic_title") or f"Req {r_num}"
         verb = r.get("action_verb", "Explain")
         mode = r.get("execution_mode", "IN_CLASS_DISCUSSION")
+        mode_label = _format_execution_mode_label(mode)
         bucket = r.get("syllabus_bucket") or (
             "Pre-Class Prerequisite" if mode == "PREREQUISITE_CAMPOUT_HOME"
             else ("In-Class Demonstration" if mode == "HANDS_ON_SKILL_STATION" else "In-Class Concept")
         )
         cit = r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet"
-        lines.append(f"| **{r_num}** | {topic} | {verb} | `{mode}` | **{bucket}** | {cit} | `[ ____ / ____ / 2026 ]  Init: ____` |")
+        lines.append(f"| **{r_num}** | {topic} | {verb} | `{mode_label}` | **{bucket}** | {cit} | `[ ____ / ____ / 2026 ]  Init: ____` |")
         if mode == "PREREQUISITE_CAMPOUT_HOME" or bucket == "Pre-Class Prerequisite":
             prereq_reqs.append(r)
         elif mode == "HANDS_ON_SKILL_STATION" or bucket == "In-Class Demonstration":
@@ -5308,18 +5701,20 @@ def generate_counselor_workbook_markdown(
         topic = str(u.get("topic_title") or u.get("title") or f"Requirement {u_num}")
         org = u.get("workbook_organizer") or {}
         org_type = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX")
+        org_type_label = _format_workbook_organizer_label(org_type)
         org_title = str(org.get("table_title") or f"Req {u_num} Study Organizer")
 
         if u.get("is_group_header"):
             lines.append(f"### {topic}")
             lines.append(f"**Official Requirement {u_num} (Parent Overview):** {u.get('req_text', '')}")
             if u.get("pamphlet_page_citation") or u.get("pamphlet_citation"):
-                lines.append(f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Group Organizer:** `{org_type}`")
+                lines.append(f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Group Organizer:** {org_type_label}")
             if u.get("safety_callout"):
                 lines.append(f"> **Guide to Safe Scouting Warning:** {u['safety_callout']}")
             gate = u.get("starting_requirement_gate")
             if isinstance(gate, dict) and gate.get("gate_label"):
-                lines.append(f"> **Starting Gate ({gate.get('gate_type', 'GATE')}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
+                g_lbl = _format_starting_gate_label(gate.get("gate_type", "GATE"))
+                lines.append(f"> **Starting Gate ({g_lbl}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
             excerpts = u.get("pamphlet_excerpts") or []
             if excerpts:
                 lines.append("")
@@ -5334,13 +5729,14 @@ def generate_counselor_workbook_markdown(
         lines.append(f"**Official Requirement {u_num}:** {u.get('req_text', '')}")
         if u.get("pamphlet_page_citation") or u.get("pamphlet_citation"):
             lines.append(
-                f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Organizer (`{org_type}`):** {org_title}"
+                f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Organizer ({org_type_label}):** {org_title}"
             )
         if u.get("safety_callout") and not u.get("is_sub_requirement"):
             lines.append(f"> **Guide to Safe Scouting Warning:** {u['safety_callout']}")
         gate = u.get("starting_requirement_gate")
         if isinstance(gate, dict) and gate.get("gate_label"):
-            lines.append(f"> **Starting Gate ({gate.get('gate_type', 'GATE')}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
+            g_lbl = _format_starting_gate_label(gate.get("gate_type", "GATE"))
+            lines.append(f"> **Starting Gate ({g_lbl}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
         mis = u.get("common_misconception_pair") or {}
         if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact"):
             lines.append(f"- **Common Myth:** {mis['misconception']}")
@@ -5367,7 +5763,7 @@ def generate_counselor_workbook_markdown(
             k in str(u.get("req_text", "")).lower() for k in ("sketch", "draw a ", "diagram", "map")
         ):
             lines.append("")
-            lines.append(f"**[SKETCH_AND_OBSERVATION_CANVAS — Req {u_num} Unlined Dot-Grid / Horizon / Moon Sketch Box]:**")
+            lines.append(f"**[Field Sketch & Diagram Canvas - Req {u_num} Unlined Dot-Grid / Horizon / Moon Sketch Box]:**")
             lines.append("```text")
             lines.append("+-----------------------------------------------------------------------+")
             lines.append("| .   .   .   .   .   .   [ SKETCH / DIAGRAM CANVAS ]   .   .   .   .   |")
@@ -5402,6 +5798,7 @@ def generate_fillable_scout_workbook_html(
        interactive `gear_checklist` checkboxes, Counselor Pre-Approval signature boxes, and 160px SVG sketch canvases.
     """
     import html as _html
+    from src.agents.planner import _format_workbook_organizer_label
     from src.config import is_discontinued_badge, is_test_lab_badge
 
     res = fetch_merit_badge_pamphlet_pdf(
@@ -5450,6 +5847,7 @@ def generate_fillable_scout_workbook_html(
         org = u.get("workbook_organizer") or {}
         org_type_raw = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX")
         org_type = _html.escape(org_type_raw)
+        org_display_label = _html.escape(_format_workbook_organizer_label(org_type_raw))
 
         if u.get("is_group_header"):
             req_sections_html.append(
@@ -5531,7 +5929,7 @@ def generate_fillable_scout_workbook_html(
                 <div class="wb-req-meta">
                   <span class="wb-verb-tag">{r_verb}</span>
                   <span class="wb-bucket-tag">{r_bucket}</span>
-                  <span class="wb-verb-tag">{org_type}</span>
+                  <span class="wb-verb-tag">{org_display_label}</span>
                   <span class="wb-cit-tag">📖 {r_cit}</span>
                 </div>
               </div>
@@ -5552,6 +5950,28 @@ def generate_fillable_scout_workbook_html(
             </section>
             """
         )
+
+    fillable_unit_nums = [
+        str(u.get("req_number") or u.get("req_id") or "")
+        for u in unrolled_units
+        if not u.get("is_group_header") and str(u.get("req_number") or u.get("req_id") or "").strip()
+    ]
+    index_chips_html = "".join(
+        f'<label class="wb-index-chip" style="display:inline-flex; align-items:center; gap:4px; padding:2px 7px; border:1px solid #cbd5e1; border-radius:4px; background:#ffffff; font-size:11px; font-weight:600; color:#1e293b;">'
+        f'<input type="checkbox" name="idx_done_{_html.escape(rn)}" /> Req {_html.escape(rn)}</label>'
+        for rn in fillable_unit_nums
+    )
+    signoff_index_html = (
+        '<div class="wb-signoff-index-grid" data-testid="wb-page1-signoff-grid" '
+        'style="border:1.5px solid #003f87; border-radius:6px; background:#f8fafc; padding:10px 12px; margin-bottom:16px; font-size:11.5px;">'
+        '<div style="font-weight:800; color:#003f87; margin-bottom:6px;">'
+        '📋 Page-1 Requirement Completion &amp; Counselor Verification Index (Check Off as Completed):</div>'
+        f'<div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;">{index_chips_html}</div>'
+        '<div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; border-top:1px dashed #cbd5e1; padding-top:6px; color:#334155;">'
+        '<span><strong>Unit Leader Pre-Approval (Blue Card #34124):</strong> _____________________ Date: ________</span>'
+        '<span><strong>Counselor Final Sign-Off:</strong> _____________________ Date: ____/____/2026</span>'
+        "</div></div>"
+    )
 
     dates_str = " | ".join(session_dates) if session_dates else "Session 1 • Session 2 • Session 3 • Session 4 • Make-Up Day"
     html_doc = f"""<!DOCTYPE html>
@@ -5619,6 +6039,7 @@ def generate_fillable_scout_workbook_html(
     <div><strong>BSA Member ID:</strong> ____________________</div>
     <div><strong>Option Track:</strong> {_html.escape(option_track.upper())}</div>
   </div>
+  {signoff_index_html}
   {"".join(req_sections_html)}
 </body>
 </html>"""

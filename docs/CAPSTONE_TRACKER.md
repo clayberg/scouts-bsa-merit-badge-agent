@@ -24,7 +24,7 @@
 | `GCP_REGION` | `us-central1` |
 | `GITHUB_REPO_URL` | `https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent` |
 | `GITHUB_MIRROR_URL` | `https://github.com/clayberg/scouts-bsa-merit-badge-agent` |
-| `CLOUD_RUN_URL` | `https://scouts-bsa-merit-badge-agent-prod-uc.a.run.app` (Local Workbench: `http://clayberg.c.googlers.com:8080`) |
+| `CLOUD_RUN_URL` | `https://scouts-bsa-merit-badge-agent-qjaneb6heq-uc.a.run.app` (Local Workbench: `http://clayberg.c.googlers.com:8085`) |
 | `SLIDE_DECK_ID` | `1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E` (Slide Ops ID: `pres-fc3fc5e36b5b`, 12 Core Slides) |
 
 ---
@@ -36,17 +36,17 @@
 - [x] **Step 3**: Selected project and defined Scoping (`SCOPE.md`, `SPEC.md`) + Technical Design (`docs/TDD.md`, `docs/ARCHITECTURE.md`)
 - [x] **Step 4**: Initialized `docs/CAPSTONE_TRACKER.md` and `AGENTS.md`
 - [x] **Step 5**: Completed Duckie research, `3.0 / 3.0` implementation plan & 3-persona adversarial review
-- [x] **Step 6**: Built local 7-Agent Google ADK backend, dual architecture diagrams, persistent SQLite/CloudSQL state (9 tables incl. `compliance_attestation_ledger`), bidirectional PII scrubbing, 20-badge golden evals (`scripts/run_eval.py`) & `pytest` (`88/88` passing, `0` warnings, `127` OpenAPI paths)
-- [x] **Step 7**: Built and verified interactive Material 3 Expressive A2UI frontend locally (`./run_local.sh`), including `🧭 Guided Tour ▾` (8 narrated multi-step guided tours with live virtual cursor, spotlight ring, and floating callout) and 4-Tab Under-Stage Drawer (`📊 Multi-Agent Workflow Trace & FinOps`)
-- [x] **Step 8**: Pushed to `cloud-ai-fde` GitHub, tagged `capstone-20261022` (annotated tag with `Submission URL`), and verified `< 30 MB` `repo.bundle` (`10.19 MB`)
+- [x] **Step 6**: Built local 7-Agent Google ADK backend, dual architecture diagrams, persistent SQLite/CloudSQL state (12 tables incl. `compliance_attestation_ledger`, `clinic_session_schedules`, `scout_session_attendance_and_partials`, and `counselor_syllabus_bucket_overrides`), 3-layer context-aware bidirectional PII scrubbing, 20-badge golden evals (`scripts/run_eval.py`) & `pytest` (`133/133` passing [`112` unit/integration + `21` golden eval], `0` warnings, `141` OpenAPI paths, `27` MCP capabilities)
+- [x] **Step 7**: Built and verified interactive Material 3 Expressive A2UI frontend locally (`./run_local.sh`), including `🧭 Guided Tour ▾` (8 narrated multi-step guided tours with live virtual cursor, spotlight ring, and floating callout), Consolidated M3 Toolbars (`37 -> 14` primary actions across `5` toolbars + single-row Compact Hero Banner), and 4-Tab Under-Stage Drawer (`📊 Multi-Agent Workflow Trace & FinOps`)
+- [x] **Step 8**: Pushed to `cloud-ai-fde` GitHub, tagged `capstone-20261026` (annotated tag with `Submission URL`), and verified `< 30 MB` `repo.bundle` (`12.88 MB`)
 - [x] **Step 9**: Created modular Terraform IaC (`terraform/main.tf`, `terraform/iam.tf`, `variables.tf`, `outputs.tf`), `cloudbuild.yaml`, and smoke tests (`scripts/smoke_test_deployment.py`)
 - [x] **Step 10**: Configured Cloud Run v2 topology (`min-instances=1`) and verified health/readiness probes (`/health`, `/readiness`)
 - [x] **Step 11**: Verified Executive Readout deck requirements (`12` core slides, strictly `<= 15` core slides)
 - [x] **Step 12**: Built 12-slide Executive Readout deck via Slide Ops (`pres-fc3fc5e36b5b`) and synced to Google Slides (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`)
 - [x] **Step 13**: Authored humanized speaker script & 5-minute live demo choreography (`docs/CAPSTONE_PANEL_PLAYBOOK.md` & `docs/CAPSTONE_CONVERSATIONAL_PRESENTATION_AND_DEMO_SCRIPT.md`)
-- [x] **Step 14**: Authored 50-question persona Q&A bank with code citations (`docs/FDE_CAPSTONE_COMPANION_GUIDE.md` & `docs/CAPSTONE_PANEL_PLAYBOOK.md`)
-- [x] **Step 15**: Authored "For Your Eyes Only" Personal Technical Briefing & Jargon Decoder (`docs/FDE_CAPSTONE_COMPANION_GUIDE.md`)
-- [x] **Step 16**: Ran Stage 1 (`capstone_preflight.py --check-claims`) + Stage 2 dry-run analyzer audit (`docs/CAPSTONE_ARTIFACT_ANALYZER_REPORT.md`)
+- [x] **Step 14**: Authored 55-question persona Q&A bank with code citations (`docs/PERSONAL_TECHNICAL_BRIEFING.md`, `docs/FDE_CAPSTONE_COMPANION_GUIDE.md` & `docs/CAPSTONE_PANEL_PLAYBOOK.md`)
+- [x] **Step 15**: Authored "For Your Eyes Only" Personal Technical Briefing & Jargon Decoder (`docs/PERSONAL_TECHNICAL_BRIEFING.md` & `docs/FDE_CAPSTONE_COMPANION_GUIDE.md`)
+- [x] **Step 16**: Ran Stage 1 (`capstone_preflight.py --check-claims`) + Stage 2 dry-run analyzer audit (`docs/CAPSTONE_ANALYZER_DRY_RUN_REPORT.md` & `docs/CAPSTONE_ARTIFACT_ANALYZER_REPORT.md`)
 - [x] **Step 17**: Remediated all `< 3.0` gaps, added `ADR-11` As-Built Reconciliation & Per-Badge GitHub Asset Hydrator, and verified zero Claims-vs-Code drift
 - [ ] **Step 18**: Complete live rehearsal / Mode 7 Mock Panel Simulator session
 - [ ] **Step 19**: Confirm 3 panelists, send calendar invite (`>=72h`), and click `Submit Panel` in Stage 3 of `go/capstone-app`

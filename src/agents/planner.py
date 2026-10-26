@@ -162,7 +162,70 @@ _WORKBOOK_ORGANIZER_DISPLAY_LABELS: Dict[str, str] = {
     "ANATOMY_LABEL_DIAGRAM": "Labeled Diagram & Key",
     "DECISION_TREE_FLOW": "Decision Flowchart",
     "SAFETY_GEAR_SHAKEDOWN": "Gear & Safety Shakedown",
+    "HAZARD_5COL": "5-Column Hazard Assessment Matrix",
+    "SYMPTOMS_FIRST_AID_PREVENTION_3COL": "Symptoms, First Aid & Prevention Matrix",
+    "CAMPING_LOG_20NIGHT": "20-Night Camping Experience Log",
+    "FITNESS_ASSESSMENT_4STAGE": "4-Stage Fitness Assessment Log",
+    "FITNESS_LOG_12WK": "12-Week Fitness & Activity Log",
+    "MEAL_PLANNER_AND_COST_TABLE": "Camp Menu, Cost & Utensil Planner",
+    "CITIZENSHIP_CIVIC_ORGANIZER": "Civic & Constitutional Study Organizer",
+    "SCIENTIFIC_EXPERIMENT_SHEET": "Scientific Lab & Experiment Sheet",
+    "SENSORY_OBSERVATION_LOG": "Field Sensory & Observation Log",
+    "ENGINEERING_DESIGN_NOTEBOOK": "Engineering Design Notebook",
+    "CAREER_EXPLORATION_CARD": "Career & Profession Exploration Card",
+    "SKETCH_AND_OBSERVATION_CANVAS": "Field Sketch & Diagram Canvas",
+    "PHYSICAL_SKILL_VERIFICATION_RUBRIC": "Hands-On Skill Verification Rubric",
+    "ATOMIC_SOCRATIC_PROMPTS": "Guided Discussion & Study Prompts",
+    "INTERVIEW_PREP_ORGANIZER": "Interview Preparation & Notes Organizer",
 }
+
+_EXECUTION_MODE_DISPLAY_LABELS: Dict[str, str] = {
+    "IN_CLASS_DISCUSSION": "In-Class Discussion",
+    "HANDS_ON_SKILL_STATION": "Hands-On Skill Station",
+    "PREREQUISITE_CAMPOUT_HOME": "Prerequisite / Home & Troop Prep",
+}
+
+_STARTING_GATE_DISPLAY_LABELS: Dict[str, str] = {
+    "COUNSELOR_PRE_APPROVAL": "Counselor Pre-Approval Required",
+    "PARENT_CONSENT_GATE": "Parent / Guardian Permission Required",
+    "HARD_PREREQ_BADGE": "Prerequisite Merit Badge / Certification",
+    "EQUIPMENT_GATE": "Required Gear & Equipment Inspection",
+    "GATE": "Starting Requirement Gate",
+}
+
+_SESSION_MODE_DISPLAY_LABELS: Dict[str, str] = {
+    "4_session_mbc": "4-Session Merit Badge Clinic + Make-Up Day",
+    "2_session_mbc": "2-Session Merit Badge Clinic",
+    "1_day_mbu": "Single-Day Merit Badge University",
+    "summer_camp_5day": "5-Day Summer Camp Schedule",
+    "troop_meetings": "Troop Meeting Series",
+}
+
+
+def _format_execution_mode_label(mode: Any) -> str:
+    """Maps raw execution_mode enum strings to human-friendly display labels."""
+    raw = str(mode or "").strip().upper()
+    if raw in _EXECUTION_MODE_DISPLAY_LABELS:
+        return _EXECUTION_MODE_DISPLAY_LABELS[raw]
+    return _sanitize_no_ellipsis_or_emdash(raw.replace("_", " ").title()) if raw else "In-Class Discussion"
+
+
+def _format_starting_gate_label(gate_type: Any) -> str:
+    """Maps raw starting_requirement_gate gate_type enum strings to human-friendly display labels."""
+    raw = str(gate_type or "").strip().upper()
+    if raw in _STARTING_GATE_DISPLAY_LABELS:
+        return _STARTING_GATE_DISPLAY_LABELS[raw]
+    return _sanitize_no_ellipsis_or_emdash(raw.replace("_", " ").title()) if raw else "Starting Requirement Gate"
+
+
+def _format_session_mode_label(session_mode: Any) -> str:
+    """Maps raw session_mode codes (e.g. '4_session_mbc') to human-friendly display labels."""
+    raw = str(session_mode or "").strip()
+    if raw in _SESSION_MODE_DISPLAY_LABELS:
+        return _SESSION_MODE_DISPLAY_LABELS[raw]
+    if raw.lower() in _SESSION_MODE_DISPLAY_LABELS:
+        return _SESSION_MODE_DISPLAY_LABELS[raw.lower()]
+    return _sanitize_no_ellipsis_or_emdash(raw.replace("_", " ").title()) if raw else "4-Session Merit Badge Clinic + Make-Up Day"
 
 
 def _format_workbook_organizer_label(
@@ -176,7 +239,9 @@ def _format_workbook_organizer_label(
             raw_type,
             _sanitize_no_ellipsis_or_emdash(raw_type.replace("_", " ").title()) if raw_type else "Concept & Examples Notes",
         )
-        return f"Scout Workbook Req {wb_org} • {friendly}"
+        if str(wb_org or "").strip():
+            return f"Scout Workbook Req {wb_org} • {friendly}"
+        return friendly
     if isinstance(wb_org, str):
         raw_type = wb_org.strip().upper()
         return _WORKBOOK_ORGANIZER_DISPLAY_LABELS.get(
@@ -1313,7 +1378,7 @@ def generate_slide_storyboard(
         if mode == ExecutionMode.HANDS_ON_SKILL_STATION.value:
             station_reqs.append(f"Req {r_num} - {clean_topic}")
             triage_cards.append({
-                "badge_label": "HANDS_ON_SKILL_STATION",
+                "badge_label": _format_execution_mode_label(mode),
                 "anchor_title": f"Req {r_num}",
                 "body_text": short_summary,
                 "accent_color_hex": "#4B5320",
@@ -1321,7 +1386,7 @@ def generate_slide_storyboard(
         elif mode == ExecutionMode.PREREQUISITE_CAMPOUT_HOME.value:
             prereq_reqs.append(f"Req {r_num} - {clean_topic}")
             triage_cards.append({
-                "badge_label": "PREREQUISITE_CAMPOUT_HOME",
+                "badge_label": _format_execution_mode_label(mode),
                 "anchor_title": f"Req {r_num}",
                 "body_text": short_summary,
                 "accent_color_hex": "#CE1126",
@@ -1329,7 +1394,7 @@ def generate_slide_storyboard(
         else:
             in_class_reqs.append(f"Req {r_num} - {clean_topic}")
             triage_cards.append({
-                "badge_label": "IN_CLASS_DISCUSSION",
+                "badge_label": _format_execution_mode_label(mode),
                 "anchor_title": f"Req {r_num}",
                 "body_text": short_summary,
                 "accent_color_hex": "#003F87",

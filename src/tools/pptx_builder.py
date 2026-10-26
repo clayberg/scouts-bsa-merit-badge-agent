@@ -3147,14 +3147,24 @@ def generate_bsa_slide_deck_pptx(
         right_w = round(f_w * 0.38, 3)
         right_x = round(f_left + f_w - right_w, 3)
 
-        footer_left_parts = [f"Scouts BSA {badge_title} Merit Badge"]
+        from src.agents.planner import _format_workbook_organizer_label
+
+        footer_line1_parts = [f"Scouts BSA {badge_title} Merit Badge"]
         if slide_spec.pamphlet_reference:
-            footer_left_parts.append(str(slide_spec.pamphlet_reference))
+            footer_line1_parts.append(str(slide_spec.pamphlet_reference))
+        footer_line1 = " • ".join(footer_line1_parts)
+        if len(footer_line1) > 88:
+            footer_line1 = footer_line1_parts[0] + (f" • {footer_line1_parts[1][:48]}" if len(footer_line1_parts) > 1 else "")
+
+        wb_ref_str = ""
         if slide_spec.workbook_table_ref:
-            footer_left_parts.append(str(slide_spec.workbook_table_ref))
-        footer_left_str = " • ".join(footer_left_parts)
-        if len(footer_left_str) > 88:
-            footer_left_str = footer_left_parts[0] + (f" • {footer_left_parts[1]}" if len(footer_left_parts) > 1 else "")
+            raw_wb_ref = str(slide_spec.workbook_table_ref).strip()
+            if "_" in raw_wb_ref:
+                raw_wb_ref = _format_workbook_organizer_label(slide_spec.req_number, raw_wb_ref)
+            if not raw_wb_ref.startswith("📝"):
+                raw_wb_ref = f"📝 {raw_wb_ref}"
+            wb_ref_str = raw_wb_ref
+        footer_left_str = f"{footer_line1}\n{wb_ref_str}" if wb_ref_str else footer_line1
 
         footer_left_box = content_slide.shapes.add_textbox(Inches(f_left), Inches(f_top), Inches(left_w), Inches(0.28))
         fl_tf = footer_left_box.text_frame
@@ -3246,10 +3256,30 @@ def inject_class_opening_and_closing_slides(
     first so repeated toggles never create duplicate logistics or homework slides.
     """
     cfg = dict(logistics_config or {})
-    enable_opening = bool(cfg.get("enable_opening_closing_slides", True))
-    session_dates = list(cfg.get("session_dates") or ["Session 1", "Session 2", "Session 3", "Session 4", "Make-Up Day"])
-    room_location = str(cfg.get("room_location") or "Main Clinic Room / Troop Hall")
-    ypt_contact = str(cfg.get("counselor_ypt_contact") or "counselor@scouting.org (always CC parent/unit leader)")
+    default_enabled = bool(cfg.get("enable_opening_closing_slides", True))
+    include_opening = bool(cfg.get("include_opening_slide", default_enabled))
+    include_closing = bool(cfg.get("include_closing_slide", default_enabled))
+
+    raw_dates = cfg.get("session_dates_summary") or cfg.get("session_dates") or [
+        "Session 1",
+        "Session 2",
+        "Session 3",
+        "Session 4",
+        "Make-Up Day",
+    ]
+    if isinstance(raw_dates, str):
+        session_dates = [s.strip() for s in re.split(r"[|•,;]+", raw_dates) if s.strip()] or [raw_dates.strip()]
+    else:
+        session_dates = [str(s).strip() for s in raw_dates if str(s).strip()] or [
+            "Session 1",
+            "Session 2",
+            "Session 3",
+            "Session 4",
+            "Make-Up Day",
+        ]
+    class_start_time = str(cfg.get("class_start_time") or "").strip()
+    room_location = str(cfg.get("room_and_venue") or cfg.get("room_location") or "Main Clinic Room / Troop Hall").strip()
+    ypt_contact = str(cfg.get("counselor_ypt_contact") or "counselor@scouting.org (always CC parent/unit leader)").strip()
     what_to_bring = list(
         cfg.get("what_to_bring")
         or [
@@ -3267,7 +3297,7 @@ def inject_class_opening_and_closing_slides(
             continue
         clean_slides.append(s_dict)
 
-    if not enable_opening:
+    if not include_opening and not include_closing:
         return clean_slides
 
     reqs = list(requirements or [])
@@ -3282,8 +3312,14 @@ def inject_class_opening_and_closing_slides(
         if r.get("syllabus_bucket") == "Make-Up Eligible"
     ) or "Any missed session discussion topics"
 
+    time_clause = f" ({class_start_time})" if class_start_time else ""
+    subtitle_parts = [room_location]
+    if class_start_time:
+        subtitle_parts.append(class_start_time)
+    subtitle_parts.append(" | ".join(session_dates[:3]))
+
     opening_bullets = [
-        f"Clinic Schedule & Room: {' | '.join(session_dates)} in {room_location}.",
+        f"Clinic Schedule & Room: {' | '.join(session_dates)}{time_clause} in {room_location}.",
         f"Pre-Class Prerequisites Due: Complete and bring proof for Requirements ({prereq_ids}).",
         f"What to Bring Every Session: {'; '.join(what_to_bring[:3])}.",
         f"YPT Two-Deep Communication Rule: Copy a parent/guardian or unit leader on all messages to {ypt_contact}.",
@@ -3305,7 +3341,7 @@ def inject_class_opening_and_closing_slides(
         slide_role="overview-logistics",
         execution_mode="IN_CLASS_DISCUSSION",
         edge_phase="Explain & Plan",
-        subtitle=f"{room_location} • {' | '.join(session_dates[:3])}",
+        subtitle=" • ".join(subtitle_parts),
         verbatim_requirement_text=f"Review clinic schedule, YPT Two-Deep communication rules, and Pre-Class Prerequisites ({prereq_ids}).",
         pamphlet_reference=f"Official BSA {badge_name} Pamphlet",
         workbook_table_ref="1-Page Class Preparation Page (CPP)",
@@ -3340,15 +3376,14 @@ def inject_class_opening_and_closing_slides(
         workbook_table_ref="Blue Card #34124 & Workbook",
     ).model_dump()
 
-    # Insert opening_slide at index 1 (right after Overview slide) and closing_slide right before Sources & References
-    if len(clean_slides) >= 1:
-        clean_slides.insert(1, opening_slide)
-    else:
-        clean_slides.append(opening_slide)
+    # Insert opening_slide at index 0 (which is Slide 2 in the UI, right after Slide 1 Cover)
+    if include_opening:
+        clean_slides.insert(0, opening_slide)
 
-    if len(clean_slides) >= 2 and clean_slides[-1].get("archetype") == "SOURCES_AND_REFERENCES":
-        clean_slides.insert(len(clean_slides) - 1, closing_slide)
-    else:
-        clean_slides.append(closing_slide)
+    if include_closing:
+        if len(clean_slides) >= 2 and clean_slides[-1].get("archetype") == "SOURCES_AND_REFERENCES":
+            clean_slides.insert(len(clean_slides) - 1, closing_slide)
+        else:
+            clean_slides.append(closing_slide)
 
     return clean_slides

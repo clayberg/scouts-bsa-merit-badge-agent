@@ -5,7 +5,7 @@ Implements Audit Vector #5 and Step 5 / Step 12 of `go/fde-capstone-playbook`:
 1. Models exact per-stage LLM token consumption across all 7 specialist agents
    (plus bounded LoopAgent retry factors and Vertex AI 76% Context Cache discounts).
 2. Contrasts actual cold deck cost (`$0.184`) against the uncached shadow-ledger
-   ceiling (`$0.384`) thanks to pre-bundling `3,917` visual assets at `$0.00`
+   ceiling (`$0.384`) thanks to pre-bundling `4,124` visual assets at `$0.00`
    runtime image synthesis cost.
 3. Computes both Variable AI Token/Search Spend AND Fixed Monthly GCP Platform
    Infrastructure Fees (Cloud Run v2, Cloud SQL pgvector / SQLite WAL, Secret

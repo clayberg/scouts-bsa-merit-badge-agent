@@ -10323,19 +10323,76 @@ body.m3-dark-mode .m3-trace-stage-badge {
 
 /* Auto-Slimming Hero Banner when a deck is loaded */
 body.deck-loaded-compact-hero .m3-hero-banner {
-  padding: 10px 18px;
-  gap: 12px;
+  padding: 6px 16px !important;
+  min-height: 44px !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
 }
 
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-eyebrow,
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-kicker,
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-meta,
 body.deck-loaded-compact-hero .m3-hero-banner p,
 body.deck-loaded-compact-hero .m3-hero-banner #hero-tour-pill-bar {
   display: none !important;
 }
 
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-patch-img {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+body.deck-loaded-compact-hero .m3-hero-banner > div:first-child,
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-banner-main,
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-left {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 10px !important;
+  flex-wrap: nowrap !important;
+}
+
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-title {
+  font-size: 0.96rem !important;
+  margin: 0 !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-links-row {
+  margin-top: 0 !important;
+  flex-wrap: nowrap !important;
+  gap: 6px !important;
+}
+
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-links-row .m3-btn {
+  white-space: nowrap !important;
+  padding: 2px 8px !important;
+  font-size: 0.69rem !important;
+  line-height: 1.2 !important;
+  flex-shrink: 0 !important;
+}
+
 body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-kpis {
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 5px !important;
+  padding: 0 !important;
+  min-width: auto !important;
+  flex-shrink: 0 !important;
+}
+
+body.deck-loaded-compact-hero .m3-hero-banner .m3-kpi-pill {
+  padding: 2px 7px !important;
+  min-width: auto !important;
+  gap: 5px !important;
+  white-space: nowrap !important;
 }
 
 body.dark-mode .m3-split-dropdown-menu {

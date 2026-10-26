@@ -3464,6 +3464,70 @@ function formatConciseReqSubtitle(verbatimText, maxChars = 205) {
   return `${cut.replace(/[,;:\-(]+$/, "")}…`;
 }
 
+const WORKBOOK_ORGANIZER_LABELS = {
+  RULED_EXPLAIN_BOX: "Structured Explanation & Notes Box",
+  STEP_BY_STEP_CHECKLIST: "Step-by-Step Skill Checklist",
+  CITIZENSHIP_CIVIC_ORGANIZER: "Civic & Constitutional Organizer",
+  SYMPTOMS_FIRST_AID_PREVENTION_3COL: "Symptoms, First Aid & Prevention Matrix",
+  HAZARD_5COL: "5-Column Hazard & Prevention Matrix",
+  COMPARE_CONTRAST_2COL: "2-Column Compare & Contrast Table",
+  VENN_COMPARE_CONTRAST: "Compare & Contrast Organizer",
+  SAFETY_HAZARD_MATRIX: "Safety Hazard & Mitigation Matrix",
+  LOG_CALENDAR_TRACKER: "Field Log & Calendar Tracker",
+  TIME_SERIES_LOG_TABLE: "Time-Series Observation Log Table",
+  SKETCH_DIAGRAM_CANVAS: "Annotated Field Sketch & Diagram Canvas",
+  SKETCH_AND_OBSERVATION_CANVAS: "Field Sketch & Observation Canvas",
+  PHYSICAL_SKILL_VERIFICATION_RUBRIC: "Hands-On Skill Verification Rubric",
+  CAREER_EXPLORATION_CARD: "Career & Profession Exploration Card",
+  SCIENTIFIC_EXPERIMENT_SHEET: "Scientific Investigation & Lab Sheet",
+  MEAL_PLANNER_AND_COST_TABLE: "Camp Menu & Budget Cost Planner",
+  CAMPING_LOG_20NIGHT: "20-Night Camping Experience Log",
+  FITNESS_LOG_12WK: "12-Week Personal Fitness Progression Log",
+  FITNESS_ASSESSMENT_4STAGE: "4-Stage Fitness Assessment Tracker",
+};
+
+function formatUiWorkbookOrganizerLabel(rawRef) {
+  let s = String(rawRef || "").trim();
+  if (!s) return "";
+  if (WORKBOOK_ORGANIZER_LABELS[s]) {
+    return WORKBOOK_ORGANIZER_LABELS[s];
+  }
+  for (const [enumKey, humanLabel] of Object.entries(WORKBOOK_ORGANIZER_LABELS)) {
+    if (s.includes(enumKey)) {
+      s = s.split(enumKey).join(humanLabel);
+    }
+  }
+  s = s.replace(/\b([A-Z][A-Z0-9]*(?:_[A-Z0-9]+)+)\b/g, (match) => {
+    if (WORKBOOK_ORGANIZER_LABELS[match]) return WORKBOOK_ORGANIZER_LABELS[match];
+    return match
+      .toLowerCase()
+      .split("_")
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" ");
+  });
+  return s;
+}
+window.formatUiWorkbookOrganizerLabel = formatUiWorkbookOrganizerLabel;
+
+const EXECUTION_MODE_UI_LABELS = {
+  IN_CLASS_DISCUSSION: "In-Class Discussion",
+  HANDS_ON_SKILL_STATION: "Hands-On Skill Station",
+  PREREQUISITE_CAMPOUT_HOME: "Prerequisite / Home Prep",
+  IN_CLASS: "In-Class Discussion",
+};
+
+function formatUiExecutionModeLabel(rawMode) {
+  const key = String(rawMode || "").trim().toUpperCase();
+  if (!key) return "In-Class Discussion";
+  if (EXECUTION_MODE_UI_LABELS[key]) return EXECUTION_MODE_UI_LABELS[key];
+  return key
+    .toLowerCase()
+    .split("_")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+window.formatUiExecutionModeLabel = formatUiExecutionModeLabel;
+
 function renderActiveSlide(idx) {
   window.renderActiveSlide = renderActiveSlide;
   window.renderFilmstrip = renderFilmstrip;
@@ -3844,16 +3908,32 @@ function renderActiveSlide(idx) {
     magBadge.innerHTML = "";
   }
 
+  const allReqs = Array.isArray(res.research_artifact?.requirements) ? res.research_artifact.requirements : [];
+  const rawReqNum = String(slide.req_number || "").trim();
+  const topReqNum = rawReqNum.replace(/[a-zA-Z]+.*$/, "").trim();
+  const matchingReq =
+    allReqs.find((r) => String(r.req_number || "").trim() === rawReqNum) ||
+    (topReqNum ? allReqs.find((r) => String(r.req_number || "").trim() === topReqNum) : null) ||
+    null;
+  const resolvedPamphletRef = slide.pamphlet_reference || matchingReq?.pamphlet_page_citation || "";
+  const rawSlideWbRef = slide.workbook_table_ref || matchingReq?.workbook_organizer_type || "";
+  let cleanWbRef = formatUiWorkbookOrganizerLabel(rawSlideWbRef);
+  if (cleanWbRef && !/workbook/i.test(cleanWbRef)) {
+    cleanWbRef = `Scout Workbook ${reqLabel} • ${cleanWbRef}`;
+  }
+
   const reqNumChip = document.getElementById("stage-req-number");
   if (reqNumChip) reqNumChip.style.display = "none";
   if (footerLeft) {
-    const inlineCitations = [];
-    if (slide.pamphlet_reference) inlineCitations.push(`📖 ${slide.pamphlet_reference}`);
-    if (slide.workbook_table_ref) inlineCitations.push(`📝 ${slide.workbook_table_ref}`);
-    footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge${
-      inlineCitations.length ? " • " + inlineCitations.join(" • ") : ""
+    const line1 = `Scouts BSA ${escapeHtml(res.badge_name)} Merit Badge${
+      resolvedPamphletRef ? ` • 📖 ${escapeHtml(resolvedPamphletRef)}` : ""
     }`;
+    const line2 = cleanWbRef
+      ? `<br/><span style="display:inline-block; white-space:nowrap; font-weight:600;">📝 ${escapeHtml(cleanWbRef)}</span>`
+      : "";
+    footerLeft.innerHTML = `${line1}${line2}`;
     footerLeft.style.color = tokens.footerColor;
+    footerLeft.style.lineHeight = "1.28";
   }
   if (footerRight) {
     footerRight.textContent = `Slide ${idx + 2} of ${totalSlides} • ${reqLabel}`;
@@ -4353,55 +4433,83 @@ function renderActiveSlide(idx) {
   // Under-Stage Collapsible Multimedia, Pamphlet & Workbook Citations Drawer
   const mmDrawer = document.getElementById("slide-multimedia-drawer");
   if (mmDrawer) {
-    mmDrawer.classList.remove("hidden");
-    const pamChip = document.getElementById("drawer-pamphlet-citation-chip");
-    const wbChip = document.getElementById("drawer-workbook-citation-chip");
-    const gatesWrap = document.getElementById("drawer-gate-badges-wrap");
-    const linksList = document.getElementById("slide-multimedia-links-list");
-    if (pamChip) {
-      pamChip.textContent = `📖 ${
-        slide.pamphlet_reference || `Official ${res.badge_name} Pamphlet (${reqLabel})`
-      }`;
-    }
-    if (wbChip) {
-      wbChip.textContent = `📝 ${
-        slide.workbook_table_ref || `Workbook ${reqLabel} Organizer`
-      }`;
-    }
-    if (gatesWrap) {
-      const gates = Array.isArray(slide.gate_badges) ? slide.gate_badges : [];
-      const verbBadge = slide.action_verb_badge ? [`🎯 ${slide.action_verb_badge}`] : [];
-      gatesWrap.innerHTML = [...verbBadge, ...gates]
-        .map(
-          (g) =>
-            `<span class="m3-chip m3-chip-secondary" style="font-size:0.65rem; padding:1px 7px;">${escapeHtml(
-              g
-            )}</span>`
-        )
-        .join("");
-    }
-    if (linksList) {
-      const resources = Array.isArray(slide.curated_resources) ? slide.curated_resources : [];
-      if (resources.length > 0) {
-        linksList.innerHTML = resources
+    const resources =
+      Array.isArray(slide.curated_resources) && slide.curated_resources.length > 0
+        ? slide.curated_resources
+        : Array.isArray(matchingReq?.curated_resource_links)
+        ? matchingReq.curated_resource_links
+        : [];
+    const hasDrawerContent = Boolean(
+      resolvedPamphletRef ||
+        cleanWbRef ||
+        resources.length > 0 ||
+        matchingReq ||
+        (rawReqNum && rawReqNum !== "Custom")
+    );
+    if (!hasDrawerContent) {
+      mmDrawer.classList.add("hidden");
+      mmDrawer.open = false;
+    } else {
+      mmDrawer.classList.remove("hidden");
+      const pamChip = document.getElementById("drawer-pamphlet-citation-chip");
+      const wbChip = document.getElementById("drawer-workbook-citation-chip");
+      const gatesWrap = document.getElementById("drawer-gate-badges-wrap");
+      const linksList = document.getElementById("slide-multimedia-links-list");
+      const summaryInlineBadges = document.getElementById("slide-gate-badges-inline");
+      if (pamChip) {
+        pamChip.textContent = `📖 ${
+          resolvedPamphletRef || `Official ${res.badge_name} Pamphlet (${reqLabel})`
+        }`;
+      }
+      if (wbChip) {
+        wbChip.textContent = `📝 ${
+          cleanWbRef || `Scout Workbook ${reqLabel} • Structured Explanation & Notes Box`
+        }`;
+      }
+      const execModeRaw = slide.execution_mode || matchingReq?.execution_mode || "IN_CLASS_DISCUSSION";
+      const execModeHuman = formatUiExecutionModeLabel(execModeRaw);
+      if (gatesWrap) {
+        const gates = Array.isArray(slide.gate_badges) ? slide.gate_badges : [];
+        const verbBadge = slide.action_verb_badge ? [`🎯 ${slide.action_verb_badge}`] : [];
+        const modeChip = [`🏷️ ${execModeHuman}`];
+        gatesWrap.innerHTML = [...modeChip, ...verbBadge, ...gates]
           .map(
-            (rc) => `
-              <a href="${escapeHtml(rc.url || "#")}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">
-                🔗 ${escapeHtml(rc.title || rc.resource_type || "Resource")} <span style="font-weight:500; color:#475569;">(${escapeHtml(rc.domain || "scouting.org")})</span> ↗
-              </a>
-            `
+            (g) =>
+              `<span class="m3-chip m3-chip-secondary" style="font-size:0.65rem; padding:1px 7px;">${escapeHtml(
+                g
+              )}</span>`
           )
           .join("");
-      } else {
-        const pamUrl = res.pamphlet_pdf_url || res.research_artifact?.pamphlet_pdf_url || "#";
-        const drgUrl = res.drg_url || res.research_artifact?.drg_url || "https://www.scouting.org/skills/merit-badges/";
-        linksList.innerHTML = `
-          <a href="${escapeHtml(pamUrl)}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">📖 Official Pamphlet PDF ↗</a>
-          <a href="${escapeHtml(drgUrl)}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">🌐 Scouting America DRG Hub ↗</a>
+      }
+      const effectiveLinkCount = resources.length > 0 ? resources.length : 2;
+      if (summaryInlineBadges) {
+        summaryInlineBadges.innerHTML = `
+          <span class="m3-chip m3-chip-secondary" style="font-size:0.68rem; padding:1px 7px;">${escapeHtml(execModeHuman)}</span>
+          <span class="m3-chip m3-chip-primary" style="font-size:0.68rem; padding:1px 8px;">📖 Pamphlet + 📝 Organizer + 🔗 ${effectiveLinkCount} Resource${effectiveLinkCount === 1 ? "" : "s"}</span>
         `;
       }
+      if (linksList) {
+        if (resources.length > 0) {
+          linksList.innerHTML = resources
+            .map(
+              (rc) => `
+                <a href="${escapeHtml(rc.url || "#")}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">
+                  🔗 ${escapeHtml(rc.title || rc.resource_type || "Resource")} <span style="font-weight:500; color:#475569;">(${escapeHtml(rc.domain || "scouting.org")})</span> ↗
+                </a>
+              `
+            )
+            .join("");
+        } else {
+          const pamUrl = res.pamphlet_pdf_url || res.research_artifact?.pamphlet_pdf_url || document.getElementById("link-top-pamphlet")?.href || "#";
+          const drgUrl = res.drg_url || res.research_artifact?.drg_url || document.getElementById("link-top-drg")?.href || "https://www.scouting.org/skills/merit-badges/";
+          linksList.innerHTML = `
+            <a href="${escapeHtml(pamUrl)}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">📖 Official Pamphlet PDF ↗</a>
+            <a href="${escapeHtml(drgUrl)}" target="_blank" rel="noopener noreferrer" class="m3-chip m3-chip-secondary" style="text-decoration:none; font-size:0.69rem; padding:3px 9px; border:1px solid #CBD5E1; background:#F8FAFC; color:#003F87; font-weight:700;">🌐 Scouting America DRG Hub ↗</a>
+          `;
+        }
+      }
+      mmDrawer.open = true;
     }
-    mmDrawer.open = Boolean(slide.safety_warning);
   }
 
   // Counselor Teaching Notes
@@ -6818,13 +6926,71 @@ function bindCounselorToolkitActions() {
     } catch (_e) {}
   });
 
-  // Class Opening Setup Slide (Slide 2) & Class Closing Wrap-Up Slide (Slide N-1) Injection
-  document.getElementById("btn-apply-logistics-slides")?.addEventListener("click", async (ev) => {
+  // Class Opening Setup Slide (Slide 2) & Class Closing Wrap-Up Slide (Slide N) Injection & Removal
+  const applyOrRemoveClassLogisticsSlides = async ({ remove = false, fromModal = false, triggerBtn = null } = {}) => {
     if (!state.currentResult) return;
-    const btn = ev.currentTarget;
-    const origText = btn.textContent;
-    btn.disabled = true;
-    btn.textContent = "⏳ Injecting Opening & Closing Slides...";
+    const btn = triggerBtn || document.getElementById(fromModal ? "btn-ws-apply-logistics-slides" : "btn-apply-logistics-slides");
+    const origText = btn ? btn.textContent : "";
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = remove ? "⏳ Removing Logistics Slides..." : "⏳ Updating Logistics Slides...";
+    }
+
+    const chkDrawer2 = document.getElementById("chk-inject-slide2-roadmap") || document.getElementById("logistics-include-opening-checkbox");
+    const chkDrawerN = document.getElementById("chk-inject-sliden-checkout") || document.getElementById("logistics-include-closing-checkbox");
+    const chkWs2 = document.getElementById("ws-chk-include-slide2");
+    const chkWsN = document.getElementById("ws-chk-include-sliden");
+
+    const timeDrawerIn = document.getElementById("input-logistics-time");
+    const roomDrawerIn = document.getElementById("input-logistics-room") || document.getElementById("logistics-room-input");
+    const sessDrawerIn = document.getElementById("input-logistics-sessions") || document.getElementById("logistics-dates-input");
+
+    const timeWsIn = document.getElementById("ws-class-time-input");
+    const roomWsIn = document.getElementById("ws-room-location-input");
+    const sessWsIn = document.getElementById("ws-session-dates-input");
+
+    let includeOpening = false;
+    let includeClosing = false;
+    if (remove) {
+      if (chkDrawer2) chkDrawer2.checked = false;
+      if (chkDrawerN) chkDrawerN.checked = false;
+      if (chkWs2) chkWs2.checked = false;
+      if (chkWsN) chkWsN.checked = false;
+    } else if (fromModal) {
+      includeOpening = Boolean(chkWs2 ? chkWs2.checked : true);
+      includeClosing = Boolean(chkWsN ? chkWsN.checked : true);
+      if (chkDrawer2) chkDrawer2.checked = includeOpening;
+      if (chkDrawerN) chkDrawerN.checked = includeClosing;
+    } else {
+      includeOpening = Boolean(chkDrawer2 ? chkDrawer2.checked : true);
+      includeClosing = Boolean(chkDrawerN ? chkDrawerN.checked : true);
+      if (chkWs2) chkWs2.checked = includeOpening;
+      if (chkWsN) chkWsN.checked = includeClosing;
+    }
+
+    const classStartTime =
+      (fromModal ? timeWsIn?.value : timeDrawerIn?.value)?.trim() ||
+      timeWsIn?.value?.trim() ||
+      timeDrawerIn?.value?.trim() ||
+      "8:30 AM – 10:00 AM";
+    const roomLocation =
+      (fromModal ? roomWsIn?.value : roomDrawerIn?.value)?.trim() ||
+      roomWsIn?.value?.trim() ||
+      roomDrawerIn?.value?.trim() ||
+      "Science Lab 204 / Outdoor Pavilion";
+    const sessionDates =
+      (fromModal ? sessWsIn?.value : sessDrawerIn?.value)?.trim() ||
+      sessWsIn?.value?.trim() ||
+      sessDrawerIn?.value?.trim() ||
+      "4x 75-Min Sessions (S1–S4) + Make-Up Block";
+
+    if (timeDrawerIn) timeDrawerIn.value = classStartTime;
+    if (timeWsIn) timeWsIn.value = classStartTime;
+    if (roomDrawerIn) roomDrawerIn.value = roomLocation;
+    if (roomWsIn) roomWsIn.value = roomLocation;
+    if (sessDrawerIn) sessDrawerIn.value = sessionDates;
+    if (sessWsIn) sessWsIn.value = sessionDates;
+
     try {
       const resp = await fetch("/api/v1/slide/logistics-slides", {
         method: "POST",
@@ -6833,16 +6999,24 @@ function bindCounselorToolkitActions() {
           badge_name: state.currentResult.badge_name || "First Aid",
           slides: state.currentResult.storyboard?.slides || [],
           requirements: state.currentResult.research_artifact?.requirements || [],
+          include_opening_slide: includeOpening,
+          include_closing_slide: includeClosing,
+          class_start_time: classStartTime,
+          room_location: roomLocation,
+          room_and_venue: roomLocation,
+          session_dates: sessionDates,
+          session_dates_summary: sessionDates,
           logistics_config: {
-            include_opening_slide: Boolean(document.getElementById("logistics-include-opening-checkbox")?.checked),
-            include_closing_slide: Boolean(document.getElementById("logistics-include-closing-checkbox")?.checked),
-            room_and_venue: document.getElementById("logistics-room-input")?.value || "Room 204 (Main Hall)",
+            include_opening_slide: includeOpening,
+            include_closing_slide: includeClosing,
+            class_start_time: classStartTime,
+            room_location: roomLocation,
+            room_and_venue: roomLocation,
+            session_dates: sessionDates,
+            session_dates_summary: sessionDates,
             restroom_and_emergency_exit:
               document.getElementById("logistics-emergency-input")?.value ||
               "Hallway West • Main Courtyard Muster Point",
-            session_dates_summary:
-              document.getElementById("logistics-dates-input")?.value ||
-              "Sessions 1–4 (75-Min Blocks) + Optional Make-Up Block",
             next_session_homework:
               document.getElementById("logistics-homework-input")?.value ||
               "Complete Between-Session Workbook tables and bring signed prerequisite evidence.",
@@ -6851,23 +7025,65 @@ function bindCounselorToolkitActions() {
           },
         }),
       }).then((r) => r.json());
-      if (resp && Array.isArray(resp.slides)) {
-        state.currentResult.storyboard.slides = resp.slides;
-        state.currentResult.slide_count = resp.slides.length + 1;
-        document.getElementById("kpi-slide-count").textContent = String(state.currentResult.slide_count);
+
+      let nextSlides = Array.isArray(resp?.slides) ? resp.slides : state.currentResult.storyboard?.slides || [];
+      if (remove) {
+        nextSlides = nextSlides.filter(
+          (s) =>
+            s.slide_id !== "overview-logistics" &&
+            s.slide_id !== "homework-checkout" &&
+            !String(s.slide_id || "").startsWith("logistics-")
+        );
+      }
+      state.currentResult.storyboard.slides = nextSlides;
+      state.currentResult.slide_count = nextSlides.length + 1;
+      const kpiSlideEl = document.getElementById("kpi-slide-count");
+      if (kpiSlideEl) kpiSlideEl.textContent = String(state.currentResult.slide_count);
+
+      if (includeOpening && nextSlides.length > 0) {
         state.activeSlideIdx = 0;
-        renderFilmstrip(resp.slides);
+        renderFilmstrip(nextSlides);
         renderActiveSlide(0);
-        btn.textContent = "✅ Injected Logistics Slides!";
+      } else {
+        const targetIdx = Math.min(Math.max(0, state.activeSlideIdx ?? 0), Math.max(0, nextSlides.length - 1));
+        state.activeSlideIdx = targetIdx;
+        renderFilmstrip(nextSlides);
+        renderActiveSlide(targetIdx);
+      }
+
+      if (typeof saveCurrentDeckAsWorkspace === "function") {
+        await saveCurrentDeckAsWorkspace({
+          class_start_time: classStartTime,
+          room_location: roomLocation,
+          toastMessage: "",
+        });
+      }
+
+      if (btn) {
+        btn.textContent = remove ? "✅ Removed Logistics Slides!" : "✅ Injected Logistics Slides!";
         setTimeout(() => {
           btn.textContent = origText;
         }, 2000);
       }
     } catch (_e) {
-      btn.textContent = origText;
+      if (btn) btn.textContent = origText;
     } finally {
-      btn.disabled = false;
+      if (btn) btn.disabled = false;
     }
+  };
+  window.applyOrRemoveClassLogisticsSlides = applyOrRemoveClassLogisticsSlides;
+
+  document.getElementById("btn-apply-logistics-slides")?.addEventListener("click", (ev) => {
+    applyOrRemoveClassLogisticsSlides({ remove: false, fromModal: false, triggerBtn: ev.currentTarget });
+  });
+  document.getElementById("btn-remove-logistics-slides")?.addEventListener("click", (ev) => {
+    applyOrRemoveClassLogisticsSlides({ remove: true, fromModal: false, triggerBtn: ev.currentTarget });
+  });
+  document.getElementById("btn-ws-apply-logistics-slides")?.addEventListener("click", (ev) => {
+    applyOrRemoveClassLogisticsSlides({ remove: false, fromModal: true, triggerBtn: ev.currentTarget });
+  });
+  document.getElementById("btn-ws-remove-logistics-slides")?.addEventListener("click", (ev) => {
+    applyOrRemoveClassLogisticsSlides({ remove: true, fromModal: true, triggerBtn: ev.currentTarget });
   });
 
   const triggerMarkdownDownload = (filename, content) => {
@@ -7281,7 +7497,7 @@ function buildQuartermasterGearMarkdown(result) {
     "",
   ];
   groups.forEach((g) => {
-    lines.push(`### Requirement ${g.req_number} (${g.execution_mode.replace(/_/g, " ")})`);
+    lines.push(`### Requirement ${g.req_number} (${formatUiExecutionModeLabel(g.execution_mode)})`);
     g.items.forEach((it) => {
       lines.push(`- [ ] ${scaleGearItemForPatrol(it, patrolSize)}`);
     });
@@ -8193,7 +8409,7 @@ function printPocketFieldQrHandout(result) {
       <div style="display:flex; align-items:flex-start; gap:6px; padding:4px 0; border-bottom:1px solid #E2E8F0; font-size:11.5px;">
         <span style="font-weight:800; color:#003F87; min-width:54px;">☐ Req ${escapeHtml(String(r.req_number))}</span>
         <span style="flex:1; color:#1E293B;">${escapeHtml(String(r.req_text || "").slice(0, 165))}</span>
-        <span style="font-size:10px; font-weight:700; color:#475569; background:#F1F5F9; padding:1px 6px; border-radius:4px;">${escapeHtml(String(r.execution_mode || "IN_CLASS").replace(/_/g, " "))}</span>
+        <span style="font-size:10px; font-weight:700; color:#475569; background:#F1F5F9; padding:1px 6px; border-radius:4px;">${escapeHtml(formatUiExecutionModeLabel(r.execution_mode || "IN_CLASS_DISCUSSION"))}</span>
       </div>
     `
     )
@@ -14314,6 +14530,21 @@ async function saveCurrentDeckAsWorkspace(options = {}) {
     existingWs?.workspace_title ||
     badgeName;
 
+  const classStartTime =
+    options.class_start_time !== undefined
+      ? options.class_start_time
+      : document.getElementById("ws-class-time-input")?.value?.trim() ||
+        document.getElementById("input-logistics-time")?.value?.trim() ||
+        existingWs?.class_start_time ||
+        "";
+  const roomLocation =
+    options.room_location !== undefined
+      ? options.room_location
+      : document.getElementById("ws-room-location-input")?.value?.trim() ||
+        document.getElementById("input-logistics-room")?.value?.trim() ||
+        existingWs?.room_location ||
+        "";
+
   const roster = loadBadgeBlueCardRoster(badgeName);
   const slides = state.currentResult?.storyboard?.slides || [];
 
@@ -14323,6 +14554,8 @@ async function saveCurrentDeckAsWorkspace(options = {}) {
     badge_name: badgeName,
     session_label: sessionLabel,
     camp_bundle_tag: bundleTag,
+    class_start_time: classStartTime,
+    room_location: roomLocation,
     template_id: state.activeTemplateId || "default_workbench",
     counselor_info: state.currentResult.counselor_info || {},
     deck_result: state.currentResult,
@@ -14566,6 +14799,14 @@ function renderSavedWorkspacesGrid() {
                   ${w.session_label ? ` &bull; ${escapeHtml(w.session_label)}` : ""}
                   ${w.camp_bundle_tag ? ` &bull; <span style="color:#0284C7; font-weight:700;">🏕️ ${escapeHtml(w.camp_bundle_tag)}</span>` : ""}
                 </div>
+                ${
+                  w.class_start_time || w.room_location
+                    ? `<div class="m3-workspace-card-logistics-chips" style="display:flex; flex-wrap:wrap; gap:5px; margin-top:5px;">
+                        ${w.class_start_time ? `<span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:1px 7px;">⏰ ${escapeHtml(w.class_start_time)}</span>` : ""}
+                        ${w.room_location ? `<span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:1px 7px;">📍 ${escapeHtml(w.room_location)}</span>` : ""}
+                      </div>`
+                    : ""
+                }
               </div>
               ${isAct ? `<span class="m3-chip m3-chip-primary" style="font-size:0.65rem;">Active</span>` : ""}
             </div>
@@ -14726,9 +14967,23 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const titleIn = document.getElementById("ws-title-input");
     const sessionIn = document.getElementById("ws-session-label-input");
     const bundleIn = document.getElementById("ws-bundle-tag-input");
+    const wsTimeIn = document.getElementById("ws-class-time-input");
+    const wsRoomIn = document.getElementById("ws-room-location-input");
     if (titleIn) titleIn.value = activeWs?.workspace_title || curBadge;
     if (sessionIn) sessionIn.value = activeWs?.session_label || "";
     if (bundleIn) bundleIn.value = activeWs?.camp_bundle_tag || "";
+    if (wsTimeIn) {
+      wsTimeIn.value =
+        activeWs?.class_start_time ||
+        document.getElementById("input-logistics-time")?.value ||
+        "8:30 AM – 10:00 AM";
+    }
+    if (wsRoomIn) {
+      wsRoomIn.value =
+        activeWs?.room_location ||
+        document.getElementById("input-logistics-room")?.value ||
+        "Science Lab 204 / Outdoor Pavilion";
+    }
     renderSavedWorkspacesGrid();
     const m = document.getElementById("saved-workspaces-modal");
     m?.classList.remove("hidden");

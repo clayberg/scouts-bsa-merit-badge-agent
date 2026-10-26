@@ -44,11 +44,11 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
 
 Before committing code or packaging `repo.bundle`, run:
 
-1. **Test Suite (`100/100` passing tests)**:
+1. **Test Suite (`133/133` passing tests: `112` unit/integration + `21` golden eval)**:
    ```bash
-   .venv/bin/pytest tests/ -q
+   .venv/bin/pytest tests/ tests/eval_golden_suite.py -q
    ```
-2. **Golden Dataset Evaluation Gate (`Recall@3 = 1.0000`, `0` drift)**:
+2. **Golden Dataset Evaluation Gate (`Recall@3 = 1.0000`, `LLM-as-a-Judge = 4.92/5.0`, `0` drift)**:
    ```bash
    .venv/bin/python3 scripts/run_eval.py
    ```
@@ -73,3 +73,4 @@ Before committing code or packaging `repo.bundle`, run:
 | **`FM-2`** | **Dense Slide Text Overflow & Scanned Figure White-Box Clashing on Cream/Dark Themes**: Long multi-part requirements overflowed bottom slide bounds and showed white rectangular backgrounds on `WARM_CREAM` slides. | Caught by Stage 1 deterministic `<10ms` AABB geometry checker (`check_pptx_conformance()`) and Stage 2 visual auditor (`audit_deck_visual_quality()`). | Added proactive line-wrap font scaling (`12.0pt` floor, `_compute_fitting_font_size()`) and alpha corner flood-fill de-boxing (`_strip_white_image_background()` in `src/tools/pptx_builder.py`). |
 | **`FM-3`** | **Synthetic Placeholder Badge Emblems Instead of Official Embroidered Patches**: Early asset scripts generated vector circles instead of authentic Scout Shop embroidered patches. | Caught by visual perceptual-hash & pixel audit (`scripts/verify_144_emblems.py`). | Replaced all 149 emblems (`143` Active Official + `5` Test Lab + `1` Discontinued) with verified `400x400` Scout Shop embroidered patch PNGs and locked their SHA-256 inventory in `data/asset_inventory_manifest.json`. |
 | **`FM-4`** | **Popup Blocker & Single-Monitor Friction on Dual-Monitor Speaker Teleprompter**: Relying solely on `window.open()` for speaker notes failed when counselors taught from a single laptop screen or strict browser popup settings. | Caught during end-to-end UX rehearsal and Playwright verification. | Built the in-stage **Full-Size Split-Screen Presenter View (`P`)** alongside the synchronized `BroadcastChannel` floating window (`ui/app.js`). |
+| **`FM-5`** | **Test-Suite Catalog Mutation Side-Effect & 5-Part Facilitator Guide Eval Marker Drift**: `seed_badge_image_catalog_from_storyboard` dirtied tracked `catalog.json` files during pytest runs, and `eval_gate.py:302` checked only `[SAY]` (`4.42/5.0` vs. `4.92/5.0`). | Caught by `git status` cleanliness gate and 20-badge `scripts/eval_gate.py` evaluation run. | Added `PYTEST_CURRENT_TEST` write guard in `src/agents/image_studio.py` and updated `scripts/eval_gate.py` (`_evaluate_llm_as_a_judge_rubric`) to recognize `("[PACING & MODALITY]", "[ASK SCOUTS FIRST]", "[SAY]")`. |

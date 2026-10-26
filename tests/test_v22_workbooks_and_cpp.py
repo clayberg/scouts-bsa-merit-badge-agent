@@ -254,3 +254,203 @@ def test_cpp_html_md_and_multipage_pdf_never_blank(badge_name: str) -> None:
     assert "3. What to Bring to Every Session" in full_cpp_pdf_text
     assert "4. What We Will Complete Together in Class" in full_cpp_pdf_text
     cpp_doc.close()
+
+
+BUCKY_10_COMPARISON_BADGES: List[str] = [
+    "Archery",
+    "Aviation",
+    "Canoeing",
+    "Chemistry",
+    "Chess",
+    "Communication",
+    "Cybersecurity",
+    "Electricity",
+    "Fish and Wildlife Management",
+    "Wilderness Survival",
+]
+
+FORBIDDEN_RAW_ENUM_STRINGS = (
+    "RULED_EXPLAIN_BOX",
+    "CITIZENSHIP_CIVIC_ORGANIZER",
+    "HAZARD_5COL",
+    "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+    "IN_CLASS_DISCUSSION",
+    "HANDS_ON_SKILL_STATION",
+    "PREREQUISITE_CAMPOUT_HOME",
+    "COUNSELOR_PRE_APPROVAL",
+    "PARENT_CONSENT_GATE",
+    "HARD_PREREQ_BADGE",
+    "SKETCH_AND_OBSERVATION_CANVAS",
+)
+
+
+@pytest.mark.parametrize("badge_name", ["Citizenship in the Nation", *BUCKY_10_COMPARISON_BADGES])
+def test_zero_raw_enum_strings_and_page1_signoff_grid_and_multicol_acroform(badge_name: str) -> None:
+    """Verifies zero raw internal enum codes leak into user-facing MD, HTML, PDF, or CPP, and checks Page-1 Sign-Off Grid + multi-col AcroForm cells."""
+    import re
+    from src.tools.counselor_studiokit import generate_organizer_syllabus_spec_sheet
+
+    res = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=badge_name))
+    assert res.get("status") == "SUCCESS"
+
+    # 1. Markdown workbook has zero raw enum codes
+    md_text = generate_counselor_workbook_markdown(res)
+    for raw_enum in FORBIDDEN_RAW_ENUM_STRINGS:
+        assert raw_enum not in md_text, f"{badge_name} Markdown workbook leaked raw enum {raw_enum}"
+
+    # 2. Fillable HTML workbook has Page-1 Sign-Off Grid and zero raw enum codes in visible text
+    html_res = generate_fillable_scout_workbook_html(badge_name)
+    html_doc = str(html_res.get("workbook_html") or html_res.get("html_document") or "")
+    assert 'data-testid="wb-page1-signoff-grid"' in html_doc
+    assert "Requirement Completion &amp; Counselor Verification Index" in html_doc
+    # Strip data-organizer-type="..." attribute before checking visible HTML text
+    html_visible = re.sub(r'data-organizer-type="[^"]*"', "", html_doc)
+    for raw_enum in FORBIDDEN_RAW_ENUM_STRINGS:
+        assert raw_enum not in html_visible, f"{badge_name} HTML workbook leaked raw enum {raw_enum}"
+
+    # 3. CPP and Syllabus Spec Sheet have zero raw enum codes
+    cpp_res = generate_class_preparation_page_cpp(badge_name)
+    spec_res = generate_organizer_syllabus_spec_sheet(badge_name)
+    combined_counselor_docs = (
+        str(cpp_res.get("cpp_markdown") or "")
+        + "\n"
+        + str(cpp_res.get("cpp_html") or "")
+        + "\n"
+        + str(spec_res.get("spec_sheet_markdown") or "")
+    )
+    for raw_enum in FORBIDDEN_RAW_ENUM_STRINGS:
+        assert raw_enum not in combined_counselor_docs, f"{badge_name} CPP/Syllabus leaked raw enum {raw_enum}"
+
+    # 4. Fillable AcroForm PDF has Page-1 Sign-Off Grid, zero raw enum codes, and multi-column AcroForm widgets
+    pdf_bytes = generate_fillable_scout_workbook_pdf(badge_name)
+    doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+    full_pdf_text = "\n".join(p.get_text("text") for p in doc)
+    assert "Page-1 Requirement Completion & Counselor Verification Index" in full_pdf_text
+    for raw_enum in FORBIDDEN_RAW_ENUM_STRINGS:
+        assert raw_enum not in full_pdf_text, f"{badge_name} PDF workbook leaked raw enum {raw_enum}"
+
+    widget_names = [
+        str(w.field_name or "")
+        for page in doc
+        for w in (page.widgets() or [])
+    ]
+    assert any("_col_1" in name for name in widget_names), f"{badge_name} PDF missing _col_1 AcroForm widgets"
+    assert any("_col_2" in name for name in widget_names), f"{badge_name} PDF missing _col_2 multi-column AcroForm widgets"
+    doc.close()
+
+
+def test_runtime_workbook_quality_and_bucky_10_badge_parity() -> None:
+    """Verifies runtime workbook organizer sanitization, hierarchical unrolling, and bespoke parity across Citizenship in the Nation and the 10 Bucky comparison badges."""
+    # 1. Citizenship in the Nation: distinct 3b, 3c, 3d organizers + 7b "U.S. Capitol" merge
+    cit = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name="Citizenship in the Nation"))
+    cit_units = {str(u["req_number"]): u for u in _iter_unrolled_workbook_units(cit["requirements"])}
+    assert "Separation of Powers Principle" in " ".join(cit_units["3b"]["workbook_organizer"]["headers"])
+    assert "Branch Exercising Check" in " ".join(cit_units["3c"]["workbook_organizer"]["headers"])
+    assert "How Citizens Participate" in " ".join(cit_units["3d"]["workbook_organizer"]["headers"])
+    assert any("U.S. Capitol" in rl for rl in cit_units["7b"]["workbook_organizer"]["row_labels"])
+
+    # 2. Canoeing 1b: 7 canoeing first aid conditions in 3-column organizer
+    can = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name="Canoeing"))
+    can_units = {str(u["req_number"]): u for u in _iter_unrolled_workbook_units(can["requirements"])}
+    assert can_units["1b"]["workbook_organizer"]["organizer_type"] == "SYMPTOMS_FIRST_AID_PREVENTION_3COL"
+    assert len(can_units["1b"]["workbook_organizer"]["row_labels"]) == 7
+
+    # 3. Communication 4 (Interview Prep Organizer) and 1b (all 4 listening types)
+    comm = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name="Communication"))
+    comm_units = {str(u["req_number"]): u for u in _iter_unrolled_workbook_units(comm["requirements"])}
+    assert "Interview Preparation" in str(comm_units["4"]["workbook_organizer"].get("table_title") or "")
+    assert len(comm_units["4"]["workbook_organizer"]["row_labels"]) == 4
+    assert any("Appreciate or Enjoy" in rl for rl in comm_units["1b"]["workbook_organizer"]["row_labels"])
+    assert any("Understand Someone's Feelings" in rl for rl in comm_units["1b"]["workbook_organizer"]["row_labels"])
+
+    # 4. First Aid 15a, 15b, 15d tailored row labels
+    fa = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name="First Aid"))
+    fa_units = {str(u["req_number"]): u for u in _iter_unrolled_workbook_units(fa["requirements"])}
+    assert len(fa_units["15a"]["workbook_organizer"]["row_labels"]) == 3
+    assert len(fa_units["15b"]["workbook_organizer"]["row_labels"]) == 3
+    assert len(fa_units["15d"]["workbook_organizer"]["row_labels"]) == 3
+
+    # 5. Wilderness Survival 1a consolidated 13-condition table
+    ws = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name="Wilderness Survival"))
+    ws_units = {str(u["req_number"]): u for u in _iter_unrolled_workbook_units(ws["requirements"])}
+    assert ws_units["1a"]["is_group_header"] is False
+    assert ws_units["1a"]["workbook_organizer"]["organizer_type"] == "SYMPTOMS_FIRST_AID_PREVENTION_3COL"
+    assert len(ws_units["1a"]["workbook_organizer"]["row_labels"]) == 13
+    assert "1a(1)" not in ws_units
+
+    # 6. Archery 2d, 5a, 5b group headers and 5a(6)(b) 80-cm target rows
+    arch = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name="Archery"))
+    arch_units = {str(u["req_number"]): u for u in _iter_unrolled_workbook_units(arch["requirements"])}
+    assert arch_units["2d"]["is_group_header"] is True
+    assert arch_units["5a"]["is_group_header"] is True
+    assert arch_units["5b"]["is_group_header"] is True
+    assert "5a(6)(b)" in arch_units
+    assert any("80-cm" in rl or "10 Yards" in rl for rl in arch_units["5a(6)(b)"]["workbook_organizer"]["row_labels"])
+
+
+def test_slide2_insertion_index_and_independent_opening_closing_flags() -> None:
+    """Verifies inject_class_opening_and_closing_slides inserts overview-logistics at index 0 (Slide 2) and supports independent flags and logistics fields."""
+    from src.tools.pptx_builder import inject_class_opening_and_closing_slides
+
+    base_slides = [
+        {"title": "Requirement 1: Foundations", "archetype": "REQUIREMENTS_TRIAGE_MATRIX", "bullet_points": ["Point A"]},
+        {"title": "Requirement 2: Practice", "archetype": "HANDS_ON_STATION", "bullet_points": ["Point B"]},
+    ]
+
+    # Both enabled: opening slide must be at index 0 (Slide 2 immediately after Cover), closing slide at the end
+    both = inject_class_opening_and_closing_slides(
+        badge_name="Citizenship in the Nation",
+        slides=base_slides,
+        logistics_config={
+            "include_opening_slide": True,
+            "include_closing_slide": True,
+            "class_start_time": "9:00 AM Sharp",
+            "room_and_venue": "Scout Hall Room 104",
+            "session_dates_summary": "Oct 10 & Oct 17",
+        },
+    )
+    assert len(both) == 4
+    assert both[0].get("slide_role") == "overview-logistics"
+    assert any("9:00 AM Sharp" in bp for bp in both[0].get("bullet_points", []))
+    assert any("Scout Hall Room 104" in bp for bp in both[0].get("bullet_points", []))
+    assert any("Oct 10 & Oct 17" in bp for bp in both[0].get("bullet_points", []))
+    assert both[-1].get("slide_role") == "homework-checkout"
+
+    # Opening only
+    open_only = inject_class_opening_and_closing_slides(
+        badge_name="Citizenship in the Nation",
+        slides=both,
+        logistics_config={
+            "include_opening_slide": True,
+            "include_closing_slide": False,
+        },
+    )
+    assert len(open_only) == 3
+    assert open_only[0].get("slide_role") == "overview-logistics"
+    assert all(s.get("slide_role") != "homework-checkout" for s in open_only)
+
+    # Closing only
+    close_only = inject_class_opening_and_closing_slides(
+        badge_name="Citizenship in the Nation",
+        slides=both,
+        logistics_config={
+            "include_opening_slide": False,
+            "include_closing_slide": True,
+        },
+    )
+    assert len(close_only) == 3
+    assert all(s.get("slide_role") != "overview-logistics" for s in close_only)
+    assert close_only[-1].get("slide_role") == "homework-checkout"
+
+    # Both disabled: cleanly strips both
+    neither = inject_class_opening_and_closing_slides(
+        badge_name="Citizenship in the Nation",
+        slides=both,
+        logistics_config={
+            "include_opening_slide": False,
+            "include_closing_slide": False,
+        },
+    )
+    assert len(neither) == 2
+    assert [s.get("title") for s in neither] == ["Requirement 1: Foundations", "Requirement 2: Practice"]
+

@@ -8,6 +8,7 @@ Provides AI-assisted Merit Badge Counselor session planning and communication to
    Two-Deep Leadership & Buddy System reminders, and required field gear.
 """
 
+import re
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
 from src.agents.researcher import resolve_counselor_location
@@ -651,6 +652,8 @@ def generate_class_preparation_page_cpp(
             if g_item not in bring_items and len(bring_items) < 6:
                 bring_items.append(str(g_item))
 
+    from src.agents.planner import _format_starting_gate_label
+
     md_lines = [
         f"# {resolved_badge} Merit Badge - 1-Page Class Preparation Page (CPP)",
         f"**Counselor:** {c_name} ({c_troop}) • **YPT Contact:** {c_email} (always CC a parent/guardian or unit leader)",
@@ -660,7 +663,8 @@ def generate_class_preparation_page_cpp(
     ]
     if gates:
         for g in gates:
-            md_lines.append(f"- **[{g.get('gate_type')}] {g.get('gate_label')}:** {g.get('gate_description')}")
+            g_lbl = _format_starting_gate_label(g.get("gate_type"))
+            md_lines.append(f"- **[{g_lbl}] {g.get('gate_label')}:** {g.get('gate_description')}")
     else:
         md_lines.append("- **Unit Leader Approval:** Obtain your Scoutmaster's signature on your Blue Card (#34124) before Session 1.")
 
@@ -684,7 +688,7 @@ def generate_class_preparation_page_cpp(
         )
 
     gates_html = "".join(
-        f"<li><strong>[{_html.escape(str(g.get('gate_type')))}] {_html.escape(str(g.get('gate_label')))}:</strong> {_html.escape(str(g.get('gate_description')))}</li>"
+        f"<li><strong>[{_html.escape(_format_starting_gate_label(g.get('gate_type')))}] {_html.escape(str(g.get('gate_label')))}:</strong> {_html.escape(str(g.get('gate_description')))}</li>"
         for g in gates
     ) or "<li><strong>Unit Leader Approval:</strong> Obtain your Scoutmaster's signature on your Blue Card (#34124) before Session 1.</li>"
 
@@ -761,6 +765,7 @@ def generate_organizer_syllabus_spec_sheet(
     room_needs: str = "Projector/TV + Tables for Buddy Stations",
 ) -> Dict[str, Any]:
     """Generates a 1-Page Event Organizer Catalog & Schedule Spec Sheet for Merit Badge University/College chairs."""
+    from src.agents.planner import _format_session_mode_label
     from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
 
     res = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=badge_name))
@@ -782,11 +787,12 @@ def generate_organizer_syllabus_spec_sheet(
         f"hands-on EDGE skill stations, and Socratic patrol scenarios. "
         f"Prerequisites: {', '.join(prereq_ids) if prereq_ids else 'None (read pamphlet Chapter 1)'}."
     )
+    session_mode_label = _format_session_mode_label(session_mode)
     spec_md = "\n".join([
         f"# {resolved_badge} Merit Badge - Event Organizer Catalog & Schedule Spec Sheet",
         f"- **Instructor / Counselor:** {c_name} ({c_troop})",
         f"- **Eagle-Required:** {'Yes' if res.get('is_eagle_required') else 'No'}",
-        f"- **Session Format:** `{session_mode}` • **Recommended Class Cap:** {max_scouts} Scouts",
+        f"- **Session Format:** {session_mode_label} • **Recommended Class Cap:** {max_scouts} Scouts",
         f"- **Recommended Age / Rank:** {min_age_or_rank}",
         f"- **Room & AV Requirements:** {room_needs}",
         f"- **Pre-Class Prerequisites:** {', '.join(prereq_ids) if prereq_ids else 'None'}",
@@ -1170,6 +1176,32 @@ def generate_fillable_scout_workbook_pdf(
 
     y_cursor += 34.0
     units = _iter_unrolled_workbook_units(reqs)
+
+    # Page-1 At-a-Glance Requirement Completion & Counselor Sign-Off Index
+    fillable_req_nums = [
+        str(u.get("req_number") or u.get("req_id") or "").strip()
+        for u in units
+        if not u.get("is_group_header") and str(u.get("req_number") or u.get("req_id") or "").strip()
+    ]
+    if fillable_req_nums:
+        chips_line = "   ".join(f"[ ] Req {rn}" for rn in fillable_req_nums)
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            28.0,
+            584.0,
+            f"Page-1 Requirement Completion & Counselor Verification Index:  {chips_line}\n"
+            "Unit Leader Pre-Approval (Blue Card #34124): ______________________   Counselor Final Sign-Off: ______________________   Date: ____/____/2026",
+            fontsize=7.3,
+            fontname="helv",
+            color=(0.08, 0.18, 0.36),
+            bg_fill=(0.95, 0.97, 1.0),
+            border_color=(0.0, 0.247, 0.529),
+            pad_y=3.0,
+        )
+        y_cursor += 6.0
+
     for idx, u in enumerate(units, start=1):
         r_num = str(u.get("req_number") or u.get("req_id") or str(idx)).strip()
         r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num}").strip()
@@ -1178,6 +1210,7 @@ def generate_fillable_scout_workbook_pdf(
         r_cit = str(u.get("pamphlet_page_citation") or u.get("pamphlet_citation") or "Official BSA Pamphlet").strip()
         org = u.get("workbook_organizer") or {}
         org_type = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX").strip()
+        org_type_friendly = _format_workbook_organizer_label(org_type)
         org_label = _format_workbook_organizer_label(r_num, org_type)
         headers = [str(h) for h in (org.get("headers") or ["Concept / Step", "Scout Notes & Field Evidence"])]
         row_labels = [str(rl) for rl in (org.get("row_labels") or ["Point 1", "Point 2", "Point 3"])]
@@ -1227,7 +1260,7 @@ def generate_fillable_scout_workbook_pdf(
             y_cursor,
             28.0,
             584.0,
-            f"[Req {r_num}] {r_title}   |   {r_bucket}   |   {org_type}   |   {r_cit}",
+            f"[Req {r_num}] {r_title}   |   {r_bucket}   |   {org_type_friendly}   |   {r_cit}",
             fontsize=8.1,
             fontname="helv",
             color=(0.0, 0.22, 0.48),
@@ -1354,7 +1387,7 @@ def generate_fillable_scout_workbook_pdf(
             y_cursor,
             32.0,
             580.0,
-            f"{org_label} [{org_type}]  |  Columns: {' / '.join(headers)}",
+            f"{org_label}  |  Columns: {' / '.join(headers)}",
             fontsize=7.4,
             fontname="helv",
             color=(0.15, 0.24, 0.38),
@@ -1363,44 +1396,94 @@ def generate_fillable_scout_workbook_pdf(
             pad_y=2.5,
         )
 
-        # Render Structured Organizer Rows + AcroForm Text Fields + Counselor Sign-Off Checkbox
+        # Render Multi-Column Header Row + Structured Organizer Rows + AcroForm Text Fields + Counselor Sign-Off Checkbox
+        input_headers = headers[1:] if len(headers) > 1 else ["Scout Notes & Field Evidence"]
+        input_cols = max(1, len(input_headers))
+        left_col_x0 = 32.0
+        left_col_x1 = 188.0
+        input_region_x0 = 188.0
+        input_region_x1 = 515.0
+        col_w = (input_region_x1 - input_region_x0) / float(input_cols)
+        col_hdr_h = 15.0
+        if y_cursor + col_hdr_h + 24.0 > 748.0:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+        page.draw_rect(
+            fitz.Rect(left_col_x0, y_cursor, left_col_x1, y_cursor + col_hdr_h),
+            color=(0.0, 0.247, 0.529),
+            fill=(0.0, 0.247, 0.529),
+        )
+        page.insert_text(
+            fitz.Point(left_col_x0 + 4.0, y_cursor + 10.5),
+            _sanitize_pdf_text(headers[0])[:30],
+            fontsize=7.0,
+            fontname="helv",
+            color=(1.0, 1.0, 1.0),
+        )
+        for c_idx, h_title in enumerate(input_headers):
+            cx0 = input_region_x0 + c_idx * col_w
+            cx1 = input_region_x0 + (c_idx + 1) * col_w
+            page.draw_rect(
+                fitz.Rect(cx0, y_cursor, cx1, y_cursor + col_hdr_h),
+                color=(0.82, 0.88, 0.95),
+                fill=(0.0, 0.247, 0.529),
+            )
+            max_chars_hdr = max(8, int((col_w - 6.0) / 3.9))
+            page.insert_text(
+                fitz.Point(cx0 + 3.5, y_cursor + 10.5),
+                _sanitize_pdf_text(h_title)[:max_chars_hdr],
+                fontsize=6.9,
+                fontname="helv",
+                color=(1.0, 1.0, 1.0),
+            )
+        y_cursor += col_hdr_h
+
+        safe_r_num = re.sub(r"[^a-zA-Z0-9_]", "_", r_num)
         signoff_placed = False
         for r_idx, rl in enumerate(row_labels, start=1):
-            label_lines = _wrap_pdf_lines(f"{r_idx}. {rl}", 172.0, fontname="helv", fontsize=7.3) or [f"{r_idx}."]
-            row_h = max(20.0, len(label_lines) * 9.8 + 6.0)
+            label_lines = _wrap_pdf_lines(f"{r_idx}. {rl}", 148.0, fontname="helv", fontsize=7.2) or [f"{r_idx}."]
+            row_h = max(20.0, len(label_lines) * 9.6 + 6.0)
             if y_cursor + row_h > 748.0:
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
             row_y0 = y_cursor
             page.draw_rect(
-                fitz.Rect(32.0, row_y0, 212.0, row_y0 + row_h),
+                fitz.Rect(left_col_x0, row_y0, left_col_x1, row_y0 + row_h),
                 color=(0.78, 0.83, 0.90),
                 fill=(0.97, 0.98, 1.0),
             )
             for l_i, l_str in enumerate(label_lines):
                 page.insert_text(
-                    fitz.Point(36.0, row_y0 + 3.0 + (l_i + 0.82) * 9.8),
+                    fitz.Point(left_col_x0 + 4.0, row_y0 + 3.0 + (l_i + 0.82) * 9.6),
                     l_str,
-                    fontsize=7.3,
+                    fontsize=7.2,
                     fontname="helv",
                     color=(0.12, 0.18, 0.26),
                 )
 
-            w_row = fitz.Widget()
-            w_row.field_name = f"req_{r_num}_notes_{idx}" if r_idx == 1 else f"req_{r_num}_row_{idx}_{r_idx}"
-            w_row.field_type = fitz.PDF_WIDGET_TYPE_TEXT
-            w_row.field_flags = fitz.PDF_TX_FIELD_IS_MULTILINE
-            w_row.field_value = ""
-            w_row.rect = fitz.Rect(214.0, row_y0 + 1.0, 515.0, row_y0 + row_h - 1.0)
-            w_row.border_color = (0.68, 0.75, 0.84)
-            w_row.fill_color = (1.0, 1.0, 1.0)
-            w_row.text_fontsize = 8.0
-            page.add_widget(w_row)
+            for c_idx in range(input_cols):
+                cx0 = input_region_x0 + c_idx * col_w
+                cx1 = input_region_x0 + (c_idx + 1) * col_w
+                page.draw_rect(
+                    fitz.Rect(cx0, row_y0, cx1, row_y0 + row_h),
+                    color=(0.78, 0.83, 0.90),
+                    fill=(1.0, 1.0, 1.0),
+                )
+                w_row = fitz.Widget()
+                w_row.field_name = f"req_{safe_r_num}_row_{idx}_{r_idx}_col_{c_idx + 1}"
+                w_row.field_type = fitz.PDF_WIDGET_TYPE_TEXT
+                w_row.field_flags = fitz.PDF_TX_FIELD_IS_MULTILINE
+                w_row.field_value = ""
+                w_row.rect = fitz.Rect(cx0 + 1.0, row_y0 + 1.0, cx1 - 1.0, row_y0 + row_h - 1.0)
+                w_row.border_color = (0.68, 0.75, 0.84)
+                w_row.fill_color = (1.0, 1.0, 1.0)
+                w_row.text_fontsize = 7.8
+                page.add_widget(w_row)
 
             if not signoff_placed:
                 page.insert_text(fitz.Point(520.0, row_y0 + 10.0), "Done:", fontsize=7.3, fontname="helv", color=(0.2, 0.25, 0.33))
                 w_chk = fitz.Widget()
-                w_chk.field_name = f"req_{r_num}_done_{idx}"
+                w_chk.field_name = f"req_{safe_r_num}_done_{idx}"
                 w_chk.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
                 w_chk.field_value = False
                 w_chk.rect = fitz.Rect(548.0, row_y0 + 2.0, 561.0, row_y0 + 15.0)

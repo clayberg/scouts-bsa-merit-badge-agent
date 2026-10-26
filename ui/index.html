@@ -664,7 +664,7 @@
                   <button type="button" class="m3-hero-demo-item" role="menuitem" data-demo-id="demo-8-mcp-and-docs-studio" id="btn-demo-8-mcp-and-docs-studio">
                     <span class="m3-hero-demo-item-icon">🔌</span>
                     <span class="m3-hero-demo-item-body">
-                      <span class="m3-hero-demo-item-title" id="tour-menu-title-8">Tour 8: 22-Capability MCP Playground &amp; 12-Doc Reference Studio</span>
+                      <span class="m3-hero-demo-item-title" id="tour-menu-title-8">Tour 8: 27-Capability MCP Playground &amp; 12-Doc Reference Studio</span>
                       <span class="m3-hero-demo-item-desc" id="tour-menu-desc-8">Previews Claude Desktop &amp; Gemini CLI MCP configs, runs a Guided Prompt and Tool call in both Visual Card and Raw JSON-RPC 2.0 views, then steps through User Guide, Admin Guide, and Engineering Docs (README).</span>
                     </span>
                   </button>
@@ -1307,7 +1307,14 @@
                   <span id="slide-multimedia-summary-label">📖 Pamphlet Page Reference, Workbook Organizer &amp; Curated Field Resources</span>
                   <span id="slide-gate-badges-inline" style="display:inline-flex; gap:6px; flex-wrap:wrap;"></span>
                 </summary>
-                <div id="slide-multimedia-drawer-body" style="margin-top:8px; font-size:0.80rem; display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:10px;"></div>
+                <div id="slide-multimedia-drawer-body" style="margin-top:8px; font-size:0.80rem; display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:10px;">
+                  <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:center;">
+                    <span id="drawer-pamphlet-citation-chip" class="m3-chip m3-chip-secondary" style="font-size:0.74rem; font-weight:700;"></span>
+                    <span id="drawer-workbook-citation-chip" class="m3-chip m3-chip-secondary" style="font-size:0.74rem; font-weight:700;"></span>
+                    <span id="drawer-gate-badges-wrap" style="display:inline-flex; gap:6px; flex-wrap:wrap;"></span>
+                  </div>
+                  <div id="slide-multimedia-links-list" style="display:flex; flex-wrap:wrap; gap:6px; align-items:center;"></div>
+                </div>
               </details>
 
               <!-- OPT-IN CLASS LOGISTICS SLIDES DRAWER (SLIDE 2 OPENING ROADMAP & SLIDE N HOMEWORK / CHECK-OUT) -->
@@ -1316,7 +1323,7 @@
                   <span>🏫 Optional Class Logistics Slides (Slide 2 Session Roadmap &amp; Slide N Homework / Blue Card Check-Out)</span>
                   <span class="m3-chip m3-chip-primary" style="font-size:0.68rem;">Multi-Session Clinic Ready</span>
                 </summary>
-                <div style="margin-top:8px; display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:8px; align-items:end;">
+                <div style="margin-top:8px; display:grid; grid-template-columns:repeat(auto-fit, minmax(175px, 1fr)); gap:8px; align-items:end;">
                   <label style="display:flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:700; cursor:pointer;">
                     <input type="checkbox" id="chk-inject-slide2-roadmap" checked style="width:15px; height:15px;" />
                     Include Slide 2 (Overview &amp; Pre-Work Gate)
@@ -1326,6 +1333,10 @@
                     Include Final Slide (Homework &amp; Check-Out)
                   </label>
                   <div>
+                    <label class="m3-field-label" for="input-logistics-time" style="font-size:0.71rem;">Class Start Time</label>
+                    <input type="text" id="input-logistics-time" class="m3-input" value="8:30 AM – 10:00 AM" style="padding:4px 8px; font-size:0.76rem;" />
+                  </div>
+                  <div>
                     <label class="m3-field-label" for="input-logistics-room" style="font-size:0.71rem;">Room / Teaching Station</label>
                     <input type="text" id="input-logistics-room" class="m3-input" value="Science Lab 204 / Outdoor Pavilion" style="padding:4px 8px; font-size:0.76rem;" />
                   </div>
@@ -1333,9 +1344,14 @@
                     <label class="m3-field-label" for="input-logistics-sessions" style="font-size:0.71rem;">Session Dates / Schedule</label>
                     <input type="text" id="input-logistics-sessions" class="m3-input" value="4x 75-Min Sessions (S1–S4) + Make-Up Block" style="padding:4px 8px; font-size:0.76rem;" />
                   </div>
-                  <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-logistics-slides" style="padding:6px 12px; font-size:0.76rem;">
-                    ➕ Inject / Update Logistics Slides
-                  </button>
+                  <div style="display:flex; gap:6px; flex-wrap:wrap;">
+                    <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-logistics-slides" style="padding:6px 12px; font-size:0.76rem;">
+                      ➕ Inject / Update Logistics Slides
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-remove-logistics-slides" style="padding:6px 10px; font-size:0.75rem;">
+                      🗑️ Remove Logistics Slides
+                    </button>
+                  </div>
                 </div>
               </details>
             </div>
@@ -3456,6 +3472,58 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
           </button>
         </div>
 
+        <!-- CLASSROOM SESSION TIME, LOCATION & OPTIONAL LOGISTICS SLIDES (SLIDE 2 & FINAL SLIDE) -->
+        <div id="ws-class-logistics-panel" class="m3-card" style="padding:10px 14px; border-radius:12px; border:1px solid var(--md-sys-color-outline-variant); background:var(--md-sys-color-surface-container-low); margin-bottom:14px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
+            <div style="font-size:0.80rem; font-weight:800; color:var(--md-sys-color-primary);">
+              🏫 Classroom Session Time, Location &amp; Optional Logistics Slides (Slide 2 &amp; Final Slide)
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+              <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.75rem; font-weight:700; cursor:pointer;">
+                <input type="checkbox" id="ws-chk-include-slide2" checked style="width:14px; height:14px;" />
+                Include Slide 2: Overview, Time/Room &amp; Pre-Work Gate
+              </label>
+              <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.75rem; font-weight:700; cursor:pointer;">
+                <input type="checkbox" id="ws-chk-include-sliden" checked style="width:14px; height:14px;" />
+                Include Final Slide: Homework &amp; Blue Card Check-Out
+              </label>
+            </div>
+          </div>
+          <div style="display:grid; grid-template-columns:1fr 1fr 1.1fr auto auto; gap:8px; align-items:end;">
+            <div>
+              <label class="m3-field-label" for="ws-class-time-input" style="font-size:0.71rem;">Class Start Time</label>
+              <input type="text" id="ws-class-time-input" list="ws-class-time-datalist" class="m3-input" value="8:30 AM – 10:00 AM" placeholder="e.g., 8:30 AM – 10:00 AM" style="padding:5px 9px; font-size:0.77rem;" />
+              <datalist id="ws-class-time-datalist">
+                <option value="8:30 AM – 10:00 AM (Session 1)"></option>
+                <option value="10:15 AM – 11:45 AM (Session 2)"></option>
+                <option value="9:00 AM – 12:00 PM (Morning Clinic)"></option>
+                <option value="1:00 PM – 4:00 PM (Afternoon Clinic)"></option>
+                <option value="7:00 PM – 8:30 PM (Troop Meeting)"></option>
+              </datalist>
+            </div>
+            <div>
+              <label class="m3-field-label" for="ws-room-location-input" style="font-size:0.71rem;">Classroom / Location</label>
+              <input type="text" id="ws-room-location-input" list="ws-room-location-datalist" class="m3-input" value="Science Lab 204 / Outdoor Pavilion" placeholder="e.g., Science Lab 204" style="padding:5px 9px; font-size:0.77rem;" />
+              <datalist id="ws-room-location-datalist">
+                <option value="Science Lab 204"></option>
+                <option value="Outdoor Pavilion / Picnic Shelter"></option>
+                <option value="Camp Waterfront / Parade Field"></option>
+                <option value="Scout Hut / Fellowship Hall"></option>
+              </datalist>
+            </div>
+            <div>
+              <label class="m3-field-label" for="ws-session-dates-input" style="font-size:0.71rem;">Session Dates / Format</label>
+              <input type="text" id="ws-session-dates-input" class="m3-input" value="4x 75-Min Sessions (S1–S4) + Make-Up Block" style="padding:5px 9px; font-size:0.77rem;" />
+            </div>
+            <button type="button" class="m3-btn m3-btn-filled" id="btn-ws-apply-logistics-slides" style="padding:6px 12px; font-size:0.75rem; font-weight:800; white-space:nowrap;">
+              ➕ Insert / Update Slides in Deck
+            </button>
+            <button type="button" class="m3-btn m3-btn-outlined" id="btn-ws-remove-logistics-slides" style="padding:6px 10px; font-size:0.75rem; font-weight:700; white-space:nowrap;">
+              🗑️ Remove Logistics Slides
+            </button>
+          </div>
+        </div>
+
         <div id="saved-workspaces-grid" class="m3-saved-workspaces-grid"></div>
       </div>
     </div>
@@ -3475,7 +3543,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
             </span>
           </div>
           <div style="font-size:0.80rem; color:var(--md-sys-color-on-surface-variant); margin-top:3px;">
-            Connect Claude Desktop, Gemini CLI / AGY, Cursor, or Google ADK agents directly to the Workbench via <strong>12 MCP Tools</strong>, <strong>6 Grounded <code>bsa://</code> Resources</strong>, and <strong>4 Pedagogical Prompts</strong>.
+            Connect Claude Desktop, Gemini CLI / AGY, Cursor, or Google ADK agents directly to the Workbench via <strong>15 MCP Tools</strong>, <strong>7 Grounded <code>bsa://</code> Resources</strong>, and <strong>5 Pedagogical Prompts</strong>.
           </div>
         </div>
         <div style="display:flex; align-items:center; gap:8px;">
@@ -3509,7 +3577,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
             <div class="m3-card" style="padding:14px; flex:1 1 auto;">
               <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; margin-bottom:6px; flex-wrap:wrap;">
                 <div style="font-size:0.84rem; font-weight:800; color:var(--md-sys-color-primary);">
-                  2. Grounded <code>bsa://</code> Resources (6) &amp; Guided Prompts (4)
+                  2. Grounded <code>bsa://</code> Resources (7) &amp; Guided Prompts (5)
                 </div>
                 <span style="font-size:0.69rem; color:var(--md-sys-color-on-surface-muted); font-weight:700;">Click ▶ to execute or 📋 to copy</span>
               </div>
